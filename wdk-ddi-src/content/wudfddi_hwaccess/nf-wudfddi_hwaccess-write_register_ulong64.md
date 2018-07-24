@@ -4,7 +4,7 @@ title: WRITE_REGISTER_ULONG64 function
 author: windows-driver-content
 description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
 old-location: wdf\write_register_ulong64.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 50C407F2-657F-451F-8A6B-BEEB533D89DE
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

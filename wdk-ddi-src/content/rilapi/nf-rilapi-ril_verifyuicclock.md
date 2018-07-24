@@ -4,10 +4,10 @@ title: RIL_VerifyUiccLock function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_verifyuicclock.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e32e4b7d-715b-4eae-832f-314980ab89b3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_verifyuicclock, rilapi/RIL_VerifyUiccLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

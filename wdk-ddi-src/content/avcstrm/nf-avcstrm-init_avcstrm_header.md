@@ -4,7 +4,7 @@ title: INIT_AVCSTRM_HEADER macro
 author: windows-driver-content
 description: The INIT_AVCSTRM_HEADER macro initializes the SizeOfThisBlock, Version and Function members of the AVC_STREAM_REQUEST_BLOCK structure.
 old-location: stream\init_avcstrm_header.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

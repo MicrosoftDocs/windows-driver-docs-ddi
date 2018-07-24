@@ -4,7 +4,7 @@ title: RtlUnicodeStringInit function
 author: windows-driver-content
 description: The RtlUnicodeStringInit function initializes a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringinit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 319d1d6e-a4a2-4c2c-9c30-948c5f03a2be
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

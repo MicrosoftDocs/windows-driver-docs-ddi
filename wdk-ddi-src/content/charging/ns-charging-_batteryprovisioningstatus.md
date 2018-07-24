@@ -4,7 +4,7 @@ title: "_BATTERYPROVISIONINGSTATUS"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\batteryprovisioningstatus.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 4CDDBBC4-2462-41B3-B425-D635B4F1F0C4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

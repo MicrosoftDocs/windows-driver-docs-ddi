@@ -4,7 +4,7 @@ title: "_STOR_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
 old-location: storage\stor_device_power_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 563ece3e-1359-4e3c-9ae7-61b94bf90ad0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: SdBusOpenInterface function
 author: windows-driver-content
 description: The SdBusOpenInterface routine obtains an interface from the Secure Digital (SD) bus driver.
 old-location: sd\sdbusopeninterface.htm
-old-project: SD
+tech.root: SD
 ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

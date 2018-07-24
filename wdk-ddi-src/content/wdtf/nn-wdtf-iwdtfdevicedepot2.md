@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2
 author: windows-driver-content
 description: Defines properties and operations for the collection of devices on a computer.
 old-location: dtf\iwdtfdevicedepot2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 7f7f1286-83e9-4bd8-ac57-1c3def4c0035
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: HW_INITIALIZE_TRACING
 author: windows-driver-content
 description: The HwStorInitializeTracing callback routine allows the Storport virtual miniport driver to set up tracing and any related resources.
 old-location: storage\hwstorinitializetracing.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e0d4ea58-415b-4ea4-9001-8a23ab44a1bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

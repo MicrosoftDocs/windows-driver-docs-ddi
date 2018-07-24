@@ -4,7 +4,7 @@ title: MARK_HANDLE_INFO32
 author: windows-driver-content
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 old-location: ifsk\mark_handle_info32.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: BAC97D72-23C4-49A6-A13D-0F011113DB32
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

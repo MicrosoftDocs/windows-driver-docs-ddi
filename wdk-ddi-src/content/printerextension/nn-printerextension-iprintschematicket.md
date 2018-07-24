@@ -4,7 +4,7 @@ title: IPrintSchemaTicket
 author: windows-driver-content
 description: Provides the primary method to access and validate a PrintTicket.
 old-location: print\iprintschematicket_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

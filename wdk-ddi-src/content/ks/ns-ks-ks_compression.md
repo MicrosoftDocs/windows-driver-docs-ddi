@@ -4,7 +4,7 @@ title: KS_COMPRESSION
 author: windows-driver-content
 description: The KS_COMPRESSION structure defines the compression of frames on an output pin.
 old-location: stream\ks_compression.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 065f51c3-f476-4f04-880a-5c42e493d458
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

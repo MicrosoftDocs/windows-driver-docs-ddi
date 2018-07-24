@@ -4,7 +4,7 @@ title: KeAcquireSpinLock macro
 author: windows-driver-content
 description: The KeAcquireSpinLock routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 old-location: kernel\keacquirespinlock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 10999175-4793-4045-8a74-a9a491724ec9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

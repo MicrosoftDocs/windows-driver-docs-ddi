@@ -4,7 +4,7 @@ title: GetCPSUIUserData function
 author: windows-driver-content
 description: CPSUI's GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.
 old-location: print\getcpsuiuserdata.htm
-old-project: print
+tech.root: print
 ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

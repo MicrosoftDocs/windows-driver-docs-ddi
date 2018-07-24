@@ -4,7 +4,7 @@ title: KsAllocateObjectBag function
 author: windows-driver-content
 description: The KsAllocateObjectBag function creates an object bag and associates it with a KSDEVICE.
 old-location: stream\ksallocateobjectbag.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

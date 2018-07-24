@@ -4,7 +4,7 @@ title: "_KSSTREAM_SEGMENT"
 author: windows-driver-content
 description: The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
 old-location: stream\ksstream_segment.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 433b1346-f0f1-46f7-a1d8-e6397b2f7f05
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

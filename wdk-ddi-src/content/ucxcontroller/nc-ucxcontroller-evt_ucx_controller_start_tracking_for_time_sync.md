@@ -4,10 +4,10 @@ title: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC
 author: windows-driver-content
 description: UCX invokes this callback function to the start time tracking functionality in the controller.
 old-location: buses\evt_ucx_controller_start_tracking_for_time_sync.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 8465B255-E36E-481D-B063-597B9C861DCD
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

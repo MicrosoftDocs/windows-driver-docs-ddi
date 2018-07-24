@@ -4,10 +4,10 @@ title: MINIPORT_PAUSE
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportPause function to stop the flow of network data through a specified miniport adapter.
 old-location: netvista\miniportpause.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 047241a5-6f52-4a82-a334-8508f0de5e1a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_PAUSE, MINIPORT_PAUSE callback, MiniportPause, MiniportPause callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_ff1257db-4c3e-4e0d-8d46-1736567339ba.xml, ndis/MiniportPause, netvista.miniportpause
 ms.prod: windows-hardware
 ms.technology: windows-devices

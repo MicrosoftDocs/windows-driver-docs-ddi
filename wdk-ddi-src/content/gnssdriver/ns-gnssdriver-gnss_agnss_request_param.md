@@ -4,7 +4,7 @@ title: GNSS_AGNSS_REQUEST_PARAM
 author: windows-driver-content
 description: This structure defines AGNSS request parameters.
 old-location: gnss\gnss_agnss_request_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 67A1DAEF-13D3-4D47-B10C-0CA30C8EB22F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

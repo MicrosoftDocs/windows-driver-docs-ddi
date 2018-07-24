@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_WAIT_MASK
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_WAIT_MASK request returns the event wait mask that is currently set for the serial controller.
 old-location: serports\ioctl_serial_get_wait_mask.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 2ee8591a-f48e-43ad-8b88-74a1401aad07
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

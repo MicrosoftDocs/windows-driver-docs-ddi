@@ -4,7 +4,7 @@ title: "_PEP_PPM_LPI_COMPLETE"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor.
 old-location: kernel\pep_ppm_query_feedback_counters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A27D34CC-A702-4944-84B7-FF9AF6BA030B
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
@@ -16,18 +16,18 @@ req.header: pep_x.h
 req.include-header: Pep_x.h, Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -60,12 +60,12 @@ The <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure describes all the processor
 
 ### -field CoordinatedStateCount
 
- 
+
 
 
 ### -field CoordinatedStates
 
- 
+
 
 
 

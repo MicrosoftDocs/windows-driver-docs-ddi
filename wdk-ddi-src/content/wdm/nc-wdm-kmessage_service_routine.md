@@ -4,7 +4,7 @@ title: KMESSAGE_SERVICE_ROUTINE
 author: windows-driver-content
 description: An InterruptMessageService routine services a message-signaled interrupt.
 old-location: kernel\interruptmessageservice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f84e1835-33a4-4300-8701-ed73249f8119
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

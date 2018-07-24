@@ -4,7 +4,7 @@ title: EVT_WDF_COMPANION_PRE_D0_ENTRY
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_pre_d0_entry.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 18d55cf3-62c3-42e8-8c33-f61ea80ff680
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

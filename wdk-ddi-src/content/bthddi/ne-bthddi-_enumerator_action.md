@@ -4,7 +4,7 @@ title: "_ENUMERATOR_ACTION"
 author: windows-driver-content
 description: Reserved for internal use.
 old-location: bltooth\enumerator_action.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d5acaec6-7b3b-4dd9-8901-f96b4e49149f
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

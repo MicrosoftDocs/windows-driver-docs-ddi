@@ -4,7 +4,7 @@ title: WdfFileObjectGetFileName function
 author: windows-driver-content
 description: The WdfFileObjectGetFileName method returns the file name that a specified framework file object contains.
 old-location: wdf\wdffileobjectgetfilename.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9d4e45c7-ed1f-476a-8522-4213ac42a3c3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

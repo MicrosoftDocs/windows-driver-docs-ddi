@@ -4,7 +4,7 @@ title: IoIsFileObjectIgnoringSharing function
 author: windows-driver-content
 description: The IoIsFileObjectIgnoringSharing routine determines if a file object is set with the option to ignore file sharing access checks.
 old-location: ifsk\ioisfileobjectignoringsharing.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

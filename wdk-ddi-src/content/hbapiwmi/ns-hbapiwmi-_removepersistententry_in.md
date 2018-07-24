@@ -4,7 +4,7 @@ title: "_RemovePersistentEntry_IN"
 author: windows-driver-content
 description: The RemovePersistentEntry_IN structure is used by a WMI client to deliver input parameter data to the RemovePersistentEntry WMI method.
 old-location: storage\removepersistententry_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7019ee37-2080-4ba3-ba39-977e575ec04e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

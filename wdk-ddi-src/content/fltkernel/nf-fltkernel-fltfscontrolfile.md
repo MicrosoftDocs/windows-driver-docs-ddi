@@ -4,7 +4,7 @@ title: FltFsControlFile function
 author: windows-driver-content
 description: The FltFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 old-location: ifsk\fltfscontrolfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

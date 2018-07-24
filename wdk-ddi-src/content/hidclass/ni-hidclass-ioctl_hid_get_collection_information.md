@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_COLLECTION_INFORMATION
 author: windows-driver-content
 description: The IOCTL_HID_GET_COLLECTION_INFORMATION request obtains a top-level collection's HID_COLLECTION_INFORMATION structure.
 old-location: hid\ioctl_hid_get_collection_information.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 4d080a3d-7277-4bc5-b435-af2c334862ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

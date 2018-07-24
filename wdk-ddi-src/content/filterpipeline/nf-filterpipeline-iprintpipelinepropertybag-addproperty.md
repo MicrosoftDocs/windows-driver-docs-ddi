@@ -4,7 +4,7 @@ title: IPrintPipelinePropertyBag::AddProperty
 author: windows-driver-content
 description: The AddProperty method adds a property to a property bag.
 old-location: print\iprintpipelinepropertybag_addproperty.htm
-old-project: print
+tech.root: print
 ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

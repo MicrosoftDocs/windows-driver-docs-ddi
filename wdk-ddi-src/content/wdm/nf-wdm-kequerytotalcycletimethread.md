@@ -4,7 +4,7 @@ title: KeQueryTotalCycleTimeThread function
 author: windows-driver-content
 description: The KeQueryTotalCycleTimeThread routine returns the accumulated cycle time for the specified thread.
 old-location: kernel\kequerytotalcycletimethread_.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

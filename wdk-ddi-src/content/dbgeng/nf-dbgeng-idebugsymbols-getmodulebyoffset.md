@@ -4,10 +4,10 @@ title: IDebugSymbols::GetModuleByOffset
 author: windows-driver-content
 description: The GetModuleByOffset method searches through the target's modules for one whose memory allocation includes the specified location.
 old-location: debugger\getmodulebyoffset.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: ff51d0d1-47f1-4df6-b671-d74f791d778b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetModuleByOffset, GetModuleByOffset method [Windows Debugging], GetModuleByOffset method [Windows Debugging],IDebugSymbols interface, GetModuleByOffset method [Windows Debugging],IDebugSymbols2 interface, GetModuleByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByOffset method, IDebugSymbols.GetModuleByOffset, IDebugSymbols2 interface [Windows Debugging],GetModuleByOffset method, IDebugSymbols2::GetModuleByOffset, IDebugSymbols3 interface [Windows Debugging],GetModuleByOffset method, IDebugSymbols3::GetModuleByOffset, IDebugSymbols::GetModuleByOffset, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, dbgeng/IDebugSymbols2::GetModuleByOffset, dbgeng/IDebugSymbols3::GetModuleByOffset, dbgeng/IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_BINARY_CONTAINER"
 author: windows-driver-content
 description: The BINARY_CONTAINER structure is a container for binary data.
 old-location: print\binary_container.htm
-old-project: print
+tech.root: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlNumberOfClearBits function
 author: windows-driver-content
 description: The RtlNumberOfClearBits routine returns a count of the clear bits in a given bitmap variable.
 old-location: kernel\rtlnumberofclearbits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 739dc01d-7340-449f-8fe6-64e5c8284436
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: UcmConnectorPdSourceCaps function
 author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the connector.
 old-location: buses\ucmconnectorpdsourcecaps.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 7C52EE60-7903-42A7-B535-9B8ED7A4B021
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmConnectorPdSourceCaps, UcmConnectorPdSourceCaps method [Buses], buses.ucmconnectorpdsourcecaps, ucmmanager/UcmConnectorPdSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

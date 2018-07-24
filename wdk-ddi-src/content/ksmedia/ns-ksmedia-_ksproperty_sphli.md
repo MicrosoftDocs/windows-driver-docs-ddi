@@ -4,7 +4,7 @@ title: "_KSPROPERTY_SPHLI"
 author: windows-driver-content
 description: The KSPROPERTY_SPHLI structure is used to describe a rectangle of subpicture or screen whose color or contrast is to be changed.
 old-location: stream\ksproperty_sphli.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

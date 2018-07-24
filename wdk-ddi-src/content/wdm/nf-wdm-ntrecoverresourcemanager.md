@@ -4,7 +4,7 @@ title: NtRecoverResourceManager function
 author: windows-driver-content
 description: The ZwRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\zwrecoverresourcemanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 976ea17c-db43-487d-a378-3d65d12ddc98
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

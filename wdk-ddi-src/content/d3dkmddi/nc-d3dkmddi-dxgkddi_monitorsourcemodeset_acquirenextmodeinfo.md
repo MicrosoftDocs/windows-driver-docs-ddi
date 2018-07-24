@@ -4,10 +4,10 @@ title: DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO
 author: windows-driver-content
 description: The pfnAcquireNextModeInfo function returns a descriptor of the next mode in a specified monitor source mode set, given the current mode.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirenextmodeinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 55c629c5-1d73-40dd-a5aa-73ddcc5236b5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO, DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO callback, VidPnFunctions_72e7111d-6944-4cf1-86a7-2f3ad705a707.xml, d3dkmddi/pfnAcquireNextModeInfo, display.dxgk_monitorsourcemodeset_interface_pfnacquirenextmodeinfo, pfnAcquireNextModeInfo, pfnAcquireNextModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

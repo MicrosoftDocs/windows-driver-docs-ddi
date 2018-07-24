@@ -4,7 +4,7 @@ title: RxInitializeContext function
 author: windows-driver-content
 description: RxInitializeContext initializes an existing RX_CONTEXT data structure.
 old-location: ifsk\rxinitializecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IPrintSchemaOption
 author: windows-driver-content
 description: Exposes a Print Schema Option object.
 old-location: print\iprintschemaoption_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: B520875A-7882-43D5-A890-0F82654EFD6C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

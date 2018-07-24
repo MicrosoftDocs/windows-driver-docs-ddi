@@ -4,7 +4,7 @@ title: "_INDICATION_PARAMETERS"
 author: windows-driver-content
 description: The INDICATION_PARAMETERS structure is passed as the Parameters parameter to a profile driver's L2CAP Callback Function.
 old-location: bltooth\indication_parameters.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

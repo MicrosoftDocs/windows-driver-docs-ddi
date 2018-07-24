@@ -4,7 +4,7 @@ title: ZwFreeVirtualMemory function
 author: windows-driver-content
 description: The ZwFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
 old-location: kernel\zwfreevirtualmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

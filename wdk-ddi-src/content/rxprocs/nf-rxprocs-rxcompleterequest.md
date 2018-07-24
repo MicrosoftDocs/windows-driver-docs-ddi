@@ -4,7 +4,7 @@ title: RxCompleteRequest function
 author: windows-driver-content
 description: RxCompleteRequest completes the IRP request associated with an RX_CONTEXT structure.
 old-location: ifsk\rxcompleterequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f5e9219b-0697-427e-b92e-7cd647a0e0b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

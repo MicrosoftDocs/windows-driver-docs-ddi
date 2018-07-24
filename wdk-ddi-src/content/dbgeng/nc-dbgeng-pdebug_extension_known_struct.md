@@ -4,11 +4,11 @@ title: PDEBUG_EXTENSION_KNOWN_STRUCT
 author: windows-driver-content
 description: The engine calls the KnownStructOutput callback function to request information about structures that the extension DLL can format for printing. The engine calls this function for the following reasons.
 old-location: debugger\knownstructoutput.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 76b7e097-4953-4988-8999-07bbfbd65912
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_KNOWN_StructOutput, dbgeng/KnownStructOutput, debugger.knownstructoutput
+ms.date: 5/3/2018
+ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT, PDEBUG_EXTENSION_KNOWN_STRUCT callback, dbgeng/KnownStructOutput, debugger.knownstructoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_EXTENSION_KNOWN_STRUCT callback
+# PDEBUG_EXTENSION_KNOWN_STRUCT callback function
 
 
 ## -description

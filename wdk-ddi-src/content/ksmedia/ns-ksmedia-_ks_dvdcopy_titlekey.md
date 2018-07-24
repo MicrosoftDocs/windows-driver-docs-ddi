@@ -4,7 +4,7 @@ title: "_KS_DVDCOPY_TITLEKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_titlekey.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

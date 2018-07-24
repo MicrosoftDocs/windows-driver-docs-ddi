@@ -4,10 +4,10 @@ title: D3DKMTSetAllocationPriority function
 author: windows-driver-content
 description: The D3DKMTSetAllocationPriority function sets the priority level of a resource or list of allocations.
 old-location: display\d3dkmtsetallocationpriority.htm
-old-project: display
+tech.root: display
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, d3dkmthk/D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

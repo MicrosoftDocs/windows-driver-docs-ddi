@@ -4,7 +4,7 @@ title: "_WDF_INTERRUPT_PRIORITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts.
 old-location: wdf\wdf_interrupt_priority_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

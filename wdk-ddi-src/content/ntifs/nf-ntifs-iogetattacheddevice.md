@@ -4,7 +4,7 @@ title: IoGetAttachedDevice function
 author: windows-driver-content
 description: The IoGetAttachedDevice routine returns a pointer to the highest-level device object associated with the specified device.
 old-location: ifsk\iogetattacheddevice.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 18083431-37b5-49e9-9c69-8b6cd7b5f736
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

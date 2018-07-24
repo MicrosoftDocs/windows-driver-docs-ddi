@@ -4,7 +4,7 @@ title: "_CHANGER_ELEMENT_LIST"
 author: windows-driver-content
 description: The CHANGER_ELEMENT_LIST structure indicates a range of elements of a single type.
 old-location: storage\changer_element_list.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6e85eaa7-d622-4b05-9efd-c1b6b7789c03
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

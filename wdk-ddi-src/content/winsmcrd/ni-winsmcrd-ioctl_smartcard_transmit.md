@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_TRANSMIT
 author: windows-driver-content
 description: Transmits data from the client to the detected smart card in ISO7816-4 compliant APDU.
 old-location: nfpdrivers\ioctl_smartcard_transmit.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: FE6CB06D-C418-4B9E-B5F6-8579B1ED5974
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

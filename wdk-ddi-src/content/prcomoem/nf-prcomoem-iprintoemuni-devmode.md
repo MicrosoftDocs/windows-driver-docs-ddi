@@ -4,7 +4,7 @@ title: IPrintOemUni::DevMode
 author: windows-driver-content
 description: The IPrintOemUni::DevMode method, provided by rendering plug-ins for Unidrv, performs operations on private DEVMODEW members.
 old-location: print\iprintoemuni_devmode.htm
-old-project: print
+tech.root: print
 ms.assetid: df6bde70-ba14-411b-88a1-b45f2e2756ef
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

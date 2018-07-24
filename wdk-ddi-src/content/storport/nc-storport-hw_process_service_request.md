@@ -4,7 +4,7 @@ title: HW_PROCESS_SERVICE_REQUEST
 author: windows-driver-content
 description: The HwStorProcessServiceRequest callback routine receives the device control IRP that contains the IOCTL_MINIPORT_PROCESS_SERVICE_IRP request when a caller, such as a user-mode application or kernel-mode driver, requires a &#0034;reverse callback&#0034; operation.
 old-location: storage\hwstorprocessservicerequest.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bdcaf9a7-4c79-407b-bec4-182f3a1d1f37
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

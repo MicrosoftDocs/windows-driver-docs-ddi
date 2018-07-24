@@ -4,7 +4,7 @@ title: PPUT_DMA_ADAPTER
 author: windows-driver-content
 description: The PutDmaAdapter routine frees a DMA_ADAPTER structure previously allocated by IoGetDmaAdapter.
 old-location: kernel\putdmaadapter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 05a76baf-e5f7-41ca-ac9f-4538cd3e0292
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

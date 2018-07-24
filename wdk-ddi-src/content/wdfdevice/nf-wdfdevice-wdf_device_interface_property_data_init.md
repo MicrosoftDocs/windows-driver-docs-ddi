@@ -4,7 +4,7 @@ title: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function initializes a driver's WDF_DEVICE_INTERFACE_PROPERTY_DATA structure.
 old-location: wdf\wdf_device_interface_property_data_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8B3D6F59-BA76-4B14-9570-57263D204BFE
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

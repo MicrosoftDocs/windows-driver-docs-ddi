@@ -4,7 +4,7 @@ title: KdEnableDebugger function
 author: windows-driver-content
 description: The KdEnableDebugger routine re-enables the kernel debugger after a call to the KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kdenabledebugger.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 90151c0d-24c9-4304-bdcf-30dc89397905
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

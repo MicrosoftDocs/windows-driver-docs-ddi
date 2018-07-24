@@ -4,7 +4,7 @@ title: IWDFIoTarget2::FormatRequestForSetInformation
 author: windows-driver-content
 description: The FormatRequestForSetInformation method formats an I/O request to set information about a file, but it does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforsetinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

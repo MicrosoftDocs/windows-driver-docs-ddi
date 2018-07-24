@@ -4,7 +4,7 @@ title: RemoveEntryList function
 author: windows-driver-content
 description: The RemoveEntryList routine removes an entry from a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeentrylist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceResetPortSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceResetPortSynchronously method resets the USB port that is associated with the specified USB device.
 old-location: wdf\wdfusbtargetdeviceresetportsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4f0941ea-ccbb-4345-82c0-ec5d88862b05
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

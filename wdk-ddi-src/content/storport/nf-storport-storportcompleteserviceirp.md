@@ -4,7 +4,7 @@ title: StorPortCompleteServiceIrp function
 author: windows-driver-content
 description: The StorPortCompleteServiceIrp routine is called by a Storport virtual miniport driver when it needs to complete a request that it received in its HwStorProcessServiceRequest callback routine.
 old-location: storage\storportcompleteserviceirp.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 359b1096-f987-4884-ab67-2290bf5196b5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

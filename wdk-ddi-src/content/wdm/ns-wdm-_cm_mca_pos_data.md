@@ -4,7 +4,7 @@ title: "_CM_MCA_POS_DATA"
 author: windows-driver-content
 description: The CM_MCA_POS_DATA structure is obsolete. It defines IBM-compatible MCA POS configuration information for a slot.
 old-location: kernel\cm_mca_pos_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2b14eef2-dac4-48c8-b2a2-96bf085171aa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

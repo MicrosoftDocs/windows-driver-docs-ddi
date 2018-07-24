@@ -4,10 +4,10 @@ title: D3D10DDIARG_CALCPRIVATEDEVICESIZE
 author: windows-driver-content
 description: The D3D10DDIARG_CALCPRIVATEDEVICESIZE structure describes the parameters that the user-mode display driver uses to calculate the size of a memory block that the driver requires to store frequently-accessed data.
 old-location: display\d3d10ddiarg_calcprivatedevicesize.htm
-old-project: display
+tech.root: display
 ms.assetid: 79bb55db-dd4d-4cad-927e-e1126463bded
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_CALCPRIVATEDEVICESIZE, D3D10DDIARG_CALCPRIVATEDEVICESIZE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5d15afa8-1d91-4823-ba91-391e64e9374d.xml, d3d10umddi/D3D10DDIARG_CALCPRIVATEDEVICESIZE, display.d3d10ddiarg_calcprivatedevicesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

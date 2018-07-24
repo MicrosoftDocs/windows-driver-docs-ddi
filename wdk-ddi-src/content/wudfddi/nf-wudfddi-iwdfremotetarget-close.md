@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::Close
 author: windows-driver-content
 description: The Close method closes a remote I/O target.
 old-location: wdf\iwdfremotetarget_close.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

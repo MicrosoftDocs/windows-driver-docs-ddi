@@ -4,7 +4,7 @@ title: IoIsValidIrpStatus function
 author: windows-driver-content
 description: The IoIsValidIrpStatus routine validates the specified NTSTATUS status code value.
 old-location: kernel\ioisvalidirpstatus.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0A995357-A578-41C6-A1B8-ABD251C16C83
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

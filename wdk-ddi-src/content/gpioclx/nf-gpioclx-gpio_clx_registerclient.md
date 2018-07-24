@@ -4,7 +4,7 @@ title: GPIO_CLX_RegisterClient function
 author: windows-driver-content
 description: The GPIO_CLX_RegisterClient method registers a general-purpose I/O (GPIO) controller driver as a client of the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_clx_registerclient.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: C87385E0-7B3F-44DA-90D0-E644C58AB375
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

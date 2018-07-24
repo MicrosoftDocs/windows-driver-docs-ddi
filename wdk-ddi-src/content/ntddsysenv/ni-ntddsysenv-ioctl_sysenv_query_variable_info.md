@@ -4,7 +4,7 @@ title: IOCTL_SYSENV_QUERY_VARIABLE_INFO
 author: windows-driver-content
 description: Returns information about system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_query_variable_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4056202F-2292-40A5-BE1D-8C1A6FA79B50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

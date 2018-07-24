@@ -4,7 +4,7 @@ title: ExIsProcessorFeaturePresent function
 author: windows-driver-content
 description: The ExIsProcessorFeaturePresent routine queries for the existence of a specified processor feature.
 old-location: kernel\exisprocessorfeaturepresent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d8c4d1d7-3510-48c4-b1a6-062157f4632e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

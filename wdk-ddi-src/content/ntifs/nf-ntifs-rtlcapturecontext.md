@@ -4,7 +4,7 @@ title: RtlCaptureContext function
 author: windows-driver-content
 description: The RtlCaptureContext function retrieves a context record in the context of the caller.
 old-location: ifsk\rtlcapturecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_REG_SET_INFORMATION_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_SET_INFORMATION_KEY_INFORMATION structure describes a new setting for a key's metadata.
 old-location: kernel\reg_set_information_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 30b29bda-9cd9-4fc8-b168-e66f69b82358
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

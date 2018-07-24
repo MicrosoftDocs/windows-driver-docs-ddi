@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
 author: windows-driver-content
 description: This structure contains the capabilities for an ROI control.
 old-location: stream\kscamera_extendedprop_roi_configcaps.htm
-old-project: stream
+tech.root: stream
 ms.assetid: BAC5B134-22F5-4BC9-BBD6-6AF3C934510B
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetRequestorProcessId
 author: windows-driver-content
 description: The GetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.
 old-location: wdf\iwdfiorequest_getrequestorprocessid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8bad169a-3a89-460d-9e6e-e8c1994970a8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

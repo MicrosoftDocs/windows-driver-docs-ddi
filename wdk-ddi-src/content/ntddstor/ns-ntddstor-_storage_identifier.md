@@ -4,7 +4,7 @@ title: "_STORAGE_IDENTIFIER"
 author: windows-driver-content
 description: The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
 old-location: storage\storage_identifier.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

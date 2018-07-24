@@ -4,7 +4,7 @@ title: "_NETWORK_APP_INSTANCE_ECP_CONTEXT"
 author: windows-driver-content
 description: The NETWORK_APP_INSTANCE_ECP_CONTEXT structure is an Extra Create Parameter (ECP) and contains an application instance identifier to associate with a file.
 old-location: ifsk\network_app_instance_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ADB7550F-9191-4EAA-BEBA-0D0D29EC7B03
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: IStillImageW::Release
 author: windows-driver-content
 description: The IStillImage::Release method closes the instance of the COM object that was created by a previous call to IStillImage::StiCreateInstance, and removes access to the object's interface.
 old-location: image\istillimage_release.htm
-old-project: image
+tech.root: image
 ms.assetid: 3c595531-a1b0-48a5-867c-f1e6558e46ff
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IStillImageW interface [Imaging Devices],Release method, IStillImageW.Release, IStillImageW::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStillImageW interface, image.istillimage_release, sti/IStillImageW::Release, stifnc_e1ab4835-ed24-4c92-a879-f57061656825.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

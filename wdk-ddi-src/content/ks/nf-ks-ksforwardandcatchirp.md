@@ -4,7 +4,7 @@ title: KsForwardAndCatchIrp function
 author: windows-driver-content
 description: The KsForwardAndCatchIrp function forwards an IRP to the specified driver after initializing the next stack location, and regains control of the IRP on completion from that driver.
 old-location: stream\ksforwardandcatchirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 87a873c2-07d3-4f76-bc26-5fcae4b960e7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

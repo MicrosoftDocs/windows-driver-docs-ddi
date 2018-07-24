@@ -4,7 +4,7 @@ title: IPnpCallback::OnD0Entry
 author: windows-driver-content
 description: The OnD0Entry method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device.
 old-location: wdf\ipnpcallback_ond0entry.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

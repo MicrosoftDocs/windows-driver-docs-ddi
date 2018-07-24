@@ -4,7 +4,7 @@ title: RxFinalizeConnection function
 author: windows-driver-content
 description: RxFinalizeConnection deletes a connection to a share.
 old-location: ifsk\rxfinalizeconnection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3f3e6c56-937e-4a4b-885a-71be2e9513d8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

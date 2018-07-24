@@ -4,10 +4,10 @@ title: FwpsvSwitchNotifyComplete0 function
 author: windows-driver-content
 description: The FwpsvSwitchNotifyComplete0 function completes a pending virtual switch event notification.Note  FwpsvSwitchNotifyComplete0 is a specific version of FwpsvSwitchNotifyComplete.
 old-location: netvista\fwpsvswitchnotifycomplete0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5e40a31f-7730-48f0-899f-f59be654c991
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchNotifyComplete0, netvista.fwpsvswitchnotifycomplete0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_DISK_CONTROLLER_NUMBER"
 author: windows-driver-content
 description: DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk.
 old-location: storage\disk_controller_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5dc9f04b-8d7c-4ac7-9518-8836d56d5eed
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

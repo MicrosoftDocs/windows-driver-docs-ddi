@@ -4,7 +4,7 @@ title: IWDTFNumbers2::Add
 author: windows-driver-content
 description: Adds a single number to the collection.
 old-location: dtf\iwdtfnumbers2_add.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 162f8fce-c944-4ed2-82f1-332e986b9f77
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

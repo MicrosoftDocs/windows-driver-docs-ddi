@@ -4,7 +4,7 @@ title: IPrintWriteStream::WriteBytes
 author: windows-driver-content
 description: The WriteBytes method writes a specified number of bytes to a stream.
 old-location: print\iprintwritestream_writebytes.htm
-old-project: print
+tech.root: print
 ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

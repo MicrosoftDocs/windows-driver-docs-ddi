@@ -4,7 +4,7 @@ title: "_tagAVC_FUNCTION"
 author: windows-driver-content
 description: The AVC_FUNCTION enumeration type is used to specify AV/C subunit functions.
 old-location: stream\avc_function.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 31451163-bc60-4c84-88a7-e11edea97436
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

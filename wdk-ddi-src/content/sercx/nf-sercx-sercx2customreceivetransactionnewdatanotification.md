@@ -4,7 +4,7 @@ title: SerCx2CustomReceiveTransactionNewDataNotification function
 author: windows-driver-content
 description: The SerCx2CustomReceiveTransactionNewDataNotification method notifies version 2 of the serial framework extension (SerCx2) that data is available to be read from the receive FIFO in the serial controller hardware.
 old-location: serports\sercx2customreceivetransactionnewdatanotification.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 181B2619-A8A8-45ED-935B-B4F12A0695E0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

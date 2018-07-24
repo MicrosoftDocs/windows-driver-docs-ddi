@@ -4,7 +4,7 @@ title: ScsiPortCompleteRequest function
 author: windows-driver-content
 description: The ScsiPortCompleteRequest routine completes all of the active requests for the given SCSI bus, controller, or LU, including a request being processed by the calling miniport driver routine.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportcompleterequest.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9cd17a86-6652-414d-a80d-2e61c0ac99b6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

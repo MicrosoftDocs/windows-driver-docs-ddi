@@ -4,7 +4,7 @@ title: PoGetSystemWake function
 author: windows-driver-content
 description: The PoGetSystemWake routine determines whether a specified IRP has been marked as waking the system from a sleeping state.
 old-location: kernel\pogetsystemwake.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

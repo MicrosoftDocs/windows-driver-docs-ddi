@@ -4,10 +4,10 @@ title: UcxControllerSetFailed function
 author: windows-driver-content
 description: Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure.
 old-location: buses\_ucxcontrollersetfailed.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices

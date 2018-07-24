@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
 author: windows-driver-content
 description: The IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code queries for and returns the physical element status from a device.
 old-location: storage\ioctl_storage_get_physical_element_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ED46241E-1A71-447A-8D96-E81B4500E070
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDTFLongNumbers2
 author: windows-driver-content
 description: Defines operations and properties for a collection of long numbers.
 old-location: dtf\iwdtflongnumbers2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2a6c4cf7-179e-4e20-bab4-a4181a0ee64c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

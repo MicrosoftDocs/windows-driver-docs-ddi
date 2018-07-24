@@ -4,7 +4,7 @@ title: "_BTH_RADIO_INFO"
 author: windows-driver-content
 description: The BTH_RADIO_INFO structure contains information about a remote radio.
 old-location: bltooth\bth_radio_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 24e28912-13d1-460f-8d32-78bb3715adc6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

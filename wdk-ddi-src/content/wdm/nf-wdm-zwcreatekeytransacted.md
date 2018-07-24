@@ -4,7 +4,7 @@ title: ZwCreateKeyTransacted function
 author: windows-driver-content
 description: The ZwCreateKeyTransacted routine creates a new registry key or opens an existing one, and it associates the key with a transaction.
 old-location: kernel\zwcreatekeytransacted.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c0cf38f4-2820-4177-93e6-2e20524d0353
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: StreamClassGetDmaBuffer function
 author: windows-driver-content
 description: The StreamClassGetDmaBuffer routine returns a pointer to the DMA buffer that the class driver allocates for the minidriver.
 old-location: stream\streamclassgetdmabuffer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1b778d94-55e6-4a5f-aa77-739bcf9a8041
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

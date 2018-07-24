@@ -4,7 +4,7 @@ title: KSVPMAXPIXELRATE
 author: windows-driver-content
 description: The KSVPMAXPIXELRATE structure is used to describe the maximum pixel rate of a video port.
 old-location: stream\ksvpmaxpixelrate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6510e732-b0ad-43c7-87a3-3630fdfd848d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

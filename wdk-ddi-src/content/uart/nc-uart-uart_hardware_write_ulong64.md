@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_WRITE_ULONG64
 title: UART_HARDWARE_WRITE_ULONG64
 author: windows-driver-content
 description: Writes a ULONG64 value to the specified register address.
-old-project: serports
+tech.root: serports
 ms.assetid: 28aa4d96-2798-44ba-b736-04df60fb098b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_WRITE_ULONG64
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ Writes a ULONG64 value to the specified register address.
 ```
 //Declaration
 
-UART_HARDWARE_WRITE_ULONG64 UartHardwareWriteUlong64; 
+UART_HARDWARE_WRITE_ULONG64 UartHardwareWriteUlong64;
 
 // Definition
 

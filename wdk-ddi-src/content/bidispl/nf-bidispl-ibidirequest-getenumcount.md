@@ -4,7 +4,7 @@ title: IBidiRequest::GetEnumCount
 author: windows-driver-content
 description: The GetEnumCount method gets the number of output results from the bidi request.
 old-location: print\ibidirequest_ibidirequest__getenumcount.htm
-old-project: print
+tech.root: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

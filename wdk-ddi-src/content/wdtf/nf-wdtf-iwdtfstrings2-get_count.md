@@ -4,7 +4,7 @@ title: IWDTFStrings2::get_Count
 author: windows-driver-content
 description: Gets the number of strings in the collection.
 old-location: dtf\iwdtfstrings2_count.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 30a1e912-84f6-4f65-881e-94304dbad135
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

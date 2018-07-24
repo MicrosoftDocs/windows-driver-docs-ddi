@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_NODE_CONNECTION_NAME
 author: windows-driver-content
 description: The IOCTL_USB_GET_NODE_CONNECTION_NAME I/O control request is used with the USB_NODE_CONNECTION_NAME structure to retrieve the symbolic link name of the hub that is attached to the downstream port.IOCTL_USB_GET_NODE_CONNECTION_NAME is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 old-location: buses\ioctl_usb_get_node_connection_name.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: c4374b79-5143-4a35-aa4f-07fee7ea4fd3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_NAME, IOCTL_USB_GET_NODE_CONNECTION_NAME control, IOCTL_USB_GET_NODE_CONNECTION_NAME control code [Buses], buses.ioctl_usb_get_node_connection_name, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_NAME, usbirp_d571c9e6-0caf-4746-bd69-b55fa6a3a407.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

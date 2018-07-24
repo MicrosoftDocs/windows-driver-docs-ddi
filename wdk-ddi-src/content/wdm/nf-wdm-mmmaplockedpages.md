@@ -4,7 +4,7 @@ title: MmMapLockedPages function
 author: windows-driver-content
 description: The MmMapLockedPages routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.
 old-location: kernel\mmmaplockedpages.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f27b7622-614b-4c9e-8253-51f4638e5eb0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

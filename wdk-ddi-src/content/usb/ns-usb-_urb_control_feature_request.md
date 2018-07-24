@@ -4,10 +4,10 @@ title: "_URB_CONTROL_FEATURE_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_FEATURE_REQUEST structure is used by USB client drivers to set or clear features on a device, interface, or endpoint.
 old-location: buses\_urb_control_feature_request.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: b32c6a7e-84c2-412a-a13e-959aaddc81ac
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], buses._urb_control_feature_request, usb/_URB_CONTROL_FEATURE_REQUEST, usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

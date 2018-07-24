@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_ENABLE_POINTER
 author: windows-driver-content
 description: Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an IOCTL_VIDEO_SET_POINTER_ATTR request before processing this request.
 old-location: display\ioctl_video_enable_pointer.htm
-old-project: display
+tech.root: display
 ms.assetid: df6d348a-2720-4d47-9bc7-fc0627c951e6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_POINTER, IOCTL_VIDEO_ENABLE_POINTER control, IOCTL_VIDEO_ENABLE_POINTER control code [Display Devices], Video_IOCTLs_89a9a8cc-bfd6-4969-bb8f-26d72cbaa807.xml, display.ioctl_video_enable_pointer, ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

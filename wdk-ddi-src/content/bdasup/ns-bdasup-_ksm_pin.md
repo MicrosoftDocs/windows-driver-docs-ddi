@@ -4,7 +4,7 @@ title: "_KSM_PIN"
 author: windows-driver-content
 description: The KSM_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_pin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7341af26-3c5c-4f33-b924-2e8098aeee7f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

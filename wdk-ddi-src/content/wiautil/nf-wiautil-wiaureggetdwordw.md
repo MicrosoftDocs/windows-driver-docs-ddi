@@ -4,10 +4,10 @@ title: wiauRegGetDwordW function
 author: windows-driver-content
 description: The wiauRegGetDword function gets a DWORD value from the DeviceData section of the registry.
 old-location: image\wiaureggetdword.htm
-old-project: image
+tech.root: image
 ms.assetid: 936a3a49-ec36-421f-8554-c9ad37907a6d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaureggetdword, wiauFncs_a58ebb21-21ce-4815-9dd6-5a1906412a2f.xml, wiauRegGetDword, wiauRegGetDword function [Imaging Devices], wiauRegGetDwordA, wiauRegGetDwordW, wiautil/wiauRegGetDword
 ms.prod: windows-hardware
 ms.technology: windows-devices

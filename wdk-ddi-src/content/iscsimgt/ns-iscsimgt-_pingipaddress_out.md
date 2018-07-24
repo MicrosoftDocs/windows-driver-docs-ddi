@@ -4,7 +4,7 @@ title: "_PingIPAddress_OUT"
 author: windows-driver-content
 description: The PingIPAddress_OUT structure holds the output data for the PingIPAddress method.
 old-location: storage\pingipaddress_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 26512dc5-9d3d-4dd5-bce3-37feb64dded8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

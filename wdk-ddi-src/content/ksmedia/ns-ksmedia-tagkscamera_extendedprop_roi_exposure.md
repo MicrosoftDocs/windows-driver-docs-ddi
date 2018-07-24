@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
 author: windows-driver-content
 description: This structure contains the ROI info structure for exposure.
 old-location: stream\kscamera_extendedprop_roi_exposure.htm
-old-project: stream
+tech.root: stream
 ms.assetid: DE57E69E-6589-4336-BB3E-50715D6D5332
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

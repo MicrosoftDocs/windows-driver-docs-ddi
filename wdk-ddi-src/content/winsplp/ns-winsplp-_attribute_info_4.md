@@ -4,7 +4,7 @@ title: "_ATTRIBUTE_INFO_4"
 author: windows-driver-content
 description: The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function.
 old-location: print\attribute_info_4.htm
-old-project: print
+tech.root: print
 ms.assetid: 09071fff-834b-452b-ae1e-b75c9f191b15
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

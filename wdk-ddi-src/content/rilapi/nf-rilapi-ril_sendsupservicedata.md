@@ -4,10 +4,10 @@ title: RIL_SendSupServiceData function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_sendsupservicedata.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d5bf5fa0-12c0-4971-91bc-775c59d45d60
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_SendSupServiceData, RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], netvista.ril_sendsupservicedata, rilapi/RIL_SendSupServiceData
 ms.prod: windows-hardware
 ms.technology: windows-devices

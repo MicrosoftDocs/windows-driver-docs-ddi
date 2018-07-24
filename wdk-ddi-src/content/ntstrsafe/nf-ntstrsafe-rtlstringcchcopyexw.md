@@ -4,7 +4,7 @@ title: RtlStringCchCopyExW function
 author: windows-driver-content
 description: The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

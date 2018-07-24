@@ -4,10 +4,10 @@ title: UcmTcpciPortControllerStop function
 author: windows-driver-content
 description: Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object.
 old-location: buses\ucmtcpciportcontrollerstop.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

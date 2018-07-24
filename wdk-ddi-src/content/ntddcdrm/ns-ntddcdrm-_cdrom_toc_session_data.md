@@ -4,7 +4,7 @@ title: "_CDROM_TOC_SESSION_DATA"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_SESSION return their output data in this structure followed by a series of TRACK_DATA structures.
 old-location: storage\cdrom_toc_session_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ba039a22-b1af-4ade-bd99-b7296be4dd42
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

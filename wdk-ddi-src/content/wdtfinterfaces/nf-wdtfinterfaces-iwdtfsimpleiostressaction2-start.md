@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::Start
 author: windows-driver-content
 description: Opens the device.
 old-location: dtf\iwdtfsimpleiostressaction2_start.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 4f25224b-5d8c-4d9d-8350-d84b3b75d780
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

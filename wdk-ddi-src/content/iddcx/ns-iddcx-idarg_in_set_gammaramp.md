@@ -4,10 +4,10 @@ title: IDARG_IN_SET_GAMMARAMP
 author: windows-driver-content
 description: Gives information about the gamma ramp being set.
 old-location: display\idarg_in_set_gammaramp.htm
-old-project: display
+tech.root: display
 ms.assetid: 1e14bcaf-1454-4930-a3b8-afc044c4be3f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDARG_IN_SET_GAMMARAMP, IDARG_IN_SET_GAMMARAMP structure [Display Devices], display.idarg_in_set_gammaramp, iddcx/IDARG_IN_SET_GAMMARAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices

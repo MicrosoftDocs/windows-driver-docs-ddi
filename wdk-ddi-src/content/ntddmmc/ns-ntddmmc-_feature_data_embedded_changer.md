@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_EMBEDDED_CHANGER"
 author: windows-driver-content
 description: The FEATURE_DATA_EMBEDDED_CHANGER structure holds data for the Embedded Changer feature.
 old-location: storage\feature_data_embedded_changer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1335d1fa-af96-4a31-a1cf-266f7a3325ef
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

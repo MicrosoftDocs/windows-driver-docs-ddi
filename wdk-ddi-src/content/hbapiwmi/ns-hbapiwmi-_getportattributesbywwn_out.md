@@ -4,7 +4,7 @@ title: "_GetPortAttributesByWWN_OUT"
 author: windows-driver-content
 description: The GetPortAttributesByWWN_OUT structure is used to report the output parameter data of the GetPortAttributesByWWN WMI method to the WMI client.
 old-location: storage\getportattributesbywwn_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9a4d04de-2c44-4f13-ac6f-32e2fe879e4e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

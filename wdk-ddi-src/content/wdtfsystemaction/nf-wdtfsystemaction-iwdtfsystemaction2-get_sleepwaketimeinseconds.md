@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds
 author: windows-driver-content
 description: Gets or sets the time in seconds when the system will wake from the sleep state.
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 90b9742d-966b-4502-92ec-670c663d9a76
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

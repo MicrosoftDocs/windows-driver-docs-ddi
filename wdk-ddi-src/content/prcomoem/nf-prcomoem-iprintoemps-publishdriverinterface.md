@@ -4,7 +4,7 @@ title: IPrintOemPS::PublishDriverInterface
 author: windows-driver-content
 description: The IPrintOemPS::PublishDriverInterface method allows a rendering plug-in for Pscript5 to obtain the Pscript5 driver's IPrintCorePS2, IPrintOemDriverPS, or IPrintCoreHelperPS interface.
 old-location: print\iprintoemps_publishdriverinterface.htm
-old-project: print
+tech.root: print
 ms.assetid: f878a674-7c08-4a7a-ab00-6c79f02566be
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

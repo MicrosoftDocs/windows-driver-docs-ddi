@@ -4,7 +4,7 @@ title: KsDeviceRegisterThermalDispatch function
 author: windows-driver-content
 description: This function is used by the Avstream miniport driver to register callbacks for thermal notifications with the KS port driver.
 old-location: stream\ksdeviceregisterthermaldispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

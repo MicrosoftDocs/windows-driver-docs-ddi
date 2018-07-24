@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_READ_ULONG
 title: UART_HARDWARE_READ_ULONG
 author: windows-driver-content
 description: Reads a ULONG value from the specified port or register.
-old-project: serports
+tech.root: serports
 ms.assetid: 242023e2-fae1-4d27-9175-3438a9ba3bac
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_READ_ULONG
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ Reads a ULONG value from the specified port or register.
 ```
 //Declaration
 
-UART_HARDWARE_READ_ULONG UartHardwareReadUlong; 
+UART_HARDWARE_READ_ULONG UartHardwareReadUlong;
 
 // Definition
 
@@ -64,7 +64,7 @@ ULONG UartHardwareReadUlong
 
 ## -parameters
 
-### -param Address 
+### -param Address
 
 A pointer to a variable that contains the port or register address.
 

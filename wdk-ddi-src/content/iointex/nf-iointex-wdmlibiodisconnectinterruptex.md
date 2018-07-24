@@ -4,7 +4,7 @@ title: WdmlibIoDisconnectInterruptEx function
 author: windows-driver-content
 description: The WdmlibIoDisconnectInterruptEx function unregisters an interrupt service routine (ISR) that was registered by a previous call to the WdmlibIoConnectInterruptEx function.
 old-location: kernel\wdmlibiodisconnectinterruptex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B6F8663C-3A13-45DA-80FE-CC8B9194D083
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

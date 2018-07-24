@@ -4,7 +4,7 @@ title: IWDTF2::get_DeviceDepot
 author: windows-driver-content
 description: Gets the DeviceDepot object.
 old-location: dtf\iwdtf2_devicedepot.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9bff0ac6-149e-4a40-a6e0-a3156c3d6af5
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: KeRemoveByKeyDeviceQueue function
 author: windows-driver-content
 description: The KeRemoveByKeyDeviceQueue routine removes an entry, selected according to a sort key value, from the specified device queue.
 old-location: kernel\keremovebykeydevicequeue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9819567c-1c79-440c-9bac-f81f23df29ae
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IImpersonateCallback::OnImpersonate
 author: windows-driver-content
 description: The OnImpersonate method handles impersonation.
 old-location: wdf\iimpersonatecallback_onimpersonate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

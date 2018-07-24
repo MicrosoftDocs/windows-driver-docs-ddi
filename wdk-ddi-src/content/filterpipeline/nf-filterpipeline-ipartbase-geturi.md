@@ -4,7 +4,7 @@ title: IPartBase::GetUri
 author: windows-driver-content
 description: The GetUri method gets the URI of the part.
 old-location: print\ipartbase_geturi.htm
-old-project: print
+tech.root: print
 ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

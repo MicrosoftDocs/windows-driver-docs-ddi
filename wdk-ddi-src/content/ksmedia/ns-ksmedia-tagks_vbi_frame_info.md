@@ -4,7 +4,7 @@ title: tagKS_VBI_FRAME_INFO
 author: windows-driver-content
 description: The KS_VBI_FRAME_INFO structure extends the KSSTREAM_HEADER structure for vertical blanking interval (VBI) streams.
 old-location: stream\ks_vbi_frame_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ae6ba1c3-0729-41bd-9fd5-62969bf4b70c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

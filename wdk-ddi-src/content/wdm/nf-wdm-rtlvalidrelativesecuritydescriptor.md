@@ -4,7 +4,7 @@ title: RtlValidRelativeSecurityDescriptor function
 author: windows-driver-content
 description: The RtlValidRelativeSecurityDescriptor routine checks the validity of a self-relative security descriptor.
 old-location: kernel\rtlvalidrelativesecuritydescriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

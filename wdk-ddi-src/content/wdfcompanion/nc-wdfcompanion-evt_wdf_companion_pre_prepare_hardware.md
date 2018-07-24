@@ -4,7 +4,7 @@ title: EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_pre_prepare_hardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 36076a28-d3f7-4463-b538-59794a18c4f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

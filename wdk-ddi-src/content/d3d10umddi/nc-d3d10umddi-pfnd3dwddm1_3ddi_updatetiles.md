@@ -4,10 +4,10 @@ title: PFND3DWDDM1_3DDI_UPDATETILES
 author: windows-driver-content
 description: Updates tiles by copying from app memory to the tiled resource.
 old-location: display\updatetiles.htm
-old-project: display
+tech.root: display
 ms.assetid: 4891AB01-DE51-4B32-AA52-5619E86CC474
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_UPDATETILES, PFND3DWDDM1_3DDI_UPDATETILES callback, UpdateTiles, UpdateTiles callback function [Display Devices], d3d10umddi/UpdateTiles, display.updatetiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

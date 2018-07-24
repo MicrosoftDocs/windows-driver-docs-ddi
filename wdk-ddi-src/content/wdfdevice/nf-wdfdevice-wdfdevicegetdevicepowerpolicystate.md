@@ -4,7 +4,7 @@ title: WdfDeviceGetDevicePowerPolicyState function
 author: windows-driver-content
 description: The WdfDeviceGetDevicePowerPolicyState method returns the current state of the framework's power policy state machine, for a specified device.
 old-location: wdf\wdfdevicegetdevicepowerpolicystate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3a4aab60-6568-4017-acad-ca643cb4d661
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

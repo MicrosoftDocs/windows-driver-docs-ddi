@@ -4,7 +4,7 @@ title: RtlCompareString function
 author: windows-driver-content
 description: The RtlCompareString routine compares two counted strings.
 old-location: kernel\rtlcomparestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

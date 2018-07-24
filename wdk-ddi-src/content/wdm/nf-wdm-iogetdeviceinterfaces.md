@@ -4,7 +4,7 @@ title: IoGetDeviceInterfaces function
 author: windows-driver-content
 description: The IoGetDeviceInterfaces routine returns a list of device interface instances of a particular device interface class (such as all devices on the system that support a HID interface).
 old-location: kernel\iogetdeviceinterfaces.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

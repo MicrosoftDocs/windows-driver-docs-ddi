@@ -4,7 +4,7 @@ title: PCAM_NEW_FRAME_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamNewVideoFrame callback function initializes a new video frame context structure.
 old-location: stream\camnewvideoframe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b647cc94-e5eb-494f-b103-22aa30da8946
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: DRIVER_UNLOAD
 author: windows-driver-content
 description: The Unload routine performs any operations that are necessary before the system unloads the driver.
 old-location: kernel\unload.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 56638b74-6233-4239-9315-ec8a643a2cea
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

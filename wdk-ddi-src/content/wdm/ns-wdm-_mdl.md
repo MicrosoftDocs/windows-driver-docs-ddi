@@ -4,7 +4,7 @@ title: "_MDL"
 author: windows-driver-content
 description: An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL).
 old-location: kernel\mdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 71524333-dd5d-4f0b-8dd3-034ea926bc93
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

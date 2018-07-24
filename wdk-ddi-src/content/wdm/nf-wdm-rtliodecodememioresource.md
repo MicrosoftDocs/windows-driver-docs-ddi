@@ -4,7 +4,7 @@ title: RtlIoDecodeMemIoResource function
 author: windows-driver-content
 description: The RtlIoDecodeMemIoResource routine provides the address information that is contained in an IO_RESOURCE_DESCRIPTOR structure that describes a range of memory or I/O port addresses.
 old-location: kernel\rtliodecodememioresource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a6bdbd68-b4ec-467f-9892-e968243e8994
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

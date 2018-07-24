@@ -4,7 +4,7 @@ title: IWDTFTargets2::Clear
 author: windows-driver-content
 description: Removes all items from the collection.
 old-location: dtf\iwdtftargets2_clear.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 4fe37240-7cef-4bfb-91be-49a0bca2fa8f
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

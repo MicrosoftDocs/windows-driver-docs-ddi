@@ -4,10 +4,10 @@ title: PROTOCOL_CM_CLOSE_AF
 author: windows-driver-content
 description: The ProtocolCmCloseAf function is a required function that releases per-open resources for an address family that a call manager supports.Note  You must declare the function by using the PROTOCOL_CM_CLOSE_AF type.
 old-location: netvista\protocolcmcloseaf.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a7a02813-62e4-49c5-abb6-a90f4e092b9f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_CLOSE_AF, PROTOCOL_CM_CLOSE_AF callback, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf
 ms.prod: windows-hardware
 ms.technology: windows-devices

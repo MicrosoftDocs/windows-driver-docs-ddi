@@ -4,7 +4,7 @@ title: "_FILE_FS_LABEL_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_LABEL_INFORMATION structure is used to set the label for a file system volume.
 old-location: ifsk\file_fs_label_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cad48019-3777-4f1c-9872-c837604f47bc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

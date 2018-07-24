@@ -4,7 +4,7 @@ title: "_PosStatusUpdatedEventData"
 author: windows-driver-content
 description: This structure contains data passed to the StatusUpdated event.
 old-location: pos\posstatusupdatedeventdata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

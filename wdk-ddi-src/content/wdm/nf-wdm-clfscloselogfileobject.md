@@ -4,7 +4,7 @@ title: ClfsCloseLogFileObject function
 author: windows-driver-content
 description: The ClfsCloseLogFileObject routine releases all references to a log file object.
 old-location: kernel\clfscloselogfileobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0ebb82bd-b8f2-469b-90a9-5c1773f7b58a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

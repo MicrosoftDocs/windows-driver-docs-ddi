@@ -4,7 +4,7 @@ title: RtlSSIZETAdd function
 author: windows-driver-content
 description: Adds two values of type SSIZE_T.
 old-location: kernel\rtlssizetadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

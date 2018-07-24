@@ -4,10 +4,10 @@ title: wiauDbgLegacyError function
 author: windows-driver-content
 description: The wiauDbgLegacyError function logs an error message.
 old-location: image\wiaudbglegacyerror.htm
-old-project: image
+tech.root: image
 ms.assetid: c2a9bd35-ce3a-4640-9982-b470e98b4692
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbglegacyerror, wiauDbgLegacyError, wiauDbgLegacyError function [Imaging Devices], wiauFncs_03e81269-0a09-42c4-8d0d-1f808e6ef69e.xml, wiautil/wiauDbgLegacyError
 ms.prod: windows-hardware
 ms.technology: windows-devices

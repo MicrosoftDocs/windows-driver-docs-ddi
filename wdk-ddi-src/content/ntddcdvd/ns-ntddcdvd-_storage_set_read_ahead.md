@@ -4,7 +4,7 @@ title: "_STORAGE_SET_READ_AHEAD"
 author: windows-driver-content
 description: The STORAGE_SET_READ_AHEAD structure is used in conjunction with the IOCTL_STORAGE_SET_READ_AHEAD request to instruct the device to skip to the target address upon reaching the trigger address.
 old-location: storage\storage_set_read_ahead.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5220230f-5436-4a79-808c-ab840d7009e7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

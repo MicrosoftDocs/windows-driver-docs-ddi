@@ -4,7 +4,7 @@ title: IoWMIWriteEvent function
 author: windows-driver-content
 description: The IoWMIWriteEvent routine delivers a given event to the user-mode WMI components for notification.
 old-location: kernel\iowmiwriteevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

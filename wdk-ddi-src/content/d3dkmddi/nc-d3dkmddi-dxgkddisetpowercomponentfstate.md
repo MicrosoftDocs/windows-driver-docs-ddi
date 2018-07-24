@@ -4,10 +4,10 @@ title: DXGKDDISETPOWERCOMPONENTFSTATE
 author: windows-driver-content
 description: Called by the Microsoft DirectX graphics kernel subsystem to transition a power component to an idle state (an F-state).
 old-location: display\dxgkddisetpowercomponentfstate.htm
-old-project: display
+tech.root: display
 ms.assetid: C68CC6F1-83D6-43D9-93F3-99E3A990C7D7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDISETPOWERCOMPONENTFSTATE, DXGKDDISETPOWERCOMPONENTFSTATE callback, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

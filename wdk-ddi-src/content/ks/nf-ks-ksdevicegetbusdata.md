@@ -4,7 +4,7 @@ title: KsDeviceGetBusData function
 author: windows-driver-content
 description: The KsDeviceGetBusData function reads data from the bus where the given AVStream device resides.
 old-location: stream\ksdevicegetbusdata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 40971ff3-6fd3-480b-aba9-7f572d6e1ce2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

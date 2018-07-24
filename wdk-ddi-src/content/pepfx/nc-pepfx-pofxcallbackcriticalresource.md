@@ -4,7 +4,7 @@ title: POFXCALLBACKCRITICALRESOURCE
 author: windows-driver-content
 description: The TransitionCriticalResource routine changes the active/inactive state of a core system component.
 old-location: kernel\transitioncriticalresource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 18CB1032-78CB-4D65-9077-02B89E9C31B4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

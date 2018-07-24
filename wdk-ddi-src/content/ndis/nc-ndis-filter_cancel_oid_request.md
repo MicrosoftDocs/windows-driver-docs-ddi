@@ -4,10 +4,10 @@ title: FILTER_CANCEL_OID_REQUEST
 author: windows-driver-content
 description: NDIS calls a filter driver's FilterCancelOidRequest function to cancel an OID request.Note  You must declare the function by using the FILTER_CANCEL_OID_REQUEST type.
 old-location: netvista\filtercanceloidrequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e7e3f67e-5353-4355-bf19-8a8041cafc84
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FILTER_CANCEL_OID_REQUEST, FILTER_CANCEL_OID_REQUEST callback, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

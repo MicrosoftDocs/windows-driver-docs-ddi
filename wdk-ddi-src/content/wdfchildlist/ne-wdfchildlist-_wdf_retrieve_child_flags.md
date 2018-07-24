@@ -4,7 +4,7 @@ title: "_WDF_RETRIEVE_CHILD_FLAGS"
 author: windows-driver-content
 description: The WDF_RETRIEVE_CHILD_FLAGS enumeration defines flags that a driver can set before calling WdfChildListBeginIteration.
 old-location: wdf\wdf_retrieve_child_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 43294943-cc73-45d4-8e0b-e7d29420bb7e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

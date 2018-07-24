@@ -4,7 +4,7 @@ title: IoQueryVolumeInformation function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioqueryvolumeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f8226351-4a40-4c71-9ab4-4609ae7e0470
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_SERVICE
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_service.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 771027AA-E64D-4AC8-9C52-D1F96A761FAD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

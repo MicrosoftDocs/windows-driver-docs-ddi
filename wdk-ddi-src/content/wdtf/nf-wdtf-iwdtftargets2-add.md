@@ -4,7 +4,7 @@ title: IWDTFTargets2::Add
 author: windows-driver-content
 description: Add a single item to the collection.
 old-location: dtf\iwdtftargets2_add.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 0d8ba3ae-3afd-4f26-9951-0d4bdc9e4d49
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,10 +4,10 @@ title: "_USBD_PIPE_TYPE"
 author: windows-driver-content
 description: The USBD_PIPE_TYPE enumerator indicates the type of pipe.
 old-location: buses\usbd_pipe_type.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_PIPE_TYPE, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeBulk, UsbdPipeTypeControl, UsbdPipeTypeInterrupt, UsbdPipeTypeIsochronous, _USBD_PIPE_TYPE, buses.usbd_pipe_type, usb/USBD_PIPE_TYPE, usb/UsbdPipeTypeBulk, usb/UsbdPipeTypeControl, usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeIsochronous, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

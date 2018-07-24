@@ -4,7 +4,7 @@ title: SeCreateClientSecurity function
 author: windows-driver-content
 description: The SeCreateClientSecurity routine initializes a security client context structure with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurity.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

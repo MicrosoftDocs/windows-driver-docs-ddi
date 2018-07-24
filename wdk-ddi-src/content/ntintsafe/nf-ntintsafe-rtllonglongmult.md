@@ -4,7 +4,7 @@ title: RtlLongLongMult function
 author: windows-driver-content
 description: Multiplies one value of type LONGLONG by another.
 old-location: kernel\rtllonglongmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E5FE5EDB-D11D-4EF7-9CEA-CF059398A063
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

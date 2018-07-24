@@ -4,7 +4,7 @@ title: WdfPdoInitAllocate function
 author: windows-driver-content
 description: The WdfPdoInitAllocate method allocates a WDFDEVICE_INIT structure for a framework-based bus driver, which the bus driver uses when reporting a new device.
 old-location: wdf\wdfpdoinitallocate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_DROPPEDFRAMES_CURRENT_S
 author: windows-driver-content
 description: The KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure describes the dropped frame information from the minidriver.
 old-location: stream\ksproperty_droppedframes_current_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 966af529-1725-4e80-9e67-cdb8666673f2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

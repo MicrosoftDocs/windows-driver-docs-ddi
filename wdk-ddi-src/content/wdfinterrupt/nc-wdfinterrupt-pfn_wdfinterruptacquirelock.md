@@ -4,7 +4,7 @@ title: PFN_WDFINTERRUPTACQUIRELOCK
 author: windows-driver-content
 description: The WdfInterruptAcquireLock method begins a code sequence that executes at the device's device interrupt request level (DIRQL) while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptacquirelock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6a2fe0d5-bc7e-4d3e-8f47-8206fd42a36f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2, WdfInterruptLock, WdfInterruptLockRelease
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<= DIRQL"
 topictype:
 -	APIRef

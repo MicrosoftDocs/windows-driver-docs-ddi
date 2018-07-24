@@ -4,7 +4,7 @@ title: IOCTL_CDROM_EXCLUSIVE_ACCESS
 author: windows-driver-content
 description: The IOCTL_CDROM_EXCLUSIVE_ACCESS request instructs the CD-ROM class driver to:Report the access state of a CD-ROM device.
 old-location: storage\ioctl_cdrom_exclusive_access.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

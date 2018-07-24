@@ -4,10 +4,10 @@ title: "_DXGK_CHILD_CONTAINER_ID"
 author: windows-driver-content
 description: Contains the container ID for a child device that is connected to a display adapter.
 old-location: display\dxgk_child_container_id.htm
-old-project: display
+tech.root: display
 ms.assetid: 9573f6e9-80a6-4390-b2ab-4543e3b1f5f4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], PDXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], _DXGK_CHILD_CONTAINER_ID, display.dxgk_child_container_id, dispmprt/DXGK_CHILD_CONTAINER_ID, dispmprt/PDXGK_CHILD_CONTAINER_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_FILTER_AGGREGATE_STANDARD_INFORMATION"
 author: windows-driver-content
 description: The FILTER_AGGREGATE_STANDARD_INFORMATION structure contains information about a minifilter or legacy filter driver.
 old-location: ifsk\filter_aggregate_standard_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 76703a53-45c1-4dfa-b8aa-4f73d4d84538
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

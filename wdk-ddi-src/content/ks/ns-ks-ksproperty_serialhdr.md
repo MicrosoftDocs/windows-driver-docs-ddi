@@ -4,7 +4,7 @@ title: KSPROPERTY_SERIALHDR
 author: windows-driver-content
 description: The format of the serialization buffer is a KSPROPERTY_SERIALHDR structure, followed by serialized properties.
 old-location: stream\ksproperty_serialhdr.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 164c34ce-603f-447b-8bd7-14b1c19e9baa
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

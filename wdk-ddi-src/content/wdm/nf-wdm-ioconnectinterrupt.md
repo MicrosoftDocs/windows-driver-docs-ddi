@@ -4,7 +4,7 @@ title: IoConnectInterrupt function
 author: windows-driver-content
 description: The IoConnectInterrupt routine registers a device driver's InterruptService routine (ISR), so that it will be called when a device interrupts on any of a specified set of processors.
 old-location: kernel\ioconnectinterrupt.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a0f9a339-f548-47a2-92ab-ccd341592384
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

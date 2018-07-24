@@ -4,7 +4,7 @@ title: PFNBTHPORT_INDICATION_CALLBACK_ENHANCED
 author: windows-driver-content
 description: Profile drivers implement an enhanced L2CAP callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about any changes to the status of a currently open L2CAP or eL2CAP connection.
 old-location: bltooth\enhanced_l2cap_callback_function.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

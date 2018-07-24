@@ -4,7 +4,7 @@ title: RtlIsValidOemCharacter function
 author: windows-driver-content
 description: The RtlIsValidOemCharacter routine determines if the specified Unicode character can be mapped to a valid OEM character.
 old-location: ifsk\rtlisvalidoemcharacter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 76040e0d-a43c-4e3d-aaaa-b84fc2613603
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

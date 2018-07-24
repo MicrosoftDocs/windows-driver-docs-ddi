@@ -4,7 +4,7 @@ title: PFN_DrvXMoveTo
 author: windows-driver-content
 description: The DrvXMoveTo function is obsolete.
 old-location: print\drvxmoveto.htm
-old-project: print
+tech.root: print
 ms.assetid: 20bebaea-a542-4cdd-8661-4c452a50efe5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

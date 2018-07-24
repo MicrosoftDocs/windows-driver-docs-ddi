@@ -4,7 +4,7 @@ title: "_LoginToTarget_IN"
 author: windows-driver-content
 description: The LoginToTarget_IN structure holds the input data for the LoginToTarget method, which is used to login to a target.
 old-location: storage\logintotarget_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

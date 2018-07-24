@@ -4,7 +4,7 @@ title: FsRtlIsLeadDbcsCharacter macro
 author: windows-driver-content
 description: The FsRtlIsLeadDbcsCharacter macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS).
 old-location: ifsk\fsrtlisleaddbcscharacter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

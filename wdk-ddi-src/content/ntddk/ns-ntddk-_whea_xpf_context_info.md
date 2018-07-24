@@ -4,7 +4,7 @@ title: "_WHEA_XPF_CONTEXT_INFO"
 author: windows-driver-content
 description: The WHEA_XPF_CONTEXT_INFO structure describes processor context information for an x86 or x64 processor.
 old-location: whea\whea_xpf_context_info.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

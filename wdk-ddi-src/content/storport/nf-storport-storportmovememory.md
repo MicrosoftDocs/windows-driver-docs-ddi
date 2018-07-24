@@ -4,7 +4,7 @@ title: StorPortMoveMemory function
 author: windows-driver-content
 description: The StorPortMoveMemory routine copies memory from one buffer to another.
 old-location: storage\storportmovememory.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

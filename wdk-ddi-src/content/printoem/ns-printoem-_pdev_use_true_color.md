@@ -4,7 +4,7 @@ title: "_PDEV_USE_TRUE_COLOR"
 author: windows-driver-content
 description: The PDEV_USE_TRUE_COLOR structure indicates whether the output color space should be color or grayscale.
 old-location: print\pdev_use_true_color.htm
-old-project: print
+tech.root: print
 ms.assetid: 75ffe04a-4d77-4486-8fc7-35b0b6144b99
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

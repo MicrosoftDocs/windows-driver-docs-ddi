@@ -4,10 +4,10 @@ title: EVT_SENSOR_DRIVER_GET_PROPERTIES
 author: windows-driver-content
 description: This callback function returns the properties for a given sensor.
 old-location: sensors\evtsensorgetproperties.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 259C37C9-DE8C-4BC8-B18A-CDD96B97056D
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EVT_SENSOR_DRIVER_GET_PROPERTIES callback, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

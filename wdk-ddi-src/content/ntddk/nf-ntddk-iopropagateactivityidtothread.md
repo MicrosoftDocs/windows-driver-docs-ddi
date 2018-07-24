@@ -4,7 +4,7 @@ title: IoPropagateActivityIdToThread function
 author: windows-driver-content
 description: The IoPropagateActivityIdToThread routine associates the activity ID from an IRP with the current thread.
 old-location: kernel\iopropagateactivityidtothread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

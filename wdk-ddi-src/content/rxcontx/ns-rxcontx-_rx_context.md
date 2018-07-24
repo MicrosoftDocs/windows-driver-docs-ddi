@@ -4,7 +4,7 @@ title: "_RX_CONTEXT"
 author: windows-driver-content
 description: The RX_CONTEXT structure encapsulates an IRP for use by RDBSS, network mini-redirectors, and the file system.
 old-location: ifsk\rx_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5eb83a7a-d6dd-445f-89a8-91cdf67512af
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

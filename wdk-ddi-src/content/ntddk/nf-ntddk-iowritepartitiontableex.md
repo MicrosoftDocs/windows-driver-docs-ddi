@@ -4,7 +4,7 @@ title: IoWritePartitionTableEx function
 author: windows-driver-content
 description: The IoWritePartitionTableEx routine writes partition tables from the entries in the partition list buffer for each partition on the disk represented by the given device object.
 old-location: storage\iowritepartitiontableex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b49ea2db-bb1e-4293-bfac-cbb3e62bca91
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

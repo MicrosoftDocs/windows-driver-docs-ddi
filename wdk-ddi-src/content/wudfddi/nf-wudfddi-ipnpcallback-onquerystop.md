@@ -4,7 +4,7 @@ title: IPnpCallback::OnQueryStop
 author: windows-driver-content
 description: The OnQueryStop method notifies a driver before a device is stopped.
 old-location: wdf\ipnpcallback_onquerystop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

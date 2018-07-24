@@ -4,7 +4,7 @@ title: "_BIDI_RESPONSE_DATA"
 author: windows-driver-content
 description: The BIDI_RESPONSE_DATA structure holds a single bidi response.
 old-location: print\bidi_response_data.htm
-old-project: print
+tech.root: print
 ms.assetid: 8e56ef0a-c652-4fca-ad87-4a0495c8de2e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

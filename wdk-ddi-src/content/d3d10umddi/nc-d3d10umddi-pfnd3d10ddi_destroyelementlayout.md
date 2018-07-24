@@ -4,10 +4,10 @@ title: PFND3D10DDI_DESTROYELEMENTLAYOUT
 author: windows-driver-content
 description: The DestroyElementLayout function destroys the specified element layout object. The element layout object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyelementlayout.htm
-old-project: display
+tech.root: display
 ms.assetid: 8b6a07b5-5358-45d3-af42-84f8a6327535
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyElementLayout, DestroyElementLayout callback function [Display Devices], PFND3D10DDI_DESTROYELEMENTLAYOUT, PFND3D10DDI_DESTROYELEMENTLAYOUT callback, UserModeDisplayDriverDx10_Functions_7d64849d-bfd1-489c-99d2-de9be6f04ab4.xml, d3d10umddi/DestroyElementLayout, display.destroyelementlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

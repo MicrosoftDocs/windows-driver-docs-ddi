@@ -4,10 +4,10 @@ title: "_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS"
 author: windows-driver-content
 description: This structure provides a list of UCX default endpoint event callback functions.
 old-location: buses\_ucx_default_endpoint_event_callbacks.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A22E96FC-E219-4F6C-B8AF-AC86FAD89543
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

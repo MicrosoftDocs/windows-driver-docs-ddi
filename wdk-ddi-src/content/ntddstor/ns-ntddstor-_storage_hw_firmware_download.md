@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_DOWNLOAD"
 author: windows-driver-content
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: storage\storage_hw_firmware_download.htm
-old-project: storage
+tech.root: storage
 ms.assetid: EFF4688D-E5B2-4F4C-837D-D536F9244AB6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

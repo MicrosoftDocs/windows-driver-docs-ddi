@@ -4,10 +4,10 @@ title: "_DXGKARG_GETMULTIPLANEOVERLAYCAPS"
 author: windows-driver-content
 description: Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 old-location: display\dxgkarg_getmultiplaneoverlaycaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

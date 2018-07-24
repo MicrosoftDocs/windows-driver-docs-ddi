@@ -4,7 +4,7 @@ title: CcPinRead function
 author: windows-driver-content
 description: The CcPinRead routine pins the specified byte range of a cached file and reads the pinned data into a buffer in memory.
 old-location: ifsk\ccpinread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_VOLUME_CONTROL"
 author: windows-driver-content
 description: The VOLUME_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_VOLUME request to retrieve volume values for up to four audio ports.
 old-location: storage\volume_control.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

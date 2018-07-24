@@ -4,7 +4,7 @@ title: KeReleaseSpinLockForDpc function
 author: windows-driver-content
 description: The KeReleaseSpinLockForDpc routine releases a spin lock that was acquired by calling KeAcquireSpinLockForDpc.
 old-location: kernel\kereleasespinlockfordpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b6b36720-0c56-46f6-bfa6-dd31fae7b6d4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

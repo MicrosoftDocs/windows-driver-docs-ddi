@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_TECH_ROUTING_INFO"
 author: windows-driver-content
 description: SECURE_ELEMENT_TECH_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_tech_routing_info.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 62622A56-D84A-40E4-9CFA-4B0938B8FD85
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

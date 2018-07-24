@@ -4,10 +4,10 @@ title: PFND3DDDI_SETMARKERMODE
 author: windows-driver-content
 description: Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event.
 old-location: display\pfnsetmarkermode.htm
-old-project: display
+tech.root: display
 ms.assetid: D45750D9-F722-4208-8D00-E14FD9C009CB
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETMARKERMODE, PFND3DDDI_SETMARKERMODE callback, d3dumddi/pfnSetMarkerMode, display.pfnsetmarkermode, pfnSetMarkerMode, pfnSetMarkerMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KSSCATTER_GATHER
 author: windows-driver-content
 description: "."
 old-location: stream\ksscatter_gather.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 10AFDC4B-75E5-4E88-A614-60043848C570
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

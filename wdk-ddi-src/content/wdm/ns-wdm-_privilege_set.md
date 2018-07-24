@@ -4,7 +4,7 @@ title: "_PRIVILEGE_SET"
 author: windows-driver-content
 description: The PRIVILEGE_SET structure specifies a set of security privileges. For more information, see the reference page for PRIVILEGE_SET in the Microsoft Windows SDK documentation.
 old-location: kernel\privilege_set.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4d5c8c4f-78f4-4e98-9e76-a9896b5c9124
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

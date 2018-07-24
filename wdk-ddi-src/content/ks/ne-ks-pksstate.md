@@ -4,7 +4,7 @@ title: "*PKSSTATE"
 author: windows-driver-content
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ The KSSTATE enumeration lists possible states of a kernel streaming object.
 
 
 ````
-typedef enum  { 
+typedef enum  {
   KSSTATE_STOP     = 0,
   KSSTATE_ACQUIRE  = 1,
   KSSTATE_PAUSE    = 2,

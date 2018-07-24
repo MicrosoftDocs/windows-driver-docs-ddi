@@ -4,7 +4,7 @@ title: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION
 author: windows-driver-content
 description: The CLIENT_ControllerSpecificFunction event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.
 old-location: gpio\client_controllerspecificfunction.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

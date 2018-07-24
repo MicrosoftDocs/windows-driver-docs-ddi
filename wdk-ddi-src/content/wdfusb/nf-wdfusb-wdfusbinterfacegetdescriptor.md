@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetDescriptor function
 author: windows-driver-content
 description: The WdfUsbInterfaceGetDescriptor method retrieves the USB interface descriptor that is associated with a specified alternate setting of a specified USB interface.
 old-location: wdf\wdfusbinterfacegetdescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 70156bfa-8271-42f6-9a22-0d0b77e63b66
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: DriverEntry function
 author: windows-driver-content
 description: The DriverEntry miniport driver routine is called when the miniport driver is loaded.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\driverentry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f756e66b-7e66-4a27-9327-70608207d99b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: WdfRequestReuse function
 author: windows-driver-content
 description: The WdfRequestReuse method reinitializes a framework request object so that it can be reused.
 old-location: wdf\wdfrequestreuse.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3d649cc5-6512-432c-9bd9-60e18507a873
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

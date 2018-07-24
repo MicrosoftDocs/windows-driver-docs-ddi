@@ -4,7 +4,7 @@ title: KSPROPERTY_POSITIONS
 author: windows-driver-content
 description: The KSPROPERTY_POSITIONS structure specifies the current position and stop position, relative to the total duration of the stream.
 old-location: stream\ksproperty_positions.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

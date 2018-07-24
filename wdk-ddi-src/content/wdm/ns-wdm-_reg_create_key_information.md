@@ -4,7 +4,7 @@ title: "_REG_CREATE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_CREATE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key that is being created.
 old-location: kernel\reg_create_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5609a2c4-71db-432a-8a39-e407130a6e4c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

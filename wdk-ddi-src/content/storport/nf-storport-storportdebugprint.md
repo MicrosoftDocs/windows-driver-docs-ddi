@@ -4,7 +4,7 @@ title: StorPortDebugPrint function
 author: windows-driver-content
 description: The StorPortDebugPrint routine prints a debug string to the kernel debugger, if the debugger is attached.
 old-location: storage\storportdebugprint.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 46845a10-c44b-4d11-b82e-986bfc066b97
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

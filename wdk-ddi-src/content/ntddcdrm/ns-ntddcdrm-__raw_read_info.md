@@ -4,7 +4,7 @@ title: "__RAW_READ_INFO"
 author: windows-driver-content
 description: The RAW_READ_INFO structure is used in conjunction with the IOCTL_CDROM_RAW_READ request to read data from a CD-ROM in raw mode.
 old-location: storage\raw_read_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8786545d-39b2-4331-9d62-3b345eb58d1f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

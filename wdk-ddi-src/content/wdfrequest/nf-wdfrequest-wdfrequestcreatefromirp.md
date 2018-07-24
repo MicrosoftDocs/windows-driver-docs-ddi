@@ -4,7 +4,7 @@ title: WdfRequestCreateFromIrp function
 author: windows-driver-content
 description: The WdfRequestCreateFromIrp method creates a framework request object from a specified WDM IRP.
 old-location: wdf\wdfrequestcreatefromirp.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7fc67320-6943-4e39-8474-28c24265eae2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

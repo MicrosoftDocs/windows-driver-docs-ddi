@@ -4,7 +4,7 @@ title: BdaFilterFactoryUpdateCacheData function
 author: windows-driver-content
 description: The BdaFilterFactoryUpdateCacheData function updates the pin data cache for an instance of a filter.
 old-location: stream\bdafilterfactoryupdatecachedata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c4b8220a-bd54-4e41-a00e-3750a3f03cae
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

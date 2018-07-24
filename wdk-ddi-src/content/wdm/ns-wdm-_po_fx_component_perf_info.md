@@ -4,7 +4,7 @@ title: "_PO_FX_COMPONENT_PERF_INFO"
 author: windows-driver-content
 description: The PO_FX_COMPONENT_PERF_INFO structure describes all the sets of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DA9C020F-18E7-4C6C-AEBB-81B099C80CD0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

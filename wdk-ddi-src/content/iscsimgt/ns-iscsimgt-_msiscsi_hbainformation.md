@@ -4,7 +4,7 @@ title: "_MSiSCSI_HBAInformation"
 author: windows-driver-content
 description: The MSiSCSI_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
 old-location: storage\msiscsi_hbainformation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

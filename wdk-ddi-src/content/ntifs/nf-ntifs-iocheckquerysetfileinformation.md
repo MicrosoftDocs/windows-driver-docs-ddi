@@ -4,7 +4,7 @@ title: IoCheckQuerySetFileInformation function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iocheckquerysetfileinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

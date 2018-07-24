@@ -4,10 +4,10 @@ title: "_D3DKMDT_VIDPN_TARGET_MODE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_TARGET_MODE structure contains information about a video present network (VidPN) target mode.
 old-location: display\d3dkmdt_vidpn_target_mode.htm
-old-project: display
+tech.root: display
 ms.assetid: 9a20e955-7ef1-4cb7-8081-42fb69b55fb6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, _D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

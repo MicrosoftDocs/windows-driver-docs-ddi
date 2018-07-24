@@ -4,7 +4,7 @@ title: IWDFFile::RetrieveFileName
 author: windows-driver-content
 description: The RetrieveFileName method retrieves the full name of the file that is associated with the underlying kernel-mode device.
 old-location: wdf\iwdffile_retrievefilename.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

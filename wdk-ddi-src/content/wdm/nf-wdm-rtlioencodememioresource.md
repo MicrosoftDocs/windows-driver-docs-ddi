@@ -4,7 +4,7 @@ title: RtlIoEncodeMemIoResource function
 author: windows-driver-content
 description: The RtlIoEncodeMemIoResource routine updates an IO_RESOURCE_DESCRIPTOR structure to describe a range of memory or I/O port addresses.
 old-location: kernel\rtlioencodememioresource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

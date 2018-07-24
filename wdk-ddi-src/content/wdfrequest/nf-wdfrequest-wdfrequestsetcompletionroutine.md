@@ -4,7 +4,7 @@ title: WdfRequestSetCompletionRoutine function
 author: windows-driver-content
 description: The WdfRequestSetCompletionRoutine method registers or deregisters a completion routine for the specified framework request object.
 old-location: wdf\wdfrequestsetcompletionroutine.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c60f3dd5-2a74-4d7c-8804-35b9dd91dce4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: HidP_GetScaledUsageValue function
 author: windows-driver-content
 description: The HidP_GetScaledUsageValue routine returns the signed and scaled result of a HID control value extracted from a HID report.
 old-location: hid\hidp_getscaledusagevalue.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 0af1a3f2-b933-4232-865c-cccca53fd32e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

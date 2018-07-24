@@ -4,7 +4,7 @@ title: KsSetTargetState function
 author: windows-driver-content
 description: Sets the enabled state of a target device associated with the specified object header.
 old-location: stream\kssettargetstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 36f14936-8cc6-4488-aa0f-343e4fbb84e3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

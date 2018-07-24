@@ -4,7 +4,7 @@ title: WdfDeviceInitAssignName function
 author: windows-driver-content
 description: The WdfDeviceInitAssignName method assigns a device name to a device's device object.
 old-location: wdf\wdfdeviceinitassignname.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 70b86a0f-a77d-4c79-931d-d0407083e5b0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: NtClose function
 author: windows-driver-content
 description: The ZwClose routine closes an object handle.
 old-location: kernel\zwclose.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 35f335db-416b-4a17-b84c-d440b34ed199
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

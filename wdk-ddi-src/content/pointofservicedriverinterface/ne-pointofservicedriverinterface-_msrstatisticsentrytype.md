@@ -4,7 +4,7 @@ title: "_MsrStatisticsEntryType"
 author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe reader statistics.
 old-location: pos\mststatisticsentrytype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: b3c9fac6-79b3-4a81-92af-004eb17a22f5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

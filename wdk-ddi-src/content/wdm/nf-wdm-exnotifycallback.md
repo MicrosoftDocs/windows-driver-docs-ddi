@@ -4,7 +4,7 @@ title: ExNotifyCallback function
 author: windows-driver-content
 description: The ExNotifyCallback routine causes all callback routines registered for the given object to be called.
 old-location: kernel\exnotifycallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

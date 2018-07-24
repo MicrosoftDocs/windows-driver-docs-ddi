@@ -4,7 +4,7 @@ title: "_PEP_QUERY_SOC_SUBSYSTEM_COUNT"
 author: windows-driver-content
 description: The PEP_QUERY_SOC_SUBSYSTEM_COUNT structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state.
 old-location: kernel\pep_query_soc_subsystem_count.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1DB17B90-41B7-4DA2-AFB6-3A4B218068F6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

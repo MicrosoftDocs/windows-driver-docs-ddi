@@ -4,7 +4,7 @@ title: PoSetPowerState function
 author: windows-driver-content
 description: The PoSetPowerState routine notifies the system of a change in the device power state for a device.
 old-location: kernel\posetpowerstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER"
 author: windows-driver-content
 description: The FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure holds information about the Device Serial Number feature.
 old-location: storage\feature_data_logical_unit_serial_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 74917f45-5a76-4112-ade2-992249500dc3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

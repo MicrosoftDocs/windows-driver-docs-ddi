@@ -4,7 +4,7 @@ title: KsResolveRequiredAttributes function
 author: windows-driver-content
 description: The KsResolveRequiredAttributes function searches the attributes list that is attached to a data range for specified attributes and ensures that all specified attributes were found.
 old-location: stream\ksresolverequiredattributes.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 04153845-4170-40db-ba60-3d438ae0a60d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

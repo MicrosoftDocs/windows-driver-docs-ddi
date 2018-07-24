@@ -4,7 +4,7 @@ title: "_T0_DATA"
 author: windows-driver-content
 description: The T0_DATA structure is used by the smart card driver library to process T0 I/O.
 old-location: smartcrd\t0_data.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

@@ -4,7 +4,7 @@ title: WdfRequestStopAcknowledge function
 author: windows-driver-content
 description: The WdfRequestStopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request.
 old-location: wdf\wdfrequeststopacknowledge.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

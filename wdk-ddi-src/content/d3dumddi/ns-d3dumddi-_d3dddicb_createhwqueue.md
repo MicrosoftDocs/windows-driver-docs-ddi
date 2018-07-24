@@ -4,10 +4,10 @@ title: "_D3DDDICB_CREATEHWQUEUE"
 author: windows-driver-content
 description: A structure that holds information to create a hardware queue.
 old-location: display\d3dddicb_createhwqueue.htm
-old-project: display
+tech.root: display
 ms.assetid: 085CEF61-2C2E-4F9C-B143-2E2D58C51643
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE structure [Display Devices], _D3DDDICB_CREATEHWQUEUE, d3dumddi/D3DDDICB_CREATEHWQUEUE, display.d3dddicb_createhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

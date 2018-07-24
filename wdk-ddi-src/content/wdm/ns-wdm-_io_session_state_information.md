@@ -4,7 +4,7 @@ title: "_IO_SESSION_STATE_INFORMATION"
 author: windows-driver-content
 description: The IO_SESSION_STATE_INFORMATION structure contains information about the state of a user session.
 old-location: kernel\io_session_state_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

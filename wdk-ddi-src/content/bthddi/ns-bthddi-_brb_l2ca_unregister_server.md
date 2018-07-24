@@ -4,7 +4,7 @@ title: "_BRB_L2CA_UNREGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_L2CA_UNREGISTER_SERVER structure to unregister itself as a server capable of receiving L2CAP connections from remote Bluetooth devices.
 old-location: bltooth\_brb_l2ca_unregister_server.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: bc10d76f-da09-457a-b469-ef59d1cb09d9
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

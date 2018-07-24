@@ -4,7 +4,7 @@ title: KeDeregisterBoundCallback function
 author: windows-driver-content
 description: The KeDeregisterBoundCallback routine deregisters a user-mode bound exception callback registered by KeRegisterBoundCallback.
 old-location: kernel\kederegisterboundcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

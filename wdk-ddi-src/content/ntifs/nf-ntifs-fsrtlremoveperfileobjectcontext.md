@@ -4,7 +4,7 @@ title: FsRtlRemovePerFileObjectContext function
 author: windows-driver-content
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlRemovePerFileObjectContext function unlinks a per-file-object context information structure from the list of per-file-object contexts previously associated with a file object.
 old-location: ifsk\fsrtlremoveperfileobjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RtlClearBits function
 author: windows-driver-content
 description: The RtlClearBits routine sets all bits in the specified range of bits in the bitmap to zero.
 old-location: kernel\rtlclearbits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2c332700-7778-4342-b99b-093142496624
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

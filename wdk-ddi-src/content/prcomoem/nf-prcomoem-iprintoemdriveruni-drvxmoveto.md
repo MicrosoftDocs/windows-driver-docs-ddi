@@ -4,7 +4,7 @@ title: IPrintOemDriverUni::DrvXMoveTo
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvXMoveTo method is provided by the Unidrv driver so that a rendering plug-in can notify the driver of cursor x-position changes.
 old-location: print\iprintoemdriveruni_drvxmoveto.htm
-old-project: print
+tech.root: print
 ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

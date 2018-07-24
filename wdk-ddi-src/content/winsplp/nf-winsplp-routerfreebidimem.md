@@ -4,7 +4,7 @@ title: RouterFreeBidiMem function
 author: windows-driver-content
 description: RouterFreeBidiMem frees a block of memory that was previously allocated by RouterAllocBidiMem.
 old-location: print\routerfreebidimem.htm
-old-project: print
+tech.root: print
 ms.assetid: 946b1630-844a-43ac-8c26-fdfa2ee7866a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: AtaPortCompleteAllActiveRequests function
 author: windows-driver-content
 description: The AtaPortCompleteAllActiveRequests routine completes all active IRBs for the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcompleteallactiverequests.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

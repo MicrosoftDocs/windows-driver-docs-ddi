@@ -4,7 +4,7 @@ title: StorPortResumeDevice function
 author: windows-driver-content
 description: The StorPortResumeDevice routine resumes a previously paused logical unit.
 old-location: storage\storportresumedevice.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

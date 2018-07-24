@@ -4,7 +4,7 @@ title: KeReleaseSemaphore function
 author: windows-driver-content
 description: The KeReleaseSemaphore routine releases the specified semaphore object.
 old-location: kernel\kereleasesemaphore.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

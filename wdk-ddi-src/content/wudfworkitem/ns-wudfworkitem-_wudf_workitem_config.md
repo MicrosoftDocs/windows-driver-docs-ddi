@@ -4,7 +4,7 @@ title: "_WUDF_WORKITEM_CONFIG"
 author: windows-driver-content
 description: The WUDF_WORKITEM_CONFIG structure contains information that is associated with a work item.
 old-location: wdf\wudf_workitem_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 877C6641-30F9-44BC-9286-3B1D880482C9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

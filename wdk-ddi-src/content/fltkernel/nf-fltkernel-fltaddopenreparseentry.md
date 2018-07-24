@@ -4,7 +4,7 @@ title: FltAddOpenReparseEntry function
 author: windows-driver-content
 description: This routine adds a caller allocated open reparse structure, OPEN_REPARSE_LIST_ENTRY, into a create operation.
 old-location: ifsk\fltaddopenreparseentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: D58AB46A-0D87-45B5-8C58-E99ED0F906D2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

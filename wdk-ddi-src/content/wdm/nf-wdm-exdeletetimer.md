@@ -4,7 +4,7 @@ title: ExDeleteTimer function
 author: windows-driver-content
 description: The ExDeleteTimer routine deletes a timer object that was previously allocated by the ExAllocateTimer routine.
 old-location: kernel\exdeletetimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: CE0C1D49-1505-464E-90DB-2C6D30C04EC1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

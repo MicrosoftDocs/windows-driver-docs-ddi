@@ -4,7 +4,7 @@ title: ZwSetValueKey function
 author: windows-driver-content
 description: The ZwSetValueKey routine creates or replaces a registry key's value entry.
 old-location: kernel\zwsetvaluekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

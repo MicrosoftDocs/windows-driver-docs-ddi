@@ -4,7 +4,7 @@ title: ExtDeviceMode function
 author: windows-driver-content
 description: The ExtDeviceMode function is provided only for compatibility with 16-bit applications.
 old-location: print\extdevicemode.htm
-old-project: print
+tech.root: print
 ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

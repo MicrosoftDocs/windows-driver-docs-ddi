@@ -4,7 +4,7 @@ title: PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK
 author: windows-driver-content
 description: The ComponentCriticalTransitionCallback callback routine handles a transition of the specified component between the F0 (fully on) and low-power Fx component power states.
 old-location: kernel\componentcriticaltransitioncallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

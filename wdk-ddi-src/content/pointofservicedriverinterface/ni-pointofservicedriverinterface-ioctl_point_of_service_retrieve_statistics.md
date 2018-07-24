@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
 author: windows-driver-content
 description: This I/O control function returns unified point of service (UPOS) standard information about a device such as its category, manufacturer, and firmware revision number.
 old-location: pos\ioctl_point_of_service_retrieve_statistics.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 8c63ef41-e4dd-4b34-a897-c9bec13f4211
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

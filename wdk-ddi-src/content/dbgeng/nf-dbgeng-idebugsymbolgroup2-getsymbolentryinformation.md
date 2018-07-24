@@ -4,10 +4,10 @@ title: IDebugSymbolGroup2::GetSymbolEntryInformation
 author: windows-driver-content
 description: The GetSymbolEntryInformation method returns information about a symbol in a symbol group.
 old-location: debugger\getsymbolentryinformation2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolEntryInformation method, IDebugSymbolGroup2.GetSymbolEntryInformation, IDebugSymbolGroup2::GetSymbolEntryInformation, dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, debugger.getsymbolentryinformation2
 ms.prod: windows-hardware
 ms.technology: windows-devices

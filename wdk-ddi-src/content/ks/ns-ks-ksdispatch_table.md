@@ -4,7 +4,7 @@ title: KSDISPATCH_TABLE
 author: windows-driver-content
 description: The KSDISPATCH_TABLE structure contains pointers to minidriver implemented IRP dispatch routines.
 old-location: stream\ksdispatch_table.htm
-old-project: stream
+tech.root: stream
 ms.assetid: baa45ce7-3dcd-4383-99f2-aeb664a03190
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

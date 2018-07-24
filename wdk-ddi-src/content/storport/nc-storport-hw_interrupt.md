@@ -4,7 +4,7 @@ title: HW_INTERRUPT
 author: windows-driver-content
 description: The Storport driver calls the HwStorInterrupt routine after the HBA generates an interrupt request.
 old-location: storage\hwstorinterrupt.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

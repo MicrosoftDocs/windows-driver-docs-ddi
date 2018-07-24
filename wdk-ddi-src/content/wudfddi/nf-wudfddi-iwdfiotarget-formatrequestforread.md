@@ -4,7 +4,7 @@ title: IWDFIoTarget::FormatRequestForRead
 author: windows-driver-content
 description: The FormatRequestForRead method formats an I/O request object for a read operation.
 old-location: wdf\iwdfiotarget_formatrequestforread.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8a1b61c8-8b85-4224-ae20-3788eb0babe4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

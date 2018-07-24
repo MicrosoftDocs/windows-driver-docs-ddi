@@ -4,7 +4,7 @@ title: IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
 author: windows-driver-content
 description: The IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR control code obtains the physical descriptor of a HIDClass device.
 old-location: hid\ioctl_umdf_get_physical_descriptor.htm
-old-project: hid
+tech.root: hid
 ms.assetid: F5852D3B-FD30-4308-A08E-B7DEA86A35E6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

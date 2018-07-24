@@ -4,7 +4,7 @@ title: KsGetNextSibling function
 author: windows-driver-content
 description: The KsGetNextSibling function returns the next sibling of a given object.
 old-location: stream\ksgetnextsibling.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 509cf778-2b0c-4dd2-982d-0c7be95ad407
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

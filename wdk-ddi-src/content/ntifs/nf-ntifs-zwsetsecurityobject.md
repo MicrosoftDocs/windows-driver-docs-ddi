@@ -4,7 +4,7 @@ title: ZwSetSecurityObject function
 author: windows-driver-content
 description: The ZwSetSecurityObject routine sets an object's security state.
 old-location: kernel\zwsetsecurityobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

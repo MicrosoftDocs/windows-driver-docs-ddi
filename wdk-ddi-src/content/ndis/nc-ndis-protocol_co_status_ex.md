@@ -4,10 +4,10 @@ title: PROTOCOL_CO_STATUS_EX
 author: windows-driver-content
 description: The ProtocolCoStatusEx function indicates status changes from underlying connection-oriented drivers or from NDIS.Note  You must declare the function by using the PROTOCOL_CO_STATUS_EX type.
 old-location: netvista\protocolcostatusex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices

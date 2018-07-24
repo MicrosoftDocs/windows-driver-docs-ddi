@@ -4,7 +4,7 @@ title: IKsControl
 author: windows-driver-content
 description: The IKsControl interface provides user-mode methods that control a KS filter or KS pin. See the IKsControl AVStream COM interface for information about the user-mode equivalent of this interface.
 old-location: stream\ikscontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d73cf2fc-15bb-4f45-aae3-fb55bcd072a3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

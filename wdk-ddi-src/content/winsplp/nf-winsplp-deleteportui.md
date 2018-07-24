@@ -4,7 +4,7 @@ title: DeletePortUI function
 author: windows-driver-content
 description: A port monitor UI DLL's DeletePortUI function deletes a printer port.
 old-location: print\deleteportui.htm
-old-project: print
+tech.root: print
 ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

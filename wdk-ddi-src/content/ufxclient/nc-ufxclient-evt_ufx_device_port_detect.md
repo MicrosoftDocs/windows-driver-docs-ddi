@@ -4,10 +4,10 @@ title: EVT_UFX_DEVICE_PORT_DETECT
 author: windows-driver-content
 description: The client driver's implementation to initiate port detection.
 old-location: buses\evt_ufx_device_port_detect.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: EC32BFE8-6E93-4CEF-8EA8-856B0E431FCF
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices

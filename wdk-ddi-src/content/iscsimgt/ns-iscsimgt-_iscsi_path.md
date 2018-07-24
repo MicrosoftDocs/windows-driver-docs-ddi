@@ -4,7 +4,7 @@ title: "_ISCSI_Path"
 author: windows-driver-content
 description: The ISCSI_Path structure contains information about a connection of the iSCSI portal.
 old-location: storage\iscsi_path.htm
-old-project: storage
+tech.root: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

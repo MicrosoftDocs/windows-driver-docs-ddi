@@ -4,7 +4,7 @@ title: "_PNP_BUS_INFORMATION"
 author: windows-driver-content
 description: The PNP_BUS_INFORMATION structure describes a bus.
 old-location: kernel\pnp_bus_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 68372562-9af0-431d-90ae-c82678d9103e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

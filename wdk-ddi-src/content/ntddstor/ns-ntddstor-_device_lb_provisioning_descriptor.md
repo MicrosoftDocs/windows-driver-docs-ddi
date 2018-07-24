@@ -4,7 +4,7 @@ title: "_DEVICE_LB_PROVISIONING_DESCRIPTOR"
 author: windows-driver-content
 description: The DEVICE_LB_PROVISIONING_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request. This structure contains the thin provisioning capabilities for a storage device.
 old-location: storage\device_lb_provisioning_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

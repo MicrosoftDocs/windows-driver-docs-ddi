@@ -4,10 +4,10 @@ title: RILCONFPARTICIPANTSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilconfparticipantstatus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7eb0e06b-85f0-4b61-9ed0-2f35156fbb8c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilconfparticipantstatus, ntddrilapitypes/RILCONFPARTICIPANTSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

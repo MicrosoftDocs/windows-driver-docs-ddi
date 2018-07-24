@@ -4,7 +4,7 @@ title: IPrinterQueue::get_Name
 author: windows-driver-content
 description: Gets the name of the printer for this print queue.
 old-location: print\iprinterqueue_name.htm
-old-project: print
+tech.root: print
 ms.assetid: BB8CAEFC-3CD5-46EA-89A8-FAF38063A185
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_DOT11_SUPPORTED_DSSS_CHANNEL_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_dsss_channel_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 45941a4d-12e0-4a80-b04e-9e349126f5ff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,20 +74,20 @@ typedef struct _DOT11_SUPPORTED_DSSS_CHANNEL_LIST {
 
 ### -field uNumOfEntries
 
-The number of entries in the 
+The number of entries in the
      <b>dot11SupportedDSSSChannel</b> array.
 
 
 ### -field uTotalNumOfEntries
 
-The maximum number of entries that the 
+The maximum number of entries that the
      <b>dot11SupportedDSSSChannel</b> array can contain.
 
 
 ### -field dot11SupportedDSSSChannel
 
 An array that specifies the list of supported frequency channels that the NIC can operate with.
-     Each element in this list is formatted as a 
+     Each element in this list is formatted as a
      <a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">
      DOT11_SUPPORTED_DSSS_CHANNEL</a> structure.
 
@@ -96,7 +96,7 @@ An array that specifies the list of supported frequency channels that the NIC ca
 
 
 
-A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when queried by 
+A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when queried by
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
     OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>.
 

@@ -4,7 +4,7 @@ title: ChangerSetPosition function
 author: windows-driver-content
 description: ChangerSetPosition handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_SET_POSITION.
 old-location: storage\changersetposition.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cab12c57-dd2b-4453-90ed-7f8954e0fe5d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RxInferFileType function
 author: windows-driver-content
 description: RxInferFileType tries to infer the file type (directory or non-directory) from a member in the RX_CONTEXT structure.
 old-location: ifsk\rxinferfiletype.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

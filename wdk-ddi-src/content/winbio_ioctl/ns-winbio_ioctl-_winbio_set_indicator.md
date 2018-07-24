@@ -4,7 +4,7 @@ title: "_WINBIO_SET_INDICATOR"
 author: windows-driver-content
 description: The WINBIO_SET_INDICATOR structure is the IN payload for IOCTL_BIOMETRIC_SET_INDICATOR.
 old-location: biometric\winbio_set_indicator.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

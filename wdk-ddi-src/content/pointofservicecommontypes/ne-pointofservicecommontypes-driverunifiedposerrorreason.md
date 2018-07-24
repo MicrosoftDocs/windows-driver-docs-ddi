@@ -4,7 +4,7 @@ title: DriverUnifiedPosErrorReason
 author: windows-driver-content
 description: This enumeration indicates the reason for the error.
 old-location: pos\unifiedposerrorreason.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 2bbf5fcf-666e-4265-95cf-7e04670d59da
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

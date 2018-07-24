@@ -4,7 +4,7 @@ title: "_DRIVE_LAYOUT_INFORMATION_EX"
 author: windows-driver-content
 description: The DRIVE_LAYOUT_INFORMATION_EX structure is used to report information about the driver layout.
 old-location: storage\drive_layout_information_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e077f9a6-1d94-4d17-9166-b23756df6cc8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

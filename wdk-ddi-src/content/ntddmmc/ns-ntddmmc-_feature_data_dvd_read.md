@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_DVD_READ"
 author: windows-driver-content
 description: The FEATURE_DATA_DVD_READ structure contains information about the DVD Read feature.
 old-location: storage\feature_data_dvd_read.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 489d3edc-4966-481e-b5c8-6979173e9341
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

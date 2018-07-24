@@ -4,10 +4,10 @@ title: IPortClsPnp
 author: windows-driver-content
 description: IPortClsPnp is the PnP management interface that the port class driver (PortCls) exposes to the adapter.
 old-location: audio\iportclspnp.htm
-old-project: audio
+tech.root: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices],described, audio.iportclspnp, portcls/IPortClsPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices

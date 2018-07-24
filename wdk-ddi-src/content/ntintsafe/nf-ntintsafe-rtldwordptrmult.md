@@ -4,7 +4,7 @@ title: RtlDWordPtrMult function
 author: windows-driver-content
 description: Multiplies one value of type DWORD_PTR by another.
 old-location: kernel\rtldwordptrmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

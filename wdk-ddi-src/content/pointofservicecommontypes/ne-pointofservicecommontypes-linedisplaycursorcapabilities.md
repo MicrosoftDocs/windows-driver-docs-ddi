@@ -4,7 +4,7 @@ title: LineDisplayCursorCapabilities
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursorcapabilities.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 3F7AE8FE-F975-43AF-9FA0-C494E506D4B1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

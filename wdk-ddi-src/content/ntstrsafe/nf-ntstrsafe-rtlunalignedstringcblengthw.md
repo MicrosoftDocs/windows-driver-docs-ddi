@@ -4,7 +4,7 @@ title: RtlUnalignedStringCbLengthW function
 author: windows-driver-content
 description: The RtlUnalignedStringCbLengthW function is a version of the RtlStringCbLength function that accepts an unaligned pointer to a string of Unicode characters.
 old-location: kernel\rtlunalignedstringcblength.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

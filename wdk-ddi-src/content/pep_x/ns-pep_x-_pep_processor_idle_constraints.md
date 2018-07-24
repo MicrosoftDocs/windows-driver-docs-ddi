@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_IDLE_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_CONSTRAINTS structure specifies a set of constraints that the PEP uses to select a processor idle state.
 old-location: kernel\pep_processor_idle_constraints.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E2939DFA-52EC-4AA7-ACC6-63D60603A24D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KS_AM_ExactRateChange
 author: windows-driver-content
 description: The KS_AM_ExactRateChange structure is not yet implemented.
 old-location: stream\ks_am_exactratechange.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

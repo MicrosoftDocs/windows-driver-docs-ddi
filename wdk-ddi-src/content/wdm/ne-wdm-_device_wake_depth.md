@@ -4,7 +4,7 @@ title: "_DEVICE_WAKE_DEPTH"
 author: windows-driver-content
 description: The DEVICE_WAKE_DEPTH enumeration specifies the deepest device power state from which a device can trigger a wake signal.
 old-location: kernel\device_wake_depth.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C8829785-1EB7-4F29-9279-F2FC2A3C0ABD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

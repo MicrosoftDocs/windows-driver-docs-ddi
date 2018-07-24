@@ -4,7 +4,7 @@ title: "_RemoveConnectionFromSession_OUT"
 author: windows-driver-content
 description: The RemoveConnectionFromSession_OUT structure holds the output data for the RemoveConnectionFromSession method, which is used to remove a connection from a session.
 old-location: storage\removeconnectionfromsession_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 00c6c94e-06a8-40ec-8ddd-4a4191fa1ec6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

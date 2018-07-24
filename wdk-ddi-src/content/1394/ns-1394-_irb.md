@@ -4,7 +4,7 @@ title: "_IRB"
 author: windows-driver-content
 description: Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 old-location: ieee\irb.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: EnumPrintProcessorDatatypesA function
 author: windows-driver-content
 description: A print processor's EnumPrintProcessorDatatypes function enumerates the data types that the print processor supports.
 old-location: print\enumprintprocessordatatypes.htm
-old-project: print
+tech.root: print
 ms.assetid: 018880d0-0b0b-4130-bd8f-93814e40fe1e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

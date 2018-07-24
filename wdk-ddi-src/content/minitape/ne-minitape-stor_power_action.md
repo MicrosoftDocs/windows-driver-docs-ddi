@@ -4,7 +4,7 @@ title: STOR_POWER_ACTION
 author: windows-driver-content
 description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
 old-location: storage\stor_power_action.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

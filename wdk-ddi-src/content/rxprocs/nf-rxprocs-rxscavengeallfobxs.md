@@ -4,7 +4,7 @@ title: RxScavengeAllFobxs function
 author: windows-driver-content
 description: RxScavengeAllFobxs scavenges all of the FOBX structures associated with a network mini-redirector device object.
 old-location: ifsk\rxscavengeallfobxs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dd849f18-6271-483a-9c00-b7fe50109989
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

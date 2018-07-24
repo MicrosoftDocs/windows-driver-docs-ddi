@@ -4,10 +4,10 @@ title: NmrWaitForProviderDeregisterComplete function
 author: windows-driver-content
 description: The NmrWaitForProviderDeregisterComplete function waits for the deregistration of a provider module to complete.
 old-location: netvista\nmrwaitforproviderderegistercomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

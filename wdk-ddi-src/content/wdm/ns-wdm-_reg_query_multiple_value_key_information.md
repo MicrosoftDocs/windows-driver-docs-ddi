@@ -4,7 +4,7 @@ title: "_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure describes the multiple value entries that are being retrieved for a key.
 old-location: kernel\reg_query_multiple_value_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 764045c0-9057-4abc-a1bd-8713797082c6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

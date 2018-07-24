@@ -4,7 +4,7 @@ title: SeImpersonateClientEx function
 author: windows-driver-content
 description: The SeImpersonateClientEx routine causes a thread to impersonate a user.
 old-location: ifsk\seimpersonateclientex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

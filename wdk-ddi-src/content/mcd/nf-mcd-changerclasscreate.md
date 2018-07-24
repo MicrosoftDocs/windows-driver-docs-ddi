@@ -4,7 +4,7 @@ title: ChangerClassCreate function
 author: windows-driver-content
 description: The ChangerClassCreate routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device.
 old-location: storage\changerclasscreate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3abaf674-e8a8-42bb-ac31-1ca8f5e148e4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

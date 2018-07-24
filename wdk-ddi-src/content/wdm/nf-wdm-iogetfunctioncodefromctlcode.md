@@ -4,7 +4,7 @@ title: IoGetFunctionCodeFromCtlCode macro
 author: windows-driver-content
 description: The IoGetFunctionCodeFromCtlCode macro returns the value of the function code contained in an I/O control code.
 old-location: kernel\iogetfunctioncodefromctlcode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

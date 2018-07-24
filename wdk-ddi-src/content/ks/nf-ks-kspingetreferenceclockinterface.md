@@ -4,7 +4,7 @@ title: KsPinGetReferenceClockInterface function
 author: windows-driver-content
 description: The KsPinGetReferenceClockInterface function returns a COM style interface to the reference clock associated with Pin. This interface pointer will be an IKsReferenceClock interface.
 old-location: stream\kspingetreferenceclockinterface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 49c78b4e-aa3a-4c4b-8720-0302a537c84c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

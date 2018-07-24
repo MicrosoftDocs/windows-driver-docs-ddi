@@ -4,7 +4,7 @@ title: IPrinterExtensionRequest::Complete
 author: windows-driver-content
 description: Completes the extension event.
 old-location: print\iprinterextensionrequest_complete.htm
-old-project: print
+tech.root: print
 ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

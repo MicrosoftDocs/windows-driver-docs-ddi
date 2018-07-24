@@ -4,7 +4,7 @@ title: PRETRIEVEUINT64
 author: windows-driver-content
 description: The Bluetooth SdpRetrieveUint64 function is used to copy an unaligned 64-bit integer from an SDP stream.
 old-location: bltooth\sdpretrieveuint64.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: cc19dd43-447d-47c7-966e-aeb8ca792aa7
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

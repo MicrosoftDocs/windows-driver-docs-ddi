@@ -4,7 +4,7 @@ title: "_WDF_PROPERTY_STORE_ROOT"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_ROOT structure contains information that identifies a UMDF property store.
 old-location: wdf\wdf_property_store_root.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

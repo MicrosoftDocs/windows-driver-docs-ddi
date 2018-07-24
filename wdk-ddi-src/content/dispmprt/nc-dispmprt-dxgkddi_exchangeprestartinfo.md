@@ -4,7 +4,7 @@ title: DXGKDDI_EXCHANGEPRESTARTINFO
 author: windows-driver-content
 description: Allows very simple data to be exchanged between the OS and driver which may be required prior to DxgkDdiStartDevice device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 old-location: display\dxgkddi_exchangeprestartinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

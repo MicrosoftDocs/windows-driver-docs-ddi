@@ -4,7 +4,7 @@ title: IPrinterExtensionRequest::Cancel
 author: windows-driver-content
 description: Completes the extension event with a cancellation.
 old-location: print\iprinterextensionrequest_cancel.htm
-old-project: print
+tech.root: print
 ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

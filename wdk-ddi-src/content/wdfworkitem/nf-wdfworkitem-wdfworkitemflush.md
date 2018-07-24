@@ -4,7 +4,7 @@ title: WdfWorkItemFlush function
 author: windows-driver-content
 description: The WdfWorkItemFlush method returns after a specified work item has been serviced.
 old-location: wdf\wdfworkitemflush.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

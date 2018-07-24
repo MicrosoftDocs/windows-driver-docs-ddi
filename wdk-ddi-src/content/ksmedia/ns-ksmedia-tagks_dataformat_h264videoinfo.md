@@ -4,7 +4,7 @@ title: tagKS_DATAFORMAT_H264VIDEOINFO
 author: windows-driver-content
 description: The KS_DATAFORMAT_H264VIDEOINFO structure describes the data formats range available for a stream.
 old-location: stream\ks_dataformat_h264videoinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6D2C0245-542E-4749-B8F3-531BFA3800E3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

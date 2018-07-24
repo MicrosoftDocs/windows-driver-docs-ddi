@@ -4,10 +4,10 @@ title: wiauDbgInit macro
 author: windows-driver-content
 description: The wiauDbgInit function initializes WIA debugging.
 old-location: image\wiaudbginit.htm
-old-project: image
+tech.root: image
 ms.assetid: a9308d66-c8b0-4e0e-8203-e2b3f91b7e27
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbginit, wiauDbgInit, wiauDbgInit function [Imaging Devices], wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiautil/wiauDbgInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: PoFxIssueComponentPerfStateChangeMultiple function
 author: windows-driver-content
 description: The PoFxIssueComponentPerfStateChangeMultiple routine submits a request to change the performance states in multiple performance state sets simultaneously for a device component.
 old-location: kernel\pofxissuecomponentperfstatechangemultiple.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 246211E7-89A9-4916-BF6E-5771B911CBA3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_RESERVED"
 author: windows-driver-content
 description: The FEATURE_DATA_RESERVED structure holds information about an unspecified feature.
 old-location: storage\feature_data_reserved.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 686bc6e0-7455-4b86-93ce-09b7c7d60240
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_WHEA_X64_REGISTER_STATE"
 author: windows-driver-content
 description: The WHEA_X64_REGISTER_STATE structure describes the state of an x64 processor's registers.
 old-location: whea\whea_x64_register_state.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 690c900f-fba8-4712-9a05-bfbe633dd9cf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

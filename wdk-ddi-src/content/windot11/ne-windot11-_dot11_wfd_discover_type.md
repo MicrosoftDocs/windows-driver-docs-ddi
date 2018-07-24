@@ -4,7 +4,7 @@ title: "_DOT11_WFD_DISCOVER_TYPE"
 author: windows-driver-content
 description: The DOT11_WFD_DISCOVER_TYPE enumeration indicates the mode of Wi-Fi Direct device discovery.
 old-location: netvista\dot11_wfd_discover_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: B50C7FD5-5AE4-4BF3-9FD7-F006F4B6BAAF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_WFD_DISCOVER_TYPE { 
+typedef enum _DOT11_WFD_DISCOVER_TYPE {
   dot11_wfd_discover_type_scan_only             = 1,
   dot11_wfd_discover_type_find_only             = 2,
   dot11_wfd_discover_type_auto                  = 3,

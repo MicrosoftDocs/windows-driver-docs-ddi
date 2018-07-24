@@ -4,7 +4,7 @@ title: "_BIDI_REQUEST_DATA"
 author: windows-driver-content
 description: The BIDI_REQUEST_DATA structure holds a single bidi request.
 old-location: print\bidi_request_data.htm
-old-project: print
+tech.root: print
 ms.assetid: ef5a89e3-f072-48a7-b2d9-d68e0e27ba9e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

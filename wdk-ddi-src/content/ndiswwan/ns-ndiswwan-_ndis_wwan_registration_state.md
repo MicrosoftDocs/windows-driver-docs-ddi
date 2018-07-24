@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_REGISTRATION_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\ndis_wwan_registration_state.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, _NDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

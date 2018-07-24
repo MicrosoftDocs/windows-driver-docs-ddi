@@ -4,7 +4,7 @@ title: KsStreamPointerGetMdl function
 author: windows-driver-content
 description: The KsStreamPointerGetMdl function returns the MDL associated with the frame referenced by StreamPointer.
 old-location: stream\ksstreampointergetmdl.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 05d37fbd-9bdc-478a-8772-6f63d1363c1c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

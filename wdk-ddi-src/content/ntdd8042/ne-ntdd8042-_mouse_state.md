@@ -4,7 +4,7 @@ title: "_MOUSE_STATE"
 author: windows-driver-content
 description: The MOUSE_STATE enumeration type identifies the current state of input from a mouse.
 old-location: hid\mouse_state.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

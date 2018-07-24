@@ -4,7 +4,7 @@ title: "_IDEREGISTERS"
 author: windows-driver-content
 description: The IDEREGISTERS structure is used to report the contents of the IDE controller registers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ideregisters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

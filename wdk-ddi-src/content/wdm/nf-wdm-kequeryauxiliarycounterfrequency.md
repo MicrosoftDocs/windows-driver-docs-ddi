@@ -4,7 +4,7 @@ title: KeQueryAuxiliaryCounterFrequency function
 author: windows-driver-content
 description: The KeQueryAuxiliaryCounterFrequency routine returns frequency of the auxiliary counter in units of Hz.
 old-location: kernel\kequeryauxiliarycounterfrequency.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

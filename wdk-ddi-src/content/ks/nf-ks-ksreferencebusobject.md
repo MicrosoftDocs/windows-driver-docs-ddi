@@ -4,7 +4,7 @@ title: KsReferenceBusObject function
 author: windows-driver-content
 description: References the bus Physical device object.
 old-location: stream\ksreferencebusobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 96297c0a-a3ba-4f16-befb-ee6a55d2fb25
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

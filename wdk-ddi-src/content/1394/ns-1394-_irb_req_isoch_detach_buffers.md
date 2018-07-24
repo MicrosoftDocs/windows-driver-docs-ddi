@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_DETACH_BUFFERS"
 author: windows-driver-content
 description: This structure contains the fields required to carry out a IsochDetachBuffers request.
 old-location: ieee\irb_req_isoch_detach_buffers.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 60ED83BD-4AFA-432F-B918-9006815C8D47
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

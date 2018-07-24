@@ -4,7 +4,7 @@ title: "_DOT11EXT_IHV_UI_REQUEST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_ui_request.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -86,16 +86,16 @@ A globally unique ID (GUID) which identifies the UI request.
 
 ### -field UIPageClsid
 
-The 
+The
      <b>IWizardExtension</b> COM class ID (CLSID) of the target UI page that will handle this request. For
-     more information about the 
-     <b>IWizardExtension</b> COM interface, see 
+     more information about the
+     <b>IWizardExtension</b> COM interface, see
      <a href="http://go.microsoft.com/fwlink/p/?linkid=56607">IWizardExtension COM Interface</a>.
 
 
 ### -field dwByteCount
 
-The length, in bytes, within the buffer referenced through the 
+The length, in bytes, within the buffer referenced through the
      <b>pvUIRequest</b> member.
 
 
@@ -111,13 +111,13 @@ A pointer to a buffer that contains the request data in a format defined by the 
 
 The IHV Extensions DLL can issue requests to the IHV UI extensions DLL to interact with the user for
     input to network UI extensions defined by the IHV. The IHV Extensions DLL initiates these requests
-    through calls to the 
-    <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a> or 
+    through calls to the
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a> or
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">
     Dot11ExtIhvQueryUIRequest</a> functions.
 
 For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to define the request,
-    and must set the 
+    and must set the
     <b>guidUIRequest</b> member of this structure to a GUID value that uniquely identifies the UI request.
 
 

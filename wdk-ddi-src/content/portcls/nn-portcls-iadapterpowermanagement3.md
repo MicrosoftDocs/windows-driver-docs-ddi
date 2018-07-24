@@ -4,10 +4,10 @@ title: IAdapterPowerManagement3
 author: windows-driver-content
 description: The IAdapterPowerManagement3 interface inherits from IUnknown, and it is used for receiving power management messages.
 old-location: audio\iadapterpowermanagement3.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
 ms.prod: windows-hardware
 ms.technology: windows-devices

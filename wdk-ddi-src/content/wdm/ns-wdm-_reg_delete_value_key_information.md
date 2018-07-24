@@ -4,7 +4,7 @@ title: "_REG_DELETE_VALUE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_DELETE_VALUE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key's value is being deleted.
 old-location: kernel\reg_delete_value_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7976ad9a-b40c-44b1-bc28-0bcb3b721e92
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

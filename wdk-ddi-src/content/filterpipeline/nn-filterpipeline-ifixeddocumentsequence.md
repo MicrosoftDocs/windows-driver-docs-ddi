@@ -4,7 +4,7 @@ title: IFixedDocumentSequence
 author: windows-driver-content
 description: The IFixedDocumentSequence interface represents the fixed document sequence for an XPS document.
 old-location: print\ifixeddocumentsequence.htm
-old-project: print
+tech.root: print
 ms.assetid: 8919e2d1-0c39-46b6-b06e-83fe61f67751
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

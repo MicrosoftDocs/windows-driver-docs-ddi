@@ -4,7 +4,7 @@ title: KsGetMediaTypeCount function
 author: windows-driver-content
 description: The KsGetMediaTypeCount function returns the number of available media types on a pin factory identifier.
 old-location: stream\ksgetmediatypecount.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 157cb12c-1b2d-45b5-8541-e16ee3449064
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

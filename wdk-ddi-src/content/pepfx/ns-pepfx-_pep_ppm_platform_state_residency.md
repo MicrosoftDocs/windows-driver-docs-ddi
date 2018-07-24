@@ -4,7 +4,7 @@ title: "_PEP_PPM_PLATFORM_STATE_RESIDENCY"
 author: windows-driver-content
 description: The PEP_PPM_PLATFORM_STATE_RESIDENCY structure specifies the accumulated residency time and transition count for a particular platform idle state.
 old-location: kernel\pep_ppm_platform_state_residency.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 35DB4043-F1B6-43C0-B8E7-FCEFF1E7E459
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

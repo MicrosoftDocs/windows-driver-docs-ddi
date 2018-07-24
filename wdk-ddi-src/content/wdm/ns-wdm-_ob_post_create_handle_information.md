@@ -4,7 +4,7 @@ title: "_OB_POST_CREATE_HANDLE_INFORMATION"
 author: windows-driver-content
 description: The OB_POST_CREATE_HANDLE_INFORMATION structure provides information to a ObjectPostCallback routine about a thread or process handle that has been opened.
 old-location: kernel\ob_post_create_handle_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9c33fc12-5997-4a5c-bf74-63df880055e7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

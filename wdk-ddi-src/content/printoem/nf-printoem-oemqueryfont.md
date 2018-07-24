@@ -4,7 +4,7 @@ title: OEMQueryFont function
 author: windows-driver-content
 description: The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
 old-location: print\oemqueryfont.htm
-old-project: print
+tech.root: print
 ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

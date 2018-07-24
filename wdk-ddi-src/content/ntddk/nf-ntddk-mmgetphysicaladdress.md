@@ -4,7 +4,7 @@ title: MmGetPhysicalAddress function
 author: windows-driver-content
 description: The MmGetPhysicalAddress routine returns the physical address corresponding to a valid nonpaged virtual address.
 old-location: kernel\mmgetphysicaladdress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2381c1c2-d7fc-4cb2-bbdf-2a95c78c34d0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDFDevice::CreateIoQueue
 author: windows-driver-content
 description: The CreateIoQueue method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device.
 old-location: wdf\iwdfdevice_createioqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 54c19d8c-59eb-44b2-b406-8fe33cdfcd63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

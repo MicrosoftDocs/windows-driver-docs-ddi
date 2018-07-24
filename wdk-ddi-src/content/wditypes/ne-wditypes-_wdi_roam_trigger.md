@@ -4,10 +4,10 @@ title: "_WDI_ROAM_TRIGGER"
 author: windows-driver-content
 description: The WDI_ROAM_TRIGGER enumeration defines roam triggers.
 old-location: netvista\wdi_roam_trigger.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7AFA084B-5EFC-429B-B6D1-F4E484B16921
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: WDI_ROAM_TRIGGER, WDI_ROAM_TRIGGER enumeration [Network Drivers Starting with Windows Vista], WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, WDI_ROAM_TRIGGER_OTHER, _WDI_ROAM_TRIGGER, netvista.wdi_roam_trigger, wditypes/WDI_ROAM_TRIGGER, wditypes/WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, wditypes/WDI_ROAM_TRIGGER_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices

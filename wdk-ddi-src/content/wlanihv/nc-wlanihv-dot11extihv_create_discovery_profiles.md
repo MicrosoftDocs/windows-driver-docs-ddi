@@ -4,7 +4,7 @@ title: DOT11EXTIHV_CREATE_DISCOVERY_PROFILES
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvcreatediscoveryprofiles.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e741bfa7-eb97-4f94-beb4-545d7bedcea8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h, Winclient.h, L2cmn.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
-The operating system calls the 
+The operating system calls the
   <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function to return temporary connectivity and security profile
   fragments that could be used to connect to a basic service set (BSS) network for which a network profile
   does not exist.
@@ -85,7 +85,7 @@ DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
-     handle value was specified through a previous call to the 
+     handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
@@ -99,7 +99,7 @@ A Boolean value that specifies the security status of the discovery profiles. If
 
 ### -param pIhvProfileParams [in, optional]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
      DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
@@ -107,20 +107,20 @@ A pointer to a
 
 ### -param pConnectableBssid [in, optional]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a> structure, which contains one
      or more 802.11 Beacon or Probe Response frames received from a BSS network. This list is derived from
      the results of the last scan operation performed by the WLAN adapter. For more information about the
-     scan operation, see 
+     scan operation, see
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
-     
+
 
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div>
 
 ### -param pIhvDiscoveryProfileList [out]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile_list.md">
      DOT11EXT_IHV_DISCOVERY_PROFILE_LIST</a> structure that specifies a list of IHV discovery
      profiles.
@@ -128,9 +128,9 @@ A pointer to a
 
 ### -param pdwReasonCode [out]
 
-A pointer to a DWORD value, which provides additional information for the return value of the 
+A pointer to a DWORD value, which provides additional information for the return value of the
      <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function. The IHV Extensions DLL must set *
-     <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in 
+     <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in
      L2cmn.h.
 
 
@@ -139,7 +139,7 @@ A pointer to a DWORD value, which provides additional information for the return
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -149,25 +149,25 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-After the WLAN adapter completes a scan operation, the operating system might call 
+After the WLAN adapter completes a scan operation, the operating system might call
     <i>Dot11ExtIhvCreateDiscoveryProfiles</i> to create temporary profile fragments that could be used to
     connect to a BSS network for which a network profile has not been created by the user.
 
-When 
+When
     <i>Dot11ExtIhvCreateDiscoveryProfiles</i> is called, the IHV Extensions DLL must follow these
     guidelines.
 
 <ul>
 <li>
 If the IHV Extensions DLL can return profile fragments that can be used to connect to the BSS
-      network, the 
+      network, the
       <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function must return ERROR_SUCCESS. Otherwise, the function
-      must return an appropriate error code from the ERROR_xxxx values defined in 
+      must return an appropriate error code from the ERROR_xxxx values defined in
       Winerror.h.
 
 </li>
 <li>
-The IHV Extensions DLL provides more information regarding the return result of the 
+The IHV Extensions DLL provides more information regarding the return result of the
       <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function. The DLL must set *
       <i>pdwReasonCode</i> to one of the following:
 
@@ -189,7 +189,7 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </ul>
 </li>
 </ul>
-For more information about creating discovery profiles, see 
+For more information about creating discovery profiles, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/creating-network-profile-extensions">Creating Network Profile
     Extensions</a>.
 

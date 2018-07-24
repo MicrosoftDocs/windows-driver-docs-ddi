@@ -4,7 +4,7 @@ title: KoRelease function
 author: windows-driver-content
 description: The KoRelease function decrements the reference count for the calling interface on an object.
 old-location: stream\korelease.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 59be582c-0f56-45d8-b407-e588ee0f7f8b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

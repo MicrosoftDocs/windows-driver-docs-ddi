@@ -4,10 +4,10 @@ title: RIL_GetUiccPRLID function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuiccprlid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 74398dad-efb6-4c21-9b0e-38ff0449ec99
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetUiccPRLID, RIL_GetUiccPRLID method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccprlid, rilapi/RIL_GetUiccPRLID
 ms.prod: windows-hardware
 ms.technology: windows-devices

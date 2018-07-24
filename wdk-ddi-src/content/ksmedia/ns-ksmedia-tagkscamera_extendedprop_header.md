@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_HEADER
 author: windows-driver-content
 description: The KSCAMERA_EXTENDEDPROP_HEADER structure is the payload header for an extend control property.
 old-location: stream\kscamera_extendedprop_header.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2CE89C1E-8FE8-4304-BD3F-5A926CAC74B4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

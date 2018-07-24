@@ -4,7 +4,7 @@ title: PsRemoveCreateThreadNotifyRoutine function
 author: windows-driver-content
 description: The PsRemoveCreateThreadNotifyRoutine routine removes a callback routine that was registered by the PsSetCreateThreadNotifyRoutine routine.
 old-location: kernel\psremovecreatethreadnotifyroutine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ef1fd29c-e0ef-4c08-ab3a-b1a3c694c06b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

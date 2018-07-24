@@ -4,7 +4,7 @@ title: "_ACL_MODE"
 author: windows-driver-content
 description: The ACL_MODE enumeration type is used to list the possible states of an ACL connection.
 old-location: bltooth\acl_mode.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 90013f42-9393-4037-8d0d-13fe5d7caa0b
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

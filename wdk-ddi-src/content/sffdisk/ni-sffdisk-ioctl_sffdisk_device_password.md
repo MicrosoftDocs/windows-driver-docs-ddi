@@ -4,7 +4,7 @@ title: IOCTL_SFFDISK_DEVICE_PASSWORD
 author: windows-driver-content
 description: User-mode applications use this IOCTL to perform basic operations on a Secure Digital (SD) card, such as setting the password on the card, resetting the card, or locking and unlocking the card.
 old-location: sd\ioctl_sffdisk_device_password.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 76b65ada-06b8-411e-83e9-62088f697f02
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

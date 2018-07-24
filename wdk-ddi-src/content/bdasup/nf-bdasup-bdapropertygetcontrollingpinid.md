@@ -4,7 +4,7 @@ title: BdaPropertyGetControllingPinId function
 author: windows-driver-content
 description: The BdaPropertyGetControllingPinId function retrieves the identifier of a pin on which to control the properties, methods, and events of a specific node.
 old-location: stream\bdapropertygetcontrollingpinid.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3d4d4124-9c52-42f5-bc31-b924d9c15c36
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

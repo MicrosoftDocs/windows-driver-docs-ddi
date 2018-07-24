@@ -4,7 +4,7 @@ title: IoSetTopLevelIrp function
 author: windows-driver-content
 description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 10d1889b-d79c-4c06-a012-77414c88ce17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

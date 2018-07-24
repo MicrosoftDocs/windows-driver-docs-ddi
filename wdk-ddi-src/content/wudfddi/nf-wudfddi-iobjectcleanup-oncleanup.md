@@ -4,7 +4,7 @@ title: IObjectCleanup::OnCleanup
 author: windows-driver-content
 description: The OnCleanup method releases any references to a WDF object to prevent interface leakage.
 old-location: wdf\iobjectcleanup_oncleanup.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6b66c496-d1cc-4b7a-ae50-f18fffa7275a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

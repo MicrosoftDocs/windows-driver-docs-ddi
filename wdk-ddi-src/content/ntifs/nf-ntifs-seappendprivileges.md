@@ -4,7 +4,7 @@ title: SeAppendPrivileges function
 author: windows-driver-content
 description: The SeAppendPrivileges routine appends additional privileges to the privilege set in an access state structure.
 old-location: ifsk\seappendprivileges.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b7a9142a-b6db-4a64-a5e3-d03d39ac3d09
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

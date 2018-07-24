@@ -4,7 +4,7 @@ title: FsRtlIsNameInExpression function
 author: windows-driver-content
 description: The FsRtlIsNameInExpression routine determines whether a Unicode string matches the specified pattern.
 old-location: ifsk\fsrtlisnameinexpression.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

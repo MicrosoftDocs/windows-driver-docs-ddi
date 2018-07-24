@@ -4,7 +4,7 @@ title: READ_PORT_BUFFER_USHORT function
 author: windows-driver-content
 description: The READ_PORT_BUFFER_USHORT routine reads a number of USHORT values from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_ushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 27c2f249-bfd2-497d-aa34-f5d1e1a1fac7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

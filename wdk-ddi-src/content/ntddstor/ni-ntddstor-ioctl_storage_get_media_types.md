@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_MEDIA_TYPES
 author: windows-driver-content
 description: Returns information about the geometry of floppy drives.
 old-location: storage\ioctl_storage_get_media_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 213711fb-26eb-443b-aff4-8f84b643adb3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

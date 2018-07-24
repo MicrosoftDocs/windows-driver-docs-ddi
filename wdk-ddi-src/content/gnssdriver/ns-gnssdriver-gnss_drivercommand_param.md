@@ -4,7 +4,7 @@ title: GNSS_DRIVERCOMMAND_PARAM
 author: windows-driver-content
 description: This structure is used to send a command to the GNSS driver.
 old-location: gnss\gnss_drivercommand_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: EC6EDD7A-B57F-4350-9EB9-56721EAC19BD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

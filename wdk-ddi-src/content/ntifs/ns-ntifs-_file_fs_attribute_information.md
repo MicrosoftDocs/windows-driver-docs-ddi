@@ -4,7 +4,7 @@ title: "_FILE_FS_ATTRIBUTE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_ATTRIBUTE_INFORMATION structure is used to query attribute information for a file system.
 old-location: ifsk\file_fs_attribute_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IWDTF2::get_Config
 author: windows-driver-content
 description: Gets the WDTF configuration object.
 old-location: dtf\iwdtf2_config.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d7302c51-02b3-4876-b215-6bde1160245a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

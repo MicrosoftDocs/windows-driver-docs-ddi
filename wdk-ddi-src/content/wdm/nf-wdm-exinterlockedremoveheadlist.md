@@ -4,7 +4,7 @@ title: ExInterlockedRemoveHeadList function
 author: windows-driver-content
 description: The ExInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\exinterlockedremoveheadlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d024da2c-9629-4907-98b8-a29dc6022ac0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

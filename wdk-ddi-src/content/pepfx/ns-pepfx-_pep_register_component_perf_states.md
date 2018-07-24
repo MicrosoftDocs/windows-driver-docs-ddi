@@ -4,7 +4,7 @@ title: "_PEP_REGISTER_COMPONENT_PERF_STATES"
 author: windows-driver-content
 description: The PEP_REGISTER_COMPONENT_PERF_STATES structure describes the performance states (P-states) of the specified component.
 old-location: kernel\pep_register_component_perf_states.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 063ADC0A-3455-4966-A11C-BDD5BA08A685
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_AACS_VOLUME_ID"
 author: windows-driver-content
 description: The AACS_VOLUME_ID structure contains an Advanced Access Content System (AACS) volume ID and the corresponding message authentication code (MAC).
 old-location: storage\aacs_volume_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3ad7a253-cc55-4613-8086-b8d08d9bd54f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

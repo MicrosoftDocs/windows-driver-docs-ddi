@@ -4,7 +4,7 @@ title: "_SendRNID_IN"
 author: windows-driver-content
 description: The SendRNID_IN structure is used to deliver input parameter data to the SendRNID WMI method.
 old-location: storage\sendrnid_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 668c4d1a-52e8-49ea-bd19-e789dfa8dfa5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

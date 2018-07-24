@@ -4,7 +4,7 @@ title: "_GetBindingCapability_IN"
 author: windows-driver-content
 description: The GetBindingCapability_IN structure is used by a WMI client to deliver the input parameter data of the GetBindingCapability WMI method to the HBA miniport driver.
 old-location: storage\getbindingcapability_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cd4046db-f9f5-4c9e-8886-29504c727f67
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

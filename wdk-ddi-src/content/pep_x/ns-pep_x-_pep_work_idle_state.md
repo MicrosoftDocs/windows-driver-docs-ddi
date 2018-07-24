@@ -4,7 +4,7 @@ title: "_PEP_WORK_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_WORK_IDLE_STATE structure contains a request to transition a component to an Fx power state.
 old-location: kernel\pep_work_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DD8C454D-D0F6-456B-B59A-2E4DF2D757B5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

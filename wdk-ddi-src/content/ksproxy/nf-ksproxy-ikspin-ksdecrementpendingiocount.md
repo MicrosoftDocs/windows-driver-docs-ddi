@@ -4,7 +4,7 @@ title: IKsPin::KsDecrementPendingIoCount
 author: windows-driver-content
 description: The KsDecrementPendingIoCount method decrements the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksdecrementpendingiocount.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92e0355c-b89f-46c2-b406-e3c73fc37000
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_DELETE_DRIVE_LAYOUT
 author: windows-driver-content
 description: Removes partition information from the disk.
 old-location: storage\ioctl_disk_delete_drive_layout.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 787fa1ce-5305-4159-8710-3c6971133c4c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

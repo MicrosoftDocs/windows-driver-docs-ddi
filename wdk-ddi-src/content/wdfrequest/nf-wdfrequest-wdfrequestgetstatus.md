@@ -4,7 +4,7 @@ title: WdfRequestGetStatus function
 author: windows-driver-content
 description: The WdfRequestGetStatus method returns the status of an I/O request.
 old-location: wdf\wdfrequestgetstatus.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

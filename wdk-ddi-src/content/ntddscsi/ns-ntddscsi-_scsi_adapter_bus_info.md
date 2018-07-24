@@ -4,7 +4,7 @@ title: "_SCSI_ADAPTER_BUS_INFO"
 author: windows-driver-content
 description: The SCSI_ADAPTER_BUS_INFO structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_adapter_bus_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_ROUTING_TABLE"
 author: windows-driver-content
 description: SECURE_ELEMENT_ROUTING_TABLE is an input parameter for IOCTL_NFCSE_SET_ROUTING_TABLE.
 old-location: nfpdrivers\_secure_element_routing_table.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: AD5E6434-BBBF-44CB-8153-B8F4D4F75E94
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

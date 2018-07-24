@@ -4,10 +4,10 @@ title: FILTER_SEND_NET_BUFFER_LISTS
 author: windows-driver-content
 description: NDIS calls the FilterSendNetBufferLists function to allow a filter driver to filter a linked list of NET_BUFFER_LIST structures.Note  You must declare the function by using the FILTER_SEND_NET_BUFFER_LISTS type.
 old-location: netvista\filtersendnetbufferlists.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1b3fc0c8-95da-47e5-8ff1-b7967f5148e7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FILTER_SEND_NET_BUFFER_LISTS, FILTER_SEND_NET_BUFFER_LISTS callback, FilterSendNetBufferLists, FilterSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_576e3ac8-da80-4302-a0d5-41a1168336ee.xml, ndis/FilterSendNetBufferLists, netvista.filtersendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices

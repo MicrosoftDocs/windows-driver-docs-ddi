@@ -4,7 +4,7 @@ title: WdmlibRtlInitUnicodeStringEx function
 author: windows-driver-content
 description: The WdmlibRtlInitUnicodeStringEx function initializes a counted string of Unicode characters.
 old-location: kernel\wdmlibrtlinitunicodestringex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

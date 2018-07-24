@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_IO_BUFFER_RETRIEVAL"
 author: windows-driver-content
 description: The WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
 old-location: wdf\wdf_device_io_buffer_retrieval.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

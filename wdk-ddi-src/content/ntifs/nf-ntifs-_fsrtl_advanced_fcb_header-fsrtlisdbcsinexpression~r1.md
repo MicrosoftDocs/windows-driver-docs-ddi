@@ -4,7 +4,7 @@ title: FsRtlIsDbcsInExpression function
 author: windows-driver-content
 description: The FsRtlIsDbcsInExpression routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 old-location: ifsk\fsrtlisdbcsinexpression.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern. 
+The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-
 
 ### -param Expression [in]
 
-A pointer to the pattern string. Can contain wildcard characters. 
+A pointer to the pattern string. Can contain wildcard characters.
 
 
 ### -param Name [in]
 
-A pointer to the string to be compared against the pattern. Cannot contain wildcard characters. 
+A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
 
 ## -returns
@@ -143,7 +143,7 @@ Matches zero or more characters until encountering and matching the final . in t
 
 Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff563013">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
 
 
 

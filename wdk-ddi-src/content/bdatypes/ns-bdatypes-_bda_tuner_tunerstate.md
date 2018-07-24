@@ -4,7 +4,7 @@ title: "_BDA_TUNER_TUNERSTATE"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_tuner_tunerstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 77B30ADC-27F2-4883-97FC-F6C29B539EE0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

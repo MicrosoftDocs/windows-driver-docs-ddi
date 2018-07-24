@@ -4,7 +4,7 @@ title: BdaUninitFilter function
 author: windows-driver-content
 description: The BdaUninitFilter function removes the BDA filter context from the associated filter instance.
 old-location: stream\bdauninitfilter.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c74f5633-49bf-4c8d-8702-89723067753a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

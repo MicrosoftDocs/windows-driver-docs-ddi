@@ -4,7 +4,7 @@ title: "_WHEA_AER_ENDPOINT_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_AER_ENDPOINT_DESCRIPTOR structure describes a PCI Express (PCIe) endpoint error source.
 old-location: whea\whea_aer_endpoint_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 2b77853d-2c34-4902-90e3-b9a58d56e88e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

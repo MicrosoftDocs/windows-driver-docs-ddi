@@ -4,7 +4,7 @@ title: "_CLS_IO_STATISTICS_HEADER"
 author: windows-driver-content
 description: The CLFS_IO_STATISTICS_HEADER structure holds the header portion of a CLFS_IO_STATISTICS structure.
 old-location: kernel\clfs_io_statistics_header.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ac0da755-ea2f-4b68-947c-c314d114f273
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

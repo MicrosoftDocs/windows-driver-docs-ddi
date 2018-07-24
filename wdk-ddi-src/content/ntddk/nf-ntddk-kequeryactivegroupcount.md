@@ -4,7 +4,7 @@ title: KeQueryActiveGroupCount function
 author: windows-driver-content
 description: The KeQueryActiveGroupCount routine returns the number of active processor groups in a multiprocessor system.
 old-location: kernel\kequeryactivegroupcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

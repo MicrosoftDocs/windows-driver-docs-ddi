@@ -4,7 +4,7 @@ title: "_DRIVE_LAYOUT_INFORMATION"
 author: windows-driver-content
 description: The DRIVE_LAYOUT_INFORMATION structure is obsolete and is provided only to support existing drivers.
 old-location: storage\drive_layout_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 980cd307-9048-4054-be8e-967d15862a14
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

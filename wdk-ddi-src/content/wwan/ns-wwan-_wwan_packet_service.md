@@ -4,10 +4,10 @@ title: "_WWAN_PACKET_SERVICE"
 author: windows-driver-content
 description: The WWAN_PACKET_SERVICE structure represents the packet service attachment state of the MB device.
 old-location: netvista\wwan_packet_service.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5d444e1c-cbcf-47ab-9c5a-10af1f1915cf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

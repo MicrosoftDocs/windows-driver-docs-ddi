@@ -4,7 +4,7 @@ title: SPB_TRANSFER_BUFFER_LIST_ENTRY
 author: windows-driver-content
 description: The SPB_TRANSFER_BUFFER_LIST_ENTRY structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
 old-location: spb\spb_transfer_buffer_list_entry.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: C53F4F44-5338-4BEF-8055-AE4AC37002AC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

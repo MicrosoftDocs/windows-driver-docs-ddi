@@ -4,7 +4,7 @@ title: "_IMAGE_INFO"
 author: windows-driver-content
 description: Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to specify image information.
 old-location: kernel\image_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IoWMIDeviceObjectToInstanceName function
 author: windows-driver-content
 description: The IoWMIDeviceObjectToInstanceName routine determines the instance name for the WMI class instance implemented by the driver that is specified by a device object.
 old-location: kernel\iowmideviceobjecttoinstancename.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

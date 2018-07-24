@@ -4,7 +4,7 @@ title: KeQueryMaximumProcessorCountEx function
 author: windows-driver-content
 description: The KeQueryMaximumProcessorCountEx routine returns the maximum number of logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerymaximumprocessorcountex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6ccc0f8c-d7b7-4043-8580-d35345d884cc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

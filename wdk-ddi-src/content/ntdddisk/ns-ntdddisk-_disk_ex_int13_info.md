@@ -4,7 +4,7 @@ title: "_DISK_EX_INT13_INFO"
 author: windows-driver-content
 description: The DISK_EX_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an extended INT13 format.
 old-location: storage\disk_ex_int13_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 82e3a1e9-275a-489a-9e6e-d76007a1abb9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

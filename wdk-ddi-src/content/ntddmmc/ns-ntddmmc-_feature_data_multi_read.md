@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_MULTI_READ"
 author: windows-driver-content
 description: The FEATURE_DATA_MULTI_READ structure contains data for the multiread feature.
 old-location: storage\feature_data_multi_read.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a7db6bd2-7c04-4bfc-b4b4-db1f99520e56
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: SILO_MONITOR_TERMINATE_CALLBACK
 author: windows-driver-content
 description: This callback is invoked when a silo is terminated.
 old-location: kernel\silo_monitor_terminate_callback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1F87D6AC-3603-4A34-BAAB-8B43ADF9E595
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

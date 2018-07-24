@@ -4,7 +4,7 @@ title: SetJobNamedProperty function
 author: windows-driver-content
 description: Describes the SetJobNamedProperty function.
 old-location: print\setjobnamedproperty.htm
-old-project: print
+tech.root: print
 ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IQueueCallbackStateChange::OnStateChange
 author: windows-driver-content
 description: The OnStateChange method is called when the state of the I/O queue object changes.
 old-location: wdf\iqueuecallbackstatechange_onstatechange.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 69a422a1-b878-496e-b1b9-e04b7c3db121
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

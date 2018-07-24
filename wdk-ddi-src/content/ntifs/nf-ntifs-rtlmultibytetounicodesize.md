@@ -4,7 +4,7 @@ title: RtlMultiByteToUnicodeSize function
 author: windows-driver-content
 description: The RtlMultiByteToUnicodeSize routine determines the number of bytes that are required to store the Unicode translation for the specified source string.
 old-location: ifsk\rtlmultibytetounicodesize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f285e319-23ef-4951-8fb3-107cd54a23b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

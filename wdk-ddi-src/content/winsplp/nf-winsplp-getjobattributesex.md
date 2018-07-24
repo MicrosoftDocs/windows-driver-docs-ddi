@@ -4,7 +4,7 @@ title: GetJobAttributesEx function
 author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\getjobattributesex.htm
-old-project: print
+tech.root: print
 ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

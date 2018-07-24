@@ -4,7 +4,7 @@ title: DbgPrintEx function
 author: windows-driver-content
 description: The DbgPrintEx routine sends a string to the kernel debugger if the conditions you specify are met.
 old-location: devtest\dbgprintex.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 0fe82f72-e3dd-49de-a12a-1997e9651bac
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

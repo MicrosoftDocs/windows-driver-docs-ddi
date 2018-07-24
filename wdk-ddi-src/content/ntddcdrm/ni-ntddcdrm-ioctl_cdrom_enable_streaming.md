@@ -4,7 +4,7 @@ title: IOCTL_CDROM_ENABLE_STREAMING
 author: windows-driver-content
 description: Enables or disables CDROM streaming mode on a per-handle basis for raw read and write requests.
 old-location: storage\ioctl_cdrom_enable_streaming.htm
-old-project: storage
+tech.root: storage
 ms.assetid: DC31EABA-CE58-4B6F-ADCD-0BF72A92C6AB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

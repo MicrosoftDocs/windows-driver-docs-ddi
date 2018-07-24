@@ -4,7 +4,7 @@ title: POPULATE_TOKEN_HEADER
 author: windows-driver-content
 description: A populate token parameter list starts with a POPULATE_TOKEN_HEADER structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 old-location: storage\populate_token_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 897C74A3-041D-487E-8891-7161B76ABAA1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

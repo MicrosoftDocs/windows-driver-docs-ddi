@@ -4,7 +4,7 @@ title: KeReleaseSpinLock macro
 author: windows-driver-content
 description: The KeReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 old-location: kernel\kereleasespinlock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 300cdd3b-0c12-45e3-ae45-c26084f3ec12
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KeSetPriorityThread function
 author: windows-driver-content
 description: The KeSetPriorityThread routine sets the run-time priority of a driver-created thread.
 old-location: kernel\kesetprioritythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

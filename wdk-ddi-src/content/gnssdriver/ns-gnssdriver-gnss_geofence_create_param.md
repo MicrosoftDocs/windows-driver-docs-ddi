@@ -4,7 +4,7 @@ title: GNSS_GEOFENCE_CREATE_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for creating a geofence in the GNSS engine.
 old-location: gnss\gnss_geofence_create_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: CA517EF6-41EE-4DB0-B628-35902BA34FFB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

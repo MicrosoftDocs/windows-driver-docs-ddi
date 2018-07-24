@@ -4,7 +4,7 @@ title: RtlInitStringEx function
 author: windows-driver-content
 description: The RtlInitStringEx routine initializes a counted string of 8-bit characters.
 old-location: kernel\rtl_init_string_ex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

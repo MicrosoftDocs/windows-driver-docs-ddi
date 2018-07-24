@@ -4,7 +4,7 @@ title: InitializePrintMonitor function
 author: windows-driver-content
 description: The InitializePrintMonitor function is obsolete and is supported only for compatibility purposes.
 old-location: print\initializeprintmonitor.htm
-old-project: print
+tech.root: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_MOUNTMGR_DRIVE_LETTER_TARGET"
 author: windows-driver-content
 description: The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request to furnish a nonpersistent target device name to the mount manager.
 old-location: storage\mountmgr_drive_letter_target.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3bbfd3f8-9530-4c9f-99e3-a1fcbb956b51
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

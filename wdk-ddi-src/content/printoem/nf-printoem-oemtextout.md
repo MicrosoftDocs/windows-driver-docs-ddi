@@ -4,7 +4,7 @@ title: OEMTextOut function
 author: windows-driver-content
 description: The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.
 old-location: print\oemtextout.htm
-old-project: print
+tech.root: print
 ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

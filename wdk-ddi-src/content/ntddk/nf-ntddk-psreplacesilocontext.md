@@ -4,7 +4,7 @@ title: PsReplaceSiloContext function
 author: windows-driver-content
 description: This routine inserts an object in a Silo.
 old-location: kernel\psreplacesilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

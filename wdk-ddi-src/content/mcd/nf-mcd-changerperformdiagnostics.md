@@ -4,7 +4,7 @@ title: ChangerPerformDiagnostics function
 author: windows-driver-content
 description: ChangerPerformDiagnostics performs diagnostic tests on the changer device.
 old-location: storage\changerperformdiagnostics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

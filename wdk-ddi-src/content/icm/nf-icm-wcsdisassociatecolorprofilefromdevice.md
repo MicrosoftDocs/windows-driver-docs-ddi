@@ -4,7 +4,7 @@ title: WcsDisassociateColorProfileFromDevice function
 author: windows-driver-content
 description: The WcsDisassociateColorProfileFromDevice function disassociates a specified WCS color profile from a specified device.
 old-location: print\wcsdisassociatecolorprofilefromdevice.htm
-old-project: print
+tech.root: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

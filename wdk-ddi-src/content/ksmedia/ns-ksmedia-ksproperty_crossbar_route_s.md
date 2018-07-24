@@ -4,7 +4,7 @@ title: KSPROPERTY_CROSSBAR_ROUTE_S
 author: windows-driver-content
 description: The KSPROPERTY_CROSSBAR_ROUTE_S structure describes whether a particular routing is possible and specifies the current routing for a pin.
 old-location: stream\ksproperty_crossbar_route_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0db68fcd-8661-41d2-ac95-e9b6033e6aa8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

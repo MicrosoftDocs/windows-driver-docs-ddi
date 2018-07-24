@@ -4,7 +4,7 @@ title: IoSetDeviceToVerify function
 author: windows-driver-content
 description: The IoSetDeviceToVerify routine specifies a device object to be verified. The specified device object represents a removable media device.
 old-location: ifsk\iosetdevicetoverify.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 509eb91d-7f34-4ebb-bc37-56889c15a1b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

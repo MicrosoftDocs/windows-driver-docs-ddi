@@ -4,7 +4,7 @@ title: "_XVARIABLE_NAME"
 author: windows-driver-content
 description: Stores the name of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES request.
 old-location: kernel\xvariable_name.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

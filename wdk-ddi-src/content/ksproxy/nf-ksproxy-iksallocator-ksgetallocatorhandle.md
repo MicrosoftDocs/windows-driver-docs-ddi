@@ -4,7 +4,7 @@ title: IKsAllocator::KsGetAllocatorHandle
 author: windows-driver-content
 description: Retrieves a file handle to an allocator.
 old-location: stream\iksallocator_ksgetallocatorhandle.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9F79816F-866F-4B68-898F-87D310EFBBE7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

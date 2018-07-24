@@ -4,7 +4,7 @@ title: IOCTL_NFP_ENABLE
 author: windows-driver-content
 description: The client sends the IOCTL_NFP_ENABLE request to re-enable previously disabled subscriptions, publications, and presence events.
 old-location: nfpdrivers\ioctl_nfp_enable.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 25D4C7BB-782D-4BDB-9E07-F152E3705705
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,10 +4,10 @@ title: NDIS_WDI_TX_INJECT_FRAME_IND
 author: windows-driver-content
 description: The NdisWdiTxInjectFrameIndication callback function allows the LE to inject frames through the regular datapath (for example, authentication/association requests/responses, Wi-Fi Direct action frames).
 old-location: netvista\ndiswditxinjectframeindication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: C384FAFF-E22D-4FA2-8B11-F6C046003C70
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NDIS_WDI_TX_INJECT_FRAME_IND callback, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
 ms.prod: windows-hardware
 ms.technology: windows-devices

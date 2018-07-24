@@ -4,7 +4,7 @@ title: KSPROPERTY_TVAUDIO_S
 author: windows-driver-content
 description: The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as stereo or mono audio and language settings.
 old-location: stream\ksproperty_tvaudio_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a2e26798-322a-4057-8c29-3429711e36a4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IPrinterExtensionEvent
 author: windows-driver-content
 description: The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.
 old-location: print\iprinterextensionevent_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: GetPrintCapabilities function
 author: windows-driver-content
 description: The IPrintTicketProvider::GetPrintCapabilities method queries the provider for a complete print capabilities document that describes the printer's features and parameters.
 old-location: print\iprintticketprovider_getprintcapabilities.htm
-old-project: print
+tech.root: print
 ms.assetid: 12dfd953-2336-47ce-8fdc-df8c6138b31d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

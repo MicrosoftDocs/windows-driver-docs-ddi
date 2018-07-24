@@ -4,7 +4,7 @@ title: "_STORAGE_OFFLOAD_READ_OUTPUT"
 author: windows-driver-content
 description: The STORAGE_OFFLOAD_READ_OUTPUT structure is the output of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code request when the Action member of DEVICE_MANAGE_DATA_SET_ATTRIBUTES is set to DeviceDsmAction_OffloadRead.
 old-location: storage\storage_offload_read_output.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3C94D493-8033-4344-BC45-A2274E5A8963
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

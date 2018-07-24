@@ -4,7 +4,7 @@ title: IOCTL_CDROM_GET_CONTROL
 author: windows-driver-content
 description: This IOCTL request is obsolete. Do not use.Determines the current audio playback mode.
 old-location: storage\ioctl_cdrom_get_control.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3d474eb7-6622-48fd-bf40-c17d03933828
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

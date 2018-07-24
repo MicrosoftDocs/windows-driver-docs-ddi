@@ -4,7 +4,7 @@ title: HidP_MaxUsageListLength function
 author: windows-driver-content
 description: The HidP_MaxUsageListLength routine returns the maximum number of HID usages that HidP_GetUsages can return for a specified type of HID report and a specified top-level collection.
 old-location: hid\hidp_maxusagelistlength.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 90491024-f623-4528-8d37-4a6acb394473
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

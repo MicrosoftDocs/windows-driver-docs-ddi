@@ -4,10 +4,10 @@ title: NdisBuildScatterGatherList function
 author: windows-driver-content
 description: The NdisBuildScatterGatherList function builds a scatter/gather list by using the specified parameters.
 old-location: netvista\ndisbuildscattergatherlist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 439d68ec-9d27-484b-b6a3-9bae732d142e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisBuildScatterGatherList, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, netvista.ndisbuildscattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

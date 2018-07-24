@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::get_Count
 author: windows-driver-content
 description: Gets the number of devices that are currently provided by the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_count.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9a8c47b1-e8b9-42b4-8625-7d916178611e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

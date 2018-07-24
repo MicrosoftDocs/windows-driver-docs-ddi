@@ -4,7 +4,7 @@ title: FltCloseSectionForDataScan function
 author: windows-driver-content
 description: The FltCloseSectionForDataScan routine closes a section object associated with a file stream.
 old-location: ifsk\fltclosesectionfordatascan.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

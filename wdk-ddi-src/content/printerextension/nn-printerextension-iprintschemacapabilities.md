@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities
 author: windows-driver-content
 description: Provides the primary method to access PrintCapabilities.
 old-location: print\iprintschemacapabilities_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: A148C1B4-99A3-4AF3-B2D6-73684978425F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,10 +4,10 @@ title: PAGP_FREE_VIRTUAL
 author: windows-driver-content
 description: The AgpFreeVirtual function frees virtual memory committed by a previous call to AgpCommitVirtual.
 old-location: display\agpfreevirtual.htm
-old-project: display
+tech.root: display
 ms.assetid: a6f689ab-8cf1-4207-af2b-30957500c190
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL callback, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

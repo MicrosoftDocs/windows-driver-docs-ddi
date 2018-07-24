@@ -4,7 +4,7 @@ title: IPrintCoreUI2::WhyConstrained
 author: windows-driver-content
 description: The IPrintCoreUI2::WhyConstrained method determines why the specified feature/option selection is constrained.
 old-location: print\iprintcoreui2_whyconstrained.htm
-old-project: print
+tech.root: print
 ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: FsRtlNotifyCleanupAll function
 author: windows-driver-content
 description: The FsRtlNotifyCleanupAll routine removes all members of the specified notification list.
 old-location: ifsk\fsrtlnotifycleanupall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later version of the Windows operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlNotifyCleanupAll</b> routine removes all members of the specified notification list. 
+The <b>FsRtlNotifyCleanupAll</b> routine removes all members of the specified notification list.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>FsRtlNotifyCleanupAll</b> routine removes all members of the specified no
 
 ### -param NotifySync [in]
 
-A pointer to the opaque synchronization object for <i>NotifyList</i>. 
+A pointer to the opaque synchronization object for <i>NotifyList</i>.
 
 
 ### -param NotifyList [in]
 
-A pointer to the head of the notify list to be cleaned up. Each element in the list is an opaque notify structure. 
+A pointer to the head of the notify list to be cleaned up. Each element in the list is an opaque notify structure.
 
 
 ## -returns

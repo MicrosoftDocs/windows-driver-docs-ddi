@@ -4,7 +4,7 @@ title: "_DEVICE_SEEK_PENALTY_DESCRIPTOR"
 author: windows-driver-content
 description: The DEVICE_SEEK_PENALTY_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.
 old-location: storage\device_seek_penalty_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c12b66a4-fdb5-40d3-a767-c15477391179
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

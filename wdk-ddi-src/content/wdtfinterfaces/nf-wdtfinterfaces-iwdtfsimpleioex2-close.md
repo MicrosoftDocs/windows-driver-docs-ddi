@@ -4,7 +4,7 @@ title: IWDTFSimpleIOEx2::Close
 author: windows-driver-content
 description: Closes the device.
 old-location: dtf\iwdtfsimpleioex2_close.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: e8061408-2efe-4620-bc57-4cf0c3e41874
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

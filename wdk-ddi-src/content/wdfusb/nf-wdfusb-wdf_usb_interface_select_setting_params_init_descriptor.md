@@ -4,7 +4,7 @@ title: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function
 author: windows-driver-content
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying an interface descriptor.
 old-location: wdf\wdf_usb_interface_select_setting_params_init_descriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ae9266a2-1bfe-4b5f-b745-b7bfe4f0bfca
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

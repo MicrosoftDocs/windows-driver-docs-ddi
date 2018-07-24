@@ -4,7 +4,7 @@ title: PrintPropertyValue
 author: windows-driver-content
 description: Describes the PrintPropertyValue structure.
 old-location: print\printpropertyvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
 ms.author: windowsdriverdev
 ms.date: 07/11/2018

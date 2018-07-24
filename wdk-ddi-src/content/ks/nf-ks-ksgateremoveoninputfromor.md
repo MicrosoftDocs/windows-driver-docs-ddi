@@ -4,7 +4,7 @@ title: KsGateRemoveOnInputFromOr function
 author: windows-driver-content
 description: The KsGateRemoveOnInputFromOr function removes an existing input that is in the ON state from an OR gate.
 old-location: stream\ksgateremoveoninputfromor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e7226684-afbf-46e1-aeb2-6b0c60c12680
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

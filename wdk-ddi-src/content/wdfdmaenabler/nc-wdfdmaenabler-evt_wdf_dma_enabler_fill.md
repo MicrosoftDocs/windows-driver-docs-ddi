@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_ENABLER_FILL
 author: windows-driver-content
 description: A driver's EvtDmaEnablerFill event callback function allocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerfill.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3da947b4-76f9-492f-b8e2-b52aa7812b26
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

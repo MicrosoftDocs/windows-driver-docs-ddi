@@ -4,7 +4,7 @@ title: "_PERSISTENT_RESERVE_COMMAND"
 author: windows-driver-content
 description: The PERSISTENT_RESERVE_COMMAND structure is used together with the IOCTL_STORAGE_PERSISTENT_RESERVE_IN and IOCTL_STORAGE_PERSISTENT_RESERVE_OUT requests to obtain and control information about persistent reservations and reservation keys that are active within a device server.
 old-location: storage\persistent_reserve_command.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c7debd93-0fcd-43c5-a950-8154b62175bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

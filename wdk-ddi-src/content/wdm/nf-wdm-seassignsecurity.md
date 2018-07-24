@@ -4,7 +4,7 @@ title: SeAssignSecurity function
 author: windows-driver-content
 description: The SeAssignSecurity routine builds a self-relative security descriptor for a new object, given the security descriptor of its parent directory and any originally requested security for the object.
 old-location: kernel\seassignsecurity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

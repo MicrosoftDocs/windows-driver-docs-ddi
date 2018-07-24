@@ -4,10 +4,10 @@ title: "_WWAN_UMTS_MRL_INFO"
 author: windows-driver-content
 description: The WWAN_UMTS_MRL_INFO structure represents information about a neighboring UMTS cell.
 old-location: netvista\wwan_umts_mrl_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: C1129291-D0E7-48F6-B317-1A0BCB6D25DC
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_UMTS_MRL_INFO, PWWAN_UMTS_MRL_INFO, PWWAN_UMTS_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL_INFO, WWAN_UMTS_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL_INFO, netvista.wwan_umts_mrl_info, wwan/PWWAN_UMTS_MRL_INFO, wwan/WWAN_UMTS_MRL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

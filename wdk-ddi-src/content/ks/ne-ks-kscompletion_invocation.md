@@ -4,7 +4,7 @@ title: KSCOMPLETION_INVOCATION
 author: windows-driver-content
 description: "."
 old-location: stream\kscompletion_invocation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

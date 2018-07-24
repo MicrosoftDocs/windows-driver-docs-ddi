@@ -4,7 +4,7 @@ title: RouterUnregisterForPrintAsyncNotifications function
 author: windows-driver-content
 description: The RouterUnregisterForPrintAsyncNotifications function unregisters for receiving asynchronous notifications associated with a printer or print server.
 old-location: print\routerunregisterforprintasyncnotifications.htm
-old-project: print
+tech.root: print
 ms.assetid: 67909e35-fae2-40b7-b39f-58576e932332
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

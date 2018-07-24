@@ -4,10 +4,10 @@ title: ExtRemoteTypedList::GetTypedNode
 author: windows-driver-content
 description: The GetTypedNode method returns the current list item.
 old-location: debugger\extremotetypedlist_gettypednode.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNode method, ExtRemoteTypedList.GetTypedNode, ExtRemoteTypedList::GetTypedNode, GetTypedNode, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednode
 ms.prod: windows-hardware
 ms.technology: windows-devices

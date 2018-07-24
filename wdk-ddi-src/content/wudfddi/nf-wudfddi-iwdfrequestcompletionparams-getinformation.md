@@ -4,7 +4,7 @@ title: IWDFRequestCompletionParams::GetInformation
 author: windows-driver-content
 description: The GetInformation method retrieves information that is associated with the completion of an I/O request.
 old-location: wdf\iwdfrequestcompletionparams_getinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

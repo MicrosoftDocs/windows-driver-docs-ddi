@@ -4,7 +4,7 @@ title: "_NFC_CX_RF_DISCOVERY_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling NfcDxDeviceInitialize, otherwise an error is returned.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

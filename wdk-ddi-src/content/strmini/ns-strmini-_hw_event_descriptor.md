@@ -4,7 +4,7 @@ title: "_HW_EVENT_DESCRIPTOR"
 author: windows-driver-content
 description: When the class driver calls one of the minidriver's StrMiniEvent routines, it passes a pointer to an HW_EVENT_DESCRIPTOR structure to describe the event as enabled or disabled.
 old-location: stream\hw_event_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c0efec37-4897-4ece-9f53-4a62204e5af3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

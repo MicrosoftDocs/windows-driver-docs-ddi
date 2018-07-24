@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_MEDIA_REMOVAL
 author: windows-driver-content
 description: Locks the device to prevent removal of the media.
 old-location: storage\ioctl_storage_media_removal.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ea8d7924-7ecc-47df-9616-8e2ed60c3de8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

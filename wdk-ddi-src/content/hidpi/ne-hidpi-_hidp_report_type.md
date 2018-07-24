@@ -4,7 +4,7 @@ title: "_HIDP_REPORT_TYPE"
 author: windows-driver-content
 description: The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type.
 old-location: hid\hidp_report_type.htm
-old-project: hid
+tech.root: hid
 ms.assetid: adb2f0cc-f261-41d2-b30f-58286b351e4f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

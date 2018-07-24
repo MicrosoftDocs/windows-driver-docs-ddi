@@ -4,7 +4,7 @@ title: StorPortWritePortUchar macro
 author: windows-driver-content
 description: The StorPortWritePortUchar routine writes a value to a specified register address.
 old-location: storage\storportwriteportuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

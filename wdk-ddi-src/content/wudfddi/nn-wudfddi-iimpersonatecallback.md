@@ -4,7 +4,7 @@ title: IImpersonateCallback
 author: windows-driver-content
 description: The IImpersonateCallback interface contains a method that handles impersonation.
 old-location: wdf\iimpersonatecallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 811cb070-9cbe-4906-9db0-ee8316cc18c9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

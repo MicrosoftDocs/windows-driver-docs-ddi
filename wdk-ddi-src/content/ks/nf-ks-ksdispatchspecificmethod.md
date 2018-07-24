@@ -4,7 +4,7 @@ title: KsDispatchSpecificMethod function
 author: windows-driver-content
 description: The KsDispatchSpecificMethod function dispatches a method to a specific handler. The function assumes that the caller has previously dispatched the IRP to a handler through the KsMethodHandler function. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksdispatchspecificmethod.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

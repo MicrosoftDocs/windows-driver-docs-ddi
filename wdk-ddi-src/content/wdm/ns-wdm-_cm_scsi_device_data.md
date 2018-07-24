@@ -4,7 +4,7 @@ title: "_CM_SCSI_DEVICE_DATA"
 author: windows-driver-content
 description: The CM_SCSI_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a SCSI HBA if the system can collect this information during the boot process.
 old-location: kernel\cm_scsi_device_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5cb213c9-24c8-456a-a868-87f1577a8d44
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

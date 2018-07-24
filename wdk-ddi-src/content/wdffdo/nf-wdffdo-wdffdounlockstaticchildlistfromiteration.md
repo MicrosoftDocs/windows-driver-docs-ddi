@@ -4,7 +4,7 @@ title: WdfFdoUnlockStaticChildListFromIteration function
 author: windows-driver-content
 description: The WdfFdoUnlockStaticChildListFromIteration method unlocks the list of child devices for a specified device and processes any changes to the list that the driver made while the list was locked.
 old-location: wdf\wdffdounlockstaticchildlistfromiteration.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ba0eb090-a03c-4723-a30c-16b161e50198
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

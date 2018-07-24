@@ -4,7 +4,7 @@ title: ZwQueryValueKey function
 author: windows-driver-content
 description: The ZwQueryValueKey routine returns a value entry for a registry key.
 old-location: kernel\zwqueryvaluekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76efd9c0-933b-4d3a-a936-de852615fb87
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

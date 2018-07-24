@@ -4,7 +4,7 @@ title: IPrintCoreUI2::EnumConstrainedOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::EnumConstrainedOptions method determines which options of a feature are constrained.
 old-location: print\iprintcoreui2_enumconstrainedoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

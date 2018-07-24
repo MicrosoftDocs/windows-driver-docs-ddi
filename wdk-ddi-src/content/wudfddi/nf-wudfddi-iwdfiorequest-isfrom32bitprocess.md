@@ -4,7 +4,7 @@ title: IWDFIoRequest::IsFrom32BitProcess
 author: windows-driver-content
 description: The IsFrom32BitProcess method determines whether a request originated from a 32-bit process.
 old-location: wdf\iwdfiorequest_isfrom32bitprocess.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 80e43bd7-9ab9-46b0-a7f3-08c3577be4bc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

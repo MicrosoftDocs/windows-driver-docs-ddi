@@ -4,10 +4,10 @@ title: PFND3DDDI_RECLAIMALLOCATIONSCB
 author: windows-driver-content
 description: Called by the user-mode display driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocationscb.htm
-old-project: display
+tech.root: display
 ms.assetid: BAC27F24-B348-48D5-9E9B-20897B4D8E2D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONSCB, d3dumddi/pfnReclaimAllocationsCb, display.pfnreclaimallocationscb, pfnReclaimAllocationsCb, pfnReclaimAllocationsCb callback, pfnReclaimAllocationsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

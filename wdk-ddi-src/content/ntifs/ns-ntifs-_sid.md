@@ -4,7 +4,7 @@ title: "_SID"
 author: windows-driver-content
 description: The security identifier (SID) structure is a variable-length structure used to uniquely identify users or groups.
 old-location: ifsk\sid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3b0d68f9-e871-42fe-97b0-f70f1fa72bf0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

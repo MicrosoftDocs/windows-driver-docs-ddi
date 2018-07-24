@@ -4,7 +4,7 @@ title: IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0
 author: windows-driver-content
 description: A driver's OnArmWakeFromS0 callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\ipowerpolicycallbackwakefroms0_onarmwakefroms0.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4801a7c4-8bd4-4372-bcdd-49e5570d833e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: GdiGetPageHandle function
 author: windows-driver-content
 description: The GdiGetPageHandle function returns a handle to the specified page within a print job.
 old-location: print\gdigetpagehandle.htm
-old-project: print
+tech.root: print
 ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

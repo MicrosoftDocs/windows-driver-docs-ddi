@@ -4,7 +4,7 @@ title: IPartPrintTicket
 author: windows-driver-content
 description: The IPartPrintTicket interface is the abstraction for a print ticket in an XPS document.
 old-location: print\ipartprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: 16dda4bb-69ff-420f-9802-7d7e0598928f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: interface
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

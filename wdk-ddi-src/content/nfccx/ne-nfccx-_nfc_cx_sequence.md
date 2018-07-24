@@ -4,7 +4,7 @@ title: "_NFC_CX_SEQUENCE"
 author: windows-driver-content
 description: The NFC_CX_SEQUENCE enumeration specifies sequences.
 old-location: nfpdrivers\nfc_cx_sequence.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

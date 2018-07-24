@@ -4,7 +4,7 @@ title: "_STORAGE_OFFLOAD_WRITE_OUTPUT"
 author: windows-driver-content
 description: The STORAGE_OFFLOAD_WRITE_OUTPUT structure is the output of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code request when the Action member of DEVICE_MANAGE_DATA_SET_ATTRIBUTES is set to DeviceDsmAction_OffloadWrite.
 old-location: storage\storage_offload_write_output.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 95EF1722-5171-4A09-8676-7910E53E3868
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RxNameCacheCheckEntry function
 author: windows-driver-content
 description: RxNameCacheCheckEntry checks a name cache entry for validity. A valid entry means that the lifetime has not expired and the MRxContext parameter passes the equality check.
 old-location: ifsk\rxnamecachecheckentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 75df65bc-2309-40d6-8e1d-154e72ad0f23
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KsCreatePin function
 author: windows-driver-content
 description: The KsCreatePin function passes a connection request to a device, creating a pin instance. This function can only be called at PASSIVE_LEVEL for kernel-mode clients.
 old-location: stream\kscreatepin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0dae335a-bcc1-4f6a-8926-e2ecc4112dc5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_REG_REPLACE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_REPLACE_KEY_INFORMATION structure describes the metadata that is about to be replaced for a key.
 old-location: kernel\reg_replace_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bbe60db6-85ae-480c-8852-80935a52697e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

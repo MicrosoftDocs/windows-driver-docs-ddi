@@ -4,7 +4,7 @@ title: ZwReadOnlyEnlistment function
 author: windows-driver-content
 description: The ZwReadOnlyEnlistment routine sets a specified enlistment to be read-only.
 old-location: kernel\zwreadonlyenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4178d9ad-5dd1-40c2-ba23-7625d424cd6d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

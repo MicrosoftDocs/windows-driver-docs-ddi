@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_TIMEOUTS
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_TIMEOUTS request returns the time-out values that the serial controller driver uses with read and write requests.
 old-location: serports\ioctl_serial_get_timeouts.htm
-old-project: serports
+tech.root: serports
 ms.assetid: b3cff263-6393-4217-a86a-43f9a0bff926
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

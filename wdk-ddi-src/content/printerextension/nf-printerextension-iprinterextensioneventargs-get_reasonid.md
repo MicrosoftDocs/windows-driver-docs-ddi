@@ -4,7 +4,7 @@ title: IPrinterExtensionEventArgs::get_ReasonId
 author: windows-driver-content
 description: Gets the reason why the printer extension was activated.
 old-location: print\iprinterextensioneventargs_reasonid.htm
-old-project: print
+tech.root: print
 ms.assetid: 404E9893-97BA-48A7-87CE-0B4AF46692CE
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

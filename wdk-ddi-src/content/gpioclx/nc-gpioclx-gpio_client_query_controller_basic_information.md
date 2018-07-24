@@ -4,7 +4,7 @@ title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
 author: windows-driver-content
 description: The CLIENT_QueryControllerBasicInformation event callback function retrieves the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_querycontrollerbasicinformation.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 5674317C-6785-46F5-880F-71FAF2CD3C64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

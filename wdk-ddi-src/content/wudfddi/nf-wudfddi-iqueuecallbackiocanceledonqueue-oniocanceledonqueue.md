@@ -4,7 +4,7 @@ title: IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
 author: windows-driver-content
 description: A driver's OnIoCanceledOnQueue event callback function informs the driver that an I/O request was canceled while it was in an I/O queue.
 old-location: wdf\iqueuecallbackiocanceledonqueue_oniocanceledonqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 901ff312-d1bb-46bf-b8e6-6abc47fa3c7f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: DrvPrinterEvent function
 author: windows-driver-content
 description: A printer interface DLL's DrvPrinterEvent function is called by the print spooler when processing printer-specific events that might require action by the printer driver.
 old-location: print\drvprinterevent.htm
-old-project: print
+tech.root: print
 ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

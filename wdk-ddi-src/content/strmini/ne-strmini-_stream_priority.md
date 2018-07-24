@@ -4,7 +4,7 @@ title: "_STREAM_PRIORITY"
 author: windows-driver-content
 description: _STREAM_PRIORITY enumerates available priority levels for the stream.
 old-location: stream\stream_priority.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
 ms.date: 07/11/2018

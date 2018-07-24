@@ -4,7 +4,7 @@ title: WdfDpcCreate function
 author: windows-driver-content
 description: The WdfDpcCreate method creates a framework DPC object and registers an EvtDpcFunc callback function.
 old-location: wdf\wdfdpccreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 46c6ffd1-4c01-4d1d-b7da-8f97f728ac71
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

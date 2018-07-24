@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice::RetrievePowerPolicy
 author: windows-driver-content
 description: The RetrievePowerPolicy method retrieves a WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_retrievepowerpolicy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

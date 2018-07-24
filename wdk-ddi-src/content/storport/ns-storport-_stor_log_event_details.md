@@ -4,7 +4,7 @@ title: "_STOR_LOG_EVENT_DETAILS"
 author: windows-driver-content
 description: The STOR_LOG_EVENT_DETAILS structure provides details pertaining to Storport-specific error log events and system log events.
 old-location: storage\stor_log_event_details.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2370e730-6c35-45e6-a370-62adc10df53b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDFInterrupt::ReleaseInterruptLock
 author: windows-driver-content
 description: The ReleaseInterruptLock method ends a code sequence that executes while holding an interrupt object's lock.
 old-location: wdf\iwdfinterrupt_releaseinterruptlock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

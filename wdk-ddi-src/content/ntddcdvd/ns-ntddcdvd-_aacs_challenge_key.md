@@ -4,7 +4,7 @@ title: "_AACS_CHALLENGE_KEY"
 author: windows-driver-content
 description: The AACS_CHALLENGE_KEY structure contains the challenge key that the device sends to the host.
 old-location: storage\aacs_challenge_key.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b1eb7978-cbfc-4ffd-b345-a320e9152f03
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

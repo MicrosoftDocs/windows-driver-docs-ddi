@@ -4,7 +4,7 @@ title: FsRtlAcknowledgeEcp function
 author: windows-driver-content
 description: The FsRtlAcknowledgeEcp routine marks an extra create parameter (ECP) context structure as acknowledged.
 old-location: ifsk\fsrtlacknowledgeecp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1f91c2ef-300d-43f5-8d2c-d4f2fd326915
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

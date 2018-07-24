@@ -4,7 +4,7 @@ title: "_AVC_PEER_DO_LOCATOR"
 author: windows-driver-content
 description: The AVC_PEER_DO_LOCATOR describes nonvirtual (peer) instances of avc.sys.
 old-location: stream\avc_peer_do_locator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a1ef8626-1920-422b-a0ed-4da9ac495f74
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

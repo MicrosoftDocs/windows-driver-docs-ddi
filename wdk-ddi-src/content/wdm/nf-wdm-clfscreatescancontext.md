@@ -4,7 +4,7 @@ title: ClfsCreateScanContext function
 author: windows-driver-content
 description: The ClfsCreateScanContext routine creates a scan context that can be used to iterate over the containers of a specified CLFS log.
 old-location: kernel\clfscreatescancontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KsMergeAutomationTables function
 author: windows-driver-content
 description: The KsMergeAutomationTables function merges two automation tables.
 old-location: stream\ksmergeautomationtables.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

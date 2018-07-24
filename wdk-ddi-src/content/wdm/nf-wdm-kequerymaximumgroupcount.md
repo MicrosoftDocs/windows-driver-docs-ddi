@@ -4,7 +4,7 @@ title: KeQueryMaximumGroupCount function
 author: windows-driver-content
 description: The KeQueryMaximumGroupCount routine returns the maximum number of groups in a multiprocessor system.
 old-location: kernel\kequerymaximumgroupcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b5cf231b-1a78-485f-bf26-fe50fbe63d08
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

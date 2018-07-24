@@ -4,7 +4,7 @@ title: RxIndicateChangeOfBufferingState function
 author: windows-driver-content
 description: RxIndicateChangeOfBufferingState is called to register a change buffering state request (an oplock break indication, for example) for later processing. If necessary, worker thread routines for further processing are activated.
 old-location: ifsk\rxindicatechangeofbufferingstate.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 981f5a33-a4f1-438c-8fcf-03a5ab4c0e44
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_BRB_L2CA_REGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_L2CA_REGISTER_SERVER structure to register itself as a server capable of receiving L2CAP connections from remote Bluetooth devices.
 old-location: bltooth\_brb_l2ca_register_server.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

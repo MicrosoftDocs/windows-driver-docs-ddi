@@ -4,7 +4,7 @@ title: "_WHEA_NMI_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_NMI_ERROR_SECTION structure describes nonmaskable interrupt (NMI) error data.
 old-location: whea\whea_nmi_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 960186a4-09ca-4636-b704-166137da6113
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,7 +4,7 @@ title: EVT_SERCX2_APPLY_CONFIG
 author: windows-driver-content
 description: The EvtSerCx2ApplyConfig event callback function is called by version 2 of the serial framework extension (SerCx2) to supply the serial controller driver with a list of device-specific configuration settings to apply to the serial controller hardware.
 old-location: serports\evtsercx2applyconfig.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 8D9BC698-1E62-4DC2-B233-37022F330F98
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

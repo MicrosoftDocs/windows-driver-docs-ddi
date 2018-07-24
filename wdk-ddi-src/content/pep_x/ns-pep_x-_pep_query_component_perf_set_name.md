@@ -4,7 +4,7 @@ title: "_PEP_QUERY_COMPONENT_PERF_SET_NAME"
 author: windows-driver-content
 description: The PEP_QUERY_COMPONENT_PERF_SET_NAME structure contains query information about a set of performance state values (P-state set) for a component.
 old-location: kernel\pep_query_component_perf_set_name.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7F0C550A-A443-4936-B961-17813F23D6AD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

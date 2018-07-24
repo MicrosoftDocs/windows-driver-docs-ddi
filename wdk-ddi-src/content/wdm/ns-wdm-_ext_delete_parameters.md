@@ -4,7 +4,7 @@ title: "_EXT_DELETE_PARAMETERS"
 author: windows-driver-content
 description: The EXT_DELETE_PARAMETERS structure contains an extended set of parameters for the ExDeleteTimer routine.
 old-location: kernel\ext_delete_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B2EADC0E-837A-4231-8794-43933DAA69E7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

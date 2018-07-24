@@ -4,7 +4,7 @@ title: RxCeTearDownAddress function
 author: windows-driver-content
 description: RxCeTearDownAddress deregisters a transport address from a transport binding.
 old-location: ifsk\rxceteardownaddress.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 76fd7c35-fef1-43c2-aedd-d09d18ab27a4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

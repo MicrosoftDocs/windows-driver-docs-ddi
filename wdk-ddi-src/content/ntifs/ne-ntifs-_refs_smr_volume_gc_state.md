@@ -4,7 +4,7 @@ title: "_REFS_SMR_VOLUME_GC_STATE"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_STATE enum specifies the garbage collection's current state.
 old-location: ifsk\refs_smr_volume_gc_state.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9E75F65A-6E9C-485F-9437-30CB01A5F317
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

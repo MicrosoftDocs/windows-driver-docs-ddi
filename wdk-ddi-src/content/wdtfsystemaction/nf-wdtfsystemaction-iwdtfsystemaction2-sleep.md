@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::Sleep
 author: windows-driver-content
 description: Puts the system into the desired sleep state.
 old-location: dtf\iwdtfsystemaction2_sleep.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 4DC3E14E-6FC3-49C1-AB22-779D0E8CA68D
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

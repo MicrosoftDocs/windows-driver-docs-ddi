@@ -4,7 +4,7 @@ title: SerCxRetrieveReceiveMdl function
 author: windows-driver-content
 description: The SerCxRetrieveReceiveMdl method retrieves the MDL that describes the buffer to use to receive the next block of input data.
 old-location: serports\sercxretrievereceivemdl.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

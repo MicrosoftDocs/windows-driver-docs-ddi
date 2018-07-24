@@ -4,7 +4,7 @@ title: IDE_HW_BUILDIO
 author: windows-driver-content
 description: The IdeHwBuildIo miniport driver routine is called one time for every incoming I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwbuildio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 057fb78f-6f1c-4b16-b9fa-6fcff299a90d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

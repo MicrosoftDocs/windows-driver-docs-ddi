@@ -4,7 +4,7 @@ title: IPrintJob::get_PrintedPages
 author: windows-driver-content
 description: Gets the number of pages that have been printed.
 old-location: print\iprintjob_printedpages.htm
-old-project: print
+tech.root: print
 ms.assetid: 37F09500-1EDB-459D-8845-789734081B0C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_CAD_POWER_SOURCE_INFO"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\cad_power_source_info.htm
-old-project: battery
+tech.root: battery
 ms.assetid: FF204AC6-0D01-4C19-A852-0CC12095C43C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

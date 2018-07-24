@@ -4,7 +4,7 @@ title: IWDFIoTarget2
 author: windows-driver-content
 description: To obtain the IWDFIoTarget2 interface, drivers call IWDFIoTarget::QueryInterface.
 old-location: wdf\iwdfiotarget2.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 52ce1c63-b2cf-4eda-b056-4f1f999110c5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 author: windows-driver-content
 description: Physically recalibrates a transport element, typically after the changer has been powered on or a calling application has initiated a recovery operation. Recalibration may involve returning the transport to its &#0034;home&#0034; position.
 old-location: storage\ioctl_changer_reinitialize_transport.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 35b40514-a7a6-4860-a633-fe273ef21ba2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

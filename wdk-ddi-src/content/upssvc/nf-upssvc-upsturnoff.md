@@ -4,7 +4,7 @@ title: UPSTurnOff function
 author: windows-driver-content
 description: The UPSTurnOff function turns off the UPS unit's power outlets, after a specified delay time.
 old-location: battery\upsturnoff.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

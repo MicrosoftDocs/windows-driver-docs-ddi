@@ -4,7 +4,7 @@ title: KBUGCHECK_REASON_CALLBACK_ROUTINE
 author: windows-driver-content
 description: Driver-implemented callback functions that the system executes when it issues a bug check.
 old-location: kernel\bugcheckaddpagescallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a3d33a3a-efe7-4346-82bc-555c57ae7b74
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -110,7 +110,7 @@ None.
 
 <b>About implementing <i>BugCheckAddPagesCallback</i>:  </b>A kernel-mode driver can implement a <i>BugCheckAddPagesCallback</i> callback routine to add one or more pages of data to a crash dump file when a bug check occurs. To register this routine with the operating system, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553110">KeRegisterBugCheckReasonCallback</a> routine. Before the driver unloads, it must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552003">KeDeregisterBugCheckReasonCallback</a> routine to remove the registration.
 
-Starting with Windows 8, a registered <i>BugCheckAddPagesCallback</i> routine is called during a <a href="http://go.microsoft.com/fwlink/p/?linkid=178118">kernel memory dump</a> or a <a href="http://go.microsoft.com/fwlink/p/?linkid=178119">complete memory dump</a>. In earlier versions of Windows, a registered <i>BugCheckAddPagesCallback</i> routine is called during a kernel memory dump, but not during a complete memory dump. By default, a kernel memory dump includes only the physical pages that are being used by the Windows kernel at the time that the bug check occurs, whereas a complete memory dump includes all of the physical memory that is used by Windows. A complete memory dump does not, by default, include physical memory that is used by the platform firmware.
+Starting with Windows 8, a registered <i>BugCheckAddPagesCallback</i> routine is called during a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551867">kernel memory dump</a> or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539190">complete memory dump</a>. In earlier versions of Windows, a registered <i>BugCheckAddPagesCallback</i> routine is called during a kernel memory dump, but not during a complete memory dump. By default, a kernel memory dump includes only the physical pages that are being used by the Windows kernel at the time that the bug check occurs, whereas a complete memory dump includes all of the physical memory that is used by Windows. A complete memory dump does not, by default, include physical memory that is used by the platform firmware.
 
 Your <i>BugCheckAddPagesCallback</i> routine can supply driver-specific data to add to the dump file. For example, for a kernel memory dump, this additional data can include physical pages that are not mapped to the system address range in virtual memory but that contain information that can help you to debug your driver. The <i>BugCheckAddPagesCallback</i> routine might add to the dump file any driver-owned physical pages that are unmapped or that are mapped to user-mode addresses in virtual memory.
 

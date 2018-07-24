@@ -4,7 +4,7 @@ title: "_PEP_PPM_PLATFORM_STATE_RESIDENCIES"
 author: windows-driver-content
 description: The PEP_PPM_PLATFORM_STATE_RESIDENCIES structure contains the accumulated residency times and transition counts for the idle states that are supported by the hardware platform.
 old-location: kernel\pep_ppm_platform_state_residencies.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5B6186EB-EC08-4C11-9CCF-E07D78FBD535
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

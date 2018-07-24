@@ -4,7 +4,7 @@ title: RtlStringCchCatW function
 author: windows-driver-content
 description: The RtlStringCchCatW and RtlStringCchCatA functions concatenate two character-counted strings.
 old-location: kernel\rtlstringcchcat.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4d2d0c14-a311-4235-9ceb-4b703ef602fe
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

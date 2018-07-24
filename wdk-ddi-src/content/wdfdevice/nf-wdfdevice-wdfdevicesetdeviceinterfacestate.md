@@ -4,7 +4,7 @@ title: WdfDeviceSetDeviceInterfaceState function
 author: windows-driver-content
 description: The WdfDeviceSetDeviceInterfaceState method enables or disables a device interface for a specified device.
 old-location: wdf\wdfdevicesetdeviceinterfacestate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 345003fc-fdc3-4529-bb15-c9e380e77bba
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

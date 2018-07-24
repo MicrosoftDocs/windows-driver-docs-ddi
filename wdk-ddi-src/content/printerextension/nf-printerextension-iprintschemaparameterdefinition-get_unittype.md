@@ -4,7 +4,7 @@ title: IPrintSchemaParameterDefinition::get_UnitType
 author: windows-driver-content
 description: The UnitType property gets the unit type.
 old-location: print\_iprintschemaparameterdefinition_unittype.htm
-old-project: print
+tech.root: print
 ms.assetid: 7ED1D02B-07DB-409B-AABF-4ED1D28B3C43
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: StorPortPoFxPowerControl function
 author: windows-driver-content
 description: The StorPortPoFxPowerControl routine sends a power control request to the power management framework (PoFx) to forward to the power engine plug-in (PEP).
 old-location: storage\storportpofxpowercontrol.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

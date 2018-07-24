@@ -4,7 +4,7 @@ title: IWDTFStrings2::Remove
 author: windows-driver-content
 description: Removes a string from the collection.
 old-location: dtf\iwdtfstrings2_remove.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: cd32b54a-57e0-496c-b18c-84a6c75d8820
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

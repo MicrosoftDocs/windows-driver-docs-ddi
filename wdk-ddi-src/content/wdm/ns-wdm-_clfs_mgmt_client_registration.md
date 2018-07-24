@@ -4,7 +4,7 @@ title: "_CLFS_MGMT_CLIENT_REGISTRATION"
 author: windows-driver-content
 description: The CLFS_MGMT_CLIENT_REGISTRATION structure is given to CLFS management by clients who manage their own logs.
 old-location: kernel\clfs_mgmt_client_registration.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4f4f7ece-efe4-49f7-a6ce-bc131d1c1968
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

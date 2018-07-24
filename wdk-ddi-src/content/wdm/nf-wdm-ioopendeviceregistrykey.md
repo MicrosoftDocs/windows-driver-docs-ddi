@@ -4,7 +4,7 @@ title: IoOpenDeviceRegistryKey function
 author: windows-driver-content
 description: The IoOpenDeviceRegistryKey routine returns a handle to a device-specific or a driver-specific registry key for a particular device instance.
 old-location: kernel\ioopendeviceregistrykey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

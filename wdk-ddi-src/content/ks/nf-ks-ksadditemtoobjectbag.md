@@ -4,7 +4,7 @@ title: KsAddItemToObjectBag function
 author: windows-driver-content
 description: The KsAddItemToObjectBag function adds an object or block of memory to the given object bag.
 old-location: stream\ksadditemtoobjectbag.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4c8b6252-8438-4cd1-81e0-02c260da0daf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

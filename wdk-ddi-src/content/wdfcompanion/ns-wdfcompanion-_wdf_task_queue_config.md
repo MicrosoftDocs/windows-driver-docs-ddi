@@ -4,7 +4,7 @@ title: "_WDF_TASK_QUEUE_CONFIG"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_queue_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a58dd106-dec8-4444-9783-eb16e969ea42
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: ImpersonatePrinterClient function
 author: windows-driver-content
 description: ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by RevertToPrinterSelf.
 old-location: print\impersonateprinterclient.htm
-old-project: print
+tech.root: print
 ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

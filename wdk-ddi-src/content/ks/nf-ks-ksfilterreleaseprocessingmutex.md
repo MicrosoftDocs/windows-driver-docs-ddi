@@ -4,7 +4,7 @@ title: KsFilterReleaseProcessingMutex function
 author: windows-driver-content
 description: The KsFilterReleaseProcessingMutex function releases the processing mutex for the AVStream filter specified by Filter.
 old-location: stream\ksfilterreleaseprocessingmutex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8ccf24a4-f087-4d61-8a9e-4bc05d7ec7bf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

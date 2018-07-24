@@ -4,7 +4,7 @@ title: "_GetFC4Statistics_OUT"
 author: windows-driver-content
 description: The GetFC4Statistics_OUT structure is used to report the output parameter data of the GetFC4Statistics WMI method to the WMI client.
 old-location: storage\getfc4statistics_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

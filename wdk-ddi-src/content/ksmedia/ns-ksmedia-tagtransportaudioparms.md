@@ -4,7 +4,7 @@ title: tagTRANSPORTAUDIOPARMS
 author: windows-driver-content
 description: The TRANSPORTAUDIOPARMS structure is defined but not used.
 old-location: stream\transportaudioparms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

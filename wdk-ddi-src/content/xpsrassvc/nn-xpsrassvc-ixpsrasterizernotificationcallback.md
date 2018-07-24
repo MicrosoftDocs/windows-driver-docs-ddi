@@ -4,7 +4,7 @@ title: IXpsRasterizerNotificationCallback
 author: windows-driver-content
 description: The IXpsRasterizerNotificationCallback interface enables the XPS rasterization service to determine whether to continue a rasterization operation that was previously initiated by an XPSDrv filter.
 old-location: print\ixpsrasterizernotificationcallback_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 7616b5c7-a21f-4db1-923b-ebf2a039b5ec
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

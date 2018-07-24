@@ -4,7 +4,7 @@ title: "_TRANSACTION_BASIC_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTION_BASIC_INFORMATION structure contains information about a transaction object.
 old-location: kernel\transaction_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

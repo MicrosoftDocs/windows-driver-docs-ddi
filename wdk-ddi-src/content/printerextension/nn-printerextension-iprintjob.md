@@ -4,7 +4,7 @@ title: IPrintJob
 author: windows-driver-content
 description: Contains properties that represent a print job.
 old-location: print\iprintjob.htm
-old-project: print
+tech.root: print
 ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

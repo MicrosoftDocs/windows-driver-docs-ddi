@@ -4,7 +4,7 @@ title: WdfUsbInterfaceSelectSetting function
 author: windows-driver-content
 description: The WdfUsbInterfaceSelectSetting method selects a specified alternate setting for a specified USB interface.
 old-location: wdf\wdfusbinterfaceselectsetting.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 398b7649-152e-4fed-b633-16627dadf0f8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

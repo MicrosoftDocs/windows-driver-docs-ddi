@@ -4,7 +4,7 @@ title: RtlUnicodeStringToCountedOemString function
 author: windows-driver-content
 description: The RtlUnicodeStringToCountedOemString routine translates the specified Unicode source string into a counted OEM string using the current system OEM code page.
 old-location: ifsk\rtlunicodestringtocountedoemstring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7479d5d0-69d0-42b8-9aa1-5eab8b71b118
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

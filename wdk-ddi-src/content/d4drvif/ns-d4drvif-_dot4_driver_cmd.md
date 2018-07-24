@@ -4,7 +4,7 @@ title: "_DOT4_DRIVER_CMD"
 author: windows-driver-content
 description: This topic describes the DOT4_DRIVER_CMD structure.
 old-location: print\dot4_driver_cmd.htm
-old-project: print
+tech.root: print
 ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

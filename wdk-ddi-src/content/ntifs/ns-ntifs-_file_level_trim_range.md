@@ -4,7 +4,7 @@ title: "_FILE_LEVEL_TRIM_RANGE"
 author: windows-driver-content
 description: Contains the offset and length of a trim range for a file.
 old-location: ifsk\file_level_trim_range.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: C74E90C5-9876-4CD1-B9A7-1B32A6AAB474
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

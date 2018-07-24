@@ -4,7 +4,7 @@ title: IPrinterScriptablePropertyBag::GetString
 author: windows-driver-content
 description: Gets a string property.
 old-location: print\iprinterscriptablepropertybag_getstring.htm
-old-project: print
+tech.root: print
 ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

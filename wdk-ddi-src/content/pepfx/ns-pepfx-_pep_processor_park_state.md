@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_PARK_STATE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_PARK_STATE structure describes the parking state for a single processor.
 old-location: kernel\pep_processor_park_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7F0BD23A-A375-43D5-B106-31E206DB6EC4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

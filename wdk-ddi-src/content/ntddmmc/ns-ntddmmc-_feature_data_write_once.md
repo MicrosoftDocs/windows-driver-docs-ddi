@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_WRITE_ONCE"
 author: windows-driver-content
 description: The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
 old-location: storage\feature_data_write_once.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

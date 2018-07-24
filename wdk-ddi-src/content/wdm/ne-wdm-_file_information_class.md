@@ -4,7 +4,7 @@ title: "_FILE_INFORMATION_CLASS"
 author: windows-driver-content
 description: A value that specifies which structure to use to query or set information for a file object.
 old-location: ifsk\file_information_class.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aec0655b-7cc0-48b6-828c-b9d39c71e5b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

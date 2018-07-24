@@ -4,10 +4,10 @@ title: "_NDIS_OPEN_NDK_ADAPTER_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure specifies parameters to open an NDK adapter instance on the NDK-capable miniport adapter.
 old-location: netvista\ndis_open_ndk_adapter_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: AC8D4FA1-59E0-4934-A6C5-EA2E645C53FA
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, PNDIS_OPEN_NDK_ADAPTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, netvista.ndis_open_ndk_adapter_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: NtOpenTransaction function
 author: windows-driver-content
 description: The ZwOpenTransaction routine obtains a handle to an existing transaction object.
 old-location: kernel\zwopentransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ffa50af-24e6-4dab-81cc-6ac26356e9c6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

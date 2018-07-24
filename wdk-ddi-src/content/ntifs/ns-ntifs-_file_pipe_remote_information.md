@@ -4,7 +4,7 @@ title: "_FILE_PIPE_REMOTE_INFORMATION"
 author: windows-driver-content
 description: The FILE_PIPE_REMOTE_INFORMATION structure contains information about the remote end of a named pipe.
 old-location: ifsk\file_pipe_remote_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e0e62227-5e84-45bd-9127-f5bbb30ba6f3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: MINIPORT_WDI_TAL_TXRX_DELETE_PORT
 author: windows-driver-content
 description: The MiniportWdiTalTxRxDeletePort handler function notifies the datapath components of the deletion of a virtual port.
 old-location: netvista\miniportwditaltxrxdeleteport.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3DB6AC6F-2A6F-43E1-B98D-B4E5C8A87845
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
 ms.prod: windows-hardware
 ms.technology: windows-devices

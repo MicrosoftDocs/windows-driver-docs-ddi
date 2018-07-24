@@ -4,7 +4,7 @@ title: KoCreateInstance function
 author: windows-driver-content
 description: The KoCreateInstance function creates an object of the class with the specified CLSID.
 old-location: stream\kocreateinstance.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

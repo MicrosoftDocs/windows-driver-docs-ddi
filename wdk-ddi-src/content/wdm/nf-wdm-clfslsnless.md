@@ -4,7 +4,7 @@ title: ClfsLsnLess function
 author: windows-driver-content
 description: The ClfsLsnLess routine determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.
 old-location: kernel\clfslsnless.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fbdf6e86-35a1-48a8-966a-0e5472466da2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

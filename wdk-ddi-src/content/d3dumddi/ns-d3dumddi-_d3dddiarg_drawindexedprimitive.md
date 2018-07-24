@@ -4,10 +4,10 @@ title: "_D3DDDIARG_DRAWINDEXEDPRIMITIVE"
 author: windows-driver-content
 description: The D3DDDIARG_DRAWINDEXEDPRIMITIVE structure describes an indexed primitive to draw.
 old-location: display\d3dddiarg_drawindexedprimitive.htm
-old-project: display
+tech.root: display
 ms.assetid: 3f8cc918-9819-4c32-93f3-dbc2c1023016
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_241177c0-f301-4b49-93cb-5c75ca8cb30a.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE, display.d3dddiarg_drawindexedprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices

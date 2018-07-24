@@ -4,7 +4,7 @@ title: StorPortWritePortBufferUlong macro
 author: windows-driver-content
 description: The StorPortWritePortBufferUlong routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

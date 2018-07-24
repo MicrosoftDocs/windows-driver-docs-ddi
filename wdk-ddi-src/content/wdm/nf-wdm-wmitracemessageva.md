@@ -4,7 +4,7 @@ title: WmiTraceMessageVa function
 author: windows-driver-content
 description: The WmiTraceMessageVa routine adds a message to the output log of a WPP software tracing session.
 old-location: kernel\wmitracemessageva.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 57f8006c-defe-4975-9d21-0eaecae5a873
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

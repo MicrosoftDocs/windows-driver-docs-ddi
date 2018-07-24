@@ -4,7 +4,7 @@ title: "_CIP_TALK"
 author: windows-driver-content
 description: This structure is used to begin transmission.
 old-location: ieee\cip_talk.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

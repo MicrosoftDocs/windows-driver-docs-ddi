@@ -4,7 +4,7 @@ title: KeRevertToUserAffinityThreadEx function
 author: windows-driver-content
 description: The KeRevertToUserAffinityThreadEx routine restores the previous affinity of the current thread.
 old-location: kernel\kereverttouseraffinitythreadex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

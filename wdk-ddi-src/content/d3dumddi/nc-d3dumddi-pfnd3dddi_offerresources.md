@@ -4,10 +4,10 @@ title: PFND3DDDI_OFFERRESOURCES
 author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to request that the user-mode display driver offer video memory resources for reuse.
 old-location: display\offerresources.htm
-old-project: display
+tech.root: display
 ms.assetid: 68551AD7-AC0C-4138-948F-33773F02DA41
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: OfferResources, OfferResources callback function [Display Devices], PFND3DDDI_OFFERRESOURCES, PFND3DDDI_OFFERRESOURCES callback, d3dumddi/OfferResources, display.offerresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

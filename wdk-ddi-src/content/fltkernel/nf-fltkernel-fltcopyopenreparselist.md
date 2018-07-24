@@ -4,7 +4,7 @@ title: FltCopyOpenReparseList function
 author: windows-driver-content
 description: This routine copies any open reparse information from a previous create into a new ECP list that can be used to issue a second create.
 old-location: ifsk\fltcopyopenreparselist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

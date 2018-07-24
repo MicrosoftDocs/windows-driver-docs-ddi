@@ -4,7 +4,7 @@ title: "_IRB_REQ_ASYNC_WRITE"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out an asynchronous write request.
 old-location: ieee\irb_req_async_write.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 007E0DDE-0BD1-499D-A6C6-446644BBCE00
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

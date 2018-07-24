@@ -4,7 +4,7 @@ title: "_KBUGCHECK_ADD_PAGES"
 author: windows-driver-content
 description: The KBUGCHECK_ADD_PAGES structure describes one or more pages of driver-supplied data to be written by a BugCheckAddPagesCallback callback routine to the crash dump file.
 old-location: kernel\kbugcheck_add_pages.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

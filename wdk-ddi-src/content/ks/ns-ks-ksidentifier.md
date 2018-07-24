@@ -4,7 +4,7 @@ title: KSIDENTIFIER
 author: windows-driver-content
 description: The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 old-location: stream\ksidentifier.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

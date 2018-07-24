@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_SET_ACCESS
 author: windows-driver-content
 description: Sets the state of the device's import/export port (IEport), door, or keypad.
 old-location: storage\ioctl_changer_set_access.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8927e862-94e4-45ce-9245-5c6f5629fc01
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

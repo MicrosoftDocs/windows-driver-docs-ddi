@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::get_PageImageableSize
 author: windows-driver-content
 description: Gets the imageable area information of the printer.
 old-location: print\iprintschemacapabilities_pageimageablesize.htm
-old-project: print
+tech.root: print
 ms.assetid: 5FA7613C-8714-481D-8439-9F3334D2E9E5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

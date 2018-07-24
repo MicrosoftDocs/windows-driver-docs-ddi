@@ -4,7 +4,7 @@ title: StorPortRegistryRead function
 author: windows-driver-content
 description: The StorPortRegistryRead routine reads the registry data for the indicated device and value.
 old-location: storage\storportregistryread.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

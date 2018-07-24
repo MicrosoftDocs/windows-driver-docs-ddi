@@ -4,10 +4,10 @@ title: RILPHONEBOOKADDITIONALNUMBER
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebookadditionalnumber.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f90af220-6e48-49dd-b785-55da37894906
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumber, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

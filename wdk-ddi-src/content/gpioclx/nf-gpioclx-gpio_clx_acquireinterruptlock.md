@@ -4,7 +4,7 @@ title: GPIO_CLX_AcquireInterruptLock function
 author: windows-driver-content
 description: The GPIO_CLX_AcquireInterruptLock method acquires an interrupt lock on a bank of pins in the general-purpose I/O (GPIO) controller.
 old-location: gpio\gpio_clx_acquireinterruptlock.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: E0332415-1028-489B-AA81-DF8AEE0A28E8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

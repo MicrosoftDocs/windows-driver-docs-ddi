@@ -4,7 +4,7 @@ title: EVT_WDF_INTERRUPT_WORKITEM
 author: windows-driver-content
 description: A driver's EvtInterruptWorkItem event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored.
 old-location: wdf\evtinterruptworkitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1A473A08-EA23-4DFE-8B58-EBB4AC977891
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

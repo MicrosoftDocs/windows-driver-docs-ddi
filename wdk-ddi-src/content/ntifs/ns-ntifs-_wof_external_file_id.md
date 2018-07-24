@@ -4,7 +4,7 @@ title: "_WOF_EXTERNAL_FILE_ID"
 author: windows-driver-content
 description: The WOF_EXTERNAL_FILE_ID structure contains a file ID that is used to open a handle to a mini-filter or driver.
 old-location: ifsk\wof_external_file_id.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5C208DF7-C6CB-419D-B775-74E09DC4D448
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

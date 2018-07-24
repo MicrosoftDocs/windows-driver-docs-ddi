@@ -4,7 +4,7 @@ title: RtlUpperString function
 author: windows-driver-content
 description: The RtlUpperString routine copies the given SourceString to the DestinationString buffer, converting it to uppercase.
 old-location: kernel\rtlupperstring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

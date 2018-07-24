@@ -4,10 +4,10 @@ title: ExtRemoteTypedList
 author: windows-driver-content
 description: The ExtRemoteTypedList class extends the ExtRemoteList class. The ExtRemoteTypedList class adds type information allowing each item in the list to be represented by an instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetypedlist.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: a7b87f06-491a-4b41-a355-0f2806c0dd8a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], ExtRemoteTypedList class [Windows Debugging],described, debugger.extremotetypedlist, engextcpp/ExtRemoteTypedList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_PROFILE_LIST"
 author: windows-driver-content
 description: The FEATURE_DATA_PROFILE_LIST structure contains the data for a profile list descriptor.
 old-location: storage\feature_data_profile_list.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 77b8c789-0f3d-43b5-95ff-15d93b67cbe3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_RemoveLink_OUT"
 author: windows-driver-content
 description: The RemoveLink_OUT structure is used by an HBA miniport driver to report the output parameter data of the RemoveLink WMI method to the WMI client.
 old-location: storage\removelink_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 724e3143-4994-4785-9bbf-afb928e8b166
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

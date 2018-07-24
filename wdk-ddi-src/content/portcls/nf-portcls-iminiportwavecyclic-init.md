@@ -4,7 +4,7 @@ title: IMiniportWaveCyclic::Init method
 author: windows-driver-content
 description: The Init method initializes the WaveCyclic miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.
 old-location: audio\iminiportwavecyclic_init.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 2f0147d0-9c1d-4f3e-890f-941568220605
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
@@ -15,19 +15,19 @@ ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef

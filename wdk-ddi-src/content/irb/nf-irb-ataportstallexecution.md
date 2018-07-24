@@ -4,7 +4,7 @@ title: AtaPortStallExecution function
 author: windows-driver-content
 description: The AtaPortStallExecution stalls in the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportstallexecution.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

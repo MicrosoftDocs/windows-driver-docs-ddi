@@ -4,7 +4,7 @@ title: ZwFlushBuffersFile function
 author: windows-driver-content
 description: The ZwFlushBuffersFile routine is called by a file system filter driver to send a flush request for the specified file to the file system.
 old-location: kernel\zwflushbuffersfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b6ac1458-775d-4f73-86a1-30bfbf2256cc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

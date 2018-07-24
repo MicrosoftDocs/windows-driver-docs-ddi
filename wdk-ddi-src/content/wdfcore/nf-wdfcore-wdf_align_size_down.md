@@ -4,7 +4,7 @@ title: WDF_ALIGN_SIZE_DOWN function
 author: windows-driver-content
 description: The WDF_ALIGN_SIZE_DOWN function returns the next-lower buffer size that is aligned to a specified alignment offset.
 old-location: wdf\wdf_align_size_down.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b93c6420-b981-4bfe-b841-921cbe76f643
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

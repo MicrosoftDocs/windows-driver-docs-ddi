@@ -4,7 +4,7 @@ title: "_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
 author: windows-driver-content
 description: The PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure is provided to the platform extension plug-in (PEP) as part of a PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification.
 old-location: kernel\pep_reset_soc_subsystem_accounting.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DCB0E541-51AB-4624-A007-46D109F31E5B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

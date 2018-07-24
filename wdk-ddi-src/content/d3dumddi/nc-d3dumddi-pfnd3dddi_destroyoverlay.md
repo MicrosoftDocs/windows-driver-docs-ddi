@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYOVERLAY
 author: windows-driver-content
 description: The DestroyOverlay function disables the overlay hardware and frees the overlay handle.
 old-location: display\destroyoverlay.htm
-old-project: display
+tech.root: display
 ms.assetid: 63004d19-e2cd-462c-8fa5-ea4dd6e29735
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyOverlay, DestroyOverlay callback function [Display Devices], PFND3DDDI_DESTROYOVERLAY, PFND3DDDI_DESTROYOVERLAY callback, UserModeDisplayDriver_Functions_e3dd8286-aff0-40c0-8cf2-84ecc706df90.xml, d3dumddi/DestroyOverlay, display.destroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

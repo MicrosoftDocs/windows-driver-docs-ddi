@@ -4,7 +4,7 @@ title: "_BTH_SDP_RECORD"
 author: windows-driver-content
 description: The BTH_SDP_RECORD structure contains information about an SDP record that is to be added to the local SDP server.
 old-location: bltooth\bth_sdp_record.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

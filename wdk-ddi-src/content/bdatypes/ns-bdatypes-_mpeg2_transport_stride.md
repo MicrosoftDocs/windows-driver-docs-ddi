@@ -4,7 +4,7 @@ title: "_MPEG2_TRANSPORT_STRIDE"
 author: windows-driver-content
 description: The MPEG2_TRANSPORT_STRIDE structure describes the format block of the MPEG2 transport stride.
 old-location: stream\mpeg2_transport_stride.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5756bb06-8fd3-4124-b3c8-35d5ed0bd57b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

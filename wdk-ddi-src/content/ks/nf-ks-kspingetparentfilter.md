@@ -4,7 +4,7 @@ title: KsPinGetParentFilter function
 author: windows-driver-content
 description: The KsPinGetParentFilter function returns the parent filter of Pin.
 old-location: stream\kspingetparentfilter.htm
-old-project: stream
+tech.root: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

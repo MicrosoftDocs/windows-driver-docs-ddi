@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOPROCAMP_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOPROCAMP_S structure describes filter-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
 old-location: stream\ksproperty_videoprocamp_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e8b9c381-2159-4cb2-92e2-11c1d3698f2d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_MOUNTDEV_NAME"
 author: windows-driver-content
 description: The MOUNTDEV_NAME structure holds the name of a device.
 old-location: storage\mountdev_name.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 26f5e98d-0709-403a-abcf-776c117d4f38
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

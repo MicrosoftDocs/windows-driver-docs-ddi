@@ -4,7 +4,7 @@ title: IKsDataTypeHandler::KsIsMediaTypeInRanges
 author: windows-driver-content
 description: The KsIsMediaTypeInRanges method validates that a media type is within the provided data ranges.
 old-location: stream\iksdatatypehandler_ksismediatypeinranges.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

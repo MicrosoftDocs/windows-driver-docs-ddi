@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_EVENT_INFO"
 author: windows-driver-content
 description: This structure provides information about a secure element event.
 old-location: nfpdrivers\secure_element_event_info.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 72B31C26-89D3-49B2-A404-E6F096D0A334
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

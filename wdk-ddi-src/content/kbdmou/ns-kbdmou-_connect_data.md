@@ -4,7 +4,7 @@ title: "_CONNECT_DATA"
 author: windows-driver-content
 description: CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port.
 old-location: hid\connect_data__kbdclass_.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 8fdb5b1d-bbdb-4774-875a-7cdd047286f5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

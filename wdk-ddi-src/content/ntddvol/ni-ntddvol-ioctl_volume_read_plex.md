@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_READ_PLEX
 author: windows-driver-content
 description: Performs a read on a specific plex of a volume.
 old-location: storage\ioctl_volume_read_plex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 187e15d2-b527-4dab-81ea-498663363f8b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

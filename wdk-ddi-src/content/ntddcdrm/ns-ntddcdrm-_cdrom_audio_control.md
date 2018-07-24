@@ -4,7 +4,7 @@ title: "_CDROM_AUDIO_CONTROL"
 author: windows-driver-content
 description: The CDROM_AUDIO_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_CONTROL request to report the audio playback mode.
 old-location: storage\cdrom_audio_control.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f99ad24d-e1cf-4381-93b9-c10e4b19b401
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

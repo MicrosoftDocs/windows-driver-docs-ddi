@@ -4,7 +4,7 @@ title: FltEnumerateInstanceInformationByVolume function
 author: windows-driver-content
 description: The FltEnumerateInstanceInformationByVolume routine provides information about minifilter driver instances and legacy filter drivers (Windows Vista only) that are attached to a given volume.
 old-location: ifsk\fltenumerateinstanceinformationbyvolume.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2bccd6db-5538-43f3-a4b2-7d14b1cf12d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

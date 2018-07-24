@@ -4,7 +4,7 @@ title: "_ISCSI_SessionStaticInfo"
 author: windows-driver-content
 description: The ISCSI_SessionStaticInfo structure provides information about the characteristics of an iSCSI session.
 old-location: storage\iscsi_sessionstaticinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

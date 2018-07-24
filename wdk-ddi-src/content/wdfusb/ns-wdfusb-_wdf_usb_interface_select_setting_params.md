@@ -4,7 +4,7 @@ title: "_WDF_USB_INTERFACE_SELECT_SETTING_PARAMS"
 author: windows-driver-content
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure contains selection information for a USB interface.
 old-location: wdf\wdf_usb_interface_select_setting_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fad8a205-8427-48c5-b4b5-b125aa9fe85c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

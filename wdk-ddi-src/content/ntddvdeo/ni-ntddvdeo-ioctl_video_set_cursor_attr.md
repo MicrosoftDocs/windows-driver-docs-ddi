@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_SET_CURSOR_ATTR
 author: windows-driver-content
 description: Sets the cursor size, position, and visibility. Miniport drivers for VGA-compatible adapters are required to support this request, which is modal. Support is optional for other miniport drivers.
 old-location: display\ioctl_video_set_cursor_attr.htm
-old-project: display
+tech.root: display
 ms.assetid: bb1f426e-6a3d-4644-ad3d-26e5a70b534d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_SET_CURSOR_ATTR, IOCTL_VIDEO_SET_CURSOR_ATTR control, IOCTL_VIDEO_SET_CURSOR_ATTR control code [Display Devices], Video_IOCTLs_7f8f1646-ff57-47fd-afb7-f7ad7e953188.xml, display.ioctl_video_set_cursor_attr, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_ATTR
 ms.prod: windows-hardware
 ms.technology: windows-devices

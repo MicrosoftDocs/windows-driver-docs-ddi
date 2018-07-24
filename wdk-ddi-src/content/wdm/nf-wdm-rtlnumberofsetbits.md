@@ -4,7 +4,7 @@ title: RtlNumberOfSetBits function
 author: windows-driver-content
 description: The RtlNumberOfSetBits routine returns a count of the set bits in a given bitmap variable.
 old-location: kernel\rtlnumberofsetbits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6208f750-4871-43b9-b848-011180d39fd8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

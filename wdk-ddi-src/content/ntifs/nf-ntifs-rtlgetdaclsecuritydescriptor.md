@@ -4,7 +4,7 @@ title: RtlGetDaclSecurityDescriptor function
 author: windows-driver-content
 description: The RtlGetDaclSecurityDescriptor routine returns a pointer to the discretionary ACL (DACL) for a security descriptor.
 old-location: ifsk\rtlgetdaclsecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 23184d88-2c84-4fba-9d17-c4014d0eaea5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

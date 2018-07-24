@@ -4,7 +4,7 @@ title: WcsGetDefaultColorProfile function
 author: windows-driver-content
 description: The WcsGetDefaultColorProfile function retrieves the default color profile for a device, or the device-independent default if the device is not specified.
 old-location: print\wcsgetdefaultcolorprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

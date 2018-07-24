@@ -4,7 +4,7 @@ title: StorPortInvokeAcpiMethod function
 author: windows-driver-content
 description: The StorPortInvokeAcpiMethod routine executes an ACPI method for a storage device.
 old-location: storage\storportinvokeacpimethod.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

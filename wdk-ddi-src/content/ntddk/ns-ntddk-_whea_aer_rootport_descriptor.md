@@ -4,7 +4,7 @@ title: "_WHEA_AER_ROOTPORT_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_AER_ROOTPORT_DESCRIPTOR structure describes a PCI Express (PCIe) root port error source.
 old-location: whea\whea_aer_rootport_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 0c92e8d5-eb98-4789-a221-ebf891cd3876
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

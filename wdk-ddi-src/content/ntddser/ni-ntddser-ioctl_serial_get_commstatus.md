@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_COMMSTATUS
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_COMMSTATUS request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see SERIAL_STATUS.
 old-location: serports\ioctl_serial_get_commstatus.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 70d0efe3-5ba1-4552-8c58-83c3f14e2264
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: CWiauPropertyList::SetAccessSubType method
 author: windows-driver-content
 description: The CWiauPropertyList::SetAccessSubType method resets a property's access and subtype.
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
-old-project: image
+tech.root: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.author: windowsdriverdev
 ms.date: 2/27/2018
@@ -16,19 +16,19 @@ req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>CWiauPropertyList::SetAccessSubType</b> method resets a property's access and subtype. 
+The <b>CWiauPropertyList::SetAccessSubType</b> method resets a property's access and subtype.
 
 
 ## -parameters

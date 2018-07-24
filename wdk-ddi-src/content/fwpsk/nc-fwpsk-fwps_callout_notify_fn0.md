@@ -4,10 +4,10 @@ title: FWPS_CALLOUT_NOTIFY_FN0
 author: windows-driver-content
 description: The filter engine calls a callout's notifyFn0 callout function to notify the callout driver about events that are associated with the callout.Note  notifyFn0 is the specific version of notifyFn used in Windows Vista and later.
 old-location: netvista\notifyfn0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c0f94079-7398-4998-b2b2-471aa8c538a1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, FWPS_CALLOUT_NOTIFY_FN0 callback, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

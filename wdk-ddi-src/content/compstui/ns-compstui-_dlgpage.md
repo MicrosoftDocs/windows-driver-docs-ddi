@@ -4,7 +4,7 @@ title: "_DLGPAGE"
 author: windows-driver-content
 description: The DLGPAGE structure is used for specifying a property sheet page to CPSUI's ComPropSheet function. The structure's address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.
 old-location: print\dlgpage.htm
-old-project: print
+tech.root: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

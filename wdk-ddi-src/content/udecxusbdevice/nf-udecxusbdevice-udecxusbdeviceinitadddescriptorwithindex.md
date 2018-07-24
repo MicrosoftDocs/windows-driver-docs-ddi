@@ -4,10 +4,10 @@ title: UdecxUsbDeviceInitAddDescriptorWithIndex function
 author: windows-driver-content
 description: Adds a USB descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitadddescriptorwithindex.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 96DF01F1-2584-4152-8EB9-D2515CA42B03
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUsbDeviceInitAddDescriptorWithIndex, UdecxUsbDeviceInitAddDescriptorWithIndex function [Buses], buses.udecxusbdeviceinitadddescriptorwithindex, udecxusbdevice/UdecxUsbDeviceInitAddDescriptorWithIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

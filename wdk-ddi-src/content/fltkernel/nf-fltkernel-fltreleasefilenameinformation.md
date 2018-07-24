@@ -4,7 +4,7 @@ title: FltReleaseFileNameInformation function
 author: windows-driver-content
 description: FltReleaseFileNameInformation releases a file name information structure.
 old-location: ifsk\fltreleasefilenameinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 352dbab6-76c3-4e67-a226-4c3d83fbb3b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

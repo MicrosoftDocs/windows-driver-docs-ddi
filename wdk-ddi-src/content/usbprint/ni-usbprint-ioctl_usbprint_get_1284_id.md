@@ -4,7 +4,7 @@ title: IOCTL_USBPRINT_GET_1284_ID
 author: windows-driver-content
 description: The IOCTL_USBPRINT_GET_1284_ID control code allows upper-layer software (such as a language monitor), to request and obtain the printer's IEEE 1284 device ID string.
 old-location: print\ioctl_usbprint_get_1284_id.htm
-old-project: print
+tech.root: print
 ms.assetid: b5c5a0e4-0fd9-4950-ac38-4bf58a0af077
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_PosBarcodeScannerCapabilitiesType"
 author: windows-driver-content
 description: This structure defines the type of scanner capabilities that a device supports such as whether the device supports statistics reporting and image preview.
 old-location: pos\posbarcodescannercapabilitiestype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 4387e6f4-c980-4339-a89c-0e71c5a79e2c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

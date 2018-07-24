@@ -4,7 +4,7 @@ title: PsAllocSiloContextSlot function
 author: windows-driver-content
 description: This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos. .
 old-location: kernel\psallocsilocontextslot.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

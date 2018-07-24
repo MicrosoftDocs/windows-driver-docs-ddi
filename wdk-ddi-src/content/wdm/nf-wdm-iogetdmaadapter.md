@@ -4,7 +4,7 @@ title: IoGetDmaAdapter function
 author: windows-driver-content
 description: The IoGetDmaAdapter routine returns a pointer to the DMA adapter structure for a physical device object.
 old-location: kernel\iogetdmaadapter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fa108ef4-54b8-4c6a-9d77-25e6b9e2c09d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

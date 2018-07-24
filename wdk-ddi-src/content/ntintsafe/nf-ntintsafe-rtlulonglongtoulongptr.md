@@ -4,7 +4,7 @@ title: RtlULongLongToULongPtr function
 author: windows-driver-content
 description: Converts a value of type ULONGLONG to a value of type ULONG_PTR.
 old-location: kernel\rtlulonglongtoulongptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D170649F-D0CE-454B-8F2B-18C66F58CAF7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

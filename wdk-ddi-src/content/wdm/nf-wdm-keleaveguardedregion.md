@@ -4,7 +4,7 @@ title: KeLeaveGuardedRegion function
 author: windows-driver-content
 description: The KeLeaveGuardedRegion routine exits a guarded region entered by KeEnterGuardedRegion.
 old-location: kernel\keleaveguardedregion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 189a3589-0d43-4f87-b889-f1f092190ffa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfRequestSend function
 author: windows-driver-content
 description: The WdfRequestSend method sends a specified I/O request to a specified I/O target.
 old-location: wdf\wdfrequestsend.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a0f4d4a4-f636-44df-911f-e3a615144fa9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

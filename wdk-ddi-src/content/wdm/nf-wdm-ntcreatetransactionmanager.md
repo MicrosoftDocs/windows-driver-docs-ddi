@@ -4,7 +4,7 @@ title: NtCreateTransactionManager function
 author: windows-driver-content
 description: The ZwCreateTransactionManager routine creates a new transaction manager object.
 old-location: kernel\zwcreatetransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9c9f0a8b-7add-4ab1-835d-39f508ce32a9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

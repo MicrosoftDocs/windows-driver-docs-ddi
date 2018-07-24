@@ -4,7 +4,7 @@ title: "_DSM_PARAMETERS"
 author: windows-driver-content
 description: The DSM_PARAMETERS structure holds the DSM version and timer counters information.
 old-location: storage\dsm_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 948331f1-1398-4e6e-85cb-27bbbd79630e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

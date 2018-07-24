@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE
 author: windows-driver-content
 description: This IOCTL is used to inform the owning driver for the IEEE 1667 device PDOs that the authorization state has changed.
 old-location: storage\ioctl_ehstor_device_set_authz_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8C71F597-2141-4DA6-8A14-8B10CB69E5CC
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

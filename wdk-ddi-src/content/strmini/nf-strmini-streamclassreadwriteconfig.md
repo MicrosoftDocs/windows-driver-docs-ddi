@@ -4,7 +4,7 @@ title: StreamClassReadWriteConfig function
 author: windows-driver-content
 description: The StreamClassReadWriteConfig routine reads or writes configuration data for the minidriver's parent bus driver.
 old-location: stream\streamclassreadwriteconfig.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

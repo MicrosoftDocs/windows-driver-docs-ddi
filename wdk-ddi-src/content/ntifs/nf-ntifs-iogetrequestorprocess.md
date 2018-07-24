@@ -4,7 +4,7 @@ title: IoGetRequestorProcess function
 author: windows-driver-content
 description: The IoGetRequestorProcess routine returns a process pointer for the thread that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 456e2354-1362-43f7-a2b0-3b3bec49b522
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

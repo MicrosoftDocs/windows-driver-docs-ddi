@@ -4,7 +4,7 @@ title: IWDFUnifiedPropertyStoreFactory
 author: windows-driver-content
 description: The IWDFUnifiedPropertyStoreFactory interface is a factory interface that is used to create a unified property store interface.
 old-location: wdf\iwdfunifiedpropertystorefactory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 34884B88-187A-4079-843D-F777287442F7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

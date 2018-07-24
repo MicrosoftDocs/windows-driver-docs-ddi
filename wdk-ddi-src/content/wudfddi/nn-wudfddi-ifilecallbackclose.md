@@ -4,7 +4,7 @@ title: IFileCallbackClose
 author: windows-driver-content
 description: The framework can notify a driver when the driver should perform a close operation. The driver can handle the notification by registering the IFileCallbackClose interface.
 old-location: wdf\ifilecallbackclose.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 22ecfb7b-daba-4321-bca5-4460ead8e3cd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

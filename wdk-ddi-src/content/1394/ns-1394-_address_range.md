@@ -4,7 +4,7 @@ title: "_ADDRESS_RANGE"
 author: windows-driver-content
 description: The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
 old-location: ieee\address_range.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

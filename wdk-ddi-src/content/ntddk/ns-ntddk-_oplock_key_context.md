@@ -4,7 +4,7 @@ title: "_OPLOCK_KEY_CONTEXT"
 author: windows-driver-content
 description: The OPLOCK_KEY_CONTEXT structure is returned from IoGetOplockKeyContextEx. This structure contains oplock keys for a specific file object.
 old-location: ifsk\oplock_key_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

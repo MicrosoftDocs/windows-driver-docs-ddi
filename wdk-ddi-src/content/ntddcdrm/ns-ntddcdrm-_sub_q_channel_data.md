@@ -4,7 +4,7 @@ title: "_SUB_Q_CHANNEL_DATA"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_Q_CHANNEL return their output data in this union.
 old-location: storage\sub_q_channel_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d0304ac7-cb19-499c-81af-98be33312951
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

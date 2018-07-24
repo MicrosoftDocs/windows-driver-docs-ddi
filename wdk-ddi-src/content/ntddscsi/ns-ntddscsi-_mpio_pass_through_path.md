@@ -4,7 +4,7 @@ title: "_MPIO_PASS_THROUGH_PATH"
 author: windows-driver-content
 description: The MPIO_PASS_THROUGH_PATH structure is used together with an IOCTL_MPIO_PASS_THROUGH_PATH request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\mpio_pass_through_path.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8c7f3832-3faa-4ece-8434-338f1b150ec1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

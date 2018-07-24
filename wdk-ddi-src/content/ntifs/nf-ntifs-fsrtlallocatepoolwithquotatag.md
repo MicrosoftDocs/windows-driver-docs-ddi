@@ -4,7 +4,7 @@ title: FsRtlAllocatePoolWithQuotaTag macro
 author: windows-driver-content
 description: The FsRtlAllocatePoolWithQuotaTag routine allocates pool memory, charging quota against the current process.
 old-location: ifsk\fsrtlallocatepoolwithquotatag.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 241525fd-c21b-4c24-91a0-6a79df4faea7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

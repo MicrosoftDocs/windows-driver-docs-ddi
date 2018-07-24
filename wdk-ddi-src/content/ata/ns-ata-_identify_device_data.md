@@ -4,7 +4,7 @@ title: "_IDENTIFY_DEVICE_DATA"
 author: windows-driver-content
 description: The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\identify_device_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7f2edd6f-16bf-47a6-8546-7871435a56ac
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

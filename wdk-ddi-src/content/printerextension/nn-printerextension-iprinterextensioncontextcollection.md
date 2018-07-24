@@ -4,7 +4,7 @@ title: IPrinterExtensionContextCollection
 author: windows-driver-content
 description: Exposes a collection of IPrinterExtensionContext objects.
 old-location: print\iprinterextensioncontextcollection.htm
-old-project: print
+tech.root: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

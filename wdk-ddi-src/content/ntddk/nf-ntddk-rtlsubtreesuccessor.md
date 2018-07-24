@@ -4,7 +4,7 @@ title: RtlSubtreeSuccessor function
 author: windows-driver-content
 description: The RtlSubtreeSuccessor routine returns a pointer to the successor of the specified node within the subtree that is rooted at that node.
 old-location: ifsk\rtlsubtreesuccessor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: de592c2a-6f52-48ef-b2ee-253d83cafa80
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

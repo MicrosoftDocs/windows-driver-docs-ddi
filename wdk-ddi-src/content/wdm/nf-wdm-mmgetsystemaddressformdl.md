@@ -4,7 +4,7 @@ title: MmGetSystemAddressForMdl macro
 author: windows-driver-content
 description: The MmGetSystemAddressForMdl routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.
 old-location: kernel\mmgetsystemaddressformdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

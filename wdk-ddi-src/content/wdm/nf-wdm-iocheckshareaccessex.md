@@ -4,7 +4,7 @@ title: IoCheckShareAccessEx function
 author: windows-driver-content
 description: The IoCheckShareAccessEx routine is called by file system drivers (FSDs) or other highest-level drivers to check whether shared access to a file object is permitted.
 old-location: kernel\iocheckshareaccessex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

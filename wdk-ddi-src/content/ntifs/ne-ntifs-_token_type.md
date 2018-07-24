@@ -4,7 +4,7 @@ title: "_TOKEN_TYPE"
 author: windows-driver-content
 description: The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token.
 old-location: ifsk\token_type.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2ad78d17-9baa-45cf-a620-01c2ccd14338
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

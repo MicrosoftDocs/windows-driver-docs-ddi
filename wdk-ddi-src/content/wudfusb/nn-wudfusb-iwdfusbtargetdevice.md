@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice
 author: windows-driver-content
 description: The IWDFUsbTargetDevice interface exposes a USB device I/O target object.
 old-location: wdf\iwdfusbtargetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 627a4633-6857-43a5-af2d-36e4e554ca83
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

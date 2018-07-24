@@ -4,7 +4,7 @@ title: "_SendCTPassThru_OUT"
 author: windows-driver-content
 description: The SendCTPassThru_OUT structure is used to report the output parameter data of the SendCTPassThru WMI method to the WMI client.
 old-location: storage\sendctpassthru_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

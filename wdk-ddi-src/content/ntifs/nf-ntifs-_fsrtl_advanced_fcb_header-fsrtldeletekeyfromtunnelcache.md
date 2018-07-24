@@ -4,7 +4,7 @@ title: FsRtlDeleteKeyFromTunnelCache function
 author: windows-driver-content
 description: The FsRtlDeleteKeyFromTunnelCache routine deletes any tunnel cache entries for files in a directory that is being deleted.
 old-location: ifsk\fsrtldeletekeyfromtunnelcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

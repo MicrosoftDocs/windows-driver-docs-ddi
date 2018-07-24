@@ -4,7 +4,7 @@ title: "_WOF_EXTERNAL_INFO"
 author: windows-driver-content
 description: The WOF_EXTERNAL_INFO structure identifies a file backing provider and the overlay service version it supports.
 old-location: ifsk\wof_external_info.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2522CDC6-C23A-4D9C-83BA-389B7D909619
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

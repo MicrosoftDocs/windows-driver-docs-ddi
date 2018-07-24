@@ -4,7 +4,7 @@ title: "_INTERNAL_I8042_HOOK_MOUSE"
 author: windows-driver-content
 description: INTERNAL_I8042_HOOK_MOUSE is used by I8042prt to connect an optional callback routine that supplements the operation of the mouse ISR. The callback can be supplied by an optional, vendor-supplied, upper-level filter driver.
 old-location: hid\internal_i8042_hook_mouse.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 7ac9fc14-9e94-412b-811a-6013d46020a0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

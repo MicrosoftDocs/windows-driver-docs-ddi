@@ -4,7 +4,7 @@ title: IPrinterExtensionContext::get_DriverProperties
 author: windows-driver-content
 description: Gets the driver property bag.
 old-location: print\iprinterextensioncontext_driverproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 52EC01D5-43C7-4CE0-ABEC-1604A4198316
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

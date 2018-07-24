@@ -4,10 +4,10 @@ title: IDebugSymbols3::ReloadWide
 author: windows-driver-content
 description: The ReloadWide method deletes the engine's symbol information for the specified module and reload these symbols as needed.
 old-location: debugger\reloadwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],ReloadWide method, IDebugSymbols3.ReloadWide, IDebugSymbols3::ReloadWide, ReloadWide, ReloadWide method [Windows Debugging], ReloadWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide, debugger.reloadwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPrintSchemaParameterInitializer::put_Value
 author: windows-driver-content
 description: The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_putvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: B0F003B4-D82D-4110-B53A-CDE45B75DC8C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

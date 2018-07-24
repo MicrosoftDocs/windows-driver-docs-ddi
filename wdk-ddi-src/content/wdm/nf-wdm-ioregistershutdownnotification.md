@@ -4,7 +4,7 @@ title: IoRegisterShutdownNotification function
 author: windows-driver-content
 description: The IoRegisterShutdownNotification routine registers the driver to receive an IRP_MJ_SHUTDOWN IRP when the system is shut down.
 old-location: kernel\ioregistershutdownnotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fd9a612b-b0a7-4bef-9fab-8212a3b594b6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

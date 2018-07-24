@@ -4,7 +4,7 @@ title: RxFsdPostRequest function
 author: windows-driver-content
 description: RxFsdPostRequest queues the I/O request packet (IRP) specified by an RX_CONTEXT structure to the worker queue for processing by the file system process (FSP).
 old-location: ifsk\rxfsdpostrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0b1bc248-6b8e-498c-936d-64f6ff9fa183
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

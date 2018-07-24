@@ -4,7 +4,7 @@ title: RtlCreateRegistryKey function
 author: windows-driver-content
 description: The RtlCreateRegistryKey routine adds a key object in the registry along a given relative path.
 old-location: kernel\rtlcreateregistrykey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

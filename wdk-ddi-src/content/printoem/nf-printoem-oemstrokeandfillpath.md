@@ -4,7 +4,7 @@ title: OEMStrokeAndFillPath function
 author: windows-driver-content
 description: The OEMStrokeAndFillPath function concurrently strokes and fills a path.
 old-location: print\oemstrokeandfillpath.htm
-old-project: print
+tech.root: print
 ms.assetid: f8a2df5d-426f-4872-8d54-55895c4fe6e3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

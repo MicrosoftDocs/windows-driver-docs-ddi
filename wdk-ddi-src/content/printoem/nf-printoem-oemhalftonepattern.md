@@ -4,7 +4,7 @@ title: OEMHalftonePattern function
 author: windows-driver-content
 description: OEMHalftonePattern function
 old-location: print\oemhalftonepattern.htm
-old-project: print
+tech.root: print
 ms.assetid: c574d997-736e-4883-a2c3-447985fcee55
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

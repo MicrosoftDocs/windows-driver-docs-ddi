@@ -4,7 +4,7 @@ title: RxpReleasePrefixTableLock function
 author: windows-driver-content
 description: RxpReleasePrefixTableLock releases a previously acquired shared or exclusive prefix table lock.
 old-location: ifsk\rxpreleaseprefixtablelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 57aef4ed-2ece-4af3-b1ca-e4fe5a306f82
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

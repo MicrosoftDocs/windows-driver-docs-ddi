@@ -4,7 +4,7 @@ title: CcSetAdditionalCacheAttributesEx function
 author: windows-driver-content
 description: Call the CcSetAdditionalCacheAttributesEx routine to enable extended cache behavior on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributesex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

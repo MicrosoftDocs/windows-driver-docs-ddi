@@ -4,10 +4,10 @@ title: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER
 author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER is called by the OS to get an OPM random number.
 old-location: display\evt_idd_cx_monitor_opm_get_random_number.htm
-old-project: display
+tech.root: display
 ms.assetid: 330dc0a1-d9a9-44c1-9d29-752c2567e745
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback, EvtIddCxMonitorOpmGetRandomNumber, EvtIddCxMonitorOpmGetRandomNumber callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_random_number, iddcx/EvtIddCxMonitorOpmGetRandomNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

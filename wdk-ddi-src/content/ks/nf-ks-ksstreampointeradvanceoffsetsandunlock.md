@@ -4,7 +4,7 @@ title: KsStreamPointerAdvanceOffsetsAndUnlock function
 author: windows-driver-content
 description: The KsStreamPointerAdvanceOffsetsAndUnlock function advances StreamPointer the specified number of bytes into the stream (adjusting the OffsetIn and OffsetOut fields of StreamPointer as requested) and unlocks it.
 old-location: stream\ksstreampointeradvanceoffsetsandunlock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bb15eb8e-b609-4110-b0de-71efb8ef1f5e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

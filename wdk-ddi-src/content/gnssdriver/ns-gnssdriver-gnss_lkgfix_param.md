@@ -4,7 +4,7 @@ title: GNSS_LKGFIX_PARAM
 author: windows-driver-content
 description: This structure is not used currently by the system and is not required to be implemented.
 old-location: gnss\gnss_lkgfix_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: AE4F03D6-A3A7-40DD-9DD9-D9B8F25FD567
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

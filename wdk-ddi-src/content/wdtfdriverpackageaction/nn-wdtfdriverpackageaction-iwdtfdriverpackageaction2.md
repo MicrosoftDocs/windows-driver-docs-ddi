@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2
 author: windows-driver-content
 description: Defines operations and properties that represent a driver package for imported and pre-imported driver packages.
 old-location: dtf\iwdtfdriverpackageaction2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: aa66280d-c32e-4d1c-bcc8-aa2719b61010
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

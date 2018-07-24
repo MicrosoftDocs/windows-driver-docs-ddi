@@ -4,10 +4,10 @@ title: IDebugControl2::GetTextMacro
 author: windows-driver-content
 description: The GetTextMacro method returns the value of a fixed-name alias.
 old-location: debugger\gettextmacro.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 980bcf7b-8e4a-4516-ab71-af60a1d8e99c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetTextMacro, GetTextMacro method [Windows Debugging], GetTextMacro method [Windows Debugging],IDebugControl interface, GetTextMacro method [Windows Debugging],IDebugControl2 interface, GetTextMacro method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetTextMacro method, IDebugControl2 interface [Windows Debugging],GetTextMacro method, IDebugControl2.GetTextMacro, IDebugControl2::GetTextMacro, IDebugControl3 interface [Windows Debugging],GetTextMacro method, IDebugControl3::GetTextMacro, IDebugControl::GetTextMacro, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, dbgeng/IDebugControl2::GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, dbgeng/IDebugControl::GetTextMacro, debugger.gettextmacro
 ms.prod: windows-hardware
 ms.technology: windows-devices

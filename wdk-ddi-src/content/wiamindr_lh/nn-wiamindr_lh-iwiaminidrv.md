@@ -4,10 +4,10 @@ title: IWiaMiniDrv
 author: windows-driver-content
 description: The IWiaMiniDrv interface provides the methods that are the entry points for all communication between the minidriver and the WIA service. These methods allow the WIA service to control the device.
 old-location: image\iwiaminidrv_interface.htm
-old-project: image
+tech.root: image
 ms.assetid: 15068d10-5e24-427c-9684-24ce67b75ada
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], IWiaMiniDrv interface [Imaging Devices],described, MiniDrv_8a22bfee-13f8-4efc-b31d-8dd9fabfe131.xml, image.iwiaminidrv_interface, wiamindr_lh/IWiaMiniDrv
 ms.prod: windows-hardware
 ms.technology: windows-devices

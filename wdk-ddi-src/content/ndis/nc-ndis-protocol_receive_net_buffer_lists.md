@@ -4,10 +4,10 @@ title: PROTOCOL_RECEIVE_NET_BUFFER_LISTS
 author: windows-driver-content
 description: The ProtocolReceiveNetBufferLists function processes receive indications from underlying drivers.Note  You must declare the function by using the PROTOCOL_RECEIVE_NET_BUFFER_LISTS type.
 old-location: netvista\protocolreceivenetbufferlists.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c964b4b8-ab07-4a07-9965-5cc06c028c20
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback, ProtocolReceiveNetBufferLists, ProtocolReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolReceiveNetBufferLists, ndis_sendrcv_ref_80c46411-a010-442f-a978-5f9227abb70a.xml, netvista.protocolreceivenetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices

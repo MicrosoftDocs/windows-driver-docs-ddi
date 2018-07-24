@@ -4,7 +4,7 @@ title: KS_CameraControlAsyncOperation
 author: windows-driver-content
 description: Defines notifications that the driver uses to start and stop an asynchronous camera operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization.
 old-location: stream\ks_cameracontrolasyncoperation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0ca676d9-5047-451a-abbb-2692cc2d69f6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

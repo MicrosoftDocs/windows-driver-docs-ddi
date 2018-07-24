@@ -4,7 +4,7 @@ title: WdfIoTargetWdmGetTargetPhysicalDevice function
 author: windows-driver-content
 description: The WdfIoTargetWdmGetTargetPhysicalDevice method returns a pointer to the Windows Driver Model (WDM) physical device object (PDO) that represents a remote I/O target's device.
 old-location: wdf\wdfiotargetwdmgettargetphysicaldevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

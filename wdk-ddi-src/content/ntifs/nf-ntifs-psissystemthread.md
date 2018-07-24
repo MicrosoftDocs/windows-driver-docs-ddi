@@ -4,7 +4,7 @@ title: PsIsSystemThread function
 author: windows-driver-content
 description: The PsIsSystemThread routine checks whether a given thread is a system thread.
 old-location: kernel\psissystemthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

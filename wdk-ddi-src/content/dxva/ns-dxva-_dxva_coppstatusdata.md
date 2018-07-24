@@ -4,10 +4,10 @@ title: "_DXVA_COPPStatusData"
 author: windows-driver-content
 description: The DXVA_COPPStatusData structure contains the status information returned from a query on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusdata.htm
-old-project: display
+tech.root: display
 ms.assetid: f459cfa7-9fda-4b46-9fc9-05bdc9e5c964
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA_COPPStatusData, DXVA_COPPStatusData structure [Display Devices], _DXVA_COPPStatusData, display.dxva_coppstatusdata, dxva/DXVA_COPPStatusData, dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

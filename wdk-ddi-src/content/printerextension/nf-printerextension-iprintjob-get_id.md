@@ -4,7 +4,7 @@ title: IPrintJob::get_Id
 author: windows-driver-content
 description: Gets the print job identifier (ID).
 old-location: print\iprintjob_id.htm
-old-project: print
+tech.root: print
 ms.assetid: 8354E38C-0A3D-48CB-9CA5-0DC0C01FDF17
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

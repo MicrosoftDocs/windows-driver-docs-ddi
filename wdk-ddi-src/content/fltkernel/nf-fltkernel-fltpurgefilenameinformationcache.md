@@ -4,7 +4,7 @@ title: FltPurgeFileNameInformationCache function
 author: windows-driver-content
 description: FltPurgeFileNameInformationCache purges from the Filter Manager's name cache all file name information structures that were generated from names provided by the given minifilter driver instance.
 old-location: ifsk\fltpurgefilenameinformationcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d3c4d041-0589-46f5-a514-8efb0db642c7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

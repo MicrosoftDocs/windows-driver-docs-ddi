@@ -4,10 +4,10 @@ title: UcmTcpciPortControllerAlert function
 author: windows-driver-content
 description: Sends information about the hardware alerts that are received on the port controller to UcmTcpciCx.
 old-location: buses\ucmtcpciportcontrolleralert.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 ms.prod: windows-hardware
 ms.technology: windows-devices

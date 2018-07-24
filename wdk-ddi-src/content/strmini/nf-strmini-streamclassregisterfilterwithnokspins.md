@@ -4,7 +4,7 @@ title: StreamClassRegisterFilterWithNoKSPins function
 author: windows-driver-content
 description: The StreamClassRegisterFilterWithNoKSPins routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode.
 old-location: stream\streamclassregisterfilterwithnokspins.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

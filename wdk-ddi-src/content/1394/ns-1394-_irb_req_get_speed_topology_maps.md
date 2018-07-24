@@ -4,7 +4,7 @@ title: "_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetSpeedTopologyMaps request.
 old-location: ieee\irb_req_get_speed_topology_maps.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 3238BDA7-9C85-405B-B731-DD230B0975F9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

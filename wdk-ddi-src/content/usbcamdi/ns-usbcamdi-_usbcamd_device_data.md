@@ -4,7 +4,7 @@ title: "_USBCAMD_DEVICE_DATA"
 author: windows-driver-content
 description: This structure is obsolete and is provided to maintain backward compatibility with the original USBCAMD.
 old-location: stream\usbcamd_device_data.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1841be02-e30f-4685-82ea-2d9c02ce7277
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

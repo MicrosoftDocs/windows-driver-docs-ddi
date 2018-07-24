@@ -4,7 +4,7 @@ title: "_FILE_BASIC_INFORMATION"
 author: windows-driver-content
 description: The FILE_BASIC_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8f79a3cf-9bc7-4135-a90e-d9dce86cf5f6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

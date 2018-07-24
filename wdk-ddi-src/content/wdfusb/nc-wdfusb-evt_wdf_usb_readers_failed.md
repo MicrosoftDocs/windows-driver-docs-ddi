@@ -4,7 +4,7 @@ title: EVT_WDF_USB_READERS_FAILED
 author: windows-driver-content
 description: A driver's EvtUsbTargetPipeReadersFailed event callback function informs the driver that a continuous reader has reported an error while processing a read request.
 old-location: wdf\evtusbtargetpipereadersfailed.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a9e21f47-1a60-419a-839e-8869f9fd4dd7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

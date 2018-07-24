@@ -4,7 +4,7 @@ title: "_RESOURCEMANAGER_BASIC_INFORMATION"
 author: windows-driver-content
 description: The RESOURCEMANAGER_BASIC INFORMATION structure contains information about a resource manager object.
 old-location: kernel\resourcemanager_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b5295760-7f0e-4973-9ce3-4aa35ea5211b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

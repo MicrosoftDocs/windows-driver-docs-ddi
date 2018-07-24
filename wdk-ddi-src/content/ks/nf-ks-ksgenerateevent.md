@@ -4,7 +4,7 @@ title: KsGenerateEvent function
 author: windows-driver-content
 description: The KsGenerateEvent function generates a standard event notification given an event entry structure.
 old-location: stream\ksgenerateevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4f142e5f-7d8a-47e0-8757-8c6e527a2472
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

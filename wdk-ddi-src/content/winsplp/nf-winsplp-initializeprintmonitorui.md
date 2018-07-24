@@ -4,7 +4,7 @@ title: InitializePrintMonitorUI function
 author: windows-driver-content
 description: A port monitor UI DLL's InitializePrintMonitorUI function supplies the print spooler with addresses of DLL functions.
 old-location: print\initializeprintmonitorui.htm
-old-project: print
+tech.root: print
 ms.assetid: baa80f8c-68ed-43a3-8c82-79a4388f9ab6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_RECORD_HEADER_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_HEADER structure contain valid data.
 old-location: whea\whea_error_record_header_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: b16dd19f-1a67-4066-9dae-b36ff6f44d43
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

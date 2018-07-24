@@ -4,7 +4,7 @@ title: EVT_WDF_IO_TARGET_QUERY_REMOVE
 author: windows-driver-content
 description: A driver's EvtIoTargetQueryRemove event callback function indicates whether the framework can safely remove a specified remote I/O target's device.
 old-location: wdf\evtiotargetqueryremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cb7c97e5-081e-44fc-a759-9a1ae81de41c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

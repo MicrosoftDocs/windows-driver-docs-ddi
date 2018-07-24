@@ -4,10 +4,10 @@ title: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to retrieve the current 32-bit frame number.
 old-location: buses\evt_ucx_controller_get_current_framenumber.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2755d0fd-9801-4d54-89cb-54f8b984288c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

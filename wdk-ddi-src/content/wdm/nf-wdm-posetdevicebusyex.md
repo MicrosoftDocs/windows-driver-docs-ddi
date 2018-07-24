@@ -4,7 +4,7 @@ title: PoSetDeviceBusyEx function
 author: windows-driver-content
 description: The PoSetDeviceBusyEx routine notifies the power manager that the device associated with the specified idle counter is busy.
 old-location: kernel\posetdevicebusyex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3f4d01fe-84cb-424e-9107-e29c4e25d85c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

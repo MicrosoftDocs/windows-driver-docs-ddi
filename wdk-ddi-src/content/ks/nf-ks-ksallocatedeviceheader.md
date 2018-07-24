@@ -4,7 +4,7 @@ title: KsAllocateDeviceHeader function
 author: windows-driver-content
 description: The KsAllocateDeviceHeader function allocates and initializes the required device extension header.
 old-location: stream\ksallocatedeviceheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

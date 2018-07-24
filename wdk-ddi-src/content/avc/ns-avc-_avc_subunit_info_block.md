@@ -4,7 +4,7 @@ title: "_AVC_SUBUNIT_INFO_BLOCK"
 author: windows-driver-content
 description: The AVC_SUBUNIT_INFO_BLOCK structure describes subunit information.
 old-location: stream\avc_subunit_info_block.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 66231303-20ec-42d4-b61d-c8e85e4e6a88
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

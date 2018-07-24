@@ -4,7 +4,7 @@ title: SPB_CONNECTION_PARAMETERS_INIT function
 author: windows-driver-content
 description: The SPB_CONNECTION_PARAMETERS_INIT function initializes an SPB_CONNECTION_PARAMETERS structure.
 old-location: spb\spb_connection_parameters_init.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 0E23690B-4AE1-42F1-A53F-FE9A4697DBF2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

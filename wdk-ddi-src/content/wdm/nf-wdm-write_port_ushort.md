@@ -4,7 +4,7 @@ title: WRITE_PORT_USHORT function
 author: windows-driver-content
 description: The WRITE_PORT_USHORT routine writes a USHORT value to the specified port address.
 old-location: kernel\write_port_ushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 60145cf3-62cb-4165-8536-f1546b9623dd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

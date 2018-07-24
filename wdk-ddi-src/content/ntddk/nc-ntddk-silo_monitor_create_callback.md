@@ -4,7 +4,7 @@ title: SILO_MONITOR_CREATE_CALLBACK
 author: windows-driver-content
 description: This is callback is invoked when a new silo is created.
 old-location: kernel\silo_monitor_create_callback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

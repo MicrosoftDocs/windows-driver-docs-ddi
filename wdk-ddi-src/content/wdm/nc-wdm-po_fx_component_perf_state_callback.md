@@ -4,7 +4,7 @@ title: PO_FX_COMPONENT_PERF_STATE_CALLBACK
 author: windows-driver-content
 description: The ComponentPerfStateCallback callback routine notifies the driver that its request to change the performance state of a component is complete.
 old-location: kernel\componentperfstatecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A54376E6-FBA2-4A27-83C7-8E3B6F2B2A05
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

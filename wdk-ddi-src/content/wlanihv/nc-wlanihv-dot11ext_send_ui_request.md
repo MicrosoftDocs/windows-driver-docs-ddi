@@ -4,7 +4,7 @@ title: DOT11EXT_SEND_UI_REQUEST
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsenduirequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c8d2ff26-d233-4683-9811-c23896203bd5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,9 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtSendUIRequest</b> function to request user notification or input
-  through the 
+  through the
   <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
   DLL</a>.
 
@@ -77,14 +77,14 @@ DWORD WINAPI * Dot11ExtSendUIRequest(
 ### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
-     value was specified through a previous call to the 
+     value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param pIhvUIRequest [in]
 
-A pointer to a caller-allocated buffer, formatted as a 
+A pointer to a caller-allocated buffer, formatted as a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">
      DOT11EXT_IHV_UI_REQUEST</a> structure.
 
@@ -94,7 +94,7 @@ A pointer to a caller-allocated buffer, formatted as a
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -104,31 +104,31 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-The IHV Extensions DLL must follow these guidelines when calling the 
+The IHV Extensions DLL must follow these guidelines when calling the
     <b>Dot11ExtSendUIRequest</b> function.
 
 <ul>
 <li>
-Requests for event notification by the 
+Requests for event notification by the
       <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
-      DLL</a> are completed through a call to the 
+      DLL</a> are completed through a call to the
       <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_ui_response.md">
       Dot11ExtIhvProcessUIResponse</a> IHV Handler function. The IHV Extensions DLL must not free the
-      memory referenced by the 
+      memory referenced by the
       <i>pIhvUIRequest</i> parameter until the request is completed.
 
 </li>
 <li>
-If the operating system calls the 
-      <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a> or 
+If the operating system calls the
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a> or
       <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a> IHV
       handler functions, the IHV Extensions DLL can assume that the UI request has been canceled. In this
-      situation, the DLL must free the memory referenced by the 
+      situation, the DLL must free the memory referenced by the
       <i>pIhvUIRequest</i> parameter.
 
 </li>
 <li>
-The operating system can query the completion status of the request through a call to the 
+The operating system can query the completion status of the request through a call to the
       <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
       Dot11ExtIhvIsUIRequestPending</a> IHV Handler function.
 

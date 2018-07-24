@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetSourceEntriesByLine
 author: windows-driver-content
 description: The GetSourceEntriesByLine method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
 old-location: debugger\getsourceentriesbyline.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 02ab63fe-0c59-480c-a333-a9b14d83ad68
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLine method, IDebugSymbols3.GetSourceEntriesByLine, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, debugger.getsourceentriesbyline
 ms.prod: windows-hardware
 ms.technology: windows-devices

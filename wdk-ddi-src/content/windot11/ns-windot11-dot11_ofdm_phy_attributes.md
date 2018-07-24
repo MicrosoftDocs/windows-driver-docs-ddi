@@ -4,7 +4,7 @@ title: DOT11_OFDM_PHY_ATTRIBUTES
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_ofdm_phy_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: edc9bd9b-938f-43df-80fd-5a4d49f6f768
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -73,7 +73,7 @@ typedef struct DOT11_OFDM_PHY_ATTRIBUTES {
 ### -field uFrequencyBandsSupported
 
 The frequency bands in which the PHY is capable of operating. Frequency bands are defined for:
-     
+
 
 <ul>
 <li>
@@ -174,9 +174,9 @@ Can operate in the Japan 4.9 (4.9-5.0GHz) band.
 
 
 
-The miniport driver defines the attributes of a PHY on the 802.11 station through the 
+The miniport driver defines the attributes of a PHY on the 802.11 station through the
     <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a> structure, and
-    formats the 
+    formats the
     <b>OFDMAttributes</b> member as a DOT11_OFDM_PHY_ATTRIBUTES structure. The miniport driver must only do this
     if the PHY defined by the DOT11_PHY_ATTRIBUTES structure is an OFDM PHY type.
 

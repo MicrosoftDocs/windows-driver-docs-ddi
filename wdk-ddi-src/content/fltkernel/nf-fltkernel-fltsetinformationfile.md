@@ -4,7 +4,7 @@ title: FltSetInformationFile function
 author: windows-driver-content
 description: FltSetInformationFile sets information for a given file.
 old-location: ifsk\fltsetinformationfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8d0a91ef-9fb0-45a6-979a-614aed1703a5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

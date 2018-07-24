@@ -4,7 +4,7 @@ title: IoGetDeviceInterfaceAlias function
 author: windows-driver-content
 description: The IoGetDeviceInterfaceAlias routine returns the alias device interface of the specified device interface instance, if the alias exists.
 old-location: kernel\iogetdeviceinterfacealias.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

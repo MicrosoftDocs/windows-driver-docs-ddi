@@ -4,7 +4,7 @@ title: AtaPortGetDeviceBase function
 author: windows-driver-content
 description: The AtaPortGetDeviceBase routine returns a mapped logical base address that is used to communicate with an HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetdevicebase.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

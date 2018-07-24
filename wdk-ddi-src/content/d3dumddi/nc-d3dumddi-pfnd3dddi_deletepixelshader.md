@@ -4,10 +4,10 @@ title: PFND3DDDI_DELETEPIXELSHADER
 author: windows-driver-content
 description: The DeletePixelShader function cleans up driver-side resources that are associated with pixel shader code.
 old-location: display\deletepixelshader.htm
-old-project: display
+tech.root: display
 ms.assetid: bc987531-d402-4f3b-a4e2-d71fe97f5400
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DeletePixelShader, DeletePixelShader callback function [Display Devices], PFND3DDDI_DELETEPIXELSHADER, PFND3DDDI_DELETEPIXELSHADER callback, UserModeDisplayDriver_Functions_2994cbd5-2661-40e3-bdcd-3b2bfc209c24.xml, d3dumddi/DeletePixelShader, display.deletepixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

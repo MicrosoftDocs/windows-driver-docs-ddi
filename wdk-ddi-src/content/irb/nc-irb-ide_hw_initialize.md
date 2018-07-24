@@ -4,7 +4,7 @@ title: IDE_HW_INITIALIZE
 author: windows-driver-content
 description: The IdeHwInitialize miniport driver routine configures the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5665ff0a-3cbf-4ac5-adf7-5b383bac5117
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

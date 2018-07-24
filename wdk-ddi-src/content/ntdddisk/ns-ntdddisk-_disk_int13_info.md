@@ -4,7 +4,7 @@ title: "_DISK_INT13_INFO"
 author: windows-driver-content
 description: The DISK_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an INT13 format.
 old-location: storage\disk_int13_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

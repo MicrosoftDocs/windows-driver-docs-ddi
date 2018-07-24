@@ -4,10 +4,10 @@ title: UCMTCPCI_DEVICE_CONFIG_INIT function
 author: windows-driver-content
 description: Initializes the UCMTCPCI_DEVICE_CONFIG structure.
 old-location: buses\ucmtcpci_device_config_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 8845f8f7-683e-487b-924b-596dbbfb98f2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], buses.ucmtcpci_device_config_init, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

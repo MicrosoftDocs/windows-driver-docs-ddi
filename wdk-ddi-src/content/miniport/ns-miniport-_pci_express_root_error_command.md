@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_ROOT_ERROR_COMMAND"
 author: windows-driver-content
 description: The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root error command register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_root_error_command.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 659c0612-5623-4615-b9c5-6d2656097b89
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -76,7 +76,7 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsULONG

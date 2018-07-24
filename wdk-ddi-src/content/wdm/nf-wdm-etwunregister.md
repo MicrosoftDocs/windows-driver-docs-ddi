@@ -4,7 +4,7 @@ title: EtwUnregister function
 author: windows-driver-content
 description: The EtwUnregister function unregisters the event provider and must be called before the provider exits.
 old-location: devtest\etwunregister.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 205d0f4e-0a10-4e0e-8fea-4f1e5ed8c701
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: FltQueueDeferredIoWorkItem function
 author: windows-driver-content
 description: The FltQueueDeferredIoWorkItem routine posts an IRP-based I/O operation to a work queue.
 old-location: ifsk\fltqueuedeferredioworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c6a51b9b-544e-4595-842a-76c667928350
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

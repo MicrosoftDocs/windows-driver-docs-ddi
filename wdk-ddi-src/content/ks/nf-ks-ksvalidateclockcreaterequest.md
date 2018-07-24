@@ -4,7 +4,7 @@ title: KsValidateClockCreateRequest function
 author: windows-driver-content
 description: The KsValidateClockCreateRequest function validates the clock creation request and returns the create structure associated with the request.This can only be called at PASSIVE_LEVEL.
 old-location: stream\ksvalidateclockcreaterequest.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ec10c10e-4604-47fc-a2e7-4df9d90acf0b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

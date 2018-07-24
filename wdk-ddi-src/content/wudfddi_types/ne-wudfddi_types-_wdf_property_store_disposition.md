@@ -4,7 +4,7 @@ title: "_WDF_PROPERTY_STORE_DISPOSITION"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_DISPOSITION enumeration contains values that indicate whether a registry value was created or already existed when a driver obtained a property store interface.
 old-location: wdf\wdf_property_store_disposition.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 107b55f5-0c06-45cc-9cbb-ba9e2fbca1e4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

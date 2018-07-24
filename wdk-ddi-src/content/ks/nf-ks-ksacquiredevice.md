@@ -4,7 +4,7 @@ title: KsAcquireDevice function
 author: windows-driver-content
 description: The KsAcquireDevice function gains synchronous access for Device by acquiring the device mutex.
 old-location: stream\ksacquiredevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c486351a-b5a6-4a67-826d-6f66d04518b3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

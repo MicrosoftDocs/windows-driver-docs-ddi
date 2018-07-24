@@ -4,7 +4,7 @@ title: "_WDF_WMI_PROVIDER_CONTROL"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_CONTROL enumeration defines the type of control functions that a WMI data provider can support.
 old-location: wdf\wdf_wmi_provider_control.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

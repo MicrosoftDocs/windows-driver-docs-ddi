@@ -4,7 +4,7 @@ title: IWDTFSimpleIOEx2
 author: windows-driver-content
 description: Defines operations for a simple synchronous I/O functionality test.
 old-location: dtf\iwdtfsimpleioex2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: a916e6b1-692c-47e9-83cc-3aeae80fb624
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

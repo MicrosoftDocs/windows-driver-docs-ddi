@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::AutoForwardCreateCleanupClose
 author: windows-driver-content
 description: The AutoForwardCreateCleanupClose method controls when create, cleanup, and close notifications are forwarded to the next lower driver in the device stack.
 old-location: wdf\iwdfdeviceinitialize_autoforwardcreatecleanupclose.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b9c8e54e-7cd5-48a9-b948-5327900c8a99
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: FsRtlTeardownPerFileContexts function
 author: windows-driver-content
 description: File systems call theFsRtlTeardownPerFileContexts routine to free FSRTL_PER_FILE_CONTEXT objects that are associated with a file control block (FCB) structure.
 old-location: ifsk\fsrtlteardownperfilecontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_INSERTPSUIPAGE_INFO"
 author: windows-driver-content
 description: The INSERTPSUIPAGE_INFO structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_INSERT_PSUIPAGE. All member values must be supplied by the ComPropSheet caller.
 old-location: print\insertpsuipage_info.htm
-old-project: print
+tech.root: print
 ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

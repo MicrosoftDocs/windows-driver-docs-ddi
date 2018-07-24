@@ -4,7 +4,7 @@ title: "_GetPathConfiguration_IN"
 author: windows-driver-content
 description: The GetPathConfiguration_IN structure is used to retrieve the per path device information.
 old-location: storage\getpathconfiguration_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 38396f75-6bcf-493e-9aab-661db59637ae
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

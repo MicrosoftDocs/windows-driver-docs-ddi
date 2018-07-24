@@ -4,7 +4,7 @@ title: OEMDeviceCapabilities function
 author: windows-driver-content
 description: OEMDeviceCapabilities function
 old-location: print\oemdevicecapabilities.htm
-old-project: print
+tech.root: print
 ms.assetid: fb15fd82-6214-40c0-9982-faee6c6b35b3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

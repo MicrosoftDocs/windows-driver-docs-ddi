@@ -4,7 +4,7 @@ title: HBA_CloseAdapter function
 author: windows-driver-content
 description: The HBA_CloseAdapter routine releases system resources associated with the indicated open HBA handle.
 old-location: storage\hba_closeadapter.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 404c7f82-02dd-4145-91e3-8820f6cbf781
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

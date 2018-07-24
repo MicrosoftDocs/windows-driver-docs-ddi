@@ -4,7 +4,7 @@ title: ScsiPortReadPortBufferUshort macro
 author: windows-driver-content
 description: The ScsiPortReadPortBufferUshort routine transfers a given number of USHORT values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b218785c-170e-4a30-99c9-0db8705b7f5d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

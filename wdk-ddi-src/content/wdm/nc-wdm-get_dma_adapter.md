@@ -4,7 +4,7 @@ title: GET_DMA_ADAPTER
 author: windows-driver-content
 description: The GetDmaAdapter routine returns a DMA_ADAPTER structure for the target device.
 old-location: kernel\getdmaadapter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0F703E88-2650-4451-9F5A-05FBCF33C131
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

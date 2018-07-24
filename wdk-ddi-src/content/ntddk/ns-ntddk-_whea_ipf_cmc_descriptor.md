@@ -4,7 +4,7 @@ title: "_WHEA_IPF_CMC_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_IPF_CMC_DESCRIPTOR structure describes a corrected machine check (CMC) error source for an Itanium processor.
 old-location: whea\whea_ipf_cmc_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 570a1dfa-d6dc-4886-ad13-0f3e1f88ddde
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

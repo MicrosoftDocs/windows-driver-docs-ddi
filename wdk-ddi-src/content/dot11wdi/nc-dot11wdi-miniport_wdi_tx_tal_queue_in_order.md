@@ -4,10 +4,10 @@ title: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER
 author: windows-driver-content
 description: The MiniportWdiTxTalQueueInOrder handler function notifies the TAL target that one or more paused RA/TID queues (with WDI_TX_PAUSE_REASON_PS) is ready to transmit.
 old-location: netvista\miniportwditxtalqueueinorder.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E82E19EA-4336-49DE-9CE4-DFBA0A347DFE
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback, MiniportWdiTxTalQueueInOrder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalQueueInOrder, netvista.miniportwditxtalqueueinorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

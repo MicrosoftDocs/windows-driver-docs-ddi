@@ -4,7 +4,7 @@ title: "_PEP_WORK"
 author: windows-driver-content
 description: The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx).
 old-location: kernel\pep_work.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

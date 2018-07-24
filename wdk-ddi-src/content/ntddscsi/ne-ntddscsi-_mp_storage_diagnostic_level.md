@@ -4,7 +4,7 @@ title: "_MP_STORAGE_DIAGNOSTIC_LEVEL"
 author: windows-driver-content
 description: The MP_STORAGE_DIAGNOSTIC_LEVEL enumeration allows the caller to control what kinds of data the provider should return.
 old-location: storage\mp_storage_diagnostic_level.htm
-old-project: storage
+tech.root: storage
 ms.assetid: BB05D543-7B99-481E-8CDB-AE350CBCCA2A
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

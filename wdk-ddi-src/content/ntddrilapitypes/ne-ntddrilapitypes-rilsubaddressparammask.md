@@ -4,10 +4,10 @@ title: RILSUBADDRESSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubaddressparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 12684719-f263-4909-bcb7-b75381cc7e43
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RILSUBADDRESSPARAMMASK, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SA_ALL, RIL_PARAM_SA_SUBADDRESS, netvista.rilsubaddressparammask, ntddrilapitypes/RILSUBADDRESSPARAMMASK, ntddrilapitypes/RIL_PARAM_SA_ALL, ntddrilapitypes/RIL_PARAM_SA_SUBADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

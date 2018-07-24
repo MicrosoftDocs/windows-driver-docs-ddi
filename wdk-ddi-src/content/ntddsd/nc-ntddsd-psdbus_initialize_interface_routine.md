@@ -4,7 +4,7 @@ title: PSDBUS_INITIALIZE_INTERFACE_ROUTINE
 author: windows-driver-content
 description: The PSDBUS_INITIALIZE_INTERFACE_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver uses to initialize an interface instance that it creates with the SdBusOpenInterface routine.
 old-location: sd\psdbus_initialize_interface_routine.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 90d36eb1-d122-4266-9c33-206c9c9b44e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

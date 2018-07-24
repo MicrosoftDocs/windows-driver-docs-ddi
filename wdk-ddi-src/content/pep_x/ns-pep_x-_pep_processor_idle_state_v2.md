@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_IDLE_STATE_V2"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_processor_idle_state_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DEA8B166-5236-4BE3-B16D-9EE1B34796F8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
 author: windows-driver-content
 description: The video decoder heap size data.
 old-location: display\d3d12ddi-video-decoder-heap-size-data-0033.htm
-old-project: display
+tech.root: display
 ms.assetid: beec0f3e-f87b-408b-8745-14b556254d77
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

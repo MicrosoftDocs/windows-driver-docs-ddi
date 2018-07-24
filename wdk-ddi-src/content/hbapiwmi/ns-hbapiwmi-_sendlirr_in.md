@@ -4,7 +4,7 @@ title: "_SendLIRR_IN"
 author: windows-driver-content
 description: The SendLIRR_IN structure is used to deliver parameter data to the SendLIRR WMI method.
 old-location: storage\sendlirr_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

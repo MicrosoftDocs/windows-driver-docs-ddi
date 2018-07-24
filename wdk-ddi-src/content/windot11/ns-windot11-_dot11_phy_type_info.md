@@ -4,7 +4,7 @@ title: "_DOT11_PHY_TYPE_INFO"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_type_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9b0cbcc4-e38a-4266-afc5-8b2755d79f4c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -81,7 +81,7 @@ typedef struct _DOT11_PHY_TYPE_INFO {
 
 ### -field dot11PhyType
 
-The type of PHY that the 802.11 station will use for the scan. The PHY type is defined by the <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumeration. 
+The type of PHY that the 802.11 station will use for the scan. The PHY type is defined by the <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumeration.
 
 <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in Extensible Station (ExtSTA) mode.</div>
 
@@ -89,7 +89,7 @@ The type of PHY that the 802.11 station will use for the scan. The PHY type is d
 
 If this member is <b>TRUE</b>, the 802.11 station uses the other members of this structure to configure
      the PHY for the scan operation.
-     
+
 
 If this member is <b>FALSE</b>, the 802.11 station configures the PHY using its own settings for the scan
      operation.
@@ -109,9 +109,9 @@ The amount of time, in microseconds, that the 802.11 station must wait before tr
 
 The minimum amount of time, in 802.11 time units (TU), that the 802.11 station spends on each
      channel when scanning. One TU is 1024 microseconds.
-     
 
-This member must be greater than or equal to 
+
+This member must be greater than or equal to
      <b>uProbeDelay</b> .
 
 
@@ -119,18 +119,18 @@ This member must be greater than or equal to
 
 The maximum amount of time, in 802.11 time units (TU), that the 802.11 station spends on each
      channel when scanning.
-     
 
-This member must be greater than or equal to 
+
+This member must be greater than or equal to
      <b>uProbeDelay</b> .
 
 
 ### -field ChDescriptionType
 
-This member specifies the method used to interpret the entries in the 
+This member specifies the method used to interpret the entries in the
      <b>ucChannelListBuffer</b> array. The data type for this member is the CH_DESCRIPTION_TYPE enumeration,
      which declares the following values:
-     
+
 
 
 
@@ -150,20 +150,20 @@ The channel entry is defined, in units of megahertz (MHz), by a channel center f
 
 ### -field uChannelListSize
 
-The length, in bytes, of the 
+The length, in bytes, of the
      <b>ucChannelListBuffer</b> array. Each entry in this array is formatted as a ULONG data type.
 
 
 ### -field ucChannelListBuffer
 
-An array containing channel descriptions for the PHY type specified in the 
+An array containing channel descriptions for the PHY type specified in the
      <b>dot11PhyType</b> member.
 
 
 #### - uPhyId
 
 The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
-       index within the list of supported PHYs returned by the driver through a query of 
+       index within the list of supported PHYs returned by the driver through a query of
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
        OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
@@ -174,17 +174,17 @@ The identifier (ID) of the PHY that the 802.11 station will use for the scan. Th
 
 
 
-The 
+The
     <a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a> structure, which
-    accompanies a set request of 
+    accompanies a set request of
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>, contains an
     array of zero or more DOT11_PHY_TYPE_INFO entries.
 
-For more information about the scan operations performed by a Native 802.11 miniport driver, see 
+For more information about the scan operations performed by a Native 802.11 miniport driver, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
-For more information about the ExtSTA operation mode, see 
+For more information about the ExtSTA operation mode, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
     Mode</a>.
 

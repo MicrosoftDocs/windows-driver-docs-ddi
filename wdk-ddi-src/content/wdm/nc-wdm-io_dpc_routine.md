@@ -4,7 +4,7 @@ title: IO_DPC_ROUTINE
 author: windows-driver-content
 description: The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns.
 old-location: kernel\dpcforisr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 834b1ad0-82e4-481d-93cc-1f46c20fcba3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

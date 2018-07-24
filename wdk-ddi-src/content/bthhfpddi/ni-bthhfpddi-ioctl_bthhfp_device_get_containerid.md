@@ -4,10 +4,10 @@ title: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
 author: windows-driver-content
 description: The IOCTL_BTHHFP_DEVICE_GET_CONTAINERID IOCTL Gets the PnP Container ID of the Bluetooth device.
 old-location: audio\ioctl_bthhfp_device_get_containerid.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 23B6CB2C-8290-42D7-AA68-6D335ED1818A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID, IOCTL_BTHHFP_DEVICE_GET_CONTAINERID control, IOCTL_BTHHFP_DEVICE_GET_CONTAINERID control code [Audio Devices], audio.ioctl_bthhfp_device_get_containerid, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
 ms.prod: windows-hardware
 ms.technology: windows-devices

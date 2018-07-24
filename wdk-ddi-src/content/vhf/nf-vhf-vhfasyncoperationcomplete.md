@@ -4,7 +4,7 @@ title: VhfAsyncOperationComplete function
 author: windows-driver-content
 description: The HID source driver calls this method to set the results of an asynchronous operation.
 old-location: hid\_vhfasyncoperationcomplete.htm
-old-project: hid
+tech.root: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

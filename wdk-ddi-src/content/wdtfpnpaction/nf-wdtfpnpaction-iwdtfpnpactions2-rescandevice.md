@@ -4,7 +4,7 @@ title: IWDTFPNPActions2::RescanDevice
 author: windows-driver-content
 description: Rescans the target device.
 old-location: dtf\iwdtfpnpactions2_rescandevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c5b2df39-e631-448e-a2fb-6424f86fc19e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

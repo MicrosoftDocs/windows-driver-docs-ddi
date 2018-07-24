@@ -4,7 +4,7 @@ title: "_IPCR"
 author: windows-driver-content
 description: The IPCR structure contains initialization values for an input plug.
 old-location: ieee\ipcr.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

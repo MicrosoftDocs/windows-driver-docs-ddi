@@ -4,7 +4,7 @@ title: "_CDROM_TOC_FULL_TOC_DATA_BLOCK"
 author: windows-driver-content
 description: The CDROM_TOC_FULL_TOC_DATA_BLOCK structure contains track descriptor data used in conjunction with the data from the CDROM_TOC_FULL_TOC_DATA structure.
 old-location: storage\cdrom_toc_full_toc_data_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8d6d1283-b64e-4c3b-8a45-376cfe76a19d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

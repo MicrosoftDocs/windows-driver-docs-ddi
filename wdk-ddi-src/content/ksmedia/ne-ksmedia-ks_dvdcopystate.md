@@ -4,7 +4,7 @@ title: KS_DVDCOPYSTATE
 author: windows-driver-content
 description: The KS_DVDCOPYSTATE enumeration describes the progress of the DVD copyright protection initialization, authentication and key negotiation sequence.
 old-location: stream\ks_dvdcopystate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4072eaf1-d4cc-4255-90c1-177d6d58bb0a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

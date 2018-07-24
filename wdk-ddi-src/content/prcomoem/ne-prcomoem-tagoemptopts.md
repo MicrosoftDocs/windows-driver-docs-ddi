@@ -4,7 +4,7 @@ title: tagOEMPTOPTS
 author: windows-driver-content
 description: "."
 old-location: print\oemptopts.htm
-old-project: print
+tech.root: print
 ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

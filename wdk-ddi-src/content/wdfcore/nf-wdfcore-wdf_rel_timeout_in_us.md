@@ -4,7 +4,7 @@ title: WDF_REL_TIMEOUT_IN_US function
 author: windows-driver-content
 description: The WDF_REL_TIMEOUT_IN_US function converts a specified number of microseconds to a relative time value.
 old-location: wdf\wdf_rel_timeout_in_us.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 202c9741-140e-4d6e-961b-fb92f690e743
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

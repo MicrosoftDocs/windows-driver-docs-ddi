@@ -4,7 +4,7 @@ title: "_RemoveConnectionFromSession_IN"
 author: windows-driver-content
 description: The RemoveConnectionFromSession_IN structure holds the input data for the RemoveConnectionFromSession method, which is used to remove a connection from a session.
 old-location: storage\removeconnectionfromsession_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dd5fd1f2-7040-40ee-bf9c-42e77c9738da
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: UcxEndpointInitSetEventCallbacks function
 author: windows-driver-content
 description: Initializes a UCXENDPOINT_INIT structure with client driver's event callback functions related to endpoints on the device.
 old-location: buses\_ucxendpointinitseteventcallbacks.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 4F5FB073-0803-4112-964E-431930D14A88
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxEndpointInitSetEventCallbacks, UcxEndpointInitSetEventCallbacks method [Buses], buses._ucxendpointinitseteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

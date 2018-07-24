@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
 author: windows-driver-content
 description: A silo driver sends this IOCTL to the storage device stack to query for storage device properties. The Enhanced Storage Class Driver (EHSTOR) will handle the request and return the available properties.
 old-location: storage\ioctl_ehstor_device_query_properties.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2F9B880F-7F3A-4B2B-816E-AD85ADFB280B
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_MSiSCSI_NICPerformance"
 author: windows-driver-content
 description: The MSiSCSI_NICPerformance structure can be used by an iSCSI initiator to report statistics for a network interface card (NIC) port.
 old-location: storage\msiscsi_nicperformance.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 921e6e44-adc2-4257-b11e-941121f5bfd7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

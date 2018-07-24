@@ -4,7 +4,7 @@ title: "_PHY_CONFIGURATION_PACKET"
 author: windows-driver-content
 description: The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
 old-location: ieee\phy_configuration_packet.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

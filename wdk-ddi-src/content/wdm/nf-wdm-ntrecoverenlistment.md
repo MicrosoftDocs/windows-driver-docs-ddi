@@ -4,7 +4,7 @@ title: NtRecoverEnlistment function
 author: windows-driver-content
 description: The ZwRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrecoverenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0f34d2d1-bb3a-4529-9ced-d9bed998c4ce
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

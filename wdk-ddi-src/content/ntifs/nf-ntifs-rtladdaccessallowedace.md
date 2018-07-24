@@ -4,7 +4,7 @@ title: RtlAddAccessAllowedAce function
 author: windows-driver-content
 description: The RtlAddAccessAllowedAce routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID).
 old-location: ifsk\rtladdaccessallowedace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 39a50efc-b27a-4c73-b436-c6495256d9c6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

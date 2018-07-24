@@ -4,10 +4,10 @@ title: PFND3D11DDI_STATE_DS_SHADER_CB
 author: windows-driver-content
 description: The pfnStateDsShaderCb function causes the Microsoft Direct3D 11 runtime to refresh the domain shader.
 old-location: display\pfnstatedsshadercb.htm
-old-project: display
+tech.root: display
 ms.assetid: 3b50f462-667e-4772-89bb-32d01e1bb7fc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_STATE_DS_SHADER_CB, PFND3D11DDI_STATE_DS_SHADER_CB callback, d3d10umddi/pfnStateDsShaderCb, d3d11state_functions_5ab17831-b238-4b96-89bf-84c658463597.xml, display.pfnstatedsshadercb, pfnStateDsShaderCb, pfnStateDsShaderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

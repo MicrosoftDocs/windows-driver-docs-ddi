@@ -4,7 +4,7 @@ title: IWDTFActions2::Clear
 author: windows-driver-content
 description: Removes all items from the collection.
 old-location: dtf\iwdtfactions2_clear.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: f594e1f0-0e7f-4644-a97e-1fce58aa7c71
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

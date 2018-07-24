@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020
 author: windows-driver-content
 description: Specifies information used to retrieve a list of supported formats for a decode configuration.
 old-location: display\d3d12ddi_video_decode_formats_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 0FF0F184-60FF-4467-ABF5-E05893083B25
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

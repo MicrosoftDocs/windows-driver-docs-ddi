@@ -4,7 +4,7 @@ title: ObReferenceObject macro
 author: windows-driver-content
 description: The ObReferenceObject routine increments the reference count to the given object.
 old-location: kernel\obreferenceobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

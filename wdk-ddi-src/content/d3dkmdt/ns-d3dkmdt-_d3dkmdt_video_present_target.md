@@ -4,10 +4,10 @@ title: "_D3DKMDT_VIDEO_PRESENT_TARGET"
 author: windows-driver-content
 description: The D3DKMDT_VIDEO_PRESENT_TARGET structure contains information about a video present target.
 old-location: display\d3dkmdt_video_present_target.htm
-old-project: display
+tech.root: display
 ms.assetid: e36aba12-51fc-486c-a92c-47f72a4bcb0a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_VIDEO_PRESENT_TARGET, D3DKMDT_VIDEO_PRESENT_TARGET structure [Display Devices], DmStructs_ef451c58-7ee5-4c52-9afe-9aab45114186.xml, _D3DKMDT_VIDEO_PRESENT_TARGET, d3dkmdt/D3DKMDT_VIDEO_PRESENT_TARGET, display.d3dkmdt_video_present_target
 ms.prod: windows-hardware
 ms.technology: windows-devices

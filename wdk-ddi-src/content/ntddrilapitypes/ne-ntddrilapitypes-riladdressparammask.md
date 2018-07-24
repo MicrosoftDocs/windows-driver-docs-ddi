@@ -4,7 +4,7 @@ title: RILADDRESSPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILADDRESSPARAMMASK enumeration.
 old-location: netvista\riladdressparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 02d77f8f-9327-40e4-b38b-7f1a02abf4b1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,11 +58,11 @@ req.typenames: RILADDRESSPARAMMASK
 
 ````
 enum RILADDRESSPARAMMASK {
-  RIL_PARAM_A_NONE     = 0x00000000, 
-  RIL_PARAM_A_TYPE     = 0x00000001, 
-  RIL_PARAM_A_NUMPLAN  = 0x00000002, 
-  RIL_PARAM_A_ADDRESS  = 0x00000004, 
-  RIL_PARAM_A_ALL      = 0x00000007 
+  RIL_PARAM_A_NONE     = 0x00000000,
+  RIL_PARAM_A_TYPE     = 0x00000001,
+  RIL_PARAM_A_NUMPLAN  = 0x00000002,
+  RIL_PARAM_A_ADDRESS  = 0x00000004,
+  RIL_PARAM_A_ALL      = 0x00000007
 
 };
 ````

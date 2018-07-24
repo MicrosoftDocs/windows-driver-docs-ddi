@@ -4,7 +4,7 @@ title: RtlStringCchLengthA function
 author: windows-driver-content
 description: The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string.
 old-location: kernel\rtlstringcchlength.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

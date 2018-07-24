@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_VALUE
 author: windows-driver-content
 description: The KSCAMERA_EXTENDEDPROP_VALUE structure is a data type union used to express an extended property value.
 old-location: stream\kscamera_extendedprop_value.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E595C2BF-C3C8-4FE8-90B0-CD53524F4852
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

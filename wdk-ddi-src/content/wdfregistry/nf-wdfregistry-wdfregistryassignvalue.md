@@ -4,7 +4,7 @@ title: WdfRegistryAssignValue function
 author: windows-driver-content
 description: The WdfRegistryAssignValue method assigns specified data to a specified value name in the registry.
 old-location: wdf\wdfregistryassignvalue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3c7592ad-f4ed-496f-90bb-638f68efe4f7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

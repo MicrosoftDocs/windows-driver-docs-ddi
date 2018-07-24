@@ -4,7 +4,7 @@ title: IWDFObject::ReleaseLock
 author: windows-driver-content
 description: The ReleaseLock method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the IWDFObject::AcquireLock method.
 old-location: wdf\iwdfobject_releaselock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: FsRtlGetNextLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlGetNextLargeMcbEntry routine retrieves a mapping run from a map control block (MCB).
 old-location: ifsk\fsrtlgetnextlargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e67f60da-4200-4d87-9b36-55ce027f0933
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

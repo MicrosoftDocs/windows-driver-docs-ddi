@@ -4,7 +4,7 @@ title: KSP_PIN
 author: windows-driver-content
 description: Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
 old-location: stream\ksp_pin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: WdfDeviceInitSetCompanionEventCallbacks function
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfdeviceinitsetcompanioneventcallbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7320238d-0c7f-423c-8de7-2b22d02d77bd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IWDFDevice::RetrieveDeviceInstanceId
 author: windows-driver-content
 description: The RetrieveDeviceInstanceId method retrieves the identifier of an instance of a device.
 old-location: wdf\iwdfdevice_retrievedeviceinstanceid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

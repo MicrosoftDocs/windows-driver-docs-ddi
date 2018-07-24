@@ -4,7 +4,7 @@ title: FsRtlFreeExtraCreateParameterList function
 author: windows-driver-content
 description: The FsRtlFreeExtraCreateParameterList routine frees an extra create parameter (ECP) list structure.
 old-location: ifsk\fsrtlfreeextracreateparameterlist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0d2f1204-0874-4ede-9931-be6f2dbc3c47
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

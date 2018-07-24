@@ -4,7 +4,7 @@ title: "_PosDeviceBasicsType"
 author: windows-driver-content
 description: This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\posdevicebasicstype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

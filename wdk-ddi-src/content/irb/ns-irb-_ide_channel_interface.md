@@ -4,7 +4,7 @@ title: "_IDE_CHANNEL_INTERFACE"
 author: windows-driver-content
 description: The IDE_CHANNEL_INTERFACE structure contains interface information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_channel_interface.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0a742dc2-fa1a-4b93-a136-52f4571bde22
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

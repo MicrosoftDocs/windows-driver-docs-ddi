@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni::CreateGDLSnapshot
 author: windows-driver-content
 description: The IPrintCoreHelperUni::CreateGDLSnapshot method creates a GDL snapshot of the driver configuration file based on the current configuration.
 old-location: print\iprintcorehelperuni_creategdlsnapshot.htm
-old-project: print
+tech.root: print
 ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

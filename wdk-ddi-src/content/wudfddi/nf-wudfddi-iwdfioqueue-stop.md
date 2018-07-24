@@ -4,7 +4,7 @@ title: IWDFIoQueue::Stop
 author: windows-driver-content
 description: The Stop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\iwdfioqueue_stop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

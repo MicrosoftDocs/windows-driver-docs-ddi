@@ -4,7 +4,7 @@ title: "_MOUNTMGR_DRIVE_LETTER_INFORMATION"
 author: windows-driver-content
 description: The MOUNTMGR_DRIVE_LETTER_INFORMATION structure is used by the mount manager to furnish a drive letter to a client that has requested a driver letter by means of an IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request.
 old-location: storage\mountmgr_drive_letter_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

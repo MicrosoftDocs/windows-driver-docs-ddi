@@ -4,7 +4,7 @@ title: RxFsdDispatch function
 author: windows-driver-content
 description: RxFsdDispatch implements the file system driver (FSD) dispatch for RDBSS to process an I/O request packet (IRP).
 old-location: ifsk\rxfsddispatch.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

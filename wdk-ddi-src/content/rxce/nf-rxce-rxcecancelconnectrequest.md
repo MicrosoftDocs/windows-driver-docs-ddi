@@ -4,7 +4,7 @@ title: RxCeCancelConnectRequest function
 author: windows-driver-content
 description: RxCeCancelConnectRequest cancels a previously issued connection request. Note that this routine is not currently implemented.
 old-location: ifsk\rxcecancelconnectrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 32893a68-68ac-4bac-ab0f-1d07a1e873f3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_OSVERSIONINFOEXW"
 author: windows-driver-content
 description: The RTL_OSVERSIONINFOEXW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfoexw.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

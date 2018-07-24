@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_DOMAIN_INFO"
 author: windows-driver-content
 description: Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. .
 old-location: kernel\pep_ppm_query_domain_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

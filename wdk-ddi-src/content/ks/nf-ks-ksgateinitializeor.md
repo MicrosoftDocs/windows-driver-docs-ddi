@@ -4,7 +4,7 @@ title: KsGateInitializeOr function
 author: windows-driver-content
 description: The KsGateInitializeOr function initializes a KSGATE structure as an OR gate and attaches it to the AND gate specified by NextAndGate.
 old-location: stream\ksgateinitializeor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

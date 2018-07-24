@@ -4,7 +4,7 @@ title: HBA_RegisterForAdapterEvents function
 author: windows-driver-content
 description: The HBA_RegisterForAdapterEvents routine registers the indicated user callback routine to call when an adapter event occurs.
 old-location: storage\hba_registerforadapterevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b5e671dc-0583-4e5f-b537-3257b3f25479
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

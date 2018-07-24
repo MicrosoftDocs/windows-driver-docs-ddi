@@ -4,7 +4,7 @@ title: "_DSM_QueryLBPolicy"
 author: windows-driver-content
 description: The DSM_QueryLBPolicy structure is used to query a LUN's current load balance policy.
 old-location: storage\dsm_querylbpolicy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f2ac985a-8fcb-48ad-b100-4137b5b1a777
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

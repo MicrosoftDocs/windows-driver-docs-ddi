@@ -4,7 +4,7 @@ title: GNSS_DRIVERCOMMAND_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the GNSS_DRIVERCOMMAND_PARAM structure.
 old-location: gnss\gnss_drivercommand_type.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

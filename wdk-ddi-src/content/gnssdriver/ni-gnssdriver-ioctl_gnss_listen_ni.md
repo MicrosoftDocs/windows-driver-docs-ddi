@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_NI
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_NI control code is used to start listening for a SUPL NI request.
 old-location: gnss\ioctl_gnss_listen_ni.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: DDC85717-7CF7-421D-9521-09E272FFFCF0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

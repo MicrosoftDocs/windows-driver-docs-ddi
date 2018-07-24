@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_READ_CAPACITY
 author: windows-driver-content
 description: The IOCTL_STORAGE_READ_CAPACITY request returns the read capacity information for the target storage device.
 old-location: storage\ioctl_storage_read_capacity.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FC4CFD33-5632-400A-90E5-583C6D6DFFD9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

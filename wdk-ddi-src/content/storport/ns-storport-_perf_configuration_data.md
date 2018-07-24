@@ -4,7 +4,7 @@ title: "_PERF_CONFIGURATION_DATA"
 author: windows-driver-content
 description: The PERF_CONFIGURATION_DATA structure describes the performance optimizations that are supported by the StorPortInitializePerfOpts routine.
 old-location: storage\perf_configuration_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

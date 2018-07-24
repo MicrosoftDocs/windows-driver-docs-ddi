@@ -4,7 +4,7 @@ title: "_MSFC_TargetEvent"
 author: windows-driver-content
 description: A WMI provider uses the MSFC_TargetEvent structure to report port events for the indicated adapter.
 old-location: storage\msfc_targetevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e34e505c-74b1-45e4-9d9f-ba7cae111156
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

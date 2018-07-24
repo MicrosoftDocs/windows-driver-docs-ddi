@@ -4,7 +4,7 @@ title: MmProbeAndLockPages function
 author: windows-driver-content
 description: The MmProbeAndLockPages routine probes the specified virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockpages.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

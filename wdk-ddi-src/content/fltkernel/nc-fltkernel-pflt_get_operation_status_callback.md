@@ -4,7 +4,7 @@ title: PFLT_GET_OPERATION_STATUS_CALLBACK
 author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_GET_OPERATION_STATUS_CALLBACK as the minifilter driver's OperationStatusCallback routine.
 old-location: ifsk\PFLT_GET_OPERATION_STATUS_CALLBACK.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

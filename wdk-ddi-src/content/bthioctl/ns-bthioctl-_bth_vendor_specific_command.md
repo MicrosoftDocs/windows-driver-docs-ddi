@@ -4,7 +4,7 @@ title: "_BTH_VENDOR_SPECIFIC_COMMAND"
 author: windows-driver-content
 description: The BTH_VENDOR_SPECIFIC_COMMAND structure specifies a Bluetooth vendor-specific command.
 old-location: bltooth\bth_vendor_specific_command.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c37844d9-206a-4060-8b46-9afe691fe8f9
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: GNSS_SUPL_VERSION
 author: windows-driver-content
 description: This structure contains SUPL version information.
 old-location: gnss\gnss_supl_version.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

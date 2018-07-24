@@ -4,7 +4,7 @@ title: RxNameCacheExpireEntryWithShortName function
 author: windows-driver-content
 description: RxNameCacheExpireEntryWithShortName expires all of the name cache entries whose name prefix matches the given short file name.
 old-location: ifsk\rxnamecacheexpireentrywithshortname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4d842454-4a59-4f82-9aeb-3dfbe9d8cd8a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

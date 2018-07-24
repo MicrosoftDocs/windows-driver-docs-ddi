@@ -4,7 +4,7 @@ title: "_CDROM_PERFORMANCE_EXCEPTION_TYPE"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration defines the exceptional conditions for performance data.
 old-location: storage\cdrom_performance_exception_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4AD156F8-911F-4D70-8B0E-8BB0D0747470
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

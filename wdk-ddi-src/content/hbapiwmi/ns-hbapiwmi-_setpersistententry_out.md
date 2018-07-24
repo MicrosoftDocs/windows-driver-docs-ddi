@@ -4,7 +4,7 @@ title: "_SetPersistentEntry_OUT"
 author: windows-driver-content
 description: The SetPersistentEntry_OUT structure is used to report the output parameter data of the SetPersistentEntry WMI method to the WMI client.
 old-location: storage\setpersistententry_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

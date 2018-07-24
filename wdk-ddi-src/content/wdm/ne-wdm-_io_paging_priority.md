@@ -4,7 +4,7 @@ title: "_IO_PAGING_PRIORITY"
 author: windows-driver-content
 description: The IO_PAGING_PRIORITY enumeration describes the priority value for a paging I/O IRP.
 old-location: kernel\io_paging_priority.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

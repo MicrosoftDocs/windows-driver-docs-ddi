@@ -4,7 +4,7 @@ title: ScsiPortGetLogicalUnit function
 author: windows-driver-content
 description: The ScsiPortGetLogicalUnit routine returns a pointer to the miniport driver's per-LU storage area for a given peripheral.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetlogicalunit.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

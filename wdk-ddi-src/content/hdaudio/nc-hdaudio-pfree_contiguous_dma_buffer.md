@@ -4,10 +4,10 @@ title: PFREE_CONTIGUOUS_DMA_BUFFER
 author: windows-driver-content
 description: The FreeContiguousDmaBuffer routine frees a DMA buffer and buffer descriptor list (BDL) that were allocated by a call to AllocateContiguousDmaBuffer.The function pointer type for a FreeContiguousDmaBuffer routine is defined as follows.
 old-location: audio\freecontiguousdmabuffer.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 7aaf98cc-8a94-44e6-9fef-76e00db17405
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: FreeContiguousDmaBuffer, FreeContiguousDmaBuffer callback function [Audio Devices], PFREE_CONTIGUOUS_DMA_BUFFER, PFREE_CONTIGUOUS_DMA_BUFFER callback, aud-prop2_66797c8c-c8ac-443e-9515-1269a14a87a0.xml, audio.freecontiguousdmabuffer, hdaudio/FreeContiguousDmaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

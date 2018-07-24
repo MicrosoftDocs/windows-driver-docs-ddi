@@ -4,7 +4,7 @@ title: ClfsLsnContainer function
 author: windows-driver-content
 description: The ClfsLsnContainer routine returns the logical container identifier contained in a specified LSN.
 old-location: kernel\clfslsncontainer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 006edbf7-b3f8-45f2-902e-03d86e83b0a0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

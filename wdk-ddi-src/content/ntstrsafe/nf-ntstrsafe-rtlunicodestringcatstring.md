@@ -4,7 +4,7 @@ title: RtlUnicodeStringCatString function
 author: windows-driver-content
 description: The RtlUnicodeStringCatString function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringcatstring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d8e96d49-e4f5-468c-bdce-fbfaa8428eb7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

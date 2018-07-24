@@ -4,7 +4,7 @@ title: IPrintSchemaPageImageableSize
 author: windows-driver-content
 description: Exposes the PageImageableSize property of PrintCapabilities. The properties of this interface map directly to those in the PageImageableSize property of PrintCapabilities.
 old-location: print\iprintschemapageimageablesize_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

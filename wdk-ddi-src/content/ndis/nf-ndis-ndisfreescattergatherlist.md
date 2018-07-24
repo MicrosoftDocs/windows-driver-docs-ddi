@@ -4,10 +4,10 @@ title: NdisFreeScatterGatherList function
 author: windows-driver-content
 description: The NdisFreeScatterGatherList function frees a scatter/gather list.
 old-location: netvista\ndisfreescattergatherlist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

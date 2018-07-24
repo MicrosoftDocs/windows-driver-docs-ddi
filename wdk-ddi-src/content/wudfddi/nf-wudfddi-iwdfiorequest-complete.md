@@ -4,7 +4,7 @@ title: IWDFIoRequest::Complete
 author: windows-driver-content
 description: The Complete method completes an I/O request.
 old-location: wdf\iwdfiorequest_complete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

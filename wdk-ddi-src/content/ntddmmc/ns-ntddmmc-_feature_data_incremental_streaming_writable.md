@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE"
 author: windows-driver-content
 description: The FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure contains information about the Incremental Streaming Writable feature.
 old-location: storage\feature_data_incremental_streaming_writable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5e3918a4-8cc6-45b9-acb1-3a2b2088d4b9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDFMemory::CopyFromBuffer
 author: windows-driver-content
 description: The CopyFromBuffer method safely copies data from the specified source buffer to a memory object.
 old-location: wdf\iwdfmemory_copyfrombuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

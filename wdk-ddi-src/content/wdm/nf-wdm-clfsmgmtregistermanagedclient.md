@@ -4,7 +4,7 @@ title: ClfsMgmtRegisterManagedClient function
 author: windows-driver-content
 description: The ClfsMgmtRegisterManagedClient routine creates a client that will manage a CLFS log.
 old-location: kernel\clfsmgmtregistermanagedclient.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

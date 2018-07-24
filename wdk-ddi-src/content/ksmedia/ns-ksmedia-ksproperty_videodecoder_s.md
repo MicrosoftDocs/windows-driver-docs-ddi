@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEODECODER_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEODECODER_S structure describes property settings in the PROPSETID_VIDCAP_VIDEODECODER property set.
 old-location: stream\ksproperty_videodecoder_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9444835d-0290-49e7-8f49-a1506ce282cd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IoSetActivityIdIrp function
 author: windows-driver-content
 description: The IoSetActivityIdIrp routine associates an activity ID with an IRP.
 old-location: kernel\iosetactivityidirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

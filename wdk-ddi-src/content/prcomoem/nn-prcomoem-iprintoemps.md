@@ -4,7 +4,7 @@ title: IPrintOemPS
 author: windows-driver-content
 description: This section describes the methods defined for the IPrintOemPS COM interface.
 old-location: print\iprintoemps_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 14c545b7-8080-424f-9164-f97ef8a1acc2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

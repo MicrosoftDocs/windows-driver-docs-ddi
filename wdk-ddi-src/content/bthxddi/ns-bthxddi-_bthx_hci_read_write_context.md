@@ -4,7 +4,7 @@ title: "_BTHX_HCI_READ_WRITE_CONTEXT"
 author: windows-driver-content
 description: The BTHX_HCI_READ_WRITE_CONTEXT structure is used as an input/output structure for the IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs.
 old-location: bltooth\bthx_hci_read_write_context.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: EC31A704-A264-4A77-B979-BFA59B42BA94
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: ExInitializeNPagedLookasideList function
 author: windows-driver-content
 description: The ExInitializeNPagedLookasideList routine initializes a lookaside list for nonpaged entries of the specified size.
 old-location: kernel\exinitializenpagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d783feff-d187-4a2f-8d3d-b5221b03459a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -198,7 +198,7 @@ Sets up the system-determined flags, which control the type of memory from which
 </ul>
 The system maintains a set of all lookaside lists currently in use. As demand for lookaside list entries and on available nonpaged memory varies while the system runs, the system adjusts its limits for the number of entries to be held in each nonpaged lookaside list dynamically.
 
-Drivers must always use explicitly free any lookaside lists they create before unloading. To do otherwise is a serious programming error. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544566">ExDeleteNPagedLookasideList</a> to free the list.
+Drivers must always explicitly free any lookaside lists they create before unloading. To do otherwise is a serious programming error. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544566">ExDeleteNPagedLookasideList</a> to free the list.
 
 <b>ExInitializeNPagedLookasideList</b> sets up the opaque list head at the caller-supplied location but preallocates no memory for list entries. Subsequently, the initial entries are allocated dynamically as calls to <b>ExAllocateFromNPagedLookasideList</b> occur, and these initial entries are held in the lookaside list as reciprocal calls to <b>ExFreeToNPagedLookasideList</b> occur. Entries collect in the given lookaside list until the system-determined maximum is reached, whereupon any additional entries are returned to nonpaged pool as they are freed. If the list becomes empty, allocate requests are satisfied by the <b><i>Xxx</i>Allocate</b> function specified at list initialization or by <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 

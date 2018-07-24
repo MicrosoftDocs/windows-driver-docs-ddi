@@ -4,7 +4,7 @@ title: IoUpdateShareAccess function
 author: windows-driver-content
 description: The IoUpdateShareAccess routine updates the share access for the given file object, usually when the file is being opened.
 old-location: kernel\ioupdateshareaccess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b8e14607-a8d4-4e15-8b1d-92096879ea65
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

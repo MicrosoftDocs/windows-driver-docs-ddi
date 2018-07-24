@@ -4,7 +4,7 @@ title: "_BTH_COMMAND_HEADER"
 author: windows-driver-content
 description: The BTH_COMMAND_HEADER structure specifies header information for a vendor-specific HCI command.
 old-location: bltooth\bth_command_header.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2ed2196f-a966-4766-9acd-f0beca20ed26
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

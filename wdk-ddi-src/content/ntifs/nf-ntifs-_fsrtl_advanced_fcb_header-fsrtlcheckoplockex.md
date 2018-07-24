@@ -4,7 +4,7 @@ title: FsRtlCheckOplockEx function
 author: windows-driver-content
 description: The FsRtlCheckOplockEx routine synchronizes the IRP for a file I/O operation with the current opportunistic lock (oplock) state of the file.
 old-location: ifsk\fsrtlcheckoplockex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e06ae137-fbd8-47cc-8102-9fe21993f1ca
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

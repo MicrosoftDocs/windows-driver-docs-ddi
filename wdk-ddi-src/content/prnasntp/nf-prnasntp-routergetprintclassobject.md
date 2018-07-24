@@ -4,7 +4,7 @@ title: RouterGetPrintClassObject function
 author: windows-driver-content
 description: The RouterGetPrintClassObject function enumerates the list of print providers, searching for the print provider with the specified name and interface ID.
 old-location: print\routergetprintclassobject.htm
-old-project: print
+tech.root: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

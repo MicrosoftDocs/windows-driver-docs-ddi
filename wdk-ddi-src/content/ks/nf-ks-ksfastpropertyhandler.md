@@ -4,7 +4,7 @@ title: KsFastPropertyHandler function
 author: windows-driver-content
 description: The KsFastPropertyHandler function handles fast property requests through IOCTL_KS_PROPERTY. It responds to all property identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfastpropertyhandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 39a216f8-297d-45cc-9bec-4c0ee9941441
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

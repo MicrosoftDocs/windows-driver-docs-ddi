@@ -4,10 +4,10 @@ title: NDIS_SWITCH_REFERENCE_SWITCH_NIC
 author: windows-driver-content
 description: The ReferenceSwitchNic function increments the Hyper-V extensible switch reference counter for a network adapter that is connected to an extensible switch port.
 old-location: netvista\ReferenceSwitchNic.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8F4C76FA-A386-4A3D-8C9F-3CFF69382702
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_NIC, NDIS_SWITCH_REFERENCE_SWITCH_NIC callback, ReferenceSwitchNic, ReferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchNic, netvista.ReferenceSwitchNic
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: ChangerGetParameters function
 author: windows-driver-content
 description: ChangerGetParameters handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PARAMETERS.
 old-location: storage\changergetparameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c1f508a3-6aa8-4fed-af14-6466fcae30da
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

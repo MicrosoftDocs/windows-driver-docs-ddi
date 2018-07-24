@@ -4,10 +4,10 @@ title: IDebugPlmClient3::LaunchAndDebugPlmAppWide
 author: windows-driver-content
 description: Launches and attaches to a Process Lifecycle Management (PLM) application.
 old-location: debugger\idebugplmclient3_launchanddebugplmappwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],LaunchAndDebugPlmAppWide method, IDebugPlmClient3.LaunchAndDebugPlmAppWide, IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, debugger.idebugplmclient3_launchanddebugplmappwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

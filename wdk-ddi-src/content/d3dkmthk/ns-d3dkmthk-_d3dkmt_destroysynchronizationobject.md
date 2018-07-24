@@ -4,10 +4,10 @@ title: "_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 old-location: display\d3dkmt_destroysynchronizationobject.htm
-old-project: display
+tech.root: display
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_ca88b27b-fcac-41f6-bf16-9f26507f4e3f.xml, _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, display.d3dkmt_destroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: WdfRequestGetInformation function
 author: windows-driver-content
 description: The WdfRequestGetInformation method returns completion status information for a specified I/O request.
 old-location: wdf\wdfrequestgetinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fd5f29f7-e9c6-48c4-8704-5db37b8c6337
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

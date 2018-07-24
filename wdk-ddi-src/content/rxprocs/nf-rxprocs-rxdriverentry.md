@@ -4,7 +4,7 @@ title: RxDriverEntry function
 author: windows-driver-content
 description: RxDriverEntry is called by a monolithic network mini-redirector driver from its DriverEntry routine to initialize the RDBSS static library.
 old-location: ifsk\rxdriverentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

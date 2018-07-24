@@ -4,7 +4,7 @@ title: "_QUERY_FILE_LAYOUT_INPUT"
 author: windows-driver-content
 description: The QUERY_FILE_LAYOUT_INPUT structure selects which file layout entries are returned from a FSCTL_QUERY_FILE_LAYOUT request.
 old-location: ifsk\query_file_layout_input.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7404BFC3-8942-4927-9F5B-9FA860F9F95F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

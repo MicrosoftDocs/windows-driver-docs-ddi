@@ -4,7 +4,7 @@ title: FltDeleteVolumeContext function
 author: windows-driver-content
 description: FltDeleteVolumeContext removes a context that a given minifilter driver has set for a given volume and marks the context for deletion.
 old-location: ifsk\fltdeletevolumecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dfb376af-9910-4708-9248-1104dfc4bdec
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

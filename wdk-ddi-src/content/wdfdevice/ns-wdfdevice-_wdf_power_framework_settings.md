@@ -4,7 +4,7 @@ title: "_WDF_POWER_FRAMEWORK_SETTINGS"
 author: windows-driver-content
 description: The WDF_POWER_FRAMEWORK_SETTINGS structure describes power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdf_power_framework_settings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2512682A-4E1C-453F-8C46-E8979E46B8EF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

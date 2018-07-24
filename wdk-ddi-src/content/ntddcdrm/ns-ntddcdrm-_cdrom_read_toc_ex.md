@@ -4,7 +4,7 @@ title: "_CDROM_READ_TOC_EX"
 author: windows-driver-content
 description: When drivers query a target CD-ROM device with IOCTL_CDROM_READ_TOC_EX they must define the query with this structure.
 old-location: storage\cdrom_read_toc_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 17dbc843-dc65-40d7-9cda-916127e4cfa4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

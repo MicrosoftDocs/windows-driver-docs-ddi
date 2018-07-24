@@ -4,7 +4,7 @@ title: KsRemoveSpecificIrpFromCancelableQueue function
 author: windows-driver-content
 description: The KsRemoveSpecificIrpFromCancelableQueue function removes the specified IRP from the specified queue. This is performed on an IRP that was previously acquired using KsRemoveIrpFromCancelableQueue, but that was not actually removed from the queue.
 old-location: stream\ksremovespecificirpfromcancelablequeue.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2d3550c3-4a06-410e-9ec9-fed8b2786092
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

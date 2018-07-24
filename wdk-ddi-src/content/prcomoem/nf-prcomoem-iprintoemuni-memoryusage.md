@@ -4,7 +4,7 @@ title: IPrintOemUni::MemoryUsage
 author: windows-driver-content
 description: The IPrintOemUni::MemoryUsage method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\iprintoemuni_memoryusage.htm
-old-project: print
+tech.root: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

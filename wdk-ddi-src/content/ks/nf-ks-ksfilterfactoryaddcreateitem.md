@@ -4,7 +4,7 @@ title: KsFilterFactoryAddCreateItem function
 author: windows-driver-content
 description: The KsFilterFactoryAddCreateItem function adds a new create item for the specified filter factory.
 old-location: stream\ksfilterfactoryaddcreateitem.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c09840fb-8195-4ac5-a164-ba4d82615344
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

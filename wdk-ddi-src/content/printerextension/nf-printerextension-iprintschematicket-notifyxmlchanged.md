@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::NotifyXmlChanged
 author: windows-driver-content
 description: Notifies the print system that the XML DOM object has changed.
 old-location: print\iprintschematicket_notifyxmlchanged.htm
-old-project: print
+tech.root: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

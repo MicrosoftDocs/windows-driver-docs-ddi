@@ -4,7 +4,7 @@ title: HidRegisterMinidriver function
 author: windows-driver-content
 description: The HidRegisterMinidriver routine is called by HID minidrivers, during their initialization, to register with the HID class driver.
 old-location: hid\hidregisterminidriver.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

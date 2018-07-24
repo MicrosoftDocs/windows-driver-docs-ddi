@@ -4,7 +4,7 @@ title: HBA_FCPTargetMappingV2
 author: windows-driver-content
 description: The HBA_FCPTargetMappingV2 structure contains a variable length array of target mappings.
 old-location: storage\hba_fcptargetmappingv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2c241a38-c6b6-4c77-a8ba-be7ba2a8a701
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

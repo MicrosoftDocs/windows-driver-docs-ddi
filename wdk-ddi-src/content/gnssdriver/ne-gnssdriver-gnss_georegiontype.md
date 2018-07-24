@@ -4,7 +4,7 @@ title: GNSS_GEOREGIONTYPE
 author: windows-driver-content
 description: This enumeration is used for defining a geographical shape. A shape is used to define a geofence. Windows 10 currently only supports circular geofences.
 old-location: gnss\gnss_georegiontype.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 736A1D63-A96E-4E29-ADFD-F441AC4757C6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

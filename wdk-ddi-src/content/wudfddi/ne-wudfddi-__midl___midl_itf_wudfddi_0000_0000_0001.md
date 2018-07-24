@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_wudfddi_0000_0000_0001"
 author: windows-driver-content
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

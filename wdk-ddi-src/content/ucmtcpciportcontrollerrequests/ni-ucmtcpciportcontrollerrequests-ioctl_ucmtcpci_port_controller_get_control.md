@@ -4,10 +4,10 @@ title: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL
 author: windows-driver-content
 description: Gets the values of all control registers defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_get_control.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A7C405C1-D059-41A6-8A3B-B3D2EBACE22D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL control, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL control code [Buses], buses.ioctl_ucmtcpci_port_controller_get_control, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices

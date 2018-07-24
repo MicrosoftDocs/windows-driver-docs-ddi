@@ -4,7 +4,7 @@ title: IWDFDevice::GetPnpState
 author: windows-driver-content
 description: The GetPnpState method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state).
 old-location: wdf\iwdfdevice_getpnpstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

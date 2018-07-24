@@ -4,7 +4,7 @@ title: RtlConvertLongToLuid function
 author: windows-driver-content
 description: The RtlConvertLongToLuid routine converts a long integer to a locally unique identifier (LUID), which is used by the system to represent a security privilege.
 old-location: kernel\rtlconvertlongtoluid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bc03feaf-ee98-4b47-a659-809b5b8b9364
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

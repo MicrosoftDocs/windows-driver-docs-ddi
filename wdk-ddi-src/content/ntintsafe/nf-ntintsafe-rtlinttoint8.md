@@ -4,7 +4,7 @@ title: RtlIntToInt8 function
 author: windows-driver-content
 description: Converts a value of type INT to a value of type INT8.
 old-location: kernel\rtlinttoint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ABE24C02-22C3-4F0A-B874-3079F70CA748
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

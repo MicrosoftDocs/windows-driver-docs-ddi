@@ -4,7 +4,7 @@ title: "_WIM_PROVIDER_ADD_OVERLAY_INPUT"
 author: windows-driver-content
 description: A new Windows Image File (WIM) data source is added to the WIM provider with the WIM_PROVIDER_ADD_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_add_overlay_input.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 75C95941-367D-4A7F-A121-AF2BF9EFE28E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

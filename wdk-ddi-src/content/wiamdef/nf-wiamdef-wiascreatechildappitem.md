@@ -4,10 +4,10 @@ title: wiasCreateChildAppItem function
 author: windows-driver-content
 description: The wiasCreateChildAppItem function creates a new application item and inserts it as a child of the specified (parent) item. Note that this item will not have any properties in its property sets until the driver or application actually fills them in.
 old-location: image\wiascreatechildappitem.htm
-old-project: image
+tech.root: image
 ms.assetid: 1dba59b0-5eac-4507-bd42-517a856aa864
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiascreatechildappitem, wiamdef/wiasCreateChildAppItem, wiasCreateChildAppItem, wiasCreateChildAppItem function [Imaging Devices], wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

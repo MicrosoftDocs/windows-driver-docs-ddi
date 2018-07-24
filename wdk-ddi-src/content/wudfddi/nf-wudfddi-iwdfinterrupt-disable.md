@@ -4,7 +4,7 @@ title: IWDFInterrupt::Disable
 author: windows-driver-content
 description: The Disable method disables a specified device interrupt by calling the driver's OnInterruptDisable callback function.
 old-location: wdf\iwdfinterrupt_disable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

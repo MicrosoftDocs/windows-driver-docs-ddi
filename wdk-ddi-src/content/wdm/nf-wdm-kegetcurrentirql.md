@@ -4,7 +4,7 @@ title: KeGetCurrentIrql function
 author: windows-driver-content
 description: The KeGetCurrentIrql routine returns the current IRQL.
 old-location: kernel\kegetcurrentirql.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 63c33017-d827-4a8f-bb6f-fd13a2528e0c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

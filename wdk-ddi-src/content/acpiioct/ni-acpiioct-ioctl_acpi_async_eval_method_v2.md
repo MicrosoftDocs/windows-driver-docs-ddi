@@ -4,7 +4,7 @@ title: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2
 author: windows-driver-content
 description: The IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 control code asynchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_async_eval_method_v2.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: B502D754-9768-4AA5-AD94-1E99290DA924
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

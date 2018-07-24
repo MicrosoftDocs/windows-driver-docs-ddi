@@ -4,7 +4,7 @@ title: GetPrintOutputInfo function
 author: windows-driver-content
 description: "."
 old-location: print\getprintoutputinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

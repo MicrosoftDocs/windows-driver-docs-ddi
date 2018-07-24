@@ -4,10 +4,10 @@ title: "_D3DKMT_CREATESYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: The D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure describes a synchronization object that the D3DKMTCreateSynchronizationObject2 function creates.
 old-location: display\d3dkmt_createsynchronizationobject2.htm
-old-project: display
+tech.root: display
 ms.assetid: fa5cf57e-826b-43f6-881d-caf2aecb2dde
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT2, D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_a2f18286-355e-4a93-9692-344fbb2bd5a2.xml, _D3DKMT_CREATESYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT2, display.d3dkmt_createsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices

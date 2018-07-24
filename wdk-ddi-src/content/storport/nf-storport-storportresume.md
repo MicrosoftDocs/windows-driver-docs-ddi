@@ -4,7 +4,7 @@ title: StorPortResume function
 author: windows-driver-content
 description: The StorPortResume routine resumes a paused adapter.
 old-location: storage\storportresume.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2a1e380b-ddad-495b-a921-ebd85525d1a6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

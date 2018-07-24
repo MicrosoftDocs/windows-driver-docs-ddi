@@ -4,7 +4,7 @@ title: "_CONTROLLER_OBJECT"
 author: windows-driver-content
 description: A controller object represents a hardware adapter or controller with homogenous devices that are the actual targets for I/O requests.
 old-location: kernel\controller_object.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a5530901-e48c-4f4e-86a8-00d5ed01f933
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

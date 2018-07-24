@@ -4,10 +4,10 @@ title: PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES
 author: windows-driver-content
 description: The FreeStackSymFrames callback function frees memory from a stack provider.
 old-location: debugger\freestacksymframes.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 ms.prod: windows-hardware
 ms.technology: windows-devices

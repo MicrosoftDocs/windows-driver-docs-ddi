@@ -4,7 +4,7 @@ title: MmAdvanceMdl function
 author: windows-driver-content
 description: The MmAdvanceMdl routine advances the beginning of an MDL's virtual memory range by the specified number of bytes.
 old-location: kernel\mmadvancemdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 93e84c80-d671-4f04-8532-6c374e1ae72b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

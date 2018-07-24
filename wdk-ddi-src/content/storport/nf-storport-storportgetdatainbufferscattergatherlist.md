@@ -4,7 +4,7 @@ title: StorPortGetDataInBufferScatterGatherList function
 author: windows-driver-content
 description: Returns the scatter-gather list associated with the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbufferscattergatherlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

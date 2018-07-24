@@ -4,7 +4,7 @@ title: RtlAddAce function
 author: windows-driver-content
 description: The RtlAddAce routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: ifsk\rtladdace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

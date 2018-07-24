@@ -4,7 +4,7 @@ title: PCI_MSIX_MASKUNMASK_ENTRY
 author: windows-driver-content
 description: The MaskTableEntry routine masks an interrupt in the MSI-X hardware interrupt table.
 old-location: kernel\masktableentry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ADD9AA38-594D-413A-BE8B-BCC6B62EAA8E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: PshedFreeMemory function
 author: windows-driver-content
 description: The PshedFreeMemory function frees a block of memory that was previously allocated by calling the PshedAllocateMemory function.
 old-location: whea\pshedfreememory.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

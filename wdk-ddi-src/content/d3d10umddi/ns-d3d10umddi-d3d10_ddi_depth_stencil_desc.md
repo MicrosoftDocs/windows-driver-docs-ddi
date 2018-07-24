@@ -4,10 +4,10 @@ title: D3D10_DDI_DEPTH_STENCIL_DESC
 author: windows-driver-content
 description: The D3D10_DDI_DEPTH_STENCIL_DESC structure describes a depth stencil state.
 old-location: display\d3d10_ddi_depth_stencil_desc.htm
-old-project: display
+tech.root: display
 ms.assetid: d1043d5b-6f2c-4c2f-894a-ae6870865257
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10_DDI_DEPTH_STENCIL_DESC, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

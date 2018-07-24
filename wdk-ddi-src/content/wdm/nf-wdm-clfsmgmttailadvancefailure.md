@@ -4,7 +4,7 @@ title: ClfsMgmtTailAdvanceFailure function
 author: windows-driver-content
 description: The ClfsMgmtTailAdvanceFailure routine notifies CLFS management that the client could not advance the log's tail.
 old-location: kernel\clfsmgmttailadvancefailure.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21a2f593-716a-434a-922c-23544ddb0122
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

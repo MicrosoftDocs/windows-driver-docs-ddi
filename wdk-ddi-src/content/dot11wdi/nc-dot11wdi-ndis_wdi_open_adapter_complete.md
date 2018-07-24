@@ -4,10 +4,10 @@ title: NDIS_WDI_OPEN_ADAPTER_COMPLETE
 author: windows-driver-content
 description: The NdisWdiOpenAdapterComplete callback function is called by the IHV when an Open Task operation from MiniportWdiOpenAdapter has been successfully started.
 old-location: netvista\ndiswdiopenadaptercomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: FD6FF134-A8D7-433E-9353-88965E67749E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_OPEN_ADAPTER_COMPLETE, NDIS_WDI_OPEN_ADAPTER_COMPLETE callback, NdisWdiOpenAdapterComplete, NdisWdiOpenAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiOpenAdapterComplete, netvista.ndiswdiopenadaptercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

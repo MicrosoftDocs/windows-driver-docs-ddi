@@ -4,7 +4,7 @@ title: WUDF_INTERRUPT_DISABLE
 author: windows-driver-content
 description: A driver's OnInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\oninterruptdisable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

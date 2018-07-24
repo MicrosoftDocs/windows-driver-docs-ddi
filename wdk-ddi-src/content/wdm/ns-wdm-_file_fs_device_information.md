@@ -4,7 +4,7 @@ title: "_FILE_FS_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_DEVICE_INFORMATION structure provides file system device information about the type of device object associated with a file object.
 old-location: kernel\file_fs_device_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0849bbc2-cfc7-4437-896d-3f46e8f6461a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

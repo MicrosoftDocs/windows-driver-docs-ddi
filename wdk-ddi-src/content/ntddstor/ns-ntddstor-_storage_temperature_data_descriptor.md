@@ -4,7 +4,7 @@ title: "_STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
 author: windows-driver-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return temperature data from a storage device or adapter.
 old-location: storage\storage_temperature_data_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A6041B10-0296-4A96-B65C-C35B8DCB2B5D
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

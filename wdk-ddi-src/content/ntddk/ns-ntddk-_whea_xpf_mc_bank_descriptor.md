@@ -4,7 +4,7 @@ title: "_WHEA_XPF_MC_BANK_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_XPF_MC_BANK_DESCRIPTOR structure describes a bank of machine check registers for an x86 or x64 processor.
 old-location: whea\whea_xpf_mc_bank_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e5360f75-53cf-4025-9a1c-665c098329dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

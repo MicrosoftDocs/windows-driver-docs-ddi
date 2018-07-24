@@ -4,7 +4,7 @@ title: ITracer
 author: windows-driver-content
 description: The ITracer interface enables individual instances of every WDTF interface to determine the specific tracing settings for a given implementation coclass. These settings are recorded in the registry.
 old-location: dtf\itracer.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

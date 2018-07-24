@@ -4,7 +4,7 @@ title: IKsNotifyEvent::KsNotifyEvent
 author: windows-driver-content
 description: The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs.
 old-location: stream\iksnotifyevent_ksnotifyevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

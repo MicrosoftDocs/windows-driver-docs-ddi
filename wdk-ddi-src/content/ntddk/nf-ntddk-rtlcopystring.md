@@ -4,7 +4,7 @@ title: RtlCopyString function
 author: windows-driver-content
 description: The RtlCopyString routine copies a source string to a destination string.
 old-location: kernel\rtlcopystring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

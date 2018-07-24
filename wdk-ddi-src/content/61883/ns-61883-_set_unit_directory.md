@@ -4,7 +4,7 @@ title: "_SET_UNIT_DIRECTORY"
 author: windows-driver-content
 description: This structure is used to assign settings for a unit directory.
 old-location: ieee\set_unit_directory.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: C4021856-835D-4B4B-9795-4FEEEFAC06B8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

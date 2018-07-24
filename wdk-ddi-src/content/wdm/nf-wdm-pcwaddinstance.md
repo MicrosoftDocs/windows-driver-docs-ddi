@@ -4,7 +4,7 @@ title: PcwAddInstance function
 author: windows-driver-content
 description: The PcwAddInstance function adds the specified instance of the counter set to the consumer buffer.
 old-location: devtest\pcwaddinstance.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

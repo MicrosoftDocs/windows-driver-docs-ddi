@@ -4,7 +4,7 @@ title: KsFreeObjectCreateItemsByContext function
 author: windows-driver-content
 description: Frees all create items with a specific context.
 old-location: stream\ksfreeobjectcreateitemsbycontext.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 70c2942d-1225-4a50-b734-27995b4481d1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

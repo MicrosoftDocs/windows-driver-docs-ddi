@@ -4,7 +4,7 @@ title: RtlCharToInteger function
 author: windows-driver-content
 description: The RtlCharToInteger routine converts a single-byte character string to an integer value in the specified base.
 old-location: kernel\rtlchartointeger.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDFDevice2
 author: windows-driver-content
 description: Drivers obtain the IWDFDevice2 interface by calling IWDFDevice::QueryInterface.
 old-location: wdf\iwdfdevice2.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f4d3d2cf-8877-4071-8e75-f971803beca4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

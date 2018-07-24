@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::get_IsRestarted
 author: windows-driver-content
 description: Gets a value that indicates whether the test script restarted as a result of a call to RebootRestart or RebootRestartWithContext.
 old-location: dtf\iwdtfsystemaction2_isrestarted.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: EF89D020-BA9F-4698-B82A-7671DBE3FDE8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

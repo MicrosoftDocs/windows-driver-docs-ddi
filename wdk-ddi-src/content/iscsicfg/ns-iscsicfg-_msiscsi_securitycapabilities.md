@@ -4,7 +4,7 @@ title: "_MSiSCSI_SecurityCapabilities"
 author: windows-driver-content
 description: The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator.
 old-location: storage\msiscsi_securitycapabilities.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

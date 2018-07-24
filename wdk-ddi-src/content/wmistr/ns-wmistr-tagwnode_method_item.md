@@ -4,7 +4,7 @@ title: tagWNODE_METHOD_ITEM
 author: windows-driver-content
 description: The WNODE_METHOD_ITEM structure indicates a method associated with an instance of a data block and contains any input data for the method.
 old-location: kernel\wnode_method_item.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c5e1af58-a00d-4801-b591-fc9ec9b50502
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

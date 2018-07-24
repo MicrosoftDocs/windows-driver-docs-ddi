@@ -4,7 +4,7 @@ title: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 author: windows-driver-content
 description: A driver's OnRemoteInterfaceArrival event callback function informs the driver when a device interface is available.
 old-location: wdf\ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IWDTFNumbers2::get_Count
 author: windows-driver-content
 description: Gets the number of numbers in the collection.
 old-location: dtf\iwdtfnumbers2_count.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2802d99c-1139-4a24-a752-91a28e6033e9
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

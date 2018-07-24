@@ -4,7 +4,7 @@ title: IQueueCallbackWrite
 author: windows-driver-content
 description: An I/O queue object notifies a driver when a write request is available for the driver.
 old-location: wdf\iqueuecallbackwrite.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8b44e1e1-c648-4eec-bb3e-ab327dc08f98
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

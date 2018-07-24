@@ -4,7 +4,7 @@ title: PBUILD_SCATTER_GATHER_LIST_EX
 author: windows-driver-content
 description: The BuildScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer.
 old-location: kernel\buildscattergatherlistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A1A89D52-5F39-45E4-AFBE-20DAD0E49442
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_DSM_VERSION"
 author: windows-driver-content
 description: The DSM_VERSION structure represents version information that is associated with a DSM binary or package.
 old-location: storage\dsm_version.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1aa264fa-b552-41a0-bd43-a62f8f2b533b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

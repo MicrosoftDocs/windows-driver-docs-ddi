@@ -4,7 +4,7 @@ title: "_SDCMD_DESCRIPTOR"
 author: windows-driver-content
 description: The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
 old-location: sd\sdcmd_descriptor.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_INTERNAL_SET_VERIFY
 author: windows-driver-content
 description: Allows a driver to set the verify bit on a disk device object if the mode of the caller is kernel mode.
 old-location: storage\ioctl_disk_internal_set_verify.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ddfca68f-142e-4e6a-9307-04a3136a4135
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

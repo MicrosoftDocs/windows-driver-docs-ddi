@@ -4,7 +4,7 @@ title: "_IO_ADDRESS"
 author: windows-driver-content
 description: The IO_ADDRESS structure specifies the 1394 64-bit destination address for read, write and lock operations.
 old-location: ieee\io_address.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: db703d46-d37f-442a-a543-ce9e9c5ea3cb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

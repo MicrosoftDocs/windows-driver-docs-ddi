@@ -4,7 +4,7 @@ title: HBA_MgmtInfo
 author: windows-driver-content
 description: The HBA_MgmtInfo structure is used in conjunction with the HBA_SetRNIDMgmtInfo routine to program the HBA to return the indicated request node identification information data (RNID).
 old-location: storage\hba_mgmtinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

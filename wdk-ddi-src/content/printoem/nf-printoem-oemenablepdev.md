@@ -4,7 +4,7 @@ title: OEMEnablePDEV function
 author: windows-driver-content
 description: OEMEnablePDEV function
 old-location: print\oemenablepdev.htm
-old-project: print
+tech.root: print
 ms.assetid: 0088f5f6-eb68-4081-8cca-3d34fd10593a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

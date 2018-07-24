@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::PowerAnalyzeTraceByFile
 author: windows-driver-content
 description: Analyzes a power trace session that has already been collected and stored in the associated trace message (.etl) log file. This method will only work on Windows 8 and above.
 old-location: dtf\iwdtfsystemaction2_poweranalyzetracebyfile.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: B8C422C0-7E42-4BE7-8919-A4ABF33E8D5E
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

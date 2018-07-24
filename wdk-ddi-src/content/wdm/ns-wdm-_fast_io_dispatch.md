@@ -4,7 +4,7 @@ title: "_FAST_IO_DISPATCH"
 author: windows-driver-content
 description: Contains a set of callback routines that a file system driver or file system filter driver (legacy) provides for fast I/O processing.
 old-location: ifsk\fast_io_dispatch.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

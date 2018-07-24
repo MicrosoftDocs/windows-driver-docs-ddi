@@ -4,7 +4,7 @@ title: PCMP_NOTIFY_ROUTINE
 author: windows-driver-content
 description: This routine is called for plug notification.
 old-location: ieee\pcmp_notify_routine.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

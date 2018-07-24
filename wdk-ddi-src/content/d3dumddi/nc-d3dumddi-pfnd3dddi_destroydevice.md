@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYDEVICE
 author: windows-driver-content
 description: The DestroyDevice function destroys a graphics context.
 old-location: display\destroydevice.htm
-old-project: display
+tech.root: display
 ms.assetid: a3c158c2-6c0d-4da0-80f4-569971b10673
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3DDDI_DESTROYDEVICE, PFND3DDDI_DESTROYDEVICE callback, UserModeDisplayDriver_Functions_4d34f924-8742-4957-b3f0-d4a63d338ada.xml, d3dumddi/DestroyDevice, display.destroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

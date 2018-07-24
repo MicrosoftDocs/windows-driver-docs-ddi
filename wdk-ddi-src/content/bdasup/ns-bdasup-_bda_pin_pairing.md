@@ -4,7 +4,7 @@ title: "_BDA_PIN_PAIRING"
 author: windows-driver-content
 description: The BDA_PIN_PAIRING structure describes the topology between a pair of input and output pins.
 old-location: stream\bda_pin_pairing.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

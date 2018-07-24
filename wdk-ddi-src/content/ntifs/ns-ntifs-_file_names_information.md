@@ -4,7 +4,7 @@ title: "_FILE_NAMES_INFORMATION"
 author: windows-driver-content
 description: A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory.
 old-location: ifsk\file_names_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a9eb4606-fe55-4f77-914a-656ebe247066
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

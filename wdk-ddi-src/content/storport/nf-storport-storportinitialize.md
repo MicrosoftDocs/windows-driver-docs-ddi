@@ -4,7 +4,7 @@ title: StorPortInitialize function
 author: windows-driver-content
 description: The StorPortInitilize routine initializes the port driver parameters and extension data. StorPortInitilize also saves the adapter information provided from the miniport driver.
 old-location: storage\storportinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

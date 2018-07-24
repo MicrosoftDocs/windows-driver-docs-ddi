@@ -4,7 +4,7 @@ title: IsReparseTagValid macro
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\isreparsetagvalid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 080ed6f9-2a66-4946-9497-3a0b0bca8c6d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

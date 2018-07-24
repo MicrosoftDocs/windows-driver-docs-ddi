@@ -4,7 +4,7 @@ title: WdfDeviceWdmGetPhysicalDevice function
 author: windows-driver-content
 description: The WdfDeviceWdmGetPhysicalDevice method retrieves the physical device's WDM PDO from the device stack.
 old-location: wdf\wdfdevicewdmgetphysicaldevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 88bd9cc7-6769-4fdf-b149-2193d765fc6c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

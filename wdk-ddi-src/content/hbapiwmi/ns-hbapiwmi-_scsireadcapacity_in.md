@@ -4,7 +4,7 @@ title: "_ScsiReadCapacity_IN"
 author: windows-driver-content
 description: The ScsiReadCapacity_IN structure is used to deliver input parameter data to the ScsiReadCapacity WMI method.
 old-location: storage\scsireadcapacity_in2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

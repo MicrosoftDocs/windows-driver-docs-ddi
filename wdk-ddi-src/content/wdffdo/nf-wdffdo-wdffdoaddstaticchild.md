@@ -4,7 +4,7 @@ title: WdfFdoAddStaticChild function
 author: windows-driver-content
 description: The WdfFdoAddStaticChild method adds a specified device to a function driver's list of child devices that have been identified by static enumeration.
 old-location: wdf\wdffdoaddstaticchild.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3e1c4469-7ae2-4ac8-8dfe-ff8c4cae3d20
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

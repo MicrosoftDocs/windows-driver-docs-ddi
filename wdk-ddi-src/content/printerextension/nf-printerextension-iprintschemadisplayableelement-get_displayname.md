@@ -4,7 +4,7 @@ title: IPrintSchemaDisplayableElement::get_DisplayName
 author: windows-driver-content
 description: Gets a displayable string for this item.
 old-location: print\iprintschemadisplayableelement_displayname.htm
-old-project: print
+tech.root: print
 ms.assetid: 8DF71F10-1043-47E8-98E0-BB100B2AAF26
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

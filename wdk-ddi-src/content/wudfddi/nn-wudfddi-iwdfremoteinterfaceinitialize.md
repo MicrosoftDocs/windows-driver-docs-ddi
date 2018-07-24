@@ -4,7 +4,7 @@ title: IWDFRemoteInterfaceInitialize
 author: windows-driver-content
 description: UMDF-based drivers receive the IWDFRemoteInterfaceInitialize interface as input to an IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival callback function.
 old-location: wdf\iwdfremoteinterfaceinitialize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 54954874-d67a-4e8b-b791-105e8018f8ca
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

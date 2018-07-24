@@ -4,7 +4,7 @@ title: IOCTL_AACS_READ_MEDIA_KEY_BLOCK
 author: windows-driver-content
 description: Queries the logical unit for the Media Key Block (MKB).
 old-location: storage\ioctl_aacs_read_media_key_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 08852f41-1836-4c55-bf6f-0246caa2c8bd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

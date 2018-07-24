@@ -4,7 +4,7 @@ title: "_PEP_WORK_ACPI_NOTIFY"
 author: windows-driver-content
 description: The PEP_WORK_ACPI_NOTIFY structure contains the ACPI Notify code for a device that has generated a hardware event.
 old-location: kernel\pep_work_acpi_notify.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

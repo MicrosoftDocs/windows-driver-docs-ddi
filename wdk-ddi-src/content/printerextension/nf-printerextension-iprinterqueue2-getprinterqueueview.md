@@ -4,7 +4,7 @@ title: IPrinterQueue2::GetPrinterQueueView
 author: windows-driver-content
 description: Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored.
 old-location: print\iprinterqueue2_getprinterqueueview.htm
-old-project: print
+tech.root: print
 ms.assetid: C565288C-B014-4A92-9F50-1641EAA30D22
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

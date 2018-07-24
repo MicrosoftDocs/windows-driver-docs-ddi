@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_UART_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_spb_uart_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

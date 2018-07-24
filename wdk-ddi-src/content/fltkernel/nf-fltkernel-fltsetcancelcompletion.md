@@ -4,7 +4,7 @@ title: FltSetCancelCompletion function
 author: windows-driver-content
 description: A minifilter driver calls FltSetCancelCompletion to specify a cancel routine to be called if a given I/O operation is canceled.
 old-location: ifsk\fltsetcancelcompletion.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3f15d3b2-321d-45ca-8fe4-d8706fe61d48
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: CcWaitForCurrentLazyWriterActivity function
 author: windows-driver-content
 description: The CcWaitForCurrentLazyWriterActivity routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 old-location: ifsk\ccwaitforcurrentlazywriteractivity.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: eda2198d-d9c9-498a-b94f-5ebdaae417be
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

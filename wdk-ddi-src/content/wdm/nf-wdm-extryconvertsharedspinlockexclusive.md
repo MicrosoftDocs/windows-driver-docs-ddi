@@ -4,7 +4,7 @@ title: ExTryConvertSharedSpinLockExclusive function
 author: windows-driver-content
 description: The ExTryConvertSharedSpinLockExclusive routine attempts to convert the access state of a spin lock from acquired for shared access to exclusive access.
 old-location: kernel\extryconvertsharedspinlockexclusive_.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6B97865A-D589-4116-8492-109BEEE93ECA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

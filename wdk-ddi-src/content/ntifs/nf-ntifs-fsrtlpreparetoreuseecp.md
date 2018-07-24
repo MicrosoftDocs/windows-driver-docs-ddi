@@ -4,7 +4,7 @@ title: FsRtlPrepareToReuseEcp function
 author: windows-driver-content
 description: The FsRtlPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.
 old-location: ifsk\fsrtlpreparetoreuseecp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 88967BD6-C633-40D0-BE4F-2B08494EA5B0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

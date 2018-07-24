@@ -4,7 +4,7 @@ title: "_DEVICEPROPERTYHEADER"
 author: windows-driver-content
 description: The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDevicePropertySheets function.
 old-location: print\devicepropertyheader.htm
-old-project: print
+tech.root: print
 ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

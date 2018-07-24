@@ -4,7 +4,7 @@ title: RtlCreateSecurityDescriptorRelative function
 author: windows-driver-content
 description: The RtlCreateSecurityDescriptorRelative routine initializes a new security descriptor in self-relative format.
 old-location: ifsk\rtlcreatesecuritydescriptorrelative.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: feb9600a-e8ce-449a-8da8-2d9a2f10f581
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PEP_PERF_STATE"
 author: windows-driver-content
 description: The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values.
 old-location: kernel\pep_perf_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D5C9EF42-B6FE-4472-8188-2B23F87FA475
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

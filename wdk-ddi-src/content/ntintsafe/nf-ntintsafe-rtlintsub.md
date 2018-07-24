@@ -4,7 +4,7 @@ title: RtlIntSub function
 author: windows-driver-content
 description: Subtracts one value of type INT from another.
 old-location: kernel\rtlintsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 68BBD6B8-5C7C-4FE5-97F7-473A9510400F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

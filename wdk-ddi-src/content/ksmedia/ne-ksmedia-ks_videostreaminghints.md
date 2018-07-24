@@ -4,7 +4,7 @@ title: KS_VideoStreamingHints
 author: windows-driver-content
 description: The KS_VideoStreamingHints enumeration defines video compression hints.
 old-location: stream\ks_videostreaminghints.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 06f26404-c955-4034-8dd3-ad641c7b8010
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

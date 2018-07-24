@@ -4,7 +4,7 @@ title: AtaPortInitializeEx function
 author: windows-driver-content
 description: The AtaPortInitializeEx ATA port driver library routine initializes the port and miniport drivers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportinitializeex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

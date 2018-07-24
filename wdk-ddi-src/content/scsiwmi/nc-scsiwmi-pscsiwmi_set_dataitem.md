@@ -4,7 +4,7 @@ title: PSCSIWMI_SET_DATAITEM
 author: windows-driver-content
 description: A miniport driver's HwScsiWmiSetDataItem routine is called to change a single data item in an instance of a data block.
 old-location: storage\hwscsiwmisetdataitem.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 24b8415e-4326-4aef-bcbb-fabffa25c7d6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

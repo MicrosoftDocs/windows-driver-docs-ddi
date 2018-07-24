@@ -4,7 +4,7 @@ title: IoCreateDevice function
 author: windows-driver-content
 description: The IoCreateDevice routine creates a device object for use by a driver.
 old-location: kernel\iocreatedevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

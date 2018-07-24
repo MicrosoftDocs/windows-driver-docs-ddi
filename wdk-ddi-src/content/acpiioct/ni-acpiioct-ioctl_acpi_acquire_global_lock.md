@@ -4,7 +4,7 @@ title: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 author: windows-driver-content
 description: The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for internal use only.
 old-location: acpi\ioctl_acpi_acquire_global_lock.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 359bd4d4-2557-4755-8904-32162645cdc0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

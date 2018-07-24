@@ -4,7 +4,7 @@ title: IWDFIoRequest2::RetrieveOutputBuffer
 author: windows-driver-content
 description: The RequestRetrieveOutputBuffer method retrieves an I/O request's output buffer.
 old-location: wdf\iwdfiorequest2_retrieveoutputbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c2c96663-df1b-4310-b51e-177e353bb059
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: RtlSecureZeroMemory function
 author: windows-driver-content
 description: The RtlSecureZeroMemory routine fills a block of memory with zeros in a way that is guaranteed to be secure.
 old-location: kernel\rtlsecurezeromemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

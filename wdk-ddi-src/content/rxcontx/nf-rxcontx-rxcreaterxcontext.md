@@ -4,7 +4,7 @@ title: RxCreateRxContext function
 author: windows-driver-content
 description: RxCreateRxContext allocates a new RX_CONTEXT structure and initializes the data structure.
 old-location: ifsk\rxcreaterxcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

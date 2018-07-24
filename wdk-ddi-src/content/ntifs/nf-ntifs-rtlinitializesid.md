@@ -4,7 +4,7 @@ title: RtlInitializeSid function
 author: windows-driver-content
 description: The RtlInitializeSid routine initializes a security identifier (SID) structure.
 old-location: ifsk\rtlinitializesid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6b87483f-8d5e-4e1d-839d-2271990dcbaa
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IWDFIoQueue::Start
 author: windows-driver-content
 description: The Start method enables an I/O queue to start receiving new I/O requests and delivering them to a driver.
 old-location: wdf\iwdfioqueue_start.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3e7d8dd5-4336-472e-a71f-8abb946af8be
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

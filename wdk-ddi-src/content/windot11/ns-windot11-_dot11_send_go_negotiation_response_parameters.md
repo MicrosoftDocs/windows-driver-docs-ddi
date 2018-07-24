@@ -4,7 +4,7 @@ title: "_DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
 author: windows-driver-content
 description: The parameters for a response to a Group Owner (GO) negotiation request are specified in a DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_INVITATION_RESPONSE request to the miniport.
 old-location: netvista\dot11_send_go_negotiation_response_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: F5EC240C-6438-477C-A5D3-B018B52AC4F0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -119,7 +119,7 @@ The dialog token received from the GO negotiation request packet. This dialog to
 
 ### -field RequestContext
 
- 
+
 
 
 ### -field uSendTimeout

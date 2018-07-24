@@ -4,7 +4,7 @@ title: IoDeleteDevice function
 author: windows-driver-content
 description: The IoDeleteDevice routine removes a device object from the system, for example, when the underlying device is removed from the system.
 old-location: kernel\iodeletedevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

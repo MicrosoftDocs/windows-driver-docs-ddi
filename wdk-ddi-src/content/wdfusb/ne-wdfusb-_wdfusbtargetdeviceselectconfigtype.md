@@ -4,7 +4,7 @@ title: "_WdfUsbTargetDeviceSelectConfigType"
 author: windows-driver-content
 description: The WdfUsbTargetDeviceSelectConfigType enumeration defines types of configuration operations for USB devices.
 old-location: wdf\wdfusbtargetdeviceselectconfigtype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d3637f5e-d4c1-430c-8511-8aac18fceee2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

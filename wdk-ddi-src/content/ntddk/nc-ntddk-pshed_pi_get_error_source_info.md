@@ -4,7 +4,7 @@ title: PSHED_PI_GET_ERROR_SOURCE_INFO
 author: windows-driver-content
 description: A PSHED plug-in's GetErrorSourceInfo callback function returns an error source descriptor structure that represents a particular error source that is implemented by the hardware platform.
 old-location: whea\geterrorsourceinfo.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 8ede391a-acda-4540-a8bb-1b232695d632
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

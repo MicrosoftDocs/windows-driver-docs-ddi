@@ -4,7 +4,7 @@ title: GPIO_CLIENT_UNMASK_INTERRUPT
 author: windows-driver-content
 description: The CLIENT_UnmaskInterrupt event callback function unmasks the interrupt on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
 old-location: gpio\client_unmaskinterrupt.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 7A97B3B2-2B7B-4661-8C0D-C2234F796EA8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

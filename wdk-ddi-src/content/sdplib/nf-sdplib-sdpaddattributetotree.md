@@ -4,7 +4,7 @@ title: SdpAddAttributeToTree function
 author: windows-driver-content
 description: The Bluetooth SdpAddAttributeToTree function is used to attach an SDP attribute node to the top level of an SDP record.
 old-location: bltooth\sdpaddattributetotree.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: "_WDF_IO_TARGET_PURGE_IO_ACTION"
 author: windows-driver-content
 description: The WDF_IO_TARGET_PURGE_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetPurge to purge an I/O target.
 old-location: wdf\wdf_io_target_purge_io_action.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

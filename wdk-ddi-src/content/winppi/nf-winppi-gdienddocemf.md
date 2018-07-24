@@ -4,7 +4,7 @@ title: GdiEndDocEMF function
 author: windows-driver-content
 description: The GdiEndDocEMF function ends EMF playback operations for an EMF-formatted print job.
 old-location: print\gdienddocemf.htm
-old-project: print
+tech.root: print
 ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

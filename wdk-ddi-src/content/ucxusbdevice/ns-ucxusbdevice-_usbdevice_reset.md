@@ -4,10 +4,10 @@ title: "_USBDEVICE_RESET"
 author: windows-driver-content
 description: Contains parameters for a request to reset the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_RESET callback function.
 old-location: buses\_usbdevice_reset.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 4C07239D-89AE-4A9F-B7EB-CFFE6D47F10B
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBDEVICE_RESET, P_USBDEVICE_RESET, P_USBDEVICE_RESET structure pointer [Buses], USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], _USBDEVICE_RESET, buses._usbdevice_reset, ucxusbdevice/P_USBDEVICE_RESET, ucxusbdevice/_USBDEVICE_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

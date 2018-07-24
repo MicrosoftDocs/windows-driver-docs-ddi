@@ -4,7 +4,7 @@ title: IPrintOemUni::DownloadCharGlyph
 author: windows-driver-content
 description: The IPrintOemUni::DownloadCharGlyph method enables a rendering plug-in for Unidrv to send a character glyph for a specified soft font to the printer.
 old-location: print\iprintoemuni_downloadcharglyph.htm
-old-project: print
+tech.root: print
 ms.assetid: 1ce7ebaa-759e-418a-af07-e530b1102567
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

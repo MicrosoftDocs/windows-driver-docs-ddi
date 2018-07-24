@@ -4,7 +4,7 @@ title: ExIsSoftBoot function
 author: windows-driver-content
 description: Determines whether the system has gone through a soft restart.
 old-location: kernel\exissoftboot.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ff67bc75-b424-4278-b979-f67d118232aa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

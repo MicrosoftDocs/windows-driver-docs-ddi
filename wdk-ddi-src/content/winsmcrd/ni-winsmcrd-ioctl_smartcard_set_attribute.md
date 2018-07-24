@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_SET_ATTRIBUTE
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_SET_ATTRIBUTE control code sets an attribute and returns STATUS_SUCCESS on SCARD_ATTR_DEVICE_IN_USE; otherwise, it returns STATUS_NOT_SUPPORTED.
 old-location: nfpdrivers\ioctl_smartcard_set_attribute.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 48B5F00C-1DDD-488C-8269-E52DF366D552
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

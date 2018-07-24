@@ -4,7 +4,7 @@ title: KeDeregisterNmiCallback function
 author: windows-driver-content
 description: The KeDeregisterNmiCallback routine deregisters a nonmaskable interrupt (NMI) callback registered by KeRegisterNmiCallback.
 old-location: kernel\kederegisternmicallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

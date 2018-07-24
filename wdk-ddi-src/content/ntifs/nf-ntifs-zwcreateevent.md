@@ -4,7 +4,7 @@ title: ZwCreateEvent function
 author: windows-driver-content
 description: The ZwCreateEvent routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
 old-location: kernel\zwcreateevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

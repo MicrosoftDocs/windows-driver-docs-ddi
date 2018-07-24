@@ -4,7 +4,7 @@ title: "_BRB_PSM"
 author: windows-driver-content
 description: The _BRB_PSM structure describes a Protocol/Service Multiplexer (PSM) to register or unregister.
 old-location: bltooth\_brb_psm.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 893edad2-8419-4c93-bf0b-2cca8ca5a2f6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

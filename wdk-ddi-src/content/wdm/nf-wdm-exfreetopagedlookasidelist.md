@@ -4,7 +4,7 @@ title: ExFreeToPagedLookasideList function
 author: windows-driver-content
 description: The ExFreeToPagedLookasideList routine returns a pageable entry to the given lookaside list or to paged pool.
 old-location: kernel\exfreetopagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b986c7a9-8daa-4957-ad64-2a1f59ed3c68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

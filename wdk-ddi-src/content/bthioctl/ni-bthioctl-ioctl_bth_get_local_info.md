@@ -4,7 +4,7 @@ title: IOCTL_BTH_GET_LOCAL_INFO
 author: windows-driver-content
 description: The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and radio.
 old-location: bltooth\ioctl_bth_get_local_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 0eaee91f-c3d1-4715-9d7a-15dc3935eb36
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

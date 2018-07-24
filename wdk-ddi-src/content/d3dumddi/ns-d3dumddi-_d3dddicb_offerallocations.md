@@ -4,10 +4,10 @@ title: "_D3DDDICB_OFFERALLOCATIONS"
 author: windows-driver-content
 description: Defines the video memory allocations that the driver offers for reuse. Used with the pfnOfferAllocationsCb function.
 old-location: display\d3dddicb_offerallocations.htm
-old-project: display
+tech.root: display
 ms.assetid: 26f3cd7b-ae2e-4632-bfb2-e62839346f83
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, d3dumddi/D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices

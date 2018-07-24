@@ -4,7 +4,7 @@ title: IWDFDevice::CreateWdfFile
 author: windows-driver-content
 description: The CreateWdfFile method creates a file object for a driver to use.
 old-location: wdf\iwdfdevice_createwdffile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_SECURITY_SUBJECT_CONTEXT"
 author: windows-driver-content
 description: The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
 old-location: ifsk\security_subject_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c9879df5-38e9-4a9f-8196-8485e85b2933
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

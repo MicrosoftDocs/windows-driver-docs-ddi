@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_SOURCE_STATE"
 author: windows-driver-content
 description: The WHEA_ERROR_SOURCE_STATE enumeration defines the different runtime states for an error source.
 old-location: whea\whea_error_source_state.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

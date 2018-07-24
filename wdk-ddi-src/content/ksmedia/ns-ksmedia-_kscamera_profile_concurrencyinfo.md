@@ -4,7 +4,7 @@ title: "_KSCAMERA_PROFILE_CONCURRENCYINFO"
 author: windows-driver-content
 description: An array of KSCAMERA_PROFILE_CONCURRENCYINFO structures form the Camera.Concurrency parameter of the KSDEVICE_PROFILE_INFO structure (whose array size is specified by Camera.CountOfConcurrency parameter) indicating which profiles the profile identified in the KSCAMERA_PROFILE_INFO structure may run simultaneously on different cameras.
 old-location: stream\kscamera_profile_concurrencyinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4E0A9CE6-2FA0-46A5-B478-C088E5FF1BAD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

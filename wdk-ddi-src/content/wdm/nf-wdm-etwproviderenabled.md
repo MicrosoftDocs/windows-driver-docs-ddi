@@ -4,7 +4,7 @@ title: EtwProviderEnabled function
 author: windows-driver-content
 description: The EtwProviderEnabled function verifies that a provider is enabled for event logging at a specified level and keyword.
 old-location: devtest\etwproviderenabled.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 28b0a40e-e8e8-4953-8a3a-f3f1b58ad80f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

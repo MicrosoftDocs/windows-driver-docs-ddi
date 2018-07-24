@@ -4,7 +4,7 @@ title: IOCTL_DVD_READ_STRUCTURE
 author: windows-driver-content
 description: Returns information about a DVD disc, such as a layer descriptor, copyright information, or manufacturer-specific information.
 old-location: storage\ioctl_dvd_read_structure.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 64cf4d53-5d03-43bc-b295-37ecf67b4d2a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

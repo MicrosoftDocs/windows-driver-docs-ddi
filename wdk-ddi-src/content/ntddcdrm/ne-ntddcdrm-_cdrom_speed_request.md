@@ -4,7 +4,7 @@ title: "_CDROM_SPEED_REQUEST"
 author: windows-driver-content
 description: The CDROM_SPEED_REQUEST enumeration indicates which command that the CD-ROM class driver will use to set the spindle speed of a CD-ROM drive.
 old-location: storage\cdrom_speed_request.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 147d2c1c-c12d-4c39-bec5-579ece083ee7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

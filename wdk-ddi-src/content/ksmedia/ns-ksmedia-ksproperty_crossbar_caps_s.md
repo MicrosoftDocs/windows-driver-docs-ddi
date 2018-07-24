@@ -4,7 +4,7 @@ title: KSPROPERTY_CROSSBAR_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_CROSSBAR_CAPS_S structure describes the crossbar capabilities for a device.
 old-location: stream\ksproperty_crossbar_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 65c0b401-e437-485a-99bc-75ce5296ef34
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

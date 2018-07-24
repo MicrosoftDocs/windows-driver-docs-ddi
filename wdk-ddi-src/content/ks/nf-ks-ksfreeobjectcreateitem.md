@@ -4,7 +4,7 @@ title: KsFreeObjectCreateItem function
 author: windows-driver-content
 description: Frees the slot for the specified create item.
 old-location: stream\ksfreeobjectcreateitem.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 66f62a55-0bed-48ed-ae79-042bffe75b70
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

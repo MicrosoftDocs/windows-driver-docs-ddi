@@ -4,7 +4,7 @@ title: "_PEP_ACPI_EVALUATE_CONTROL_METHOD"
 author: windows-driver-content
 description: The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: FFCC5947-1DD5-4AD5-A414-94BDC013D1A7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

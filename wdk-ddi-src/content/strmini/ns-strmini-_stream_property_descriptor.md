@@ -4,7 +4,7 @@ title: "_STREAM_PROPERTY_DESCRIPTOR"
 author: windows-driver-content
 description: STREAM_PROPERTY_DESCRIPTOR specifies the parameters of property get/set requests that the class driver passes to the minidriver.
 old-location: stream\stream_property_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b72265b7-dce3-4688-bee7-2a6f7d7731f9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: RILUICCAPPTYPE
 author: windows-driver-content
 description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluiccapptype.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cba1fcc3-74d0-44b7-b480-3e7d754f9efe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,13 +58,13 @@ req.typenames: RILUICCAPPTYPE
 
 ````
 enum RILUICCAPPTYPE {
-  RIL_UICCAPPTYPE_UNKNOWN  = 0x00000001, 
-  RIL_UICCAPPTYPE_MF       = 0x00000002, 
-  RIL_UICCAPPTYPE_MF_SIM   = 0x00000003, 
-  RIL_UICCAPPTYPE_MF_RUIM  = 0x00000004, 
-  RIL_UICCAPPTYPE_USIM     = 0x00000005, 
-  RIL_UICCAPPTYPE_CSIM     = 0x00000006, 
-  RIL_UICCAPPTYPE_ISIM     = 0x00000007 
+  RIL_UICCAPPTYPE_UNKNOWN  = 0x00000001,
+  RIL_UICCAPPTYPE_MF       = 0x00000002,
+  RIL_UICCAPPTYPE_MF_SIM   = 0x00000003,
+  RIL_UICCAPPTYPE_MF_RUIM  = 0x00000004,
+  RIL_UICCAPPTYPE_USIM     = 0x00000005,
+  RIL_UICCAPPTYPE_CSIM     = 0x00000006,
+  RIL_UICCAPPTYPE_ISIM     = 0x00000007
 
 };
 ````
@@ -105,7 +105,7 @@ enum RILUICCAPPTYPE {
 
 
 
-Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks. 
+Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks.
 
 <b>Serving network</b>
 
@@ -256,7 +256,7 @@ Yes
 
 </td>
 <td>
-Received signal code power of serving cell in dBm  
+Received signal code power of serving cell in dBm
 
 </td>
 </tr>
@@ -274,7 +274,7 @@ No
 
 </td>
 <td>
-Path loss of serving cell in dBs  
+Path loss of serving cell in dBs
 
 </td>
 </tr>
@@ -430,7 +430,7 @@ Yes
 
 </td>
 <td>
-Received signal code power of serving cell in dBm  
+Received signal code power of serving cell in dBm
 
 </td>
 </tr>

@@ -4,7 +4,7 @@ title: "_BRB_L2CA_PING"
 author: windows-driver-content
 description: The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 old-location: bltooth\_brb_l2ca_ping.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: PFNKSCONTEXT_DISPATCH
 author: windows-driver-content
 description: A streaming minidriver's KStrContextDispatch routine is called to process IRP_MJ_POWER IRPs.
 old-location: stream\kstrcontextdispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: be96eb59-6128-41bd-ad31-38f0d1a4e656
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

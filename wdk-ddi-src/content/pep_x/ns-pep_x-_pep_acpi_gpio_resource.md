@@ -4,7 +4,7 @@ title: "_PEP_ACPI_GPIO_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_GPIO_RESOURCE structure describes the ACPI configuration for a general purpose input/output (GPIO) resource.
 old-location: kernel\pep_acpi_gpio_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1B8AD1A9-9EB0-49A8-B791-0453C768A974
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

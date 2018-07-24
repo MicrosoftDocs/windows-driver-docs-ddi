@@ -4,7 +4,7 @@ title: IoSetPartitionInformationEx function
 author: windows-driver-content
 description: For the disk represented by DeviceObject, the IoSetPartitionInformationEx routine initializes a partition table entry with the information specified in the SET_PARTITION_INFORMATION_EX structure.
 old-location: storage\iosetpartitioninformationex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e663a9aa-ed83-4d85-b110-390f0c03a724
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

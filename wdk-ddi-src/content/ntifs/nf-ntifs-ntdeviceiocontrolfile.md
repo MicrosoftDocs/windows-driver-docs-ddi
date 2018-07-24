@@ -4,7 +4,7 @@ title: NtDeviceIoControlFile function
 author: windows-driver-content
 description: The ZwDeviceIoControlFile routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
 old-location: kernel\zwdeviceiocontrolfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4dc38fcd-4b87-4c34-8ae2-685bf47e3fde
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

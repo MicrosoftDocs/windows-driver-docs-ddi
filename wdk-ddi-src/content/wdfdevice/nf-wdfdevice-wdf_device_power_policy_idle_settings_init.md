@@ -4,7 +4,7 @@ title: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function initializes a driver's WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure.
 old-location: wdf\wdf_device_power_policy_idle_settings_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e5a80021-1d9d-42f4-9344-9dd8d9524d0b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

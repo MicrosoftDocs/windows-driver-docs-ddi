@@ -4,10 +4,10 @@ title: PWINDBG_DISASM
 author: windows-driver-content
 description: The PWINDBG_DISASM (Disasm) function disassembles the instruction pointed to by lpOffset and places the printable string into lpBuffer.
 old-location: debugger\disasm.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 1a986b7b-b45b-4546-a14e-4abb76ddf764
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: Disasm, Disasm callback function [Windows Debugging], PWINDBG_DISASM, PWINDBG_DISASM callback, WdbgExts_Ref_787ab353-1829-4111-8931-2192bfb9cd0c.xml, debugger.disasm, wdbgexts/Disasm
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: SPB_TRANSFER_BUFFER
 author: windows-driver-content
 description: The SPB_TRANSFER_BUFFER structure describes the data buffer for an individual transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_buffer.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_PEP_QUERY_CURRENT_COMPONENT_PERF_STATE"
 author: windows-driver-content
 description: The PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set.
 old-location: kernel\pep_query_current_component_perf_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2A561853-B809-4BF5-911C-520A7D9C473C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

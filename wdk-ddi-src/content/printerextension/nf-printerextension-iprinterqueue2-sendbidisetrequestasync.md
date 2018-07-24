@@ -4,7 +4,7 @@ title: IPrinterQueue2::SendBidiSetRequestAsync
 author: windows-driver-content
 description: Uses an XML string value to send a Bidi Set request as an asynchronous operation.
 old-location: print\iprinterqueue2_sendbidisetrequestasync.htm
-old-project: print
+tech.root: print
 ms.assetid: 05FF8A47-A586-4DA7-94AD-A7186265ADB4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IoAllocateErrorLogEntry function
 author: windows-driver-content
 description: The IoAllocateErrorLogEntry routine allocates an error log entry, and returns a pointer to the packet that the caller uses to supply information about an I/O error.
 old-location: kernel\ioallocateerrorlogentry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 07fc3ae1-325a-4e50-a83d-9e70a8d63aaa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

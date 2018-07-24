@@ -4,7 +4,7 @@ title: FsRtlFindExtraCreateParameter function
 author: windows-driver-content
 description: The FsRtlFindExtraCreateParameter routine searches a given ECP list for an ECP context structure of a given type and returns a pointer to this structure if it is found.
 old-location: ifsk\fsrtlfindextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e72958d0-b7ff-45b6-bdd2-f894d5b44cf4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

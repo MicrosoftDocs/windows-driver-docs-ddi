@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::RestartDevice
 author: windows-driver-content
 description: Initiates a device restart.
 old-location: dtf\iwdtfpnpaction2_restartdevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 6023ca71-47ce-4add-891f-e125252ace08
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

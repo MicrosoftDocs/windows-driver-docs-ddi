@@ -4,10 +4,10 @@ title: PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 author: windows-driver-content
 description: The GetVideoProcessBltStatePrivate function retrieves the state data of a private bit-block transfer (bitblt) for a video processor.
 old-location: display\getvideoprocessbltstateprivate.htm
-old-project: display
+tech.root: display
 ms.assetid: bb4c04cf-0125-47bf-8fc8-88d807e7b6ad
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GetVideoProcessBltStatePrivate, GetVideoProcessBltStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback, UserModeDisplayDriver_Functions_e39248ae-aa92-4c0a-aebc-a48f7d1e24a7.xml, d3dumddi/GetVideoProcessBltStatePrivate, display.getvideoprocessbltstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

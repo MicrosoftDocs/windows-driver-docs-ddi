@@ -4,7 +4,7 @@ title: GNSS_FIXDATA
 author: windows-driver-content
 description: This structure defines the specific data elements associated with a GNSS fix returned from the driver.
 old-location: gnss\gnss_fixdata.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 2939F01A-2F1C-4434-BAE1-59F1F320BD44
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

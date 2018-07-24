@@ -4,7 +4,7 @@ title: AtaPortReadPortUlong function
 author: windows-driver-content
 description: The AtaPortReadPortUlong routine reads a ULONG value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadportulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f9e5fb0a-7add-462c-9b2a-2b543f7c7649
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

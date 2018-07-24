@@ -4,7 +4,7 @@ title: "_PORT_CONFIGURATION_INFORMATION"
 author: windows-driver-content
 description: PORT_CONFIGURATION_INFORMATION describes the hardware settings of a streaming minidriver's device. The class driver fills in most members with information provided by the operating system.
 old-location: stream\port_configuration_information.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fa990867-4e2f-4940-b6fc-310ec7fc2b68
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

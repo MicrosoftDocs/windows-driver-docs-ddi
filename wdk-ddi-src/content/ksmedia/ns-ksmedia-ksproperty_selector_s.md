@@ -4,7 +4,7 @@ title: KSPROPERTY_SELECTOR_S
 author: windows-driver-content
 description: The KSPROPERTY_SELECTOR_S structure describes filter-based property settings in the PROPSETID_VIDCAP_SELECTOR property set.
 old-location: stream\ksproperty_selector_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cc9928b7-fab2-44c1-8613-3a94b5e8dcab
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: MmUnlockPages function
 author: windows-driver-content
 description: The MmUnlockPages routine unlocks the physical pages that are described by the specified memory descriptor list (MDL).
 old-location: kernel\mmunlockpages.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 506f5fef-11fa-4d65-a180-c613cd8a8e1e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

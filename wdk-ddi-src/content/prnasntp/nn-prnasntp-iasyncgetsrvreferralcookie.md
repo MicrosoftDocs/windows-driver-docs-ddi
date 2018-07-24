@@ -4,7 +4,7 @@ title: IAsyncGetSrvReferralCookie
 author: windows-driver-content
 description: "."
 old-location: print\iasyncgetsrvreferralcookie.htm
-old-project: print
+tech.root: print
 ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

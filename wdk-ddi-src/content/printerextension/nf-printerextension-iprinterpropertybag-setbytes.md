@@ -4,7 +4,7 @@ title: IPrinterPropertyBag::SetBytes
 author: windows-driver-content
 description: Writes a byte array property.
 old-location: print\iprinterpropertybag_setbytes.htm
-old-project: print
+tech.root: print
 ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

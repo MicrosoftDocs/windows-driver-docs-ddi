@@ -4,7 +4,7 @@ title: RtlFreeAnsiString function
 author: windows-driver-content
 description: The RtlFreeAnsiString routine releases storage that was allocated by RtlUnicodeStringToAnsiString.
 old-location: kernel\rtlfreeansistring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

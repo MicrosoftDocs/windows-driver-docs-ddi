@@ -4,7 +4,7 @@ title: "_INDICATION_CODE"
 author: windows-driver-content
 description: The INDICATION_CODE enumeration type indicates to a profile driver what type of L2CAP event has occurred.
 old-location: bltooth\indication_code.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 7fc374e3-ca5b-476d-bc44-afb28ecf9920
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

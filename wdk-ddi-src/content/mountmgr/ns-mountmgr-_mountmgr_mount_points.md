@@ -4,7 +4,7 @@ title: "_MOUNTMGR_MOUNT_POINTS"
 author: windows-driver-content
 description: The MOUNTMGR_MOUNT_POINTS structure is used by mount manager to send a client the list of mount points associated with a device.
 old-location: storage\mountmgr_mount_points.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e85c0d92-d989-4afc-8516-c63535d2c728
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_CIP_LISTEN"
 author: windows-driver-content
 description: This structure is used for a listen request. The request begins isochronous reception on the specified connection.
 old-location: ieee\cip_listen.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

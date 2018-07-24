@@ -4,7 +4,7 @@ title: SDBUS_CALLBACK_ROUTINE
 author: windows-driver-content
 description: The PSDBUS_CALLBACK_ROUTINE prototype declares the Secure Digital (SD) driver callback routine that the SD bus driver uses to report device interrupts to the driver.
 old-location: sd\psdbus_callback_routine.htm
-old-project: SD
+tech.root: SD
 ms.assetid: e63ebdcc-afcd-451e-942c-0e295eb3468f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

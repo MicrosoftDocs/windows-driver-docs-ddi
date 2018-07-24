@@ -4,7 +4,7 @@ title: IO_SESSION_NOTIFICATION_FUNCTION
 author: windows-driver-content
 description: The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine through which a driver receives notifications of changes in the state of user sessions that the driver is interested in.
 old-location: kernel\io_session_notification_function.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ff7a5191-35d9-4927-9c23-7f5ad0cfd7ab
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

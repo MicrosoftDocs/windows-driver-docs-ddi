@@ -4,7 +4,7 @@ title: IoGetDeviceAttachmentBaseRef function
 author: windows-driver-content
 description: The IoGetDeviceAttachmentBaseRef routine returns a pointer to the lowest-level device object in a file system or device driver stack.
 old-location: ifsk\iogetdeviceattachmentbaseref.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e1d31fdd-de4f-4e57-a8e8-0468ab4242f8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

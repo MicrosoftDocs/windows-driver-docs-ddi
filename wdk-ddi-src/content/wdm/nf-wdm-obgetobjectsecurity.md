@@ -4,7 +4,7 @@ title: ObGetObjectSecurity function
 author: windows-driver-content
 description: The ObGetObjectSecurity routine gets the security descriptor for a given object.
 old-location: kernel\obgetobjectsecurity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8ac8d3ff-68ec-4e23-bbf9-0a9b7fa13ce3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

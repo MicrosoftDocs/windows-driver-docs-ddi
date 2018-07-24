@@ -4,10 +4,10 @@ title: IDebugControl3::GetNumberEvents
 author: windows-driver-content
 description: The GetNumberEvents method returns the number of events for the current target, if the number of events is fixed.
 old-location: debugger\getnumberevents.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: fb570110-a0a5-4a95-9a26-c4e4ada309b2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetNumberEvents, GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetNumberEvents method, IDebugControl3.GetNumberEvents, IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, dbgeng/IDebugControl3::GetNumberEvents, debugger.getnumberevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

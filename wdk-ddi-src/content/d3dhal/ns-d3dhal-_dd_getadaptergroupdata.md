@@ -4,10 +4,10 @@ title: "_DD_GETADAPTERGROUPDATA"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETADAPTERGROUPDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETADAPTERGROUP.
 old-location: display\dd_getadaptergroupdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 8c427880-f809-4b58-8f69-d81a273d705c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices], _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: FltWriteFile function
 author: windows-driver-content
 description: FltWriteFile is used to write data to an open file, stream, or device.
 old-location: ifsk\fltwritefile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 994b4a75-4581-423b-8b8f-17a64600fb74
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

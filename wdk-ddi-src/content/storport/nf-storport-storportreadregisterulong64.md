@@ -4,7 +4,7 @@ title: StorPortReadRegisterUlong64 macro
 author: windows-driver-content
 description: The StorPortReadRegisterUlong64 routine reads a 64-bit value from a specified 64-bit register address.
 old-location: storage\storportreadregisterulong64.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 73A9E645-0B71-429F-9033-032BB83E60E4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

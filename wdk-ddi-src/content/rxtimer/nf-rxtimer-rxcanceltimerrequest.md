@@ -4,7 +4,7 @@ title: RxCancelTimerRequest function
 author: windows-driver-content
 description: RxCancelTimerRequest cancels a recurrent timer request. The request to be canceled is identified by the worker thread routine and associated context.
 old-location: ifsk\rxcanceltimerrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

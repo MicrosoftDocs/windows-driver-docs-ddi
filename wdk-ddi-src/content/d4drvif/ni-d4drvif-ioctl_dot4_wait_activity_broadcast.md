@@ -4,7 +4,7 @@ title: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST.
 old-location: print\ioctl_ioctl_dot4_wait_activity_broadcast.htm
-old-project: print
+tech.root: print
 ms.assetid: 4E39AC46-BE78-4503-AA3A-D45BC79DBDEF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

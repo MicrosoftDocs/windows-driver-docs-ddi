@@ -4,7 +4,7 @@ title: "_OEMCUIPPARAM"
 author: windows-driver-content
 description: The OEMCUIPPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::CommonUIProp method.
 old-location: print\oemcuipparam.htm
-old-project: print
+tech.root: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

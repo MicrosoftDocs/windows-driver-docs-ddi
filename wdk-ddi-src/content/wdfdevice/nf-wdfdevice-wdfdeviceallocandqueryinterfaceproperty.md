@@ -4,7 +4,7 @@ title: WdfDeviceAllocAndQueryInterfaceProperty function
 author: windows-driver-content
 description: The WdfDeviceAllocAndQueryInterfaceProperty method allocates a buffer and retrieves a specified device interface property.
 old-location: wdf\wdfdeviceallocandqueryinterfaceproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 40516E83-892C-4538-B452-DAB0F5ACBB25
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

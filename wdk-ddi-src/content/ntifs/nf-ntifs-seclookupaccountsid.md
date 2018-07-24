@@ -4,7 +4,7 @@ title: SecLookupAccountSid function
 author: windows-driver-content
 description: SecLookupAccountSid accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 old-location: ifsk\seclookupaccountsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

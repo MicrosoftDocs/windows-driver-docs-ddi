@@ -4,7 +4,7 @@ title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteInterfaceRemoval event callback function notifies the driver that it cannot use a device interface because the interface has been removed.
 old-location: wdf\iremoteinterfacecallbackremoval_onremoteinterfaceremoval.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0dfa2eb8-a7f6-46d9-9599-5e2aaf583f78
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: SecLookupWellKnownSid function
 author: windows-driver-content
 description: SecLookupWellKnownSid accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
 old-location: ifsk\seclookupwellknownsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

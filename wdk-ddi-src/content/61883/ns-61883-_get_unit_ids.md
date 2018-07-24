@@ -4,7 +4,7 @@ title: "_GET_UNIT_IDS"
 author: windows-driver-content
 description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve device identifiers.
 old-location: ieee\get_unit_ids.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 8ffa85ee-cad6-476e-91ab-1897a6b43ca1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

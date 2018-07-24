@@ -4,7 +4,7 @@ title: "_WDF_TASK_SEND_OPTIONS_FLAGS"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_send_options_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8ff13908-57f2-404f-a8ea-70c798ee3d7d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

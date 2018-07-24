@@ -4,7 +4,7 @@ title: KsGetObjectTypeFromIrp function
 author: windows-driver-content
 description: The KsGetObjectTypeFromIrp function returns the AVStream object type that is associated with a given IRP.
 old-location: stream\ksgetobjecttypefromirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

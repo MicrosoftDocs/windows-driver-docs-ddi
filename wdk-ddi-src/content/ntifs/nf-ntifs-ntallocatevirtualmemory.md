@@ -4,7 +4,7 @@ title: NtAllocateVirtualMemory function
 author: windows-driver-content
 description: The ZwAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
 old-location: kernel\zwallocatevirtualmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_OBJECT_ATTRIBUTES"
 author: windows-driver-content
 description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
 old-location: kernel\object_attributes.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

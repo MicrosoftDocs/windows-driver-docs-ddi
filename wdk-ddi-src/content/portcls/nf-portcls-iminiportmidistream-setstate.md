@@ -4,10 +4,10 @@ title: IMiniportMidiStream::SetState
 author: windows-driver-content
 description: The SetState method sets the stream's transport state to a new state value.
 old-location: audio\iminiportmidistream_setstate.htm
-old-project: audio
+tech.root: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportMidiStream interface [Audio Devices],SetState method, IMiniportMidiStream.SetState, IMiniportMidiStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, portcls/IMiniportMidiStream::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

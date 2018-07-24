@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeFormatRequestForAbort function
 author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForAbort method builds an abort request for a specified USB pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforabort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 79cf94e4-c362-4ed4-882e-771cd4f6ed48
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: IDebugSymbols::StartSymbolMatch
 author: windows-driver-content
 description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatch.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 465b13a7-59e0-47f8-9e33-82043a23f146
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols.StartSymbolMatch, IDebugSymbols2 interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols2::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols3::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, StartSymbolMatch, StartSymbolMatch method [Windows Debugging], StartSymbolMatch method [Windows Debugging],IDebugSymbols interface, StartSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, StartSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, debugger.startsymbolmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

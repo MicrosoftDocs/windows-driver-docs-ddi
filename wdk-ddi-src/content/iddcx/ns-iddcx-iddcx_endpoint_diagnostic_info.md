@@ -4,10 +4,10 @@ title: IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 author: windows-driver-content
 description: Gives information about the video data endpoint.
 old-location: display\iddcx_endpoint_diagnostic_info.htm
-old-project: display
+tech.root: display
 ms.assetid: 70be09ed-5633-464b-b311-f671efe83a54
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

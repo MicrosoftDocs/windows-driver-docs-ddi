@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYPAGINGQUEUECB
 author: windows-driver-content
 description: pfnDestroyPagingQueueCb waits for a paging queue to finish all operations queued to it and destroys it along with the associated sync object.
 old-location: display\pfndestroypagingqueuecb.htm
-old-project: display
+tech.root: display
 ms.assetid: 2C039656-5384-4864-8F29-A336B0ED06C0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_DESTROYPAGINGQUEUECB, PFND3DDDI_DESTROYPAGINGQUEUECB callback, d3dumddi/pfnDestroyPagingQueueCb, display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb, pfnDestroyPagingQueueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

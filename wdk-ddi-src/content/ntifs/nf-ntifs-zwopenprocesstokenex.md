@@ -4,7 +4,7 @@ title: ZwOpenProcessTokenEx function
 author: windows-driver-content
 description: The ZwOpenProcessTokenEx routine opens the access token associated with a process.
 old-location: kernel\zwopenprocesstokenex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2ea6f764-b884-4764-a2ff-19d0170f9b31
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

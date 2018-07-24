@@ -4,7 +4,7 @@ title: FsRtlOplockIsSharedRequest function
 author: windows-driver-content
 description: The FsRtlOplockIsSharedRequest routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 old-location: ifsk\fsrtloplockissharedrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 21cc6f5b-d7c4-405d-9c98-c17e2f669cda
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

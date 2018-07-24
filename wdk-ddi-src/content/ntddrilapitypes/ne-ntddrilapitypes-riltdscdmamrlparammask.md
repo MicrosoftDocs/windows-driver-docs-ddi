@@ -4,7 +4,7 @@ title: RILTDSCDMAMRLPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILTDSCDMAMRLPARAMMASK.
 old-location: netvista\riltdscdmamrlparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d2cc4c39-b96e-4078-bfea-2e06a07e938e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,15 +60,15 @@ req.typenames: RILTDSCDMAMRLPARAMMASK
 
 ````
 enum RILTDSCDMAMRLPARAMMASK {
-  RIL_PARAM_TDSCDMAMRL_MCC        = 0x00000001, 
-  RIL_PARAM_TDSCDMAMRL_MNC        = 0x00000002, 
-  RIL_PARAM_TDSCDMAMRL_LAC        = 0x00000004, 
-  RIL_PARAM_TDSCDMAMRL_CELLID     = 0x00000008, 
-  RIL_PARAM_TDSCDMAMRL_UARFCN     = 0x00000010, 
-  RIL_PARAM_TDSCDMAMRL_CELLPARAM  = 0x00000020, 
-  RIL_PARAM_TDSCDMAMRL_RSCP       = 0x00000040, 
-  RIL_PARAM_TDSCDMAMRL_PATHLOSS   = 0x00000080, 
-  RIL_PARAM_TDSCDMAMRL_ALL        = 0x000000ff 
+  RIL_PARAM_TDSCDMAMRL_MCC        = 0x00000001,
+  RIL_PARAM_TDSCDMAMRL_MNC        = 0x00000002,
+  RIL_PARAM_TDSCDMAMRL_LAC        = 0x00000004,
+  RIL_PARAM_TDSCDMAMRL_CELLID     = 0x00000008,
+  RIL_PARAM_TDSCDMAMRL_UARFCN     = 0x00000010,
+  RIL_PARAM_TDSCDMAMRL_CELLPARAM  = 0x00000020,
+  RIL_PARAM_TDSCDMAMRL_RSCP       = 0x00000040,
+  RIL_PARAM_TDSCDMAMRL_PATHLOSS   = 0x00000080,
+  RIL_PARAM_TDSCDMAMRL_ALL        = 0x000000ff
 
 };
 ````
@@ -110,7 +110,7 @@ enum RILTDSCDMAMRLPARAMMASK {
 
 
 
-Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks. 
+Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks.
 
 <b>Serving network</b>
 
@@ -261,7 +261,7 @@ Yes
 
 </td>
 <td>
-Received signal code power of serving cell in dBm  
+Received signal code power of serving cell in dBm
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ No
 
 </td>
 <td>
-Path loss of serving cell in dBs  
+Path loss of serving cell in dBs
 
 </td>
 </tr>
@@ -435,7 +435,7 @@ Yes
 
 </td>
 <td>
-Received signal code power of serving cell in dBm  
+Received signal code power of serving cell in dBm
 
 </td>
 </tr>

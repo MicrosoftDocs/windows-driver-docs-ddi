@@ -4,7 +4,7 @@ title: RtlValidSid function
 author: windows-driver-content
 description: The RtlValidSid routine validates a security identifier (SID) by verifying that the revision number is within a known range and that the number of subauthorities is less than the maximum.
 old-location: ifsk\rtlvalidsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

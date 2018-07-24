@@ -4,10 +4,10 @@ title: IPortClsNotifications::SendNotification
 author: windows-driver-content
 description: Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_sendnotification.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortClsNotifications interface [Audio Devices],SendNotification method, IPortClsNotifications.SendNotification, IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices],IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

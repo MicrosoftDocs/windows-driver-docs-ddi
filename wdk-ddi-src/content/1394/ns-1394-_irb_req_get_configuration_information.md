@@ -4,7 +4,7 @@ title: "_IRB_REQ_GET_CONFIGURATION_INFORMATION"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetConfigurationInformation request.
 old-location: ieee\irb_req_get_configuration_information.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 639B72C4-F99D-4983-8539-00A93398465F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

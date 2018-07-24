@@ -4,7 +4,7 @@ title: "_IMAGE_POLICY_METADATA"
 author: windows-driver-content
 description: This structure is not supported.
 old-location: kernel\_image_policy_metadata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b7dfb3c8-40d5-4ec0-9710-7c04fb414f32
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

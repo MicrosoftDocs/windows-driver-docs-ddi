@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::GetState
 author: windows-driver-content
 description: The GetState method returns the current state of a remote I/O target.
 old-location: wdf\iwdfremotetarget_getstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IOCTL_KS_ENABLE_EVENT
 author: windows-driver-content
 description: An application can use IOCTL_KS_ENABLE_EVENT to request notification of a KS event type, or to determine the events supported by a KS object.
 old-location: stream\ioctl_ks_enable_event.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 194a99f4-900f-44d1-bbc3-64953e4dce21
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

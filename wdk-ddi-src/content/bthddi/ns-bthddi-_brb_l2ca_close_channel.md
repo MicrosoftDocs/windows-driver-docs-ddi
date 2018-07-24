@@ -4,7 +4,7 @@ title: "_BRB_L2CA_CLOSE_CHANNEL"
 author: windows-driver-content
 description: The _BRB_L2CA_CLOSE_CHANNEL structure describes an open L2CAP channel to close.
 old-location: bltooth\_brb_l2ca_close_channel.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

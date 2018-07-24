@@ -4,7 +4,7 @@ title: DOT11EXTIHV_INIT_ADAPTER
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvinitadapter.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 96dc1718-ee35-440a-94e8-eba4a41c9559
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvInitAdapter</i> function to have the IHV Extensions DLL allocate and initialize an adapter
   context.
 
@@ -78,7 +78,7 @@ DWORD APIENTRY Dot11ExtIhvInitAdapter(
 
 ### -param pDot11Adapter [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a> structure, which identifies the
      adapter to be initialized.
 
@@ -86,8 +86,8 @@ A pointer to a
 ### -param hDot11SvcHandle [in, optional]
 
 A handle assigned by the operating system for the adapter. The IHV Extensions DLL must use this
-     handle value when calling any IHV Extensibility function that declares an 
-     <i>hDot11SvcHandle</i> parameter, such as 
+     handle value when calling any IHV Extensibility function that declares an
+     <i>hDot11SvcHandle</i> parameter, such as
      <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
      Dot11ExtPreAssociateCompletion</a>.
 
@@ -97,11 +97,11 @@ A handle assigned by the operating system for the adapter. The IHV Extensions DL
 A pointer to a handle variable. The IHV Extensions DLL must assign a unique handle value for the
      adapter and set *
      <i>phIhvExtAdapter</i> to the handle value. The operating system uses this handle value when it calls any
-     IHV Handler function that declares an 
-     <i>hIhvExtAdapter</i> parameter, such as 
+     IHV Handler function that declares an
+     <i>hIhvExtAdapter</i> parameter, such as
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-     Dot11ExtIhvPerformPreAssociate</a>. 
-     
+     Dot11ExtIhvPerformPreAssociate</a>.
+
 
 Typically, the IHV Extensions DLL allocates a state array for the adapter context and returns the
      address of the array as the handle value.
@@ -112,7 +112,7 @@ Typically, the IHV Extensions DLL allocates a state array for the adapter contex
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -122,11 +122,11 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-The operating system calls the 
+The operating system calls the
     <i>Dot11ExtIhvInitAdapter</i> function whenever a WLAN adapter becomes available and enabled for use, such
     as when a PCMCIA adapter is inserted.
 
-For more information about WLAN adapter initialization, see 
+For more information about WLAN adapter initialization, see
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter Arrival</a>.
 
 

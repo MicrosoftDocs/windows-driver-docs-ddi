@@ -4,7 +4,7 @@ title: IoGetDeviceObjectPointer function
 author: windows-driver-content
 description: The IoGetDeviceObjectPointer routine returns a pointer to the top object in the named device object's stack and a pointer to the corresponding file object, if the requested access to the objects can be granted.
 old-location: kernel\iogetdeviceobjectpointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aeb088f3-92c3-4619-9c3b-756bd70307e7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

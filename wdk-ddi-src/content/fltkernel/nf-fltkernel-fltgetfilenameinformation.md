@@ -4,7 +4,7 @@ title: FltGetFileNameInformation function
 author: windows-driver-content
 description: The FltGetFileNameInformation routine returns name information for a file or directory.
 old-location: ifsk\fltgetfilenameinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

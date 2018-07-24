@@ -4,7 +4,7 @@ title: HBA_GetEventBuffer function
 author: windows-driver-content
 description: The HBA_GetEventBuffer routine retrieves the indicated number of events, if available, from the HBA's event queue.
 old-location: storage\hba_geteventbuffer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0f06b154-7d85-4a60-b354-bd61fbc597dc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

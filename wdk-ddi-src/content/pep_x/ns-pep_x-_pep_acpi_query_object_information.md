@@ -4,7 +4,7 @@ title: "_PEP_ACPI_QUERY_OBJECT_INFORMATION"
 author: windows-driver-content
 description: The PEP_ACPI_QUERY_OBJECT_INFORMATION structure contains information about an ACPI object.
 old-location: kernel\pep_acpi_query_object_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 71E43364-CBD6-4628-B51C-B41315E0E800
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

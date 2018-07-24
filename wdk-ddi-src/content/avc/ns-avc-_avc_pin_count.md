@@ -4,7 +4,7 @@ title: "_AVC_PIN_COUNT"
 author: windows-driver-content
 description: The AVC_PIN_COUNT structure specifies the number of pins on an AV/C subunit device.
 old-location: stream\avc_pin_count.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e43557ed-3394-47df-9581-fc3f0c314529
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

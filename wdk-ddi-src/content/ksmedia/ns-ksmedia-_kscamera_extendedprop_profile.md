@@ -4,7 +4,7 @@ title: "_KSCAMERA_EXTENDEDPROP_PROFILE"
 author: windows-driver-content
 description: The payload of the KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE control contains KSCAMERA_EXTENDEDPROP_HEADER + KSCAMERA_EXTENDEDPROP_PROFILE.
 old-location: stream\kscamera_extendedprop_profile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 43529BA7-1F5A-4B9B-9792-2D6050F0480D
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

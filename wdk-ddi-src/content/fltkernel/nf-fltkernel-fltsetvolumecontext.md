@@ -4,7 +4,7 @@ title: FltSetVolumeContext function
 author: windows-driver-content
 description: FltSetVolumeContext sets a context for a volume.
 old-location: ifsk\fltsetvolumecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e1e8605c-b3d1-40db-bb33-fc1f7ed51617
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

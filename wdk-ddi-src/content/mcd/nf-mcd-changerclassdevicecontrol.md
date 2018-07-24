@@ -4,7 +4,7 @@ title: ChangerClassDeviceControl function
 author: windows-driver-content
 description: The ChangerClassDeviceControl routine is called by a changer minidriver to allow the class driver perform device-independent aspects of a device control operation.
 old-location: storage\changerclassdevicecontrol.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9107fa7b-b061-4505-aef7-be04587a4199
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

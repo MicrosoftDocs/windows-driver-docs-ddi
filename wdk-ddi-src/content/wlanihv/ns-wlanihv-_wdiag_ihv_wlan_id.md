@@ -4,7 +4,7 @@ title: "_WDIAG_IHV_WLAN_ID"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\wdiag_ihv_wlan_id.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 72dc7128-fcbc-4ad8-ac81-e2767ac6ffa2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -81,15 +81,15 @@ A string that defines the IHV profile name.
 
 ### -field Ssid
 
-The service set identifier (SSID) of the basic service set (BSS) network. The 
-     <b>Ssid</b> member is of the 
+The service set identifier (SSID) of the basic service set (BSS) network. The
+     <b>Ssid</b> member is of the
      <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a> type.
 
 
 ### -field BssType
 
-The type of the BSS network. The 
-     <b>BssType</b> member contains a value defined for the 
+The type of the BSS network. The
+     <b>BssType</b> member contains a value defined for the
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
