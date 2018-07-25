@@ -13,9 +13,57 @@ ms.topic: portal
 # Windows kernel
 
 ## -description
+Standard driver routines must be implemented by your driver. Driver support routines are routines that the Windows operating system provides. Drivers do not use Microsoft Win32 routines; instead, they use the driver support routines that this section describes.
+The driver support routines in this section are organized by kernel-mode managers and libraries.
 
-Overview of the Windows kernel technology.
+- Standard Driver Routines
+Here are the required and optional routines that you must implement in your driver to respond to calls from Windows or other drivers. When these routines are called, your code must respond to the call and return the appropriate data in a timely manner.
 
+    The following routines are required for all drivers:
+
+    -    [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
+    -    [AddDevice](https://msdn.microsoft.com/en-us/library/windows/hardware/ff540521)
+    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://msdn.microsoft.com/en-us/library/windows/hardware/ff543233) 
+    -    [DriverUnload](https://msdn.microsoft.com/en-us/library/windows/hardware/ff564886)
+
+    The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
+
+    For more information about standard driver routines, see [Introduction to Standard Driver Routines](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines).
+
+- Driver Support Routines
+
+    Driver support routines are routines that the Windows operating system provides for kernel-mode drivers to use. Drivers do not use Microsoft Win32 routines; instead, they use the driver support routines that this section describes.
+
+    The driver support routines in this section are organized by kernel-mode managers and libraries.
+
+    The following kernel-mode managers provide support for drivers:
+
+    -    Object Manager Routines
+    -    Memory Manager Routines
+    -    Process and Thread Manager Routines
+    -    I/O Manager Routines
+    -    Power Manager Routines
+    -    Configuration Manager Routines
+    -    Kernel Transaction Manager Routines
+    -    Security Reference Monitor Routines
+
+    The following kernel-mode libraries provide support for drivers:
+
+    -    Core Kernel Library Support Routines
+    -    Executive Library Support Routines
+    -    Run-Time Library (RTL) Routines
+    -    Safe String Library Routines
+    -    Safe Integer Library Routines
+    -    Direct Memory Access (DMA) Library Routines
+    -    Hardware Abstraction Layer (HAL) Library Routines
+    -    Common Log File System (CLFS) Routines
+    -    Windows Management Instrumentation (WMI) Library Support Routines
+    -    ZwXxx Routines
+    -    Auxiliary Kernel-Mode Library Routines and Structures
+    -    Processor Group Compatibility Library
+
+
+### Public Headers for Windows Kernel
 To develop Windows kernel, you need these headers:
 
  * [aux_klib.h](..\aux_klib\index.md)
@@ -48,49 +96,20 @@ To develop Windows kernel, you need these headers:
 
 For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel).
 
-Standard driver routines must be implemented by your driver. Driver support routines are routines that the Windows operating system provides. Drivers do not use Microsoft Win32 routines; instead, they use the driver support routines that this section describes.
-The driver support routines in this section are organized by kernel-mode managers and libraries.
 
-
-## Standard Driver Routines
-Here are the required and optional routines that you must implement in your driver to respond to calls from Windows or other drivers. When these routines are called, your code must respond to the call and return the appropriate data in a timely manner.
-
-The following routines are required for all drivers:
-
-[DriverEntry](../wdm/nc-wdm-driver_initialize.md)
-[AddDevice](https://msdn.microsoft.com/en-us/library/windows/hardware/ff540521)
-[DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://msdn.microsoft.com/en-us/library/windows/hardware/ff543233) 
-[DriverUnload](https://msdn.microsoft.com/en-us/library/windows/hardware/ff564886)
-
-
-The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
-
-For more information about standard driver routines, see [Introduction to Standard Driver Routines](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines). 
 
 
 ## Initialization and Unload
 
-This section summarizes kernel-mode support routines that can be called by drivers from their DriverEntry, AddDevice, Reinitialize, or Unload routines. 
+This section summarizes kernel-mode support routines that can be called by drivers from their DriverEntry, AddDevice, Reinitialize, or Unload routines.
 
-### Hardware Configuration
+|**Routines for …**  | **Routine** |
+|:--|:--|
+| Obtaining and reporting hardware configuration information about a driver's devices and the current platform. | <p>[IoGetDeviceProperty](iogetdeviceproperty.md)</p><p>[IoReportDetectedDevice](ioreportdetecteddevice.md)</p><p>[IoReportResourceForDetection](ioreportresourcefordetection.md)</p><p>[IoGetDmaAdapter](iogetdmaadapter.md)</p><p>[IoGetConfigurationInformation](iogetconfigurationinformation.md)</p><p>[HalExamineMBR](halexaminembr.md)</p><p>[IoReadPartitionTable](file:///C:\Docs\kernel\storage\ioreadpartitiontable.md)</p><p>[IoInvalidateDeviceRelations](ioinvalidatedevicerelations.md)</p><p>[IoInvalidateDeviceState](ioinvalidatedevicestate.md)</p><p>[IoRegisterPlugPlayNotification](ioregisterplugplaynotification.md)</p><p>[IoUnregisterPlugPlayNotification](iounregisterplugplaynotification.md)</p><p>[IoRequestDeviceEject](iorequestdeviceeject.md)</p><p>[IoReportTargetDeviceChange](ioreporttargetdevicechange.md)</p> | 
+| Obtaining and reporting configuration information, and for registering interfaces in the registry. | <p>[IoGetDeviceProperty](iogetdeviceproperty.md)</p><p>[IoOpenDeviceInterfaceRegistryKey](ioopendeviceinterfaceregistrykey.md)</p><p>[IoOpenDeviceRegistryKey](ioopendeviceregistrykey.md)</p><p>[IoRegisterDeviceInterface](ioregisterdeviceinterface.md)</p><p>[IoSetDeviceInterfaceState](iosetdeviceinterfacestate.md)</p><p>[RtlCheckRegistryKey](rtlcheckregistrykey.md)</p><p>[RtlCreateRegistryKey](rtlcreateregistrykey.md)</p><p>[RtlQueryRegistryValues](rtlqueryregistryvalues.md)</p><p>[RtlWriteRegistryValue](rtlwriteregistryvalue.md)</p><p>[RtlDeleteRegistryValue](rtldeleteregistryvalue.md)</p><p>[InitializeObjectAttributes](initializeobjectattributes.md)</p><p>[ZwCreateKey](zwcreatekey.md)</p><p>[ZwOpenKey](zwopenkey.md)</p><p>[ZwQueryKey](zwquerykey.md)</p><p>[ZwEnumerateKey](zwenumeratekey.md)</p><p>[ZwEnumerateValueKey](zwenumeratevaluekey.md)</p><p>[ZwQueryValueKey](zwqueryvaluekey.md)</p><p>[ZwSetValueKey](zwsetvaluekey.md)</p><p>[ZwFlushKey](zwflushkey.md)</p><p>[ZwDeleteKey](zwdeletekey.md)</p><p>[ZwClose](zwclose.md)</p> | 
+| Setting up and freeing the objects and resources that drivers might use. | <p>[IoCreateDevice](iocreatedevice.md)</p><p>[IoDeleteDevice](iodeletedevice.md)</p><p>[IoGetDeviceObjectPointer](iogetdeviceobjectpointer.md)</p><p>[IoAttachDeviceToDeviceStack](ioattachdevicetodevicestack.md)</p><p>[IoGetAttachedDeviceReference](iogetattacheddevicereference.md)</p><p>[IoDetachDevice](iodetachdevice.md)</p><p>[IoAllocateDriverObjectExtension](ioallocatedriverobjectextension.md)</p><p>[IoGetDriverObjectExtension](iogetdriverobjectextension.md)</p><p>[IoRegisterDeviceInterface](ioregisterdeviceinterface.md)</p><p>[IoIsWdmVersionAvailable](ioiswdmversionavailable.md)</p><p>[IoDeleteSymbolicLink](iodeletesymboliclink.md)</p><p>[IoAssignArcName](ioassignarcname.md)</p><p>[IoDeassignArcName](iodeassignarcname.md)</p><p>[IoSetShareAccess](iosetshareaccess.md)</p><p>[IoConnectInterrupt](ioconnectinterrupt.md)</p><p>[IoDisconnectInterrupt](iodisconnectinterrupt.md)</p><p>[IoConnectInterruptEx](ioconnectinterruptex.md)</p><p>[IoDisconnectInterruptEx](iodisconnectinterruptex.md)</p><p>[IoInitializeDpcRequest](ioinitializedpcrequest.md)</p><p>[IoReadPartitionTable](file:///C:\Docs\kernel\storage\ioreadpartitiontable.md)</p><p>[IoSetPartitionInformation](file:///C:\Docs\kernel\storage\iosetpartitioninformation.md)</p><p>[IoWritePartitionTable](file:///C:\Docs\kernel\storage\iowritepartitiontable.md)</p><p>[IoCreateController](iocreatecontroller.md)</p><p>[IoDeleteController](iodeletecontroller.md)</p><p>[KeInitializeSpinLock](keinitializespinlock.md)</p><p>[KeInitializeDpc](keinitializedpc.md)</p><p>[KeInitializeTimer](keinitializetimer.md)</p><p>[KeInitializeTimerEx](keinitializetimerex.md)</p><p>[KeInitializeEvent](keinitializeevent.md)</p><p>[ExInitializeFastMutex](exinitializefastmutex.md)</p><p>[KeInitializeMutex](keinitializemutex.md)</p><p>[KeInitializeSemaphore](keinitializesemaphore.md)</p><p>[IoCreateNotificationEvent](iocreatenotificationevent.md)</p><p>[IoCreateSynchronizationEvent](iocreatesynchronizationevent.md)</p><p>[PsCreateSystemThread](pscreatesystemthread.md)</p><p>[PsTerminateSystemThread](psterminatesystemthread.md)</p><p>[KeSetBasePriorityThread](kesetbaseprioritythread.md)</p><p>[KeSetPriorityThread](kesetprioritythread.md)</p><p>[MmIsThisAnNtAsSystem](mmisthisanntassystem.md)</p><p>[MmQuerySystemSize](mmquerysystemsize.md)</p><p>[ExInitializeNPagedLookasideList](exinitializenpagedlookasidelist.md)</p><p>[ExInitializePagedLookasideList](exinitializepagedlookasidelist.md)</p><p>[ExInitializeResourceLite](exinitializeresourcelite.md)</p><p>[ExReinitializeResourceLite](exreinitializeresourcelite.md)</p><p>[ExDeleteResourceLite](exdeleteresourcelite.md)</p><p>[ObReferenceObjectByHandle](obreferenceobjectbyhandle.md)</p><p>[ObReferenceObjectByPointer](obreferenceobjectbypointer.md)</p><p>[ObReferenceObject](obreferenceobject.md)</p><p>[ObDereferenceObject](obdereferenceobject.md)</p><p>[RtlInitString](rtlinitstring.md)</p><p>[RtlInitAnsiString](rtlinitansistring.md)</p><p>[RtlInitUnicodeString](rtlinitunicodestring.md)</p><p>[InitializeObjectAttributes](initializeobjectattributes.md)</p><p>[ZwCreateDirectoryObject](zwcreatedirectoryobject.md)</p><p>[ZwCreateFile](zwcreatefile.md)</p><p>[ZwCreateKey](zwcreatekey.md)</p><p>[ZwDeleteKey](zwdeletekey.md)</p><p>[ZwMakeTemporaryObject](zwmaketemporaryobject.md)</p><p>[ZwClose](zwclose.md)</p><p>[PsGetVersion](psgetversion.md)</p><p>[ObGetObjectSecurity](obgetobjectsecurity.md)</p><p>[ObReleaseObjectSecurity](obreleaseobjectsecurity.md)</p> | 
+| Initializing driver-managed internal queues. | <p>[KeInitializeSpinLock](keinitializespinlock.md)</p><p>[InitializeListHead](initializelisthead.md)</p><p>[ExInitializeSListHead](exinitializeslisthead.md)</p><p>[KeInitializeDeviceQueue](keinitializedevicequeue.md)</p><p>[IoCsqInitialize](iocsqinitialize.md)</p> | 
 
-Used for obtaining and reporting hardware configuration information about a driver's devices and the current platform. 
-
-|Function|Description|
-|---|---|
-|IoGetDeviceProperty|Retrieves device setup information from the registry. Use this routine, rather than accessing the registry directly, to insulate a driver from differences across platforms and from possible changes in the registry structure.|
-|IoReportDetectedDevice|Reports a non-PnP device to the PnP manager.|
-|IoReportResourceForDetection |Claims hardware resources in the configuration registry for a legacy device. This routine is for drivers that detect legacy hardware that cannot be enumerated by PnP.|
-|IoGetDmaAdapter |Returns a pointer to the DMA adapter structure that represents either the DMA channel to which a device is connected or the driver's bus-master adapter. |
-|IoGetConfigurationInformation|Returns a pointer to the I/O manager's configuration information structure, which indicates the number of disk, floppy, CD-ROM, tape, SCSI HBAs, serial, and parallel device objects that have already been named by previously loaded drivers, as well as whether certain address ranges have been claimed by "AT" disk-type drivers.|
-|HalExamineMBR|Returns data from the master boot record (MBR) of a disk. |
-|IoReadPartitionTable |Returns a list of partitions on a disk with a given sector size.|
-|IoInvalidateDeviceRelations |Notifies the PnP manager that the relations for a device have changed. The types of device relations include bus relations, ejection relations, removal relations, and the target device relation.|
-|IoInvalidateDeviceState |Notifies the PnP manager that some aspect of the PnP state of a device has changed. In response, the PnP manager sends an IRP_MN_QUERY_PNP_DEVICE_STATE to the device stack.|
-|IoRegisterPlugPlayNotification |Registers a driver callback routine to be called when a PnP event of the specified category occurs.|
-|IoUnregisterPlugPlayNotification |Removes the registration of a driver's callback routine for a PnP event.|
-|IoRequestDeviceEject |Notifies the PnP manager that the device eject button was pressed. This routine reports a request for device eject, not media eject.|
-|IoReportTargetDeviceChange |Notifies the PnP manager that a custom event has occurred on a device. The PnP manager sends notification of the event to drivers that registered for notification on the device. |
 
 
 The following routines are reserved for system use. Do not use them in your driver.
