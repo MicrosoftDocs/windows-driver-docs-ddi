@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e9b09cff-5f1d-4bcb-bd73-efaeafd91206
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::ClearConcepts, ClearConcepts, IModelObject.ClearConcepts, IModelObject::ClearConcepts, IModelObject.ClearConcepts
 req.header: dbgmodel.h
@@ -44,13 +44,30 @@ targetos: Windows
 
 ## -description
 
-TBD
+The ClearConcepts method will remove all concepts from the instance of the object specified by this. 
 
 ## -parameters
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
+**Code Sample**
+
+```
+ComPtr<IModelObject> spObject; /* get an object */
+
+if (SUCCEEDED(spObject->ClearConcepts()))
+{
+    // All concepts are gone from spObject.  Parent models may still have concepts.  
+    // GetConcept may find concepts from parent models.
+}
+```
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)
+

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 86ec618d-0ec9-435d-94d2-6795c756ecd3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::Release, Release, IDataModelManager2.Release, IDataModelManager2::Release, IDataModelManager2.Release
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

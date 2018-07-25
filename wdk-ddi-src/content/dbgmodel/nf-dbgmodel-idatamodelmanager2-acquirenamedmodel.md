@@ -68,7 +68,7 @@ As the primary purpose of the AcquireNamedModel method is to extend the model, t
 **Sample Code**
 
 ```
-ComPtr<IDataModelManager> spManager;    /* get the data model manager */
+ComPtr<IDataModelManager2> spManager;    /* get the data model manager */
 ComPtr<IModelObject> spExtensionModel;  /* create a data model object you want 
                                            to use as an extension (see
                                            CreateDataModelObject) */
@@ -94,4 +94,4 @@ if (SUCCEEDED(spManager->AcquireNamedModel(L"Debugger.Models.Process",
 
 ## -see-also
 
-[IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

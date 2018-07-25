@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 85aace53-f325-4f74-acea-9661aef591c1
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018 
 ms.topic: method
 ms.keywords: IModelObject::EnumerateKeyReferences, EnumerateKeyReferences, IModelObject.EnumerateKeyReferences, IModelObject::EnumerateKeyReferences, IModelObject.EnumerateKeyReferences
 req.header: dbgmodel.h
@@ -44,15 +44,27 @@ targetos: Windows
 
 ## -description
 
-TBD
+The EnumerateKeyReferences method behaves similar to the EnumerateKeyValues method excepting that it returns references to the keys it enumerates (given by an IModelKeyReference interface boxed into an IModelObject) instead of the value of the key. Such references can be used to get or set the underlying value of the keys. 
 
 ## -parameters
 
 ### -param enumerator
 
+An enumerator for references to all keys on the object (and all of its parent models) and metadata is returned in this argument as an IKeyEnumerator.
+
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
+**Code Sample**
+
+```
+
+```
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)

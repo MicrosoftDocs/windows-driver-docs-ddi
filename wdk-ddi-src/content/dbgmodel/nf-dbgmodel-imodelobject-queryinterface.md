@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 250d519d-54d7-4f86-a210-e6f6c5048d3c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::QueryInterface, QueryInterface, IModelObject.QueryInterface, IModelObject::QueryInterface, IModelObject.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)

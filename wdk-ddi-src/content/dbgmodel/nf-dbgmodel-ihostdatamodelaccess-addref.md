@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ded659de-3956-4532-bd8d-9a49074e5c6e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IHostDataModelAccess::AddRef, AddRef, IHostDataModelAccess.AddRef, IHostDataModelAccess::AddRef, IHostDataModelAccess.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDataHostModelAccess interface](nn-dbgmodel-ihostdatamodelaccess.md)
