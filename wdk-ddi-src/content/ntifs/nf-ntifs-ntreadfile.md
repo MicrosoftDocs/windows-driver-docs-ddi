@@ -4,7 +4,7 @@ title: NtReadFile function
 author: windows-driver-content
 description: The ZwReadFile routine reads data from an open file.
 old-location: kernel\zwreadfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

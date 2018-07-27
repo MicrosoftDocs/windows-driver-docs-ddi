@@ -4,7 +4,7 @@ title: TmDereferenceEnlistmentKey function
 author: windows-driver-content
 description: The TmDereferenceEnlistmentKey routine decrements the reference count for the key of a specified enlistment object.
 old-location: kernel\tmdereferenceenlistmentkey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e03b5f4d-58d5-43d5-a0c3-8a3cc83bd38a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

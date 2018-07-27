@@ -4,7 +4,7 @@ title: FltAllocateExtraCreateParameter function
 author: windows-driver-content
 description: The FltAllocateExtraCreateParameter routine allocates paged memory pool for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 85751db5-7a73-4aa5-baf8-0173e9a8f495
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

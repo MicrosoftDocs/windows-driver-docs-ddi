@@ -4,7 +4,7 @@ title: DOT11_DATA_RATE_MAPPING_ENTRY
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_data_rate_mapping_entry.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d2772a9e-655a-4e3e-8b48-65d58b0a659d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,11 +74,11 @@ typedef struct DOT11_DATA_RATE_MAPPING_ENTRY {
 
 ### -field ucDataRateIndex
 
-The index value for the data rate contained in the 
-     <b>usDataRateValue</b> member. The value of the 
-     <b>ucDataRateIndex</b> member must be unique for each entry in the 
+The index value for the data rate contained in the
+     <b>usDataRateValue</b> member. The value of the
+     <b>ucDataRateIndex</b> member must be unique for each entry in the
      <b>DataRateMappingEntries</b> array.
-     
+
 
 This value is a bitmask as defined in the following table.
 
@@ -114,7 +114,7 @@ This bit is not used and must be set to zero.
 ### -field ucDataRateFlag
 
 The attributes of the data rate entry.
-     
+
 
 This value is a bitmask as defined in the following table.
 
@@ -163,13 +163,13 @@ The data rate, defined in units of 500 kilobits per second (Kbps), with a value 
 
 
 
-For the IEEE 802.11 standard data rates, the miniport driver must set the 
-    <b>ucDataRateIndex</b> and 
+For the IEEE 802.11 standard data rates, the miniport driver must set the
+    <b>ucDataRateIndex</b> and
     <b>usDataRateValue</b> members to the same value.
 
 The following table shows the IEEE 802.11 standard data rates, in units of megabits per second (Mbps),
-    and the related values for the 
-    <b>ucDataRateIndex</b> and 
+    and the related values for the
+    <b>ucDataRateIndex</b> and
     <b>usDataRateValue</b> members.
 
 <table>

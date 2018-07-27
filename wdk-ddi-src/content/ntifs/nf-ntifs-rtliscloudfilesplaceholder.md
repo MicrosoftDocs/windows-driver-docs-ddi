@@ -4,7 +4,7 @@ title: RtlIsCloudFilesPlaceholder function
 author: windows-driver-content
 description: The RtlIsCloudFilesPlaceholder routine determines if a file or a directory is a CloudFiles placeholder, based on the FileAttributes and ReparseTag values of the file.
 old-location: ifsk\rtliscloudfilesplaceholder.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9FF2EC69-0844-4FD7-A2BC-F16C42922212
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

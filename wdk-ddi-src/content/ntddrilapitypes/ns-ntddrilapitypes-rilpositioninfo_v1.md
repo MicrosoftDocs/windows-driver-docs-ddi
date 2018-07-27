@@ -4,10 +4,10 @@ title: RILPOSITIONINFO_V1
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfo_v1_2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ff622111-e4c3-47eb-9509-dbe86d0d5acf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILPOSITIONINFO_V1, RILPOSITIONINFO_V1, RILPOSITIONINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v1_2, ntddrilapitypes/RILPOSITIONINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

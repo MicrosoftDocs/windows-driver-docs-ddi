@@ -4,7 +4,7 @@ title: RILOPERATORNAMESPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILOPERATORNAMESPARAMMASK.
 old-location: netvista\riloperatornamesparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f3e3654f-d317-4a8c-aa18-bbac86b06286
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,12 +60,12 @@ req.typenames: RILOPERATORNAMESPARAMMASK
 
 ````
 enum RILOPERATORNAMESPARAMMASK {
-  RIL_PARAM_ON_LONGNAME      = 0x00000001, 
-  RIL_PARAM_ON_SHORTNAME     = 0x00000002, 
-  RIL_PARAM_ON_NUMNAME       = 0x00000004, 
-  RIL_PARAM_ON_COUNTRY_CODE  = 0x00000008, 
-  RIL_PARAM_ON_SYSTEMTYPE    = 0x00000010, 
-  RIL_PARAM_ON_ALL           = 0x0000001F 
+  RIL_PARAM_ON_LONGNAME      = 0x00000001,
+  RIL_PARAM_ON_SHORTNAME     = 0x00000002,
+  RIL_PARAM_ON_NUMNAME       = 0x00000004,
+  RIL_PARAM_ON_COUNTRY_CODE  = 0x00000008,
+  RIL_PARAM_ON_SYSTEMTYPE    = 0x00000010,
+  RIL_PARAM_ON_ALL           = 0x0000001F
 
 };
 ````

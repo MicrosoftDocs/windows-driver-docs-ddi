@@ -4,7 +4,7 @@ title: EVT_SERCX2_PIO_TRANSMIT_CANCEL_DRAIN_FIFO
 author: windows-driver-content
 description: The EvtSerCx2PioTransmitCancelDrainFifo event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a previous request to drain the transmit FIFO in the serial controller hardware.
 old-location: serports\evtsercx2piotransmitcanceldrainfifo.htm
-old-project: serports
+tech.root: serports
 ms.assetid: DAAE9C91-F83F-4D14-8851-7B5DEEA340B3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

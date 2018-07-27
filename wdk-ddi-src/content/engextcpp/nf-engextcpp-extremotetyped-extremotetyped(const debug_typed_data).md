@@ -2,13 +2,13 @@
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA)
 title: ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA)
 author: windows-driver-content
-description: The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class.
-old-location: debugger\extremotetyped_extremotetyped.htm
-old-project: debugger
-ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
+description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
+old-location: debugger\extremotetyped_extremotetyped_debug_typed_data.htm
+tech.root: debugger
+ms.assetid: 6cfe4258-be66-49fd-b154-124951ed0dd1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(), ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA), debugger.extremotetyped_extremotetyped
+ms.date: 5/3/2018
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(DEBUG_TYPED_DATA*), ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA), debugger.extremotetyped_extremotetyped_debug_typed_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemoteTyped</b> class.
+The <b>ExtRemoteTyped</b> constructor creates a new instance of the <b>ExtRemoteTyped</b> class.
 
 
 ## -parameters
@@ -57,8 +57,42 @@ The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemote
 
 
 
-### -param Typed
+### -param Typed [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a> structure that describes the data and type to be represented by this object.
+
+
+## -remarks
+
+
+
+The typed data can also be set or changed using the following methods: 
+	<ul>
+<li>
+
+<a href="https://msdn.microsoft.com/e75c17d2-fdf7-4dba-9892-74c764956924">ExtRemoteTyped::Set(bool)</a>
+
+
+</li>
+<li>
+
+<a href="https://msdn.microsoft.com/a19d6aff-c4e4-4188-8f27-3689e91023b4">ExtRemoteTyped::Set(pcstr)</a>
+
+
+</li>
+<li>
+
+<a href="https://msdn.microsoft.com/acf789f7-781d-4078-90cc-79b0d2709696">ExtRemoteTyped::Set(pcstr ulong64)</a>
+
+
+</li>
+<li>
+
+<a href="https://msdn.microsoft.com/fc3d8d9c-0b19-42b3-b4d7-90df4667739b">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
+
+
+</li>
+</ul>
 
 
 
@@ -81,7 +115,7 @@ The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemote
 
 
 
-<a href="https://msdn.microsoft.com/6cfe4258-be66-49fd-b154-124951ed0dd1">ExtRemoteTyped::ExtRemoteTyped (DEBUG_TYPED_DATA)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544242">ExtRemoteTyped::ExtRemoteTyped</a>
 
 
 
@@ -118,10 +152,6 @@ The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemote
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544181">ExtRemoteTypedList</a>
-
-
-
-<a href="https://msdn.microsoft.com/ae478779-8ec1-4a50-a37c-3017aca2c912">SetPrint</a>
  
 
  

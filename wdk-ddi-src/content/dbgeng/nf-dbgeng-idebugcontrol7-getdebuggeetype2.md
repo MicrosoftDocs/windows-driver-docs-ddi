@@ -4,10 +4,10 @@ title: IDebugControl7::GetDebuggeeType2
 author: windows-driver-content
 description: The GetDebuggeeType2 method describes the nature of the current target.
 old-location: debugger\idebugcontrol7_getdebuggeetype2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging],IDebugControl7 interface, IDebugControl7 interface [Windows Debugging],GetDebuggeeType2 method, IDebugControl7.GetDebuggeeType2, IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: SpbRequestCaptureIoOtherTransferList function
 author: windows-driver-content
 description: The SpbRequestCaptureIoOtherTransferList method retrieves the SPB_TRANSFER_LIST structure in the input buffer of the custom IOCTL request.
 old-location: spb\spbrequestcaptureioothertransferlist.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 7AC76E6F-1250-49EB-BEA1-3807C65AC2B7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

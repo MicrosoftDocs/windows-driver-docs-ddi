@@ -4,10 +4,10 @@ title: RILPHONEBOOKLOCATION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebooklocation.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a4d47312-87e2-4147-94f6-ff9c9d452211
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION structure [Network Drivers Starting with Windows Vista], netvista.rilphonebooklocation, ntddrilapitypes/RILPHONEBOOKLOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

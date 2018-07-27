@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 author: windows-driver-content
 description: Stores information about process mitigation policy.
 old-location: kernel\process_mitigation_payload_restriction_policy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

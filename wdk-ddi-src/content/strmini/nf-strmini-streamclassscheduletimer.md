@@ -4,7 +4,7 @@ title: StreamClassScheduleTimer function
 author: windows-driver-content
 description: The minidriver calls the StreamClassScheduleTimer routine to schedule a timer, and to specify a routine that is called when the timer expires.
 old-location: stream\streamclassscheduletimer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KsMethodHandler function
 author: windows-driver-content
 description: The KsMethodHandler function handles methods requested through IOCTL_KS_METHOD. It works with all method identifiers defined by the sets. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksmethodhandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 730b5fae-3536-44ed-8f92-e4563a137be9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

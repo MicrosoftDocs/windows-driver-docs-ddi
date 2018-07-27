@@ -4,7 +4,7 @@ title: HidP_TranslateUsagesToI8042ScanCodes function
 author: windows-driver-content
 description: The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
 old-location: hid\hidp_translateusagestoi8042scancodes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d3ad851d-ba09-4052-a2d0-d6cb8315e04f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_TAPE_INIT_DATA"
 author: windows-driver-content
 description: TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use TAPE_INIT_DATA_EX instead.
 old-location: storage\tape_init_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 11f5201b-ddd3-43ad-9746-a1a9885c99b1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

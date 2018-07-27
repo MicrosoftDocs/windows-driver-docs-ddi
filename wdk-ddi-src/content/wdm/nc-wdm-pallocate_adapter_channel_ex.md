@@ -4,7 +4,7 @@ title: PALLOCATE_ADAPTER_CHANNEL_EX
 author: windows-driver-content
 description: The AllocateAdapterChannelEx routine allocates the resources that are needed to perform a DMA transfer, and then calls the driver-supplied AdapterControl routine to initiate the DMA transfer.
 old-location: kernel\allocateadapterchannelex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: BF255782-0C3E-4F36-BD38-79CE88E7F37D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

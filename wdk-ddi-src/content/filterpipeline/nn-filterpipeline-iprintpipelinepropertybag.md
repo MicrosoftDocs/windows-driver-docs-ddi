@@ -4,7 +4,7 @@ title: IPrintPipelinePropertyBag
 author: windows-driver-content
 description: The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.
 old-location: print\iprintpipelinepropertybag.htm
-old-project: print
+tech.root: print
 ms.assetid: 3997291f-0af3-4fa8-8d36-20ff36551f42
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

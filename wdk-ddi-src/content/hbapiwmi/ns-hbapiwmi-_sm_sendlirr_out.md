@@ -4,7 +4,7 @@ title: "_SM_SendLIRR_OUT"
 author: windows-driver-content
 description: The SM_SendLIRR_OUT structure is used to receive output parameters from the SM_SendLIRR method.
 old-location: storage\sm_sendlirr_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 68e6ab20-b8a2-4a72-bb38-28fe4345e638
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

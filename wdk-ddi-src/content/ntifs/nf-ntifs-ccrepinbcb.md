@@ -4,7 +4,7 @@ title: CcRepinBcb function
 author: windows-driver-content
 description: The CcRepinBcb routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to CcUnpinData.
 old-location: ifsk\ccrepinbcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

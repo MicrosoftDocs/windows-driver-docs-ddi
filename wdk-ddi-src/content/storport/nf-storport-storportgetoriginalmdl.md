@@ -4,7 +4,7 @@ title: StorPortGetOriginalMdl function
 author: windows-driver-content
 description: The StorPortGetOriginalMdl routine returns the MDL associated with the given SRB.
 old-location: storage\storportgetoriginalmdl.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

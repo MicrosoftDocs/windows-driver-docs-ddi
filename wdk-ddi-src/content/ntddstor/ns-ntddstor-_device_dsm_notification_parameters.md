@@ -4,7 +4,7 @@ title: "_DEVICE_DSM_NOTIFICATION_PARAMETERS"
 author: windows-driver-content
 description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification action related to the data-set attributes for a device.
 old-location: storage\device_dsm_notification_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 57885E58-C7EC-493E-9AB8-B9DABC6CEA2A
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

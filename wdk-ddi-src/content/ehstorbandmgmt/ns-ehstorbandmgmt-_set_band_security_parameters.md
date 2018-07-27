@@ -4,7 +4,7 @@ title: "_SET_BAND_SECURITY_PARAMETERS"
 author: windows-driver-content
 description: The parameters to set security properties for a band on a storage device for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY request are specified in a SET_BAND_SECURITY_PARAMETERS structure.
 old-location: storage\set_band_security_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: D1703D6F-A453-4E3E-8705-344469D61412
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

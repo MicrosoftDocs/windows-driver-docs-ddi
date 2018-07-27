@@ -4,7 +4,7 @@ title: vDbgPrintEx function
 author: windows-driver-content
 description: The vDbgPrintEx routine sends a string to the kernel debugger if certain conditions are met.
 old-location: devtest\vdbgprintex.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: e7118f5b-819f-428f-a5e6-80a36705d626
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: "_WORK_QUEUE_ITEM"
 author: windows-driver-content
 description: The WORK_QUEUE_ITEM structure is used to post a work items to a system work queue.
 old-location: ifsk\work_queue_item.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 068ac200-55bb-4d7b-bc69-ad57d466a36b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IRemoteInterfaceCallbackEvent
 author: windows-driver-content
 description: The IRemoteInterfaceCallbackEvent interface provides a callback function that the framework calls to notify the driver about device events that are associated with a device interface.
 old-location: wdf\iremoteinterfacecallbackevent.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 72b68ed0-d14c-44b1-b848-40c427fe6c9a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

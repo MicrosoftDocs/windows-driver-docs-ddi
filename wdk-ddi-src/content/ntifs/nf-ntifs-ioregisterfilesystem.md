@@ -4,7 +4,7 @@ title: IoRegisterFileSystem function
 author: windows-driver-content
 description: The IoRegisterFileSystem routine adds a file system's control device object to the global file system queue.
 old-location: ifsk\ioregisterfilesystem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 19d53afd-b63c-4fd3-9b08-c51e2a1247af
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

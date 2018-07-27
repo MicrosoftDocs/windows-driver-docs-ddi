@@ -4,7 +4,7 @@ title: GNSS_GEOFENCE_DELETE_PARAM
 author: windows-driver-content
 description: This structure is used for deleting a geofence.
 old-location: gnss\gnss_geofence_delete_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 5F22EC0A-C4C6-43BB-B005-654E47EFACF7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

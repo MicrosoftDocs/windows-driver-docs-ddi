@@ -4,7 +4,7 @@ title: PCREATE_PROCESS_NOTIFY_ROUTINE_EX
 author: windows-driver-content
 description: A callback routine implemented by a driver to notify the caller when a process is created or exits.
 old-location: kernel\pcreate_process_notify_routine_ex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 071BD24F-AA58-4A39-8059-CEF6D7105DB6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

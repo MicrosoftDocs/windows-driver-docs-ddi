@@ -4,7 +4,7 @@ title: "_GetFCPStatistics_IN"
 author: windows-driver-content
 description: The GetFCPStatistics_IN structure is used to deliver input parameter data to the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f6cb4532-fc66-45e7-a779-0981465d69fc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IBidiRequestContainer
 author: windows-driver-content
 description: The IBidiRequestContainer interface allows an application or other objects to compose and retrieve a list of bidi requests.
 old-location: print\ibidirequestcontainer.htm
-old-project: print
+tech.root: print
 ms.assetid: 21dfcbe8-2fc1-4495-af54-5d4c83b8bb79
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

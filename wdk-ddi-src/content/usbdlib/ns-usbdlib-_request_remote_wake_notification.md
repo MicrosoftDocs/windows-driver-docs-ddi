@@ -4,10 +4,10 @@ title: "_REQUEST_REMOTE_WAKE_NOTIFICATION"
 author: windows-driver-content
 description: The purpose of the REQUEST_REMOTE_WAKE_NOTIFICATION structure is to specify input parameters for the IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION I/O control request.
 old-location: buses\usbdevice_remote_wake_notification.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 229B22AC-8252-4D94-BDB5-F1132BF4AE4C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION structure pointer [Buses], REQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION structure [Buses], _REQUEST_REMOTE_WAKE_NOTIFICATION, buses.usbdevice_remote_wake_notification, usbdlib/PREQUEST_REMOTE_WAKE_NOTIFICATION, usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

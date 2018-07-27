@@ -4,7 +4,7 @@ title: "_IO_PRIORITY_INFO"
 author: windows-driver-content
 description: The IO_PRIORITY_INFO structure is used to hold thread priority information.
 old-location: ifsk\io_priority_info.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1161b239-3ad1-4a0c-9d11-4a3a88d361b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

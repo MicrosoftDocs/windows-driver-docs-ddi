@@ -4,10 +4,10 @@ title: IDebugSymbols3::FindSourceFile
 author: windows-driver-content
 description: The FindSourceFile method searches the source path for a specified source file.
 old-location: debugger\findsourcefile.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: FindSourceFile, FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging],IDebugSymbols interface, FindSourceFile method [Windows Debugging],IDebugSymbols2 interface, FindSourceFile method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],FindSourceFile method, IDebugSymbols2 interface [Windows Debugging],FindSourceFile method, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging],FindSourceFile method, IDebugSymbols3.FindSourceFile, IDebugSymbols3::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, dbgeng/IDebugSymbols2::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile
 ms.prod: windows-hardware
 ms.technology: windows-devices

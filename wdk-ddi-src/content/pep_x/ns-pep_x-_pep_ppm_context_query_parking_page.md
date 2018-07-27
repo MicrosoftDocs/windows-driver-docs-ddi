@@ -4,7 +4,7 @@ title: "_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
 author: windows-driver-content
 description: The PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure describes the parking page for a processor.
 old-location: kernel\pep_ppm_context_query_parking_page.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F714D6EE-90F9-4FC6-95EB-32225284DC1F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

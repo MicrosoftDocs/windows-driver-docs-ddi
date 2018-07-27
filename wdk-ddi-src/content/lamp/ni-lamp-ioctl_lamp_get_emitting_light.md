@@ -4,7 +4,7 @@ title: IOCTL_LAMP_GET_EMITTING_LIGHT
 author: windows-driver-content
 description: The IOCTL_LAMP_GET_EMITTING_LIGHT control code queries if the lamp is turned on.
 old-location: stream\ioctl_lamp_get_emitting_light.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 82BBD72D-9F65-442F-8B25-E80A2160C5A2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

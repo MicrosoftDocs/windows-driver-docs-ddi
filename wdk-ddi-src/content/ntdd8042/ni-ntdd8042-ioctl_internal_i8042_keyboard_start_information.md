@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
 author: windows-driver-content
 description: The IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION request passes a pointer to a keyboard interrupt object.
 old-location: hid\ioctl_internal_i8042_keyboard_start_information.htm
-old-project: hid
+tech.root: hid
 ms.assetid: a589b1e1-7462-4de7-83df-c3d55fa01b76
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

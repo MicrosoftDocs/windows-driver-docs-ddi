@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_FREE_CHANNEL"
 author: windows-driver-content
 description: This structure contains the fields required to carry out a IsochFreeChannel request.
 old-location: ieee\irb_req_isoch_free_channel.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 949D165B-1F42-40EA-B050-38847E14B968
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

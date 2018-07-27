@@ -4,7 +4,7 @@ title: IPrintSchemaParameterInitializer
 author: windows-driver-content
 description: The IPrintSchemaParameterInitializer interface represents a parameter initialization value, as defined in the print schema specification.
 old-location: print\iprintschemaparameterinitializer.htm
-old-project: print
+tech.root: print
 ms.assetid: A4A1C231-3D71-4952-B5FA-0C8275DEF4F1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

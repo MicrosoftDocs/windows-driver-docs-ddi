@@ -4,10 +4,10 @@ title: "_D3DDDIARG_ENCRYPTIONBLT"
 author: windows-driver-content
 description: The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the EncryptionBlt function.
 old-location: display\d3dddiarg_encryptionblt.htm
-old-project: display
+tech.root: display
 ms.assetid: 0c163ae6-5f45-4570-bdbb-8ad34ad5f0dc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_ENCRYPTIONBLT, D3DDDIARG_ENCRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_b76b39b2-87b0-453d-b6c5-e59b38249684.xml, _D3DDDIARG_ENCRYPTIONBLT, d3dumddi/D3DDDIARG_ENCRYPTIONBLT, display.d3dddiarg_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

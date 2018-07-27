@@ -4,7 +4,7 @@ title: GNSS_GEOFENCE_ALERT_DATA
 author: windows-driver-content
 description: This structure is used by the GNSS engine to notify a geofence breach alert.
 old-location: gnss\gnss_geofence_alert_data.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 4F7CBB1C-6D23-4015-8403-ABD06B9DC337
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

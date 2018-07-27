@@ -4,7 +4,7 @@ title: "_BATTERY_INFORMATION"
 author: windows-driver-content
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_information.htm
-old-project: battery
+tech.root: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: poclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames: BATTERY_INFORMATION, *PBATTERY_INFORMATION
 ## -description
 
 
-Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests. 
+Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests.
 
 
 ## -syntax
@@ -79,7 +79,7 @@ typedef struct _BATTERY_INFORMATION {
 
 ### -field Capabilities
 
-Specify battery capabilities as a ULONG value encoded with one or more of the following flags: 
+Specify battery capabilities as a ULONG value encoded with one or more of the following flags:
 
 
 
@@ -136,12 +136,12 @@ Specify the theoretical capacity of the battery when new, in milliwatt-hours. If
 
 ### -field FullChargedCapacity
 
-Specify the battery's current fully charged capacity, in milliwatt-hours. If BATTERY_CAPACITY_RELATIVE is set, the units are undefined. 
+Specify the battery's current fully charged capacity, in milliwatt-hours. If BATTERY_CAPACITY_RELATIVE is set, the units are undefined.
 
 
 ### -field DefaultAlert1
 
-Specify the capacity (in milliwatt-hours) at which a low battery alert should occur. 
+Specify the capacity (in milliwatt-hours) at which a low battery alert should occur.
 
 
 ### -field DefaultAlert2

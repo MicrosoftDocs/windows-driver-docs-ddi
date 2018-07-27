@@ -4,7 +4,7 @@ title: GetSecurityUserInfo function
 author: windows-driver-content
 description: The GetSecurityUserInfo function retrieves information about a logon session.
 old-location: ifsk\getsecurityuserinfo.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

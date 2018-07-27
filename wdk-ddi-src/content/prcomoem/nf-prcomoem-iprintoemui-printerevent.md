@@ -4,7 +4,7 @@ title: IPrintOemUI::PrinterEvent
 author: windows-driver-content
 description: The IPrintOemUI::PrinterEvent method allows a user interface plug-in to process printer events.
 old-location: print\iprintoemui_printerevent.htm
-old-project: print
+tech.root: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

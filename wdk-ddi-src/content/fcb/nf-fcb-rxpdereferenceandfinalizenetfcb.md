@@ -4,7 +4,7 @@ title: RxpDereferenceAndFinalizeNetFcb function
 author: windows-driver-content
 description: RxpDereferenceAndFinalizeNetFcb decrements the reference count and finalizes an FCB structure.
 old-location: ifsk\rxpdereferenceandfinalizenetfcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 954a4811-4515-4ed4-a4f1-df598d08fc77
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

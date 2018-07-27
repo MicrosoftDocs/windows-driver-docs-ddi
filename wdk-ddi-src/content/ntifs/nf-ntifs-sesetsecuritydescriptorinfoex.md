@@ -4,7 +4,7 @@ title: SeSetSecurityDescriptorInfoEx function
 author: windows-driver-content
 description: The SeSetSecurityDescriptorInfoEx routine modifies an object's security descriptor and specifies whether the object supports automatic inheritance of access control entries (ACE).
 old-location: ifsk\sesetsecuritydescriptorinfoex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

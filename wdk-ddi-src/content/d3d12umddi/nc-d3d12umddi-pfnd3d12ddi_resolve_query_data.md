@@ -4,10 +4,10 @@ title: PFND3D12DDI_RESOLVE_QUERY_DATA
 author: windows-driver-content
 description: The pfnResolveQueryData callback function transforms a previously stored query into an API defined format.
 old-location: display\pfnd3d12ddi_resolve_query_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA callback, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

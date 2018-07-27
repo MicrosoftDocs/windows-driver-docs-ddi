@@ -4,7 +4,7 @@ title: IRequestCallbackRequestCompletion
 author: windows-driver-content
 description: A driver implements the IRequestCallbackRequestCompletion interface to complete a request object.
 old-location: wdf\irequestcallbackrequestcompletion.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 65803145-8043-4902-981a-9dbbda2d69e9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: OEMQueryColorProfile function
 author: windows-driver-content
 description: OEMQueryColorProfile function
 old-location: print\oemquerycolorprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

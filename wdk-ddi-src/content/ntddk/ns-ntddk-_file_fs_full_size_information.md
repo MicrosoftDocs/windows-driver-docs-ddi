@@ -4,7 +4,7 @@ title: "_FILE_FS_FULL_SIZE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_FULL_SIZE_INFORMATION structure is used to query sector size information for a file system volume.
 old-location: ifsk\file_fs_full_size_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4a37bfed-cf8e-4c97-a9fe-a44d910bed92
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

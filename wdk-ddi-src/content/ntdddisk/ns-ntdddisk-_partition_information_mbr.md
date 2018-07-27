@@ -4,7 +4,7 @@ title: "_PARTITION_INFORMATION_MBR"
 author: windows-driver-content
 description: PARTITION_INFORMATION_MBR contains information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition.
 old-location: storage\partition_information_mbr.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 846f3a1c-ee0a-42d2-bdf1-7bf09406c955
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

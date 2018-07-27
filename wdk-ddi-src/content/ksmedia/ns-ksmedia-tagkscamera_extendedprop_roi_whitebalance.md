@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
 author: windows-driver-content
 description: This structure contains the ROI info structure for white balance.
 old-location: stream\kscamera_extendedprop_roi_whitebalance.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 16BDC61E-390C-4D79-A8D0-049404974733
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

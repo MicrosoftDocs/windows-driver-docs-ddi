@@ -4,7 +4,7 @@ title: KsGetImageNameAndResourceId function
 author: windows-driver-content
 description: The KsGetImageNameAndResourceId function returns the image name and resource identifier that corresponds to the RegKey handle.
 old-location: stream\ksgetimagenameandresourceid.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

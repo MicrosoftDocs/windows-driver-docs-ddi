@@ -4,7 +4,7 @@ title: IPrintCoreUI2::DrvUpgradeRegistrySetting
 author: windows-driver-content
 description: The IPrintCoreUI2::DrvUpgradeRegistrySetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can update device settings stored in the registry.
 old-location: print\iprintcoreui2_drvupgraderegistrysetting.htm
-old-project: print
+tech.root: print
 ms.assetid: c9fa1506-ffef-44a8-9b25-9033280e0c33
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

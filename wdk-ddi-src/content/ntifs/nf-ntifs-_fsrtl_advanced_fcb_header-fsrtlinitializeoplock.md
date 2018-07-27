@@ -4,7 +4,7 @@ title: FsRtlInitializeOplock function
 author: windows-driver-content
 description: FsRtlInitializeOplock initializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fsrtlinitializeoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bfa6f6fd-ce50-40e0-9e98-81519260cc86
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

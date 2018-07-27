@@ -4,7 +4,7 @@ title: KsRegisterWorker function
 author: windows-driver-content
 description: The KsRegisterWorker function handles clients registering for use of a thread.
 old-location: stream\ksregisterworker.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b9c74a56-3f2c-4b94-8fb2-6b44075ec34b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

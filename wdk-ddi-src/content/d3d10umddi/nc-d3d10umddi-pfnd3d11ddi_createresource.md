@@ -4,10 +4,10 @@ title: PFND3D11DDI_CREATERESOURCE
 author: windows-driver-content
 description: Creates a resource.
 old-location: display\createresource_d3d11_.htm
-old-project: display
+tech.root: display
 ms.assetid: 2dff9d2e-c497-422f-824b-a7101904fd67
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3D11DDI_CREATERESOURCE, PFND3D11DDI_CREATERESOURCE callback, UserModeDisplayDriverDx11_Functions_3ac053d0-82dc-4bdf-af15-258af82c568b.xml, d3d10umddi/CreateResource, display.createresource_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices

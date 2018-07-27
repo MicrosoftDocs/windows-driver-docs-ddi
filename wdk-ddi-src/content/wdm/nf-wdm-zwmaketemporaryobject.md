@@ -4,7 +4,7 @@ title: ZwMakeTemporaryObject function
 author: windows-driver-content
 description: The ZwMakeTemporaryObject routine changes the attributes of an object to make it temporary.
 old-location: kernel\zwmaketemporaryobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1b58174f-aa38-4ea3-8e08-41434684e9ef
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KSMETHOD_TYPE_IRP_STORAGE macro
 author: windows-driver-content
 description: This macro accesses the type of method as described in the KSMETHOD_ITEM. If the method will be processed asynchronously using KsDispatchSpecificMethod, this storage must be maintained intact.
 old-location: stream\ksmethod_type_irp_storage.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f5327cbf-e71b-4c1c-94c0-0e27afb4d7cf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

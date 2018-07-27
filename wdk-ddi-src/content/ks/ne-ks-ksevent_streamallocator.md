@@ -4,7 +4,7 @@ title: KSEVENT_STREAMALLOCATOR
 author: windows-driver-content
 description: "."
 old-location: stream\ksevent_streamallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: DD614794-5E54-4538-91C5-8777B244143C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

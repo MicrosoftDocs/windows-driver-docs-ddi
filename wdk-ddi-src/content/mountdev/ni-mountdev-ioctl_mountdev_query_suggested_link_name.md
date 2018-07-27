@@ -4,7 +4,7 @@ title: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
 author: windows-driver-content
 description: Support for this IOCTL by the mount manager clients is optional.
 old-location: storage\ioctl_mountdev_query_suggested_link_name.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4afd8c7a-b7b4-4a02-a270-d4e29f5329f9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

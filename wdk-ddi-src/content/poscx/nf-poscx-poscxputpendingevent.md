@@ -4,7 +4,7 @@ title: PosCxPutPendingEvent function
 author: windows-driver-content
 description: PosCxPutPendingEvent creates a new event object, copies the event data to the new event object, and tries to delegate it to the waiting caller.
 old-location: pos\poscxputpendingevent.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

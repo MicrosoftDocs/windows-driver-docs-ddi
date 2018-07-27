@@ -4,7 +4,7 @@ title: "_SMARTCARD_REQUEST"
 author: windows-driver-content
 description: Describes the request buffer that contains data to send to the card.
 old-location: smartcrd\smartcard_request.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: B5FF5B24-12E6-424A-B09A-4B0572621088
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

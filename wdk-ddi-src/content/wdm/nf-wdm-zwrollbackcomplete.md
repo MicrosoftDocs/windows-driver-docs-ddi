@@ -4,7 +4,7 @@ title: ZwRollbackComplete function
 author: windows-driver-content
 description: The ZwRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\zwrollbackcomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4b6d6791-6c13-49ee-a588-a0ed514279b2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

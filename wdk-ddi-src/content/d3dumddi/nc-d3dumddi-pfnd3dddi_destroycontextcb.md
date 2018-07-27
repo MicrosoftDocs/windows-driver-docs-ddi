@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYCONTEXTCB
 author: windows-driver-content
 description: The pfnDestroyContextCb function destroys the context that was created through a call to the pfnCreateContextCb function.
 old-location: display\pfndestroycontextcb.htm
-old-project: display
+tech.root: display
 ms.assetid: 6b65d75b-544b-4153-b821-d59d6f85673d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3Druntime_Functions_61661c25-9c5c-4ca1-8015-a32ed840fd0a.xml, PFND3DDDI_DESTROYCONTEXTCB, PFND3DDDI_DESTROYCONTEXTCB callback, d3dumddi/pfnDestroyContextCb, display.pfndestroycontextcb, pfnDestroyContextCb, pfnDestroyContextCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

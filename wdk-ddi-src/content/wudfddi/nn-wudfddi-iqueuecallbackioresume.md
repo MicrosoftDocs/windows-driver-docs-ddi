@@ -4,7 +4,7 @@ title: IQueueCallbackIoResume
 author: windows-driver-content
 description: The IQueueCallbackIoResume interface contains a method that resumes the processing of an I/O request from a queue.
 old-location: wdf\iqueuecallbackioresume.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3f27f104-7a06-4f81-9605-2a47c7de7e01
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

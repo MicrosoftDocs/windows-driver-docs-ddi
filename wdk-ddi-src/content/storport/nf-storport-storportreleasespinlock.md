@@ -4,7 +4,7 @@ title: StorPortReleaseSpinLock function
 author: windows-driver-content
 description: The StorPortReleaseSpinLock routine releases a spinlock acquired by StorPortAcquireSpinLock.
 old-location: storage\storportreleasespinlock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: KsRemoveItemFromObjectBag function
 author: windows-driver-content
 description: The KsRemoveItemFromObjectBag function removes an item from an object bag.
 old-location: stream\ksremoveitemfromobjectbag.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

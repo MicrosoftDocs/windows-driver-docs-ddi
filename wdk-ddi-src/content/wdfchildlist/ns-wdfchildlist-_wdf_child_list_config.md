@@ -4,7 +4,7 @@ title: "_WDF_CHILD_LIST_CONFIG"
 author: windows-driver-content
 description: The WDF_CHILD_LIST_CONFIG structure contains configuration information for a list of child devices.
 old-location: wdf\wdf_child_list_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d0a392f4-c7c3-4b61-960c-b94f9605f5a4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

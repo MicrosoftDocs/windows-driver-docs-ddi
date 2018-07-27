@@ -4,7 +4,7 @@ title: "_PEP_COMPONENT_PERF_STATE_REQUEST"
 author: windows-driver-content
 description: The PEP_COMPONENT_PERF_STATE_REQUEST structure specifies a performance state (P-state) set and a new performance level to assign to this set.
 old-location: kernel\pep_component_perf_state_request.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E34E8B3E-787D-4C6A-9F40-AD6728063AD9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

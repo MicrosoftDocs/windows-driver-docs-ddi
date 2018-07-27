@@ -4,7 +4,7 @@ title: IWDFIoTarget2::FormatRequestForQueryInformation
 author: windows-driver-content
 description: The FormatRequestForQueryInformation method formats an I/O request to obtain information about a file, but it does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforqueryinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

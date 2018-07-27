@@ -4,7 +4,7 @@ title: KsPinRegisterFrameReturnCallback function
 author: windows-driver-content
 description: The KsPinRegisterFrameReturnCallback function registers a frame return callback with AVStream for a given pin.
 old-location: stream\kspinregisterframereturncallback.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 480f33e7-6fe6-40a1-9e1b-351378b7e003
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

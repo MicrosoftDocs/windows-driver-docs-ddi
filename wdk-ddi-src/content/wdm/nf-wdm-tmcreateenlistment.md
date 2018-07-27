@@ -4,7 +4,7 @@ title: TmCreateEnlistment function
 author: windows-driver-content
 description: The TmCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\tmcreateenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 84fcbc30-993c-430b-a8b9-aefca44e478e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_HOTPLUG_INFO"
 author: windows-driver-content
 description: The STORAGE_HOTPLUG_INFO structure provides hotplug information for a device.
 old-location: storage\storage_hotplug_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dcfd5a42-cb76-4386-9f8f-98e0a217c49a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

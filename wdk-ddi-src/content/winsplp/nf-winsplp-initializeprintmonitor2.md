@@ -4,7 +4,7 @@ title: InitializePrintMonitor2 function
 author: windows-driver-content
 description: A print monitor's InitializePrintMonitor2 function initializes a print monitor for use with clustered print servers.
 old-location: print\initializeprintmonitor2.htm
-old-project: print
+tech.root: print
 ms.assetid: 73348405-0cc1-412a-b9b1-cfcc300190d7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

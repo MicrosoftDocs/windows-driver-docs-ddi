@@ -4,7 +4,7 @@ title: KeGetRecommendedSharedDataAlignment function
 author: windows-driver-content
 description: The KeGetRecommendedSharedDataAlignment routine returns the preferred alignment for memory structures that can be accessed by more than one processor.
 old-location: kernel\kegetrecommendedshareddataalignment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2faf5e30-bfbb-4b23-9cb9-bf9dd81a56c2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

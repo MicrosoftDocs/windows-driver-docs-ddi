@@ -4,7 +4,7 @@ title: WdfControlDeviceInitSetShutdownNotification function
 author: windows-driver-content
 description: The WdfControlDeviceInitSetShutdownNotification method sets shutdown notification information for a control device object.
 old-location: wdf\wdfcontroldeviceinitsetshutdownnotification.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 43a5a017-f5de-4906-acbb-96419b4a3f1c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

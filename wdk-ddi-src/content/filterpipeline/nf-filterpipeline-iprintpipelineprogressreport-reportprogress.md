@@ -4,7 +4,7 @@ title: IPrintPipelineProgressReport::ReportProgress
 author: windows-driver-content
 description: The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager.
 old-location: print\iprintpipelineprogressreport_reportprogress.htm
-old-project: print
+tech.root: print
 ms.assetid: 989e8888-3494-4355-a41f-2ed774a060d2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_HIDP_CAPS"
 author: windows-driver-content
 description: The HIDP_CAPS structure contains information about a top-level collection's capability.
 old-location: hid\hidp_caps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: ec4d4b7b-acf6-4839-9a61-1883eddce3f4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

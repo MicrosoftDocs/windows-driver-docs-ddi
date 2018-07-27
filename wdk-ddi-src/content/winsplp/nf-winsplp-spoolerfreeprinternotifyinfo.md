@@ -4,7 +4,7 @@ title: SpoolerFreePrinterNotifyInfo function
 author: windows-driver-content
 description: "."
 old-location: print\spoolerfreeprinternotifyinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 5EA31AC4-FFAF-4AB8-B471-32B823F35D2F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

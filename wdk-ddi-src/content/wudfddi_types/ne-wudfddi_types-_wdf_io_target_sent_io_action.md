@@ -4,7 +4,7 @@ title: "_WDF_IO_TARGET_SENT_IO_ACTION"
 author: windows-driver-content
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls IWDFIoTargetStateManagement::Stop or IWDFRemoteTarget::Stop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action__umdf_.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

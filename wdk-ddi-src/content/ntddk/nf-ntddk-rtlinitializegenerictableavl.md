@@ -4,7 +4,7 @@ title: RtlInitializeGenericTableAvl function
 author: windows-driver-content
 description: The RtlInitializeGenericTableAvl routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 old-location: ifsk\rtlinitializegenerictableavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

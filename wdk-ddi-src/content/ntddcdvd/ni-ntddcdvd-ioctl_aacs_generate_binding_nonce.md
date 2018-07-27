@@ -4,7 +4,7 @@ title: IOCTL_AACS_GENERATE_BINDING_NONCE
 author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS) binding nonce starting at the specified byte offset on the disc, as part of the protocol for writing to a protected data area.
 old-location: storage\ioctl_aacs_generate_binding_nonce.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bb0fec4e-e6be-46e1-b6be-253dd0579ca6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

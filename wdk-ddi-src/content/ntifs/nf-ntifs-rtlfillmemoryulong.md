@@ -4,7 +4,7 @@ title: RtlFillMemoryUlong function
 author: windows-driver-content
 description: The RtlFillMemoryUlong routine fills the specified range of memory with one or more repetitions of a ULONG value.
 old-location: ifsk\rtlfillmemoryulong.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

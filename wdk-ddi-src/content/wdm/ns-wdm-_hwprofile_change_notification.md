@@ -4,7 +4,7 @@ title: "_HWPROFILE_CHANGE_NOTIFICATION"
 author: windows-driver-content
 description: The HWPROFILE_CHANGE_NOTIFICATION structure describes an event related to a hardware profile configuration change.
 old-location: kernel\hwprofile_change_notification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b6fe106-2440-4bc6-a3ae-9bb8b18f8094
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

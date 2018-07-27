@@ -4,7 +4,7 @@ title: "_MSiSCSI_NICConfig"
 author: windows-driver-content
 description: The MSiSCSI_NICConfig structure describes the configuration of a network interface card (NIC) port.
 old-location: storage\msiscsi_nicconfig.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ee40ea1f-fe9b-4126-b5b1-83f60cf51909
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

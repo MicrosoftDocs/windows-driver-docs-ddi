@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_WAIT_MASK
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_WAIT_MASK request configures the serial controller driver to notify a client after the occurrence of any one of a specified set of wait events.
 old-location: serports\ioctl_serial_set_wait_mask.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 78d7fca7-d705-407f-95f1-670a417e2202
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

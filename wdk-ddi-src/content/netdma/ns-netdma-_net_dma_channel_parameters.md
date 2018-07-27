@@ -4,10 +4,10 @@ title: "_NET_DMA_CHANNEL_PARAMETERS"
 author: windows-driver-content
 description: The NET_DMA_CHANNEL_PARAMETERS structure specifies the configuration parameters that a DMA provider driver should use to configure a DMA channel.
 old-location: netvista\net_dma_channel_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0d09a9e9-06c5-4026-9053-ac74a59509cc
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS structure [Network Drivers Starting with Windows Vista], NetDmaTransferStatusActive, NetDmaTransferStatusArmed, NetDmaTransferStatusHalted, NetDmaTransferStatusIdle, NetDmaTransferStatusSuspend, PNET_DMA_CHANNEL_PARAMETERS, PNET_DMA_CHANNEL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_PARAMETERS, netdma/NET_DMA_CHANNEL_PARAMETERS, netdma/PNET_DMA_CHANNEL_PARAMETERS, netdma_ref_021ebc64-529e-4588-b5ff-83ed04aa9478.xml, netvista.net_dma_channel_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

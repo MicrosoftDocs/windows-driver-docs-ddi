@@ -4,7 +4,7 @@ title: FsRtlNotifyVolumeEventEx function
 author: windows-driver-content
 description: The FsRtlNotifyVolumeEventEx routine notifies any registered applications that a volume event is occurring. Volume events include the volume being locked, unlocked, mounted, or made read-only.
 old-location: ifsk\fsrtlnotifyvolumeeventex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

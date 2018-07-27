@@ -4,7 +4,7 @@ title: IPrintSchemaFeature
 author: windows-driver-content
 description: Exposes a Print Schema Feature element.
 old-location: print\iprintschemafeature_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: AAC2A60B-9E70-4809-969A-68783A91B093
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

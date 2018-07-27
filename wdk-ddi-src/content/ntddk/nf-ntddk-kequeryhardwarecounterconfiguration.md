@@ -4,7 +4,7 @@ title: KeQueryHardwareCounterConfiguration function
 author: windows-driver-content
 description: The KeQueryHardwareCounterConfiguration routine queries the operating system for the list of hardware counters to use for thread profiling.
 old-location: kernel\kequeryhardwarecounterconfiguration.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

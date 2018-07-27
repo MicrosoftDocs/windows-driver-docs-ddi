@@ -4,7 +4,7 @@ title: FltGetVolumeContext function
 author: windows-driver-content
 description: The FltGetVolumeContext routine retrieves a context that was set for a volume by a given minifilter driver.
 old-location: ifsk\fltgetvolumecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: daa7d15f-580a-4668-9159-834e18b28c1f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_CDROM_RAW_READ
 author: windows-driver-content
 description: Reads data from the CD-ROM in raw mode.
 old-location: storage\ioctl_cdrom_raw_read.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b7791cf7-476c-4319-976d-9da3d96b6a76
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

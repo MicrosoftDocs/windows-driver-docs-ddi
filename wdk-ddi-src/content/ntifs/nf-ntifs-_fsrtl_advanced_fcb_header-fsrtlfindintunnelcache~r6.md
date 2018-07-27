@@ -4,7 +4,7 @@ title: FsRtlFindInTunnelCache function
 author: windows-driver-content
 description: The FsRtlFindInTunnelCache routine searches for a matching entry in the tunnel cache that matches the specified name.
 old-location: ifsk\fsrtlfindintunnelcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -90,7 +90,7 @@ On input, this is a pointer to a variable that specifies the length of the buffe
 
 ### -param Data [out]
 
-Pointer to a caller-allocated buffer to receive the data found in the tunnel cache. 
+Pointer to a caller-allocated buffer to receive the data found in the tunnel cache.
 
 
 #### - DirKey [in]
@@ -127,7 +127,7 @@ If <i>KeyByShortName</i> was set to <b>TRUE</b> in the call to <b>FsRtlAddToTunn
 </ul>
 The value of the buffer length variable pointed to by <i>DataLength</i> must be greater than or equal to the length in bytes of the data stored in the tunnel cache entry.
 
-The caller is required to synchronize this call against <a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlFindInTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads. 
+The caller is required to synchronize this call against <a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlFindInTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads.
 
 For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 

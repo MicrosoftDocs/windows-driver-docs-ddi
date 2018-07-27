@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_ACTIVATE
 author: windows-driver-content
 description: This IOCTL_EHSTOR_BANDMGMT_ACTIVATE request is sent to activate the security features and band management on a storage device. The request includes activation options and the authentication key.
 old-location: storage\ioctl_ehstor_bandmgmt_activate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 10C3077A-1A6A-4AA1-BC9B-829353A8A895
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

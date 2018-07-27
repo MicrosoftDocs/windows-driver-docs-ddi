@@ -4,7 +4,7 @@ title: RtlFindMostSignificantBit function
 author: windows-driver-content
 description: The RtlFindMostSignificantBit routine returns the zero-based position of the most significant nonzero bit in its parameter.
 old-location: kernel\rtlfindmostsignificantbit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 372a155f-e270-49ab-a5ab-9b933b29ed74
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

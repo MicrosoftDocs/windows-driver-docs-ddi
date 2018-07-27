@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
 author: windows-driver-content
 description: Queries the miniport driver to determine whether it is ready for a display device switch.
 old-location: display\ioctl_video_validate_child_state_configuration.htm
-old-project: display
+tech.root: display
 ms.assetid: 18ab1aeb-e1a8-4c62-8c34-4ea534742342
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION control, IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_8e2a488b-85d7-4814-b85b-a96162fe5963.xml, display.ioctl_video_validate_child_state_configuration, ntddvdeo/IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

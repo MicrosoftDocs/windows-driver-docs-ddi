@@ -4,7 +4,7 @@ title: IDriverEntry::OnDeviceAdd
 author: windows-driver-content
 description: The OnDeviceAdd method adds a new device to a system.
 old-location: wdf\idriverentry_ondeviceadd.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

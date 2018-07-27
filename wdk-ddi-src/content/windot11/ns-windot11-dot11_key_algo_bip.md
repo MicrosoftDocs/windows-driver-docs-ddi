@@ -4,7 +4,7 @@ title: DOT11_KEY_ALGO_BIP
 author: windows-driver-content
 description: The DOT11_KEY_ALGO_BIP structure defines a cipher key that is used by the Broadcast Integrity Protocol (BIP) algorithm for management frame integrity protection.
 old-location: netvista\dot11_key_algo_bip.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -73,7 +73,7 @@ typedef struct _DOT11_KEY_ALGO_BIP {
 
 ### -field ucIPN
 
- 
+
 
 
 ### -field ulBIPKeyLength
@@ -83,7 +83,7 @@ The length, in bytes, of the BIP key material in <b>ucBIPKey</b> array.
 
 ### -field ucBIPKey
 
- 
+
 
 
 

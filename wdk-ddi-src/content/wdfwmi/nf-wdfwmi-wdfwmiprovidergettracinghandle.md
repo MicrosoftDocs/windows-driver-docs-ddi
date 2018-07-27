@@ -4,7 +4,7 @@ title: WdfWmiProviderGetTracingHandle function
 author: windows-driver-content
 description: The WdfWmiProviderGetTracingHandle method returns a handle to the event logger of a WPP software tracing session.
 old-location: wdf\wdfwmiprovidergettracinghandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 44ab1cf3-abd3-4100-a6ad-51f2322881b1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

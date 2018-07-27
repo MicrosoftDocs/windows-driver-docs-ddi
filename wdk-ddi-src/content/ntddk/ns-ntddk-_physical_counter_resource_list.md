@@ -4,7 +4,7 @@ title: "_PHYSICAL_COUNTER_RESOURCE_LIST"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_LIST structure describes an array of PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structures.
 old-location: kernel\physical_counter_resource_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a8b22839-6a5d-48e2-a0e5-dae811d729ef
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

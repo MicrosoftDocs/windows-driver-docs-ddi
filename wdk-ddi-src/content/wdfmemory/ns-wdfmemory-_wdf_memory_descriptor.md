@@ -4,7 +4,7 @@ title: "_WDF_MEMORY_DESCRIPTOR"
 author: windows-driver-content
 description: The WDF_MEMORY_DESCRIPTOR structure describes a memory buffer.
 old-location: wdf\wdf_memory_descriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0683cb81-4ae7-4296-b46a-ad2e8b25a781
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_WINBIO_SUPPORTED_ALGORITHMS"
 author: windows-driver-content
 description: The WINBIO_SUPPORTED_ALGORITHMS structure is the OUT payload for IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS.
 old-location: biometric\winbio_supported_algorithms.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: cb2236f6-409a-4352-a02b-f7763e986d1f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

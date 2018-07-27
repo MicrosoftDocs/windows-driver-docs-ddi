@@ -4,7 +4,7 @@ title: ZwQueryInformationTransactionManager function
 author: windows-driver-content
 description: The ZwQueryInformationTransactionManager routine retrieves information about a specified transaction manager object.
 old-location: kernel\zwqueryinformationtransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c87e0635-ad0a-4832-97ed-30c731559fb9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

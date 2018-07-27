@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE structure describes the capabilities of a processor idle state.
 old-location: kernel\pep_processor_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

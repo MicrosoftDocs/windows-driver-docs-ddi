@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_IO_DEFAULT
 author: windows-driver-content
 description: A driver's EvtIoDefault event callback function processes a specified I/O request.
 old-location: wdf\evtiodefault.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0b834d01-5603-43e8-9b74-9292610cc06d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

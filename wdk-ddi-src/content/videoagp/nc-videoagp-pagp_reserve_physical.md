@@ -4,10 +4,10 @@ title: PAGP_RESERVE_PHYSICAL
 author: windows-driver-content
 description: The AgpReservePhysical function reserves a range of physical addresses on the system bus to which the AGP controller can respond.
 old-location: display\agpreservephysical.htm
-old-project: display
+tech.root: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: AgpReservePhysical, AgpReservePhysical callback function [Display Devices], PAGP_RESERVE_PHYSICAL, PAGP_RESERVE_PHYSICAL callback, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml, display.agpreservephysical, videoagp/AgpReservePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_DOT11_WFD_DISCOVER_REQUEST"
 author: windows-driver-content
 description: The OID_DOT11_WFD_DISCOVER_REQUEST structure is the input data for an OID_DOT11_WFD_DISCOVER_REQUEST request. The structure contains the parameters for a Wi-Fi Direct device discovery.
 old-location: netvista\_dot11_wfd_discover_request.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 231318AA-9112-41E2-9E7A-FEC64E5FB30A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -79,11 +79,11 @@ typedef struct _DOT11_WFD_DISCOVER_REQUEST {
 
 ### -field Header
 
-The type, revision, and size of the<b>OID_DOT11_WFD_DISCOVER_REQUEST</b> structure. This member is formatted as an 
+The type, revision, and size of the<b>OID_DOT11_WFD_DISCOVER_REQUEST</b> structure. This member is formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -104,10 +104,10 @@ This member must be set to <b>DOT11_WFD_DISCOVER_REQUEST_REVISION_1</b>.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <b>sizeof</b>(<b>DOT11_SIZEOF_WFD_DISCOVER_REQUEST_REVISION_1</b>).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 

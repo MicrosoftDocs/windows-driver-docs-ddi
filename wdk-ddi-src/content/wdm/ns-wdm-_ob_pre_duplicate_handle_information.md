@@ -4,7 +4,7 @@ title: "_OB_PRE_DUPLICATE_HANDLE_INFORMATION"
 author: windows-driver-content
 description: The OB_PRE_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being duplicated.
 old-location: kernel\ob_pre_duplicate_handle_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f2798729-98a2-44b6-94a6-180bb4db96cb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDFIoRequestCompletionParams::GetWriteParameters
 author: windows-driver-content
 description: The GetWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfiorequestcompletionparams_getwriteparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

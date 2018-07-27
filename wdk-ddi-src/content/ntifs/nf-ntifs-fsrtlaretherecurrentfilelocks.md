@@ -4,7 +4,7 @@ title: FsRtlAreThereCurrentFileLocks macro
 author: windows-driver-content
 description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte range locks exist for the specified file.
 old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

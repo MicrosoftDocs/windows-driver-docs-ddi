@@ -4,7 +4,7 @@ title: IFixedDocumentSequence::SetPrintTicket
 author: windows-driver-content
 description: The SetPrintTicket method inserts a print ticket into the fixed document sequence.
 old-location: print\ifixeddocumentsequence_setprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: 636db99c-9195-4476-b1a6-a8067f27c6bd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

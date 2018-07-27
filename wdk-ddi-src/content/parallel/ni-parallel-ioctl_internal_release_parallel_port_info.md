@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO request returns STATUS_SUCCESS.
 old-location: parports\ioctl_internal_release_parallel_port_info.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 1a28e6db-b140-42aa-be52-fb5655983383
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 # IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -55,7 +55,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ## -description
 
 
-The <b>IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO</b> request returns STATUS_SUCCESS. 
+The <b>IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO</b> request returns STATUS_SUCCESS.
 <div class="alert"><b>Note</b>    The intended purpose of this IOCTL is to make it possible to page the callback routines supported by the system-supplied function driver for parallel ports. However, this capability is not yet implemented.</div><div> </div>
 
 ## -ioctlparameters
@@ -103,7 +103,7 @@ None.
 
 ### -status-block
 
-The <b>Information</b> member is set to zero. 
+The <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the generic status values returned by internal device control requests for parallel ports.
 

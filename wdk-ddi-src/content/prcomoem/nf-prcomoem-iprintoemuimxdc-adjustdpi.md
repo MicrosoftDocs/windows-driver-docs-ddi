@@ -4,7 +4,7 @@ title: IPrintOemUIMXDC::AdjustDPI
 author: windows-driver-content
 description: The IPrintOemUIMXDC::AdjustDPI method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of image resolution.
 old-location: print\iprintoemuimxdc_adjustdpi.htm
-old-project: print
+tech.root: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

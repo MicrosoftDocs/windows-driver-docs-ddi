@@ -4,7 +4,7 @@ title: WdfRegistryRemoveValue function
 author: windows-driver-content
 description: The WdfRegistryRemoveValue method removes a specified value and its data from a specified registry key.
 old-location: wdf\wdfregistryremovevalue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

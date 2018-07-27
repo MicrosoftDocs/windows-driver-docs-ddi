@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_PARAMETERS
 author: windows-driver-content
 description: Returns the parameters of the device.
 old-location: storage\ioctl_changer_get_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c4a6faa4-f3ea-4504-8d3b-a34465c90273
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

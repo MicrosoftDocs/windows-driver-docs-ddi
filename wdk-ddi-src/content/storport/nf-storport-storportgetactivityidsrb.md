@@ -4,7 +4,7 @@ title: StorPortGetActivityIdSrb function
 author: windows-driver-content
 description: Retrieves the Event Tracing for Windows (ETW) activity ID associated with a request block.
 old-location: storage\storportgetactivityidsrb.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

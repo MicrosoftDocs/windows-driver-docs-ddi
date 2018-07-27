@@ -4,7 +4,7 @@ title: "_FSRTL_CHANGE_BACKING_TYPE"
 author: windows-driver-content
 description: The FSRTL_CHANGE_BACKING_TYPE enumeration specifies the type of cache or control area that a file object designates.
 old-location: ifsk\fsrtl_change_backing_type.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 952812f4-5d29-4d1d-ab81-dd3a76a5f04c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

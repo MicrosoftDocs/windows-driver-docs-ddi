@@ -4,7 +4,7 @@ title: WdfDmaTransactionGetDevice function
 author: windows-driver-content
 description: The WdfDmaTransactionGetDevice method returns a handle to the framework device object that is associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fa4d523b-4af2-4a6e-aaa6-d84c829b567d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

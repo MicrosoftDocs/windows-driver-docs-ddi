@@ -4,7 +4,7 @@ title: EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION
 author: windows-driver-content
 description: The EvtSerCx2SystemDmaReceiveEnableNewDataNotification event callback function is called by version 2 of the serial framework extension (SerCx2) to enable the serial controller driver to notify SerCx2 when the serial controller receives new data.
 old-location: serports\evtsercx2systemdmareceiveenablenewdatanotification.htm
-old-project: serports
+tech.root: serports
 ms.assetid: E2B7FE14-1D06-48E7-95FB-C103358340EA
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

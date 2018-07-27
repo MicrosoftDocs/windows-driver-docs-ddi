@@ -4,7 +4,7 @@ title: IoWMISuggestInstanceName function
 author: windows-driver-content
 description: The IoWMISuggestInstanceName routine is used to request that WMI suggest a base name which a driver can use to build WMI instance names for the device.
 old-location: kernel\iowmisuggestinstancename.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

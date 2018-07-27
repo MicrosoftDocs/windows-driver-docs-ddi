@@ -4,7 +4,7 @@ title: "_GPIO_DISCONNECT_IO_PINS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_DISCONNECT_IO_PINS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) pins that are to be disconnected.
 old-location: gpio\gpio_disconnect_io_pins_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 79ABCF93-4EC3-49D5-9943-C820B0B8CF66
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

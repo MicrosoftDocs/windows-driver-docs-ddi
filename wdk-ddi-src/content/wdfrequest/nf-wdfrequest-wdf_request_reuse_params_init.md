@@ -4,7 +4,7 @@ title: WDF_REQUEST_REUSE_PARAMS_INIT function
 author: windows-driver-content
 description: The WDF_REQUEST_REUSE_PARAMS_INIT function initializes a driver's WDF_REQUEST_REUSE_PARAMS structure.
 old-location: wdf\wdf_request_reuse_params_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a77d77c5-5c8a-439a-93a3-fe29b15c6ed0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

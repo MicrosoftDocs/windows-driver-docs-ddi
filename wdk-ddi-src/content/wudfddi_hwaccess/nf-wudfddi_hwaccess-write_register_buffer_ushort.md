@@ -4,7 +4,7 @@ title: WRITE_REGISTER_BUFFER_USHORT function
 author: windows-driver-content
 description: The WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register.
 old-location: wdf\write_register_buffer_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 45E51355-9570-4548-B056-D1655BED5462
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

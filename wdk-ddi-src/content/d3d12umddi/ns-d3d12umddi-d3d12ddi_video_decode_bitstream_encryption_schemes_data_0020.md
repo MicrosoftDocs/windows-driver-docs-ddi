@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020
 author: windows-driver-content
 description: Specifies information used to retrieve the bitstream encryption schemes supported for a decode profile.
 old-location: display\d3d12ddi_video_decode_bitstream_encryption_schemes_data_0010.htm
-old-project: display
+tech.root: display
 ms.assetid: A028463A-5914-4522-8683-F0A692CF09A3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020
 author: windows-driver-content
 description: The orientation to be performed by the video processor.
 old-location: display\d3d12ddi_video_process_orientation.htm
-old-project: display
+tech.root: display
 ms.assetid: 0901AA41-DDA6-46F2-99CA-E45718346A86
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

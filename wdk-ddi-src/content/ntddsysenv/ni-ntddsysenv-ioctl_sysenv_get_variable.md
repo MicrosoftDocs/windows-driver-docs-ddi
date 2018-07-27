@@ -4,7 +4,7 @@ title: IOCTL_SYSENV_GET_VARIABLE
 author: windows-driver-content
 description: Gets the value of the specified system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_get_variable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B6249E4B-DF79-4B74-AE52-137FEF299169
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

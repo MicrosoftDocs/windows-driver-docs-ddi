@@ -4,7 +4,7 @@ title: "_AVC_PIN_ID"
 author: windows-driver-content
 description: The AVC_PIN_ID structure describes a pin on a subunit.
 old-location: stream\avc_pin_id.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0341b1c4-a050-45f4-b9fc-b28b6a8af75d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

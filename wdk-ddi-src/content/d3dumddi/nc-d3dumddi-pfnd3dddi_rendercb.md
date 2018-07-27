@@ -4,10 +4,10 @@ title: PFND3DDDI_RENDERCB
 author: windows-driver-content
 description: The pfnRenderCb function submits the current command buffer for rendering to the display miniport driver.
 old-location: display\pfnrendercb.htm
-old-project: display
+tech.root: display
 ms.assetid: f242162e-6237-469c-b178-5a51dcf69e32
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml, PFND3DDDI_RENDERCB, PFND3DDDI_RENDERCB callback, d3dumddi/pfnRenderCb, display.pfnrendercb, pfnRenderCb, pfnRenderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

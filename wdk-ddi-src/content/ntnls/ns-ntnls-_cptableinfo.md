@@ -4,7 +4,7 @@ title: "_CPTABLEINFO"
 author: windows-driver-content
 description: Stores the NLS file formats.
 old-location: kernel\cptableinfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

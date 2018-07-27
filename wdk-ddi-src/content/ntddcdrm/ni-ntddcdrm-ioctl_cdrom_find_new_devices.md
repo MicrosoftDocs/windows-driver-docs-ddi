@@ -4,7 +4,7 @@ title: IOCTL_CDROM_FIND_NEW_DEVICES
 author: windows-driver-content
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_FIND_NEW_DEVICES. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_cdrom_find_new_devices.htm
-old-project: storage
+tech.root: storage
 ms.assetid: edaf2b57-ca1a-478f-85b9-2a1e86df98ed
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

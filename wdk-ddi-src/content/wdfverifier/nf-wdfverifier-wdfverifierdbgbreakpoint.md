@@ -4,7 +4,7 @@ title: WdfVerifierDbgBreakPoint function
 author: windows-driver-content
 description: The WdfVerifierDbgBreakPoint function breaks into a kernel debugger, if a debugger is running.
 old-location: wdf\wdfverifierdbgbreakpoint.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

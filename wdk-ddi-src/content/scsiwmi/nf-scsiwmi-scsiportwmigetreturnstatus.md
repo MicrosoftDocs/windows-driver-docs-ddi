@@ -4,7 +4,7 @@ title: ScsiPortWmiGetReturnStatus macro
 author: windows-driver-content
 description: The ScsiPortWmiGetReturnStatus routine returns the status of a WMI SRB.
 old-location: storage\scsiportwmigetreturnstatus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 79213f47-ba4c-41b0-b095-1b5c25c79456
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

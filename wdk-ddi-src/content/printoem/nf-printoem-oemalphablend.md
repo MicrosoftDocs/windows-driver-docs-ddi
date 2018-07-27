@@ -4,7 +4,7 @@ title: OEMAlphaBlend function
 author: windows-driver-content
 description: OEMAlphaBlend function
 old-location: print\oemalphablend.htm
-old-project: print
+tech.root: print
 ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

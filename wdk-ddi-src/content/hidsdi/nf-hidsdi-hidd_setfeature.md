@@ -4,7 +4,7 @@ title: HidD_SetFeature function
 author: windows-driver-content
 description: The HidD_SetFeature routine sends a feature report to a top-level collection.
 old-location: hid\hidd_setfeature.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 69b7d775-e689-4010-8c83-f9e393d692be
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

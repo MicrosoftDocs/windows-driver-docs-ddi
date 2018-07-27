@@ -4,7 +4,7 @@ title: GNSS_ERRORINFO
 author: windows-driver-content
 description: This structure contains error information.
 old-location: gnss\gnss_errorinfo.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

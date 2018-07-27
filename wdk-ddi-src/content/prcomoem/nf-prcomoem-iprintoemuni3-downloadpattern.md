@@ -4,7 +4,7 @@ title: IPrintOemUni3::DownloadPattern
 author: windows-driver-content
 description: The IPrintOemUni3::DownloadPattern method downloads a pattern to a printer.
 old-location: print\iprintoemuni3_downloadpattern.htm
-old-project: print
+tech.root: print
 ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

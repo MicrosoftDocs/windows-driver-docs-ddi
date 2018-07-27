@@ -4,7 +4,7 @@ title: IPrintOemPS::EnableDriver
 author: windows-driver-content
 description: The IPrintOemPS::EnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.
 old-location: print\iprintoemps_enabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

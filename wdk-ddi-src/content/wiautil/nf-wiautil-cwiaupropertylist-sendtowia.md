@@ -4,10 +4,10 @@ title: CWiauPropertyList::SendToWia
 author: windows-driver-content
 description: The CWiauPropertyList::SendToWia method calls the WIA service to define all of the properties currently contained in the property list object.
 old-location: image\cwiaupropertylist_sendtowia.htm
-old-project: image
+tech.root: image
 ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SendToWia method, CWiauPropertyList.SendToWia, CWiauPropertyList::SendToWia, SendToWia, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_sendtowia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IoGetDevicePropertyData function
 author: windows-driver-content
 description: The IoGetDevicePropertyData routine retrieves the current setting for a device property.
 old-location: kernel\iogetdevicepropertydata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: StorPortCompleteRequest function
 author: windows-driver-content
 description: The StorPortCompleteRequest routine completes all outstanding requests setting the SRB status value to SrbStatus.
 old-location: storage\storportcompleterequest.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 20ee0633-a743-46e8-a094-37099b8e4427
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

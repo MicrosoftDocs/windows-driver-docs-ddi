@@ -4,10 +4,10 @@ title: IDebugControl3
 author: windows-driver-content
 description: IDebugControl3 interface
 old-location: debugger\idebugcontrol3.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 95e714b4-4167-41a1-ab2c-b088dbaf5fe2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging],described, dbgeng/IDebugControl3, debugger.idebugcontrol3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: FsRtlCopyWrite function
 author: windows-driver-content
 description: The FsRtlCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\fsrtlcopywrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -102,7 +102,7 @@ A pointer to the device object for the mounted volume that holds the file data.
 
 
 <b>FsRtlCopyWrite</b>
-      returns <b>TRUE</b> if the copy request was completed, <b>FALSE</b> otherwise. Note that a return value of <b>TRUE</b> does not necessarily mean that the copy operation was successful. 
+      returns <b>TRUE</b> if the copy request was completed, <b>FALSE</b> otherwise. Note that a return value of <b>TRUE</b> does not necessarily mean that the copy operation was successful.
 
 If <b>FsRtlCopyWrite</b> returns <b>FALSE</b>, or if the contents of <i>IoStatus</i> indicate that the copy operation failed, the caller must allocate a write IRP instead of calling <b>FsRtlCopyWrite</b>.
 
@@ -117,15 +117,15 @@ Rather than implementing a file-system-specific fast I/O write routine, develope
 
 <ol>
 <li>
-For each file on which fast I/O might be performed, the file system must allocate and initialize an FSRTL_COMMON_FCB_HEADER structure. 
+For each file on which fast I/O might be performed, the file system must allocate and initialize an FSRTL_COMMON_FCB_HEADER structure.
 
 In most file systems, this is accomplished by including the FSRTL_COMMON_FCB_HEADER structure in a file control block (FCB) or comparable structure that is used to maintain the state of an open file.
 
-Storage for the FSRTL_COMMON_FCB_HEADER structure is typically allocated from paged pool. 
+Storage for the FSRTL_COMMON_FCB_HEADER structure is typically allocated from paged pool.
 
 </li>
 <li>
-For each file on which fast I/O might be performed, the file system must link any file objects for the file to the FSRTL_COMMON_FCB_HEADER structure. This is done by setting each file object's <b>FsContext</b> member to point to this structure (or to the FCB or other structure that contains the FSRTL_COMMON_FCB_HEADER structure). 
+For each file on which fast I/O might be performed, the file system must link any file objects for the file to the FSRTL_COMMON_FCB_HEADER structure. This is done by setting each file object's <b>FsContext</b> member to point to this structure (or to the FCB or other structure that contains the FSRTL_COMMON_FCB_HEADER structure).
 
 </li>
 <li>

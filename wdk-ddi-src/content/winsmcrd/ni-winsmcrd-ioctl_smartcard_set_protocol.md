@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_SET_PROTOCOL
 author: windows-driver-content
 description: Sets the procotol the driver communicates to the smart card with after the card is detected.
 old-location: nfpdrivers\ioctl_smartcard_set_protocol.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 9A54D427-128F-41C1-B6BD-EE09B0402C32
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,10 +4,10 @@ title: MINIPORT_CO_DEACTIVATE_VC
 author: windows-driver-content
 description: The MiniportCoDeactivateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcodeactivatevc.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8c17cec8-d161-47cf-b886-bb8b8d957656
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_CO_DEACTIVATE_VC, MINIPORT_CO_DEACTIVATE_VC callback, MiniportCoDeactivateVc, MiniportCoDeactivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_01461ff7-cd2e-466d-ab9a-7903484ecbc5.xml, ndis/MiniportCoDeactivateVc, netvista.miniportcodeactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IoGetDeviceNumaNode function
 author: windows-driver-content
 description: The IoGetDeviceNumaNode routine gets the node number of a device.
 old-location: kernel\iogetdevicenumanode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a36e9d57-c820-43db-a6e0-e935bffca254
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

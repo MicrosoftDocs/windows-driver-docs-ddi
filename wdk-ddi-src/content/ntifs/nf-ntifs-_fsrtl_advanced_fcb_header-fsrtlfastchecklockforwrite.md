@@ -4,7 +4,7 @@ title: FsRtlFastCheckLockForWrite function
 author: windows-driver-content
 description: The FsRtlFastCheckLockForWrite routine determines whether the specified process has write access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforwrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

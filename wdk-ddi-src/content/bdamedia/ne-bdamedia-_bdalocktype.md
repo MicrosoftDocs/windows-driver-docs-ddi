@@ -4,7 +4,7 @@ title: "_BdaLockType"
 author: windows-driver-content
 description: The BDA_LockType enumerated type contains values that specify lock types for a signal.
 old-location: stream\bda_locktype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

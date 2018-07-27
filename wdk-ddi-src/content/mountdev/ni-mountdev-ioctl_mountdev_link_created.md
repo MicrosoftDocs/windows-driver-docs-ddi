@@ -4,7 +4,7 @@ title: IOCTL_MOUNTDEV_LINK_CREATED
 author: windows-driver-content
 description: Support for this IOCTL by the mount manager clients is optional. The mount manager uses this IOCTL to alert the client driver that a persistent name has been assigned to its volume. The input for this IOCTL is the persistent name assigned.
 old-location: storage\ioctl_mountdev_link_created.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 98ccf623-8232-4bcb-bd72-39dd31c7ede3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

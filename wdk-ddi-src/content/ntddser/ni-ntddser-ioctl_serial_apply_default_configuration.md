@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
 author: windows-driver-content
 description: The IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code configures the serial port to use the default hardware settings for the serial controller device.
 old-location: serports\ioctl_serial_apply_default_configuration.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 59AA6029-906C-480F-8F18-82C271A2BE88
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

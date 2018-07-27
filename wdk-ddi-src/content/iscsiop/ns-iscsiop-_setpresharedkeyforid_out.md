@@ -4,7 +4,7 @@ title: "_SetPresharedKeyForId_OUT"
 author: windows-driver-content
 description: The SetPresharedKeyForId_OUT structure holds the output data for the SetPresharedKeyForId method.
 old-location: storage\setpresharedkeyforid_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

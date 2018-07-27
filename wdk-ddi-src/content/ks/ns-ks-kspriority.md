@@ -4,7 +4,7 @@ title: KSPRIORITY
 author: windows-driver-content
 description: The KSPRIORITY structure is used to specify priority and is used with the KSPROPERTY_CONNECTION_PRIORITY property.
 old-location: stream\kspriority.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3bbef5f6-f859-4528-b044-baf8f99c2c2f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

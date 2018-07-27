@@ -4,7 +4,7 @@ title: "_STORAGE_PHYSICAL_ADAPTER_DATA"
 author: windows-driver-content
 description: Specifies the physical device data of a storage adapter.
 old-location: storage\storage_physical_adapter_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

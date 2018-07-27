@@ -4,7 +4,7 @@ title: EVT_SERCX2_CONTROL
 author: windows-driver-content
 description: The EvtSerCx2Control event callback function is called by version 2 of the serial framework extension (SerCx2) to handle a serial I/O control request.
 old-location: serports\evtsercx2control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: C7032B34-5912-48B1-8D59-BAE6C0FEFB2C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

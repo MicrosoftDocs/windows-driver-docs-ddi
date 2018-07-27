@@ -4,7 +4,7 @@ title: IOCTL_TAPE_SET_DRIVE_PARAMS
 author: windows-driver-content
 description: Adjusts a tape drive's configurable parameters.
 old-location: storage\ioctl_tape_set_drive_params.htm
-old-project: storage
+tech.root: storage
 ms.assetid: aa625cbf-fa0f-420a-b8ec-2babf4c4ec17
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

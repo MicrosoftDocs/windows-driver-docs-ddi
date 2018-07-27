@@ -4,7 +4,7 @@ title: "_DOT11_SCAN_REQUEST_V2"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_scan_request_v2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -118,16 +118,16 @@ The station can perform active or passive scans, or it can use a combination of 
 Regardless of the value of <b>dot11ScanType</b>, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory domain. Also, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information about regulatory domains, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-reg-domain">
 OID_DOT11_CURRENT_REG_DOMAIN</a>.
 
-If the 
-     <b>dot11_scan_type_forced</b> bit is set in the 
+If the
+     <b>dot11_scan_type_forced</b> bit is set in the
      <b>dot11ScanType</b> member, the 802.11 station must perform a complete scan on every supported channel.
-     If the 
+     If the
      <b>dot11_scan_type_forced</b> bit is not set, the 802.11 station can perform a complete scan, or it can
      perform a partial scan on a subset of the supported channels.
 
-<div class="alert"><b>Note</b>  The 
+<div class="alert"><b>Note</b>  The
      <b>dot11_scan_type_forced</b> bit is only supported when the miniport driver is operating in Extensible
-     Station (ExtSTA) mode. The 
+     Station (ExtSTA) mode. The
      <b>dot11_scan_type_forced</b> bit must be set through a bitwise OR with a DOT11_SCAN_TYPE
      value.</div>
 
@@ -135,7 +135,7 @@ If the
 
 If this member is <b>TRUE</b>, the 802.11 station performs a scan restricted to the channel and PHY
      configuration used to connect to a BSS network.
-     
+
 
 The miniport driver must ignore this member if any of the following are true:
 
@@ -152,14 +152,14 @@ The 802.11 station is not connected to a BSS network.
 
 ### -field udot11SSIDsOffset
 
-The offset in the 
+The offset in the
      <b>ucBuffer</b> array where the service set identifier (SSID) list begins. Each entry in the SSID list is
-     formatted as a 
+     formatted as a
      <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a> structure.
-     
 
-The 802.11 station scans for each SSID in the list. For example, if 
-     <b>dot11ScanType</b> is set to 
+
+The 802.11 station scans for each SSID in the list. For example, if
+     <b>dot11ScanType</b> is set to
      <b>dot11_scan_type_active</b>, the 802.11 station transmits an 802.11 Probe Request for each SSID in the
      list while scanning on a channel.
 
@@ -167,9 +167,9 @@ The 802.11 station scans for each SSID in the list. For example, if
 ### -field uNumOfdot11SSIDs
 
 The number of entries in the SSID list.
-     
 
-If 
+
+If
      <b>uNumOfdot11SSIDs</b> is zero, the miniport driver must use an SSID list containing the wildcard
      zero-length SSID.
 
@@ -177,14 +177,14 @@ If
 ### -field bUseRequestIE
 
 If this member is <b>TRUE</b>, the 802.11 station must include the list of request IDs (defined through
-     the 
-     <b>uRequestIDsOffset</b> and 
+     the
+     <b>uRequestIDsOffset</b> and
      <b>uNumOfRequestIDs</b> members) within the 802.11d request information element (IE) of each Probe
      Request frame that it transmits during the active scan.
-     
 
-The miniport driver must ignore this member (along with the 
-     <b>uRequestIDsOffset</b> and 
+
+The miniport driver must ignore this member (along with the
+     <b>uRequestIDsOffset</b> and
      <b>uNumOfRequestIDs</b> members) if any of the following are true:
 
 <ul>
@@ -193,17 +193,17 @@ The miniport driver is operating in ExtSTA mode.
 
 </li>
 <li>
-The 802.11 
+The 802.11
        <b>dot11MultiDomainCapabilityEnabled</b> management information base (MIB) object is <b>FALSE</b>. For more
-       information about the 
-       <b>dot11MultiDomainCapabilityEnabled</b> MIB object, see 
+       information about the
+       <b>dot11MultiDomainCapabilityEnabled</b> MIB object, see
        <a href="https://msdn.microsoft.com/en-us/library/ee486712.aspx">
        OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</a>.
 
 </li>
 <li>
-The 
-       <b>dot11ScanType</b> member is set to 
+The
+       <b>dot11ScanType</b> member is set to
        <b>dot11_scan_type_passive</b>.
 
 </li>
@@ -211,7 +211,7 @@ The
 
 ### -field uRequestIDsOffset
 
-The offset in the 
+The offset in the
      <b>ucBuffer</b> array where the Request IDs list begins. Each entry in the request IDs list is formatted
      as a UCHAR data type.
 
@@ -223,41 +223,41 @@ The number of entries in the request IDs list.
 
 ### -field uPhyTypeInfosOffset
 
-The offset in the 
+The offset in the
      <b>ucBuffer</b> array where the list of PHY types begins. Each entry in the list of PHY types is
-     formatted as a 
+     formatted as a
      <a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a> structure.
-     
+
 
 The 802.11 station must perform the BSS scan by using each of the specified PHY types from this
      list.
 
-The miniport driver must ignore this member (along with the 
-     <b>uNumOfPhyTypeInfos</b> member) if 
+The miniport driver must ignore this member (along with the
+     <b>uNumOfPhyTypeInfos</b> member) if
      <b>bRestrictedScan</b> is set to <b>TRUE</b>.
 
 
 ### -field uNumOfPhyTypeInfos
 
 The number of entries in the list of PHY types.
-     
 
-If 
+
+If
      <b>uNumOfPhyTypeInfos</b> is zero, the 802.11 station performs the scan using all of its supported
      PHYs.
 
 
 ### -field uIEsOffset
 
-The offset in the 
+The offset in the
      <b>ucBuffer</b> array where the list of variable-length information elements (IEs) begins. The 802.11
      station must append the list of IEs to the end of each Probe Request frame that it transmits during an
      active scan.
-     
 
-The miniport driver must ignore this member (along with the 
-     <b>uIEsLength</b> member) if 
-     <b>dot11ScanType</b> is set to 
+
+The miniport driver must ignore this member (along with the
+     <b>uIEsLength</b> member) if
+     <b>dot11ScanType</b> is set to
      <b>dot11_scan_type_passive</b>.
 
 
@@ -275,16 +275,16 @@ The buffer containing optional data as specified through other members of this s
 
 
 
-The 802.11 station performs explicit scan operations following the OID set request of 
+The 802.11 station performs explicit scan operations following the OID set request of
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>. The station
     performs the scan operation by using the parameters defined through the DOT11_SCAN_REQUEST_V2, which
     accompanies the set request.
 
-For more information about the scan operations performed by a Native 802.11 miniport driver, see 
+For more information about the scan operations performed by a Native 802.11 miniport driver, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
-For more information about the ExtSTA operation mode, see 
+For more information about the ExtSTA operation mode, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
     Mode</a>.
 

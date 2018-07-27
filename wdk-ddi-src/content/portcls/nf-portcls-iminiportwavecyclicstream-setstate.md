@@ -4,10 +4,10 @@ title: IMiniportWaveCyclicStream::SetState
 author: windows-driver-content
 description: The SetState method sets the new state of playback or recording for the stream.
 old-location: audio\iminiportwavecyclicstream_setstate.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 61d7252e-04af-46f1-a885-4720698ae930
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],SetState method, IMiniportWaveCyclicStream.SetState, IMiniportWaveCyclicStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_setstate, audmp-routines_46474aab-87da-4121-9cb8-ee8b280c7852.xml, portcls/IMiniportWaveCyclicStream::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

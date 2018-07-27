@@ -4,7 +4,7 @@ title: "_NLSTABLEINFO"
 author: windows-driver-content
 description: Stores the NLS file formats .
 old-location: kernel\nlstableinfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B9E64163-B338-49C9-8167-C36B110AB710
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

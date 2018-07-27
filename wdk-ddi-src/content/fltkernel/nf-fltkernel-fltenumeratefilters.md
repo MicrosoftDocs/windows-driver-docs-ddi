@@ -4,7 +4,7 @@ title: FltEnumerateFilters function
 author: windows-driver-content
 description: The FltEnumerateFilters routine enumerates all registered minifilter drivers in the system.
 old-location: ifsk\fltenumeratefilters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f39ff534-7b51-49b5-bb1f-7cb0e18b3cfc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

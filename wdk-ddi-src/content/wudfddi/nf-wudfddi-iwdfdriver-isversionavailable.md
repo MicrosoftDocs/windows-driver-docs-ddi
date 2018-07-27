@@ -4,7 +4,7 @@ title: IWDFDriver::IsVersionAvailable
 author: windows-driver-content
 description: The IsVersionAvailable method determines whether the specified version of the framework is available.
 old-location: wdf\iwdfdriver_isversionavailable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9048a568-3369-44eb-8fa8-361ce968a253
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

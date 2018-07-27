@@ -4,10 +4,10 @@ title: IDebugSystemObjects3
 author: windows-driver-content
 description: IDebugSystemObjects3 interface
 old-location: debugger\idebugsystemobjects3.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices

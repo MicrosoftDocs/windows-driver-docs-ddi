@@ -4,7 +4,7 @@ title: "_KEY_NAME_INFORMATION"
 author: windows-driver-content
 description: The KEY_NAME_INFORMATION structure holds the name and name length of the key.
 old-location: kernel\key_name_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5b46e7d9-fbb0-4e55-b1f5-d9d0f1dd1f2c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

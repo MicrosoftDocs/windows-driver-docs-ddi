@@ -4,7 +4,7 @@ title: IOCTL_HID_FLUSH_QUEUE
 author: windows-driver-content
 description: The IOCTL_HID_FLUSH_QUEUE request dequeues all of the unparsed input reports from a top-level collection's input report queue.
 old-location: hid\ioctl_hid_flush_queue.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 97914eb2-18fd-4b7b-8dcd-475c4d98927c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

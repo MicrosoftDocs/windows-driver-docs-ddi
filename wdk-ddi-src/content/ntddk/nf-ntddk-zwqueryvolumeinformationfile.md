@@ -4,7 +4,7 @@ title: ZwQueryVolumeInformationFile function
 author: windows-driver-content
 description: The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwqueryvolumeinformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f83b7171-e250-4c2c-b3cc-2924f58e406e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

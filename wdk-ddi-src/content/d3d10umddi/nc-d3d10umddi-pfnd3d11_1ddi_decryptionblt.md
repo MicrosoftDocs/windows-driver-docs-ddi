@@ -4,10 +4,10 @@ title: PFND3D11_1DDI_DECRYPTIONBLT
 author: windows-driver-content
 description: Writes encrypted data to a protected surface.
 old-location: display\decryptionblt1.htm
-old-project: display
+tech.root: display
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3D11_1DDI_DECRYPTIONBLT, PFND3D11_1DDI_DECRYPTIONBLT callback, d3d10umddi/DecryptionBlt, display.decryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPrintJob::get_SubmissionTime
 author: windows-driver-content
 description: Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
 old-location: print\iprintjob_submissiontime.htm
-old-project: print
+tech.root: print
 ms.assetid: 23433B59-A376-4D92-863E-4492621F3BF5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

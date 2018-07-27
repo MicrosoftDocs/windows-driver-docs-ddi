@@ -4,7 +4,7 @@ title: KsPinGetTrailingEdgeStreamPointer function
 author: windows-driver-content
 description: The KsPinGetTrailingEdgeStreamPointer function acquires the trailing edge stream pointer for the queue associated with the specified pin.
 old-location: stream\kspingettrailingedgestreampointer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 763f1f66-4d83-44aa-9db5-206cf6b6f9b1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

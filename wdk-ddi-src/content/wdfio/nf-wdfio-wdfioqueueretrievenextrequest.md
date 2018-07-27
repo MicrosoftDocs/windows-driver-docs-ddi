@@ -4,7 +4,7 @@ title: WdfIoQueueRetrieveNextRequest function
 author: windows-driver-content
 description: The WdfIoQueueRetrieveNextRequest method retrieves the next available I/O request from a specified I/O queue.
 old-location: wdf\wdfioqueueretrievenextrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1cde2e20-5ce6-4c5b-b40c-0b04da76980c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KsDeviceGetFirstChildFilterFactory function
 author: windows-driver-content
 description: The KsDeviceGetFirstChildFilterFactory function returns the first child filter factory belonging to a given AVStream device.
 old-location: stream\ksdevicegetfirstchildfilterfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: NdisAllocateCloneNetBufferList function
 author: windows-driver-content
 description: Call the NdisAllocateCloneNetBufferList function to create a new clone NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocateclonenetbufferlist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 357605a1-5c57-44ed-97b3-f466f9a7182c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisAllocateCloneNetBufferList, NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneNetBufferList, ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml, netvista.ndisallocateclonenetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

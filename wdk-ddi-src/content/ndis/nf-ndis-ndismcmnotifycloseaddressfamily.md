@@ -4,10 +4,10 @@ title: NdisMCmNotifyCloseAddressFamily macro
 author: windows-driver-content
 description: The NdisMCmNotifyCloseAddressFamily function notifies NDIS that a specified address family (AF) that is associated with a miniport call manager (MCM) should be closed and NDIS should notify any affected CoNDIS clients.
 old-location: netvista\ndismcmnotifycloseaddressfamily.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 47b0b1da-e29b-45cc-921b-69d630670b44
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMCmNotifyCloseAddressFamily, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml, ndis/NdisMCmNotifyCloseAddressFamily, netvista.ndismcmnotifycloseaddressfamily
 ms.prod: windows-hardware
 ms.technology: windows-devices

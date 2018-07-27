@@ -4,7 +4,7 @@ title: IWDFIoRequest2
 author: windows-driver-content
 description: To obtain the IWDFIoRequest2 interface, drivers call IWDFIoRequest::QueryInterface.
 old-location: wdf\iwdfiorequest2.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6a6285c9-8366-4487-a1c5-38aa24d172a9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

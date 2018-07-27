@@ -4,7 +4,7 @@ title: HBA_GetWrapperLibraryAttributes function
 author: windows-driver-content
 description: The HBA_GetWrapperLibraryAttributes routine retrieves the attributes of the fibre channel HBA API library that are operating system-specific.
 old-location: storage\hba_getwrapperlibraryattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c40b8f20-65e9-4e43-a402-14bd30f15975
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

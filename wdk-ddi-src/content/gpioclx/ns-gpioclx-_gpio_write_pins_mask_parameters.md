@@ -4,7 +4,7 @@ title: "_GPIO_WRITE_PINS_MASK_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_WRITE_PINS_MASK_PARAMETERS structure describes a write operation on a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_write_pins_mask_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 5861FC4E-9902-4839-9829-B04F6AED61FE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

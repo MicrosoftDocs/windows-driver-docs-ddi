@@ -4,7 +4,7 @@ title: StorPortAsyncNotificationDetected function
 author: windows-driver-content
 description: A storage miniport driver calls StorPortAsyncNotificationDetected to notify the Storport driver of a storage device status change event.
 old-location: storage\storportasyncnotificationdetected.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

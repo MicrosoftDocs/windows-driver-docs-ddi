@@ -4,7 +4,7 @@ title: "_IRB_REQ_GET_LOCAL_HOST_INFORMATION"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetLocalHostInformation request.
 old-location: ieee\irb_req_get_local_host_information.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 172579A1-9B81-42C7-BAC9-C977C69E7E45
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

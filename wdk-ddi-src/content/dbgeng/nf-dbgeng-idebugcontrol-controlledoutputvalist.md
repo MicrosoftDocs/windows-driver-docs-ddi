@@ -4,10 +4,10 @@ title: IDebugControl::ControlledOutputVaList
 author: windows-driver-content
 description: The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalist.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], ControlledOutputVaList method [Windows Debugging],IDebugControl interface, ControlledOutputVaList method [Windows Debugging],IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ControlledOutputVaList method, IDebugControl.ControlledOutputVaList, IDebugControl2 interface [Windows Debugging],ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl3 interface [Windows Debugging],ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, debugger.controlledoutputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices

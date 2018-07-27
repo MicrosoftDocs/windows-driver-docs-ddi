@@ -4,7 +4,7 @@ title: "_SCSI_PASS_THROUGH_DIRECT_EX"
 author: windows-driver-content
 description: The SCSI_PASS_THROUGH_DIRECT_EX structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_DIRECT_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through_direct_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FE699F78-99AC-46E0-9C51-6F69A5C4932C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

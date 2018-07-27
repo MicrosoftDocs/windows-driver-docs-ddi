@@ -4,7 +4,7 @@ title: KsIsBusEnumChildDevice function
 author: windows-driver-content
 description: The KsIsBusEnumChildDevice function determines if the given device object is a child device of the demand-load bus enumerator object.
 old-location: stream\ksisbusenumchilddevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7b9aa600-dd47-4ef1-acc8-02fb1b4f51ce
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

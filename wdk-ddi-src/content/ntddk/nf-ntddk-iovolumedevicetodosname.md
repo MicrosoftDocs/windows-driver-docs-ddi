@@ -4,7 +4,7 @@ title: IoVolumeDeviceToDosName function
 author: windows-driver-content
 description: The IoVolumeDeviceToDosName routine returns the MS-DOS path for a specified device object that represents a file system volume.
 old-location: kernel\iovolumedevicetodosname.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f860d0ad-f971-4ba7-93fb-20fe8831fc90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

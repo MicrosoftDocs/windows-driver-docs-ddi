@@ -4,7 +4,7 @@ title: KsFilterCreatePinFactory function
 author: windows-driver-content
 description: The KsFilterCreatePinFactory function creates a new pin factory on the specified filter.
 old-location: stream\ksfiltercreatepinfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

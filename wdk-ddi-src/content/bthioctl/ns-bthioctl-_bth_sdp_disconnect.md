@@ -4,7 +4,7 @@ title: "_BTH_SDP_DISCONNECT"
 author: windows-driver-content
 description: The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of IOCTL_BTH_SDP_DISCONNECT.
 old-location: bltooth\bth_sdp_disconnect.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d0466569-7c9d-40d2-8794-b1d877a52458
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

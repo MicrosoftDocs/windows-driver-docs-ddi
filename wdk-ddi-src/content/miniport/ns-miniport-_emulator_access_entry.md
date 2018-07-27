@@ -4,7 +4,7 @@ title: "_EMULATOR_ACCESS_ENTRY"
 author: windows-driver-content
 description: The EMULATOR_ACCESS_ENTRY structure specifies an element in the EmulatorAccessEntries array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 old-location: display\emulator_access_entry.htm
-old-project: display
+tech.root: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topictype:
 -	APIRef

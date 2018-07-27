@@ -4,7 +4,7 @@ title: IoDisconnectInterruptEx function
 author: windows-driver-content
 description: For more information, see the WdmlibIoDisconnectInterruptEx function.#define IoDisconnectInterruptEx WdmlibIoDisconnectInterruptEx
 old-location: kernel\iodisconnectinterruptex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: NdisAllocateSpinLock function
 author: windows-driver-content
 description: The NdisAllocateSpinLock function initializes a variable of type NDIS_SPIN_LOCK, used to synchronize access to resources shared among non-ISR driver functions.
 old-location: netvista\ndisallocatespinlock.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e6199eab-a1e8-428f-8a3c-4828d3899cec
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSpinLock, ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, netvista.ndisallocatespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

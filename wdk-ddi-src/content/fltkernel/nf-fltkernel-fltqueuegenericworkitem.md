@@ -4,7 +4,7 @@ title: FltQueueGenericWorkItem function
 author: windows-driver-content
 description: FltQueueGenericWorkItem posts a work item that is not associated with a specific I/O operation to a work queue.
 old-location: ifsk\fltqueuegenericworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

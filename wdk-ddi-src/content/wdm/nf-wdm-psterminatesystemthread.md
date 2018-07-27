@@ -4,7 +4,7 @@ title: PsTerminateSystemThread function
 author: windows-driver-content
 description: The PsTerminateSystemThread routine terminates the current system thread.
 old-location: kernel\psterminatesystemthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 04f9f699-0ca1-4b22-b66f-04fcf53935c4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

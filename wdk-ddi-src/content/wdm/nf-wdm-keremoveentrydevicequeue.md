@@ -4,7 +4,7 @@ title: KeRemoveEntryDeviceQueue function
 author: windows-driver-content
 description: The KeRemoveEntryDeviceQueue routine returns whether the specified entry is in the device queue and removes it, if it was queued, from the device queue.
 old-location: kernel\keremoveentrydevicequeue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2dc32517-3730-4a1c-a59a-f5036d6f54ef
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_ScsiInquiry_IN"
 author: windows-driver-content
 description: The ScsiInquiry_IN structure is used by a miniport driver to deliver input parameter data to the ScsiInquiry WMI method.
 old-location: storage\scsiinquiry_in2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f7690483-8269-4fb4-9960-9abdbb128b94
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_MSFC_FibrePortNPIVAttributes"
 author: windows-driver-content
 description: The MSFC_FibrePortNPIVAttributes structure contains attribute information for the virtual ports on an adapter.
 old-location: storage\msfc_fibreportnpivattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

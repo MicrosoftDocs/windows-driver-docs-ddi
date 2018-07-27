@@ -4,10 +4,10 @@ title: KSDS3D_LISTENER_ORIENTATION
 author: windows-driver-content
 description: A KSD3D_LISTENER_ORIENTATION structure specifies the position vector of the 3D listener. This structure is used to get or set the data value for the KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION property.
 old-location: audio\ksds3d_listener_orientation.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 3bcb9a6f-aacc-4b42-ba8e-1a1a4898f96d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION structure [Audio Devices], PKSDS3D_LISTENER_ORIENTATION, PKSDS3D_LISTENER_ORIENTATION structure pointer [Audio Devices], aud-prop_9e525f5b-c264-46e5-84f3-3a7845b61200.xml, audio.ksds3d_listener_orientation, ksmedia/KSDS3D_LISTENER_ORIENTATION, ksmedia/PKSDS3D_LISTENER_ORIENTATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

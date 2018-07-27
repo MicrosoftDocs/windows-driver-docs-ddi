@@ -4,7 +4,7 @@ title: "*PPCPIN_DESCRIPTOR"
 author: windows-driver-content
 description: The PCPIN_DESCRIPTOR structure describes a pin factory.
 old-location: audio\pcpin_descriptor.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 1eeee706-b7f4-4b4d-93c8-969eac7c56d9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
@@ -74,27 +74,27 @@ typedef struct {
 
 ### -field portcls.MaxGlobalInstanceCount
 
- 
+
 
 
 ### -field portcls.MaxFilterInstanceCount
 
- 
+
 
 
 ### -field portcls.MinFilterInstanceCount
 
- 
+
 
 
 ### -field portcls.AutomationTable
 
- 
+
 
 
 ### -field portcls.KsPinDescriptor
 
- 
+
 
 
 

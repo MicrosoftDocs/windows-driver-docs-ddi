@@ -4,7 +4,7 @@ title: "_PEP_COMPONENT_PLATFORM_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_COMPONENT_PLATFORM_CONSTRAINTS structure describes the lowest-powered Fx state of that a component can be in when the platform is in a particular idle state.
 old-location: kernel\pep_component_platform_constraints.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F7C2DFCC-DB74-4E2E-B252-4897FA320C03
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

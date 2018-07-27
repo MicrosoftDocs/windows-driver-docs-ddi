@@ -4,7 +4,7 @@ title: WDF_TIMER_CONFIG_INIT_PERIODIC function
 author: windows-driver-content
 description: The WDF_TIMER_CONFIG_INIT_PERIODIC function initializes a WDF_TIMER_CONFIG structure for a periodic timer.
 old-location: wdf\wdf_timer_config_init_periodic.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 44a5b4dd-c654-4af1-afd6-6e59d2cd1ff8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

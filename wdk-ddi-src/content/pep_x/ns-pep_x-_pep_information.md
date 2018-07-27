@@ -4,7 +4,7 @@ title: "_PEP_INFORMATION"
 author: windows-driver-content
 description: The PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx).
 old-location: kernel\pep_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 60221D44-79C0-4043-A4AF-1200C2F087F6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

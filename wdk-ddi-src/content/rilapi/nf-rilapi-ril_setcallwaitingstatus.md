@@ -4,10 +4,10 @@ title: RIL_SetCallWaitingStatus function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setcallwaitingstatus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e511db5d-3544-45a4-9ed4-72bb3f2572ec
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

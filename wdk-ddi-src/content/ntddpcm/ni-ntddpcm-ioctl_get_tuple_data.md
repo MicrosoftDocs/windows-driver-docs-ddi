@@ -4,7 +4,7 @@ title: IOCTL_GET_TUPLE_DATA
 author: windows-driver-content
 description: This request retrieves tuple data that is stored in a PC Card's or CardBus card's attribute memory.
 old-location: pcmcia\ioctl_get_tuple_data.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: 90bb06c3-2975-4290-b6f1-0c36e7b8678b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

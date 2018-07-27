@@ -4,7 +4,7 @@ title: WDF_IO_QUEUE_IDLE function
 author: windows-driver-content
 description: The WDF_IO_QUEUE_IDLE function returns TRUE if an I/O queue's state indicates that the queue is drained.
 old-location: wdf\wdf_io_queue_idle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9ad3be79-13ca-4bcb-b686-09e7563610f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

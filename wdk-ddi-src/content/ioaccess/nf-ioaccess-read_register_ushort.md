@@ -4,7 +4,7 @@ title: READ_REGISTER_USHORT macro
 author: windows-driver-content
 description: The READ_REGISTER_USHORT routine reads a USHORT value from the specified register address.
 old-location: kernel\read_register_ushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d1160b0a-9969-44ba-82e7-14048e1554c2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

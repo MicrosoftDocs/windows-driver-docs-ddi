@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::put_Critical
 author: windows-driver-content
 description: Gets or sets a value that indicates whether the the system power state is critical.
 old-location: dtf\iwdtfsystemaction2_critical.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 173cf6f2-7c6c-41d5-bd30-e323b24a0db0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

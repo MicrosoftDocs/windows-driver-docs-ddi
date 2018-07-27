@@ -4,10 +4,10 @@ title: VideoPortDebugPrint function
 author: windows-driver-content
 description: Video miniport drivers should not call the VideoPortDebugPrint function. Instead, they should call the VideoDebugPrint macro.
 old-location: display\videoportdebugprint.htm
-old-project: display
+tech.root: display
 ms.assetid: c476c8a2-5d79-45cd-ae72-f8792137f9c2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices

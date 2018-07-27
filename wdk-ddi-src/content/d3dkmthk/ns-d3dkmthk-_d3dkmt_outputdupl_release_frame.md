@@ -4,10 +4,10 @@ title: "_D3DKMT_OUTPUTDUPL_RELEASE_FRAME"
 author: windows-driver-content
 description: Defines the duplicated desktop image that is to be released in a call to the D3DKMTOutputDuplReleaseFrame function.
 old-location: display\d3dkmt_outputdupl_release_frame.htm
-old-project: display
+tech.root: display
 ms.assetid: 98d31b6b-c31a-4509-a89f-f09932468313
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame
 ms.prod: windows-hardware
 ms.technology: windows-devices

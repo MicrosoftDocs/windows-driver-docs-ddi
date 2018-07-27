@@ -4,7 +4,7 @@ title: IKsControl::KsMethod
 author: windows-driver-content
 description: The IKsControl::KsMethod method sends a method to a KS object, together with any other defined support operations available on a method set.
 old-location: stream\ikscontrol_ksmethod2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 75100366-ba79-4ff2-b8e0-64c5c3f5f3b9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize2::SetIoTypePreference
 author: windows-driver-content
 description: The SetIoTypePreference method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests.
 old-location: wdf\iwdfdeviceinitialize2_setiotypepreference.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

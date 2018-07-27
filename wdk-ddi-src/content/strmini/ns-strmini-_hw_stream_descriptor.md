@@ -4,7 +4,7 @@ title: "_HW_STREAM_DESCRIPTOR"
 author: windows-driver-content
 description: The minidriver uses the HW_STREAM_DESCRIPTOR structure to return stream information to the stream class driver.
 old-location: stream\hw_stream_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ebc44350-3093-44ba-a2c9-73133fd18db7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

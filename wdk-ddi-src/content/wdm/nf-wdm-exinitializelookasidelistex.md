@@ -4,7 +4,7 @@ title: ExInitializeLookasideListEx function
 author: windows-driver-content
 description: The ExInitializeLookasideListEx routine initializes a lookaside list.
 old-location: kernel\exinitializelookasidelistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2f6072d2-808b-452f-a789-0c6f63195440
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

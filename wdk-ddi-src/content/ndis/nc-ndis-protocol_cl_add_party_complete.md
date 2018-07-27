@@ -4,10 +4,10 @@ title: PROTOCOL_CL_ADD_PARTY_COMPLETE
 author: windows-driver-content
 description: The ProtocolClAddPartyComplete function is required for connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolcladdpartycomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ea3ebbe9-fd94-44b8-8801-639d099c5158
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_ADD_PARTY_COMPLETE, PROTOCOL_CL_ADD_PARTY_COMPLETE callback, ProtocolClAddPartyComplete, ProtocolClAddPartyComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_9c69b521-649f-4c2b-b665-e79cd8c07e48.xml, ndis/ProtocolClAddPartyComplete, netvista.protocolcladdpartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

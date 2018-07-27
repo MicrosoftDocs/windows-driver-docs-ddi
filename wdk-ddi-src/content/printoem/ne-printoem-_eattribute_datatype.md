@@ -4,7 +4,7 @@ title: "_EATTRIBUTE_DATATYPE"
 author: windows-driver-content
 description: The EATTRIBUTE_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.
 old-location: print\eattribute_datatype.htm
-old-project: print
+tech.root: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

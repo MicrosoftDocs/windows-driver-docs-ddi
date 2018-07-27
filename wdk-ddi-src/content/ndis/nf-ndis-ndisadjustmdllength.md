@@ -4,10 +4,10 @@ title: NdisAdjustMdlLength macro
 author: windows-driver-content
 description: The NdisAdjustMdlLength function modifies the length of the data that is associated with an MDL.
 old-location: netvista\ndisadjustmdllength.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d52d985c-3ebc-45a0-8073-ac26c77441c9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisAdjustMdlLength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, netvista.ndisadjustmdllength
 ms.prod: windows-hardware
 ms.technology: windows-devices

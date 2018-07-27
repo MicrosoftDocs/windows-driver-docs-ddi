@@ -4,7 +4,7 @@ title: IoReuseIrp function
 author: windows-driver-content
 description: The IoReuseIrp routine reinitializes an IRP so that it can be reused.
 old-location: kernel\ioreuseirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

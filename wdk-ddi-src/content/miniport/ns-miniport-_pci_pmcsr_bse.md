@@ -4,7 +4,7 @@ title: "_PCI_PMCSR_BSE"
 author: windows-driver-content
 description: The PCI_PMCSR_BSE structure is used to report the contents of the power management control status register for PCI bridge support extensions.
 old-location: pci\pci_pmcsr_bse.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: f65116f6-0a61-4609-993b-d7b2eabf12b5
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames: PCI_PMCSR_BSE, *PPCI_PMCSR_BSE
 ## -description
 
 
-The PCI_PMCSR_BSE structure is used to report the contents of the power management control status register for PCI bridge support extensions. 
+The PCI_PMCSR_BSE structure is used to report the contents of the power management control status register for PCI bridge support extensions.
 
 
 ## -syntax
@@ -72,17 +72,17 @@ typedef struct _PCI_PMCSR_BSE {
 
 ### -field Rsvd1
 
-Reserved. 
+Reserved.
 
 
 ### -field D3HotSupportsStopClock
 
-Indicates how the power state of a secondary bus is affected when the primary bus transitions to a D3 power state. For a detailed explanation of the values in this member and how they affect the relationship between the primary and secondary buses, see the <i>PCI Power Management Specification</i>. 
+Indicates how the power state of a secondary bus is affected when the primary bus transitions to a D3 power state. For a detailed explanation of the values in this member and how they affect the relationship between the primary and secondary buses, see the <i>PCI Power Management Specification</i>.
 
 
 ### -field BusPowerClockControlEnabled
 
-Indicates, when 1, that the bus's power clock control mechanism is enabled. A value of 0 indicates that the bus power clock control mechanism is disabled.  For a detailed explanation of the meaning of this member, see the <i>PCI Power Management Specification</i>. 
+Indicates, when 1, that the bus's power clock control mechanism is enabled. A value of 0 indicates that the bus power clock control mechanism is disabled.  For a detailed explanation of the meaning of this member, see the <i>PCI Power Management Specification</i>.
 
 
 ## -see-also

@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_LOCK
 author: windows-driver-content
 description: An SPB controller driver's EvtSpbControllerLock event callback function locks the SPB controller for accesses of a single target device on the bus.
 old-location: spb\evtspbcontrollerlock.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: E08674F1-CE63-464B-9C70-96F93C574753
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_WHEA_PSHED_PLUGIN_REGISTRATION_PACKET"
 author: windows-driver-content
 description: The WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure describes the data required for registering a PSHED plug-in with the PSHED.
 old-location: whea\whea_pshed_plugin_registration_packet.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 9dafa65f-26f6-42a6-a125-013c61a66ccc
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

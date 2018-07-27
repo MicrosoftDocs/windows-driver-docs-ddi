@@ -4,10 +4,10 @@ title: FwpsInjectTransportReceiveAsync0 function
 author: windows-driver-content
 description: The FwpsInjectTransportReceiveAsync0 function injects packet data from the transport, datagram data, or ICMP error layers into the receive data path.Note  FwpsInjectTransportReceiveAsync0 is a specific version of FwpsInjectTransportReceiveAsync.
 old-location: netvista\fwpsinjecttransportreceiveasync0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

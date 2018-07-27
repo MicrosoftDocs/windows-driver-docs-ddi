@@ -4,7 +4,7 @@ title: CWiauPropertyList::SetCurrentValue
 author: windows-driver-content
 description: The CWiauPropertyList::SetCurrentValue(BSTR) method sets the current value of a property of type BSTR, and sets its type to VT_BSTR.
 old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
-old-project: image
+tech.root: image
 ms.assetid: 017ab648-ee62-47f5-abd3-f4eac4378b8a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -16,19 +16,19 @@ req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # CWiauPropertyList::SetCurrentValue

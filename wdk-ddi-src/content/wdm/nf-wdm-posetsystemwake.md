@@ -4,7 +4,7 @@ title: PoSetSystemWake function
 author: windows-driver-content
 description: The PoSetSystemWake routine marks the specified IRP as one that contributed to waking the system from a sleep state.
 old-location: kernel\posetsystemwake.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

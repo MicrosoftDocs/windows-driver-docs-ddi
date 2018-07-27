@@ -4,7 +4,7 @@ title: SdBusSubmitRequest function
 author: windows-driver-content
 description: The SdBusSubmitRequest routine sends a synchronous Secure Digital (SD) request to the bus driver.
 old-location: sd\sdbussubmitrequest.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 8f794681-afa9-474b-a3b9-bc7c21c7c423
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

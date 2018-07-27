@@ -4,7 +4,7 @@ title: IPrintOemUni::DisableDriver
 author: windows-driver-content
 description: The IPrintOemuNI::DisableDriver method allows a rendering plug-in for Unidrv to free resources that were allocated by the plug-in's IPrintOemUni::EnableDriver method.
 old-location: print\iprintoemuni_disabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: a92d8c2e-52b5-4941-b49e-42e067e56e91
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

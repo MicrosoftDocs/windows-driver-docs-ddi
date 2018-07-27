@@ -4,10 +4,10 @@ title: "_DXGK_UPDATEPAGETABLEFLAGS"
 author: windows-driver-content
 description: DXGK_UPDATEPAGETABLEFLAGS is used as part of a page table update operation.
 old-location: display\dxgk_updatepagetableflags.htm
-old-project: display
+tech.root: display
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

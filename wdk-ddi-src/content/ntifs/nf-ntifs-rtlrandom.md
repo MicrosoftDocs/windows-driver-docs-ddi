@@ -4,7 +4,7 @@ title: RtlRandom function
 author: windows-driver-content
 description: The RtlRandom routine returns a random number that was generated from a given seed value.
 old-location: ifsk\rtlrandom.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f3975ad7-8eb8-4f46-8024-6a1decc21c77
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

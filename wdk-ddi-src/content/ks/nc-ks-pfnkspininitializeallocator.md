@@ -4,7 +4,7 @@ title: PFNKSPININITIALIZEALLOCATOR
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniInitializeAllocator routine initializes an allocator that will be associated with a pin.
 old-location: stream\avstrminiinitializeallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9c6d3856-702c-416b-a5d2-b3578a55bbcd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

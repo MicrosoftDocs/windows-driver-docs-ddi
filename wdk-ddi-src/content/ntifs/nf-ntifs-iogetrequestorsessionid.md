@@ -4,7 +4,7 @@ title: IoGetRequestorSessionId function
 author: windows-driver-content
 description: The IoGetRequestorSessionId routine returns the session ID for the process that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorsessionid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

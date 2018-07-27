@@ -4,10 +4,10 @@ title: "_URB_OPEN_STATIC_STREAMS"
 author: windows-driver-content
 description: The _URB_OPEN_STATIC_STREAMS structure is used by a USB client driver to open streams in the specified bulk endpoint.
 old-location: buses\_urb_open_basic_streams.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: B3C329D6-541B-410D-A9AB-AF91F1141DFD
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "_URB_OPEN_STATIC_STREAMS, _URB_OPEN_STATIC_STREAMS structure [Buses], buses._urb_open_basic_streams, usb/_URB_OPEN_STATIC_STREAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

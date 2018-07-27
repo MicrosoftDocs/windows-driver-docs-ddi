@@ -4,7 +4,7 @@ title: StreamClassDebugAssert function
 author: windows-driver-content
 description: A minidriver can use the StreamClassDebugAssert routine in a checked build environment to fail an assert, causing the stream class driver to output a debug message and break into the kernel debugger.
 old-location: stream\streamclassdebugassert.htm
-old-project: stream
+tech.root: stream
 ms.assetid: df9b3231-4c43-4d4b-b128-e8d6a9f21b17
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

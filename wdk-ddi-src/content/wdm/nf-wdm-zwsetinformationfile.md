@@ -4,7 +4,7 @@ title: ZwSetInformationFile function
 author: windows-driver-content
 description: The ZwSetInformationFile routine changes various kinds of information about a file object.
 old-location: kernel\zwsetinformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a6f92495-89f0-4728-b6d8-083c55bc3206
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

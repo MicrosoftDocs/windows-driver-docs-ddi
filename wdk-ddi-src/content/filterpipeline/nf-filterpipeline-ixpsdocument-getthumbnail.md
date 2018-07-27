@@ -4,7 +4,7 @@ title: IXpsDocument::GetThumbnail
 author: windows-driver-content
 description: The GetThumbnail method gets the document thumbnail object.
 old-location: print\ixpsdocument_getthumbnail.htm
-old-project: print
+tech.root: print
 ms.assetid: 74466609-4408-4065-a607-cd338902335d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

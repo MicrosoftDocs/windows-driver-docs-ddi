@@ -4,10 +4,10 @@ title: RILEXECUTORCONFIG
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilexecutorconfig.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d53c3df2-fd75-4008-a740-0afa293e36eb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILEXECUTORCONFIG, RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig, ntddrilapitypes/RILEXECUTORCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

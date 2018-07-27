@@ -4,7 +4,7 @@ title: UFS_UNIT_CONFIG_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_UNIT_CONFIG_DESCRIPTOR structure describes the user configurable parameters within the UFS_CONFIG_DESCRIPTOR.
 old-location: storage\ufs_unit_config_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

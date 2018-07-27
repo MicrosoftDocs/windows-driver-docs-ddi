@@ -4,7 +4,7 @@ title: IO_CSQ_COMPLETE_CANCELED_IRP
 author: windows-driver-content
 description: The CsqCompleteCanceledIrp routine is used by the system to signal to the driver that it can complete a canceled IRP.
 old-location: kernel\csqcompletecanceledirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ed2f8529-dfc7-4db5-b90c-c0bf8840dc70
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

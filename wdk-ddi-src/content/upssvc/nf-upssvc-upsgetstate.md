@@ -4,7 +4,7 @@ title: UPSGetState function
 author: windows-driver-content
 description: The UPSGetState function returns the operational state of the UPS.
 old-location: battery\upsgetstate.htm
-old-project: battery
+tech.root: battery
 ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

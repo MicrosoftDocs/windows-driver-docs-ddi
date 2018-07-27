@@ -4,7 +4,7 @@ title: IKsDataTypeCompletion
 author: windows-driver-content
 description: The IKsDataTypeCompletion interface provides a method to complete partially specified media types that are passed to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 52976c7d-522e-4ff6-96a2-8ed98abe1739
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

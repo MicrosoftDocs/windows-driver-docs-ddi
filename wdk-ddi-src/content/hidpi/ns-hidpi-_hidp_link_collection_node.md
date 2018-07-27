@@ -4,7 +4,7 @@ title: "_HIDP_LINK_COLLECTION_NODE"
 author: windows-driver-content
 description: The HIDP_LINK_COLLECTION_NODE structure contains information about a link collection in a top-level collection's link collection array.
 old-location: hid\hidp_link_collection_node.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 66ffd219-4a62-404d-ba51-4a91eccfcf96
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RxCeQueryInformation function
 author: windows-driver-content
 description: RxCeQueryInformation queries information about a connection in a caller-allocated buffer.
 old-location: ifsk\rxcequeryinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

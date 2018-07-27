@@ -4,7 +4,7 @@ title: IOCTL_AACS_READ_MEDIA_ID
 author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS)-specific media identifier data.
 old-location: storage\ioctl_aacs_read_media_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e56f6af5-0391-4044-b6b3-efb27b511db6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

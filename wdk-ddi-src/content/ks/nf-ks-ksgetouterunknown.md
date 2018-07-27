@@ -4,7 +4,7 @@ title: KsGetOuterUnknown function
 author: windows-driver-content
 description: The KsGetOuterUnknown function returns the outer IUnknown of a given AVStream object.
 old-location: stream\ksgetouterunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e86e2c96-9ae5-4f6d-9c76-1c2816f318e7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

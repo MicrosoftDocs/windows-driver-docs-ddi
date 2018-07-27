@@ -4,7 +4,7 @@ title: IoCsqRemoveIrp function
 author: windows-driver-content
 description: The IoCsqRemoveIrp routine removes a particular IRP from the queue.
 old-location: kernel\iocsqremoveirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 72a6327c-01b2-479c-a2eb-f58180193d50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

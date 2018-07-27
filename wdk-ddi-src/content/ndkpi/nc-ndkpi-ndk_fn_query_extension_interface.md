@@ -4,10 +4,10 @@ title: NDK_FN_QUERY_EXTENSION_INTERFACE
 author: windows-driver-content
 description: The NdkQqueryExtensionInterface (NDK_FN_QUERY_EXTENSION_INTERFACE) function gets information about an NDK extension interface.
 old-location: netvista\ndk_fn_query_extension_interface.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 439C990E-6978-4D0F-8453-6EB2FED1DB77
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_QUERY_EXTENSION_INTERFACE, NDK_FN_QUERY_EXTENSION_INTERFACE callback, NdkQqueryExtensionInterface, NdkQqueryExtensionInterface callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQqueryExtensionInterface, netvista.ndk_fn_query_extension_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

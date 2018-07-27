@@ -4,10 +4,10 @@ title: IDebugDataSpaces3::VirtualToPhysical
 author: windows-driver-content
 description: The VirtualToPhysical method translates a location in the target's virtual address space into a physical memory address.
 old-location: debugger\virtualtophysical.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: e0b7bd4c-cb3f-4bc3-8359-241c9a245204
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],VirtualToPhysical method, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces3 interface [Windows Debugging],VirtualToPhysical method, IDebugDataSpaces3.VirtualToPhysical, IDebugDataSpaces3::VirtualToPhysical, IDebugDataSpaces4 interface [Windows Debugging],VirtualToPhysical method, IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, VirtualToPhysical, VirtualToPhysical method [Windows Debugging], VirtualToPhysical method [Windows Debugging],IDebugDataSpaces2 interface, VirtualToPhysical method [Windows Debugging],IDebugDataSpaces3 interface, VirtualToPhysical method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::VirtualToPhysical, dbgeng/IDebugDataSpaces3::VirtualToPhysical, dbgeng/IDebugDataSpaces4::VirtualToPhysical, debugger.virtualtophysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: WdfFdoInitQueryProperty function
 author: windows-driver-content
 description: The WdfFdoInitQueryProperty method retrieves a specified device property.
 old-location: wdf\wdffdoinitqueryproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e58def50-3e35-43d9-9f7e-31283256b204
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

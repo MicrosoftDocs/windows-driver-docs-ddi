@@ -4,7 +4,7 @@ title: RtlFindNextForwardRunClear function
 author: windows-driver-content
 description: The RtlFindNextForwardRunClear routine searches a given bitmap variable for the next clear run of bits, starting from the specified index position.
 old-location: kernel\rtlfindnextforwardrunclear.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d923c1a4-4715-4632-8c75-0e48dda9a210
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

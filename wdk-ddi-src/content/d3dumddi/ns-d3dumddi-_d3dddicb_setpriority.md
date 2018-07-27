@@ -4,10 +4,10 @@ title: "_D3DDDICB_SETPRIORITY"
 author: windows-driver-content
 description: The D3DDDICB_SETPRIORITY structure describes the priority level to which to set a resource or list of allocations.
 old-location: display\d3dddicb_setpriority.htm
-old-project: display
+tech.root: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, _D3DDDICB_SETPRIORITY, d3dumddi/D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

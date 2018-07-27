@@ -4,7 +4,7 @@ title: ZwLoadDriver function
 author: windows-driver-content
 description: The ZwLoadDriver routine loads a driver into the system.
 old-location: kernel\zwloaddriver.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

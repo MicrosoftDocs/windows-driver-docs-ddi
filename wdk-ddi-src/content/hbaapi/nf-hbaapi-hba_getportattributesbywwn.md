@@ -4,7 +4,7 @@ title: HBA_GetPortAttributesByWWN function
 author: windows-driver-content
 description: The HBA_GetPortAttributesByWWN routine retrieves the attributes for the port specified by the indicated port name.
 old-location: storage\hba_getportattributesbywwn.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 79d63b5e-78b0-452a-aa84-695c59a7d4a5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

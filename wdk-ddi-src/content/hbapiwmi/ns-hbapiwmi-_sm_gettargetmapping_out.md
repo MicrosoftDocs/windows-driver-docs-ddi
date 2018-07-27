@@ -4,7 +4,7 @@ title: "_SM_GetTargetMapping_OUT"
 author: windows-driver-content
 description: The SM_GetTargetMapping structure_OUT structure is used to receive output parameters from the SM_GetTargetMapping method.
 old-location: storage\sm_gettargetmapping_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 164379fa-15fb-4ab7-9cf8-8403f92d7a42
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

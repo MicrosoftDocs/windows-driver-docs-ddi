@@ -4,7 +4,7 @@ title: "_FCP_SEND_REQUEST"
 author: windows-driver-content
 description: This structure is used for a send request.
 old-location: ieee\fcp_send_request.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 82F36729-57E0-49AB-8C2D-BCBA6EED33EE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

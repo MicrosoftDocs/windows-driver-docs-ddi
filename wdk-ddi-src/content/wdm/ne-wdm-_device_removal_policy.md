@@ -4,7 +4,7 @@ title: "_DEVICE_REMOVAL_POLICY"
 author: windows-driver-content
 description: The DEVICE_REMOVAL_POLICY enumeration describes a device's removal policy.
 old-location: kernel\device_removal_policy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 51d1f0f5-4ca1-4ea6-8561-117240551355
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

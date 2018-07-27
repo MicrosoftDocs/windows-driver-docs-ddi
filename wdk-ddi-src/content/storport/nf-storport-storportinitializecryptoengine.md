@@ -4,7 +4,7 @@ title: StorPortInitializeCryptoEngine function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storportinitializecryptoengine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 49F4EEA1-BFA6-4A91-8306-E25569C679A6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_MEDIASEEKING
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_mediaseeking.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9B9C308B-7D0B-4549-9EE5-2E53B0B8946C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: DXGKDDI_SYSTEM_DISPLAY_ENABLE
 author: windows-driver-content
 description: Called by the operating system to request the display miniport driver to reset the current display device to a specified state.
 old-location: display\dxgkddisystemdisplayenable.htm
-old-project: display
+tech.root: display
 ms.assetid: D938F7F4-E1FA-4C63-A31D-5ED160276565
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DXGKDDI_SYSTEM_DISPLAY_ENABLE callback, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

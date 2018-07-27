@@ -4,7 +4,7 @@ title: KsFilterFactoryGetFirstChildFilter function
 author: windows-driver-content
 description: The KsFilterFactoryGetFirstChildFilter function returns the first instantiated filter created by FilterFactory.
 old-location: stream\ksfilterfactorygetfirstchildfilter.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 72eb23aa-4f0e-4ef5-baee-c0735253684e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

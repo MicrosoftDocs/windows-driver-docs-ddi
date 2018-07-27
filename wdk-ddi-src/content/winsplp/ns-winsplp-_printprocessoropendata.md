@@ -4,7 +4,7 @@ title: "_PRINTPROCESSOROPENDATA"
 author: windows-driver-content
 description: The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's OpenPrintProcessor function.
 old-location: print\printprocessoropendata.htm
-old-project: print
+tech.root: print
 ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

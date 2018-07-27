@@ -4,7 +4,7 @@ title: NETWORK_OPEN_LOCATION_QUALIFIER
 author: windows-driver-content
 description: The NETWORK_OPEN_LOCATION_QUALIFIER enumeration type contains values that identify the kind of location restriction to attach to a file.
 old-location: ifsk\network_open_location_qualifier.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7762bf83-82cc-4eef-9699-d093a8c2b986
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

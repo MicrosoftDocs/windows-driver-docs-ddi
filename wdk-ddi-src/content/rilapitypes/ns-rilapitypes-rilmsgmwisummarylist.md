@@ -4,10 +4,10 @@ title: RILMSGMWISUMMARYLIST
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwisummarylist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b698f9df-5a67-4ddf-9956-21fbd4f6f385
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummarylist, ntddrilapitypes/RILMSGMWISUMMARYLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

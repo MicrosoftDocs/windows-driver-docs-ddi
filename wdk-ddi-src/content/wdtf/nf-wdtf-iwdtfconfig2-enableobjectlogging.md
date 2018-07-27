@@ -4,7 +4,7 @@ title: IWDTFCONFIG2::EnableObjectLogging
 author: windows-driver-content
 description: Enables object logging for all objects.
 old-location: dtf\iwdtfconfig2_enableobjectlogging.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 7518aab0-8de5-4f45-b7d9-3cffdc07ea90
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: KeInitializeSemaphore function
 author: windows-driver-content
 description: The KeInitializeSemaphore routine initializes a semaphore object with a specified count and specifies an upper limit that the count can attain.
 old-location: kernel\keinitializesemaphore.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

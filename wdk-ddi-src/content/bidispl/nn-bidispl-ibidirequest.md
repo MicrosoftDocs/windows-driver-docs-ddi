@@ -4,7 +4,7 @@ title: IBidiRequest
 author: windows-driver-content
 description: The IBidiRequest interface allows an application or other objects to compose a bidi request.
 old-location: print\ibidirequest.htm
-old-project: print
+tech.root: print
 ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: tagSHIMOPTS
 author: windows-driver-content
 description: "."
 old-location: print\shimopts.htm
-old-project: print
+tech.root: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

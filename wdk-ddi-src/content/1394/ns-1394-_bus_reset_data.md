@@ -4,7 +4,7 @@ title: "_BUS_RESET_DATA"
 author: windows-driver-content
 description: The BUS_RESET_DATA structure specifies the context for the extended bus reset notification routine.
 old-location: ieee\bus_reset_data.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

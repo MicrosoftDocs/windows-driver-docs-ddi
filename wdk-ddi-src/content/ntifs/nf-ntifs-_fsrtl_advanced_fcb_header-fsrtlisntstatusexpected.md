@@ -4,7 +4,7 @@ title: FsRtlIsNtstatusExpected function
 author: windows-driver-content
 description: The FsRtlIsNtstatusExpected routine determines whether the specified exception is handled by the exception filter.
 old-location: ifsk\fsrtlisntstatusexpected.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7d495d67-fe43-43d5-8a35-50c070b78b8d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

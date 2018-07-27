@@ -4,10 +4,10 @@ title: "_DXVA_VideoSample"
 author: windows-driver-content
 description: The DXVA_VideoSample structure is sent by the renderer to the driver to specify the format of a video sample.
 old-location: display\dxva_videosample.htm
-old-project: display
+tech.root: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

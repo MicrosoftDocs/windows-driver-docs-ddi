@@ -4,7 +4,7 @@ title: "_KS_DVDCOPY_SET_COPY_STATE"
 author: windows-driver-content
 description: The KS_DVDCOPY_SET_COPY_STATE structure is used to specify the copyright protection state of the DVD decoder stream.
 old-location: stream\ks_dvdcopy_set_copy_state.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e4f637b7-52ce-4ec8-8348-0b65a7f788ad
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

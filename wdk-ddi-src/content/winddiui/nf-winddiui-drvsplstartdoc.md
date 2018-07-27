@@ -4,7 +4,7 @@ title: DrvSplStartDoc function
 author: windows-driver-content
 description: "."
 old-location: print\drvsplstartdoc.htm
-old-project: print
+tech.root: print
 ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: ExRaiseStatus function
 author: windows-driver-content
 description: The ExRaiseStatus routine is called by drivers that supply structured exception handlers to handle particular errors that occur while they are processing I/O requests.
 old-location: kernel\exraisestatus.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eefbec75-f441-492b-becb-98434253dd62
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

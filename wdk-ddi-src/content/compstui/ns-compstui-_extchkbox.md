@@ -4,7 +4,7 @@ title: "_EXTCHKBOX"
 author: windows-driver-content
 description: The EXTCHKBOX structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended check box, which can be added to a property sheet page option.
 old-location: print\extchkbox.htm
-old-project: print
+tech.root: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

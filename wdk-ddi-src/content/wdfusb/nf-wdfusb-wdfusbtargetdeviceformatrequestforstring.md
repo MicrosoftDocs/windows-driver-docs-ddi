@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceFormatRequestForString function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceFormatRequestForString method builds a request for the USB string descriptor that is associated with a USB device's string index value.
 old-location: wdf\wdfusbtargetdeviceformatrequestforstring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f1875578-33c1-4d9e-865b-f1f5391f4aca
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

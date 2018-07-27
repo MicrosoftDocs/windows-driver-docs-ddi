@@ -4,7 +4,7 @@ title: IPartThumbnail::SetThumbnailContent
 author: windows-driver-content
 description: The SetThumbnailContent method sets the thumbnail content for the part.
 old-location: print\ipartthumbnail_setthumbnailcontent.htm
-old-project: print
+tech.root: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

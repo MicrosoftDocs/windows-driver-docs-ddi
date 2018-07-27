@@ -4,7 +4,7 @@ title: SERCX_ACTIVITY_INIT function
 author: windows-driver-content
 description: The SERCX_ACTIVITY_INIT function initializes a SERCX_ACTIVITY structure.
 old-location: serports\sercx_activity_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

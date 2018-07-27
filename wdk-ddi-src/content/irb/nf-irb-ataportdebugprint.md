@@ -4,7 +4,7 @@ title: AtaPortDebugPrint function
 author: windows-driver-content
 description: The AtaPortDebugPrint routine passes a message string to the kernel debugger for the debugger to print.
 old-location: storage\ataportdebugprint.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

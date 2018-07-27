@@ -4,7 +4,7 @@ title: FsRtlFastUnlockAllByKey function
 author: windows-driver-content
 description: The FsRtlFastUnlockAllByKey routine releases all byte-range locks that were acquired by the specified process, with the specified key value, for a file.
 old-location: ifsk\fsrtlfastunlockallbykey.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

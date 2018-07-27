@@ -4,7 +4,7 @@ title: "_DIRECTORY_NOTIFY_INFORMATION_CLASS"
 author: windows-driver-content
 description: A value that specifies which structure to use to query or set information for a files in a directory.
 old-location: ifsk\_directory_notify_information_class.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 77c2515b-f20a-47ac-9564-9eab009cf625
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

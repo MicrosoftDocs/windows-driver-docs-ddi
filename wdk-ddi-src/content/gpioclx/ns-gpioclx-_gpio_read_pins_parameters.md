@@ -4,7 +4,7 @@ title: "_GPIO_READ_PINS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_READ_PINS_PARAMETERS structure describes a read operation on a group of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_read_pins_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: D04C836E-C440-4AB9-BB44-7D1E8E0F681D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

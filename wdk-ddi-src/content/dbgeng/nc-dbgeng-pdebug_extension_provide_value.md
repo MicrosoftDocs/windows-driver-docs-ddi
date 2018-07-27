@@ -4,10 +4,10 @@ title: PDEBUG_EXTENSION_PROVIDE_VALUE
 author: windows-driver-content
 description: The DebugExtensionProvideValue callback function sets pseudo-register values.C++ CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
 old-location: debugger\debugextensionprovidevalue.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: b4b1953c-dc1b-495a-ab58-5cfaa6064b23
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: DEBUG_EXT_PVTYPE_IS_POINTER, DEBUG_EXT_PVTYPE_IS_VALUE, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml, PDEBUG_EXTENSION_PROVIDE_VALUE, PDEBUG_EXTENSION_PROVIDE_VALUE callback, dbgeng/DebugExtensionProvideValue, debugger.debugextensionprovidevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

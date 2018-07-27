@@ -4,7 +4,7 @@ title: InterlockedIncrement function
 author: windows-driver-content
 description: The InterlockedIncrement routine increments a caller-supplied variable as an atomic operation.
 old-location: kernel\interlockedincrement.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e8f4c3c9-c5b7-4fc1-9be3-0254c6cbd6f3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: ISensorDriver::OnClientUnsubscribeFromEvents
 author: windows-driver-content
 description: The ISensorDriver::OnClientUnsubscribeFromEvents method notifies the sensor driver that a client application no longer requests event notifications.
 old-location: sensors\isensordriver_onclientunsubscribefromevents.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientUnsubscribeFromEvents method, ISensorDriver.OnClientUnsubscribeFromEvents, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientunsubscribefromevents, sensorsclassextension/ISensorDriver::OnClientUnsubscribeFromEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

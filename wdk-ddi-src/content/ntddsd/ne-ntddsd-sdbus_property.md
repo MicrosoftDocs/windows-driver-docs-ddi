@@ -4,7 +4,7 @@ title: SDBUS_PROPERTY
 author: windows-driver-content
 description: The SDBUS_PROPERTY enumeration lists the properties of a Secure Digital (SD) card that an SD device driver can set with an SD request.
 old-location: sd\sdbus_property.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 22301feb-2c6b-43ac-b7e8-c10f2e8e4d62
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

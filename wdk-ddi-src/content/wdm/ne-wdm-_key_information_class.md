@@ -4,7 +4,7 @@ title: "_KEY_INFORMATION_CLASS"
 author: windows-driver-content
 description: The KEY_INFORMATION_CLASS enumeration type represents the type of information to supply about a registry key.
 old-location: kernel\key_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

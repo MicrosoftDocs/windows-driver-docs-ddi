@@ -4,10 +4,10 @@ title: NdisFCancelOidRequest function
 author: windows-driver-content
 description: Filter drivers call the NdisFCancelOidRequest function to cancel a previous request to the underlying drivers.
 old-location: netvista\ndisfcanceloidrequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 67dc0769-0d65-4048-84aa-1100883bde46
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, netvista.ndisfcanceloidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

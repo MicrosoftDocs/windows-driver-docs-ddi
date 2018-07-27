@@ -4,7 +4,7 @@ title: OEMFillPath function
 author: windows-driver-content
 description: The OEMFillPath function handles the filling of closed paths.
 old-location: print\oemfillpath.htm
-old-project: print
+tech.root: print
 ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

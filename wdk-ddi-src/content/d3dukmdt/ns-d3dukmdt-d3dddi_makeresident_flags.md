@@ -4,10 +4,10 @@ title: D3DDDI_MAKERESIDENT_FLAGS
 author: windows-driver-content
 description: D3DDDI_MAKERESIDENT_FLAGS is used with MakeResident (pfnMakeResidentCb or D3DKMTMakeResident) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 old-location: display\d3dddi_makeresident_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 1EC4F8EE-1284-4752-8941-F1C31415BF29
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

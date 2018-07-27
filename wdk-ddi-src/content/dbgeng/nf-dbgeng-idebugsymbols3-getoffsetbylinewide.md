@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetOffsetByLineWide
 author: windows-driver-content
 description: The GetOffsetByLineWide method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbylinewide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLineWide method, IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
 ms.prod: windows-hardware
 ms.technology: windows-devices

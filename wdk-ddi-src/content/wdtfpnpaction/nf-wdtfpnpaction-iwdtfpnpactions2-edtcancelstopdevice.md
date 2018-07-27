@@ -4,7 +4,7 @@ title: IWDTFPNPActions2::EDTCancelStopDevice
 author: windows-driver-content
 description: Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtcancelstopdevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: b0616c88-1304-4d39-b7bd-e7d1355a9de6
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

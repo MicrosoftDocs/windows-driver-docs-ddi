@@ -4,7 +4,7 @@ title: RtlFindLastBackwardRunClear function
 author: windows-driver-content
 description: The RtlFindLastBackwardRunClear routine searches a given bitmap for the preceding clear run of bits, starting from the specified index position.
 old-location: kernel\rtlfindlastbackwardrunclear.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ad1a6c18-b0c5-4289-9eec-2b8c8d8d2f07
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

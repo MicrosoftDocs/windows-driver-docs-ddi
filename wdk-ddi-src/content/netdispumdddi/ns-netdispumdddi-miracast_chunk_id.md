@@ -4,10 +4,10 @@ title: MIRACAST_CHUNK_ID
 author: windows-driver-content
 description: Stores info that identifies a wireless display (Miracast) encode chunk.
 old-location: display\miracast_chunk_id.htm
-old-project: display
+tech.root: display
 ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices

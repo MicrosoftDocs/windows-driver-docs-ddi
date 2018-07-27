@@ -4,7 +4,7 @@ title: KSBUFFER_ITEM
 author: windows-driver-content
 description: The KSBUFFER_ITEM structure is used to store a list of data buffers copied from the event source, which can be retrieved by the event sink through KSEVENT_TYPE_QUERYBUFFER.
 old-location: stream\ksbuffer_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e4b11ff8-cafc-456c-b274-e47b85ac77d0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: MmSizeOfMdl function
 author: windows-driver-content
 description: The MmSizeOfMdl routine returns the number of bytes to allocate for an MDL describing a given address range.
 old-location: kernel\mmsizeofmdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_WHEA_PCI_SLOT_NUMBER"
 author: windows-driver-content
 description: The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 old-location: whea\whea_pci_slot_number.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 4e2938a2-6301-4d2a-a467-eca1f5bbb260
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

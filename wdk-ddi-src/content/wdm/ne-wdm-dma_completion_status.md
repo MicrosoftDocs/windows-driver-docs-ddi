@@ -4,7 +4,7 @@ title: DMA_COMPLETION_STATUS
 author: windows-driver-content
 description: The DMA_COMPLETION_STATUS enumeration describes the completion status of a DMA transfer.
 old-location: kernel\dma_completion_status.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

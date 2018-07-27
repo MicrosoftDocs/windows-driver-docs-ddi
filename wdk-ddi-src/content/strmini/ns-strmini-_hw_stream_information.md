@@ -4,7 +4,7 @@ title: "_HW_STREAM_INFORMATION"
 author: windows-driver-content
 description: The HW_STREAM_INFORMATION structure describes the kernel streaming semantics supported by individual streams, as part of an HW_STREAM_DESCRIPTOR structure.
 old-location: stream\hw_stream_information.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d1163185-4cae-4f14-ae99-78795da89fb8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

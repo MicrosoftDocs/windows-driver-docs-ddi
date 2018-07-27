@@ -4,10 +4,10 @@ title: NDIS_WDI_TX_DEQUEUE_IND
 author: windows-driver-content
 description: The NdisWdiTxDequeueIndication callback function is called in the context of a MiniportWdiTxDataSend or MiniportWdiTxTalSend by the IHV miniport to dequeue frames from WDI to the IHV miniport.
 old-location: netvista\ndiswditxdequeueindication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ACCB45DA-1233-4276-A0F5-466E50D9377B
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NDIS_WDI_TX_DEQUEUE_IND callback, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
 ms.prod: windows-hardware
 ms.technology: windows-devices

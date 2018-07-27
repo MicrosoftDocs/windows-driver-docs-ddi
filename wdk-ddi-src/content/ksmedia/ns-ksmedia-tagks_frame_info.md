@@ -4,7 +4,7 @@ title: tagKS_FRAME_INFO
 author: windows-driver-content
 description: The KS_FRAME_INFO structure extends the KSSTREAM_HEADER structure for video streams.
 old-location: stream\ks_frame_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7c2ebe5d-ecb0-41d2-a1bb-7e131ea350a7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

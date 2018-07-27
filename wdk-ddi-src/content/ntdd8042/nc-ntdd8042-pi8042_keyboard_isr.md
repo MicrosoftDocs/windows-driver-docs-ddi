@@ -4,7 +4,7 @@ title: PI8042_KEYBOARD_ISR
 author: windows-driver-content
 description: A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR.
 old-location: hid\pi8042_keyboard_isr.htm
-old-project: hid
+tech.root: hid
 ms.assetid: e21fa089-0650-4a3f-96f9-f479d36ef080
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RxAcquireExclusiveFcbResourceInMRx function
 author: windows-driver-content
 description: RxAcquireExclusiveFcbResourceInMRx acquires the FCB resource for a network mini-redirector driver in exclusive mode.
 old-location: ifsk\rxacquireexclusivefcbresourceinmrx.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 417c3ffd-5c40-430d-9aec-169203dba685
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

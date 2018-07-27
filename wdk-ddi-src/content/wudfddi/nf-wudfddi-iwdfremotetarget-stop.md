@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::Stop
 author: windows-driver-content
 description: The Stop method temporarily stops a remote I/O target.
 old-location: wdf\iwdfremotetarget_stop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

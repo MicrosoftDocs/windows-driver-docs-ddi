@@ -4,7 +4,7 @@ title: RtlLongToShort function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type SHORT.
 old-location: kernel\rtllongtoshort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: FDFEADE6-CD33-4C04-972B-3E31C43E730A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

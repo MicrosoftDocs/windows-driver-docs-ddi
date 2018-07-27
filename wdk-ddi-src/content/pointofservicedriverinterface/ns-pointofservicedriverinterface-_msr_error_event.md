@@ -4,7 +4,7 @@ title: "_MSR_ERROR_EVENT"
 author: windows-driver-content
 description: This structure contains the error data that is passed to the MagneticStripeReaderErrorOccured event.
 old-location: pos\msr_error_event.htm
-old-project: pos
+tech.root: pos
 ms.assetid: daab2df5-4d23-4fe3-b357-74b2615e6d1e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

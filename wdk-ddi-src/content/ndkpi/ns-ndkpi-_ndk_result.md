@@ -4,10 +4,10 @@ title: "_NDK_RESULT"
 author: windows-driver-content
 description: The NDK_RESULT structure returns the results for an NDK request operation.
 old-location: netvista\ndk_result.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result
 ms.prod: windows-hardware
 ms.technology: windows-devices

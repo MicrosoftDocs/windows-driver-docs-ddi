@@ -4,7 +4,7 @@ title: "_TAPE_WMI_OPERATIONS"
 author: windows-driver-content
 description: The tape miniclass driver passes this structure to its TapeMiniWMIControl routine to indicate which WMI operation must be performed by the device.
 old-location: storage\tape_wmi_operations.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 430d982e-4740-46ad-8391-aba5813a833a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

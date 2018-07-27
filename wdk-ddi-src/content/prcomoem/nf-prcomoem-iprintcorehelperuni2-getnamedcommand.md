@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni2::GetNamedCommand
 author: windows-driver-content
 description: The GetNamedCommand method returns the specified command.
 old-location: print\iprintcorehelperuni2_getnamedcommand.htm
-old-project: print
+tech.root: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: StorPortInterlockedInsertHeadList function
 author: windows-driver-content
 description: The StorPortInterlockedInsertHeadList routine atomically inserts an entry at the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinsertheadlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

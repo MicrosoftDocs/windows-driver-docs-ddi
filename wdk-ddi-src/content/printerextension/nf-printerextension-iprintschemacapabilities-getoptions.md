@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::GetOptions
 author: windows-driver-content
 description: Gets all the options of a feature.
 old-location: print\iprintschemacapabilities_getoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

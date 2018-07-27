@@ -4,7 +4,7 @@ title: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function
 author: windows-driver-content
 description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function initializes a WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure.
 old-location: wdf\wdf_child_identification_description_header_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5c0d7abf-05e3-45fc-b5a4-db6f79a94a87
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

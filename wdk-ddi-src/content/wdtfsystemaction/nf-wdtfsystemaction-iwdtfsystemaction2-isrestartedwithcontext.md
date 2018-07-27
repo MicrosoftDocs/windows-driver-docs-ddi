@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::IsRestartedWithContext
 author: windows-driver-content
 description: Gets a value that indicates whether the test script was restarted for a specific context.
 old-location: dtf\iwdtfsystemaction2_isrestartedwithcontext.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 4a7038e6-4c56-48cb-ae8b-34acc363a9a9
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

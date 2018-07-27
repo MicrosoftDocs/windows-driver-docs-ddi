@@ -4,7 +4,7 @@ title: "_SCSI_PASS_THROUGH"
 author: windows-driver-content
 description: The SCSI_PASS_THROUGH structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7470af45-3ebe-44d4-8066-62a69636c20e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_PCI_CAPABILITIES_HEADER"
 author: windows-driver-content
 description: The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure.
 old-location: pci\pci_capabilities_header.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
 ## -description
 
 
-The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure. 
+The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure.
 
 
 ## -syntax
@@ -84,7 +84,7 @@ PCI_CAPABILITY_ID_POWER_MANAGEMENT
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines a PCI power management interface. For more information about this kind of capability, see the <i>PCI Power Management Interface Specificatio</i>n. 
+Indicates that the capability structure that follows the header defines a PCI power management interface. For more information about this kind of capability, see the <i>PCI Power Management Interface Specificatio</i>n.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ PCI_CAPABILITY_ID_SLOT_ID
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines external expansion capabilities of a bridge device. For more information about this kind of capability, see the <i>PCI to PCI Bridge Architecture Specificatio</i>n. 
+Indicates that the capability structure that follows the header defines external expansion capabilities of a bridge device. For more information about this kind of capability, see the <i>PCI to PCI Bridge Architecture Specificatio</i>n.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ PCI_CAPABILITY_ID_MSI
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines a <i>PCI device</i> that can do message signaled interrupt (MSI) delivery. For more information about the MSI capability, see the <i>PCI Local Bus Specification</i>. 
+Indicates that the capability structure that follows the header defines a <i>PCI device</i> that can do message signaled interrupt (MSI) delivery. For more information about the MSI capability, see the <i>PCI Local Bus Specification</i>.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ PCI_CAPABILITY_ID_CPCI_HOTSWAP
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines a standard interface to control and sense status. Devices that supports hot swap insertion and extraction in a CompactPCI system require this kind of interface. For more information about control and sense status in CompactPCI systems, see the <i>CompactPCI Hot Swap Specification</i>. 
+Indicates that the capability structure that follows the header defines a standard interface to control and sense status. Devices that supports hot swap insertion and extraction in a CompactPCI system require this kind of interface. For more information about control and sense status in CompactPCI systems, see the <i>CompactPCI Hot Swap Specification</i>.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ PCI_CAPABILITY_ID_HYPERTRANSPORT
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines control and status for devices that implement hyper transport (HT) technology links. For more information about HT technology, refer to the <i>HyperTransport I/O Link Specification</i>. 
+Indicates that the capability structure that follows the header defines control and status for devices that implement hyper transport (HT) technology links. For more information about HT technology, refer to the <i>HyperTransport I/O Link Specification</i>.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ PCI_CAPABILITY_ID_VENDOR_SPECIFIC
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines vendor specific information. For more information about how to use the capability mechanism to communicate vendor-specific information, see the <i>PCI Local Bus Specification</i>. 
+Indicates that the capability structure that follows the header defines vendor specific information. For more information about how to use the capability mechanism to communicate vendor-specific information, see the <i>PCI Local Bus Specification</i>.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ PCI_CAPABILITY_ID_CPCI_RES_CTRL
 
 </td>
 <td>
-Indicates that the capability structure that follows the header describes CompactPCI central resource control. For more information about this kind of control see the <i>PICMG 2.13 Specification</i>. 
+Indicates that the capability structure that follows the header describes CompactPCI central resource control. For more information about this kind of control see the <i>PICMG 2.13 Specification</i>.
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ PCI_CAPABILITY_ID_AGP_TARGET
 
 </td>
 <td>
-Indicates that the capability structure that follows the header defines the Accelerated Graphics Port (AGP) 8x capability. 
+Indicates that the capability structure that follows the header defines the Accelerated Graphics Port (AGP) 8x capability.
 
 </td>
 </tr>
@@ -254,14 +254,14 @@ Indicates that the capability structure that follows the header defines an optio
 
 ### -field Next
 
-Contains an offset into the PCI configuration space that indicates the location of the next item in the capability list. If there are no additional items in the list, this member will contain zero. 
+Contains an offset into the PCI configuration space that indicates the location of the next item in the capability list. If there are no additional items in the list, this member will contain zero.
 
 
 ## -remarks
 
 
 
-All PCI Capability structures have the header described by PCI_CAPABILITIES_HEADER. 
+All PCI Capability structures have the header described by PCI_CAPABILITIES_HEADER.
 
 
 

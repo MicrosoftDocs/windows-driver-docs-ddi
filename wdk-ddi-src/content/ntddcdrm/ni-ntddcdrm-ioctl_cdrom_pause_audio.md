@@ -4,7 +4,7 @@ title: IOCTL_CDROM_PAUSE_AUDIO
 author: windows-driver-content
 description: Suspends audio play. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_pause_audio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 62ece91f-0c74-4bc1-b05c-446492e993e6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

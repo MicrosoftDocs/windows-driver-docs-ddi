@@ -4,7 +4,7 @@ title: RtlIsRoot macro
 author: windows-driver-content
 description: The RtlIsRoot routine determines whether the specified node is the root node of a splay link tree.
 old-location: ifsk\rtlisroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

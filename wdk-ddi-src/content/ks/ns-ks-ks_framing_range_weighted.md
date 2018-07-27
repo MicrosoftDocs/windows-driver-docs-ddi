@@ -4,7 +4,7 @@ title: KS_FRAMING_RANGE_WEIGHTED
 author: windows-driver-content
 description: Drivers can use the KS_FRAMING_RANGE_WEIGHTED structure to specify a range of weighted frame sizes.
 old-location: stream\ks_framing_range_weighted.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a52cde43-f440-4e58-97b7-b2aac5fb5f6a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

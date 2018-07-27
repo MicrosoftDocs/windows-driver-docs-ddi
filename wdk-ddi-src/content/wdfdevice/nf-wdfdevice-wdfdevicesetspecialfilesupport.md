@@ -4,7 +4,7 @@ title: WdfDeviceSetSpecialFileSupport function
 author: windows-driver-content
 description: The WdfDeviceSetSpecialFileSupport method enables or disables a function driver's support for special files, for the specified device.
 old-location: wdf\wdfdevicesetspecialfilesupport.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7648c486-181a-45c8-9c4b-e3158428046a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: OEMLineTo function
 author: windows-driver-content
 description: The OEMLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: print\oemlineto.htm
-old-project: print
+tech.root: print
 ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_FEEDBACK_COUNTER"
 author: windows-driver-content
 description: The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback counter to the operating system.
 old-location: kernel\pep_processor_feedback_counter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

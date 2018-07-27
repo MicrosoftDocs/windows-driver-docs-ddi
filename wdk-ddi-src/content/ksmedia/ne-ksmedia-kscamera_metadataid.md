@@ -4,7 +4,7 @@ title: KSCAMERA_MetadataId
 author: windows-driver-content
 description: This enumeration contains identifiers for a metadata item.
 old-location: stream\kscamera_metadataid.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

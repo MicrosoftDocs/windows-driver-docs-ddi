@@ -4,7 +4,7 @@ title: IWDTFTarget2::Eval
 author: windows-driver-content
 description: Evaluate whether this target matches an SDEL statement.
 old-location: dtf\iwdtftarget2_eval.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 468cb35d-f816-4233-ba07-8dc47b77d442
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

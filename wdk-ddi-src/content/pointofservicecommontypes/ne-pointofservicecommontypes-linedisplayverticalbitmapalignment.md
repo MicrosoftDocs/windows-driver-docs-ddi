@@ -4,7 +4,7 @@ title: LineDisplayVerticalBitmapAlignment
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplayverticalbitmapalignment.htm
-old-project: pos
+tech.root: pos
 ms.assetid: ADB42318-BE2F-4D70-912C-79D29DF12D72
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

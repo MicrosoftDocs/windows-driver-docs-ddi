@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_LINE_CONTROL
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_LINE_CONTROL request returns information about the line control set for a serial device. The line control parameters include the number of stop bits, the number of data bits, and the parity.
 old-location: serports\ioctl_serial_get_line_control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 72585a00-ee43-44fa-a6f4-baa9fe5a2e3f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

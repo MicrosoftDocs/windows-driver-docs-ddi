@@ -4,10 +4,10 @@ title: "_D3DDDIARG_STATESET"
 author: windows-driver-content
 description: The D3DDDIARG_STATESET structure describes how to set a state block.
 old-location: display\d3dddiarg_stateset.htm
-old-project: display
+tech.root: display
 ms.assetid: 0e2d7e78-bdf1-4582-a95c-1cbdd498c200
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, _D3DDDIARG_STATESET, d3dumddi/D3DDDIARG_STATESET, display.d3dddiarg_stateset
 ms.prod: windows-hardware
 ms.technology: windows-devices

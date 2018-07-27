@@ -4,7 +4,7 @@ title: "_CIP_VALIDATE_INFO"
 author: windows-driver-content
 description: The CIP_VALIDATE_INFO structure contains information about the frame.
 old-location: ieee\cip_validate_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 98993973-91a4-456a-9343-c744408055ed
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: FltAllocateExtraCreateParameterFromLookasideList function
 author: windows-driver-content
 description: The FltAllocateExtraCreateParameterFromLookasideList routine allocates memory pool from a given lookaside list for an extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameterfromlookasidelist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 33ab7ff3-d9b0-43ad-9971-62735f3240df
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

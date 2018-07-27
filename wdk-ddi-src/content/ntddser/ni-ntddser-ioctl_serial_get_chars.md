@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_CHARS
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_CHARS request retrieves the special characters that the serial controller driver uses with handshake flow control. The special characters are described by a SERIAL_CHARS structure.
 old-location: serports\ioctl_serial_get_chars.htm
-old-project: serports
+tech.root: serports
 ms.assetid: f8ebf57a-1d2f-4362-8713-c37b6ef62cb6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_CHILD_PROCESS_POLICY"
 author: windows-driver-content
 description: Stores policy information about creating child processes.
 old-location: kernel\process_mitigation_child_process_policy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8f388c0e-41ee-40e4-b633-687eeff74a0a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

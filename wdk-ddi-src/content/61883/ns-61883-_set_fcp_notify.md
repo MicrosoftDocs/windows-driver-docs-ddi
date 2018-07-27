@@ -4,7 +4,7 @@ title: "_SET_FCP_NOTIFY"
 author: windows-driver-content
 description: This structure is used for FCP notification.
 old-location: ieee\set_fcp_notify.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 94A966C4-9FFA-4937-B7D8-D1A3608E4A7F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

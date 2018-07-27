@@ -4,7 +4,7 @@ title: IPartFont
 author: windows-driver-content
 description: The IPartFont interface is the abstraction for fonts in a part.
 old-location: print\ipartfont.htm
-old-project: print
+tech.root: print
 ms.assetid: bdb1ad56-de4c-4a9b-96b6-f9faff4abf65
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

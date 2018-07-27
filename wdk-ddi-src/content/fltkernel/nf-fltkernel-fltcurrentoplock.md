@@ -4,7 +4,7 @@ title: FltCurrentOplock function
 author: windows-driver-content
 description: A minifilter driver calls the FltCurrentOplock routine to determine whether there are any opportunistic locks (oplocks) on a file.
 old-location: ifsk\fltcurrentoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e503b016-3271-4cce-a7fc-09c04b56716d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

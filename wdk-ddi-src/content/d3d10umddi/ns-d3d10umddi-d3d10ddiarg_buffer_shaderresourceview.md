@@ -4,10 +4,10 @@ title: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure describes a buffer that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_buffer_shaderresourceview.htm
-old-project: display
+tech.root: display
 ms.assetid: 9144b167-7fa4-4854-bf0c-e98192f07db8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, display.d3d10ddiarg_buffer_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

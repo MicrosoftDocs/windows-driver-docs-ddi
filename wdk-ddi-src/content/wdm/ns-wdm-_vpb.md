@@ -4,7 +4,7 @@ title: "_VPB"
 author: windows-driver-content
 description: The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
 old-location: ifsk\vpb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

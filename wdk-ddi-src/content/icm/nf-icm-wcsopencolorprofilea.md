@@ -4,7 +4,7 @@ title: WcsOpenColorProfileA function
 author: windows-driver-content
 description: The WcsOpenColorProfile function creates a handle to a specified color profile.
 old-location: print\wcsopencolorprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

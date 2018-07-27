@@ -4,7 +4,7 @@ title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 author: windows-driver-content
 description: Called when printer queues are enumerated.
 old-location: print\iprinterextensionevent_onprinterqueuesenumerated.htm
-old-project: print
+tech.root: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_DRIVER_INFO_8A"
 author: windows-driver-content
 description: The DRIVER_INFO_8 structure contains printer driver information.
 old-location: print\driver_info_8.htm
-old-project: print
+tech.root: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

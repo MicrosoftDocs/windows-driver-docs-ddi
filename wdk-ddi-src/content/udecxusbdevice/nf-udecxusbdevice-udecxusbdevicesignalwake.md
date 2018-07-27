@@ -4,10 +4,10 @@ title: UdecxUsbDeviceSignalWake function
 author: windows-driver-content
 description: Initiates wake up from a low link power state for a virtual USB 2.0 device.
 old-location: buses\udecxusbdevicesignalwake.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: BF8C1D85-6C88-4F4C-ADDB-CCE603D420F2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUsbDeviceSignalWake, UdecxUsbDeviceSignalWake function [Buses], buses.udecxusbdevicesignalwake, udecxusbdevice/UdecxUsbDeviceSignalWake
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KeReadStateMutant function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kereadstatemutant.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: caf5d3fc-f9bb-412c-af5f-e0c5e4d45efc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

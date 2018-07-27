@@ -4,10 +4,10 @@ title: W_UPDATE_OFFLOAD_HANDLER
 author: windows-driver-content
 description: The MiniportUpdateOffload function updates previously offloaded TCP chimney state objects.
 old-location: netvista\miniportupdateoffload.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MiniportUpdateOffload, MiniportUpdateOffload callback function [Network Drivers Starting with Windows Vista], W_UPDATE_OFFLOAD_HANDLER, W_UPDATE_OFFLOAD_HANDLER callback, ndischimney/MiniportUpdateOffload, netvista.miniportupdateoffload, tcp_chim_miniport_func_e6dbcab7-ff44-46c0-ae03-729ea479d13c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

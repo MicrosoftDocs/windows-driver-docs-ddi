@@ -4,7 +4,7 @@ title: "_AUX_MODULE_BASIC_INFO"
 author: windows-driver-content
 description: The AUX_MODULE_BASIC_INFO structure contains basic information about a loaded image module.
 old-location: kernel\aux_module_basic_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8cee85a3-b2e4-4378-a700-862d1b517f14
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

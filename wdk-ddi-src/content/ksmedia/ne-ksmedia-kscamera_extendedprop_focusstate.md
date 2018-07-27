@@ -4,7 +4,7 @@ title: KSCAMERA_EXTENDEDPROP_FOCUSSTATE
 author: windows-driver-content
 description: This enumeration contains the focus states.
 old-location: stream\kscamera_extendedprop_focusstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2B74DB73-1D27-49E6-B1D8-8246FCE2F5E1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

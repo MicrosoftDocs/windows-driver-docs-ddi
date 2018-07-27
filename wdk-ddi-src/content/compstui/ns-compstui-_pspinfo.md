@@ -4,7 +4,7 @@ title: "_PSPINFO"
 author: windows-driver-content
 description: The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a DLGPAGE structure.
 old-location: print\pspinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

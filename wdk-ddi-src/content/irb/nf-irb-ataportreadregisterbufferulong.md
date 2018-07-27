@@ -4,7 +4,7 @@ title: AtaPortReadRegisterBufferUlong function
 author: windows-driver-content
 description: The AtaPortReadRegisterBufferUlong routine transfers a specified number of ULONG values from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 50baeaa1-5671-4f6d-83cd-f03cca18b18b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

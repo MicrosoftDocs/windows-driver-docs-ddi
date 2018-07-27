@@ -4,7 +4,7 @@ title: "_SetPersistentEntry_IN"
 author: windows-driver-content
 description: The SetPersistentEntry_IN structure is used by a WMI client to deliver the input parameter data of the SetPersistentEntry WMI method to the HBA miniport driver.
 old-location: storage\setpersistententry_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

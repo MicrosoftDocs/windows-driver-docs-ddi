@@ -4,7 +4,7 @@ title: IOCTL_DOT4_WAIT_FOR_CHANNEL
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_WAIT_FOR_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_wait_for_channel.htm
-old-project: print
+tech.root: print
 ms.assetid: 4FFC0BE7-A095-4229-A713-566815B53EAF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

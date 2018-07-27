@@ -4,7 +4,7 @@ title: FsRtlIsAnsiCharacterLegal macro
 author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegal macro determines whether a character is a legal ANSI character.
 old-location: ifsk\fsrtlisansicharacterlegal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e270e4a9-90dc-4e9b-abdf-079c331ad71c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

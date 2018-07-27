@@ -4,7 +4,7 @@ title: FsRtlOplockFsctrlEx function
 author: windows-driver-content
 description: The FsRtlOplockFsctrlEx routine performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver.
 old-location: ifsk\fsrtloplockfsctrlex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f1bac8c1-a313-40b9-96fc-9eaf426bf238
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

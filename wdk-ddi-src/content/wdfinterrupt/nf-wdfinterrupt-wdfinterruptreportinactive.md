@@ -4,7 +4,7 @@ title: WdfInterruptReportInactive function
 author: windows-driver-content
 description: The WdfInterruptReportInactive method informs the system that the interrupt is no longer active and the driver is not expecting interrupt requests on the associated lines.
 old-location: wdf\wdfinterruptreportinactive.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

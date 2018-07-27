@@ -4,7 +4,7 @@ title: IoInitializeRemoveLock macro
 author: windows-driver-content
 description: The IoInitializeRemoveLock routine initializes a remove lock for a device object.
 old-location: kernel\ioinitializeremovelock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d85bab78-0e9e-4e71-a09b-40954df81c87
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

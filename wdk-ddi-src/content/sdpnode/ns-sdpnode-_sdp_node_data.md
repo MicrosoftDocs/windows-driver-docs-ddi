@@ -4,7 +4,7 @@ title: "_SDP_NODE_DATA"
 author: windows-driver-content
 description: The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_data.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: ce1f9f1b-2215-4b39-b5e6-a5076f02af64
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

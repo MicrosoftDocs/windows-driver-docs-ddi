@@ -4,7 +4,7 @@ title: IPrintCoreUI2::SetOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::SetOptions method sets the driver's feature settings.
 old-location: print\iprintcoreui2_setoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

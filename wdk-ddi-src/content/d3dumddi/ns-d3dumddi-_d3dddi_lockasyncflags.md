@@ -4,10 +4,10 @@ title: "_D3DDDI_LOCKASYNCFLAGS"
 author: windows-driver-content
 description: The D3DDDI_LOCKASYNCFLAGS structure identifies how to lock a resource.
 old-location: display\d3dddi_lockasyncflags.htm
-old-project: display
+tech.root: display
 ms.assetid: 0e6dd14c-5192-4c4b-9dcb-716989d24588
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, _D3DDDI_LOCKASYNCFLAGS, d3dumddi/D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

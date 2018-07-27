@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 author: windows-driver-content
 description: Returns information about the types of media supported by a device.
 old-location: storage\ioctl_storage_get_media_types_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 706269d8-123b-48c6-83cb-8ae47fb92efc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

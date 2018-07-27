@@ -4,7 +4,7 @@ title: RtlIsNtDdiVersionAvailable function
 author: windows-driver-content
 description: The RtlIsNtDdiVersionAvailable routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.
 old-location: kernel\rtlisntddiversionavailable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

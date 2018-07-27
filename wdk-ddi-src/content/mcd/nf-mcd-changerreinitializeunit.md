@@ -4,7 +4,7 @@ title: ChangerReinitializeUnit function
 author: windows-driver-content
 description: ChangerReinitializeUnit handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_REINITIALIZE_TRANSPORT.
 old-location: storage\changerreinitializeunit.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 161156e3-0da0-458d-b623-67665b2a56c0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IoFreeErrorLogEntry function
 author: windows-driver-content
 description: The IoFreeErrorLogEntry routine frees an unused error log entry.
 old-location: kernel\iofreeerrorlogentry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7244a63b-404f-45e0-b2f7-6c4ea70e4a21
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

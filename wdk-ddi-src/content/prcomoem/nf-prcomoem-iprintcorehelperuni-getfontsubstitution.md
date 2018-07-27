@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni::GetFontSubstitution
 author: windows-driver-content
 description: The IPrintCoreHelperUni::GetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
 old-location: print\iprintcorehelperuni_getfontsubstitution.htm
-old-project: print
+tech.root: print
 ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

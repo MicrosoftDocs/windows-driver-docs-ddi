@@ -4,7 +4,7 @@ title: EVT_SERCX2_SET_WAIT_MASK
 author: windows-driver-content
 description: The EvtSerCx2SetWaitMask event callback function is called by version 2 of the serial framework extension (SerCx2) to configure the serial controller to monitor a set of hardware events that are specified by a wait mask.
 old-location: serports\evtsercx2setwaitmask.htm
-old-project: serports
+tech.root: serports
 ms.assetid: C248FEF0-8E0B-4296-940E-763165F80617
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

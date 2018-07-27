@@ -4,7 +4,7 @@ title: GPIO_CLIENT_READ_PINS_MASK
 author: windows-driver-content
 description: The CLIENT_ReadGpioPinsUsingMask event callback function reads a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_readgpiopinsusingmask.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: EFF7C3D8-9E52-446A-BF55-0308A0D2835E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

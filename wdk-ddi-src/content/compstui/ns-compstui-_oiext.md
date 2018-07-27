@@ -4,7 +4,7 @@ title: "_OIEXT"
 author: windows-driver-content
 description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
 old-location: print\oiext.htm
-old-project: print
+tech.root: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

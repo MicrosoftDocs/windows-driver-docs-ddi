@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_CD_READ"
 author: windows-driver-content
 description: The FEATURE_DATA_CD_READ structure contains information about the CD Read feature.
 old-location: storage\feature_data_cd_read.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 55d63dcc-7728-4982-ad1c-e1ca40cc941e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

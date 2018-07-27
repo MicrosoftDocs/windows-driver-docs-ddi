@@ -4,7 +4,7 @@ title: "_FILE_BOTH_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_BOTH_DIR_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_both_dir_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 892b8eda-0b8e-40ab-940b-a0a423aaa5b8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

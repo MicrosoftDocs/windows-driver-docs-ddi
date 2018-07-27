@@ -4,7 +4,7 @@ title: "_POWER_STATE_TYPE"
 author: windows-driver-content
 description: The POWER_STATE_TYPE enumeration type indicates that a power state value is a system power state or a device power state.
 old-location: kernel\power_state_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d0e97474-4119-4359-a9f9-644c82df7fab
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 author: windows-driver-content
 description: The WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure contains driver-supplied information that the framework uses when a device is idle and the system is in the system working state (S0).
 old-location: wdf\wudf_device_power_policy_idle_settings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: E6EF8852-E39C-491B-9430-0308CA6276C0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

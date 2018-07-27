@@ -4,10 +4,10 @@ title: NdisRawReadPortBufferUchar macro
 author: windows-driver-content
 description: NdisRawReadPortBufferUchar reads a specified number of bytes into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferuchar.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: de629357-6176-4c98-ba71-ac1eea0c8ff1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisRawReadPortBufferUchar, NdisRawReadPortBufferUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_acd96d67-c82f-48dd-b6f1-cb77564e4bd6.xml, ndis/NdisRawReadPortBufferUchar, netvista.ndisrawreadportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices

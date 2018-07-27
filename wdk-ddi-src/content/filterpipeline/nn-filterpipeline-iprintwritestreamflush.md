@@ -4,7 +4,7 @@ title: IPrintWriteStreamFlush
 author: windows-driver-content
 description: Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a raw stream of bytes from a filter. This interface is retrieved through IPrintWriteStream::QueryInterface().
 old-location: print\iprintwritestreamflush.htm
-old-project: print
+tech.root: print
 ms.assetid: DB3E1127-B3B1-4C48-9819-EEF705B9985A
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

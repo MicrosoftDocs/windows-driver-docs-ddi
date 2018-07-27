@@ -4,7 +4,7 @@ title: "_ReportDiscoveredTargets_OUT"
 author: windows-driver-content
 description: The ReportDiscoveredTargets_OUT structure holds the output data for the ReportDiscoveredTargets method.
 old-location: storage\reportdiscoveredtargets_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cecef33a-a192-41f4-8006-b5d8b8c73e8d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

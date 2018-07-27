@@ -4,7 +4,7 @@ title: IPnpCallback::OnSurpriseRemoval
 author: windows-driver-content
 description: The OnSurpriseRemoval method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
 old-location: wdf\ipnpcallback_onsurpriseremoval.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

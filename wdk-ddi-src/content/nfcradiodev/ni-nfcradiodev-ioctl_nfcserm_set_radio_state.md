@@ -4,7 +4,7 @@ title: IOCTL_NFCSERM_SET_RADIO_STATE
 author: windows-driver-content
 description: This IOCTL is used by the SE radio management application or service to query the current radio power state of the proximity device.
 old-location: nfpdrivers\ioctl_nfcserm_set_radio_state.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 721AE7FE-927C-4EBA-B33D-C5A5A986951C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

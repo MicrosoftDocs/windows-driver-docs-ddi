@@ -4,10 +4,10 @@ title: PFND3D11DDI_RECYCLECREATECOMMANDLIST
 author: windows-driver-content
 description: The RecycleCreateCommandList function creates a command list and makes a previously unused DDI handle completely valid again.
 old-location: display\recyclecreatecommandlist.htm
-old-project: display
+tech.root: display
 ms.assetid: c387545e-2891-401d-b7ca-ee7549a52603
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_RECYCLECREATECOMMANDLIST, PFND3D11DDI_RECYCLECREATECOMMANDLIST callback, RecycleCreateCommandList, RecycleCreateCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml, d3d10umddi/RecycleCreateCommandList, display.recyclecreatecommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

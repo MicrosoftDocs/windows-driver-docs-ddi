@@ -4,7 +4,7 @@ title: OEMStrokePath function
 author: windows-driver-content
 description: The OEMStrokePath function strokes a path.
 old-location: print\oemstrokepath.htm
-old-project: print
+tech.root: print
 ms.assetid: e761a8b4-729f-4f03-a4b4-2ed1b62ec012
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::SetFilter
 author: windows-driver-content
 description: The SetFilter method sets the property that enables a device as a filter device.
 old-location: wdf\iwdfdeviceinitialize_setfilter.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

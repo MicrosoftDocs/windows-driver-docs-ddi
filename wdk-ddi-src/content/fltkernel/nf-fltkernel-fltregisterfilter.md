@@ -4,7 +4,7 @@ title: FltRegisterFilter function
 author: windows-driver-content
 description: FltRegisterFilter registers a minifilter driver.
 old-location: ifsk\fltregisterfilter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 46e96f85-d368-40cd-9530-81959d20b750
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

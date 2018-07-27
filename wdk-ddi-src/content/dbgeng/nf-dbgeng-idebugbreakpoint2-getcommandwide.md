@@ -4,10 +4,10 @@ title: IDebugBreakpoint2::GetCommandWide
 author: windows-driver-content
 description: The GetCommand method returns the command string that is executed when a breakpoint is triggered.
 old-location: debugger\getcommandwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetCommandWide, GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetCommandWide method, IDebugBreakpoint2.GetCommandWide, IDebugBreakpoint2::GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

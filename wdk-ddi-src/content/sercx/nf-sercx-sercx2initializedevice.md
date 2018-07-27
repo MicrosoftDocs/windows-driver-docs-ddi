@@ -4,7 +4,7 @@ title: SerCx2InitializeDevice function
 author: windows-driver-content
 description: The SerCx2InitializeDevice method finishes initializing the framework device object for the serial controller.
 old-location: serports\sercx2initializedevice.htm
-old-project: serports
+tech.root: serports
 ms.assetid: C0D20E2D-5895-4FD1-9F03-9E5D1C783992
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

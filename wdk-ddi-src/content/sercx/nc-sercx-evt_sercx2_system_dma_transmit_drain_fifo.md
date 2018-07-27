@@ -4,7 +4,7 @@ title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO
 author: windows-driver-content
 description: The EvtSerCx2SystemDmaTransmitDrainFifo event callback function is called by version 2 of the serial framework extension (SerCx2) to drain the transmit FIFO in the serial controller hardware.
 old-location: serports\evtsercx2systemdmatransmitdrainfifo.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 796A6C4B-0C7E-43C5-88BC-C03DAA3869A6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

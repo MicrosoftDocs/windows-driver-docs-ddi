@@ -4,7 +4,7 @@ title: IKsDataTypeHandler::KsCompleteIoOperation
 author: windows-driver-content
 description: The KsCompleteIoOperation method cleans up the extended header and completes the input and output (I/O) operation.
 old-location: stream\iksdatatypehandler_kscompleteiooperation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

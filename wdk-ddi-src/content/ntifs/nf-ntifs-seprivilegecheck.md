@@ -4,7 +4,7 @@ title: SePrivilegeCheck function
 author: windows-driver-content
 description: The SePrivilegeCheck routine determines whether a specified set of privileges is enabled in the subject's access token.
 old-location: ifsk\seprivilegecheck.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 707ced39-4153-4a6e-b87d-7e4eb487e738
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

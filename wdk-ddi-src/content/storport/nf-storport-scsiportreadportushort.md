@@ -4,7 +4,7 @@ title: ScsiPortReadPortUshort macro
 author: windows-driver-content
 description: The ScsiPortReadPortUshort routine reads a USHORT value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

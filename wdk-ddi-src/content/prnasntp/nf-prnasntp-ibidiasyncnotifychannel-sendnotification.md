@@ -4,7 +4,7 @@ title: IBidiAsyncNotifyChannel::SendNotification
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_sendnotification.htm
-old-project: print
+tech.root: print
 ms.assetid: FADB79BD-0404-4116-9EE8-AE7C063DBF26
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

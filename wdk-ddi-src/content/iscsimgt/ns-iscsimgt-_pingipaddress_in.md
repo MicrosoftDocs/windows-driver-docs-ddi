@@ -4,7 +4,7 @@ title: "_PingIPAddress_IN"
 author: windows-driver-content
 description: The PingIPAddress_IN structure holds the input data for the PingIPAddress method.
 old-location: storage\pingipaddress_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2dec9594-727e-44e6-8be8-2416ea77e447
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

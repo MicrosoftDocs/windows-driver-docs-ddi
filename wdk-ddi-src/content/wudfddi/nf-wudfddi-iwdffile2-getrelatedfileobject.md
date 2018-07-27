@@ -4,7 +4,7 @@ title: IWDFFile2::GetRelatedFileObject
 author: windows-driver-content
 description: The GetRelatedFileObject method retrieves the IWDFFile interface of a related file object, which is a file object that has a technology-specific relationship with another file object.
 old-location: wdf\iwdffile2_getrelatedfileobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

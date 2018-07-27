@@ -4,7 +4,7 @@ title: "_AACS_SEND_CHALLENGE_KEY"
 author: windows-driver-content
 description: The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
 old-location: storage\aacs_send_challenge_key.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3985c396-7e85-46b6-8790-1ec45931a4ab
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

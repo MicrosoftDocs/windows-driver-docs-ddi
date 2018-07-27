@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_PACKET_FLAGS"
 author: windows-driver-content
 description: The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a WHEA_ERROR_PACKET structure.
 old-location: whea\whea_error_packet_flags.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e1dae7df-7d81-42cc-9a01-44345f53ba4e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

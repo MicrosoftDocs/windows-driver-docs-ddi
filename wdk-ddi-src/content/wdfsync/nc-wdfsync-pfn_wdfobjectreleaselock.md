@@ -4,7 +4,7 @@ title: PFN_WDFOBJECTRELEASELOCK
 author: windows-driver-content
 description: The WdfObjectReleaseLock method releases an object's synchronization lock.
 old-location: wdf\wdfobjectreleaselock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a2fe9393-1525-47d7-94e1-1886ea54e270
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<=DISPATCH_LEVEL"
 topictype:
 -	APIRef

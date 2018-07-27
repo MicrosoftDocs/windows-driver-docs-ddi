@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer::SendFixedDocumentSequence
 author: windows-driver-content
 description: The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendfixeddocumentsequence.htm
-old-project: print
+tech.root: print
 ms.assetid: e2541943-7e0c-45ca-bdfe-2d48581f62a4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

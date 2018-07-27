@@ -4,7 +4,7 @@ title: IO_WORKITEM_ROUTINE
 author: windows-driver-content
 description: A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine.
 old-location: kernel\workitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 19467f90-945d-46ac-a800-300e1d490ef0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

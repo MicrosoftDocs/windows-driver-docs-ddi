@@ -4,7 +4,7 @@ title: "_DVD_COPY_PROTECT_KEY"
 author: windows-driver-content
 description: The DVD_COPY_PROTECT_KEY structure is used in conjunction with the IOCTL_DVD_READ_KEY request to execute a report key command of the specified type.
 old-location: storage\dvd_copy_protect_key.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

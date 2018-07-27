@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1"
 author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method and an input argument that is an ASCII string.
 old-location: acpi\acpi_eval_input_buffer_simple_string.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: f8f5db79-d1ea-4ce8-b941-49ef7518b941
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

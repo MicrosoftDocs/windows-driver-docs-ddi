@@ -4,7 +4,7 @@ title: RxStartMinirdr function
 author: windows-driver-content
 description: RxStartMinirdr is called to start up a network mini-redirector that has previously called to register with RDBSS.
 old-location: ifsk\rxstartminirdr.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d5b091fa-13bf-4761-a03d-1790e7045b69
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_SOC_SUBSYSTEM_TYPE"
 author: windows-driver-content
 description: The SOC_SYBSYSTEM_TYPE enumeration defines different types of System on a Chip (SoC) subsystems.
 old-location: whea\soc_sybsystem_type.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 179D61E3-C2EE-4821-93F8-DB763892DD3D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

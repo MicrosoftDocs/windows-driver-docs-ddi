@@ -4,10 +4,10 @@ title: NdisStallExecution macro
 author: windows-driver-content
 description: The NdisStallExecution function stalls the caller on the current processor for a given interval.
 old-location: netvista\ndisstallexecution.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_STORAGE_DIAGNOSTIC_REQUEST"
 author: windows-driver-content
 description: Describes a diagnostic request about the storage driver stack. The STORAGE_DIAGNOSTIC_REQUEST structure is provided in the input buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_request.htm
-old-project: storage
+tech.root: storage
 ms.assetid: BAC83B5C-4F14-430D-9CEF-46812FC4DFED
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

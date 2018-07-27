@@ -4,7 +4,7 @@ title: KSMETHOD_ITEM_IRP_STORAGE macro
 author: windows-driver-content
 description: This macro accesses a pointer to the relevant KSMETHOD_ITEM. Note that this pointer is only set when using KsMethodHandlerWithAllocator.
 old-location: stream\ksmethod_item_irp_storage.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8c06da38-6f3b-4cd6-8331-c88758a7f00b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

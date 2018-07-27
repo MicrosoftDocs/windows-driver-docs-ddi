@@ -4,7 +4,7 @@ title: IoDeassignArcName macro
 author: windows-driver-content
 description: The IoDeassignArcName routine removes a symbolic link between the ARC name for a device and the named device object.
 old-location: kernel\iodeassignarcname.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

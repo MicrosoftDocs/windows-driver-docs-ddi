@@ -4,7 +4,7 @@ title: "_NOTIFICATION_CONFIG_FLAGS"
 author: windows-driver-content
 description: "."
 old-location: print\notification_config_flags.htm
-old-project: print
+tech.root: print
 ms.assetid: B53AB706-D780-4E29-A531-51D3A9041D24
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

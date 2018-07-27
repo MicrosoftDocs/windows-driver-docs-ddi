@@ -4,7 +4,7 @@ title: PsGetCurrentSilo function
 author: windows-driver-content
 description: This routine returns the current silo for the calling thread. First the thread is checked to see if it has been attached to a silo. If not, then the thread is checked to see if it is in a silo.
 old-location: kernel\psgetcurrentsilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 535D7611-8C86-44CF-964C-731882A3AF69
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

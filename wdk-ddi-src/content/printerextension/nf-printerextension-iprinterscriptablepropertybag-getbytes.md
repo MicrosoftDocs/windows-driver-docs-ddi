@@ -4,7 +4,7 @@ title: IPrinterScriptablePropertyBag::GetBytes
 author: windows-driver-content
 description: Gets a byte array property.
 old-location: print\iprinterscriptablepropertybag_getbytes.htm
-old-project: print
+tech.root: print
 ms.assetid: 419BCBB6-634A-421D-A940-8690BCCF1AC6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlInt8ToUIntPtr function
 author: windows-driver-content
 description: Converts a value of type INT8 to a value of type UINT_PTR.
 old-location: kernel\rtlint8touintptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B96B17E1-911F-442F-811F-294AB14D7058
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

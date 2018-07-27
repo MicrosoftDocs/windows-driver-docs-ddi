@@ -4,7 +4,7 @@ title: PHW_INTERRUPT
 author: windows-driver-content
 description: StrMiniInterrupt is the minidriver's interrupt service routine.
 old-location: stream\strminiinterrupt.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a98986c6-f4ac-4e2e-9ba0-49fec6684158
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_BDA_WMDRMTUNER_PIDPROTECTION"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_wmdrmtuner_pidprotection.htm
-old-project: stream
+tech.root: stream
 ms.assetid: EA2590B0-7EF0-4E5E-A270-A13047BE0F2C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

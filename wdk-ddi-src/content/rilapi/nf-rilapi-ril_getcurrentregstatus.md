@@ -4,10 +4,10 @@ title: RIL_GetCurrentRegStatus function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getcurrentregstatus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4a605fb6-484a-442f-9bf4-673f00a64a36
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetCurrentRegStatus, RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcurrentregstatus, rilapi/RIL_GetCurrentRegStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

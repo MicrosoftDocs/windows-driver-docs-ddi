@@ -4,7 +4,7 @@ title: IoCheckEaBufferValidity function
 author: windows-driver-content
 description: The IoCheckEaBufferValidity routine checks whether the specified extended attribute (EA) buffer is valid.
 old-location: ifsk\iocheckeabuffervalidity.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

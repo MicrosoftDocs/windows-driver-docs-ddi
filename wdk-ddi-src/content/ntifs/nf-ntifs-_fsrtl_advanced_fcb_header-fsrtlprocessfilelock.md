@@ -4,7 +4,7 @@ title: FsRtlProcessFileLock function
 author: windows-driver-content
 description: The FsRtlProcessFileLock routine processes and completes an IRP for a file lock operation.
 old-location: ifsk\fsrtlprocessfilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

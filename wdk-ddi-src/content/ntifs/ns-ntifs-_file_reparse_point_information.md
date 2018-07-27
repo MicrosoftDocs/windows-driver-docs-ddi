@@ -4,7 +4,7 @@ title: "_FILE_REPARSE_POINT_INFORMATION"
 author: windows-driver-content
 description: The FILE_REPARSE_POINT_INFORMATION structure is used to query for information about a reparse point.
 old-location: ifsk\file_reparse_point_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: de6e8b39-9e0c-4817-82b4-d64e81a95e79
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

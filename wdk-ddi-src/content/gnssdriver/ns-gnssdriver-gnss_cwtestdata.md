@@ -4,7 +4,7 @@ title: GNSS_CWTESTDATA
 author: windows-driver-content
 description: This structure defines specific data elements associated with carrier wave test results returned from the driver.
 old-location: gnss\gnss_cwtestdata.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

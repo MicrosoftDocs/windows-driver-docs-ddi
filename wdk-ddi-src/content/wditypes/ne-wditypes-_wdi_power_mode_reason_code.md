@@ -4,10 +4,10 @@ title: "_WDI_POWER_MODE_REASON_CODE"
 author: windows-driver-content
 description: The WDI_POWER_MODE_REASON_CODE enumeration defines the reasons for entering the Power Save state.
 old-location: netvista\wdi_power_mode_reason_code.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: F9FAA622-A844-4D9F-A0E6-D919C1FAD3AB
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: WDI_POWER_MODE_REASON_CODE, WDI_POWER_MODE_REASON_CODE enumeration [Network Drivers Starting with Windows Vista], WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP, WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE, WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE, WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP, WDI_POWER_MODE_REASON_CODE_NO_CHANGE, WDI_POWER_MODE_REASON_CODE_OTHERS, _WDI_POWER_MODE_REASON_CODE, netvista.wdi_power_mode_reason_code, netvista.wifi_power_mode_reason_code, wditypes/WDI_POWER_MODE_REASON_CODE, wditypes/WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE, wditypes/WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE, wditypes/WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE_NO_CHANGE, wditypes/WDI_POWER_MODE_REASON_CODE_OTHERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

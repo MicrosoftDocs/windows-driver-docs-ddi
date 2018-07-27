@@ -4,7 +4,7 @@ title: KSP_TIMEFORMAT
 author: windows-driver-content
 description: The KSP_TIMEFORMAT structure corresponds to KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT.
 old-location: stream\ksp_timeformat.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

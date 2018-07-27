@@ -4,7 +4,7 @@ title: "_WINBIO_GET_INDICATOR"
 author: windows-driver-content
 description: The WINBIO_GET_INDICATOR structure is the OUT payload for IOCTL_BIOMETRIC_GET_INDICATOR.
 old-location: biometric\winbio_get_indicator.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: e0920576-de0f-44bd-8d95-85dde4ee6817
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

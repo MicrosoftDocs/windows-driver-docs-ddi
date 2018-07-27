@@ -4,7 +4,7 @@ title: "_BTHX_CAPABILITIES"
 author: windows-driver-content
 description: The BTHX_CAPABILITIES structure describes the capabilities of the Bluetooth Extensible Transport Driver.
 old-location: bltooth\bthx_capabilities.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: BEC06C82-E103-4255-ACDD-9FB28E8E2DE5
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

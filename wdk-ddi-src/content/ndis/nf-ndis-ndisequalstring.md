@@ -4,10 +4,10 @@ title: NdisEqualString macro
 author: windows-driver-content
 description: The NdisEqualString function compares two strings, in the OS-default character set, to determine whether they are equal.
 old-location: netvista\ndisequalstring.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cc5da07d-fcd2-40f9-8ba9-d7ddf35e7b7f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisEqualString, NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualString, ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

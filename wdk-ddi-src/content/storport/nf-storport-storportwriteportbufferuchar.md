@@ -4,7 +4,7 @@ title: StorPortWritePortBufferUchar macro
 author: windows-driver-content
 description: The StorPortWritePortBufferUchar routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

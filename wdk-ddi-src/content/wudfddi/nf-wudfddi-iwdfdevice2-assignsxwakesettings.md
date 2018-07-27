@@ -4,7 +4,7 @@ title: IWDFDevice2::AssignSxWakeSettings
 author: windows-driver-content
 description: The AssignSxWakeSettings method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state.
 old-location: wdf\iwdfdevice2_assignsxwakesettings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

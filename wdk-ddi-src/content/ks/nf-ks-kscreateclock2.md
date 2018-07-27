@@ -4,7 +4,7 @@ title: KsCreateClock2 function
 author: windows-driver-content
 description: Creates a handle to a clock instance. Call this function after the Component Object Model (COM) is initialized.
 old-location: stream\kscreateclock2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b70d4a57-c687-40b8-bbf2-4a0a2fbf4863
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

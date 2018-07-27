@@ -4,7 +4,7 @@ title: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 author: windows-driver-content
 description: Support for this IOCTL by mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_unique_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 866b9383-d73d-4be1-a4de-b78c9558c3ce
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

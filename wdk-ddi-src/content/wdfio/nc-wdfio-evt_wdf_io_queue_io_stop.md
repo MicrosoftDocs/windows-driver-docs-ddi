@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_IO_STOP
 author: windows-driver-content
 description: A driver's EvtIoStop event callback function completes, requeues, or suspends processing of a specified request because the request's I/O queue is being stopped.
 old-location: wdf\evtiostop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

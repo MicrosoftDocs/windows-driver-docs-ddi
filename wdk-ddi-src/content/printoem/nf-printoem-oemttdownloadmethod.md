@@ -4,7 +4,7 @@ title: OEMTTDownloadMethod function
 author: windows-driver-content
 description: OEMTTDownloadMethod function
 old-location: print\oemttdownloadmethod.htm
-old-project: print
+tech.root: print
 ms.assetid: 0807622e-0ed9-419a-8917-bba4b1b2a475
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

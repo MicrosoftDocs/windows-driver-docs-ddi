@@ -4,7 +4,7 @@ title: "_SM_RemovePersistentBinding_IN"
 author: windows-driver-content
 description: The SM_RemovePersistentBinding_IN structure is used to provide input parameters to the SM_RemovePersistentBinding method.
 old-location: storage\sm_removepersistentbinding_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 47e6a189-4b16-411a-8552-3e6f998516ba
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

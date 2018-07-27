@@ -4,7 +4,7 @@ title: RxCreateMidAtlas function
 author: windows-driver-content
 description: RxCreateMidAtlas allocates a new instance of MID_ATLAS data structure and initializes it.
 old-location: ifsk\rxcreatemidatlas.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7c3fed89-a4e1-436f-9cbb-e140ad42bb13
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: tagPrintSchemaParameterDataType
 author: windows-driver-content
 description: The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
 old-location: print\tagprintschemaparameterdatatype.htm
-old-project: print
+tech.root: print
 ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

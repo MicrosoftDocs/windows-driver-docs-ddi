@@ -4,7 +4,7 @@ title: SPB_TRANSFER_DIRECTION
 author: windows-driver-content
 description: The SPB_TRANSFER_DIRECTION enumeration describes the direction (read or write) of a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_direction.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 617450AB-6AC8-485A-BD88-377F903EEE15
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

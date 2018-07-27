@@ -4,7 +4,7 @@ title: IPrintWriteStream
 author: windows-driver-content
 description: Filters use the IPrintWriteStream interface to write data as a raw stream of bytes.
 old-location: print\iprintwritestream.htm
-old-project: print
+tech.root: print
 ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

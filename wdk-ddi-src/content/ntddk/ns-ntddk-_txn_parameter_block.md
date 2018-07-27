@@ -4,7 +4,7 @@ title: "_TXN_PARAMETER_BLOCK"
 author: windows-driver-content
 description: The TXN_PARAMETER_BLOCK structure contains information about a transacted file operation.
 old-location: ifsk\txn_parameter_block.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 973f440a-ba17-466a-a9f4-f21c07e854d8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

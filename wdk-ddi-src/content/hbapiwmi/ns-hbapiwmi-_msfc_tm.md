@@ -4,7 +4,7 @@ title: "_MSFC_TM"
 author: windows-driver-content
 description: The MSFC_TM structure is used by WMI providers to timestamp events.
 old-location: storage\msfc_tm.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

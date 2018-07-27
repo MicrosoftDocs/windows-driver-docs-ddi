@@ -4,7 +4,7 @@ title: KSEVENT_DEVICE
 author: windows-driver-content
 description: Specifies event notifications that the driver generates to indicate that a device has been lost or preempted.
 old-location: stream\ksevent_device.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92594bdd-a458-4262-ac4c-013cffb7a725
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

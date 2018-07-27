@@ -4,7 +4,7 @@ title: "_KS_DVDCOPY_DISCKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_DISCKEY structure is used to describe the disc key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_disckey.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c7015bb6-1dd1-46b7-81b3-1762e5286c74
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

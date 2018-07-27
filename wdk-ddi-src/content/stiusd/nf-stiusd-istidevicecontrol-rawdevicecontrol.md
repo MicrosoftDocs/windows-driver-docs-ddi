@@ -4,10 +4,10 @@ title: IStiDeviceControl::RawDeviceControl
 author: windows-driver-content
 description: This topic describes the RawDeviceControl method.
 old-location: image\istidevicecontrol_rawdevicecontrol.htm
-old-project: image
+tech.root: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IStiDeviceControl interface [Imaging Devices],RawDeviceControl method, IStiDeviceControl.RawDeviceControl, IStiDeviceControl::RawDeviceControl, RawDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, stiusd/IStiDeviceControl::RawDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

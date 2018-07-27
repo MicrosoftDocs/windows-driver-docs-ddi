@@ -4,7 +4,7 @@ title: "_DOT11_INCOMING_ASSOC_DECISION"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_decision.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -78,11 +78,11 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION {
 ### -field Header
 
 The type, revision, and size of the DOT11_INCOMING_ASSOC_DECISION structure. This member is
-     formatted as an 
+     formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 <table>
@@ -116,7 +116,7 @@ This member must be set to DOT11_INCOMING_ASSOC_DECISION_REVISION_1.
 </dl>
 </td>
 <td width="60%">
-This member must be set to 
+This member must be set to
        <code>sizeof(DOT11_INCOMING_ASSOC_DECISION)</code>.
 
 </td>
@@ -124,7 +124,7 @@ This member must be set to
 </table>
  
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
@@ -143,7 +143,7 @@ A Boolean value that indicates whether the miniport driver accepts the incoming 
 
 ### -field usReasonCode
 
-A USHORT value that represents a reason code to include in the NIC's association response if 
+A USHORT value that represents a reason code to include in the NIC's association response if
      <b>bAccept</b> is <b>FALSE</b>.
 
 
@@ -166,7 +166,7 @@ The length of the additional information elements (IEs), in bytes, which the NIC
 
 
 
-This structure is used with 
+This structure is used with
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
     OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>.
 

@@ -4,7 +4,7 @@ title: FsRtlValidateReparsePointBuffer function
 author: windows-driver-content
 description: The FsRtlValidateReparsePointBuffer routine verifies that the specified reparse point buffer is valid.
 old-location: ifsk\fsrtlvalidatereparsepointbuffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

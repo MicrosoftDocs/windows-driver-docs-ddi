@@ -4,7 +4,7 @@ title: "_PEP_ACPI_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource.
 old-location: kernel\pep_acpi_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 534F736D-906C-48B5-9CEE-0E37459DA03F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

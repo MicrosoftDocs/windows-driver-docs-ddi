@@ -4,7 +4,7 @@ title: IoGetTopLevelIrp function
 author: windows-driver-content
 description: The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iogettoplevelirp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

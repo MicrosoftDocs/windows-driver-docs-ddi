@@ -4,7 +4,7 @@ title: StorPortWritePortUshort macro
 author: windows-driver-content
 description: The StorPortWritePortUshort routine writes a value to a specified register address.
 old-location: storage\storportwriteportushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

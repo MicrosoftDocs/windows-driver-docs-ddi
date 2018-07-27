@@ -4,7 +4,7 @@ title: RtlGetCompressionWorkSpaceSize function
 author: windows-driver-content
 description: The RtlGetCompressionWorkSpaceSize function is used to determine the correct size of the WorkSpace buffer for the RtlCompressBuffer and RtlDecompressFragment functions.
 old-location: ifsk\rtlgetcompressionworkspacesize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f0e856f8-9c01-4219-b521-ab4a5c9bc35c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

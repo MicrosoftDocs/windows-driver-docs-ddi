@@ -4,7 +4,7 @@ title: RtlULongToUInt8 function
 author: windows-driver-content
 description: Converts a value of type ULONG_PTR to a value of type UINT8.
 old-location: kernel\rtlulongtouint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 56A205A5-A7A8-440D-B28B-B925E2107AEE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

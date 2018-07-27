@@ -4,7 +4,7 @@ title: IPrintAsyncNotifyServerReferral
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyserverreferral.htm
-old-project: print
+tech.root: print
 ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

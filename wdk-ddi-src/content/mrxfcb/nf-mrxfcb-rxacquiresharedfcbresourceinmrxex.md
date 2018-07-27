@@ -4,7 +4,7 @@ title: RxAcquireSharedFcbResourceInMRxEx function
 author: windows-driver-content
 description: RxAcquireSharedFcbResourceInMRxEx acquires the FCB resource for a network mini-redirector driver in shared mode.
 old-location: ifsk\rxacquiresharedfcbresourceinmrxex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bf8390db-7e42-4860-8cf6-df3459f16cea
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

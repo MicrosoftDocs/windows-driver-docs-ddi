@@ -4,7 +4,7 @@ title: "_SCATTER_GATHER_LIST"
 author: windows-driver-content
 description: The SCATTER_GATHER_LIST structure describes the scatter/gather list for a DMA operation.
 old-location: kernel\scatter_gather_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3cc6da15-8367-4430-afe8-956376eef1c7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

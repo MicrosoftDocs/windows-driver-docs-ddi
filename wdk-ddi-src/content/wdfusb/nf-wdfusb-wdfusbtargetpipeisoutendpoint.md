@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeIsOutEndpoint function
 author: windows-driver-content
 description: The WdfUsbTargetPipeIsOutEndpoint method determines whether a specified USB pipe is connected to an output endpoint.
 old-location: wdf\wdfusbtargetpipeisoutendpoint.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

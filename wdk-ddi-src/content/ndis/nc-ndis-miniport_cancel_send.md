@@ -4,10 +4,10 @@ title: MINIPORT_CANCEL_SEND
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportCancelSend function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.
 old-location: netvista\miniportcancelsend.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 17111aa3-c02f-494a-af97-5ab34c152451
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND callback, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
 ms.prod: windows-hardware
 ms.technology: windows-devices

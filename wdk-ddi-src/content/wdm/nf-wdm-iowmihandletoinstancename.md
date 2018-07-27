@@ -4,7 +4,7 @@ title: IoWMIHandleToInstanceName function
 author: windows-driver-content
 description: The IoWMIHandleToInstanceName routine determines the instance name for the WMI class instance implemented by the driver that is specified by a file handle.
 old-location: kernel\iowmihandletoinstancename.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e9d8fde5-81b7-480b-8d7c-0005fd1868fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

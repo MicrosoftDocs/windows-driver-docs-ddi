@@ -4,7 +4,7 @@ title: USB_BUSIFFN_ENUM_LOG_ENTRY
 author: windows-driver-content
 description: This callback function is not supported.The EnumLogEntry routine makes a log entry.
 old-location: buses\enumlogentry.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 6c7f1ab6-bbd8-45d8-92af-030db336c97c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: ANY
 topic_type:
 -	APIRef
@@ -88,7 +88,7 @@ NTSTATUS EnumLogEntry(
 
 #### - BusContext [in]
 
-Handle to the bus context returned in the <i>BusContext</i> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v2.md">USB_BUS_INTERFACE_USBDI_V2</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle to the bus context returned in the <i>BusContext</i> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v2.md">USB_BUS_INTERFACE_USBDI_V2</a> structure by an IRP_MN_QUERY_INTERFACE request.
 
 
 #### - DriverTag [in]
@@ -113,7 +113,7 @@ Vendor-defined data to store in the enumeration log.
 
 
 
-The <i>EnumLogEntry </i>routine always returns STATUS_SUCCESS. 
+The <i>EnumLogEntry </i>routine always returns STATUS_SUCCESS.
 
 
 

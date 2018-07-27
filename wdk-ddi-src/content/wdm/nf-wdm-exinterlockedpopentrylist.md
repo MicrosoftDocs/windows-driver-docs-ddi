@@ -4,7 +4,7 @@ title: ExInterlockedPopEntryList function
 author: windows-driver-content
 description: The ExInterlockedPopEntryList routine atomically removes an entry from the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\exinterlockedpopentrylist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 339e688f-64ec-402f-bd28-9fa487acb984
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

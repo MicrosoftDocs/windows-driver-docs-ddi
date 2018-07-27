@@ -4,7 +4,7 @@ title: "_MSiSCSI_QueryLBPolicy"
 author: windows-driver-content
 description: This MSiSCSI_QueryLBPolicy method returns the MCS load balancing policy for each information if any that has been set across different iSCSI session.
 old-location: storage\msiscsi_querylbpolicy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

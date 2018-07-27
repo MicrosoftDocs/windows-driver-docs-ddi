@@ -4,7 +4,7 @@ title: "_DMA_TRANSFER_INFO"
 author: windows-driver-content
 description: The DMA_TRANSFER_INFO structure is a container for a DMA_TRANSFER_INFO_XXX structure that describes the allocation requirements for a scatter/gather list.
 old-location: kernel\dma_transfer_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1CD5CE6F-5179-40D5-BCD9-3587914C8139
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

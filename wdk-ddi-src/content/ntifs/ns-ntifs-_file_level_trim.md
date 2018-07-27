@@ -4,7 +4,7 @@ title: "_FILE_LEVEL_TRIM"
 author: windows-driver-content
 description: The FILE_LEVEL_TRIM structure contains an array of byte ranges to trim for a file.
 old-location: ifsk\file_level_trim.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 72FD2A3B-B246-41BA-BEB6-169C214C32D7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

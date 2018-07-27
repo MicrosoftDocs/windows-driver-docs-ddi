@@ -4,7 +4,7 @@ title: "_IDE_LBA_RANGE"
 author: windows-driver-content
 description: The IDE_LBA_RANGE structure is used by the port driver to provide the miniport driver with a range of logical blocks.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_lba_range.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2d823d9c-7328-44e2-9ba2-22967471ef68
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

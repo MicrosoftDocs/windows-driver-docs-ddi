@@ -4,7 +4,7 @@ title: "_CLFS_CONTEXT_MODE"
 author: windows-driver-content
 description: The CLFS_CONTEXT_MODE enumeration indicates the type of sequence that the Common Log File System (CLFS) driver follows when it reads a set of records from a stream.
 old-location: kernel\clfs_context_mode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 35f2b42d-d67f-4fd4-adde-918a2587980b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

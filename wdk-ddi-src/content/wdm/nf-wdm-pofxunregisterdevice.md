@@ -4,7 +4,7 @@ title: PoFxUnregisterDevice function
 author: windows-driver-content
 description: The PoFxUnregisterDevice routine removes the registration of a device from the power management framework (PoFx).
 old-location: kernel\pofxunregisterdevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: FC4B1B4D-31D8-4E63-A3A5-07A1099997A8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfDeviceInitSetExclusive function
 author: windows-driver-content
 description: The WdfDeviceInitSetExclusive method indicates whether a specified device is an exclusive device.
 old-location: wdf\wdfdeviceinitsetexclusive.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4bbcf4d3-e1f9-4e13-ac56-92ffddea1f67
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

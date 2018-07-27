@@ -4,7 +4,7 @@ title: IXpsRasterizerNotificationCallback::Continue
 author: windows-driver-content
 description: The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.
 old-location: print\ixpsrasterizernotificationcallback_continue.htm
-old-project: print
+tech.root: print
 ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

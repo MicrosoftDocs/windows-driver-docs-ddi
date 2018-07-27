@@ -4,7 +4,7 @@ title: RtlUIntAdd function
 author: windows-driver-content
 description: Adds two values of type UINT.
 old-location: kernel\rtluintadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ABF392BD-7B05-417E-AFD8-4EE7E64F9FC2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

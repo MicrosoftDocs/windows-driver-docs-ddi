@@ -4,7 +4,7 @@ title: FsRtlAddMcbEntry function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtladdmcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4bf256b9-c0a0-4280-a283-9a2ab3c2b8cb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

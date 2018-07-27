@@ -4,10 +4,10 @@ title: "_WWAN_PIN_TYPE"
 author: windows-driver-content
 description: The WWAN_PIN_TYPE enumeration lists the different types of Personal Identification Numbers (PINs) that are supported by the MB device.
 old-location: netvista\wwan_pin_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f6b8146e-dbe2-4c73-beb2-02868db9fb27
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_PIN_TYPE, PWWAN_PIN_TYPE, PWWAN_PIN_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_TYPE, WWAN_PIN_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPinTypeCorporatePin, WwanPinTypeCorporatePuk, WwanPinTypeCustom, WwanPinTypeDeviceFirstSimPin, WwanPinTypeDeviceFirstSimPuk, WwanPinTypeDeviceSimPin, WwanPinTypeMax, WwanPinTypeNetworkPin, WwanPinTypeNetworkPuk, WwanPinTypeNetworkSubsetPin, WwanPinTypeNetworkSubsetPuk, WwanPinTypeNone, WwanPinTypePin1, WwanPinTypePin2, WwanPinTypePuk1, WwanPinTypePuk2, WwanPinTypeSubsidyLock, WwanPinTypeSvcProviderPin, WwanPinTypeSvcProviderPuk, WwanRef_f94cf79e-63f3-47e9-bd40-beb9cd32f0b8.xml, _WWAN_PIN_TYPE, netvista.wwan_pin_type, wwan/PWWAN_PIN_TYPE, wwan/WWAN_PIN_TYPE, wwan/WwanPinTypeCorporatePin, wwan/WwanPinTypeCorporatePuk, wwan/WwanPinTypeCustom, wwan/WwanPinTypeDeviceFirstSimPin, wwan/WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypeDeviceSimPin, wwan/WwanPinTypeMax, wwan/WwanPinTypeNetworkPin, wwan/WwanPinTypeNetworkPuk, wwan/WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeNetworkSubsetPuk, wwan/WwanPinTypeNone, wwan/WwanPinTypePin1, wwan/WwanPinTypePin2, wwan/WwanPinTypePuk1, wwan/WwanPinTypePuk2, wwan/WwanPinTypeSubsidyLock, wwan/WwanPinTypeSvcProviderPin, wwan/WwanPinTypeSvcProviderPuk"
 ms.prod: windows-hardware
 ms.technology: windows-devices

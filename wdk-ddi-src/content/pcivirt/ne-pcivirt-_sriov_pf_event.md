@@ -4,7 +4,7 @@ title: "_SRIOV_PF_EVENT"
 author: windows-driver-content
 description: Defines event values for the SR-IOV device.
 old-location: pci\sriov_pf_event.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: e2b40a9d-57e6-49b1-839a-d34acb108807
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: pcivirt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -57,7 +57,7 @@ Defines event values for the SR-IOV device.
 
 
 ````
-typedef enum _SRIOV_PF_EVENT { 
+typedef enum _SRIOV_PF_EVENT {
   SriovEventPfQueryStopDevice,
   SriovEventPfRestart,
   SriovEventPfMaximum

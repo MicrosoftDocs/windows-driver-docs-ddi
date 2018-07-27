@@ -4,7 +4,7 @@ title: ChangerGetProductData function
 author: windows-driver-content
 description: ChangerGetProductData handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PRODUCT_DATA.
 old-location: storage\changergetproductdata.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

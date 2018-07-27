@@ -4,7 +4,7 @@ title: PFNSCO_INDICATION_CALLBACK
 author: windows-driver-content
 description: Profile drivers implement a SCO callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about incoming SCO connection requests from remote devices, and any changes to the status of a currently open SCO connection.
 old-location: bltooth\sco_callback_function.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: abc9fc88-6852-4bfb-8271-7a73a508c397
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: FltPrepareToReuseEcp function
 author: windows-driver-content
 description: The FltPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.
 old-location: ifsk\fltpreparetoreuseecp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: E08E2ED1-047B-4190-8A54-79ECC75E860F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

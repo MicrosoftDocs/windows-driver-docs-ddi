@@ -4,7 +4,7 @@ title: FsRtlRemoveExtraCreateParameter function
 author: windows-driver-content
 description: The FsRtlRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fsrtlremoveextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a34845a9-d596-40de-b4d1-0f733818d961
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_SM_SetPersistentBinding_IN"
 author: windows-driver-content
 description: The SM_SetPersistentBinding_IN structure is used to provide input parameters to the SM_SetPersistentBinding method.
 old-location: storage\sm_setpersistentbinding_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 33a8c609-aa65-4629-b4ee-3723e614d400
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

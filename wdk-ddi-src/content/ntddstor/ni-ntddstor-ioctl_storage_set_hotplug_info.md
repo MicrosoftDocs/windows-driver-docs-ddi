@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_SET_HOTPLUG_INFO
 author: windows-driver-content
 description: Sets the hotplug configuration of the specified device.
 old-location: storage\ioctl_storage_set_hotplug_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5badc919-8663-4905-aaec-70f6b51ab2f1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

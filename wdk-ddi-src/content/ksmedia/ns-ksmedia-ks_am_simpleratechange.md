@@ -4,7 +4,7 @@ title: KS_AM_SimpleRateChange
 author: windows-driver-content
 description: The KS_AM_SimpleRateChange structure is used to describe a simple rate change (fast-forward or rewind) for an MPEG2 stream.
 old-location: stream\ks_am_simpleratechange.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d797b377-6c27-41f9-932d-264d0e8b5dd0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

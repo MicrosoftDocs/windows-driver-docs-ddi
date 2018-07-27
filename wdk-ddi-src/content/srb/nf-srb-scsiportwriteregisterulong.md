@@ -4,7 +4,7 @@ title: ScsiPortWriteRegisterUlong function
 author: windows-driver-content
 description: The ScsiPortWriteRegisterUlong routine transfers a ULONG value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d6e05c62-da0c-43a5-b51e-4c73f650b77d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

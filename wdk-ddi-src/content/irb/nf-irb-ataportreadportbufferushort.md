@@ -4,7 +4,7 @@ title: AtaPortReadPortBufferUshort function
 author: windows-driver-content
 description: The AtaPortReadPortBufferUshort routine transfers a given number of USHORT values from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadportbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f118af3b-5a9a-486b-9550-9b48bdfb48cd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

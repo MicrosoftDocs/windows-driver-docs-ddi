@@ -4,7 +4,7 @@ title: ScsiPortReadRegisterUlong macro
 author: windows-driver-content
 description: The ScsiPortReadRegisterUlong routine reads a ULONG value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

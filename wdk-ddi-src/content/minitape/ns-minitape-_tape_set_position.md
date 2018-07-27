@@ -4,7 +4,7 @@ title: "_TAPE_SET_POSITION"
 author: windows-driver-content
 description: The TAPE_SET_POSITION structure is used in conjunction with the IOCTL_TAPE_SET_POSITION request to move the current position on the tape to the specified partition and offset.
 old-location: storage\tape_set_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

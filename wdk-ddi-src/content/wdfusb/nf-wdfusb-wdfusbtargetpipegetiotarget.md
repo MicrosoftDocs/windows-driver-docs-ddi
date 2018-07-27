@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeGetIoTarget function
 author: windows-driver-content
 description: The WdfUsbTargetPipeGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB pipe.
 old-location: wdf\wdfusbtargetpipegetiotarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 73835623-fa35-46f0-90a2-62d6d596dc64
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

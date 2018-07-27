@@ -4,7 +4,7 @@ title: IKsPinPipe::KsGetConnectedPin
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetconnectedpin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

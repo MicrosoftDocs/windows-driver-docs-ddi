@@ -4,7 +4,7 @@ title: WdfDeviceSetPowerCapabilities function
 author: windows-driver-content
 description: The WdfDeviceSetPowerCapabilities method reports a device's power capabilities.
 old-location: wdf\wdfdevicesetpowercapabilities.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e04558e3-a95a-408b-961b-e8ea7ac9136d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

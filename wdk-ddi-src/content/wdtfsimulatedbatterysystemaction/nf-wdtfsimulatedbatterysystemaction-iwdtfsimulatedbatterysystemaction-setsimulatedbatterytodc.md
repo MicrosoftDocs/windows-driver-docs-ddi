@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
 author: windows-driver-content
 description: Sets the simulated battery status to DC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 7564c5f0-ea36-4009-bd34-3119ef23149e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

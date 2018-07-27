@@ -4,7 +4,7 @@ title: AtaPortCopyMemory function
 author: windows-driver-content
 description: The AtaPortCopyMemory routine copies data from one location to another.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcopymemory.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f5e449f8-9ff9-4d3d-9a62-3e985b57bd50
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

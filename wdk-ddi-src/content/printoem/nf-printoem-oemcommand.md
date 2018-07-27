@@ -4,7 +4,7 @@ title: OEMCommand function
 author: windows-driver-content
 description: OEMCommand function
 old-location: print\oemcommand.htm
-old-project: print
+tech.root: print
 ms.assetid: 67f75696-dee4-43ec-90fd-96fd1a91ec16
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

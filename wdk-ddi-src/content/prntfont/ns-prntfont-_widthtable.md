@@ -4,7 +4,7 @@ title: "_WIDTHTABLE"
 author: windows-driver-content
 description: The WIDTHTABLE structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\widthtable.htm
-old-project: print
+tech.root: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

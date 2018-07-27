@@ -4,7 +4,7 @@ title: FsRtlLookupLastLargeMcbEntryAndIndex function
 author: windows-driver-content
 description: The FsRtlLookupLastLargeMcbEntryAndIndex routine retrieves the last mapping entry stored in a given map control block (MCB).
 old-location: ifsk\fsrtllookuplastlargemcbentryandindex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 53c3109d-16e4-4db4-9c62-27c6d8501707
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

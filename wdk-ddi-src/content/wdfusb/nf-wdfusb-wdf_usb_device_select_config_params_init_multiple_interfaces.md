@@ -4,7 +4,7 @@ title: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function
 author: windows-driver-content
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can configure a device to use multiple interfaces.
 old-location: wdf\wdf_usb_device_select_config_params_init_multiple_interfaces.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e8f33c5d-50a4-43ad-a69e-d667500044a7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

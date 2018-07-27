@@ -4,10 +4,10 @@ title: "_NDIS_PD_QUEUE_DISPATCH"
 author: windows-driver-content
 description: This structure contains a provider's driver routines for receive or transmit queues.
 old-location: netvista\ndis_pd_queue_dispatch.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: F9738CF9-AAC8-413C-A890-D6FAD7EEFD54
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_PD_QUEUE_DISPATCH, NDIS_PD_QUEUE_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE_DISPATCH, PNDIS_PD_QUEUE_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_DISPATCH, ndis/NDIS_PD_QUEUE_DISPATCH, ndis/PNDIS_PD_QUEUE_DISPATCH, netvista.ndis_pd_queue_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

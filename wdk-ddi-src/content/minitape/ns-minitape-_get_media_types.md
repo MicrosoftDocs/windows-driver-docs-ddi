@@ -4,7 +4,7 @@ title: "_GET_MEDIA_TYPES"
 author: windows-driver-content
 description: The GET_MEDIA_TYPES structure is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to retrieve information about the types of media supported by a device.
 old-location: storage\get_media_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e803505f-37a0-4b20-bd6f-ce0f79eead03
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

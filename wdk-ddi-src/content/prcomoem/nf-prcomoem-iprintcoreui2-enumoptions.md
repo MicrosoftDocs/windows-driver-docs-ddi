@@ -4,7 +4,7 @@ title: IPrintCoreUI2::EnumOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::EnumOptions method enumerates the available options of a specific feature.
 old-location: print\iprintcoreui2_enumoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 9ae20927-6ef4-4566-939c-967ce1d99874
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

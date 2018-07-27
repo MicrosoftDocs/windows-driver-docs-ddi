@@ -4,7 +4,7 @@ title: KSSTREAM_UVC_METADATATYPE_TIMESTAMP
 author: windows-driver-content
 description: The KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure contains USB video class (UVC) clock and timestamp information.
 old-location: stream\ksstream_uvc_metadatatype_timestamp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

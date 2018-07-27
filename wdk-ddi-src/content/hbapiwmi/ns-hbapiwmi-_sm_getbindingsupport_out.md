@@ -4,7 +4,7 @@ title: "_SM_GetBindingSupport_OUT"
 author: windows-driver-content
 description: The SM_GetBindingSupport_OUT structure is used to receive output parameters from the SM_GetBindingSupport method.
 old-location: storage\sm_getbindingsupport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4f45e2ad-19f9-4308-8d63-edf066545e07
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

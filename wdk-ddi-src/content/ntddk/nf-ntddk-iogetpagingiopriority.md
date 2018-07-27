@@ -4,7 +4,7 @@ title: IoGetPagingIoPriority function
 author: windows-driver-content
 description: The IoGetPagingIoPriority routine indicates the priority level of a paging I/O request.
 old-location: kernel\iogetpagingiopriority.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b0f4fc9-58fd-46ba-be17-2e1b36b16caa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

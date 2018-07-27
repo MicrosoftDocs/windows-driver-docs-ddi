@@ -4,7 +4,7 @@ title: UFS_POWER_DESCRIPTOR
 author: windows-driver-content
 description: UFS_POWER_DESCRIPTOR contains information about the power capabilities and power states of the device.
 old-location: storage\ufs_power_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

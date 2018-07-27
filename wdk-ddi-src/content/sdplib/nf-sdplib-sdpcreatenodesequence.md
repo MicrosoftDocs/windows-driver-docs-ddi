@@ -4,7 +4,7 @@ title: SdpCreateNodeSequence function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeSequence function is used to create an empty sequence SDP node.
 old-location: bltooth\sdpcreatenodesequence.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 9e02f32b-cd39-4953-9698-a1800bedf0e2
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

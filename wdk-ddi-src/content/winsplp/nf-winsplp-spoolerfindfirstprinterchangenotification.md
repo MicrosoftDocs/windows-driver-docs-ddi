@@ -4,7 +4,7 @@ title: SpoolerFindFirstPrinterChangeNotification function
 author: windows-driver-content
 description: "."
 old-location: print\spoolerfindfirstprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

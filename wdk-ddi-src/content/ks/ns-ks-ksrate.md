@@ -4,7 +4,7 @@ title: KSRATE
 author: windows-driver-content
 description: The query is passed a KSRATE structure appended to the property containing the rate request (known as a KSRATE_CAPABILITY structure), and is returned a KSRATE structure filled in with the capability given the rate request.
 old-location: stream\ksrate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

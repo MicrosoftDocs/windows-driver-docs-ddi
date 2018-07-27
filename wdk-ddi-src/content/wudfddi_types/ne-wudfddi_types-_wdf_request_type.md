@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_REQUEST_TYPE enumeration identifies the types of I/O requests that a UMDF request object can represent.
 old-location: wdf\wdf_request_type__umdf_.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

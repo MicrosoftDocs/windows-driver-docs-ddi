@@ -4,7 +4,7 @@ title: RtlFlushNonVolatileMemory function
 author: windows-driver-content
 description: The routine RtlFlushNonVolatileMemory optimally flushes the given non-volatile memory region.
 old-location: ifsk\rtlflushnonvolatilememory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 759CDFAA-D939-44E7-AE03-E3ED90F8E09D
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: ZwOpenProcess function
 author: windows-driver-content
 description: The ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
 old-location: kernel\zwopenprocess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 261d7676-9ce7-4e15-a58f-0439434f202b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

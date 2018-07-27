@@ -4,7 +4,7 @@ title: SpbTargetGetFileObject function
 author: windows-driver-content
 description: The SpbTargetGetFileObject method accepts, as an input parameter, an SPBTARGET handle to an open target device, and returns a WDFFILEOBJECT handle to this target.
 old-location: spb\spbtargetgetfileobject.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

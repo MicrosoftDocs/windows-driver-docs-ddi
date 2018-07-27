@@ -4,10 +4,10 @@ title: "_DXVAHDDDI_COLOR_RGBA"
 author: windows-driver-content
 description: The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.
 old-location: display\dxvahdddi_color_rgba.htm
-old-project: display
+tech.root: display
 ms.assetid: 73779eb1-514e-4103-9af2-0dc0c86cb04e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml, DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA structure [Display Devices], _DXVAHDDDI_COLOR_RGBA, d3dumddi/DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba
 ms.prod: windows-hardware
 ms.technology: windows-devices

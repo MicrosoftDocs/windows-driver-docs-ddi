@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION
 author: windows-driver-content
 description: A driver's EvtDevicePowerPolicyStateChange event callback function informs the driver that a device's power policy state machine is moving from one state to another.
 old-location: wdf\evtdevicepowerpolicystatechange.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 91432773-3255-4feb-a6f4-c24da4486703
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

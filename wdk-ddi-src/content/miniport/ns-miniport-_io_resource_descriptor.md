@@ -4,7 +4,7 @@ title: "_IO_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The IO_RESOURCE_DESCRIPTOR structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of IO_RESOURCE_DESCRIPTOR structures is contained within each IO_RESOURCE_LIST structure.
 old-location: kernel\io_resource_descriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 03e3a656-c691-4aff-bcc8-4e0bc8390fd7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

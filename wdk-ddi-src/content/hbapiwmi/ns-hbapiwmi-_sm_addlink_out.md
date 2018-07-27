@@ -4,7 +4,7 @@ title: "_SM_AddLink_OUT"
 author: windows-driver-content
 description: The SM_AddLink_OUT structure is used to receive output parameters from the SM_AddLink WMI method.
 old-location: storage\sm_addlink_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1c69b8b0-fe73-4e13-be09-70b99e0e3f32
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

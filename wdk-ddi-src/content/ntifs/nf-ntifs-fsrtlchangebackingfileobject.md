@@ -4,7 +4,7 @@ title: FsRtlChangeBackingFileObject function
 author: windows-driver-content
 description: The FsRtlChangeBackingFileObject routine replaces the current file object with a new file object.
 old-location: ifsk\fsrtlchangebackingfileobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

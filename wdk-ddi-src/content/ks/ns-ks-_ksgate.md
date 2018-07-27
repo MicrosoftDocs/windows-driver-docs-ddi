@@ -4,7 +4,7 @@ title: "_KSGATE"
 author: windows-driver-content
 description: The KSGATE structure describes an AVStream gate object.
 old-location: stream\ksgate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f6b5169e-2ff1-43da-a207-0c15c75e1367
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

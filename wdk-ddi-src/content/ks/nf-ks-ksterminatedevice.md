@@ -4,7 +4,7 @@ title: KsTerminateDevice function
 author: windows-driver-content
 description: The KsTerminateDevice function removes an AVStream device.
 old-location: stream\ksterminatedevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

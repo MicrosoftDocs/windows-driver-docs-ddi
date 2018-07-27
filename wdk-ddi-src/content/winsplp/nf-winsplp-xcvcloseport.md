@@ -4,7 +4,7 @@ title: XcvClosePort function
 author: windows-driver-content
 description: A port monitor server DLL's XcvClosePort function closes a printer port that was opened by XcvOpenPort.
 old-location: print\xcvcloseport.htm
-old-project: print
+tech.root: print
 ms.assetid: 8dfeb2d5-e75e-4e5b-b209-cb23133136f7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax

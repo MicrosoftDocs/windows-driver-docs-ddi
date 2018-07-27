@@ -4,7 +4,7 @@ title: EX_CALLBACK_FUNCTION
 author: windows-driver-content
 description: A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation.
 old-location: kernel\registrycallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 220ce3b8-2820-4753-9659-5ce7b4f4f32d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

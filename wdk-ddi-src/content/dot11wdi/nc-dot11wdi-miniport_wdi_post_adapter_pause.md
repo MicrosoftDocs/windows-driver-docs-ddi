@@ -4,10 +4,10 @@ title: MINIPORT_WDI_POST_ADAPTER_PAUSE
 author: windows-driver-content
 description: The MiniportWdiPostAdapterPause handler function is called by the Microsoft component after it finishes the data path clean up as part of the NDIS MiniportPause requirements.
 old-location: netvista\miniportwdipostadapterpause.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 57B52C5B-D151-4112-8173-23D18C636E98
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MINIPORT_WDI_POST_ADAPTER_PAUSE callback, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
 ms.prod: windows-hardware
 ms.technology: windows-devices

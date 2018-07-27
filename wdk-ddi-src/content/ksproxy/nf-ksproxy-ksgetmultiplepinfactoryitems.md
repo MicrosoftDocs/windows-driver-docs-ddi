@@ -4,7 +4,7 @@ title: KsGetMultiplePinFactoryItems function
 author: windows-driver-content
 description: The KsGetMultiplePinFactoryItems function retrieves pin property items in a variable length data buffer.
 old-location: stream\ksgetmultiplepinfactoryitems.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: DRIVER_FS_NOTIFICATION
 author: windows-driver-content
 description: A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a file system registers or unregisters itself by using IoRegisterFileSystem or IoUnregisterFileSystem.
 old-location: ifsk\pdriver_fs_notification.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

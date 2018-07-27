@@ -4,7 +4,7 @@ title: KSPROPERTY_STREAMINTERFACE
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_streaminterface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: FltGetVolumeFromInstance function
 author: windows-driver-content
 description: The FltGetVolumeFromInstance routine returns an opaque pointer for the volume that a given minifilter driver instance is attached to.
 old-location: ifsk\fltgetvolumefrominstance.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2c38ab6a-c583-45a5-93a5-6a5882411b6c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

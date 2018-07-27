@@ -4,10 +4,10 @@ title: tagDEVICEDIALOGDATA2
 author: windows-driver-content
 description: The DEVICEDIALOGDATA2 structure contains all the data needed to implement a custom device dialog.
 old-location: image\devicedialogdata2.htm
-old-project: image
+tech.root: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, image.devicedialogdata2, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

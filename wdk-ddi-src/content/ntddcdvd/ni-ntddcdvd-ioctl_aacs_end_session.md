@@ -4,7 +4,7 @@ title: IOCTL_AACS_END_SESSION
 author: windows-driver-content
 description: Releases the Authentication Grant Identifier (AGID) that was obtained by IOCTL_AACS_START_SESSION.
 old-location: storage\ioctl_aacs_end_session.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5a86c871-ed6e-4c96-bc12-03b3a900953d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

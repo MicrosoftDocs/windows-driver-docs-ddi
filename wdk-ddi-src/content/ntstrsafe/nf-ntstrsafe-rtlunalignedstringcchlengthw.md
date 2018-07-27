@@ -4,7 +4,7 @@ title: RtlUnalignedStringCchLengthW function
 author: windows-driver-content
 description: The RtlUnalignedStringCchLengthW function is a version of the RtlStringCchLength function that accepts an unaligned pointer to a string of Unicode characters.
 old-location: kernel\rtlunalignedstringcchlength.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

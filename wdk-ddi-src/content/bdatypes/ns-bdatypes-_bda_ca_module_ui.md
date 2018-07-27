@@ -4,7 +4,7 @@ title: "_BDA_CA_MODULE_UI"
 author: windows-driver-content
 description: The BDA_CA_MODULE_UI structure describes the user interface (UI) that conditional access (CA) plugins can display.
 old-location: stream\bda_ca_module_ui.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2f2c8cb5-0e84-467f-9671-735575835c3a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

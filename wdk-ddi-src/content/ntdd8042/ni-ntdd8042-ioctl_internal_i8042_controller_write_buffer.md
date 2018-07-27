@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
 author: windows-driver-content
 description: The IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER request is not supported.
 old-location: hid\ioctl_internal_i8042_controller_write_buffer.htm
-old-project: hid
+tech.root: hid
 ms.assetid: c4970f78-fa4f-4ce9-a538-332f00e0df28
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

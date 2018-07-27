@@ -4,7 +4,7 @@ title: RtlSubAuthoritySid function
 author: windows-driver-content
 description: The RtlSubAuthoritySid routine returns a pointer to a specified subauthority of a security identifier (SID).
 old-location: ifsk\rtlsubauthoritysid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

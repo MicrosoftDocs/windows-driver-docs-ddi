@@ -4,7 +4,7 @@ title: KSTARGET_STATE
 author: windows-driver-content
 description: "."
 old-location: stream\kstarget_state.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4D18A0F0-51E9-4871-B8C1-32FAA518FAEC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

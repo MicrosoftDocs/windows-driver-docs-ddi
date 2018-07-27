@@ -4,7 +4,7 @@ title: KeSetSystemAffinityThread function
 author: windows-driver-content
 description: The KeSetSystemAffinityThread routine sets the system affinity of the current thread.
 old-location: kernel\kesetsystemaffinitythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eb66ed06-356d-4550-8ccf-10854e4ca259
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_REQUEST_BLOCK"
 author: windows-driver-content
 description: The STORAGE_REQUEST_BLOCK is the extended format SCSI Request Block (SRB) structure.
 old-location: storage\storage_request_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 67A5077D-B1AD-49B7-B024-D139E375483F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: PFNALLOCATOR_ALLOCATEFRAME
 author: windows-driver-content
 description: The KStrAllocateFrame routine describes a vendor-supplied frame allocation function.
 old-location: stream\kstrallocateframe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1b6eec23-82b4-4e8f-89d0-e76d6449906e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

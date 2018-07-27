@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore
 author: windows-driver-content
 description: The IWDFNamedPropertyStore interface exposes a property-store object.
 old-location: wdf\iwdfnamedpropertystore.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f31a88c1-468f-4756-a5fa-b4aa0b8fe51d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

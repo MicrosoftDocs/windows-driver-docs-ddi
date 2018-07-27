@@ -4,7 +4,7 @@ title: RtlGUIDFromString function
 author: windows-driver-content
 description: The RtlGUIDFromString routine converts the given Unicode string to a GUID in binary format.
 old-location: kernel\rtlguidfromstring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7bdfc781-93d6-4f49-95f1-46f102908ec5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

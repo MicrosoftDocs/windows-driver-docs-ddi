@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapping relationship of the MB device.
 old-location: netvista\ndis_wwan_device_slot_mappings.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 18437B56-B84C-499B-8D4F-F65B5B8221A6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, ndiswwan/NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, ndiswwan/PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, netvista.ndis_wwan_device_slot_mappings"
 ms.prod: windows-hardware
 ms.technology: windows-devices

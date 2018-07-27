@@ -4,10 +4,10 @@ title: KSDATARANGE_AUDIO
 author: windows-driver-content
 description: The KSDATARANGE_AUDIO structure specifies a range of audio formats.
 old-location: audio\ksdatarange_audio.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO structure pointer [Audio Devices], aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, audio.ksdatarange_audio, ksmedia/KSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

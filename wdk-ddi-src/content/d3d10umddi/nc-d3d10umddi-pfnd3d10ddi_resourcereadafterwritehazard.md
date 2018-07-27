@@ -4,10 +4,10 @@ title: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD
 author: windows-driver-content
 description: The ResourceReadAfterWriteHazard function informs the user-mode display driver that the specified resource was used as an output from the graphics processing unit (GPU) and that the resource will be used as an input to the GPU.
 old-location: display\resourcereadafterwritehazard.htm
-old-project: display
+tech.root: display
 ms.assetid: 4d7dd4f5-9792-48cb-bf69-3903ac9dda75
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD callback, ResourceReadAfterWriteHazard, ResourceReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6a240dd4-86e0-4876-b4c3-8dd2d3f086e8.xml, d3d10umddi/ResourceReadAfterWriteHazard, display.resourcereadafterwritehazard
 ms.prod: windows-hardware
 ms.technology: windows-devices

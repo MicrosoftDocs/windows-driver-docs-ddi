@@ -4,7 +4,7 @@ title: NtRenameTransactionManager function
 author: windows-driver-content
 description: The NtRenameTransactionManager routine changes the identity of the transaction manager object that is stored in the CLFS log file stream contained in the log file name.
 old-location: kernel\ntrenametransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 53baa93a-bd71-4975-86cc-51eb31c2f430
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

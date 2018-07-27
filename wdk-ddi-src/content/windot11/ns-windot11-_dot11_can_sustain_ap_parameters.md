@@ -4,7 +4,7 @@ title: "_DOT11_CAN_SUSTAIN_AP_PARAMETERS"
 author: windows-driver-content
 description: The DOT11_CAN_SUSTAIN_AP_PARAMETERS structure specifies the reason why the NIC can sustain an access point (AP).
 old-location: netvista\dot11_can_sustain_ap_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,11 +74,11 @@ typedef struct _DOT11_CAN_SUSTAIN_AP_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the DOT11_CAN_SUSTAIN_AP_PARAMETERS structure. This member is
-     formatted as an 
+     formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -99,10 +99,10 @@ This member must be set to DOT11_CAN_SUSTAIN_AP_PARAMETERS_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
@@ -110,7 +110,7 @@ For more information about these members, see
 
 A ULONG value that specifies the reason why the NIC can sustain the AP. An IHV can supply the
      following range of values:
-     
+
 
 
 
@@ -126,7 +126,7 @@ The end value of possible IHV-specified reasons.
 
 The start value of possible IHV-specified reasons.
 
-If the value of 
+If the value of
      <b>ulReason</b> is in the range of DOT11_CAN_SUSTAIN_AP_REASON_IHV_START and
      DOT11_STOP_AP_REASON_IHV_END, inclusive, the operating system takes no action.
 
@@ -136,7 +136,7 @@ If the value of
 
 
 The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS structure when the driver
-    makes an 
+    makes an
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
     NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a> status indication.
 

@@ -4,7 +4,7 @@ title: IOCTL_DISK_FORMAT_TRACKS
 author: windows-driver-content
 description: Formats the specified set of contiguous tracks on the disk.
 old-location: storage\ioctl_disk_format_tracks.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f27f962f-badc-4e6f-ad3b-ce2a0c8ce825
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

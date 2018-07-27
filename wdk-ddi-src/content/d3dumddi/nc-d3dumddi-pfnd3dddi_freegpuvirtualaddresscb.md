@@ -4,10 +4,10 @@ title: PFND3DDDI_FREEGPUVIRTUALADDRESSCB
 author: windows-driver-content
 description: pfnFreeGpuVirtualAddressCb releases a range of graphics processing unit (GPU) virtual addresses that was previously reserved or mapped.
 old-location: display\pfnfreegpuvirtualaddresscb.htm
-old-project: display
+tech.root: display
 ms.assetid: 92F2A43C-699B-4580-8A56-472D837A76E2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_FREEGPUVIRTUALADDRESSCB, PFND3DDDI_FREEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnFreeGpuVirtualAddressCb, display.pfnfreegpuvirtualaddresscb, pfnFreeGpuVirtualAddressCb, pfnFreeGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

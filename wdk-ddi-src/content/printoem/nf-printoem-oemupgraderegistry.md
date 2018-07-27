@@ -4,7 +4,7 @@ title: OEMUpgradeRegistry function
 author: windows-driver-content
 description: OEMUpgradeRegistry function
 old-location: print\oemupgraderegistry.htm
-old-project: print
+tech.root: print
 ms.assetid: 780ae330-907e-4e77-a5f9-cb44811f289f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

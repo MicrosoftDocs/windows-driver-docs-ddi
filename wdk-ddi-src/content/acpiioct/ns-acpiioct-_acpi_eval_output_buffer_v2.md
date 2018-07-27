@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_OUTPUT_BUFFER_V2"
 author: windows-driver-content
 description: This topic describes the ACPI_EVAL_OUTPUT_BUFFER_V2 structure.
 old-location: acpi\acpi_eval_output_buffer_v2.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 355A600E-F207-4A3F-80AE-EA2DAE810DA3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

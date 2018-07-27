@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO"
 author: windows-driver-content
 description: SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO is the input parameter for IOCTL_NFCSE_SET_CARD_EMULATION_MODE.
 old-location: nfpdrivers\secure_element_set_card_emulation_mode_info.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 64EE1896-DD19-42AD-92D7-3B3498A83E75
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

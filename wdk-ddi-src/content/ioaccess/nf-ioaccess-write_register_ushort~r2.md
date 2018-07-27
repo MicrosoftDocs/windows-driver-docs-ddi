@@ -4,7 +4,7 @@ title: WRITE_REGISTER_USHORT function
 author: windows-driver-content
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: kernel\write_register_ushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
 ms.author: windowsdriverdev
 ms.date: 3/1/2018
@@ -16,16 +16,16 @@ req.header: ioaccess.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
@@ -76,7 +76,7 @@ Pointer to the register, which must be a mapped range in memory space.
 
 ### -param Value [in]
 
-Specifies a USHORT value to be written to the register. 
+Specifies a USHORT value to be written to the register.
 
 
 ## -returns
@@ -92,7 +92,7 @@ None
 
 
 
-Callers of <b>WRITE_REGISTER_USHORT</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory. 
+Callers of <b>WRITE_REGISTER_USHORT</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
 
 
 

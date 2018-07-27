@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_LINK_CONTROL_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_LINK_CONTROL_REGISTER structure describes a PCI Express (PCIe) link control register of a PCIe capability structure.
 old-location: pci\pci_express_link_control_register.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: f4f8bd0d-fad7-4712-92ca-44d45969142d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -81,7 +81,7 @@ typedef union _PCI_EXPRESS_LINK_CONTROL_REGISTER {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsUSHORT

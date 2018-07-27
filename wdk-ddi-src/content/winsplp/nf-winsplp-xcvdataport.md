@@ -4,7 +4,7 @@ title: XcvDataPort function
 author: windows-driver-content
 description: A port monitor server DLL's XcvDataPort function receives information from, and returns information to, the port monitor's UI DLL.
 old-location: print\xcvdataport.htm
-old-project: print
+tech.root: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax
@@ -189,7 +189,7 @@ The <b>XcvDataPort</b> function must validate all input arguments. Specifically,
 
 <ul>
 <li>
-Validate the contents of the string pointed to by the <i>pszDataName</i> parameter. If this string represents an administrative operation (typically adding, deleting, or configuring a port), the <b>XcvDataPort</b> function should compare the granted access mask that was previously received by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function with SERVER_ACCESS_ADMINISTER. If the comparison fails, <b>XcvDataPort</b> must  return ERROR_ACCESS_DENIED. 
+Validate the contents of the string pointed to by the <i>pszDataName</i> parameter. If this string represents an administrative operation (typically adding, deleting, or configuring a port), the <b>XcvDataPort</b> function should compare the granted access mask that was previously received by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function with SERVER_ACCESS_ADMINISTER. If the comparison fails, <b>XcvDataPort</b> must  return ERROR_ACCESS_DENIED.
 
 </li>
 <li>

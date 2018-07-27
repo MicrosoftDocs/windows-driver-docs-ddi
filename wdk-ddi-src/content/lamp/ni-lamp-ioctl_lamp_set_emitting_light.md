@@ -4,7 +4,7 @@ title: IOCTL_LAMP_SET_EMITTING_LIGHT
 author: windows-driver-content
 description: The IOCTL_LAMP_SET_EMITTING_LIGHT control code turns the lamp on or off.
 old-location: stream\ioctl_lamp_set_emitting_light.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E3B85C82-EC55-4A88-BFCA-91123F8311D1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

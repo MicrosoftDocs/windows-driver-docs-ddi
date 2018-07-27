@@ -4,7 +4,7 @@ title: IPrintOemUni::Compression
 author: windows-driver-content
 description: The IPrintOemUni::Compression method can be used with Unidrv-supported printers to provide a customized bitmap compression method.
 old-location: print\iprintoemuni_compression.htm
-old-project: print
+tech.root: print
 ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

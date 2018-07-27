@@ -4,7 +4,7 @@ title: OEMTTYGetInfo function
 author: windows-driver-content
 description: OEMTTYGetInfo function
 old-location: print\oemttygetinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 9b6fcd4e-6472-4e46-b0b7-dd1279e534d0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

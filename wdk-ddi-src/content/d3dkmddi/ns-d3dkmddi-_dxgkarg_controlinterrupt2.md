@@ -4,10 +4,10 @@ title: "_DXGKARG_CONTROLINTERRUPT2"
 author: windows-driver-content
 description: The DXGKARG_CONTROLINTERRUPT2 structure is used in DxgkDdi_ControlInterrupt2 calls to describe the state of interrupts.
 old-location: display\dxgkarg_controlinterrupt2.htm
-old-project: display
+tech.root: display
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices

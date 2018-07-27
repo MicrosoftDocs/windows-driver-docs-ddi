@@ -4,7 +4,7 @@ title: NfcCxSetRfDiscoveryConfig function
 author: windows-driver-content
 description: Called by the client driver to configure the RF discovery parameters.
 old-location: nfpdrivers\_nfccxsetrfdiscoveryconfig.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

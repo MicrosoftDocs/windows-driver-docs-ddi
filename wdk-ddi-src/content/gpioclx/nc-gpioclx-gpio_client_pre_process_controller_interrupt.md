@@ -4,7 +4,7 @@ title: GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT
 author: windows-driver-content
 description: The CLIENT_PreProcessControllerInterrupt event callback function performs any pre-processing of a general-purpose I/O (GPIO) interrupt that must be done immediately if the ISR is scheduled to run at a later time.
 old-location: gpio\client_preprocesscontrollerinterrupt.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: BC97E260-D77C-4ACD-B431-0CE6D745B37B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

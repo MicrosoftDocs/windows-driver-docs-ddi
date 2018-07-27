@@ -4,7 +4,7 @@ title: PsGetCurrentProcessId function
 author: windows-driver-content
 description: The PsGetCurrentProcessId routine identifies the current thread's process.
 old-location: kernel\psgetcurrentprocessid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9434f740-34c1-4244-813d-3fe9f1ead333
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

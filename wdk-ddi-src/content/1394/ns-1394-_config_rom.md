@@ -4,7 +4,7 @@ title: "_CONFIG_ROM"
 author: windows-driver-content
 description: The CONFIG_ROM structure is used to contain the first 24 bytes of an IEEE 1394 device's configuration ROM.
 old-location: ieee\config_rom.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 0ab96bc2-a89f-42cf-9ee2-020b47dff4cf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

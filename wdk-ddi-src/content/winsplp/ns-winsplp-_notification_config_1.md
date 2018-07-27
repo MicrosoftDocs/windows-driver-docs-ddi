@@ -4,7 +4,7 @@ title: "_NOTIFICATION_CONFIG_1"
 author: windows-driver-content
 description: "."
 old-location: print\notification_config_1.htm
-old-project: print
+tech.root: print
 ms.assetid: 4A33F3EB-9A2E-40F4-B5BC-EDEA5085301E
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

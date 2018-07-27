@@ -4,7 +4,7 @@ title: "_TAPE_ERASE"
 author: windows-driver-content
 description: The TAPE_ERASE structure is used in conjunction with the IOCTL_TAPE_ERASE request to erase the current tape partition.
 old-location: storage\tape_erase.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dc17efe6-9183-4908-8ca5-69c6ae38db6d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

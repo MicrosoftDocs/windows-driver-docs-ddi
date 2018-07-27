@@ -4,7 +4,7 @@ title: "_DOT11_SUPPORTED_ANTENNA"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_antenna.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 55a9c9e0-24e2-436f-9132-77ae1bab7c2c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SUPPORTED_ANTENNA structure defines an antenna entry in a 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SUPPORTED_ANTENNA structure defines an antenna entry in a
   <a href="..\windot11\ns-windot11-_dot11_supported_antenna_list.md">
   DOT11_SUPPORTED_ANTENNA_LIST</a> structure.
 
@@ -79,7 +79,7 @@ A value, from 1 through 255, that uniquely identifies the antenna.
 
 ### -field bSupportedAntenna
 
-A Boolean value that indicates, if <b>TRUE</b>, that the antenna referenced by the 
+A Boolean value that indicates, if <b>TRUE</b>, that the antenna referenced by the
      <b>uAntennaListIndex</b> value supports transmit and receive operations.
 
 
@@ -87,11 +87,11 @@ A Boolean value that indicates, if <b>TRUE</b>, that the antenna referenced by t
 
 
 
-The meaning of the 
-    <b>bSupportedAntenna</b> member depends on the OID that it is used with. For example, if 
-    <b>bSupportedAntenna</b> is <b>TRUE</b> when an antenna list is queried through 
+The meaning of the
+    <b>bSupportedAntenna</b> member depends on the OID that it is used with. For example, if
+    <b>bSupportedAntenna</b> is <b>TRUE</b> when an antenna list is queried through
     <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>,
-    the antenna referenced by the 
+    the antenna referenced by the
     <b>uAntennaListIndex</b> member is supported for receive operations.
 
 

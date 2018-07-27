@@ -4,7 +4,7 @@ title: KSMETHOD_SET
 author: windows-driver-content
 description: The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
 old-location: stream\ksmethod_set.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e06bbf6f-f636-4fb1-8195-b74512d4cd13
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

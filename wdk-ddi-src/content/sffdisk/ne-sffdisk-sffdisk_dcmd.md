@@ -4,7 +4,7 @@ title: SFFDISK_DCMD
 author: windows-driver-content
 description: The SFFDISK_DCMD enumeration identifies the type of Secure Digital (SD) card operation.
 old-location: sd\sffdisk_dcmd.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 145e460e-6988-4e61-bb33-6f1b1df54629
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

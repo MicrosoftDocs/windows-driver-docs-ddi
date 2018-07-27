@@ -4,7 +4,7 @@ title: RILGSMMNMRPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILGSMMNMRPARAMMASK.
 old-location: netvista\rilgsmmnmrparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a226956d-2881-4cff-a800-988b70eb99ea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,14 +60,14 @@ req.typenames: RILGSMMNMRPARAMMASK
 
 ````
 enum RILGSMMNMRPARAMMASK {
-  RIL_PARAM_GSMNMR_MCC      = 0x00000001, 
-  RIL_PARAM_GSMNMR_MNC      = 0x00000002, 
-  RIL_PARAM_GSMNMR_LAC      = 0x00000004, 
-  RIL_PARAM_GSMNMR_CELLID   = 0x00000008, 
-  RIL_PARAM_GSMNMR_ARFCN    = 0x00000010, 
-  RIL_PARAM_GSMNMR_BSID     = 0x00000020, 
-  RIL_PARAM_GSMNMR_RXLEVEL  = 0x00000040, 
-  RIL_PARAM_GSMNMR_ALL      = 0x0000007f 
+  RIL_PARAM_GSMNMR_MCC      = 0x00000001,
+  RIL_PARAM_GSMNMR_MNC      = 0x00000002,
+  RIL_PARAM_GSMNMR_LAC      = 0x00000004,
+  RIL_PARAM_GSMNMR_CELLID   = 0x00000008,
+  RIL_PARAM_GSMNMR_ARFCN    = 0x00000010,
+  RIL_PARAM_GSMNMR_BSID     = 0x00000020,
+  RIL_PARAM_GSMNMR_RXLEVEL  = 0x00000040,
+  RIL_PARAM_GSMNMR_ALL      = 0x0000007f
 
 };
 ````
@@ -239,7 +239,7 @@ Yes
 
 </td>
 <td>
-Serving cell Rx measurement; range is mapped to a measured signal level: 
+Serving cell Rx measurement; range is mapped to a measured signal level:
 
 • RxLevel 0 is a signal strength less than −110 dBm
 
@@ -247,7 +247,7 @@ Serving cell Rx measurement; range is mapped to a measured signal level:
 
 • RxLevel 2 is −109 dBm to −108 dBm
 
-• ... 
+• ...
 
 • RxLevel 62 is −49 dBm to −48 dBm
 

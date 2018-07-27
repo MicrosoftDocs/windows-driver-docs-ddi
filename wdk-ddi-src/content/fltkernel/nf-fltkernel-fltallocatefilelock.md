@@ -4,7 +4,7 @@ title: FltAllocateFileLock function
 author: windows-driver-content
 description: The FltAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fltallocatefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f5a96fc2-e6b8-44df-a827-d10d693f6f2b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

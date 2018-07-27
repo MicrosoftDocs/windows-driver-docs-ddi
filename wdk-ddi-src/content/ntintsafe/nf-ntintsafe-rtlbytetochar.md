@@ -4,7 +4,7 @@ title: RtlByteToChar function
 author: windows-driver-content
 description: Converts a value of type BYTE to a value of type CHAR.
 old-location: kernel\rtlbytetochar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_STANDARD_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_STANDARD_S structure describe the standard of a TV tuner device, such as PAL, NTSC or SECAM.
 old-location: stream\ksproperty_tuner_standard_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3eea8ee2-1ad5-4e00-b0c3-0710b58a2518
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

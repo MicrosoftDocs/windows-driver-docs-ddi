@@ -4,7 +4,7 @@ title: "_SetGroupPresharedKey_OUT"
 author: windows-driver-content
 description: The SetGroupPresharedKey_OUT structure holds the output data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4ea5e428-783c-4a28-bec5-42106425ee1f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

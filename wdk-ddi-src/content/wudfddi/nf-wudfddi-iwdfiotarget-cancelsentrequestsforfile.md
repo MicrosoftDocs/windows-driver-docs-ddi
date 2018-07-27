@@ -4,7 +4,7 @@ title: IWDFIoTarget::CancelSentRequestsForFile
 author: windows-driver-content
 description: The CancelSentRequestsForFile method cancels all I/O requests that have been sent on behalf of the specified file object.
 old-location: wdf\iwdfiotarget_cancelsentrequestsforfile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: df008ee8-352f-4655-b4c0-750eeb281e6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_SCSIWMILIB_CONTEXT"
 author: windows-driver-content
 description: A SCSI_WMILIB_CONTEXT structure provides registration information for a miniport driver's data and event blocks and defines entry points for the miniport driver's HwScsiWmiXxx callback routines.
 old-location: storage\scsi_wmilib_context.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7886cee8-1142-42e6-8206-84667621ba77
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDTFActions2::Remove
 author: windows-driver-content
 description: Remove an action from the collection.
 old-location: dtf\iwdtfactions2_remove.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 28cebd7f-1f88-4c3d-8432-c44df4e287d7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

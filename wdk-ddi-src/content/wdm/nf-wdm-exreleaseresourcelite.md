@@ -4,7 +4,7 @@ title: ExReleaseResourceLite function
 author: windows-driver-content
 description: The ExReleaseResourceLite routine releases a specified executive resource owned by the current thread.
 old-location: kernel\exreleaseresourcelite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ca17587-a84e-432b-9874-4197cc107f64
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

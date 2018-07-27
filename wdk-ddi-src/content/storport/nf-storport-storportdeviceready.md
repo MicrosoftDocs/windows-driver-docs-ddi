@@ -4,7 +4,7 @@ title: StorPortDeviceReady function
 author: windows-driver-content
 description: The StorPortDeviceReady routine notifies the port driver that the indicated logical unit is ready to handle new requests.
 old-location: storage\storportdeviceready.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6dd3abdb-9037-4cf5-abe7-7776dcf67bd5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

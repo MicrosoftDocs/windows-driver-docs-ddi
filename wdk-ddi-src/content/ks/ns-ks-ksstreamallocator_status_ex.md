@@ -4,7 +4,7 @@ title: KSSTREAMALLOCATOR_STATUS_EX
 author: windows-driver-content
 description: Client use KSSTREAMALLOCATOR_STATUS_EX to query the status for allocators supporting the extended allocator framing.
 old-location: stream\ksstreamallocator_status_ex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b0477c52-d9e6-47cd-b94c-b9da2c4e07a6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

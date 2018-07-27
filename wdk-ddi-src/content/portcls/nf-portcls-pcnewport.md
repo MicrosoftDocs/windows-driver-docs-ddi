@@ -4,10 +4,10 @@ title: PcNewPort function
 author: windows-driver-content
 description: The PcNewPort function creates a new system-supplied port-driver object, whose interface (derived from base class IPort) is specified by a class ID.
 old-location: audio\pcnewport.htm
-old-project: audio
+tech.root: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NdisCoOidRequest function
 author: windows-driver-content
 description: The NdisCoOidRequest function forwards a request to targeted CoNDIS drivers to query or set OID-specified information of the target driver.
 old-location: netvista\ndiscooidrequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7d46f2c1-7b54-4510-968a-2e35e33cf849
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisCoOidRequest, NdisCoOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, ndis/NdisCoOidRequest, netvista.ndiscooidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

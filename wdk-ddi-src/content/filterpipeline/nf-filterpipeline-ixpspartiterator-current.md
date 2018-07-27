@@ -4,7 +4,7 @@ title: IXpsPartIterator::Current
 author: windows-driver-content
 description: The Current method provides the current URI and part.
 old-location: print\ixpspartiterator_current.htm
-old-project: print
+tech.root: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

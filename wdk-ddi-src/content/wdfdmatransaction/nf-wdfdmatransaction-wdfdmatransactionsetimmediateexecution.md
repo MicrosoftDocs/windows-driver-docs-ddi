@@ -4,7 +4,7 @@ title: WdfDmaTransactionSetImmediateExecution function
 author: windows-driver-content
 description: The WdfDmaTransactionSetImmediateExecution method marks the specified DMA transaction so that calls to WdfDmaTransactionExecute and WdfDmaTransactionAllocateResources initiate the transaction immediately or fail.
 old-location: wdf\wdfdmatransactionsetimmediateexecution.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: BC260058-1E33-43BA-B75E-79540E36A08D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

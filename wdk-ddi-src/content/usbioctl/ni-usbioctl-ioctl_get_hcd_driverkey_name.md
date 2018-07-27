@@ -4,10 +4,10 @@ title: IOCTL_GET_HCD_DRIVERKEY_NAME
 author: windows-driver-content
 description: The IOCTL_GET_HCD_DRIVERKEY_NAME I/O control request retrieves the driver key name in the registry for a USB host controller driver.
 old-location: buses\ioctl_get_hcd_driverkey_name.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2435ef20-c75c-4b28-9824-8428b2ac6326
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], buses.ioctl_get_hcd_driverkey_name, usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_AddiSNSServer_IN"
 author: windows-driver-content
 description: The AddiSNSServer_IN structure holds the input data for the user-mode AddISNSServer method, which is used to add a new iSNS server entry to the list of iSNS server names that the initiator maintains.
 old-location: storage\addisnsserver_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

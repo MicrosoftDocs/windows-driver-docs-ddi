@@ -4,7 +4,7 @@ title: "_UFF_FONTDIRECTORY"
 author: windows-driver-content
 description: The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 old-location: print\uff_fontdirectory.htm
-old-project: print
+tech.root: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

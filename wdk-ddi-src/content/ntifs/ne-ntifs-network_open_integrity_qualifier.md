@@ -4,7 +4,7 @@ title: NETWORK_OPEN_INTEGRITY_QUALIFIER
 author: windows-driver-content
 description: The NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration type contains values that identify the kind of integrity restriction to attach to a file.
 old-location: ifsk\network_open_integrity_qualifier.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: BdaPropertyNodeTypes function
 author: windows-driver-content
 description: The BdaPropertyNodeTypes function retrieves a list of node types in a template topology.
 old-location: stream\bdapropertynodetypes.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 786ced41-7841-4898-93d5-afb4dcf7fa0c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

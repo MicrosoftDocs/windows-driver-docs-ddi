@@ -4,7 +4,7 @@ title: ExAllocatePool function
 author: windows-driver-content
 description: The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead.ExAllocatePool allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepool.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

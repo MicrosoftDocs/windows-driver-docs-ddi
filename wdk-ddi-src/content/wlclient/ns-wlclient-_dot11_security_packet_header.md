@@ -4,7 +4,7 @@ title: "_DOT11_SECURITY_PACKET_HEADER"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_security_packet_header.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3a880137-58a6-4b89-8384-a92c37f289a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlclient.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,14 +74,14 @@ typedef struct _DOT11_SECURITY_PACKET_HEADER {
 
 ### -field PeerMac
 
-A 
+A
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> type that defines the
      MAC address of the peer node.
 
 
 ### -field usEtherType
 
-The value of the 
+The value of the
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ieee-ethertype-handling">IEEE EtherType</a> in big-endian byte
      order.
 

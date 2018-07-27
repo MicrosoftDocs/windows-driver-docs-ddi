@@ -4,7 +4,7 @@ title: WheaIsValidErrorRecordSignature function
 author: windows-driver-content
 description: The WheaIsValidErrorRecordSignature function verifies whether a WHEA error record is valid.
 old-location: whea\wheaisvaliderrorrecordsignature.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 35149395-4238-41fd-ae96-6491534e3cc1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

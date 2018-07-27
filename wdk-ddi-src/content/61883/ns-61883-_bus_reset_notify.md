@@ -4,7 +4,7 @@ title: "_BUS_RESET_NOTIFY"
 author: windows-driver-content
 description: This structure is used to register or deregister the PBUS_RESET_ROUTINE callback.
 old-location: ieee\bus_reset_notify.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 9CF14B12-D94F-486D-A5FC-E7CC2730D8E9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

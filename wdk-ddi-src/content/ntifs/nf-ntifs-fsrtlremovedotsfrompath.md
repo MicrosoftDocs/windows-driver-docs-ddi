@@ -4,7 +4,7 @@ title: FsRtlRemoveDotsFromPath function
 author: windows-driver-content
 description: The FsRtlRemoveDotsFromPath routine removes unnecessary occurrences of '.' and '..' from the specified path.
 old-location: ifsk\fsrtlremovedotsfrompath.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: af6ecdb7-8713-460d-8fd9-ef027ac15b39
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

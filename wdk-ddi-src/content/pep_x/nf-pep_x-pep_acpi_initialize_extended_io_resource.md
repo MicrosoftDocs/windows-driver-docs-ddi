@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_EXTENDED_ADDRESS structure.
 old-location: kernel\pep_acpi_initialize_extended_io_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 95464DE1-221A-4053-B124-4CFD44557CD3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

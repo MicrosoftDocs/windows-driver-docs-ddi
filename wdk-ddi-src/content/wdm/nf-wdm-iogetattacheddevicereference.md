@@ -4,7 +4,7 @@ title: IoGetAttachedDeviceReference function
 author: windows-driver-content
 description: The IoGetAttachedDeviceReference routine returns a pointer to the highest level device object in a driver stack and increments the reference count on that object.
 old-location: kernel\iogetattacheddevicereference.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 540a4e5c-8d7b-4ba8-a9a6-6e13d9b85f23
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

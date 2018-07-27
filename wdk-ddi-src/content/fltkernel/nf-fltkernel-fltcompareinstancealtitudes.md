@@ -4,7 +4,7 @@ title: FltCompareInstanceAltitudes function
 author: windows-driver-content
 description: FltCompareInstanceAltitudes compares the altitudes of two minifilter driver instances.
 old-location: ifsk\fltcompareinstancealtitudes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aed86b34-4a9e-4c39-be0f-fa57829fa926
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

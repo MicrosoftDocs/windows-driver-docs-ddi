@@ -4,10 +4,10 @@ title: IDebugSymbols3::AppendSourcePathWide
 author: windows-driver-content
 description: The AppendSourcePathWide method appends directories to the source path.
 old-location: debugger\appendsourcepathwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 54f78169-4253-4dea-921f-981658df311e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: AppendSourcePathWide, AppendSourcePathWide method [Windows Debugging], AppendSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSourcePathWide method, IDebugSymbols3.AppendSourcePathWide, IDebugSymbols3::AppendSourcePathWide, dbgeng/IDebugSymbols3::AppendSourcePathWide, debugger.appendsourcepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

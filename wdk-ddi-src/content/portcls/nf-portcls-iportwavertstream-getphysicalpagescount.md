@@ -4,10 +4,10 @@ title: IPortWaveRTStream::GetPhysicalPagesCount
 author: windows-driver-content
 description: The GetPhysicalPagesCount method returns the count of the physical pages in a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_getphysicalpagescount.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 8126af29-a7ee-4ab7-8902-45b4baf33b9e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetPhysicalPagesCount, GetPhysicalPagesCount method [Audio Devices], GetPhysicalPagesCount method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],GetPhysicalPagesCount method, IPortWaveRTStream.GetPhysicalPagesCount, IPortWaveRTStream::GetPhysicalPagesCount, audio.iportwavertstream_getphysicalpagescount, audmp-routines_bdc74102-0337-436b-b3ac-68187fb323a4.xml, portcls/IPortWaveRTStream::GetPhysicalPagesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

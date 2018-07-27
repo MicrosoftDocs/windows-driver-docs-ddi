@@ -4,10 +4,10 @@ title: "_NDIS_NIC_SWITCH_VPORT_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VPORT_PARAMETERS structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter.
 old-location: netvista\ndis_nic_switch_vport_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d75bec3d-b427-40d2-bec3-95b7409f31bb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_PARAMETERS, netvista.ndis_nic_switch_vport_parameters, ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VPORT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

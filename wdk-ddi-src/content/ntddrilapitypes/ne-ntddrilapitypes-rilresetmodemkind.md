@@ -4,10 +4,10 @@ title: RILRESETMODEMKIND
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilresetmodemkind.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4eb97a4f-dd95-4fd4-8315-efcb446f56cd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_MAX, netvista.rilresetmodemkind, ntddrilapitypes/RILRESETMODEMKIND, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, ntddrilapitypes/RIL_RESETMODEMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: PoStartDeviceBusy function
 author: windows-driver-content
 description: The PoStartDeviceBusy routine marks the start of a period of time in which the device is busy.
 old-location: kernel\postartdevicebusy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f3801fdf-c300-4863-afb9-49fad011dc4c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

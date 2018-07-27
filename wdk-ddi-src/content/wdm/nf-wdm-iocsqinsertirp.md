@@ -4,7 +4,7 @@ title: IoCsqInsertIrp function
 author: windows-driver-content
 description: The IoCsqInsertIrp routine inserts an IRP in the driver's cancel-safe IRP queue.
 old-location: kernel\iocsqinsertirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ddfc0241-eab0-462b-8e1b-32bb9bcb3671
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

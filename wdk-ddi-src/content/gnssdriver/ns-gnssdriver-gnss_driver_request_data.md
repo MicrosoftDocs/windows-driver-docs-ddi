@@ -4,7 +4,7 @@ title: GNSS_DRIVER_REQUEST_DATA
 author: windows-driver-content
 description: This structure contains driver data request information.
 old-location: gnss\gnss_driver_request_data.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 801FBD9D-304A-41AC-AD28-00DE95DEFE63
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

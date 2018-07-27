@@ -4,7 +4,7 @@ title: "_KSDEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: The KSDEVICE_DESCRIPTOR structure describes the characteristics of a particular device.
 old-location: stream\ksdevice_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: dc68f6d8-a2d5-4940-a708-fe761c3a8a0d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

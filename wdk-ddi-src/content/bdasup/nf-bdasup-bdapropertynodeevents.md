@@ -4,7 +4,7 @@ title: BdaPropertyNodeEvents function
 author: windows-driver-content
 description: The BdaPropertyNodeEvents function retrieves a list of events that a node supports.
 old-location: stream\bdapropertynodeevents.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8e646426-00c8-4a8c-8256-13a27ecea158
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

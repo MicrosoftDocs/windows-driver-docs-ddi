@@ -4,7 +4,7 @@ title: "_DOT11_RATE_SET"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_rate_set.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 943ae1dc-cc42-4d6d-b2fb-9af25505e561
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,7 +72,7 @@ typedef struct _DOT11_RATE_SET {
 
 ### -field uRateSetLength
 
-The number of entries in the 
+The number of entries in the
      <b>ucRateSet</b> array.
 
 
@@ -85,9 +85,9 @@ The set of data rates.
 
 
 
-The values that are specified in the 
+The values that are specified in the
     <b>ucRateSet</b> array define the data rates at which the 802.11 station may transmit and receive data.
-    Each value is an index into the table of data rates that are returned by the driver for a query of 
+    Each value is an index into the table of data rates that are returned by the driver for a query of
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
     OID_DOT11_DATA_RATE_MAPPING_ENTRY</a>.
 

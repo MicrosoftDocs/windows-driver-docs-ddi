@@ -4,7 +4,7 @@ title: IoSetIoPriorityHint function
 author: windows-driver-content
 description: The IoSetIoPriorityHint routine sets the priority hint value for an IRP.
 old-location: kernel\iosetiopriorityhint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ecd4ed14-b9f2-45ff-a42b-5c67f1ccfd91
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

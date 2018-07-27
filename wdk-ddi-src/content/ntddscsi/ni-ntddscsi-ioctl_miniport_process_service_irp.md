@@ -4,7 +4,7 @@ title: IOCTL_MINIPORT_PROCESS_SERVICE_IRP
 author: windows-driver-content
 description: This IOCTL is used by a user-mode application or kernel-mode driver that requires notification when something of interest happens in the virtual miniport.
 old-location: storage\ioctl_miniport_process_service_irp.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5d9f695c-9a9f-4af9-8bf6-2096f3278852
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

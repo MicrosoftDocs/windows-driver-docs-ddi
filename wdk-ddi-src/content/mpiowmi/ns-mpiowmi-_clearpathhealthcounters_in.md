@@ -4,7 +4,7 @@ title: "_ClearPathHealthCounters_IN"
 author: windows-driver-content
 description: The ClearPathHealthCounters_IN structure is used to provide an input parameter to the ClearPathHealthCounters method.
 old-location: storage\clearpathhealthcounters_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 12c4462a-886b-4446-ace4-128af0af5dc0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

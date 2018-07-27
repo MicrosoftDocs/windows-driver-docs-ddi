@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer
 author: windows-driver-content
 description: A filter uses the IXpsDocumentConsumer interface when it generates XPS content for the pipeline to consume.
 old-location: print\ixpsdocumentconsumer.htm
-old-project: print
+tech.root: print
 ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

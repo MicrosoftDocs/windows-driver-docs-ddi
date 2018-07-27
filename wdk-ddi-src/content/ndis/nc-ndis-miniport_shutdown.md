@@ -4,10 +4,10 @@ title: MINIPORT_SHUTDOWN
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportShutdownEx function when the system is shutting down.
 old-location: netvista\miniportshutdownex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7c88ff02-e791-4642-ad40-78f2ef2cba7d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN callback, MiniportShutdownEx, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml, ndis/MiniportShutdownEx, netvista.miniportshutdownex
 ms.prod: windows-hardware
 ms.technology: windows-devices

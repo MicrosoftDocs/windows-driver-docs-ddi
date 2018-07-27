@@ -4,7 +4,7 @@ title: IPrintJobCollection::get__NewEnum
 author: windows-driver-content
 description: Gets a pointer to the enumerants of IPrintJobCollection objects.
 old-location: print\iprintjobcollection_newenum.htm
-old-project: print
+tech.root: print
 ms.assetid: 2ABABB19-5F4F-418F-AC23-ED0C5DD2D3B0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

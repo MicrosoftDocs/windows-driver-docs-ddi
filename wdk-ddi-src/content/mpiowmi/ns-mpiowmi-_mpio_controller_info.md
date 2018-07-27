@@ -4,7 +4,7 @@ title: "_MPIO_CONTROLLER_INFO"
 author: windows-driver-content
 description: The MPIO_CONTROLLER_INFO structure represents a storage controller.
 old-location: storage\mpio_controller_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 30600e86-dd35-4498-91a8-14a722b2e868
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

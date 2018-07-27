@@ -4,7 +4,7 @@ title: CcSetDirtyPageThreshold function
 author: windows-driver-content
 description: The CcSetDirtyPageThreshold routine sets a per-file dirty page threshold on a cached file.
 old-location: ifsk\ccsetdirtypagethreshold.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

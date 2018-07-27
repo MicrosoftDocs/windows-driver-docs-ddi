@@ -4,7 +4,7 @@ title: NtSetInformationTransactionManager function
 author: windows-driver-content
 description: Do not call this routine from kernel-mode code.
 old-location: kernel\ntsetinformationtransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a1e2f40f-5aea-4c8b-8692-95721ad4bc9d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

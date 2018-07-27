@@ -4,7 +4,7 @@ title: IPrintOemPS::ResetPDEV
 author: windows-driver-content
 description: The IPrintOemPS::ResetPDEV method allows a rendering plug-in for Pscript5 to reset its PDEV structure.
 old-location: print\iprintoemps_resetpdev.htm
-old-project: print
+tech.root: print
 ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

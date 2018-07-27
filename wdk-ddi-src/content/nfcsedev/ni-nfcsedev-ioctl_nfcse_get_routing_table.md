@@ -4,7 +4,7 @@ title: IOCTL_NFCSE_GET_ROUTING_TABLE
 author: windows-driver-content
 description: Returns information regarding the current configuration of listen mode routing table.
 old-location: nfpdrivers\ioctl_nfcse_get_routing_table.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 838D31E8-1835-47C7-8201-93910610F5EC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

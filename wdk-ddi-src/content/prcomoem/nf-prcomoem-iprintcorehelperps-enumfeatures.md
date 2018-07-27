@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreHelperPS::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelperps_enumfeatures.htm
-old-project: print
+tech.root: print
 ms.assetid: c67c15a4-3dbf-4317-b6d5-e52f426e7619
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IPrintWriteStream::Close
 author: windows-driver-content
 description: The Close method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
 old-location: print\iprintwritestream_close.htm
-old-project: print
+tech.root: print
 ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: FsRtlNotifyFullReportChange function
 author: windows-driver-content
 description: The FsRtlNotifyFullReportChange routine completes pending notify change IRPs.
 old-location: ifsk\fsrtlnotifyfullreportchange.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlNotifyFullReportChange</b> routine completes pending notify change IRPs. 
+The <b>FsRtlNotifyFullReportChange</b> routine completes pending notify change IRPs.
 
 
 ## -parameters
@@ -234,9 +234,9 @@ None
 
 
 
-<b>FsRtlNotifyFullReportChange</b> is called by a file system when a file is modified so that pending notify change IRPs can be completed. 
+<b>FsRtlNotifyFullReportChange</b> is called by a file system when a file is modified so that pending notify change IRPs can be completed.
 
-<b>FsRtlNotifyFullReportChange</b> looks for a notify structure in the notify list that matches the specified filter and pathname. If a match is found, <b>FsRtlNotifyFullReportChange</b> completes all pending IRPs for the notify structure. 
+<b>FsRtlNotifyFullReportChange</b> looks for a notify structure in the notify list that matches the specified filter and pathname. If a match is found, <b>FsRtlNotifyFullReportChange</b> completes all pending IRPs for the notify structure.
 
 
 

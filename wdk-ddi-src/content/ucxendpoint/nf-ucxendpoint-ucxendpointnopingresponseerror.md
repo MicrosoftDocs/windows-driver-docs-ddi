@@ -4,10 +4,10 @@ title: UcxEndpointNoPingResponseError function
 author: windows-driver-content
 description: Notifies UCX about a &#0034;No Ping Response&#0034; error for a transfer on the specified endpoint object.
 old-location: buses\_ucxendpointnopingresponseerror.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
 ms.prod: windows-hardware
 ms.technology: windows-devices

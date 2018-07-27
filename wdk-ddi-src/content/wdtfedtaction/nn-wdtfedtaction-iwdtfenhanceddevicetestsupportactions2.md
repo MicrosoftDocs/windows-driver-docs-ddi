@@ -4,7 +4,7 @@ title: IWDTFEnhancedDeviceTestSupportActions2
 author: windows-driver-content
 description: Defines operations and properties that support the collection of Enhanced Device Test (EDT) actions.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 6b66ed33-966f-4672-93c7-377fc68a7798
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_REG_SAVE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_SAVE_KEY_INFORMATION structure contains the information for a registry key that is about to be saved.
 old-location: kernel\reg_save_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 911e1035-4415-43c1-9e9c-cc8feab2bd97
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDTFPNPActions2
 author: windows-driver-content
 description: Defines operations and properties for the collection of Plug and Play (PNP) device-related test interfaces.
 old-location: dtf\iwdtfpnpactions2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 65f40adc-ec17-4bed-b5b9-e7a5c1c27a6c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

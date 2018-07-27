@@ -4,7 +4,7 @@ title: IKsControl::KsEvent
 author: windows-driver-content
 description: The KsEvent method enables or disables an event, along with any other defined support operations available on an event set.
 old-location: stream\ikscontrol_ksevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

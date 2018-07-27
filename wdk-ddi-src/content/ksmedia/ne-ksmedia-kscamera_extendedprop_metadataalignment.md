@@ -4,7 +4,7 @@ title: KSCAMERA_EXTENDEDPROP_MetadataAlignment
 author: windows-driver-content
 description: This enumeration contains identifiers for the metadata alignment.
 old-location: stream\kscamera_extendedprop_metadataalignment.htm
-old-project: stream
+tech.root: stream
 ms.assetid: A122F923-D98E-4D73-896A-551A233E7491
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

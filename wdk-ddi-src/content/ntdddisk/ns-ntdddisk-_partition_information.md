@@ -4,7 +4,7 @@ title: "_PARTITION_INFORMATION"
 author: windows-driver-content
 description: The PARTITION_INFORMATION structure contains partition information for a partition with a traditional AT-style Master Boot Record (MBR).
 old-location: storage\partition_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

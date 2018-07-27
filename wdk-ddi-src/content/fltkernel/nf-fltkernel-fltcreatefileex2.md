@@ -4,7 +4,7 @@ title: FltCreateFileEx2 function
 author: windows-driver-content
 description: Minifilter drivers call FltCreateFileEx2 to create a new file or open an existing file. This routine also includes an optional create context parameter.
 old-location: ifsk\fltcreatefileex2.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PRINT_FEATURE_OPTION"
 author: windows-driver-content
 description: The PRINT_FEATURE_OPTION structure contains information about a feature-option pair, where the option is one option of a particular feature.
 old-location: print\print_feature_option.htm
-old-project: print
+tech.root: print
 ms.assetid: 82c9c54b-f124-46d7-a3c9-a17fd8028412
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

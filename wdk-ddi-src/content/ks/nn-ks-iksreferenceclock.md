@@ -4,7 +4,7 @@ title: IKsReferenceClock
 author: windows-driver-content
 description: The IKsReferenceClock interface is a COM-style interface that is provided by AVStream on all pins. The pin passes the request onto the master clock.
 old-location: stream\iksreferenceclock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

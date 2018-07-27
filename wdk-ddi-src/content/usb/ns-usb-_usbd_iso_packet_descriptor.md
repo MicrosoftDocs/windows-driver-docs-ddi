@@ -4,10 +4,10 @@ title: "_USBD_ISO_PACKET_DESCRIPTOR"
 author: windows-driver-content
 description: The USBD_ISO_PACKET_DESCRIPTOR structure is used by USB client drivers to describe an isochronous transfer packet.
 old-location: buses\usbd_iso_packet_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 45ceff8e-a013-45de-be2e-42c6ca30147e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], _USBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, usb/PUSBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_BDA_ANTENNA
 author: windows-driver-content
 description: The KS_DATARANGE_BDA_ANTENNA structure describes a range of data formats for a BDA antenna stream.
 old-location: stream\ks_datarange_bda_antenna.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 32a396c9-01a5-4e17-bcb5-659f7a88c0ef
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

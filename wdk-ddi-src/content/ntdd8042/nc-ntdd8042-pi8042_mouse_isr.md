@@ -4,7 +4,7 @@ title: PI8042_MOUSE_ISR
 author: windows-driver-content
 description: A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR.
 old-location: hid\pi8042_mouse_isr.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 7c8a0dc8-49ec-476f-b183-1baa419e831d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

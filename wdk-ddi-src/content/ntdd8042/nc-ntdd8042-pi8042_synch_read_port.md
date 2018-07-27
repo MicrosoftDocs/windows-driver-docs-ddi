@@ -4,7 +4,7 @@ title: PI8042_SYNCH_READ_PORT
 author: windows-driver-content
 description: The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback.
 old-location: hid\pi8042_synch_read_port.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 970bb5ed-2ddd-4d91-a90f-3df3bb7fa3f9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

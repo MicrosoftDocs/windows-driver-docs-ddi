@@ -4,7 +4,7 @@ title: KsPinGetLeadingEdgeStreamPointer function
 author: windows-driver-content
 description: The KsPinGetLeadingEdgeStreamPointer function acquires the leading edge stream pointer for the queue associated with the given pin.
 old-location: stream\kspingetleadingedgestreampointer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 05615730-dbeb-496a-b4a8-a16830b31586
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

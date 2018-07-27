@@ -4,7 +4,7 @@ title: IKsPinPipe::KsSetPinBusCache
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpinbuscache.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5340DB05-12D9-4965-B207-BA113F3801A7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

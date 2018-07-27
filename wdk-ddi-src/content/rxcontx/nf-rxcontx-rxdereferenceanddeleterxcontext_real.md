@@ -4,7 +4,7 @@ title: RxDereferenceAndDeleteRxContext_Real function
 author: windows-driver-content
 description: RxDereferenceAndDeleteRxContext_Real dereferences an RX_CONTEXT data structure and if the ReferenceCount member goes to zero, then it deallocates and removes the specified RX_CONTEXT structure from the RDBSS in-memory data structures.
 old-location: ifsk\rxdereferenceanddeleterxcontext_real.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a2a2bb57-6f5c-4bc9-8564-ab0db2efd872
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

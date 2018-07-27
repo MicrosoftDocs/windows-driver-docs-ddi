@@ -4,7 +4,7 @@ title: RxRegisterMinirdr function
 author: windows-driver-content
 description: RxRegisterMinirdr is called by a network mini-redirector driver to register the driver with RDBSS, which adds the registration information to an internal registration table. RDBSS also builds a device object for the network mini-redirector.
 old-location: ifsk\rxregisterminirdr.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

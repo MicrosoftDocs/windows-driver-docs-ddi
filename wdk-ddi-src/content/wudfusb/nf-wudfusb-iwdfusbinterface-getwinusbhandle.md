@@ -4,7 +4,7 @@ title: IWDFUsbInterface::GetWinUsbHandle
 author: windows-driver-content
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a USB interface.
 old-location: wdf\iwdfusbinterface_getwinusbhandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

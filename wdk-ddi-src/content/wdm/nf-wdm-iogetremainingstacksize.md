@@ -4,7 +4,7 @@ title: IoGetRemainingStackSize function
 author: windows-driver-content
 description: The IoGetRemainingStackSize routine returns the current amount of available kernel-mode stack space.
 old-location: kernel\iogetremainingstacksize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5e257b72-fe16-49a0-9232-9c791a88e903
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

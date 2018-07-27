@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration is reserved for internal use.
 old-location: wdf\wdf_power_policy_idle_timeout_constants.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a707c7b9-2fc9-48c8-9492-b911c126668b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: HBA_SendRNIDV2 function
 author: windows-driver-content
 description: The HBA_SendRNIDV2 routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server.
 old-location: storage\hba_sendrnidv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_FILE_EA_INFORMATION"
 author: windows-driver-content
 description: The FILE_EA_INFORMATION structure is used to query for the size of the extended attributes (EA) for a file.
 old-location: kernel\file_ea_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1b27f26f-c98d-4979-b60e-0ed5965f637c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

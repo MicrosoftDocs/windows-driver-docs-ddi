@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetFieldTypeAndOffsetWide
 author: windows-driver-content
 description: The GetFieldTypeAndOffsetWide method returns the type of a field and its offset within a container.
 old-location: debugger\getfieldtypeandoffsetwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: b4e38b33-2f23-4439-b0bc-ab3524e5180e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetFieldTypeAndOffsetWide, GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffsetWide method, IDebugSymbols3.GetFieldTypeAndOffsetWide, IDebugSymbols3::GetFieldTypeAndOffsetWide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

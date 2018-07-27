@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_OUTPUT_BUFFER_V1"
 author: windows-driver-content
 description: The ACPI_EVAL_OUTPUT_BUFFER structure contains output arguments from an ACPI control method.
 old-location: acpi\acpi_eval_output_buffer.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: WdfRequestIsReserved function
 author: windows-driver-content
 description: The WdfRequestIsReserved method determines whether a specified request object is one that the framework reserved to support guaranteed forward progress during low-memory situations.
 old-location: wdf\wdfrequestisreserved.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8cbf75c4-d54c-45e0-9abb-bef8e76fb9fe
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

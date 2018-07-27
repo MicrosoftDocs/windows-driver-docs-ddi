@@ -4,7 +4,7 @@ title: GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS
 author: windows-driver-content
 description: The CLIENT_QueryActiveInterrupts event callback function queries the state of a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 old-location: gpio\client_queryactiveinterrupts.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 9B47A7B2-90C3-480F-85D8-44DD7E9F0BFA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

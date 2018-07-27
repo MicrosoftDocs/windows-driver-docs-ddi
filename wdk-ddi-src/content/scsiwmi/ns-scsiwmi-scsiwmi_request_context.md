@@ -4,7 +4,7 @@ title: SCSIWMI_REQUEST_CONTEXT
 author: windows-driver-content
 description: A SCSIWMI_REQUEST_CONTEXT structure contains context information for a WMI SRB.
 old-location: storage\scsiwmi_request_context.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 524150d8-d4a7-4b61-89c4-0074c938559b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

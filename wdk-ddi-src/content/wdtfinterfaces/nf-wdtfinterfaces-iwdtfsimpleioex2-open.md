@@ -4,7 +4,7 @@ title: IWDTFSimpleIOEx2::Open
 author: windows-driver-content
 description: Opens the device.
 old-location: dtf\iwdtfsimpleioex2_open.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 991a60a0-8d82-4f41-8cfe-bf633338bdda
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

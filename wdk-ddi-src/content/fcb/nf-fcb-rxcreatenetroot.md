@@ -4,7 +4,7 @@ title: RxCreateNetRoot function
 author: windows-driver-content
 description: RxCreateNetRoot allocates and initializes a NET_ROOT structure and inserts the name into the net name table on the associated device object.
 old-location: ifsk\rxcreatenetroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 076624d3-96f5-4e93-8598-b880a6b2289b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

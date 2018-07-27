@@ -4,7 +4,7 @@ title: KsGenerateThermalEvent function
 author: windows-driver-content
 description: This function is used by clients (miniport drivers) that do not want to subscribe to the thermal manager, but want to do their own thermal management.
 old-location: stream\ksgeneratethermalevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: RtlShortToDWordPtr function
 author: windows-driver-content
 description: Converts a value of type SHORT to a value of type DWORD_PTR.
 old-location: kernel\rtlshorttodwordptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

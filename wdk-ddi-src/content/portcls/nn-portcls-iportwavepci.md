@@ -4,10 +4,10 @@ title: IPortWavePci
 author: windows-driver-content
 description: The IPortWavePci interface is the WavePci port driver's primary interface.
 old-location: audio\iportwavepci.htm
-old-project: audio
+tech.root: audio
 ms.assetid: a3489a6a-e993-4f89-9242-714323ec64ec
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortWavePci, IPortWavePci interface [Audio Devices], IPortWavePci interface [Audio Devices],described, audio.iportwavepci, audmp-routines_4948783a-44c9-42c3-ba67-c3c66a0a2951.xml, portcls/IPortWavePci
 ms.prod: windows-hardware
 ms.technology: windows-devices

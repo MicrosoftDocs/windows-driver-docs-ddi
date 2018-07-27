@@ -4,7 +4,7 @@ title: DEVICE_REGISTRY_PROPERTY
 author: windows-driver-content
 description: The DEVICE_REGISTRY_PROPERTY enumeration identifies device properties that are stored in the registry.
 old-location: kernel\device_registry_property.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a17b4a88-45e8-45e7-b879-2f41b97be368
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

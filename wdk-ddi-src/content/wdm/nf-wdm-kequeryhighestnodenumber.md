@@ -4,7 +4,7 @@ title: KeQueryHighestNodeNumber function
 author: windows-driver-content
 description: The KeQueryHighestNodeNumber routine returns the highest node number in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 old-location: kernel\kequeryhighestnodenumber.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e92387db-0c35-40c8-8342-4b1bf498aa1a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

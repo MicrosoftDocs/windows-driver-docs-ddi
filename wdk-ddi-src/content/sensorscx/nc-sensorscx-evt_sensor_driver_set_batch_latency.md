@@ -4,10 +4,10 @@ title: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY
 author: windows-driver-content
 description: This callback function sets the batch latency for a specified sensor.
 old-location: sensors\evtsensorsetbatchlatency.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 11C90E96-2A5D-4CD8-AC96-115CFEF3CE12
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback, EvtSensorSetBatchLatency, EvtSensorSetBatchLatency callback function [Sensor Devices], sensors.evtsensorsetbatchlatency, sensorscx/EvtSensorSetBatchLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

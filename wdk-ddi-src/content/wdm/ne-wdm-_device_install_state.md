@@ -4,7 +4,7 @@ title: "_DEVICE_INSTALL_STATE"
 author: windows-driver-content
 description: The DEVICE_INSTALL_STATE enumeration describes a device's installation state.
 old-location: kernel\device_install_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

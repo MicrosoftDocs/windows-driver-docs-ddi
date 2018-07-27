@@ -4,10 +4,10 @@ title: FwpsFlowAbort0 function
 author: windows-driver-content
 description: The FwpsFlowAbort0 function aborts a data flow.Note  FwpsFlowAbort0 is a specific version of FwpsFlowAbort.
 old-location: netvista\fwpsflowabort0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 029dd387-498f-4402-9e61-a46688294949
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsFlowAbort0, FwpsFlowAbort0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAbort0, netvista.fwpsflowabort0
 ms.prod: windows-hardware
 ms.technology: windows-devices

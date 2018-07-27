@@ -4,7 +4,7 @@ title: GNSS_AGNSS_INJECTPOSITION
 author: windows-driver-content
 description: This structure defines the format for AGNSS position injection.
 old-location: gnss\gnss_agnss_injectposition.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 1FB73F94-F8F3-409F-8B34-3CD303512AD0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_HIDP_GETCOLDESC_DBG"
 author: windows-driver-content
 description: Contains the error code indicating the failure in parsing the report descriptor. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_getcoldesc_dbg.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 65EEEDED-14FE-4275-9314-276E544427DE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

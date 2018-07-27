@@ -4,7 +4,7 @@ title: WMIREGGUIDW
 author: windows-driver-content
 description: The WMIREGGUID structure contains new or updated registration information for a data block or event block.
 old-location: kernel\wmiregguid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

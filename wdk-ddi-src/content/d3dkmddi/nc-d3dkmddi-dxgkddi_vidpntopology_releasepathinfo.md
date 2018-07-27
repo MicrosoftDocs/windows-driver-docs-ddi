@@ -4,10 +4,10 @@ title: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
 author: windows-driver-content
 description: The pfnReleasePathInfo function releases a D3DKMDT_VIDPN_PRESENT_PATH structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_vidpntopology_interface_pfnreleasepathinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: fdd34377-6b11-4005-93f1-ab42be7633c2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO, DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO callback, VidPnFunctions_2bbba27c-cbbe-40ea-9ba6-0da2d7d237d5.xml, d3dkmddi/pfnReleasePathInfo, display.dxgk_vidpntopology_interface_pfnreleasepathinfo, pfnReleasePathInfo, pfnReleasePathInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

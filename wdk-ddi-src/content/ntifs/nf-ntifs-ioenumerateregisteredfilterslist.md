@@ -4,7 +4,7 @@ title: IoEnumerateRegisteredFiltersList function
 author: windows-driver-content
 description: The IoEnumerateRegisteredFiltersList routine enumerates the file system filter drivers that have registered with the system.
 old-location: ifsk\ioenumerateregisteredfilterslist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7ac67110-bc92-457a-88f4-a21f2fa38174
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

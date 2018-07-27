@@ -4,7 +4,7 @@ title: RtlInt64ToUnicodeString function
 author: windows-driver-content
 description: The RtlInt64ToUnicodeString routine converts a specified unsigned 64-bit integer value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlint64tounicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_FILE_STANDARD_INFORMATION_EX"
 author: windows-driver-content
 description: The FILE_STANDARD_INFORMATION_EX structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_standard_information_ex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

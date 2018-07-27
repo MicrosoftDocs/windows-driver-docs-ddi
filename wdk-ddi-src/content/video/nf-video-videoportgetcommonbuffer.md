@@ -4,10 +4,10 @@ title: VideoPortGetCommonBuffer function
 author: windows-driver-content
 description: The VideoPortGetCommonBuffer function is obsolete in Windows XP and later, and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportgetcommonbuffer.htm
-old-project: display
+tech.root: display
 ms.assetid: c8329d26-fb6f-46f1-aacd-ba78ee4ea5d5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortGetCommonBuffer, VideoPortGetCommonBuffer function [Display Devices], VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer, video/VideoPortGetCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::RetrieveDevicePropertyStore
 author: windows-driver-content
 description: The RetrieveDevicePropertyStore method retrieves a device property store that clients can read and write device properties through.
 old-location: wdf\iwdfdeviceinitialize_retrievedevicepropertystore.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_PEP_PLATFORM_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

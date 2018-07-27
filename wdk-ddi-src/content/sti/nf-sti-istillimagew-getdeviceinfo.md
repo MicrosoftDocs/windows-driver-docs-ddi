@@ -4,10 +4,10 @@ title: IStillImageW::GetDeviceInfo
 author: windows-driver-content
 description: The IStillImage::GetDeviceInfo method returns hardware characteristics for a specified still image device.
 old-location: image\istillimage_getdeviceinfo.htm
-old-project: image
+tech.root: image
 ms.assetid: 4f3e1dcd-1885-4b9f-b033-19d91178d8ab
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: GetDeviceInfo, GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceInfo method, IStillImageW.GetDeviceInfo, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

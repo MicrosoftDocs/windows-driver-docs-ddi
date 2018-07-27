@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::SetPowerPolicyOwnership
 author: windows-driver-content
 description: The SetPowerPolicyOwnership method sets the ownership of the power policy to a driver or removes ownership from the driver.
 old-location: wdf\iwdfdeviceinitialize_setpowerpolicyownership.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

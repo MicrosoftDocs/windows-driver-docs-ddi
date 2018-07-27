@@ -4,7 +4,7 @@ title: IOCTL_GNSS_EXECUTE_SELFTEST
 author: windows-driver-content
 description: The IOCTL_GNSS_EXECUTE_SELFTEST control code is used by the GNSS manufacturing test application to initiate a self test in the GNSS lower stack.
 old-location: gnss\ioctl_gnss_execute_selftest.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: EAD10523-FFA0-4B08-BCBD-A20C90A1B8F6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

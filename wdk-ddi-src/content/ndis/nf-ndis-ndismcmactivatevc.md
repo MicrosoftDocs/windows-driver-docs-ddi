@@ -4,10 +4,10 @@ title: NdisMCmActivateVc function
 author: windows-driver-content
 description: NdisMCmActivateVc notifies NDIS that an MCM driver is ready to make transfers on a particular VC.
 old-location: netvista\ndismcmactivatevc.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2c2e4f7d-578a-4429-baca-ebe45423afff
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMCmActivateVc, NdisMCmActivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_0dd062a7-dc2b-49c1-b319-e0189631e348.xml, ndis/NdisMCmActivateVc, netvista.ndismcmactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices

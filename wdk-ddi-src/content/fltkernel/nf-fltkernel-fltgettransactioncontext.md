@@ -4,7 +4,7 @@ title: FltGetTransactionContext function
 author: windows-driver-content
 description: The FltGetTransactionContext routine retrieves a context that was set for a transaction by a given minifilter driver.
 old-location: ifsk\fltgettransactioncontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fcd41baf-43ff-4f3a-8211-9fb5cb1cd2fd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

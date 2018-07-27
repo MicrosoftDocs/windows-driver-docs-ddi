@@ -4,7 +4,7 @@ title: ScsiPortConvertPhysicalAddressToUlong function
 author: windows-driver-content
 description: The ScsiPortConvertPhysicalAddressToUlong routine truncates a SCSI_PHYSICAL_ADDRESS to a ULONG.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportconvertphysicaladdresstoulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 55c258d2-922a-430a-ba6b-b05a078b712d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

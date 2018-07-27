@@ -4,7 +4,7 @@ title: CmRegisterCallbackEx function
 author: windows-driver-content
 description: The CmRegisterCallbackEx routine registers a RegistryCallback routine.
 old-location: kernel\cmregistercallbackex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7ec7d9a4-3c6f-4b67-abbb-1e0dcbf6fb90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_AddiSNSServer_OUT"
 author: windows-driver-content
 description: The AddiSNSServer_OUT structure holds the output data for the user-mode AddISNSServer method.
 old-location: storage\addisnsserver_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1c02d19-9e96-4fd6-b950-ae02b6f3bba4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

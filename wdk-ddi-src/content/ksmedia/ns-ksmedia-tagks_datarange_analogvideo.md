@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_ANALOGVIDEO
 author: windows-driver-content
 description: The KS_DATARANGE_ANALOGVIDEO structure describes an analog video stream.
 old-location: stream\ks_datarange_analogvideo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e89e9108-28a1-46ac-8694-047a656dcb74
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

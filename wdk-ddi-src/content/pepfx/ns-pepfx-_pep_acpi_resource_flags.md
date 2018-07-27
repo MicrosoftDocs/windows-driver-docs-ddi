@@ -4,7 +4,7 @@ title: "_PEP_ACPI_RESOURCE_FLAGS"
 author: windows-driver-content
 description: The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource.
 old-location: kernel\pep_acpi_resource_flags.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1BB4933B-2707-4350-8D9C-E0E25A85F5CB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

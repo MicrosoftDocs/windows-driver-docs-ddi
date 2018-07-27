@@ -4,7 +4,7 @@ title: IWDFIoRequest::CancelSentRequest
 author: windows-driver-content
 description: The CancelSentRequest method attempts to cancel the I/O request that the driver previously submitted to an I/O target.
 old-location: wdf\iwdfiorequest_cancelsentrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1951a2e8-c2f0-42bc-9deb-8d2a049817c4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

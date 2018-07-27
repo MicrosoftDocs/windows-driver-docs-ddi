@@ -4,7 +4,7 @@ title: "_DOT11_STATUS_INDICATION"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_status_indication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 77b2eae8-1fa5-4f87-97e4-713bfca627b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,9 +74,9 @@ typedef struct _DOT11_STATUS_INDICATION {
 ### -field uStatusType
 
 The type of status indication that is made by the miniport driver.
-     
 
-For more information about the value that is used for the 
+
+For more information about the value that is used for the
      <b>uStatusType</b> member, see the topic for the OID that requires a completion indication that uses the
      DOT11_STATUS_INDICATION structure.
 
@@ -84,10 +84,10 @@ For more information about the value that is used for the
 ### -field ndisStatus
 
 An NDIS_STATUS value that indicates the result of the operation.
-     
 
-If the operation completed without a failure, the miniport driver must set the 
-     <b>ndisStatus</b> member to NDIS_STATUS_SUCCESS. Otherwise, the driver must set 
+
+If the operation completed without a failure, the miniport driver must set the
+     <b>ndisStatus</b> member to NDIS_STATUS_SUCCESS. Otherwise, the driver must set
      <b>ndisStatus</b> to the appropriate NDIS_STATUS_xxx value for the failure.
 
 
@@ -95,7 +95,7 @@ If the operation completed without a failure, the miniport driver must set the
 
 
 
-For the Windows Vista operating system, only 
+For the Windows Vista operating system, only
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a> requires the
     use of the DOT11_STATUS_INDICATION structure for completion indications.
 

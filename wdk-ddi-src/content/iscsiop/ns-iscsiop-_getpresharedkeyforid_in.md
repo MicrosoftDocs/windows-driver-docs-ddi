@@ -4,7 +4,7 @@ title: "_GetPresharedKeyForId_IN"
 author: windows-driver-content
 description: The GetPresharedKeyForId_IN structure holds the input data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4b3d3c5d-c34c-4ed8-bf62-1d885442ee1e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

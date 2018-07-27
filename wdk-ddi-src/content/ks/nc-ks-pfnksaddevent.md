@@ -4,7 +4,7 @@ title: PFNKSADDEVENT
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniAddEvent routine is called when a client registers to be notified of an event. This routine is optional.
 old-location: stream\avstrminiaddevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ff80bbc7-93b1-4319-a549-f896ce0f4611
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

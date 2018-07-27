@@ -4,7 +4,7 @@ title: RxStopMinirdr function
 author: windows-driver-content
 description: RxStopMinirdr is called to stop a network mini-redirector that has previously been started.
 old-location: ifsk\rxstopminirdr.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 059d2a99-f4da-45f1-8d91-0e57930595d2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

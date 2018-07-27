@@ -4,7 +4,7 @@ title: IoUnregisterPlugPlayNotificationEx function
 author: windows-driver-content
 description: The IoUnregisterPlugPlayNotificationEx routine cancels the registration of a driver's callback routine for notifications of Plug and Play (PnP) events.
 old-location: kernel\iounregisterplugplaynotificationex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 72545150-5fd8-4770-aab2-b49d80c1e865
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

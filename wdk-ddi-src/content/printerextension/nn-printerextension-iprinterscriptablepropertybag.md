@@ -4,7 +4,7 @@ title: IPrinterScriptablePropertyBag
 author: windows-driver-content
 description: The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.
 old-location: print\iprinterscriptablepropertybag.htm
-old-project: print
+tech.root: print
 ms.assetid: E6F48895-7ED6-479B-BF16-42192461C56D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

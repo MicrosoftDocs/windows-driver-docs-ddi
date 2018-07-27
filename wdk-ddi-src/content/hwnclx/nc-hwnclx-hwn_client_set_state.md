@@ -4,7 +4,7 @@ title: HWN_CLIENT_SET_STATE
 author: windows-driver-content
 description: Implemented by the client driver to set hardware notification component state. It is invoked when a user wants to change the state of a driver.
 old-location: gpiobtn\hwn_client_set_state.htm
-old-project: gpiobtn
+tech.root: gpiobtn
 ms.assetid: 5d2ccc29-4022-467c-9f37-d49badcceba4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: hwnclx.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef

@@ -4,7 +4,7 @@ title: RtlIntToUChar function
 author: windows-driver-content
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: kernel\rtlinttouchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A733140D-2F0D-4E5A-A3AD-C27756584200
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

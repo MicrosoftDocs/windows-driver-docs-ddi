@@ -4,10 +4,10 @@ title: MIRACAST_DATARATE_STATS
 author: windows-driver-content
 description: Contains info used in the wireless display (Miracast) pfnDataRateNotify function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 old-location: display\miracast_datarate_stats.htm
-old-project: display
+tech.root: display
 ms.assetid: d4249b81-0ee7-49dd-9886-cdc5842f02d8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS structure [Display Devices], display.miracast_datarate_stats, netdispumdddi/MIRACAST_DATARATE_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KsPinSubmitFrameMdl function
 author: windows-driver-content
 description: If a pin has been placed into injection mode by a call to KsPinRegisterFrameReturnCallback, the KsPinSubmitFrameMdl function submits a frame directly into the transport circuit.
 old-location: stream\kspinsubmitframemdl.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

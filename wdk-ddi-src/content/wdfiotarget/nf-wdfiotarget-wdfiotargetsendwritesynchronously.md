@@ -4,7 +4,7 @@ title: WdfIoTargetSendWriteSynchronously function
 author: windows-driver-content
 description: The WdfIoTargetSendWriteSynchronously method builds a write request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendwritesynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a730ac71-2a9b-4667-88b5-7c84d0728d40
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

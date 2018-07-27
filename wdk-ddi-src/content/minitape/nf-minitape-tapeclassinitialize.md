@@ -4,7 +4,7 @@ title: TapeClassInitialize function
 author: windows-driver-content
 description: The TapeClassInitialize routine performs much of the driver and device initialization on behalf of a miniclass driver.
 old-location: storage\tapeclassinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1c70ca5-2caf-4758-99bb-221af0a79211
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

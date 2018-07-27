@@ -4,7 +4,7 @@ title: "_POWER_PLATFORM_INFORMATION"
 author: windows-driver-content
 description: The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system.
 old-location: kernel\power_platform_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0E62B57D-F9B1-4B01-A19E-9E2DBC387578
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

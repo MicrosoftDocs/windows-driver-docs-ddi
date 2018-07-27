@@ -4,7 +4,7 @@ title: "_DMA_ADAPTER_INFO"
 author: windows-driver-content
 description: The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INFO_XXX structure that describes the capabilities of a system DMA controller.
 old-location: kernel\dma_adapter_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 181C3421-85D1-457E-85A5-42C84AE41BD6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

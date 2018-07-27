@@ -4,10 +4,10 @@ title: DXGI_DDI_ARG_PRESENT1
 author: windows-driver-content
 description: Describes a resource to display. Used with the pfnPresent1(DXGI) function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_present1.htm
-old-project: display
+tech.root: display
 ms.assetid: F8575652-CA6D-472E-A314-91B07C48558B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGI_DDI_ARG_PRESENT1, DXGI_DDI_ARG_PRESENT1 structure [Display Devices], display.dxgi_ddi_arg_present1, dxgiddi/DXGI_DDI_ARG_PRESENT1
 ms.prod: windows-hardware
 ms.technology: windows-devices

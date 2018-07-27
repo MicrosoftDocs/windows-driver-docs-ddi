@@ -4,7 +4,7 @@ title: HBA_GetAdapterPortAttributes function
 author: windows-driver-content
 description: The HBA_GetAdapterPortAttributes routine retrieves the attributes for a specified remote fibre channel port.
 old-location: storage\hba_getadapterportattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

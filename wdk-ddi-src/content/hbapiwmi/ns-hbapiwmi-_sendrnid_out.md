@@ -4,7 +4,7 @@ title: "_SendRNID_OUT"
 author: windows-driver-content
 description: The SendRNID_OUT structure is used to report the output parameter data of the SendRNID WMI method to the WMI client.
 old-location: storage\sendrnid_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 80f264f6-51cb-4125-832b-603ed8417d32
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

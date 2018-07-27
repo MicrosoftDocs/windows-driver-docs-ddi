@@ -4,7 +4,7 @@ title: "_DOT11_DISASSOCIATE_PEER_REQUEST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_disassociate_peer_request.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: aa47c030-dcd4-451b-8a4b-03ac566bb394
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,11 +75,11 @@ typedef struct _DOT11_DISASSOCIATE_PEER_REQUEST {
 ### -field Header
 
 The type, revision, and size of the DOT11_DISASSOCIATE_PEER_REQUEST structure. This member is
-     formatted as an 
+     formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -100,19 +100,19 @@ This member must be set to DOT11_DISASSOCIATE_PEER_REQUEST_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <b>sizeof</b>(DOT11_DISASSOCIATE_PEER_REQUEST).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PeerMacAddr
 
 The media access control (MAC) address of the peer station that the 802.11 station is to
-     disassociate from. If 
+     disassociate from. If
      <b>PeerMacAddr</b> has a value of 0xFF, the 802.11 station must disassociate from all
-     associated stations. When 
+     associated stations. When
      <b>PeerMacAddr</b> is a unicast address, the 802.11 station must disassociate from a
      specific station.
 
@@ -127,7 +127,7 @@ A USHORT value that specifies the reason code field in the disassociation frame 
 
 
 
-This structure is used with 
+This structure is used with
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
     OID_DOT11_DISASSOCIATE_PEER_REQUEST</a>.
 

@@ -4,7 +4,7 @@ title: "_FLT_IO_PARAMETER_BLOCK"
 author: windows-driver-content
 description: The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data (FLT_CALLBACK_DATA) structure.
 old-location: ifsk\flt_io_parameter_block.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a62f6db3-baca-492a-b485-062fcc69f563
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

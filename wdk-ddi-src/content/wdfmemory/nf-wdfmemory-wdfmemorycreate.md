@@ -4,7 +4,7 @@ title: WdfMemoryCreate function
 author: windows-driver-content
 description: The WdfMemoryCreate method creates a framework memory object and allocates a memory buffer of a specified size.
 old-location: wdf\wdfmemorycreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

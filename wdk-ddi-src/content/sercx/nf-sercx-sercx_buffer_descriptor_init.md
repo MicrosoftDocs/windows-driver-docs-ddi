@@ -4,7 +4,7 @@ title: SERCX_BUFFER_DESCRIPTOR_INIT function
 author: windows-driver-content
 description: The SERCX_BUFFER_DESCRIPTOR_INIT function initializes a SERCX_BUFFER_DESCRIPTOR structure.
 old-location: serports\sercx_buffer_descriptor_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

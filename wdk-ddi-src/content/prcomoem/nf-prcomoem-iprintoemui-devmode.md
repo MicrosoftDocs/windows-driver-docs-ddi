@@ -4,7 +4,7 @@ title: IPrintOemUI::DevMode
 author: windows-driver-content
 description: The IPrintOemUI::DevMode method, provided by user interface plug-ins, performs operations on the plug-in's private DEVMODEW members.
 old-location: print\iprintoemui_devmode.htm
-old-project: print
+tech.root: print
 ms.assetid: decc76c4-1973-41c5-9091-6dc5b9ccd30d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

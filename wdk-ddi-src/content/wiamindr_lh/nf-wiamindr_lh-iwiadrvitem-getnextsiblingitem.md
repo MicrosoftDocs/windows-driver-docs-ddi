@@ -4,10 +4,10 @@ title: IWiaDrvItem::GetNextSiblingItem
 author: windows-driver-content
 description: The IWiaDrvItem::GetNextSiblingItem method gets the next sibling of the current item in an IWiaDrvItem folder.
 old-location: image\iwiadrvitem_getnextsiblingitem.htm
-old-project: image
+tech.root: image
 ms.assetid: bc348f40-aaa4-4cd4-9dee-c02748d7412c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], GetNextSiblingItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetNextSiblingItem method, IWiaDrvItem.GetNextSiblingItem, IWiaDrvItem::GetNextSiblingItem, image.iwiadrvitem_getnextsiblingitem, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

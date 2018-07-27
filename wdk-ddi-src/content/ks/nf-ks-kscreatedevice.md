@@ -4,7 +4,7 @@ title: KsCreateDevice function
 author: windows-driver-content
 description: The KsCreateDevice function creates an AVStream device.
 old-location: stream\kscreatedevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

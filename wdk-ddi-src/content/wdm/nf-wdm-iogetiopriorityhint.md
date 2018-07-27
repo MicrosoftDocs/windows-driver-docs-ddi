@@ -4,7 +4,7 @@ title: IoGetIoPriorityHint function
 author: windows-driver-content
 description: The IoGetIoPriorityHint routine gets the priority hint value from an IRP.
 old-location: kernel\iogetiopriorityhint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eddb6cea-74fc-4faf-85fa-3a35d6890802
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

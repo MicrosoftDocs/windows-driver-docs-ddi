@@ -4,7 +4,7 @@ title: IoWMIQuerySingleInstance function
 author: windows-driver-content
 description: The IoWMIQuerySingleInstance routine returns the specified instance of a WMI data block.
 old-location: kernel\iowmiquerysingleinstance.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 742535da-4726-4320-88ec-f6752ad02fb3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

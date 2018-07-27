@@ -4,10 +4,10 @@ title: IPinCount
 author: windows-driver-content
 description: The IPinCount interface provides a means for the miniport driver to monitor and manipulate its pin counts dynamically as pins are instantiated and closed.
 old-location: audio\ipincount.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9e02584a-4c65-4400-b06e-58ba095c8dd0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPinCount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices],described, audio.ipincount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml, portcls/IPinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

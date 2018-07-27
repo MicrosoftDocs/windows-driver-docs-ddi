@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_SEVERITY"
 author: windows-driver-content
 description: The WHEA_ERROR_SEVERITY enumeration defines the possible severity levels of a hardware error condition.
 old-location: whea\whea_error_severity.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 3b056910-dc33-4608-bb7d-a3f13bc546ca
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

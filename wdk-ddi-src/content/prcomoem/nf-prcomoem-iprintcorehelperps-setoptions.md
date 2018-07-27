@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS::SetOptions
 author: windows-driver-content
 description: The IPrintCoreHelperPS::SetOptions method sets multiple feature-option pairs at the same time.
 old-location: print\iprintcorehelperps_setoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: ba80f0f5-ecea-41d7-8ddd-58b417e1fbe7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

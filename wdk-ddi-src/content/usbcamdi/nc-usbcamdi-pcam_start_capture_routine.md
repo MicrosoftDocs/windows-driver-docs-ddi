@@ -4,7 +4,7 @@ title: PCAM_START_CAPTURE_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamStartCapture callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camstartcapture.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e929f8c1-fe36-4374-976f-b0bfb3e0b4a2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

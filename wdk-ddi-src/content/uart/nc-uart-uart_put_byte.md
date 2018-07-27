@@ -3,10 +3,10 @@ UID: NC:uart.UART_PUT_BYTE
 title: UART_PUT_BYTE
 author: windows-driver-content
 description:  Writes a data byte to the UART device.
-old-project: serports
+tech.root: serports
 ms.assetid: d4db9a6d-b9ef-4b88-9f12-b4fe437eaa4b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_PUT_BYTE
 product: Windows
 targetos: Windows
@@ -50,11 +50,11 @@ Writes a data byte to the UART device.
 ```
 //Declaration
 
-UART_PUT_BYTE UartPutByte; 
+UART_PUT_BYTE UartPutByte;
 
 // Definition
 
-UART_STATUS UartPutByte 
+UART_STATUS UartPutByte
 (
 	PCPPORT Port
 	UCHAR Byte
@@ -72,8 +72,8 @@ UART_STATUS UartPutByte
 ### -param Byte
 The byte to write to the UART hardware.
 
- 
-### -param BusyWait 
+
+### -param BusyWait
 A a flag to control whether this routine will busy-wait (spin) for the UART hardware to be ready to transmit.
 
 ## -returns
@@ -89,6 +89,6 @@ Register your implementation of this callback function by setting the appropriat
 
 [**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md)
 
-[**_CPPORT**](ns-uart-_cpport.md) 
+[**_CPPORT**](ns-uart-_cpport.md)
 
 [**UART_STATUS**](ne-uart-uart_status.md)

@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_HANDFLOW
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_HANDFLOW request sets the configuration of handshake flow control. The serial controller driver verifies the specified handshake flow control information.
 old-location: serports\ioctl_serial_set_handflow.htm
-old-project: serports
+tech.root: serports
 ms.assetid: f281eab9-f724-4bdb-9dc4-2577ef2840f0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

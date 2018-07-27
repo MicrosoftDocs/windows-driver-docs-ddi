@@ -4,7 +4,7 @@ title: RtlDecompressBufferEx2 function
 author: windows-driver-content
 description: The RtlDecompressBufferEx2 function decompresses an entire compressed buffer, using multiple processors where possible. Multiple processor support is only implemented for kernel mode callers.
 old-location: ifsk\rtldecompressbufferex2.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8AE36F8C-F7FA-4291-A244-3664CCBB8073
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

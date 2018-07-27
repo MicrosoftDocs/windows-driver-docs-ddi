@@ -4,7 +4,7 @@ title: OEMCommandCallback function
 author: windows-driver-content
 description: OEMCommandCallback function
 old-location: print\oemcommandcallback.htm
-old-project: print
+tech.root: print
 ms.assetid: 0ac9c56d-f03d-4082-a7df-c21db12c0d74
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

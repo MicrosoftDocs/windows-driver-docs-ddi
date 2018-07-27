@@ -4,10 +4,10 @@ title: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT function
 author: windows-driver-content
 description: Initializes the UCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure.
 old-location: buses\ucmtcpci_port_controller_capabilities_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: d6a30351-4d0f-462a-bbf7-672f4da75bf5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT method [Buses], buses.ucmtcpci_port_controller_capabilities_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

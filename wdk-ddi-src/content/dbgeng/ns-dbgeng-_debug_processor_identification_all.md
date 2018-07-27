@@ -4,10 +4,10 @@ title: "_DEBUG_PROCESSOR_IDENTIFICATION_ALL"
 author: windows-driver-content
 description: This union contains relevant information for a processor the supported processors.
 old-location: debugger\debug_processor_identification_all.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 2C4C03BC-0D84-4151-B1A1-FE76F0355CD6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, debugger.debug_processor_identification_all"
 ms.prod: windows-hardware
 ms.technology: windows-devices

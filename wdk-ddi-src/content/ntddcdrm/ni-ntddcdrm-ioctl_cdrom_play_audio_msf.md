@@ -4,7 +4,7 @@ title: IOCTL_CDROM_PLAY_AUDIO_MSF
 author: windows-driver-content
 description: Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_play_audio_msf.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cb88fa6b-e96a-41a9-abcc-9ab28b62954f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

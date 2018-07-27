@@ -4,7 +4,7 @@ title: "_VPD_THIRD_PARTY_COPY_PAGE"
 author: windows-driver-content
 description: The VPD_THIRD_PARTY_COPY_PAGE structure defines the vital product data (VPD) page for offload data transfer operations.
 old-location: storage\vpd_third_party_copy_page.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E8D9E05C-26C3-474C-854F-9AD12C8834DF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

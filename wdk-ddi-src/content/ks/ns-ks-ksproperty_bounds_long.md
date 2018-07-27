@@ -4,7 +4,7 @@ title: KSPROPERTY_BOUNDS_LONG
 author: windows-driver-content
 description: The KSPROPERTY_BOUNDS_LONG structure defines the bounds for a 32-bit property.
 old-location: stream\ksproperty_bounds_long.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 16804ff1-8531-48aa-baf6-b89ccfe25d07
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

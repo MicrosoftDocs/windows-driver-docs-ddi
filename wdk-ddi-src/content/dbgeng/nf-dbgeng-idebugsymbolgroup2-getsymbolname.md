@@ -4,10 +4,10 @@ title: IDebugSymbolGroup2::GetSymbolName
 author: windows-driver-content
 description: The GetSymbolName method returns the name of a symbol in a symbol group.
 old-location: debugger\getsymbolname.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging],IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2.GetSymbolName, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname
 ms.prod: windows-hardware
 ms.technology: windows-devices

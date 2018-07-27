@@ -4,7 +4,7 @@ title: GNSS_FIXSESSION_PARAM
 author: windows-driver-content
 description: This structure defines the parameters used by the GNSS adapter to start a fix session.
 old-location: gnss\gnss_fixsession_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

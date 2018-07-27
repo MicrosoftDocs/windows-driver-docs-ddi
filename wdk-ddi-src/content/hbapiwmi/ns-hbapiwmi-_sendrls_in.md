@@ -4,7 +4,7 @@ title: "_SendRLS_IN"
 author: windows-driver-content
 description: The SendRLS_IN structure is used to deliver input parameter data to the SendRLS WMI method.
 old-location: storage\sendrls_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

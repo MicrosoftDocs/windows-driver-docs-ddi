@@ -4,10 +4,10 @@ title: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE
 author: windows-driver-content
 description: An offload target calls the NdisTcpOffloadReceiveHandler function to indicate that received network data is available for consumption by a client application.
 old-location: netvista\ndistcpoffloadreceivehandler.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

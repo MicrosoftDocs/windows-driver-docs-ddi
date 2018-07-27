@@ -4,10 +4,10 @@ title: PcUnregisterIoTimeout function
 author: windows-driver-content
 description: The PcUnregisterIoTimeout function unregisters a driver-supplied I/O-timer callback routine for a specified device object.
 old-location: audio\pcunregisteriotimeout.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, portcls/PcUnregisterIoTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

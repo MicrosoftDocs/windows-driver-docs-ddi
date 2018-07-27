@@ -4,7 +4,7 @@ title: RtlNextUnicodePrefix function
 author: windows-driver-content
 description: The RtlNextUnicodePrefix routine is used to enumerate the elements in a Unicode prefix table.
 old-location: ifsk\rtlnextunicodeprefix.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c4f43f4c-a598-4bda-9325-21440f56ab17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

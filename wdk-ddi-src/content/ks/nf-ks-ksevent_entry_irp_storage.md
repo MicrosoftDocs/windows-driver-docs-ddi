@@ -4,7 +4,7 @@ title: KSEVENT_ENTRY_IRP_STORAGE macro
 author: windows-driver-content
 description: This macro retrieves a pointer to the KSEVENT_ENTRY structure stored in Irp.
 old-location: stream\ksevent_entry_irp_storage.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9d5d30a5-4c87-4651-89e6-0fe4b02e7ea0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

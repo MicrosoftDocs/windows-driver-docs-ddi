@@ -4,7 +4,7 @@ title: DOT11EXT_PROCESS_ONEX_PACKET
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extprocessonexpacket.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 796c2976-b7b1-49ea-bf23-c018efd228ee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtProcessOneXPacket</b> function to forward EAP over LAN (EAPOL) packets
   to the operating system for processing during an 802.1X authentication operation with the access point
   (AP).
@@ -77,20 +77,20 @@ DWORD WINAPI * Dot11ExtProcessOneXPacket(
 ### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
-     value was specified through a previous call to the 
+     value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param dwInPacketSize [in]
 
-The length, in bytes, of the packet data within the buffer that is referenced by the 
+The length, in bytes, of the packet data within the buffer that is referenced by the
      <i>pvInPacket</i> parameter.
 
 
 ### -param pvInPacket [in]
 
-The EAPOL packet received from the AP. The 
+The EAPOL packet received from the AP. The
      <i>pvInPacket</i> parameter must reference the EAPOL packet starting from the packet type field in the
      EAPOL protocol data unit (PDU). For more information about the EAPOL packet type field, refer to Clause
      7.5.4 in the IEEE 802.1X-2001 standard.
@@ -101,7 +101,7 @@ The EAPOL packet received from the AP. The
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -111,16 +111,16 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-When it calls the 
+When it calls the
     <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function, the IHV
     Extensions DLL initiates an 802.1X authentication operation by using the 802.1X module of the Native
     802.11 framework. This allows the DLL to use the standard extensible authentication protocol (EAP)
     algorithms that are supported by the operating system.
 
 While the 802.1X authentication operation is pending, the IHV Extensions DLL forwards received EAP
-    over LAN (EAPOL) packets to the operating system through a call to the 
+    over LAN (EAPOL) packets to the operating system through a call to the
     <b>Dot11ExtProcessOneXPacket</b> function. The IHV Extensions DLL receives these
-    packets through the 
+    packets through the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a> IHV
     Handler function.
 
@@ -129,7 +129,7 @@ While the 802.1X authentication operation is pending, the IHV Extensions DLL for
 <div> </div>
 For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
 
-For more information about using the 802.1X module for authentication, see 
+For more information about using the 802.1X module for authentication, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>
 

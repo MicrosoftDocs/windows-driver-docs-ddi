@@ -4,7 +4,7 @@ title: "_CHARGINGSTATUSCOMPLETE"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\chargingstatuscomplete.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 5B5BD82A-15A3-40AA-9FE8-191B31CB694A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

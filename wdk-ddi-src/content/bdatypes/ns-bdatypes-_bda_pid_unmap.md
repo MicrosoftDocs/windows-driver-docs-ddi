@@ -4,7 +4,7 @@ title: "_BDA_PID_UNMAP"
 author: windows-driver-content
 description: The BDA_PID_UNMAP structure describes packet types to stop filtering from the input stream of a packet identifier (PID) filter. These packet types are identified with PIDs.
 old-location: stream\bda_pid_unmap.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7c669708-9b5d-424f-ab6f-6e3498331c74
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

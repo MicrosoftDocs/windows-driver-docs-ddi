@@ -4,7 +4,7 @@ title: DISK_CACHE_RETENTION_PRIORITY
 author: windows-driver-content
 description: The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the IOCTL_DISK_GET_CACHE_INFORMATION request and the structure DISK_CACHE_INFORMATION to indicate which kinds data are to be held in the cache on a preferential basis.
 old-location: storage\disk_cache_retention_priority.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

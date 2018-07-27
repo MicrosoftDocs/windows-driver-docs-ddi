@@ -4,7 +4,7 @@ title: RtlUIntToInt8 function
 author: windows-driver-content
 description: Converts a value of type UINT to a value of type INT8.
 old-location: kernel\rtluinttoint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8E9CA6F9-D0F1-4315-8A1B-CFA46B8458D7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_WDF_INTERRUPT_INFO"
 author: windows-driver-content
 description: The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource.
 old-location: wdf\wdf_interrupt_info.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7e626306-6ad9-4d99-a578-60bf69a3e73d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

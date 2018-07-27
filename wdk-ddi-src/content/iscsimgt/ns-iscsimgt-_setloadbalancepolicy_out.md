@@ -4,7 +4,7 @@ title: "_SetLoadBalancePolicy_OUT"
 author: windows-driver-content
 description: The SetLoadBalancePolicy_OUT structure holds the output data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 28b54f80-9268-4ccb-ac19-b1b4bfef4192
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_CIP_HDR1"
 author: windows-driver-content
 description: The CIP_HDR1 structure describes the generic data structure of the two quadlet CIP headers (first quadlet of the pair).
 old-location: stream\cip_hdr1.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 15450f33-cb86-4c1d-87d7-2d77a1d66a81
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

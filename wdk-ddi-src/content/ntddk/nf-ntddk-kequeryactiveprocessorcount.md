@@ -4,7 +4,7 @@ title: KeQueryActiveProcessorCount function
 author: windows-driver-content
 description: The KeQueryActiveProcessorCount routine returns the number of currently active processors.
 old-location: kernel\kequeryactiveprocessorcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4369ad33-ba4a-45db-9a41-e77d6c55da53
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

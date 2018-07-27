@@ -4,7 +4,7 @@ title: FltUntagFile function
 author: windows-driver-content
 description: FltUntagFile removes a reparse point from a file or directory.
 old-location: ifsk\fltuntagfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 728a9879-681b-4244-b931-7945a05e3d40
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

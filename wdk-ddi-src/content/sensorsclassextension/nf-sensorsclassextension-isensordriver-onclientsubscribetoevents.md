@@ -4,10 +4,10 @@ title: ISensorDriver::OnClientSubscribeToEvents
 author: windows-driver-content
 description: The ISensorDriver::OnClientSubscribeToEvents method notifies the sensor driver that an authorized client application is requesting event notifications.
 old-location: sensors\isensordriver_onclientsubscribetoevents.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientSubscribeToEvents method, ISensorDriver.OnClientSubscribeToEvents, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientsubscribetoevents, sensorsclassextension/ISensorDriver::OnClientSubscribeToEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

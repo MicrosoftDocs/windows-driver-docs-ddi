@@ -4,7 +4,7 @@ title: HW_ADAPTER_CONTROL
 author: windows-driver-content
 description: A miniport driver's HwStorAdapterControl routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management.
 old-location: storage\hwstoradaptercontrol.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

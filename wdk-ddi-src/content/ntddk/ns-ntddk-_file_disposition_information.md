@@ -4,7 +4,7 @@ title: "_FILE_DISPOSITION_INFORMATION"
 author: windows-driver-content
 description: The FILE_DISPOSITION_INFORMATION structure is used as an argument to the ZwSetInformationFile routine.
 old-location: kernel\file_disposition_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a13b5411-a0dd-4a54-98a8-419e2f0e95b8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

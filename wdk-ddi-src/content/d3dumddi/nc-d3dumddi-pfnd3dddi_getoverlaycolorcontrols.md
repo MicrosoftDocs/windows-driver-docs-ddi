@@ -4,10 +4,10 @@ title: PFND3DDDI_GETOVERLAYCOLORCONTROLS
 author: windows-driver-content
 description: The GetOverlayColorControls function retrieves color-control settings for the given overlay.
 old-location: display\getoverlaycolorcontrols.htm
-old-project: display
+tech.root: display
 ms.assetid: 23b15bb5-4394-406b-8869-f9d1e4e2b539
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GetOverlayColorControls, GetOverlayColorControls callback function [Display Devices], PFND3DDDI_GETOVERLAYCOLORCONTROLS, PFND3DDDI_GETOVERLAYCOLORCONTROLS callback, UserModeDisplayDriver_Functions_b50c3637-892b-4cc9-ad9a-97feeeb649fc.xml, d3dumddi/GetOverlayColorControls, display.getoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

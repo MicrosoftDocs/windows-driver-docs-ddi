@@ -4,7 +4,7 @@ title: RxCeBuildVC function
 author: windows-driver-content
 description: RxCeBuildVC adds a virtual circuit to a specified RDBSS connection..
 old-location: ifsk\rxcebuildvc.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

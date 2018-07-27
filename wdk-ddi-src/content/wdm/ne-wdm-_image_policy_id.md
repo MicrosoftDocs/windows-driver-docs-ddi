@@ -4,7 +4,7 @@ title: "_IMAGE_POLICY_ID"
 author: windows-driver-content
 description: This enumeration is not supported.
 old-location: kernel\_image_policy_id.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e2984ef0-6648-41d3-89da-4f57cce66cfb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

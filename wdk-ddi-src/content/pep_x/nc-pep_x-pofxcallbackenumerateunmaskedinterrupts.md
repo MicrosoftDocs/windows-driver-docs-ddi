@@ -4,7 +4,7 @@ title: POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS
 author: windows-driver-content
 description: The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled.
 old-location: kernel\enumerateunmaskedinterrupts.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8B3E8FE0-9A96-43CD-8C6D-28F302BDF2D7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

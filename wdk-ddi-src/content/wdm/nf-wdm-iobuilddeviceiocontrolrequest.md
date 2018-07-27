@@ -4,7 +4,7 @@ title: IoBuildDeviceIoControlRequest function
 author: windows-driver-content
 description: The IoBuildDeviceIoControlRequest routine allocates and sets up an IRP for a synchronously processed device control request.
 old-location: kernel\iobuilddeviceiocontrolrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

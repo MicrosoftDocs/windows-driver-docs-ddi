@@ -4,7 +4,7 @@ title: "_WDF_USB_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_USB_REQUEST_TYPE enumeration identifies the types of USB requests that a framework-based driver can send to a USB I/O target.
 old-location: wdf\wdf_usb_request_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4d10cefb-1039-4c48-b9f7-c4a530a6514b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KSDATAFORMAT
 author: windows-driver-content
 description: The KSDATAFORMAT structure is a variable-length structure that describes a data format.
 old-location: stream\ksdataformat.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_WDF_INTERRUPT_EXTENDED_POLICY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: CD11AD87-D3F1-41E5-AE86-DC289504EF6D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

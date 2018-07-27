@@ -4,10 +4,10 @@ title: PVIDEO_HW_RESET_HW
 author: windows-driver-content
 description: HwVidResetHw resets the adapter to character mode.
 old-location: display\hwvidresethw.htm
-old-project: display
+tech.root: display
 ms.assetid: dae00663-17bd-461d-9b3f-febff2d9811b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, PVIDEO_HW_RESET_HW callback, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
 ms.prod: windows-hardware
 ms.technology: windows-devices

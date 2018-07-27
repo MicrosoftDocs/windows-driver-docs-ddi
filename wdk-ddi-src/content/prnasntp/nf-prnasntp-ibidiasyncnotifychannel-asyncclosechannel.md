@@ -4,7 +4,7 @@ title: IBidiAsyncNotifyChannel::AsyncCloseChannel
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_asyncclosechannel.htm
-old-project: print
+tech.root: print
 ms.assetid: D2A8A131-E839-40E2-8897-DA74F7BA0FA8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

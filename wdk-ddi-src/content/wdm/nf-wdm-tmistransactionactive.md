@@ -4,7 +4,7 @@ title: TmIsTransactionActive function
 author: windows-driver-content
 description: The TmIsTransactionActive routine indicates whether a specified transaction is in its active state.
 old-location: kernel\tmistransactionactive.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0c9bf43d-9342-4d60-86d2-7388a4a80160
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

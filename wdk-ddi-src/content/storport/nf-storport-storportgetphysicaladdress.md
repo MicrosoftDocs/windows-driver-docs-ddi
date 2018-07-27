@@ -4,7 +4,7 @@ title: StorPortGetPhysicalAddress function
 author: windows-driver-content
 description: The StorPortGetPhysicalAddress routine converts a given virtual address range to a physical address range for a DMA operation.
 old-location: storage\storportgetphysicaladdress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2b39a6e4-2e11-4b4e-9218-92336629ae80
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

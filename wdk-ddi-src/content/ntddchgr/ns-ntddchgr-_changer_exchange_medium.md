@@ -4,7 +4,7 @@ title: "_CHANGER_EXCHANGE_MEDIUM"
 author: windows-driver-content
 description: The CHANGER_EXCHANGE_MEDIUM structure is used with the IOCTL_CHANGER_EXCHANGE_MEDIUM request to exchange locations of two pieces of media.
 old-location: storage\changer_exchange_medium.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

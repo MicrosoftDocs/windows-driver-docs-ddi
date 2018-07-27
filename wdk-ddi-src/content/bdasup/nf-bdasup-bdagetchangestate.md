@@ -4,7 +4,7 @@ title: BdaGetChangeState function
 author: windows-driver-content
 description: The BdaGetChangeState function returns the current change state of BDA topology.
 old-location: stream\bdagetchangestate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fd111e80-fc3e-4f21-97cb-1f75ae34d1e9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

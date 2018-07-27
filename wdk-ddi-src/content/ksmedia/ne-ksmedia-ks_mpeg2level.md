@@ -4,7 +4,7 @@ title: KS_MPEG2Level
 author: windows-driver-content
 description: The KS_MPEG2Level enumeration describes MPEG-2 levels.
 old-location: stream\ks_mpeg2level.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5ba271ba-ed92-402e-9ef9-ac198a8ea510
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

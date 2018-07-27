@@ -4,7 +4,7 @@ title: "_WHEA_IPF_MCA_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_IPF_MCA_DESCRIPTOR structure describes a machine check abort (MCA) error source for an Itanium processor.
 old-location: whea\whea_ipf_mca_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 2961a568-32e0-4c48-b5bc-5cfb0f78272d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

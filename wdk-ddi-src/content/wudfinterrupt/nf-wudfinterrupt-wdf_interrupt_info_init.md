@@ -4,7 +4,7 @@ title: WDF_INTERRUPT_INFO_INIT function
 author: windows-driver-content
 description: The WDF_INTERRUPT_INFO_INIT function initializes a WDF_INTERRUPT_INFO structure.
 old-location: wdf\wdf_interrupt_info_init_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: CFFE19FB-289C-4002-AB07-AE342D855B20
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

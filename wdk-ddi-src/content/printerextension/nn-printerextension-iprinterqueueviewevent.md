@@ -4,7 +4,7 @@ title: IPrinterQueueViewEvent
 author: windows-driver-content
 description: Provides the signature of the event handler.
 old-location: print\iprinterqueueviewevent.htm
-old-project: print
+tech.root: print
 ms.assetid: 23951787-C147-43A6-99D6-71AC037F6A43
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

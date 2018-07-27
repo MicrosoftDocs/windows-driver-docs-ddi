@@ -4,7 +4,7 @@ title: StorPortWriteRegisterUshort macro
 author: windows-driver-content
 description: The StorPortWriteRegisterUshort routine transfers a ULONG value to the indicated HBA register address.
 old-location: storage\storportwriteregisterushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f4beff75-6177-40c7-a62c-6e24bc54ea58
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

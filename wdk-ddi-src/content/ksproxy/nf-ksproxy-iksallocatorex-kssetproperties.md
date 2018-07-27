@@ -4,7 +4,7 @@ title: IKsAllocatorEx::KsSetProperties
 author: windows-driver-content
 description: Sets the properties for an allocator.
 old-location: stream\iksallocatorex_kssetproperties.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 17145801-5EE4-4022-997A-03B14C794D2F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

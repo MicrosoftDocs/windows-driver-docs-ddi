@@ -4,7 +4,7 @@ title: "_BTH_VENDOR_PATTERN"
 author: windows-driver-content
 description: The BTH_VENDOR_PATTERN structure specifies a vendor pattern.
 old-location: bltooth\bth_vendor_pattern.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 694020c6-dd0a-46c7-9122-cd86ce28d03a
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: QueryDeviceNamespace function
 author: windows-driver-content
 description: The IPrintTicketProvider::QueryDeviceNamespace method queries the device for its default namespace uniform resource identifier (URI).
 old-location: print\iprintticketprovider_querydevicenamespace.htm
-old-project: print
+tech.root: print
 ms.assetid: d4a36a33-f8b8-4b8c-8ff7-918cb8ba79cb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

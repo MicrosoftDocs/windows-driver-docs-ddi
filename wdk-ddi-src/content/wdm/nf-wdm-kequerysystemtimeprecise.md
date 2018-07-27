@@ -4,7 +4,7 @@ title: KeQuerySystemTimePrecise function
 author: windows-driver-content
 description: The KeQuerySystemTimePrecise routine retrieves the current system time, and is more precise than the KeQuerySystemTime routine.
 old-location: kernel\kequerysystemtimeprecise.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

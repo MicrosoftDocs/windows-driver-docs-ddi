@@ -4,7 +4,7 @@ title: PoFxPowerControl function
 author: windows-driver-content
 description: The PoFxPowerControl routine sends a power control request to the power management framework (PoFx).
 old-location: kernel\pofxpowercontrol.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

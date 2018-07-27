@@ -4,7 +4,7 @@ title: RtlUnicodeStringCatEx function
 author: windows-driver-content
 description: The RtlUnicodeStringCatEx function concatenates two strings that are contained in UNICODE_STRING structures.
 old-location: kernel\rtlunicodestringcatex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9894863c-89e9-491e-b958-874ac8ee8c30
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

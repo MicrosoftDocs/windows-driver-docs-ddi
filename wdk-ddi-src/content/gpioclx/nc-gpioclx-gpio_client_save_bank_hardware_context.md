@@ -4,7 +4,7 @@ title: GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT
 author: windows-driver-content
 description: The CLIENT_SaveBankHardwareContext event callback function saves the hardware context of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_savebankhardwarecontext.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: D2D2E231-E174-4C9F-96C3-35E744212F18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: IPartBase
 author: windows-driver-content
 description: The IPartBase interface is a common base for document part interfaces.
 old-location: print\ipartbase.htm
-old-project: print
+tech.root: print
 ms.assetid: 7523990f-04de-4182-99d9-fba100bebb84
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

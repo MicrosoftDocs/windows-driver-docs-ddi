@@ -4,7 +4,7 @@ title: PsSetCreateProcessNotifyRoutine function
 author: windows-driver-content
 description: The PsSetCreateProcessNotifyRoutine routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.
 old-location: kernel\pssetcreateprocessnotifyroutine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

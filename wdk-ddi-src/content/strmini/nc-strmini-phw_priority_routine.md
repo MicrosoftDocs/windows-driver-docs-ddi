@@ -4,7 +4,7 @@ title: PHW_PRIORITY_ROUTINE
 author: windows-driver-content
 description: StrMiniPriorityRoutine is a minidriver-supplied callback routine to be executed at a specified priority level.
 old-location: stream\strminipriorityroutine.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 775ab6aa-eda7-4774-8fe8-8b1838b3972f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

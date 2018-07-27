@@ -4,7 +4,7 @@ title: RtlAppendUnicodeStringToString function
 author: windows-driver-content
 description: The RtlAppendUnicodeStringToString routine concatenates two Unicode strings.
 old-location: kernel\rtlappendunicodestringtostring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

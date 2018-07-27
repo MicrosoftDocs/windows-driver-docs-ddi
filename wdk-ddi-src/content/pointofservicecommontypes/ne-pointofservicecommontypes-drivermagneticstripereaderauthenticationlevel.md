@@ -4,7 +4,7 @@ title: DriverMagneticStripeReaderAuthenticationLevel
 author: windows-driver-content
 description: This enumeration defines the levels of magnetic stripe reader (MSR) authentication support.
 old-location: pos\magneticstripereaderauthenticationlevel_handheld_blue_autogen.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 779e750a-70c6-41f3-b680-a9fe833014b5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

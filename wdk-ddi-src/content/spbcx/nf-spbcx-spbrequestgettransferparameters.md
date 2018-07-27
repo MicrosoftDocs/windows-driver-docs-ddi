@@ -4,7 +4,7 @@ title: SpbRequestGetTransferParameters function
 author: windows-driver-content
 description: The SpbRequestGetTransferParameters method retrieves the transfer parameters for an individual transfer in an I/O transfer sequence.
 old-location: spb\spbrequestgettransferparameters.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 33B0C9EF-B40A-4BE7-A5AB-81FFF4698F3F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: OEMCopyBits function
 author: windows-driver-content
 description: The OEMCopyBits function performs translations between device-managed raster surfaces and GDI standard-format bitmaps.
 old-location: print\oemcopybits.htm
-old-project: print
+tech.root: print
 ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

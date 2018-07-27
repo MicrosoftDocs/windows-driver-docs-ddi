@@ -4,10 +4,10 @@ title: IDebugControl3::GetNumberTextReplacements
 author: windows-driver-content
 description: The GetNumberTextReplacements method returns the number of currently defined user-named and automatic aliases.
 old-location: debugger\getnumbertextreplacements.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: d15400a8-3d8d-48dd-86f0-4e53f8b04add
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetNumberTextReplacements, GetNumberTextReplacements method [Windows Debugging], GetNumberTextReplacements method [Windows Debugging],IDebugControl2 interface, GetNumberTextReplacements method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetNumberTextReplacements method, IDebugControl2::GetNumberTextReplacements, IDebugControl3 interface [Windows Debugging],GetNumberTextReplacements method, IDebugControl3.GetNumberTextReplacements, IDebugControl3::GetNumberTextReplacements, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, debugger.getnumbertextreplacements
 ms.prod: windows-hardware
 ms.technology: windows-devices

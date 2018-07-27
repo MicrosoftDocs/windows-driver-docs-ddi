@@ -4,7 +4,7 @@ title: KeSynchronizeExecution function
 author: windows-driver-content
 description: The KeSynchronizeExecution routine synchronizes the execution of the specified routine with the interrupt service routine (ISR) that is assigned to a set of one or more interrupt objects.
 old-location: kernel\kesynchronizeexecution.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

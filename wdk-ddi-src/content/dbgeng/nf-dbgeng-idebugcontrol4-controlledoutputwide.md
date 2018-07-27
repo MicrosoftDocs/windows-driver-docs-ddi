@@ -4,10 +4,10 @@ title: IDebugControl4::ControlledOutputWide
 author: windows-driver-content
 description: The ControlledOutputWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ControlledOutputWide, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputWide method, IDebugControl4.ControlledOutputWide, IDebugControl4::ControlledOutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.controlledoutputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

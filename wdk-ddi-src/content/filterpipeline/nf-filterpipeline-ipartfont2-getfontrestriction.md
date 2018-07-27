@@ -4,7 +4,7 @@ title: IPartFont2::GetFontRestriction
 author: windows-driver-content
 description: "."
 old-location: print\ipartfont2_getfontrestriction.htm
-old-project: print
+tech.root: print
 ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

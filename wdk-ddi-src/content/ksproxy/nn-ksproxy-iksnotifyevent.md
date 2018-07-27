@@ -4,7 +4,7 @@ title: IKsNotifyEvent
 author: windows-driver-content
 description: The IKsNotifyEvent interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
 old-location: stream\iksnotifyevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

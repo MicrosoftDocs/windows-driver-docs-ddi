@@ -4,7 +4,7 @@ title: IPrintPipelineProgressReport
 author: windows-driver-content
 description: A rendering filter uses the IPrintPipelineProgressReport interface to send progress status to a spooler.
 old-location: print\iprintpipelineprogressreport.htm
-old-project: print
+tech.root: print
 ms.assetid: 7a2644af-fdfe-4481-8c44-c40244b8a00e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

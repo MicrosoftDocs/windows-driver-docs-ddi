@@ -4,7 +4,7 @@ title: "_KS_DVD_YCrCb"
 author: windows-driver-content
 description: The KS_DVD_YCrCb structure is used to describe a color in the YCrCb colorspace.
 old-location: stream\ks_dvd_ycrcb.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 78010e49-ad09-4eb3-bb48-17040737a0a0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

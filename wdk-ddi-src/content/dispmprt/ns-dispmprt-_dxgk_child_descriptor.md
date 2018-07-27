@@ -4,10 +4,10 @@ title: "_DXGK_CHILD_DESCRIPTOR"
 author: windows-driver-content
 description: The DXGK_CHILD_DESCRIPTOR structure holds identification and capability information for an individual child device of the display adapter.
 old-location: display\dxgk_child_descriptor.htm
-old-project: display
+tech.root: display
 ms.assetid: a814da0c-3712-4e7b-9349-a446d7b32c90
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGK_CHILD_DESCRIPTOR, DXGK_CHILD_DESCRIPTOR, DXGK_CHILD_DESCRIPTOR structure [Display Devices], DmStructs_711f63dc-7ad9-49d8-b83b-5e375764a762.xml, PDXGK_CHILD_DESCRIPTOR, PDXGK_CHILD_DESCRIPTOR structure pointer [Display Devices], _DXGK_CHILD_DESCRIPTOR, display.dxgk_child_descriptor, dispmprt/DXGK_CHILD_DESCRIPTOR, dispmprt/PDXGK_CHILD_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

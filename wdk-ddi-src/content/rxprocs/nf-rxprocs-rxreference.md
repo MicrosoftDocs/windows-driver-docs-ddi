@@ -4,7 +4,7 @@ title: RxReference function
 author: windows-driver-content
 description: RxReference increments the NodeReferenceCount member of a structure by one for several of the reference counted data structures used by RDBSS.
 old-location: ifsk\rxreference.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 436cd161-6984-4101-931a-221a829f40d0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

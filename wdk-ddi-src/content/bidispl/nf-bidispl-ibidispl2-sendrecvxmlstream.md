@@ -4,7 +4,7 @@ title: IBidiSpl2::SendRecvXMLStream
 author: windows-driver-content
 description: The SendRecvXMLStream method sends a bidirectional printer communication request and receives the response as IStream objects formatted in accordance with the Bidirectional Communication Schemas.
 old-location: print\ibidispl2_ibidispl2__sendrecvxmlstream.htm
-old-project: print
+tech.root: print
 ms.assetid: 2daf99a8-42dc-4739-8e7e-80d3c9a084b7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

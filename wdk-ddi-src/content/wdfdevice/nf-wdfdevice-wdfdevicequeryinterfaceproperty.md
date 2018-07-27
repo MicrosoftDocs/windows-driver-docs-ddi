@@ -4,7 +4,7 @@ title: WdfDeviceQueryInterfaceProperty function
 author: windows-driver-content
 description: The WdfDeviceQueryInterfaceProperty method retrieves a specified device interface property.
 old-location: wdf\wdfdevicequeryinterfaceproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0A09990B-DAB9-41D3-80BF-38CD6AF39625
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

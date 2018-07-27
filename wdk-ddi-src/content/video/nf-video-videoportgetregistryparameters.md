@@ -4,10 +4,10 @@ title: VideoPortGetRegistryParameters function
 author: windows-driver-content
 description: The VideoPortGetRegistryParameters function retrieves device-specific configuration information under the adapter key in the registry at startup.
 old-location: display\videoportgetregistryparameters.htm
-old-project: display
+tech.root: display
 ms.assetid: beca2e83-df56-4ed0-8ea8-b0090e574cd3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, display.videoportgetregistryparameters, video/VideoPortGetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

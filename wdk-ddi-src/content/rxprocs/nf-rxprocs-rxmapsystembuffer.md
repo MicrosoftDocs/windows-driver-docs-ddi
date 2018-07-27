@@ -4,7 +4,7 @@ title: RxMapSystemBuffer function
 author: windows-driver-content
 description: RxMapSystemBuffer returns the system buffer address from the IRP.
 old-location: ifsk\rxmapsystembuffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dc549e51-2f25-45b5-925f-3481294e0b35
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_IDE_CHANNEL_CONFIGURATION"
 author: windows-driver-content
 description: The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_channel_configuration.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

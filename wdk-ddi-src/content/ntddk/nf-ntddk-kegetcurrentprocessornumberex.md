@@ -4,7 +4,7 @@ title: KeGetCurrentProcessorNumberEx function
 author: windows-driver-content
 description: The KeGetCurrentProcessorNumberEx routine gets the processor number of the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentprocessornumberex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eb66a17e-2e85-453c-8b39-091f0dc8c29b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

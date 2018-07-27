@@ -4,7 +4,7 @@ title: KsFilterFactoryGetSymbolicLink function
 author: windows-driver-content
 description: The KsFilterFactoryGetSymbolicLink function returns the symbolic link associated with a given filter factory.
 old-location: stream\ksfilterfactorygetsymboliclink.htm
-old-project: stream
+tech.root: stream
 ms.assetid: db657820-75b7-49fe-904d-05f8bc45b8c5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

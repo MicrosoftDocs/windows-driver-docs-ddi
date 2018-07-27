@@ -4,7 +4,7 @@ title: "_DRIVE_LAYOUT_INFORMATION_MBR"
 author: windows-driver-content
 description: The DRIVE_LAYOUT_INFORMATION_MBR structure reports the drive signature for a Master Boot Record partition.
 old-location: storage\drive_layout_information_mbr.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 41df2847-7cfa-4746-82bd-d0b8b482a0d4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

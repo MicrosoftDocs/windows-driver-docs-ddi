@@ -4,7 +4,7 @@ title: RtlEnumerateGenericTableWithoutSplaying function
 author: windows-driver-content
 description: The RtlEnumerateGenericTableWithoutSplaying routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictablewithoutsplaying.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 28dacbac-99f0-415d-8d4f-954220839078
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

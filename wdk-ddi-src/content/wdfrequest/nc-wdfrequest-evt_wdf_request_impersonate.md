@@ -4,7 +4,7 @@ title: EVT_WDF_REQUEST_IMPERSONATE
 author: windows-driver-content
 description: A driver's EvtRequestImpersonate event callback function performs tasks at the requested impersonation level, such as opening a protected file.
 old-location: wdf\evtrequestimpersonate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

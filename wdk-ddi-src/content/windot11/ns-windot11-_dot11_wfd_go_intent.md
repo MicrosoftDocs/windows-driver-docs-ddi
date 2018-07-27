@@ -4,7 +4,7 @@ title: "_DOT11_WFD_GO_INTENT"
 author: windows-driver-content
 description: The DOT11_WFD_GO_INTENT structure represents the Group Intent value used during Group Owner Negotiation
 old-location: netvista\_dot11_wfd_go_intent.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8E4F88EF-04A9-4313-AE6A-2467DA08044A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,12 +72,12 @@ typedef struct _DOT11_WFD_GO_INTENT {
 
 ### -field TieBreaker
 
- 
+
 
 
 ### -field Intent
 
- 
+
 
 
 

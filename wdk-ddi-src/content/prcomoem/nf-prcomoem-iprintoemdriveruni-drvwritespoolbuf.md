@@ -4,7 +4,7 @@ title: IPrintOemDriverUni::DrvWriteSpoolBuf
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvWriteSpoolBuf method is provided by the Unidrv driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintoemdriveruni_drvwritespoolbuf.htm
-old-project: print
+tech.root: print
 ms.assetid: e019b88a-bffe-44d2-8031-de37b6a1cf1c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

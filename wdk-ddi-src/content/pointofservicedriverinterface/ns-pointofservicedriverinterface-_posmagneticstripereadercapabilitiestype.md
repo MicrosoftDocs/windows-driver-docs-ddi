@@ -4,7 +4,7 @@ title: "_PosMagneticStripeReaderCapabilitiesType"
 author: windows-driver-content
 description: This structure defines the kinds of magnetic stripe reader (MSR) capabilities that a device supports, such as whether the device supports track data masking.
 old-location: pos\posmagneticstripereadercapabilitiestype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

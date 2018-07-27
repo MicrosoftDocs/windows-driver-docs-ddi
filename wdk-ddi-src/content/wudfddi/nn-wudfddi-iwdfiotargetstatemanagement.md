@@ -4,7 +4,7 @@ title: IWDFIoTargetStateManagement
 author: windows-driver-content
 description: The IWDFIoTargetStateManagement interface exposes methods that manage and monitor the state of an I/O target object.
 old-location: wdf\iwdfiotargetstatemanagement.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6870b6fa-1a90-4a7a-935a-4ce8eda940a1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

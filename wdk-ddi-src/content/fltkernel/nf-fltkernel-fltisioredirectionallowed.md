@@ -4,7 +4,7 @@ title: FltIsIoRedirectionAllowed function
 author: windows-driver-content
 description: The FltIsIoRedirectionAllowed routine determines whether I/O can be redirected from the specified source filter instance to another specified filter instance.
 old-location: ifsk\fltisioredirectionallowed.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 79a59e86-9ee2-4cfa-b495-5248f227d24b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

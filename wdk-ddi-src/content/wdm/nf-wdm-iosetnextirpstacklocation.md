@@ -4,7 +4,7 @@ title: IoSetNextIrpStackLocation function
 author: windows-driver-content
 description: The IoSetNextIrpStackLocation routine sets the IRP stack location in a driver-allocated IRP to that of the caller.
 old-location: kernel\iosetnextirpstacklocation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 39a0b4d3-691f-45ca-a616-f3e123026776
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

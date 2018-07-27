@@ -4,7 +4,7 @@ title: KsFreeDeviceHeader function
 author: windows-driver-content
 description: The KsFreeDeviceHeader function cleans up and frees a previously allocated device header.
 old-location: stream\ksfreedeviceheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b7e30dde-ace5-47f0-a1e8-b8337ada1550
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

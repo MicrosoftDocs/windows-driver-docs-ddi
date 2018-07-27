@@ -4,7 +4,7 @@ title: GNSS_NI_REQUEST_TYPE
 author: windows-driver-content
 description: This enumeration indicates the network initiated (NI) request type represented by the GNSS_NI_REQUEST_PARAM structure.
 old-location: gnss\gnss_ni_request_type.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 79AFC7D8-5A51-49CC-8ADA-7D21C6859254
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

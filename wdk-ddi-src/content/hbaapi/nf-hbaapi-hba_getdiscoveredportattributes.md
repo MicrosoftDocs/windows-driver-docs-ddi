@@ -4,7 +4,7 @@ title: HBA_GetDiscoveredPortAttributes function
 author: windows-driver-content
 description: The HBA_GetDiscoveredPortAttributes routine retrieves the attributes for a specified remote fibre channel port.
 old-location: storage\hba_getdiscoveredportattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 64c6ed50-a4b9-4a8c-b38c-b2fcdf5ccee9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

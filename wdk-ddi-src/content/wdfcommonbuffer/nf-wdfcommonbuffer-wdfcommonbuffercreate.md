@@ -4,7 +4,7 @@ title: WdfCommonBufferCreate function
 author: windows-driver-content
 description: The WdfCommonBufferCreate method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously.
 old-location: wdf\wdfcommonbuffercreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 05e092fe-fa70-47b7-af8d-c6e27847a6ac
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

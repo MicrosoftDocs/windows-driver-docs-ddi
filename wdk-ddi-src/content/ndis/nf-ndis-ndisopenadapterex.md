@@ -4,10 +4,10 @@ title: NdisOpenAdapterEx function
 author: windows-driver-content
 description: A protocol driver calls the NdisOpenAdapterEx function from its ProtocolBindAdapterEx function to set up a binding between the protocol driver and an underlying driver.
 old-location: netvista\ndisopenadapterex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

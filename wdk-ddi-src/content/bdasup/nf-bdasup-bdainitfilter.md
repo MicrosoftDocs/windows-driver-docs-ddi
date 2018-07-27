@@ -4,7 +4,7 @@ title: BdaInitFilter function
 author: windows-driver-content
 description: The BdaInitFilter function initializes the BDA filter context associated with a filter instance.
 old-location: stream\bdainitfilter.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d6f5c6e5-d944-42a6-bfc2-decc7606cba1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

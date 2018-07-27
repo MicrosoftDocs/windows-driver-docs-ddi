@@ -4,7 +4,7 @@ title: WRITE_PORT_UCHAR function
 author: windows-driver-content
 description: The WRITE_PORT_UCHAR routine writes a byte to the specified port address.
 old-location: kernel\write_port_uchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 951b688f-21fa-4555-b877-e140e46a1700
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

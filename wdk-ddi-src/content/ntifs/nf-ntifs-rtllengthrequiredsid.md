@@ -4,7 +4,7 @@ title: RtlLengthRequiredSid function
 author: windows-driver-content
 description: The RtlLengthRequiredSid routine returns the length, in bytes, of the buffer required to store a security identifier (SID) with a specified number of subauthorities.
 old-location: ifsk\rtllengthrequiredsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1d6aa888-8e61-4a0e-88ea-13842fc2fff2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: FsRtlSplitLargeMcb function
 author: windows-driver-content
 description: The FsRtlSplitLargeMcb routine inserts a hole into the mappings in a map control block (MCB).
 old-location: ifsk\fsrtlsplitlargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c48b978e-8519-41c0-b711-013c5ccf4abe
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -60,17 +60,17 @@ The <b>FsRtlSplitLargeMcb</b> routine inserts a hole into the mappings in a map 
 
 ### -param Mcb [in]
 
-Pointer to the MCB structure. 
+Pointer to the MCB structure.
 
 
 ### -param Vbn [in]
 
-Starting virtual block number (VBN) of the range of mappings to be shifted upward by <i>Amount</i> to make room for the hole. 
+Starting virtual block number (VBN) of the range of mappings to be shifted upward by <i>Amount</i> to make room for the hole.
 
 
 ### -param Amount [in]
 
-Number of sectors (VBNs) in the hole to be created. 
+Number of sectors (VBNs) in the hole to be created.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Number of sectors (VBNs) in the hole to be created.
 
 
 
-A hole is a range of unmapped VBNs that form a gap between two mappings. 
+A hole is a range of unmapped VBNs that form a gap between two mappings.
 
 If a pool allocation failure occurs, <b>FsRtlSplitLargeMcb</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlSplitLargeMcb</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 

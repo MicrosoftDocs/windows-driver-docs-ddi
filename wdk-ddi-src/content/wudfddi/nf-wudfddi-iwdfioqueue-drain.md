@@ -4,7 +4,7 @@ title: IWDFIoQueue::Drain
 author: windows-driver-content
 description: The Drain method directs the queue to reject new incoming I/O requests and allow already-queued requests to be delivered to the driver for processing.
 old-location: wdf\iwdfioqueue_drain.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

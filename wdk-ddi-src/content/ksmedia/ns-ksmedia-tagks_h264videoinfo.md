@@ -4,7 +4,7 @@ title: tagKS_H264VIDEOINFO
 author: windows-driver-content
 description: The KS_H264VIDEOINFO describes the device capabilities that apply to the current media type.
 old-location: stream\ks_h264videoinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1EBA2124-F5D3-4683-B967-8179CCCD3102
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: HBA_GetFCPStatistics function
 author: windows-driver-content
 description: The HBA_GetFCPStatistics routine retrieves traffic statistics that the fibre channel protocol (FCP) has collected for the indicated logical unit.
 old-location: storage\hba_getfcpstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 62ef9d02-3a59-4d4e-a48f-21a8bb4f6e58
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

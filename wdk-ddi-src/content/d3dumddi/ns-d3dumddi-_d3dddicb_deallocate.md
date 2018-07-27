@@ -4,10 +4,10 @@ title: "_D3DDDICB_DEALLOCATE"
 author: windows-driver-content
 description: The D3DDDICB_DEALLOCATE structure describes allocations to release.
 old-location: display\d3dddicb_deallocate.htm
-old-project: display
+tech.root: display
 ms.assetid: b1d92adf-6efc-4a30-bd5c-cbfe53a7c648
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_DEALLOCATE, D3DDDICB_DEALLOCATE structure [Display Devices], D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, _D3DDDICB_DEALLOCATE, d3dumddi/D3DDDICB_DEALLOCATE, display.d3dddicb_deallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

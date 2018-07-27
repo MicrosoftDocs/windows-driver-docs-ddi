@@ -4,10 +4,10 @@ title: FwpsOpenToken0 function
 author: windows-driver-content
 description: The FwpsOpenToken0 function opens an access token.
 old-location: netvista\fwpsopentoken0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
 ms.prod: windows-hardware
 ms.technology: windows-devices

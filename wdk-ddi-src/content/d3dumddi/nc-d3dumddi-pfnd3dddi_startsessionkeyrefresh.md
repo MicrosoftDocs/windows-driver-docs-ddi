@@ -4,10 +4,10 @@ title: PFND3DDDI_STARTSESSIONKEYREFRESH
 author: windows-driver-content
 description: The StartSessionKeyRefresh function returns a random number that the driver's FinishSessionKeyRefresh function subsequently uses to perform an exclusive OR operation (XOR) with the session key.
 old-location: display\startsessionkeyrefresh.htm
-old-project: display
+tech.root: display
 ms.assetid: 986d8f46-3b4f-41b2-938e-4f3adbfe057a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_STARTSESSIONKEYREFRESH, PFND3DDDI_STARTSESSIONKEYREFRESH callback, StartSessionKeyRefresh, StartSessionKeyRefresh callback function [Display Devices], UserModeDisplayDriver_Functions_c68a1081-f350-4439-8c1c-91d9c54469bd.xml, d3dumddi/StartSessionKeyRefresh, display.startsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

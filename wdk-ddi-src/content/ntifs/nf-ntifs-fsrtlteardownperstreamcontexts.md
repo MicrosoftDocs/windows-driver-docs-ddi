@@ -4,7 +4,7 @@ title: FsRtlTeardownPerStreamContexts function
 author: windows-driver-content
 description: The FsRtlTeardownPerStreamContexts routine frees all per-stream context structures associated with a given FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtlteardownperstreamcontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a37a921c-748a-4ac2-99c7-a6cf987a8f54
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

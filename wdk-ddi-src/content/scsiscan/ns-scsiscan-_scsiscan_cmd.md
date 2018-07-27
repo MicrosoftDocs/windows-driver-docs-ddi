@@ -4,10 +4,10 @@ title: "_SCSISCAN_CMD"
 author: windows-driver-content
 description: The SCSISCAN_CMD structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SCSISCAN_CMD.
 old-location: image\scsiscan_cmd.htm
-old-project: image
+tech.root: image
 ms.assetid: 412c35b2-eb08-43a3-b776-053645806f5d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

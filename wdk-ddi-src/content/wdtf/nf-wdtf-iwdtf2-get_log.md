@@ -4,7 +4,7 @@ title: IWDTF2::get_Log
 author: windows-driver-content
 description: Gets the WDTF log object.
 old-location: dtf\iwdtf2_log.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 4c229367-bcdc-466f-ae38-f5c56ae4b840
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_RANDOM_WRITABLE"
 author: windows-driver-content
 description: The FEATURE_DATA_RANDOM_WRITABLE structure holds information about the Random Writable feature.
 old-location: storage\feature_data_random_writable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b2637f5e-15b0-44ae-8cd0-98712e735998
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

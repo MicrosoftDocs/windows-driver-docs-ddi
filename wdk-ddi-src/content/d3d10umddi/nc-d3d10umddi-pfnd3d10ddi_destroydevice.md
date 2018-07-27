@@ -4,10 +4,10 @@ title: PFND3D10DDI_DESTROYDEVICE
 author: windows-driver-content
 description: The DestroyDevice(D3D10) function destroys the specified device object.
 old-location: display\destroydevice_d3d10_.htm
-old-project: display
+tech.root: display
 ms.assetid: 90ada8c8-8ad8-4992-aac1-6eb7fdf3f249
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3D10DDI_DESTROYDEVICE, PFND3D10DDI_DESTROYDEVICE callback, UserModeDisplayDriverDx10_Functions_4f2918da-90e0-4e85-b019-f9481555e524.xml, d3d10umddi/DestroyDevice, display.destroydevice_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices

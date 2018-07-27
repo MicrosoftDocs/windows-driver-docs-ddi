@@ -4,7 +4,7 @@ title: "_GET_LOCAL_HOST_INFO2"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO2 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel GET_HOST_CAPABILITIES.
 old-location: ieee\get_local_host_info2.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 39cb4015-7745-4d13-bb31-76378b217cfd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

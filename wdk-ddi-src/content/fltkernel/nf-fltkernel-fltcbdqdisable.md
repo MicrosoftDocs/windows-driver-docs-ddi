@@ -4,7 +4,7 @@ title: FltCbdqDisable function
 author: windows-driver-content
 description: FltCbdqDisable disables a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqdisable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7024d611-533c-43d3-91cf-a678b8359793
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

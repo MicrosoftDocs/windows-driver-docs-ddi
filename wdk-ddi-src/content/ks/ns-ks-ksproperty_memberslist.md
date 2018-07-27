@@ -4,7 +4,7 @@ title: KSPROPERTY_MEMBERSLIST
 author: windows-driver-content
 description: The KSPROPERTY_MEMBERSLIST structure contains a list of legal values or ranges for a property.
 old-location: stream\ksproperty_memberslist.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2354da98-8663-4758-add7-3ac4350f563c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

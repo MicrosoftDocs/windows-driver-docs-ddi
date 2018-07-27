@@ -4,7 +4,7 @@ title: KsAddEvent function
 author: windows-driver-content
 description: The KsAddEvent function adds an event to Object's event list.
 old-location: stream\ksaddevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

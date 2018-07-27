@@ -4,7 +4,7 @@ title: "_DOT11_BSS_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e5c31c4d-8c46-4af1-90de-0311cc90c6c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlclient.h
 req.include-header: Wlclient.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -73,16 +73,16 @@ typedef struct _DOT11_BSS_LIST {
 
 ### -field uNumOfBytes
 
-The length, in bytes, of the data within the buffer referenced by the 
+The length, in bytes, of the data within the buffer referenced by the
      <b>pucBuffer</b> member.
 
 
 ### -field pucBuffer
 
-A pointer to a buffer that contains a list of 
+A pointer to a buffer that contains a list of
      <a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a> structures. Each
      DOT11_BSS_ENTRY structure specifies a single 802.11 Beacon and Probe Response frame.
-     
+
 
 The DOT11_BSS_ENTRY structure has a variable length. However, each entry within the list of
      DOT11_BSS_ENTRY structures does not contain padding for the alignment of the next entry in the
@@ -93,9 +93,9 @@ The DOT11_BSS_ENTRY structure has a variable length. However, each entry within 
 
 
 
-The 802.11 Beacon and Probe Response frames within the 
+The 802.11 Beacon and Probe Response frames within the
     <b>pucBuffer</b> member were received from the underlying 802.11 station during its previous scan
-    operation. For more information about this operation, see 
+    operation. For more information about this operation, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 

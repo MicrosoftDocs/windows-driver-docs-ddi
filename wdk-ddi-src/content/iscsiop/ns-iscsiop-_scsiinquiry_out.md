@@ -4,7 +4,7 @@ title: "_ScsiInquiry_OUT"
 author: windows-driver-content
 description: The ScsiInquiry_OUT structure holds the output data for the ScsiInquiry method.
 old-location: storage\scsiinquiry_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

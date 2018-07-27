@@ -4,7 +4,7 @@ title: "_FILE_ID_GLOBAL_TX_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_ID_GLOBAL_TX_DIR_INFORMATION structure contains information about transactional visibility for the files in a directory.
 old-location: ifsk\file_id_global_tx_dir_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

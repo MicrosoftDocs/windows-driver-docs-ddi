@@ -4,7 +4,7 @@ title: SpoolerRefreshPrinterChangeNotification function
 author: windows-driver-content
 description: "."
 old-location: print\spoolerrefreshprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

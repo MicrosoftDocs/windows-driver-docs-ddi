@@ -4,7 +4,7 @@ title: "_WHEA_PROCESSOR_GENERIC_ERROR_SECTION"
 author: windows-driver-content
 description: Describes processor error data that is not specific to a particular processor architecture.
 old-location: whea\whea_processor_generic_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: d1ac2ca0-ad08-4149-b489-53807f308fc0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

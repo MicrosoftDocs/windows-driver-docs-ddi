@@ -4,7 +4,7 @@ title: "_SERCX2_SYSTEM_DMA_RECEIVE_CONFIG"
 author: windows-driver-content
 description: The SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new system-DMA-receive object.
 old-location: serports\sercx2_system_dma_receive_config.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 91859391-9BBA-49BA-ACCF-C82430A6CC37
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

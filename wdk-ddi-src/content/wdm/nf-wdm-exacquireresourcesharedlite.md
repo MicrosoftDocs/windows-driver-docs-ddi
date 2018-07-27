@@ -4,7 +4,7 @@ title: ExAcquireResourceSharedLite function
 author: windows-driver-content
 description: The ExAcquireResourceSharedLite routine acquires the given resource for shared access by the calling thread.
 old-location: kernel\exacquireresourcesharedlite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5dfebc3f-77d2-4b35-83b2-b3729cc957f0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

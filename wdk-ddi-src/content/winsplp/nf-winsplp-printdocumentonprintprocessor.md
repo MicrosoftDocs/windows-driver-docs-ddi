@@ -4,7 +4,7 @@ title: PrintDocumentOnPrintProcessor function
 author: windows-driver-content
 description: A print processor's PrintDocumentOnPrintProcessor function converts a print job from a spooled format into raw data that can be sent to a print monitor.
 old-location: print\printdocumentonprintprocessor.htm
-old-project: print
+tech.root: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: KSSTATE
 author: windows-driver-content
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

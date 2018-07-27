@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::get_RootDevice
 author: windows-driver-content
 description: Gets the root device.
 old-location: dtf\iwdtfdevicedepot2_rootdevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c0d055fb-16d0-41d4-a4d7-af7505f3f7d8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,10 +4,10 @@ title: NdisFCancelSendNetBufferLists function
 author: windows-driver-content
 description: Filter drivers call the NdisFCancelSendNetBufferLists function to cancel the transmission of network data.
 old-location: netvista\ndisfcancelsendnetbufferlists.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 358b1aa9-4bfd-4bed-94f7-1b021c732a02
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFCancelSendNetBufferLists, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, ndis/NdisFCancelSendNetBufferLists, netvista.ndisfcancelsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices

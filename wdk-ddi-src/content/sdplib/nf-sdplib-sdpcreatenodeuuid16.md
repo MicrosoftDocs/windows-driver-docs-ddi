@@ -4,7 +4,7 @@ title: SdpCreateNodeUUID16 function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeUUID16 function is used to allocate and initialize an SDP_NODE structure to a 16-bit UUID type.
 old-location: bltooth\sdpcreatenodeuuid16.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d36b65e9-4e9e-40be-a89c-f04030cea459
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

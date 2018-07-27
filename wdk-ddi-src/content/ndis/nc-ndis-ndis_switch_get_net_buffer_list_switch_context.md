@@ -4,10 +4,10 @@ title: NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT
 author: windows-driver-content
 description: The Hyper-V extensible switch extension calls the GetNetBufferListSwitchContext function to retrieve the switch context previously set on the NET_BUFFER_LIST.
 old-location: netvista\getnetbufferlistswitchcontext.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 68270219-7003-489B-8362-8D6867D571FD
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: GetNetBufferListSwitchContext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback, ndis/GetNetBufferListSwitchContext, netvista.getnetbufferlistswitchcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

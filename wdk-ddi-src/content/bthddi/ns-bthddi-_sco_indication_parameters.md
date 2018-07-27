@@ -4,7 +4,7 @@ title: "_SCO_INDICATION_PARAMETERS"
 author: windows-driver-content
 description: The SCO_INDICATION_PARAMETERS structure describes indication parameters about a SCO connect or disconnect notification.
 old-location: bltooth\sco_indication_parameters.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

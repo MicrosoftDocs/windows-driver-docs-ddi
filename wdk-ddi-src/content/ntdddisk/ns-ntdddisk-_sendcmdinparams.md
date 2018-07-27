@@ -4,7 +4,7 @@ title: "_SENDCMDINPARAMS"
 author: windows-driver-content
 description: The SENDCMDINPARAMS structure contains the input parameters for the SMART_SEND_DRIVE_COMMAND request.
 old-location: storage\sendcmdinparams.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4c02da7e-2d93-4e0c-9666-acb380c6d39a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

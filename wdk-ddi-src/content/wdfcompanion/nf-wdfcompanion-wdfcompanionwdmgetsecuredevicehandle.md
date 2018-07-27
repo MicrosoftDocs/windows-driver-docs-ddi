@@ -4,7 +4,7 @@ title: WdfCompanionWdmGetSecureDeviceHandle function
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompanionwdmgetsecuredevicehandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8fc3dc6f-8a21-490b-adbf-5f735cb953de
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

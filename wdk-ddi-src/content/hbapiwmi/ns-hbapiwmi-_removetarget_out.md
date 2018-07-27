@@ -4,7 +4,7 @@ title: "_RemoveTarget_OUT"
 author: windows-driver-content
 description: The RemoveTarget_OUT structure is used by an HBA miniport driver to report the output parameter data of the RemoveTarget WMI method to the WMI client.
 old-location: storage\removetarget_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 176dbb0c-227e-48b2-956c-9e2b42f4c68b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_MSiSCSI_RedirectPortalInfoClass"
 author: windows-driver-content
 description: The MSiSCSI_RedirectPortalInfoClass structure contains information about a collection of sessions for an adapter ID. It also contains the portal redirection information for each of the sessions.
 old-location: storage\msiscsi_redirectportalinfoclass.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

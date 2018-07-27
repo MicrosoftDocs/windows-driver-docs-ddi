@@ -4,7 +4,7 @@ title: FsRtlCheckLockForReadAccess function
 author: windows-driver-content
 description: The FsRtlCheckLockForReadAccess routine determines whether the process associated with a given IRP has read access to a locked region of a file.
 old-location: ifsk\fsrtlchecklockforreadaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3734b286-b5cb-4906-9947-3ad23ef54267
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -80,15 +80,15 @@ Pointer to the IRP. Must be an IRP for a read operation.
 
 
 
-On Microsoft Windows XP and later, <b>FsRtlCheckLockForReadAccess</b> checks the process to which the thread that requested the read operation is currently attached. 
+On Microsoft Windows XP and later, <b>FsRtlCheckLockForReadAccess</b> checks the process to which the thread that requested the read operation is currently attached.
 
-On Microsoft Windows 2000 and earlier, <b>FsRtlCheckLockForReadAccess</b> checks the process that created the thread. 
+On Microsoft Windows 2000 and earlier, <b>FsRtlCheckLockForReadAccess</b> checks the process that created the thread.
 
 <b>FsRtlCheckLockForReadAccess</b> checks to see if there are any conflicting locks in the byte range that is to be read.
 
-<b>FsRtlCheckLockForReadAccess</b> does not complete the IRP specified by <i>Irp</i>. 
+<b>FsRtlCheckLockForReadAccess</b> does not complete the IRP specified by <i>Irp</i>.
 
-Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541834">FltCheckLockForReadAccess</a> instead of <b>FsRtlCheckLockForReadAccess</b>. 
+Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541834">FltCheckLockForReadAccess</a> instead of <b>FsRtlCheckLockForReadAccess</b>.
 
 
 

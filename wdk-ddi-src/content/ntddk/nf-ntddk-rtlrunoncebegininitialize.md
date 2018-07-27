@@ -4,7 +4,7 @@ title: RtlRunOnceBeginInitialize function
 author: windows-driver-content
 description: The RtlRunOnceBeginInitialize routine begins a one-time initialization.
 old-location: kernel\rtlrunoncebegininitialize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_KEY_VIRTUALIZATION_INFORMATION"
 author: windows-driver-content
 description: The KEY_VIRTUALIZATION_INFORMATION structure defines the basic information that is available for a registry key or subkey.
 old-location: kernel\key_virtualization_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 128dd4ed-12c6-472a-b63c-d2d217b5c716
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

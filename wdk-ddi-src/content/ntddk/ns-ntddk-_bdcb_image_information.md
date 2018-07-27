@@ -4,7 +4,7 @@ title: "_BDCB_IMAGE_INFORMATION"
 author: windows-driver-content
 description: The BDCB_IMAGE_INFORMATION structure describes information about a boot-start driver that is about to be initialized, provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\bdcb_image_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -248,8 +248,7 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
- 
+[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
  
 

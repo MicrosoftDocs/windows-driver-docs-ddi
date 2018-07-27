@@ -4,7 +4,7 @@ title: ClfsMgmtInstallPolicy function
 author: windows-driver-content
 description: The ClfsMgmtInstallPolicy routine adds a CLFS_MGMT_POLICY structure to a physical log.
 old-location: kernel\clfsmgmtinstallpolicy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

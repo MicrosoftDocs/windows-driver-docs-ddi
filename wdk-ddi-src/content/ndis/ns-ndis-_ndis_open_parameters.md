@@ -4,10 +4,10 @@ title: "_NDIS_OPEN_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_OPEN_PARAMETERS structure defines the open parameters when a protocol driver calls the NdisOpenAdapterEx function.
 old-location: netvista\ndis_open_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

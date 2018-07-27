@@ -4,7 +4,7 @@ title: SerCx2PioTransmitCreate function
 author: windows-driver-content
 description: The SerCx2PioTransmitCreate method creates a PIO-transmit object, which version 2 of the serial framework extension (SerCx2) uses to perform PIO-transmit transactions.
 old-location: serports\sercx2piotransmitcreate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 550A26D0-18A5-47F9-B769-B76FA2EB1734
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

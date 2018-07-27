@@ -4,7 +4,7 @@ title: HBA_FC4Statistics
 author: windows-driver-content
 description: The HBA_FC4Statistics structure contains port statistics.
 old-location: storage\hba_fc4statistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e1e37d2c-5688-4528-9cc5-62e70a7561fe
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

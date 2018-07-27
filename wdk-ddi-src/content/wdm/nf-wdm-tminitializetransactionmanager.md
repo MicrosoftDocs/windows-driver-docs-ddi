@@ -4,7 +4,7 @@ title: TmInitializeTransactionManager function
 author: windows-driver-content
 description: The TmInitializeTransactionManager routine initializes a transaction manager object.
 old-location: kernel\tminitializetransactionmanager_.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

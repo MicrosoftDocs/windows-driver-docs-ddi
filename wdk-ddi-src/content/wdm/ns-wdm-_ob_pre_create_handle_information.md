@@ -4,7 +4,7 @@ title: "_OB_PRE_CREATE_HANDLE_INFORMATION"
 author: windows-driver-content
 description: The OB_PRE_CREATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being opened.
 old-location: kernel\ob_pre_create_handle_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 50fd7666-cdec-4bdb-b350-2c2222124020
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

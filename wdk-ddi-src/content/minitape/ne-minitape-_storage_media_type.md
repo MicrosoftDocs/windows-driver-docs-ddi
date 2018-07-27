@@ -4,7 +4,7 @@ title: "_STORAGE_MEDIA_TYPE"
 author: windows-driver-content
 description: The STORAGE_MEDIA_TYPE enumeration is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to query the class driver for the types of media that a device supports.
 old-location: storage\storage_media_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 70214b6e-92d2-418a-ad8a-8701df02fdc3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

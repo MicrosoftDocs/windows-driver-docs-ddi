@@ -4,7 +4,7 @@ title: "_PEP_PERF_STATE_UNIT"
 author: windows-driver-content
 description: The PEP_PERF_STATE_UNIT enumeration indicates the measurement units in which the performance state (P-state) of a component is specified.
 old-location: kernel\pep_perf_state_unit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

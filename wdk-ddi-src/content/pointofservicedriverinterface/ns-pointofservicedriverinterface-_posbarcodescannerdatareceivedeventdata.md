@@ -4,7 +4,7 @@ title: "_PosBarcodeScannerDataReceivedEventData"
 author: windows-driver-content
 description: This structure contains the scanned data that is passed to the BarcodeScannerDataReceived event.
 old-location: pos\posbarcodescannerdatareceivedeventdata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

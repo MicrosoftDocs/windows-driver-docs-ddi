@@ -4,7 +4,7 @@ title: "_AACS_SEND_CERTIFICATE"
 author: windows-driver-content
 description: The AACS_SEND_CERTIFICATE structure is a wrapper for both an Advanced Access Content System (AACS) certificate and an Authentication Grant Identifier (AGID).
 old-location: storage\aacs_send_certificate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e0071ee1-7675-4029-b457-e7c26e642c31
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

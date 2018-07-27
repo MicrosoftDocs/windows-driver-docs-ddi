@@ -4,7 +4,7 @@ title: StorPortPoFxSetComponentLatency function
 author: windows-driver-content
 description: The StorPortPoFxSetComponentLatency routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified storage device component.
 old-location: storage\storportpofxsetcomponentlatency.htm
-old-project: storage
+tech.root: storage
 ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

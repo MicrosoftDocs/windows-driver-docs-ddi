@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
 author: windows-driver-content
 description: Returns the logical offset corresponding to a physical disk number and a physical offset.
 old-location: storage\ioctl_volume_physical_to_logical.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3e127456-6387-4340-84c1-d613d8094f33
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

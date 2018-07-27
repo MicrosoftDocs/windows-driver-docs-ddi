@@ -4,7 +4,7 @@ title: IPrinterBidiSetRequestCallback
 author: windows-driver-content
 description: Describes the signature of the callback object that receives the Bidi response.
 old-location: print\iprinterbidisetrequestcallback.htm
-old-project: print
+tech.root: print
 ms.assetid: C85690D0-3CA7-46C7-B597-E36555879F08
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

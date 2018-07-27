@@ -4,10 +4,10 @@ title: EVT_UCX_CONTROLLER_USBDEVICE_ADD
 author: windows-driver-content
 description: The client driver's implementation that UCX calls when a new USB device is detected.
 old-location: buses\evt_ucx_controller_usbdevice_add.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 0f89b57a-3374-4f40-88b5-43d233ba0e47
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UCX_CONTROLLER_USBDEVICE_ADD, EVT_UCX_CONTROLLER_USBDEVICE_ADD callback, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

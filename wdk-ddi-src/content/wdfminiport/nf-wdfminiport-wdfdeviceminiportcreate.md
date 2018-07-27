@@ -4,7 +4,7 @@ title: WdfDeviceMiniportCreate function
 author: windows-driver-content
 description: The WdfDeviceMiniportCreate method creates a framework device object that a miniport driver can use.
 old-location: wdf\wdfdeviceminiportcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d74dedbd-f418-4ea3-ae76-c0da9c5f2fb9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

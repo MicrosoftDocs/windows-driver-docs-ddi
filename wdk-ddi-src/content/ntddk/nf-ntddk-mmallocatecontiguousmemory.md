@@ -4,7 +4,7 @@ title: MmAllocateContiguousMemory function
 author: windows-driver-content
 description: The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 45d5b640-5983-43cc-9b2e-2f2625dbd57c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

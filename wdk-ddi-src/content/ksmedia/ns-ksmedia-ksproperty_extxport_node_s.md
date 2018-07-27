@@ -4,7 +4,7 @@ title: KSPROPERTY_EXTXPORT_NODE_S
 author: windows-driver-content
 description: The KSPROPERTY_EXTXPORT_NODE_S structure describes an external transport and its capabilities.
 old-location: stream\ksproperty_extxport_node_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e0321fa8-610b-4920-8be8-dd91a3452beb
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

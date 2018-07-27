@@ -4,7 +4,7 @@ title: CMP_PLUG_LOCATION
 author: windows-driver-content
 description: This enumeration specifies the location of a plug.
 old-location: ieee\cmp_plug_location.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: C46822B9-2263-4424-853B-32C726D83950
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

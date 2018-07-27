@@ -4,7 +4,7 @@ title: IPrinterExtensionContext::get_PrinterQueue
 author: windows-driver-content
 description: Gets the queue for the printer.
 old-location: print\iprinterextensioncontext_printerqueue.htm
-old-project: print
+tech.root: print
 ms.assetid: 304C8AF5-EA4E-4401-A8EC-6E1B279038E8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

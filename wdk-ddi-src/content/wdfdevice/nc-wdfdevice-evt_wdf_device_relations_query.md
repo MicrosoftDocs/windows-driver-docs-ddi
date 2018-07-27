@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_RELATIONS_QUERY
 author: windows-driver-content
 description: A driver's EvtDeviceRelationsQuery event callback reports changes in the relationships among devices that are supported by the driver.
 old-location: wdf\evtdevicerelationsquery.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3a156696-1dd5-4383-a0cc-8d07ec92bdbf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

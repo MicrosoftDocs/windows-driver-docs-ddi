@@ -4,10 +4,10 @@ title: "_D3DKMT_SUBMITCOMMANDTOHWQUEUE"
 author: windows-driver-content
 description: A structure that holds information to submit a command to the hardware queue.
 old-location: display\d3dkmt_submitcommandtohwqueue.htm
-old-project: display
+tech.root: display
 ms.assetid: 3807BD27-FAE4-4E12-A825-A9FAFB7A6ACA
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITCOMMANDTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, display.d3dkmt_submitcommandtohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

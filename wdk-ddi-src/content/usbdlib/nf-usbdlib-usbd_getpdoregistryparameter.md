@@ -4,10 +4,10 @@ title: USBD_GetPdoRegistryParameter function
 author: windows-driver-content
 description: The USBD_GetPdoRegistryParameter routine retrieves the value from the specified key in the USB device's hardware registry.
 old-location: buses\usbd_getpdoregistryparameter.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: f61be32a-2537-4b7f-8f22-4149b00a15a4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], buses.usbd_getpdoregistryparameter, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: WdfIoQueueDrain function
 author: windows-driver-content
 description: The WdfIoQueueDrain method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed.
 old-location: wdf\wdfioqueuedrain.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 376579c6-545d-4f5a-8ba4-0046c0b2b755
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

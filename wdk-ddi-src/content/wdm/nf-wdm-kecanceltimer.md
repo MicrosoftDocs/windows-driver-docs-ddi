@@ -4,7 +4,7 @@ title: KeCancelTimer function
 author: windows-driver-content
 description: The KeCancelTimer routine dequeues a timer object before the timer interval, if any was set, expires.
 old-location: kernel\kecanceltimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_PREDICT_FAILURE"
 author: windows-driver-content
 description: The STORAGE_PREDICT_FAILURE structure is used in conjunction with IOCTL_STORAGE_PREDICT_FAILURE to report whether a device is currently predicting a failure.
 old-location: storage\storage_predict_failure.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0b88ec6d-a7e0-4bb8-8a12-c7f170ac2334
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

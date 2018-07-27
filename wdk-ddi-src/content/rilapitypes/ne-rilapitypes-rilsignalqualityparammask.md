@@ -4,10 +4,10 @@ title: RILSIGNALQUALITYPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsignalqualityparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cf6727dc-e6f3-418e-bee4-e372dcc29a66
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RILSIGNALQUALITYPARAMMASK, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SIGNALSTRENGTH, RIL_PARAM_SQ_SNR, RIL_PARAM_SQ_SYSTEMTYPE, netvista.rilsignalqualityparammask, ntddrilapitypes/RILSIGNALQUALITYPARAMMASK, ntddrilapitypes/RIL_PARAM_SQ_ALL, ntddrilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, ntddrilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, ntddrilapitypes/RIL_PARAM_SQ_SNR, ntddrilapitypes/RIL_PARAM_SQ_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

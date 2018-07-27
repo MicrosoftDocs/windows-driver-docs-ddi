@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetCreateParameters
 author: windows-driver-content
 description: The GetCreateParameters method retrieves the request parameters for a create-type request.
 old-location: wdf\iwdfiorequest_getcreateparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1bc6eed2-c6bd-448f-8f78-630cca4cd29a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

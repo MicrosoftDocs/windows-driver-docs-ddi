@@ -4,10 +4,10 @@ title: PROTOCOL_CL_DROP_PARTY_COMPLETE
 author: windows-driver-content
 description: The ProtocolClDropPartyComplete function is used by connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolcldroppartycomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c916f379-393c-41d7-ab30-2f3181c3ada6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_DROP_PARTY_COMPLETE, PROTOCOL_CL_DROP_PARTY_COMPLETE callback, ProtocolClDropPartyComplete, ProtocolClDropPartyComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6586ee1a-9f7f-4125-966e-1f6df74b75df.xml, ndis/ProtocolClDropPartyComplete, netvista.protocolcldroppartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

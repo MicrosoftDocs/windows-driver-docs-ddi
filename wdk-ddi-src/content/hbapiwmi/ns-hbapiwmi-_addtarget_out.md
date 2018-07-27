@@ -4,7 +4,7 @@ title: "_AddTarget_OUT"
 author: windows-driver-content
 description: The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the AddTarget WMI method to the WMI client.
 old-location: storage\addtarget_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_FCP_SEND_RESPONSE"
 author: windows-driver-content
 description: This structure is used for a send response.
 old-location: ieee\fcp_send_response.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

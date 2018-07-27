@@ -4,10 +4,10 @@ title: VideoPortStartTimer function
 author: windows-driver-content
 description: The VideoPortStartTimer function enables calls to a miniport driver's HwVidTimer function.
 old-location: display\videoportstarttimer.htm
-old-project: display
+tech.root: display
 ms.assetid: d06ae137-d7e8-4e17-82fb-37e5c5e8ad1e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortStartTimer, VideoPortStartTimer function [Display Devices], VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, display.videoportstarttimer, video/VideoPortStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

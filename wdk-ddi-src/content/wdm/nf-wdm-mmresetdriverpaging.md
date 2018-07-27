@@ -4,7 +4,7 @@ title: MmResetDriverPaging function
 author: windows-driver-content
 description: The MmResetDriverPaging routine resets the pageable status of a driver's sections to that specified when the driver was compiled.
 old-location: kernel\mmresetdriverpaging.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6d1d1f0d-d6da-488d-a120-713b77da86a9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_charging_status_complete.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 715F1DF3-C3CF-4662-8095-22ECA0E45796
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

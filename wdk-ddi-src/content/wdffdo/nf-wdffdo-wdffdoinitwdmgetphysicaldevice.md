@@ -4,7 +4,7 @@ title: WdfFdoInitWdmGetPhysicalDevice function
 author: windows-driver-content
 description: The WdfFdoInitWdmGetPhysicalDevice method retrieves a device's WDM physical device object (PDO).
 old-location: wdf\wdffdoinitwdmgetphysicaldevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: eba64244-50ff-4c59-a30f-46874c683e63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

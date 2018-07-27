@@ -4,7 +4,7 @@ title: FltGetLowerInstance function
 author: windows-driver-content
 description: The FltGetLowerInstance routine returns an opaque instance pointer for the next lower minifilter driver instance, if there is one, that is attached below a given minifilter driver instance on the same volume.
 old-location: ifsk\fltgetlowerinstance.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bba47250-0344-4b5d-8461-d481519ba9ba
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

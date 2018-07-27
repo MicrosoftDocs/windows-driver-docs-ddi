@@ -4,7 +4,7 @@ title: "_DOT11_WFD_SCAN_TYPE"
 author: windows-driver-content
 description: The DOT11_WFD_SCAN_TYPE enumeration indicates the type of scan used during the scan phase of device discovery.
 old-location: netvista\dot11_wfd_scan_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E7F76E93-79B8-48AE-A1D1-E3215E2402F8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_WFD_SCAN_TYPE { 
+typedef enum _DOT11_WFD_SCAN_TYPE {
   dot11_wfd_scan_type_active   = 1,
   dot11_wfd_scan_type_passive  = 2,
   dot11_wfd_scan_type_auto     = 3

@@ -4,10 +4,10 @@ title: NdisFSynchronousOidRequest function
 author: windows-driver-content
 description: Filter drivers call the NdisFSynchronousOidRequest function to originate a new Synchronous OID request and issue it to underlying drivers.
 old-location: netvista\ndisfsynchronousoidrequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 01B625EB-AB6D-496F-95F2-22845460324A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFSynchronousOidRequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFSynchronousOidRequest, netvista.ndisfsynchronousoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

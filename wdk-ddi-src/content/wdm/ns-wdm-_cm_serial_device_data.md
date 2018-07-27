@@ -4,7 +4,7 @@ title: "_CM_SERIAL_DEVICE_DATA"
 author: windows-driver-content
 description: The CM_SERIAL_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a serial controller if the system can collect this information during the boot process.
 old-location: kernel\cm_serial_device_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c829cc26-e21c-46e7-a70f-fa691a6c52e0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

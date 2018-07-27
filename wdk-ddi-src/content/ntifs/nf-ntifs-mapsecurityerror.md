@@ -4,7 +4,7 @@ title: MapSecurityError function
 author: windows-driver-content
 description: The MapSecurityError function maps a security interface SECURITY_STATUS status code to a corresponding NSTATUS status code.
 old-location: ifsk\mapsecurityerror.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 899b7d6e-a17b-4030-9512-591b003ca6b2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

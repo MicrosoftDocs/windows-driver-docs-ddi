@@ -4,7 +4,7 @@ title: "_DOT11_AUTH_ALGORITHM"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_auth_algorithm.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 27bba553-2d46-4892-864a-52e44caf6d56
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlantypes.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_AUTH_ALGORITHM { 
+typedef enum _DOT11_AUTH_ALGORITHM {
   DOT11_AUTH_ALGO_80211_OPEN        = 1,
   DOT11_AUTH_ALGO_80211_SHARED_KEY  = 2,
   DOT11_AUTH_ALGO_WPA               = 3,
@@ -81,7 +81,7 @@ typedef enum _DOT11_AUTH_ALGORITHM {
 
 
       Specifies an IEEE 802.11 Open System authentication algorithm.
-     
+
 
 
 ### -field DOT11_AUTH_ALGO_80211_SHARED_KEY
@@ -94,10 +94,10 @@ Specifies an IEEE 802.11 Shared Key authentication algorithm that requires the u
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by
      the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through
-     the authentication process. 
-     
+     the authentication process.
 
-This algorithm is valid only for basic service set (BSS) types of 
+
+This algorithm is valid only for basic service set (BSS) types of
      dot11_BSS_type_infrastructure.
 
 When the WPA algorithm is enabled, the 802.11 station associates only with an access point whose
@@ -109,10 +109,10 @@ When the WPA algorithm is enabled, the 802.11 station associates only with an ac
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm that uses preshared keys (PSK). IEEE 802.1X
      port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived
-     through a preshared key that is used on both the supplicant and authenticator. 
-     
+     through a preshared key that is used on both the supplicant and authenticator.
 
-This algorithm is valid only for BSS types of 
+
+This algorithm is valid only for BSS types of
      dot11_BSS_type_infrastructure.
 
 When the WPA PSK algorithm is enabled, the 802.11 station will associate only with an access point
@@ -130,9 +130,9 @@ This value is not supported.
 Specifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port
      authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are
      dynamically derived through the authentication process.
-     
 
-This algorithm is valid only for BSS types of 
+
+This algorithm is valid only for BSS types of
      dot11_BSS_type_infrastructure.
 
 When the RSNA algorithm is enabled, the 802.11 station will associate only with an access point whose
@@ -145,7 +145,7 @@ When the RSNA algorithm is enabled, the 802.11 station will associate only with 
 Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is
      performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared
      key that is used on both the supplicant and authenticator.
-     
+
 
 When the RSNA PSK algorithm is enabled, the 802.11 station will associate only with an access point
      whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the
@@ -156,9 +156,9 @@ When the RSNA PSK algorithm is enabled, the 802.11 station will associate only w
 
 Specifies the start of the range that specifies proprietary authentication algorithms that are
      developed by an IHV.
-     
 
-The 
+
+The
      DOT11_AUTH_ALGO_IHV_START enumerator is valid only when the miniport driver is operating in
      Extensible Station (ExtSTA) mode.
 
@@ -167,9 +167,9 @@ The
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are
      developed by an IHV.
-     
 
-The 
+
+The
      DOT11_AUTH_ALGO_IHV_END enumerator is valid only when the miniport driver is operating in ExtSTA
      mode.
 
@@ -183,34 +183,34 @@ The
 
 
 
-An IHV can assign a value for its proprietary authentication algorithms from 
-    DOT11_AUTH_ALGO_IHV_START through 
+An IHV can assign a value for its proprietary authentication algorithms from
+    DOT11_AUTH_ALGO_IHV_START through
     DOT11_AUTH_ALGO_IHV_END. The IHV must assign a unique number from this range for each of its
     proprietary authentication algorithms.
 
 If the IHV develops its own support for an authentication algorithm supported by the operating system,
     the IHV must also assign a unique number from this range. For example, if the IHV develops its own
-    version of RSNA, it must assign a value for this version from 
-    DOT11_AUTH_ALGO_IHV_START through 
+    version of RSNA, it must assign a value for this version from
+    DOT11_AUTH_ALGO_IHV_START through
     DOT11_AUTH_ALGO_IHV_END.
 
 <div class="alert"><b>Note</b>  The 802.11 station must implicitly enable the 802.11 Open System authentication
     algorithm whenever it enables a WPA or RSNA authentication algorithm.</div>
 <div> </div>
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
-    authentication and cipher algorithm pairs in the 
+    authentication and cipher algorithm pairs in the
     <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
     DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
-    only the 
-    DOT11_AUTH_ALGO_RSNA_PSK authentication algorithm and the 
+    only the
+    DOT11_AUTH_ALGO_RSNA_PSK authentication algorithm and the
     DOT11_CIPHER_ALGO_CCMP cipher algorithm. To support Soft AP, the miniport driver must support this
     authentication/cipher pair.
 
 If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport driver must allow
-    peer stations to associate with the Extensible AP by using 
-    <a href="https://msdn.microsoft.com/f07d2d77-ccaf-4599-b59e-6ea4ecf55e0f">Open System Authentication</a> or 
+    peer stations to associate with the Extensible AP by using
+    <a href="https://msdn.microsoft.com/f07d2d77-ccaf-4599-b59e-6ea4ecf55e0f">Open System Authentication</a> or
     <a href="https://msdn.microsoft.com/41dd280b-e54c-4233-8051-45e7b1284d1d">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
-    the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see 
+    the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569436">OID_DOT11_WPS_ENABLED</a>.
 
 

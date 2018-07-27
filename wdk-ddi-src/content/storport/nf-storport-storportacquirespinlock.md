@@ -4,7 +4,7 @@ title: StorPortAcquireSpinLock function
 author: windows-driver-content
 description: The StorPortAcquireSpinLock routine acquires the specified spin lock.
 old-location: storage\storportacquirespinlock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

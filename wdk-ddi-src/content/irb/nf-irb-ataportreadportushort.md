@@ -4,7 +4,7 @@ title: AtaPortReadPortUshort function
 author: windows-driver-content
 description: The AtaPortReadPortUshort routine reads a USHORT value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadportushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e2534e79-293e-41db-b874-3f39aa5af864
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

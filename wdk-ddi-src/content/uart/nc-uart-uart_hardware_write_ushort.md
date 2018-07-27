@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_WRITE_USHORT
 title: UART_HARDWARE_WRITE_USHORT
 author: windows-driver-content
 description: Writes a USHORT value to the specified port or register.
-old-project: serports
+tech.root: serports
 ms.assetid: f1ad2554-41ea-4db2-9547-09ee6c602a1e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_WRITE_USHORT
 product: Windows
 targetos: Windows
@@ -50,11 +50,11 @@ Writes a USHORT value to the specified port or register.
 ```
 //Declaration
 
-UART_HARDWARE_WRITE_USHORT UartHardwareWriteUshort; 
+UART_HARDWARE_WRITE_USHORT UartHardwareWriteUshort;
 
 // Definition
 
-VOID UartHardwareWriteUshort 
+VOID UartHardwareWriteUshort
 (
 	PUSHORT Address
 	USHORT Value

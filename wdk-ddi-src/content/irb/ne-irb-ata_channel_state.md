@@ -4,7 +4,7 @@ title: ATA_CHANNEL_STATE
 author: windows-driver-content
 description: The ATA_CHANNEL_STATE enumeration type indicates the state of the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ata_channel_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

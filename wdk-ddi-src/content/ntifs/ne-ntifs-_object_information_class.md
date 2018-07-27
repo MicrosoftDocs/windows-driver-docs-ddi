@@ -4,7 +4,7 @@ title: "_OBJECT_INFORMATION_CLASS"
 author: windows-driver-content
 description: The OBJECT_INFORMATION_CLASS enumeration type represents the type of information to supply about an object.
 old-location: ifsk\object_information_class.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fbcca01d-2dd6-405a-9ec2-709652e9dcd6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

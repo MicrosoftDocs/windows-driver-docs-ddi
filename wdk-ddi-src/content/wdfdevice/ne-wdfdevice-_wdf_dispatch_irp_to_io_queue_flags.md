@@ -4,7 +4,7 @@ title: "_WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS"
 author: windows-driver-content
 description: The WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS enumeration type defines flags that the driver can specify when it calls WdfDeviceWdmDispatchIrpToIoQueue.
 old-location: wdf\wdf_dispatch_irp_to_io_queue_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6A205F51-990F-4721-B4C7-B96E944D2A54
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

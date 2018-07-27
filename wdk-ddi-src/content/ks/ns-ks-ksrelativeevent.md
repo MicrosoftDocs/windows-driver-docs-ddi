@@ -4,7 +4,7 @@ title: KSRELATIVEEVENT
 author: windows-driver-content
 description: The KSPROPERTY_CONNECTION_STARTAT property is passed a KSRELATIVEEVENT structure.
 old-location: stream\ksrelativeevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4edb8b74-d5e5-49ee-85a7-9eb095f5a575
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

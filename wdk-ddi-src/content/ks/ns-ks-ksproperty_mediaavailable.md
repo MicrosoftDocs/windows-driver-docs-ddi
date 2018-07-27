@@ -4,7 +4,7 @@ title: KSPROPERTY_MEDIAAVAILABLE
 author: windows-driver-content
 description: The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter.
 old-location: stream\ksproperty_mediaavailable.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b6818fd5-e351-4eac-a802-af8229b82fb3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

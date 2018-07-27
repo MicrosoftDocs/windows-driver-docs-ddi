@@ -4,7 +4,7 @@ title: IPrintPipelinePropertyBag::DeleteProperty
 author: windows-driver-content
 description: The DeleteProperty method deletes a property from a property bag.
 old-location: print\iprintpipelinepropertybag_deleteproperty.htm
-old-project: print
+tech.root: print
 ms.assetid: f3de5514-9a7f-4e27-9be0-4aec4b84a5a7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

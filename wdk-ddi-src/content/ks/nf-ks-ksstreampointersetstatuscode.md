@@ -4,7 +4,7 @@ title: KsStreamPointerSetStatusCode function
 author: windows-driver-content
 description: The KsStreamPointerSetStatusCode function allows specification of a successful or unsuccessful error code with which to complete the given IRP.
 old-location: stream\ksstreampointersetstatuscode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 88d554d9-55b7-42d4-b799-f8cb2029b1ae
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

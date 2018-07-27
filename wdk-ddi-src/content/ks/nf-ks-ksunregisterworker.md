@@ -4,7 +4,7 @@ title: KsUnregisterWorker function
 author: windows-driver-content
 description: The KsUnregisterWorker function allows clients to unregister a worker.
 old-location: stream\ksunregisterworker.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 789b12db-7f51-426f-8f43-d3a3e43d85b3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

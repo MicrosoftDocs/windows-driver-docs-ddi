@@ -4,7 +4,7 @@ title: ExQueueWorkItem function
 author: windows-driver-content
 description: ExQueueWorkItem inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to ExInitializeWorkItem.
 old-location: ifsk\exqueueworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 287affe1-c5d4-4b36-8017-d1fef6088cf8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

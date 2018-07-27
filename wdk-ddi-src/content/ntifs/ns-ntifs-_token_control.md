@@ -4,7 +4,7 @@ title: "_TOKEN_CONTROL"
 author: windows-driver-content
 description: The TOKEN_CONTROL structure contains information that identifies an access token.
 old-location: ifsk\token_control.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3e0d41f4-4918-4768-a341-25d27f0a8af0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

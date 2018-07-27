@@ -4,7 +4,7 @@ title: HBA_RemovePersistentBinding function
 author: windows-driver-content
 description: The HBA_RemovePersistentBinding routine retrieves information about the specified target.
 old-location: storage\hba_removepersistentbinding.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f2dbdd95-ddf9-4e95-acd5-853c29cebf02
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

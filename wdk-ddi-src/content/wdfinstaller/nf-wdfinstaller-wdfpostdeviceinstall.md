@@ -4,7 +4,7 @@ title: WdfPostDeviceInstall function
 author: windows-driver-content
 description: The co-installer's WdfPostDeviceInstall function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has created the driver's kernel-mode service.
 old-location: wdf\wdfpostdeviceinstall.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

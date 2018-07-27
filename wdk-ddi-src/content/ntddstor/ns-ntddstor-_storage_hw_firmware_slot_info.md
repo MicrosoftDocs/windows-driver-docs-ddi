@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_SLOT_INFO"
 author: windows-driver-content
 description: This structure contains information about a slot on a device.
 old-location: storage\storage_hw_firmware_slot_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: D5DF9785-83E0-4137-8E5F-357F94721CAD
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

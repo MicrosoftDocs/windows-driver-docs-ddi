@@ -4,7 +4,7 @@ title: KsGetFilterFromFileObject function
 author: windows-driver-content
 description: The KsGetFilterFromFileObject function returns the AVStream filter object associated with FileObject.
 old-location: stream\ksgetfilterfromfileobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: eb4ca943-43cb-4eac-8a73-484a7b8acafe
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

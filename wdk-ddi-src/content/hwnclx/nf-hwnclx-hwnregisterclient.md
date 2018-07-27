@@ -4,7 +4,7 @@ title: HwNRegisterClient function
 author: windows-driver-content
 description: Registers the hardware notification client driver and its callback functions with the class extension.
 old-location: gpiobtn\hwnregisterclient.htm
-old-project: gpiobtn
+tech.root: gpiobtn
 ms.assetid: 69de1551-e41f-4d18-89db-28d190676922
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: hwnclx.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Mshwnclxstub.lib
-req.dll: 
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -73,7 +73,7 @@ FORCEINLINE NTSTATUS  HwNRegisterClient(
 
 ### -param Driver [in]
 
-Handle to the client drivers framework driver object. 
+Handle to the client drivers framework driver object.
 
 
 ### -param RegistrationPacket [in, out]
@@ -83,7 +83,7 @@ Pointer to the <a href="https://docs.microsoft.com/en-us/windows-hardware/driver
 
 ### -param RegistryPath [in]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key. 
+Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key.
 
 
 ## -returns

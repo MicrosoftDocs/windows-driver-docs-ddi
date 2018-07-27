@@ -4,10 +4,10 @@ title: PcRegisterPhysicalConnectionFromExternal function
 author: windows-driver-content
 description: The PcRegisterPhysicalConnectionFromExternal function registers a physical connection to an audio adapter filter from an external audio adapter filter.
 old-location: audio\pcregisterphysicalconnectionfromexternal.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 636cf517-5ab0-4709-8026-b51425c81118
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, portcls/PcRegisterPhysicalConnectionFromExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

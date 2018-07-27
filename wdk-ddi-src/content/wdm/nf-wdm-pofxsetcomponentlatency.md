@@ -4,7 +4,7 @@ title: PoFxSetComponentLatency function
 author: windows-driver-content
 description: The PoFxSetComponentLatency routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified component.
 old-location: kernel\pofxsetcomponentlatency.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

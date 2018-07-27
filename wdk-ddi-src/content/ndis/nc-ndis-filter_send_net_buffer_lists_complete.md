@@ -4,10 +4,10 @@ title: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
 author: windows-driver-content
 description: NDIS calls the FilterSendNetBufferListsComplete function to complete a send request that a filter driver started by calling the NdisFSendNetBufferLists function.Note  You must declare the function by using the FILTER_SEND_NET_BUFFER_LISTS_COMPLETE type.
 old-location: netvista\filtersendnetbufferlistscomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback, FilterSendNetBufferListsComplete, FilterSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_5022c19b-6433-4c57-aa68-20270400950b.xml, ndis/FilterSendNetBufferListsComplete, netvista.filtersendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

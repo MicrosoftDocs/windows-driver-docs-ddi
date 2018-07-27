@@ -4,7 +4,7 @@ title: DrvUpgradePrinter function
 author: windows-driver-content
 description: A printer interface DLL's DrvUpgradePrinter function is used for updating a printer's registry settings when a new version of the driver is added to a system.
 old-location: print\drvupgradeprinter.htm
-old-project: print
+tech.root: print
 ms.assetid: 5a8a764d-48bf-48f9-831a-ac22767aeca6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

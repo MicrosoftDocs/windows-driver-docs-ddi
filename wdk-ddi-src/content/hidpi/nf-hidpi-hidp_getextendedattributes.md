@@ -4,7 +4,7 @@ title: HidP_GetExtendedAttributes function
 author: windows-driver-content
 description: The HidP_GetExtendedAttributes routine returns the extended attributes of a HID control.
 old-location: hid\hidp_getextendedattributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 97a8822f-ed0c-43ae-8b4e-08642558773d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

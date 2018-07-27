@@ -4,7 +4,7 @@ title: FirstEntrySList function
 author: windows-driver-content
 description: The FirstEntrySList routine returns the first entry in a sequenced singly linked list.
 old-location: kernel\firstentryslist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 80444a10-91f3-44b5-ad20-3d3d8f49ca60
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

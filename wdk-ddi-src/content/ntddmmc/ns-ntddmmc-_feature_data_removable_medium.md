@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_REMOVABLE_MEDIUM"
 author: windows-driver-content
 description: The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature.
 old-location: storage\feature_data_removable_medium.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b25feb68-75bb-4a9d-b842-e15f619a18c4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

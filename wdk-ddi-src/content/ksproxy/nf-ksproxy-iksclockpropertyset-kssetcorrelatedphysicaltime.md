@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsSetCorrelatedPhysicalTime
 author: windows-driver-content
 description: The KsSetCorrelatedPhysicalTime method sets the physical time with the correlated system time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetcorrelatedphysicaltime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 208fecc5-f01f-41f3-80d3-d811b3f4173a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

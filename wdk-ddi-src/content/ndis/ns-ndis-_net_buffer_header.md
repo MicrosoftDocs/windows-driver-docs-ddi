@@ -4,10 +4,10 @@ title: "_NET_BUFFER_HEADER"
 author: windows-driver-content
 description: The NET_BUFFER_HEADER structure specifies header information for the NET_BUFFER structure.
 old-location: netvista\net_buffer_header.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: db7277d0-9671-4680-84d4-d3415ce3922f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNET_BUFFER_HEADER, NET_BUFFER_HEADER, NET_BUFFER_HEADER union [Network Drivers Starting with Windows Vista], PNET_BUFFER_HEADER, PNET_BUFFER_HEADER union pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_HEADER, ndis/NET_BUFFER_HEADER, ndis/PNET_BUFFER_HEADER, ndis_netbuf_structures_ref_a19368c6-0bef-4fe6-be52-d76e0c6ea99d.xml, netvista.net_buffer_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices

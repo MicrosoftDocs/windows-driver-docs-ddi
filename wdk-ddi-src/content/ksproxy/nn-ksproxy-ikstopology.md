@@ -4,7 +4,7 @@ title: IKsTopology
 author: windows-driver-content
 description: The IKsTopology interface provides a method that opens topology node objects contained within a filter.
 old-location: stream\ikstopology.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 418a415c-b4db-41a1-825e-66704c45e134
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

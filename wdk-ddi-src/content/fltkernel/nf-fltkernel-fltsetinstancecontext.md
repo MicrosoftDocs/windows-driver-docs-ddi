@@ -4,7 +4,7 @@ title: FltSetInstanceContext function
 author: windows-driver-content
 description: FltSetInstanceContext sets a context for a minifilter driver instance.
 old-location: ifsk\fltsetinstancecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ddeeb49b-7c7d-4faa-b2ae-cdb09adebce0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: HBA_GetFcpPersistentBinding function
 author: windows-driver-content
 description: The HBA_GetFcpPersistentBinding routine retrieves the persistent bindings that are associated with the logical units that the HBA can enumerate.
 old-location: storage\hba_getfcppersistentbinding.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a17a6dfa-c067-4a85-8787-ffb4fb6cb7ad
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

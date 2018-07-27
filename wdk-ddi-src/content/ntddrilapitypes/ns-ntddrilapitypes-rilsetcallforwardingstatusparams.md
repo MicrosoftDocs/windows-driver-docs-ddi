@@ -4,10 +4,10 @@ title: RILSETCALLFORWARDINGSTATUSPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetcallforwardingstatusparams.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7863a72d-e3cc-4627-a956-7e5a080c4aad
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallforwardingstatusparams, ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

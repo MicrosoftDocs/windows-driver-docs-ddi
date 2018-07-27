@@ -4,7 +4,7 @@ title: RxLowIoGetBufferAddress function
 author: windows-driver-content
 description: RxLowIoGetBufferAddress returns the buffer corresponding to the MDL from LowIoContext structure of an RX_CONTEXT structure.
 old-location: ifsk\rxlowiogetbufferaddress.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

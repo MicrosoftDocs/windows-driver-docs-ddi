@@ -4,7 +4,7 @@ title: WDF_REQUEST_COMPLETION_PARAMS_INIT function
 author: windows-driver-content
 description: The WDF_REQUEST_COMPLETION_PARAMS_INIT function initializes a WDF_REQUEST_COMPLETION_PARAMS structure.
 old-location: wdf\wdf_request_completion_params_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f13e9474-7805-4c58-983d-4cfea4f005cc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

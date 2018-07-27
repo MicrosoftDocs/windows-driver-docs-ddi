@@ -4,7 +4,7 @@ title: IKsPropertySet::QuerySupported
 author: windows-driver-content
 description: The QuerySupported method determines whether a KS object supports a property set and the type of that support.
 old-location: stream\ikspropertyset_querysupported.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

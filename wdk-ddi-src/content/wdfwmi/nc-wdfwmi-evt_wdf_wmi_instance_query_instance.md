@@ -4,7 +4,7 @@ title: EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE
 author: windows-driver-content
 description: A driver's EvtWmiInstanceQueryInstance callback function copies a WMI provider's instance data into a buffer for delivery to a WMI client.
 old-location: wdf\evtwmiinstancequeryinstance.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 13eed838-2943-4bb4-915f-6a84f0f95851
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KsGetPinFromFileObject function
 author: windows-driver-content
 description: The KsGetPinFromFileObject function returns the AVStream pin object associated with FileObject.
 old-location: stream\ksgetpinfromfileobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 47e7fd44-b98f-4e0a-80c8-cc9b6dcc483b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

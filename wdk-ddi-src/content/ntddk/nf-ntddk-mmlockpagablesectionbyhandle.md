@@ -4,7 +4,7 @@ title: MmLockPagableSectionByHandle function
 author: windows-driver-content
 description: The MmLockPagableSectionByHandle routine locks a pageable code or data section into system memory by incrementing the reference count on the handle to the section.
 old-location: kernel\mmlockpagablesectionbyhandle.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d2e50d98-1c25-4ed6-98eb-0fb7e71fda55
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

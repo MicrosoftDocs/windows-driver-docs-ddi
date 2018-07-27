@@ -4,7 +4,7 @@ title: KSEVENT_SET
 author: windows-driver-content
 description: The KSEVENT_SET structure describes the events that comprise a kernel streaming event set.
 old-location: stream\ksevent_set.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0cfe3674-2261-44f5-a916-fb786bb25fe5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

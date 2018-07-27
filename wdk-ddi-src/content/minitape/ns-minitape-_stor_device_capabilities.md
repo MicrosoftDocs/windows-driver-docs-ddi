@@ -4,7 +4,7 @@ title: "_STOR_DEVICE_CAPABILITIES"
 author: windows-driver-content
 description: The STOR_DEVICE_CAPABILITIES structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
 old-location: storage\stor_device_capabilities.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

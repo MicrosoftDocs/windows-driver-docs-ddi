@@ -4,10 +4,10 @@ title: EVT_SENSOR_DRIVER_STOP_SENSOR
 author: windows-driver-content
 description: This callback function stops the sensor.
 old-location: sensors\evtsensorstop.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 25F57CA6-09A0-438B-8866-9F9DC01B5388
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_STOP_SENSOR, EVT_SENSOR_DRIVER_STOP_SENSOR callback, EvtSensorStop, EvtSensorStop callback function [Sensor Devices], sensors.evtsensorstop, sensorscx/EvtSensorStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

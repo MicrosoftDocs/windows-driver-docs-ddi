@@ -4,7 +4,7 @@ title: ClfsTerminateReadLog function
 author: windows-driver-content
 description: The ClfsTerminateReadLog routine invalidates a specified read context after freeing resources associated with the context.
 old-location: kernel\clfsterminatereadlog.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 47633903-0314-4d50-8dd5-ddb0eb934e09
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

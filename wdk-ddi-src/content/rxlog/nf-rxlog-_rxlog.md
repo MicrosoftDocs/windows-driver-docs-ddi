@@ -4,7 +4,7 @@ title: "_RxLog function"
 author: windows-driver-content
 description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
 old-location: ifsk\_rxlog.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

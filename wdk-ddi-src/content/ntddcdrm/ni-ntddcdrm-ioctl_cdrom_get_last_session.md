@@ -4,7 +4,7 @@ title: IOCTL_CDROM_GET_LAST_SESSION
 author: windows-driver-content
 description: Queries the device for the first complete session number, the last complete session number, and the last complete session starting address.
 old-location: storage\ioctl_cdrom_get_last_session.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a05da124-f486-4658-87d8-6c1b423694b3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

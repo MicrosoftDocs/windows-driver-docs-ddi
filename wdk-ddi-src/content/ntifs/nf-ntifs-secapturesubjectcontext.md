@@ -4,7 +4,7 @@ title: SeCaptureSubjectContext function
 author: windows-driver-content
 description: The SeCaptureSubjectContext routine captures the security context of the calling thread for access validation and auditing.
 old-location: ifsk\secapturesubjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7d41263e-a5f7-455e-859b-10a452a22ddf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

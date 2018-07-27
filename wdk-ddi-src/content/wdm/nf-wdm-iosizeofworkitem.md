@@ -4,7 +4,7 @@ title: IoSizeofWorkItem function
 author: windows-driver-content
 description: The IoSizeofWorkItem routine returns the size, in bytes, of an IO_WORKITEM structure.
 old-location: kernel\iosizeofworkitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

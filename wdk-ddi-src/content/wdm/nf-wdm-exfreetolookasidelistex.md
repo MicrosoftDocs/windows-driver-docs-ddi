@@ -4,7 +4,7 @@ title: ExFreeToLookasideListEx function
 author: windows-driver-content
 description: The ExFreeToLookasideListEx routine inserts an entry into a lookaside list, or, if the list is full, frees the allocated storage for the entry.
 old-location: kernel\exfreetolookasidelistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 37057400-7f4d-4274-b1ef-f03771cae34f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

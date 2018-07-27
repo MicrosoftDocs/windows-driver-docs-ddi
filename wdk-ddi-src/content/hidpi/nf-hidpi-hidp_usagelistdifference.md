@@ -4,7 +4,7 @@ title: HidP_UsageListDifference function
 author: windows-driver-content
 description: The HidP_UsageListDifference routine returns the differences between two arrays of HID usages.
 old-location: hid\hidp_usagelistdifference.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 332ef453-6f9d-4cdd-a8c7-766158e540d8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

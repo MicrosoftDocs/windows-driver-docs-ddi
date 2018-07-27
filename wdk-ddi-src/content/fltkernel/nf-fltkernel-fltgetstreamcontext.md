@@ -4,7 +4,7 @@ title: FltGetStreamContext function
 author: windows-driver-content
 description: The FltGetStreamContext routine retrieves a context that was set for a file stream by a given minifilter driver instance.
 old-location: ifsk\fltgetstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c076390d-42b0-4c8f-b9b1-9db910068795
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

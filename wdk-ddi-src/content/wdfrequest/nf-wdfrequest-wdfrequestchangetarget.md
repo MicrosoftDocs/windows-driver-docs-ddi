@@ -4,7 +4,7 @@ title: WdfRequestChangeTarget function
 author: windows-driver-content
 description: The WdfRequestChangeTarget method verifies that a specified I/O request can be sent to a specified I/O target.
 old-location: wdf\wdfrequestchangetarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 562e92b4-fe68-4301-af40-f535cc408b9d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

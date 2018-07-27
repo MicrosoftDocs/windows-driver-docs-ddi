@@ -4,7 +4,7 @@ title: IOCTL_DOT4_CLOSE_CHANNEL
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_CLOSE_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_close_channel.htm
-old-project: print
+tech.root: print
 ms.assetid: 66832FC2-D958-480F-84FB-B910B760444D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

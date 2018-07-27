@@ -4,7 +4,7 @@ title: "_HID_DESCRIPTOR"
 author: windows-driver-content
 description: The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
 old-location: hid\hid_descriptor.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 80a6a5d8-b13a-418d-a4bd-941d3a913c1e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

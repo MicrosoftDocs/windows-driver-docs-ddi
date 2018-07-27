@@ -4,7 +4,7 @@ title: ZwQueryEaFile function
 author: windows-driver-content
 description: The ZwQueryEaFile routine returns information about extended-attribute (EA) values for a file.
 old-location: kernel\zwqueryeafile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

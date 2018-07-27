@@ -4,7 +4,7 @@ title: "_IO_RESOURCE_LIST"
 author: windows-driver-content
 description: The IO_RESOURCE_LIST structure describes a range of raw hardware resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d8c29339-274e-410a-893d-328703d902c3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

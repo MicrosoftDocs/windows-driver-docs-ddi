@@ -4,7 +4,7 @@ title: WdfRegistryRemoveKey function
 author: windows-driver-content
 description: The WdfRegistryRemoveKey method removes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object.
 old-location: wdf\wdfregistryremovekey.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b23d1c2f-15f0-4b9e-8a10-9b81056fa509
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

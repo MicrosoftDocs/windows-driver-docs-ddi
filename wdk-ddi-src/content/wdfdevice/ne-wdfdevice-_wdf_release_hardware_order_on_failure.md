@@ -4,7 +4,7 @@ title: "_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE"
 author: windows-driver-content
 description: The WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration specifies when the framework calls a driver's EvtDeviceReleaseHardware callback function.
 old-location: wdf\wdf_release_hardware_order_on_failure.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 534B1E39-6B11-4954-8792-41A25FCA31B2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

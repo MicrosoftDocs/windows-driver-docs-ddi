@@ -4,7 +4,7 @@ title: "_MS_SMHBA_PORTATTRIBUTES"
 author: windows-driver-content
 description: The MS_SMHBA_PORTATTRIBUTES structure is used to report the port information.
 old-location: storage\ms_smhba_portattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ce967b15-723f-4ab7-8a79-8234291d1950
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

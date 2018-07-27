@@ -4,7 +4,7 @@ title: PCEVENT_ITEM
 author: windows-driver-content
 description: The PCEVENT_ITEM structure is used to describe an event that is supported by a particular filter, pin, or node.
 old-location: audio\pcevent_item.htm
-old-project: audio
+tech.root: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
 ms.date: 2/27/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef

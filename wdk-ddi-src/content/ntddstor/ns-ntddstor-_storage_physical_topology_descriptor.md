@@ -4,7 +4,7 @@ title: "_STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
 author: windows-driver-content
 description: Describes the physical topology of storage in a system.
 old-location: storage\storage_physical_topology_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FD5714DF-9D34-4396-86BC-40054C199A0E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

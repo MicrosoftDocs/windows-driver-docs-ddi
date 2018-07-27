@@ -4,10 +4,10 @@ title: IDebugClient5::AttachKernelWide
 author: windows-driver-content
 description: The AttachKernelWide method connects the debugger engine to a kernel target.
 old-location: debugger\attachkernelwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: AttachKernelWide, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],AttachKernelWide method, IDebugClient5.AttachKernelWide, IDebugClient5::AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

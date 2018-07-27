@@ -4,7 +4,7 @@ title: StorPortGetActiveGroupCount function
 author: windows-driver-content
 description: The StorPortGetActiveGroupCount routine returns the number of processor groups that are present in the system.
 old-location: storage\storportgetactivegroupcount.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 640dd836-a5f9-4a88-b2a3-038a66a50868
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

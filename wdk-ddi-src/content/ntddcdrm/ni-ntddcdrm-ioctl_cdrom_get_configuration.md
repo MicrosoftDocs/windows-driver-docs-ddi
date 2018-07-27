@@ -4,7 +4,7 @@ title: IOCTL_CDROM_GET_CONFIGURATION
 author: windows-driver-content
 description: Requests feature and profile information from a CD-ROM device.
 old-location: storage\ioctl_cdrom_get_configuration.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2eb4b5c3-db06-4d21-8937-847734d7ac2f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

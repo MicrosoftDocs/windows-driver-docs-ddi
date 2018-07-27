@@ -4,7 +4,7 @@ title: POFXCALLBACKPROCESSORIDLEVETO
 author: windows-driver-content
 description: The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state.
 old-location: kernel\processoridleveto.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 505276EE-5D41-4AB2-82FB-FBDEF994F372
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

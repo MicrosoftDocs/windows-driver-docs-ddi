@@ -4,7 +4,7 @@ title: FltAcquirePushLockShared macro
 author: windows-driver-content
 description: The FltAcquirePushLockShared routine acquires the given push lock for shared access by the calling thread.
 old-location: ifsk\fltacquirepushlockshared.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ee85e9fb-2112-4b36-af7f-7d142159bd2d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

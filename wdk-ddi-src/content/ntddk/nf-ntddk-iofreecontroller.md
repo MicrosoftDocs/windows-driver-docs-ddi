@@ -4,7 +4,7 @@ title: IoFreeController function
 author: windows-driver-content
 description: The IoFreeController routine releases a previously allocated controller object when the driver has completed an I/O request.
 old-location: kernel\iofreecontroller.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a9b0ca27-dc46-4f9b-a3f9-51bbd759afc1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

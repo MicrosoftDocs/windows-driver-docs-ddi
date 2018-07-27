@@ -4,7 +4,7 @@ title: "_ENUMERATOR_TYPE"
 author: windows-driver-content
 description: The ENUMERATOR_TYPE enumeration type is used to determine whether the enumerated device is associated with a service or a protocol. The ENUMERATOR_TYPE enumeration is intended for internal use only and should not be used by profile drivers.
 old-location: bltooth\enumerator_type.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

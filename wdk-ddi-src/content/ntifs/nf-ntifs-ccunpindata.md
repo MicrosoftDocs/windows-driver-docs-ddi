@@ -4,7 +4,7 @@ title: CcUnpinData function
 author: windows-driver-content
 description: The CcUnpinData routine releases cached file data that was mapped or pinned by an earlier call to CcMapData, CcPinRead, or CcPreparePinWrite.
 old-location: ifsk\ccunpindata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a06bbe25-9841-4aeb-9d51-257dd1472027
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

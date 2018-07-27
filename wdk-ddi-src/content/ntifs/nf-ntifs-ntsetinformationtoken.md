@@ -4,7 +4,7 @@ title: NtSetInformationToken function
 author: windows-driver-content
 description: The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
 old-location: kernel\zwsetinformationtoken.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fdb1245c-7804-4cb9-9632-bedb9f7f7b2b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

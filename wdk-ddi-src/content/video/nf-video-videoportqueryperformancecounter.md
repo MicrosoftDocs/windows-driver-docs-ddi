@@ -4,10 +4,10 @@ title: VideoPortQueryPerformanceCounter function
 author: windows-driver-content
 description: The VideoPortQueryPerformanceCounter function provides the finest-grained running count available in the system.
 old-location: display\videoportqueryperformancecounter.htm
-old-project: display
+tech.root: display
 ms.assetid: 44e9fca2-54b1-427c-864d-f170a8a26f5e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

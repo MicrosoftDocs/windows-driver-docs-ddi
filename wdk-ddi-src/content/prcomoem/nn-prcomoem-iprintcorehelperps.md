@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS
 author: windows-driver-content
 description: This section describes the methods that are defined for the IPrintCoreHelperPS COM interface.
 old-location: print\iprintcorehelperps_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 2be594f1-1eb1-42e0-a345-ee7edf4d96dd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

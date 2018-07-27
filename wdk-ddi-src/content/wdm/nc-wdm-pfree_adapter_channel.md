@@ -4,7 +4,7 @@ title: PFREE_ADAPTER_CHANNEL
 author: windows-driver-content
 description: The FreeAdapterChannel routine releases the system DMA controller when a driver has completed all DMA operations necessary to satisfy the current IRP.
 old-location: kernel\freeadapterchannel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 916531dd-4768-436a-910c-07d49924ac48
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

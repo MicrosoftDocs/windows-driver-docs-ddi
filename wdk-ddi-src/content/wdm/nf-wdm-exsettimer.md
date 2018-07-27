@@ -4,7 +4,7 @@ title: ExSetTimer function
 author: windows-driver-content
 description: The ExSetTimer routine starts a timer operation and sets the timer to expire at the specified due time.
 old-location: kernel\exsettimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

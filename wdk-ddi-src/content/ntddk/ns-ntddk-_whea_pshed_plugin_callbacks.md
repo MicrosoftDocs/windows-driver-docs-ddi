@@ -4,7 +4,7 @@ title: "_WHEA_PSHED_PLUGIN_CALLBACKS"
 author: windows-driver-content
 description: The WHEA_PSHED_PLUGIN_CALLBACKS structure describes the callback functions for a PSHED plug-in.
 old-location: whea\whea_pshed_plugin_callbacks.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 3b99f2bf-0ebc-40b2-a586-acc89200132b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

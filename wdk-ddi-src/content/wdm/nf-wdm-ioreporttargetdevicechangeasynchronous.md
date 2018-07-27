@@ -4,7 +4,7 @@ title: IoReportTargetDeviceChangeAsynchronous function
 author: windows-driver-content
 description: The IoReportTargetDeviceChangeAsynchronous routine notifies the PnP manager that a custom event has occurred on a device.
 old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

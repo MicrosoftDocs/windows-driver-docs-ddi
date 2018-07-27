@@ -4,7 +4,7 @@ title: IoStartPacket function
 author: windows-driver-content
 description: The IoStartPacket routine calls the driver's StartIo routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy.
 old-location: kernel\iostartpacket.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b1fa148e-73e2-437f-bd3a-e879bd457c76
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

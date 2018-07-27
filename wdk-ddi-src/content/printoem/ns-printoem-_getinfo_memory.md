@@ -4,7 +4,7 @@ title: "_GETINFO_MEMORY"
 author: windows-driver-content
 description: The GETINFO_MEMORY structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_memory.htm
-old-project: print
+tech.root: print
 ms.assetid: d6730599-a8f0-4bea-9ee4-47a60249271d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

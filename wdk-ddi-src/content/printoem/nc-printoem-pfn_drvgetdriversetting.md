@@ -4,7 +4,7 @@ title: PFN_DrvGetDriverSetting
 author: windows-driver-content
 description: The DrvGetDriverSetting function is obsolete.
 old-location: print\drvgetdriversetting.htm
-old-project: print
+tech.root: print
 ms.assetid: 04473567-42ac-4d99-947d-6ec7b3bde90b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

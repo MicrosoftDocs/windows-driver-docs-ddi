@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_BAUD_RATE
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_BAUD_RATE request returns the baud rate at which the serial port is currently configured to transmit and receive data.
 old-location: serports\ioctl_serial_get_baud_rate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 074ab68e-7cd5-44e4-b3f6-2d6ddc5f3095
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

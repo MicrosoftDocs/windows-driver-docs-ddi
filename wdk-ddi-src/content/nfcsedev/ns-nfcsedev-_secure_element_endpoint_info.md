@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_ENDPOINT_INFO"
 author: windows-driver-content
 description: SECURE_ELEMENT_ENDPOINT_INFO is a member of SECURE_ELEMENT_ENDPOINT_LIST.
 old-location: nfpdrivers\_secure_element_endpoint_info.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: C1D812BD-55F0-44F7-BCC8-81CC758EDEF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

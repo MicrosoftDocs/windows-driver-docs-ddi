@@ -4,7 +4,7 @@ title: "_CDROM_WRITE_SPEED_DESCRIPTOR"
 author: windows-driver-content
 description: The CDROM_WRITE_SPEED_DESCRIPTOR structure is returned for the IOCTL_CDROM_GET_PERFORMANCE IOCTL when the request type is CdromWriteSpeedRequest.
 old-location: storage\cdrom_write_speed_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 21CFAA26-3E11-4E3B-949A-C905813E56A8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

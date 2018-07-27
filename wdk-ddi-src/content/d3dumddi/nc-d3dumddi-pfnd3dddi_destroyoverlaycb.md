@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYOVERLAYCB
 author: windows-driver-content
 description: The pfnDestroyOverlayCb function disables the overlay hardware and destroys the kernel-mode overlay object.
 old-location: display\pfndestroyoverlaycb.htm
-old-project: display
+tech.root: display
 ms.assetid: 9fc83bad-c183-4cba-9514-bfe1c676cba5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3Druntime_Functions_57512079-654f-4858-bd66-984935adec15.xml, PFND3DDDI_DESTROYOVERLAYCB, PFND3DDDI_DESTROYOVERLAYCB callback, d3dumddi/pfnDestroyOverlayCb, display.pfndestroyoverlaycb, pfnDestroyOverlayCb, pfnDestroyOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

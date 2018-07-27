@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsGetPhysicalTime
 author: windows-driver-content
 description: The KsGetPhysicalTime method retrieves the physical time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetphysicaltime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 25875f28-292f-40d9-8b29-ec9af49b0bc0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
 author: windows-driver-content
 description: The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use.
 old-location: kernel\pep_acpi_translated_device_control_resources.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1274EF11-6A0D-4464-992D-4E27C981971F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_FILE_MAILSLOT_QUERY_INFORMATION"
 author: windows-driver-content
 description: The FILE_MAILSLOT_QUERY_INFORMATION structure contains information about a mailslot.
 old-location: ifsk\file_mailslot_query_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8e3b782a-fe8c-42e1-9786-5f89831b4c10
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

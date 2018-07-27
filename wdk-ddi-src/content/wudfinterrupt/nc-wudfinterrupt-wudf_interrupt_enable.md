@@ -4,7 +4,7 @@ title: WUDF_INTERRUPT_ENABLE
 author: windows-driver-content
 description: A driver's OnInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\oninterruptenable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6C091427-59FF-4101-ACD6-353C959794F6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

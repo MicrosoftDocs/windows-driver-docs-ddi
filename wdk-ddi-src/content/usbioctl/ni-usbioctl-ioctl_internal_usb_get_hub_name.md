@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_HUB_NAME
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_HUB_NAME I/O request is used by drivers to retrieve the UNICODE symbolic name for the target PDO if the PDO is for a hub.
 old-location: buses\ioctl_internal_usb_get_hub_name.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: af0a1cfe-16e8-4356-9b5c-2e2523869906
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_NAME, IOCTL_INTERNAL_USB_GET_HUB_NAME control, IOCTL_INTERNAL_USB_GET_HUB_NAME control code [Buses], buses.ioctl_internal_usb_get_hub_name, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_NAME, usbirp_54327688-c86b-4d05-b81d-5368f694f9ca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

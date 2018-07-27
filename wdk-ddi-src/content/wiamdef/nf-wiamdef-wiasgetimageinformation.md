@@ -4,10 +4,10 @@ title: wiasGetImageInformation function
 author: windows-driver-content
 description: The wiasGetImageInformation function retrieves transfer context information from an item.
 old-location: image\wiasgetimageinformation.htm
-old-project: image
+tech.root: image
 ms.assetid: 457c4b98-313d-4b31-aa6c-fb62fea6fc7d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasgetimageinformation, wiamdef/wiasGetImageInformation, wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

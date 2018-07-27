@@ -4,7 +4,7 @@ title: WdfDriverGetRegistryPath function
 author: windows-driver-content
 description: The WdfDriverGetRegistryPath method retrieves the path to the driver's registry key in the registry's Services tree.
 old-location: wdf\wdfdrivergetregistrypath.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5f237d2e-5ffd-40af-8cd8-ea1414807086
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

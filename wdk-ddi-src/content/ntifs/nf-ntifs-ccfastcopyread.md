@@ -4,7 +4,7 @@ title: CcFastCopyRead function
 author: windows-driver-content
 description: The CcFastCopyRead routine performs a fast copy read from a cached file to a buffer in memory.
 old-location: ifsk\ccfastcopyread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 725ede16-5fc6-4465-bcdc-da7702779d68
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

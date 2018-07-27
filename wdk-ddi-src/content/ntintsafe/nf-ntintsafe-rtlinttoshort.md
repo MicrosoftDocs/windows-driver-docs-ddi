@@ -4,7 +4,7 @@ title: RtlIntToShort function
 author: windows-driver-content
 description: Converts a value of type INT to a value of type SHORT.
 old-location: kernel\rtlinttoshort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E8E05F9B-2F83-4537-979E-024E8412D733
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

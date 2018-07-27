@@ -4,7 +4,7 @@ title: "_FEATURE_HEADER"
 author: windows-driver-content
 description: The FEATURE_HEADER structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to report header information for both feature and profile descriptors.
 old-location: storage\feature_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

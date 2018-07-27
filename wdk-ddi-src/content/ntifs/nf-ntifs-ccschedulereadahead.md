@@ -4,7 +4,7 @@ title: CcScheduleReadAhead function
 author: windows-driver-content
 description: The CcScheduleReadAhead routine performs read-ahead (also called &#0034;lazy read&#0034;) on a cached file. CcScheduleReadAhead should never be called directly. The CcReadAhead macro should be called instead.
 old-location: ifsk\ccschedulereadahead.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 57fbe32d-ffc8-449e-be7f-2d2a8f2a7a66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

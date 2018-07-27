@@ -4,7 +4,7 @@ title: "_TOKEN_OWNER"
 author: windows-driver-content
 description: TOKEN_OWNER contains the default owner security identifier (SID) that will be applied to newly created objects.
 old-location: ifsk\token_owner.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25f4a9c2-7146-422c-bd55-2520e7d8619b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

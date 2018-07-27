@@ -4,7 +4,7 @@ title: MmAllocateContiguousMemorySpecifyCacheNode function
 author: windows-driver-content
 description: The MmAllocateContiguousMemorySpecifyCacheNode routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycachenode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ce54870e-80af-4588-a0ca-1ad115739256
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

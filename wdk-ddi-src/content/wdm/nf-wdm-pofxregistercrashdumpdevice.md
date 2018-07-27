@@ -4,7 +4,7 @@ title: PoFxRegisterCrashdumpDevice function
 author: windows-driver-content
 description: The PoFxRegisterCrashdumpDevice routine registers a crash-dump device.
 old-location: kernel\pofxregistercrashdumpdevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

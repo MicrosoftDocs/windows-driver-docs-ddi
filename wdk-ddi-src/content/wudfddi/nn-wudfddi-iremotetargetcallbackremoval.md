@@ -4,7 +4,7 @@ title: IRemoteTargetCallbackRemoval
 author: windows-driver-content
 description: The IRemoteTargetCallbackRemoval interface provides callback functions that the framework calls to notify the driver about events that are associated with the removal of a remote I/O target.
 old-location: wdf\iremotetargetcallbackremoval.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 72271173-8851-4980-9b52-f9e14f1fe071
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

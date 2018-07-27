@@ -4,7 +4,7 @@ title: IWDFDevice::SetPnpState
 author: windows-driver-content
 description: The SetPnpState method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 old-location: wdf\iwdfdevice_setpnpstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

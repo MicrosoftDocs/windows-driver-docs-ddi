@@ -4,7 +4,7 @@ title: "_TOKEN_GROUPS_AND_PRIVILEGES"
 author: windows-driver-content
 description: TOKEN_GROUPS_AND_PRIVILEGES contains information about the group security identifiers (SIDs) and privileges in an access token.
 old-location: ifsk\token_groups_and_privileges.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 27d4793d-bdb4-46c5-b6e4-a2136e899adc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

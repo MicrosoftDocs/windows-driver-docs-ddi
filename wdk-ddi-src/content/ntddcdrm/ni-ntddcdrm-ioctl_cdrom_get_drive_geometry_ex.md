@@ -4,7 +4,7 @@ title: IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX
 author: windows-driver-content
 description: Returns information about a CD-ROM's geometry (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).The IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX request differs from the older IOCTL_CDROM_GET_DRIVE_GEOMETRY request.
 old-location: storage\ioctl_cdrom_get_drive_geometry_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ef04ba90-698f-4ae2-9ac6-106d66b61080
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

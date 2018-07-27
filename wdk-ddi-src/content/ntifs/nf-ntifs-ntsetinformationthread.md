@@ -4,7 +4,7 @@ title: NtSetInformationThread function
 author: windows-driver-content
 description: The ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ec67c643-bc91-4784-b5f4-09a20e8406c3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

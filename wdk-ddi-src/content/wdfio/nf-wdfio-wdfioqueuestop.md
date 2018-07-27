@@ -4,7 +4,7 @@ title: WdfIoQueueStop function
 author: windows-driver-content
 description: The WdfIoQueueStop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\wdfioqueuestop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 50ff8064-b28c-4b2b-89d2-bad5e503b2d6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

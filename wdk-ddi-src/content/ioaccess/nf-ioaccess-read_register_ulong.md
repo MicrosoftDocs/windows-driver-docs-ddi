@@ -4,7 +4,7 @@ title: READ_REGISTER_ULONG macro
 author: windows-driver-content
 description: The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address.
 old-location: kernel\read_register_ulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a462734c-cac6-4de0-95c1-810766ef1644
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

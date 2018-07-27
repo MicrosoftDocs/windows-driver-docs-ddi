@@ -4,7 +4,7 @@ title: KeInitializeMutant function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\keinitializemutant.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 75c31158-5d9c-465a-bb62-392b85fd8791
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

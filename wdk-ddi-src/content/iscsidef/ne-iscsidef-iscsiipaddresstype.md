@@ -4,7 +4,7 @@ title: ISCSIIPADDRESSTYPE
 author: windows-driver-content
 description: The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 old-location: storage\iscsiipaddresstype.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a92f7048-ca8a-450c-93ab-6ea040412198
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: PoFxActivateComponent function
 author: windows-driver-content
 description: The PoFxActivateComponent routine increments the activation reference count on the specified component.
 old-location: kernel\pofxactivatecomponent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

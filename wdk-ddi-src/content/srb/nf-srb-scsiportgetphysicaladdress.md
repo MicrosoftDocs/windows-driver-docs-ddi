@@ -4,7 +4,7 @@ title: ScsiPortGetPhysicalAddress function
 author: windows-driver-content
 description: The ScsiPortGetPhysicalAddress routine converts a given virtual address range to a physical address range for a DMA operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetphysicaladdress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4a0d0b10-9773-40d7-962c-cf2acffcee47
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

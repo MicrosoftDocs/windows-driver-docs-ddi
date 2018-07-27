@@ -4,7 +4,7 @@ title: "_PORT_CONFIGURATION_INFORMATION"
 author: windows-driver-content
 description: PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA.
 old-location: storage\port_configuration_information__scsi_.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

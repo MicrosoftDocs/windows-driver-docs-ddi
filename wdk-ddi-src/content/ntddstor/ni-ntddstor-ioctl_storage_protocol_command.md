@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_PROTOCOL_COMMAND
 author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_PROTOCOL_COMMAND to pass vendor-specific commands to a storage device.
 old-location: storage\ioctl_storage_protocol_command.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1AA59350-2475-4BF7-B447-42FDDB311882
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

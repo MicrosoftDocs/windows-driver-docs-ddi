@@ -4,7 +4,7 @@ title: KSEVENT_CONNECTION
 author: windows-driver-content
 description: "."
 old-location: stream\ksevent_connection.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E85946B3-90B6-41CA-9F69-47B33AE8D851
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: ExAllocatePoolWithQuota function
 author: windows-driver-content
 description: The ExAllocatePoolWithQuota routine is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
 old-location: kernel\exallocatepoolwithquota.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

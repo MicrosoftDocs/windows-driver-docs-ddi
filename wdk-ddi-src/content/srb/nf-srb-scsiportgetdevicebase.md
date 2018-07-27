@@ -4,7 +4,7 @@ title: ScsiPortGetDeviceBase function
 author: windows-driver-content
 description: The ScsiPortGetDeviceBase routine returns a mapped, logical base address that can be used to communicate with an HBA.
 old-location: storage\scsiportgetdevicebase.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d8d14818-4b84-4c65-a29e-2cd97e8bfbe9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: HBA_SendReportLUNs function
 author: windows-driver-content
 description: The HBA_SendReportLUNs routine sends a SCSI report LUNs command to the indicated remote port.
 old-location: storage\hba_sendreportluns.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

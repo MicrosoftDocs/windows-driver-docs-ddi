@@ -4,7 +4,7 @@ title: "_DEVICE_MEDIA_INFO"
 author: windows-driver-content
 description: A storage class driver returns an array of DEVICE_MEDIA_INFO structures, embedded in a GET_MEDIA_TYPES structure, in response to an IOCTL_STORAGE_GET_MEDIA_TYPES_EX device-control request.
 old-location: storage\device_media_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 87906511-7bcb-4f4d-9383-44b0501536e3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

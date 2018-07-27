@@ -4,7 +4,7 @@ title: NtRollbackTransaction function
 author: windows-driver-content
 description: The ZwRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\zwrollbacktransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 865349bd-400d-4acf-a2f7-33da128702be
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

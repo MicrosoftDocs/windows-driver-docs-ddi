@@ -4,7 +4,7 @@ title: DRIVER_CANCEL
 author: windows-driver-content
 description: The Cancel routine cancels an I/O operation.
 old-location: kernel\cancel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3e8053b7-a063-4143-a02d-35d917ca1e81
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

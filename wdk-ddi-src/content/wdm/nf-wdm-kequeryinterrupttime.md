@@ -4,7 +4,7 @@ title: KeQueryInterruptTime function
 author: windows-driver-content
 description: The KeQueryInterruptTime routine returns the current value of the system interrupt time count, with accuracy to within system clock tick.
 old-location: kernel\kequeryinterrupttime.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 88c87b11-b34f-43b3-b08e-940abaa23a27
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

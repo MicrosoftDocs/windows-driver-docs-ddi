@@ -4,7 +4,7 @@ title: IoCreateNotificationEvent function
 author: windows-driver-content
 description: The IoCreateNotificationEvent routine creates or opens a named notification event used to notify one or more threads of execution that an event has occurred.
 old-location: kernel\iocreatenotificationevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 44be034e-0c82-4980-a246-132d1b50dee1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

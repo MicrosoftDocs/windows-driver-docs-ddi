@@ -4,7 +4,7 @@ title: MmFreeNonCachedMemory function
 author: windows-driver-content
 description: The MmFreeNonCachedMemory routine releases a range of noncached memory that was allocated by the MmAllocateNonCachedMemory routine.
 old-location: kernel\mmfreenoncachedmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 284c7e69-50c6-4eef-bcf1-547bc7032a4a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

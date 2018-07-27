@@ -4,7 +4,7 @@ title: IPrintSchemaAsyncOperationEvent
 author: windows-driver-content
 description: Exposes a validation, merge, or commit completion event delegate.
 old-location: print\iprintschemaasyncoperationevent_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 4ADF74C0-F196-476F-889D-EB1A0B881920
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

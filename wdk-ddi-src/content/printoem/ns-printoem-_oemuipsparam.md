@@ -4,7 +4,7 @@ title: "_OEMUIPSPARAM"
 author: windows-driver-content
 description: The OEMUIPSPARAM structure is passed to a user interface plug-in's IPrintOemUI::DevicePropertySheets and IPrintOemUI::DocumentPropertySheets methods.
 old-location: print\oemuipsparam.htm
-old-project: print
+tech.root: print
 ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

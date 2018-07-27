@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_SMS_STATUS"
 author: windows-driver-content
 description: The NDIS_WWAN_SMS_STATUS structure represents the status of the SMS message store.
 old-location: netvista\ndis_wwan_sms_status.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7ab05cae-6902-4150-9af3-52981ba820b7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_STATUS, PNDIS_WWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7f7554d1-07d3-451b-b36c-0c03d589c6f8.xml, _NDIS_WWAN_SMS_STATUS, ndiswwan/NDIS_WWAN_SMS_STATUS, ndiswwan/PNDIS_WWAN_SMS_STATUS, netvista.ndis_wwan_sms_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices

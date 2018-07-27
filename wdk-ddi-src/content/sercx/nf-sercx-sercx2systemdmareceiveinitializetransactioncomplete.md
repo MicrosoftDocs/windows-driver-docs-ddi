@@ -4,7 +4,7 @@ title: SerCx2SystemDmaReceiveInitializeTransactionComplete function
 author: windows-driver-content
 description: The SerCx2SystemDmaReceiveInitializeTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial driver has finished initializing the serial controller hardware in preparation for a new system-DMA-receive transaction.
 old-location: serports\sercx2systemdmareceiveinitializetransactioncomplete.htm
-old-project: serports
+tech.root: serports
 ms.assetid: B65DC4AD-FB24-4F1D-A1E9-F9B38160908E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

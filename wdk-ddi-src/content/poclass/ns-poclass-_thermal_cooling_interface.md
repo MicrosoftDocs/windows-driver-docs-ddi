@@ -4,7 +4,7 @@ title: "_THERMAL_COOLING_INTERFACE"
 author: windows-driver-content
 description: The THERMAL_COOLING_INTERFACE structure enables the operating system to control the thermal management settings of a device.
 old-location: kernel\thermal_cooling_interface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

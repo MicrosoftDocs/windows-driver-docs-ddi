@@ -4,7 +4,7 @@ title: StorPortGetSystemAddress function
 author: windows-driver-content
 description: The StorPortGetSystemAddress routine returns a virtual address in system space for the data buffer of the specified SCSI request block (SRB).
 old-location: storage\storportgetsystemaddress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 28bb26bd-7259-4664-8092-6b9a917c1a91
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

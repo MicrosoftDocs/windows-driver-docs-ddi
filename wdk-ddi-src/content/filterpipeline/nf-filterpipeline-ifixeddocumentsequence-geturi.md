@@ -4,7 +4,7 @@ title: IFixedDocumentSequence::GetUri
 author: windows-driver-content
 description: The GetUri method gets the URI of the fixed document sequence.
 old-location: print\ifixeddocumentsequence_geturi.htm
-old-project: print
+tech.root: print
 ms.assetid: 45017249-2ea5-43f6-9712-787f52cb6e4b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IXpsRasterizer
 author: windows-driver-content
 description: The IXpsRasterizer interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.
 old-location: print\ixpsrasterizer_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 1ef99120-2b3b-45aa-bcf7-16bcb9656089
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

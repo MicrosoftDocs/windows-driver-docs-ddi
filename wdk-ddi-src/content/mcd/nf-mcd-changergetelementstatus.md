@@ -4,7 +4,7 @@ title: ChangerGetElementStatus function
 author: windows-driver-content
 description: ChangerGetElementStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_ELEMENT_STATUS.
 old-location: storage\changergetelementstatus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8114d029-fe6e-4466-9e54-5ceadef96949
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

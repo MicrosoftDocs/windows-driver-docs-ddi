@@ -4,7 +4,7 @@ title: "_PEP_PPM_IDLE_EXECUTE_V2"
 author: windows-driver-content
 description: The PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 28CF8291-E7C3-4289-909C-C89D350A9D83
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

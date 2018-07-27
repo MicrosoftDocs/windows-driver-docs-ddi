@@ -4,7 +4,7 @@ title: DUMP_FINISH
 author: windows-driver-content
 description: The Dump_Finish callback routine is called after writing all the dump data. The dump port driver generally flushes the cache to ensure the data is stored on the storage media before the system powers down.
 old-location: storage\dump_finish.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6e267810-a7ad-4407-8d01-4a2cad7a37bc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

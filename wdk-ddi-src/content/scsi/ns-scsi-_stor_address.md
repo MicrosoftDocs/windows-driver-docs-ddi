@@ -4,7 +4,7 @@ title: "_STOR_ADDRESS"
 author: windows-driver-content
 description: A general structure for holding a storage device address.
 old-location: storage\stor_address.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

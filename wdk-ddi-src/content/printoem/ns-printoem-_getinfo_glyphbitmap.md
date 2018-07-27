@@ -4,7 +4,7 @@ title: "_GETINFO_GLYPHBITMAP"
 author: windows-driver-content
 description: The GETINFO_GLYPHBITMAP structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphbitmap.htm
-old-project: print
+tech.root: print
 ms.assetid: 6a5887fd-0269-4cd1-acf1-f7242016d993
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

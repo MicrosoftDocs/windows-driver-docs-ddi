@@ -4,10 +4,10 @@ title: IMiniportAudioEngineNode::GetBufferSizeRange
 author: windows-driver-content
 description: Gets the minimum and maximum buffer size that the hardware audio engine can support.
 old-location: audio\iminiportaudioenginenode_getbuffersizerange.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 75CBDD4F-618F-4618-9D53-4A8DF40992B0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], GetBufferSizeRange method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetBufferSizeRange method, IMiniportAudioEngineNode.GetBufferSizeRange, IMiniportAudioEngineNode::GetBufferSizeRange, audio.iminiportaudioenginenode_getbuffersizerange, portcls/IMiniportAudioEngineNode::GetBufferSizeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

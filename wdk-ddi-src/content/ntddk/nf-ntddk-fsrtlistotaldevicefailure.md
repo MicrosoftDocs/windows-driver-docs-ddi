@@ -4,7 +4,7 @@ title: FsRtlIsTotalDeviceFailure function
 author: windows-driver-content
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_MSiSCSI_ConnectionStatistics"
 author: windows-driver-content
 description: The MSiSCSI_ConnectionStatistics structure is used by iSCSI initiators to report statistics for a connection within a session.
 old-location: storage\msiscsi_connectionstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1f38292-604f-4618-b6ec-f3822d60a96c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: DXGKDDI_QUERYENGINESTATUS
 author: windows-driver-content
 description: The display port driver's GPU scheduler calls this function to determine the progress of a node within an active physical display adapter (engine).
 old-location: display\dxgkddiqueryenginestatus.htm
-old-project: display
+tech.root: display
 ms.assetid: 87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_QUERYENGINESTATUS, DXGKDDI_QUERYENGINESTATUS callback, DxgkDdiQueryEngineStatus, DxgkDdiQueryEngineStatus callback function [Display Devices], d3dkmddi/DxgkDdiQueryEngineStatus, display.dxgkddiqueryenginestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

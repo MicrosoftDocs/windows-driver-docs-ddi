@@ -4,7 +4,7 @@ title: PoFxStartDevicePowerManagement function
 author: windows-driver-content
 description: The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
 old-location: kernel\pofxstartdevicepowermanagement.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DA034B30-203E-4418-B5BD-1094B3D438FE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

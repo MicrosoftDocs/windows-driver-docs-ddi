@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION
 author: windows-driver-content
 description: The location properties of bands in a band-managed storage device are modified with the IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION request.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_location.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FE6DA52C-6EE3-450E-A559-A7BCE47FA327
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

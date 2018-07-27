@@ -4,7 +4,7 @@ title: "_NFCRM_RADIO_STATE"
 author: windows-driver-content
 description: This structure is used to indicate the radio state.
 old-location: nfpdrivers\_nfcrm_radio_state_.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 414486ED-464D-4CAF-95C2-9AC59D608816
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,10 +4,10 @@ title: FwpsDereferenceNetBufferList0 function
 author: windows-driver-content
 description: The FwpsDereferenceNetBufferList0 function decrements the reference count for a NET_BUFFER_LIST structure that a callout driver had acquired earlier using the FwpsReferenceNetBufferList0 function.Note  FwpsDereferenceNetBufferList0 is a specific version of FwpsDereferenceNetBufferList. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsdereferencenetbufferlist0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e327fe9d-9425-4cc3-9552-88e9c4c3bdbe
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsDereferenceNetBufferList0, FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferenceNetBufferList0, netvista.fwpsdereferencenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

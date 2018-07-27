@@ -4,7 +4,7 @@ title: "_KERNDATA"
 author: windows-driver-content
 description: The KERNDATA structure is used for describing printer kerning pairs.
 old-location: print\kerndata.htm
-old-project: print
+tech.root: print
 ms.assetid: b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

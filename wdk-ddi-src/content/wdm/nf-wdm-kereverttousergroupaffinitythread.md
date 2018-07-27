@@ -4,7 +4,7 @@ title: KeRevertToUserGroupAffinityThread function
 author: windows-driver-content
 description: The KeRevertToUserGroupAffinityThread routine restores the group affinity of the calling thread to its original value at the time that the thread was created.
 old-location: kernel\kereverttousergroupaffinitythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

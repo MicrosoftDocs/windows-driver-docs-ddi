@@ -4,7 +4,7 @@ title: "_RESOURCEMANAGER_INFORMATION_CLASS"
 author: windows-driver-content
 description: The RESOURCEMANAGER_INFORMATION_CLASS enumeration identifies the type of information that the ZwQueryInformationResourceManager routine can retrieve for a resource manager object.
 old-location: kernel\resourcemanager_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ffaad89-b3c0-4fe6-bc2c-2b1f3b1bcfd2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

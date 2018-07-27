@@ -4,7 +4,7 @@ title: tagTRANSPORTSTATUS
 author: windows-driver-content
 description: The TRANSPORTSTATUS structure describes the current transport status.
 old-location: stream\transportstatus.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

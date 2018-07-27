@@ -4,7 +4,7 @@ title: RxFinalizeSrvCall function
 author: windows-driver-content
 description: RxFinalizeSrvCall finalizes the given SRV_CALL structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxfinalizesrvcall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 293bb629-ac31-4ae3-bba3-b06812e9e6cb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

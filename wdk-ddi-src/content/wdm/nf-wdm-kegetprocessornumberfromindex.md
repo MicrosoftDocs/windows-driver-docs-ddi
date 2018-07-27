@@ -4,7 +4,7 @@ title: KeGetProcessorNumberFromIndex function
 author: windows-driver-content
 description: The KeGetProcessorNumberFromIndex routine converts a systemwide processor index to a group number and a group-relative processor number.
 old-location: kernel\kegetprocessornumberfromindex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a6c9a7fa-8fef-4d6d-aab5-e712c49c0144
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

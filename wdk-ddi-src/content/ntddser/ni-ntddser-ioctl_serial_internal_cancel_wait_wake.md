@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
 author: windows-driver-content
 description: The IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE request disables the wait/wake operation of a serial device.
 old-location: serports\ioctl_serial_internal_cancel_wait_wake.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 007701f4-4ee0-46e1-963c-e2af2a441a81
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

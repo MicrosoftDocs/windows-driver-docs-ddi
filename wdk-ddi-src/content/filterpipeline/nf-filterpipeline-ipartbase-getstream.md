@@ -4,7 +4,7 @@ title: IPartBase::GetStream
 author: windows-driver-content
 description: The GetStream method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).
 old-location: print\ipartbase_getstream.htm
-old-project: print
+tech.root: print
 ms.assetid: 83840bca-2e6e-4982-9ec1-e1e278908993
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_OS_DEP_DATA"
 author: windows-driver-content
 description: The OS_DEP_DATA structure defines the data that is stored in the OsData member of the SMARTCARD_EXTENSION structure, which holds smart card information that is specific to the operating system.
 old-location: smartcrd\os_dep_data__wdm_.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: 76f6f0d1-cb2f-4cda-aeb0-7421e18e3c27
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

@@ -4,7 +4,7 @@ title: IPrintSchemaFeature::get_SelectedOption
 author: windows-driver-content
 description: Gets an IPrintSchemaOption representing the selected option.
 old-location: print\iprintschemafeature_selectedoption.htm
-old-project: print
+tech.root: print
 ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

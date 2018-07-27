@@ -4,7 +4,7 @@ title: IPrintOemUIMXDC
 author: windows-driver-content
 description: This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.
 old-location: print\iprintoemuimxdc_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 4a70c0a7-9de7-48ed-a678-64832f078018
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

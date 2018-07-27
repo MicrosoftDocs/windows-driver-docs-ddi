@@ -4,10 +4,10 @@ title: EVT_UCX_ROOTHUB_GET_30PORT_INFO
 author: windows-driver-content
 description: The client driver's implementation that UCX calls when it receives a request for information about USB 3.0 ports on the root hub.
 old-location: buses\evt_ucx_roothub_get_30port_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 35eb22aa-3158-48ad-a20c-909604f9b4b1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_30PORT_INFO, EVT_UCX_ROOTHUB_GET_30PORT_INFO callback, EvtUcxRootHubGet30PortInfo, EvtUcxRootHubGet30PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_30PORT_INFO, PEVT_UCX_ROOTHUB_GET_30PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_30port_info, ucxroothub/EvtUcxRootHubGet30PortInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

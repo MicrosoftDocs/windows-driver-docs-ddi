@@ -4,7 +4,7 @@ title: IWDFIoRequest2::StopAcknowledge
 author: windows-driver-content
 description: The StopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request.
 old-location: wdf\iwdfiorequest2_stopacknowledge.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

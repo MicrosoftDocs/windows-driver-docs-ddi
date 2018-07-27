@@ -4,7 +4,7 @@ title: DOT11_KEY_ALGO_TKIP_MIC
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_key_algo_tkip_mic.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2f6e08e3-50cf-4d2e-aac8-185a5c0b38ed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,20 +77,20 @@ typedef struct DOT11_KEY_ALGO_TKIP_MIC {
 ### -field ucIV48Counter
 
 The initial 48-bit value of the TKIP Sequence Counter (TSC), which is used for replay protection.
-     For more information about the TSC, see 
+     For more information about the TSC, see
      <a href="https://msdn.microsoft.com/4f0c45f0-3125-4b19-82c1-3681b2e31c96">TKIP</a>.
 
 
 ### -field ulTKIPKeyLength
 
-The length, in bytes, of the TKIP key material in the 
+The length, in bytes, of the TKIP key material in the
      <b>ucTKIPMICKeys</b> array. If the authentication and cipher key derivation is performed by the operating
      system, this member will always have a value of 16.
 
 
 ### -field ulMICKeyLength
 
-The length, in bytes, of the MIC key material in the 
+The length, in bytes, of the MIC key material in the
      <b>ucTKIPMICKeys</b> array. If the authentication and cipher key derivation is performed by the operating
      system, this member will always have a value of 16. The first 8 bytes will be the MIC key used for
      received packets and the last 8 bytes will be the MIC key used for transmitted packets.
@@ -105,8 +105,8 @@ The TKIP and MIC key material.
 
 
 
-The TKIP key starts at 
-    <b>ucTKIPMICKeys</b> [0]. The MIC key starts at 
+The TKIP key starts at
+    <b>ucTKIPMICKeys</b> [0]. The MIC key starts at
     <b>ucTKIPMICKeys</b> [
     <b>ulTKIPKeyLength</b> ].
 
@@ -115,7 +115,7 @@ When the TKIP key is created, the 802.11 station must maintain separate TSC coun
 
 <ul>
 <li>
-Initialize the TSC counter used for the receive path to the value specified in the 
+Initialize the TSC counter used for the receive path to the value specified in the
       <b>ucIV48Counter</b> member.
 
 </li>

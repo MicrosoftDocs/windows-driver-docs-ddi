@@ -4,7 +4,7 @@ title: "_PEP_SYSTEM_LATENCY"
 author: windows-driver-content
 description: The PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance.
 old-location: kernel\pep_system_latency.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

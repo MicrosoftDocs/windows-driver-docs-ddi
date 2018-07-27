@@ -4,7 +4,7 @@ title: StreamClassGetNextEvent function
 author: windows-driver-content
 description: Minidrivers can use the StreamClassGetNextEvent routine to search the event queue of a device or of a particular stream.
 old-location: stream\streamclassgetnextevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a2f83163-4529-4627-8959-2b4cd6b88828
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

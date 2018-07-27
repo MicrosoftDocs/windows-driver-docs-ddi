@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
 author: windows-driver-content
 description: This I/O control function sets a new encryption key.
 old-location: pos\ioctl_point_of_service_msr_update_key.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 7ac830d3-6a75-4d82-9123-cd7ad9c2cdea
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

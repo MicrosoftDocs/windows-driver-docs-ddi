@@ -4,7 +4,7 @@ title: "_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
 author: windows-driver-content
 description: The DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure specifies the parameters for an offload write action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_write_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: B0E9DABD-0D5B-4F5D-8CB0-470AC126F9C0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

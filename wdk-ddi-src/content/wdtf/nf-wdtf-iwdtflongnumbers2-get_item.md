@@ -4,7 +4,7 @@ title: IWDTFLongNumbers2::get_Item
 author: windows-driver-content
 description: Gets an individual long number in the collection.
 old-location: dtf\iwdtflongnumbers2_item.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 52c2a15c-13ec-43a1-ad8e-fc55ef681a60
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

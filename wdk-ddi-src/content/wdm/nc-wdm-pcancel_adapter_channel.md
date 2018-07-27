@@ -4,7 +4,7 @@ title: PCANCEL_ADAPTER_CHANNEL
 author: windows-driver-content
 description: The CancelAdapterChannel routine tries to cancel a pending request to allocate a DMA channel.
 old-location: kernel\canceladapterchannel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3E510E2D-AC9B-4F00-B7FD-A67B1F3FEBA7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

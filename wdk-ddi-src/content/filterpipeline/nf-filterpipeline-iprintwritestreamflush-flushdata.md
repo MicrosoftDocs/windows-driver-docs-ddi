@@ -4,7 +4,7 @@ title: IPrintWriteStreamFlush::FlushData
 author: windows-driver-content
 description: The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
 old-location: print\iprintwritestreamflush_flushdata.htm
-old-project: print
+tech.root: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

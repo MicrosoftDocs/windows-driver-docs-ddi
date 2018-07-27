@@ -4,7 +4,7 @@ title: "_CM_PARTIAL_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device.
 old-location: kernel\cm_partial_resource_descriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 96bf7bab-b8f5-439c-8717-ea6956ed0213
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

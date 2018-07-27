@@ -4,7 +4,7 @@ title: RtlOemStringToUnicodeString function
 author: windows-driver-content
 description: The RtlOemStringToUnicodeString routine translates a given source string into a null-terminated Unicode string using the current system OEM code page.
 old-location: ifsk\rtloemstringtounicodestring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0420718f-3d0f-4f15-85ec-c2cdfa930023
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KSFASTPROPERTY_ITEM
 author: windows-driver-content
 description: The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.
 old-location: stream\ksfastproperty_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KsGenerateEvents function
 author: windows-driver-content
 description: The KsGenerateEvents function generates events of an indicated type that are present in Object's event list.
 old-location: stream\ksgenerateevents.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3c96012f-8307-417c-be8f-bb466c576669
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

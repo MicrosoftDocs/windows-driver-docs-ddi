@@ -4,7 +4,7 @@ title: StorPortWriteRegisterUlong64 macro
 author: windows-driver-content
 description: This StorPortWriteRegisterUlong64 routine writes a ULONG64 value to the specified register address.
 old-location: storage\storportwriteregisterulong64.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FFBC7A27-B980-49AF-9207-237E0F0292FA
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

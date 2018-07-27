@@ -4,7 +4,7 @@ title: RILUICCRECORDTYPE
 author: windows-driver-content
 description: This enumeration describes the RILUICCRECORDTYPE.
 old-location: netvista\riluiccrecordtype.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 962970e2-1861-4872-b0f3-db307f36d5d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,12 +58,12 @@ req.typenames: RILUICCRECORDTYPE
 
 ````
 enum RILUICCRECORDTYPE {
-  RIL_UICCRECORDTYPE_UNKNOWN      = 0x00000000, 
-  RIL_UICCRECORDTYPE_TRANSPARENT  = 0x00000001, 
-  RIL_UICCRECORDTYPE_CYCLIC       = 0x00000002, 
-  RIL_UICCRECORDTYPE_LINEAR       = 0x00000003, 
-  RIL_UICCRECORDTYPE_BERTLV       = 0x00000004, 
-  RIL_UICCRECORDTYPE_MASTER       = 0x00000005 
+  RIL_UICCRECORDTYPE_UNKNOWN      = 0x00000000,
+  RIL_UICCRECORDTYPE_TRANSPARENT  = 0x00000001,
+  RIL_UICCRECORDTYPE_CYCLIC       = 0x00000002,
+  RIL_UICCRECORDTYPE_LINEAR       = 0x00000003,
+  RIL_UICCRECORDTYPE_BERTLV       = 0x00000004,
+  RIL_UICCRECORDTYPE_MASTER       = 0x00000005
 
 };
 ````

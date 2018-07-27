@@ -4,7 +4,7 @@ title: FltQueryDirectoryFile function
 author: windows-driver-content
 description: The FltQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file object.
 old-location: ifsk\fltquerydirectoryfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

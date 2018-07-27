@@ -4,7 +4,7 @@ title: PEP_PROCESSOR_IDLE_CANCEL_CODE
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration values indicate reasons why a processor cannot enter an idle state that was previously selected by the platform extension plug-in (PEP).
 old-location: kernel\pep_processor_idle_cancel_code.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

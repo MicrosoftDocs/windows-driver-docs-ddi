@@ -4,7 +4,7 @@ title: PBYTESWAPUINT128
 author: windows-driver-content
 description: The Bluetooth SdpByteSwapUint128 function is used to reverse the byte order of an unsigned 128-bit integer.
 old-location: bltooth\sdpbyteswapuint128.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 04a3400a-e526-47d2-a602-6ecaa7ee7fcf
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

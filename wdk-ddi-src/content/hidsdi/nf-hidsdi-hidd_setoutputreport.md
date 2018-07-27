@@ -4,7 +4,7 @@ title: HidD_SetOutputReport function
 author: windows-driver-content
 description: The HidD_SetOutputReport routine sends an output report to a top-level collection.
 old-location: hid\hidd_setoutputreport.htm
-old-project: hid
+tech.root: hid
 ms.assetid: a4ec7a17-40c4-4812-a62a-585b3b486578
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

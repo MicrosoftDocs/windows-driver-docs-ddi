@@ -4,10 +4,10 @@ title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
 author: windows-driver-content
 description: Inserts a signal on the specified synchronization objects in the specified context direct memory access (DMA) stream. Used by WDDM 1.2 and later user-mode display drivers.
 old-location: display\pfnsignalsynchronizationobject2cb.htm
-old-project: display
+tech.root: display
 ms.assetid: 01B5E793-D075-42B5-9ADF-D033249AEE9F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnSignalSynchronizationObject2Cb, display.pfnsignalsynchronizationobject2cb, pfnSignalSynchronizationObject2Cb, pfnSignalSynchronizationObject2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

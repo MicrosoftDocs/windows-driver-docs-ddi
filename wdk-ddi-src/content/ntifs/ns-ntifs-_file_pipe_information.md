@@ -4,7 +4,7 @@ title: "_FILE_PIPE_INFORMATION"
 author: windows-driver-content
 description: The FILE_PIPE_INFORMATION structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
 old-location: ifsk\file_pipe_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d38b9f36-27f1-47f1-a469-18ddb6f5b2c1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

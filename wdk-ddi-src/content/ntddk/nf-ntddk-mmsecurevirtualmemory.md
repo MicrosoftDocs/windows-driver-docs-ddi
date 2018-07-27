@@ -4,7 +4,7 @@ title: MmSecureVirtualMemory function
 author: windows-driver-content
 description: The MmSecureVirtualMemory routine secures a user-space memory address range so that it cannot be freed and its protection type cannot be made more restrictive.
 old-location: kernel\mmsecurevirtualmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e5c2d5d5-550e-42e5-b86a-f17e361925dc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

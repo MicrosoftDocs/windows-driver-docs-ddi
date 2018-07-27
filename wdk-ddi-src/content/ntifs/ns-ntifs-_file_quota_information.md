@@ -4,7 +4,7 @@ title: "_FILE_QUOTA_INFORMATION"
 author: windows-driver-content
 description: The FILE_QUOTA_INFORMATION structure is used to query or set per-user quota information for each of the files in a directory.
 old-location: ifsk\file_quota_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f5b17648-cd6e-4a6d-a00e-b4dfdcbcf0ea
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

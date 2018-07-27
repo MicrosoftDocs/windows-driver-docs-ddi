@@ -4,7 +4,7 @@ title: StorPortAllocatePool function
 author: windows-driver-content
 description: The StorPortAllocatePool routine allocates a block of non-contiguous, non-paged pool memory.
 old-location: storage\storportallocatepool.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e6823b9c-9717-49ab-8e67-c1d522774826
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
