@@ -4,7 +4,7 @@ title: "_VPCI_INVALIDATE_BLOCK_OUTPUT"
 author: windows-driver-content
 description: The VPCI_INVALIDATE_BLOCK_OUTPUT structure is used in an IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request.
 old-location: kernel\vpci_invalidate_block_output.htm
-tech.root: kernel
+tech.root: pci
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

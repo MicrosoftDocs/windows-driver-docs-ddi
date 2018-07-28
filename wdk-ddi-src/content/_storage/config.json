@@ -20,7 +20,6 @@
     "iscsiop.h",
     "iscsiprf.h",
     "mcd.h",
-    "miniport.h",
     "minitape.h",
     "mountdev.h",
     "mountmgr.h",
