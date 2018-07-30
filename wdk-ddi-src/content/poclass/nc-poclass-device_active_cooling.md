@@ -4,7 +4,7 @@ title: DEVICE_ACTIVE_COOLING
 author: windows-driver-content
 description: The ActiveCooling callback routine engages or disengages a device's active-cooling function.
 old-location: kernel\activecooling.htm
-tech.root: kernel
+tech.root: battery
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -8,7 +8,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: kernel
+tech.root: ifsk
 ---
 
 # Ntnls.h header
@@ -17,6 +17,6 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header defines the NLS file formats and data types. For morinformation, see:
 
-- [Windows kernel](../_kernel/index.md)
+- [Installable file systems driver design guide](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/)

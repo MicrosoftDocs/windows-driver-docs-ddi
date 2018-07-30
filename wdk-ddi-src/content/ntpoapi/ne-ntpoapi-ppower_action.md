@@ -4,7 +4,7 @@ title: "*PPOWER_ACTION"
 author: windows-driver-content
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
-tech.root: wdf
+tech.root: kernel
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
