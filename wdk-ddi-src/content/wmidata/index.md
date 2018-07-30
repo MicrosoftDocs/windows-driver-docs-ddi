@@ -16,7 +16,7 @@ tech.root: kernel
 
 ## -description
 
+This header is used in providing kernel-mode Windows Management Instrumentation (WMI) extensions to WDM. For more information, see:
 
-This header is used by kernel. For more information, see:
+- [Implementing WMI](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/implementing-wmi)
 
-- [Windows kernel](../_kernel/index.md)
