@@ -8,7 +8,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: whea
+tech.root: kernel
 ---
 
 # Ntddk.h header

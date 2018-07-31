@@ -4,7 +4,7 @@ title: "_VPCI_WRITE_BLOCK_INPUT"
 author: windows-driver-content
 description: The VPCI_WRITE_BLOCK_INPUT structure is used in an IOCTL_VPCI_WRITE_BLOCK IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_write_block_input.htm
-tech.root: kernel
+tech.root: pci
 ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
