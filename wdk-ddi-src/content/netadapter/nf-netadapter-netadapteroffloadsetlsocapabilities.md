@@ -81,6 +81,8 @@ Client drivers typically call this method from within their [*EvtDevicePrepareHa
 
 [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md)
 
+[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT**](nf-netadapter-net_adapter_offload_lso_capabilities_init.md)
+
 [*EVT_NET_ADAPTER_OFFLOAD_SET_LSO*](nc-netadapter-evt_net_adapter_offload_set_lso.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
