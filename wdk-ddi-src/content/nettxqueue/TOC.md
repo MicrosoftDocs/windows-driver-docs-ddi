@@ -7,4 +7,3 @@
 ### [NetTxQueueInitAddPacketContextAttributes function](../nettxqueue/nf-nettxqueue-nettxqueueinitaddpacketcontextattributes.md)
 ### [NetTxQueueInitGetQueueId function](../nettxqueue/nf-nettxqueue-nettxqueueinitgetqueueid.md)
 ### [NetTxQueueNotifyMoreCompletedPacketsAvailable function](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md)
-### [NET_TXQUEUE_GET_PACKET_CONTEXT_TOKEN macro](../nettxqueue/nf-nettxqueue-net_txqueue_get_packet_context_token.md)

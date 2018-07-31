@@ -2,7 +2,7 @@
 UID: NF:nettxqueue.NetTxQueueGetPacketContextToken
 title: NetTxQueueGetPacketContextToken function
 author: windows-driver-content
-description: The NetTxQueueGetPacketContextToken method retrieves a NET_PACKET_CONTEXT_TOKEN for a NET_PACKET context on a transmit queue.
+description: The NetTxQueueGetPacketContextToken method retrieves a NET_PACKET_CONTEXT_TOKEN for a NET_PACKET context on a transmit queue. This method is reserved for NetAdapterCx. Client drivers must not call this method directly.
 ms.assetid: 073d6da4-96ae-4dbd-8aa5-fe12e465af33
 ms.author: windowsdriverdev
 ms.date: 07/13/2018
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 The **NetTxQueueGetPacketContextToken** method retrieves a **NET_PACKET_CONTEXT_TOKEN** for a [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) context on a transmit queue.
 
 > [!WARNING]
-> This method is reserved for NetAdapterCx. Client drivers must not call this method directly. Instead, they should call [NET_TXQUEUE_GET_PACKET_CONTEXT_TOKEN](nf-nettxqueue-net_txqueue_get_packet_context_token.md).
+> This method is reserved for NetAdapterCx. Client drivers must not call this method directly.
 
 ## -parameters
 

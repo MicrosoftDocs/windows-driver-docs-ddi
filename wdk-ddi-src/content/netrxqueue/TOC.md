@@ -7,5 +7,4 @@
 ### [NetRxQueueInitAddPacketContextAttributes function](../netrxqueue/nf-netrxqueue-netrxqueueinitaddpacketcontextattributes.md)
 ### [NetRxQueueInitGetQueueId function](../netrxqueue/nf-netrxqueue-netrxqueueinitgetqueueid.md)
 ### [NetRxQueueNotifyMoreReceivedPacketsAvailable function](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md)
-### [NET_RXQUEUE_GET_PACKET_CONTEXT_TOKEN macro](../netrxqueue/nf-netrxqueue-net_rxqueue_get_packet_context_token.md)
 ### [_NET_RXQUEUE_BUFFER_LAYOUT_HINT structure](../netrxqueue/ns-netrxqueue-_net_rxqueue_buffer_layout_hint.md)

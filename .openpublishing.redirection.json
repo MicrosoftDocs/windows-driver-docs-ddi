@@ -314,6 +314,16 @@
       "source_path": "wdk-ddi-src/content/storport/ns-storport-_hw_initialization_data.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_hw_initialization_data~r1",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-net_rxqueue_get_packet_context_token.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netrxqueue/nf-netrxqueue-netrxqueuegetpacketcontexttoken",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-net_txqueue_get_packet_context_token.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nettxqueue/nf-nettxqueue-nettxqueuegetpacketcontexttoken",
+      "redirect_document_id": true
     }
   ]
 }
