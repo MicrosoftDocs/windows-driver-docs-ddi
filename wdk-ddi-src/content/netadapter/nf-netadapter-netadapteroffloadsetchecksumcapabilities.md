@@ -71,8 +71,7 @@ This method does not return a value.
 
 ## -remarks
 
-> [!IMPORTANT]
-> Client drivers must call this method *before* calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
