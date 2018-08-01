@@ -51,7 +51,7 @@ req.typenames:
 
 
 
-The <b>IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</b> control code configures the serial port to use the default hardware settings for the serial controller device. These settings are obtained from the ACPI resource descriptor for the serial controller device. For more information, see the [ACPI 5.0 specification](http://www.uefi.org/specifications).
+The <b>IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</b> control code configures the serial port to use the default hardware settings for the serial controller device. These settings are obtained from the ACPI resource descriptor for the serial controller device. For more information, see the [ACPI 5.0 specification](https://www.uefi.org/specifications).
 
 
 

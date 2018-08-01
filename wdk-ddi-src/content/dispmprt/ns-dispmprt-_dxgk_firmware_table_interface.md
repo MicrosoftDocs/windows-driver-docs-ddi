@@ -188,7 +188,7 @@ The raw SMBIOS firmware table provider.
 
 The identifier of the firmware table. This identifier is in little-endian format, so you must reverse the characters in the string. 
 
-For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](http://www.uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
+For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](https://www.uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -333,7 +333,7 @@ The raw SMBIOS firmware table provider.
 
 The identifier of the firmware table. This identifier is in little-endian format, so you must reverse the characters in the string. 
 
-For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](http://www.uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
+For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](https://www.uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
