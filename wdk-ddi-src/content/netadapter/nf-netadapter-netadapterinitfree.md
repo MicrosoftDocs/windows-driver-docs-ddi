@@ -2,22 +2,22 @@
 UID: NF:netadapter.NetAdapterInitFree
 title: NetAdapterInitFree function
 author: windows-driver-content
-description: TBD
+description: The NetAdapterInitFree method deallocates a NETADAPTER_INIT structure.
 ms.assetid: 45a6b6cb-93b5-4b23-8931-00339b0f85ae
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/01/2018
 ms.topic: function
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
 req.include-header:
-req.target-type:
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.27
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	LibDef
 api_location: 
--	
+-	netadaptercxstub.lib
 api_name: 
 -	NetAdapterInitFree
 product: Windows
@@ -44,15 +44,37 @@ targetos: Windows
 
 ## -description
 
-TBD
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1809.
+
+The **NetAdapterInitFree** method deallocates a NETADAPTER_INIT structure.
 
 ## -parameters
 
 ### -param AdapterInit
-TBD
+
+A pointer to a NETADAPTER_INIT structure.
 
 ## -returns
-This function returns VOID.
+
+This method does not return a value.
+
 ## -remarks
 
+If a client driver receives a NETADAPTER_INIT structure from a call to [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) or [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md), and if the driver subsequently encounters an error when it calls a NETADAPTEr object initialization function or [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md), the driver must call **NetAdapterInitFree**.
+
+Client drivers must not call **NetAdapterInitFree** after a successful call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+
+For more information and a code example about calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md), see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
+
 ## -see-also
+
+ [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md)
+
+[**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md)
+
+[**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
+
+[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)

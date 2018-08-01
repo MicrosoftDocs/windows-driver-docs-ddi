@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterCreate
 title: NetAdapterCreate function
 author: windows-driver-content
-description: Creates a net adapter object.
+description: Creates a NETADAPTER object.
 ms.assetid: cc03535e-1e57-483f-93af-950f5fc08d36
 ms.author: windowsdriverdev
 ms.date: 07/11/2018
@@ -51,20 +51,20 @@ req.product: Windows 10 or later.
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-Creates a net adapter object.
+Creates a NETADAPTER object.
 
 ## -parameters
 
-### -param Device
-A pointer to a **NETADAPTER_INIT** structure that the client driver previously received from a call to [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md).
+### -param AdapterInit
+
+A pointer to a **NETADAPTER_INIT** structure that the client driver previously received from a call to [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md) or [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md).
 
 ### -param AdapterAttributes
-A pointer to a caller-allocated [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. The structure’s **ParentObject** must be NULL. The parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Configuration
-A pointer to a caller-allocated [NET_ADAPTER_CONFIG](ns-netadapter-_net_adapter_config.md) structure. For more info, see [NET_ADAPTER_CONFIG_INIT](nf-netadapter-net_adapter_config_init.md).
+A pointer to a caller-allocated [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. The structure’s **ParentObject** must be NULL. The parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param Adapter
+
 A pointer to a location that receives a handle to the new NETADAPTER object.
 
 ## -returns
@@ -73,11 +73,9 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -remarks
 
-After it has called [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), the client typically calls **NetAdapterCreate** from within its *[EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)* routine.
+After it has called [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), the client typically calls **NetAdapterCreate** from within its [*EvtDriverDeviceAdd*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) routine.
 
 The NETADAPTER object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
 
-
 ## -see-also
 
-[NET_ADAPTER_CONFIG_INIT](nf-netadapter-net_adapter_config_init.md)

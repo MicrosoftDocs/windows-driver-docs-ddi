@@ -2,22 +2,22 @@
 UID: NF:netadapter.NetAdapterInitAllocate
 title: NetAdapterInitAllocate function
 author: windows-driver-content
-description: TBD
+description: The NetAdapterInitAllocate method allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object.
 ms.assetid: ba1d5634-2c2b-4680-8212-5e76193d21a8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/01/2018
 ms.topic: function
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
 req.include-header:
-req.target-type:
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.27
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	LibDef
 api_location: 
--	
+-	netadaptercxstub.lib
 api_name: 
 -	NetAdapterInitAllocate
 product: Windows
@@ -44,15 +44,33 @@ targetos: Windows
 
 ## -description
 
-TBD
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1809.
+
+The **NetAdapterInitAllocate** method allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object.
 
 ## -parameters
 
 ### -param Device
-TBD
+
+A handle to a framework device object.
 
 ## -returns
-This function returns PNETADAPTER_INIT.
+
+Returns a pointer to a framework-allocated NETADAPTER_INIT structure if the operation succeeds. Otherwise, this method returns **NULL**.
+
 ## -remarks
 
+A client driver must call **NetAdapterInitAllocate** to obtain a NETADAPTER_INIT structure that it can pass to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+
+For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization). Note that the example uses [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) instead of **NetAdapterInitAllocate**, but the procedure is the same.
+
 ## -see-also
+
+[**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
+
+[**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md)
+
+[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
