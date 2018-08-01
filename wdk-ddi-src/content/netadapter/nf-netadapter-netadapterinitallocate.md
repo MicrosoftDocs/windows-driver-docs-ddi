@@ -63,14 +63,21 @@ Returns a pointer to a framework-allocated NETADAPTER_INIT structure if the oper
 
 ## -remarks
 
-A client driver must call **NetAdapterInitAllocate** to obtain a NETADAPTER_INIT structure that it can pass to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+A client driver must call **NetAdapterInitAllocate** to obtain a NETADAPTER_INIT structure that it can pass to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md). 
+
+> [!IMPORTANT]
+> Client drivers call [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) for a network interface card (NIC)'s default/primary NETADAPTER object, then call **NetAdapterInitAllocate** for subsequent NETADAPTER objects if required.
+
+After **NetAdapterInitAllocate** succeeds, client drivers call **NetAdapterInitSetXxx** methods to set further initialization attributes for the NETADAPTER. If the driver encounters an error after **NetAdapterInitAllocate** succeeds but before [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md) succeeds, it must call [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md) to deallocate the NETADAPTER_INIT object.
 
 For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization). Note that the example uses [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) instead of **NetAdapterInitAllocate**, but the procedure is the same.
 
 ## -see-also
 
+[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
+
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
-[**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md)
+[**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md)
 
-[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
+[**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md)
