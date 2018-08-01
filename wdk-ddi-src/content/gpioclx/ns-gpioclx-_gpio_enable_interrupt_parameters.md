@@ -118,7 +118,7 @@ The debounce time in units of 10 microseconds. For example, a debounce time of 5
 
 ### -field VendorData
 
-A pointer to a caller-allocated buffer that contains vendor-defined data for this GPIO pin. This member is optional and is set to NULL if no vendor-defined data is available. For more information about vendor-defined data, see the description of the <i>GPIO connection descriptor</i> in revision 5.0 of the Advanced Configuration and Power Interface specification (the ACPI 5.0 specification) at the <a href="http://www.acpi.info">ACPI</a> website.
+A pointer to a caller-allocated buffer that contains vendor-defined data for this GPIO pin. This member is optional and is set to NULL if no vendor-defined data is available. For more information about vendor-defined data, see the description of the <i>GPIO connection descriptor</i> in the [ACPI 5.0 specification](http://www.uefi.org/specifications).
 
 
 ### -field VendorDataLength

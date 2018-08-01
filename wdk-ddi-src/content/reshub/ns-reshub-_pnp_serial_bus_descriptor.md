@@ -79,7 +79,7 @@ typedef struct _PNP_SERIAL_BUS_DESCRIPTOR {
 
 ### -field Tag
 
-The serial bus type. This member is set to 0x8e for a serial bus (I2C, SPI, or UART) connection. For more information, see the description of the serial bus connection descriptor in revision 5.0 of the the Advanced Configuration and Power Interface Specification (ACPI 5.0) at the <a href="http://www.acpi.info">ACPI</a> website.
+The serial bus type. This member is set to 0x8e for a serial bus (I2C, SPI, or UART) connection. For more information, see the description of the serial bus connection descriptor in the [ACPI 5.0 specification](http://www.uefi.org/specifications).
 
 
 ### -field Length
