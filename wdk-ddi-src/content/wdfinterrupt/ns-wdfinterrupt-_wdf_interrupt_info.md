@@ -72,7 +72,7 @@ This member is reserved for future use.
 
 ### -field TargetProcessorSet
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed value that specifies the interrupt's processor affinity.
+A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies the interrupt's processor affinity.
 
 
 ### -field Reserved2
@@ -134,7 +134,7 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 
