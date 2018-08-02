@@ -69,23 +69,16 @@ The size of structure represented as a LONG (32-bit) value.
 
 
 ### -field Flags.DisableLpmForAllDownstreamDevices
-
+Indicates that LPM should be disabled for all devices/hubs behind the this hub.
  
-
 
 ### -field Flags.HubIsHighSpeedCapable
-
- 
-
-
-### -field DisableLpmForAllDownstreamDevices
-
-Indicates that all devices behind the hub must be disabled.
-
-
-### -field HubIsHighSpeedCapable
-
 Indicates that the hub is high-speed capable.
+
+### -field Flags.DisableUpdateMaxExitLatency
+Indicates that UpdateMaxExitLatency is disabled for all devices/hubs behind the this hub. 
+
+
 
 
 ## -see-also
