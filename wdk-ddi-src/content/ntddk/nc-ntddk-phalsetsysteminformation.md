@@ -2,7 +2,7 @@
 UID: NC:ntddk.pHalSetSystemInformation
 title: pHalSetSystemInformation
 author: windows-driver-content
-description: 
+description: Register MCA driver with the HAL. 
 ms.assetid: fb9491a9-7fbe-4a7f-9794-06d5020540ef
 ms.author: windowsdriverdev
 ms.date: 
@@ -68,11 +68,13 @@ pHalSetSystemInformation
 
 ## -parameters
 
-### -param InformationClass: 
+### -param InformationClass
 [in] The HalMcaRegisterDriver to register MCA driver's callback routines with the HAL. There are two callback routines: ExceptionCallback and DpcCallback. The ExceptionCallback routine is called during the Machine Check Exception (MCE) handler nonrestartable error processing, before it issues a bug check for the system. The DpcCallback routine is called when the MCA error is restartable. For Itanium systems, specify HalCmcRegisterDriver to register a driver's Corrected CPU Error DpcCallback routine, and HalCpeRegisterDriver to register a driver's Corrected Platform Error DpcCallback.
-### -param BufferSize: 
+
+### -param BufferSize
 [in] The size, in bytes, of the buffer that the caller supplies.
-### -param Buffer: 
+
+### -param Buffer
 [out] A pointer to a caller-supplied buffer of type MCA_DRIVER_INFO, which is defined as follows.
 
 ```
