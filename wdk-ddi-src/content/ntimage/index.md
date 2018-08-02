@@ -17,6 +17,6 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+ This header file that describes all image structures. For more information, see IMAGE_* structures under [Winnt.h] (https://docs.microsoft.com/en-us/windows/desktop/api/winnt/)
 
-- [Windows kernel](../_kernel/index.md)
+
