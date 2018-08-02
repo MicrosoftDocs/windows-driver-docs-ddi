@@ -85,6 +85,7 @@ Defines values for power transitions reasons for a monitor.
 ### -field MonitorRequestReasonPdcSignalHeyCortana : 
 ### -field MonitorRequestReasonPdcSignalHolographicShell : 
 ### -field MonitorRequestReasonPdcSignalFingerprint : 
+### -field MonitorRequestReasonDirectedDrips :
 ### -field MonitorRequestReasonMax : 
 
 ## -remarks

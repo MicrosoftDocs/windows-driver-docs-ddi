@@ -101,7 +101,8 @@ Opaque member. Reserved for system use.
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.KernelSoftReboot
 
  
-
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DirectedDripsTransition
+a Directed DRIPS transition.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Reserved2
 
