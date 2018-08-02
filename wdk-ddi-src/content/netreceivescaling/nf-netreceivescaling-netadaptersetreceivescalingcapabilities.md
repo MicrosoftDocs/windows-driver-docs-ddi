@@ -61,9 +61,8 @@ A pointer to a driver-allocated and initialized [NET_ADAPTER_RECEIVE_SCALING_CAP
 This method does not return a value.
 
 ## -remarks
-The client driver must call this method from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)* event callback routine.
 
-
+The client driver must call this method when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
 [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md)

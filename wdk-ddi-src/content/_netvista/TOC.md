@@ -1179,7 +1179,6 @@
 ### [EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD callback function](../netadapter/nc-netadapter-evt_net_adapter_preview_protocol_offload.md)
 ### [EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN callback function](../netadapter/nc-netadapter-evt_net_adapter_preview_wake_pattern.md)
 ### [EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function](../netadapter/nc-netadapter-evt_net_adapter_return_rx_buffer.md)
-### [EVT_NET_ADAPTER_SET_CAPABILITIES callback function](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)
 ### [NET_ADAPTER_DMA_CAPABILITIES_INIT function](../netadapter/nf-netadapter-net_adapter_dma_capabilities_init.md)
 ### [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function](../netadapter/nf-netadapter-net_adapter_link_layer_address_init.md)
 ### [NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function](../netadapter/nf-netadapter-net_adapter_link_layer_capabilities_init.md)

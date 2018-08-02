@@ -6,7 +6,6 @@
 ### [EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD callback function](../netadapter/nc-netadapter-evt_net_adapter_preview_protocol_offload.md)
 ### [EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN callback function](../netadapter/nc-netadapter-evt_net_adapter_preview_wake_pattern.md)
 ### [EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function](../netadapter/nc-netadapter-evt_net_adapter_return_rx_buffer.md)
-### [EVT_NET_ADAPTER_SET_CAPABILITIES callback function](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)
 ### [_NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration](../netadapter/ne-netadapter-_net_adapter_auto_negotiation_flags.md)
 ### [_NET_ADAPTER_MEDIA_SPECIFIC_WAKEUP_EVENTS_FLAGS enumeration](../netadapter/ne-netadapter-_net_adapter_media_specific_wakeup_events_flags.md)
 ### [_NET_ADAPTER_PAUSE_FUNCTIONS enumeration](../netadapter/ne-netadapter-_net_adapter_pause_functions.md)
