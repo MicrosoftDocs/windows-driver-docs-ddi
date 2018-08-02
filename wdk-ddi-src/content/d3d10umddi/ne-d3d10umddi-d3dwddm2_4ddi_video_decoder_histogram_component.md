@@ -29,7 +29,8 @@ apilocation:
 -	d3d10umddi.h
 apiname:
 -	D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

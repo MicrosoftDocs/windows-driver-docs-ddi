@@ -28,7 +28,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

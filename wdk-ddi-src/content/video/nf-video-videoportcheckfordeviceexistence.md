@@ -134,7 +134,7 @@ Use the value in the <i>SubSystemID</i> parameter in checking for the new device
 
 
 
-For more information about PCI identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. 
+For more information about PCI identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. 
 
 
 

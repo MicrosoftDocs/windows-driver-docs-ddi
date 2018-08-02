@@ -31,7 +31,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	_DXGK_DIAGTYPE_NOTIFICATIONS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

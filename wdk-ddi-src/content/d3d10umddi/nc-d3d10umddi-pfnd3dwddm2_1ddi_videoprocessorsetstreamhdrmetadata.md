@@ -34,7 +34,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

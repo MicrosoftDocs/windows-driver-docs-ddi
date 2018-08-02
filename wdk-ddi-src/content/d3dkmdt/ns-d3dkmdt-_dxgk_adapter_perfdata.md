@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_DXGK_ADAPTER_PERFDATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

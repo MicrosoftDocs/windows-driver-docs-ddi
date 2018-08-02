@@ -28,7 +28,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGK_SYNC_LOCK_STYLE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -31,7 +31,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	_DXGK_DIAGNOSTIC_CATEGORIES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

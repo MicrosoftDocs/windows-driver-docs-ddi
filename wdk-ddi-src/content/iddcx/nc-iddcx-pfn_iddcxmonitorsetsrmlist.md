@@ -34,7 +34,8 @@ apilocation:
 -	iddcx.h
 apiname:
 -	*PFN_IDDCXMONITORSETSRMLIST
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

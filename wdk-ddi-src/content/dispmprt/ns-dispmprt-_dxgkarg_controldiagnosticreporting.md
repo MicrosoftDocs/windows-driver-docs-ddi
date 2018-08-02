@@ -31,7 +31,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	_DXGKARG_CONTROLDIAGNOSTICREPORTING
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

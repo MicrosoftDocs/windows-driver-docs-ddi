@@ -28,7 +28,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_BACKLIGHT_OPTIMIZATION_LEVEL
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

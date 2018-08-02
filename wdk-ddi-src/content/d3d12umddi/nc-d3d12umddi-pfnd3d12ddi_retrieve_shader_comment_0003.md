@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

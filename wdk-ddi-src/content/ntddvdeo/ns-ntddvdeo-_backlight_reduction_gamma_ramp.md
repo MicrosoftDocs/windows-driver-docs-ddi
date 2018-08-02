@@ -31,7 +31,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_BACKLIGHT_REDUCTION_GAMMA_RAMP
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

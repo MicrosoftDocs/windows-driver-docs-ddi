@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_D3DKMT_WDDM_1_3_CAPS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

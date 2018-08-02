@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

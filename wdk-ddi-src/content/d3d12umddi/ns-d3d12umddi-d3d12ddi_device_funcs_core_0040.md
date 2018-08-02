@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_DEVICE_FUNCS_CORE_0040
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

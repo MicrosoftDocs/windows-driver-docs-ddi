@@ -29,7 +29,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

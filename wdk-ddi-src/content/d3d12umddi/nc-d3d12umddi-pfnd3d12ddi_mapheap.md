@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_MAPHEAP
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

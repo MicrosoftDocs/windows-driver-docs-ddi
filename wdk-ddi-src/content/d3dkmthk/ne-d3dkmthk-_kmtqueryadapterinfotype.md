@@ -28,7 +28,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_KMTQUERYADAPTERINFOTYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
