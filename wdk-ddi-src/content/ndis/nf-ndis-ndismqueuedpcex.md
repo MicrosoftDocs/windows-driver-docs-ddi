@@ -109,8 +109,7 @@ NDIS successfully scheduled a DPC for each target processor that is set in the b
       bit 0, NDIS scheduled a DPC for CPU 0. If NDIS sets bit 1, NDIS scheduled a DPC for CPU 1, and so
       on.
 
-If the driver requested a DPC for a CPU, and NDIS indicates that it did not schedule that DPC, the
-      DPC was not scheduled because a DPC was already scheduled for that CPU.
+If the driver requested a DPC for a CPU, and NDIS indicates that it did not schedule that DPC, then the DPC was not scheduled because the DPC that maps to this interrupt/processor pair was already scheduled for that CPU.
 
 
 
