@@ -4,7 +4,7 @@ title: "_FILE_NAME_INFORMATION"
 author: windows-driver-content
 description: The FILE_NAME_INFORMATION structure is used as argument to the ZwQueryInformationFile and ZwSetInformationFile routines.
 old-location: kernel\file_name_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 04ec8e82-d74d-4827-8533-aa57e3638a45
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

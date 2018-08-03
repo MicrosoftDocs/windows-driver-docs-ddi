@@ -4,7 +4,7 @@ title: RtlUInt8Add function
 author: windows-driver-content
 description: Adds two values of type UINT8.
 old-location: kernel\rtluint8add.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E93C8C7A-13E5-4089-931C-C56055FA3C90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

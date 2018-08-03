@@ -4,7 +4,7 @@ title: IoQueryFileDosDeviceName function
 author: windows-driver-content
 description: The IoQueryFileDosDeviceName routine retrieves an MS-DOS device name for a file.
 old-location: ifsk\ioqueryfiledosdevicename.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

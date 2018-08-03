@@ -4,7 +4,7 @@ title: IoReportTargetDeviceChange function
 author: windows-driver-content
 description: The IoReportTargetDeviceChange routine notifies the PnP manager that a custom event has occurred on a device.
 old-location: kernel\ioreporttargetdevicechange.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b0107cb1-4828-4ede-813e-934b929c9874
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

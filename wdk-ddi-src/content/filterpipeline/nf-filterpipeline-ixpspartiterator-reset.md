@@ -4,7 +4,7 @@ title: IXpsPartIterator::Reset
 author: windows-driver-content
 description: The Reset method sets the iterator to the first element.
 old-location: print\ixpspartiterator_reset.htm
-old-project: print
+tech.root: print
 ms.assetid: afcdb59c-55aa-48e9-b920-1dee3d39a78f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

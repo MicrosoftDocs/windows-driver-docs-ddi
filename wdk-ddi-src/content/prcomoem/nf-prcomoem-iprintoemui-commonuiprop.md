@@ -4,7 +4,7 @@ title: IPrintOemUI::CommonUIProp
 author: windows-driver-content
 description: The IPrintOemUI::CommonUIProp method allows a user interface plug-in to modify an existing printer property sheet page.
 old-location: print\iprintoemui_commonuiprop.htm
-old-project: print
+tech.root: print
 ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

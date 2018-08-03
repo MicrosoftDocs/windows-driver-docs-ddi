@@ -4,7 +4,7 @@ title: PoRegisterPowerSettingCallback function
 author: windows-driver-content
 description: The PoRegisterPowerSettingCallback routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
 old-location: kernel\poregisterpowersettingcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a4dd91c4-f6b1-4751-a2be-9b4872fa7bb2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

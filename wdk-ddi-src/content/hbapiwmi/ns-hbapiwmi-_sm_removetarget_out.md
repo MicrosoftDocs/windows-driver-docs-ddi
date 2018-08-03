@@ -4,7 +4,7 @@ title: "_SM_RemoveTarget_OUT"
 author: windows-driver-content
 description: The SM_RemoveTarget_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b93f999e-471a-4f02-a6f2-e21386b9e289
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

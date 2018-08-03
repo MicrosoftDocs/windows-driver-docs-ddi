@@ -4,7 +4,7 @@ title: IOCTL_ACPI_EVAL_METHOD_V2_EX
 author: windows-driver-content
 description: The IOCTL_ACPI_EVAL_METHOD_V2_EX control code synchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_eval_method_v2_ex.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 0BD23D27-D9B0-462D-A38A-BC96A089E60F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe::GetType
 author: windows-driver-content
 description: The GetType method retrieves the type of a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_gettype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c8d76d5b-f388-4e22-ba57-d299ab3dee80
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

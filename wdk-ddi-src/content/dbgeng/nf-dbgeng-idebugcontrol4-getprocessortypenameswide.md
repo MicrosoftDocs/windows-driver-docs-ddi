@@ -4,10 +4,10 @@ title: IDebugControl4::GetProcessorTypeNamesWide
 author: windows-driver-content
 description: The GetProcessorTypeNamesWide method returns the full name and abbreviated name of the specified processor type.
 old-location: debugger\getprocessortypenameswide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 24787963-98c6-4c32-9ba8-2cd4778f8436
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetProcessorTypeNamesWide, GetProcessorTypeNamesWide method [Windows Debugging], GetProcessorTypeNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetProcessorTypeNamesWide method, IDebugControl4.GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, debugger.getprocessortypenameswide
 ms.prod: windows-hardware
 ms.technology: windows-devices

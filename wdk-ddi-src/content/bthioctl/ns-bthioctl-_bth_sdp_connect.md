@@ -4,7 +4,7 @@ title: "_BTH_SDP_CONNECT"
 author: windows-driver-content
 description: The BTH_SDP_CONNECT structure contains input and output information about a connection between the local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output buffer of IOCTL_BTH_SDP_CONNECT.
 old-location: bltooth\bth_sdp_connect.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 328dca02-9276-4a3d-acac-e00721863243
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,10 +4,10 @@ title: "_D3DDDIARG_CREATEQUERY"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEQUERY structure identifies a query to create.
 old-location: display\d3dddiarg_createquery.htm
-old-project: display
+tech.root: display
 ms.assetid: f80224c6-9046-4471-b6c6-eb14f02fc51f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, _D3DDDIARG_CREATEQUERY, d3dumddi/D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

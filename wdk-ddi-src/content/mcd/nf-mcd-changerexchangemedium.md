@@ -4,7 +4,7 @@ title: ChangerExchangeMedium function
 author: windows-driver-content
 description: ChangerExchangeMedium handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_EXCHANGE_MEDIUM.
 old-location: storage\changerexchangemedium.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

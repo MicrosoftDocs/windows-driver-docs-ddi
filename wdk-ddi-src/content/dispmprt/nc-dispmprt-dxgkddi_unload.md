@@ -4,10 +4,10 @@ title: DXGKDDI_UNLOAD
 author: windows-driver-content
 description: The DxgkDdiUnload function frees any resources allocated during execution of the display miniport driver's DriverEntry function.
 old-location: display\dxgkddiunload.htm
-old-project: display
+tech.root: display
 ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_UNLOAD, DXGKDDI_UNLOAD callback, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPnpCallbackSelfManagedIo::OnSelfManagedIoInit
 author: windows-driver-content
 description: The OnSelfManagedIoInit method initializes a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioinit.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 41b12fef-dbc7-4b91-a2d3-9fb1aafff237
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

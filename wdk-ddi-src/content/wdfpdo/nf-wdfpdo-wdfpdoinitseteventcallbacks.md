@@ -4,7 +4,7 @@ title: WdfPdoInitSetEventCallbacks function
 author: windows-driver-content
 description: The WdfPdoInitSetEventCallbacks method registers a bus driver's event callback functions.
 old-location: wdf\wdfpdoinitseteventcallbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7ce47eab-c1d7-4a0d-accb-c8a925aa3d1d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IKsPinPipe::KsGetPipeAllocatorFlag
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipeallocatorflag.htm
-old-project: stream
+tech.root: stream
 ms.assetid: EBF5B615-A7B1-4B44-855C-7956334AAF75
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

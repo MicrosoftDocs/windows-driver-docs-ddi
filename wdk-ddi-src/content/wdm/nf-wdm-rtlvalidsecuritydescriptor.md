@@ -4,7 +4,7 @@ title: RtlValidSecurityDescriptor function
 author: windows-driver-content
 description: The RtlValidSecurityDescriptor routine checks a given security descriptor's validity.
 old-location: kernel\rtlvalidsecuritydescriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 50d07154-a6d2-4b95-822f-33c0f37ece2f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

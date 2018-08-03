@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_KEYBOARD_CONNECT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_KEYBOARD_CONNECT request connects the Kbdclass service to the keyboard device.
 old-location: hid\ioctl_internal_keyboard_connect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 90014194-e790-4b23-9f3d-f5879dd94063
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

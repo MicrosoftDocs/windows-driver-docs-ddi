@@ -4,7 +4,7 @@ title: FltFreeFileLock function
 author: windows-driver-content
 description: The FltFreeFileLock routine uninitializes and frees an initialized FILE_LOCK structure.
 old-location: ifsk\fltfreefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bcf2ac97-0aa2-4464-a045-b98866351243
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

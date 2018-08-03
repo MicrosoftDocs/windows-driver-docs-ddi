@@ -4,10 +4,10 @@ title: ExtRemoteData::Write
 author: windows-driver-content
 description: The Write method writes the data cached by the ExtRemoteData object to the region of memory on the target, represented by this object.
 old-location: debugger\extremotedata_write.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 970c725b-4ea0-42b7-a373-83cb463cd80d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData class [Windows Debugging],Write method, ExtRemoteData.Write, ExtRemoteData::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_write
 ms.prod: windows-hardware
 ms.technology: windows-devices

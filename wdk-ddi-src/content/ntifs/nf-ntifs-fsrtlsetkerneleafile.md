@@ -4,7 +4,7 @@ title: FsRtlSetKernelEaFile function
 author: windows-driver-content
 description: The routine FsRtlQueryKernelEaFile is used to set, modify and/or delete extended attribute (EA) values for a file and synchronously wait for it to complete, returning a result.
 old-location: ifsk\fsrtlsetkerneleafile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: FsRtlAreThereCurrentOrInProgressFileLocks function
 author: windows-driver-content
 description: TheFsRtlAreThereCurrentOrInProgressFileLocks routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
 old-location: ifsk\fsrtlaretherecurrentorinprogressfilelocks.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

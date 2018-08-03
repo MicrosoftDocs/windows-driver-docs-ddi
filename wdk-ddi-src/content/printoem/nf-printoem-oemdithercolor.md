@@ -4,7 +4,7 @@ title: OEMDitherColor function
 author: windows-driver-content
 description: The OEMDitherColor function requests the device to create a brush dithered against a device palette.
 old-location: print\oemdithercolor.htm
-old-project: print
+tech.root: print
 ms.assetid: bf8c2140-8917-42af-86bf-c2f25b0c42b7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

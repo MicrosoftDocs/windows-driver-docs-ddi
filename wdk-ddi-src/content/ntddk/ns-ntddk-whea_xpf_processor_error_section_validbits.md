@@ -4,7 +4,7 @@ title: WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 author: windows-driver-content
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_XPF_PROCESSOR_ERROR_SECTION structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's VariableInfo member.
 old-location: whea\whea_xpf_processor_error_section_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: f6b18ffa-f784-4382-9861-4d92e2071ebf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
@@ -16,18 +16,18 @@ req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef

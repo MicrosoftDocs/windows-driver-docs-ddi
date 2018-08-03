@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_ENABLE_VDM
 author: windows-driver-content
 description: This IOCTL is not handled by video miniport drivers. It is handled entirely by the system-supplied video port driver.
 old-location: display\ioctl_video_enable_vdm.htm
-old-project: display
+tech.root: display
 ms.assetid: 45a5ab64-1b34-4f48-bbe3-285016e9c16e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_VDM, IOCTL_VIDEO_ENABLE_VDM control, IOCTL_VIDEO_ENABLE_VDM control code [Display Devices], Video_IOCTLs_d0e75fac-0604-49f5-9293-3455659ab821.xml, display.ioctl_video_enable_vdm, ntddvdeo/IOCTL_VIDEO_ENABLE_VDM
 ms.prod: windows-hardware
 ms.technology: windows-devices

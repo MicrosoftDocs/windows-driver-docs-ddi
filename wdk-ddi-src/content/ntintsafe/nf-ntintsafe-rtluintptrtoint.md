@@ -4,7 +4,7 @@ title: RtlUIntPtrToInt function
 author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type INT.
 old-location: kernel\rtluintptrtoint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C33B717D-0874-47AB-8503-D6F82F713CBF
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

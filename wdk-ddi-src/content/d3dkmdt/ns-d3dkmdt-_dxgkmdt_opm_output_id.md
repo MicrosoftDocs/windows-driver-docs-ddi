@@ -4,10 +4,10 @@ title: "_DXGKMDT_OPM_OUTPUT_ID"
 author: windows-driver-content
 description: The DXGKMDT_OPM_OUTPUT_ID structure identifies the output connector.
 old-location: display\dxgkmdt_opm_output_id.htm
-old-project: display
+tech.root: display
 ms.assetid: c7b2e4ba-7f76-474d-9752-0934898cac09
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKMDT_OPM_OUTPUT_ID, DXGKMDT_OPM_OUTPUT_ID structure [Display Devices], DmStructs_b0696fe6-3647-4a09-9817-578d4cfbf60a.xml, _DXGKMDT_OPM_OUTPUT_ID, d3dkmdt/DXGKMDT_OPM_OUTPUT_ID, display.dxgkmdt_opm_output_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

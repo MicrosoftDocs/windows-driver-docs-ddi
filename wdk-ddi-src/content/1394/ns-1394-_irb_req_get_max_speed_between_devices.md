@@ -4,7 +4,7 @@ title: "_IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES"
 author: windows-driver-content
 description: This structure contains the fields necessary in order for the Bus driver to carry out a GetMaxSpeedBetweenDevices request.
 old-location: ieee\irb_req_get_max_speed_between_devices.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 7B296D94-32DB-4190-935F-F1CC5F566706
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

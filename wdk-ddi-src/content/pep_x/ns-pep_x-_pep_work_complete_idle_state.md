@@ -4,7 +4,7 @@ title: "_PEP_WORK_COMPLETE_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_WORK_COMPLETE_IDLE_STATE structure identifies a component that the platform extension plug-in (PEP) has prepared for a transition to a new Fx power state.
 old-location: kernel\pep_work_complete_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6065A77F-5E80-4D3D-8EF1-4D336505122A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

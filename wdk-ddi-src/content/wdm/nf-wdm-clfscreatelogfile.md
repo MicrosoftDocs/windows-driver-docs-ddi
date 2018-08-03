@@ -4,7 +4,7 @@ title: ClfsCreateLogFile function
 author: windows-driver-content
 description: The ClfsCreateLogFile routine creates or opens a CLFS stream. If necessary, ClfsCreateLogFile also creates the underlying physical log that holds the stream's records.
 old-location: kernel\clfscreatelogfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 297f7b03-efd0-4e9c-a758-1a3b5b89511d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

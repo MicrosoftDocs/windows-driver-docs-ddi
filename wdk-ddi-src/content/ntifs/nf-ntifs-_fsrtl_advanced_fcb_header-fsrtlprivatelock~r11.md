@@ -4,7 +4,7 @@ title: FsRtlPrivateLock function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlprivatelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0f6b5bd-991c-403c-9bda-82960b356ca9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

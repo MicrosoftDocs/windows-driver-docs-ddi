@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
 author: windows-driver-content
 description: The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the specified operating mode of a serial device.
 old-location: serports\ioctl_serial_internal_restore_settings.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 55c56436-ac59-4095-a9f3-f36092db19c0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

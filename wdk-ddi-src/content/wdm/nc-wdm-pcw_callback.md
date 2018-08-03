@@ -4,7 +4,7 @@ title: PCW_CALLBACK
 author: windows-driver-content
 description: Providers can implement a PCW_CALLBACK function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.
 old-location: devtest\pcwcallback.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 5058fc17-1016-45bc-a6ea-5e2458824e7b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

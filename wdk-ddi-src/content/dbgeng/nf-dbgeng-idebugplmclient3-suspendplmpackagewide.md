@@ -4,10 +4,10 @@ title: IDebugPlmClient3::SuspendPlmPackageWide
 author: windows-driver-content
 description: Suspends a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_suspendplmpackagewide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: B887CCD2-0747-483E-A4CF-632471AB19A2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],SuspendPlmPackageWide method, IDebugPlmClient3.SuspendPlmPackageWide, IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide
 ms.prod: windows-hardware
 ms.technology: windows-devices

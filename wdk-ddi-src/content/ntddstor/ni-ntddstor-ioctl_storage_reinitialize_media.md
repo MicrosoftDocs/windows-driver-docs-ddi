@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_REINITIALIZE_MEDIA
 author: windows-driver-content
 description: A driver can use the IOCTL_STORAGE_REINITIALIZE_MEDIA control code to reinitialize/erase a device.
 old-location: storage\ioctl_storage_reinitialize_media.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4ECF51C3-D098-49E2-A675-78066A15C221
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

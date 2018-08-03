@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
 author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure returns filter-specific data requested using the KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH property.
 old-location: stream\ksproperty_cameracontrol_focal_length_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bf236fb9-8aa6-4f80-a8e3-85adfedd1f49
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

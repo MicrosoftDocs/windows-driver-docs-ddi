@@ -4,7 +4,7 @@ title: "_KEY_NODE_INFORMATION"
 author: windows-driver-content
 description: The KEY_NODE_INFORMATION structure defines the basic information available for a registry (sub)key.
 old-location: kernel\key_node_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2eed1a3d-fc40-4416-ad61-d82bf4fb69a1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

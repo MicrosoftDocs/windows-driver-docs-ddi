@@ -4,7 +4,7 @@ title: PINTERFACE_REFERENCE
 author: windows-driver-content
 description: The InterfaceReference routine increments the reference count on a driver-defined interface.
 old-location: kernel\interfacereference.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21737c1a-dd9d-4011-85c0-7ff871265ed5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

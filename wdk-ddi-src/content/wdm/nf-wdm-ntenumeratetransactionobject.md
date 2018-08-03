@@ -4,7 +4,7 @@ title: NtEnumerateTransactionObject function
 author: windows-driver-content
 description: The ZwEnumerateTransactionObject routine enumerates the KTM objects on a computer.
 old-location: kernel\zwenumeratetransactionobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RxpTrackReference function
 author: windows-driver-content
 description: RxpTrackReference tracks requests to reference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these reference requests can be accessed by the logging system and WMI.
 old-location: ifsk\rxptrackreference.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

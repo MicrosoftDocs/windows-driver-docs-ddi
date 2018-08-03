@@ -4,7 +4,7 @@ title: "_HBAFCPScsiEntry"
 author: windows-driver-content
 description: The HBAFCPScsiEntry structure is used with GetFcpTargetMapping method of the MSFC_HBAFCPInfo WMI Class to define a binding between the operating system information that uniquely identifies a logical unit and the fibre channel protocol (FCP) identifier that identifies the logical unit.
 old-location: storage\hbafcpscsientry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 718431f9-e4cc-4e79-84d3-a59f5399e711
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

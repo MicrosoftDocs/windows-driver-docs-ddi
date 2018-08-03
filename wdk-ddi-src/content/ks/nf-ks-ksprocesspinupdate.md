@@ -4,7 +4,7 @@ title: KsProcessPinUpdate function
 author: windows-driver-content
 description: The KsProcessPinUpdate function is called from within a filter-centric filter's AVStrMiniFilterProcess dispatch to update a process pin.
 old-location: stream\ksprocesspinupdate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

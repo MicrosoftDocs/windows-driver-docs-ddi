@@ -4,7 +4,7 @@ title: RtlLongPtrSub function
 author: windows-driver-content
 description: Subtracts one value of type LONG_PTR from another.
 old-location: kernel\rtllongptrsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

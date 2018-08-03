@@ -4,7 +4,7 @@ title: "_WHEA_MEMORY_ERROR_SECTION_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_MEMORY_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_memory_error_section_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 53ac65ff-56fe-411d-b0d1-174fc875a786
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

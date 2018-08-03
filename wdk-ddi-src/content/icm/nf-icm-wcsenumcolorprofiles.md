@@ -4,7 +4,7 @@ title: WcsEnumColorProfiles function
 author: windows-driver-content
 description: The WcsEnumColorProfiles function enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.
 old-location: print\wcsenumcolorprofiles.htm
-old-project: print
+tech.root: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

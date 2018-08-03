@@ -4,7 +4,7 @@ title: EXT_CALLBACK
 author: windows-driver-content
 description: An ExTimerCallback callback routine runs after an EX_TIMER timer object's time interval expires.
 old-location: kernel\extimercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4BE0A753-58A6-4868-9A04-B9A0710A02A5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

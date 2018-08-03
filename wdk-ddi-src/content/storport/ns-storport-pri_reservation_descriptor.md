@@ -4,7 +4,7 @@ title: PRI_RESERVATION_DESCRIPTOR
 author: windows-driver-content
 description: The PRI_RESERVATION_DESCRIPTOR structure is used to construct the PRI_RESERVATION_LIST structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 old-location: storage\pri_reservation_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

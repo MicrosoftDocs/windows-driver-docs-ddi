@@ -4,7 +4,7 @@ title: AtaPortDeviceReady function
 author: windows-driver-content
 description: The AtaPortDeviceReady routine informs the port driver that the indicated device is ready to accept new requests.
 old-location: storage\ataportdeviceready.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 65cbed1a-35f9-44f7-941a-ffc87cc79649
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

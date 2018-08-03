@@ -4,7 +4,7 @@ title: FltUnloadFilter function
 author: windows-driver-content
 description: A minifilter driver that has loaded a supporting minifilter driver by calling FltLoadFilter can unload the minifilter driver by calling FltUnloadFilter.
 old-location: ifsk\fltunloadfilter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 234907d8-d21e-4303-9508-0673afa471a6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

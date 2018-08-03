@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetModuleNameStringWide
 author: windows-driver-content
 description: The GetModuleNameStringWide method returns the name of the specified module.
 old-location: debugger\getmodulenamestringwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleNameStringWide method, IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

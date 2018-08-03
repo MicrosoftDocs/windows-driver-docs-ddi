@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT request disconnects an interrupt service routine (and an optional deferred port check service routine) that was connected by using an IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request.
 old-location: parports\ioctl_internal_parallel_disconnect_interrupt.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 9ca488b1-30d3-44dc-acb3-87d97e439393
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 # IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -70,7 +70,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\parallel\ns
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a PARALLEL_INTERRUPT_SERVICE_ROUTINE structure. 
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a PARALLEL_INTERRUPT_SERVICE_ROUTINE structure.
 
 
 ### -output-buffer
@@ -103,7 +103,7 @@ None.
 
 ### -status-block
 
-The <b>Information</b> member is set to zero. 
+The <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the generic status values returned by internal device control requests for parallel ports or to one of the following values:
 

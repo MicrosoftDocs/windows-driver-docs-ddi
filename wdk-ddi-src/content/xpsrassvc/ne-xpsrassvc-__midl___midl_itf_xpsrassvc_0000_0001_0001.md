@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_xpsrassvc_0000_0001_0001"
 author: windows-driver-content
 description: The XPSRAS_RENDERING_MODE enumeration specifies the rendering mode to be used by an XPS rasterizer.
 old-location: print\xpsras_rendering_mode_enumeration.htm
-old-project: print
+tech.root: print
 ms.assetid: 8b0b2bde-6ada-4a73-9737-7150605b79c8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

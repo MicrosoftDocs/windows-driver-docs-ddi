@@ -4,10 +4,10 @@ title: IddCxDeviceInitConfig function
 author: windows-driver-content
 description: Creates a WDFDEVICE initialization structure to allow indirect displays to be used.
 old-location: display\iddcxdeviceinitconfig.htm
-old-project: display
+tech.root: display
 ms.assetid: 4789e848-bb95-43e1-9768-8f94a475f9c8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IddCxDeviceInitConfig, IddCxDeviceInitConfig method [Display Devices], display.iddcxdeviceinitconfig, iddcx/IddCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

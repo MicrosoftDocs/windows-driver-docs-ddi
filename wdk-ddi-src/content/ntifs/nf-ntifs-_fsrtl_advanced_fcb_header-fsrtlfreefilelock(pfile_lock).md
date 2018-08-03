@@ -4,7 +4,7 @@ title: FsRtlFreeFileLock function
 author: windows-driver-content
 description: The FsRtlFreeFileLock routine uninitializes and frees a file lock structure.
 old-location: ifsk\fsrtlfreefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 191a7964-4359-4b7f-8760-74f537b0737f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -49,7 +49,7 @@ req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ## -description
 
 
-The <b>FsRtlFreeFileLock</b> routine uninitializes and frees a file lock structure. 
+The <b>FsRtlFreeFileLock</b> routine uninitializes and frees a file lock structure.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ None
 
 It is a programming error to call <b>FsRtlFreeFileLock</b> for a FILE_LOCK structure that has already been uninitialized by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547313">FsRtlUninitializeFileLock</a>.
 
-Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542969">FltFreeFileLock</a> instead of <b>FsRtlFreeFileLock</b>. 
+Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542969">FltFreeFileLock</a> instead of <b>FsRtlFreeFileLock</b>.
 
 
 

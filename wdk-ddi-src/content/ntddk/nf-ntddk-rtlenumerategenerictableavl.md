@@ -4,7 +4,7 @@ title: RtlEnumerateGenericTableAvl function
 author: windows-driver-content
 description: The RtlEnumerateGenericTableAvl routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictableavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 59EE8C41-1951-4EA7-BE49-B39C15B082E9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

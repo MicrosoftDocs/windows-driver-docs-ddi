@@ -4,7 +4,7 @@ title: ScsiPortQuerySystemTime function
 author: windows-driver-content
 description: The ScsiPortQuerySystemTime routine obtains the current system time.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportquerysystemtime.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

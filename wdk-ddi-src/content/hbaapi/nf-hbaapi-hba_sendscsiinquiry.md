@@ -4,7 +4,7 @@ title: HBA_SendScsiInquiry function
 author: windows-driver-content
 description: The HBA_SendScsiInquiry routine sends a SCSI inquiry command to the indicated remote port.
 old-location: storage\hba_sendscsiinquiry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6239f9b5-99e9-4ed7-b2a8-863c1784692b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

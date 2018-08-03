@@ -4,7 +4,7 @@ title: KSDPC_ITEM
 author: windows-driver-content
 description: The KSDPC_ITEM structure is used to store information related to any internal DPCs that might be used to generate event notification from a raised IRQL.
 old-location: stream\ksdpc_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7732b1a8-4f76-49d0-acbf-ce0be6b36858
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

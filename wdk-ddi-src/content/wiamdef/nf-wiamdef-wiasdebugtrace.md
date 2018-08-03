@@ -4,10 +4,10 @@ title: wiasDebugTrace function
 author: windows-driver-content
 description: This function prints a debug trace string in the Device Manager debug console.
 old-location: image\wiasdebugtrace.htm
-old-project: image
+tech.root: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

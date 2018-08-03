@@ -4,7 +4,7 @@ title: "_FILTER_VOLUME_BASIC_INFORMATION"
 author: windows-driver-content
 description: The caller-allocated FILTER_VOLUME_BASIC_INFORMATION structure contains basic information for a volume.
 old-location: ifsk\filter_volume_basic_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f6b5ccc2-81d6-47be-94dd-cf92842de51c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

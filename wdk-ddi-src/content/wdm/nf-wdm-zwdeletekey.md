@@ -4,7 +4,7 @@ title: ZwDeleteKey function
 author: windows-driver-content
 description: The ZwDeleteKey routine deletes an open key from the registry.
 old-location: kernel\zwdeletekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -70,7 +70,11 @@ Handle to the registry key to be deleted. The handle is created by a successful 
 
 <b>ZwDeleteKey</b> returns an NTSTATUS value. Possible return values include:
 
+- **STATUS_SUCCESS**
 
+- **STATUS_ACCESS_DENIED**
+
+- **STATUS_INVALID_HANDLE**
 
 
 ## -remarks

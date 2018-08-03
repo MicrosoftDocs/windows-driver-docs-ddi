@@ -4,7 +4,7 @@ title: "_OB_POST_DUPLICATE_HANDLE_INFORMATION"
 author: windows-driver-content
 description: The OB_POST_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPostCallback routine about a thread or process handle that has been duplicated.
 old-location: kernel\ob_post_duplicate_handle_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 780ace20-bb88-47fe-b504-dd6a5e903840
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

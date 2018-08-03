@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCONTROL_FRAME_RATES structure describes available frame rates in 100-nanosecond units.
 old-location: stream\ksproperty_videocontrol_frame_rates_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fbd45594-a7cb-4376-b05c-d1e09462c78c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

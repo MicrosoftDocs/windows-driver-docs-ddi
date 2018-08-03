@@ -4,7 +4,7 @@ title: FsRtlLookupLastMcbEntry function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtllookuplastmcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f0e36d06-c5c2-42d6-ac43-c3d72dd789c8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KSP_NODE_ESPID
 author: windows-driver-content
 description: The KSP_NODE_ESPID structure describes property and node type for an Entitlement Control Message (ECM) map node along with the packet identifier (PID) for an elementary stream that the ECM map node processes.
 old-location: stream\ksp_node_espid.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c5d0dbd8-bcce-436b-8fa7-bcb2b5c4ba59
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

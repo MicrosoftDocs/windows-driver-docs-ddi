@@ -4,7 +4,7 @@ title: "_IRB_REQ_SET_DEVICE_XMIT_PROPERTIES"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a SetDeviceXmitProperties request.
 old-location: ieee\irb_req_set_device_xmit_properties.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 1E99F892-CD7C-411D-8832-08F988B9F2D7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

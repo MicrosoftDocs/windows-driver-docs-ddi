@@ -4,7 +4,7 @@ title: GET_SET_DEVICE_DATA
 author: windows-driver-content
 description: The GetBusData routine reads data from the device's configuration space.
 old-location: kernel\getbusdata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F5BDB3DF-6AC9-424E-BC69-27071F3D3820
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

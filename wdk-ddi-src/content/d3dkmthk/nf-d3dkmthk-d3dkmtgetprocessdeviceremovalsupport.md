@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname:
 -	D3DKMTGetProcessDeviceRemovalSupport
-product: Windows
+product: 
+- Windows
 targetos: Windows
 
 ---

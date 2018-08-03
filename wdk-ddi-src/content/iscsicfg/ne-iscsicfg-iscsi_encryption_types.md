@@ -4,7 +4,7 @@ title: ISCSI_ENCRYPTION_TYPES
 author: windows-driver-content
 description: The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported.
 old-location: storage\iscsi_encryption_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

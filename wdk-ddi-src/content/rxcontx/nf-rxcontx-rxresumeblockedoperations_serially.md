@@ -4,7 +4,7 @@ title: RxResumeBlockedOperations_Serially function
 author: windows-driver-content
 description: RxResumeBlockedOperations_Serially wakes up the next waiting thread, if any, on the serialized blocking I/O queue.
 old-location: ifsk\rxresumeblockedoperations_serially.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8418ed17-39f0-4a3b-9eb5-453c7cc2ae98
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

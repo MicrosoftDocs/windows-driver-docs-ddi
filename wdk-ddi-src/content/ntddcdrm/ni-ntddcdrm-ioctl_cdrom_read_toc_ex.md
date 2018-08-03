@@ -4,7 +4,7 @@ title: IOCTL_CDROM_READ_TOC_EX
 author: windows-driver-content
 description: Queries the target device for the table of contents (TOC), the program memory area (PMA), and the absolute time in pregroove (ATIP).
 old-location: storage\ioctl_cdrom_read_toc_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 279df233-9164-4c80-b31f-1d4cdc1073fa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

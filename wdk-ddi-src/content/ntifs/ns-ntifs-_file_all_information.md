@@ -4,7 +4,7 @@ title: "_FILE_ALL_INFORMATION"
 author: windows-driver-content
 description: The FILE_ALL_INFORMATION structure is a container for several FILE_XXX_INFORMATION structures.
 old-location: kernel\file_all_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1b5f314c-6918-4cb8-a4e2-9ca0f4c5ea54
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

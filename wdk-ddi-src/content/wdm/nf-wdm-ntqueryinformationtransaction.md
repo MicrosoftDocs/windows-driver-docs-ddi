@@ -4,7 +4,7 @@ title: NtQueryInformationTransaction function
 author: windows-driver-content
 description: The ZwQueryInformationTransaction routine retrieves information about a specified transaction.
 old-location: kernel\zwqueryinformationtransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b4a4cc4b-8f23-4dd6-81d3-4cb2c861ba4f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

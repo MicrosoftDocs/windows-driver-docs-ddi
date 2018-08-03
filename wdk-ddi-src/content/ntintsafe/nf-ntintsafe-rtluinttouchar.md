@@ -4,7 +4,7 @@ title: RtlUIntToUChar function
 author: windows-driver-content
 description: Converts a value of type UINT to a value of type UCHAR.
 old-location: kernel\rtluinttouchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E47C3DA7-C9DD-47C6-A652-05D85989C85F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

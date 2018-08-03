@@ -4,7 +4,7 @@ title: HW_STARTIO
 author: windows-driver-content
 description: The Storport driver calls the HwStorStartIo routine one time for each incoming I/O request.
 old-location: storage\hwstorstartio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 73085ca7-a442-4c16-b1e3-6de048e7f1f7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

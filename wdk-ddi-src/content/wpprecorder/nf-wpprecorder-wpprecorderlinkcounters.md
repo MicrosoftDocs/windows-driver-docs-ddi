@@ -4,7 +4,7 @@ title: WppRecorderLinkCounters macro
 author: windows-driver-content
 description: The WppRecorderLinkCounters.
 old-location: devtest\wpprecorderlinkcounters.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: D8FF1E87-EB3E-491E-9649-076376C272B3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

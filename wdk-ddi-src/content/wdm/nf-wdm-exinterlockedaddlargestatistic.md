@@ -4,7 +4,7 @@ title: ExInterlockedAddLargeStatistic macro
 author: windows-driver-content
 description: The ExInterlockedAddLargeStatistic routine performs an interlocked addition of a ULONG increment value to a LARGE_INTEGER variable.
 old-location: kernel\exinterlockedaddlargestatistic.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f044a344-4768-499b-85b4-714062111b2c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

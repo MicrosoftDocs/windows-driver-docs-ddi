@@ -4,7 +4,7 @@ title: PMRX_CALLDOWN_CTX
 author: windows-driver-content
 description: TheMRxStart routine is called by RDBSS to start the network mini-redirector.
 old-location: ifsk\mrxstart.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b5985fc4-dd1a-455d-b2ad-3dc2dfec2e6e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

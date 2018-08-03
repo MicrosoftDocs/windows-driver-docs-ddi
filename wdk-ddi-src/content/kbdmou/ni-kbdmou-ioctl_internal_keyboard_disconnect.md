@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_KEYBOARD_DISCONNECT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_KEYBOARD_DISCONNECT request is completed with a status of STATUS_NOT_IMPLEMENTED. Note that a Plug and Play keyboard can be added or removed by the Plug and Play manager.
 old-location: hid\ioctl_internal_keyboard_disconnect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: ec1c2267-b92c-4d4c-86fa-f2b3ccb6aa40
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

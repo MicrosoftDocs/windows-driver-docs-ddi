@@ -4,7 +4,7 @@ title: ClfsFlushBuffers function
 author: windows-driver-content
 description: The ClfsFlushBuffers routine forces all log I/O blocks in a specified marshalling area to stable storage.
 old-location: kernel\clfsflushbuffers.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 70e93c8f-a23c-4399-9299-c2743d097ded
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

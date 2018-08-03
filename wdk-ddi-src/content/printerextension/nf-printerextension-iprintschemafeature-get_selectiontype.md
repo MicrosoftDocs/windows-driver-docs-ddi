@@ -4,7 +4,7 @@ title: IPrintSchemaFeature::get_SelectionType
 author: windows-driver-content
 description: Gets the selection type of the Feature.
 old-location: print\iprintschemafeature_selectiontype.htm
-old-project: print
+tech.root: print
 ms.assetid: FFFF05EF-CCD3-4298-A6DC-8FE998C53DEA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

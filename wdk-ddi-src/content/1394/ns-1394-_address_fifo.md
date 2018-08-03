@@ -4,7 +4,7 @@ title: "_ADDRESS_FIFO"
 author: windows-driver-content
 description: The ADDRESS_FIFO structure is an entry in a singly-linked list of MDLs used by the REQUEST_ALLOCATE_ADDRESS_RANGE IEEE 1394 bus request.
 old-location: ieee\address_fifo.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

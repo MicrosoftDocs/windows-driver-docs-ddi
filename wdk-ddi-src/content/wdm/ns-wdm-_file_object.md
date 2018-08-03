@@ -4,7 +4,7 @@ title: "_FILE_OBJECT"
 author: windows-driver-content
 description: The FILE_OBJECT structure is used by the system to represent a file object.
 old-location: kernel\file_object.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fa87a3e8-97d2-48c0-9722-2be011d145dd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

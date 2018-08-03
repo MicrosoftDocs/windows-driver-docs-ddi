@@ -4,7 +4,7 @@ title: WMI_QUERY_DATABLOCK_CALLBACK
 author: windows-driver-content
 description: The DpWmiQueryDataBlock routine returns either a single instance or all instances of a data block. This routine is required.
 old-location: kernel\dpwmiquerydatablock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

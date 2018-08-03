@@ -4,7 +4,7 @@ title: KeQueryMaximumProcessorCount function
 author: windows-driver-content
 description: The KeQueryMaximumProcessorCount routine returns the maximum number of processors.
 old-location: kernel\kequerymaximumprocessorcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

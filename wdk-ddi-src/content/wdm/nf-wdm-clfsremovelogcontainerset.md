@@ -4,7 +4,7 @@ title: ClfsRemoveLogContainerSet function
 author: windows-driver-content
 description: The ClfsRemoveLogContainerSet routine atomically removes a set of containers from a CLFS log.
 old-location: kernel\clfsremovelogcontainerset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b73a125f-3ab9-4ec6-a154-7b32334e95eb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

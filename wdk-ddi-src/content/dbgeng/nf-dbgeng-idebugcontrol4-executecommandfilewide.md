@@ -4,10 +4,10 @@ title: IDebugControl4::ExecuteCommandFileWide
 author: windows-driver-content
 description: The ExecuteCommandFileWide method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfilewide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], ExecuteCommandFileWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteCommandFileWide method, IDebugControl4.ExecuteCommandFileWide, IDebugControl4::ExecuteCommandFileWide, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices

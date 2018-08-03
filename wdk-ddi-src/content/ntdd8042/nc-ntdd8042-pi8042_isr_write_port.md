@@ -4,7 +4,7 @@ title: PI8042_ISR_WRITE_PORT
 author: windows-driver-content
 description: The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback.
 old-location: hid\pi8042_isr_write_port.htm
-old-project: hid
+tech.root: hid
 ms.assetid: deded3fb-f0b3-4af5-b8b4-03658293b0fc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

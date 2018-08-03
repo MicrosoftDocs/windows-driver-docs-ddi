@@ -4,7 +4,7 @@ title: FltGetRoutineAddress function
 author: windows-driver-content
 description: The FltGetRoutineAddress routine returns a pointer to a routine specified by the FltMgrRoutineName parameter.
 old-location: ifsk\fltgetroutineaddress.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

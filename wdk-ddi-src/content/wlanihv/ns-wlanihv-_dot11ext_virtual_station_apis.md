@@ -4,7 +4,7 @@ title: "_DOT11EXT_VIRTUAL_STATION_APIS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_virtual_station_apis.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5487375a-7d50-4ddd-a666-8727f45b85dc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,28 +75,28 @@ typedef struct _DOT11EXT_VIRTUAL_STATION_APIS {
 
 ### -field Dot11ExtRequestVirtualStation
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_request_virtual_station.md">
      Dot11ExtRequestVirtualStation</a> function.
 
 
 ### -field Dot11ExtReleaseVirtualStation
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
      Dot11ExtReleaseVirtualStation</a> function.
 
 
 ### -field Dot11ExtQueryVirtualStationProperties
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_query_virtual_station_properties.md">
      Dot11ExtQueryVirtualStationProperties</a> function.
 
 
 ### -field Dot11ExtSetVirtualStationAPProperties
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_virtual_station_ap_properties.md">
      Dot11ExtSetVirtualStationAPProperties</a> function.
 
@@ -106,15 +106,15 @@ A pointer to the
 
 
 The IHV Extensibility virtual station functions are not statically or dynamically linked to the IHV
-    Extensions DLL. Instead, when the operating system calls the 
+    Extensions DLL. Instead, when the operating system calls the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_virtual_station.md">
     Dot11ExtIhvInitVirtualStation</a> IHV handler function, it passes the list of pointers to the IHV
-    Extensibility functions through the 
+    Extensibility functions through the
     <i>pDot11ExtVSAPI</i> parameter.
 
 <div class="alert"><b>Note</b>  The IHV Extensions DLL is allowed to call the virtual station API functions that
-    the 
-    <i>pDot11ExtVSAPI</i> parameter points to only after the 
+    the
+    <i>pDot11ExtVSAPI</i> parameter points to only after the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_virtual_station.md">
     Dot11ExtIhvInitVirtualStation</a> function returns.</div>
 <div> </div>

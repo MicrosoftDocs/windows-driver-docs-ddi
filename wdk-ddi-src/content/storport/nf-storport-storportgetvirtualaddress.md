@@ -4,7 +4,7 @@ title: StorPortGetVirtualAddress function
 author: windows-driver-content
 description: The StorPortGetVirtualAddress routine obtains a virtual address that maps to the indicated physical address.
 old-location: storage\storportgetvirtualaddress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b7091dea-8a29-4ad3-a478-29bc28fd57ef
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: NdisMCmDeregisterSapComplete macro
 author: windows-driver-content
 description: NdisMCmDeregisterSapComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to deregister a SAP.
 old-location: netvista\ndismcmderegistersapcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, ndis/NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

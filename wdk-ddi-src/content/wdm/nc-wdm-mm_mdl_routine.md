@@ -4,7 +4,7 @@ title: MM_MDL_ROUTINE
 author: windows-driver-content
 description: A driver-supplied callback routine that is invoked after a memory descriptor list (MDL) is mapped by calling the MmMapMdl function.
 old-location: kernel\mm_mdl_routine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

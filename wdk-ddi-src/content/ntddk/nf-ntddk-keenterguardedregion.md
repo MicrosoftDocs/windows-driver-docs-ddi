@@ -4,7 +4,7 @@ title: KeEnterGuardedRegion function
 author: windows-driver-content
 description: The KeEnterGuardedRegion routine enters a guarded region, which disables all kernel-mode APC delivery to the current thread.
 old-location: kernel\keenterguardedregion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9a21495e-8a4d-4177-a2c5-b6a928d86fd9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

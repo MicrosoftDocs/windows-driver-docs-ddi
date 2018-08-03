@@ -4,7 +4,7 @@ title: "_PEP_POWER_CONTROL_REQUEST"
 author: windows-driver-content
 description: The PEP_POWER_CONTROL_REQUEST structure contains a request from a driver for a power control operation.
 old-location: kernel\pep_power_control_request.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

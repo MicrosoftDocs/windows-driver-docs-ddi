@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

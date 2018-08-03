@@ -4,10 +4,10 @@ title: FwpsInjectionHandleDestroy0 function
 author: windows-driver-content
 description: The FwpsInjectionHandleDestroy0 function destroys an injection handle that was previously created by calling the FwpsInjectionHandleCreate0 function.Note  FwpsInjectionHandleDestroy0 is a specific version of FwpsInjectionHandleDestroy.
 old-location: netvista\fwpsinjectionhandledestroy0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5a00917b-36e8-4e06-a001-d8e6ac2e3573
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

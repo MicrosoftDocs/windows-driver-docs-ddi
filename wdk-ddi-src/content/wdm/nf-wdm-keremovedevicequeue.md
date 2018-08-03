@@ -4,7 +4,7 @@ title: KeRemoveDeviceQueue function
 author: windows-driver-content
 description: The KeRemoveDeviceQueue routine removes an entry from the head of a specified device queue.
 old-location: kernel\keremovedevicequeue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9cad7d89-bcaa-47d6-b3e5-51653cbef318
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

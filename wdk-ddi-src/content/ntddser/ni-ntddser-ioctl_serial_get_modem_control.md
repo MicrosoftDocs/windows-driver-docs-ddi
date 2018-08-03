@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_MODEM_CONTROL
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_MODEM_CONTROL request returns the value of the modem control register in the serial controller.
 old-location: serports\ioctl_serial_get_modem_control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 4b3f52ee-8028-4cba-a8c7-4ba73b1fcab0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

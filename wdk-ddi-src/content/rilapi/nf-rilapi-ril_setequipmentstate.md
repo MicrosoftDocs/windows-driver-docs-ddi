@@ -4,10 +4,10 @@ title: RIL_SetEquipmentState function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setequipmentstate.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 52b76027-5562-403b-9993-40d3d9a33e35
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_setequipmentstate, rilapi/RIL_SetEquipmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices

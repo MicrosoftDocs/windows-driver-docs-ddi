@@ -4,7 +4,7 @@ title: "_RemovePersistentLogin_OUT"
 author: windows-driver-content
 description: The RemovePersistentLogin_OUT structure holds the output data for the RemovePersistentLogin method.
 old-location: storage\removepersistentlogin_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

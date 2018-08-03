@@ -4,7 +4,7 @@ title: StorPortReadPortBufferUlong macro
 author: windows-driver-content
 description: The StorPortReadPortBufferUlong routine reads a value from a specified port address.
 old-location: storage\storportreadportbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0b7366db-e80f-41f0-9a51-d1c139e948d8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

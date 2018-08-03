@@ -4,7 +4,7 @@ title: IPrintJobCollection::GetAt
 author: windows-driver-content
 description: Gets a pointer to an IPrintJob object.
 old-location: print\iprintjobcollection_getat.htm
-old-project: print
+tech.root: print
 ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

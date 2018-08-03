@@ -4,7 +4,7 @@ title: KsStreamPointerAdvanceOffsets function
 author: windows-driver-content
 description: The KsStreamPointerAdvanceOffsets function advances the offsets of StreamPointer.
 old-location: stream\ksstreampointeradvanceoffsets.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

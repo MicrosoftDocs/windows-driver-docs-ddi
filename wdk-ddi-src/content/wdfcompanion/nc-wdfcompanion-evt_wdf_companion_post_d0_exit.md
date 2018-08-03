@@ -4,7 +4,7 @@ title: EVT_WDF_COMPANION_POST_D0_EXIT
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_d0_exit.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 40ccd895-d01f-4057-a5d1-5274e9d9b913
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

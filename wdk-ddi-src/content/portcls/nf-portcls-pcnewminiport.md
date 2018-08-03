@@ -4,10 +4,10 @@ title: PcNewMiniport function
 author: windows-driver-content
 description: The PcNewMiniport function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys.
 old-location: audio\pcnewminiport.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices

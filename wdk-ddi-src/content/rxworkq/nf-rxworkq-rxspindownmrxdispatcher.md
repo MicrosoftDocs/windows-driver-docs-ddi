@@ -4,7 +4,7 @@ title: RxSpinDownMRxDispatcher function
 author: windows-driver-content
 description: RxSpinDownMRxDispatcher tears down the dispatcher context for a network mini-redirector.
 old-location: ifsk\rxspindownmrxdispatcher.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0ec10c43-df57-4661-9106-8edc6b76f5d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

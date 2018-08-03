@@ -4,10 +4,10 @@ title: PFND3DDDI_CREATECONTEXTVIRTUALCB
 author: windows-driver-content
 description: pfnCreateContextVirtualCb should be used with contexts that support virtual addressing.
 old-location: display\pfncreatecontextvirtualcb.htm
-old-project: display
+tech.root: display
 ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, PFND3DDDI_CREATECONTEXTVIRTUALCB callback, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

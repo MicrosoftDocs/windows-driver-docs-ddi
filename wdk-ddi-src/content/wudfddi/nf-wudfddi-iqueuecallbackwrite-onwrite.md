@@ -4,7 +4,7 @@ title: IQueueCallbackWrite::OnWrite
 author: windows-driver-content
 description: The OnWrite method is called to handle a write request when an application writes information to a device through the Microsoft Win32 WriteFile or WriteFileEx function.
 old-location: wdf\iqueuecallbackwrite_onwrite.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a87a9976-f844-4e69-82d3-2d426e359763
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_IDLE_STATES_V2"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_IDLE_STATES_V2 structure is used during processor initialization to query the platform extension plug-in (PEP) for a list of processor idle states that the processor supports.
 old-location: kernel\pep_ppm_query_idle_states_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0C225F3B-0D09-48FD-9BD3-F17D5E602698
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

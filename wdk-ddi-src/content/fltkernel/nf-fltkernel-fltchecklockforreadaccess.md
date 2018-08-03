@@ -4,7 +4,7 @@ title: FltCheckLockForReadAccess function
 author: windows-driver-content
 description: The FltCheckLockForReadAccess routine determines whether the caller has read access to a locked byte range of a file.
 old-location: ifsk\fltchecklockforreadaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 18920aaa-ae43-48ec-a06d-69ccaf75ebd8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

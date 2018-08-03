@@ -4,10 +4,10 @@ title: UcmTcpciPortControllerCreate function
 author: windows-driver-content
 description: Creates a port controller object to register with UcmTcpciCx.
 old-location: buses\ucmtcpciportcontrollercreate.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 29862d9b-c004-445b-b90b-6990e5e01966
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerCreate, UcmTcpciPortControllerCreate method [Buses], buses.ucmtcpciportcontrollercreate, ucmtcpciportcontroller/UcmTcpciPortControllerCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

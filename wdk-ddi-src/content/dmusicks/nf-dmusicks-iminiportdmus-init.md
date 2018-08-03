@@ -4,10 +4,10 @@ title: IMiniportDMus::Init
 author: windows-driver-content
 description: The Init method initializes the DMus miniport object.
 old-location: audio\iminiportdmus_init.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 08111f70-d0cc-4abc-8bcd-86683af3eb32
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportDMus interface [Audio Devices],Init method, IMiniportDMus.Init, IMiniportDMus::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_init, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, dmusicks/IMiniportDMus::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

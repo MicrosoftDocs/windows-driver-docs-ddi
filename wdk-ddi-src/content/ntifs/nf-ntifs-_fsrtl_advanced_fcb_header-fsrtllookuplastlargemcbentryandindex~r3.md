@@ -4,7 +4,7 @@ title: FsRtlLookupLastLargeMcbEntryAndIndex function
 author: windows-driver-content
 description: The FsRtlLookupLastLargeMcbEntryAndIndex routine retrieves the last mapping entry stored in a given map control block (MCB).
 old-location: ifsk\fsrtllookuplastlargemcbentryandindex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 53c3109d-16e4-4db4-9c62-27c6d8501707
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mapping entry stored in a given map control block (MCB). 
+The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mapping entry stored in a given map control block (MCB).
 
 
 ## -parameters
@@ -60,29 +60,29 @@ The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mappi
 
 ### -param OpaqueMcb [in]
 
-Pointer to an initialized MCB structure to be searched. 
+Pointer to an initialized MCB structure to be searched.
 
 
 ### -param LargeVbn [out]
 
-Pointer to a variable that receives the last virtual block number (VBN) that was mapped. 
+Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
 
 
 ### -param LargeLbn [out]
 
-Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. 
+Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists.
 
 
 ### -param Index [out]
 
-Pointer to a variable that receives the index of the last run in the MCB. 
+Pointer to a variable that receives the index of the last run in the MCB.
 
 
 ## -returns
 
 
 
-<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b> if the MCB contains no mapping entries, <b>TRUE</b> otherwise. 
+<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b> if the MCB contains no mapping entries, <b>TRUE</b> otherwise.
 
 
 
@@ -91,19 +91,19 @@ Pointer to a variable that receives the index of the last run in the MCB.
 
 
 
-<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>searches for the last mapping of the last run in the MCB: 
+<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>searches for the last mapping of the last run in the MCB:
 
 <ul>
 <li>
-If the MCB contains no mappings, <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b>. 
+If the MCB contains no mappings, <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b>.
 
 </li>
 <li>
-If the last mapping is a hole, <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>TRUE</b>, but the lookup operation yields a value of -1 for the LBN. 
+If the last mapping is a hole, <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>TRUE</b>, but the lookup operation yields a value of -1 for the LBN.
 
 </li>
 <li>
-If the last mapping is not a hole, the lookup operation yields a positive value for the LBN, and <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>TRUE</b>. 
+If the last mapping is not a hole, the lookup operation yields a positive value for the LBN, and <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>TRUE</b>.
 
 </li>
 </ul>

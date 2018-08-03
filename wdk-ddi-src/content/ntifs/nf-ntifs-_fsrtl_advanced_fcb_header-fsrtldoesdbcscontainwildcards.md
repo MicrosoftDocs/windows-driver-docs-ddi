@@ -4,7 +4,7 @@ title: FsRtlDoesDbcsContainWildCards function
 author: windows-driver-content
 description: The FsRtlDoesDbcsContainWildCards routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters.
 old-location: ifsk\fsrtldoesdbcscontainwildcards.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

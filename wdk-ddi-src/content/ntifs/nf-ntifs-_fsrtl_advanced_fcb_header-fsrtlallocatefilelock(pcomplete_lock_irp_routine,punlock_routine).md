@@ -4,7 +4,7 @@ title: FsRtlAllocateFileLock function
 author: windows-driver-content
 description: The FsRtlAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fsrtlallocatefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 148c177d-162a-4578-a40c-2e5fe6176d51
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -49,7 +49,7 @@ req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ## -description
 
 
-The <b>FsRtlAllocateFileLock</b> routine allocates and initializes a new FILE_LOCK structure. 
+The <b>FsRtlAllocateFileLock</b> routine allocates and initializes a new FILE_LOCK structure.
 
 
 ## -parameters
@@ -59,19 +59,19 @@ The <b>FsRtlAllocateFileLock</b> routine allocates and initializes a new FILE_LO
 
 ### -param CompleteLockIrpRoutine [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551032">PCOMPLETE_LOCK_IRP_ROUTINE</a>-typed callback routine to be called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551032">PCOMPLETE_LOCK_IRP_ROUTINE</a>-typed callback routine to be called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param UnlockRoutine [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
 
 
 
-<b>FsRtlAllocateFileLock</b> returns a pointer to the newly allocated FILE_LOCK structure. 
+<b>FsRtlAllocateFileLock</b> returns a pointer to the newly allocated FILE_LOCK structure.
 
 
 
@@ -82,7 +82,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 <b>FsRtlAllocateFileLock</b> allocates a new FILE_LOCK structure from paged pool and initializes it.
 
-Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541743">FltAllocateFileLock</a> instead of <b>FsRtlAllocateFileLock</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541743">FltAllocateFileLock</a> instead of <b>FsRtlAllocateFileLock</b>.
 
 
 

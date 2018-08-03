@@ -4,7 +4,7 @@ title: "_VIRTUAL_HW_INITIALIZATION_DATA"
 author: windows-driver-content
 description: The VIRTUAL_HW_INITIALIZATION_DATA structure contains information particular to each virtual miniport driver.
 old-location: storage\virtual_hw_initialization_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

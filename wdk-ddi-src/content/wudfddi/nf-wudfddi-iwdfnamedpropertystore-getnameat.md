@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore::GetNameAt
 author: windows-driver-content
 description: The GetNameAt method retrieves the name of a property.
 old-location: wdf\iwdfnamedpropertystore_getnameat.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

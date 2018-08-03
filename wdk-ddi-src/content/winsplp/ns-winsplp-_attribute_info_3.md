@@ -4,7 +4,7 @@ title: "_ATTRIBUTE_INFO_3"
 author: windows-driver-content
 description: The ATTRIBUTE_INFO_3 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_3.htm
-old-project: print
+tech.root: print
 ms.assetid: a9299c25-4210-4161-bfd6-8a13113b93e1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

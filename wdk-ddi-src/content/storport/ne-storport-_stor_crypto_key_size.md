@@ -4,7 +4,7 @@ title: "_STOR_CRYPTO_KEY_SIZE"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_size.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5CBE8A2B-E2E1-4B76-A76F-51DA9F301DAA
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

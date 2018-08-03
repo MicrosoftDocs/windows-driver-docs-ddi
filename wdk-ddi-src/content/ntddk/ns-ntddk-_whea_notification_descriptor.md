@@ -4,7 +4,7 @@ title: "_WHEA_NOTIFICATION_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_NOTIFICATION_DESCRIPTOR structure describes the notification mechanism that is used by an error source.
 old-location: whea\whea_notification_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 5b228bb8-dd31-484d-b87a-ec7fed433a4a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

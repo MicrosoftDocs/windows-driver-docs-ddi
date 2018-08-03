@@ -4,7 +4,7 @@ title: "_FLT_RELATED_OBJECTS"
 author: windows-driver-content
 description: The FLT_RELATED_OBJECTS structure contains opaque pointers for the objects associated with an operation.
 old-location: ifsk\flt_related_objects.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dd1730f5-58ff-4d0d-9a00-17cd1fe36c5f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RtlUnicodeStringVPrintfEx function
 author: windows-driver-content
 description: The RtlUnicodeStringVPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvprintfex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

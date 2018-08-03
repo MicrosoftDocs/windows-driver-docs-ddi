@@ -4,10 +4,10 @@ title: "_DXVADDI_VIDEOPROCESSORINPUT"
 author: windows-driver-content
 description: The DXVADDI_VIDEOPROCESSORINPUT structure describes a video stream that is processed by a video processing device type.
 old-location: display\dxvaddi_videoprocessorinput.htm
-old-project: display
+tech.root: display
 ms.assetid: 539d32a5-4566-4b8e-b9de-da8d5be3c2f2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_87cc7918-2fb5-4b73-a62c-ab9a3817c154.xml, DXVADDI_VIDEOPROCESSORINPUT, DXVADDI_VIDEOPROCESSORINPUT structure [Display Devices], _DXVADDI_VIDEOPROCESSORINPUT, d3dumddi/DXVADDI_VIDEOPROCESSORINPUT, display.dxvaddi_videoprocessorinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: D3D11DDIARG_TESSELLATION_IO_SIGNATURES
 author: windows-driver-content
 description: The D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure describes a tessellation I/O signature.
 old-location: display\d3d11ddiarg_tessellation_io_signatures.htm
-old-project: display
+tech.root: display
 ms.assetid: ed652b52-33c9-4961-af29-b5fc54cf29b8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11ddiarg_tessellation_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

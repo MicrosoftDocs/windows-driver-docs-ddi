@@ -4,7 +4,7 @@ title: PFNGETINFO
 author: windows-driver-content
 description: The UNIFONTOBJ_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
 old-location: print\unifontobj_getinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

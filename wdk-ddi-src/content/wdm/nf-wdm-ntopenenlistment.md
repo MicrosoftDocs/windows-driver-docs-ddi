@@ -4,7 +4,7 @@ title: NtOpenEnlistment function
 author: windows-driver-content
 description: The ZwOpenEnlistment routine obtains a handle to an existing enlistment object.
 old-location: kernel\zwopenenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b70d524f-2341-4b19-9c4a-f5095cb7f412
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

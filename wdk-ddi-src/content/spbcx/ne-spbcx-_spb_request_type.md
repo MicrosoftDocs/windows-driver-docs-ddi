@@ -4,7 +4,7 @@ title: "_SPB_REQUEST_TYPE"
 author: windows-driver-content
 description: The SPB_REQUEST_TYPE enumeration specifies the type of SPB operation that a client is requesting.
 old-location: spb\spb_request_type.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: B3C2505E-A2B6-4D79-B8B7-9D1B53AA5B56
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

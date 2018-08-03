@@ -4,7 +4,7 @@ title: ScsiPortGetSrb function
 author: windows-driver-content
 description: The ScsiPortGetSrb routine returns a pointer to an active SCSI request for a particular logical unit.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetsrb.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c8f0e47c-4d06-445f-a6dd-9bd80fc490bc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

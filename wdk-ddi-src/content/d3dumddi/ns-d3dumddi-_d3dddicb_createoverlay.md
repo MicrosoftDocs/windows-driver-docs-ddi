@@ -4,10 +4,10 @@ title: "_D3DDDICB_CREATEOVERLAY"
 author: windows-driver-content
 description: The D3DDDICB_CREATEOVERLAY structure describes overlay hardware.
 old-location: display\d3dddicb_createoverlay.htm
-old-project: display
+tech.root: display
 ms.assetid: 52f95379-7bfd-4606-9199-ea253ccd6f35
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices], D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, _D3DDDICB_CREATEOVERLAY, d3dumddi/D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_WDF_IO_TYPE_CONFIG"
 author: windows-driver-content
 description: The WDF_IO_TYPE_CONFIG structure specifies the driver's preferred buffer access method for read and write requests, and for device I/O control requests.
 old-location: wdf\wdf_io_type_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: EB3CEC0E-5635-410D-B8D2-031FDB0557C1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: PHW_CANCEL_SRB
 author: windows-driver-content
 description: The class driver calls the minidriver's StrMiniCancelPacket routine to signal that a stream request has been canceled.
 old-location: stream\strminicancelpacket.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e64c00dd-4eef-4e1e-abb0-8263088f6dc6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

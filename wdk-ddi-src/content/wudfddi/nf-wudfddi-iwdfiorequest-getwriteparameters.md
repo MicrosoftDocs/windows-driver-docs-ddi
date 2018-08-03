@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetWriteParameters
 author: windows-driver-content
 description: The GetWriteParameters method retrieves the request parameters for a write-type request.
 old-location: wdf\iwdfiorequest_getwriteparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0627b278-2fd5-4185-8ec9-8b306c6d85a8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

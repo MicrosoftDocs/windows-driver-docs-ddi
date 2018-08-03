@@ -4,7 +4,7 @@ title: "_WHEA_GENERIC_ERROR_BLOCKSTATUS"
 author: windows-driver-content
 description: The WHEA_GENERIC_ERROR_BLOCKSTATUS union indicates what kind of error data is reported in a generic error status block.
 old-location: whea\whea_generic_error_blockstatus.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 38c8422d-7307-4acd-81f0-931d2e128cb9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

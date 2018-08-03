@@ -4,7 +4,7 @@ title: IPrintSchemaDisplayableElement
 author: windows-driver-content
 description: Provides the displayable string for a PrintCapabilites PrintSchema element.
 old-location: print\iprintschemadisplayableelement_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

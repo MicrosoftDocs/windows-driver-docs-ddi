@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
 author: windows-driver-content
 description: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ is sent by the Enhanced Storage Class Driver (EHSTOR) to the silo driver to initiate on-demand authentication or deauthentication.
 old-location: storage\ioctl_ehstor_driver_perform_authz.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 689EE1EB-820A-4873-92C5-08F5F1873825
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

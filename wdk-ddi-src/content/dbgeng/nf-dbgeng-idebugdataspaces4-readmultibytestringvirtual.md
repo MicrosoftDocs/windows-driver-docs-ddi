@@ -4,10 +4,10 @@ title: IDebugDataSpaces4::ReadMultiByteStringVirtual
 author: windows-driver-content
 description: The ReadMultiByteStringVirtual method reads a null-terminated, multibyte string from the target.
 old-location: debugger\readmultibytestringvirtual.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: b86caa13-bdb3-4bc4-b2c1-3e51cbcf396f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadMultiByteStringVirtual method, IDebugDataSpaces4.ReadMultiByteStringVirtual, IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, ReadMultiByteStringVirtual, ReadMultiByteStringVirtual method [Windows Debugging], ReadMultiByteStringVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, debugger.readmultibytestringvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

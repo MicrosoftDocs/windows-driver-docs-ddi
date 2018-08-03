@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
 author: windows-driver-content
 description: This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of changes to the LBA filter table.
 old-location: storage\ioctl_ehstor_driver_update_lba_filter_table.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 295EE3CC-4244-4411-9684-7C5D38B10EA9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

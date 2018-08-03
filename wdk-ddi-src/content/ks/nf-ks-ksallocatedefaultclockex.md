@@ -4,7 +4,7 @@ title: KsAllocateDefaultClockEx function
 author: windows-driver-content
 description: The KsAllocateDefaultClockEx function allocates and initializes the default clock structure.
 old-location: stream\ksallocatedefaultclockex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cad04f59-5312-4241-9524-aeabc27df92d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

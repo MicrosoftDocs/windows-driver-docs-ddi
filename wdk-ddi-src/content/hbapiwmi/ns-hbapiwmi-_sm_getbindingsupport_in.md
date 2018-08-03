@@ -4,7 +4,7 @@ title: "_SM_GetBindingSupport_IN"
 author: windows-driver-content
 description: The SM_GetBindingSupport_IN structure is used to provide input parameters to the SM_GetBindingSupport method.
 old-location: storage\sm_getbindingsupport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c89d86fe-fe8c-48d2-a5c2-7971ea96b7ad
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

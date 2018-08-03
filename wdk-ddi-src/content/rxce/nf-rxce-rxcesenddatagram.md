@@ -4,7 +4,7 @@ title: RxCeSendDatagram function
 author: windows-driver-content
 description: RxCeSendDatagram sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 old-location: ifsk\rxcesenddatagram.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

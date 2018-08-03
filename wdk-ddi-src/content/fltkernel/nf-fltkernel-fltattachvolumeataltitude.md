@@ -4,7 +4,7 @@ title: FltAttachVolumeAtAltitude function
 author: windows-driver-content
 description: FltAttachVolumeAtAltitude is a debugging support routine that attaches a minifilter driver instance to a volume at a specified altitude, overriding any settings in the minifilter driver's INF file.
 old-location: ifsk\fltattachvolumeataltitude.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d6e6f66a-77ed-4c1c-92d5-97a806cfbd68
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

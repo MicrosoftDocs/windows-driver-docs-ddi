@@ -4,7 +4,7 @@ title: "_NFC_CX_LLCP_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_LLCP_CONFIG structure is an input parameter to NfcCxSetLlcpConfig.
 old-location: nfpdrivers\nfc_cx_llcp_config.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 84A1F957-FAAE-4C2D-9D49-486813A26950
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

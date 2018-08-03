@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_PNP_NOTIFICATION_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 old-location: wdf\wdf_device_pnp_notification_data.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b49431bf-4b44-4d7b-b3a6-c3d7416bcb53
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

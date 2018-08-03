@@ -4,7 +4,7 @@ title: "_WDF_PNP_CAPABILITY"
 author: windows-driver-content
 description: The WDF_PNP_CAPABILITY enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
 old-location: wdf\wdf_pnp_capability.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

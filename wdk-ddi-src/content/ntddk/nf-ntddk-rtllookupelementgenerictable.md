@@ -4,7 +4,7 @@ title: RtlLookupElementGenericTable function
 author: windows-driver-content
 description: The RtlLookupElementGenericTable routine searches a generic table for an element that matches the specified data.
 old-location: ifsk\rtllookupelementgenerictable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

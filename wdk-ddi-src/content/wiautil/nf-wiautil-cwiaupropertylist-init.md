@@ -4,10 +4,10 @@ title: CWiauPropertyList::Init
 author: windows-driver-content
 description: The CWiauPropertyList::Init method initializes a property list object.
 old-location: image\cwiaupropertylist_init.htm
-old-project: image
+tech.root: image
 ms.assetid: cbbe0d76-7fd1-4653-ad79-d5e6d692dec0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],Init method, CWiauPropertyList.Init, CWiauPropertyList::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, wiautil/CWiauPropertyList::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

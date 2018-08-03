@@ -4,7 +4,7 @@ title: UPSStop function
 author: windows-driver-content
 description: The UPSStop function causes a UPS minidriver to stop monitoring its UPS unit.
 old-location: battery\upsstop.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 55555e58-eaba-4c39-a771-9924da3fcfc4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_AVC_PEER_DO_LIST"
 author: windows-driver-content
 description: The AVC_PEER_DO_LIST describes all nonvirtual (peer) instances of avc.sys.
 old-location: stream\avc_peer_do_list.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

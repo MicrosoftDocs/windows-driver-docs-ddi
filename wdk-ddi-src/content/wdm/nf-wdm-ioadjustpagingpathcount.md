@@ -4,7 +4,7 @@ title: IoAdjustPagingPathCount macro
 author: windows-driver-content
 description: The IoAdjustPagingPathCount routine increments or decrements a caller-supplied page-file counter as an atomic operation.
 old-location: kernel\ioadjustpagingpathcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: be353d10-1d8a-4fea-a415-e1729184e451
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

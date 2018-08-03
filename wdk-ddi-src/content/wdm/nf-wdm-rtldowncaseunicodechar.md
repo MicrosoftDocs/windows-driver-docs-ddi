@@ -4,7 +4,7 @@ title: RtlDowncaseUnicodeChar function
 author: windows-driver-content
 description: The RtlDowncaseUnicodeChar routine converts the specified Unicode character to lowercase.
 old-location: kernel\rtldowncaseunicodechar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1377a069-5065-4305-a48c-7a84f0071fc3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

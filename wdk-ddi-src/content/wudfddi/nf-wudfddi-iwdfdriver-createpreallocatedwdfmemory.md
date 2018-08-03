@@ -4,7 +4,7 @@ title: IWDFDriver::CreatePreallocatedWdfMemory
 author: windows-driver-content
 description: The CreatePreallocatedWdfMemory method creates a framework memory object for the specified buffer.
 old-location: wdf\iwdfdriver_createpreallocatedwdfmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

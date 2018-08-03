@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEODECODER_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEODECODER_CAPS_S structure describes the hardware capabilities of the video decoder device.
 old-location: stream\ksproperty_videodecoder_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: af81a053-8c09-411c-a437-21859ea867b2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

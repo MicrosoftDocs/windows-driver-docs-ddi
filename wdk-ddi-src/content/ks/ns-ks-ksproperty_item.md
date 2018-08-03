@@ -4,7 +4,7 @@ title: KSPROPERTY_ITEM
 author: windows-driver-content
 description: Drivers use the KSPROPERTY_ITEM structure to describe how they support a property in a property set.
 old-location: stream\ksproperty_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 58530a72-6e07-44f5-9d7d-04bc37ff1ec9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

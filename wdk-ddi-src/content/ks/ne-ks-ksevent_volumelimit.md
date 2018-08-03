@@ -4,7 +4,7 @@ title: KSEVENT_VOLUMELIMIT
 author: windows-driver-content
 description: "."
 old-location: stream\ksevent_volumelimit.htm
-old-project: stream
+tech.root: stream
 ms.assetid: B03477A0-B7ED-491F-9D6F-B32A0E719475
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

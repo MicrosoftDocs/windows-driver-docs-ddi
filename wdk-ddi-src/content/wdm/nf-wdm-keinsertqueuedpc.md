@@ -4,7 +4,7 @@ title: KeInsertQueueDpc function
 author: windows-driver-content
 description: The KeInsertQueueDpc routine queues a DPC for execution.
 old-location: kernel\keinsertqueuedpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f1fc6880-23d1-4154-9305-4a918efd4a1d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

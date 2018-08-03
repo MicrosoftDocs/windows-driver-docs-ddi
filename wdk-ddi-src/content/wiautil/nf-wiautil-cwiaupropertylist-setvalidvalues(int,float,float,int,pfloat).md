@@ -2,13 +2,13 @@
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)
 title: CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)
 author: windows-driver-content
-description: The CWiauPropertyList::SetValidValues(BSTR, list) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
-old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
-old-project: image
-ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
+description: The CWiauPropertyList::SetValidValues(FLOAT, list) method sets the type, as well as default, current, and valid values for a FLOAT property associated with a list of values.
+old-location: image\cwiaupropertylist_setvalidvalues_float__list_.htm
+tech.root: image
+ms.assetid: b6a554b7-9e3e-4362-9dcf-fd84d9a69150
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(BSTR list), CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,FLOAT    ,FLOAT  ,INT  ,PFLOAT  ), CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(FLOAT,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_float__list_, wiauFncs_18bd612f-ceb6-44ab-9242-1ef033f1bce8.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>CWiauPropertyList::SetValidValues(BSTR, list)</b> method sets the type, as well as default, current, and valid values for a <b>BSTR</b> property associated with a list of values. The method also sets the property type to VT_BSTR and subtype to WIA_PROP_LIST (defined in the Microsoft Windows SDK documentation).
+The <b>CWiauPropertyList::SetValidValues(FLOAT, list)</b> method sets the type, as well as default, current, and valid values for a <b>FLOAT</b> property associated with a list of values. The method also sets the property type to VT_R4 and subtype to WIA_PROP_LIST (defined in the Microsoft Windows SDK documentation).
 
 
 ## -parameters
@@ -72,12 +72,12 @@ Specifies the default setting of the property on the device.
 Specifies the current setting of the property on the device.
 
 
-#### - numValues
+### -param numValues
 
 Specifies the number of values in the property list.
 
 
-#### - pValues
+### -param pValues
 
 Points to the first property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
 
@@ -105,6 +105,10 @@ This method does not return a value.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a>
+
+
+
+<a href="https://msdn.microsoft.com/4234ce4a-5b9d-47a7-b00d-e278635ee93a">CWiauPropertyList::SetValidValues(FLOAT, range)</a>
  
 
  

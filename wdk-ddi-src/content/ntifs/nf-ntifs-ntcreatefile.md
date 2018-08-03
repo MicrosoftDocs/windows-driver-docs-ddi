@@ -4,7 +4,7 @@ title: NtCreateFile function
 author: windows-driver-content
 description: The ZwCreateFile routine creates a new file or opens an existing file.
 old-location: kernel\zwcreatefile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

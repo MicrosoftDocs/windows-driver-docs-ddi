@@ -4,7 +4,7 @@ title: "_REFS_SMR_VOLUME_GC_ACTION"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_ACTION enum contains the available garbage collection commands for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_action.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9A9D174A-0E9E-4B3A-BF91-3000128C58C7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

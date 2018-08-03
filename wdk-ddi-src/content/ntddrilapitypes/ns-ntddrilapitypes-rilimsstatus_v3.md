@@ -4,10 +4,10 @@ title: RILIMSSTATUS_V3
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimsstatus_v3.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4c0ee205-2508-4414-afa5-cb6e7a358fc8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, RILIMSSTATUS, RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v3, ntddrilapitypes/RILIMSSTATUS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices

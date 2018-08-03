@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_LSRMST_INSERT
 author: windows-driver-content
 description: The IOCTL_SERIAL_LSRMST_INSERT request enables or disables the insertion of information about line status and modem status in the receive data stream.
 old-location: serports\ioctl_serial_lsrmst_insert.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 363ae373-5474-4c20-a382-20577a72521e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

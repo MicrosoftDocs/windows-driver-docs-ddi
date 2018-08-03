@@ -4,7 +4,7 @@ title: "_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The DEVICE_POWER_STATE enumeration type indicates a device power state.
 old-location: kernel\device_power_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

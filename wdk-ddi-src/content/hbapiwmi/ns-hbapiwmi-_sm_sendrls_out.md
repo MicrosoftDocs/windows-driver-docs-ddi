@@ -4,7 +4,7 @@ title: "_SM_SendRLS_OUT"
 author: windows-driver-content
 description: The SM_SendRLS_OUT structure is used to receive output parameters from the SM_SendRLS method.
 old-location: storage\sm_sendrls_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 28c08a30-b6c6-4f1b-a3a9-0581da0159b9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

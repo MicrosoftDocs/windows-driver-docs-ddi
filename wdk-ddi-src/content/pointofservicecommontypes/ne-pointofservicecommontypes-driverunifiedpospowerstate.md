@@ -4,7 +4,7 @@ title: DriverUnifiedPosPowerState
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\driverunifiedpospowerstate.htm
-old-project: pos
+tech.root: pos
 ms.assetid: D782F879-A016-46CA-AF96-1230C22A71C1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

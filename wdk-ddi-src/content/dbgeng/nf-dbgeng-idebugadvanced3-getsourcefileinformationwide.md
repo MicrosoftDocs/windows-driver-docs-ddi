@@ -4,10 +4,10 @@ title: IDebugAdvanced3::GetSourceFileInformationWide
 author: windows-driver-content
 description: The GetSourceFileInformationWide method returns specified information about a source file.
 old-location: debugger\getsourcefileinformationwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformationWide method, IDebugAdvanced3.GetSourceFileInformationWide, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

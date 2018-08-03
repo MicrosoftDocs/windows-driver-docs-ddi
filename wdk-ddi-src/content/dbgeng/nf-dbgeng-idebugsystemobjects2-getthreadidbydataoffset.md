@@ -4,10 +4,10 @@ title: IDebugSystemObjects2::GetThreadIdByDataOffset
 author: windows-driver-content
 description: The GetThreadIdByDataOffset method returns the engine thread ID for the specified thread. The thread is specified by its system data structure.
 old-location: debugger\getthreadidbydataoffset.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: f559e0da-ca5c-4fea-aa17-257abfd45f96
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], GetThreadIdByDataOffset method [Windows Debugging],IDebugSystemObjects interface, GetThreadIdByDataOffset method [Windows Debugging],IDebugSystemObjects2 interface, GetThreadIdByDataOffset method [Windows Debugging],IDebugSystemObjects3 interface, GetThreadIdByDataOffset method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetThreadIdByDataOffset method, IDebugSystemObjects2 interface [Windows Debugging],GetThreadIdByDataOffset method, IDebugSystemObjects2.GetThreadIdByDataOffset, IDebugSystemObjects2::GetThreadIdByDataOffset, IDebugSystemObjects3 interface [Windows Debugging],GetThreadIdByDataOffset method, IDebugSystemObjects3::GetThreadIdByDataOffset, IDebugSystemObjects4 interface [Windows Debugging],GetThreadIdByDataOffset method, IDebugSystemObjects4::GetThreadIdByDataOffset, IDebugSystemObjects::GetThreadIdByDataOffset, IDebugSystemObjects_bb1b0f35-219b-4883-8df7-d90a96441720.xml, dbgeng/IDebugSystemObjects2::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects3::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects4::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects::GetThreadIdByDataOffset, debugger.getthreadidbydataoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

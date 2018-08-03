@@ -4,10 +4,10 @@ title: IDebugControl4::GetBreakpointByIndex2
 author: windows-driver-content
 description: The GetBreakpointByIndex2 method returns the breakpoint located at the specified index.
 old-location: debugger\getbreakpointbyindex2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 3487addb-e196-4295-95fc-0590802e766a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], GetBreakpointByIndex2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetBreakpointByIndex2 method, IDebugControl4.GetBreakpointByIndex2, IDebugControl4::GetBreakpointByIndex2, dbgeng/IDebugControl4::GetBreakpointByIndex2, debugger.getbreakpointbyindex2
 ms.prod: windows-hardware
 ms.technology: windows-devices

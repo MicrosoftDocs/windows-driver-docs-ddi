@@ -4,7 +4,7 @@ title: FltFreeSecurityDescriptor function
 author: windows-driver-content
 description: FltFreeSecurityDescriptor frees a security descriptor allocated by the FltBuildDefaultSecurityDescriptor routine.
 old-location: ifsk\fltfreesecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ebf7ad37-6c3b-4216-87e6-ea5d6a0cba20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

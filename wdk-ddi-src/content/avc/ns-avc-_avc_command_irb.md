@@ -4,7 +4,7 @@ title: "_AVC_COMMAND_IRB"
 author: windows-driver-content
 description: The AVC_COMMAND_IRB structure defines a structure that contains an AV/C command and response pair.
 old-location: stream\avc_command_irb.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0aefbce4-a838-40c4-b31f-ff8dd13621f7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

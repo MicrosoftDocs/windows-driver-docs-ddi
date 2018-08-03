@@ -34,7 +34,8 @@ apilocation:
 -	iddcx.h
 apiname:
 -	*PFN_IDDCXREPORTCRITICALERROR
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

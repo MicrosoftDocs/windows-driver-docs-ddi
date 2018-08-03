@@ -4,7 +4,7 @@ title: "_AACS_BINDING_NONCE"
 author: windows-driver-content
 description: The AACS_BINDING_NONCE structure contains the binding nonce.
 old-location: storage\aacs_binding_nonce.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8bbefe34-9653-4868-894f-a77c1fc9939f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

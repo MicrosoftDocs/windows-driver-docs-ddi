@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_DEVICE_SERVICE_COMMAND"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device service command data.
 old-location: netvista\ndis_wwan_device_service_command.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 372625F8-0219-4867-909D-ACCC82F6B97C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, netvista.ndis_wwan_device_service_command"
 ms.prod: windows-hardware
 ms.technology: windows-devices

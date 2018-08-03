@@ -4,7 +4,7 @@ title: "_WUDF_INTERRUPT_CONFIG"
 author: windows-driver-content
 description: The WUDF_INTERRUPT_CONFIG structure contains configuration information for a device interrupt.
 old-location: wdf\wudf_interrupt_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

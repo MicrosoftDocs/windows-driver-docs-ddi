@@ -4,7 +4,7 @@ title: "_VOLUME_DISK_EXTENTS"
 author: windows-driver-content
 description: The VOLUME_DISK_EXTENTS structure is used in conjunction with the IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS request to retrieve information about all the extents on a given volume.
 old-location: storage\volume_disk_extents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 227846c2-8794-4859-89af-c139ead32143
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: PSHED_PI_CLEAR_ERROR_STATUS
 author: windows-driver-content
 description: A PSHED plug-in's ClearErrorStatus callback function clears any platform-specific error status registers for a corrected hardware error condition.
 old-location: whea\clearerrorstatus.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 8b29edf3-be7f-4a8d-af96-2b1e985ba061
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

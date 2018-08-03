@@ -4,7 +4,7 @@ title: KsGetDevice function
 author: windows-driver-content
 description: The KsGetDevice function returns the AVStream device structure to which Object belongs.
 old-location: stream\ksgetdevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 27fb223f-9e6b-42af-b3d8-1018dc5416c2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

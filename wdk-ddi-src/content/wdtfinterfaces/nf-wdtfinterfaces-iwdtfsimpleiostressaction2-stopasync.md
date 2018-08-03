@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::StopAsync
 author: windows-driver-content
 description: Asynchronously signals the stop event to occur.
 old-location: dtf\iwdtfsimpleiostressaction2_stopasync.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: fac4b59b-da9a-4245-bff0-f9177962c9d6
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -28,7 +28,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_BRIGHTNESS_INTERFACE_VERSION
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

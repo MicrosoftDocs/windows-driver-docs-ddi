@@ -4,10 +4,10 @@ title: wiauStrW2C function
 author: windows-driver-content
 description: The wiauStrW2C function converts a Unicode string to an ANSI character string.
 old-location: image\wiaustrw2c.htm
-old-project: image
+tech.root: image
 ms.assetid: 53657c26-5007-4c8e-aadf-5d464f1222d2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaustrw2c, wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiauStrW2C, wiauStrW2C function [Imaging Devices], wiautil/wiauStrW2C
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_AVC_UNIQUE_ID"
 author: windows-driver-content
 description: The AVC_UNIQUE_ID describe the unique ID of the AV/C unit.
 old-location: stream\avc_unique_id.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d2a355e2-e5ff-4d20-ae8c-cdee3f5ddb76
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

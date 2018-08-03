@@ -4,7 +4,7 @@ title: IoWMISetSingleItem function
 author: windows-driver-content
 description: The IoWMISetSingleItem routine sets a single property in the data block instance that matches the specified WMI class and instance name.
 old-location: kernel\iowmisetsingleitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

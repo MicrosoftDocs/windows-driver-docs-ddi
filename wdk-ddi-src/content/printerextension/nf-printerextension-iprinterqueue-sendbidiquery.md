@@ -4,7 +4,7 @@ title: IPrinterQueue::SendBidiQuery
 author: windows-driver-content
 description: Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent::OnBidiResponseReceived method.
 old-location: print\iprinterqueue_sendbidiquery.htm
-old-project: print
+tech.root: print
 ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

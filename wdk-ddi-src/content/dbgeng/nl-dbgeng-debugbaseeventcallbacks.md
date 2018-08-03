@@ -4,10 +4,10 @@ title: DebugBaseEventCallbacks
 author: windows-driver-content
 description: The DebugBaseEventCallbacks class provides a base implementation of the IDebugEventCallbacks interface.
 old-location: debugger\debugbaseeventcallbacks.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: B0422248-2F5F-4AE6-93C9-D96B5E4A1B5A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: DebugBaseEventCallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging],described, dbgeng/DebugBaseEventCallbacks, debugger.debugbaseeventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

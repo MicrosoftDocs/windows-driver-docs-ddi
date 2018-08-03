@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice::RetrieveUsbInterface
 author: windows-driver-content
 description: The RetrieveUsbInterface method retrieves the specified USB interface for a USB device.
 old-location: wdf\iwdfusbtargetdevice_retrieveusbinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: BdaCreatePin function
 author: windows-driver-content
 description: The BdaCreatePin function creates a new pin in the specified filter.
 old-location: stream\bdacreatepin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

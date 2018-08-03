@@ -4,7 +4,7 @@ title: IPrintSchemaNUpOption::get_PagesPerSheet
 author: windows-driver-content
 description: Gets the number of pages per sheet.
 old-location: print\iprintschemanupoption_pagespersheet.htm
-old-project: print
+tech.root: print
 ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

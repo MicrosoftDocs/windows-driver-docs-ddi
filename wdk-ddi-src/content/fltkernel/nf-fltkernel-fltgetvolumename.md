@@ -4,7 +4,7 @@ title: FltGetVolumeName function
 author: windows-driver-content
 description: The FltGetVolumeName routine gets the volume name for a given volume.
 old-location: ifsk\fltgetvolumename.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 50815b33-d417-4499-9423-f65697396200
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

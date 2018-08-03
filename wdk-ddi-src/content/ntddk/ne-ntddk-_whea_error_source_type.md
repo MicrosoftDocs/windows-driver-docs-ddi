@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_SOURCE_TYPE"
 author: windows-driver-content
 description: The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
 old-location: whea\whea_error_source_type.htm
-old-project: whea
+tech.root: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

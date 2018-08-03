@@ -4,7 +4,7 @@ title: IKsAllocator::KsSetAllocatorMode
 author: windows-driver-content
 description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

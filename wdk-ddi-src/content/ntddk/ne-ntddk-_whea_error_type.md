@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_TYPE"
 author: windows-driver-content
 description: The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
 old-location: whea\whea_error_type.htm
-old-project: whea
+tech.root: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

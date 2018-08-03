@@ -4,7 +4,7 @@ title: KSPROPERTY_CROSSBAR_PININFO_S
 author: windows-driver-content
 description: The KSPROPERTY_CROSSBAR_PININFO_S structure describes the crossbar pin information for a device.
 old-location: stream\ksproperty_crossbar_pininfo_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7ddef9cf-aa2f-4383-b37f-8c2f3e9c99d6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

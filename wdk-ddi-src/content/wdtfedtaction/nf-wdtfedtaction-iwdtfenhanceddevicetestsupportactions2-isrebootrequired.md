@@ -4,7 +4,7 @@ title: IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
 author: windows-driver-content
 description: Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2_isrebootrequired.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 76d4f209-e38d-4ab3-94bf-3cc7fdff950c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

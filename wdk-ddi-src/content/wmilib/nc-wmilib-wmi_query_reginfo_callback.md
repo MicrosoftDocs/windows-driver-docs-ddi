@@ -4,7 +4,7 @@ title: WMI_QUERY_REGINFO_CALLBACK
 author: windows-driver-content
 description: The DpWmiQueryReginfo routine provides information about the data blocks and event blocks to be registered by a driver. This routine is required.
 old-location: kernel\dpwmiqueryreginfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6e450788-445f-4d0a-b99b-913100a54259
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

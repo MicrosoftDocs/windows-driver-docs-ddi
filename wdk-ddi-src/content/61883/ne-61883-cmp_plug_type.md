@@ -4,7 +4,7 @@ title: CMP_PLUG_TYPE
 author: windows-driver-content
 description: This enumeration specifies the type of a plug.
 old-location: ieee\cmp_plug_type.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 97A19F3D-5669-4E4B-A377-7BE5A84DF63A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

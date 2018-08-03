@@ -4,7 +4,7 @@ title: StreamClassDebugPrint function
 author: windows-driver-content
 description: In a checked build environment, the minidriver can use the StreamClassDebugPrint routine to print debug messages to the application window and to the Debugger Command window.
 old-location: stream\streamclassdebugprint.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: DXGKDDI_MIRACAST_CREATE_CONTEXT
 author: windows-driver-content
 description: Creates a kernel-mode context for a Miracast device.
 old-location: display\dxgkddimiracastcreatecontext.htm
-old-project: display
+tech.root: display
 ms.assetid: BFF952CE-AA0F-4622-BBFC-946A45859FB7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MIRACAST_CREATE_CONTEXT, DXGKDDI_MIRACAST_CREATE_CONTEXT callback, DxgkDdiMiracastCreateContext, DxgkDdiMiracastCreateContext callback function [Display Devices], display.dxgkddimiracastcreatecontext, dispmprt/DxgkDdiMiracastCreateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KSMULTIPLE_ITEM
 author: windows-driver-content
 description: The KSMULTIPLE_ITEM structure is a generic header for property data that can contain multiple entries.
 old-location: stream\ksmultiple_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f8a15cb0-92c5-4637-934e-021fa7969208
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

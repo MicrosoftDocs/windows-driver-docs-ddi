@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_EJECT
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_EJECT request ejects the currently inserted smart card from the smart card reader.
 old-location: smartcrd\ioctl_smartcard_eject.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: 58bdd794-9061-4aae-a9a6-523db4e2e360
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

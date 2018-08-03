@@ -4,7 +4,7 @@ title: IOCTL_BTH_HCI_VENDOR_COMMAND
 author: windows-driver-content
 description: The IOCTL_BTH_HCI_VENDOR_COMMAND request allows Bluetooth applications to send vendor-specific commands to radios.
 old-location: bltooth\ioctl_bth_hci_vendor_command.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 3b182835-ca62-482c-b82a-28c59f23fb55
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

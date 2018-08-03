@@ -4,7 +4,7 @@ title: KsGateTurnInputOn function
 author: windows-driver-content
 description: The KsGateTurnInputOn function turns on an existing input to Gate.
 old-location: stream\ksgateturninputon.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 68c914bf-a293-42b0-85aa-c9e8f2ba18ac
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

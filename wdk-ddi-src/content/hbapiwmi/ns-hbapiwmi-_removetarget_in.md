@@ -4,7 +4,7 @@ title: "_RemoveTarget_IN"
 author: windows-driver-content
 description: The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the RemoveTarget WMI method.
 old-location: storage\removetarget_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

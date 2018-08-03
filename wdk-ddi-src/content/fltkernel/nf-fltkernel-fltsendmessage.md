@@ -4,7 +4,7 @@ title: FltSendMessage function
 author: windows-driver-content
 description: FltSendMessage sends a message to a waiting user-mode application on behalf of a minifilter driver or a minifilter driver instance.
 old-location: ifsk\fltsendmessage.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

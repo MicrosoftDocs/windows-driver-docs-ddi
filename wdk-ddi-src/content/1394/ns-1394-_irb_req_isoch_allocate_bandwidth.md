@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH"
 author: windows-driver-content
 description: This structure contains the fields necessary in order for the Bus driver to carry out an IsochAllocateBandwidth request.
 old-location: ieee\irb_req_isoch_allocate_bandwidth.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 68118E69-5644-4FE4-A75B-CE0FC427BA06
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

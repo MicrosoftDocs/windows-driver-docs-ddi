@@ -4,7 +4,7 @@ title: DOT11_KEY_ALGO_CCMP
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_key_algo_ccmp.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cf89ee80-d19d-4d97-b71f-8ebee4b96562
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,13 +75,13 @@ typedef struct DOT11_KEY_ALGO_CCMP {
 ### -field ucIV48Counter
 
 The initial 48-bit value of the AES-CCMP Packet Number (PN), which is used for replay protection.
-     For more information about the PN, see 
+     For more information about the PN, see
      <a href="https://msdn.microsoft.com/38270d9f-b927-4e4e-ac7f-319c60ae6224">AES-CCMP</a>.
 
 
 ### -field ulCCMPKeyLength
 
-The length, in bytes, of the AES-CCMP key material in the 
+The length, in bytes, of the AES-CCMP key material in the
      <b>ucCCMPKey</b> array. If the authentication and cipher key derivation is performed by the operating
      system, this member will always have a value of 16.
 
@@ -100,7 +100,7 @@ When the AES-CCMP key is created, the 802.11 station must maintain separate PN c
 
 <ul>
 <li>
-Initialize the PN counter used for the receive path to the value specified in the 
+Initialize the PN counter used for the receive path to the value specified in the
       <b>ucIV48Counter</b> member.
 
 </li>

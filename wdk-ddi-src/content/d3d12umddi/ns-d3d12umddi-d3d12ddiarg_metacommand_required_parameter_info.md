@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

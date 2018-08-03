@@ -4,7 +4,7 @@ title: CcSetAdditionalCacheAttributes function
 author: windows-driver-content
 description: Call the CcSetAdditionalCacheAttributes routine to enable or disable read-ahead (also called &#0034;lazy read&#0034;) or write-behind (also called &#0034;lazy write&#0034;) on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2f891543-0222-45c8-97cd-719ec5dd2fa8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

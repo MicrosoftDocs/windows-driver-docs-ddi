@@ -4,7 +4,7 @@ title: IBidiSpl2
 author: windows-driver-content
 description: The IBidiSpl2 interface enables an application or other objects to send one or more bidi requests using one of the Bidi Request Schemas and receive information formatted as one of the Bidi Response Schemas.
 old-location: print\ibidispl2.htm
-old-project: print
+tech.root: print
 ms.assetid: 90e8a390-7d30-4bcf-8c81-438c86529ceb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

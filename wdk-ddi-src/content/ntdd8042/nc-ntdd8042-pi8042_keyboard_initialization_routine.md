@@ -4,7 +4,7 @@ title: PI8042_KEYBOARD_INITIALIZATION_ROUTINE
 author: windows-driver-content
 description: A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt.
 old-location: hid\pi8042_keyboard_initialization_routine.htm
-old-project: hid
+tech.root: hid
 ms.assetid: bc1c82f0-f68c-433c-87f0-16c687d18557
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

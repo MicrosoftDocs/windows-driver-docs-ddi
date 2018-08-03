@@ -4,7 +4,7 @@ title: KSFRAMETIME
 author: windows-driver-content
 description: The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next &#0034;frame&#0034; of data, and flags associated with that frame.
 old-location: stream\ksframetime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

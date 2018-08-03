@@ -4,7 +4,7 @@ title: tagKS_TVTUNER_CHANGE_INFO
 author: windows-driver-content
 description: The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
 old-location: stream\ks_tvtuner_change_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7bb04fbb-2894-4148-88c2-fbbebb000ec9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

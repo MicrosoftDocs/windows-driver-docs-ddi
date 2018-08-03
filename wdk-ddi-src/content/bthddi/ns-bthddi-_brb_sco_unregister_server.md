@@ -4,7 +4,7 @@ title: "_BRB_SCO_UNREGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_SCO_UNREGISTER_SERVER structure to unregister itself as a server capable of receiving SCO connections from remote Bluetooth devices.
 old-location: bltooth\_brb_sco_unregister_server.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: a0624d6e-d3e9-45b1-b704-4a05532926f9
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

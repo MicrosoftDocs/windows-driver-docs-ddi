@@ -4,7 +4,7 @@ title: "_FILE_GET_EA_INFORMATION"
 author: windows-driver-content
 description: The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information.
 old-location: ifsk\file_get_ea_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2abaf505-b890-43b6-a277-d930417bdcb8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

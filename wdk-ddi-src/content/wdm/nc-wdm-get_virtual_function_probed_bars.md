@@ -4,7 +4,7 @@ title: GET_VIRTUAL_FUNCTION_PROBED_BARS
 author: windows-driver-content
 description: The GetVirtualFunctionProbedBars routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getvirtualfunctionprobedbars.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 02A86A3E-D543-4F0F-9985-7D42F381F8F1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> returns the BAR values that were reported by the device after a query that was performed by the PCI bus driver. This query determines the memory or I/O address space that is required by the device.
@@ -132,7 +132,7 @@ The device does not support the SR-IOV interface.
 
 
 
-The PCI bus driver. which runs in the management operating system  of the Hyper-V parent partition, queries the memory or I/O address space requirements of each  BAR of the device. The PCI bus driver performs this query when the it first detects the adapter on the bus. 
+The PCI bus driver. which runs in the management operating system  of the Hyper-V parent partition, queries the memory or I/O address space requirements of each  BAR of the device. The PCI bus driver performs this query when the it first detects the adapter on the bus.
 
 Through this BAR query, the PCI bus driver determines the following:
 

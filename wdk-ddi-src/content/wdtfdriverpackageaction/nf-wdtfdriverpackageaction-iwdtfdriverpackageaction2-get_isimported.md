@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_IsImported
 author: windows-driver-content
 description: Gets a value that indicates whether the driver package is imported.
 old-location: dtf\iwdtfdriverpackageaction2_isimported.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9385ad16-843a-4454-ab58-5ccecc3cf6e8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

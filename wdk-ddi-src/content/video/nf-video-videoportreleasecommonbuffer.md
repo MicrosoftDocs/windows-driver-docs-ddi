@@ -4,10 +4,10 @@ title: VideoPortReleaseCommonBuffer function
 author: windows-driver-content
 description: The VideoPortReleaseCommonBuffer function frees a common buffer that was previously allocated by VideoPortAllocateCommonBuffer.
 old-location: display\videoportreleasecommonbuffer.htm
-old-project: display
+tech.root: display
 ms.assetid: b3733de1-63ef-43b8-b669-dbe7e573b499
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices], VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, video/VideoPortReleaseCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

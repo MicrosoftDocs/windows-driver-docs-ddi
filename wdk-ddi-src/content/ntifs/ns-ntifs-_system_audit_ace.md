@@ -4,7 +4,7 @@ title: "_SYSTEM_AUDIT_ACE"
 author: windows-driver-content
 description: The SYSTEM_AUDIT_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what types of access cause system-level notifications.
 old-location: ifsk\system_audit_ace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 03806d36-0066-4603-ba53-10149778b4e7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PSCRIPT5_PRIVATE_DEVMODE"
 author: windows-driver-content
 description: The PSCRIPT5_PRIVATE_DEVMODE structure enables Pscript5 plug-ins to determine the size of the private portion of Pscript5's DEVMODEW structure.
 old-location: print\pscript5_private_devmode.htm
-old-project: print
+tech.root: print
 ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

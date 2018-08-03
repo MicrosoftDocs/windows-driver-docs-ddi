@@ -4,7 +4,7 @@ title: IPrinterExtensionContextCollection::GetAt
 author: windows-driver-content
 description: Gets a pointer to an IPrinterExtensionContext object.
 old-location: print\iprinterextensioncontextcollection_getat.htm
-old-project: print
+tech.root: print
 ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

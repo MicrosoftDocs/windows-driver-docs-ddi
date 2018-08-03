@@ -4,10 +4,10 @@ title: NdisMQueryProbedBars function
 author: windows-driver-content
 description: A miniport driver calls the NdisMQueryProbedBars function to obtain the values of a network adapter's PCI Express (PCIe) Base Address Registers (BARs).
 old-location: netvista\ndismqueryprobedbars.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 39deba08-3ff0-4037-b530-0cb4a01fc758
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista], ndis/NdisMQueryProbedBars, netvista.ndismqueryprobedbars
 ms.prod: windows-hardware
 ms.technology: windows-devices

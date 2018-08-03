@@ -4,7 +4,7 @@ title: IoCreateUnprotectedSymbolicLink function
 author: windows-driver-content
 description: The IoCreateUnprotectedSymbolicLink routine sets up an unprotected symbolic link between a device object name and a corresponding Win32-visible name.
 old-location: kernel\iocreateunprotectedsymboliclink.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: RIL_GetRFState function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getrfstate.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a73cd67e-839a-403c-9968-313417eac25a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetRFState, RIL_GetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getrfstate, rilapi/RIL_GetRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices

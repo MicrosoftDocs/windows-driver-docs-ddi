@@ -4,7 +4,7 @@ title: OEMOutputCharStr function
 author: windows-driver-content
 description: OEMOutputCharStr function
 old-location: print\oemoutputcharstr.htm
-old-project: print
+tech.root: print
 ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

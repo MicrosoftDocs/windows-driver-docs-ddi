@@ -4,7 +4,7 @@ title: PALLOCATE_COMMON_BUFFER_EX
 author: windows-driver-content
 description: The AllocateCommonBufferEx routine allocates memory for a common buffer and maps this memory so that it can be accessed both by the processor and by a device that performs DMA operations.
 old-location: kernel\allocatecommonbufferex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F7456BD7-689C-4534-B6F0-028A5359A2E9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

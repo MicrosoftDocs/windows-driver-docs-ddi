@@ -4,7 +4,7 @@ title: KsPinGetFirstCloneStreamPointer function
 author: windows-driver-content
 description: The KsPinGetFirstCloneStreamPointer function returns the first cloned stream pointer on Pin.
 old-location: stream\kspingetfirstclonestreampointer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9b4880af-d748-4a4e-92ec-8081138d4e27
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: "_D3DDDICB_CREATESYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: Describes a synchronization object that the pfnCreateSynchronizationObject2Cb function creates.
 old-location: display\d3dddicb_createsynchronizationobject2.htm
-old-project: display
+tech.root: display
 ms.assetid: 090fe0df-d2b4-4bfd-a3f3-38bc228337ab
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, display.d3dddicb_createsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices

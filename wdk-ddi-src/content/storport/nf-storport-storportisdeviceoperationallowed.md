@@ -4,7 +4,7 @@ title: StorPortIsDeviceOperationAllowed function
 author: windows-driver-content
 description: A miniport driver can call the StorPortIsDeviceOperationAllowedminiport routine to determine if operations for a certain device management class are allowed.
 old-location: storage\storportisdeviceoperationallowed.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: ZwSetVolumeInformationFile function
 author: windows-driver-content
 description: The ZwSetVolumeInformationFile routine modifies information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwsetvolumeinformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6afc3e8b-0be0-4728-b00f-deea5e60d27e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

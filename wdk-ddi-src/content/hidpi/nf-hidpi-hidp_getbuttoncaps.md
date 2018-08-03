@@ -4,7 +4,7 @@ title: HidP_GetButtonCaps function
 author: windows-driver-content
 description: The HidP_GetButtonCaps routine returns a button capability array that describes all the HID control buttons in a top-level collection for a specified type of HID report.
 old-location: hid\hidp_getbuttoncaps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 228b95b0-1087-422f-a995-809743c6103e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

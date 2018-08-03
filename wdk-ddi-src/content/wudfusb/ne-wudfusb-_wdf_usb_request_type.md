@@ -4,7 +4,7 @@ title: "_WDF_USB_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_USB_REQUEST_TYPE enumeration contains values that identify a type of USB request object.
 old-location: wdf\wdf_usb_request_type_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

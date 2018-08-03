@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_D3DKMT_CREATESWAPCHAIN_FLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

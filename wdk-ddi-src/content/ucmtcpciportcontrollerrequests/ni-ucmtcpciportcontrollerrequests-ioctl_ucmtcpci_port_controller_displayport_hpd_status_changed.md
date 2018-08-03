@@ -4,10 +4,10 @@ title: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED
 author: windows-driver-content
 description: Notifies the client driver that the hot-plug detect status of the DisplayPort connection has changed so that the driver can perform additional tasks.
 old-location: buses\ioctl_ucmtcpci_port_controller_displayport_hpd_status_changed.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 5FF692BE-14D2-403A-B7B3-C13CAFBECE05
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED, IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED control, IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED control code [Buses], buses.ioctl_ucmtcpci_port_controller_displayport_hpd_status_changed, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED
 ms.prod: windows-hardware
 ms.technology: windows-devices

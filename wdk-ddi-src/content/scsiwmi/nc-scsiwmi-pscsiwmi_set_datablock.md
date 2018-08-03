@@ -4,7 +4,7 @@ title: PSCSIWMI_SET_DATABLOCK
 author: windows-driver-content
 description: A miniport driver's HwScsiWmiSetDataBlock routine is called to change all data items in a single instance of a data block.
 old-location: storage\hwscsiwmisetdatablock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

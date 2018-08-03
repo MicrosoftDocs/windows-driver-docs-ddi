@@ -4,7 +4,7 @@ title: IInterFilterCommunicator::RequestWriter
 author: windows-driver-content
 description: The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object.
 old-location: print\iinterfiltercommunicator_requestwriter.htm
-old-project: print
+tech.root: print
 ms.assetid: 1f0684f0-e15e-491f-ba09-314f831d7ba9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: ZwDuplicateObject function
 author: windows-driver-content
 description: The ZwDuplicateObject routine creates a handle that is a duplicate of the specified source handle.
 old-location: kernel\zwduplicateobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9a922379-b439-4f94-9eb1-7c229318382c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

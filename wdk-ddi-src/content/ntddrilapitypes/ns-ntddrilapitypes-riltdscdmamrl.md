@@ -4,7 +4,7 @@ title: RILTDSCDMAMRL
 author: windows-driver-content
 description: This structure represents RILTDSCDMAMRL, which is a TD_SCDMA network measurement report.
 old-location: netvista\riltdscdmamrl.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 26399c62-c17a-40ad-964e-144badc55614
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -98,7 +98,7 @@ A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riltdscdmamrlpar
 
 ### -field dwCellID
 
-(Reserved for future use) Cell identity 28 bits (0...268435455). 
+(Reserved for future use) Cell identity 28 bits (0...268435455).
 
 
 ### -field dwUARFCN

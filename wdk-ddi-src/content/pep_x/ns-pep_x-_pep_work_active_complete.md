@@ -4,7 +4,7 @@ title: "_PEP_WORK_ACTIVE_COMPLETE"
 author: windows-driver-content
 description: The PEP_WORK_ACTIVE_COMPLETE structure identifies a component that is now in the active condition.
 old-location: kernel\pep_work_active_complete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

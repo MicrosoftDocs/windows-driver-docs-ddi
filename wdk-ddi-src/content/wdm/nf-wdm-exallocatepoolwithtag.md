@@ -4,7 +4,7 @@ title: ExAllocatePoolWithTag function
 author: windows-driver-content
 description: The ExAllocatePoolWithTag routine allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepoolwithtag.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

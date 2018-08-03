@@ -4,7 +4,7 @@ title: PsGetCurrentThreadId function
 author: windows-driver-content
 description: The PsGetCurrentThreadId routine identifies the current thread.
 old-location: kernel\psgetcurrentthreadid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c4da1dcb-435d-4e32-8114-3b0ae4352000
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

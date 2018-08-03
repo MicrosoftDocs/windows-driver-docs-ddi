@@ -4,7 +4,7 @@ title: WdfDeviceConfigureWdmIrpDispatchCallback function
 author: windows-driver-content
 description: The WdfDeviceConfigureWdmIrpDispatchCallback method registers a driver's EvtDeviceWdmIrpDispatch callback function.
 old-location: wdf\wdfdeviceconfigurewdmirpdispatchcallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 594E0FF1-A965-4CE4-A2EA-C9098685FCED
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

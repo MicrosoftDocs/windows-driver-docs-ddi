@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_COORDINATED_DEPENDENCY"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure describes dependencies for coordinated idle states.
 old-location: kernel\pep_ppm_query_coordinated_dependency.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B7E857ED-66FF-4A4D-849B-A15663106507
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

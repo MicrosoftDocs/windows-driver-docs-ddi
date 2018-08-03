@@ -4,7 +4,7 @@ title: "_DEVICE_DATA_SET_REPAIR_PARAMETERS"
 author: windows-driver-content
 description: The DEVICE_DATA_SET_REPAIR_PARAMETERS structure specifies the parameters of a storage spaces repair operation specified for a data set management action.
 old-location: storage\device_data_set_repair_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: BBA834D0-4D21-42EF-98B0-9AF3FF28E6E2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: FsRtlCancellableWaitForMultipleObjects function
 author: windows-driver-content
 description: The FsRtlCancellableWaitForMultipleObjects routine executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9fb5805c-bb12-41ba-8c72-526b4193b6b5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IoInvalidateDeviceState function
 author: windows-driver-content
 description: The IoInvalidateDeviceState routine notifies the PnP manager that some aspect of the PnP state of a device has changed.
 old-location: kernel\ioinvalidatedevicestate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ca27e8d3-80ee-467c-9c88-19770cd86d94
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -90,7 +90,7 @@ PNP_DEVICE_REMOVED
 
 PNP_DEVICE_RESOURCE_REQUIREMENTS_CHANGED
 
-For descriptions of the preceding constants, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>.
+For descriptions of the preceding constants, see [PNP_DEVICE_STATE](https://microsoft.com/en-us/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state).
 
 In response to this routine, the PnP manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551698">IRP_MN_QUERY_PNP_DEVICE_STATE</a> request to the device stack, to determine the current PnP state of the device.
 
@@ -106,7 +106,7 @@ In response to this routine, the PnP manager sends an <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
+[PNP_DEVICE_STATE](https://microsoft.com/en-us/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
  
 
  

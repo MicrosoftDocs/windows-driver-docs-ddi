@@ -4,7 +4,7 @@ title: RILUICCRECORDSTATUS
 author: windows-driver-content
 description: This structure represents RILUICCRECORDSTATUS.
 old-location: netvista\riluiccrecordstatus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -100,7 +100,7 @@ Specifies the size of each item in bytes.
 
 ### -field fileLockStatus
 
-An array of type <a href="..\rilapitypes\ns-rilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file. 
+An array of type <a href="..\rilapitypes\ns-rilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file.
 
 
 ## -see-also

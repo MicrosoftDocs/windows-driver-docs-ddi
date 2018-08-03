@@ -31,7 +31,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_PANEL_QUERY_BRIGHTNESS_CAPS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: "_STOR_RICH_DEVICE_DESCRIPTION"
 author: windows-driver-content
 description: The STOR_RICH_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA (direct memory access) adapter.
 old-location: storage\stor_rich_device_description.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_TAPE_SET_MEDIA_PARAMETERS"
 author: windows-driver-content
 description: The TAPE_SET_MEDIA_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_SET_MEDIA_PARAMS request to reset the block size of the media in a tape drive.
 old-location: storage\tape_set_media_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f038eb24-71d2-414c-ad7c-06cb1fa24070
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

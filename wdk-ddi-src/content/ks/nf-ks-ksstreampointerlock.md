@@ -4,7 +4,7 @@ title: KsStreamPointerLock function
 author: windows-driver-content
 description: The KsStreamPointerLock function attempts to lock the specified stream pointer.
 old-location: stream\ksstreampointerlock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: eb960301-2afa-42f7-a2ea-129d85c49db9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

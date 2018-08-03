@@ -4,7 +4,7 @@ title: PsUpdateDiskCounters function
 author: windows-driver-content
 description: The PsUpdateDiskCounters routine updates the disk I/O counters of a given process.
 old-location: ifsk\psupdatediskcounters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

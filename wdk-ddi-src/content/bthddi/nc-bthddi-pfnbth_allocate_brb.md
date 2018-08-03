@@ -4,7 +4,7 @@ title: PFNBTH_ALLOCATE_BRB
 author: windows-driver-content
 description: The BthAllocateBrb function allocates a Bluetooth request block (BRB) of the specified type.
 old-location: bltooth\bthallocatebrb.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: e1ac9d4c-75e2-4d37-86d7-3c3f1486222e
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

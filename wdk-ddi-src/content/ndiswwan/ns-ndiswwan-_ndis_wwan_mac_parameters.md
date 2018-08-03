@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_MAC_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_WWAN_MAC_PARAMETERS structure is used by OID_WWAN_CREATE_MAC when processing a request to create an NDIS port for a new PDP context.
 old-location: netvista\ndis_wwan_mac_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 661DA853-E848-4FEB-995F-EC5F20CE36EB
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_PARAMETERS, PNDIS_WWAN_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_PARAMETERS, ndiswwan/NDIS_WWAN_MAC_PARAMETERS, ndiswwan/PNDIS_WWAN_MAC_PARAMETERS, netvista.ndis_wwan_mac_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

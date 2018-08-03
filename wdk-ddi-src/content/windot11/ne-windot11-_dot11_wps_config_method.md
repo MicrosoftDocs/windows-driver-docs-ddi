@@ -4,7 +4,7 @@ title: "_DOT11_WPS_CONFIG_METHOD"
 author: windows-driver-content
 description: The DOT11_WPS_CONFIG_METHOD enumeration specifies the Wi-Fi Protected Setup methods.
 old-location: netvista\dot11_wps_config_method.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: FFA5B3FF-57AF-4701-97FB-E1182CDE8F7A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_WPS_CONFIG_METHOD { 
+typedef enum _DOT11_WPS_CONFIG_METHOD {
   DOT11_WPS_CONFIG_METHOD_NULL        = 0,
   DOT11_WPS_CONFIG_METHOD_DISPLAY     = 0x0008,
   DOT11_WPS_CONFIG_METHOD_PUSHBUTTON  = 0x0080,

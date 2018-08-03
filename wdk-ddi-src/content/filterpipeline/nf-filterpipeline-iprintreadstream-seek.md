@@ -4,7 +4,7 @@ title: IPrintReadStream::Seek
 author: windows-driver-content
 description: The Seek method changes the seek pointer to a new location in the stream.
 old-location: print\iprintreadstream_seek.htm
-old-project: print
+tech.root: print
 ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

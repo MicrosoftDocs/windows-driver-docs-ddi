@@ -4,10 +4,10 @@ title: "_USBDEVICE_STARTIO"
 author: windows-driver-content
 description: Contains a handle for the Universal Serial Bus (USB) hub or device on which to start data transfer.
 old-location: buses\_usbdevice_startio.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBDEVICE_STARTIO, P_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], _USBDEVICE_STARTIO, buses._usbdevice_startio, ucxusbdevice/P_USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

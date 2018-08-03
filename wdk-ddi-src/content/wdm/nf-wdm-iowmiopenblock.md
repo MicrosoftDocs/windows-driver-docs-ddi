@@ -4,7 +4,7 @@ title: IoWMIOpenBlock function
 author: windows-driver-content
 description: The IoWMIOpenBlock routine opens the WMI data block object for the specified WMI class.
 old-location: kernel\iowmiopenblock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

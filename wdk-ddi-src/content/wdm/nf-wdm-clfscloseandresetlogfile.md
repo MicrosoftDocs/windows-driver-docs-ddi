@@ -4,7 +4,7 @@ title: ClfsCloseAndResetLogFile function
 author: windows-driver-content
 description: The ClfsCloseAndResetLogFile routine releases all references to a specified log file object and marks its associated stream for reset.
 old-location: kernel\clfscloseandresetlogfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5b52a012-1e3e-4d1f-8780-a7015b2f3c5f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

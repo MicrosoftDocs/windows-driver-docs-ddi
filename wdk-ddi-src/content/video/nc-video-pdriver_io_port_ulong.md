@@ -4,10 +4,10 @@ title: PDRIVER_IO_PORT_ULONG
 author: windows-driver-content
 description: SvgaHwIoPortUlong traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of ULONG-sized data.
 old-location: display\svgahwioportulong.htm
-old-project: display
+tech.root: display
 ms.assetid: e749188f-a255-403a-8ae9-a2c3c9b41c58
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PDRIVER_IO_PORT_ULONG, PDRIVER_IO_PORT_ULONG callback, SvgaHwIoPortUlong, SvgaHwIoPortUlong callback function [Display Devices], VideoMiniport_Functions_84ae9115-8192-469a-b3c1-536d3964d906.xml, display.svgahwioportulong, video/SvgaHwIoPortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices

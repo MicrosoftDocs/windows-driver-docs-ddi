@@ -4,7 +4,7 @@ title: ExGetFirmwareType function
 author: windows-driver-content
 description: Returns the system firmware type.
 old-location: kernel\exgetfirmwaretype.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b8a420d5-7741-4676-9956-dcf996125c6d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

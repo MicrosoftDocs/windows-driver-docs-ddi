@@ -4,7 +4,7 @@ title: StorPortGetRequestCryptoInfo function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storportgetrequestcryptoinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: B8D1E882-FBFA-4CB1-83D3-CB817F111F20
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

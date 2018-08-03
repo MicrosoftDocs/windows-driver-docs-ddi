@@ -4,7 +4,7 @@ title: "_UNIT_DIAG_LEVEL"
 author: windows-driver-content
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current diag level
 old-location: ieee\unit_diag_level.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 2759486f-7eaa-4af4-b9a9-2e44354f411b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

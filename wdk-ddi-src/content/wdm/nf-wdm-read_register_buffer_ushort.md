@@ -4,7 +4,7 @@ title: READ_REGISTER_BUFFER_USHORT function
 author: windows-driver-content
 description: The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

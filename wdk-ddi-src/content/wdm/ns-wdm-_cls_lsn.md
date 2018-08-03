@@ -4,7 +4,7 @@ title: "_CLS_LSN"
 author: windows-driver-content
 description: The CLFS_LSN structure identifies an individual record in a Common Log File System (CLFS) stream.
 old-location: kernel\clfs_lsn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ac50c4e1-4b87-4c6e-a5c7-24f961224134
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_DOT11_WFD_ATTRIBUTES"
 author: windows-driver-content
 description: The DOT11_WFD_ATTRIBUTES structure is returned in an NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES indication. The structure defines the attributes related to Wi-Fi Direct (WFD) operation modes.
 old-location: netvista\dot11_wfd_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7B221221-5C91-45DA-85C5-5E7CF71E6689
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -125,7 +125,7 @@ The Wi-Fi Protected Services (WPS) versions supported by the miniport driver. Th
 
 ### -field bServiceDiscoverySupported
 
-If TRUE, the miniport supports sending and responding to WFD Service Discovery Queries. Otherwise, Service Discovery Queries are not supported. 
+If TRUE, the miniport supports sending and responding to WFD Service Discovery Queries. Otherwise, Service Discovery Queries are not supported.
 
 
 ### -field bClientDiscoverabilitySupported

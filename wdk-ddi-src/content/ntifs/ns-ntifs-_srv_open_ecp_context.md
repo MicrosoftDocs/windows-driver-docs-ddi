@@ -4,7 +4,7 @@ title: "_SRV_OPEN_ECP_CONTEXT"
 author: windows-driver-content
 description: The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests.
 old-location: ifsk\srv_open_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

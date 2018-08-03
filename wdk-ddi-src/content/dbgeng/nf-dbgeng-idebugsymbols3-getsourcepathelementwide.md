@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetSourcePathElementWide
 author: windows-driver-content
 description: The GetSourcePathElementWide method returns an element from the source path.
 old-location: debugger\getsourcepathelementwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 724ee7a6-a0ef-440b-a0d4-5eecda77338a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSourcePathElementWide, GetSourcePathElementWide method [Windows Debugging], GetSourcePathElementWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourcePathElementWide method, IDebugSymbols3.GetSourcePathElementWide, IDebugSymbols3::GetSourcePathElementWide, dbgeng/IDebugSymbols3::GetSourcePathElementWide, debugger.getsourcepathelementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

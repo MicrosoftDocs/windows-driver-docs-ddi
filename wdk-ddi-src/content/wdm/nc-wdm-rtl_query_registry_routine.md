@@ -4,7 +4,7 @@ title: RTL_QUERY_REGISTRY_ROUTINE
 author: windows-driver-content
 description: The QueryRoutine routine provides information about a registry value that was requested in a preceding call to the RtlQueryRegistryValues routine.
 old-location: kernel\queryroutine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 28f9cfcd-ed2e-4760-9016-3542c27cb347
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

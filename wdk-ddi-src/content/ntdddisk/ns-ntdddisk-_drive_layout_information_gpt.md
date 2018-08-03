@@ -4,7 +4,7 @@ title: "_DRIVE_LAYOUT_INFORMATION_GPT"
 author: windows-driver-content
 description: The DRIVE_LAYOUT_INFORMATION_GPT structure reports the drive signature for a GUID Partition Table partition.
 old-location: storage\drive_layout_information_gpt.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d99180e0-d989-470c-b330-23372938ab25
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

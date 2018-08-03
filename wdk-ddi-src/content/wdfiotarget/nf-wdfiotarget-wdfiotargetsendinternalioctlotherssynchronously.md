@@ -4,7 +4,7 @@ title: WdfIoTargetSendInternalIoctlOthersSynchronously function
 author: windows-driver-content
 description: The WdfIoTargetSendInternalIoctlOthersSynchronously method builds a non-standard internal device control request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendinternalioctlotherssynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 53070b37-3836-49c2-91d1-369552afe214
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IOCTL_DOT4_DESTROY_SOCKET
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_DESTROY_SOCKET.
 old-location: print\ioctl_ioctl_dot4_destroy_socket.htm
-old-project: print
+tech.root: print
 ms.assetid: D6479299-F00D-4709-B8D6-3840E285953A
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

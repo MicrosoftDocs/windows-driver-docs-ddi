@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::IsImported
 author: windows-driver-content
 description: Returns a value that indicates whether a package has already been imported.
 old-location: dtf\iwdtfdriversetupsystemaction2_isimported.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2b6e0fc6-33c6-4dcf-8def-b0e081e2405b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

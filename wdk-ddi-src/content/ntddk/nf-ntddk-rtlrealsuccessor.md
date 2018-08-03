@@ -4,7 +4,7 @@ title: RtlRealSuccessor function
 author: windows-driver-content
 description: The RtlRealSuccessor routine returns a pointer to the successor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealsuccessor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 19180ab8-7ac6-45cb-8f17-b16368bbb32b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_ISCSI_DiscoveredTargetPortal"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTargetPortal structure provides information that is associated with a discovered target portal.
 old-location: storage\iscsi_discoveredtargetportal.htm
-old-project: storage
+tech.root: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

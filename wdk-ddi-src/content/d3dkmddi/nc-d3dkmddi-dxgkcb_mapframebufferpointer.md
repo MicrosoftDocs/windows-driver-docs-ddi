@@ -34,7 +34,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	DXGKCB_MAPFRAMEBUFFERPOINTER
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

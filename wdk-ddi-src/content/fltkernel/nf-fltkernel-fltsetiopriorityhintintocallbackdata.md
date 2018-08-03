@@ -4,7 +4,7 @@ title: FltSetIoPriorityHintIntoCallbackData function
 author: windows-driver-content
 description: The FltSetIoPriorityHintIntoCallbackData routine is used by a minifilter driver to set the I/O priority information in callback data.
 old-location: ifsk\fltsetiopriorityhintintocallbackdata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25aba58b-654b-4492-9c54-83c53987342a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

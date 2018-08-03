@@ -4,7 +4,7 @@ title: HBA_PortAttributes
 author: windows-driver-content
 description: The structure is used by the HBA_GetPortAttributesByWWN fibre channel HBA library routine to report the attributes for a specified remote fibre channel port.
 old-location: storage\hba_portattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

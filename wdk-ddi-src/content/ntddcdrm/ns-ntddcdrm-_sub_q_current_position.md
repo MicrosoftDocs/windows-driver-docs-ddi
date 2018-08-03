@@ -4,7 +4,7 @@ title: "_SUB_Q_CURRENT_POSITION"
 author: windows-driver-content
 description: The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with SUB_Q_CHANNEL_DATA.
 old-location: storage\sub_q_current_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

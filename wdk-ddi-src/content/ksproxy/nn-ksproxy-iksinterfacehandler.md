@@ -4,7 +4,7 @@ title: IKsInterfaceHandler
 author: windows-driver-content
 description: The IKsInterfaceHandler interface provides methods that marshal samples into the kernel based on the KSPIN_INTERFACE structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
 old-location: stream\iksinterfacehandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b9f72e79-930c-456e-8001-5df808604caa
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

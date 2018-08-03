@@ -4,7 +4,7 @@ title: PMRX_PREPARSE_NAME
 author: windows-driver-content
 description: The MRxPreparseName routine is called by RDBSS to give a network mini-redirector the opportunity to preparse a name.
 old-location: ifsk\mrxpreparsename.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b74acc12-8fc2-497f-9f65-8b1a85a03286
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

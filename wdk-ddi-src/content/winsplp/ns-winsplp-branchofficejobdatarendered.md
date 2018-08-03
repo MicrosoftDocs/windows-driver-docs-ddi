@@ -4,7 +4,7 @@ title: BranchOfficeJobDataRendered
 author: windows-driver-content
 description: Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.
 old-location: print\branchofficejobdatarendered.htm
-old-project: print
+tech.root: print
 ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: WdfIoTargetWdmGetTargetDeviceObject function
 author: windows-driver-content
 description: The WdfIoTargetWdmGetTargetDeviceObject method returns a pointer to the Windows Driver Model (WDM) device object that is associated with a specified local or remote I/O target.
 old-location: wdf\wdfiotargetwdmgettargetdeviceobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 199c2fd6-ecff-4b72-b55d-086687989485
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

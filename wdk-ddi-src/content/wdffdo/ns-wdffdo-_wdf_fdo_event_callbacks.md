@@ -4,7 +4,7 @@ title: "_WDF_FDO_EVENT_CALLBACKS"
 author: windows-driver-content
 description: The WDF_FDO_EVENT_CALLBACKS structure contains pointers to a function driver's PnP event callback functions.
 old-location: wdf\wdf_fdo_event_callbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 61e268aa-782a-42d5-8965-b935156033cb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

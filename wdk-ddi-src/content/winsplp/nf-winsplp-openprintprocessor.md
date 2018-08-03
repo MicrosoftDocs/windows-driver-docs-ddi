@@ -4,7 +4,7 @@ title: OpenPrintProcessor function
 author: windows-driver-content
 description: A print processor's OpenPrintProcessor function prepares the print processor for printing a job and returns a handle.
 old-location: print\openprintprocessor.htm
-old-project: print
+tech.root: print
 ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

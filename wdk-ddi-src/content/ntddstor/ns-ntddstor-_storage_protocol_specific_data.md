@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_SPECIFIC_DATA"
 author: windows-driver-content
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_specific_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 74569A0A-5828-4533-8974-4DE0B4EAAAEB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

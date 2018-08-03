@@ -4,7 +4,7 @@ title: "_PRINTPROVIDOR"
 author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\printprovidor.htm
-old-project: print
+tech.root: print
 ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

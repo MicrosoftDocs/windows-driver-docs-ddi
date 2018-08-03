@@ -4,7 +4,7 @@ title: "_DVD_MANUFACTURER_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_MANUFACTURER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD manufacturer descriptor.
 old-location: storage\dvd_manufacturer_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 19a65a8f-5272-424a-85b3-88074fb9e22f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

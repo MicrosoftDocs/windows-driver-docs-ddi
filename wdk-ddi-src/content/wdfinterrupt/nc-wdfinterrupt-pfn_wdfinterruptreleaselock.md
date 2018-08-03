@@ -4,7 +4,7 @@ title: PFN_WDFINTERRUPTRELEASELOCK
 author: windows-driver-content
 description: The WdfInterruptReleaseLock method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptreleaselock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a3b68f6f-d482-4350-a5b8-9fe6afdefb69
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2, WdfInterruptLock, WdfInterruptLockRelease
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: See Remarks section.
 topictype:
 -	APIRef
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WdfInterruptReleaseLock</b> method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock. 
+The <b>WdfInterruptReleaseLock</b> method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 
 For passive level interrupt objects, the method ends a code sequence that executes at passive level while holding an interrupt object's passive lock.
 

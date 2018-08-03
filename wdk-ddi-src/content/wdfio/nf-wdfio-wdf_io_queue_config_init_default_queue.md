@@ -4,7 +4,7 @@ title: WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function
 author: windows-driver-content
 description: The WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function initializes a driver's WDF_IO_QUEUE_CONFIG structure.
 old-location: wdf\wdf_io_queue_config_init_default_queue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c7d0c483-b534-471b-8172-174abdbb3c6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

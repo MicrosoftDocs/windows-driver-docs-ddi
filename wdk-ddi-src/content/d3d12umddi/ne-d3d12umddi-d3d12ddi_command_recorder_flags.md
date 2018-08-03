@@ -28,7 +28,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_COMMAND_RECORDER_FLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

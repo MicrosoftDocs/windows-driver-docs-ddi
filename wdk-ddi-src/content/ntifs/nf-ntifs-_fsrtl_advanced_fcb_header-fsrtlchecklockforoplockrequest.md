@@ -4,7 +4,7 @@ title: FsRtlCheckLockForOplockRequest function
 author: windows-driver-content
 description: The FsRtlCheckLockForOplockRequest routine checks for locks within the allocation size of a file. The file lock object is checked for the presence of byte range locks that would prevent an oplock request from being granted.
 old-location: ifsk\fsrtlchecklockforoplockrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 67056CD0-EBFB-4E34-9613-98ECBB858810
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

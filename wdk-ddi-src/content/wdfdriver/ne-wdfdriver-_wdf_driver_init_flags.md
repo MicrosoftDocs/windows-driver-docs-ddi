@@ -4,7 +4,7 @@ title: "_WDF_DRIVER_INIT_FLAGS"
 author: windows-driver-content
 description: The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 old-location: wdf\wdf_driver_init_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: "_DXGK_DISPLAY_INFORMATION"
 author: windows-driver-content
 description: Contains the display information that is passed between the operating system and the display miniport driver when the driver is started or stopped in response to a Plug and Play (PnP) event.
 old-location: display\dxgk_display_information.htm
-old-project: display
+tech.root: display
 ms.assetid: e6902724-a81b-4a06-8089-a8e98392dc78
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION structure [Display Devices], PDXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], _DXGK_DISPLAY_INFORMATION, d3dkmdt/DXGK_DISPLAY_INFORMATION, d3dkmdt/PDXGK_DISPLAY_INFORMATION, display.dxgk_display_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices

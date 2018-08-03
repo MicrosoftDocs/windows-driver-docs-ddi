@@ -4,7 +4,7 @@ title: TmRecoverTransactionManager function
 author: windows-driver-content
 description: The TmRecoverTransactionManager routine reconstructs the state of the transaction manager object (including all transactions, enlistments, and resource managers) from the recovery information that is in the log stream.
 old-location: kernel\tmrecovertransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 67b18170-a17f-44fd-a5ab-12bccf2082fe
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

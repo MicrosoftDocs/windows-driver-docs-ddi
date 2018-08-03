@@ -4,7 +4,7 @@ title: WdfIoTargetClose function
 author: windows-driver-content
 description: The WdfIoTargetClose method closes a specified remote I/O target.
 old-location: wdf\wdfiotargetclose.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7de1ce11-a2b3-4d68-b279-4652b822297b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

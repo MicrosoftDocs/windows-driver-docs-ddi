@@ -4,10 +4,10 @@ title: "_HDAUDIO_BUS_INTERFACE_V2"
 author: windows-driver-content
 description: The HDAUDIO_BUS_INTERFACE_V2 structure specifies the information that a client requires to call the routines in the HDAUDIO_BUS_INTERFACE_V2 version of the HD Audio DDI.
 old-location: audio\hdaudio_bus_interface_v2.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 7d639909-dc56-4ec5-b596-bfbbf262a3d9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*PHDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2 structure [Audio Devices], PHDAUDIO_BUS_INTERFACE_V2, PHDAUDIO_BUS_INTERFACE_V2 structure pointer [Audio Devices], _HDAUDIO_BUS_INTERFACE_V2, aud-prop2_42a4681c-608a-479b-a33d-725f9625d64b.xml, audio.hdaudio_bus_interface_v2, hdaudio/HDAUDIO_BUS_INTERFACE_V2, hdaudio/PHDAUDIO_BUS_INTERFACE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

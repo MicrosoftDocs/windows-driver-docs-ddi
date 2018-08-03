@@ -4,10 +4,10 @@ title: "_D3DDDI_OPENRESOURCEFLAGS"
 author: windows-driver-content
 description: The D3DDDI_OPENRESOURCEFLAGS structure identifies the type of resource to open.
 old-location: display\d3dddi_openresourceflags.htm
-old-project: display
+tech.root: display
 ms.assetid: f65fda13-3d05-4e1b-b0c7-01e43a9bf09e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, _D3DDDI_OPENRESOURCEFLAGS, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, display.d3dddi_openresourceflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

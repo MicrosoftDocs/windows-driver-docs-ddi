@@ -4,7 +4,7 @@ title: WdfChildListBeginIteration function
 author: windows-driver-content
 description: The WdfChildListBeginIteration method prepares the framework for retrieving items from a specified child list.
 old-location: wdf\wdfchildlistbeginiteration.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b81dbad8-0e03-4183-a7b3-32c75a656575
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: "_D3DKMDT_VIDPN_PRESENT_PATH"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH structure contains information about a video present path.
 old-location: display\d3dkmdt_vidpn_present_path.htm
-old-project: display
+tech.root: display
 ms.assetid: 3676476d-babe-4d68-995b-b7068a587bbc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, _D3DKMDT_VIDPN_PRESENT_PATH, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, display.d3dkmdt_vidpn_present_path
 ms.prod: windows-hardware
 ms.technology: windows-devices

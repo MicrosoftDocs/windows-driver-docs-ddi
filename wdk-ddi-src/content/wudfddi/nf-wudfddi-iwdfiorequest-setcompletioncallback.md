@@ -4,7 +4,7 @@ title: IWDFIoRequest::SetCompletionCallback
 author: windows-driver-content
 description: The SetCompletionCallback method registers the interface for the OnCompletion method that the framework should call when an I/O request completes.
 old-location: wdf\iwdfiorequest_setcompletioncallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

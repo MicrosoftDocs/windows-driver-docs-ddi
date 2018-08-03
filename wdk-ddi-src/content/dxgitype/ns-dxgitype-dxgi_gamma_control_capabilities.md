@@ -4,10 +4,10 @@ title: DXGI_GAMMA_CONTROL_CAPABILITIES
 author: windows-driver-content
 description: The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities.
 old-location: display\dxgi_gamma_control_capabiliites.htm
-old-project: display
+tech.root: display
 ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, display.dxgi_gamma_control_capabiliites, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES
 ms.prod: windows-hardware
 ms.technology: windows-devices

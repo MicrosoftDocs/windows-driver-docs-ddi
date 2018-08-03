@@ -4,7 +4,7 @@ title: WMI_SET_DATAITEM_CALLBACK
 author: windows-driver-content
 description: The DpWmiSetDataItem routine changes a single data item in an instance of a data block. This routine is optional.
 old-location: kernel\dpwmisetdataitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

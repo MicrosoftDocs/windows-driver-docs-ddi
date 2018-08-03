@@ -4,10 +4,10 @@ title: "_UCX_CONTROLLER_ACPI_INFORMATION"
 author: windows-driver-content
 description: This structure provides information about an advanced Configuration and power interface (ACPI) USB controller.
 old-location: buses\_ucx_controller_acpi_information.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], _UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: RtlAllocateHeap function
 author: windows-driver-content
 description: The RtlAllocateHeap routine allocates a block of memory from a heap.
 old-location: ifsk\rtlallocateheap.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

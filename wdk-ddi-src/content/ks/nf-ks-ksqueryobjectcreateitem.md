@@ -4,7 +4,7 @@ title: KsQueryObjectCreateItem function
 author: windows-driver-content
 description: The KsQueryObjectCreateItem function returns the create item assigned to the object when created.
 old-location: stream\ksqueryobjectcreateitem.htm
-old-project: stream
+tech.root: stream
 ms.assetid: dd6d436c-6166-4baf-b180-67f7aa7238e3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

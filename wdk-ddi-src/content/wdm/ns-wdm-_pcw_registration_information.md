@@ -4,7 +4,7 @@ title: "_PCW_REGISTRATION_INFORMATION"
 author: windows-driver-content
 description: The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counter set.
 old-location: devtest\pcw_registration_information.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: f5305351-10b4-47e6-a8b6-e1a91c605ca9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

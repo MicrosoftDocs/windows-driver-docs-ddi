@@ -4,7 +4,7 @@ title: PsReferenceImpersonationToken function
 author: windows-driver-content
 description: The PsReferenceImpersonationToken routine increments the reference count of the impersonation token for the specified thread.
 old-location: ifsk\psreferenceimpersonationtoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

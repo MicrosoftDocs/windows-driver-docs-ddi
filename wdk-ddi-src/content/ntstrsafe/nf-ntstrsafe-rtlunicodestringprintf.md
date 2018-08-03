@@ -4,7 +4,7 @@ title: RtlUnicodeStringPrintf function
 author: windows-driver-content
 description: The RtlUnicodeStringPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringprintf.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a646a63a-9a92-49ae-adfc-97d6b726caac
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RegisterOpRegionHandler function
 author: windows-driver-content
 description: The RegisterOpRegionHandler routine registers an operation region handler with the ACPI driver.
 old-location: acpi\registeropregionhandler.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

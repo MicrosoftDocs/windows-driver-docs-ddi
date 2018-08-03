@@ -4,7 +4,7 @@ title: RtlFreeUnicodeString function
 author: windows-driver-content
 description: The RtlFreeUnicodeString routine releases storage that was allocated by RtlAnsiStringToUnicodeString or RtlUpcaseUnicodeString.
 old-location: kernel\rtlfreeunicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

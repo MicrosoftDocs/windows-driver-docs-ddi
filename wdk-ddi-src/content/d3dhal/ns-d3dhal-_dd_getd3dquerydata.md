@@ -4,10 +4,10 @@ title: "_DD_GETD3DQUERYDATA"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETD3DQUERYDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETD3DQUERY.
 old-location: display\dd_getd3dquerydata.htm
-old-project: display
+tech.root: display
 ms.assetid: a3bacd56-c25a-45d1-bd9f-b19bc1f95c8f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA structure [Display Devices], _DD_GETD3DQUERYDATA, d3dhal/DD_GETD3DQUERYDATA, d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml, display.dd_getd3dquerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices

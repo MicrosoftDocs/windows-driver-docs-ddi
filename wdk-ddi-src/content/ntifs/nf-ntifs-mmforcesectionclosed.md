@@ -4,7 +4,7 @@ title: MmForceSectionClosed function
 author: windows-driver-content
 description: The MmForceSectionClosed routine deletes the data and image sections for a file that is no longer in use.
 old-location: ifsk\mmforcesectionclosed.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aa598c4b-e840-41cb-81a3-719a5b1ee48b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

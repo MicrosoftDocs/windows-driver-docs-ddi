@@ -4,7 +4,7 @@ title: "_CMP_CONNECT_VER3"
 author: windows-driver-content
 description: This structure contains information for a connection request.
 old-location: ieee\cmp_connect_ver3.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 1F2C2B8E-6535-40F1-A5D3-46DAD43E923E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

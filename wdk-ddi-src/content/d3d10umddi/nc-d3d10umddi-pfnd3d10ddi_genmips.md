@@ -4,10 +4,10 @@ title: PFND3D10DDI_GENMIPS
 author: windows-driver-content
 description: The GenMips function generates the lower MIP-map levels on the specified shader-resource view.
 old-location: display\genmips.htm
-old-project: display
+tech.root: display
 ms.assetid: abd045f2-9c05-4579-8d80-aba31523157d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GenMips, GenMips callback function [Display Devices], PFND3D10DDI_GENMIPS, PFND3D10DDI_GENMIPS callback, UserModeDisplayDriverDx10_Functions_56ecca1c-6b70-4ed8-9831-aec5fa5416cf.xml, d3d10umddi/GenMips, display.genmips
 ms.prod: windows-hardware
 ms.technology: windows-devices

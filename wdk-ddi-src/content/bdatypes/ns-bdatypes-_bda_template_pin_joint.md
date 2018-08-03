@@ -4,7 +4,7 @@ title: "_BDA_TEMPLATE_PIN_JOINT"
 author: windows-driver-content
 description: The BDA_TEMPLATE_PIN_JOINT structure describes a joint in a template topology.
 old-location: stream\bda_template_pin_joint.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 83df4c9e-7122-4087-9d03-98f2eeed4ec4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: PCI_MSIX_SET_ENTRY
 author: windows-driver-content
 description: The SetTableEntry routine sets the message ID for a table entry in the MSI-X hardware interrupt table.
 old-location: kernel\settableentry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A8F2A43B-CAEF-4EE6-AB3F-1DF5A9D3F7A5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

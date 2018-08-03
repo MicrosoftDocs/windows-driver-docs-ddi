@@ -4,7 +4,7 @@ title: WdfPdoRetrieveIdentificationDescription function
 author: windows-driver-content
 description: The WdfPdoRetrieveIdentificationDescription method retrieves the identification description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoretrieveidentificationdescription.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fac29ced-7acc-4c2a-ac8a-171b8dd1d45e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

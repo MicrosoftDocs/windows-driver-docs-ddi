@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 author: windows-driver-content
 description: This I/O control function checks the device health.
 old-location: pos\ioctl_point_of_service_check_health.htm
-old-project: pos
+tech.root: pos
 ms.assetid: b11be48b-e791-4599-80da-2446791f3816
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: KeReleaseGuardedMutex function
 author: windows-driver-content
 description: The KeReleaseGuardedMutex routine releases a guarded mutex acquired with KeAcquireGuardedMutex or KeTryToAcquireGuardedMutex.
 old-location: kernel\kereleaseguardedmutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0734094d-0386-4b00-a2cb-881b782108dc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

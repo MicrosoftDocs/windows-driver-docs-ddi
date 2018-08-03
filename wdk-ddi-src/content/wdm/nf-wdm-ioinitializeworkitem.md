@@ -4,7 +4,7 @@ title: IoInitializeWorkItem function
 author: windows-driver-content
 description: The IoInitializeWorkItem routine initializes a work item that the caller has already allocated.
 old-location: kernel\ioinitializeworkitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

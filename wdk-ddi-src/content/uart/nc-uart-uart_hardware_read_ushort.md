@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_READ_USHORT
 title: UART_HARDWARE_READ_USHORT
 author: windows-driver-content
 description: Reads a USHORT value from the specified port or register.
-old-project: serports
+tech.root: serports
 ms.assetid: d516dfad-577b-4c6b-87df-ab6c7ce5c7f8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_READ_USHORT
 product: Windows
 targetos: Windows
@@ -43,18 +43,18 @@ targetos: Windows
 
 ## -description
 
-Reads a USHORT value from the specified port or register. 
+Reads a USHORT value from the specified port or register.
 
 ## -prototype
 
 ```
 //Declaration
 
-UART_HARDWARE_READ_USHORT UartHardwareReadUshort; 
+UART_HARDWARE_READ_USHORT UartHardwareReadUshort;
 
 // Definition
 
-USHORT UartHardwareReadUshort 
+USHORT UartHardwareReadUshort
 (
 	PUSHORT Address
 )

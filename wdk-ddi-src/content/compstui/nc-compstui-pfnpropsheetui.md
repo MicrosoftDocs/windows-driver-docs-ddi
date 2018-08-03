@@ -4,7 +4,7 @@ title: PFNPROPSHEETUI
 author: windows-driver-content
 description: The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining page creation callbacks, which specify property sheet pages for creation.
 old-location: print\pfnpropsheetui.htm
-old-project: print
+tech.root: print
 ms.assetid: b78d0dd7-1fe9-4b7e-8f51-4b5dc5fa2571
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

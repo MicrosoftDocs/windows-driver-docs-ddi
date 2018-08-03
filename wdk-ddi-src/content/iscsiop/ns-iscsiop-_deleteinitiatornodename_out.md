@@ -4,7 +4,7 @@ title: "_DeleteInitiatorNodeName_OUT"
 author: windows-driver-content
 description: The DeleteInitiatorNodeName_OUT structure holds the output data for the DeleteInitiatorNodeName method.
 old-location: storage\deleteinitiatornodename_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 105f6687-ea0f-45e9-be44-eafdd06156eb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

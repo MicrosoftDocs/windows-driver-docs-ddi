@@ -4,7 +4,7 @@ title: ClfsReserveAndAppendLog function
 author: windows-driver-content
 description: The ClfsReserveAndAppendLog routine reserves space in a marshalling area or appends a record to a marshalling area or does both atomically.
 old-location: kernel\clfsreserveandappendlog.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e3ffbf18-151b-42da-8fc1-ae07c152738c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

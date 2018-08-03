@@ -4,7 +4,7 @@ title: KeRaiseIrqlToDpcLevel function
 author: windows-driver-content
 description: The KeRaiseIrqlToDpcLevel routine raises the hardware priority to IRQL = DISPATCH_LEVEL, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 old-location: kernel\keraiseirqltodpclevel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ac82e003-ec05-4b8b-a4fb-64498fb17f9b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

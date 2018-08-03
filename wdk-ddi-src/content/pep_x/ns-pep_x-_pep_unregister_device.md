@@ -4,7 +4,7 @@ title: "_PEP_UNREGISTER_DEVICE"
 author: windows-driver-content
 description: The PEP_UNREGISTER_DEVICE structure identifies a device whose registration is being removed from the Windows power management framework (PoFx).
 old-location: kernel\pep_unregister_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

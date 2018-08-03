@@ -4,7 +4,7 @@ title: "_REASSIGN_BLOCKS"
 author: windows-driver-content
 description: The REASSIGN_BLOCKS structure is used in conjunction with the IOCTL_DISK_REASSIGN_BLOCKS request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 old-location: storage\reassign_blocks.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b79f15d8-b777-43dc-82b9-fcd1ba19aebd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

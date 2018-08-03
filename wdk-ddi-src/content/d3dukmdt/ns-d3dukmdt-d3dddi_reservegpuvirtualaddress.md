@@ -4,10 +4,10 @@ title: D3DDDI_RESERVEGPUVIRTUALADDRESS
 author: windows-driver-content
 description: D3DDDI_RESERVEGPUVIRTUALADDRESS is used with pfnReserveGpuVirtualAddressCb to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
 old-location: display\d3dddi_reservegpuvirtualaddress.htm
-old-project: display
+tech.root: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

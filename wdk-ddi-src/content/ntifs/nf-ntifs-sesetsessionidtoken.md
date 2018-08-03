@@ -4,7 +4,7 @@ title: SeSetSessionIdToken function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\sesetsessionidtoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 18c5ef8c-de72-4d2e-9bee-5b58bc5482c7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

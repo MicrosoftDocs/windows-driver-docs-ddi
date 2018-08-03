@@ -4,7 +4,7 @@ title: CmUnRegisterCallback function
 author: windows-driver-content
 description: The CmUnRegisterCallback routine unregisters a RegistryCallback routine that a CmRegisterCallback or CmRegisterCallbackEx routine previously registered.
 old-location: kernel\cmunregistercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6e291139-d7d3-4927-ad01-b09bddb0b945
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

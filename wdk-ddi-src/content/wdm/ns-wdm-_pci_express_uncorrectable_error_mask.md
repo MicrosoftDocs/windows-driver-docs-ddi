@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 author: windows-driver-content
 description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) uncorrectable error mask register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_uncorrectable_error_mask.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 0dfc6e49-5556-4163-abef-b00a26a7a2ad
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
 -	APIRef
@@ -88,7 +88,7 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsULONG

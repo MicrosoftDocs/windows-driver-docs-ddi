@@ -4,7 +4,7 @@ title: GNSS_SINGLESHOT_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a single-shot fix session.
 old-location: gnss\gnss_singleshot_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: BD1CB6CE-4196-4B85-AED0-A7B8ED957ADF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

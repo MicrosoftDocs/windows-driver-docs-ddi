@@ -4,10 +4,10 @@ title: "_D3DDDI_DEVICECALLBACKS"
 author: windows-driver-content
 description: The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 old-location: display\d3dddi_devicecallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: 29810132-5f53-4ba6-8302-6de315ecd04a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_DEVICECALLBACKS, D3DDDI_DEVICECALLBACKS structure [Display Devices], D3D_other_Structs_a835da78-4f70-4fc5-9f0f-43cef61bd304.xml, _D3DDDI_DEVICECALLBACKS, d3dumddi/D3DDDI_DEVICECALLBACKS, display.d3dddi_devicecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

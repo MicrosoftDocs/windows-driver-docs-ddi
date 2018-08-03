@@ -4,7 +4,7 @@ title: IWDTFSystemDepot2
 author: windows-driver-content
 description: Defines operations and properties for the SystemDepot - the object that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 7e6e5d35-66c3-4f69-8ac0-0c1100baa5c6
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

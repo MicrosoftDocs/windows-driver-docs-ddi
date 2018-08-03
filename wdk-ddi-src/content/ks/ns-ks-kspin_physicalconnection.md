@@ -4,7 +4,7 @@ title: KSPIN_PHYSICALCONNECTION
 author: windows-driver-content
 description: A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a KSPROPERTY_PIN_PHYSICALCONNECTION request.
 old-location: stream\kspin_physicalconnection.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e11c6e8d-a338-4427-af04-bdb07b9e9a73
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

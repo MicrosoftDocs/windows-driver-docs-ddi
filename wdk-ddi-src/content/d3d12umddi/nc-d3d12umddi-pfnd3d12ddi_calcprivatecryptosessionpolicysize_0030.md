@@ -4,10 +4,10 @@ title: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030
 author: windows-driver-content
 description: Used to calculate a session policy size.
 old-location: display\pfnd3d12ddi_calcprivatecryptosessionpolicysize_0030_.htm
-old-project: display
+tech.root: display
 ms.assetid: 5FAF1FBE-DCCA-4D92-BB8D-C014D488353B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030  entry, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030, display.pfnd3d12ddi_calcprivatecryptosessionpolicysize_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices

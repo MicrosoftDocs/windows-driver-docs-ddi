@@ -4,7 +4,7 @@ title: "_ClearCache_OUT"
 author: windows-driver-content
 description: The ClearCache_OUT structure holds the output data for the ClearCache method.
 old-location: storage\clearcache_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ab97d0b0-00fc-499c-9b1b-83731fe8e935
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

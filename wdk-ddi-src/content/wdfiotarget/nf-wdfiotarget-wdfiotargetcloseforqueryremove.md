@@ -4,7 +4,7 @@ title: WdfIoTargetCloseForQueryRemove function
 author: windows-driver-content
 description: The WdfIoTargetCloseForQueryRemove method temporarily closes a specified remote I/O target because the target device might soon be removed.
 old-location: wdf\wdfiotargetcloseforqueryremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: FsRtlInitializeMcb function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlinitializemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 788714e3-c031-490f-a19f-709bd0392cba
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

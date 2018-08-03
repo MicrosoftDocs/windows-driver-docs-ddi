@@ -4,7 +4,7 @@ title: "_STORAGE_WRITE_CACHE_PROPERTY"
 author: windows-driver-content
 description: The STORAGE_WRITE_CACHE_PROPERTY structure is used with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve information about a device's write cache property.
 old-location: storage\storage_write_cache_property.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4abc44ab-1729-46c3-befd-5f917e10953c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: SD_RESPONSE_TYPE
 author: windows-driver-content
 description: The SD_RESPONSE_TYPE enumeration lists the types of response data that a Secure Digital (SD) card returns in response to a command.
 old-location: sd\sd_response_type.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 0a468158-4beb-42e0-a990-0282041a6bf8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

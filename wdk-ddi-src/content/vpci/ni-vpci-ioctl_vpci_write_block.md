@@ -4,7 +4,7 @@ title: IOCTL_VPCI_WRITE_BLOCK
 author: windows-driver-content
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues an IOCTL_VPCI_WRITE_BLOCK I/O control code (IOCTL) in order to write data to a VF configuration block. The driver issues this IOCTL to the next-lower driver in the driver stack.
 old-location: pci\ioctl_vpci_write_block.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 5214053E-28AB-4728-9F4F-6705F8F56AC7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: vpci.h
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: DISPATCH_LEVEL
 topic_type:
 -	APIRef
@@ -48,7 +48,7 @@ req.product: Windows 10 or later.
 # IOCTL_VPCI_WRITE_BLOCK IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 
 
 
-The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a> 
+The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a>
    I/O control code (IOCTL) in order to write data to a VF configuration block. The driver issues this IOCTL to the next-lower driver in the driver stack.
 
 
@@ -147,7 +147,7 @@ The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="htt
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
@@ -225,7 +225,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 <tr>
 <td><b>Parameters.DeviceIoControl.Type3InputBuffer</b></td>
 <td>
-A pointer to a <a href="..\vpci\ns-vpci-_vpci_write_block_input.md">VPCI_WRITE_BLOCK_INPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a> 
+A pointer to a <a href="..\vpci\ns-vpci-_vpci_write_block_input.md">VPCI_WRITE_BLOCK_INPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a>
    I/O request.
 
 </td>
@@ -296,7 +296,7 @@ The IOCTL completed successfully.
 
 </td>
 <td>
-The IOCTL has not completed. The driver must call the <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> routine in order to put the current thread into a wait state. The driver sets the <i>Object</i> parameter to the address of an event object that was initialized in the call to the <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a> routine. 
+The IOCTL has not completed. The driver must call the <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> routine in order to put the current thread into a wait state. The driver sets the <i>Object</i> parameter to the address of an event object that was initialized in the call to the <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a> routine.
 
 The event is signaled when the IOCTL request is completed. Once the event is signaled, the thread resumes execution.
 
@@ -315,15 +315,15 @@ The <b>Parameters.DeviceIoControl.InputBufferLength</b> member was set to a valu
 </table>
  
 
-If the request completed successfully, the 
-      <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes written. Otherwise, the 
+If the request completed successfully, the
+      <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes written. Otherwise, the
       <b>Information</b> member is set to zero.
 
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL is issued, the driver of the PCIe physical function (PF) is notified to write the data to the specified VF configuration block.
 
 <div class="alert"><b>Note</b>  The operating system reserves and manages the resources that are required for the successful completion of this IOCTL. </div>
 <div> </div>
-A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. The PF driver allocates a configuration block for each VF within unused blocks of the device's PCI configuration space. 
+A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. The PF driver allocates a configuration block for each VF within unused blocks of the device's PCI configuration space.
 
 
 

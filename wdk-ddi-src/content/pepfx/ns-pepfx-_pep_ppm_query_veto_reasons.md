@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_VETO_REASONS"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines.
 old-location: kernel\pep_ppm_query_veto_reasons.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 59D0D139-00E4-4EEE-A326-0A2979B2085B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

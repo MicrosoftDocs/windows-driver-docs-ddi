@@ -4,7 +4,7 @@ title: IPrintOemUni::HalftonePattern
 author: windows-driver-content
 description: The IPrintOemUni::HalftonePattern method can be used with Unidrv-supported printers to create or modify a halftone pattern before it is used in a halftoning operation.
 old-location: print\iprintoemuni_halftonepattern.htm
-old-project: print
+tech.root: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

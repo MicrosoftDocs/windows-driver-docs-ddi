@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
 author: windows-driver-content
 description: The IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO request relinquishes control of band management by the Trusted Computing Group (TCG) Storage Silo driver.
 old-location: storage\ioctl_ehstor_tcgdrv_relinquish_silo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4D3DA81A-D79A-4299-A743-AFB0118DDF3F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

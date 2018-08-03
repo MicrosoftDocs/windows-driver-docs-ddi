@@ -4,7 +4,7 @@ title: WppRecorderLogDelete macro
 author: windows-driver-content
 description: The WppRecorderLogDelete method deletes the specified recorder log.
 old-location: devtest\wpprecorderlogdelete.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: AEE10756-7301-4B55-82A5-27CA595854EA
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

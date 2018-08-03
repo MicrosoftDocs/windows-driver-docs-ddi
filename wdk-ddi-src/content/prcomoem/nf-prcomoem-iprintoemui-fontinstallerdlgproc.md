@@ -4,7 +4,7 @@ title: IPrintOemUI::FontInstallerDlgProc
 author: windows-driver-content
 description: A user interface plug-in's IPrintOemUI::FontInstallerDlgProc method replaces the Unidrv font installer's user interface.
 old-location: print\iprintoemui_fontinstallerdlgproc.htm
-old-project: print
+tech.root: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

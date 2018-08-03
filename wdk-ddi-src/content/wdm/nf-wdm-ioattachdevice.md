@@ -4,7 +4,7 @@ title: IoAttachDevice function
 author: windows-driver-content
 description: The IoAttachDevice routine attaches the caller's device object to a named target device object, so that I/O requests bound for the target device are routed first to the caller.
 old-location: kernel\ioattachdevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0227751d-739b-4e0c-84bd-9135f117ec9b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

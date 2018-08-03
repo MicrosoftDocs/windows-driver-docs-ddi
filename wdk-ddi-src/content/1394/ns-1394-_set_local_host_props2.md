@@ -4,7 +4,7 @@ title: "_SET_LOCAL_HOST_PROPS2"
 author: windows-driver-content
 description: SET_LOCAL_HOST_PROPS2 sets a lower bound on the value the bus will use for its gap count.
 old-location: ieee\set_local_host_props2.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: ec4b8630-500d-494a-9a86-2f9cf9f9227b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: IPrintSchemaOptionCollection::GetAt
 author: windows-driver-content
 description: Gets a pointer to an IPrintSchemaOption object.
 old-location: print\iprintschemaoptioncollection_getat.htm
-old-project: print
+tech.root: print
 ms.assetid: B77297BF-09F7-46BD-A75F-D36E5E233E05
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

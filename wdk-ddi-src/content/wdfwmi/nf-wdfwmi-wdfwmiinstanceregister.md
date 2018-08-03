@@ -4,7 +4,7 @@ title: WdfWmiInstanceRegister function
 author: windows-driver-content
 description: The WdfWmiInstanceRegister method registers a specified instance of a WMI data provider with the system's WMI service.
 old-location: wdf\wdfwmiinstanceregister.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 95f97b95-fdb1-43f2-b733-4054adda4c41
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

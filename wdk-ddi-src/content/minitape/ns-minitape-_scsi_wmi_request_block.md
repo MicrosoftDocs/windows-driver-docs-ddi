@@ -4,7 +4,7 @@ title: "_SCSI_WMI_REQUEST_BLOCK"
 author: windows-driver-content
 description: This structure is a special version of a SCSI_REQUEST_BLOCK for use with WMI commands.
 old-location: storage\scsi_wmi_request_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

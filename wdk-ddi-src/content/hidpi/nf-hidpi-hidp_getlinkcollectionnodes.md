@@ -4,7 +4,7 @@ title: HidP_GetLinkCollectionNodes function
 author: windows-driver-content
 description: The HidP_GetLinkCollectionNodes routine returns a top-level collection's link collection array.
 old-location: hid\hidp_getlinkcollectionnodes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d829b203-8b7f-4504-a9ac-da1f91b3bbd6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

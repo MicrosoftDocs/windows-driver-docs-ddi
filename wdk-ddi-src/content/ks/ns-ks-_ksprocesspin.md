@@ -4,7 +4,7 @@ title: "_KSPROCESSPIN"
 author: windows-driver-content
 description: The KSPROCESSPIN structure describes the process state of a specific pin.
 old-location: stream\ksprocesspin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a1625eb2-a38b-4517-b873-f33b5ced8705
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

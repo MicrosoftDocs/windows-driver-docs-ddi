@@ -4,7 +4,7 @@ title: "_MESSAGE_INTERRUPT_INFORMATION"
 author: windows-driver-content
 description: The MESSAGE_INTERRUPT_INFORMATION structure describes a message signaled interrupt (MSI).
 old-location: storage\message_interrupt_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

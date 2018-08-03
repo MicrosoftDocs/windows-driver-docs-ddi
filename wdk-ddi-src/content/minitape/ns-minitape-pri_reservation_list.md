@@ -4,7 +4,7 @@ title: PRI_RESERVATION_LIST
 author: windows-driver-content
 description: The PRI_RESERVATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 old-location: storage\pri_reservation_list.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5756e907-008a-49c3-b1cd-947cb0ce1bd4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IPrinterExtensionManager::EnableEvents
 author: windows-driver-content
 description: The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called.
 old-location: print\iprinterextensionmanager_enableevents.htm
-old-project: print
+tech.root: print
 ms.assetid: 8DF89C18-10CA-4E8B-8E2A-B373C80F7B39
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

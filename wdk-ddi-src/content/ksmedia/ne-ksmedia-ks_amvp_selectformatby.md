@@ -4,7 +4,7 @@ title: KS_AMVP_SELECTFORMATBY
 author: windows-driver-content
 description: The KS_AMVP_SELECTFORMATBY enumeration specifies the criteria that the Overlay Mixer Filter should use to select the video format.
 old-location: stream\ks_amvp_selectformatby.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b7fb6752-9711-4922-a806-915c362bcffe
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_IO_MEMORY_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_ioport_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E7F9F8EF-3FDC-41D9-BB89-9EB93ED1A504
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

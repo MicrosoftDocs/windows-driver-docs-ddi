@@ -4,7 +4,7 @@ title: RILUICCRECORDSTATUSPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILUICCRECORDSTATUSPARAMMASK.
 old-location: netvista\riluiccrecordstatusparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6db3cdd2-3865-42d7-8b63-3dcacaec5941
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,11 +58,11 @@ req.typenames: RILUICCRECORDSTATUSPARAMMASK
 
 ````
 enum RILUICCRECORDSTATUSPARAMMASK {
-  RIL_PARAM_URS_RECORDTYPE      = 0x00000001, 
-  RIL_PARAM_URS_ITEMCOUNT       = 0x00000002, 
-  RIL_PARAM_URS_SIZE            = 0x00000004, 
-  RIL_PARAM_URS_FILELOCKSTATUS  = 0x00000008, 
-  RIL_PARAM_URS_ALL             = 0x0000000F 
+  RIL_PARAM_URS_RECORDTYPE      = 0x00000001,
+  RIL_PARAM_URS_ITEMCOUNT       = 0x00000002,
+  RIL_PARAM_URS_SIZE            = 0x00000004,
+  RIL_PARAM_URS_FILELOCKSTATUS  = 0x00000008,
+  RIL_PARAM_URS_ALL             = 0x0000000F
 
 };
 ````

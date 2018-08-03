@@ -4,7 +4,7 @@ title: KsDispatchInvalidDeviceRequest function
 author: windows-driver-content
 description: The KsDispatchInvalidDeviceRequest function is used in KSDISPATCH_TABLE entries that are not handled and that need to return STATUS_INVALID_DEVICE_REQUEST.
 old-location: stream\ksdispatchinvaliddevicerequest.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7c30bc5b-2bd5-4db9-acaf-0c0347035ae3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

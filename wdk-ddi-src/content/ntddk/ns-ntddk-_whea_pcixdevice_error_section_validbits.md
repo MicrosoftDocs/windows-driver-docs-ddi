@@ -4,7 +4,7 @@ title: "_WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PCIXDEVICE_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_pcixdevice_error_section_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 705cfd2c-b4c0-4a59-a494-f57007e13385
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

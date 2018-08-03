@@ -4,10 +4,10 @@ title: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to release controller resources for all streams for an endpoint.
 old-location: buses\evt_ucx_endpoint_static_streams_disable.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 79da55ac-61de-40cc-b25b-421f7637a9fe
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback, EvtUcxEndpointStaticStreamsDisable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_disable, ucxendpoint/EvtUcxEndpointStaticStreamsDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices

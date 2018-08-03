@@ -4,7 +4,7 @@ title: "_PNP_LOCATION_INTERFACE"
 author: windows-driver-content
 description: The PNP_LOCATION_INTERFACE structure describes the GUID_PNP_LOCATION_INTERFACE interface.
 old-location: kernel\pnp_location_interface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5189ffad-e5dc-4f5a-a7e3-481d36332c81
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: "_USBFN_DIRECTION"
 author: windows-driver-content
 description: Defines the USB data transfer direction types.
 old-location: buses\usbfn_direction.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"
 ms.prod: windows-hardware
 ms.technology: windows-devices

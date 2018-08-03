@@ -4,7 +4,7 @@ title: WdfRegistryAssignMultiString function
 author: windows-driver-content
 description: The WdfRegistryAssignMultiString method assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
 old-location: wdf\wdfregistryassignmultistring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IKsAggregateControl::KsAddAggregate
 author: windows-driver-content
 description: The KsAddAggregate method adds a COM server as an aggregate provider to the list of interface providers for the KS object that exposes the IKsAggregateControl interface.
 old-location: stream\iksaggregatecontrol_ksaddaggregate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9808bdb9-17f9-4a80-90c7-e85ab35b74ae
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

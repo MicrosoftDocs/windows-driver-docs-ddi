@@ -4,7 +4,7 @@ title: IPrintCorePS2::GetOptions
 author: windows-driver-content
 description: The IPrintCorePS2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreps2_getoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 8f5df76b-57c9-4c5a-9ca2-f02c8d903a8b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

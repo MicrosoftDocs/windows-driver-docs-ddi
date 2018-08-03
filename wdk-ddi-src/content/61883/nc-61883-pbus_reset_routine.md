@@ -4,7 +4,7 @@ title: PBUS_RESET_ROUTINE
 author: windows-driver-content
 description: This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
 old-location: ieee\pbus_reset_routine.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

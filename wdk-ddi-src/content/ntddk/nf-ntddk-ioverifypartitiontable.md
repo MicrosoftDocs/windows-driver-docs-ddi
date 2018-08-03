@@ -4,7 +4,7 @@ title: IoVerifyPartitionTable function
 author: windows-driver-content
 description: The IoVerifyPartitionTable routine checks the validity of the partition table for a disk.
 old-location: kernel\ioverifypartitiontable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

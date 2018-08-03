@@ -4,7 +4,7 @@ title: KsGateRemoveOnInputFromAnd function
 author: windows-driver-content
 description: The KsGateRemoveOnInputFromAnd function removes an existing input that is in the ON state from an AND gate.
 old-location: stream\ksgateremoveoninputfromand.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ee8bf34e-f7f6-4b1a-8089-2f7a7333c403
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

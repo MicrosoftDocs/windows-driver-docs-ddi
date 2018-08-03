@@ -4,7 +4,7 @@ title: IoThreadToProcess function
 author: windows-driver-content
 description: The IoThreadToProcess routine returns a pointer to the process for the specified thread.
 old-location: ifsk\iothreadtoprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fcb51574-d966-4cd5-a946-c38dd2798b7f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

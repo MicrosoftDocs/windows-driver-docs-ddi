@@ -4,7 +4,7 @@ title: CcGetFileObjectFromSectionPtrsRef function
 author: windows-driver-content
 description: When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, the CcGetFileObjectFromSectionPtrsRef routine returns a pointer to the file object that the cache manager is using for the cached file.
 old-location: ifsk\ccgetfileobjectfromsectionptrsref.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8afbd8df-95fc-453f-a1d8-400a993c286a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

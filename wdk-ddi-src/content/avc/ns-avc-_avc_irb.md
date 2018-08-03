@@ -4,7 +4,7 @@ title: "_AVC_IRB"
 author: windows-driver-content
 description: The AVC_IRB structure is an I/O Request Block (IRB) header structure where a function number is stored.
 old-location: stream\avc_irb.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8798e152-6586-48d0-a8f6-2e861660dd62
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

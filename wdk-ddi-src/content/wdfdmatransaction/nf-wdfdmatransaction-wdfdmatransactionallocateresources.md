@@ -4,7 +4,7 @@ title: WdfDmaTransactionAllocateResources function
 author: windows-driver-content
 description: The WdfDmaTransactionAllocateResources method reserves a single-packet or system-mode DMA enabler for exclusive (and repeated) use with the specified transaction object.
 old-location: wdf\wdfdmatransactionallocateresources.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

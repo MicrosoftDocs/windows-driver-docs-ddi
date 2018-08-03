@@ -4,7 +4,7 @@ title: READ_REGISTER_BUFFER_ULONG function
 author: windows-driver-content
 description: The READ_REGISTER_BUFFER_ULONG routine reads a number of ULONG values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a80d361e-81d3-483c-8ddb-d5e5a69c8ba4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

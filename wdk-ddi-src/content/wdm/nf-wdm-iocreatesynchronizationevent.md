@@ -4,7 +4,7 @@ title: IoCreateSynchronizationEvent function
 author: windows-driver-content
 description: The IoCreateSynchronizationEvent routine creates or opens a named synchronization event for use in serialization of access to hardware between two otherwise unrelated drivers.
 old-location: kernel\iocreatesynchronizationevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ce068ad0-3826-4f5d-a41c-2c3a40200f30
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

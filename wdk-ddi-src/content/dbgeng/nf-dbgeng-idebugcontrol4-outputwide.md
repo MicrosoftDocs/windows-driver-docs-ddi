@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputWide
-title: IDebugControl4::OutputWide method
+title: IDebugControl4::OutputWide
 author: windows-driver-content
 description: The OutputWide method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\outputwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: d89ed38b-f2ab-495f-b7e6-7f58b9adc958
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::ControlledOutputWide, IDebugControl4::OutputWide, OutputWide,IDebugControl4.OutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.outputwide
+ms.date: 5/3/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],OutputWide method, IDebugControl4.OutputWide, IDebugControl4::OutputWide, OutputWide, OutputWide method [Windows Debugging], OutputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputWide, debugger.outputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::OutputWide method
+# IDebugControl4::OutputWide
 
 
 ## -description

@@ -4,10 +4,10 @@ title: IResourceList::TranslatedList
 author: windows-driver-content
 description: The TranslatedList method returns the list of translated resources.
 old-location: audio\iresourcelist_translatedlist.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IResourceList interface [Audio Devices],TranslatedList method, IResourceList.TranslatedList, IResourceList::TranslatedList, TranslatedList, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices

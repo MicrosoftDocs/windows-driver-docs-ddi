@@ -4,10 +4,10 @@ title: DXGKDDI_VIDPN_ACQUIRETARGETMODESET
 author: windows-driver-content
 description: The pfnAcquireTargetModeSet function returns a handle to a particular target mode set object that is contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfnacquiretargetmodeset.htm
-old-project: display
+tech.root: display
 ms.assetid: 1b91c472-21eb-4aa8-91e3-c9eb70556d9f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_VIDPN_ACQUIRETARGETMODESET, DXGKDDI_VIDPN_ACQUIRETARGETMODESET callback, VidPnFunctions_e7b058c8-0f02-4456-8938-9182a35826f9.xml, d3dkmddi/pfnAcquireTargetModeSet, display.dxgk_vidpn_interface_pfnacquiretargetmodeset, pfnAcquireTargetModeSet, pfnAcquireTargetModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

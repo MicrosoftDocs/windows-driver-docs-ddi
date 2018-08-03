@@ -4,7 +4,7 @@ title: "_L2CAP_RETRANSMISSION_AND_FLOW_CONTROL"
 author: windows-driver-content
 description: The L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure describes configuration parameters for enhanced retransmission mode and streaming mode.
 old-location: bltooth\l2cap_retransmission_and_flow_control.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 0D4528C0-AEE6-4AD2-A3E6-524A6EB8A0D9
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

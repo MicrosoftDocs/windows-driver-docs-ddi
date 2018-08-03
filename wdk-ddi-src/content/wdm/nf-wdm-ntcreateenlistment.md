@@ -4,7 +4,7 @@ title: NtCreateEnlistment function
 author: windows-driver-content
 description: The ZwCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\zwcreateenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ffd8262-10b3-4c40-bd3e-050271338508
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

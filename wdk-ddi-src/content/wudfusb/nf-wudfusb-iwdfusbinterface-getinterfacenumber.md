@@ -4,7 +4,7 @@ title: IWDFUsbInterface::GetInterfaceNumber
 author: windows-driver-content
 description: The GetInterfaceNumber method retrieves the index of a USB interface.
 old-location: wdf\iwdfusbinterface_getinterfacenumber.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: de8de14a-94a8-49e2-912a-9c174f5a2c74
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

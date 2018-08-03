@@ -4,7 +4,7 @@ title: "_STORAGE_DIAGNOSTIC_LEVEL"
 author: windows-driver-content
 description: The STORAGE_DIAGNOSTIC_LEVEL enumeration specifies the target type of a storage diagnostic.
 old-location: storage\storage_diagnostic_level.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

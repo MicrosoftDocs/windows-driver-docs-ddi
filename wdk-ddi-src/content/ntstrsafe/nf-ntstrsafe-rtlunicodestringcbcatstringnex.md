@@ -4,7 +4,7 @@ title: RtlUnicodeStringCbCatStringNEx function
 author: windows-driver-content
 description: The RtlUnicodeStringCbCatStringNEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
 old-location: kernel\rtlunicodestringcbcatstringnex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 20636a37-8cc5-4ee2-91b1-53edf4911b49
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -31,7 +31,8 @@ apilocation:
 -	d3d10umddi.h
 apiname:
 -	D3DWDDM2_4DDI_VIDEO_OUTPUT
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

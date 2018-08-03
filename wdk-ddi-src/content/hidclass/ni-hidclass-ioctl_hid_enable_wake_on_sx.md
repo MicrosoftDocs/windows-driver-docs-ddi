@@ -4,7 +4,7 @@ title: IOCTL_HID_ENABLE_WAKE_ON_SX
 author: windows-driver-content
 description: The IOCTL_HID_ENABLE_WAKE_ON_SX request is used to indicate the requirement for a device to be able to wake from system sleep.
 old-location: hid\ioctl_hid_enable_wake_on_sx.htm
-old-project: hid
+tech.root: hid
 ms.assetid: E06B1444-F270-48A0-A096-E0289DD4DBBA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

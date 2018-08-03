@@ -4,10 +4,10 @@ title: IDebugFailureAnalysis2::NextEntry
 author: windows-driver-content
 description: The NextEntry method gets the next FA entry, after a given FA entry, in a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_nextentry.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: B5640B86-D931-4A26-85F2-BBE18620668C
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],NextEntry method, IDebugFailureAnalysis2.NextEntry, IDebugFailureAnalysis2::NextEntry, NextEntry, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_nextentry, extsfns/IDebugFailureAnalysis2::NextEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

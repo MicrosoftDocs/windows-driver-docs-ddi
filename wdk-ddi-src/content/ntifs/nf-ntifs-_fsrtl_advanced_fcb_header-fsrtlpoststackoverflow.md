@@ -4,7 +4,7 @@ title: FsRtlPostStackOverflow function
 author: windows-driver-content
 description: The FsRtlPostStackOverflow routine posts a stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpoststackoverflow.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

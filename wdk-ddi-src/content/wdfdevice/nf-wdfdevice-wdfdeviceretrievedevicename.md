@@ -4,7 +4,7 @@ title: WdfDeviceRetrieveDeviceName function
 author: windows-driver-content
 description: The WdfDeviceRetrieveDeviceName method returns the device name for a specified device.
 old-location: wdf\wdfdeviceretrievedevicename.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

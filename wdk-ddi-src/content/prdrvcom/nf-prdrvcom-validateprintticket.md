@@ -4,7 +4,7 @@ title: ValidatePrintTicket function
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.
 old-location: print\iprintoemprintticketprovider_validateprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

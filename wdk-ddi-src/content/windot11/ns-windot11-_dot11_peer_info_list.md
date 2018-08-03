@@ -4,7 +4,7 @@ title: "_DOT11_PEER_INFO_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_peer_info_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7f75ab1e-8aeb-4e49-9c18-c7a10ce3cbd3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,7 +77,7 @@ typedef struct _DOT11_PEER_INFO_LIST {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_PEER_INFO_LIST structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.     
+The type, revision, and size of the DOT11_PEER_INFO_LIST structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the members of <b>Header</b> to the following values:
 
@@ -95,28 +95,28 @@ This member must be set to DOT11_PEER_INFO_LIST_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        sizeof(DOT11_PEER_INFO_LIST).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uNumOfEntries
 
-The number of entries in the 
+The number of entries in the
      <b>PeerInfo</b> array.
 
 
 ### -field uTotalNumOfEntries
 
-The maximum number of entries that the 
+The maximum number of entries that the
      <b>PeerInfo</b> array can contain.
 
 
 ### -field PeerInfo
 
-An array that specifies the list of 
+An array that specifies the list of
      <a href="..\windot11\ns-windot11-_dot11_peer_info.md">DOT11_PEER_INFO</a> structures that specify
      information on all peer stations within an IBSS network. Each station is represented by a
      DOT11_PEER_INFO structure.
@@ -126,7 +126,7 @@ An array that specifies the list of
 
 
 
-This structure is used with 
+This structure is used with
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569361">OID_DOT11_ENUM_PEER_INFO</a>.
 
 

@@ -4,7 +4,7 @@ title: RxMakeLateDeviceAvailable function
 author: windows-driver-content
 description: RxMakeLateDeviceAvailable modifies the device object to make a &#0034;late device&#0034; available. A late device is one that is not created in the driver's load routine.
 old-location: ifsk\rxmakelatedeviceavailable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0818907f-3346-42a2-b123-3298ea8f9a1d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

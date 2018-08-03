@@ -4,10 +4,10 @@ title: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
 author: windows-driver-content
 description: The pfnAcquireMonitorSourceModeSet function returns a handle to the monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfnacquiremonitorsourcemodeset.htm
-old-project: display
+tech.root: display
 ms.assetid: a64197c0-a61f-4989-9b68-4e06b1a69fd4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET, DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback, VidPnFunctions_b540037c-9f98-4160-aeb3-ded9723e09fa.xml, d3dkmddi/pfnAcquireMonitorSourceModeSet, display.dxgk_monitor_interface_pfnacquiremonitorsourcemodeset, pfnAcquireMonitorSourceModeSet, pfnAcquireMonitorSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

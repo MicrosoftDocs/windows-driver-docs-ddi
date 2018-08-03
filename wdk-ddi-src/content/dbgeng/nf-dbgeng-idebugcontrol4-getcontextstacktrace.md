@@ -4,10 +4,10 @@ title: IDebugControl4::GetContextStackTrace
 author: windows-driver-content
 description: The GetContextStackTrace method returns the frames at the top of the call stack, starting with an arbitrary register context and returning the reconstructed register context for each stack frame.
 old-location: debugger\getcontextstacktrace.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetContextStackTrace, GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetContextStackTrace method, IDebugControl4.GetContextStackTrace, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

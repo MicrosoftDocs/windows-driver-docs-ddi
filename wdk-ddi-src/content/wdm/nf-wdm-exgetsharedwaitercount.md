@@ -4,7 +4,7 @@ title: ExGetSharedWaiterCount function
 author: windows-driver-content
 description: The ExGetSharedWaiterCount routine returns the number of waiters on shared access to a given resource.
 old-location: kernel\exgetsharedwaitercount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a9ca60a7-9bec-4c44-8803-85e183b48b01
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: DRIVER_ADD_DEVICE
 author: windows-driver-content
 description: The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager.
 old-location: kernel\adddevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e6552c34-9310-4e26-9bcb-7b78d9e24480
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

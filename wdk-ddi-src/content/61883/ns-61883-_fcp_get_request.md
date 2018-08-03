@@ -4,7 +4,7 @@ title: "_FCP_GET_REQUEST"
 author: windows-driver-content
 description: This structure is used for a get request.
 old-location: ieee\fcp_get_request.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 4DD05230-E9CA-4067-984B-7F0540FE8079
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

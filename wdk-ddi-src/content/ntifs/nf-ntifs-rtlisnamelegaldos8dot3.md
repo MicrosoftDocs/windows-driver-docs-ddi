@@ -4,7 +4,7 @@ title: RtlIsNameLegalDOS8Dot3 function
 author: windows-driver-content
 description: The RtlIsNameLegalDOS8Dot3 routine determines whether a given name represents a valid short (8.3) file name.
 old-location: ifsk\rtlisnamelegaldos8dot3.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 27aa6bd1-c4e2-427e-a9e4-383d66fe2d61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

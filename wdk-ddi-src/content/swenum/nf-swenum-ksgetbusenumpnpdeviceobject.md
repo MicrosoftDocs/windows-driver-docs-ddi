@@ -4,7 +4,7 @@ title: KsGetBusEnumPnpDeviceObject function
 author: windows-driver-content
 description: The KsGetBusEnumPnpDeviceObject function retrieves the Plug and Play device object attached to the given device object.
 old-location: stream\ksgetbusenumpnpdeviceobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8e81a294-9388-467d-8405-472fbe9fe827
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

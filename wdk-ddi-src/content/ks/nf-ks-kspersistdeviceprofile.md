@@ -4,7 +4,7 @@ title: KsPersistDeviceProfile function
 author: windows-driver-content
 description: The KsPersistDeviceProfile API commits the profile information to the persistent store.
 old-location: stream\kspersistdeviceprofile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

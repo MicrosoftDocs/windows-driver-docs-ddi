@@ -4,7 +4,7 @@ title: "_HIDP_UNKNOWN_TOKEN"
 author: windows-driver-content
 description: The HIDP_UNKNOWN_TOKEN structure contains information about a global item that the HID parser did not recognize.
 old-location: hid\hidp_unknown_token.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 6c9e0477-1698-41bf-9ce6-43e7e8741425
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

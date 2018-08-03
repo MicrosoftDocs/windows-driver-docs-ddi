@@ -4,7 +4,7 @@ title: IKsClockPropertySet
 author: windows-driver-content
 description: The IKsClockPropertySet interface provides methods that let the proxy accurately reflect time.
 old-location: stream\iksclockpropertyset.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bf50d4b1-782f-4d15-b6ef-23fa13da68ff
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

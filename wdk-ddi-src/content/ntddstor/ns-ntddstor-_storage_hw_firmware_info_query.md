@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_INFO_QUERY"
 author: windows-driver-content
 description: This structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info_query.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7B58F050-2AF4-4BD5-95AB-254BCAA865F6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

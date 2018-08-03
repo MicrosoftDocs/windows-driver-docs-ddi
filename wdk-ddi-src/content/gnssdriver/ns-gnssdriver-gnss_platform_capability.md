@@ -4,7 +4,7 @@ title: GNSS_PLATFORM_CAPABILITY
 author: windows-driver-content
 description: This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
 old-location: gnss\gnss_platform_capability.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: A97DE517-26ED-452F-9066-94F73BC47BDE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

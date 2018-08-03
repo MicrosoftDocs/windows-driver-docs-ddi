@@ -4,7 +4,7 @@ title: "_FILE_NETWORK_PHYSICAL_NAME_INFORMATION"
 author: windows-driver-content
 description: Contains the full UNC physical pathname for a file or directory on a remote file share.
 old-location: ifsk\file_network_physical_name_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 04F6A7B1-1198-4E5F-B6A8-70EEABE7CE83
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

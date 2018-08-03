@@ -4,7 +4,7 @@ title: FsRtlCancellableWaitForSingleObject function
 author: windows-driver-content
 description: The FsRtlCancellableWaitForSingleObject routine executes a cancelable wait operation (a wait that can be terminated) on a dispatcher object.
 old-location: ifsk\fsrtlcancellablewaitforsingleobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b29d35bd-d27d-4507-9fa7-5648bcb1f825
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KSYNCHRONIZE_ROUTINE
 author: windows-driver-content
 description: The SynchCritSection routine is used to access hardware resources or driver data that are shared with a driver's InterruptService routine.
 old-location: kernel\synchcritsection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2db9b1b4-0149-4477-9f68-588c55fcbdca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

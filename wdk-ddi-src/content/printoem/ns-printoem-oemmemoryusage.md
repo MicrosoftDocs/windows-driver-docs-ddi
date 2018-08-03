@@ -4,7 +4,7 @@ title: OEMMEMORYUSAGE
 author: windows-driver-content
 description: The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's IPrintOemUni::MemoryUsage method.
 old-location: print\oemmemoryusage.htm
-old-project: print
+tech.root: print
 ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

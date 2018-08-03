@@ -4,7 +4,7 @@ title: "_KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 author: windows-driver-content
 description: The KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure describes the notification context that is passed to a registered callback function when a new processor is dynamically added to a hardware partition.
 old-location: kernel\ke_processor_change_notify_context.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b8b8e2af-487c-4d7b-8af0-b6365d4703b0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

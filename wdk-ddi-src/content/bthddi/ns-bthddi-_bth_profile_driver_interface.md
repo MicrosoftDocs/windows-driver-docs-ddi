@@ -4,7 +4,7 @@ title: "_BTH_PROFILE_DRIVER_INTERFACE"
 author: windows-driver-content
 description: The BTH_PROFILE_DRIVER_INTERFACE structure provides functions to allocate, free, initialize, and reuse BRBs, and to determine the currently installed Bluetooth version.
 old-location: bltooth\bth_profile_driver_interface.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d4aa5fa9-966c-49c5-b41c-ca963a201e21
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

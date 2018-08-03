@@ -4,7 +4,7 @@ title: IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
 author: windows-driver-content
 description: A driver's OnDisarmWakeFromS0 event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\ipowerpolicycallbackwakefroms0_ondisarmwakefroms0.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 04c1eecd-c87f-45c5-be7b-0fbd8e114594
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

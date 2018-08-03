@@ -4,7 +4,7 @@ title: IPartBase::SetPartCompression
 author: windows-driver-content
 description: The SetPartCompression method sets the compression of the part.
 old-location: print\ipartbase_setpartcompression.htm
-old-project: print
+tech.root: print
 ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

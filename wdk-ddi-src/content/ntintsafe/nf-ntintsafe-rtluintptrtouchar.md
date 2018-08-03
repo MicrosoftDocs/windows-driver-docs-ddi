@@ -4,7 +4,7 @@ title: RtlUIntPtrToUChar function
 author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type UCHAR.
 old-location: kernel\rtluintptrtouchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F5E4225F-4C66-44A8-9445-7D7DBAFA1DA4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

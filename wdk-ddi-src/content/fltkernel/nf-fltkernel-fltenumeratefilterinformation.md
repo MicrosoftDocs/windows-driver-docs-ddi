@@ -4,7 +4,7 @@ title: FltEnumerateFilterInformation function
 author: windows-driver-content
 description: The FltEnumerateFilterInformation routine provides information about all the registered filter drivers (including minifilter and legacy filter drivers) in the system.
 old-location: ifsk\fltenumeratefilterinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c8bfa809-3f32-487c-991e-2ec040e3bc98
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

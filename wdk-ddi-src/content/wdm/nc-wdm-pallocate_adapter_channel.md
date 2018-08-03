@@ -4,7 +4,7 @@ title: PALLOCATE_ADAPTER_CHANNEL
 author: windows-driver-content
 description: The AllocateAdapterChannel routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied AdapterControl routine to carry out the DMA operation.
 old-location: kernel\allocateadapterchannel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d3339754-1a54-48f0-90c8-6c7db59fb7cc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

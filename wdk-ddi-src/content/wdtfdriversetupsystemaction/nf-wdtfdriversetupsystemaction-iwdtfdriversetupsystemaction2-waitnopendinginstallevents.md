@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 author: windows-driver-content
 description: Waits until all device installations have completed.
 old-location: dtf\iwdtfdriversetupsystemaction2_waitnopendinginstallevents.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d58f5d02-d4cf-4208-b5c4-1047b8278ff7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

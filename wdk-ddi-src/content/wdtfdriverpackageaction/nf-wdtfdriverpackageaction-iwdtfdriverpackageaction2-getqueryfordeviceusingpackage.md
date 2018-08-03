@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage method
 author: windows-driver-content
 description: Returns an SDEL statement that queries for all devices that use the driver package.
 old-location: dtf\iwdtfdriverpackageaction2_getqueryfordeviceusingpackage.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c7d73c86-0ac4-4e87-8f82-39be2329dafd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriverpackageaction.h
-req.include-header: 
+req.include-header:
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP Professional
 req.target-min-winversvr: Windows Server 2008
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
 req.idl: WDTFDriverPackageAction.idl
-req.max-support: 
+req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverPackageAction.Interop.dll
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

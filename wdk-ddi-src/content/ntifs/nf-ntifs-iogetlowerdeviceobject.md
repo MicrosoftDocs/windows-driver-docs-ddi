@@ -4,7 +4,7 @@ title: IoGetLowerDeviceObject function
 author: windows-driver-content
 description: The IoGetLowerDeviceObject routine returns a pointer to the next-lower-level device object on the driver stack.
 old-location: ifsk\iogetlowerdeviceobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2446dfee-baa4-4f7b-a5a0-ff13bf45ce4b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

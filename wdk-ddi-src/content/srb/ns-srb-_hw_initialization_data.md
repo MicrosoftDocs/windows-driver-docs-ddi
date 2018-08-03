@@ -4,7 +4,7 @@ title: "_HW_INITIALIZATION_DATA"
 author: windows-driver-content
 description: Each SCSI miniport driver's DriverEntry routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\hw_initialization_data__scsi_.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 58c80d37-a40d-4839-b516-a78720860cbc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

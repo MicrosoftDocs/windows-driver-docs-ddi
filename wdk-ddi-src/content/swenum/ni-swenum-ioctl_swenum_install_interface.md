@@ -4,7 +4,7 @@ title: IOCTL_SWENUM_INSTALL_INTERFACE
 author: windows-driver-content
 description: 
 old-location: stream\ioctl_swenum_install_interface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 23EC4771-44DF-4437-88E1-4039E0EB6F8F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

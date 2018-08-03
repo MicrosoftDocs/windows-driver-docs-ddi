@@ -4,10 +4,10 @@ title: MIRACAST_CHUNK_DATA
 author: windows-driver-content
 description: Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) GetNextChunkData function.
 old-location: display\miracast_chunk_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 1ff4af0b-df1c-4529-9f80-c9e44d889a63
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], display.miracast_chunk_data, netdispumdddi/MIRACAST_CHUNK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

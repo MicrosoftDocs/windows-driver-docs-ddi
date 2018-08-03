@@ -4,7 +4,7 @@ title: "_DOCEVENT_CREATEDCPRE"
 author: windows-driver-content
 description: The DOCEVENT_CREATEDCPRE structure contains a set of values used in certain calls to DrvDocumentEvent and IPrintOemUI2::DocumentEvent.
 old-location: print\docevent_createdcpre.htm
-old-project: print
+tech.root: print
 ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

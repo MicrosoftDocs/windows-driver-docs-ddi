@@ -4,7 +4,7 @@ title: KsFilterGetOuterUnknown function
 author: windows-driver-content
 description: The KsFilterGetOuterUnknown function returns the outer IUnknown interface of the filter specified by Filter.
 old-location: stream\ksfiltergetouterunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 599a6583-dcf2-4fe3-949a-5072bff9915c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

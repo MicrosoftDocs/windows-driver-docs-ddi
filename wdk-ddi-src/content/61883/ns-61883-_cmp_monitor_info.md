@@ -4,7 +4,7 @@ title: "_CMP_MONITOR_INFO"
 author: windows-driver-content
 description: The CMP_MONITOR_INFO structure is used in conjunction with the Av61883_MonitorPlugs request to allow a driver to monitor access to local oPCR and iPCR plugs.
 old-location: ieee\cmp_monitor_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 258bcd6f-0536-48d3-a06a-10277f8bef87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

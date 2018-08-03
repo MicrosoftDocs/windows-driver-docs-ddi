@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_MPEG1_VIDEO
 author: windows-driver-content
 description: The KS_DATARANGE_MPEG1_VIDEO structure describes the range of MPEG-1 video formats available for a stream.
 old-location: stream\ks_datarange_mpeg1_video.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0b715c9b-9a5a-4ef6-b3cc-c17964e55bc1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

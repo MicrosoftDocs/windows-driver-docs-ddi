@@ -4,7 +4,7 @@ title: WDF_INTERRUPT_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_INTERRUPT_CONFIG_INIT function initializes a WDF_INTERRUPT_CONFIG structure.
 old-location: wdf\wdf_interrupt_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e81ec3da-a863-467f-82ec-1fa7ee6401b1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

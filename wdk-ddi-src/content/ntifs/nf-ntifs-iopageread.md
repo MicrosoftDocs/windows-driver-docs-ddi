@@ -4,7 +4,7 @@ title: IoPageRead function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iopageread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d1cbd6ee-6625-47bd-bf3e-356b28ff17a5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

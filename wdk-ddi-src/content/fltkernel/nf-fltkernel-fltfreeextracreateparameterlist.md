@@ -4,7 +4,7 @@ title: FltFreeExtraCreateParameterList function
 author: windows-driver-content
 description: The FltFreeExtraCreateParameterList routine frees an extra create parameter (ECP) list structure.
 old-location: ifsk\fltfreeextracreateparameterlist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d8732904-273d-4595-ac90-1b731676620a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

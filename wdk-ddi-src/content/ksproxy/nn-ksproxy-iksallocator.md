@@ -4,7 +4,7 @@ title: IKsAllocator
 author: windows-driver-content
 description: TheIKsAllocator interface provides methods that control and query an allocator. IKsAllocator is for proxy use and not recommended for application use.
 old-location: stream\iksallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0d6db041-e5ea-4394-9d88-b4b5b377fe1d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_ScsiReadCapacity_OUT"
 author: windows-driver-content
 description: The ScsiReadCapacity_OUT structure is used to report the output data of the ScsiReadCapacity WMI method to the WMI client.
 old-location: storage\scsireadcapacity_out2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

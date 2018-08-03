@@ -31,7 +31,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_PANEL_GET_BACKLIGHT_REDUCTION
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

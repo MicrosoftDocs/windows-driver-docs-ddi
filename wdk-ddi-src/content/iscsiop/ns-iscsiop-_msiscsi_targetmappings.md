@@ -4,7 +4,7 @@ title: "_MSiSCSI_TargetMappings"
 author: windows-driver-content
 description: The MSiSCSI_TargetMappings structure contains a set of logical unit number (LUN) mappings that are associated with an initiator instance.
 old-location: storage\msiscsi_targetmappings.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

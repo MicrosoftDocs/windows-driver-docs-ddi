@@ -4,7 +4,7 @@ title: PsReturnPoolQuota function
 author: windows-driver-content
 description: The PsReturnPoolQuota routine returns pool quota of the specified pool type to the specified process.
 old-location: ifsk\psreturnpoolquota.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 12ceb592-97ca-41c9-89d0-26fd2dc87981
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

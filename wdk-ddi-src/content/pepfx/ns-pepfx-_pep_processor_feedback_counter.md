@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_FEEDBACK_COUNTER"
 author: windows-driver-content
 description: The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback counter to the operating system.
 old-location: kernel\pep_processor_feedback_counter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -137,7 +137,7 @@ The feedback counter returns the clock speed of the processor. The nominal rate 
 </dl>
 </td>
 <td width="60%">
-The feedback counter returns the current processor performance. The nominal rate is equivalent to the processorâ€™s <b>NominalPerformance</b> (see <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>).
+The feedback counter returns the current processor performance. The nominal rate is equivalent to the processor's <b>NominalPerformance</b> (see <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>).
 
 </td>
 </tr>

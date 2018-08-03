@@ -4,7 +4,7 @@ title: RtlIntPtrToUnicodeString macro
 author: windows-driver-content
 description: The RtlIntPtrToUnicodeString routine converts a specified ULONG_PTR value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlintptrtounicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9bcd278f-b6eb-4e88-8255-f2724bfca285
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

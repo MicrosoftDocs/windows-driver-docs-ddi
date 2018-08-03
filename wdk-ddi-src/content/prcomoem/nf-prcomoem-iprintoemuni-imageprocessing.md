@@ -4,7 +4,7 @@ title: IPrintOemUni::ImageProcessing
 author: windows-driver-content
 description: The IPrintOemUni::ImageProcessing method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning.
 old-location: print\iprintoemuni_imageprocessing.htm
-old-project: print
+tech.root: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
 ms.date: 07/03/2018

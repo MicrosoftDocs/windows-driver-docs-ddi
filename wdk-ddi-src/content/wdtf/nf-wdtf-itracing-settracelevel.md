@@ -4,7 +4,7 @@ title: ITracing::SetTraceLevel
 author: windows-driver-content
 description: The SetTraceLevel method sets the tracing level for an object.
 old-location: dtf\itracing_settracelevel.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 3b0b43c4-24b9-41e7-9861-6733c79bf40a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

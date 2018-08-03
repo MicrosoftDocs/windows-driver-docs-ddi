@@ -4,7 +4,7 @@ title: WdfDmaEnablerGetMaximumLength function
 author: windows-driver-content
 description: The WdfDmaEnablerGetMaximumLength method returns the maximum transfer length, for a single DMA transfer, that a device supports.
 old-location: wdf\wdfdmaenablergetmaximumlength.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

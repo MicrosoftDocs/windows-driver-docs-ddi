@@ -4,7 +4,7 @@ title: IoSetCancelRoutine function
 author: windows-driver-content
 description: The IoSetCancelRoutine routine sets up a driver-supplied Cancel routine to be called if a given IRP is canceled.
 old-location: kernel\iosetcancelroutine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5bc81897-6463-4588-9348-78a1954216bd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

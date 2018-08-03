@@ -4,7 +4,7 @@ title: WdfDmaTransactionSetSingleTransferRequirement function
 author: windows-driver-content
 description: The WdfDmaTransactionSetSingleTransferRequirement method specifies that a DMA transaction must complete in a single transfer.
 old-location: wdf\wdfdmatransactionsetsingletransferrequirement.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 988c7e70-3b2a-4a0f-91cf-dfab3ea07f05
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

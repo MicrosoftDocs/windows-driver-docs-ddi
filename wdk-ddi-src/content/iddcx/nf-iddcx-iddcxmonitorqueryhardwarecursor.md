@@ -4,10 +4,10 @@ title: IddCxMonitorQueryHardwareCursor function
 author: windows-driver-content
 description: An OS callback function the driver calls when it wants obtain the updated cursor information. The driver normally only calls this when the event that signals cursor update has triggered.
 old-location: display\iddcxmonitorqueryhardwarecursor.htm
-old-project: display
+tech.root: display
 ms.assetid: e954b7e7-9e4a-47ae-9b0f-8c7e051cc00e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

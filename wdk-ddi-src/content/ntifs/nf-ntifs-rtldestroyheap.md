@@ -4,7 +4,7 @@ title: RtlDestroyHeap function
 author: windows-driver-content
 description: The RtlDestroyHeap routine destroys the specified heap object. RtlDestroyHeap decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: ifsk\rtldestroyheap.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e62855a0-284b-434b-88a4-1f21f1b77cf2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

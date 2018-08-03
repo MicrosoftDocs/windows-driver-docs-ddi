@@ -4,7 +4,7 @@ title: TapeClassCompareMemory function
 author: windows-driver-content
 description: The TapeClassCompareMemory routine compares two memory buffers and returns the number of bytes that are equivalent.
 old-location: storage\tapeclasscomparememory.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

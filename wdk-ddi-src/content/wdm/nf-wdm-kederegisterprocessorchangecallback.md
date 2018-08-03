@@ -4,7 +4,7 @@ title: KeDeregisterProcessorChangeCallback function
 author: windows-driver-content
 description: The KeDeregisterProcessorChangeCallback routine unregisters a callback function that was previously registered with the operating system by calling the KeRegisterProcessorChangeCallback routine.
 old-location: kernel\kederegisterprocessorchangecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69b0f360-dfe5-4e1f-bdcb-0f908ed129a7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_QUERY_CURRENT_MODE
 author: windows-driver-content
 description: Returns information about the current adapter mode. Miniport drivers are required to support this modal request.
 old-location: display\ioctl_video_query_current_mode.htm
-old-project: display
+tech.root: display
 ms.assetid: 16ce3db9-0295-4adc-9dc3-492b711adf2e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_QUERY_CURRENT_MODE, IOCTL_VIDEO_QUERY_CURRENT_MODE control, IOCTL_VIDEO_QUERY_CURRENT_MODE control code [Display Devices], Video_IOCTLs_18538d0f-5243-4326-850d-9fedf30e17cb.xml, display.ioctl_video_query_current_mode, ntddvdeo/IOCTL_VIDEO_QUERY_CURRENT_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

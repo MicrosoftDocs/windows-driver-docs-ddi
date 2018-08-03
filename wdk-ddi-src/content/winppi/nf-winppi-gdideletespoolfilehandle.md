@@ -4,7 +4,7 @@ title: GdiDeleteSpoolFileHandle function
 author: windows-driver-content
 description: The GdiDeleteSpoolFileHandle function releases a spool file handle.
 old-location: print\gdideletespoolfilehandle.htm
-old-project: print
+tech.root: print
 ms.assetid: ff22498e-404f-42f6-82fd-f0178f6c7789
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

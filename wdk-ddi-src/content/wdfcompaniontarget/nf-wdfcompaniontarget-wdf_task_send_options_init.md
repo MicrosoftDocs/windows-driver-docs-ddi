@@ -4,7 +4,7 @@ title: WDF_TASK_SEND_OPTIONS_INIT function
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_send_options_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ba10c012-f64c-42cd-bedc-72f620818aa5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

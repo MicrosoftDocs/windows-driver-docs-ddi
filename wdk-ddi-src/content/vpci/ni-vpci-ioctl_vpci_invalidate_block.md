@@ -4,7 +4,7 @@ title: IOCTL_VPCI_INVALIDATE_BLOCK
 author: windows-driver-content
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues the IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request in order to be notified of changes to data in one or more VF configuration blocks.
 old-location: pci\IOCTL_VPCI_INVALIDATE_BLOCK.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 66D1626A-7F22-48B8-8DB3-7B6E1634BABE
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: vpci.h
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: DISPATCH_LEVEL
 topic_type:
 -	APIRef
@@ -48,7 +48,7 @@ req.product: Windows 10 or later.
 # IOCTL_VPCI_INVALIDATE_BLOCK IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -148,7 +148,7 @@ The driver issues this IOCTL to the next-lower driver in the driver stack.
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
@@ -237,7 +237,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 
 </td>
 <td>
-A pointer to a <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> 
+A pointer to a <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
    I/O request.
 
 </td>
@@ -350,7 +350,7 @@ In the management OS, the following steps occur:<ol>
 <li>The PF miniport driver calls the <a href="..\ndis\nf-ndis-ndisminvalidateconfigblock.md">NdisMInvalidateConfigBlock</a> function to notify NDIS that VF configuration data has changed and is no longer valid. The driver sets the <i>BlockMask</i> parameter to a <b>ULONGLONG</b> bitmask that specifies which VF configuration blocks have changed. Each bit in the bitmask corresponds to a VF configuration block. If a bit is set to one, the data in the corresponding VF configuration block has changed.
 </li>
 <li>
-NDIS signals the virtualization stack, which runs in the management OS, about the change in VF configuration block data. The virtualization stack caches the <i>BlockMask</i> parameter data. 
+NDIS signals the virtualization stack, which runs in the management OS, about the change in VF configuration block data. The virtualization stack caches the <i>BlockMask</i> parameter data.
 
 <div class="alert"><b>Note</b>  Each time that the PF miniport driver calls <a href="..\ndis\nf-ndis-ndisminvalidateconfigblock.md">NdisMInvalidateConfigBlock</a>, the virtualization  stack <b>OR</b>s the <i>BlockMask</i> parameter data with the current value in its cache.</div>
 <div> </div>

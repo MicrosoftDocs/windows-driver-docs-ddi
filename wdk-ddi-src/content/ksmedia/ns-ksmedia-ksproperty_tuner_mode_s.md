@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_MODE_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_MODE_S structure describes the mode of a TV or radio tuner device.
 old-location: stream\ksproperty_tuner_mode_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a3e443e5-1766-4292-a25a-ad673734bac1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

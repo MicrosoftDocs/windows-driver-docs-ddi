@@ -4,10 +4,10 @@ title: PFND3D12DDI_CREATEDEVICE_0003
 author: windows-driver-content
 description: The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is referenced in subsequent calls.
 old-location: display\pfnd3d12ddi_createdevice_0003.htm
-old-project: display
+tech.root: display
 ms.assetid: 5F25CFE0-00C5-45CD-8EA1-50F01BA4EA0B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CREATEDEVICE_0003, PFND3D12DDI_CREATEDEVICE_0003 callback, PFND3D12DDI_CREATEDEVICE_0003 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEDEVICE_0003, display.pfnd3d12ddi_createdevice_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices

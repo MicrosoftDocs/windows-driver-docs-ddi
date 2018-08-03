@@ -4,7 +4,7 @@ title: FsRtlCopyWrite function
 author: windows-driver-content
 description: The FsRtlCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\fsrtlcopywrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

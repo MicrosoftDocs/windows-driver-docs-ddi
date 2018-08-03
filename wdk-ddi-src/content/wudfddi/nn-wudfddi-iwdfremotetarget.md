@@ -4,7 +4,7 @@ title: IWDFRemoteTarget
 author: windows-driver-content
 description: To obtain the IWDFRemoteTarget interface, drivers call IWDFDevice2::CreateRemoteTarget.
 old-location: wdf\iwdfremotetarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 60164136-4d4b-4e42-8504-ddd907edf0e9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

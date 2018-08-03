@@ -4,7 +4,7 @@ title: GNSS_AGNSS_INJECTTIME
 author: windows-driver-content
 description: This structure defines the format for AGNSS time injection.
 old-location: gnss\gnss_agnss_injecttime.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 05BCC40C-E542-4BE8-9FD7-F0D25C3B8C7C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

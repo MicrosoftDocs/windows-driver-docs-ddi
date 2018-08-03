@@ -4,7 +4,7 @@ title: SerCx2CustomTransmitTransactionCreate function
 author: windows-driver-content
 description: The SerCx2CustomTransmitTransactionCreate method creates a custom-transmit-transaction object, which version 2 of the serial framework extension (SerCx2) uses to perform custom-transmit transactions.
 old-location: serports\sercx2customtransmittransactioncreate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 1A308BD8-E28E-4618-99D0-55FBD6FA7CF4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

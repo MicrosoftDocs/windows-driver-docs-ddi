@@ -4,7 +4,7 @@ title: "_HYBRID_INFORMATION"
 author: windows-driver-content
 description: The HYBRID_INFORMATION structure contains hybrid disk capability information.
 old-location: storage\hybrid_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

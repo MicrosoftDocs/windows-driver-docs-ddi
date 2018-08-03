@@ -4,7 +4,7 @@ title: KsMapModuleName function
 author: windows-driver-content
 description: The KsMapModuleName function returns the image name and resource identifier that corresponds to the PhysicalDeviceObject and ModuleName parameters.
 old-location: stream\ksmapmodulename.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3223a1bb-ab6c-45d7-9f9a-367a3aa7d465
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

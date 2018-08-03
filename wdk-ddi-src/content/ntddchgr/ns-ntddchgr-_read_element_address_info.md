@@ -4,7 +4,7 @@ title: "_READ_ELEMENT_ADDRESS_INFO"
 author: windows-driver-content
 description: This structure is to retrieve changer elements based on a search criterion specified in a call to the ChangerQueryVolumeTags routine.
 old-location: storage\read_element_address_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5fc5b38e-8eef-4ba0-9f29-025df55e4525
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

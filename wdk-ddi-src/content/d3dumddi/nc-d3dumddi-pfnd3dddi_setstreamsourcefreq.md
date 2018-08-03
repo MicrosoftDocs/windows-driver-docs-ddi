@@ -4,10 +4,10 @@ title: PFND3DDDI_SETSTREAMSOURCEFREQ
 author: windows-driver-content
 description: The SetStreamSourceFreq function sets the frequency divisor of a stream source that is bound to a vertex buffer.
 old-location: display\setstreamsourcefreq.htm
-old-project: display
+tech.root: display
 ms.assetid: 92cb270c-1548-4239-81cd-5b3483769fc8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEFREQ, PFND3DDDI_SETSTREAMSOURCEFREQ callback, SetStreamSourceFreq, SetStreamSourceFreq callback function [Display Devices], UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml, d3dumddi/SetStreamSourceFreq, display.setstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices

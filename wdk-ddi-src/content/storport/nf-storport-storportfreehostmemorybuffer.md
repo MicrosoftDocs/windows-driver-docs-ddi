@@ -4,7 +4,7 @@ title: StorPortFreeHostMemoryBuffer function
 author: windows-driver-content
 description: The StorPortFreeHostMemoryBuffer routine frees the physically contiguous memory that was allocated to be used for a Host Memory Buffer (HMB).
 old-location: storage\storportfreehostmemorybuffer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

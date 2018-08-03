@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDIARG_CREATE_COMMAND_RECORDER_0040
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

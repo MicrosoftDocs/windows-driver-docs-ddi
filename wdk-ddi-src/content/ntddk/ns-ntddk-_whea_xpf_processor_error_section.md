@@ -4,7 +4,7 @@ title: "_WHEA_XPF_PROCESSOR_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes processor error data that is specific to the x86/x64 processor architecture.
 old-location: whea\whea_xpf_processor_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e994c778-4a1b-4c7d-a9fb-4481d9edda0d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

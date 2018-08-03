@@ -4,7 +4,7 @@ title: MmPrefetchPages function
 author: windows-driver-content
 description: The MmPrefetchPages routine reads groups of pages from secondary storage in the optimal fashion.
 old-location: ifsk\mmprefetchpages.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
 author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: storage\storage_medium_product_type_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: AC0C09DF-EFD4-457B-8ABC-C60890D3AF6A
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

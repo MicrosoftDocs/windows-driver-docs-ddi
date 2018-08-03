@@ -4,7 +4,7 @@ title: "_UNIT_DDI_VERSION"
 author: windows-driver-content
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current 61883 DDI version.
 old-location: ieee\unit_ddi_version.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 421ed5b2-389d-4099-b241-d952fb7e842d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

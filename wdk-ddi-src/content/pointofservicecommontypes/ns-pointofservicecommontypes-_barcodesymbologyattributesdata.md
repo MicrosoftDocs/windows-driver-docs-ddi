@@ -4,7 +4,7 @@ title: "_BarcodeSymbologyAttributesData"
 author: windows-driver-content
 description: The BarcodeSymbologyAttributesData structure contains the attribute information for a barcode symbology.
 old-location: pos\barcodesymbologyattributesdata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

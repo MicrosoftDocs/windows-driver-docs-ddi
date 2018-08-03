@@ -4,7 +4,7 @@ title: RouterAllocBidiMem function
 author: windows-driver-content
 description: RouterAllocBidiMem allocates a block of memory of a specified size. This function is used by the port monitor to allocate memory for strings and binary objects.
 old-location: print\routerallocbidimem.htm
-old-project: print
+tech.root: print
 ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

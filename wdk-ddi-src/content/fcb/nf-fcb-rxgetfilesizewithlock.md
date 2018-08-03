@@ -4,7 +4,7 @@ title: RxGetFileSizeWithLock function
 author: windows-driver-content
 description: RxGetFileSizeWithLock gets the file size in the FCB structure using a lock to ensure that the 64-bit value is read consistently.
 old-location: ifsk\rxgetfilesizewithlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f58c2a7a-0782-47a7-84e6-98df541c875d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

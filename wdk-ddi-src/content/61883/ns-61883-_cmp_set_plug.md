@@ -4,7 +4,7 @@ title: "_CMP_SET_PLUG"
 author: windows-driver-content
 description: This structure is used to assign settings to a plug.
 old-location: ieee\cmp_set_plug.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 2C47165D-9D04-46C8-A1EC-04E6F32AE516
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

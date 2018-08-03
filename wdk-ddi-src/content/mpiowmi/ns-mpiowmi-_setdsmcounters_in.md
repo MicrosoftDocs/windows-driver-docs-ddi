@@ -4,7 +4,7 @@ title: "_SetDSMCounters_IN"
 author: windows-driver-content
 description: The SetDSMCounters_IN structure is used to set the timer counters for a particular DSM.
 old-location: storage\setdsmcounters_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fb8cebec-0cf8-4649-8b91-cd4f9935fac9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

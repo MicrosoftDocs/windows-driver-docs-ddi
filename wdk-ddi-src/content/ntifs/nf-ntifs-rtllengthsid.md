@@ -4,7 +4,7 @@ title: RtlLengthSid function
 author: windows-driver-content
 description: The RtlLengthSid routine returns the length, in bytes, of a valid security identifier (SID).
 old-location: ifsk\rtllengthsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5d96061d-f1a2-4e45-b76e-5ada61d8accd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

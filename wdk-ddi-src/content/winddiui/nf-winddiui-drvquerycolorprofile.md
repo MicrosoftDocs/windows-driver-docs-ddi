@@ -4,7 +4,7 @@ title: DrvQueryColorProfile function
 author: windows-driver-content
 description: The DrvQueryColorProfile function allows a printer interface DLL to specify an ICC profile to use for color management.
 old-location: print\drvquerycolorprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

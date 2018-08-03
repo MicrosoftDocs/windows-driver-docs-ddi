@@ -4,7 +4,7 @@ title: NtFsControlFile function
 author: windows-driver-content
 description: The ZwFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 old-location: kernel\zwfscontrolfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2e98d111-5af5-4854-9b58-f5237ba913e7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

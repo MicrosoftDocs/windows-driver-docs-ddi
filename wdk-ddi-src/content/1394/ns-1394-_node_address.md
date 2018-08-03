@@ -4,7 +4,7 @@ title: "_NODE_ADDRESS"
 author: windows-driver-content
 description: The NODE_ADDRESS structure specifies the 10-bit bus number and 6-bit node number that serve as the node address for a 1394 node.
 old-location: ieee\node_address.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: ecafa166-356e-48d6-84c4-0f0c339289ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

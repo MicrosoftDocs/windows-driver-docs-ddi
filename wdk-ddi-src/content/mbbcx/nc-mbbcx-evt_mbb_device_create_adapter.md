@@ -87,6 +87,8 @@ An MBBCx client driver must register an *EvtMbbDeviceCreateAdapter* callback fun
 
 In this callback, the client driver creates a NETADAPTER object that is used by MBBCx to represent the network interface for a data session. MBBCx invokes this callback function at least once to establish the primary PDP context/default EPS bearer, then it might invoke it more times, once for every data session to be established.
 
+Before returning from this callback, client drivers must set the adapter's datapath capabilities, link layer capabilities, and link layer maximum transmission unit (MTU) size, then call [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+
 For more information and a code example, see [Creating the NetAdapter interface for the PDP context/EPS bearer](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
 
 ## -see-also

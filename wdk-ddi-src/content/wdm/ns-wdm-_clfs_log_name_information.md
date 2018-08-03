@@ -4,7 +4,7 @@ title: "_CLFS_LOG_NAME_INFORMATION"
 author: windows-driver-content
 description: The CLFS_LOG_NAME_INFORMATION structure holds the name of a Common Log File System (CLFS) stream or log.
 old-location: kernel\clfs_log_name_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6011a3e9-1de1-4862-b6a4-a3becf3ec3ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IPartFont::SetFontContent
 author: windows-driver-content
 description: The SetFontContent method sets the content of the font.
 old-location: print\ipartfont_setfontcontent.htm
-old-project: print
+tech.root: print
 ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

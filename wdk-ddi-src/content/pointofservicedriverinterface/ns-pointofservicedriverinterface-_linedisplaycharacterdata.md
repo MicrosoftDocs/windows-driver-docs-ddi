@@ -4,7 +4,7 @@ title: "_LineDisplayCharacterData"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaycharacterdata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: EBD3CE63-A5ED-49FB-904F-1EF6A402ED64
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

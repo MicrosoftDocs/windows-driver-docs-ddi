@@ -4,7 +4,7 @@ title: FsRtlLookupMcbEntry function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtllookupmcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 558b8a6c-13f7-4bfc-b94e-e8767e94c8d2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

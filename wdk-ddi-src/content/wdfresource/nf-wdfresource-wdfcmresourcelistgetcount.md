@@ -4,7 +4,7 @@ title: WdfCmResourceListGetCount function
 author: windows-driver-content
 description: The WdfCmResourceListGetCount method returns the number of resource descriptors that are contained in a specified resource list.
 old-location: wdf\wdfcmresourcelistgetcount.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f1a38276-4964-422d-9b3c-8450b1028f27
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

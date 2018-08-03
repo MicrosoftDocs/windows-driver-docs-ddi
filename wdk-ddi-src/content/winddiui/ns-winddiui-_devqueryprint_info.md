@@ -4,7 +4,7 @@ title: "_DEVQUERYPRINT_INFO"
 author: windows-driver-content
 description: The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's DevQueryPrintEx function.
 old-location: print\devqueryprint_info.htm
-old-project: print
+tech.root: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

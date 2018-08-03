@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_POWER"
 author: windows-driver-content
 description: The SRBEX_DATA_POWER structure contains the request data for an extended power SRB.
 old-location: storage\srbex_data_power.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

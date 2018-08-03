@@ -4,7 +4,7 @@ title: HW_PASSIVE_INITIALIZE_ROUTINE
 author: windows-driver-content
 description: The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL.
 old-location: storage\hwstorpassiveinitializeroutine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 70f65a4e-0a98-4135-bb38-530c729538a3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

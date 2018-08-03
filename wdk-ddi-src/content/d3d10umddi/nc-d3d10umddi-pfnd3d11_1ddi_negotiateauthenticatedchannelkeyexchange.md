@@ -4,10 +4,10 @@ title: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE
 author: windows-driver-content
 description: Establishes a session key for an authenticated channel.
 old-location: display\negotiateauthenticatedchannelkeyexchange.htm
-old-project: display
+tech.root: display
 ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE, PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback, d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange, display.negotiateauthenticatedchannelkeyexchange, pfnNegotiateAuthenticatedChannelKeyExchange, pfnNegotiateAuthenticatedChannelKeyExchange callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

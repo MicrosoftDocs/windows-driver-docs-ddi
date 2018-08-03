@@ -4,7 +4,7 @@ title: UFS_DEVICE_HEALTH_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_DEVICE_HEALTH_DESCRIPTOR structure describes the health of a device.
 old-location: storage\ufs_device_health_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

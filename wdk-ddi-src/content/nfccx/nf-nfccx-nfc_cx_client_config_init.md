@@ -4,7 +4,7 @@ title: NFC_CX_CLIENT_CONFIG_INIT function
 author: windows-driver-content
 description: The NFC_CX_CLIENT_CONFIG_INIT function initializes the NFC_CX_CLIENT_CONFIG structure.
 old-location: nfpdrivers\nfc_cx_client_config_init.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 0679406E-091D-4E66-956A-54E3A517BF4C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

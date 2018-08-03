@@ -4,7 +4,7 @@ title: IPrintOemPS2::GetPDEVAdjustment
 author: windows-driver-content
 description: The IPrintOemPS2::GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.
 old-location: print\iprintoemps2_getpdevadjustment.htm
-old-project: print
+tech.root: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

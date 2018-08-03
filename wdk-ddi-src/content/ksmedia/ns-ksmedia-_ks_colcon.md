@@ -4,7 +4,7 @@ title: "_KS_COLCON"
 author: windows-driver-content
 description: The KS_COLCON structure is used to describe color and contrast settings.
 old-location: stream\ks_colcon.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8328c1b1-e72d-4e34-b69e-e02b3f5850bf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

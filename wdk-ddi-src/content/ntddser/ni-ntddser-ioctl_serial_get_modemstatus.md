@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_MODEMSTATUS
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_MODEMSTATUS request updates the modem status, and returns the value of the modem status register before the update.
 old-location: serports\ioctl_serial_get_modemstatus.htm
-old-project: serports
+tech.root: serports
 ms.assetid: d3926476-758d-4bc0-a1e8-114dc47dc846
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

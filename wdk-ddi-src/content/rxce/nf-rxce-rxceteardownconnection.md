@@ -4,7 +4,7 @@ title: RxCeTearDownConnection function
 author: windows-driver-content
 description: RxCeTearDownConnection tears down a given connection between a local RDBSS connection address and a remote address.
 old-location: ifsk\rxceteardownconnection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

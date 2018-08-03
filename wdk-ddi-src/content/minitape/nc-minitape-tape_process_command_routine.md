@@ -4,7 +4,7 @@ title: TAPE_PROCESS_COMMAND_ROUTINE
 author: windows-driver-content
 description: TAPE_PROCESS_COMMAND_ROUTINE handles the device-specific aspects of an IOCTL request.
 old-location: storage\tapeminicreatepartition.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6675d840-8b13-44ef-bbdb-84d683240175
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

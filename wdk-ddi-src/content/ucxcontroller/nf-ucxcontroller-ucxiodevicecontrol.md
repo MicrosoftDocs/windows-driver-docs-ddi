@@ -4,10 +4,10 @@ title: UcxIoDeviceControl function
 author: windows-driver-content
 description: Allows USB host controller extension (UCX) to handle an I/O control code (IOCTL) request from user mode.
 old-location: buses\_ucxiodevicecontrol.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

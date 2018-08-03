@@ -4,7 +4,7 @@ title: "_PRINTER_EVENT_ATTRIBUTES_INFO"
 author: windows-driver-content
 description: The PRINTER_EVENT_ATTRIBUTES_INFO structure contains the former attributes and the new attributes for a printer.
 old-location: print\printer_event_attributes_info.htm
-old-project: print
+tech.root: print
 ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

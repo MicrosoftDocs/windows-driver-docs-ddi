@@ -4,7 +4,7 @@ title: "_SM_SendECHO_OUT"
 author: windows-driver-content
 description: The SM_SendECHO_OUT structure is used to receive output parameters from the SM_SendECHO method.
 old-location: storage\sm_sendecho_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b3f948e0-4066-487c-aaa9-de29c0023f10
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

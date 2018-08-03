@@ -4,10 +4,10 @@ title: IDebugSymbols4::GetNameByInlineContextWide
 author: windows-driver-content
 description: Gets a name by inline context.
 old-location: debugger\idebugsymbols4_getnamebyinlinecontextwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: D77F5755-75B0-48E6-BC5C-565022F884E1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetNameByInlineContextWide, GetNameByInlineContextWide method [Windows Debugging], GetNameByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetNameByInlineContextWide method, IDebugSymbols4.GetNameByInlineContextWide, IDebugSymbols4::GetNameByInlineContextWide, dbgeng/IDebugSymbols4::GetNameByInlineContextWide, debugger.idebugsymbols4_getnamebyinlinecontextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

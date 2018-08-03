@@ -4,10 +4,10 @@ title: MINIPORT_DISABLE_INTERRUPT
 author: windows-driver-content
 description: NDIS can call a miniport driver's MiniportDisableInterruptEx handler to disable interrupts for diagnostic and troubleshooting purposes.
 old-location: netvista\miniportdisableinterruptex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6016ab15-56c6-4430-8883-d4cdcdf6116f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_DISABLE_INTERRUPT, MINIPORT_DISABLE_INTERRUPT callback, MiniportDisableInterruptEx, MiniportDisableInterruptEx callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDisableInterruptEx, ndis_interrupts_miniport_functions_ref_985ddb3d-4a38-4c96-8599-17f211d47b49.xml, netvista.miniportdisableinterruptex
 ms.prod: windows-hardware
 ms.technology: windows-devices

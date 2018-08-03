@@ -4,7 +4,7 @@ title: IOCTL_GPIO_READ_PINS
 author: windows-driver-content
 description: The IOCTL_GPIO_READ_PINS I/O control code enables a client of the general-purpose I/O (GPIO) controller to read from a set of GPIO pins that are configured as inputs.
 old-location: gpio\ioctl_gpio_read_pins.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: A6911DD2-0524-4E83-A42E-6E3E7107A928
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

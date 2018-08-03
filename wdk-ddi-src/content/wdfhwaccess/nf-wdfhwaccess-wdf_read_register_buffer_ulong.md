@@ -4,7 +4,7 @@ title: WDF_READ_REGISTER_BUFFER_ULONG function
 author: windows-driver-content
 description: The WDF_READ_REGISTER_BUFFER_ULONG function reads a number of ULONG values from the specified register address into a buffer.
 old-location: wdf\wdf_read_register_buffer_ulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 249D8FCF-6B63-467B-AEAA-BCF4900CFA48
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

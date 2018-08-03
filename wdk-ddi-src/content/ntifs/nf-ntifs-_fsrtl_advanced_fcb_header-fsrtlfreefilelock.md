@@ -4,7 +4,7 @@ title: FsRtlFreeFileLock function
 author: windows-driver-content
 description: The FsRtlFreeFileLock routine uninitializes and frees a file lock structure.
 old-location: ifsk\fsrtlfreefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 191a7964-4359-4b7f-8760-74f537b0737f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

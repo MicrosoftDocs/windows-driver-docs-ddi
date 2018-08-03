@@ -31,7 +31,8 @@ apilocation:
 -	dxgiddi.h
 apiname:
 -	DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

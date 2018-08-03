@@ -4,10 +4,10 @@ title: IDebugControl6::GetExecutionStatusEx
 author: windows-driver-content
 description: The GetExecutionStatusEx method returns information about the execution status of the debugger engine.
 old-location: debugger\idebugcontrol6_getexecutionstatusex.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: C14A3106-AEF7-4BA2-9E21-32D8B2D5BD7E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], GetExecutionStatusEx method [Windows Debugging],IDebugControl6 interface, IDebugControl6 interface [Windows Debugging],GetExecutionStatusEx method, IDebugControl6.GetExecutionStatusEx, IDebugControl6::GetExecutionStatusEx, dbgeng/IDebugControl6::GetExecutionStatusEx, debugger.idebugcontrol6_getexecutionstatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices

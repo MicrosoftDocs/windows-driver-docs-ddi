@@ -4,7 +4,7 @@ title: PoCallDriver function
 author: windows-driver-content
 description: The PoCallDriver routine passes a power IRP to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\pocalldriver.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

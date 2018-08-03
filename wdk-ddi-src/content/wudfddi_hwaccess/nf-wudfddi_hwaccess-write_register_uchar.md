@@ -4,7 +4,7 @@ title: WRITE_REGISTER_UCHAR function
 author: windows-driver-content
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: wdf\write_register_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C56D6CD8-7D23-4DA7-9241-F72ADBDD2770
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

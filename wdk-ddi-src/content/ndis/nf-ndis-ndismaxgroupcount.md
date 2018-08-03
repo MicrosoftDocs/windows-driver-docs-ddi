@@ -4,10 +4,10 @@ title: NdisMaxGroupCount function
 author: windows-driver-content
 description: The NdisMaxGroupCount function returns the maximum number of processor groups in the local computer system.
 old-location: netvista\ndismaxgroupcount.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 080707c5-cf46-4066-a241-684cdae37fee
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, netvista.ndismaxgroupcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

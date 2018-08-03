@@ -4,10 +4,10 @@ title: NdisOpenFile function
 author: windows-driver-content
 description: The NdisOpenFile function returns a handle for an opened file.
 old-location: netvista\ndisopenfile.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

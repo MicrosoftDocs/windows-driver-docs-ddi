@@ -4,7 +4,7 @@ title: "_REG_ENUMERATE_VALUE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_ENUMERATE_VALUE_KEY_INFORMATION structure describes one value entry of a key whose value entries are being enumerated.
 old-location: kernel\reg_enumerate_value_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0d5566ca-b71c-429e-bb7d-db3eb09f0472
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

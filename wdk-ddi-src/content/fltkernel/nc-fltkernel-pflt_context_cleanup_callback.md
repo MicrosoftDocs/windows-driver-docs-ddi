@@ -4,7 +4,7 @@ title: PFLT_CONTEXT_CLEANUP_CALLBACK
 author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_CONTEXT_CLEANUP_CALLBACK as the minifilter driver's ContextCleanupCallback routine.
 old-location: ifsk\pflt_context_cleanup_callback.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f17eb108-58d1-4640-a0cc-ae568b0c844c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

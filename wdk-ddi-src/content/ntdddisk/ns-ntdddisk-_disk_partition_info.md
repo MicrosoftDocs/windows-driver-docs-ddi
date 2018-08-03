@@ -4,7 +4,7 @@ title: "_DISK_PARTITION_INFO"
 author: windows-driver-content
 description: The DISK_PARTITION_INFO structure is used to report information about the disk's partition table.
 old-location: storage\disk_partition_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 14df0604-39cd-4743-a051-894d63f4417c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

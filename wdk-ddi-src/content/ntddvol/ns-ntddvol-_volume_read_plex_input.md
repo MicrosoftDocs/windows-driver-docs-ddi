@@ -4,7 +4,7 @@ title: "_VOLUME_READ_PLEX_INPUT"
 author: windows-driver-content
 description: This structure is used in conjunction with IOCTL_VOLUME_READ_PLEX to read data from a specific plex in a volume.
 old-location: storage\volume_read_plex_input.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1d53c658-9912-4912-a74f-f7b93367b9e2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

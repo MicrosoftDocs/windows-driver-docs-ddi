@@ -4,10 +4,10 @@ title: TCP_OFFLOAD_SEND_COMPLETE_HANDLER
 author: windows-driver-content
 description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadSendComplete function to complete a send operation that the driver previously initiated by calling the NdisOffloadTcpSend function.
 old-location: netvista\protocoltcpoffloadsendcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6f9c7964-e475-421c-99d6-f4fc31a26f02
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: ProtocolTcpOffloadSendComplete, ProtocolTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_SEND_COMPLETE_HANDLER, TCP_OFFLOAD_SEND_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadSendComplete, netvista.protocoltcpoffloadsendcomplete, tcp_chim_protocol_func_5d69efad-e470-44ce-850f-b7693d1a1f2e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

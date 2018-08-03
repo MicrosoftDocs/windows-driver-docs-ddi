@@ -4,7 +4,7 @@ title: IoCreateDisk function
 author: windows-driver-content
 description: The IoCreateDisk routine initializes a raw disk by creating a new partition table.
 old-location: storage\iocreatedisk.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0ad85551-a8d2-4f7f-958b-fe23111de340
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

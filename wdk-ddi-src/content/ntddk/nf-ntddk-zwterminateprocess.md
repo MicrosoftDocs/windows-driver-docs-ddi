@@ -4,7 +4,7 @@ title: ZwTerminateProcess function
 author: windows-driver-content
 description: The ZwTerminateProcess routine terminates a process and all of its threads.
 old-location: kernel\zwterminateprocess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

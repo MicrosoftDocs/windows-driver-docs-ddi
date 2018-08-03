@@ -4,7 +4,7 @@ title: "_UNIDRVINFO"
 author: windows-driver-content
 description: The UNIDRVINFO structure is used to specify printer-specific information within Unidrv font metrics files (.ufm files).
 old-location: print\unidrvinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

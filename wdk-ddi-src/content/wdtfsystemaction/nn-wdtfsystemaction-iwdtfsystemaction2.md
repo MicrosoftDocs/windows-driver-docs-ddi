@@ -4,7 +4,7 @@ title: IWDTFSystemAction2
 author: windows-driver-content
 description: Defines operations and properties that support driver testing.
 old-location: dtf\iwdtfsystemaction2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 783ddaaa-f39f-4e66-85aa-4788bf7959a6
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY
 author: windows-driver-content
 description: This IOCTL is identical in input and output to IOCTL_MOUNTMGR_QUERY_POINTS.
 old-location: storage\ioctl_mountmgr_delete_points_dbonly.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 507e42a0-e5f6-4864-a665-d06eb4d1a77b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

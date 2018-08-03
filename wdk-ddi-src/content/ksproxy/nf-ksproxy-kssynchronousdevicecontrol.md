@@ -4,7 +4,7 @@ title: KsSynchronousDeviceControl function
 author: windows-driver-content
 description: The KsSynchronousDeviceControl function issues a synchronous device I/O control operation to the KS object that is specified by a file handle.
 old-location: stream\kssynchronousdevicecontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

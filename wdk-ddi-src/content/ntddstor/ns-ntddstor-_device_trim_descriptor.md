@@ -4,7 +4,7 @@ title: "_DEVICE_TRIM_DESCRIPTOR"
 author: windows-driver-content
 description: The DEVICE_TRIM_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: storage\device_trim_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e36bca55-63d0-41ef-83b9-8f0cfd450323
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

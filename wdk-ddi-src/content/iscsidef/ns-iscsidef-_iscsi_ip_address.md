@@ -4,7 +4,7 @@ title: "_ISCSI_IP_Address"
 author: windows-driver-content
 description: The ISCSI_IP_Address structure defines an IP address.
 old-location: storage\iscsi_ip_address.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ec4c2add-33e0-4e3d-8f19-892cca4720a7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

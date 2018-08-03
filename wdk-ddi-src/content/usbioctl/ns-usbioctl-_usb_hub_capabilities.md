@@ -4,10 +4,10 @@ title: "_USB_HUB_CAPABILITIES"
 author: windows-driver-content
 description: The USB_HUB_CAPABILITIES structure has been deprecated. Use USB_HUB_CAPABILITIES_EX instead.
 old-location: buses\usb_hub_capabilities.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: a87f747f-474d-401d-9757-0820680e5c8e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES structure pointer [Buses], USB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES structure [Buses], _USB_HUB_CAPABILITIES, buses.usb_hub_capabilities, usbioctl/PUSB_HUB_CAPABILITIES, usbioctl/USB_HUB_CAPABILITIES, usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

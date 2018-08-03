@@ -4,10 +4,10 @@ title: IMiniportWaveRT
 author: windows-driver-content
 description: The IMiniportWaveRT interface is the primary interface that is exposed by the miniport driver for a WaveRT audio device.
 old-location: audio\iminiportwavert.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 5b98802e-c1a8-4613-85fe-f734ecc4670a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], IMiniportWaveRT interface [Audio Devices],described, audio.iminiportwavert, audmp-routines_8d8d9bf9-09f1-4c1f-9113-c03e506e4edb.xml, portcls/IMiniportWaveRT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IOCTL_HID_WRITE_REPORT
 author: windows-driver-content
 description: The IOCTL_HID_WRITE_REPORT request sends a HID report to a HIDClass device.
 old-location: hid\ioctl_hid_write_report.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 30b56c97-f135-4603-a5f0-3ed2105aae59
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

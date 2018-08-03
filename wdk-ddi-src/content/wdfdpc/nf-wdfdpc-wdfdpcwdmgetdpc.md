@@ -4,7 +4,7 @@ title: WdfDpcWdmGetDpc function
 author: windows-driver-content
 description: The WdfDpcWdmGetDpc method returns a pointer to the KDPC structure that is associated with a specified framework DPC object.
 old-location: wdf\wdfdpcwdmgetdpc.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

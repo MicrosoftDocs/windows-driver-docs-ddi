@@ -4,7 +4,7 @@ title: "_GetFCPStatistics_OUT"
 author: windows-driver-content
 description: The GetFCPStatistics_OUT structure is used by the miniport driver to report the output parameters of the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 150773a3-a3a9-41a7-9985-4387bba5a766
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

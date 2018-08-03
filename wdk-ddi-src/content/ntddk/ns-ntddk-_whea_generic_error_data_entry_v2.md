@@ -4,7 +4,7 @@ title: "_WHEA_GENERIC_ERROR_DATA_ENTRY_V2"
 author: windows-driver-content
 description: The WHEA_GENERIC_ERROR_DATA_ENTRY structure describes an error data section in a generic error status block.
 old-location: whea\whea_generic_error_data_entry.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 86834d99-34bd-487a-bbd4-4c0143d849a0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

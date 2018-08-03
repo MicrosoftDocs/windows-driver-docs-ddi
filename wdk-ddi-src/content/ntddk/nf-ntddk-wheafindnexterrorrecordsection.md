@@ -4,7 +4,7 @@ title: WheaFindNextErrorRecordSection function
 author: windows-driver-content
 description: The WheaFindNextErrorRecordSection function allows a caller to iteratively examine the WHEA error record sections within a WHEA error record. Each error record section is formatted as a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
 old-location: whea\wheafindnexterrorrecordsection.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 36a0ca45-2601-4b7f-9f2b-35e2a7047520
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

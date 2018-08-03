@@ -4,7 +4,7 @@ title: "_CO_HEADER"
 author: windows-driver-content
 description: The CO_HEADER structure is used to specify values for the Header member of the L2CAP_CONFIG_OPTION structure.
 old-location: bltooth\co_header.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 76fa3316-bbec-4bf1-8cb8-d92e9f54d2d6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

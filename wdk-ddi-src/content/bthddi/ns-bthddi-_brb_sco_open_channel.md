@@ -4,7 +4,7 @@ title: "_BRB_SCO_OPEN_CHANNEL"
 author: windows-driver-content
 description: The _BRB_SCO_OPEN_CHANNEL structure describes a SCO channel to open to a remote device, or a response from the profile driver accepting or rejecting an incoming SCO connection request that was initiated by a remote device.
 old-location: bltooth\_brb_sco_open_channel.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

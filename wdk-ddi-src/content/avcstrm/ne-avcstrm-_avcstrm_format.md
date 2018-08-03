@@ -4,7 +4,7 @@ title: "_AVCSTRM_FORMAT"
 author: windows-driver-content
 description: The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by avcstrm.sys.
 old-location: stream\avcstrm_format.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4481ec67-55b6-479e-b0b6-5f8ed56a5290
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

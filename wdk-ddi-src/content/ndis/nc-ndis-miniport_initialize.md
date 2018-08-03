@@ -4,10 +4,10 @@ title: MINIPORT_INITIALIZE
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportInitializeEx function to initialize a miniport adapter for network I/O operations.
 old-location: netvista\miniportinitializeex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b146fa81-005b-4a6c-962d-4cb023ea790e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_INITIALIZE, MINIPORT_INITIALIZE callback, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices

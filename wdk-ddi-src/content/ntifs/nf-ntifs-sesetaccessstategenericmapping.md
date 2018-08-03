@@ -4,7 +4,7 @@ title: SeSetAccessStateGenericMapping function
 author: windows-driver-content
 description: The SeSetAccessStateGenericMapping routine sets the generic mapping field of an ACCESS_STATE structure.
 old-location: ifsk\sesetaccessstategenericmapping.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b9a5ca5c-2d1c-4974-bef8-6003a4d6e864
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

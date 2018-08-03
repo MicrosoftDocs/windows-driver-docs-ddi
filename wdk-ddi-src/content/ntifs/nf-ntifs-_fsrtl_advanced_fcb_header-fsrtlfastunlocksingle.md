@@ -4,7 +4,7 @@ title: FsRtlFastUnlockSingle function
 author: windows-driver-content
 description: The FsRtlFastUnlockSingle routine releases a byte-range lock that was acquired by the specified process, with the specified key value, file offset, and length, for a file.
 old-location: ifsk\fsrtlfastunlocksingle.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8fd7aeea-f8b2-4f53-b4b6-65240ff0c7b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

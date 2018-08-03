@@ -4,7 +4,7 @@ title: "_POS_CX_EVENT_PRIORITY"
 author: windows-driver-content
 description: The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
 old-location: pos\pos_cx_event_priority.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 835DC1E4-2D49-4D43-A545-5D4288412EC6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

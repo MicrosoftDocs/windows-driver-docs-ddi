@@ -4,7 +4,7 @@ title: IDriverEntry::OnInitialize
 author: windows-driver-content
 description: The OnInitialize method performs any operations that are necessary to initialize a driver.
 old-location: wdf\idriverentry_oninitialize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c676588e-348b-4840-9873-6b1bb2454987
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

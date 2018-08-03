@@ -4,7 +4,7 @@ title: tagBDA_TRANSPORT_INFO
 author: windows-driver-content
 description: The BDA_TRANSPORT_INFO structure describes formatting for a stream connection.
 old-location: stream\bda_transport_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 995a1d2f-8e2b-426e-a08c-283124ce905e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

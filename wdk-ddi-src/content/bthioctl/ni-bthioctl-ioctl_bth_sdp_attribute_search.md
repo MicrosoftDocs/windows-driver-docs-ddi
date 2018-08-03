@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
 author: windows-driver-content
 description: The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified SDP record.
 old-location: bltooth\ioctl_bth_sdp_attribute_search.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 30daf70e-34d1-45f7-a69b-503e275b83af
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

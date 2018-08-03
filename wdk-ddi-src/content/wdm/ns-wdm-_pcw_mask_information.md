@@ -4,7 +4,7 @@ title: "_PCW_MASK_INFORMATION"
 author: windows-driver-content
 description: The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the Info parameter to the PcwCallback function. This mask information is included in PCW_CALLBACK_INFORMATION.
 old-location: devtest\pcw_mask_information.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 5519aec9-9a02-4571-8809-fa8273269ea5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,10 +4,10 @@ title: NDK_FN_CLOSE_COMPLETION
 author: windows-driver-content
 description: The NdkCloseCompletion (NDK_FN_CLOSE_COMPLETION) function is an asynchronous completion function for closing NDK objects.
 old-location: netvista\ndk_fn_close_completion.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: EB3C395F-235A-4B9A-B777-E4E8CD8AFC3C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION callback, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices

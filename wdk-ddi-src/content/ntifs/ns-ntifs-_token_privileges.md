@@ -4,7 +4,7 @@ title: "_TOKEN_PRIVILEGES"
 author: windows-driver-content
 description: TOKEN_PRIVILEGES contains information about a set of privileges for an access token.
 old-location: ifsk\token_privileges.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f2f4b2b7-bec0-42c3-904b-cbc74ca76bb3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

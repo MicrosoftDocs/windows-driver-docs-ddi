@@ -4,7 +4,7 @@ title: RtlDeleteNoSplay function
 author: windows-driver-content
 description: The RtlDeleteNoSplay routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldeletenosplay.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

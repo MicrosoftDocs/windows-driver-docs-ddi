@@ -4,7 +4,7 @@ title: RtlEqualSid function
 author: windows-driver-content
 description: The RtlEqualSid routine determines whether two security identifier (SID) values are equal. Two SIDs must match exactly to be considered equal.
 old-location: ifsk\rtlequalsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4976fc27-c28a-46ec-ac07-19505cda8f14
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

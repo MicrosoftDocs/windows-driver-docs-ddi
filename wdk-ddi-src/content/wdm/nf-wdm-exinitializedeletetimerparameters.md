@@ -4,7 +4,7 @@ title: ExInitializeDeleteTimerParameters function
 author: windows-driver-content
 description: The ExInitializeDeleteTimerParameters routine initializes an EXT_DELETE_PARAMETERS structure.
 old-location: kernel\exinitializedeletetimerparameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: TmSinglePhaseReject function
 author: windows-driver-content
 description: The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment.
 old-location: kernel\tmsinglephasereject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8fc92d51-40be-439b-abee-54ad19a86a89
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

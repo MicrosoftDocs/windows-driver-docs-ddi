@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure describes the scanning capabilities of a broadcast network type that a tuning device supports.
 old-location: stream\ksproperty_tuner_networktype_scan_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e6fe9278-d34e-4fba-80f9-84d6ededbfc1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

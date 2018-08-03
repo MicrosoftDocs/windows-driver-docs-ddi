@@ -4,7 +4,7 @@ title: HBA_SendCTPassThru function
 author: windows-driver-content
 description: The HBA_SendCTPassThru routine sends a common transport (CT) pass-through command.
 old-location: storage\hba_sendctpassthru.htm
-old-project: storage
+tech.root: storage
 ms.assetid: adfdb968-5ba3-43af-899a-7172c9ecf46c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

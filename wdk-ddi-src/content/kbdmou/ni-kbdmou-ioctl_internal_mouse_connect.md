@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_MOUSE_CONNECT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_MOUSE_CONNECT request connects Mouclass service to a mouse device.
 old-location: hid\ioctl_internal_mouse_connect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: f20e424a-60d3-4bfa-9cc3-d2541c927b22
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

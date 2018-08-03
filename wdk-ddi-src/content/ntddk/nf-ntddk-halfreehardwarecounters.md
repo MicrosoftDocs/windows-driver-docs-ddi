@@ -4,7 +4,7 @@ title: HalFreeHardwareCounters function
 author: windows-driver-content
 description: The HalFreeHardwareCounters routine frees a set of hardware performance counters that was acquired in a previous call to HalAllocateHardwareCounters routine.
 old-location: kernel\halfreehardwarecounters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 646a073b-e0c5-4d41-b60c-3935c129fb39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,16 +16,16 @@ req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL

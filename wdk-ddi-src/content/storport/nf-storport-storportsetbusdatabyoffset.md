@@ -4,7 +4,7 @@ title: StorPortSetBusDataByOffset function
 author: windows-driver-content
 description: The StorPortSetBusDataByOffset routine writes bus-specific configuration information.
 old-location: storage\storportsetbusdatabyoffset.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ec1db013-b630-421b-8d22-385a2d9b9510
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

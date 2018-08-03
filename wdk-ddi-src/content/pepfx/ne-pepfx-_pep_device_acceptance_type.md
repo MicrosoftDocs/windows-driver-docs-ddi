@@ -4,7 +4,7 @@ title: "_PEP_DEVICE_ACCEPTANCE_TYPE"
 author: windows-driver-content
 description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 72D0BEC2-F5D5-4045-AD63-F263993817B0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

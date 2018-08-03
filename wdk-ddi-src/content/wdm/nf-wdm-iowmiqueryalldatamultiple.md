@@ -4,7 +4,7 @@ title: IoWMIQueryAllDataMultiple function
 author: windows-driver-content
 description: The IoWMIQueryAllDataMultiple routine returns all WMI data blocks that implement one of a set of WMI classes.
 old-location: kernel\iowmiqueryalldatamultiple.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

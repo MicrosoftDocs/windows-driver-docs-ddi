@@ -4,7 +4,7 @@ title: "_FILE_PIPE_LOCAL_INFORMATION"
 author: windows-driver-content
 description: The FILE_PIPE_LOCAL_INFORMATION structure contains information about the local end of a named pipe.
 old-location: ifsk\file_pipe_local_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7ca66b75-e5ff-46a6-8a40-47aa53bf0f6f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

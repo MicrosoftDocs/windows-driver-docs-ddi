@@ -4,7 +4,7 @@ title: PushEntryList function
 author: windows-driver-content
 description: The PushEntryList routine inserts an entry at the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\pushentrylist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

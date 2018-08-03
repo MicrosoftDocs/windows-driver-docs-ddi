@@ -4,7 +4,7 @@ title: UPSWaitForStateChange function
 author: windows-driver-content
 description: The UPSWaitForStateChange function waits until a specified UPS state changes, or until a time-out interval elapses.
 old-location: battery\upswaitforstatechange.htm
-old-project: battery
+tech.root: battery
 ms.assetid: ac78dda4-6d14-441b-8e79-3245f7253875
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

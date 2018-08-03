@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: The STORAGE_DEVICE_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the storage device descriptor data for a device.
 old-location: storage\storage_device_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 99b270a0-0634-41a8-9de7-d2a2d4c3059f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

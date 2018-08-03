@@ -4,7 +4,7 @@ title: "_IO_ERROR_LOG_PACKET"
 author: windows-driver-content
 description: The IO_ERROR_LOG_PACKET structure serves as the header for an error log entry.
 old-location: kernel\io_error_log_packet.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4bf54017-d142-4534-8a5a-c7f267a1554b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

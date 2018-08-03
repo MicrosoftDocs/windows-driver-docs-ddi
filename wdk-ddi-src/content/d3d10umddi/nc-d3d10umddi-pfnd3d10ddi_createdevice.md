@@ -4,10 +4,10 @@ title: PFND3D10DDI_CREATEDEVICE
 author: windows-driver-content
 description: The CreateDevice(D3D10) function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice_d3d10_.htm
-old-project: display
+tech.root: display
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3D10DDI_CREATEDEVICE, PFND3D10DDI_CREATEDEVICE callback, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml, d3d10umddi/CreateDevice, display.createdevice_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices

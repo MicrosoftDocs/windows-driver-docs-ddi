@@ -4,7 +4,7 @@ title: RtlQueryRegistryValues function
 author: windows-driver-content
 description: The RtlQueryRegistryValues routine allows the caller to query several values from the registry subtree with a single call.
 old-location: kernel\rtlqueryregistryvalues.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

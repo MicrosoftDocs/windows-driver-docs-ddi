@@ -4,10 +4,10 @@ title: ExtRemoteData::GetShort
 author: windows-driver-content
 description: The GetShort method returns a SHORT version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getshort.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5e364e83-76db-44b0-b5bc-15eed53bbbdf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml, ExtRemoteData class [Windows Debugging],GetShort method, ExtRemoteData.GetShort, ExtRemoteData::GetShort, GetShort, GetShort method [Windows Debugging], GetShort method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getshort
 ms.prod: windows-hardware
 ms.technology: windows-devices

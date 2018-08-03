@@ -4,7 +4,7 @@ title: WUDF_INTERRUPT_ISR
 author: windows-driver-content
 description: A driver's OnInterruptIsr event callback function services a hardware interrupt.
 old-location: wdf\oninterruptisr.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_MsrAuthenticationProtocol"
 author: windows-driver-content
 description: This enumeration defines magnetic stripe reader (MSR) authentication protocols.
 old-location: pos\msrauthenticationprotocoltype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 6f06d03e-001e-4340-9b96-8e3654be5c1a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

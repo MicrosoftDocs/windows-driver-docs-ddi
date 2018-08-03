@@ -4,7 +4,7 @@ title: PFN_DrvWriteAbortBuf
 author: windows-driver-content
 description: The DrvWriteAbortBuf function is obsolete.
 old-location: print\drvwriteabortbuf.htm
-old-project: print
+tech.root: print
 ms.assetid: a5fe5d9a-c5af-4445-bfd6-caf55555997c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

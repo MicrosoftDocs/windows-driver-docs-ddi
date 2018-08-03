@@ -4,7 +4,7 @@ title: POB_PRE_OPERATION_CALLBACK
 author: windows-driver-content
 description: The ObjectPreCallback routine is called by the operating system when a process or thread handle operation occurs.
 old-location: kernel\objectprecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 257c6c7d-be79-43bf-b2cd-f561e1741f90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

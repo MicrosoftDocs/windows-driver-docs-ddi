@@ -4,7 +4,7 @@ title: KeSetKernelStackSwapEnable function
 author: windows-driver-content
 description: The KeSetKernelStackSwapEnable routine enables and disables swapping of the caller's stack to disk.
 old-location: kernel\kesetkernelstackswapenable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

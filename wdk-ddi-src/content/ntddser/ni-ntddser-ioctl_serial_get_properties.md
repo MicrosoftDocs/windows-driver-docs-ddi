@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_PROPERTIES
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_PROPERTIES request returns information about the capabilities of a serial controller. The capabilities information is returned in a SERIAL_COMMPROP structure.
 old-location: serports\ioctl_serial_get_properties.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 8404f730-d734-486e-8592-e237e10d5602
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

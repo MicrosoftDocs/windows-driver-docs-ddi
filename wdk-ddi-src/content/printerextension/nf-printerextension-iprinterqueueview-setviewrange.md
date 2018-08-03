@@ -4,7 +4,7 @@ title: IPrinterQueueView::SetViewRange
 author: windows-driver-content
 description: Sets the range of print jobs being monitored.
 old-location: print\iprinterqueueview_setviewrange.htm
-old-project: print
+tech.root: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

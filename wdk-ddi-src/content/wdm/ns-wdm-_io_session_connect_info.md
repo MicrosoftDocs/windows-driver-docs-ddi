@@ -4,7 +4,7 @@ title: "_IO_SESSION_CONNECT_INFO"
 author: windows-driver-content
 description: The IO_SESSION_CONNECT_INFO structure provides information about a user session.
 old-location: kernel\io_session_connect_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f9d7ffae-aa9e-44d6-b659-cb5a9068f1d7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

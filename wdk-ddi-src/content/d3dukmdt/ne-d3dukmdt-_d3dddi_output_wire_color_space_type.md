@@ -28,7 +28,8 @@ apilocation:
 -	d3dukmdt.h
 apiname:
 -	_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

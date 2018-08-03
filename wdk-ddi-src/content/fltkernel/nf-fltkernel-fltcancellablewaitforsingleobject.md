@@ -4,7 +4,7 @@ title: FltCancellableWaitForSingleObject function
 author: windows-driver-content
 description: The FltCancellableWaitForSingleObject routine executes a cancelable wait operation (a wait that can be terminated) on a dispatcher object.
 old-location: ifsk\fltcancellablewaitforsingleobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bf872769-c084-44c9-97e8-58eb54f943b2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

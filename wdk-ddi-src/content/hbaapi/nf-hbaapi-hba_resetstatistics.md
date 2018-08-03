@@ -4,7 +4,7 @@ title: HBA_ResetStatistics function
 author: windows-driver-content
 description: The HBA_ResetStatistics routine resets the statistics counters for the indicated port and HBA.
 old-location: storage\hba_resetstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RtlStringCchCopyA function
 author: windows-driver-content
 description: The RtlStringCchCopyW and RtlStringCchCopyA functions copy a null-terminated source string into a destination buffer of specified length.
 old-location: kernel\rtlstringcchcopy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d5c6d7d2-fe14-49d5-9e81-3a425a4cf1b3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_INSTANCE_BASIC_INFORMATION"
 author: windows-driver-content
 description: The INSTANCE_BASIC_INFORMATION structure contains basic information for a minifilter instance.
 old-location: ifsk\instance_basic_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 35e2b098-1bc2-4ffc-86c8-b60b651df027
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

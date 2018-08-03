@@ -4,10 +4,10 @@ title: "_NDK_MR"
 author: windows-driver-content
 description: The NDK_MR structure specifies the attributes of an NDK memory region (MR) object.
 old-location: netvista\ndk_mr.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: F0585210-048E-4397-98E4-46640731E66C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_MR, NDK_MR structure [Network Drivers Starting with Windows Vista], PNDK_MR, PNDK_MR structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR, ndkpi/NDK_MR, ndkpi/PNDK_MR, netvista.ndk_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices

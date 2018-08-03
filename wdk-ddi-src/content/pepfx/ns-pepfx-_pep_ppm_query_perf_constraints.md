@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_PERF_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_PPM_PERF_CONSTRAINTS structure describes the performance limits to apply to the processor.
 old-location: kernel\pep_ppm_perf_constraints.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

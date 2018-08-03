@@ -4,7 +4,7 @@ title: "_PIPE_TERMINATION"
 author: windows-driver-content
 description: The PIPE_TERMINATION structure is for proxy use and not recommended for application use. PIPE_TERMINATION contains information that describes the pin terminator of a pipe.
 old-location: stream\pipe_termination.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6c425b5d-8d9f-4438-b9e4-256dcc8878c5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

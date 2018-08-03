@@ -4,7 +4,7 @@ title: tagACT_AUTHZ_STATE
 author: windows-driver-content
 description: This structure describes the Addressable Command Target (ACT) authorization state.
 old-location: storage\act_authz_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

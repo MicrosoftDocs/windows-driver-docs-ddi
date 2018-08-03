@@ -4,7 +4,7 @@ title: "_DEVICE_DATA_SET_LB_PROVISIONING_STATE"
 author: windows-driver-content
 description: The DEVICE_DATA_SET_LB_PROVISIONING_STATE structure is returned by an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request when requesting logical block provisioning information for a data set range.
 old-location: storage\device_data_set_lb_provisioning_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

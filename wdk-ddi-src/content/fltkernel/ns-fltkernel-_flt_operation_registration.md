@@ -4,7 +4,7 @@ title: "_FLT_OPERATION_REGISTRATION"
 author: windows-driver-content
 description: The FLT_OPERATION_REGISTRATION structure is used to register operation callback routines.
 old-location: ifsk\flt_operation_registration.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5e3f9a29-660e-46f1-bf25-5bad8b91e32c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

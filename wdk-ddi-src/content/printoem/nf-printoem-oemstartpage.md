@@ -4,7 +4,7 @@ title: OEMStartPage function
 author: windows-driver-content
 description: The OEMStartPage function is called by GDI when it is ready to start sending the contents of a physical page to the driver for rendering.
 old-location: print\oemstartpage.htm
-old-project: print
+tech.root: print
 ms.assetid: 86cee994-2dfe-4eaf-906b-ce6d9051399e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

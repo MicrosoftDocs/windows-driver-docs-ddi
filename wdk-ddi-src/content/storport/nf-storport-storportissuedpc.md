@@ -4,7 +4,7 @@ title: StorPortIssueDpc function
 author: windows-driver-content
 description: The StorPortIssueDpc routine issues a deferred procedure call (DPC).
 old-location: storage\storportissuedpc.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a0c46c51-f6c4-4609-9dba-b730f33c3ed6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

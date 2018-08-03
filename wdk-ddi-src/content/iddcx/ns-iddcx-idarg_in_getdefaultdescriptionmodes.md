@@ -4,10 +4,10 @@ title: IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 author: windows-driver-content
 description: Gives information about the default monitor modes passed into the driver.
 old-location: display\idarg_in_getdefaultdescriptionmodes.htm
-old-project: display
+tech.root: display
 ms.assetid: 4d0a1f81-efc0-40aa-9dde-b9cac64afb8b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices

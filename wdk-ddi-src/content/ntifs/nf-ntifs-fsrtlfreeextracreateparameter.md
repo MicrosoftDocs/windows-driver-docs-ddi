@@ -4,7 +4,7 @@ title: FsRtlFreeExtraCreateParameter function
 author: windows-driver-content
 description: The FsRtlFreeExtraCreateParameter routine frees the memory for an ECP context structure.
 old-location: ifsk\fsrtlfreeextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c46cdfd3-36c4-420d-9dbf-d6f0bede460e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

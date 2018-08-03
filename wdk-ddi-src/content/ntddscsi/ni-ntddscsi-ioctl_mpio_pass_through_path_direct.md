@@ -4,7 +4,7 @@ title: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT
 author: windows-driver-content
 description: This I/O control code allows an application or kernel driver to send a SCSI command to a designated real LUN.
 old-location: storage\ioctl_mpio_pass_through_path_direct.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a14eb3a9-f2b6-4abc-8eaa-23bd4a87580e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

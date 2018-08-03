@@ -4,7 +4,7 @@ title: IPrinterExtensionAsyncOperation
 author: windows-driver-content
 description: Provides the context associated with an asynchronous operation.
 old-location: print\iprinterextensionasyncoperation.htm
-old-project: print
+tech.root: print
 ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

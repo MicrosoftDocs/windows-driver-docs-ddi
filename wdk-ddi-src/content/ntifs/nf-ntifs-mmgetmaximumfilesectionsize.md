@@ -4,7 +4,7 @@ title: MmGetMaximumFileSectionSize function
 author: windows-driver-content
 description: The MmGetMaximumFileSectionSize returns the maximum possible size of a file section for the current version of Windows.
 old-location: ifsk\mmgetmaximumfilesectionsize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

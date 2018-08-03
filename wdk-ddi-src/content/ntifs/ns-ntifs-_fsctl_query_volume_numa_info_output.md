@@ -4,7 +4,7 @@ title: "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT"
 author: windows-driver-content
 description: The FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure specifies the Non-Uniform Memory Architecture (NUMA) node the volume resides on.
 old-location: ifsk\fsctl_query_volume_numa_info_output_.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3BB6F409-A716-4990-B1C6-D0F8035DA7F0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

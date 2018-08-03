@@ -4,7 +4,7 @@ title: MmIsThisAnNtAsSystem function
 author: windows-driver-content
 description: The MmIsThisAnNtAsSystem routine is obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.
 old-location: kernel\mmisthisanntassystem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e9daafb1-16ec-4ffe-b863-6f07c4b2a9b7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

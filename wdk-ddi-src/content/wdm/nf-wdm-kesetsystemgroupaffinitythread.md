@@ -4,7 +4,7 @@ title: KeSetSystemGroupAffinityThread function
 author: windows-driver-content
 description: The KeSetSystemGroupAffinityThread routine changes the group number and affinity mask of the calling thread.
 old-location: kernel\kesetsystemgroupaffinitythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8ccc097d-f997-43c1-a068-f2f532afa0d6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

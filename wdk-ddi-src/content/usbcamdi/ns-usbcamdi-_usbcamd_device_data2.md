@@ -4,7 +4,7 @@ title: "_USBCAMD_DEVICE_DATA2"
 author: windows-driver-content
 description: The USBCAMD_DEVICE_DATA2 structure specifies the entry points for a camera minidriver's functions that USBCAMD calls.
 old-location: stream\usbcamd_device_data2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 51339fd1-a962-4e3c-b9c9-5fe54ff53aa0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

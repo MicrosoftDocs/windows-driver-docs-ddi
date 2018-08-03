@@ -4,7 +4,7 @@ title: KDEFERRED_ROUTINE
 author: windows-driver-content
 description: The callback routine performs actions, after an InterruptService returns, of a threaded DPC, The CustomDpc routine finishes the servicing of an I/O operation, after an InterruptService routine returns.The CustomThreadedDpc routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.The CustomTimerDpc routine executes after a timer object's time interval expires.
 old-location: kernel\customdpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4b94690a-cac9-4e36-ac51-34b02b4be28a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KeSaveFloatingPointState function
 author: windows-driver-content
 description: The KeSaveFloatingPointState routine saves the nonvolatile floating-point context so the caller can carry out floating-point operations.
 old-location: kernel\kesavefloatingpointstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

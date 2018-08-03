@@ -4,7 +4,7 @@ title: RtlUnicodeStringCat function
 author: windows-driver-content
 description: The RtlUnicodeStringCat function concatenates two strings that are contained in UNICODE_STRING structures.
 old-location: kernel\rtlunicodestringcat.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 15b9ff74-5ca7-4459-af02-b6dc7cd201bf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

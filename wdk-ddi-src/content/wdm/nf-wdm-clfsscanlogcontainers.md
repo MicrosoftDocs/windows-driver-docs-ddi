@@ -4,7 +4,7 @@ title: ClfsScanLogContainers function
 author: windows-driver-content
 description: The ClfsScanLogContainers routine retrieves descriptive information for a sequence of containers that belong to a particular CLFS log.
 old-location: kernel\clfsscanlogcontainers.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76f97976-f48b-4ead-88d6-a9e1fdb21f08
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

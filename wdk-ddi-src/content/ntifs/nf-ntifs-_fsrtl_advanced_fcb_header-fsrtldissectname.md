@@ -4,7 +4,7 @@ title: FsRtlDissectName function
 author: windows-driver-content
 description: Given a Unicode pathname string, the FsRtlDissectName routine returns two strings, one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

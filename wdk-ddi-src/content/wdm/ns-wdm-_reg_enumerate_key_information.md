@@ -4,7 +4,7 @@ title: "_REG_ENUMERATE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_ENUMERATE_KEY_INFORMATION structure describes one subkey of a key whose subkeys are being enumerated.
 old-location: kernel\reg_enumerate_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fdae9130-b33e-4714-9e8c-f4faf21ee8c8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

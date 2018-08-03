@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	PFND3D12DDI_RESET_COMMAND_POOL_0040
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

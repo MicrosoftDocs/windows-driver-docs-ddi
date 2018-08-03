@@ -4,10 +4,10 @@ title: NDK_FN_DISCONNECT
 author: windows-driver-content
 description: The NdkDisconnect (NDK_FN_DISCONNECT) function starts a disconnect on an NDK connection.
 old-location: netvista\ndk_fn_disconnect.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 40622358-F4CA-4DF2-BDA4-E93C4DDB1AF6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_DISCONNECT, NDK_FN_DISCONNECT callback, NdkDisconnect, NdkDisconnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDisconnect, netvista.ndk_fn_disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

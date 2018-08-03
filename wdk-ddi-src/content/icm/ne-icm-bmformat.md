@@ -4,7 +4,7 @@ title: BMFORMAT
 author: windows-driver-content
 description: The values of the BMFORMAT enumeration are used by WCS functions to indicate the format that particular bitmaps are in. This data type is extended from BMFORMAT that is available in versions of Windows released before Windows Vista.
 old-location: print\bmformat.htm
-old-project: print
+tech.root: print
 ms.assetid: 1c29bf1e-e785-48ab-aa2c-3665fd5c0ab0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

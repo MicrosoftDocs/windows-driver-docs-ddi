@@ -4,7 +4,7 @@ title: RtlIsPartialPlaceholderFileHandle function
 author: windows-driver-content
 description: The RtlIsPartialPlaceholderFileHandle routine determines if a file is a known type of placeholder, based on a file handle.
 old-location: ifsk\rtlispartialplaceholderfilehandle.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: A80C5714-525F-4E07-851D-2E203DD9387A
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: PcRemoveStreamResource function
 author: windows-driver-content
 description: PcRemoveStreamResource removes an existing stream resource.
 old-location: audio\pcremovestreamresource.htm
-old-project: audio
+tech.root: audio
 ms.assetid: D923DA5C-0169-475D-8C0C-6A99EB06ECE0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], audio.pcremovestreamresource, portcls/PcRemoveStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPrintOemUni::DownloadFontHeader
 author: windows-driver-content
 description: The IPrintOemUni::DownloadFontHeader method allows a rendering plug-in for Unidrv to send a font's header information to a printer.
 old-location: print\iprintoemuni_downloadfontheader.htm
-old-project: print
+tech.root: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

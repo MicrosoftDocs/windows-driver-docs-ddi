@@ -4,10 +4,10 @@ title: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE
 author: windows-driver-content
 description: The ProtocolClDeregisterSapComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclderegistersapcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

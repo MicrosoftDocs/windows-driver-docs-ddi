@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request connects an optional interrupt service routine and an optional deferred port check routine to a parallel port.
 old-location: parports\ioctl_internal_parallel_connect_interrupt.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 8cf5f2fc-e298-4f5b-bca4-3034e8a4a061
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 # IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -77,7 +77,7 @@ The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the siz
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a PARALLEL_INTERRUPT_INFORMATION structure that the parallel port function driver uses to output parallel interrupt information. 
+The <b>AssociatedIrp.SystemBuffer</b> member points to a PARALLEL_INTERRUPT_INFORMATION structure that the parallel port function driver uses to output parallel interrupt information.
 
 
 ### -output-buffer-length
@@ -105,7 +105,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 ### -status-block
 
-If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a> structure. Otherwise, the <b>Information</b> member is set to zero. 
+If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a> structure. Otherwise, the <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the generic status values returned by internal device control requests for parallel ports or to one of the following values:
 
@@ -114,11 +114,11 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 #### -STATUS_BUFFER_TOO_SMALL
 
-At least one of the following is true: 
+At least one of the following is true:
 
-The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is less than the size, in bytes, of a PARALLEL_INTERRUPT_SERVICE_ROUTINE structure. 
+The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is less than the size, in bytes, of a PARALLEL_INTERRUPT_SERVICE_ROUTINE structure.
 
-The value of the <b>Parameters.DeviceIoControl.OuputBufferLength</b> member is less than the size, in bytes, of a PARALLEL_INTERRUPT_INFORMATION structure. 
+The value of the <b>Parameters.DeviceIoControl.OuputBufferLength</b> member is less than the size, in bytes, of a PARALLEL_INTERRUPT_INFORMATION structure.
 
 
 ## -see-also

@@ -4,7 +4,7 @@ title: WdfInterruptTryToAcquireLock function
 author: windows-driver-content
 description: The WdfInterruptTryToAcquireLock method attempts to acquire an interrupt object's passive lock.
 old-location: wdf\wdfinterrupttrytoacquirelock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

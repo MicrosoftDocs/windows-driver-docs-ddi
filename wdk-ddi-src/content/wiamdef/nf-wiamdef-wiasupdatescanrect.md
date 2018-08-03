@@ -4,10 +4,10 @@ title: wiasUpdateScanRect function
 author: windows-driver-content
 description: The wiasUpdateScanRect function updates the scanning area sizes of the scanning device.
 old-location: image\wiasupdatescanrect.htm
-old-project: image
+tech.root: image
 ms.assetid: f8184ae1-878f-46fc-bddc-66c065bc9e75
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect, wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect, wiasUpdateScanRect function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

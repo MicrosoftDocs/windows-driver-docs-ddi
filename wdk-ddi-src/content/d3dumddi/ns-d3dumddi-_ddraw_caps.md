@@ -4,10 +4,10 @@ title: "_DDRAW_CAPS"
 author: windows-driver-content
 description: The DDRAW_CAPS structure describes general Microsoft DirectDraw capabilities that the user-mode display driver supports.
 old-location: display\ddraw_caps.htm
-old-project: display
+tech.root: display
 ms.assetid: 023e3780-bc88-446b-b235-8853807fb05a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D_other_Structs_5e02fa0c-95ae-4b62-aaa3-7530aec9aee5.xml, DDRAW_CAPS, DDRAW_CAPS structure [Display Devices], _DDRAW_CAPS, d3dumddi/DDRAW_CAPS, display.ddraw_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

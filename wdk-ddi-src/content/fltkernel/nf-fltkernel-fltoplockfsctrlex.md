@@ -4,7 +4,7 @@ title: FltOplockFsctrlEx function
 author: windows-driver-content
 description: The FltOplockFsctrlEx routine performs various opportunistic lock (oplock) operations on behalf of a minifilter driver.
 old-location: ifsk\fltoplockfsctrlex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 02adb7a7-0c1d-4dd4-bde2-f2e700a7ee76
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: StorPortReadRegisterUshort macro
 author: windows-driver-content
 description: The StorPortReadRegisterUshort routine reads a value from a specified register address.
 old-location: storage\storportreadregisterushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 11659e7d-db54-401c-a179-75cc5d411b55
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: GNSS_GEOREGION_CIRCLE
 author: windows-driver-content
 description: This structure is used for defining a circular geofence.
 old-location: gnss\gnss_georegion_circle.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

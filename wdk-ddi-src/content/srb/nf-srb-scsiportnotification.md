@@ -4,7 +4,7 @@ title: ScsiPortNotification function
 author: windows-driver-content
 description: The ScsiPortNotification routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportnotification.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_KS_VIDEO_STREAM_CONFIG_CAPS"
 author: windows-driver-content
 description: The KS_VIDEO_STREAM_CONFIG_CAPS structure describes the configuration and capabilities of a video stream, including analog video standard (for example, NTSC, PAL or SECAM), scaling, and cropping capabilities; minimum and maximum frame rates; and minimum and maximum data rates.
 old-location: stream\ks_video_stream_config_caps.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a8089653-a14b-4542-bf20-b1b596b1b4ea
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

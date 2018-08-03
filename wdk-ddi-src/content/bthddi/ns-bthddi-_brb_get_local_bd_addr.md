@@ -4,7 +4,7 @@ title: "_BRB_GET_LOCAL_BD_ADDR"
 author: windows-driver-content
 description: The _BRB_GET_LOCAL_BD_ADDR structure describes the address of the local radio.
 old-location: bltooth\_brb_get_local_bd_addr.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: cddaa92c-c43b-4875-a52e-a28ecc30962d
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_SEND_PHY_CONFIGURATION_PACKET"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a SendPhyConfigurationPacket request.
 old-location: ieee\irb_req_send_phy_configuration_packet.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: FCB87010-EA7D-495F-B58A-6E0322F9C846
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

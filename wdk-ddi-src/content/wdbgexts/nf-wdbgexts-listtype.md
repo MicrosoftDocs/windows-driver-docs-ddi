@@ -4,10 +4,10 @@ title: ListType function
 author: windows-driver-content
 description: The ListType function calls a specified callback function for every element in a linked list.
 old-location: debugger\listtype.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ListType, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, wdbgexts/ListType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: FltDeleteContext function
 author: windows-driver-content
 description: FltDeleteContext marks a specified context for deletion.
 old-location: ifsk\fltdeletecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1cdb0747-7616-414b-8287-1ef73637ed05
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

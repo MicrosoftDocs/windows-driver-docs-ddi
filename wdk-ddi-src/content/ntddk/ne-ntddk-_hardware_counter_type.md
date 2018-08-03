@@ -4,7 +4,7 @@ title: "_HARDWARE_COUNTER_TYPE"
 author: windows-driver-content
 description: The HARDWARE_COUNTER_TYPE enumeration specifies the type of a hardware counter.
 old-location: kernel\hardware_counter_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 837f5a55-ca07-4462-85d7-203d02df168c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

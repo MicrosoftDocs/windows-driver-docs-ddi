@@ -4,7 +4,7 @@ title: "_STORAGE_COMPONENT_HEALTH_STATUS"
 author: windows-driver-content
 description: Indicates the health status of a storage device.
 old-location: storage\storage_component_health_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6768C1D7-A964-44A7-A340-98060130FF24
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_PEP_WORK_DEVICE_POWER"
 author: windows-driver-content
 description: The PEP_WORK_DEVICE_POWER structure describes the new power requirements for the specified device.
 old-location: kernel\pep_work_device_power.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

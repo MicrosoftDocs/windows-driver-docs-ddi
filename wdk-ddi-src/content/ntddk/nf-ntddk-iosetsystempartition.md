@@ -4,7 +4,7 @@ title: IoSetSystemPartition function
 author: windows-driver-content
 description: The IoSetSystemPartition routine sets the boot partition for the system.
 old-location: kernel\iosetsystempartition.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f1606881-da8b-4034-bbdf-53c75e594032
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

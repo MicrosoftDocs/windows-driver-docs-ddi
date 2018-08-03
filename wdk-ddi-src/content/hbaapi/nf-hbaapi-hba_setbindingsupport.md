@@ -4,7 +4,7 @@ title: HBA_SetBindingSupport function
 author: windows-driver-content
 description: The HBA_SetBindingSupport routine enables the indicated set of capabilities on the adapter.
 old-location: storage\hba_setbindingsupport.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: ClfsLsnGreater function
 author: windows-driver-content
 description: The ClfsLsnGreater routine determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 old-location: kernel\clfslsngreater.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 77ad073e-5dac-4d89-869e-547e1aec25da
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

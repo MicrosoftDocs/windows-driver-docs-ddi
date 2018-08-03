@@ -4,7 +4,7 @@ title: FltReadFile function
 author: windows-driver-content
 description: FltReadFile reads data from an open file, stream, or device.
 old-location: ifsk\fltreadfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

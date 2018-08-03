@@ -4,7 +4,7 @@ title: WdfIoResourceRequirementsListGetIoResList function
 author: windows-driver-content
 description: The WdfIoResourceRequirementsListGetIoResList method returns a handle to the framework resource-range-list object that represents a specified logical configuration in a specified resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistgetioreslist.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b15c0ccf-0863-4415-b31f-b4217f249feb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_GET_VISIBLE_PROVIDERS"
 author: windows-driver-content
 description: The NDIS_WWAN_GET_VISIBLE_PROVIDERS structure is used to request the miniport driver get either all visible providers or only multi-carrier visible providers.
 old-location: netvista\ndis_wwan_get_visible_providers.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: C1AF383A-2D9D-4B2F-A925-D138E1B7AA4F
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_GET_VISIBLE_PROVIDERS, netvista.ndis_wwan_get_visible_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: SeUnregisterLogonSessionTerminatedRoutine function
 author: windows-driver-content
 description: The SeUnregisterLogonSessionTerminatedRoutine routine unregisters a callback routine that was registered by an earlier call to SeRegisterLogonSessionTerminatedRoutine.
 old-location: ifsk\seunregisterlogonsessionterminatedroutine.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 74f24296-cd42-402b-a61f-0199c4a07fd0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

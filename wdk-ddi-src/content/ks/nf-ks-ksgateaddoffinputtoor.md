@@ -4,7 +4,7 @@ title: KsGateAddOffInputToOr function
 author: windows-driver-content
 description: The KsGateAddOffInputToOr function adds a new input in the OFF state to a given OR gate.
 old-location: stream\ksgateaddoffinputtoor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 93d5076c-d8db-4b4b-b390-5f9072d2ae63
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

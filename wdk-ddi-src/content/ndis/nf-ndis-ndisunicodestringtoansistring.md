@@ -4,10 +4,10 @@ title: NdisUnicodeStringToAnsiString macro
 author: windows-driver-content
 description: The NdisUnicodeStringToAnsiString function converts a given counted Unicode string into a counted ANSI string. The translation conforms to the current system locale information.
 old-location: netvista\ndisunicodestringtoansistring.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 37ac55b8-093e-4bf4-9c66-05ab5fc7ebc9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisUnicodeStringToAnsiString, NdisUnicodeStringToAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisUnicodeStringToAnsiString, ndis_string_ref_31235ece-f64c-4806-af32-e3ffffdb7904.xml, netvista.ndisunicodestringtoansistring
 ms.prod: windows-hardware
 ms.technology: windows-devices

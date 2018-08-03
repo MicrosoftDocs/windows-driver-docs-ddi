@@ -4,7 +4,7 @@ title: "_KSCLOCK_DISPATCH"
 author: windows-driver-content
 description: The KSCLOCK_DISPATCH structure contains the callbacks required for a pin to implement a clock object.
 old-location: stream\ksclock_dispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

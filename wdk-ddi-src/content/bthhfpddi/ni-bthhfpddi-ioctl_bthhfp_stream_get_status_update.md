@@ -4,10 +4,10 @@ title: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 author: windows-driver-content
 description: The IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE IOCTL Gets a stream channel status update.
 old-location: audio\ioctl_bthhfp_stream_get_status_update.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 1D591422-4ED4-41B9-92E0-189A5EABE7D0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_stream_get_status_update, bthhfpddi/IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

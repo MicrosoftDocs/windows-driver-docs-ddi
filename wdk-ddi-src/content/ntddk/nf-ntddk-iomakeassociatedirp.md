@@ -4,7 +4,7 @@ title: IoMakeAssociatedIrp function
 author: windows-driver-content
 description: This routine is reserved for use by file systems and file system filter drivers.
 old-location: kernel\iomakeassociatedirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 96dd78f1-8b71-4707-8b66-20d80c198f81
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

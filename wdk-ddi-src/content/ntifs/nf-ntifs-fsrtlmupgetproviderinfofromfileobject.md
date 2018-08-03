@@ -4,7 +4,7 @@ title: FsRtlMupGetProviderInfoFromFileObject function
 author: windows-driver-content
 description: The FsRtlMupGetProviderInfoFromFileObject routine gets information about a network redirector that is registered with the multiple UNC provider (MUP) from a file object for a file that is located on a remote file system.
 old-location: ifsk\fsrtlmupgetproviderinfofromfileobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3f4d8c5c-3a83-4027-8d9e-5ff7db4a6853
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

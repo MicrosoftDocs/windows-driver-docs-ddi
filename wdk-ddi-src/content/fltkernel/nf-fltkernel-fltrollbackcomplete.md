@@ -4,7 +4,7 @@ title: FltRollbackComplete function
 author: windows-driver-content
 description: The FltRollbackComplete routine acknowledges a TRANSACTION_NOTIFY_ROLLBACK notification.
 old-location: ifsk\fltrollbackcomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 822d3ed1-66ce-48a8-924c-48e1082cbb25
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

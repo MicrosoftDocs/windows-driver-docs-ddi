@@ -4,7 +4,7 @@ title: ZwQueryKey function
 author: windows-driver-content
 description: The ZwQueryKey routine provides information about the class of a registry key, and the number and sizes of its subkeys.
 old-location: kernel\zwquerykey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b2d3a8b-a21f-4067-a1f0-9aa66c1973f5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -139,6 +139,7 @@ The <i>KeyInformationClass</i> parameter is not a valid <a href="https://msdn.mi
 
 
 The<i> KeyHandle</i> passed to <b>ZwQueryKey</b> must have been opened with KEY_QUERY_VALUE access. This is accomplished by passing KEY_QUERY_VALUE, KEY_READ, or KEY_ALL_ACCESS as the <i>DesiredAccess</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a>.
+> If _KeyInformationClass_ is KeyNameInformation or KeyHandleTagsInformation, the KEY_QUERY_VALUE requirement does not apply.
 
 <b>ZwQueryKey</b> can be used to obtain information that you can use to allocate buffers to hold registry data, such as the maximum size of a key's value entries or subkey names, or the number of subkeys. For example, you can call <b>ZwQueryKey</b>, use the returned information to allocate a buffer for a subkey, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566447">ZwEnumerateKey</a> to get the name of the subkey, and pass that name to an <b>Rtl</b><b><i>Xxx</i></b><b>Registry</b> routine.
 

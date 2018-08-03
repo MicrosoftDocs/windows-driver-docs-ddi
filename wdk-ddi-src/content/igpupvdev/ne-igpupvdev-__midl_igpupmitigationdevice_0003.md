@@ -28,7 +28,8 @@ api_location:
 -	igpupvdev.h
 api_name:
 -	__MIDL_IGPUPMitigationDevice_0003
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

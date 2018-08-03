@@ -4,7 +4,7 @@ title: IOCTL_ACPI_GET_DEVICE_INFORMATION
 author: windows-driver-content
 description: A driver for a device can use the IOCTL_ACPI_GET_DEVICE_INFORMATION device control request to obtain fine-grained identification information about its device.
 old-location: acpi\ioctl_acpi_get_device_information.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 08C27EC1-0948-4E8F-A391-01FE2C1A34DB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

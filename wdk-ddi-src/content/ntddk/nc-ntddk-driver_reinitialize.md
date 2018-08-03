@@ -4,7 +4,7 @@ title: DRIVER_REINITIALIZE
 author: windows-driver-content
 description: The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns.
 old-location: kernel\reinitialize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5e883b80-a6e6-44b4-9e1c-78402b91edb9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

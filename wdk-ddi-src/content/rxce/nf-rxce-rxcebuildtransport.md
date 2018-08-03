@@ -4,7 +4,7 @@ title: RxCeBuildTransport function
 author: windows-driver-content
 description: RxCeBuildTransport binds an RDBSS transport object to a specified transport name.
 old-location: ifsk\rxcebuildtransport.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

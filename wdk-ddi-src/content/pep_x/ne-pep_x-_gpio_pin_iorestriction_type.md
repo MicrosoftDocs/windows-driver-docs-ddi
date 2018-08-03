@@ -4,7 +4,7 @@ title: "_GPIO_PIN_IORESTRICTION_TYPE"
 author: windows-driver-content
 description: The GPIO_PIN_IORESTRICTION_TYPE enumeration describes the functions that a GPIO pin is limited to performing.
 old-location: kernel\gpio_pin_iorestriction_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

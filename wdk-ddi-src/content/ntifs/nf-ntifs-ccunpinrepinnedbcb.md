@@ -4,7 +4,7 @@ title: CcUnpinRepinnedBcb function
 author: windows-driver-content
 description: The CcUnpinRepinnedBcb routine unpins a repinned buffer control block (BCB).
 old-location: ifsk\ccunpinrepinnedbcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 96a35574-87dc-4a2f-aaef-616096839f3f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

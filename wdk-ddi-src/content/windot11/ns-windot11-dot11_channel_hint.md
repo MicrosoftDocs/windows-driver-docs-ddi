@@ -4,7 +4,7 @@ title: DOT11_CHANNEL_HINT
 author: windows-driver-content
 description: The DOT11_CHANNEL_HINT structure describes suggested channel numbers for an NLO operation.
 old-location: netvista\dot11_channel_hint.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: B3E395C3-C642-4A5E-9005-88323A80F90E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -4,10 +4,10 @@ title: D3DKMTCreateHwQueue function
 author: windows-driver-content
 description: Used to create a new hardware queue.
 old-location: display\d3dkmtcreatehwqueue.htm
-old-project: display
+tech.root: display
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], d3dkmthk/D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

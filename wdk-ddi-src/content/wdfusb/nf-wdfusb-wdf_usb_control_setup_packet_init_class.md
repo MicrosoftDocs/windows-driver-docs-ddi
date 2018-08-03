@@ -4,7 +4,7 @@ title: WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function
 author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a device class-specific USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet_init_class.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c44e16f1-2ecd-4dad-b3c3-c6b6a3dcbb84
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_ACCESS_RANGE"
 author: windows-driver-content
 description: An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\access_range.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

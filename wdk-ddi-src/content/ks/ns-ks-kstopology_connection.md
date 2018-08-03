@@ -4,7 +4,7 @@ title: KSTOPOLOGY_CONNECTION
 author: windows-driver-content
 description: The KSTOPOLOGY_CONNECTION structure describes a single data-path connection inside a kernel streaming filter.
 old-location: stream\kstopology_connection.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

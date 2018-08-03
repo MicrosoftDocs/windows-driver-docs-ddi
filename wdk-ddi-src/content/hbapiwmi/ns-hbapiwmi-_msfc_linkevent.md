@@ -4,7 +4,7 @@ title: "_MSFC_LinkEvent"
 author: windows-driver-content
 description: A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
 old-location: storage\msfc_linkevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 35fb3397-2e45-4d32-8cb1-1050199b2209
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

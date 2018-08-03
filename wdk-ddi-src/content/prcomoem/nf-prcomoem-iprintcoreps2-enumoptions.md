@@ -4,7 +4,7 @@ title: IPrintCorePS2::EnumOptions
 author: windows-driver-content
 description: The IPrintCorePS2::EnumOptions method enumerates the available options of a specific feature.
 old-location: print\iprintcoreps2_enumoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

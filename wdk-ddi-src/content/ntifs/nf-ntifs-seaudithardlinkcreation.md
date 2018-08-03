@@ -4,7 +4,7 @@ title: SeAuditHardLinkCreation function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\seaudithardlinkcreation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f032afe5-da68-4763-a4f0-6e61869223e1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

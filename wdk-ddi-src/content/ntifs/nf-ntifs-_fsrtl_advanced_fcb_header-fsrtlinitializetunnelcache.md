@@ -4,7 +4,7 @@ title: FsRtlInitializeTunnelCache function
 author: windows-driver-content
 description: The FsRtlInitializeTunnelCache routine initializes a new tunnel cache for a volume.
 old-location: ifsk\fsrtlinitializetunnelcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c499c11f-1de5-4c7f-aa26-62d2221c35bd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

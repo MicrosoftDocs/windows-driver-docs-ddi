@@ -4,7 +4,7 @@ title: RtlEqualMemory macro
 author: windows-driver-content
 description: The RtlEqualMemory routine compares two blocks of memory to determine whether the specified number of bytes are identical.
 old-location: kernel\rtlequalmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 43695fa9-32e1-4bd5-b146-88d6d03fe9fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

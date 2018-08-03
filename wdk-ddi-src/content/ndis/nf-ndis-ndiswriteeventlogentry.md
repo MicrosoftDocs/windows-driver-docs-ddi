@@ -4,10 +4,10 @@ title: NdisWriteEventLogEntry function
 author: windows-driver-content
 description: NdisWriteEventLogEntry logs an event to the Win32 event log.
 old-location: netvista\ndiswriteeventlogentry.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1f3fbcf1-e6f4-4117-a795-f4b14ef9fc96
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisWriteEventLogEntry, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, ndis/NdisWriteEventLogEntry, netvista.ndiswriteeventlogentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

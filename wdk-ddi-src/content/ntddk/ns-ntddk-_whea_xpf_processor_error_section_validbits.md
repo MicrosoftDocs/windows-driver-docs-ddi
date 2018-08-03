@@ -4,7 +4,7 @@ title: "_WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_XPF_PROCESSOR_ERROR_SECTION structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's VariableInfo member.
 old-location: whea\whea_xpf_processor_error_section_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: f6b18ffa-f784-4382-9861-4d92e2071ebf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

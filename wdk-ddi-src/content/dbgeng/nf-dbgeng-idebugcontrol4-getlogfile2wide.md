@@ -4,10 +4,10 @@ title: IDebugControl4::GetLogFile2Wide
 author: windows-driver-content
 description: The GetLogFile2Wide method returns the name of the currently open log file.
 old-location: debugger\getlogfile2wide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 8c11811f-c3d3-494b-98d7-15540d5afb24
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], GetLogFile2Wide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFile2Wide method, IDebugControl4.GetLogFile2Wide, IDebugControl4::GetLogFile2Wide, dbgeng/IDebugControl4::GetLogFile2Wide, debugger.getlogfile2wide
 ms.prod: windows-hardware
 ms.technology: windows-devices

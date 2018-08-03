@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_DEVICE_STATE structure specifies a device's Plug and Play state.
 old-location: wdf\wdf_device_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5d0a2303-df2b-45fe-9c88-df4bb19a2a9f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -105,7 +105,7 @@ The <b>WDF_DEVICE_STATE</b> structure is used as a parameter to <a href="https:/
 
 To initialize a <b>WDF_DEVICE_STATE</b> structure, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551286">WDF_DEVICE_STATE_INIT</a>.
 
-For more information about the members of the <b>WDF_DEVICE_STATE</b> structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>.
+For more information about the members of the <b>WDF_DEVICE_STATE</b> structure, see [PNP_DEVICE_STATE](https://microsoft.com/en-us/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state).
 
 
 

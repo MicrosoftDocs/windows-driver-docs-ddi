@@ -4,7 +4,7 @@ title: OEMQueryFontTree function
 author: windows-driver-content
 description: The OEMQueryFontTree function provides GDI with a pointer to a structure that defines one of the following:
 old-location: print\oemqueryfonttree.htm
-old-project: print
+tech.root: print
 ms.assetid: e2e30707-dffd-4990-a552-b67a7d9e2ca4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

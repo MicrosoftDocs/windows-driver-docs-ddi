@@ -4,7 +4,7 @@ title: FsRtlInsertExtraCreateParameter function
 author: windows-driver-content
 description: The FsRtlInsertExtraCreateParameter routine inserts an extra create parameter (ECP) context structure into an ECP list.
 old-location: ifsk\fsrtlinsertextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 77ac37eb-9750-4c56-8e1c-41b8a1f50a61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

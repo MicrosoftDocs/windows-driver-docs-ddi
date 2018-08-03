@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 author: windows-driver-content
 description: Queries the USB generic parent driver for the serial number of a USB device.
 old-location: storage\ioctl_storage_get_media_serial_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: aa903b7e-e844-466e-85b1-33fe6ba40689
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

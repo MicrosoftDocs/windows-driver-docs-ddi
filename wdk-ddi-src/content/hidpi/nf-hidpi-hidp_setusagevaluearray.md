@@ -4,7 +4,7 @@ title: HidP_SetUsageValueArray function
 author: windows-driver-content
 description: The HidP_SetUsageValueArray routine sets a HID control usage value array in a specified HID report.
 old-location: hid\hidp_setusagevaluearray.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

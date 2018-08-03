@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_STANDARD_MODE_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_STANDARD_MODE_S structure describes whether the tuning device can identify the tuner standard from the signal itself.
 old-location: stream\ksproperty_tuner_standard_mode_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5f725332-155d-484f-8eaf-b45e0d7413e7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

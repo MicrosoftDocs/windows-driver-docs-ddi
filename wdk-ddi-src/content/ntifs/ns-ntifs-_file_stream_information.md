@@ -4,7 +4,7 @@ title: "_FILE_STREAM_INFORMATION"
 author: windows-driver-content
 description: The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file.
 old-location: ifsk\file_stream_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 03472920-cb22-42e1-b0e5-488c0319fc03
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

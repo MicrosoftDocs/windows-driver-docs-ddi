@@ -4,7 +4,7 @@ title: AtaPortRegistryChannelSubkeyRead function
 author: windows-driver-content
 description: The AtaPortRegistryChannelSubKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel. Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrychannelsubkeyread.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 author: windows-driver-content
 description: Specifies the clockwise rotation of the input stream of the video processor.
 old-location: display\d3d11_1ddi_video_processor_rotation.htm
-old-project: display
+tech.root: display
 ms.assetid: 4fe01ddd-723f-4b3c-884a-a18d4f8512e5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, display.d3d11_1ddi_video_processor_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

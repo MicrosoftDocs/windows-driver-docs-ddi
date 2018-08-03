@@ -4,7 +4,7 @@ title: PPARALLEL_CLEAR_CHIP_MODE
 author: windows-driver-content
 description: The PPARALLEL_CLEAR_CHIP_MODE-typed callback routine clears the operating mode of a parallel port by resetting the communication mode of the host chipset to IEEE 1284-compatibility mode.
 old-location: parports\pparallel_clear_chip_mode.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 398d38a0-2337-4f8e-bd30-d6546516b945
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
@@ -76,7 +76,7 @@ Pointer to the device extension of a parallel port's functional device object (<
 
 ### -param ChipMode [in]
 
-Specifies the current operating mode of the parallel port. 
+Specifies the current operating mode of the parallel port.
 
 For more information about operating modes, see the modes that are defined for the enhanced capabilities register (ECR) in the <i>parallel.h</i> file that is included in the Microsoft Windows Driver Kit (WDK).
 
@@ -126,7 +126,7 @@ To obtain a pointer to the system-supplied <i>PPARALLEL_CLEAR_CHIP_MODE</i> call
 
 A caller uses the <i>PPARALLEL_CLEAR_CHIP_MODE</i> callback in conjunction with the <a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a> callback.
 
-To set a mode, a caller must first clear the current mode. 
+To set a mode, a caller must first clear the current mode.
 
 For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8-b0b5-a4d68feb4235">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 

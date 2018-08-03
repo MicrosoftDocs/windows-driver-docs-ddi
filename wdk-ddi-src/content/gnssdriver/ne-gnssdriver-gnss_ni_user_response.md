@@ -4,7 +4,7 @@ title: GNSS_NI_USER_RESPONSE
 author: windows-driver-content
 description: This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the GNSS_NI_RESPONSE structure.
 old-location: gnss\gnss_ni_user_response.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: FD4A244D-641C-46A7-8777-8F64A5400D23
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

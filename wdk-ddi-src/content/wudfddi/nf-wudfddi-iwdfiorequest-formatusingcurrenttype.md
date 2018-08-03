@@ -4,7 +4,7 @@ title: IWDFIoRequest::FormatUsingCurrentType
 author: windows-driver-content
 description: The FormatUsingCurrentType method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 old-location: wdf\iwdfiorequest_formatusingcurrenttype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

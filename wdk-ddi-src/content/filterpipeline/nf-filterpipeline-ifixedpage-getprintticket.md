@@ -4,7 +4,7 @@ title: IFixedPage::GetPrintTicket
 author: windows-driver-content
 description: The GetPrintTicket method gets the print ticket object for the fixed page.
 old-location: print\ifixedpage_getprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: 4a30efd9-8fef-4fef-8293-b7df5b954977
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

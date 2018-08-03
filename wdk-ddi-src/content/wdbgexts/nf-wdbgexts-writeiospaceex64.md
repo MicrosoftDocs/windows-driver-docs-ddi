@@ -4,10 +4,10 @@ title: WriteIoSpaceEx64 function
 author: windows-driver-content
 description: The WriteIoSpaceEx64 function is an extended version of WriteIoSpace64.
 old-location: debugger\writeiospaceex64.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 4fc874ab-b31d-41ae-baeb-18819c4e3970
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml, WriteIoSpaceEx64, WriteIoSpaceEx64 function [Windows Debugging], debugger.writeiospaceex64, wdbgexts/WriteIoSpaceEx64
 ms.prod: windows-hardware
 ms.technology: windows-devices

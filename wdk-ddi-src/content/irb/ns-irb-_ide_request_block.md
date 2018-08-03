@@ -4,7 +4,7 @@ title: "_IDE_REQUEST_BLOCK"
 author: windows-driver-content
 description: The IDE_REQUEST_BLOCK structure defines an IDE request block.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_request_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

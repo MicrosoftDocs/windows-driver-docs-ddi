@@ -4,10 +4,10 @@ title: IMiniportAudioEngineNode::SetDeviceFormat
 author: windows-driver-content
 description: Sets the audio data format for an audio device.
 old-location: audio\iminiportaudioenginenode_setdeviceformat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceFormat method, IMiniportAudioEngineNode.SetDeviceFormat, IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat, SetDeviceFormat method [Audio Devices], SetDeviceFormat method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdeviceformat, portcls/IMiniportAudioEngineNode::SetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: SeTokenType function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\setokentype.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e869d7f3-f8ec-42f8-ad0a-2d8154f748a2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IRequestCallbackCancel
 author: windows-driver-content
 description: A driver is notified when an I/O request that the driver is currently processing is to be canceled.
 old-location: wdf\irequestcallbackcancel.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d6aec38c-6cbb-494c-9fa4-10b6f4a30ae0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

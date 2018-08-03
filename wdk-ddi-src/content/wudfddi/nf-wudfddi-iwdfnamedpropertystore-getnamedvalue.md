@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore::GetNamedValue
 author: windows-driver-content
 description: The GetNamedValue method retrieves the value of a property.
 old-location: wdf\iwdfnamedpropertystore_getnamedvalue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

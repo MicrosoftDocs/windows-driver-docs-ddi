@@ -4,7 +4,7 @@ title: RtlIsServicePackVersionInstalled function
 author: windows-driver-content
 description: The RtlIsServicePackVersionInstalled routine determines if a specified service pack version of the Microsoft Windows device driver interface (DDI) is installed.
 old-location: kernel\rtlisservicepackversioninstalled.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1314ffb5-e6e2-4c22-bc67-388da3bcbe79
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

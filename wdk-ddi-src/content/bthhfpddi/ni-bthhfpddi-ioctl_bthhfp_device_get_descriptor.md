@@ -4,10 +4,10 @@ title: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 author: windows-driver-content
 description: The audio driver issues the IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code to get information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface.
 old-location: audio\ioctl_bthhfp_device_get_descriptor.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 94B5E83E-8151-4BD6-9E1E-6C96B460D65F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

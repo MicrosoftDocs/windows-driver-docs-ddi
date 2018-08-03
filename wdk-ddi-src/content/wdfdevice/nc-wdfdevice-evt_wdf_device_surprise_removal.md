@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SURPRISE_REMOVAL
 author: windows-driver-content
 description: A driver's EvtDeviceSurpriseRemoval event callback function performs any operations that are needed after a device has been unexpectedly removed from the system or after a driver reports that the device has failed.
 old-location: wdf\evtdevicesurpriseremoval.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0fa0eb7e-7fbb-4838-b1d7-ef5a9d5024d4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

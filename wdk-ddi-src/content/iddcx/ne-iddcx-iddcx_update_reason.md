@@ -4,10 +4,10 @@ title: IDDCX_UPDATE_REASON
 author: windows-driver-content
 description: Describes why the driver is calling to update the mode list.
 old-location: display\iddcx_update_reason.htm
-old-project: display
+tech.root: display
 ms.assetid: e451e4e3-0b8a-4a17-8e4e-2da99d336a39
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON enumeration [Display Devices], IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_OTHER, IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, IDDCX_UPDATE_REASON_UNINITIALIZED, display.iddcx_update_reason, iddcx/IDDCX_UPDATE_REASON, iddcx/IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_OTHER, iddcx/IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_INTERRUPT_SYNCHRONIZATION_MODE"
 author: windows-driver-content
 description: The INTERRUPT_SYNCHRONIZATION_MODE enumerator specifies the interrupt synchronization mode.
 old-location: storage\interrupt_synchronization_mode.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 964009ab-5f90-4f23-b22a-4c3e03d2449e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

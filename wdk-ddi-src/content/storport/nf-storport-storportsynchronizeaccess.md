@@ -4,7 +4,7 @@ title: StorPortSynchronizeAccess function
 author: windows-driver-content
 description: The StorPortSynchronizeAccess routine provides synchronized access to a miniport driver's device extension.
 old-location: storage\storportsynchronizeaccess.htm
-old-project: storage
+tech.root: storage
 ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

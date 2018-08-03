@@ -4,7 +4,7 @@ title: KsSetTargetDeviceObject function
 author: windows-driver-content
 description: The KsSetTargetDeviceObject function sets the target device object of an object. The function adds the object header to a list of object headers that have target devices.
 old-location: stream\kssettargetdeviceobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0d90f70d-8cbe-4c95-ae54-494ff404631a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

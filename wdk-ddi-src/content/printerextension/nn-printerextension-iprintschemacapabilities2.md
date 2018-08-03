@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities2
 author: windows-driver-content
 description: The IPrintSchemaCapabilities2 interface represents an extension to the IPrintSchemaCapabilities object, which provides wrapper methods over a print capabilities document.
 old-location: print\iprintschemacapabilities2.htm
-old-project: print
+tech.root: print
 ms.assetid: 1C361DC6-6517-4845-BEA6-09D2BB3B3232
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

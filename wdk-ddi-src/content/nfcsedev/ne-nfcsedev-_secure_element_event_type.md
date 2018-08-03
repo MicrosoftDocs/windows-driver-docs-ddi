@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_EVENT_TYPE"
 author: windows-driver-content
 description: Indicates the type of secure element events.
 old-location: nfpdrivers\_secure_element_event_type.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 45DCE635-6F28-4BE1-8362-568409FA8B1B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

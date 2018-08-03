@@ -4,7 +4,7 @@ title: HBA_RefreshAdapterConfiguration function
 author: windows-driver-content
 description: The HBA_RefreshAdapterConfiguration routine refreshes the library's internally cached HBA data.
 old-location: storage\hba_refreshadapterconfiguration.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 140a25ed-b591-413f-8b67-28bc5d776260
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

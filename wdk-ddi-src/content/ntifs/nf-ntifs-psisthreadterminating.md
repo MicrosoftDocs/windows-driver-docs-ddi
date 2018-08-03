@@ -4,7 +4,7 @@ title: PsIsThreadTerminating function
 author: windows-driver-content
 description: The PsIsThreadTerminating routine checks whether a thread is terminating.
 old-location: ifsk\psisthreadterminating.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2b82b060-79ea-4add-b559-af37c954537e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

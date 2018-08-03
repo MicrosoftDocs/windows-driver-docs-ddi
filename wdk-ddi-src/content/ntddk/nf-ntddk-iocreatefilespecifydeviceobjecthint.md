@@ -4,7 +4,7 @@ title: IoCreateFileSpecifyDeviceObjectHint function
 author: windows-driver-content
 description: The IoCreateFileSpecifyDeviceObjectHint routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system.
 old-location: ifsk\iocreatefilespecifydeviceobjecthint.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

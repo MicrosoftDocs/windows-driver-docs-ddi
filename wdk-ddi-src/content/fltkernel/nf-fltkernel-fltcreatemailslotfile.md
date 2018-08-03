@@ -4,7 +4,7 @@ title: FltCreateMailslotFile function
 author: windows-driver-content
 description: Minifilter drivers call FltCreateMailslotFile to create a new pipe or open an existing mailslot.
 old-location: ifsk\fltcreatemailslotfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: A727CDC1-A17A-4ABE-92AC-7CAEC11B78D1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

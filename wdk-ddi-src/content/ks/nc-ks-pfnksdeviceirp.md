@@ -4,7 +4,7 @@ title: PFNKSDEVICEIRP
 author: windows-driver-content
 description: An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.IRP_MN_QUERY_REMOVE_DEVICEIRP_MN_QUERY_STOP_DEVICEIRP_MN_QUERY_INTERFACE
 old-location: stream\avstrminidevicequeryremove.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c31d7e52-46f7-46b9-9fa2-1778f2301b4d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

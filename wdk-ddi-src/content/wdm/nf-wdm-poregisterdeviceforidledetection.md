@@ -4,7 +4,7 @@ title: PoRegisterDeviceForIdleDetection function
 author: windows-driver-content
 description: The PoRegisterDeviceForIdleDetection routine enables or cancels idle detection and sets idle time-out values for a device.
 old-location: kernel\poregisterdeviceforidledetection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

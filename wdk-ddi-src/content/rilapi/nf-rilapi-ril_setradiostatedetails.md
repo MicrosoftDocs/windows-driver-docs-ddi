@@ -4,10 +4,10 @@ title: RIL_SetRadioStateDetails function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setradiostatedetails.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5936bbbe-452c-4d68-ad22-e65671351f78
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_SetRadioStateDetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_setradiostatedetails, rilapi/RIL_SetRadioStateDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices

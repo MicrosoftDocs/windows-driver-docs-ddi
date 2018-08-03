@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_FIRMWARE_DATE"
 author: windows-driver-content
 description: The FEATURE_DATA_FIRMWARE_DATE structure holds the date information associated with the Firmware Information feature.
 old-location: storage\feature_data_firmware_date.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1f6c6a37-9510-47bc-b507-b3fd7477b432
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: IDARG_IN_SETUP_HWCURSOR
 author: windows-driver-content
 description: Gives information about new cursors associated with a monitor.
 old-location: display\idarg_in_setup_hwcursor.htm
-old-project: display
+tech.root: display
 ms.assetid: 1e2c959c-0ebd-4464-ad47-96f432cb5c6b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

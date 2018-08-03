@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_ERROR
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_ERROR control code is used to start listening for ERROR events from the driver.
 old-location: gnss\ioctl_gnss_listen_error_.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 4B08FB8D-8C4A-4C23-A809-11E7DF190236
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

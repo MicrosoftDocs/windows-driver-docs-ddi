@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_RANDOM_READABLE"
 author: windows-driver-content
 description: The FEATURE_DATA_RANDOM_READABLE structure contains data for the random readable feature.
 old-location: storage\feature_data_random_readable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c235a3aa-f8fe-4034-a645-ef85b2574fa0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

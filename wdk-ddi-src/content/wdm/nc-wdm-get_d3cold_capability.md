@@ -4,7 +4,7 @@ title: GET_D3COLD_CAPABILITY
 author: windows-driver-content
 description: The GetBusDriverD3ColdSupport routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state.
 old-location: kernel\getbusdriverd3coldsupport.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

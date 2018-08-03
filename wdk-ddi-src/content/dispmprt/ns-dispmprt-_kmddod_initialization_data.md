@@ -4,10 +4,10 @@ title: "_KMDDOD_INITIALIZATION_DATA"
 author: windows-driver-content
 description: Contains pointers to functions implemented by a kernel mode display-only driver (KMDOD). The KMDOD's DriverEntry function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 old-location: display\kmddod_initialization_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, display.kmddod_initialization_data, dispmprt/KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -228,7 +228,7 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-
 ### -field DxgkDdiPresentDisplayOnly
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
 
 
 ### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
@@ -278,7 +278,7 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/56535128-3107-4fb5-
 ### -field DxgkDdiNotifySurpriseRemoval
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
 
 
 ### -field DxgkDdiPowerRuntimeSetDeviceHandle

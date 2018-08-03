@@ -4,10 +4,10 @@ title: "_DXGK_INTEGRATEDDISPLAYFLAGS"
 author: windows-driver-content
 description: Flags which describe simple properties of an integrated display.
 old-location: display\dxgk_integrateddisplayflags.htm
-old-project: display
+tech.root: display
 ms.assetid: 4671B6C1-358A-4CC2-A6FC-0FBA0F26DB07
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], _DXGK_INTEGRATEDDISPLAYFLAGS, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

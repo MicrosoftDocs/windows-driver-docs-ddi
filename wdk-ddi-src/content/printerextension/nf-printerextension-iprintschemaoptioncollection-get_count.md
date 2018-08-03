@@ -4,7 +4,7 @@ title: IPrintSchemaOptionCollection::get_Count
 author: windows-driver-content
 description: Gets a count of the number of IPrintSchemaOption objects in the collection.
 old-location: print\iprintschemaoptioncollection_count.htm
-old-project: print
+tech.root: print
 ms.assetid: E849E14D-7F64-48C3-A0B1-408D848B2083
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_KSFILTERFACTORY"
 author: windows-driver-content
 description: The KSFILTERFACTORY structure represents a filter factory.
 old-location: stream\ksfilterfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c40e25f8-e6e5-43bc-895d-a6b247d07470
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

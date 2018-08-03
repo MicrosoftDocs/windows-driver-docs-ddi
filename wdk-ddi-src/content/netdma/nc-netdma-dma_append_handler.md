@@ -4,10 +4,10 @@ title: DMA_APPEND_HANDLER
 author: windows-driver-content
 description: The ProviderAppendDma function appends a linked list of DMA descriptors to the last descriptor on a DMA channel.
 old-location: netvista\providerappenddma.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 51de8ddf-cbfc-4e49-b44a-207307a937e7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: DMA_APPEND_HANDLER, DMA_APPEND_HANDLER callback, ProviderAppendDma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml, netvista.providerappenddma
 ms.prod: windows-hardware
 ms.technology: windows-devices

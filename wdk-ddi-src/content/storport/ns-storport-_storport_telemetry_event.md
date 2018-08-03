@@ -4,7 +4,7 @@ title: "_STORPORT_TELEMETRY_EVENT"
 author: windows-driver-content
 description: The STORPORT_TELEMETRY_EVENT structure describes the miniport telemetry data payload.
 old-location: storage\storport_telemetry_event.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: NDIS_WDI_TX_SEND_COMPLETE_IND
 author: windows-driver-content
 description: The NdisWdiTxSendCompleteIndication callback function specifies an array of frame IDs associated with the target's sent frames.
 old-location: netvista\ndiswditxsendcompleteindication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: A38BA15D-FDD8-41D1-87ED-2CABC1926962
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NDIS_WDI_TX_SEND_COMPLETE_IND callback, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
 ms.prod: windows-hardware
 ms.technology: windows-devices

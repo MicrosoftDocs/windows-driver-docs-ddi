@@ -4,7 +4,7 @@ title: "_PO_FX_PERF_STATE_CHANGE"
 author: windows-driver-content
 description: The PO_FX_PERF_STATE_CHANGE structure contains information about a change to a performance state that is being requested by calling the PoFxIssueComponentPerfStateChange or PoFxIssueComponentPerfStateChangeMultiple routine.
 old-location: kernel\po_fx_perf_state_change.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AE7A79DE-0202-4816-A36C-5A15C4539392
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

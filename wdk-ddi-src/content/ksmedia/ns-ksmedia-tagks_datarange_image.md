@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_IMAGE
 author: windows-driver-content
 description: Specifies an image data range that is used in the KSPIN_DESCRIPTOR structure that describes a pin (or stream).
 old-location: stream\ks_datarange_image.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 81ad341a-5f68-43aa-98ea-193780a7c5b2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

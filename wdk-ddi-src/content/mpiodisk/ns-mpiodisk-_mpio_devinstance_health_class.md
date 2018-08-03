@@ -4,7 +4,7 @@ title: "_MPIO_DEVINSTANCE_HEALTH_CLASS"
 author: windows-driver-content
 description: The MPIO_DEVINSTANCE_HEALTH_CLASS structure holds the health information for a instance of a device exposed through the specified path identifiers.
 old-location: storage\mpio_devinstance_health_class.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6d0afab5-4aba-4ebc-a864-85c83cf464d0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

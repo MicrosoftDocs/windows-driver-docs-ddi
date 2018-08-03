@@ -4,7 +4,7 @@ title: FsRtlAllocateExtraCreateParameter function
 author: windows-driver-content
 description: The FsRtlAllocateExtraCreateParameter routine allocates memory for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 644680a9-ec56-4d65-890f-fbc11badf2b7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

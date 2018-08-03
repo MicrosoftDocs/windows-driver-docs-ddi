@@ -4,10 +4,10 @@ title: RILNITZINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilnitzinfoparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: bdf1505f-2a84-48a3-9534-df83237ab7bb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RILNITZINFOPARAMMASK, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_NITZ_ALL, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_SYSTEMTYPE, RIL_PARAM_NITZ_TIMEZONEOFFSET, netvista.rilnitzinfoparammask, ntddrilapitypes/RILNITZINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_NITZ_ALL, ntddrilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, ntddrilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices

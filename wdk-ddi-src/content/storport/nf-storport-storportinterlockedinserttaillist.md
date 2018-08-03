@@ -4,7 +4,7 @@ title: StorPortInterlockedInsertTailList function
 author: windows-driver-content
 description: The StorPortInterlockedInsertTailList routine atomically inserts an entry at the end of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinserttaillist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

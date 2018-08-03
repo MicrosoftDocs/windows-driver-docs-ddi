@@ -4,7 +4,7 @@ title: IPrinterPropertyBag::SetBool
 author: windows-driver-content
 description: Writes a specified boolean property value.
 old-location: print\iprinterpropertybag_setbool.htm
-old-project: print
+tech.root: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

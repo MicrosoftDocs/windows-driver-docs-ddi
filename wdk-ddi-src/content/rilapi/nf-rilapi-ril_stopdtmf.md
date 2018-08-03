@@ -4,10 +4,10 @@ title: RIL_StopDTMF function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_stopdtmf.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d7f70ecd-0a11-48bf-9a8b-d2e08c280f51
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_stopdtmf, rilapi/RIL_StopDTMF
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 author: windows-driver-content
 description: Returns the physical location(s) of a volume on one or more disks.
 old-location: storage\ioctl_volume_get_volume_disk_extents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d831ea36-16ee-4723-95b1-f9903106b7c0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

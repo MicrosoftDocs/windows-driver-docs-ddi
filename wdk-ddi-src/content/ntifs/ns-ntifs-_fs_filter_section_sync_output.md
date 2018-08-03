@@ -4,7 +4,7 @@ title: "_FS_FILTER_SECTION_SYNC_OUTPUT"
 author: windows-driver-content
 description: The FS_FILTER_SECTION_SYNC_OUTPUT structure contains information describing the attributes of the section that is being created.
 old-location: ifsk\fs_filter_section_sync_output_.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3378D971-B5D8-485B-8C58-BE5874445407
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

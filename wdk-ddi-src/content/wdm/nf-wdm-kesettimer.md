@@ -4,7 +4,7 @@ title: KeSetTimer function
 author: windows-driver-content
 description: The KeSetTimer routine sets the absolute or relative interval at which a timer object is to be set to a signaled state and, optionally, supplies a CustomTimerDpc routine to be executed when that interval expires.
 old-location: kernel\kesettimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 81a205cd-a641-4f85-a217-7febf203b62d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

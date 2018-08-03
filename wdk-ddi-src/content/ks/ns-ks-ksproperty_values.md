@@ -4,7 +4,7 @@ title: KSPROPERTY_VALUES
 author: windows-driver-content
 description: The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
 old-location: stream\ksproperty_values.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0837f458-6585-4ac9-a166-e72f715238a1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

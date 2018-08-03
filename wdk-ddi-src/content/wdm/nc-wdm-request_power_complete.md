@@ -4,7 +4,7 @@ title: REQUEST_POWER_COMPLETE
 author: windows-driver-content
 description: The PowerCompletion callback routine completes the processing of a power IRP.
 old-location: kernel\powercompletion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2272790e-324a-4bd4-86ed-b76305a2940b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

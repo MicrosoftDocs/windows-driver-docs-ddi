@@ -4,7 +4,7 @@ title: IWDTFTarget2
 author: windows-driver-content
 description: Defines operations and properties for a testable item.
 old-location: dtf\iwdtftarget2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: fc75c201-a3ff-44f7-ba09-8e3554b1cf27
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

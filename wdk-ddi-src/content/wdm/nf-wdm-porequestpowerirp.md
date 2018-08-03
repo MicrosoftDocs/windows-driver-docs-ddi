@@ -4,7 +4,7 @@ title: PoRequestPowerIrp function
 author: windows-driver-content
 description: The PoRequestPowerIrp routine allocates a power IRP and sends it to the top driver in the device stack for the specified device.
 old-location: kernel\porequestpowerirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 99330348-bcc2-4a89-96f8-e1b67d9ebe25
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

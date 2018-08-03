@@ -4,7 +4,7 @@ title: ASSERTMSG macro
 author: windows-driver-content
 description: ASSERTMSG tests an expression. If the expression is false, it breaks into the kernel debugger and sends it the specified message.
 old-location: devtest\assertmsg.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

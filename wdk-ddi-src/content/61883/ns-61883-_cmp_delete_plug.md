@@ -4,7 +4,7 @@ title: "_CMP_DELETE_PLUG"
 author: windows-driver-content
 description: This structure is used to delete a plug.Av61883_CreatePlug.
 old-location: ieee\cmp_delete_plug.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 93F81B97-5C37-47BF-8867-0FBEFA8F6D3B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

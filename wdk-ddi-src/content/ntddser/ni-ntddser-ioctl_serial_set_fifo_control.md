@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_FIFO_CONTROL
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_FIFO_CONTROL request sets the FIFO control register (FCR). Serial does not verify the specified FIFO control information.
 old-location: serports\ioctl_serial_set_fifo_control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: b41a13a6-4573-495f-8dfd-9405917d8e66
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

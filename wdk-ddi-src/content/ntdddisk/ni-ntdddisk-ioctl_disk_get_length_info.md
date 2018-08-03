@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_LENGTH_INFO
 author: windows-driver-content
 description: Returns the length, in bytes, of the disk, partition, or volume associated with the device object that is the target of the request.
 old-location: storage\ioctl_disk_get_length_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 62d31b13-bc4a-4b2f-82be-551a61cae218
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

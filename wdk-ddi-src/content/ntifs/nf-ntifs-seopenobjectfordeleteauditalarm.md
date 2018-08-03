@@ -4,7 +4,7 @@ title: SeOpenObjectForDeleteAuditAlarm function
 author: windows-driver-content
 description: The SeOpenObjectForDeleteAuditAlarm routine generates audit and alarm messages when an attempt is made to open an object for deletion.
 old-location: ifsk\seopenobjectfordeleteauditalarm.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c7a5bcce-a19e-4938-9d7b-ce73b3ecdc86
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

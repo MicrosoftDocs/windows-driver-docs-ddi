@@ -4,7 +4,7 @@ title: WDF_INTERRUPT_EXTENDED_POLICY_INIT function
 author: windows-driver-content
 description: The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_INTERRUPT_EXTENDED_POLICY structure.
 old-location: wdf\wdf_interrupt_extended_policy_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fcc1e631-c77b-483b-9b5e-ec8d643f9930
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

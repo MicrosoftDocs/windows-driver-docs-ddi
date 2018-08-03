@@ -4,7 +4,7 @@ title: RILPOSITIONINFOGSMPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILPOSITIONINFOGSMPARAMMASK.
 old-location: netvista\rilpositioninfogsmparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9785ef86-8a2f-4e08-8caf-aa25f52a76ab
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,15 +58,15 @@ req.typenames: RILPOSITIONINFOGSMPARAMMASK
 
 ````
 enum RILPOSITIONINFOGSMPARAMMASK {
-  RIL_PARAM_POSITION_GSM_MCC      = 0x00000001, 
-  RIL_PARAM_POSITION_GSM_MNC      = 0x00000002, 
-  RIL_PARAM_POSITION_GSM_LAC      = 0x00000004, 
-  RIL_PARAM_POSITION_GSM_CELLID   = 0x00000008, 
-  RIL_PARAM_POSITION_GSM_TA       = 0x00000010, 
-  RIL_PARAM_POSITION_GSM_ARFCN    = 0x00000020, 
-  RIL_PARAM_POSITION_GSM_BSID     = 0x00000040, 
-  RIL_PARAM_POSITION_GSM_RXLEVEL  = 0x00000080, 
-  RIL_PARAM_POSITION_GSM_ALL      = 0x000000ff 
+  RIL_PARAM_POSITION_GSM_MCC      = 0x00000001,
+  RIL_PARAM_POSITION_GSM_MNC      = 0x00000002,
+  RIL_PARAM_POSITION_GSM_LAC      = 0x00000004,
+  RIL_PARAM_POSITION_GSM_CELLID   = 0x00000008,
+  RIL_PARAM_POSITION_GSM_TA       = 0x00000010,
+  RIL_PARAM_POSITION_GSM_ARFCN    = 0x00000020,
+  RIL_PARAM_POSITION_GSM_BSID     = 0x00000040,
+  RIL_PARAM_POSITION_GSM_RXLEVEL  = 0x00000080,
+  RIL_PARAM_POSITION_GSM_ALL      = 0x000000ff
 
 };
 ````

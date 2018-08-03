@@ -4,7 +4,7 @@ title: IPrinterQueueEvent::OnBidiResponseReceived
 author: windows-driver-content
 description: Called when a bidi response is received.
 old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
-old-project: print
+tech.root: print
 ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

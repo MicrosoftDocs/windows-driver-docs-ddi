@@ -4,10 +4,10 @@ title: ExtRemoteTyped::Eval
 author: windows-driver-content
 description: The Eval method returns typed data that is the result of evaluating an expression.
 old-location: debugger\extremotetyped_eval.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval, Eval method [Windows Debugging], Eval method [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],Eval method, ExtRemoteTyped.Eval, ExtRemoteTyped::Eval, debugger.extremotetyped_eval
 ms.prod: windows-hardware
 ms.technology: windows-devices

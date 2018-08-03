@@ -4,7 +4,7 @@ title: "_MSiSCSI_Eventlog"
 author: windows-driver-content
 description: This MSiSCSI_EventLog method is used to log any messages to the event log.
 old-location: storage\msiscsi_eventlog.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a31a8688-6002-4ad7-b135-0a8111e2c849
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

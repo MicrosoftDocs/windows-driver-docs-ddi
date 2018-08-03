@@ -4,7 +4,7 @@ title: StorPortGetDeviceObjects function
 author: windows-driver-content
 description: The StorPortGetDeviceObjects routine returns the device objects that are associated with the adapter device stack.
 old-location: storage\storportgetdeviceobjects.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e48b5048-5f5f-4efb-b7bf-2dd183074516
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

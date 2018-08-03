@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_CONFIG_SIZE
 author: windows-driver-content
 description: The IOCTL_SERIAL_CONFIG_SIZE request returns information about configuration size.
 old-location: serports\ioctl_serial_config_size.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 13229dcc-e698-4743-9ca2-303bef69304c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

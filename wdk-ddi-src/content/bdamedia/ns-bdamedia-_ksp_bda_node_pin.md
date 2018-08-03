@@ -4,7 +4,7 @@ title: "_KSP_BDA_NODE_PIN"
 author: windows-driver-content
 description: The KSP_BDA_NODE_PIN structure describes a property request to retrieve the controlling pin for a node.
 old-location: stream\ksp_bda_node_pin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 684a0b26-0e25-44fb-bca9-c86ac029b3b8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

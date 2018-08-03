@@ -4,7 +4,7 @@ title: RtlSetGroupSecurityDescriptor function
 author: windows-driver-content
 description: The RtlSetGroupSecurityDescriptor routine sets the primary group information of an absolute-format security descriptor. It replaces any primary group information that is already present in the security descriptor.
 old-location: ifsk\rtlsetgroupsecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f0473975-7ab6-46ba-bdb7-eb227e6bc258
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_WDF_DPC_CONFIG"
 author: windows-driver-content
 description: The WDF_DPC_CONFIG structure contains configuration information for a DPC object.
 old-location: wdf\wdf_dpc_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e4203a9d-98f4-47f2-80ea-51074e4c0713
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

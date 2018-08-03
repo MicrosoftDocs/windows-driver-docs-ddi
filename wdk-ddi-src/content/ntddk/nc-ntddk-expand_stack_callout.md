@@ -4,7 +4,7 @@ title: EXPAND_STACK_CALLOUT
 author: windows-driver-content
 description: The ExpandedStackCall routine executes with a guaranteed stack size.
 old-location: kernel\expandedstackcall.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ca9af049-f183-458c-b43f-891678a7be5e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

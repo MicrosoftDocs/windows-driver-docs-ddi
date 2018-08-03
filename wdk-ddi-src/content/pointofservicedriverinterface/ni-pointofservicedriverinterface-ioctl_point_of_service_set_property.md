@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_SET_PROPERTY
 author: windows-driver-content
 description: This I/O control function sets the specified property on the device.
 old-location: pos\ioctl_point_of_service_set_property.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 8907a99f-37b0-4c09-b92a-ac720328020e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

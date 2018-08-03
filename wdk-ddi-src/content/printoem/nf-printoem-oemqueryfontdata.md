@@ -4,7 +4,7 @@ title: OEMQueryFontData function
 author: windows-driver-content
 description: The OEMQueryFontData function retrieves information about a realized font.
 old-location: print\oemqueryfontdata.htm
-old-project: print
+tech.root: print
 ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

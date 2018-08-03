@@ -4,7 +4,7 @@ title: "_IDE_POWER_INFO"
 author: windows-driver-content
 description: The POWER_CHANGE_INFO structure is used in conjunction with the IDE_REQUEST_BLOCK to request a power state change.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\power_change_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 10f6c449-f0f8-4261-825e-127c477c06eb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

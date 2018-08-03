@@ -4,7 +4,7 @@ title: FltLoadFilter function
 author: windows-driver-content
 description: The FltLoadFilter routine dynamically loads a minifilter driver into the currently running system.
 old-location: ifsk\fltloadfilter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

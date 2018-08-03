@@ -4,7 +4,7 @@ title: "_FILE_COMPRESSION_INFORMATION"
 author: windows-driver-content
 description: The FILE_COMPRESSION_INFORMATION structure describes the state of a compressed data buffer.
 old-location: ifsk\file_compression_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 69a360d9-6e17-4979-a4f3-219ac0739d99
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

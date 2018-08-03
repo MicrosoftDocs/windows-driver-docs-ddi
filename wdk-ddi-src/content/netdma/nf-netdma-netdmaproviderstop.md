@@ -4,10 +4,10 @@ title: NetDmaProviderStop function
 author: windows-driver-content
 description: The NetDmaProviderStop function notifies the NetDMA interface that all of the DMA channels that are associated with a DMA provider are no longer available for DMA transfers.
 old-location: netvista\netdmaproviderstop.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 992fcdbd-200f-465d-b4be-922132d51d97
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NetDmaProviderStop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStop, netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop
 ms.prod: windows-hardware
 ms.technology: windows-devices

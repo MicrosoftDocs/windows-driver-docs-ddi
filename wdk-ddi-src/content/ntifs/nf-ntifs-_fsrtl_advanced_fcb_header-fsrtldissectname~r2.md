@@ -4,7 +4,7 @@ title: FsRtlDissectName function
 author: windows-driver-content
 description: Given a Unicode pathname string, the FsRtlDissectName routine returns two strings, one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -65,7 +65,7 @@ Pathname string to be parsed.
 
 ### -param FirstName [out]
 
-Pointer to the first file name in the pathname string. 
+Pointer to the first file name in the pathname string.
 
 
 ### -param RemainingName [out]
@@ -90,7 +90,7 @@ In the input string, backslashes are read as name separators. The first name in 
 
 <b>FsRtlDissectName</b> does not check for the presence of illegal characters in the input string.
 
-The following table shows sample input and output values for <b>FsRtlDissectName</b>.  
+The following table shows sample input and output values for <b>FsRtlDissectName</b>.
 
 <table>
 <tr>
@@ -229,7 +229,7 @@ FsRtlDissectName (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
 </td>
 </tr>
 </table></span></div>
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
 
 
 

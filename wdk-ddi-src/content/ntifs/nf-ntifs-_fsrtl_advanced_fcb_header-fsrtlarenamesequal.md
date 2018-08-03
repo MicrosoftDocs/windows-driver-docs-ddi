@@ -4,7 +4,7 @@ title: FsRtlAreNamesEqual function
 author: windows-driver-content
 description: The FsRtlAreNamesEqual routine determines whether two Unicode strings are equal.
 old-location: ifsk\fsrtlarenamesequal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

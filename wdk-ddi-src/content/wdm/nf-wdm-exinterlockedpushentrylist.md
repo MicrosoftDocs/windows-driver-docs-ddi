@@ -4,7 +4,7 @@ title: ExInterlockedPushEntryList function
 author: windows-driver-content
 description: The ExInterlockedPushEntryList routine atomically inserts an entry at the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\exinterlockedpushentrylist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

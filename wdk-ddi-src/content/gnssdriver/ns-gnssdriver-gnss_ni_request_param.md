@@ -4,7 +4,7 @@ title: GNSS_NI_REQUEST_PARAM
 author: windows-driver-content
 description: This structure contains the NI request parameters.
 old-location: gnss\gnss_ni_request_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

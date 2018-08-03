@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYRESOURCE
 author: windows-driver-content
 description: The DestroyResource function releases a specified resource.
 old-location: display\destroyresource.htm
-old-project: display
+tech.root: display
 ms.assetid: 1af85315-4367-49de-9453-eef62c838c97
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3DDDI_DESTROYRESOURCE, PFND3DDDI_DESTROYRESOURCE callback, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml, d3dumddi/DestroyResource, display.destroyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

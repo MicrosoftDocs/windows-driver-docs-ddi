@@ -4,7 +4,7 @@ title: IOCTL_DISK_IS_CLUSTERED
 author: windows-driver-content
 description: Allows a driver or application to determine if a disk is clustered.
 old-location: storage\ioctl_disk_is_clustered.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 46b72c16-2656-4ceb-a786-5fb24818b2a7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_REG_NOTIFY_CLASS"
 author: windows-driver-content
 description: The REG_NOTIFY_CLASS enumeration type specifies the type of registry operation that the configuration manager is passing to a RegistryCallback routine.
 old-location: kernel\reg_notify_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2ec47d47-1de3-43af-9a71-7fa366ba2d1a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

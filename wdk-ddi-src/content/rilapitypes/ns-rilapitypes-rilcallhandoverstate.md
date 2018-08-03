@@ -4,10 +4,10 @@ title: RILCALLHANDOVERSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallhandoverstate.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1c9fb343-32f1-444e-9328-097da72cd006
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate, ntddrilapitypes/RILCALLHANDOVERSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

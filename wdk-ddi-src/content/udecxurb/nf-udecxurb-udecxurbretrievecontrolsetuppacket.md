@@ -4,10 +4,10 @@ title: UdecxUrbRetrieveControlSetupPacket function
 author: windows-driver-content
 description: Retrieves a USB control setup packet from a specified framework request object.
 old-location: buses\udecxurbretrievecontrolsetuppacket.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

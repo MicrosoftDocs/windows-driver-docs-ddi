@@ -4,7 +4,7 @@ title: IOCTL_TAPE_CREATE_PARTITION
 author: windows-driver-content
 description: Creates the specified number of fixed, select, or initiator partition(s) of the given size on the media.
 old-location: storage\ioctl_tape_create_partition.htm
-old-project: storage
+tech.root: storage
 ms.assetid: da220281-a08d-4aeb-abb4-471aacb2461a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

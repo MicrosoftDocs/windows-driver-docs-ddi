@@ -4,7 +4,7 @@ title: StorPortDeviceBusy function
 author: windows-driver-content
 description: The StorPortDeviceBusy routine notifies the port driver that the specified logical unit is currently busy, handling outstanding requests.
 old-location: storage\storportdevicebusy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9b774f05-f2f6-4148-8fee-0efe209f7e4d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

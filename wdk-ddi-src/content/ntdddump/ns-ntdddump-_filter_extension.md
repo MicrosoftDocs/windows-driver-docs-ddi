@@ -4,7 +4,7 @@ title: "_FILTER_EXTENSION"
 author: windows-driver-content
 description: The crash dump driver passes a pointer to a FILTER_EXTENSION structure when the filter driver callback routines are called.
 old-location: storage\filter_extension.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1113e917-3273-4ba7-8702-fe90a22fb024
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

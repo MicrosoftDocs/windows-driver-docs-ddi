@@ -4,7 +4,7 @@ title: WdfDeviceInitAssignWdmIrpPreprocessCallback function
 author: windows-driver-content
 description: The WdfDeviceInitAssignWdmIrpPreprocessCallback method registers a callback function to handle an IRP major function code and, optionally, one or more minor function codes that are associated with the major function code.
 old-location: wdf\wdfdeviceinitassignwdmirppreprocesscallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9c17a5e2-dcf2-493a-9851-11d47adbfc82
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

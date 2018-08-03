@@ -4,7 +4,7 @@ title: "_BRB_SCO_TRANSFER"
 author: windows-driver-content
 description: The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write isochronous data to a SCO channel.
 old-location: bltooth\_brb_sco_transfer.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

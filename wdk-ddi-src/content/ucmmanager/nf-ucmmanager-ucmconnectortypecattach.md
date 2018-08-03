@@ -4,10 +4,10 @@ title: UcmConnectorTypeCAttach function
 author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) when a partner connector is attached.
 old-location: buses\ucmconnectortypecattach.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: D778E6B6-B245-41D5-B25B-1CF183146BA9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmConnectorTypeCAttach, UcmConnectorTypeCAttach method [Buses], buses.ucmconnectortypecattach, ucmmanager/UcmConnectorTypeCAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices

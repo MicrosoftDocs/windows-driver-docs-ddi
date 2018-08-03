@@ -4,10 +4,10 @@ title: "_USB_DESCRIPTOR_REQUEST"
 author: windows-driver-content
 description: The USB_DESCRIPTOR_REQUEST structure is used with the IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index.
 old-location: buses\usb_descriptor_request.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: d4d51366-4d04-47fe-8c44-09c9c6ccf35f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], USB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST structure [Buses], _USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, usbioctl/PUSB_DESCRIPTOR_REQUEST, usbioctl/USB_DESCRIPTOR_REQUEST, usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

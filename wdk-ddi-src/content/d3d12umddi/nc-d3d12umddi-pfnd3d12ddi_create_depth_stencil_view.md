@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

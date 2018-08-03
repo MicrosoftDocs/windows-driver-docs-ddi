@@ -4,10 +4,10 @@ title: NDK_FN_SEND
 author: windows-driver-content
 description: The NdkSend (NDK_FN_SEND) function posts a send request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_send.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6EDF95F1-AE00-4931-9B18-E316D56D57AF
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_SEND, NDK_FN_SEND callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, NdkSend, NdkSend callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSend, netvista.ndk_fn_send
 ms.prod: windows-hardware
 ms.technology: windows-devices

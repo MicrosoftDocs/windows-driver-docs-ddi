@@ -4,7 +4,7 @@ title: IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend
 author: windows-driver-content
 description: The OnSelfManagedIoSuspend method suspends a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediosuspend.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7ec30c51-5e07-496b-96af-8eafb564d98d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::Start
 author: windows-driver-content
 description: The IWDFRemoteTarget::Start method restarts a remote I/O target that is stopped.
 old-location: wdf\iwdfremotetarget_start.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

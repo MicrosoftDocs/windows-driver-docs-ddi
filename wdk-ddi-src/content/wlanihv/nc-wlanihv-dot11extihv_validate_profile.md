@@ -4,7 +4,7 @@ title: DOT11EXTIHV_VALIDATE_PROFILE
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvvalidateprofile.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 724a6c17-e020-44e1-9d00-332daa5dbdfb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvValidateProfile</i> function to validate user data entered for a network profile. The IHV
   Extensions DLL is only responsible for verifying the data for the fragments of the connectivity and
   security profile defined by the IHV.
@@ -82,14 +82,14 @@ DWORD APIENTRY Dot11ExtIhvValidateProfile(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
-     handle value was specified through a previous call to the 
+     handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param pIhvProfileParams [in, optional]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
      DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
@@ -97,7 +97,7 @@ A pointer to a
 
 ### -param pIhvConnProfile [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
      DOT11EXT_IHV_CONNECTIVITY_PROFILE</a> structure that contains connectivity settings for the IHV
      profile.
@@ -105,7 +105,7 @@ A pointer to a
 
 ### -param pIhvSecProfile [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">
      DOT11EXT_IHV_SECURITY_PROFILE</a> structure that contains security settings for the IHV
      profile.
@@ -113,9 +113,9 @@ A pointer to a
 
 ### -param pdwReasonCode [out]
 
-A pointer to a DWORD value, which provides additional information for the return value of the 
+A pointer to a DWORD value, which provides additional information for the return value of the
      <i>Dot11ExtIhvValidateProfile</i> function. The IHV Extensions DLL must set *
-     <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in 
+     <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in
      L2cmn.h.
 
 
@@ -124,7 +124,7 @@ A pointer to a DWORD value, which provides additional information for the return
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -134,25 +134,25 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-The operating system calls the 
+The operating system calls the
     <i>Dot11ExtIhvValidateProfile</i> function to verify the user-specified settings for a network profile
     before the profile is processed or saved.
 
-When the 
+When the
     <i>Dot11ExtIhvValidateProfile</i> function is called, the IHV Extensions DLL follows these guidelines:
 
 <ul>
 <li>
 The IHV Extensions DLL verifies that the user-specified profile settings are valid for the general
       attributes of the basic service set (BSS) network to which the profile will be applied. The BSS network
-      attributes are referenced through the 
+      attributes are referenced through the
       <i>pIhvProfileParams</i> parameter.
 
 </li>
 <li>
-If the user data is valid for the network profile extensions, 
+If the user data is valid for the network profile extensions,
       <i>Dot11ExtIhvValidateProfile</i> must return ERROR_SUCCESS. Otherwise, the function must return an
-      appropriate error code from the ERROR_xxxx values defined in 
+      appropriate error code from the ERROR_xxxx values defined in
       Winerror.h.
 
 </li>

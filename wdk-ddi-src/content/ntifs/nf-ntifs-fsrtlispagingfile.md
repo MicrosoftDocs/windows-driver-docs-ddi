@@ -4,7 +4,7 @@ title: FsRtlIsPagingFile function
 author: windows-driver-content
 description: The FsRtlIsPagingFile routine determines whether a given file is a paging file.
 old-location: ifsk\fsrtlispagingfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 85363a0b-0e62-499e-bcdb-4b86c4a0c3a0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

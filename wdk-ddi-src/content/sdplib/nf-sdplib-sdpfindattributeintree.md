@@ -4,7 +4,7 @@ title: SdpFindAttributeInTree function
 author: windows-driver-content
 description: The Bluetooth SdpFindAttributeInTree function is used to locate the specified attribute node in the tree-based representation of an SDP record.
 old-location: bltooth\sdpfindattributeintree.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 26c71c08-3b9a-474f-a232-d7f675582d27
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

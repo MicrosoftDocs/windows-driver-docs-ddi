@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize
 author: windows-driver-content
 description: The IWDFDeviceInitialize interface is a helper interface that the framework supplies as an input parameter to the driver's IDriverEntry::OnDeviceAdd method.
 old-location: wdf\iwdfdeviceinitialize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a776069c-0cbb-4ae9-bf6b-1d300dbcec34
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

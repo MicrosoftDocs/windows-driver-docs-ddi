@@ -4,7 +4,7 @@ title: FsRtlNotifyInitializeSync function
 author: windows-driver-content
 description: The FsRtlNotifyInitializeSync routine allocates and initializes a synchronization object for a notify list.
 old-location: ifsk\fsrtlnotifyinitializesync.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7db82e70-3090-4526-ba10-792ccdbef660
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

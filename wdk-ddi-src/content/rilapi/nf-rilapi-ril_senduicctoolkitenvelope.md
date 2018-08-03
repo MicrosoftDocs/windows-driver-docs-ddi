@@ -4,10 +4,10 @@ title: RIL_SendUiccToolkitEnvelope function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_senduicctoolkitenvelope.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1e83f7ae-8d7b-4d06-a8f0-5b4c2f04f4a4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_SendUiccToolkitEnvelope, RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitenvelope, rilapi/RIL_SendUiccToolkitEnvelope
 ms.prod: windows-hardware
 ms.technology: windows-devices

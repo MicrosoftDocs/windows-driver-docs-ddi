@@ -4,7 +4,7 @@ title: "_NFC_CX_POLL_MODE_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_POLL_MODE_CONFIG enumeration specifies poll mode.
 old-location: nfpdrivers\nfc_cx_poll_mode_config.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: A073D570-DF55-424E-8E86-49DE6A31E6FB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

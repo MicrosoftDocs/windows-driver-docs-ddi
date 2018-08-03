@@ -4,7 +4,7 @@ title: ZwFlushVirtualMemory function
 author: windows-driver-content
 description: The ZwFlushVirtualMemory routine flushes a range of virtual addresses within the virtual address space of a specified process which map to a data file back out to the data file if they have been modified.
 old-location: kernel\zwflushvirtualmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IPrinterScriptableSequentialStream::Read
 author: windows-driver-content
 description: The Read method reads bytes from the stream and returns them as a JavaScript array.
 old-location: print\iprinterscriptablesequentialstream_read.htm
-old-project: print
+tech.root: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

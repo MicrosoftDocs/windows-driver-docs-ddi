@@ -4,10 +4,10 @@ title: "_PMI_CAPABILITIES"
 author: windows-driver-content
 description: The PMI_CAPABILITIES structure contains information about the power metering and budgeting capabilities of a power meter.
 old-location: powermeter\pmi_capabilities.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPMI_CAPABILITIES, PMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, _PMI_CAPABILITIES, pmi/PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES, powermeter.pmi_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices

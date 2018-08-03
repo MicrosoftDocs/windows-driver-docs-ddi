@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_MPEG2TS_AVC
 author: windows-driver-content
 description: The KS_DATARANGE_MPEG2TS_AVC structure stores a range of AV/C MPEG2 formats.
 old-location: stream\ks_datarange_mpeg2ts_avc.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3e19439d-397c-4c22-823c-aa53c456d7b9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

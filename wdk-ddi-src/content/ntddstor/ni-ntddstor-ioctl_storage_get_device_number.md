@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_DEVICE_NUMBER
 author: windows-driver-content
 description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DEVICE_XXX type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\ioctl_storage_get_device_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5d1095c6-b9f9-44ef-bb2b-7bc0265e5aa9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

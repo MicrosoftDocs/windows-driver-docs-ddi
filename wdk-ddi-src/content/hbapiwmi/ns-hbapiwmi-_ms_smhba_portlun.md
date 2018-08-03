@@ -4,7 +4,7 @@ title: "_MS_SMHBA_PORTLUN"
 author: windows-driver-content
 description: The MS_SMHBA_PORTLUN structure reports target LUN information that is associated with a port.
 old-location: storage\ms_smhba_portlun.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cf62685f-7b4d-4671-a755-d59a593bf5d6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: SerCxGetActivity function
 author: windows-driver-content
 description: The SerCxGetActivity method retrieves the status of pending work for the serial controller driver.
 old-location: serports\sercxgetactivity.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

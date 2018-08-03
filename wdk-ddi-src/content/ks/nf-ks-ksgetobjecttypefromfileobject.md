@@ -4,7 +4,7 @@ title: KsGetObjectTypeFromFileObject function
 author: windows-driver-content
 description: The KsGetObjectTypeFromFileObject function returns the AVStream object type that is associated with a given file object.
 old-location: stream\ksgetobjecttypefromfileobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b963cf53-68ea-49b6-bbda-a93216fb10a5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

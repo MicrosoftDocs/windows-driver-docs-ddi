@@ -4,7 +4,7 @@ title: "_tagAvcCommandType"
 author: windows-driver-content
 description: The AvcCommandType enumeration type is used to indicate the type of command issued by a subunit driver to its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_GET_REQUEST function codes.
 old-location: stream\avccommandtype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 18bf43bd-3499-4494-839b-9bc07de83644
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: MmFlushImageSection function
 author: windows-driver-content
 description: The MmFlushImageSection routine flushes the image section for a file.
 old-location: ifsk\mmflushimagesection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

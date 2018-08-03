@@ -4,7 +4,7 @@ title: IPartFont::GetFontProperties
 author: windows-driver-content
 description: The GetFontProperties method gets the font properties.
 old-location: print\ipartfont_getfontproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

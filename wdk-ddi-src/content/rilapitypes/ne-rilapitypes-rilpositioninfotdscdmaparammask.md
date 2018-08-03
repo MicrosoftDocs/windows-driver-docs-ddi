@@ -4,7 +4,7 @@ title: RILPOSITIONINFOTDSCDMAPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfotdscdmaparammask_2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c5609649-8e7b-4ec3-8feb-f363536068c6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,14 +51,14 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
 
 
 ````
-typedef enum _RILPOSITIONINFOTDSCDMAPARAMMASK { 
+typedef enum _RILPOSITIONINFOTDSCDMAPARAMMASK {
   RIL_PARAM_POSITION_TDSCDMA_MNC,
   RIL_PARAM_POSITION_TDSCDMA_LAC,
   RIL_PARAM_POSITION_TDSCDMA_CELLID,

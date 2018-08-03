@@ -4,7 +4,7 @@ title: "_WHEA_XPF_MCE_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 old-location: whea\whea_xpf_mce_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

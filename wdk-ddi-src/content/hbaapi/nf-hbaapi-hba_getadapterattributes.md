@@ -4,7 +4,7 @@ title: HBA_GetAdapterAttributes function
 author: windows-driver-content
 description: The HBA_GetAdapterAttributes routine retrieves the attributes for an HBA.
 old-location: storage\hba_getadapterattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a172f53c-9993-4d52-ae3f-35a8ab5745f6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

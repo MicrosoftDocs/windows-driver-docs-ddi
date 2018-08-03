@@ -4,7 +4,7 @@ title: "_EVENT_TRACE_HEADER"
 author: windows-driver-content
 description: The EVENT_TRACE_HEADER structure is used to pass a WMI event to the WMI event logger.
 old-location: kernel\event_trace_header.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: evntrace.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,17 +60,17 @@ The <b>EVENT_TRACE_HEADER</b> structure is used to pass a WMI event to the WMI e
 
 ### -field Size
 
-Specifies the size, in bytes, of the buffer that is allocated to hold event tracing information. The value that is specified must include both the size of the <b>EVENT_TRACE_HEADER</b> structure and the size of any driver-specific data. (<b>EVENT_TRACE_HEADER</b> is overlaid on a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure, but the <b>Size</b> member of <b>EVENT_TRACE_HEADER</b> and the <b>BufferSize</b> member of <b>WNODE_HEADER</b> do not specify the same size. Do not use the <b>BufferSize</b> member of <b>WNODE_HEADER</b> to set the <b>Size</b> member.) 
+Specifies the size, in bytes, of the buffer that is allocated to hold event tracing information. The value that is specified must include both the size of the <b>EVENT_TRACE_HEADER</b> structure and the size of any driver-specific data. (<b>EVENT_TRACE_HEADER</b> is overlaid on a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure, but the <b>Size</b> member of <b>EVENT_TRACE_HEADER</b> and the <b>BufferSize</b> member of <b>WNODE_HEADER</b> do not specify the same size. Do not use the <b>BufferSize</b> member of <b>WNODE_HEADER</b> to set the <b>Size</b> member.)
 
 
 ### -field DUMMYUNIONNAME
 
- 
+
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.HeaderType
@@ -85,7 +85,7 @@ Reserved for internal use.
 
 ### -field DUMMYUNIONNAME2
 
- 
+
 
 
 ### -field DUMMYUNIONNAME2.Class
@@ -121,22 +121,22 @@ Process identifier.
 
 ### -field TimeStamp
 
-The time at which the driver event occurred. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. If the WNODE_FLAG_USE_TIMESTAMP is set in <b>Flags,</b> the system logger will leave the value of <b>TimeStamp</b> unchanged. Otherwise, the system logger will set the value of <b>TimeStamp</b> at the time it receives the event. A driver can call <b>KeQuerySystemTime</b> to set the value of <b>TimeStamp</b>. 
+The time at which the driver event occurred. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. If the WNODE_FLAG_USE_TIMESTAMP is set in <b>Flags,</b> the system logger will leave the value of <b>TimeStamp</b> unchanged. Otherwise, the system logger will set the value of <b>TimeStamp</b> at the time it receives the event. A driver can call <b>KeQuerySystemTime</b> to set the value of <b>TimeStamp</b>.
 
 
 ### -field DUMMYUNIONNAME3
 
- 
+
 
 
 ### -field DUMMYUNIONNAME4
 
- 
+
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.KernelTime
@@ -151,7 +151,7 @@ Reserved for internal use.
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2
 
- 
+
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.ClientContext
@@ -171,7 +171,7 @@ Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are va
 
 #### - Guid
 
-The GUID that identifies the data block for the event. 
+The GUID that identifies the data block for the event.
 
 
 #### - GuidPtr
@@ -195,7 +195,7 @@ Drivers can use this member to store version information. This information is no
 
 A driver that supports trace events will use this structure to report events to the WMI event logger. Trace events should not be reported until the driver receives a request to enable events and the control GUID is one the driver supports. The driver should initialize an <b>EVENT_TRACE_HEADER</b> structure, fill in any user-defined event data at the end, and pass a pointer to the <b>EVENT_TRACE_HEADER</b> to <b>IoWMIWriteEvent</b>. The driver should continue reporting trace events until it receives a request to disable the control GUID for the trace events.
 
-If the driver does not specify the WNODE_FLAG_USE_MOF_PTR flag in the <b>Flags</b> member of <b>EVENT_TRACE_HEADER</b>, the <b>EVENT_TRACE_HEADER</b> structure is followed in memory by event-specific data. In this case, the <b>Size</b> member must be <b>sizeof</b>(<b>EVENT_TRACE_HEADER</b>) plus the size of the event-specific data. 
+If the driver does not specify the WNODE_FLAG_USE_MOF_PTR flag in the <b>Flags</b> member of <b>EVENT_TRACE_HEADER</b>, the <b>EVENT_TRACE_HEADER</b> structure is followed in memory by event-specific data. In this case, the <b>Size</b> member must be <b>sizeof</b>(<b>EVENT_TRACE_HEADER</b>) plus the size of the event-specific data.
 
 If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_HEADER</b> structure is followed in memory by an array of <b>MOF_FIELD</b> structures (which are defined in Evntrace.h) that contain pointers to the data and sizes rather than the event tracing data itself. In this case, the <b>Size</b> member must be <b>sizeof</b>(<b>EVENT_TRACE_HEADER</b>) plus the size of the array of <b>MOF_FIELD</b> structures.
 

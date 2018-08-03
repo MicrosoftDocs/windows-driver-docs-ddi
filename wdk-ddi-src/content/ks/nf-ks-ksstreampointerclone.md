@@ -4,7 +4,7 @@ title: KsStreamPointerClone function
 author: windows-driver-content
 description: The KsStreamPointerClone function creates a clone of a given stream pointer.
 old-location: stream\ksstreampointerclone.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b51e1c17-e6b5-4108-bfbc-29f1ee06d9f4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

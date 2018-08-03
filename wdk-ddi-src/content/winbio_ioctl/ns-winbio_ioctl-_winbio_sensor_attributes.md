@@ -4,7 +4,7 @@ title: "_WINBIO_SENSOR_ATTRIBUTES"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
 old-location: biometric\winbio_sensor_attributes.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: edfd5b49-f658-46c7-a3f3-221afb35abb7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

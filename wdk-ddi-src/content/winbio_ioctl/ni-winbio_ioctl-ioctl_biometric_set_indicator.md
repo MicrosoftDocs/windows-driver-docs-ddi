@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_SET_INDICATOR
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status of the indicator light.
 old-location: biometric\ioctl_biometric_set_indicator.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 5aaaf178-a137-4a98-a77f-b426514a8cd9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

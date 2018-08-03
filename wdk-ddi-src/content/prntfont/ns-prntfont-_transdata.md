@@ -4,7 +4,7 @@ title: "_TRANSDATA"
 author: windows-driver-content
 description: The TRANSDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\transdata.htm
-old-project: print
+tech.root: print
 ms.assetid: 75ddf007-0113-4967-a8d4-02fcc3cc2857
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

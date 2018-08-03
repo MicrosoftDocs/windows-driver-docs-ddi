@@ -4,7 +4,7 @@ title: IOCTL_IEEE1284_NEGOTIATE
 author: windows-driver-content
 description: The IOCTL_IEEE1284_NEGOTIATE request sets the read and write protocols that are used for a parallel device.
 old-location: parports\ioctl_ieee1284_negotiate.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 893af02d-ba26-4367-b2cc-b35d5baa9473
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 # IOCTL_IEEE1284_NEGOTIATE IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -75,7 +75,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\ntddpar\ns-
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure. 
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure.
 
 
 ### -output-buffer
@@ -108,7 +108,7 @@ The length of a <a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PA
 
 ### -status-block
 
-If request is successful, the <b>Information</b> member is set to the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure. Otherwise the <b>Information</b> member is set to zero. 
+If request is successful, the <b>Information</b> member is set to the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure. Otherwise the <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the generic status values returned by device control requests for parallel devices or to the following value:
 

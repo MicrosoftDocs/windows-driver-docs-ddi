@@ -4,7 +4,7 @@ title: "_POOL_TYPE"
 author: windows-driver-content
 description: The POOL_TYPE enumeration type specifies the type of system memory to allocate.
 old-location: kernel\pool_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

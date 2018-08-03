@@ -4,10 +4,10 @@ title: RIL_SendMsg function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_sendmsg.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0ae1ed49-af07-4e34-80fa-34a55c973cfb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_SendMsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsg, rilapi/RIL_SendMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

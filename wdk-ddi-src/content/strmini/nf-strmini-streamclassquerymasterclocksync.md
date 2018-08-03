@@ -4,7 +4,7 @@ title: StreamClassQueryMasterClockSync function
 author: windows-driver-content
 description: The minidriver may call the StreamClassQueryMasterClockSync routine to synchronously query a stream's master clock.
 old-location: stream\streamclassquerymasterclocksync.htm
-old-project: stream
+tech.root: stream
 ms.assetid: db58103d-8862-4be1-bca2-9d59d392591c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

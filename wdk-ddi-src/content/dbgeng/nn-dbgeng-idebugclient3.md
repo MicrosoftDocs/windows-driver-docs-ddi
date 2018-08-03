@@ -4,10 +4,10 @@ title: IDebugClient3
 author: windows-driver-content
 description: IDebugClient3 interface
 old-location: debugger\idebugclient3.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 316a4d8b-4cf6-4270-8d9b-e1ede53d567d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugClient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging],described, dbgeng/IDebugClient3, debugger.idebugclient3
 ms.prod: windows-hardware
 ms.technology: windows-devices

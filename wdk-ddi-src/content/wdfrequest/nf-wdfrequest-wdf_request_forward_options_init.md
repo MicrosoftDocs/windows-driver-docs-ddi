@@ -4,7 +4,7 @@ title: WDF_REQUEST_FORWARD_OPTIONS_INIT function
 author: windows-driver-content
 description: The WDF_REQUEST_FORWARD_OPTIONS_INIT function initializes a WDF_REQUEST_FORWARD_OPTIONS structure.
 old-location: wdf\wdf_request_forward_options_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 301b4b63-0337-4f78-a4f8-6b2d2b168663
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

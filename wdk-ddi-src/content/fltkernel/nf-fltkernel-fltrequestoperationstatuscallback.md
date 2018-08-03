@@ -4,7 +4,7 @@ title: FltRequestOperationStatusCallback function
 author: windows-driver-content
 description: FltRequestOperationStatusCallback returns status information for the given I/O operation.
 old-location: ifsk\fltrequestoperationstatuscallback.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 17379ce3-d9c1-4fbf-ab2e-b87604e6c71e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

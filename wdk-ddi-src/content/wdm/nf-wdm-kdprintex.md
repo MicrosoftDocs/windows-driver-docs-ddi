@@ -4,7 +4,7 @@ title: KdPrintEx macro
 author: windows-driver-content
 description: The KdPrintEx macro sends a string to the kernel debugger if the conditions you specify are met.A call to KdPrintEx requires double parentheses.
 old-location: devtest\kdprintex.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 8383e9c8-0058-47bf-9a6e-ed05e61a58f1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

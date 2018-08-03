@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_GET_ATTRIBUTE
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_GET_ATTRIBUTE control code queries for smart card attribues.
 old-location: nfpdrivers\ioctl_smartcard_get_attribute.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 5B5F4CA1-0E49-4D60-AD78-3294C80844E1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

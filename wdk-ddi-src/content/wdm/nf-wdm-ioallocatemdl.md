@@ -4,7 +4,7 @@ title: IoAllocateMdl function
 author: windows-driver-content
 description: The IoAllocateMdl routine allocates a memory descriptor list (MDL) large enough to map a buffer, given the buffer's starting address and length. Optionally, this routine associates the MDL with an IRP.
 old-location: kernel\ioallocatemdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

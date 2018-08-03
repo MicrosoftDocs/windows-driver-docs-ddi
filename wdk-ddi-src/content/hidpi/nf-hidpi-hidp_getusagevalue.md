@@ -4,7 +4,7 @@ title: HidP_GetUsageValue function
 author: windows-driver-content
 description: The HidP_GetUsageValue routine extracts the data associated with a HID control value that matches the selection criteria in a HID report.
 old-location: hid\hidp_getusagevalue.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 5f2d1536-4676-4afe-aa5c-08e7c74d1dd2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

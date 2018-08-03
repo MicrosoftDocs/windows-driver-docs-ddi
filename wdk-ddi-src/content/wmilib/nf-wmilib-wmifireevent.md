@@ -4,7 +4,7 @@ title: WmiFireEvent function
 author: windows-driver-content
 description: The WmiFireEvent routine sends an event to WMI for delivery to data consumers that have requested notification of the event.
 old-location: kernel\wmifireevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 600391ef-f4bb-479b-ad73-305e365ed70d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: OEMGetGlyphMode function
 author: windows-driver-content
 description: The OEMGetGlyphMode function informs the GDI how to cache glyph information.
 old-location: print\oemgetglyphmode.htm
-old-project: print
+tech.root: print
 ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

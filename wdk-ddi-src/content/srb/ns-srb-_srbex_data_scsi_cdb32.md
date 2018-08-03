@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_SCSI_CDB32"
 author: windows-driver-content
 description: The SRBEX_DATA_SCSI_CDB32 structure contains the extended SRB data for a 32-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb32.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

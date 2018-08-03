@@ -4,7 +4,7 @@ title: "_FILE_MAILSLOT_SET_INFORMATION"
 author: windows-driver-content
 description: The FILE_MAILSLOT_SET_INFORMATION structure is used to set a value on a mailslot.
 old-location: ifsk\file_mailslot_set_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 65104303-5041-45e7-bd59-bb78dde1dffd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

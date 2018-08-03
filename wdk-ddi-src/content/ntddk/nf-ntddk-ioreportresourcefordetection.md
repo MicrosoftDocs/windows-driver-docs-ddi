@@ -4,7 +4,7 @@ title: IoReportResourceForDetection function
 author: windows-driver-content
 description: The IoReportResourceForDetection routine claims hardware resources in the configuration registry for a legacy device.
 old-location: kernel\ioreportresourcefordetection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

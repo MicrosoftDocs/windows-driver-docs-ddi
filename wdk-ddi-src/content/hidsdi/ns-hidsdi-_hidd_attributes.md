@@ -4,7 +4,7 @@ title: "_HIDD_ATTRIBUTES"
 author: windows-driver-content
 description: The HIDD_ATTRIBUTES structure contains vendor information about a HIDClass device.
 old-location: hid\hidd_attributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 31bfa863-459f-4fb2-af41-2d40d0396dd7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

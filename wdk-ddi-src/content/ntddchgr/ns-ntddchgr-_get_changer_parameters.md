@@ -4,7 +4,7 @@ title: "_GET_CHANGER_PARAMETERS"
 author: windows-driver-content
 description: Retrieves the characteristics of the changer.
 old-location: storage\get_changer_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c9a47406-5dd2-4cda-b241-3a439406ac75
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

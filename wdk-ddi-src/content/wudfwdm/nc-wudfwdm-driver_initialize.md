@@ -4,7 +4,7 @@ title: DRIVER_INITIALIZE
 author: windows-driver-content
 description: DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver.
 old-location: kernel\driverentry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b8c14a2d-a2e6-4ed1-9445-3259ec570076
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

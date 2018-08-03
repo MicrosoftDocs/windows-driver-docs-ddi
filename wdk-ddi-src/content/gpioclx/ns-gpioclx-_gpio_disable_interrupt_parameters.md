@@ -4,7 +4,7 @@ title: "_GPIO_DISABLE_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_DISABLE_INTERRUPT_PARAMETERS structure describes a general-purpose I/O (GPIO) interrupt pin to disable.
 old-location: gpio\gpio_disable_interrupt_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 6F71C67C-ACA6-405A-9371-9DC72CC6DDCE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

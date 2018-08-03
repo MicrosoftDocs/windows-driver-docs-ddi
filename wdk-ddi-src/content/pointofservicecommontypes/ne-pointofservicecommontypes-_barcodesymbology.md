@@ -4,7 +4,7 @@ title: "_BarcodeSymbology"
 author: windows-driver-content
 description: This enumeration defines the barcode symbologies.
 old-location: pos\barcodesymbology.htm
-old-project: pos
+tech.root: pos
 ms.assetid: d0c66bde-cd66-4141-b985-8eb28af70a3b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

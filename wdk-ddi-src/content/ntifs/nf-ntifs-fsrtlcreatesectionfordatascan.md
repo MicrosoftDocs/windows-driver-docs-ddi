@@ -4,7 +4,7 @@ title: FsRtlCreateSectionForDataScan function
 author: windows-driver-content
 description: The FsRtlCreateSectionForDataScan routine creates a section object.
 old-location: ifsk\fsrtlcreatesectionfordatascan.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: OEMTextOutAsBitmap function
 author: windows-driver-content
 description: OEMTextOutAsBitmap function
 old-location: print\oemtextoutasbitmap.htm
-old-project: print
+tech.root: print
 ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

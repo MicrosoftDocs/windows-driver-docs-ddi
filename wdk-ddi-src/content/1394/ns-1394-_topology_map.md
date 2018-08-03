@@ -4,7 +4,7 @@ title: "_TOPOLOGY_MAP"
 author: windows-driver-content
 description: The TOPOLOGY_MAP structure is used to store an IEEE 1394 bus topology map. The relations between devices are found in the port members of the entries in TOP_Self_ID_Array.
 old-location: ieee\topology_map.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 0a4c7ffc-94f9-4068-b650-1da43e45d0ad
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

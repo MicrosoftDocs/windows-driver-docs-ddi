@@ -4,10 +4,10 @@ title: "_NET_DEVICE_PNP_EVENT"
 author: windows-driver-content
 description: The NET_DEVICE_PNP_EVENT structure defines device plug and play (PnP) events for miniport adapters.
 old-location: netvista\net_device_pnp_event.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 79298332-2d34-4ef3-ad43-5d218e3f6612
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, ndis/NET_DEVICE_PNP_EVENT, ndis/PNET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices

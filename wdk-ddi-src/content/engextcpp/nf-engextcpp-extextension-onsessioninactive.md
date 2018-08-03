@@ -4,10 +4,10 @@ title: ExtExtension::OnSessionInactive
 author: windows-driver-content
 description: The OnSessionInactive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive.
 old-location: debugger\onsessioninactive.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 6f9b7636-8808-4783-bba7-70b31ae08238
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, ExtExtension class [Windows Debugging],OnSessionInactive method, ExtExtension.OnSessionInactive, ExtExtension::OnSessionInactive, OnSessionInactive, OnSessionInactive method [Windows Debugging], OnSessionInactive method [Windows Debugging],ExtExtension class, debugger.onsessioninactive
 ms.prod: windows-hardware
 ms.technology: windows-devices

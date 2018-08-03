@@ -4,7 +4,7 @@ title: FltFindExtraCreateParameter function
 author: windows-driver-content
 description: The FltFindExtraCreateParameter routine searches a given ECP list for an ECP context structure of a given type and returns a pointer to this structure if it is found.
 old-location: ifsk\fltfindextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bfa38f16-55cf-40a9-b271-65d784d5156e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

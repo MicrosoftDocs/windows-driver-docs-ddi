@@ -4,10 +4,10 @@ title: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 author: windows-driver-content
 description: Describes multiplane overlay allocations that content is copied to and from.
 old-location: display\dxgiddicb_present_multiplane_overlay.htm
-old-project: display
+tech.root: display
 ms.assetid: 4f240d75-e7c5-4ba2-a0f0-22280aaaefd6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], display.dxgiddicb_present_multiplane_overlay, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices

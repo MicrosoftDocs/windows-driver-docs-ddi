@@ -4,7 +4,7 @@ title: OEMStretchBltROP function
 author: windows-driver-content
 description: The OEMStretchBltROP function performs a stretching bit-block transfer using a raster operation (ROP).
 old-location: print\oemstretchbltrop.htm
-old-project: print
+tech.root: print
 ms.assetid: 2e265dc6-3e04-4f25-ae3b-6cb7ce5ce9ae
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

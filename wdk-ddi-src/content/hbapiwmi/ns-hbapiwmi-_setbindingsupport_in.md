@@ -4,7 +4,7 @@ title: "_SetBindingSupport_IN"
 author: windows-driver-content
 description: The SetBindingSupport_IN structure is used to deliver input parameter data to the SetBindingSupport WMI method.
 old-location: storage\setbindingsupport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bdcd6f76-9a45-4687-b3ab-ece3e9419c44
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

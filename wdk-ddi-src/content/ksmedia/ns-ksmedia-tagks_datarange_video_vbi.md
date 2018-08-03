@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_VIDEO_VBI
 author: windows-driver-content
 description: The KS_DATARANGE_VIDEO_VBI structure describes a range of data formats containing vertical blanking interval (VBI) data.
 old-location: stream\ks_datarange_video_vbi.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 83801ea2-1beb-4b73-8906-ffefee67a2ac
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

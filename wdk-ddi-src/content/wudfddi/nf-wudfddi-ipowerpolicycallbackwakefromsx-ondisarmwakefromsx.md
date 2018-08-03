@@ -4,7 +4,7 @@ title: IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx
 author: windows-driver-content
 description: A driver's OnDisarmWakeFromSx event callback function disarms (that is, disables) a device's ability to trigger a wake signal while the device and system are in low-power states.
 old-location: wdf\ipowerpolicycallbackwakefromsx_ondisarmwakefromsx.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0e2f42af-3eb7-4957-be91-4f31d2d558c2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

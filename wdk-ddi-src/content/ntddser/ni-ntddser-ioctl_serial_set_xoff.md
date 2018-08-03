@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_XOFF
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_XOFF request emulates the reception of an XOFF (transmit off) character.
 old-location: serports\ioctl_serial_set_xoff.htm
-old-project: serports
+tech.root: serports
 ms.assetid: cfddecbd-e225-484f-ba5c-6223a724b414
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

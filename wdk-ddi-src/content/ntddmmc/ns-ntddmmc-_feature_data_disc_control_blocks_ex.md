@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_DISC_CONTROL_BLOCKS_EX"
 author: windows-driver-content
 description: The FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure holds the data reported for a Disc Control Block.
 old-location: storage\feature_data_disc_control_blocks_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 08344cf3-7724-4c11-8855-ba061a0284f8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

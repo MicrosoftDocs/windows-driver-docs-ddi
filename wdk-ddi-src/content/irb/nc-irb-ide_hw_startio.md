@@ -4,7 +4,7 @@ title: IDE_HW_STARTIO
 author: windows-driver-content
 description: The IdeHwStartIo miniport driver routine processes the synchronized aspects of an I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwstartio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9172e62e-263c-471c-bcc2-9be4e1d6b1a2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

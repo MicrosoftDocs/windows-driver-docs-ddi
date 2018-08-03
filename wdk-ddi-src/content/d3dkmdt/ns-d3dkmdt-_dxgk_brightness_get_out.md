@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_DXGK_BRIGHTNESS_GET_OUT
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

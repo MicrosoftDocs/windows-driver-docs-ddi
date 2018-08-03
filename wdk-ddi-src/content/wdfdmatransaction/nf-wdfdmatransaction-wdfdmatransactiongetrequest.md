@@ -4,7 +4,7 @@ title: WdfDmaTransactionGetRequest function
 author: windows-driver-content
 description: The WdfDmaTransactionGetRequest method retrieves a handle to the framework request object that is associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 879bae2e-f608-4678-92ae-6100e59b6d52
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

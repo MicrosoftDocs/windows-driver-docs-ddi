@@ -2,13 +2,13 @@
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,CLSID)
 title: CWiauPropertyList::SetCurrentValue(INT,CLSID)
 author: windows-driver-content
-description: The CWiauPropertyList::SetCurrentValue(BSTR) method sets the current value of a property of type BSTR, and sets its type to VT_BSTR.
-old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
-old-project: image
-ms.assetid: 017ab648-ee62-47f5-abd3-f4eac4378b8a
+description: The CWiauPropertyList::SetCurrentValue(CLSID) method sets the current value of a property of type CLSID, and sets its type to VT_CLSID.
+old-location: image\cwiaupropertylist_setcurrentvalue_clsid_.htm
+tech.root: image
+ms.assetid: c0283b46-c1a2-469b-8167-f5dc63719c16
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,CLSID), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT  ,BSTR  ), CWiauPropertyList::SetCurrentValue(INT,CLSID), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, SetCurrentValue(BSTR)(CWiauPropertyList), image.cwiaupropertylist_setcurrentvalue_bstr_, wiauFncs_dfd640f7-63c2-41a6-adf3-589e87aa85cc.xml, wiautil/CWiauPropertyList::SetCurrentValue
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,CLSID), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT ,CLSID*), CWiauPropertyList::SetCurrentValue(INT,CLSID), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_clsid_, wiauFncs_3fb0d48f-8b37-4b0a-992f-97d5f5243aaa.xml, wiautil/CWiauPropertyList::SetCurrentValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>CWiauPropertyList::SetCurrentValue(BSTR)</b> method sets the current value of a property of type <b>BSTR</b>, and sets its type to VT_BSTR.
+The <b>CWiauPropertyList::SetCurrentValue(CLSID)</b> method sets the current value of a property of type <b>CLSID</b>, and sets its type to VT_CLSID.
 
 
 ## -parameters
@@ -63,13 +63,6 @@ Specifies the property index. Set this parameter to the value in *<i>pIdx</i> wh
 
 
 ### -param pValue
-
-
-
-
-
-
-#### - value
 
 Pointer to a memory location containing the value that is written to the device property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
 

@@ -4,7 +4,7 @@ title: "_SM_SetRNIDMgmtInfo_OUT"
 author: windows-driver-content
 description: The SM_SetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 30bb4e82-3a51-4d58-87aa-2e1545a9244f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

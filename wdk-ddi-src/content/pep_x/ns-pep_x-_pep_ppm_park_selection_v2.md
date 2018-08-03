@@ -4,7 +4,7 @@ title: "_PEP_PPM_PARK_SELECTION_V2"
 author: windows-driver-content
 description: The PEP_PPM_PARK_SELECTION_V2 structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption.
 old-location: kernel\pep_ppm_park_selection_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D1EFB30D-E8E2-4585-AB0E-B7903F4D6656
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RILUICCFILELOCKSTATUSPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILUICCFILELOCKSTATUSPARAMMASK.
 old-location: netvista\riluiccfilelockstatusparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 341e11bb-957b-4745-9892-f1274ff97f44
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,9 +58,9 @@ req.typenames: RILUICCFILELOCKSTATUSPARAMMASK
 
 ````
 enum RILUICCFILELOCKSTATUSPARAMMASK {
-  RIL_PARAM_UFLS_ACCESSCONDITION  = 0x00000001, 
-  RIL_PARAM_UFLS_PINREFERENCE     = 0x00000002, 
-  RIL_PARAM_UFLS_ALL              = 0x00000003 
+  RIL_PARAM_UFLS_ACCESSCONDITION  = 0x00000001,
+  RIL_PARAM_UFLS_PINREFERENCE     = 0x00000002,
+  RIL_PARAM_UFLS_ALL              = 0x00000003
 
 };
 ````

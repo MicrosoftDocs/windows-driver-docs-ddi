@@ -4,7 +4,7 @@ title: ExSetResourceOwnerPointer function
 author: windows-driver-content
 description: The ExSetResourceOwnerPointer routine sets the owner thread pointer for an executive resource.
 old-location: kernel\exsetresourceownerpointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 985f811e-cf4f-4dbe-8ede-497ba4eceffd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

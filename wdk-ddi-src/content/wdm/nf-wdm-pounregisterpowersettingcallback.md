@@ -4,7 +4,7 @@ title: PoUnregisterPowerSettingCallback function
 author: windows-driver-content
 description: The PoUnregisterPowerSettingCallback routine unregisters a power-setting callback routine that a driver previously registered by calling the PoRegisterPowerSettingCallback routine.
 old-location: kernel\pounregisterpowersettingcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 900db70b-4cdb-41e7-a4cf-0dc435b9fe7d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

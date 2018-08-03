@@ -4,7 +4,7 @@ title: KSMETHOD_SET_IRP_STORAGE macro
 author: windows-driver-content
 description: This macro returns a pointer to the KSMETHOD_SET in which the method is located.
 old-location: stream\ksmethod_set_irp_storage.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bc0a309d-305e-400a-b571-7958926dd1dc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

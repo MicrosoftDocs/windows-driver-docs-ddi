@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_POWER_MANAGEMENT"
 author: windows-driver-content
 description: The FEATURE_DATA_POWER_MANAGEMENT structure holds information about the Power Management feature.
 old-location: storage\feature_data_power_management.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0b3f23d1-1081-4fb9-86af-6dbf7bfeb3b7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

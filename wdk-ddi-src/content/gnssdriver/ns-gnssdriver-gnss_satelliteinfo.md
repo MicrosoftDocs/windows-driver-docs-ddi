@@ -4,7 +4,7 @@ title: GNSS_SATELLITEINFO
 author: windows-driver-content
 description: This structure defines satellite-related information of a fix.
 old-location: gnss\gnss_satelliteinfo.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 27F537D8-45B2-43D9-A614-3558534C9DBA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

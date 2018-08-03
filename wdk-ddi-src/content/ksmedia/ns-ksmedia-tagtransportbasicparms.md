@@ -4,7 +4,7 @@ title: tagTRANSPORTBASICPARMS
 author: windows-driver-content
 description: The TRANSPORTBASICPARMS structure is defined but not used.
 old-location: stream\transportbasicparms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

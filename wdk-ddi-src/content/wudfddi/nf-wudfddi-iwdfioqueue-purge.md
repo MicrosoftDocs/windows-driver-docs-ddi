@@ -4,7 +4,7 @@ title: IWDFIoQueue::Purge
 author: windows-driver-content
 description: The Purge method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests.
 old-location: wdf\iwdfioqueue_purge.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: GNSS_AGNSS_REQUEST_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of AGNSS injection request represented by the GNSS_AGNSS_REQUEST_PARAM structure.
 old-location: gnss\gnss_agnss_request_type.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 31293354-D68B-475F-91BD-0504129207A5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: RtlFindFirstRunClear function
 author: windows-driver-content
 description: The RtlFindFirstRunClear routine searches for the initial contiguous range of clear bits within a given bitmap.
 old-location: kernel\rtlfindfirstrunclear.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21e7e65c-b549-4997-b6dd-a95577edaa26
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

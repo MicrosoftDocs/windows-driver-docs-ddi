@@ -4,7 +4,7 @@ title: "_MSiSCSI_InitiatorLoginStatistics"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorLoginStatistics structure is used by iSCSI initiators to report logon statistics.
 old-location: storage\msiscsi_initiatorloginstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

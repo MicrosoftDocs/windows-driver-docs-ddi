@@ -4,10 +4,10 @@ title: "_DD_GETDDIVERSIONDATA"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETDDIVERSIONDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETDDIVERSION.
 old-location: display\dd_getddiversiondata.htm
-old-project: display
+tech.root: display
 ms.assetid: 4f96ef86-1155-4483-915e-706cc18c3bca
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DD_GETDDIVERSIONDATA, DD_GETDDIVERSIONDATA structure [Display Devices], _DD_GETDDIVERSIONDATA, d3dhal/DD_GETDDIVERSIONDATA, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, display.dd_getddiversiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices

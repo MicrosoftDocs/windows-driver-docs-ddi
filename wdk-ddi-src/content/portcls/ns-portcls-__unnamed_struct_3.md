@@ -4,10 +4,10 @@ title: PCAUTOMATION_TABLE
 author: windows-driver-content
 description: The PCAUTOMATION_TABLE structure contains a miniport driver's master table of properties, methods, and events.
 old-location: audio\pcautomation_table.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE structure pointer [Audio Devices], audio.pcautomation_table, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, portcls/PCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

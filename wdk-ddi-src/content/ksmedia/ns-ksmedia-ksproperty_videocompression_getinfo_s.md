@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure describes information about the video compression capabilities supported by a device.
 old-location: stream\ksproperty_videocompression_getinfo_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a34f051e-9769-427e-b1a7-2718a023e9d1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_MSiSCSI_TCPIPConfig"
 author: windows-driver-content
 description: The MSiSCSI_TCPIPConfig structure reports TCP/IP configuration information about one of the adapter's ports.
 old-location: storage\msiscsi_tcpipconfig.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1f33d262-0488-46cb-a762-1f3e24cdd219
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

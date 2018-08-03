@@ -4,7 +4,7 @@ title: KeInitializeQueue function
 author: windows-driver-content
 description: The KeInitializeQueue routine initializes a queue object on which threads can wait for entries.
 old-location: ifsk\keinitializequeue.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -159,7 +159,7 @@ Usually the caller of <b>KeInitializeQueue</b> also creates a set of dedicated t
 
 <b>KeInitializeQueue</b> sets the queue object's initial signal state to Not Signaled.
 
-For more information about using driver-managed internal queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544165">Driver-Managed Queues</a>. 
+For more information about using driver-managed internal queues, see [Driver-Managed IRP Queues](https://docs.microsoft.com/windows-hardware/drivers/kernel/driver-managed-irp-queues). 
 
 
 

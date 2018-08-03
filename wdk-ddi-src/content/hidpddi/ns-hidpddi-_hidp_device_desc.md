@@ -4,7 +4,7 @@ title: "_HIDP_DEVICE_DESC"
 author: windows-driver-content
 description: Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription.
 old-location: hid\hidp_device_desc.htm
-old-project: hid
+tech.root: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

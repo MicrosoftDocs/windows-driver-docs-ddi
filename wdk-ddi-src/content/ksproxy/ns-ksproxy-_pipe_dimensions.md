@@ -4,7 +4,7 @@ title: "_PIPE_DIMENSIONS"
 author: windows-driver-content
 description: The PIPE_DIMENSIONS structure is for proxy use and not recommended for application use. PIPE_DIMENSIONS contains information that describes the compression/expansion ratio of frames on various pins related to a pipe.
 old-location: stream\pipe_dimensions.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0a919dd8-a266-42c8-8f97-3314a5d52f4f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

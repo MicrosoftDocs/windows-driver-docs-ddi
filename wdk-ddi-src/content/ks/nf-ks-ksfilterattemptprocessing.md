@@ -4,7 +4,7 @@ title: KsFilterAttemptProcessing function
 author: windows-driver-content
 description: The KsFilterAttemptProcessing function attempts to initiate processing on Filter.
 old-location: stream\ksfilterattemptprocessing.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 22c6bd15-98b7-4905-8551-c8202cc6840b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

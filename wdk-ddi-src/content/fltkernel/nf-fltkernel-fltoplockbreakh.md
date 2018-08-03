@@ -4,7 +4,7 @@ title: FltOplockBreakH function
 author: windows-driver-content
 description: The FltOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 old-location: ifsk\fltoplockbreakh.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

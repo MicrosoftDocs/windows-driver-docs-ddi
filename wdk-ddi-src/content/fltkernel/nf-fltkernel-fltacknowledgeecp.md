@@ -4,7 +4,7 @@ title: FltAcknowledgeEcp function
 author: windows-driver-content
 description: The FltAcknowledgeEcp routine is used to mark an extra create parameter context structure (ECP) as acknowledged.
 old-location: ifsk\fltacknowledgeecp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 89fd8a33-9b2e-401a-9b48-49b4b19d3cb2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

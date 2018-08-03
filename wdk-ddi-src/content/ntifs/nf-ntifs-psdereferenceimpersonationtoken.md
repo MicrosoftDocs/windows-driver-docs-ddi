@@ -4,7 +4,7 @@ title: PsDereferenceImpersonationToken function
 author: windows-driver-content
 description: The PsDereferenceImpersonationToken routine decrements the reference count of an impersonation token.
 old-location: ifsk\psdereferenceimpersonationtoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8320d4d1-f282-4977-96e7-de6f63d86ec4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

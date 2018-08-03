@@ -4,7 +4,7 @@ title: MmIsRecursiveIoFault function
 author: windows-driver-content
 description: The MmIsRecursiveIoFault routine determines whether the current page fault is occurring during an I/O operation.
 old-location: ifsk\mmisrecursiveiofault.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c445c016-2781-4a82-ac2d-4c6eaff3b4c8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

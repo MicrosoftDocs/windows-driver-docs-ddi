@@ -4,7 +4,7 @@ title: ClfsMgmtRemovePolicy function
 author: windows-driver-content
 description: The ClfsMgmtRemovePolicy routine resets a log's CLFS_MGMT_POLICY structure to its default value.
 old-location: kernel\clfsmgmtremovepolicy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

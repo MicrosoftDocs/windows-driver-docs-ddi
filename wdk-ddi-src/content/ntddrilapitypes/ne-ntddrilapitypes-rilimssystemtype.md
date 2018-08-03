@@ -4,7 +4,7 @@ title: RILIMSSYSTEMTYPE
 author: windows-driver-content
 description: The RILIMSSYSTEMTYPE enumeration has the following values.
 old-location: netvista\rilimssystemtype.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e1f5dde2-8e45-4904-bbf3-bd2358f95a5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,10 +60,10 @@ req.typenames: RILIMSSYSTEMTYPE
 
 ````
 enum RILIMSSYSTEMTYPE {
-  RIL_IMSSYSTEMTYPE_UNKNOWN  = 0x00000000, 
-  RIL_IMSSYSTEMTYPE_WIFI     = 0x00000001, 
-  RIL_IMSSYSTEMTYPE_LTE      = 0x00000002, 
-  RIL_IMSSYSTEMTYPE_MAX      = RIL_IMSSYSTEMTYPE_LTE 
+  RIL_IMSSYSTEMTYPE_UNKNOWN  = 0x00000000,
+  RIL_IMSSYSTEMTYPE_WIFI     = 0x00000001,
+  RIL_IMSSYSTEMTYPE_LTE      = 0x00000002,
+  RIL_IMSSYSTEMTYPE_MAX      = RIL_IMSSYSTEMTYPE_LTE
 
 };
 ````

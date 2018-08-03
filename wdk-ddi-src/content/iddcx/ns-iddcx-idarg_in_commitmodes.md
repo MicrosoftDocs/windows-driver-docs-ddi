@@ -4,10 +4,10 @@ title: IDARG_IN_COMMITMODES
 author: windows-driver-content
 description: Gives information about the paths that need to be committed.
 old-location: display\idarg_in_commitmodes.htm
-old-project: display
+tech.root: display
 ms.assetid: 242b7573-409a-4fdc-8ebf-596b8e6d41c7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], display.idarg_in_commitmodes, iddcx/IDARG_IN_COMMITMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices

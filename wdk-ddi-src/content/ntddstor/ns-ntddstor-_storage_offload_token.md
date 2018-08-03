@@ -4,7 +4,7 @@ title: "_STORAGE_OFFLOAD_TOKEN"
 author: windows-driver-content
 description: The STORAGE_OFFLOAD_TOKEN structure contains a token value that serves as a representation of a data set range within a file on a volume. This structure is used in performing offload reads and writes.
 old-location: storage\storage_offload_token.htm
-old-project: storage
+tech.root: storage
 ms.assetid: C9A0E3A8-CAB6-420D-A0FC-C598CFC9CB12
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

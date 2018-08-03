@@ -4,7 +4,7 @@ title: IPrintOemUni::DriverDMS
 author: windows-driver-content
 description: The IPrintOemUni::DriverDMS method allows a rendering plug-in for Unidrv to indicate that it uses a device-managed drawing surface.
 old-location: print\iprintoemuni_driverdms.htm
-old-project: print
+tech.root: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

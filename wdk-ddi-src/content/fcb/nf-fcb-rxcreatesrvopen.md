@@ -4,7 +4,7 @@ title: RxCreateSrvOpen function
 author: windows-driver-content
 description: RxCreateSrvOpen allocates, initializes, and inserts a new SRV_OPEN structure into the in-memory data structures used by RDBSS. If a new structure has to be allocated, it has space for an FOBX structure.
 old-location: ifsk\rxcreatesrvopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e2cb8b92-2894-4515-bdf1-944c7f6ed3b0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

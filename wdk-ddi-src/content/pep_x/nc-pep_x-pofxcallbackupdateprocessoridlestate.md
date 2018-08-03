@@ -4,7 +4,7 @@ title: POFXCALLBACKUPDATEPROCESSORIDLESTATE
 author: windows-driver-content
 description: The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state.
 old-location: kernel\updateprocessoridlestate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 023A2637-A79A-4ADE-B54C-646CBDDF08B8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -65,7 +65,7 @@ A POHANDLE value that represents the registration of the processor (as a device)
 
 ### -param ProcessorState [in]
 
-An index that identifies the processor idle state whose properties are to be updated. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification, the PEP specified the number of supported processor idle states and the properties of these states. If the PEP specified N processor idle states, valid processor idle state indexes range from 0 to N-â€“1.
+An index that identifies the processor idle state whose properties are to be updated. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification, the PEP specified the number of supported processor idle states and the properties of these states. If the PEP specified N processor idle states, valid processor idle state indexes range from 0 to N-1.
 
 
 ### -param Update [in]

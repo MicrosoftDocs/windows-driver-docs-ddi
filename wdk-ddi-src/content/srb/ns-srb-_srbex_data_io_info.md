@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_IO_INFO"
 author: windows-driver-content
 description: The SRBEX_DATA_IO_INFO structure contains additional information related to a read or write request in an extended SRB.
 old-location: storage\srbex_data_io_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: D4B99D6F-0A0C-49CE-A8E2-19C1A835EDA6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

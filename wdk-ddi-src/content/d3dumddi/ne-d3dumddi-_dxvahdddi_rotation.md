@@ -4,10 +4,10 @@ title: "_DXVAHDDDI_ROTATION"
 author: windows-driver-content
 description: Specifies the clockwise rotation of the display output surface.
 old-location: display\dxvahdddi_rotation.htm
-old-project: display
+tech.root: display
 ms.assetid: 667f1c5e-c342-40b2-b215-2538669288cc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVAHDDDI_ROTATION, DXVAHDDDI_ROTATION enumeration [Display Devices], DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION_270, DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION_IDENTITY, _DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION_180, d3dumddi/DXVAHDDDI_ROTATION_270, d3dumddi/DXVAHDDDI_ROTATION_90, d3dumddi/DXVAHDDDI_ROTATION_IDENTITY, display.dxvahdddi_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KsPinRegisterIrpCompletionCallback function
 author: windows-driver-content
 description: The KsPinRegisterIrpCompletionCallback function registers a minidriver-defined callback routine for a specified pin.
 old-location: stream\kspinregisterirpcompletioncallback.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

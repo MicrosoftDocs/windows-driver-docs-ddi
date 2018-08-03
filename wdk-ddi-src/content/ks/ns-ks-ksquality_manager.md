@@ -4,7 +4,7 @@ title: KSQUALITY_MANAGER
 author: windows-driver-content
 description: The KSQUALITY_MANAGER structure is used with the KSPROPERTY_STREAM_QUALITY property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 old-location: stream\ksquality_manager.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 33e66fa0-53d6-400a-a03b-6d7b3fd01ace
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

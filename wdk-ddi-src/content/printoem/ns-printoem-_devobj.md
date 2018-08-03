@@ -4,7 +4,7 @@ title: "_DEVOBJ"
 author: windows-driver-content
 description: The DEVOBJ structure is used as an input argument to several of a rendering plug-in's COM interface methods.
 old-location: print\devobj.htm
-old-project: print
+tech.root: print
 ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_GET_PROPERTY
 author: windows-driver-content
 description: This I/O control function returns the value of the specified property from the device driver.
 old-location: pos\ioctl_point_of_service_get_property.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

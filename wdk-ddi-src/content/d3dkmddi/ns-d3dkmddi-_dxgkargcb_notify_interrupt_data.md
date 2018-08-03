@@ -4,7 +4,7 @@ title: "_DXGKARGCB_NOTIFY_INTERRUPT_DATA"
 author: windows-driver-content
 description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information.
 old-location: display\dxgkargcb_notify_interrupt_data.htm
-old-project: display
+tech.root: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -94,38 +94,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
     } CrtcVsyncWithMultiPlaneOverlay;
     DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS DisplayOnlyPresentProgress;
 #endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-      DXGK_MIRACAST_CHUNK_INFO       ChunkInfo;
-      PVOID                          pPrivateDriverData;
-      UINT                           PrivateDataDriverSize;
-      NTSTATUS                       Status;
-    } MiracastEncodeChunkCompleted;
-#endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-    struct {
-      UINT                       FaultedFenceId;
-      UINT64                     FaultedPrimitiveAPISequenceNumber;
-      DXGK_RENDER_PIPELINE_STAGE FaultedPipelineStage;
-      UINT                       FaultedBindTableEntry;
-      DXGK_PAGE_FAULT_FLAGS      PageFaultFlags;
-      D3DGPU_VIRTUAL_ADDRESS     FaultedVirtualAddress;
-      UINT                       NodeOrdinal;
-      UINT                       EngineOrdinal;
-      UINT                       PageTableLevel;
-      DXGK_FAULT_ERROR_CODE      FaultErrorCode;
-      HANDLE                     FaultedProcessHandle;
-    } DmaPageFaulted;
-#endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
-    D3DDDI_VIDEO_PRESENT_TARGET_ID         VidPnTargetId;
-    UINT                                   PhysicalAdapterMask;
-    UINT                                   MultiPlaneOverlayVsyncInfoCount;
-    DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2    *pMultiPlaneOverlayVsyncInfo;
-    ULONGLONG                              GpuFrequency;
-    ULONGLONG                              GpuClockCounter;
-#endif
+
     struct {
       UINT Reserved[16];
     } Reserved;
@@ -539,17 +508,17 @@ Hardware queue page faulted.
 
 ### -field HwQueuePageFaulted.FaultedHwQueue
 
- 
+
 
 
 ### -field HwQueuePageFaulted.FaultedHwContext
 
- 
+
 
 
 ### -field HwQueuePageFaulted.FaultedProcessHandle
 
- 
+
 
 
 ### -field HwQueuePageFaulted.NodeOrdinal

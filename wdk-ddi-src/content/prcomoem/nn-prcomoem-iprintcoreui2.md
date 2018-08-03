@@ -4,7 +4,7 @@ title: IPrintCoreUI2
 author: windows-driver-content
 description: This section describes the methods defined for the IPrintCoreUI2 COM Interface.
 old-location: print\iprintcoreui2_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: e2d2e486-d69d-4a6d-aaab-a7b8806665b4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

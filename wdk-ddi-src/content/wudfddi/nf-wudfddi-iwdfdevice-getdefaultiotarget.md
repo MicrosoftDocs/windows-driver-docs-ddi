@@ -4,7 +4,7 @@ title: IWDFDevice::GetDefaultIoTarget
 author: windows-driver-content
 description: The GetDefaultIoTarget method retrieves the interface of the default I/O target for a device instance.
 old-location: wdf\iwdfdevice_getdefaultiotarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

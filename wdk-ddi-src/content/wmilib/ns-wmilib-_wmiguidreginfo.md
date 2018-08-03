@@ -4,7 +4,7 @@ title: "_WMIGUIDREGINFO"
 author: windows-driver-content
 description: The WMIGUIDREGINFO structure contains registration information for a given data block or event block exposed by a driver that uses the WMI library support routines.
 old-location: kernel\wmiguidreginfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8bf36e54-5caa-4dc6-b659-ea0c1ac450f0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

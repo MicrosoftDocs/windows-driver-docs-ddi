@@ -4,7 +4,7 @@ title: "_CDROM_SUB_Q_DATA_FORMAT"
 author: windows-driver-content
 description: The CDROM_SUB_Q_DATA_FORMAT structure is used with device control IRPs of type IOCTL_CDROM_READ_Q_CHANNEL.
 old-location: storage\cdrom_sub_q_data_format.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0eac3cc1-9c1c-4438-ab20-51c65018cea0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

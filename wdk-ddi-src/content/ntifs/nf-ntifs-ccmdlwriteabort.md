@@ -4,7 +4,7 @@ title: CcMdlWriteAbort function
 author: windows-driver-content
 description: The CcMdlWriteAbort routine frees memory descriptor lists (MDL) created by an earlier call to CcPrepareMdlWrite.
 old-location: ifsk\ccmdlwriteabort.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 32b6fc14-dbaa-41d7-a1a7-a805b9a8795a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

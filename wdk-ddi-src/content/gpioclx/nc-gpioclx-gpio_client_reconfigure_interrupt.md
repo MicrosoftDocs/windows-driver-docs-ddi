@@ -4,7 +4,7 @@ title: GPIO_CLIENT_RECONFIGURE_INTERRUPT
 author: windows-driver-content
 description: The CLIENT_ReconfigureInterrupt event callback function reconfigures a general-purpose I/O (GPIO) pin that is used as an interrupt input.
 old-location: gpio\client_reconfigureinterrupt.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 2F654D79-7DB6-45C4-8E6D-2EBAEF2DA7F5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_WHEA_AER_BRIDGE_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_AER_BRIDGE_DESCRIPTOR structure describes a PCI Express (PCIe) bridge error source.
 old-location: whea\whea_aer_bridge_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

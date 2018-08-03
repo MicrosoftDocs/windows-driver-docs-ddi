@@ -4,7 +4,7 @@ title: RtlUShortToShort function
 author: windows-driver-content
 description: Converts a value of type USHORT to a value of type SHORT.
 old-location: kernel\rtlushorttoshort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 055B5605-2EBB-4B09-9C21-A8288D0DB3CD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

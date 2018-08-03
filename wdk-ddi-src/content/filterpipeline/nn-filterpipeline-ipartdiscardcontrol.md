@@ -4,7 +4,7 @@ title: IPartDiscardControl
 author: windows-driver-content
 description: The filter pipeline supports the discard control.
 old-location: print\ipartdiscardcontrol.htm
-old-project: print
+tech.root: print
 ms.assetid: 30c6fb0c-42ea-441f-b0a2-3310f8a5b407
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

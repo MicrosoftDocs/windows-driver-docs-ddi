@@ -4,7 +4,7 @@ title: PCAM_STOP_CAPTURE_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamStopCapture callback function performs any processing after the stream is stopped.
 old-location: stream\camstopcapture.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c4403edb-3035-469b-bdb9-c33882a1c90c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

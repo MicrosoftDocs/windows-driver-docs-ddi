@@ -4,7 +4,7 @@ title: IWDTFPNPActions2::EDTTryStopDeviceFailRestart
 author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and then fail the subsequent device restart.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevicefailrestart.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: b205a0a4-a659-47ff-90d5-b1bb58983e36
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

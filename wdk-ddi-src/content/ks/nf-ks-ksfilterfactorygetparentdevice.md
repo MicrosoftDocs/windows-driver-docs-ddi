@@ -4,7 +4,7 @@ title: KsFilterFactoryGetParentDevice function
 author: windows-driver-content
 description: The KsFilterFactoryGetParentDevice function returns the parent device of the given filter factory.
 old-location: stream\ksfilterfactorygetparentdevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ac1d10dc-d3cb-4a83-9f52-34ea90d2193b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

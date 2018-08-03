@@ -33,7 +33,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	TranslateAxes
-product: Windows
+product: 
+-Windows
 targetos: Windows
 
 ---

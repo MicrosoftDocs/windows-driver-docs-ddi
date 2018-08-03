@@ -4,7 +4,7 @@ title: RxScavengeFobxsForNetRoot function
 author: windows-driver-content
 description: RxScavengeFobxsForNetRoot scavenges all of the FOBX structures associated with a given NET_ROOT structure.
 old-location: ifsk\rxscavengefobxsfornetroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2a2320e6-b114-4ea7-9f2f-27fd47fef770
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

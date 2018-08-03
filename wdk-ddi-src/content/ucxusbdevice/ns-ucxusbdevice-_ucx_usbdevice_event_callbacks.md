@@ -4,10 +4,10 @@ title: "_UCX_USBDEVICE_EVENT_CALLBACKS"
 author: windows-driver-content
 description: This structure provides a list of UCX USB device event callback functions.
 old-location: buses\_ucx_usbdevice_event_callbacks.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 7A320D48-E71C-40FE-A2EF-201CFCE55145
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS structure pointer [Buses], UCX_USBDEVICE_EVENT_CALLBACKS, UCX_USBDEVICE_EVENT_CALLBACKS structure [Buses], _UCX_USBDEVICE_EVENT_CALLBACKS, buses._ucx_usbdevice_event_callbacks, ucxusbdevice/P_UCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/_UCX_USBDEVICE_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

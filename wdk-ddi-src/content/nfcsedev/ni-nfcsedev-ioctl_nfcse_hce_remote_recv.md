@@ -4,7 +4,7 @@ title: IOCTL_NFCSE_HCE_REMOTE_RECV
 author: windows-driver-content
 description: Either returns the next data buffer available, or if there are no more buffered data, the request shall stay pending until an APDU buffer is available for reading.
 old-location: nfpdrivers\ioctl_nfcse_hce_remote_recv.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 398AFAEF-D0A9-4BBE-8884-1854C95AA878
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

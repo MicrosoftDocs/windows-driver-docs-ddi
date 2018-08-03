@@ -4,7 +4,7 @@ title: "_MPIOMoveDevice_IN"
 author: windows-driver-content
 description: The MPIOMoveDevice_IN structure is used to set the active path on the device.
 old-location: storage\mpiomovedevice_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

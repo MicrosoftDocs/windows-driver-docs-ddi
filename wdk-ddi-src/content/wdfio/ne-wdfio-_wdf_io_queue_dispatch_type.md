@@ -4,7 +4,7 @@ title: "_WDF_IO_QUEUE_DISPATCH_TYPE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration type identifies the request dispatching methods that can be associated with a framework queue object.
 old-location: wdf\wdf_io_queue_dispatch_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 90f2f490-ee29-4e20-94b2-65a9bba3e831
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_DMA_ADAPTER"
 author: windows-driver-content
 description: The DMA_ADAPTER structure describes a system-defined interface to a DMA controller for a given device. A driver calls IoGetDmaAdapter to obtain this structure.
 old-location: kernel\dma_adapter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

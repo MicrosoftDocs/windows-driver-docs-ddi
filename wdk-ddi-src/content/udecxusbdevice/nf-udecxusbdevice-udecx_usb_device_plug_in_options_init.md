@@ -4,10 +4,10 @@ title: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function
 author: windows-driver-content
 description: Initializes a UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure.
 old-location: buses\udecx_usb_device_plug_in_options_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 3188E2EE-E011-476D-9DDC-1DF61ECF9413
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], buses.udecx_usb_device_plug_in_options_init, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPrintSchemaElement::get_Name
 author: windows-driver-content
 description: Gets the base value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_name.htm
-old-project: print
+tech.root: print
 ms.assetid: 025DC5A0-4462-487E-9C5B-0FE359DAD41C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

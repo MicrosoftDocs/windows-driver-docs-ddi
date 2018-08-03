@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
 author: windows-driver-content
 description: This structure is not supported.
 old-location: kernel\process_mitigation_system_call_filter_policy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6a64ae8d-43e3-4ebd-b10b-2ae8e607071f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

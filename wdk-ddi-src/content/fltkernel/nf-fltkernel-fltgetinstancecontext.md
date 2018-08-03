@@ -4,7 +4,7 @@ title: FltGetInstanceContext function
 author: windows-driver-content
 description: The FltGetInstanceContext routine retrieves a context that was set for an instance by a given minifilter driver.
 old-location: ifsk\fltgetinstancecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 74bbffcd-27a9-4a9e-b625-64f9860f2c66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RxNameCacheActivateEntry function
 author: windows-driver-content
 description: RxNameCacheActivateEntry takes a name cache entry and updates the expiration time and the network mini-redirector context. It then puts the name cache entry on the active list.
 old-location: ifsk\rxnamecacheactivateentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6ebd4b00-ec25-4383-beba-0478b3241f09
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: WdfDeviceSetCharacteristics function
 author: windows-driver-content
 description: The WdfDeviceSetCharacteristics method sets device characteristics for a specified device.
 old-location: wdf\wdfdevicesetcharacteristics.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 07b5d7ed-fc4c-45e5-8748-2630c91d912a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

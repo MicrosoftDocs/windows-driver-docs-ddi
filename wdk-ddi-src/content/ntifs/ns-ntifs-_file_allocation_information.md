@@ -4,7 +4,7 @@ title: "_FILE_ALLOCATION_INFORMATION"
 author: windows-driver-content
 description: The FILE_ALLOCATION_INFORMATION structure is used to set the allocation size for a file.
 old-location: ifsk\file_allocation_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 52c62e52-3bf7-40eb-80ff-df14c50c86e1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

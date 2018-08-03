@@ -4,7 +4,7 @@ title: IWDTFTarget2::get_Context
 author: windows-driver-content
 description: Gets and sets a name-value pair that represents user data for the target.
 old-location: dtf\iwdtftarget2_context.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: e7a19b73-3393-4ab4-a967-c00b46f81a9e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

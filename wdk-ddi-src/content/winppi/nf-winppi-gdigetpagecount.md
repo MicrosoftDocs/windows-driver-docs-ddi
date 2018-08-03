@@ -4,7 +4,7 @@ title: GdiGetPageCount function
 author: windows-driver-content
 description: The GdiGetPageCount function returns the number of pages in a print job.
 old-location: print\gdigetpagecount.htm
-old-project: print
+tech.root: print
 ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_WRITE_PROTECT"
 author: windows-driver-content
 description: The FEATURE_DATA_WRITE_PROTECT structure contains information about the Write Protect feature.
 old-location: storage\feature_data_write_protect.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 16582fce-179a-4a99-9e4c-6f7ca1d3ddef
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

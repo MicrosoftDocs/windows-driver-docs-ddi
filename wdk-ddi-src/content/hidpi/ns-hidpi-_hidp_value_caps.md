@@ -4,7 +4,7 @@ title: "_HIDP_VALUE_CAPS"
 author: windows-driver-content
 description: The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a usage range).
 old-location: hid\hidp_value_caps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 37084f3a-f57e-45bb-a364-157b3d155394
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

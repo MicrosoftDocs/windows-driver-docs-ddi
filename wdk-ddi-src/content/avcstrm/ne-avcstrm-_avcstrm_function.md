@@ -4,7 +4,7 @@ title: "_AVCSTRM_FUNCTION"
 author: windows-driver-content
 description: The AVCSTRM_FUNCTION enumeration defines the functionality exposed by the avcstrm.sys driver.
 old-location: stream\avcstrm_function.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

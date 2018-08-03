@@ -4,7 +4,7 @@ title: RtlUIntToUShort function
 author: windows-driver-content
 description: Converts a value of type UINT to a value of type USHORT.
 old-location: kernel\rtluinttoushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3A9DB44E-ABAB-4808-9322-8ADA5AD39F75
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

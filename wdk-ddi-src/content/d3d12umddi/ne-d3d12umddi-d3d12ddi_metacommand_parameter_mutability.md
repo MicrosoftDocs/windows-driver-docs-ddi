@@ -28,7 +28,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

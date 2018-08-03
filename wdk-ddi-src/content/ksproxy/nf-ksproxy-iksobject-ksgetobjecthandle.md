@@ -4,7 +4,7 @@ title: IKsObject::KsGetObjectHandle
 author: windows-driver-content
 description: The KsGetObjectHandle method retrieves a file handle to a KS object.
 old-location: stream\iksobject_ksgetobjecthandle.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 55c4f362-eb3c-4c4f-a048-7abdd270f67f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

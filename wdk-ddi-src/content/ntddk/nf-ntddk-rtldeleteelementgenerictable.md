@@ -4,7 +4,7 @@ title: RtlDeleteElementGenericTable function
 author: windows-driver-content
 description: The RtlDeleteElementGenericTable routine deletes an element from a generic table.
 old-location: ifsk\rtldeleteelementgenerictable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: PFN_DrvUpdateUISetting
 author: windows-driver-content
 description: The DrvUpdateUISetting function is obsolete.
 old-location: print\drvupdateuisetting.htm
-old-project: print
+tech.root: print
 ms.assetid: 37f8ab73-ff81-4150-b1f6-faec5ca76908
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

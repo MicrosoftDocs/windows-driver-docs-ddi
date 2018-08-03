@@ -4,7 +4,7 @@ title: "_MS_SMHBA_SASPHYSTATISTICS"
 author: windows-driver-content
 description: The MS_SMHBA_SASPHYSTATISTICS structure reports the traffic statistics for a SAS physical link.
 old-location: storage\ms_smhba_sasphystatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bb2ab242-9002-4760-86b2-1aaf203ff710
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

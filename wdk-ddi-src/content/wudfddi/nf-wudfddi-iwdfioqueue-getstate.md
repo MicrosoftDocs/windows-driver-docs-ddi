@@ -4,7 +4,7 @@ title: IWDFIoQueue::GetState
 author: windows-driver-content
 description: The GetState method retrieves the state of an I/O queue.
 old-location: wdf\iwdfioqueue_getstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 42dc9bbe-b00d-4187-ab07-0c268a061298
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

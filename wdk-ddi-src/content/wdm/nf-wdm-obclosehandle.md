@@ -4,7 +4,7 @@ title: ObCloseHandle function
 author: windows-driver-content
 description: The ObCloseHandle routine closes an object handle.
 old-location: kernel\obclosehandle.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

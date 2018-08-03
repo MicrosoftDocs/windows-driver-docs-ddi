@@ -4,7 +4,7 @@ title: HBA_wwntype
 author: windows-driver-content
 description: The HBA_wwntype enumerator indicates whether a worldwide name specifies a port or a node (machine).
 old-location: storage\hba_wwntype.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 30ce30db-e030-43c3-bf8d-2f6ef86087ab
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

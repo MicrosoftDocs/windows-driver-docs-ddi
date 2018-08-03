@@ -4,7 +4,7 @@ title: "_PEP_PERF_STATE_TYPE"
 author: windows-driver-content
 description: The PEP_PERF_STATE_TYPE enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 old-location: kernel\pep_perf_state_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

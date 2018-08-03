@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0
 author: windows-driver-content
 description: A driver's EvtDeviceDisarmWakeFromS0 event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\evtdevicedisarmwakefroms0.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e944c299-d0b4-4ee3-8f46-0458807e4cee
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

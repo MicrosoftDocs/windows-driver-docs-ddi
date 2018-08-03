@@ -4,7 +4,7 @@ title: "_BAND_LOCATION_INFO"
 author: windows-driver-content
 description: The BAND_LOCATION_INFO structure specifies the location information for a band table entry query.
 old-location: storage\band_location_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A9E28600-45B2-4082-917F-29B3237DEC84
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

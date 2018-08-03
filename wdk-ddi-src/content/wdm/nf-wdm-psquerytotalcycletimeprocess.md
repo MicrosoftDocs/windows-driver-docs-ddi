@@ -4,7 +4,7 @@ title: PsQueryTotalCycleTimeProcess function
 author: windows-driver-content
 description: The PsQueryTotalCycleTimeProcess routine returns the accumulated cycle time for the specified process.
 old-location: kernel\psquerytotalcycletimeprocess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: FltRegisterForDataScan function
 author: windows-driver-content
 description: The FltRegisterForDataScan routine enables data scanning for the volume attached to the minifilter instance.
 old-location: ifsk\fltregisterfordatascan.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

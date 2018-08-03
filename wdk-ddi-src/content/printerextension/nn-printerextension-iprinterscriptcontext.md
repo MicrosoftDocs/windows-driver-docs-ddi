@@ -4,7 +4,7 @@ title: IPrinterScriptContext
 author: windows-driver-content
 description: Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.
 old-location: print\iprinterscriptcontext.htm
-old-project: print
+tech.root: print
 ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

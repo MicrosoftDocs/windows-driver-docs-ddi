@@ -4,7 +4,7 @@ title: FsRtlIncrementCcFastReadWait function
 author: windows-driver-content
 description: The FsRtlIncrementCcFastReadWait routine increments the CcFastReadWait performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadwait.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f9d10593-28a6-4d57-a739-2d24dfe4631a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

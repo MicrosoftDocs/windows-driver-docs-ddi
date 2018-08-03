@@ -4,7 +4,7 @@ title: IPnpCallbackHardware2::OnPrepareHardware
 author: windows-driver-content
 description: The OnPrepareHardware method performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\ipnpcallbackhardware2_onpreparehardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

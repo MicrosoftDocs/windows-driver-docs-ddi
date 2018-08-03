@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_SCAN_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_SCAN_CAPS_S structure describes the hardware scanning capabilities of a tuning device.
 old-location: stream\ksproperty_tuner_scan_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5f05b24b-cf46-4302-a445-a9df029661cd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

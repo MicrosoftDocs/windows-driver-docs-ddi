@@ -4,7 +4,7 @@ title: KsFilterFactoryUpdateCacheData function
 author: windows-driver-content
 description: The KsFilterFactoryUpdateCacheData function updates the FilterData registry key and the Medium cache (a set of registry keys) for a given filter factory.
 old-location: stream\ksfilterfactoryupdatecachedata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

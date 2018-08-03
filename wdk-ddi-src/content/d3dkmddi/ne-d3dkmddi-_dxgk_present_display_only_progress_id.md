@@ -4,10 +4,10 @@ title: "_DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID"
 author: windows-driver-content
 description: Indicates the status of the current present operation.
 old-location: display\dxgk_present_display_only_progress_id.htm
-old-project: display
+tech.root: display
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration [Display Devices], _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, d3dkmddi/DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, display.dxgk_present_display_only_progress_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteTargetQueryRemove event callback function determines whether a remote I/O target's device can be stopped and removed.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetqueryremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 10a9510a-a11c-46fa-adb8-b122f6c571f4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

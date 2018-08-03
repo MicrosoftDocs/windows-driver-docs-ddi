@@ -4,7 +4,7 @@ title: "_WDF_USB_DEVICE_TRAITS"
 author: windows-driver-content
 description: The WDF_USB_DEVICE_TRAITS enumeration identifies USB device traits.
 old-location: wdf\wdf_usb_device_traits.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5ba625f5-5bc0-4e2b-a7a9-5014746086c8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

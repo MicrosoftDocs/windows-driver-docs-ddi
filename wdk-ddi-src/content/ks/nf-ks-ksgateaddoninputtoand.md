@@ -4,7 +4,7 @@ title: KsGateAddOnInputToAnd function
 author: windows-driver-content
 description: The KsGateAddOnInputToAnd function adds a new input in the ON state to a given AND gate.
 old-location: stream\ksgateaddoninputtoand.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cde5e5d8-9af7-452e-afaa-8669c5749c9e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

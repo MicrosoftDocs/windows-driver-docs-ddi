@@ -4,10 +4,10 @@ title: NdisFSetAttributes function
 author: windows-driver-content
 description: A filter driver calls the NdisFSetAttributes function to specify a filter module context area.
 old-location: netvista\ndisfsetattributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 66e20ac3-e97d-429d-868e-79c04881702b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFSetAttributes, NdisFSetAttributes function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml, ndis/NdisFSetAttributes, netvista.ndisfsetattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

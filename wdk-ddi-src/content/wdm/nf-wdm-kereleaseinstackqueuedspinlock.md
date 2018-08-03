@@ -4,7 +4,7 @@ title: KeReleaseInStackQueuedSpinLock function
 author: windows-driver-content
 description: The KeReleaseInStackQueuedSpinLock routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLock.
 old-location: kernel\kereleaseinstackqueuedspinlock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5c36df75-6a95-47bb-99d8-14d87c102be4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

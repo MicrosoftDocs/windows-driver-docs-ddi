@@ -4,7 +4,7 @@ title: IoQueryFullDriverPath function
 author: windows-driver-content
 description: The IoQueryFullDriverPath routine retrieves the full path name of the binary file that is loaded for the specified driver object.
 old-location: kernel\ioqueryfulldriverpath.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2F73ECD7-EC58-43A9-89F8-E0268510A498
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

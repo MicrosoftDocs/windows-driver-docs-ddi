@@ -4,7 +4,7 @@ title: WdfFdoQueryForInterface function
 author: windows-driver-content
 description: The WdfFdoQueryForInterface method obtains access to another driver's GUID-identified interface.
 old-location: wdf\wdffdoqueryforinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_ALLOCATE_ADDRESS_RANGE"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out a request to allocate an address range.
 old-location: ieee\irb_req_allocate_address_range.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 76D306DF-D604-4B3C-BFED-A855113A55A9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

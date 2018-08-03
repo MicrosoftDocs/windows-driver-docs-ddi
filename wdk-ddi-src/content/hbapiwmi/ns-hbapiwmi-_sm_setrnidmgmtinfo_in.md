@@ -4,7 +4,7 @@ title: "_SM_SetRNIDMgmtInfo_IN"
 author: windows-driver-content
 description: The SM_SetRNIDMgmtInfo_IN structure is used to provide input parameters to the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4b248886-8f1d-42c3-89dc-f6f0cd9ae683
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

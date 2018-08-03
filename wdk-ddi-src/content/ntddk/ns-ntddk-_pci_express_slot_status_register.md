@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_SLOT_STATUS_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_SLOT_STATUS_REGISTER structure describes a PCI Express (PCIe) slot status register of a PCIe capability structure.
 old-location: pci\pci_express_slot_status_register.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -82,7 +82,7 @@ typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsUSHORT

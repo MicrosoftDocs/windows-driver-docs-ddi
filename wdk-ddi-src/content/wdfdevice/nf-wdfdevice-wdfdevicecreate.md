@@ -4,7 +4,7 @@ title: WdfDeviceCreate function
 author: windows-driver-content
 description: The WdfDeviceCreate method creates a framework device object.
 old-location: wdf\wdfdevicecreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2a72d08a-a95b-4d50-a47b-e0e31ad43676
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

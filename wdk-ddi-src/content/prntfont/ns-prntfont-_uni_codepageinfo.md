@@ -4,7 +4,7 @@ title: "_UNI_CODEPAGEINFO"
 author: windows-driver-content
 description: The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\uni_codepageinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

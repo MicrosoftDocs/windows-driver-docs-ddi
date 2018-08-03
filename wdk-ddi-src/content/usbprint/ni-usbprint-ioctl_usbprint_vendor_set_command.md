@@ -4,7 +4,7 @@ title: IOCTL_USBPRINT_VENDOR_SET_COMMAND
 author: windows-driver-content
 description: The IOCTL_USBPRINT_VENDOR_SET_COMMAND request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.
 old-location: print\ioctl_usbprint_vendor_set_command.htm
-old-project: print
+tech.root: print
 ms.assetid: 3fbb3e5d-e7a3-4d76-9996-50375ed9fd03
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

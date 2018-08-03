@@ -4,10 +4,10 @@ title: RILPHONEBOOKINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebookinfo.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 626bfc9b-6d84-4b8c-89eb-c635d0cb61f0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILPHONEBOOKINFO, RILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookinfo, ntddrilapitypes/RILPHONEBOOKINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

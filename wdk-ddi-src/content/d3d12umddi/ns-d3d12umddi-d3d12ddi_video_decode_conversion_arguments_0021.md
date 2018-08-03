@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
 author: windows-driver-content
 description: Specifies the arguments for decode output conversion.
 old-location: display\d3d12ddi_video_decode_conversion_arguments.htm
-old-project: display
+tech.root: display
 ms.assetid: 01288B0F-4095-4642-9DA9-4E14B0BCBB18
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

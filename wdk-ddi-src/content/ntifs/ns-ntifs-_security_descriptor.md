@@ -4,7 +4,7 @@ title: "_SECURITY_DESCRIPTOR"
 author: windows-driver-content
 description: The SECURITY_DESCRIPTOR structure contains the security information associated with an object. Drivers use this structure to set and query an object's security status.
 old-location: ifsk\security_descriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f0758549-0c3f-4aa3-8107-59503645f270
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

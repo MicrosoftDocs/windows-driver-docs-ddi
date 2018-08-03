@@ -4,7 +4,7 @@ title: MmMapIoSpaceEx function
 author: windows-driver-content
 description: The MmMapIoSpaceEx routine maps the given physical address range to non-paged system space using the specified page protection.
 old-location: kernel\mmmapiospaceex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0A8216B2-822D-4157-876E-AA0A1A9D6D3F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

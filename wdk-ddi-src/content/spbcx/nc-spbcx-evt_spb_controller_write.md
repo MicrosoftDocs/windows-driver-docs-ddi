@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_WRITE
 author: windows-driver-content
 description: An SPB controller driver's EvtSpbControllerIoWrite event callback function writes data to the specified target device from the buffers that are supplied with the write request.
 old-location: spb\evtspbcontrolleriowrite.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: D97C3A17-309E-4364-8DFB-9073901D332E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

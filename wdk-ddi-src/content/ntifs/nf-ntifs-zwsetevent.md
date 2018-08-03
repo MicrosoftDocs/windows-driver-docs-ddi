@@ -4,7 +4,7 @@ title: ZwSetEvent function
 author: windows-driver-content
 description: The ZwSetEvent routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
 old-location: kernel\zwsetevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

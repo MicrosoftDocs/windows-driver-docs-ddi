@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED
 author: windows-driver-content
 description: A driver's EvtDeviceD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required after the driver has enabled the device's hardware interrupts.
 old-location: wdf\evtdeviced0entrypostinterruptsenabled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 38d74ce1-9d9d-4da5-a2b3-579048850b28
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

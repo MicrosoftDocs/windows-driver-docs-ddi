@@ -4,7 +4,7 @@ title: IKsAllocator::KsGetAllocatorStatus
 author: windows-driver-content
 description: Retrieves the status of an allocator.
 old-location: stream\iksallocator_ksgetallocatorstatus.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 139F4465-1228-4603-B92F-4CB73E1A6DC0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

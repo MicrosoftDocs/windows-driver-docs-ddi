@@ -4,7 +4,7 @@ title: OEMPDriverEvent function
 author: windows-driver-content
 description: OEMPDriverEvent function
 old-location: print\oempdriverevent.htm
-old-project: print
+tech.root: print
 ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

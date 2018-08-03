@@ -4,7 +4,7 @@ title: "_KEY_SET_INFORMATION_CLASS"
 author: windows-driver-content
 description: The KEY_SET_INFORMATION_CLASS enumeration type represents the type of information to set for a registry key.
 old-location: kernel\key_set_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

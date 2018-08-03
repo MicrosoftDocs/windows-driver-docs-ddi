@@ -4,7 +4,7 @@ title: IWDFRequestCompletionParams
 author: windows-driver-content
 description: The IWDFRequestCompletionParams interface exposes methods that drivers can use to obtain completion information about an I/O request. Drivers can call these methods after a synchronous or an asynchronous I/O operation completes.
 old-location: wdf\iwdfrequestcompletionparams.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f297c6e0-927a-4fb3-bab4-00fdd610a684
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

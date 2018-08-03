@@ -4,7 +4,7 @@ title: "_MPIO_GET_DESCRIPTOR"
 author: windows-driver-content
 description: The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths.
 old-location: storage\mpio_get_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cabd2a6d-20d0-4499-8494-7ad746f2d915
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

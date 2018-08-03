@@ -4,7 +4,7 @@ title: "_MSR_SUPPORTED_CARD_TYPES"
 author: windows-driver-content
 description: This structure defines the types of magnetic stripe cards supported by the reader.
 old-location: pos\msr_supported_card_types.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 57818ea9-f60b-4a37-9f42-613fb9cfaf36
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

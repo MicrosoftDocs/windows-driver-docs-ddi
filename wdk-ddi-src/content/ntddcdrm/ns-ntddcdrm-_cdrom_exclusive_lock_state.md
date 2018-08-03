@@ -4,7 +4,7 @@ title: "_CDROM_EXCLUSIVE_LOCK_STATE"
 author: windows-driver-content
 description: The CDROM_EXCLUSIVE_LOCK_STATE structure is used by the CD-ROM class driver to report the exclusive access state of a CD-ROM device.
 old-location: storage\cdrom_exclusive_lock_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ea5e60d9-d167-4ad9-bef4-2ebb6c63184d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

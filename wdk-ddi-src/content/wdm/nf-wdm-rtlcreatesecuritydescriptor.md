@@ -4,7 +4,7 @@ title: RtlCreateSecurityDescriptor function
 author: windows-driver-content
 description: The RtlCreateSecurityDescriptor routine initializes a new absolute-format security descriptor. On return, the security descriptor is initialized with no system ACL, no discretionary ACL, no owner, no primary group, and all control flags set to zero.
 old-location: kernel\rtlcreatesecuritydescriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

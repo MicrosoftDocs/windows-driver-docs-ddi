@@ -4,7 +4,7 @@ title: KoDriverInitialize function
 author: windows-driver-content
 description: The KoDriverInitialize function initializes a driver object to handle the kernel streaming interface.
 old-location: stream\kodriverinitialize.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ed61d135-967d-4e7c-b437-09c9e0e6f3c2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

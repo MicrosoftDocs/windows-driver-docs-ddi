@@ -4,7 +4,7 @@ title: KeInvalidateAllCaches function
 author: windows-driver-content
 description: The KeInvalidateAllCaches routine flushes all processor caches.
 old-location: kernel\keinvalidateallcaches.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a7971cd1-1e9b-4d81-8422-1ee36651973a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

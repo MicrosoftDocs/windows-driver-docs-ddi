@@ -4,7 +4,7 @@ title: tagKS_DATAFORMAT_IMAGEINFO
 author: windows-driver-content
 description: Specifies an image data format that is used for an independent image pin (or stream).
 old-location: stream\ks_dataformat_imageinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d63289bc-9603-4e79-8a77-d2eb0f2c784c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

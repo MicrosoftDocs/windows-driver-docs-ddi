@@ -4,10 +4,10 @@ title: IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide
 author: windows-driver-content
 description: Launches and attaches to a Process Lifecycle Management (PLM) background task.
 old-location: debugger\idebugplmclient3_activateanddebugplmbgtaskwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 77358032-1777-46F4-BF16-5DFFAC15E672
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

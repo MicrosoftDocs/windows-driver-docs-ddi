@@ -4,7 +4,7 @@ title: "_RECORDER_LOG_CREATE_PARAMS"
 author: windows-driver-content
 description: The RECORDER_LOG_CREATE_PARAMS structure is an input parameter to the WppRecorderLogCreate method.
 old-location: devtest\recorder_log_create_params.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 6BEB44C2-BB35-420F-B4A0-925FFAD7473C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

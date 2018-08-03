@@ -4,7 +4,7 @@ title: BdaDeletePin function
 author: windows-driver-content
 description: The BdaDeletePin function deletes a pin from the specified filter.
 old-location: stream\bdadeletepin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 32ff70d7-980c-4c80-8ebc-af2121bc64df
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

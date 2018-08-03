@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::Pause
 author: windows-driver-content
 description: Pauses the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_pause.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9a0c66cd-3065-4532-8543-22d6f202fb74
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

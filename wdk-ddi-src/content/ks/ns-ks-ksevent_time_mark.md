@@ -4,7 +4,7 @@ title: KSEVENT_TIME_MARK
 author: windows-driver-content
 description: The KSEVENT_TIME_MARK structure is used in various events within the KSEVENTSETID_Clock event set.
 old-location: stream\ksevent_time_mark.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c1e756a8-4850-4ddc-9bbf-97146a798554
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

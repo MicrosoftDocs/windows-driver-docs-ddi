@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_get_parent_hub_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: c97c1081-6f8c-4aa3-b34a-b8f7455dc2ef
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control code [Buses], buses.ioctl_internal_usb_get_parent_hub_info, usbioctl/IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

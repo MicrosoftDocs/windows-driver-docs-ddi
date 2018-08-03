@@ -4,7 +4,7 @@ title: SD_REQUEST_FUNCTION
 author: windows-driver-content
 description: The SD_REQUEST_FUNCTION enumeration indicates the type of request packet that a Secure Digital (SD) card driver sends to the bus driver.
 old-location: sd\sd_request_function.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 9eec7597-be3a-4811-8786-11de0f9ac3da
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

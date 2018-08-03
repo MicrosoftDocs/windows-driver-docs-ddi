@@ -4,7 +4,7 @@ title: "_FILE_NETWORK_OPEN_INFORMATION"
 author: windows-driver-content
 description: The FILE_NETWORK_OPEN_INFORMATION structure is used as an argument to ZwQueryInformationFile.
 old-location: kernel\file_network_open_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 742fa221-70c8-410a-a582-aedf28872ada
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

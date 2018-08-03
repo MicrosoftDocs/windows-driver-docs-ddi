@@ -4,7 +4,7 @@ title: SRIOV_GET_MMIO_REQUIREMENTS
 author: windows-driver-content
 description: This callback function is not supported.
 old-location: pci\sriov_get_mmio_requirements.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: e9de3042-35aa-4ffa-ae1e-5135799c9a3b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -17,17 +17,17 @@ req.include-header: Pcivirt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -83,8 +83,8 @@ typedef SRIOV_GET_MMIO_REQUIREMENTS *PSRIOV_GET_MMIO_REQUIREMENTS;
 ### -param Context [in]
 
 A pointer to a driver-defined context.
-                    
-                
+
+
 
 
 ### -param VfIndex [in]
@@ -104,7 +104,7 @@ A pointer to a buffer that receives the data read from the VF's  MMIO space.
 
 ### -param Length [in]
 
-The length in bytes of this read operation.  
+The length in bytes of this read operation.
 
 
 ## -returns
@@ -113,7 +113,7 @@ The length in bytes of this read operation.
 
 
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
-                    
+
 
 
 
@@ -122,7 +122,7 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 
 
-This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve MMIO requirement of the specified VF. 
+This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve MMIO requirement of the specified VF.
 
 <code>(Question: How is this registered?)</code>
 

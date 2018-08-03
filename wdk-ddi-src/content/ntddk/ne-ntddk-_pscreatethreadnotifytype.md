@@ -4,7 +4,7 @@ title: "_PSCREATETHREADNOTIFYTYPE"
 author: windows-driver-content
 description: Indicates the type of thread notification. This enumeration is used in PsSetCreateThreadNotifyRoutineEx to register callback notifications associated with thread creation or deletion.
 old-location: kernel\pscreatethreadnotifytype.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

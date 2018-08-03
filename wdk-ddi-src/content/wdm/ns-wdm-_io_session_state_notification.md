@@ -4,7 +4,7 @@ title: "_IO_SESSION_STATE_NOTIFICATION"
 author: windows-driver-content
 description: The IO_SESSION_STATE_NOTIFICATION structure contains information that a kernel-mode driver supplies to the IoRegisterContainerNotification routine when the driver registers to receive notifications of session events.
 old-location: kernel\io_session_state_notification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 19ff9c3a-d416-4468-b5a5-e2e6e896802a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

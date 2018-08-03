@@ -4,7 +4,7 @@ title: PFNKSSETTIMER
 author: windows-driver-content
 description: A streaming minidriver's KStrSetTimer routine is called to generate DPC timer callbacks based on presentation time.
 old-location: stream\kstrsettimer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c9150c02-a53e-4ffc-8cf1-ca668680cdd9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

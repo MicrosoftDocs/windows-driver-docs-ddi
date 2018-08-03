@@ -4,7 +4,7 @@ title: "_NFC_CX_TRANSPORT_TYPE"
 author: windows-driver-content
 description: The NFC_CX_TRANSPORT_TYPE enumeration specifies transport types.
 old-location: nfpdrivers\nfc_cx_transport_type.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: CC8BEC9A-87F6-4C50-A8FA-ED2A2A5D2934
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

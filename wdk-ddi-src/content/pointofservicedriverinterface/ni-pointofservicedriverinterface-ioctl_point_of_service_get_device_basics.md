@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
 author: windows-driver-content
 description: This I/O control function gets the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\ioctl_point_of_service_get_device_basics.htm
-old-project: pos
+tech.root: pos
 ms.assetid: dca09bfc-97cc-43b8-bf57-3d7c2b0321a9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

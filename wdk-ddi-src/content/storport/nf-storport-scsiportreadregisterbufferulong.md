@@ -4,7 +4,7 @@ title: ScsiPortReadRegisterBufferUlong macro
 author: windows-driver-content
 description: The ScsiPortReadRegisterBufferUlong routine transfers a specified number of ULONG values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6b2d1893-8878-4ccd-bc0c-845e1cb8f6bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

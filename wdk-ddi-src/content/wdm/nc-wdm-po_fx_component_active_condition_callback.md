@@ -4,7 +4,7 @@ title: PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK
 author: windows-driver-content
 description: The ComponentActiveConditionCallback callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition.
 old-location: kernel\componentactiveconditioncallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

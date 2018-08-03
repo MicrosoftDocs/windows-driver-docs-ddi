@@ -4,7 +4,7 @@ title: IPrintSchemaAsyncOperation::Cancel
 author: windows-driver-content
 description: Cancels the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_cancel.htm
-old-project: print
+tech.root: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_WDF_INTERRUPT_POLICY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the PnP manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 old-location: wdf\wdf_interrupt_policy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 88f8f10d-bf1e-49bc-99c7-95a5e69c17e1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

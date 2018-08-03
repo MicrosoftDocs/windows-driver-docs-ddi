@@ -4,7 +4,7 @@ title: RtlIsLeftChild macro
 author: windows-driver-content
 description: The RtlIsLeftChild routine determines whether a given splay link is the left child of a node in a splay link tree.
 old-location: ifsk\rtlisleftchild.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6ccdcc68-f03f-4972-91de-c8ab7f4389fb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

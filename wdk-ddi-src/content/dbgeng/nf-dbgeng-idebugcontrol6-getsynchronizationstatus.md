@@ -4,10 +4,10 @@ title: IDebugControl6::GetSynchronizationStatus
 author: windows-driver-content
 description: The GetSynchronizationStatus method returns information about the synchronization status of the debugger engine.
 old-location: debugger\idebugcontrol6_getsynchronizationstatus.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 94DD7FBF-2D4F-4DD9-A49E-A9FA494BF995
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSynchronizationStatus, GetSynchronizationStatus method [Windows Debugging], GetSynchronizationStatus method [Windows Debugging],IDebugControl6 interface, IDebugControl6 interface [Windows Debugging],GetSynchronizationStatus method, IDebugControl6.GetSynchronizationStatus, IDebugControl6::GetSynchronizationStatus, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

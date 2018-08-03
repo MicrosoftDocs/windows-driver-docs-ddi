@@ -4,7 +4,7 @@ title: DOT11EXTIHV_RECEIVE_PACKET
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvreceivepacket.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4a08c6dc-61ac-421f-83b7-73f1f54aea71
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvReceivePacket</i> function to forward a packet, received by the wireless LAN (WLAN) adapter,
   to the IHV Extensions DLL for processing.
 
@@ -79,14 +79,14 @@ DWORD APIENTRY Dot11ExtIhvReceivePacket(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
-     specified through a previous call to the 
+     specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param dwInBufferSize [in]
 
-The length, in bytes, of the received packet referenced by the 
+The length, in bytes, of the received packet referenced by the
      <i>pvInBuffer</i> parameter.
 
 
@@ -101,7 +101,7 @@ A pointer to a buffer, allocated by the operating system, which contains the pac
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -111,7 +111,7 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-The operating system calls the 
+The operating system calls the
     <i>Dot11ExtIhvReceivePacket</i> function when the following occur:
 
 <ul>
@@ -122,18 +122,18 @@ The WLAN adapter receives a packet and the Native 802.11 miniport driver, which 
 </li>
 <li>
 The packet's IEEE EtherType matches an entry in the list of EtherTypes specified by the IHV
-      Extensions DLL through a call to the 
+      Extensions DLL through a call to the
       <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
       Dot11ExtSetEtherTypeHandling</a> function.
 
 </li>
 </ul>
-The buffer pointed to by 
+The buffer pointed to by
     <i>pvPacket</i> should contain the following packet data, specified in network byte order:
 
 <ul>
 <li>
-MAC address of destination (6 bytes), formatted according to the guidelines discussed in 
+MAC address of destination (6 bytes), formatted according to the guidelines discussed in
       <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
       Management</a>
 

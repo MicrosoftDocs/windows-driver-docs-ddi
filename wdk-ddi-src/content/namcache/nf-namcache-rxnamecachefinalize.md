@@ -4,7 +4,7 @@ title: RxNameCacheFinalize function
 author: windows-driver-content
 description: RxNameCacheFinalize releases the storage for all of the NAME_CACHE entries associated with a NAME_CACHE_CONTROL structure.
 old-location: ifsk\rxnamecachefinalize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e40ac123-86a9-4a69-bb13-a118f2fd42f1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: PGET_LINK_POSITION_REGISTER
 author: windows-driver-content
 description: The GetLinkPositionRegister routine retrieves a pointer to a DMA engine's link position register.The function pointer type for a GetLinkPositionRegister routine is defined as follows.
 old-location: audio\getlinkpositionregister.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 8b8c7f61-c22a-421f-999f-291999bb243f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, PGET_LINK_POSITION_REGISTER callback, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -28,7 +28,8 @@ api_location:
 -	sensorscxfuncenum.h
 api_name:
 -	_SENSORSCXFUNCENUM
-product: Windows
+product: 
+-Windows
 targetos: Windows
 ---
 

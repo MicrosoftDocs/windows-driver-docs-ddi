@@ -4,7 +4,7 @@ title: HBA_RSCN_EventInfo
 author: windows-driver-content
 description: The HBA_Link_EventInfo structure contains information about a WMI RSCN event associated with the fibre channel HBA API.
 old-location: storage\hba_rscn_eventinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d726d974-a877-464d-9721-6caf8a8402bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

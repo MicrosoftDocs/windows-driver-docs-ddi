@@ -4,7 +4,7 @@ title: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function initializes a driver's WDF_DMA_SYSTEM_PROFILE_CONFIG structure.
 old-location: wdf\wdf_dma_system_profile_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

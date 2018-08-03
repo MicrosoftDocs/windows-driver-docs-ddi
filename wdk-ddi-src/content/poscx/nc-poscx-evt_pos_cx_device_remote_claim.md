@@ -4,7 +4,7 @@ title: EVT_POS_CX_DEVICE_REMOTE_CLAIM
 author: windows-driver-content
 description: The EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the device is transitioning from unclaimed to claimed and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_claim.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 3D8907A2-E53E-40D9-870A-AF0EB062E81F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

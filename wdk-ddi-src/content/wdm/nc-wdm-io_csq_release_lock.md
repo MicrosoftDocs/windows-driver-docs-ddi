@@ -4,7 +4,7 @@ title: IO_CSQ_RELEASE_LOCK
 author: windows-driver-content
 description: The CsqReleaseLock routine is used by the system to release the lock that was acquired using CsqAcquireLock.
 old-location: kernel\csqreleaselock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

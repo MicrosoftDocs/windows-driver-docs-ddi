@@ -4,7 +4,7 @@ title: OEMStretchBlt function
 author: windows-driver-content
 description: The OEMStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.
 old-location: print\oemstretchblt.htm
-old-project: print
+tech.root: print
 ms.assetid: 5a533a68-6bdb-45dc-b5d3-04fa8d3e7129
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

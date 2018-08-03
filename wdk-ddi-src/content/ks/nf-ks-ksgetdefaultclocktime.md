@@ -4,7 +4,7 @@ title: KsGetDefaultClockTime function
 author: windows-driver-content
 description: The KsGetDefaultClockTime function gets the current time of the clock.The function can be called at DISPATCH_LEVEL.
 old-location: stream\ksgetdefaultclocktime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9689b9f8-e5ae-4689-90b1-6d029408f876
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

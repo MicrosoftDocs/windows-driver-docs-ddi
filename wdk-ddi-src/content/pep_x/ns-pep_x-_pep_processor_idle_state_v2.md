@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_IDLE_STATE_V2"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_processor_idle_state_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DEA8B166-5236-4BE3-B16D-9EE1B34796F8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -151,7 +151,7 @@ Whether thread context is retained in this processor idle state. Set this flag b
 
 ##### CStateType
 
-The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the Advanced Configuration and Control Specification, Revision 5.0 (<a href="http://www.acpi.info">ACPI 5.0 specification</a>).
+The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the [ACPI 5.0 specification](https://www.uefi.org/specifications).
 
 
 
@@ -204,7 +204,7 @@ Whether thread context is retained in this processor idle state. Set this flag b
 
 ##### ( unnamed struct ).CStateType
 
-The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the Advanced Configuration and Control Specification, Revision 5.0 (<a href="http://www.acpi.info">ACPI 5.0 specification</a>).
+The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the [ACPI 5.0 specification](https://www.uefi.org/specifications).
 
 
 

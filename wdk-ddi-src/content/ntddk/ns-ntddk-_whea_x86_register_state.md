@@ -4,7 +4,7 @@ title: "_WHEA_X86_REGISTER_STATE"
 author: windows-driver-content
 description: The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
 old-location: whea\whea_x86_register_state.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 64079b03-9771-4940-a19e-a29389cbf2fe
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

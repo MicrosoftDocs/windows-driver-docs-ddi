@@ -4,7 +4,7 @@ title: "_MS_SMHBA_FC_PHY"
 author: windows-driver-content
 description: The MS_SMHBA_FC_PHY structure is used to report the physical attributes of a fibre channel port.
 old-location: storage\ms_smhba_fc_phy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7fb199b6-dcdb-41fc-b1c4-4eef2177018e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

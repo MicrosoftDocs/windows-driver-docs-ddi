@@ -4,7 +4,7 @@ title: PCAUTOMATION_TABLE
 author: windows-driver-content
 description: The PCAUTOMATION_TABLE structure contains a miniport driver's master table of properties, methods, and events.
 old-location: audio\pcautomation_table.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
 ms.date: 2/27/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef

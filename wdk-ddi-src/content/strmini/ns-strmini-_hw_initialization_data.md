@@ -4,7 +4,7 @@ title: "_HW_INITIALIZATION_DATA"
 author: windows-driver-content
 description: The HW_INITIALIZATION_DATA structure specifies the basic information the class driver needs to begin initializing the minidriver.
 old-location: stream\hw_initialization_data.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5be9ba51-bd6c-4650-9c48-f89267a2ac16
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

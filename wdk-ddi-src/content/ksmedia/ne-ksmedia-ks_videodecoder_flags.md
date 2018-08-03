@@ -4,7 +4,7 @@ title: KS_VIDEODECODER_FLAGS
 author: windows-driver-content
 description: The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.
 old-location: stream\ks_videodecoder_flags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

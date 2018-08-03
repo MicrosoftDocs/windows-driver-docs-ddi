@@ -4,7 +4,7 @@ title: BranchOfficeJobDataPipelineFailed
 author: windows-driver-content
 description: Contains the necessary data for logging a branch office job Pipeline Rendering Failed event on a remote server. This is based on standard job-related data available to the spooler.
 old-location: print\branchofficejobdatapipelinefailed.htm
-old-project: print
+tech.root: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

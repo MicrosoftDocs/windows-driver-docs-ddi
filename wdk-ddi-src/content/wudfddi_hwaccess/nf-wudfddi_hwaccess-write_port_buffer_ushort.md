@@ -4,7 +4,7 @@ title: WRITE_PORT_BUFFER_USHORT function
 author: windows-driver-content
 description: The WRITE_PORT_BUFFER_USHORT function writes a number of USHORT values from a buffer to the specified port address.
 old-location: wdf\write_port_buffer_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 04F51A7D-70D8-4844-973D-70B7A7797221
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

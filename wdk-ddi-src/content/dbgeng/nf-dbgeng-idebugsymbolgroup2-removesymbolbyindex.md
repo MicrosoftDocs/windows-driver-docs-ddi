@@ -4,10 +4,10 @@ title: IDebugSymbolGroup2::RemoveSymbolByIndex
 author: windows-driver-content
 description: The RemoveSymbolByIndex method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbyindex.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 1903d454-02d1-4528-9b8f-3c2eab8c6a6a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ComOther_d532b37e-11c9-4cff-a619-0b9dffef0af1.xml, IDebugSymbolGroup interface [Windows Debugging],RemoveSymbolByIndex method, IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByIndex method, IDebugSymbolGroup2.RemoveSymbolByIndex, IDebugSymbolGroup2::RemoveSymbolByIndex, IDebugSymbolGroup::RemoveSymbolByIndex, RemoveSymbolByIndex, RemoveSymbolByIndex method [Windows Debugging], RemoveSymbolByIndex method [Windows Debugging],IDebugSymbolGroup interface, RemoveSymbolByIndex method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup::RemoveSymbolByIndex, debugger.removesymbolbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

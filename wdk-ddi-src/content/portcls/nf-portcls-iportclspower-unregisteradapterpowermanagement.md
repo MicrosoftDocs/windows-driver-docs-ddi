@@ -4,10 +4,10 @@ title: IPortClsPower::UnregisterAdapterPowerManagement
 author: windows-driver-content
 description: The UnregisterAdapterPowerManagement method unregisters the adapter's power management interface with PortCls.
 old-location: audio\iportclspower_unregisteradapterpowermanagement.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 4c8734b1-d7f5-476b-a85f-1d3f4df888b9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortClsPower interface [Audio Devices],UnregisterAdapterPowerManagement method, IPortClsPower.UnregisterAdapterPowerManagement, IPortClsPower::UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], UnregisterAdapterPowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_unregisteradapterpowermanagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, portcls/IPortClsPower::UnregisterAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices

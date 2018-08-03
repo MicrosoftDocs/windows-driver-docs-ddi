@@ -4,7 +4,7 @@ title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 author: windows-driver-content
 description: The GetInterfaceGuid method retrieves the GUID that identifies a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_getinterfaceguid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

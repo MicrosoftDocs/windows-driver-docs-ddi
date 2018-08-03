@@ -4,7 +4,7 @@ title: IPrintClassObjectFactory
 author: windows-driver-content
 description: TheIPrintClassObjectFactory interface creates print filter-related interfaces.
 old-location: print\iprintclassobjectfactory.htm
-old-project: print
+tech.root: print
 ms.assetid: 09691b81-6488-4972-8cbc-7873e6717287
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlSizeTMult function
 author: windows-driver-content
 description: Multiplies one value of type SIZE_T by another.
 old-location: kernel\rtlsizetmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: FltGetFilterInformation function
 author: windows-driver-content
 description: The FltGetFilterInformation routine provides information about a minifilter driver.
 old-location: ifsk\fltgetfilterinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

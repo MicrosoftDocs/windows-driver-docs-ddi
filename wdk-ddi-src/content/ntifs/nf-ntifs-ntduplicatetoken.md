@@ -4,7 +4,7 @@ title: NtDuplicateToken function
 author: windows-driver-content
 description: The ZwDuplicateToken function creates a handle to a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
 old-location: kernel\zwduplicatetoken.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

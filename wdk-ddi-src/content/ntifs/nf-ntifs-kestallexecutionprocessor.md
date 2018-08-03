@@ -4,7 +4,7 @@ title: KeStallExecutionProcessor function
 author: windows-driver-content
 description: The KeStallExecutionProcessor routine stalls the caller on the current processor for a specified time interval.
 old-location: kernel\kestallexecutionprocessor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

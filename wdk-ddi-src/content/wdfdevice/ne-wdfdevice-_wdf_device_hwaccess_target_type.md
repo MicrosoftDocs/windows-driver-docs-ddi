@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_HWACCESS_TARGET_TYPE"
 author: windows-driver-content
 description: The WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use.
 old-location: wdf\wdf_device_hwaccess_target_size.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C675431E-6213-4FA8-86DB-65FE6EE90853
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

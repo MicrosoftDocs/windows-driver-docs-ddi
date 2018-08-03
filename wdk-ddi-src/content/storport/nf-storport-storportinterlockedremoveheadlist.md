@@ -4,7 +4,7 @@ title: StorPortInterlockedRemoveHeadList function
 author: windows-driver-content
 description: The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedremoveheadlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

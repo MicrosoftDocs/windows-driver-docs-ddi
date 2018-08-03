@@ -4,10 +4,10 @@ title: NdisMQueueDpcEx function
 author: windows-driver-content
 description: NDIS miniport drivers call the NdisMQueueDpcEx function to schedule DPC calls on CPUs.
 old-location: netvista\ndismqueuedpcex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 22074e51-9032-4ef9-94b9-217daefcab03
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpcEx, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, netvista.ndismqueuedpcex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,8 +109,7 @@ NDIS successfully scheduled a DPC for each target processor that is set in the b
       bit 0, NDIS scheduled a DPC for CPU 0. If NDIS sets bit 1, NDIS scheduled a DPC for CPU 1, and so
       on.
 
-If the driver requested a DPC for a CPU, and NDIS indicates that it did not schedule that DPC, the
-      DPC was not scheduled because a DPC was already scheduled for that CPU.
+If the driver requested a DPC for a CPU, and NDIS indicates that it did not schedule that DPC, then the DPC was not scheduled because the DPC that maps to this interrupt/processor pair was already scheduled for that CPU.
 
 
 

@@ -4,10 +4,10 @@ title: PROTOCOL_CM_DROP_PARTY
 author: windows-driver-content
 description: The ProtocolCmDropParty function is required.
 old-location: netvista\protocolcmdropparty.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: be0fce3e-7308-42fa-b63a-4d5cfec7ea6c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_DROP_PARTY, PROTOCOL_CM_DROP_PARTY callback, ProtocolCmDropParty, ProtocolCmDropParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_cda3b3ab-baf4-43a7-b560-7a717687508e.xml, ndis/ProtocolCmDropParty, netvista.protocolcmdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_FLT_CONTEXT_REGISTRATION"
 author: windows-driver-content
 description: The FLT_CONTEXT_REGISTRATION structure is used to register context types.
 old-location: ifsk\flt_context_registration.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6316acfa-c19c-4705-becb-b89c3feed6a3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

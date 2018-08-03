@@ -4,10 +4,10 @@ title: UcxEndpointPurgeComplete function
 author: windows-driver-content
 description: Notifies UCX that a purge operation has been completed on the specified endpoint object.
 old-location: buses\_ucxendpointpurgecomplete.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_WDF_IO_QUEUE_STATE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_STATE enumeration contains values that identify the state of an I/O queue.
 old-location: wdf\wdf_io_queue_state_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c91b9ea0-8c42-4199-b161-2b43ba4a1833
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

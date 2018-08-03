@@ -4,10 +4,10 @@ title: "_URB_CONTROL_GET_INTERFACE_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_GET_INTERFACE_REQUEST structure is used by USB client drivers to retrieve the current alternate interface setting for an interface in the current configuration.
 old-location: buses\_urb_control_get_interface_request.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 64f843ba-8462-48d4-ba3a-a028bb921880
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "_URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], buses._urb_control_get_interface_request, usb/_URB_CONTROL_GET_INTERFACE_REQUEST, usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

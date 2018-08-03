@@ -4,7 +4,7 @@ title: LineDisplayCursorTypeFlags
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursortypeflags.htm
-old-project: pos
+tech.root: pos
 ms.assetid: DD09C18C-C2FA-43DD-9E5F-ACA36132DAAD
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

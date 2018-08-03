@@ -4,10 +4,10 @@ title: DXGKDDI_CANCELCOMMAND
 author: windows-driver-content
 description: Cleans up internal resources associated with a direct memory access (DMA) packet that was in the GPU scheduler's software queue but never reached the hardware queue because the device went into an error state.
 old-location: display\dxgkddicancelcommand.htm
-old-project: display
+tech.root: display
 ms.assetid: c290c313-14ee-4554-9bb1-8adec1892426
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_CANCELCOMMAND, DXGKDDI_CANCELCOMMAND callback, DxgkDdiCancelCommand, DxgkDdiCancelCommand callback function [Display Devices], d3dkmddi/DxgkDdiCancelCommand, display.dxgkddicancelcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_KSM_BDA_PIN_PAIR"
 author: windows-driver-content
 description: The KSM_BDA_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins.
 old-location: stream\ksm_bda_pin_pair.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 310a3faf-de71-4965-9511-cb8feca7087c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

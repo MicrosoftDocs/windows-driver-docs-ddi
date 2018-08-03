@@ -4,7 +4,7 @@ title: AUDIO_CURVE_TYPE
 author: windows-driver-content
 description: The AUDIO_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 old-location: audio\audio_curve_type.htm
-old-project: audio
+tech.root: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.author: windowsdriverdev
 ms.date: 5/21/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ksmedia.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: AUDIO_CURVE_TYPE
 ## -description
 
 
-The <b>AUDIO_CURVE_TYPE</b> enumeration defines constants that specify a curve algorithm to be applied to set a volume level. 
+The <b>AUDIO_CURVE_TYPE</b> enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ The following snippet of pseudocode shows the logic for the algorithm that is ap
 float fFrameCount = nFrames - 1.0f;
 for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
     float curve = powf(nFrame / fFrameCount, 1.75f);
-    for (UINT32 nChannel = 0; nChannel &lt; pWfx-&gt;nChannels; nChannel++) {            
+    for (UINT32 nChannel = 0; nChannel &lt; pWfx-&gt;nChannels; nChannel++) {
             pFloat[nFrame * pWfx-&gt;nChannels + nChannel] *= curve;
     }
 }
@@ -97,7 +97,7 @@ for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
 float fFrameCount = nFrames - 1.0f;
 for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
     float curve = powf(1.0f - (nFrame / fFrameCount), 1.75f);
-    for (UINT32 nChannel = 0; nChannel &lt; pWfx-&gt;nChannels; nChannel++) {            
+    for (UINT32 nChannel = 0; nChannel &lt; pWfx-&gt;nChannels; nChannel++) {
             pFloat[nFrame * pWfx-&gt;nChannels + nChannel] *= curve;
     }
 }

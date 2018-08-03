@@ -4,7 +4,7 @@ title: "_PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE"
 author: windows-driver-content
 description: The PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure contains the results of an ACPI control method that was asynchronously evaluated by the platform extension plug-in (PEP).
 old-location: kernel\pep_work_acpi_evaluate_control_method_complete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76D45B13-03C2-4B57-98B5-9E527ADCC72F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

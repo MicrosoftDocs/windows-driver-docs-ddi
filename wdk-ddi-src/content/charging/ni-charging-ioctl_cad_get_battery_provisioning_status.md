@@ -4,7 +4,7 @@ title: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 4E92A629-C080-4C32-8768-D0615F35B161
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

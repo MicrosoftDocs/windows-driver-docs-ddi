@@ -4,7 +4,7 @@ title: FRAMING_CACHE_OPS
 author: windows-driver-content
 description: "."
 old-location: stream\framing_cache_ops.htm
-old-project: stream
+tech.root: stream
 ms.assetid: EA496897-7D5A-43A8-A61E-34E986288E8B
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

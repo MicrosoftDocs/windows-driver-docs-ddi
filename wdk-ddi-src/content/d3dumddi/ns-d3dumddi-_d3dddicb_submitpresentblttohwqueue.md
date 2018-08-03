@@ -31,7 +31,8 @@ apilocation:
 -	d3dumddi.h
 apiname:
 -	_D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

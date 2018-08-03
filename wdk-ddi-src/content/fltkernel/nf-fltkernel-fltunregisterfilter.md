@@ -4,7 +4,7 @@ title: FltUnregisterFilter function
 author: windows-driver-content
 description: A registered minifilter driver calls FltUnregisterFilter to unregister itself so that the Filter Manager no longer calls it to process I/O operations.
 old-location: ifsk\fltunregisterfilter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5369566b-fa64-4aec-ad3e-1a129bcefdd6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

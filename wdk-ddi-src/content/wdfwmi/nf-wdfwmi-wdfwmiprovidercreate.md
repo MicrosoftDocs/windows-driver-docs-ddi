@@ -4,7 +4,7 @@ title: WdfWmiProviderCreate function
 author: windows-driver-content
 description: The WdfWmiProviderCreate method creates a WMI provider object that represents a WMI data block.
 old-location: wdf\wdfwmiprovidercreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 07aed86f-870e-431b-b1bb-403395c35946
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

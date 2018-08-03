@@ -4,7 +4,7 @@ title: FltCreateCommunicationPort function
 author: windows-driver-content
 description: FltCreateCommunicationPort creates a communication server port on which a minifilter driver can receive connection requests from user-mode applications.
 old-location: ifsk\fltcreatecommunicationport.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9987ed6b-7792-4035-9640-9ee9595e854a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

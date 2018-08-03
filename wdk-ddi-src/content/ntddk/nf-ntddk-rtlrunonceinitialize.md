@@ -4,7 +4,7 @@ title: RtlRunOnceInitialize function
 author: windows-driver-content
 description: The RtlRunOnceInitialize routine initializes a RTL_RUN_ONCE structure.
 old-location: kernel\rtlrunonceinitialize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4d1a65af-a475-4360-9db3-d5b9e302697d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: PsRemoveLoadImageNotifyRoutine function
 author: windows-driver-content
 description: The PsRemoveLoadImageNotifyRoutine routine removes a callback routine that was registered by the PsSetLoadImageNotifyRoutine routine.
 old-location: kernel\psremoveloadimagenotifyroutine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5491f9fb-8f87-41ed-9629-18318554ad90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

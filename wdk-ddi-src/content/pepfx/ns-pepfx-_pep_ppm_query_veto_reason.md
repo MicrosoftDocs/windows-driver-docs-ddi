@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_VETO_REASON"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_VETO_REASON structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason.
 old-location: kernel\pep_ppm_query_veto_reason.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21716141-487B-4950-A55D-C9EE3B8C8612
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

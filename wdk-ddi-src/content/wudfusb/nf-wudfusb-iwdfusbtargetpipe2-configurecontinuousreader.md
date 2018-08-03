@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe2::ConfigureContinuousReader
 author: windows-driver-content
 description: The ConfigureContinuousReader method configures the framework to continuously read from a USB pipe.
 old-location: wdf\iwdfusbtargetpipe2_configurecontinuousreader.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

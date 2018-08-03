@@ -4,7 +4,7 @@ title: "_SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE"
 author: windows-driver-content
 description: The Download Microcode Status diagnostic page includes information about the status of one or more download microcode operations.
 old-location: storage\ses_download_microcode_status_diagnostic_page.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4572040b-c234-4281-b9d7-14d7f2bb7506
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

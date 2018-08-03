@@ -4,7 +4,7 @@ title: HidP_GetData function
 author: windows-driver-content
 description: The HidP_GetData routine returns, for a specified report, an array of HIDP_DATA structures that identify the data indices of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values.
 old-location: hid\hidp_getdata.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

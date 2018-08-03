@@ -4,7 +4,7 @@ title: KeFlushQueuedDpcs function
 author: windows-driver-content
 description: The KeFlushQueuedDpcs routine returns after all queued DPCs on all processors have executed.
 old-location: kernel\keflushqueueddpcs.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e5237e44-fff1-4928-9029-f1d1691ef2e3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeReadSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetPipeReadSynchronously method builds a read request and sends it synchronously to a specified USB input pipe.
 old-location: wdf\wdfusbtargetpipereadsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e09f68bd-cd43-42ce-988e-505415d62891
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

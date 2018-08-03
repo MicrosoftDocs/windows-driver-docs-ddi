@@ -4,7 +4,7 @@ title: KSPIN_DATAFLOW
 author: windows-driver-content
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.
 old-location: stream\kspin_dataflow.htm
-old-project: stream
+tech.root: stream
 ms.assetid: feab830d-8079-4051-8974-52905f845765
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

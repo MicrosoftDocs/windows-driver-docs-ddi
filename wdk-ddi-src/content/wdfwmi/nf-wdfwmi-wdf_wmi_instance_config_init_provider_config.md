@@ -4,7 +4,7 @@ title: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function
 author: windows-driver-content
 description: The WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function initializes a WDF_WMI_INSTANCE_CONFIG structure and stores a pointer to a specified WDF_WMI_PROVIDER_CONFIG structure.
 old-location: wdf\wdf_wmi_instance_config_init_provider_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e65a7fa3-1c9c-447a-b99a-a63570c9e233
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

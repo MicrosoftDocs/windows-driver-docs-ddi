@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code is used to request alert information from GNSS_BREADCRUMBING_ALERT_DATA when the breadcrumbing buffer has reached a level at which OS read operations should be performed.
 old-location: gnss\ioctl_gnss_listen_breadcrumbing_alert_.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 14D396B1-5F55-4902-8986-BD4CC5B2ACC4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: KS_AnalogVideoStandard
 author: windows-driver-content
 description: The KS_AnalogVideoStandard enumeration defines various analog video standards that are used worldwide.
 old-location: stream\ks_analogvideostandard.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 33efef2f-0734-416e-9f89-394a3dd344b8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

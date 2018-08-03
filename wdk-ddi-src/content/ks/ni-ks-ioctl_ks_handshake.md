@@ -4,7 +4,7 @@ title: IOCTL_KS_HANDSHAKE
 author: windows-driver-content
 description: A kernel-mode client can use IOCTL_KS_HANDSHAKE to negotiate an interface between unconnected AVStream pins.
 old-location: stream\ioctl_ks_handshake.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 63c50af0-365b-4074-a703-9e43b1514a55
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: TapeClassLogicalBlockToPhysicalBlock function
 author: windows-driver-content
 description: The TapeClassLogicalBlockToPhysicalBlock routine translates a pseudological block address to a physical block address. This routine is for SCSI-1 devices.
 old-location: storage\tapeclasslogicalblocktophysicalblock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4ad11a15-ba72-4921-a00a-6d3bfb443b51
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_PARK_PREFERENCE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_PARK_PREFERENCE structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption.
 old-location: kernel\pep_processor_park_preference.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AADA3F1E-DEE8-42E3-B0B8-9EA276F46F86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

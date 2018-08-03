@@ -4,7 +4,7 @@ title: WdfInterruptEnable function
 author: windows-driver-content
 description: The WdfInterruptEnable method enables a specified device interrupt by calling the driver's EvtInterruptEnable callback function.
 old-location: wdf\wdfinterruptenable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e2ffab7f-b6bf-4707-9a3d-9619330b2af1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

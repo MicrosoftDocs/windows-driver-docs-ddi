@@ -4,7 +4,7 @@ title: "_PEP_ACPI_REGISTER_DEVICE"
 author: windows-driver-content
 description: The PEP_ACPI_REGISTER_DEVICE structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services.
 old-location: kernel\pep_acpi_register_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 96FB6959-1583-42E0-9851-A09AE0CB73DB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

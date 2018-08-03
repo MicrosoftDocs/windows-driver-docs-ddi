@@ -4,7 +4,7 @@ title: "_DXGKARG_POSTMULTIPLANEOVERLAYPRESENT"
 author: windows-driver-content
 description: Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 old-location: display\dxgkarg_postmultiplaneoverlaypresent.htm
-old-project: display
+tech.root: display
 ms.assetid: E257606A-66EE-4F53-B661-F5FFC63E1F54
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -70,17 +70,10 @@ Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 
 ### -field LayerIndex
 
-[in] The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom. 
+[in] The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
 
 
 ### -field PresentID
 
- 
-
-
-
-
-#### - PresentId
-
-      [in] 64 bit integer value representing each flip request for a particular MPO plane.
+[in] 64 bit integer value representing each flip request for a particular MPO plane.
 

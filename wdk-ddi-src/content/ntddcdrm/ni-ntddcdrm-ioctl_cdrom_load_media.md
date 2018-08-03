@@ -4,7 +4,7 @@ title: IOCTL_CDROM_LOAD_MEDIA
 author: windows-driver-content
 description: Draws a protruding CDROM tray back into the drive.
 old-location: storage\ioctl_cdrom_load_media.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2add532c-fd98-41f9-93a4-d7d238bc88d0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

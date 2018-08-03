@@ -4,7 +4,7 @@ title: CcGetFlushedValidData function
 author: windows-driver-content
 description: The CcGetFlushedValidData routine determines how much of a cached file has been flushed to disk.
 old-location: ifsk\ccgetflushedvaliddata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_SERIAL_TIMEOUTS"
 author: windows-driver-content
 description: The SERIAL_TIMEOUTS structure specifies the time-out parameters for read and write operations by the serial port.
 old-location: serports\serial_timeouts.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

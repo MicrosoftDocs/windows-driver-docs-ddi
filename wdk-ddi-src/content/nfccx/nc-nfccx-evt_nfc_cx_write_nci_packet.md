@@ -4,7 +4,7 @@ title: EVT_NFC_CX_WRITE_NCI_PACKET
 author: windows-driver-content
 description: Called by the NFC CX to send a write packet to the client driver.
 old-location: nfpdrivers\evtnfccxwritencipacket.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

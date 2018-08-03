@@ -4,7 +4,7 @@ title: OEMPrinterEvent function
 author: windows-driver-content
 description: OEMPrinterEvent function
 old-location: print\oemprinterevent.htm
-old-project: print
+tech.root: print
 ms.assetid: bbd37342-f0d0-43e0-bc27-1b47c426da6e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

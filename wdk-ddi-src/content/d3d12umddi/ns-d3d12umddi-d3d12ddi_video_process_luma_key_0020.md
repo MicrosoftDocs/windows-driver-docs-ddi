@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020
 author: windows-driver-content
 description: Specifies values for luma keying.
 old-location: display\d3d12ddi_video_process_luma_key.htm
-old-project: display
+tech.root: display
 ms.assetid: 79D8C170-A562-45F4-834B-58D8F7490C36
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

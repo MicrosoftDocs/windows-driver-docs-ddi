@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetFileObject
 author: windows-driver-content
 description: The GetFileObject method retrieves a pointer to the IWDFFile interface that is associated with an I/O request.
 old-location: wdf\iwdfiorequest_getfileobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

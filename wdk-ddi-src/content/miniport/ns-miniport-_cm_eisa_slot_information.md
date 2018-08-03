@@ -4,7 +4,7 @@ title: "_CM_EISA_SLOT_INFORMATION"
 author: windows-driver-content
 description: The CM_EISA_SLOT_INFORMATION structure defines EISA configuration header information returned by HalGetBusData for the input BusDataType = EisaConfiguration, or by HalGetBusDataByOffset for the inputs BusDataType = EisaConfiguration and Offset = 0, assuming the caller-allocated Buffer is of sufficient Length.
 old-location: kernel\cm_eisa_slot_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 443b6ed8-1d44-466f-93b0-bb8cd42aefaa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

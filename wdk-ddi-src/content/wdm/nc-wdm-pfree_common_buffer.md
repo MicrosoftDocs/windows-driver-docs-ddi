@@ -4,7 +4,7 @@ title: PFREE_COMMON_BUFFER
 author: windows-driver-content
 description: The FreeCommonBuffer routine frees a common buffer allocated by AllocateCommonBuffer, along with all resources the buffer uses.
 old-location: kernel\freecommonbuffer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9e026bde-657a-42ea-907c-71cc217dbd8d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RtlSSIZETMult function
 author: windows-driver-content
 description: Multiplies one value of type SSIZE_T by another.
 old-location: kernel\rtlssizetmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 43FFE47F-C8A3-49B4-B61A-3EAF3841037D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

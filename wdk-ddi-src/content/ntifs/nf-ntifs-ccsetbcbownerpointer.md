@@ -4,7 +4,7 @@ title: CcSetBcbOwnerPointer function
 author: windows-driver-content
 description: The CcSetBcbOwnerPointer routine sets the owner thread pointer for a pinned buffer control block (BCB).
 old-location: ifsk\ccsetbcbownerpointer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fa99ebc4-72d3-42ef-9dda-dcfdd438f66f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

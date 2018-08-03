@@ -4,7 +4,7 @@ title: "_GetFcpPersistentBinding_OUT"
 author: windows-driver-content
 description: The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the GetFcpPersistentBinding WMI method to the WMI client.
 old-location: storage\getfcppersistentbinding_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1bb7c529-df26-4173-a098-6a19adf6b569
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_CIP_CANCEL_FRAME"
 author: windows-driver-content
 description: The request cancels an attached frame buffer. A frame can be canceled while the stream is running.
 old-location: ieee\cip_cancel_frame.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 952625D0-BA82-40C1-8EBF-8CD54C0E4C40
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: PsGetProcessExitTime function
 author: windows-driver-content
 description: The PsGetProcessExitTime routine returns the exit time for the current process.
 old-location: ifsk\psgetprocessexittime.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
