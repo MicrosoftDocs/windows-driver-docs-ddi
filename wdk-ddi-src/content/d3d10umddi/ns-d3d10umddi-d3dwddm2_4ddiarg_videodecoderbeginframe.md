@@ -31,7 +31,8 @@ apilocation:
 -	d3d10umddi.h
 apiname:
 -	D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

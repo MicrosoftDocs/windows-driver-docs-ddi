@@ -34,7 +34,8 @@ apilocation:
 -	d3dumddi.h
 apiname:
 -	PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

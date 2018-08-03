@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGK_MODE_BEHAVIOR_FLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

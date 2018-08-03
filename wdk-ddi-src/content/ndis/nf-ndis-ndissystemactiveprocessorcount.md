@@ -64,7 +64,7 @@ The
 ### -param ActiveProcessors
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed variable that receives a bitmap
+     [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that receives a bitmap
      that represents the set of currently active processors. In a hot-add environment, this bitmap can change
      during runtime.
 
@@ -95,7 +95,7 @@ An NDIS driver might call the
     retrieve the number of currently active processors,</div>
 <div> </div>
 <div class="alert"><b>Note</b>  <b>NdisSystemActiveProcessorCount</b> might not map processors to the bits in the returned 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value consecutively. and 
+    [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value consecutively. and 
     <b>NdisSystemActiveProcessorCount</b> might not return the same bitmap every time that it is
     called.</div>
 <div> </div>
@@ -118,7 +118,7 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

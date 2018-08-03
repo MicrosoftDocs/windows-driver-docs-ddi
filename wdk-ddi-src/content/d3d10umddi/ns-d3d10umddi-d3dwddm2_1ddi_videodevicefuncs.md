@@ -32,7 +32,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3DWDDM2_1DDI_VIDEODEVICEFUNCS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

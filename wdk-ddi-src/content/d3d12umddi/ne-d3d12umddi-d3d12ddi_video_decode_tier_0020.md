@@ -67,7 +67,7 @@ The decode profile is not supported.
 
 Video decode tier 1. In video decode tier 1, hardware requires decode output textures and reference textures for decoding a stream to be physically contiguous when video operations reference them.
 
-The reference resources are allocated by the application as a D3D12 texture array. The driver does not receive explicit hints that the allocation targets video scenarios and may initially allocate non-physically contiguous memory. Drivers are expected to use a new [Update Allocation Properties](https://docs.microsoft.com/en-us/windows-hardware/test/hlk/testref/51f5ec4f-bfcb-41c2-bb01-fef1403c93e4) feature provided by the memory manager, to schedule a conversion to physically contiguous upon submission of the video work that actually requires it to be physically contiguous.
+The reference resources are allocated by the application as a D3D12 texture array. The driver does not receive explicit hints that the allocation targets video scenarios and may initially allocate non-physically contiguous memory. Drivers are expected to use a new [Update Allocation Properties](https://docs.microsoft.com/windows-hardware/test/hlk/testref/51f5ec4f-bfcb-41c2-bb01-fef1403c93e4) feature provided by the memory manager, to schedule a conversion to physically contiguous upon submission of the video work that actually requires it to be physically contiguous.
 
 Hardware characteristics that place hardware in Tier 1:
 

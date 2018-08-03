@@ -1,14 +1,14 @@
 {
   "tech": "sensors",
   "headers": [
-    "gnssdriver.h",
+    "math3dhelper.h",
     "sensorsclassextension.h",
     "sensorscx.h",
     "sensorscxfuncenum.h",
     "sensorsdef.h",
     "sensorsdriversutils.h",
-    "sensorsv2.h",
-    "wpsensors.h"
+    "sensorsstructures.h",
+    "sensorsutils.h"
   ],
   "displayName": "Sensors"
 }

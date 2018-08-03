@@ -34,7 +34,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	PFND3DKMT_DESTROYHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

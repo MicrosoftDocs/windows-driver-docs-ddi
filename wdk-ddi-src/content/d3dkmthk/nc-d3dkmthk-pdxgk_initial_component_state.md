@@ -34,7 +34,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	PDXGK_INITIAL_COMPONENT_STATE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -528,7 +528,7 @@ Supported beginning with Windows 8.
 
 [in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
 
-Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
+Follow procedures in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
 
 
 ### -field InitContextResource.Destination.GpuVirtualAddress

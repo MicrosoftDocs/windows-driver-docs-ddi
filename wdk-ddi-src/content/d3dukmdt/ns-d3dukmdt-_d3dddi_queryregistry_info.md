@@ -31,7 +31,8 @@ apilocation:
 -	d3dukmdt.h
 apiname:
 -	_D3DDDI_QUERYREGISTRY_INFO
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

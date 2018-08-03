@@ -28,7 +28,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGK_MEMORY_CACHING_TYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

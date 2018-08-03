@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

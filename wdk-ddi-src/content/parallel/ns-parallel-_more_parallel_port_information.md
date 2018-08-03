@@ -95,7 +95,7 @@ Specifies the interrupt vector for the parallel port.
 
 ### -field InterruptAffinity
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> interrupt affinity value.
+Specifies a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) interrupt affinity value.
 
 
 ### -field InterruptMode

@@ -34,7 +34,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	DXGK_BRIGHTNESS_GET_CAPS_3
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

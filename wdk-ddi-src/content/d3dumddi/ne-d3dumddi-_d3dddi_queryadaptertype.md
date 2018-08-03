@@ -28,7 +28,8 @@ apilocation:
 -	d3dumddi.h
 apiname:
 -	_D3DDDI_QUERYADAPTERTYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

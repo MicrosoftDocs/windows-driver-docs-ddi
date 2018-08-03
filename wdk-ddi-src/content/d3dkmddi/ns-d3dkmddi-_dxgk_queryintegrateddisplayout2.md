@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGK_QUERYINTEGRATEDDISPLAYOUT2
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

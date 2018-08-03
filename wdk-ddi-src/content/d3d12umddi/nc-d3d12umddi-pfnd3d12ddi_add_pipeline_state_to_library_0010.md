@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

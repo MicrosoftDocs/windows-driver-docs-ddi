@@ -34,7 +34,8 @@ apilocation:
 -	dxgiddi.h
 apiname:
 -	PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

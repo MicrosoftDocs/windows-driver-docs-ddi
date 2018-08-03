@@ -34,7 +34,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

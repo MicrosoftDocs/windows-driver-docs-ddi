@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGK_FRAMEBUFFERSAVEAREA
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
