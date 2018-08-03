@@ -4,7 +4,7 @@ title: IWDTFTargets2::get_Item
 author: windows-driver-content
 description: Gets an individual item in the collection.
 old-location: dtf\iwdtftargets2_item.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 886c71d2-2ee7-4ee9-aa40-68add721b1a9
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

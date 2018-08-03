@@ -4,7 +4,7 @@ title: "_FILE_POSITION_INFORMATION"
 author: windows-driver-content
 description: The FILE_POSITION_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_position_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

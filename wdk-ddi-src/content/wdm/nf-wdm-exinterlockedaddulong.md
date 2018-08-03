@@ -4,7 +4,7 @@ title: ExInterlockedAddUlong function
 author: windows-driver-content
 description: The ExInterlockedAddUlong routine adds an unsigned long value to a given unsigned integer as an atomic operation.
 old-location: kernel\exinterlockedaddulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

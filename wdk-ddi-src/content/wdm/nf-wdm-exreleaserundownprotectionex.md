@@ -4,7 +4,7 @@ title: ExReleaseRundownProtectionEx function
 author: windows-driver-content
 description: The ExReleaseRundownProtectionEx routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtectionEx routine.
 old-location: kernel\exreleaserundownprotectionex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9CF77F14-93E5-4742-A01C-770BC814507C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

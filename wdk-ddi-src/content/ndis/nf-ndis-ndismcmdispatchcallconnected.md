@@ -4,10 +4,10 @@ title: NdisMCmDispatchCallConnected macro
 author: windows-driver-content
 description: NdisMCmDispatchCallConnected notifies NDIS and the client that data transfers can begin on a VC that the MCM driver created for an incoming call initiated on a remote node.
 old-location: netvista\ndismcmdispatchcallconnected.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b47976ad-fdde-48cb-bb30-4eaf25489143
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, ndis/NdisMCmDispatchCallConnected, netvista.ndismcmdispatchcallconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

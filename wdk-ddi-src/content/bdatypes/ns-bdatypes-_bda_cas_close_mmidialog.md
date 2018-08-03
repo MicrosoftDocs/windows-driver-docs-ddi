@@ -4,7 +4,7 @@ title: "_BDA_CAS_CLOSE_MMIDIALOG"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_cas_close_mmidialog.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 430580CF-F2FB-4684-B681-361E74D8EABD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

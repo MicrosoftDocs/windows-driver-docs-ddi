@@ -4,7 +4,7 @@ title: IoCheckLinkShareAccess function
 author: windows-driver-content
 description: The IoCheckLinkShareAccess routine is called by file system drivers (FSDs) or other highest-level drivers to check whether link shared access to a file object is permitted.
 old-location: kernel\iochecklinkshareaccess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1C34237E-D4AF-4F12-9FF2-9382BADCC9D3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

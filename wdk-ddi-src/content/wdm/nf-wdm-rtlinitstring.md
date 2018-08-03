@@ -4,7 +4,7 @@ title: RtlInitString function
 author: windows-driver-content
 description: The RtlInitString routine initializes a counted string of 8-bit characters.
 old-location: kernel\rtlinitstring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 954498b6-f611-4c88-99e1-a1812d512866
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

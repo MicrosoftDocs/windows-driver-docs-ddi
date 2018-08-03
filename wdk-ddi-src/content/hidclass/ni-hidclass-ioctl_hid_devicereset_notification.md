@@ -4,7 +4,7 @@ title: IOCTL_HID_DEVICERESET_NOTIFICATION
 author: windows-driver-content
 description: The IOCTL_HID_DEVICERESET_NOTIFICATION request is sent by the HID client driver to HID class driver to wait for a device-initiated reset event.
 old-location: hid\ioctl_hid_devicereset_notification.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 3A9047BE-C974-45E1-89C7-BF0A5F58DD8B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

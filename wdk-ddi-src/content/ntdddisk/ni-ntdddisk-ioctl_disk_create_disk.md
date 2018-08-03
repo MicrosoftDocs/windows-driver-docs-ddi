@@ -4,7 +4,7 @@ title: IOCTL_DISK_CREATE_DISK
 author: windows-driver-content
 description: Creates an empty partition for the device object.
 old-location: storage\ioctl_disk_create_disk.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9ec6835c-43b8-4878-9ddf-1ca7c24435c2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

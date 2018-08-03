@@ -4,7 +4,7 @@ title: IOCTL_AACS_READ_VOLUME_ID
 author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS)-specific volume identifier.
 old-location: storage\ioctl_aacs_read_volume_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8772a83a-06e3-48f8-9d41-47332122ec8b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

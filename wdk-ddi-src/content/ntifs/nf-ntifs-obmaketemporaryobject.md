@@ -4,7 +4,7 @@ title: ObMakeTemporaryObject function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\obmaketemporaryobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e5e83b2d-e1e4-485e-80bc-ed22567e9af1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

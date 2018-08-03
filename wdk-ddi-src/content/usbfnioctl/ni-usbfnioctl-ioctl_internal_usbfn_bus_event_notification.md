@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 author: windows-driver-content
 description: The USB class driver sends this request to prepare for notifications received from the USB function class extension (UFX) in response to an event on the bus, such as a change in the port type or a receipt of a non-standard setup packet.
 old-location: buses\ioctl_internal_usbfn_bus_event_notification.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 737EDB43-FAFF-4EFD-A7A1-206D646F23E1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

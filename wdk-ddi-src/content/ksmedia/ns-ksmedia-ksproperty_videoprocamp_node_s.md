@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOPROCAMP_NODE_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
 old-location: stream\ksproperty_videoprocamp_node_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7350ffec-2993-4f05-b031-3d633a6f17ad
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

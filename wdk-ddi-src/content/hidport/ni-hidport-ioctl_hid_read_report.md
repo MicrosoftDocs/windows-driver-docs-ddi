@@ -4,7 +4,7 @@ title: IOCTL_HID_READ_REPORT
 author: windows-driver-content
 description: The IOCTL_HID_READ_REPORT request transfers an input report from a HIDClass device into the HID class driver's buffer.
 old-location: hid\ioctl_hid_read_report.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 83a7cf49-6879-4e91-b398-d97d4b69e5b1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: VslDeleteSecureSection function
 author: windows-driver-content
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\vsldeletesecuresection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b81602e1-aca8-466d-90ae-13a7e073aff1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -32,7 +32,7 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
 -
 api_name:
@@ -51,7 +51,7 @@ req.typenames:
 
 
 			
-            This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
+This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ req.typenames:
 
 ### -param GlobalHandle
 
-TBD
+
 
 
 ## -returns
@@ -69,7 +69,7 @@ TBD
 
 
 
-}
+
                     
 
 

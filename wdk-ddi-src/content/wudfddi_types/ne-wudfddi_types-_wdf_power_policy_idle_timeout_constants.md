@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
 author: windows-driver-content
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_TRANSACTION_ENLISTMENT_PAIR"
 author: windows-driver-content
 description: The TRANSACTION_ENLISTMENT_PAIR structure contains information about an enlistment that is associated with a transaction object.
 old-location: kernel\transaction_enlistment_pair.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f8d49d61-f15e-4972-bcd2-d20f1be5786c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

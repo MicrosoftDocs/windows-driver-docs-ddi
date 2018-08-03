@@ -4,7 +4,7 @@ title: KSHANDSHAKE
 author: windows-driver-content
 description: The KSHANDSHAKE structure is used to pass information back and forth while pins are handshaking in an attempt to negotiate a private interface.
 old-location: stream\kshandshake.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

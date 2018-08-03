@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_HUB_CAPABILITIES_EX
 author: windows-driver-content
 description: The IOCTL_USB_GET_HUB_CAPABILITIES_EX I/O control request retrieves the capabilities of a USB hub.IOCTL_USB_GET_HUB_CAPABILITIES_EX is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 old-location: buses\ioctl_usb_get_hub_capabilities_ex.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 49c25f30-8eff-4894-8a82-a90c5a7d9aa4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES_EX, IOCTL_USB_GET_HUB_CAPABILITIES_EX control, IOCTL_USB_GET_HUB_CAPABILITIES_EX control code [Buses], buses.ioctl_usb_get_hub_capabilities_ex, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES_EX, usbirp_bed6a9f5-00ee-4f0b-9906-cd27d85a74c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPartDiscardControl::GetDiscardProperties
 author: windows-driver-content
 description: The GetDiscardProperties method gets the properties of the discard control.
 old-location: print\ipartdiscardcontrol_getdiscardproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

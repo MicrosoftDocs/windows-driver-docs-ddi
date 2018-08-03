@@ -4,7 +4,7 @@ title: "_D3COLD_SUPPORT_INTERFACE"
 author: windows-driver-content
 description: The D3COLD_SUPPORT_INTERFACE interface structure contains pointers to the routines in the GUID_D3COLD_SUPPORT_INTERFACE driver interface.
 old-location: kernel\d3cold_support_interface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

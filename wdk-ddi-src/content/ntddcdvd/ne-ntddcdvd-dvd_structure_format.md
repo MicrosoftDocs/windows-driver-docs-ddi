@@ -4,7 +4,7 @@ title: DVD_STRUCTURE_FORMAT
 author: windows-driver-content
 description: The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request and the DVD_READ_STRUCTURE structure to retrieve a DVD descriptor.
 old-location: storage\dvd_structure_format.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

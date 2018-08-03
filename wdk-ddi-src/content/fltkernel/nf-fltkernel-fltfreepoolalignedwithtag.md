@@ -4,7 +4,7 @@ title: FltFreePoolAlignedWithTag function
 author: windows-driver-content
 description: The FltFreePoolAlignedWithTag routine frees a cache-aligned buffer that was allocated by a previous call to FltAllocatePoolAlignedWithTag.
 old-location: ifsk\fltfreepoolalignedwithtag.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 295a34e4-734e-41ba-bf2e-378333c14e2c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

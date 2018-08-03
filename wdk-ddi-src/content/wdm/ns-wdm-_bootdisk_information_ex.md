@@ -4,7 +4,7 @@ title: "_BOOTDISK_INFORMATION_EX"
 author: windows-driver-content
 description: The BOOTDISK_INFORMATION_EX structure contains extended information describing the boot and system disks.
 old-location: kernel\bootdisk_information_ex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c358220c-1e29-4889-b214-f2892c9ac47d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

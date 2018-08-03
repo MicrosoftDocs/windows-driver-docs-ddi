@@ -4,7 +4,7 @@ title: "_PEP_WORK_TYPE"
 author: windows-driver-content
 description: The PEP_WORK_TYPE enumeration describes the type of work that the platform extension plug-in (PEP) is requesting.
 old-location: kernel\pep_work_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5AED6B9E-5DB8-44AF-925C-4B587D100040
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

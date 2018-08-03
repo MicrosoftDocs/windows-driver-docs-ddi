@@ -4,7 +4,7 @@ title: "_CDROM_SET_STREAMING"
 author: windows-driver-content
 description: The CDROM_SET_SPEED structure is used with the IOCTL_CDROM_SET_SPEED request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
 old-location: storage\cdrom_set_streaming.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e5c2d421-5994-4f1d-9022-718500eef1a9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

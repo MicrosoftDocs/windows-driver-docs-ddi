@@ -4,10 +4,10 @@ title: INITIATE_OFFLOAD_COMPLETE_HANDLER
 author: windows-driver-content
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolInitiateOffloadComplete function to complete an offload operation that the driver previously initiated by calling the NdisInitiateOffload function.
 old-location: netvista\protocolinitiateoffloadcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0300d841-b211-42f8-b60d-d7d37201e778
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: INITIATE_OFFLOAD_COMPLETE_HANDLER, INITIATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInitiateOffloadComplete, ProtocolInitiateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInitiateOffloadComplete, netvista.protocolinitiateoffloadcomplete, tcp_chim_protocol_func_24008ba0-91ac-43de-a1b7-ba82e15057ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

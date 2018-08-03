@@ -4,7 +4,7 @@ title: ZwOpenThreadTokenEx function
 author: windows-driver-content
 description: The ZwOpenThreadTokenEx routine opens the access token associated with a thread.
 old-location: kernel\zwopenthreadtokenex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

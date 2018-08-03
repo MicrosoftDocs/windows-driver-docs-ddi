@@ -4,7 +4,7 @@ title: PsGetProcessId function
 author: windows-driver-content
 description: The PsGetProcessId routine returns the process identifier (process ID) that is associated with a specified process.
 old-location: kernel\psgetprocessid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9e1f6a57-bc48-41c6-815c-6a44e8d01699
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

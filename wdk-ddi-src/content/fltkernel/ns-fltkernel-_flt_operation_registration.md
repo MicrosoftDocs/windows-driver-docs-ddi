@@ -4,7 +4,7 @@ title: "_FLT_OPERATION_REGISTRATION"
 author: windows-driver-content
 description: The FLT_OPERATION_REGISTRATION structure is used to register operation callback routines.
 old-location: ifsk\flt_operation_registration.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5e3f9a29-660e-46f1-bf25-5bad8b91e32c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -92,6 +92,23 @@ A minifilter sets this flag for read or write operations to specify that its pre
 
 </td>
 </tr>
+
+<tr>
+<td>
+FLTFL_OPERATION_REGISTRATION_SKIP_NON_DASD_IO
+
+</td>
+<td>
+A minifilter sets this flag so that all operations that are not issued on a DASD (volume) handle will be skipped:
+
+Note the following:
+<ul>
+    <li> The minifilter's callback for this operation will be bypassed.</li>
+    <li> This flag is relevant for all operations.</li>
+</ul>
+</td>
+</tr>
+
 </table>
  
 

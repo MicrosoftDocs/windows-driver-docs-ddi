@@ -4,7 +4,7 @@ title: PFNBTH_REUSE_BRB
 author: windows-driver-content
 description: The BthReuseBrb function reinitializes a Bluetooth request block (BRB) to be reused.
 old-location: bltooth\bthreusebrb.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: cdf156a1-1556-441a-ae3d-9a49daf47990
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

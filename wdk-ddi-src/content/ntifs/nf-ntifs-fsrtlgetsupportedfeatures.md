@@ -4,7 +4,7 @@ title: FsRtlGetSupportedFeatures function
 author: windows-driver-content
 description: The FsRtlGetSupportedFeatures routine returns the supported features of a volume attached to the specified device object.
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -98,6 +98,20 @@ The volume supports offloaded read operations.
 The volume supports offloaded write operations.
 
 </td>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_WRITE"></a><a id="supported_fs_features_offload_write"></a><dl>
+<dt><b>SUPPORTED_FS_FEATURES_QUERY_OPEN</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
+The volume supports query open operations.
+</td>
+
+
 </tr>
 </table>
  

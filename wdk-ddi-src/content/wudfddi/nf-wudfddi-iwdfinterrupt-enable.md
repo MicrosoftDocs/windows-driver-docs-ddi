@@ -4,7 +4,7 @@ title: IWDFInterrupt::Enable
 author: windows-driver-content
 description: The Enable method enables a specified device interrupt by calling the driver's OnInterruptEnable callback function.
 old-location: wdf\iwdfinterrupt_enable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

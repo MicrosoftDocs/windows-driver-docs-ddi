@@ -4,7 +4,7 @@ title: KsFilterAcquireProcessingMutex function
 author: windows-driver-content
 description: The KsFilterAcquireProcessingMutex function acquires the processing mutex for a specified AVStream filter.
 old-location: stream\ksfilteracquireprocessingmutex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d4a2fe1a-9a16-45b8-b061-9d1b1398e801
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

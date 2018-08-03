@@ -4,7 +4,7 @@ title: "_MSFC_VirtualFibrePortAttributes"
 author: windows-driver-content
 description: The MSFC_VirtualFibrePortAttributes structure contains attribute information for a virtual port.
 old-location: storage\msfc_virtualfibreportattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FD8D6063-E6DD-4EA6-9675-774C58C08B40
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

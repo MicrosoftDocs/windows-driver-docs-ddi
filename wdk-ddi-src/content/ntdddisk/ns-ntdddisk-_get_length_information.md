@@ -4,7 +4,7 @@ title: "_GET_LENGTH_INFORMATION"
 author: windows-driver-content
 description: The GET_LENGTH_INFORMATION structure is used with the IOCTL_DISK_GET_LENGTH_INFO to obtain the length, in bytes, of a disk, partition, or volume.
 old-location: storage\get_length_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1c5af24f-fd99-4a64-afd4-aaa8168b1dc5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: FltDeleteExtraCreateParameterLookasideList function
 author: windows-driver-content
 description: The FltDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fltdeleteextracreateparameterlookasidelist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

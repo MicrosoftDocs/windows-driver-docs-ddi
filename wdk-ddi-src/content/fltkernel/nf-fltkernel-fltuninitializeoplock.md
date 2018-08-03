@@ -4,7 +4,7 @@ title: FltUninitializeOplock function
 author: windows-driver-content
 description: FltUninitializeOplock uninitializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fltuninitializeoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6379014a-f9bc-4e86-93da-83d90f009a3b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

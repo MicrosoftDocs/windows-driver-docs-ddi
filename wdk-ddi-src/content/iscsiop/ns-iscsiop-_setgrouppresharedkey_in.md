@@ -4,7 +4,7 @@ title: "_SetGroupPresharedKey_IN"
 author: windows-driver-content
 description: The SetGroupPresharedKey_IN structure holds the input data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fe5e1f75-ebd0-4856-bb77-14efb52fbce0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

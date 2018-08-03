@@ -4,7 +4,7 @@ title: IWDFDevice2::CreateRemoteInterface
 author: windows-driver-content
 description: The CreateRemoteInterface method creates a remote interface object that represents a device interface.
 old-location: wdf\iwdfdevice2_createremoteinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fb2def4b-c027-465d-b734-20b4b83a6308
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

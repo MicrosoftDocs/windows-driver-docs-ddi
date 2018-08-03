@@ -4,7 +4,7 @@ title: WdfWmiInstanceFireEvent function
 author: windows-driver-content
 description: The WdfWmiInstanceFireEvent method sends a WMI event to WMI clients that have registered to receive event notification.
 old-location: wdf\wdfwmiinstancefireevent.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7bef79ab-78d6-47b6-a3f4-d9733ffcb53d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

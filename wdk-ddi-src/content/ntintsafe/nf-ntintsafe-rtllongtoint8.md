@@ -4,7 +4,7 @@ title: RtlLongToInt8 function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type INT8.
 old-location: kernel\rtllongtoint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 38BE4F80-DEF2-486B-8A37-BCFD7626325D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

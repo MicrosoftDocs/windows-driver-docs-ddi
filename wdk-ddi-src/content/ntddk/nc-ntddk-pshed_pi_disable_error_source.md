@@ -4,7 +4,7 @@ title: PSHED_PI_DISABLE_ERROR_SOURCE
 author: windows-driver-content
 description: A PSHED plug-in's DisableErrorSource callback function disables an error source.
 old-location: whea\disableerrorsource.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 062927db-9581-447a-820b-82687710ea8d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

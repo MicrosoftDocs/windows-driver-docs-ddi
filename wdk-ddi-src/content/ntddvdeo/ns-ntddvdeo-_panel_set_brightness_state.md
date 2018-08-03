@@ -31,7 +31,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_PANEL_SET_BRIGHTNESS_STATE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,10 +4,10 @@ title: NDK_FN_CONNECT_EVENT_CALLBACK
 author: windows-driver-content
 description: The NdkConnectEventCallback (NDK_FN_CONNECT_EVENT_CALLBACK) function is called by an NDK provider to notify a consumer about an incoming connection request.
 old-location: netvista\ndk_fn_connect_event_callback.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: D7009707-7139-4572-A620-C8ACFA6B5665
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CONNECT_EVENT_CALLBACK, NDK_FN_CONNECT_EVENT_CALLBACK callback, NdkConnectEventCallback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectEventCallback, netvista.ndk_fn_connect_event_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

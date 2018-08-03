@@ -4,7 +4,7 @@ title: SPB_TRANSFER_DESCRIPTOR
 author: windows-driver-content
 description: The SPB_TRANSFER_DESCRIPTOR structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_descriptor.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

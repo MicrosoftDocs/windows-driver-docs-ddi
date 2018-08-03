@@ -4,7 +4,7 @@ title: ExInterlockedCompareExchange64 macro
 author: windows-driver-content
 description: The ExInterlockedCompareExchange64 routine compares one integer variable to another and, if they are equal, sets the first variable to a caller-supplied value.
 old-location: kernel\exinterlockedcompareexchange64.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7d13ca70-e05a-49e0-8dd8-5ab47b4d8169
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -70,17 +70,12 @@ A pointer to an integer that will replace the one at <i>Destination</i> if the c
 
 ### -param Comperand
 
-TBD
+A pointer to an integer with which the value at <i>Destination</i> will be compared. 
 
 
 ### -param Lock [in]
 
 A pointer to a caller-allocated spin-lock that is used if the host system does not support an 8-byte atomic compare-and-exchange operation. 
-
-
-#### - Comparand [in]
-
-A pointer to an integer with which the value at <i>Destination</i> will be compared. 
 
 
 ## -remarks

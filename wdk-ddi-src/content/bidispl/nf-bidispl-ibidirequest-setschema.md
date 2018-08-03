@@ -4,7 +4,7 @@ title: IBidiRequest::SetSchema
 author: windows-driver-content
 description: The SetSchema method sets the bidi schema string.
 old-location: print\ibidirequest_ibidirequest__setschema.htm
-old-project: print
+tech.root: print
 ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

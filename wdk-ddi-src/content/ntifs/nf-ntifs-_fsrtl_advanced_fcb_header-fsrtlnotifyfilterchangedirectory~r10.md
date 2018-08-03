@@ -4,7 +4,7 @@ title: FsRtlNotifyFilterChangeDirectory function
 author: windows-driver-content
 description: The FsRtlNotifyFilterChangeDirectory routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfilterchangedirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 445b6836-aeac-4183-ba11-a787c1e125ac
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Update Rollup for Windows 2000 Service Pack 4 (SP4) and on Windows XP and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< APC_LEVEL"
@@ -60,17 +60,17 @@ The <b>FsRtlNotifyFilterChangeDirectory</b> routine creates a notify structure f
 
 ### -param NotifySync [in]
 
-Pointer to an opaque synchronization object for the change directory notify list that is pointed to by the <i>NotifyList</i> parameter. 
+Pointer to an opaque synchronization object for the change directory notify list that is pointed to by the <i>NotifyList</i> parameter.
 
 
 ### -param NotifyList [in]
 
-Pointer to the head of the change directory notify list for the current volume. Each element in the list is an opaque notify structure. 
+Pointer to the head of the change directory notify list for the current volume. Each element in the list is an opaque notify structure.
 
 
 ### -param FsContext [in]
 
-Pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine. 
+Pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine.
 
 
 ### -param FullDirectoryName [in]
@@ -267,7 +267,7 @@ Pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtl
 
 ### -param FilterCallback [in, optional]
 
-Optional pointer to a callback routine to be invoked when a change occurs to the directory. If this callback routine returns <b>TRUE</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff547018">FsRtlNotifyFilterReportChange</a> completes the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list; otherwise, it does not. Such a caller-supplied routine is declared as follows: 
+Optional pointer to a callback routine to be invoked when a change occurs to the directory. If this callback routine returns <b>TRUE</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff547018">FsRtlNotifyFilterReportChange</a> completes the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list; otherwise, it does not. Such a caller-supplied routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -297,25 +297,25 @@ None
 
 
 
-<b>FsRtlNotifyFilterChangeDirectory</b> is called by a file system that has received an IRP with major function code <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>, minor function code IRP_MN_NOTIFY_CHANGE_DIRECTORY. 
+<b>FsRtlNotifyFilterChangeDirectory</b> is called by a file system that has received an IRP with major function code <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>, minor function code IRP_MN_NOTIFY_CHANGE_DIRECTORY.
 
-The file system calls <b>FsRtlNotifyFilterChangeDirectory</b> to create a notify structure to hold the IRP and add the notify structure to the notify list for the current volume. 
+The file system calls <b>FsRtlNotifyFilterChangeDirectory</b> to create a notify structure to hold the IRP and add the notify structure to the notify list for the current volume.
 
-If <i>NotifyIrp</i> is <b>NULL</b>, <b>FsRtlNotifyFilterChangeDirectory</b> checks whether the notify list already contains any pending IRPs whose file objects match the given <i>FsContext</i> value and, if so, completes the IRPs with STATUS_DELETE_PENDING. 
+If <i>NotifyIrp</i> is <b>NULL</b>, <b>FsRtlNotifyFilterChangeDirectory</b> checks whether the notify list already contains any pending IRPs whose file objects match the given <i>FsContext</i> value and, if so, completes the IRPs with STATUS_DELETE_PENDING.
 
 If <i>NotifyIrp</i> is not <b>NULL</b>, <b>FsRtlNotifyFilterChangeDirectory</b> does the following:
 
 <ul>
 <li>
-Checks whether the IRP's file object has undergone cleanup. If so, <b>FsRtlNotifyFilterChangeDirectory</b> completes the IRP with status STATUS_NOTIFY_CLEANUP and does not add it to the notify list. 
+Checks whether the IRP's file object has undergone cleanup. If so, <b>FsRtlNotifyFilterChangeDirectory</b> completes the IRP with status STATUS_NOTIFY_CLEANUP and does not add it to the notify list.
 
 </li>
 <li>
-If the IRP's file object has not undergone cleanup, <b>FsRtlNotifyFilterChangeDirectory</b> checks whether the notify list already contains a notify structure for the given <i>FsContext</i> value. If such a notify structure is found, and there are pending changes to report, <b>FsRtlNotifyFilterChangeDirectory</b> completes <i>NotifyIrp</i>. If a notify structure is found, but there are no pending changes to report, <b>FsRtlNotifyFilterChangeDirectory</b> marks the IRP pointed to by <i>NotifyIrp</i>  as pending and inserts it into the list of notify IRPs in the notify structure. If no such notify structure is found, <b>FsRtlNotifyFilterChangeDirectory</b> marks the IRP pointed to by <i>NotifyIrp</i>  as pending, creates a notify structure, and inserts it into the notify list. 
+If the IRP's file object has not undergone cleanup, <b>FsRtlNotifyFilterChangeDirectory</b> checks whether the notify list already contains a notify structure for the given <i>FsContext</i> value. If such a notify structure is found, and there are pending changes to report, <b>FsRtlNotifyFilterChangeDirectory</b> completes <i>NotifyIrp</i>. If a notify structure is found, but there are no pending changes to report, <b>FsRtlNotifyFilterChangeDirectory</b> marks the IRP pointed to by <i>NotifyIrp</i>  as pending and inserts it into the list of notify IRPs in the notify structure. If no such notify structure is found, <b>FsRtlNotifyFilterChangeDirectory</b> marks the IRP pointed to by <i>NotifyIrp</i>  as pending, creates a notify structure, and inserts it into the notify list.
 
 </li>
 </ul>
-When a change occurs to the directory, the file system calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547018">FsRtlNotifyFilterReportChange</a> to complete the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list. 
+When a change occurs to the directory, the file system calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547018">FsRtlNotifyFilterReportChange</a> to complete the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list.
 
 
 

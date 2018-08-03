@@ -4,7 +4,7 @@ title: KsQuerySoftwareBusInterface function
 author: windows-driver-content
 description: The KsQuerySoftwareBusInterface function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer.
 old-location: stream\ksquerysoftwarebusinterface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

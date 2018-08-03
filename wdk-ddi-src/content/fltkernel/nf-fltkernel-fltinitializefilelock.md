@@ -4,7 +4,7 @@ title: FltInitializeFileLock function
 author: windows-driver-content
 description: The FltInitializeFileLock routine initializes an opaque FILE_LOCK structure that the caller has allocated from paged pool.
 old-location: ifsk\fltinitializefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 84bfec05-9d77-433e-bec2-ad188269fc61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

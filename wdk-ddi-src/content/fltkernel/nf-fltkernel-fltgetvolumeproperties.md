@@ -4,7 +4,7 @@ title: FltGetVolumeProperties function
 author: windows-driver-content
 description: The FltGetVolumeProperties routine returns volume property information for the given volume.
 old-location: ifsk\fltgetvolumeproperties.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

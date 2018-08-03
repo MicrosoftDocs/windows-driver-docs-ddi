@@ -4,7 +4,7 @@ title: RtlFindLongestRunClear function
 author: windows-driver-content
 description: The RtlFindLongestRunClear routine searches for the largest contiguous range of clear bits within a given bitmap.
 old-location: kernel\rtlfindlongestrunclear.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6d68cb0f-d0b8-4468-8def-60a65780480e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

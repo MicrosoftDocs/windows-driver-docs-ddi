@@ -4,7 +4,7 @@ title: "_CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT"
 author: windows-driver-content
 description: The CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure contains information about the power-management capabilities of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_query_bank_power_information_output.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 156115CB-FF0C-4E53-BB7E-CF98420DF443
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

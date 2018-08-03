@@ -4,7 +4,7 @@ title: DbgPrint function
 author: windows-driver-content
 description: The DbgPrint routine sends a message to the kernel debugger.
 old-location: devtest\dbgprint.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: abff1656-dceb-464f-a89c-30d7a24f742d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -68,14 +68,8 @@ Specifies a pointer to the format string to print. The <i>Format</i> string supp
 
 ### -param param
 
-TBD
-
-
-
-
-#### - arguments
-
 Specifies arguments for the format string, as in <b>printf</b>.
+
 
 
 ## -returns

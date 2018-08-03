@@ -4,10 +4,10 @@ title: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
 author: windows-driver-content
 description: The QueryAuthenticatedChannel function queries an authenticated channel for capability and state information.
 old-location: display\queryauthenticatedchannel.htm
-old-project: display
+tech.root: display
 ms.assetid: 13b65b5a-9512-4d67-b629-479bdd74674e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL, PFND3DDDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], UserModeDisplayDriver_Functions_4d4f5258-9b7c-42c8-b256-223b6b99d1f6.xml, d3dumddi/QueryAuthenticatedChannel, display.queryauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

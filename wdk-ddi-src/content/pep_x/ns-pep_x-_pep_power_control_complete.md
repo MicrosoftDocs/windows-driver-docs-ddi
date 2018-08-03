@@ -4,7 +4,7 @@ title: "_PEP_POWER_CONTROL_COMPLETE"
 author: windows-driver-content
 description: The PEP_POWER_CONTROL_COMPLETE structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed.
 old-location: kernel\pep_power_control_complete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: PCAM_NEW_FRAME_ROUTINE_EX
 author: windows-driver-content
 description: A camera minidriver's CamNewVideoFrameEx callback function initializes a new video frame context structure.
 old-location: stream\camnewvideoframeex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 739e434e-9621-4927-bf1d-2e7c3b2828d7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

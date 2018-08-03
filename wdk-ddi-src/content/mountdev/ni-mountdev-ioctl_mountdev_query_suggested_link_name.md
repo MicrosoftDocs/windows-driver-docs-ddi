@@ -4,7 +4,7 @@ title: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
 author: windows-driver-content
 description: Support for this IOCTL by the mount manager clients is optional.
 old-location: storage\ioctl_mountdev_query_suggested_link_name.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4afd8c7a-b7b4-4a02-a270-d4e29f5329f9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -113,6 +113,11 @@ If the operation is successful, the <b>Information</b> field is set to the total
 If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTDEV_SUGGESTED_LINK_NAME), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
 If <b>OutputBufferLength</b> is less than the total length of output data, the <b>Status</b> field is set to STATUS_BUFFER_OVERFLOW and the <b>Information</b> field is set to <b>sizeof</b>(MOUNTDEV_SUGGESTED_LINK_NAME). 
+
+
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
 
 
 ## -see-also

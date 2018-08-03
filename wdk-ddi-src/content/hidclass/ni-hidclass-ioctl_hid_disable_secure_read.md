@@ -4,7 +4,7 @@ title: IOCTL_HID_DISABLE_SECURE_READ
 author: windows-driver-content
 description: The IOCTL_HID_DISABLE_SECURE_READ request cancels an IOCTL_HID_ENABLE_SECURE_READ request for a HID collection.
 old-location: hid\ioctl_hid_disable_secure_read.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 7e63110d-6383-4e57-a66a-7d5190a98314
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

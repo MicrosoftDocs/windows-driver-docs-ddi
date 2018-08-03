@@ -4,7 +4,7 @@ title: StorPortGetLogicalProcessorRelationship function
 author: windows-driver-content
 description: The StorPortGetLogicalProcessorRelationship routine returns relationship information for one or more specified types.
 old-location: storage\storportgetlogicalprocessorrelationship.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

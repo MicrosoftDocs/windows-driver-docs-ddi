@@ -4,10 +4,10 @@ title: IServiceGroup::RemoveMember
 author: windows-driver-content
 description: The RemoveMember method removes the specified member from the service group.
 old-location: audio\iservicegroup_removemember.htm
-old-project: audio
+tech.root: audio
 ms.assetid: f257c861-036b-44d1-9f99-dc5c0ab6e715
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IServiceGroup interface [Audio Devices],RemoveMember method, IServiceGroup.RemoveMember, IServiceGroup::RemoveMember, RemoveMember, RemoveMember method [Audio Devices], RemoveMember method [Audio Devices],IServiceGroup interface, audio.iservicegroup_removemember, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, portcls/IServiceGroup::RemoveMember
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PFND3DDDI_ESCAPECB
 author: windows-driver-content
 description: The pfnEscapeCb callback function shares information with the display miniport driver.
 old-location: display\pfnescapecb.htm
-old-project: display
+tech.root: display
 ms.assetid: 66c0347f-2cf3-42fc-8641-47c731e958c9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3Druntime_Functions_8c7e48ef-f8e8-45d2-a424-9065e97f725f.xml, PFND3DDDI_ESCAPECB, PFND3DDDI_ESCAPECB callback, d3dumddi/pfnEscapeCb, display.pfnescapecb, pfnEscapeCb, pfnEscapeCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

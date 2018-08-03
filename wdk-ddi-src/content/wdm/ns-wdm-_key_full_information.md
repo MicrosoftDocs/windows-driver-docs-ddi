@@ -4,7 +4,7 @@ title: "_KEY_FULL_INFORMATION"
 author: windows-driver-content
 description: The KEY_FULL_INFORMATION structure defines the information available for a registry key, including information about its subkeys and the maximum length for their names and value entries.
 old-location: kernel\key_full_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dd099435-e3e3-4d78-a829-0f12f2db46d9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: VideoPortGetVgaStatus function
 author: windows-driver-content
 description: The VideoPortGetVgaStatus function detects whether the calling device is decoding a VGA I/O address.
 old-location: display\videoportgetvgastatus.htm
-old-project: display
+tech.root: display
 ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, display.videoportgetvgastatus, video/VideoPortGetVgaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

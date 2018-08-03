@@ -4,7 +4,7 @@ title: EVT_SERCX_FILECLEANUP
 author: windows-driver-content
 description: The EvtSerCxFileCleanup event callback function notifies the serial controller driver that a client has closed the last handle to the file object that represents the serial controller device.
 old-location: serports\evtsercxfilecleanup.htm
-old-project: serports
+tech.root: serports
 ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

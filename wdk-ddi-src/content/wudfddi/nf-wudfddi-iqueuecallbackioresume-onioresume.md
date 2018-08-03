@@ -4,7 +4,7 @@ title: IQueueCallbackIoResume::OnIoResume
 author: windows-driver-content
 description: The OnIoResume method resumes the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackioresume_onioresume.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d34f6e2c-4227-41bb-a1c0-f6206daa700b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

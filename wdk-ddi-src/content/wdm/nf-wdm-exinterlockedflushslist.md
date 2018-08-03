@@ -4,7 +4,7 @@ title: ExInterlockedFlushSList macro
 author: windows-driver-content
 description: The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.
 old-location: kernel\exinterlockedflushslist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,16 +60,9 @@ The <b>ExInterlockedFlushSList</b> routine atomically removes all entries from a
 
 ### -param Head
 
-TBD
-
-
-
-
-
-
-#### - ListHead [in, out]
-
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
+
+
 
 
 ## -remarks

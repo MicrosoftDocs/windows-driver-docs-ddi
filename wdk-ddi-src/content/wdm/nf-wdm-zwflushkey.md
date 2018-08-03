@@ -4,7 +4,7 @@ title: ZwFlushKey function
 author: windows-driver-content
 description: The ZwFlushKey routine forces a registry key to be committed to disk.
 old-location: kernel\zwflushkey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c5250b7d-a996-4591-b289-cfb1af00e7da
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

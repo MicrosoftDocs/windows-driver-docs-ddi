@@ -4,7 +4,7 @@ title: FltSetQuotaInformationFile function
 author: windows-driver-content
 description: The FltSetQuotaInformationFile routine modifies quota entries for a file object.
 old-location: ifsk\fltsetquotainformationfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 89EC9F5C-24AE-4340-99CF-05323F99B465
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

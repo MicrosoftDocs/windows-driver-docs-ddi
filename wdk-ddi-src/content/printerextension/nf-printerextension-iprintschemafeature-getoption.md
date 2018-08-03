@@ -4,7 +4,7 @@ title: IPrintSchemaFeature::GetOption
 author: windows-driver-content
 description: Gets the option with the given name.
 old-location: print\iprintschemafeature_getoption.htm
-old-project: print
+tech.root: print
 ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

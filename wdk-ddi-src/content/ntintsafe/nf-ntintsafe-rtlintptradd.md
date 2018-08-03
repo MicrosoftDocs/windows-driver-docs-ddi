@@ -4,7 +4,7 @@ title: RtlIntPtrAdd function
 author: windows-driver-content
 description: Adds two values of type INT_PTR.
 old-location: kernel\rtlintptradd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 97873113-7B0B-4121-B074-5B73D59489F4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

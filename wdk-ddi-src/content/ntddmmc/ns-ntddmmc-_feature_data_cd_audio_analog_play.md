@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_CD_AUDIO_ANALOG_PLAY"
 author: windows-driver-content
 description: The FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure holds information about the CD Audio External Play feature.
 old-location: storage\feature_data_cd_audio_analog_play.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 01c34bb8-b164-425d-b81c-7eefc08296e2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

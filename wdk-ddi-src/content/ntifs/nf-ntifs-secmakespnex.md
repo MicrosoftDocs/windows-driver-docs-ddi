@@ -4,7 +4,7 @@ title: SecMakeSPNEx function
 author: windows-driver-content
 description: SecMakeSPNEx creates a service provider name string that can be used when communicating with specific security service providers.
 old-location: ifsk\secmakespnex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

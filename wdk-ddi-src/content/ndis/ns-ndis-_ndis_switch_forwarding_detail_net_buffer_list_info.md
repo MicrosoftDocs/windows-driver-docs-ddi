@@ -4,10 +4,10 @@ title: "_NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO"
 author: windows-driver-content
 description: The NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union specifies the information for forwarding a packet to one or more Hyper-V extensible switch ports.
 old-location: netvista\ndis_switch_forwarding_detail_net_buffer_list_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6377CC08-A261-465A-AA04-0BE31EEACF01
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, netvista.ndis_switch_forwarding_detail_net_buffer_list_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,8 +92,6 @@ For more information on this index value, see <a href="https://msdn.microsoft.co
 If this member is set to <b>TRUE</b>, packet is an NVGRE packet, and the Hyper-V Network Virtualization (HNV) component of the Hyper-V extensible switch will forward this packet. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>.
 
 This flag must not be written to by any extension.<div class="alert"><b>Note</b>  This flag is available only in NDIS 6.40 and later.</div>
-<div> </div>
-
 
 
 ### -field Reserved1
@@ -119,7 +117,14 @@ A value that specifies the number of consecutive bytes in the packet data that i
 For more information, see the Remarks section.
 
 <div class="alert"><b>Note</b>  This member is valid only if the <b>IsPacketDataSafe</b> member is set to <b>FALSE</b>.</div>
-<div> </div>
+
+### -field IsPacketDataUncached
+
+If this flag is not set, the entire packet data is cached. If it is set, part or all of the data is *not* cached. When set, check the **IsSafePacketDataUncached** field to see if at least the SafePacketData portion is cached.
+
+### -field IsSafePacketDataUncached
+
+If the **IsPacketDataUncached** flag is set, this field indicates whether the SafePacketData part of the packet is cached. If so, see the **SafePacketDataSize** field for how many bytes are cached.
 
 ### -field Reserved2
 
@@ -136,7 +141,9 @@ The <b>NumAvailableDestinations</b> member of the <b>NDIS_SWITCH_FORWARDING_DETA
 
 The <b>NativeForwardingRequired</b> member specifies whether the packet is an NVGRE packet or not. If it is <b>TRUE</b>, the packet is an NVGRE packet, and the forwarding extension doesn't determine the packet's forwarding destination port array, although it can add or exclude destination ports in the array. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>.
 
-The <b>SafePacketDataSize</b> member specifies the size of the packet data that is located in local, or <i>trusted</i>, memory in the parent operating system of the Hyper-V parent partition. This memory is not accessible by the child partition. Therefore, it  is considered "safe" from unsynchronized updates by the guest operating system that runs in that partition. 
+The **IsPacketDataUncached** flag can help extensible switch extensions determine if part or all of the packet data is cached or not. If this flag is set, part or all of the data is *not* cached, and the **IsSafePacketDataUncached** flag tells the extension whether the safe packet data part is cached. If the safe packet data is cached, then the **SafePacketDataSize** member specifies how many bytes are cached.
+
+<b>SafePacketDataSize</b> specifies the size of the packet data that is located in local, or <i>trusted</i>, memory in the parent operating system of the Hyper-V parent partition. This memory is not accessible by the child partition. Therefore, it  is considered "safe" from unsynchronized updates by the guest operating system that runs in that partition. 
 
 If an extensible switch extension requires more trusted space in order to inspect the packet data, it must follow these steps:
 

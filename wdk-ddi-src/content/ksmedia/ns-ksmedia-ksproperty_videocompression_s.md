@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOCOMPRESSION_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCOMPRESSION_S structure describes a single KSPROPERTY_VIDEOCOMPRESSION_Xxx property of a specified stream.
 old-location: stream\ksproperty_videocompression_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0fc80a67-de81-4cdf-8c38-bbf78c62d017
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

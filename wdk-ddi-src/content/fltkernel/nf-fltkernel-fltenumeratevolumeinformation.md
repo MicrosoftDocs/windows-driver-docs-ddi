@@ -4,7 +4,7 @@ title: FltEnumerateVolumeInformation function
 author: windows-driver-content
 description: The FltEnumerateVolumeInformation routine provides information about volumes that are known to the filter manager.
 old-location: ifsk\fltenumeratevolumeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cdec7faa-299c-4a4e-a037-9900bc3cffa1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

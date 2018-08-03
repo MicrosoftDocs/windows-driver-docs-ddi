@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_DELETE_POINTS
 author: windows-driver-content
 description: This IOCTL is identical in input and output to IOCTL_MOUNTMGR_QUERY_POINTS. The difference is that IOCTL_MOUNTMGR_DELETE_POINTS has the side effect of deleting the symbolic links and the mount manager database entries for the triples returned.
 old-location: storage\ioctl_mountmgr_delete_points.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c11d801a-4870-42c4-9374-e0f849d57cde
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: GetSupportedVersions function
 author: windows-driver-content
 description: The IPrintTicketProvider::GetSupportedVersions method retrieves major version numbers of the print schemas that are supported by the plug-in provider.
 old-location: print\iprintticketprovider_getsupportedversions.htm
-old-project: print
+tech.root: print
 ms.assetid: ea22cc52-f47b-4a54-b507-5963faa41c2d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

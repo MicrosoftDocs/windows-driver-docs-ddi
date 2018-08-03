@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS::WhyConstrained
 author: windows-driver-content
 description: The IPrintCoreHelperPS::WhyConstrained method provides a list of options that constrain the specified feature-option pair in the current configuration.
 old-location: print\iprintcorehelperps_whyconstrained.htm
-old-project: print
+tech.root: print
 ms.assetid: 23953142-9246-41cf-91b4-75b1a3f6128e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

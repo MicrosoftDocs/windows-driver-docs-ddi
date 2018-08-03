@@ -4,7 +4,7 @@ title: "_PROPSHEETUI_GETICON_INFO"
 author: windows-driver-content
 description: The PROPSHEETUI_GETICON_INFO structure is used as an input parameter to an application's PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_ICON.
 old-location: print\propsheetui_geticon_info.htm
-old-project: print
+tech.root: print
 ms.assetid: 23c06f1c-0c8f-4055-a997-1ff94c4a541e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

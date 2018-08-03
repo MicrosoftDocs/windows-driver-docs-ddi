@@ -4,7 +4,7 @@ title: FltDeleteTransactionContext function
 author: windows-driver-content
 description: The FltDeleteTransactionContext routine removes a context from a given transaction and marks the context for deletion.
 old-location: ifsk\fltdeletetransactioncontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 120285ff-1cb4-4570-a1e7-0a7d22b43560
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

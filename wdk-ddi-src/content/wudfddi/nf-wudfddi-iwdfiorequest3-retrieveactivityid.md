@@ -4,7 +4,7 @@ title: IWDFIoRequest3::RetrieveActivityId
 author: windows-driver-content
 description: The RetrieveActivityId method retrieves the current activity identifier associated with an I/O request.
 old-location: wdf\iwdfiorequest3_retrieveactivityid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -2,13 +2,13 @@
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID)
 title: CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID)
 author: windows-driver-content
-description: The CWiauPropertyList::SetValidValues(BSTR, list) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
-old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
-old-project: image
-ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
+description: The CWiauPropertyList::SetValidValues(CLSID, list) method sets the type, as well as default, current, and valid values for a CLSID property associated with a list of values.
+old-location: image\cwiaupropertylist_setvalidvalues_clsid__list_.htm
+tech.root: image
+ms.assetid: d401ed85-de6b-4758-b7c4-d6fcd59c157e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(BSTR list), CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT,CLSID*,CLSID*,INT,CLSID**), CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(CLSID,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_clsid__list_, wiauFncs_fb681759-0ab5-47ba-8e35-4a0a8d28e52f.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>CWiauPropertyList::SetValidValues(BSTR, list)</b> method sets the type, as well as default, current, and valid values for a <b>BSTR</b> property associated with a list of values. The method also sets the property type to VT_BSTR and subtype to WIA_PROP_LIST (defined in the Microsoft Windows SDK documentation).
+The <b>CWiauPropertyList::SetValidValues(CLSID, list)</b> method sets the type, as well as default, current, and valid values for a <b>CLSID</b> property associated with a list of values. The method also sets the property type to VT_CLSID and subtype to WIA_PROP_LIST (defined in the Microsoft Windows SDK documentation).
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Specifies the number of values in the property list.
 
 ### -param pValues
 
-Points to the first property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
+Pointer to a memory location that contains the address of the first property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
 
 
 ## -returns

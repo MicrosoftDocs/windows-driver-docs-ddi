@@ -4,7 +4,7 @@ title: "_PEP_PPM_IDLE_CANCEL"
 author: windows-driver-content
 description: The PEP_PPM_IDLE_CANCEL structure indicates why the processor could not enter the previously selected idle state.
 old-location: kernel\pep_ppm_idle_cancel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 29B16A23-A3C1-4994-8F72-403BE32ABBD2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: SeFilterToken function
 author: windows-driver-content
 description: The SeFilterToken routine creates a new access token that is a restricted version of an existing access token.
 old-location: ifsk\sefiltertoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IPrintJob::RequestCancel
 author: windows-driver-content
 description: Requests the cancellation of a print job.
 old-location: print\iprintjob_requestcancel.htm
-old-project: print
+tech.root: print
 ms.assetid: 13F8A151-F28A-4A0F-B143-F3DB2197A36B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

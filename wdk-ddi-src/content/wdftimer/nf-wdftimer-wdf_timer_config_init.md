@@ -4,7 +4,7 @@ title: WDF_TIMER_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_TIMER_CONFIG_INIT function initializes a WDF_TIMER_CONFIG structure for a timer that will use a single due time.
 old-location: wdf\wdf_timer_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2bf613ff-e178-4a33-a1ae-ea6d4bb78d0a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

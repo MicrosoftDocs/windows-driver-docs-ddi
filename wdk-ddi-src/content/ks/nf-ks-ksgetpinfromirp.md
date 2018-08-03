@@ -4,7 +4,7 @@ title: KsGetPinFromIrp function
 author: windows-driver-content
 description: The KsGetPinFromIrp function returns the AVStream pin object associated with the given IRP.
 old-location: stream\ksgetpinfromirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 96176a33-0721-4a4d-ba1b-131e25fc2306
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

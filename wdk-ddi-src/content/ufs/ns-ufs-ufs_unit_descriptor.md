@@ -4,7 +4,7 @@ title: UFS_UNIT_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_UNIT_DESCRIPTOR structure describes a generic unit descriptor.
 old-location: storage\ufs_unit_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_ISCSI_TargetPortal"
 author: windows-driver-content
 description: The ISCSI_TargetPortal structure provides a definition of a target portal.
 old-location: storage\iscsi_targetportal.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1adb1dbf-3ec4-4e32-bfe8-cfcf992f67ca
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

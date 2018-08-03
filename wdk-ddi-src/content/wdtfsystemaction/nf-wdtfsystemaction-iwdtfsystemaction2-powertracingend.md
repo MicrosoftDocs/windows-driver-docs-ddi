@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::PowerTracingEnd
 author: windows-driver-content
 description: This method ends a power trace session.
 old-location: dtf\iwdtfsystemaction2_powertracingend.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d27678cb-8aad-4cbe-a65e-64828ff4944a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

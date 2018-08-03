@@ -4,7 +4,7 @@ title: "_INTERNAL_I8042_START_INFORMATION"
 author: windows-driver-content
 description: INTERNAL_I8042_START_INFORMATION specifies the interrupt object that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR.
 old-location: hid\internal_i8042_start_information.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 8ceaa9de-195f-4a89-bc3e-323256097248
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

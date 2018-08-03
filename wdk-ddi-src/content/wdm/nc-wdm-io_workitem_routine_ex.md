@@ -4,7 +4,7 @@ title: IO_WORKITEM_ROUTINE_EX
 author: windows-driver-content
 description: A WorkItemEx routine performs the processing for a work item that was queued by the IoQueueWorkItemEx or IoTryQueueWorkItem routine.
 old-location: kernel\workitemex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7b40f2c8-c862-4a0b-99f6-f7d8c454b845
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IPnpCallback::OnQueryRemove
 author: windows-driver-content
 description: The OnQueryRemove method notifies a driver before a device is removed from a computer.
 old-location: wdf\ipnpcallback_onqueryremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

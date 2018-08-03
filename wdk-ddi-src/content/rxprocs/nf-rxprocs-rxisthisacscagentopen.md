@@ -4,7 +4,7 @@ title: RxIsThisACscAgentOpen function
 author: windows-driver-content
 description: RxIsThisACscAgentOpen determines if a file open was made by a user-mode client-side caching agent.
 old-location: ifsk\rxisthisacscagentopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b3bd9b9f-e859-4d7f-9735-5995cb3ef6e8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RtlConvertLongToLargeInteger function
 author: windows-driver-content
 description: The RtlConvertLongToLargeInteger routine converts the input signed integer to a signed large integer.
 old-location: kernel\rtlconvertlongtolargeinteger.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8c1f6cd3-f54b-4104-bd14-63d2c284946c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

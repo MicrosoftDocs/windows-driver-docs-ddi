@@ -4,7 +4,7 @@ title: IWDFInterrupt::AcquireInterruptLock
 author: windows-driver-content
 description: The AcquireInterruptLock method begins a code sequence that executes while holding an interrupt object's lock.
 old-location: wdf\iwdfinterrupt_acquireinterruptlock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KsPinGetCopyRelationships function
 author: windows-driver-content
 description: The KsPinGetCopyRelationships function returns copy relationship information for a pin that is contained within a pin-centric filter.
 old-location: stream\kspingetcopyrelationships.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

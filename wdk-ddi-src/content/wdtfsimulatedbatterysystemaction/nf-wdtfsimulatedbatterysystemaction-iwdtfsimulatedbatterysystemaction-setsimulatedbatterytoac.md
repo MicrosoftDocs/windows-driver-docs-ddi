@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
 author: windows-driver-content
 description: Sets the simulated battery status to AC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: ddfd38d9-a78e-4573-9bf3-24f2f69b5949
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

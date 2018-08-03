@@ -4,7 +4,7 @@ title: "_MSR_AUTHENTICATE_DEVICE"
 author: windows-driver-content
 description: This structure provides the authentication information used to authenticate a device.
 old-location: pos\msr_authenticate_device.htm
-old-project: pos
+tech.root: pos
 ms.assetid: b75dce2c-5ad5-4340-b1b7-5fcf4440e58c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

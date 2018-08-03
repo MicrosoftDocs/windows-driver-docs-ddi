@@ -4,7 +4,7 @@ title: TmCommitComplete function
 author: windows-driver-content
 description: The TmCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction.
 old-location: kernel\tmcommitcomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a5f55966-98d9-42ec-9af6-254d2cb9a5bd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

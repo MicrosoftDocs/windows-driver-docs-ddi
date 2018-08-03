@@ -4,7 +4,7 @@ title: "_PCMCIA_CONTROLLER_CLASS"
 author: windows-driver-content
 description: The PCMCIA_CONTROLLER_CLASS enumeration lists the different sorts of PC Card and CardBus controllers.
 old-location: pcmcia\pcmcia_controller_class.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: d834d97c-cf2d-430b-8f54-b0b47ab1503c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_SELF_ID_MORE"
 author: windows-driver-content
 description: The SELF_ID_MORE structure contains a raw packet one, two, or three self-ID packet. See the IEEE 1394 specification for details.
 old-location: ieee\self_id_more.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: d3c164a6-4830-4f1f-9fa5-5cd61e796e31
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

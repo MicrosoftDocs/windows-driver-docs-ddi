@@ -4,7 +4,7 @@ title: IoGetActivityIdIrp function
 author: windows-driver-content
 description: The IoGetActivityIdIrp routine retrieves the current activity ID associated with an IRP.
 old-location: kernel\iogetactivityidirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

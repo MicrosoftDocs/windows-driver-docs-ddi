@@ -4,7 +4,7 @@ title: ScsiPortReadPortUchar function
 author: windows-driver-content
 description: The ScsiPortReadPortUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: aaf7e821-4f60-4018-b0ee-d0f3995482c4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

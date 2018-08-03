@@ -4,7 +4,7 @@ title: KSOBJECT_CREATE
 author: windows-driver-content
 description: The KSOBJECT_CREATE structure contains an array of create handlers for base object classes supported by this device object.
 old-location: stream\ksobject_create.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b59d76eb-77c2-4ae5-8be2-f987d7f58446
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

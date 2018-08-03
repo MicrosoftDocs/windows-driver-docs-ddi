@@ -4,10 +4,10 @@ title: RIL_CancelGetOperatorList function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_cancelgetoperatorlist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 421f2b2f-9cc7-4a33-b253-e442fa112d13
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_CancelGetOperatorList, RIL_CancelGetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_cancelgetoperatorlist, rilapi/RIL_CancelGetOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices

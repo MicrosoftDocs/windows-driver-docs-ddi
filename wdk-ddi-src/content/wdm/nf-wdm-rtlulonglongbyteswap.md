@@ -4,7 +4,7 @@ title: RtlUlonglongByteSwap macro
 author: windows-driver-content
 description: The RtlUlonglongByteSwap routine reverses the ordering of the eight bytes in a 64-bit unsigned integer value.
 old-location: kernel\rtlulonglongbyteswap.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 70d16119-ac78-40a2-995a-d20ca63c53c1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

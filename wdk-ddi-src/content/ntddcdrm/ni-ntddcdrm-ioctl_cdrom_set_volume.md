@@ -4,7 +4,7 @@ title: IOCTL_CDROM_SET_VOLUME
 author: windows-driver-content
 description: Resets the volume for its device's audio ports. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_set_volume.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9331ad0b-42e0-4f20-9410-fb135f4791b0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

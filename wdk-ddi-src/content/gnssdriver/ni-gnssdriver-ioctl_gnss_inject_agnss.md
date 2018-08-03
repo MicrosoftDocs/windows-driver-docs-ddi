@@ -4,7 +4,7 @@ title: IOCTL_GNSS_INJECT_AGNSS
 author: windows-driver-content
 description: The IOCTL_GNSS_INJECT_AGNSS control code is used by the GNSS adapter to inject AGNSS data into the driver. This IOCTL is sent as a result of the driver previously responding to a pending IOCTL_GNSS_LISTEN_AGNSS request.
 old-location: gnss\ioctl_gnss_inject_agnss.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 68EC4397-1983-4D02-BF6E-599DC987E7E9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

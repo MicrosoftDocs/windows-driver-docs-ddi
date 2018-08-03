@@ -4,7 +4,7 @@ title: "_IO_STATUS_BLOCK"
 author: windows-driver-content
 description: A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling IoCompleteRequest for the IRP.
 old-location: kernel\io_status_block.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

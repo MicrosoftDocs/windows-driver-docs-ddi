@@ -4,7 +4,7 @@ title: "_UNICODE_STRING"
 author: windows-driver-content
 description: The UNICODE_STRING structure is used to define Unicode strings.
 old-location: kernel\unicode_string.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b02f29a9-1049-4e29-aac3-72bf0c70a21e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

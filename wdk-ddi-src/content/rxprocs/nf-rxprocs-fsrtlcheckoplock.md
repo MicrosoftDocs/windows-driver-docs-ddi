@@ -4,7 +4,7 @@ title: FsRtlCheckOplock macro
 author: windows-driver-content
 description: The FsRtlCheckOplock routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fsrtlcheckoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e1430ef2-fb94-4f0d-bdc8-59b423fe9c8c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

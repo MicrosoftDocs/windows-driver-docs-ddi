@@ -4,7 +4,7 @@ title: "_MSiSCSI_InitiatorInstanceFailureEvent"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorInstanceFailureEvent structure is used to report an event when an initiator instance failure occurs.
 old-location: storage\msiscsi_initiatorinstancefailureevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f0213dc9-7299-4cf7-b2c9-27e5d1caea00
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

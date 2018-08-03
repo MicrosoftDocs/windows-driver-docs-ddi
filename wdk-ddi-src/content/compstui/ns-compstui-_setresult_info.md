@@ -4,7 +4,7 @@ title: "_SETRESULT_INFO"
 author: windows-driver-content
 description: The SETRESULT_INFO structure is used as an input parameter to an application's PFNPROPSHEETUI-typed callback function.
 old-location: print\setresult_info.htm
-old-project: print
+tech.root: print
 ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

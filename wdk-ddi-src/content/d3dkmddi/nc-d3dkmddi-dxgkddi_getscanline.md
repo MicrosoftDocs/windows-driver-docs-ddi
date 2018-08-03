@@ -4,10 +4,10 @@ title: DXGKDDI_GETSCANLINE
 author: windows-driver-content
 description: The DxgkDdiGetScanLine function determines whether the specified video present target of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 old-location: display\dxgkddigetscanline.htm
-old-project: display
+tech.root: display
 ms.assetid: e37bb3c6-a0b6-409f-8a82-20ec7a931c6a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_GETSCANLINE, DXGKDDI_GETSCANLINE callback, DmFunctions_135e90a4-1b44-4cd6-92fe-626dd389af9b.xml, DxgkDdiGetScanLine, DxgkDdiGetScanLine callback function [Display Devices], d3dkmddi/DxgkDdiGetScanLine, display.dxgkddigetscanline
 ms.prod: windows-hardware
 ms.technology: windows-devices

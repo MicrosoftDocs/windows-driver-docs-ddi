@@ -4,7 +4,7 @@ title: IWDFFileHandleTargetFactory::CreateFileHandleTarget
 author: windows-driver-content
 description: The CreateFileHandleTarget method creates a file-handle-based I/O target object.
 old-location: wdf\iwdffilehandletargetfactory_createfilehandletarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

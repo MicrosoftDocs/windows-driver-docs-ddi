@@ -4,7 +4,7 @@ title: ScsiPortWmiDispatchFunction function
 author: windows-driver-content
 description: The ScsiPortWmiDispatchFunction routine is a dispatch routine for miniport drivers that support WMI.
 old-location: storage\scsiportwmidispatchfunction.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 48806050-403b-4375-8b19-e867f905b761
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

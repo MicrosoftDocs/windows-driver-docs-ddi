@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_READ_ULONG64
 title: UART_HARDWARE_READ_ULONG64
 author: windows-driver-content
 description: Reads a ULONG64 value from the specified register address.
-old-project: serports
+tech.root: serports
 ms.assetid: b94043dd-4c44-499c-8aee-6ce6f38f6310
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_READ_ULONG64
 product: Windows
 targetos: Windows
@@ -43,18 +43,18 @@ targetos: Windows
 
 ## -description
 
-Reads a ULONG64 value from the specified port address. 
+Reads a ULONG64 value from the specified port address.
 
 ## -prototype
 
 ```
 //Declaration
 
-UART_HARDWARE_READ_ULONG64 UartHardwareReadUlong64; 
+UART_HARDWARE_READ_ULONG64 UartHardwareReadUlong64;
 
 // Definition
 
-ULONG64 UartHardwareReadUlong64 
+ULONG64 UartHardwareReadUlong64
 (
 	PULONG64 Address
 )

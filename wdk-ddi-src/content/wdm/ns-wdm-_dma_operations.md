@@ -4,7 +4,7 @@ title: "_DMA_OPERATIONS"
 author: windows-driver-content
 description: The DMA_OPERATIONS structure provides a table of pointers to functions that control the operation of a DMA controller.
 old-location: kernel\dma_operations.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b4a5d830-252b-410e-be2c-390371af971c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

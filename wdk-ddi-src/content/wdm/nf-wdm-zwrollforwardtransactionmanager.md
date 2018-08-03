@@ -4,7 +4,7 @@ title: ZwRollforwardTransactionManager function
 author: windows-driver-content
 description: The ZwRollforwardTransactionManager routine initiates recovery operations for all of the in-progress transactions that are assigned to a specified transaction manager.
 old-location: kernel\zwrollforwardtransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c2d775b1-364a-4c50-bd5e-dab9d9e07b83
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

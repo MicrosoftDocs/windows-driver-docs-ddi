@@ -4,7 +4,7 @@ title: "_CIP_DATA_FORMAT_VER2"
 author: windows-driver-content
 description: This structure is a CIP data format which is used by CMP_CONNECT_VER2.
 old-location: ieee\cip_data_format_ver2.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: C78543F5-82CC-43CF-8769-1E721C17FF9C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

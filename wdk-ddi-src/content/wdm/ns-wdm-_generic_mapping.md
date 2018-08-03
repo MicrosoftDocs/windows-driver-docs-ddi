@@ -4,7 +4,7 @@ title: "_GENERIC_MAPPING"
 author: windows-driver-content
 description: The GENERIC_MAPPING structure describes the ACCESS_MASK value of specific access rights associated with each type of generic access right.
 old-location: kernel\generic_mapping.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 54524c7e-12eb-46c7-b96d-67e49821e7a8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

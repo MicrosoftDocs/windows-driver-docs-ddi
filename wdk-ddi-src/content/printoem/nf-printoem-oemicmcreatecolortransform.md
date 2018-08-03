@@ -4,7 +4,7 @@ title: OEMIcmCreateColorTransform function
 author: windows-driver-content
 description: The OEMIcmCreateColorTransform function creates an ICM color transform.
 old-location: print\oemicmcreatecolortransform.htm
-old-project: print
+tech.root: print
 ms.assetid: 995fdac4-e958-4eed-ba3a-7be0349dec59
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlValidateCorrelationVector function
 author: windows-driver-content
 description: Validates the specified correlation vector to check whether it conforms to the Correlation Vector Specification (v2).
 old-location: kernel\rtlvalidatecorrelationvector.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
 author: windows-driver-content
 description: Video decode input stream arguments.
 old-location: display\d3d12ddi-video-decode-input-stream-arguments-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: ca647cd3-357b-4cd6-aa1c-6a03d5a77f10
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,30 +60,30 @@ Video decode input stream arguments.
 
 ### -field FrameArguments
 
-Frame arguments.
+The arguments to decode each frame.
 
 
 ### -field NumFrameArguments
 
-The number of frame arguments.
+The count of frame arguments.
 
 
 ### -field ReferenceFrames
 
-Reference frames.
+The reference frames needed for decoding this frame. See [D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES](ns-d3d12umddi-d3d12ddi_video_decode_reference_frames_0032.md).
 
 
 ### -field CompressedBitstream
 
-Compressed bitstream.
+The compressed bitstream. All source video slices should be placed contiguously (one after another) in this buffer.  See [D3D12DDI_VIDEO_COMPRESSED_BITSTREAM](ns-d3d12umddi-d3d12ddi_video_decode_compressed_bitstream_0032.md).
 
 
 ### -field DecryptionParameters
 
-Decryption parameters.
+Decryption parameters. When decryption is not used, this structure is zero initialized. See [D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_decryption_arguments_0030.md).
 
 
 ### -field hDrvVideoDecoderHeap
 
-Video decoder heap.
+Supplies allocations that may contain the state for the current decode operation.
 

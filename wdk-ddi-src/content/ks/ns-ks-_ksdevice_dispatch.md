@@ -4,7 +4,7 @@ title: "_KSDEVICE_DISPATCH"
 author: windows-driver-content
 description: The KSDEVICE_DISPATCH structure describes the callbacks that a client can provide to receive notification of device creation and PnP events.
 old-location: stream\ksdevice_dispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1ae7af1d-5e1c-4728-82c5-efc8d60b5df6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

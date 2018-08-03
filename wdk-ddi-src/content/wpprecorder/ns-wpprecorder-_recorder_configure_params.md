@@ -4,7 +4,7 @@ title: "_RECORDER_CONFIGURE_PARAMS"
 author: windows-driver-content
 description: The RECORDER_CONFIGURE_PARAMS structure is an input parameter to the WppRecorderConfigure method to enable or disable the default log to which WPP prints.
 old-location: devtest\recorder_configure_params.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 9D2AB7D0-CD75-4539-9CB8-8CBA33EFE299
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

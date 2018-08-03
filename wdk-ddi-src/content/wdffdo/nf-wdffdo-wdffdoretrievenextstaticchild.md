@@ -4,7 +4,7 @@ title: WdfFdoRetrieveNextStaticChild function
 author: windows-driver-content
 description: The WdfFdoRetrieveNextStaticChild method retrieves a handle to the next framework device object in a list of child devices.
 old-location: wdf\wdffdoretrievenextstaticchild.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ee0f458b-c8b3-46e7-87bd-25599d39203d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

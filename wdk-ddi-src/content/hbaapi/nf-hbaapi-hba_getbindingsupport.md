@@ -4,7 +4,7 @@ title: HBA_GetBindingSupport function
 author: windows-driver-content
 description: The HBA_GetBindingSupport routine retrieves the binding capabilities currently enabled for the specified port.
 old-location: storage\hba_getbindingsupport.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 60542ed9-fbb0-48a3-bc97-ce3db7b4ae10
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX
 author: windows-driver-content
 description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request retrieves information about a USB port and the device that is attached to the port, if there is one.Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
 old-location: buses\ioctl_usb_get_node_connection_information_ex.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: d056dd82-815d-42da-8d2a-490474f68782
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_node_connection_information_ex, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, usbirp_61c188b5-2820-4601-b2de-08bf30109824.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,7 +104,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540
 
 The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
-## remarks
+## -remarks
 
 Here is an example that shows how to get the speed of the hub port by sending this request.
 

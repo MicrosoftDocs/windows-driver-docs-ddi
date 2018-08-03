@@ -4,7 +4,7 @@ title: GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION
 author: windows-driver-content
 description: The CLIENT_QuerySetControllerInformation event callback function queries the general-purpose I/O (GPIO) controller driver for the specified set of attributes of the GPIO controller.
 old-location: gpio\client_querysetcontrollerinformation.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 898AE09B-2C92-4229-9A86-901CDA98CFAA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

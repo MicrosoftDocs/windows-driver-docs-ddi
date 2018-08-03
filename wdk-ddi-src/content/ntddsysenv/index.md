@@ -17,6 +17,7 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This is the include file that defines all constants and types for
+accessing the system variable device interface.
 
 - [Windows kernel](../_kernel/index.md)

@@ -2,13 +2,13 @@
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS
 title: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS
 author: windows-driver-content
-description: This callback function handles IOCTLs outside of the class extension.
-old-location: sensors\evtsensordeviceiocontrol.htm
-old-project: sensors
-ms.assetid: 8AA23EEF-310B-4989-B41A-0A178886DC6D
+description: This callback function sets the threshold for one or more data fields associated with a sensor.
+old-location: sensors\evtsensorsetdatathresholds.htm
+tech.root: sensors
+ms.assetid: 297C0F35-8A18-47CF-8040-BA429963AC5F
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
-ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensordeviceiocontrol, sensorscx/EvtSensorSetDataThresholds
+ms.date: 5/3/2018
+ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensorsetdatathresholds, sensorscx/EvtSensorSetDataThresholds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-This callback function handles IOCTLs outside of the class extension.
+This callback function sets the threshold for one or more data fields associated with a sensor.
 
 
 ## -parameters
@@ -63,33 +63,9 @@ This callback function handles IOCTLs outside of the class extension.
 A reference to a sensor object.
 
 
-### -param pThresholds
+### -param pThresholds [in]
 
-
-
-
-
-
-
-
-#### - InputBufferLength [in]
-
-The length of the input buffer (in bytes).
-
-
-#### - IoControlCode [in]
-
-The code that indicates which device I/O control function is to be executed.
-
-
-#### - OutputBufferLength [in]
-
-The length of the output buffer (in bytes).
-
-
-#### - Request [in]
-
-A handle to a framework request object that represents the I/O request.
+A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -returns
@@ -98,7 +74,9 @@ A handle to a framework request object that represents the I/O request.
 
 This function returns STATUS_SUCCESS when completed successfully.
 
-<b>Note</b> The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.
+<b>Note</b> The class extension (CX) only uses the NT_SUCCESS macro to 
+		  determine if the call to the driver’s Evt function was successful, 
+		  but does not take any action if the function failed or does not return STATUS_SUCCESS.
 
 
 
@@ -107,9 +85,18 @@ This function returns STATUS_SUCCESS when completed successfully.
 
 
 
-This function is implemented by the driver and is called by the class extension. The driver is responsible for interfacing with the driver framework and resolving the IRP for IOCTLs that are forwarded to this function.
-
-<b>Note</b> If the driver needs to queue the IRP, it must copy the IRP to an IoQueue that the driver owns. This will prevent all IRPs for the driver to be stalled until completion.
+This function must be implemented by the driver and is called by the class extension.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
+ 
+
+ 
 

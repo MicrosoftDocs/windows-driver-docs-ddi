@@ -4,7 +4,7 @@ title: IWDFIoQueue::PurgeSynchronously
 author: windows-driver-content
 description: The PurgeSynchronously method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. The method returns after all outstanding requests are canceled.
 old-location: wdf\iwdfioqueue_purgesynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

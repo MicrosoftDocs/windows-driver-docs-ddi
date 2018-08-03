@@ -4,7 +4,7 @@ title: GdiEndPageEMF function
 author: windows-driver-content
 description: The GdiEndPageEMF function ends EMF playback operations for a physical page of an EMF-formatted print job.
 old-location: print\gdiendpageemf.htm
-old-project: print
+tech.root: print
 ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

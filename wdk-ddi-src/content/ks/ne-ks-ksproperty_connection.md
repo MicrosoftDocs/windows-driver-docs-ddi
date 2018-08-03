@@ -4,7 +4,7 @@ title: KSPROPERTY_CONNECTION
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_connection.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5129FB6F-528B-4795-9798-9707DCD57A7D
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

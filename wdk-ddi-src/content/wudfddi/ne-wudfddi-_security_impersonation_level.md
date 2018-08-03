@@ -4,7 +4,7 @@ title: "_SECURITY_IMPERSONATION_LEVEL"
 author: windows-driver-content
 description: The SECURITY_IMPERSONATION_LEVEL enumeration contains values that identify security impersonation levels.
 old-location: wdf\security_impersonation_level.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

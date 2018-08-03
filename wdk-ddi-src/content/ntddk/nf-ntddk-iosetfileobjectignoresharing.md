@@ -4,7 +4,7 @@ title: IoSetFileObjectIgnoreSharing function
 author: windows-driver-content
 description: The IoSetFileObjectIgnoreSharing routine sets a file object to ignore file sharing access checks.
 old-location: ifsk\iosetfileobjectignoresharing.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 14863379-0639-4D24-AFA4-AE2196328B87
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

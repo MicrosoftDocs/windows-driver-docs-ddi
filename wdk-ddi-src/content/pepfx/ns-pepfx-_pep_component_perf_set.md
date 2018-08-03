@@ -4,7 +4,7 @@ title: "_PEP_COMPONENT_PERF_SET"
 author: windows-driver-content
 description: The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set.
 old-location: kernel\pep_component_perf_set.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E4EB8052-545C-46AE-A879-1F216B7FD20B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

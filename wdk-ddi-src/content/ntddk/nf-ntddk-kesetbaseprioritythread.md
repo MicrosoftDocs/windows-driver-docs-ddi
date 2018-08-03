@@ -4,7 +4,7 @@ title: KeSetBasePriorityThread function
 author: windows-driver-content
 description: The KeSetBasePriorityThread routine sets the run-time priority, relative to the current process, for a given thread.
 old-location: kernel\kesetbaseprioritythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7070070c-a953-4120-bddf-c1a7f080ef50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

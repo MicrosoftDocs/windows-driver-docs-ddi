@@ -4,7 +4,7 @@ title: "_MPIO_DISK_HEALTH_CLASS"
 author: windows-driver-content
 description: The MPIO_DISK_HEALTH_CLASS structure contains the health information for a multi-path disk.
 old-location: storage\mpio_disk_health_class.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 07b04bad-9d52-4a32-8834-48cd5803844c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

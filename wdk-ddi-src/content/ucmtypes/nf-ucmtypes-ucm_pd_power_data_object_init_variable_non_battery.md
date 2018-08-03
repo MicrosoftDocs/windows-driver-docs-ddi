@@ -4,10 +4,10 @@ title: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function
 author: windows-driver-content
 description: Initializes a UCM_PD_POWER_DATA_OBJECT structure as a Variable Supply Non Battery type Power Data Object.
 old-location: buses\ucm_pd_power_data_object_init_variable_non_battery.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: BBC8975A-E5B1-4137-83D8-891075A8F4D0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_variable_non_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices

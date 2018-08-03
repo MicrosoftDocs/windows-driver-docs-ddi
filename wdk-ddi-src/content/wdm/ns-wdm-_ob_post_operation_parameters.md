@@ -4,7 +4,7 @@ title: "_OB_POST_OPERATION_PARAMETERS"
 author: windows-driver-content
 description: The OB_POST_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

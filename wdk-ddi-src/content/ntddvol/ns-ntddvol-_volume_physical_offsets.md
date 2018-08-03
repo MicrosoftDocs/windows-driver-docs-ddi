@@ -4,7 +4,7 @@ title: "_VOLUME_PHYSICAL_OFFSETS"
 author: windows-driver-content
 description: The VOLUME_PHYSICAL_OFFSETS structure contains an array of physical offsets and accompanying physical disk numbers and is used with IOCTL_VOLUME_LOGICAL_TO_PHYSICAL to request a series of pairs of physical offsets and disk numbers that correspond to a single logical offset.
 old-location: storage\volume_physical_offsets.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 876cb283-ce0d-44ed-b515-d4ee31089b88
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

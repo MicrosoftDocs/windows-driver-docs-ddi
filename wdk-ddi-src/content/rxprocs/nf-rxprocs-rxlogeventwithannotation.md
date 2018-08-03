@@ -4,7 +4,7 @@ title: RxLogEventWithAnnotation function
 author: windows-driver-content
 description: RxLogEventWithAnnotation allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 old-location: ifsk\rxlogeventwithannotation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

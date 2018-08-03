@@ -4,7 +4,7 @@ title: "_KEYBOARD_SCAN_STATE"
 author: windows-driver-content
 description: The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard.
 old-location: hid\keyboard_scan_state.htm
-old-project: hid
+tech.root: hid
 ms.assetid: fd6cba1d-e32c-4ee8-b827-826e5065ca8b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

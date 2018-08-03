@@ -4,7 +4,7 @@ title: PI8042_SYNCH_WRITE_PORT
 author: windows-driver-content
 description: The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine.
 old-location: hid\pi8042_synch_write_port.htm
-old-project: hid
+tech.root: hid
 ms.assetid: f4b0642c-0355-46ae-9c23-fc9c98dfaf21
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

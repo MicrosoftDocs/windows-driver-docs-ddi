@@ -16,7 +16,8 @@ tech.root: kernel
 
 ## -description
 
+Thsi header defines function prototypes for accessing I/O ports and     memory on I/O adapters.
 
-This header is used by kernel. For more information, see:
+For information about accessing device registers, see:
 
-- [Windows kernel](../_kernel/index.md)
+- [Reading and Writing to Device Registers](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers)

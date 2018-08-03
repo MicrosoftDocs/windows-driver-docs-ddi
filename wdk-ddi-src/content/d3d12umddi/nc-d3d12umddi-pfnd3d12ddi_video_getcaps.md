@@ -4,7 +4,7 @@ title: PFND3D12DDI_VIDEO_GETCAPS
 author: windows-driver-content
 description: The pfnGetCaps callback function defines an entry point for video specific caps.
 old-location: display\pfnd3d12ddi_video_getcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 6875B754-115F-481D-8D46-2A383BA6B5E7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # PFND3D12DDI_VIDEO_GETCAPS callback function
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <i>pfnGetCaps</i> callback function defines an entry point for video specific caps.
+The <i>pfnGetCaps</i> callback function defines an entry point for video specific capabilities.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ The <i>pfnGetCaps</i> callback function defines an entry point for video specifi
 The handle of a device.
 
 
-### -param *pArgs [in]
+### -param *pArgs
 
- Values used to get capabilities.
+[in] Values used to get capabilities.
 
 
 ## -returns
@@ -129,7 +129,7 @@ D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILES
 </table>
  
 
-D3D12DDICAPS_TYPE_VIDEO_DECODE_FORMATS 
+D3D12DDICAPS_TYPE_VIDEO_DECODE_FORMATS
 
 <table>
 <tr>
@@ -151,7 +151,7 @@ D3D12DDICAPS_TYPE_VIDEO_DECODE_FORMATS
 </table>
  
 
-D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT 
+D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT
 
 <table>
 <tr>
@@ -195,7 +195,7 @@ D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES
 </table>
  
 
-D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT 
+D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT
 
 <table>
 <tr>
@@ -217,7 +217,7 @@ D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT
 </table>
  
 
-D3D12DDICAPS_TYPE_VIDEO_PROCESS_MAX_INPUT_STREAMS 
+D3D12DDICAPS_TYPE_VIDEO_PROCESS_MAX_INPUT_STREAMS
 
 <table>
 <tr>
@@ -239,7 +239,7 @@ D3D12DDICAPS_TYPE_VIDEO_PROCESS_MAX_INPUT_STREAMS
 </table>
  
 
-D3D12DDICAPS_TYPE_VIDEO_PROCESS_REFERENCE_INFO 
+D3D12DDICAPS_TYPE_VIDEO_PROCESS_REFERENCE_INFO
 
 <table>
 <tr>

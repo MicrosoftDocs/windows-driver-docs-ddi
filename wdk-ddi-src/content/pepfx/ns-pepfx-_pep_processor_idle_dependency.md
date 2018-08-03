@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_IDLE_DEPENDENCY"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_DEPENDENCY structure specifies the dependencies of a platform idle state on the specified processor.
 old-location: kernel\pep_processor_idle_dependency.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8C2C074B-3D59-416A-BCBD-2A0117F86776
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

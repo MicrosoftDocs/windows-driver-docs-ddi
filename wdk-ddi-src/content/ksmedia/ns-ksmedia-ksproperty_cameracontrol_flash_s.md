@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_FLASH_S
 author: windows-driver-content
 description: Describes flash control properties in the PROPSETID_VIDCAP_CAMERACONTROL_FLASH camera control property set. This structure specifies property values that are used by applications to configure the camera's flash.
 old-location: stream\ksproperty_cameracontrol_flash_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5d02c019-9a4a-458a-8361-7597bb1fe1a2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

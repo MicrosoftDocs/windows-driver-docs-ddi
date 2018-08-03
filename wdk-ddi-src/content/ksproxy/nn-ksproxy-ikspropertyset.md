@@ -4,7 +4,7 @@ title: IKsPropertySet
 author: windows-driver-content
 description: The IKsPropertySet interface provides methods that access properties of KS objects that are implemented in a KS minidriver.
 old-location: stream\ikspropertyset.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9999d6ec-977c-4425-ad38-0c5478272c76
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

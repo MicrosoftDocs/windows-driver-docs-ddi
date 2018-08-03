@@ -4,10 +4,10 @@ title: "_NDIS_MEDIUM"
 author: windows-driver-content
 description: The NDIS_MEDIUM enumeration type identifies the medium types that NDIS drivers support.
 old-location: netvista\ndis_medium.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_MEDIUM, NDIS_MEDIUM, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumIP, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumMax, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWirelessWan, PNDIS_MEDIUM, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MEDIUM, netvista.ndis_medium, ntddndis/NDIS_MEDIUM, ntddndis/NdisMedium1394, ntddndis/NdisMedium802_3, ntddndis/NdisMedium802_5, ntddndis/NdisMediumArcnet878_2, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumAtm, ntddndis/NdisMediumBpc, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumDix, ntddndis/NdisMediumFddi, ntddndis/NdisMediumIP, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumIrda, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumLoopback, ntddndis/NdisMediumMax, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumWan, ntddndis/NdisMediumWirelessWan, ntddndis/PNDIS_MEDIUM, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,6 +175,8 @@ Specifies an NDIS loopback network.
 
 
 ### -field NdisMediumWiMAX
+
+Specifies an IEEE 802.16 WiMAX network.
 
 
 ### -field NdisMediumIP

@@ -4,7 +4,7 @@ title: KSSTREAM_HEADER
 author: windows-driver-content
 description: The KSSTREAM_HEADER structure is a variable-length structure that describes a packet of data to be read from or written to a streaming driver pin.
 old-location: stream\ksstream_header.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

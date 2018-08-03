@@ -4,7 +4,7 @@ title: SeFreePrivileges function
 author: windows-driver-content
 description: The SeFreePrivileges routine frees a privilege set returned by SeAccessCheck.
 old-location: kernel\sefreeprivileges.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5b8ba64e-3147-45b4-9861-da2186c2ba10
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_BDA_CAS_CHECK_ENTITLEMENTTOKEN"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_cas_check_entitlementtoken.htm
-old-project: stream
+tech.root: stream
 ms.assetid: B6B645DF-AB4C-42FE-A664-AF9C9DD4F9E6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

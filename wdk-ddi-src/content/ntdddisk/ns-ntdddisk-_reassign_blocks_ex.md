@@ -4,7 +4,7 @@ title: "_REASSIGN_BLOCKS_EX"
 author: windows-driver-content
 description: The REASSIGN_BLOCKS_EX structure is used in conjunction with the IOCTL_DISK_REASSIGN_BLOCKS_EX request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 old-location: storage\reassign_blocks_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: D1BE17A0-39F1-496A-AD53-46A3F136D793
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

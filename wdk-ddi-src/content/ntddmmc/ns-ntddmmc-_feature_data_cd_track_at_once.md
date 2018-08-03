@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_CD_TRACK_AT_ONCE"
 author: windows-driver-content
 description: The FEATURE_DATA_CD_TRACK_AT_ONCE structure holds information about the CD Track at Once feature.
 old-location: storage\feature_data_cd_track_at_once.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e3ce42a6-0d94-46cb-9831-c29f92a677cd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

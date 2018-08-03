@@ -4,7 +4,7 @@ title: "_KSCAMERA_PROFILE_PININFO"
 author: windows-driver-content
 description: This structure specifies the available list of media types for each of the camera driver pins.
 old-location: stream\kscamera_profile_pininfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 09B7D454-D28C-4E3F-9FF3-0DD595CDB90A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

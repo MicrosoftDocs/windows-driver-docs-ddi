@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function
 author: windows-driver-content
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer in nonpaged memory.
 old-location: spb\spb_transfer_list_entry_init_non_paged.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 5ED8DC18-75B8-40EB-B7D2-6F8597BCEBF9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

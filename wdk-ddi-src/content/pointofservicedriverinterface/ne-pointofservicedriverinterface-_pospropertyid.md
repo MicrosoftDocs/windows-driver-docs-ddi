@@ -4,7 +4,7 @@ title: "_PosPropertyId"
 author: windows-driver-content
 description: This enumeration defines the property identifiers for the properties that device drivers need to handle to be considered a barcode scanner or a magnetic strip reader (MSR).
 old-location: pos\pospropertyid.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 82864db1-ee0a-4d41-a516-4e04befd2e89
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

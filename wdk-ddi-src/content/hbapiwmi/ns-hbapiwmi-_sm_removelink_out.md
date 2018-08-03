@@ -4,7 +4,7 @@ title: "_SM_RemoveLink_OUT"
 author: windows-driver-content
 description: The SM_RemoveLink_OUT structure is used to receive output parameters from the SM_RemoveLink WMI method.
 old-location: storage\sm_removelink_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f3b82d62-8596-4bb9-b20b-39f232527d7a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

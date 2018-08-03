@@ -4,10 +4,10 @@ title: "_DXGK_TIMED_OPERATION"
 author: windows-driver-content
 description: The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the Timed Operation Interface.
 old-location: display\dxgk_timed_operation.htm
-old-project: display
+tech.root: display
 ms.assetid: 6b377ba5-cd3b-433e-bd9c-315203c3bc69
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], _DXGK_TIMED_OPERATION, display.dxgk_timed_operation, dispmprt/DXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

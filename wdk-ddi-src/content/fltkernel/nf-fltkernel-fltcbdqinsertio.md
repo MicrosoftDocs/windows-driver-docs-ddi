@@ -4,7 +4,7 @@ title: FltCbdqInsertIo function
 author: windows-driver-content
 description: FltCbdqInsertIo inserts the callback data structure for an I/O operation into a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqinsertio.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d20d2626-89fb-4bc5-9309-88977b921078
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -122,6 +122,7 @@ The callback data structure was not inserted into the callback data queue becaus
 
 
 <i>FltCbdqInsertIo</i> inserts the specified callback data (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) structure into a minifilter driver's callback data queue. 
+* Note that there is a potential race condition between a filter driver inserting the callback data, and the associated IRP being cancelled. This can be avoided by immediately invoking the queue's cancellation routine if the IRP has already been cancelled. 
 
 Minifilter drivers can use the <b>FltCbdq</b><i>Xxx</i> routines to implement a callback data queue for IRP-based I/O operations. By using these routines, minifilter drivers can make their queues cancel-safe; the system transparently handles I/O cancellation for the minifilter drivers. 
 

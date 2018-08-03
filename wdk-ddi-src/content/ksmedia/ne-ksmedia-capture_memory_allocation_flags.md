@@ -4,7 +4,7 @@ title: CAPTURE_MEMORY_ALLOCATION_FLAGS
 author: windows-driver-content
 description: The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces to which AVStream minidrivers can capture audio and video data.
 old-location: stream\capture_memory_allocation_flags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3b96301a-28a5-494b-bd12-8d3d4516730e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_SECURITY_IMPERSONATION_LEVEL"
 author: windows-driver-content
 description: The SECURITY_IMPERSONATION_LEVEL enumeration type contains values that specify security impersonation levels. Security impersonation levels govern the degree to which a server process can act on behalf of a client process.
 old-location: ifsk\security_impersonation_level.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6033b33f-74cd-4034-baff-a931b7add370
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

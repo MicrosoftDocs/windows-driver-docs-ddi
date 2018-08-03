@@ -4,7 +4,7 @@ title: "_SUB_Q_TRACK_ISRC"
 author: windows-driver-content
 description: The SUB_Q_TRACK_ISC contains position information and is used in conjunction with the SUB_Q_CHANNEL_DATA structure.
 old-location: storage\sub_q_track_isrc.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0439bd46-b009-435d-aab7-efca48a17cb7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

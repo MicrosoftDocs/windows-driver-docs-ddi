@@ -4,7 +4,7 @@ title: RtlCheckBit macro
 author: windows-driver-content
 description: The RtlCheckBit routine determines whether a particular bit in a given bitmap variable is clear or set.
 old-location: kernel\rtlcheckbit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,26 +60,17 @@ The <b>RtlCheckBit</b> routine determines whether a particular bit in a given bi
 
 ### -param BMH
 
-TBD
-
-
-### -param BP
-
-TBD
-
-
-
-
-
-
-#### - BitMapHeader [in]
+[in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine. 
 
 
-#### - BitPosition [in]
+### -param BP
+
+[in]
 
 Specifies which bit to check. This is a zero-based value indicating the position of the bit to be tested. 
+
 
 
 ## -remarks

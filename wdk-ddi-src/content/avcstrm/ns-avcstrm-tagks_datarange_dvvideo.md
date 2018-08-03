@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_DVVIDEO
 author: windows-driver-content
 description: The KS_DATARANGE_DV_AVC structure stores a range of digital video formats.
 old-location: stream\ks_datarange_dvvideo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 89cbb950-c3e5-4d79-aa7f-fd64cd67fd5e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

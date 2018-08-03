@@ -4,7 +4,7 @@ title: IWDTFActions2::DisableObjectLogging
 author: windows-driver-content
 description: Disable object logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_disableobjectlogging.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: aadc9fa0-fba0-4caa-bf45-42c74c85c4e6
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

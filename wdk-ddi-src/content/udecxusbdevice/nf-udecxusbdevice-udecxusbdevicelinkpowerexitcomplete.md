@@ -4,10 +4,10 @@ title: UdecxUsbDeviceLinkPowerExitComplete function
 author: windows-driver-content
 description: Completes an asynchronous request for sending the device to a low power state.
 old-location: buses\udecxusbdevicelinkpowerexitcomplete.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: EB41B75C-57E0-4E09-8A7A-2D6BB377ACE7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUsbDeviceLinkPowerExitComplete, UdecxUsbDeviceLinkPowerExitComplete function [Buses], buses.udecxusbdevicelinkpowerexitcomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: AtaPortConvertPhysicalAddressToUlong function
 author: windows-driver-content
 description: The AtaPortConvertPhysicalAddressToUlong routine truncates an address of type IDE_PHYSICAL_ADDRESS to a ULONG.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportconvertphysicaladdresstoulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cd63cb65-701e-46e2-ba32-971f91f9eb29
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

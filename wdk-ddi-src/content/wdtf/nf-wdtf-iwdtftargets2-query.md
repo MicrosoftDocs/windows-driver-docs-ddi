@@ -4,7 +4,7 @@ title: IWDTFTargets2::Query
 author: windows-driver-content
 description: Returns a subset of the items in the collection.
 old-location: dtf\iwdtftargets2_query.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 0f3537f0-903d-405a-bbe4-5cfbe7817ea1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

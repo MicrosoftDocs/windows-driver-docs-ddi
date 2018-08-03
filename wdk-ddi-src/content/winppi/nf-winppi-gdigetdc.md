@@ -4,7 +4,7 @@ title: GdiGetDC function
 author: windows-driver-content
 description: The GdiGetDC function returns a handle to a printer's device context.
 old-location: print\gdigetdc.htm
-old-project: print
+tech.root: print
 ms.assetid: f8aacb6d-4e8a-4fdb-902c-3d0efbc40f08
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

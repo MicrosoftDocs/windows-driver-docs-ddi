@@ -4,7 +4,7 @@ title: "_TARGET_DEVICE_CUSTOM_NOTIFICATION"
 author: windows-driver-content
 description: The TARGET_DEVICE_CUSTOM_NOTIFICATION structure describes a custom device event.
 old-location: kernel\target_device_custom_notification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fa6530a4-13b7-472b-a571-682323edc64e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

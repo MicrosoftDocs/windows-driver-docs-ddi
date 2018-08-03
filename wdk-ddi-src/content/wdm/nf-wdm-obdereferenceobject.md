@@ -4,7 +4,7 @@ title: ObDereferenceObject macro
 author: windows-driver-content
 description: The ObDereferenceObject routine decrements the given object's reference count and performs retention checks.
 old-location: kernel\obdereferenceobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8cd2d7ae-ebbe-41c6-8773-7a517bc6f714
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -58,18 +58,11 @@ The <b>ObDereferenceObject</b> routine decrements the given object's reference c
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - Object [in]
+### -param a [in]
 
 Pointer to the object's body. 
+
+
 
 
 ## -remarks

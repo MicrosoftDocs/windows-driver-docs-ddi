@@ -4,10 +4,10 @@ title: NdisMSetBusData function
 author: windows-driver-content
 description: NDIS drivers call the NdisMSetBusData function to write to the configuration space of a device.
 old-location: netvista\ndismsetbusdata.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMSetBusData, NdisMSetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, ndis/NdisMSetBusData, netvista.ndismsetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

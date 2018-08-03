@@ -4,7 +4,7 @@ title: "_TRACK_INFORMATION2"
 author: windows-driver-content
 description: The TRACK_INFORMATION2 structure is used to report track information.
 old-location: storage\track_information2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

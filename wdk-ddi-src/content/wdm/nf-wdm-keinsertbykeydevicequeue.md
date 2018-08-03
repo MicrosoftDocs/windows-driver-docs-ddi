@@ -4,7 +4,7 @@ title: KeInsertByKeyDeviceQueue function
 author: windows-driver-content
 description: The KeInsertByKeyDeviceQueue routine acquires the spin lock for the specified DeviceQueue and queues an entry according to the specified sort-key value if the device queue is set to a busy state.
 old-location: kernel\keinsertbykeydevicequeue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fa395673-108f-4cf0-b05f-a160aa0b02ea
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

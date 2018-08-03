@@ -4,7 +4,7 @@ title: KS_SEEKING_FLAGS
 author: windows-driver-content
 description: The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the KSPROPERTY_POSITIONS structure.
 old-location: stream\ks_seeking_flags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8e27872e-4f38-4d0e-92bc-5e759a9db195
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

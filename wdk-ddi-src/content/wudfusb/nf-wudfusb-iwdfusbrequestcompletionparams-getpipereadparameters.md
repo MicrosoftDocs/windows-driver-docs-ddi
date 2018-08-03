@@ -4,7 +4,7 @@ title: IWDFUsbRequestCompletionParams::GetPipeReadParameters
 author: windows-driver-content
 description: The GetPipeReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipereadparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

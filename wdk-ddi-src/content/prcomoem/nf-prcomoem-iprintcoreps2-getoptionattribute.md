@@ -4,7 +4,7 @@ title: IPrintCorePS2::GetOptionAttribute
 author: windows-driver-content
 description: The IPrintCorePS2::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcoreps2_getoptionattribute.htm
-old-project: print
+tech.root: print
 ms.assetid: b9ac4c2f-1eba-4425-a102-56fef6d0f5a7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: FltCheckOplock function
 author: windows-driver-content
 description: A minifilter driver calls FltCheckOplock to synchronize the callback data structure for an IRP-based file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fltcheckoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d6d8c83d-ca89-440a-b6a1-7d384030f7da
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

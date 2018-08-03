@@ -4,7 +4,7 @@ title: IKsReferenceClock::GetPhysicalTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetPhysicalTime method queries the associated reference clock for the current physical time.
 old-location: stream\iksreferenceclock_getphysicaltime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 96c8d5ef-e9ab-40a6-88e1-56efdb7157b7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

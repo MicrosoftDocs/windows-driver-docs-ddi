@@ -4,7 +4,7 @@ title: "_ACCESS_STATE"
 author: windows-driver-content
 description: The ACCESS_STATE structure describes the state of an access in progress.
 old-location: ifsk\access_state.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

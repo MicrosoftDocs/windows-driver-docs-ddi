@@ -4,7 +4,7 @@ title: PsGetSiloContext function
 author: windows-driver-content
 description: This routine retrieves the silo context from the specified silo and slot.
 old-location: kernel\psgetsilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

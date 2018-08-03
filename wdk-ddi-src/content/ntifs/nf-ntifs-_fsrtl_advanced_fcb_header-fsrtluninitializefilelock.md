@@ -4,7 +4,7 @@ title: FsRtlUninitializeFileLock function
 author: windows-driver-content
 description: The FsRtlUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fsrtluninitializefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e92763e2-a15a-41cd-9f69-ec759b254929
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

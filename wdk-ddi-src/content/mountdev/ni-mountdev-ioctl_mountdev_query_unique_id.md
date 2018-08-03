@@ -4,7 +4,7 @@ title: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 author: windows-driver-content
 description: Support for this IOCTL by mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_unique_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 866b9383-d73d-4be1-a4de-b78c9558c3ce
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -99,6 +99,9 @@ The device class or volume driver returns the <a href="https://msdn.microsoft.co
 
 
 
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
 
 
 

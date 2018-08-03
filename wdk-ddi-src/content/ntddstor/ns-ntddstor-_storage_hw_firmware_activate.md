@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_ACTIVATE"
 author: windows-driver-content
 description: This structure contains information about the downloaded firmware to activate.
 old-location: storage\storage_hw_firmware_activate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FCE1DE7B-CDFE-4533-90E7-A400EC236007
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

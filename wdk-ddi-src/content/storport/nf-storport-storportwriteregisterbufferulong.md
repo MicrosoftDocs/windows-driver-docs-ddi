@@ -4,7 +4,7 @@ title: StorPortWriteRegisterBufferUlong macro
 author: windows-driver-content
 description: The StorPortWriteRegisterBufferUlong routine transfers a given number of ULONG values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a610f6c5-6627-406e-9b33-f321c6d55a89
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

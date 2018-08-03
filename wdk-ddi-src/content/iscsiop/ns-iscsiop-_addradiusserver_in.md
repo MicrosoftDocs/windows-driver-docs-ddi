@@ -4,7 +4,7 @@ title: "_AddRADIUSServer_IN"
 author: windows-driver-content
 description: The AddRADIUSServer_IN structure holds the input data for the AddRADIUSServer method, which is used to add a new RADIUS server entry to existing list.
 old-location: storage\addradiusserver_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7b7b9f3b-df33-4886-bd22-23429cb05ea7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

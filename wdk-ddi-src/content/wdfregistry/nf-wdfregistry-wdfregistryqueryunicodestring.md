@@ -4,7 +4,7 @@ title: WdfRegistryQueryUnicodeString function
 author: windows-driver-content
 description: The WdfRegistryQueryUnicodeString method retrieves the string data that is currently assigned to a specified registry string value and copies the string to a specified UNICODE_STRING structure.
 old-location: wdf\wdfregistryqueryunicodestring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: efbe5526-274b-416b-8e5c-8b18fe754b43
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

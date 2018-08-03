@@ -4,7 +4,7 @@ title: ClfsAllocReservedLog function
 author: windows-driver-content
 description: The ClfsAllocReservedLog routine reserves space in a marshalling area for a set of records.
 old-location: kernel\clfsallocreservedlog.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 05e4fb47-38ef-4b46-a1bb-220c5b1a63ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

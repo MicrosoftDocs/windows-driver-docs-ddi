@@ -4,7 +4,7 @@ title: SeCreateClientSecurityFromSubjectContext function
 author: windows-driver-content
 description: The SeCreateClientSecurityFromSubjectContext routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurityfromsubjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

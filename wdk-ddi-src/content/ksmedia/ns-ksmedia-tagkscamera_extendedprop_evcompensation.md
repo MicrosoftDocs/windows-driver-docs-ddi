@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
 author: windows-driver-content
 description: The EV Compensation Control provides for exposure control that is adjusted by increments of EV compensation steps.
 old-location: stream\kscamera_extendedprop_evcompensation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: C9CF39F2-5081-4B99-BFD1-9F7130B27369
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

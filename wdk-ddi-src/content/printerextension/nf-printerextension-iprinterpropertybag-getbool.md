@@ -4,7 +4,7 @@ title: IPrinterPropertyBag::GetBool
 author: windows-driver-content
 description: Reads a specified boolean property.
 old-location: print\iprinterpropertybag_getbool.htm
-old-project: print
+tech.root: print
 ms.assetid: 0C7ED962-F4E2-4F2F-B2CF-96DCFC71C4DD
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: FltGetIrpName function
 author: windows-driver-content
 description: The FltGetIrpName routine returns the name for a major function code as a printable string.
 old-location: ifsk\fltgetirpname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d4087825-cdfd-4de5-a5b7-f95f6f0563e6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

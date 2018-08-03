@@ -4,10 +4,10 @@ title: "_NET_BUFFER_DATA"
 author: windows-driver-content
 description: The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to a NET_BUFFER structure, and it identifies the next NET_BUFFER structure in a list of NET_BUFFER structures.
 old-location: netvista\net_buffer_data.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d1b5e1c7-5ade-4f54-a5f1-200420964f0e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNET_BUFFER_DATA, NET_BUFFER_DATA, NET_BUFFER_DATA structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_DATA, PNET_BUFFER_DATA structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_DATA, ndis/NET_BUFFER_DATA, ndis/PNET_BUFFER_DATA, ndis_netbuf_structures_ref_3e603c77-b97e-4c1f-9fee-e874e741a543.xml, netvista.net_buffer_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices

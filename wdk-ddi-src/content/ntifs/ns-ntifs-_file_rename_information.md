@@ -4,7 +4,7 @@ title: "_FILE_RENAME_INFORMATION"
 author: windows-driver-content
 description: The FILE_RENAME_INFORMATION structure is used to rename a file.
 old-location: ifsk\file_rename_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -80,7 +80,13 @@ Set to <b>TRUE</b> to specify that if a file with the given name already exists,
 
 ### -field RootDirectory
 
-If the file is not being moved to a different directory, or if the <b>FileName</b> member contains the full pathname, this member is <b>NULL</b>. Otherwise, it is a handle for the root directory under which the file will reside after it is renamed. 
+A handle that **IopOpenLinkOrRenameTarget** uses to open the target directory. 
+
+If the file is not being moved to a different directory, or if the <b>FileName</b> member contains the full pathname, this member is <b>NULL</b>. 
+Otherwise, it is a handle for the root directory under which the file will reside after it is renamed. 
+
+To perform two open operations that won't cause a sharing conflict, you can open **RootDirectory** by requesting traverse | read-attribute. **IopOpenLinkOrRenameTarget** can then perform a relative open by requesting FILE_WRITE_DATA | SYNCHRONISE. 
+These two opens would not cause sharing conflict. 
 
 
 ### -field FileNameLength

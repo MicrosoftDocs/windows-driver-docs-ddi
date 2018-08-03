@@ -4,10 +4,10 @@ title: DXGKDDI_DESTROYOVERLAY
 author: windows-driver-content
 description: The DxgkDdiDestroyOverlay function disables overlay hardware and deletes the specified overlay handle.
 old-location: display\dxgkddidestroyoverlay.htm
-old-project: display
+tech.root: display
 ms.assetid: ea4672a2-ba21-42d4-9ff3-4fa611f86c90
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_DESTROYOVERLAY, DXGKDDI_DESTROYOVERLAY callback, DmFunctions_e4fa2e3e-ac60-4235-92cc-77e71116a4d4.xml, DxgkDdiDestroyOverlay, DxgkDdiDestroyOverlay callback function [Display Devices], d3dkmddi/DxgkDdiDestroyOverlay, display.dxgkddidestroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

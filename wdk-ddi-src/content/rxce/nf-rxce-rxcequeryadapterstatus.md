@@ -4,7 +4,7 @@ title: RxCeQueryAdapterStatus function
 author: windows-driver-content
 description: RxCeQueryAdapterStatus returns the ADAPTER_STATUS structure for a given transport in a caller-allocated buffer.
 old-location: ifsk\rxcequeryadapterstatus.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_BUS_RESET"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to create a bus reset request.
 old-location: ieee\irb_req_bus_reset.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 56B7D001-2EC3-4397-B520-193CCF52A9EE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

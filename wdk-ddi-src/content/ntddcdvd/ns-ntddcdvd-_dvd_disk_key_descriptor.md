@@ -4,7 +4,7 @@ title: "_DVD_DISK_KEY_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_DISK_KEY_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD disc key descriptor.
 old-location: storage\dvd_disk_key_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 48b0e44d-51bb-48b1-bcbc-6a51fde3c8db
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: FltSetCallbackDataDirty function
 author: windows-driver-content
 description: A minifilter driver's preoperation or postoperation callback routine calls FltSetCallbackDataDirty to indicate that it has modified the contents of the callback data structure.
 old-location: ifsk\fltsetcallbackdatadirty.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aee13598-84ff-48ef-96a6-e6f710c1e880
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

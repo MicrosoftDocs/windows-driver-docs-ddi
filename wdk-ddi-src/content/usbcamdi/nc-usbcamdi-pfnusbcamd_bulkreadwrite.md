@@ -4,7 +4,7 @@ title: PFNUSBCAMD_BulkReadWrite
 author: windows-driver-content
 description: The USBCAMD_BulkReadWrite service performs a read or write operation on the specified bulk pipe.
 old-location: stream\usbcamd_bulkreadwrite.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4888e6a7-be44-4ed9-80be-9dd7641653ef
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

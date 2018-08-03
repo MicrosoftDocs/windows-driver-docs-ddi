@@ -4,10 +4,10 @@ title: IOCTL_HPMI_BATTERY_UTILIZATION_HINT
 author: windows-driver-content
 description: Set command sent to HPMI to provide battery utilization hints.
 old-location: powermeter\ioctl_hpmi_battery_utilization_hint.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: CE326F69-64A4-466E-8A02-5C08AFF8490C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IOCTL_HPMI_BATTERY_UTILIZATION_HINT, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT, powermeter.ioctl_hpmi_battery_utilization_hint
 ms.prod: windows-hardware
 ms.technology: windows-devices

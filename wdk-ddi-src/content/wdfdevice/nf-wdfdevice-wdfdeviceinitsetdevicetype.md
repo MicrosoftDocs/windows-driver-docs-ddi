@@ -4,7 +4,7 @@ title: WdfDeviceInitSetDeviceType function
 author: windows-driver-content
 description: The WdfDeviceInitSetDeviceType method sets the device type for a specified device.
 old-location: wdf\wdfdeviceinitsetdevicetype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 26c5c998-fb10-45c3-b28c-91a759fa941e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

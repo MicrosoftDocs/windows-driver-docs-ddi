@@ -4,7 +4,7 @@ title: IWDTFLOG2::OutputInfo
 author: windows-driver-content
 description: Writes an informational entry to the test case log.
 old-location: dtf\iwdtflog2_outputinfo.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: bd98186f-5681-4611-9c27-eabfe4412df7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::Query
 author: windows-driver-content
 description: Returns a subset of the devices in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_query.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: f8b0cb77-828a-43c7-b0f3-34eca0da49bf
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

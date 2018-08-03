@@ -4,10 +4,10 @@ title: DXGKDDI_DPC_ROUTINE
 author: windows-driver-content
 description: The DxgkDdiDpcRoutine function is called back at IRQL DISPATCH_LEVEL after the display miniport driver calls DxgkCbQueueDpc.
 old-location: display\dxgkddidpcroutine.htm
-old-project: display
+tech.root: display
 ms.assetid: 2767906a-f084-4ccc-b24f-ba7d66c96477
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_DPC_ROUTINE, DXGKDDI_DPC_ROUTINE callback, DmFunctions_12213354-74a5-40a5-a061-fa47d5a8cb03.xml, DxgkDdiDpcRoutine, DxgkDdiDpcRoutine callback function [Display Devices], display.dxgkddidpcroutine, dispmprt/DxgkDdiDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices

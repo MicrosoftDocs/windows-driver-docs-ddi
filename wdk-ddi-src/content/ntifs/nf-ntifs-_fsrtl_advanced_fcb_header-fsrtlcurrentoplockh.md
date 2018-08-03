@@ -4,7 +4,7 @@ title: FsRtlCurrentOplockH function
 author: windows-driver-content
 description: A file system or filter driver calls FsRtlCurrentOplockH to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file.
 old-location: ifsk\fsrtlcurrentoplockh.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

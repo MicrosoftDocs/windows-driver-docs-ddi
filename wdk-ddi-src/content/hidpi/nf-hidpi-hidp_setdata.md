@@ -4,7 +4,7 @@ title: HidP_SetData function
 author: windows-driver-content
 description: The HidP_SetData routine sets a specified set of HID control button and value usages in a HID report.
 old-location: hid\hidp_setdata.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 41f7c240-4e50-4d6c-82aa-902ab05bf715
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

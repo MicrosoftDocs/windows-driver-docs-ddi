@@ -4,7 +4,7 @@ title: "_GetBindingSupport_OUT"
 author: windows-driver-content
 description: The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingSupport WMI method to the WMI client.
 old-location: storage\getbindingsupport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cd67b301-a94a-41dd-9c06-e6c674ea9173
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

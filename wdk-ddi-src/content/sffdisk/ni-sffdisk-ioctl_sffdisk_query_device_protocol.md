@@ -4,7 +4,7 @@ title: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 author: windows-driver-content
 description: User-mode applications use this IOCTL to retrieve a protocol value that identifies the card as either an SD card or an MMC card.
 old-location: sd\ioctl_sffdisk_query_device_protocol.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 47eeb4a9-dece-4500-bbe7-891f64437eef
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

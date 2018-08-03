@@ -4,7 +4,7 @@ title: "_KSPIN"
 author: windows-driver-content
 description: The KSPIN structure describes an instantiated pin.
 old-location: stream\kspin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0d290872-0944-4599-9deb-9a4f7b2df0e5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_DXGK_QUERYADAPTERINFOTYPE"
 author: windows-driver-content
 description: The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to retrieve.
 old-location: display\dxgk_queryadapterinfotype.htm
-old-project: display
+tech.root: display
 ms.assetid: 5cceffb1-853c-4635-b855-d0e3f107c23d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -30,16 +30,16 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+-	 HeaderDef
 api_location:
--	d3dkmddi.h
+-	 d3dkmddi.h
 api_name:
--	DXGK_QUERYADAPTERINFOTYPE
+-	 DXGK_QUERYADAPTERINFOTYPE
 product:
--Windows
+- Windows
 targetos: Windows
 req.typenames: DXGK_QUERYADAPTERINFOTYPE
 ---

@@ -4,7 +4,7 @@ title: IWDFDevice3::CreateInterrupt
 author: windows-driver-content
 description: The CreateInterrupt method creates a framework interrupt object.
 old-location: wdf\iwdfdevice3_createinterrupt.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: IDebugControl::OutputDisassemblyLines
 author: windows-driver-content
 description: The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
 old-location: debugger\outputdisassemblylines.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: fb69e052-1033-457d-bafb-bf4be4ea5966
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugControl interface [Windows Debugging],OutputDisassemblyLines method, IDebugControl.OutputDisassemblyLines, IDebugControl2 interface [Windows Debugging],OutputDisassemblyLines method, IDebugControl2::OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging],OutputDisassemblyLines method, IDebugControl3::OutputDisassemblyLines, IDebugControl::OutputDisassemblyLines, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], OutputDisassemblyLines method [Windows Debugging],IDebugControl interface, OutputDisassemblyLines method [Windows Debugging],IDebugControl2 interface, OutputDisassemblyLines method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputDisassemblyLines, dbgeng/IDebugControl3::OutputDisassemblyLines, dbgeng/IDebugControl::OutputDisassemblyLines, debugger.outputdisassemblylines
 ms.prod: windows-hardware
 ms.technology: windows-devices

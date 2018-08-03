@@ -4,7 +4,7 @@ title: RxNameCacheCreateEntry function
 author: windows-driver-content
 description: RxNameCacheCreateEntry allocates and initializes a NAME_CACHE structure with the given name string.
 old-location: ifsk\rxnamecachecreateentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1cfe2d2d-99fa-4dc2-b517-5026fd72d5d4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

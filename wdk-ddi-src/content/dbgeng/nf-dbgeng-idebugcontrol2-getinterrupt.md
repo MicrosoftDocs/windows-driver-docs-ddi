@@ -4,10 +4,10 @@ title: IDebugControl2::GetInterrupt
 author: windows-driver-content
 description: The GetInterrupt method checks whether a user interrupt was issued.
 old-location: debugger\getinterrupt.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 597bff1e-0bc1-4c18-9156-661a46cf8e7a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetInterrupt, GetInterrupt method [Windows Debugging], GetInterrupt method [Windows Debugging],IDebugControl interface, GetInterrupt method [Windows Debugging],IDebugControl2 interface, GetInterrupt method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetInterrupt method, IDebugControl2 interface [Windows Debugging],GetInterrupt method, IDebugControl2.GetInterrupt, IDebugControl2::GetInterrupt, IDebugControl3 interface [Windows Debugging],GetInterrupt method, IDebugControl3::GetInterrupt, IDebugControl::GetInterrupt, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, dbgeng/IDebugControl2::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, dbgeng/IDebugControl::GetInterrupt, debugger.getinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices

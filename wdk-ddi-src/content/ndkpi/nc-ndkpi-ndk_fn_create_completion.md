@@ -4,10 +4,10 @@ title: NDK_FN_CREATE_COMPLETION
 author: windows-driver-content
 description: The NdkCreateCompletion (NDK_FN_CREATE_COMPLETION) function completes the creation of an NDK object.
 old-location: netvista\ndk_fn_create_completion.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: C7A2792C-FDAE-4525-A8B1-7F8F6BA8249A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_COMPLETION, NDK_FN_CREATE_COMPLETION callback, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: pci
+tech.root: kernel
 ---
 
 # Wdm.h header
@@ -17,6 +17,9 @@ tech.root: pci
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header contains reference material that includes specific details about the routines, structures, and data types that you will need to use to write kernel-mode drivers. 
+
+For more information, see:
 
 - [Windows kernel](../_kernel/index.md)
+

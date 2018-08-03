@@ -4,7 +4,7 @@ title: IoWMISetSingleInstance function
 author: windows-driver-content
 description: The IoWMISetSingleInstance routine sets the values for properties within the data block instance that matches the specified WMI class and instance name.
 old-location: kernel\iowmisetsingleinstance.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

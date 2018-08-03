@@ -4,7 +4,7 @@ title: "_FILTER_AGGREGATE_BASIC_INFORMATION"
 author: windows-driver-content
 description: The FILTER_AGGREGATE_BASIC_INFORMATION structure contains basic information for a minifilter or legacy filter driver.
 old-location: ifsk\filter_aggregate_basic_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c60ac4b8-3e55-42c8-a693-4fc6bbec0de8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

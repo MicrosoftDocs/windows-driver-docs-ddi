@@ -4,7 +4,7 @@ title: KeSetImportanceDpc function
 author: windows-driver-content
 description: The KeSetImportanceDpc routine specifies how soon the DPC routine is run.
 old-location: kernel\kesetimportancedpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

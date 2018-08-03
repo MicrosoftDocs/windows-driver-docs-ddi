@@ -4,7 +4,7 @@ title: RtlLongPtrToShort function
 author: windows-driver-content
 description: Converts a value of type LONG_PTR to a value of type SHORT.
 old-location: kernel\rtllongptrtoshort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 934967A0-9CEF-4377-9505-EE4C4E9AF706
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_VENDOR_SPECIFIC"
 author: windows-driver-content
 description: The FEATURE_DATA_VENDOR_SPECIFIC structure holds information about a vendor-specific feature.
 old-location: storage\feature_data_vendor_specific.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 151e6456-4c1f-453b-9eb6-a139e0f93d6e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

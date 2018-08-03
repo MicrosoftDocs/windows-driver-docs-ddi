@@ -4,7 +4,7 @@ title: ScsiPortFlushDma function
 author: windows-driver-content
 description: The ScsiPortFlushDma routine flushes any data cached in the system DMA controller at the end of a transfer or terminates a system DMA transfer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportflushdma.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9cf4286b-1ff7-4113-a2dc-d8813c633dd6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

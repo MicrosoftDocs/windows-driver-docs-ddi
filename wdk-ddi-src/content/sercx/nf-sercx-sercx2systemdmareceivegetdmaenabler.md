@@ -4,7 +4,7 @@ title: SerCx2SystemDmaReceiveGetDmaEnabler function
 author: windows-driver-content
 description: The SerCx2SystemDmaReceiveGetDmaEnabler method gets the DMA enabler for the system DMA controller that is used for system-DMA-receive transactions.
 old-location: serports\sercx2systemdmareceivegetdmaenabler.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 0C1CEDD8-EA78-4188-AD05-99608B400C84
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

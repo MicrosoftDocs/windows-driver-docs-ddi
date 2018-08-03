@@ -4,7 +4,7 @@ title: KsDeviceSetBusData function
 author: windows-driver-content
 description: The KsDeviceSetBusData function writes data to the bus on which the specified AVStream device resides.
 old-location: stream\ksdevicesetbusdata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b319f2a4-dbbe-4324-8f8d-a42bb40d7939
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_DOT4_DC_OPEN_DATA"
 author: windows-driver-content
 description: This topic describes the DOT4_DC_OPEN_DATA structure.
 old-location: print\dot4_dc_open_data.htm
-old-project: print
+tech.root: print
 ms.assetid: 72AE7A78-C02D-4C14-B017-9CEECF34FEDF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

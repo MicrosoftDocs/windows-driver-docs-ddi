@@ -4,7 +4,7 @@ title: HBA_FreeLibrary function
 author: windows-driver-content
 description: The HBA_FreeLibrary routine releases system resources associated with fibre channel HBA library.
 old-location: storage\hba_freelibrary.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 513cdedc-2ecd-4b02-a85b-5abd9c0c7fcd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

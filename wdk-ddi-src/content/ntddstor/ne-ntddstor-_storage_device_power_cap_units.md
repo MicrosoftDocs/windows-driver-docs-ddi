@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_POWER_CAP_UNITS"
 author: windows-driver-content
 description: The units of the maximum power threshold.
 old-location: storage\storage_device_power_cap_units.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

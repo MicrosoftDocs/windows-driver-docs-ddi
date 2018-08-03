@@ -4,7 +4,7 @@ title: ExReInitializeRundownProtection function
 author: windows-driver-content
 description: The ExReInitializeRundownProtection routine reinitializes an EX_RUNDOWN_REF structure after the associated object is run down.
 old-location: kernel\exreinitializerundownprotection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_POWER_THROTTLING_THREAD_STATE"
 author: windows-driver-content
 description: Stores the throttling policies and how to apply them to a target thread when that thread is subject to power management.
 old-location: kernel\power_throttling_thread_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 85659694-f93a-42dc-9fa4-f6fea6ad71d0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

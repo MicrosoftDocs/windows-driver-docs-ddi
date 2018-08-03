@@ -4,10 +4,10 @@ title: IDebugBreakpoint::GetCommand
 author: windows-driver-content
 description: The GetCommand method returns the command string that is executed when a breakpoint is triggered.
 old-location: debugger\getcommand.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 3f7b704f-be73-459a-bb5a-bbe649751900
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, GetCommand, GetCommand method [Windows Debugging], GetCommand method [Windows Debugging],IDebugBreakpoint interface, GetCommand method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetCommand method, IDebugBreakpoint.GetCommand, IDebugBreakpoint2 interface [Windows Debugging],GetCommand method, IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint::GetCommand, debugger.getcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

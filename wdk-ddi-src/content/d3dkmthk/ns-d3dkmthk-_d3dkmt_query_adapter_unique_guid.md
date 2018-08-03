@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

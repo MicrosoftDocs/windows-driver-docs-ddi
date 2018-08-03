@@ -4,7 +4,7 @@ title: StorPortGetDataInBufferMdl function
 author: windows-driver-content
 description: Returns an MDL associated with the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbuffermdl.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IPrintSchemaOption::get_Selected
 author: windows-driver-content
 description: Indicates whether this option is selected.
 old-location: print\iprintschemaoption_selected.htm
-old-project: print
+tech.root: print
 ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

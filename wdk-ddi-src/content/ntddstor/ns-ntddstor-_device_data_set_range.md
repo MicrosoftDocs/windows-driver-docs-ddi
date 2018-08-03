@@ -4,7 +4,7 @@ title: "_DEVICE_DATA_SET_RANGE"
 author: windows-driver-content
 description: The DEVICE_DATA_SET_RANGE structure specifies a block of data set ranges for the attributes for a device.
 old-location: storage\device_data_set_range.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9f610927-d8d0-44c5-8a66-0204953c1859
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

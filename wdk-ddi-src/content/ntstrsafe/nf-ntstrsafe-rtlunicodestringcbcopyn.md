@@ -4,7 +4,7 @@ title: RtlUnicodeStringCbCopyN function
 author: windows-driver-content
 description: The RtlUnicodeStringCbCopyN function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcopyn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 296a936b-83e3-457d-bfa8-e361da7706bf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -92,7 +92,7 @@ The number of bytes to be copied from the source to the destination.
 </dl>
 </td>
 <td width="60%">
-This <i>success</i> status means source data was present, the string was copied without truncation, and the resultant destination buffer is null-terminated.
+This <i>success</i> status means source data was present, the string was copied without truncation.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ This <i>success</i> status means source data was present, the string was copied 
 </dl>
 </td>
 <td width="60%">
-This <i>warning</i> status means the copy operation did not complete due to insufficient buffer space. The destination buffer contains a truncated, null-terminated version of the intended result.
+This <i>warning</i> status means the copy operation did not complete due to insufficient buffer space. The destination buffer contains a truncated version of the intended result.
 
 </td>
 </tr>

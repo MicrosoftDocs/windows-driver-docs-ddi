@@ -4,7 +4,7 @@ title: DriverUnifiedPosPowerReportingType
 author: windows-driver-content
 description: This enumeration defines the type of power reporting that is supported by the device (for example, advanced, standard, and so on).
 old-location: pos\unifiedpospowerreportingtype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: e0263969-1c6a-4805-a647-d4b9df83ef71
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

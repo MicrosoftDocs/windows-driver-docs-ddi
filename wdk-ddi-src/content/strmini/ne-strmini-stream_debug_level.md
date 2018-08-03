@@ -4,7 +4,7 @@ title: STREAM_DEBUG_LEVEL
 author: windows-driver-content
 description: The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.
 old-location: stream\stream_debug_level.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

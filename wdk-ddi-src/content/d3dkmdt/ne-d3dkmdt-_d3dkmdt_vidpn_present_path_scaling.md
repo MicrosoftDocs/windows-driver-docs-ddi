@@ -4,10 +4,10 @@ title: "_D3DKMDT_VIDPN_PRESENT_PATH_SCALING"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration is used to indicate the scaling transformation applied to content displayed on a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_scaling.htm
-old-project: display
+tech.root: display
 ms.assetid: 4453534e-ce2b-4b0d-a93d-3d17185083fd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_CUSTOM, D3DKMDT_VPPS_IDENTITY, D3DKMDT_VPPS_NOTSPECIFIED, D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_STRETCHED, D3DKMDT_VPPS_UNINITIALIZED, D3DKMDT_VPPS_UNPINNED, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, d3dkmdt/D3DKMDT_VPPS_CENTERED, d3dkmdt/D3DKMDT_VPPS_CUSTOM, d3dkmdt/D3DKMDT_VPPS_IDENTITY, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_RESERVED1, d3dkmdt/D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_UNPINNED, display.d3dkmdt_vidpn_present_path_scaling
 ms.prod: windows-hardware
 ms.technology: windows-devices

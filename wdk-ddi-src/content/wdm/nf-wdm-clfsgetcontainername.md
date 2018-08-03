@@ -4,7 +4,7 @@ title: ClfsGetContainerName function
 author: windows-driver-content
 description: The ClfsGetContainerName routine returns the path name of a specified container.
 old-location: kernel\clfsgetcontainername.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 727b2e29-9e2d-4386-a30b-5727e1261fad
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

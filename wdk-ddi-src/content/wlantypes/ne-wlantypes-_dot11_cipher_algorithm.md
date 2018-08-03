@@ -4,7 +4,7 @@ title: "_DOT11_CIPHER_ALGORITHM"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_cipher_algorithm.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5fc1af01-7dd5-43dd-aefe-99dec0b5aa6a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlantypes.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_CIPHER_ALGORITHM { 
+typedef enum _DOT11_CIPHER_ALGORITHM {
   DOT11_CIPHER_ALGO_NONE           = 0x00,
   DOT11_CIPHER_ALGO_WEP40          = 0x01,
   DOT11_CIPHER_ALGO_TKIP           = 0x02,
@@ -138,17 +138,17 @@ For more information about the Use Group Key cipher suite, refer to Clause 7.3.2
 ### -field DOT11_CIPHER_ALGO_WEP
 
 Specifies a WEP cipher algorithm with a cipher key of any length.
-     
+
 
 A miniport driver that operates in Extensible Station (ExtSTA) mode specifies the maximum WEP cipher
-     key length through a query of 
+     key length through a query of
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569366">OID_DOT11_EXTSTA_CAPABILITY</a>.
 
 <div class="alert"><b>Note</b>  The operating system will only enable this cipher algorithm if authentication
-     algorithms of 
-     <b>DOT11_AUTH_ALGO_80211_OPEN</b> or 
+     algorithms of
+     <b>DOT11_AUTH_ALGO_80211_OPEN</b> or
      <b>DOT11_AUTH_ALGO_80211_SHARED_KEY</b> have been enabled. For more information about these
-     authentication algorithms, see 
+     authentication algorithms, see
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.</div>
 <div> </div>
 
@@ -156,9 +156,9 @@ A miniport driver that operates in Extensible Station (ExtSTA) mode specifies th
 
 Specifies the start of the range that is used to define proprietary cipher algorithms that are
      developed by an independent hardware vendor (IHV).
-     
 
-The 
+
+The
      <b>DOT11_CIPHER_ALGO_IHV_START</b> enumerator is valid only when the miniport driver is operating in
      ExtSTA mode.
 
@@ -167,9 +167,9 @@ The
 
 Specifies the end of the range that is used to define proprietary authentication algorithms that
      are developed by an IHV.
-     
 
-The 
+
+The
      <b>DOT11_CIPHER_ALGO_IHV_END</b> enumerator is valid only when the miniport driver is operating in ExtSTA
      mode.
 
@@ -183,15 +183,15 @@ The
 
 
 
-An IHV can assign a value for its proprietary cipher algorithms from 
-    <b>DOT11_CIPHER_ALGO_IHV_START</b> through 
+An IHV can assign a value for its proprietary cipher algorithms from
+    <b>DOT11_CIPHER_ALGO_IHV_START</b> through
     <b>DOT11_CIPHER_ALGO_IHV_END</b>. The IHV must assign a unique number in this range to each of its
     proprietary cipher algorithms.
 
 If the IHV develops its own support for an cipher algorithm supported by the operating system, the IHV
     must also assign a unique number from this range. For example, if the IHV develops its own version of
-    TKIP, it must assign a value for this version from 
-    <b>DOT11_CIPHER_ALGO_IHV_START</b> through 
+    TKIP, it must assign a value for this version from
+    <b>DOT11_CIPHER_ALGO_IHV_START</b> through
     <b>DOT11_CIPHER_ALGO_IHV_END</b>.
 
 A miniport driver must enable or select cipher algorithms based on the following preference order
@@ -213,19 +213,19 @@ If the miniport driver supports IHV-defined cipher algorithms, the miniport driv
     preference order for these algorithms with respect to the 802.11 standard cipher algorithms.
 
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
-    authentication and cipher algorithm pairs in the 
+    authentication and cipher algorithm pairs in the
     <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
     DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
-    only the 
-    <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
+    only the
+    <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the
     <b>DOT11_CIPHER_ALGO_CCMP</b> cipher algorithm. To support Soft AP, the miniport driver must support this
     authentication/cipher pair.
 
 If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport driver must allow
-    peer stations to associate with the Extensible AP by using 
-    <a href="https://msdn.microsoft.com/f07d2d77-ccaf-4599-b59e-6ea4ecf55e0f">Open System Authentication</a> or 
+    peer stations to associate with the Extensible AP by using
+    <a href="https://msdn.microsoft.com/f07d2d77-ccaf-4599-b59e-6ea4ecf55e0f">Open System Authentication</a> or
     <a href="https://msdn.microsoft.com/41dd280b-e54c-4233-8051-45e7b1284d1d">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
-    the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see 
+    the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569436">OID_DOT11_WPS_ENABLED</a>.
 
 

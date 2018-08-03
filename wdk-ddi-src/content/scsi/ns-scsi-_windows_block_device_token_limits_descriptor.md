@@ -4,7 +4,7 @@ title: "_WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR"
 author: windows-driver-content
 description: The WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure is the third party copy descriptor for Windows systems.
 old-location: storage\windows_block_device_token_limits_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A4DB93FE-96ED-4E6D-B912-31C53AD000FF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

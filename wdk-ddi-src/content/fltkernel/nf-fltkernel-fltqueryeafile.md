@@ -4,7 +4,7 @@ title: FltQueryEaFile function
 author: windows-driver-content
 description: FltQueryEaFile returns information about extended-attribute (EA) values for a file.
 old-location: ifsk\fltqueryeafile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

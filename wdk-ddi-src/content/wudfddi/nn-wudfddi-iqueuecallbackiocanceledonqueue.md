@@ -4,7 +4,7 @@ title: IQueueCallbackIoCanceledOnQueue
 author: windows-driver-content
 description: The IQueueCallbackIoCanceledOnQueue interface is optional. Your driver can provide this interface if you want UMDF to notify the driver when an I/O request is canceled while it is in the driver's I/O queue.
 old-location: wdf\iqueuecallbackiocanceledonqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d85b5c70-4e03-4a12-bc0b-e738d4dab6cf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KsAddDevice function
 author: windows-driver-content
 description: The KsAddDevice function is the default AddDevice handler installed by KsInitializeDriver.
 old-location: stream\ksadddevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e7be1bb8-eb8a-4ebd-b824-bbaa41b21ca5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

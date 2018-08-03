@@ -4,7 +4,7 @@ title: "_AddConnectionToSession_OUT"
 author: windows-driver-content
 description: The AddConnectionToSession_OUT structure holds output data for the AddConnectionToSession method.
 old-location: storage\addconnectiontosession_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

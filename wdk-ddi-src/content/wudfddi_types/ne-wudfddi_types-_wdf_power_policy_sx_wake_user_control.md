@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state.
 old-location: wdf\wdf_power_policy_sx_wake_user_control.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d5f4eb5f-28bb-4906-b9f5-3adae31cac80
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

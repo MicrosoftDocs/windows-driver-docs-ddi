@@ -4,7 +4,7 @@ title: KsGenerateEventList function
 author: windows-driver-content
 description: The KsGenerateEventList function enumerates the event list and searches for the specified event to generate.
 old-location: stream\ksgenerateeventlist.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 336dbbc1-0f3c-4a3f-b3b4-017f4d158bda
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

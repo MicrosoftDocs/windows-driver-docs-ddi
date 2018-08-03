@@ -4,10 +4,10 @@ title: IWiaDrvItem::FindChildItemByName
 author: windows-driver-content
 description: The IWiaDrvItem::FindChildItemByName method searches the driver item tree for a specific child item.
 old-location: image\iwiadrvitem_findchilditembyname.htm
-old-project: image
+tech.root: image
 ms.assetid: 04f446f2-cd59-4191-be0c-60140ecee3b2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, FindChildItemByName, FindChildItemByName method [Imaging Devices], FindChildItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindChildItemByName method, IWiaDrvItem.FindChildItemByName, IWiaDrvItem::FindChildItemByName, image.iwiadrvitem_findchilditembyname, wiamindr_lh/IWiaDrvItem::FindChildItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

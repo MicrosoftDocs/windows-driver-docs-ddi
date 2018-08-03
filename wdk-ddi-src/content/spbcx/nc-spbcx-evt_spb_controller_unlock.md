@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_UNLOCK
 author: windows-driver-content
 description: An SPB controller driver's EvtSpbControllerUnlock event callback function unlocks the SPB controller, which was locked by a previous call to the EvtSpbControllerLock event callback function.
 old-location: spb\evtspbcontrollerunlock.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

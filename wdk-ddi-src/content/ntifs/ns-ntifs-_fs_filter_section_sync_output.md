@@ -4,7 +4,7 @@ title: "_FS_FILTER_SECTION_SYNC_OUTPUT"
 author: windows-driver-content
 description: The FS_FILTER_SECTION_SYNC_OUTPUT structure contains information describing the attributes of the section that is being created.
 old-location: ifsk\fs_filter_section_sync_output_.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3378D971-B5D8-485B-8C58-BE5874445407
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -56,8 +56,6 @@ The  <b>FS_FILTER_SECTION_SYNC_OUTPUT</b> structure contains information describ
 ## -struct-fields
 
 
-
-
 ### -field StructureSize
 
 The size of the structure.
@@ -70,7 +68,14 @@ The size of the structure which has been successfully populated with information
 
 ### -field Flags
 
-Reserved for future use.  Should be zero.
+Specifies the support for synchronization. The following values can be used:
+
+| Name | Value | 
+| -- | -- |
+| FS_FILTER_SECTION_SYNC_SUPPORTS_ASYNC_PARALLEL_IO | 0x00000001 |
+| FS_FILTER_SECTION_SYNC_SUPPORTS_DIRECT_MAP_DATA | 0x00000002 |
+| FS_FILTER_SECTION_SYNC_SUPPORTS_DIRECT_MAP_IMAGE | 0x00000004 |
+
 
 
 ### -field DesiredReadAlignment

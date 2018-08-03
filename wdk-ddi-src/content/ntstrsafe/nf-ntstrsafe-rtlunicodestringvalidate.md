@@ -4,7 +4,7 @@ title: RtlUnicodeStringValidate function
 author: windows-driver-content
 description: The RtlUnicodeStringValidate function validates the contents of a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvalidate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7c4f452e-df7b-401b-a62e-20e0b2164172
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

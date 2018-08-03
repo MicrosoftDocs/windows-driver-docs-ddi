@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
@@ -45,7 +46,7 @@ Specifies the arguments for decode output conversion.
 
 ### -field Enable
 
-Enable field.
+Indicates whether decode conversion should be used.
 
 ### -field hDrvReferenceTexture2D
 

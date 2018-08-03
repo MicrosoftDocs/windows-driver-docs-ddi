@@ -4,7 +4,7 @@ title: SeTokenGetNoChildProcessRestricted function
 author: windows-driver-content
 description: The SeTokenGetNoChildProcessRestricted routine determines the state of the no child process mitigation. It is not possible to be enforced and audit-only at the same time.
 old-location: ifsk\setokengetnochildprocessrestricted.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

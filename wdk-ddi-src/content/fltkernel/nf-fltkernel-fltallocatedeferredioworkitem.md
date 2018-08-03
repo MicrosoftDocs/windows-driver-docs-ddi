@@ -4,7 +4,7 @@ title: FltAllocateDeferredIoWorkItem function
 author: windows-driver-content
 description: FltAllocateDeferredIoWorkItem allocates a deferred-I/O work item.
 old-location: ifsk\fltallocatedeferredioworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25c03114-8e50-40a2-869a-08b11b7490be
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

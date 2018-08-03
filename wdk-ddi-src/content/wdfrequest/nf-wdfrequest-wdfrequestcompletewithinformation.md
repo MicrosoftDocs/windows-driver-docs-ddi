@@ -4,7 +4,7 @@ title: WdfRequestCompleteWithInformation function
 author: windows-driver-content
 description: The WdfRequestCompleteWithInformation method stores completion information and then completes a specified I/O request with a supplied completion status.
 old-location: wdf\wdfrequestcompletewithinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -123,6 +123,7 @@ When your driver calls <b>WdfRequestCompleteWithInformation</b>, the framework s
 
 For more information about calling <b>WdfRequestCompleteWithInformation</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
+For a code example that shows how to use <b>WdfRequestCompleteWithInformation</b> to retrieve the number of bytes copied, see the [VirtualSerial2 driver sample](https://github.com/Microsoft/Windows-driver-samples/blob/df271b80bdbb556707d9b4af1b06151ded561884/serial/VirtualSerial2/queue.c#L542).
 
 #### Examples
 

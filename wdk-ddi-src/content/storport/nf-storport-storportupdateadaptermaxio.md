@@ -4,7 +4,7 @@ title: StorPortUpdateAdapterMaxIO function
 author: windows-driver-content
 description: This function can be called by a miniport to update the maximum IO's supported by an adapter. This function is valid during HwInitialize/HwPassiveInitRoutine callback and has effect only during adapter initialization.
 old-location: storage\storportupdateadaptermaxio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

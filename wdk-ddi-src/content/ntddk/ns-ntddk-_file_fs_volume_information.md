@@ -4,7 +4,7 @@ title: "_FILE_FS_VOLUME_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_VOLUME_INFORMATION structure is used to query information about a volume on which a file system is mounted.
 old-location: ifsk\file_fs_volume_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b0c6f733-2d8b-4140-bb2a-2a28212d3e69
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

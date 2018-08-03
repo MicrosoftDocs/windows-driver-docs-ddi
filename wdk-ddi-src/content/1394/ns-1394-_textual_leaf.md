@@ -4,7 +4,7 @@ title: "_TEXTUAL_LEAF"
 author: windows-driver-content
 description: The TEXTUAL_LEAF structure describes the device description that can be stored in the Configuration ROM of devices that satisfy the PC 98 or PC 99 specifications.
 old-location: ieee\textual_leaf.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

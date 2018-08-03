@@ -4,7 +4,7 @@ title: GNSS_SELFTESTRESULT
 author: windows-driver-content
 description: This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
 old-location: gnss\gnss_selftestresult.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 572A2C38-A990-4225-A3FC-6E899A248B1C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

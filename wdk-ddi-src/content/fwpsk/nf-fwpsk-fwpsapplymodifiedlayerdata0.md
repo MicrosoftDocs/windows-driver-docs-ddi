@@ -4,10 +4,10 @@ title: FwpsApplyModifiedLayerData0 function
 author: windows-driver-content
 description: The FwpsApplyModifiedLayerData0 function applies changes to layer-specific data made after a call to FwpsAcquireWritableLayerDataPointer0.Note  FwpsApplyModifiedLayerData0 is a specific version of FwpsApplyModifiedLayerData.
 old-location: netvista\fwpsapplymodifiedlayerdata0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d32c19b6-462e-48e3-b22b-02542dca9cc4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_CLASSIFY_FLAG_REAUTHORIZE_IF_MODIFIED_BY_OTHERS, FwpsApplyModifiedLayerData0, FwpsApplyModifiedLayerData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsApplyModifiedLayerData0, netvista.fwpsapplymodifiedlayerdata0, wfp_ref_2_funct_3_fwps_A-B_a7adbeec-b234-451e-9da0-d5e5b7cefc90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

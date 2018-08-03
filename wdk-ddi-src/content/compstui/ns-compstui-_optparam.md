@@ -4,7 +4,7 @@ title: "_OPTPARAM"
 author: windows-driver-content
 description: An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a property sheet option. The array's address is included in an OPTTYPE structure.
 old-location: print\optparam.htm
-old-project: print
+tech.root: print
 ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_KEY_BASIC_INFORMATION"
 author: windows-driver-content
 description: The KEY_BASIC_INFORMATION structure defines a subset of the full information that is available for a registry key.
 old-location: kernel\key_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 789c60b6-a5a4-4570-bb0c-acfe1166a302
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

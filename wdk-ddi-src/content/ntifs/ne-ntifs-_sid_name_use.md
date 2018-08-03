@@ -4,7 +4,7 @@ title: "_SID_NAME_USE"
 author: windows-driver-content
 description: The SID_NAME_USE enumeration type contains values that specify the type of a security identifier (SID).
 old-location: ifsk\sid_name_use.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

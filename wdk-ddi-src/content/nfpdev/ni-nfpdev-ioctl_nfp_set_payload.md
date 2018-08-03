@@ -4,7 +4,7 @@ title: IOCTL_NFP_SET_PAYLOAD
 author: windows-driver-content
 description: A client application sends message data and confirms publication with the IOCTL_NFP_SET_PAYLOAD request.
 old-location: nfpdrivers\ioctl_nfp_set_payload.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: FF89A868-1289-4D1D-BFA8-17E65ED7F8C4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

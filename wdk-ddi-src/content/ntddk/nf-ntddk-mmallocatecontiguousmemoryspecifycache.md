@@ -4,7 +4,7 @@ title: MmAllocateContiguousMemorySpecifyCache function
 author: windows-driver-content
 description: The MmAllocateContiguousMemorySpecifyCache routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycache.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

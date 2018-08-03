@@ -4,7 +4,7 @@ title: UPSCancelWait function
 author: windows-driver-content
 description: The UPSCancelWait function cancels all waits initiated by calls to UPSWaitForStateChange.
 old-location: battery\upscancelwait.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 8ac611fc-5634-4857-8533-6e170fe884b2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

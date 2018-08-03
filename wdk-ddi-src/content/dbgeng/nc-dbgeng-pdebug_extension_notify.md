@@ -4,10 +4,10 @@ title: PDEBUG_EXTENSION_NOTIFY
 author: windows-driver-content
 description: The engine calls the DebugExtensionNotify callback function to inform the extension DLL when a session changes its active or accessible status.C++ CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
 old-location: debugger\debugextensionnotify.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5e877882-00f7-4c46-86e1-debf576ffdb1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, PDEBUG_EXTENSION_NOTIFY callback, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

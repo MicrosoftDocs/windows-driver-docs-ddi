@@ -4,7 +4,7 @@ title: FsRtlSplitLargeMcb function
 author: windows-driver-content
 description: The FsRtlSplitLargeMcb routine inserts a hole into the mappings in a map control block (MCB).
 old-location: ifsk\fsrtlsplitlargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c48b978e-8519-41c0-b711-013c5ccf4abe
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

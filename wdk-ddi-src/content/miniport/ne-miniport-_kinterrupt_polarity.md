@@ -4,7 +4,7 @@ title: "_KINTERRUPT_POLARITY"
 author: windows-driver-content
 description: The KINTERRUPT_POLARITY enumeration indicates how a device signals an interrupt request on an interrupt line.
 old-location: kernel\kinterrupt_polarity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

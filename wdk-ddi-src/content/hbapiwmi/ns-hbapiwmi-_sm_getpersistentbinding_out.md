@@ -4,7 +4,7 @@ title: "_SM_GetPersistentBinding_OUT"
 author: windows-driver-content
 description: The SM_GetPersistentBinding_OUT structure is used to receive output parameters from the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: aa80e05c-e322-4350-80e7-28d53821c510
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_WDF_COMPANION_EVENT_CALLBACKS"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_companion_event_callbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6a9c5420-1847-4145-aea5-9e9c58d86ea1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

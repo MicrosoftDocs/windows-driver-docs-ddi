@@ -4,10 +4,10 @@ title: "_EMULATOR_ACCESS_ENTRY"
 author: windows-driver-content
 description: The EMULATOR_ACCESS_ENTRY structure specifies an element in the EmulatorAccessEntries array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 old-location: display\emulator_access_entry.htm
-old-project: display
+tech.root: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, _EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, dispmprt/EMULATOR_ACCESS_ENTRY, dispmprt/PEMULATOR_ACCESS_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

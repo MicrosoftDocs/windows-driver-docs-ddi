@@ -4,7 +4,7 @@ title: IPrintSchemaElement::get_XmlNode
 author: windows-driver-content
 description: Gets the IXMLDOMNode object associated with this item.
 old-location: print\iprintschemaelement_xmlnode.htm
-old-project: print
+tech.root: print
 ms.assetid: 5E7F2292-1F71-4581-8E34-86F1464EC08F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

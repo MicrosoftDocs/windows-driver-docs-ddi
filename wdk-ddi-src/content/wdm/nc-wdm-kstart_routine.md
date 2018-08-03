@@ -4,7 +4,7 @@ title: KSTART_ROUTINE
 author: windows-driver-content
 description: The ThreadStart routine provides an entry point for a driver-created system thread.
 old-location: kernel\threadstart.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4a4e4e0f-fadf-4f4c-9759-6d52ef9f663d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

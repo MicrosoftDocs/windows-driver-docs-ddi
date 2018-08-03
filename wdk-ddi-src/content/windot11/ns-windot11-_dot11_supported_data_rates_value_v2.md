@@ -4,7 +4,7 @@ title: "_DOT11_SUPPORTED_DATA_RATES_VALUE_V2"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_data_rates_value_v2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2407204b-215c-481e-876d-740bc3d55ee3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -86,20 +86,20 @@ An array of the receive data rates supported by the PLCP and PMD of the PHY.
 
 
 
-Each entry in the 
-    <b>ucSupportedTxDataRatesValue</b> and 
-    <b>ucSupportedRxDataRatesValue</b> arrays must have a data rate index value as defined for the 
-    <b>ucDataRateIndex</b> member of the 
+Each entry in the
+    <b>ucSupportedTxDataRatesValue</b> and
+    <b>ucSupportedRxDataRatesValue</b> arrays must have a data rate index value as defined for the
+    <b>ucDataRateIndex</b> member of the
     <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
-    DOT11_DATA_RATE_MAPPING_ENTRY</a> structure. Each entry in these arrays must match a 
-    <b>ucDataRateIndex</b> member from the table of data rates returned through a query of 
+    DOT11_DATA_RATE_MAPPING_ENTRY</a> structure. Each entry in these arrays must match a
+    <b>ucDataRateIndex</b> member from the table of data rates returned through a query of
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
     OID_DOT11_DATA_RATE_MAPPING_TABLE</a>. The index value must be between 2 and 127.
 
 If the number of supported rates in either array is less than 255, the miniport driver must add an
     entry with a value of zero after the last data rate in the array. For example, if the 802.11 station
-    supports only four transmit data rates, the miniport driver must set 
-    <b>ucSupportedTxDataRatesValue[0..3]</b> with the four transmit rates and set 
+    supports only four transmit data rates, the miniport driver must set
+    <b>ucSupportedTxDataRatesValue[0..3]</b> with the four transmit rates and set
     <b>ucSupportedTxDataRatesValue[4]</b> to zero.
 
 

@@ -4,7 +4,7 @@ title: IWDFFile
 author: windows-driver-content
 description: The IWDFFile interface exposes the file object that represents the HANDLE that is returned by the Microsoft Win32 CreateFile function.
 old-location: wdf\iwdffile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bf8e5ab1-9a17-4eb5-8c54-34670ea27068
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

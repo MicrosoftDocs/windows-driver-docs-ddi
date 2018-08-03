@@ -4,7 +4,7 @@ title: "_PARTITION_INFORMATION_GPT"
 author: windows-driver-content
 description: PARTITION_INFORMATION_GPT contains information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition.
 old-location: storage\partition_information_gpt.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f2d76b4c-7acd-4701-b978-3d29dc8cde0b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

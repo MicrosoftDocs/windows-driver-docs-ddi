@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction::EnableRealBatteries
 author: windows-driver-content
 description: Enables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablerealbatteries.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 32748776-fe07-4f7e-bceb-5b554fa8f9f1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

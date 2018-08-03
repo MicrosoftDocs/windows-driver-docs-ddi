@@ -4,7 +4,7 @@ title: KsGateInitialize function
 author: windows-driver-content
 description: The KsGateInitialize function initializes a gate for use.
 old-location: stream\ksgateinitialize.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e64715d2-a8f1-47c3-9422-b565800ff79e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

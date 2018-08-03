@@ -4,7 +4,7 @@ title: MmDoesFileHaveUserWritableReferences function
 author: windows-driver-content
 description: The MmDoesFileHaveUserWritableReferences function returns the number of writable references for a file object.
 old-location: ifsk\mmdoesfilehaveuserwritablereferences.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_FILE_FS_SECTOR_SIZE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_SECTOR_SIZE_INFORMATION structure is used to query physical and logical sector size information for a file system volume.
 old-location: ifsk\file_fs_sector_size_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -15,7 +15,7 @@ ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: This structure is available starting with Windows 8.
+req.target-min-winverclnt: This structure is available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

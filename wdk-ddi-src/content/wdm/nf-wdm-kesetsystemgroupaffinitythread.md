@@ -4,7 +4,7 @@ title: KeSetSystemGroupAffinityThread function
 author: windows-driver-content
 description: The KeSetSystemGroupAffinityThread routine changes the group number and affinity mask of the calling thread.
 old-location: kernel\kesetsystemgroupaffinitythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8ccc097d-f997-43c1-a068-f2f532afa0d6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -119,12 +119,14 @@ A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 The following diagram represents a driver thread that calls <b>KeSetSystemGroupAffinityThread</b> three times to change the thread affinity, and then calls <b>KeRevertToUserGroupAffinityThread</b> to restore the original thread affinity.
 
-<img alt="Diagram illustrating multiple calls to set affinity." src="images/affinity1.png"/>
+![Diagram illustrating multiple calls to set affinity.](images/affinity1.png)
+
 In the preceding diagram, the three boxes labeled "Set affinity" are calls to <b>KeSetSystemGroupAffinityThread</b>, and the box labeled "Revert affinity" is a call to <b>KeRevertToUserGroupAffinityThread</b>. The first <b>KeSetSystemGroupAffinityThread</b> call uses the <i>PreviousAffinity</i> output pointer to save the original thread affinity. In the next two calls to <b>KeSetSystemGroupAffinityThread</b> (marked with asterisks), the caller sets <i>PreviousAffinity</i> to <b>NULL</b>. Before the thread exits, it calls <b>KeRevertToUserGroupAffinityThread</b> to restore the thread affinity that was saved by the first <b>KeSetSystemGroupAffinityThread</b> call.
 
 The following diagram shows a somewhat different calling pattern in which pairs of <b>KeSetSystemGroupAffinityThread</b> and <b>KeRevertToUserGroupAffinityThread</b> calls are nested. In this diagram, each call to <b>KeSetSystemGroupAffinityThread</b> in the driver thread uses the <i>PreviousAffinity</i> output parameter to save the previous thread affinity, and each of these calls is paired with a call to <b>KeRevertToUserGroupAffinityThread</b> that restores the saved thread affinity.
 
-<img alt="Diagram illustrating nested calls to set and restore affinity." src="images/affinity2.png"/>
+![Diagram illustrating nested calls to set and restore affinity.](images/affinity2.png)
+
 In the preceding diagram, function A in the driver thread calls function B twice. Assume that on entry to function A, the thread still has the affinity assigned to it by the user-mode application. Thus, the <b>KeSetSystemGroupAffinityThread</b> call in function A saves the original, user-mode thread affinity. During the first call to function B, the <b>KeSetSystemGroupAffinityThread</b> saves the thread affinity assigned by the driver in function A, and the corresponding call to <b>KeRevertToUserGroupAffinityThread</b> restores this affinity. After B returns, the <b>KeRevertToUserGroupAffinityThread</b> in A restores the original, user-mode thread affinity. During the second call to B, the <b>KeSetSystemGroupAffinityThread</b> call saves the original, user-mode thread affinity, and the corresponding call to <b>KeRevertToUserGroupAffinityThread</b> restores this affinity. The point of this example is that function B does not need to know whether the caller (function A) changed the thread affinity to a driver-defined value before calling B.
 
 If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL and the call is successful, the new group affinity takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new group affinity. If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.

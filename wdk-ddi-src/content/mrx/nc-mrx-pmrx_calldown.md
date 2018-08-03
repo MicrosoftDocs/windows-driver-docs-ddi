@@ -4,7 +4,7 @@ title: PMRX_CALLDOWN
 author: windows-driver-content
 description: This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
 old-location: ifsk\mrxclosesrvopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6300595e-8cf6-47c4-a6ca-7851dd95576d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

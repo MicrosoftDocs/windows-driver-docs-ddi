@@ -4,7 +4,7 @@ title: FltObjectReference function
 author: windows-driver-content
 description: The FltObjectReference routine adds a rundown reference to an opaque filter, instance, or volume pointer.
 old-location: ifsk\fltobjectreference.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ad6317bf-92fc-4e77-9993-37b7aa123a3d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

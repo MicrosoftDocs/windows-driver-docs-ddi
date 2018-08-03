@@ -4,7 +4,7 @@ title: KSCAMERA_EXTENDEDPROP_ROITYPE
 author: windows-driver-content
 description: This enumeration contains the ROI types.
 old-location: stream\kscamera_extendedprop_roitype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

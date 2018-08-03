@@ -4,7 +4,7 @@ title: WdfRequestWdmFormatUsingStackLocation function
 author: windows-driver-content
 description: The WdfRequestWdmFormatUsingStackLocation method formats an I/O request by copying the contents of a specified WDM I/O stack location structure to the next stack location in the request.
 old-location: wdf\wdfrequestwdmformatusingstacklocation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -99,13 +99,8 @@ For more information about <b>WdfRequestWdmFormatUsingStackLocation</b>, see <a 
 
 The following code example supplies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure for an I/O request, sets a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function, and then sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IO_STACK_LOCATION  ioStackLocation;
+```
+IO_STACK_LOCATION  ioStackLocation;
 BOOLEAN sendStatus;
 ...
 //
@@ -117,7 +112,7 @@ BOOLEAN sendStatus;
 //
 WdfRequestWdmFormatUsingStackLocation(
                                       request,
-                                      &amp;ioStackLocation
+                                      &ioStackLocation
                                       );
 //
 // Assign a CompletionRoutine callback function.
@@ -134,12 +129,64 @@ sendStatus = WdfRequestSend(
                             Request,
                             target,
                             NULL
-                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                            );
+```
+
+The following code example illustrates how to send a PnP [IRP_MN_QUERY_CAPABILITIES](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities) IRP to an IO target.
+
+```
+target = WdfDeviceGetIoTarget(Device);
+status = WdfRequestCreate(WDF_NO_OBJECT_ATTRIBUTES,
+                          target,
+                          &request);
+
+if (!NT_SUCCESS(status)) {
+    // Log failure and leave
+}
+
+//
+// PnP IRPs must be initialized with STATUS_NOT_SUPPORTED
+//
+WDF_REQUEST_REUSE_PARAMS_INIT(&reuse,
+                              WDF_REQUEST_REUSE_NO_FLAGS,
+                              STATUS_NOT_SUPPORTED);
+
+WdfRequestReuse(request, &reuse);
 
 
+//
+// Initialize device capabilities
+//
+RtlZeroMemory(Capabilities, sizeof(DEVICE_CAPABILITIES));
+Capabilities->Size = sizeof(DEVICE_CAPABILITIES);
+Capabilities->Version  =  1;
+Capabilities->Address  = (ULONG) -1;
+Capabilities->UINumber = (ULONG) -1;
+RtlZeroMemory(&stack, sizeof(stack));
+stack.MajorFunction = IRP_MJ_PNP;
+stack.MinorFunction = IRP_MN_QUERY_CAPABILITIES;
+stack.Parameters.DeviceCapabilities.Capabilities = Capabilities;
+
+WdfRequestWdmFormatUsingStackLocation(request, &stack);
+
+WDF_REQUEST_SEND_OPTIONS_INIT(&options,
+                              WDF_REQUEST_SEND_OPTION_SYNCHRONOUS);
+
+if (WdfRequestSend(request, target, &options) == FALSE) {
+    // Log failure
+}
+
+status = WdfRequestGetStatus(request);
+
+if (!NT_SUCCESS(status)) {
+    // Log failure
+}
+
+// Remember to delete the WDFREQUEST after creating it
+if (request != NULL) {
+    WdfObjectDelete(request);
+}
+```
 
 ## -see-also
 

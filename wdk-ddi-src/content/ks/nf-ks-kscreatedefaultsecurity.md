@@ -4,7 +4,7 @@ title: KsCreateDefaultSecurity function
 author: windows-driver-content
 description: The KsCreateDefaultSecurity function creates a security descriptor with default security, optionally inheriting parameters from a parent security descriptor.
 old-location: stream\kscreatedefaultsecurity.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

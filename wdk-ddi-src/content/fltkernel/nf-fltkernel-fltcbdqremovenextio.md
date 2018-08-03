@@ -4,7 +4,7 @@ title: FltCbdqRemoveNextIo function
 author: windows-driver-content
 description: FltCbdqRemoveNextIo removes the next matching item in a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqremovenextio.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4f207ef2-e999-4410-aaa1-5d32c4f22864
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

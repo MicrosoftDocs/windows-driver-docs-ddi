@@ -4,7 +4,7 @@ title: "_SPB_REQUEST_SEQUENCE_POSITION"
 author: windows-driver-content
 description: The SPB_REQUEST_SEQUENCE_POSITION enumeration indicates the position of an I/O request in the list of transfers for an I/O transfer sequence.
 old-location: spb\spb_request_sequence_position.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: B2D1BC45-E932-4EBC-9B7E-C45E7439E551
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

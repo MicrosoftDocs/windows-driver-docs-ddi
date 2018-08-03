@@ -4,7 +4,7 @@ title: IOCTL_HID_DEACTIVATE_DEVICE
 author: windows-driver-content
 description: The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass device, which causes it to stop operations and terminate all outstanding I/O requests.
 old-location: hid\ioctl_hid_deactivate_device.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 87af450c-0f62-481d-8c7d-24c77f221fc5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

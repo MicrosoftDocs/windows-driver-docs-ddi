@@ -4,7 +4,7 @@ title: StorPortGetDataInBufferSystemAddress function
 author: windows-driver-content
 description: Returns the system address for the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbuffersystemaddress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

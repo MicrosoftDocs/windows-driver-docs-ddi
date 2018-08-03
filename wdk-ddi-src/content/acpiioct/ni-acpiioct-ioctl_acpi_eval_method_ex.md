@@ -4,7 +4,7 @@ title: IOCTL_ACPI_EVAL_METHOD_EX
 author: windows-driver-content
 description: A driver for a device can use the IOCTL_ACPI_EVAL_METHOD_EX device control request to synchronously evaluate an ACPI control method that is supported by a child device in the namespace of the device.
 old-location: acpi\ioctl_acpi_eval_method_ex.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 5c8a1038-efc7-424a-8ef9-fd28d0dcb13c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

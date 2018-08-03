@@ -4,7 +4,7 @@ title: "_NOTIFICATION_INFO_WXP"
 author: windows-driver-content
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

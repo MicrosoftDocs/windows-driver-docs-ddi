@@ -4,7 +4,7 @@ title: FsRtlPostPagingFileStackOverflow function
 author: windows-driver-content
 description: The FsRtlPostPagingFileStackOverflow routine posts a paging file stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpostpagingfilestackoverflow.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5054cc41-06af-48f0-b273-276bd639c16c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_ENUM_PDO_RESULTS"
 author: windows-driver-content
 description: This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.
 old-location: storage\enum_pdo_results.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 80553c9e-3e80-4219-8cc0-2bd4dd6fa76b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

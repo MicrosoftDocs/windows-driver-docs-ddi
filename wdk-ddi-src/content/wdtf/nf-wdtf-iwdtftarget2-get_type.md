@@ -4,7 +4,7 @@ title: IWDTFTarget2::get_Type
 author: windows-driver-content
 description: Gets a value that identifies the depot that the target comes from.
 old-location: dtf\iwdtftarget2_type.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 76b13505-7404-475c-98d8-fe3b3ed25720
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

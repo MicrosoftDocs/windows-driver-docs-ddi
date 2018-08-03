@@ -4,7 +4,7 @@ title: MmLockPagableCodeSection macro
 author: windows-driver-content
 description: The MmLockPagableCodeSection routine locks a section of driver code, containing a set of driver routines marked with a special compiler directive, into system space.
 old-location: kernel\mmlockpagablecodesection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -58,18 +58,11 @@ The <b>MmLockPagableCodeSection </b>routine locks a section of driver code, cont
 
 
 
-### -param Address
-
-TBD
-
-
-
-
-
-
-#### - AddressWithinSection [in]
+### -param Address [in]
 
 Specifies a symbolic address. This address is typically the name of a driver function within a section of driver code that has been marked with something like <b>#pragma alloc_text (PAGExxxx, driverfunction)</b>. All functions in the <b>PAGExxxx</b> section are then guaranteed to be locked down when this function returns. 
+
+
 
 
 ## -remarks

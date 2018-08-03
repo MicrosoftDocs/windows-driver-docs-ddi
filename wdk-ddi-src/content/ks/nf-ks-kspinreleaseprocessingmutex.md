@@ -4,7 +4,7 @@ title: KsPinReleaseProcessingMutex function
 author: windows-driver-content
 description: The KsPinReleaseProcessingMutex function releases the processing mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinreleaseprocessingmutex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9a117c5b-26a4-4fdb-b51e-933b8f105a81
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

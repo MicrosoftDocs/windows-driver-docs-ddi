@@ -4,10 +4,10 @@ title: USBD_BuildRegisterCompositeDevice function
 author: windows-driver-content
 description: The USBD_BuildRegisterCompositeDevice routine is called by the driver of a USB multi-function device (composite driver) to initialize a REGISTER_COMPOSITE_DEVICE structure with the information required for registering the driver with the USB driver stack.
 old-location: buses\usbd_buildregistercompositedriver.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RIL_GetExecutorConfig function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getexecutorconfig.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 71931187-14f1-459f-9c1a-cc3463178af9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetExecutorConfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorconfig, rilapi/RIL_GetExecutorConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

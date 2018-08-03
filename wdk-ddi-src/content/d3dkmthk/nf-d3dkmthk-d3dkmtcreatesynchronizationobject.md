@@ -4,10 +4,10 @@ title: D3DKMTCreateSynchronizationObject function
 author: windows-driver-content
 description: The D3DKMTCreateSynchronizationObject function creates a kernel-mode synchronization object.
 old-location: display\d3dkmtcreatesynchronizationobject.htm
-old-project: display
+tech.root: display
 ms.assetid: c91686dc-1c6a-4d21-84e8-fd8a2803ff4e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateSynchronizationObject, D3DKMTCreateSynchronizationObject function [Display Devices], OpenGL_Functions_505065c6-f259-4518-adb8-f7d0fa6b56a5.xml, d3dkmthk/D3DKMTCreateSynchronizationObject, display.d3dkmtcreatesynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

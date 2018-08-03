@@ -4,7 +4,7 @@ title: "_NFC_CX_HOST_ACTION"
 author: windows-driver-content
 description: The NFC_CX_HOST_ACTION enumeration specifies host actions.
 old-location: nfpdrivers\nfc_cx_host_action.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

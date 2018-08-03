@@ -4,7 +4,7 @@ title: NtCommitComplete function
 author: windows-driver-content
 description: The ZwCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction's data.
 old-location: kernel\zwcommitcomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d0b968bc-bbab-4b6f-bb1f-9e36ac7c1e05
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

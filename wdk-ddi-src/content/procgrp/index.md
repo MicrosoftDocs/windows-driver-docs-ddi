@@ -17,6 +17,6 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This provides the new kernel programming interfaces for device drivers to run on downlevel systems. The library implements wrapper functions for processor-group <b>Ke<i>Xxx</i></b> routines.
 
 - [Windows kernel](../_kernel/index.md)

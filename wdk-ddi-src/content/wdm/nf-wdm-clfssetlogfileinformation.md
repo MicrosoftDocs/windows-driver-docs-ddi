@@ -4,7 +4,7 @@ title: ClfsSetLogFileInformation function
 author: windows-driver-content
 description: The ClfsSetLogFileInformation routine sets metadata and state information for a specified stream and its underlying physical log.
 old-location: kernel\clfssetlogfileinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9f44b1ce-25d4-438f-b4eb-cff7bbfb5e0a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

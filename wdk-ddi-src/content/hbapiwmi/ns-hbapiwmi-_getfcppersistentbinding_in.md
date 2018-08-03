@@ -4,7 +4,7 @@ title: "_GetFcpPersistentBinding_IN"
 author: windows-driver-content
 description: The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the GetFcpPersistentBinding WMI method
 old-location: storage\getfcppersistentbinding_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b08354c8-ef4e-4330-8a3b-dcfe3a722a5d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

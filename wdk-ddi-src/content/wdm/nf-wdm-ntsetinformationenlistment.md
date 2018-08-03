@@ -4,7 +4,7 @@ title: NtSetInformationEnlistment function
 author: windows-driver-content
 description: The ZwSetInformationEnlistment routine sets information for a specified enlistment object.
 old-location: kernel\zwsetinformationenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c87547b0-a16e-48b5-91ca-c414c5317ac6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

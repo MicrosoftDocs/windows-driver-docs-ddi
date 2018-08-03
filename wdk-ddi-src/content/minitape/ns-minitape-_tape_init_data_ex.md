@@ -4,7 +4,7 @@ title: "_TAPE_INIT_DATA_EX"
 author: windows-driver-content
 description: TAPE_INIT_DATA_EX defines values and routines that are specific to a Windows 2000 tape miniclass driver. The tape miniclass DriverEntry routine passes this information to the tape class driver to complete miniclass driver initialization.
 old-location: storage\tape_init_data_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 438c736e-c9be-4a75-a062-4614ea7fe028
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

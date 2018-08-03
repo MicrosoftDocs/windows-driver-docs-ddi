@@ -31,7 +31,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_PANEL_QUERY_BRIGHTNESS_RANGES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

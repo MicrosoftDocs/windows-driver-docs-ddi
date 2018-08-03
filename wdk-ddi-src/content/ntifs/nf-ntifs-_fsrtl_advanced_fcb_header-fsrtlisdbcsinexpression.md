@@ -4,7 +4,7 @@ title: FsRtlIsDbcsInExpression function
 author: windows-driver-content
 description: The FsRtlIsDbcsInExpression routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 old-location: ifsk\fsrtlisdbcsinexpression.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

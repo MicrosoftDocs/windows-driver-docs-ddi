@@ -4,7 +4,7 @@ title: RtlCustomCPToUnicodeN function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlcustomcptounicoden.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8f29aca1-9d38-4c28-976f-64549767b303
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_BRB_L2CA_OPEN_CHANNEL"
 author: windows-driver-content
 description: The _BRB_L2CA_OPEN_CHANNEL structure describes a L2CAP channel to open to a remote device, or a response from the profile driver accepting or rejecting an incoming L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_channel.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 16f79360-c8fd-4be9-9c94-7fa2a1d8c6b5
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

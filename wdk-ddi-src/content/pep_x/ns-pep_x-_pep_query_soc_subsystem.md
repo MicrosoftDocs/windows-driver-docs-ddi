@@ -4,7 +4,7 @@ title: "_PEP_QUERY_SOC_SUBSYSTEM"
 author: windows-driver-content
 description: The PEP_QUERY_SOC_SUBSYSTEM structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM notification to gather basic information about a particular system on a chip (SoC) subsystem.
 old-location: kernel\pep_query_soc_subsystem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F4571085-19C2-46FD-B754-D4937BE5A500
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

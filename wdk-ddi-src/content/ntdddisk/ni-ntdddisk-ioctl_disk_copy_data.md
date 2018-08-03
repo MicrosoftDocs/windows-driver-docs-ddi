@@ -4,7 +4,7 @@ title: IOCTL_DISK_COPY_DATA
 author: windows-driver-content
 description: This IOCTL_DISK_COPY_DATA IOCTL is used to copy data from one area of the disk to another.
 old-location: storage\ioctl_disk_copy_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1434ee49-4c3d-4104-bca4-c0ea4299c9aa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

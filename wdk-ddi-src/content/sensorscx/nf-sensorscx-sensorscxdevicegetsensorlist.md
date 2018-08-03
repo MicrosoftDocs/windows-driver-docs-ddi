@@ -4,10 +4,10 @@ title: SensorsCxDeviceGetSensorList function
 author: windows-driver-content
 description: This function returns a list of sensor instances associated with a WDFDEVICE.
 old-location: sensors\sensorscxdevicegetsensorlist.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: SensorsCxDeviceGetSensorList, Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, sensorscx/Syntax
 ms.prod: windows-hardware
 ms.technology: windows-devices

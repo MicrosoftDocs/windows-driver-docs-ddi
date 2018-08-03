@@ -4,7 +4,7 @@ title: GNSS_CHIPSETINFO
 author: windows-driver-content
 description: This structure defines the specific data elements associated with the GNSS hardware.
 old-location: gnss\gnss_chipsetinfo.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

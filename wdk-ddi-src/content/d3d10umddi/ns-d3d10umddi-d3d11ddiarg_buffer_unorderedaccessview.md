@@ -4,10 +4,10 @@ title: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure describes a buffer that is used to create an unordered access view (UAV) in a call to the CreateUnorderedAccessView function.
 old-location: display\d3d11ddiarg_buffer_unorderedaccessview.htm
-old-project: display
+tech.root: display
 ms.assetid: a5ff1158-539f-4b25-8b65-72d077108c46
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, display.d3d11ddiarg_buffer_unorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices

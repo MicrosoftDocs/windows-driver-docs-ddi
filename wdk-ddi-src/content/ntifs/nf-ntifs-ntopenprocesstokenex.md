@@ -4,7 +4,7 @@ title: NtOpenProcessTokenEx function
 author: windows-driver-content
 description: The ZwOpenProcessTokenEx routine opens the access token associated with a process.
 old-location: kernel\zwopenprocesstokenex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2ea6f764-b884-4764-a2ff-19d0170f9b31
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwOpenProcessTokenEx</b> routine opens the access token associated with a process. 
+The <b>NtOpenProcessTokenEx</b> routine opens the access token associated with a process. 
 
 
 ## -parameters
@@ -84,7 +84,7 @@ Pointer to a caller-allocated variable that receives a handle to the newly opene
 
 
 
-<b>ZwOpenProcessTokenEx</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
+<b>NtOpenProcessTokenEx</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
 
 <table>
 <tr>
@@ -189,15 +189,15 @@ The token handle could not be created.
 
 
 
-<b>ZwOpenProcessTokenEx</b> opens the access token associated with a process and returns a handle for that token. 
+<b>NtOpenProcessTokenEx</b> opens the access token associated with a process and returns a handle for that token. 
 
-Any handle obtained by calling <b>ZwOpenProcessTokenEx</b> must eventually be released by calling <b>ZwClose</b>. 
+Any handle obtained by calling <b>NtOpenProcessTokenEx</b> must eventually be released by calling <b>NtClose</b>. 
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>HandleAttributes</i> parameter of <b>ZwOpenProcessTokenEx</b>. This restricts the use of the handle returned by <b>ZwOpenProcessTokenEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>HandleAttributes</i> parameter of <b>NtOpenProcessTokenEx</b>. This restricts the use of the handle returned by <b>NtOpenProcessTokenEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK. 
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwOpenProcessTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenProcessTokenEx</b>" instead of "<b>ZwOpenProcessTokenEx</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtOpenProcessTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenProcessTokenEx</b>" instead of "<b>ZwOpenProcessTokenEx</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
@@ -225,11 +225,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567032">ZwOpenThreadTokenEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567032">NtOpenThreadTokenEx</a>
  
 
  

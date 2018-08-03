@@ -4,7 +4,7 @@ title: ExInitializeWorkItem function
 author: windows-driver-content
 description: ExInitializeWorkItem initializes a work-queue item with a caller-supplied context and callback routine to be queued for execution when a system worker thread is given control.
 old-location: ifsk\exinitializeworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e26e7e68-0d0c-42fe-9342-ebbf2bb8f830
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

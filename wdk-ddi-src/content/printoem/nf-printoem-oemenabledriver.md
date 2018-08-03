@@ -4,7 +4,7 @@ title: OEMEnableDriver function
 author: windows-driver-content
 description: OEMEnableDriver function
 old-location: print\oemenabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

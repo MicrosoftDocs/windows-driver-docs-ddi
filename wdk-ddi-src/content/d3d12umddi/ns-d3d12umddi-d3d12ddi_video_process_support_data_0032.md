@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 author: windows-driver-content
 description: Video process support data.
 old-location: display\d3d12ddi-video-process-support-data-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 ## -description
 
 
-Video process support data.
+Structure for the [D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT](ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020.md) capability check.This structure is used to retrieve the capabilities for the video processor.
 
 
 ## -struct-fields
@@ -60,75 +60,80 @@ Video process support data.
 
 ### -field NodeIndex
 
-Node index.
+In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 
 ### -field InputSample
 
-Input sample.
+Input Width, Height, and Format. See [D3D12DDI_VIDEO_SAMPLE_DESCRIPTION](ns-d3d12umddi-d3d12ddi_video_sample_description_0020.md).
 
 
 ### -field InputFieldType
 
-Input field type.
+The interlaced field type of the input sample. See [D3D12DDI_VIDEO_FIELD_TYPE](ne-d3d12umddi-d3d12ddi_video_field_type_0020.md).
 
 
 ### -field InputStereoFormat
 
-Input stereo format.
+The stereo format of the input. See [D3D12DDI_VIDEO_FRAME_STEREO_FORMAT](ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md).
 
 
 ### -field InputFrameRate
 
-Input frame rate.
+The input frame rate.
 
 
 ### -field OutputFormat
 
-Output format.
+The output DXGI format and color space. See [D3D12DDI_VIDEO_FORMAT_DESCRIPTION](ns-d3d12umddi-d3d12ddi_video_format_description_0020.md).
 
 
 ### -field OutputStereoFormat
 
-Output stereo format.
+The stereo format of the output. See [D3D12DDI_VIDEO_FRAME_STEREO_FORMAT](ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md).
 
 
 ### -field OutputFrameRate
 
-Output frame rate.
+The frame rate of the output.
 
 
 ### -field SupportFlags
 
-Support flags.
+Indicates if the conversion from input format and colorspace to output format and colorspace is supported. See [D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md) for details,
 
 
 ### -field ScaleSupport
 
-Scale support.
+Indicates the supported output scale range for the input to output processing. See [D3D12DDI_VIDEO_SCALE_SUPPORT](ns-d3d12umddi-d3d12ddi_video_scale_support_0032.md).
 
 
 ### -field FeatureSupport
 
-Feature support.
+A bitwise OR of zero or more flags from the [D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md) enumeration.
 
 
 ### -field DeinterlaceSupport
 
-Deinterlace support.
+The deinterlace modes supported by the driver. See [D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md).
 
 
 ### -field AutoProcessingSupport
 
-Auto processing support.
+Indicates the type of auto processing operations supported by driver.
 
 
 ### -field FilterSupport
 
-Filter support.
+A bitwise OR of zero or more flags from the [D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md) enumeration.
 
 
 ### -field FilterRangeSupport
 
-Filter range support.
+The list of filter range values. The order of the range values should be specified in the same order that the filters appear in the D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS. D3D12DDI_VIDEO_PROCESS_MAX_FILTERS range values are available for current and future filters. The D3D runtime will zero initialize any range value that is not supported by the driver.
+The value of D3D12DDI_VIDEO_PROCESS_MAX_FILTERS is defined as such:
+
+```c
+#define D3D12DDI_VIDEO_PROCESS_MAX_FILTERS_0020 32
+```
 

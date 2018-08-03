@@ -4,7 +4,7 @@ title: FsRtlIsAnsiCharacterLegalNtfs macro
 author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegalNtfs macro determines whether an ANSI character is legal for NTFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalntfs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 05d03799-752d-4f59-b96e-1a6d91bee8c4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

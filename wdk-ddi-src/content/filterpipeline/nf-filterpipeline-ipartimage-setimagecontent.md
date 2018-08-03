@@ -4,7 +4,7 @@ title: IPartImage::SetImageContent
 author: windows-driver-content
 description: The SetImageContent method sets an image property that is based on the content type.
 old-location: print\ipartimage_setimagecontent.htm
-old-project: print
+tech.root: print
 ms.assetid: 5d7a59ac-93de-4a41-9313-df189e1f6e36
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

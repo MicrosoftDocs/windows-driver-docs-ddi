@@ -4,7 +4,7 @@ title: FsRtlCheckOplock function
 author: windows-driver-content
 description: The FsRtlCheckOplock routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fsrtlcheckoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e1430ef2-fb94-4f0d-bdc8-59b423fe9c8c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 and later versions of Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state. 
+The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 
 
 ## -parameters
@@ -60,24 +60,24 @@ The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operatio
 
 ### -param Oplock [in]
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>.
 
 
 ### -param Irp [in]
 
-A pointer to the IRP for the I/O operation. 
+A pointer to the IRP for the I/O operation.
 
 
 ### -param Context [in, optional]
 
-A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
+A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to.
 
 
 ### -param CompletionRoutine [in, optional]
 
-A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. 
+A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed.
 
-This routine is declared as follows: 
+This routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -93,7 +93,7 @@ This routine is declared as follows:
 </td>
 </tr>
 </table></span></div>
-This routine has the following parameters: 
+This routine has the following parameters:
 
 
 
@@ -101,20 +101,20 @@ This routine has the following parameters:
 
 #### Context
 
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>.
 
 
 
 #### Irp
 
-A pointer to the IRP for the I/O operation. 
+A pointer to the IRP for the I/O operation.
 
 
 ### -param PostIrpRoutine [in, optional]
 
-A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. 
+A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>.
 
-This routine is declared as follows: 
+This routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -136,20 +136,20 @@ This routine is declared as follows:
 
 #### Context
 
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>.
 
 
 
 #### Irp
 
-A pointer to the IRP for the I/O operation. 
+A pointer to the IRP for the I/O operation.
 
 
 ## -returns
 
 
 
-The <b>FsRtlCheckOplock</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following: 
+The <b>FsRtlCheckOplock</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following:
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ The <b>FsRtlCheckOplock</b> routine returns STATUS_SUCCESS or an appropriate NTS
 </dl>
 </td>
 <td width="60%">
-The IRP was canceled. STATUS_CANCELLED is an error code. 
+The IRP was canceled. STATUS_CANCELLED is an error code.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ The IRP was canceled. STATUS_CANCELLED is an error code.
 </dl>
 </td>
 <td width="60%">
-If the IRP is an IRP_MJ_CREATE and FILE_OPEN_REQUIRING_OPLOCK is in the IRP's CreateOptions, the routine will not initiate a break of an existing opportunistic lock, but fails with STATUS_CANNOT_BREAK_OPLOCK. 
+If the IRP is an IRP_MJ_CREATE and FILE_OPEN_REQUIRING_OPLOCK is in the IRP's CreateOptions, the routine will not initiate a break of an existing opportunistic lock, but fails with STATUS_CANNOT_BREAK_OPLOCK.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ If the IRP is an IRP_MJ_CREATE and FILE_OPEN_REQUIRING_OPLOCK is in the IRP's Cr
 </dl>
 </td>
 <td width="60%">
-An opportunistic lock break is underway. The IRP is an IRP_MJ_CREATE request, and FILE_COMPLETE_IF_OPLOCKED was specified in the create options parameter for the operation. STATUS_OPLOCK_BREAK_IN_PROGRESS is a success code. 
+An opportunistic lock break is underway. The IRP is an IRP_MJ_CREATE request, and FILE_COMPLETE_IF_OPLOCKED was specified in the create options parameter for the operation. STATUS_OPLOCK_BREAK_IN_PROGRESS is a success code.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ An opportunistic lock break is underway. The IRP is an IRP_MJ_CREATE request, an
 </dl>
 </td>
 <td width="60%">
-An opportunistic lock break has been initiated, and control of the IRP has been passed to the oplock package. If CompletionRoutine is <b>NULL</b>, this routine will block while the oplock break is processed, rather than return STATUS_PENDING. STATUS_PENDING is a success code. 
+An opportunistic lock break has been initiated, and control of the IRP has been passed to the oplock package. If CompletionRoutine is <b>NULL</b>, this routine will block while the oplock break is processed, rather than return STATUS_PENDING. STATUS_PENDING is a success code.
 
 </td>
 </tr>
@@ -210,19 +210,19 @@ An opportunistic lock break has been initiated, and control of the IRP has been 
 
 
 
-<b>FsRtlCheckOplock</b> synchronizes the IRP for an I/O operation with the current opportunistic lock state of a file according to the following conditions: 
+<b>FsRtlCheckOplock</b> synchronizes the IRP for an I/O operation with the current opportunistic lock state of a file according to the following conditions:
 
 <ul>
 <li>
-If the I/O operation will cause the opportunistic lock to break, the opportunistic lock break is initiated. 
+If the I/O operation will cause the opportunistic lock to break, the opportunistic lock break is initiated.
 
 </li>
 <li>
-If the I/O operation cannot continue until the opportunistic lock break is complete, <b>FsRtlCheckOplock</b> returns STATUS_PENDING and calls the callback routine that the <i>PostIrpRoutine</i> parameter points to. 
+If the I/O operation cannot continue until the opportunistic lock break is complete, <b>FsRtlCheckOplock</b> returns STATUS_PENDING and calls the callback routine that the <i>PostIrpRoutine</i> parameter points to.
 
 </li>
 </ul>
-If a file system or filter driver uses opportunistic locks, it must call <b>FsRtlCheckOplock</b> from any dispatch routines for I/O operations that can cause opportunistic lock breaks. This rule applies to the following types of I/O operations, because these operations can cause opportunistic lock breaks: 
+If a file system or filter driver uses opportunistic locks, it must call <b>FsRtlCheckOplock</b> from any dispatch routines for I/O operations that can cause opportunistic lock breaks. This rule applies to the following types of I/O operations, because these operations can cause opportunistic lock breaks:
 
 IRP_MJ_CLEANUP
 
@@ -240,9 +240,9 @@ IRP_MJ_SET_INFORMATION
 
 IRP_MJ_WRITE
 
-For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
+For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation.
 
-Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541844">FltCheckOplock</a> instead of <b>FsRtlCheckOplock</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541844">FltCheckOplock</a> instead of <b>FsRtlCheckOplock</b>.
 
 
 

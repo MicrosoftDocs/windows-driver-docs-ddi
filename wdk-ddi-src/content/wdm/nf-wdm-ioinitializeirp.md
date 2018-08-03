@@ -4,7 +4,7 @@ title: IoInitializeIrp function
 author: windows-driver-content
 description: The IoInitializeIrp routine initializes a given IRP that was allocated by the caller.
 old-location: kernel\ioinitializeirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b5cc1af-ab3b-4583-9ef9-39132789e74f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

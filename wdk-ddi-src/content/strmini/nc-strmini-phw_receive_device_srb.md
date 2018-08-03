@@ -4,7 +4,7 @@ title: PHW_RECEIVE_DEVICE_SRB
 author: windows-driver-content
 description: The minidriver-supplied routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device.
 old-location: stream\strminireceivedevicepacket.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 51d8a18d-cd90-4fac-a991-6c0de505576e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

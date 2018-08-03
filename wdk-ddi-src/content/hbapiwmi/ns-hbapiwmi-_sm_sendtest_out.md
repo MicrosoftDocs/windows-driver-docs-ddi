@@ -4,7 +4,7 @@ title: "_SM_SendTEST_OUT"
 author: windows-driver-content
 description: The SM_SendTEST_OUT structure is used to receive output parameters from the SM_SendTEST method.
 old-location: storage\sm_sendtest_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e24a2498-7f33-435c-97ad-e4ae283580c2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

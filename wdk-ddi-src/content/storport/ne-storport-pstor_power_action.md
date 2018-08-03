@@ -4,7 +4,7 @@ title: "*PSTOR_POWER_ACTION"
 author: windows-driver-content
 description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
 old-location: storage\stor_power_action.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,14 +51,14 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. 
+The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
 
 
 ## -syntax
 
 
 ````
-typedef enum  { 
+typedef enum  {
   StorPowerActionNone           = 0,
   StorPowerActionReserved       = 1,
   StorPowerActionSleep          = 2,

@@ -4,7 +4,7 @@ title: FltSetIoPriorityHintIntoThread function
 author: windows-driver-content
 description: The FltSetIoPriorityHintIntoThread routine is used by a minifilter driver to set the IO priority information in a thread.
 old-location: ifsk\fltsetiopriorityhintintothread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 924fadbe-2703-43f8-985c-db5a7bb960a6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

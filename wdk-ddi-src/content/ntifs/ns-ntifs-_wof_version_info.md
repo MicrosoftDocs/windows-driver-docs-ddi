@@ -4,7 +4,7 @@ title: "_WOF_VERSION_INFO"
 author: windows-driver-content
 description: The WOF_VERSION_INFO structure contains the version corresponding to the driver supporting a given provider.
 old-location: ifsk\wof_version_info.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 953F34FC-2E8F-4569-89B8-2F9541456F3B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

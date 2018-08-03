@@ -4,7 +4,7 @@ title: RtlEnumerateGenericTableLikeADirectory function
 author: windows-driver-content
 description: The RtlEnumerateGenericTableLikeADirectory routine returns the elements of a generic table, one-by-one, in collation order.
 old-location: ifsk\rtlenumerategenerictablelikeadirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 206c8b70-575d-47e2-a03d-4c88e0d92fe0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

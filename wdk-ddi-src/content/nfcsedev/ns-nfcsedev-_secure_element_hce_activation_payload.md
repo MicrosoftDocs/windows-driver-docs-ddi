@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD"
 author: windows-driver-content
 description: "."
 old-location: nfpdrivers\secure_element_hce_activation_payload.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 2FFEB2DB-7506-4CDB-BD5F-41D2E4212017
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

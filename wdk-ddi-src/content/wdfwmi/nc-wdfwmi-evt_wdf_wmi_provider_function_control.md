@@ -4,7 +4,7 @@ title: EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL
 author: windows-driver-content
 description: A driver's EvtWmiProviderFunctionControl callback function enables and disables the driver's support for collecting data and sending events for a specified WMI data provider.
 old-location: wdf\evtwmiproviderfunctioncontrol.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 89b48747-d3aa-48c7-825c-94545f378f07
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

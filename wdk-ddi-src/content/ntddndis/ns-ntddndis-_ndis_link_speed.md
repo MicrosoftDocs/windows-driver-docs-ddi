@@ -4,10 +4,10 @@ title: "_NDIS_LINK_SPEED"
 author: windows-driver-content
 description: The NDIS_LINK_SPEED structure specifies transmit and receive link speeds.
 old-location: netvista\ndis_link_speed.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d11155a3-b455-4c6e-83b8-7a86d8fd2aa1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_LINK_SPEED, NDIS_LINK_SPEED, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_SPEED, PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_SPEED, netvista.ndis_link_speed, ntddndis/NDIS_LINK_SPEED, ntddndis/PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

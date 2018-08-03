@@ -4,7 +4,7 @@ title: "_IRP"
 author: windows-driver-content
 description: The IRP structure is a partially opaque structure that represents an I/O request packet. Drivers can use the following members of the IRP structure.
 old-location: kernel\irp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

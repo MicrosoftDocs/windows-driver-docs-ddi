@@ -4,10 +4,10 @@ title: FwpsvSwitchEventsUnsubscribe0 function
 author: windows-driver-content
 description: The FwpsvSwitchEventsUnsubscribe0 function releases resources that are associated with virtual switch notification subscriptions.Note  FwpsvSwitchEventsUnsubscribe0 is a specific version of FwpsvSwitchEventsUnsubscribe.
 old-location: netvista\fwpsvswitcheventsunsubscribe0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f83c6834-0438-42b8-ad9f-a1d82fcf361c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsUnsubscribe0, netvista.fwpsvswitcheventsunsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

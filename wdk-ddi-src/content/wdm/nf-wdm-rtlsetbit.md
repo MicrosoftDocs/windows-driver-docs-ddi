@@ -4,7 +4,7 @@ title: RtlSetBit function
 author: windows-driver-content
 description: The RtlSetBit routine sets the specified bit in a bitmap to one.
 old-location: kernel\rtlsetbit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

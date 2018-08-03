@@ -4,7 +4,7 @@ title: NtOpenTransactionManager function
 author: windows-driver-content
 description: The ZwOpenTransactionManager routine obtains a handle to an existing transaction manager object.
 old-location: kernel\zwopentransactionmanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b3eb40ad-cda9-4a2f-a794-670bd2ee9102
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

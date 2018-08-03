@@ -4,10 +4,10 @@ title: "_D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION"
 author: windows-driver-content
 description: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION describes a virtual address update operation.
 old-location: display\d3dddi_updategpuvirtualaddress_operation.htm
-old-project: display
+tech.root: display
 ms.assetid: BCA741A8-2294-43C1-8B9C-3724274D637B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation
 ms.prod: windows-hardware
 ms.technology: windows-devices

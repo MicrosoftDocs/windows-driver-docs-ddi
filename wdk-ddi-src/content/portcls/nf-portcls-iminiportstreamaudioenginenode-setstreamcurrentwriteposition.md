@@ -4,10 +4,10 @@ title: IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 author: windows-driver-content
 description: Sets the current cursor position in the audio data stream that is being captured from the endpoint.
 old-location: audio\iminiportstreamaudioenginenode_setstreamcurrentwriteposition.htm
-old-project: audio
+tech.root: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], SetStreamCurrentWritePosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_INTERFACE"
 author: windows-driver-content
 description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d853643d-d3e8-40cc-a8a8-848f36f3bdae
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

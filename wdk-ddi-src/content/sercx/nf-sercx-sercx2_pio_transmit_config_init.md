@@ -4,7 +4,7 @@ title: SERCX2_PIO_TRANSMIT_CONFIG_INIT function
 author: windows-driver-content
 description: The SERCX2_PIO_TRANSMIT_CONFIG_INIT function initializes a SERCX2_PIO_TRANSMIT_CONFIG structure.
 old-location: serports\sercx2_pio_transmit_config_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: B168C2EE-8D27-4A36-8B7F-C8EE719BFAC0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

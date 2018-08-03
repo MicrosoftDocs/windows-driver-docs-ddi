@@ -4,7 +4,7 @@ title: IPrinterQueue::GetProperties
 author: windows-driver-content
 description: Gets the properties in the property bag for the queue.
 old-location: print\iprinterqueue_getproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

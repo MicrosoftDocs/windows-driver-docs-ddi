@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetInterfaceNumber function
 author: windows-driver-content
 description: The WdfUsbInterfaceGetInterfaceNumber method returns the interface number of a specified USB interface object.
 old-location: wdf\wdfusbinterfacegetinterfacenumber.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bc39e3ae-6899-423d-be1d-b3322efface8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

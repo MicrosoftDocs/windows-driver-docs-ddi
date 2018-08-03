@@ -4,7 +4,7 @@ title: "_SetInitiatorNodeName_IN"
 author: windows-driver-content
 description: The SetInitiatorNodeName_IN structure holds the input data for the SetInitiatorNodeName method.
 old-location: storage\setinitiatornodename_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 58af1872-23bf-44f2-9ef4-271f0ddef5d5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

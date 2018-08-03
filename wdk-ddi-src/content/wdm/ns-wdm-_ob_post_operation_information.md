@@ -4,7 +4,7 @@ title: "_OB_POST_OPERATION_INFORMATION"
 author: windows-driver-content
 description: The OB_POST_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fc52e06d-c826-43c2-ac61-4f56fd808d43
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

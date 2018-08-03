@@ -4,7 +4,7 @@ title: ScsiPortWritePortBufferUshort function
 author: windows-driver-content
 description: The ScsiPortWritePortBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

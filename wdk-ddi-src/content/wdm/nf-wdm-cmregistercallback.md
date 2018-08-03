@@ -4,7 +4,7 @@ title: CmRegisterCallback function
 author: windows-driver-content
 description: The CmRegisterCallback routine is obsolete for Windows Vista and later operating system versions. Use CmRegisterCallbackEx instead.The CmRegisterCallback routine registers a RegistryCallback routine.
 old-location: kernel\cmregistercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1c7d1f90-f34b-4a93-bce2-581abe7cdc39
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

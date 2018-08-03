@@ -4,10 +4,10 @@ title: DXGKDDI_OPM_GET_CERTIFICATE_SIZE
 author: windows-driver-content
 description: The DxgkDdiOPMGetCertificateSize function retrieves the size of a certificate of the given type.
 old-location: display\dxgkddiopmgetcertificatesize.htm
-old-project: display
+tech.root: display
 ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

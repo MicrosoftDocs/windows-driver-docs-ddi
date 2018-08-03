@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE
 author: windows-driver-content
 description: The IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE request enables the wait/wake operation of a serial device.
 old-location: serports\ioctl_serial_internal_do_wait_wake.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 9bfa8f9e-9cda-42ff-bfce-44187d5ae5b5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

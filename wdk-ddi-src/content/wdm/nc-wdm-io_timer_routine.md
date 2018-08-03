@@ -4,7 +4,7 @@ title: IO_TIMER_ROUTINE
 author: windows-driver-content
 description: The IoTimer routine is a DPC that, if registered, is called once per second.
 old-location: kernel\iotimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c41b7489-afd2-4ddf-b296-6d42e3ff6cbf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

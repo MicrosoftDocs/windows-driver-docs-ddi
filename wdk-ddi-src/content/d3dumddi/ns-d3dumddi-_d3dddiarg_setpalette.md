@@ -4,10 +4,10 @@ title: "_D3DDDIARG_SETPALETTE"
 author: windows-driver-content
 description: The D3DDDIARG_SETPALETTE structure describes how to associate a palette with a texture.
 old-location: display\d3dddiarg_setpalette.htm
-old-project: display
+tech.root: display
 ms.assetid: 265912e2-2076-4435-811f-70a3dd1a0bd7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices], UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, _D3DDDIARG_SETPALETTE, d3dumddi/D3DDDIARG_SETPALETTE, display.d3dddiarg_setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

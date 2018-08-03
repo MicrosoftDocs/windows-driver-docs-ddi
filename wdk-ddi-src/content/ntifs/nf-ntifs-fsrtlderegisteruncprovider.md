@@ -4,7 +4,7 @@ title: FsRtlDeregisterUncProvider function
 author: windows-driver-content
 description: The FsRtlDeregisterUncProvider routine deregisters a redirector that was registered as a Universal Naming Convention (UNC) provider with the multiple UNC provider (MUP).
 old-location: ifsk\fsrtlderegisteruncprovider.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3f53a22f-b5d6-4e3d-987d-989bd5840b2a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

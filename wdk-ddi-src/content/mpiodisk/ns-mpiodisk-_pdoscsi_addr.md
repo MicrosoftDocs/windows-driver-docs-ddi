@@ -4,7 +4,7 @@ title: "_PDOSCSI_ADDR"
 author: windows-driver-content
 description: The PDOSCSI_ADDR structure is used to represent a SCSI address.
 old-location: storage\pdoscsi_addr.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ad31cff9-06bd-4c3a-b1e1-5a82cc6b48a2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

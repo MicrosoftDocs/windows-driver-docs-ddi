@@ -4,7 +4,7 @@ title: "_MONITOR2"
 author: windows-driver-content
 description: The MONITOR2 structure contains pointers to the functions defined by print monitors.
 old-location: print\monitor2.htm
-old-project: print
+tech.root: print
 ms.assetid: 0bfb5119-2034-4e63-9fbe-e2ff42a352d6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

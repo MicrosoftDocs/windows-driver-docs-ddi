@@ -4,7 +4,7 @@ title: KsCreateTopologyNode function
 author: windows-driver-content
 description: The KsCreateTopologyNode function creates a handle to a topology node instance. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\kscreatetopologynode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

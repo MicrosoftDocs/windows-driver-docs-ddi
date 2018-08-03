@@ -4,7 +4,7 @@ title: RtlLongToChar function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type CHAR.
 old-location: kernel\rtllongtochar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4D326534-2DEB-419B-9E14-D88543071ECC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

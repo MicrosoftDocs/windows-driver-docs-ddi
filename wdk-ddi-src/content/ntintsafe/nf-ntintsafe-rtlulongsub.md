@@ -4,7 +4,7 @@ title: RtlULongSub function
 author: windows-driver-content
 description: Subtracts one value of type ULONG from another.
 old-location: kernel\rtlulongsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 54776F17-C7EE-46DB-BA3F-2F545240FC61
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

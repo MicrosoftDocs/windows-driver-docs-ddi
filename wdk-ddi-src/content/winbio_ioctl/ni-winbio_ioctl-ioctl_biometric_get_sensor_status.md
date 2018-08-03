@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_GET_SENSOR_STATUS
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL tells the driver to perform any necessary steps to collect the current operating status of the device. Vendor-supplied WBDI drivers must support this IOCTL.
 old-location: biometric\ioctl_biometric_get_sensor_status.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 88a2a73b-4fce-4f7a-b73b-ab66e136320d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

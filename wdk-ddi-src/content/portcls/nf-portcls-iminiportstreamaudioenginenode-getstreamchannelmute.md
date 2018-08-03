@@ -4,10 +4,10 @@ title: IMiniportStreamAudioEngineNode::GetStreamChannelMute
 author: windows-driver-content
 description: Gets the state of the Mute node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelmute.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 16010297-5B08-466C-AB79-4ED12A9539D9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetStreamChannelMute, GetStreamChannelMute method [Audio Devices], GetStreamChannelMute method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelMute method, IMiniportStreamAudioEngineNode.GetStreamChannelMute, IMiniportStreamAudioEngineNode::GetStreamChannelMute, audio.iminiportstreamaudioenginenode_getstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices

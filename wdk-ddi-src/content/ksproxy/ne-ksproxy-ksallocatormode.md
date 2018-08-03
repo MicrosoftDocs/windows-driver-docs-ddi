@@ -4,7 +4,7 @@ title: KSALLOCATORMODE
 author: windows-driver-content
 description: "."
 old-location: stream\ksallocatormode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

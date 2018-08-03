@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_Date
 author: windows-driver-content
 description: Gets the driver package date.
 old-location: dtf\iwdtfdriverpackageaction2_date.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c590c262-f689-4768-bedf-13f06d7c8442
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

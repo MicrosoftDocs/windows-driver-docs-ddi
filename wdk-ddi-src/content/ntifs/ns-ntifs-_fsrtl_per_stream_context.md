@@ -4,7 +4,7 @@ title: "_FSRTL_PER_STREAM_CONTEXT"
 author: windows-driver-content
 description: The FSRTL_PER_STREAM_CONTEXT structure contains context information that a file system filter driver maintains about a file stream.
 old-location: ifsk\fsrtl_per_stream_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 108c224c-ae42-414f-951d-cb225059d525
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

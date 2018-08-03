@@ -4,7 +4,7 @@ title: PoSetSystemState function
 author: windows-driver-content
 description: Drivers call the PoSetSystemState routine to indicate that the system is active.
 old-location: kernel\posetsystemstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b62db582-381a-457f-9755-d8667c7561af
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

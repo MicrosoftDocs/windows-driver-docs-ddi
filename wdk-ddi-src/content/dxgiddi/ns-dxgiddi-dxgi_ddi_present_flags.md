@@ -4,10 +4,10 @@ title: DXGI_DDI_PRESENT_FLAGS
 author: windows-driver-content
 description: Identifies how to perform a present operation.
 old-location: display\dxgi_ddi_present_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

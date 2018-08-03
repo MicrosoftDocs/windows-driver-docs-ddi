@@ -4,7 +4,7 @@ title: FsRtlFastUnlockAll function
 author: windows-driver-content
 description: The FsRtlFastUnlockAll routine releases all byte-range locks that were acquired by the specified process for a file.
 old-location: ifsk\fsrtlfastunlockall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5004fb3c-f2e3-4663-9b95-7fb7bb38364d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -49,7 +49,7 @@ req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ## -description
 
 
-The <b>FsRtlFastUnlockAll</b> routine releases all byte-range locks that were acquired by the specified process for a file. 
+The <b>FsRtlFastUnlockAll</b> routine releases all byte-range locks that were acquired by the specified process for a file.
 
 
 ## -parameters
@@ -74,14 +74,14 @@ Pointer to the process ID for the process.
 
 ### -param Context [in, optional]
 
-Optional context pointer to be used when completing IRPs. 
+Optional context pointer to be used when completing IRPs.
 
 
 ## -returns
 
 
 
-<b>FsRtlFastUnlockAll</b> returns STATUS_SUCCESS or an error status code such as STATUS_RANGE_NOT_LOCKED. 
+<b>FsRtlFastUnlockAll</b> returns STATUS_SUCCESS or an error status code such as STATUS_RANGE_NOT_LOCKED.
 
 
 

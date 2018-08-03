@@ -4,10 +4,10 @@ title: PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX
 author: windows-driver-content
 description: NDIS calls a protocol driver's ProtocolCloseAdapterCompleteEx function to complete a close adapter operation for which the NdisCloseAdapterEx function returned NDIS_STATUS_PENDING.Note  You must declare the function by using the PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX type. For more information, see the following Examples section.
 old-location: netvista\protocolcloseadaptercompleteex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 62cc047a-bc91-4e1e-817e-7fd509d4d90e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX, PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX callback, ProtocolCloseAdapterCompleteEx, ProtocolCloseAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolCloseAdapterCompleteEx, netvista.protocolcloseadaptercompleteex, protocol_functions_ref_ebd02bc7-54f9-4b38-a2a5-9db0b64f1747.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

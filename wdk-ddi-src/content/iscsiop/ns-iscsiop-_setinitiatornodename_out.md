@@ -4,7 +4,7 @@ title: "_SetInitiatorNodeName_OUT"
 author: windows-driver-content
 description: The SetInitiatorNodeName_OUT structure holds the output data for the SetInitiatorNodeName method.
 old-location: storage\setinitiatornodename_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f3417648-f9f9-402f-b3a3-d09c0b7e5fdd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

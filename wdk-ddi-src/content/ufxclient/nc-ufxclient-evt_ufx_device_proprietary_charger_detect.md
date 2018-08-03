@@ -4,10 +4,10 @@ title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
 author: windows-driver-content
 description: The client driver's implementation to initiate proprietary charger detection.
 old-location: buses\evt_ufx_device_detect_proprietary_charger.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A3396CC8-153E-401A-BAD6-18FEE4D14EE5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback, EvtDeviceProprietaryChargerDetect, EvtUfxDeviceDetectProprietaryCharger, EvtUfxDeviceDetectProprietaryCharger callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], buses.evt_ufx_device_detect_proprietary_charger, ufxclient/EvtUfxDeviceDetectProprietaryCharger
 ms.prod: windows-hardware
 ms.technology: windows-devices

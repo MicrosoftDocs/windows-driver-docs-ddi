@@ -4,10 +4,10 @@ title: RIL_GetOperatorList function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getoperatorlist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 34894a89-73ba-4744-97b9-7c1f124431f4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices

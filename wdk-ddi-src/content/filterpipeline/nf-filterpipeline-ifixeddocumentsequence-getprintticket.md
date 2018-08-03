@@ -4,7 +4,7 @@ title: IFixedDocumentSequence::GetPrintTicket
 author: windows-driver-content
 description: The GetPrintTicket method gets the print ticket object for the fixed document sequence.
 old-location: print\ifixeddocumentsequence_getprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: dba0ac90-a895-4daf-ba7c-b7a8a32fed19
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

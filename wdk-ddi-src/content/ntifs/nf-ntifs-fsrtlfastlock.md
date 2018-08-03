@@ -4,7 +4,7 @@ title: FsRtlFastLock macro
 author: windows-driver-content
 description: The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 old-location: ifsk\fsrtlfastlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c3e209b5-9925-4911-8c42-0f15c1c710be
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

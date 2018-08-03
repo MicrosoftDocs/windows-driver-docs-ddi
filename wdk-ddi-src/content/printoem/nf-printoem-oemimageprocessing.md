@@ -4,7 +4,7 @@ title: OEMImageProcessing function
 author: windows-driver-content
 description: OEMImageProcessing function
 old-location: print\oemimageprocessing.htm
-old-project: print
+tech.root: print
 ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

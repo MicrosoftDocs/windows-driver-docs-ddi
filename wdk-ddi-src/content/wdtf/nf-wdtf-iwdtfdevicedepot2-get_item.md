@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::get_Item
 author: windows-driver-content
 description: Gets an individual device in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_item.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9411437c-60d8-424e-b54c-7750f1c4dd9e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

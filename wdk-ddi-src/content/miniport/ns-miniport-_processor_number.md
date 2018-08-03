@@ -4,7 +4,7 @@ title: "_PROCESSOR_NUMBER"
 author: windows-driver-content
 description: The PROCESSOR_NUMBER structure identifies a processor by its group number and group-relative processor number.
 old-location: kernel\processor_number.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6ceb8d0f-8c26-4487-a976-ac92e2aca5e0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

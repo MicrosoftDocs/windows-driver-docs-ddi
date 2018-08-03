@@ -4,10 +4,10 @@ title: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE
 author: windows-driver-content
 description: An offload target calls the NdisTcpOffloadForwardComplete function to complete one or more forward requests that were made to the MiniportTcpOffloadForward function of the offload target.
 old-location: netvista\ndistcpoffloadforwardcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 080949ab-8a27-4d13-992e-597210d4882c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

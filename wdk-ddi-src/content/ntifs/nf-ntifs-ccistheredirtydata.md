@@ -4,7 +4,7 @@ title: CcIsThereDirtyData function
 author: windows-driver-content
 description: The CcIsThereDirtyData routine determines whether a mounted volume contains any files that have dirty data in the system cache.
 old-location: ifsk\ccistheredirtydata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 592c7f8d-0a39-45af-a9b8-14ddd55e2835
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: SeSinglePrivilegeCheck function
 author: windows-driver-content
 description: The SeSinglePrivilegeCheck routine checks for the passed privilege value in the context of the current thread.
 old-location: kernel\sesingleprivilegecheck.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

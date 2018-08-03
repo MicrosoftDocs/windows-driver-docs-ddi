@@ -4,7 +4,7 @@ title: "_PTS_DATA"
 author: windows-driver-content
 description: The PTS_DATA structure is used for protocol type selection (PTS).
 old-location: smartcrd\pts_data.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: aa542c6f-24f9-4ef4-a425-93905cca976a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

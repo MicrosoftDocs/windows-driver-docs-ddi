@@ -4,10 +4,10 @@ title: "_DXGK_GAMMARAMPCAPS"
 author: windows-driver-content
 description: The DXGK_GAMMARAMPCAPS structure identifies gamma-ramp capabilities of the display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_gammarampcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 3e160700-5d90-4241-8ed4-8d87b545b9c3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_GAMMARAMPCAPS, DXGK_GAMMARAMPCAPS structure [Display Devices], DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml, _DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, display.dxgk_gammarampcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: SpbDeviceInitialize function
 author: windows-driver-content
 description: The SpbDeviceInitialize method completes the initialization of the SPB controller driver after this driver creates the associated device object.
 old-location: spb\spbdeviceinitialize.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

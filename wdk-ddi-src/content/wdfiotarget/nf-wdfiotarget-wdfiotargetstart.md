@@ -4,7 +4,7 @@ title: WdfIoTargetStart function
 author: windows-driver-content
 description: The WdfIoTargetStart method starts sending queued requests to a local or remote I/O target.
 old-location: wdf\wdfiotargetstart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0d270910-f0ff-4305-bd68-caa36d3a02c5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

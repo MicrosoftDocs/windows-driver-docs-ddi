@@ -4,7 +4,7 @@ title: RtlCmEncodeMemIoResource function
 author: windows-driver-content
 description: The RtlCmEncodeMemIoResource routine updates a CM_PARTIAL_RESOURCE_DESCRIPTOR structure to describe a range of memory or I/O port addresses.
 old-location: kernel\rtlcmencodememioresource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

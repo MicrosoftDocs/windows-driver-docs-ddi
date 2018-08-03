@@ -4,7 +4,7 @@ title: "_NV_FEATURE_PARAMETER"
 author: windows-driver-content
 description: The NV_FEATURE_PARAMETER structure is used in conjunction with the IOCTL_SCSI_MINIPORT_NVCACHE request to get NV Cache Manager feature support information from the device.
 old-location: storage\nv_feature_parameter.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 06b07b50-577c-4762-aea6-38bd1ada8973
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

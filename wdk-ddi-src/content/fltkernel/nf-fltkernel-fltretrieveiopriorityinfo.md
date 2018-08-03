@@ -4,7 +4,7 @@ title: FltRetrieveIoPriorityInfo function
 author: windows-driver-content
 description: The FltRetrieveIoPriorityInfo routine is used by a minifilter driver to retrieve priority information from a thread.
 old-location: ifsk\fltretrieveiopriorityinfo.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b764e55e-e58b-4a4f-a32f-84e3cfd5f8c4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: UfxEndpointGetCommandQueue function
 author: windows-driver-content
 description: Returns the command queue previously created by UfxEndpointCreate.
 old-location: buses\ufxendpointgetcommandqueue.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: BF84F0E4-3B0D-45B8-AC06-F6F761A37234
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

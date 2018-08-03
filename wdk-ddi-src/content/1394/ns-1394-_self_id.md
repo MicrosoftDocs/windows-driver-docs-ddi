@@ -4,7 +4,7 @@ title: "_SELF_ID"
 author: windows-driver-content
 description: The SELF_ID structure contains a raw packet zero self-ID packet. See the IEEE 1394 Trade Association specification website for details.
 old-location: ieee\self_id.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

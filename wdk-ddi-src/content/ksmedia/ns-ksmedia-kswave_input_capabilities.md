@@ -4,7 +4,7 @@ title: KSWAVE_INPUT_CAPABILITIES
 author: windows-driver-content
 description: The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.
 old-location: stream\kswave_input_capabilities.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: PcwRegister function
 author: windows-driver-content
 description: The PcwRegister function registers the caller as a provider of the specified counter set.
 old-location: devtest\pcwregister.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: RtlIncrementCorrelationVector function
 author: windows-driver-content
 description: Increments the specified correlation vector. For a correlation vector of the form X.i, the incremented value is be X.(i+1).
 old-location: kernel\rtlincrementcorrelationvector.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bb252dd5-9bf3-41bd-ab46-9524735970c5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

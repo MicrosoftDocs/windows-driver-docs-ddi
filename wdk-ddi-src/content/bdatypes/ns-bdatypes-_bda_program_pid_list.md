@@ -4,7 +4,7 @@ title: "_BDA_PROGRAM_PID_LIST"
 author: windows-driver-content
 description: The BDA_PROGRAM_PID_LIST structure describes data of a specific program to view. This data consists of packets that are identified with packet identifiers (PID).
 old-location: stream\bda_program_pid_list.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d3a96377-71f9-40ba-a15f-cacd64dcc6c4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

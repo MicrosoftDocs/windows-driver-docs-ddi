@@ -4,7 +4,7 @@ title: SeUnlockSubjectContext function
 author: windows-driver-content
 description: The SeUnlockSubjectContext routine unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext.
 old-location: ifsk\seunlocksubjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5b0dda8f-52de-462b-8dab-8aed86e5dc0e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

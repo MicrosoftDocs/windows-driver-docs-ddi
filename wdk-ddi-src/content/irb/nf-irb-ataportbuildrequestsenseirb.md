@@ -4,7 +4,7 @@ title: AtaPortBuildRequestSenseIrb function
 author: windows-driver-content
 description: The AtaPortBuildRequestSenseIrb routine builds and returns an IRB for operation code SCSIOP_REQUEST_SENSE.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportbuildrequestsenseirb.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f5083841-a6d7-4437-9941-bd7dca2f1771
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

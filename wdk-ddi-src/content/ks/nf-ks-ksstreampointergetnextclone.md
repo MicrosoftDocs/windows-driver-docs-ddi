@@ -4,7 +4,7 @@ title: KsStreamPointerGetNextClone function
 author: windows-driver-content
 description: The KsStreamPointerGetNextClone function returns the clone stream pointer that was cloned immediately after the specified clone.
 old-location: stream\ksstreampointergetnextclone.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b7f34d42-6044-43c6-85c8-ca3a6177c057
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

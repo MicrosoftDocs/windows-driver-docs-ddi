@@ -4,7 +4,7 @@ title: "_DISK_GEOMETRY_EX"
 author: windows-driver-content
 description: The DISK_GEOMETRY_EX structure is a variable-length structure composed of a DISK_GEOMETRY structure followed by a DISK_PARTITION_INFO structure followed, in turn, by a DISK_DETECTION_INFO structure.
 old-location: storage\disk_geometry_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6397c0dd-4dc7-49fa-85a7-841f6c2b30d8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

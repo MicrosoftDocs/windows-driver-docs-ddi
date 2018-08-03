@@ -4,7 +4,7 @@ title: IPrintSchemaFeature::get_DisplayUI
 author: windows-driver-content
 description: Gets the setting that indicates whether or not to show the print UI.
 old-location: print\iprintschemafeature_displayui.htm
-old-project: print
+tech.root: print
 ms.assetid: 47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

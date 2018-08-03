@@ -31,7 +31,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	_DXGK_DIAGNOSTIC_TYPES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: IsReparseTagMicrosoft macro
 author: windows-driver-content
 description: The IsReparseTagMicrosoft macro determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: ifsk\isreparsetagmicrosoft.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9c5abef5-36ff-4f10-8e4e-b8d36d995246
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KSERVICE_ROUTINE
 author: windows-driver-content
 description: The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary.
 old-location: kernel\interruptservice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ad104d4d-5e7f-4730-b898-71ab467f9379
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

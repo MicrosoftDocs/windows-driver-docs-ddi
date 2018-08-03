@@ -4,7 +4,7 @@ title: "*PKSPIN_DATAFLOW"
 author: windows-driver-content
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.
 old-location: stream\kspin_dataflow.htm
-old-project: stream
+tech.root: stream
 ms.assetid: feab830d-8079-4051-8974-52905f845765
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ An instance of the KSPIN_DATAFLOW enumeration is returned by <a href="https://ms
 
 
 ````
-typedef enum  { 
+typedef enum  {
   KSPIN_DATAFLOW_IN   = 1,
   KSPIN_DATAFLOW_OUT  = 2
 } KSPIN_DATAFLOW, *PKSPIN_DATAFLOW;
@@ -71,7 +71,7 @@ typedef enum  {
 
 ### -field KSPIN_DATAFLOW_IN
 
-Indicates that the pin factory instantiates data sink pins. Such pins can only be connected to data source pins. 
+Indicates that the pin factory instantiates data sink pins. Such pins can only be connected to data source pins.
 
 
 ### -field KSPIN_DATAFLOW_OUT

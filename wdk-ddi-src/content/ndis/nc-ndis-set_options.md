@@ -4,10 +4,10 @@ title: SET_OPTIONS
 author: windows-driver-content
 description: NDIS calls a driver's XxxSetOptions function to allow the driver to register optional services.
 old-location: netvista\protocolsetoptions.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 342e23ad-d38b-4100-949a-220b8fbdcf6e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: SET_OPTIONS, SET_OPTIONS callback, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

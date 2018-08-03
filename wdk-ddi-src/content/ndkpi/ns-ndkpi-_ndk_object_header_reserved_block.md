@@ -4,10 +4,10 @@ title: "_NDK_OBJECT_HEADER_RESERVED_BLOCK"
 author: windows-driver-content
 description: The NDK_OBJECT_HEADER_RESERVED_BLOCK structure specifies reserved information in an NDK object.
 old-location: netvista\ndk_object_header_reserved_block.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 39D3265C-ED32-420F-9216-EFD0EDC27C84
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, netvista.ndk_object_header_reserved_block
 ms.prod: windows-hardware
 ms.technology: windows-devices

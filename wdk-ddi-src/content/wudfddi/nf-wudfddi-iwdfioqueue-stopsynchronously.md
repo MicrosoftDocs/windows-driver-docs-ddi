@@ -4,7 +4,7 @@ title: IWDFIoQueue::StopSynchronously
 author: windows-driver-content
 description: The StopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 old-location: wdf\iwdfioqueue_stopsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ea05cb82-8a50-48d8-a15c-b7ab58c01b30
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

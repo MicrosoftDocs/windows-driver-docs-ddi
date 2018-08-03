@@ -4,7 +4,7 @@ title: tagWNODE_SINGLE_ITEM
 author: windows-driver-content
 description: The WNODE_SINGLE_ITEM structure contains the value of a single data item in an instance of a data block.
 old-location: kernel\wnode_single_item.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

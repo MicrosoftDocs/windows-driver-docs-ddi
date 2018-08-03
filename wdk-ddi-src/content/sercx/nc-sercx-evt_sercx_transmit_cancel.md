@@ -4,7 +4,7 @@ title: EVT_SERCX_TRANSMIT_CANCEL
 author: windows-driver-content
 description: The EvtSerCxTransmitCancel event callback function notifies the serial controller driver that the pending transmit request is canceled.
 old-location: serports\evtsercxtransmitcancel.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 7922A3BD-8829-42A3-9F94-3C26F1262626
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

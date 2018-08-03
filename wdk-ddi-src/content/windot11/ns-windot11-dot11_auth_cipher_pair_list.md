@@ -4,7 +4,7 @@ title: DOT11_AUTH_CIPHER_PAIR_LIST
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_auth_cipher_pair_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e1440041-a7cd-45c6-8aa5-445d6de2bc20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,11 +75,11 @@ typedef struct DOT11_AUTH_CIPHER_PAIR_LIST {
 ### -field Header
 
 The type, revision, and size of the DOT11_AUTH_CIPHER_PAIR_LIST structure. This member is
-     formatted as an 
+     formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <i>Header</i> to the following values:
 
 
@@ -100,28 +100,28 @@ This member must be set to DOT11_AUTH_CIPHER_PAIR_LIST_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <code>sizeof(DOT11_AUTH_CIPHER_PAIR_LIST)</code>.
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uNumOfEntries
 
-The number of entries in the 
+The number of entries in the
      <b>AuthCipherPairs</b> array.
 
 
 ### -field uTotalNumOfEntries
 
-The maximum number of entries that the 
+The maximum number of entries that the
      <b>AuthCipherPairs</b> array can contain.
 
 
 ### -field AuthCipherPairs
 
-The list of 
+The list of
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structures.
 
@@ -130,19 +130,19 @@ The list of
 
 
 
-A miniport driver returns the DOT11_AUTH_CIPHER_PAIR_LIST structure when queried by either 
+A miniport driver returns the DOT11_AUTH_CIPHER_PAIR_LIST structure when queried by either
     <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
     OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
 
-When these OIDs are queried, the miniport driver must verify that the 
-    <b>InformationBuffer</b> member of the 
+When these OIDs are queried, the miniport driver must verify that the
+    <b>InformationBuffer</b> member of the
     <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function's
     <i>OidRequest</i> parameter is large enough to return the entire DOT11_AUTH_CIPHER_PAIR_LIST structure,
-    including all entries in the 
-    <b>AuthCipherPairs</b> array. The value of the 
-    <b>InformationBufferLength</b> member of the 
+    including all entries in the
+    <b>AuthCipherPairs</b> array. The value of the
+    <b>InformationBufferLength</b> member of the
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
 
 <ul>
@@ -154,7 +154,7 @@ For the <i>OidRequest</i> parameter, set the <b>BytesWritten</b> member to zero 
 
 </li>
 <li>
-Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its 
+Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
 </li>
@@ -177,16 +177,16 @@ Return NDIS_STATUS_SUCCESS from its <a href="..\ndis\nc-ndis-miniport_oid_reques
 </ul>
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in DOT11_AUTH_CIPHER_PAIR_LIST. However, if the operating
-    system starts Soft AP, it enables only the 
-    <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
+    system starts Soft AP, it enables only the
+    <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the
     <b>DOT11_CIPHER_ALGO_CCMP</b> cipher algorithm. To support Soft AP, the miniport driver must support this
     authentication/cipher pair.
 
 If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport driver must allow
-    peer stations to associate with the Extensible AP by using 
-    <a href="https://msdn.microsoft.com/f07d2d77-ccaf-4599-b59e-6ea4ecf55e0f">Open System Authentication</a> or 
+    peer stations to associate with the Extensible AP by using
+    <a href="https://msdn.microsoft.com/f07d2d77-ccaf-4599-b59e-6ea4ecf55e0f">Open System Authentication</a> or
     <a href="https://msdn.microsoft.com/41dd280b-e54c-4233-8051-45e7b1284d1d">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
-    the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see 
+    the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569436">OID_DOT11_WPS_ENABLED</a>.
 
 

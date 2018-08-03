@@ -4,7 +4,7 @@ title: VslCreateSecureSection function
 author: windows-driver-content
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\vslcreatesecuresection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 005e738e-dc38-404a-bd74-8aa342f8186b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+- Wdm.h
 api_name:
 -	VslCreateSecureSection
 product:
@@ -51,7 +51,7 @@ req.typenames:
 
 
 			
-            This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
+This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 
 
 ## -parameters
@@ -61,27 +61,27 @@ req.typenames:
 
 ### -param Handle
 
-TBD
+
 
 
 ### -param TargetProcess
 
-TBD
+
 
 
 ### -param Mdl
 
-TBD
+
 
 
 ### -param DevicePageProtection
 
-TBD
+
 
 
 ### -param Attributes
 
-TBD
+
 
 
 ## -returns

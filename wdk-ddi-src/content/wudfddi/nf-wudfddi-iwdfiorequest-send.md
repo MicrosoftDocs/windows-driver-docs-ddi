@@ -4,7 +4,7 @@ title: IWDFIoRequest::Send
 author: windows-driver-content
 description: The Send method sends a request to the specified I/O target.
 old-location: wdf\iwdfiorequest_send.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

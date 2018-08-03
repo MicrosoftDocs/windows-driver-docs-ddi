@@ -4,7 +4,7 @@ title: RtlFreeOemString function
 author: windows-driver-content
 description: The RtlFreeOemString routine releases storage that was allocated by any of the Rtl..ToOemString routines.
 old-location: ifsk\rtlfreeoemstring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cd9bc03d-1f57-420c-9430-d2d742f654e1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

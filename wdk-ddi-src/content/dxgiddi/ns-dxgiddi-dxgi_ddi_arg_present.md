@@ -4,10 +4,10 @@ title: DXGI_DDI_ARG_PRESENT
 author: windows-driver-content
 description: The DXGI_DDI_ARG_PRESENT structure describes a resource to display.
 old-location: display\dxgi_ddi_arg_present.htm
-old-project: display
+tech.root: display
 ms.assetid: 001cb9fc-d1fa-4ae5-aefd-954d307c4e89
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGI_DDI_ARG_PRESENT, DXGI_DDI_ARG_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5ad1821d-dfdb-4361-84dc-48a4a283d66a.xml, display.dxgi_ddi_arg_present, dxgiddi/DXGI_DDI_ARG_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

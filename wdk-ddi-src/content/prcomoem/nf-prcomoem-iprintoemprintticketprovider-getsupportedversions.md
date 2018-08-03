@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider::GetSupportedVersions
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::GetSupportedVersions method retrieves major versions of the print schemas that are supported by the plug-in provider.
 old-location: print\iprintoemprintticketprovider_getsupportedversions.htm
-old-project: print
+tech.root: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

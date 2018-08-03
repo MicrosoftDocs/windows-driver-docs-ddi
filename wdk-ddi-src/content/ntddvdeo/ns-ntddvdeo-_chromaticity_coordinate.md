@@ -31,7 +31,8 @@ apilocation:
 -	ntddvdeo.h
 apiname:
 -	_CHROMATICITY_COORDINATE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

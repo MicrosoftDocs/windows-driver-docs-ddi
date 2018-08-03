@@ -4,7 +4,7 @@ title: ChangerClassInitialize function
 author: windows-driver-content
 description: The ChangerClassInitialize routine initializes the driver.
 old-location: storage\changerclassinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

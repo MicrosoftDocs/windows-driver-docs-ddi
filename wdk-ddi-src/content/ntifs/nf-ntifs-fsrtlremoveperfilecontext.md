@@ -4,7 +4,7 @@ title: FsRtlRemovePerFileContext function
 author: windows-driver-content
 description: The FsRtlRemovePerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a file.
 old-location: ifsk\fsrtlremoveperfilecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1a4b6759-84d9-4731-8920-ef6ea1e51102
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

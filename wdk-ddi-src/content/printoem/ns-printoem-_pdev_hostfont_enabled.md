@@ -4,7 +4,7 @@ title: "_PDEV_HOSTFONT_ENABLED"
 author: windows-driver-content
 description: The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
 old-location: print\pdev_hostfont_enabled.htm
-old-project: print
+tech.root: print
 ms.assetid: f7fc7e33-e80b-449e-a1d1-a93740cd967c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

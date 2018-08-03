@@ -4,7 +4,7 @@ title: IQueueCallbackDeviceIoControl::OnDeviceIoControl
 author: windows-driver-content
 description: The OnDeviceIoControl method is called to handle a device I/O control request when an application performs a specific operation on a device through the Microsoft Win32 OnDeviceIoControl function.
 old-location: wdf\iqueuecallbackdeviceiocontrol_ondeviceiocontrol.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ed0eac1a-8e41-44c3-a538-9ec48492425f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IPrintCorePS2::GetGlobalAttribute
 author: windows-driver-content
 description: The IPrintCorePS2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcoreps2_getglobalattribute.htm
-old-project: print
+tech.root: print
 ms.assetid: a834cc10-eb59-4560-add3-e93f8292324b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

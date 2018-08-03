@@ -4,7 +4,7 @@ title: IFixedDocument::GetUri
 author: windows-driver-content
 description: The GetUri method gets the URI of the fixed document.
 old-location: print\ifixeddocument_geturi.htm
-old-project: print
+tech.root: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

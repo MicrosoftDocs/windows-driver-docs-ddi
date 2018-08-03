@@ -4,7 +4,7 @@ title: PopEntryList function
 author: windows-driver-content
 description: The PopEntryList routine removes the first entry from a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\popentrylist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

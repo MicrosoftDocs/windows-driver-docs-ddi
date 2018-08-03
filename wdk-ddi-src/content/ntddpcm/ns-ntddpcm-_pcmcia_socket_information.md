@@ -4,7 +4,7 @@ title: "_PCMCIA_SOCKET_INFORMATION"
 author: windows-driver-content
 description: The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the IOCTL_SOCKET_INFORMATION request to retrieve socket configuration and state data.
 old-location: pcmcia\pcmcia_socket_information.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: 53881aca-e49c-43e9-b68e-b91a1868e3f5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

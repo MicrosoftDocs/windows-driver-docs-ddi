@@ -4,7 +4,7 @@ title: ScsiPortInitialize function
 author: windows-driver-content
 description: For a non-Plug and Play miniport driver, the ScsiPortInitialize routine sets up the PORT_CONFIGURATION_INFORMATION structure and calls the miniport driver's HwScsiFindAdapter routine.
 old-location: storage\scsiportinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f6adca68-e016-4725-bd8e-691c71d1d471
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

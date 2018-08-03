@@ -1,0 +1,63 @@
+---
+UID: NS:sensorsstructures.VEC3D
+title: VEC3D
+author: windows-driver-content
+description: Defines a 3D vector.
+ms.assetid: 44c53c34-c7fd-467a-a969-40ead8f990f3
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: struct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+tech.root: sensors
+ms.keywords: VEC3D, VEC3D, *PVEC3D, 
+req.header: sensorsstructures.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.ddi-compliance:
+req.unicode-ansi:
+req.max-support:
+req.typenames: VEC3D, *PVEC3D
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	sensorsstructures.h
+api_name: 
+-	VEC3D
+product: 
+- Windows
+targetos: Windows
+---
+
+# VEC3D structure
+
+## -description
+
+Defines a 3D vector.
+
+## -struct-fields
+
+### -field X
+
+Direction along the x-axis.
+
+### -field Y
+
+Direction along the x-axis.
+
+### -field Z
+
+Direction along the x-axis.
+
+
+## -remarks
+
+## -see-also

@@ -4,7 +4,7 @@ title: KSAUTOMATION_TABLE_
 author: windows-driver-content
 description: The KSAUTOMATION_TABLE structure defines a structure that combines tables for properties, methods, and events.
 old-location: stream\ksautomation_table.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 76ab776d-0921-4fdb-9646-2cb97a582f6e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: ZwEnumerateKey function
 author: windows-driver-content
 description: The ZwEnumerateKey routine returns information about a subkey of an open registry key.
 old-location: kernel\zwenumeratekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 77ccd451-40c7-4f64-af2b-480e44e7f672
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

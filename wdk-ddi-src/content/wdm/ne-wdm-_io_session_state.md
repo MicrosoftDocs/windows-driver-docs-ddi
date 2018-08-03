@@ -4,7 +4,7 @@ title: "_IO_SESSION_STATE"
 author: windows-driver-content
 description: The IO_SESSION_STATE enumeration contains constants that indicate the current state of a user session.
 old-location: kernel\io_session_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

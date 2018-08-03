@@ -4,7 +4,7 @@ title: PoRegisterSystemState function
 author: windows-driver-content
 description: The PoRegisterSystemState routine registers the system as busy due to certain activity.
 old-location: kernel\poregistersystemstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

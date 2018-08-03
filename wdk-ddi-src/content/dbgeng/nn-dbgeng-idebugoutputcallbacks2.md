@@ -4,10 +4,10 @@ title: IDebugOutputCallbacks2
 author: windows-driver-content
 description: The IDebugOutputCallbacks2 interface allows clients to receive full debugger markup language (DML) content for presentation.
 old-location: debugger\idebugoutputcallbacks2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: D35D8960-AD9F-4493-B6CD-3E3049CC3BBD
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacks2, debugger.idebugoutputcallbacks2
 ms.prod: windows-hardware
 ms.technology: windows-devices

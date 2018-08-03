@@ -4,7 +4,7 @@ title: "_PEP_CRASHDUMP_INFORMATION"
 author: windows-driver-content
 description: The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device.
 old-location: kernel\pep_crashdump_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B1F680CB-8F82-4B31-A62E-23804FEB0107
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

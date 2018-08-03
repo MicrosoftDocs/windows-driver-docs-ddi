@@ -4,7 +4,7 @@ title: "_PEP_REQUEST_COMPONENT_PERF_STATE"
 author: windows-driver-content
 description: The PEP_REQUEST_COMPONENT_PERF_STATE structure contains a list of performance state (P-state) changes requested by the Windows power management framework (PoFx), plus status information about the handling of these requests by the platform extension plug-in (PEP).
 old-location: kernel\pep_request_component_perf_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8334434D-D2FC-4967-8234-3C097908C70B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

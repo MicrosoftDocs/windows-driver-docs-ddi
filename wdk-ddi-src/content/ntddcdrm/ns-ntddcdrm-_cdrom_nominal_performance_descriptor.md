@@ -4,7 +4,7 @@ title: "_CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR"
 author: windows-driver-content
 description: The CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure gives the host an approximation of logical unit performance.
 old-location: storage\cdrom_nominal_performance_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: F931CE79-7070-43B9-BFED-9F3D5B18623E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

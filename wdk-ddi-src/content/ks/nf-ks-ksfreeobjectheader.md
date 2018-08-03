@@ -4,7 +4,7 @@ title: KsFreeObjectHeader function
 author: windows-driver-content
 description: The KsFreeObjectHeader function cleans up and frees a previously allocated object header.
 old-location: stream\ksfreeobjectheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 59ca5035-f4d8-4a9c-a298-c8dca604f4db
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

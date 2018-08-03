@@ -4,7 +4,7 @@ title: RtlSizeTAdd function
 author: windows-driver-content
 description: Adds two values of type SIZE_T.
 old-location: kernel\rtlsizetadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A3A2BD4D-F95D-4427-BE63-80A6E9AC9293
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

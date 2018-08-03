@@ -4,10 +4,10 @@ title: IDDCX_CURSOR_CAPS
 author: windows-driver-content
 description: Gives information about the capabilities of the cursor.
 old-location: display\iddcx_cursor_caps.htm
-old-project: display
+tech.root: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices

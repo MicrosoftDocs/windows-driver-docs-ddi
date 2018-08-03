@@ -4,7 +4,7 @@ title: MmAllocateNonCachedMemory function
 author: windows-driver-content
 description: The MmAllocateNonCachedMemory routine allocates a virtual address range of noncached and cache-aligned memory.
 old-location: kernel\mmallocatenoncachedmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aabad72e-2636-47cd-9986-f50ab5101e68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

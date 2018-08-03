@@ -4,7 +4,7 @@ title: "_AVC_PRECONNECT_INFO"
 author: windows-driver-content
 description: The AVC_PRECONNECT_INFO structure specifies the preconnection information for the specified pin ID (zero-based offset) on an AV/C subunit device.
 old-location: stream\avc_preconnect_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

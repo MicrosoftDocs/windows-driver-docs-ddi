@@ -4,7 +4,7 @@ title: "_WDF_CHILD_RETRIEVE_INFO"
 author: windows-driver-content
 description: The WDF_CHILD_RETRIEVE_INFO structure contains information about a child device that is obtained by calling WdfChildListRetrieveNextDevice or WdfChildListRetrievePdo.
 old-location: wdf\wdf_child_retrieve_info.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0c48e7cd-e9aa-4ae7-bd44-fe16e1b0d619
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

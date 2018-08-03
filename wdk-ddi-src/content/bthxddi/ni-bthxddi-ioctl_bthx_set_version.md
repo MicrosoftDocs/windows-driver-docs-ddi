@@ -4,7 +4,7 @@ title: IOCTL_BTHX_SET_VERSION
 author: windows-driver-content
 description: IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of the extensibility interface being used.
 old-location: bltooth\ioctl_bthx_set_version.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: FE572606-8F47-4C40-BF74-24D5F667D2EC
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: KeReadStateTimer function
 author: windows-driver-content
 description: The KeReadStateTimer routine reads the current state of a timer object.
 old-location: kernel\kereadstatetimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0f7fc534-4a81-42e0-a3e6-8b91baa28b55
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

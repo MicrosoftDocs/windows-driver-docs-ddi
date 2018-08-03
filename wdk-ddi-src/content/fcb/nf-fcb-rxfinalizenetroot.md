@@ -4,7 +4,7 @@ title: RxFinalizeNetRoot function
 author: windows-driver-content
 description: RxFinalizeNetRoot finalizes the given NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxfinalizenetroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f0566902-b85b-4676-9f8f-67749ce2060a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

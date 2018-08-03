@@ -4,7 +4,7 @@ title: KsSetInformationFile function
 author: windows-driver-content
 description: The KsSetInformationFile function performs an information set against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates an information set against the device object.
 old-location: stream\kssetinformationfile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

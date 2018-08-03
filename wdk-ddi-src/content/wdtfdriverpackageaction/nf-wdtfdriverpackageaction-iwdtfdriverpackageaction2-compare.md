@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::Compare
 author: windows-driver-content
 description: Compares two driver packages.
 old-location: dtf\iwdtfdriverpackageaction2_compare.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: fa93d535-fe26-40cc-b08a-88841dcfdc96
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

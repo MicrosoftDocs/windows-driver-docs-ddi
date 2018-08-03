@@ -4,7 +4,7 @@ title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 author: windows-driver-content
 description: Used to process a video frame.
 old-location: display\pfnd3d12ddi_video_process_frame_0032.htm
-old-project: display
+tech.root: display
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Used to process a video frame.
+Performs a video processing operation on one or more input samples and writes the result to an output surface
 
 
 ## -parameters
@@ -60,27 +60,27 @@ Used to process a video frame.
 
 ### -param hDrvCommandList
 
-A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
+The command list used to record this process frames command.
 
 
 ### -param hDrvVideoProcessor
 
-The video processor.
+The video processor instance to use for this video process call. The video processor holds state for a video processing session, including required intermediate memory, cached processing data, or other temporary working space.
 
 
 ### -param *pOutputParameters
 
-The output arguments for the video process.
+The output arguments for the video process. The available parameters are in the [D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0032.md) structure.
 
 
 ### -param *pInputStreamParameters
 
-The input arguments for the video process.
+Specifies an array of input parameters. The available parameters are in the [D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0032.md) structure.
 
 
 ### -param NumInputStreams
 
-The number of input streams.
+The count of input streams.
 
 
 ## -returns

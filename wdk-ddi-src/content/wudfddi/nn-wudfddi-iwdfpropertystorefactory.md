@@ -4,7 +4,7 @@ title: IWDFPropertyStoreFactory
 author: windows-driver-content
 description: The IWDFPropertyStoreFactory interface is a factory interface that is used to create a property store interface.
 old-location: wdf\iwdfpropertystorefactory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 41d77cf1-6f85-4f43-b2d8-1da4c9dac380
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

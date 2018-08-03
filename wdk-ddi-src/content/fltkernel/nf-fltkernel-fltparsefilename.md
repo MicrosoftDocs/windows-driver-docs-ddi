@@ -4,7 +4,7 @@ title: FltParseFileName function
 author: windows-driver-content
 description: FltParseFileName parses the extension, stream, and final component from a file name string.
 old-location: ifsk\fltparsefilename.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8d91390b-22a1-4e0b-8c9e-78c0872e7b21
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

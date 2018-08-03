@@ -4,7 +4,7 @@ title: "_WDF_USB_INTERFACE_SETTING_PAIR"
 author: windows-driver-content
 description: The WDF_USB_INTERFACE_SETTING_PAIR structure specifies an alternate setting for a specified USB interface.
 old-location: wdf\wdf_usb_interface_setting_pair.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b6f169ae-6c4c-4c27-8532-75a76b66cc5a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

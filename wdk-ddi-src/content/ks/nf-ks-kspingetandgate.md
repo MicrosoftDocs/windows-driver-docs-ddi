@@ -4,7 +4,7 @@ title: KsPinGetAndGate function
 author: windows-driver-content
 description: The KsPinGetAndGate function returns the processing control gate for Pin.
 old-location: stream\kspingetandgate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: abd4da69-c0c3-442f-af58-e77362c637da
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

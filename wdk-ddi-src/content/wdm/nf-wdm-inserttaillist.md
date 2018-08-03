@@ -4,7 +4,7 @@ title: InsertTailList function
 author: windows-driver-content
 description: The InsertTailList routine inserts an entry at the tail of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\inserttaillist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9eb470c8-ee37-497e-982e-d32b4b9b7348
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

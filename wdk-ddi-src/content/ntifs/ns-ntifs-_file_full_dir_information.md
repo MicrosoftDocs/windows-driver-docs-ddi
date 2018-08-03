@@ -4,7 +4,7 @@ title: "_FILE_FULL_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_FULL_DIR_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_full_dir_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 31b1c2f6-415b-4183-8016-51686c460889
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

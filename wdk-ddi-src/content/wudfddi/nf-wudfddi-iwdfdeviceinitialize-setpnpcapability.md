@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::SetPnpCapability
 author: windows-driver-content
 description: The SetPnpCapability method sets the specified Plug and Play (PnP) capability of a device to the specified state.
 old-location: wdf\iwdfdeviceinitialize_setpnpcapability.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 82892740-12f6-469b-a65c-6905d32c0b0d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

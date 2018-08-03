@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe::Reset
 author: windows-driver-content
 description: The Reset method resets the data toggle and clears the stall condition on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_reset.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

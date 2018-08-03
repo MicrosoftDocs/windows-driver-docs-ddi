@@ -4,7 +4,7 @@ title: "_ELEMENT_TYPE"
 author: windows-driver-content
 description: The ELEMENT_TYPE enumeration provides a list of changer element types defined by the SCSI-3 specification.
 old-location: storage\element_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

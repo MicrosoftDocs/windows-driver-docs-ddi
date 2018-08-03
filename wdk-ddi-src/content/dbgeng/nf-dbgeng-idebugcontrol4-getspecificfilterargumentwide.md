@@ -4,10 +4,10 @@ title: IDebugControl4::GetSpecificFilterArgumentWide
 author: windows-driver-content
 description: The GetSpecificFilterArgumentWide method returns the value of filter argument for thespecific filters that have an argument.
 old-location: debugger\getspecificfilterargumentwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 61537680-0453-4484-b07a-e0d90b45c412
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSpecificFilterArgumentWide, GetSpecificFilterArgumentWide method [Windows Debugging], GetSpecificFilterArgumentWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSpecificFilterArgumentWide method, IDebugControl4.GetSpecificFilterArgumentWide, IDebugControl4::GetSpecificFilterArgumentWide, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

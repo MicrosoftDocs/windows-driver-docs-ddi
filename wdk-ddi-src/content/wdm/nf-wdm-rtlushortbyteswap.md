@@ -4,7 +4,7 @@ title: RtlUshortByteSwap macro
 author: windows-driver-content
 description: The RtlUshortByteSwap routine reverses the ordering of the two bytes in a 16-bit unsigned integer value.
 old-location: kernel\rtlushortbyteswap.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -58,18 +58,11 @@ The <b>RtlUshortByteSwap</b> routine reverses the ordering of the two bytes in a
 
 
 
-### -param _x
-
-TBD
-
-
-
-
-
-
-#### - Source [in]
+### -param _x [in]
 
 A USHORT value to convert to a byte-swapped version.
+
+
 
 
 ## -remarks

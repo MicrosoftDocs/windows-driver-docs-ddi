@@ -4,7 +4,7 @@ title: RtlCreateAcl function
 author: windows-driver-content
 description: The RtlCreateAcl routine creates and initializes an access control list (ACL).
 old-location: ifsk\rtlcreateacl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

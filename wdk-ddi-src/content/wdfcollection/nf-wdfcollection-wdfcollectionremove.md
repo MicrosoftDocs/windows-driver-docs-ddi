@@ -4,7 +4,7 @@ title: WdfCollectionRemove function
 author: windows-driver-content
 description: The WdfCollectionRemove method removes an object from a specified object collection.
 old-location: wdf\wdfcollectionremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3a708949-3d4e-49b2-bef2-7151aec2b84b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: StorPortReadRegisterUlong macro
 author: windows-driver-content
 description: The StorPortReadRegisterUlong routine reads a value from a specified register address.
 old-location: storage\storportreadregisterulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 308e6401-9726-4333-bde8-1aec9558c5fb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -59,26 +59,12 @@ The <b>StorPortReadRegisterUlong</b> routine reads a value from a specified regi
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param r
-
-TBD
+A pointer to the hardware device extension.
 
 
-
-
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
+### -param r [in]
 
 Pointer to the register where the data is to be read. 
 

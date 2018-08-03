@@ -4,7 +4,7 @@ title: "_CMP_MONITOR_PLUGS"
 author: windows-driver-content
 description: This structure is used to monitor plug access. The request allows a driver to monitor all access to local oPCR and iPCR plugs.
 old-location: ieee\cmp_monitor_plugs.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: D281BCBB-CDC6-442C-9A47-DF07D1BE1B28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_MSiSCSI_MMIPSECStats"
 author: windows-driver-content
 description: The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics.
 old-location: storage\msiscsi_mmipsecstats.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

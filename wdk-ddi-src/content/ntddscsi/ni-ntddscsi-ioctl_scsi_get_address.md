@@ -4,7 +4,7 @@ title: IOCTL_SCSI_GET_ADDRESS
 author: windows-driver-content
 description: Returns the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target.
 old-location: storage\ioctl_scsi_get_address.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 56e2a62c-ecf1-45c8-ba65-fb53b1897ddb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RtlAppendStringToString function
 author: windows-driver-content
 description: The RtlAppendStringToString routine concatenates two counted strings. It copies bytes from the source up to the length of the destination buffer.
 old-location: ifsk\rtlappendstringtostring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

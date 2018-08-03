@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_MODEM_CONTROL
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_MODEM_CONTROL request sets the modem control register (MCR) in the UART. No parameter checking is done on the client-supplied register settings.
 old-location: serports\ioctl_serial_set_modem_control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 3ec5c4ab-d5da-44c7-9a62-c25d04dbef41
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

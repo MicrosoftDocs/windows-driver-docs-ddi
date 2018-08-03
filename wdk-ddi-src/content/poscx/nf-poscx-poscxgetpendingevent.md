@@ -4,7 +4,7 @@ title: PosCxGetPendingEvent function
 author: windows-driver-content
 description: PosCxGetPendingEvent is called either from the device read callback, or when a new event arrives.
 old-location: pos\poscxgetpendingevent.htm
-old-project: pos
+tech.root: pos
 ms.assetid: D68C24E4-DCFB-44F6-92EE-9FF4A1A52841
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

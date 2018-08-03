@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_STATUS_0020
 author: windows-driver-content
 description: Contains status values for video decode.
 old-location: display\d3d12ddi_video_decode_status.htm
-old-project: display
+tech.root: display
 ms.assetid: E7A3944D-142E-450C-B9EE-9190BF264C60
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,7 +80,7 @@ There was a severe problem in the data format. The host decoder should restart t
 
 ### -field D3D12DDI_VIDEO_DECODE_STATUS_0020_RATE_EXCEEDED
 
-The bit rate or frame rate supplied to decode stream creation was insufficient for this frame.  When this status is reported, the <b>BitRate</b> member of the <a href="https://msdn.microsoft.com/F58AB9E1-4061-46B8-8137-319DF30D9CA7">D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS</a> structure reports a value that can be used to recreate the decode stream at the same frame rate and succeed decoding the failed frames.  Subsequent frames may still fail if those frames exceed the new value.  The reported bit rate is calculated with the frame rate with which the stream was created.
+The bit rate or frame rate supplied to decode stream creation was insufficient for this frame.  When this status is reported, the <b>BitRate</b> member of the [D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS](ns-d3d12umddi-d3d12ddi_query_data_video_decode_statistics_0022.md) structure reports a value that can be used to recreate the decode stream at the same frame rate and succeed decoding the failed frames.  Subsequent frames may still fail if those frames exceed the new value.  The reported bit rate is calculated with the frame rate with which the stream was created.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ The bit rate or frame rate supplied to decode stream creation was insufficient f
 
 
 
-<a href="https://msdn.microsoft.com/F58AB9E1-4061-46B8-8137-319DF30D9CA7">D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS</a>
+[D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS](ns-d3d12umddi-d3d12ddi_query_data_video_decode_statistics_0022.md)
  
 
  

@@ -4,7 +4,7 @@ title: IPrintPipelinePropertyBag::GetProperty
 author: windows-driver-content
 description: The GetProperty method gets a property from a property bag.
 old-location: print\iprintpipelinepropertybag_getproperty.htm
-old-project: print
+tech.root: print
 ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

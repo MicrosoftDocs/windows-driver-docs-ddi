@@ -4,7 +4,7 @@ title: PsSetCreateThreadNotifyRoutineEx function
 author: windows-driver-content
 description: The PsSetCreateThreadNotifyRoutineEx routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
 old-location: kernel\pssetcreatethreadnotifyroutineex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

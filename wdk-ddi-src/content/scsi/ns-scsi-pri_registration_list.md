@@ -4,7 +4,7 @@ title: PRI_REGISTRATION_LIST
 author: windows-driver-content
 description: The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.
 old-location: storage\pri_registration_list.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 47b1a263-f630-4348-893c-388cac4e511d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

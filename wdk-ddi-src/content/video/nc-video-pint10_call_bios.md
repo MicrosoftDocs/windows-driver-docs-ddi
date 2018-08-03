@@ -4,10 +4,10 @@ title: PINT10_CALL_BIOS
 author: windows-driver-content
 description: The Int10CallBios function allows a miniport driver to call the kernel to perform an INT 10h operation, causing the BIOS ROM code on the device to execute natively.
 old-location: display\int10callbios.htm
-old-project: display
+tech.root: display
 ms.assetid: 994a73bc-81a1-4d73-959c-cc89b242c073
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: Int10CallBios, Int10CallBios callback function [Display Devices], PINT10_CALL_BIOS, PINT10_CALL_BIOS callback, VideoPort_Functions_7a9921fa-ea1e-49fa-8881-ea0792d91123.xml, display.int10callbios, video/Int10CallBios
 ms.prod: windows-hardware
 ms.technology: windows-devices

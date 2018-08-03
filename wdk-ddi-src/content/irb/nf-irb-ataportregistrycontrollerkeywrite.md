@@ -4,7 +4,7 @@ title: AtaPortRegistryControllerKeyWrite function
 author: windows-driver-content
 description: The AtaPortRegistryControllerKeyWrite routine writes the data to the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN, where N is the number of the controller.
 old-location: storage\ataportregistrycontrollerkeywrite.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dfe97cce-f349-49a1-9075-c3c3d1a60681
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

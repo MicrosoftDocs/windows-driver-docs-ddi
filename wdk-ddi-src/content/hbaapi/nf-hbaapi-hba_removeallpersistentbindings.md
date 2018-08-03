@@ -4,7 +4,7 @@ title: HBA_RemoveAllPersistentBindings function
 author: windows-driver-content
 description: The HBA_RemoveAllPersistentBindings routine removes all persistent bindings for a specified HBA port.
 old-location: storage\hba_removeallpersistentbindings.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f15823dd-a9c5-46a8-a376-41b831450b66
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

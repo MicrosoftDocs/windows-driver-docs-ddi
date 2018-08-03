@@ -4,7 +4,7 @@ title: ISCSI_AUTH_TYPES
 author: windows-driver-content
 description: The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection.
 old-location: storage\iscsi_auth_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b1d38829-53bc-42a5-acaf-c1ad89b8b563
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: PFNBTH_INITIALIZE_BRB
 author: windows-driver-content
 description: The BthInitializeBrb function initializes a Bluetooth request block (BRB) allocated on the local stack.
 old-location: bltooth\bthinitializebrb.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 0b822d28-edaa-40cc-a678-112a356d9022
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

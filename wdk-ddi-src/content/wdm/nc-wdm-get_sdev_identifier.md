@@ -4,7 +4,7 @@ title: GET_SDEV_IDENTIFIER
 author: windows-driver-content
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\get_sdev_identifier.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aaa149d8-f08d-442c-980a-9390ac8bc7f6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	UserDefined
 api_location:
--
+-	Wdm.h
 api_name:
 -	GET_SDEV_IDENTIFIER callback
 product:
@@ -61,5 +61,5 @@ req.typenames:
 
 ### -param InterfaceContext
 
-TBD
+
 

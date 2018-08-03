@@ -4,7 +4,7 @@ title: WdfIoTargetSendIoctlSynchronously function
 author: windows-driver-content
 description: The WdfIoTargetSendIoctlSynchronously method builds a device control request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendioctlsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1c43f6cd-0026-4654-b3ce-71fd51b3821d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

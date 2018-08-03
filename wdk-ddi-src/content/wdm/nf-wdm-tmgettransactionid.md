@@ -4,7 +4,7 @@ title: TmGetTransactionId function
 author: windows-driver-content
 description: The TmGetTransactionId routine retrieves a transaction object's unit of work (UOW) identifier.
 old-location: kernel\tmgettransactionid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8ff4dd86-d828-4e1d-bde5-ab312187a8d7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

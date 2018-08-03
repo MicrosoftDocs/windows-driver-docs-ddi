@@ -4,7 +4,7 @@ title: tagKS_AMVPDIMINFO
 author: windows-driver-content
 description: The KS_AMVPDIMINFO structure is used to describe the dimensions of a video port.
 old-location: stream\ks_amvpdiminfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: NDK_FN_CREATE_CONNECTOR
 author: windows-driver-content
 description: The NdkCreateConnector (NDK_FN_CREATE_CONNECTOR) function creates an NDK connector object.
 old-location: netvista\ndk_fn_create_connector.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E800AC7B-EAEB-44FB-96ED-890C6442F066
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_CONNECTOR, NDK_FN_CREATE_CONNECTOR callback, NdkCreateConnector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateConnector, netvista.ndk_fn_create_connector
 ms.prod: windows-hardware
 ms.technology: windows-devices

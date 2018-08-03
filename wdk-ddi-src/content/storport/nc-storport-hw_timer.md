@@ -4,7 +4,7 @@ title: HW_TIMER
 author: windows-driver-content
 description: The HwStorTimer routine is called after the interval that is specified when the miniport driver called StorPortNotification with the RequestTimerCall NotificationType value.
 old-location: storage\hwstortimer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 61aced1b-9f8a-454a-901c-561ec6179873
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

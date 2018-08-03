@@ -4,7 +4,7 @@ title: tagPrintSchemaConstrainedSetting
 author: windows-driver-content
 description: The PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The constrained attribute appears only in a PrintCapabilities document.
 old-location: print\printschemaconstrainedsetting.htm
-old-project: print
+tech.root: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

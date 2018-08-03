@@ -4,10 +4,10 @@ title: PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE
 author: windows-driver-content
 description: The GetVideoProcessStreamStatePrivate function retrieves the private stream-state data for a video processor.
 old-location: display\getvideoprocessstreamstateprivate.htm
-old-project: display
+tech.root: display
 ms.assetid: 0503b382-8ed3-461e-906f-27953ac5f757
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GetVideoProcessStreamStatePrivate, GetVideoProcessStreamStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE callback, UserModeDisplayDriver_Functions_1016a4a3-3988-40ef-9ef9-f62a20651aaa.xml, d3dumddi/GetVideoProcessStreamStatePrivate, display.getvideoprocessstreamstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

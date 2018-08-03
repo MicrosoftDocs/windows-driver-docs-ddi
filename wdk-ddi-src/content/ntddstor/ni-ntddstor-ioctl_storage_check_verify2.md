@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_CHECK_VERIFY2
 author: windows-driver-content
 description: Determines whether the media has changed on a removable-media device - the caller has opened with FILE_READ_ATTRIBUTES.
 old-location: storage\ioctl_storage_check_verify2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bac1e5ec-0e0c-4d7a-b260-2e73addd0abf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IoRemoveLinkShareAccess function
 author: windows-driver-content
 description: The IoRemoveLinkShareAccess routine removes the access and link share-access information for a given open instance of a file object.
 old-location: kernel\ioremovelinkshareaccess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: FFCD4705-4E5D-4D4E-9E6D-D06A7D21DC17
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

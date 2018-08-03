@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceQueryUsbCapability function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceQueryUsbCapability method determines whether the host controller and USB driver stack support a specific capability.
 old-location: wdf\wdfusbtargetdevicequeryusbcapability.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: B6C3E94F-AFC9-45EC-91F1-F0E3586DBDA1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

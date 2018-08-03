@@ -4,7 +4,7 @@ title: IoCompleteRequest macro
 author: windows-driver-content
 description: The IoCompleteRequest routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
 old-location: kernel\iocompleterequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -57,27 +57,12 @@ The <b>IoCompleteRequest</b> routine indicates that the caller has completed all
 
 
 
-
 ### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - Irp [in]
 
 Pointer to the IRP to be completed.
 
 
-#### - PriorityBoost [in]
+### -param b
 
 Specifies a system-defined constant by which to increment the run-time priority of the original thread that requested the operation. This value is IO_NO_INCREMENT if the original thread requested an operation the driver could complete quickly (so the requesting thread is not compensated for its assumed wait for I/O to be completed) or if the IRP is completed with an error. Otherwise, the set of <i>PriorityBoost</i> constants are device-type-specific. See Ntddk.h or Wdm.h for these constants.
 

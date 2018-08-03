@@ -4,7 +4,7 @@ title: FltGetIoPriorityHintFromFileObject function
 author: windows-driver-content
 description: The FltGetIoPriorityHintFromFileObject routine is used by a minifilter driver to get IO priority information from a file object.
 old-location: ifsk\fltgetiopriorityhintfromfileobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ca854716-8f6e-42bd-ae03-e31f951b0874
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

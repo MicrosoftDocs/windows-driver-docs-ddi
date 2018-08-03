@@ -4,7 +4,7 @@ title: IOCTL_SCSI_MINIPORT_NVCACHE
 author: windows-driver-content
 description: The NV Cache Management operations that are defined here can be invoked by user-mode application code running with administrator privileges, using DeviceIoControl and the IOCTL_SCSI_MINIPORT control code.
 old-location: storage\ioctl_scsi_miniport_nvcache.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6331e850-34a7-4d03-a87b-527f3e38f735
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

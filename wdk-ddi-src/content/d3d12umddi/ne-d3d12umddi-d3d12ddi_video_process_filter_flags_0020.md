@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
 author: windows-driver-content
 description: Defines the image filter capabilities for a video processor.
 old-location: display\d3d12ddi_video_process_filter_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 28662E87-F6A4-42B0-9BF0-49A6C65B245C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
 ## -description
 
 
-Defines the image filter capabilities for a video processor. 
+Defines the image filter capabilities for a video processor.
 
 
 ## -enum-fields
@@ -60,20 +60,21 @@ Defines the image filter capabilities for a video processor.
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NONE
 
+No flag set.
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_BRIGHTNESS
 
-The video processor can adjust the brightness level. 
+The video processor can adjust the brightness level.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_CONTRAST
 
-The video processor can adjust the contrast level. 
+The video processor can adjust the contrast level.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_HUE
 
-The video processor can adjust hue. 
+The video processor can adjust hue.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_SATURATION
@@ -83,17 +84,17 @@ The video processor can adjust the saturation level.
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NOISE_REDUCTION
 
-The video processor can perform noise reduction. 
+The video processor can perform noise reduction.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_EDGE_ENHANCEMENT
 
-The video processor can perform edge enhancement. 
+The video processor can perform edge enhancement.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_ANAMORPHIC_SCALING
 
-The video processor can perform anamorphic scaling. Anamorphic scaling can be used to stretch 4:3 content to a widescreen 16:9 aspect ratio. 
+The video processor can perform anamorphic scaling. Anamorphic scaling can be used to stretch content with a 4:3 aspect ratio, to a widescreen 16:9 aspect ratio.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_STEREO_ADJUSTMENT
@@ -105,7 +106,7 @@ For stereo 3D video, the video processor can adjust the offset between the left 
 
 
 
-Brightness, hue, contrast, and saturation support are always supported. These capability flags indicate support for the image filters defined by the <a href="https://msdn.microsoft.com/A69E2A06-EA08-465C-A1E9-2D7FAB4E2F81">D3D12DDI_VIDEO_PROCESS_FILTER</a> enumeration. To apply a particular filter, call the SetInputStreamFilter method.
+Note that brightness, hue, contrast and saturation support are always supported. These capability flags indicate support for the image filters defined by the [D3D12DDI_VIDEO_PROCESS_FILTER](ne-d3d12umddi-d3d12ddi_video_process_filter_0020.md) enumeration. To apply a particular filter, call the [SetInputStreamFilter](../d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamfilter.md) method.
 
 
 
@@ -115,7 +116,7 @@ Brightness, hue, contrast, and saturation support are always supported. These ca
 
 
 
-<a href="https://msdn.microsoft.com/A69E2A06-EA08-465C-A1E9-2D7FAB4E2F81">D3D12DDI_VIDEO_PROCESS_FILTER</a>
+[D3D12DDI_VIDEO_PROCESS_FILTER enumeration](ne-d3d12umddi-d3d12ddi_video_process_filter_0020.md)
  
 
  

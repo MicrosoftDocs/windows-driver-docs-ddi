@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::put_JobCopiesAllDocuments
 author: windows-driver-content
 description: Sets the copy count.
 old-location: print\iprintschematicket_put_jobcopiesalldocuments.htm
-old-project: print
+tech.root: print
 ms.assetid: DF788C8F-DA60-47F1-83DB-2E1947E41142
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

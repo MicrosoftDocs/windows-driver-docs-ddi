@@ -4,7 +4,7 @@ title: "_TOKEN_ORIGIN"
 author: windows-driver-content
 description: The TOKEN_ORIGIN structure contains information about the origin of the logon session.
 old-location: ifsk\token_origin.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6e2175f3-3d63-40d0-854b-440862530aa8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

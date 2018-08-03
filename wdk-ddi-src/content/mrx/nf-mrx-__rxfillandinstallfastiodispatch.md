@@ -4,7 +4,7 @@ title: "__RxFillAndInstallFastIoDispatch function"
 author: windows-driver-content
 description: RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
 old-location: ifsk\__rxfillandinstallfastiodispatch.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

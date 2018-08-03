@@ -4,7 +4,7 @@ title: IPrinterExtensionContext
 author: windows-driver-content
 description: Represents the context for the activation of a UWP device app for printers.
 old-location: print\iprinterextensioncontext_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: DD0B5E6F-8E16-48E1-967B-D188535E1320
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

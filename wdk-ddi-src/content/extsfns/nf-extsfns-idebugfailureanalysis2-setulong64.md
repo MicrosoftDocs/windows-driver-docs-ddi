@@ -4,10 +4,10 @@ title: IDebugFailureAnalysis2::SetUlong64
 author: windows-driver-content
 description: The SetUlong64 method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified ULONG64 value.
 old-location: debugger\idebugfailureanalysis2_setulong64.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: C4F293C1-D52C-4584-A8CE-98F14F3309DD
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetUlong64 method, IDebugFailureAnalysis2.SetUlong64, IDebugFailureAnalysis2::SetUlong64, SetUlong64, SetUlong64 method [Windows Debugging], SetUlong64 method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong64, debugger.idebugfailureanalysis2_setulong64, extsfns/IDebugFailureAnalysis2::SetUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices

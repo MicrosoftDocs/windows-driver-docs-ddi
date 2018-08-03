@@ -4,7 +4,7 @@ title: "_STARTIO_PERFORMANCE_PARAMETERS"
 author: windows-driver-content
 description: The STARTIO_PERFORMANCE_PARAMETERS structure describes the performance parameters that are returned to the miniport driver by the StorPortGetStartIoPerfParams routine.
 old-location: storage\startio_performance_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 984a8584-ebdd-4e93-868b-1537a3615c1b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

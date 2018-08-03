@@ -4,7 +4,7 @@ title: RtlHashUnicodeString function
 author: windows-driver-content
 description: The RtlHashUnicodeString routine creates a hash value from a given Unicode string and hash algorithm.
 old-location: kernel\rtlhashunicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

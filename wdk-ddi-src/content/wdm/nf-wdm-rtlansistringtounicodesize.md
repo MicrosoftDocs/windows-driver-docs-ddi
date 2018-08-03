@@ -4,7 +4,7 @@ title: RtlAnsiStringToUnicodeSize macro
 author: windows-driver-content
 description: The RtlAnsiStringToUnicodeSize routine returns the number of bytes required to hold an ANSI string converted into a Unicode string.
 old-location: kernel\rtlansistringtounicodesize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -58,18 +58,10 @@ The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes requir
 
 
 
-### -param STRING
+### -param STRING [in]
 
-TBD
+Pointer to a buffer containing the ANSI string.
 
-
-
-
-
-
-#### - AnsiString [in]
-
-Pointer to a buffer containing the ANSI string. 
 
 
 ## -remarks

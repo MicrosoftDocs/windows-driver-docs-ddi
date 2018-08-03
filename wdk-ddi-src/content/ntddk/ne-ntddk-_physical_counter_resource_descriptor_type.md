@@ -4,7 +4,7 @@ title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration contains constants that indicate the type of hardware performance counter resource that is described by a PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\physical_counter_resource_descriptor_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 58fa1312-eb21-405d-85de-59ea69d9447f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

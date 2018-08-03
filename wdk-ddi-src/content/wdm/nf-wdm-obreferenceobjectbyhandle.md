@@ -4,7 +4,7 @@ title: ObReferenceObjectByHandle function
 author: windows-driver-content
 description: The ObReferenceObjectByHandle routine provides access validation on the object handle, and, if access can be granted, returns the corresponding pointer to the object's body.
 old-location: kernel\obreferenceobjectbyhandle.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

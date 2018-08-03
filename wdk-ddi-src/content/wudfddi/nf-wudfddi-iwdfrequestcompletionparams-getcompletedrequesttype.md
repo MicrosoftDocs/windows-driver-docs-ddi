@@ -4,7 +4,7 @@ title: IWDFRequestCompletionParams::GetCompletedRequestType
 author: windows-driver-content
 description: The GetCompletedRequestType method retrieves the type of operation that the request to be completed contains.
 old-location: wdf\iwdfrequestcompletionparams_getcompletedrequesttype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1977828d-61bb-4649-bfa6-e5e82775258e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

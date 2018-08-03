@@ -4,7 +4,7 @@ title: BdaPropertyNodeMethods function
 author: windows-driver-content
 description: The BdaPropertyNodeMethods function retrieves a list of methods that a node supports.
 old-location: stream\bdapropertynodemethods.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 52cb13a6-6efe-4934-a6ec-178d4b2afb0a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

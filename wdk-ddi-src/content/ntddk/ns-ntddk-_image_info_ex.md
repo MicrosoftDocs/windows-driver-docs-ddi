@@ -4,7 +4,7 @@ title: "_IMAGE_INFO_EX"
 author: windows-driver-content
 description: Extended version of the image information structure (see IMAGE_INFO).
 old-location: kernel\image_info_ex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 97F3D9BE-9069-4A4A-B114-FC9331510512
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

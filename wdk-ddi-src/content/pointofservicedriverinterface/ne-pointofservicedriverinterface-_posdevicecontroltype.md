@@ -4,7 +4,7 @@ title: "_PosDeviceControlType"
 author: windows-driver-content
 description: This enumeration defines values for the IOCTLs of the scanner driver and magnetic stripe reader (MSR) driver.
 old-location: pos\posdevicecontroltype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 9f5f3baa-49a0-4711-88c0-b9ff8d87ae1d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

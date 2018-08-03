@@ -4,7 +4,7 @@ title: LogJobInfoForBranchOffice function
 author: windows-driver-content
 description: Allows Branch Office clients to send job events to the host print server.
 old-location: print\logjobinfoforbranchoffice.htm
-old-project: print
+tech.root: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

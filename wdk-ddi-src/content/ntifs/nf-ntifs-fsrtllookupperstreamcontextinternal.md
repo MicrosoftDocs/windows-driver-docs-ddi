@@ -4,7 +4,7 @@ title: FsRtlLookupPerStreamContextInternal function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\fsrtllookupperstreamcontextinternal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 672fc668-452b-4f37-9526-88bedb4a1ef9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

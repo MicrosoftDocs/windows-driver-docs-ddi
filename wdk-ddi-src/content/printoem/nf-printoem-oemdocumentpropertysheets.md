@@ -4,7 +4,7 @@ title: OEMDocumentPropertySheets function
 author: windows-driver-content
 description: OEMDocumentPropertySheets function
 old-location: print\oemdocumentpropertysheets.htm
-old-project: print
+tech.root: print
 ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

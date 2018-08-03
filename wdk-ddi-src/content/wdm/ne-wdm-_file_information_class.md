@@ -4,7 +4,7 @@ title: "_FILE_INFORMATION_CLASS"
 author: windows-driver-content
 description: A value that specifies which structure to use to query or set information for a file object.
 old-location: ifsk\file_information_class.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aec0655b-7cc0-48b6-828c-b9d39c71e5b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -476,18 +476,18 @@ A [FILE_DESIRED_STORAGE_CLASS_INFORMATION] structure, declared in ntifs.h.  This
 
 ### -field FileStatInformation
 
-A [**FILE_STAT_INFORMATION**](ntifs\ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+A [**FILE_STAT_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
 
 ### -field FileMemoryPartitionInformation
 
-A [**FILE_MEMORY_PARTITION_INFORMATION**](ntifs\ns-ntifs-_file_memory_partition_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+A [**FILE_MEMORY_PARTITION_INFORMATION**](..\ntifs\ns-ntifs-_file_memory_partition_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
 
 
 ### -field FileStatLxInformation 
-A [**FILE_STAT_LX_INFORMATION**](ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update. 
+A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update. 
 
 ### -field FileCaseSensitiveInformation 
-A [**FILE_CASE_SENSITIVE_INFORMATION**](ntifs\ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
+A [**FILE_CASE_SENSITIVE_INFORMATION**](..\ntifs\ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileMaximumInformation
 

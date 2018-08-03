@@ -4,7 +4,7 @@ title: "_LINK_SHARE_ACCESS"
 author: windows-driver-content
 description: The share access structure used by file systems for only link files.
 old-location: kernel\link_share_access.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: CD9E3356-45C3-4F56-9EB3-45FB4B3F054B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

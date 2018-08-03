@@ -4,10 +4,10 @@ title: IDebugControl3::GetWindbgExtensionApis32
 author: windows-driver-content
 description: The GetWindbgExtensionApis32 method returns a structure that facilitates using the WdbgExts API.
 old-location: debugger\idebugcontrol_getwindbgextensionapis32.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 84661E3C-9AC7-4852-BABF-BFC0A793E83D
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl interface, GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl2 interface, GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl2 interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl2::GetWindbgExtensionApis32, IDebugControl3 interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl3.GetWindbgExtensionApis32, IDebugControl3::GetWindbgExtensionApis32, IDebugControl::GetWindbgExtensionApis32, dbgeng/IDebugControl2::GetWindbgExtensionApis32, dbgeng/IDebugControl3::GetWindbgExtensionApis32, dbgeng/IDebugControl::GetWindbgExtensionApis32, debugger.idebugcontrol_getwindbgextensionapis32
 ms.prod: windows-hardware
 ms.technology: windows-devices

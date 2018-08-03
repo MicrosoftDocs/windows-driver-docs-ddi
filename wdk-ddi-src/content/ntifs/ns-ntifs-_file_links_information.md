@@ -4,7 +4,7 @@ title: "_FILE_LINKS_INFORMATION"
 author: windows-driver-content
 description: The FILE_LINKS_INFORMATION structure is used to query NTFS hard links to an existing file.
 old-location: ifsk\file_links_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: adf1d2f3-4395-43d9-8157-e9f246e2bba8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

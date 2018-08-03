@@ -4,7 +4,7 @@ title: IUsbTargetPipeContinuousReaderCallbackReadersFailed
 author: windows-driver-content
 description: IUsbTargetPipeContinuousReaderCallbackReadersFailed is a driver-supplied interface.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadersfailed.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d0b68976-f7aa-4b0d-b6bb-258ad2c2e506
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

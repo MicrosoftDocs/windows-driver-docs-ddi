@@ -4,7 +4,7 @@ title: WdfIoQueuePurgeSynchronously function
 author: windows-driver-content
 description: The WdfIoQueuePurgeSynchronously method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests and driver-owned cancellable requests.
 old-location: wdf\wdfioqueuepurgesynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 705faf80-79c4-4f2a-a399-d9a26bde54cf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

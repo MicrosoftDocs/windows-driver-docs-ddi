@@ -4,7 +4,7 @@ title: "_STORAGE_CRYPTO_ALGORITHM_ID"
 author: windows-driver-content
 description: The STORAGE_CRYPTO_ALGORITHM_ID enum provides an output buffer for StorageAdapterCryptoProperty and PropertyStandardQuery.
 old-location: storage\storage_crypto_algorithm_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

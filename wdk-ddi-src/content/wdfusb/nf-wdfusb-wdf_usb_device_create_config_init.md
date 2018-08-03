@@ -4,7 +4,7 @@ title: WDF_USB_DEVICE_CREATE_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_USB_DEVICE_CREATE_CONFIG_INIT function initializes a WDF_USB_DEVICE_CREATE_CONFIG structure.
 old-location: wdf\wdf_usb_device_create_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 01053A65-45A4-4232-A9F2-1651DC820026
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

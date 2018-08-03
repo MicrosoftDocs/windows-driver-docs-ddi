@@ -4,7 +4,7 @@ title: "_ACE_HEADER"
 author: windows-driver-content
 description: The ACE_HEADER structure describes the type and size of an access-control entry (ACE).
 old-location: ifsk\ace_header.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

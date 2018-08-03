@@ -4,7 +4,7 @@ title: ExAcquireSharedWaitForExclusive function
 author: windows-driver-content
 description: The ExAcquireSharedWaitForExclusive routine acquires the given resource for shared access if shared access can be granted and there are no exclusive waiters.
 old-location: kernel\exacquiresharedwaitforexclusive.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 745b014d-7ab4-4e07-a24c-7a74949a9d7b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_ScsiInquiry_OUT"
 author: windows-driver-content
 description: The ScsiInquiry_OUT structure is used to report the output data of the ScsiInquiry WMI method to the WMI client.
 old-location: storage\scsiinquiry_out2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ea1d6f35-1dc5-4c65-9158-7f85464c5cd7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

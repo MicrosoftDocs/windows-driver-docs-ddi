@@ -4,7 +4,7 @@ title: "_BAND_SECURITY_INFO"
 author: windows-driver-content
 description: The BAND_SECURITY_INFO structure specifies the security information for a band table entry query.
 old-location: storage\band_security_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 310F996F-F350-4F25-BC8A-386513908557
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

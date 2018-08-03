@@ -4,7 +4,7 @@ title: "_L2CAP_DISCONNECT_REASON"
 author: windows-driver-content
 description: The L2CAP_DISCONNECT_REASON enumeration type gives the reason an L2CAP channel has been disconnected.
 old-location: bltooth\l2cap_disconnect_reason.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: RILUMTSMRLPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILUMTSMRLPARAMMASK.
 old-location: netvista\rilumtsmrlparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ba1f48ab-f301-4ae8-b56e-92eb6e3601f2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,16 +58,16 @@ req.typenames: RILUMTSMRLPARAMMASK
 
 ````
 enum RILUMTSMRLPARAMMASK  {
-  RIL_PARAM_UMTSMRL_MCC         = 0x00000001, 
-  RIL_PARAM_UMTSMRL_MNC         = 0x00000002, 
-  RIL_PARAM_UMTSMRL_LAC         = 0x00000004, 
-  RIL_PARAM_UMTSMRL_CELLID      = 0x00000008, 
-  RIL_PARAM_UMTSMRL_UARFCN      =  0x00000010, 
-  RIL_PARAM_UMTSMRL_PRIMARY_SC  =  0x00000020, 
-  RIL_PARAM_UMTSMRL_RSCP        = 0x00000040, 
-  RIL_PARAM_UMTSMRL_ECNO        = 0x00000080, 
-  RIL_PARAM_UMTSMRL_PATHLOSS    = 0x00000100, 
-  RIL_PARAM_UMTSMRL_ALL         = 0x000001ff 
+  RIL_PARAM_UMTSMRL_MCC         = 0x00000001,
+  RIL_PARAM_UMTSMRL_MNC         = 0x00000002,
+  RIL_PARAM_UMTSMRL_LAC         = 0x00000004,
+  RIL_PARAM_UMTSMRL_CELLID      = 0x00000008,
+  RIL_PARAM_UMTSMRL_UARFCN      =  0x00000010,
+  RIL_PARAM_UMTSMRL_PRIMARY_SC  =  0x00000020,
+  RIL_PARAM_UMTSMRL_RSCP        = 0x00000040,
+  RIL_PARAM_UMTSMRL_ECNO        = 0x00000080,
+  RIL_PARAM_UMTSMRL_PATHLOSS    = 0x00000100,
+  RIL_PARAM_UMTSMRL_ALL         = 0x000001ff
 
 };
 ````
@@ -112,7 +112,7 @@ enum RILUMTSMRLPARAMMASK  {
 
 
 
-Networks will vary, but the following table summarizes which items are returned for common UMTS networks. 
+Networks will vary, but the following table summarizes which items are returned for common UMTS networks.
 
 <b>Serving network</b>
 
@@ -317,7 +317,7 @@ Yes
 
 </td>
 <td>
- Measured in dB   
+ Measured in dB
 
 </td>
 </tr>
@@ -491,7 +491,7 @@ Yes
 
 </td>
 <td>
- Measured in dB   
+ Measured in dB
 
 </td>
 </tr>

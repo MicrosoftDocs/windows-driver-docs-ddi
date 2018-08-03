@@ -4,7 +4,7 @@ title: "_CDROM_EXCLUSIVE_LOCK"
 author: windows-driver-content
 description: The CDROM_EXCLUSIVE_LOCK structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to lock a CD-ROM device for exclusive access.
 old-location: storage\cdrom_exclusive_lock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8c94cdb2-965a-448c-aa97-f7aae9550662
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

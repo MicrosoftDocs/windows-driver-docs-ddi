@@ -4,7 +4,7 @@ title: KeAreAllApcsDisabled function
 author: windows-driver-content
 description: The KeAreAllApcsDisabled routine indicates whether the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, which disables all APC delivery.
 old-location: kernel\keareallapcsdisabled.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

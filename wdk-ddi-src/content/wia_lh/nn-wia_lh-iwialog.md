@@ -4,10 +4,10 @@ title: IWiaLog
 author: windows-driver-content
 description: The IWiaLog interface provides methods to enable minidrivers to log trace, error, and warning messages to the diagnostic log file Wiaservc.log.
 old-location: image\iwialog_interface.htm
-old-project: image
+tech.root: image
 ms.assetid: b56cb3f0-1053-4104-b223-e7448a832f33
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices],described, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml, image.iwialog_interface, wia_lh/IWiaLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

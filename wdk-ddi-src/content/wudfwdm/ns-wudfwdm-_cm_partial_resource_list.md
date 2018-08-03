@@ -4,7 +4,7 @@ title: "_CM_PARTIAL_RESOURCE_LIST"
 author: windows-driver-content
 description: The CM_PARTIAL_RESOURCE_LIST structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a CM_FULL_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\cm_partial_resource_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f16b26f5-1f32-4c2e-83ec-0a0f79a4be85
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

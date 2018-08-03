@@ -4,7 +4,7 @@ title: DEVICE_PASSIVE_COOLING
 author: windows-driver-content
 description: The PassiveCooling callback routine controls the degree to which the device must throttle its performance to meet cooling requirements.
 old-location: kernel\passivecooling.htm
-old-project: kernel
+tech.root: battery
 ms.assetid: 17ADC83B-53C8-43BD-9FFB-1197501FE275
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

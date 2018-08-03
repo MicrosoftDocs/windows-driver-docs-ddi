@@ -4,7 +4,7 @@ title: "_MSFC_FibrePortHBAStatistics"
 author: windows-driver-content
 description: The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 old-location: storage\msfc_fibreporthbastatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

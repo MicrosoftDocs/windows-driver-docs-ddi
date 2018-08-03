@@ -4,7 +4,7 @@ title: READ_REGISTER_BUFFER_UCHAR function
 author: windows-driver-content
 description: The READ_REGISTER_BUFFER_UCHAR routine reads a number of bytes from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_uchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4ce9f377-ca5e-4574-9d80-60b74ee0de85
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

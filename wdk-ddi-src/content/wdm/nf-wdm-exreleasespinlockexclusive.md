@@ -4,7 +4,7 @@ title: ExReleaseSpinLockExclusive function
 author: windows-driver-content
 description: The ExReleaseSpinLockExclusive routine releases a spin lock that the caller previously acquired for exclusive access, and restores the IRQL to its original value.
 old-location: kernel\exreleasespinlockexclusive_.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: 
+req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista with SP1.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: DISPATCH_LEVEL (See Remarks.)
 topic_type:
 -	APIRef
@@ -59,19 +59,14 @@ The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="https://msdn.m
 
 
 
-### -param param
+### -param param [in, out]
 
-TBD
+ A pointer to the spin lock to release. The caller must own this spin lock for exclusive access.
 
 
 ### -param OldIrql [in]
 
 The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451007">ExAcquireSpinLockExclusive</a> call that acquired the spin lock.
-
-
-#### - SpinLock [in, out]
-
- A pointer to the spin lock to release. The caller must own this spin lock for exclusive access.
 
 
 ## -returns

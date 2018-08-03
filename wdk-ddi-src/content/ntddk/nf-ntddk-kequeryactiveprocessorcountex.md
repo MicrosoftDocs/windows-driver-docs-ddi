@@ -4,7 +4,7 @@ title: KeQueryActiveProcessorCountEx function
 author: windows-driver-content
 description: The KeQueryActiveProcessorCountEx routine returns the number of active logical processors in a specified group in a multiprocessor system or in the entire system.
 old-location: kernel\kequeryactiveprocessorcountex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3884eb16-56a0-4b48-abf3-a74794b2c996
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

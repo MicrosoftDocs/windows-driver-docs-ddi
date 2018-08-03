@@ -4,7 +4,7 @@ title: HBA_PortStatistics
 author: windows-driver-content
 description: The HBA_PortStatistics structure contains statistical information about a port.
 old-location: storage\hba_portstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

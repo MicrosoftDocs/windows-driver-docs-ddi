@@ -4,7 +4,7 @@ title: "_ScsiReportLuns_OUT"
 author: windows-driver-content
 description: The ScsiReportLuns_OUT structure is used to report the output parameter data of the ScsiReportLuns WMI method to the WMI client.
 old-location: storage\scsireportluns_out2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 93663b88-e750-4280-b5c1-798cc0f848b7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

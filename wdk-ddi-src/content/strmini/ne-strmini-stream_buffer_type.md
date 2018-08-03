@@ -4,7 +4,7 @@ title: STREAM_BUFFER_TYPE
 author: windows-driver-content
 description: This enumeration defines the buffer types for StreamClassGetPhysicalAddress.
 old-location: stream\stream_buffer_type.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7C9E1D94-BF59-4302-BEE8-24546C8AE7E6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

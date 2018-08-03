@@ -4,10 +4,10 @@ title: IDebugFAEntryTags::IsValidTagToSet
 author: windows-driver-content
 description: The IsValidTagToSet method determines whether it is OK to set the data of a specified tag.
 old-location: debugger\idebugfaentrytags_isvalidtagtoset.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 83B5C54F-182B-4D2F-8ED2-7A0B529F1D2E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],IsValidTagToSet method, IDebugFAEntryTags.IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

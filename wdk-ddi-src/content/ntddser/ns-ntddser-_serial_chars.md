@@ -4,7 +4,7 @@ title: "_SERIAL_CHARS"
 author: windows-driver-content
 description: The SERIAL_CHARS structure specifies the special characters that the serial controller driver uses for handshake flow control.
 old-location: serports\serial_chars.htm
-old-project: serports
+tech.root: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

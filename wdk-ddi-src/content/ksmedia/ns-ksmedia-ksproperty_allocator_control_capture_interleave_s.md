@@ -4,7 +4,7 @@ title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S
 author: windows-driver-content
 description: The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure specifies if interleaved capture is possible.
 old-location: stream\ksproperty_allocator_control_capture_interleave_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e3885241-c6a4-417f-a7cf-38d221307f8e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

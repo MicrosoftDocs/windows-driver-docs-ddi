@@ -4,7 +4,7 @@ title: ScsiPortReadRegisterBufferUshort function
 author: windows-driver-content
 description: The ScsiPortReadRegisterBufferUshort routine transfers a specified number of USHORT values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6db90186-a663-4710-8209-abd5ef2b361a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

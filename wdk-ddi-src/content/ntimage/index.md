@@ -17,6 +17,7 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This is the include file that describes all image structures. For information about those structures, see the comments in the header.
+
 
 - [Windows kernel](../_kernel/index.md)

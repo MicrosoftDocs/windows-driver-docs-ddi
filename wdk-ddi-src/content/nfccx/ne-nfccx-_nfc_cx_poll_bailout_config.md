@@ -4,7 +4,7 @@ title: "_NFC_CX_POLL_BAILOUT_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_POLL_BAILOUT_CONFIG enumeration specifies poll mode bail out.
 old-location: nfpdrivers\nfc_cx_poll_bailout_config.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 1085EA0A-B688-4F77-80AF-E81CFE645CDF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

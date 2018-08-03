@@ -4,7 +4,7 @@ title: RtlCreateUnicodeString function
 author: windows-driver-content
 description: The RtlCreateUnicodeString routine creates a new counted Unicode string.
 old-location: ifsk\rtlcreateunicodestring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f101fc66-40a9-4077-b651-cef0a0e247d4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

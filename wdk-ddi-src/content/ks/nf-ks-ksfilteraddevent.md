@@ -4,7 +4,7 @@ title: KsFilterAddEvent function
 author: windows-driver-content
 description: The KsFilterAddEvent function adds an event to Filter's event list.
 old-location: stream\ksfilteraddevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e93491c1-bd6d-4d89-b55f-10439b0f5eec
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: FltReleaseContext function
 author: windows-driver-content
 description: FltReleaseContext decrements the reference count on a context.
 old-location: ifsk\fltreleasecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b0585443-b8e9-41bc-81af-5707fda2465d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

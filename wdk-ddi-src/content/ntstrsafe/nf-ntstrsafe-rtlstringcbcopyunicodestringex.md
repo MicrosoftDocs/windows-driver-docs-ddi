@@ -4,7 +4,7 @@ title: RtlStringCbCopyUnicodeStringEx function
 author: windows-driver-content
 description: The RtlStringCbCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination.
 old-location: kernel\rtlstringcbcopyunicodestringex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 146f0e43-a9de-4d4d-8b8f-219c22cfa871
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

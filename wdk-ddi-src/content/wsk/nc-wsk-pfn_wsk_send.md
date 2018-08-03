@@ -4,10 +4,10 @@ title: PFN_WSK_SEND
 author: windows-driver-content
 description: The WskSend function sends data over a connection-oriented or stream socket to a remote transport address.
 old-location: netvista\wsksend.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 40fe1e3b-22b2-4d78-a306-977188246935
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PFN_WSK_SEND, PFN_WSK_SEND callback, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

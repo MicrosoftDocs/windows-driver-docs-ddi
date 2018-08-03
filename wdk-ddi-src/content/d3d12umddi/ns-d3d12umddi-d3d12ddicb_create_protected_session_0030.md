@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDICB_CREATE_PROTECTED_SESSION_0030
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

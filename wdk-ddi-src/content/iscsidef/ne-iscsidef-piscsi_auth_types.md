@@ -4,7 +4,7 @@ title: "*PISCSI_AUTH_TYPES"
 author: windows-driver-content
 description: The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection.
 old-location: storage\iscsi_auth_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b1d38829-53bc-42a5-acaf-c1ad89b8b563
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,14 +50,14 @@ req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 ## -description
 
 
-The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection. 
+The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection.
 
 
 ## -syntax
 
 
 ````
-typedef enum  { 
+typedef enum  {
   ISCSI_NO_AUTH_TYPE           = 0,
   ISCSI_CHAP_AUTH_TYPE         = 1,
   ISCSI_MUTUAL_CHAP_AUTH_TYPE  = 2
@@ -72,7 +72,7 @@ typedef enum  {
 
 ### -field ISCSI_NO_AUTH_TYPE
 
-No authentication type was specified. 
+No authentication type was specified.
 
 
 ### -field ISCSI_CHAP_AUTH_TYPE

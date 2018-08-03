@@ -4,7 +4,7 @@ title: ZwOpenDirectoryObject function
 author: windows-driver-content
 description: The ZwOpenDirectoryObject routine opens an existing directory object.
 old-location: kernel\zwopendirectoryobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

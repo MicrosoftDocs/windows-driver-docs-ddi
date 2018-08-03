@@ -4,7 +4,7 @@ title: RtlUIntPtrToUShort function
 author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type USHORT.
 old-location: kernel\rtluintptrtoushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7C65771B-B60E-459F-AB71-1091B45C5A1A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

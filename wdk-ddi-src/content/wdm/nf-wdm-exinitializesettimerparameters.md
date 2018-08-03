@@ -4,7 +4,7 @@ title: ExInitializeSetTimerParameters function
 author: windows-driver-content
 description: The ExInitializeSetTimerParameters routine initializes an EXT_SET_PARAMETERS structure.
 old-location: kernel\exinitializesettimerparameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: tag_KS_TRUECOLORINFO
 author: windows-driver-content
 description: The KS_TRUECOLORINFO structure describes color palette and bitmask information for video images that also contain a palette.
 old-location: stream\ks_truecolorinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

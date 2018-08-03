@@ -4,7 +4,7 @@ title: D3D12DDI_RESOURCE_FLAGS_0003
 author: windows-driver-content
 description: Specifies resource flag values.
 old-location: display\d3d12ddi_resource_flags_0003.htm
-old-project: display
+tech.root: display
 ms.assetid: 595A4177-4A18-48D6-8B5C-D7D2FBD9FE9B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -90,12 +90,12 @@ Shader resource.
 
 ### -field D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY
 
-Video decode reference only.
+This resource may only be used as a decode reference frame. It may only be written to or read by the video decode operation.
 
 
 ### -field D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION
 
-Content protection.
+The resource supports content protection.
 
 
 ### -field D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS

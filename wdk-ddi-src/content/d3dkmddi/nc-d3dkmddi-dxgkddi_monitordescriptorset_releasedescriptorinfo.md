@@ -4,10 +4,10 @@ title: DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO
 author: windows-driver-content
 description: The pfnReleaseDescriptorInfo function releases a D3DKMDT_MONITOR_DESCRIPTOR structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_monitordescriptorset_interface_pfnreleasedescriptorinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 8debdd01-c4e4-4b7c-b4cd-c1143ea7ebaa
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO callback, VidPnFunctions_6cc74bb6-8861-42b7-b877-634e042a4107.xml, d3dkmddi/pfnReleaseDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnreleasedescriptorinfo, pfnReleaseDescriptorInfo, pfnReleaseDescriptorInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

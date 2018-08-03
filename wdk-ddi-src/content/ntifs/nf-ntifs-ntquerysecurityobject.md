@@ -4,7 +4,7 @@ title: NtQuerySecurityObject function
 author: windows-driver-content
 description: The ZwQuerySecurityObject routine retrieves a copy of an object's security descriptor.
 old-location: kernel\zwquerysecurityobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQuerySecurityObject</b> routine retrieves a copy of an object's security descriptor. 
+The <b>NtQuerySecurityObject</b> routine retrieves a copy of an object's security descriptor. 
 
 
 ## -parameters
@@ -119,7 +119,7 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 
 ### -param SecurityDescriptor [out]
 
-Caller-allocated buffer that <b>ZwQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
+Caller-allocated buffer that <b>NtQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
 
 
 ### -param Length [in]
@@ -136,7 +136,7 @@ Pointer to a caller-allocated variable that receives the number of bytes require
 
 
 
-<b>ZwQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<b>NtQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
 <table>
 <tr>
@@ -203,9 +203,9 @@ The NTFS file system imposes a 64K limit on the size of the security descriptor 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543441">FltQuerySecurityObject</a> instead of <b>ZwQuerySecurityObject</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543441">FltQuerySecurityObject</a> instead of <b>NtQuerySecurityObject</b>. 
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwQuerySecurityObject</b> function occurs in user mode, you should use the name "<b>NtQuerySecurityObject</b>" instead of "<b>ZwQuerySecurityObject</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtQuerySecurityObject</b> function occurs in user mode, you should use the name "<b>NtQuerySecurityObject</b>" instead of "<b>ZwQuerySecurityObject</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

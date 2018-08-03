@@ -4,7 +4,7 @@ title: StorPortLogTelemetry function
 author: windows-driver-content
 description: The StorPortLogTelemetry routine logs a miniport telemetry event to help diagnose or collect any useful information.
 old-location: storage\storportlogtelemetry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

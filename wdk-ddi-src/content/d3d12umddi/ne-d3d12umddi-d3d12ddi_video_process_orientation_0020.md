@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020
 author: windows-driver-content
 description: The orientation to be performed by the video processor.
 old-location: display\d3d12ddi_video_process_orientation.htm
-old-project: display
+tech.root: display
 ms.assetid: 0901AA41-DDA6-46F2-99CA-E45718346A86
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,7 +60,7 @@ The orientation to be performed by the video processor.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_DEFAULT
 
-No change to the orientation.
+No change to the orientation. 0 degrees.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_FLIP_HORIZONTAL
@@ -75,7 +75,7 @@ Rotate the image clockwise 90 degrees.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_CLOCKWISE_90_FLIP_HORIZONTAL
 
-Rotate the image clockwise 90 degrees and then flips it horizontally.
+Rotate the image clockwise 90 degrees and then flip it horizontally.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_CLOCKWISE_180
@@ -100,5 +100,5 @@ Rotate the image clockwise 270 degrees.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_CLOCKWISE_270_FLIP_HORIZONTAL
 
-Rotate the image clockwise 270 degrees and then flips horizontally.
+Rotate the image clockwise 270 degrees and then flip horizontally.
 

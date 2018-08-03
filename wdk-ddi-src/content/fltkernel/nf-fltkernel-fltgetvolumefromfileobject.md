@@ -4,7 +4,7 @@ title: FltGetVolumeFromFileObject function
 author: windows-driver-content
 description: The FltGetVolumeFromFileObject routine returns an opaque pointer for the volume that a given file stream resides on.
 old-location: ifsk\fltgetvolumefromfileobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3b13c4a2-b2b5-4b59-881c-01ee430ac720
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

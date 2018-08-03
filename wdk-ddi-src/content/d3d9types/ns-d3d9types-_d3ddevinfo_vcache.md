@@ -4,10 +4,10 @@ title: "_D3DDEVINFO_VCACHE"
 author: windows-driver-content
 description: DirectX 8.1 and later versions only. The D3DDEVINFO_VCACHE structure describes vertex-cache information of a device.
 old-location: display\d3ddevinfo_vcache.htm
-old-project: display
+tech.root: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, d3d9types/LPD3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, display.d3ddevinfo_vcache"
 ms.prod: windows-hardware
 ms.technology: windows-devices

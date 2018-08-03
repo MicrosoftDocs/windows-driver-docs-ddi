@@ -4,7 +4,7 @@ title: SpbIoctl
 author: windows-driver-content
 description: Defines values to indicate the type I/O control request.
 old-location: spb\spbioctl.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 83260550-B364-4790-BDB5-5C6E5AD76A72
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

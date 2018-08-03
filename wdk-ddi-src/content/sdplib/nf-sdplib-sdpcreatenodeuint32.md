@@ -4,7 +4,7 @@ title: SdpCreateNodeUInt32 function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeUInt32 function is used to allocate and initialize an SDP_NODE structure to an unsigned 32-bit integer type.
 old-location: bltooth\sdpcreatenodeuint32.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: ce89aa5d-ea4e-4d12-a021-e9f52a6bdebb
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: "_GET_LOCAL_HOST_INFO4"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO4 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_PHYS_ADDR_ROUTINE.
 old-location: ieee\get_local_host_info4.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 72bc1d4b-cc68-4ea8-9431-c85cbcf135d8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

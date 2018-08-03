@@ -4,7 +4,7 @@ title: ExInitializePagedLookasideList function
 author: windows-driver-content
 description: The ExInitializePagedLookasideList routine initializes a lookaside list for pageable entries of the specified size.
 old-location: kernel\exinitializepagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7a6b21f1-37e3-4f73-a826-4629624ac5a9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

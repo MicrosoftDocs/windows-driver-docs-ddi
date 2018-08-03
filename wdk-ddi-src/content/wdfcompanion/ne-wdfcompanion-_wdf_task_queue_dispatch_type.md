@@ -4,7 +4,7 @@ title: "_WDF_TASK_QUEUE_DISPATCH_TYPE"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_queue_dispatch_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 27cc4067-33de-4f2d-abad-05c73c875458
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

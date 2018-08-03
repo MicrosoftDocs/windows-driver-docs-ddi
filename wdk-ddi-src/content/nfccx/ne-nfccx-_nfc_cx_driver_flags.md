@@ -4,7 +4,7 @@ title: "_NFC_CX_DRIVER_FLAGS"
 author: windows-driver-content
 description: Specifies run-time driver flags.
 old-location: nfpdrivers\nfc_cx_driver_flags.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 161CA2C2-F4F4-49F3-9007-ADFBDA905119
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

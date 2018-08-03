@@ -4,7 +4,7 @@ title: WdfIoResourceRequirementsListRemoveByIoResList function
 author: windows-driver-content
 description: The WdfIoResourceRequirementsListRemoveByIoResList method removes a logical configuration from a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistremovebyioreslist.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 507729e9-96da-461c-badb-a3725abf6591
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

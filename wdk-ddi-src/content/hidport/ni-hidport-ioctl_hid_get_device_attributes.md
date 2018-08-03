@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_DEVICE_ATTRIBUTES
 author: windows-driver-content
 description: The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a HID_DEVICE_ATTRIBUTES structure.
 old-location: hid\ioctl_hid_get_device_attributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: ee68c045-e99a-471d-ae22-396673d68168
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

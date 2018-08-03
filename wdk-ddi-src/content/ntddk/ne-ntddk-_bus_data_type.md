@@ -4,7 +4,7 @@ title: "_BUS_DATA_TYPE"
 author: windows-driver-content
 description: The BUS_DATA_TYPE enumeration indicates the type of bus configuration space.
 old-location: kernel\bus_data_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_WINBIO_UPDATE_FIRMWARE"
 author: windows-driver-content
 description: The WINBIO_UPDATE_FIRMWARE structure is the IN payload for IOCTL_BIOMETRIC_UPDATE_FIRMWARE.
 old-location: biometric\winbio_update_firmware.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 14775785-27e3-4bfa-ad69-695869ebb5d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

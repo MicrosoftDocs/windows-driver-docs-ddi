@@ -4,7 +4,7 @@ title: OEMIcmDeleteColorTransform function
 author: windows-driver-content
 description: The OEMIcmDeleteColorTransform function deletes the specified color transform.
 old-location: print\oemicmdeletecolortransform.htm
-old-project: print
+tech.root: print
 ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

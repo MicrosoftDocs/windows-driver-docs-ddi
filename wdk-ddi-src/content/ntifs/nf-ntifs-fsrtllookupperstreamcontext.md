@@ -4,7 +4,7 @@ title: FsRtlLookupPerStreamContext macro
 author: windows-driver-content
 description: The FsRtlLookupPerStreamContext macro retrieves a per-stream context structure for a file stream.
 old-location: ifsk\fsrtllookupperstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8f8c47c3-1917-4252-b812-711ef52d22d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

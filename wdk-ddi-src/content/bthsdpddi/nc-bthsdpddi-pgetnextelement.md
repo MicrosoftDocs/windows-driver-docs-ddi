@@ -4,7 +4,7 @@ title: PGETNEXTELEMENT
 author: windows-driver-content
 description: The Bluetooth SdpGetNextElement function is used to iterate through the entries found in an SDP record stream.
 old-location: bltooth\sdpgetnextelement.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 60216196-f8c7-4555-a461-4862ce6bc376
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: AtaPortDeviceBusy function
 author: windows-driver-content
 description: The AtaPortDeviceBusy routine informs the port driver that the indicated device is busy.
 old-location: storage\ataportdevicebusy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

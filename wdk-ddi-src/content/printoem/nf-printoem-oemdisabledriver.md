@@ -4,7 +4,7 @@ title: OEMDisableDriver function
 author: windows-driver-content
 description: OEMDisableDriver function
 old-location: print\oemdisabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: 9b48e2c0-bd44-49ed-83e8-1e4895858e9b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

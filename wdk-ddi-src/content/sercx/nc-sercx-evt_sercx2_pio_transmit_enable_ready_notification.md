@@ -4,7 +4,7 @@ title: EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION
 author: windows-driver-content
 description: The EvtSerCx2PioTransmitEnableReadyNotification event callback function is called by version 2 of the serial framework extension (SerCx2) to enable the serial controller driver to notify SerCx2 when the transmit FIFO in the serial controller is ready to accept more data.
 old-location: serports\evtsercx2piotransmitenablereadynotification.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 05E5F48B-4E82-4BC3-B6D1-7E9E3435BDB3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

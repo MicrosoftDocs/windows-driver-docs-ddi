@@ -4,7 +4,7 @@ title: RtlSplay function
 author: windows-driver-content
 description: The RtlSplay routine rebalances, or &#0034;splays,&#0034; a splay link tree around the specified splay link, making that link the new root of the tree.
 old-location: ifsk\rtlsplay.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b62834ec-6100-429a-b62f-7e30c58b13e5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

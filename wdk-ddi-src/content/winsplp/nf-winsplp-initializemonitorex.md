@@ -4,7 +4,7 @@ title: InitializeMonitorEx function
 author: windows-driver-content
 description: "."
 old-location: print\initializemonitorex.htm
-old-project: print
+tech.root: print
 ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: DbgBreakPoint function
 author: windows-driver-content
 description: The DbgBreakPoint routine breaks into the kernel debugger.
 old-location: devtest\dbgbreakpoint.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: deeac910-2cc3-4a54-bf3b-aeb56d0004dc
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

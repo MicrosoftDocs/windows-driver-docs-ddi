@@ -4,7 +4,7 @@ title: ClfsWriteRestartArea function
 author: windows-driver-content
 description: The ClfsWriteRestartArea routine atomically appends a new restart record to a CLFS stream, flushes the restart record to stable storage, and optionally updates the base LSN of the stream.
 old-location: kernel\clfswriterestartarea.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

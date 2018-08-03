@@ -4,7 +4,7 @@ title: IoStopTimer function
 author: windows-driver-content
 description: The IoStopTimer routine disables the timer for a specified device object so the driver-supplied IoTimer routine is not called.
 old-location: kernel\iostoptimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4b903046-8f96-4299-94e7-85900be1bbd4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

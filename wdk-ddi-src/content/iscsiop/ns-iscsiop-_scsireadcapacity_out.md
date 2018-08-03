@@ -4,7 +4,7 @@ title: "_ScsiReadCapacity_OUT"
 author: windows-driver-content
 description: The ScsiReadCapacity_OUT structure holds the output data for the ScsiReadCapacity method.
 old-location: storage\scsireadcapacity_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

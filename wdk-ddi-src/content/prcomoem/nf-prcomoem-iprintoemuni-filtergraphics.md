@@ -4,7 +4,7 @@ title: IPrintOemUni::FilterGraphics
 author: windows-driver-content
 description: The IPrintOemUni::FilterGraphics method can be used with Unidrv-supported printers to modify scan line data and send it to the spooler.
 old-location: print\iprintoemuni_filtergraphics.htm
-old-project: print
+tech.root: print
 ms.assetid: a1651745-08f0-44f2-bb9f-825d6497db42
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

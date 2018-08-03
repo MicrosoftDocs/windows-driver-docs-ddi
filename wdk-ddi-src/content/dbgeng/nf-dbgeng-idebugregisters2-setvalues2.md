@@ -4,10 +4,10 @@ title: IDebugRegisters2::SetValues2
 author: windows-driver-content
 description: The SetValues2 method sets the value of several of the target's registers.
 old-location: debugger\setvalues2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 9505a0ce-4f4e-43af-97a2-653b5776c423
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugRegisters2 interface [Windows Debugging],SetValues2 method, IDebugRegisters2.SetValues2, IDebugRegisters2::SetValues2, IDebugRegisters_4e5c8f37-a5ad-4083-adb9-e75ec18542b2.xml, SetValues2, SetValues2 method [Windows Debugging], SetValues2 method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValues2, debugger.setvalues2
 ms.prod: windows-hardware
 ms.technology: windows-devices

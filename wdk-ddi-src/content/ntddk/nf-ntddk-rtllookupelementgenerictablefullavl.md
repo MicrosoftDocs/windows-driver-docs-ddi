@@ -4,7 +4,7 @@ title: RtlLookupElementGenericTableFullAvl function
 author: windows-driver-content
 description: The RtlLookupElementGenericTableFullAvl routine searches a generic table for an element that matches the specified data.
 old-location: ifsk\rtllookupelementgenerictablefullavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fddb2e23-ddb3-48bc-a94e-0ca9a8580b78
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

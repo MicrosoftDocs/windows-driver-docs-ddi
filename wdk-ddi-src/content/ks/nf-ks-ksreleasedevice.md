@@ -4,7 +4,7 @@ title: KsReleaseDevice function
 author: windows-driver-content
 description: The KsReleaseDevice function releases the device mutex and exits the critical region.
 old-location: stream\ksreleasedevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 47692ac1-969a-4f6f-a2e1-008b82ac1429
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

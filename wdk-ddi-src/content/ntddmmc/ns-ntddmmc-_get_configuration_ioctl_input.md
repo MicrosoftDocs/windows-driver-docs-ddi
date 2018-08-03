@@ -4,7 +4,7 @@ title: "_GET_CONFIGURATION_IOCTL_INPUT"
 author: windows-driver-content
 description: The GET_CONFIGURATION_IOCTL_INPUT structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to specify the sort of feature data that the request retrieves.
 old-location: storage\get_configuration_ioctl_input.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6b8d9cbf-bb05-40a1-9129-52510befebe3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

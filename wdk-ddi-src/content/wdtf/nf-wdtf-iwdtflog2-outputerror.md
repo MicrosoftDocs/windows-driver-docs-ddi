@@ -4,7 +4,7 @@ title: IWDTFLOG2::OutputError
 author: windows-driver-content
 description: Writes an error entry to the test case log.
 old-location: dtf\iwdtflog2_outputerror.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 6a85b0a6-0dff-4dea-86a1-93fd4258900e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

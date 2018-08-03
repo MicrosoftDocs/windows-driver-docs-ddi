@@ -4,7 +4,7 @@ title: DOT11EXTIHV_PROCESS_SESSION_CHANGE
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvprocesssessionchange.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 17d5ab30-141a-4b7b-93f1-113fb1a39ba6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvProcessSessionChange</i> function to notify the IHV Extensions DLL of a session change
   event.
 
@@ -78,7 +78,7 @@ DWORD APIENTRY Dot11ExtIhvProcessSessionChange(
 ### -param uEventType [in]
 
 The type of event. This parameter can have one of the following values.
-     
+
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ WTS_SESSION_REMOTE_CONTROL
 
 </td>
 <td>
-A session has changed its remote controlled status. To determine the status, call the 
+A session has changed its remote controlled status. To determine the status, call the
         <b>GetSystemMetrics</b> function and check the SM_REMOTECONTROL metric. For more information about
         this function, refer to the Microsoft Windows SDK documentation.
 
@@ -193,7 +193,7 @@ A pointer to a WTSSESSION_NOTIFICATION structure, which provides information abo
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -206,7 +206,7 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 The operating system calls the function to notify the IHV Extensions DLL whenever a switch in a user
     session occurs.
 
-If the 
+If the
     <i>uEventType</i> parameter is set to WTS_SESSION_LOGOFF, the IHV Extensions DLL must cancel all pending
     user interface requests internally and must release any allocated resources for the user interface
     requests.

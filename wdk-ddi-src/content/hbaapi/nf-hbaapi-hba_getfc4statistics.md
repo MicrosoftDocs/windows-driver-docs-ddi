@@ -4,7 +4,7 @@ title: HBA_GetFC4Statistics function
 author: windows-driver-content
 description: The HBA_GetFC4Statistics routine retrieves traffic statistics that a specific FC-4 protocol has collected for the indicated port and local adapter.
 old-location: storage\hba_getfc4statistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_BIDI_RESPONSE_CONTAINER"
 author: windows-driver-content
 description: The BIDI_RESPONSE_CONTAINER structure is a container for a list of bidi responses.
 old-location: print\bidi_response_container.htm
-old-project: print
+tech.root: print
 ms.assetid: 26924dd2-ac67-408c-87e0-5cfb3281fe75
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

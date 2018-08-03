@@ -4,7 +4,7 @@ title: IoStartNextPacket function
 author: windows-driver-content
 description: The IoStartNextPacket routine dequeues the next IRP, if any, from the given device object's associated device queue and calls the driver's StartIo routine.
 old-location: kernel\iostartnextpacket.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f1197dfd-03d7-4ac2-8f11-60da413e32b2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

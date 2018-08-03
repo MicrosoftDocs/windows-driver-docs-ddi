@@ -4,7 +4,7 @@ title: IKsAllocatorEx::KsGetProperties
 author: windows-driver-content
 description: Returns the properties for an allocator.
 old-location: stream\iksallocatorex_ksgetproperties.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 82F2FE7D-D02B-47A1-8FC7-2D5CFC4CADA1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

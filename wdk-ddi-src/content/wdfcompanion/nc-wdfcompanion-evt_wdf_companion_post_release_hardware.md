@@ -4,7 +4,7 @@ title: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_release_hardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ebba5344-dc3a-443f-a080-991dd784eb54
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

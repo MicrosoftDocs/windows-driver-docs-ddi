@@ -4,7 +4,7 @@ title: RtlInt8ToULongLong function
 author: windows-driver-content
 description: Converts a value of type INT8 to a value of type ULONGLONG.
 old-location: kernel\rtlint8toulonglong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C840CDA4-36C8-4D7C-88EB-19292429C45C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: READ_PORT_ULONG function
 author: windows-driver-content
 description: The READ_PORT_ULONG function reads a ULONG value from the specified port address.
 old-location: wdf\read_port_ulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2B507B58-8CD0-4D66-93E9-FF67D7246F3C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

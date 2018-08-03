@@ -4,7 +4,7 @@ title: "_STOR_CRYPTO_ALGORITHM_ID"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_algorithm_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 761B905B-D8E5-43C2-A412-EEC5F91848F3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

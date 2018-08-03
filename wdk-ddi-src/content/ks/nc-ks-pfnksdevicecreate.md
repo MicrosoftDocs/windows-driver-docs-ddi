@@ -4,7 +4,7 @@ title: PFNKSDEVICECREATE
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniDeviceAdd routine notifies the minidriver that AVStream's PnP AddDevice routine has completed.
 old-location: stream\avstrminideviceadd.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8f7168c3-0c28-4802-af34-45b46c1b6827
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

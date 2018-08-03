@@ -4,7 +4,7 @@ title: "_SERIAL_HANDFLOW"
 author: windows-driver-content
 description: The SERIAL_HANDFLOW structure specifies the handshake and flow control settings for a serial port.
 old-location: serports\serial_handflow.htm
-old-project: serports
+tech.root: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

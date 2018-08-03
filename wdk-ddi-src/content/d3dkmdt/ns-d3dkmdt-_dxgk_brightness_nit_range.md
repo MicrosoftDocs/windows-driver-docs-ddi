@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_DXGK_BRIGHTNESS_NIT_RANGE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

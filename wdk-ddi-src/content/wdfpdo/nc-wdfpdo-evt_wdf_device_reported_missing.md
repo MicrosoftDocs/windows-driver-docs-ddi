@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_REPORTED_MISSING
 author: windows-driver-content
 description: A bus driver's EvtDeviceReportedMissing event callback function informs the driver that the framework has reported the physical device object (PDO) missing to the Plug and Play manager.
 old-location: wdf\evtdevicereportedmissing.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F64E2FFD-229F-4447-94C2-A5403E7893B7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

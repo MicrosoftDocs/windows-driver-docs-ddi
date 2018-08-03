@@ -4,7 +4,7 @@ title: RtlMapGenericMask function
 author: windows-driver-content
 description: The RtlMapGenericMask routine determines the nongeneric access rights specified by an ACCESS_MASK.
 old-location: kernel\rtlmapgenericmask.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dd3a5f87-21a9-4186-bb74-a49e6751622e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

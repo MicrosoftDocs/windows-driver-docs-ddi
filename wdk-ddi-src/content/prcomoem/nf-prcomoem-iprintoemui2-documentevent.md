@@ -4,7 +4,7 @@ title: IPrintOemUI2::DocumentEvent
 author: windows-driver-content
 description: The IPrintOemUI2::DocumentEvent method allows a UI plug-in to replace the core driver UI module's default implementation of the DrvDocumentEvent DDI.
 old-location: print\iprintoemui2_documentevent.htm
-old-project: print
+tech.root: print
 ms.assetid: c98d1510-7db8-4fd6-a95f-1906f553d1c5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

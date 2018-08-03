@@ -4,7 +4,7 @@ title: IOCTL_NFP_GET_KILO_BYTES_PER_SECOND
 author: windows-driver-content
 description: A client sends the IOCTL_NFP_GET_KILO_BYTES_PER_SECOND request to any generic handle, one that is non-published and non-subscribed, to the provider device.
 old-location: nfpdrivers\ioctl_nfp_get_kilo_bytes_per_second.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 7FAF7D15-1D3A-4F90-BD98-344ECF294E0F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

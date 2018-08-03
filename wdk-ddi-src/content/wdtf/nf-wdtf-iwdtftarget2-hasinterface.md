@@ -4,7 +4,7 @@ title: IWDTFTarget2::HasInterface
 author: windows-driver-content
 description: Determines whether the target supports a given interface.
 old-location: dtf\iwdtftarget2_hasinterface.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 91641007-57c0-4e55-8ac1-9a5cc62b80b0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: HBA_GetBindingCapability function
 author: windows-driver-content
 description: The HBA_GetBindingCapability routine retrieves the binding capabilities of the indicated port.
 old-location: storage\hba_getbindingcapability.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c4ac992a-7ef2-47b6-88d1-54b47b4a0af4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IoWriteErrorLogEntry function
 author: windows-driver-content
 description: The IoWriteErrorLogEntry routine queues a given error log packet to the system error logging thread.
 old-location: kernel\iowriteerrorlogentry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1259c344-584c-410a-a152-5de1f433082c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

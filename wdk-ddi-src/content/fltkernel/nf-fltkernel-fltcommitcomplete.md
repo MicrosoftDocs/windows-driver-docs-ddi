@@ -4,7 +4,7 @@ title: FltCommitComplete function
 author: windows-driver-content
 description: The FltCommitComplete routine acknowledges a TRANSACTION_NOTIFY_COMMIT notification.
 old-location: ifsk\fltcommitcomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 26c553d1-5a71-4e96-a5ef-56e8e364faca
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

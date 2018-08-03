@@ -4,7 +4,7 @@ title: "_WHEA_GENERIC_ERROR"
 author: windows-driver-content
 description: The WHEA_GENERIC_ERROR structure describes error status data for a generic error source.
 old-location: whea\whea_generic_error.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 7d624645-0199-4376-b84a-83d7da3ba981
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

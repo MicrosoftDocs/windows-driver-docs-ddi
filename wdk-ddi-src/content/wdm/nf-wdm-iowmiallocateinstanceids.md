@@ -4,7 +4,7 @@ title: IoWMIAllocateInstanceIds function
 author: windows-driver-content
 description: The IoWMIAllocateInstanceIds routine allocates one or more instance IDs that are unique to the GUID.
 old-location: kernel\iowmiallocateinstanceids.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c382689e-907c-473c-9ab1-da963d7f3ba3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

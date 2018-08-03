@@ -4,7 +4,7 @@ title: RtlGetNonVolatileToken function
 author: windows-driver-content
 description: The routine, RtlGetNonVolatileToken, gets various properties about a non-volatile memory buffer and stores them in the variable NvToken.
 old-location: ifsk\rtlgetnonvolatiletoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

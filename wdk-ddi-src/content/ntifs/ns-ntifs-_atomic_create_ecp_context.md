@@ -4,7 +4,7 @@ title: "_ATOMIC_CREATE_ECP_CONTEXT"
 author: windows-driver-content
 description: This structure allows supplemental operations to be performed on a file atomically during create.
 old-location: ifsk\atomic_create_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: CFA879CC-6124-4E1C-B440-358455A5E6EF
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: FltOplockBreakToNoneEx function
 author: windows-driver-content
 description: The FltOplockBreakToNoneEx routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fltoplockbreaktononeex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 748951e3-9642-4c98-a3b0-5f6b18519bd4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

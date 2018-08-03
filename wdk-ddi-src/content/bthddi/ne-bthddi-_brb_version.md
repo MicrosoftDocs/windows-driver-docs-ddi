@@ -4,7 +4,7 @@ title: "_BRB_VERSION"
 author: windows-driver-content
 description: Reserved for internal use.
 old-location: bltooth\brb_version.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2bd4f3f6-94a4-47a6-8c15-a8f9bef5d2b5
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: "_CHANGER_SEND_VOLUME_TAG_INFORMATION"
 author: windows-driver-content
 description: This structure is passed to the ChangerQueryVolumeTags routine and is used to specify a search criterion for retrieving changer elements.
 old-location: storage\changer_send_volume_tag_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cfe0673c-1dcb-4c4e-9ec4-8d9f27919c85
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

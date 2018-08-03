@@ -4,7 +4,7 @@ title: ZwMapViewOfSection function
 author: windows-driver-content
 description: The ZwMapViewOfSection routine maps a view of a section into the virtual address space of a subject process.
 old-location: kernel\zwmapviewofsection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

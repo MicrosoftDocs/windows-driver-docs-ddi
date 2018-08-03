@@ -4,7 +4,7 @@ title: "_CDROM_TOC_FULL_TOC_DATA"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_FULL_TOC return their output data in this structure optionally followed by a series of descriptors of type CDROM_TOC_FULL_TOC_DATA_BLOCK.
 old-location: storage\cdrom_toc_full_toc_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c82e08e5-1450-40a3-a25a-49eefc7bc887
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

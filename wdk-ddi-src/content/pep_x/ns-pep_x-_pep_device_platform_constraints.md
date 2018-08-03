@@ -4,7 +4,7 @@ title: "_PEP_DEVICE_PLATFORM_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constraints for entry to the various Dx power states that are supported by a device.
 old-location: kernel\pep_device_platform_constraints.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C9CC652F-16D4-4F88-BE8F-6CC7008F65DB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

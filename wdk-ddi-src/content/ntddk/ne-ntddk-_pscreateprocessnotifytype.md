@@ -4,7 +4,7 @@ title: "_PSCREATEPROCESSNOTIFYTYPE"
 author: windows-driver-content
 description: Indicates the type of process notification. This enumeration is used in PsSetCreateProcessNotifyRoutineEx2 to register callback notifications.
 old-location: kernel\pscreateprocessnotifytype.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

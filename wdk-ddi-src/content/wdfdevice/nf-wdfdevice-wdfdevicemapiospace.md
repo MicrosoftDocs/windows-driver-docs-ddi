@@ -4,7 +4,7 @@ title: WdfDeviceMapIoSpace function
 author: windows-driver-content
 description: The WdfDeviceMapIoSpace function maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\wdfdevicemapiospace.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

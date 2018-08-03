@@ -4,7 +4,7 @@ title: KsDisableEvent function
 author: windows-driver-content
 description: The KsDisableEvent function disables events requested through IOCTL_KS_DISABLE_EVENT.
 old-location: stream\ksdisableevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4af94bc4-9df3-4b37-a810-303748cc4b75
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

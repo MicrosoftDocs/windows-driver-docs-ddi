@@ -4,7 +4,7 @@ title: BdaPropertyGetPinControl function
 author: windows-driver-content
 description: The BdaPropertyGetPinControl function retrieves either the identifier or type of a pin.
 old-location: stream\bdapropertygetpincontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ab240a95-6308-4953-95f6-9baa280ecf99
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

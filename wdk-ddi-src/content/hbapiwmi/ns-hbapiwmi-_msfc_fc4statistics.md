@@ -4,7 +4,7 @@ title: "_MSFC_FC4STATISTICS"
 author: windows-driver-content
 description: The MSFC_FC4STATISTICS structure is used in conjunction with the GetFC4Statistics WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
 old-location: storage\msfc_fc4statistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a46a9aff-9bc9-4328-85b2-90f8f80b2e65
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

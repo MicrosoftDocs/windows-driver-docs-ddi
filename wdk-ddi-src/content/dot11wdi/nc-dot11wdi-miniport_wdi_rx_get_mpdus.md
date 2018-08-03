@@ -4,10 +4,10 @@ title: MINIPORT_WDI_RX_GET_MPDUS
 author: windows-driver-content
 description: The MiniportWdiRxGetMpdus handler function returns a NET_BUFFER_LIST chain. Each NET_BUFFER_LIST represents one MPDU.
 old-location: netvista\miniportwdirxgetmpdus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 195F4143-4889-4788-BAF5-2F1ED6E4E50A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_RX_GET_MPDUS, MINIPORT_WDI_RX_GET_MPDUS callback, MiniportWdiRxGetMpdus, MiniportWdiRxGetMpdus callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxGetMpdus, netvista.miniportwdirxgetmpdus
 ms.prod: windows-hardware
 ms.technology: windows-devices

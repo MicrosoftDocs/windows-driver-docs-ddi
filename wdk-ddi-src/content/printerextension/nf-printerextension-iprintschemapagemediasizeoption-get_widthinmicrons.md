@@ -4,7 +4,7 @@ title: IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
 author: windows-driver-content
 description: Gets the width of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_widthinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: D44C8782-DA25-4189-AECA-B899A4AA9279
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

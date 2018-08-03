@@ -4,7 +4,7 @@ title: IPrintSchemaElement
 author: windows-driver-content
 description: Provides access to the underlying XML node and &#0034;name&#0034; attribute information for a Print Schema element.
 old-location: print\iprintschemaelement_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: E6F6F00B-E116-4AEA-AF9A-55209DA20DC6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

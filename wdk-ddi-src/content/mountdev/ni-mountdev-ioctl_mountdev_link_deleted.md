@@ -4,7 +4,7 @@ title: IOCTL_MOUNTDEV_LINK_DELETED
 author: windows-driver-content
 description: Support for this IOCTL by the mount manager clients is optional. It alerts the mount manager client that a persistent name associated with it has been deleted. The input for this IOCTL is the persistent name that was deleted.
 old-location: storage\ioctl_mountdev_link_deleted.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6fd0696d-5b8d-4502-bbdb-a013bee2e9d4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -90,6 +90,9 @@ None
 ### -inout-buffer-length
 
 
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
 
 
 

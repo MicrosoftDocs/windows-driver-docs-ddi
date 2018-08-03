@@ -4,7 +4,7 @@ title: InterlockedOr function
 author: windows-driver-content
 description: The InterlockedOr routine atomically computes a bitwise OR operation.
 old-location: kernel\interlockedor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1f66d3ed-7215-4fb5-87df-4489c3cd03c6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

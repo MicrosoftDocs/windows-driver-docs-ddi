@@ -4,7 +4,7 @@ title: tag_video_stream_init_parms
 author: windows-driver-content
 description: "."
 old-location: stream\video_stream_init_parms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0FEC5054-8045-4CE5-AA59-AE3D23568308
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

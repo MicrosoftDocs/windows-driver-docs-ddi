@@ -4,10 +4,10 @@ title: EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 author: windows-driver-content
 description: UCX invokes this callback to retrieve the host controller characteristics.
 old-location: buses\evt_ucx_controller_get_transport_characteristics.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 4394199C-6644-4E11-BDAF-625C2F94DEE8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function pointer [Buses], EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback, EvUcxControllerGetTransportCharacteristics, EvUcxControllerGetTransportCharacteristics callback function [Buses], buses.evt_ucx_controller_get_transport_characteristics, ucxcontroller/EvUcxControllerGetTransportCharacteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices

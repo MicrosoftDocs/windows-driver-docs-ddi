@@ -4,7 +4,7 @@ title: PshedRegisterPlugin function
 author: windows-driver-content
 description: The PshedRegisterPlugin function registers a PSHED plug-in with the PSHED.
 old-location: whea\pshedregisterplugin.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

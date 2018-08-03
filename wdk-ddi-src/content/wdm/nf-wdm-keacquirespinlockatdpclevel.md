@@ -4,7 +4,7 @@ title: KeAcquireSpinLockAtDpcLevel macro
 author: windows-driver-content
 description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL &gt;= DISPATCH_LEVEL.
 old-location: kernel\keacquirespinlockatdpclevel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 010b5e42-26c7-433f-b67b-1afdc0ec564c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -59,18 +59,12 @@ The <b>KeAcquireSpinLockAtDpcLevel</b> routine acquires a spin lock when the cal
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - SpinLock [in, out]
+### -param a [in, out]
 
 Pointer to an initialized spin lock for which the caller must provide the storage.
+
+
+
 
 
 ## -remarks

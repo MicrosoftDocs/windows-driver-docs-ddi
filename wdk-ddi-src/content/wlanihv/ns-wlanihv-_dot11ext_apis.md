@@ -4,7 +4,7 @@ title: "_DOT11EXT_APIS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_apis.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d533acbb-eb3b-4c49-a057-9a99faaacfc1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -93,157 +93,157 @@ typedef struct _DOT11EXT_APIS {
 
 ### -field Dot11ExtAllocateBuffer
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">
      Dot11ExtAllocateBuffer</a> function.
 
 
 ### -field Dot11ExtFreeBuffer
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a> function.
 
 
 ### -field Dot11ExtSetProfileCustomUserData
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
      Dot11ExtSetProfileCustomUserData</a> function.
 
 
 ### -field Dot11ExtGetProfileCustomUserData
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
      Dot11ExtGetProfileCustomUserData</a> function.
 
 
 ### -field Dot11ExtSetCurrentProfile
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">
      Dot11ExtSetCurrentProfile</a> function.
 
 
 ### -field Dot11ExtSendUIRequest
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">
      Dot11ExtSendUIRequest</a> function.
 
 
 ### -field Dot11ExtPreAssociateCompletion
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
      Dot11ExtPreAssociateCompletion</a> function.
 
 
 ### -field Dot11ExtPostAssociateCompletion
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
      Dot11ExtPostAssociateCompletion</a> function.
 
 
 ### -field Dot11ExtSendNotification
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">
      Dot11ExtSendNotification</a> function.
 
 
 ### -field Dot11ExtSendPacket
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a> function.
 
 
 ### -field Dot11ExtSetEtherTypeHandling
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
      Dot11ExtSetEtherTypeHandling</a> function.
 
 
 ### -field Dot11ExtSetAuthAlgorithm
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_auth_algorithm.md">
      Dot11ExtSetAuthAlgorithm</a> function.
 
 
 ### -field Dot11ExtSetUnicastCipherAlgorithm
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_unicast_cipher_algorithm.md">
      Dot11ExtSetUnicastCipherAlgorithm</a> function.
 
 
 ### -field Dot11ExtSetMulticastCipherAlgorithm
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_multicast_cipher_algorithm.md">
      Dot11ExtSetMulticastCipherAlgorithm</a> function.
 
 
 ### -field Dot11ExtSetDefaultKey
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">
      Dot11ExtSetDefaultKey</a> function.
 
 
 ### -field Dot11ExtSetKeyMappingKey
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">
      Dot11ExtSetKeyMappingKey</a> function.
 
 
 ### -field Dot11ExtSetDefaultKeyId
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key_id.md">
      Dot11ExtSetDefaultKeyId</a> function.
 
 
 ### -field Dot11ExtNicSpecificExtension
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_nic_specific_extension.md">
      Dot11ExtNicSpecificExtension</a> function.
 
 
 ### -field Dot11ExtSetExcludeUnencrypted
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_exclude_unencrypted.md">
      Dot11ExtSetExcludeUnencrypted</a> function.
 
 
 ### -field Dot11ExtStartOneX
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function.
 
 
 ### -field Dot11ExtStopOneX
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a> function.
 
 
 ### -field Dot11ExtProcessSecurityPacket
 
- 
+
 
 
 
 
 #### - Dot11ExtProcessOneXPacket
 
-A pointer to the 
+A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">
      Dot11ExtProcessOneXPacket</a> function.
 
@@ -253,9 +253,9 @@ A pointer to the
 
 
 The IHV Extensibility functions are not statically or dynamically linked to the IHV Extensions DLL.
-    Instead, when the operating system calls the 
+    Instead, when the operating system calls the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> IHV
-    handler function, it passes the list of pointers to the IHV Extensibility functions through the 
+    handler function, it passes the list of pointers to the IHV Extensibility functions through the
     <i>pDot11ExtAPI</i> parameter.
 
 All of the function pointers are required and will not be set to <b>NULL</b>.

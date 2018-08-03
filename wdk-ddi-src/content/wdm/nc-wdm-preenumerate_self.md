@@ -4,7 +4,7 @@ title: PREENUMERATE_SELF
 author: windows-driver-content
 description: A ReenumerateSelf routine requests that a bus driver reenumerate a child device.
 old-location: kernel\reenumerateself.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ee669f35-87a5-4c5e-9936-b9135a1459e1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

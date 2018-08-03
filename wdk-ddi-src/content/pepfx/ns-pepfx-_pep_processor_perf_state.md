@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_PERF_STATE"
 author: windows-driver-content
 description: Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification. This structure describes the properties of a single performance state.  .
 old-location: kernel\pep_processor_perf_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 46231ac0-2c34-4154-8b3e-f34c40cbff4a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IoAttachDeviceToDeviceStack function
 author: windows-driver-content
 description: The IoAttachDeviceToDeviceStack routine attaches the caller's device object to the highest device object in the chain and returns a pointer to the previously highest device object.
 old-location: kernel\ioattachdevicetodevicestack.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6377f980-dd56-4bef-91e7-7557866132d6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: NtSetInformationResourceManager function
 author: windows-driver-content
 description: The ZwSetInformationResourceManager routine is not used.
 old-location: kernel\zwsetinformationresourcemanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0a0d86c7-1d42-4312-a4f9-9b9ea092ebec
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -61,22 +61,22 @@ The <b>ZwSetInformationResourceManager</b> routine is not used.
 
 ### -param ResourceManagerHandle
 
-TBD
+Not used.
 
 
 ### -param ResourceManagerInformationClass
 
-TBD
+Not used.
 
 
 ### -param ResourceManagerInformation
 
-TBD
+Not used.
 
 
 ### -param ResourceManagerInformationLength
 
-TBD
+Not used.
 
 
 

@@ -4,7 +4,7 @@ title: FltLockUserBuffer function
 author: windows-driver-content
 description: The FltLockUserBuffer routine locks the user buffer for a given I/O operation.
 old-location: ifsk\fltlockuserbuffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ab8e873b-b16d-45fc-b732-6d390ae60ce9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

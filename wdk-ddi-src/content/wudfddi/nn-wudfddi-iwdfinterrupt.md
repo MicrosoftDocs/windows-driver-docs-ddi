@@ -4,7 +4,7 @@ title: IWDFInterrupt
 author: windows-driver-content
 description: This interface exposes an interrupt object.
 old-location: wdf\iwdfinterrupt.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 729A2361-6FE1-4096-AC8B-3D042326EE5C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

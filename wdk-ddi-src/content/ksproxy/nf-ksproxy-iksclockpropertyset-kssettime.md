@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsSetTime
 author: windows-driver-content
 description: The KsSetTime method sets the current time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssettime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b1489593-9458-4e78-b59d-c8a780a3a3f1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

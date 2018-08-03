@@ -4,7 +4,7 @@ title: "_WDF_FILE_INFORMATION_CLASS"
 author: windows-driver-content
 description: The WDF_FILE_INFORMATION_CLASS enumeration identifies the types of file information that a driver can obtain or set.
 old-location: wdf\wdf_file_information_class.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d9d6ce1b-8bc1-4ba7-8ee5-3172a780d52c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: MmPageEntireDriver function
 author: windows-driver-content
 description: The MmPageEntireDriver routine causes all of a driver's code and data to be made pageable, overriding the attributes of the various sections that make up the driver's image.
 old-location: kernel\mmpageentiredriver.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 467a8e64-c4ed-4bd0-81f8-b792367d33bf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

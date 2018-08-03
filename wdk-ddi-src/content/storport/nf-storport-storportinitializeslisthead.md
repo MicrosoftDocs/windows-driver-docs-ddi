@@ -4,7 +4,7 @@ title: StorPortInitializeSListHead function
 author: windows-driver-content
 description: Initializes the head of a Storport managed singly linked list.
 old-location: storage\storportinitializeslisthead.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E8EF5995-67AE-4F34-B885-CBADDF3D151F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

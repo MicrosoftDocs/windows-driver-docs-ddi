@@ -4,7 +4,7 @@ title: NtCreateSection function
 author: windows-driver-content
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwCreateSection</b> routine creates a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">section object</a>.
+The <b>NtCreateSection</b> routine creates a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">section object</a>.
 
 
 ## -parameters
@@ -144,7 +144,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557
 
 ### -param MaximumSize [in, optional]
 
-Specifies the maximum size, in bytes, of the section. <b>ZwCreateSection</b> rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, <i>MaximumSize</i> specifies the actual size of the section. If the section is backed by an ordinary file, <i>MaximumSize</i> specifies the maximum size that the file can be extended or mapped to.
+Specifies the maximum size, in bytes, of the section. <b>NtCreateSection</b> rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, <i>MaximumSize</i> specifies the actual size of the section. If the section is backed by an ordinary file, <i>MaximumSize</i> specifies the maximum size that the file can be extended or mapped to.
 
 
 ### -param SectionPageProtection [in]
@@ -166,7 +166,7 @@ Optionally specifies a handle for an open file object. If the value of <i>FileHa
 
 
 
-<b>ZwCreateSection</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
+<b>NtCreateSection</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
 
 <table>
 <tr>
@@ -238,7 +238,7 @@ The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSi
 
 
 
-Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> to close it.
+Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>. 
 

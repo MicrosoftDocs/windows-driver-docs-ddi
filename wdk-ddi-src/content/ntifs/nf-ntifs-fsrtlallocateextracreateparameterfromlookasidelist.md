@@ -4,7 +4,7 @@ title: FsRtlAllocateExtraCreateParameterFromLookasideList function
 author: windows-driver-content
 description: The FsRtlAllocateExtraCreateParameterFromLookasideList routine allocates memory pool from a given lookaside list for an extra create parameter (ECP) context structure, and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameterfromlookasidelist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6dd1aa9d-58e6-484b-b372-4c1d9f6d04f3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: RIL_StopModemLogs function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_stopmodemlogs.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1d1f092c-e867-49f7-8f17-90fbf73733fb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_stopmodemlogs, rilapi/RIL_StopModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices

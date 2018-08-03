@@ -4,7 +4,7 @@ title: GNSS_AGNSS_INJECTBLOB
 author: windows-driver-content
 description: This structure defines the format for AGNSS extended ephemeris injection.
 old-location: gnss\gnss_agnss_injectblob.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

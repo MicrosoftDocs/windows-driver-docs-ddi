@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetValueLongNumbers
 author: windows-driver-content
 description: Returns a collection of long number values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluelongnumbers.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 178a28be-b592-45a7-8d46-47cbf9904fc6
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

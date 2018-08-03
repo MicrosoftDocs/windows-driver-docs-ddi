@@ -4,7 +4,7 @@ title: KeLowerIrql macro
 author: windows-driver-content
 description: The KeLowerIrql routine restores the IRQL on the current processor to its original value.
 old-location: kernel\kelowerirql.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -59,18 +59,11 @@ The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - NewIrql [in]
+### -param a [in]
 
 Specifies the IRQL that was returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553084">KeRaiseIrqlToDpcLevel</a>.
+
+
 
 
 ## -remarks

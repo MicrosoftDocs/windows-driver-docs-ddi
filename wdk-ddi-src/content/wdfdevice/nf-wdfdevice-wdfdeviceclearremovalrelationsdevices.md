@@ -4,7 +4,7 @@ title: WdfDeviceClearRemovalRelationsDevices function
 author: windows-driver-content
 description: The WdfDeviceClearRemovalRelationsDevices method removes all devices from the list of devices that must be removed when a specified device is removed.
 old-location: wdf\wdfdeviceclearremovalrelationsdevices.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

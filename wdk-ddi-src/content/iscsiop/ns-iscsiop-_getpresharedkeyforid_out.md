@@ -4,7 +4,7 @@ title: "_GetPresharedKeyForId_OUT"
 author: windows-driver-content
 description: The GetPresharedKeyForId_OUT structure holds the output data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 21d6378e-b93b-4e97-842a-a3157e081f31
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

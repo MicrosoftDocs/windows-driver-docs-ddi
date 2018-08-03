@@ -4,7 +4,7 @@ title: "*PLOGINSESSIONTYPE"
 author: windows-driver-content
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 old-location: storage\loginsessiontype.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 
 
 ````
-typedef enum  { 
+typedef enum  {
   ISCSI_LOGINTARGET_DISCOVERY      = 0,
   ISCSI_LOGINTARGET_INFORMATIONAL  = 1,
   ISCSI_LOGINTARGET_DATA           = 2
@@ -77,7 +77,7 @@ The logon session is for discovery only. Initiators use this type of session to 
 
 ### -field ISCSI_LOGINTARGET_INFORMATIONAL
 
-The logon session is for informational purposes only. Initiators use this type of session to send SCSI commands that query for information. Management software can use informational sessions to query for information by calling the <b>SendScsiReportLuns</b> and <b>SendScsiReadCapacity</b> user-mode library routines. 
+The logon session is for informational purposes only. Initiators use this type of session to send SCSI commands that query for information. Management software can use informational sessions to query for information by calling the <b>SendScsiReportLuns</b> and <b>SendScsiReadCapacity</b> user-mode library routines.
 
 This type of session does not support transmission of user data, and the Plug and Play (PnP) manager does not enumerate target logical units (LUNs) for the storage stack of the initiator node.
 

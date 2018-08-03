@@ -4,7 +4,7 @@ title: "_MSFC_PortEvent"
 author: windows-driver-content
 description: A WMI provider uses the MSFC_PortEvent structure to report port events for the indicated adapter.
 old-location: storage\msfc_portevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

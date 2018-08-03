@@ -4,7 +4,7 @@ title: KsFilterFactoryRegisterAggregatedClientUnknown function
 author: windows-driver-content
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\ksfilterfactoryregisteraggregatedclientunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

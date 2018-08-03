@@ -4,7 +4,7 @@ title: KePulseEvent function
 author: windows-driver-content
 description: The KePulseEvent routine atomically sets an event object to a signaled state, attempts to satisfy as many waits as possible, and then resets the event object to a not-signaled state.
 old-location: kernel\kepulseevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 57505700-9775-4dac-a106-951da0744631
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

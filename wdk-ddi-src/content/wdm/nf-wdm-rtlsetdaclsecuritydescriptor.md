@@ -4,7 +4,7 @@ title: RtlSetDaclSecurityDescriptor function
 author: windows-driver-content
 description: The RtlSetDaclSecurityDescriptor routine sets the DACL information of an absolute-format security descriptor, or if there is already a DACL present in the security descriptor, it is superseded.
 old-location: kernel\rtlsetdaclsecuritydescriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d22f4a14-2293-4210-bead-5814484a1471
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

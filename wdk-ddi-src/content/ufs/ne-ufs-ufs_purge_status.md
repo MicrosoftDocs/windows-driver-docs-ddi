@@ -4,7 +4,7 @@ title: UFS_PURGE_STATUS
 author: windows-driver-content
 description: Specifies the current status of a purge operation.
 old-location: storage\ufs_purge_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

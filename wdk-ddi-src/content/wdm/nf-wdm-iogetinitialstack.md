@@ -4,7 +4,7 @@ title: IoGetInitialStack function
 author: windows-driver-content
 description: The IoGetInitialStack routine returns the base address of the current thread's stack.
 old-location: kernel\iogetinitialstack.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

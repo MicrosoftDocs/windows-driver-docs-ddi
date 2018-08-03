@@ -4,7 +4,7 @@ title: NfcCxHardwareEvent function
 author: windows-driver-content
 description: Called by the client driver when a hardware event occurs like D0Entry and D0Exit callbacks to start or stop the device. For drivers that require firmware download on initialization or boot-up, it is recommended to move this call to a separate work item. However, the client driver is responsible for the following:
 old-location: nfpdrivers\_nfccxhardwareevent.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 5D108897-93D9-4C67-9138-86C608AD8C4C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

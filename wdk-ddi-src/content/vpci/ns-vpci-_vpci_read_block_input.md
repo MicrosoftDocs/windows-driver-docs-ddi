@@ -4,7 +4,7 @@ title: "_VPCI_READ_BLOCK_INPUT"
 author: windows-driver-content
 description: The VPCI_READ_BLOCK_INPUT structure is used in an IOCTL_VPCI_READ_BLOCK IOCTL request to read data from a specified configuration block of data for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_read_block_input.htm
-old-project: kernel
+tech.root: pci
 ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

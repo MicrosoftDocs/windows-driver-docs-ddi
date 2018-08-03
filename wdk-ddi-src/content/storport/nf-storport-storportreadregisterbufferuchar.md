@@ -4,7 +4,7 @@ title: StorPortReadRegisterBufferUchar macro
 author: windows-driver-content
 description: The StorPortReadRegisterBufferUchar routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -59,48 +59,24 @@ The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specifie
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param r
-
-TBD
+A Pointer to the hardware device extension.
 
 
-### -param b
-
-TBD
-
-
-### -param c
-
-TBD
-
-
-
-
-
-
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
+### -param r [in]
 
 Pointer to the register where the data is to be read. 
+
+
+### -param b [in]
+
+A pointer to the buffer that receives the data that is read.
+
+
+### -param c [in]
+
+Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
 
 
 ## -remarks

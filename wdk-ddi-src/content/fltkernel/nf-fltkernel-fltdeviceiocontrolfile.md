@@ -4,7 +4,7 @@ title: FltDeviceIoControlFile function
 author: windows-driver-content
 description: FltDeviceIoControlFile sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified action.
 old-location: ifsk\fltdeviceiocontrolfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f9a6998d-f340-47ad-a9be-ff7ef76c627e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

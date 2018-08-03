@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
@@ -42,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Used to calculate the size of a video processor.
+This method is used to calculate the driver object size. The D3D runtime allocates memory for storing the drivers CPU object that represents the video processor.
 
 ## -prototype
 

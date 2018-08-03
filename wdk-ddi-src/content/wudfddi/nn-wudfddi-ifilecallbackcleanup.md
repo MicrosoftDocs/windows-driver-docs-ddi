@@ -4,7 +4,7 @@ title: IFileCallbackCleanup
 author: windows-driver-content
 description: The framework can notify a driver when the driver should perform a cleanup operation.
 old-location: wdf\ifilecallbackcleanup.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d42eb7d5-6bf6-4f0f-a249-a869db486b6f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

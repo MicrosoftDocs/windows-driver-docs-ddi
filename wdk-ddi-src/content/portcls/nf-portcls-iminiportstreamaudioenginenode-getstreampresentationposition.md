@@ -4,10 +4,10 @@ title: IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 author: windows-driver-content
 description: Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
 old-location: audio\iminiportstreamaudioenginenode_getstreampresentationposition.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode.GetStreamPresentationPosition, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

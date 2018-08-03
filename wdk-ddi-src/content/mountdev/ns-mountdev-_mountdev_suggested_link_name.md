@@ -4,7 +4,7 @@ title: "_MOUNTDEV_SUGGESTED_LINK_NAME"
 author: windows-driver-content
 description: Mount manager clients that are able to keep track of their drive letters use this structure to request that the mount manager assign them a particular link name.
 old-location: storage\mountdev_suggested_link_name.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5c6e3337-8071-486a-826a-ade722eb8449
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

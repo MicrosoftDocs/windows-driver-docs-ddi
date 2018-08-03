@@ -4,10 +4,10 @@ title: FwpsAllocateCloneNetBufferList0 function
 author: windows-driver-content
 description: The FwpsAllocateCloneNetBufferList0 function allocates a NET_BUFFER_LIST structure that is a clone of an existing NET_BUFFER_LIST structure.Note  FwpsAllocateCloneNetBufferList0 is a specific version of FwpsAllocateCloneNetBufferList.
 old-location: netvista\fwpsallocateclonenetbufferlist0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 72759748-fac6-45b9-9a81-ab71e6e7c3ef
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,7 +152,7 @@ A callout driver calls the
 This function is a wrapper around the 
     <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
     NdisAllocateCloneNetBufferList</a> function, but it is specialized for use by WFP 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
 
 If the clone NET_BUFFER_LIST structure should have attributes that are associated with a specific pool,
     the callout driver must specify the pool handle in the 
@@ -175,7 +175,7 @@ This function sets the
 
 A callout driver can modify the clone NET_BUFFER_LIST structure and inject it into the network stack
     in place of the original NET_BUFFER_LIST structure by calling the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>. After
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>. After
     the data described by the clone NET_BUFFER_LIST structure has been successfully injected into the network
     stack, the callout driver frees the clone NET_BUFFER_LIST structure by calling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551170">FwpsFreeCloneNetBufferList0</a> function.
@@ -234,7 +234,7 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
  
 
  

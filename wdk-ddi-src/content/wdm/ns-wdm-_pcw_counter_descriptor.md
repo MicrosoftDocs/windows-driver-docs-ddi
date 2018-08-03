@@ -4,7 +4,7 @@ title: "_PCW_COUNTER_DESCRIPTOR"
 author: windows-driver-content
 description: The PCW_COUNTER_DESCRIPTOR structure supplies details about the notification to send.
 old-location: devtest\pcw_counter_descriptor.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 0b099aec-f254-4cfb-87cb-2f8965d5faae
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

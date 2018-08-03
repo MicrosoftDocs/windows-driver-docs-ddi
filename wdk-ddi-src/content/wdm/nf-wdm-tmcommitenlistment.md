@@ -4,7 +4,7 @@ title: TmCommitEnlistment function
 author: windows-driver-content
 description: The TmCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\tmcommitenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f1f0c337-9567-4def-b0fb-09dabfdf294d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

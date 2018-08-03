@@ -4,7 +4,7 @@ title: NtQueryObject function
 author: windows-driver-content
 description: The ZwQueryObject routine provides information about a supplied object.
 old-location: kernel\zwqueryobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 439658a5-d2db-4a31-a1eb-b8943c40cc96
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQueryObject</b> routine provides information about a supplied object.
+The <b>NtQueryObject</b> routine provides information about a supplied object.
 
 
 ## -parameters
@@ -81,14 +81,14 @@ Specifies the size, in bytes, of the <i>ObjectInformation</i> buffer.
 
 ### -param ReturnLength [out, optional]
 
-A pointer to a variable that receives the size, in bytes, of the requested key information. If <b>ZwQueryObject</b> returns STATUS_SUCCESS, the variable contains the amount of data returned. If <b>ZwQueryObject</b> returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required buffer size.
+A pointer to a variable that receives the size, in bytes, of the requested key information. If <b>NtQueryObject</b> returns STATUS_SUCCESS, the variable contains the amount of data returned. If <b>NtQueryObject</b> returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required buffer size.
 
 
 ## -returns
 
 
 
-<b>ZwQueryObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<b>NtQueryObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ The info length is not sufficient to hold the data.
 
 
 
-If the call to the <b>ZwQueryObject</b> function occurs in user mode, you should use the name "<b>NtQueryObject</b>" instead of "<b>ZwQueryObject</b>". 
+If the call to the <b>NtQueryObject</b> function occurs in user mode, you should use the name "<b>NtQueryObject</b>" instead of "<b>ZwQueryObject</b>". 
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

@@ -2,9 +2,9 @@
 UID: NF:ntifs.NtLockFile
 title: NtLockFile function
 author: windows-driver-content
-description: The ZwLockFile routine requests a byte-range lock for the specified file.
+description: The NtLockFile routine requests a byte-range lock for the specified file.
 old-location: kernel\zwlockfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwLockFile</b> routine requests a byte-range lock for the specified file.
+The <b>NtLockFile</b> routine requests a byte-range lock for the specified file.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ If <b>TRUE</b>, byte-range lock is exclusive; otherwise, shared lock.
 
 
 
-The <b>ZwLockFile</b> routine returns STATUS_SUCCESS or an appropriate error NTSTATUS value. Possible NTSTATUS values include the following:
+The <b>NtLockFile</b> routine returns STATUS_SUCCESS or an appropriate error NTSTATUS value. Possible NTSTATUS values include the following:
 
 <table>
 <tr>
@@ -152,9 +152,9 @@ The byte-range lock was not granted for the specified file.
 
 
 
-Callers of <b>ZwLockFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtLockFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwLockFile</b> function occurs in user mode, you should use the name "<b>NtLockFile</b>" instead of "<b>ZwLockFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtLockFile</b> function occurs in user mode, you should use the name "<b>NtLockFile</b>" instead of "<b>ZwLockFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore2
 author: windows-driver-content
 description: Drivers obtain the IWDFNamedPropertyStore2 interface by calling IWDFPropertyStoreFactory::RetrieveDevicePropertyStore.
 old-location: wdf\iwdfnamedpropertystore2.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f6935379-bf0d-4319-bcd9-56f0e4016945
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

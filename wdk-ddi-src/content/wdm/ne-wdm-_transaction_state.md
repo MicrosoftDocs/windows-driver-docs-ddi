@@ -4,7 +4,7 @@ title: "_TRANSACTION_STATE"
 author: windows-driver-content
 description: The TRANSACTION_STATE enumeration defines the states that KTM can assign to a transaction.
 old-location: kernel\transaction_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

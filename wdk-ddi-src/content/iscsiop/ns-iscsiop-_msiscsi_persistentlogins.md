@@ -4,7 +4,7 @@ title: "_MSiSCSI_PersistentLogins"
 author: windows-driver-content
 description: The MSiSCSI_PersistentLogins structure contains the list of persistent target logon sessions.
 old-location: storage\msiscsi_persistentlogins.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c735d9c9-8e87-4a80-af1d-c97d457f78fa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

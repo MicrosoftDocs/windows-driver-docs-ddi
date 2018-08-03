@@ -4,7 +4,7 @@ title: "_PEP_ACPI_PREPARE_DEVICE"
 author: windows-driver-content
 description: The PEP_ACPI_PREPARE_DEVICE structure indicates whether a platform extension plug-in (PEP) is prepared to provide ACPI services for the specified device.
 old-location: kernel\pep_acpi_prepare_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F8D6680D-EFA7-4DED-B808-0E738A852641
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

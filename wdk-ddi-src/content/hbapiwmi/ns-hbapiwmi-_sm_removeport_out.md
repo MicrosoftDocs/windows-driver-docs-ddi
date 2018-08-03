@@ -4,7 +4,7 @@ title: "_SM_RemovePort_OUT"
 author: windows-driver-content
 description: The SM_RemovePort_OUT structure is used to receive output parameters from the SM_RemovePort WMI method.
 old-location: storage\sm_removeport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7ca1bd9f-8fd4-4d9d-8571-4d6e4b721f3b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

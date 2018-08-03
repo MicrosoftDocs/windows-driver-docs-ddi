@@ -4,7 +4,7 @@ title: ETWENABLECALLBACK
 author: windows-driver-content
 description: The EtwEnableCallback function is an optional driver-supplied callback function that is used to receive enable or disable notifications.
 old-location: devtest\etwenablecallback.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: GNSS_BREADCRUMB_V1
 author: windows-driver-content
 description: This structure contains an individual breadcrumb. The order and types of the fields are designed to pack densely.
 old-location: gnss\gnss_breadcrumb_v1.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: BE1D09C4-8EC0-4BF3-A943-20EDD44F9CF1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

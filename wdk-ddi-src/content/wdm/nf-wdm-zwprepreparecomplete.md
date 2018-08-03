@@ -4,7 +4,7 @@ title: ZwPrePrepareComplete function
 author: windows-driver-content
 description: The ZwPrePrepareComplete routine notifies KTM that the calling resource manager has finished preliminary preparation of a transaction's data.
 old-location: kernel\zwprepreparecomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1af8dc98-9fee-4029-970f-462fdf80fdc9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

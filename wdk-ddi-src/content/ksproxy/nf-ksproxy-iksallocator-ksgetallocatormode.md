@@ -4,7 +4,7 @@ title: IKsAllocator::KsGetAllocatorMode
 author: windows-driver-content
 description: Returns the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_ksgetallocatormode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 47B51B6F-555A-4A1E-AA25-7E94DC0060CC
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

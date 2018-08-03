@@ -4,7 +4,7 @@ title: IPrinterExtensionManager
 author: windows-driver-content
 description: The IPrinterExtensionManager interface is retrieved by CoCreating the PrinterExtensionManager class.
 old-location: print\iprinterextensionmanager_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 918AE3F6-2AC4-42AD-9581-E87AD7E79BAD
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: HBA_FcpScsiEntryV2
 author: windows-driver-content
 description: The HBA_FcpScsiEntryV2 structure defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hba_fcpscsientryv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 28f0118b-8c16-4075-8dc9-78e1e2636f02
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

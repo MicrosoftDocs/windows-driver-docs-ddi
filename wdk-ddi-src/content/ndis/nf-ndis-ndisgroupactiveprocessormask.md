@@ -4,10 +4,10 @@ title: NdisGroupActiveProcessorMask function
 author: windows-driver-content
 description: The NdisGroupActiveProcessorMask function returns the currently active processor mask for the specified group.
 old-location: netvista\ndisgroupactiveprocessormask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 92a50a96-8bfb-4d5d-8f24-dd29794e55b1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisGroupActiveProcessorMask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorMask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, netvista.ndisgroupactiveprocessormask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: FsRtlNotifyFullChangeDirectory function
 author: windows-driver-content
 description: The FsRtlNotifyFullChangeDirectory routine creates a notify structure for a notification request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfullchangedirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: MmMapMdl function
 author: windows-driver-content
 description: This function maps physical pages described by a memory descriptor list (MDL) into the system virtual address space.
 old-location: kernel\mmmapmdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

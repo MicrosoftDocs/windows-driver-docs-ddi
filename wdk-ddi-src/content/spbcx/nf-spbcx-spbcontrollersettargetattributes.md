@@ -4,7 +4,7 @@ title: SpbControllerSetTargetAttributes function
 author: windows-driver-content
 description: The SpbControllerSetTargetAttributes method sets object attributes that will be used for all SPBTARGET objects that the SPB framework extension (SpbCx) delivers to the SPB controller driver.
 old-location: spb\spbcontrollersettargetattributes.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 8EC415AA-F578-42BF-B785-52613B20A2AC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDFInterrupt::TryToAcquireInterruptLock
 author: windows-driver-content
 description: The TryToAcquireInterruptLock method acquires the interrupt lock if no other thread has already acquired it.
 old-location: wdf\iwdfinterrupt_trytoacquireinterruptlock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

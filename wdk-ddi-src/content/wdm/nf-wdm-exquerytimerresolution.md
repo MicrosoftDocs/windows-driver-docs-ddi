@@ -4,7 +4,7 @@ title: ExQueryTimerResolution function
 author: windows-driver-content
 description: The ExQueryTimerResolution routine reports the range of timer resolutions that are supported by the system clock.
 old-location: kernel\exquerytimerresolution.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KeWaitForMultipleObjects function
 author: windows-driver-content
 description: The KeWaitForMultipleObjects routine puts the current thread into an alertable or nonalertable wait state until any or all of a number of dispatcher objects are set to a signaled state or (optionally) until the wait times out.
 old-location: kernel\kewaitformultipleobjects.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

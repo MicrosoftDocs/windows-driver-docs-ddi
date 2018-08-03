@@ -4,7 +4,7 @@ title: RtlStringCbCatNExW function
 author: windows-driver-content
 description: The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatnex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76842444-e733-4dee-b83b-db4ef22f697e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

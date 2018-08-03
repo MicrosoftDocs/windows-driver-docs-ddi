@@ -4,7 +4,7 @@ title: PoFxIdleComponent function
 author: windows-driver-content
 description: The PoFxIdleComponent routine decrements the activation reference count on the specified component.
 old-location: kernel\pofxidlecomponent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 07282994-5E04-432D-85A6-4677DB2DA84A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

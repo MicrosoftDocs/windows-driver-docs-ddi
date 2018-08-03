@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetNearNameByOffsetWide
 author: windows-driver-content
 description: The GetNearNameByOffsetWide method returns the name of a symbol that is located near the specified location.
 old-location: debugger\getnearnamebyoffsetwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 943a9139-f3b8-468e-9357-26b7b6bfed32
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], GetNearNameByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNearNameByOffsetWide method, IDebugSymbols3.GetNearNameByOffsetWide, IDebugSymbols3::GetNearNameByOffsetWide, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, debugger.getnearnamebyoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

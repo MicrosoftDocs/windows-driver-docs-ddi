@@ -4,7 +4,7 @@ title: "_ISCSI_ConnectionStaticInfo"
 author: windows-driver-content
 description: The ISCSI_ConnectionStaticInfo structure contains information about the characteristics of an established connection.
 old-location: storage\iscsi_connectionstaticinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 14d4464e-d4e8-446c-8822-0b16c984313c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

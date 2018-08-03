@@ -4,7 +4,7 @@ title: OEMDisablePDEV function
 author: windows-driver-content
 description: OEMDisablePDEV function
 old-location: print\oemdisablepdev.htm
-old-project: print
+tech.root: print
 ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

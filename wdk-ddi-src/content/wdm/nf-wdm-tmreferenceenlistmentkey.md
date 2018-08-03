@@ -4,7 +4,7 @@ title: TmReferenceEnlistmentKey function
 author: windows-driver-content
 description: The TmReferenceEnlistmentKey routine increments the reference count for the key of a specified enlistment object and retrieves the key.
 old-location: kernel\tmreferenceenlistmentkey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c4fd9a56-8743-4099-b261-43c1afc2a5f1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

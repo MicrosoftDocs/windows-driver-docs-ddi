@@ -4,7 +4,7 @@ title: FltAllocateGenericWorkItem function
 author: windows-driver-content
 description: FltAllocateGenericWorkItem allocates a generic work item.
 old-location: ifsk\fltallocategenericworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1be555a5-9fa7-4179-8a36-803b8792db86
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

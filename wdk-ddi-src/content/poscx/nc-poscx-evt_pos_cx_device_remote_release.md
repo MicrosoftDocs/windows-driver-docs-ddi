@@ -4,7 +4,7 @@ title: EVT_POS_CX_DEVICE_REMOTE_RELEASE
 author: windows-driver-content
 description: The EVT_POS_CX_DEVICE_REMOTE_RELEASE callback is called whenever the device is released and left with no owner and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_release.htm
-old-project: pos
+tech.root: pos
 ms.assetid: F6D60B8C-488A-4A3F-85AE-40A10BF2DC9F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

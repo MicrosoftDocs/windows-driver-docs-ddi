@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_REUSE_PARAMS"
 author: windows-driver-content
 description: The WDF_REQUEST_REUSE_PARAMS structure specifies information that is associated with a reused I/O request.
 old-location: wdf\wdf_request_reuse_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 292e8a75-2035-4333-8a3c-28e79549d374
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

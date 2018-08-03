@@ -4,7 +4,7 @@ title: MmCanFileBeTruncated function
 author: windows-driver-content
 description: The MmCanFileBeTruncated routine checks whether a file can be truncated.
 old-location: ifsk\mmcanfilebetruncated.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

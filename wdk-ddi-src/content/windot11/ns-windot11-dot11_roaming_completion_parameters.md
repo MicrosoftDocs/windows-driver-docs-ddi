@@ -4,7 +4,7 @@ title: DOT11_ROAMING_COMPLETION_PARAMETERS
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_roaming_completion_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 535857c5-dd71-4575-8475-ff6c7c934dbe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_COMPLETION_PARAMETERS structure specifies the completion results of the roaming
   operation performed by the Native 802.11 miniport driver. The driver includes a
-  DOT11_ROAMING_COMPLETION_PARAMETERS structure when the driver makes an 
+  DOT11_ROAMING_COMPLETION_PARAMETERS structure when the driver makes an
   <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
   NDIS_STATUS_DOT11_ROAMING_COMPLETION</a> status indication.
 
@@ -77,11 +77,11 @@ typedef struct DOT11_ROAMING_COMPLETION_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the DOT11_ROAMING_COMPLETION_PARAMETERS structure. This member is
-     formatted as an 
+     formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <i>Header</i> to the following values:
 
 
@@ -102,16 +102,16 @@ This member must be set to DOT11_ROAMING_COMPLETION_PARAMETERS_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <code>sizeof(DOT11_ROAMING_COMPLETION_PARAMETERS)</code>.
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
 
-The completion status of the roaming operation formatted as a 
+The completion status of the roaming operation formatted as a
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
 
 
@@ -119,7 +119,7 @@ The completion status of the roaming operation formatted as a
 
 
 
-For more information about the roaming operation, see 
+For more information about the roaming operation, see
     <a href="https://msdn.microsoft.com/b52e134e-4f26-4797-af57-dd7da177c193">Roaming Operations</a>.
 
 

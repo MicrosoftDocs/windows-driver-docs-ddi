@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART
 author: windows-driver-content
 description: A driver's EvtDeviceSelfManagedIoRestart event callback function restarts a device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagediorestart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 13d7fbc6-6f93-4ef9-abd4-f2adc4e8e23a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

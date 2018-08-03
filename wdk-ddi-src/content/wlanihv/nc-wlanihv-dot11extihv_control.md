@@ -4,7 +4,7 @@ title: DOT11EXTIHV_CONTROL
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvcontrol.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 27e1f112-a961-4464-9048-b56394930453
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the IHV Extensions DLL 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the IHV Extensions DLL
   <i>Dot11ExtIhvControl</i> function to allow independent hardware vendor (IHV) control of WLAN drivers or
   services.
 
@@ -82,13 +82,13 @@ DWORD APIENTRY Dot11ExtIhvControl(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
-     specified through a previous call to the 
+     specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV Handler function.
 
 
 ### -param dwInBufferSize [in]
 
-The size, in bytes, of the input control buffer pointed to by the 
+The size, in bytes, of the input control buffer pointed to by the
      <i>pInBuffer</i> parameter.
 
 
@@ -99,7 +99,7 @@ A pointer to the input control buffer.
 
 ### -param dwOutBufferSize [in]
 
-The size, in bytes, of the output buffer (if provided) pointed to by the 
+The size, in bytes, of the output buffer (if provided) pointed to by the
      <i>pOutBuffer</i> parameter.
 
 
@@ -119,7 +119,7 @@ A pointer to a variable that contains the size, in bytes, of the response input/
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -129,19 +129,19 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-The operating system calls this function when the 
-    <b>WlanIhvControl</b> function is called with the 
-    <i>Type</i> parameter set to a value of 
-    <b>wlan_ihv_control_type_service</b>. For a description of the 
+The operating system calls this function when the
+    <b>WlanIhvControl</b> function is called with the
+    <i>Type</i> parameter set to a value of
+    <b>wlan_ihv_control_type_service</b>. For a description of the
     <b>WlanIhvControl</b> function, see the Microsoft Windows SDK documentation.
 
 Data transferred with this function is not validated, so the IHV is responsible for correctly parsing
     the input buffer.
 
-The data buffer pointed to by the 
-    <i>pdwBytesReturned</i> parameter will always be returned. However, the buffer pointed to by 
-    <i>pOutBuffer</i> will be copied only if a valid pointer is provided and the value pointed to by 
-    <i>pdwBytesReturned</i> is less than or equal to 
+The data buffer pointed to by the
+    <i>pdwBytesReturned</i> parameter will always be returned. However, the buffer pointed to by
+    <i>pOutBuffer</i> will be copied only if a valid pointer is provided and the value pointed to by
+    <i>pdwBytesReturned</i> is less than or equal to
     <i>dwOutBufferSize</i> .
 
 

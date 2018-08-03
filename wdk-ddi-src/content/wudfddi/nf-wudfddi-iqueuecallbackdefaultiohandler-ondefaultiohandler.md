@@ -4,7 +4,7 @@ title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 author: windows-driver-content
 description: The OnDefaultIoHandler method handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler_ondefaultiohandler.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

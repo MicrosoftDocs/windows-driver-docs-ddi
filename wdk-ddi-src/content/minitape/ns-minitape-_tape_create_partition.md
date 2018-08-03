@@ -4,7 +4,7 @@ title: "_TAPE_CREATE_PARTITION"
 author: windows-driver-content
 description: The TAPE_CREATE_PARTITION structure is used in conjunction with the IOCTL_TAPE_CREATE_PARTITION request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
 old-location: storage\tape_create_partition.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5020d2c6-f435-4d22-98a3-23318ffc0baf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

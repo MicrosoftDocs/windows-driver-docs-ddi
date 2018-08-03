@@ -4,7 +4,7 @@ title: "_KSNODE_DESCRIPTOR"
 author: windows-driver-content
 description: The KSNODE_DESCRIPTOR structure describes a topology node within a filter.
 old-location: stream\ksnode_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: dfc5760f-fdd6-45f3-aeac-4406892e518a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

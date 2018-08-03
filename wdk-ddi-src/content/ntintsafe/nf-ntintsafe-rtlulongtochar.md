@@ -4,7 +4,7 @@ title: RtlULongToChar function
 author: windows-driver-content
 description: Converts a value of type ULONG to a value of type CHAR.
 old-location: kernel\rtlulongtochar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 43BD3798-0FCA-4A44-8EE1-DE252636CC95
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

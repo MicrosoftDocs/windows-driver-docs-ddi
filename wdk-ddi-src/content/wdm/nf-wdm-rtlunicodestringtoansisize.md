@@ -4,7 +4,7 @@ title: RtlUnicodeStringToAnsiSize macro
 author: windows-driver-content
 description: The RtlUnicodeStringToAnsiSize routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
 old-location: kernel\rtlunicodestringtoansisize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -58,16 +58,7 @@ The <b>RtlUnicodeStringToAnsiSize</b> routine returns the number of bytes requir
 
 
 
-### -param STRING
-
-TBD
-
-
-
-
-
-
-#### - UnicodeString [in]
+### -param STRING [in]
 
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
 

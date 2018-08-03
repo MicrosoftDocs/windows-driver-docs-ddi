@@ -4,7 +4,7 @@ title: "_PEP_PPM_CST_STATES"
 author: windows-driver-content
 description: The PEP_PPM_CST_STATES structure specifies the properties of the C states (ACPI processor power states) that are supported for a processor.
 old-location: kernel\pep_ppm_cst_states.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4E620796-3065-469E-8E91-8F698F672CAE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

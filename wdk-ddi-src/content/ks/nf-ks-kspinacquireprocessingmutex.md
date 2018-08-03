@@ -4,7 +4,7 @@ title: KsPinAcquireProcessingMutex function
 author: windows-driver-content
 description: The KsPinAcquireProcessingMutex function acquires the processing mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinacquireprocessingmutex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ce1fb470-6fee-4de0-a5db-15875a14e581
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IOCTL_BTH_GET_DEVICE_INFO
 author: windows-driver-content
 description: The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, previously discovered remote radios that are Bluetooth-enabled.
 old-location: bltooth\ioctl_bth_get_device_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

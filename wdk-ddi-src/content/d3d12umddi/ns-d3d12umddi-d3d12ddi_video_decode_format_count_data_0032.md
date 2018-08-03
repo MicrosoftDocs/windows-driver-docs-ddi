@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 author: windows-driver-content
 description: Video decode format count data.
 old-location: display\d3d12ddi-video-decode-format-count-data-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 3d28fe10-1dfc-4017-9ab0-d8b8e2d45448
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 ## -description
 
 
-Video decode format count data.
+Retrieves the number of formats supported for a given decode configuration.
 
 
 ## -struct-fields
@@ -60,15 +60,15 @@ Video decode format count data.
 
 ### -field NodeIndex
 
-Node index.
+In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 
 ### -field Configuration
 
-Configuration.
+Specifies the decode configuration for the list of formats. See [D3D12DDI_VIDEO_DECODE_CONFIGURATION](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) for more information.
 
 
 ### -field FormatCount
 
-Format count.
+The count of formats supported for the given node and configuration.
 

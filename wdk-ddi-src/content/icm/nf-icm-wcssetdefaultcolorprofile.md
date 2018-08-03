@@ -4,7 +4,7 @@ title: WcsSetDefaultColorProfile function
 author: windows-driver-content
 description: The WcsSetDefaultColorProfile function sets the default color profile name of the specified profile type in the specified profile management scope.
 old-location: print\wcssetdefaultcolorprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: 302f271c-801e-409c-a0fc-53f01e5e2055
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

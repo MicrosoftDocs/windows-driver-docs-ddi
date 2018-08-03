@@ -4,7 +4,7 @@ title: "_DRIVER_OBJECT"
 author: windows-driver-content
 description: Each driver object represents the image of a loaded kernel-mode driver.
 old-location: kernel\driver_object.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

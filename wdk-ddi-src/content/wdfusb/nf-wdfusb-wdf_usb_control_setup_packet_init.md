@@ -4,7 +4,7 @@ title: WDF_USB_CONTROL_SETUP_PACKET_INIT function
 author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a standard USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4c17f679-6b01-4c6e-8dda-9aa43dc43dc6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

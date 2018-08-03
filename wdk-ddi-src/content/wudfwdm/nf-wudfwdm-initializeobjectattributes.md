@@ -4,7 +4,7 @@ title: InitializeObjectAttributes macro
 author: windows-driver-content
 description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.
 old-location: kernel\initializeobjectattributes.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,12 +60,12 @@ The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="http
 
 ### -param p
 
-Specifies the OBJECT_ATTRIBUTES structure to initialize.
+A pointer to the [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes) structure to initialize.
 
 
 ### -param n
 
-A pointer to a Unicode string that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.TBD
+A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
 
 
 ### -param a

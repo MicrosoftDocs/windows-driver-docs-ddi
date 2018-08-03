@@ -4,7 +4,7 @@ title: EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP
 author: windows-driver-content
 description: The EvtSerCx2CustomTransmitTransactionCleanup event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller's hardware state after a custom-transmit transaction ends.
 old-location: serports\evtsercx2customtransmittransactioncleanup.htm
-old-project: serports
+tech.root: serports
 ms.assetid: CEADF06B-FD60-4B4C-AB59-1ED6B1226204
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

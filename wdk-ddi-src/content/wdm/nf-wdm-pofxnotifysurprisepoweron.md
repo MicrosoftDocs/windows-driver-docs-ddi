@@ -4,7 +4,7 @@ title: PoFxNotifySurprisePowerOn function
 author: windows-driver-content
 description: The PoFxNotifySurprisePowerOn routine notifies the power management framework (PoFx) that a device was turned on as a side effect of supplying power to some other device.
 old-location: kernel\pofxnotifysurprisepoweron.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AB9C7D32-D536-4B2B-9C85-DF5A0031798C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

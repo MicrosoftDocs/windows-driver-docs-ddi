@@ -4,7 +4,7 @@ title: IoValidateDeviceIoControlAccess function
 author: windows-driver-content
 description: For more information, see the WdmlibIoValidateDeviceIoControlAccess function.
 old-location: kernel\iovalidatedeviceiocontrolaccess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 45e8279f-b7a5-4b45-92b7-5f740f6c1117
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

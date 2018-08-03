@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::ContinueAsync
 author: windows-driver-content
 description: Asynchronously signals the I/O to continue.
 old-location: dtf\iwdtfsimpleiostressaction2_continueasync.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 5297881a-34ba-4fa7-a116-a890ce8b7434
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

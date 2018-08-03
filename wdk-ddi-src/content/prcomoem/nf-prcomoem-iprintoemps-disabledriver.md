@@ -4,7 +4,7 @@ title: IPrintOemPS::DisableDriver
 author: windows-driver-content
 description: The IPrintOemPS::DisableDriver method allows a rendering plug-in for Pscript to free resources that were allocated by the plug-in's IPrintOemPS::EnableDriver method.
 old-location: print\iprintoemps_disabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

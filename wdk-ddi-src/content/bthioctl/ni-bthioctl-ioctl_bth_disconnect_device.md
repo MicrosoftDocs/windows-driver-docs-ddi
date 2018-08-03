@@ -4,7 +4,7 @@ title: IOCTL_BTH_DISCONNECT_DEVICE
 author: windows-driver-content
 description: Profile drivers use IOCTL_BTH_DISCONNECT_DEVICE to request the operating system to disconnect the specified remote device.
 old-location: bltooth\ioctl_bth_disconnect_device.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 03c7f389-60a4-4c98-881d-a58926644275
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,10 +4,10 @@ title: NDK_FN_GET_LOCAL_TOKEN_FROM_MR
 author: windows-driver-content
 description: The NdkGetLocalTokenFromMr (NDK_FN_GET_LOCAL_TOKEN_FROM_MR) function gets a memory token from a local NDK memory region (MR).
 old-location: netvista\ndk_fn_get_local_token_from_mr.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5578112B-1BB2-4130-BBCE-20025A0A609C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_GET_LOCAL_TOKEN_FROM_MR, NDK_FN_GET_LOCAL_TOKEN_FROM_MR callback, NdkGetLocalTokenFromMr, NdkGetLocalTokenFromMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalTokenFromMr, netvista.ndk_fn_get_local_token_from_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices

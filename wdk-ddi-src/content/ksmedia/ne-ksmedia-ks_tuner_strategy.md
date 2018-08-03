@@ -4,7 +4,7 @@ title: KS_TUNER_STRATEGY
 author: windows-driver-content
 description: The KS_TUNER_STRATEGY enumeration defines tuning method strategies.
 old-location: stream\ks_tuner_strategy.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 333b1b11-cc6e-4546-9638-e5dcb4c2607c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

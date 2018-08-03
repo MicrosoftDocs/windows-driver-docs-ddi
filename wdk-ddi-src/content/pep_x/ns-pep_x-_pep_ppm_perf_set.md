@@ -4,7 +4,7 @@ title: "_PEP_PPM_PERF_SET"
 author: windows-driver-content
 description: The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor.
 old-location: kernel\pep_ppm_perf_set.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

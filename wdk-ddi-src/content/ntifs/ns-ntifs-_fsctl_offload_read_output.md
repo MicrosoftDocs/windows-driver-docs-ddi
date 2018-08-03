@@ -4,7 +4,7 @@ title: "_FSCTL_OFFLOAD_READ_OUTPUT"
 author: windows-driver-content
 description: The FSCTL_OFFLOAD_READ_OUTPUT structure contains the output for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_output.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 418E66FA-BECD-4F9F-B28C-962995C637B9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

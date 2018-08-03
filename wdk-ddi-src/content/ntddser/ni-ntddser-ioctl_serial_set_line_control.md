@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_LINE_CONTROL
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_LINE_CONTROL request sets the line control register (LCR). The line control register controls the data size, the number of stop bits, and the parity.
 old-location: serports\ioctl_serial_set_line_control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 0883b10c-1900-42b1-afc9-1e61effed111
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

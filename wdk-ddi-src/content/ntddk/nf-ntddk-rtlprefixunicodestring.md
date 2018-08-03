@@ -4,7 +4,7 @@ title: RtlPrefixUnicodeString function
 author: windows-driver-content
 description: The RtlPrefixUnicodeString routine compares two Unicode strings to determine whether one string is a prefix of the other.
 old-location: kernel\rtlprefixunicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

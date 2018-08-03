@@ -4,7 +4,7 @@ title: KeSetEvent function
 author: windows-driver-content
 description: The KeSetEvent routine sets an event object to a signaled state if the event was not already signaled, and returns the previous state of the event object.
 old-location: kernel\kesetevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

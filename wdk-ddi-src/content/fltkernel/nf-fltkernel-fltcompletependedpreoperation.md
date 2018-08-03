@@ -4,7 +4,7 @@ title: FltCompletePendedPreOperation function
 author: windows-driver-content
 description: FltCompletePendedPreOperation resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback (PFLT_PRE_OPERATION_CALLBACK) routine.
 old-location: ifsk\fltcompletependedpreoperation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bdd9f304-b26e-401e-81c7-da7d1e4f5635
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<b>FltCompletePendedPreOperation</b> resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) routine. 
+**FltCompletePendedPreOperation** resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback) ) routine. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ req.typenames:
 
 ### -param CallbackData
 
-TBD
+Pointer to the callback data (<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be NULL. 
 
 
 ### -param CallbackStatus [in]

@@ -4,7 +4,7 @@ title: KSNODE_CREATE
 author: windows-driver-content
 description: The KSNODE_CREATE structure describes the set of information used to create the node handle.
 old-location: stream\ksnode_create.htm
-old-project: stream
+tech.root: stream
 ms.assetid: db08cc72-3797-46e3-8e4d-d8469dc126ab
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

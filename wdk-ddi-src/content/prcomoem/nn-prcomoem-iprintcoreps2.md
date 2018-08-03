@@ -4,7 +4,7 @@ title: IPrintCorePS2
 author: windows-driver-content
 description: This section describes the methods defined for the IPrintCorePS2 COM Interface. Method prototypes are defined in prcomoem.h.
 old-location: print\iprintcoreps2_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: bf7e15df-49ba-4850-acf6-dab5dc137f48
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

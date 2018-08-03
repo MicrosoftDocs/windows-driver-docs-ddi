@@ -4,7 +4,7 @@ title: "_AddLink_OUT"
 author: windows-driver-content
 description: The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the AddLink WMI method.
 old-location: storage\addlink_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

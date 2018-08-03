@@ -4,7 +4,7 @@ title: "_STREAMING_CONTROL_REQUEST_TYPE"
 author: windows-driver-content
 description: The STREAMING_CONTROL_REQUEST_TYPE enumeration defines the CDROM streaming modes.
 old-location: storage\streaming_control_request_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A17F0E3C-402B-4484-B4AE-0583773AEDA8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

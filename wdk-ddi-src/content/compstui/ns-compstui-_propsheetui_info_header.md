@@ -4,7 +4,7 @@ title: "_PROPSHEETUI_INFO_HEADER"
 author: windows-driver-content
 description: The PROPSHEETUI_INFO_HEADER structure is used as an input parameter to an application's PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_INFO_HEADER.
 old-location: print\propsheetui_info_header.htm
-old-project: print
+tech.root: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

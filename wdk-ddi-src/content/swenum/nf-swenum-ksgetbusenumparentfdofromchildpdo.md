@@ -4,7 +4,7 @@ title: KsGetBusEnumParentFDOFromChildPDO function
 author: windows-driver-content
 description: The KsGetBusEnumParentFDOFromChildPDO function retrieves the FDO of the parent of the given child PDO.
 old-location: stream\ksgetbusenumparentfdofromchildpdo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5d860c5c-e29e-4ea2-b6f7-bcaab0d4584d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

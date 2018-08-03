@@ -4,7 +4,7 @@ title: KeWaitForSingleObject function
 author: windows-driver-content
 description: The KeWaitForSingleObject routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out.
 old-location: kernel\kewaitforsingleobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -181,8 +181,6 @@ Callers of <b>KeWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_L
 <b>KeWaitForMutexObject</b> is a macro that converts to <b>KeWaitForSingleObject</b>, which can be used instead.
 
 For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540595">Alternatives to Mutex Objects</a>.
-
-For more information about how to use this routine, see <b>KeWaitForSingleObject</b>. 
 
 For more information about mutex objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>.
 

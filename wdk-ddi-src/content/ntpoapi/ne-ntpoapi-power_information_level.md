@@ -4,7 +4,7 @@ title: POWER_INFORMATION_LEVEL
 author: windows-driver-content
 description: Indicates power level information.
 old-location: kernel\power_information_level.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DCAB0482-C0E3-4F75-B5A7-FB8DFFA89D6F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

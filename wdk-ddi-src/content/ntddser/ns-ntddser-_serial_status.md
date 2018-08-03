@@ -4,7 +4,7 @@ title: "_SERIAL_STATUS"
 author: windows-driver-content
 description: The SERIAL_STATUS structure contains status information about the serial port.
 old-location: serports\serial_status.htm
-old-project: serports
+tech.root: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

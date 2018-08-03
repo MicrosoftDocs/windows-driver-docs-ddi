@@ -4,7 +4,7 @@ title: KsGetDefaultClockState function
 author: windows-driver-content
 description: The KsGetDefaultClockState function gets the current state of the clock.The function can be called at DISPATCH_LEVEL.
 old-location: stream\ksgetdefaultclockstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b579fd85-5073-4894-a4ef-e56638f45ef6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

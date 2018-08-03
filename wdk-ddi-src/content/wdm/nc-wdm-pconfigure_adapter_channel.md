@@ -4,7 +4,7 @@ title: PCONFIGURE_ADAPTER_CHANNEL
 author: windows-driver-content
 description: The ConfigureAdapterChannel routine invokes a custom function that is implemented by the DMA controller represented by an adapter object.
 old-location: kernel\configureadapterchannel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

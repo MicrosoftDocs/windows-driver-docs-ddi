@@ -4,7 +4,7 @@ title: StorPortBusy function
 author: windows-driver-content
 description: The StorPortBusy routine notifies the port driver that the adapter is currently busy, handling outstanding requests.
 old-location: storage\storportbusy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 81e5b26d-78b5-4ee7-a47c-fc92d01752d1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

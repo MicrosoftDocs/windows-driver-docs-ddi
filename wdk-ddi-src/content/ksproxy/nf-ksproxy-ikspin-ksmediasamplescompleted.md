@@ -4,7 +4,7 @@ title: IKsPin::KsMediaSamplesCompleted
 author: windows-driver-content
 description: The KsMediaSamplesCompleted method informs a pin that a stream segment completed.
 old-location: stream\ikspin_ksmediasamplescompleted.htm
-old-project: stream
+tech.root: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

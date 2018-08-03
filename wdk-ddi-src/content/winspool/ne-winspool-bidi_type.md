@@ -4,7 +4,7 @@ title: BIDI_TYPE
 author: windows-driver-content
 description: The BIDI_TYPE enumeration lists the possible values of data transferred in a bidi operation.
 old-location: print\bidi_type.htm
-old-project: print
+tech.root: print
 ms.assetid: ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

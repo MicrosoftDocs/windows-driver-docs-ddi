@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032
 author: windows-driver-content
 description: Used to calculate the size of a video processor.
 old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize_0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 7CE581B5-A6B5-4108-A678-554221386636
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032 callback function
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Used to calculate the size of a video processor.
+This method is used to calculate the driver object size. The D3D runtime allocates memory for storing the drivers CPU object that represents the video processor.
 
 
 ## -parameters

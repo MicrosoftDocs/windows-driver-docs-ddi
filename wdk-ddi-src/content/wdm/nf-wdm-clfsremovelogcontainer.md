@@ -4,7 +4,7 @@ title: ClfsRemoveLogContainer function
 author: windows-driver-content
 description: The ClfsRemoveLogContainer routine removes a container from a CLFS log.
 old-location: kernel\clfsremovelogcontainer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5c49bf4f-acc6-4c0f-bbc2-bafb68ea1a74
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

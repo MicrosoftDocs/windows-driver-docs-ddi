@@ -4,7 +4,7 @@ title: PMRX_CREATE_V_NET_ROOT
 author: windows-driver-content
 description: The MRxCreateVNetRoot routine is called by RDBSS to request that the network mini-redirector create a V_NET_ROOT structure and, in some cases, a NET_ROOT structure.
 old-location: ifsk\mrxcreatevnetroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: PFND3DDDI_SETDISPLAYMODE
 author: windows-driver-content
 description: The SetDisplayMode function switches to a display mode or primary that is not supported by the GDI desktop.
 old-location: display\setdisplaymode.htm
-old-project: display
+tech.root: display
 ms.assetid: d0e409fe-1c64-4468-b52e-b0ede39f6601
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETDISPLAYMODE, PFND3DDDI_SETDISPLAYMODE callback, SetDisplayMode, SetDisplayMode callback function [Display Devices], UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml, d3dumddi/SetDisplayMode, display.setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices

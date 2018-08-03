@@ -4,7 +4,7 @@ title: "_ISCSI_TargetMapping"
 author: windows-driver-content
 description: The ISCSI_TargetMapping structure maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI logical unit numbers.
 old-location: storage\iscsi_targetmapping.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

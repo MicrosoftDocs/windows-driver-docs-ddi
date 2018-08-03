@@ -4,7 +4,7 @@ title: "_CHANGER_ELEMENT_STATUS_EX"
 author: windows-driver-content
 description: The ChangerGetElementStatus routine returns status information in this structure.
 old-location: storage\changer_element_status_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1fb0d0f9-711a-4bd4-baf6-38ccbeae6e4a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

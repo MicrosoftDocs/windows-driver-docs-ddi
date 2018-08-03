@@ -4,7 +4,7 @@ title: EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION
 author: windows-driver-content
 description: The EvtSerCx2SystemDmaReceiveCancelNewDataNotification event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a new-data notification that SerCx2 enabled in a previous call to the EvtSerCx2SystemDmaReceiveEnableNewDataNotification event callback function.
 old-location: serports\evtsercx2systemdmareceivecancelnewdatanotification.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 7C88F794-0C2B-4715-B09A-2AA49414F18A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

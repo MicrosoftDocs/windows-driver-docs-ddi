@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_PURGE
 author: windows-driver-content
 description: The IOCTL_SERIAL_PURGE request cancels the specified requests and deletes data from the specified buffers.
 old-location: serports\ioctl_serial_purge.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 624e6b52-9698-4d74-8923-cf209e72c05c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

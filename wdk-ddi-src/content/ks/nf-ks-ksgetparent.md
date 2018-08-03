@@ -4,7 +4,7 @@ title: KsGetParent function
 author: windows-driver-content
 description: The KsGetParent function acquires the parent of the given object.
 old-location: stream\ksgetparent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d7804745-295f-491a-80f4-84441598bbf4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IBidiSpl2::UnbindDevice
 author: windows-driver-content
 description: The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request.
 old-location: print\ibidispl2_ibidispl2__unbinddevice.htm
-old-project: print
+tech.root: print
 ms.assetid: 26f3fc82-051d-4827-8b59-ac2c99f4d2c5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: PFNKSPIN
 author: windows-driver-content
 description: An AVStream minidriver's callback routine is called when:\_There is data available for a KSPIN structure to process. Use this routine to perform Pin-Centric Processing.The relevant KSPIN is serving as a sink pin and is connected to an AVStream source pin.
 old-location: stream\avstrminipinprocess.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d2315dd9-1643-4b8e-a010-8fccc582ca2b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

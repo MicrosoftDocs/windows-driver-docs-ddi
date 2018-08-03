@@ -4,7 +4,7 @@ title: "_CYCLE_TIME"
 author: windows-driver-content
 description: The CYCLE_TIME structure contains the IEEE 1394 isochronous cycle time.
 old-location: ieee\cycle_time.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: dcb19338-3848-4f90-876c-357f92fb2637
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

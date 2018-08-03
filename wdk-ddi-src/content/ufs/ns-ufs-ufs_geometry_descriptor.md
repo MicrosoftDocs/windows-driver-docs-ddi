@@ -4,7 +4,7 @@ title: UFS_GEOMETRY_DESCRIPTOR
 author: windows-driver-content
 description: UFS_GEOMETRY_DESCRIPTOR describes a device's geometric parameters.
 old-location: storage\ufs_geometry_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

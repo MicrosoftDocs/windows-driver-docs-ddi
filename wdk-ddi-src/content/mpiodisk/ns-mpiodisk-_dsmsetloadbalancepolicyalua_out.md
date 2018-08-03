@@ -4,7 +4,7 @@ title: "_DsmSetLoadBalancePolicyALUA_OUT"
 author: windows-driver-content
 description: The DsmSetLoadBalancePolicyALUA_OUT structure reports the output of the DsmSetLoadBalancePolicyALUA method.
 old-location: storage\dsmsetloadbalancepolicyalua_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 00c5f766-299e-4c07-a3e0-61077518a37a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

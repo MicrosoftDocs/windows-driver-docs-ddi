@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::ClearTriageLogs
 author: windows-driver-content
 description: Clears the system device setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_cleartriagelogs.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 5de5a7b9-4ac8-4d5a-8037-eec39a580372
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

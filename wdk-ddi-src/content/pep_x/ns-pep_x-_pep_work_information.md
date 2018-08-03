@@ -4,7 +4,7 @@ title: "_PEP_WORK_INFORMATION"
 author: windows-driver-content
 description: The PEP_WORK_INFORMATION structure describes a work item that the PEP is submitting to the Windows power management framework (PoFx).
 old-location: kernel\pep_work_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7A3B2A94-AE6F-4DCC-9CDF-E2D5799C9F0D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

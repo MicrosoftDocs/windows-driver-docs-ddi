@@ -4,10 +4,10 @@ title: RILCALLLIST_V2
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalllist_v2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4cf94a04-dbb4-4e24-954b-3a5a720ef963
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILCALLLIST_V2, RILCALLLIST_V2, RILCALLLIST_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v2, ntddrilapitypes/RILCALLLIST_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

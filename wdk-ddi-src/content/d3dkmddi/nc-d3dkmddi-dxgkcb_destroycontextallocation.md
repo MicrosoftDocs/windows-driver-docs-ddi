@@ -4,10 +4,10 @@ title: DXGKCB_DESTROYCONTEXTALLOCATION
 author: windows-driver-content
 description: Called by a WDDM 1.2 or later display miniport driver to free a resource that was previously allocated for a GPU or device-specific context.
 old-location: display\dxgkcbdestroycontextallocation.htm
-old-project: display
+tech.root: display
 ms.assetid: f613e019-0b6d-43fc-a802-a6cd3803a00d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_DESTROYCONTEXTALLOCATION, DXGKCB_DESTROYCONTEXTALLOCATION callback, DxgkCbDestroyContextAllocation, DxgkCbDestroyContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbDestroyContextAllocation, display.dxgkcbdestroycontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

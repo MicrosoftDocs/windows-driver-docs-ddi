@@ -4,7 +4,7 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032
 author: windows-driver-content
 description: Command list functions for video decode.
 old-location: display\d3d12ddi-command-list-funcs-video-decode-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 5e49e21c-57b8-4864-b4e5-a9baa8df129d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032
 ## -description
 
 
-Command list functions for video decode.
+Command list functions for [D3D12DDI_TABLE_TYPE_COMMAND_LIST_VIDEO_DECODE](ne-d3d12umddi-d3d12ddi_table_type.md).
 
 
 ## -struct-fields
@@ -117,3 +117,7 @@ Set protected resource session.
 
 Write buffer immediate.
 
+
+## -remarks
+
+When [PFND3D12DDI_FILLDDITTABLE](nc-d3d12umddi-pfnd3d12ddi_fillddittable.md) is called for this table type, the *D3D12DDI_HRTTABLE* object must be stored to later call [PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB](nc-d3d12umddi-pfnd3d12ddi_setcommandlistdditable_cb.md) during command list creation.

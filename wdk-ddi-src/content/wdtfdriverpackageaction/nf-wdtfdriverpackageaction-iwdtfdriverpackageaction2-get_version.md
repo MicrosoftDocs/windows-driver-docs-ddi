@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_Version
 author: windows-driver-content
 description: Gets the driver package version.
 old-location: dtf\iwdtfdriverpackageaction2_version.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: be94306f-42b8-487f-9c0e-0efd3170c75c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

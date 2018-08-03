@@ -4,7 +4,7 @@ title: HBA_ScsiInquiryV2 function
 author: windows-driver-content
 description: The HBA_ScsiInquiryV2 routine sends a SCSI inquiry command to the specified remote port.
 old-location: storage\hba_scsiinquiryv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ba82c6f1-f310-4258-8867-8309845320cc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_KS_DVDCOPY_BUSKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_BUSKEY structure is used to describe the bus key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_buskey.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bae613e1-c450-4bc0-9370-a7eb8438ae23
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

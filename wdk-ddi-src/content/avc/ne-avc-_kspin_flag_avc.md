@@ -4,7 +4,7 @@ title: "_KSPIN_FLAG_AVC"
 author: windows-driver-content
 description: The KSPIN_FLAG_AVC enumeration type is used for connection management and in the AVC_FUNCTION_GET_CONNECTINFO function code.
 old-location: stream\kspin_flag_avc.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 45a85718-8997-4c54-b283-e26247866735
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

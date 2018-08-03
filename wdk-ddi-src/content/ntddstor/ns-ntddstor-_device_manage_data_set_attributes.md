@@ -4,7 +4,7 @@ title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 author: windows-driver-content
 description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure specifies a management action for the data-set attributes for a device.
 old-location: storage\device_manage_data_set_attributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

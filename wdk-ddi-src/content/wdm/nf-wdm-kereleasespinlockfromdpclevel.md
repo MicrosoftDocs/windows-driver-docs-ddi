@@ -4,7 +4,7 @@ title: KeReleaseSpinLockFromDpcLevel macro
 author: windows-driver-content
 description: The KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
 old-location: kernel\kereleasespinlockfromdpclevel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5f7a92ee-ebaf-442f-a197-2fb58dd65a25
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -59,18 +59,11 @@ The <b>KeReleaseSpinLockFromDpcLevel</b> routine releases an executive spin lock
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - SpinLock [in, out]
+### -param a [in, out]
 
 Pointer to an executive spin lock for which the caller provides the storage. 
+
+
 
 
 ## -remarks

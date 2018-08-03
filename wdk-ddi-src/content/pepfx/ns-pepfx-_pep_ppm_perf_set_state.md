@@ -4,7 +4,7 @@ title: "_PEP_PPM_PERF_SET_STATE"
 author: windows-driver-content
 description: Used in the PEP_NOTIFY_PPM_PERF_SET notification at runtime to set the current operating performance of the processor.  .
 old-location: kernel\pep_ppm_perf_set_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0d822370-f08b-404d-ad0f-60ea091661d9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

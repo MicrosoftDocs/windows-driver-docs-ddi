@@ -4,7 +4,7 @@ title: "_WHEA_FIRMWARE_ERROR_RECORD_REFERENCE"
 author: windows-driver-content
 description: The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes a reference to a firmware error record that is specific to the Itanium processor architecture.
 old-location: whea\whea_firmware_error_record_reference.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 950a9b93-ef69-4075-9231-eb481a53c617
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

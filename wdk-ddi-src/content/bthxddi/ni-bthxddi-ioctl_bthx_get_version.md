@@ -4,7 +4,7 @@ title: IOCTL_BTHX_GET_VERSION
 author: windows-driver-content
 description: Profile drivers use IOCTL_BTHX_GET_VERSION to get the version supported by the transport driver.
 old-location: bltooth\ioctl_bthx_get_version.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: F4FD760B-551C-4738-A13D-444E08215D59
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

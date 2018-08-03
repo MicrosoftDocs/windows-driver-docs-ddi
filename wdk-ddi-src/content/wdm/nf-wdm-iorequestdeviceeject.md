@@ -4,7 +4,7 @@ title: IoRequestDeviceEject function
 author: windows-driver-content
 description: The IoRequestDeviceEject routine notifies the PnP manager that the device eject button was pressed.
 old-location: kernel\iorequestdeviceeject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_FILE_LINK_ENTRY_INFORMATION"
 author: windows-driver-content
 description: The FILE_LINK_ENTRY_INFORMATION structure describes a single NTFS hard link to an existing file.
 old-location: ifsk\file_link_entry_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b42edb45-3f4f-4f65-aede-8f51149dda78
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

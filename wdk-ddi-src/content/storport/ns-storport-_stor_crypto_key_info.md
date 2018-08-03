@@ -4,7 +4,7 @@ title: "_STOR_CRYPTO_KEY_INFO"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4C936B29-1C88-432C-938B-A78BFDDC57E4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

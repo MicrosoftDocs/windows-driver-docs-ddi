@@ -4,7 +4,7 @@ title: EVT_SERCX_RECEIVE_CANCEL
 author: windows-driver-content
 description: The EvtSerCxReceiveCancel event callback function notifies the serial controller driver that the pending receive request is canceled.
 old-location: serports\evtsercxreceivecancel.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 17362701-67C9-4275-B072-CB17111A838F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

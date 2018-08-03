@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_MOVE_MEDIUM
 author: windows-driver-content
 description: Moves a piece of media from a source element to a destination.
 old-location: storage\ioctl_changer_move_medium.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4a410f56-cdc1-4cb0-801c-62402caec4ee
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

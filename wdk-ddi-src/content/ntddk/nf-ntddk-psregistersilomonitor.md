@@ -4,7 +4,7 @@ title: PsRegisterSiloMonitor function
 author: windows-driver-content
 description: This routine registers a server silo monitor that can receive notifications about server silo events.
 old-location: kernel\psregistersilomonitor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

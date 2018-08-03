@@ -4,7 +4,7 @@ title: "_DOT11_MSONEX_RESULT_PARAMS"
 author: windows-driver-content
 description: The DOT11_MSONEX_RESULT_PARAMS structure is used to exchange result parameters with an IHV module.
 old-location: netvista\dot11_msonex_result_params.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 21604988-ed1a-419b-b002-ab975e8921ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,14 +77,14 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 ### -field Dot11OnexAuthStatus
 
-A 
+A
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569845">ONEX_AUTH_STATUS</a> type that specifies the
       authorization status of the 802.1X exchange.
 
 
 ### -field Dot11OneXReasonCode
 
-A 
+A
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569846">ONEX_REASON_CODE</a> type that specifies the
       reason code of the 802.1X exchange.
 
@@ -92,7 +92,7 @@ A
 ### -field pbMPPESendKey
 
 A pointer to a Microsoft Point-to-Point Encryption (MPPE) Send-Key. This key is encrypted and
-     should be decrypted by calling the 
+     should be decrypted by calling the
      <b>CryptUnprotectData</b> function that is documented in the Windows SDK.
 
 
@@ -104,7 +104,7 @@ The size, in bytes, of the MPPE Send-Key.
 ### -field pbMPPERecvKey
 
 A pointer to a Microsoft Point-to-Point Encryption (MPPE) Receive-Key. This key is encrypted and
-     should be decrypted by calling the 
+     should be decrypted by calling the
      <b>CryptUnprotectData</b> function that is documented in the Windows SDK.
 
 
@@ -115,7 +115,7 @@ The size, in bytes, of the MPPE Receive-Key.
 
 ### -field pDot11EapResult
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11_eap_result.md">DOT11_EAP_RESULT</a> structure that contains
      results from an EAP method.
 

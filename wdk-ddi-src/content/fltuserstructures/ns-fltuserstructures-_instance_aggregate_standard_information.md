@@ -4,7 +4,7 @@ title: "_INSTANCE_AGGREGATE_STANDARD_INFORMATION"
 author: windows-driver-content
 description: The caller-allocated INSTANCE_AGGREGATE_STANDARD_INFORMATION structure contains information for either a minifilter driver instance or a legacy filter driver.
 old-location: ifsk\instance_aggregate_standard_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 35311ee7-d023-4b04-b510-a949ab9a40ca
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -206,6 +206,17 @@ The volume supports offloaded read operations
 <td width="60%">
 The volume supports offloaded write operations
 
+</td>
+
+</tr>
+<tr>
+<td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_WRITE"></a><a id="supported_fs_features_offload_write"></a><dl>
+<dt><b>SUPPORTED_FS_FEATURES_QUERY_OPEN</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+The volume supports query open operations.
 </td>
 </tr>
 </table>

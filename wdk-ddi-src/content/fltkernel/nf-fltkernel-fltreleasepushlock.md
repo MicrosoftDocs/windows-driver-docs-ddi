@@ -4,7 +4,7 @@ title: FltReleasePushLock macro
 author: windows-driver-content
 description: The FltReleasePushLock routine releases a specified push lock owned by the current thread.
 old-location: ifsk\fltreleasepushlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 34d1b945-329c-47ff-913d-5576eef665b8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>FltReleasePushLock</b> routine releases a specified push lock owned by th
 
 ### -param Lock [in, out]
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
 
 ## -remarks

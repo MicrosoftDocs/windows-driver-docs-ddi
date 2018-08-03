@@ -4,7 +4,7 @@ title: KSSTREAMALLOCATOR_STATUS
 author: windows-driver-content
 description: The KSSTREAMALLOCATOR_STATUS structure describes framing requirements and current number of allocated frames for a specific allocator.
 old-location: stream\ksstreamallocator_status.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 95ef6c1e-c2b7-49ca-9aaf-caeb2dca7c3a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

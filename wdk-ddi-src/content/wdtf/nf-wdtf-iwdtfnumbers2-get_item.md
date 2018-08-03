@@ -4,7 +4,7 @@ title: IWDTFNumbers2::get_Item
 author: windows-driver-content
 description: Gets an individual number in the collection.
 old-location: dtf\iwdtfnumbers2_item.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 619cff76-96a6-4aa6-bfdf-67c40e21b4a0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

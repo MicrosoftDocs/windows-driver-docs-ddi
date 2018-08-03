@@ -4,10 +4,10 @@ title: "_DXVAHDDDI_STREAM_STATE_ROTATION_DATA"
 author: windows-driver-content
 description: Describes stream-state data that specifies the clockwise rotation of the display output surface.
 old-location: display\dxvahdddi_stream_state_rotation_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 1c874df6-6b47-4501-9eaf-7c07f0172580
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

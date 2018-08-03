@@ -4,7 +4,7 @@ title: IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 author: windows-driver-content
 description: Gets the horizontal distance between the origin and the bounding limit of the application media size.
 old-location: print\iprintschemapageimageablesize_extentwidthinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: B30CD277-ADE2-45F7-BE73-CF738843D9B9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

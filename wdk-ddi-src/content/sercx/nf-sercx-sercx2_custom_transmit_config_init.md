@@ -4,7 +4,7 @@ title: SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function
 author: windows-driver-content
 description: The SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function initializes a SERCX2_CUSTOM_TRANSMIT_CONFIG structure.
 old-location: serports\sercx2_custom_transmit_config_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 73C64B54-8181-491A-A418-75FC7012888F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

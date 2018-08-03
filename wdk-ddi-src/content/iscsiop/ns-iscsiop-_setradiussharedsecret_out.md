@@ -4,7 +4,7 @@ title: "_SetRADIUSSharedSecret_OUT"
 author: windows-driver-content
 description: The SetRADIUSSharedSecret_OUT structure holds the output data for the SetRADIUSSharedSecret method.
 old-location: storage\setradiussharedsecret_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 55be7611-3249-4109-a142-c0115dfebb98
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

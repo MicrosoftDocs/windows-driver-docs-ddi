@@ -4,7 +4,7 @@ title: RtlGenerate8dot3Name function
 author: windows-driver-content
 description: The RtlGenerate8dot3Name routine generates a short (8.3) name for the specified long file name.
 old-location: ifsk\rtlgenerate8dot3name.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

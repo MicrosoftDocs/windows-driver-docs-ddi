@@ -4,7 +4,7 @@ title: PoSetPowerRequest function
 author: windows-driver-content
 description: The PoSetPowerRequest routine increments the count for the specified power request type.
 old-location: kernel\posetpowerrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

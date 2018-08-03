@@ -4,7 +4,7 @@ title: FsRtlUninitializeLargeMcb function
 author: windows-driver-content
 description: The FsRtlUninitializeLargeMcb routine uninitializes a large map-control block (MCB).
 old-location: ifsk\fsrtluninitializelargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 684a60e5-f8c4-4ab4-bf55-e50469a67265
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

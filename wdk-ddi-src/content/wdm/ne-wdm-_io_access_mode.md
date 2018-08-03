@@ -4,7 +4,7 @@ title: "_IO_ACCESS_MODE"
 author: windows-driver-content
 description: Defines the types of access mode for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_mode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

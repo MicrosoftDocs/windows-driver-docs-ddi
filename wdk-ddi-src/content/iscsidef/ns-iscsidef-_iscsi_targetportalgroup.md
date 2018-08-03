@@ -4,7 +4,7 @@ title: "_ISCSI_TargetPortalGroup"
 author: windows-driver-content
 description: The ISCSI_TargetPortalGroup structure provides a definition of a target portal group.
 old-location: storage\iscsi_targetportalgroup.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 28f48224-90b8-45f5-b69d-6bb6a34f64e0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetNumSettings function
 author: windows-driver-content
 description: The WdfUsbInterfaceGetNumSettings method returns the number of alternate settings that a specified USB interface supports.
 old-location: wdf\wdfusbinterfacegetnumsettings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 07de1b64-bafb-4b5b-8ef3-24b87ae0c273
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

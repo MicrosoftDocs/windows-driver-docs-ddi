@@ -4,7 +4,7 @@ title: "_SET_BAND_METADATA_PARAMETERS"
 author: windows-driver-content
 description: The metadata for a configured band is set to the parameters in a SET_BAND_METADATA_PARAMETERS structure. This structure is input for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA request.
 old-location: storage\set_band_metadata_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3FCCFFE1-C341-4C8D-8EEC-E07C7ECFC317
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

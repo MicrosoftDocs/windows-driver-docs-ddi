@@ -4,7 +4,7 @@ title: WdfDeviceReadFromHardware function
 author: windows-driver-content
 description: The WdfDeviceReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\wdfdevicereadfromhardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_TARGET_DEVICE_REMOVAL_NOTIFICATION"
 author: windows-driver-content
 description: The TARGET_DEVICE_REMOVAL_NOTIFICATION structure describes a device-removal event. The PnP manager sends this structure to a driver that registered a callback routine for notification of EventCategoryTargetDeviceChange events.
 old-location: kernel\target_device_removal_notification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a14656ca-131a-4722-aae7-041eddc8517a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

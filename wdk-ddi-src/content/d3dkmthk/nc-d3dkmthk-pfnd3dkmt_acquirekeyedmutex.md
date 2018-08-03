@@ -4,10 +4,10 @@ title: PFND3DKMT_ACQUIREKEYEDMUTEX
 author: windows-driver-content
 description: The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object.
 old-location: display\d3dkmtacquirekeyedmutex.htm
-old-project: display
+tech.root: display
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, PFND3DKMT_ACQUIREKEYEDMUTEX callback, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

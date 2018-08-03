@@ -4,7 +4,7 @@ title: IPrintOemUni::EnablePDEV
 author: windows-driver-content
 description: The IPrintOemUni::EnablePDEV method allows a rendering plug-in for Unidrv to create its own PDEV structure.
 old-location: print\iprintoemuni_enablepdev.htm
-old-project: print
+tech.root: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

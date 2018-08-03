@@ -4,7 +4,7 @@ title: TmRollbackTransaction function
 author: windows-driver-content
 description: The TmRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\tmrollbacktransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5626a92e-bd26-41a3-8475-916efb2292ff
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

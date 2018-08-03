@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::RescanAllDevices
 author: windows-driver-content
 description: Re-enumerates all devices in the system.
 old-location: dtf\iwdtfdriversetupsystemaction2_rescanalldevices.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 8577428f-aefa-46f5-831e-98f6514177a1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

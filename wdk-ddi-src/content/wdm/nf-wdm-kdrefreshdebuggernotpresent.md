@@ -4,7 +4,7 @@ title: KdRefreshDebuggerNotPresent function
 author: windows-driver-content
 description: The KdRefreshDebuggerNotPresent macro refreshes the value of the KD_DEBUGGER_NOT_PRESENT global kernel variable.
 old-location: devtest\kdrefreshdebuggernotpresent.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 3b43943d-99b7-4d60-96fe-019f4ba2b809
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

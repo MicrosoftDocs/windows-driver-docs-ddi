@@ -4,7 +4,7 @@ title: "_KSDEVICE"
 author: windows-driver-content
 description: The KSDEVICE structure describes a WDM functional device that is managed by AVStream.
 old-location: stream\ksdevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 95b80298-a3b4-416b-8744-88873ac30037
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

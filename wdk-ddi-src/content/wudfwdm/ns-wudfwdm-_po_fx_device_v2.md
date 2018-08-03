@@ -4,7 +4,7 @@ title: "_PO_FX_DEVICE_V2"
 author: windows-driver-content
 description: The PO_FX_DEVICE structure describes the power attributes of a device to the power management framework (PoFx).
 old-location: kernel\po_fx_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E2413C3A-79D3-47E3-A664-80869A721F37
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

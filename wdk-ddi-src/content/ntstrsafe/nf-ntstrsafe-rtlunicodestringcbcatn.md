@@ -4,7 +4,7 @@ title: RtlUnicodeStringCbCatN function
 author: windows-driver-content
 description: The RtlUnicodeStringCbCatN function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcatn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

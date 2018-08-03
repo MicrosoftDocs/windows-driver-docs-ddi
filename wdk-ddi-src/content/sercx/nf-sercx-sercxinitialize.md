@@ -4,7 +4,7 @@ title: SerCxInitialize function
 author: windows-driver-content
 description: The SerCxInitialize method completes the initialization of the serial framework extension (SerCx) after this driver creates the associated device object.
 old-location: serports\sercxinitialize.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

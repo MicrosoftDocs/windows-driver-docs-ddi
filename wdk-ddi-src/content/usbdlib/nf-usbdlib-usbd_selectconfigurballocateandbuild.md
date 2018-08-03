@@ -4,10 +4,10 @@ title: USBD_SelectConfigUrbAllocateAndBuild function
 author: windows-driver-content
 description: The USBD_SelectConfigUrbAllocateAndBuild routine allocates and formats a URB structure that is required to select a configuration for a USB device.
 old-location: buses\usbd_selectconfigurballocateandbuild.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2B2F721C-9201-472B-8629-352CB212235C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses], buses.usbd_selectconfigurballocateandbuild, usbdlib/USBD_SelectConfigUrbAllocateAndBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices

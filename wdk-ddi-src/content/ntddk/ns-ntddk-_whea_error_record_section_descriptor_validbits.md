@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contain valid data.
 old-location: whea\whea_error_record_section_descriptor_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 7d1f192b-75fe-4ee0-b162-401230299562
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

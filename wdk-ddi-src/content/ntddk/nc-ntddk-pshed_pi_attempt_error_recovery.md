@@ -4,7 +4,7 @@ title: PSHED_PI_ATTEMPT_ERROR_RECOVERY
 author: windows-driver-content
 description: A PSHED plug-in's AttemptRecovery callback function attempts to recover from a recoverable hardware error.
 old-location: whea\attemptrecovery.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e7186c16-f093-4a64-aa25-03e9ce0f967e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

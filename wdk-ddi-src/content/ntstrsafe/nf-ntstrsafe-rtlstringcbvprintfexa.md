@@ -4,7 +4,7 @@ title: RtlStringCbVPrintfExA function
 author: windows-driver-content
 description: The RtlStringCbVPrintfExW and RtlStringCbVPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbvprintfex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

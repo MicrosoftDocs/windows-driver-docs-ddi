@@ -4,7 +4,7 @@ title: KsAcquireControl function
 author: windows-driver-content
 description: The KsAcquireControl function acquires the filter control mutex for Object.
 old-location: stream\ksacquirecontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c316382c-8416-43c2-b5fd-2d52d01e1419
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

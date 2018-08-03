@@ -4,7 +4,7 @@ title: StorPortReadPortUshort macro
 author: windows-driver-content
 description: The StorPortReadPortUshort routine reads a value from a specified port address.
 old-location: storage\storportreadportushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e5c9e91a-96b7-4774-8bb4-7519968ce072
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -59,28 +59,14 @@ The <b>StorPortReadPortUshort</b> routine reads a value from a specified port ad
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param p
-
-TBD
+A pointer to the hardware device extension.
 
 
+### -param p [in]
 
-
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Pointer to the address from which to read. 
+A pointer to the address from which to read. 
 
 
 ## -remarks

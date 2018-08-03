@@ -4,7 +4,7 @@ title: TUNER_ANALOG_CAPS_S
 author: windows-driver-content
 description: The TUNER_ANALOG_CAPS_S structure describes the hardware scanning capabilities of a tuning device that supports an analog broadcast network.
 old-location: stream\tuner_analog_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 350ec4b2-a96a-420a-bb52-d09cc8c5029e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

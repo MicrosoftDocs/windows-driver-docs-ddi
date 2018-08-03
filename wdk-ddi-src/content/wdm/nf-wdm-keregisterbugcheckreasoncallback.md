@@ -4,7 +4,7 @@ title: KeRegisterBugCheckReasonCallback function
 author: windows-driver-content
 description: The KeRegisterBugCheckReasonCallback routine registers a BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, or BugCheckAddPagesCallback routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckreasoncallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -125,7 +125,7 @@ Specifies the type of callback routine that <i>CallbackRoutine</i> points to. Se
 
 ### -param Component [in]
 
-A pointer to a null-terminated ANSI string that identifies the caller. For example, you can select a string that describes the device driver, or that contains the device name. You can use the <a href="http://go.microsoft.com/fwlink/p/?linkid=165502">!bugdump</a> debugger extension to display the crash dump data that is associated with this string.
+A pointer to a null-terminated ANSI string that identifies the caller. For example, you can select a string that describes the device driver, or that contains the device name. You can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562171">!bugdump</a> debugger extension to display the crash dump data that is associated with this string.
 
 
 ## -returns

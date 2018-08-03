@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_DVD_RECORDABLE_WRITE"
 author: windows-driver-content
 description: The FEATURE_DATA_DVD_RECORDABLE_WRITE structure holds information for the DVD-R/RW Write feature.
 old-location: storage\feature_data_dvd_recordable_write.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 13a816f9-c41a-49f1-ac79-98106f4630d4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

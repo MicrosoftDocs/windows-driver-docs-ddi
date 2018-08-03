@@ -4,7 +4,7 @@ title: StorPortReadPortBufferUchar macro
 author: windows-driver-content
 description: The StorPortReadPortBufferUchar routine reads a value from a specified port address
 old-location: storage\storportreadportbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8602efbf-8e90-43d3-992f-4d2ecbcc7043
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -59,49 +59,26 @@ The <b>StorPortReadPortBufferUchar</b> routine reads a value from a specified po
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param p
-
-TBD
+A pointer to the hardware device extension.
 
 
-### -param b
+### -param p [in]
 
-TBD
-
-
-### -param c
-
-TBD
+A pointer to the address from which to read. 
 
 
+### -param b [in]
+
+A pointer to the buffer that receives the data that is read.
 
 
-
-
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
+### -param c [in]
 
 Number of unsigned characters to be read. 
 
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Pointer to the address from which to read. 
-
+A ULONG containing the count. 
 
 ## -remarks
 

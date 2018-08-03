@@ -4,7 +4,7 @@ title: D3D12DDI_HEAP_FLAGS
 author: windows-driver-content
 description: Contains Direct3D 12 heap flags.
 old-location: display\d3d12ddi_heap_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 8224E497-7F52-469B-98C9-ECC5F1970894
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -75,7 +75,7 @@ The heap supports resources allocated for buffers.
 
 ### -field D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE
 
-The heap supports resources allocated for coherent systemwide.
+The heap supports resources allocated for coherent system wide.
 
 
 ### -field D3D12DDI_HEAP_FLAG_PRIMARY

@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_PROPERTY_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_PROPERTY_DATA structure describes a device property.
 old-location: wdf\wdf_device_property_data.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C49562C0-D8B6-4BAE-96EB-4005D9EB19DE
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: FltGetRequestorSessionId function
 author: windows-driver-content
 description: The FltGetRequestorSessionId routine returns the session ID of the process that originally requested the specified I/O operation.
 old-location: ifsk\fltgetrequestorsessionid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

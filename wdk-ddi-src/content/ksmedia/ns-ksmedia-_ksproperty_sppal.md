@@ -4,7 +4,7 @@ title: "_KSPROPERTY_SPPAL"
 author: windows-driver-content
 description: The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
 old-location: stream\ksproperty_sppal.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b6c50f2f-efc7-415f-895b-fcffb2575fe8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

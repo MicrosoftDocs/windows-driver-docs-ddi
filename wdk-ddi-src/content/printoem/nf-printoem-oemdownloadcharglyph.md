@@ -4,7 +4,7 @@ title: OEMDownloadCharGlyph function
 author: windows-driver-content
 description: OEMDownloadCharGlyph function
 old-location: print\oemdownloadcharglyph.htm
-old-project: print
+tech.root: print
 ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

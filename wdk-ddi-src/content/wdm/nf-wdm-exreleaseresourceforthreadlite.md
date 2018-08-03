@@ -4,7 +4,7 @@ title: ExReleaseResourceForThreadLite function
 author: windows-driver-content
 description: The ExReleaseResourceForThreadLite routine releases the input resource of the indicated thread.
 old-location: kernel\exreleaseresourceforthreadlite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 840e7f50-644c-49b9-a40b-d504e19b0db2
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
@@ -16,16 +16,16 @@ req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
 req.ddi-compliance: ExclusiveResourceAccess, WithinCriticalRegion, HwStorPortProhibitedDDIs, WithinCriticalRegion(storport)
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
@@ -59,19 +59,14 @@ The <b>ExReleaseResourceForThreadLite</b> routine releases the input resource of
 
 
 
-### -param param
+### -param param [in, out]
 
-TBD
+A pointer to the resource to release.
 
 
 ### -param ResourceThreadId [in]
 
 Identifies the thread that originally acquired the resource. If this is not the currently executing thread, the caller must have transferred ownership of the resource by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545606">ExSetResourceOwnerPointerEx</a> routine first on the thread that originally acquired the resource.
-
-
-#### - Resource [in, out]
-
-A pointer to the resource to release.
 
 
 ## -returns

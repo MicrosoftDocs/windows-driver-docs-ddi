@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::EDTTryStopDevice
 author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpaction2_edttrystopdevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 6a10f86e-163d-4307-b830-5c90e5cb1c45
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

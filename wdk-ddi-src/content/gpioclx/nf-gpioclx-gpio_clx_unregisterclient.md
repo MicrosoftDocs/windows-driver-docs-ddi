@@ -4,7 +4,7 @@ title: GPIO_CLX_UnregisterClient function
 author: windows-driver-content
 description: The GPIO_CLX_UnregisterClient method removes a general-purpose I/O (GPIO) controller driver's registration with the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_clx_unregisterclient.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 2ECBF3D9-F613-4829-B2E0-FF5E21A596EC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_BRB_L2CA_ACL_TRANSFER"
 author: windows-driver-content
 description: The _BRB_L2CA_ACL_TRANSFER structure describes a buffer to read asynchronous data from, or write asynchronous data to a L2CAP channel.
 old-location: bltooth\_brb_l2ca_acl_transfer.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 8ab1365a-99bd-47b3-bf3d-8f70b4a7028a
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

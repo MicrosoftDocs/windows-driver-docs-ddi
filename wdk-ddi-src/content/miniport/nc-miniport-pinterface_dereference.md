@@ -4,7 +4,7 @@ title: PINTERFACE_DEREFERENCE
 author: windows-driver-content
 description: The InterfaceDereference routine decrements the reference count on a driver-defined interface.
 old-location: kernel\interfacedereference.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ed23d7fb-0fff-4c04-9291-90e7323f3e6f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

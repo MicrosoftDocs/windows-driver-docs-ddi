@@ -4,10 +4,10 @@ title: IDebugSymbolGroup2::RemoveSymbolByNameWide
 author: windows-driver-content
 description: The RemoveSymbolByNameWide method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbynamewide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 12261b88-681e-4623-b5af-abaae756e3e1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByNameWide method, IDebugSymbolGroup2.RemoveSymbolByNameWide, IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging], RemoveSymbolByNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, debugger.removesymbolbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices

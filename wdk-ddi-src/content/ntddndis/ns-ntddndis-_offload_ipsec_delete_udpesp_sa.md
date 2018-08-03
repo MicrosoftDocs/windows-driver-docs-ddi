@@ -4,10 +4,10 @@ title: "_OFFLOAD_IPSEC_DELETE_UDPESP_SA"
 author: windows-driver-content
 description: The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure contains information for each security association (SA) and parser entry that a miniport driver deletes from a NIC.
 old-location: netvista\offload_ipsec_delete_udpesp_sa.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f1304fb4-87c8-4a0f-a10f-6a2c5cbaed20
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*POFFLOAD_IPSEC_DELETE_UDPESP_SA, 216offload_7d48a18d-546e-4e72-baf6-5a9e8de5a615.xml, OFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_DELETE_UDPESP_SA, POFFLOAD_IPSEC_DELETE_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_DELETE_UDPESP_SA, netvista.offload_ipsec_delete_udpesp_sa, ntddndis/OFFLOAD_IPSEC_DELETE_UDPESP_SA, ntddndis/POFFLOAD_IPSEC_DELETE_UDPESP_SA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

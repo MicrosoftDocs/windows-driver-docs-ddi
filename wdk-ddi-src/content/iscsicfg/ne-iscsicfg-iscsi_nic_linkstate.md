@@ -4,7 +4,7 @@ title: ISCSI_NIC_LINKSTATE
 author: windows-driver-content
 description: The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the network or not.
 old-location: storage\iscsi_nic_linkstate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e373b1dd-54bd-429c-a5b9-9f8df546c185
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

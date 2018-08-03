@@ -4,10 +4,10 @@ title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
 author: windows-driver-content
 description: Specifies information used to retrieve capabilities for a video processor.
 old-location: display\d3d12ddi_video_process_support_data.htm
-old-project: display
+tech.root: display
 ms.assetid: B42D3637-BBFF-411B-AA1B-4B9578E2EDA9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, display.d3d12ddi_video_process_support_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

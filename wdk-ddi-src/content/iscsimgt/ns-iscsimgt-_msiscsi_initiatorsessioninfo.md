@@ -4,7 +4,7 @@ title: "_MSiSCSI_InitiatorSessionInfo"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 old-location: storage\msiscsi_initiatorsessioninfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

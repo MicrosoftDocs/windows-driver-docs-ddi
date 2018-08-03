@@ -4,7 +4,7 @@ title: IDE_CONTROL_ACTION
 author: windows-driver-content
 description: The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a IdeHwControl routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_control_action.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

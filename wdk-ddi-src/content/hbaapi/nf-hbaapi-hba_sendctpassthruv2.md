@@ -4,7 +4,7 @@ title: HBA_SendCTPassThruV2 function
 author: windows-driver-content
 description: The HBA_SendCTPassThruV2 routine sends a common transport (CT) pass-through command through the indicated port.
 old-location: storage\hba_sendctpassthruv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 95526c2d-19bf-4f4a-abfa-e5be73c1a6a5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

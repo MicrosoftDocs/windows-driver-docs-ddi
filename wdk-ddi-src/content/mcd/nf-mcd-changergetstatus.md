@@ -4,7 +4,7 @@ title: ChangerGetStatus function
 author: windows-driver-content
 description: ChangerGetStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_STATUS.
 old-location: storage\changergetstatus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f5719dfa-e48a-4f81-8344-31b349fadb48
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

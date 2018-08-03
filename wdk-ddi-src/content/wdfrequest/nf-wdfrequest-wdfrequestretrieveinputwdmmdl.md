@@ -4,7 +4,7 @@ title: WdfRequestRetrieveInputWdmMdl function
 author: windows-driver-content
 description: The WdfRequestRetrieveInputWdmMdl method retrieves a memory descriptor list (MDL) that represents an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputwdmmdl.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8046d9e4-d4a2-4aeb-92b2-a48277af8b41
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

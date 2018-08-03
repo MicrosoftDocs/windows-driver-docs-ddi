@@ -4,7 +4,7 @@ title: KeBugCheckEx function
 author: windows-driver-content
 description: The KeBugCheckEx routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
 old-location: kernel\kebugcheckex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2330fda2-71f5-4a8b-8124-775a40926bc1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

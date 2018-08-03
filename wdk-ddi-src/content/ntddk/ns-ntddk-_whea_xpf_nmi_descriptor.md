@@ -4,7 +4,7 @@ title: "_WHEA_XPF_NMI_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_XPF_NMI_DESCRIPTOR structure describes a nonmaskable interrupt (NMI) error source for an x86 or x64 processor.
 old-location: whea\whea_xpf_nmi_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 4ffacbd6-dcdf-48a2-bf1e-6923d825bb09
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

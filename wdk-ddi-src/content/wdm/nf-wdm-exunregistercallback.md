@@ -4,7 +4,7 @@ title: ExUnregisterCallback function
 author: windows-driver-content
 description: The ExUnregisterCallback routine removes a callback routine previously registered with a callback object from the list of routines to be called during the notification process.
 old-location: kernel\exunregistercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a7631732-fac5-458a-b644-eaffd5e53c31
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -58,16 +58,11 @@ The <b>ExUnregisterCallback</b> routine removes a callback routine previously re
 
 
 
-### -param CallbackRegistration
-
-TBD
-
-
-
-
-#### - CbRegistration [in, out]
+### -param CallbackRegistration [in, out]
 
 Specifies the callback routine to unregister. This must be the value returned by <b>ExRegisterCallback</b> when the callback was registered. 
+
+
 
 
 ## -returns

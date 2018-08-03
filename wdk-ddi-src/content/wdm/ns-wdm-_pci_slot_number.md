@@ -4,7 +4,7 @@ title: "_PCI_SLOT_NUMBER"
 author: windows-driver-content
 description: The PCI_SLOT_NUMBER structure is obsolete.
 old-location: kernel\pci_slot_number.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0e04813d-e138-435e-8357-562f79a3a4a2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: NdisInitializeSListHead macro
 author: windows-driver-content
 description: The NdisInitializeSListHead function initializes the head of a sequenced, interlocked, singly linked list.
 old-location: netvista\ndisinitializeslisthead.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, netvista.ndisinitializeslisthead
 ms.prod: windows-hardware
 ms.technology: windows-devices

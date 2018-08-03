@@ -4,7 +4,7 @@ title: WdfDmaTransactionExecute function
 author: windows-driver-content
 description: The WdfDmaTransactionExecute method begins the execution of a specified DMA transaction.
 old-location: wdf\wdfdmatransactionexecute.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8f52557f-b65d-479d-aab4-1e4f7298c8f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

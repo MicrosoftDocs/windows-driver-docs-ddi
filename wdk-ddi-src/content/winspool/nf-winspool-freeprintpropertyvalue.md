@@ -4,7 +4,7 @@ title: FreePrintPropertyValue function
 author: windows-driver-content
 description: Frees the value that is retrieved using GetJobNamedPropertyValue function.
 old-location: print\freeprintpropertyvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

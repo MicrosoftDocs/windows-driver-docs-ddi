@@ -4,7 +4,7 @@ title: IWDFIoTarget::FormatRequestForWrite
 author: windows-driver-content
 description: The FormatRequestForWrite method formats an I/O request object for a write operation.
 old-location: wdf\iwdfiotarget_formatrequestforwrite.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: dd579620-4fe9-4cd0-8e21-f32b07338de1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

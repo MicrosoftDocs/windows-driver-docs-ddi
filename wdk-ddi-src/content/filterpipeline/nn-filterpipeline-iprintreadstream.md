@@ -4,7 +4,7 @@ title: IPrintReadStream
 author: windows-driver-content
 description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
 old-location: print\iprintreadstream.htm
-old-project: print
+tech.root: print
 ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

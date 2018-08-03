@@ -4,10 +4,10 @@ title: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY
 author: windows-driver-content
 description: The UDE client driver's implementation to determine the capabilities that are supported by the emulated USB host controller.
 old-location: buses\evt_udecx_wdf_device_query_usb_capability.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 96F3128C-C334-4531-9C86-3FA918A902AC
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback, EvtUdecxWdfDeviceQueryUsbCapability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], buses.evt_udecx_wdf_device_query_usb_capability, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

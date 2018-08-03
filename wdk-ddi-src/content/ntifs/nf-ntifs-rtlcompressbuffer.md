@@ -4,7 +4,7 @@ title: RtlCompressBuffer function
 author: windows-driver-content
 description: The RtlCompressBuffer function compresses a buffer and can be used by a file system driver to facilitate the implementation of file compression.
 old-location: ifsk\rtlcompressbuffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 49fb1062-9709-4691-9655-8cbf3c5055fb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

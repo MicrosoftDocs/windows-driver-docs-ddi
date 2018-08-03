@@ -4,7 +4,7 @@ title: KeIpiGenericCall function
 author: windows-driver-content
 description: The KeIpiGenericCall routine causes the specified routine to run on all processors simultaneously.
 old-location: kernel\keipigenericcall.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 11424e94-d279-4003-a97c-a46d1a75e8e5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

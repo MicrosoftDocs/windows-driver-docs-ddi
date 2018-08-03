@@ -4,7 +4,7 @@ title: "_ERASE_BAND_PARAMETERS"
 author: windows-driver-content
 description: The ERASE_BAND_PARAMETERS structure contains the selection criteria for a band to erase. Additionally, a new authentication key can be set. This structure is input for an IOCTL_EHSTOR_BANDMGMT_ERASE_BAND request.
 old-location: storage\erase_band_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -12,6 +12,8 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/12/2017
 ms.author: carolz
+product:
+- Windows
 ---
 # Programming reference for Windows Driver Kit (WDK)
 

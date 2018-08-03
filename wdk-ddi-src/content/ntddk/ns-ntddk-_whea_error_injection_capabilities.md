@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_INJECTION_CAPABILITIES"
 author: windows-driver-content
 description: The WHEA_ERROR_INJECTION_CAPABILITIES union describes the types of hardware errors that can be injected into a hardware platform.
 old-location: whea\whea_error_injection_capabilities.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 77f982e4-6f35-4d4a-9c00-9ae34eacfbd3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

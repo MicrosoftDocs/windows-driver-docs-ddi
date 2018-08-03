@@ -4,10 +4,10 @@ title: "_D3DHAL_DP2BLT"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. D3DHAL_DP2BLT is used for two dimensional surface blts when D3dDrawPrimitives2 responds to the D3DDP2OP_BLT command token.
 old-location: display\d3dhal_dp2blt.htm
-old-project: display
+tech.root: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2BLT, D3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], _D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, display.d3dhal_dp2blt"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -31,7 +31,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	_DXGK_DIAGNOSTIC_PSR
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

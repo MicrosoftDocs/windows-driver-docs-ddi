@@ -4,7 +4,7 @@ title: WdfPdoInitSetDefaultLocale function
 author: windows-driver-content
 description: The WdfPdoInitSetDefaultLocale method sets a device's default locale.
 old-location: wdf\wdfpdoinitsetdefaultlocale.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

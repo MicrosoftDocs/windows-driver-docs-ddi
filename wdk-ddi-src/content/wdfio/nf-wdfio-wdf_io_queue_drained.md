@@ -4,7 +4,7 @@ title: WDF_IO_QUEUE_DRAINED function
 author: windows-driver-content
 description: The WDF_IO_QUEUE_DRAINED function returns TRUE if the I/O queue's state indicates that the queue is drained.
 old-location: wdf\wdf_io_queue_drained.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1b2384c3-6438-4456-b4fc-44211b8a3fb1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

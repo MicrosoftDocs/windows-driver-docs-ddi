@@ -4,10 +4,10 @@ title: PROTOCOL_CL_CLOSE_CALL_COMPLETE
 author: windows-driver-content
 description: The ProtocolClCloseCallComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclclosecallcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a7ba1ab2-04c9-45b5-a184-e1ad1448561a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_CLOSE_CALL_COMPLETE, PROTOCOL_CL_CLOSE_CALL_COMPLETE callback, ProtocolClCloseCallComplete, ProtocolClCloseCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_a35e2fe4-8437-4c41-9ec1-13a8926108b5.xml, ndis/ProtocolClCloseCallComplete, netvista.protocolclclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_KBUGCHECK_DATA"
 author: windows-driver-content
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

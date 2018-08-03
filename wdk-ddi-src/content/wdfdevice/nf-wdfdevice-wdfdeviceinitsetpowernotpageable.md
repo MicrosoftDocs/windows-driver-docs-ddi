@@ -4,7 +4,7 @@ title: WdfDeviceInitSetPowerNotPageable function
 author: windows-driver-content
 description: The WdfDeviceInitSetPowerNotPageable method informs the power manager that the driver will not access pageable data while the system is transitioning between a sleeping state and the working (S0) state.
 old-location: wdf\wdfdeviceinitsetpowernotpageable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c0f39e50-8bf1-4ac9-8610-18915b375797
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: "_VIDEO_CHILD_ENUM_INFO"
 author: windows-driver-content
 description: Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
 old-location: display\video_child_enum_info.htm
-old-project: display
+tech.root: display
 ms.assetid: ce3b17e9-bcbd-46a4-b379-472abfdb4c2a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], VIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, _VIDEO_CHILD_ENUM_INFO, display.video_child_enum_info, video/PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: RtlByteToInt8 function
 author: windows-driver-content
 description: Converts a value of type BYTE to a value of type INT8.
 old-location: kernel\rtlbytetoint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 865E62CA-0D73-4957-88AA-EEF5910AD916
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

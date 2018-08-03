@@ -4,7 +4,7 @@ title: MmMapLockedPagesWithReservedMapping function
 author: windows-driver-content
 description: The MmMapLockedPagesWithReservedMapping routine maps all or part of an address range that was previously reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmmaplockedpageswithreservedmapping.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

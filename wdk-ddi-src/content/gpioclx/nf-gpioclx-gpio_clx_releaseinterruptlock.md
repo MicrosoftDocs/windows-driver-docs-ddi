@@ -4,7 +4,7 @@ title: GPIO_CLX_ReleaseInterruptLock function
 author: windows-driver-content
 description: The GPIO_CLX_ReleaseInterruptLock method releases an interrupt lock on the specified bank.
 old-location: gpio\gpio_clx_releaseinterruptlock.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 195B9FA2-F7B2-4EA0-9D53-63E438666760
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: GPIO_CLIENT_DISCONNECT_IO_PINS
 author: windows-driver-content
 description: The CLIENT_DisconnectIoPins event callback function closes a logical connection to a set of general-purpose I/O (GPIO) pins that are configured for data read or write operations.
 old-location: gpio\client_disconnectiopins.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: FA6ACAE4-54D9-4EE6-AC63-3FFB973DD37F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

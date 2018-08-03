@@ -4,7 +4,7 @@ title: "_KEY_WRITE_TIME_INFORMATION"
 author: windows-driver-content
 description: The KEY_WRITE_TIME_INFORMATION structure is used by the system to set the last write time for a registry key.
 old-location: kernel\key_write_time_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 44f68a5a-c7ad-4555-b6b2-6461ac17960a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

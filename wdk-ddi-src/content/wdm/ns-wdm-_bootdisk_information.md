@@ -4,7 +4,7 @@ title: "_BOOTDISK_INFORMATION"
 author: windows-driver-content
 description: The BOOTDISK_INFORMATION structure contains basic information describing the boot and system disks.
 old-location: kernel\bootdisk_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dd2a525d-fb9d-4fea-b9d7-64b1f498550c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

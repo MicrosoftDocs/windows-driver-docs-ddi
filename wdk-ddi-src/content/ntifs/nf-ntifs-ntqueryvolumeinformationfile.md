@@ -4,7 +4,7 @@ title: NtQueryVolumeInformationFile function
 author: windows-driver-content
 description: The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwqueryvolumeinformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f83b7171-e250-4c2c-b3cc-2924f58e406e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQueryVolumeInformationFile</b> routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
+The <b>NtQueryVolumeInformationFile</b> routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>ZwQueryVolumeInformationFile</b> routine retrieves information about the 
 
 ### -param FileHandle [in]
 
-A handle to a file object returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a> for an open file, directory, storage device, or volume for which volume information is being requested.
+A handle to a file object returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">NtOpenFile</a> for an open file, directory, storage device, or volume for which volume information is being requested.
 
 
 ### -param IoStatusBlock [out]
@@ -124,7 +124,7 @@ Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545788">
 
 </td>
 <td>
-Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540262">FILE_FS_DRIVER_PATH_INFORMATION</a> structure containing information about whether a specified driver is in the I/O path for the volume. The caller must store the name of the driver into the <b>FILE_FS_DRIVER_PATH_INFORMATION</b> structure before calling <b>ZwQueryVolumeInformationFile</b>.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540262">FILE_FS_DRIVER_PATH_INFORMATION</a> structure containing information about whether a specified driver is in the I/O path for the volume. The caller must store the name of the driver into the <b>FILE_FS_DRIVER_PATH_INFORMATION</b> structure before calling <b>NtQueryVolumeInformationFile</b>.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ Return a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406395">
 
 
 
-<b>ZwQueryVolumeInformationFile</b> returns STATUS_SUCCESS or an appropriate error status.
+<b>NtQueryVolumeInformationFile</b> returns STATUS_SUCCESS or an appropriate error status.
 
 
 
@@ -195,19 +195,19 @@ Return a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406395">
 
 
 
-<b>ZwQueryVolumeInformationFile</b> retrieves information about the volume associated with a given file, directory, storage device, or volume.
+<b>NtQueryVolumeInformationFile</b> retrieves information about the volume associated with a given file, directory, storage device, or volume.
 
 If the <i>FileHandle</i> represents a direct device open, only <i>FileFsDeviceInformation</i> can be specified as the value of <i>FsInformationClass</i>.
 
-<b>ZwQueryVolumeInformationFile</b> returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by the file system.
+<b>NtQueryVolumeInformationFile</b> returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by the file system.
 
 For information about other file information query routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545843">File Objects</a>.
 
-Minifilters should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff543446">FltQueryVolumeInformationFile</a> instead of <b>ZwQueryVolumeInformationFile</b>.
+Minifilters should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff543446">FltQueryVolumeInformationFile</a> instead of <b>NtQueryVolumeInformationFile</b>.
 
-Callers of <b>ZwQueryVolumeInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtQueryVolumeInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwQueryVolumeInformationFile</b> function occurs in user mode, you should use the name "<b>NtQueryVolumeInformationFile</b>" instead of "<b>ZwQueryVolumeInformationFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtQueryVolumeInformationFile</b> function occurs in user mode, you should use the name "<b>NtQueryVolumeInformationFile</b>" instead of "<b>ZwQueryVolumeInformationFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

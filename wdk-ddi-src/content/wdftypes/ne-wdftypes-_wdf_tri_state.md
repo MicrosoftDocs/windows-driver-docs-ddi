@@ -4,7 +4,7 @@ title: "_WDF_TRI_STATE"
 author: windows-driver-content
 description: The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
 old-location: wdf\wdf_tri_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8ea6e373-225d-4fcd-abcf-c19b07f9f5d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

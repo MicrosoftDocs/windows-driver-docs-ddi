@@ -4,7 +4,7 @@ title: RtlDeleteAce function
 author: windows-driver-content
 description: The RtlDeleteAce routine deletes an access control entry (ACE) from a specified access control list (ACL).
 old-location: ifsk\rtldeleteace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2bf90d1d-887f-4d0c-8d79-e102a14dfe71
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

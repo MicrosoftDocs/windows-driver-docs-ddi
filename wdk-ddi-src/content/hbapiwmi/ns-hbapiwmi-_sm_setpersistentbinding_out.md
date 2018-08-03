@@ -4,7 +4,7 @@ title: "_SM_SetPersistentBinding_OUT"
 author: windows-driver-content
 description: The SM_SetPersistentBinding_OUT structure is used to receive output parameters from the SM_SetPersistentBinding method.
 old-location: storage\sm_setpersistentbinding_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 42d451ab-51dc-4b59-b6e9-42e02ec1b500
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

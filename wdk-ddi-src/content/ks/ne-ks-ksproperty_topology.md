@@ -4,7 +4,7 @@ title: KSPROPERTY_TOPOLOGY
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_topology.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9C000B4B-DB21-41E1-9AF0-D3B92EAC070B
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

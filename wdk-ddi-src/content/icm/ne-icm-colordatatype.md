@@ -4,7 +4,7 @@ title: COLORDATATYPE
 author: windows-driver-content
 description: The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.
 old-location: print\colordatatype.htm
-old-project: print
+tech.root: print
 ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

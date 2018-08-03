@@ -4,7 +4,7 @@ title: HidP_SetUsages function
 author: windows-driver-content
 description: The HidP_SetUsages routine sets specified HID control buttons ON (1) in a HID report.
 old-location: hid\hidp_setusages.htm
-old-project: hid
+tech.root: hid
 ms.assetid: a9f229cd-33ca-42b5-bae6-3f367e5f1e84
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_BDA_DRM_DRMSTATUS"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_drm_drmstatus.htm
-old-project: stream
+tech.root: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_DATA_DESCRIPTOR"
 author: windows-driver-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.
 old-location: storage\storage_protocol_data_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 292EE243-2952-4020-8EB0-C5127DF92318
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

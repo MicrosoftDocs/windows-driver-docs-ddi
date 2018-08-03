@@ -4,7 +4,7 @@ title: PSHED_PI_ENABLE_ERROR_SOURCE
 author: windows-driver-content
 description: A PSHED plug-in's EnableErrorSource callback function enables an error source.
 old-location: whea\enableerrorsource.htm
-old-project: whea
+tech.root: whea
 ms.assetid: f2bc3b38-003e-4078-9bbd-d535e8971491
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

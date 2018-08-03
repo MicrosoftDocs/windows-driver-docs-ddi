@@ -4,7 +4,7 @@ title: "_SPLCLIENT_INFO_2_V2"
 author: windows-driver-content
 description: "."
 old-location: print\splclient_info_2_winxp.htm
-old-project: print
+tech.root: print
 ms.assetid: 48BD760E-6017-49B2-854F-7F48671974F3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

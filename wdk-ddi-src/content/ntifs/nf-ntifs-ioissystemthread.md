@@ -4,7 +4,7 @@ title: IoIsSystemThread function
 author: windows-driver-content
 description: The IoIsSystemThread routine checks whether a given thread is a system thread.
 old-location: ifsk\ioissystemthread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1f3dc15f-14b5-4797-83be-ba3a01a1551b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

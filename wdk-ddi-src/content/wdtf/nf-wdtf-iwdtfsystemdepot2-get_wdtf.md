@@ -4,7 +4,7 @@ title: IWDTFSystemDepot2::get_WDTF
 author: windows-driver-content
 description: Gets the main WDTF aggregation object.
 old-location: dtf\iwdtfsystemdepot2_wdtf.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: e742b493-64ee-4311-b6f0-512b44e776f4
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

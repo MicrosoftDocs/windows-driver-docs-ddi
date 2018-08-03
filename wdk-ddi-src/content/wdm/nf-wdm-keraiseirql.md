@@ -4,7 +4,7 @@ title: KeRaiseIrql macro
 author: windows-driver-content
 description: The KeRaiseIrql routine raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 old-location: kernel\keraiseirql.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ee340d85-5a66-4773-b325-831257e9bfd8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -59,28 +59,15 @@ The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQ
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - NewIrql [in]
+### -param a [in]
 
 Specifies the new IRQL to which the hardware priority is to be raised.
 
 
-#### - OldIrql [out]
+### -param b [out]
 
 Pointer to the storage for the original (unraised) IRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
+
 
 
 ## -remarks

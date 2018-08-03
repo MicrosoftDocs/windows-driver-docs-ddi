@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

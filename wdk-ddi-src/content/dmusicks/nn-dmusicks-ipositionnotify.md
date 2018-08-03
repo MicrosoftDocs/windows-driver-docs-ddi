@@ -4,10 +4,10 @@ title: IPositionNotify
 author: windows-driver-content
 description: PositionNotify
 old-location: audio\ipositionnotify.htm
-old-project: audio
+tech.root: audio
 ms.assetid: DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices],described, audio.ipositionnotify, dmusicks/IPositionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

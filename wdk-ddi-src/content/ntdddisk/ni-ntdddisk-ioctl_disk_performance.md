@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE
 author: windows-driver-content
 description: Increments a reference counter that enables the collection of disk performance statistics, such as the numbers of bytes read and written since the driver last processed this request, for a corresponding disk monitoring application.
 old-location: storage\ioctl_disk_performance.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d88d323d-6e74-4a4b-9246-893d92bea89b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

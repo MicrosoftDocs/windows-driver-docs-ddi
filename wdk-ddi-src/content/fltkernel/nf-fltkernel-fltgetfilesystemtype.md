@@ -4,7 +4,7 @@ title: FltGetFileSystemType function
 author: windows-driver-content
 description: The FltGetFileSystemType function takes a volume or instance object and provides the file system type of the volume.
 old-location: ifsk\fltgetfilesystemtype.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9e603d0f-74e7-4715-b3dc-4a9623f98dde
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

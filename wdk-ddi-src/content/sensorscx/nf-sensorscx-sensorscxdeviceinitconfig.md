@@ -4,10 +4,10 @@ title: SensorsCxDeviceInitConfig function
 author: windows-driver-content
 description: This function configures the sensor device.
 old-location: sensors\sensorscxdeviceinitconfig.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: E347F2E1-5AF5-411A-8F05-DA4826240E02
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

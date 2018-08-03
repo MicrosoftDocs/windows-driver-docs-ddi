@@ -4,7 +4,7 @@ title: DRIVER_DISPATCH
 author: windows-driver-content
 description: The callback routine services various IRPs. For a list of function codes, see Remarks.
 old-location: kernel\dispatchcleanup.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 86634953-9c1b-49e6-be44-edb9be911148
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDFUsbTargetFactory
 author: windows-driver-content
 description: The IWDFUsbTargetFactory interface is a factory interface that is used to create a USB target device object.
 old-location: wdf\iwdfusbtargetfactory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 00f89160-b880-4882-bf2e-28e9ed15f844
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

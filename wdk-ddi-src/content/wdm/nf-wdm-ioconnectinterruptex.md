@@ -4,7 +4,7 @@ title: IoConnectInterruptEx function
 author: windows-driver-content
 description: For more information, see the WdmlibIoConnectInterruptEx function.#define IoConnectInterruptEx WdmlibIoConnectInterruptEx
 old-location: kernel\ioconnectinterruptex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f77a2701-bde2-42c2-8393-88a7e4576f1b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

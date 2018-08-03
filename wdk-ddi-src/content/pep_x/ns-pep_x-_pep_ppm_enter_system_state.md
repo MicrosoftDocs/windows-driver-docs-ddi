@@ -4,7 +4,7 @@ title: "_PEP_PPM_ENTER_SYSTEM_STATE"
 author: windows-driver-content
 description: Used in the PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE notification to notify PEP that the system is about to enter a system power state.  .
 old-location: kernel\pep_ppm_enter_system_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1a398899-b05d-4853-b68d-ae8be958dd91
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

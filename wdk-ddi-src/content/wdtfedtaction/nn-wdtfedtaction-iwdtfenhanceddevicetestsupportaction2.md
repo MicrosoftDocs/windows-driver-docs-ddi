@@ -4,7 +4,7 @@ title: IWDTFEnhancedDeviceTestSupportAction2
 author: windows-driver-content
 description: Defines operations and properties that support the Enhanced Device Test (EDT) filter driver.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 273eb6e9-10cb-4ed3-86a4-103dea801b77
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

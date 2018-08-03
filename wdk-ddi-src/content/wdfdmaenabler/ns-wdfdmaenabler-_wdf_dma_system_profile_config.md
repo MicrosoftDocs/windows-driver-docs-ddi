@@ -4,7 +4,7 @@ title: "_WDF_DMA_SYSTEM_PROFILE_CONFIG"
 author: windows-driver-content
 description: The WDF_DMA_SYSTEM_PROFILE_CONFIG structure describes the hardware-specific settings related to a system-mode DMA enabler.
 old-location: wdf\wdf_dma_system_profile_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

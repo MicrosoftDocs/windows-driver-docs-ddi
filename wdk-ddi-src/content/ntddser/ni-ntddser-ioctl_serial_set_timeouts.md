@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_TIMEOUTS
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_TIMEOUTS request sets the time-out values that the serial controller driver uses for read and write requests.
 old-location: serports\ioctl_serial_set_timeouts.htm
-old-project: serports
+tech.root: serports
 ms.assetid: c73627e1-12fc-465d-9ed9-d241a1c0db8e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

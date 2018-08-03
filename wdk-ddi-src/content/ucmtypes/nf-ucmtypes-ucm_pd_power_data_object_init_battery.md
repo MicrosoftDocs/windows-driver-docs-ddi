@@ -4,10 +4,10 @@ title: UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function
 author: windows-driver-content
 description: Initializes a UCM_PD_POWER_DATA_OBJECT structure as a Battery Supply type Power Data Object.
 old-location: buses\ucm_pd_power_data_object_init_battery.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: DA191158-D920-4965-AC2B-7DDA8B541504
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices

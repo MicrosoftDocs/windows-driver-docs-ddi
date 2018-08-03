@@ -4,7 +4,7 @@ title: StorPortGetHighestNodeNumber function
 author: windows-driver-content
 description: The StorPortGetHighestNodeNumber routine returns the largest possible node number on the system.
 old-location: storage\storportgethighestnodenumber.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3e0b85f9-b6e4-4d53-b8dc-7f51e0f74be3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

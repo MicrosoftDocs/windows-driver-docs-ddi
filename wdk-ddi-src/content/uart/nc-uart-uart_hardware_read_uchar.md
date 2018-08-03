@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_READ_UCHAR
 title: UART_HARDWARE_READ_UCHAR
 author: windows-driver-content
 description: Reads a byte from the specified port or register.
-old-project: serports
+tech.root: serports
 ms.assetid: 1760bbfd-3995-4d32-81cc-c30c190aa465
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_READ_UCHAR
 product: Windows
 targetos: Windows
@@ -50,11 +50,11 @@ Reads a byte from the specified port or register.
 ```
 //Declaration
 
-UART_HARDWARE_READ_UCHAR UartHardwareReadUchar; 
+UART_HARDWARE_READ_UCHAR UartHardwareReadUchar;
 
 // Definition
 
-UCHAR UartHardwareReadUchar 
+UCHAR UartHardwareReadUchar
 (
 	PUCHAR Address
 )

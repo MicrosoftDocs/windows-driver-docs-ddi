@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe::Abort
 author: windows-driver-content
 description: The Abort method aborts all pending transfers on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_abort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

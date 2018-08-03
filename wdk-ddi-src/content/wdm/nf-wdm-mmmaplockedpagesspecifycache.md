@@ -4,7 +4,7 @@ title: MmMapLockedPagesSpecifyCache function
 author: windows-driver-content
 description: The MmMapLockedPagesSpecifyCache routine maps the physical pages that are described by an MDL to a virtual address, and enables the caller to specify the cache attribute that is used to create the mapping.
 old-location: kernel\mmmaplockedpagesspecifycache.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fb759043-ffdf-4edf-819b-669631927bc5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -75,7 +75,9 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55443
 
 ### -param RequestedAddress
 
-TBD
+[in, optional]
+
+If <i>AccessMode</i> = <b>UserMode</b>, this parameter specifies the starting user virtual address to map the MDL to, or set to <b>NULL</b> to allow the system to choose the starting address. The system might round down the requested address to fit address boundary requirements, so callers must check the return value.
 
 
 ### -param BugCheckOnFailure [in]
@@ -86,11 +88,6 @@ Specifies the behavior of the routine for <i>AccessMode</i> = <b>KernelMode</b> 
 ### -param Priority [in]
 
 An <b>MM_PAGE_PRIORITY</b> value that indicates the importance of success when page table entries (PTEs) are scarce. Starting with Windows 8, the specified priority value can be bitwise-ORed with the <b>MdlMappingNoWrite</b> or <b>MdlMappingNoExecute</b> flags to specify memory in which writes or instruction execution are disabled. For more information about the possible values for <i>Priority</i>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>. 
-
-
-#### - BaseAddress [in, optional]
-
-If <i>AccessMode</i> = <b>UserMode</b>, this parameter specifies the starting user virtual address to map the MDL to, or set to <b>NULL</b> to allow the system to choose the starting address. The system might round down the requested address to fit address boundary requirements, so callers must check the return value.
 
 
 ## -returns

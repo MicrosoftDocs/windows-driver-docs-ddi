@@ -4,7 +4,7 @@ title: "_INTERFACE_TYPE"
 author: windows-driver-content
 description: The INTERFACE_TYPE enumeration indicates the bus type.
 old-location: kernel\interface_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

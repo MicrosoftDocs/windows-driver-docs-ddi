@@ -4,7 +4,7 @@ title: KSPROPERTY_DESCRIPTION
 author: windows-driver-content
 description: The KSPROPERTY_DESCRIPTION structure specifies the size and type of values contained in a specific property.
 old-location: stream\ksproperty_description.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d3d59dca-7214-493c-bb70-4391696fe017
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

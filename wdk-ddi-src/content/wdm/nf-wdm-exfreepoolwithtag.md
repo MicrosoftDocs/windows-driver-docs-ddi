@@ -4,7 +4,7 @@ title: ExFreePoolWithTag function
 author: windows-driver-content
 description: The ExFreePoolWithTag routine deallocates a block of pool memory allocated with the specified tag.
 old-location: kernel\exfreepoolwithtag.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

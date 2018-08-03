@@ -4,10 +4,10 @@ title: D3DKMTFlipOverlay function
 author: windows-driver-content
 description: The D3DKMTFlipOverlay function changes the allocation to display on the overlay.
 old-location: display\d3dkmtflipoverlay.htm
-old-project: display
+tech.root: display
 ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

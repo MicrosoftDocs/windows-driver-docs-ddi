@@ -4,7 +4,7 @@ title: "_WDF_IO_QUEUE_CONFIG"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object.
 old-location: wdf\wdf_io_queue_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -171,20 +171,15 @@ For parallel queues,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552360">WDF_IO_QUEUE_CONFIG_INIT</a>
+[WDF_IO_QUEUE_CONFIG_INIT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_config_init)
+
+[WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_config_init_default_queue)
+
+[WDF_IO_QUEUE_DISPATCH_TYPE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type)
+
+[WdfIoQueueCreate](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueuecreate)
 
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552361">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552362">WDF_IO_QUEUE_DISPATCH_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547401">WdfIoQueueCreate</a>
- 
-
+[WdfIoQueueReadyNotify](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueuereadynotify)
  
 

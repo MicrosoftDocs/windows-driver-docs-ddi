@@ -4,7 +4,7 @@ title: "_PEP_ABANDON_DEVICE"
 author: windows-driver-content
 description: The PEP_ABANDON_DEVICE structure identifies a device that has been abandoned and will no longer be used by the operating system.
 old-location: kernel\pep_abandon_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 15F54054-F20B-43A6-8BCD-3A1C47433B12
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

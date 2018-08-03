@@ -4,7 +4,7 @@ title: WdfDeviceWdmGetAttachedDevice function
 author: windows-driver-content
 description: The WdfDeviceWdmGetAttachedDevice method returns the next-lower WDM device object in the device stack.
 old-location: wdf\wdfdevicewdmgetattacheddevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

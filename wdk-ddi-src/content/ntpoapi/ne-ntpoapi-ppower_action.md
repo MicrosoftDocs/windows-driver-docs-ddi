@@ -4,7 +4,7 @@ title: "*PPOWER_ACTION"
 author: windows-driver-content
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
-old-project: wdf
+tech.root: kernel
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntpoapi.h
 req.include-header: Wudfddi.h, Ntpoapi.h, Wdm.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
 req.umdf-ver: 1.9
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
 req.max-support: Unavailable in UMDF 2.0 and later.
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -59,7 +59,7 @@ The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microso
 
 
 ````
-typedef enum  { 
+typedef enum  {
   PowerActionNone           = 0,
   PowerActionReserved       = ( PowerActionNone + 1 ),
   PowerActionSleep          = ( PowerActionReserved + 1 ),

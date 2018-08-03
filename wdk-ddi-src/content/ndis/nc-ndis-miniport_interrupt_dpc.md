@@ -4,10 +4,10 @@ title: MINIPORT_INTERRUPT_DPC
 author: windows-driver-content
 description: A miniport driver must provide a MiniportInterruptDPC function if the driver calls the NdisMRegisterInterruptEx function to register an interrupt.
 old-location: netvista\miniportinterruptdpc.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 345715fb-878c-44d8-bf78-f3add10dd02b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_INTERRUPT_DPC, MINIPORT_INTERRUPT_DPC callback, MiniportInterruptDPC, MiniportInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterruptDPC, ndis_interrupts_miniport_functions_ref_00c0d07c-600c-4a63-bee2-045b66acdd82.xml, netvista.miniportinterruptdpc
 ms.prod: windows-hardware
 ms.technology: windows-devices

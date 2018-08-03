@@ -4,7 +4,7 @@ title: "_KSCAMERA_PROFILE_MEDIAINFO"
 author: windows-driver-content
 description: This structure contains the relevant media type information presented for each camera profile.
 old-location: stream\kscamera_profile_mediainfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 55B9F032-A3F5-434E-9EB6-CB832DC0EB45
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

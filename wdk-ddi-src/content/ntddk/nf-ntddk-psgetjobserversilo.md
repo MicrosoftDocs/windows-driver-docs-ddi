@@ -4,7 +4,7 @@ title: PsGetJobServerSilo function
 author: windows-driver-content
 description: This routine returns the effective ServerSilo for the job. The returned pointer is valid as long as the supplied Job object remains referenced.
 old-location: kernel\psgetjobserversilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

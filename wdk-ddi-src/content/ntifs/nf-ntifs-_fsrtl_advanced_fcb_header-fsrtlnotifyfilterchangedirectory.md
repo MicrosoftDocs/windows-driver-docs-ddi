@@ -4,7 +4,7 @@ title: FsRtlNotifyFilterChangeDirectory function
 author: windows-driver-content
 description: The FsRtlNotifyFilterChangeDirectory routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfilterchangedirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 445b6836-aeac-4183-ba11-a787c1e125ac
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

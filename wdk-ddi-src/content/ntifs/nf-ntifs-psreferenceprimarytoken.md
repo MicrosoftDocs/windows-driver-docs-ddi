@@ -4,7 +4,7 @@ title: PsReferencePrimaryToken function
 author: windows-driver-content
 description: The PsReferencePrimaryToken routine increments the reference count of the primary token for the specified process.
 old-location: ifsk\psreferenceprimarytoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8ff1add9-4b9e-42dd-b3e2-53d891788d43
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

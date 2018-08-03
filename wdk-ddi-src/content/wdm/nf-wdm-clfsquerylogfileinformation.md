@@ -4,7 +4,7 @@ title: ClfsQueryLogFileInformation function
 author: windows-driver-content
 description: The ClfsQueryLogFileInformation routine returns metadata and state information for a specified CLFS stream or its underlying physical log or both.
 old-location: kernel\clfsquerylogfileinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a907f219-9e4a-415f-821c-d419b7fde729
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -71,12 +71,12 @@ A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ### -param pinfoInputBuffer
 
-TBD
+Optional input buffer which is required for some information classes.
 
 
 ### -param cbinfoInputBuffer
 
-TBD
+Length in bytes of pinfoInputBuffer.
 
 
 ### -param pinfoBuffer [out]
@@ -154,7 +154,7 @@ A pointer to a buffer that receives the log information. The structure of this b
 
 ### -param pcbInfoBuffer
 
-TBD
+Length in bytes of the incoming information buffer.
 
 
 

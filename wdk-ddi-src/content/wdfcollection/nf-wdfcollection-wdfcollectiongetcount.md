@@ -4,7 +4,7 @@ title: WdfCollectionGetCount function
 author: windows-driver-content
 description: The WdfCollectionGetCount method returns the number of objects that are currently in an object collection.
 old-location: wdf\wdfcollectiongetcount.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 95b6e441-f564-4642-8474-8e10e83177b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

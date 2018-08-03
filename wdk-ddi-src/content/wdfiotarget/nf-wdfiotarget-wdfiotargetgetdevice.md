@@ -4,7 +4,7 @@ title: WdfIoTargetGetDevice function
 author: windows-driver-content
 description: The WdfIoTargetGetDevice method returns a handle to the framework device object that is the parent of the specified local or remote I/O target.
 old-location: wdf\wdfiotargetgetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2e076f2f-59e3-43ca-b83e-3079bbf41df3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

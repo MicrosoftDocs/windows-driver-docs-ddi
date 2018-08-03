@@ -4,7 +4,7 @@ title: IPrintOemEngine::EnableDriver
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_enabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

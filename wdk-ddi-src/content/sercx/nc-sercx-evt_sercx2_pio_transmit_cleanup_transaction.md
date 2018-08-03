@@ -4,7 +4,7 @@ title: EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION
 author: windows-driver-content
 description: The EvtSerCx2PioTransmitCleanupTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller state after a PIO-transmit transaction ends.
 old-location: serports\evtsercx2piotransmitcleanuptransaction.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 48300C50-47B7-47DC-BDE5-3847E1EAE820
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

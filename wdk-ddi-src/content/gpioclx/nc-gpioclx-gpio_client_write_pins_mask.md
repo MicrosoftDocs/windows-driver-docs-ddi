@@ -4,7 +4,7 @@ title: GPIO_CLIENT_WRITE_PINS_MASK
 author: windows-driver-content
 description: The CLIENT_WriteGpioPinsUsingMask event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.
 old-location: gpio\client_writegpiopinsusingmask.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 6B3667AA-4658-4EDE-A8E1-925064BCD249
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_ENABLER_DISABLE
 author: windows-driver-content
 description: A driver's EvtDmaEnablerDisable event callback function disables a device's DMA capability before the device leaves its working (D0) state.
 old-location: wdf\evtdmaenablerdisable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0a39e19b-9720-4641-83f0-654a5f116432
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

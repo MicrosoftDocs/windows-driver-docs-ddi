@@ -4,7 +4,7 @@ title: "_INTERNAL_I8042_HOOK_KEYBOARD"
 author: windows-driver-content
 description: INTERNAL_I8042_HOOK_KEYBOARD is used by I8042prt to connect optional callback routines that supplement keyboard initialization and the keyboard ISR. The callbacks can be supplied by an optional, vendor-supplied, upper-level filter driver.
 old-location: hid\internal_i8042_hook_keyboard.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 7a70f6e1-cf3b-4158-97f2-39f62a1d51ae
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

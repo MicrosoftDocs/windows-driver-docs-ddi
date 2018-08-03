@@ -4,7 +4,7 @@ title: PFNKSPINVOID
 author: windows-driver-content
 description: An AVStream minidriver's callback routine is called when:The relevant KSPIN is serving as a sink pin and this sink pin is disconnected from an AVStream source pin.A KSPIN structure's reset state is changed due to the arrival of an IOCTL_KS_RESET_STATE device control. This routine is also called when the queue associated with the given pin is flushed.
 old-location: stream\avstrminipindisconnect.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 64bcbc05-8dbd-4f97-afbb-dadd44b60078
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

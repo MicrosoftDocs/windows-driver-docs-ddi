@@ -4,7 +4,7 @@ title: WdfTimerStart function
 author: windows-driver-content
 description: The WdfTimerStart method starts a timer's clock.
 old-location: wdf\wdftimerstart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -83,7 +83,7 @@ If the value is negative, the time period is relative to the current system time
 
 Relative times are not affected by any changes to the system time that might occur within the specified time period. Absolute times do reflect system time changes.
 
-The framework provides [time conversion functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdftimer/) that convert time values into system time units.
+The framework provides [time conversion functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/) that convert time values into system time units.
 
 
 

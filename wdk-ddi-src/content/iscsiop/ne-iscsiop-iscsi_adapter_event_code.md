@@ -4,7 +4,7 @@ title: ISCSI_ADAPTER_EVENT_CODE
 author: windows-driver-content
 description: The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event.
 old-location: storage\iscsi_adapter_event_code.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 65fa2307-8d71-4c83-86b3-a965bd7f3da8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_WRITE_ULONG
 title: UART_HARDWARE_WRITE_ULONG
 author: windows-driver-content
 description: Writes a ULONG value to the specified port or register.
-old-project: serports
+tech.root: serports
 ms.assetid: 6c4f3758-dec5-4466-968d-f4eec9eee6bf
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,21 +19,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_WRITE_ULONG
 product: Windows
 targetos: Windows
@@ -43,18 +43,18 @@ targetos: Windows
 
 ## -description
 
-Writes a ULONG value to the specified port or register. 
+Writes a ULONG value to the specified port or register.
 
 ## -prototype
 
 ```
 //Declaration
 
-UART_HARDWARE_WRITE_ULONG UartHardwareWriteUlong; 
+UART_HARDWARE_WRITE_ULONG UartHardwareWriteUlong;
 
 // Definition
 
-VOID UartHardwareWriteUlong 
+VOID UartHardwareWriteUlong
 (
 	PULONG Address
 	ULONG Value
@@ -67,7 +67,7 @@ VOID UartHardwareWriteUlong
 
 ### -param Address
 A pointer to a variable that contains the port or register address.
- 
+
 ### -param Value
 A ULONG value to be written to the port or register.
 

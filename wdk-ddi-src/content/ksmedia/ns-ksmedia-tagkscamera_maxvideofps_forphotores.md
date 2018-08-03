@@ -4,7 +4,7 @@ title: tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES
 author: windows-driver-content
 description: The KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure contains the property data for maximum frame rate at a particular resolution for a camera supporting preview and capture.
 old-location: stream\kscamera_maxvideofps_forphotores.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4230F7E1-DC36-4265-9E82-907EE82E9DFF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

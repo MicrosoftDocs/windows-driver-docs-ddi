@@ -4,7 +4,7 @@ title: InterlockedAnd function
 author: windows-driver-content
 description: The InterlockedAnd macro atomically computes a bitwise AND operation.
 old-location: kernel\interlockedand.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b1ff981-7f87-4a47-81a3-3e323459c333
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

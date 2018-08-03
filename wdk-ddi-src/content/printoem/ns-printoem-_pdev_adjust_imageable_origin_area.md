@@ -4,7 +4,7 @@ title: "_PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA"
 author: windows-driver-content
 description: The PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure specifies the imageable origin area.
 old-location: print\pdev_adjust_imageable_origin_area.htm
-old-project: print
+tech.root: print
 ms.assetid: 7b66ed24-64c2-49bc-a417-05fe11178b9f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

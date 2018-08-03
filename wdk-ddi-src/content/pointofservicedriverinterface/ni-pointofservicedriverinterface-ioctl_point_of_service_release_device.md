@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE
 author: windows-driver-content
 description: This I/O control function is called when a client is ready to relinquish its claim on a device.
 old-location: pos\ioctl_point_of_service_release_device.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 623feb2b-8c49-41e8-9de5-d5955843c6f7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

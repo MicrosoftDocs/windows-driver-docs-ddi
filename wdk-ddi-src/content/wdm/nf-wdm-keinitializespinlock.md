@@ -4,7 +4,7 @@ title: KeInitializeSpinLock function
 author: windows-driver-content
 description: The KeInitializeSpinLock routine initializes a variable of type KSPIN_LOCK.
 old-location: kernel\keinitializespinlock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 84962db0-55ed-443c-84e3-2d8f3e9ec1d7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

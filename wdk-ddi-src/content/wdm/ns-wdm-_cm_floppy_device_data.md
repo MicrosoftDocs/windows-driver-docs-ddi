@@ -4,7 +4,7 @@ title: "_CM_FLOPPY_DEVICE_DATA"
 author: windows-driver-content
 description: The CM_FLOPPY_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a floppy controller if the system can collect this information during the boot process.
 old-location: kernel\cm_floppy_device_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0ef0d242-4ed6-4c48-85b8-0fc87d3fe39b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

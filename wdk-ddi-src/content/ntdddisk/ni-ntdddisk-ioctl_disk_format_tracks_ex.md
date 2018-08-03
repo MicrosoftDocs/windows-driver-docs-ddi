@@ -4,7 +4,7 @@ title: IOCTL_DISK_FORMAT_TRACKS_EX
 author: windows-driver-content
 description: Is similar to IOCTL_DISK_FORMAT_TRACKS, except that it allows the caller to specify several more parameters.
 old-location: storage\ioctl_disk_format_tracks_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6bd7e722-6603-4d3b-9f18-1b7eb531f5fb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
 author: windows-driver-content
 description: The parameters for a received Group Owner (GO) negotiation confirmation are specified in a DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure.
 old-location: netvista\dot11_received_go_negotiation_confirmation_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8FFCA7EB-BD0F-4EAF-BD5F-A98F2127DE77
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8,
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

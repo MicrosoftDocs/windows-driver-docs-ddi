@@ -4,7 +4,7 @@ title: "_SPLCLIENT_INFO_2_V1"
 author: windows-driver-content
 description: Contains the handle for the server-side printer that is used to make direct API calls from the client to the server without the overhead of the RPC.
 old-location: print\splclient_info_2_w2k.htm
-old-project: print
+tech.root: print
 ms.assetid: 713246FE-355B-4C01-A8DF-535BDBA0FCB8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

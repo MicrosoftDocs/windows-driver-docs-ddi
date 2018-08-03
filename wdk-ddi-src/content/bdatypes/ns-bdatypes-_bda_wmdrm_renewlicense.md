@@ -4,7 +4,7 @@ title: "_BDA_WMDRM_RENEWLICENSE"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_wmdrm_renewlicense.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 73AB73F1-CB9B-46A3-8ECC-19E93210D30E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

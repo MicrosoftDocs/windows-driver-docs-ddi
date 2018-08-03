@@ -4,7 +4,7 @@ title: "_GPIO_WRITE_PINS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_WRITE_PINS_PARAMETERS structure describes a write operation on a group of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_write_pins_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 5607AFBA-2C8C-4637-81E8-7940CF9E989A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

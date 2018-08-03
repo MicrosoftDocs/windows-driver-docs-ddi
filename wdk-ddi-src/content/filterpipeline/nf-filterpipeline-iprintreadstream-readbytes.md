@@ -4,7 +4,7 @@ title: IPrintReadStream::ReadBytes
 author: windows-driver-content
 description: The ReadBytes method reads a number of bytes into a buffer.
 old-location: print\iprintreadstream_readbytes.htm
-old-project: print
+tech.root: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

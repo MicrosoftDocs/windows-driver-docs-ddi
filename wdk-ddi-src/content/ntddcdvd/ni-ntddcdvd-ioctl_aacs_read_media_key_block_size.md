@@ -4,7 +4,7 @@ title: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
 author: windows-driver-content
 description: Queries the logical unit for the size of the buffer that is required to hold the Advanced Access Control System (AACS) Media Key Block (MKB).
 old-location: storage\ioctl_aacs_read_media_key_block_size.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2b8e5461-c935-46d8-afe3-c82a7566a4c7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

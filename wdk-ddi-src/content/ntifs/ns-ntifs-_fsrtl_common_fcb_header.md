@@ -4,7 +4,7 @@ title: "_FSRTL_COMMON_FCB_HEADER"
 author: windows-driver-content
 description: Do not use the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtl_common_fcb_header.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b0b199ea-d72f-4de3-a6b1-bd22140d13cb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

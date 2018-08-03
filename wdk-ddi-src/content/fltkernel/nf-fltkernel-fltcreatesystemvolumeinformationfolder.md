@@ -4,7 +4,7 @@ title: FltCreateSystemVolumeInformationFolder function
 author: windows-driver-content
 description: FltCreateSystemVolumeInformationFolder verifies the existence of the &#0034;System Volume Information&#0034; folder on a file system volume. If the folder is not present, then the folder is created.
 old-location: ifsk\fltcreatesystemvolumeinformationfolder.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

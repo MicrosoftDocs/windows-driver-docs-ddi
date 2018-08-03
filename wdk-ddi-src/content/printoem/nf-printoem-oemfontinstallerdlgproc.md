@@ -4,7 +4,7 @@ title: OEMFontInstallerDlgProc function
 author: windows-driver-content
 description: OEMFontInstallerDlgProc function
 old-location: print\oemfontinstallerdlgproc.htm
-old-project: print
+tech.root: print
 ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

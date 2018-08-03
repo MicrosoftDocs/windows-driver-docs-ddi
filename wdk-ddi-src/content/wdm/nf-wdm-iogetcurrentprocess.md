@@ -4,7 +4,7 @@ title: IoGetCurrentProcess function
 author: windows-driver-content
 description: The IoGetCurrentProcess routine returns a pointer to the current process.
 old-location: kernel\iogetcurrentprocess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 97a5c14f-949a-4455-9109-79355e5dec37
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

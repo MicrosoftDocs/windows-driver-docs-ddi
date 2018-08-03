@@ -4,7 +4,7 @@ title: FltCreateSectionForDataScan function
 author: windows-driver-content
 description: The FltCreateSectionForDataScan routine creates a section object for a file. The filter manager can optionally synchronize I/O with the section created.
 old-location: ifsk\fltcreatesectionfordatascan.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

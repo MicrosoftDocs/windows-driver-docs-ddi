@@ -4,7 +4,7 @@ title: "_CLS_SCAN_CONTEXT"
 author: windows-driver-content
 description: The CLFS_SCAN_CONTEXT structure holds context information to support a scan of the containers in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_scan_context.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4f10abc6-1c86-4401-9af7-26d6c30f6fe8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

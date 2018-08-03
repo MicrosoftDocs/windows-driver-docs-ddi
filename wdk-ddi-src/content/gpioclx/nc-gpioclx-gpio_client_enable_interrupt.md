@@ -4,7 +4,7 @@ title: GPIO_CLIENT_ENABLE_INTERRUPT
 author: windows-driver-content
 description: The CLIENT_EnableInterrupt event callback function enables interrupts on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
 old-location: gpio\client_enableinterrupt.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: BCCD3046-A7CE-4CD7-82A5-78F0A3684BA4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

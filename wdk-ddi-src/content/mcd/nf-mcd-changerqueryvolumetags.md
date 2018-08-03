@@ -4,7 +4,7 @@ title: ChangerQueryVolumeTags function
 author: windows-driver-content
 description: ChangerQueryVolumeTags handles the device-specific aspects of a device-control IRP with the IOCTL code of IOCTL_CHANGER_QUERY_VOLUME_TAGS.
 old-location: storage\changerqueryvolumetags.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

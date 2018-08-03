@@ -4,7 +4,7 @@ title: IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
 author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and assign new resources to the target device.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevicerequestnewresources.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 20f1ff95-55d3-46d2-816b-edf2b42e6e86
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

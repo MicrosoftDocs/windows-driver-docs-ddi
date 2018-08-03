@@ -4,10 +4,10 @@ title: RIL_GetDeviceInfo function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdeviceinfo.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b125bf24-54fa-4a2e-912a-d0d0ed2a3568
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetDeviceInfo, RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdeviceinfo, rilapi/RIL_GetDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

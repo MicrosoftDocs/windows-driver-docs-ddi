@@ -4,7 +4,7 @@ title: HidD_GetProductString function
 author: windows-driver-content
 description: The HidD_GetProductString routine returns the embedded string of a top-level collection that identifies the manufacturer's product.
 old-location: hid\hidd_getproductstring.htm
-old-project: hid
+tech.root: hid
 ms.assetid: c0627fbf-4b64-4530-8c0f-45326a83f765
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

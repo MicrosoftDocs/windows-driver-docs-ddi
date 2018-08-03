@@ -4,7 +4,7 @@ title: "_SendLIRR_OUT"
 author: windows-driver-content
 description: The SendLIRR_OUT structure is used to report the output parameter data of the SendLIRR WMI method to the WMI client.
 old-location: storage\sendlirr_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

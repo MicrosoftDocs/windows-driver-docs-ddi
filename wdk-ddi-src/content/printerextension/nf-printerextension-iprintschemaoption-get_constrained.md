@@ -4,7 +4,7 @@ title: IPrintSchemaOption::get_Constrained
 author: windows-driver-content
 description: Gets the constraint setting type for the schema option.
 old-location: print\iprintschemaoption_constrained.htm
-old-project: print
+tech.root: print
 ms.assetid: 57E13395-9E23-4708-B4EC-6839CB6FC62B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_PDEV_ADJUST_GRAPHICS_RESOLUTION"
 author: windows-driver-content
 description: The PDEV_ADJUST_GRAPHICS_RESOLUTION structure specifies a graphics resolution value.
 old-location: print\pdev_adjust_graphics_resolution.htm
-old-project: print
+tech.root: print
 ms.assetid: d6cebb0d-87ca-4e40-8a87-9579a1026567
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

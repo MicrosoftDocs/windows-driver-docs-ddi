@@ -4,7 +4,7 @@ title: PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK
 author: windows-driver-content
 description: The ComponentCriticalTransitionCallback callback routine handles a transition of the specified component between the F0 (fully on) and low-power Fx component power states.
 old-location: kernel\componentcriticaltransitioncallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: TBD
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -98,7 +98,7 @@ If <i>Active</i> = FALSE, PoFx has called this routine <i>before</i> the compone
 
 For more information about F<i>x</i> component power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>.
 
-A PEP can call this routine at IRQL TBD.
+
 
 
 

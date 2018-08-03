@@ -4,7 +4,7 @@ title: DVD_KEY_TYPE
 author: windows-driver-content
 description: The DVD_KEY_TYPE enumeration type is used in conjunction with the DVD_COPY_PROTECT_KEY structure to indicate a key to be read, to invalidate an authentication grant ID (AGID), and to request state information or region settings.
 old-location: storage\dvd_key_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ec080043-a147-4002-8d0c-ed383182ec40
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: "_NDK_SHARED_ENDPOINT_DISPATCH"
 author: windows-driver-content
 description: The NDK_SHARED_ENDPOINT_DISPATCH structure specifies dispatch function entry points for the NDK shared endpoint object.
 old-location: netvista\ndk_shared_endpoint_dispatch.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: A0AFCF2B-E1A9-478C-8B03-D7C873F83369
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT_DISPATCH, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, netvista.ndk_shared_endpoint_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

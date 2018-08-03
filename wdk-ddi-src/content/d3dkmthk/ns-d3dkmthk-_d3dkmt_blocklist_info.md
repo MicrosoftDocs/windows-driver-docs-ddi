@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_D3DKMT_BLOCKLIST_INFO
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: StorPortReadPortUlong macro
 author: windows-driver-content
 description: The StorPortReadPortUlong routine reads a value from a specified port address.
 old-location: storage\storportreadportulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -59,28 +59,14 @@ The <b>StorPortReadPortUlong</b> routine reads a value from a specified port add
 
 
 
-### -param h
+### -param  [in]
 
-TBD
-
-
-### -param p
-
-TBD
+A pointer to the hardware device extension.
 
 
+### -param p [in]
 
-
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Pointer to the address from which to read. 
+A pointer to the address from which to read. 
 
 
 ## -remarks

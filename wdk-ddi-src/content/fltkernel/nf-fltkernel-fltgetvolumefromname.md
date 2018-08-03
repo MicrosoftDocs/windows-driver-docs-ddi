@@ -4,7 +4,7 @@ title: FltGetVolumeFromName function
 author: windows-driver-content
 description: The FltGetVolumeFromName routine returns an opaque pointer for the volume whose name matches the value of the VolumeName parameter.
 old-location: ifsk\fltgetvolumefromname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 813b914a-05d6-4e5a-9420-f87e94ee9e96
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

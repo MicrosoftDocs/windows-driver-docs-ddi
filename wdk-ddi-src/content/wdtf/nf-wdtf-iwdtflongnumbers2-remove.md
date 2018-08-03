@@ -4,7 +4,7 @@ title: IWDTFLongNumbers2::Remove
 author: windows-driver-content
 description: Removes a long number from the collection.
 old-location: dtf\iwdtflongnumbers2_remove.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: b566eedc-2a04-497b-9491-7bd5768f0dce
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

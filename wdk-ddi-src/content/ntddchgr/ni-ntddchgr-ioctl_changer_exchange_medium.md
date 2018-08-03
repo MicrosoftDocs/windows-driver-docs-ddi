@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_EXCHANGE_MEDIUM
 author: windows-driver-content
 description: Moves a piece of media from a source element to one destination and the piece of media originally in the first destination to a second destination. The source and second destination are often the same, which essentially swaps the two pieces of media.
 old-location: storage\ioctl_changer_exchange_medium.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 76f17ee0-5b81-4325-a295-4a6982b49b73
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

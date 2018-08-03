@@ -4,7 +4,7 @@ title: "_IRB_REQ_SET_LOCAL_HOST_PROPERTIES"
 author: windows-driver-content
 description: This structure contains the fields required to carry out a SetLocalHostProperties request.
 old-location: ieee\irb_req_set_local_host_properties.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 59C1BBEF-ECC8-4852-B2E2-75751B5B25B2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

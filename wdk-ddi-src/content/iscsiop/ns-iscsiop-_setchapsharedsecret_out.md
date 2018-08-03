@@ -4,7 +4,7 @@ title: "_SetCHAPSharedSecret_OUT"
 author: windows-driver-content
 description: The SetCHAPSharedSecret_OUT structure holds the output data for the SetCHAPSharedSecret method.
 old-location: storage\setchapsharedsecret_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a169a5b2-5303-41fc-80d2-69b44fd45c47
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

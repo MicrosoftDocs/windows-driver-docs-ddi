@@ -4,7 +4,7 @@ title: IOCTL_CDROM_GET_INQUIRY_DATA
 author: windows-driver-content
 description: Returns the SCSI inquiry data for the CD-ROM device. This IOCTL can be used when a device has been exclusively locked with IOCTL_CDROM_EXCLUSIVE_ACCESS.
 old-location: storage\ioctl_cdrom_get_inquiry_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b327bdd4-f145-4211-a77c-80dffad16547
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

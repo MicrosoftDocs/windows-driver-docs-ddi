@@ -4,7 +4,7 @@ title: NtUnlockFile function
 author: windows-driver-content
 description: The ZwUnlockFile routine unlocks a byte-range lock in a file.
 old-location: kernel\zwunlockfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dca3023b-99d5-471a-a5a2-8453c367ce9b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwUnlockFile</b> routine unlocks a byte-range lock in a file.
+The <b>NtUnlockFile</b> routine unlocks a byte-range lock in a file.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The caller-assigned value used to describe groups of related locks. This value s
 
 
 
-The <b>ZwUnlockFile</b> routine returns STATUS_SUCCESS on success or an appropriate NTSTATUS value. Possible NTSTATUS values include:
+The <b>NtUnlockFile</b> routine returns STATUS_SUCCESS on success or an appropriate NTSTATUS value. Possible NTSTATUS values include:
 
 <table>
 <tr>
@@ -116,11 +116,11 @@ The byte range specified is not locked.
 
 
 
-The <b>ZwUnlockFile</b> routine takes a range of bytes as specified by the <i>ByteOffset</i> and <i>Length</i> arguments. This range must be identical to a range of bytes in the file that was previously locked with a single call to the <b>ZwUnlockFile</b> routine. It is not possible to unlock two previously locked adjacent ranges with a single call to <b>ZwUnlockFile</b>. It is also not possible to unlock part of a range that was previously locked with a single call to the <b>ZwUnlockFile</b> routine.
+The <b>NtUnlockFile</b> routine takes a range of bytes as specified by the <i>ByteOffset</i> and <i>Length</i> arguments. This range must be identical to a range of bytes in the file that was previously locked with a single call to the <b>NtUnlockFile</b> routine. It is not possible to unlock two previously locked adjacent ranges with a single call to <b>NtUnlockFile</b>. It is also not possible to unlock part of a range that was previously locked with a single call to the <b>NtUnlockFile</b> routine.
 
-Callers of <b>ZwUnlockFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtUnlockFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwUnlockFile</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557707">NtUnlockFile</a>" instead of "<b>ZwUnlockFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtUnlockFile</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557707">NtUnlockFile</a>" instead of "<b>ZwUnlockFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
@@ -136,7 +136,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566474">ZwLockFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566474">NtLockFile</a>
  
 
  

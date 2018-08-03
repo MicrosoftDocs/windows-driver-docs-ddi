@@ -4,7 +4,7 @@ title: "_POWER_STATE"
 author: windows-driver-content
 description: The POWER_STATE union specifies a system power state value or a device power state value.
 old-location: kernel\power_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c3730035-74fc-421a-89dc-7411e53950f5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

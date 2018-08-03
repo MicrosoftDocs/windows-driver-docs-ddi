@@ -4,7 +4,7 @@ title: KSPROPERTY_TIMECODE_S
 author: windows-driver-content
 description: The KSPROPERTY_TIMECODE_S structure describes a timecode.
 old-location: stream\ksproperty_timecode_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 45af16ee-7405-44a4-ad14-e2cf9d916164
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

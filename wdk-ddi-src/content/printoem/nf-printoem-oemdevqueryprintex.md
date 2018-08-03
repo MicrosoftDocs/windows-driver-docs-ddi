@@ -4,7 +4,7 @@ title: OEMDevQueryPrintEx function
 author: windows-driver-content
 description: OEMDevQueryPrintEx function
 old-location: print\oemdevqueryprintex.htm
-old-project: print
+tech.root: print
 ms.assetid: 3d555be3-2a1b-40b4-adf4-b797bb4b09b7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: tagKS_VIDEOINFOHEADER
 author: windows-driver-content
 description: The KS_VIDEOINFOHEADER structure describes the bitmap and color information for a video stream.
 old-location: stream\ks_videoinfoheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

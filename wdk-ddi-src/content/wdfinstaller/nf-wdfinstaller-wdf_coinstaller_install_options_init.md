@@ -4,7 +4,7 @@ title: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function
 author: windows-driver-content
 description: The WDF_COINSTALLER_INSTALL_OPTIONS_INIT function initializes a WDF_COINSTALLER_INSTALL_OPTIONS structure.
 old-location: wdf\wdf_coinstaller_install_options_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 65fd2c27-7d9e-4dad-adef-8cb2bea9d9f2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

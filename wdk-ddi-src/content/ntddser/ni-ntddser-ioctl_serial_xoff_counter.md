@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_XOFF_COUNTER
 author: windows-driver-content
 description: The IOCTL_SERIAL_XOFF_COUNTER request sets an XOFF counter. An XOFF counter request supports clients that use software to emulate hardware handshake flow control.
 old-location: serports\ioctl_serial_xoff_counter.htm
-old-project: serports
+tech.root: serports
 ms.assetid: c24451cd-87d7-493d-83cb-2ee96590b8a3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

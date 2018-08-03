@@ -31,7 +31,8 @@ apilocation:
 -	d3dukmdt.h
 apiname:
 -	D3DDDI_HDR_METADATA_HDR10PLUS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

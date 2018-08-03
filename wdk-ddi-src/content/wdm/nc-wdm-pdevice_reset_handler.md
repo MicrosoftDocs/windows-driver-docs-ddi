@@ -4,7 +4,7 @@ title: PDEVICE_RESET_HANDLER
 author: windows-driver-content
 description: The DeviceReset routine is used to reset and recover a malfunctioning device.
 old-location: kernel\devicereset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A5AA5E73-3DC1-4977-9B64-9E0FB3E6609E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

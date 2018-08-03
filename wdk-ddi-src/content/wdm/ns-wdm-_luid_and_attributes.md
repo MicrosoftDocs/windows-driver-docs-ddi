@@ -4,7 +4,7 @@ title: "_LUID_AND_ATTRIBUTES"
 author: windows-driver-content
 description: LUID_AND_ATTRIBUTES represents a locally unique identifier (LUID) and its attributes.
 old-location: ifsk\luid_and_attributes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d436cd60-d1ff-4a0c-b087-6aa50adfd7fc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

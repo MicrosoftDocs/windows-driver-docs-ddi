@@ -4,7 +4,7 @@ title: "_SM_SendCTPassThru_OUT"
 author: windows-driver-content
 description: The SM_SendCTPassThru_OUT structure is used to receive output parameters from the SM_SendCTPassThru method.
 old-location: storage\sm_sendctpassthru_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: df1869d1-83ed-4574-85c2-89fb2b78d177
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

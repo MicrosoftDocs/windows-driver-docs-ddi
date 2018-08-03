@@ -4,7 +4,7 @@ title: PFNKSDEVICESETPOWER
 author: windows-driver-content
 description: AVStream calls a minidriver's AVStrMiniDeviceSetPower routine when it receives an IRP_MN_SET_POWER.
 old-location: stream\avstrminidevicesetpower.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 40d5eb14-b7bd-42b6-a3f5-fe9e8c5c806e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: imp_WppRecorderGetCounterHandle function
 author: windows-driver-content
 description: The WppRecorderGetCounterHandle method.
 old-location: devtest\wpprecordergetcounterhandle.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 389A4F90-9C81-4C03-A2F9-ACF0E597018C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

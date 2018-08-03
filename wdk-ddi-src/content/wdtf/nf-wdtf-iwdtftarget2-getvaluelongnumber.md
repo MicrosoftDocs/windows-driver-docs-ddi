@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetValueLongNumber
 author: windows-driver-content
 description: Returns a long number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluelongnumber.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9336d850-1d42-47e5-9a69-f15e1147a71f
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: InterlockedExchange function
 author: windows-driver-content
 description: The InterlockedExchange routine sets an integer variable to a given value as an atomic operation.
 old-location: kernel\interlockedexchange.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c9bee5b0-eeaf-4c82-9f02-d00cf9202f78
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

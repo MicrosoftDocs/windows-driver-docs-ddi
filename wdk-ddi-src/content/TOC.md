@@ -4,7 +4,6 @@
 ## [Battery](_battery/index.md)
 ## [Benchmark](_benchmark/index.md)
 ## [Biometric](_biometric/index.md)
-## [Biometrics](_biometrics/index.md)
 ## [Bluetooth](_bltooth/index.md)
 ## [Buses](_buses/index.md)
 ## [Debugger](_debugger/index.md)

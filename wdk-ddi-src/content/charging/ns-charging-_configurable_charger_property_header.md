@@ -4,7 +4,7 @@ title: "_CONFIGURABLE_CHARGER_PROPERTY_HEADER"
 author: windows-driver-content
 description: The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY.
 old-location: battery\configurable_charger_property_header.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 1A188828-51CE-4C80-92CB-2C01861082CD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

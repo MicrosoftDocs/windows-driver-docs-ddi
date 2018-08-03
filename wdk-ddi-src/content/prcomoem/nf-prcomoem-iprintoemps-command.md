@@ -4,7 +4,7 @@ title: IPrintOemPS::Command
 author: windows-driver-content
 description: The IPrintOemPS::Command method is used by rendering plug-ins for the Microsoft PostScript printer driver, in order to insert PostScript commands into the print job's data stream.
 old-location: print\iprintoemps_command.htm
-old-project: print
+tech.root: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_BDA_GDDS_DATATYPE"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_gdds_datatype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: D2E6A110-EC0F-4753-BAF1-7A9F84ECDD35
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: StorPortWriteRegisterBufferUchar macro
 author: windows-driver-content
 description: The StorPortWriteRegisterBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

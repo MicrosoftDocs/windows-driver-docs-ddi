@@ -4,7 +4,7 @@ title: CcScheduleReadAheadEx function
 author: windows-driver-content
 description: The CcScheduleReadAheadEx routine performs read-ahead (also called &#0034;lazy read&#0034;) on a cached file. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\ccschedulereadaheadex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

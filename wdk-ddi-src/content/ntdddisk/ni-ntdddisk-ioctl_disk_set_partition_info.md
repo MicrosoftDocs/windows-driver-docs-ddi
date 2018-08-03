@@ -4,7 +4,7 @@ title: IOCTL_DISK_SET_PARTITION_INFO
 author: windows-driver-content
 description: Changes the partition type of the specified disk partition. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_set_partition_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3ff5a328-04b0-4de9-abe1-759c36f31899
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

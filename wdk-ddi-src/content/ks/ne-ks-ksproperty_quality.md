@@ -4,7 +4,7 @@ title: KSPROPERTY_QUALITY
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_quality.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6350A740-BD69-40C3-804A-075F9889865B
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

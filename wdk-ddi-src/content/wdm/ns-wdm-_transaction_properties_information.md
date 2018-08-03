@@ -4,7 +4,7 @@ title: "_TRANSACTION_PROPERTIES_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTION_PROPERTIES_INFORMATION structure contains a transaction object's properties.
 old-location: kernel\transaction_properties_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76b0f102-0d09-4b16-b8e1-727a3a6e48c9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

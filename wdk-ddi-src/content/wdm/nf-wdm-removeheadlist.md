@@ -4,7 +4,7 @@ title: RemoveHeadList function
 author: windows-driver-content
 description: The RemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeheadlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8748451c-3e57-4acf-b1e6-b80fe7f461d8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

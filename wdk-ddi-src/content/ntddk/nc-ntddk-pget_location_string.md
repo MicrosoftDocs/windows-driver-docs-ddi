@@ -4,7 +4,7 @@ title: PGET_LOCATION_STRING
 author: windows-driver-content
 description: The PnpGetLocationString routine provides the device-specific part of the device's SPDRP_LOCATION_PATHS property.
 old-location: kernel\pnpgetlocationstring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 03ebdeed-10f0-4633-a9cd-4db683a8c3a7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

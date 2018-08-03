@@ -4,7 +4,7 @@ title: WdfRequestRetrieveInputBuffer function
 author: windows-driver-content
 description: The WdfRequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

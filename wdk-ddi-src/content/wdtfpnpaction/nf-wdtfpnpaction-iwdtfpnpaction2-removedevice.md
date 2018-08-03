@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::RemoveDevice
 author: windows-driver-content
 description: Removes the device.
 old-location: dtf\iwdtfpnpaction2_removedevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 68e15b98-e58a-4789-80d0-fc31f936345e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_TOKEN_INFORMATION_CLASS"
 author: windows-driver-content
 description: The TOKEN_INFORMATION_CLASS enumeration type contains values that specify the type of information being assigned to or retrieved from an access token.
 old-location: ifsk\token_information_class.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dd2323fa-2c58-462e-905f-3b201ef0c343
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

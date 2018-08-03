@@ -4,7 +4,7 @@ title: HBA_EventInfo
 author: windows-driver-content
 description: The HBA_EventInfo structure contains information about an event of the indicated type.
 old-location: storage\hba_eventinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fc6b73ac-f86c-4978-9d71-9bd8398c116b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

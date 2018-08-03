@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_ONLINE
 author: windows-driver-content
 description: The IOCTL_VOLUME_ONLINE IOCTL puts the volume in an ONLINE state, which is a state where read and write operations will be executed.
 old-location: storage\ioctl_volume_online.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3391bda9-2eec-4c03-84ed-76b89e2c0cf0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

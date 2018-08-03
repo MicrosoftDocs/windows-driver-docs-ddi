@@ -4,7 +4,7 @@ title: KS_MPEG2Profile
 author: windows-driver-content
 description: The KS_MPEG2Profile enumeration describes MPEG-2 profiles.
 old-location: stream\ks_mpeg2profile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1846e6b7-5b98-4850-86d6-ef6a29ce050b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

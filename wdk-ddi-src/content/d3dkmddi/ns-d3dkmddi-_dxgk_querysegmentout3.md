@@ -4,10 +4,10 @@ title: "_DXGK_QUERYSEGMENTOUT3"
 author: windows-driver-content
 description: Describes memory-segment information that a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver should return from a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentout3.htm
-old-project: display
+tech.root: display
 ms.assetid: 4a78a998-7eab-4499-a280-96ca6d6ff5a2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_QUERYSEGMENTOUT3, DXGK_QUERYSEGMENTOUT3 structure [Display Devices], _DXGK_QUERYSEGMENTOUT3, d3dkmddi/DXGK_QUERYSEGMENTOUT3, display.dxgk_querysegmentout3
 ms.prod: windows-hardware
 ms.technology: windows-devices

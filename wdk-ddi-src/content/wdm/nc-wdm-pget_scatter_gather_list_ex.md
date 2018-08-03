@@ -4,7 +4,7 @@ title: PGET_SCATTER_GATHER_LIST_EX
 author: windows-driver-content
 description: The GetScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer.
 old-location: kernel\getscattergatherlistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

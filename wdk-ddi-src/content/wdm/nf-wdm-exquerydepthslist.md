@@ -4,7 +4,7 @@ title: ExQueryDepthSList function
 author: windows-driver-content
 description: The ExQueryDepthSList routine returns the number of entries currently in a given sequenced singly linked list.
 old-location: kernel\exquerydepthslist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fdf40535-4e0d-4db9-9e95-744029eb2bd5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

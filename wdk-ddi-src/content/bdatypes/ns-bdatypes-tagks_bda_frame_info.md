@@ -4,7 +4,7 @@ title: tagKS_BDA_FRAME_INFO
 author: windows-driver-content
 description: The KS_BDA_FRAME_INFO structure describes BDA extensions to the KSSTREAM_HEADER structure, which describes a packet of data to be read from or written to a streaming driver pin.
 old-location: stream\ks_bda_frame_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: df261323-f372-49e7-990a-03c1c5cb743d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

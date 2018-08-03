@@ -4,7 +4,7 @@ title: FltGetVolumeFromDeviceObject function
 author: windows-driver-content
 description: The FltGetVolumeFromDeviceObject routine returns an opaque pointer for the volume represented by a volume device object (VDO).
 old-location: ifsk\fltgetvolumefromdeviceobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 49dc5866-d793-41a7-9d9e-e89eea6f2f28
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

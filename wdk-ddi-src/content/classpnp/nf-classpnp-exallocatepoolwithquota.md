@@ -4,7 +4,7 @@ title: ExAllocatePoolWithQuota macro
 author: windows-driver-content
 description: The ExAllocatePoolWithQuota routine is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
 old-location: kernel\exallocatepoolwithquota.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,16 +16,16 @@ req.header: classpnp.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete. This routine is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"

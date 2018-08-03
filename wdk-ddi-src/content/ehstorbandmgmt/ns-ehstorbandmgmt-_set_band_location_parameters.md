@@ -4,7 +4,7 @@ title: "_SET_BAND_LOCATION_PARAMETERS"
 author: windows-driver-content
 description: The SET_BAND_LOCATION_PARAMETERS structure specifies the parameters to set location properties for a band on a storage device for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION request.
 old-location: storage\set_band_location_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
