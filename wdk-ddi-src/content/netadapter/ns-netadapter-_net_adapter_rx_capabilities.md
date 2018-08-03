@@ -73,9 +73,7 @@ A union that contains the following members:
 A struct that contains the following member:
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EvtAdapterReturnRxBuffer
-A pointer to the driver's *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function. This member is required if the **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeDriver** for the operating system to invoke once the system is finished with the receive buffer.
-
-For more information about *EvtNetAdapterReturnRxBuffer*, see the Remarks section of [**NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED**](nf-netadapter-net_adapter_rx_capabilities_init_driver_managed.md).
+A pointer to the driver's [*EVT_NET_ADAPTER_RETURN_RX_BUFFER*](nc-netadapter-evt_net_adapter_return_rx_buffer.md) callback function. This member is required if the **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeDriver** for the operating system to invoke once the system is finished with the receive buffer.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2
 A struct that contains the following members:
@@ -95,9 +93,6 @@ Call one of the NET_ADAPTER_RX_CAPABILITIES_INIT_*XXX* methods to initialize thi
 After initializing this structure, client drivers must be careful about changing the **AllocationMode** and **AttachmentMode** members. If **AllocationMode** is set to **NetRxFragmentBufferAllocationModeDriver**, then **AttachmentMode** cannot be set to **NetRxFragmentBufferAttachmentModeSystem**. If **AllocationMode** is set to **NetRxFragmentBufferAllocationModeSystem**, it is possible for the driver to specify manual attachment after initialization by setting **AttachmentMode** to **NetRxFragmentBufferAttachmentModeDriver**. Typically, however, the driver will either perform both allocation and attachmment itself or will specify that the operating system perform both.
 
 If the client does specify driver-allocated and attached receive buffers, it must supply both a custom return context structure in the **RxBufferReturnContext** member of each [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md) during buffer allocation, as well as an *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in this **NET_ADAPTER_RX_CAPABILITIES** structure for the operating system to invoke once it has finished with the buffer.
-
-For more information about *EvtNetAdapterReturnRxBuffer*, see the Remarks section of [**NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED**](nf-netadapter-net_adapter_rx_capabilities_init_driver_managed.md).
-
 
 
 ## -see-also
