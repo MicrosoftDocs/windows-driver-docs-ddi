@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>FwpsInjectMacReceiveAsync0</b> function can  reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 outbound data path from which it was intercepted, or inject an invented MAC frame.<div class="alert"><b>Note</b>  <b>FwpsInjectMacReceiveAsync0</b> is a specific version of <b>FwpsInjectMacReceiveAsync</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The <b>FwpsInjectMacSendAsync0</b> function can reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 outbound data path from which it was intercepted, or inject an invented MAC frame.<div class="alert"><b>Note</b>  <b>FwpsInjectMacSendAsync0</b> is a specific version of <b>FwpsInjectMacSendAsync</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
 
@@ -94,7 +94,7 @@ The interface index that is passed to the callout driver's <a href="https://msdn
 
 ### -param NdisPortNumber [in]
 
-The NDIS port number  that is passed to the callout driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> incoming value FWPS_FIELD_<i>Xxx</i>_MAC_FRAME_<i>Xxx</i>_NDIS_PORT.
+The NDIS port number that is passed to the callout driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> incoming value FWPS_FIELD_<i>Xxx</i>_MAC_FRAME_<i>Xxx</i>_NDIS_PORT.
 
 
 ### -param netBufferLists [in, out]
@@ -127,7 +127,7 @@ A pointer to a callout driver–provided context that is passed to the callout f
 
 
 The
-     <b>FwpsInjectMacReceiveAsync0</b> function returns one of the following NTSTATUS codes.
+     <b>FwpsInjectMacSendAsync0</b> function returns one of the following NTSTATUS codes.
 
 <table>
 <tr>
@@ -207,7 +207,7 @@ An error occurred.
 
 
 
-A callback driver calls the <b>FwpsInjectMacReceiveAsync0</b>  function to reinject a previously absorbed MAC frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or to inject an invented MAC frame.
+A callback driver calls the <b>FwpsInjectMacSendAsync0</b>  function to reinject a previously absorbed MAC frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or to inject an invented MAC frame.
 
 The <i>netBufferLists</i> parameter can be a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain. However the completion function could be invoked multiple times each, completing a segment (or single NET_BUFFER_LIST) of the chain.
 
