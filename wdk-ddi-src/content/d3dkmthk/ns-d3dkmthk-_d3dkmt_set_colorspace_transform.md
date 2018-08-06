@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_SET_COLORSPACE_TRANSFORM
 title: "_D3DKMT_SET_COLORSPACE_TRANSFORM"
 author: windows-driver-content
-description: TBD.
+description: .
 old-location: display\d3dkmt-set-colorspace-transform.htm
 tech.root: display
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e
@@ -50,7 +50,7 @@ req.typenames: D3DKMT_SET_COLORSPACE_TRANSFORM
 ## -description
 
 
-TBD
+
 
 
 ## -struct-fields

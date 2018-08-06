@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyKeyedMutex</b> function destroys a keyed mutex object.
 
 ### -param D3DKMT_DESTROYKEYEDMUTEX
 
-TBD
+
 
 
 

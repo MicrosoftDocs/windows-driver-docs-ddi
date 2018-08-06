@@ -2,7 +2,7 @@
 UID: NF:sensorscx.SensorsCxSensorHistoryRetrievalCompleted
 title: SensorsCxSensorHistoryRetrievalCompleted function
 author: windows-driver-content
-description: TBD
+description: The SensorsCxSensorHistoryRetrievalCompleted function indicates that the history retrieval has completed.
 ms.assetid: 69ce718d-117d-45cb-b6fe-7c5ae7c17265
 ms.author: windowsdriverdev
 ms.date:
@@ -34,7 +34,7 @@ api_location:
 api_name:
 -	SensorsCxSensorHistoryRetrievalCompleted
 product: 
--Windows
+-	Windows
 targetos: Windows
 
 ---

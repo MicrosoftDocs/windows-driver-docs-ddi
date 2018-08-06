@@ -60,7 +60,7 @@ The <b>D3DKMTCheckVidPnExclusiveOwnership</b> function determines the video pres
 
 ### -param D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 
-TBD
+
 
 
 

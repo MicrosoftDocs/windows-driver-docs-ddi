@@ -60,7 +60,7 @@ The <b>D3DKMTCheckOcclusion</b> function verifies whether the client area of a w
 
 ### -param D3DKMT_CHECKOCCLUSION
 
-TBD
+
 
 
 

@@ -2,10 +2,11 @@
 UID: NS:ntddvdeo._BACKLIGHT_REDUCTION_GAMMA_RAMP
 title: _BACKLIGHT_REDUCTION_GAMMA_RAMP
 author: windows-driver-content
-description:
+description: Contains a reduction gamma lookup table.
+tech.root: display
 ms.assetid: f6f14d80-4859-4179-8921-1b28c417c1e3
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 08/03/18
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -23,13 +24,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: BACKLIGHT_REDUCTION_GAMMA_RAMP
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_BACKLIGHT_REDUCTION_GAMMA_RAMP
 product: 
 - Windows

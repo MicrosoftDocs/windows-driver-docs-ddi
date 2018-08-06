@@ -63,7 +63,7 @@ The <b>D3DKMTOpenAdapterFromDeviceName</b> function maps a device name to a grap
 
 ### -param Arg1
 
-TBD
+
 
 
 

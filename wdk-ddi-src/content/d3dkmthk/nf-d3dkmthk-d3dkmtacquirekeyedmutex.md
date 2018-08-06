@@ -60,7 +60,7 @@ The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
 
 ### -param Arg1
 
-TBD
+
 
 
 

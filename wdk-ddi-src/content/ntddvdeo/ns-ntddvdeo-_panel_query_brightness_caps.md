@@ -3,6 +3,7 @@ UID: NS:ntddvdeo._PANEL_QUERY_BRIGHTNESS_CAPS
 title: _PANEL_QUERY_BRIGHTNESS_CAPS
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: b0bdacef-4409-49cf-b53b-6e7023617793
 ms.author: windowsdriverdev
 ms.date:
@@ -23,13 +24,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_QUERY_BRIGHTNESS_CAPS
 product: 
 - Windows

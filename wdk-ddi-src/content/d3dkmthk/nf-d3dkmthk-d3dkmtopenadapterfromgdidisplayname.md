@@ -63,7 +63,7 @@ The <b>D3DKMTOpenAdapterFromGdiDisplayName</b> function maps a GDI device name t
 
 ### -param Arg1
 
-TBD
+
 
 
 

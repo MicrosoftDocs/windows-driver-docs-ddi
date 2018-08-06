@@ -75,27 +75,27 @@ Specifies that the nominal range is not specified.
 
 ### -field DXVA_NominalRange_Normal
 
-Specifies that normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
+Specifies that normalized chroma [0..1] maps to [0..255] for 8-bit or [0..1023] for 10-bit.
 
 
 ### -field DXVA_NominalRange_Wide
 
-Specifies that normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
+Specifies that normalized chroma [0..1] maps to [16..235] for 8-bit or [64..940] for 10-bit.
 
 
 ### -field DXVA_NominalRange_0_255
 
-Specifies that normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
+Specifies that normalized chroma [0..1] maps to [0..255] for 8-bit or [0..1023] for 10-bit.
 
 
 ### -field DXVA_NominalRange_16_235
 
-Specifies that normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
+Specifies that normalized chroma [0..1] maps to [16..235] for 8-bit or [64..940] for 10-bit.
 
 
 ### -field DXVA_NominalRange_48_208
 
-Specifies that normalized chroma [0..1] maps to [48..208] (8bit) or [192..832] (10 bit).
+Specifies that normalized chroma [0..1] maps to [48..208] for 8-bit or [192..832] for 10-bit.
 
 
 ## -remarks

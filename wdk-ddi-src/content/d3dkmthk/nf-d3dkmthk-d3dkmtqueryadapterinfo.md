@@ -63,7 +63,7 @@ The <b>D3DKMTQueryAdapterInfo</b> function retrieves graphics adapter informatio
 
 ### -param D3DKMT_QUERYADAPTERINFO
 
-TBD
+
 
 
 

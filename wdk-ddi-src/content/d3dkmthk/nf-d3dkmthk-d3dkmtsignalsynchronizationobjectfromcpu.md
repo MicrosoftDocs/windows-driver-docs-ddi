@@ -66,7 +66,7 @@ req.typenames:
 
 ### -param D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 
-TBD
+
 
 
 

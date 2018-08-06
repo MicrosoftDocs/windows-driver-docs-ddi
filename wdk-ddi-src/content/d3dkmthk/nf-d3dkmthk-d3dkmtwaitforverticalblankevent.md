@@ -63,7 +63,7 @@ The <b>D3DKMTWaitForVerticalBlankEvent</b> function waits for the vertical blank
 
 ### -param D3DKMT_WAITFORVERTICALBLANKEVENT
 
-TBD
+
 
 
 

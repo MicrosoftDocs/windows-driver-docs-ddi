@@ -60,7 +60,7 @@ The <b>D3DKMTCheckMonitorPowerState</b> function verifies the power state of a m
 
 ### -param D3DKMT_CHECKMONITORPOWERSTATE
 
-TBD
+
 
 
 

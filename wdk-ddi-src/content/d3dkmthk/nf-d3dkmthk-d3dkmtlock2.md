@@ -62,7 +62,7 @@ The <b>D3DKMTLock2</b> function locks an entire allocation or specific pages wit
 
 ### -param Arg1
 
-TBD
+
 
 
 

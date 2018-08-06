@@ -63,7 +63,7 @@ The <i>D3DKMTSetDisplayMode</i> function sets the allocation that is used to sca
 
 ### -param D3DKMT_SETDISPLAYMODE
 
-TBD
+
 
 
 

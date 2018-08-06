@@ -64,7 +64,7 @@ req.typenames:
 
 ### -param D3DKMT_UPDATEGPUVIRTUALADDRESS
 
-TBD
+
 
 
 

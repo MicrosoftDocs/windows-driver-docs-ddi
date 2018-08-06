@@ -2,7 +2,8 @@
 UID: NS:ntddvdeo._BRIGHTNESS_NIT_RANGE
 title: _BRIGHTNESS_NIT_RANGE
 author: windows-driver-content
-description:
+description: A linear range of supported millinit levels.
+tech.root: display
 ms.assetid: fb6130d9-161a-4a9d-af61-9474e5583299
 ms.author: windowsdriverdev
 ms.date:
@@ -23,13 +24,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: BRIGHTNESS_NIT_RANGE, *PBRIGHTNESS_NIT_RANGE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_BRIGHTNESS_NIT_RANGE
 product: 
 - Windows

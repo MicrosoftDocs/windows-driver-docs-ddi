@@ -63,7 +63,7 @@ The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode sy
 
 ### -param D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 
-TBD
+
 
 
 

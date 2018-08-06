@@ -71,7 +71,7 @@ Some kernel mode drivers need information from their user mode driver on how to 
 
 ### -param D3DKMT_SUBMITCOMMAND
 
-TBD
+
 
 
 

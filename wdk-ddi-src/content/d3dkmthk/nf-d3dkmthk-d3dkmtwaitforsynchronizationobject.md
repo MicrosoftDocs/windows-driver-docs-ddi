@@ -63,7 +63,7 @@ The <b>D3DKMTWaitForSynchronizationObject</b> function inserts a wait for the sp
 
 ### -param D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 
-TBD
+
 
 
 

@@ -60,7 +60,7 @@ Opens a shared resource from an NT handle.
 
 ### -param Arg1
 
-TBD
+
 
 
 

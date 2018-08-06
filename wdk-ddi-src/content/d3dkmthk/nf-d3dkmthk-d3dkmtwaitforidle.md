@@ -63,7 +63,7 @@ The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle.
 
 ### -param D3DKMT_WAITFORIDLE
 
-TBD
+
 
 
 

@@ -34,7 +34,7 @@ api_location:
 api_name:
 -	I2C_REQUEST_SIZE
 product: 
--Windows
+- Windows
 targetos: Windows
 
 ---

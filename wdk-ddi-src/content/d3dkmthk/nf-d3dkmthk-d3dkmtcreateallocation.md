@@ -60,7 +60,7 @@ The <b>D3DKMTCreateAllocation</b> function creates allocations of system or vide
 
 ### -param Arg1
 
-TBD
+
 
 
 

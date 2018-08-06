@@ -60,7 +60,7 @@ Submits a present command from the <a href="https://msdn.microsoft.com/523FBFAD-
 
 ### -param D3DKMT_OUTPUTDUPLPRESENT
 
-TBD
+
 
 
 

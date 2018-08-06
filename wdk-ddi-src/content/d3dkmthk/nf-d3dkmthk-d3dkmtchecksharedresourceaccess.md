@@ -60,7 +60,7 @@ The <b>D3DKMTCheckSharedResourceAccess</b> function determines if a process can 
 
 ### -param D3DKMT_CHECKSHAREDRESOURCEACCESS
 
-TBD
+
 
 
 

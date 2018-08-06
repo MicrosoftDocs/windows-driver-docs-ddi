@@ -29,7 +29,7 @@ api_location:
 api_name:
 -	_SENSORSCXFUNCENUM
 product: 
--Windows
+-	Windows
 targetos: Windows
 ---
 

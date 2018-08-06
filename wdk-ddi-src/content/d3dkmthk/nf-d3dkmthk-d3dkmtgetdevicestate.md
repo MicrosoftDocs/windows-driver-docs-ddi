@@ -63,7 +63,7 @@ The <b>D3DKMTGetDeviceState</b> function retrieves the state of a device.
 
 ### -param Arg1
 
-TBD
+
 
 
 

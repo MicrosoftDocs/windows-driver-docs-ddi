@@ -63,7 +63,7 @@ The <b>D3DKMTCreateSynchronizationObject2</b> function creates a kernel-mode syn
 
 ### -param Arg1
 
-TBD
+
 
 
 

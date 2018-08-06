@@ -62,7 +62,7 @@ Used to open a protected session from the NT handle.
 
 ### -param Arg1
 
-TBD
+
 
 
 

@@ -34,7 +34,7 @@ api_location:
 api_name:
 -	GetMethodArgumentFromAcpi
 product: 
--Windows
+- Windows
 targetos: Windows
 
 ---

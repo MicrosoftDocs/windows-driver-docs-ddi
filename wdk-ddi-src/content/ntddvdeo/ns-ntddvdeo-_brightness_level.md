@@ -2,10 +2,11 @@
 UID: NS:ntddvdeo._BRIGHTNESS_LEVEL
 title: _BRIGHTNESS_LEVEL
 author: windows-driver-content
-description:
+description: Contains information about the brightness level.
+tech.root: display
 ms.assetid: 81351bc7-68af-4cfe-962f-725793c052fe
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 08/03/18
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -22,17 +23,17 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PBRIGHTNESS_LEVEL, BRIGHTNESS_LEVEL
-topictype:
+req.typenames: BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_BRIGHTNESS_LEVEL
 product: 
-- Windows
+-	Windows
 targetos: Windows
 ---
 

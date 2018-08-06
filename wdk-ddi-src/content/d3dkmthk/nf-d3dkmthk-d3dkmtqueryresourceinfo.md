@@ -63,7 +63,7 @@ The <b>D3DKMTQueryResourceInfo</b> function retrieves information about a shared
 
 ### -param Arg1
 
-TBD
+
 
 
 
