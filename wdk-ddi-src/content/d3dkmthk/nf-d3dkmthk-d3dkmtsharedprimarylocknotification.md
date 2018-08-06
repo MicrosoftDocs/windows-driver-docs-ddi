@@ -63,7 +63,7 @@ The <b>D3DKMTSharedPrimaryLockNotification</b> function notifies the operating s
 
 ### -param D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 
-TBD
+
 
 
 

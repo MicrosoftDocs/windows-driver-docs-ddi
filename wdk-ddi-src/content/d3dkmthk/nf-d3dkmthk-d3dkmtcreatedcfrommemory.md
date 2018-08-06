@@ -60,7 +60,7 @@ The <b>D3DKMTCreateDCFromMemory</b> function creates a display context from a sp
 
 ### -param Arg1
 
-TBD
+
 
 
 

@@ -63,7 +63,7 @@ The <b>D3DKMTSetAllocationPriority</b> function sets the priority level of a res
 
 ### -param D3DKMT_SETALLOCATIONPRIORITY
 
-TBD
+
 
 
 

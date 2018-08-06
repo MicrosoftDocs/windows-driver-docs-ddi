@@ -63,7 +63,7 @@ req.typenames:
 
 ### -param D3DKMT_FREEGPUVIRTUALADDRESS
 
-TBD
+
 
 
 

@@ -3,6 +3,7 @@ UID: NS:ntddvdeo._PANEL_GET_BRIGHTNESS
 title: _PANEL_GET_BRIGHTNESS
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: f7fbdbb4-f3cc-4ab7-b891-370190a96c19
 ms.author: windowsdriverdev
 ms.date:
@@ -23,13 +24,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_GET_BRIGHTNESS, *PPANEL_GET_BRIGHTNESS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_GET_BRIGHTNESS
 product: 
 - Windows

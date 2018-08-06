@@ -60,7 +60,7 @@ The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 ### -param Arg1
 
-TBD
+
 
 
 

@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyOverlay</b> function destroys a kernel-mode overlay object.
 
 ### -param D3DKMT_DESTROYOVERLAY
 
-TBD
+
 
 
 

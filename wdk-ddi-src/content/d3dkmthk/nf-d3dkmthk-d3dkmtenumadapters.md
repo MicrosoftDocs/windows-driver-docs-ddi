@@ -60,7 +60,7 @@ Enumerates all graphics adapters on the system.
 
 ### -param D3DKMT_ENUMADAPTERS
 
-TBD
+
 
 
 

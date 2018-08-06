@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyDCFromMemory</b> function releases the display context.
 
 ### -param D3DKMT_DESTROYDCFROMMEMORY
 
-TBD
+
 
 
 

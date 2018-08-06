@@ -3,6 +3,7 @@ UID: NS:ntddvdeo._PANEL_GET_BACKLIGHT_REDUCTION
 title: _PANEL_GET_BACKLIGHT_REDUCTION
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: b8f0ee27-16bc-4666-8055-acdad9c57a47
 ms.author: windowsdriverdev
 ms.date:
@@ -22,17 +23,17 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PPANEL_GET_BACKLIGHT_REDUCTION, PANEL_GET_BACKLIGHT_REDUCTION
-topictype:
+req.typenames: PANEL_GET_BACKLIGHT_REDUCTION, *PPANEL_GET_BACKLIGHT_REDUCTION
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_GET_BACKLIGHT_REDUCTION
 product: 
-- Windows
+-	Windows
 targetos: Windows
 ---
 

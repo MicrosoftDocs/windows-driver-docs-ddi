@@ -63,7 +63,7 @@ The <b>D3DKMTGetSharedPrimaryHandle</b> function retrieves the global shared han
 
 ### -param Arg1
 
-TBD
+
 
 
 

@@ -63,7 +63,7 @@ The <b>D3DKMTWaitForSynchronizationObject2</b> function inserts a wait for the s
 
 ### -param D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
 
-TBD
+
 
 
 

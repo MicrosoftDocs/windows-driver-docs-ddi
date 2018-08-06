@@ -86,7 +86,6 @@ These methods allow the list of supported decode formats supported by hardware. 
 
 
 
-[pfnGetDecodeFormatCount](nc-d3d12umddi-pfnd3d12ddi_video_get_decode_format_count_0020.md)
  
 
  

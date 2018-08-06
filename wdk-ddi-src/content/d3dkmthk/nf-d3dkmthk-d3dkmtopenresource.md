@@ -63,7 +63,7 @@ The <b>D3DKMTOpenResource</b> function opens a shared resource.
 
 ### -param Arg1
 
-TBD
+
 
 
 

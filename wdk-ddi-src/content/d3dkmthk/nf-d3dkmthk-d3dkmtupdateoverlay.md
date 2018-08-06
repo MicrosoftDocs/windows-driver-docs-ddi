@@ -63,7 +63,7 @@ The <b>D3DKMTUpdateOverlay</b> function modifies a kernel-mode overlay object.
 
 ### -param D3DKMT_UPDATEOVERLAY
 
-TBD
+
 
 
 

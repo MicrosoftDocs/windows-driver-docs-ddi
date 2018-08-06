@@ -63,7 +63,7 @@ The <b>D3DKMTQueryAllocationResidency</b> function retrieves the residency statu
 
 ### -param D3DKMT_QUERYALLOCATIONRESIDENCY
 
-TBD
+
 
 
 

@@ -63,7 +63,7 @@ The <b>D3DKMTSetContextSchedulingPriority</b> function sets the scheduling prior
 
 ### -param D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
 
-TBD
+
 
 
 

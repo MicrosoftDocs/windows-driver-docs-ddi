@@ -60,7 +60,7 @@ Offers video memory allocations for reuse.
 
 ### -param D3DKMT_OFFERALLOCATIONS
 
-TBD
+
 
 
 

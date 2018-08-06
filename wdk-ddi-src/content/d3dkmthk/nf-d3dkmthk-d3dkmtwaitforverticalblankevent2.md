@@ -60,7 +60,7 @@ Waits for specified wait objects, including a vertical blank event, to occur and
 
 ### -param D3DKMT_WAITFORVERTICALBLANKEVENT2
 
-TBD
+
 
 
 

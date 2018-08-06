@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyAllocation2</b> function releases a resource, a list of allo
 
 ### -param D3DKMT_DESTROYALLOCATION2
 
-TBD
+
 
 
 

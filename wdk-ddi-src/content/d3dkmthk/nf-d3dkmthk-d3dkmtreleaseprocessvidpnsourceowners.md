@@ -63,7 +63,7 @@ The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video pre
 
 ### -param Arg1
 
-TBD
+
 
 
 

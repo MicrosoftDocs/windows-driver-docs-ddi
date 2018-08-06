@@ -63,7 +63,7 @@ The <b>D3DKMTRender</b> function submits the current command buffer to the Micro
 
 ### -param Arg1
 
-TBD
+
 
 
 

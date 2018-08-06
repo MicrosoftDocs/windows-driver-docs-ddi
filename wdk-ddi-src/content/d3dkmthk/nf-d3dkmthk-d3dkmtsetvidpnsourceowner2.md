@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER2
 
-TBD
+
 
 
 

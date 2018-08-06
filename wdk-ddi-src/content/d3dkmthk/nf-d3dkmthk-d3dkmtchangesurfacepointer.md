@@ -60,7 +60,7 @@ The <b>D3DKMTChangeSurfacePointer</b> function is for system use only.
 
 ### -param D3DKMT_CHANGESURFACEPOINTER
 
-TBD
+
 
 
 

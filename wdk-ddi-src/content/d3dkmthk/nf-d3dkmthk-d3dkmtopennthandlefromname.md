@@ -60,7 +60,7 @@ From a given graphics adapter name, opens an NT handle to the process.
 
 ### -param Arg1
 
-TBD
+
 
 
 

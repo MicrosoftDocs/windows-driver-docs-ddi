@@ -63,7 +63,7 @@ The <b>D3DKMTOpenKeyedMutex</b> function opens a keyed mutex object.
 
 ### -param Arg1
 
-TBD
+
 
 
 

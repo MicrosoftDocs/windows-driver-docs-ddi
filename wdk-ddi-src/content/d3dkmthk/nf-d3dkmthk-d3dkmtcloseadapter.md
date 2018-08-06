@@ -60,7 +60,7 @@ The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previo
 
 ### -param D3DKMT_CLOSEADAPTER
 
-TBD
+
 
 
 

@@ -63,7 +63,7 @@ The <b>D3DKMTSignalSynchronizationObject</b> function inserts a signal for the s
 
 ### -param D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 
-TBD
+
 
 
 

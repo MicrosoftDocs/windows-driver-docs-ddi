@@ -63,7 +63,7 @@ The <b>D3DKMTGetDisplayModeList</b> function retrieves a list of available displ
 
 ### -param Arg1
 
-TBD
+
 
 
 

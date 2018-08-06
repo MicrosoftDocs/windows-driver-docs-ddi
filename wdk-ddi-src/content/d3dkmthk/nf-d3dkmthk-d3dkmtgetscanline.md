@@ -63,7 +63,7 @@ The <b>D3DKMTGetScanLine</b> function determines whether the given video present
 
 ### -param Arg1
 
-TBD
+
 
 
 

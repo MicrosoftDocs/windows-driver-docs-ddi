@@ -32,7 +32,7 @@ api_location:
 api_name:
 -	_I2C_REQUEST
 product: 
--Windows
+- Windows
 targetos: Windows
 ---
 

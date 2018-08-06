@@ -60,7 +60,7 @@ Used to create a new hardware queue.
 
 ### -param Arg1
 
-TBD
+
 
 
 

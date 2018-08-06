@@ -63,7 +63,7 @@ The <b>D3DKMTGetOverlayState</b> function retrieves the status about an overlay.
 
 ### -param Arg1
 
-TBD
+
 
 
 
