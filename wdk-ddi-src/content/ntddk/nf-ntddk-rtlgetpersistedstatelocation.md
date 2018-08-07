@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	RtlGetPersistedStateLocation
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -63,7 +63,7 @@ The <b>D3DKMTSetGammaRamp</b> function sets the gamma ramp.
 
 ### -param D3DKMT_SETGAMMARAMP
 
-TBD
+
 
 
 

@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_ACPI_PLD_INTERFACE_CLASS_BUFFER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -33,7 +33,8 @@ apilocation:
 -	netrxqueue.h
 apiname: 
 -	NET_RXQUEUE_BUFFER_LAYOUT_HINT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

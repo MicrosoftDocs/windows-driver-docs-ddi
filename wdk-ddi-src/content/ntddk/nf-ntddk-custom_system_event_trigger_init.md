@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

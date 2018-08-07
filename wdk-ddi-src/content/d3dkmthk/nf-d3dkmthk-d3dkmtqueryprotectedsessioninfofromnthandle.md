@@ -62,7 +62,7 @@ Used to get information on the protected session.
 
 ### -param Arg1
 
-TBD
+
 
 
 

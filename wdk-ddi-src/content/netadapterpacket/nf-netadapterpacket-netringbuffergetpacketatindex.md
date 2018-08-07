@@ -35,7 +35,8 @@ apilocation:
 -	netadapterpacket.h
 apiname: 
 -	NetRingBufferGetPacketAtIndex
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

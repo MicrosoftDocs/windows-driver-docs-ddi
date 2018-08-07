@@ -21,17 +21,18 @@ req.dll:
 req.irql:
 req.ddi-compliance:
 req.max-support:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL

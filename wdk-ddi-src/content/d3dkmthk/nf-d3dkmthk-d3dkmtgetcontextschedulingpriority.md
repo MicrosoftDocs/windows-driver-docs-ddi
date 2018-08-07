@@ -63,7 +63,7 @@ The <b>D3DKMTGetContextSchedulingPriority</b> function retrieves the scheduling 
 
 ### -param Arg1
 
-TBD
+
 
 
 

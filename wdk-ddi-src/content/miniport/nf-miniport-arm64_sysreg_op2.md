@@ -33,7 +33,8 @@ api_location:
 -	miniport.h
 api_name: 
 -	ARM64_SYSREG_OP2
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

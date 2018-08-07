@@ -38,7 +38,8 @@ api_location:
 -	PortableDeviceTypes.h
 api_name:
 -	IPortableDeviceValues.GetSignedLargeIntegerValue
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -63,7 +63,7 @@ The <b>D3DKMTPresent</b> function submits a present command to the Microsoft Dir
 
 ### -param Arg1
 
-TBD
+
 
 
 

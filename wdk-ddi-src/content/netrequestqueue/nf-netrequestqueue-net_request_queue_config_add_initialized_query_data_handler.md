@@ -35,7 +35,8 @@ apilocation:
 -	netrequestqueue.h
 apiname: 
 -	NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_QUERY_DATA_HANDLER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

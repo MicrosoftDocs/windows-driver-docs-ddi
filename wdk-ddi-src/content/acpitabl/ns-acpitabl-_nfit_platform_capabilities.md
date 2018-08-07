@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_NFIT_PLATFORM_CAPABILITIES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

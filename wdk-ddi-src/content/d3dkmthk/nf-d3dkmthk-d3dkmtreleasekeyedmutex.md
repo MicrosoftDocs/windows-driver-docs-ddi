@@ -63,7 +63,7 @@ The <b>D3DKMTReleaseKeyedMutex</b> function releases a keyed mutex object.
 
 ### -param Arg1
 
-TBD
+
 
 
 

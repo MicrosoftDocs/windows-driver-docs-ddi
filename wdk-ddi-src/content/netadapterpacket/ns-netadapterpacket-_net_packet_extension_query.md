@@ -31,7 +31,8 @@ apilocation:
 -	netadapterpacket.h
 apiname: 
 -	_NET_PACKET_EXTENSION_QUERY
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -33,7 +33,8 @@ api_location:
 -	ntddstor.h
 api_name: 
 -	RtlZeroMemory
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

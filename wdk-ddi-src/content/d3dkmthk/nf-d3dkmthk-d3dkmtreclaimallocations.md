@@ -60,7 +60,7 @@ Reclaims video memory allocations.
 
 ### -param D3DKMT_RECLAIMALLOCATIONS
 
-TBD
+
 
 
 

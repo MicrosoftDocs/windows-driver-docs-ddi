@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Defines the types of sensor device connections.
 ms.assetid: a2db361a-04a1-40d7-b8f3-ce8e554621f7
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 08/03/18
 ms.topic: enum
 ms.keywords: SENSOR_CONNECTION_TYPES, SENSOR_CONNECTION_TYPES,
 ms.prod: windows-hardware
@@ -29,7 +29,7 @@ api_location:
 api_name:
 -	SENSOR_CONNECTION_TYPES
 product: 
--Windows
+-	Windows
 targetos: Windows
 ---
 

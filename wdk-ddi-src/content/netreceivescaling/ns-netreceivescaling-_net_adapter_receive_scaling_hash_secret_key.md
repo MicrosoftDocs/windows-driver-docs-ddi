@@ -31,7 +31,8 @@ apilocation:
 -	netreceivescaling.h
 apiname: 
 -	_NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -35,7 +35,8 @@ apilocation:
 -	netrequestqueue.h
 apiname: 
 -	NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

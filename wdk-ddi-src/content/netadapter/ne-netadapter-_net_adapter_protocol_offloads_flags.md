@@ -30,7 +30,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

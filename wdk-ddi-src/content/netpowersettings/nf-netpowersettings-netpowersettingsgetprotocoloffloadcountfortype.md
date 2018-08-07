@@ -35,7 +35,8 @@ apilocation:
 -	netpowersettings.h
 apiname: 
 -	NetPowerSettingsGetProtocolOffloadCountForType
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

@@ -31,7 +31,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_INPUT_MAPPING_ELEMENT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

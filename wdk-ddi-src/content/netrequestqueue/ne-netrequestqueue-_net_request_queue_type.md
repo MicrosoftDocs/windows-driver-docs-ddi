@@ -30,7 +30,8 @@ apilocation:
 -	netrequestqueue.h
 apiname: 
 -	NET_REQUEST_QUEUE_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

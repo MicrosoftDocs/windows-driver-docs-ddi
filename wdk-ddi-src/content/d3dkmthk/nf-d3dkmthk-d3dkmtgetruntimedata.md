@@ -60,7 +60,7 @@ The <b>D3DKMTGetRuntimeData</b> function is for system use only.
 
 ### -param D3DKMT_GETRUNTIMEDATA
 
-TBD
+
 
 
 

@@ -63,7 +63,7 @@ The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the schedu
 
 ### -param
 
-TBD
+
 
 
 

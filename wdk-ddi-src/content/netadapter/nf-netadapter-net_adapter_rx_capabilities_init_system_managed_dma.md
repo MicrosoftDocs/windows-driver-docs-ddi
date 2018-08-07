@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

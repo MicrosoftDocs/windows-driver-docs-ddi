@@ -63,7 +63,7 @@ The <b>D3DKMTPollDisplayChildren</b> function queries for connectivity status of
 
 ### -param D3DKMT_POLLDISPLAYCHILDREN
 
-TBD
+
 
 
 

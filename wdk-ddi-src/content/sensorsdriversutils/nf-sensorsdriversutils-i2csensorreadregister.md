@@ -34,7 +34,7 @@ api_location:
 api_name:
 -	I2CSensorReadRegister
 product: 
--Windows
+- Windows
 targetos: Windows
 
 ---

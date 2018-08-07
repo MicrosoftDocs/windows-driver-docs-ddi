@@ -31,7 +31,8 @@ apilocation:
 -	netpacket.h
 apiname: 
 -	_NET_PACKET_LARGE_SEND_SEGMENTATION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -60,7 +60,7 @@ Called by an in-process (in-proc) Microsoft Direct3D composition device to set t
 
 ### -param D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 
-TBD
+
 
 
 

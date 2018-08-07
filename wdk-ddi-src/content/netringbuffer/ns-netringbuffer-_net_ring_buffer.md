@@ -33,7 +33,8 @@ apilocation:
 -	netringbuffer.h
 apiname: 
 -	NET_RING_BUFFER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

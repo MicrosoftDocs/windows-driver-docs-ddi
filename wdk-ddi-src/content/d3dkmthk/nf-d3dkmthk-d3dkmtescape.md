@@ -63,7 +63,7 @@ The <b>D3DKMTEscape</b> function exchanges information with the display miniport
 
 ### -param D3DKMT_ESCAPE
 
-TBD
+
 
 
 

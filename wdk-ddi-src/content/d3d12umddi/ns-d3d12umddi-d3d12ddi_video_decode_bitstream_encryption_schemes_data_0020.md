@@ -87,7 +87,7 @@ A pointer to a list of supported encryption schemes. The calling application all
 
 
 
-[pfnGetBitstreamEncryptionSchemeCount](nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md)
+
  
 
  

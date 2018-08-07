@@ -33,7 +33,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	ARM64_SYSREG_CRM
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

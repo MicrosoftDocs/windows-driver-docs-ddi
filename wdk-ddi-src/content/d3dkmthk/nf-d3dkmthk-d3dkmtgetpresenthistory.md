@@ -63,7 +63,7 @@ The <b>D3DKMTGetPresentHistory</b> function retrieves copying history.
 
 ### -param Arg1
 
-TBD
+
 
 
 

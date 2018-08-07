@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	RtlGetEnabledExtendedAndSupervisorFeatures
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	PortableDeviceTypes.h
 api_name:
 -	IPortableDeviceValues.GetAt
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

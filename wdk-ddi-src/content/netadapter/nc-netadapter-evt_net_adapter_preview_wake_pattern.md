@@ -34,7 +34,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	EvtNetAdapterPreviewWakePattern
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

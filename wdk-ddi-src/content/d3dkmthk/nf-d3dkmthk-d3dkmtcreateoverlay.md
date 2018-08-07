@@ -63,7 +63,7 @@ The <b>D3DKMTCreateOverlay</b> function creates a kernel-mode overlay object.
 
 ### -param Arg1
 
-TBD
+
 
 
 

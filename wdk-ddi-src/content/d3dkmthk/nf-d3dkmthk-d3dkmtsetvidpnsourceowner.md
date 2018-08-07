@@ -63,7 +63,7 @@ The <b>D3DKMTSetVidPnSourceOwner</b> function sets and releases the video presen
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER
 
-TBD
+
 
 
 

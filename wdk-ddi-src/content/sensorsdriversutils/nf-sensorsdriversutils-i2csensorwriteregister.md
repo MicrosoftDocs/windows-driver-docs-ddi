@@ -34,7 +34,7 @@ api_location:
 api_name:
 -	I2CSensorWriteRegister
 product: 
--Windows
+- Windows
 targetos: Windows
 
 ---

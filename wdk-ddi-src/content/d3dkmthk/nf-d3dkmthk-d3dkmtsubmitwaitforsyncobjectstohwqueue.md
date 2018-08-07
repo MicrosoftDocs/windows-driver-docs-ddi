@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Tbd
-req.dll: Tbd
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	tbd
+-	d3dkmthk.h
 api_name:
 -	D3DKMTSubmitWaitForSyncObjectsToHwQueue
 product:
@@ -60,7 +60,7 @@ Used to submit a wait to the hardware queue.
 
 ### -param D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 
-TBD
+
 
 
 

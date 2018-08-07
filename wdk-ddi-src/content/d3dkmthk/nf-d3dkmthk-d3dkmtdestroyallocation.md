@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyAllocation</b> function releases a resource, a list of alloc
 
 ### -param D3DKMT_DESTROYALLOCATION
 
-TBD
+
 
 
 

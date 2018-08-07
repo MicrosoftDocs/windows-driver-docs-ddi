@@ -33,7 +33,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	IMAGE_POLICY_OVERRIDE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

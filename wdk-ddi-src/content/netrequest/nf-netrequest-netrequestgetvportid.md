@@ -35,7 +35,8 @@ apilocation:
 -	netrequest.h
 apiname: 
 -	NetRequestGetVPortId
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

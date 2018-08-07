@@ -28,7 +28,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_DEVICE_DIRECTORY_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -8,9 +8,9 @@ ms.keywords: sensorsstructures.h
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: sensors
-product: 
-- Windows
 ---
 
 # Sensorsstructures.h header

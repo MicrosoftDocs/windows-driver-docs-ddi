@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetPacketGetPacketReceiveSegmentCoalescence
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

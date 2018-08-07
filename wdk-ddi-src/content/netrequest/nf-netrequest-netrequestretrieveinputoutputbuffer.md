@@ -35,7 +35,8 @@ apilocation:
 -	netrequest.h
 apiname: 
 -	NetRequestRetrieveInputOutputBuffer
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

@@ -33,7 +33,8 @@ apilocation:
 -	netpacket.h
 apiname: 
 -	NET_PACKET_CHECKSUM
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

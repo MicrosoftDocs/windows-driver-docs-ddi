@@ -63,7 +63,7 @@ The <b>D3DKMTSetProcessSchedulingPriorityClass</b> function sets the scheduling 
 
 ### -param
 
-TBD
+
 
 
 

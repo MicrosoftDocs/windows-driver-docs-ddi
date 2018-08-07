@@ -62,7 +62,7 @@ Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 ### -param D3DKMT_OPENADAPTERFROMLUID
 
-TBD
+
 
 
 

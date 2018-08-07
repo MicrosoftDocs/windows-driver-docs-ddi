@@ -63,7 +63,7 @@ The <b>D3DKMTGetMultisampleMethodList</b> function retrieves a list of multiple-
 
 ### -param Arg1
 
-TBD
+
 
 
 

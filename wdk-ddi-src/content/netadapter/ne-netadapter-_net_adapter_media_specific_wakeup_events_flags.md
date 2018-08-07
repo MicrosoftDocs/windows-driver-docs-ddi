@@ -30,7 +30,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NET_ADAPTER_MEDIA_SPECIFIC_WAKEUP_EVENTS_FLAGS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

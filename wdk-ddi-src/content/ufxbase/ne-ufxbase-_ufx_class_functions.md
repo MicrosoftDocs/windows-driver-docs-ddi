@@ -28,7 +28,8 @@ apilocation:
 -	ufxbase.h
 apiname: 
 -	_UFX_CLASS_FUNCTIONS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

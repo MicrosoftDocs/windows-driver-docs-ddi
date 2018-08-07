@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	D3COLD_REQUEST_CORE_POWER_RAIL
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

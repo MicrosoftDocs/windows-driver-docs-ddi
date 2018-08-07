@@ -62,7 +62,7 @@ The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
 
 ### -param D3DKMT_UNLOCK2
 
-TBD
+
 
 
 

@@ -60,7 +60,7 @@ Indicates that the driver has finished processing the duplicated desktop image.
 
 ### -param Arg1
 
-TBD
+
 
 
 

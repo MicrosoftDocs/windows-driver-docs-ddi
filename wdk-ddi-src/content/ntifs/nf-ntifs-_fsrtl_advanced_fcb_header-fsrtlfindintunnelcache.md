@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlFindInTunnelCache
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

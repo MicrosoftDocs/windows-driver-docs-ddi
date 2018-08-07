@@ -60,7 +60,7 @@ The <b>D3DKMTConfigureSharedResource</b> function configures a shared resource.
 
 ### -param D3DKMT_CONFIGURESHAREDRESOURCE
 
-TBD
+
 
 
 

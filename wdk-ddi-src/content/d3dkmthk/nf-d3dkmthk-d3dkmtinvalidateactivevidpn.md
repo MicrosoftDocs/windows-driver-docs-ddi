@@ -68,7 +68,7 @@ The <b>D3DKMTInvalidateActiveVidPn</b> function invalidates the active video pre
 
 ### -param D3DKMT_INVALIDATEACTIVEVIDPN
 
-TBD
+
 
 
 

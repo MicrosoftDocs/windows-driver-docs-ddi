@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyDevice</b> function releases a kernel-mode device context.
 
 ### -param D3DKMT_DESTROYDEVICE
 
-TBD
+
 
 
 

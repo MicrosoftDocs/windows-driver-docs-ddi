@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintJobCollection.NewEnum
 -	IPrintJobCollection.get_NewEnum
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wsk.h
 api_name:
 -	WskReleaseDataIndicationList
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

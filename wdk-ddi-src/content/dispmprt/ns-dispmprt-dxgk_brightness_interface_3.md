@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDXGK_BRIGHTNESS_INTERFACE_3, DXGK_BRIGHTNESS_INTERFACE_3
+req.typenames: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3
 topictype:
 -	apiref
 apitype:
@@ -32,7 +32,7 @@ apilocation:
 apiname:
 -	DXGK_BRIGHTNESS_INTERFACE_3
 product: 
-- Windows
+-	Windows
 targetos: Windows
 ---
 

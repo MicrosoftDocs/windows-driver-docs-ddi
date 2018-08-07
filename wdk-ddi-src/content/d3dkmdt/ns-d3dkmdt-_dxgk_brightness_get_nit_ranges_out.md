@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
-title: _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
+title: "_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT"
 author: windows-driver-content
 description:
 ms.assetid: a63d2e7b-ce96-4ac4-a918-2649280fc421
@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
+req.typenames: DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, *PDXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
 topictype:
 -	apiref
 apitype:
@@ -31,8 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
-product: 
-- Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

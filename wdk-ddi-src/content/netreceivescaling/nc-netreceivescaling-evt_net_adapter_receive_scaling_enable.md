@@ -34,7 +34,8 @@ apilocation:
 -	netreceivescaling.h
 apiname: 
 -	EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

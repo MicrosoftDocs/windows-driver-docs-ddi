@@ -34,7 +34,8 @@ api_location:
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
 -	FN_VMB_PACKET_SET_COMPLETION_ROUTINE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

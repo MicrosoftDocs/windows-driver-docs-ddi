@@ -63,7 +63,7 @@ Maps an NT process handle to a graphics processing unit (GPU) synchronization ob
 
 ### -param Arg1
 
-TBD
+
 
 
 

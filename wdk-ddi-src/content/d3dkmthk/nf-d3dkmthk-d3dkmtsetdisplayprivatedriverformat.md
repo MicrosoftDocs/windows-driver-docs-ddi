@@ -63,7 +63,7 @@ The <b>D3DKMTSetDisplayPrivateDriverFormat</b> function changes the private-form
 
 ### -param D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 
-TBD
+
 
 
 

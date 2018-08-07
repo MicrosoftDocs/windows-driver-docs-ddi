@@ -35,7 +35,8 @@ apilocation:
 -	netrequest.h
 apiname: 
 -	NetRequestGetId
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

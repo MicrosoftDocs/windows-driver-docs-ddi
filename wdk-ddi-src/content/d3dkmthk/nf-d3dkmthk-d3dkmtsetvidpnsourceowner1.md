@@ -60,7 +60,7 @@ Sets and releases the video present source in the path of a video present networ
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER1
 
-TBD
+
 
 
 
