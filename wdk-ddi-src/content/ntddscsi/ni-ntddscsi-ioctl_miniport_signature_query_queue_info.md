@@ -29,7 +29,8 @@ api_location:
 -	ntddscsi.h
 api_name: 
 -	IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -36,7 +36,8 @@ apilocation:
 -	netrxqueue.h
 apiname: 
 -	EVT_RXQUEUE_CANCEL
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

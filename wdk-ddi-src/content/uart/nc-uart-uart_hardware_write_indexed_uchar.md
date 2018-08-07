@@ -35,7 +35,8 @@ api_location:
 -	uart.h
 api_name:
 -	UART_HARDWARE_WRITE_INDEXED_UCHAR
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

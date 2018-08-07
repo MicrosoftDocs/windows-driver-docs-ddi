@@ -34,7 +34,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

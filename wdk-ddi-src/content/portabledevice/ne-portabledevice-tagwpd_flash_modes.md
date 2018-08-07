@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_FLASH_MODES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_FLASH_MODES
 ---

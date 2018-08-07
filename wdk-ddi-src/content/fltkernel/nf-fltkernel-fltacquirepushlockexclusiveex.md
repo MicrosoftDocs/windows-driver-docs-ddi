@@ -34,7 +34,8 @@ api_location:
 - fltmgr.sys
 api_name: 
 -	FltAcquirePushLockExclusiveEx
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

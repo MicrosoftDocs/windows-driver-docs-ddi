@@ -32,7 +32,8 @@ api_location:
 -	uart.h
 api_name:
 -	_UART_HARDWARE_ACCESS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

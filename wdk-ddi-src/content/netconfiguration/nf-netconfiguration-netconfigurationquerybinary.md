@@ -35,7 +35,8 @@ apilocation:
 -	netconfiguration.h
 apiname: 
 -	NetConfigurationQueryBinary
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

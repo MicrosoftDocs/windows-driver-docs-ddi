@@ -33,7 +33,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

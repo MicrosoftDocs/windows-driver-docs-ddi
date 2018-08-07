@@ -32,7 +32,8 @@ apilocation:
 -	ntpoapi.h
 apiname: 
 -	_PO_SPR_ACTIVE_SESSION_DATA
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

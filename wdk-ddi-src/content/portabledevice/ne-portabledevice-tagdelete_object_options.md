@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	DELETE_OBJECT_OPTIONS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: DELETE_OBJECT_OPTIONS
 ---

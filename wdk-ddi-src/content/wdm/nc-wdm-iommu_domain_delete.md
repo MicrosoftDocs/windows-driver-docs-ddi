@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	IOMMU_DOMAIN_DELETE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

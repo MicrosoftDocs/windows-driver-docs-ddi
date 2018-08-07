@@ -35,7 +35,8 @@ apilocation:
 -	netadapterpacket.h
 apiname: 
 -	NetRingBufferReturnCompletedPackets
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

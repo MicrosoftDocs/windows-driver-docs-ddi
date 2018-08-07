@@ -36,7 +36,8 @@ apilocation:
 -	netrxqueue.h
 apiname: 
 -	EVT_RXQUEUE_ADVANCE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

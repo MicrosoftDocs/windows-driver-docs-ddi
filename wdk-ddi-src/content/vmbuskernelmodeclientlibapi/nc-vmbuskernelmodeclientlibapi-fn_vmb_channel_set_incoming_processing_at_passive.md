@@ -34,7 +34,8 @@ api_location:
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
 -	FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

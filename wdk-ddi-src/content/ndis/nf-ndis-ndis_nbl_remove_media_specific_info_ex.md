@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

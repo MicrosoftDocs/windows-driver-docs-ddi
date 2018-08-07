@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetAdapterGetReceiveScalingHashSecretKey
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

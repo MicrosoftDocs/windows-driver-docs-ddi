@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NET_PACKET_EXTENSION_QUERY_INIT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

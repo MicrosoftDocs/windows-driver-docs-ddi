@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_PARAMETER_USAGE_TYPES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_PARAMETER_USAGE_TYPES
 ---

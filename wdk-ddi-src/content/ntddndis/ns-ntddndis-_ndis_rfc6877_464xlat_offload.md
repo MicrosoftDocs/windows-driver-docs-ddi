@@ -31,7 +31,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	_NDIS_RFC6877_464XLAT_OFFLOAD
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

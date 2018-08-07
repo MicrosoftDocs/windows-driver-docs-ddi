@@ -35,7 +35,8 @@ apilocation:
 apiname: 
 -	PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 -   AllocateCommonBufferWithBounds 
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

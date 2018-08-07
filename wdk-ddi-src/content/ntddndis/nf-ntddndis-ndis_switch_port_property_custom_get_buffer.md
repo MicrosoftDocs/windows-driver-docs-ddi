@@ -33,7 +33,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

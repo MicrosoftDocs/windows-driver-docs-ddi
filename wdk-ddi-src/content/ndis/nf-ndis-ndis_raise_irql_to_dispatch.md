@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NDIS_RAISE_IRQL_TO_DISPATCH
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
