@@ -4,10 +4,10 @@ title: "_NDIS_PD_OPEN_PROVIDER_PARAMETERS"
 author: windows-driver-content
 description: This structure is used as a buffer for parameters in the OID_PD_OPEN_PROVIDER OID.
 old-location: netvista\ndis_pd_open_provider_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 38612533-DC8A-4D46-9C95-9F16BD9C27AB
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_OPEN_PROVIDER_PARAMETERS, ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, netvista.ndis_pd_open_provider_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

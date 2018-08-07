@@ -4,7 +4,7 @@ title: IPrinterScriptableSequentialStream::Write
 author: windows-driver-content
 description: The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
 old-location: print\iprinterscriptablesequentialstream_write.htm
-old-project: print
+tech.root: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

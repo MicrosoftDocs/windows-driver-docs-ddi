@@ -4,7 +4,7 @@ title: FltCheckLockForWriteAccess function
 author: windows-driver-content
 description: The FltCheckLockForWriteAccess routine determines whether the caller has write access to a locked byte range of a file.
 old-location: ifsk\fltchecklockforwriteaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a98cbb3c-d2cb-4a60-8c5f-c637790db916
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

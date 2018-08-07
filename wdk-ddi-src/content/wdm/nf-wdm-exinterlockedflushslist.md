@@ -4,7 +4,7 @@ title: ExInterlockedFlushSList macro
 author: windows-driver-content
 description: The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.
 old-location: kernel\exinterlockedflushslist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

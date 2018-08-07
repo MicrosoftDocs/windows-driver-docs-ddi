@@ -4,7 +4,7 @@ title: FltIsCallbackDataDirty function
 author: windows-driver-content
 description: The FltIsCallbackDataDirty routine tests the FLTFL_CALLBACK_DATA_DIRTY flag in a callback data structure.
 old-location: ifsk\fltiscallbackdatadirty.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 128cab09-cbce-4a6f-9c57-5c8eda4477b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

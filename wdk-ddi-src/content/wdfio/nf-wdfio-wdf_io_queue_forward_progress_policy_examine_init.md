@@ -4,7 +4,7 @@ title: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function
 author: windows-driver-content
 description: The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function initializes a driver's WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure.
 old-location: wdf\wdf_io_queue_forward_progress_policy_examine_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3d1d7242-ff26-47e0-a1f6-ae67b27acf22
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

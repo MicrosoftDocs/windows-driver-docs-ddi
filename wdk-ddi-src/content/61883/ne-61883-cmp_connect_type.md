@@ -4,7 +4,7 @@ title: CMP_CONNECT_TYPE
 author: windows-driver-content
 description: This enumeration specifies a connection type.
 old-location: ieee\cmp_connect_type.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 8C206071-2616-4BFB-B7CA-E872CC8D5405
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

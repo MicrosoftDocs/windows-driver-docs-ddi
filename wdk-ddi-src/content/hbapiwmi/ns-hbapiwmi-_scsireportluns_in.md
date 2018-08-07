@@ -4,7 +4,7 @@ title: "_ScsiReportLuns_IN"
 author: windows-driver-content
 description: The ScsiReportLuns_IN structure is used to deliver input parameter data to the ScsiReportLuns WMI method.
 old-location: storage\scsireportluns_in2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

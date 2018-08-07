@@ -4,7 +4,7 @@ title: IPrintJob::get_Name
 author: windows-driver-content
 description: Gets the name of the print job.
 old-location: print\iprintjob_name.htm
-old-project: print
+tech.root: print
 ms.assetid: E060EDA8-691F-4860-B422-24DFB7FCAFEF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

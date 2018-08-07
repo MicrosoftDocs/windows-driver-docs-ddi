@@ -4,7 +4,7 @@ title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S structure specifies if interleaved capture is supported.
 old-location: stream\ksproperty_allocator_control_capture_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: be13bf95-eae9-4ae4-b5f3-cc1bdf3acd02
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

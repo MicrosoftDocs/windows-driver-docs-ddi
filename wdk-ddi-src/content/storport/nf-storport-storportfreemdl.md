@@ -4,7 +4,7 @@ title: StorPortFreeMdl function
 author: windows-driver-content
 description: The StorPortFreeMdl routine frees a memory descriptor list (MDL) describing non-paged pool memory.
 old-location: storage\storportfreemdl.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

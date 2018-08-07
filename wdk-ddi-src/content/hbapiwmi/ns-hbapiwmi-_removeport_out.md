@@ -4,7 +4,7 @@ title: "_RemovePort_OUT"
 author: windows-driver-content
 description: The RemovePort_OUT structure is used by an HBA miniport driver to the output parameter data of the RemovePort WMI method to the WMI client.
 old-location: storage\removeport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

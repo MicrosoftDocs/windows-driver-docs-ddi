@@ -4,7 +4,7 @@ title: StorPortReadRegisterUchar macro
 author: windows-driver-content
 description: The StorPortReadRegisterUchar routine reads a value from a specified register address.
 old-location: storage\storportreadregisteruchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1edf800d-f097-4d3f-ae89-1b11e4f82f2d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

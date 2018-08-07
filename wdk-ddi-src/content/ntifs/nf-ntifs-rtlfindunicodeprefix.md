@@ -4,7 +4,7 @@ title: RtlFindUnicodePrefix function
 author: windows-driver-content
 description: The RtlFindUnicodePrefix routine searches for the best match for a given Unicode file name in a prefix table.
 old-location: ifsk\rtlfindunicodeprefix.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 525db78d-b25c-4325-ac71-b992564a19c0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

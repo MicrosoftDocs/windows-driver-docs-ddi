@@ -4,7 +4,7 @@ title: IKsPinPipe::KsGetFilterName
 author: windows-driver-content
 description: Returns the name of a filter.
 old-location: stream\ikspinpipe_ksgetfiltername.htm
-old-project: stream
+tech.root: stream
 ms.assetid: A009B276-AF91-4FDD-AB81-6992311B3744
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

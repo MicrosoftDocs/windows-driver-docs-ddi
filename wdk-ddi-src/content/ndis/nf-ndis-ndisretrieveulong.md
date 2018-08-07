@@ -4,10 +4,10 @@ title: NdisRetrieveUlong macro
 author: windows-driver-content
 description: The NdisRetrieveUlong function retrieves a ULONG value from the source address, avoiding alignment faults.
 old-location: netvista\ndisretrieveulong.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 41788885-d8a1-4459-82a0-261b39862530
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRetrieveUlong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, netvista.ndisretrieveulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

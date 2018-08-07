@@ -4,7 +4,7 @@ title: ExFreePool function
 author: windows-driver-content
 description: The ExFreePool routine deallocates a block of pool memory.
 old-location: kernel\exfreepool.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c26f9b28-396d-40de-bdc3-287fc3ac4113
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

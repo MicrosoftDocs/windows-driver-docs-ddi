@@ -4,7 +4,7 @@ title: "_GetBindingCapability_OUT"
 author: windows-driver-content
 description: The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingCapability WMI method to the WMI client.
 old-location: storage\getbindingcapability_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c02bb43c-8f9a-470a-ba65-f3a69b5c6110
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

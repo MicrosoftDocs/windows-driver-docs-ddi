@@ -4,7 +4,7 @@ title: "_BUS_INTERFACE_STANDARD"
 author: windows-driver-content
 description: The BUS_INTERFACE_STANDARD interface structure enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_INTERFACE_STANDARD interface.
 old-location: kernel\bus_interface_standard.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cebe5b45-2a7a-4e33-aacb-5cc3ee112808
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

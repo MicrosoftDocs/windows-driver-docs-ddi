@@ -4,7 +4,7 @@ title: PrintNamedProperty
 author: windows-driver-content
 description: "."
 old-location: print\printnamedproperty.htm
-old-project: print
+tech.root: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

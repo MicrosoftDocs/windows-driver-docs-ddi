@@ -4,7 +4,7 @@ title: FsRtlSupportsPerFileContexts macro
 author: windows-driver-content
 description: The FsRtlSupportsPerFileContexts macro checks if per file context information is supported by the file system that is associated with a specified FILE_OBJECT.
 old-location: ifsk\fsrtlsupportsperfilecontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 28f0e98f-1f7b-4dcf-8151-e13981634617
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

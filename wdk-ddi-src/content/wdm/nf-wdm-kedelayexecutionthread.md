@@ -4,7 +4,7 @@ title: KeDelayExecutionThread function
 author: windows-driver-content
 description: The KeDelayExecutionThread routine puts the current thread into an alertable or nonalertable wait state for a specified interval.
 old-location: kernel\kedelayexecutionthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fe8dc704-3baf-4955-85fe-bba19181dbbf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

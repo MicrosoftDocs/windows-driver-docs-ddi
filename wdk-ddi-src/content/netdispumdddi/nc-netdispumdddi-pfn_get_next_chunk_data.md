@@ -4,10 +4,10 @@ title: PFN_GET_NEXT_CHUNK_DATA
 author: windows-driver-content
 description: Provides info about the next Miracast encode chunk that was reported to the Microsoft DirectX graphics kernel subsystem when the DXGK_INTERRUPT_TYPE interrupt type is DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE.The data type of this function is PFN_GET_NEXT_CHUNK_DATA.
 old-location: display\getnextchunkdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 ms.prod: windows-hardware
 ms.technology: windows-devices

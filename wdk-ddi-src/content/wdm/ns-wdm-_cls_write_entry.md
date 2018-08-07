@@ -4,7 +4,7 @@ title: "_CLS_WRITE_ENTRY"
 author: windows-driver-content
 description: The CLFS_WRITE_ENTRY structure holds the address and size of a buffer that contains one unit of data to be written to a Common Log File System (CLFS) stream.
 old-location: kernel\clfs_write_entry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4b008fc7-35fe-40f9-8475-1a2ac04edb58
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

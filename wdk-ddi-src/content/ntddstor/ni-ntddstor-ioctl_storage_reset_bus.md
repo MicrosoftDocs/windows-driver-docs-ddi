@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_RESET_BUS
 author: windows-driver-content
 description: Resets an I/O bus and, indirectly, each device on the bus.
 old-location: storage\ioctl_storage_reset_bus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 26c9d499-2d53-48b8-8704-3ec7b15e15d8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_DsmSetLoadBalancePolicyALUA_IN"
 author: windows-driver-content
 description: The DsmSetLoadBalancePolicyALUA_IN structure provides the input parameter for the DsmSetLoadBalancePolicyALUA method.
 old-location: storage\dsmsetloadbalancepolicyalua_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d46cfba0-a749-436a-99ad-d3606aea9a4d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

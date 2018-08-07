@@ -4,7 +4,7 @@ title: "_KEY_VALUE_FULL_INFORMATION"
 author: windows-driver-content
 description: The KEY_VALUE_FULL_INFORMATION structure defines information available for a value entry of a registry key.
 old-location: kernel\key_value_full_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0340cfa7-957d-4404-8dbd-d3178436de0f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

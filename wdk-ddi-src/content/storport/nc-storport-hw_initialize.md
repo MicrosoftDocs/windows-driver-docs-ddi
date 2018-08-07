@@ -4,7 +4,7 @@ title: HW_INITIALIZE
 author: windows-driver-content
 description: The HwStorInitialize routine initializes the miniport driver after a system reboot or power failure occurs.
 old-location: storage\hwstorinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: DOT11_MAC_FRAME_STATISTICS
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_mac_frame_statistics.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 57c75a4c-7224-45d5-af96-6e969548248a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -111,11 +111,11 @@ The number of MSDU packets and MMPDU frames that the IEEE MAC sublayer of the 80
 ### -field ullWEPExcludedCount
 
 The number of unencrypted received MAC protocol data unit (MPDU) frames that the MAC sublayer
-     discarded when the IEEE 802.11 
+     discarded when the IEEE 802.11
      <b>dot11ExcludeUnencrypted</b> management information base (MIB) object is enabled. For more information
-     about this MIB object, see 
+     about this MIB object, see
      <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>.
-     
+
 
 MPDU frames are considered unencrypted when the Protected Frame subfield of the Frame Control field
      in the IEEE 802.11 MAC header is set to zero.
@@ -165,8 +165,8 @@ The number of encrypted MPDU frames that the 802.11 station failed to decrypt be
 
 ### -field ullDecryptSuccessCount
 
-The number of received encrypted packets that the 802.11 station successfully decrypted. 
-     
+The number of received encrypted packets that the 802.11 station successfully decrypted.
+
 
 For the WEP and TKIP cipher algorithms, the miniport driver must increment this counter for each
      received encrypted MPDU that was successfully decrypted. For the AES-CCMP cipher algorithm, the miniport
@@ -176,8 +176,8 @@ For the WEP and TKIP cipher algorithms, the miniport driver must increment this 
 
 ### -field ullDecryptFailureCount
 
-The number of encrypted packets that the 802.11 station failed to decrypt. 
-     
+The number of encrypted packets that the 802.11 station failed to decrypt.
+
 
 For the WEP and TKIP cipher algorithms, the miniport driver must increment this counter for each
      received encrypted MPDU that was not successfully decrypted. For the AES-CCMP cipher algorithm, the

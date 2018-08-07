@@ -4,7 +4,7 @@ title: FsRtlRemovePerStreamContext function
 author: windows-driver-content
 description: FsRtlRemovePerStreamContext removes a per-stream context structure from the list of per-stream contexts associated with a file stream.
 old-location: ifsk\fsrtlremoveperstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4b046cfa-8f38-4910-8cb3-125395292bd2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

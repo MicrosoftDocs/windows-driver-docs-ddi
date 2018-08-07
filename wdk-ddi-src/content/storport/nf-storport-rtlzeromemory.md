@@ -4,7 +4,7 @@ title: RtlZeroMemory macro
 author: windows-driver-content
 description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 old-location: kernel\rtlzeromemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e9e20d9c-0f2f-4ab1-a249-3e09bb6a7a22
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,16 +16,16 @@ req.header: storport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Smclib.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
 req.ddi-compliance: BufAfterReqCompletedIntIoctlA, BufAfterReqCompletedIoctlA, BufAfterReqCompletedReadA, BufAfterReqCompletedWriteA
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)

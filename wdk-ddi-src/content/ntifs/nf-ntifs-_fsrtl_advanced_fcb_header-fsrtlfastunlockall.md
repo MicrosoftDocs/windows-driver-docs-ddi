@@ -4,7 +4,7 @@ title: FsRtlFastUnlockAll function
 author: windows-driver-content
 description: The FsRtlFastUnlockAll routine releases all byte-range locks that were acquired by the specified process for a file.
 old-location: ifsk\fsrtlfastunlockall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5004fb3c-f2e3-4663-9b95-7fb7bb38364d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlFastUnlockAll
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

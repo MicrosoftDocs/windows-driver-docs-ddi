@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
 author: windows-driver-content
 description: This structure contains the header information for ROI ISP controls.
 old-location: stream\kscamera_extendedprop_roi_ispcontrolheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: F57B0E44-A6A1-4C43-83EE-8DF4A605C0D0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

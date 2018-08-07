@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	PFND3D12DDI_OPENHEAPANDRESOURCE_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

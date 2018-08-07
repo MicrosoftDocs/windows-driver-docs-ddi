@@ -4,7 +4,7 @@ title: FsRtlNotifyVolumeEvent function
 author: windows-driver-content
 description: The FsRtlNotifyVolumeEvent routine notifies any registered applications that a volume event is occurring.
 old-location: ifsk\fsrtlnotifyvolumeevent.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNotifyVolumeEvent
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

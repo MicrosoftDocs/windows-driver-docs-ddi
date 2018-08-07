@@ -4,7 +4,7 @@ title: FsRtlAllocatePoolWithTag macro
 author: windows-driver-content
 description: The FsRtlAllocatePoolWithTag routine allocates pool memory.
 old-location: ifsk\fsrtlallocatepoolwithtag.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a9ea59d1-1d51-4332-b497-7d2b7f39e686
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

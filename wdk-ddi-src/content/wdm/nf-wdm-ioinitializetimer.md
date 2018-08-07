@@ -4,7 +4,7 @@ title: IoInitializeTimer function
 author: windows-driver-content
 description: The IoInitializeTimer routine sets up a driver-supplied IoTimer routine associated with a given device object.
 old-location: kernel\ioinitializetimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f2b0f74d-7417-443e-96ec-5101b1289f9d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

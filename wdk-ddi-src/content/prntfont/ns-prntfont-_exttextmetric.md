@@ -4,7 +4,7 @@ title: "_EXTTEXTMETRIC"
 author: windows-driver-content
 description: The EXTTEXTMETRIC structure is used to specify font-specific information within Unidrv font metrics files (.ufm files).
 old-location: print\exttextmetric.htm
-old-project: print
+tech.root: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

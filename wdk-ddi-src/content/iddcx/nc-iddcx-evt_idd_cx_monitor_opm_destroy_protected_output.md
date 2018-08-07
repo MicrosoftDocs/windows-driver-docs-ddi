@@ -4,10 +4,10 @@ title: EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT
 author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT is called by the OS to destroy an OPM protected output context.
 old-location: display\evt_idd_cx_monitor_opm_destroy_protected_output.htm
-old-project: display
+tech.root: display
 ms.assetid: 86bd815f-b413-4680-9679-8778a47a0e27
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT, EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT callback, EvtIddCxMonitorOpmDestroyProtectedOutput, EvtIddCxMonitorOpmDestroyProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_destroy_protected_output, iddcx/EvtIddCxMonitorOpmDestroyProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

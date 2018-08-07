@@ -4,7 +4,7 @@ title: "_ALLOCATOR_PROPERTIES_EX"
 author: windows-driver-content
 description: The ALLOCATOR_PROPERTIES_EX structure is for proxy use and not recommended for application use. ALLOCATOR_PROPERTIES_EX contains information that describes properties of an allocator.
 old-location: stream\allocator_properties_ex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6edb8af4-a5c9-430f-800a-8a6f47a9cce4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

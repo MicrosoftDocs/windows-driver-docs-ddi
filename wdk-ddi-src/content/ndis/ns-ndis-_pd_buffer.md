@@ -4,10 +4,10 @@ title: "_PD_BUFFER"
 author: windows-driver-content
 description: This structure represents a PacketDirect (PD) packet, or a portion of a PD packet in a queue.
 old-location: netvista\pd_buffer.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

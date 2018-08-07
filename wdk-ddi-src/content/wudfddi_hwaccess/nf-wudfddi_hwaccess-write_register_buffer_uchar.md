@@ -4,7 +4,7 @@ title: WRITE_REGISTER_BUFFER_UCHAR function
 author: windows-driver-content
 description: The WRITE_REGISTER_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified register.
 old-location: wdf\write_register_buffer_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5A124150-44E8-4F95-913A-8ECA29669A24
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

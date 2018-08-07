@@ -4,7 +4,7 @@ title: "_WDF_USB_PIPE_INFORMATION"
 author: windows-driver-content
 description: The WDF_USB_PIPE_INFORMATION structure contains information about a USB pipe and its endpoint.
 old-location: wdf\wdf_usb_pipe_information.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 05cba67b-c9da-4345-bc6f-09de12a617c1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

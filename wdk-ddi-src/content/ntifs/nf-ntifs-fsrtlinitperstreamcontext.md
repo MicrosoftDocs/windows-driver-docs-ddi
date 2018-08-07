@@ -4,7 +4,7 @@ title: FsRtlInitPerStreamContext macro
 author: windows-driver-content
 description: The FsRtlInitPerStreamContext macro initializes a filter driver context structure.
 old-location: ifsk\fsrtlinitperstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: eea0c2d7-0338-4f34-acae-6ab869011696
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

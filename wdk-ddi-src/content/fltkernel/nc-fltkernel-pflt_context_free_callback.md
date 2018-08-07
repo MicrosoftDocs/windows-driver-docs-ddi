@@ -4,7 +4,7 @@ title: PFLT_CONTEXT_FREE_CALLBACK
 author: windows-driver-content
 description: A minifilter can register a routine of type PFLT_CONTEXT_FREE_CALLBACK as the minifilter driver's ContextFreeCallback routine.
 old-location: ifsk\pflt_context_free_callback.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 11c397c2-51a5-4acd-8029-cd002f990366
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

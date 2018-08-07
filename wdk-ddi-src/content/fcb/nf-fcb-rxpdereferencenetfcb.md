@@ -4,7 +4,7 @@ title: RxpDereferenceNetFcb function
 author: windows-driver-content
 description: RxpDereferenceNetFcb decrements the reference count on an FCB structure.
 old-location: ifsk\rxpdereferencenetfcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6e59a1c7-ddd4-40a6-8e75-879cbef010db
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

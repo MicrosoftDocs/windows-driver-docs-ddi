@@ -34,7 +34,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	EVT_NET_ADAPTER_CREATE_TXQUEUE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

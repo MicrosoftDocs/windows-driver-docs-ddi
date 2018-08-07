@@ -4,7 +4,7 @@ title: PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE
 author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE as the minifilter driver's CompleteLockCallbackDataRoutine callback routine for a FILE_LOCK structure.
 old-location: ifsk\pflt_complete_lock_callback_data_routine.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5b6fe740-22bb-4620-86a2-1e3be1f380f3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RtlRealPredecessor function
 author: windows-driver-content
 description: The RtlRealPredecessor routine returns a pointer to the predecessor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealpredecessor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8cb981a4-7dea-4d42-bbde-35cf5494494b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

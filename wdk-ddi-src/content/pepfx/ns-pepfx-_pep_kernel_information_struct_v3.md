@@ -4,7 +4,7 @@ title: "_PEP_KERNEL_INFORMATION_STRUCT_V3"
 author: windows-driver-content
 description: The PEP_KERNEL_INFORMATION_STRUCT_V3 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx).
 old-location: kernel\pep_kernel_information_struct_v3.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AA3E273F-FCC0-4633-8A4C-194DA1C0E0D7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

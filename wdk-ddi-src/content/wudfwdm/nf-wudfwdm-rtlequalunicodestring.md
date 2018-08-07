@@ -4,7 +4,7 @@ title: RtlEqualUnicodeString function
 author: windows-driver-content
 description: The RtlEqualUnicodeString routine compares two Unicode strings to determine whether they are equal.
 old-location: kernel\rtlequalunicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

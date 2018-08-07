@@ -4,7 +4,7 @@ title: "_WHEA_IPF_CPE_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_IPF_CPE_DESCRIPTOR structure describes a corrected platform error (CPE) error source for an Itanium processor.
 old-location: whea\whea_ipf_cpe_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: ffe1c550-a7cc-4d27-9a1e-287fdc7e08eb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

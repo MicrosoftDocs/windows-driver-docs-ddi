@@ -4,7 +4,7 @@ title: "_IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
 author: windows-driver-content
 description: The IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure contains the connection context for a registered interrupt service routine (ISR) that was connected to an interrupt or interrupts by a previous call to the IoConnectInterruptEx routine.
 old-location: kernel\io_report_interrupt_active_state_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 430B8951-37F0-4173-ACC6-89DB542B4081
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

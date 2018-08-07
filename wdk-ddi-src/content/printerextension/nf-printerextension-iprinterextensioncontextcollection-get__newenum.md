@@ -4,7 +4,7 @@ title: IPrinterExtensionContextCollection::get__NewEnum method
 author: windows-driver-content
 description: Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects.
 old-location: print\iprinterextensioncontextcollection_newenum.htm
-old-project: print
+tech.root: print
 ms.assetid: 139B2E3F-AA08-4400-9BBF-A549B9EB2643
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

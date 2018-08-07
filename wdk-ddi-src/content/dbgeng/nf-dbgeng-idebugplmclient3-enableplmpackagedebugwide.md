@@ -4,10 +4,10 @@ title: IDebugPlmClient3::EnablePlmPackageDebugWide
 author: windows-driver-content
 description: Enables a Process Lifecycle Management (PLM) package debug.
 old-location: debugger\idebugplmclient3_enableplmpackagedebugwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 6373B8BD-264D-4D03-9FE9-F87E45D617EE
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EnablePlmPackageDebugWide, EnablePlmPackageDebugWide method [Windows Debugging], EnablePlmPackageDebugWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],EnablePlmPackageDebugWide method, IDebugPlmClient3.EnablePlmPackageDebugWide, IDebugPlmClient3::EnablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::EnablePlmPackageDebugWide, debugger.idebugplmclient3_enableplmpackagedebugwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

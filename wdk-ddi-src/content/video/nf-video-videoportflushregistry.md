@@ -4,10 +4,10 @@ title: VideoPortFlushRegistry function
 author: windows-driver-content
 description: The VideoPortFlushRegistry function flushes registry keys and values associated with the video miniport driver.
 old-location: display\videoportflushregistry.htm
-old-project: display
+tech.root: display
 ms.assetid: 8b940eec-dac6-4a01-afc8-73115bf994c3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortFlushRegistry, VideoPortFlushRegistry function [Display Devices], VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, display.videoportflushregistry, video/VideoPortFlushRegistry
 ms.prod: windows-hardware
 ms.technology: windows-devices

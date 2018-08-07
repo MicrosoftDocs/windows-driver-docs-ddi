@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_STOP"
 author: windows-driver-content
 description: This structure contains the field necessary to carry out a IsochStop request.
 old-location: ieee\irb_req_isoch_stop.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 1400FAC6-DD4E-4E8E-A0ED-C59B700F0672
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

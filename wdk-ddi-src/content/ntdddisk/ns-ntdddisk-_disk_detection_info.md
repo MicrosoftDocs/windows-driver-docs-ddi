@@ -4,7 +4,7 @@ title: "_DISK_DETECTION_INFO"
 author: windows-driver-content
 description: The DISK_DETECTION_INFO structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
 old-location: storage\disk_detection_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 67a508cf-79c4-4c86-9ad3-fa7cca99cf5f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

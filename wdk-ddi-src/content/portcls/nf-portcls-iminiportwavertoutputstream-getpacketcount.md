@@ -4,10 +4,10 @@ title: IMiniportWaveRTOutputStream::GetPacketCount
 author: windows-driver-content
 description: GetPacketCount returns the (1-based) count of packets completely transferred from the WaveRT buffer into hardware.
 old-location: audio\iminiportwavertoutputstream_getpacketcount.htm
-old-project: audio
+tech.root: audio
 ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetPacketCount, GetPacketCount method [Audio Devices], GetPacketCount method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetPacketCount method, IMiniportWaveRTOutputStream.GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, audio.iminiportwavertoutputstream_getpacketcount, portcls/IMiniportWaveRTOutputStream::GetPacketCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

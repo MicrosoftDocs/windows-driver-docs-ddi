@@ -4,7 +4,7 @@ title: RtlPtrdiffTMult function
 author: windows-driver-content
 description: Multiplies one value of type PTRDIFF_T by another.
 old-location: kernel\rtlptrdifftmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 71F6D886-D32E-4C90-B5BA-A4A1BBCD0B8F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

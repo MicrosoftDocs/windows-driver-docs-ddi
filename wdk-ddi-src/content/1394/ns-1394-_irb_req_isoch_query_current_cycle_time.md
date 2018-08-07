@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME"
 author: windows-driver-content
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochQueryCurrentCycleTime request.
 old-location: ieee\irb_req_isoch_query_current_cycle_time.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 4C42FB6D-BD5B-4376-A618-15AD6754AD9B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

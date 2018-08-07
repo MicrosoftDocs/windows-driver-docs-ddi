@@ -4,7 +4,7 @@ title: AtaPortCompleteRequest function
 author: windows-driver-content
 description: The AtaPortCompleteRequest routine completes the indicated IRB.
 old-location: storage\ataportcompleterequest.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2dddd012-9a13-49e4-9392-300938e78609
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

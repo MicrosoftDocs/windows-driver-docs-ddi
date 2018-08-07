@@ -4,7 +4,7 @@ title: "_DOT11_PHY_TYPE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 45ef8085-512e-4f9b-a7ea-e4f445555cf8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_PHY_TYPE { 
+typedef enum _DOT11_PHY_TYPE {
   dot11_phy_type_unknown     = 0,
   dot11_phy_type_any         = dot11_phy_type_unknown,
   dot11_phy_type_fhss        = 1,
@@ -143,9 +143,9 @@ Specifies a High Efficiency (HE) 802.11ax PHY.
 
 Specifies the start of the range that is used to define proprietary PHY types that are developed
      by an independent hardware vendor (IHV).
-     
 
-The 
+
+The
      <b>dot11_phy_type_IHV_start</b> enumerator value is valid only when the miniport driver is operating in
      Extensible Station (ExtSTA) mode.
 
@@ -154,9 +154,9 @@ The
 
 Specifies the end of the range that is used to define proprietary PHY types that are developed by
      an IHV.
-     
 
-The 
+
+The
      <b>dot11_phy_type_IHV_end</b> enumerator value is valid only when the miniport driver is operating in
      ExtSTA mode.
 
@@ -165,8 +165,8 @@ The
 
 
 
-An IHV can assign a value for its proprietary PHY types from 
-    <b>dot11_phy_type_IHV_start</b> through 
+An IHV can assign a value for its proprietary PHY types from
+    <b>dot11_phy_type_IHV_start</b> through
     <b>dot11_phy_type_IHV_end</b>. The IHV must assign a unique number from this range for each of its
     proprietary PHY types.
 

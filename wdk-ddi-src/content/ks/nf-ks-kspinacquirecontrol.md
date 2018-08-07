@@ -4,7 +4,7 @@ title: KsPinAcquireControl function
 author: windows-driver-content
 description: The KsPinAcquireControl function acquires the control mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinacquirecontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 05ff1829-8305-4bc4-be22-233d391a5dc0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_S2
 author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set that use two values at the same time.
 old-location: stream\ksproperty_cameracontrol_s2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b0ea25c0-5b10-403f-8c61-7840fe062596
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KsCreateTopologyNode2 function
 author: windows-driver-content
 description: Creates a handle to a topology node instance.
 old-location: stream\kscreatetopologynode2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 71a45396-0b23-4a20-a4f4-25355a1f6271
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

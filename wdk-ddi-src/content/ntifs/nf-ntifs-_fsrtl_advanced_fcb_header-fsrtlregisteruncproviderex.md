@@ -4,7 +4,7 @@ title: FsRtlRegisterUncProviderEx function
 author: windows-driver-content
 description: The FsRtlRegisterUncProviderEx routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 old-location: ifsk\fsrtlregisteruncproviderex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5b7302c1-2f31-4b9f-bddb-7b35bbee4a2c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlRegisterUncProviderEx
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

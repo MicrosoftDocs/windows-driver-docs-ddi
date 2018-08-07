@@ -4,7 +4,7 @@ title: IoGetActivityIdThread function
 author: windows-driver-content
 description: The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
 old-location: kernel\iogetactivityidthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 445A9EBA-EF15-4FE4-9747-3E1E138E13E7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

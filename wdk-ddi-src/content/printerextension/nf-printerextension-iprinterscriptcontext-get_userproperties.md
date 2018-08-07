@@ -4,7 +4,7 @@ title: IPrinterScriptContext::get_UserProperties
 author: windows-driver-content
 description: Provides access to the user property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_userproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 6F181350-41A3-4592-BB72-1E3AD6FEC748
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

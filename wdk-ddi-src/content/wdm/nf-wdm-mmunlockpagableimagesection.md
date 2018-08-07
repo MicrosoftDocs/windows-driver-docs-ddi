@@ -4,7 +4,7 @@ title: MmUnlockPagableImageSection function
 author: windows-driver-content
 description: The MmUnlockPagableImageSection routine releases a section of driver code or driver data, previously locked into system space with MmLockPagableCodeSection, MmLockPagableDataSection or MmLockPagableSectionByHandle, so the section can be paged out again.
 old-location: kernel\mmunlockpagableimagesection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3a6e3029-d378-4e42-8556-e3640cfdb392
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IoCancelIrp function
 author: windows-driver-content
 description: The IoCancelIrp routine sets the cancel bit in a given IRP and calls the cancel routine for the IRP if there is one.
 old-location: kernel\iocancelirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

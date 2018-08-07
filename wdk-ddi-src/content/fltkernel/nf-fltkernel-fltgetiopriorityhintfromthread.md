@@ -4,7 +4,7 @@ title: FltGetIoPriorityHintFromThread function
 author: windows-driver-content
 description: The FltGetIoPriorityHintFromThread routine is used by a minifilter driver to get IO priority information from a thread.
 old-location: ifsk\fltgetiopriorityhintfromthread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e79f7cf2-8d3e-42b9-810b-068afa60fb6e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

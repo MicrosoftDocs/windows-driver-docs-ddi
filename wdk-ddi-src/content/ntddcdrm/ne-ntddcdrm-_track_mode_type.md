@@ -4,7 +4,7 @@ title: "_TRACK_MODE_TYPE"
 author: windows-driver-content
 description: The TRACK_MODE_TYPE enumeration type is used in conjunction with the IOCTL_CDROM_RAW_READ request and the RAW_READ_INFO structure to read data from a CD-ROM in raw mode.
 old-location: storage\track_mode_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

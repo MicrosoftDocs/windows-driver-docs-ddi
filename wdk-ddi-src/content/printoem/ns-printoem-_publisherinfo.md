@@ -4,7 +4,7 @@ title: "_PUBLISHERINFO"
 author: windows-driver-content
 description: The PUBLISHERINFO structure is used as an input parameter to the IPrintOemPS::GetInfo method.
 old-location: print\publisherinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 6749b2e8-a9db-48a3-96e1-8592bcfa580d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

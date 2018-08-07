@@ -4,7 +4,7 @@ title: PADAPTER_RECEIVE_PACKET_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's AdapterReceivePacket callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver.
 old-location: stream\adapterreceivepacket.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8ee658bf-2243-4b1f-b4d6-5d9b6388e972
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

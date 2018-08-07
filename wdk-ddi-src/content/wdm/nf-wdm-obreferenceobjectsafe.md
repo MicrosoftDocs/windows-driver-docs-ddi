@@ -33,7 +33,8 @@ api_location:
 -	
 api_name: 
 -	ObReferenceObjectSafe
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

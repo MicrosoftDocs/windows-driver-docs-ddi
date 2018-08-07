@@ -4,7 +4,7 @@ title: FltIsEcpAcknowledged function
 author: windows-driver-content
 description: The FltIsEcpAcknowledged routine is used to determine if a given extra create parameter context structure (ECP) has been marked as acknowledged.
 old-location: ifsk\fltisecpacknowledged.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ae4f4dfd-2a1d-4116-b56c-f7250697cf9e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_AACS_SEND_CERTIFICATE
 author: windows-driver-content
 description: Sends the host certificate to the logical unit.
 old-location: storage\ioctl_aacs_send_certificate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e56b2d31-cb59-489d-ab12-7657406ba67a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

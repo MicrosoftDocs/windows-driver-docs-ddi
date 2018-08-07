@@ -4,7 +4,7 @@ title: "_WINBIO_CAPTURE_DATA"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
 old-location: biometric\winbio_capture_data.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,7 +4,7 @@ title: IoCheckQuotaBufferValidity function
 author: windows-driver-content
 description: The IoCheckQuotaBufferValidity routine checks whether the specified quota buffer is valid.
 old-location: ifsk\iocheckquotabuffervalidity.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

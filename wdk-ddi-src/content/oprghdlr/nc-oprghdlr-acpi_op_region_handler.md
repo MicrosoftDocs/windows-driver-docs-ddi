@@ -4,7 +4,7 @@ title: ACPI_OP_REGION_HANDLER
 author: windows-driver-content
 description: An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the ACPI driver to the device's operation region.
 old-location: acpi\pacpi_op_region_handler.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

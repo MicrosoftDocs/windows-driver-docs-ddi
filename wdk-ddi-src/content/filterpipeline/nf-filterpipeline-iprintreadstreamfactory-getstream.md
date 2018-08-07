@@ -4,7 +4,7 @@ title: IPrintReadStreamFactory::GetStream
 author: windows-driver-content
 description: The GetStream method gets the stream interface.
 old-location: print\iprintreadstreamfactory_getstream.htm
-old-project: print
+tech.root: print
 ms.assetid: 47447f00-a57d-4821-b10e-1b2cf7eaad94
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

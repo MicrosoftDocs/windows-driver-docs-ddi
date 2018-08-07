@@ -4,7 +4,7 @@ title: FsRtlNotifyCleanupAll function
 author: windows-driver-content
 description: The FsRtlNotifyCleanupAll routine removes all members of the specified notification list.
 old-location: ifsk\fsrtlnotifycleanupall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNotifyCleanupAll
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

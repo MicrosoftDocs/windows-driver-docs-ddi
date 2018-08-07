@@ -4,7 +4,7 @@ title: KsFilterFactorySetDeviceClassesState function
 author: windows-driver-content
 description: The KsFilterFactorySetDeviceClassesState function enables or disables the device classes that have been registered by a given filter factory.
 old-location: stream\ksfilterfactorysetdeviceclassesstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 66515f08-b652-4aa0-8f22-b5ff0a407d6a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

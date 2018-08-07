@@ -4,7 +4,7 @@ title: "_BDCB_STATUS_UPDATE_CONTEXT"
 author: windows-driver-content
 description: The BDCB_STATUS_UPDATE_CONTEXT structure describes a status update provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\bdcb_status_update_context.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5DB29B81-2D7A-44FA-B5A9-FEF87C6A926D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

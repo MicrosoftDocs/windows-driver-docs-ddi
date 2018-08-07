@@ -4,7 +4,7 @@ title: RtlSetOwnerSecurityDescriptor function
 author: windows-driver-content
 description: The RtlSetOwnerSecurityDescriptor routine sets the owner information of an absolute-format security descriptor. It replaces any owner information that is already present in the security descriptor.
 old-location: ifsk\rtlsetownersecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 43392c57-8fe9-4219-9f00-ac73c83c3abc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

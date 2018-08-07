@@ -4,7 +4,7 @@ title: RtlRemoveUnicodePrefix function
 author: windows-driver-content
 description: The RtlRemoveUnicodePrefix routine removes an element from a prefix table.
 old-location: ifsk\rtlremoveunicodeprefix.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b2f996b1-0c1a-4ad5-a4c4-5d84ca94c5a1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

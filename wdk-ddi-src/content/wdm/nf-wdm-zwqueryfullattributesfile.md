@@ -4,7 +4,7 @@ title: ZwQueryFullAttributesFile function
 author: windows-driver-content
 description: The ZwQueryFullAttributesFile routine supplies network open information for the specified file.
 old-location: kernel\zwqueryfullattributesfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 896ea6aa-54e8-4109-8597-58d8d2cd75ce
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

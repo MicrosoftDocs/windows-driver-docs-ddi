@@ -4,7 +4,7 @@ title: "_CM_EISA_FUNCTION_INFORMATION"
 author: windows-driver-content
 description: The CM_EISA_FUNCTION_INFORMATION structure defines detailed EISA configuration information returned by HalGetBusData for the input BusDataType EisaConfiguration, or by HalGetBusDataByOffset for the input BusDataType EisaConfiguration and the Offset zero, assuming the caller-allocated Buffer is of sufficient Length.
 old-location: kernel\cm_eisa_function_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06034776-4faf-4918-b9ec-bc095455cf14
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

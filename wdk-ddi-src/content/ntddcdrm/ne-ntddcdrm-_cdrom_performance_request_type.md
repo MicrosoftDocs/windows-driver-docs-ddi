@@ -4,7 +4,7 @@ title: "_CDROM_PERFORMANCE_REQUEST_TYPE"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_REQUEST_TYPE enumeration defines the types of performance data requests. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_request_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 139D6E9A-36EE-4162-B9C5-12E9D57C7BE7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

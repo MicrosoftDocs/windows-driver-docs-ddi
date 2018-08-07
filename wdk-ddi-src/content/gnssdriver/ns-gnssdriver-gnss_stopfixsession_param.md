@@ -4,7 +4,7 @@ title: GNSS_STOPFIXSESSION_PARAM
 author: windows-driver-content
 description: This structure is used to stop an active fix session.
 old-location: gnss\gnss_stopfixsession_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 37D56DC0-C35B-4651-93E9-28AF76041D5D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

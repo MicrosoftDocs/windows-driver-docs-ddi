@@ -4,7 +4,7 @@ title: RtlStringCchVPrintfExA function
 author: windows-driver-content
 description: The RtlStringCchVPrintfExW and RtlStringCchVPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchvprintfex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e28dd810-d86f-479f-b049-63a626ed432f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

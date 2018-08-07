@@ -4,7 +4,7 @@ title: FltAcquirePushLockExclusive macro
 author: windows-driver-content
 description: The FltAcquirePushLockExclusive routine acquires the given push lock for exclusive access by the calling thread.
 old-location: ifsk\fltacquirepushlockexclusive.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 98c916c4-49b0-47f5-acb1-ab1586d7a897
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

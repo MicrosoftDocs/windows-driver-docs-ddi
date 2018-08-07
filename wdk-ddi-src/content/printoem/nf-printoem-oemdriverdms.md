@@ -4,7 +4,7 @@ title: OEMDriverDMS function
 author: windows-driver-content
 description: OEMDriverDMS function
 old-location: print\oemdriverdms.htm
-old-project: print
+tech.root: print
 ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

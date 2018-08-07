@@ -4,7 +4,7 @@ title: "_SetFC3MgmtInfo_OUT"
 author: windows-driver-content
 description: The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of the SetFC3MgmtInfo WMI method to the WMI client.
 old-location: storage\setfc3mgmtinfo_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 00e6eb1a-3302-46ac-b859-9c22ad6cee22
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

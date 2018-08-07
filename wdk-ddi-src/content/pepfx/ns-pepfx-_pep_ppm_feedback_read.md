@@ -4,7 +4,7 @@ title: "_PEP_PPM_FEEDBACK_READ"
 author: windows-driver-content
 description: The PEP_PPM_FEEDBACK_READ structure contains the value read from a processor performance feedback counter.
 old-location: kernel\pep_ppm_feedback_read.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9D5787B8-CEF4-49AA-B7C6-C200AC95A280
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

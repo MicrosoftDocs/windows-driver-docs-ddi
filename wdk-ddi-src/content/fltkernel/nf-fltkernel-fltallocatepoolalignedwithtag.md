@@ -4,7 +4,7 @@ title: FltAllocatePoolAlignedWithTag function
 author: windows-driver-content
 description: FltAllocatePoolAlignedWithTag allocates a device-aligned buffer for use in a noncached I/O operation.
 old-location: ifsk\fltallocatepoolalignedwithtag.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ffb1493f-6076-4b93-8431-b3ffd4679f96
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

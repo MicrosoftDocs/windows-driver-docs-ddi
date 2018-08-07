@@ -4,7 +4,7 @@ title: IRequestCallbackRequestCompletion::OnCompletion
 author: windows-driver-content
 description: The OnCompletion method completes the specified request.
 old-location: wdf\irequestcallbackrequestcompletion_oncompletion.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1a4787da-2813-4a7a-820a-5c078175aba5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

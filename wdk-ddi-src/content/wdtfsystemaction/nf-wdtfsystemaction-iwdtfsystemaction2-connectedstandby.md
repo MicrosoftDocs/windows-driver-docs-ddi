@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::ConnectedStandby
 author: windows-driver-content
 description: Puts the system into Connected Standby state and exits Connected Standby state after the desired time has passed. This method only works on a computer that supports Always On Always Connected (AOAC).
 old-location: dtf\iwdtfsystemaction2_connectedstandby.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 11d774b1-2af9-453e-b53e-c232d84bcbee
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

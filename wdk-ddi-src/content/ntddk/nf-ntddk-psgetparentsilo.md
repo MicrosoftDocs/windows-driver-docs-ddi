@@ -4,7 +4,7 @@ title: PsGetParentSilo function
 author: windows-driver-content
 description: Retrieves the most immediate parent silo in the hierarchy for a given job object.
 old-location: kernel\psgetparentsilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IoCheckDesiredAccess function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iocheckdesiredaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ab90ab40-7b45-4658-b11b-cf46f91f8699
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

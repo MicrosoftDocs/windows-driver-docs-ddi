@@ -4,7 +4,7 @@ title: "_SID_AND_ATTRIBUTES"
 author: windows-driver-content
 description: The SID_AND_ATTRIBUTES structure represents a security identifier (SID) and its attributes. SIDs are used to uniquely identify users or groups.
 old-location: ifsk\sid_and_attributes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 37c299ab-16a6-4fa2-8ac9-55d75cc98f60
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

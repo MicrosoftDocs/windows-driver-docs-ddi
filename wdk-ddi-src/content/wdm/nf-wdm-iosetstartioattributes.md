@@ -4,7 +4,7 @@ title: IoSetStartIoAttributes function
 author: windows-driver-content
 description: The IoSetStartIoAttributes routine sets attributes for the driver's StartIo routine.
 old-location: kernel\iosetstartioattributes.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

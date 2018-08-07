@@ -4,7 +4,7 @@ title: "_DOT11_PORT_STATE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_port_state.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlclient.h
 req.include-header: Wlclient.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -89,7 +89,7 @@ The security session identifier (ID) assigned by the operating system.
 
 A Boolean value that defines whether the port is controlled for access to the BSS network. A value
      of <b>TRUE</b> specifies that the port has controlled access to the network.
-     
+
 
 For more information about controlled and uncontrolled port access, refer to Clause 6.3 of the IEEE
      802.1X-1999 standard.
@@ -99,7 +99,7 @@ For more information about controlled and uncontrolled port access, refer to Cla
 
 A Boolean value that defines whether the port is authorized to access the BSS network. A value of
      <b>TRUE</b> specifies that the port has been authorized for network access.
-     
+
 
 For more information about authorized port access, refer to Clause 6.3 of the IEEE 802.1X-1999
      standard.
@@ -109,11 +109,11 @@ For more information about authorized port access, refer to Clause 6.3 of the IE
 
 
 
-The operating system passes in the current port state of the security session through the 
-    <i>pPortState</i> parameter of the 
+The operating system passes in the current port state of the security session through the
+    <i>pPortState</i> parameter of the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
     Dot11ExtIhvPerformPostAssociate</a> IHV handler function. When this function is called, the IHV
-    Extensions DLL must not change the data referenced by the 
+    Extensions DLL must not change the data referenced by the
     <i>pPortState</i> parameter.
 
 

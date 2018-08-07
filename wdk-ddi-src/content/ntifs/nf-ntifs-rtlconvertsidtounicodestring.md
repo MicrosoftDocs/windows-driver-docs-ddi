@@ -4,7 +4,7 @@ title: RtlConvertSidToUnicodeString function
 author: windows-driver-content
 description: The RtlConvertSidToUnicodeString routine generates a printable Unicode string representation of a security identifier (SID).
 old-location: ifsk\rtlconvertsidtounicodestring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5dea6764-9ca0-4d38-9900-174637c4f648
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PEP_COMPONENT_ACTIVE"
 author: windows-driver-content
 description: The PEP_COMPONENT_ACTIVE structure identifies a component that is making a transition between the idle condition and the active condition.
 old-location: kernel\pep_component_active.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 58C2FFFC-2EAC-406B-943A-491AF3538F78
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

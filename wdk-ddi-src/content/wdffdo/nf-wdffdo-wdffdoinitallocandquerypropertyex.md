@@ -4,7 +4,7 @@ title: WdfFdoInitAllocAndQueryPropertyEx function
 author: windows-driver-content
 description: The WdfFdoInitAllocAndQueryPropertyEx method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdffdoinitallocandquerypropertyex.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8F338F5B-2F18-4D7D-AF96-7F80A48D37FB
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

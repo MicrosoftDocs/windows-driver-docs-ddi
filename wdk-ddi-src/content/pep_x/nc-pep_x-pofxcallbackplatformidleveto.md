@@ -4,7 +4,7 @@ title: POFXCALLBACKPLATFORMIDLEVETO
 author: windows-driver-content
 description: The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state.
 old-location: kernel\platformidleveto.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 61D637E6-316D-49A5-B1B1-C89415C7D0B8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

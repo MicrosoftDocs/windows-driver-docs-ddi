@@ -4,7 +4,7 @@ title: tagKS_DATAFORMAT_VIDEOINFOHEADER2
 author: windows-driver-content
 description: The KS_DATAFORMAT_VIDEOINFOHEADER2 structure describes a video stream that includes settings for bob or weave.
 old-location: stream\ks_dataformat_videoinfoheader2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92deaecd-69d7-4e64-bdb0-a2736add0c2f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

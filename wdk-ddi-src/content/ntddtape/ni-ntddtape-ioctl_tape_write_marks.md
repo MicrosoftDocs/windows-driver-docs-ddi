@@ -4,7 +4,7 @@ title: IOCTL_TAPE_WRITE_MARKS
 author: windows-driver-content
 description: Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 old-location: storage\ioctl_tape_write_marks.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cc4dabe3-4e14-4495-89b4-37f1a31ea62d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

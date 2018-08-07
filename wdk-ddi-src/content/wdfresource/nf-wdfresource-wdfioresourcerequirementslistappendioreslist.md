@@ -4,7 +4,7 @@ title: WdfIoResourceRequirementsListAppendIoResList function
 author: windows-driver-content
 description: The WdfIoResourceRequirementsListAppendIoResList method adds a logical configuration to the end of a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistappendioreslist.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

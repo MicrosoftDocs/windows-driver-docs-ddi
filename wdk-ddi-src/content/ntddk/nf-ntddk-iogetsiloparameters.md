@@ -4,7 +4,7 @@ title: IoGetSiloParameters function
 author: windows-driver-content
 description: This routine indicates if a file is within a Container context.
 old-location: ifsk\iogetsiloparameters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

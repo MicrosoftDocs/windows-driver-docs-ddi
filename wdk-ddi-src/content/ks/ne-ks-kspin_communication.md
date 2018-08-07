@@ -4,7 +4,7 @@ title: KSPIN_COMMUNICATION
 author: windows-driver-content
 description: "."
 old-location: stream\kspin_communication.htm
-old-project: stream
+tech.root: stream
 ms.assetid: DBBEEE9D-82C1-4387-AA6D-C5D86EDB138C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

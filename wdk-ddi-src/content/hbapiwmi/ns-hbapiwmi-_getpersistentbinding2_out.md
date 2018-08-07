@@ -4,7 +4,7 @@ title: "_GetPersistentBinding2_OUT"
 author: windows-driver-content
 description: The GetBindingSupport_OUT structure is used to report the output parameter data of the GetPersistentBinding2 WMI method to the WMI client.
 old-location: storage\getpersistentbinding2_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_PEP_COMPONENT_PERF_INFO"
 author: windows-driver-content
 description: The PEP_COMPONENT_PERF_INFO structure describes the performance states (P-states) of a component.
 old-location: kernel\pep_component_perf_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

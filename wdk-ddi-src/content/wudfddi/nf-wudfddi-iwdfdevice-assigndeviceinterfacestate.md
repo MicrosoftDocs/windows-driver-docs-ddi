@@ -4,7 +4,7 @@ title: IWDFDevice::AssignDeviceInterfaceState
 author: windows-driver-content
 description: The AssignDeviceInterfaceState method enables or disables the specified device interface instance for a device.
 old-location: wdf\iwdfdevice_assigndeviceinterfacestate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::RebootRestartWithContext
 author: windows-driver-content
 description: Reboots the system and restarts the test script with context data.
 old-location: dtf\iwdtfsystemaction2_rebootrestartwithcontext.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d88fe083-328c-4ce4-bb15-9fa824384f57
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

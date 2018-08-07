@@ -4,7 +4,7 @@ title: "_WDF_USB_CONTROL_SETUP_PACKET"
 author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET structure describes a setup packet for a USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f50ee559-3df7-4e15-b5a6-d6b85277c461
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

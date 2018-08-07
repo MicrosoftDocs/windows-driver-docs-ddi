@@ -4,7 +4,7 @@ title: RtlIsRightChild macro
 author: windows-driver-content
 description: The RtlIsRightChild routine determines whether a given splay link is the right child of a node in a splay link tree.
 old-location: ifsk\rtlisrightchild.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 23951fb8-35ab-4a05-b09b-d7f69057a5ad
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

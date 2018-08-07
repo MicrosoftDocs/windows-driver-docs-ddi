@@ -4,7 +4,7 @@ title: WDF_IO_QUEUE_PURGED function
 author: windows-driver-content
 description: The WDF_IO_QUEUE_PURGED function returns TRUE if an I/O queue's state indicates that the queue is drained.
 old-location: wdf\wdf_io_queue_purged.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: dbb061a6-a770-411c-9c3a-8453662b4362
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

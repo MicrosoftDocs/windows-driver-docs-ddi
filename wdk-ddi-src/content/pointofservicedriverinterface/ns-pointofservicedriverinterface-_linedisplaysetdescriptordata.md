@@ -4,7 +4,7 @@ title: "_LineDisplaySetDescriptorData"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetdescriptordata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 60E2379E-BF42-4290-98AA-5E6E8DE0A922
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

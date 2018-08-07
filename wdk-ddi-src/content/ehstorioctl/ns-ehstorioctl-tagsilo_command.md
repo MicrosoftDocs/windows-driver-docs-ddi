@@ -4,7 +4,7 @@ title: tagSILO_COMMAND
 author: windows-driver-content
 description: This structure describes a storage silo driver command.
 old-location: storage\silo_command.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4d40ac4b-9aca-4be6-8d4f-db94c3daf4e8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RtlFindSetBits function
 author: windows-driver-content
 description: The RtlFindSetBits routine searches for a range of set bits of a requested size within a bitmap.
 old-location: kernel\rtlfindsetbits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 35add921-e5a2-4c18-83db-86150c43b034
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

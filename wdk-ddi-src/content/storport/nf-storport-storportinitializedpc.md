@@ -4,7 +4,7 @@ title: StorPortInitializeDpc function
 author: windows-driver-content
 description: The StorPortInitializeDpc routine initializes a StorPort DPC.
 old-location: storage\storportinitializedpc.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

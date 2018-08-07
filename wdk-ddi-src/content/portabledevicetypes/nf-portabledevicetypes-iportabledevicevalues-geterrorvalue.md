@@ -1,0 +1,146 @@
+---
+UID: NF:portabledevicetypes.IPortableDeviceValues.GetErrorValue
+title: IPortableDeviceValues::GetErrorValue
+author: windows-driver-content
+description: Retrieves an HRESULT value (type VT_ERROR) specified by a key.
+old-location: wpddk\iportabledevicevalues_geterrorvalue.htm
+tech.root: wpd_dk
+ms.assetid: 6e5a0d31-3a89-4188-bf5f-6c7636c7106f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetErrorValue, GetErrorValue method, GetErrorValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetErrorValue method, IPortableDeviceValues.GetErrorValue, IPortableDeviceValues::GetErrorValue, IPortableDeviceValuesGetErrorValue, portabledevicetypes/IPortableDeviceValues::GetErrorValue, wpddk.iportabledevicevalues_geterrorvalue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: portabledevicetypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceTypes.h
+api_name:
+-	IPortableDeviceValues.GetErrorValue
+product:
+-	Windows
+targetos: Windows
+req.typenames: 
+---
+
+# IPortableDeviceValues::GetErrorValue
+
+
+## -description
+
+
+
+Retrieves an <b>HRESULT</b> value (type VT_ERROR) specified by a key.
+
+
+
+
+## -parameters
+
+
+
+
+### -param key [in]
+
+A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
+
+
+### -param pValue [out]
+
+Pointer to the retrieved <b>HRESULT</b> value.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DISP_E_TYPEMISMATCH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property specified by <i>key</i> is not an <b>HRESULT</b> type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property specified by <i>key</i> is not in the collection.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+None.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/58e21e7c-bb66-4088-b011-a2e3df28944c">IPortableDeviceValues::SetErrorValue</a>
+ 
+
+ 
+

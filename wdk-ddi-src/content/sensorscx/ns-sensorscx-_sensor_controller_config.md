@@ -4,10 +4,10 @@ title: "_SENSOR_CONTROLLER_CONFIG"
 author: windows-driver-content
 description: This structure contains pointers to callback functions that must be implemented by the driver, and passed on to the class extension to call.
 old-location: sensors\sensor_controller_config.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: EEAC4D16-D0B8-4147-AD2D-7EE60853EBDD
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: "*PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices], SENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], _SENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, sensorscx/PSENSOR_CONTROLLER_CONFIG, sensorscx/SENSOR_CONTROLLER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

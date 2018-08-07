@@ -4,7 +4,7 @@ title: IPrintOemPS2
 author: windows-driver-content
 description: This section describes the methods defined for the IPrintOemPS2 COM interface. In addition to these methods, this interface includes all of the methods defined in the IPrintOemPS COM interface.
 old-location: print\iprintoemps2_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: f2fb4176-c366-4cf9-bc17-59cc0c69a32b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

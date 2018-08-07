@@ -4,7 +4,7 @@ title: IoReleaseRemoveLockAndWait macro
 author: windows-driver-content
 description: The IoReleaseRemoveLockAndWait routine releases a remove lock that the driver acquired in a previous call to IoAcquireRemoveLock, and waits until all acquisitions of the lock have been released.
 old-location: kernel\ioreleaseremovelockandwait.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 79edb8b3-24a1-4dc0-b816-f78bbc888d3a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

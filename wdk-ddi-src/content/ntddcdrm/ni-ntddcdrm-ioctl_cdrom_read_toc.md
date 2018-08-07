@@ -4,7 +4,7 @@ title: IOCTL_CDROM_READ_TOC
 author: windows-driver-content
 description: Returns the table of contents of the media. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_read_toc.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4820dca5-7bbe-425d-9063-54450146f273
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

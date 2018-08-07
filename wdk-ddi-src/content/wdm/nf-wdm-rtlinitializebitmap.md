@@ -4,7 +4,7 @@ title: RtlInitializeBitMap function
 author: windows-driver-content
 description: The RtlInitializeBitMap routine initializes the header of a bitmap variable.
 old-location: kernel\rtlinitializebitmap.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1e196ad1-5804-4d41-a273-18eb40e8f265
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

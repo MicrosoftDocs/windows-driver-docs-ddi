@@ -4,7 +4,7 @@ title: KSINTERFACE_STANDARD
 author: windows-driver-content
 description: "."
 old-location: stream\ksinterface_standard.htm
-old-project: stream
+tech.root: stream
 ms.assetid: B000E3BD-28FA-454E-A598-3670B5FCD3DD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

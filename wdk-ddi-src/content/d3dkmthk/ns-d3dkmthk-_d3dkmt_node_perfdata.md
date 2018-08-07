@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_D3DKMT_NODE_PERFDATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

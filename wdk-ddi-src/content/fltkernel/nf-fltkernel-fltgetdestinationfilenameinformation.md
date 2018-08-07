@@ -4,7 +4,7 @@ title: FltGetDestinationFileNameInformation function
 author: windows-driver-content
 description: The FltGetDestinationFileNameInformation routine constructs a full destination path name for a file or directory that is being renamed or for which an NTFS hard link is being created.
 old-location: ifsk\fltgetdestinationfilenameinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

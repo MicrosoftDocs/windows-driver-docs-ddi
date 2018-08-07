@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_FORMATTABLE"
 author: windows-driver-content
 description: The FEATURE_DATA_FORMATTABLE structure contains information for the Formattable feature.
 old-location: storage\feature_data_formattable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 658ea6a4-309d-4f78-9a02-f93e7d945325
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

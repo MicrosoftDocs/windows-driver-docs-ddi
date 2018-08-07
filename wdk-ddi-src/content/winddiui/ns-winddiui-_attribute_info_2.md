@@ -4,7 +4,7 @@ title: "_ATTRIBUTE_INFO_2"
 author: windows-driver-content
 description: The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_2.htm
-old-project: print
+tech.root: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

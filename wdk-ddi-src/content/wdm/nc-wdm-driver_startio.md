@@ -4,7 +4,7 @@ title: DRIVER_STARTIO
 author: windows-driver-content
 description: The StartIo routine starts the I/O operation described by an IRP.
 old-location: kernel\startio.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 86ec9f67-346d-4ace-8bf0-a15dd57f0a89
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

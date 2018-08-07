@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD to set the temperature threshold of a storage device (when supported by the hardware).
 old-location: storage\ioctl_storage_set_temperature_threshold.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5D7348DC-1114-4346-9486-FCCE2C0F3E0F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

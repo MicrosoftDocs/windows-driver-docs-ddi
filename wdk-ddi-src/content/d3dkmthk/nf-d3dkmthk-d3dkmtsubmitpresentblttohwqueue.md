@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTSubmitPresentBltToHwQueue
 title: D3DKMTSubmitPresentBltToHwQueue function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 3dfcbcf4-f07d-4f22-9209-c9f3e6eb45ef
 ms.author: windowsdriverdev
 ms.date:
@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 req.ddi-compliance:
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname:
 -	D3DKMTSubmitPresentBltToHwQueue
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 
 ---

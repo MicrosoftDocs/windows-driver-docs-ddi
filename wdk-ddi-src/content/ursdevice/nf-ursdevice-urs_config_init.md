@@ -4,10 +4,10 @@ title: URS_CONFIG_INIT function
 author: windows-driver-content
 description: Initializes a URS_CONFIG structure.
 old-location: buses\urs_config_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init, ursdevice/URS_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

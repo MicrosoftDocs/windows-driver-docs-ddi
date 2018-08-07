@@ -4,7 +4,7 @@ title: "_SID_IDENTIFIER_AUTHORITY"
 author: windows-driver-content
 description: The SID_IDENTIFIER_AUTHORITY structure represents the top-level authority of a security identifier (SID).
 old-location: ifsk\sid_identifier_authority.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 66d8b02d-fbab-4ff7-8f47-858b9f143171
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

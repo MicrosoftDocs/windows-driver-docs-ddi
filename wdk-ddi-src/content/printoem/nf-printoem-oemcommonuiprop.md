@@ -4,7 +4,7 @@ title: OEMCommonUIProp function
 author: windows-driver-content
 description: OEMCommonUIProp function
 old-location: print\oemcommonuiprop.htm
-old-project: print
+tech.root: print
 ms.assetid: d993117d-e8d4-4e00-bcb8-c83a15b6c037
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

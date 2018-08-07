@@ -4,7 +4,7 @@ title: "_STOR_UNIT_ATTRIBUTES"
 author: windows-driver-content
 description: The STOR_UNIT_ATTRIBUTES structure contains bitfields indicating attribute support for a storage device unit.
 old-location: storage\stor_unit_attributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

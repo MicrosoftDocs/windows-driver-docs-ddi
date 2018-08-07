@@ -4,7 +4,7 @@ title: BranchOfficeLogOfflineFileFull
 author: windows-driver-content
 description: Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
 old-location: print\branchofficelogofflinefilefull.htm
-old-project: print
+tech.root: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGKARG_SUBMITCOMMANDTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: KsPinAttachAndGate function
 author: windows-driver-content
 description: The KsPinAttachAndGate function connects Pin as an input to a previously initialized AND gate, and connects AndGate as an input to the relevant filter's AND gate.
 old-location: stream\kspinattachandgate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_READ_CAPACITY"
 author: windows-driver-content
 description: The STORAGE_READ_CAPACITY contains the disk read capacity information returned from a IOCTL_STORAGE_READ_CAPACITIY request.
 old-location: storage\storage_read_capacity.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 891F04C5-277B-4197-942E-68ED21019950
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

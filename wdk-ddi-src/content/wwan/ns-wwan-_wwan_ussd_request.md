@@ -4,10 +4,10 @@ title: "_WWAN_USSD_REQUEST"
 author: windows-driver-content
 description: The WWAN_USSD_REQUEST structure describes an Unstructured Supplementary Service Data (USSD) request.
 old-location: netvista\wwan_ussd_request.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 429F5EC9-F8AA-4D5D-9CA7-D9D9AEC46842
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_USSD_REQUEST, PWWAN_USSD_REQUEST, PWWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_REQUEST, WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_REQUEST, netvista.wwan_ussd_request, wwan/PWWAN_USSD_REQUEST, wwan/WWAN_USSD_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

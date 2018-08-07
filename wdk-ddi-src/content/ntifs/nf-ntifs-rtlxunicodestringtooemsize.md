@@ -4,7 +4,7 @@ title: RtlxUnicodeStringToOemSize function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlxunicodestringtooemsize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1d5d036b-01a9-4df2-a93c-eb66dba2c2e3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

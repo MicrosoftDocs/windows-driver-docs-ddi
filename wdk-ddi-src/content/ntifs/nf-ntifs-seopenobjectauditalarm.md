@@ -4,7 +4,7 @@ title: SeOpenObjectAuditAlarm function
 author: windows-driver-content
 description: The SeOpenObjectAuditAlarm routine generates audit and alarm messages when an attempt is made to open an object.
 old-location: ifsk\seopenobjectauditalarm.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a4310cf8-1518-4d25-b2f9-a232ddd9c535
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

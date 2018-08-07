@@ -4,7 +4,7 @@ title: "_UNIFONTOBJ"
 author: windows-driver-content
 description: The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
 old-location: print\unifontobj.htm
-old-project: print
+tech.root: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

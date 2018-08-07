@@ -4,10 +4,10 @@ title: PFND3DDDI_SETPIXELSHADERCONSTI
 author: windows-driver-content
 description: The SetPixelShaderConstI function sets one or more pixel shader constant registers with integer values.
 old-location: display\setpixelshaderconsti.htm
-old-project: display
+tech.root: display
 ms.assetid: fafc046e-0595-4901-bfb1-70bd980388bc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTI, PFND3DDDI_SETPIXELSHADERCONSTI callback, SetPixelShaderConstI, SetPixelShaderConstI callback function [Display Devices], UserModeDisplayDriver_Functions_409d06ae-2fdf-4c27-9f12-abd91a179bcb.xml, d3dumddi/SetPixelShaderConstI, display.setpixelshaderconsti
 ms.prod: windows-hardware
 ms.technology: windows-devices

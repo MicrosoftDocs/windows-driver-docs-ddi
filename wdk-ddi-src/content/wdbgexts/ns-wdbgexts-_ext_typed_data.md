@@ -4,10 +4,10 @@ title: "_EXT_TYPED_DATA"
 author: windows-driver-content
 description: The EXT_TYPED_DATA structure is passed to and returned from the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI Request operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 old-location: debugger\ext_typed_data.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: "*PEXT_TYPED_DATA, EXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, _EXT_TYPED_DATA, debugger.ext_typed_data, wdbgexts/EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

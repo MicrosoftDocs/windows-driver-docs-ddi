@@ -35,7 +35,8 @@ apilocation:
 -	netadapterpacket.h
 apiname: 
 -	NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

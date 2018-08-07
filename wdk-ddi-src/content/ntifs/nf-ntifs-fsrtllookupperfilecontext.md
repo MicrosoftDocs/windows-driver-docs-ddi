@@ -4,7 +4,7 @@ title: FsRtlLookupPerFileContext function
 author: windows-driver-content
 description: The FsRtlLookupPerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a specified file.
 old-location: ifsk\fsrtllookupperfilecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b15598bd-8362-44f1-83ce-b4282d6604b0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

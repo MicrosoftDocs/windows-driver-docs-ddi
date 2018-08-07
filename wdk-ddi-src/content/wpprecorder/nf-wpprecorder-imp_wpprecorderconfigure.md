@@ -4,7 +4,7 @@ title: imp_WppRecorderConfigure function
 author: windows-driver-content
 description: The WppRecorderConfigure method enables or disables the default log to which WPP prints.
 old-location: devtest\wpprecorderconfigure.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 995E4606-F987-46A7-8310-28E8E9C7682C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice::RetrieveDescriptor
 author: windows-driver-content
 description: The RetrieveDescriptor method retrieves a USB descriptor, which can describe a device, configuration, or string.
 old-location: wdf\iwdfusbtargetdevice_retrievedescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

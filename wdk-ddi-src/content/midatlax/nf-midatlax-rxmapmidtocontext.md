@@ -4,7 +4,7 @@ title: RxMapMidToContext function
 author: windows-driver-content
 description: RxMapMidToContext maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure.
 old-location: ifsk\rxmapmidtocontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e0625c27-6de9-401f-a6bd-52697c4a57c0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

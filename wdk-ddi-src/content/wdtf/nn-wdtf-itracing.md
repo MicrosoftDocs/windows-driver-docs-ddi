@@ -4,7 +4,7 @@ title: ITracing
 author: windows-driver-content
 description: The ITracing interface sets an object's TTraceLevel value. This interface is a base interface for most of the WDTF interfaces.
 old-location: dtf\itracing.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 919f6ba4-ff8d-4836-b522-90c22a9221ea
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

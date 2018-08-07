@@ -4,7 +4,7 @@ title: FltGetContexts function
 author: windows-driver-content
 description: The FltGetContexts routine retrieves a minifilter driver's contexts for the objects related to the current operation.
 old-location: ifsk\fltgetcontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 886a0898-814b-4a24-bc83-c6e82e71dae2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

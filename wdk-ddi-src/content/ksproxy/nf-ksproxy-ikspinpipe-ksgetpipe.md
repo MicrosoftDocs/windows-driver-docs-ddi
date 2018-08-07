@@ -4,7 +4,7 @@ title: IKsPinPipe::KsGetPipe
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5672C7E2-83AA-4BDC-BE60-E2BC54BD636F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

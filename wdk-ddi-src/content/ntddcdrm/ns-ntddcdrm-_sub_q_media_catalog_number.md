@@ -4,7 +4,7 @@ title: "_SUB_Q_MEDIA_CATALOG_NUMBER"
 author: windows-driver-content
 description: The SUB_Q_MEDIA_CATALOG_NUMBER structure contains position information and is used in conjunction with the SUB_Q_CHANNEL_DATA structure.
 old-location: storage\sub_q_media_catalog_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 14b0aed7-1602-41a3-bc55-59da40650860
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

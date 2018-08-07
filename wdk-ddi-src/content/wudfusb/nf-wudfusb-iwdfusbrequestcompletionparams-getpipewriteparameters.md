@@ -4,7 +4,7 @@ title: IWDFUsbRequestCompletionParams::GetPipeWriteParameters
 author: windows-driver-content
 description: The GetPipeWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipewriteparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

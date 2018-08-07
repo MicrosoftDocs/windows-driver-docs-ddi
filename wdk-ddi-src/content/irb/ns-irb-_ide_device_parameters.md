@@ -4,7 +4,7 @@ title: "_IDE_DEVICE_PARAMETERS"
 author: windows-driver-content
 description: The IDE_DEVICE_PARAMETERS structure contains configuration information that the port driver provides to the miniport driver to configure a device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_device_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RILPOSITIONINFO_V2
 author: windows-driver-content
 description: This structure represents the RILPOSITIONINFO_V2.
 old-location: netvista\rilpositioninfo_v2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -130,7 +130,7 @@ The number of entries in the UMTS measured results list <b>ruMRL</b>.
 
 ### -field ruMRL
 
- 
+
 
 
 ### -field dwCntTDSCDMAMRL
@@ -140,7 +140,7 @@ The number of entries in the TD-SCDMA measured results list <b>rtMRL</b>. This f
 
 ### -field rtMRL
 
- 
+
 
 
 ### -field dwCntEUTRAMRL

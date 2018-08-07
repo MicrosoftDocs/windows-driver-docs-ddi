@@ -4,7 +4,7 @@ title: "_FILE_ALIGNMENT_INFORMATION"
 author: windows-driver-content
 description: The FILE_ALIGNMENT_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine.
 old-location: kernel\file_alignment_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d3990d67-aa0c-4d17-9126-80fdcebbd306
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

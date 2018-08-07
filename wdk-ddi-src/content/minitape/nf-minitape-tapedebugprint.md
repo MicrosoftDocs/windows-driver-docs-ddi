@@ -4,7 +4,7 @@ title: TapeDebugPrint function
 author: windows-driver-content
 description: The TapeDebugPrint routine prints the indicated string.
 old-location: storage\tapedebugprint.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d06e4308-f1a9-4acd-bc25-b3fd53129064
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_DVD_PLUS_R"
 author: windows-driver-content
 description: The FEATURE_DATA_DVD_PLUS_R structure contains information about the DVD+R feature.
 old-location: storage\feature_data_dvd_plus_r.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e1501ea9-a55b-4fbc-990b-2172c7369bb1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

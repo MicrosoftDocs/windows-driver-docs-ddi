@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_WRITE_INDEXED_UCHAR
 title: UART_HARDWARE_WRITE_INDEXED_UCHAR
 author: windows-driver-content
 description: Writes a byte to the specified port address.
-old-project: serports
+tech.root: serports
 ms.assetid: d40c35cf-b369-40cd-bf55-97ce6fe7288b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,23 +19,24 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_WRITE_INDEXED_UCHAR
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -43,18 +44,18 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to ...
 
 ## -prototype
 
 ```
 //Declaration
 
-UART_HARDWARE_WRITE_INDEXED_UCHAR UartHardwareWriteIndexedUchar; 
+UART_HARDWARE_WRITE_INDEXED_UCHAR UartHardwareWriteIndexedUchar;
 
 // Definition
 
-VOID UartHardwareWriteIndexedUchar 
+VOID UartHardwareWriteIndexedUchar
 (
 	PCPPORT Port
 	 const UCHAR Index

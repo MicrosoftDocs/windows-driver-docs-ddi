@@ -4,10 +4,10 @@ title: "_DD_GETEXTENDEDMODEDATA"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETEXTENDEDMODEDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETEXTENDEDMODE.
 old-location: display\dd_getextendedmodedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 50b2a1fd-4214-4ad8-b087-f48c14dbe587
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

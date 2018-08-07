@@ -4,7 +4,7 @@ title: IWDFUsbRequestCompletionParams
 author: windows-driver-content
 description: The IWDFUsbRequestCompletionParams interface exposes the parameters object for the completion of a USB request object. The parameters object is primarily required for asynchronous I/O and layered drivers.
 old-location: wdf\iwdfusbrequestcompletionparams.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 50a0c8c9-06c6-48c9-a799-0949cf415f6e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

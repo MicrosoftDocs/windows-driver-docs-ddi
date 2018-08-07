@@ -4,7 +4,7 @@ title: WcsSetUsePerUserProfiles function
 author: windows-driver-content
 description: The WcsSetUsePerUserProfiles function allows the user to specify whether or not to use a per-user profile association list for the specified device.
 old-location: print\wcssetuseperuserprofiles.htm
-old-project: print
+tech.root: print
 ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IO_COMPLETION_ROUTINE
 author: windows-driver-content
 description: The IoCompletion routine completes the processing of I/O operations.
 old-location: kernel\iocompletion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 53fc5265-5d8e-4794-942b-de81b93e81da
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

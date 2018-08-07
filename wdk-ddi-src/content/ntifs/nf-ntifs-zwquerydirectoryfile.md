@@ -4,7 +4,7 @@ title: ZwQueryDirectoryFile function
 author: windows-driver-content
 description: The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
 old-location: kernel\zwquerydirectoryfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 47e88095-fab3-4fa2-814e-db04ce864e7e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

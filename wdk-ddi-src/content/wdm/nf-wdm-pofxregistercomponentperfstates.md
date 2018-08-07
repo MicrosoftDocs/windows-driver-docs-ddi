@@ -4,7 +4,7 @@ title: PoFxRegisterComponentPerfStates function
 author: windows-driver-content
 description: The PoFxRegisterComponentPerfStates routine registers a device component for performance state management by the power management framework (PoFx).
 old-location: kernel\pofxregistercomponentperfstates.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5A52543B-F0EA-4318-A66F-F9FA60FF94F5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

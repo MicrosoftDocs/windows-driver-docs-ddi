@@ -4,7 +4,7 @@ title: WdfObjectQuery function
 author: windows-driver-content
 description: The WdfObjectQuery method is not implemented.
 old-location: wdf\wdfobjectquery.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c9e654cc-7ea5-41dd-8ee5-23a89f61e3c1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

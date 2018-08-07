@@ -4,7 +4,7 @@ title: ST_PARAMETER_DATA
 author: windows-driver-content
 description: The ST_PARAMETER_DATA structure contains the parameter list for the set timestamp command.
 old-location: storage\st_parameter_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

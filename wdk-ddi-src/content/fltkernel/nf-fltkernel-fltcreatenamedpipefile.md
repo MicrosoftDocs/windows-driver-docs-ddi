@@ -4,7 +4,7 @@ title: FltCreateNamedPipeFile function
 author: windows-driver-content
 description: Minifilter drivers call FltCreateNamedPipeFile to create a new pipe or open an existing pipe.
 old-location: ifsk\fltcreatenamedpipefile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

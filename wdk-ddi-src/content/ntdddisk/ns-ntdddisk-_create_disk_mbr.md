@@ -4,7 +4,7 @@ title: "_CREATE_DISK_MBR"
 author: windows-driver-content
 description: The CREATE_DISK_MBR structure is used with the IOCTL IOCTL_DISK_CREATE_DISK to initialize a disk with an empty MBR partition table.
 old-location: storage\create_disk_mbr.htm
-old-project: storage
+tech.root: storage
 ms.assetid: afc0e705-ae98-486b-82d3-4f21fca89e70
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

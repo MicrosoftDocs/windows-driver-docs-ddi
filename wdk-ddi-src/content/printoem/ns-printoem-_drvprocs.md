@@ -4,7 +4,7 @@ title: "_DRVPROCS"
 author: windows-driver-content
 description: The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
 old-location: print\drvprocs.htm
-old-project: print
+tech.root: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

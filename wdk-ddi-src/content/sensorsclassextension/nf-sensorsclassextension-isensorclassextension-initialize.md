@@ -4,10 +4,10 @@ title: ISensorClassExtension::Initialize
 author: windows-driver-content
 description: The ISensorClassExtension::Initialize method initializes the sensor class extension object.
 old-location: sensors\isensorclassextension_initialize.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 9b5b9cdf-06a9-410f-87c3-b87318c25a11
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Initialize method, ISensorClassExtension.Initialize, ISensorClassExtension::Initialize, Initialize, Initialize method [Sensor Devices], Initialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_initialize, sensorsclassextension/ISensorClassExtension::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

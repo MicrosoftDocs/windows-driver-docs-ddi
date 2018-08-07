@@ -4,7 +4,7 @@ title: "_WPP_TRIAGE_INFO"
 author: windows-driver-content
 description: Used to locate the WPP log for WER reporting.
 old-location: devtest\wpp_triage_info.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: BC2722A8-C09A-4C46-9EC3-45DCF4A6FD64
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

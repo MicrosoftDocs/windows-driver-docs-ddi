@@ -4,7 +4,7 @@ title: HBA_RegisterLibraryV2 function
 author: windows-driver-content
 description: "."
 old-location: storage\hba_registerlibraryv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6e7c0aa1-5919-4451-8c5d-97d17c2ed192
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

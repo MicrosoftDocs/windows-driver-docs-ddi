@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::Continue
 author: windows-driver-content
 description: Continues the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_continue.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 5625c4af-329d-4b16-9d5d-0ca962a7abff
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

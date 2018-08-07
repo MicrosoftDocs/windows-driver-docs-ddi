@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

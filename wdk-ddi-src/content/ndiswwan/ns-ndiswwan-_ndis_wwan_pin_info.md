@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_PIN_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_PIN_INFO structure represents the type and PIN-entry state of Personal Identification Number (PIN) information required by the MB device.
 old-location: netvista\ndis_wwan_pin_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 432e1d25-b7f4-4897-99dc-27ea14c851e2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml, _NDIS_WWAN_PIN_INFO, ndiswwan/NDIS_WWAN_PIN_INFO, ndiswwan/PNDIS_WWAN_PIN_INFO, netvista.ndis_wwan_pin_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

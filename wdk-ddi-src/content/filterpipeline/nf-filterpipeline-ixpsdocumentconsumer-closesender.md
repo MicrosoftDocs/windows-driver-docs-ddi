@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer::CloseSender
 author: windows-driver-content
 description: The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts.
 old-location: print\ixpsdocumentconsumer_closesender.htm
-old-project: print
+tech.root: print
 ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

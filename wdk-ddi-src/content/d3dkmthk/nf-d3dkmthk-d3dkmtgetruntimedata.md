@@ -4,10 +4,10 @@ title: D3DKMTGetRuntimeData function
 author: windows-driver-content
 description: The D3DKMTGetRuntimeData function is for system use only.
 old-location: display\d3dkmtgetruntimedata.htm
-old-project: display
+tech.root: display
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, PFND3DKMT_GETRUNTIMEDATA callback, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>D3DKMTGetRuntimeData</b> function is for system use only.
 
 ### -param D3DKMT_GETRUNTIMEDATA
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: "_MPIO_DEVINSTANCE_HEALTH_INFO"
 author: windows-driver-content
 description: The MPIO_DEVINSTANCE_HEALTH_INFO structure is used to query the available health information for every instance of a multi-path disk on each of the paths through which it is exposed.
 old-location: storage\mpio_devinstance_health_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7f254389-58cf-43da-8611-a1598cc2eb66
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

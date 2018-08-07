@@ -4,7 +4,7 @@ title: "_PEP_NOTIFY_COMPONENT_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state.
 old-location: kernel\pep_notify_component_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 63DB9626-BB05-43C4-BBC0-3A63ED5D6E94
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

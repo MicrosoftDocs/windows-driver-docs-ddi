@@ -4,7 +4,7 @@ title: "_PREFETCH_OPEN_ECP_CONTEXT"
 author: windows-driver-content
 description: The PREFETCH_OPEN_ECP_CONTEXT structure communicates whether the prefetcher performs a given open request on a file.
 old-location: ifsk\prefetch_open_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 199a3003-a7dd-48a3-aa76-550332be26f3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

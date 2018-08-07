@@ -4,7 +4,7 @@ title: SdpCreateNodeTree function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeTree function is used to allocate an empty root SDP_TREE_ROOT_NODE structure.
 old-location: bltooth\sdpcreatenodetree.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c019f382-1ad3-4b08-a254-ae803e2b6bc6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

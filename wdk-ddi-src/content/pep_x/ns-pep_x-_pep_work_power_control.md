@@ -4,7 +4,7 @@ title: "_PEP_WORK_POWER_CONTROL"
 author: windows-driver-content
 description: The PEP_WORK_POWER_CONTROL structure contains the parameters for a power control request that the platform extension plug-in (PEP) sends directly to a processor driver.
 old-location: kernel\pep_work_power_control.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 84258422-A2AE-449F-97C8-41336FEA5D8B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

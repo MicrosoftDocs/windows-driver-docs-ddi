@@ -2,15 +2,15 @@
 UID: NS:uart._UART_HARDWARE_DRIVER
 title: _UART_HARDWARE_DRIVER
 author: windows-driver-content
-description: Contains function pointers for interacting with a specific type of UART hardware. 
-old-project: serports
+description: Contains function pointers for interacting with a specific type of UART hardware.
+tech.root: serports
 ms.assetid: 8c521dda-f906-44a8-b0cc-283bd1afacf6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _UART_HARDWARE_DRIVER, UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER, 
+ms.keywords: _UART_HARDWARE_DRIVER, UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER,
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -24,15 +24,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER
-topic_type: 
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	HeaderDef
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	_UART_HARDWARE_DRIVER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -45,18 +46,18 @@ Contains function pointers for interacting with a specific type of UART hardware
 
 ### -field InitializePort
 A pointer to a [**UART_INITIALIZE_PORT**](nc-uart-uart_initialize_port.md) callback function to initialize/reset the UART hardware. This function must be called before calling any other driver functions.
- 
+
 ### -field SetBaud
 A pointer to a [**UART_SET_BAUD**](ns-uart-_uart_hardware_driver.md) callback function that sets the baud rate of the UART hardware to the specified value.
 
 ### -field GetByte
 A pointer to a [**UART_GET_BYTE**](nc-uart-uart_get_byte.md) callback function that reads a byte from the UART device.
- 
+
 ### -field PutByte
 A pointer to a [**UART_PUT_BYTE**](nc-uart-uart_put_byte.md) callback function that writes a byte to the UART device.
- 
+
 ### -field RxReady
-A pointer to a [**UART_RX_READY**](nc-uart-uart_rx_ready.md) callback function that determines whether there is data pending in the UART hardware. 
+A pointer to a [**UART_RX_READY**](nc-uart-uart_rx_ready.md) callback function that determines whether there is data pending in the UART hardware.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ title: AddPortUI function
 author: windows-driver-content
 description: A port monitor UI DLL's AddPortUI function adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
 old-location: print\addportui.htm
-old-project: print
+tech.root: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

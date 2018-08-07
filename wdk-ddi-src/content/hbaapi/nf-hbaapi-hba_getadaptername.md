@@ -4,7 +4,7 @@ title: HBA_GetAdapterName function
 author: windows-driver-content
 description: The HBA_GetAdapterName routine retrieves the text string that identifies the HBA name that corresponds to the indicated adapter index.
 old-location: storage\hba_getadaptername.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ec17efca-2cb9-4ab4-b98f-7319f6145e4e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_UPDATE_DRIVE_SIZE
 author: windows-driver-content
 description: Updates device extension with drive size information for current media.
 old-location: storage\ioctl_disk_update_drive_size.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a12c1082-c3ff-40b8-b756-be320ab98b30
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

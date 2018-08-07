@@ -4,10 +4,10 @@ title: IDebugControl5
 author: windows-driver-content
 description: "."
 old-location: debugger\idebugcontrol5.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 6C358D49-970D-4687-B16E-7D1B44CB0A8E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugControl5, IDebugControl5 interface [Windows Debugging], IDebugControl5 interface [Windows Debugging],described, dbgeng/IDebugControl5, debugger.idebugcontrol5
 ms.prod: windows-hardware
 ms.technology: windows-devices

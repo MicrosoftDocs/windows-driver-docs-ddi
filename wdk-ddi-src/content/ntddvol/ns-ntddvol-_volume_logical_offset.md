@@ -4,7 +4,7 @@ title: "_VOLUME_LOGICAL_OFFSET"
 author: windows-driver-content
 description: The VOLUME_LOGICAL_OFFSET structure contains a logical offset into a volume.
 old-location: storage\volume_logical_offset.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4b0a982b-63ae-4109-a4be-2dd82824e75a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

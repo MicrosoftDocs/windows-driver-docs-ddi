@@ -4,7 +4,7 @@ title: KsPinGetOuterUnknown function
 author: windows-driver-content
 description: The KsPinGetOuterUnknown function returns the outer IUnknown of the pin specified by Pin.
 old-location: stream\kspingetouterunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 58b14ddd-6698-487a-925d-7d559057e55d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

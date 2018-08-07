@@ -4,7 +4,7 @@ title: PsCreateSystemThread function
 author: windows-driver-content
 description: The PsCreateSystemThread routine creates a system thread that executes in kernel mode and returns a handle for the thread.
 old-location: kernel\pscreatesystemthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

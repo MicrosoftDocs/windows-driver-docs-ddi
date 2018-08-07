@@ -4,7 +4,7 @@ title: KsFilterGetNextSiblingFilter function
 author: windows-driver-content
 description: The KsFilterGetNextSiblingFilter function returns the next instantiated filter belonging to the parent filter factory of Filter.
 old-location: stream\ksfiltergetnextsiblingfilter.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0b0a306a-6066-4a7d-ae2d-12eb8bb3adc0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NdisTestNblFlags
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

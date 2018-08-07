@@ -4,7 +4,7 @@ title: ITracer::GetBits
 author: windows-driver-content
 description: The GetBits method returns the set of tracing flags for a coclass as a bit mask, given a specified TTraceLevel value and the CLSID of the coclass.
 old-location: dtf\itracer_getbits_method.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d5c4f28a-63c0-4b9e-9994-de4589ea96c9
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

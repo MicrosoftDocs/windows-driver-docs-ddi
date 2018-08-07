@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 author: windows-driver-content
 description: Used to specify camera video stabilization.
 old-location: stream\ksproperty_cameracontrol_video_stabilization_mode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a6075509-1f88-4d24-8bac-2c7e047c8525
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

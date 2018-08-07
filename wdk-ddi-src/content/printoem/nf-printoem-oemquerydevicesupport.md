@@ -4,7 +4,7 @@ title: OEMQueryDeviceSupport function
 author: windows-driver-content
 description: The OEMQueryDeviceSupport function returns requested device-specific information.
 old-location: print\oemquerydevicesupport.htm
-old-project: print
+tech.root: print
 ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

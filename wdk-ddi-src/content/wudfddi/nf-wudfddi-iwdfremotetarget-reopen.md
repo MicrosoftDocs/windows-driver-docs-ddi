@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::Reopen
 author: windows-driver-content
 description: The Reopen method reopens a remote I/O target after it has been temporarily closed.
 old-location: wdf\iwdfremotetarget_reopen.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

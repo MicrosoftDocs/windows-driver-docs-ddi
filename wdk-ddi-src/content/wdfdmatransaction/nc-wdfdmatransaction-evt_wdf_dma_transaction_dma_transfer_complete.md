@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE
 author: windows-driver-content
 description: A driver's EvtDmaTransactionDmaTransferComplete event callback function is called when the system-mode controller has completed the current DMA transfer.
 old-location: wdf\evtdmatransactiondmatransfercomplete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: AtaPortGetPhysicalAddress function
 author: windows-driver-content
 description: The AtaPortGetPhysicalAddress routine converts the virtual address range to the physical address range.
 old-location: storage\ataportgetphysicaladdress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f6c595f2-a493-453a-a744-7ce6577ae29e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_REG_RESTORE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_RESTORE_KEY_INFORMATION structure contains the information for a registry key that is about to be restored.
 old-location: kernel\reg_restore_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

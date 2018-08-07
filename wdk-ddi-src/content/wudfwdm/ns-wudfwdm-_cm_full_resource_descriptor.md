@@ -4,7 +4,7 @@ title: "_CM_FULL_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The CM_FULL_RESOURCE_DESCRIPTOR structure specifies a set of system hardware resources of various types, assigned to a device that is connected to a specific bus. This structure is contained within a CM_RESOURCE_LIST structure.
 old-location: kernel\cm_full_resource_descriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e405c545-da0c-4b47-84c2-dd26d746da94
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

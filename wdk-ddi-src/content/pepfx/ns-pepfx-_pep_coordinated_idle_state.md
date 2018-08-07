@@ -4,7 +4,7 @@ title: "_PEP_COORDINATED_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS.
 old-location: kernel\pep_coordinated_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

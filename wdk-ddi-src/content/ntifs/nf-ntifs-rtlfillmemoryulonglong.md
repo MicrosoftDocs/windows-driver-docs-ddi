@@ -4,7 +4,7 @@ title: RtlFillMemoryUlonglong macro
 author: windows-driver-content
 description: The RtlFillMemoryUlonglong routine fills a given range of memory with one or more repetitions of a given ULONGLONG value.
 old-location: ifsk\rtlfillmemoryulonglong.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

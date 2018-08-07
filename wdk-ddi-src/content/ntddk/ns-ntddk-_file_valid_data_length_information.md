@@ -4,7 +4,7 @@ title: "_FILE_VALID_DATA_LENGTH_INFORMATION"
 author: windows-driver-content
 description: The FILE_VALID_DATA_LENGTH_INFORMATION structure is used as an argument to ZwSetInformationFile.
 old-location: kernel\file_valid_data_length_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 78badbac-9f77-4911-a42b-c0421be47f20
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

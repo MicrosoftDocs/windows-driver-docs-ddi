@@ -4,7 +4,7 @@ title: WdfWaitLockRelease function
 author: windows-driver-content
 description: The WdfWaitLockRelease method releases a specified wait lock.
 old-location: wdf\wdfwaitlockrelease.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f7fb070b-fea4-48d9-8f89-1c01af183ef0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfWaitLockRelease
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

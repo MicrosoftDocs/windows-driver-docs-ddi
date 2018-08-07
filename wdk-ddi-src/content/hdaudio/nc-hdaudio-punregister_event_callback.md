@@ -4,10 +4,10 @@ title: PUNREGISTER_EVENT_CALLBACK
 author: windows-driver-content
 description: The UnregisterEventCallback routine deletes the registration of an event callback that was previously registered by a call to RegisterEventCallback.The function pointer type for an UnregisterEventCallback routine is defined as follows.
 old-location: audio\unregistereventcallback.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 698017a0-13d5-4ed5-a1ce-1a50a62135e0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PUNREGISTER_EVENT_CALLBACK, PUNREGISTER_EVENT_CALLBACK callback, UnregisterEventCallback, UnregisterEventCallback callback function [Audio Devices], aud-prop2_9d6c50d7-56ac-4364-9a1e-74ea0d934046.xml, audio.unregistereventcallback, hdaudio/UnregisterEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

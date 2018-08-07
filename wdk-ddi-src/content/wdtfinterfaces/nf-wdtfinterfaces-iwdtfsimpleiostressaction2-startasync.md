@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::StartAsync
 author: windows-driver-content
 description: Asynchronously signals a start event to occur.
 old-location: dtf\iwdtfsimpleiostressaction2_startasync.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 6ebb27ae-50ef-4644-869f-9755e65eada9
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

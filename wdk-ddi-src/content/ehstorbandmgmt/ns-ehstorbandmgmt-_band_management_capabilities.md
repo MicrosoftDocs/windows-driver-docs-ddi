@@ -4,7 +4,7 @@ title: "_BAND_MANAGEMENT_CAPABILITIES"
 author: windows-driver-content
 description: The BAND_MANAGEMENT_CAPABILITIES structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request.
 old-location: storage\band_management_capabilities.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

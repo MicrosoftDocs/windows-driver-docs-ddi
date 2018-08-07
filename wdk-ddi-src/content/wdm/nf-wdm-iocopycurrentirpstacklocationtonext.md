@@ -4,7 +4,7 @@ title: IoCopyCurrentIrpStackLocationToNext function
 author: windows-driver-content
 description: The IoCopyCurrentIrpStackLocationToNext routine copies the IRP stack parameters from the current I/O stack location to the stack location of the next-lower driver.
 old-location: kernel\iocopycurrentirpstacklocationtonext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f1940737-4543-4e48-8a4a-90430b16890a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

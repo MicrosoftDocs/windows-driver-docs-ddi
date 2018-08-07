@@ -4,7 +4,7 @@ title: "_LUID"
 author: windows-driver-content
 description: The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on which it was generated.
 old-location: netvista\luid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9547d3e1-a811-4b89-be71-f7cf81e92b93
 ms.author: windowsdriverdev
 ms.date: 2/27/2018
@@ -16,19 +16,19 @@ req.header: igpupvdev.h
 req.include-header: Fwptypes.h, Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,8 +51,8 @@ req.typenames: LUID
 
 
 The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on
-  which it was generated. The uniqueness of an LUID is guaranteed only until the system is restarted. 
-  
+  which it was generated. The uniqueness of an LUID is guaranteed only until the system is restarted.
+
 
 An LUID is not for direct manipulation. Drivers must use support routines and structures to manipulate
   LUID values.

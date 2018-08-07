@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::SetLockingConstraint
 author: windows-driver-content
 description: The SetLockingConstraint method sets the synchronization (or locking) model for callback functions into the driver.
 old-location: wdf\iwdfdeviceinitialize_setlockingconstraint.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

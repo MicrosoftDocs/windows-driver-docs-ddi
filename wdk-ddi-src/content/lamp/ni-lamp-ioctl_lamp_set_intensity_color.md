@@ -4,7 +4,7 @@ title: IOCTL_LAMP_SET_INTENSITY_COLOR
 author: windows-driver-content
 description: The IOCTL_LAMP_SET_INTENSITY_COLOR control code sets the lamp to the specified light intensity.
 old-location: stream\ioctl_lamp_set_intensity_color.htm
-old-project: stream
+tech.root: stream
 ms.assetid: AD531C16-0E24-4CDE-B188-981260CF8F49
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

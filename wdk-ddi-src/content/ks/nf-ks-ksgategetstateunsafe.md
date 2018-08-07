@@ -4,7 +4,7 @@ title: KsGateGetStateUnsafe function
 author: windows-driver-content
 description: The KsGateGetStateUnsafe function returns the state of the given gate (open or closed) in an unsafe manner, that is without regard to synchronization.
 old-location: stream\ksgategetstateunsafe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f5976125-4ff4-48c2-a5c7-8e9fb2f8a0c9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

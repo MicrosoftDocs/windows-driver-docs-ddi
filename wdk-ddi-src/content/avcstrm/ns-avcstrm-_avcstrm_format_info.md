@@ -4,7 +4,7 @@ title: "_AVCSTRM_FORMAT_INFO"
 author: windows-driver-content
 description: The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
 old-location: stream\avcstrm_format_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: de8e262b-bcb9-4549-94cc-0a73df45bddc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

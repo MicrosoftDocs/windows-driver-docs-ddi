@@ -4,10 +4,10 @@ title: wiasGetRootItem function
 author: windows-driver-content
 description: The wiasGetRootItem function retrieves the root item context of a specified WIA item.
 old-location: image\wiasgetrootitem.htm
-old-project: image
+tech.root: image
 ms.assetid: 09885782-2293-49a3-af48-6450dbc6a24e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasgetrootitem, wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiasGetRootItem function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

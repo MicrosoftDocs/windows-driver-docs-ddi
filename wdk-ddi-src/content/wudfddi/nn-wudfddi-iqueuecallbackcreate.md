@@ -4,7 +4,7 @@ title: IQueueCallbackCreate
 author: windows-driver-content
 description: An I/O queue notifies a driver when an open file request is available for the driver.
 old-location: wdf\iqueuecallbackcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 50b8acc6-5f08-47d5-b45d-31ff33a06be1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

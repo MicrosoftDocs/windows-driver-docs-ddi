@@ -4,7 +4,7 @@ title: PshedIsSystemWheaEnabled function
 author: windows-driver-content
 description: The PshedIsSystemWheaEnabled function returns a Boolean value that indicates whether the system is WHEA-enabled.
 old-location: whea\pshedissystemwheaenabled.htm
-old-project: whea
+tech.root: whea
 ms.assetid: d9935605-dc5f-4987-8a5b-b2c2b358dbbf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

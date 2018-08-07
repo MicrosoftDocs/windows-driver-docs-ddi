@@ -4,7 +4,7 @@ title: WdfRegistryQueryString function
 author: windows-driver-content
 description: The WdfRegistryQueryString method retrieves the string data that is currently assigned to a specified registry string value and assigns the string to a specified framework string object.
 old-location: wdf\wdfregistryquerystring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2c1242ea-5d77-464e-9203-ef2236ea4619
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: PcwUnregister function
 author: windows-driver-content
 description: The PcwUnregister function unregisters the provider of the specified counter set.
 old-location: devtest\pcwunregister.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

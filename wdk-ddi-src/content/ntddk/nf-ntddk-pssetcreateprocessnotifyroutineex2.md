@@ -4,7 +4,7 @@ title: PsSetCreateProcessNotifyRoutineEx2 function
 author: windows-driver-content
 description: The PsSetCreateProcessNotifyRoutineEx2 routine registers or removes a callback routine that notifies the caller when a process is created or deleted.
 old-location: kernel\pssetcreateprocessnotifyroutineex2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

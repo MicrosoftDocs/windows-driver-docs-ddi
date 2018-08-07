@@ -4,7 +4,7 @@ title: IOCTL_DVD_SEND_KEY2
 author: windows-driver-content
 description: Sends the specified key to a DVD device -to complete the related step in an authentication sequence. The IOCTL_DVD_SEND_KEY2 request has write access to the device and can send a broader range of key types than IOCTL_DVD_SEND_KEY.
 old-location: storage\ioctl_dvd_send_key2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 58b9c2a5-cd29-4c62-b5ae-39911821e3b7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

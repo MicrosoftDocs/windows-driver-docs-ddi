@@ -4,10 +4,10 @@ title: FWPS_PACKET_LIST_IPSEC_INFORMATION0_
 author: windows-driver-content
 description: The FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure defines IPsec information associated with a packet list.Note  FWPS_PACKET_LIST_IPSEC_INFORMATION0 is a specific version of FWPS_PACKET_LIST_IPSEC_INFORMATION.
 old-location: netvista\fwps_packet_list_ipsec_information0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: bd005dd9-887a-4323-9816-e4a3b96ca53d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_PACKET_LIST_IPSEC_INFORMATION0, FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_IPSEC_INFORMATION0, netvista.fwps_packet_list_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_066086e3-4389-4449-b47a-ad9661eef344.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

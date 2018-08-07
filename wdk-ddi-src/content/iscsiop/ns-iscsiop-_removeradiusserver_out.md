@@ -4,7 +4,7 @@ title: "_RemoveRADIUSServer_OUT"
 author: windows-driver-content
 description: The RemoveiSNSServer_OUT structure holds the output data for the RemoveRADIUSServer method.
 old-location: storage\removeradiusserver_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: da5be900-a362-4d74-9ac7-65b96f0348ce
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

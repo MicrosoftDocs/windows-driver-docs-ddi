@@ -4,7 +4,7 @@ title: ATA_ADDRESS_TRANSLATION
 author: windows-driver-content
 description: The ATA_ADDRESS_TRANSLATION enumeration type indicates the type of address translation used during data transfers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ata_address_translation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

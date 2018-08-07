@@ -4,7 +4,7 @@ title: "_PosDeviceInformation"
 author: windows-driver-content
 description: This structure provides device information as defined in and required by the Unified Point of Service (UPOS) standard.
 old-location: pos\posdeviceinformation.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

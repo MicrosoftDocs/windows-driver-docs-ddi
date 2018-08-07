@@ -4,7 +4,7 @@ title: IWDFMemory
 author: windows-driver-content
 description: The IWDFMemory interface exposes the framework memory object that provides access to a memory block.
 old-location: wdf\iwdfmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

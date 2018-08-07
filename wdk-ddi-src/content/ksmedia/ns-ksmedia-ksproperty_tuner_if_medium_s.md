@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_IF_MEDIUM_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_IF_MEDIUM_S structure returns the Medium GUID for the pin that is capable of supporting tuning to an intermediate frequency.
 old-location: stream\ksproperty_tuner_if_medium_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 19f79b01-1a3c-4695-96ec-2f7410f6b4aa
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

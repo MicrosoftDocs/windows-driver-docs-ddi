@@ -4,7 +4,7 @@ title: IoSetThreadHardErrorMode function
 author: windows-driver-content
 description: The IoSetThreadHardErrorMode routine enables or disables hard error reporting for the current thread.
 old-location: kernel\iosetthreadharderrormode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bedb6399-8f79-477a-9a90-4a7dec5c5dae
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

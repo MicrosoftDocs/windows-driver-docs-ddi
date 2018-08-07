@@ -4,7 +4,7 @@ title: RtlFreeNonVolatileToken function
 author: windows-driver-content
 description: The routine RtlFreeNonVolatileToken is a cleanup function for the opaque NvToken which is given by a successful call to RtlGetNonVolatileToken.
 old-location: ifsk\rtlfreenonvolatiletoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8E083814-7408-47D2-A811-2DCBDCD13097
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

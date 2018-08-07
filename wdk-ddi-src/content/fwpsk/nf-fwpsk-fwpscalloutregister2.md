@@ -4,10 +4,10 @@ title: FwpsCalloutRegister2 function
 author: windows-driver-content
 description: The FwpsCalloutRegister2 function registers a callout with the filter engine.Note  FwpsCalloutRegister2 is the specific version of FwpsCalloutRegister used in Windows 8 and later.
 old-location: netvista\fwpscalloutregister2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7e60d536-607f-469f-8de4-5f6b77443b3e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsCalloutRegister2, FwpsCalloutRegister2 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister2, netvista.fwpscalloutregister2
 ms.prod: windows-hardware
 ms.technology: windows-devices

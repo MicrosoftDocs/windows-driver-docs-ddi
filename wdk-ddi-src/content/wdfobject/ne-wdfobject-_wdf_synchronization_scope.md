@@ -4,7 +4,7 @@ title: "_WDF_SYNCHRONIZATION_SCOPE"
 author: windows-driver-content
 description: The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions.
 old-location: wdf\wdf_synchronization_scope.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

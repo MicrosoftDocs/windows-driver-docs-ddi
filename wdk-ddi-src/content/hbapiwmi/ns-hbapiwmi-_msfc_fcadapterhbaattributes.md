@@ -4,7 +4,7 @@ title: "_MSFC_FCAdapterHBAAttributes"
 author: windows-driver-content
 description: The MSFC_FCAdapterHBAAttributes structure is used by a WMI provider to expose attribute information associated with a fibre channel adapter.
 old-location: storage\msfc_fcadapterhbaattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5efe0ede-b55f-499e-9f95-66652cd8a872
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

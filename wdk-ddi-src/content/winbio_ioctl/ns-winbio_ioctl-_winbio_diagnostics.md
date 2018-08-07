@@ -4,7 +4,7 @@ title: "_WINBIO_DIAGNOSTICS"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL returns the WINBIO_DIAGNOSTICS structure as output.
 old-location: biometric\winbio_diagnostics.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 06f6abf1-9b44-4cf3-96d3-2017e0f6adda
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,10 +4,10 @@ title: IRegistryKey::QueryKey
 author: windows-driver-content
 description: The QueryKey method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
 old-location: audio\iregistrykey_querykey.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 1b2642da-1b04-49a8-942e-6eb93afd12f2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IRegistryKey interface [Audio Devices],QueryKey method, IRegistryKey.QueryKey, IRegistryKey::QueryKey, QueryKey, QueryKey method [Audio Devices], QueryKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_querykey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, portcls/IRegistryKey::QueryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

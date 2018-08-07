@@ -4,7 +4,7 @@ title: WRITE_REGISTER_ULONG64 function
 author: windows-driver-content
 description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
 old-location: wdf\write_register_ulong64.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 50C407F2-657F-451F-8A6B-BEEB533D89DE
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -16,19 +16,19 @@ req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
-req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-min-winversvr:
+req.kmdf-ver:
 req.umdf-ver: 1.11
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
 req.max-support: Unavailable in UMDF 2.0 and later.
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

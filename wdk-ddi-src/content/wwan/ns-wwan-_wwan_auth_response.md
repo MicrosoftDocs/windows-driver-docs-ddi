@@ -4,10 +4,10 @@ title: "_WWAN_AUTH_RESPONSE"
 author: windows-driver-content
 description: The WWAN_AUTH_RESPONSE structure represents an authentication challenge response.
 old-location: netvista\wwan_auth_response.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: CD0B90A1-032D-4F09-827F-E80607AE4EA7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_RESPONSE, WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_RESPONSE, netvista.wwan_auth_response, wwan/PWWAN_AUTH_RESPONSE, wwan/WWAN_AUTH_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

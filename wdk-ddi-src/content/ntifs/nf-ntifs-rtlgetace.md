@@ -4,7 +4,7 @@ title: RtlGetAce function
 author: windows-driver-content
 description: The RtlGetAce routine obtains a pointer to an access control entry (ACE) in an access control list (ACL).
 old-location: ifsk\rtlgetace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f528d20a-16f8-401f-a6e6-ab165a40e18a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

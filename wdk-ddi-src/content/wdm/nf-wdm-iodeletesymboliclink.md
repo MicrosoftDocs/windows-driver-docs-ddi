@@ -4,7 +4,7 @@ title: IoDeleteSymbolicLink function
 author: windows-driver-content
 description: The IoDeleteSymbolicLink routine removes a symbolic link from the system.
 old-location: kernel\iodeletesymboliclink.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 68ad19a5-4694-4b75-8062-75b06bdc16ed
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

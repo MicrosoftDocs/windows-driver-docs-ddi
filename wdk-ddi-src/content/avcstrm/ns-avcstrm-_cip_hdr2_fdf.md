@@ -4,7 +4,7 @@ title: "_CIP_HDR2_FDF"
 author: windows-driver-content
 description: The CIP_HDR2_FDF structure describes the second quadlet of a CIP header pair.
 old-location: stream\cip_hdr2_fdf.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 10f01d72-25cc-4a5a-b6e3-8475f09b12e4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_CDROM_EXCLUSIVE_ACCESS"
 author: windows-driver-content
 description: The CDROM_EXCLUSIVE_ACCESS structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 old-location: storage\cdrom_exclusive_access.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

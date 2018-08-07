@@ -4,7 +4,7 @@ title: "_SE_SID"
 author: windows-driver-content
 description: The SE_SID union holds the maximum-sized valid Security Identifier (SID). The structure occupies 68-bytes and is suitable for stack allocation.
 old-location: ifsk\se_sid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6950B71D-B396-494E-A23C-EE37B439FD05
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

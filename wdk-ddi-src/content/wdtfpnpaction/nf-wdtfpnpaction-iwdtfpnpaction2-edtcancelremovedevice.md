@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::EDTCancelRemoveDevice
 author: windows-driver-content
 description: Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpaction2_edtcancelremovedevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d3175850-556b-41bd-9b99-225ca3238b25
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_REFS_SMR_VOLUME_GC_PARAMETERS"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_PARAMETERS structure.
 old-location: ifsk\refs_smr_volume_gc_parameters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 78C8FFFE-8A80-4C92-B822-5C6675E2BC18
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

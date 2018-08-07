@@ -4,10 +4,10 @@ title: IDebugSymbols2::GetScope
 author: windows-driver-content
 description: The GetScope method returns information about the current scope.
 old-location: debugger\getscope.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetScope, GetScope method [Windows Debugging], GetScope method [Windows Debugging],IDebugSymbols interface, GetScope method [Windows Debugging],IDebugSymbols2 interface, GetScope method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScope method, IDebugSymbols2 interface [Windows Debugging],GetScope method, IDebugSymbols2.GetScope, IDebugSymbols2::GetScope, IDebugSymbols3 interface [Windows Debugging],GetScope method, IDebugSymbols3::GetScope, IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, dbgeng/IDebugSymbols2::GetScope, dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols::GetScope, debugger.getscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

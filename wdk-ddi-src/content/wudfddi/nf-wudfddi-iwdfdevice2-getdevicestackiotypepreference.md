@@ -4,7 +4,7 @@ title: IWDFDevice2::GetDeviceStackIoTypePreference
 author: windows-driver-content
 description: The GetDeviceStackIoTypePreference method retrieves the buffer access methods that the framework is using for a device.
 old-location: wdf\iwdfdevice2_getdevicestackiotypepreference.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: KeSetHardwareCounterConfiguration function
 author: windows-driver-content
 description: The KeSetHardwareCounterConfiguration routine specifies a list of hardware counters to use for thread profiling.
 old-location: kernel\kesethardwarecounterconfiguration.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

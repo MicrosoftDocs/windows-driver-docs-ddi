@@ -4,7 +4,7 @@ title: KSPIN_CONNECT
 author: windows-driver-content
 description: Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a KsCreatePin call.
 old-location: stream\kspin_connect.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 62ce7a36-87ce-40d1-bdd4-8a4f4bc60b00
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

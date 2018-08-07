@@ -4,7 +4,7 @@ title: KeReleaseGuardedMutexUnsafe function
 author: windows-driver-content
 description: The KeReleaseGuardedMutexUnsafe routine releases a guarded mutex acquired by KeAcquireGuardedMutexUnsafe.
 old-location: kernel\kereleaseguardedmutexunsafe.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 710f289c-4c2a-4ad3-b5af-ad8d8ca123a3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeReleaseGuardedMutexUnsafe
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

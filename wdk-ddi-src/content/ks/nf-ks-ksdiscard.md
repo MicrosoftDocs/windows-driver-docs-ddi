@@ -4,7 +4,7 @@ title: KsDiscard macro
 author: windows-driver-content
 description: The KsDiscard macro removes a given item from an object bag.
 old-location: stream\ksdiscard.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cbd1cd9b-c3bd-4827-88e6-4b80d6ba7320
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

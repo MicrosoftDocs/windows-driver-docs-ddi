@@ -4,7 +4,7 @@ title: HBA_SendRNID function
 author: windows-driver-content
 description: The HBA_SendRNID routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server.
 old-location: storage\hba_sendrnid.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

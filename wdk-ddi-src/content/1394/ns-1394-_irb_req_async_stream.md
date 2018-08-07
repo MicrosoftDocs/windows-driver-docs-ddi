@@ -4,7 +4,7 @@ title: "_IRB_REQ_ASYNC_STREAM"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out an asynchronous write request.
 old-location: ieee\irb_req_async_stream.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

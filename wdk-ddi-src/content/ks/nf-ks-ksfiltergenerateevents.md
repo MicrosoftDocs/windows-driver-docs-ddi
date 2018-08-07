@@ -4,7 +4,7 @@ title: KsFilterGenerateEvents function
 author: windows-driver-content
 description: The KsFilterGenerateEvents function generates events of an indicated type that are present in Filter's event list.
 old-location: stream\ksfiltergenerateevents.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 62340660-3419-4da6-8d58-c2f82b4231ba
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_DSM_QueryUniqueId"
 author: windows-driver-content
 description: The DSM_QueryUniqueId structure is used to query the DSM for a unique identifier.
 old-location: storage\dsm_queryuniqueid.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 023390a1-e878-4f1f-a5c2-1545a6786aaa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

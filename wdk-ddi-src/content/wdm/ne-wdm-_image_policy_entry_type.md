@@ -4,7 +4,7 @@ title: "_IMAGE_POLICY_ENTRY_TYPE"
 author: windows-driver-content
 description: This enumeration is not supported.
 old-location: kernel\_image_policy_entry_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f8ce3297-5a57-4ece-a74c-ae5e4e15ce3e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

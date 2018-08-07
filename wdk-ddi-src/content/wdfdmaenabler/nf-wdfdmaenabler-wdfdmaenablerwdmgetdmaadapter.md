@@ -4,7 +4,7 @@ title: WdfDmaEnablerWdmGetDmaAdapter function
 author: windows-driver-content
 description: The WdfDmaEnablerWdmGetDmaAdapter method returns a pointer to a WDM DMA_ADAPTER structure that is associated with a DMA enabler object.
 old-location: wdf\wdfdmaenablerwdmgetdmaadapter.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2546303a-53c3-4c6b-a230-eb1ebd74cb76
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

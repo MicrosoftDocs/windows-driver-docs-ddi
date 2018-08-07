@@ -4,7 +4,7 @@ title: FltClearCancelCompletion function
 author: windows-driver-content
 description: FltClearCancelCompletion clears a cancel routine that was specified for an I/O operation.
 old-location: ifsk\fltclearcancelcompletion.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 75c66cb7-3378-4951-9180-d1bd9f201a42
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: SFFDISK_DPCMD
 author: windows-driver-content
 description: The SFFDISK_DPCMD enumeration lists the operations performed by an IOCTL_SFFDISK_DEVICE_PASSWORD request.
 old-location: sd\sffdisk_dpcmd.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 55a034e7-68fa-4f4a-b7c6-da215405375a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

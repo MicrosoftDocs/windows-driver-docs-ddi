@@ -2,13 +2,13 @@
 UID: NC:usbfnattach.USBFN_SET_DEVICE_STATE
 title: USBFN_SET_DEVICE_STATE
 author: windows-driver-content
-description: The filter driver's implementation to abort an attach-detect operation.
-old-location: buses\usbfn_get_attach_action_abort.htm
-old-project: usbref
-ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
+description: The filter driver's implementation to set the device state and operating bus speed.
+old-location: buses\usbfn_set_device_state.htm
+tech.root: usbref
+ms.assetid: EAEFEE8A-D96B-40D8-A4F0-FEFA670E1E6E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback function [Buses], UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
+ms.date: 5/7/2018
+ms.keywords: PFN_USBFN_SET_DEVICE_STATE, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback, UsbFnSetDeviceState, UsbFnSetDeviceState callback function [Buses], buses.usbfn_set_device_state, usbfnattach/UsbFnSetDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The filter driver's implementation to abort an attach-detect operation.
+The filter driver's implementation to set the device state and operating bus speed.
 
 
 ## -parameters
@@ -63,16 +63,14 @@ The filter driver's implementation to abort an attach-detect operation.
     A pointer to a driver-defined context.
 
 
-### -param DeviceState
+### -param DeviceState [in]
+
+    A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187992">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
 
 
-### -param BusSpeed
+### -param BusSpeed [in]
 
-
-
-
-
-
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
 
 
 ## -returns
@@ -90,6 +88,8 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>.
 
+The lower filter driver might implement  a <i>USBFN_SET_DEVICE_STATE</i> even callback function if it requires notification of device state changes to properly configure charging when attached to a host, or in lab scenarios where charging via USB must be disabled.
+
 
 #### Examples
 
@@ -100,8 +100,10 @@ To support attach and detatch detection, the USB lower filter driver must publis
 <tr>
 <td>
 <pre>NTSTATUS
-UsbLowerFilter_GetAttachActionAbortOperation(
-    __in PVOID Context
+UsbLowerFilter_SetDeviceState(
+    _In_ PVOID Context,
+    _In_ USBFN_DEVICE_STATE DeviceState,
+    _In_ USBFN_BUS_SPEED BusSpeed
     )
 {
     PPDCP_CONTEXT PdcpContext = NULL;
@@ -111,8 +113,8 @@ UsbLowerFilter_GetAttachActionAbortOperation(
     // Get our context
     PdcpContext = DeviceGetUsbLowerFilterContext((WDFDEVICE)Context);
 
-    // Set our event
-    (void) KeSetEvent(&amp;PdcpContext-&gt;AbortAttachOperation, LOW_REALTIME_PRIORITY, FALSE);
+    PdcpContext-&gt;CurrentDeviceState = DeviceState;
+    PdcpContext-&gt;BusSpeed = BusSpeed;
 
     return STATUS_SUCCESS;
 }

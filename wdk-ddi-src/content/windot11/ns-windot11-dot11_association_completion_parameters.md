@@ -4,7 +4,7 @@ title: DOT11_ASSOCIATION_COMPLETION_PARAMETERS
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_association_completion_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -92,7 +92,7 @@ typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member is formatted as an [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md) structure.     
+The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member is formatted as an [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md) structure.
 
 The miniport driver must set the members of *Header* to the following values:
 
@@ -120,13 +120,13 @@ The completion status of the association operation, as specified by a value defi
 
 ### -field bReAssocReq
 
-A Boolean value that indicates whether the 802.11 station sent an 802.11 Association or Reassociation frame to the AP. If **TRUE**, the 802.11 station sent an 801.11 Reassociation Request frame to the AP. If **FALSE**, the 802.11 station sent an 802.11 Association Request frame to the AP.      
+A Boolean value that indicates whether the 802.11 station sent an 802.11 Association or Reassociation frame to the AP. If **TRUE**, the 802.11 station sent an 801.11 Reassociation Request frame to the AP. If **FALSE**, the 802.11 station sent an 802.11 Association Request frame to the AP.
 
 A value of **TRUE** for the **bReAssocReq** member is valid only if the **dot11DesiredBSSType** MIB object is set to **dot11_BSS_type_infrastructure**.
 
 ### -field bReAssocResp
 
-A Boolean value that indicates whether the 802.11 station received an 802.11 Association or Reassociation frame from the AP. If **TRUE**, the 802.11 station received an 802.11 Reassociation Response frame from the AP. If **FALSE**, the 802.11 station received an 802.11 Association Response frame from the AP.     
+A Boolean value that indicates whether the 802.11 station received an 802.11 Association or Reassociation frame from the AP. If **TRUE**, the 802.11 station received an 802.11 Reassociation Response frame from the AP. If **FALSE**, the 802.11 station received an 802.11 Association Response frame from the AP.
 
 A value of **TRUE** for the **bReAssocResp** member is valid only if the **dot11DesiredBSSType** MIB object is set to **dot11_BSS_type_infrastructure**.
 
@@ -146,7 +146,7 @@ The miniport driver must set the **uAssocReqOffset** and **uAssocReqSize** membe
 ### -field uAssocReqSize
 
 The length of the request frame that is used in the association operation. The length of the frame does not include the 802.11 MAC header.
-     
+
 
 If the **dot11DesiredBSSType** MIB object is set to **dot11_BSS_type_independent**, the miniport driver must set the **uAssocReqSize** member to zero.
 
@@ -197,14 +197,14 @@ The length of the block of data that is used by the IHV for the [NDIS_STATUS_DOT
 
 ### -field AuthAlgo
 
-The authentication algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **AuthAlgo** member, see [DOT11_AUTH_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md).     
+The authentication algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **AuthAlgo** member, see [DOT11_AUTH_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md).
 
 The miniport driver must set this member to zero if **uStatus** is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 ### -field UnicastCipher
 
 The unicast cipher algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **UnicastCipher** member, see [DOT11_CIPHER_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md).
-     
+
 
 The miniport driver must set this member to zero if **uStatus** is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
@@ -238,7 +238,7 @@ The length of the active PHY list. The **uActivePhyListSize** member must be a m
 ### -field bFourAddressSupported
 
 A Boolean value that, if set to **TRUE**, specifies that the 802.11 station has associated with an AP that supports distribution system (DS) services for ISO Layer 2 bridging on any station in the BSS network, including mobile stations and APs. The determination of this support is specific to the implementation by the IHV.
-     
+
 A miniport driver must set the **bFourAddressSupported** member to **FALSE** if any of the following are true:
 
 - The IEEE 802.11 **dot11DesiredBSSType** MIB object is set to **dot11_BSS_type_independent**.
@@ -258,11 +258,11 @@ For more information about port authorization, see [Port-Based Network Access](h
 
 ### -field ucActiveQoSProtocol
 
-A flag that specifies the quality of service (QoS) protocol that is currently active for this association. This member is either zero (indicating that no QoS protocol is active) or one of the following flags: 
+A flag that specifies the quality of service (QoS) protocol that is currently active for this association. This member is either zero (indicating that no QoS protocol is active) or one of the following flags:
 
 #### DOT11_QOS_PROTOCOL_FLAG_WMM
 
-The NIC is using the 802.11 WMM QoS protocol. 
+The NIC is using the 802.11 WMM QoS protocol.
 
 #### DOT11_QOS_PROTOCOL_FLAG_11E
 
@@ -270,7 +270,7 @@ The NIC is using the 802.11e QoS protocol.
 
 ### -field DSInfo
 
-A DOT11_DS_INFO value that specifies whether the 802.11 station is connected to the same DS from the previous association operation.      
+A DOT11_DS_INFO value that specifies whether the 802.11 station is connected to the same DS from the previous association operation.
 
 The **DSInfo** member is formatted as a DOT11_DS_INFO enumeration, which specifies the following values:
 
@@ -305,15 +305,15 @@ The length of the EtherType encapsulation list.
 
 ### -field MulticastMgmtCipher
 
-The multicast cipher algorithm the NIC chooses (negotiates) for the association for management frame protection (MFP). If MFP is negotiated, this member should be DOT11_CIPHER_ALGO_BIP. If MFP is not negotiated, this field should be DOT11_CIPHER_ALGO_NONE. 
+The multicast cipher algorithm the NIC chooses (negotiates) for the association for management frame protection (MFP). If MFP is negotiated, this member should be DOT11_CIPHER_ALGO_BIP. If MFP is not negotiated, this field should be DOT11_CIPHER_ALGO_NONE.
 
 ### -field uAssocComebackTime
 
 When a (re)association fails with 802.11 reason code 30 ("Association request rejected temporarily, try again later.") this member indicates the value of the association comeback time requested by the access point (AP). The 802.11 disassociation reason code is present in the lowest 16 bits of **uStatus** when responding to an association request.
 
-Windows' auto-connection service will add the AP to a blocked list and not attempt to reconnect for at least the indicated comeback time. The NIC will behave like a regular failed authentication until the next connection sequence is begun. After the indicated timeout(comeback) elapses and the connection process is stopped Windows may either find a better alternate connection or comeback to this connection. This value set in this member should use the time units defined in the 802.11 specification. For example, TU. 
+Windows' auto-connection service will add the AP to a blocked list and not attempt to reconnect for at least the indicated comeback time. The NIC will behave like a regular failed authentication until the next connection sequence is begun. After the indicated timeout(comeback) elapses and the connection process is stopped Windows may either find a better alternate connection or comeback to this connection. This value set in this member should use the time units defined in the 802.11 specification. For example, TU.
 
-## -remarks 
+## -remarks
 
 The miniport driver must set the **uEncapTableOffset** and **uEncapTableSize** members to zero if any of the following are true:
 

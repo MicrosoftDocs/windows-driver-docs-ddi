@@ -4,7 +4,7 @@ title: RtlSelfRelativeToAbsoluteSD function
 author: windows-driver-content
 description: The RtlSelfRelativeToAbsoluteSD routine creates a new security descriptor in absolute format by using a security descriptor in self-relative format as a template.
 old-location: ifsk\rtlselfrelativetoabsolutesd.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 31565c5f-a1f2-4a81-bb91-e30e13f45050
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

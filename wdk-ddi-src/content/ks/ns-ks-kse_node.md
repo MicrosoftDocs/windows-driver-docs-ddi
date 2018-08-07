@@ -4,7 +4,7 @@ title: KSE_NODE
 author: windows-driver-content
 description: The KSE_NODE structure specifies an event request on a specific node.
 old-location: stream\kse_node.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

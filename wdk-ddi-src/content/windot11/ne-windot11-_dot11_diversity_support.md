@@ -4,7 +4,7 @@ title: "_DOT11_DIVERSITY_SUPPORT"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_diversity_support.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -61,7 +61,7 @@ The DOT11_DIVERSITY_SUPPORT enumeration specifies the type of antenna diversity 
 
 
 ````
-typedef enum _DOT11_DIVERSITY_SUPPORT { 
+typedef enum _DOT11_DIVERSITY_SUPPORT {
   dot11_diversity_support_unknown       = 0,
   dot11_diversity_support_fixedlist     = 1,
   dot11_diversity_support_notsupported  = 2,
@@ -83,8 +83,8 @@ An uninitialized or unknown diversity support type.
 ### -field dot11_diversity_support_fixedlist
 
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
-     the 
-     <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see 
+     the
+     <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see
      <a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
      OID_DOT11_DIVERSITY_SELECTION_RX</a>.
 
@@ -97,7 +97,7 @@ The PHY does not support antenna diversity.
 ### -field dot11_diversity_support_dynamic
 
 The PHY supports antenna diversity and the dynamic control of diversity. The PHY layer management
-     entity (LME) can dynamically modify the list of antennas specified by the 
+     entity (LME) can dynamically modify the list of antennas specified by the
      <b>dot11DiversitySelectionRx</b> MIB object
 
 

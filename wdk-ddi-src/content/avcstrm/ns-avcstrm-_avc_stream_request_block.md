@@ -4,7 +4,7 @@ title: "_AVC_STREAM_REQUEST_BLOCK"
 author: windows-driver-content
 description: The AVC_STREAM_REQUEST_BLOCK structure describes an AV/C streaming request to be processed by avcstrm.sys.
 old-location: stream\avc_stream_request_block.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 077fc4ab-94a0-42eb-a0c5-684e447cb038
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

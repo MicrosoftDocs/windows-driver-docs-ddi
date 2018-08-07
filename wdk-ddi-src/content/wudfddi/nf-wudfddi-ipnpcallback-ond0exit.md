@@ -4,7 +4,7 @@ title: IPnpCallback::OnD0Exit
 author: windows-driver-content
 description: The OnD0Exit method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations, such as disabling the device.
 old-location: wdf\ipnpcallback_ond0exit.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

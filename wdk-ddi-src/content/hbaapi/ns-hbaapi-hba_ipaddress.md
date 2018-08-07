@@ -4,7 +4,7 @@ title: HBA_ipaddress
 author: windows-driver-content
 description: The HBA_ipaddress structure specifies an IP address in a way that is independent of the version of the IP protocol in use.
 old-location: storage\hba_ipaddress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c3f79350-29e8-4e31-a31d-359c9781777d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

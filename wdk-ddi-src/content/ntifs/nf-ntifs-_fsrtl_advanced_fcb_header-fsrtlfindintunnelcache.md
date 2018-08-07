@@ -4,7 +4,7 @@ title: FsRtlFindInTunnelCache function
 author: windows-driver-content
 description: The FsRtlFindInTunnelCache routine searches for a matching entry in the tunnel cache that matches the specified name.
 old-location: ifsk\fsrtlfindintunnelcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlFindInTunnelCache
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

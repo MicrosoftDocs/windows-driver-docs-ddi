@@ -4,10 +4,10 @@ title: MINIPORT_CANCEL_DIRECT_OID_REQUEST
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportCancelDirectOidRequest function to cancel a direct OID request.
 old-location: netvista\miniportcanceldirectoidrequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 88639bb4-89f3-4e7f-9cce-ea541224572d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_CANCEL_DIRECT_OID_REQUEST, MINIPORT_CANCEL_DIRECT_OID_REQUEST callback, MiniportCancelDirectOidRequest, MiniportCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelDirectOidRequest, ndis_request_direct_ref_d98875f6-2607-4d82-ac0f-615a33c0b11e.xml, netvista.miniportcanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: DOT11_HRDSSS_PHY_ATTRIBUTES
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_hrdsss_phy_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 435e74b4-1a29-4031-bf21-92eae71e99a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -99,7 +99,7 @@ A Boolean value that, if set to <b>TRUE</b>, specifies that the PHY supports cha
 The type of clear channel assessment (CCA) mode supported by the current PHY type. For more
      information about CCA, refer to Clause 16.4.8.5 of the IEEE 802.11-2012 standard and Clause 18.4.8.4 of
      the IEEE 802.11b-1999 standard.
-     
+
 
 The CCA modes supported by the PHY are defined through the following bitmask:
 
@@ -144,9 +144,9 @@ Both ED and CS modes on high-rate (HR) PHYs. For more information about this CCA
 
 
 
-The miniport driver defines the attributes of a PHY on the 802.11 station through the 
+The miniport driver defines the attributes of a PHY on the 802.11 station through the
     <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a> structure, and
-    formats the 
+    formats the
     <b>HRDSSSAttributes</b> member as a DOT11_HRDSSS_PHY_ATTRIBUTES structure. The driver must only do this if
     the PHY defined by the DOT11_PHY_ATTRIBUTES structure is an HRDSSS PHY type.
 

@@ -4,7 +4,7 @@ title: "_WHEA_PROCESSOR_FAMILY_INFO"
 author: windows-driver-content
 description: The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information for an x86 or x64 processor.
 old-location: whea\whea_processor_family_info.htm
-old-project: whea
+tech.root: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

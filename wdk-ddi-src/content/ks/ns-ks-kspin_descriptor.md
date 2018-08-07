@@ -4,7 +4,7 @@ title: KSPIN_DESCRIPTOR
 author: windows-driver-content
 description: The KSPIN_DESCRIPTOR structure describes the basic KSPROPSETID_Pin properties of a pin type.
 old-location: stream\kspin_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0e7fccd1-1ced-41e7-8e75-8f4fa496ea06
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,11 +4,11 @@ title: CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR)
 author: windows-driver-content
 description: The CWiauPropertyList::SetValidValues(BSTR, list) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
-old-project: image
+tech.root: image
 ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,BSTR,BSTR,INT,BSTR), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(BSTR list), CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,BSTR,BSTR,INT,BSTR), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR), CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR*), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SetValidValues
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

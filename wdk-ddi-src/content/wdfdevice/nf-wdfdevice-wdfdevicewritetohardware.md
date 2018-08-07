@@ -4,7 +4,7 @@ title: WdfDeviceWriteToHardware function
 author: windows-driver-content
 description: The WdfDeviceWriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\wdfdevicewritetohardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

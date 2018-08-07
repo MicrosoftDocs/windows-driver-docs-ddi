@@ -4,7 +4,7 @@ title: OEMCompression function
 author: windows-driver-content
 description: OEMCompression function
 old-location: print\oemcompression.htm
-old-project: print
+tech.root: print
 ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

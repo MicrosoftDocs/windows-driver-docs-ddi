@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED
 author: windows-driver-content
 description: The mount manager clients use this IOCTL to alert the mount manager that a volume mount point has been deleted so that the mount manager can replicate the database entry for the given mount point.
 old-location: storage\ioctl_mountmgr_volume_mount_point_deleted.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8a436053-87c2-4fa2-9280-7035a990d0b4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

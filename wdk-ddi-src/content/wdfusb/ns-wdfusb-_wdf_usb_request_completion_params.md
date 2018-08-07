@@ -4,7 +4,7 @@ title: "_WDF_USB_REQUEST_COMPLETION_PARAMS"
 author: windows-driver-content
 description: The WDF_USB_REQUEST_COMPLETION_PARAMS structure contains parameters that are associated with the completion of an I/O request for a USB device.
 old-location: wdf\wdf_usb_request_completion_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cd29d27c-9da2-477f-898e-13ee480aac9e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 author: windows-driver-content
 description: The RetrieveSymbolicLink method retrieves the symbolic link name that the operating system assigned to a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_retrievesymboliclink.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

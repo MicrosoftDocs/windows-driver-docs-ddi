@@ -4,7 +4,7 @@ title: KSALLOCATOR_FRAMING
 author: windows-driver-content
 description: The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 old-location: stream\ksallocator_framing.htm
-old-project: stream
+tech.root: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

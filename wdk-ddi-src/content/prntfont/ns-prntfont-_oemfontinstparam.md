@@ -4,7 +4,7 @@ title: "_OEMFONTINSTPARAM"
 author: windows-driver-content
 description: The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::FontInstallerDlgProc method.
 old-location: print\oemfontinstparam.htm
-old-project: print
+tech.root: print
 ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

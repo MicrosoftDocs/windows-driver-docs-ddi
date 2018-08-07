@@ -4,7 +4,7 @@ title: IWDFIoQueue::DrainSynchronously
 author: windows-driver-content
 description: The DrainSynchronously method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled.
 old-location: wdf\iwdfioqueue_drainsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

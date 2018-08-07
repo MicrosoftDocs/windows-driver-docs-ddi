@@ -4,7 +4,7 @@ title: "_STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE"
 author: windows-driver-content
 description: "."
 old-location: stream\stream_minidriver_device_notification_type.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 34DAA236-ACD0-4C25-BB45-00A81D2F131D
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

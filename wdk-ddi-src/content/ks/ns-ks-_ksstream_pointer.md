@@ -4,7 +4,7 @@ title: "_KSSTREAM_POINTER"
 author: windows-driver-content
 description: The KSSTREAM_POINTER structure is the basic AVStream pointer into a stream.
 old-location: stream\ksstream_pointer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 31cdb264-89a1-48dc-af0c-b18d4f077d0f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

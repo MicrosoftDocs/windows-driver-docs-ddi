@@ -4,7 +4,7 @@ title: WdfControlDeviceInitAllocate function
 author: windows-driver-content
 description: The WdfControlDeviceInitAllocate method allocates a WDFDEVICE_INIT structure that a driver uses when creating a new control device object.
 old-location: wdf\wdfcontroldeviceinitallocate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3d423861-4c4d-45f2-bc44-b7cf1b230458
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,11 +4,11 @@ title: DXGKCB_INDICATE_CONNECTOR_CHANGE
 author: windows-driver-content
 description: DXGKCB_INDICATE_CONNECTOR_CHANGE is called by the KMD to indicate that it has added changes to its change queue which the OS should now query.
 old-location: display\dxgkcb_indicate_connector_change.htm
-old-project: display
+tech.root: display
 ms.assetid: D3C76DC0-7A6B-4E1E-8277-F6410D4B474B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*DXGKCB_INDICATE_CONNECTOR_CHANGE, *DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE, display.dxgkcb_indicate_connector_change"
+ms.date: 5/10/2018
+ms.keywords: DXGKCB_INDICATE_CONNECTOR_CHANGE, DXGKCB_INDICATE_CONNECTOR_CHANGE callback, DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], d3dkmddi/DXGKCB_INDICATE_CONNECTOR_CHANGE, display.dxgkcb_indicate_connector_change
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_INDICATE_CONNECTOR_CHANGE callback
+# DXGKCB_INDICATE_CONNECTOR_CHANGE callback function
 
 
 ## -description

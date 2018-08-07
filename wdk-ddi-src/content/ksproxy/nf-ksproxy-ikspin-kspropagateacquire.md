@@ -4,7 +4,7 @@ title: IKsPin::KsPropagateAcquire
 author: windows-driver-content
 description: The KsPropagateAcquire method directs all the pins on the filter to attain the Acquire state.
 old-location: stream\ikspin_kspropagateacquire.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 059bef5a-1db7-4fd7-a19b-c34df81f4447
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

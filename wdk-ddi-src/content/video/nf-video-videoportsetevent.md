@@ -4,10 +4,10 @@ title: VideoPortSetEvent function
 author: windows-driver-content
 description: The VideoPortSetEvent function sets an event object to the signaled state if it was not already in that state, and returns the event object's previous state.
 old-location: display\videoportsetevent.htm
-old-project: display
+tech.root: display
 ms.assetid: 93db9d51-3f80-47ff-a2c2-3c937b5dcf7b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

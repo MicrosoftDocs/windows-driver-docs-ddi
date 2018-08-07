@@ -4,7 +4,7 @@ title: MmAllocateMappingAddress function
 author: windows-driver-content
 description: The MmAllocateMappingAddress routine reserves a range of system virtual address space of the specified size.
 old-location: kernel\mmallocatemappingaddress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e8d5fea6-d0fd-4dc4-b8ec-10c72381285b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

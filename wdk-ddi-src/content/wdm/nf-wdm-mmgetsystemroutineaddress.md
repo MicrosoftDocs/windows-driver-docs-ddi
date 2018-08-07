@@ -4,7 +4,7 @@ title: MmGetSystemRoutineAddress function
 author: windows-driver-content
 description: The MmGetSystemRoutineAddress routine returns a pointer to a function specified by SystemRoutineName.
 old-location: kernel\mmgetsystemroutineaddress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

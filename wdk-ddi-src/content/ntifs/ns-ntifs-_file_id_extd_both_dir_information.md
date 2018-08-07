@@ -4,7 +4,7 @@ title: "_FILE_ID_EXTD_BOTH_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_ID_EXTD_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
 old-location: ifsk\file_id_extd_both_dir_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3673C27D-61D9-4127-ABC1-655DE83AD64E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

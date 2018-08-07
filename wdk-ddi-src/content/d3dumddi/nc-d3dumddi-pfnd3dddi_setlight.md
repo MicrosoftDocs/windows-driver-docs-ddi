@@ -4,10 +4,10 @@ title: PFND3DDDI_SETLIGHT
 author: windows-driver-content
 description: The SetLight function sets properties for a light source.
 old-location: display\setlight.htm
-old-project: display
+tech.root: display
 ms.assetid: 28e3992e-a636-47e2-a5a6-5da06d276b5c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETLIGHT, PFND3DDDI_SETLIGHT callback, SetLight, SetLight callback function [Display Devices], UserModeDisplayDriver_Functions_82c42629-2344-4778-aaf4-e41acac4cfce.xml, d3dumddi/SetLight, display.setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices

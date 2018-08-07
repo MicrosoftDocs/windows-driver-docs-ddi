@@ -4,7 +4,7 @@ title: RtlParent macro
 author: windows-driver-content
 description: The RtlParent routine returns a pointer to the parent of the specified node in a splay link tree.
 old-location: ifsk\rtlparent.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 940c9234-6c4e-421d-a3e3-87ba2d786248
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

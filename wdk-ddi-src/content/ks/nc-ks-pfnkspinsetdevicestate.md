@@ -4,7 +4,7 @@ title: PFNKSPINSETDEVICESTATE
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniPinSetDeviceState routine is called when the state of a KSPIN structure is changed due to the arrival of a connection state property 'set' IOCTL.
 old-location: stream\avstrminipinsetdevicestate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: df68dda0-6128-46c9-bf2b-562c10f9a6f1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

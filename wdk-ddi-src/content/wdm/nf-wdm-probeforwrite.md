@@ -4,7 +4,7 @@ title: ProbeForWrite function
 author: windows-driver-content
 description: The ProbeForWrite routine checks that a user-mode buffer actually resides in the user-mode portion of the address space, is writable, and is correctly aligned.
 old-location: kernel\probeforwrite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

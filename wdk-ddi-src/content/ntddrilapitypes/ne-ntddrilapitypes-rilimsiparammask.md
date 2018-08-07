@@ -4,7 +4,7 @@ title: RILIMSIPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILIMSIPARAMMASK.
 old-location: netvista\rilimsiparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8fe1ecda-4b2f-4a6f-b02c-7e50630614eb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,10 +60,10 @@ req.typenames: RILIMSIPARAMMASK
 
 ````
 enum RILIMSIPARAMMASK {
-  RIL_PARAM_IMSI_IMSI  = 0x00000001, 
-  RIL_PARAM_IMSI_MCC   = 0x00000002, 
-  RIL_PARAM_IMSI_MNC   = 0x00000004, 
-  RIL_PARAM_IMSI_ALL   = 0x00000007 
+  RIL_PARAM_IMSI_IMSI  = 0x00000001,
+  RIL_PARAM_IMSI_MCC   = 0x00000002,
+  RIL_PARAM_IMSI_MNC   = 0x00000004,
+  RIL_PARAM_IMSI_ALL   = 0x00000007
 
 };
 ````

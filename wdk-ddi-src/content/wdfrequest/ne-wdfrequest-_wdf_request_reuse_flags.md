@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_REUSE_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_REUSE_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_REUSE_PARAMS structure.
 old-location: wdf\wdf_request_reuse_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3d1f8f38-b875-4661-9941-4dec28b7e8fb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

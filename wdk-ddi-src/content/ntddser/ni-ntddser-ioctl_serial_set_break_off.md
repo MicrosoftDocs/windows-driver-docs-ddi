@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_BREAK_OFF
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_BREAK_OFF request sets the line control break signal inactive.
 old-location: serports\ioctl_serial_set_break_off.htm
-old-project: serports
+tech.root: serports
 ms.assetid: aa64da58-cb50-485e-afbc-3a0408b4ecf2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

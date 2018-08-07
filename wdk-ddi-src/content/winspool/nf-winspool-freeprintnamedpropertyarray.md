@@ -4,7 +4,7 @@ title: FreePrintNamedPropertyArray function
 author: windows-driver-content
 description: "."
 old-location: print\freeprintnamedpropertyarray.htm
-old-project: print
+tech.root: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

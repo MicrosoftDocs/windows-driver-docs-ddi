@@ -4,7 +4,7 @@ title: "_PCW_CALLBACK_INFORMATION"
 author: windows-driver-content
 description: The PCW_CALLBACK_INFORMATION union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the PcwCallback function.
 old-location: devtest\pcw_callback_information.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: cc1882a9-eba7-494c-9047-5c97b1e3c19b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

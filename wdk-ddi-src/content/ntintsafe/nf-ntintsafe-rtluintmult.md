@@ -4,7 +4,7 @@ title: RtlUIntMult function
 author: windows-driver-content
 description: Multiplies one value of type UINT by another.
 old-location: kernel\rtluintmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9972BC53-3CFB-4649-9C54-B194039D804F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

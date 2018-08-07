@@ -4,7 +4,7 @@ title: WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function
 author: windows-driver-content
 description: The WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified framework memory object.
 old-location: wdf\wdf_memory_descriptor_init_handle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e5449684-dd37-4d49-ae9f-372f295cecf8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

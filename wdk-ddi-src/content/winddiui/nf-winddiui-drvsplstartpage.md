@@ -4,7 +4,7 @@ title: DrvSplStartPage function
 author: windows-driver-content
 description: "."
 old-location: print\drvsplstartpage.htm
-old-project: print
+tech.root: print
 ms.assetid: 7291a0ec-7a43-4fc6-ac1d-60487b2ad3d8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

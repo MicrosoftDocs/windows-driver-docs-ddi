@@ -4,7 +4,7 @@ title: ControlPrintProcessor function
 author: windows-driver-content
 description: A print processor's ControlPrintProcessor function allows the spooler to control a print job.
 old-location: print\controlprintprocessor.htm
-old-project: print
+tech.root: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

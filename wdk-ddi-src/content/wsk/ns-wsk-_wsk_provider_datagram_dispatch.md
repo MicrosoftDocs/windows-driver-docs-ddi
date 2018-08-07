@@ -4,10 +4,10 @@ title: "_WSK_PROVIDER_DATAGRAM_DISPATCH"
 author: windows-driver-content
 description: The WSK_PROVIDER_DATAGRAM_DISPATCH structure specifies the WSK subsystem's table of functions for a datagram socket.
 old-location: netvista\wsk_provider_datagram_dispatch.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fa8d3395-b800-4e5c-af03-b21520f69158
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWSK_PROVIDER_DATAGRAM_DISPATCH, PWSK_PROVIDER_DATAGRAM_DISPATCH, PWSK_PROVIDER_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_DATAGRAM_DISPATCH, WSK_PROVIDER_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_DATAGRAM_DISPATCH, netvista.wsk_provider_datagram_dispatch, wsk/PWSK_PROVIDER_DATAGRAM_DISPATCH, wsk/WSK_PROVIDER_DATAGRAM_DISPATCH, wskref_20703414-7e22-4163-8d24-0ddec03672b6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

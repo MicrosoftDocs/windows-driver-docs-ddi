@@ -4,7 +4,7 @@ title: LAMP_INTENSITY_COLOR
 author: windows-driver-content
 description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_COLOR and IOCTL_LAMP_SET_INTENSITY_COLOR.
 old-location: stream\lamp_intensity_color.htm
-old-project: stream
+tech.root: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

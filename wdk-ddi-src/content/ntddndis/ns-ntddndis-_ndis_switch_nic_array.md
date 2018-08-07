@@ -4,10 +4,10 @@ title: "_NDIS_SWITCH_NIC_ARRAY"
 author: windows-driver-content
 description: The NDIS_SWITCH_NIC_ARRAY structure specifies an array of network adapter configuration parameters.
 old-location: netvista\ndis_switch_nic_array.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3509a177-d974-45fb-9387-21780483cbe7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_ARRAY, netvista.ndis_switch_nic_array, ntddndis/NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_SetTunnelModeOuterAddress_IN"
 author: windows-driver-content
 description: The SetTunnelModeOuterAddress_IN structure holds the input data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3f698252-213f-482c-8c8f-624f0c370705
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

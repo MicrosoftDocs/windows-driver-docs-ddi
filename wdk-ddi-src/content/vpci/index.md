@@ -8,7 +8,9 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: kernel
+product:
+-	Windows
+tech.root: pci
 ---
 
 # Vpci.h header
@@ -17,6 +19,6 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header contains common types and prototypes for a virtual PCI driver.
 
-- [Windows kernel](../_kernel/index.md)
+- 

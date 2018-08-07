@@ -4,7 +4,7 @@ title: "_KSDEVICE_PROFILE_INFO"
 author: windows-driver-content
 description: The KSDEVICE_PROFILE_INFO is a generic structure designed to handle profile information for various device types.
 old-location: stream\ksdevice_profile_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 32C894CA-B644-4221-97B6-A21F2A459DE6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

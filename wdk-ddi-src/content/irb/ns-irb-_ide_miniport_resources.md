@@ -4,7 +4,7 @@ title: "_IDE_MINIPORT_RESOURCES"
 author: windows-driver-content
 description: The IDE_MINIPORT_RESOURCES structure is used by the port driver to provide the miniport driver with resources.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_miniport_resources.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 867b6152-9846-484f-9eac-07d0f24d55df
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

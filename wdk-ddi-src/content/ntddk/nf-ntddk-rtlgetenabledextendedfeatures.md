@@ -4,7 +4,7 @@ title: RtlGetEnabledExtendedFeatures function
 author: windows-driver-content
 description: The RtlGetEnabledExtendedFeatures routine returns a mask of extended processor features that are enabled by the system.
 old-location: kernel\rtlgetenabledextendedfeatures.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c23d3bfd-a83c-4480-b5a1-b057201ea279
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

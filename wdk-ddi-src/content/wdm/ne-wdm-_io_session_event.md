@@ -4,7 +4,7 @@ title: "_IO_SESSION_EVENT"
 author: windows-driver-content
 description: The IO_SESSION_EVENT enumeration indicates the type of session event for which a driver is receiving notification.
 old-location: kernel\io_session_event.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

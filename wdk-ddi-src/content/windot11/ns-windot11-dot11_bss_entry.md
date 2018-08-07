@@ -4,7 +4,7 @@ title: DOT11_BSS_ENTRY
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_entry.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 50661fc9-2f1f-4c9a-bc15-1cdf7c1f6d01
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -85,18 +85,18 @@ typedef struct DOT11_BSS_ENTRY {
 ### -field uPhyId
 
 The identifier (ID) of the PHY that the 802.11 station used to detect the BSS network. The PHY ID
-     is the index within the list of supported PHYs returned by the driver through a query of 
+     is the index within the list of supported PHYs returned by the driver through a query of
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>.
-     
+
 
 This ID must not be DOT11_PHY_ID_ANY.
 
 
 ### -field PhySpecificInfo
 
-The attributes of the PHY referenced by the 
-     <b>uPhyId</b> member. 
-     <b>PhySpecificInfo</b> is formatted as a 
+The attributes of the PHY referenced by the
+     <b>uPhyId</b> member.
+     <b>PhySpecificInfo</b> is formatted as a
      <a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
      DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a> union.
 
@@ -105,18 +105,18 @@ The attributes of the PHY referenced by the
 
 The media access control (MAC) address of the access point (AP) (for infrastructure BSS networks)
      or peer station (for independent BSS networks) that sent the 802.11 Beacon or Probe Response frame
-     received by the 802.11 station while scanning. The data type for this member is the 
+     received by the 802.11 station while scanning. The data type for this member is the
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> structure.
 
 
 ### -field dot11BSSType
 
-The BSS network type. 
-     
+The BSS network type.
 
-The data type for this member is the 
+
+The data type for this member is the
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration. The miniport
-     driver must not set this member to the 
+     driver must not set this member to the
      <b>dot11_BSS_type_any</b> value.
 
 
@@ -129,7 +129,7 @@ The received signal strength indicator (RSSI) value, in units of decibels refere
 ### -field uLinkQuality
 
 The link quality value ranging from 0 through 100. A value of 100 specifies the highest link
-     quality. For more information about determining the link quality, see 
+     quality. For more information about determining the link quality, see
      <a href="https://msdn.microsoft.com/a649114f-39d9-4cb1-9190-985dc7967268">Link Quality Operations</a>.
 
 
@@ -138,12 +138,12 @@ The link quality value ranging from 0 through 100. A value of 100 specifies the 
 This member specifies whether the AP or peer station is operating within the regulatory domain as
      identified by the input country string. To set this member, the miniport driver must use the following
      guidelines:
-     
+
 
 <ul>
 <li>
 If the 802.11 station does not support multiple regulatory domains, set the member to <b>TRUE</b>. For
-       more information about multiple regulatory domains, see 
+       more information about multiple regulatory domains, see
        <a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
        OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>.
 
@@ -189,7 +189,7 @@ The value of the Timestamp field from the 802.11 Beacon or Probe Response frame.
 
 ### -field ullHostTimestamp
 
-The timestamp, resolved through a call to 
+The timestamp, resolved through a call to
      <a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>, which
      records when the 802.11 station received the 802.11 Beacon or Probe Response frame.
 
@@ -202,9 +202,9 @@ The value of the Capability Information field from the 802.11 Beacon or Probe Re
 
 ### -field uBufferLength
 
-The length, in bytes, of the 
-     <b>ucBuffer</b> array in the DOT11_BSS_ENTRY structure. 
-     <b>ulBufferLength</b> must be the exact length of the data in the 
+The length, in bytes, of the
+     <b>ucBuffer</b> array in the DOT11_BSS_ENTRY structure.
+     <b>ulBufferLength</b> must be the exact length of the data in the
      <b>ucBuffer</b> array and must not contain any padding for alignment.
 
 
@@ -214,7 +214,7 @@ The variable-length information elements (IEs) from the 802.11 Beacon or Probe R
      For each BSS, the IEs must be from the last Beacon or Probe Response frame received from that BSS
      network. If an IE is available in only one frame, the miniport driver must merge the IE with the other
      IEs from the last received Beacon or Probe Response frame.
-     
+
 
 When the NIC is in the Extensible Access Point (ExtAP) OP mode, the BSS list should contain an entry
      for the BSS that the NIC created.
@@ -228,12 +228,12 @@ For more information about the fields within IEEE 802.11 Beacon or Probe Respons
 
 
 When the 802.11 station performs a scan operation, the Native 802.11 miniport driver caches the
-    received 802.11 Beacon and Probe Response frames. For more information about the scan operation, see 
+    received 802.11 Beacon and Probe Response frames. For more information about the scan operation, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 After the 802.11 station completes the scan operation, the miniport driver returns the list of the
-    cached Beacon and Probe Response frames when queried by 
+    cached Beacon and Probe Response frames when queried by
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>. A separate
     DOT11_BSS_ENTRY structure is formatted for each Beacon and Probe Response frame.
 

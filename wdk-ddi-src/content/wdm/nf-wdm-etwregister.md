@@ -4,7 +4,7 @@ title: EtwRegister function
 author: windows-driver-content
 description: The EtwRegister function registers the event provider and must be called before a provider can start tracing.
 old-location: devtest\etwregister.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 89a37edb-0f58-45c2-9045-b31eec5a4281
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

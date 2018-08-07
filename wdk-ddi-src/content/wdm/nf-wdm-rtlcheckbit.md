@@ -4,7 +4,7 @@ title: RtlCheckBit macro
 author: windows-driver-content
 description: The RtlCheckBit routine determines whether a particular bit in a given bitmap variable is clear or set.
 old-location: kernel\rtlcheckbit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

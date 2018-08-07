@@ -4,7 +4,7 @@ title: RtlLookupFirstMatchingElementGenericTableAvl function
 author: windows-driver-content
 description: The RtlLookupFirstMatchingElementGenericTableAvl routine finds the left-most element in the tree that matches the indicated data.
 old-location: ifsk\rtllookupfirstmatchingelementgenerictableavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ff9cea5d-a93f-4d3c-b034-d2bf85484df3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

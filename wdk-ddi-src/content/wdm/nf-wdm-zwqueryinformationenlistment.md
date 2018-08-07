@@ -4,7 +4,7 @@ title: ZwQueryInformationEnlistment function
 author: windows-driver-content
 description: The ZwQueryInformationEnlistment routine retrieves information about a specified enlistment object.
 old-location: kernel\zwqueryinformationenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d8aa5227-7150-4fb1-a8ab-cb0f8ae4f74a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

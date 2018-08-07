@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_GET_LAST_ERROR
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most previous operation because there is no option to return an error code immediately after an overlapped operation is complete.
 old-location: smartcrd\ioctl_smartcard_get_last_error.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: eb482764-3a78-498b-985c-1efc77000291
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

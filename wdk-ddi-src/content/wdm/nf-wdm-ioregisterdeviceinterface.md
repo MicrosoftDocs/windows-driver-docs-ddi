@@ -4,7 +4,7 @@ title: IoRegisterDeviceInterface function
 author: windows-driver-content
 description: The IoRegisterDeviceInterface routine registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 old-location: kernel\ioregisterdeviceinterface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

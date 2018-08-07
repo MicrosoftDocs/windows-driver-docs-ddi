@@ -4,7 +4,7 @@ title: IoGetRequestorProcessId function
 author: windows-driver-content
 description: The IoGetRequestorProcessId routine returns the unique 32-bit process ID for the thread that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorprocessid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 73fe40ee-f1fe-419b-a866-6c40604f7716
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

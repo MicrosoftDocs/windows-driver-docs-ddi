@@ -4,7 +4,7 @@ title: CmGetCallbackVersion function
 author: windows-driver-content
 description: The CmGetCallbackVersion routine retrieves the major and minor version numbers for the current version of the configuration manager's registry callback feature.
 old-location: kernel\cmgetcallbackversion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4b7aba14-bc6a-4d3d-bcc5-53fd122794a1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

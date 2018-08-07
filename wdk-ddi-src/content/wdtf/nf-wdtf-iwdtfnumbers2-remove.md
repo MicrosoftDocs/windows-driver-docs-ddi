@@ -4,7 +4,7 @@ title: IWDTFNumbers2::Remove
 author: windows-driver-content
 description: Removes a number from the collection.
 old-location: dtf\iwdtfnumbers2_remove.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2996b7c3-6f61-42ad-b9d1-e5c9a7d9ca7f
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

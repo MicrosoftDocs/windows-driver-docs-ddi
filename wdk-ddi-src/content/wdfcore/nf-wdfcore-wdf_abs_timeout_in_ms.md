@@ -4,7 +4,7 @@ title: WDF_ABS_TIMEOUT_IN_MS function
 author: windows-driver-content
 description: The WDF_ABS_TIMEOUT_IN_MS function converts a specified number of milliseconds to an absolute time value.
 old-location: wdf\wdf_abs_timeout_in_ms.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 271d2b39-53a3-454b-97d0-0bace8504b48
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsGetResolution
 author: windows-driver-content
 description: The KsGetResolution method retrieves the clock resolution from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetresolution.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 507d41ae-31b9-4807-99af-9ec48eb2b5aa
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

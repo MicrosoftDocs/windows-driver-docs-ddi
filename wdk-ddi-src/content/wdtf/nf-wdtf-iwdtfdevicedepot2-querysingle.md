@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::QuerySingle
 author: windows-driver-content
 description: Returns a single target device from the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_querysingle.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 5e471ede-3607-4d4d-a3f0-5396cc62c6c5
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

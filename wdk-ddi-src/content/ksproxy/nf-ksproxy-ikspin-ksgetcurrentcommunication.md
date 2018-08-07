@@ -4,7 +4,7 @@ title: IKsPin::KsGetCurrentCommunication
 author: windows-driver-content
 description: The KsGetCurrentCommunication method retrieves the current communication direction, interface, and medium of a pin.
 old-location: stream\ikspin_ksgetcurrentcommunication.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3fca9bf5-5430-4877-846e-e796e54991a2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

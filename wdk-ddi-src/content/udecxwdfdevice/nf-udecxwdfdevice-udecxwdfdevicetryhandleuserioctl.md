@@ -4,10 +4,10 @@ title: UdecxWdfDeviceTryHandleUserIoctl function
 author: windows-driver-content
 description: Attempts to handle an IOCTL request sent by a user-mode software.
 old-location: buses\udecxwdfdevicetryhandleuserioctl.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: VideoPortQueryServices function
 author: windows-driver-content
 description: The VideoPortQueryServices function exposes a specified interface that is implemented by the video port driver.
 old-location: display\videoportqueryservices.htm
-old-project: display
+tech.root: display
 ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, video/VideoPortQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

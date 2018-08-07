@@ -4,7 +4,7 @@ title: ARGUMENT_PRESENT macro
 author: windows-driver-content
 description: The ARGUMENT_PRESENT macro takes an argument pointer and returns FALSE if the pointer is NULL. Otherwise, it returns TRUE.
 old-location: kernel\argument_present.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

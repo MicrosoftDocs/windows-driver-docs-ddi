@@ -4,7 +4,7 @@ title: RtlStringCchCatNA function
 author: windows-driver-content
 description: The RtlStringCchCatNW and RtlStringCchCatNA functions concatenate two character-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcchcatn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

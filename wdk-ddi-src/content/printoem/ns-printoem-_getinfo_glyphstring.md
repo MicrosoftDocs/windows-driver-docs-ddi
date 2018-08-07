@@ -4,7 +4,7 @@ title: "_GETINFO_GLYPHSTRING"
 author: windows-driver-content
 description: The GETINFO_GLYPHSTRING structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphstring.htm
-old-project: print
+tech.root: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: KeBugCheck function
 author: windows-driver-content
 description: The KeBugCheck routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
 old-location: kernel\kebugcheck.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 46337a5f-dc8a-42bc-a618-0d1440270f91
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

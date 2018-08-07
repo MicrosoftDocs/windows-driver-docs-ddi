@@ -4,10 +4,10 @@ title: ExtRemoteTyped::operator[](ULONG64)
 author: windows-driver-content
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_ulong64.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 60bf48e2-8f44-4ed3-8c35-499e764fcca9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](ULONG64), ExtRemoteTyped::operator[], ExtRemoteTyped::operator[](ULONG64), debugger.extremotetyped_operatorarray_ulong64, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.operator[]
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

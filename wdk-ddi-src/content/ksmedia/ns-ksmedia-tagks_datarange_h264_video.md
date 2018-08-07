@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_H264_VIDEO
 author: windows-driver-content
 description: The KS_DATARANGE_H264_VIDEO structure describes the range of MPEG-2 video formats available for a stream.
 old-location: stream\ks_datarange_h264_video.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E52B252F-0530-4543-A44C-95D4198504CA
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

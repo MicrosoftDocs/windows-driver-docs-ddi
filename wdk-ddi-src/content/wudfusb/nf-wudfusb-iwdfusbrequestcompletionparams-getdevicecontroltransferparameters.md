@@ -4,7 +4,7 @@ title: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 author: windows-driver-content
 description: The GetDeviceControlTransferParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfusbrequestcompletionparams_getdevicecontroltransferparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

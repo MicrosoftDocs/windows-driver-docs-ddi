@@ -4,7 +4,7 @@ title: "_WDF_PROPERTY_STORE_RETRIEVE_FLAGS"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration contains values that indicate whether UMDF should create a registry key if the key does not already exist.
 old-location: wdf\wdf_property_store_retrieve_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bd64ef0d-b2e7-4f82-87a8-77fe98677fd9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: ExtRemoteData::SetChar method
 author: windows-driver-content
 description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
 old-location: debugger\extremotedata.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
@@ -15,20 +15,20 @@ ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: engextcpp.hpp
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax
@@ -235,7 +235,7 @@ Indicates whether the <b>m_Offset</b>location is valid.  If <b>m_ValidOffset</b>
 <dt><a id="m_Bytes"></a><a id="m_bytes"></a><a id="M_BYTES"></a><b>m_Bytes</b></dt>
 <dd>
 The size, in bytes, of the region of memory represented by this object.  It can be set by the
-	  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a> constructor 
+	  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a> constructor
 	  or by the <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a> or <a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a> methods.
 
 </dd>

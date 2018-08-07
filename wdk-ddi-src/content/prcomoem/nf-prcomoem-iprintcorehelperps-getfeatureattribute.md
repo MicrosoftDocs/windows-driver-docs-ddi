@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS::GetFeatureAttribute
 author: windows-driver-content
 description: The IPrintCoreHelperPS::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcorehelperps_getfeatureattribute.htm
-old-project: print
+tech.root: print
 ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

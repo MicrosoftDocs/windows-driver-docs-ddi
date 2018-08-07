@@ -4,7 +4,7 @@ title: RtlQueryThreadPlaceholderCompatibilityMode function
 author: windows-driver-content
 description: RtlQueryThreadPlaceholderCompatibilityMode is a routine which returns the placeholder compatibility mode for the current thread.
 old-location: ifsk\rtlquerythreadplaceholdercompatibilitymode.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

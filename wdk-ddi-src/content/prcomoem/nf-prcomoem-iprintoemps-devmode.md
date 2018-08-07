@@ -4,7 +4,7 @@ title: IPrintOemPS::DevMode
 author: windows-driver-content
 description: The IPrintOemPS::DevMode method, provided by rendering plug-ins for Pscript5, performs operations on private DEVMODEW members.
 old-location: print\iprintoemps_devmode.htm
-old-project: print
+tech.root: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

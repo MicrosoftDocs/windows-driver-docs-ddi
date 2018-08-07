@@ -4,7 +4,7 @@ title: IWDFDevice::CreateRequest
 author: windows-driver-content
 description: The CreateRequest method creates an unformatted request object.
 old-location: wdf\iwdfdevice_createrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 031ce604-9d6f-4fdd-bacc-d1897f260a14
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

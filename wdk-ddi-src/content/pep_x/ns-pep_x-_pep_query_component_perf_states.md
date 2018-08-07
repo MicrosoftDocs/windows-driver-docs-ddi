@@ -4,7 +4,7 @@ title: "_PEP_QUERY_COMPONENT_PERF_STATES"
 author: windows-driver-content
 description: The PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set.
 old-location: kernel\pep_query_component_perf_states.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D14CB726-2576-490E-B3FD-E970F8B3C87F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

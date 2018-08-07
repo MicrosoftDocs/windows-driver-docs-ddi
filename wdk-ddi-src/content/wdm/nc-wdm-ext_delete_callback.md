@@ -4,7 +4,7 @@ title: EXT_DELETE_CALLBACK
 author: windows-driver-content
 description: An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object.
 old-location: kernel\extimerdeletecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6066CDD4-D2BA-4CF8-AF1C-189812B150D5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

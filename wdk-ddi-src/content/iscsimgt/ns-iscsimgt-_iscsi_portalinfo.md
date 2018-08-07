@@ -4,7 +4,7 @@ title: "_ISCSI_PortalInfo"
 author: windows-driver-content
 description: The ISCSI_PortalInfo structure contains information about an iSCSI portal.
 old-location: storage\iscsi_portalinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0ecfed3e-477a-4014-8491-1a8997ac5b90
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

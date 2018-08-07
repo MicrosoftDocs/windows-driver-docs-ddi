@@ -4,7 +4,7 @@ title: HBA_SendRPL function
 author: windows-driver-content
 description: The HBA_SendRPL routine sends a read port list (RPL) request to the indicated port or domain controller.
 old-location: storage\hba_sendrpl.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2c8cb6bb-eb6b-4a2f-8d00-efb309273536
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_PME_REQUESTOR_ID"
 author: windows-driver-content
 description: The PCI_EXPRESS_PME_REQUESTOR_ID structure describes the identifier of the requester of a power management event (PME).
 old-location: pci\pci_express_pme_requestor_id.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 2305ffbd-22c8-4f63-bbe4-fd297bf98e39
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -75,7 +75,7 @@ typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsUSHORT

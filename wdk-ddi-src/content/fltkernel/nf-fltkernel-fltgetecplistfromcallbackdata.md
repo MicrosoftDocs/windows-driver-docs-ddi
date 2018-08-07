@@ -4,7 +4,7 @@ title: FltGetEcpListFromCallbackData function
 author: windows-driver-content
 description: The FltGetEcpListFromCallbackData routine returns a pointer to an extra create parameter context structure (ECP) list that is associated with a given create operation callback-data object.
 old-location: ifsk\fltgetecplistfromcallbackdata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4e172b98-81f8-4e20-a622-232378114cf3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_GROUP_AFFINITY"
 author: windows-driver-content
 description: The GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.
 old-location: kernel\group_affinity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,7 +60,7 @@ The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <
 
 ### -field Mask
 
-Specifies the affinity mask. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
+Specifies the affinity mask. This parameter is a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
 
 
 ### -field Group
@@ -95,7 +95,7 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

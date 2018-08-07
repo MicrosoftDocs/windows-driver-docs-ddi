@@ -4,7 +4,7 @@ title: "_RTL_AVL_TABLE"
 author: windows-driver-content
 description: The RTL_AVL_TABLE structure contains file system-specific data for an Adelson-Velsky/Landis (AVL) tree.
 old-location: ifsk\rtl_avl_table.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 115d9489-f9f5-4dd2-bf09-33e8fd640743
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

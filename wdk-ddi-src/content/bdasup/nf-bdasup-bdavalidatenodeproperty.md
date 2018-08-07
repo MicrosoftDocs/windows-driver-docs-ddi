@@ -4,7 +4,7 @@ title: BdaValidateNodeProperty function
 author: windows-driver-content
 description: The BdaValidateNodeProperty function validates that a node property request is associated with a specific pin.
 old-location: stream\bdavalidatenodeproperty.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e3a6d757-68c5-49d1-92cc-0ebf6ba6bbec
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

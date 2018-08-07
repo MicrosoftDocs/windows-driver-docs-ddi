@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_PRODUCT_DATA
 author: windows-driver-content
 description: Returns product data for the device.
 old-location: storage\ioctl_changer_get_product_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2e3d0dbd-7d55-4241-9aea-f3474ab49025
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

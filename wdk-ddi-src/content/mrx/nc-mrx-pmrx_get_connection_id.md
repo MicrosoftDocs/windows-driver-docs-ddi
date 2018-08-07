@@ -4,7 +4,7 @@ title: PMRX_GET_CONNECTION_ID
 author: windows-driver-content
 description: TheMRxGetConnectionId routine is called by RDBSS to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions.
 old-location: ifsk\mrxgetconnectionid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c994060c-d8b3-4daa-a0dd-a734ffe34229
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

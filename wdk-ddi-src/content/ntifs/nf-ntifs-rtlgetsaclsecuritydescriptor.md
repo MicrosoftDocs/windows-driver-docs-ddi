@@ -4,7 +4,7 @@ title: RtlGetSaclSecurityDescriptor function
 author: windows-driver-content
 description: The RtlGetSaclSecurityDescriptor routine returns a pointer to the system ACL (SACL) for a security descriptor.
 old-location: ifsk\rtlgetsaclsecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5dd4b15a-63e1-4b80-a156-bc44aeeafb0e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

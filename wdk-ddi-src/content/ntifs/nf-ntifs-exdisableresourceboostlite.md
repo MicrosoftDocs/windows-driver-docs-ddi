@@ -4,7 +4,7 @@ title: ExDisableResourceBoostLite function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\exdisableresourceboostlite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0ab2d417-56d8-4047-846d-6ae4cbaa8409
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

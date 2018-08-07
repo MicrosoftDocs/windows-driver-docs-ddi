@@ -4,10 +4,10 @@ title: IDebugSymbols::ReadTypedDataPhysical
 author: windows-driver-content
 description: The ReadTypedDataPhysical method reads the value of a variable from the target computer's physical memory.
 old-location: debugger\readtypeddataphysical.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols.ReadTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

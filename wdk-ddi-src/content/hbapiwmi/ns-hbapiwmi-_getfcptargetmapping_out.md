@@ -4,7 +4,7 @@ title: "_GetFcpTargetMapping_OUT"
 author: windows-driver-content
 description: The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the GetFcpTargetMapping WMI method to the WMI client.
 old-location: storage\getfcptargetmapping_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

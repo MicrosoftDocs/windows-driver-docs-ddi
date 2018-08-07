@@ -4,7 +4,7 @@ title: "_AACS_READ_BINDING_NONCE"
 author: windows-driver-content
 description: The AACS_READ_BINDING_NONCE structure is a wrapper for the Authentication Grant Identifier (AGID) and logical block address (LBA)/length pair that are required to read a nonce.
 old-location: storage\aacs_read_binding_nonce.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5d017896-bb83-4ea3-9d28-b774213f86e9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

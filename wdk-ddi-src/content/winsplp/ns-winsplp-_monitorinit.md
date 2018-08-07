@@ -4,7 +4,7 @@ title: "_MONITORINIT"
 author: windows-driver-content
 description: The MONITORINIT structure is used as an input parameter to a print monitor's InitializePrintMonitor2 function.
 old-location: print\monitorinit.htm
-old-project: print
+tech.root: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

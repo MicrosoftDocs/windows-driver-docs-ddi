@@ -4,7 +4,7 @@ title: IWDFIoRequest2::GetEffectiveIoType
 author: windows-driver-content
 description: The GetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the IWDFIoRequest2 interface represents.
 old-location: wdf\iwdfiorequest2_geteffectiveiotype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

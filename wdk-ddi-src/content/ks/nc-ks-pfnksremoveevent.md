@@ -4,7 +4,7 @@ title: PFNKSREMOVEEVENT
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniRemoveEvent routine is called when a client requests to be removed from the notification queue for an event. This routine is optional.
 old-location: stream\avstrminiremoveevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: dee4ce19-9dc8-4728-855b-eadb5bca0fc2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

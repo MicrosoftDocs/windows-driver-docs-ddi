@@ -4,7 +4,7 @@ title: RtlUnicodeStringCopyString function
 author: windows-driver-content
 description: The RtlUnicodeStringCopyString function copies a string into a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringcopystring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7b33a311-7f00-4936-b4a9-727f66c12ef0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_REENUMERATE_SELF_INTERFACE_STANDARD"
 author: windows-driver-content
 description: The REENUMERATE_SELF_INTERFACE_STANDARD interface structure enables a driver to request that its parent bus driver reenumerate the driver's device. This structure defines the GUID_REENUMERATE_SELF_INTERFACE_STANDARD interface.
 old-location: kernel\reenumerate_self_interface_standard.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f44a57e9-4536-46a7-a80e-d4bbbb2a9ad5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

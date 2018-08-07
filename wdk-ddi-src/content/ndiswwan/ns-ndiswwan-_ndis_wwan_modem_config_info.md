@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_MODEM_CONFIG_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_MODEM_CONFIG_INFO structure represents the modem's configuration information.
 old-location: netvista\ndis_wwan_modem_config_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 07C2BAED-157A-459C-B558-115C0091ECE5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MODEM_CONFIG_INFO, PNDIS_WWAN_MODEM_CONFIG_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MODEM_CONFIG_INFO, ndiswwan/NDIS_WWAN_MODEM_CONFIG_INFO, ndiswwan/PNDIS_WWAN_MODEM_CONFIG_INFO, netvista.ndis_wwan_modem_config_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

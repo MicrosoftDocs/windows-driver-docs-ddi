@@ -4,7 +4,7 @@ title: IPnpCallbackHardware2
 author: windows-driver-content
 description: The IPnpCallbackHardware2 interface exposes callback methods related to hardware.
 old-location: wdf\ipnpcallbackhardware2.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C0DB967F-0A1A-4749-B902-EBA0D59A3E45
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

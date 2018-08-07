@@ -2,13 +2,13 @@
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)
 title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)
 author: windows-driver-content
-description: The CWiauPropertyList::SetValidValues(BSTR, list) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
-old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
-old-project: image
-ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
+description: The CWiauPropertyList::SetValidValues(LONG, range) method sets the type, as well as default, current, and valid values for a LONG property associated with a range of values.
+old-location: image\cwiaupropertylist_setvalidvalues_long__range_.htm
+tech.root: image
+ms.assetid: da84a381-b564-4356-bd08-dd145b3dcc0b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(BSTR list), CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(LONG,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_long__range_, wiauFncs_49a3f9ad-d74b-436c-ba14-8047889431ea.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SetValidValues
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>CWiauPropertyList::SetValidValues(BSTR, list)</b> method sets the type, as well as default, current, and valid values for a <b>BSTR</b> property associated with a list of values. The method also sets the property type to VT_BSTR and subtype to WIA_PROP_LIST (defined in the Microsoft Windows SDK documentation).
+The <b>CWiauPropertyList::SetValidValues(LONG, range)</b> method sets the type, as well as default, current, and valid values for a <b>LONG</b> property associated with a range of values. The method also sets the property type to VT_I4 and subtype to WIA_PROP_RANGE (defined in the Microsoft Windows SDK documentation).
 
 
 ## -parameters
@@ -74,29 +75,17 @@ Specifies the current setting of the property on the device.
 
 ### -param minValue
 
-
+Specifies the minimum value in the range of values.
 
 
 ### -param maxValue
 
-
+Specifies the maximum value in the range of values.
 
 
 ### -param stepValue
 
-
-
-
-
-
-#### - numValues
-
-Specifies the number of values in the property list.
-
-
-#### - pValues
-
-Points to the first property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
+Specifies the increment between two successive values in the range of values.
 
 
 ## -returns
@@ -122,6 +111,10 @@ This method does not return a value.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a>
+
+
+
+<a href="https://msdn.microsoft.com/1a9a04f4-1260-4773-9c94-963fc0844ccb">CWiauPropertyList::SetValidValues(LONG, list)</a>
  
 
  

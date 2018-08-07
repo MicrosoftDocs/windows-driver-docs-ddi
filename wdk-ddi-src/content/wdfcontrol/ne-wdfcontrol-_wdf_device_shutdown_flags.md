@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_SHUTDOWN_FLAGS"
 author: windows-driver-content
 description: The WDF_DEVICE_SHUTDOWN_FLAGS enumeration defines flags that identify types of shutdown notifications that a driver can receive.
 old-location: wdf\wdf_device_shutdown_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e394f8de-7257-4baa-9057-bd4bad34212d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

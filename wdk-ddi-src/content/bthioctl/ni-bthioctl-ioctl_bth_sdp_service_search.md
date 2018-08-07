@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_SERVICE_SEARCH
 author: windows-driver-content
 description: The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP request for handles to SDP records of a particular service class or classes.
 old-location: bltooth\ioctl_bth_sdp_service_search.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: aea2aff2-5983-4583-9cc8-a45401ecdfb6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

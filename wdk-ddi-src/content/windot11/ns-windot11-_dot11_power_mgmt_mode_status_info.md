@@ -4,7 +4,7 @@ title: "_DOT11_POWER_MGMT_MODE_STATUS_INFO"
 author: windows-driver-content
 description: The DOT11_POWER_MGMT_MODE_STATUS_INFO structure describes the power mode of the hardware.
 old-location: netvista\dot11_power_mgmt_mode_status_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: A373EA34-A7CF-47B3-8194-438BE7F4FC9C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

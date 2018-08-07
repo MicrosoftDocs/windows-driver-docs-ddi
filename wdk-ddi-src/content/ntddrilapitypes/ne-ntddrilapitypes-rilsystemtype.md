@@ -4,7 +4,7 @@ title: RILSYSTEMTYPE
 author: windows-driver-content
 description: This enumeration represents RILSYSTEMTYPE.
 old-location: netvista\rilsystemtype.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5a95969c-d7cd-4afa-affa-7095979ee56b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,16 +58,16 @@ req.typenames: RILSYSTEMTYPE
 
 ````
 enum RILSYSTEMTYPE {
-  RIL_SYSTEMTYPE_NONE     = 0x00000000, 
-  RIL_SYSTEMTYPE_1XRTT    = 0x00000001, 
-  RIL_SYSTEMTYPE_EVDO     = 0x00000002, 
-  RIL_SYSTEMTYPE_GSM      = 0x00000004, 
-  RIL_SYSTEMTYPE_UMTS     = 0x00000008, 
-  RIL_SYSTEMTYPE_LTE      = 0x00000010, 
-  RIL_SYSTEMTYPE_TDSCDMA  = 0x00000020, 
-  RIL_SYSTEMTYPE_CDMA     = RIL_SYSTEMTYPE_1XRTT | RIL_SYSTEMTYPE_EVDO, 
-  RIL_SYSTEMTYPE_GSMUMTS  = RIL_SYSTEMTYPE_GSM | RIL_SYSTEMTYPE_UMTS, 
-  RIL_SYSTEMTYPE_ALL      = 0x0000003F 
+  RIL_SYSTEMTYPE_NONE     = 0x00000000,
+  RIL_SYSTEMTYPE_1XRTT    = 0x00000001,
+  RIL_SYSTEMTYPE_EVDO     = 0x00000002,
+  RIL_SYSTEMTYPE_GSM      = 0x00000004,
+  RIL_SYSTEMTYPE_UMTS     = 0x00000008,
+  RIL_SYSTEMTYPE_LTE      = 0x00000010,
+  RIL_SYSTEMTYPE_TDSCDMA  = 0x00000020,
+  RIL_SYSTEMTYPE_CDMA     = RIL_SYSTEMTYPE_1XRTT | RIL_SYSTEMTYPE_EVDO,
+  RIL_SYSTEMTYPE_GSMUMTS  = RIL_SYSTEMTYPE_GSM | RIL_SYSTEMTYPE_UMTS,
+  RIL_SYSTEMTYPE_ALL      = 0x0000003F
 
 };
 ````

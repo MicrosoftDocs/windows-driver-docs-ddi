@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_LAYOUT_SIGNATURE"
 author: windows-driver-content
 description: The STORAGE_DEVICE_LAYOUT_SIGNATURE structure defines a device layout structure.
 old-location: storage\storage_device_layout_signature.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3c433fe5-1782-4a00-aa7b-1558b0f56080
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

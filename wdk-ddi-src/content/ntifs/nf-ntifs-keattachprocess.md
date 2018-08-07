@@ -4,7 +4,7 @@ title: KeAttachProcess function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\keattachprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1261e65b-c862-4c99-89ed-c222b017272a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

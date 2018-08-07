@@ -4,10 +4,10 @@ title: DXGKDDI_BUILDPAGINGBUFFER
 author: windows-driver-content
 description: The DxgkDdiBuildPagingBuffer function builds paging buffers for memory operations.
 old-location: display\dxgkddibuildpagingbuffer.htm
-old-project: display
+tech.root: display
 ms.assetid: d315ff53-4a9f-46a3-ad74-d65a5eb72de1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_BUILDPAGINGBUFFER, DXGKDDI_BUILDPAGINGBUFFER callback, DmFunctions_0d7a4d5b-3cd4-4c3c-9ffc-7b6e88342f81.xml, DxgkDdiBuildPagingBuffer, DxgkDdiBuildPagingBuffer callback function [Display Devices], d3dkmddi/DxgkDdiBuildPagingBuffer, display.dxgkddibuildpagingbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

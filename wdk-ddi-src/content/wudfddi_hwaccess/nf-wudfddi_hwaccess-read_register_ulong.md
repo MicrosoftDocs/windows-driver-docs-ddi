@@ -4,7 +4,7 @@ title: READ_REGISTER_ULONG function
 author: windows-driver-content
 description: The READ_REGISTER_ULONG function reads a ULONG value from the specified register address.
 old-location: wdf\read_register_ulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F10D3091-BA9D-47FF-A457-380D86D9F205
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

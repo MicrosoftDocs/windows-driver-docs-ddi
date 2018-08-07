@@ -4,7 +4,7 @@ title: FsRtlReleaseFile function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\fsrtlreleasefile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dd3764ee-35bd-45c8-acfe-5c2acb9ea185
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

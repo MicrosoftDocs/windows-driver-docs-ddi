@@ -4,7 +4,7 @@ title: "_MONITORREG"
 author: windows-driver-content
 description: The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
 old-location: print\monitorreg.htm
-old-project: print
+tech.root: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

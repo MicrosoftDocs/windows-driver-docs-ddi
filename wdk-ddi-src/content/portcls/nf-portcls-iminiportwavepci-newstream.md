@@ -4,10 +4,10 @@ title: IMiniportWavePci::NewStream
 author: windows-driver-content
 description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportwavepci_newstream.htm
-old-project: audio
+tech.root: audio
 ms.assetid: cad3eeb5-2106-4648-97e5-cf3bb8601599
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportWavePci interface [Audio Devices],NewStream method, IMiniportWavePci.NewStream, IMiniportWavePci::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_newstream, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml, portcls/IMiniportWavePci::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

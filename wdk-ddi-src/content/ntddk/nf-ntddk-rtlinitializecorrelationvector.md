@@ -4,7 +4,7 @@ title: RtlInitializeCorrelationVector function
 author: windows-driver-content
 description: Initializes the specified correlation vector with the supplied GUID.
 old-location: kernel\rtlinitializecorrelationvector.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

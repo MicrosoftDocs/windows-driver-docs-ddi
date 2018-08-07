@@ -4,7 +4,7 @@ title: WDF_TYPE_NAME_POINTER_TYPE macro
 author: windows-driver-content
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_pointer_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 71e219ff-3ed7-4eb1-bcd7-749b947a9aef
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

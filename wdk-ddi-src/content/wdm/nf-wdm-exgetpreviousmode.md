@@ -4,7 +4,7 @@ title: ExGetPreviousMode function
 author: windows-driver-content
 description: The ExGetPreviousMode routine returns the previous processor mode for the current thread.
 old-location: kernel\exgetpreviousmode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0f4c7bc2-a29d-4b0c-81c3-01cdfefa1322
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

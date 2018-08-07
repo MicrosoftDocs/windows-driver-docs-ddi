@@ -4,7 +4,7 @@ title: KBUGCHECK_CALLBACK_ROUTINE
 author: windows-driver-content
 description: The BugCheckCallback routine is executed whenever the system issues a bug check.
 old-location: kernel\bugcheckcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ecd777f0-bba2-4f14-9fa6-8f47ac83fe7f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WheaFindErrorRecordSection function
 author: windows-driver-content
 description: The WheaFindErrorRecordSection function searches for a specified Windows Hardware Error Architecture (WHEA) error record section within a WHEA error record. The error record section is formatted as a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
 old-location: whea\wheafinderrorrecordsection.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 57c94f04-82e2-4790-b198-d415e494d70b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

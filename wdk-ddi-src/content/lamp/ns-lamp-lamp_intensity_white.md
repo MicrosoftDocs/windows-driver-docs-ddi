@@ -4,7 +4,7 @@ title: LAMP_INTENSITY_WHITE
 author: windows-driver-content
 description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_WHITE and IOCTL_LAMP_SET_INTENSITY_WHITE.
 old-location: stream\lamp_intensity_white.htm
-old-project: stream
+tech.root: stream
 ms.assetid: BDE53311-589F-4458-9510-1B02F1BD0289
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

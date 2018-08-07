@@ -4,7 +4,7 @@ title: PGET_DMA_TRANSFER_INFO
 author: windows-driver-content
 description: The GetDmaTransferInfo routine calculates the allocation requirements for a scatter/gather DMA transfer.
 old-location: kernel\getdmatransferinfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 27D1FAAE-6DEF-4485-AA29-32CC85A01000
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

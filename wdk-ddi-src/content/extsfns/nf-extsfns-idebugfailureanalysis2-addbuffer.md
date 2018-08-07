@@ -4,10 +4,10 @@ title: IDebugFailureAnalysis2::AddBuffer
 author: windows-driver-content
 description: The AddBuffer method adds a new FA entry to a DebugFailureAnalysis object, and writes the bytes from a specified buffer to the data block of the new FA entry.
 old-location: debugger\idebugfailureanalysis2_addbuffer.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: AddBuffer, AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddBuffer method, IDebugFailureAnalysis2.AddBuffer, IDebugFailureAnalysis2::AddBuffer, debugger.idebugfailureanalysis2_addbuffer, extsfns/IDebugFailureAnalysis2::AddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

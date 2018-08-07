@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetValueStrings
 author: windows-driver-content
 description: Returns a collection of string values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluestrings.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2bc18baa-77e0-4ce1-85d9-55817333ecaa
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_RemoveRADIUSServer_IN"
 author: windows-driver-content
 description: The RemoveRADIUSServer_IN structure holds the input data for the user-mode RemoveRADIUSServer method, which is used to remove a RADIUS server entry.
 old-location: storage\removeradiusserver_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 600916e1-37c2-4766-93d9-b7d32a542542
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

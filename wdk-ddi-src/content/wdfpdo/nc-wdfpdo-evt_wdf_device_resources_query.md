@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_RESOURCES_QUERY
 author: windows-driver-content
 description: A bus driver's EvtDeviceResourcesQuery event callback function creates a resource list that represents a specified device's boot configuration.
 old-location: wdf\evtdeviceresourcesquery.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

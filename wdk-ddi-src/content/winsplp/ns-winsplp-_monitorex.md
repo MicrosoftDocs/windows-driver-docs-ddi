@@ -4,7 +4,7 @@ title: "_MONITOREX"
 author: windows-driver-content
 description: The MONITOREX structure is obsolete and supported for compatibility purposes only.
 old-location: print\monitorex.htm
-old-project: print
+tech.root: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,10 +4,10 @@ title: IPreFetchOffset::SetPreFetchOffset
 author: windows-driver-content
 description: The SetPreFetchOffset method sets the prefetch offset, which is the number of bytes of data separating the write cursor from the play cursor in a DirectSound output stream.
 old-location: audio\iprefetchoffset_setprefetchoffset.htm
-old-project: audio
+tech.root: audio
 ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPreFetchOffset interface [Audio Devices],SetPreFetchOffset method, IPreFetchOffset.SetPreFetchOffset, IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], SetPreFetchOffset method [Audio Devices],IPreFetchOffset interface, audio.iprefetchoffset_setprefetchoffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, portcls/IPreFetchOffset::SetPreFetchOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

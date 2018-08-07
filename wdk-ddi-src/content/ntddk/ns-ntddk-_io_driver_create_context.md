@@ -4,7 +4,7 @@ title: "_IO_DRIVER_CREATE_CONTEXT"
 author: windows-driver-content
 description: The IO_DRIVER_CREATE_CONTEXT structure is used to pass additional parameters to the IoCreateFileEx and FltCreateFileEx2 routines.
 old-location: ifsk\io_driver_create_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c2d10f76-5587-4855-9a02-fa7656a3805e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

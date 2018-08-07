@@ -4,7 +4,7 @@ title: "_MS_SM_AdapterInformationQuery"
 author: windows-driver-content
 description: The MS_SM_AdapterInformationQuery structure is used by a WMI provider to expose attributes that are associated with a SAS adapter.
 old-location: storage\ms_sm_adapterinformationquery.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 81c05f47-e75a-4d67-8e77-33ebe1750c67
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_SYSTEM_POWER_STATE"
 author: windows-driver-content
 description: The SYSTEM_POWER_STATE enumeration type is used to indicate a system power state.
 old-location: kernel\system_power_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

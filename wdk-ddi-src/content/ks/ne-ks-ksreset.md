@@ -4,7 +4,7 @@ title: KSRESET
 author: windows-driver-content
 description: "."
 old-location: stream\ksreset.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7622A66F-EB4A-460B-B01F-6E48EC70C07D
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

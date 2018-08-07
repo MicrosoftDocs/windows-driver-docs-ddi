@@ -4,7 +4,7 @@ title: IoCreateController function
 author: windows-driver-content
 description: The IoCreateController routine allocates memory for and initializes a controller object with a controller extension of a driver-determined size.
 old-location: kernel\iocreatecontroller.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

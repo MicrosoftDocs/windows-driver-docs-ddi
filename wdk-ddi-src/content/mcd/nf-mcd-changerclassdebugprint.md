@@ -4,7 +4,7 @@ title: ChangerClassDebugPrint function
 author: windows-driver-content
 description: The ChangerClassDebugPrint function prints debugging information.
 old-location: storage\changerclassdebugprint.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 452377f1-a926-4f43-8168-bea11622902e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

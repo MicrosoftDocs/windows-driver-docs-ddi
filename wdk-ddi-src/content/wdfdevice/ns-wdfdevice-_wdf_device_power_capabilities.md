@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_POWER_CAPABILITIES"
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's power capabilities.
 old-location: wdf\wdf_device_power_capabilities.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 56bb271f-d69c-4523-87cb-4922b405f808
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

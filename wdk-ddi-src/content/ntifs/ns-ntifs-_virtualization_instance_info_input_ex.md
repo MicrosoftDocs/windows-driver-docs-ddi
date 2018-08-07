@@ -31,7 +31,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

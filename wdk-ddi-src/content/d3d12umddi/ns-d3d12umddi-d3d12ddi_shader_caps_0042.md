@@ -31,7 +31,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	D3D12DDI_SHADER_CAPS_0042
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

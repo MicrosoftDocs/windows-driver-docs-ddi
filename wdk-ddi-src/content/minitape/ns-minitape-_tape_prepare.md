@@ -4,7 +4,7 @@ title: "_TAPE_PREPARE"
 author: windows-driver-content
 description: The TAPE_PREPARE structure is used in conjunction with the IOCTL_TAPE_PREPARE request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
 old-location: storage\tape_prepare.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0bca5849-e0f9-42b2-82f8-aadea2aa01ae
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

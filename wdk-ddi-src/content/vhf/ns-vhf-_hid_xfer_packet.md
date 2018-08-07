@@ -4,7 +4,7 @@ title: "_HID_XFER_PACKET"
 author: windows-driver-content
 description: The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report.
 old-location: hid\hid_xfer_packet.htm
-old-project: hid
+tech.root: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RxpReferenceNetFcb function
 author: windows-driver-content
 description: RxpReferenceNetFcb increments the reference count on an FCB.
 old-location: ifsk\rxpreferencenetfcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bc8999e2-d305-407f-8302-6834efa698c5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

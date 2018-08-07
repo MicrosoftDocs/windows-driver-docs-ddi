@@ -4,7 +4,7 @@ title: GNSS_GEOFENCES_TRACKINGSTATUS_DATA
 author: windows-driver-content
 description: This structure is used by the GNSS engine to notify of any changes in the tracking status while tracking a set of previously created geofences.
 old-location: gnss\gnss_geofences_trackingstatus_data.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 65E59305-B1D9-4255-926A-A72F3B4887AF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_FILE_ATTRIBUTE_TAG_INFORMATION"
 author: windows-driver-content
 description: The FILE_ATTRIBUTE_TAG_INFORMATION structure is used as an argument to ZwQueryInformationFile.
 old-location: kernel\file_attribute_tag_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e330bd79-cd44-412e-b9aa-ca5b791750d4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

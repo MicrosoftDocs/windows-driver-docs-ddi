@@ -4,7 +4,7 @@ title: IPrintOemUI::GetInfo
 author: windows-driver-content
 description: A user interface plug-in's IPrintOemUI::GetInfo method returns identification information.
 old-location: print\iprintoemui_getinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: be1eb547-f824-4d6d-818f-8ac1740d1d24
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

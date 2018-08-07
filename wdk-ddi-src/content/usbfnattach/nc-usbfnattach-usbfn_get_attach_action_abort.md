@@ -4,11 +4,11 @@ title: USBFN_GET_ATTACH_ACTION_ABORT
 author: windows-driver-content
 description: The filter driver's implementation to abort an attach-detect operation.
 old-location: buses\usbfn_get_attach_action_abort.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback function [Buses], UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
+ms.date: 5/7/2018
+ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

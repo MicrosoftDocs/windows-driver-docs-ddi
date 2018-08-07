@@ -4,7 +4,7 @@ title: IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart
 author: windows-driver-content
 description: Sets a value that indicates whether the target device should be restarted by default.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_skiprestart.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: e07c6246-f6f8-4335-9b2c-ae6c2673e188
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

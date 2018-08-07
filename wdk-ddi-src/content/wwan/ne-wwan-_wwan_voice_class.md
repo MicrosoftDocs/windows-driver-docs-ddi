@@ -4,10 +4,10 @@ title: "_WWAN_VOICE_CLASS"
 author: windows-driver-content
 description: The WWAN_VOICE_CLASS enumeration lists the different types of voice classes that are supported by the MB device.
 old-location: netvista\wwan_voice_class.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 288a7b44-b842-41f8-8ece-d14a709b0717
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_VOICE_CLASS, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, WwanVoiceClassMax, WwanVoiceClassNoVoice, WwanVoiceClassSeparateVoiceData, WwanVoiceClassSimultaneousVoiceData, WwanVoiceClassUnknown, _WWAN_VOICE_CLASS, netvista.wwan_voice_class, wwan/PWWAN_VOICE_CLASS, wwan/WWAN_VOICE_CLASS, wwan/WwanVoiceClassMax, wwan/WwanVoiceClassNoVoice, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassSimultaneousVoiceData, wwan/WwanVoiceClassUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices

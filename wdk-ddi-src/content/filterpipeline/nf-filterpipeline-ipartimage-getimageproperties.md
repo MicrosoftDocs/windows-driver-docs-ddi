@@ -4,7 +4,7 @@ title: IPartImage::GetImageProperties
 author: windows-driver-content
 description: The GetImageProperties method gets an image property that is based on the content type.
 old-location: print\ipartimage_getimageproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

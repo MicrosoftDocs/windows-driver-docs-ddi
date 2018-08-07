@@ -4,7 +4,7 @@ title: FsRtlPrepareMdlWriteDev function
 author: windows-driver-content
 description: The FltFastIoPrepareMdlWrite routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache.
 old-location: ifsk\fltfastiopreparemdlwrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlPrepareMdlWriteDev
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

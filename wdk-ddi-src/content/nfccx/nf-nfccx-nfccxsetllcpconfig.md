@@ -4,7 +4,7 @@ title: NfcCxSetLlcpConfig function
 author: windows-driver-content
 description: Called by the client driver to configure the LLCP parameters.
 old-location: nfpdrivers\_nfccxsetllcpconfig.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_KsEdit function"
 author: windows-driver-content
 description: The _KsEdit function guarantees that a given item is dynamically allocated and associated with an AVStream object through the object bag.
 old-location: stream\_ksedit.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

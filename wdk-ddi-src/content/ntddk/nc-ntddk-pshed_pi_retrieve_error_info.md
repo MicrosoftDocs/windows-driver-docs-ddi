@@ -4,7 +4,7 @@ title: PSHED_PI_RETRIEVE_ERROR_INFO
 author: windows-driver-content
 description: A PSHED plug-in's RetrieveErrorInfo callback function retrieves platform-specific error information about a hardware error that has occurred.
 old-location: whea\retrieveerrorinfo.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 4d299057-a1cc-4b53-8ab4-031672181e74
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

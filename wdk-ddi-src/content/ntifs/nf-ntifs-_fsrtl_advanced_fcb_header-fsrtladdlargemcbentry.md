@@ -4,7 +4,7 @@ title: FsRtlAddLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlAddLargeMcbEntry routine adds a new mapping to an existing map control block (MCB).
 old-location: ifsk\fsrtladdlargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7cab24f3-624f-4fd1-9f33-76042e5f16ed
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlAddLargeMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -4,7 +4,7 @@ title: RtlIntPtrSub function
 author: windows-driver-content
 description: Subtracts one value of type INT_PTR from another.
 old-location: kernel\rtlintptrsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 72352FD3-4855-4630-AF42-368FF3A6B2BB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

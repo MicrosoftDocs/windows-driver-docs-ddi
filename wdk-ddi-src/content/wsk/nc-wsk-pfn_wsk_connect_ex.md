@@ -4,10 +4,10 @@ title: PFN_WSK_CONNECT_EX
 author: windows-driver-content
 description: The WskConnectEx function connects a connection-oriented or stream socket to a remote transport address.WskConnectEx is similar to WskConnect except that it can also optionally send a buffer of data during or after connection synchronization.
 old-location: netvista\wskconnectex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1BC518E9-747C-4406-8A2A-40A3BCB0A3AA
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PFN_WSK_CONNECT_EX, PFN_WSK_CONNECT_EX callback, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

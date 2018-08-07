@@ -4,7 +4,7 @@ title: IPrinterQueue::get_Handle
 author: windows-driver-content
 description: Gets the underlying native handle for this print queue.
 old-location: print\iprinterqueue_handle.htm
-old-project: print
+tech.root: print
 ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

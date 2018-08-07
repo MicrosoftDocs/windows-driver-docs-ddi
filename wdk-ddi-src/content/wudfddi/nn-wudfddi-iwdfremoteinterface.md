@@ -4,7 +4,7 @@ title: IWDFRemoteInterface
 author: windows-driver-content
 description: UMDF drivers receive a pointer to this interface by calling the IWDFDevice2::CreateRemoteInterface method.
 old-location: wdf\iwdfremoteinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 10d4cd20-c797-455c-b16d-00982be5c1b7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
 req.umdf-ver: 1.9
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
 req.max-support: Unavailable in UMDF 2.0 and later.
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
 req.dll: WUDFx.dll
-req.irql: 
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

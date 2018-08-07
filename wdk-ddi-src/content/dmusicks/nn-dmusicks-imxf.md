@@ -4,7 +4,7 @@ title: IMXF
 author: windows-driver-content
 description: The IMXF interface represents the DirectMusic stream on a MIDI transport filter (MXF).
 old-location: audio\imxf.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 97e24c86-a97d-42ed-9402-4c387c7cec5b
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: dmusicks.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

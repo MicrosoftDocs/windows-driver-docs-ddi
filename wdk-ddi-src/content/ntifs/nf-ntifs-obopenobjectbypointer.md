@@ -4,7 +4,7 @@ title: ObOpenObjectByPointer function
 author: windows-driver-content
 description: The ObOpenObjectByPointer function opens an object referenced by a pointer and returns a handle to the object.
 old-location: ifsk\obopenobjectbypointer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

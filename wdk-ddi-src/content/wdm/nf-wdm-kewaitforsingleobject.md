@@ -4,7 +4,7 @@ title: KeWaitForSingleObject function
 author: windows-driver-content
 description: The KeWaitForSingleObject routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out.
 old-location: kernel\kewaitforsingleobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

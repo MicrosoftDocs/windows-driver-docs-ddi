@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOCONTROL_MODE_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCONTROL_MODE_S structure describes video-control modes for a stream, such as image flipping or event triggering abilities.
 old-location: stream\ksproperty_videocontrol_mode_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ba6ac5ef-4153-479f-a1a9-b71d1d80786c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

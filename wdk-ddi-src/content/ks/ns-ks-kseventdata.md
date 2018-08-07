@@ -4,7 +4,7 @@ title: KSEVENTDATA
 author: windows-driver-content
 description: Kernel streaming clients send the KSEVENTDATA structure to the class driver to specify a notification method.
 old-location: stream\kseventdata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 83503353-e4f7-47ba-9a0c-71264798e983
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

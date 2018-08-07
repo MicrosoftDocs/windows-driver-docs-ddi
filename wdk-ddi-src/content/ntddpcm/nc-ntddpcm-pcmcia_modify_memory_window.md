@@ -4,7 +4,7 @@ title: PCMCIA_MODIFY_MEMORY_WINDOW
 author: windows-driver-content
 description: The PCMCIA_MODIFY_MEMORY_WINDOW interface routine sets the attributes of a memory window for a PCMCIA memory card. The memory window is mapped by the PCMCIA bus driver.
 old-location: pcmcia\pcmcia_modify_memory_window.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: 01469cd7-a023-42b0-9306-fc390bf990e6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,10 +4,10 @@ title: D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT
 author: windows-driver-content
 description: Contains the response to a QueryAuthenticatedChannel(D3D11_1) query with a D3D11_1DDI_AUTHENTICATED_QUERY_INPUT.QueryType value of D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION.
 old-location: display\d3d11_1ddi_authenticated_query_crypto_session_input.htm
-old-project: display
+tech.root: display
 ms.assetid: de902658-6969-4efa-8242-a6a4bd9780ed
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, display.d3d11_1ddi_authenticated_query_crypto_session_input
 ms.prod: windows-hardware
 ms.technology: windows-devices

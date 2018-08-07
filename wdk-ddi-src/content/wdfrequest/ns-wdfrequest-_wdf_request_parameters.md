@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_PARAMETERS"
 author: windows-driver-content
 description: The WDF_REQUEST_PARAMETERS structure receives parameters that are associated with an I/O request.
 old-location: wdf\wdf_request_parameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 012e34c0-3cc6-49dc-94ad-d359d857720f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

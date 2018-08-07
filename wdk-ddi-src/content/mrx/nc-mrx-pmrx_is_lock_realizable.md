@@ -4,7 +4,7 @@ title: PMRX_IS_LOCK_REALIZABLE
 author: windows-driver-content
 description: The MRxIsLockRealizable routine is called by RDBSS to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
 old-location: ifsk\mrxislockrealizable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4b8c9a94-a81e-4a02-b68c-10b2fb64157f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

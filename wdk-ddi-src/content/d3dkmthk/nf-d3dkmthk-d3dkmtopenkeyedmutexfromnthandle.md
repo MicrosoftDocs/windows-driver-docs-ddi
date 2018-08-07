@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutexFromNtHandle
 title: D3DKMTOpenKeyedMutexFromNtHandle function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 797fe9ea-3960-4b49-88aa-cfd8929fc0fe
 ms.author: windowsdriverdev
 ms.date:
@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 req.ddi-compliance:
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname:
 -	D3DKMTOpenKeyedMutexFromNtHandle
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 
 ---

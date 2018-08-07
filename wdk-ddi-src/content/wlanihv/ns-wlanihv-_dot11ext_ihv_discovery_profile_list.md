@@ -4,7 +4,7 @@ title: "_DOT11EXT_IHV_DISCOVERY_PROFILE_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_discovery_profile_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8fa104bd-b594-4909-bb49-0c9d013b1696
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,14 +72,14 @@ typedef struct _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST {
 
 ### -field dwCount
 
-The number of 
+The number of
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile.md">
      DOT11EXT_IHV_DISCOVERY_PROFILE</a> IHV discovery profiles.
 
 
 ### -field pIhvDiscoveryProfiles
 
-A pointer to an array of 
+A pointer to an array of
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile.md">
      DOT11EXT_IHV_DISCOVERY_PROFILE</a> IHV discovery profiles.
 

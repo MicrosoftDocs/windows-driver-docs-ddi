@@ -4,7 +4,7 @@ title: RxPostToWorkerThread function
 author: windows-driver-content
 description: RxPostToWorkerThread invokes a routine passed as a parameter in the context of a worker thread. Memory for the WORK_QUEUE_ITEM must be allocated by the caller.
 old-location: ifsk\rxposttoworkerthread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0fc9fb57-219e-4a3d-bc82-904ab8657d66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

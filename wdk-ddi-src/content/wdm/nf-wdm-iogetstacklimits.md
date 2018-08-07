@@ -4,7 +4,7 @@ title: IoGetStackLimits function
 author: windows-driver-content
 description: The IoGetStackLimits routine returns the boundaries of the current thread's stack frame.
 old-location: kernel\iogetstacklimits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

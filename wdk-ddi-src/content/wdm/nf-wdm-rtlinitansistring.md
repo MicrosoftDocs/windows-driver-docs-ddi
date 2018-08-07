@@ -4,7 +4,7 @@ title: RtlInitAnsiString function
 author: windows-driver-content
 description: The RtlInitAnsiString routine initializes a counted string of ANSI characters.
 old-location: kernel\rtlinitansistring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

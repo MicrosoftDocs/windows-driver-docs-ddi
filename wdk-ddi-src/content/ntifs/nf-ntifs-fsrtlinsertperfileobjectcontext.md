@@ -4,7 +4,7 @@ title: FsRtlInsertPerFileObjectContext function
 author: windows-driver-content
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlInsertPerFileObjectContext function associates context information with a file object.
 old-location: ifsk\fsrtlinsertperfileobjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 852b8b71-8a8c-4e9e-b27e-78fc2df8d5bd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

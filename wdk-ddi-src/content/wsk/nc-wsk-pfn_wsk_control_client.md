@@ -4,10 +4,10 @@ title: PFN_WSK_CONTROL_CLIENT
 author: windows-driver-content
 description: The WskControlClient function performs control operations on a WSK client object.
 old-location: netvista\wskcontrolclient.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: dad13c60-3511-4641-9182-71a1ce032a69
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PFN_WSK_CONTROL_CLIENT, PFN_WSK_CONTROL_CLIENT callback, WskControlClient, WskControlClient callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolclient, wsk/WskControlClient, wskref_11f754a6-78c0-44ca-8dbc-75521ed659b7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

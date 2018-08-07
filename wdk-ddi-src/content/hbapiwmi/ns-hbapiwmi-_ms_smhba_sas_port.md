@@ -4,7 +4,7 @@ title: "_MS_SMHBA_SAS_Port"
 author: windows-driver-content
 description: The MS_SMHBA_SAS_Port structure is used to report the SAS port information.
 old-location: storage\ms_smhba_sas_port.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d294d97a-e6b2-4ab3-bebf-e545aa2f862d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

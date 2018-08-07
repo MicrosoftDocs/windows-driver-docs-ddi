@@ -4,7 +4,7 @@ title: IoCreateStreamFileObject function
 author: windows-driver-content
 description: The IoCreateStreamFileObject routine creates a new stream file object.
 old-location: ifsk\iocreatestreamfileobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4186a362-f75d-4633-b9eb-5b0810bf56dc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

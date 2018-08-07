@@ -4,7 +4,7 @@ title: PshedSynchronizeExecution function
 author: windows-driver-content
 description: The PshedSynchronizeExecution function synchronizes the execution of a given function with the hardware error processing for an error source.
 old-location: whea\pshedsynchronizeexecution.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 299fd2fc-d7f4-4176-addd-d45d010b1056
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

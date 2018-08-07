@@ -4,7 +4,7 @@ title: "_HW_TIME_CONTEXT"
 author: windows-driver-content
 description: The class driver passes an HW_TIME_CONTEXT structure as a parameter to be filled in by a stream's StrMiniClock routine, or returns a completed HW_TIME_CONTEXT structure when it responds to a StreamClassQueryMasterClock or StreamClassQueryMasterClockSync request.
 old-location: stream\hw_time_context.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4f349089-ff50-4f69-941f-ba3e9225abec
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

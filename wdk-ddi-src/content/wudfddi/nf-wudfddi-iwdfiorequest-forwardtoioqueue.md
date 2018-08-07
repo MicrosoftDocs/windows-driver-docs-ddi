@@ -4,7 +4,7 @@ title: IWDFIoRequest::ForwardToIoQueue
 author: windows-driver-content
 description: The ForwardToIoQueue method forwards (that is, requeues) an I/O request to one of the calling driver's I/O queues.
 old-location: wdf\iwdfiorequest_forwardtoioqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

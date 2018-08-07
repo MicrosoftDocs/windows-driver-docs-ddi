@@ -4,7 +4,7 @@ title: ZwUnloadDriver function
 author: windows-driver-content
 description: The ZwUnloadDriver routine unloads a driver from the system.
 old-location: kernel\zwunloaddriver.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4fbb4d4b-b98a-4d10-b9b2-7ad8fc4ada6e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

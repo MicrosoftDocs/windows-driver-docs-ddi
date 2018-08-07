@@ -4,7 +4,7 @@ title: IWDFIoTargetStateManagement::Remove
 author: windows-driver-content
 description: The Remove method removes a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_remove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

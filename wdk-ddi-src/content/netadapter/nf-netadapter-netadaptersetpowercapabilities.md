@@ -36,7 +36,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NetAdapterSetPowerCapabilities
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

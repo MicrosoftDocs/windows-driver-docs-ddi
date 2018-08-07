@@ -4,10 +4,10 @@ title: IDebugSymbols3::SetImagePathWide
 author: windows-driver-content
 description: The SetImagePathWide method sets the executable image path.
 old-location: debugger\setimagepathwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetImagePathWide method, IDebugSymbols3.SetImagePathWide, IDebugSymbols3::SetImagePathWide, SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

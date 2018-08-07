@@ -4,7 +4,7 @@ title: RtlMoveMemory macro
 author: windows-driver-content
 description: The RtlMoveMemory routine copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 old-location: kernel\rtlmovememory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

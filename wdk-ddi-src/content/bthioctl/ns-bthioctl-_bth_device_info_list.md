@@ -4,7 +4,7 @@ title: "_BTH_DEVICE_INFO_LIST"
 author: windows-driver-content
 description: The BTH_DEVICE_INFO_LIST structure contains output information about all cached, previously discovered remote devices.
 old-location: bltooth\bth_device_info_list.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: ad4888fc-3d90-4920-bf84-aea18841d238
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

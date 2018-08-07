@@ -31,7 +31,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_FPGA_CONTROL_INTERFACE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

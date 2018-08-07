@@ -4,7 +4,7 @@ title: MmAllocatePagesForMdl function
 author: windows-driver-content
 description: The MmAllocatePagesForMdl routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
 old-location: kernel\mmallocatepagesformdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06b52af0-c2d3-444e-8714-4fce4181dddc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

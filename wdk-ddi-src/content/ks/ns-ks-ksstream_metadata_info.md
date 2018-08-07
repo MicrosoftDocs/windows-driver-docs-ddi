@@ -4,7 +4,7 @@ title: KSSTREAM_METADATA_INFO
 author: windows-driver-content
 description: This structure contains the metadata information that is passed down to the driver.
 old-location: stream\ksstream_metadata_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 40C09BCD-407F-4F2D-8780-4DEC1C9246E8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

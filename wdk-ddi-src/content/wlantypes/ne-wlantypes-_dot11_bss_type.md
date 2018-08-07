@@ -4,7 +4,7 @@ title: "_DOT11_BSS_TYPE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5cb263e2-e5b7-456f-9fef-deaf5434c404
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlantypes.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_BSS_TYPE { 
+typedef enum _DOT11_BSS_TYPE {
   dot11_BSS_type_infrastructure  = 1,
   dot11_BSS_type_independent     = 2,
   dot11_BSS_type_any             = 3
@@ -90,9 +90,9 @@ Specifies either infrastructure or IBSS network.
 
 
 
-The 
-    <b>dot11_BSS_type_any</b> enumerator is valid only if it is specified when 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a> is set. 
+The
+    <b>dot11_BSS_type_any</b> enumerator is valid only if it is specified when
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a> is set.
     <b>dot11_BSS_type_any</b> is used to request a scan for all types of BSSs that are visible to the 802.11
     station.
 

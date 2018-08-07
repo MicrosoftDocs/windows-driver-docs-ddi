@@ -4,7 +4,7 @@ title: IBidiRequest::GetOutputData
 author: windows-driver-content
 description: The GetOutputData method gets the specified output data coming back from the printer.
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
-old-project: print
+tech.root: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

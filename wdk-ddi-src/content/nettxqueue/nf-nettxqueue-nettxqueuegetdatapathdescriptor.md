@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetTxQueueGetDatapathDescriptor
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

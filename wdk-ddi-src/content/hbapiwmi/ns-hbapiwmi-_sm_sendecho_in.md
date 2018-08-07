@@ -4,7 +4,7 @@ title: "_SM_SendECHO_IN"
 author: windows-driver-content
 description: The SM_SendECHO_IN structure is used to provide input parameters to the SM_SendECHO method.
 old-location: storage\sm_sendecho_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0fce2e27-8705-4916-8c75-ecc2845c255c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

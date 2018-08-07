@@ -4,7 +4,7 @@ title: FsRtlInsertPerStreamContext function
 author: windows-driver-content
 description: The FsRtlInsertPerStreamContext routine associates a file system filter driver's per-stream context structure with a file stream.
 old-location: ifsk\fsrtlinsertperstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d1592021-7765-4553-bcb0-9124af44123f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

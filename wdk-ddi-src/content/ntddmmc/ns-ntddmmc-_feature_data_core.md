@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_CORE"
 author: windows-driver-content
 description: The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 old-location: storage\feature_data_core.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

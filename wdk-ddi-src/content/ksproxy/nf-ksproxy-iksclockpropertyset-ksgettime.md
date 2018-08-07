@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsGetTime
 author: windows-driver-content
 description: The KsGetTime method retrieves the time of the underlying clock.
 old-location: stream\iksclockpropertyset_ksgettime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0d22baeb-d08f-4554-9af4-dae9480a471a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

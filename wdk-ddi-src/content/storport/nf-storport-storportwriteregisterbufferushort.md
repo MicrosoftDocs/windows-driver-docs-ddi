@@ -4,7 +4,7 @@ title: StorPortWriteRegisterBufferUshort macro
 author: windows-driver-content
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

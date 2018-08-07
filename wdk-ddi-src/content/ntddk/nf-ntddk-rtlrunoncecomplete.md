@@ -4,7 +4,7 @@ title: RtlRunOnceComplete function
 author: windows-driver-content
 description: The RtlRunOnceComplete routine completes the one-time initialization began by RtlRunOnceBeginInitialize.
 old-location: kernel\rtlrunoncecomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1cdc4fde-2370-4e58-9e67-dec731cdb935
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

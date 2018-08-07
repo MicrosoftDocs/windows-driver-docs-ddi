@@ -4,7 +4,7 @@ title: KsCreateFilterFactory function
 author: windows-driver-content
 description: The KsCreateFilterFactory function adds a filter factory to a given device.
 old-location: stream\kscreatefilterfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ebfdae87-febc-4383-93f4-5d613df273a9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

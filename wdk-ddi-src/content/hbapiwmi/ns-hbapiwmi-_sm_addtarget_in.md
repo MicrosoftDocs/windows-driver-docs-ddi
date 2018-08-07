@@ -4,7 +4,7 @@ title: "_SM_AddTarget_IN"
 author: windows-driver-content
 description: The SM_AddTarget_IN structure is used to provide input parameters to the SM_AddTarget WMI method.
 old-location: storage\sm_addtarget_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 02bf5e91-bce0-4b8d-aec6-659ed1efd2b5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

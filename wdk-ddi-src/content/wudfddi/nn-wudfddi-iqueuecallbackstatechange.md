@@ -4,7 +4,7 @@ title: IQueueCallbackStateChange
 author: windows-driver-content
 description: An I/O queue object raises an event when it changes state. A driver can consume the event by registering the IQueueCallbackStateChange interface.
 old-location: wdf\iqueuecallbackstatechange.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 39c66462-015d-49ba-9a37-0b3b928e5fbf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

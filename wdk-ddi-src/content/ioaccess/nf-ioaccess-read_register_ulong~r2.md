@@ -4,7 +4,7 @@ title: READ_REGISTER_ULONG function
 author: windows-driver-content
 description: The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address.
 old-location: kernel\read_register_ulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a462734c-cac6-4de0-95c1-810766ef1644
 ms.author: windowsdriverdev
 ms.date: 3/1/2018
@@ -16,16 +16,16 @@ req.header: ioaccess.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
@@ -70,7 +70,7 @@ ULONG READ_REGISTER_ULONG(
 
 ### -param Register [in]
 
-Pointer to the register address, which must be a mapped range in memory space. 
+Pointer to the register address, which must be a mapped range in memory space.
 
 
 ## -returns

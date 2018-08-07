@@ -4,7 +4,7 @@ title: ClfsGetIoStatistics function
 author: windows-driver-content
 description: The ClfsGetIoStatistics routine returns I/O statistics for a specified CLFS log.
 old-location: kernel\clfsgetiostatistics.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 68c04751-761c-4e32-927d-aad61813cd38
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

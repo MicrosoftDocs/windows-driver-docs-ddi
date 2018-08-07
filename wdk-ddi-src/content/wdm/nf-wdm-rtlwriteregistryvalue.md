@@ -4,7 +4,7 @@ title: RtlWriteRegistryValue function
 author: windows-driver-content
 description: The RtlWriteRegistryValue routine writes caller-supplied data into the registry along the specified relative path at the given value name.
 old-location: kernel\rtlwriteregistryvalue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 97bcd205-ffc0-4645-87d4-659651ed579a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

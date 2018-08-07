@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_AGNSS
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_AGNSS control code is used by the GNSS adapter to start listening for AGNSS requests issued by the GNSS driver.
 old-location: gnss\ioctl_gnss_listen_agnss.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: B065CDE1-BB6D-4209-881B-50743A38EDBE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

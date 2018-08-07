@@ -4,10 +4,10 @@ title: NdisFillMemory macro
 author: windows-driver-content
 description: The NdisFillMemory function fills a caller-supplied buffer with the given character.
 old-location: netvista\ndisfillmemory.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6d974c56-5925-4ad5-a3c0-0c17e8488431
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, netvista.ndisfillmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

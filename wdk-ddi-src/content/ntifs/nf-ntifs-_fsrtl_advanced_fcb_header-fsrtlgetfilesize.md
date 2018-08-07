@@ -4,7 +4,7 @@ title: FsRtlGetFileSize function
 author: windows-driver-content
 description: The FsRtlGetFileSize routine is used to get the size of a file.
 old-location: ifsk\fsrtlgetfilesize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlGetFileSize
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

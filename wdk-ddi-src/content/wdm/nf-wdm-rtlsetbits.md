@@ -4,7 +4,7 @@ title: RtlSetBits function
 author: windows-driver-content
 description: The RtlSetBits routine sets all bits in a given range of a given bitmap variable.
 old-location: kernel\rtlsetbits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 63f796c1-033f-450a-a4da-527b8688448b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

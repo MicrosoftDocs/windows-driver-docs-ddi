@@ -4,7 +4,7 @@ title: "_DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 author: windows-driver-content
 description: The DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure specifies the parameters for an offload read action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_read_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4C0B2CFD-B981-4304-B3F9-AD534BF5A823
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

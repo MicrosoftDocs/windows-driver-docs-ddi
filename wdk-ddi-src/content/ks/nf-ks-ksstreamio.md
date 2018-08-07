@@ -4,7 +4,7 @@ title: KsStreamIo function
 author: windows-driver-content
 description: The KsStreamIo function performs a stream read or write against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates a read or write request against the device object.
 old-location: stream\ksstreamio.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 74c62a30-42b9-4ea7-b52a-014e263d886e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: RtlNumberGenericTableElements function
 author: windows-driver-content
 description: The RtlNumberGenericTableElements routine returns the number of elements in a generic table.
 old-location: ifsk\rtlnumbergenerictableelements.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7dea199f-ef98-4f7b-a3e4-de52fc23c8ef
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

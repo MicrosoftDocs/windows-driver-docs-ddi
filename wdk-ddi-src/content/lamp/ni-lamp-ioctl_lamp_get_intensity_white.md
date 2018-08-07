@@ -4,7 +4,7 @@ title: IOCTL_LAMP_GET_INTENSITY_WHITE
 author: windows-driver-content
 description: The IOCTL_LAMP_GET_INTENSITY_WHITE control code queries the light intensity when the lamp is configured to emit white light.
 old-location: stream\ioctl_lamp_get__intensity_white.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9B9FD4A1-F005-4CB8-80E3-D8AA74F6B9FB
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

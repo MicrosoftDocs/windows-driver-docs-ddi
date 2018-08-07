@@ -4,7 +4,7 @@ title: IXpsRasterizer::SetMinimalLineWidth
 author: windows-driver-content
 description: The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render.
 old-location: print\ixpsrasterizer_setminimallinewidth.htm
-old-project: print
+tech.root: print
 ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

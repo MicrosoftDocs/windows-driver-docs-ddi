@@ -4,7 +4,7 @@ title: WdfDmaEnablerGetFragmentLength function
 author: windows-driver-content
 description: The WdfDmaEnablerGetFragmentLength method returns the maximum transfer length that the operating system supports for a single DMA transfer.
 old-location: wdf\wdfdmaenablergetfragmentlength.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: WmiTraceMessage function
 author: windows-driver-content
 description: The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.
 old-location: kernel\wmitracemessage.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

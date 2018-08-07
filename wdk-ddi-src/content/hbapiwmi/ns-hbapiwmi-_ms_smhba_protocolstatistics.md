@@ -4,7 +4,7 @@ title: "_MS_SMHBA_PROTOCOLSTATISTICS"
 author: windows-driver-content
 description: The MS_SMHBA_PROTOCOLSTATISTICS structure is used to report protocol traffic statistics on a port.
 old-location: storage\ms_smhba_protocolstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: eb992a5e-41fe-4bb3-9f53-785135af8a32
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

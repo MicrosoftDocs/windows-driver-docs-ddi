@@ -4,7 +4,7 @@ title: IPrinterExtensionEventArgs::get_WindowParent
 author: windows-driver-content
 description: Gets the handle of the parent window.
 old-location: print\iprinterextensioneventargs_windowparent.htm
-old-project: print
+tech.root: print
 ms.assetid: 23B8E247-C521-4CBD-ABB3-9A10ECAFAE84
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

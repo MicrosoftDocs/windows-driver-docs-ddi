@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_IS_CLUSTERED
 author: windows-driver-content
 description: Allows a driver or application to determine if a volume is clustered.
 old-location: storage\ioctl_volume_is_clustered.htm
-old-project: storage
+tech.root: storage
 ms.assetid: aa8accf8-79c9-4868-b621-d468a121cb60
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

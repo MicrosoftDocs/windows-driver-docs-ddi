@@ -4,7 +4,7 @@ title: IOCTL_TAPE_GET_STATUS
 author: windows-driver-content
 description: Returns the current status of the drive in the Status field of the I/O status block.
 old-location: storage\ioctl_tape_get_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d5e491b8-d40c-4f2c-9117-5c3cb71913f7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

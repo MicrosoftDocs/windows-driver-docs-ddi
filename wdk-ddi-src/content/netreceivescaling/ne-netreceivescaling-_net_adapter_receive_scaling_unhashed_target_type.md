@@ -28,7 +28,8 @@ apilocation:
 -	netreceivescaling.h
 apiname: 
 -	_NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

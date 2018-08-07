@@ -4,7 +4,7 @@ title: IOCTL_DISK_RESET_SNAPSHOT_INFO
 author: windows-driver-content
 description: Clears all volume shadow copy service (VSS) hardware-based snapshot information from the disk.
 old-location: storage\ioctl_disk_reset_snapshot_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b22b00de-4711-4896-a21c-33fbc7b1d64e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

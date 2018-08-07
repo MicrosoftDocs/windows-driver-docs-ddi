@@ -4,7 +4,7 @@ title: ClfsReadRestartArea function
 author: windows-driver-content
 description: The ClfsReadRestartArea routine reads the restart record that was most recently written to a specified CLFS stream.
 old-location: kernel\clfsreadrestartarea.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::DisableDevice
 author: windows-driver-content
 description: Disables the target device.
 old-location: dtf\iwdtfpnpaction2_disabledevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: b6e3f327-c928-497d-b90c-db6c05b3a7b4
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

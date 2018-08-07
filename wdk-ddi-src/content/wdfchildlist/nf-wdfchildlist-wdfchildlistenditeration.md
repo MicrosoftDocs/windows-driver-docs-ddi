@@ -4,7 +4,7 @@ title: WdfChildListEndIteration function
 author: windows-driver-content
 description: The WdfChildListEndIteration method processes modifications to a specified child list.
 old-location: wdf\wdfchildlistenditeration.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f8dc1d77-d0c5-4112-939d-221955012de1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

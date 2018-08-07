@@ -4,7 +4,7 @@ title: ZwCreateTransaction function
 author: windows-driver-content
 description: The ZwCreateTransaction routine creates a transaction object.
 old-location: kernel\zwcreatetransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b4c2dd68-3c1a-46d3-ab9c-be2291ed80f4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

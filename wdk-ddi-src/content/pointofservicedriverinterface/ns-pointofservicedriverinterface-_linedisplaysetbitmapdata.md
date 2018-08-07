@@ -4,7 +4,7 @@ title: "_LineDisplaySetBitmapData"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetbitmapdata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 8674FD34-65FB-4B69-B43C-0D21133E35AB
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

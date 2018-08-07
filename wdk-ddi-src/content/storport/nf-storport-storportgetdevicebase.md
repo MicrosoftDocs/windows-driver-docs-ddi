@@ -4,7 +4,7 @@ title: StorPortGetDeviceBase function
 author: windows-driver-content
 description: The StorPortGetDeviceBase routine maps an I/O address to system address space.
 old-location: storage\storportgetdevicebase.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6d25f2fb-be77-480f-b07c-294ab8a4272e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

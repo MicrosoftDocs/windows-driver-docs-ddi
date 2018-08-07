@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsGetCorrelatedPhysicalTime
 author: windows-driver-content
 description: The KsGetCorrelatedPhysicalTime method retrieves the physical time and the correlated system time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetcorrelatedphysicaltime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d9babef4-c41a-4458-8072-eb562ef4d997
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

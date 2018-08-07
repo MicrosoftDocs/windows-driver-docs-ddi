@@ -4,7 +4,7 @@ title: PCONVERTSTREAMTOTREE
 author: windows-driver-content
 description: The Bluetooth SdpConvertStreamToTree function is used to create a Microsoft proprietary tree-based representation of an SDP record, while leaving the original stream-based representation unmodified.
 old-location: bltooth\sdpconvertstreamtotree.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

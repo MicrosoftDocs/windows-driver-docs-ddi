@@ -4,7 +4,7 @@ title: USBCAMD_AdapterReceivePacket function
 author: windows-driver-content
 description: The USBCAMD_AdapterReceivePacket function allows USBCAMD to process an adapter-based stream request block (SRB).
 old-location: stream\usbcamd_adapterreceivepacket.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 12a5ca64-7187-4a70-83ca-0ade6a8b1343
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
 author: windows-driver-content
 description: The RetrieveUnifiedDevicePropertyStore method retrieves a unified property store interface.
 old-location: wdf\iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: A54E56A6-9A6C-435D-83FD-84BB0E072C74
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

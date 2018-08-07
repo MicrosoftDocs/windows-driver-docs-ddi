@@ -4,7 +4,7 @@ title: KSEVENT_TUNER_INITIATE_SCAN_S
 author: windows-driver-content
 description: The KSEVENT_TUNER_INITIATE_SCAN_S structure is used in the KSEVENT_TUNER_INITIATE_SCAN event within the EVENTSETID_TUNER event set.
 old-location: stream\ksevent_tuner_initiate_scan_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e690c596-d339-4489-97f3-02cacfdc5b04
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

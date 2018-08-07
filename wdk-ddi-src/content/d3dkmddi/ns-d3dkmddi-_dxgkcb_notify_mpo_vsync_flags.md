@@ -4,10 +4,10 @@ title: "_DXGKCB_NOTIFY_MPO_VSYNC_FLAGS"
 author: windows-driver-content
 description: A structure containing the flags set by the driver to process a flip entry.
 old-location: display\dxgkcb_notify_mpo_vsync_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 5583297C-D927-4D9A-8F77-D9871B2CA736
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, display.dxgkcb_notify_mpo_vsync_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

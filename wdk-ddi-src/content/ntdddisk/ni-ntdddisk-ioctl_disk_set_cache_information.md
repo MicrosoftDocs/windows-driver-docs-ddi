@@ -4,7 +4,7 @@ title: IOCTL_DISK_SET_CACHE_INFORMATION
 author: windows-driver-content
 description: Sets disk cache configuration data.
 old-location: storage\ioctl_disk_set_cache_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ae1ca621-4862-4345-bb51-4a1c31e00542
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

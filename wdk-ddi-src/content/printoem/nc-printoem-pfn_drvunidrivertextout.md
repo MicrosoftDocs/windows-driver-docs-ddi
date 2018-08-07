@@ -4,7 +4,7 @@ title: PFN_DrvUnidriverTextOut
 author: windows-driver-content
 description: The DrvUnidriverTextOut function is obsolete.
 old-location: print\drvunidrivertextout.htm
-old-project: print
+tech.root: print
 ms.assetid: 72ba09b2-a889-439d-bbf2-ee6f9ebf5535
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

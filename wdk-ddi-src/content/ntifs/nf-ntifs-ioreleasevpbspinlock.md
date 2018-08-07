@@ -4,7 +4,7 @@ title: IoReleaseVpbSpinLock function
 author: windows-driver-content
 description: The IoReleaseVpbSpinLock routine releases the Volume Parameter Block (VPB) spin lock.
 old-location: ifsk\ioreleasevpbspinlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0b93f32-4c5c-472c-8c13-3e441f86475f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

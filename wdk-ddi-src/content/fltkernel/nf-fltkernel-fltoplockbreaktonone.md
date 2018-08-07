@@ -4,7 +4,7 @@ title: FltOplockBreakToNone function
 author: windows-driver-content
 description: The FltOplockBreakToNone routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fltoplockbreaktonone.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

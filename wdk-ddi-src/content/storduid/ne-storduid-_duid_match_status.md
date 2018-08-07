@@ -4,7 +4,7 @@ title: "_DUID_MATCH_STATUS"
 author: windows-driver-content
 description: The DUID_MATCH_STATUS enumeration lists the status values that the CompareStorageDuids routine returns.
 old-location: storage\duid_match_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: PPARALLEL_SET_CHIP_MODE
 author: windows-driver-content
 description: The PPARALLEL_SET_CHIP_MODE-typed callback routine sets the operating mode of a parallel port. The system-supplied function driver for parallel ports supplies this routine.
 old-location: parports\pparallel_set_chip_mode.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 7c80f3ee-cbb2-400d-9dfb-36ccef93d80f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
@@ -135,7 +135,7 @@ To obtain a pointer to the system-supplied <i>PPARALLEL_SET_CHIP_MODE</i> callba
 
 A caller uses the <i>PPARALLEL_SET_CHIP_MODE</i> callback in conjunction with the <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a> callback.
 
-To set a new mode, a caller must first clear the current mode. 
+To set a new mode, a caller must first clear the current mode.
 
 For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8-b0b5-a4d68feb4235">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 

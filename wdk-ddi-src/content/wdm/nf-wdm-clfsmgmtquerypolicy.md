@@ -4,7 +4,7 @@ title: ClfsMgmtQueryPolicy function
 author: windows-driver-content
 description: The ClfsMgmtQueryPolicy routine retrieves a specific CLFS_MGMT_POLICY structure for a log.
 old-location: kernel\clfsmgmtquerypolicy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c9cc9124-ee15-40df-b149-a9f3b26d7c24
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

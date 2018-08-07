@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_ROUTING_TABLE_ENTRY"
 author: windows-driver-content
 description: SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of SECURE_ELEMENT_ROUTING_TABLE.
 old-location: nfpdrivers\_secure_element_routing_table_entry.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 199FEA6A-A57F-4B13-832A-65DB7729455F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

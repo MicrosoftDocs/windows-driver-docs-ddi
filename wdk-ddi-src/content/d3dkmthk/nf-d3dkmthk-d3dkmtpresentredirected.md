@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTPresentRedirected
 title: D3DKMTPresentRedirected function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 1811b73a-c33f-4fd5-add5-4e6986ceb539
 ms.author: windowsdriverdev
 ms.date:
@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 req.ddi-compliance:
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname:
 -	D3DKMTPresentRedirected
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 
 ---

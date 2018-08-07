@@ -4,7 +4,7 @@ title: StorPortPauseDevice function
 author: windows-driver-content
 description: The StorPortPauseDevice routine pauses a specific logical unit device for the specified period of time.
 old-location: storage\storportpausedevice.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b656882a-1cc7-45e8-bda4-c1450b599b4b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

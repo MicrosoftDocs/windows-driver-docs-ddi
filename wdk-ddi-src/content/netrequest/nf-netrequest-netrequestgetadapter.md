@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetRequestGetAdapter
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

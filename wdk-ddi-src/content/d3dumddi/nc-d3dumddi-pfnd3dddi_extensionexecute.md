@@ -4,10 +4,10 @@ title: PFND3DDDI_EXTENSIONEXECUTE
 author: windows-driver-content
 description: The ExtensionExecute function performs an operation by using the given Microsoft DirectX Video Accelerator (VA) extension device.
 old-location: display\extensionexecute.htm
-old-project: display
+tech.root: display
 ms.assetid: a3f73651-bfff-48fa-aa61-477b8af7fa07
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices

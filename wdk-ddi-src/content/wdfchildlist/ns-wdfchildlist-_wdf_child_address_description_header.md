@@ -4,7 +4,7 @@ title: "_WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
 author: windows-driver-content
 description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure is a header structure that must be the first member of every address description structure.
 old-location: wdf\wdf_child_address_description_header.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2ea8041c-be80-42ff-9693-f6331508f6b2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

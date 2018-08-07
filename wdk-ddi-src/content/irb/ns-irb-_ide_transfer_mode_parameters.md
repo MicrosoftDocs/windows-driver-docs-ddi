@@ -4,7 +4,7 @@ title: "_IDE_TRANSFER_MODE_PARAMETERS"
 author: windows-driver-content
 description: The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's AtaControllerTransferModeSelect routine to set the transfer mode parameters on a channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ide_transfer_mode_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 66e6efd0-6651-4c87-94ba-d9d3b9191339
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

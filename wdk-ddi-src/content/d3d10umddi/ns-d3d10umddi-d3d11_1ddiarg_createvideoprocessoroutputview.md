@@ -4,10 +4,10 @@ title: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
 author: windows-driver-content
 description: Describes the video processor's output view.
 old-location: display\d3d11_1ddiarg_createvideoprocessoroutputview.htm
-old-project: display
+tech.root: display
 ms.assetid: 3545AE6F-3D9E-4C3B-8C22-B823A18CC700
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, display.d3d11_1ddiarg_createvideoprocessoroutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

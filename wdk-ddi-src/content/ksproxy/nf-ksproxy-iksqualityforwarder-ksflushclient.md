@@ -4,7 +4,7 @@ title: IKsQualityForwarder::KsFlushClient
 author: windows-driver-content
 description: The KsFlushClient method flushes information from a pin.
 old-location: stream\iksqualityforwarder_ksflushclient.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0a1b5094-4abd-4d57-8d8c-b385fb0d46de
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

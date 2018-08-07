@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 author: windows-driver-content
 description: Video process support data.
 old-location: display\d3d12ddi-video-process-support-data-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

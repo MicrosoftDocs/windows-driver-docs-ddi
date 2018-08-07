@@ -4,7 +4,7 @@ title: ZwCreateResourceManager function
 author: windows-driver-content
 description: The ZwCreateResourceManager routine creates a resource manager object.
 old-location: kernel\zwcreateresourcemanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4812eeb4-134f-4ecb-870b-dbab04c1137b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_PDO_TYPE"
 author: windows-driver-content
 description: This enumeration describes the types of Physical Device Objects (PDOs).
 old-location: storage\pdo_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9695d55c-a214-4bba-aba9-38dfa7f54ec9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

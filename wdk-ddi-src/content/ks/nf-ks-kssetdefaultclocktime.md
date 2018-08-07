@@ -4,7 +4,7 @@ title: KsSetDefaultClockTime function
 author: windows-driver-content
 description: The KsSetDefaultClockTime function sets the current time of the clock.
 old-location: stream\kssetdefaultclocktime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

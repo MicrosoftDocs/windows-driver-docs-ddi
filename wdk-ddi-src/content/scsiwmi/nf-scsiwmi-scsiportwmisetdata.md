@@ -4,7 +4,7 @@ title: ScsiPortWmiSetData function
 author: windows-driver-content
 description: The ScsiPortWmiSetData routine updates the WNODE_ALL_DATA structure within the request context to specify the position and length of the data for an instance.
 old-location: storage\scsiportwmisetdata.htm
-old-project: storage
+tech.root: storage
 ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

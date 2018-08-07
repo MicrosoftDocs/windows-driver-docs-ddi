@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_LISTEN"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a ReqIsochListen request.
 old-location: ieee\irb_req_isoch_listen.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 9B0590F4-E9B3-4999-99BD-BDB1EA413FF4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

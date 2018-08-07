@@ -4,7 +4,7 @@ title: FltGetNewSystemBufferAddress function
 author: windows-driver-content
 description: The FltGetNewSystemBufferAddress function retrieves the AssociatedIrp.SystemBuffer buffer, which the file system has allocated. A minifilter driver's post-callback routine calls this function.
 old-location: ifsk\fltgetnewsystembufferaddress.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 83a5e9b7-1731-422f-a0df-c1efbc8cad81
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: KsReferenceSoftwareBusObject function
 author: windows-driver-content
 description: The KsReferenceSoftwareBusObject function increments the reference count of the demand-load bus enumerator object's PDO.
 old-location: stream\ksreferencesoftwarebusobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

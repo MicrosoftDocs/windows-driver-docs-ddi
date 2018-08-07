@@ -4,7 +4,7 @@ title: FltPerformAsynchronousIo function
 author: windows-driver-content
 description: A minifilter driver calls FltPerformAsynchronousIo to initiate an asynchronous I/O operation.
 old-location: ifsk\fltperformasynchronousio.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c76529fe-c808-4239-9bde-68dc68d987ec
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2"
 author: windows-driver-content
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure.
 old-location: acpi\acpi_eval_input_buffer_simple_integer_v2.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 47771F52-5927-40DC-907E-0FC9C3FD451A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

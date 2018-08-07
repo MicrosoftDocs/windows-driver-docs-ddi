@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_HARDWARE_ID
 author: windows-driver-content
 description: The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a top-level collection.
 old-location: hid\ioctl_hid_get_hardware_id.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 33da3d63-0909-45fe-9a3b-d268b352231c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

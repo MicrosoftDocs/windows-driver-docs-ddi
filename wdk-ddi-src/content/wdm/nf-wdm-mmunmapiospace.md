@@ -4,7 +4,7 @@ title: MmUnmapIoSpace function
 author: windows-driver-content
 description: The MmUnmapIoSpace routine unmaps a specified range of physical addresses previously mapped by MmMapIoSpace.
 old-location: kernel\mmunmapiospace.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5963f34a-4315-46c3-9802-0b6a1b229e3f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

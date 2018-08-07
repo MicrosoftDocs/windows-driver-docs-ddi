@@ -4,7 +4,7 @@ title: KsMethodHandlerWithAllocator function
 author: windows-driver-content
 description: The KsMethodHandlerWithAllocator functions performs the same handling as KsMethodHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\ksmethodhandlerwithallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

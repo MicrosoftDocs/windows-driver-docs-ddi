@@ -4,7 +4,7 @@ title: ChangerInitializeElementStatus function
 author: windows-driver-content
 description: ChangerInitializeElementStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS.
 old-location: storage\changerinitializeelementstatus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1f8f13e0-b0d3-4c94-bd1f-0e42bb75142d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

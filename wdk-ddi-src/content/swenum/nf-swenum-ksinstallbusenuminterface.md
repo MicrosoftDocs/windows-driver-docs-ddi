@@ -4,7 +4,7 @@ title: KsInstallBusEnumInterface function
 author: windows-driver-content
 description: The KsInstallBusEnumInterface function installs an interface to the demand-load bus enumerator object.
 old-location: stream\ksinstallbusenuminterface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

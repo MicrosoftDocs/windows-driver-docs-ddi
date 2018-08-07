@@ -4,7 +4,7 @@ title: "_CDROM_TOC_CD_TEXT_DATA"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_CDTEXT return their output data in this structure followed by a series of descriptors of type CDROM_TOC_CD_TEXT_DATA_BLOCK.
 old-location: storage\cdrom_toc_cd_text_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 92e87c1d-17c4-4ac8-af9d-08863ce84c9e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

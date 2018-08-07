@@ -4,7 +4,7 @@ title: "_ScsiReadCapacity_IN"
 author: windows-driver-content
 description: The ScsiReadCapacity_IN structure holds the input data for the ScsiReadCapacity method, which is used to send a SCSI read Ccapacity command.
 old-location: storage\scsireadcapacity_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

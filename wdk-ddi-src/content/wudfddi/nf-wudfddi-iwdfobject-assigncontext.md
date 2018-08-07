@@ -4,7 +4,7 @@ title: IWDFObject::AssignContext
 author: windows-driver-content
 description: The AssignContext method registers a context and a driver-supplied cleanup callback function for the object.
 old-location: wdf\iwdfobject_assigncontext.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

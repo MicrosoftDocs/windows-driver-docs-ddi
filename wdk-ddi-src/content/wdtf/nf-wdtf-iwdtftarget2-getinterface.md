@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetInterface
 author: windows-driver-content
 description: Returns an action for the target.
 old-location: dtf\iwdtftarget2_getinterface.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: dddd631e-7ccf-4554-9236-b567c5108fe2
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

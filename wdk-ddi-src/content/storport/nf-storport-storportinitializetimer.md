@@ -4,7 +4,7 @@ title: StorPortInitializeTimer function
 author: windows-driver-content
 description: Creates a Storport timer context object.
 old-location: storage\storportinitializetimer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1F43EEDC-5DB4-4ABE-BBC6-A4A51FCAF0B6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

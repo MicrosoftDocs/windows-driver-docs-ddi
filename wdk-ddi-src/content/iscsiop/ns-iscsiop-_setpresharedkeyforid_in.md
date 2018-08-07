@@ -4,7 +4,7 @@ title: "_SetPresharedKeyForId_IN"
 author: windows-driver-content
 description: The SetPresharedKeyForId_IN structure holds the input data for the SetPresharedKeyForId method.
 old-location: storage\setpresharedkeyforid_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

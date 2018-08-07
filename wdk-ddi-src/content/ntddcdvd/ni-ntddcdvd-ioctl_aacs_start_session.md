@@ -4,7 +4,7 @@ title: IOCTL_AACS_START_SESSION
 author: windows-driver-content
 description: Retrieves an Authentication Grant Identifier (AGID) that identifies a secure session.
 old-location: storage\ioctl_aacs_start_session.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b5fb5dac-7f63-4457-bb25-61315395429b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_INTERRUPT_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_interrupt_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A89AB86B-4DC9-43ED-9EE6-1D4B693DAB91
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

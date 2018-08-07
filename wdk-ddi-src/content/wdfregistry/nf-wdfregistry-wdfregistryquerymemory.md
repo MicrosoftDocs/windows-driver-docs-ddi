@@ -4,7 +4,7 @@ title: WdfRegistryQueryMemory function
 author: windows-driver-content
 description: The WdfRegistryQueryMemory method retrieves the data that is currently assigned to a specified registry value, stores the data in a framework-allocated buffer, and creates a framework memory object to represent the buffer.
 old-location: wdf\wdfregistryquerymemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2d689ede-418e-4bf3-8c0e-82ded1085382
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

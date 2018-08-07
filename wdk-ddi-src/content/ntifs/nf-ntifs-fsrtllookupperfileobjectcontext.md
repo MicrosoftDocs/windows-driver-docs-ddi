@@ -4,7 +4,7 @@ title: FsRtlLookupPerFileObjectContext function
 author: windows-driver-content
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlLookupPerFileObjectContext function retrieves context information previously associated with a file object.
 old-location: ifsk\fsrtllookupperfileobjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a066d78b-f6c7-484a-9d62-3578bbd063a2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RtlUnicodeStringToAnsiString function
 author: windows-driver-content
 description: The RtlUnicodeStringToAnsiString routine converts a given Unicode string into an ANSI string.
 old-location: kernel\rtlunicodestringtoansistring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d05b366c-0b09-4a82-8727-e5c39b82bf7f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: ClfsAdvanceLogBase function
 author: windows-driver-content
 description: The ClfsAdvanceLogBase routine sets the base LSN of a CLFS stream.
 old-location: kernel\clfsadvancelogbase.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 00f776f7-83c5-4856-a1d3-8b76122d3986
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

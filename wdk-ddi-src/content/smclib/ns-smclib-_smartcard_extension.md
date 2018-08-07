@@ -4,7 +4,7 @@ title: "_SMARTCARD_EXTENSION"
 author: windows-driver-content
 description: The SMARTCARD_EXTENSION structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
 old-location: smartcrd\smartcard_extension.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

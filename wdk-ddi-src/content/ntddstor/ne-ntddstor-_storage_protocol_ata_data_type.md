@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_ATA_DATA_TYPE"
 author: windows-driver-content
 description: The ATA protocol data type.
 old-location: storage\storage_protocol_ata_data_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4B42E143-17F5-4841-A9EA-C225B167E242
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

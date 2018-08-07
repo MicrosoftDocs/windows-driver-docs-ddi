@@ -4,7 +4,7 @@ title: EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION
 author: windows-driver-content
 description: The EvtSerCx2PioTransmitInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a PIO-transmit transaction.
 old-location: serports\evtsercx2piotransmitinitializetransaction.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 2E3652CB-24F1-4467-AF1D-CFD52392B2DB
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

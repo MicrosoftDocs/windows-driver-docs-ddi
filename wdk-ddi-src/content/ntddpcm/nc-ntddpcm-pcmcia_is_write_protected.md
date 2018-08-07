@@ -4,7 +4,7 @@ title: PCMCIA_IS_WRITE_PROTECTED
 author: windows-driver-content
 description: The PCMCIA_IS_WRITE_PROTECTED interface routine returns the write-protect condition of a PCMCIA memory card.
 old-location: pcmcia\pcmcia_is_write_protected.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: d270f39a-d8e8-4ec6-987e-e755da767495
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

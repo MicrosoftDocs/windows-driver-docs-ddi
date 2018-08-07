@@ -4,7 +4,7 @@ title: ExLocalTimeToSystemTime function
 author: windows-driver-content
 description: The ExLocalTimeToSystemTime routine converts a system time value for the current time zone to an unbiased, GreenGMT value.
 old-location: kernel\exlocaltimetosystemtime.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ef4fcb57-2960-4cd3-9abc-f8c5bc46e1a3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

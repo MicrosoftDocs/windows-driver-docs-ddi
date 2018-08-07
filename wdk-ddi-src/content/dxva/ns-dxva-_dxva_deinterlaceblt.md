@@ -4,10 +4,10 @@ title: "_DXVA_DeinterlaceBlt"
 author: windows-driver-content
 description: The DXVA_DeinterlaceBlt structure is sent by the VMR to the accelerator to specify the deinterlace or frame-rate conversion parameters for bit-block transfers.
 old-location: display\dxva_deinterlaceblt.htm
-old-project: display
+tech.root: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], _DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt, dxva/DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

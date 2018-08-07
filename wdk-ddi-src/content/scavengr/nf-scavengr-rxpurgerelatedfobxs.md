@@ -4,7 +4,7 @@ title: RxPurgeRelatedFobxs function
 author: windows-driver-content
 description: RxPurgeRelatedFobxs purges all of the FOBX structures associated with a NET_ROOT structure.
 old-location: ifsk\rxpurgerelatedfobxs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bb2d56a0-37f4-48bc-8b56-e5250f0f7443
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

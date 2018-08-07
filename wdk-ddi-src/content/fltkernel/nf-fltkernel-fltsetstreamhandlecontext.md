@@ -4,7 +4,7 @@ title: FltSetStreamHandleContext function
 author: windows-driver-content
 description: The FltSetStreamHandleContext routine sets a context for a stream handle.
 old-location: ifsk\fltsetstreamhandlecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 92c75e9c-ea29-40f5-84b2-bfe406075717
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

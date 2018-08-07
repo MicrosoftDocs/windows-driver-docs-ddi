@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::get_JobCopiesAllDocuments
 author: windows-driver-content
 description: Gets the copy count.
 old-location: print\iprintschematicket_jobcopiesalldocuments.htm
-old-project: print
+tech.root: print
 ms.assetid: 592753D2-9121-4935-B966-390B3E7778C7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

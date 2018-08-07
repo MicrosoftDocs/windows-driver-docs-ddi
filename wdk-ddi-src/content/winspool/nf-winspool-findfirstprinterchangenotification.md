@@ -4,7 +4,7 @@ title: FindFirstPrinterChangeNotification function
 author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\findfirstprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
-req.irql: 
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax

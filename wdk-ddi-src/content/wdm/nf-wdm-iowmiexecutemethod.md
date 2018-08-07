@@ -4,7 +4,7 @@ title: IoWMIExecuteMethod function
 author: windows-driver-content
 description: The IoWMIExecuteMethod routine runs a WMI class method on the specified WMI data block instance.
 old-location: kernel\iowmiexecutemethod.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: ExDeleteResourceLite function
 author: windows-driver-content
 description: The ExDeleteResourceLite routine deletes a given resource from the system's resource list.
 old-location: kernel\exdeleteresourcelite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 83efb1eb-4c45-4bfc-84dd-88032e40076a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

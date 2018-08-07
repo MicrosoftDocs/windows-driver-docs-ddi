@@ -4,10 +4,10 @@ title: NdisMCoIndicateReceiveNetBufferLists function
 author: windows-driver-content
 description: The NdisMCoIndicateReceiveNetBufferLists function indicates that the miniport driver received data from the network.
 old-location: netvista\ndismcoindicatereceivenetbufferlists.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, ndis/NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices

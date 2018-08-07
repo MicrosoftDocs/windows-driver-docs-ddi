@@ -4,7 +4,7 @@ title: UFS_CONFIG_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_CONFIG_DESCRIPTOR structure describes the modifiable values of the default device configuration set by the manufacturer.
 old-location: storage\ufs_config_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: B65A2268-6959-4630-97DA-C0CFD37D9174
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

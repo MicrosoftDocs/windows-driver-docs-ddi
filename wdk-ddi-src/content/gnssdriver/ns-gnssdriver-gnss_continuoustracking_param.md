@@ -4,7 +4,7 @@ title: GNSS_CONTINUOUSTRACKING_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a continuous tracking fix session.
 old-location: gnss\gnss_continuoustracking_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D69D317C-5B42-4709-87AF-4323DF2EBE2D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

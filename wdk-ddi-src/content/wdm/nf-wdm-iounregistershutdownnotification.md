@@ -4,7 +4,7 @@ title: IoUnregisterShutdownNotification function
 author: windows-driver-content
 description: The IoUnregisterShutdownNotification routine removes a registered driver from the shutdown notification queue.
 old-location: kernel\iounregistershutdownnotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b48a38ff-60b9-4c01-ac71-4ae07010db1f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

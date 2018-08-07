@@ -4,7 +4,7 @@ title: "_GETINFO_FONTOBJ"
 author: windows-driver-content
 description: The GETINFO_FONTOBJ structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_fontobj.htm
-old-project: print
+tech.root: print
 ms.assetid: f5116986-aa0c-4cc3-9893-c93e83e922f7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

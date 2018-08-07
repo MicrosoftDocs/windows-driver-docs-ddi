@@ -4,7 +4,7 @@ title: IKsDataTypeHandler::KsSetMediaType
 author: windows-driver-content
 description: The KsSetMediaType method sets the media type for a data type handler.
 old-location: stream\iksdatatypehandler_kssetmediatype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b1c97d4f-b305-4c9f-b3fd-06d0ebcb0ed0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

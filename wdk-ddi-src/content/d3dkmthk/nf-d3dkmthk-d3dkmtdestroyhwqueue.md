@@ -4,10 +4,10 @@ title: D3DKMTDestroyHwQueue function
 author: windows-driver-content
 description: Used to destroy a hardware queue.
 old-location: display\d3dkmtdestroyhwqueue.htm
-old-project: display
+tech.root: display
 ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], d3dkmthk/D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Tbd
-req.dll: Tbd
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	tbd
+-	d3dkmthk.h
 api_name:
 -	D3DKMTDestroyHwQueue
 product:
@@ -60,7 +60,7 @@ Used to destroy a hardware queue.
 
 ### -param D3DKMT_DESTROYHWQUEUE
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: "_BDCB_CLASSIFICATION"
 author: windows-driver-content
 description: The BDCB_CLASSIFICATION enumeration lists different classifications of boot start images.
 old-location: kernel\bdcb_classification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

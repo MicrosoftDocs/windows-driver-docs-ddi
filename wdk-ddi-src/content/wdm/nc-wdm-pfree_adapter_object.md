@@ -4,7 +4,7 @@ title: PFREE_ADAPTER_OBJECT
 author: windows-driver-content
 description: The FreeAdapterObject routine releases the specified adapter object after a driver has completed all DMA operations.
 old-location: kernel\freeadapterobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4A63AAEF-8DBD-4969-8D05-EA06A17D4B61
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

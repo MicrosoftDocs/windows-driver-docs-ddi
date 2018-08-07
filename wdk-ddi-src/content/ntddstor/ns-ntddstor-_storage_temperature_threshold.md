@@ -4,7 +4,7 @@ title: "_STORAGE_TEMPERATURE_THRESHOLD"
 author: windows-driver-content
 description: This structure is used to set the over or under temperature threshold of a storage device (via IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD).
 old-location: storage\storage_temperature_threshold.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

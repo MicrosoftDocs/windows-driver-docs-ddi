@@ -4,7 +4,7 @@ title: "_AUX_MODULE_EXTENDED_INFO"
 author: windows-driver-content
 description: The AUX_MODULE_EXTENDED_INFO structure contains extended information about a loaded image module.
 old-location: kernel\aux_module_extended_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

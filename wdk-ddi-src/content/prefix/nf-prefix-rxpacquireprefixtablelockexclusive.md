@@ -4,7 +4,7 @@ title: RxpAcquirePrefixTableLockExclusive function
 author: windows-driver-content
 description: RxpAcquirePrefixTableLockExclusive acquires the prefix table lock exclusively.
 old-location: ifsk\rxpacquireprefixtablelockexclusive.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 62f0bfd3-b8d9-4b29-a811-91a6c66dc24f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

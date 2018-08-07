@@ -4,7 +4,7 @@ title: KeDeregisterBugCheckReasonCallback function
 author: windows-driver-content
 description: The KeDeregisterBugCheckReasonCallback routine removes a callback routine that was registered by KeRegisterBugCheckReasonCallback.
 old-location: kernel\kederegisterbugcheckreasoncallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3a2a8940-afe2-48f5-bcf0-abd6413eeb85
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: ExAllocateFromLookasideListEx function
 author: windows-driver-content
 description: The ExAllocateFromLookasideListEx routine removes the first entry from the specified lookaside list, or, if the list is empty, dynamically allocates the storage for a new entry.
 old-location: kernel\exallocatefromlookasidelistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 70782045-7026-4771-8072-9057fc31a642
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

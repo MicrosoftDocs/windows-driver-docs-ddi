@@ -4,7 +4,7 @@ title: WdfCollectionAdd function
 author: windows-driver-content
 description: The WdfCollectionAdd method adds a specified framework object to an object collection.
 old-location: wdf\wdfcollectionadd.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

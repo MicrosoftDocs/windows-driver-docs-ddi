@@ -4,7 +4,7 @@ title: "_SET_PARTITION_INFORMATION"
 author: windows-driver-content
 description: SET_PARTITION_INFORMATION is used with IOCTL_DISK_SET_PARTITION_INFO to change the partition type of a specified Master Boot Record (MBR) disk partition.
 old-location: storage\set_partition_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 882aedda-5ed5-43e0-a370-59a7c7e4c802
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

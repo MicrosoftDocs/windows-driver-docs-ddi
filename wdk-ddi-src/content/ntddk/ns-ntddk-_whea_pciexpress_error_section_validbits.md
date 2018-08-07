@@ -4,7 +4,7 @@ title: "_WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PCIEXPRESS_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_pciexpress_error_section_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 1c4c3e9c-32a2-405a-b27d-98f8da715626
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

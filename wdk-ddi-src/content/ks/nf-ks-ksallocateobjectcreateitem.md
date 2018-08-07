@@ -4,7 +4,7 @@ title: KsAllocateObjectCreateItem function
 author: windows-driver-content
 description: The KsAllocateObjectCreateItem function allocates a slot for the specified create item, optionally allocating space for and copying the create item data as well.
 old-location: stream\ksallocateobjectcreateitem.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: IServiceSink
 author: windows-driver-content
 description: The IServiceSink interface encapsulates handling of a service request.
 old-location: audio\iservicesink.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 329ae226-02fb-438b-b461-da51e3afd6eb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], IServiceSink interface [Audio Devices],described, audio.iservicesink, audmp-routines_68a03e77-6246-44e7-acad-6de0fbe10c41.xml, portcls/IServiceSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

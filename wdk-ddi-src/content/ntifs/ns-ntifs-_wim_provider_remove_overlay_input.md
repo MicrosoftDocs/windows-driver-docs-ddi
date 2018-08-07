@@ -4,7 +4,7 @@ title: "_WIM_PROVIDER_REMOVE_OVERLAY_INPUT"
 author: windows-driver-content
 description: A Windows Image File (WIM) data source to remove from the WIM provider is specified in the WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_remove_overlay_input.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8E228EA7-06ED-4BFB-AB15-E86334B9B0E8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

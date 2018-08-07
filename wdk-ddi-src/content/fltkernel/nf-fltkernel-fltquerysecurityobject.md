@@ -4,7 +4,7 @@ title: FltQuerySecurityObject function
 author: windows-driver-content
 description: FltQuerySecurityObject retrieves a copy of an object's security descriptor.
 old-location: ifsk\fltquerysecurityobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

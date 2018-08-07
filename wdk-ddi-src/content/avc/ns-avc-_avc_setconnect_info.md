@@ -4,7 +4,7 @@ title: "_AVC_SETCONNECT_INFO"
 author: windows-driver-content
 description: The AVC_SETCONNECT_INFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avc_setconnect_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 16672908-6f1f-471b-b82e-d548e3efeb20
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

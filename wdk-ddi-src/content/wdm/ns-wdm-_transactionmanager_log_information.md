@@ -4,7 +4,7 @@ title: "_TRANSACTIONMANAGER_LOG_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTIONMANAGER_LOG_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_log_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7d0da54d-54a2-4440-910f-d99716660506
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

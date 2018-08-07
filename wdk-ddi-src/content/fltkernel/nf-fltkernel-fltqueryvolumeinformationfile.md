@@ -4,7 +4,7 @@ title: FltQueryVolumeInformationFile function
 author: windows-driver-content
 description: FltQueryVolumeInformationFile retrieves volume information for a given file, directory, storage device, or volume.
 old-location: ifsk\fltqueryvolumeinformationfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3f93ce0a-f1f0-4b5b-aaf3-ce6698eb5055
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

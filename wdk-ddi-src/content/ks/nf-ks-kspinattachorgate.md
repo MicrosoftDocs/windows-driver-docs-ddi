@@ -4,7 +4,7 @@ title: KsPinAttachOrGate function
 author: windows-driver-content
 description: The KsPinAttachOrGate function connects Pin as an input to a previously initialized OR gate, and connects OrGate as an input to the relevant filter's AND gate.
 old-location: stream\kspinattachorgate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 14fb5b30-7169-4d8a-ad72-d0ee86da7f98
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

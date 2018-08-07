@@ -4,10 +4,10 @@ title: IAdapterPowerManagement::QueryDeviceCapabilities
 author: windows-driver-content
 description: The QueryDeviceCapabilities method is called by PortCls in response to a Plug and Play IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: audio\iadapterpowermanagement_querydevicecapabilities.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryDeviceCapabilities method, IAdapterPowerManagement.QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

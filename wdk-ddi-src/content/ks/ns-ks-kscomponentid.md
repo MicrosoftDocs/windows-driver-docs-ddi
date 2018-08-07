@@ -4,7 +4,7 @@ title: KSCOMPONENTID
 author: windows-driver-content
 description: The KSCOMPONENTID structure contains unique identifiers that describe an individual kernel streaming object.
 old-location: stream\kscomponentid.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 37987f5a-f706-4a5d-b6f7-e726bdfd8473
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

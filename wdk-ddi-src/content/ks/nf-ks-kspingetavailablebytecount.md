@@ -4,7 +4,7 @@ title: KsPinGetAvailableByteCount function
 author: windows-driver-content
 description: The KsPinGetAvailableByteCount routine outputs the number of bytes of input data ahead of the leading edge and the number of bytes of output buffer ahead of the leading edge, both for the queue of a caller-specified pin.
 old-location: stream\kspingetavailablebytecount.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e3669f11-7284-4f65-b814-624337e7fa7f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

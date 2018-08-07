@@ -4,7 +4,7 @@ title: TmReadOnlyEnlistment function
 author: windows-driver-content
 description: The TmReadOnlyEnlistment routine sets a specified enlistment to be read-only.
 old-location: kernel\tmreadonlyenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7d375152-c1d2-4e6d-a6a8-7394a7ef0e35
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

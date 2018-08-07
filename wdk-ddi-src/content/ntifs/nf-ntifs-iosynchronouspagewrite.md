@@ -4,7 +4,7 @@ title: IoSynchronousPageWrite function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iosynchronouspagewrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d66b517-91cd-44f7-8dfe-853468c49352
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

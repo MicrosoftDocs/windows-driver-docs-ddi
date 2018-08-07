@@ -4,7 +4,7 @@ title: "_POWER_THROTTLING_PROCESS_STATE"
 author: windows-driver-content
 description: Stores the throttling policies and how to apply them to a target process when that process is subject to power management.
 old-location: kernel\power_throttling_process_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

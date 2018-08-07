@@ -4,7 +4,7 @@ title: KSATTRIBUTE
 author: windows-driver-content
 description: The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the KSDATAFORMAT and KSDATARANGE structures or the extended information based on the format and range specifiers.
 old-location: stream\ksattribute.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 985d9f12-11c6-40e6-9cb6-572196bc04f4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

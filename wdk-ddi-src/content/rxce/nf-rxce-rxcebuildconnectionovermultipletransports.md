@@ -4,7 +4,7 @@ title: RxCeBuildConnectionOverMultipleTransports function
 author: windows-driver-content
 description: RxCeBuildConnectionOverMultipleTransports establishes a connection between a local RDBSS connection address and a given remote address and supports multiple transports.
 old-location: ifsk\rxcebuildconnectionovermultipletransports.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

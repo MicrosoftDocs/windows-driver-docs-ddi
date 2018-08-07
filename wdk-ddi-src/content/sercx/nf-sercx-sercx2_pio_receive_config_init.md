@@ -4,7 +4,7 @@ title: SERCX2_PIO_RECEIVE_CONFIG_INIT function
 author: windows-driver-content
 description: The SERCX2_PIO_RECEIVE_CONFIG_INIT function initializes a SERCX2_PIO_RECEIVE_CONFIG structure.
 old-location: serports\sercx2_pio_receive_config_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 08FBBC1D-EB2A-4178-9245-C3FF60424F95
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

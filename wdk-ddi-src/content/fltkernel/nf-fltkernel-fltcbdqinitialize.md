@@ -4,7 +4,7 @@ title: FltCbdqInitialize function
 author: windows-driver-content
 description: FltCbdqInitialize initializes a minifilter driver's callback data queue dispatch table.
 old-location: ifsk\fltcbdqinitialize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a3e089bf-6037-4d85-92ce-db9c865bdc02
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

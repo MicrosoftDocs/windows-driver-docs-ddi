@@ -4,7 +4,7 @@ title: "_SERIALPERF_STATS"
 author: windows-driver-content
 description: The SERIALPERF_STATS structure contains performance statistics for a serial port.
 old-location: serports\serialperf_stats.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

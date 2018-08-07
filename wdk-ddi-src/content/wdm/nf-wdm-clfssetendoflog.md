@@ -4,7 +4,7 @@ title: ClfsSetEndOfLog function
 author: windows-driver-content
 description: The ClfsSetEndOfLog routine truncates a CLFS stream.
 old-location: kernel\clfssetendoflog.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7e3b2eed-2de6-4459-a125-a27d9db69c93
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

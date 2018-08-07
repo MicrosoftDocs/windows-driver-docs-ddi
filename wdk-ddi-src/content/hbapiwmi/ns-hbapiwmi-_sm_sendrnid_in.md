@@ -4,7 +4,7 @@ title: "_SM_SendRNID_IN"
 author: windows-driver-content
 description: The SM_SendRNID_IN structure is used to provide input parameters to the SM_SendRNID method.
 old-location: storage\sm_sendrnid_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7d94fc94-bfc6-4666-a321-71a0643f3140
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

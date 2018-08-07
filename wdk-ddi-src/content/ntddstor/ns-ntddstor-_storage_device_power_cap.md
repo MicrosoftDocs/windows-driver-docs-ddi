@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_POWER_CAP"
 author: windows-driver-content
 description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
 old-location: storage\storage_device_power_cap.htm
-old-project: storage
+tech.root: storage
 ms.assetid: B13D311F-FFC4-4A40-AF0C-6E7115174FD1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

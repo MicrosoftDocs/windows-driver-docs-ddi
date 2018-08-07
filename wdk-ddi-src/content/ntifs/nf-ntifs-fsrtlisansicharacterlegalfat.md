@@ -4,7 +4,7 @@ title: FsRtlIsAnsiCharacterLegalFat macro
 author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegalFat macro determines whether an ANSI character is legal for FAT file names.
 old-location: ifsk\fsrtlisansicharacterlegalfat.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4bbd50a8-1f1f-45d9-9b63-6c1576fe7b98
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

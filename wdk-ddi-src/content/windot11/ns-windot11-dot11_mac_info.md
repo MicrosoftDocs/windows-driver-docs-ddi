@@ -4,7 +4,7 @@ title: DOT11_MAC_INFO
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_mac_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0ca8814c-e91a-4f6a-b797-c440abf5cdd2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,8 +80,8 @@ Reserved for system use.
 ### -field uNdisPortNumber
 
 A ULONG value that specifies the number of the NDIS port that the 802.11 miniport driver has
-     allocated to reference a newly created 802.11 MAC entity. This value is equal to the 
-     <b>PortNumber</b> member of the 
+     allocated to reference a newly created 802.11 MAC entity. This value is equal to the
+     <b>PortNumber</b> member of the
      <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
      NDIS_PORT_CHARACTERISTICS</a> structure.
 
@@ -95,7 +95,7 @@ The media access control (MAC) address of a newly created 802.11 MAC entity.
 
 
 
-This structure is used with 
+This structure is used with
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569124">OID_DOT11_CREATE_MAC</a>.
 
 

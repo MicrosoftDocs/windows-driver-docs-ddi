@@ -4,10 +4,10 @@ title: D3DKMTSetContextSchedulingPriority function
 author: windows-driver-content
 description: The D3DKMTSetContextSchedulingPriority function sets the scheduling priority for a device context.
 old-location: display\d3dkmtsetcontextschedulingpriority.htm
-old-project: display
+tech.root: display
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices], OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority, display.d3dkmtsetcontextschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The <b>D3DKMTSetContextSchedulingPriority</b> function sets the scheduling prior
 
 ### -param D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
 
-TBD
+
 
 
 

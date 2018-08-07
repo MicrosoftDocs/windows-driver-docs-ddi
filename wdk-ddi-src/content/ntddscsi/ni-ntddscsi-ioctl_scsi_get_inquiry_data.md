@@ -4,7 +4,7 @@ title: IOCTL_SCSI_GET_INQUIRY_DATA
 author: windows-driver-content
 description: Returns the SCSI inquiry data for all devices on a given SCSI host bus adapter (HBA).
 old-location: storage\ioctl_scsi_get_inquiry_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a429061b-ede6-48b1-9fc6-e85e4a7c0dfe
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

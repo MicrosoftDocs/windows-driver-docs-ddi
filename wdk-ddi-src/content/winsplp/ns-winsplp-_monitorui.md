@@ -4,7 +4,7 @@ title: "_MONITORUI"
 author: windows-driver-content
 description: The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
 old-location: print\monitorui.htm
-old-project: print
+tech.root: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

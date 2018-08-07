@@ -4,7 +4,7 @@ title: KeQueryNodeActiveAffinity function
 author: windows-driver-content
 description: The KeQueryNodeActiveAffinity routine gets the current processor affinity of a specified node in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 old-location: kernel\kequerynodeactiveaffinity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 49d4c9c7-217f-41b7-b870-886dd78e04a9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

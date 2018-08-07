@@ -4,10 +4,10 @@ title: IMiniportDMus
 author: windows-driver-content
 description: The IMiniportDMus interface is the primary interface for a DMus miniport driver for a DirectMusic synthesizer device.
 old-location: audio\iminiportdmus.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 12cd3533-1830-46cd-a1eb-350f7461a61d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices],described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
 ms.prod: windows-hardware
 ms.technology: windows-devices

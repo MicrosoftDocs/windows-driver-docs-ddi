@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::ValidateAsync
 author: windows-driver-content
 description: Gets an asynchronous PrintTicket validation operation context.
 old-location: print\iprintschematicket_validateasync.htm
-old-project: print
+tech.root: print
 ms.assetid: B46AE68A-36E1-4367-95F5-0FFBAA42171C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

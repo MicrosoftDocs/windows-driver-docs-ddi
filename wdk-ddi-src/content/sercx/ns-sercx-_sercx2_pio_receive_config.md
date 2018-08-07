@@ -4,7 +4,7 @@ title: "_SERCX2_PIO_RECEIVE_CONFIG"
 author: windows-driver-content
 description: The SERCX2_PIO_RECEIVE_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new PIO-receive object.
 old-location: serports\sercx2_pio_receive_config.htm
-old-project: serports
+tech.root: serports
 ms.assetid: D95B1E7F-1966-4130-A410-3975B0438608
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

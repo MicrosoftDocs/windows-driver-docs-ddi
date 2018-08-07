@@ -4,7 +4,7 @@ title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure describes the counter resources available on the platform.
 old-location: kernel\physical_counter_resource_descriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9b4c35a1-04b9-4d4d-9a57-2f5711ec7418
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

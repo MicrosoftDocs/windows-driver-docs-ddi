@@ -4,7 +4,7 @@ title: "_IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a Get1394AddressFromDeviceObject request.
 old-location: ieee\irb_req_get_1394_address_from_device_object.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 457E3A4E-6845-473C-AACD-7CC00080C34B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

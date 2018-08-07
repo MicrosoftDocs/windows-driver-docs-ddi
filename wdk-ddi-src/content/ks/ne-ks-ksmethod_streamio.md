@@ -4,7 +4,7 @@ title: KSMETHOD_STREAMIO
 author: windows-driver-content
 description: "."
 old-location: stream\ksmethod_streamio.htm
-old-project: stream
+tech.root: stream
 ms.assetid: BFA53A37-A1EB-4F06-9903-967A94029BC8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

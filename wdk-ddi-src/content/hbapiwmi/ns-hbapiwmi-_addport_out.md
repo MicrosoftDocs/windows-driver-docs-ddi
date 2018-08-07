@@ -4,7 +4,7 @@ title: "_AddPort_OUT"
 author: windows-driver-content
 description: The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the AddPort WMI method to the WMI client.
 old-location: storage\addport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1946245d-d661-41c9-8f5a-37534bf71890
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

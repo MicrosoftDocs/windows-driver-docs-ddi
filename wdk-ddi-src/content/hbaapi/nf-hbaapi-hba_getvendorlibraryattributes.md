@@ -4,7 +4,7 @@ title: HBA_GetVendorLibraryAttributes function
 author: windows-driver-content
 description: The HBA_GetVendorLibraryAttributes routine retrieves the vendor-specific attributes of the fibre channel HBA API library.
 old-location: storage\hba_getvendorlibraryattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 43c55364-1f73-4413-99fb-27c85600d7a6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

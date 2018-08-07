@@ -4,7 +4,7 @@ title: IPnpCallbackSelfManagedIo
 author: windows-driver-content
 description: The IPnpCallbackSelfManagedIo interface is a Plug and Play (PnP) and power management (PM) interface.
 old-location: wdf\ipnpcallbackselfmanagedio.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 34971df0-4abc-41a1-8d2f-6e36df1daf20
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_STORAGE_SPEC_VERSION"
 author: windows-driver-content
 description: Indicates the specification of the storage device.
 old-location: storage\storage_spec_version.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

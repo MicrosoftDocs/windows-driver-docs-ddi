@@ -4,7 +4,7 @@ title: "_timecode"
 author: windows-driver-content
 description: The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 old-location: stream\timecode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

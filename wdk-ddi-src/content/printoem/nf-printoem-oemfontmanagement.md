@@ -4,7 +4,7 @@ title: OEMFontManagement function
 author: windows-driver-content
 description: The OEMFontManagement function is an optional entry point provided for PostScript devices.
 old-location: print\oemfontmanagement.htm
-old-project: print
+tech.root: print
 ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

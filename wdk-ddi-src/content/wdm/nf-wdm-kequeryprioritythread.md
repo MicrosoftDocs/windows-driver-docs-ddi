@@ -4,7 +4,7 @@ title: KeQueryPriorityThread function
 author: windows-driver-content
 description: The KeQueryPriorityThread routine returns the current priority of a particular thread.
 old-location: kernel\kequeryprioritythread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69a8ad3f-641d-4aaf-9184-e56dee6ca347
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

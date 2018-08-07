@@ -4,7 +4,7 @@ title: IOCTL_CDROM_SEEK_AUDIO_MSF
 author: windows-driver-content
 description: Moves the heads to the specified MSF on the media. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_seek_audio_msf.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 081a5d8d-7cc7-4499-9360-dfaa5a7c436b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: ExAllocateFromPagedLookasideList function
 author: windows-driver-content
 description: The ExAllocateFromPagedLookasideList routine returns a pointer to a paged entry from the given lookaside list, or it returns a pointer to a newly allocated paged entry.
 old-location: kernel\exallocatefrompagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f0c86720-4914-47b1-abb1-151196cc2a68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_AID_ROUTING_INFO"
 author: windows-driver-content
 description: SECURE_ELEMENT_AID_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_aid_routing_info.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 3F9831D1-68A9-4FDB-93C6-6983E6BFE945
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

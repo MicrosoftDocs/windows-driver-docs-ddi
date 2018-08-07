@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_RESTRICTED_OVERWRITE"
 author: windows-driver-content
 description: The FEATURE_DATA_RESTRICTED_OVERWRITE structure holds information about the Restricted Overwrite feature.
 old-location: storage\feature_data_restricted_overwrite.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d9f3e892-1ed5-4030-a656-7d2d294b1c82
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

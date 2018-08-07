@@ -4,7 +4,7 @@ title: RxForceFinalizeAllVNetRoots function
 author: windows-driver-content
 description: RxForceFinalizeAllVNetRoots force finalizes all the V_NET_ROOT structures associated with a given NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxforcefinalizeallvnetroots.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 39b64fc0-70e6-4bca-ac45-817b27681487
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

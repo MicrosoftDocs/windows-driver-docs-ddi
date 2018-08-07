@@ -4,7 +4,7 @@ title: PFREE_MAP_REGISTERS
 author: windows-driver-content
 description: The FreeMapRegisters routine releases a set of map registers that were saved from a call to AllocateAdapterChannel.
 old-location: kernel\freemapregisters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

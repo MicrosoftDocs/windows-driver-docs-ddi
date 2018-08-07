@@ -4,7 +4,7 @@ title: "_STOR_POFX_COMPONENT_IDLE_STATE"
 author: windows-driver-content
 description: The STOR_POFX_COMPONENT_IDLE_STATE structure specifies the attributes of an functional power state (F-state) of a component in a storage device.
 old-location: storage\stor_pofx_component_idle_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2600405F-AE07-4284-84AD-D19EEE2058BF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

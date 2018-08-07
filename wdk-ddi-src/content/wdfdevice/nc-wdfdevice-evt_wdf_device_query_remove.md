@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_QUERY_REMOVE
 author: windows-driver-content
 description: A driver's EvtDeviceQueryRemove event callback function determines whether a specified device can be stopped and removed.
 old-location: wdf\evtdevicequeryremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 59e6a8bc-e2f9-4d26-92b0-8f8944e1aa88
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_tagAvcResponseCode"
 author: windows-driver-content
 description: The AvcResponseCode enumeration type is used to indicate the type of response received by a subunit driver from its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_SEND_RESPONSE function codes.
 old-location: stream\avcresponsecode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 81a0ff7f-60a0-437e-8db2-ac364000d580
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

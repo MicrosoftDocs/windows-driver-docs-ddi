@@ -31,7 +31,8 @@ apilocation:
 -	netpacket.h
 apiname: 
 -	_NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

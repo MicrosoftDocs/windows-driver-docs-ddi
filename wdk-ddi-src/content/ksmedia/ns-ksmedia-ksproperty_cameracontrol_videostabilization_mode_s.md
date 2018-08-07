@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 author: windows-driver-content
 description: Describes video stabilization control properties in the PROPSETID_VIDCAP_CAMERACONTROL_VIDEO_STABILIZATION camera control property set. This structure specifies property values that are used in requests to the camera driver.
 old-location: stream\ksproperty_cameracontrol_videostabilization_mode_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7cbf015c-4756-4d5c-a5fb-9cd8a5e0e3fd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

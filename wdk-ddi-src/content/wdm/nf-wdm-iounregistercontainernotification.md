@@ -4,7 +4,7 @@ title: IoUnregisterContainerNotification function
 author: windows-driver-content
 description: The IoUnregisterContainerNotification routine cancels a container notification registration that was previously created by the IoRegisterContainerNotification routine.
 old-location: kernel\iounregistercontainernotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e8c1dee9-515f-4844-aa3e-8deab660bd33
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

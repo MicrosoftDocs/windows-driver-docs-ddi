@@ -4,7 +4,7 @@ title: SdpCreateNodeInt16 function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeInt16 function is used to allocate and initialize an SDP_NODE structure to a 16-bit integer type.
 old-location: bltooth\sdpcreatenodeint16.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d36d9ac5-1bb8-4433-b795-fe8e3391980e
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

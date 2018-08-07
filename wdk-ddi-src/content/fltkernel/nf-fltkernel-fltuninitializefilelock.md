@@ -4,7 +4,7 @@ title: FltUninitializeFileLock function
 author: windows-driver-content
 description: The FltUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fltuninitializefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 15f0a4f4-70f3-4a26-92a2-728e363205f3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

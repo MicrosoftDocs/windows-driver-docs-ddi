@@ -4,7 +4,7 @@ title: SeRegisterLogonSessionTerminatedRoutine function
 author: windows-driver-content
 description: The SeRegisterLogonSessionTerminatedRoutine routine registers a callback routine to be called when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 old-location: ifsk\seregisterlogonsessionterminatedroutine.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6cba6db5-b91f-46f0-939e-b02693c81438
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

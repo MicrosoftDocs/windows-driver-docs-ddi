@@ -4,7 +4,7 @@ title: "_FLT_RELATED_CONTEXTS"
 author: windows-driver-content
 description: The FLT_RELATED_CONTEXTS structure contains a minifilter driver's contexts for the objects associated with an I/O operation.
 old-location: ifsk\flt_related_contexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9d9b4bba-0216-48cf-81aa-160b7252ba20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

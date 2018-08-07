@@ -4,7 +4,7 @@ title: FsRtlOplockFsctrl function
 author: windows-driver-content
 description: FsRtlOplockFsctrl performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver.
 old-location: ifsk\fsrtloplockfsctrl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e456189e-9513-47a7-b5b0-384b531dbda9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlOplockFsctrl
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

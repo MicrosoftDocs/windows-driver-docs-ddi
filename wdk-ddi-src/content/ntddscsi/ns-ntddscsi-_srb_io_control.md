@@ -4,7 +4,7 @@ title: "_SRB_IO_CONTROL"
 author: windows-driver-content
 description: SRB_IO_CONTROL structure
 old-location: storage\srb_io_control.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

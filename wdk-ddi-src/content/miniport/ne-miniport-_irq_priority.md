@@ -4,7 +4,7 @@ title: "_IRQ_PRIORITY"
 author: windows-driver-content
 description: The IRQ_PRIORITY enumeration type indicates the priority the system should give to servicing a device's interrupts.
 old-location: kernel\irq_priority.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

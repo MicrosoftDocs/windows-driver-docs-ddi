@@ -4,10 +4,10 @@ title: "_DXVADDI_FREQUENCY"
 author: windows-driver-content
 description: The DXVADDI_FREQUENCY structure describes the video frame rate in Hertz (Hz). For example, NTSC TV is 60000 over 1001.
 old-location: display\dxvaddi_frequency.htm
-old-project: display
+tech.root: display
 ms.assetid: 5bfb02f6-4482-4260-827f-54c5f74b6b46
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	D3COLD_REQUEST_AUX_POWER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

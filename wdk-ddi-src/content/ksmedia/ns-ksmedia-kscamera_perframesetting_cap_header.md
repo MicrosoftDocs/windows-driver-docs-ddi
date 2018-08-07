@@ -4,7 +4,7 @@ title: KSCAMERA_PERFRAMESETTING_CAP_HEADER
 author: windows-driver-content
 description: This structure contains the header information for the per frame settings capabilities.
 old-location: stream\kscamera_perframesetting_cap_header.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7478E83E-0657-4547-993A-84AECBB2562D
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

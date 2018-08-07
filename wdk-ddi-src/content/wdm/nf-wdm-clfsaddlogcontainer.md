@@ -4,7 +4,7 @@ title: ClfsAddLogContainer function
 author: windows-driver-content
 description: The ClfsAddLogContainer routine adds a container to a CLFS log.
 old-location: kernel\clfsaddlogcontainer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 05ab9817-3f49-4ab5-b35d-1c89f5fe6e44
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

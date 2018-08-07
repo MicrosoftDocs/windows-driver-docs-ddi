@@ -4,7 +4,7 @@ title: "_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
 author: windows-driver-content
 description: The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an argument to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\function_level_device_reset_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A9DDBE59-A318-427C-9BB4-ECB770C9B949
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

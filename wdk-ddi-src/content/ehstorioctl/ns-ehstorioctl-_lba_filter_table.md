@@ -4,7 +4,7 @@ title: "_LBA_FILTER_TABLE"
 author: windows-driver-content
 description: The LBA_FILTER_TABLE structure contains the LBA ranges whose access is controlled by a silo driver.
 old-location: storage\lba_filter_table.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

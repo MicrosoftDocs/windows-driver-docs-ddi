@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_POWER
 author: windows-driver-content
 description: Windows may require a driver to have this IOCTL to be NOP and return success.
 old-location: nfpdrivers\ioctl_smartcard_power.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 1B6F95FB-E7DC-4D36-A319-F5EB576F8D7A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

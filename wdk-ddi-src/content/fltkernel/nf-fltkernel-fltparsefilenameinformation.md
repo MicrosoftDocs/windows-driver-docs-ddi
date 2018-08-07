@@ -4,7 +4,7 @@ title: FltParseFileNameInformation function
 author: windows-driver-content
 description: FltParseFileNameInformation parses the contents of a FLT_FILE_NAME_INFORMATION structure.
 old-location: ifsk\fltparsefilenameinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f588f59b-5efa-4783-bb45-935b91c69cb5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

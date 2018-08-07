@@ -4,10 +4,10 @@ title: "_D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 old-location: display\d3dddicb_destroysynchronizationobject.htm
-old-project: display
+tech.root: display
 ms.assetid: d950e290-3acb-4a89-86a4-ae5117781998
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml, _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, display.d3dddicb_destroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

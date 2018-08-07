@@ -4,10 +4,10 @@ title: "_D3DDDI_DEVICEFUNCS"
 author: windows-driver-content
 description: The D3DDDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 old-location: display\d3dddi_devicefuncs.htm
-old-project: display
+tech.root: display
 ms.assetid: 7345cd67-c10c-46f0-bd56-6f18929f4aa6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS structure [Display Devices], D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices

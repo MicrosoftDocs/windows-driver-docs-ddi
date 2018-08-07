@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_REVERT
 author: windows-driver-content
 description: This IOCTL_EHSTOR_BANDMGMT_REVERT request is sent to deactivate the security features and band management on a storage device. The request includes revert options and the authentication key.
 old-location: storage\ioctl_ehstor_bandmgmt_revert.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 981655A8-B6DC-4720-8D2E-B42AA0859FB2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

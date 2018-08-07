@@ -4,7 +4,7 @@ title: FltFlushBuffers function
 author: windows-driver-content
 description: The FltFlushBuffers routine is used by the minifilter driver to send a flush request for a given file to the file system.
 old-location: ifsk\fltflushbuffers.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

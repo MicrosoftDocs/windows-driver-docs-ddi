@@ -4,7 +4,7 @@ title: FltOplockKeysEqual function
 author: windows-driver-content
 description: The FltOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects.
 old-location: ifsk\fltoplockkeysequal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 660aa6f2-03d8-44aa-b263-29a74c912668
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

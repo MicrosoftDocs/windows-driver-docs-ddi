@@ -4,7 +4,7 @@ title: "_ENLISTMENT_INFORMATION_CLASS"
 author: windows-driver-content
 description: The ENLISTMENT_INFORMATION_CLASS enumeration identifies the type of information that the ZwSetInformationEnlistment routine can set and that the ZwQueryInformationEnlistment routine can retrieve for an enlistment object.
 old-location: kernel\enlistment_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_MEMORY_REGION"
 author: windows-driver-content
 description: The MEMORY_REGION structure describes a region of physically contiguous memory.
 old-location: storage\memory_region.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

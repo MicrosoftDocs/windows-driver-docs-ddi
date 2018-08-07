@@ -4,7 +4,7 @@ title: WdfIoTargetQueryTargetProperty function
 author: windows-driver-content
 description: The WdfIoTargetQueryTargetProperty method retrieves a specified device property for a specified I/O target.
 old-location: wdf\wdfiotargetquerytargetproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 00987914-9fe2-4245-b463-ef362e31679d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: MmQuerySystemSize function
 author: windows-driver-content
 description: The MmQuerySystemSize routine returns an estimate of the amount of memory in the system.
 old-location: kernel\mmquerysystemsize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ca4b3154-e1a1-44d1-b085-9cb5d5ed1a4a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_REG_QUERY_KEY_SECURITY_INFORMATION"
 author: windows-driver-content
 description: The REG_QUERY_KEY_SECURITY_INFORMATION structure receives security information for a registry key object.
 old-location: kernel\reg_query_key_security_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8bfe793d-c902-4459-98eb-e134759efc48
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

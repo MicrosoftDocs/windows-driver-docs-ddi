@@ -4,7 +4,7 @@ title: StorPortInitializePerfOpts function
 author: windows-driver-content
 description: The StorPortInitializePerfOpts function initializes the performance optimizations that both the miniport driver and the Storport driver support using a PERF_CONFIGURATION_DATA structure.
 old-location: storage\storportinitializeperfopts.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fbaf864c-d499-456c-be3b-b486c637877e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

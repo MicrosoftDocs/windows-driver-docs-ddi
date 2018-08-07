@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetValueNumber
 author: windows-driver-content
 description: Returns a number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluenumber.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 16f0e9be-129a-4d7d-94c8-bd27ec010b26
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

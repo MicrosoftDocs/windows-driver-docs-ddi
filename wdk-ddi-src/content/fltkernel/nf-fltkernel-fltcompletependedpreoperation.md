@@ -4,7 +4,7 @@ title: FltCompletePendedPreOperation function
 author: windows-driver-content
 description: FltCompletePendedPreOperation resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback (PFLT_PRE_OPERATION_CALLBACK) routine.
 old-location: ifsk\fltcompletependedpreoperation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bdd9f304-b26e-401e-81c7-da7d1e4f5635
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

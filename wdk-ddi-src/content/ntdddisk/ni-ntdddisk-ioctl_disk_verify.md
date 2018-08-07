@@ -4,7 +4,7 @@ title: IOCTL_DISK_VERIFY
 author: windows-driver-content
 description: Performs verification for a specified extent on a disk.
 old-location: storage\ioctl_disk_verify.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 923a7fac-c1d5-4634-b209-087e3d5d217a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

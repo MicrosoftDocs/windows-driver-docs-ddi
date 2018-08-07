@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_IsDigitalSigned
 author: windows-driver-content
 description: Gets a value that indicates whether the driver package is signed.
 old-location: dtf\iwdtfdriverpackageaction2_isdigitalsigned.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 421682aa-2e21-4650-bae0-f47e6beff632
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

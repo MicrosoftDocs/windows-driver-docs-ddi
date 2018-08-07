@@ -4,7 +4,7 @@ title: "_MSR_DEAUTHENTICATE_DEVICE"
 author: windows-driver-content
 description: This structure provides the information necessary to deauthenticate the device.
 old-location: pos\msr_deauthenticate_device.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 7174a342-de02-4a3c-8bb9-9c86e7f4b5e1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

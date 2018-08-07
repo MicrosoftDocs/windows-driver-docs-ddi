@@ -4,7 +4,7 @@ title: KsValidateAllocatorCreateRequest function
 author: windows-driver-content
 description: The KsValidateAllocatorCreateRequest function validates an IRP_MJ_CREATE request as an allocator request and returns the create structure associated with the request on success.
 old-location: stream\ksvalidateallocatorcreaterequest.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9275257b-50d8-4272-b340-4344644b3e15
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

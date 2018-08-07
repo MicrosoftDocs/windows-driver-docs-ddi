@@ -4,7 +4,7 @@ title: "_DEVICE_DESCRIPTION"
 author: windows-driver-content
 description: The DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA adapter.
 old-location: kernel\device_description.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

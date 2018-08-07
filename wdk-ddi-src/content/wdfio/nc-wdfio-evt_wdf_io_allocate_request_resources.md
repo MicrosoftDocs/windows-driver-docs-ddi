@@ -4,7 +4,7 @@ title: EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES
 author: windows-driver-content
 description: A driver's EvtIoAllocateRequestResources callback function allocates request-specific resources that the driver requires to process the specified request.
 old-location: wdf\evtioallocaterequestresources.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6a60c563-582a-4919-bf0f-919deb3055d3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

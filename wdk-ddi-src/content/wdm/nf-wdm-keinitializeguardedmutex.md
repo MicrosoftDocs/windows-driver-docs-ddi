@@ -4,7 +4,7 @@ title: KeInitializeGuardedMutex function
 author: windows-driver-content
 description: The KeInitializeGuardedMutex routine initializes a guarded mutex.
 old-location: kernel\keinitializeguardedmutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 28d45b36-c20d-40a5-bdf9-5fb754e36e74
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

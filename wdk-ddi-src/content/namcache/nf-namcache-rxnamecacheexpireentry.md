@@ -4,7 +4,7 @@ title: RxNameCacheExpireEntry function
 author: windows-driver-content
 description: RxNameCacheExpireEntry puts a NAME_CACHE entry on the free list for recycling.
 old-location: ifsk\rxnamecacheexpireentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cd763f88-0ff6-4938-ac6e-88ed3da2022b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

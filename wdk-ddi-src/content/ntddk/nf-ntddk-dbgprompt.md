@@ -4,7 +4,7 @@ title: DbgPrompt function
 author: windows-driver-content
 description: The DbgPrompt routine displays a caller-specified user prompt string on the kernel debugger's display device and obtains a user response string.
 old-location: devtest\dbgprompt.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 4bb44aab-7032-4cc7-89e3-6ac3bee233d3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: PMRX_CHANGE_BUFFERING_STATE_CALLDOWN
 author: windows-driver-content
 description: TheMRxCompleteBufferingStateChangeRequest routine is called by RDBSS to notify the network mini-redirector that a buffering state change request has been completed.
 old-location: ifsk\mrxcompletebufferingstatechangerequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_SERIAL_COMMPROP"
 author: windows-driver-content
 description: The SERIAL_COMMPROP structure specifies the properties of a serial port.
 old-location: serports\serial_commprop.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

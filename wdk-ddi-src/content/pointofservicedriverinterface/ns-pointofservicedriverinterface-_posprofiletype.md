@@ -4,7 +4,7 @@ title: "_PosProfileType"
 author: windows-driver-content
 description: This structure describes the number of profile strings in a buffer.
 old-location: pos\posprofiletype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

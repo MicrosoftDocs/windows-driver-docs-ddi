@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 author: windows-driver-content
 description: The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the local SDP server along with attributes that are not part of the SDP record itself.
 old-location: bltooth\ioctl_bth_sdp_submit_record_with_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 774d1bda-2d9b-4ab4-97cf-b358471d8716
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

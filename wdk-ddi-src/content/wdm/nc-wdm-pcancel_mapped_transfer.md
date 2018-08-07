@@ -4,7 +4,7 @@ title: PCANCEL_MAPPED_TRANSFER
 author: windows-driver-content
 description: The CancelMappedTransfer routine cancels a system DMA transfer that is currently mapped to an adapter.
 old-location: kernel\cancelmappedtransfer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 12ED94F4-70A9-4716-91CD-F561F0D4D4EA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

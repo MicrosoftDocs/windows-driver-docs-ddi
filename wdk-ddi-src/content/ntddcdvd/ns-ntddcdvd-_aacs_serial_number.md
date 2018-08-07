@@ -4,7 +4,7 @@ title: "_AACS_SERIAL_NUMBER"
 author: windows-driver-content
 description: The AACS_SERIAL_NUMBER structure contains an Advanced Access Content System (AACS) serial number and corresponding message authentication code (MAC).
 old-location: storage\aacs_serial_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1436c8a5-9160-41d8-acc1-0af6acadfdba
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

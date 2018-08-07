@@ -4,7 +4,7 @@ title: WUDF_WORKITEM_FUNCTION
 author: windows-driver-content
 description: A driver's OnWorkItem event callback function performs the work that is associated with a specified work item.
 old-location: wdf\onworkitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

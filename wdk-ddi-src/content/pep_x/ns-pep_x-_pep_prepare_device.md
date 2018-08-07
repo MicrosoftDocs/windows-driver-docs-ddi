@@ -4,7 +4,7 @@ title: "_PEP_PREPARE_DEVICE"
 author: windows-driver-content
 description: The PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system.
 old-location: kernel\pep_prepare_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

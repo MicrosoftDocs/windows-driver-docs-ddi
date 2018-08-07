@@ -4,7 +4,7 @@ title: IKsPinPipe::KsSetPipe
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpipe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

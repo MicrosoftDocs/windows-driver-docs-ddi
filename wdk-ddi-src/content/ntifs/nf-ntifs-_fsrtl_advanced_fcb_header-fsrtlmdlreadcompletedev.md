@@ -4,7 +4,7 @@ title: FsRtlMdlReadCompleteDev function
 author: windows-driver-content
 description: The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated.
 old-location: ifsk\fltfastiomdlreadcomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlMdlReadCompleteDev
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

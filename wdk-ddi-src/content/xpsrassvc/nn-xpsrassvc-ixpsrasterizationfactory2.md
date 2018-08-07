@@ -4,7 +4,7 @@ title: IXpsRasterizationFactory2
 author: windows-driver-content
 description: In Windows 10, the IXpsRasterizationFactory2 interface represents an object factory for creating components that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
 old-location: print\ixpsrasterizationfactory2.htm
-old-project: print
+tech.root: print
 ms.assetid: 23994CD9-A65B-4BD7-9070-3F575D011953
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlNumberGenericTableElementsAvl function
 author: windows-driver-content
 description: The RtlNumberGenericTableElementsAvl routine returns the number of elements in a generic table.
 old-location: ifsk\rtlnumbergenerictableelementsavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

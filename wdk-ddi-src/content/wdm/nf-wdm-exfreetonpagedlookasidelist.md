@@ -4,7 +4,7 @@ title: ExFreeToNPagedLookasideList function
 author: windows-driver-content
 description: The ExFreeToNPagedLookasideList routine returns a nonpaged entry to the given lookaside list or to nonpaged pool.
 old-location: kernel\exfreetonpagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

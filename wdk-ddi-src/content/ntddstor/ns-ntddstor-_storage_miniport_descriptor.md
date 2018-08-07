@@ -4,7 +4,7 @@ title: "_STORAGE_MINIPORT_DESCRIPTOR"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_miniport_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 30497CA8-70B6-48F9-B5D5-45E606A3226E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

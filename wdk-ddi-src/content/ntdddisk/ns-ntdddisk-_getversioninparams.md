@@ -4,7 +4,7 @@ title: "_GETVERSIONINPARAMS"
 author: windows-driver-content
 description: The GETVERSIONINPARAMS structure is used in conjunction with the SMART_GET_VERSION request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 old-location: storage\getversioninparams.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dcbfa8d2-c2ea-43ae-9d77-ce95a430a514
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

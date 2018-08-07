@@ -4,7 +4,7 @@ title: IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 old-location: print\ioctl_ioctl_dot4_remove_activity_broadcast.htm
-old-project: print
+tech.root: print
 ms.assetid: F2CD1373-CDBD-4D14-8C63-7A08A5EBCED6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

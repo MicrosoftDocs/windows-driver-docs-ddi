@@ -4,10 +4,10 @@ title: IDebugControl3::AddAssemblyOptions
 author: windows-driver-content
 description: The AddAssemblyOptions method turns on some of the assembly and disassembly options.
 old-location: debugger\addassemblyoptions.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 9274c3eb-a5c0-43a9-a9d4-541482ddace1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: AddAssemblyOptions, AddAssemblyOptions method [Windows Debugging], AddAssemblyOptions method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],AddAssemblyOptions method, IDebugControl3.AddAssemblyOptions, IDebugControl3::AddAssemblyOptions, IDebugControl_9cacf343-5c88-4a06-8f68-7c94b15419b8.xml, dbgeng/IDebugControl3::AddAssemblyOptions, debugger.addassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

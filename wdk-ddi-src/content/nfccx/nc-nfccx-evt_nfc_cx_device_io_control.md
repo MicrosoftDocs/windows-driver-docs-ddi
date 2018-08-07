@@ -4,7 +4,7 @@ title: EVT_NFC_CX_DEVICE_IO_CONTROL
 author: windows-driver-content
 description: Called by the NFC CX to send an unhandled IOCTL to the client driver.
 old-location: nfpdrivers\evtnfccxdeviceiocontrol_.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 45512F88-D4B8-4488-99EB-B47EE7443425
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: USBCAMD_INTERFACE
 author: windows-driver-content
 description: The USBCAMD_INTERFACE structure defines a set of services related to the USB bus interfaces.
 old-location: stream\usbcamd_interface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 864dbe8d-2771-4532-8a50-ed1bf5286658
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

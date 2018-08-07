@@ -3,10 +3,10 @@ UID: NC:uart.UART_HARDWARE_READ_INDEXED_UCHAR
 title: UART_HARDWARE_READ_INDEXED_UCHAR
 author: windows-driver-content
 description: Reads a byte from the port specified by index.
-old-project: serports
+tech.root: serports
 ms.assetid: 2553b85b-da83-4fd8-b6f0-5ab629af1fdd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,23 +19,24 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_READ_INDEXED_UCHAR
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -51,11 +52,11 @@ Reads a byte from the specified port.
 ```
 //Declaration
 
-UART_HARDWARE_READ_INDEXED_UCHAR UartHardwareReadIndexedUchar; 
+UART_HARDWARE_READ_INDEXED_UCHAR UartHardwareReadIndexedUchar;
 
 // Definition
 
-UCHAR UartHardwareReadIndexedUchar 
+UCHAR UartHardwareReadIndexedUchar
 (
 	PCPPORT Port
 	 const UCHAR Index
@@ -68,8 +69,8 @@ UCHAR UartHardwareReadIndexedUchar
 
 ### -param Port
 [_In_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that was received during port initialization.
- 
-### -param Index 
+
+### -param Index
 A zero-based index for the port.
 
 

@@ -4,7 +4,7 @@ title: IOCTL_SFFDISK_DEVICE_COMMAND
 author: windows-driver-content
 description: User-mode applications use this IOCTL to send Secure Digital (SD) card commands to an SD card.
 old-location: sd\ioctl_sffdisk_device_command.htm
-old-project: SD
+tech.root: SD
 ms.assetid: ccf9e0a2-b891-474c-ac95-7b18112857c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

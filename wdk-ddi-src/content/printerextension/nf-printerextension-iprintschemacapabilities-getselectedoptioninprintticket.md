@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 author: windows-driver-content
 description: Gets the selected option for a feature in IPrintSchemaTicket.
 old-location: print\iprintschemacapabilities_getselectedoptioninprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

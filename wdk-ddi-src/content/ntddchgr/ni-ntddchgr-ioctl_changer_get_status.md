@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_STATUS
 author: windows-driver-content
 description: Returns the current status of the device.
 old-location: storage\ioctl_changer_get_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 88f1a248-0beb-4c7c-b68d-6ce145bf5ca7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

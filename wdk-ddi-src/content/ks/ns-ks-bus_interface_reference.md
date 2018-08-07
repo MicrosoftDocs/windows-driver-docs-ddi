@@ -4,7 +4,7 @@ title: BUS_INTERFACE_REFERENCE
 author: windows-driver-content
 description: A software device enumerator exports this interface to allow drivers to reference count physical device objects (PDOs) such that the device remains active while in use and is unloaded when not in use.
 old-location: stream\bus_interface_reference.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

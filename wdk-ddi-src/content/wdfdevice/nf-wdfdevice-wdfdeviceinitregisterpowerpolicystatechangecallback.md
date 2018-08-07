@@ -4,7 +4,7 @@ title: WdfDeviceInitRegisterPowerPolicyStateChangeCallback function
 author: windows-driver-content
 description: The WdfDeviceInitRegisterPowerPolicyStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's power policy state machine changes state.
 old-location: wdf\wdfdeviceinitregisterpowerpolicystatechangecallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 61ddfdf9-65cf-482b-80fe-bc5a71f905cd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

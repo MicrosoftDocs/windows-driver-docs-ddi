@@ -4,7 +4,7 @@ title: CcIsThereDirtyDataEx function
 author: windows-driver-content
 description: The CcIsThereDirtyDataEx routine determines whether a volume contains any files that have dirty data in the system cache.
 old-location: ifsk\ccistheredirtydataex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

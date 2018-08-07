@@ -4,7 +4,7 @@ title: KSEVENT_CAMERAEVENT
 author: windows-driver-content
 description: KSEVENT_CAMERAEVENT enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.
 old-location: stream\ksevent_cameraevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: FD9483A5-7112-4141-8566-80B8D010366C
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

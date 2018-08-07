@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_CHARS
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_CHARS request sets the special characters that the serial controller driver uses for handshake flow control. This driver verifies the specified special characters.
 old-location: serports\ioctl_serial_set_chars.htm
-old-project: serports
+tech.root: serports
 ms.assetid: f792bd01-19e1-4f15-917a-19ad46e7a4a9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

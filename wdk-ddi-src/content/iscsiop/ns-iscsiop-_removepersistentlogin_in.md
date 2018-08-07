@@ -4,7 +4,7 @@ title: "_RemovePersistentLogin_IN"
 author: windows-driver-content
 description: The RemovePersistentLogin_IN structure holds the input data for the RemovePersistentLogin method, which is used to remove persistent login information.
 old-location: storage\removepersistentlogin_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 94dc7a87-83a0-419d-914c-008d797fec87
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

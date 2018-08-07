@@ -4,7 +4,7 @@ title: KsDereferenceBusObject function
 author: windows-driver-content
 description: Dereferences the bus Physical Device Object.
 old-location: stream\ksdereferencebusobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5520685c-c438-460b-aac5-791098e14044
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

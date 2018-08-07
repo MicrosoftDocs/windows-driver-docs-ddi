@@ -4,7 +4,7 @@ title: "_BAND_TABLE_ENTRY"
 author: windows-driver-content
 description: Banding information entries in BAND_TABLE are represented as BAND_TABLE_ENTRY structures. These entries contain location and security properties for a band configuration.
 old-location: storage\band_table_entry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6956327E-5407-4771-9BB9-F59D752A5410
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

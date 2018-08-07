@@ -4,7 +4,7 @@ title: "_WDF_IO_QUEUE_DISPATCH_TYPE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration contains values that identify how a driver must receive requests from an I/O queue.
 old-location: wdf\wdf_io_queue_dispatch_type_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 40f4cd91-ba84-426c-b248-6027d1e8d1a4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

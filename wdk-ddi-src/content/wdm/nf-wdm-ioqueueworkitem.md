@@ -4,7 +4,7 @@ title: IoQueueWorkItem function
 author: windows-driver-content
 description: The IoQueueWorkItem routine associates a WorkItem routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 old-location: kernel\ioqueueworkitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 92ec386e-205a-4704-bd13-941dd6d7d987
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

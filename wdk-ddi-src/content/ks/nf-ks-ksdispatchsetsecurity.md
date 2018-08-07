@@ -4,7 +4,7 @@ title: KsDispatchSetSecurity function
 author: windows-driver-content
 description: The KsDispatchSetSecurity function is used in the KSDISPATCH_TABLE.SetSecurity entry to handle setting the current security descriptor.
 old-location: stream\ksdispatchsetsecurity.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c1af342a-438d-4c83-be2d-a4c4c9f204b5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

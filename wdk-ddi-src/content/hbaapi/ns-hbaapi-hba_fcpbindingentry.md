@@ -4,7 +4,7 @@ title: HBA_FCPBindingEntry
 author: windows-driver-content
 description: The HBA_FCPBindingEntry structure is equivalent to HBAFCPBindingEntry.
 old-location: storage\hba_fcpbindingentry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c9c46133-a660-46c6-911b-77c2dd2ed2e0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

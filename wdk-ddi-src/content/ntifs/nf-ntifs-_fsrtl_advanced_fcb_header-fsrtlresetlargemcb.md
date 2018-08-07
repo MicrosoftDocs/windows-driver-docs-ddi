@@ -4,7 +4,7 @@ title: FsRtlResetLargeMcb function
 author: windows-driver-content
 description: The FsRtlResetLargeMcb routine truncates a map control block (MCB) structure to contain zero mapping pairs. It does not shrink the mapping pairs array.
 old-location: ifsk\fsrtlresetlargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 49134501-165a-4296-b4c6-3f1e7ae9d485
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlResetLargeMcb
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

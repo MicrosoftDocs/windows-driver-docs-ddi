@@ -4,7 +4,7 @@ title: "_FSRTL_PER_FILEOBJECT_CONTEXT"
 author: windows-driver-content
 description: The opaque FSRTL_PER_FILEOBJECT_CONTEXT structure is used by the operating system to track file system filter-driver-defined context information structures for a file object.
 old-location: ifsk\fsrtl_per_fileobject_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f9d6f957-5878-45ca-86a3-1c62f2a52e65
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

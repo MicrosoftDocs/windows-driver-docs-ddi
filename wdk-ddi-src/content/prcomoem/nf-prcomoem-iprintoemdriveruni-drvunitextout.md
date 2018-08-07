@@ -4,7 +4,7 @@ title: IPrintOemDriverUni::DrvUniTextOut
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvUniTextOut method is provided by the Unidrv driver so that a rendering plug-in using a device-managed drawing surface can easily output text strings.
 old-location: print\iprintoemdriveruni_drvunitextout.htm
-old-project: print
+tech.root: print
 ms.assetid: f8c21813-9bfd-46a5-abb2-78ac2f2301af
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_CHANGER_ELEMENT"
 author: windows-driver-content
 description: The CHANGER_ELEMENT structure contains a description of a changer element.
 old-location: storage\changer_element.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 85035147-0ae8-482a-9a12-1e4e53ae1969
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

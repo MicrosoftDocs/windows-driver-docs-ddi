@@ -4,7 +4,7 @@ title: IInterFilterCommunicator::RequestReader
 author: windows-driver-content
 description: The RequestReader method retrieves the reader interface for an IInterFilterCommunicator object.
 old-location: print\iinterfiltercommunicator_requestreader.htm
-old-project: print
+tech.root: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

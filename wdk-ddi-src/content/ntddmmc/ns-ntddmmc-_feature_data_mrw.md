@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_MRW"
 author: windows-driver-content
 description: The FEATURE_DATA_MRW structure contains information about the MRW feature.
 old-location: storage\feature_data_mrw.htm
-old-project: storage
+tech.root: storage
 ms.assetid: af0c8c50-c5a0-4395-a608-fced6ac3cfe5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

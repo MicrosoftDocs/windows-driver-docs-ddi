@@ -4,7 +4,7 @@ title: KSERROR
 author: windows-driver-content
 description: The KSERROR structure is used to report streaming errors in both kernel and user mode to their respective quality managers.
 old-location: stream\kserror.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c475810c-505e-446a-9b98-d512e745b6ce
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

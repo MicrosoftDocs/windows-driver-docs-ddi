@@ -4,7 +4,7 @@ title: USBCAMD_GetRegistryKeyValue function
 author: windows-driver-content
 description: The USBCAMD_GetRegistryKeyValue function retrieves the device-instance-specific registry key value.
 old-location: stream\usbcamd_getregistrykeyvalue.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c3512a79-884f-4f38-9942-63a4a464585c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

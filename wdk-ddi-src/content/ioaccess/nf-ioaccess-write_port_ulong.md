@@ -4,7 +4,7 @@ title: WRITE_PORT_ULONG function
 author: windows-driver-content
 description: The WRITE_PORT_ULONG routine writes a ULONG value to the specified port address.
 old-location: kernel\write_port_ulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fe7c8a20-dadb-4c8d-b208-8fbbf8c719a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

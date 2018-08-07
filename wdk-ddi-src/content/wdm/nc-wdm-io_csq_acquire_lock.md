@@ -4,7 +4,7 @@ title: IO_CSQ_ACQUIRE_LOCK
 author: windows-driver-content
 description: The CsqAcquireLock routine is used by the system to acquire the lock for a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqacquirelock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8981e2f9-b456-48de-b31c-25a6884bcf12
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

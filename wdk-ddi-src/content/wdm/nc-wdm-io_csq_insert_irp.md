@@ -4,7 +4,7 @@ title: IO_CSQ_INSERT_IRP
 author: windows-driver-content
 description: The CsqInsertIrp routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqinsertirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 453ca575-be7f-47ee-9201-0f1ede16420c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

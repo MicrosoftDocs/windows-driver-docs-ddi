@@ -4,7 +4,7 @@ title: "_HIDP_REPORT_IDS"
 author: windows-driver-content
 description: Contains report ID information for a top-level collection.
 old-location: hid\hidp_report_ids.htm
-old-project: hid
+tech.root: hid
 ms.assetid: C88B77C3-01CB-4E8C-83A4-EB9AFB122327
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

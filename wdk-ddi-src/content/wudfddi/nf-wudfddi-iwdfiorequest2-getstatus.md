@@ -4,7 +4,7 @@ title: IWDFIoRequest2::GetStatus
 author: windows-driver-content
 description: The GetStatus method returns the status of an I/O request.
 old-location: wdf\iwdfiorequest2_getstatus.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 20b10edb-3294-4cc7-91bc-07df565a9cf2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

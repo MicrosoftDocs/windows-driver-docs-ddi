@@ -4,7 +4,7 @@ title: RtlGetVersion function
 author: windows-driver-content
 description: The RtlGetVersion routine returns version information about the currently running operating system.
 old-location: kernel\rtlgetversion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b6e6fbc0-a35b-4086-9d7a-98dab516a816
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

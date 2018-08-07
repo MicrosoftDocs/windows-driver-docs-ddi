@@ -4,7 +4,7 @@ title: IO_CSQ_PEEK_NEXT_IRP
 author: windows-driver-content
 description: The CsqPeekNextIrp routine is used by the system to find the next matching IRP in a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqpeeknextirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0968fea0-4c66-497f-8a01-baacc90b2458
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

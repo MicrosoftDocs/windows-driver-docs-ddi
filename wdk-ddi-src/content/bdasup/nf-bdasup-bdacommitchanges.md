@@ -4,7 +4,7 @@ title: BdaCommitChanges function
 author: windows-driver-content
 description: The BdaCommitChanges function commits the changes to BDA topology that have occurred since the last call to the BdaStartChanges function.
 old-location: stream\bdacommitchanges.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 89bac523-65f1-462e-a734-285cda9e33ac
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

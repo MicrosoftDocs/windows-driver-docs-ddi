@@ -4,7 +4,7 @@ title: IWDFInterrupt::SetExtendedPolicy
 author: windows-driver-content
 description: The SetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
 old-location: wdf\iwdfinterrupt_setextendedpolicy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

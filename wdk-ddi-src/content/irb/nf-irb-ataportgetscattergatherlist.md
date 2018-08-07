@@ -4,7 +4,7 @@ title: AtaPortGetScatterGatherList function
 author: windows-driver-content
 description: The AtaPortGetScatterGatherList routine retrieves the scatter/gather list that is associated with this request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetscattergatherlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 11181574-b329-4182-8d17-93d44cb3b839
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

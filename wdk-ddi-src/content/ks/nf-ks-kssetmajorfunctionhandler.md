@@ -4,7 +4,7 @@ title: KsSetMajorFunctionHandler function
 author: windows-driver-content
 description: The KsSetMajorFunctionHandler function sets the handler for a specified major function to use the internal dispatching.
 old-location: stream\kssetmajorfunctionhandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

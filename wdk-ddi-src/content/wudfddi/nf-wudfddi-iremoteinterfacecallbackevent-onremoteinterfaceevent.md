@@ -4,7 +4,7 @@ title: IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteInterfaceEvent event callback function handles device events that are associated with a device interface.
 old-location: wdf\iremoteinterfacecallbackevent_onremoteinterfaceevent.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

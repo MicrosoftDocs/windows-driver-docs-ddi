@@ -4,7 +4,7 @@ title: "_STORAGE_DIAGNOSTIC_MP_REQUEST"
 author: windows-driver-content
 description: Describes a diagnostic request to Miniport. The STORAGE_DIAGNOSTIC_MP_REQUEST structure is provided in the input/output buffer of an IOCTL_SCSI_MINIPORT_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_mp_request.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1F2B15A6-7C05-4FBA-B54F-EEF013FF5739
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

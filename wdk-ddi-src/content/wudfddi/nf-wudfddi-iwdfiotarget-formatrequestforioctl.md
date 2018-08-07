@@ -4,7 +4,7 @@ title: IWDFIoTarget::FormatRequestForIoctl
 author: windows-driver-content
 description: The FormatRequestForIoctl method formats an I/O request object for an I/O control operation.
 old-location: wdf\iwdfiotarget_formatrequestforioctl.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: CcSetDirtyPinnedData function
 author: windows-driver-content
 description: The CcSetDirtyPinnedData routine marks as dirty the buffer control block (BCB) for a pinned buffer whose contents have been modified.
 old-location: ifsk\ccsetdirtypinneddata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f621a54f-ed40-4ec7-8678-7c72fcd9e704
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

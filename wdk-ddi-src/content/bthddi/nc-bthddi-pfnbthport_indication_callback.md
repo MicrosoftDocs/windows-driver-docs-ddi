@@ -4,7 +4,7 @@ title: PFNBTHPORT_INDICATION_CALLBACK
 author: windows-driver-content
 description: Profile drivers implement a L2CAP callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about incoming L2CAP connection requests from remote devices, and any changes to the status of a currently open L2CAP connection.
 old-location: bltooth\l2cap_callback_function.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d3ca900d-1dd6-49da-ae94-855de3fbd086
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: WdfWdmDriverGetWdfDriverHandle function
 author: windows-driver-content
 description: The WdfWdmDriverGetWdfDriverHandle method returns a handle to the framework driver object that is associated with a specified Windows Driver Model (WDM) driver object.
 old-location: wdf\wdfwdmdrivergetwdfdriverhandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2126d36c-42c1-4e29-bf82-9f5682482557
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

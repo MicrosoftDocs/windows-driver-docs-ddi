@@ -4,7 +4,7 @@ title: IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
 author: windows-driver-content
 description: Gets the height of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_heightinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: B419BD5D-A3B7-46D1-8E6B-3100E0940842
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

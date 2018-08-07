@@ -4,7 +4,7 @@ title: "_OSVERSIONINFOW"
 author: windows-driver-content
 description: The RTL_OSVERSIONINFOW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfow.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

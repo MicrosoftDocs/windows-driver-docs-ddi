@@ -4,7 +4,7 @@ title: TmRollbackEnlistment function
 author: windows-driver-content
 description: The TmRollbackEnlistment routine rolls back a specified enlistment.
 old-location: kernel\tmrollbackenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1f089f2c-73e2-4c77-a398-0d369aafdf3a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

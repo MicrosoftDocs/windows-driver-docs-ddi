@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer::GetNewEmptyPart
 author: windows-driver-content
 description: The GetNewEmptyPart method creates a new XPS part.
 old-location: print\ixpsdocumentconsumer_getnewemptypart.htm
-old-project: print
+tech.root: print
 ms.assetid: cc0911da-46ca-4cf7-a59e-da0d53e1d10c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

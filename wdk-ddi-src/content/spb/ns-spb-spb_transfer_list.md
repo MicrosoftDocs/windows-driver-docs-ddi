@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST
 author: windows-driver-content
 description: The SPB_TRANSFER_LIST structure describes an I/O transfer sequence.
 old-location: spb\spb_transfer_list.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: DC4E165B-4D3A-4C5F-9B6F-8CB825BAF4FD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

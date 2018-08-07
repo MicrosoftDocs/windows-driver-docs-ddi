@@ -4,7 +4,7 @@ title: "_KS_DVDCOPY_CHLGKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_CHLGKEY structure is used to describe the challenge key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_chlgkey.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 10be15fc-ca0e-40d4-8fe9-9682478f5c5b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

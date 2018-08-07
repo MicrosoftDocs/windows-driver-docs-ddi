@@ -4,7 +4,7 @@ title: "_VOLUME_PHYSICAL_OFFSET"
 author: windows-driver-content
 description: The VOLUME_PHYSICAL_OFFSET structure contains a physical offset into a volume and its accompanying physical disk number and is used with IOCTL_VOLUME_PHYSICAL_TO_LOGICAL and IOCTL_VOLUME_LOGICAL_TO_PHYSICAL to request a logical offset equivalent of a physical offset or a physical offset equivalent of a logical offset, respectively.
 old-location: storage\volume_physical_offset.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 068875e3-4229-4f15-9533-f740239ac873
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

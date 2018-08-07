@@ -4,7 +4,7 @@ title: ConfigurePortUI function
 author: windows-driver-content
 description: A port monitor UI DLL's ConfigurePortUI function obtains port configuration information from the user and sends it to the port monitor server DLL.
 old-location: print\configureportui.htm
-old-project: print
+tech.root: print
 ms.assetid: fef58485-db4e-4bad-a21b-376e8d83f243
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax
@@ -101,7 +101,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it 
 
 Port monitor UI DLLs are required to define a <b>ConfigurePortUI</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
 
-The client's spooler calls <b>ConfigurePortUI</b> from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546286">ConfigurePort</a> function (described in the Microsoft Windows SDK documentation). The arguments received by <b>ConfigurePortUI</b> are the arguments received by <b>ConfigurePort</b>. 
+The client's spooler calls <b>ConfigurePortUI</b> from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546286">ConfigurePort</a> function (described in the Microsoft Windows SDK documentation). The arguments received by <b>ConfigurePortUI</b> are the arguments received by <b>ConfigurePort</b>.
 
 The function should perform the following operations:
 

@@ -4,7 +4,7 @@ title: HBA_GetNumberOfAdapters function
 author: windows-driver-content
 description: The HBA_GetNumberOfAdapters routine returns the number of HBAs supported by the library.
 old-location: storage\hba_getnumberofadapters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5864a535-4ff8-4c9a-abf9-f835c7fde305
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

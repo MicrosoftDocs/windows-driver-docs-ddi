@@ -4,7 +4,7 @@ title: "_ACCESS_DENIED_ACE"
 author: windows-driver-content
 description: The ACCESS_DENIED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) controlling access to an object.
 old-location: ifsk\access_denied_ace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a7030210-2907-45c7-a689-5e41db7c81b0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

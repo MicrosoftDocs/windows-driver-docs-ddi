@@ -4,7 +4,7 @@ title: HBA_AdapterAttributes
 author: windows-driver-content
 description: The HBA_AdapterAttributes structure is used in conjunction with the HBA_GetAdapterAttributes routine to report the attributes of an HBA.
 old-location: storage\hba_adapterattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d86a5810-7014-41d5-bd88-3a1bd50032da
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

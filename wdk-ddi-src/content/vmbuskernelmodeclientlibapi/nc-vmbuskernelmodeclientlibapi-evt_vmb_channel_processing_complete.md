@@ -4,10 +4,10 @@ title: EVT_VMB_CHANNEL_PROCESSING_COMPLETE
 author: windows-driver-content
 description: The EvtVmbChannelProcessingComplete callback function is invoked when a group of packets has been delivered by the EvtVmbChannelProcessPacket function, if there is a pause before delivering subsequent packets.
 old-location: netvista\evt_vmb_channel_processing_complete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E30A169E-0EC6-4128-B268-5FC1CD37A877
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: EVT_VMB_CHANNEL_PROCESSING_COMPLETE, EVT_VMB_CHANNEL_PROCESSING_COMPLETE callback, EvtVmbChannelProcessingComplete, EvtVmbChannelProcessingComplete callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESSING_COMPLETE, PFN_VMB_CHANNEL_PROCESSING_COMPLETE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_processing_complete, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessingComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

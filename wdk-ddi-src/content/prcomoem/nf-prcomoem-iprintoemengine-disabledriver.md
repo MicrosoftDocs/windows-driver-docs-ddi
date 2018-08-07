@@ -4,7 +4,7 @@ title: IPrintOemEngine::DisableDriver
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_disabledriver.htm
-old-project: print
+tech.root: print
 ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

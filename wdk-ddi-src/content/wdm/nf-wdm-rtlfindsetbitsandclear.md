@@ -4,7 +4,7 @@ title: RtlFindSetBitsAndClear function
 author: windows-driver-content
 description: The RtlFindSetBitsAndClear routine searches for a range of set bits of a requested size within a bitmap and clears all bits in the range when it has been located.
 old-location: kernel\rtlfindsetbitsandclear.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d88797c6-c06c-4c3b-a3e4-baf412e051ef
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

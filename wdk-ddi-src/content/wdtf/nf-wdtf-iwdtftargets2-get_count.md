@@ -4,7 +4,7 @@ title: IWDTFTargets2::get_Count
 author: windows-driver-content
 description: Gets the number of items in this collection.
 old-location: dtf\iwdtftargets2_count.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c7f70139-1a23-4dee-a34e-6b8313cf8e23
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

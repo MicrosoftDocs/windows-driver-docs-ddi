@@ -4,10 +4,10 @@ title: wiasSetValidListGuid function
 author: windows-driver-content
 description: The wiasSetValidListGuid function sets valid values for a WIA_PROP_LIST property of type VT_CLSID.
 old-location: image\wiassetvalidlistguid.htm
-old-project: image
+tech.root: image
 ms.assetid: ab8276d4-4838-4bfc-8952-8712435eab41
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiassetvalidlistguid, wiamdef/wiasSetValidListGuid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

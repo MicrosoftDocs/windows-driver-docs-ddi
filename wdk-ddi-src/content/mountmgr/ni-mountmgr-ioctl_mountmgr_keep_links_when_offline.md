@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE
 author: windows-driver-content
 description: This IOCTL directs the mount manager to keep a symbolic link active after the Plug and Play manager has given notification that its corresponding volume has gone offline.
 old-location: storage\ioctl_mountmgr_keep_links_when_offline.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 56af77f9-7c29-4bde-a8ae-9af23af4d296
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_GetEventBuffer_OUT"
 author: windows-driver-content
 description: The GetEventBuffer_OUT structure is used to report the output parameter data of the GetEventBuffer WMI method to the WMI client.
 old-location: storage\geteventbuffer_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

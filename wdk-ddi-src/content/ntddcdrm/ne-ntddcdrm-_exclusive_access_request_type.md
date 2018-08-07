@@ -4,7 +4,7 @@ title: "_EXCLUSIVE_ACCESS_REQUEST_TYPE"
 author: windows-driver-content
 description: The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used to report the exclusive access state of a CD-ROM device.
 old-location: storage\exclusive_access_request_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 314dfdeb-1821-444a-84c6-2ee7fa536122
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

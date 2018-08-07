@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_SEND_OPTIONS_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that a driver can specify when it calls IWDFIoRequest::Send.
 old-location: wdf\wdf_request_send_options_flags__umdf_.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 02678466-aa8d-436d-8be3-b8a57218a106
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

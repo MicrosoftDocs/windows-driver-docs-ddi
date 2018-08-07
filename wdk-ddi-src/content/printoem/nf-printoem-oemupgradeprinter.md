@@ -4,7 +4,7 @@ title: OEMUpgradePrinter function
 author: windows-driver-content
 description: OEMUpgradePrinter function
 old-location: print\oemupgradeprinter.htm
-old-project: print
+tech.root: print
 ms.assetid: 3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IoInitializePriorityInfo function
 author: windows-driver-content
 description: The IoInitializePriorityInfo routine initializes a structure of type IO_PRIORITY_INFO.
 old-location: ifsk\ioinitializepriorityinfo.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 21aa5850-1984-4ab8-8e7c-3028fc87680b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_ATA_PASS_THROUGH_DIRECT"
 author: windows-driver-content
 description: The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_direct.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0f7a424e-5d83-4ab0-b5a2-7e9093bbd34b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: "_DXVA_NominalRange"
 author: windows-driver-content
 description: The DXVA_NominalRange enumeration type contains enumerators that identify whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black).
 old-location: display\dxva_nominalrange.htm
-old-project: display
+tech.root: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA_NominalRange, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRangeMask, DXVA_NominalRangeShift, DXVA_NominalRange_0_255, DXVA_NominalRange_16_235, DXVA_NominalRange_48_208, DXVA_NominalRange_Normal, DXVA_NominalRange_Unknown, DXVA_NominalRange_Wide, _DXVA_NominalRange, display.dxva_nominalrange, dxva/DXVA_NominalRange, dxva/DXVA_NominalRangeMask, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_16_235, dxva/DXVA_NominalRange_48_208, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_Wide, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,27 +75,27 @@ Specifies that the nominal range is not specified.
 
 ### -field DXVA_NominalRange_Normal
 
-Specifies that normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
+Specifies that normalized chroma [0..1] maps to [0..255] for 8-bit or [0..1023] for 10-bit.
 
 
 ### -field DXVA_NominalRange_Wide
 
-Specifies that normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
+Specifies that normalized chroma [0..1] maps to [16..235] for 8-bit or [64..940] for 10-bit.
 
 
 ### -field DXVA_NominalRange_0_255
 
-Specifies that normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
+Specifies that normalized chroma [0..1] maps to [0..255] for 8-bit or [0..1023] for 10-bit.
 
 
 ### -field DXVA_NominalRange_16_235
 
-Specifies that normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
+Specifies that normalized chroma [0..1] maps to [16..235] for 8-bit or [64..940] for 10-bit.
 
 
 ### -field DXVA_NominalRange_48_208
 
-Specifies that normalized chroma [0..1] maps to [48..208] (8bit) or [192..832] (10 bit).
+Specifies that normalized chroma [0..1] maps to [48..208] for 8-bit or [192..832] for 10-bit.
 
 
 ## -remarks

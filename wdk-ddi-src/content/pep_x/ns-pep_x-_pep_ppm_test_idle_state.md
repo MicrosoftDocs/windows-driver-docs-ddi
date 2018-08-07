@@ -4,7 +4,7 @@ title: "_PEP_PPM_TEST_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_PPM_TEST_IDLE_STATE structure contains information about whether the processor can immediately enter a processor idle state.
 old-location: kernel\pep_ppm_test_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2B465848-6564-404F-8F5B-E761866278C5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

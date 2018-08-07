@@ -4,7 +4,7 @@ title: IWDFUsbTargetFactory::CreateUsbTargetDevice
 author: windows-driver-content
 description: The CreateUsbTargetDevice method creates a USB device object that is also an I/O target.
 old-location: wdf\iwdfusbtargetfactory_createusbtargetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

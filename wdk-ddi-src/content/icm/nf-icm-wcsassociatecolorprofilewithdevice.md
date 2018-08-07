@@ -4,7 +4,7 @@ title: WcsAssociateColorProfileWithDevice function
 author: windows-driver-content
 description: The WcsAssociateColorProfileWithDevice function associates a specified WCS color profile with a specified device.
 old-location: print\wcsassociatecolorprofilewithdevice.htm
-old-project: print
+tech.root: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

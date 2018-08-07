@@ -4,7 +4,7 @@ title: MmMapLockedPagesSpecifyCache function
 author: windows-driver-content
 description: The MmMapLockedPagesSpecifyCache routine maps the physical pages that are described by an MDL to a virtual address, and enables the caller to specify the cache attribute that is used to create the mapping.
 old-location: kernel\mmmaplockedpagesspecifycache.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fb759043-ffdf-4edf-819b-669631927bc5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

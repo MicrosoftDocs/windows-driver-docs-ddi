@@ -4,7 +4,7 @@ title: "_WDF_USB_BMREQUEST_RECIPIENT"
 author: windows-driver-content
 description: The WDF_USB_BMREQUEST_RECIPIENT enumeration identifies the data transfer recipient for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_recipient.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0749d03d-8174-4f6e-816e-4689594c0c84
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

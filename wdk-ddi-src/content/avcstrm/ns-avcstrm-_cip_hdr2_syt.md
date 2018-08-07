@@ -4,7 +4,7 @@ title: "_CIP_HDR2_SYT"
 author: windows-driver-content
 description: The CIP_HDR2_SYT structure describes the second quadlet of a CIP header pair for a DV format stream.
 old-location: stream\cip_hdr2_syt.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

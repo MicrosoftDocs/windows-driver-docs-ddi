@@ -4,7 +4,7 @@ title: PoQueryWatchdogTime function
 author: windows-driver-content
 description: The PoQueryWatchdogTime routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
 old-location: kernel\poquerywatchdogtime.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

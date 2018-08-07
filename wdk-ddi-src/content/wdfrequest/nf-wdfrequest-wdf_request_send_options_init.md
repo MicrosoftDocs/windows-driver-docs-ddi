@@ -4,7 +4,7 @@ title: WDF_REQUEST_SEND_OPTIONS_INIT function
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_INIT function initializes a driver's WDF_REQUEST_SEND_OPTIONS structure.
 old-location: wdf\wdf_request_send_options_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 65e57147-f8a1-4b9b-b856-51f89bcba149
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

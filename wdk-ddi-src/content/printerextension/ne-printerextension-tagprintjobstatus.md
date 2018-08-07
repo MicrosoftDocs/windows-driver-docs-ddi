@@ -4,7 +4,7 @@ title: tagPrintJobStatus
 author: windows-driver-content
 description: This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 old-location: print\printjobstatus.htm
-old-project: print
+tech.root: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

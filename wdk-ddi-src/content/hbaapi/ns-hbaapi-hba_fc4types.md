@@ -4,7 +4,7 @@ title: HBA_fc4types
 author: windows-driver-content
 description: The HBA_fc4types structure contains a set of up to 32 values indicating the FC-4 types that the HBA supports.
 old-location: storage\hba_fc4types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ef043a97-3ef4-4fd3-93a6-ac1621503713
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

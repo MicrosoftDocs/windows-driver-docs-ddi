@@ -4,7 +4,7 @@ title: SpbRequestGetParameters function
 author: windows-driver-content
 description: The SpbRequestGetParameters method retrieves a set of SPB-specific parameter values from an I/O request.
 old-location: spb\spbrequestgetparameters.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

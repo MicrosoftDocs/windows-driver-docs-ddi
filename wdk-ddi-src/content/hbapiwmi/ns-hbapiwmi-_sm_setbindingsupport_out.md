@@ -4,7 +4,7 @@ title: "_SM_SetBindingSupport_OUT"
 author: windows-driver-content
 description: The SM_SetBindingSupport_OUT structure is used to receive output parameters from the SM_SetBindingSupport method.
 old-location: storage\sm_setbindingsupport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b0902b79-25ee-45e6-944e-de9e69ce43ec
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

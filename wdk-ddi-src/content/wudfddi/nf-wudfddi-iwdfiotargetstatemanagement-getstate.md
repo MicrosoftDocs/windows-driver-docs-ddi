@@ -4,7 +4,7 @@ title: IWDFIoTargetStateManagement::GetState
 author: windows-driver-content
 description: The GetState method returns the current state of a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_getstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f915294f-457f-4913-b4b0-e94e1806a06d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

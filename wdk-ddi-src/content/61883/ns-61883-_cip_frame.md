@@ -4,7 +4,7 @@ title: "_CIP_FRAME"
 author: windows-driver-content
 description: The CIP_FRAME structure describes a frame to be attached to an input or output plug.
 old-location: ieee\cip_frame.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

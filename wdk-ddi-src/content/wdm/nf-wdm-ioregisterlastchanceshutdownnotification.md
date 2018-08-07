@@ -4,7 +4,7 @@ title: IoRegisterLastChanceShutdownNotification function
 author: windows-driver-content
 description: The IoRegisterLastChanceShutdownNotification routine registers a driver to receive an IRP_MJ_SHUTDOWN IRP when the system is shut down, after all file systems have been flushed.
 old-location: kernel\ioregisterlastchanceshutdownnotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9ee590ce-e822-4c15-bb01-6f726268f163
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

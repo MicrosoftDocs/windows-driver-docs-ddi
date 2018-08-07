@@ -4,7 +4,7 @@ title: "_ATA_PASS_THROUGH_EX"
 author: windows-driver-content
 description: The ATA_PASS_THROUGH_EX structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

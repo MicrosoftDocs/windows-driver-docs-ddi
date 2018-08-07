@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_BTHENUM_GET_DEVINFO request returns information about the remote device that caused the Plug and Play (PnP) manager to load the current instance of the profile driver.
 old-location: bltooth\ioctl_internal_bthenum_get_devinfo.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c0134541-2e17-41e5-b30a-493b1bb42d07
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

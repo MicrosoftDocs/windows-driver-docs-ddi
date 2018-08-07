@@ -4,7 +4,7 @@ title: PFNKSCANCELTIMER
 author: windows-driver-content
 description: A streaming minidriver's KStrCancelTimer routine is called to cancel a custom timer object that was previously specified in the SetTimer parameter in a call to KsAllocateDefaultClockEx.
 old-location: stream\kstrcanceltimer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bdfe0fc3-1b25-493f-9d70-3b6d680fde50
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -3,12 +3,12 @@ UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool)
 title: ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)
 author: windows-driver-content
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
-old-location: debugger\extremotelist_extremotelist_extremotedata.htm
-old-project: debugger
-ms.assetid: db670175-ad3b-4bed-b9ad-625494319256
+old-location: debugger\extremotelist_extremotelist_ulong64.htm
+tech.root: debugger
+ms.assetid: c23487bb-c385-4633-b27c-12a49492f339
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool), debugger.extremotelist_extremotelist_extremotedata
+ms.date: 5/3/2018
+ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool), debugger.extremotelist_extremotelist_ulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteList.ExtRemoteList
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,9 +58,9 @@ The <b>ExtRemoteList</b> constructors create a new instance that wraps a singly-
 
 
 
-### -param Head [in, ref]
+### -param Head [in]
 
-A reference to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, in the target's memory, that wraps the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
+The location, in the target's memory, of the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
 
 
 ### -param LinkOffset [in]
@@ -90,7 +91,7 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 
 
-<a href="https://msdn.microsoft.com/c23487bb-c385-4633-b27c-12a49492f339">ExtRemoteList::ExtRemoteList (ULONG64)</a>
+<a href="https://msdn.microsoft.com/db670175-ad3b-4bed-b9ad-625494319256">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
  
 
  

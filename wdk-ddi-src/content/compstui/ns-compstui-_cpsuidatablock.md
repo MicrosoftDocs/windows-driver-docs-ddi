@@ -4,7 +4,7 @@ title: "_CPSUIDATABLOCK"
 author: windows-driver-content
 description: The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC_SET_DATABLOCK or CPSFUNC_QUERY_DATABLOCK.
 old-location: print\cpsuidatablock.htm
-old-project: print
+tech.root: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

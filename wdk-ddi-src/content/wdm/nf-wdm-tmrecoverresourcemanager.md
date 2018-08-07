@@ -4,7 +4,7 @@ title: TmRecoverResourceManager function
 author: windows-driver-content
 description: The TmRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\tmrecoverresourcemanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

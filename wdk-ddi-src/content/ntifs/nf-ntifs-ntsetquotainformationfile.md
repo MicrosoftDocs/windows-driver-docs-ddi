@@ -4,7 +4,7 @@ title: NtSetQuotaInformationFile function
 author: windows-driver-content
 description: The ZwSetQuotaInformationFile routine changes quota entries for the volume associated with the FileHandle parameter. All of the quota entries in the specified buffer are applied to the volume.
 old-location: kernel\zwsetquotainformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 40c7a74c-eace-4d01-8a55-2c3c8bace8fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

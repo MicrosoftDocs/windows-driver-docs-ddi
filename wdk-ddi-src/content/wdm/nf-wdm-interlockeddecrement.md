@@ -4,7 +4,7 @@ title: InterlockedDecrement function
 author: windows-driver-content
 description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

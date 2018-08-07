@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsSetCorrelatedTime
 author: windows-driver-content
 description: The KsSetCorrelatedTime method sets the current time with the correlated system time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetcorrelatedtime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 58281b50-14b6-4e24-972a-ab3b1d88eb50
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IWDTFTargets2::QuerySingle
 author: windows-driver-content
 description: Returns a single item from the collection.
 old-location: dtf\iwdtftargets2_querysingle.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d9aa36b6-8ce4-41dd-96a8-104fa9094405
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

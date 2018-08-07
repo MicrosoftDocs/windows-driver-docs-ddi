@@ -4,10 +4,10 @@ title: "_DXGK_PHYSICALADAPTERCAPS"
 author: windows-driver-content
 description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of a physical adapter.
 old-location: display\dxgk_physicaladaptercaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.IoMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

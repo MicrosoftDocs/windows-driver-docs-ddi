@@ -4,7 +4,7 @@ title: SeTokenIsRestricted function
 author: windows-driver-content
 description: The SeTokenIsRestricted routine determines whether a token contains a list of restricting security identifiers (SID).
 old-location: ifsk\setokenisrestricted.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 111ba3a7-1321-4c69-9aae-f1ff5df9fab6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

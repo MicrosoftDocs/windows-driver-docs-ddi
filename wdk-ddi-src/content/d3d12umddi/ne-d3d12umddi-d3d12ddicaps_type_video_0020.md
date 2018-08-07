@@ -4,7 +4,7 @@ title: D3D12DDICAPS_TYPE_VIDEO_0020
 author: windows-driver-content
 description: Contains capability types for video.
 old-location: display\d3d12ddicaps_type_video_0020.htm
-old-project: display
+tech.root: display
 ms.assetid: 3B95996D-EB7C-4DCF-B00C-BA5AFEFD4110
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -132,7 +132,7 @@ The video content protection system support. Maps to the [D3D12DDI_VIDEO_CONTENT
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0032_CRYPTO_SESSION_TRANSFORM_SUPPORT
 
-The video crypto session transform support. Maps to the [D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030](Cns-d3d12umddi-d3d12ddi_video_crypto_session_transform_support_data_0030.md) structure.
+The video crypto session transform support. Maps to the [D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030](ns-d3d12umddi-d3d12ddi_video_crypto_session_transform_support_data_0030.md) structure.
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0040_DECODE_HISTOGRAM
 

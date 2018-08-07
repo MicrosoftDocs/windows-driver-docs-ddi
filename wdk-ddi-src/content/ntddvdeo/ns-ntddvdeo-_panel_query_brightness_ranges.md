@@ -3,6 +3,7 @@ UID: NS:ntddvdeo._PANEL_QUERY_BRIGHTNESS_RANGES
 title: _PANEL_QUERY_BRIGHTNESS_RANGES
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: fad94d26-2e52-4e4a-abfd-cf6596c2fecd
 ms.author: windowsdriverdev
 ms.date:
@@ -23,15 +24,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_QUERY_BRIGHTNESS_RANGES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

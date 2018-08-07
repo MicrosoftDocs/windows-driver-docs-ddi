@@ -4,7 +4,7 @@ title: ChangerError function
 author: windows-driver-content
 description: ChangerError performs device-specific error handling.
 old-location: storage\changererror.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e2196971-47ad-4ac4-a3e9-c8f7f6b05321
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

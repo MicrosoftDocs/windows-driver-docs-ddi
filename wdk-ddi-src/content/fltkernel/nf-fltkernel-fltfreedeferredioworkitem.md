@@ -4,7 +4,7 @@ title: FltFreeDeferredIoWorkItem function
 author: windows-driver-content
 description: The FltFreeDeferredIoWorkItem routine frees a work item allocated by the FltAllocateDeferredIoWorkItem routine.
 old-location: ifsk\fltfreedeferredioworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e061c8c3-b0f9-4341-b064-91df43303f70
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

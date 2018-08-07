@@ -4,7 +4,7 @@ title: "_PEP_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state.
 old-location: kernel\pep_device_power_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F5E66C33-F727-4631-89C6-413C24995A04
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

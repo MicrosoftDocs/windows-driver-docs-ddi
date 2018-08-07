@@ -4,7 +4,7 @@ title: "_LogoutFromTarget_OUT"
 author: windows-driver-content
 description: The LogoutFromTarget_OUT structure holds the output data for the LogoutFromTarget method.
 old-location: storage\logoutfromtarget_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 15231188-5c6d-4e36-afe9-74b92f445fa3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

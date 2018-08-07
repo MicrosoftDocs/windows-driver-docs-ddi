@@ -4,7 +4,7 @@ title: "_PEP_ACPI_SPB_UART_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource.
 old-location: kernel\pep_acpi_spb_uart_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

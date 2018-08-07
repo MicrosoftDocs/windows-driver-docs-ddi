@@ -4,7 +4,7 @@ title: RtlFindClearBits function
 author: windows-driver-content
 description: The RtlFindClearBits routine searches for a range of clear bits of a requested size within a bitmap.
 old-location: kernel\rtlfindclearbits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5279d126-8fd3-43dd-be03-2134e46a3ef9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

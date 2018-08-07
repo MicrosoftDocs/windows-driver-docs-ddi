@@ -4,7 +4,7 @@ title: ZwRollbackEnlistment function
 author: windows-driver-content
 description: The ZwRollbackEnlistment routine rolls back the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrollbackenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 30989717-bbf4-44e6-9f1b-4818a8314714
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

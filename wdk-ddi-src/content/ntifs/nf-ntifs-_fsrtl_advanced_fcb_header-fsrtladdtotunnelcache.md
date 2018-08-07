@@ -4,7 +4,7 @@ title: FsRtlAddToTunnelCache function
 author: windows-driver-content
 description: The FsRtlAddToTunnelCache routine caches a file name that is removed from a directory when a file is renamed or deleted.
 old-location: ifsk\fsrtladdtotunnelcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 71cac8fd-d544-4f66-a3ba-f0b267e46d1e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlAddToTunnelCache
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

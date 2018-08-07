@@ -4,7 +4,7 @@ title: RtlExtendCorrelationVector function
 author: windows-driver-content
 description: This routine extends the supplied correlation vector. For a correlation vector of the form X.i, the extended value is X.i.0.
 old-location: kernel\rtlextendcorrelationvector.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

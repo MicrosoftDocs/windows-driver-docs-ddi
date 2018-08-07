@@ -4,7 +4,7 @@ title: "_PCI_MSIX_TABLE_CONFIG_INTERFACE"
 author: windows-driver-content
 description: The PCI_MSIX_TABLE_CONFIG_INTERFACE structure enables device drivers to modify their MSI-X interrupt settings. This structure describes the GUID_MSIX_TABLE_CONFIG_INTERFACE interface.
 old-location: kernel\pci_msix_table_config_interface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0809a963-a0e7-49ca-b483-c39f1606051e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

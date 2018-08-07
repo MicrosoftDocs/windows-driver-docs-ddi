@@ -4,7 +4,7 @@ title: KSINTERVAL
 author: windows-driver-content
 description: The KSINTERVAL structure specifies a base time and time interval for recurring events.
 old-location: stream\ksinterval.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

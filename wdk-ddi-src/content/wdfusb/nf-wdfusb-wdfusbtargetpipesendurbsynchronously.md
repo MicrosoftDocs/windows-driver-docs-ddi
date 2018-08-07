@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeSendUrbSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetPipeSendUrbSynchronously method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes.
 old-location: wdf\wdfusbtargetpipesendurbsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

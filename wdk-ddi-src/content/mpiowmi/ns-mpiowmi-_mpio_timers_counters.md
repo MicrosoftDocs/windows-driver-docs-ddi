@@ -4,7 +4,7 @@ title: "_MPIO_TIMERS_COUNTERS"
 author: windows-driver-content
 description: The MPIO_TIMERS_COUNTERS structure controls the timer counters that affect all devices whose controlling DSMs do not implement independent timer counter settings.
 old-location: storage\mpio_timers_counters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: edbca8b0-53c1-4538-ac96-52238d75168d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: KsAcquireResetValue function
 author: windows-driver-content
 description: The KsAcquireResetValue function retrieves the current reset state from an IOCTL_KS_RESET_STATE IRP.
 old-location: stream\ksacquireresetvalue.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 80a990e3-3637-4837-8800-42d5848e01cf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

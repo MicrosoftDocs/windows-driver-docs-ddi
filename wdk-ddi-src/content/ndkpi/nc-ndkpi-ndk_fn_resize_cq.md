@@ -4,10 +4,10 @@ title: NDK_FN_RESIZE_CQ
 author: windows-driver-content
 description: The NdkResizeCq (NDK_FN_RESIZE_CQ) function changes the size of an NDK completion queue (CQ).
 old-location: netvista\ndk_fn_resize_cq.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: DFAEAA42-B1B5-43AA-A573-8434FAF3B446
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_RESIZE_CQ, NDK_FN_RESIZE_CQ callback, NdkResizeCq, NdkResizeCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkResizeCq, netvista.ndk_fn_resize_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_MOUNTMGR_CREATE_POINT_INPUT"
 author: windows-driver-content
 description: The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an IOCTL_MOUNTMGR_CREATE_POINT request.
 old-location: storage\mountmgr_create_point_input.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b53d5163-612d-4bfb-89f4-21457629e365
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

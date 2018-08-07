@@ -4,10 +4,10 @@ title: PFND3D10DDI_DESTROYSHADER
 author: windows-driver-content
 description: The DestroyShader function destroys the specified shader object. The shader object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyshader.htm
-old-project: display
+tech.root: display
 ms.assetid: 51a3e5aa-0f17-49a6-824d-7cfe8e0a1ded
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyShader, DestroyShader callback function [Display Devices], PFND3D10DDI_DESTROYSHADER, PFND3D10DDI_DESTROYSHADER callback, UserModeDisplayDriverDx10_Functions_798387e4-b7c1-4b03-bef7-1dad6931b432.xml, d3d10umddi/DestroyShader, display.destroyshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

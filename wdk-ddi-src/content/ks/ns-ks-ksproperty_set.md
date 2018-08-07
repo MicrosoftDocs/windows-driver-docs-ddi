@@ -4,7 +4,7 @@ title: KSPROPERTY_SET
 author: windows-driver-content
 description: A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.
 old-location: stream\ksproperty_set.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 18eda28d-f1dc-4b49-8c1a-07e11ea4b288
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

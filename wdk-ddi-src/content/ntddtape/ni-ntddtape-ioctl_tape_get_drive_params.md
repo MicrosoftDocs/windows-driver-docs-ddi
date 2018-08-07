@@ -4,7 +4,7 @@ title: IOCTL_TAPE_GET_DRIVE_PARAMS
 author: windows-driver-content
 description: Returns information about the tape drive's capabilities, such as its default block size, maximum and minimum block sizes, maximum partition count, whether the drive has EEC, compression, data padding, and report-setmark capabilities, that is, which configurable features the drive supports, including the EOT warning zone size.
 old-location: storage\ioctl_tape_get_drive_params.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 05e45364-3544-477e-a06d-3aae93518b00
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

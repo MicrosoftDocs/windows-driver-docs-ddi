@@ -4,7 +4,7 @@ title: BdaStartChanges function
 author: windows-driver-content
 description: The BdaStartChanges function initiates the setting of new BDA topology changes.
 old-location: stream\bdastartchanges.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ee54b382-7b69-4d8d-8728-fe2bff7884cf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

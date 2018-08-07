@@ -4,7 +4,7 @@ title: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 author: windows-driver-content
 description: This structure contains a custom item.
 old-location: stream\kscamera_perframesetting_custom_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7BB23F25-6E39-40B3-A158-5EE69370B1FD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

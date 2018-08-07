@@ -4,7 +4,7 @@ title: RtlCompareUnicodeString function
 author: windows-driver-content
 description: The RtlCompareUnicodeString routine compares two Unicode strings.
 old-location: kernel\rtlcompareunicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

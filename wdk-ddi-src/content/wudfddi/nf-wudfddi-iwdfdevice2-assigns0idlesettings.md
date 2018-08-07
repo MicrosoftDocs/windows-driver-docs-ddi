@@ -4,7 +4,7 @@ title: IWDFDevice2::AssignS0IdleSettings
 author: windows-driver-content
 description: The AssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\iwdfdevice2_assigns0idlesettings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

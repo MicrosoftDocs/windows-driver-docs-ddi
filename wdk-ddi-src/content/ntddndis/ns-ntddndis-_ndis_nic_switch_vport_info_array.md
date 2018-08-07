@@ -4,10 +4,10 @@ title: "_NDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure specifies an array. Each element in the array specifies the attributes of a virtual port (VPort) that has been created on a network adapter's network adapter switch.
 old-location: netvista\ndis_nic_switch_vport_info_array.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 64bb0edf-b281-40cc-b36e-6ae1fb71ccb4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, netvista.ndis_nic_switch_vport_info_array, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

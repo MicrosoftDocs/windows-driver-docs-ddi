@@ -4,7 +4,7 @@ title: IPowerPolicyCallbackWakeFromS0
 author: windows-driver-content
 description: A driver's IPowerPolicyCallbackWakeFromS0 interface provides callback functions that the framework calls to notify the driver about wake events.
 old-location: wdf\ipowerpolicycallbackwakefroms0.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d1b29916-9800-4276-860c-f7d143deb962
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

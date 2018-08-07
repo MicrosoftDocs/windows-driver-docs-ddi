@@ -4,7 +4,7 @@ title: FltSetSecurityObject function
 author: windows-driver-content
 description: FltSetSecurityObject sets an object's security state.
 old-location: ifsk\fltsetsecurityobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3276dff3-d12a-4a30-bbdc-a582a2228df3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

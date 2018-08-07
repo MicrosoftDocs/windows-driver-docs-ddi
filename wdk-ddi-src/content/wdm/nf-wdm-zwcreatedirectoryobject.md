@@ -4,7 +4,7 @@ title: ZwCreateDirectoryObject function
 author: windows-driver-content
 description: The ZwCreateDirectoryObject routine creates or opens an object-directory object.
 old-location: kernel\zwcreatedirectoryobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 45e4a08d-9615-410a-8f78-a8157802813f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

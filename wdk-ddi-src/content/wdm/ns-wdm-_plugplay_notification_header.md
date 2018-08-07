@@ -4,7 +4,7 @@ title: "_PLUGPLAY_NOTIFICATION_HEADER"
 author: windows-driver-content
 description: A PLUGPLAY_NOTIFICATION_HEADER structure is included at the beginning of each PnP notification structure, such as a DEVICE_INTERFACE_CHANGE_NOTIFICATION structure.
 old-location: kernel\plugplay_notification_header.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b2245810-8f3c-4955-b341-46df4a71707c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

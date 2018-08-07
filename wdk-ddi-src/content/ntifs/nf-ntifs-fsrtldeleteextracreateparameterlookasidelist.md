@@ -4,7 +4,7 @@ title: FsRtlDeleteExtraCreateParameterLookasideList function
 author: windows-driver-content
 description: The FsRtlDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fsrtldeleteextracreateparameterlookasidelist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 786635b4-db99-4b35-9fb5-23233997d091
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

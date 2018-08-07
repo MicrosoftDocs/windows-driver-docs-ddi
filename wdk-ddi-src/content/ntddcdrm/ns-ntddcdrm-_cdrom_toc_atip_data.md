@@ -4,7 +4,7 @@ title: "_CDROM_TOC_ATIP_DATA"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in this header structure followed by a series of descriptors of type CDROM_TOC_ATIP_DATA_BLOCK.
 old-location: storage\cdrom_toc_atip_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

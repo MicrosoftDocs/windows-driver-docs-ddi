@@ -4,7 +4,7 @@ title: SerCx2PioReceiveCleanupTransactionComplete function
 author: windows-driver-content
 description: The SerCx2PioReceiveCleanupTransactionComplete method informs version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a PIO-receive transaction.
 old-location: serports\sercx2pioreceivecleanuptransactioncomplete.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 8C0874CD-EAFD-4443-B394-AAA4DD265835
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_STATUS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
 old-location: stream\ksproperty_tuner_status_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5e1b37f2-f567-4c03-b0f4-cc1dbd568907
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

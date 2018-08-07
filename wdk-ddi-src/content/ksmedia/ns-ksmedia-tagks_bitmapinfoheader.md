@@ -4,7 +4,7 @@ title: tagKS_BITMAPINFOHEADER
 author: windows-driver-content
 description: The KS_BITMAPINFOHEADER structure describes details about the video stream, such as image dimensions and pixel depth.
 old-location: stream\ks_bitmapinfoheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

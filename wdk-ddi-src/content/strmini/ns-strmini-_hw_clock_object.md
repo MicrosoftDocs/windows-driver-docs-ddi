@@ -4,7 +4,7 @@ title: "_HW_CLOCK_OBJECT"
 author: windows-driver-content
 description: The HW_CLOCK_OBJECT structure describes the clock associated with a stream.
 old-location: stream\hw_clock_object.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

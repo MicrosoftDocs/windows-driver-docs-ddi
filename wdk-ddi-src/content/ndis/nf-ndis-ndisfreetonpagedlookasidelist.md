@@ -4,10 +4,10 @@ title: NdisFreeToNPagedLookasideList macro
 author: windows-driver-content
 description: The NdisFreeToNPagedLookasideList function returns an entry to the given lookaside list.
 old-location: netvista\ndisfreetonpagedlookasidelist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

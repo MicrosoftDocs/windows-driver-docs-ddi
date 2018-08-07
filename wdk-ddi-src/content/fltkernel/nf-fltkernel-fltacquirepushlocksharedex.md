@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: FltMgr.lib
+req.dll: 
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -30,10 +30,12 @@ topic_type:
 api_type: 
 -	DllExport
 api_location: 
--	NtosKrnl.exe
+-   FltMgr.lib
+-   FltMgr.sys
 api_name: 
 -	FltAcquirePushLockSharedEx
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -4,7 +4,7 @@ title: "_SDP_NODE_HEADER"
 author: windows-driver-content
 description: The SDP_NODE_HEADER structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_header.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2c756db7-b7a9-493a-8fb1-8bbc741f8c63
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

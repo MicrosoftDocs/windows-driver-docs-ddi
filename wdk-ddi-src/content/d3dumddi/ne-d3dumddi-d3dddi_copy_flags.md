@@ -4,10 +4,10 @@ title: D3DDDI_COPY_FLAGS
 author: windows-driver-content
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 old-location: display\d3dddi_copy_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 6186dac4-4797-48f2-bb32-40a0d501bac7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_COPY_DISCARD, D3DDDI_COPY_FLAGS, D3DDDI_COPY_FLAGS enumeration [Display Devices], D3DDDI_COPY_NO_OVERWRITE, d3dumddi/D3DDDI_COPY_DISCARD, d3dumddi/D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_NO_OVERWRITE, display.d3dddi_copy_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

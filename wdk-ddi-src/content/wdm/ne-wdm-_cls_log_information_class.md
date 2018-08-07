@@ -4,7 +4,7 @@ title: "_CLS_LOG_INFORMATION_CLASS"
 author: windows-driver-content
 description: The CLFS_LOG_INFORMATION_CLASS enumeration indicates the type of information that is requested by a call to ClfsQueryLogFileInformation.
 old-location: kernel\clfs_log_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: afffe6c3-a6d1-4e43-ba2b-f64269c44ec0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

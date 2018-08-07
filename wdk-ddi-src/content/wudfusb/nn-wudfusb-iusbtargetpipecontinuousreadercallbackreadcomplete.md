@@ -4,7 +4,7 @@ title: IUsbTargetPipeContinuousReaderCallbackReadComplete
 author: windows-driver-content
 description: IUsbTargetPipeContinuousReaderCallbackReadComplete is a driver-supplied interface.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 953048ab-872c-4b94-8aef-bcfcb86ea4d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

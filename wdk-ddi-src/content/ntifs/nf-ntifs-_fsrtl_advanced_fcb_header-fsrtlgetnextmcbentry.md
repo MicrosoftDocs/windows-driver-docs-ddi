@@ -4,7 +4,7 @@ title: FsRtlGetNextMcbEntry function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlgetnextmcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlGetNextMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

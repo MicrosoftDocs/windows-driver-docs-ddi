@@ -4,7 +4,7 @@ title: RtlGetElementGenericTableAvl function
 author: windows-driver-content
 description: The RtlGetElementGenericTableAvl routine returns a pointer to the caller-supplied data for a particular generic Adelson-Velsky/Landis (AVL) table element.
 old-location: ifsk\rtlgetelementgenerictableavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c836dd4b-5c66-4302-9b2a-115cec418533
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

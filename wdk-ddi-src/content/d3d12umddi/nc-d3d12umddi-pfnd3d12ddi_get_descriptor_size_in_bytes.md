@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

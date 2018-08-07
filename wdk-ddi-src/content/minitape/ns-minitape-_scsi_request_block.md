@@ -4,7 +4,7 @@ title: "_SCSI_REQUEST_BLOCK"
 author: windows-driver-content
 description: SCSI_REQUEST_BLOCK structure
 old-location: storage\scsi_request_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ddd5180d-275c-4226-9af8-8e2ae25256e7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

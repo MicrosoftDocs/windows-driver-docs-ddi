@@ -4,7 +4,7 @@ title: CcUnpinDataForThread function
 author: windows-driver-content
 description: The CcUnpinDataForThread routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to CcSetBcbOwnerPointer.
 old-location: ifsk\ccunpindataforthread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

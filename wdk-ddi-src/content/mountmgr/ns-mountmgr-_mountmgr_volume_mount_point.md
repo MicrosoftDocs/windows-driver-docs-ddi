@@ -4,7 +4,7 @@ title: "_MOUNTMGR_VOLUME_MOUNT_POINT"
 author: windows-driver-content
 description: The MOUNTMGR_VOLUME_MOUNT_POINT structure is used in conjunction with the IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED request to inform the mount manager that a volume mount point has been created.
 old-location: storage\mountmgr_volume_mount_point.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2a267992-b4d3-49e1-bb80-3849220f0d1f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

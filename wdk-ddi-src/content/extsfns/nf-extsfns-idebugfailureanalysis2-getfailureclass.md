@@ -4,10 +4,10 @@ title: IDebugFailureAnalysis2::GetFailureClass
 author: windows-driver-content
 description: The GetFailureClass method gets the failure class of a DebugFailureAnalysis object. The failure class indicates whether the debugging session that created the DebugFailureAnalysis object is a kernel mode session or a user mode session.
 old-location: debugger\idebugfailureanalysis2_getfailureclass.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureClass method, IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

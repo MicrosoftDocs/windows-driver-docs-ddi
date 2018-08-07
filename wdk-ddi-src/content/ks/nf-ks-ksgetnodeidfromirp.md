@@ -4,7 +4,7 @@ title: KsGetNodeIdFromIrp function
 author: windows-driver-content
 description: The KsGetNodeIdFromIrp function returns the node ID of the node to which Irp was submitted.
 old-location: stream\ksgetnodeidfromirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3bb115eb-074d-4983-97e4-fa38aaa8a81b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

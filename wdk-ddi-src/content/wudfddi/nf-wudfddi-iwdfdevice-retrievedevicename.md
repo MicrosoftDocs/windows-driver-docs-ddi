@@ -4,7 +4,7 @@ title: IWDFDevice::RetrieveDeviceName
 author: windows-driver-content
 description: The RetrieveDeviceName method retrieves the name of an underlying kernel-mode device.
 old-location: wdf\iwdfdevice_retrievedevicename.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

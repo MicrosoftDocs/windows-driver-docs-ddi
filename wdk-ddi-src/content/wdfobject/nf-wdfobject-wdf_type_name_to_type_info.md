@@ -4,7 +4,7 @@ title: WDF_TYPE_NAME_TO_TYPE_INFO macro
 author: windows-driver-content
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_to_type_info.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e0ebbfee-cf47-4bcc-a828-13d51ba14622
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

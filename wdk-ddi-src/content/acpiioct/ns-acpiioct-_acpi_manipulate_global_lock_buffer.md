@@ -4,7 +4,7 @@ title: "_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 author: windows-driver-content
 description: This topic describes the ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure.
 old-location: acpi\acpi_manipulate_global_lock_buffer.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 841CC16D-BDFC-4A3F-9DDD-940A591EBEF2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

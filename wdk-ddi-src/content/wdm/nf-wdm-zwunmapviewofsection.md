@@ -4,7 +4,7 @@ title: ZwUnmapViewOfSection function
 author: windows-driver-content
 description: The ZwUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process.
 old-location: kernel\zwunmapviewofsection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

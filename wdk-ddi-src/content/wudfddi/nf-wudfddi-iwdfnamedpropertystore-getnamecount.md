@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore::GetNameCount
 author: windows-driver-content
 description: The GetNameCount method retrieves the number of properties in a property store.
 old-location: wdf\iwdfnamedpropertystore_getnamecount.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9891e360-ca09-4ebb-8cf4-d08b3456910c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

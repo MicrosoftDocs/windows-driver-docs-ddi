@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_BDA_TRANSPORT
 author: windows-driver-content
 description: The KS_DATARANGE_BDA_TRANSPORT structure describes a range of data formats for a BDA transport stream.
 old-location: stream\ks_datarange_bda_transport.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cd7dbcfa-f339-421a-9cc6-f4c494f13a41
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

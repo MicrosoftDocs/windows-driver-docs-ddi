@@ -30,7 +30,8 @@ apilocation:
 -	netconfiguration.h
 apiname: 
 -	NET_CONFIGURATION_QUERY_ULONG_FLAGS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

@@ -34,7 +34,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	DXGKCB_REPORT_DIAGNOSTIC
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

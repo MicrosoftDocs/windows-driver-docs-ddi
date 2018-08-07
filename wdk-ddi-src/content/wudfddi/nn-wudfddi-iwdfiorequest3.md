@@ -4,7 +4,7 @@ title: IWDFIoRequest3
 author: windows-driver-content
 description: To obtain the IWDFIoRequest3 interface, drivers call IWDFIoRequest::QueryInterface.
 old-location: wdf\iwdfiorequest3.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 12F4CDB7-EEA5-49D1-AD41-6F5F0C9ED6C3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

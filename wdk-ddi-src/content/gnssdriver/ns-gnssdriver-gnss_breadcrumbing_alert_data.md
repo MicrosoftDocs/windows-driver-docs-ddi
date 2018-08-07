@@ -4,7 +4,7 @@ title: GNSS_BREADCRUMBING_ALERT_DATA
 author: windows-driver-content
 description: This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 old-location: gnss\gnss_breadcrumbing_alert_data.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 5B8C1264-336C-438F-89AC-82B6FCBAE931
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_SPB_CONTROLLER_CONFIG"
 author: windows-driver-content
 description: The SPB_CONTROLLER_CONFIG structure contains the configuration settings for an SPB controller driver.
 old-location: spb\spb_controller_config.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 73856669-ACE9-46B0-AC7A-282D9C8A0285
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

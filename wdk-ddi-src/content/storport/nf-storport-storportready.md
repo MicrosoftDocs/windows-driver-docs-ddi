@@ -4,7 +4,7 @@ title: StorPortReady function
 author: windows-driver-content
 description: The StorPortReady routine notifies the port driver that the adapter is no longer busy.
 old-location: storage\storportready.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IOCTL_KS_DISABLE_EVENT
 author: windows-driver-content
 description: An application can use IOCTL_KS_DISABLE_EVENT to rescind a previous request notification. The application specifies IOCTL_KS_DISABLE_EVENT in the IoControl parameter of a call to KsSynchronousDeviceControl.
 old-location: stream\ioctl_ks_disable_event.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4e451d0c-6548-4735-833a-3972cf5e59c6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

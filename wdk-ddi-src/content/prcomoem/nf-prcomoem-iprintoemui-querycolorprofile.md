@@ -4,7 +4,7 @@ title: IPrintOemUI::QueryColorProfile
 author: windows-driver-content
 description: The IPrintOemUI::QueryColorProfile method allows a user interface plug-in to specify an ICC profile to use for color management.
 old-location: print\iprintoemui_querycolorprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

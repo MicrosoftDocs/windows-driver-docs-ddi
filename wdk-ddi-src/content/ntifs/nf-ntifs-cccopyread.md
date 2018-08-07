@@ -4,7 +4,7 @@ title: CcCopyRead function
 author: windows-driver-content
 description: The CcCopyRead routine copies data from a cached file to a user buffer.
 old-location: ifsk\cccopyread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ab095bc4-b896-4c8b-a778-714952fd41d4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

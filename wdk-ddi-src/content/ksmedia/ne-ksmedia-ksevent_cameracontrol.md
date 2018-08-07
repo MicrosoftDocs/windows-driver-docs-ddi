@@ -4,7 +4,7 @@ title: KSEVENT_CAMERACONTROL
 author: windows-driver-content
 description: Specifies camera control event notifications that the driver generates to indicate that an operation has been completed or canceled.
 old-location: stream\ksevent_cameracontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 10d08e58-cd1f-4585-a93b-fabeb4fcf27c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

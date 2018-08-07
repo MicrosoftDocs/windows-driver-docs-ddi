@@ -4,7 +4,7 @@ title: "_FEATURE_NUMBER"
 author: windows-driver-content
 description: The FEATURE_NUMBER enumeration provides a list of the features that are defined by the SCSI Multimedia - 4 (MMC-4) specification.
 old-location: storage\feature_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f139da57-1527-476d-8e9f-0b96876adecf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

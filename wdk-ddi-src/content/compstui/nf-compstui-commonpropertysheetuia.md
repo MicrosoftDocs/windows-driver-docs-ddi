@@ -4,7 +4,7 @@ title: CommonPropertySheetUIA function
 author: windows-driver-content
 description: CPSUI's CommonPropertySheetUI function displays property sheet pages and allows user modifications to displayed values.
 old-location: print\commonpropertysheetui.htm
-old-project: print
+tech.root: print
 ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

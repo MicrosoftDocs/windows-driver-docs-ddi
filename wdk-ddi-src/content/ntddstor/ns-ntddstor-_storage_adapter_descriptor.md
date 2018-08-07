@@ -4,7 +4,7 @@ title: "_STORAGE_ADAPTER_DESCRIPTOR"
 author: windows-driver-content
 description: The STORAGE_ADAPTER_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the storage adapter descriptor data for a device.
 old-location: storage\storage_adapter_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 83ef2a1a-f95e-4b05-8911-e5e900192630
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

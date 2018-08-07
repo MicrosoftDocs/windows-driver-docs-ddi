@@ -4,7 +4,7 @@ title: IoGetFileObjectGenericMapping function
 author: windows-driver-content
 description: The IoGetFileObjectGenericMapping routine returns information about the mapping between each generic access right and the set of specific access rights for file objects.
 old-location: kernel\iogetfileobjectgenericmapping.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eae8a64f-c80a-4e70-b332-6cc098273d7c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

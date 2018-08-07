@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code is used to receive geofence tracking status from the driver.
 old-location: gnss\ioctl_gnss_listen_geofences_trackingstatus.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 3AB8CECA-C5FD-4B0A-A85B-B6E90FA22B04
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

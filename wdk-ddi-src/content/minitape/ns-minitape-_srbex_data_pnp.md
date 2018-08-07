@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_PNP"
 author: windows-driver-content
 description: The SRBEX_DATA_PNP structure contains the request data for an extended plug and play (PNP) SRB.
 old-location: storage\srbex_data_pnp.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

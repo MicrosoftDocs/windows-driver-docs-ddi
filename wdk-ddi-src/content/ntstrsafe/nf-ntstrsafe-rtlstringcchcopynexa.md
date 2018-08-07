@@ -4,7 +4,7 @@ title: RtlStringCchCopyNExA function
 author: windows-driver-content
 description: The RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopynex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c53672b7-fbe7-45f7-b3ff-30cfeefa7d52
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

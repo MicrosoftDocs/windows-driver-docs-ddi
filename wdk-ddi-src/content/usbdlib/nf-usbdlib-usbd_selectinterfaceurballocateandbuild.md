@@ -4,10 +4,10 @@ title: USBD_SelectInterfaceUrbAllocateAndBuild function
 author: windows-driver-content
 description: The USBD_SelectInterfaceUrbAllocateAndBuild routine allocates and formats a URB structure that is required for a request to select an interface or change its alternate setting.
 old-location: buses\usbd_selectinterfaceurballocateandbuild.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices

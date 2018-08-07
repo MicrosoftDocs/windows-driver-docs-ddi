@@ -4,7 +4,7 @@ title: IoRegisterBootDriverReinitialization function
 author: windows-driver-content
 description: The IoRegisterBootDriverReinitialization routine is called by a boot driver to register the driver's reinitialization routine with the I/O manager to be called after all devices have been enumerated and started.
 old-location: kernel\ioregisterbootdriverreinitialization.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: af1c1f4b-7710-4cf7-9596-32d11db98abb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

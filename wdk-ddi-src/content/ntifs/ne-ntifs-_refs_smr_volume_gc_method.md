@@ -4,7 +4,7 @@ title: "_REFS_SMR_VOLUME_GC_METHOD"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_METHOD enum specifies the garbage collection method or strategy for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_method.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: UcxControllerCreate function
 author: windows-driver-content
 description: Creates a host controller object.
 old-location: buses\_ucxcontrollercreate.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 29A1697E-CC42-468B-B97A-A8182DA13EE9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxcontroller.h
 api_name:
 -	UcxControllerCreate
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

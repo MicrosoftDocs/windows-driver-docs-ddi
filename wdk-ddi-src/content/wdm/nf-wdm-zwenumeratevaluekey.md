@@ -4,7 +4,7 @@ title: ZwEnumerateValueKey function
 author: windows-driver-content
 description: The ZwEnumerateValueKey routine gets information about the value entries of an open key.
 old-location: kernel\zwenumeratevaluekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4e94c9cc-eaa9-4de1-8f17-d24a5ed19507
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

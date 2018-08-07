@@ -4,7 +4,7 @@ title: "_WNODE_HEADER"
 author: windows-driver-content
 description: The WNODE_HEADER structure is the first member of all other WNODE_XXX structures. It contains information common to all such structures.
 old-location: kernel\wnode_header.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

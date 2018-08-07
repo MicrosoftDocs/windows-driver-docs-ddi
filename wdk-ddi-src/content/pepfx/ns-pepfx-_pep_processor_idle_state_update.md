@@ -4,7 +4,7 @@ title: "_PEP_PROCESSOR_IDLE_STATE_UPDATE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE_UPDATE structure contains the updated properties of a processor idle state.
 old-location: kernel\pep_processor_idle_state_update.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A05617FB-5105-4FCA-807F-C49F32BD1399
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

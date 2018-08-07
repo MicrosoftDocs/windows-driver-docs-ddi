@@ -4,7 +4,7 @@ title: ExAllocateTimer function
 author: windows-driver-content
 description: The ExAllocateTimer routine allocates and initializes a timer object.
 old-location: kernel\exallocatetimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4FCFC48A-97BC-48E0-BBA7-F9E8B8A7588A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

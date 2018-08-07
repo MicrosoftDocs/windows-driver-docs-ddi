@@ -4,7 +4,7 @@ title: "_PEP_LOW_POWER_EPOCH"
 author: windows-driver-content
 description: The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated).
 old-location: kernel\pep_low_power_epoch.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

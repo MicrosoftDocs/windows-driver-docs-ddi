@@ -4,7 +4,7 @@ title: RtlPrefetchMemoryNonTemporal function
 author: windows-driver-content
 description: The RtlPrefetchMemoryNonTemporal routine provides a hint to the processor that a buffer should be temporarily moved into the processor cache.
 old-location: kernel\rtlprefetchmemorynontemporal.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d11c3414-86c8-4b68-829e-4523519c5299
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

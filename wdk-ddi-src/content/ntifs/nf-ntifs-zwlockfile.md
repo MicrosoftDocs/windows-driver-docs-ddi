@@ -4,7 +4,7 @@ title: ZwLockFile function
 author: windows-driver-content
 description: The ZwLockFile routine requests a byte-range lock for the specified file.
 old-location: kernel\zwlockfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

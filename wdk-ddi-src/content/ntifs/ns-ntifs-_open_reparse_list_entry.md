@@ -4,7 +4,7 @@ title: "_OPEN_REPARSE_LIST_ENTRY"
 author: windows-driver-content
 description: This structure supports callers opening specific reparse points without inhibiting reparse behavior for all classes of reparse points.
 old-location: ifsk\open_reparse_list_entry_.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: A6D28F60-FA38-45EA-9E3C-D2E6F899333E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

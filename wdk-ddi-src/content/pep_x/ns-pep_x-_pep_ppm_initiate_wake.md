@@ -4,7 +4,7 @@ title: "_PEP_PPM_INITIATE_WAKE"
 author: windows-driver-content
 description: The PEP_PPM_INITIATE_WAKE structure indicates whether a processor requires an interrupt to wake up from an idle state.
 old-location: kernel\pep_ppm_initiate_wake.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7627521D-4715-47D8-8268-6C9B218FFA6F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

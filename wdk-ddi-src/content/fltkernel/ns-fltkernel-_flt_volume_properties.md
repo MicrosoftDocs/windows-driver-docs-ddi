@@ -4,7 +4,7 @@ title: "_FLT_VOLUME_PROPERTIES"
 author: windows-driver-content
 description: The FLT_VOLUME_PROPERTIES structure is passed as a parameter to FltGetVolumeProperties.
 old-location: ifsk\flt_volume_properties.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e7be6cb6-a59d-4244-ba36-e7d5b36b1416
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

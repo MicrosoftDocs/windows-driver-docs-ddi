@@ -4,7 +4,7 @@ title: DrvSplEndDoc function
 author: windows-driver-content
 description: "."
 old-location: print\drvsplenddoc.htm
-old-project: print
+tech.root: print
 ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

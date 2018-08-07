@@ -4,7 +4,7 @@ title: "_DMA_ADAPTER_INFO_V1"
 author: windows-driver-content
 description: The DMA_ADAPTER_INFO_V1 structure describes the capabilities of the system DMA controller that is represented by an adapter object.
 old-location: kernel\dma_adapter_info_v1.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_MANUFACTURER_STRING
 author: windows-driver-content
 description: The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a top-level collection's embedded string that identifies the manufacturer of the device.
 old-location: hid\ioctl_hid_get_manufacturer_string.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 1a402deb-132c-4cda-a019-e044318e1910
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: PFNKSFILTERPROCESS
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniFilterProcess routine is called when the filter is meant to process frames. It is used to perform Filter-Centric Processing.
 old-location: stream\avstrminifilterprocess.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f1998d68-1c9e-4527-a174-b22a8c301e63
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

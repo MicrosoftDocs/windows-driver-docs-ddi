@@ -28,7 +28,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_DXGKMT_POWER_SHARED_TYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

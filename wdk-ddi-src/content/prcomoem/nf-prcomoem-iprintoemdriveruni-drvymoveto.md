@@ -4,7 +4,7 @@ title: IPrintOemDriverUni::DrvYMoveTo
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvYMoveTo method is provided by the Unidrv driver so that a rendering plug-in can notify the driver of cursor y-position changes.
 old-location: print\iprintoemdriveruni_drvymoveto.htm
-old-project: print
+tech.root: print
 ms.assetid: ce9b1622-4c02-4496-82ca-cefa49d531da
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlIntPtrToUIntPtr function
 author: windows-driver-content
 description: Converts a value of type INT_PTR to a value of type UINT_PTR.
 old-location: kernel\rtlintptrtouintptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A4677F86-C98A-4F8B-98CA-86082A7D77FD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

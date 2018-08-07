@@ -4,7 +4,7 @@ title: PEPCALLBACKNOTIFYPPM
 author: windows-driver-content
 description: An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptprocessornotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06A8ED06-107E-495F-8664-01477C9CF843
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

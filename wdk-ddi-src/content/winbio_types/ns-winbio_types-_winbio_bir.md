@@ -4,7 +4,7 @@ title: "_WINBIO_BIR"
 author: windows-driver-content
 description: The WINBIO_BIR structure is the root of the BIR (Biometric Information Record). It contains the size and offset of any other data elements in the BIR.
 old-location: biometric\winbio_bir.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

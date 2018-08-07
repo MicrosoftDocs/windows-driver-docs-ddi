@@ -4,7 +4,7 @@ title: TmPrePrepareComplete function
 author: windows-driver-content
 description: The TmPrePrepareComplete routine notifies KTM that the calling resource manager has finished preliminary preparation of a transaction's data.
 old-location: kernel\tmprepreparecomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2152e174-c02e-425c-a969-83656052078b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

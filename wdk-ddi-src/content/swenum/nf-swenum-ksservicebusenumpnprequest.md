@@ -4,7 +4,7 @@ title: KsServiceBusEnumPnpRequest function
 author: windows-driver-content
 description: The KsServiceBusEnumPnpRequest function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with KsCreateBusEnumObject.
 old-location: stream\ksservicebusenumpnprequest.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

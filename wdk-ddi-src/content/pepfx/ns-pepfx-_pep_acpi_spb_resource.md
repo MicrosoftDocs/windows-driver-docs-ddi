@@ -4,7 +4,7 @@ title: "_PEP_ACPI_SPB_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_RESOURCE structure describes an ACPI serial bus connection resource.
 old-location: kernel\pep_acpi_spb_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

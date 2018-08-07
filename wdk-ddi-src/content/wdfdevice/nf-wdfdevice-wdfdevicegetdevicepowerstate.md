@@ -4,7 +4,7 @@ title: WdfDeviceGetDevicePowerState function
 author: windows-driver-content
 description: The WdfDeviceGetDevicePowerState method returns the current state of the framework's power state machine, for a specified device.
 old-location: wdf\wdfdevicegetdevicepowerstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7405e0c7-9263-4911-9b1e-52cffa559af3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

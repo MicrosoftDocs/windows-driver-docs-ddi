@@ -4,7 +4,7 @@ title: "_DELETE_BAND_PARAMETERS"
 author: windows-driver-content
 description: A configured band is deleted according to the parameters in a DELETE_BAND_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_DELETE_BAND request.
 old-location: storage\delete_band_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

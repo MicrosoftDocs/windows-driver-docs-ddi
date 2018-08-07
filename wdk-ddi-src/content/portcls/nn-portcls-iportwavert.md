@@ -4,7 +4,7 @@ title: IPortWaveRT
 author: windows-driver-content
 description: The IPortWaveRT interface is supported in Windows Vista and later operating systems and it is the main interface that the WaveRT port driver exposes to the adapter driver that implements the WaveRT miniport driver object.
 old-location: audio\iportwavert.htm
-old-project: audio
+tech.root: audio
 ms.assetid: ba54320e-42b3-489c-a192-dce794c3b3d4
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Portcls.lib
-req.dll: 
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef

@@ -4,7 +4,7 @@ title: "_POWERSOURCESTATUS"
 author: windows-driver-content
 description: This struct is for internal use only.
 old-location: battery\powersourcestatus.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 9386DBEC-A47D-44A5-8AF8-D5B406143070
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

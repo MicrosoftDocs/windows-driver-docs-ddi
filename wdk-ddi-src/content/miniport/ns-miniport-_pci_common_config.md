@@ -4,7 +4,7 @@ title: "_PCI_COMMON_CONFIG"
 author: windows-driver-content
 description: The PCI_COMMON_CONFIG structure is obsolete.
 old-location: kernel\pci_common_config.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

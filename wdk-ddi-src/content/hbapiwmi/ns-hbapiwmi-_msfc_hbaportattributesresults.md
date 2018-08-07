@@ -4,7 +4,7 @@ title: "_MSFC_HBAPortAttributesResults"
 author: windows-driver-content
 description: The structure is used by the GetDiscoveredPortAttributes WMI method to report the attributes for a specified remote fibre channel port.
 old-location: storage\msfc_hbaportattributesresults.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

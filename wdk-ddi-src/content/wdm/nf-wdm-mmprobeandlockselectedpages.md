@@ -4,7 +4,7 @@ title: MmProbeAndLockSelectedPages function
 author: windows-driver-content
 description: The MmProbeAndLockSelectedPages routine probes the selected virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockselectedpages_.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1DA632FF-FD5F-4C4C-8B8E-5AC26069094A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

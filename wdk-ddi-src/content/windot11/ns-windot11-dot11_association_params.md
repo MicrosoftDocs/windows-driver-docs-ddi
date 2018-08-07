@@ -4,7 +4,7 @@ title: DOT11_ASSOCIATION_PARAMS
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_association_params.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 74382195-ee1d-4b01-b882-2f357d801a25
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,11 +77,11 @@ typedef struct DOT11_ASSOCIATION_PARAMS {
 ### -field Header
 
 The type, revision, and size of the DOT11_ASSOCIATION_PARAMS structure. This member is formatted
-     as an 
+     as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -102,10 +102,10 @@ This member must be set to DOT11_ASSOCIATION_PARAMS_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <b>sizeof</b>(DOT11_ASSOCIATION_PARAMS).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
@@ -113,7 +113,7 @@ For more information about these members, see
 
 The basic service set (BSS) identifier (BSSID) of the infrastructure BSS network for which the
      association parameters are to be set.
-     
+
 
 The miniport driver should add new additional information elements (IEs) to an association request
      only if it is attempting to associate with an access point that has the matching BSSID.
@@ -140,7 +140,7 @@ The length of the additional IEs, in bytes, that the operating system requests b
 
 
 
-This structure is used with 
+This structure is used with
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569104">OID_DOT11_ASSOCIATION_PARAMS</a>.
 
 

@@ -4,7 +4,7 @@ title: IPrintCoreUI2::GetOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreui2_getoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

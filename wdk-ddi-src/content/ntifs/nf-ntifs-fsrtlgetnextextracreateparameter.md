@@ -4,7 +4,7 @@ title: FsRtlGetNextExtraCreateParameter function
 author: windows-driver-content
 description: The FsRtlGetNextExtraCreateParameter routine returns a pointer to the next (or first) extra create parameter (ECP) context structure in a given ECP list.
 old-location: ifsk\fsrtlgetnextextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b9dd2890-4b2d-4fe1-88bb-30d94ff36c44
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

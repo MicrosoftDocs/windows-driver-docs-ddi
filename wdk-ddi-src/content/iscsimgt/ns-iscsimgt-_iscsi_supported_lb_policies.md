@@ -4,7 +4,7 @@ title: "_ISCSI_Supported_LB_Policies"
 author: windows-driver-content
 description: The ISCSI_Supported_LB_Policies structure contains information about load balancing policies for multiple connections per session (MCS).
 old-location: storage\iscsi_supported_lb_policies.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

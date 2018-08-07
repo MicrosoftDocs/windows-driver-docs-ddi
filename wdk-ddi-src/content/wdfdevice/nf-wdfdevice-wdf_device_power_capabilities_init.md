@@ -4,7 +4,7 @@ title: WDF_DEVICE_POWER_CAPABILITIES_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_CAPABILITIES_INIT function initializes a WDF_DEVICE_POWER_CAPABILITIES structure.
 old-location: wdf\wdf_device_power_capabilities_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1a4b2708-efe2-47c0-b5b7-4e56f33e0266
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

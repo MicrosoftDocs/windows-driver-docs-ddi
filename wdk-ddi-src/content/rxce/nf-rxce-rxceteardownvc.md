@@ -4,7 +4,7 @@ title: RxCeTearDownVC function
 author: windows-driver-content
 description: RxCeTearDownVC deregisters a virtual circuit from a specified RDBSS connection.
 old-location: ifsk\rxceteardownvc.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d4b3af4d-8bb2-42a4-a8d9-baa643a90418
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

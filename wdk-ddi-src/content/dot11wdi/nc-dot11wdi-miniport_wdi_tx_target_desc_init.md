@@ -4,10 +4,10 @@ title: MINIPORT_WDI_TX_TARGET_DESC_INIT
 author: windows-driver-content
 description: The MINIPORT_WDI_TX_TARGET_DESC_INIT callback function associates an opaque target TX descriptor with the NET_BUFFER_LIST (MiniportReserved[1] field) and (if applicable) populates the TX cost field (in credit units) in the WDI_FRAME_METADATA buffer of the NET_BUFFER_LIST (MiniportReserved[0]).
 old-location: netvista\miniportwditxtargetdescinit.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: EAFE6F7D-6820-4626-863D-C28FBFFCE6A0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_INIT, MINIPORT_WDI_TX_TARGET_DESC_INIT callback, MiniportWdiTxTargetDescInit, MiniportWdiTxTargetDescInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescInit, netvista.miniportwditxtargetdescinit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: RtlInsertAsLeftChild function
 author: windows-driver-content
 description: The RtlInsertAsLeftChild routine inserts a splay link node into the tree as the left child of the specified node.
 old-location: ifsk\rtlinsertasleftchild.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cbb027f2-be7d-4de4-abbe-a37b7430153f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

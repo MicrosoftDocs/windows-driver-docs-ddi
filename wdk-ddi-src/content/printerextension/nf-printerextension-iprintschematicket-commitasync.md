@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::CommitAsync
 author: windows-driver-content
 description: Gets an asynchronous PrintTicket commit operation context.
 old-location: print\iprintschematicket_commitasync.htm
-old-project: print
+tech.root: print
 ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

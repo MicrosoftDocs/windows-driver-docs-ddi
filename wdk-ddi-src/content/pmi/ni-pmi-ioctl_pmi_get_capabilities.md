@@ -4,10 +4,10 @@ title: IOCTL_PMI_GET_CAPABILITIES
 author: windows-driver-content
 description: The IOCTL_PMI_GET_CAPABILITIES request obtains the capability and asset information about a power meter.
 old-location: powermeter\ioctl_pmi_get_capabilities.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 2b8fb604-944d-40fc-be5b-a287ca7e3ea1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IOCTL_PMI_GET_CAPABILITIES, IOCTL_PMI_GET_CAPABILITIES control, IOCTL_PMI_GET_CAPABILITIES control code [Power Metering and Budgeting Devices], PowerMeterRef_4328d6ef-f85e-4375-9505-ff9134969d60.xml, pmi/IOCTL_PMI_GET_CAPABILITIES, powermeter.ioctl_pmi_get_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KeFlushIoBuffers function
 author: windows-driver-content
 description: The KeFlushIoBuffers routine flushes the memory region described by an MDL from caches of all processors.
 old-location: kernel\keflushiobuffers.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: InitializePrintProvidor function
 author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\initializeprintprovidor.htm
-old-project: print
+tech.root: print
 ms.assetid: 54a5009d-9893-4766-b9fd-7e7474b55949
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

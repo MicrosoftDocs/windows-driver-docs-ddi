@@ -4,7 +4,7 @@ title: WdfDmaTransactionSetDeviceAddressOffset function
 author: windows-driver-content
 description: The WdfDmaTransactionSetDeviceAddressOffset method specifies the offset of the register that the system DMA controller will access when performing the DMA operation.
 old-location: wdf\wdfdmatransactionsetdeviceaddressoffset.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

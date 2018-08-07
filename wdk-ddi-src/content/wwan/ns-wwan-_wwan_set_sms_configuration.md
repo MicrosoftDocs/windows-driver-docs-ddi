@@ -4,10 +4,10 @@ title: "_WWAN_SET_SMS_CONFIGURATION"
 author: windows-driver-content
 description: The WWAN_SET_SMS_CONFIGURATION structure represents how MB devices support SMS configuration.
 old-location: netvista\wwan_set_sms_configuration.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c3739a08-f4ea-4cc5-8f62-7d4a5cd3ed43
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SMS_CONFIGURATION, WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_2a344216-b18f-41d6-8a11-dac6cb24de69.xml, _WWAN_SET_SMS_CONFIGURATION, netvista.wwan_set_sms_configuration, wwan/PWWAN_SET_SMS_CONFIGURATION, wwan/WWAN_SET_SMS_CONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

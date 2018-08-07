@@ -4,7 +4,7 @@ title: IPrintOemPS::DisablePDEV
 author: windows-driver-content
 description: The IPrintOemPS::DisablePDEV method allows a rendering plug-in for Pscript5 to delete the private PDEV structure that was allocated by its IPrintOemPS::EnablePDEV method.
 old-location: print\iprintoemps_disablepdev.htm
-old-project: print
+tech.root: print
 ms.assetid: 131a3113-1d65-44e7-8752-bf4cdc20129d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

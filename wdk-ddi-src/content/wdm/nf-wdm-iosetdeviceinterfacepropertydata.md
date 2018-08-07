@@ -4,7 +4,7 @@ title: IoSetDeviceInterfacePropertyData function
 author: windows-driver-content
 description: The IoSetDeviceInterfacePropertyData routine modifies the current value of a device interface property.
 old-location: kernel\iosetdeviceinterfacepropertydata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

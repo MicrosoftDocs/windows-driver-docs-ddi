@@ -4,7 +4,7 @@ title: CmCallbackReleaseKeyObjectIDEx function
 author: windows-driver-content
 description: The CmCallbackReleaseKeyObjectIDEx routine frees an object name string obtained from the CmCallbackGetKeyObjectIDEx routine.
 old-location: kernel\cmcallbackreleasekeyobjectidex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3361DAEF-AC2A-401B-80E8-0220F191587C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

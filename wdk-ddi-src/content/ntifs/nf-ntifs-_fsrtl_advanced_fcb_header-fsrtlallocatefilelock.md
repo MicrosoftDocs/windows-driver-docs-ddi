@@ -4,7 +4,7 @@ title: FsRtlAllocateFileLock function
 author: windows-driver-content
 description: The FsRtlAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fsrtlallocatefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 148c177d-162a-4578-a40c-2e5fe6176d51
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlAllocateFileLock
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -4,10 +4,10 @@ title: "_DXGK_MIRACAST_CAPS"
 author: windows-driver-content
 description: Used by a display miniport driver to identify capabilities of a Miracast device.
 old-location: display\dxgk_miracast_caps.htm
-old-project: display
+tech.root: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], _DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, dispmprt/DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

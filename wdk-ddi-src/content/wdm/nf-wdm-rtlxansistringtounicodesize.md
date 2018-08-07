@@ -4,7 +4,7 @@ title: RtlxAnsiStringToUnicodeSize function
 author: windows-driver-content
 description: The RtlxAnsiStringToUnicodeSize routine returns the number of bytes that are required for a null-terminated Unicode string that is equivalent to a specified ANSI string.
 old-location: kernel\rtlxansistringtounicodesize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 232ac7b0-d949-4db6-a243-b4e5ca0f3cc0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

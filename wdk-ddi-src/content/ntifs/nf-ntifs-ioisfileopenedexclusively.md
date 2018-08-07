@@ -4,7 +4,7 @@ title: IoIsFileOpenedExclusively macro
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioisfileopenedexclusively.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ffe3196b-22f4-4d45-abcc-928857d215b5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

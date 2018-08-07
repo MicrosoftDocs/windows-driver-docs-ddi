@@ -4,7 +4,7 @@ title: WMIREGINFOW
 author: windows-driver-content
 description: The WMIREGINFO structure contains information provided by a driver to register or update its data blocks and event blocks.
 old-location: kernel\wmireginfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -3,6 +3,7 @@ UID: NS:ntddvdeo._CHROMATICITY_COORDINATE
 title: _CHROMATICITY_COORDINATE
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: 8c0d0af8-0733-4178-99db-82a9dc8db0ee
 ms.author: windowsdriverdev
 ms.date:
@@ -23,15 +24,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: CHROMATICITY_COORDINATE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_CHROMATICITY_COORDINATE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

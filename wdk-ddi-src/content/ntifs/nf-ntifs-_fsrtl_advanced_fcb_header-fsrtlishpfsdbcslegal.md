@@ -4,7 +4,7 @@ title: FsRtlIsHpfsDbcsLegal function
 author: windows-driver-content
 description: The FsRtlIsHpfsDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal HPFS file name.
 old-location: ifsk\fsrtlishpfsdbcslegal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlIsHpfsDbcsLegal
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

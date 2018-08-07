@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
 author: windows-driver-content
 description: The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request sets a serial device to a basic operating mode.
 old-location: serports\ioctl_serial_internal_basic_settings.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 248b8682-b396-42b4-98f7-67191d98be1a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

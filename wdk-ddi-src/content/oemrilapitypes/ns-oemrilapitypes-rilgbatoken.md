@@ -4,10 +4,10 @@ title: RILGBATOKEN
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgbatoken.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f842d945-1d1e-4f0b-9cc9-82a8401c170a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILGBATOKEN, LPRILGBATOKEN, LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], RILGBATOKEN, RILGBATOKEN structure [Network Drivers Starting with Windows Vista], netvista.rilgbatoken, oemrilapitypes/LPRILGBATOKEN, oemrilapitypes/RILGBATOKEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

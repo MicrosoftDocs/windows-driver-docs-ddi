@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
 author: windows-driver-content
 description: Contains the video decode parameter type.
 old-location: display\d3d12ddi_video_decode_parameter_type.htm
-old-project: display
+tech.root: display
 ms.assetid: 4ED18E79-2BEA-4FB5-BDA4-B5CA59D6E1A8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

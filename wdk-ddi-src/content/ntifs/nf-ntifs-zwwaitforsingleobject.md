@@ -4,7 +4,7 @@ title: ZwWaitForSingleObject function
 author: windows-driver-content
 description: The ZwWaitForSingleObject routine waits until the specified object attains a state of Signaled. An optional time-out can also be specified.
 old-location: kernel\zwwaitforsingleobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

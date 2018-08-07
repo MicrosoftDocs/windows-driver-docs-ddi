@@ -4,7 +4,7 @@ title: GNSS_SUPL_CERT_CONFIG
 author: windows-driver-content
 description: This structure contains SUPL certificate information.
 old-location: gnss\gnss_supl_cert_config.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

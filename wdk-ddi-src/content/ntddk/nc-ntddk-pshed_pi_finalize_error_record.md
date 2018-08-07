@@ -4,7 +4,7 @@ title: PSHED_PI_FINALIZE_ERROR_RECORD
 author: windows-driver-content
 description: A PSHED plug-in's FinalizeErrorRecord callback function adds supplementary error record sections to an error record that more fully describe the error condition.
 old-location: whea\finalizeerrorrecord.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 68461243-ddf4-4883-84d2-4c105f1634b2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

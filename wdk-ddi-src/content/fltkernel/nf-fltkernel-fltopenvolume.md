@@ -4,7 +4,7 @@ title: FltOpenVolume function
 author: windows-driver-content
 description: The FltOpenVolume routine returns a handle and a file object pointer for the file system volume that a given minifilter driver instance is attached to.
 old-location: ifsk\fltopenvolume.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 99cfa1eb-3d0f-4e27-9884-f5789ee328c3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

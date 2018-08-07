@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_OTHER
 author: windows-driver-content
 description: An SPB controller driver's EvtSpbControllerIoOther event callback function handles device I/O control requests that are not handled by other event callback functions or by the SPB framework extension (SpbCx).
 old-location: spb\evtspbcontrollerioother.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 5A4BC061-4703-4C46-BD5D-A891F3DA8842
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

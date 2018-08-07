@@ -4,7 +4,7 @@ title: IoSizeOfIrp macro
 author: windows-driver-content
 description: The IoSizeOfIrp routine determines the size in bytes for an IRP, given the number of stack locations in the IRP.
 old-location: kernel\iosizeofirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b7a6f903-a986-464a-9c9c-12d44f9abf6a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_HBAFCPBindingEntry2"
 author: windows-driver-content
 description: The HBAFCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hbafcpbindingentry2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: ClosePrintProcessor function
 author: windows-driver-content
 description: A print processor's ClosePrintProcessor function completes the printing of a print job and makes the associated handle invalid.
 old-location: print\closeprintprocessor.htm
-old-project: print
+tech.root: print
 ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: SERCX_BUFFER_DESCRIPTOR
 author: windows-driver-content
 description: The SERCX_BUFFER_DESCRIPTOR structure describes a data buffer for a receive operation or transmit operation.
 old-location: serports\sercx_buffer_descriptor.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: GNSS_NI_NOTIFICATION_TYPE
 author: windows-driver-content
 description: GNSS_NI_NOTIFICATION_TYPE enumerates network-initialized (NI) notification types.
 old-location: gnss\gnss_ni_notification_type.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: EC5FB722-F182-44A5-944C-ED81E43492AE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

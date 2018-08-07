@@ -4,10 +4,10 @@ title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT
 author: windows-driver-content
 description: Sets the TRANSMIT Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_set_transmit.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 5E833F26-2BEC-4021-8D19-F9EFD49C7584
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_transmit, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

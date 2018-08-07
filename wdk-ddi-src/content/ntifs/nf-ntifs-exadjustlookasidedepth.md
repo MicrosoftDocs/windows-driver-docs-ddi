@@ -4,7 +4,7 @@ title: ExAdjustLookasideDepth function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\exadjustlookasidedepth.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2c108eda-ab46-48ed-b43a-7a3da390c64b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

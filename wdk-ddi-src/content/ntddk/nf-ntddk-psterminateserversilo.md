@@ -4,7 +4,7 @@ title: PsTerminateServerSilo function
 author: windows-driver-content
 description: This routine terminates the specified silo.
 old-location: kernel\psterminateserversilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C19190A3-57F9-4482-A550-045805734909
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

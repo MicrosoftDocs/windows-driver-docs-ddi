@@ -4,7 +4,7 @@ title: RtlIntPtrToLong function
 author: windows-driver-content
 description: Converts a value of type INT_PTR to a value of type LONG.
 old-location: kernel\rtlintptrtolong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 408F7F44-9AA0-42C3-B7A0-0CFCDEAFAEAC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

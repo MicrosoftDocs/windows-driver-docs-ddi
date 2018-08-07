@@ -4,7 +4,7 @@ title: "_SPB_CONNECTION_PARAMETERS"
 author: windows-driver-content
 description: The SPB_CONNECTION_PARAMETERS structure contains the connection parameters for a target device on a simple peripheral bus.
 old-location: spb\spb_connection_parameters.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 4707b797-6759-426d-89eb-01215af6ce19
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: UcmConnectorDataDirectionChanged function
 author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the new data role of a change in data role.
 old-location: buses\ucmconnectordatadirectionchanged.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 62ED07DF-2DDC-42FD-80C3-75AB3DE839AD
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses], buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

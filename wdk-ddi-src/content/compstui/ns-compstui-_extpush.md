@@ -4,7 +4,7 @@ title: "_EXTPUSH"
 author: windows-driver-content
 description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 old-location: print\extpush.htm
-old-project: print
+tech.root: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,10 +4,10 @@ title: IWiaMiniDrv::drvGetWiaFormatInfo
 author: windows-driver-content
 description: The IWiaMiniDrv::drvGetWiaFormatInfo method finds the image formats and media types that the WIA hardware device supports.
 old-location: image\iwiaminidrv_drvgetwiaformatinfo.htm
-old-project: image
+tech.root: image
 ms.assetid: f0b7d982-735f-489c-b9f8-81a287f6722a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetWiaFormatInfo method, IWiaMiniDrv.drvGetWiaFormatInfo, IWiaMiniDrv::drvGetWiaFormatInfo, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, drvGetWiaFormatInfo, drvGetWiaFormatInfo method [Imaging Devices], drvGetWiaFormatInfo method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetwiaformatinfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

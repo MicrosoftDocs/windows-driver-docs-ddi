@@ -4,7 +4,7 @@ title: FsRtlAreVolumeStartupApplicationsComplete function
 author: windows-driver-content
 description: The FsRtlAreVolumeStartupApplicationsComplete function determines whether volume startup applications have completed processing.
 old-location: ifsk\fsrtlarevolumestartupapplicationscomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

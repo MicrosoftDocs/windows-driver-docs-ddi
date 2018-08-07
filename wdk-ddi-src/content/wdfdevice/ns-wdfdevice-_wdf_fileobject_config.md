@@ -4,7 +4,7 @@ title: "_WDF_FILEOBJECT_CONFIG"
 author: windows-driver-content
 description: The WDF_FILEOBJECT_CONFIG structure contains configuration information of a driver's framework file objects.
 old-location: wdf\wdf_fileobject_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

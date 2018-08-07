@@ -4,7 +4,7 @@ title: ClfsAddLogContainerSet function
 author: windows-driver-content
 description: The ClfsAddLogContainerSet routine atomically adds a set of containers to a CLFS log.
 old-location: kernel\clfsaddlogcontainerset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 252dc455-e2d9-40db-83ea-a53e5ff8eda0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

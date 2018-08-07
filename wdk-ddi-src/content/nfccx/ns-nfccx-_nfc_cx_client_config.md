@@ -4,7 +4,7 @@ title: "_NFC_CX_CLIENT_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_CLIENT_CONFIG structure is an input parameter to NfcCxDeviceInitConfig.
 old-location: nfpdrivers\nfc_cx_client_config.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 8E005C77-4234-4B32-90F2-E4A8A7CD6305
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_SendSRL_OUT"
 author: windows-driver-content
 description: The SendSRL_OUT structure is used to report the output parameter data of the SendSRL WMI method to the WMI client.
 old-location: storage\sendsrl_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

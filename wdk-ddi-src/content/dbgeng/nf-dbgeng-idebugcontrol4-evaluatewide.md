@@ -4,10 +4,10 @@ title: IDebugControl4::EvaluateWide
 author: windows-driver-content
 description: The EvaluateWide method evaluates an expression, returning the result.
 old-location: debugger\evaluatewide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EvaluateWide, EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],EvaluateWide method, IDebugControl4.EvaluateWide, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide
 ms.prod: windows-hardware
 ms.technology: windows-devices

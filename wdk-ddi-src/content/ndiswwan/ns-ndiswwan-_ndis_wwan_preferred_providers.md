@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_PREFERRED_PROVIDERS"
 author: windows-driver-content
 description: The NDIS_WWAN_PREFERRED_PROVIDERS structure represents a list of preferred providers including the number of providers in the list.
 old-location: netvista\ndis_wwan_preferred_providers.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cbbbf7d2-cf24-47af-89e9-c27d577165e4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, _NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, netvista.ndis_wwan_preferred_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices

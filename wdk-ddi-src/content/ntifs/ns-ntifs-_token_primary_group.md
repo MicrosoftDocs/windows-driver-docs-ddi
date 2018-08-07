@@ -4,7 +4,7 @@ title: "_TOKEN_PRIMARY_GROUP"
 author: windows-driver-content
 description: TOKEN_PRIMARY_GROUP specifies a group security identifier (SID) for an access token.
 old-location: ifsk\token_primary_group.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9c9a7f63-7fe8-48a9-b4d0-10586e6b86bc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

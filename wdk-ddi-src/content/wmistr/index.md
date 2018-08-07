@@ -8,6 +8,8 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: kernel
 ---
 
@@ -16,7 +18,8 @@ tech.root: kernel
 
 ## -description
 
+This header declares a set of standard data structures called WNODE_XXX that WMI uses to pass data between user-mode data consumers and kernel-mode data providers such as drivers.
 
 This header is used by kernel. For more information, see:
 
-- [Windows kernel](../_kernel/index.md)
+- [WMI WNODE_XXX Structures](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/wmi-wnode-xxx-structures)

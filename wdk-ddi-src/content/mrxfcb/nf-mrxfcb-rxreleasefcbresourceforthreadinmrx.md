@@ -4,7 +4,7 @@ title: RxReleaseFcbResourceForThreadInMRx function
 author: windows-driver-content
 description: RxReleaseFcbResourceForThreadInMRx releases the FCB resource acquired by a network mini-redirector driver with a particular thread ID.
 old-location: ifsk\rxreleasefcbresourceforthreadinmrx.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 86b6f18b-4088-4fa3-ace3-f083f61ef0d0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: WdfDeviceInitSetReleaseHardwareOrderOnFailure function
 author: windows-driver-content
 description: The WdfDeviceInitSetReleaseHardwareOrderOnFailure method specifies whether the framework calls the driver's EvtDeviceReleaseHardware callback function immediately after device failure, or waits until all child devices have been removed.
 old-location: wdf\wdfdeviceinitsetreleasehardwareorderonfailure.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5DC3C7C8-E7D1-4874-AF8D-8E6FD48DF046
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

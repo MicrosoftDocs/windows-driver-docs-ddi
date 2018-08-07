@@ -4,10 +4,10 @@ title: "_D3DKMT_DISPLAYMODE"
 author: windows-driver-content
 description: The D3DKMT_DISPLAYMODE structure describes a display mode.
 old-location: display\d3dkmt_displaymode.htm
-old-project: display
+tech.root: display
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, _D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices

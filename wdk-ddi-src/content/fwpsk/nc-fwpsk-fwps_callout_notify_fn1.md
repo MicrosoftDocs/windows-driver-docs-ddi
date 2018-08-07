@@ -4,10 +4,10 @@ title: FWPS_CALLOUT_NOTIFY_FN1
 author: windows-driver-content
 description: The filter engine calls a callout's notifyFn1 callout function to notify the callout driver about events that are associated with the callout.Note  notifyFn1 is the specific version of notifyFn used in Windows 7 and later.
 old-location: netvista\notifyfn1.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3f377049-cc5f-427d-9b09-5e49e4b305c5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN1, FWPS_CALLOUT_NOTIFY_FN1 callback, fwpsk/notifyFn1, netvista.notifyfn1, notifyFn1, notifyFn1 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_0cbdb762-b5f8-4c14-a361-a44589e1d663.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KsFilterAddTopologyConnections function
 author: windows-driver-content
 description: The KsFilterAddTopologyConnections function adds new topology connections to a filter.
 old-location: stream\ksfilteraddtopologyconnections.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 32a61103-5f2f-4b73-a299-bf6a14c3bec9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

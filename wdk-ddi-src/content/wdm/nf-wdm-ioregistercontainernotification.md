@@ -4,7 +4,7 @@ title: IoRegisterContainerNotification function
 author: windows-driver-content
 description: The IoRegisterContainerNotification routine registers a kernel-mode driver to receive notifications about a specified class of events.
 old-location: kernel\ioregistercontainernotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5cfef8cc-b6b8-4b97-b8da-bf579e26f64d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

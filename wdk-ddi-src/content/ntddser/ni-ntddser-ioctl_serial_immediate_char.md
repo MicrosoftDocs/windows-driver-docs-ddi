@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_IMMEDIATE_CHAR
 author: windows-driver-content
 description: The IOCTL_SERIAL_IMMEDIATE_CHAR request causes a specified character to be transmitted as soon as possible.
 old-location: serports\ioctl_serial_immediate_char.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 1bbae06c-1279-41da-82d8-ccbfe13cde9a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

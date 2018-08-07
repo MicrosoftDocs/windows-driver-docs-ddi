@@ -4,7 +4,7 @@ title: WdfIoResourceRequirementsListInsertIoResList function
 author: windows-driver-content
 description: The WdfIoResourceRequirementsListInsertIoResList method inserts a logical configuration into a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistinsertioreslist.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d70d9fed-22fd-4bcf-a4bf-fbd941559529
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

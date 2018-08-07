@@ -4,7 +4,7 @@ title: IPrintSchemaParameterDefinition::get_DataType
 author: windows-driver-content
 description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_datatype.htm
-old-project: print
+tech.root: print
 ms.assetid: 82CC79A8-0281-4100-B3FB-1FFFB2454B8D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

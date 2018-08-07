@@ -4,7 +4,7 @@ title: PMRX_DEALLOCATE_FOR_FCB
 author: windows-driver-content
 description: The MRxDeallocateForFcb routine is called by RDBSS to request that the network mini-redirector deallocate an FCB structure. This call is in response to a request to close a file system object.
 old-location: ifsk\mrxdeallocateforfcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4347f481-cd8f-4a88-92e0-f6bc7a4b7ffb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

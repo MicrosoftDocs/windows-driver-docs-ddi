@@ -4,10 +4,10 @@ title: IDebugBreakpoint::SetCommand
 author: windows-driver-content
 description: The SetCommand method sets the command that is executed when a breakpoint is triggered.
 old-location: debugger\setcommand.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint interface [Windows Debugging],SetCommand method, IDebugBreakpoint.SetCommand, IDebugBreakpoint2 interface [Windows Debugging],SetCommand method, IDebugBreakpoint2::SetCommand, IDebugBreakpoint::SetCommand, SetCommand, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging],IDebugBreakpoint interface, SetCommand method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommand, dbgeng/IDebugBreakpoint::SetCommand, debugger.setcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

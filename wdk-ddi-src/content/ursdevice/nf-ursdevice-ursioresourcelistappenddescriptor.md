@@ -4,10 +4,10 @@ title: UrsIoResourceListAppendDescriptor function
 author: windows-driver-content
 description: Appends the specified resource descriptor to the specified I/O resource list object that maintains resource descriptors for the host or function role.
 old-location: buses\ursioresourcelistappenddescriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor function [Buses], buses.ursioresourcelistappenddescriptor, ursdevice/UrsIoResourceListAppendDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

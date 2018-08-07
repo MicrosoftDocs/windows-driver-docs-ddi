@@ -4,7 +4,7 @@ title: NtOpenFile function
 author: windows-driver-content
 description: The ZwOpenFile routine opens an existing file, directory, device, or volume.
 old-location: kernel\zwopenfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7c07d250-6287-4dd3-96f9-f301bad8b6f3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

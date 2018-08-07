@@ -4,7 +4,7 @@ title: FltObjectDereference function
 author: windows-driver-content
 description: The FltObjectDereference routine removes a rundown reference from an opaque filter, instance, or volume pointer.
 old-location: ifsk\fltobjectdereference.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d4add891-e90e-4fad-b862-c5cad91a277d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

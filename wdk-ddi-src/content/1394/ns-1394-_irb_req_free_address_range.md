@@ -4,7 +4,7 @@ title: "_IRB_REQ_FREE_ADDRESS_RANGE"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out a free address range reqeust.
 old-location: ieee\irb_req_free_address_range.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 18C1A210-6C6D-4BA7-AE62-81774DD62C58
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

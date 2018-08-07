@@ -4,7 +4,7 @@ title: tagKS_MPEAUDIOINFO
 author: windows-driver-content
 description: The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
 old-location: stream\ks_mpegaudioinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: RTL_RUN_ONCE_INIT_FN
 author: windows-driver-content
 description: The RunOnceInitialization routine performs a one-time initialization operation.
 old-location: kernel\runonceinitialization.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7411c10f-76ab-44df-8cab-2266443417aa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

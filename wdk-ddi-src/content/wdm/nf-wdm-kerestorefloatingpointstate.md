@@ -4,7 +4,7 @@ title: KeRestoreFloatingPointState function
 author: windows-driver-content
 description: The KeRestoreFloatingPointState routine restores the nonvolatile floating-point context saved by the preceding call to KeSaveFloatingPointState.
 old-location: kernel\kerestorefloatingpointstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

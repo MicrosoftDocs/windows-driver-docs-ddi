@@ -4,7 +4,7 @@ title: IOCTL_UMDF_HID_SET_OUTPUT_REPORT
 author: windows-driver-content
 description: The IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code sends an output report to a top-level collection.
 old-location: hid\ioctl_umdf_hid_set_output_report.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 9D2BF078-305F-4656-8BA0-F03959209874
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

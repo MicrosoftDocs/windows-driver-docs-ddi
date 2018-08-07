@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	RtlRaiseCustomSystemEventTrigger
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

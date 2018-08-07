@@ -4,7 +4,7 @@ title: IWDFIoRequest
 author: windows-driver-content
 description: The IWDFIoRequest interface exposes an I/O request object.
 old-location: wdf\iwdfiorequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3104284a-4277-4f05-ae3f-3b2bb3c3437d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

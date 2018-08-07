@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname: 
 -	PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

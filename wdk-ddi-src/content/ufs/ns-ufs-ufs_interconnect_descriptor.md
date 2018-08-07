@@ -4,7 +4,7 @@ title: UFS_INTERCONNECT_DESCRIPTOR
 author: windows-driver-content
 description: UFS_INTERCONNECT_DESCRIPTOR contains the MIPI M-PHY® specification version number and the MIPI 6338 UniPro℠ specification version number.
 old-location: storage\ufs_interconnect_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

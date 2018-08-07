@@ -4,7 +4,7 @@ title: IPrintPipelineManagerControl::FilterFinished
 author: windows-driver-content
 description: The FilterFinished method reports that a filter is finished processing.
 old-location: print\iprintpipelinemanagercontrol_filterfinished.htm
-old-project: print
+tech.root: print
 ms.assetid: 6393b959-f67a-42e8-bb2b-e830bcf0d45f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

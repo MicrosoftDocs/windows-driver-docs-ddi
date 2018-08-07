@@ -4,10 +4,10 @@ title: D3D11_1DDIARG_CREATEVIDEODECODER
 author: windows-driver-content
 description: Specifies the attributes of a video decoder object.
 old-location: display\d3d11_1ddiarg_createvideodecoder.htm
-old-project: display
+tech.root: display
 ms.assetid: c309e9b1-b2bc-40bc-90b9-5c070ba48957
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODER, D3D11_1DDIARG_CREATEVIDEODECODER structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODER, display.d3d11_1ddiarg_createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

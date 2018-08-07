@@ -4,10 +4,10 @@ title: DXGKCB_GETHANDLEDATA
 author: windows-driver-content
 description: The DxgkCbGetHandleData function retrieves the private data that is associated with an allocation.
 old-location: display\dxgkcbgethandledata.htm
-old-project: display
+tech.root: display
 ms.assetid: 144429e5-34e6-4416-980e-2838e8f9e415
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_GETHANDLEDATA, DXGKCB_GETHANDLEDATA callback, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml, DxgkCbGetHandleData, DxgkCbGetHandleData callback function [Display Devices], d3dkmddi/DxgkCbGetHandleData, display.dxgkcbgethandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices

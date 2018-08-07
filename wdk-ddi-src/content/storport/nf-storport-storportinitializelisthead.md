@@ -4,7 +4,7 @@ title: StorPortInitializeListHead function
 author: windows-driver-content
 description: The StorPortInitializeListHead routine initializes a STOR_LIST_ENTRY structure that represents the head of a doubly linked list.
 old-location: storage\storportinitializelisthead.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E37C54C1-209F-4944-940B-2247E86C8130
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

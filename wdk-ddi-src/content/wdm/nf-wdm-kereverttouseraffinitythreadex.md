@@ -4,7 +4,7 @@ title: KeRevertToUserAffinityThreadEx function
 author: windows-driver-content
 description: The KeRevertToUserAffinityThreadEx routine restores the previous affinity of the current thread.
 old-location: kernel\kereverttouseraffinitythreadex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,7 +60,7 @@ The <b>KeRevertToUserAffinityThreadEx</b> routine restores the previous affinity
 
 ### -param Affinity [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed variable that specifies the new system affinity of the current thread. Set this parameter to the value that was returned by a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553271">KeSetSystemAffinityThreadEx</a> routine.
+A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread. Set this parameter to the value that was returned by a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553271">KeSetSystemAffinityThreadEx</a> routine.
 
 
 ## -returns
@@ -106,7 +106,7 @@ If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

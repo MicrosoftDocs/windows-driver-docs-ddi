@@ -4,7 +4,7 @@ title: IoSetHardErrorOrVerifyDevice function
 author: windows-driver-content
 description: Lower-level drivers call the IoSetHardErrorOrVerifyDevice routine to identify a removable media device that has encountered an error, so that a file system driver can prompt the user to verify that the medium is valid.
 old-location: kernel\iosetharderrororverifydevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 67f41d3e-d306-400b-9970-88c62f0f7a7f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

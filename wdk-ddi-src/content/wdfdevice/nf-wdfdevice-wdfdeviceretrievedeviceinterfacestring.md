@@ -4,7 +4,7 @@ title: WdfDeviceRetrieveDeviceInterfaceString function
 author: windows-driver-content
 description: The WdfDeviceRetrieveDeviceInterfaceString method retrieves the symbolic link name that the operating system assigned to a device interface that the driver registered for a specified device.
 old-location: wdf\wdfdeviceretrievedeviceinterfacestring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 97c67410-851c-4352-8ace-5738ab4332d2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IPrintUnidiAsyncNotifyRegistration
 author: windows-driver-content
 description: Provides information on IPrintUnidiAsyncNotifyRegistration constructs.
 old-location: print\iprintunidiasyncnotifyregistration.htm
-old-project: print
+tech.root: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

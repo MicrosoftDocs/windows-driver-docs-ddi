@@ -4,7 +4,7 @@ title: "_PCMCIA_INTERFACE_STANDARD"
 author: windows-driver-content
 description: The PCMCIA bus driver makes the PCMCIA_INTERFACE_STANDARD interface available to PCMCIA memory card drivers in order to allow them to make direct calls to the bus driver without allocating IRPs.
 old-location: pcmcia\pcmcia_interface_standard.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: 3c98fe7b-e60a-4494-b1f0-847a7cbe9d3a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

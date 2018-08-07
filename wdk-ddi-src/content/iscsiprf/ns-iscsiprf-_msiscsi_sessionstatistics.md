@@ -4,7 +4,7 @@ title: "_MSiSCSI_SessionStatistics"
 author: windows-driver-content
 description: The MSiSCSI_SessionStatistics structure is used by iSCSI initiators to report session statistics.
 old-location: storage\msiscsi_sessionstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_EXTDEVICE_S
 author: windows-driver-content
 description: The KSPROPERTY_EXTDEVICE_S structure describes an external device and its capabilities.
 old-location: stream\ksproperty_extdevice_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: da866f7e-f2c6-4926-bbde-db0629571c57
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
