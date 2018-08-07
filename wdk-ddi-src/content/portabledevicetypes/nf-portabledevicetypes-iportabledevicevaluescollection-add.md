@@ -38,7 +38,8 @@ api_location:
 -	PortableDeviceTypes.h
 api_name:
 -	IPortableDeviceValuesCollection.Add
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

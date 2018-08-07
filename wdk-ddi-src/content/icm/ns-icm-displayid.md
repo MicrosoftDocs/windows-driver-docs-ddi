@@ -31,7 +31,8 @@ api_location:
 -	icm.h
 api_name: 
 -	DisplayID
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

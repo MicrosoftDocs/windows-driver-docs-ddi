@@ -31,7 +31,8 @@ api_location:
 -	ntddk.h
 api_name: 
 -	_WHEA_XPF_MCA_SECTION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

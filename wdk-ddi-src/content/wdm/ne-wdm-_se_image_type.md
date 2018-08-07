@@ -28,7 +28,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_SE_IMAGE_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

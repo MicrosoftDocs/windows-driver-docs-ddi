@@ -36,7 +36,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NET_ADAPTER_LINK_STATE_INIT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

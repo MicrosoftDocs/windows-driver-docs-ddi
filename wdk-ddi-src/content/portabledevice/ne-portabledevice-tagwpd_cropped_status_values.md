@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_CROPPED_STATUS_VALUES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_CROPPED_STATUS_VALUES
 ---

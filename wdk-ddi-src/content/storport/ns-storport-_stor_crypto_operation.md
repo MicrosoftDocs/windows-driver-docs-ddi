@@ -31,7 +31,8 @@ api_location:
 -	storport.h
 api_name: 
 -	_STOR_CRYPTO_OPERATION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

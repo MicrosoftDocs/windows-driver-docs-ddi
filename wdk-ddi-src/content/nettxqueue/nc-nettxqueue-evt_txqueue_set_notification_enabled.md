@@ -36,7 +36,8 @@ apilocation:
 -	nettxqueue.h
 apiname: 
 -	EVT_TXQUEUE_SET_NOTIFICATION_ENABLED
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

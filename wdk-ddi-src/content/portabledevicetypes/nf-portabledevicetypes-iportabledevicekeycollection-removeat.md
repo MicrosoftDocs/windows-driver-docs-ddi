@@ -39,7 +39,8 @@ api_location:
 -	PortableDeviceGUIDs.dll
 api_name:
 -	IPortableDeviceKeyCollection.RemoveAt
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

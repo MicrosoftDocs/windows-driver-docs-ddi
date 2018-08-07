@@ -28,7 +28,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_ACPI_PLD_EDGE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

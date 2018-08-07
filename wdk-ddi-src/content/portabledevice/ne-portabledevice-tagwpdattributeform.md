@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WpdAttributeForm
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WpdAttributeForm
 ---

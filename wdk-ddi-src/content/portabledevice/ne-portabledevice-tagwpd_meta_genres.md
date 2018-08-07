@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_META_GENRES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_META_GENRES
 ---

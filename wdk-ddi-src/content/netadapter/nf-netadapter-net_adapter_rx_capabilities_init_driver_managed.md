@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -35,7 +35,8 @@ apilocation:
 -	nettxqueue.h
 apiname: 
 -	NET_TXQUEUE_CONFIG_INIT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

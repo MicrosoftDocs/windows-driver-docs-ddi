@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_POWER_SOURCES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_POWER_SOURCES
 ---

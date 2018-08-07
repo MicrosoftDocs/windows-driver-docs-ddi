@@ -31,7 +31,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_ENCRYPTION_KEY_CTRL_INPUT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

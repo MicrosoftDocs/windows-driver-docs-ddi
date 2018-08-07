@@ -33,7 +33,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	NDIS_SWITCH_PORT_AT_ARRAY_INDEX
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

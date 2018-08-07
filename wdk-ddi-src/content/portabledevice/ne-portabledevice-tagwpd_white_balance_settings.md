@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_WHITE_BALANCE_SETTINGS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_WHITE_BALANCE_SETTINGS
 ---

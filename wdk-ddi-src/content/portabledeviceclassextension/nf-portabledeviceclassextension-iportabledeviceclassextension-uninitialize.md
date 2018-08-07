@@ -38,7 +38,8 @@ api_location:
 -	PortableDeviceClassExtension.h
 api_name:
 -	IPortableDeviceClassExtension.Uninitialize
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

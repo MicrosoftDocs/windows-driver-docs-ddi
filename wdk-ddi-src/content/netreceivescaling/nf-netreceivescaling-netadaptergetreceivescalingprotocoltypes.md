@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetAdapterGetReceiveScalingProtocolTypes
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

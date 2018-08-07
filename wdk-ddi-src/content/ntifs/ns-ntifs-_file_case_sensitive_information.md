@@ -31,7 +31,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_FILE_CASE_SENSITIVE_INFORMATION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

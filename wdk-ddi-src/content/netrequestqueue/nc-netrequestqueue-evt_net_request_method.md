@@ -36,7 +36,8 @@ apilocation:
 -	netrequestqueue.h
 apiname: 
 -	EVT_NET_REQUEST_METHOD
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

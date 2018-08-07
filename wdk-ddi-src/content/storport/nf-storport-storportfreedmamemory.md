@@ -33,7 +33,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	StorPortFreeDmaMemory
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -31,7 +31,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_REPARSE_DATA_BUFFER_EX
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

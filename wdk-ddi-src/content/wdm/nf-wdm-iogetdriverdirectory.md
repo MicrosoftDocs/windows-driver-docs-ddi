@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	IoGetDriverDirectory
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
