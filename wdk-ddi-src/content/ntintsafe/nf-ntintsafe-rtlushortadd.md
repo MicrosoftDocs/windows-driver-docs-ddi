@@ -4,7 +4,7 @@ title: RtlUShortAdd function
 author: windows-driver-content
 description: Adds two values of type USHORT.
 old-location: kernel\rtlushortadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 07167C7E-E8EB-41E3-B2E3-7B9E9CCC5465
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

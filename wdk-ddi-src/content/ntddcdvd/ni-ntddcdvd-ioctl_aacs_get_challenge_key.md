@@ -4,7 +4,7 @@ title: IOCTL_AACS_GET_CHALLENGE_KEY
 author: windows-driver-content
 description: Queries the logical unit for the device's challenge key. The challenge key consists of a point on an elliptic curve and its associated signature.
 old-location: storage\ioctl_aacs_get_challenge_key.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 97c43a15-e120-44bd-8a5e-40b80aba646d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

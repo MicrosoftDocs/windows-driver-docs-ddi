@@ -4,7 +4,7 @@ title: "_PDEV_ADJUST_PAPER_MARGIN"
 author: windows-driver-content
 description: The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
 old-location: print\pdev_adjust_paper_margin.htm
-old-project: print
+tech.root: print
 ms.assetid: f44a0a42-1fa1-4dd2-bd9f-74b0d0ed823e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

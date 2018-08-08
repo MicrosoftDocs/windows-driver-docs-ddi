@@ -4,7 +4,7 @@ title: IPrinterExtensionManager::DisableEvents
 author: windows-driver-content
 description: Disallows events to be generated.
 old-location: print\iprinterextensionmanager_disableevents.htm
-old-project: print
+tech.root: print
 ms.assetid: 3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

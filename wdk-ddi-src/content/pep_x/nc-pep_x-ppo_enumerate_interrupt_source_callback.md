@@ -4,7 +4,7 @@ title: PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK
 author: windows-driver-content
 description: An EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source.
 old-location: kernel\enumerateinterruptsource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1E6841D8-88A0-4EDB-89EF-3878AF8B0072
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: See Remarks.
 topic_type:
 -	APIRef

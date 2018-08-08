@@ -4,10 +4,10 @@ title: IDebugEventContextCallbacks
 author: windows-driver-content
 description: This interface supports event context callbacks and replaces the use of the IDebugClient::SetEventCallbacks method.
 old-location: debugger\idebugeventcontextcallbacks.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: F4FAA5C9-B7D9-43B6-8B1D-CA790522900C
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugEventContextCallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventContextCallbacks, debugger.idebugeventcontextcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: WdfDmaTransactionDmaCompletedWithLength function
 author: windows-driver-content
 description: The WdfDmaTransactionDmaCompletedWithLength method notifies the framework that a device's DMA transfer operation is complete and supplies the length of the completed transfer.
 old-location: wdf\wdfdmatransactiondmacompletedwithlength.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7f436ac1-1e36-449c-a23f-b5729e5a20c2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

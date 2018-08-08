@@ -4,7 +4,7 @@ title: ExInitializeResourceLite function
 author: windows-driver-content
 description: The ExInitializeResourceLite routine initializes a resource variable.
 old-location: kernel\exinitializeresourcelite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: be18a6e6-863d-4a0c-9bcd-a36ace0b54fe
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

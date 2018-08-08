@@ -4,7 +4,7 @@ title: PFNKSDEFAULTALLOCATE
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniAllocate routine allocates a frame using the allocator specified in the Context parameter.
 old-location: stream\avstrminiallocate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f718e788-306a-4dbc-96cb-a81299aafe1d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

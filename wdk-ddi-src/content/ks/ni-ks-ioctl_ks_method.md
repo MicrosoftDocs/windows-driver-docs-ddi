@@ -4,7 +4,7 @@ title: IOCTL_KS_METHOD
 author: windows-driver-content
 description: An application can use IOCTL_KS_METHOD to execute a method on a KS object. The application passes IOCTL_KS_METHOD with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_method.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a1b8c406-0d83-4145-b2cc-24e1f00ab80b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

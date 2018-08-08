@@ -4,10 +4,10 @@ title: NdisQueryNetBufferPhysicalCount function
 author: windows-driver-content
 description: The NdisQueryNetBufferPhysicalCount function returns the maximum number of physical breaks mapped by the buffer descriptors that are associated with the given NET_BUFFER structure.
 old-location: netvista\ndisquerynetbufferphysicalcount.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 99869b20-3458-426a-ad64-c2cc54213290
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisQueryNetBufferPhysicalCount, NdisQueryNetBufferPhysicalCount function [Network Drivers Starting with Windows Vista], ndis/NdisQueryNetBufferPhysicalCount, ndis_netbuf_functions_ref_d041f487-3273-402e-8726-d9a252b1dd45.xml, netvista.ndisquerynetbufferphysicalcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PROTOCOL_CM_CLOSE_CALL
 author: windows-driver-content
 description: The ProtocolCmCloseCall function is a required function that terminates an existing call and releases any resources that the call manager allocated for the call.Note  You must declare the function by using the PROTOCOL_CM_CLOSE_CALL type.
 old-location: netvista\protocolcmclosecall.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_CLOSE_CALL, PROTOCOL_CM_CLOSE_CALL callback, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices

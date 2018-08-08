@@ -4,7 +4,7 @@ title: RxLockEnumerator function
 author: windows-driver-content
 description: RxLockEnumerator is called from a network mini-redirector to enumerate the file locks on an FCB.
 old-location: ifsk\rxlockenumerator.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8d14604f-c9e5-4a2d-bb51-ef1925b39118
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

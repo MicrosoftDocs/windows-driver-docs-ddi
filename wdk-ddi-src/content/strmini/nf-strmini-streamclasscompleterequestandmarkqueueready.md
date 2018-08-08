@@ -4,7 +4,7 @@ title: StreamClassCompleteRequestAndMarkQueueReady function
 author: windows-driver-content
 description: The StreamClassCompleteRequestAndMarkQueueReady routine completes a request, and signals the class driver that the minidriver is ready to receive a new request of the same type.
 old-location: stream\streamclasscompleterequestandmarkqueueready.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

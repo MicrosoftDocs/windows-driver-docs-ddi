@@ -4,7 +4,7 @@ title: CcMapData function
 author: windows-driver-content
 description: The CcMapData routine maps a specified byte range of a cached file to a buffer in memory.
 old-location: ifsk\ccmapdata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

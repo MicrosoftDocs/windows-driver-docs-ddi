@@ -4,7 +4,7 @@ title: IXpsRasterizationFactory2::CreateRasterizer
 author: windows-driver-content
 description: The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
 old-location: print\ixpsrasterizationfactory2_createrasterizer.htm
-old-project: print
+tech.root: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

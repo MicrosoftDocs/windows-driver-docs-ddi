@@ -4,7 +4,7 @@ title: IoTransferActivityId function
 author: windows-driver-content
 description: The IoTransferActivityId routine logs an ETW transfer event using the I/O tracing provider on behalf of the caller. This allows a driver to associate two related activity IDs without requiring a specific provider to be enabled.
 old-location: kernel\iotransferactivityid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

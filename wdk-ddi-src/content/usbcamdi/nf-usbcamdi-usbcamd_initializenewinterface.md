@@ -4,7 +4,7 @@ title: USBCAMD_InitializeNewInterface function
 author: windows-driver-content
 description: The USBCAMD_InitializeNewInterface function provides USBCAMD with all the necessary information to configure the camera minidriver to work correctly with the stream class driver and the USB bus driver.
 old-location: stream\usbcamd_initializenewinterface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

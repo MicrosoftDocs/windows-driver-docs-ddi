@@ -4,7 +4,7 @@ title: "_MSiSCSI_BootConfiguration"
 author: windows-driver-content
 description: The MSiSCSI_BootConfiguration structure describes how the boot device is configured.
 old-location: storage\msiscsi_bootconfiguration.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3a4b55b1-977d-43fb-9968-7a734e04b21b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

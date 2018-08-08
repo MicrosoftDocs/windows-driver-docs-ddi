@@ -4,7 +4,7 @@ title: IWDTFStrings2::Add
 author: windows-driver-content
 description: Adds a single string to the collection.
 old-location: dtf\iwdtfstrings2_add.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 44a62325-4135-483d-adb4-e73803190541
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

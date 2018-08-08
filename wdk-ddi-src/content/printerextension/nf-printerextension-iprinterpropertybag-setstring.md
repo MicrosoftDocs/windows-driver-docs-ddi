@@ -4,7 +4,7 @@ title: IPrinterPropertyBag::SetString
 author: windows-driver-content
 description: Writes a string property.
 old-location: print\iprinterpropertybag_setstring.htm
-old-project: print
+tech.root: print
 ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

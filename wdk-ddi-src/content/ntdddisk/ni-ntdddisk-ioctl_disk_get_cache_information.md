@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_CACHE_INFORMATION
 author: windows-driver-content
 description: Returns disk cache configuration data.
 old-location: storage\ioctl_disk_get_cache_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fc651954-2048-4358-91b0-4d99e38e9a67
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

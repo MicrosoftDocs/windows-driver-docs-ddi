@@ -4,7 +4,7 @@ title: "_FILTER_DUMP_TYPE"
 author: windows-driver-content
 description: The FILTER_DUMP_TYPE enumeration indicates the type of dump stack that this instance of the filter driver is loaded on.
 old-location: storage\filter_dump_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 396aec33-b4b4-4b4e-9890-b4aa829c3bbd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

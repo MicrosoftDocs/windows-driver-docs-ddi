@@ -4,7 +4,7 @@ title: KSSTACK_USE
 author: windows-driver-content
 description: "."
 old-location: stream\ksstack_use.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 76B45154-5E81-4515-ADEE-11401FDF4681
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

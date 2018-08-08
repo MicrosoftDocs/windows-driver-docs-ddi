@@ -4,7 +4,7 @@ title: "_DOCEVENT_ESCAPE"
 author: windows-driver-content
 description: The DOCEVENT_ESCAPE structure is a container for values used as parameters for the ExtEscape function.
 old-location: print\docevent_escape.htm
-old-project: print
+tech.root: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

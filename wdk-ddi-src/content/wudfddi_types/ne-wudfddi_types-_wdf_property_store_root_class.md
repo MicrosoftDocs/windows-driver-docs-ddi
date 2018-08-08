@@ -4,7 +4,7 @@ title: "_WDF_PROPERTY_STORE_ROOT_CLASS"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_ROOT_CLASS enumeration identifies the registry keys that UMDF property stores represent.
 old-location: wdf\wdf_property_store_root_class.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

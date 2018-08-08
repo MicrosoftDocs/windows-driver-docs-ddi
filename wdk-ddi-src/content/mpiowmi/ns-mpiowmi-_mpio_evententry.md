@@ -4,7 +4,7 @@ title: "_MPIO_EventEntry"
 author: windows-driver-content
 description: The MPIO_EventEntry structure is used to return events that MPIO has logged.
 old-location: storage\mpio_evententry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: de7fd19e-e18d-4e78-963a-3abdd7921d69
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

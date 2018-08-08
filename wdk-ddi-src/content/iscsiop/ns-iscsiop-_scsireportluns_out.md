@@ -4,7 +4,7 @@ title: "_ScsiReportLuns_OUT"
 author: windows-driver-content
 description: The ScsiReportLuns_OUT structure holds the output data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

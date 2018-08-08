@@ -4,7 +4,7 @@ title: KSCLOCK_FUNCTIONTABLE
 author: windows-driver-content
 description: The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master clock.
 old-location: stream\ksclock_functiontable.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

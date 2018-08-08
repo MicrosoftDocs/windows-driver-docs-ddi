@@ -4,7 +4,7 @@ title: "_GET_BAND_METADATA_PARAMETERS"
 author: windows-driver-content
 description: The metadata for a configured band is retrieved according to the parameters in a GET_BAND_METADATA_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA request.
 old-location: storage\get_band_metadata_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CE8160C5-8C64-4BA5-864E-EC634754E062
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

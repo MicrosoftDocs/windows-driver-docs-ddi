@@ -4,7 +4,7 @@ title: "_GetDiscoveredPortAttributes_IN"
 author: windows-driver-content
 description: The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the GetDiscoveredPortAttributes WMI method.
 old-location: storage\getdiscoveredportattributes_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 99129f8e-c047-4e9f-bcaa-3cbcd2d30915
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

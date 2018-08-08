@@ -4,7 +4,7 @@ title: "_SUBSYSTEM_INFORMATION_TYPE"
 author: windows-driver-content
 description: Indicates the type of subsystem for a process or thread. This enumeration is used in NtQueryInformationProcess and NtQueryInformationThread calls.
 old-location: kernel\subsystem_information_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

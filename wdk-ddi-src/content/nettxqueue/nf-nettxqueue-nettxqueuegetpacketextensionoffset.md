@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetTxQueueGetPacketExtensionOffset
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

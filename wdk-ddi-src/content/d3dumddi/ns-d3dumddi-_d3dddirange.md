@@ -4,10 +4,10 @@ title: "_D3DDDIRANGE"
 author: windows-driver-content
 description: Specifies a range of memory within a buffer.
 old-location: display\d3dddirange.htm
-old-project: display
+tech.root: display
 ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange
 ms.prod: windows-hardware
 ms.technology: windows-devices

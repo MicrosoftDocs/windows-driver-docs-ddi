@@ -4,10 +4,10 @@ title: PcAddStreamResource function
 author: windows-driver-content
 description: PcAddStreamResource adds a stream resource.
 old-location: audio\pcaddstreamresource.htm
-old-project: audio
+tech.root: audio
 ms.assetid: CADB17C6-07EA-4497-AA73-4AECCC1D0A45
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

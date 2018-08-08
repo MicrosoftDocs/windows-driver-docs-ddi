@@ -4,7 +4,7 @@ title: PCAM_PROCESS_PACKET_ROUTINE_EX
 author: windows-driver-content
 description: A camera minidriver's CamProcessUSBPacketEx callback function processes a USB packet.
 old-location: stream\camprocessusbpacketex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9f69b2f0-6e55-440f-98ab-35d8faddf933
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

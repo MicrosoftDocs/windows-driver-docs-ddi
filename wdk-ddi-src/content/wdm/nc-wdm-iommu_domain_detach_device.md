@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	IOMMU_DOMAIN_DETACH_DEVICE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

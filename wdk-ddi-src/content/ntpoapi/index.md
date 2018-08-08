@@ -8,7 +8,9 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: battery
+product:
+-	Windows
+tech.root: kernel
 ---
 
 # Ntpoapi.h header
@@ -17,6 +19,6 @@ tech.root: battery
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header contains functions and data structures that an application can use power management. For more information, see:
 
-- [Windows kernel](../_kernel/index.md)
+- [About Power Management](https://docs.microsoft.com/en-us/windows/desktop/Power/about-power-management)

@@ -4,7 +4,7 @@ title: NtOpenResourceManager function
 author: windows-driver-content
 description: The ZwOpenResourceManager routine returns a handle to an existing resource manager object.
 old-location: kernel\zwopenresourcemanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: baa12e3c-dc17-4fef-bce4-29c50328314c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

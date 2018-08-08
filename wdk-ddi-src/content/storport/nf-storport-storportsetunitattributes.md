@@ -4,7 +4,7 @@ title: StorPortSetUnitAttributes function
 author: windows-driver-content
 description: The StorPortSetUnitAttributes routine registers the power attributes of a storage unit device with the Storport driver.
 old-location: storage\storportsetunitattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

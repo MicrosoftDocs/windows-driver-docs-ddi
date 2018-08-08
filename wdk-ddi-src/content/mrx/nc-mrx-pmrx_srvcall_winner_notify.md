@@ -4,7 +4,7 @@ title: PMRX_SRVCALL_WINNER_NOTIFY
 author: windows-driver-content
 description: The MRxSrvCallWinnerNotify routine is called by RDBSS to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request.
 old-location: ifsk\mrxsrvcallwinnernotify.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6853b73e-5516-485e-ade4-54b7faf6bb1d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

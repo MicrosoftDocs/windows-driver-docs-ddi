@@ -4,10 +4,10 @@ title: PFND3DDDI_LOCK2CB
 author: windows-driver-content
 description: The pfnLock2Cb function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager.
 old-location: display\pfnlock2cb.htm
-old-project: display
+tech.root: display
 ms.assetid: C046F34A-4304-4B96-8D7A-7A951016437F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_LOCK2CB, PFND3DDDI_LOCK2CB callback, d3dumddi/pfnLock2Cb, display.pfnlock2cb, pfnLock2Cb, pfnLock2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

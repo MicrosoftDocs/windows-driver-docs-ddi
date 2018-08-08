@@ -4,7 +4,7 @@ title: MmLockPagableDataSection function
 author: windows-driver-content
 description: The MmLockPagableDataSection routine locks an entire section of driver data into system space.
 old-location: kernel\mmlockpagabledatasection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9bf21128-acf3-4d7d-83c5-a32ac54e78ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

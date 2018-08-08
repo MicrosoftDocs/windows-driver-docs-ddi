@@ -4,7 +4,7 @@ title: GNSS_NMEA_DATA
 author: windows-driver-content
 description: This structure contains generic (non-parsed) NMEA data.
 old-location: gnss\gnss_nmea_data.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 6B890F85-0E77-41D2-B3B9-004F1882B6B5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_DOT11EXT_VIRTUAL_STATION_AP_PROPERTY"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_virtual_station_ap_property.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b6edad03-63fc-4a27-b999-9014d3735861
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,34 +77,34 @@ typedef struct _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY {
 
 ### -field dot11SSID
 
-A 
+A
      <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a> structure that contains the service
      set identifier (SSID) used by the virtual station AP.
 
 
 ### -field dot11AuthAlgo
 
-A 
+A
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a> structure that
      contains the authentication algorithm used by the virtual station AP.
 
 
 ### -field dot11CipherAlgo
 
-A 
+A
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> structure that
      contains the cipher algorithm used by the virtual station AP.
 
 
 ### -field bIsPassPhrase
 
-A Boolean value that indicates how the operating system should interpret the value of the 
+A Boolean value that indicates how the operating system should interpret the value of the
      <b>ucKeyData</b> member. For more information, see the following Remarks section.
 
 
 ### -field dwKeyLength
 
-The length, in bytes, of the useful part of the 
+The length, in bytes, of the useful part of the
      <b>ucKeyData</b> member. For more information, see the following Remarks section.
 
 
@@ -118,28 +118,28 @@ A UCHAR value that specifies the key used by the virtual station AP's Preshared 
 
 
 
-The operating system uses the following logic to interpret the value of the 
+The operating system uses the following logic to interpret the value of the
     <b>ucKeyData</b> member:
 
 <ul>
-<li>If 
+<li>If
      <b>bIsPassPhrase</b> = <b>FALSE</b>,
      <ul>
-<li>If 
-      <b>dwKeyLength</b> = 32, 
+<li>If
+      <b>dwKeyLength</b> = 32,
       <b>ucKeyData</b> is interpreted as binary data.</li>
-<li>If 
-      <b>dwKeyLength</b> = 64, 
+<li>If
+      <b>dwKeyLength</b> = 64,
       <b>ucKeyData</b> is interpreted as 32 hexadecimal values.</li>
-<li>If 
+<li>If
       <b>dwKeyLength</b> is not equal to 32 or 64, the operating system ignores the call and returns an
       error.</li>
 </ul>
 </li>
 <li>
-If 
-      <b>bIsPassPhrase</b> = <b>TRUE</b>, 
-      <b>ucKeyData</b> is interpreted as a pass phrase, and the buffer must be NULL terminated. In this case, 
+If
+      <b>bIsPassPhrase</b> = <b>TRUE</b>,
+      <b>ucKeyData</b> is interpreted as a pass phrase, and the buffer must be NULL terminated. In this case,
       <b>dwKeyLength</b> should have a value that equals 1 plus the length of the key string.
 
 </li>

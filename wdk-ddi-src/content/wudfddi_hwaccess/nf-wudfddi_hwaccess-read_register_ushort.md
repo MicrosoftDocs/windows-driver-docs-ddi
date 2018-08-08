@@ -4,7 +4,7 @@ title: READ_REGISTER_USHORT function
 author: windows-driver-content
 description: The READ_REGISTER_USHORT function reads a USHORT value from the specified register address.
 old-location: wdf\read_register_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 75DDFC2A-EF7F-4652-B0D0-8BF1583B3679
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
 author: windows-driver-content
 description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure describes output for IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code requests for some data set management actions.
 old-location: storage\device_manage_data_set_attributes_output.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FFC52136-8A1C-48F6-A846-C1C5BFB4570C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

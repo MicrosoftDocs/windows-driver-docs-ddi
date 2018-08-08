@@ -4,7 +4,7 @@ title: PALLOCATE_COMMON_BUFFER
 author: windows-driver-content
 description: The AllocateCommonBuffer routine allocates memory and maps it so that it is simultaneously accessible from both the processor and a device for DMA operations.
 old-location: kernel\allocatecommonbuffer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4edaae35-8ac4-4a7a-949b-8a86b45ff391
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

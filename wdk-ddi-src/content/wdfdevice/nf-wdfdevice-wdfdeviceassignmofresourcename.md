@@ -4,7 +4,7 @@ title: WdfDeviceAssignMofResourceName function
 author: windows-driver-content
 description: The WdfDeviceAssignMofResourceName method registers a MOF resource name for a specified device.
 old-location: wdf\wdfdeviceassignmofresourcename.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b4ab0a7b-9c5a-4295-94fc-35310ca8e05b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

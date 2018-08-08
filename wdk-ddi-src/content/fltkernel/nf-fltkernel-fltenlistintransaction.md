@@ -4,7 +4,7 @@ title: FltEnlistInTransaction function
 author: windows-driver-content
 description: The FltEnlistInTransaction routine enlists a minifilter driver in a given transaction.
 old-location: ifsk\fltenlistintransaction.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c4b82596-824f-488e-96cd-17bd850494e5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

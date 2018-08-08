@@ -4,7 +4,7 @@ title: KsPublishDeviceProfile function
 author: windows-driver-content
 description: The KsPublishDeviceProfile API is called to publish device profile information.
 old-location: stream\kspublishdeviceprofile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

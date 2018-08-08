@@ -4,7 +4,7 @@ title: ExtRemoteTyped::operator[]
 author: windows-driver-content
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_long.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: b75a0cec-fda6-45a3-ac60-915fc5862456
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
@@ -15,20 +15,20 @@ ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.operator[]
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # ExtRemoteTyped::operator[]

@@ -33,7 +33,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN_GET_FIRST_ISOLATION_ENTRY
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

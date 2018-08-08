@@ -4,7 +4,7 @@ title: KeLeaveCriticalRegion function
 author: windows-driver-content
 description: The KeLeaveCriticalRegion routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
 old-location: kernel\keleavecriticalregion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: VideoPortDDCMonitorHelper function
 author: windows-driver-content
 description: Queries a monitor for EDID information using the DDC protocol.
 old-location: display\videoportddcmonitorhelper.htm
-old-project: display
+tech.root: display
 ms.assetid: 2e4bd9c7-73be-47bc-b4e7-daea7781c46b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, display.videoportddcmonitorhelper, video/VideoPortDDCMonitorHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

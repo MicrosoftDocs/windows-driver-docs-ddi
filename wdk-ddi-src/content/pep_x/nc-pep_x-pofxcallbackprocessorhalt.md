@@ -4,7 +4,7 @@ title: POFXCALLBACKPROCESSORHALT
 author: windows-driver-content
 description: The ProcessorHalt routine prepares the processor to be halted.
 old-location: kernel\processorhalt.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DEBE74B2-DFBD-43D7-8B14-86B4DA7D4C98
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

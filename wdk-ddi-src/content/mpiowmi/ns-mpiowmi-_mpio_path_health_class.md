@@ -4,7 +4,7 @@ title: "_MPIO_PATH_HEALTH_CLASS"
 author: windows-driver-content
 description: The MPIO_PATH_HEALTH_CLASS structure represents the health information for a path.
 old-location: storage\mpio_path_health_class.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

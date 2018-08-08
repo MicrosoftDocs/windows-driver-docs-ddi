@@ -4,7 +4,7 @@ title: KeRegisterBoundCallback function
 author: windows-driver-content
 description: The KeRegisterBoundCallback routine registers a routine to be called whenever a user-mode bound exception occurs.
 old-location: kernel\keregisterboundcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0985589E-074A-45C8-9F8A-384DC42EC884
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

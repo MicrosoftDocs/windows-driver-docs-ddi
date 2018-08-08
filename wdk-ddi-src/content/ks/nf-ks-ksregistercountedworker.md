@@ -4,7 +4,7 @@ title: KsRegisterCountedWorker function
 author: windows-driver-content
 description: Handles clients registering for use of a thread.
 old-location: stream\ksregistercountedworker.htm
-old-project: stream
+tech.root: stream
 ms.assetid: acec8050-44bd-4082-9875-d504135e1b9f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

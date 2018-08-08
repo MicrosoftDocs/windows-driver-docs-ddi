@@ -4,7 +4,7 @@ title: FltNotifyFilterChangeDirectory function
 author: windows-driver-content
 description: The FltNotifyFilterChangeDirectory routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY operation and adds it to the specified notify list.
 old-location: ifsk\fltnotifyfilterchangedirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bbeabd33-951e-4fd5-9845-cabed5f95fcd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

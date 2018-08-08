@@ -4,7 +4,7 @@ title: EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER
 author: windows-driver-content
 description: The EvtSerCx2PioTransmitWriteBuffer event callback function is called by version 2 of the serial framework extension (SerCx2) to use programmed I/O (PIO) to transfer the contents of a write buffer to the transmit FIFO in the serial controller.
 old-location: serports\evtsercx2piotransmitwritebuffer.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 28DD175B-9869-4CFC-9BDD-172DA7E015DE
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

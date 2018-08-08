@@ -4,7 +4,7 @@ title: "_PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES"
 author: windows-driver-content
 description: The PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure is used in the process of converting ACPI resources to BIOS resources by one of the PEP initialization functions.
 old-location: kernel\pep_acpi_request_convert_to_bios_resources.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DF9FD748-88E8-4E32-B698-0E8A3BE319DB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: PROTOCOL_CL_MAKE_CALL_COMPLETE
 author: windows-driver-content
 description: The ProtocolClMakeCallComplete function is used by connection-oriented NDIS clients that make outgoing calls.
 old-location: netvista\protocolclmakecallcomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6bb69f78-8dab-46a7-84fb-7bc17e894535
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_MAKE_CALL_COMPLETE, PROTOCOL_CL_MAKE_CALL_COMPLETE callback, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

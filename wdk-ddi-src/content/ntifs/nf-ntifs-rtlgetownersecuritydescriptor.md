@@ -4,7 +4,7 @@ title: RtlGetOwnerSecurityDescriptor function
 author: windows-driver-content
 description: The RtlGetOwnerSecurityDescriptor routine returns the owner information for a given security descriptor.
 old-location: ifsk\rtlgetownersecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 64c1b899-5737-474c-92ee-f18f7f2f06f5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

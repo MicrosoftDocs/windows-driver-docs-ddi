@@ -4,7 +4,7 @@ title: IOCTL_NFP_GET_MAX_MESSAGE_BYTES
 author: windows-driver-content
 description: A client sends the IOCTL_NFP_GET_MAX_MESSAGE_BYTES request to any generic handle, one that is non-published and non-subscribed, to the provider device to determine the maximum message size supported.
 old-location: nfpdrivers\ioctl_nfp_get_max_message_bytes.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 030E00C0-9F28-4EAC-BEBA-6AB0269ABAD5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

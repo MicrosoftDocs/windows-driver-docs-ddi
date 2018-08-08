@@ -4,7 +4,7 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0010
 author: windows-driver-content
 description: Contains core functions.
 old-location: display\d3d12ddi_device_funcs_core_0010.htm
-old-project: display
+tech.root: display
 ms.assetid: 87B4873E-DD44-47E9-8E6A-5BA91218188F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

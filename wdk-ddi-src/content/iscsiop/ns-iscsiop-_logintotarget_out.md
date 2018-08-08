@@ -4,7 +4,7 @@ title: "_LoginToTarget_OUT"
 author: windows-driver-content
 description: The LoginToTarget_OUT structure holds the output data for the LoginToTarget method.
 old-location: storage\logintotarget_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 569816dc-3b92-45da-a1b8-ce4b504b6592
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: PFND3DDDI_CAPTURETOSYSMEM
 author: windows-driver-content
 description: The CaptureToSysMem function copies the contents of a capture buffer to a destination surface.
 old-location: display\capturetosysmem.htm
-old-project: display
+tech.root: display
 ms.assetid: ea2b5338-81cf-4114-bb07-16e8ff4d2b95
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CaptureToSysMem, CaptureToSysMem callback function [Display Devices], PFND3DDDI_CAPTURETOSYSMEM, PFND3DDDI_CAPTURETOSYSMEM callback, UserModeDisplayDriver_Functions_9d7270cc-da5e-4c04-8ab6-93b9cfd7a475.xml, d3dumddi/CaptureToSysMem, display.capturetosysmem
 ms.prod: windows-hardware
 ms.technology: windows-devices

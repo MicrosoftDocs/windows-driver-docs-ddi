@@ -4,7 +4,7 @@ title: "_IO_FOEXT_SILO_PARAMETERS"
 author: windows-driver-content
 description: This structure describes the Container context that's identified by the IoGetSiloParameters routine.
 old-location: ifsk\io_foext_silo_parameters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: EC7C59D0-96AE-400D-9502-D6DBFD9918DC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

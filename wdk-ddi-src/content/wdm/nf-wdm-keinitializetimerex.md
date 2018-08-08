@@ -4,7 +4,7 @@ title: KeInitializeTimerEx function
 author: windows-driver-content
 description: The KeInitializeTimerEx routine initializes an extended kernel timer object.
 old-location: kernel\keinitializetimerex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

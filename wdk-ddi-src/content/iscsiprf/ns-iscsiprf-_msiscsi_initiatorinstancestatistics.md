@@ -4,7 +4,7 @@ title: "_MSiSCSI_InitiatorInstanceStatistics"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorInstanceStatistics structure is used by iSCSI initiators to report initiator statistics.
 old-location: storage\msiscsi_initiatorinstancestatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b07b8186-970a-428f-955f-4e7e6ab20bfc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

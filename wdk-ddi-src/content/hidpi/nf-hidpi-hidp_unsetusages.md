@@ -4,7 +4,7 @@ title: HidP_UnsetUsages function
 author: windows-driver-content
 description: The HidP_UnsetUsages routine sets specified HID control button usages OFF (zero) in a HID report.
 old-location: hid\hidp_unsetusages.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

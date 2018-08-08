@@ -4,7 +4,7 @@ title: FltIsIoCanceled function
 author: windows-driver-content
 description: The FltIsIoCanceled routine checks if an IRP-based operation has been canceled.
 old-location: ifsk\fltisiocanceled.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a27ec86b-85b3-4d65-a77a-fb6292b935d0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

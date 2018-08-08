@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreHelperUni::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelperuni_enumfeatures.htm
-old-project: print
+tech.root: print
 ms.assetid: ed21e52b-13a6-4a89-8bbc-9cbf72e3d9fd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

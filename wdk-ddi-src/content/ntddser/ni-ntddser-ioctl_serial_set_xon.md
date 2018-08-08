@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_XON
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_XON request emulates the reception of a XON (transmit on) character, which restarts reception of data.
 old-location: serports\ioctl_serial_set_xon.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 082a02dc-93c2-495d-bc20-cb3510c00d78
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

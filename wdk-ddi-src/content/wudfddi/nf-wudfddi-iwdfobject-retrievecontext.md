@@ -4,7 +4,7 @@ title: IWDFObject::RetrieveContext
 author: windows-driver-content
 description: The RetrieveContext method retrieves a context that was previously registered through the IWDFObject::AssignContext method.
 old-location: wdf\iwdfobject_retrievecontext.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

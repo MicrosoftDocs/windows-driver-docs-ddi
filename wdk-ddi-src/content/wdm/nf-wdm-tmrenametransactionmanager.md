@@ -4,7 +4,7 @@ title: TmRenameTransactionManager function
 author: windows-driver-content
 description: The TmRenameTransactionManager routine changes the identity of the transaction manager object that is stored in the CLFS log file stream contained in the log file name.
 old-location: kernel\tmrenametransactionmanager_.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

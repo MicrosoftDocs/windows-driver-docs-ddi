@@ -4,10 +4,10 @@ title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
 author: windows-driver-content
 description: The DxgkDdiOPMConfigureProtectedOutput function configures the given protected output object.
 old-location: display\dxgkddiopmconfigureprotectedoutput.htm
-old-project: display
+tech.root: display
 ms.assetid: a7829587-c1e7-43ec-a0bb-92bca94b7c3d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback, Dm_Opm_functions_4e8394b3-68b4-4747-a375-a767edbccc2c.xml, DxgkDdiOPMConfigureProtectedOutput, DxgkDdiOPMConfigureProtectedOutput callback function [Display Devices], display.dxgkddiopmconfigureprotectedoutput, dispmprt/DxgkDdiOPMConfigureProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

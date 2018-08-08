@@ -4,10 +4,10 @@ title: IAdapterPowerManagement2::PowerChangeState2
 author: windows-driver-content
 description: Portcls calls the IAdapterPowerManagement2::PowerChangeState2 method to request a change to the new power state. This request is passed on to the adapter driver.
 old-location: audio\iadapterpowermanagement2_powerchangestate2.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 72068476-5821-4646-88b3-06f3a1917fca
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IAdapterPowerManagement2 interface [Audio Devices],PowerChangeState2 method, IAdapterPowerManagement2.PowerChangeState2, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices],IAdapterPowerManagement2 interface, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, portcls/IAdapterPowerManagement2::PowerChangeState2
 ms.prod: windows-hardware
 ms.technology: windows-devices

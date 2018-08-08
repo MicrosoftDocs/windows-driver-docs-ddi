@@ -4,7 +4,7 @@ title: SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function
 author: windows-driver-content
 description: The SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function initializes a SERCX2_CUSTOM_RECEIVE_CONFIG structure.
 old-location: serports\sercx2_custom_receive_config_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 35C7AE64-C778-443E-9CF7-7868048DA01F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

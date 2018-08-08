@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_PACKET_DATA_FORMAT"
 author: windows-driver-content
 description: The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.
 old-location: whea\whea_error_packet_data_format.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 612fbfb7-2f10-45e8-8f99-1aba8fe79a5a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

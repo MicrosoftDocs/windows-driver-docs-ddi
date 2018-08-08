@@ -4,7 +4,7 @@ title: "_OB_CALLBACK_REGISTRATION"
 author: windows-driver-content
 description: The OB_CALLBACK_REGISTRATION structure specifies the parameters when the ObRegisterCallbacks routine registers ObjectPreCallback and ObjectPostCallback callback routines.
 old-location: kernel\ob_callback_registration.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

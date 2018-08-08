@@ -4,7 +4,7 @@ title: SeQuerySecurityDescriptorInfo function
 author: windows-driver-content
 description: The SeQuerySecurityDescriptorInfo routine retrieves a copy of an object's security descriptor.
 old-location: ifsk\sequerysecuritydescriptorinfo.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4803e816-c59a-42b2-adc1-7a197ae16d42
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

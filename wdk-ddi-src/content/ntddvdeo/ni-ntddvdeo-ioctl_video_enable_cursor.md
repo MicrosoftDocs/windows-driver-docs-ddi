@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_ENABLE_CURSOR
 author: windows-driver-content
 description: Makes the cursor visible by enabling the cursor's visibility attribute. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 old-location: display\ioctl_video_enable_cursor.htm
-old-project: display
+tech.root: display
 ms.assetid: 727add49-3224-4bc0-8d98-971e282c575a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_CURSOR, IOCTL_VIDEO_ENABLE_CURSOR control, IOCTL_VIDEO_ENABLE_CURSOR control code [Display Devices], Video_IOCTLs_adcda61e-67fe-4c4e-a6df-015ff1d95c36.xml, display.ioctl_video_enable_cursor, ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

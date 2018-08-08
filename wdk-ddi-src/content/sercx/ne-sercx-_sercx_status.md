@@ -4,7 +4,7 @@ title: "_SERCX_STATUS"
 author: windows-driver-content
 description: The SERCX_STATUS enumeration indicates the status of a serial receive or transmit operation.
 old-location: serports\sercx_status.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

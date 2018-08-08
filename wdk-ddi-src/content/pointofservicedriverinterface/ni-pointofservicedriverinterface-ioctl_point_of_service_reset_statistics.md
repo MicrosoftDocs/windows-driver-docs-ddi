@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
 author: windows-driver-content
 description: This I/O control function resets the specified statistic's value to zero.
 old-location: pos\ioctl_point_of_service_reset_statistics.htm
-old-project: pos
+tech.root: pos
 ms.assetid: dfa6a460-ea80-4aa4-9948-2fd290f6616b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_CONTROL"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a control request.
 old-location: ieee\irb_req_control.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: F0ABD318-AC63-40D5-B94E-BD6FEA1A57AC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: MmFreePagesFromMdl function
 author: windows-driver-content
 description: The MmFreePagesFromMdl routine frees all the physical pages that are described by an MDL that was created by the MmAllocatePagesForMdl routine.
 old-location: kernel\mmfreepagesfrommdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bde26b75-9eae-494b-b943-f1e9534c5f7a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

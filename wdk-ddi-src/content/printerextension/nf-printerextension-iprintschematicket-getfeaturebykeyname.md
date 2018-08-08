@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::GetFeatureByKeyName
 author: windows-driver-content
 description: Gets a feature from the PrintTicket based on the specified key name.
 old-location: print\iprintschematicket_getfeaturebykeyname.htm
-old-project: print
+tech.root: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

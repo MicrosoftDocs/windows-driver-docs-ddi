@@ -4,10 +4,10 @@ title: IDebugClient4::TerminateProcesses
 author: windows-driver-content
 description: The TerminateProcesses method attempts to terminate all processes in all targets.
 old-location: debugger\terminateprocesses.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: e106a176-b7f9-4812-9995-a23246439b23
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugClient interface [Windows Debugging],TerminateProcesses method, IDebugClient2 interface [Windows Debugging],TerminateProcesses method, IDebugClient2::TerminateProcesses, IDebugClient3 interface [Windows Debugging],TerminateProcesses method, IDebugClient3::TerminateProcesses, IDebugClient4 interface [Windows Debugging],TerminateProcesses method, IDebugClient4.TerminateProcesses, IDebugClient4::TerminateProcesses, IDebugClient5 interface [Windows Debugging],TerminateProcesses method, IDebugClient5::TerminateProcesses, IDebugClient::TerminateProcesses, IDebugClient_6bbf21ae-e69b-4f44-a4e7-9b5abe428903.xml, TerminateProcesses, TerminateProcesses method [Windows Debugging], TerminateProcesses method [Windows Debugging],IDebugClient interface, TerminateProcesses method [Windows Debugging],IDebugClient2 interface, TerminateProcesses method [Windows Debugging],IDebugClient3 interface, TerminateProcesses method [Windows Debugging],IDebugClient4 interface, TerminateProcesses method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::TerminateProcesses, dbgeng/IDebugClient3::TerminateProcesses, dbgeng/IDebugClient4::TerminateProcesses, dbgeng/IDebugClient5::TerminateProcesses, dbgeng/IDebugClient::TerminateProcesses, debugger.terminateprocesses
 ms.prod: windows-hardware
 ms.technology: windows-devices

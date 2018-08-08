@@ -4,7 +4,7 @@ title: "_REG_POST_CREATE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_POST_CREATE_KEY_INFORMATION structure contains the result of an attempt to create a registry key.
 old-location: kernel\reg_post_create_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bba965c9-7132-4988-bf89-b19004118c0a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

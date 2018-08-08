@@ -4,7 +4,7 @@ title: StorPortGetUncachedExtension function
 author: windows-driver-content
 description: The StorPortGetUncachedExtension routine allocates an uncached common buffer to be shared by the CPU and the device.
 old-location: storage\storportgetuncachedextension.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

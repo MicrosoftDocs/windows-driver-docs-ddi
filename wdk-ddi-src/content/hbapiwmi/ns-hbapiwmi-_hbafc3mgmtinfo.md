@@ -4,7 +4,7 @@ title: "_HBAFC3MgmtInfo"
 author: windows-driver-content
 description: The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter.
 old-location: storage\hbafc3mgmtinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

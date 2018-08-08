@@ -4,10 +4,10 @@ title: "_D3DKMDT_MONITOR_FREQUENCY_RANGE"
 author: windows-driver-content
 description: The D3DKMDT_MONITOR_FREQUENCY_RANGE structure contains information about a range of frequencies supported by a monitor.
 old-location: display\d3dkmdt_monitor_frequency_range.htm
-old-project: display
+tech.root: display
 ms.assetid: 241b0534-593a-4030-9c48-8d463d56b64a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_MONITOR_FREQUENCY_RANGE, D3DKMDT_MONITOR_FREQUENCY_RANGE structure [Display Devices], DmStructs_ba8a984e-da56-4f63-a0b8-d94d426df563.xml, _D3DKMDT_MONITOR_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE, display.d3dkmdt_monitor_frequency_range
 ms.prod: windows-hardware
 ms.technology: windows-devices

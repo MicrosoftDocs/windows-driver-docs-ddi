@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS
 author: windows-driver-content
 description: A bus driver's EvtDeviceEnableWakeAtBus event callback function performs bus-level operations that enable one of the bus's devices to trigger a wake-up signal on the bus.
 old-location: wdf\evtdeviceenablewakeatbus.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 902c9bdc-d83a-4bc2-802c-1aaba43c9e2e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

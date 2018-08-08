@@ -4,7 +4,7 @@ title: KS_FRAMING_RANGE
 author: windows-driver-content
 description: The KS_FRAMING_RANGE structure specifies a range for frame sizes for a given framing item.
 old-location: stream\ks_framing_range.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3263b290-2966-4e19-9828-b91e7b2efa55
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_KBUGCHECK_DUMP_IO"
 author: windows-driver-content
 description: The KBUGCHECK_DUMP_IO structure describes an I/O operation on the crash dump file.
 old-location: kernel\kbugcheck_dump_io.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

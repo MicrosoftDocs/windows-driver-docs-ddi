@@ -4,7 +4,7 @@ title: WdfDmaTransactionGetCurrentDmaTransferLength function
 author: windows-driver-content
 description: The WdfDmaTransactionGetCurrentDmaTransferLength method returns the size of the current DMA transfer.
 old-location: wdf\wdfdmatransactiongetcurrentdmatransferlength.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 20a27ad7-0b27-494e-b761-fc3edf71e8c9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: WdfDmaEnablerConfigureSystemProfile function
 author: windows-driver-content
 description: The WdfDmaEnablerConfigureSystemProfile method configures the hardware-specific settings for a system-mode DMA enabler and completes the resource initialization.
 old-location: wdf\wdfdmaenablerconfiguresystemprofile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3374EBB8-F43A-4A2A-92AC-623B39F5EFA0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: FsRtlIsFatDbcsLegal function
 author: windows-driver-content
 description: The FsRtlIsFatDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
 old-location: ifsk\fsrtlisfatdbcslegal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later versions of Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -105,11 +105,11 @@ A FAT file name is either of the form N.E or just N, where N is a string of one 
 
 </li>
 <li>
-FAT file names are case insensitive. Lowercase names are automatically converted to uppercase. 
+FAT file names are case insensitive. Lowercase names are automatically converted to uppercase.
 
 </li>
 </ul>
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
 
 
 

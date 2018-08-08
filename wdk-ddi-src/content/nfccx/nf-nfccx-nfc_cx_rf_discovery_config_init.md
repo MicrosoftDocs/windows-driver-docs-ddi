@@ -4,7 +4,7 @@ title: NFC_CX_RF_DISCOVERY_CONFIG_INIT function
 author: windows-driver-content
 description: The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the NFC_CX_RF_DISCOVERY_CONFIG structure.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config_init.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: C8A6A286-8F62-4A55-9AED-263317088706
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

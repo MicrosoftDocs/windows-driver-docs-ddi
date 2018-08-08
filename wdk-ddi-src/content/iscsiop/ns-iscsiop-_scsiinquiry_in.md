@@ -4,7 +4,7 @@ title: "_ScsiInquiry_IN"
 author: windows-driver-content
 description: The ScsiInquiry_IN structure holds the input data for the ScsiInquiry method, which is used to send a SCSI inquiry command.
 old-location: storage\scsiinquiry_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b1a73ef7-c13a-4627-8eb0-b9285567caec
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

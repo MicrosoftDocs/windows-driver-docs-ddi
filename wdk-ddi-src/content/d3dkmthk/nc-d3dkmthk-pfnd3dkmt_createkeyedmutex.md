@@ -4,10 +4,10 @@ title: PFND3DKMT_CREATEKEYEDMUTEX
 author: windows-driver-content
 description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
-old-project: display
+tech.root: display
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, PFND3DKMT_CREATEKEYEDMUTEX callback, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

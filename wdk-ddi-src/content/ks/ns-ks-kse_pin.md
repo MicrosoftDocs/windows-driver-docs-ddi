@@ -4,7 +4,7 @@ title: KSE_PIN
 author: windows-driver-content
 description: "."
 old-location: stream\kse_pin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6936F732-ECAA-4CA7-B2AF-CA22A5C93FC9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

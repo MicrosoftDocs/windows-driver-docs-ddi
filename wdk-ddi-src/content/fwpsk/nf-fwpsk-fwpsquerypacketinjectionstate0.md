@@ -4,10 +4,10 @@ title: FwpsQueryPacketInjectionState0 function
 author: windows-driver-content
 description: The FwpsQueryPacketInjectionState0 function is called by a callout to query the injection state of packet data.Note  FwpsQueryPacketInjectionState0 is a specific version of FwpsQueryPacketInjectionState.
 old-location: netvista\fwpsquerypacketinjectionstate0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 785d99a5-a8c9-4763-bdd4-e26f604f6be7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryPacketInjectionState0, netvista.fwpsquerypacketinjectionstate0, wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ Because injected packet data can be reclassified against the callout that inject
 
 A callout can track other callout-specific information by specifying the optional 
     <i>injectionContext</i> handle in one of the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> at the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> at the
     time of packet data injection. If the 
     <b>FwpsQueryPacketInjectionState0</b> function returns <b>FWPS_PACKET_INJECTED_BY_SELF</b> or
     <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>, the supplied 

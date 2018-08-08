@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_RECORD"
 author: windows-driver-content
 description: The WHEA_ERROR_RECORD structure describes an error record that contains error information about a hardware error condition that occurred.
 old-location: whea\whea_error_record.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 29ed998c-d833-496f-a728-0eef2cd49ae6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

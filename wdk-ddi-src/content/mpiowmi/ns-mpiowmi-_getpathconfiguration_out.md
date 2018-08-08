@@ -4,7 +4,7 @@ title: "_GetPathConfiguration_OUT"
 author: windows-driver-content
 description: The GetPathConfiguration_OUT structure is used to report the output parameters that are associated with the GetPathConfiguration method.
 old-location: storage\getpathconfiguration_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 055db46e-59fc-4eb9-93d7-16d680495220
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

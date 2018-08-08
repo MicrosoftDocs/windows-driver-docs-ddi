@@ -4,7 +4,7 @@ title: CcZeroData function
 author: windows-driver-content
 description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.
 old-location: ifsk\cczerodata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

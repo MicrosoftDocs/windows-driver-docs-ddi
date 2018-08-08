@@ -4,7 +4,7 @@ title: KsLoadResource function
 author: windows-driver-content
 description: Copies (loads) a resource from the given image.
 old-location: stream\ksloadresource.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a7b9dcca-ce89-4fde-9e58-3c4a675227bc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

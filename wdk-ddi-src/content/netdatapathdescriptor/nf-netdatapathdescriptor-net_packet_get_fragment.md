@@ -33,7 +33,8 @@ apilocation:
 -	netdatapathdescriptor.h
 apiname: 
 -	NET_PACKET_GET_FRAGMENT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

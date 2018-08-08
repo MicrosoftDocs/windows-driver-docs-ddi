@@ -4,7 +4,7 @@ title: VIDEOENCODER_BITRATE_MODE
 author: windows-driver-content
 description: The VIDEOENCODER_BITRATE_MODE enumeration describes the bit rate encoding modes supported by the device.
 old-location: stream\videoencoder_bitrate_mode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

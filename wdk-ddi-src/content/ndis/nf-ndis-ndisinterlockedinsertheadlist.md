@@ -4,10 +4,10 @@ title: NdisInterlockedInsertHeadList macro
 author: windows-driver-content
 description: The NdisInterlockedInsertHeadList function inserts an entry, usually a packet, at the head of a doubly linked list so that access to the list is synchronized in a multiprocessor-safe way.
 old-location: netvista\ndisinterlockedinsertheadlist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c6221ce9-682c-453b-b036-f4219c9540da
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisInterlockedInsertHeadList, NdisInterlockedInsertHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertHeadList, ndis_interlocked_ref_14cc728a-07b7-471f-a222-4810d9d79d5a.xml, netvista.ndisinterlockedinsertheadlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

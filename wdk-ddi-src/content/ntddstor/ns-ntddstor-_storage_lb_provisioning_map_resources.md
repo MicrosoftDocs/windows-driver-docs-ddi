@@ -4,7 +4,7 @@ title: "_STORAGE_LB_PROVISIONING_MAP_RESOURCES"
 author: windows-driver-content
 description: The STORAGE_LB_PROVISIONING_MAP_RESOURCES structure contains, when valid, the count of available and used bytes mapped to a storage device. This structure is returned from an IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request.
 old-location: storage\storage_lb_provisioning_map_resources.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6F7DE233-D002-4927-80FC-307A3A33653A
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

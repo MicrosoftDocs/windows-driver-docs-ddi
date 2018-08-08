@@ -4,7 +4,7 @@ title: CmCallbackGetKeyObjectIDEx function
 author: windows-driver-content
 description: The CmCallbackGetKeyObjectIDEx routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectidex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E55CDAF9-2711-4DC6-8BED-EDB0D78D9158
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

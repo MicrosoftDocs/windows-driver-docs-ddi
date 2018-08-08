@@ -4,7 +4,7 @@ title: StorPortSetPowerSettingNotificationGuids function
 author: windows-driver-content
 description: The StorPortSetPowerSettingNotificationGuids routine enables a miniport to receive power setting notifications. The miniport registers an array of GUIDs which identify the power settings to receive power change notifications for.
 old-location: storage\storportsetpowersettingnotificationguids.htm
-old-project: storage
+tech.root: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

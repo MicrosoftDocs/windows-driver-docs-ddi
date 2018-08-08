@@ -4,7 +4,7 @@ title: FsRtlOplockBreakH function
 author: windows-driver-content
 description: The FsRtlOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 old-location: ifsk\fsrtloplockbreakh.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlOplockBreakH
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

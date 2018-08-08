@@ -4,7 +4,7 @@ title: KsGetObjectFromFileObject function
 author: windows-driver-content
 description: The KsGetObjectFromFileObject function returns the AVStream object cast to PVOID from FileObject.
 old-location: stream\ksgetobjectfromfileobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6bd4f75b-a332-4e1f-8df7-0d6f51b0737b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

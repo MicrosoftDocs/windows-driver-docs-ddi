@@ -4,7 +4,7 @@ title: IPrinterScriptableStream::Commit
 author: windows-driver-content
 description: Commits the operation.
 old-location: print\iprinterscriptablestream__commit.htm
-old-project: print
+tech.root: print
 ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

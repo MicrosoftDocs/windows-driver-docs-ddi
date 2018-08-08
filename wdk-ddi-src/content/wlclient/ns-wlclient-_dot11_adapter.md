@@ -4,7 +4,7 @@ title: "_DOT11_ADAPTER"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_adapter.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlclient.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -85,8 +85,8 @@ A description of the WLAN adapter.
 ### -field Dot11CurrentOpMode
 
 The current Native 802.11 operation mode of the miniport driver instance that manages the WLAN
-     adapter. The value of 
-     <b>Dot11CurrentOpMode</b> is formatted as a 
+     adapter. The value of
+     <b>Dot11CurrentOpMode</b> is formatted as a
      <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">
      DOT11_CURRENT_OPERATION_MODE</a> value.
 
@@ -95,12 +95,12 @@ The current Native 802.11 operation mode of the miniport driver instance that ma
 
 
 
-The operating system calls the 
+The operating system calls the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
     handler function whenever a WLAN adapter becomes available and enabled for use, such as when a PCMCIA
     adapter is inserted. The operating system defines the WLAN adapter by passing in the DOT11_ADAPTER
-    structure through the 
-    <i>pDot11Adapter</i> parameter of the 
+    structure through the
+    <i>pDot11Adapter</i> parameter of the
     <i>Dot11ExtIhvInitAdapter</i> function.
 
 

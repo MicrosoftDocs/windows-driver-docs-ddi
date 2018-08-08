@@ -4,10 +4,10 @@ title: "_DXGKMDT_OPM_RANDOM_NUMBER"
 author: windows-driver-content
 description: The DXGKMDT_OPM_RANDOM_NUMBER structure contains a 128-bit cryptographically secure random number.
 old-location: display\dxgkmdt_opm_random_number.htm
-old-project: display
+tech.root: display
 ms.assetid: 40b3217f-2529-4551-ad72-7e1600b58351
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER structure [Display Devices], DmStructs_904ac539-a89e-4192-b520-29837016633d.xml, PDXGKMDT_OPM_RANDOM_NUMBER, PDXGKMDT_OPM_RANDOM_NUMBER structure pointer [Display Devices], _DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/PDXGKMDT_OPM_RANDOM_NUMBER, display.dxgkmdt_opm_random_number"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -34,7 +34,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

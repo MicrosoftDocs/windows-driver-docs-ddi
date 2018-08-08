@@ -4,7 +4,7 @@ title: KsQueryObjectAccessMask function
 author: windows-driver-content
 description: The KsQueryObjectAccessMask function returns the access originally granted to the first client that created a handle on the associated object. Access cannot be changed by duplicating handles.
 old-location: stream\ksqueryobjectaccessmask.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7631baa9-6d5a-44b6-ac19-2b3ecaac9293
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

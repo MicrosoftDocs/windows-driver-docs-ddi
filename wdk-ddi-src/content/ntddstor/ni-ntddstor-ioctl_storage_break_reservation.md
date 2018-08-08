@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_BREAK_RESERVATION
 author: windows-driver-content
 description: Breaks a disk reservation.
 old-location: storage\ioctl_storage_break_reservation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4f6d14b1-45fd-4f45-a10a-1483c10cec12
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

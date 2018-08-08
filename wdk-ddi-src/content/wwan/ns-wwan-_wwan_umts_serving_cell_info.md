@@ -4,10 +4,10 @@ title: "_WWAN_UMTS_SERVING_CELL_INFO"
 author: windows-driver-content
 description: The WWAN_UMTS_SERVING_CELL_INFO structure represents information about the UMTS serving cell.
 old-location: netvista\wwan_umts_serving_cell_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 62257D65-DCB9-43C3-A862-DAB31C27EF0A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_SERVING_CELL_INFO, netvista.wwan_umts_serving_cell_info, wwan/PWWAN_UMTS_SERVING_CELL_INFO, wwan/WWAN_UMTS_SERVING_CELL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

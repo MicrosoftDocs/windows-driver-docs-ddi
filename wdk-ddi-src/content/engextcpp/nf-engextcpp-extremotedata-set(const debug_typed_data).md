@@ -3,12 +3,12 @@ UID: NF:engextcpp.ExtRemoteData.Set(const DEBUG_TYPED_DATA)
 title: ExtRemoteData::Set(const DEBUG_TYPED_DATA)
 author: windows-driver-content
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
-old-location: debugger\extremotedata_set_offset_bytes.htm
-old-project: debugger
-ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
+old-location: debugger\extremotedata_set_typed.htm
+tech.root: debugger
+ms.assetid: a335f881-7b6f-4069-87fe-c036867b0c77
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ExtRemoteData interface [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(const DEBUG_TYPED_DATA), ExtRemoteData::Set, ExtRemoteData::Set(ULONG64,ULONG), ExtRemoteData::Set(const DEBUG_TYPED_DATA), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData interface, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
+ms.date: 5/3/2018
+ms.keywords: ExtRemoteData class [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(const DEBUG_TYPED_DATA), ExtRemoteData.Set(const DEBUG_TYPED_DATA*), ExtRemoteData::Set, ExtRemoteData::Set(const DEBUG_TYPED_DATA), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_set_typed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.Set
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,21 +58,9 @@ The <b>Set</b> method sets the region of the target's memory represented by the 
 
 
 
-### -param Typed
+### -param Typed [in]
 
-
-
-
-
-
-#### - Bytes [in]
-
-Number of bytes in the memory region.
-
-
-#### - Offset [in]
-
-Location of the beginning of the memory region in the target's virtual address space.
+Specifies the region of memory by using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a> structure.
 
 
 ## -returns
@@ -87,7 +76,7 @@ This method does not return a value.
 
 
 
-The <b>Set</b> method will read the contents of the specified region of memory and cache the data.  The data can be retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a> or one of the ExtRemoteTyped::Get<i>Xxx</i> methods.
+The <b>Set</b> method will read the contents of the specified region of  memory and cache the data.  The data can be retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a> or one of the ExtRemoteTyped::Get<i>Xxx</i> methods.
 
 
 
@@ -109,7 +98,7 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 
 
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
+<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set (Offset, Bytes)</a>
  
 
  

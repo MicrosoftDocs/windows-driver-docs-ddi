@@ -4,10 +4,10 @@ title: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportSharedMemoryAllocateComplete function to complete a shared memory allocation request that the miniport driver started by calling the NdisMAllocateSharedMemoryAsyncEx function.
 old-location: netvista\miniportsharedmemoryallocatecomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d102a001-960c-4fe6-af2d-d740bba744b1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE, MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback, MiniportSharedMemoryAllocateComplete, MiniportSharedMemoryAllocateComplete callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSharedMemoryAllocateComplete, ndis_sgdma_ref_0099c752-42ac-4b2d-9787-98deca358cfc.xml, netvista.miniportsharedmemoryallocatecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

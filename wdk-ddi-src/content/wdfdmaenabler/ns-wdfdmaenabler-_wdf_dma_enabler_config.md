@@ -4,7 +4,7 @@ title: "_WDF_DMA_ENABLER_CONFIG"
 author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG structure supplies characteristics for a DMA enabler object.
 old-location: wdf\wdf_dma_enabler_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 60702ce0-c15b-49ad-b983-af68086710b2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

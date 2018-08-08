@@ -4,7 +4,7 @@ title: "_WHEA_XPF_PROCINFO_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a WHEA_XPF_PROCINFO structure contain valid data.
 old-location: whea\whea_xpf_procinfo_validbits.htm
-old-project: whea
+tech.root: whea
 ms.assetid: ca0eef79-d990-4a82-b2d6-a51e3790cfc2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

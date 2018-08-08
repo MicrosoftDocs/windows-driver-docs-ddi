@@ -4,10 +4,10 @@ title: PFN_WSK_SOCKET_CONNECT
 author: windows-driver-content
 description: The WskSocketConnect function creates a new connection-oriented socket, binds it to a local transport address, connects it to a given remote transport address, and returns a pointer to the associated socket object.
 old-location: netvista\wsksocketconnect.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b1482160-49db-4490-b347-ff9396abf2ff
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PFN_WSK_SOCKET_CONNECT, PFN_WSK_SOCKET_CONNECT callback, WskSocketConnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], netvista.wsksocketconnect, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

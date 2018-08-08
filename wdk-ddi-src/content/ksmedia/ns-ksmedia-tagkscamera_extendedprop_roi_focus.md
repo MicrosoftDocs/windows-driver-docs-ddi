@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS
 author: windows-driver-content
 description: This structure contains the ROI info structure for focus.
 old-location: stream\kscamera_extendedprop_roi_focus.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 448A62D1-34D6-46EC-ADA4-9C9F832E2BDD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: FltQueryInformationFile function
 author: windows-driver-content
 description: FltQueryInformationFile retrieves information for a given file.
 old-location: ifsk\fltqueryinformationfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f80750fb-4561-4617-bc54-1360b2e93a68
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: IDebugControl6
 author: windows-driver-content
 description: "."
 old-location: debugger\idebugcontrol6.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 3361EB55-0765-405E-AA75-D1DF3BDE0003
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugControl6, IDebugControl6 interface [Windows Debugging], IDebugControl6 interface [Windows Debugging],described, dbgeng/IDebugControl6, debugger.idebugcontrol6
 ms.prod: windows-hardware
 ms.technology: windows-devices

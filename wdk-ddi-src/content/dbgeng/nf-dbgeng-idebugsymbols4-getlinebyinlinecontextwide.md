@@ -4,10 +4,10 @@ title: IDebugSymbols4::GetLineByInlineContextWide
 author: windows-driver-content
 description: Gets a line by inline context.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontextwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], GetLineByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContextWide method, IDebugSymbols4.GetLineByInlineContextWide, IDebugSymbols4::GetLineByInlineContextWide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

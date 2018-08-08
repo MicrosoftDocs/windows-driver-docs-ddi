@@ -4,7 +4,7 @@ title: FltCancelIo function
 author: windows-driver-content
 description: The FltCancelIo routine cancels an I/O operation.
 old-location: ifsk\fltcancelio.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 30f2345d-6ed8-475f-879a-d3218039fded
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

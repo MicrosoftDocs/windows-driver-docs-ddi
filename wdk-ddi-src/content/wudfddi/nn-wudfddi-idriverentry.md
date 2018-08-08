@@ -4,7 +4,7 @@ title: IDriverEntry
 author: windows-driver-content
 description: The IDriverEntry interface exposes the user-mode driver's main entry and exit points.
 old-location: wdf\idriverentry.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: eae6f032-2f31-43e1-9ac0-38ccc4840580
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

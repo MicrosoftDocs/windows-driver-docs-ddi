@@ -4,7 +4,7 @@ title: IWDTFCONFIG2
 author: windows-driver-content
 description: Defines operations that control WDTF objects within a test script.
 old-location: dtf\iwdtfconfig2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 7cc3775e-d116-4852-9b1a-606d909d878b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

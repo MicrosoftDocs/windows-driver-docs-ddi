@@ -4,7 +4,7 @@ title: ScsiPortGetVirtualAddress function
 author: windows-driver-content
 description: The ScsiPortGetVirtualAddress routine returns a virtual address associated with a physical address if the physical address was obtained by a call to ScsiPortGetPhysicalAddress.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportgetvirtualaddress.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

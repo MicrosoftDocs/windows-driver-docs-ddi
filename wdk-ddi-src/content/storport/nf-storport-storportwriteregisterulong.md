@@ -4,7 +4,7 @@ title: StorPortWriteRegisterUlong macro
 author: windows-driver-content
 description: The StorPortWriteRegisterUlong routine transfers a ULONG value to the indicated HBA register address.
 old-location: storage\storportwriteregisterulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 12ed5f88-26af-43a4-82c7-5f36d9388cc8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

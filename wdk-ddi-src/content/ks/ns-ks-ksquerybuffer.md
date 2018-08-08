@@ -4,7 +4,7 @@ title: KSQUERYBUFFER
 author: windows-driver-content
 description: The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER.
 old-location: stream\ksquerybuffer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

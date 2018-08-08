@@ -4,7 +4,7 @@ title: IoCreateSymbolicLink function
 author: windows-driver-content
 description: The IoCreateSymbolicLink routine sets up a symbolic link between a device object name and a user-visible name for the device.
 old-location: kernel\iocreatesymboliclink.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: be080007-f88e-4cea-b15d-58dc4ac2cb66
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

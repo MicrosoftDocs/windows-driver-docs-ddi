@@ -4,7 +4,7 @@ title: WdfRequestForwardToParentDeviceIoQueue function
 author: windows-driver-content
 description: The WdfRequestForwardToParentDeviceIoQueue method requeues an I/O request from a child device's I/O queue to a specified I/O queue of the child's parent device.
 old-location: wdf\wdfrequestforwardtoparentdeviceioqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

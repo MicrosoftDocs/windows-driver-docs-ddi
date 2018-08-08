@@ -4,7 +4,7 @@ title: "_IO_SECURITY_CONTEXT"
 author: windows-driver-content
 description: The IO_SECURITY_CONTEXT structure represents the security context of an IRP_MJ_CREATE request.
 old-location: kernel\io_security_context.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6500c46b-ae39-4c91-8b84-14df0a7046a1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

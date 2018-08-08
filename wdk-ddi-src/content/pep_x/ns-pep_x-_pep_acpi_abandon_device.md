@@ -4,7 +4,7 @@ title: "_PEP_ACPI_ABANDON_DEVICE"
 author: windows-driver-content
 description: The PEP_ACPI_ABANDON_DEVICE structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device.
 old-location: kernel\pep_acpi_abandon_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A8D0FA24-664F-4A2B-BF08-300D6E30F7E2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

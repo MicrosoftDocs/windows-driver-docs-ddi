@@ -4,7 +4,7 @@ title: DRIVER_LIST_CONTROL
 author: windows-driver-content
 description: The AdapterListControl routine starts a direct memory access (DMA) scatter/gather operation.
 old-location: kernel\adapterlistcontrol.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9fb49710-5d8c-4376-9898-7f0ae570ee94
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

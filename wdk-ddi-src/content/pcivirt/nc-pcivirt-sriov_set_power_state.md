@@ -4,7 +4,7 @@ title: SRIOV_SET_POWER_STATE
 author: windows-driver-content
 description: Sets the power state of the specified PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_set_power_state.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: d43a21cb-5cee-4e72-8f0c-7aa8b2453507
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -74,8 +74,8 @@ NTSTATUS  SRIOV_SET_POWER_STATE(
 ### -param Context [in]
 
 A pointer to a driver-defined context.
-                    
-                
+
+
 
 
 ### -param VfIndex [in]
@@ -97,7 +97,7 @@ A boolean value that indicates whether to arm the device for a wake signal (PME 
 
 
 
-Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code to indicate the error condition. 
+Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code to indicate the error condition.
 
 
 
@@ -106,7 +106,7 @@ Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriat
 
 
 
-This callback function is implemented by the physical function (PF) driver. The callback is invoked when the system wants to change the power state of a virtual function. 
+This callback function is implemented by the physical function (PF) driver. The callback is invoked when the system wants to change the power state of a virtual function.
 
 The PF driver registers its implementation by setting the <b>SetVfPowerState</b> member of the SRIOV_DEVICE_INTERFACE_STANDARD, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
@@ -142,7 +142,7 @@ Virtualization_SetPowerState (
 
 
     deviceContext = (PDEVICE_CONTEXT) Context;
-    
+
     if (VfIndex &gt;= deviceContext-&gt;NumVFs)
     {
         TraceEvents(TRACE_LEVEL_ERROR, DBG_INTERFACE,

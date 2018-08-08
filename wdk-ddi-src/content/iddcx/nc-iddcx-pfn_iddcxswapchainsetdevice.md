@@ -34,7 +34,8 @@ apilocation:
 -	iddcx.h
 apiname:
 -	*PFN_IDDCXSWAPCHAINSETDEVICE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

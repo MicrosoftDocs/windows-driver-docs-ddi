@@ -4,7 +4,7 @@ title: FltReuseCallbackData function
 author: windows-driver-content
 description: The FltReuseCallbackData routine reinitializes a callback data structure so that it can be reused.
 old-location: ifsk\fltreusecallbackdata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c8671ba7-6128-4f0f-b5b1-32ce35e31168
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

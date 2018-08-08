@@ -4,7 +4,7 @@ title: ExSetResourceOwnerPointerEx function
 author: windows-driver-content
 description: The ExSetResourceOwnerPointerEx routine transfers the ownership of an executive resource from the calling thread to an owner pointer, which is a system address that identifies the resource owner.
 old-location: kernel\exsetresourceownerpointerex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 96293fbc-0c3c-4685-8708-dd84fcc2223e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

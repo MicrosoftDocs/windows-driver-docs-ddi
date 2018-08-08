@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	WdfDeviceRetrieveDeviceDirectoryString
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

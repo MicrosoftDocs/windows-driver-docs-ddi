@@ -4,7 +4,7 @@ title: StorPortFreeDeviceBase function
 author: windows-driver-content
 description: StorPortFreeDeviceBase frees a range of device I/O memory that was mapped by StorPortGetDeviceBase.
 old-location: storage\storportfreedevicebase.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

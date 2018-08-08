@@ -4,7 +4,7 @@ title: GNSS_AGNSS_INJECT
 author: windows-driver-content
 description: This structure defines the parameters for AGNSS injection.
 old-location: gnss\gnss_agnss_inject.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: B81F5D71-9928-412C-8199-787E71CE2638
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

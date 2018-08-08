@@ -4,7 +4,7 @@ title: FltFreeExtraCreateParameter function
 author: windows-driver-content
 description: The FltFreeExtraCreateParameter routine frees the memory for an ECP context structure.
 old-location: ifsk\fltfreeextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2fc0dc67-ac82-4892-8321-632fe26e1616
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

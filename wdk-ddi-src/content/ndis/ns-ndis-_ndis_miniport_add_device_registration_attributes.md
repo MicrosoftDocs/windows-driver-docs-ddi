@@ -4,10 +4,10 @@ title: "_NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES"
 author: windows-driver-content
 description: The NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure specifies a driver-defined context area for an added device.
 old-location: netvista\ndis_miniport_add_device_registration_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7e8b5dbf-2d56-4278-8953-8e21ba1cee06
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis/NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis_msix_ref_e1fdccd6-c157-42e8-875e-bf5c77bfe5d9.xml, netvista.ndis_miniport_add_device_registration_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices

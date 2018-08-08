@@ -4,7 +4,7 @@ title: "_BDA_FILTER_TEMPLATE"
 author: windows-driver-content
 description: The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter.
 old-location: stream\bda_filter_template.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 93078225-3487-46db-b13e-e2013be86d97
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

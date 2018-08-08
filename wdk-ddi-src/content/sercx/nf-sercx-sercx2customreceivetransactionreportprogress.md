@@ -4,7 +4,7 @@ title: SerCx2CustomReceiveTransactionReportProgress function
 author: windows-driver-content
 description: The SerCx2CustomReceiveTransactionReportProgress method reports whether progress is being made toward completing the current custom-receive transaction.
 old-location: serports\sercx2customreceivetransactionreportprogress.htm
-old-project: serports
+tech.root: serports
 ms.assetid: FBC776FE-1056-4D3B-BECB-124FC41DD68F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

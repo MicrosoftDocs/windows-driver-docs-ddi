@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceCreate function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceCreate method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations.
 old-location: wdf\wdfusbtargetdevicecreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5a2d3430-ca94-42f0-bfeb-fd38d9d4958a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

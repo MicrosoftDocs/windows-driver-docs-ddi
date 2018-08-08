@@ -4,7 +4,7 @@ title: RtlDWordPtrSub function
 author: windows-driver-content
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: kernel\rtldwordptrsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B3268640-F256-4B64-AE95-8D30A6A7BF6C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

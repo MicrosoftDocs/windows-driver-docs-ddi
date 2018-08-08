@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
 author: windows-driver-content
 description: Specifies data used to determine support of hardware for a configuration.
 old-location: display\d3d12ddi_video_decode_support_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 05274F4B-0473-42BA-A382-B348A85DBFA5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

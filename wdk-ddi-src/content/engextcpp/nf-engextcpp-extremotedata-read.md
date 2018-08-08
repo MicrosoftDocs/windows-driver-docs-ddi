@@ -4,10 +4,10 @@ title: ExtRemoteData::Read
 author: windows-driver-content
 description: The Read method reads the contents of the target's memory, represented by the ExtRemoteData object, and then caches the data.
 old-location: debugger\extremotedata_read.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 3068cbcf-c15b-43e1-bd53-857efea65d83
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_69230a7b-f83c-46fc-88c4-134b506540af.xml, ExtRemoteData class [Windows Debugging],Read method, ExtRemoteData.Read, ExtRemoteData::Read, Read, Read method [Windows Debugging], Read method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_read
 ms.prod: windows-hardware
 ms.technology: windows-devices

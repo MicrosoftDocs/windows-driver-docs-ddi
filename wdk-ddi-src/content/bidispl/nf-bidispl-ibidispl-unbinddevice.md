@@ -4,7 +4,7 @@ title: IBidiSpl::UnbindDevice
 author: windows-driver-content
 description: The UnbindDevice method unbinds a printer from a bidi request.
 old-location: print\ibidispl_ibidispl__unbinddevice.htm
-old-project: print
+tech.root: print
 ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

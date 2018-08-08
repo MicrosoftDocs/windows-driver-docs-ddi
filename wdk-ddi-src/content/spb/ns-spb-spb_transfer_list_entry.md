@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY
 author: windows-driver-content
 description: The SPB_TRANSFER_LIST_ENTRY structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_list_entry.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: e13b7a7e-4acb-4a77-ac46-94af2ebccc20
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

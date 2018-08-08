@@ -4,7 +4,7 @@ title: EVT_WDFDEVICE_WDM_IRP_DISPATCH
 author: windows-driver-content
 description: A driver's EvtDeviceWdmIrpDispatch event callback function receives an IRP before the framework processes the IRP.
 old-location: wdf\evtdevicewdmirpdispatch.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C6BED59F-066E-42F6-86AE-B0423E0E847F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

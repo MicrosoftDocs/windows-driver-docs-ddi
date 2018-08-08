@@ -4,10 +4,10 @@ title: NDIS_TIMER_FUNCTION
 author: windows-driver-content
 description: The NetTimerCallback function is called by NDIS after a driver sets a one-shot or periodic timer when a timer fires.Note  You must declare the function by using the NDIS_TIMER_FUNCTION type.
 old-location: netvista\nettimercallback.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 76e59376-58a4-4e35-bac4-ec5938c88cd7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NetTimerCallback, NetTimerCallback callback function [Network Drivers Starting with Windows Vista], ndis/NetTimerCallback, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

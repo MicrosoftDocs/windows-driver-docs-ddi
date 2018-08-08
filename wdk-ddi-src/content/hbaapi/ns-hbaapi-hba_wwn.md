@@ -4,7 +4,7 @@ title: HBA_wwn
 author: windows-driver-content
 description: The HBA_wwn structure contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA.
 old-location: storage\hba_wwn.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 84441fde-1d66-4f76-86b7-dccd792afd0f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

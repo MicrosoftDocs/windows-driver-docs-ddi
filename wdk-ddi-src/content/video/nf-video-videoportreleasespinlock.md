@@ -4,7 +4,7 @@ title: VideoPortReleaseSpinLock function
 author: windows-driver-content
 description: The VideoPortReleaseSpinLock function releases ownership of a given spin lock and restores the original IRQL at which the caller was running.
 old-location: display\videoportreleasespinlock.htm
-old-project: display
+tech.root: display
 ms.assetid: 8ce2006e-e66c-4b2d-8d26-2eba8d8e2864
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: DISPATCH_LEVEL (see Remarks section)

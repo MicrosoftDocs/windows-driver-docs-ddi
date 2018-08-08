@@ -4,7 +4,7 @@ title: RxFinalizeVNetRoot function
 author: windows-driver-content
 description: RxFinalizeVNetRoot finalizes the given V_NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxfinalizevnetroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7a24d8b4-cd07-453c-9813-d794b75b039e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

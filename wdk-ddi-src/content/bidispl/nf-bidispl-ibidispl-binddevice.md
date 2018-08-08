@@ -4,7 +4,7 @@ title: IBidiSpl::BindDevice
 author: windows-driver-content
 description: The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function.
 old-location: print\ibidispl_ibidispl__binddevice.htm
-old-project: print
+tech.root: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

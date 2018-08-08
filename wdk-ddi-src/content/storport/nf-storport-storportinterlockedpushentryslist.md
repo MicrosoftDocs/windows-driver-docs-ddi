@@ -4,7 +4,7 @@ title: StorPortInterlockedPushEntrySList function
 author: windows-driver-content
 description: Inserts an item at the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: storage\storportinterlockedpushentryslist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

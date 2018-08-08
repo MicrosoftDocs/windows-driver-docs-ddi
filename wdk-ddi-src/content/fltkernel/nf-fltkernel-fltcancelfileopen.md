@@ -4,7 +4,7 @@ title: FltCancelFileOpen function
 author: windows-driver-content
 description: A minifilter driver can use the FltCancelFileOpen routine to close a newly opened or created file.
 old-location: ifsk\fltcancelfileopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

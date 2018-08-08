@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_RESERVE
 author: windows-driver-content
 description: Claims a device for the exclusive use of the caller on a bus that supports multiple initiators and the concept of reserving a device, such as a SCSI bus.
 old-location: storage\ioctl_storage_reserve.htm
-old-project: storage
+tech.root: storage
 ms.assetid: acafac18-63c7-4965-a1d6-e7c961507b4b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IBidiAsyncNotifyChannel::CreateNotificationChannel
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_createnotificationchannel.htm
-old-project: print
+tech.root: print
 ms.assetid: 8A652E64-3DB4-4BBA-A02C-FA8B218AA08F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

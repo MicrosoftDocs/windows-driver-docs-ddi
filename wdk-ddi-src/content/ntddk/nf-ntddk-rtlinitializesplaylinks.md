@@ -4,7 +4,7 @@ title: RtlInitializeSplayLinks function
 author: windows-driver-content
 description: The RtlInitializeSplayLinks routine initializes a splay link node.
 old-location: ifsk\rtlinitializesplaylinks.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 34818dc0-d241-4f5f-a202-08200fbc23a3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

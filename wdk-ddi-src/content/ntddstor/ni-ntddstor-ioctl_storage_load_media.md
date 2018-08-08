@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_LOAD_MEDIA
 author: windows-driver-content
 description: Causes media to be loaded in a device that the caller has opened for read or write access.
 old-location: storage\ioctl_storage_load_media.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 137ebbec-53f7-4bf6-b43b-2c736d66eb97
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

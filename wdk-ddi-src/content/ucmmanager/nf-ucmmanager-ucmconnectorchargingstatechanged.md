@@ -4,10 +4,10 @@ title: UcmConnectorChargingStateChanged function
 author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the updated charging state of the partner connector.
 old-location: buses\ucmconnectorchargingstatechanged.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

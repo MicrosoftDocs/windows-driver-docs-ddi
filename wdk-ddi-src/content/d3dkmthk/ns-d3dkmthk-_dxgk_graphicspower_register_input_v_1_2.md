@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
@@ -84,7 +85,7 @@ Graphics drivers indicate what power components exist by responding to the queri
 
 If a graphics driver registers at least one [DXGK_POWER_COMPONENT_SHARED](../d3dkmddi/ne-d3dkmddi-_dxgk_power_component_type.md) component, a GRAPHICSPOWER interface will be created for that adapter. The interface will not be registered for adapters that do not expose any of these components.
 
-Graphics drivers can register a “blocking” component by setting the [DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md) flag *ActiveInD3* to **0**, or a “nonblocking” component by setting this flag to **1**.
+Graphics drivers can register a “blocking” component by setting the [DXGK_POWER_RUNTIME_COMPONENT](../d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_component.md) flag *ActiveInD3* to **0**, or a “nonblocking” component by setting this flag to **1**.
 
 A blocking power component will prevent the graphics device from powering down when in use while a non-blocking power component will not. Both allow the graphics driver to properly manage its power planes when in-use by the non-graphics driver.
 

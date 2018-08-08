@@ -4,7 +4,7 @@ title: FsRtlCheckUpperOplock function
 author: windows-driver-content
 description: The FsRtlCheckUpperOplock routine provides opportunistic lock (oplock) checking in secondary, or layered, file systems when the oplocks they hold change state.
 old-location: ifsk\fsrtlcheckupperoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCheckUpperOplock
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

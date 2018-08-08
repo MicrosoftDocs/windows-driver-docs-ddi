@@ -4,7 +4,7 @@ title: "_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The DEVICE_POWER_STATE enumeration identifies the device power states that a device can enter.
 old-location: wdf\device_power_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

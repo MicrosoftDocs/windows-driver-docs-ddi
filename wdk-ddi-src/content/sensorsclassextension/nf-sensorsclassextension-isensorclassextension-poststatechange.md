@@ -4,10 +4,10 @@ title: ISensorClassExtension::PostStateChange
 author: windows-driver-content
 description: The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.
 old-location: sensors\isensorclassextension_poststatechange.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: ae3bc846-df63-4186-9554-f4600e1f2066
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

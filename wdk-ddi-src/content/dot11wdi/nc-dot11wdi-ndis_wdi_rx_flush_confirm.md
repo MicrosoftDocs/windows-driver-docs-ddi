@@ -4,10 +4,10 @@ title: NDIS_WDI_RX_FLUSH_CONFIRM
 author: windows-driver-content
 description: The NdisWdiRxFlushConfirm callback function indicates completion of a MiniportWdiRxFlush request. The RxEngine must complete the discard of all RX data frames that match the flush request prior to issuing NdisWdiRxFlushConfirm.
 old-location: netvista\ndiswdirxflushconfirm.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: CEED709C-F295-4633-B7C1-4719EDDC7CD4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_RX_FLUSH_CONFIRM, NDIS_WDI_RX_FLUSH_CONFIRM callback, NdisWdiRxFlushConfirm, NdisWdiRxFlushConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxFlushConfirm, netvista.ndiswdirxflushconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices

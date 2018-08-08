@@ -4,7 +4,7 @@ title: "_BTH_LOCAL_RADIO_INFO"
 author: windows-driver-content
 description: The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetooth system and radio.
 old-location: bltooth\bth_local_radio_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: WRITE_REGISTER_BUFFER_ULONG function
 author: windows-driver-content
 description: The WRITE_REGISTER_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dae9cc3d-b793-4f2a-99a6-1f77af396110
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

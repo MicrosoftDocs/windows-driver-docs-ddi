@@ -4,7 +4,7 @@ title: IOCTL_USBPRINT_VENDOR_GET_COMMAND
 author: windows-driver-content
 description: The IOCTL_USBPRINT_VENDOR_GET_COMMAND request allows upper-layer software (such as a language monitor), to issue a vendor-specific GET command to the target device.
 old-location: print\ioctl_usbprint_vendor_get_command.htm
-old-project: print
+tech.root: print
 ms.assetid: d4e0220b-2efb-4a24-b80a-23225b06dc66
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

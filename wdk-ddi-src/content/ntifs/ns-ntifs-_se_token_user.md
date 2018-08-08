@@ -4,7 +4,7 @@ title: "_SE_TOKEN_USER"
 author: windows-driver-content
 description: The SE_TOKEN_USER structure holds the maximum-sized valid user SID that can be returned by SeQueryInformationToken, GetTokenInformation, or ZwQueryInformationToken with the TokenUser information class. This structure is suitable for stack allocation.
 old-location: ifsk\se_token_user.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

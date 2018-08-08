@@ -4,7 +4,7 @@ title: "_CHANNEL_CONFIG_PARAMETERS"
 author: windows-driver-content
 description: The CHANNEL_CONFIG_PARAMETERS structure contains configuration parameters for inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_parameters.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

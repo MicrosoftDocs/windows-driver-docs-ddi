@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
 author: windows-driver-content
 description: Defines the image filter capabilities for a video processor.
 old-location: display\d3d12ddi_video_process_filter_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 28662E87-F6A4-42B0-9BF0-49A6C65B245C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

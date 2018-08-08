@@ -4,7 +4,7 @@ title: ExAcquireResourceExclusiveLite function
 author: windows-driver-content
 description: The ExAcquireResourceExclusiveLite routine acquires the given resource for exclusive access by the calling thread.
 old-location: kernel\exacquireresourceexclusivelite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c7f8a6c5-15d5-4a24-a351-4fa5d6c72fbd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

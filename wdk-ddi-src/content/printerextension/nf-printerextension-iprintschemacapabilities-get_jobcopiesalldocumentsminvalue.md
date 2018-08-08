@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 author: windows-driver-content
 description: Gets the JobCopiesAllDocuments parameter minimum value.
 old-location: print\iprintschemacapabilities_jobcopiesalldocumentsminvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: 181D085C-65C5-4D7E-9A1B-8641CC9B799B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

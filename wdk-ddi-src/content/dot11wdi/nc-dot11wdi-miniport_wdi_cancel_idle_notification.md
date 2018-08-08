@@ -4,10 +4,10 @@ title: MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION
 author: windows-driver-content
 description: NDIS calls the MiniportWdiCancelIdleNotification handler function to notify the WDI miniport driver that NDIS has detected activity on the suspended network adapter.
 old-location: netvista\miniportwdicancelidlenotification.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4C52E367-2E75-47EC-8743-F3FA2EEE25F8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION, MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback, MiniportWdiCancelIdleNotification, MiniportWdiCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCancelIdleNotification, netvista.miniportwdicancelidlenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

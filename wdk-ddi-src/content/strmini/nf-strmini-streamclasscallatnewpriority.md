@@ -4,7 +4,7 @@ title: StreamClassCallAtNewPriority function
 author: windows-driver-content
 description: The StreamClassCallAtNewPriority routine schedules a routine to be called at a different priority.
 old-location: stream\streamclasscallatnewpriority.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

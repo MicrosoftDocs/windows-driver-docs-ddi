@@ -4,7 +4,7 @@ title: IOCTL_NFCSE_SET_ROUTING_TABLE
 author: windows-driver-content
 description: Configures NFC controller listen mode routing table.
 old-location: nfpdrivers\ioctl_nfcse_set_routing_table.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 54B37EC0-C38A-479C-A45F-424963C4D89A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

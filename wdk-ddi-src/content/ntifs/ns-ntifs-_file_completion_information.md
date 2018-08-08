@@ -4,7 +4,7 @@ title: "_FILE_COMPLETION_INFORMATION"
 author: windows-driver-content
 description: The FILE_COMPLETION_INFORMATION structure contains the port handle and key for an I/O completion port created for a file handle.
 old-location: ifsk\file_completion_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8C3C1A62-A838-436E-B8CC-ACE70FEAE8EA
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

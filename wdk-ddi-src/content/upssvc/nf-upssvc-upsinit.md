@@ -4,7 +4,7 @@ title: UPSInit function
 author: windows-driver-content
 description: The UPSInit function initializes a UPS minidriver, opens communication to the UPS unit, updates the registry, and causes the minidriver to start monitoring the UPS unit.
 old-location: battery\upsinit.htm
-old-project: battery
+tech.root: battery
 ms.assetid: abcb1f9c-3de3-430c-87e0-6648d60ca420
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

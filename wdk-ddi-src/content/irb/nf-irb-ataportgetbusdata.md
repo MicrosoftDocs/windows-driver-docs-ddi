@@ -4,7 +4,7 @@ title: AtaPortGetBusData function
 author: windows-driver-content
 description: The AtaPortGetBusData routine retrieves data from the location that is specified by ConfigDataOffset within the device's PCI configuration space.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetbusdata.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

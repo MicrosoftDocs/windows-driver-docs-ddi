@@ -4,10 +4,10 @@ title: IDebugBreakpoint2
 author: windows-driver-content
 description: IDebugBreakpoint2 interface
 old-location: debugger\idebugbreakpoint2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 097c10e1-fd83-4a3d-8193-873644370e35
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint2, debugger.idebugbreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices

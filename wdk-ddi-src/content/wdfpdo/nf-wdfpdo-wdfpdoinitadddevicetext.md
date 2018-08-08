@@ -4,7 +4,7 @@ title: WdfPdoInitAddDeviceText function
 author: windows-driver-content
 description: The WdfPdoInitAddDeviceText method adds a device description and device location to a device, for a specified locale.
 old-location: wdf\wdfpdoinitadddevicetext.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

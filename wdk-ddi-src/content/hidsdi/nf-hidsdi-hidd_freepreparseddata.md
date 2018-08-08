@@ -4,7 +4,7 @@ title: HidD_FreePreparsedData function
 author: windows-driver-content
 description: The HidD_FreePreparsedData routine releases the resources that the HID class driver allocated to hold a top-level collection's preparsed data.
 old-location: hid\hidd_freepreparseddata.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 71e2f946-706d-41bc-9d9c-d63230877e48
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

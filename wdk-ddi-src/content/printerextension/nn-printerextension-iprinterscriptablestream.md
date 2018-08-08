@@ -4,7 +4,7 @@ title: IPrinterScriptableStream
 author: windows-driver-content
 description: The IPrinterScriptableStream interface builds on IPrinterScriptableSequentialStream and adds IStream-like semantics.
 old-location: print\iprinterscriptablestream.htm
-old-project: print
+tech.root: print
 ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

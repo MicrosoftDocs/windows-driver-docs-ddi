@@ -4,7 +4,7 @@ title: WdfDmaTransactionWdmGetTransferContext function
 author: windows-driver-content
 description: The WdfDmaTransactionWdmGetTransferContext method retrieves the WDM transfer context that is associated with a DMA transaction.
 old-location: wdf\wdfdmatransactionwdmgettransfercontext.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: D3DKMTLock2 function
 author: windows-driver-content
 description: The D3DKMTLock2 function locks an entire allocation or specific pages within an allocation.
 old-location: display\d3dkmtlock2.htm
-old-project: display
+tech.root: display
 ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTLock2, D3DKMTLock2 function [Display Devices], d3dkmthk/D3DKMTLock2, display.d3dkmtlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The <b>D3DKMTLock2</b> function locks an entire allocation or specific pages wit
 
 ### -param Arg1
 
-TBD
+
 
 
 

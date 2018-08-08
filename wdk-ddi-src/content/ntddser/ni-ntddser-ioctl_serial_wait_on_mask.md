@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_WAIT_ON_MASK
 author: windows-driver-content
 description: The IOCTL_SERIAL_WAIT_ON_MASK request is used to wait for the occurrence of any wait event specified by using an IOCTL_SERIAL_SET_WAIT_MASK request.
 old-location: serports\ioctl_serial_wait_on_mask.htm
-old-project: serports
+tech.root: serports
 ms.assetid: b813bd59-249d-4cd1-bf56-4525c7f1fa1d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS::GetOption
 author: windows-driver-content
 description: The IPrintCoreHelperPS::GetOption method gets a specified option for a given feature.
 old-location: print\iprintcorehelperps_getoption.htm
-old-project: print
+tech.root: print
 ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

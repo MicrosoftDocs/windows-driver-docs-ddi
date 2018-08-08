@@ -4,7 +4,7 @@ title: FsRtlNotifyFilterReportChange function
 author: windows-driver-content
 description: FsRtlNotifyFilterReportChange completes IRP_MN_NOTIFY_CHANGE_DIRECTORY requests that are pending in the specified notify list.
 old-location: ifsk\fsrtlnotifyfilterreportchange.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNotifyFilterReportChange
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -4,7 +4,7 @@ title: KsFilterFactoryGetDevice function
 author: windows-driver-content
 description: The KsFilterFactoryGetDevice function returns the AVStream device to which FilterFactory belongs.
 old-location: stream\ksfilterfactorygetdevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e5b7b014-3e06-49f2-8ccd-45d74592e349
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

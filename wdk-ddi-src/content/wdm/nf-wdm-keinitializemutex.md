@@ -4,7 +4,7 @@ title: KeInitializeMutex function
 author: windows-driver-content
 description: The KeInitializeMutex routine initializes a mutex object, setting it to a signaled state.
 old-location: kernel\keinitializemutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: tag_video_open_parms
 author: windows-driver-content
 description: "."
 old-location: stream\video_open_parms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: BD11B67F-9229-4584-A20D-7D7C70B42977
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

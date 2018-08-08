@@ -4,7 +4,7 @@ title: "_tagAvcSubunitType"
 author: windows-driver-content
 description: The AvcSubunitType enumeration type is used to indicate the type of AV/C subunit.
 old-location: stream\avcsubunittype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c99db45c-2d99-4bf7-98f8-4d9501ac81c0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

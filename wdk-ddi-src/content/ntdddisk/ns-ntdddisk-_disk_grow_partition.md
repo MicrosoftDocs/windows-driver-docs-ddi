@@ -4,7 +4,7 @@ title: "_DISK_GROW_PARTITION"
 author: windows-driver-content
 description: The DISK_GROW_PARTITION structure is used in conjunction with the IOCTL_DISK_GROW_PARTITION request to enlarge a partition.
 old-location: storage\disk_grow_partition.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cab9877c-3b7b-4644-83eb-0aa1e9fc77b9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

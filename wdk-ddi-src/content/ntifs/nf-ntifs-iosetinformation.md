@@ -4,7 +4,7 @@ title: IoSetInformation function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iosetinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6eedef2d-9fa5-4001-9246-7445198c4386
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

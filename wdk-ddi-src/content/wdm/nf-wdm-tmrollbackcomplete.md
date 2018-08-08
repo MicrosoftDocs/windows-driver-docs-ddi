@@ -4,7 +4,7 @@ title: TmRollbackComplete function
 author: windows-driver-content
 description: The TmRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\tmrollbackcomplete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

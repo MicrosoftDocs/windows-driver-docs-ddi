@@ -4,7 +4,7 @@ title: KsPinHandshake function
 author: windows-driver-content
 description: The KsPinHandshake function attempts a protocol handshake with a connected pin.
 old-location: stream\kspinhandshake.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 31855688-9221-4128-89c5-dbc4f3e6f794
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

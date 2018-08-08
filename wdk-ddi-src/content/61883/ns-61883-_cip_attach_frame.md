@@ -4,7 +4,7 @@ title: "_CIP_ATTACH_FRAME"
 author: windows-driver-content
 description: This structure is used in an attach frame request.
 old-location: ieee\cip_attach_frame.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: F7E283BB-B714-4CD4-AFF4-EFB62D82791D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

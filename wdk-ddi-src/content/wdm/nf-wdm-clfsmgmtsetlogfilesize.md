@@ -4,7 +4,7 @@ title: ClfsMgmtSetLogFileSize function
 author: windows-driver-content
 description: The ClfsMgmtSetLogFileSize routine adds containers to a log or deletes containers from a log.
 old-location: kernel\clfsmgmtsetlogfilesize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

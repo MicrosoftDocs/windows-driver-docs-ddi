@@ -4,7 +4,7 @@ title: RtlStringCbCopyExW function
 author: windows-driver-content
 description: The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
 old-location: kernel\rtlstringcbcopyex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

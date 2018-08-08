@@ -4,7 +4,7 @@ title: KsPinRegisterAggregatedClientUnknown function
 author: windows-driver-content
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\kspinregisteraggregatedclientunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 302d87be-a276-49ea-98f2-89e1f231c3c6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KsCreateDefaultClock function
 author: windows-driver-content
 description: Given an IRP_MJ_CREATE request, the KsCreateDefaultClock function creates a default clock that uses the system clock as a time base and associates the IoGetCurrentIrpStackLocation(Irp)-&gt;FileObject with the clock using an internal dispatch table (KSDISPATCH_TABLE). Does not complete the IRP or set the status in the IRP.The KsCreateDefaultClock function can only be called at PASSIVE_LEVEL.
 old-location: stream\kscreatedefaultclock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

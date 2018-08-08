@@ -4,7 +4,7 @@ title: "_STOR_DPC"
 author: windows-driver-content
 description: The STOR_DPC structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
 old-location: storage\stor_dpc.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bb73217c-b159-4fd8-8cb3-334326a651ba
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

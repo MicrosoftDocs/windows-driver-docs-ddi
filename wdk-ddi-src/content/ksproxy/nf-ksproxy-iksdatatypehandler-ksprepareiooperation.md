@@ -4,7 +4,7 @@ title: IKsDataTypeHandler::KsPrepareIoOperation
 author: windows-driver-content
 description: The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation.
 old-location: stream\iksdatatypehandler_ksprepareiooperation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 16411d58-5fff-430f-b96d-78eed1dbb01c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

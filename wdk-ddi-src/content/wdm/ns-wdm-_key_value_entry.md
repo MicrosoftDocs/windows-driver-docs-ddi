@@ -4,7 +4,7 @@ title: "_KEY_VALUE_ENTRY"
 author: windows-driver-content
 description: The KEY_VALUE_ENTRY structure is used by the REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure to describe a single value entry for a registry key.
 old-location: kernel\key_value_entry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a0e819e-6da7-4006-a276-9bfd324800d8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

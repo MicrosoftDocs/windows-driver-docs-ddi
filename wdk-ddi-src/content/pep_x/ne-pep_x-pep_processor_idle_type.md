@@ -4,7 +4,7 @@ title: PEP_PROCESSOR_IDLE_TYPE
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform.
 old-location: kernel\pep_processor_idle_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

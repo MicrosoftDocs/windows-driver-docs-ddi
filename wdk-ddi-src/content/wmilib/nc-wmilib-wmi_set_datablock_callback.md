@@ -4,7 +4,7 @@ title: WMI_SET_DATABLOCK_CALLBACK
 author: windows-driver-content
 description: The DpWmiSetDataBlock routine changes all data items in a single instance of a data block. This routine is optional.
 old-location: kernel\dpwmisetdatablock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 429c84e4-16da-452a-b26d-a71546299f0b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

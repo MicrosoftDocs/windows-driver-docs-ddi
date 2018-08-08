@@ -4,7 +4,7 @@ title: DeRegisterOpRegionHandler function
 author: windows-driver-content
 description: The DeRegisterOpRegionHandler routine deregisters an operation region handler with the ACPI driver.
 old-location: acpi\deregisteropregionhandler.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

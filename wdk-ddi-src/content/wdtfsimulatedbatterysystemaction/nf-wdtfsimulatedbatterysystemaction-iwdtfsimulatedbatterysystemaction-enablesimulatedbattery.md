@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
 author: windows-driver-content
 description: Enables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablesimulatedbattery.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c9ca8bb4-2a05-4934-b589-41fba8092b1b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

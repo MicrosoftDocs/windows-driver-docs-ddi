@@ -4,10 +4,10 @@ title: ExtRemoteTyped::ArrayElement
 author: windows-driver-content
 description: The ArrayElement method returns the typed data in the specified array element of the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_arrayelement.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: abe43441-3e00-4d85-ae84-dd738303ab1b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ArrayElement, ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging],ExtRemoteTyped interface, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped interface [Windows Debugging],ArrayElement method, ExtRemoteTyped.ArrayElement, ExtRemoteTyped::ArrayElement, debugger.extremotetyped_arrayelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

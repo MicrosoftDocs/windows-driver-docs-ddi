@@ -4,10 +4,10 @@ title: CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)
 author: windows-driver-content
 description: The CWiauPropertyList::SetAccessSubType method resets a property's access and subtype.
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
-old-project: image
+tech.root: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetAccessSubType method, CWiauPropertyList.SetAccessSubType, CWiauPropertyList.SetAccessSubType(INT,ULONG,ULONG), CWiauPropertyList::SetAccessSubType, CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG), SetAccessSubType, SetAccessSubType method [Imaging Devices], SetAccessSubType method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setaccesssubtype, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, wiautil/CWiauPropertyList::SetAccessSubType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SetAccessSubType
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

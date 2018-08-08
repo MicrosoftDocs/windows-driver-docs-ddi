@@ -3,6 +3,7 @@ UID: NS:ntddvdeo._PANEL_SET_BRIGHTNESS
 title: _PANEL_SET_BRIGHTNESS
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: d16d02f1-de69-4224-9e52-3ce78dcc63f3
 ms.author: windowsdriverdev
 ms.date:
@@ -23,15 +24,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: *PPANEL_SET_BRIGHTNESS, PANEL_SET_BRIGHTNESS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_SET_BRIGHTNESS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

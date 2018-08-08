@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_INIT_WIN32K_CALLBACKS
 author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: display\ioctl_video_init_win32k_callbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: 1b003614-e80c-459d-a315-0dfdabcec5cc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_INIT_WIN32K_CALLBACKS, IOCTL_VIDEO_INIT_WIN32K_CALLBACKS control, IOCTL_VIDEO_INIT_WIN32K_CALLBACKS control code [Display Devices], Video_IOCTLs_b482cd12-bd15-47b4-ba9c-fca652800d62.xml, display.ioctl_video_init_win32k_callbacks, ntddvdeo/IOCTL_VIDEO_INIT_WIN32K_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices

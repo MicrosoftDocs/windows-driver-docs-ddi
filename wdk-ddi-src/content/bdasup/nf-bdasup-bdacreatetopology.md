@@ -4,7 +4,7 @@ title: BdaCreateTopology function
 author: windows-driver-content
 description: The BdaCreateTopology function creates the topology between two pins.
 old-location: stream\bdacreatetopology.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

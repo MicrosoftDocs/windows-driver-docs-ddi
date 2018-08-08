@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_BREAK_ON
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_BREAK_ON request sets the line control break signal active.
 old-location: serports\ioctl_serial_set_break_on.htm
-old-project: serports
+tech.root: serports
 ms.assetid: bee9cb3c-0ccd-4304-ba7e-7896a16ab123
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IoQueueWorkItemEx function
 author: windows-driver-content
 description: The IoQueueWorkItemEx routine associates a WorkItemEx routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 old-location: kernel\ioqueueworkitemex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 277a6e13-dc2d-4170-a141-9df5b93eb504
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

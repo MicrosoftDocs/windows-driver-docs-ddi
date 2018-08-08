@@ -4,7 +4,7 @@ title: GNSS_FIXDATA_SATELLITE
 author: windows-driver-content
 description: This structure defines satellite-related information of a fix.
 old-location: gnss\gnss_fixdata_satellite.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D1454F07-3CBA-498B-B054-6A0D5020A164
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

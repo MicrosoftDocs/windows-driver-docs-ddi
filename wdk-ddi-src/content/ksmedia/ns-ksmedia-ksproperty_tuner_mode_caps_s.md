@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_MODE_CAPS_S
 author: windows-driver-content
 description: The KS_PROPERTY_TUNER_MODE_CAPS_S structure describes the capabilities of TV and radio tuner devices.
 old-location: stream\ksproperty_tuner_mode_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e2376cde-7e13-475d-a118-0cf48ba8a742
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

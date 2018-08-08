@@ -4,7 +4,7 @@ title: IWDFInterrupt::QueueWorkItemForIsr
 author: windows-driver-content
 description: The QueueWorkItemForIsr method queues a work item to process interrupt-related work outside of the interrupt service routine.
 old-location: wdf\iwdfinterrupt_queueworkitemforisr.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

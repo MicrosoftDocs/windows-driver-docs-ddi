@@ -4,7 +4,7 @@ title: KdPrint macro
 author: windows-driver-content
 description: The KdPrint macro sends a message to the kernel debugger.
 old-location: devtest\kdprint.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 4a2ab12b-ee89-462d-821a-0a2db20cc36c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

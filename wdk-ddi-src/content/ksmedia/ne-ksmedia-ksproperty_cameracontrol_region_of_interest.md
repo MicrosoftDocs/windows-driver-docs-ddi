@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 author: windows-driver-content
 description: Used to specify a camera region of interest.
 old-location: stream\ksproperty_cameracontrol_region_of_interest.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 58886030-4fb6-432b-9ec1-9eb54350edb4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

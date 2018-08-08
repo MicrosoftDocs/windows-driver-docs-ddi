@@ -4,7 +4,7 @@ title: IPrinterExtensionEventArgs::get_WindowModal
 author: windows-driver-content
 description: Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
 old-location: print\iprinterextensioneventargs_windowmodal.htm
-old-project: print
+tech.root: print
 ms.assetid: 606FF5E7-CCC1-4227-8917-F5DF3ECB31A6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

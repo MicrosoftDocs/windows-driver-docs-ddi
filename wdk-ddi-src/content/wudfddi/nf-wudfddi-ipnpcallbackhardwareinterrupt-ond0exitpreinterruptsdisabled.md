@@ -4,7 +4,7 @@ title: IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
 author: windows-driver-content
 description: A driver's OnD0ExitPreInterruptsDisabled event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts.
 old-location: wdf\ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C67EA467-D344-44D0-93E8-29D29A3A586B
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

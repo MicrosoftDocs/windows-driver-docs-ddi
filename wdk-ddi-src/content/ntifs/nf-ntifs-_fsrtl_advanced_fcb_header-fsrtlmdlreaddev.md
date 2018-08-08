@@ -4,7 +4,7 @@ title: FsRtlMdlReadDev function
 author: windows-driver-content
 description: The FltFastIoMdlRead routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 old-location: ifsk\fltfastiomdlread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlMdlReadDev
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

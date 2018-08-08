@@ -4,7 +4,7 @@ title: "_GET_UNIT_CAPABILITIES"
 author: windows-driver-content
 description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve unit information about a device's capabilities.
 old-location: ieee\get_unit_capabilities.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 7fe180c2-cf0b-4658-86e3-fed5e270db8c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

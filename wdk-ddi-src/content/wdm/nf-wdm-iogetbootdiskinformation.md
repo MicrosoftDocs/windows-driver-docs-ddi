@@ -4,7 +4,7 @@ title: IoGetBootDiskInformation function
 author: windows-driver-content
 description: The IoGetBootDiskInformation routine returns information describing the boot and system disks.
 old-location: kernel\iogetbootdiskinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

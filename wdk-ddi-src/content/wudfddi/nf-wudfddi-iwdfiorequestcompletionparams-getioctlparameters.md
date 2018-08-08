@@ -4,7 +4,7 @@ title: IWDFIoRequestCompletionParams::GetIoctlParameters
 author: windows-driver-content
 description: The GetIoctlParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfiorequestcompletionparams_getioctlparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

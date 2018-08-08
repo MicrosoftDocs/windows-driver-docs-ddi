@@ -4,7 +4,7 @@ title: GNSS_EVENT_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
 old-location: gnss\gnss_event_type.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: BC862E22-992E-497D-B370-97ABE8897728
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: KSRESOLUTION
 author: windows-driver-content
 description: The KSRESOLUTION structure specifies granularity and error of a kernel streaming clock.
 old-location: stream\ksresolution.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fbd6222c-6d54-4e2a-aa5b-8051f0838886
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

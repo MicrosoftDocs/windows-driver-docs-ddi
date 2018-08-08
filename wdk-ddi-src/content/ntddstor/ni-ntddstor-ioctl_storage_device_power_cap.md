@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_DEVICE_POWER_CAP
 author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_DEVICE_POWER_CAP to specify a maximum operational power consumption level for a storage device.
 old-location: storage\ioctl_storage_device_power_cap.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 88DEC1F2-F0E7-4E95-9A46-D9E8EF72B1BB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

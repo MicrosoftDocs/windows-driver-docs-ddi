@@ -4,7 +4,7 @@ title: "_DEVICE_COPY_OFFLOAD_DESCRIPTOR"
 author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the copy offload capabilities of a storage device.
 old-location: storage\device_copy_offload_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 192684D1-3D01-4EAA-989F-2E21E7187B3B
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

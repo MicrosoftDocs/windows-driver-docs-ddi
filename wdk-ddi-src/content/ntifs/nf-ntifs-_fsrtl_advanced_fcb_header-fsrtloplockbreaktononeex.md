@@ -4,7 +4,7 @@ title: FsRtlOplockBreakToNoneEx function
 author: windows-driver-content
 description: The FsRtlOplockBreakToNoneEx routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fsrtloplockbreaktononeex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlOplockBreakToNoneEx
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

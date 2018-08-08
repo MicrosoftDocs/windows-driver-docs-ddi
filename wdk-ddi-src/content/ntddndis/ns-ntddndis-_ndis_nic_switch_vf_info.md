@@ -4,10 +4,10 @@ title: "_NDIS_NIC_SWITCH_VF_INFO"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VF_INFO structure specifies the information about a PCI Express (PCIe) Virtual Function (VF) that has been allocated on the network adapter.
 old-location: netvista\ndis_nic_switch_vf_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1af8b1cd-c594-49c7-8c25-674226295d90
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_INFO, PNDIS_NIC_SWITCH_VF_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_INFO, netvista.ndis_nic_switch_vf_info, ntddndis/NDIS_NIC_SWITCH_VF_INFO, ntddndis/PNDIS_NIC_SWITCH_VF_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

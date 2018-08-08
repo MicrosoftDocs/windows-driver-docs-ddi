@@ -4,7 +4,7 @@ title: WdfDeviceInitSetIoTypeEx function
 author: windows-driver-content
 description: The WdfDeviceInitSetIoTypeEx method sets the method or preference for how a driver will access the data buffers that are included in read and write requests, as well as device I/O control requests, for a specified device.
 old-location: wdf\wdfdeviceinitsetiotypeex.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3746D618-C92C-43AB-A45A-2188D572105D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

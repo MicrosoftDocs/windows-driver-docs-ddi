@@ -4,7 +4,7 @@ title: IKsPin::KsCreateSinkPinHandle
 author: windows-driver-content
 description: The KsCreateSinkPinHandle method creates a pin handle and stores it in the KS pin object.
 old-location: stream\ikspin_kscreatesinkpinhandle.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

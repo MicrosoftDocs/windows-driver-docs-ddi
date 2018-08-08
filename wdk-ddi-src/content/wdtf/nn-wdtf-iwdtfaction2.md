@@ -4,7 +4,7 @@ title: IWDTFAction2
 author: windows-driver-content
 description: Defines operations and properties that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iwdtfaction2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 0ca56301-9e46-4082-a5a4-41a9c655fbd8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

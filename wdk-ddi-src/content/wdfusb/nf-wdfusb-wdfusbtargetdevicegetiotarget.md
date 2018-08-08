@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceGetIoTarget function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB device.
 old-location: wdf\wdfusbtargetdevicegetiotarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8c598cb8-083a-459d-b94b-958b7d625c88
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

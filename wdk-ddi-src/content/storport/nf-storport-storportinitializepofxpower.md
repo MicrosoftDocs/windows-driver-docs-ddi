@@ -4,7 +4,7 @@ title: StorPortInitializePoFxPower function
 author: windows-driver-content
 description: A miniport driver calls StorPortInitializePoFxPower to register a storage device with the power management framework (PoFx).
 old-location: storage\storportinitializepofxpower.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

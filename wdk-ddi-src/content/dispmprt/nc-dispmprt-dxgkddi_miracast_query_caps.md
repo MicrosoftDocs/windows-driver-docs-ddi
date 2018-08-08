@@ -4,10 +4,10 @@ title: DXGKDDI_MIRACAST_QUERY_CAPS
 author: windows-driver-content
 description: Queries the Miracast capabilities of the current display adapter.
 old-location: display\dxgkddimiracastquerycaps.htm
-old-project: display
+tech.root: display
 ms.assetid: C10CAA33-C407-4183-9090-B9D78B07CD12
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DXGKDDI_MIRACAST_QUERY_CAPS callback, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_L2CAP_CONFIG_RANGE"
 author: windows-driver-content
 description: The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the FlushTO member of the _BRB_L2CA_OPEN_CHANNEL structure during incoming requests.
 old-location: bltooth\l2cap_config_range.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 95f288ea-a32a-478f-870b-5aa6ff1edf44
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

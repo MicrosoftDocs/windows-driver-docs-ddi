@@ -4,7 +4,7 @@ title: IKsPinEx::KsNotifyError
 author: windows-driver-content
 description: The KsNotifyError method notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex_ksnotifyerror.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

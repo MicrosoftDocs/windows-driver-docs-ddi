@@ -4,7 +4,7 @@ title: FltCheckAndGrowNameControl function
 author: windows-driver-content
 description: The FltCheckAndGrowNameControl routine checks whether the buffer in a FLT_NAME_CONTROL structure is large enough to hold the specified number of bytes. If not, FltCheckAndGrowNameControl replaces it with a larger system-allocated buffer.
 old-location: ifsk\fltcheckandgrownamecontrol.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0a49e69e-6b6b-4f86-bd41-d1ad73e63a17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

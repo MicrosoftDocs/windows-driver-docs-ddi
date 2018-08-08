@@ -4,7 +4,7 @@ title: READ_PORT_UCHAR function
 author: windows-driver-content
 description: The READ_PORT_UCHAR routine reads a byte from the specified port address.
 old-location: kernel\read_port_uchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IKsPropertySet::Get
 author: windows-driver-content
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

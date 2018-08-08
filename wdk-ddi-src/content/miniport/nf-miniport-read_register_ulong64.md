@@ -4,7 +4,7 @@ title: READ_REGISTER_ULONG64 function
 author: windows-driver-content
 description: The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
 old-location: wdf\read_register_ulong64.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: D8AB8735-8909-463E-B10E-1FE5FD557FBB
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -16,19 +16,19 @@ req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
-req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-min-winversvr:
+req.kmdf-ver:
 req.umdf-ver: 1.11
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
 req.max-support: Unavailable in UMDF 2.0 and later.
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

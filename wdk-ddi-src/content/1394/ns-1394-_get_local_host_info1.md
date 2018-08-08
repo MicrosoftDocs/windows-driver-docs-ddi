@@ -4,7 +4,7 @@ title: "_GET_LOCAL_HOST_INFO1"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO1 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel GET_HOST_UNIQUE_ID.
 old-location: ieee\get_local_host_info1.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 49ec5322-2caa-4e95-85d0-74b9137d9bcd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,10 +4,10 @@ title: "_D3DKMT_BRIGHTNESS_INFO"
 author: windows-driver-content
 description: Contains information about the brightness of an integrated display panel.
 old-location: display\d3dkmt_brightness_info.htm
-old-project: display
+tech.root: display
 ms.assetid: a620b0b2-85ce-4373-a50c-299d8ce7a91c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_BRIGHTNESS_INFO, D3DKMT_BRIGHTNESS_INFO structure [Display Devices], _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO, display.d3dkmt_brightness_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KsFilterRegisterPowerCallbacks function
 author: windows-driver-content
 description: The KsFilterRegisterPowerCallbacks function registers power management callbacks for Filter.
 old-location: stream\ksfilterregisterpowercallbacks.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9b4a7932-7371-48d2-95fb-1c3e3ca170be
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

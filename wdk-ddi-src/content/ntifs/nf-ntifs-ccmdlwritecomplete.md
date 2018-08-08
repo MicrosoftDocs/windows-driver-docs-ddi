@@ -4,7 +4,7 @@ title: CcMdlWriteComplete function
 author: windows-driver-content
 description: The CcMdlWriteComplete routine frees the memory descriptor lists (MDL) created by CcPrepareMdlWrite for a cached file.
 old-location: ifsk\ccmdlwritecomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

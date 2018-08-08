@@ -4,7 +4,7 @@ title: "_WDF_USB_CONTINUOUS_READER_CONFIG"
 author: windows-driver-content
 description: The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information that the framework uses to configure a continuous reader for a USB pipe.
 old-location: wdf\wdf_usb_continuous_reader_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9b98d5f1-6052-4c52-b3d4-031c8a0db51c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

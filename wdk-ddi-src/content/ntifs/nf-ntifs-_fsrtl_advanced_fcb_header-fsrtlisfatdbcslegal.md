@@ -4,7 +4,7 @@ title: FsRtlIsFatDbcsLegal function
 author: windows-driver-content
 description: The FsRtlIsFatDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
 old-location: ifsk\fsrtlisfatdbcslegal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlIsFatDbcsLegal
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -4,7 +4,7 @@ title: IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
 author: windows-driver-content
 description: A driver's OnD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts.
 old-location: wdf\ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6AA5AA6F-DC73-40E6-8EE0-CAA91D89A0E8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

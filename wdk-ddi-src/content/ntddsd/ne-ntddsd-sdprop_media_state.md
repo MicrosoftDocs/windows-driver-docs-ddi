@@ -4,7 +4,7 @@ title: SDPROP_MEDIA_STATE
 author: windows-driver-content
 description: The SDPROP_MEDIA_STATE enumeration lists the values associated with the media states property.
 old-location: sd\sdprop_media_state.htm
-old-project: SD
+tech.root: SD
 ms.assetid: b59fd639-f2e2-4765-bcc7-01934df3a0bc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

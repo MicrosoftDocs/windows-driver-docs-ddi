@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_REMOVE_RECORD
 author: windows-driver-content
 description: The IOCTL_BTH_SDP_REMOVE_RECORD request removes a local SDP record that the profile driver previously submitted. The local server will no longer offer this record to remote devices.
 old-location: bltooth\ioctl_bth_sdp_remove_record.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 8d559078-ece5-4e15-b010-e39b86679398
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

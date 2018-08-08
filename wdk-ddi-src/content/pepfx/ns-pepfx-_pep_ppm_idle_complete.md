@@ -4,7 +4,7 @@ title: "_PEP_PPM_IDLE_COMPLETE"
 author: windows-driver-content
 description: The PEP_PPM_IDLE_COMPLETE structure describe the idle states from which the processor and hardware platform are waking.
 old-location: kernel\pep_ppm_idle_complete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

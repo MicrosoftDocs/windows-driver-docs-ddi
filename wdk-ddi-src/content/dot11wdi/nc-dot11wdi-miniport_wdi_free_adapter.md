@@ -4,10 +4,10 @@ title: MINIPORT_WDI_FREE_ADAPTER
 author: windows-driver-content
 description: The MiniportWdiFreeAdapter handler function requests that the IHV driver deletes its software state.
 old-location: netvista\miniportwdifreeadapter.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7D88B513-5289-4347-BD25-BDFEB86CE62F
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_FREE_ADAPTER, MINIPORT_WDI_FREE_ADAPTER callback, MiniportWdiFreeAdapter, MiniportWdiFreeAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiFreeAdapter, netvista.miniportwdifreeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

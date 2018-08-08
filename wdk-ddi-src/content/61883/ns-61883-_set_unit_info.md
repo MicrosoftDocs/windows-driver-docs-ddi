@@ -4,7 +4,7 @@ title: "_SET_UNIT_INFO"
 author: windows-driver-content
 description: This structure is used to set unit information.
 old-location: ieee\set_unit_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: D4A9B507-E199-42EA-BC29-6F477BEC8D20
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

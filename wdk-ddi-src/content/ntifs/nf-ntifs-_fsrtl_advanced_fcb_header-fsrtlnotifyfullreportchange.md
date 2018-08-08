@@ -4,7 +4,7 @@ title: FsRtlNotifyFullReportChange function
 author: windows-driver-content
 description: The FsRtlNotifyFullReportChange routine completes pending notify change IRPs.
 old-location: ifsk\fsrtlnotifyfullreportchange.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNotifyFullReportChange
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

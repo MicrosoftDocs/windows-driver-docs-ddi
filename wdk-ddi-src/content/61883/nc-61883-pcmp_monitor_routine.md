@@ -4,7 +4,7 @@ title: PCMP_MONITOR_ROUTINE
 author: windows-driver-content
 description: This routine is called for plug monitoring.
 old-location: ieee\pcmp_monitor_routine.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: E140D097-EE2F-4179-A43D-570397459762
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

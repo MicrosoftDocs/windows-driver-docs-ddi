@@ -4,7 +4,7 @@ title: WdfRegistryCreateKey function
 author: windows-driver-content
 description: The WdfRegistryCreateKey method creates and opens a specified registry key, or just opens the key if it already exists, and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfregistrycreatekey.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: acaf7024-b73a-4fe5-89e2-83e28cf2fdd1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

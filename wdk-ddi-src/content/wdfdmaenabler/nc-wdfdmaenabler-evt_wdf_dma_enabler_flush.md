@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_ENABLER_FLUSH
 author: windows-driver-content
 description: A driver's EvtDmaEnablerFlush event callback function deallocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerflush.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bb606889-7d05-49a0-b0b7-e1f6d6c315d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

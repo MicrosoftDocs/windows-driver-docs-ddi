@@ -4,7 +4,7 @@ title: HBA_FcpId
 author: windows-driver-content
 description: The HBA_FcpId structure is identical to the HBAFCPID structure.
 old-location: storage\hba_fcpid.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fed2c733-5011-4dba-a8ec-3a0742574949
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

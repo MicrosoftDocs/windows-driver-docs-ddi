@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
 author: windows-driver-content
 description: The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT.
 old-location: nfpdrivers\secure_element_event_subscription_info.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 1ADA8430-86B4-4885-B20A-EBA8CDAC5449
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_FILE_DISPOSITION_INFORMATION_EX"
 author: windows-driver-content
 description: The FILE_DISPOSITION_INFORMATION_EX structure is used as an argument to the ZwSetInformationFileEx routine and indicates how the operating system should delete a file.
 old-location: ifsk\file_disposition_information_ex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

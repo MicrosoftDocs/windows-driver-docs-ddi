@@ -4,7 +4,7 @@ title: ChangerClassAllocatePool function
 author: windows-driver-content
 description: The ChangerClassAllocatePool function allocates pool memory.
 old-location: storage\changerclassallocatepool.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

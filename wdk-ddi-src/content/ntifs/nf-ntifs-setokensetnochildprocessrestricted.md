@@ -4,7 +4,7 @@ title: SeTokenSetNoChildProcessRestricted function
 author: windows-driver-content
 description: The SeTokenSetNoChildProcessRestricted routine sets the TOKEN_AUDIT_NO_CHILD_PROCESS or TOKEN_AUDIT_NO_CHILD_PROCESS flags in the token.
 old-location: ifsk\setokensetnochildprocessrestricted.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: FCFCBF4C-CBAA-4284-A6F4-67630608CF19
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_SendRNIDV2_IN"
 author: windows-driver-content
 description: The SendRNIDV2_IN structure is used to deliver input parameter data to the SendRNIDV2 WMI method.
 old-location: storage\sendrnidv2_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b9c0833d-96ac-41cb-815f-b2df27f46cb4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RxLowIoCompletion function
 author: windows-driver-content
 description: RxLowIoCompletion must be called by the network mini-redirector low I/O routines when they complete, if the low I/O routines have initially returned STATUS_PENDING.
 old-location: ifsk\rxlowiocompletion.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d9018a68-e72c-4149-a6a5-095654d0363c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

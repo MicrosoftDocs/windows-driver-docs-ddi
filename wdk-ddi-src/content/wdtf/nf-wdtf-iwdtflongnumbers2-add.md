@@ -4,7 +4,7 @@ title: IWDTFLongNumbers2::Add
 author: windows-driver-content
 description: Adds a single long number to the collection.
 old-location: dtf\iwdtflongnumbers2_add.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2a3228a3-f2b4-45c8-9cb0-b3834308f5da
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

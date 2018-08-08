@@ -4,7 +4,7 @@ title: RILREGSTAT
 author: windows-driver-content
 description: This enumeration describes the RILREGSTAT.
 old-location: netvista\rilregstat.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 53c72dbb-cf8d-4683-a440-985669265a52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,13 +58,13 @@ req.typenames: RILREGSTAT
 
 ````
 enum RILREGSTAT  {
-  RIL_REGSTAT_UNKNOWN       = 0x00000000, 
-  RIL_REGSTAT_UNREGISTERED  = 0x00000001, 
-  RIL_REGSTAT_HOME          = 0x00000002, 
-  RIL_REGSTAT_ATTEMPTING    = 0x00000003, 
-  RIL_REGSTAT_DENIED        = 0x00000004, 
-  RIL_REGSTAT_ROAMING       = 0x00000005, 
-  RIL_REGSTAT_ROAMING_INTL  = 0x00000006 
+  RIL_REGSTAT_UNKNOWN       = 0x00000000,
+  RIL_REGSTAT_UNREGISTERED  = 0x00000001,
+  RIL_REGSTAT_HOME          = 0x00000002,
+  RIL_REGSTAT_ATTEMPTING    = 0x00000003,
+  RIL_REGSTAT_DENIED        = 0x00000004,
+  RIL_REGSTAT_ROAMING       = 0x00000005,
+  RIL_REGSTAT_ROAMING_INTL  = 0x00000006
 
 };
 ````

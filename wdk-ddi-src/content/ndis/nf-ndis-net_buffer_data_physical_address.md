@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NET_BUFFER_DATA_PHYSICAL_ADDRESS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

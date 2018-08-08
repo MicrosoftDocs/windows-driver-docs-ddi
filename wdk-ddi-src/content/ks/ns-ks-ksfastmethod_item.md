@@ -4,7 +4,7 @@ title: KSFASTMETHOD_ITEM
 author: windows-driver-content
 description: Drivers provide a structure of type KSFASTMETHOD_ITEM to support fast I/O dispatching.
 old-location: stream\ksfastmethod_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 71e59c73-d77d-4b10-9d13-f5d21338eb94
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KsPropertyHandler function
 author: windows-driver-content
 description: Drivers call KsPropertyHandler function for IRP handling.
 old-location: stream\kspropertyhandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

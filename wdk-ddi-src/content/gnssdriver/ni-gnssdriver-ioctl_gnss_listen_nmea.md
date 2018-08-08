@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_NMEA
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_NMEA control code is used to start listening for NMEA events from the driver.
 old-location: gnss\ioctl_gnss_listen_nmea.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 975F5FB4-503D-44E7-8D4C-2AEFE72B672B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

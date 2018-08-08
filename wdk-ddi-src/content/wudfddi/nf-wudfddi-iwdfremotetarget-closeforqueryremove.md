@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::CloseForQueryRemove
 author: windows-driver-content
 description: The CloseForQueryRemove method closes a remote I/O target because the operating system might allow the device to be removed.
 old-location: wdf\iwdfremotetarget_closeforqueryremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

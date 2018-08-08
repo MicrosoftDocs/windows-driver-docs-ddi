@@ -4,7 +4,7 @@ title: PLOAD_IMAGE_NOTIFY_ROUTINE
 author: windows-driver-content
 description: Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory.
 old-location: kernel\pload_image_notify_routine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

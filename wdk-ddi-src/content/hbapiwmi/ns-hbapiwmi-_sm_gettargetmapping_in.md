@@ -4,7 +4,7 @@ title: "_SM_GetTargetMapping_IN"
 author: windows-driver-content
 description: The SM_GetTargetMapping_IN structure is used to provide input parameters to the SM_GetTargetMapping method.
 old-location: storage\sm_gettargetmapping_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d6f73582-5eaf-452f-ad5a-cdf5ab99d809
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

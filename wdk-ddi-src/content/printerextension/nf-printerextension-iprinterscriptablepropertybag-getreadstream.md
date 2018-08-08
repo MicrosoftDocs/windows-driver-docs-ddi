@@ -4,7 +4,7 @@ title: IPrinterScriptablePropertyBag::GetReadStream
 author: windows-driver-content
 description: Gets a read stream and uses it to read from a property.
 old-location: print\iprinterscriptablepropertybag_getreadstream.htm
-old-project: print
+tech.root: print
 ms.assetid: 493E6C55-DC3B-4160-9642-BDABADD575B8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

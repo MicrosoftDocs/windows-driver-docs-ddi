@@ -4,7 +4,7 @@ title: KeGetCurrentNodeNumber function
 author: windows-driver-content
 description: The KeGetCurrentNodeNumber routine gets the NUMA node number for the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentnodenumber.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9b8601ad-5605-46a3-9dbe-47dc8ed5906c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_STATS
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_STATS request returns information about the performance of a serial controller.
 old-location: serports\ioctl_serial_get_stats.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 264b8460-acda-46ba-b070-e2956f7cfc50
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

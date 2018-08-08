@@ -4,7 +4,7 @@ title: CcGetDirtyPages function
 author: windows-driver-content
 description: The CcGetDirtyPages routine searches for dirty pages in all files that match a given log handle.
 old-location: ifsk\ccgetdirtypages.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

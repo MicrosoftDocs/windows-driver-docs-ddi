@@ -4,7 +4,7 @@ title: KeClearEvent function
 author: windows-driver-content
 description: The KeClearEvent routine sets an event to a not-signaled state.
 old-location: kernel\keclearevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ded54c88-3da0-42ec-88be-865d3cb87651
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

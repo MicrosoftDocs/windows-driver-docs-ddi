@@ -4,10 +4,10 @@ title: "_UDECX_USB_ENDPOINT_CALLBACKS"
 author: windows-driver-content
 description: Contains function pointers to endpoint callback functions implemented by the UDE client driver. Initialize this structure by calling UDECX_USB_ENDPOINT_CALLBACKS_INIT.
 old-location: buses\udecx_usb_endpoint_callbacks.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 5AAB4474-9FDF-4ACF-AC38-F84D2682B5E0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], UDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], _UDECX_USB_ENDPOINT_CALLBACKS, buses.udecx_usb_endpoint_callbacks, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

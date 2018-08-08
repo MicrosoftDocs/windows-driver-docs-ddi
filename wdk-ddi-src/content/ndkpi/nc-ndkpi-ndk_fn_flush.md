@@ -4,10 +4,10 @@ title: NDK_FN_FLUSH
 author: windows-driver-content
 description: The NdkFlush (NDK_FN_FLUSH) function initiates cancelling of the receive and the initiator queue requests that are currently pending on an NDK queue pair (QP) object.
 old-location: netvista\ndk_fn_flush.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8C5F62DD-36CB-4EBC-9113-BB5BF19C0D45
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_FLUSH, NDK_FN_FLUSH callback, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: StorPortFreeRegistryBuffer function
 author: windows-driver-content
 description: The StorPortFreeRegistryBuffer routine frees the buffer that was allocated for storing registry data.
 old-location: storage\storportfreeregistrybuffer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

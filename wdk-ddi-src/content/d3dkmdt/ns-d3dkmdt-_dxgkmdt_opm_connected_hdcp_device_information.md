@@ -4,10 +4,10 @@ title: "_DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure contains High-bandwidth Digital Content Protection (HDCP) information that is retrieved in a call to the DxgkDdiOPMGetInformation function.
 old-location: display\dxgkmdt_opm_connected_hdcp_device_information.htm
-old-project: display
+tech.root: display
 ms.assetid: 5f99d3e5-1fa2-43a9-98fb-347dfe85440a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices], DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information
 ms.prod: windows-hardware
 ms.technology: windows-devices

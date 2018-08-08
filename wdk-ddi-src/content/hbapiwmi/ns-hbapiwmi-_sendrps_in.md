@@ -4,7 +4,7 @@ title: "_SendRPS_IN"
 author: windows-driver-content
 description: The SendRPS_IN structure is used to deliver input parameter data to the SendRPS WMI method.
 old-location: storage\sendrps_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7ab8986d-1e28-4d25-888f-cd10e310d623
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: NtQueryInformationResourceManager function
 author: windows-driver-content
 description: The ZwQueryInformationResourceManager routine retrieves information about a specified resource manager object.
 old-location: kernel\zwqueryinformationresourcemanager.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

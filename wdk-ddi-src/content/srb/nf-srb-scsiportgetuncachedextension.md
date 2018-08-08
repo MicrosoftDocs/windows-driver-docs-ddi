@@ -4,7 +4,7 @@ title: ScsiPortGetUncachedExtension function
 author: windows-driver-content
 description: The ScsiPortGetUncachedExtension routine allocates memory that can be used by both the CPU and a bus-master HBA for DMA or for shared data.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetuncachedextension.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d32da7d9-7f26-4c99-8c10-3b9e1a7c9c22
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

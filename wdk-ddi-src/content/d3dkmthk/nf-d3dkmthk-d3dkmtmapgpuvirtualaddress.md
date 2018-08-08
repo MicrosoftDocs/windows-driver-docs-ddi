@@ -4,10 +4,10 @@ title: D3DKMTMapGpuVirtualAddress function
 author: windows-driver-content
 description: D3DKMTMapGpuVirtualAddress maps a graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
 old-location: display\d3dkmtmapgpuvirtualaddress.htm
-old-project: display
+tech.root: display
 ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress, display.d3dkmtmapgpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ In the  linked display adapter configuration the paging queue defines a physical
 
 ### -param Arg1
 
-TBD
+
 
 
 

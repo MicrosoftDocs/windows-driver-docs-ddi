@@ -4,10 +4,10 @@ title: PROTOCOL_CL_NOTIFY_CLOSE_AF
 author: windows-driver-content
 description: The ProtocolClNotifyCloseAf function notifies a CoNDIS client that the client should close the associated address family (AF).Note  You must declare the function by using the PROTOCOL_CL_NOTIFY_CLOSE_AF type.
 old-location: netvista\protocolclnotifycloseaf.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0f595daa-9822-4ca6-8f25-e6f82030d4ea
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_NOTIFY_CLOSE_AF, PROTOCOL_CL_NOTIFY_CLOSE_AF callback, ProtocolClNotifyCloseAf, ProtocolClNotifyCloseAf callback function [Network Drivers Starting with Windows Vista], condis_client_ref_0b778346-7d48-4d72-807d-16d8be2da913.xml, ndis/ProtocolClNotifyCloseAf, netvista.protocolclnotifycloseaf
 ms.prod: windows-hardware
 ms.technology: windows-devices

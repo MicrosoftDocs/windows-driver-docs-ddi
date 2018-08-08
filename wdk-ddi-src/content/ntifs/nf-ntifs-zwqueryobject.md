@@ -4,7 +4,7 @@ title: ZwQueryObject function
 author: windows-driver-content
 description: The ZwQueryObject routine provides information about a supplied object.
 old-location: kernel\zwqueryobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 439658a5-d2db-4a31-a1eb-b8943c40cc96
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

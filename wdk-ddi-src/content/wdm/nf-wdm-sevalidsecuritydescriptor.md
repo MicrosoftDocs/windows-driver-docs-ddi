@@ -4,7 +4,7 @@ title: SeValidSecurityDescriptor function
 author: windows-driver-content
 description: The SeValidSecurityDescriptor routine returns whether a given security descriptor is structurally valid.
 old-location: kernel\sevalidsecuritydescriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

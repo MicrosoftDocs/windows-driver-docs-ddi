@@ -4,7 +4,7 @@ title: "_SES_DOWNLOAD_MICROCODE_STATE"
 author: windows-driver-content
 description: TBD.
 old-location: storage\ses_download_microcode_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5edff312-8373-4d36-b93c-c35fe8c2996a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE
 author: windows-driver-content
 description: The EvtSerCx2CustomTransmitTransactionInitialize event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a custom-transmit transaction.
 old-location: serports\evtsercx2customtransmittransactioninitialize.htm
-old-project: serports
+tech.root: serports
 ms.assetid: CFC577D6-747F-4752-8CB6-7410C21487B6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

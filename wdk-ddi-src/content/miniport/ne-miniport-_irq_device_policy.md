@@ -4,7 +4,7 @@ title: "_IRQ_DEVICE_POLICY"
 author: windows-driver-content
 description: The IRQ_DEVICE_POLICY enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
 old-location: kernel\irq_device_policy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

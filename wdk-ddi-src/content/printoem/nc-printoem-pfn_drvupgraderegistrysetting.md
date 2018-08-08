@@ -4,7 +4,7 @@ title: PFN_DrvUpgradeRegistrySetting
 author: windows-driver-content
 description: The DrvUpgradeRegistrySetting function is obsolete.
 old-location: print\drvupgraderegistrysetting.htm
-old-project: print
+tech.root: print
 ms.assetid: cb03b9d4-b623-49b8-a63d-ae97b33065c5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

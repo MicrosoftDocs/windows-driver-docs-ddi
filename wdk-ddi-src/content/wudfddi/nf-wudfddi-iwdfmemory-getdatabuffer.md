@@ -4,7 +4,7 @@ title: IWDFMemory::GetDataBuffer
 author: windows-driver-content
 description: The GetDataBuffer method retrieves the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getdatabuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 136aa2af-e3bf-48b6-9511-348510eedfb5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

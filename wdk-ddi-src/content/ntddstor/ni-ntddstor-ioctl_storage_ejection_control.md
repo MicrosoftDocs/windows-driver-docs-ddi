@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_EJECTION_CONTROL
 author: windows-driver-content
 description: Locks the device to prevent removal of the media.
 old-location: storage\ioctl_storage_ejection_control.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0b9726a1-0658-4eda-8f27-abf647cdc046
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

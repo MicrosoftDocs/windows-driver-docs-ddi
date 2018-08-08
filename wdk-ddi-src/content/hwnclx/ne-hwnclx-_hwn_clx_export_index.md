@@ -4,7 +4,7 @@ title: "_HWN_CLX_EXPORT_INDEX"
 author: windows-driver-content
 description: Defines the position for each of the Hardware Notification exports in the export table.
 old-location: gpiobtn\_hwn_clx_export_index.htm
-old-project: gpiobtn
+tech.root: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: hwnclx.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -58,7 +58,7 @@ Defines the position for each of the Hardware Notification exports in the export
 
 
 ````
-typedef enum _HWN_CLX_EXPORT_INDEX { 
+typedef enum _HWN_CLX_EXPORT_INDEX {
   RegisterClientIndex             = 0x0,
   UnregisterClientIndex,
   AddDevicePreDeviceCreateIndex,

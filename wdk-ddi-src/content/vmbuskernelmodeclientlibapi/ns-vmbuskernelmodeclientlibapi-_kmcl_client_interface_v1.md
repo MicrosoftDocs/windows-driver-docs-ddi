@@ -31,7 +31,8 @@ api_location:
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
 -	_KMCL_CLIENT_INTERFACE_V1
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

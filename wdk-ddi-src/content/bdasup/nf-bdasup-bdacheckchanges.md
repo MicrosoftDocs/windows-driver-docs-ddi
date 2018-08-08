@@ -4,7 +4,7 @@ title: BdaCheckChanges function
 author: windows-driver-content
 description: The BdaCheckChanges function verifies a new set of BDA topology changes before they are committed.
 old-location: stream\bdacheckchanges.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4831e13b-19e7-458c-a392-a135d43fc989
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

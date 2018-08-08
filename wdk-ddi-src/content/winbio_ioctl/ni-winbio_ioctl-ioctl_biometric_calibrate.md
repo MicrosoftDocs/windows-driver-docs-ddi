@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_CALIBRATE
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CALIBRATE IOCTL directs the driver to perform any necessary steps to calibrate the device for use.
 old-location: biometric\ioctl_biometric_calibrate.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

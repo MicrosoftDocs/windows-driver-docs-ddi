@@ -4,7 +4,7 @@ title: InsertHeadList function
 author: windows-driver-content
 description: The InsertHeadList routine inserts an entry at the head of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\insertheadlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

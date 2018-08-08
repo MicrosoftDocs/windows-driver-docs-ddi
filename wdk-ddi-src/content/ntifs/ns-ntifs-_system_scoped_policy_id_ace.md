@@ -4,7 +4,7 @@ title: "_SYSTEM_SCOPED_POLICY_ID_ACE"
 author: windows-driver-content
 description: The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying rights for a scoped policy identifer.
 old-location: ifsk\system_scoped_policy_id_ace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2867CA25-B140-4EBA-A8F9-57C12C3700CF
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

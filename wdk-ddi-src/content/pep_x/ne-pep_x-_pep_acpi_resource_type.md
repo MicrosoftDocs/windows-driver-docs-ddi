@@ -4,7 +4,7 @@ title: "_PEP_ACPI_RESOURCE_TYPE"
 author: windows-driver-content
 description: The PEP_ACPI_RESOURCE_TYPE enumeration is used to identify the type of ACPI resource that is contained in the PEP_ACPI_RESOURCE union.
 old-location: kernel\pep_acpi_resource_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

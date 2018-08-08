@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_ALLOCATE_CHANNEL"
 author: windows-driver-content
 description: This structure contains the fields necessary in order for the 1394 bus driver to carry out an IsochAllocateChannel request.
 old-location: ieee\irb_req_isoch_allocate_channel.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

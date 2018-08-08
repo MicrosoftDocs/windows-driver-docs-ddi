@@ -4,7 +4,7 @@ title: ZwQuerySymbolicLinkObject function
 author: windows-driver-content
 description: The ZwQuerySymbolicLinkObject routine returns a Unicode string that contains the target of a symbolic link.
 old-location: kernel\zwquerysymboliclinkobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

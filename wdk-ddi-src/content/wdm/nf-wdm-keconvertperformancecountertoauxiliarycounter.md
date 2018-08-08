@@ -4,7 +4,7 @@ title: KeConvertPerformanceCounterToAuxiliaryCounter function
 author: windows-driver-content
 description: The KeConvertPerformanceCounterToAuxiliaryCounter routine converts the specified performance counter value into an auxiliary counter value.
 old-location: kernel\keconvertperformancecountertoauxiliarycounter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

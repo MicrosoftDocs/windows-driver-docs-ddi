@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_INFO
 author: windows-driver-content
 description: This structure contains information about an ROI.
 old-location: stream\kscamera_extendedprop_roi_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: DAE013B7-7715-4B03-99F7-807306736C14
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

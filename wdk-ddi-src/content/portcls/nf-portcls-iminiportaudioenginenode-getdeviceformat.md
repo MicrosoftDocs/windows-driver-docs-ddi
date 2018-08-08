@@ -4,10 +4,10 @@ title: IMiniportAudioEngineNode::GetDeviceFormat
 author: windows-driver-content
 description: Gets the audio data format for an audio device.
 old-location: audio\iminiportaudioenginenode_getdeviceformat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 6EA01AE7-E5D5-4182-862D-2901185C2BF8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetDeviceFormat, GetDeviceFormat method [Audio Devices], GetDeviceFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceFormat method, IMiniportAudioEngineNode.GetDeviceFormat, IMiniportAudioEngineNode::GetDeviceFormat, audio.iminiportaudioenginenode_getdeviceformat, portcls/IMiniportAudioEngineNode::GetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

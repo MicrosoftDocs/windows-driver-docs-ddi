@@ -4,7 +4,7 @@ title: FltCbdqInsertIo function
 author: windows-driver-content
 description: FltCbdqInsertIo inserts the callback data structure for an I/O operation into a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqinsertio.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d20d2626-89fb-4bc5-9309-88977b921078
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

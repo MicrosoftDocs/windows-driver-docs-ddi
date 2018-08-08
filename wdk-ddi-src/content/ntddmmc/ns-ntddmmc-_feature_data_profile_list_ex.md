@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_PROFILE_LIST_EX"
 author: windows-driver-content
 description: The FEATURE_DATA_PROFILE_LIST_EX structure contains information corresponding to a profile list element in a profile list descriptor.
 old-location: storage\feature_data_profile_list_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c15f9be2-1f35-41cf-a1de-880e3662f2b4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

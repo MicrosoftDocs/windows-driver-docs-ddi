@@ -4,7 +4,7 @@ title: "_WDF_EVENT_TYPE"
 author: windows-driver-content
 description: The WDF_EVENT_TYPE enumeration specifies.
 old-location: wdf\wdf_event_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

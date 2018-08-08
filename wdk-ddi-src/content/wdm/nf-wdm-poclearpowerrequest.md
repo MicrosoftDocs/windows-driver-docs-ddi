@@ -4,7 +4,7 @@ title: PoClearPowerRequest function
 author: windows-driver-content
 description: The PoClearPowerRequest routine decrements the count for the specified power request type.
 old-location: kernel\poclearpowerrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d3754cca-81a4-42d2-a728-9f7e3270a4ee
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IPrintPipelineFilter::StartOperation
 author: windows-driver-content
 description: The StartOperation method starts the operation of a filter. The filter reads, processes, and writes data in this method.
 old-location: print\iprintpipelinefilter_startoperation.htm
-old-project: print
+tech.root: print
 ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

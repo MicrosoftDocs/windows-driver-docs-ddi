@@ -4,7 +4,7 @@ title: PoEndDeviceBusy function
 author: windows-driver-content
 description: The PoEndDeviceBusy routine marks the end of a period of time in which the device is busy.
 old-location: kernel\poenddevicebusy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ba5cfe7-a745-497e-b5ce-8c7b3d4929f5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

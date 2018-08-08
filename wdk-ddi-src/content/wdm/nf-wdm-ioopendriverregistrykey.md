@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	IoOpenDriverRegistryKey
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -4,10 +4,10 @@ title: "_DEBUG_PROCESSOR_IDENTIFICATION_AMD64"
 author: windows-driver-content
 description: Identifies an AMD64 processor.
 old-location: debugger\debug_processor_identification_amd64.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 71E28D54-19D2-4A62-9A63-633186F67AD5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, PDEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_AMD64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_AMD64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, debugger.debug_processor_identification_amd64"
 ms.prod: windows-hardware
 ms.technology: windows-devices

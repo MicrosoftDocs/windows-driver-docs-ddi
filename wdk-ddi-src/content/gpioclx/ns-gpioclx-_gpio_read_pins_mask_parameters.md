@@ -4,7 +4,7 @@ title: "_GPIO_READ_PINS_MASK_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_READ_PINS_MASK_PARAMETERS structure describes a read operation on a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_read_pins_mask_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 679C9A71-7F39-4344-93D0-6B1332D76CF7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

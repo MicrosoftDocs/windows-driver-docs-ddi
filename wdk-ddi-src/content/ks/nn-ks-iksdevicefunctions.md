@@ -4,7 +4,7 @@ title: IKsDeviceFunctions
 author: windows-driver-content
 description: The IKsDeviceFunctions interface is a COM-style interface implemented on AVStream devices. This interface is available in Windows Server 2003 SP1 and later versions of Windows.
 old-location: stream\iksdevicefunctions.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d29e7b39-5fcf-4543-9363-6f8ac6a9c7dc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

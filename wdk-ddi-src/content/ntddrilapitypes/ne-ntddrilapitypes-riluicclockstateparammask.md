@@ -4,7 +4,7 @@ title: RILUICCLOCKSTATEPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILUICCLOCKSTATEPARAMMASK.
 old-location: netvista\riluicclockstateparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 19366fbe-8a04-4a9f-9acc-8de0211e6e0d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,11 +58,11 @@ req.typenames: RILUICCLOCKSTATEPARAMMASK
 
 ````
 enum RILUICCLOCKSTATEPARAMMASK {
-  RIL_PARAM_UICCLOCKSTATE_UICCLOCK             = 0x00000001, 
-  RIL_PARAM_UICCLOCKSTATE_LOCKSTATE            = 0x00000002, 
-  RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT   = 0x00000004, 
-  RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT  = 0x00000008, 
-  RIL_PARAM_UICCLOCKSTATE_ALL                  = 0x0000000F 
+  RIL_PARAM_UICCLOCKSTATE_UICCLOCK             = 0x00000001,
+  RIL_PARAM_UICCLOCKSTATE_LOCKSTATE            = 0x00000002,
+  RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT   = 0x00000004,
+  RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT  = 0x00000008,
+  RIL_PARAM_UICCLOCKSTATE_ALL                  = 0x0000000F
 
 };
 ````

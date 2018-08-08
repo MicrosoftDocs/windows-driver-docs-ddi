@@ -4,10 +4,10 @@ title: NDK_FN_WRITE
 author: windows-driver-content
 description: The NdkWrite (NDK_FN_WRITE) function posts a write request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_write.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4AE7E897-556B-40C4-BC12-31D957552690
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_WRITE, NDK_FN_WRITE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkWrite, NdkWrite callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkWrite, netvista.ndk_fn_write
 ms.prod: windows-hardware
 ms.technology: windows-devices

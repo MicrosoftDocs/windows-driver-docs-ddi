@@ -4,7 +4,7 @@ title: KsServiceBusEnumCreateRequest function
 author: windows-driver-content
 description: The KsServiceBusEnumCreateRequest function services IRP_MJ_CREATE requests for the software bus device interface.
 old-location: stream\ksservicebusenumcreaterequest.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

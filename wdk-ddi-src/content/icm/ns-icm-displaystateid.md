@@ -31,7 +31,8 @@ api_location:
 -	icm.h
 api_name: 
 -	DisplayStateID
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

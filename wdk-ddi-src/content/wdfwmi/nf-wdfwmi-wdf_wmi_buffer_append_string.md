@@ -4,7 +4,7 @@ title: WDF_WMI_BUFFER_APPEND_STRING function
 author: windows-driver-content
 description: The WDF_WMI_BUFFER_APPEND_STRING function copies a specified Unicode string into a specified buffer in the format that WMI requires.
 old-location: wdf\wdf_wmi_buffer_append_string.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

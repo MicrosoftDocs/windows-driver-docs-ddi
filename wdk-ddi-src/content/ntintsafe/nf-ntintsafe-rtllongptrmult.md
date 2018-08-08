@@ -4,7 +4,7 @@ title: RtlLongPtrMult function
 author: windows-driver-content
 description: Multiplies one value of type LONG_PTR by another.
 old-location: kernel\rtllongptrmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

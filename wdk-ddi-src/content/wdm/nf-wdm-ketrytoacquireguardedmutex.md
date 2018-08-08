@@ -4,7 +4,7 @@ title: KeTryToAcquireGuardedMutex function
 author: windows-driver-content
 description: The KeTryToAcquireGuardedMutex routine acquires a guarded mutex, if available.
 old-location: kernel\ketrytoacquireguardedmutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5fa704ec-5068-42e9-8d52-2f775fd0e5c9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

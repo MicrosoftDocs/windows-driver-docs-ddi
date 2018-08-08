@@ -4,7 +4,7 @@ title: IOCTL_DISK_GROW_PARTITION
 author: windows-driver-content
 description: Increases the size of an existing partition.
 old-location: storage\ioctl_disk_grow_partition.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 984e9e7a-c135-4a6a-973d-b8597d9f8fed
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

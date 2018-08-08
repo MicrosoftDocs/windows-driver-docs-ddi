@@ -4,7 +4,7 @@ title: WdfStringGetUnicodeString function
 author: windows-driver-content
 description: The WdfStringGetUnicodeString method retrieves the Unicode string that is assigned to a specified framework string object.
 old-location: wdf\wdfstringgetunicodestring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

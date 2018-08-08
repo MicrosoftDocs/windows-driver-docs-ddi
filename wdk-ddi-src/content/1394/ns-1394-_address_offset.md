@@ -4,7 +4,7 @@ title: "_ADDRESS_OFFSET"
 author: windows-driver-content
 description: The ADDRESS_OFFSET structure specifies the 48-bit address within a device's IEEE 1394 address space.
 old-location: ieee\address_offset.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: e1ee536f-40e4-48b7-b2d0-6ead22520ec8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

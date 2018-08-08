@@ -4,7 +4,7 @@ title: KSWAVE_VOLUME
 author: windows-driver-content
 description: The KSWAVE_VOLUME structure is used to describe sample volume.
 old-location: stream\kswave_volume.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bf3a0b49-ecec-4e96-bf09-b269e8852422
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

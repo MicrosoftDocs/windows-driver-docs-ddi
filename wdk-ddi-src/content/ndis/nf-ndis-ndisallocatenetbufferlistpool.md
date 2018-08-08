@@ -4,10 +4,10 @@ title: NdisAllocateNetBufferListPool function
 author: windows-driver-content
 description: Call the NdisAllocateNetBufferListPool function to allocate a pool of NET_BUFFER_LIST structures.
 old-location: netvista\ndisallocatenetbufferlistpool.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b117b472-0c26-41a9-b364-3d0cfbd26cc9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisAllocateNetBufferListPool, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, netvista.ndisallocatenetbufferlistpool
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IWDTF2::get_SystemDepot
 author: windows-driver-content
 description: Gets the SystemDepot object.
 old-location: dtf\iwdtf2_systemdepot.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 0a377d87-c164-4ac3-9020-7bfe20f78d46
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

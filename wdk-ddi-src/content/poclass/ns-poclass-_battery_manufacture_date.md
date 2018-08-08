@@ -4,7 +4,7 @@ title: "_BATTERY_MANUFACTURE_DATE"
 author: windows-driver-content
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_manufacture_date.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 1ab9caa3-344a-49c8-8f40-75d9c251be04
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: poclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames: BATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE
 ## -description
 
 
-Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests. 
+Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests.
 
 
 ## -syntax

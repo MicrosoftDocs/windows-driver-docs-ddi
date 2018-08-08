@@ -4,7 +4,7 @@ title: TapeClassAllocateSrbBuffer function
 author: windows-driver-content
 description: The TapeClassAllocateSrbBuffer routine allocates an Srb-&gt;DataBuffer.
 old-location: storage\tapeclassallocatesrbbuffer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f6762d9b-5a3d-49a3-b954-48e4e4a9eacb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

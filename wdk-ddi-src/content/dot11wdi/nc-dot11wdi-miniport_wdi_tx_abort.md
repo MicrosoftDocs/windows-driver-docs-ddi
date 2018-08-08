@@ -4,10 +4,10 @@ title: MINIPORT_WDI_TX_ABORT
 author: windows-driver-content
 description: The MiniportWdiTxAbort handler function aborts outstanding TX frames for a given port or peer, which includes initiating the completion of frames owned by the TAL/target.
 old-location: netvista\miniportwditxabort.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: FA6BEAE9-5D48-463E-A398-518737D78867
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_TX_ABORT, MINIPORT_WDI_TX_ABORT callback, MiniportWdiTxAbort, MiniportWdiTxAbort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxAbort, netvista.miniportwditxabort
 ms.prod: windows-hardware
 ms.technology: windows-devices

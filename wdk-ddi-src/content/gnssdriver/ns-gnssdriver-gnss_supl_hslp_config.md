@@ -4,7 +4,7 @@ title: GNSS_SUPL_HSLP_CONFIG
 author: windows-driver-content
 description: This structure contains SUPL H-SLP configuration information.
 old-location: gnss\gnss_supl_hslp_config.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

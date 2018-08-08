@@ -4,7 +4,7 @@ title: RxFinalizeNetFcb function
 author: windows-driver-content
 description: RxFinalizeNetFCB finalizes the given FCB structure. The caller must have an exclusive lock on the NET_ROOT associated with FCB.
 old-location: ifsk\rxfinalizenetfcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1eed44e2-f9ed-45a1-a5fa-dbf6a9c7c703
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

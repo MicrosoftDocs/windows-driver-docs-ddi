@@ -4,7 +4,7 @@ title: PMRX_CHKFCB_CALLDOWN
 author: windows-driver-content
 description: The MRxAreFilesAliased routine is called by RDBSS to request the network mini-redirector to determine if two FCB structures represent the same file.
 old-location: ifsk\mrxarefilesaliased.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 273266b3-98f4-4c93-a06b-8e149440ad24
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

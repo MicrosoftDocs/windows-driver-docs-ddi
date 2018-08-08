@@ -4,7 +4,7 @@ title: "_GPIO_ENABLE_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_ENABLE_INTERRUPT_PARAMETERS structure specifies a general-purpose I/O (GPIO) pin and describes the interrupt attributes of this pin.
 old-location: gpio\gpio_enable_interrupt_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 9F9AA4C1-A202-4AF8-8E1D-F7E56C08A2C1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -118,7 +118,7 @@ The debounce time in units of 10 microseconds. For example, a debounce time of 5
 
 ### -field VendorData
 
-A pointer to a caller-allocated buffer that contains vendor-defined data for this GPIO pin. This member is optional and is set to NULL if no vendor-defined data is available. For more information about vendor-defined data, see the description of the <i>GPIO connection descriptor</i> in revision 5.0 of the Advanced Configuration and Power Interface specification (the ACPI 5.0 specification) at the <a href="http://www.acpi.info">ACPI</a> website.
+A pointer to a caller-allocated buffer that contains vendor-defined data for this GPIO pin. This member is optional and is set to NULL if no vendor-defined data is available. For more information about vendor-defined data, see the description of the <i>GPIO connection descriptor</i> in the [ACPI 5.0 specification](https://www.uefi.org/specifications).
 
 
 ### -field VendorDataLength

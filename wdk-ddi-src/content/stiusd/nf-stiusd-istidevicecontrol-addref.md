@@ -4,10 +4,10 @@ title: IStiDeviceControl::AddRef
 author: windows-driver-content
 description: The IStiDeviceControl::AddRef method increments the reference count for the IStiDeviceControl interface.
 old-location: image\istidevicecontrol_addref.htm
-old-project: image
+tech.root: image
 ms.assetid: 8aa28efb-a030-4fed-b9f2-0e67ff1e7c9e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: AddRef, AddRef method [Imaging Devices], AddRef method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],AddRef method, IStiDeviceControl.AddRef, IStiDeviceControl::AddRef, image.istidevicecontrol_addref, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

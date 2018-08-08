@@ -4,7 +4,7 @@ title: PsGetVersion function
 author: windows-driver-content
 description: This function is obsolete in Windows XP and later versions of the Windows operating system. Use RtlGetVersion instead.PsGetVersion returns caller-selected information about the current version of the NT-based operating system.
 old-location: kernel\psgetversion.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

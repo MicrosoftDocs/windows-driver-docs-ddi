@@ -4,7 +4,7 @@ title: KsFilterFactoryGetOuterUnknown function
 author: windows-driver-content
 description: The KsFilterFactoryGetOuterUnknown function returns the outer IUnknown of the specified filter factory.
 old-location: stream\ksfilterfactorygetouterunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

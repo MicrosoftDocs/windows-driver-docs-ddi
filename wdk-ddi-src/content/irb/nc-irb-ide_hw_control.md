@@ -4,7 +4,7 @@ title: IDE_HW_CONTROL
 author: windows-driver-content
 description: The IdeHwControl miniport driver routine notifies the miniport driver about Plug and Play (PnP) and power events.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwcontrol.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: HW_RESET_BUS
 author: windows-driver-content
 description: The HwStorResetBus routine is called by the port driver to clear error conditions.
 old-location: storage\hwstorresetbus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fda5291c-dd4e-4aa1-8dac-65cf4c4306ab
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

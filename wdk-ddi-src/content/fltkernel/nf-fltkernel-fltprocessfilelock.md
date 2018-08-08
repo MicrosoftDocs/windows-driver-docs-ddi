@@ -4,7 +4,7 @@ title: FltProcessFileLock function
 author: windows-driver-content
 description: The FltProcessFileLock routine processes and completes a file lock operation.
 old-location: ifsk\fltprocessfilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 72b8aad8-39e1-4624-ac77-13eb52036b3b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

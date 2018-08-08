@@ -4,7 +4,7 @@ title: IWDTFAction2::get_Target
 author: windows-driver-content
 description: Gets the target to which this action refers.
 old-location: dtf\iwdtfaction2_target.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9713c1c8-2bfc-4ac4-82f1-b223d3fe2511
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

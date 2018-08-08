@@ -4,7 +4,7 @@ title: "_DXGK_DRIVERCAPS"
 author: windows-driver-content
 description: The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_drivercaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 1ee8eb02-066c-4a54-b31a-cd6644cbce06
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -52,56 +52,6 @@ req.typenames: DXGK_DRIVERCAPS
 
 The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
 
-
-## -syntax
-
-
-````
-typedef struct _DXGK_DRIVERCAPS {
-  PHYSICAL_ADDRESS        HighestAcceptableAddress;
-  UINT                    MaxAllocationListSlotId;
-  SIZE_T                  ApertureSegmentCommitLimit;
-  UINT                    MaxPointerWidth;
-  UINT                    MaxPointerHeight;
-  DXGK_POINTERFLAGS       PointerCaps;
-  UINT                    InterruptMessageNumber;
-  UINT                    NumberOfSwizzlingRanges;
-  UINT                    MaxOverlays;
-  union {
-    DXGK_GAMMARAMPCAPS      GammaRampCaps;
-    DXGK_COLORTRANSFORMCAPS ColorTransformCaps;
-  };
-  DXGK_PRESENTATIONCAPS   PresentationCaps;
-  UINT                    MaxQueuedFlipOnVSync;
-  DXGK_FLIPCAPS           FlipCaps;
-  DXGK_VIDSCHCAPS         SchedulingCaps;
-  DXGK_VIDMMCAPS          MemoryManagementCaps;
-  DXGK_GPUENGINETOPOLOGY  GpuEngineTopology;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7)
-  DXGK_WDDMVERSION        WDDMVersion;
-  DXGK_VIRTUALADDRESSCAPS VirtualAddressCaps;
-  DXGK_DMABUFFERCAPS      DmaBufferCaps;
-#endif
-#if DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8
-  D3DKMDT_PREEMPTION_CAPS PreemptionCaps;
-  BOOLEAN                 SupportNonVGA;
-  BOOLEAN                 SupportSmoothRotation;
-  BOOLEAN                 SupportPerEngineTDR;
-  BOOLEAN                 SupportDirectFlip;
-  BOOLEAN                 SupportMultiPlaneOverlay;
-  BOOLEAN                 SupportRuntimePowerManagement;
-  BOOLEAN                 SupportSurpriseRemovalInHibernation;
-#endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-  BOOLEAN                 HybridDiscrete;
-  UINT                    MaxOverlayPlanes;
-#endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_1)
-  BOOLEAN                 SupportMultiPlaneOverlayImmediateFlip;
-  BOOLEAN                 CursorScaledWithMultiPlaneOverlayPlane0;
-  uint                    MaxQueuedMultiPlaneOverlayFlipVSync;
-} DXGK_DRIVERCAPS;
-````
 
 
 ## -struct-fields
@@ -288,8 +238,8 @@ For more information, see <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8
 
 Supported starting with Windows 8.
 
-
 ### -field HybridDiscrete
+
 
 [out] If <b>TRUE</b>, the display miniport driver is a discrete GPU in a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a>.
 
@@ -311,6 +261,9 @@ Supported starting with Windows 8.1.
 
 Supported starting with Windows 8.1.
 
+* GammaRampCaps
+
+  * [out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gammarampcaps.md">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
 
 ### -field HybridIntegrated
 
@@ -344,7 +297,7 @@ Supported starting with Windows 8.1.
 
 ### -field HybridAcpiChainingRequired
 
-
+Indicates that this hybrid discrete driver requires chaining of ACPI events triggered on the integrated adapter.
 
 
 ### -field MaxQueuedMultiPlaneOverlayFlipVSync
@@ -352,41 +305,24 @@ Supported starting with Windows 8.1.
 [out] Indicates the maximum number of updates to a single plane can be made within a single VSYNC period, where the most recent update overrides the previous update.
 
 
-#### - DmaBufferCaps
-
-[out] This member is reserved and should be set to zero.
-
-Supported starting with Windows 7.
-
-
-#### - GammaRampCaps
-
-[out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gammarampcaps.md">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
-
-
-#### - VirtualAddressCaps
-
-[out] This member is reserved and should be set to zero.
-
-Supported starting with Windows 7.
 
 ### -field MiscCaps
 
 Miscellaneous capabilities.
 
-### -field MiscCaps.SupportContextlessPresent
+* MiscCaps.SupportContextlessPresent
 
-Supports contextless present.
+  * Supports contextless present.
 
-### -field MiscCaps.Detachable
+* MiscCaps.Detachable
 
-Detachable.
+  * Detachable.
 
-### -field MiscCaps.Reserved
+* MiscCaps.Reserved
 
-Reserved.
+  * Reserved.
 
-### -field MiscCaps.Value
+* MiscCaps.Value
 
 ## -see-also
 

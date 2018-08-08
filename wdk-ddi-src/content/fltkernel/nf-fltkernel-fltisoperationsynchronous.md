@@ -4,7 +4,7 @@ title: FltIsOperationSynchronous function
 author: windows-driver-content
 description: The FltIsOperationSynchronous routine determines whether a given callback data structure (FLT_CALLBACK_DATA) represents a synchronous or asynchronous I/O operation.
 old-location: ifsk\fltisoperationsynchronous.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 44594383-9f07-4b6a-8ea3-eaf84c9fefda
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

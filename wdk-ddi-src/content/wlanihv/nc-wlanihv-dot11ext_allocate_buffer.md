@@ -4,7 +4,7 @@ title: DOT11EXT_ALLOCATE_BUFFER
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extallocatebuffer.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 22c61f1d-027c-4e3e-af34-c513d4e1d0cc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtAllocateBuffer</b> function to allocate memory for variable-length
   buffers.
 
@@ -79,7 +79,7 @@ Size, in bytes, of the buffer to allocate.
 
 ### -param *ppvBuffer [out]
 
-A pointer to a caller-supplied variable that stores the address of the allocated buffer. The 
+A pointer to a caller-supplied variable that stores the address of the allocated buffer. The
      <i>ppvBuffer</i> parameter has a valid non-null value if the return value is ERROR_SUCCESS.
 
 
@@ -87,8 +87,8 @@ A pointer to a caller-supplied variable that stores the address of the allocated
 
 
 
-The call returns an ERROR_xxxx code defined in 
-     Winerror.h. The following ERROR_xxxx codes are commonly returned by the 
+The call returns an ERROR_xxxx code defined in
+     Winerror.h. The following ERROR_xxxx codes are commonly returned by the
      <b>Dot11ExtAllocateBuffer</b> function.
 
 <table>
@@ -128,7 +128,7 @@ The operating system was unable to allocate the memory due to a lack of resource
 
 
 
-The IHV Extensions DLL must follow these guidelines when calling the 
+The IHV Extensions DLL must follow these guidelines when calling the
     <b>Dot11ExtAllocateBuffer</b> function.
 
 <ul>
@@ -137,16 +137,16 @@ The IHV Extensions DLL must call this function when returning any variable-lengt
       Handler function. In this situation, the operating system is responsible for freeing the buffer after
       the return of the IHV Handler function.
 
-For more information about the IHV Handler functions, see 
+For more information about the IHV Handler functions, see
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
       Functions</a>.
 
 </li>
 <li>
 The IHV Extensions DLL might call this function to allocate memory referenced by the DLL itself.
-     
 
-In this situation, the DLL must free the memory buffer by calling 
+
+In this situation, the DLL must free the memory buffer by calling
      <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>.
 
 </li>

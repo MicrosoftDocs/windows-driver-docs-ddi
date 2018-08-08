@@ -4,7 +4,7 @@ title: IoDeleteController function
 author: windows-driver-content
 description: The IoDeleteController routine removes a given controller object from the system, for example, when the driver that created it is being unloaded.
 old-location: kernel\iodeletecontroller.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

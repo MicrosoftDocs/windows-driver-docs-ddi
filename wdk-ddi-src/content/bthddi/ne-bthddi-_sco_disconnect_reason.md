@@ -4,7 +4,7 @@ title: "_SCO_DISCONNECT_REASON"
 author: windows-driver-content
 description: The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been disconnected.
 old-location: bltooth\sco_disconnect_reason.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

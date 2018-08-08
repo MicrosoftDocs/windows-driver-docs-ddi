@@ -4,7 +4,7 @@ title: "_IDE_TASK_FILE"
 author: windows-driver-content
 description: The IDE_TASK_FILE structure contains the current and previous IDE task file.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_task_file.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f18b46c0-975b-49ba-b398-45f2a44d6d3b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

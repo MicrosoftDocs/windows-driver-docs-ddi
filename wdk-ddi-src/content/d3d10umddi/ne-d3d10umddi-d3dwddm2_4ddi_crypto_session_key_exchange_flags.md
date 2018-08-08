@@ -28,7 +28,8 @@ apilocation:
 -	d3d10umddi.h
 apiname:
 -	D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

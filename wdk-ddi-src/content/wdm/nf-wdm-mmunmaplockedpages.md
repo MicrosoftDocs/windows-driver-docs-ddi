@@ -4,7 +4,7 @@ title: MmUnmapLockedPages function
 author: windows-driver-content
 description: The MmUnmapLockedPages routine releases a mapping that was set up by a preceding call to the MmMapLockedPages or MmMapLockedPagesSpecifyCache routine.
 old-location: kernel\mmunmaplockedpages.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ab5f33b9-5261-4d30-bceb-8e91a24ae0a8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

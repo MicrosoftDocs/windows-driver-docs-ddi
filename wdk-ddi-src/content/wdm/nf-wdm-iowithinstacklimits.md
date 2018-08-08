@@ -4,7 +4,7 @@ title: IoWithinStackLimits function
 author: windows-driver-content
 description: The IoWithinStackLimits routine determines whether a region of memory is within the stack limit of the current thread.
 old-location: kernel\iowithinstacklimits.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: af182cd5-23b5-4d5b-b3d4-ec65ec087d0b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: PSHED_PI_INJECT_ERROR
 author: windows-driver-content
 description: A PSHED plug-in's InjectError callback function injects an error into the hardware platform.
 old-location: whea\injecterror.htm
-old-project: whea
+tech.root: whea
 ms.assetid: efd2658b-875e-4589-9ba0-42232e070b91
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

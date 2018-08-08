@@ -4,10 +4,10 @@ title: PcForwardContentToInterface function
 author: windows-driver-content
 description: The PcForwardContentToInterface function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 old-location: audio\pcforwardcontenttointerface.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 5aa6aa90-ef41-467e-a096-5ab660b3f357
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcForwardContentToInterface, PcForwardContentToInterface function [Audio Devices], audio.pcforwardcontenttointerface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, portcls/PcForwardContentToInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

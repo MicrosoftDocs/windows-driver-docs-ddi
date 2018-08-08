@@ -4,7 +4,7 @@ title: IoRegisterFsRegistrationChangeEx function
 author: windows-driver-content
 description: The IoRegisterFsRegistrationChangeEx routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
 old-location: ifsk\ioregisterfsregistrationchangeex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e318e13b-8b6c-4593-93ce-17d2a1056ac2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

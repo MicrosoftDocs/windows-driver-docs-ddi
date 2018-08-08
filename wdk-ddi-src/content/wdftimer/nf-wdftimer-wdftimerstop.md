@@ -4,7 +4,7 @@ title: WdfTimerStop function
 author: windows-driver-content
 description: The WdfTimerStop method stops a timer's clock.
 old-location: wdf\wdftimerstop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 394593f5-92eb-4f84-adbe-67e0e5320ff0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: imp_WppRecorderLogGetDefault function
 author: windows-driver-content
 description: The WppRecorderLogGetDefault method gets a handle to the default recorder log.
 old-location: devtest\wpprecorderloggetdefault.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 823E9AA6-F838-41B1-A502-A983B7F24661
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

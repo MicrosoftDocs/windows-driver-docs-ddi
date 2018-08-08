@@ -4,7 +4,7 @@ title: IWDTFAction2::IsStatusSuccess
 author: windows-driver-content
 description: Gets a value that indicates whether the last operation was successful.
 old-location: dtf\iwdtfaction2_isstatussuccess.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c4e6f54f-815d-4ce1-93e1-b18663aab1b1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

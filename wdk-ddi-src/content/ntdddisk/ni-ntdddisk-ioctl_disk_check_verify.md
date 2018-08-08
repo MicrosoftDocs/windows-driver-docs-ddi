@@ -4,7 +4,7 @@ title: IOCTL_DISK_CHECK_VERIFY
 author: windows-driver-content
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_CHECK_VERIFY. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_disk_check_verify.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bf2604fe-e7d3-43af-916e-b03979ee71aa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: ExSetFirmwareEnvironmentVariable function
 author: windows-driver-content
 description: The ExSetFirmwareEnvironmentVariable routine sets the value of the specified system firmware environment variable.
 old-location: kernel\exsetfirmwareenvironmentvariable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

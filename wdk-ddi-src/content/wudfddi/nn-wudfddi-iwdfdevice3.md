@@ -4,7 +4,7 @@ title: IWDFDevice3
 author: windows-driver-content
 description: To obtain the IWDFDevice3 interface, drivers call IWDFDevice::QueryInterface.
 old-location: wdf\iwdfdevice3.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C4AEC0DA-EB93-481D-A94C-7BB7BF15EFBC
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

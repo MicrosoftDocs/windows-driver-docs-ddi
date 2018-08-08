@@ -4,7 +4,7 @@ title: RtlUpcaseUnicodeChar function
 author: windows-driver-content
 description: The RtlUpcaseUnicodeChar routine converts the specified Unicode character to uppercase.
 old-location: kernel\rtlupcaseunicodechar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e8584c60-57ba-4b9c-949f-041bb37dfb13
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

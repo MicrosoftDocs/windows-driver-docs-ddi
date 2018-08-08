@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NET_BUFFER_SHARED_MEM_OFFSET
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

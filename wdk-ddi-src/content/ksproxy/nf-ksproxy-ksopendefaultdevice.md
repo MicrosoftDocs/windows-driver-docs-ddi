@@ -4,7 +4,7 @@ title: KsOpenDefaultDevice function
 author: windows-driver-content
 description: The KsOpenDefaultDevice function opens a handle to the first device that is listed in the specified Plug and Play (PnP) category.
 old-location: stream\ksopendefaultdevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a017f0b7-8f4f-4797-96de-10137cb3443e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

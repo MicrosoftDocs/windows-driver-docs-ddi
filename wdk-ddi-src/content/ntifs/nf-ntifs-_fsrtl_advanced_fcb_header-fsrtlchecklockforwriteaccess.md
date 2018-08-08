@@ -4,7 +4,7 @@ title: FsRtlCheckLockForWriteAccess function
 author: windows-driver-content
 description: The FsRtlCheckLockForWriteAccess routine determines whether the process associated with a given IRP has write access to a locked region of a file.
 old-location: ifsk\fsrtlchecklockforwriteaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 549da751-6a28-4d54-995f-dabb9e29ab09
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCheckLockForWriteAccess
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

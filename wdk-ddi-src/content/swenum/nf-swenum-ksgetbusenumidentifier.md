@@ -4,7 +4,7 @@ title: KsGetBusEnumIdentifier function
 author: windows-driver-content
 description: The KsGetBusEnumIdentifier function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
 old-location: stream\ksgetbusenumidentifier.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 50e14e01-5879-4a84-a8c2-f03c953dbeec
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

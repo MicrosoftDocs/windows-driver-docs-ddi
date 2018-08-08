@@ -4,7 +4,7 @@ title: TmRecoverEnlistment function
 author: windows-driver-content
 description: The TmRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\tmrecoverenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2483ca0e-f9b5-4cd0-a5c5-29b48099d86f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

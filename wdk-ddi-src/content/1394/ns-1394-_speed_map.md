@@ -4,7 +4,7 @@ title: "_SPEED_MAP"
 author: windows-driver-content
 description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

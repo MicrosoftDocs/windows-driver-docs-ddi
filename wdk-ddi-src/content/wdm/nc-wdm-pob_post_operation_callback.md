@@ -4,7 +4,7 @@ title: POB_POST_OPERATION_CALLBACK
 author: windows-driver-content
 description: The ObjectPostCallback routine is called by the operating system after a process or thread handle operation occurs.
 old-location: kernel\objectpostcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cfa73359-58bb-4260-ac16-08f57ead67bb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

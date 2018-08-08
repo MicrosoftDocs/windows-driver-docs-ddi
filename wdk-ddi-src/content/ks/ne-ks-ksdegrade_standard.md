@@ -4,7 +4,7 @@ title: KSDEGRADE_STANDARD
 author: windows-driver-content
 description: The KSDEGRADE_STANDARD enumeration lists different types of degradation.
 old-location: stream\ksdegrade_standard.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5790ce0e-13f8-4700-8b25-a5375dd83758
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

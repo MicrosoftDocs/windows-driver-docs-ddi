@@ -4,7 +4,7 @@ title: "_FILE_MODE_INFORMATION"
 author: windows-driver-content
 description: The FILE_MODE_INFORMATION structure is used to query or set the access mode of a file.
 old-location: kernel\file_mode_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

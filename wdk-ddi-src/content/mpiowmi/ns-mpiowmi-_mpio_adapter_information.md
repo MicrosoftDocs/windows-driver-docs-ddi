@@ -4,7 +4,7 @@ title: "_MPIO_ADAPTER_INFORMATION"
 author: windows-driver-content
 description: The MPIO_ADAPTER_INFORMATION structure contains information that pertains to MPIO's view of a path.
 old-location: storage\mpio_adapter_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bcf159a7-75a5-46aa-897a-2c5eb00f51d8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

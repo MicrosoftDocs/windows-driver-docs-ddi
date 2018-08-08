@@ -4,7 +4,7 @@ title: HidP_GetCollectionDescription function
 author: windows-driver-content
 description: Fills a device description block with collection description and the corresponding report ID information for the specified report descriptor.
 old-location: hid\hidp_getcollectiondescription.htm
-old-project: hid
+tech.root: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

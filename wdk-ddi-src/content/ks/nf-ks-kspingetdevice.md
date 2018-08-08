@@ -4,7 +4,7 @@ title: KsPinGetDevice function
 author: windows-driver-content
 description: The KsPinGetDevice function returns the AVStream device to which Pin belongs.
 old-location: stream\kspingetdevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 965aa806-90cc-4c82-a126-42ae433cba3b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

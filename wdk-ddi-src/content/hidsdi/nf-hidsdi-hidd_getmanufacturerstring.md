@@ -4,7 +4,7 @@ title: HidD_GetManufacturerString function
 author: windows-driver-content
 description: The HidD_GetManufacturerString routine returns a top-level collection's embedded string that identifies the manufacturer.
 old-location: hid\hidd_getmanufacturerstring.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 21253ed7-d98d-4b97-8d83-01dd18b3c4f9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

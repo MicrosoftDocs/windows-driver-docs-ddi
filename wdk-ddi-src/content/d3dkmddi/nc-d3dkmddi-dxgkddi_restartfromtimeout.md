@@ -4,10 +4,10 @@ title: DXGKDDI_RESTARTFROMTIMEOUT
 author: windows-driver-content
 description: The DxgkDdiRestartFromTimeout function indicates that the driver can access the graphics processing unit (GPU) again after the recovery from a hardware timeout has completed.
 old-location: display\dxgkddirestartfromtimeout.htm
-old-project: display
+tech.root: display
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_RESTARTFROMTIMEOUT, DXGKDDI_RESTARTFROMTIMEOUT callback, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml, DxgkDdiRestartFromTimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiRestartFromTimeout, display.dxgkddirestartfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

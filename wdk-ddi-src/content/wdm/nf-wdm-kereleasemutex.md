@@ -4,7 +4,7 @@ title: KeReleaseMutex function
 author: windows-driver-content
 description: The KeReleaseMutex routine releases a mutex object, and specifies whether the caller is to call one of the KeWaitXxx routines as soon as KeReleaseMutex returns control.
 old-location: kernel\kereleasemutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

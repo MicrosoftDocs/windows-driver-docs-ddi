@@ -4,7 +4,7 @@ title: EVT_SERCX_FILECLOSE
 author: windows-driver-content
 description: The EvtSerCxFileClose event callback function notifies the serial controller driver that the file object that represents the serial controller device has been released.
 old-location: serports\evtsercxfileclose.htm
-old-project: serports
+tech.root: serports
 ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

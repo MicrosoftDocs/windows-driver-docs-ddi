@@ -4,7 +4,7 @@ title: IWDFDevice2::CreateRemoteTarget
 author: windows-driver-content
 description: The CreateRemoteTarget method creates a remote target object that represents a remote I/O target.
 old-location: wdf\iwdfdevice2_createremotetarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0b11d913-f488-4237-85e3-4469eefc0b91
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

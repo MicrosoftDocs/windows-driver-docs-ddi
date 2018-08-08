@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_CLR_RTS
 author: windows-driver-content
 description: The IOCTL_SERIAL_CLR_RTS request clears the request to send (RTS) control signal.
 old-location: serports\ioctl_serial_clr_rts.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 7ecb357f-ba84-4b3d-b6db-73f6682988b8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

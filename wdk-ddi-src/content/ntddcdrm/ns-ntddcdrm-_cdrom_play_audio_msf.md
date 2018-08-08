@@ -4,7 +4,7 @@ title: "_CDROM_PLAY_AUDIO_MSF"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this structure to play an audio CD.
 old-location: storage\cdrom_play_audio_msf.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 73589397-9b2b-4d49-9860-cb2eb6a26632
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

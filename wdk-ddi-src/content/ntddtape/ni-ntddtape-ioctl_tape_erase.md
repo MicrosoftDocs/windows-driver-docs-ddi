@@ -4,7 +4,7 @@ title: IOCTL_TAPE_ERASE
 author: windows-driver-content
 description: Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, a &#0034;secure&#0034;) operation that overwrites data with a pattern or as a TAPE_ERASE_SHORT (in other words, a &#0034;quick&#0034;) operation that writes an end-of-recorded-data mark at the current position.
 old-location: storage\ioctl_tape_erase.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 75ec5c40-1ac2-472a-9923-26018eb6267c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

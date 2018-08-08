@@ -4,7 +4,7 @@ title: IWDTFTarget2::HasContext
 author: windows-driver-content
 description: Determines whether a given context exists for the target.
 old-location: dtf\iwdtftarget2_hascontext.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 16ea6100-6e3e-4e50-9055-4396deb39a37
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

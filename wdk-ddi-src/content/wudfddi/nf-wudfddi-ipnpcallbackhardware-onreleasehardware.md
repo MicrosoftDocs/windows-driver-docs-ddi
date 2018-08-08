@@ -4,7 +4,7 @@ title: IPnpCallbackHardware::OnReleaseHardware
 author: windows-driver-content
 description: The OnReleaseHardware method notifies a driver to perform operations that are necessary when the specified hardware is no longer accessible.
 old-location: wdf\ipnpcallbackhardware_onreleasehardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8975941a-21ad-4d51-9215-b35fa65cdfeb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

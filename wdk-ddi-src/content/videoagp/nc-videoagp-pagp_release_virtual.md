@@ -4,10 +4,10 @@ title: PAGP_RELEASE_VIRTUAL
 author: windows-driver-content
 description: The AgpReleaseVirtual function frees system memory reserved by a previous call to AgpReserveVirtual.
 old-location: display\agpreleasevirtual.htm
-old-project: display
+tech.root: display
 ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, PAGP_RELEASE_VIRTUAL callback, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS
 author: windows-driver-content
 description: Defines capabilities related to input formats for a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_format_caps.htm
-old-project: display
+tech.root: display
 ms.assetid: b0f36d4c-cf95-4d85-a2c8-267df618e0aa
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_PALETTE_INTERLACED, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_INTERLACED, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_PROCAMP, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_PALETTE_INTERLACED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_INTERLACED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_PROCAMP, display.d3d11_1ddi_video_processor_format_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

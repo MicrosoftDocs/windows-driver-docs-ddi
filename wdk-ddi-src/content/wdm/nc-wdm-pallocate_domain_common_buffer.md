@@ -35,7 +35,8 @@ api_location:
 api_name: 
 -	PALLOCATE_DOMAIN_COMMON_BUFFER
 -   AllocateDomainCommonBuffer
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

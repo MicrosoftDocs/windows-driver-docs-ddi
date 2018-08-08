@@ -4,7 +4,7 @@ title: "_SendCTPassThru_IN"
 author: windows-driver-content
 description: The SendCTPassThru_IN structure is used to deliver input parameter data to the SendCTPassThru WMI method.
 old-location: storage\sendctpassthru_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5a3e06f5-f7f7-4e89-b78e-d6658c34ba9e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

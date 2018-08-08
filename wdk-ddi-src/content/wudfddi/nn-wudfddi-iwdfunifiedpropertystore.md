@@ -4,7 +4,7 @@ title: IWDFUnifiedPropertyStore
 author: windows-driver-content
 description: The IWDFUnifiedPropertyStore interface exposes a unified property store.
 old-location: wdf\iwdfunifiedpropertystore.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F039450D-3B66-4891-9078-7058E889C2F0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

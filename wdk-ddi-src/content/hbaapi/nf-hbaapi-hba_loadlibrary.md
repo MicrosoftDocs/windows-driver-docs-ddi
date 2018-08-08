@@ -4,7 +4,7 @@ title: HBA_LoadLibrary function
 author: windows-driver-content
 description: The HBA_LoadLibrary routine loads and initializes the system-supplied fibre channel HBA API library.
 old-location: storage\hba_loadlibrary.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f71be39c-4b0c-47fc-a9d5-dfe69d8b11f2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

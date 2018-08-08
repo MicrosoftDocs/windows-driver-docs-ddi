@@ -4,7 +4,7 @@ title: IWDFDevice2::StopIdle
 author: windows-driver-content
 description: The StopIdle method informs the framework that the device must be placed in its working (D0) power state.
 old-location: wdf\iwdfdevice2_stopidle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

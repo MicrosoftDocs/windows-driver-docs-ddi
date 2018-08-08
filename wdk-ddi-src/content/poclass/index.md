@@ -8,7 +8,9 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: kernel
+product:
+-	Windows
+tech.root: battery
 ---
 
 # Poclass.h header
@@ -17,6 +19,8 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header Defines power policy device driver interfaces. 
 
-- [Windows kernel](../_kernel/index.md)
+This header is used with Battery driver interface. For more information, see:
+
+- [Battery Devices Design Guide](https://docs.microsoft.com/en-us/windows-hardware/drivers/battery/)

@@ -4,7 +4,7 @@ title: HBA_FCPBinding2
 author: windows-driver-content
 description: The HBA_FCPBinding2 structure contains an array of bindings between operating system identifiers, SCSI logical unit ID descriptors (LUIDs) and fibre channel protocol (FCP) identifiers for a set of logical units.
 old-location: storage\hba_fcpbinding2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f715d45c-30e1-414f-907c-9ad1203ca604
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

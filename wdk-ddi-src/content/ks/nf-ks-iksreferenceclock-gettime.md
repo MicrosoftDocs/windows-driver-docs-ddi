@@ -4,7 +4,7 @@ title: IKsReferenceClock::GetTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetTime method queries the associated reference clock for the current time.
 old-location: stream\iksreferenceclock_gettime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3e5ff621-47ec-4ab7-bf8e-26bff57588f8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

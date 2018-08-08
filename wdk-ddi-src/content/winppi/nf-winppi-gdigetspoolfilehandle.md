@@ -4,7 +4,7 @@ title: GdiGetSpoolFileHandle function
 author: windows-driver-content
 description: The GdiGetSpoolFileHandle function returns a handle to a print job's EMF file.
 old-location: print\gdigetspoolfilehandle.htm
-old-project: print
+tech.root: print
 ms.assetid: c820ee94-29c2-4478-884c-49dd68cd713a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: AuxKlibQueryModuleInformation function
 author: windows-driver-content
 description: The AuxKlibQueryModuleInformation routine retrieves information about the image modules that the operating system has loaded.
 old-location: kernel\auxklibquerymoduleinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5e267d53-4e92-4c94-8a59-93d3c79574dd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

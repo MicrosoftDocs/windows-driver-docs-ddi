@@ -4,7 +4,7 @@ title: KsQueueWorkItem function
 author: windows-driver-content
 description: The KsQueueWorkItem function queues the specified work item with a worker previous created by the KsRegisterWorker function.
 old-location: stream\ksqueueworkitem.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a700979e-aee4-4bce-8f98-b44b864fbb43
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

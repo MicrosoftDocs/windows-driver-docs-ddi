@@ -4,7 +4,7 @@ title: PFN_DrvYMoveTo
 author: windows-driver-content
 description: The DrvYMoveTo function is obsolete.
 old-location: print\drvymoveto.htm
-old-project: print
+tech.root: print
 ms.assetid: 0d8539eb-0b9c-4aae-abbe-bb7ddd6231f5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

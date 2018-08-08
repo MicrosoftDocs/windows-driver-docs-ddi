@@ -4,7 +4,7 @@ title: "_MOUNTMGR_CHANGE_NOTIFY_INFO"
 author: windows-driver-content
 description: The MOUNTMGR_CHANGE_NOTIFY_INFO structure is used by the mount manager to send epic numbers to its clients and vice versa.
 old-location: storage\mountmgr_change_notify_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3b1bb2be-2abb-414a-bf68-9d06e53c2808
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

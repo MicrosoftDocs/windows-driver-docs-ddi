@@ -33,7 +33,8 @@ api_location:
 -	miniport.h
 api_name: 
 -	ARM64_SYSREG_CRM
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

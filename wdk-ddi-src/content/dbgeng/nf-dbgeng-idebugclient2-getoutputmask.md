@@ -4,10 +4,10 @@ title: IDebugClient2::GetOutputMask
 author: windows-driver-content
 description: The GetOutputMask method returns the output mask currently set for the client.
 old-location: debugger\getoutputmask.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: b1076b17-9175-4823-abb7-1c864670e8d5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetOutputMask, GetOutputMask method [Windows Debugging], GetOutputMask method [Windows Debugging],IDebugClient interface, GetOutputMask method [Windows Debugging],IDebugClient2 interface, GetOutputMask method [Windows Debugging],IDebugClient3 interface, GetOutputMask method [Windows Debugging],IDebugClient4 interface, GetOutputMask method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetOutputMask method, IDebugClient2 interface [Windows Debugging],GetOutputMask method, IDebugClient2.GetOutputMask, IDebugClient2::GetOutputMask, IDebugClient3 interface [Windows Debugging],GetOutputMask method, IDebugClient3::GetOutputMask, IDebugClient4 interface [Windows Debugging],GetOutputMask method, IDebugClient4::GetOutputMask, IDebugClient5 interface [Windows Debugging],GetOutputMask method, IDebugClient5::GetOutputMask, IDebugClient::GetOutputMask, IDebugClient_ff2626fe-2299-4008-b655-0b7dbd46ef8b.xml, dbgeng/IDebugClient2::GetOutputMask, dbgeng/IDebugClient3::GetOutputMask, dbgeng/IDebugClient4::GetOutputMask, dbgeng/IDebugClient5::GetOutputMask, dbgeng/IDebugClient::GetOutputMask, debugger.getoutputmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

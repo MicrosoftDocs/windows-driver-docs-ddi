@@ -4,7 +4,7 @@ title: RtlLongLongAdd function
 author: windows-driver-content
 description: Adds two values of type LONGLONG.
 old-location: kernel\rtllonglongadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 94FD1DD3-0799-4E90-A115-9EF065433B05
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

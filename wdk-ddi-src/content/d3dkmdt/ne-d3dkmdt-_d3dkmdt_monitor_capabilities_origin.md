@@ -4,10 +4,10 @@ title: "_D3DKMDT_MONITOR_CAPABILITIES_ORIGIN"
 author: windows-driver-content
 description: The D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration is used to indicate where a monitor's capability information was obtained.
 old-location: display\d3dkmdt_monitor_capabilities_origin.htm
-old-project: display
+tech.root: display
 ms.assetid: fbbea7d7-2bd7-4dd0-bcb8-3fc93c7474a3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_MCO_DEFAULTMONITORPROFILE, D3DKMDT_MCO_DRIVER, D3DKMDT_MCO_MONITORDESCRIPTOR, D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, D3DKMDT_MCO_UNINITIALIZED, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration [Display Devices], DmEnums_fc03a227-b0c7-4152-a4f0-c8badee981e5.xml, _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, d3dkmdt/D3DKMDT_MCO_DEFAULTMONITORPROFILE, d3dkmdt/D3DKMDT_MCO_DRIVER, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, display.d3dkmdt_monitor_capabilities_origin
 ms.prod: windows-hardware
 ms.technology: windows-devices

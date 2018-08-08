@@ -4,7 +4,7 @@ title: "*PCAPTURE_MEMORY_ALLOCATION_FLAGS"
 author: windows-driver-content
 description: The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces to which AVStream minidrivers can capture audio and video data.
 old-location: stream\capture_memory_allocation_flags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3b96301a-28a5-494b-bd12-8d3d4516730e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces
 
 
 ````
-typedef enum  { 
+typedef enum  {
   KS_CAPTURE_ALLOC_INVALID      = 0,
   KS_CAPTURE_ALLOC_SYSTEM       = 0x0001,
   KS_CAPTURE_ALLOC_VRAM         = 0x0002,
@@ -79,7 +79,7 @@ Invalid memory surface.
 
 ### -field KS_CAPTURE_ALLOC_SYSTEM
 
-Not currently supported. 
+Not currently supported.
 
 
 ### -field KS_CAPTURE_ALLOC_VRAM
@@ -89,12 +89,12 @@ Identifies a surface in display memory.
 
 ### -field KS_CAPTURE_ALLOC_SYSTEM_AGP
 
-Identifies a surface in system memory that is tagged as AGP accessible. 
+Identifies a surface in system memory that is tagged as AGP accessible.
 
 
 ### -field KS_CAPTURE_ALLOC_VRAM_MAPPED
 
-Not currently supported.  
+Not currently supported.
 
 
 ### -field KS_CAPTURE_ALLOC_SECURE_BUFFER

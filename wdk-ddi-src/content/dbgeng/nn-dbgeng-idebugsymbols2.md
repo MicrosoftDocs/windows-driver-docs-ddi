@@ -4,10 +4,10 @@ title: IDebugSymbols2
 author: windows-driver-content
 description: IDebugSymbols2 interface
 old-location: debugger\idebugsymbols2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 2764a3b4-ba20-4b2e-8eb1-6ab9c631ccd8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], IDebugSymbols2 interface [Windows Debugging],described, dbgeng/IDebugSymbols2, debugger.idebugsymbols2
 ms.prod: windows-hardware
 ms.technology: windows-devices

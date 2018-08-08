@@ -4,7 +4,7 @@ title: "_BTH_SDP_STREAM_RESPONSE"
 author: windows-driver-content
 description: The BTH_SDP_STREAM_RESPONSE structure contains information about an SDP record.
 old-location: bltooth\bth_sdp_stream_response.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

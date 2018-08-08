@@ -4,7 +4,7 @@ title: OEMGradientFill function
 author: windows-driver-content
 description: The OEMGradientFill function shades the specified primitives.
 old-location: print\oemgradientfill.htm
-old-project: print
+tech.root: print
 ms.assetid: 8a25d44b-c83b-4454-858b-117dbb6cc4b7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

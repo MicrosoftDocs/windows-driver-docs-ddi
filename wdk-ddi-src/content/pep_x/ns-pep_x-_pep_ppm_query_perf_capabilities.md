@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_PERF_CAPABILITIES"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_PERF_CAPABILITIES structure describes the performance capabilities of the processors in the specified processor performance domain.
 old-location: kernel\pep_ppm_query_perf_capabilities.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 562EA523-A74D-4D46-8C01-12C745106F86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: VideoPortLockPages function
 author: windows-driver-content
 description: The VideoPortLockPages function is obsolete in Windows 2000 and later. Use VideoPortLockBuffer in place of this function.VideoPortLockPages locks the specified virtual memory and possibly performs part or all of a DMA transfer.
 old-location: display\videoportlockpages.htm
-old-project: display
+tech.root: display
 ms.assetid: f5e06ff3-98ba-4443-8ea6-c32b063cd478
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortLockPages, VideoPortLockPages function [Display Devices], VideoPort_Functions_47b202e0-2a8b-4fb0-9cf2-b4ef3ddb9ff4.xml, display.videoportlockpages, video/VideoPortLockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

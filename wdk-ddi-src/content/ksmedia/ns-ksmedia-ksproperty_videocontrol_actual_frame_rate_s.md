@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure describes actual frame rate information in response to KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE property requests.
 old-location: stream\ksproperty_videocontrol_actual_frame_rate_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 98b6c085-d7d0-47e4-acea-a272487f20c2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

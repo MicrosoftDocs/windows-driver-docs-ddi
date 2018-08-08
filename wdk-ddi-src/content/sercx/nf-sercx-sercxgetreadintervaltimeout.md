@@ -4,7 +4,7 @@ title: SerCxGetReadIntervalTimeout function
 author: windows-driver-content
 description: The SerCxGetReadIntervalTimeout method returns the interval time-out value for a read (receive) operation.
 old-location: serports\sercxgetreadintervaltimeout.htm
-old-project: serports
+tech.root: serports
 ms.assetid: E92F181A-DBD7-44A3-A49D-DDF07E03ADB1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

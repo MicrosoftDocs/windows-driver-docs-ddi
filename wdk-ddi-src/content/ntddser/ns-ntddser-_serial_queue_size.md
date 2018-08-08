@@ -4,7 +4,7 @@ title: "_SERIAL_QUEUE_SIZE"
 author: windows-driver-content
 description: The SERIAL_QUEUE_SIZE structure is used to resize the input buffer that the serial controller driver uses for serial receive operations.
 old-location: serports\serial_queue_size.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 5EEE0B7D-2857-42D1-A387-9D38DAC2E368
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

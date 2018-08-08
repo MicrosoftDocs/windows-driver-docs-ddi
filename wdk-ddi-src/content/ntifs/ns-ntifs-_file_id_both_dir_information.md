@@ -4,7 +4,7 @@ title: "_FILE_ID_BOTH_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_ID_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
 old-location: ifsk\file_id_both_dir_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 57a66b41-f9f6-42e1-95d7-010cacd1374a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

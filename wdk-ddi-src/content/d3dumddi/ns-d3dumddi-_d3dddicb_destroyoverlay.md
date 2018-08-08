@@ -4,10 +4,10 @@ title: "_D3DDDICB_DESTROYOVERLAY"
 author: windows-driver-content
 description: The D3DDDICB_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 old-location: display\d3dddicb_destroyoverlay.htm
-old-project: display
+tech.root: display
 ms.assetid: a7b57177-17d2-42d7-ac4a-3cbd74803d50
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY structure [Display Devices], D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, _D3DDDICB_DESTROYOVERLAY, d3dumddi/D3DDDICB_DESTROYOVERLAY, display.d3dddicb_destroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

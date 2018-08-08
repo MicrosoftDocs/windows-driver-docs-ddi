@@ -34,7 +34,8 @@ apilocation:
 -	d3d12umddi.h
 apiname:
 -	PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: FltBuildDefaultSecurityDescriptor function
 author: windows-driver-content
 description: FltBuildDefaultSecurityDescriptor builds a default security descriptor for use with FltCreateCommunicationPort.
 old-location: ifsk\fltbuilddefaultsecuritydescriptor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0e886c08-38dd-4960-9b79-4c6e68ac488d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

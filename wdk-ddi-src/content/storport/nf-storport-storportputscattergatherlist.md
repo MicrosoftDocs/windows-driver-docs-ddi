@@ -4,7 +4,7 @@ title: StorPortPutScatterGatherList function
 author: windows-driver-content
 description: The StorPortPutScatterGatherList routine releases any resources associated with a scatter/gather list that was previously created by a call to the StorPortBuildScatterGatherList routine.
 old-location: storage\storportputscattergatherlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDTFDriverSetupAction2
 author: windows-driver-content
 description: Defines operations that control the target device during driver setup.
 old-location: dtf\iwdtfdriversetupaction2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 474590f9-f737-4b9a-9a63-8cce8a35c538
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

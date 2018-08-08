@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED
 author: windows-driver-content
 description: A driver's EvtDeviceWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.
 old-location: wdf\evtdevicewakefromsxtriggered.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a1899d90-4906-458d-b7e3-122655f4d926
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

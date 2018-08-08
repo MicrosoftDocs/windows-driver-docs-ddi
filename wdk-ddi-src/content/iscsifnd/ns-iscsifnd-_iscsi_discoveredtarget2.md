@@ -4,7 +4,7 @@ title: "_ISCSI_DiscoveredTarget2"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTarget2 structure contains information that is related to a discovered target device.
 old-location: storage\iscsi_discoveredtarget2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 77fb2942-5836-44cb-9a5e-e45f6a022264
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

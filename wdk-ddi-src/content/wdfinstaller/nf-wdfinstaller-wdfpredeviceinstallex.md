@@ -4,7 +4,7 @@ title: WdfPreDeviceInstallEx function
 author: windows-driver-content
 description: The co-installer's WdfPreDeviceInstallEx function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service.
 old-location: wdf\wdfpredeviceinstallex.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 99de930a-0d01-4177-b0d9-4692cc570303
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

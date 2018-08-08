@@ -4,7 +4,7 @@ title: IPrinterExtensionContext::get_UserProperties
 author: windows-driver-content
 description: Gets the user property bag for this app.
 old-location: print\iprinterextensioncontext_userproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IWDFDeviceInitialize::GetPnpCapability
 author: windows-driver-content
 description: The GetPnpCapability method determines the state of the specified Plug and Play (PnP) capability.
 old-location: wdf\iwdfdeviceinitialize_getpnpcapability.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 64f15528-e934-4bdd-a9f7-6790eef7c7c5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

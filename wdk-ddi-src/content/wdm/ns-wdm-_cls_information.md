@@ -4,7 +4,7 @@ title: "_CLS_INFORMATION"
 author: windows-driver-content
 description: The CLFS_INFORMATION structure holds metadata and state information for a Common Log File System (CLFS) stream and/or its underlying physical log.
 old-location: kernel\clfs_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

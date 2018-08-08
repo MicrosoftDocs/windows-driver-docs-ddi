@@ -4,7 +4,7 @@ title: "_DOT11EXT_IHV_PARAMS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_params.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1264bfe7-3ab6-4ba0-aa41-cf81bc9bb687
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,7 +74,7 @@ typedef struct _DOT11EXT_IHV_PARAMS {
 
 ### -field dot11ExtIhvProfileParams
 
-A 
+A
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
      DOT11EXT_IHV_PROFILE_PARAMS</a> structure that specifies general parameters of a basic service set
      (BSS) network with which a network profile will be applied.
@@ -92,14 +92,14 @@ The flags associated with this IHV profile type.
 
 ### -field interfaceGuid
 
-The globally unique identifier (GUID) for the wireless LAN (WLAN) adapter. 
-     
+The globally unique identifier (GUID) for the wireless LAN (WLAN) adapter.
 
-The operating system passes the GUID and other data related to the WLAN adapter through the 
-     <i>pDot11Adapter</i> parameter of the 
+
+The operating system passes the GUID and other data related to the WLAN adapter through the
+     <i>pDot11Adapter</i> parameter of the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
      Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
-     the WLAN adapter. For more information about this operation, see 
+     the WLAN adapter. For more information about this operation, see
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter
      Arrival</a>.
 

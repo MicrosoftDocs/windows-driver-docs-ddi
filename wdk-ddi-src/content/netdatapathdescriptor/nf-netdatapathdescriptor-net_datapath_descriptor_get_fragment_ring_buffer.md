@@ -33,7 +33,8 @@ apilocation:
 -	netdatapathdescriptor.h
 apiname: 
 -	NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

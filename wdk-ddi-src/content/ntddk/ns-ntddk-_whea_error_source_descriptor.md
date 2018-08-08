@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_SOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_ERROR_SOURCE_DESCRIPTOR structure describes an error source.
 old-location: whea\whea_error_source_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 59ee6d51-c60a-4a71-b831-1b9437a69d34
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

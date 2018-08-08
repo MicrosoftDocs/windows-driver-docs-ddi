@@ -4,7 +4,7 @@ title: IFixedPage::GetXpsPartIterator
 author: windows-driver-content
 description: The GetXpsPartIterator method gets an iterator to enumerate all of the parts that are associated with the page.
 old-location: print\ifixedpage_getxpspartiterator.htm
-old-project: print
+tech.root: print
 ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

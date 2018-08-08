@@ -4,7 +4,7 @@ title: IPrintClassObjectFactory::GetPrintClassObject
 author: windows-driver-content
 description: The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create.
 old-location: print\iprintclassobjectfactory_getprintclassobject.htm
-old-project: print
+tech.root: print
 ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

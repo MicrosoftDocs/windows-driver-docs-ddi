@@ -4,7 +4,7 @@ title: "_SM_SetBindingSupport_IN"
 author: windows-driver-content
 description: The SM_SetBindingSupport_IN structure is used to provide input parameters to the SM_SetBindingSupport method.
 old-location: storage\sm_setbindingsupport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7bcee845-9b3f-4ad7-843f-1f4cd74ee1be
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

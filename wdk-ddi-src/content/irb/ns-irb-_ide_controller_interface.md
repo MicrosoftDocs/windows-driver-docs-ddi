@@ -4,7 +4,7 @@ title: "_IDE_CONTROLLER_INTERFACE"
 author: windows-driver-content
 description: The IDE_CONTROLLER_INTERFACE structure is used to pass controller configuration information between the port driver and the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_controller_interface.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cb18f7d9-f9e8-436d-8d61-3641730bd8a2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

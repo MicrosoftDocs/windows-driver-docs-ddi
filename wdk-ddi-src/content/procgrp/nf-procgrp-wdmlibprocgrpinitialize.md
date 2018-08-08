@@ -4,7 +4,7 @@ title: WdmlibProcgrpInitialize function
 author: windows-driver-content
 description: The WdmlibProcgrpInitialize function initializes the Processor Group (ProcGrp) compatibility library.
 old-location: kernel\wdmlibprocgrpinitialize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 760f7bd8-0957-4dd0-b201-64173961cbb2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

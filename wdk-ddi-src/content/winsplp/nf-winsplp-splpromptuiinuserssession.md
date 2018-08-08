@@ -4,7 +4,7 @@ title: SplPromptUIInUsersSession function
 author: windows-driver-content
 description: The SplPromptUIInUsersSession function displays a standard message box in the session indicated by the printer handle and job ID.
 old-location: print\splpromptuiinuserssession.htm
-old-project: print
+tech.root: print
 ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: FltGetVolumeInformation function
 author: windows-driver-content
 description: The FltGetVolumeInformation routine provides information about a given volume.
 old-location: ifsk\fltgetvolumeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e25a7114-c1e5-4432-82a1-4c2e82d9fbc6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

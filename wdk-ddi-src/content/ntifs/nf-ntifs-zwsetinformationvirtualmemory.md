@@ -4,7 +4,7 @@ title: ZwSetInformationVirtualMemory function
 author: windows-driver-content
 description: The ZwSetInformationVirtualMemory routine performs an operation on a specified list of address ranges in the user address space of a process.
 old-location: kernel\zwsetinformationvirtualmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

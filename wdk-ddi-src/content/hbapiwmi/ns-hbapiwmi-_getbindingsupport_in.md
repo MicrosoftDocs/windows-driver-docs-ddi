@@ -4,7 +4,7 @@ title: "_GetBindingSupport_IN"
 author: windows-driver-content
 description: The GetBindingSupport_IN structure is used by a WMI client to deliver the input parameter data of the GetBindingSupport WMI method to the HBA miniport driver.
 old-location: storage\getbindingsupport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f5383092-9e77-4b58-911a-4842a3b9e9ef
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

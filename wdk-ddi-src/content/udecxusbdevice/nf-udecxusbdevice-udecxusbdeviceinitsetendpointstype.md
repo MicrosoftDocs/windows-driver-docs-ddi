@@ -4,10 +4,10 @@ title: UdecxUsbDeviceInitSetEndpointsType function
 author: windows-driver-content
 description: Indicates the type of endpoint (simple or dynamic) in the initialization parameters that the client driver uses to create the virtual USB device.
 old-location: buses\udecxusbdeviceinitsetendpointstype.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 44760191-77DD-40A9-AA11-AE8AB55AB307
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
 ms.prod: windows-hardware
 ms.technology: windows-devices

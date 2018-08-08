@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_RELEASE_HARDWARE
 author: windows-driver-content
 description: A driver's EvtDeviceReleaseHardware event callback function performs operations that are needed when a device is no longer accessible.
 old-location: wdf\evtdevicereleasehardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b4c17e57-688c-4c76-892c-5c8abbf83f20
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

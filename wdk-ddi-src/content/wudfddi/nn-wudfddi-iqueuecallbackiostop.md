@@ -4,7 +4,7 @@ title: IQueueCallbackIoStop
 author: windows-driver-content
 description: The IQueueCallbackIoStop interface contains a method that stops the processing of an I/O request from a queue.
 old-location: wdf\iqueuecallbackiostop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 430ee7fd-cffb-452d-b2e8-0dc252987487
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

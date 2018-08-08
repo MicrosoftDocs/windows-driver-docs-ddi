@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_MICROCODE_UPDATE"
 author: windows-driver-content
 description: The FEATURE_DATA_MICROCODE_UPDATE structure holds information about the Microcode Upgrade feature.
 old-location: storage\feature_data_microcode_update.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ff9f959b-6901-43b8-b335-c0286136b747
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RouterRegisterForPrintAsyncNotifications function
 author: windows-driver-content
 description: The RouterRegisterForPrintAsyncNotifications function registers for asynchronous notifications associated with a printer or print server.
 old-location: print\routerregisterforprintasyncnotifications.htm
-old-project: print
+tech.root: print
 ms.assetid: 87966827-72b2-4be7-859a-628c1accca48
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

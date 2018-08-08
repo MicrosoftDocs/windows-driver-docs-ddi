@@ -4,7 +4,7 @@ title: RtlConvertUlongToLargeInteger function
 author: windows-driver-content
 description: The RtlConvertUlongToLargeInteger routine converts the input unsigned integer to a signed large integer. For Windows XP and later versions of Windows, do not use this routine; use the native support for __int64.
 old-location: kernel\rtlconvertulongtolargeinteger.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9e0b8d36-0191-4f78-91dd-874346a69072
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

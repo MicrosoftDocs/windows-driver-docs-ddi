@@ -4,7 +4,7 @@ title: FsRtlRegisterUncProviderEx function
 author: windows-driver-content
 description: The FsRtlRegisterUncProviderEx routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 old-location: ifsk\fsrtlregisteruncproviderex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5b7302c1-2f31-4b9f-bddb-7b35bbee4a2c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Windows Vista and later versions.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -70,12 +70,12 @@ A pointer to a Unicode string that contains the device name of the network redir
 
 ### -param DeviceObject [in]
 
-A pointer to an unnamed device object that represents the network redirector. 
+A pointer to an unnamed device object that represents the network redirector.
 
 
 ### -param Flags [in]
 
-A bitmask that indicates features supported by the network redirector. A network redirector sets a bit to indicate that a feature is supported. The <i>Flags</i> parameter has two options: 
+A bitmask that indicates features supported by the network redirector. A network redirector sets a bit to indicate that a feature is supported. The <i>Flags</i> parameter has two options:
 
 FSRTL_UNC_PROVIDER_FLAGS_MAILSLOTS_SUPPORTED
 
@@ -90,7 +90,7 @@ The network redirector supports offline access using client-side caching.
 
 
 
-<b>FsRtlRegisterUncProviderEx</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following: 
+<b>FsRtlRegisterUncProviderEx</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following:
 
 <table>
 <tr>
@@ -104,7 +104,7 @@ The network redirector supports offline access using client-side caching.
 </dl>
 </td>
 <td width="60%">
-The requester mode of the IRP that is sent to MUP was not from kernel mode. 
+The requester mode of the IRP that is sent to MUP was not from kernel mode.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The requester mode of the IRP that is sent to MUP was not from kernel mode.
 </dl>
 </td>
 <td width="60%">
-An access violation occurred when attempting access to the MUP device. 
+An access violation occurred when attempting access to the MUP device.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ An access violation occurred when attempting access to the MUP device.
 </dl>
 </td>
 <td width="60%">
-There was a misalignment of data. 
+There was a misalignment of data.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ There were insufficient resources available to allocate memory for buffers.
 </dl>
 </td>
 <td width="60%">
-A request was made to register a known provider that was already registered. 
+A request was made to register a known provider that was already registered.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ A request was made to register a known provider that was already registered.
 </dl>
 </td>
 <td width="60%">
-The <i>RedirDevName</i> parameter was invalid because the length of <i>RedirDevName</i> was zero. 
+The <i>RedirDevName</i> parameter was invalid because the length of <i>RedirDevName</i> was zero.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ The <i>RedirDevName</i> parameter was invalid because the length of <i>RedirDevN
 </dl>
 </td>
 <td width="60%">
-An object type mismatch was encountered with the <i>DeviceObject</i> parameter. 
+An object type mismatch was encountered with the <i>DeviceObject</i> parameter.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ An object type mismatch was encountered with the <i>DeviceObject</i> parameter.
 
 
 
-A network redirector must register with the multiple UNC provider (MUP) to handle Universal Naming Convention (UNC) names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
+A network redirector must register with the multiple UNC provider (MUP) to handle Universal Naming Convention (UNC) names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -200,15 +200,15 @@ MUP is not involved during an operation that creates a mapped drive letter (the 
 
 For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
 
-<b>FsRtlRegisterUncProviderEx</b> sends a private file system control (FSCTL) to MUP to perform the registration. 
+<b>FsRtlRegisterUncProviderEx</b> sends a private file system control (FSCTL) to MUP to perform the registration.
 
-The device name specified in the <i>RedirDevName</i> parameter in the call to <b>FsRtlRegisterUncProviderEx</b> becomes a symbolic link to \device\Mup in the object manager namespace. Also, an open request of the device name, <i>RedirDevName</i>, will route itself to the actual network redirector device object pointed to by the <i>DeviceObject</i> parameter. 
+The device name specified in the <i>RedirDevName</i> parameter in the call to <b>FsRtlRegisterUncProviderEx</b> becomes a symbolic link to \device\Mup in the object manager namespace. Also, an open request of the device name, <i>RedirDevName</i>, will route itself to the actual network redirector device object pointed to by the <i>DeviceObject</i> parameter.
 
 Network redirectors that call <b>FsRtlRegisterUncProviderEx</b> must not register themselves as a file system (network redirectors must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548494">IoRegisterFileSystem</a>). Network mini-redirectors that use the Windows Vista RDBSS (dynamic or static linking) will not be registered as a file system.
 
-File objects on the remote file system stack owned by a network redirector that conforms to the Windows Vista redirector model resolve to MUP. So <a href="https://msdn.microsoft.com/library/windows/hardware/ff548365">IoGetDeviceAttachmentBaseRef</a> returns the device object for MUP, not the network redirector that owns the file object. However, the content of the file object is still owned by the network redirector. 
+File objects on the remote file system stack owned by a network redirector that conforms to the Windows Vista redirector model resolve to MUP. So <a href="https://msdn.microsoft.com/library/windows/hardware/ff548365">IoGetDeviceAttachmentBaseRef</a> returns the device object for MUP, not the network redirector that owns the file object. However, the content of the file object is still owned by the network redirector.
 
-The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This order can be changed dynamically without a reboot. This registry value is located under the following registry key: 
+The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This order can be changed dynamically without a reboot. This registry value is located under the following registry key:
 
 <div class="code"><span codelanguage=""><table>
 <tr>

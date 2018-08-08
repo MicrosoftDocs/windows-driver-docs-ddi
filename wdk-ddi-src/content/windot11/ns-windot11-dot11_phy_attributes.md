@@ -4,7 +4,7 @@ title: DOT11_PHY_ATTRIBUTES
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -91,10 +91,10 @@ typedef struct DOT11_PHY_ATTRIBUTES {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_PHY_ATTRIBUTES structure. This member is formatted as an 
+The type, revision, and size of the DOT11_PHY_ATTRIBUTES structure. This member is formatted as an
       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
-The miniport driver must set the members of 
+The miniport driver must set the members of
       <b>Header</b> to the following values:
 
 #### Type
@@ -111,16 +111,16 @@ This member must be set to DOT11_PHY_ATTRIBUTES_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
         sizeof(DOT11_PHY_ATTRIBUTES).
 
-For more information about these members, see 
+For more information about these members, see
       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PhyType
 
-The type of the PHY as specified by a 
+The type of the PHY as specified by a
      <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumerator value.
 
 
@@ -129,11 +129,11 @@ The type of the PHY as specified by a
 A Boolean value that specifies the hardware power state of the PHY. If <b>TRUE</b>, the hardware power
       state is enabled. If <b>FALSE</b>, the hardware power state is disabled.
 
-For more information about the PHY's hardware power state, see 
+For more information about the PHY's hardware power state, see
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">
       OID_DOT11_HARDWARE_PHY_STATE</a>.
 
-<div class="alert"><b>Note</b>  Whenever the PHY's hardware power state changes, the miniport driver must make an 
+<div class="alert"><b>Note</b>  Whenever the PHY's hardware power state changes, the miniport driver must make an
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
 
@@ -142,10 +142,10 @@ For more information about the PHY's hardware power state, see
 A Boolean value that specifies the software power state of the PHY. If <b>TRUE</b>, the software power
       state is enabled. If <b>FALSE</b>, the software power state is disabled.
 
-For more information about the PHY's software power state, see 
+For more information about the PHY's software power state, see
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>.
 
-<div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an 
+<div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
 
@@ -161,7 +161,7 @@ This member is not applicable to the Extensible Access Point (ExtAP) operation m
 ### -field uMPDUMaxLength
 
 The maximum length, in bytes, of a media access control (MAC) protocol data unit (MPDU) frame that
-      the PHY can transmit or receive. For more information, see 
+      the PHY can transmit or receive. For more information, see
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569387">OID_DOT11_MPDU_MAX_LENGTH</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
@@ -169,19 +169,19 @@ The maximum length, in bytes, of a media access control (MAC) protocol data unit
 
 ### -field TempType
 
-The PHY's operating temperature range, defined through a 
+The PHY's operating temperature range, defined through a
       <a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a> enumeration value.
 
 
 ### -field DiversitySupport
 
-The PHY's type of antenna diversity, defined through a 
+The PHY's type of antenna diversity, defined through a
       <a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a> enumeration
       value.
 
 #### -field DataRateMappingEntries
 
-An array of the data rates supported by the PHY. Each entry is formatted as a 
+An array of the data rates supported by the PHY. Each entry is formatted as a
       <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
       DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
 
@@ -189,21 +189,21 @@ An array of the data rates supported by the PHY. Each entry is formatted as a
 #### -field ERPAttributes
 
 The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
-       member only if the 
+       member only if the
        <b>PhyType</b> member is set to dot11_phy_type_erp.
 
 
 #### -field HRDSSSAttributes
 
 The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
-       miniport driver must use this member only if the 
+       miniport driver must use this member only if the
        <b>PhyType</b> member is set to dot11_phy_type_hrdsss.
 
 
 #### -field OFDMAttributes
 
 The PHY-specific attributes of an orthogonal frequency division multiplexing (OFDM) PHY type. The
-       miniport driver must use this member only if the 
+       miniport driver must use this member only if the
        <b>PhyType</b> member is set to dot11_phy_type_ofdm.
 
 
@@ -233,14 +233,14 @@ An array of the supported transmit power levels in units of milliwatts (mWs). Ea
 
 ### -field uNumDataRateMappingEntries
 
-The number of data rates within the 
+The number of data rates within the
       <b>DataRateMappingEntries</b> array.
 
 
 ### -field uNumberSupportedPowerLevels
 
-The number of power levels within the 
-      <b>TxPowerLevels</b> array. 
+The number of power levels within the
+      <b>TxPowerLevels</b> array.
       <b>uNumOfSupportedPowerLevels</b> must have a value from 1 through 8.
 
 
@@ -248,12 +248,12 @@ The number of power levels within the
 
 
 
-The 
+The
     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
     NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> structure contains a member (<b>pExtPhyAttributes</b>) that specifies the address of an array of DOT11_PHY_ATTRIBUTES structures. When
-    the miniport driver calls 
+    the miniport driver calls
     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>,
-    the driver sets the 
+    the driver sets the
     <i>MiniportAttributes</i> parameter to the address of driver-allocated block of memory which contains an
     NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure along with the array of DOT11_PHY_ATTRIBUTES
     structure.

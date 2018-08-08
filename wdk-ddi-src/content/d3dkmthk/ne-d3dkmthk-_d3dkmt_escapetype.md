@@ -28,7 +28,8 @@ apilocation:
 -	d3dkmthk.h
 apiname:
 -	_D3DKMT_ESCAPETYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

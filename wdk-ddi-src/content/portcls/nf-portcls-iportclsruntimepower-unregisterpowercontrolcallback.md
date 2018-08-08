@@ -4,10 +4,10 @@ title: IPortClsRuntimePower::UnregisterPowerControlCallback
 author: windows-driver-content
 description: The port class driver (PortCls) uses the UnregisterPowerControlCallback method to unregister a power control callback.
 old-location: audio\iportclsruntimepower_unregisterpowercontrolcallback.htm
-old-project: audio
+tech.root: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],UnregisterPowerControlCallback method, IPortClsRuntimePower.UnregisterPowerControlCallback, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

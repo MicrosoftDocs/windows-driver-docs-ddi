@@ -4,7 +4,7 @@ title: "_MF_MDL_SHARED_PAYLOAD_KEY"
 author: windows-driver-content
 description: This union is used internally by the operating system.
 old-location: stream\mf_mdl_shared_payload_key.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3EA093AB-1D23-4744-997E-8C7072934628
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

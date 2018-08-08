@@ -4,7 +4,7 @@ title: GPIO_CLIENT_WRITE_PINS
 author: windows-driver-content
 description: The CLIENT_WriteGpioPins event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.
 old-location: gpio\client_writegpiopins.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 1C203107-258E-41DF-AFA7-B2597DCDF2E3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

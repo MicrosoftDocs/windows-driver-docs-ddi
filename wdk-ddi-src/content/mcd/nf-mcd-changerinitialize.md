@@ -4,7 +4,7 @@ title: ChangerInitialize function
 author: windows-driver-content
 description: ChangerInitialize readies the changer to receive other requests.
 old-location: storage\changerinitialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

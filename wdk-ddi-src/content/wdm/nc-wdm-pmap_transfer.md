@@ -4,7 +4,7 @@ title: PMAP_TRANSFER
 author: windows-driver-content
 description: The MapTransfer routine sets up map registers for an adapter object to map a DMA transfer from a locked-down buffer.
 old-location: kernel\maptransfer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 50126ab8-3094-497e-96f8-e41255d275e3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

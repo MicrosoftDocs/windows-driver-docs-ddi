@@ -4,7 +4,7 @@ title: RILSUBSCRIBERINFOSERVICE
 author: windows-driver-content
 description: This enumeration describes the RILSUBSCRIBERINFOSERVICE.
 old-location: netvista\rilsubscriberinfoservice.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9dcdfbcc-bab8-4621-993b-e64106d0457e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,10 +58,10 @@ req.typenames: RILSUBSCRIBERINFOSERVICE
 
 ````
 enum RILSUBSCRIBERINFOSERVICE {
-  RIL_SERVICE_UNKNOWN  = 0x01, 
-  RIL_SERVICE_VOICE    = 0x02, 
-  RIL_SERVICE_FAX      = 0x03, 
-  RIL_SERVICE_OTHER    = 0x04 
+  RIL_SERVICE_UNKNOWN  = 0x01,
+  RIL_SERVICE_VOICE    = 0x02,
+  RIL_SERVICE_FAX      = 0x03,
+  RIL_SERVICE_OTHER    = 0x04
 
 };
 ````

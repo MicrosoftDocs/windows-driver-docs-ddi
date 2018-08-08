@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function
 author: windows-driver-content
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_MDL function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to use an MDL to describe a data buffer.
 old-location: spb\spb_transfer_list_entry_init_mdl.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: FFE8761B-5769-48E5-ACE9-50009C490714
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

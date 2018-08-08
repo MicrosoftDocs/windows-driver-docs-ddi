@@ -4,7 +4,7 @@ title: "_SERCX_CONFIG"
 author: windows-driver-content
 description: The SERCX_CONFIG structure contains configuration information for the serial framework extension (SerCx).
 old-location: serports\sercx_config.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 2CBCBA07-C489-4475-A856-8748FBFDC141
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

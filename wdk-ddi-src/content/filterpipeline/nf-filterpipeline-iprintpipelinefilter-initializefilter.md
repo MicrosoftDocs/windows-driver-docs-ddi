@@ -4,7 +4,7 @@ title: IPrintPipelineFilter::InitializeFilter
 author: windows-driver-content
 description: The InitializeFilter method initializes a filter.
 old-location: print\iprintpipelinefilter_initializefilter.htm
-old-project: print
+tech.root: print
 ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_DXGK_POWER_COMPONENT_TYPE"
 author: windows-driver-content
 description: Indicates the power component type that is reported by the display miniport driver to the Microsoft DirectX graphics kernel subsystem.
 old-location: display\dxgk_power_component_type.htm
-old-project: display
+tech.root: display
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

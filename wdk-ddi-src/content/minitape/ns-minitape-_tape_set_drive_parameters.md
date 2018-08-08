@@ -4,7 +4,7 @@ title: "_TAPE_SET_DRIVE_PARAMETERS"
 author: windows-driver-content
 description: The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_SET_DRIVE_PARAMS request to adjust the configurable parameters of a tape drive.
 old-location: storage\tape_set_drive_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 87317972-b0df-4691-a9a5-bd0bbc150e53
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

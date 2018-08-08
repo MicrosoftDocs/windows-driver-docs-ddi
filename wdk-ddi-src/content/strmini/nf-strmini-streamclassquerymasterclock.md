@@ -4,7 +4,7 @@ title: StreamClassQueryMasterClock function
 author: windows-driver-content
 description: When the minidriver calls the StreamClassQueryMasterClock routine, the class driver queries the appropriate time value of the master clock asynchronously, and passes the result to the routine passed in the ClockCallbackRoutine parameter.
 old-location: stream\streamclassquerymasterclock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 41b159b6-f365-4ade-b5d4-e7662c75e866
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: WdfPdoAddEjectionRelationsPhysicalDevice function
 author: windows-driver-content
 description: The WdfPdoAddEjectionRelationsPhysicalDevice method indicates that a specified device is ejected when another specified device is ejected.
 old-location: wdf\wdfpdoaddejectionrelationsphysicaldevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 23a9ab2a-be8e-40ff-8654-adf170adc6f2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

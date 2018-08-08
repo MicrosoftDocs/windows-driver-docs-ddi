@@ -4,7 +4,7 @@ title: PFNUSBCAMD_WaitOnDeviceEvent
 author: windows-driver-content
 description: The USBCAMD_WaitOnDeviceEvent service is used to perform a read from the interrupt pipe if the camera has an interrupt pipe for external event notifications.
 old-location: stream\usbcamd_waitondeviceevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b9767479-3ad9-4b47-82d1-70b54329e7b8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

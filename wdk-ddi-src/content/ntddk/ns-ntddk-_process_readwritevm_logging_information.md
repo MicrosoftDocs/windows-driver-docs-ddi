@@ -4,7 +4,7 @@ title: "_PROCESS_READWRITEVM_LOGGING_INFORMATION"
 author: windows-driver-content
 description: Stores options for read/write access for telemetry per process.
 old-location: kernel\process_readwritevm_logging_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F1C769FD-D05F-4C23-A91E-FAEE8EA029EC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

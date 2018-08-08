@@ -4,7 +4,7 @@ title: PFNKSINTERSECTHANDLEREX
 author: windows-driver-content
 description: AVStream calls a minidriver's AVStrMiniIntersectHandlerEx routine to determine the highest quality intersection of two data ranges.
 old-location: stream\avstrminiintersecthandlerex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d80f8bc6-29dc-4cb0-87f5-414ec6418156
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

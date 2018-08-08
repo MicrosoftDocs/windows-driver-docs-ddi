@@ -4,7 +4,7 @@ title: ScsiDebugPrint function
 author: windows-driver-content
 description: The ScsiDebugPrint routine prints debug information with a level of verbosity based on global values set in the kernel debugger or set in the registry and initialized when the system boots.
 old-location: storage\scsidebugprint.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bbf3ea14-1802-4433-9043-73bfc0c447bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

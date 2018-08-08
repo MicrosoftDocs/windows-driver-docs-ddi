@@ -4,7 +4,7 @@ title: HBA_GetRNIDMgmtInfo function
 author: windows-driver-content
 description: The HBA_GetRNIDMgmtInfo routine queries the HBA for request node identification data (RNID) management information.
 old-location: storage\hba_getrnidmgmtinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8018d52d-4454-4826-933f-a34a70243547
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDFIoRequest2::IsCanceled
 author: windows-driver-content
 description: The IsCanceled method determines whether the I/O manager has attempted to cancel an I/O request.
 old-location: wdf\iwdfiorequest2_iscanceled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IOCTL_USBPRINT_SOFT_RESET
 author: windows-driver-content
 description: The IOCTL_USBPRINT_SOFT_RESET request allows upper-layer software (such as a language monitor), to issue a class-specific soft reset command to the printer.
 old-location: print\ioctl_usbprint_soft_reset.htm
-old-project: print
+tech.root: print
 ms.assetid: 84e9197a-a096-42ff-af0d-3f4dab9fe0c6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

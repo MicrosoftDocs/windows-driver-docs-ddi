@@ -28,7 +28,8 @@ apilocation:
 -	ntddk.h
 apiname: 
 -	WELL_KNOWN_SID_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

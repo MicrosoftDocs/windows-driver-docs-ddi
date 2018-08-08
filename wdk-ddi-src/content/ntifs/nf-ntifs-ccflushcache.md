@@ -4,7 +4,7 @@ title: CcFlushCache function
 author: windows-driver-content
 description: The CcFlushCache routine flushes all or a portion of a cached file to disk.
 old-location: ifsk\ccflushcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 06bb49bc-56e6-42fc-ae52-c954507d2a3f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

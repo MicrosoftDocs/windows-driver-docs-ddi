@@ -4,7 +4,7 @@ title: ExRaiseDatatypeMisalignment function
 author: windows-driver-content
 description: The ExRaiseDatatypeMisalignment routine can be used with structured exception handling to throw a driver-determined exception for a misaligned data type that occurs when a driver processes I/O requests.
 old-location: kernel\exraisedatatypemisalignment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5c8bfd13-31e0-461f-93d2-53ce15c53cdb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

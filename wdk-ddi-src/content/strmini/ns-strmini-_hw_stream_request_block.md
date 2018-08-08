@@ -4,7 +4,7 @@ title: "_HW_STREAM_REQUEST_BLOCK"
 author: windows-driver-content
 description: The stream class driver uses the HW_STREAM_REQUEST_BLOCK structure to pass information to and from the minidriver, using minidriver provided callbacks.
 old-location: stream\hw_stream_request_block.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e2a19bb1-631d-4160-9980-f3cbeb0b085a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: KeSetTargetProcessorDpcEx function
 author: windows-driver-content
 description: The KeSetTargetProcessorDpcEx routine specifies the processor that a DPC routine will run on.
 old-location: kernel\kesettargetprocessordpcex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a21f3304-9181-4027-9a7e-d590037b4b0f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

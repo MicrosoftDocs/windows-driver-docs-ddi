@@ -4,7 +4,7 @@ title: "_INSTANCE_PARTIAL_INFORMATION"
 author: windows-driver-content
 description: The INSTANCE_PARTIAL_INFORMATION structure contains partial information for a minifilter instance.
 old-location: ifsk\instance_partial_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cabcb39c-1f8d-41dc-a6ec-78f3fb3911cf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

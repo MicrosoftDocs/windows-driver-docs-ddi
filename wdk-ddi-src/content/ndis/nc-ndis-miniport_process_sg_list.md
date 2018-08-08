@@ -4,10 +4,10 @@ title: MINIPORT_PROCESS_SG_LIST
 author: windows-driver-content
 description: A bus-master miniport driver provides a MiniportProcessSGList function to process scatter/gather lists for network data.
 old-location: netvista\miniportprocesssglist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ddd5d14f-f886-40d0-9fc8-eeb37da63ebd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_PROCESS_SG_LIST, MINIPORT_PROCESS_SG_LIST callback, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
 ms.prod: windows-hardware
 ms.technology: windows-devices

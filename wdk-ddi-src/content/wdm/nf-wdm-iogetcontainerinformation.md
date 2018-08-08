@@ -4,7 +4,7 @@ title: IoGetContainerInformation function
 author: windows-driver-content
 description: The IoGetContainerInformation routine provides information about the current state of a user session.
 old-location: kernel\iogetcontainerinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

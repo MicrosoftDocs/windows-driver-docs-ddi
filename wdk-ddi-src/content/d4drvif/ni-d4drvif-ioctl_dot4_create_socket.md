@@ -4,7 +4,7 @@ title: IOCTL_DOT4_CREATE_SOCKET
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_CREATE_SOCKET.
 old-location: print\ioctl_ioctl_dot4_create_socket.htm
-old-project: print
+tech.root: print
 ms.assetid: CF5BF5D1-FF78-4461-AC0D-A7A7529FB59E
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

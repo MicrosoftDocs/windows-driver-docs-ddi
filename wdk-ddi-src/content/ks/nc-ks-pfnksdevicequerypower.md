@@ -4,7 +4,7 @@ title: PFNKSDEVICEQUERYPOWER
 author: windows-driver-content
 description: AVStream calls a minidriver's AVStrMiniDeviceQueryPower routine when it receives an IRP_MN_QUERY_POWER request.
 old-location: stream\avstrminidevicequerypower.htm
-old-project: stream
+tech.root: stream
 ms.assetid: db839cde-cb3e-47f2-9a06-54e37ac7ac67
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

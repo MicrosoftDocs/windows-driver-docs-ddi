@@ -4,7 +4,7 @@ title: BOUND_CALLBACK
 author: windows-driver-content
 description: The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread.
 old-location: kernel\boundcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D9047BB2-2FCD-41DE-B1E1-DE89AAA40ED7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

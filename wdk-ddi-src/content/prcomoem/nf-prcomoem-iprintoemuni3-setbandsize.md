@@ -4,7 +4,7 @@ title: IPrintOemUni3::SetBandSize
 author: windows-driver-content
 description: The IPrintOemUni3::SetBandSize method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
 old-location: print\iprintoemuni3_setbandsize.htm
-old-project: print
+tech.root: print
 ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_CONTROLDIAGNOSTICREPORTING
-title: _DXGKARG_CONTROLDIAGNOSTICREPORTING
+title: "_DXGKARG_CONTROLDIAGNOSTICREPORTING"
 author: windows-driver-content
 description:
 ms.assetid: ac6a8e7d-85b8-4835-b8f6-827a6cbbee95
@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDXGKARG_CONTROLDIAGNOSTICREPORTING, DXGKARG_CONTROLDIAGNOSTICREPORTING
+req.typenames: DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING
 topictype:
 -	apiref
 apitype:
@@ -31,7 +31,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	_DXGKARG_CONTROLDIAGNOSTICREPORTING
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 ---
 

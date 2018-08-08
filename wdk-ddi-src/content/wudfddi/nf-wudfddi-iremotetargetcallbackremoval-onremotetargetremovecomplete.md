@@ -4,7 +4,7 @@ title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteTargetRemoveComplete event callback function performs operations that are necessary after the operating system completes the removal of a remote I/O target's device.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecomplete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bfac8f91-2367-4194-8e98-e274025c049a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

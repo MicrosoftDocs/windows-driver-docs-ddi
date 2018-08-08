@@ -4,7 +4,7 @@ title: "_STORAGE_TEMPERATURE_INFO"
 author: windows-driver-content
 description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_temperature_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1B7C68BF-78AE-4427-B5DC-E388CB5FAC0C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

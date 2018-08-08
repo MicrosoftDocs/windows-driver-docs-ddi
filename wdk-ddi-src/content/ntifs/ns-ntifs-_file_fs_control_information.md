@@ -4,7 +4,7 @@ title: "_FILE_FS_CONTROL_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_CONTROL_INFORMATION structure is used to query or set control information for the files in a directory.
 old-location: ifsk\file_fs_control_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

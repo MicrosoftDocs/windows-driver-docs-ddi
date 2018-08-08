@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeFormatRequestForUrb function
 author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForUrb method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforurb.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

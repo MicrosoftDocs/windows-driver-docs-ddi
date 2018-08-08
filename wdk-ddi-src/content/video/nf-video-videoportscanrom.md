@@ -4,10 +4,10 @@ title: VideoPortScanRom function
 author: windows-driver-content
 description: The VideoPortScanRom function is obsolete in Windows XP and later versions. It is supported only for backward compatibility. VideoPortScanRom performs a case-sensitive search for a specified string in ROM.
 old-location: display\videoportscanrom.htm
-old-project: display
+tech.root: display
 ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortScanRom, VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, video/VideoPortScanRom
 ms.prod: windows-hardware
 ms.technology: windows-devices

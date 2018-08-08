@@ -2,13 +2,13 @@
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME)
 title: CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME)
 author: windows-driver-content
-description: The CWiauPropertyList::SetCurrentValue(BSTR) method sets the current value of a property of type BSTR, and sets its type to VT_BSTR.
-old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
-old-project: image
-ms.assetid: 017ab648-ee62-47f5-abd3-f4eac4378b8a
+description: The CWiauPropertyList::SetCurrentValue(SYSTEMTIME) method sets the current value of a property of type SYSTEMTIME, and sets its type to VT_UI2 | VT_VECTOR.
+old-location: image\cwiaupropertylist_setcurrentvalue_systemtime_.htm
+tech.root: image
+ms.assetid: 1823dec6-aec8-47eb-9543-9acfd32c4b0d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT  ,BSTR  ), CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, SetCurrentValue(BSTR)(CWiauPropertyList), image.cwiaupropertylist_setcurrentvalue_bstr_, wiauFncs_dfd640f7-63c2-41a6-adf3-589e87aa85cc.xml, wiautil/CWiauPropertyList::SetCurrentValue
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME  ), CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_systemtime_, wiauFncs_dafa3146-7ba7-4782-9e6f-95a80d97452e.xml, wiautil/CWiauPropertyList::SetCurrentValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SetCurrentValue
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>CWiauPropertyList::SetCurrentValue(BSTR)</b> method sets the current value of a property of type <b>BSTR</b>, and sets its type to VT_BSTR.
+The <b>CWiauPropertyList::SetCurrentValue(SYSTEMTIME)</b> method sets the current value of a property of type <b>SYSTEMTIME</b>, and sets its type to VT_UI2 | VT_VECTOR.
 
 
 ## -parameters
@@ -62,7 +63,7 @@ The <b>CWiauPropertyList::SetCurrentValue(BSTR)</b> method sets the current valu
 Specifies the property index. Set this parameter to the value in *<i>pIdx</i> when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a> method returns.
 
 
-#### - value
+### -param value
 
 Pointer to a memory location containing the value that is written to the device property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
 
@@ -72,6 +73,15 @@ Pointer to a memory location containing the value that is written to the device 
 
 
 This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+The <b>SYSTEMTIME</b> structure is described in the Microsoft Windows SDK documentation.
 
 
 

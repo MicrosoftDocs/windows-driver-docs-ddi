@@ -28,7 +28,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	_NET_MEMORY_MAPPING_REQUIREMENT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

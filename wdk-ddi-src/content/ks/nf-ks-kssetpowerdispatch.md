@@ -4,7 +4,7 @@ title: KsSetPowerDispatch function
 author: windows-driver-content
 description: Sets the power dispatch function to be called when the driver object receives an IRP_MJ_POWER IRP.
 old-location: stream\kssetpowerdispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

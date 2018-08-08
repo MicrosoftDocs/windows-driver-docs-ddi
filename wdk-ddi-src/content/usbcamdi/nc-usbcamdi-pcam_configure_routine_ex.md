@@ -4,7 +4,7 @@ title: PCAM_CONFIGURE_ROUTINE_EX
 author: windows-driver-content
 description: A camera minidriver's CamConfigureEx callback function configures the isochronous streaming interface.
 old-location: stream\camconfigureex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ec9fd207-4ed8-4bc9-b240-b5214e8c7f67
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

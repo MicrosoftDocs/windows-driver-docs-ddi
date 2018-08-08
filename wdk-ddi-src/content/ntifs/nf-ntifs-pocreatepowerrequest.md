@@ -4,7 +4,7 @@ title: PoCreatePowerRequest function
 author: windows-driver-content
 description: The PoCreatePowerRequest routine creates a power request object.
 old-location: kernel\pocreatepowerrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,10 @@ title: IServiceGroup
 author: windows-driver-content
 description: The IServiceGroup interface encapsulates a group of objects that all require notification of the same service request.
 old-location: audio\iservicegroup.htm
-old-project: audio
+tech.root: audio
 ms.assetid: eef2741e-e1a3-471b-a756-d89990929738
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices],described, audio.iservicegroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml, portcls/IServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

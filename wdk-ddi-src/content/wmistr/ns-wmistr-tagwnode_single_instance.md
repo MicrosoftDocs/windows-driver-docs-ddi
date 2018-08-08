@@ -4,7 +4,7 @@ title: tagWNODE_SINGLE_INSTANCE
 author: windows-driver-content
 description: The WNODE_SINGLE_INSTANCE structure contains values for all data items in one instance of a data block.
 old-location: kernel\wnode_single_instance.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 03e922af-f42a-4801-adc5-fc7a0b90f4a7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

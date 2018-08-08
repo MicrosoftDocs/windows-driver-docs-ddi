@@ -4,7 +4,7 @@ title: DOT11EXT_SET_KEY_MAPPING_KEY
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetkeymappingkey.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7fbca90d-c5cd-40d4-a284-ca059aa6cacf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,9 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtSetKeyMappingKey</b> function to add or delete a cipher key from the
-  key-mapping key tables of the wireless LAN (WLAN) adapter. For more information about these key types, see 
+  key-mapping key tables of the wireless LAN (WLAN) adapter. For more information about these key types, see
   <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>.
 
 
@@ -76,14 +76,14 @@ DWORD WINAPI * Dot11ExtSetKeyMappingKey(
 ### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
-     specified through a previous call to the 
+     specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param pKey [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
      DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure, which defines the cipher key.
 
@@ -93,7 +93,7 @@ A pointer to a
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -103,13 +103,13 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-A key-mapping cipher key is deleted from the adapter's key tables if the 
-    <b>bDelete</b> member of the 
+A key-mapping cipher key is deleted from the adapter's key tables if the
+    <b>bDelete</b> member of the
     <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
     DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure is set to <b>TRUE</b>.
 
-A call to the 
-    <b>Dot11ExtSetKeyMappingKey</b> function results in a set request of the 
+A call to the
+    <b>Dot11ExtSetKeyMappingKey</b> function results in a set request of the
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
     OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.

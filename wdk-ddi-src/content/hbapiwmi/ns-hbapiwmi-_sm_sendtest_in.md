@@ -4,7 +4,7 @@ title: "_SM_SendTEST_IN"
 author: windows-driver-content
 description: The SM_SendTEST_IN structure is used to provide input parameters to the SM_SendTEST method.
 old-location: storage\sm_sendtest_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5bb0620e-b271-4af6-b528-b904910b8a6c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

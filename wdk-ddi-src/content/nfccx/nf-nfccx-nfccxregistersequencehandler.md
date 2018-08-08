@@ -4,7 +4,7 @@ title: NfcCxRegisterSequenceHandler function
 author: windows-driver-content
 description: Called by the client driver during initialization to register for handling specific sequences.
 old-location: nfpdrivers\_nfccxregistersequencehandler.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 30957475-D02B-434D-9FAB-BBCD5732DCA5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

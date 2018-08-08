@@ -4,7 +4,7 @@ title: WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function
 author: windows-driver-content
 description: The WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function sets a new IRP in a driver's WDF_REQUEST_REUSE_PARAMS structure.
 old-location: wdf\wdf_request_reuse_params_set_new_irp.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3a18ec1b-be02-418a-8a38-deca7178ce30
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

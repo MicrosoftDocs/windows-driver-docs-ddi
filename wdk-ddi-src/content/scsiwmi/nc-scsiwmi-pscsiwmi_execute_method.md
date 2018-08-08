@@ -4,7 +4,7 @@ title: PSCSIWMI_EXECUTE_METHOD
 author: windows-driver-content
 description: A miniport driver's HwScsiWmiExecuteMethod routine is called to execute a method associated with a data block.
 old-location: storage\hwscsiwmiexecutemethod.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 67a82442-591e-4e52-aaaf-b3cdb68c483a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: IOCTL_VIDEO_GET_POWER_MANAGEMENT
 author: windows-driver-content
 description: This IOCTL is obsolete in Windows 2000 and later, and is no longer supported.
 old-location: display\ioctl_video_get_power_management.htm
-old-project: display
+tech.root: display
 ms.assetid: 5d45b65b-39f6-4a8c-ad88-958e3b950cde
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_GET_POWER_MANAGEMENT, IOCTL_VIDEO_GET_POWER_MANAGEMENT control, IOCTL_VIDEO_GET_POWER_MANAGEMENT control code [Display Devices], Video_IOCTLs_2595a142-7478-47f5-bb45-1651903f53ab.xml, display.ioctl_video_get_power_management, ntddvdeo/IOCTL_VIDEO_GET_POWER_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

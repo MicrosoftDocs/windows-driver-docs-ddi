@@ -4,7 +4,7 @@ title: CcInitializeCacheMap function
 author: windows-driver-content
 description: File systems call the CcInitializeCacheMap routine to cache a file.
 old-location: ifsk\ccinitializecachemap.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

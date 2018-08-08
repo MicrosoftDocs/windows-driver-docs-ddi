@@ -8,6 +8,8 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: kernel
 ---
 
@@ -16,7 +18,16 @@ tech.root: kernel
 
 ## -description
 
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. This header declares functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors.
 
-This header is used by kernel. For more information, see:
+To manipulate Unicode and ANSI strings, each function is available in two versions:
 
-- [Windows kernel](../_kernel/index.md)
+- A W-suffixed version that supports two-byte Unicode characters.
+- An A-suffixed version that supports one-byte ANSI characters.
+
+Unicode strings are specified within [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structures in kernel-mode drivers.
+
+
+For more information, see:
+
+- [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions)

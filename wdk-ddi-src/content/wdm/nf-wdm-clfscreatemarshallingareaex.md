@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	ClfsCreateMarshallingAreaEx
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

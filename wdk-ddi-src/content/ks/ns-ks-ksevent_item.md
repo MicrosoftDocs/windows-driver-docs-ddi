@@ -4,7 +4,7 @@ title: KSEVENT_ITEM
 author: windows-driver-content
 description: The KSEVENT_ITEM structure describe a minidriver's support for a specific event within an event set.
 old-location: stream\ksevent_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

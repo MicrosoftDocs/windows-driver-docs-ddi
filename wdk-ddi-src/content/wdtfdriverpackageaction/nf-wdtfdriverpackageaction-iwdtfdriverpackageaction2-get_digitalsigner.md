@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_DigitalSigner
 author: windows-driver-content
 description: Gets the digital signer.
 old-location: dtf\iwdtfdriverpackageaction2_digitalsigner.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: ab544760-7539-4e16-b1c3-457629ce78aa
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

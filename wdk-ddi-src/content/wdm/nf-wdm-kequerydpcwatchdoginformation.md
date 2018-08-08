@@ -4,7 +4,7 @@ title: KeQueryDpcWatchdogInformation function
 author: windows-driver-content
 description: The KeQueryDpcWatchdogInformation routine returns the deferred procedure call (DPC) watchdog timer values for the current processor.
 old-location: kernel\kequerydpcwatchdoginformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

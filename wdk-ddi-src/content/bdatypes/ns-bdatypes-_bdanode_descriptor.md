@@ -4,7 +4,7 @@ title: "_BDANODE_DESCRIPTOR"
 author: windows-driver-content
 description: The BDANODE_DESCRIPTOR structure describes a BDA node.
 old-location: stream\bdanode_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 324eddca-f619-44e2-b32f-34cefd4c9cdc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

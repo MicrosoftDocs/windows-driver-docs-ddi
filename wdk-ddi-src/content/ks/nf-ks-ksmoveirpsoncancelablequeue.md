@@ -4,7 +4,7 @@ title: KsMoveIrpsOnCancelableQueue function
 author: windows-driver-content
 description: The KsMoveIrpsOnCancelableQueue function moves the specified IRPs from the SourceList parameter to the DestinationList parameter depending on the value returned from the minidriver-defined KStrIrpListCallback function.
 old-location: stream\ksmoveirpsoncancelablequeue.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

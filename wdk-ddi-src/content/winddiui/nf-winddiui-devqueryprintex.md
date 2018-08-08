@@ -4,7 +4,7 @@ title: DevQueryPrintEx function
 author: windows-driver-content
 description: A printer interface DLL's DevQueryPrintEx function determines if a specified print job is compatible with the printer's current configuration and can therefore be printed.
 old-location: print\devqueryprintex.htm
-old-project: print
+tech.root: print
 ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

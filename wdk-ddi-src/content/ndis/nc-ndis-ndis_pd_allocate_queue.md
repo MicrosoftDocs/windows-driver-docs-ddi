@@ -4,10 +4,10 @@ title: NDIS_PD_ALLOCATE_QUEUE
 author: windows-driver-content
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDAllocateQueue function to allocate a queue.
 old-location: netvista\ndispdallocatequeue.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E9091C69-0E21-40CC-B3D3-1F770ABA0D47
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE callback, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices

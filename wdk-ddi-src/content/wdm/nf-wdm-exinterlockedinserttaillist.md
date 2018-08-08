@@ -4,7 +4,7 @@ title: ExInterlockedInsertTailList function
 author: windows-driver-content
 description: The ExInterlockedInsertTailList routine atomically inserts an entry at the end of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\exinterlockedinserttaillist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

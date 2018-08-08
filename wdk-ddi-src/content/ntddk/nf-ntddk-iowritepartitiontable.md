@@ -4,7 +4,7 @@ title: IoWritePartitionTable function
 author: windows-driver-content
 description: The IoWritePartitionTable routine is obsolete and is provided only to support existing drivers.
 old-location: storage\iowritepartitiontable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 406508b2-7509-4d2b-ac22-63644eedcec0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

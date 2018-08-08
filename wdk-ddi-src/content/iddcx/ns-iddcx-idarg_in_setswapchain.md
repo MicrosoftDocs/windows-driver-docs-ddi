@@ -4,10 +4,10 @@ title: IDARG_IN_SETSWAPCHAIN
 author: windows-driver-content
 description: Gives information used to set the indirect swapchain.
 old-location: display\idarg_in_setswapchain.htm
-old-project: display
+tech.root: display
 ms.assetid: 5b3a4a43-e8d4-4edf-87f3-dd3e6bb7e9dc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IDARG_IN_SETSWAPCHAIN, IDARG_IN_SETSWAPCHAIN structure [Display Devices], display.idarg_in_setswapchain, iddcx/IDARG_IN_SETSWAPCHAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices

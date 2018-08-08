@@ -4,10 +4,10 @@ title: RILDELETEMSGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildeletemsgparams.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e87104d2-96e4-4840-8609-8a75247a039a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams, ntddrilapitypes/RILDELETEMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

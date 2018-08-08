@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddExtensionCommand
-title: IDebugFailureAnalysis2::AddExtensionCommand method
+title: IDebugFailureAnalysis2::AddExtensionCommand
 author: windows-driver-content
 description: The AddExtensionCommand method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified debugger command.
 old-location: debugger\idebugfailureanalysis2_addextensioncommand.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 370A4EBA-80BF-46B2-8F52-9F04A4EC98D7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddExtensionCommand,IDebugFailureAnalysis2.AddExtensionCommand, AddString method [Windows Debugging], AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, IDebugFailureAnalysis2::AddExtensionCommand, IDebugFailureAnalysis2::AddString, debugger.idebugfailureanalysis2_addextensioncommand, extsfns/IDebugFailureAnalysis2::AddString
+ms.date: 5/3/2018
+ms.keywords: AddExtensionCommand, AddExtensionCommand method [Windows Debugging], AddExtensionCommand method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddExtensionCommand method, IDebugFailureAnalysis2.AddExtensionCommand, IDebugFailureAnalysis2::AddExtensionCommand, debugger.idebugfailureanalysis2_addextensioncommand, extsfns/IDebugFailureAnalysis2::AddExtensionCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::AddExtensionCommand method
+# IDebugFailureAnalysis2::AddExtensionCommand
 
 
 ## -description

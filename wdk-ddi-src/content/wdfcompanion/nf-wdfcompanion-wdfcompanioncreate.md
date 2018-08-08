@@ -4,7 +4,7 @@ title: WdfCompanionCreate function
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompanioncreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 78b9eccf-34ef-40ae-b7fc-6fa8400f8c2a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

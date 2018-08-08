@@ -4,10 +4,10 @@ title: ISensorDriver::OnSetProperties
 author: windows-driver-content
 description: The ISensorDriver::OnSetProperties method specifies values for the specified list of properties.
 old-location: sensors\isensordriver_onsetproperties.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnSetProperties method, ISensorDriver.OnSetProperties, ISensorDriver::OnSetProperties, OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_IO_CONTAINER_INFORMATION_CLASS"
 author: windows-driver-content
 description: The IO_CONTAINER_INFORMATION_CLASS enumeration contains constants that indicate the classes of system information that a kernel-mode driver can request.
 old-location: kernel\io_container_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 359ed0d2-91b1-46d1-a358-babe7cb993fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

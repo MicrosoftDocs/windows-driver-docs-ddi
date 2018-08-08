@@ -4,7 +4,7 @@ title: IBidiRequestContainer::AddRequest
 author: windows-driver-content
 description: The AddRequest method adds a request to the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__addrequest.htm
-old-project: print
+tech.root: print
 ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_WDF_USB_BMREQUEST_DIRECTION"
 author: windows-driver-content
 description: The WDF_USB_BMREQUEST_DIRECTION enumeration identifies the data transfer direction for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_direction.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e39748b8-d84c-4f9e-a790-bff192a6769c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

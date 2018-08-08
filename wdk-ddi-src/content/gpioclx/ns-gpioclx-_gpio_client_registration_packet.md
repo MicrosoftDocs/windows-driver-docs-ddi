@@ -4,7 +4,7 @@ title: "_GPIO_CLIENT_REGISTRATION_PACKET"
 author: windows-driver-content
 description: The GPIO_CLIENT_REGISTRATION_PACKET structure contains registration information that the general-purpose I/O (GPIO) controller driver passes to the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_client_registration_packet.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: A3E1FC46-ED09-4AB3-B898-253552A76649
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

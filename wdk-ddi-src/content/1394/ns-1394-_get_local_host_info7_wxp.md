@@ -4,7 +4,7 @@ title: "_GET_LOCAL_HOST_INFO7_WXP"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO7 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request with u.GetLocalHostInformation.nLevel set to GET_HOST_DMA_CAPABILITIES.
 old-location: ieee\get_local_host_info7.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 65c4b7d9-dbd8-4f94-b407-1b06543d0b56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

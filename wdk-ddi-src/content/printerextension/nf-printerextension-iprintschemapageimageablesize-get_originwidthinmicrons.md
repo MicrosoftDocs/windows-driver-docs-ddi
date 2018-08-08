@@ -4,7 +4,7 @@ title: IPrintSchemaPageImageableSize::get_OriginWidthInMicrons
 author: windows-driver-content
 description: Gets the horizontal origin of the imageable area relative to the application media size.
 old-location: print\iprintschemapageimageablesize_originwidthinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: 158F8979-682B-4836-9EC5-6F30371DB6EA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

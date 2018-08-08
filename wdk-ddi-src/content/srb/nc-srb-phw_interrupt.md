@@ -4,7 +4,7 @@ title: PHW_INTERRUPT
 author: windows-driver-content
 description: The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt handler routine.
 old-location: storage\phw_interrupt.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d61892c6-f6ca-4077-909e-a21076375e5a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt handler routine. 
+The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt handler routine.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt han
 
 ### -param DeviceExtension [in]
 
-Pointer to the miniport driver's per-HBA storage area. 
+Pointer to the miniport driver's per-HBA storage area.
 
 
 ## -returns
 
 
 
-If the interrupt handler routine determines that its HBA generated the interrupt, it returns <b>TRUE</b>. If the interrupt handler determines that its HBA did not generate the interrupt, it should return <b>FALSE</b> as soon as possible. 
+If the interrupt handler routine determines that its HBA generated the interrupt, it returns <b>TRUE</b>. If the interrupt handler determines that its HBA did not generate the interrupt, it should return <b>FALSE</b> as soon as possible.
 
 
 
@@ -77,11 +77,11 @@ If the interrupt handler routine determines that its HBA generated the interrupt
 
 
 
-The interrupt handler routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
+The interrupt handler routine for both SCSI and StorPort miniport drivers are declared using this prototype.
 
-For more information about the SCSI miniport driver's interrupt handler routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>. 
+For more information about the SCSI miniport driver's interrupt handler routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>.
 
-For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>. 
+For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>.
 
 
 

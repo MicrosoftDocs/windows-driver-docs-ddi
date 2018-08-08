@@ -4,7 +4,7 @@ title: DrvConvertDevMode function
 author: windows-driver-content
 description: A printer interface DLL's DrvConvertDevMode function converts a printer's DEVMODEW structure from one version to another.
 old-location: print\drvconvertdevmode.htm
-old-project: print
+tech.root: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

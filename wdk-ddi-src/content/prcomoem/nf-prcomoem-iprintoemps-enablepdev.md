@@ -4,7 +4,7 @@ title: IPrintOemPS::EnablePDEV
 author: windows-driver-content
 description: The IPrintOemPS::EnablePDEV method allows a rendering plug-in for Pscript5 to create its own PDEV structure.
 old-location: print\iprintoemps_enablepdev.htm
-old-project: print
+tech.root: print
 ms.assetid: f284e89f-463e-4d04-8018-5ce02786d921
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

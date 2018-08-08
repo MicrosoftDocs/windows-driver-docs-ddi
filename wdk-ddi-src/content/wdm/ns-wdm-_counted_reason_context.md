@@ -4,7 +4,7 @@ title: "_COUNTED_REASON_CONTEXT"
 author: windows-driver-content
 description: The COUNTED_REASON_CONTEXT structure contains one or more strings that give reasons for a power request.
 old-location: kernel\counted_reason_context.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: beb17d50-d99a-4baf-99bd-9f42fbea0478
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

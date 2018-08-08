@@ -4,7 +4,7 @@ title: "_DOT11_MSONEX_RESULT"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_msonex_result.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d5870125-2c0f-4cb9-ad2a-dc4939745504
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -52,7 +52,7 @@ req.product: Windows 10 or later.
 
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_MSONEX_RESULT enumeration defines the results of the 802.1X authentication operation
-  performed by the operating system through a call to the 
+  performed by the operating system through a call to the
   <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function.
 
 
@@ -60,7 +60,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum _DOT11_MSONEX_RESULT { 
+typedef enum _DOT11_MSONEX_RESULT {
   DOT11_MSONEX_SUCCESS      = 0,
   DOT11_MSONEX_FAILURE      = 1,
   DOT11_MSONEX_IN_PROGRESS  = 2
@@ -93,10 +93,10 @@ The 802.1X authentication operation is in progress.
 
 
 After the IHV Extensions DLL initiates an 802.1X authentication operation, the operating system calls
-    the 
+    the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
     Dot11ExtIhvOneXIndicateResult</a> IHV handler function to complete the operation. When it calls this
-    function, the operating system passes a DOT11_MSONEX_RESULT value to the 
+    function, the operating system passes a DOT11_MSONEX_RESULT value to the
     <i>OneXResult</i> parameter to specify the result of the authentication operation.
 
 

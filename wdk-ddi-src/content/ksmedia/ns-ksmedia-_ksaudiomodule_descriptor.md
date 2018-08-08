@@ -4,10 +4,10 @@ title: "_KSAUDIOMODULE_DESCRIPTOR"
 author: windows-driver-content
 description: The KSAUDIOMODULE_DESCRIPTOR structure describes the static, external properties of audio modules.
 old-location: audio\ksaudiomodule_descriptor.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, ksmedia/KSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

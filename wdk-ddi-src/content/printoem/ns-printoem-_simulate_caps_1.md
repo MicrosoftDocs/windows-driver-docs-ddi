@@ -4,7 +4,7 @@ title: "_SIMULATE_CAPS_1"
 author: windows-driver-content
 description: The SIMULATE_CAPS_1 structure contains information about the types of simulations a spooler supports.
 old-location: print\simulate_caps_1.htm
-old-project: print
+tech.root: print
 ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeFormatRequestForRead function
 author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForRead method builds a read request for a USB input pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

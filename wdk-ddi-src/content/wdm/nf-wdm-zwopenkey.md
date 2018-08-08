@@ -4,7 +4,7 @@ title: ZwOpenKey function
 author: windows-driver-content
 description: The ZwOpenKey routine opens an existing registry key.
 old-location: kernel\zwopenkey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e92f0297-8bfc-496d-a00b-e7b5711c7856
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

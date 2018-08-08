@@ -4,7 +4,7 @@ title: "_SCARD_IO_REQUEST"
 author: windows-driver-content
 description: This structure is used to identify a smart card I/O request.
 old-location: nfpdrivers\scard_io_request_structure.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: DE670712-2F11-4BB0-ADC7-B68C94EF0759
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

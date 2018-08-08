@@ -4,7 +4,7 @@ title: WRITE_PORT_UCHAR function
 author: windows-driver-content
 description: The WRITE_PORT_UCHAR function writes a byte to the specified port address.
 old-location: wdf\write_port_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5AA3DD53-26A0-460F-9F6D-3515F9C334FA
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

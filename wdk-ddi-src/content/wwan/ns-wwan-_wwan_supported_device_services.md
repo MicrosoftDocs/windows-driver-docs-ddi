@@ -4,10 +4,10 @@ title: "_WWAN_SUPPORTED_DEVICE_SERVICES"
 author: windows-driver-content
 description: The WWAN_SUPPORTED_DEVICE_SERVICES structure describes information about device services supported by the miniport driver.
 old-location: netvista\wwan_supported_device_services.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: CFCF122F-E971-4A6B-91C9-71A8030366A9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], WWAN_SUPPORTED_DEVICE_SERVICES, WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], _WWAN_SUPPORTED_DEVICE_SERVICES, netvista.wwan_supported_device_services, wwan/PWWAN_SUPPORTED_DEVICE_SERVICES, wwan/WWAN_SUPPORTED_DEVICE_SERVICES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

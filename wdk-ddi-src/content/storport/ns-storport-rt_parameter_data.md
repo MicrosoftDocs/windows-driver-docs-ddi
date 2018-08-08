@@ -4,7 +4,7 @@ title: RT_PARAMETER_DATA
 author: windows-driver-content
 description: The RT_PARAMETER_DATA structure contains the parameter data for the report timestamp command.
 old-location: storage\rt_parameter_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: EB23D502-87E4-48B1-B1DC-0B215AB361C8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: StorPortRequestTimer function
 author: windows-driver-content
 description: Schedules a callback event for a Storport timer context object.
 old-location: storage\storportrequesttimer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

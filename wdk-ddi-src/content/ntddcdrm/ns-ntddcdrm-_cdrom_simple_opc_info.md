@@ -4,7 +4,7 @@ title: "_CDROM_SIMPLE_OPC_INFO"
 author: windows-driver-content
 description: The CDROM_SIMPLE_OPC_INFO structure is the only input for the IOCTL_CDROM_SEND_OPC_INFORMATION I/O control code.
 old-location: storage\cdrom_simple_opc_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CE6D2C98-C4C3-4D76-B49E-1B9344B88666
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

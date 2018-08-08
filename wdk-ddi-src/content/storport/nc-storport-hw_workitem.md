@@ -4,7 +4,7 @@ title: HW_WORKITEM
 author: windows-driver-content
 description: A miniport-provided callback function for processing a Storport work item request.
 old-location: storage\hwstorworkitem.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

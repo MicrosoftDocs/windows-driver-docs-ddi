@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 req.ddi-compliance:
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname:
 -	DEFINE_ENUM_FLAG_OPERATORS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 
 ---

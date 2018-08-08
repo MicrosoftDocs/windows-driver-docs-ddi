@@ -4,7 +4,7 @@ title: EVT_SPB_TARGET_CONNECT
 author: windows-driver-content
 description: An SPB controller driver's EvtSpbTargetConnect event callback function opens a connection to a target device on the bus.
 old-location: spb\evtspbtargetconnect.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

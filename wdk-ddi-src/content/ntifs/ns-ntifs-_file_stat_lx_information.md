@@ -31,7 +31,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_FILE_STAT_LX_INFORMATION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

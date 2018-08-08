@@ -4,7 +4,7 @@ title: WUDF_INTERRUPT_WORKITEM
 author: windows-driver-content
 description: A driver's OnInterruptWorkItem event callback function processes interrupt information that the driver's OnInterruptIsr callback function has stored.
 old-location: wdf\oninterruptworkitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

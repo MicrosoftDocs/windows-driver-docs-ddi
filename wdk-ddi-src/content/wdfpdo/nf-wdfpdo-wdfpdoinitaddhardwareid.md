@@ -4,7 +4,7 @@ title: WdfPdoInitAddHardwareID function
 author: windows-driver-content
 description: The WdfPdoInitAddHardwareID method adds a hardware ID to the list of hardware IDs for a child device.
 old-location: wdf\wdfpdoinitaddhardwareid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

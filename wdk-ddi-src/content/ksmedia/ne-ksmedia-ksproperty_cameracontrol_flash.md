@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_FLASH
 author: windows-driver-content
 description: Used to specify camera flash control.
 old-location: stream\ksproperty_cameracontrol_flash.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

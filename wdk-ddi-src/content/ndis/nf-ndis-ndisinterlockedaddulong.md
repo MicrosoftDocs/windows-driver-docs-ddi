@@ -4,10 +4,10 @@ title: NdisInterlockedAddUlong macro
 author: windows-driver-content
 description: The NdisInterlockedAddUlong function adds an unsigned long value to a given unsigned integer as an atomic operation, using a caller-supplied spin lock to synchronize access to the integer variable.
 old-location: netvista\ndisinterlockedaddulong.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d2e31f3c-7152-4df9-8206-a15dee9b641f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

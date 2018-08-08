@@ -4,7 +4,7 @@ title: "_KSPROCESSPIN_INDEXENTRY"
 author: windows-driver-content
 description: The KSPROCESSPIN_INDEXENTRY structure is used in Filter-Centric Processing to bring together all of the input and output pins in one context.
 old-location: stream\ksprocesspin_indexentry.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8fa26442-66a3-4eeb-89d4-21418d60a1af
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

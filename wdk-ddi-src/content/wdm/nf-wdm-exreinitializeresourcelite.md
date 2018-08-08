@@ -4,7 +4,7 @@ title: ExReinitializeResourceLite function
 author: windows-driver-content
 description: The ExReinitializeResourceLite routine reinitializes an existing resource variable.
 old-location: kernel\exreinitializeresourcelite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5713edfd-0b73-4274-862d-23c97f991a68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

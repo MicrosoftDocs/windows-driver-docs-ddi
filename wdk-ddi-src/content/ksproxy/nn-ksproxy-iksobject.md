@@ -4,7 +4,7 @@ title: IKsObject
 author: windows-driver-content
 description: The IKsObject interface provides a method to retrieve the file handle of a KS object.
 old-location: stream\iksobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

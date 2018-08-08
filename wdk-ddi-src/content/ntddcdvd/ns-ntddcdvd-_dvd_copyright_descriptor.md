@@ -4,7 +4,7 @@ title: "_DVD_COPYRIGHT_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_COPYRIGHT_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD copyright descriptor.
 old-location: storage\dvd_copyright_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e3478867-394b-466c-ad9a-259bedd66669
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

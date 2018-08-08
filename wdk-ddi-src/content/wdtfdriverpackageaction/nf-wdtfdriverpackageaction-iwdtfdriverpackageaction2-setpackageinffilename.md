@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::SetPackageInfFileName
 author: windows-driver-content
 description: Sets the pre-imported driver package path.
 old-location: dtf\iwdtfdriverpackageaction2_setpackageinffilename.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 68c2005e-c54b-413e-955a-864a05b23f4e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

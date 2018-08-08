@@ -4,7 +4,7 @@ title: "_IO_DISCONNECT_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The IO_DISCONNECT_INTERRUPT_PARAMETERS structure describes the parameters when unregistering an interrupt-handling routine with IoDisconnectInterruptEx.
 old-location: kernel\io_disconnect_interrupt_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

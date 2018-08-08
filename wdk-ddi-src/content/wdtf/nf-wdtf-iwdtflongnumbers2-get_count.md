@@ -4,7 +4,7 @@ title: IWDTFLongNumbers2::get_Count
 author: windows-driver-content
 description: Gets the number of long numbers in the collection.
 old-location: dtf\iwdtflongnumbers2_count.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: ca732b24-cc80-46a8-9996-6e109201accb
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

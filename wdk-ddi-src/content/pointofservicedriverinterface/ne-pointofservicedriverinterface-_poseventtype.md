@@ -4,7 +4,7 @@ title: "_PosEventType"
 author: windows-driver-content
 description: This enumeration defines values used in the PosEventDataHeader structure to indicate the type of event that was raised.
 old-location: pos\poseventtype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 2ba0c81f-2eff-48bf-8c3e-9047a398f735
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,10 +4,10 @@ title: DXGKCB_GETHANDLEPARENT
 author: windows-driver-content
 description: The DxgkCbGetHandleParent function retrieves the parent resource from the specified allocation.
 old-location: display\dxgkcbgethandleparent.htm
-old-project: display
+tech.root: display
 ms.assetid: db8e7a91-d62a-4d2f-ac21-266e365a352c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_GETHANDLEPARENT, DXGKCB_GETHANDLEPARENT callback, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

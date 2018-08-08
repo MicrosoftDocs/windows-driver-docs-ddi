@@ -4,7 +4,7 @@ title: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE function
 author: windows-driver-content
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can configure a device to use a single, specified interface.
 old-location: wdf\wdf_usb_device_select_config_params_init_single_interface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c0dfcc32-7a32-4d76-b954-de2c9c188353
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

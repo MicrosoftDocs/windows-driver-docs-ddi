@@ -4,7 +4,7 @@ title: RtlULongLongToLongLong function
 author: windows-driver-content
 description: Converts a value of type ULONGLONG to a value of type LONGLONG.
 old-location: kernel\rtlulonglongtolonglong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7F91DDA1-AF01-4DA9-AB3B-AA5CA87C5FD6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

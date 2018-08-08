@@ -4,7 +4,7 @@ title: "*PISCSIIPADDRESSTYPE"
 author: windows-driver-content
 description: The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 old-location: storage\iscsiipaddresstype.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a92f7048-ca8a-450c-93ab-6ea040412198
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 
 
 ````
-typedef enum  { 
+typedef enum  {
   ISCSI_IP_ADDRESS_TEXT   = 0,
   ISCSI_IP_ADDRESS_IPV4   = 1,
   ISCSI_IP_ADDRESS_IPV6   = 2,

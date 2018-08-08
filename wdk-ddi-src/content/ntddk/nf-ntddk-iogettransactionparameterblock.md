@@ -4,7 +4,7 @@ title: IoGetTransactionParameterBlock function
 author: windows-driver-content
 description: The IoGetTransactionParameterBlock routine returns the transaction parameter block for a transacted file operation.
 old-location: ifsk\iogettransactionparameterblock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

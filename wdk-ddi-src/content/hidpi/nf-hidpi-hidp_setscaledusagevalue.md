@@ -4,7 +4,7 @@ title: HidP_SetScaledUsageValue function
 author: windows-driver-content
 description: The HidP_SetScaledUsageValue routine converts a signed and scaled physical number to a HID usage's logical value, and sets the usage value in a specified HID report.
 old-location: hid\hidp_setscaledusagevalue.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 0b863b69-b736-49dd-94a9-283480d035be
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

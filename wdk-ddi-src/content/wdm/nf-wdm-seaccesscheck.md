@@ -4,7 +4,7 @@ title: SeAccessCheck function
 author: windows-driver-content
 description: The SeAccessCheck routine determines whether the requested access rights can be granted to an object protected by a security descriptor and an object owner.
 old-location: kernel\seaccesscheck.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 90726c66-738f-416f-993a-84cbf2eb67d2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

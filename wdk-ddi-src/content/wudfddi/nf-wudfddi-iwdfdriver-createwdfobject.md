@@ -4,7 +4,7 @@ title: IWDFDriver::CreateWdfObject
 author: windows-driver-content
 description: The CreateWdfObject method creates a custom (or user) WDF object from a parent WDF object.
 old-location: wdf\iwdfdriver_createwdfobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: PFNAVCINTERSECTHANDLER
 author: windows-driver-content
 description: The AV/C intersect handler determines if the data ranges are compatible.
 old-location: stream\av_c_intersect_handler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 65ab5b68-9b76-497b-b560-9a4867d4d34e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

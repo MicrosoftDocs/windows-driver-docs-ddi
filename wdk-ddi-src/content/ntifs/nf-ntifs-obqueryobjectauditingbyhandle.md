@@ -4,7 +4,7 @@ title: ObQueryObjectAuditingByHandle function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\obqueryobjectauditingbyhandle.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7287b060-ab4c-48af-b5cd-67bae7bc1a73
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

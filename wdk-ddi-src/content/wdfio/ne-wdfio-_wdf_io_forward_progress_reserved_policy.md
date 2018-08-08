@@ -4,7 +4,7 @@ title: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY"
 author: windows-driver-content
 description: The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration identifies actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 old-location: wdf\wdf_io_forward_progress_reserved_policy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6d530cf2-de06-4aa3-9f4d-08619906c9ed
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

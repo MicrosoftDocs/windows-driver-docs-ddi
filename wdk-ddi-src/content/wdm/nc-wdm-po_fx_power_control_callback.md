@@ -4,7 +4,7 @@ title: PO_FX_POWER_CONTROL_CALLBACK
 author: windows-driver-content
 description: The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx).
 old-location: kernel\powercontrolcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: POFXCALLBACKUPDATEPLATFORMIDLESTATE
 author: windows-driver-content
 description: The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
 old-location: kernel\updateplatformidlestate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A5E3C5DE-DD76-41CF-8A86-37F25A069E1C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -65,7 +65,7 @@ A POHANDLE value that represents the registration of the processor (as a device)
 
 ### -param PlatformState [in]
 
-An index that identifies the platform idle state whose properties are to be updated. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification, the PEP specified the number of supported platform idle states. If the PEP specified N platform idle states, valid platform idle state indexes range from 0 to Nâ€“-1. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a> notification, the PEP specified the properties of this platform idle state.
+An index that identifies the platform idle state whose properties are to be updated. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification, the PEP specified the number of supported platform idle states. If the PEP specified N platform idle states, valid platform idle state indexes range from 0 to N-1. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a> notification, the PEP specified the properties of this platform idle state.
 
 
 ### -param Update [in]

@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_PERSISTENT_RESERVE_OUT
 author: windows-driver-content
 description: The generic storage class driver (classpnp.sys) exposes an I/O control (IOCTL) interface for issuing Persistent Reserve Out commands.
 old-location: storage\ioctl_storage_persistent_reserve_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a9863ac9-46e2-4888-879e-7d56e9260142
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

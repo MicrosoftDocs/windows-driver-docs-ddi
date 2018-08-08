@@ -4,7 +4,7 @@ title: IoIsErrorUserInduced macro
 author: windows-driver-content
 description: The IoIsErrorUserInduced routine determines whether an I/O error encountered while processing a request to a removable-media device was caused by the user.
 old-location: kernel\ioiserroruserinduced.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

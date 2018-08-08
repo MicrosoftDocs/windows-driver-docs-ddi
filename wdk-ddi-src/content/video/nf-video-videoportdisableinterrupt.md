@@ -4,10 +4,10 @@ title: VideoPortDisableInterrupt function
 author: windows-driver-content
 description: The VideoPortDisableInterrupt function is obsolete and should not be called.The VideoPortDisableInterrupt function disables interrupts from a video adapter.
 old-location: display\videoportdisableinterrupt.htm
-old-project: display
+tech.root: display
 ms.assetid: 4a2be8af-e393-4c7f-9377-cb2842778104
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortDisableInterrupt, VideoPortDisableInterrupt function [Display Devices], VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, display.videoportdisableinterrupt, video/VideoPortDisableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices

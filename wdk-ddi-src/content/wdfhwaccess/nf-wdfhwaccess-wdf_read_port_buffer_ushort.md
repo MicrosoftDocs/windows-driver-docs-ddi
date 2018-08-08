@@ -4,7 +4,7 @@ title: WDF_READ_PORT_BUFFER_USHORT function
 author: windows-driver-content
 description: The WDF_READ_PORT_BUFFER_USHORT function reads a number of USHORT values from the specified port address into a buffer.
 old-location: wdf\wdf_read_port_buffer_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 74784405-8435-4305-A630-255D7BB24157
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

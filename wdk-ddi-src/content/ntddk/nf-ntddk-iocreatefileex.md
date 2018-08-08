@@ -4,7 +4,7 @@ title: IoCreateFileEx function
 author: windows-driver-content
 description: The IoCreateFileEx routine either causes a new file or directory to be created, or opens an existing file, device, directory, or volume and gives the caller a handle for the file object.
 old-location: ifsk\iocreatefileex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 47d5e7e2-bc97-4413-b1ca-ef958288902c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

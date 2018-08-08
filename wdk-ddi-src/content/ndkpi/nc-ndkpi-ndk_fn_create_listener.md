@@ -4,10 +4,10 @@ title: NDK_FN_CREATE_LISTENER
 author: windows-driver-content
 description: The NdkCreateListener (NDK_FN_CREATE_LISTENER) function creates an NDK listener object.
 old-location: netvista\ndk_fn_create_listener.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: CC6259B8-AF3B-4FCE-94E3-7A5CD80C64A7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_LISTENER, NDK_FN_CREATE_LISTENER callback, NdkCreateListener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateListener, netvista.ndk_fn_create_listener
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,10 +2,10 @@
 UID: NF:d3dkmthk.D3DKMTGetProcessDeviceRemovalSupport
 title: D3DKMTGetProcessDeviceRemovalSupport function
 author: windows-driver-content
-description: TBD
+description: Used to get process device removal support.
 ms.assetid: 3f055101-a1de-4997-9c39-ebaffe736991
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 08/03/18
 ms.topic: function
 ms.keywords: D3DKMTGetProcessDeviceRemovalSupport
 req.header: d3dkmthk.h
@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 req.ddi-compliance:
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname:
 -	D3DKMTGetProcessDeviceRemovalSupport
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 
 ---

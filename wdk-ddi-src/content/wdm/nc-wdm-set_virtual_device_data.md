@@ -4,7 +4,7 @@ title: SET_VIRTUAL_DEVICE_DATA
 author: windows-driver-content
 description: The SetVirtualFunctionData routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\setvirtualfunctiondata.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<= APC_LEVEL"
 topic_type:
 -	APIRef
@@ -98,15 +98,15 @@ The offset into the PCIe configuration space data of the VF. This member specifi
 
 ### -param Length [in]
 
-The length, in bytes, of the data to be written. 
+The length, in bytes, of the data to be written.
 
 
 ## -returns
 
 
 
-The 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero. 
+The
+      <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero.
 
 
 

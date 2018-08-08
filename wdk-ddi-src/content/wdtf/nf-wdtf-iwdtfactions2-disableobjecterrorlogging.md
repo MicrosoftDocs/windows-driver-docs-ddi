@@ -4,7 +4,7 @@ title: IWDTFActions2::DisableObjectErrorLogging
 author: windows-driver-content
 description: Disable object error logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_disableobjecterrorlogging.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9c1c1bc2-18fe-49b8-a9cc-a53c5dcf0955
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_WINBIO_REGISTERED_FORMAT"
 author: windows-driver-content
 description: The WINBIO_REGISTERED_FORMAT structure specifies a biometric data format.
 old-location: biometric\winbio_registered_format.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 70591143-f429-4a6e-8f2a-cc1082f40f6e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

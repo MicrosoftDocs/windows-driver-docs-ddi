@@ -4,7 +4,7 @@ title: "_WIM_PROVIDER_EXTERNAL_INFO"
 author: windows-driver-content
 description: The WIM_PROVIDER_EXTERNAL_INFO structure holds the identifier and status information for the Windows Image File (WIM) external backing provider.
 old-location: ifsk\wim_provider_external_info.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: CD51FBD6-A589-4135-8BF0-8F0075654A05
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

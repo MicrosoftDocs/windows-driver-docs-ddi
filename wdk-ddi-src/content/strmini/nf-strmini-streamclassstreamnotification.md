@@ -4,7 +4,7 @@ title: StreamClassStreamNotification function
 author: windows-driver-content
 description: Streams use the StreamClassStreamNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 old-location: stream\streamclassstreamnotification.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 67dd0ea0-9c69-415a-8b37-0e8700b6fbd8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

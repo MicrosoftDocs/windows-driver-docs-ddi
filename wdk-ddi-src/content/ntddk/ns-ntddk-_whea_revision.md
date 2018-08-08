@@ -4,7 +4,7 @@ title: "_WHEA_REVISION"
 author: windows-driver-content
 description: The WHEA_REVISION union describes the revision of the error record data structures.
 old-location: whea\whea_revision.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

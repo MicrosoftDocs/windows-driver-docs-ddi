@@ -4,10 +4,10 @@ title: "_DXGK_GLITCH_CAUSE"
 author: windows-driver-content
 description: Enumeration that describes what caused a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_cause.htm
-old-project: display
+tech.root: display
 ms.assetid: A0356AE8-3A82-4722-9F46-8FE05646BF10
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_GLITCH_CAUSE, DXGK_GLITCH_CAUSE enumeration [Display Devices], DXGK_GLITCH_CAUSE_DRIVER_ERROR, DXGK_GLITCH_CAUSE_ENCODER_RECONFIG, DXGK_GLITCH_CAUSE_MEMORY_TIMING, DXGK_GLITCH_CAUSE_METADATA_CHANGE, DXGK_GLITCH_CAUSE_MODIFIED_WIRE_USAGE, DXGK_GLITCH_CAUSE_NONE, DXGK_GLITCH_CAUSE_PIPELINE_CHANGE, DXGK_GLITCH_CAUSE_TIMING_CHANGE, _DXGK_GLITCH_CAUSE, d3dkmddi/DXGK_GLITCH_CAUSE, d3dkmddi/DXGK_GLITCH_CAUSE_DRIVER_ERROR, d3dkmddi/DXGK_GLITCH_CAUSE_ENCODER_RECONFIG, d3dkmddi/DXGK_GLITCH_CAUSE_MEMORY_TIMING, d3dkmddi/DXGK_GLITCH_CAUSE_METADATA_CHANGE, d3dkmddi/DXGK_GLITCH_CAUSE_MODIFIED_WIRE_USAGE, d3dkmddi/DXGK_GLITCH_CAUSE_NONE, d3dkmddi/DXGK_GLITCH_CAUSE_PIPELINE_CHANGE, d3dkmddi/DXGK_GLITCH_CAUSE_TIMING_CHANGE, display.dxgk_glitch_cause
 ms.prod: windows-hardware
 ms.technology: windows-devices

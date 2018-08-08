@@ -4,7 +4,7 @@ title: KeQueryUnbiasedInterruptTime function
 author: windows-driver-content
 description: The KeQueryUnbiasedInterruptTime routine returns the current value of the system interrupt time count.
 old-location: kernel\kequeryunbiasedinterrupttime.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2a041946-0335-466e-b2f9-b486031e777a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

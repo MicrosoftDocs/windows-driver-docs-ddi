@@ -4,10 +4,10 @@ title: PROTOCOL_CL_CALL_CONNECTED
 author: windows-driver-content
 description: The ProtocolClCallConnected function is used by connection-oriented NDIS clients that accept incoming calls.
 old-location: netvista\protocolclcallconnected.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 675b2066-6a65-47cf-bde7-3c843f97c960
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_CALL_CONNECTED, PROTOCOL_CL_CALL_CONNECTED callback, ProtocolClCallConnected, ProtocolClCallConnected callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ddc435b4-ff27-4ced-b513-9bba45302496.xml, ndis/ProtocolClCallConnected, netvista.protocolclcallconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

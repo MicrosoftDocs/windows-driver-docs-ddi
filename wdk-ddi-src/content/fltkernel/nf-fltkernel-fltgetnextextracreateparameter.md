@@ -4,7 +4,7 @@ title: FltGetNextExtraCreateParameter function
 author: windows-driver-content
 description: The FltGetNextExtraCreateParameter routine returns a pointer to the next (or first) extra create parameter context structure (ECP) in a given ECP list.
 old-location: ifsk\fltgetnextextracreateparameter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8eae5ac8-9da5-475f-8fbb-5e118bad4e67
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

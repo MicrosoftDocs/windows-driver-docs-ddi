@@ -4,10 +4,10 @@ title: IDebugFailureAnalysis2
 author: windows-driver-content
 description: When the !analyze debugger command runs, the analysis engine can load and run extension analysis plug-ins.
 old-location: debugger\idebugfailureanalysis2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 0B44FCB9-D23F-4630-9F9A-FBAD46712B14
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging],described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
 ms.prod: windows-hardware
 ms.technology: windows-devices

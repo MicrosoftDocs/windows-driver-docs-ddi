@@ -4,7 +4,7 @@ title: ExUuidCreate function
 author: windows-driver-content
 description: The ExUuidCreate routine initializes a UUID (GUID) structure to a newly generated value.
 old-location: kernel\exuuidcreate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e85fe5fa-b11e-41ff-a355-4da0394377d1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

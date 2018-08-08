@@ -4,7 +4,7 @@ title: RtlCaptureStackBackTrace function
 author: windows-driver-content
 description: The RtlCaptureStackBackTrace routine captures a stack back trace by walking up the stack and recording the information for each frame.
 old-location: ifsk\rtlcapturestackbacktrace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: RtlUShortToUChar function
 author: windows-driver-content
 description: Converts a value of type USHORT to a value of type UCHAR.
 old-location: kernel\rtlushorttouchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E288541F-9FE4-4CF6-A576-21620A828C5C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

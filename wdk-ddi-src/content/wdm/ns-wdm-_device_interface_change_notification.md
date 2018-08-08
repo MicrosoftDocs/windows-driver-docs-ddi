@@ -4,7 +4,7 @@ title: "_DEVICE_INTERFACE_CHANGE_NOTIFICATION"
 author: windows-driver-content
 description: The DEVICE_INTERFACE_CHANGE_NOTIFICATION structure describes a device interface that has been enabled (arrived) or disabled (removed).
 old-location: kernel\device_interface_change_notification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b5d67c0-eb3f-4ac1-9f85-f9c673314458
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

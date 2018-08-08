@@ -4,7 +4,7 @@ title: "_WDF_USB_BMREQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_USB_BMREQUEST_TYPE enumeration identifies the data transfer type for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c20e7aec-32e7-401d-8c40-aa6ac191e857
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

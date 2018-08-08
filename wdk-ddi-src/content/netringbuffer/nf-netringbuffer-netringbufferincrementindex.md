@@ -35,7 +35,8 @@ apilocation:
 -	netringbuffer.h
 apiname: 
 -	NetRingBufferIncrementIndex
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

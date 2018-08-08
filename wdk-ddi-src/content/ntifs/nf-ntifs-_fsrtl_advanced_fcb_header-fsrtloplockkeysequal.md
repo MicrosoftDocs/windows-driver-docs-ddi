@@ -4,7 +4,7 @@ title: FsRtlOplockKeysEqual function
 author: windows-driver-content
 description: The FsRtlOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects.
 old-location: ifsk\fsrtloplockkeysequal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a4adc761-cf0c-466c-b20f-0af2da9ec447
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlOplockKeysEqual
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

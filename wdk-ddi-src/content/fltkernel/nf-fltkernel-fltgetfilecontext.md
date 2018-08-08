@@ -4,7 +4,7 @@ title: FltGetFileContext function
 author: windows-driver-content
 description: The FltGetFileContext routine retrieves a context that was set for a file by a given minifilter driver instance.
 old-location: ifsk\fltgetfilecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3104cccf-03ae-4ff9-8cfe-86bd3719a47f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

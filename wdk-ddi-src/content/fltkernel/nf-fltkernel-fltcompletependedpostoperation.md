@@ -4,7 +4,7 @@ title: FltCompletePendedPostOperation function
 author: windows-driver-content
 description: FltCompletePendedPostOperation resumes completion processing for an I/O operation that was pended in a minifilter driver's postoperation callback routine.
 old-location: ifsk\fltcompletependedpostoperation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 633c9766-f92b-436a-bac9-f77702888a3d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

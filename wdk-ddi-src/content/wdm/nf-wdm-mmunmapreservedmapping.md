@@ -4,7 +4,7 @@ title: MmUnmapReservedMapping function
 author: windows-driver-content
 description: The MmUnmapReservedMapping routine unmaps a memory buffer that was mapped by the MmMapLockedPagesWithReservedMapping routine.
 old-location: kernel\mmunmapreservedmapping.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5f2bb0ef-af54-48e7-a2f5-8c8877bedb4a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

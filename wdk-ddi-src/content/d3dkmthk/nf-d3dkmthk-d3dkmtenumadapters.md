@@ -4,10 +4,10 @@ title: D3DKMTEnumAdapters function
 author: windows-driver-content
 description: Enumerates all graphics adapters on the system.
 old-location: display\d3dkmtenumadapters.htm
-old-project: display
+tech.root: display
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTEnumAdapters, D3DKMTEnumAdapters callback function [Display Devices], PFND3DKMT_ENUMADAPTERS, PFND3DKMT_ENUMADAPTERS callback, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Enumerates all graphics adapters on the system.
 
 ### -param D3DKMT_ENUMADAPTERS
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: IWDFFile::GetDevice
 author: windows-driver-content
 description: The GetDevice method returns the interface to the device object that a file object is associated with.
 old-location: wdf\iwdffile_getdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

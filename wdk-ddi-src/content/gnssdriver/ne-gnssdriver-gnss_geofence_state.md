@@ -4,7 +4,7 @@ title: GNSS_GEOFENCE_STATE
 author: windows-driver-content
 description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
 old-location: gnss\gnss_geofence_state.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

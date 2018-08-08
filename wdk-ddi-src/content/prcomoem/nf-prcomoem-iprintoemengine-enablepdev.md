@@ -4,7 +4,7 @@ title: IPrintOemEngine::EnablePDEV
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_enablepdev.htm
-old-project: print
+tech.root: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

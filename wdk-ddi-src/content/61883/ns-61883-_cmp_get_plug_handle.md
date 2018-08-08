@@ -4,7 +4,7 @@ title: "_CMP_GET_PLUG_HANDLE"
 author: windows-driver-content
 description: This structure is used in getting the handle of a plug.
 old-location: ieee\cmp_get_plug_handle.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 4EDEE2EE-7B42-4CC9-8CFC-4690193C5D4D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

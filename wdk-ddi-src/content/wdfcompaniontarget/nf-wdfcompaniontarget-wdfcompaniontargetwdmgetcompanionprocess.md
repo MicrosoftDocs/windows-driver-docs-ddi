@@ -4,7 +4,7 @@ title: WdfCompanionTargetWdmGetCompanionProcess function
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

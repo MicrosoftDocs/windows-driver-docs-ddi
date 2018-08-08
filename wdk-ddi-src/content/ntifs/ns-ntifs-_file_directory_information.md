@@ -4,7 +4,7 @@ title: "_FILE_DIRECTORY_INFORMATION"
 author: windows-driver-content
 description: The FILE_DIRECTORY_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_directory_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 012c3178-f3a0-449b-b4a2-91fff4af1a17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: FltTagFile function
 author: windows-driver-content
 description: FltTagFile sets a reparse tag on a file or directory.
 old-location: ifsk\flttagfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fbc8b596-1299-4dfa-953b-5730905f0e30
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

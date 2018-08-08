@@ -4,10 +4,10 @@ title: PFND3DDDI_RECLAIMALLOCATIONS2CB
 author: windows-driver-content
 description: pfnReclaimAllocations2Cb is called by the user mode driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocations2cb.htm
-old-project: display
+tech.root: display
 ms.assetid: 1D3439BA-AB3D-4D94-B4C8-91BE9B3349A1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback, pfnReclaimAllocations2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

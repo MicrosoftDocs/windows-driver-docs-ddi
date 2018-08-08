@@ -4,7 +4,7 @@ title: IPrintOemPS::GetInfo
 author: windows-driver-content
 description: A rendering plug-in's IPrintOemPS::GetInfo method returns identification information.
 old-location: print\iprintoemps_getinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

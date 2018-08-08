@@ -4,7 +4,7 @@ title: "_BRB_ACL_ENTER_ACTIVE_MODE"
 author: windows-driver-content
 description: The _BRB_ACL_ENTER_ACTIVE_MODE structure specifies the remote device to be placed into active mode.
 old-location: bltooth\_brb_acl_enter_active_mode.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2a42c8b5-acc0-463e-8ecd-179724be27d9
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

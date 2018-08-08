@@ -4,7 +4,7 @@ title: "_WDF_COINSTALLER_INSTALL_OPTIONS"
 author: windows-driver-content
 description: The WDF_COINSTALLER_INSTALL_OPTIONS structure contains installation options that a framework-based driver's installer can specify to the framework's co-installer.
 old-location: wdf\wdf_coinstaller_install_options.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: be8867e4-42be-4f11-bf4b-1b0fd29daa06
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

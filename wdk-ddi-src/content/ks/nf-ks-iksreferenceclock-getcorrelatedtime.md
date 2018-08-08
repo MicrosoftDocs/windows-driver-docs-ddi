@@ -4,7 +4,7 @@ title: IKsReferenceClock::GetCorrelatedTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetCorrelatedTime method queries the associated reference clock for current stream time and acquires the correlated system time.
 old-location: stream\iksreferenceclock_getcorrelatedtime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3f4a47bb-460e-4ca0-9aee-4bcfdb88dd30
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

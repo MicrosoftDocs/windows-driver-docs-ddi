@@ -4,7 +4,7 @@ title: ChangerAdditionalExtensionSize function
 author: windows-driver-content
 description: ChangerAdditionalExtensionSize indicates the number of bytes the changer miniclass driver requires to store device-specific information in the device extension.
 old-location: storage\changeradditionalextensionsize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d9bcbad5-ce2c-4968-9544-4fb024b1e933
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

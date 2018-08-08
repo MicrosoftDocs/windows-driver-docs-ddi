@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_GET_HANDFLOW
 author: windows-driver-content
 description: The IOCTL_SERIAL_GET_HANDFLOW request returns information about the configuration of the handshake flow control set for a serial device.
 old-location: serports\ioctl_serial_get_handflow.htm
-old-project: serports
+tech.root: serports
 ms.assetid: d1d918fb-1ccb-46e6-ad28-e48daf226b3a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

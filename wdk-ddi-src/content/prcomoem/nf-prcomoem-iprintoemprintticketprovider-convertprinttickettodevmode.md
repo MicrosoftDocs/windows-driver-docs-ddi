@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode method converts a print ticket to a DEVMODEW structure.
 old-location: print\iprintoemprintticketprovider_convertprinttickettodevmode.htm
-old-project: print
+tech.root: print
 ms.assetid: 1243f679-76c3-4d2e-8d57-b9d652b21a05
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,10 +4,10 @@ title: wiasReadPropStr function
 author: windows-driver-content
 description: The wiasReadPropStr function retrieves a string property value from a WIA item.
 old-location: image\wiasreadpropstr.htm
-old-project: image
+tech.root: image
 ms.assetid: b072b4ec-790f-454b-b94a-bfe44674f600
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasreadpropstr, wiamdef/wiasReadPropStr, wiasFncs_b0756dcf-44dd-4a9f-ad9a-1edff1b8e6f6.xml, wiasReadPropStr, wiasReadPropStr function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

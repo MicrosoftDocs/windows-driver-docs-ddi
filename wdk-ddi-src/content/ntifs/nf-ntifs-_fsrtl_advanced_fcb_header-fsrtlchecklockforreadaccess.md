@@ -4,7 +4,7 @@ title: FsRtlCheckLockForReadAccess function
 author: windows-driver-content
 description: The FsRtlCheckLockForReadAccess routine determines whether the process associated with a given IRP has read access to a locked region of a file.
 old-location: ifsk\fsrtlchecklockforreadaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3734b286-b5cb-4906-9947-3ad23ef54267
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCheckLockForReadAccess
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -4,7 +4,7 @@ title: "_MSR_UPDATE_KEY"
 author: windows-driver-content
 description: This structure contains the information necessary to set a new encryption key.
 old-location: pos\msr_update_key.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: IPrinterScriptContext::get_DriverProperties
 author: windows-driver-content
 description: Provides access to the driver property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_driverproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 73BE6E2A-0C46-4C3F-8888-5FE8386A1F50
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

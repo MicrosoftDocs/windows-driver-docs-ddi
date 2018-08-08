@@ -4,10 +4,10 @@ title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
 author: windows-driver-content
 description: The client driver's implementation to set charger information that it uses to enable charging over USB.
 old-location: buses\evt_ufx_device_proprietary_charger_set_property.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 7ED9D607-2F7A-4835-9D1E-FC33EF594974
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback, EvtUfxDeviceProprietaryChargerSetProperty, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_set_property, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: VideoPortFreeCommonBuffer function
 author: windows-driver-content
 description: The VideoPortFreeCommonBuffer function is obsolete and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportfreecommonbuffer.htm
-old-project: display
+tech.root: display
 ms.assetid: 8725868e-00bc-45fe-ab9d-c192abd1a059
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer function [Display Devices], VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, display.videoportfreecommonbuffer, video/VideoPortFreeCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

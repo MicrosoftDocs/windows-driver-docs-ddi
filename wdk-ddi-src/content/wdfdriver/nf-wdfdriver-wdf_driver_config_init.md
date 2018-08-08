@@ -4,7 +4,7 @@ title: WDF_DRIVER_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_DRIVER_CONFIG_INIT function initializes a driver's WDF_DRIVER_CONFIG structure.
 old-location: wdf\wdf_driver_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d7520300-9345-4681-a10d-acf34838199a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: StorPortGetRequestInfo function
 author: windows-driver-content
 description: The StorPortGetRequestInfo routine retrieves the IO request information associated with a SCSI request block (SRB) and returns it in a STOR_REQUEST_INFO structure.
 old-location: storage\storportgetrequestinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

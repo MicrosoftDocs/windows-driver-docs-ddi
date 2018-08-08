@@ -4,7 +4,7 @@ title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
-old-project: print
+tech.root: print
 ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

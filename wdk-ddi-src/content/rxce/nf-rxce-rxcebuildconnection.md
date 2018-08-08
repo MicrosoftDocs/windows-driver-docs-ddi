@@ -4,7 +4,7 @@ title: RxCeBuildConnection function
 author: windows-driver-content
 description: RxCeBuildConnection establishes a connection between a local RDBSS connection address and a given remote address.
 old-location: ifsk\rxcebuildconnection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

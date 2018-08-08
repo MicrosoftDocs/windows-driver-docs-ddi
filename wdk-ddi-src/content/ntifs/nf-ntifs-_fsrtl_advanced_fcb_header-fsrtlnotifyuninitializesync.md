@@ -4,7 +4,7 @@ title: FsRtlNotifyUninitializeSync function
 author: windows-driver-content
 description: The FsRtlNotifyUninitializeSync routine deallocates the synchronization object for a notify list.
 old-location: ifsk\fsrtlnotifyuninitializesync.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

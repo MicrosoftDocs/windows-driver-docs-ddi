@@ -4,7 +4,7 @@ title: "_FCP_FRAME"
 author: windows-driver-content
 description: The FCP_FRAME structure describes a function control protocol (FCP) request.
 old-location: ieee\fcp_frame.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 56a0e888-8048-4774-a46f-8a0beebfb9f2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

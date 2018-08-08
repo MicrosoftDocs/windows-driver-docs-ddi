@@ -4,7 +4,7 @@ title: FsRtlAreNamesEqual function
 author: windows-driver-content
 description: The FsRtlAreNamesEqual routine determines whether two Unicode strings are equal.
 old-location: ifsk\fsrtlarenamesequal.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlAreNamesEqual</b> routine determines whether two Unicode strings are equal. 
+The <b>FsRtlAreNamesEqual</b> routine determines whether two Unicode strings are equal.
 
 
 ## -parameters
@@ -95,9 +95,9 @@ The table pointed to by <i>UpcaseTable</i> is an array of uppercase Unicode char
 
 Case-insensitive matching is performed by converting both strings to uppercase before they are compared. Thus the value of <i>UpcaseTable</i>, if supplied, is used only if <i>IgnoreCase</i> is <b>TRUE</b>.
 
-If a pool allocation failure occurs, <b>FsRtlAreNamesEqual</b> raises a STATUS_NO_MEMORY exception. 
+If a pool allocation failure occurs, <b>FsRtlAreNamesEqual</b> raises a STATUS_NO_MEMORY exception.
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
 
 
 

@@ -4,7 +4,7 @@ title: IPrintCoreHelper::EnumConstrainedOptions
 author: windows-driver-content
 description: The IPrintCoreHelper::EnumConstrainedOptions method provides a list of all of the options that are constrained in a particular feature, based on current settings.
 old-location: print\iprintcorehelper_enumconstrainedoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

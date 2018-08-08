@@ -4,10 +4,10 @@ title: NdisMoveMemory macro
 author: windows-driver-content
 description: The NdisMoveMemory function copies a specified number of bytes from one caller-supplied location to another.
 old-location: netvista\ndismovememory.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1be08720-be44-4e1b-b0ec-b4eb0a2718a0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
 ms.prod: windows-hardware
 ms.technology: windows-devices

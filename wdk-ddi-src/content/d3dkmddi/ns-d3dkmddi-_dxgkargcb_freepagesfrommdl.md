@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmddi.h
 apiname:
 -	_DXGKARGCB_FREEPAGESFROMMDL
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

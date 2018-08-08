@@ -4,7 +4,7 @@ title: "_PosDeviceType"
 author: windows-driver-content
 description: This enumeration defines values used in the PosDeviceBasicsType structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader).
 old-location: pos\posdevicetype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 1e0b4b66-f9aa-4315-a07d-b6fd47f10371
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

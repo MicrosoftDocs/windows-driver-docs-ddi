@@ -4,7 +4,7 @@ title: SeQuerySubjectContextToken macro
 author: windows-driver-content
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: af326cb1-446a-49b7-a381-472deb9ecc82
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: GNSS_FIXDATA_ACCURACY
 author: windows-driver-content
 description: This structure defines the accuracy details of a fix.
 old-location: gnss\gnss_fixdata_accuracy.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 3C08FE5D-1385-4FE3-98C9-9FC530C6C755
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

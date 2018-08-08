@@ -4,7 +4,7 @@ title: ChangerSetAccess function
 author: windows-driver-content
 description: ChangerSetAccess handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_SET_ACCESS.
 old-location: storage\changersetaccess.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 586820c5-5662-4f2d-9413-d06b9794173a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

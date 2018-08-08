@@ -4,7 +4,7 @@ title: "_IO_ACCESS_TYPE"
 author: windows-driver-content
 description: Defines the access rights for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9ABFF1E8-50B8-4B59-964D-BA79AB63BFCE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

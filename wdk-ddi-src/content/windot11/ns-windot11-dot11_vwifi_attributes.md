@@ -4,7 +4,7 @@ title: DOT11_VWIFI_ATTRIBUTES
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_vwifi_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,11 +75,11 @@ typedef struct DOT11_VWIFI_ATTRIBUTES {
 ### -field Header
 
 The type, revision, and size of the DOT11_VWIFI_ATTRIBUTES structure. This member is formatted as
-     an 
+     an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -100,23 +100,23 @@ This member must be set to DOT11_VWIFI_ATTRIBUTES_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        sizeof(DOT11_VWIFI_ATTRIBUTES).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uTotalNumOfEntries
 
-The maximum number of entries that the 
+The maximum number of entries that the
      <b>Combinations</b> array can contain.
 
 
 ### -field Combinations
 
 The list of supported combinations of 802.11 MAC entities that an 802.11 miniport driver can
-     simultaneously support when it is virtualized. Each entry in this list is specified through an array of 
+     simultaneously support when it is virtualized. Each entry in this list is specified through an array of
      <a href="..\windot11\ns-windot11-_dot11_vwifi_combination.md">DOT11_VWIFI_COMBINATION</a>,  <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">
      DOT11_VWIFI_COMBINATION_V2</a>, or <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a> structures.
 

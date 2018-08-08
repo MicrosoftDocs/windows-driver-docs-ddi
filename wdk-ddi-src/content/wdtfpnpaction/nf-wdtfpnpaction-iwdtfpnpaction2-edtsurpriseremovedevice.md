@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::EDTSurpriseRemoveDevice
 author: windows-driver-content
 description: Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
 old-location: dtf\iwdtfpnpaction2_edtsurpriseremovedevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 96bc080b-1ee2-4a32-be98-c58f6649e120
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

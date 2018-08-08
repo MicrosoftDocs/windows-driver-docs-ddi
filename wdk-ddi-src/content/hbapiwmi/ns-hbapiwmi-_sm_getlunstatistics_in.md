@@ -4,7 +4,7 @@ title: "_SM_GetLUNStatistics_IN"
 author: windows-driver-content
 description: The SM_GetLUNStatistics_IN structure is used to provide input parameters to the SM_GetLUNStatistics_IN method.
 old-location: storage\sm_getlunstatistics_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c551a376-2148-4fc4-ba4e-9c1ce1eea1d8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

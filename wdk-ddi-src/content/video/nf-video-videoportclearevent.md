@@ -4,10 +4,10 @@ title: VideoPortClearEvent function
 author: windows-driver-content
 description: The VideoPortClearEvent function sets a given event object to the nonsignaled state.
 old-location: display\videoportclearevent.htm
-old-project: display
+tech.root: display
 ms.assetid: 70b9b8b4-8adc-4628-a37b-b513ecaca9ca
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortClearEvent, VideoPortClearEvent function [Display Devices], VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, display.videoportclearevent, video/VideoPortClearEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

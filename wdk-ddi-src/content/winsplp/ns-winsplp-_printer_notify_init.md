@@ -4,7 +4,7 @@ title: "_PRINTER_NOTIFY_INIT"
 author: windows-driver-content
 description: "."
 old-location: print\printer_notify_init.htm
-old-project: print
+tech.root: print
 ms.assetid: 45DFA669-8520-4EA5-8B36-822BDC8C958D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

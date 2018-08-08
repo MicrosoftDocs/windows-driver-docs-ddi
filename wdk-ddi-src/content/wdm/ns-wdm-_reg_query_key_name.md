@@ -4,7 +4,7 @@ title: "_REG_QUERY_KEY_NAME"
 author: windows-driver-content
 description: The REG_QUERY_KEY_NAME structure describes the full registry key name of an object being queried.
 old-location: kernel\reg_query_key_name.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 396DA33D-46E0-456C-9FCF-85A7D9915F48
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

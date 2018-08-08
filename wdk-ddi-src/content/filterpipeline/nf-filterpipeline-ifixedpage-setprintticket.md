@@ -4,7 +4,7 @@ title: IFixedPage::SetPrintTicket
 author: windows-driver-content
 description: The SetPrintTicket method associates a print ticket with the page.
 old-location: print\ifixedpage_setprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: d899211a-e98d-45f6-9574-8b5f51658edf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

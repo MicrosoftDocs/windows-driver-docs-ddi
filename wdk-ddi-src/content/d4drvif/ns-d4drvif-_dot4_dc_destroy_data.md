@@ -4,7 +4,7 @@ title: "_DOT4_DC_DESTROY_DATA"
 author: windows-driver-content
 description: This topic describes the DOT4_DC_DESTROY_DATA structure.
 old-location: print\dot4_dc_destroy_data.htm
-old-project: print
+tech.root: print
 ms.assetid: 1AA00E3C-C6FB-49A4-9EFB-DFFEEFF4C0A0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

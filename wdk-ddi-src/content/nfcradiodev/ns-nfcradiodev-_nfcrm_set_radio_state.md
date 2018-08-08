@@ -4,7 +4,7 @@ title: "_NFCRM_SET_RADIO_STATE"
 author: windows-driver-content
 description: This structure is used to set the radio state. The driver, in the case of airplane mode, has to persist the radio state and restore it when airplane mode is disabled.
 old-location: nfpdrivers\_nfcrm_set_radio_state_.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 22FE29AC-790D-40D2-949F-9C132F67AEAB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

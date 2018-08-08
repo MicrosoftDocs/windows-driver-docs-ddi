@@ -4,7 +4,7 @@ title: "_SCO_INDICATION_CODE"
 author: windows-driver-content
 description: The SCO_INDICATION_CODE enumeration type describes the type of an incoming SCO connection or bonding state change. The Bluetooth driver stack passes a value from this enumeration in the Indication argument of a profile driver's SCO Callback Function.
 old-location: bltooth\sco_indication_code.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

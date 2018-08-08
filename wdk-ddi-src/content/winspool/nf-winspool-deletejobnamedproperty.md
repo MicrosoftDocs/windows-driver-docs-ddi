@@ -4,7 +4,7 @@ title: DeleteJobNamedProperty function
 author: windows-driver-content
 description: Deletes the named property for the specified print job on the specified printer.
 old-location: print\deletejobnamedproperty.htm
-old-project: print
+tech.root: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

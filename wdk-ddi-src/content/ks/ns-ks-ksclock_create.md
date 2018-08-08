@@ -4,7 +4,7 @@ title: KSCLOCK_CREATE
 author: windows-driver-content
 description: The KSCLOCK_CREATE structure is used in clock create parameters for the KsCreateClock function.
 old-location: stream\ksclock_create.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 72986a01-de40-4b8f-9dfc-d26f4999e66b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

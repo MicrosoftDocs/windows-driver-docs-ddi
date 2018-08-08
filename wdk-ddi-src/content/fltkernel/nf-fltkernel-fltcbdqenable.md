@@ -4,7 +4,7 @@ title: FltCbdqEnable function
 author: windows-driver-content
 description: FltCbdqEnable enables a callback data queue that was disabled by a previous call to FltCbdqDisable.
 old-location: ifsk\fltcbdqenable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cc9167cc-366e-4824-9968-1e2895a61a0c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

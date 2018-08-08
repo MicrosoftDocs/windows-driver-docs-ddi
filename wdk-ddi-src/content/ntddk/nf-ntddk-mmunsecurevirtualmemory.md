@@ -4,7 +4,7 @@ title: MmUnsecureVirtualMemory function
 author: windows-driver-content
 description: The MmUnsecureVirtualMemory routine unsecures a memory address range secured by the MmSecureVirtualMemory routine.
 old-location: kernel\mmunsecurevirtualmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 979eef24-e53b-476c-b9db-e56c43630913
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

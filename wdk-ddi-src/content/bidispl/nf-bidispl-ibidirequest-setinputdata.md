@@ -4,7 +4,7 @@ title: IBidiRequest::SetInputData
 author: windows-driver-content
 description: The SetInputData method sets the data to send to the printer.
 old-location: print\ibidirequest_ibidirequest__setinputdata.htm
-old-project: print
+tech.root: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

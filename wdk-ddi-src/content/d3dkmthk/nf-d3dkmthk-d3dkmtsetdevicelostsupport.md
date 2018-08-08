@@ -4,10 +4,10 @@ title: D3DKMTSetDeviceLostSupport function
 author: windows-driver-content
 description: Used to indicate that the device has lost support.
 old-location: display\d3dkmtsetdevicelostsupport.htm
-old-project: display
+tech.root: display
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-TBD
+
 
 
 

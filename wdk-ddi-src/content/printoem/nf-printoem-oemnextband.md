@@ -4,7 +4,7 @@ title: OEMNextBand function
 author: windows-driver-content
 description: The OEMNextBand function is called by GDI when it has finished drawing a band for a physical page, so that the driver can send the band to the printer.
 old-location: print\oemnextband.htm
-old-project: print
+tech.root: print
 ms.assetid: 547af6b1-63cf-4e61-a357-1a7fdc33e43c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

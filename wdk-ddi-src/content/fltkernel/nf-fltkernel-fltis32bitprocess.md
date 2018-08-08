@@ -4,7 +4,7 @@ title: FltIs32bitProcess function
 author: windows-driver-content
 description: The FltIs32bitProcess routine checks whether the originator of the current I/O operation is a 32-bit user-mode application.
 old-location: ifsk\fltis32bitprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0ba4d101-5eba-4258-9526-9e9dc3fd142a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: StorPortGetNodeAffinity function
 author: windows-driver-content
 description: The StorPortGetNodeAffinity routine constructs a mask of the active processors in a requested non-uniform memory access (NUMA) node.
 old-location: storage\storportgetnodeaffinity.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 183940c9-f8d9-411f-a593-e283f72e05f8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

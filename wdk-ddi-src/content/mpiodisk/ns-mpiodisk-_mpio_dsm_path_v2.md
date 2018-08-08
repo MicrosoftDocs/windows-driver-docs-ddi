@@ -4,7 +4,7 @@ title: "_MPIO_DSM_Path_V2"
 author: windows-driver-content
 description: The MPIO_DSM_Path_V2 structure is used to represent the DSM's definition of a path. It is a superset of the previously existing MPIO_DSM_Path class.
 old-location: storage\mpio_dsm_path_v2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8ebbb4c0-c761-42a5-a41a-9d661a6126d9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

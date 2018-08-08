@@ -4,7 +4,7 @@ title: "_DVINFO"
 author: windows-driver-content
 description: The DVINFO structure describes a DV stream format including its default streaming source information and stream control information.
 old-location: stream\dvinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3afd372f-556f-4c3a-804b-9bf7a8c9a438
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

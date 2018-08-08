@@ -4,7 +4,7 @@ title: "_T1_DATA"
 author: windows-driver-content
 description: The T1_DATA structure is used by the smart card driver library to process T1 I/O.
 old-location: smartcrd\t1_data.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: af20cab0-c70b-404c-b6bd-54d9ecf75714
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

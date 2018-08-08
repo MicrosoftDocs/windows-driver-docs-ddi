@@ -4,7 +4,7 @@ title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION
 author: windows-driver-content
 description: The EvtSerCx2SystemDmaTransmitInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a system-DMA-transmit transaction.
 old-location: serports\evtsercx2systemdmatransmitinitializetransaction.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 2B6B33D9-1756-4C0B-91BB-AB36D4B6A913
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

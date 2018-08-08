@@ -4,7 +4,7 @@ title: PCAM_INITIALIZE_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's callback function initializes the device or performs any minidriver-specific clean-up that is required.
 old-location: stream\caminitialize.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a39f78b7-f749-40b8-952a-5442608b0f1f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

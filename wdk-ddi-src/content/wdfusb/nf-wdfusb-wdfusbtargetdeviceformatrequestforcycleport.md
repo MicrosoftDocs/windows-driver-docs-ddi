@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceFormatRequestForCyclePort function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceFormatRequestForCyclePort method builds a power-cycle request for the port to which a specified device is attached, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforcycleport.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

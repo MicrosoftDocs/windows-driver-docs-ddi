@@ -4,10 +4,10 @@ title: NdisGetPoolFromNetBuffer function
 author: windows-driver-content
 description: Call the NdisGetPoolFromNetBuffer function to get the NET_BUFFER structure pool handle that is associated with a specified NET_BUFFER structure.
 old-location: netvista\ndisgetpoolfromnetbuffer.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 64bb049a-6b8a-470f-8269-8a168761e388
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisGetPoolFromNetBuffer, NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBuffer, ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml, netvista.ndisgetpoolfromnetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

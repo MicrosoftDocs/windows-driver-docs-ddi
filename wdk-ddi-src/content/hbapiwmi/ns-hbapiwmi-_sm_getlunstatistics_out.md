@@ -4,7 +4,7 @@ title: "_SM_GetLUNStatistics_OUT"
 author: windows-driver-content
 description: The SM_GetLUNStatistics_OUT structure is used to receive output parameters from the SM_GetLUNStatistics_OUT method.
 old-location: storage\sm_getlunstatistics_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5b7e4eb2-d6e9-49c9-b84f-72dd4198c0ce
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

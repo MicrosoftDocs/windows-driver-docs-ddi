@@ -4,7 +4,7 @@ title: RxAssociateContextWithMid function
 author: windows-driver-content
 description: RxAssociateContextWithMid associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS.
 old-location: ifsk\rxassociatecontextwithmid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

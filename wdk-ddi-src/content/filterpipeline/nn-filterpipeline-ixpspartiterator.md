@@ -4,7 +4,7 @@ title: IXpsPartIterator
 author: windows-driver-content
 description: The IXpsPartIterator interface is an iterator for XPS parts.
 old-location: print\ixpspartiterator.htm
-old-project: print
+tech.root: print
 ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

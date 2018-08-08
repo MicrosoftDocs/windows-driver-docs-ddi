@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::GetNextSleepState
 author: windows-driver-content
 description: Returns the next supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getnextsleepstate.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: B90D7C3D-0370-48A1-90DC-FC14477DA835
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

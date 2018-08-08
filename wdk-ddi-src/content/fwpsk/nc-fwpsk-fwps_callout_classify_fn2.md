@@ -4,10 +4,10 @@ title: FWPS_CALLOUT_CLASSIFY_FN2
 author: windows-driver-content
 description: The filter engine calls a callout's classifyFn2 callout function whenever there is data to be processed by the callout.Note  classifyFn2 is the specific version of classifyFn used in Windows 8 and later.
 old-location: netvista\classifyfn2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
 ms.prod: windows-hardware
 ms.technology: windows-devices

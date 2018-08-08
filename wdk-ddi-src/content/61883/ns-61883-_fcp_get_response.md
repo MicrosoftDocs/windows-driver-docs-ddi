@@ -4,7 +4,7 @@ title: "_FCP_GET_RESPONSE"
 author: windows-driver-content
 description: The structure is used in a request yjsy retrieves the next FCP response from the queue of requests maintained by the IEC-61883 protocol driver.
 old-location: ieee\fcp_get_response.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 1CE962A4-7F99-4F81-8B85-265A4225B88A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

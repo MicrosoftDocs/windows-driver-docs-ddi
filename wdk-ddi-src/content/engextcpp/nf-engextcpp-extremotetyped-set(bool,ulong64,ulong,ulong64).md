@@ -4,10 +4,10 @@ title: ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64)
 author: windows-driver-content
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],Set method, ExtRemoteTyped.Set, ExtRemoteTyped.Set(bool,ULONG64,ULONG,ULONG64), ExtRemoteTyped::Set, ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteTyped class, debugger.extremotetyped_set_bool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.Set
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

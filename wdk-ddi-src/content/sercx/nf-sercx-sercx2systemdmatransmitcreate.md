@@ -4,7 +4,7 @@ title: SerCx2SystemDmaTransmitCreate function
 author: windows-driver-content
 description: The SerCx2SystemDmaTransmitCreate method creates a SerCx2 system-DMA-transmit object, which version 2 of the serial framework extension (SerCx2) uses to perform system-DMA-transmit transactions.
 old-location: serports\sercx2systemdmatransmitcreate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: CD0FA4A2-9E09-4F76-A332-858CC5D61651
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

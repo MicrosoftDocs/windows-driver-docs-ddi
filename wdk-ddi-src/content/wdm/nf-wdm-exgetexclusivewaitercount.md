@@ -4,7 +4,7 @@ title: ExGetExclusiveWaiterCount function
 author: windows-driver-content
 description: The ExGetExclusiveWaiterCount routine returns the number of waiters on exclusive access to a given resource.
 old-location: kernel\exgetexclusivewaitercount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 032989b7-ba61-4cb3-b6b5-ac66124cdd79
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

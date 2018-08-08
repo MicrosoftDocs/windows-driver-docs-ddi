@@ -4,7 +4,7 @@ title: IPrinterExtensionAsyncOperation::Cancel
 author: windows-driver-content
 description: Cancels the asynchronous operation.
 old-location: print\iprinterextensionasyncoperation_cancel.htm
-old-project: print
+tech.root: print
 ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

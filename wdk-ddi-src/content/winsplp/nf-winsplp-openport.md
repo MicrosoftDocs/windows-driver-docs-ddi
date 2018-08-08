@@ -4,7 +4,7 @@ title: OpenPort function
 author: windows-driver-content
 description: A port monitor's OpenPort function opens a printer port.
 old-location: print\openport.htm
-old-project: print
+tech.root: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax

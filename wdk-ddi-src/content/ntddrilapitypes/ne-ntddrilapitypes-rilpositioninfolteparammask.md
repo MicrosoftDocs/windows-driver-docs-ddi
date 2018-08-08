@@ -4,7 +4,7 @@ title: RILPOSITIONINFOLTEPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILPOSITIONINFOLTEPARAMMASK.
 old-location: netvista\rilpositioninfolteparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cf89467e-1bf1-44ee-a027-23b49aca845f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,16 +60,16 @@ req.typenames: RILPOSITIONINFOLTEPARAMMASK
 
 ````
 enum RILPOSITIONINFOLTEPARAMMASK {
-  RIL_PARAM_POSITION_LTE_MCC         = 0x00000001, 
-  RIL_PARAM_POSITION_LTE_MNC         = 0x00000002, 
-  RIL_PARAM_POSITION_LTE_CELLID      = 0x00000004, 
-  RIL_PARAM_POSITION_LTE_EARFCN      = 0x00000008, 
-  RIL_PARAM_POSITION_LTE_PHYSCELLID  = 0x00000010, 
-  RIL_PARAM_POSITION_LTE_TAC         = 0x00000020, 
-  RIL_PARAM_POSITION_LTE_RSRP        = 0x00000040, 
-  RIL_PARAM_POSITION_LTE_RSRQ        = 0x00000080, 
-  RIL_PARAM_POSITION_LTE_TA          = 0x00000100, 
-  RIL_PARAM_POSITION_LTE_ALL         = 0x000001ff 
+  RIL_PARAM_POSITION_LTE_MCC         = 0x00000001,
+  RIL_PARAM_POSITION_LTE_MNC         = 0x00000002,
+  RIL_PARAM_POSITION_LTE_CELLID      = 0x00000004,
+  RIL_PARAM_POSITION_LTE_EARFCN      = 0x00000008,
+  RIL_PARAM_POSITION_LTE_PHYSCELLID  = 0x00000010,
+  RIL_PARAM_POSITION_LTE_TAC         = 0x00000020,
+  RIL_PARAM_POSITION_LTE_RSRP        = 0x00000040,
+  RIL_PARAM_POSITION_LTE_RSRQ        = 0x00000080,
+  RIL_PARAM_POSITION_LTE_TA          = 0x00000100,
+  RIL_PARAM_POSITION_LTE_ALL         = 0x000001ff
 
 };
 ````
@@ -114,7 +114,7 @@ enum RILPOSITIONINFOLTEPARAMMASK {
 
 
 
-Networks will vary, but the following table summarizes which items are returned for typical LTE networks. 
+Networks will vary, but the following table summarizes which items are returned for typical LTE networks.
 
 <b>Serving network</b>
 
@@ -193,7 +193,7 @@ Yes
 
 </td>
 <td>
-E-UTRA absolute radio frequency channel number of the serving cell 
+E-UTRA absolute radio frequency channel number of the serving cell
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Yes
 
 </td>
 <td>
-LTE serving cell ID 
+LTE serving cell ID
 
 </td>
 </tr>
@@ -247,7 +247,7 @@ Yes
 
 </td>
 <td>
-The current reference signal receive power in dBm  
+The current reference signal receive power in dBm
 
 </td>
 </tr>
@@ -265,7 +265,7 @@ Yes
 
 </td>
 <td>
-Measured in dB  
+Measured in dB
 
 </td>
 </tr>
@@ -385,7 +385,7 @@ Yes
 
 </td>
 <td>
-LTE serving cell ID 
+LTE serving cell ID
 
 </td>
 </tr>

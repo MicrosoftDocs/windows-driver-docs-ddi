@@ -4,7 +4,7 @@ title: RtlUpcaseUnicodeString function
 author: windows-driver-content
 description: The RtlUpcaseUnicodeString routine converts a copy of the source string to uppercase and writes the converted string in the destination buffer.
 old-location: kernel\rtlupcaseunicodestring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fe3c6010-532b-4f3d-b3d3-a1c27d4a05f1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

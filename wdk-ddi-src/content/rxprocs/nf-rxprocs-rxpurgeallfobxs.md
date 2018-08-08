@@ -4,7 +4,7 @@ title: RxPurgeAllFobxs function
 author: windows-driver-content
 description: RxPurgeAllFobxs purges all of the FOBX structures associated with a network mini-redirector.
 old-location: ifsk\rxpurgeallfobxs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d2a31be-1b59-48a8-8cde-61d7f7319724
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

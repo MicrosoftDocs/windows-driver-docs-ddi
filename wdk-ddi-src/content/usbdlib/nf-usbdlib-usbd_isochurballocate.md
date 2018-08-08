@@ -4,10 +4,10 @@ title: USBD_IsochUrbAllocate function
 author: windows-driver-content
 description: The USBD_IsochUrbAllocate routine allocates and formats a URB structure for an isochronous transfer request.
 old-location: buses\usbd_isochurballocate.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

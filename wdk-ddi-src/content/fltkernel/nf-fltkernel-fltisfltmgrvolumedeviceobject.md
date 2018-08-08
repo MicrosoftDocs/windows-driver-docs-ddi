@@ -4,7 +4,7 @@ title: FltIsFltMgrVolumeDeviceObject function
 author: windows-driver-content
 description: The FltIsFltMgrVolumeDeviceObject routine determines whether the given device object belongs to filter manager and if the device object is a volume device object.
 old-location: ifsk\fltisfltmgrvolumedeviceobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c4165eab-c62e-436d-b4d4-a1f72ee9c1bd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

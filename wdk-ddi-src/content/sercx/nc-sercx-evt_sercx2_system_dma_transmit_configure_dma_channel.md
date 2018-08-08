@@ -4,7 +4,7 @@ title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL
 author: windows-driver-content
 description: The EvtSerCx2SystemDmaTransmitConfigureDmaChannel event callback function is called by version 2 of the serial framework extension (SerCx2) to let the serial controller driver do any custom configuration of the DMA adapter that might be required before the start of each DMA transfer in a system-DMA-transmit transaction.
 old-location: serports\evtsercx2systemdmatransmitconfiguredmachannel.htm
-old-project: serports
+tech.root: serports
 ms.assetid: F5748E93-9761-423B-9971-011FC4D7F6B8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

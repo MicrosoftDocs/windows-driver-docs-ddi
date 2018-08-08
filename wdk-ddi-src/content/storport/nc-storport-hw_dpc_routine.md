@@ -4,7 +4,7 @@ title: HW_DPC_ROUTINE
 author: windows-driver-content
 description: The HwStorDpcRoutine routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism.
 old-location: storage\hwstordpcroutine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bc646191-e405-49e2-8793-0c0b81e52f50
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

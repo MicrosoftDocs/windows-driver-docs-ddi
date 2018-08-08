@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NET_BUFFER_LIST_RECEIVE_QUEUE_ID
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

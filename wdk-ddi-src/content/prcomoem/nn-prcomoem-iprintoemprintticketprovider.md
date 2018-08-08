@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider
 author: windows-driver-content
 description: This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.
 old-location: print\iprintoemprintticketprovider_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: a32b5ec9-b4f2-4f33-879d-252806bd34ed
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

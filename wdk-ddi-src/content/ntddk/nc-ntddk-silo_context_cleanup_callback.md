@@ -4,7 +4,7 @@ title: SILO_CONTEXT_CLEANUP_CALLBACK
 author: windows-driver-content
 description: This callback is invoked when the context object reaches a reference count of zero.
 old-location: kernel\silo_context_cleanup_callback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

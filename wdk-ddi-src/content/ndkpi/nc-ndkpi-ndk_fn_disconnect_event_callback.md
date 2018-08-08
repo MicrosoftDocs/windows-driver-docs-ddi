@@ -4,10 +4,10 @@ title: NDK_FN_DISCONNECT_EVENT_CALLBACK
 author: windows-driver-content
 description: The NdkDisconnectEventCallback (NDK_FN_DISCONNECT_EVENT_CALLBACK) function is called by the NDK provider once when the peer disconnects.
 old-location: netvista\ndk_fn_disconnect_event_callback.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: AC6A7CD4-D553-4E6D-B6BF-C30CDA541EB5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_DISCONNECT_EVENT_CALLBACK, NDK_FN_DISCONNECT_EVENT_CALLBACK callback, NdkDisconnectEventCallback, NdkDisconnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDisconnectEventCallback, netvista.ndk_fn_disconnect_event_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

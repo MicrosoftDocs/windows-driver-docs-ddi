@@ -4,7 +4,7 @@ title: KSMETHOD_ITEM
 author: windows-driver-content
 description: The KSMETHOD_ITEM structure describes a single method within a method set.
 old-location: stream\ksmethod_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 79119458-a6a7-433e-9306-d7a56ca056c2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

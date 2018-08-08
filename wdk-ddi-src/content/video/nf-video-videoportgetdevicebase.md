@@ -4,10 +4,10 @@ title: VideoPortGetDeviceBase function
 author: windows-driver-content
 description: The VideoPortGetDeviceBase function maps a range of bus-relative device memory or I/O addresses into system space.
 old-location: display\videoportgetdevicebase.htm
-old-project: display
+tech.root: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices

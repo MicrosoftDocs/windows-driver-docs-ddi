@@ -4,7 +4,7 @@ title: WdfDevStateIsNP function
 author: windows-driver-content
 description: The WdfDevStateIsNP method returns a Boolean value that indicates whether a specified power state or power policy state is a nonpageable state.
 old-location: wdf\wdfdevstateisnp.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 49584600-e470-4be8-9111-3e890a9fedfd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

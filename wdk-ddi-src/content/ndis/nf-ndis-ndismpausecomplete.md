@@ -4,10 +4,10 @@ title: NdisMPauseComplete function
 author: windows-driver-content
 description: A miniport driver must call the NdisMPauseComplete function to complete a pause operation if the driver returned NDIS_STATUS_PENDING from its MiniportPause function.
 old-location: netvista\ndismpausecomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 08a9dccf-53bc-4b96-a794-14ead08a7b0b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMPauseComplete, NdisMPauseComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_1e76f7bc-a042-4a7a-8dc6-0f4cc6f7617f.xml, ndis/NdisMPauseComplete, netvista.ndismpausecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

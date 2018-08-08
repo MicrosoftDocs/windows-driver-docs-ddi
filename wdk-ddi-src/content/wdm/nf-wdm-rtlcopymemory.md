@@ -4,7 +4,7 @@ title: RtlCopyMemory macro
 author: windows-driver-content
 description: The RtlCopyMemory routine copies the contents of a source memory block to a destination memory block.
 old-location: kernel\rtlcopymemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

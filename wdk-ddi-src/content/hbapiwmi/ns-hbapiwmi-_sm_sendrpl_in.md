@@ -4,7 +4,7 @@ title: "_SM_SendRPL_IN"
 author: windows-driver-content
 description: The SM_SendRPL_IN structure is used to provide input parameters to the SM_SendRPL method.
 old-location: storage\sm_sendrpl_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5d97b852-57ba-4696-879b-d93a8f539304
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

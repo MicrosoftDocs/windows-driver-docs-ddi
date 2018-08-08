@@ -4,7 +4,7 @@ title: "_BIDI_REQUEST_CONTAINER"
 author: windows-driver-content
 description: The BIDI_REQUEST_CONTAINER structure is a container for a list of bidi requests.
 old-location: print\bidi_request_container.htm
-old-project: print
+tech.root: print
 ms.assetid: 9892cf0e-23ee-496f-9078-4a2a1fdb19d9
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RxDispatchToWorkerThread function
 author: windows-driver-content
 description: RxDispatchToWorkerThread invokes a routine in the context of a worker thread. The memory for the WORK_QUEUE_ITEM is allocated by this routine.
 old-location: ifsk\rxdispatchtoworkerthread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

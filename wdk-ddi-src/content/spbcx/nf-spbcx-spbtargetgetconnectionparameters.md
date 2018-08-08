@@ -4,7 +4,7 @@ title: SpbTargetGetConnectionParameters function
 author: windows-driver-content
 description: The SpbTargetGetConnectionParameters method retrieves the connection parameters for a target device on the bus.
 old-location: spb\spbtargetgetconnectionparameters.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

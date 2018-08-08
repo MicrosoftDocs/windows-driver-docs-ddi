@@ -4,7 +4,7 @@ title: ExDeleteLookasideListEx function
 author: windows-driver-content
 description: The ExDeleteLookasideListEx routine deletes a lookaside list.
 old-location: kernel\exdeletelookasidelistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b72187de-a2ac-446f-bb06-9ca380454122
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

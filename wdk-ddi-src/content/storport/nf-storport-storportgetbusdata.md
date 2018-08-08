@@ -4,7 +4,7 @@ title: StorPortGetBusData function
 author: windows-driver-content
 description: The StorPortGetBusData routine retrieves the bus-specific configuration information necessary to initialize the HBA.
 old-location: storage\storportgetbusdata.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

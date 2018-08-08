@@ -4,7 +4,7 @@ title: "_KSFILTER"
 author: windows-driver-content
 description: The KSFILTER structure describes an instantiated filter.
 old-location: stream\ksfilter.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b9233f69-1ddf-4133-afd3-150aef5fc4a0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

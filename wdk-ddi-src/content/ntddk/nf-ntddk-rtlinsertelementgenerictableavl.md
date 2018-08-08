@@ -4,7 +4,7 @@ title: RtlInsertElementGenericTableAvl function
 author: windows-driver-content
 description: The RtlInsertElementGenericTableAvl routine adds a new entry to a generic table.
 old-location: ifsk\rtlinsertelementgenerictableavl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: BF7563F8-F1C5-4300-94A2-7D884DA7DFA2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

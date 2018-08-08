@@ -4,7 +4,7 @@ title: "_CM_KEYBOARD_DEVICE_DATA"
 author: windows-driver-content
 description: The CM_KEYBOARD_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a keyboard peripheral if the system can collect this information during the boot process.
 old-location: kernel\cm_keyboard_device_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 928cc1b6-4569-4ca1-9410-d864b5556b86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

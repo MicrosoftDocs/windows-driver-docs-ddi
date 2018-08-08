@@ -4,7 +4,7 @@ title: HBA_ScsiReportLUNsV2 function
 author: windows-driver-content
 description: The HBA_ScsiReportLUNsV2 routine sends a SCSI report LUNs command to the indicated remote port.
 old-location: storage\hba_scsireportlunsv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6a4dfb93-4044-4a7a-a993-38c91f84cae2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

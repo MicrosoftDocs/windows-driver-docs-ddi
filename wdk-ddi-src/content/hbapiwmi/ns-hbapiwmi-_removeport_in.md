@@ -4,7 +4,7 @@ title: "_RemovePort_IN"
 author: windows-driver-content
 description: The Remove_IN structure is used by a WMI client to deliver input parameter data to the RemovePort WMI method.
 old-location: storage\removeport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_PDO_INFORMATION"
 author: windows-driver-content
 description: The PDO_INFORMATION structure represents a device-path pairing, which is an instance of a LUN through a particular path.
 old-location: storage\pdo_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

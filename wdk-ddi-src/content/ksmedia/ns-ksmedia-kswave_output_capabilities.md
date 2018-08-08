@@ -4,7 +4,7 @@ title: KSWAVE_OUTPUT_CAPABILITIES
 author: windows-driver-content
 description: The KSWAVE_OUTPUT_CAPABILITIES structure is used to describe the output capabilities of a device.
 old-location: stream\kswave_output_capabilities.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3f7d534d-bfd8-4aca-a14d-97c047fb5aeb
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

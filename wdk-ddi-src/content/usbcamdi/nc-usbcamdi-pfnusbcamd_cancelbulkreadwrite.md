@@ -4,7 +4,7 @@ title: PFNUSBCAMD_CancelBulkReadWrite
 author: windows-driver-content
 description: The USBCAMD_CancelBulkReadWrite service cancels a pending bulk read or write request.
 old-location: stream\usbcamd_cancelbulkreadwrite.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e63a56d8-fdd8-468d-b0f9-2c46c5ff7a00
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

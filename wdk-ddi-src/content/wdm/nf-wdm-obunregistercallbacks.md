@@ -4,7 +4,7 @@ title: ObUnRegisterCallbacks function
 author: windows-driver-content
 description: The ObUnRegisterCallbacks routine unregisters a set of callback routines that were registered with the ObRegisterCallbacks routine.
 old-location: kernel\obunregistercallbacks.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

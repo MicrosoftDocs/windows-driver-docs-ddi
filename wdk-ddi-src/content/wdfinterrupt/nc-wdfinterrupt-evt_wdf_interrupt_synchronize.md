@@ -4,7 +4,7 @@ title: EVT_WDF_INTERRUPT_SYNCHRONIZE
 author: windows-driver-content
 description: A driver's EvtInterruptSynchronize event callback function performs operations that must be synchronized with an EvtInterruptIsr callback function.
 old-location: wdf\evtinterruptsynchronize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ac73b23d-7742-43a4-8950-b301bd0ba330
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

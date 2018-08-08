@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION
 author: windows-driver-content
 description: A driver's EvtDeviceShutdownNotification event callback function notifies the driver that the system is about to lose its power.
 old-location: wdf\evtdeviceshutdownnotification.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 365e669b-b4a1-432a-ab0c-9292a910256e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

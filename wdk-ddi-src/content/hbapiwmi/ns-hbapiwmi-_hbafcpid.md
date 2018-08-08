@@ -4,7 +4,7 @@ title: "_HBAFCPID"
 author: windows-driver-content
 description: The HBAFCPID structure contains information that uniquely identifies a logical unit on a fibre channel network.
 old-location: storage\hbafcpid.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

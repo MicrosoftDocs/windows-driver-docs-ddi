@@ -4,7 +4,7 @@ title: KeRundownQueue function
 author: windows-driver-content
 description: The KeRundownQueue routine cleans up a queue object, flushing any queued entries.
 old-location: ifsk\kerundownqueue.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fc496af8-0b4b-4de4-8890-f2290970ced5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

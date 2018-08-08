@@ -4,7 +4,7 @@ title: PFNKSFILTERVOID
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniFilterReset routine is called when AVStream receives an IOCTL_KS_RESET_STATE to return the filter to the state it was in at Acquire-time.
 old-location: stream\avstrminifilterreset.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8259117b-87ef-410a-955b-6f99966574a6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

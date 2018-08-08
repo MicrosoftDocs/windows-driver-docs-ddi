@@ -4,7 +4,7 @@ title: "_SYSENV_VARIABLE"
 author: windows-driver-content
 description: Stores the name a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_GET_VARIABLE request.
 old-location: kernel\sysenv_variable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 311A5977-C3F5-4287-B030-00F4BB9C8629
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

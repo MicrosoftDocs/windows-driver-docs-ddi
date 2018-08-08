@@ -4,7 +4,7 @@ title: KsPinSetPinClockTime function
 author: windows-driver-content
 description: The KsPinSetPinClockTime function sets the current time on the clock exposed by Pin.
 old-location: stream\kspinsetpinclocktime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 85dac103-c729-4202-96b1-661891c6a531
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

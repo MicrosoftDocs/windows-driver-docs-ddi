@@ -4,7 +4,7 @@ title: "_STOR_CRYPTO_CAPABILITY"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_capability.htm
-old-project: storage
+tech.root: storage
 ms.assetid: AC8EBE07-92D6-4985-A575-8AD3321D29FB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

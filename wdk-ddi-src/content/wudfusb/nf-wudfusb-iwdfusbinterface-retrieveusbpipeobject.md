@@ -4,7 +4,7 @@ title: IWDFUsbInterface::RetrieveUsbPipeObject
 author: windows-driver-content
 description: The RetrieveUsbPipeObject method retrieves a USB pipe object for the specified pipe index.
 old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

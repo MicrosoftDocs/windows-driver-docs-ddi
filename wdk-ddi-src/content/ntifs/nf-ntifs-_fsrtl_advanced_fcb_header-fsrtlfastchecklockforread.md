@@ -4,7 +4,7 @@ title: FsRtlFastCheckLockForRead function
 author: windows-driver-content
 description: The FsRtlFastCheckLockForRead routine determines whether the specified process has read access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlFastCheckLockForRead
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

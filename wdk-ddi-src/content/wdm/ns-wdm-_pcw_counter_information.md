@@ -4,7 +4,7 @@ title: "_PCW_COUNTER_INFORMATION"
 author: windows-driver-content
 description: The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set.
 old-location: devtest\pcw_counter_information.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: fe4d8df4-0e15-49fb-a5ec-40aa8acf3675
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

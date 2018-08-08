@@ -4,7 +4,7 @@ title: KSOBJECTTYPE
 author: windows-driver-content
 description: The KSOBJECTTYPE enumeration lists different types of kernel streaming objects.
 old-location: stream\ksobjecttype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ab30d24f-4f14-4a84-a6e1-1a2506b4ba87
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

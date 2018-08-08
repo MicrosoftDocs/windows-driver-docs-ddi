@@ -4,7 +4,7 @@ title: IWDFDevice2::CreateSymbolicLinkWithReferenceString
 author: windows-driver-content
 description: TheCreateSymbolicLinkWithReferenceString method creates a symbolic link name, and optionally, a reference string, for a device.
 old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

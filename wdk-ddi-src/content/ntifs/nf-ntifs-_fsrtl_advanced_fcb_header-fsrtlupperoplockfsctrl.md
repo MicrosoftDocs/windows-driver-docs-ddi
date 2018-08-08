@@ -4,7 +4,7 @@ title: FsRtlUpperOplockFsctrl function
 author: windows-driver-content
 description: The FsRtlUpperOplockFsctrl routine processes opportunistic lock (oplock) requests and acknowledgments for secondary, or layered, file systems.
 old-location: ifsk\fsrtlupperoplockfsctrl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlUpperOplockFsctrl
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

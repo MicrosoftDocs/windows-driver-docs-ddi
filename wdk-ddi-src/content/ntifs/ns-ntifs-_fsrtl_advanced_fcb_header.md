@@ -4,7 +4,7 @@ title: "_FSRTL_ADVANCED_FCB_HEADER"
 author: windows-driver-content
 description: The FSRTL_ADVANCED_FCB_HEADER structure contains context information that a file system maintains about a file.
 old-location: ifsk\fsrtl_advanced_fcb_header.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7816c937-109c-40a8-8b67-04413b00e5fd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: SeTokenIsNoChildProcessRestrictionEnforced function
 author: windows-driver-content
 description: The SeTokenIsNoChildProcessRestrictionEnforced routine determines if the token carries the no child process restriction.
 old-location: ifsk\setokenisnochildprocessrestrictionenforced.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6D214346-8CE6-4E9C-B054-1C72B928ED2B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

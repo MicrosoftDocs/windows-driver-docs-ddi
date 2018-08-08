@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure describes a section of error information that is part of an error record.
 old-location: whea\whea_error_record_section_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: f1abbf2b-19c9-4d34-9975-4f7ab98792af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,10 +4,10 @@ title: FILTER_STATUS
 author: windows-driver-content
 description: The FilterStatus function indicates status changes that are reported by NDIS or an underlying driver.Note  You must declare the function by using the FILTER_STATUS type.
 old-location: netvista\filterstatus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 051ce37c-a7a5-4367-9495-023fc51349ba
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FILTER_STATUS, FILTER_STATUS callback, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

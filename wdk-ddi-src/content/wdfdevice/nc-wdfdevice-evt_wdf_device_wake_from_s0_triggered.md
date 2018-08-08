@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED
 author: windows-driver-content
 description: A driver's EvtDeviceWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.
 old-location: wdf\evtdevicewakefroms0triggered.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4395b1c1-ae67-42fc-b6c7-b1bdbf090c5b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

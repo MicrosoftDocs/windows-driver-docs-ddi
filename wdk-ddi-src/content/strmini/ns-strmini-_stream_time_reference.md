@@ -4,7 +4,7 @@ title: "_STREAM_TIME_REFERENCE"
 author: windows-driver-content
 description: "."
 old-location: stream\stream_time_reference.htm
-old-project: stream
+tech.root: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

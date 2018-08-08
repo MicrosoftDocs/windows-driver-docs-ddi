@@ -4,10 +4,10 @@ title: ISensorDriver::OnGetProperties
 author: windows-driver-content
 description: The ISensorDriver::OnGetProperties method retrieves values for the specified properties from the specified sensor.
 old-location: sensors\isensordriver_ongetproperties.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetProperties method, ISensorDriver.OnGetProperties, ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetproperties, sensorsclassextension/ISensorDriver::OnGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

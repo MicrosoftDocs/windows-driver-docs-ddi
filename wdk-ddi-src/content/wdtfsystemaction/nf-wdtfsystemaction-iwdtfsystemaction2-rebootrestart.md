@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::RebootRestart
 author: windows-driver-content
 description: Restart the system and the current test.
 old-location: dtf\iwdtfsystemaction2_rebootrestart.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: E03A617F-BC5E-41D6-B22F-CFE9FE11D7E1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

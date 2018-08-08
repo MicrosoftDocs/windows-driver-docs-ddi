@@ -4,7 +4,7 @@ title: FltAllocateContext function
 author: windows-driver-content
 description: The FltAllocateContext routine allocates a context structure for a specified context type.
 old-location: ifsk\fltallocatecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 34be4ca1-9484-41c5-9382-4785c36fca1a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
 author: windows-driver-content
 description: This IOCTL checks to see if the given volume has a drive letter.
 old-location: storage\ioctl_mountmgr_next_drive_letter.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7e3c5718-180c-435d-89ea-30a5cac325b2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

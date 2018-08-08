@@ -4,7 +4,7 @@ title: SeDeassignSecurity function
 author: windows-driver-content
 description: The SeDeassignSecurity routine deallocates the memory associated with a security descriptor that was assigned using SeAssignSecurity.
 old-location: kernel\sedeassignsecurity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE
 author: windows-driver-content
 description: The HwMSInterruptRoutine routine handles a message signaled interrupt (MSI).
 old-location: storage\hwmsinterruptroutine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d8e90489-c847-48e7-89c4-f7a397a8de14
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

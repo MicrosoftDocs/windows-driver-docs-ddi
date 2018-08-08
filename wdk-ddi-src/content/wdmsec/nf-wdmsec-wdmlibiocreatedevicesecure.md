@@ -4,7 +4,7 @@ title: WdmlibIoCreateDeviceSecure function
 author: windows-driver-content
 description: The WdmlibIoCreateDeviceSecure function (or IoCreateDeviceSecure) creates a named device object and applies the specified security settings.
 old-location: kernel\wdmlibiocreatedevicesecure.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: FsRtlOplockBreakToNone function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlOplockBreakToNone
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

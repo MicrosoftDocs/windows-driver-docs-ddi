@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION
 author: windows-driver-content
 description: This IOCTL allows a client to simulate a Plug and Play device interface arrival notification with the given volume name.
 old-location: storage\ioctl_mountmgr_volume_arrival_notification.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0c27c49e-a06c-4781-9d7f-50f15f9715ac
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

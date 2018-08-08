@@ -4,7 +4,7 @@ title: IOCTL_SWENUM_GET_BUS_ID
 author: windows-driver-content
 description: 
 old-location: stream\ioctl_swenum_get_bus_id.htm
-old-project: stream
+tech.root: stream
 ms.assetid: C9A83450-12D9-4ECC-BB9A-1226DCF74439
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

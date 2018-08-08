@@ -4,7 +4,7 @@ title: PsInsertPermanentSiloContext function
 author: windows-driver-content
 description: This routine inserts an object in an empty slot in a Silo.
 old-location: kernel\psinsertpermanentsilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

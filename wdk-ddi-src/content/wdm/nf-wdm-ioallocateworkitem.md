@@ -4,7 +4,7 @@ title: IoAllocateWorkItem function
 author: windows-driver-content
 description: The IoAllocateWorkItem routine allocates a work item.
 old-location: kernel\ioallocateworkitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 950e31ff-2e8e-4dd3-9d6c-d3d86fd69472
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

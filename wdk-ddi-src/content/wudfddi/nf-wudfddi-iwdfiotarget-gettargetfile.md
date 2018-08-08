@@ -4,7 +4,7 @@ title: IWDFIoTarget::GetTargetFile
 author: windows-driver-content
 description: The GetTargetFile method retrieves the framework file object that is associated with the I/O target object.
 old-location: wdf\iwdfiotarget_gettargetfile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d38ede60-9bcf-4c90-8c41-8f1edf1a1d23
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: ScsiPortLogError function
 author: windows-driver-content
 description: The ScsiPortLogError routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportlogerror.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

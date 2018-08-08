@@ -4,7 +4,7 @@ title: IPrintAsyncNotifyRegistration
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyregistration.htm
-old-project: print
+tech.root: print
 ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

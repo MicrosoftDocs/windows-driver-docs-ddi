@@ -4,10 +4,10 @@ title: FILTER_PAUSE
 author: windows-driver-content
 description: NDIS calls a filter driver's FilterPause function to initiate a pause operation for the specified filter module.Note  You must declare the function by using the FILTER_PAUSE type.
 old-location: netvista\filterpause.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a239889e-ec39-48fc-9e82-c8bc3d7ca51a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FILTER_PAUSE, FILTER_PAUSE callback, FilterPause, FilterPause callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_2f28fa9f-47cb-4638-b673-e938872f54f1.xml, ndis/FilterPause, netvista.filterpause
 ms.prod: windows-hardware
 ms.technology: windows-devices

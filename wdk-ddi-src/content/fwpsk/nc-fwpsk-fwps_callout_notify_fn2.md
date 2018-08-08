@@ -4,10 +4,10 @@ title: FWPS_CALLOUT_NOTIFY_FN2
 author: windows-driver-content
 description: The filter engine calls a callout's notifyFn2 callout function to notify the callout driver about events that are associated with the callout.Note  notifyFn2 is the specific version of notifyFn used in Windows 8 and later.
 old-location: netvista\notifyfn2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN2, FWPS_CALLOUT_NOTIFY_FN2 callback, fwpsk/notifyFn2, netvista.notifyfn2, notifyFn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices

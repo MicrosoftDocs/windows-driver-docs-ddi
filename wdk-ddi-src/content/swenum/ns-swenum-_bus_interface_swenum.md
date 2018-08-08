@@ -4,7 +4,7 @@ title: "_BUS_INTERFACE_SWENUM"
 author: windows-driver-content
 description: The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator object's interface.
 old-location: stream\bus_interface_swenum.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

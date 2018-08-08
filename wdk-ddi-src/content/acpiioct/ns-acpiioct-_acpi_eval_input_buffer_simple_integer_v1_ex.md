@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX"
 author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX structure is used as input to an IOCTL_ACPI_EVAL_METHOD_EX request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD_EX request.
 old-location: acpi\acpi_eval_input_buffer_simple_integer_ex.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: f918c462-67bc-4794-a92e-ffc8650ce9a1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

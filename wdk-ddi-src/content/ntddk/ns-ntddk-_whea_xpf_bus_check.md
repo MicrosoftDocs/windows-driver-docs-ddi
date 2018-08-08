@@ -4,7 +4,7 @@ title: "_WHEA_XPF_BUS_CHECK"
 author: windows-driver-content
 description: The WHEA_XPF_BUS_CHECK union describes bus error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_bus_check.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 7886a796-2755-4367-bbbd-2017e7900bf4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

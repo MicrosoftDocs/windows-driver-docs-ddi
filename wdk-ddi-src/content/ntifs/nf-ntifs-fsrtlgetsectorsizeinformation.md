@@ -4,7 +4,7 @@ title: FsRtlGetSectorSizeInformation function
 author: windows-driver-content
 description: The FsRtlGetSectorSizeInformation routine retrieves the physical and logical sector size information for a storage volume.
 old-location: ifsk\fsrtlgetsectorsizeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 337E5450-8C90-48B7-B344-FB9420498D4F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

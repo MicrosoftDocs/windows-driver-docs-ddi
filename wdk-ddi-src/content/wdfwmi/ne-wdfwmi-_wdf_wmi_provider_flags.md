@@ -4,7 +4,7 @@ title: "_WDF_WMI_PROVIDER_FLAGS"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_FLAGS enumeration defines configuration flags for a driver's WMI data provider.
 old-location: wdf\wdf_wmi_provider_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

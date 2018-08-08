@@ -4,10 +4,10 @@ title: PFND3DDDI_CREATEPIXELSHADER
 author: windows-driver-content
 description: The CreatePixelShader function converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
 old-location: display\createpixelshader.htm
-old-project: display
+tech.root: display
 ms.assetid: b80a1823-6d91-440f-89e4-f7248579cc8f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3DDDI_CREATEPIXELSHADER, PFND3DDDI_CREATEPIXELSHADER callback, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml, d3dumddi/CreatePixelShader, display.createpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

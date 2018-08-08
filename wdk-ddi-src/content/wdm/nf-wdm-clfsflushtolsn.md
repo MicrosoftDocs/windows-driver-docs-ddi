@@ -4,7 +4,7 @@ title: ClfsFlushToLsn function
 author: windows-driver-content
 description: The ClfsFlushToLsn routine forces, to stable storage, all records that have an LSN less than or equal to a specified LSN.
 old-location: kernel\clfsflushtolsn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fb7d97d2-8c02-44c8-8cf5-e9c3b3b718bb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

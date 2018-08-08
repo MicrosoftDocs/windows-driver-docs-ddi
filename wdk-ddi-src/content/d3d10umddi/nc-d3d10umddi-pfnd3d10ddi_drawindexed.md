@@ -4,10 +4,10 @@ title: PFND3D10DDI_DRAWINDEXED
 author: windows-driver-content
 description: The DrawIndexed function draws indexed primitives.
 old-location: display\drawindexed.htm
-old-project: display
+tech.root: display
 ms.assetid: d1097bb6-35ac-4069-ae05-b74c75a98e21
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DrawIndexed, DrawIndexed callback function [Display Devices], PFND3D10DDI_DRAWINDEXED, PFND3D10DDI_DRAWINDEXED callback, UserModeDisplayDriverDx10_Functions_4529cc06-0ad4-41ea-8cab-b55a398cb889.xml, d3d10umddi/DrawIndexed, display.drawindexed
 ms.prod: windows-hardware
 ms.technology: windows-devices

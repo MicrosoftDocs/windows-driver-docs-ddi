@@ -4,7 +4,7 @@ title: DOT11_ERP_PHY_ATTRIBUTES
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_erp_phy_attributes.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ce5f2833-7df6-449b-be68-ed58620fbb43
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -76,7 +76,7 @@ typedef struct DOT11_ERP_PHY_ATTRIBUTES {
 ### -field HRDSSSAttributes
 
 Since the ERP PHY type is a superset of the high-rate direct-sequence spread spectrum (HRDSS) PHY
-     type, the start of the DOT11_ERP_PHY_ATTRIBUTES structure is formatted as a 
+     type, the start of the DOT11_ERP_PHY_ATTRIBUTES structure is formatted as a
      <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">
      DOT11_HRDSSS_PHY_ATTRIBUTES</a> structure in order to define the HRDSS-specific attributes of the
      PHY.
@@ -85,8 +85,8 @@ Since the ERP PHY type is a superset of the high-rate direct-sequence spread spe
 ### -field bERPPBCCOptionImplemented
 
 A Boolean value that, if set to <b>TRUE</b>, specifies that the PHY supports enabled packet binary
-     convolutional code (PBCC) modulation. 
-     
+     convolutional code (PBCC) modulation.
+
 
 For more information about PBCC modulation, refer to Clause 18.4.6.6 of the IEEE 802.11b-1999
      standard. For more information about the ERP-PBCC option, refer to Clause 19.6 of the IEEE 802.11g-2003
@@ -99,7 +99,7 @@ A Boolean value that, if set to <b>TRUE</b>, specifies the PHY has enabled the u
      DSSS-OFDM modulation. If the 802.11 station supports this option, the PHY is capable of combining the
      direct-sequence spread spectrum (DSSS) preamble and header with the orthogonal frequency division
      multiplexing (OFDM) payload.
-     
+
 
 For more information about DSSS-OFDM modulation, refer to Clause 19.7 of the IEEE 802.11g-2003
      standard.
@@ -116,9 +116,9 @@ A Boolean value that, if set to <b>TRUE</b>, specifies the PHY supports the 802.
 
 
 
-The miniport driver defines the attributes of a PHY on the 802.11 station through the 
+The miniport driver defines the attributes of a PHY on the 802.11 station through the
     <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a> structure, and
-    formats the 
+    formats the
     <b>ERPAttributes</b> member as a DOT11_ERP_PHY_ATTRIBUTES structure. The driver must only do this if the
     PHY defined by the DOT11_PHY_ATTRIBUTES structure is an ERP PHY type.
 

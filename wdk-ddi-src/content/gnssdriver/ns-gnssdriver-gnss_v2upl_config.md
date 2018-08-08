@@ -4,7 +4,7 @@ title: GNSS_V2UPL_CONFIG
 author: windows-driver-content
 description: This structure contains V2UPL configuration information.
 old-location: gnss\gnss_v2upl_config.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: A1DCC547-8CAA-46B9-A855-5F591C69A3B0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

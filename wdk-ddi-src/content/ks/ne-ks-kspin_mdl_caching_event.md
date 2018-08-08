@@ -4,7 +4,7 @@ title: KSPIN_MDL_CACHING_EVENT
 author: windows-driver-content
 description: This enumeration is used internally by the operating system.
 old-location: stream\kspin_mdl_caching_event.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 74A7C2C8-F12B-4753-8E1F-C425B0B56788
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

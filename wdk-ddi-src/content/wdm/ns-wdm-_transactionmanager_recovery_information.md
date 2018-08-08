@@ -4,7 +4,7 @@ title: "_TRANSACTIONMANAGER_RECOVERY_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_recovery_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76701df3-8e7d-43fa-8caf-6cbf89504aad
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

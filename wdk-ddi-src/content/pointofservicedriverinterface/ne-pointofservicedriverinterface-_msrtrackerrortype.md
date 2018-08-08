@@ -4,7 +4,7 @@ title: "_MsrTrackErrorType"
 author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe reader track errors.
 old-location: pos\msrtrackerrortype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 2abd9341-527f-43af-baa2-622b759b47cd
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

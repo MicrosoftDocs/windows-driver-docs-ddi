@@ -4,10 +4,10 @@ title: CWiauPropertyList::CWiauPropertyList
 author: windows-driver-content
 description: The CWiauPropertyList::CWiauPropertyList method is the constructor for the CWiauPropertyList class.
 old-location: image\cwiaupropertylist_cwiaupropertylist.htm
-old-project: image
+tech.root: image
 ms.assetid: 5e493d3c-81b6-4db5-a550-c86eadf5a723
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices],CWiauPropertyList method, CWiauPropertyList method [Imaging Devices], CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface, CWiauPropertyList.CWiauPropertyList, CWiauPropertyList::CWiauPropertyList, image.cwiaupropertylist_cwiaupropertylist, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, wiautil/CWiauPropertyList::CWiauPropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices

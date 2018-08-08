@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_RESILIENCY_DESCRIPTOR"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_device_resiliency_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 71351CB7-1295-4797-802C-23A6B1C2C53F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

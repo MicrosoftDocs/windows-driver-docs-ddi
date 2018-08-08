@@ -4,10 +4,10 @@ title: "_VIDEO_MODE_INFORMATION"
 author: windows-driver-content
 description: The VIDEO_MODE_INFORMATION structure contains all of the information about one mode of a video adapter.
 old-location: display\video_mode_information.htm
-old-project: display
+tech.root: display
 ms.assetid: aac658d9-b90a-4724-9dc4-af3a561f64bd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION structure [Display Devices], Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, _VIDEO_MODE_INFORMATION, display.video_mode_information, ntddvdeo/PVIDEO_MODE_INFORMATION, ntddvdeo/VIDEO_MODE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

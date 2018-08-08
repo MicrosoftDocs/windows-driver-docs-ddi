@@ -4,7 +4,7 @@ title: GetJobNamedPropertyValue function
 author: windows-driver-content
 description: Retrieves the value of the named property for the specified print job on the specified printer.
 old-location: print\getjobnamedpropertyvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: RtlRandomEx function
 author: windows-driver-content
 description: The RtlRandomEx routine returns a random number that was generated from a given seed value.
 old-location: ifsk\rtlrandomex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

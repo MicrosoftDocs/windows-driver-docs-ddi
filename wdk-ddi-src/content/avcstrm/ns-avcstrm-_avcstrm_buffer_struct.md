@@ -4,7 +4,7 @@ title: "_AVCSTRM_BUFFER_STRUCT"
 author: windows-driver-content
 description: The AVCSTRM_BUFFER_STRUCT structure describes a buffer to be submitted to avcstrm.sys for read or write operations.
 old-location: stream\avcstrm_buffer_struct.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ed9a5391-135d-4ac2-8b72-6a92d3ff9998
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

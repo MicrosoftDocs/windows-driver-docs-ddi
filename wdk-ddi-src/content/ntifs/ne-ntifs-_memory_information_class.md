@@ -4,7 +4,7 @@ title: "_MEMORY_INFORMATION_CLASS"
 author: windows-driver-content
 description: Defines classes of memory information that can be retrieved by using the ZwQueryVirtualMemory function.
 old-location: kernel\memory_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

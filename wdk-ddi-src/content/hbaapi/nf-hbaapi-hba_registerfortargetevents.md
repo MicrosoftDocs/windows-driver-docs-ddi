@@ -4,7 +4,7 @@ title: HBA_RegisterForTargetEvents function
 author: windows-driver-content
 description: The HBA_RegisterForTargetEvents routine registers for target events with a specified target or with all targets associated with an adapter.
 old-location: storage\hba_registerfortargetevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

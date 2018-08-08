@@ -4,10 +4,10 @@ title: MIRACAST_WFD_CONNECTION_STATS
 author: windows-driver-content
 description: Contains bit rate info on the Wi-Fi Direct connection.
 old-location: display\miracast_wfd_connection_stats.htm
-old-project: display
+tech.root: display
 ms.assetid: 3d5dd27f-8d0e-46e8-adbd-139db322cf6e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], display.miracast_wfd_connection_stats, netdispumdddi/MIRACAST_WFD_CONNECTION_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: ScsiPortSetBusDataByOffset function
 author: windows-driver-content
 description: The ScsiPortSetBusDataByOffset routine sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 old-location: storage\scsiportsetbusdatabyoffset.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 64f46049-fbf0-4d9b-b5fe-9877a964755f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

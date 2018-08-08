@@ -4,7 +4,7 @@ title: RtlDelete function
 author: windows-driver-content
 description: The RtlDelete routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldelete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ca73b7cf-56c0-4e83-8804-59f73fbd4714
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

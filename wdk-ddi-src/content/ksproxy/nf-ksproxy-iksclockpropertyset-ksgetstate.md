@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsGetState
 author: windows-driver-content
 description: The KsGetState method retrieves the streaming state of a pin from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 153e4f47-ae07-4f1e-9ab5-69ef6565ad5d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

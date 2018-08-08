@@ -4,7 +4,7 @@ title: "_TOKEN_GROUPS"
 author: windows-driver-content
 description: TOKEN_GROUPS contains information about the group security identifiers (SID) in an access token.
 old-location: ifsk\token_groups.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 08faebdf-7e6d-4da4-a4c2-a0b57de437ce
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: CompareStorageDuids function
 author: windows-driver-content
 description: The CompareStorageDuids routine compares two device unique identifiers (DUIDs) and reports whether they match or not.
 old-location: storage\comparestorageduids.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bf66a04d-0892-4813-9615-845054526125
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

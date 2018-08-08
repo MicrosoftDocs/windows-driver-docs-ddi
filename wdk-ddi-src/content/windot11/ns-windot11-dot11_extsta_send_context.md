@@ -4,7 +4,7 @@ title: DOT11_EXTSTA_SEND_CONTEXT
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_extsta_send_context.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTSTA_SEND_CONTEXT structure defines the Native 802.11 attributes of a packet to be sent
   by the miniport driver operating in Extensible Station (ExtSTA) mode. For more information about this
-  operation mode, see 
+  operation mode, see
   <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
   Mode</a>.
 
@@ -81,11 +81,11 @@ typedef struct DOT11_EXTSTA_SEND_CONTEXT {
 ### -field Header
 
 The type, revision, and size of the DOT11_EXTSTA_SEND_CONTEXT structure. This member is formatted
-     as an 
+     as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -106,17 +106,17 @@ This member must be set to DOT11_EXTSTA_SEND_CONTEXT_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        sizeof(DOT11_EXTSTA_SEND_CONTEXT).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field usExemptionActionType
 
 The type of encryption exemption for the packet. The following exemption types are defined:
-     
+
 
 
 
@@ -139,7 +139,7 @@ The packet is exempt from any cipher operations performed by the 802.11 station.
 
 The packet is exempt from any cipher operations performed by the 802.11 station only if the
        station does not have a key-mapping key for the packet's destination media access control (MAC)
-       address. For more information about key-mapping keys, see 
+       address. For more information about key-mapping keys, see
        <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>.
 
 
@@ -147,43 +147,43 @@ The packet is exempt from any cipher operations performed by the 802.11 station 
 
 The identifier (ID) of a PHY type on the 802.11 station. The 802.11 station must use the specified
      PHY to transmit the packet.
-     
 
-The value of 
+
+The value of
      <b>uPhyId</b> must be one of the following:
 
 <ul>
 <li>
-The value of an entry in the list of active PHY types defined by the 
+The value of an entry in the list of active PHY types defined by the
        <b>msDot11ActivePhyList</b> MIB object. The miniport driver sets this MIB object to the list of PHYs
        that have been activated for use over the current basic service set (BSS) network connection. For more
-       information about the 
-       <b>msDot11ActivePhyList</b> MIB object, see 
+       information about the
+       <b>msDot11ActivePhyList</b> MIB object, see
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 </li>
 <li>
 The value of DOT11_PHY_ID_ANY, in which case the 802.11 station can use any PHY from the list of
-       active PHYs defined by the 
+       active PHYs defined by the
        <b>msDot11ActivePhyList</b> MIB object.
 
 </li>
 </ul>
-The miniport driver must fail the send request if the PHY specified by 
+The miniport driver must fail the send request if the PHY specified by
      <b>uPhyId</b> is either not supported or has been disabled through a proprietary mechanism implemented by
-     the independent hardware vendor (IHV). In this situation, the miniport driver sets the 
-     <b>Status</b> member of the 
+     the independent hardware vendor (IHV). In this situation, the miniport driver sets the
+     <b>Status</b> member of the
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure to
-     NDIS_STATUS_UNSUPPORTED_MEDIA and calls 
+     NDIS_STATUS_UNSUPPORTED_MEDIA and calls
      <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
      NdisMSendNetBufferListsComplete</a> to complete the send request.
 
 
 ### -field uDelayedSleepValue
 
-The time, in microseconds, before a response to the packet is expected. The 
+The time, in microseconds, before a response to the packet is expected. The
      <b>uDelayedSleepValue</b> member is only valid when all of the following are true:
-     
+
 
 <ul>
 <li>
@@ -192,19 +192,19 @@ The packet is a media access control (MAC) service data unit (MSDU) packet.
 </li>
 <li>
 The 802.11 station is operating in a power save (PS) mode. In this situation, the Extensible
-       Station (ExtSTA) 
+       Station (ExtSTA)
        <b>msDot11PowerSavingLevel</b> management information base (MIB) object has any value except
-       DOT11_POWER_SAVING_NO_POWER_SAVING. For more information about the 
-       <b>msDot11PowerSavingLevel</b> MIB value, see 
+       DOT11_POWER_SAVING_NO_POWER_SAVING. For more information about the
+       <b>msDot11PowerSavingLevel</b> MIB value, see
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">
        OID_DOT11_POWER_MGMT_REQUEST</a>.
 
 </li>
 </ul>
-The 802.11 station uses the value of 
+The 802.11 station uses the value of
      <b>uDelayedSleepValue</b> to optimize network performance while operating in a PS mode. For example,
      depending upon the PS mode, the 802.11 station might keep the radio turned on after the transmission of
-     the packet if 
+     the packet if
      <b>uDelayedSleepValue</b> is small. By doing so, the network latency will be reduced for receiving the
      response.
 
@@ -212,16 +212,16 @@ The 802.11 station uses the value of
 ### -field pvMediaSpecificInfo
 
 A pointer to a buffer that contains media-specific information. This member should be <b>NULL</b> when
-     the 802.11 
+     the 802.11
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that this
      structure is associated with comes from the native 802.11 framework itself (including any
      NET_BUFFER_LIST structures that come from an IHV extension).
-     
 
-Otherwise, 
-     <b>pvMediaSpecificInfo</b> points to the out-of-band (OOB) data that is associated with the 
-     <b>MediaSpecificInformation</b> entry at the 
-     <b>NetBufferListInfo</b> member of the original 802.3 NET_BUFFER_LIST structure. 
+
+Otherwise,
+     <b>pvMediaSpecificInfo</b> points to the out-of-band (OOB) data that is associated with the
+     <b>MediaSpecificInformation</b> entry at the
+     <b>NetBufferListInfo</b> member of the original 802.3 NET_BUFFER_LIST structure.
      <b>pvMediaSpecificInfo</b> allows the miniport driver to access the media-specific information from an
      IHV-specific 802.3 protocol driver.
 
@@ -236,34 +236,34 @@ A set of flags that define send attributes. Currently, there are no flags define
 
 
 
-The miniport driver performs a send operation when its 
+The miniport driver performs a send operation when its
     <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
     MiniportSendNetBufferLists</a> is called. Each packet passed to the driver through this function is
-    defined by a 
+    defined by a
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure, which contains
     Native 802.11 out-of-band (OOB) data. The OOB data contains media-specific parameters that the 802.11
     station uses when transmitting the packet.
 
-The miniport driver accesses the Native 802.11 OOB data through the 
+The miniport driver accesses the Native 802.11 OOB data through the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro with the
     following parameters:
 
 <ul>
 <li>
-The 
-      <i>_NBL</i> parameter, which is passed the pointer to the 
+The
+      <i>_NBL</i> parameter, which is passed the pointer to the
       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
       received 802.11 packet.
 
 </li>
 <li>
 The _
-      <i>id</i> parameter, which is passed the identifier (ID) value of 
+      <i>id</i> parameter, which is passed the identifier (ID) value of
       <b>MediaSpecificInformation</b>.
 
 </li>
 </ul>
-For more information about Native 802.11 send operations, see 
+For more information about Native 802.11 send operations, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-send-operations">Native 802.11 Send
     Operations</a>.
 

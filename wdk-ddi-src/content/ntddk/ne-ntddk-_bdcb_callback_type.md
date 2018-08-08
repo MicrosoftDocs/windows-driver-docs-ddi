@@ -4,7 +4,7 @@ title: "_BDCB_CALLBACK_TYPE"
 author: windows-driver-content
 description: The BDCB_CALLBACK_TYPE enumeration specifies whether the callback being passed to a BOOT_DRIVER_CALLBACK_FUNCTION routine is a status update or a boot-start driver initialization notification.
 old-location: kernel\bdcb_callback_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 22698DF4-7B8C-40B8-9B07-EEDCC03D0D0F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -122,8 +122,4 @@ BdCbInitializeImage
 
 
 
-<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
- 
-
- 
-
+[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)

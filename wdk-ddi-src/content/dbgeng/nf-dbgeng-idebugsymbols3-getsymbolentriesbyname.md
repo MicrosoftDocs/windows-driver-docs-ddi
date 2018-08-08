@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetSymbolEntriesByName
 author: windows-driver-content
 description: The GetSymbolEntriesByName method returns the symbols whose names match a given pattern.
 old-location: debugger\getsymbolentriesbyname.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 90e6c1aa-30d5-40e7-bc35-92b0359485e0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], GetSymbolEntriesByName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByName method, IDebugSymbols3.GetSymbolEntriesByName, IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, debugger.getsymbolentriesbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

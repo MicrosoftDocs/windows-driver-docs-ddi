@@ -4,7 +4,7 @@ title: AtaPortReadRegisterUchar function
 author: windows-driver-content
 description: The AtaPortReadRegisterUchar routine reads an unsigned byte value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisteruchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1baa8d01-b889-4f2b-ad9e-f35078f7b3d8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

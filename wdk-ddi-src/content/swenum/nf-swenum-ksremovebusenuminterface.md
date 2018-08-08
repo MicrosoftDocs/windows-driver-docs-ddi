@@ -4,7 +4,7 @@ title: KsRemoveBusEnumInterface function
 author: windows-driver-content
 description: The KsRemoveBusEnumInterface function removes an interface to the demand-load bus enumerator object.
 old-location: stream\ksremovebusenuminterface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4b1da622-9a48-4c18-9eee-a99830bd26af
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: wiauDbgDump function
 author: windows-driver-content
 description: The wiauDbgDump function logs a message containing one or more data values.
 old-location: image\wiaudbgdump.htm
-old-project: image
+tech.root: image
 ms.assetid: 5df074ff-572d-47f7-9c5c-4423b200cddc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump
 ms.prod: windows-hardware
 ms.technology: windows-devices

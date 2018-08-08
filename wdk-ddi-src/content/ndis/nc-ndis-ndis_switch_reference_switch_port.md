@@ -4,10 +4,10 @@ title: NDIS_SWITCH_REFERENCE_SWITCH_PORT
 author: windows-driver-content
 description: The ReferenceSwitchPort function increments the Hyper-V extensible switch reference counter for an extensible switch port.
 old-location: netvista\ReferenceSwitchPort.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5FD2E931-AC9F-4157-9C45-F93261FC834D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_PORT, NDIS_SWITCH_REFERENCE_SWITCH_PORT callback, ReferenceSwitchPort, ReferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchPort, netvista.ReferenceSwitchPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

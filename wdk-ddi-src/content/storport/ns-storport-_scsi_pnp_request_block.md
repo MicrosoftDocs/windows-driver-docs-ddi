@@ -4,7 +4,7 @@ title: "_SCSI_PNP_REQUEST_BLOCK"
 author: windows-driver-content
 description: TheSCSI_PNP_REQUEST_BLOCK structure is a special version of a SCSI_REQUEST_BLOCK that is used for plug and play (PNP) requests.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsi_pnp_request_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

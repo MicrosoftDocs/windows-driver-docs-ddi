@@ -4,7 +4,7 @@ title: MmMapIoSpace function
 author: windows-driver-content
 description: The MmMapIoSpace routine maps the given physical address range to nonpaged system space.
 old-location: kernel\mmmapiospace.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

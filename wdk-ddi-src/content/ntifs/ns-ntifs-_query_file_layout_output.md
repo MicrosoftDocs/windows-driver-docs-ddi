@@ -4,7 +4,7 @@ title: "_QUERY_FILE_LAYOUT_OUTPUT"
 author: windows-driver-content
 description: The QUERY_FILE_LAYOUT_OUTPUT structure serves as a header for the file layout entries that are returned from a FSCTL_QUERY_FILE_LAYOUT request.
 old-location: ifsk\query_file_layout_output.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

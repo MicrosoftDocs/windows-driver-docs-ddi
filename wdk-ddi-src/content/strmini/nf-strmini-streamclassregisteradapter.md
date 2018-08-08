@@ -4,7 +4,7 @@ title: StreamClassRegisterAdapter function
 author: windows-driver-content
 description: The StreamClassRegisterAdapter routine registers a stream class minidriver.The name StreamClassRegisterAdapter is supported for backward compatibility only.Instead, Microsoft recommends the use of StreamClassRegisterMinidriver, an alias of StreamClassRegisterAdapter. The name StreamClassRegisterMinidriver more accurately indicates that the routine registers a stream class minidriver. Once registered, a minidriver can drive any number of adapter instances in a system.The StreamClassRegisterMinidriver routine registers a stream minidriver with the stream class driver.
 old-location: stream\streamclassregisterminidriver.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 231a0e11-2968-4a51-9a51-ae98a483f85b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

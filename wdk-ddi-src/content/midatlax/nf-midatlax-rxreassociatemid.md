@@ -4,7 +4,7 @@ title: RxReassociateMid function
 author: windows-driver-content
 description: RxReassociateMid reassociates a Multiplex ID (MID) with an alternate context.
 old-location: ifsk\rxreassociatemid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2b80aa77-45b3-4157-8ab5-770c827a536a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_RESET_DEVICE
 author: windows-driver-content
 description: If possible, resets a non-SCSI storage device without affecting other devices on the bus.
 old-location: storage\ioctl_storage_reset_device.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 85ada0f2-5690-4686-86e5-0e1cdc6b2054
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

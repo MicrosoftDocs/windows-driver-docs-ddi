@@ -3,10 +3,10 @@ UID: NC:uart.UART_RX_READY
 title: UART_RX_READY
 author: windows-driver-content
 description: Determines whether there is data pending in the UART hardware.
-old-project: serports
+tech.root: serports
 ms.assetid: c0c52445-f45a-4032-9fee-af6206d77809
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,23 +19,24 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_RX_READY
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -43,18 +44,18 @@ targetos: Windows
 
 ## -description
 
-Determines whether there is data pending in the UART hardware. 
+Determines whether there is data pending in the UART hardware.
 
 ## -prototype
 
 ```
 //Declaration
 
-UART_RX_READY UartRxReady; 
+UART_RX_READY UartRxReady;
 
 // Definition
 
-BOOLEAN UartRxReady 
+BOOLEAN UartRxReady
 (
 	PCPPORT Port
 )

@@ -4,7 +4,7 @@ title: IBidiSpl2::BindDevice
 author: windows-driver-content
 description: The BindDevice method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the OpenPrinter function.
 old-location: print\ibidispl2_ibidispl2__binddevice.htm
-old-project: print
+tech.root: print
 ms.assetid: c5bd238d-4b85-4463-aa73-ff3a7798ccff
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

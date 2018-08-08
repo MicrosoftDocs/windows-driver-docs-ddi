@@ -4,7 +4,7 @@ title: "_ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 author: windows-driver-content
 description: The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output arguments from the IOCTL_ACPI_GET_DEVICE_INFORMATION control method.
 old-location: acpi\acpi_device_information_output_buffer.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 15AA7E06-DD7F-46B4-B2C2-604EA5150F7D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

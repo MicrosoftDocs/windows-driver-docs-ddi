@@ -4,7 +4,7 @@ title: "_KTMOBJECT_CURSOR"
 author: windows-driver-content
 description: The KTMOBJECT_CURSOR structure receives enumeration information about KTM objects when a component calls ZwEnumerateTransactionObject.
 old-location: kernel\ktmobject_cursor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

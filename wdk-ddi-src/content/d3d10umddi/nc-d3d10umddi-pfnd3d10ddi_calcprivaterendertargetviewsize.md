@@ -4,10 +4,10 @@ title: PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE
 author: windows-driver-content
 description: The CalcPrivateRenderTargetViewSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a render target view.
 old-location: display\calcprivaterendertargetviewsize.htm
-old-project: display
+tech.root: display
 ms.assetid: 14d85e4a-960c-4438-9360-a4f2677603b8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CalcPrivateRenderTargetViewSize, CalcPrivateRenderTargetViewSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE, PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE callback, UserModeDisplayDriverDx10_Functions_48ca8f95-06ba-4a11-8517-bd4638691e65.xml, d3d10umddi/CalcPrivateRenderTargetViewSize, display.calcprivaterendertargetviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

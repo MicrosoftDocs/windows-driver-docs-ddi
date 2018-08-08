@@ -4,10 +4,10 @@ title: NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT
 author: windows-driver-content
 description: The FreeNetBufferListForwardingContext function releases resources in the out-of-band (OOB) extensible switch forwarding context of a NET_BUFFER_LIST structure.
 old-location: netvista\FreeNetBufferListForwardingContext.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 08AE3160-276F-4D1F-9D02-AD5AF38CDED2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FreeNetBufferListForwardingContext, FreeNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT, NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback, ndis/FreeNetBufferListForwardingContext, netvista.FreeNetBufferListForwardingContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IWDTFActions2::get_Item
 author: windows-driver-content
 description: Gets an individual action in the collection.
 old-location: dtf\iwdtfactions2_item.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 2f06b719-212c-40bb-9e1e-a2473e7c8488
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

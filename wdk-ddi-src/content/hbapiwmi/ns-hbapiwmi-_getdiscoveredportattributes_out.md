@@ -4,7 +4,7 @@ title: "_GetDiscoveredPortAttributes_OUT"
 author: windows-driver-content
 description: The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the GetDiscoveredPortAttributes WMI method to the WMI client.
 old-location: storage\getdiscoveredportattributes_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

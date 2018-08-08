@@ -4,7 +4,7 @@ title: PMRX_CHKDIR_CALLDOWN
 author: windows-driver-content
 description: TheMRxIsValidDirectory routine is called by RDBSS to request that a network mini-redirector check for the existence of a remote directory.
 old-location: ifsk\mrxisvaliddirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c52441d8-b273-4e1f-b251-2b35afeda55d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

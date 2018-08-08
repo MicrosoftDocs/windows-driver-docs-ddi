@@ -4,7 +4,7 @@ title: "_WHEA_XPF_PROCINFO"
 author: windows-driver-content
 description: The WHEA_XPF_PROCINFO structure describes processor error information that is specific to the x86 and x64 processor architectures.
 old-location: whea\whea_xpf_procinfo.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 90fb54dd-a2df-423c-8dd6-bd99c5ad1de4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

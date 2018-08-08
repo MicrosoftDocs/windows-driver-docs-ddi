@@ -4,7 +4,7 @@ title: PCAM_STOP_CAPTURE_ROUTINE_EX
 author: windows-driver-content
 description: A camera minidriver's CamStopCaptureEx callback function performs any processing after the stream is stopped.
 old-location: stream\camstopcaptureex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b8b6e3f0-f5c8-449f-9001-3182b3547d8d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

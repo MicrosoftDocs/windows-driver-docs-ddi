@@ -4,10 +4,10 @@ title: PWINDBG_IOCTL_ROUTINE
 author: windows-driver-content
 description: The PWINDBG_IOCTL_ROUTINE (Ioctl) function performs a variety of different operations. Much of its functionality mirrors the functionality of other functions in wdbgexts.h.
 old-location: debugger\ioctl.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: fe35d032-fa34-44a7-9e61-dcb1ca2a2e85
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, PWINDBG_IOCTL_ROUTINE callback, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

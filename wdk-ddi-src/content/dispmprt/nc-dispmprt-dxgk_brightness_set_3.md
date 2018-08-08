@@ -34,7 +34,8 @@ apilocation:
 -	dispmprt.h
 apiname:
 -	DXGK_BRIGHTNESS_SET_3
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

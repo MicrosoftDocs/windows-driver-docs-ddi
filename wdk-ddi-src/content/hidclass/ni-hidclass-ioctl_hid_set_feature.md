@@ -4,7 +4,7 @@ title: IOCTL_HID_SET_FEATURE
 author: windows-driver-content
 description: The IOCTL_HID_SET_FEATURE request sends a feature report to a top-level collection.
 old-location: hid\ioctl_hid_set_feature2.htm
-old-project: hid
+tech.root: hid
 ms.assetid: cbadc87a-b676-4df7-8116-b9692d93e345
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

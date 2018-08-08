@@ -4,7 +4,7 @@ title: ExInitializeFastMutex function
 author: windows-driver-content
 description: The ExInitializeFastMutex routine initializes a fast mutex variable, used to synchronize mutually exclusive access by a set of threads to a shared resource.
 old-location: kernel\exinitializefastmutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: edd189f9-1089-470f-95a9-670bdba9c210
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

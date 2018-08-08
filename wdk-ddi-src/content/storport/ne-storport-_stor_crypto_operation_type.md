@@ -4,7 +4,7 @@ title: "_STOR_CRYPTO_OPERATION_TYPE"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_operation_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: DF8E428F-9F72-451E-AB3E-E6D3CBC99C8F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: TmRequestOutcomeEnlistment function
 author: windows-driver-content
 description: The TmRequestOutcomeEnlistment routine asks KTM to try to provide an immediate outcome (commit or rollback) for the transaction that is associated with a specified enlistment.
 old-location: kernel\tmrequestoutcomeenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1e58be94-7a10-4708-a658-9de28e26a465
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

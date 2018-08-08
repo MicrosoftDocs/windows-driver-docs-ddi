@@ -4,7 +4,7 @@ title: WdfDeviceInitSetPowerInrush function
 author: windows-driver-content
 description: The WdfDeviceInitSetPowerInrush method informs the power manager that the specified device requires an inrush of current when it starts.
 old-location: wdf\wdfdeviceinitsetpowerinrush.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

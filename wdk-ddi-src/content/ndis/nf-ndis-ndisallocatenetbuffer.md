@@ -4,10 +4,10 @@ title: NdisAllocateNetBuffer function
 author: windows-driver-content
 description: Call the NdisAllocateNetBuffer function to allocate and initialize a NET_BUFFER structure from a NET_BUFFER structure pool.
 old-location: netvista\ndisallocatenetbuffer.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b10c5a4b-fb43-4880-9641-ff2dcf0e5cb3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisAllocateNetBuffer, NdisAllocateNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBuffer, ndis_netbuf_functions_ref_2c90427d-c174-48fa-b588-d48e5c099331.xml, netvista.ndisallocatenetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

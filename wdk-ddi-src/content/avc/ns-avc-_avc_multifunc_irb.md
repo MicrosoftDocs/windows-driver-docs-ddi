@@ -4,7 +4,7 @@ title: "_AVC_MULTIFUNC_IRB"
 author: windows-driver-content
 description: The AVC_MULTIFUNC_IRB structure contains other AV/C related structures in a union.
 old-location: stream\avc_multifunc_irb.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cd8090b1-47d7-4d82-86b3-757b0642c5fe
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

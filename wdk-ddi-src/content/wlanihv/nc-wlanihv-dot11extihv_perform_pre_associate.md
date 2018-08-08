@@ -4,7 +4,7 @@ title: DOT11EXTIHV_PERFORM_PRE_ASSOCIATE
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvperformpreassociate.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5bf7a1ce-bff0-481e-8053-584fb6319146
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvPerformPreAssociate</i> function to request that the IHV Extensions DLL initiate a
   pre-association operation with the basic service set (BSS) network.
 
@@ -83,7 +83,7 @@ DWORD APIENTRY Dot11ExtIhvPerformPreAssociate(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
-     handle value was specified through a previous call to the 
+     handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
@@ -96,7 +96,7 @@ The handle used by the operating system to reference the connection session with
 
 ### -param pIhvProfileParams [in, optional]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
      DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
@@ -104,7 +104,7 @@ A pointer to a
 
 ### -param pIhvConnProfile [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
      DOT11EXT_IHV_CONNECTIVITY_PROFILE</a> structure that contains connectivity settings for the IHV
      profile.
@@ -112,7 +112,7 @@ A pointer to a
 
 ### -param pIhvSecProfile [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">
      DOT11EXT_IHV_SECURITY_PROFILE</a> structure that specifies security settings for the IHV
      profile.
@@ -120,7 +120,7 @@ A pointer to a
 
 ### -param pConnectableBssid [in]
 
-A pointer to a 
+A pointer to a
      <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a> structure, which contains one
      or more 802.11 Beacon or Probe Response frames for the service set identifier (SSID) of the BSS network
      with which the DLL will perform the pre-association operation.
@@ -128,9 +128,9 @@ A pointer to a
 
 ### -param pdwReasonCode [out]
 
-A pointer to a DWORD value, which provides additional information for the return value of the 
+A pointer to a DWORD value, which provides additional information for the return value of the
      <i>Dot11ExtIhvPerformPreAssociate</i> function. The IHV Extensions DLL must set *
-     <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in 
+     <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in
      L2cmn.h.
 
 
@@ -142,7 +142,7 @@ If the IHV Extension DLL can initiate the pre-association operation, it must com
       asynchronously. In this situation, the function returns ERROR_SUCCESS.
 
 If the IHV Extensions DLL cannot initiate the pre-association operation, it returns an error code
-      defined in 
+      defined in
       <i>Winerror.h</i>.
 
 
@@ -152,33 +152,33 @@ If the IHV Extensions DLL cannot initiate the pre-association operation, it retu
 
 
 
-The operating system calls the 
+The operating system calls the
     <i>Dot11ExtIhvPerformPreAssociate</i> function to initiate a pre-association operation with the IHV
     Extensions DLL. The operating system initiates this operation before it initiates a connection operation
     with a basic service set (BSS) network through the WLAN adapter. For more information about the
-    connection operation, see 
+    connection operation, see
     <a href="https://msdn.microsoft.com/55bd72d6-6667-48e1-9907-c5ff516b4664">Connection Operations</a>.
 
-The pre-association operation must be completed asynchronously from the call to 
+The pre-association operation must be completed asynchronously from the call to
     <i>Dot11ExtIhvPerformPreAssociate</i>. After the pre-association operation completes, the IHV Extensions
-    DLL must call 
+    DLL must call
     <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
     Dot11ExtPreAssociateCompletion</a>.
 
-When the 
+When the
     <i>Dot11ExtIhvPerformPreAssociate</i> function is called, the IHV Extensions DLL must follow these
     guidelines.
 
 <ul>
 <li>
-If the IHV Extensions DLL can initiate the pre-association operation, the 
+If the IHV Extensions DLL can initiate the pre-association operation, the
       <i>Dot11ExtIhvPerformPreAssociate</i> function must return ERROR_SUCCESS and complete the operation
       asynchronously.
 
 </li>
 <li>
 The IHV Extensions DLL provides more information regarding the initiation of the pre-association
-      operation through the 
+      operation through the
       <i>pdwReasonCode</i> parameter. The DLL must set *
       <i>pdwReasonCode</i> to one of the following:
 
@@ -201,7 +201,7 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </ul>
 </li>
 </ul>
-For more information about the pre-association operation, see 
+For more information about the pre-association operation, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
 
 

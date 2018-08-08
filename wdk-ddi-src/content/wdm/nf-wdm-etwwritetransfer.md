@@ -4,7 +4,7 @@ title: EtwWriteTransfer function
 author: windows-driver-content
 description: The EtwWriteTransfer function marks an event that links two activities together; this type of event is referred to as a transfer event.
 old-location: devtest\etwwritetransfer.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 72a1c2f4-5f20-4c00-baf5-3d48fe27f48d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

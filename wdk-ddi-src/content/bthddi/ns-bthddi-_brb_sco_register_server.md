@@ -4,7 +4,7 @@ title: "_BRB_SCO_REGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_SCO_REGISTER_SERVER structure to register itself as a server capable of receiving SCO connections from remote Bluetooth devices.
 old-location: bltooth\_brb_sco_register_server.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

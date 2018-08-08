@@ -4,7 +4,7 @@ title: PCALCULATE_SCATTER_GATHER_LIST_SIZE
 author: windows-driver-content
 description: The CalculateScatterGatherList routine calculates the size, in bytes, of scatter/gather list necessary to hold a given buffer.
 old-location: kernel\calculatescattergatherlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d7509502-0965-44b9-8efb-cec4fbe3ac88
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

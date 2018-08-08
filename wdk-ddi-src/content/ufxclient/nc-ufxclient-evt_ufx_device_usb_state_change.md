@@ -4,10 +4,10 @@ title: EVT_UFX_DEVICE_USB_STATE_CHANGE
 author: windows-driver-content
 description: The client driver's implementation to update the state of the USB device.
 old-location: buses\evt_ufx_device_usb_state_change.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 81D4F3C5-7412-4148-A5B4-0C56DD9ADB35
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_USB_STATE_CHANGE, EVT_UFX_DEVICE_USB_STATE_CHANGE callback, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

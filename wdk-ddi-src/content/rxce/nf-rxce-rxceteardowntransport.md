@@ -4,7 +4,7 @@ title: RxCeTearDownTransport function
 author: windows-driver-content
 description: RxCeTearDownTransport unbinds an RDBSS transport object.
 old-location: ifsk\rxceteardowntransport.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 61376532-c78f-4a22-b8b7-ee55ddcb4b57
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

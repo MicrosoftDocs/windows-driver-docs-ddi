@@ -1,0 +1,112 @@
+---
+UID: NF:portabledeviceclassextension.IPortableDeviceClassExtension.Uninitialize
+title: IPortableDeviceClassExtension::Uninitialize
+author: windows-driver-content
+description: The Uninitialize interface disables the WPD interface, any private interfaces, and device service interfaces that were initialized by the given driver. This method also disables the WIA or WMDM compatibility layers if they are enabled.
+old-location: wpddk\iportabledeviceclassextension_uninitialize.htm
+tech.root: wpd_dk
+ms.assetid: 51ef2b62-8933-4b59-9deb-8220df1fd285
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IPortableDeviceClassExtension interface,Uninitialize method, IPortableDeviceClassExtension.Uninitialize, IPortableDeviceClassExtension::Uninitialize, IPortableDeviceClassExtensionUninitialize, Uninitialize, Uninitialize method, Uninitialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Uninitialize, wpddk.iportabledeviceclassextension_uninitialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: portabledeviceclassextension.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceClassExtension.h
+api_name:
+-	IPortableDeviceClassExtension.Uninitialize
+product:
+-	Windows
+targetos: Windows
+req.typenames: 
+---
+
+# IPortableDeviceClassExtension::Uninitialize
+
+
+## -description
+
+
+
+The Uninitialize interface disables the WPD interface, any private interfaces, and device service interfaces that were initialized by the given driver. This method also disables the WIA or WMDM compatibility layers if they are enabled.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible return values are shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To be supplied.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dfd6fa4d-60d8-486a-87a0-3d03e291a5c3">IPortableDeviceClassExtension Interface</a>
+ 
+
+ 
+

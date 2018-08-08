@@ -4,7 +4,7 @@ title: IWDFFile2::RetrieveCountedFileName
 author: windows-driver-content
 description: The RetrieveCountedFileName method retrieves the full counted file name for a file that is associated with a device.
 old-location: wdf\iwdffile2_retrievecountedfilename.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

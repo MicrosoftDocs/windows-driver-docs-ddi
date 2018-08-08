@@ -4,7 +4,7 @@ title: PSHED_PI_SET_ERROR_SOURCE_INFO
 author: windows-driver-content
 description: A PSHED plug-in's SetErrorSourceInfo callback function configures an error source.
 old-location: whea\seterrorsourceinfo.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 0b9cd546-d4ad-4e0e-92cb-7994c7327977
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

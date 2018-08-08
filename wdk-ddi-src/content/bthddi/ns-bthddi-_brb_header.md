@@ -4,7 +4,7 @@ title: "_BRB_HEADER"
 author: windows-driver-content
 description: The BRB_HEADER structure contains header information about a Bluetooth request block (BRB), including information about the BRB type that the Bluetooth driver stack uses to determine which kind of BRB type to process.
 old-location: bltooth\brb_header.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

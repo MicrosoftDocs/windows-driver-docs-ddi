@@ -4,7 +4,7 @@ title: KS_CompressionCaps
 author: windows-driver-content
 description: The KS_CompressionCaps enumeration defines compression capabilities of a device.
 old-location: stream\ks_compressioncaps.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 47781af6-bf14-4b95-bef2-506aadb2d1fb
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

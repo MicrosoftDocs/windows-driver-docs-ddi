@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_DISCONNECT
 author: windows-driver-content
 description: The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 old-location: bltooth\ioctl_bth_sdp_disconnect.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 1d45465c-21ee-423c-967a-4462b61c2f0e
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

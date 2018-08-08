@@ -4,7 +4,7 @@ title: IPrintSchemaAsyncOperation
 author: windows-driver-content
 description: Represents an asynchronous operation context for validation, merge or commit operations.
 old-location: print\iprintschemaasyncoperation_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: CEA80412-4B19-493B-A85E-625915D77CA5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

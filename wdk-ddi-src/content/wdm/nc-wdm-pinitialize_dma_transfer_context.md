@@ -4,7 +4,7 @@ title: PINITIALIZE_DMA_TRANSFER_CONTEXT
 author: windows-driver-content
 description: The InitializeDmaTransferContext routine initializes an opaque DMA transfer context that is used to track pending allocations of DMA resources.
 old-location: kernel\initializedmatransfercontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5E9D08FD-1F81-462F-90AA-7C4BFFB5F864
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

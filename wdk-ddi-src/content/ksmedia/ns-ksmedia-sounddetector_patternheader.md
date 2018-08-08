@@ -4,10 +4,10 @@ title: SOUNDDETECTOR_PATTERNHEADER
 author: windows-driver-content
 description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the pattern header for the sound detector in the KSPROPERTY_SOUNDDETECTOR_PATTERNS property.
 old-location: audio\sounddetector_patternheader.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices

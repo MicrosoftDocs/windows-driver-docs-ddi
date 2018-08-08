@@ -4,7 +4,7 @@ title: KsSetDefaultClockState function
 author: windows-driver-content
 description: The KsSetDefaultClockState function sets the current state of the clock that is used to reflect the current state of the underlying filter pin.
 old-location: stream\kssetdefaultclockstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5893f4ff-0eb5-4cdc-8f58-f7654c1ce9fc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

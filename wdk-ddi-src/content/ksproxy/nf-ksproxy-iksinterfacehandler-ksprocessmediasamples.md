@@ -4,7 +4,7 @@ title: IKsInterfaceHandler::KsProcessMediaSamples
 author: windows-driver-content
 description: The KsProcessMediaSamples method processes media samples.
 old-location: stream\iksinterfacehandler_ksprocessmediasamples.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

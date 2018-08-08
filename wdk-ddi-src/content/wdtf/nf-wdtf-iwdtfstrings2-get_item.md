@@ -4,7 +4,7 @@ title: IWDTFStrings2::get_Item
 author: windows-driver-content
 description: Gets an individual string in the collection.
 old-location: dtf\iwdtfstrings2_item.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 01fe6cb0-5867-440f-b4ad-79bc946260b1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

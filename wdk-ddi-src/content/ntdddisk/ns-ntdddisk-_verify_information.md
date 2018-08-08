@@ -4,7 +4,7 @@ title: "_VERIFY_INFORMATION"
 author: windows-driver-content
 description: The VERIFY_INFORMATION structure provides information used to verify the existence of a disk extent.
 old-location: storage\verify_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

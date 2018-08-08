@@ -4,7 +4,7 @@ title: "_SCSI_PASS_THROUGH_DIRECT"
 author: windows-driver-content
 description: The SCSI_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through_direct.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 306babe7-393f-4b4a-9d8a-4c973cb3eaa2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IoCsqInitializeEx function
 author: windows-driver-content
 description: The IoCsqInitializeEx routine initializes the dispatch table for a cancel-safe IRP queue.
 old-location: kernel\iocsqinitializeex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9f6501c2-a708-4583-a821-e1b8264ff0af
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

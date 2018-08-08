@@ -4,7 +4,7 @@ title: FsRtlRemoveLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlRemoveLargeMcbEntry routine removes one or more mappings from a map control block (MCB).
 old-location: ifsk\fsrtlremovelargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0608442-59ba-4431-94d5-7514555d0b4f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlRemoveLargeMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

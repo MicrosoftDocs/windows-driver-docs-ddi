@@ -4,7 +4,7 @@ title: "_WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 author: windows-driver-content
 description: The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure specifies major and minor version numbers for the Kernel-Mode Driver Framework's library.
 old-location: wdf\wdf_driver_version_available_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7f5192ac-aea0-4e63-b2f9-1d51e00bbf03
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

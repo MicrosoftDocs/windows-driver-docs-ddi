@@ -31,7 +31,8 @@ apilocation:
 -	d3dkmdt.h
 apiname:
 -	_DXGK_GPUVERSION
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

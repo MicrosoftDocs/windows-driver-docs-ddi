@@ -4,7 +4,7 @@ title: "_CUSTOMSIZEPARAM"
 author: windows-driver-content
 description: The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
 old-location: print\customsizeparam.htm
-old-project: print
+tech.root: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

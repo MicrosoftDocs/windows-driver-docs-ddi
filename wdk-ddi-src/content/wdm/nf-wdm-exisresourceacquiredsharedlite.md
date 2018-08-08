@@ -4,7 +4,7 @@ title: ExIsResourceAcquiredSharedLite function
 author: windows-driver-content
 description: The ExIsResourceAcquiredSharedLite routine returns whether the current thread has access (either shared or exclusive) to a given resource.
 old-location: kernel\exisresourceacquiredsharedlite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e87a4078-dbd4-4df2-bbfb-efbf76fc6279
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

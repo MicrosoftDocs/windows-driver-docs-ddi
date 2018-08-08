@@ -4,7 +4,7 @@ title: "_MSFC_HBAPortStatistics"
 author: windows-driver-content
 description: The MSFC_HBAPortStatistics structure contains statistics information about a port.
 old-location: storage\msfc_hbaportstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0274b3c7-c17e-45bf-867f-2b0f741b2ecb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

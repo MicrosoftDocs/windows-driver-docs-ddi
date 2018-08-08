@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	FPGA_BUS_SCAN
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

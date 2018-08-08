@@ -4,7 +4,7 @@ title: FltRetainSwappedBufferMdlAddress function
 author: windows-driver-content
 description: FltRetainSwappedBufferMdlAddress prevents the Filter Manager from freeing the memory descriptor list (MDL) for a buffer that was swapped in by a minifilter driver.
 old-location: ifsk\fltretainswappedbuffermdladdress.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 80498410-9617-414d-997c-0d55f891ba3c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

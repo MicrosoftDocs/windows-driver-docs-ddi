@@ -4,7 +4,7 @@ title: PCPROPERTY_ITEM
 author: windows-driver-content
 description: The PCPROPERTY_ITEM structure describes a property that is supported by a particular filter, pin, or node.
 old-location: audio\pcproperty_item.htm
-old-project: audio
+tech.root: audio
 ms.assetid: aec5b9df-22cc-4ef8-8d09-103124ab357c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
@@ -73,22 +73,22 @@ typedef struct {
 
 ### -field portcls.Set
 
- 
+
 
 
 ### -field portcls.Id
 
- 
+
 
 
 ### -field portcls.Flags
 
- 
+
 
 
 ### -field portcls.Handler
 
- 
+
 
 
 

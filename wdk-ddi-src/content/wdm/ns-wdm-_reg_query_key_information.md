@@ -4,7 +4,7 @@ title: "_REG_QUERY_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_QUERY_KEY_INFORMATION structure describes the metadata that is about to be queried for a key.
 old-location: kernel\reg_query_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 88c64e9a-dbf2-4feb-9ce2-615b5ba98439
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

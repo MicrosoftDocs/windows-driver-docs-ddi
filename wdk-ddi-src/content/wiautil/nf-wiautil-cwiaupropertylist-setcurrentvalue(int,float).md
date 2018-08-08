@@ -4,11 +4,11 @@ title: CWiauPropertyList::SetCurrentValue(INT,FLOAT)
 author: windows-driver-content
 description: The CWiauPropertyList::SetCurrentValue(FLOAT) method sets the current value of a property of type FLOAT, and sets its type to VT_R4.
 old-location: image\cwiaupropertylist_setcurrentvalue_float_.htm
-old-project: image
+tech.root: image
 ms.assetid: dfcbe65b-7da1-4427-a58f-cbec4ce355bf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,FLOAT), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,FLOAT), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, SetCurrentValue(FLOAT)(CWiauPropertyList), image.cwiaupropertylist_setcurrentvalue_float_, wiauFncs_871f53bf-7ad7-459e-9760-04c67a55f800.xml, wiautil/CWiauPropertyList::SetCurrentValue
+ms.date: 5/3/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,FLOAT), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,FLOAT), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_float_, wiauFncs_871f53bf-7ad7-459e-9760-04c67a55f800.xml, wiautil/CWiauPropertyList::SetCurrentValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SetCurrentValue
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

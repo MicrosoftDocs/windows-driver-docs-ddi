@@ -4,7 +4,7 @@ title: IWDFDevice2::GetSystemPowerAction
 author: windows-driver-content
 description: The GetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer.
 old-location: wdf\iwdfdevice2_getsystempoweraction.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

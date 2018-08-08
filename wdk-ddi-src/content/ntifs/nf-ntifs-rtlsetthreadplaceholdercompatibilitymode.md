@@ -4,7 +4,7 @@ title: RtlSetThreadPlaceholderCompatibilityMode function
 author: windows-driver-content
 description: RtlSetThreadPlaceholderCompatibilityMode is a routine which sets the placeholder compatibility mode for the current thread.
 old-location: ifsk\rtlsetthreadplaceholdercompatibilitymode.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

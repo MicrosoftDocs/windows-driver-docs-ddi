@@ -4,7 +4,7 @@ title: MmFreeContiguousMemory function
 author: windows-driver-content
 description: The MmFreeContiguousMemory routine releases a range of physically contiguous memory that was allocated by an MmAllocateContiguousMemoryXxx routine.
 old-location: kernel\mmfreecontiguousmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 485c9b03-eb45-4c86-9292-ccd51ba7b080
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

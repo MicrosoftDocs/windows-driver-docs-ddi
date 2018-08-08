@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
 author: windows-driver-content
 description: The IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request is sent to the storage class driver to determine available and used mapping resources on a storage device.
 old-location: storage\ioctl_storage_get_lb_provisioning_map_resources.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 117F6507-CA52-4EA7-9633-75ADB19F4DDA
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

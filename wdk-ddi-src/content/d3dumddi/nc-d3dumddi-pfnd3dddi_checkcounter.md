@@ -4,10 +4,10 @@ title: PFND3DDDI_CHECKCOUNTER
 author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to retrieve info that describes a counter. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\pfncheckcounter.htm
-old-project: display
+tech.root: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER callback, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

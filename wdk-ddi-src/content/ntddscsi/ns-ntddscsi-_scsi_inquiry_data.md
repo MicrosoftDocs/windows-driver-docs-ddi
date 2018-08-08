@@ -4,7 +4,7 @@ title: "_SCSI_INQUIRY_DATA"
 author: windows-driver-content
 description: The SCSI_INQUIRY_DATA structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_inquiry_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f62c35dd-791d-4c21-9836-308cc5fb102b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

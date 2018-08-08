@@ -4,7 +4,7 @@ title: IKsReferenceClock::GetCorrelatedPhysicalTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetCorrelatedPhysicalTime method queries the associated reference clock for the current physical time and retrieves the correlated system time.
 old-location: stream\iksreferenceclock_getcorrelatedphysicaltime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b80f6e20-410d-4984-8535-782a84c6af7e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

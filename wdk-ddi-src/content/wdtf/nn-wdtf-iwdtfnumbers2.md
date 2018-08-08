@@ -4,7 +4,7 @@ title: IWDTFNumbers2
 author: windows-driver-content
 description: Defines operations and properties for a collection of numbers.
 old-location: dtf\iwdtfnumbers2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 8cff3bc3-771f-47b7-bf4b-b7221f498252
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_FILE_PROVIDER_EXTERNAL_INFO_V1"
 author: windows-driver-content
 description: The FILE_PROVIDER_EXTERNAL_INFO_V1 structure defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: ifsk\file_provider_external_info_v1.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 842D7F4A-3352-469A-B7C1-E075432107CA
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

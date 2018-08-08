@@ -4,7 +4,7 @@ title: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function
 author: windows-driver-content
 description: The SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function initializes a SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure.
 old-location: serports\sercx2_system_dma_receive_config_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 9BD18E2C-731D-4C7D-8363-67136521B4A7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

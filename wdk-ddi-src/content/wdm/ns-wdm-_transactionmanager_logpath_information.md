@@ -4,7 +4,7 @@ title: "_TRANSACTIONMANAGER_LOGPATH_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTIONMANAGER_LOGPATH_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_logpath_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 53d7e8a9-fc89-4b11-8bbb-e9b5b0504f5e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

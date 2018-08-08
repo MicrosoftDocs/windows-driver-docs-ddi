@@ -4,7 +4,7 @@ title: IPrintCoreUI2::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreUI2::EnumFeatures method enumerates a printer's available features.
 old-location: print\iprintcoreui2_enumfeatures.htm
-old-project: print
+tech.root: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

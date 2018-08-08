@@ -4,7 +4,7 @@ title: ClfsLsnRecordSequence function
 author: windows-driver-content
 description: The ClfsLsnRecordSequence routine returns the record sequence number contained in a specified LSN.
 old-location: kernel\clfslsnrecordsequence.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 407675de-4a06-49f7-9b43-c48b4c84ac7e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

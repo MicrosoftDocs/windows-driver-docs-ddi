@@ -4,7 +4,7 @@ title: PosCxRetainDevice function
 author: windows-driver-content
 description: PosCxRetainDevice is called to extend the ownership of the device.
 old-location: pos\poscxretaindevice.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 0DF5E1DA-35BA-406A-A708-461534373F12
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

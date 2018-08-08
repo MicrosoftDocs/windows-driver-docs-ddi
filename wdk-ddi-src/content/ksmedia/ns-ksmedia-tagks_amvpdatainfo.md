@@ -4,7 +4,7 @@ title: tagKS_AMVPDATAINFO
 author: windows-driver-content
 description: The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
 old-location: stream\ks_amvpdatainfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4c217cf8-ca93-4e5d-8cbc-c56794f96d50
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

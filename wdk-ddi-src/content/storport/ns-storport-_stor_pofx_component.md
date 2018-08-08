@@ -4,7 +4,7 @@ title: "_STOR_POFX_COMPONENT"
 author: windows-driver-content
 description: The STOR_POFX_COMPONENT structure describes the power state attributes of a storage device component.
 old-location: storage\stor_pofx_component.htm
-old-project: storage
+tech.root: storage
 ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

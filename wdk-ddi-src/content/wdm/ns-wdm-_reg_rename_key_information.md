@@ -4,7 +4,7 @@ title: "_REG_RENAME_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_RENAME_KEY_INFORMATION structure contains the new name for a registry key whose name is about to be changed.
 old-location: kernel\reg_rename_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 80ffa1dc-aa4f-40b4-936b-7e441b3b123d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

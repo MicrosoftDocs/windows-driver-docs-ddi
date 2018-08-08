@@ -4,7 +4,7 @@ title: "_SM_GetRNIDMgmtInfo_OUT"
 author: windows-driver-content
 description: The SM_GetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_GetRNIDMgmtInfo method.
 old-location: storage\sm_getrnidmgmtinfo_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e12bd494-4d2a-44a9-95dc-0bc78fa73a97
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

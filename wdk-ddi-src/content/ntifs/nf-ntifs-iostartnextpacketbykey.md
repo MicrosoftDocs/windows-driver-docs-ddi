@@ -4,7 +4,7 @@ title: IoStartNextPacketByKey function
 author: windows-driver-content
 description: The IoStartNextPacketByKey routine dequeues the next I/O request packet from the specified device object's associated device queue according to a specified sort-key value and calls the driver's StartIo routine with that IRP.
 old-location: kernel\iostartnextpacketbykey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 25cf9026-fd5d-4998-b7ff-f7be048ef2a1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

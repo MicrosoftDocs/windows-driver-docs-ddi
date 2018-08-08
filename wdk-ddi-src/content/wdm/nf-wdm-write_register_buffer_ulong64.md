@@ -4,7 +4,7 @@ title: WRITE_REGISTER_BUFFER_ULONG64 function
 author: windows-driver-content
 description: The WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG64 values from a buffer to the specified register.
 old-location: wdf\write_register_buffer_ulong64.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 18858A87-D7D8-4387-AD84-6717EC3DAC25
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -16,19 +16,19 @@ req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
-req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-min-winversvr:
+req.kmdf-ver:
 req.umdf-ver: 1.11
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
 req.max-support: Unavailable in UMDF 2.0 and later.
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -64,7 +64,7 @@ void WRITE_REGISTER_BUFFER_ULONG64(
   _In_ IWDFDevice3 *pDevice,
   _In_ PULONG64    Register,
   _In_ PULONG64    Buffer,
-  _In_ ULONG       Count 
+  _In_ ULONG       Count
 );
 ````
 

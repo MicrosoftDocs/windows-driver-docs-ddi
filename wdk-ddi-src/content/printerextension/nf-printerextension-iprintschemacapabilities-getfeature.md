@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::GetFeature
 author: windows-driver-content
 description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 old-location: print\iprintschemacapabilities_getfeature.htm
-old-project: print
+tech.root: print
 ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

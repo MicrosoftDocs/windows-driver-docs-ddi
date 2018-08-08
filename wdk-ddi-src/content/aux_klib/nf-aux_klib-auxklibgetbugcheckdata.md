@@ -4,7 +4,7 @@ title: AuxKlibGetBugCheckData function
 author: windows-driver-content
 description: The AuxKlibGetBugCheckData routine retrieves information about a bug check that has just occurred.
 old-location: kernel\auxklibgetbugcheckdata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d41d0eba-14e3-48ff-874d-e52589cf716c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

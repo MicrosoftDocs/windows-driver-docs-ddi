@@ -4,7 +4,7 @@ title: KeInitializeEvent function
 author: windows-driver-content
 description: The KeInitializeEvent routine initializes an event object as a synchronization (single waiter) or notification type event and sets it to a signaled or not-signaled state.
 old-location: kernel\keinitializeevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

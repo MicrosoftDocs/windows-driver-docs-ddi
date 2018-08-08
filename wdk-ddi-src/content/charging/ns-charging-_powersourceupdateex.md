@@ -4,7 +4,7 @@ title: "_POWERSOURCEUPDATEEX"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\powersourceupdateex.htm
-old-project: battery
+tech.root: battery
 ms.assetid: FAA39A82-E27E-41BD-9830-03EAE7CFF64F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_DSM_QueryLBPolicy_V2"
 author: windows-driver-content
 description: The DSM_QueryLBPolicy_V2 structure is used to query a LUN's current load balance policy. It is basically the same as the DSM_QueryLBPolicy structure except that it returns the load balance information by using the DSM_Load_Balance_Policy_V2 structure.
 old-location: storage\dsm_querylbpolicy_v2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f02f3442-e9c2-4f60-833d-e470de62118e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

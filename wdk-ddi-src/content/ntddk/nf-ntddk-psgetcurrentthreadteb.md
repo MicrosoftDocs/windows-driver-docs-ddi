@@ -4,7 +4,7 @@ title: PsGetCurrentThreadTeb function
 author: windows-driver-content
 description: The PsGetCurrentThreadTeb routine returns the Thread Environment Block (TEB) of the current thread. The call must be made in kernel-mode.
 old-location: kernel\psgetcurrentthreadteb.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 822B75D4-A825-4BB1-8265-A1389F4982C7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

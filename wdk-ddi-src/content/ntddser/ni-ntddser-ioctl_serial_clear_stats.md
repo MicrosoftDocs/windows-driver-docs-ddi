@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_CLEAR_STATS
 author: windows-driver-content
 description: The IOCTL_SERIAL_CLEAR_STATS request clears the performance statistics for a serial device.
 old-location: serports\ioctl_serial_clear_stats.htm
-old-project: serports
+tech.root: serports
 ms.assetid: b5549ab2-8978-4fe2-ac08-56e28179714e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

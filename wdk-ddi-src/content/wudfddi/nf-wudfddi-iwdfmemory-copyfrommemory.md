@@ -4,7 +4,7 @@ title: IWDFMemory::CopyFromMemory
 author: windows-driver-content
 description: The CopyFromMemory method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
 old-location: wdf\iwdfmemory_copyfrommemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

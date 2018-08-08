@@ -4,7 +4,7 @@ title: IOCTL_UMDF_HID_GET_INPUT_REPORT
 author: windows-driver-content
 description: The IOCTL_UMDF_HID_GET_INPUT_REPORT control code returns an input report from a HIDClass device.
 old-location: hid\ioctl_umdf_hid_get_input_report.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 05BA5290-33D5-4009-98EE-E530546C44D3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

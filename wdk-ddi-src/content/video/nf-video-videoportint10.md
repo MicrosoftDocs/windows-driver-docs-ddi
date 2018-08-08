@@ -4,10 +4,10 @@ title: VideoPortInt10 function
 author: windows-driver-content
 description: The VideoPortInt10 function performs the equivalent of an MS-DOS INT10 operation, such as setting the video mode. VideoPortInt10 runs the BIOS ROM code on the device.
 old-location: display\videoportint10.htm
-old-project: display
+tech.root: display
 ms.assetid: 5743d84c-6132-4058-b517-250b5de9a6b5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortInt10, VideoPortInt10 function [Display Devices], VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, display.videoportint10, video/VideoPortInt10
 ms.prod: windows-hardware
 ms.technology: windows-devices

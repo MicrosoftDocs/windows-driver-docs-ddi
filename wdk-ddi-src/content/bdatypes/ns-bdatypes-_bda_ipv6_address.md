@@ -4,7 +4,7 @@ title: "_BDA_IPv6_ADDRESS"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_ipv6_address.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 50D52380-1FBE-4046-A7DC-8415501D7FA6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: PFND3DDDI_COMPOSERECTS
 author: windows-driver-content
 description: The ComposeRects function composes two-dimensional areas from a source surface to a destination surface.
 old-location: display\composerects.htm
-old-project: display
+tech.root: display
 ms.assetid: b6a6b549-7590-4b27-b759-631fa62a76d2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, PFND3DDDI_COMPOSERECTS callback, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
 ms.prod: windows-hardware
 ms.technology: windows-devices

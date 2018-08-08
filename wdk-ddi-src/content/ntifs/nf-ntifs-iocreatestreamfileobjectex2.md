@@ -4,7 +4,7 @@ title: IoCreateStreamFileObjectEx2 function
 author: windows-driver-content
 description: The IoCreateStreamFileObjectEx2 routine creates a new stream file object with create options for a target device object.
 old-location: ifsk\iocreatestreamfileobjectex2.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

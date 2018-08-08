@@ -8,6 +8,8 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: kernel
 ---
 
@@ -16,7 +18,6 @@ tech.root: kernel
 
 ## -description
 
-
-This header is used by kernel. For more information, see:
+This header defines the change buffering state requests related data structures in RDBSS. For information about the programming interfaces, see the header comments.
 
 - [Windows kernel](../_kernel/index.md)

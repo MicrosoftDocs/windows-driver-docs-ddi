@@ -4,10 +4,10 @@ title: DXGKDDI_ACQUIRESWIZZLINGRANGE
 author: windows-driver-content
 description: The DxgkDdiAcquireSwizzlingRange function makes an allocation accessible through the central processing unit (CPU) aperture for the given segment.
 old-location: display\dxgkddiacquireswizzlingrange.htm
-old-project: display
+tech.root: display
 ms.assetid: f861e055-70db-4e0a-9c62-87e2d41f92ae
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_ACQUIRESWIZZLINGRANGE, DXGKDDI_ACQUIRESWIZZLINGRANGE callback, DmFunctions_6dd5b0ee-666c-45bf-ae39-05e37d74c137.xml, DxgkDdiAcquireSwizzlingRange, DxgkDdiAcquireSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiAcquireSwizzlingRange, display.dxgkddiacquireswizzlingrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

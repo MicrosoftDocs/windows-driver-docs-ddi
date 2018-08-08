@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_COORDINATED_STATES"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_COORDINATED_STATES structure contains information about each coordinated idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_ppm_query_coordinated_states.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9C7E41E8-AFB4-4421-8773-EBDA5F779364
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

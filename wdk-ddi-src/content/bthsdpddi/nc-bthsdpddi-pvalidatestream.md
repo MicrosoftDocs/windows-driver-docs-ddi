@@ -4,7 +4,7 @@ title: PVALIDATESTREAM
 author: windows-driver-content
 description: The Bluetooth SdpValidateStream function is used to parse a raw SDP record and determine if it contains errors.
 old-location: bltooth\sdpvalidatestream.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

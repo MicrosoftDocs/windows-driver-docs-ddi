@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_COMMAND"
 author: windows-driver-content
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
 old-location: storage\storage_protocol_command.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

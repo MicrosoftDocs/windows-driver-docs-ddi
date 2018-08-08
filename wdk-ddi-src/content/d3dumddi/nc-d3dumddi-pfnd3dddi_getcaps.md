@@ -4,10 +4,10 @@ title: PFND3DDDI_GETCAPS
 author: windows-driver-content
 description: The GetCaps function queries for capabilities of the graphics adapter.
 old-location: display\getcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3DDDI_GETCAPS, PFND3DDDI_GETCAPS callback, UserModeDisplayDriver_Functions_2848e873-69ef-4b77-b8bc-8ae9f4abe2c9.xml, d3dumddi/GetCaps, display.getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

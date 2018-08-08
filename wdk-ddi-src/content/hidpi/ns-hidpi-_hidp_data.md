@@ -4,7 +4,7 @@ title: "_HIDP_DATA"
 author: windows-driver-content
 description: The HIDP_DATA structure contains information about a HID control's data index and value in a HID report.
 old-location: hid\hidp_data.htm
-old-project: hid
+tech.root: hid
 ms.assetid: f48bbf84-027f-4579-b83c-7dfb1cbe6b65
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

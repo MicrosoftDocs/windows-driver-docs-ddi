@@ -3,6 +3,7 @@ UID: NS:ntddvdeo.BRIGHTNESS_NIT_RANGES
 title: BRIGHTNESS_NIT_RANGES
 author: windows-driver-content
 description:
+tech.root: display
 ms.assetid: 6dda258e-6364-4cf3-8ca9-b9adac74c705
 ms.author: windowsdriverdev
 ms.date:
@@ -23,15 +24,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: *PBRIGHTNESS_NIT_RANGES, BRIGHTNESS_NIT_RANGES
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	BRIGHTNESS_NIT_RANGES
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

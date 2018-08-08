@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
 author: windows-driver-content
 description: The IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request retrieves the banded security capabilities for a storage device. The IOCTL returns the capabilities as a BAND_MANAGEMENT_CAPABILITIES structure in the system buffer.
 old-location: storage\ioctl_ehstor_bandmgmt_query_capabilities.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 16D035EF-2234-4D5A-8D19-8CF3BA8B3590
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

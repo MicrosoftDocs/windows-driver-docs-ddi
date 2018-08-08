@@ -4,7 +4,7 @@ title: "_SetGenerationalGuid_IN"
 author: windows-driver-content
 description: The SetGenerationalGuid_IN structure holds the input data for the SetGenerationalGuid method.
 old-location: storage\setgenerationalguid_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

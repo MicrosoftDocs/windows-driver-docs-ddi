@@ -36,7 +36,8 @@ apilocation:
 -	netrxqueue.h
 apiname: 
 -	EVT_RXQUEUE_SET_NOTIFICATION_ENABLED
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.product: Windows 10 or later.
 ---

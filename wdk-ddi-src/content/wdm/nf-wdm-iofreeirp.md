@@ -4,7 +4,7 @@ title: IoFreeIrp function
 author: windows-driver-content
 description: The IoFreeIrp routine releases a caller-allocated IRP from the caller's IoCompletion routine.
 old-location: kernel\iofreeirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4a032d44-c6c2-4dce-97ea-28ac47f6ad6c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

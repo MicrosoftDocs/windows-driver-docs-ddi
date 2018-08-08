@@ -4,7 +4,7 @@ title: WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function
 author: windows-driver-content
 description: The WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified buffer.
 old-location: wdf\wdf_memory_descriptor_init_buffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 16e1b0cb-8543-4700-8f8c-d7301c6de622
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

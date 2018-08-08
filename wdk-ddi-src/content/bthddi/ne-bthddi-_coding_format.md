@@ -4,7 +4,7 @@ title: "_CODING_FORMAT"
 author: windows-driver-content
 description: This enumeration is for internal use only.
 old-location: bltooth\coding_format.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 3A97BBAF-47B0-4987-B5EC-2B3A40F2B42D
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

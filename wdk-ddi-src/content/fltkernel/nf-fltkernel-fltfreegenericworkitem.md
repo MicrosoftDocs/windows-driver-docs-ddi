@@ -4,7 +4,7 @@ title: FltFreeGenericWorkItem function
 author: windows-driver-content
 description: The FltFreeGenericWorkItem routine frees a work item allocated by the FltAllocateGenericWorkItem routine.
 old-location: ifsk\fltfreegenericworkitem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6675d529-10de-4c39-999c-4c18471ea6e0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

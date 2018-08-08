@@ -4,7 +4,7 @@ title: RtlAreBitsClear function
 author: windows-driver-content
 description: The RtlAreBitsClear routine determines whether a given range of bits within a bitmap variable is clear.
 old-location: kernel\rtlarebitsclear.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f4092f06-3ed7-4153-8498-0fdfac958a1e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

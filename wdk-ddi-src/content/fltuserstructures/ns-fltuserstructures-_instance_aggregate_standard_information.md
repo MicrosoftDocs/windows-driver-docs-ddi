@@ -4,7 +4,7 @@ title: "_INSTANCE_AGGREGATE_STANDARD_INFORMATION"
 author: windows-driver-content
 description: The caller-allocated INSTANCE_AGGREGATE_STANDARD_INFORMATION structure contains information for either a minifilter driver instance or a legacy filter driver.
 old-location: ifsk\instance_aggregate_standard_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 35311ee7-d023-4b04-b510-a949ab9a40ca
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

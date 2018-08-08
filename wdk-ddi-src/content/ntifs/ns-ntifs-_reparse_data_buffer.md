@@ -4,7 +4,7 @@ title: "_REPARSE_DATA_BUFFER"
 author: windows-driver-content
 description: The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point.
 old-location: ifsk\reparse_data_buffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e906a874-51f1-4623-8f0b-afdfd8169ab2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

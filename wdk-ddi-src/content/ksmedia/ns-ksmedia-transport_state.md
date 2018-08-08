@@ -4,7 +4,7 @@ title: TRANSPORT_STATE
 author: windows-driver-content
 description: The TRANSPORT_STATE structure
 old-location: stream\transport_state.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 373fb91d-e469-4136-b2e3-bf57016c0fd6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

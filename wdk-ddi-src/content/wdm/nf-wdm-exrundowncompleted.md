@@ -4,7 +4,7 @@ title: ExRundownCompleted function
 author: windows-driver-content
 description: The ExRundownCompleted routine updates the run-down status of a shared object to indicate that the run down of the object has completed.
 old-location: kernel\exrundowncompleted.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME"
 author: windows-driver-content
 description: The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
 old-location: kernel\pep_query_soc_subsystem_blocking_time.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 54A2D89F-FCD0-4F91-8D0E-181F63790C89
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

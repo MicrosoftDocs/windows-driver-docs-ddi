@@ -4,7 +4,7 @@ title: IPartBase::GetPartCompression
 author: windows-driver-content
 description: The GetPartCompression method gets the compression of the part.
 old-location: print\ipartbase_getpartcompression.htm
-old-project: print
+tech.root: print
 ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

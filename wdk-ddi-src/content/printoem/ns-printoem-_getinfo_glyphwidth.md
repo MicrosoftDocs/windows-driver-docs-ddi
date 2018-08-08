@@ -4,7 +4,7 @@ title: "_GETINFO_GLYPHWIDTH"
 author: windows-driver-content
 description: The GETINFO_GLYPHWIDTH structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphwidth.htm
-old-project: print
+tech.root: print
 ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

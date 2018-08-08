@@ -4,7 +4,7 @@ title: "_REPORT_ZONES_EXT_DATA"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_ext_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

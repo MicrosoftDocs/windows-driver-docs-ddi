@@ -4,7 +4,7 @@ title: PoUnregisterSystemState function
 author: windows-driver-content
 description: The PoUnregisterSystemState routine cancels a system state registration created by PoRegisterSystemState.
 old-location: kernel\pounregistersystemstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

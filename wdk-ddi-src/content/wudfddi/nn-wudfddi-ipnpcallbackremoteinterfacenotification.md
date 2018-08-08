@@ -4,7 +4,7 @@ title: IPnpCallbackRemoteInterfaceNotification
 author: windows-driver-content
 description: A driver's IPnpCallbackRemoteInterfaceNotification interface provides a callback function that the framework calls to notify the driver when a device interface becomes available.
 old-location: wdf\ipnpcallbackremoteinterfacenotification.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 99d670dd-2358-4f1a-b111-72484bf3132c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

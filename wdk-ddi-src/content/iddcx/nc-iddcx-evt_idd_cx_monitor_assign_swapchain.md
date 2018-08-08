@@ -4,10 +4,10 @@ title: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
 author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN is called by the OS to inform the driver of a mode change for monitors on the adapter.
 old-location: display\evt_idd_cx_monitor_assign_swapchain.htm
-old-project: display
+tech.root: display
 ms.assetid: ae3b4101-d006-48ad-91c9-d9b3ee9a4674
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback, EvtIddCxMonitorAssignSwapchain, EvtIddCxMonitorAssignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_assign_swapchain, iddcx/EvtIddCxMonitorAssignSwapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices

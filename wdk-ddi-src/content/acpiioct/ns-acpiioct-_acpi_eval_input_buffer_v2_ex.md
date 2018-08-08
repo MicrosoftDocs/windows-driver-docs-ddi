@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_V2_EX"
 author: windows-driver-content
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_V2_EX structure.
 old-location: acpi\acpi_eval_input_buffer_v2_ex.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 5086CA33-58B0-4F3A-9AE4-428CCE6EFB6B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

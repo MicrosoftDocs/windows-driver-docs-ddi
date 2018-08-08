@@ -4,7 +4,7 @@ title: tagKSCAMERA_METADATA_PHOTOCONFIRMATION
 author: windows-driver-content
 description: This structure contains the photo confirmation metadata information that is filled by the camera driver.
 old-location: stream\kscamera_metadata_photoconfirmation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: FA3365DC-B604-468E-AACD-AC006D2B4EAF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

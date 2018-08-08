@@ -4,7 +4,7 @@ title: IWDFRemoteTarget::OpenRemoteInterface
 author: windows-driver-content
 description: The OpenRemoteInterface method opens a device interface so that the driver can send I/O requests to it.
 old-location: wdf\iwdfremotetarget_openremoteinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

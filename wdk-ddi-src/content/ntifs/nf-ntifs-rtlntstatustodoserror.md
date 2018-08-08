@@ -4,7 +4,7 @@ title: RtlNtStatusToDosError function
 author: windows-driver-content
 description: The RtlNtStatusToDosError routine converts the specified NTSTATUS code to its equivalent system error code.
 old-location: ifsk\rtlntstatustodoserror.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9ba6f693-b0b7-4176-b951-7bb259bec391
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

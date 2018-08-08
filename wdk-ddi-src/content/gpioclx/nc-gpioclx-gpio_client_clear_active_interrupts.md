@@ -4,7 +4,7 @@ title: GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS
 author: windows-driver-content
 description: The CLIENT_ClearActiveInterrupts event callback function clears active interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 old-location: gpio\client_clearactiveinterrupts.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 8D66F806-92BA-4A70-99F6-1C221E8752A3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

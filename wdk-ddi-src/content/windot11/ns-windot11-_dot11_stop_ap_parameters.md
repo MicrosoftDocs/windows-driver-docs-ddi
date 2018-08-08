@@ -4,7 +4,7 @@ title: "_DOT11_STOP_AP_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_stop_ap_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a9dfb490-425a-4011-a008-ab1597f53b85
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,11 +74,11 @@ typedef struct _DOT11_STOP_AP_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the DOT11_STOP_AP_PARAMETERS structure. This member is formatted
-     as an 
+     as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -99,17 +99,17 @@ This member must be set to DOT11_STOP_AP_PARAMETERS_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        sizeof(DOT11_STOP_AP_PARAMETERS).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ulReason
 
 The reason why the NIC stopped the AP. An IHV can supply the following range of values:
-     
+
 
 
 
@@ -144,7 +144,7 @@ The end value of possible IHV-specified reasons.
 
 The start value of possible IHV-specified reasons.
 
-If the value of 
+If the value of
      <b>ulReason</b> is in the range of DOT11_STOP_AP_REASON_IHV_START and DOT11_STOP_AP_REASON_IHV_END,
      inclusive, the operating system takes no action.
 
@@ -154,7 +154,7 @@ If the value of
 
 
 The Native 802.11 miniport driver includes a DOT11_STOP_AP_PARAMETERS structure when the driver makes
-    an 
+    an
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567366">NDIS_STATUS_DOT11_STOP_AP</a> status
     indication.
 

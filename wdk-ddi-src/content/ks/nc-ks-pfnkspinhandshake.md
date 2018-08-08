@@ -4,7 +4,7 @@ title: PFNKSPINHANDSHAKE
 author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniPinHandshake routine is called when AVStream receives a protocol handshake request that it does not handle.
 old-location: stream\avstrminipinhandshake.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cebeceb1-f845-42cf-9a8b-3414e4a420b6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

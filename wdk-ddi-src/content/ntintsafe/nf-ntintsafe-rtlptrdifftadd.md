@@ -4,7 +4,7 @@ title: RtlPtrdiffTAdd function
 author: windows-driver-content
 description: Adds two values of type PTRDIFF_T.
 old-location: kernel\rtlptrdifftadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3B4C0CF0-8153-446E-A834-C1FE28651718
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

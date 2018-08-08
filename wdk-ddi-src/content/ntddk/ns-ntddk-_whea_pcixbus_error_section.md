@@ -4,7 +4,7 @@ title: "_WHEA_PCIXBUS_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_PCIXBUS_ERROR_SECTION structure describes PCI or PCI-X bus error data.
 old-location: whea\whea_pcixbus_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: f79071e3-7146-49c4-a730-ee13fde4f0d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

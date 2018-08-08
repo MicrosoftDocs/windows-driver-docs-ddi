@@ -4,7 +4,7 @@ title: PPUT_SCATTER_GATHER_LIST
 author: windows-driver-content
 description: The PutScatterGatherList routine frees the previously allocated map registers and scatter/gather list used in scatter/gather DMA.
 old-location: kernel\putscattergatherlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e10091c0-0da6-4acd-8104-9d353262836a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

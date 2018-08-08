@@ -4,10 +4,10 @@ title: IDebugClient5::SetOutputCallbacksWide
 author: windows-driver-content
 description: The SetOutputCallbacksWide method registers an output callbacks object with this client.
 old-location: debugger\setoutputcallbackswide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: cd6f68b2-2a62-4607-8c70-11a94fd75ecb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetOutputCallbacksWide method, IDebugClient5.SetOutputCallbacksWide, IDebugClient5::SetOutputCallbacksWide, SetOutputCallbacksWide, SetOutputCallbacksWide method [Windows Debugging], SetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputCallbacksWide, debugger.setoutputcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices

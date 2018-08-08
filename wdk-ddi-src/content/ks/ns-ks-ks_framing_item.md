@@ -4,7 +4,7 @@ title: KS_FRAMING_ITEM
 author: windows-driver-content
 description: The KS_FRAMING_ITEM structure is used to declare allocator requirements on a kernel-mode pin.
 old-location: stream\ks_framing_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

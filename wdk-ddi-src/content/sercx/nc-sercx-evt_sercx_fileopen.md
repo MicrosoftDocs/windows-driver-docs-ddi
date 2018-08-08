@@ -4,7 +4,7 @@ title: EVT_SERCX_FILEOPEN
 author: windows-driver-content
 description: The EvtSerCxFileOpen event callback function notifies the serial controller driver that a client opened a file handle on the serial controller device and that a file object has been created to represent the device.
 old-location: serports\evtsercxfileopen.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 90D08857-69E0-4DD9-9588-86900466E8DE
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

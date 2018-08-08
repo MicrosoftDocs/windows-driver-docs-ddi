@@ -4,7 +4,7 @@ title: IKsAllocatorEx::KsSetAllocatorHandle
 author: windows-driver-content
 description: Sets the handle for an allocator.
 old-location: stream\iksallocatorex_kssetallocatorhandle.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E259B3D0-7536-4287-A7A2-367407D97F33
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

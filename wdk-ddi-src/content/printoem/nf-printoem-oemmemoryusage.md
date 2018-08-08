@@ -4,7 +4,7 @@ title: OEMMemoryUsage function
 author: windows-driver-content
 description: This function is obsolete for Windows XP and later.wcs
 old-location: print\oemmemoryusage__function_.htm
-old-project: print
+tech.root: print
 ms.assetid: ae78fc9a-06a2-466f-875c-9c35aec13336
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

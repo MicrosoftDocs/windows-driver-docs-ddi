@@ -4,7 +4,7 @@ title: IKsPin::KsQueryInterfaces
 author: windows-driver-content
 description: The KsQueryInterfaces method retrieves interfaces that a pin supports.
 old-location: stream\ikspin_ksqueryinterfaces.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

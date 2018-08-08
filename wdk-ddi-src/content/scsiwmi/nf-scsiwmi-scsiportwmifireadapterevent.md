@@ -4,7 +4,7 @@ title: ScsiPortWmiFireAdapterEvent macro
 author: windows-driver-content
 description: The ScsiPortWmiFireAdapterEvent routine sends an event associated with an adapter unit to the port driver for delivery to WMI data consumers that have requested notification of the event.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportwmifireadapterevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cb48d1a3-65ef-49f7-b6e5-b3dabf989779
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

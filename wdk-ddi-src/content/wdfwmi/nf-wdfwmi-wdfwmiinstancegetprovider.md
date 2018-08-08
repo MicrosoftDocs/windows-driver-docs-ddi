@@ -4,7 +4,7 @@ title: WdfWmiInstanceGetProvider function
 author: windows-driver-content
 description: The WdfWmiInstanceGetProvider method returns a handle to the WMI provider object that is the parent object of a specified WMI instance object.
 old-location: wdf\wdfwmiinstancegetprovider.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e0371aeb-fcc0-4749-b70e-26b05b4f12b2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

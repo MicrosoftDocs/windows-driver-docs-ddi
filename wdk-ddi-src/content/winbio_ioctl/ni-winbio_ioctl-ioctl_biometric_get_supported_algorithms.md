@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL retrieves a list of cryptographic hash algorithms that are supported by the device. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_get_supported_algorithms.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 0bc373a8-af60-419a-88e1-58888b88f24d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,7 +4,7 @@ title: FltQueryVolumeInformation function
 author: windows-driver-content
 description: The FltQueryVolumeInformation routine retrieves information about the volume that the given instance is attached to.
 old-location: ifsk\fltqueryvolumeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 57b65e87-7f2d-44fc-84b9-e029c8075be3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

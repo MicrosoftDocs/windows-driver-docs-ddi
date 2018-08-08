@@ -4,7 +4,7 @@ title: FltSupportsFileContexts function
 author: windows-driver-content
 description: The FltSupportsFileContexts routine determines whether the file system supports file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 968c2c6d-3544-45e7-b852-740fa4930349
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

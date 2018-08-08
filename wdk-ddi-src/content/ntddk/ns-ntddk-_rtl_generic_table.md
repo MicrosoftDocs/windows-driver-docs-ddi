@@ -4,7 +4,7 @@ title: "_RTL_GENERIC_TABLE"
 author: windows-driver-content
 description: The RTL_GENERIC_TABLE structure contains file system-specific data for a splay tree.
 old-location: ifsk\rtl_generic_table.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0e5dba1b-8b0d-470a-8ead-4c022e9da7fe
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

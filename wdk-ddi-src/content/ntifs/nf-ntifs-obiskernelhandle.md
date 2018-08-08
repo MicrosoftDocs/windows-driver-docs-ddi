@@ -4,7 +4,7 @@ title: ObIsKernelHandle function
 author: windows-driver-content
 description: The ObIsKernelHandle routine determines whether the specified handle is a kernel handle.
 old-location: ifsk\obiskernelhandle.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8ebc3b7f-5b4b-4e92-95fe-1918b51d27ad
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

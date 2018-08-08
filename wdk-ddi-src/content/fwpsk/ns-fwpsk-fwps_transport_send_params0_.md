@@ -4,10 +4,10 @@ title: FWPS_TRANSPORT_SEND_PARAMS0_
 author: windows-driver-content
 description: The FWPS_TRANSPORT_SEND_PARAMS0 structure defines properties of an outbound transport layer packet.Note  FWPS_TRANSPORT_SEND_PARAMS0 is the specific version of FWPS_TRANSPORT_SEND_PARAMS used in Windows Vista and later.
 old-location: netvista\fwps_transport_send_params0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 32320f33-2fa8-410b-9aa8-312c2e0da693
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_TRANSPORT_SEND_PARAMS0, FWPS_TRANSPORT_SEND_PARAMS0 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS0_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS0, netvista.fwps_transport_send_params0, wfp_ref_3_struct_3_fwps_P-Z_31508fdc-7a5c-4b77-9f71-3fe5d8b99c69.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

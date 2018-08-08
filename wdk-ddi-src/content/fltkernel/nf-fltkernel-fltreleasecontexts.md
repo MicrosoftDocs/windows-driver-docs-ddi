@@ -4,7 +4,7 @@ title: FltReleaseContexts function
 author: windows-driver-content
 description: FltReleaseContexts releases each context in a given FLT_RELATED_CONTEXTS structure.
 old-location: ifsk\fltreleasecontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9b6a28ad-f86c-475b-adee-8d2d8b2d6d61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_DVD_REGION"
 author: windows-driver-content
 description: The DVD_REGION structure is used in conjunction with the IOCTL_DVD_GET_REGION request to retrieve region playback control (RPC) information for a DVD device.
 old-location: storage\dvd_region.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

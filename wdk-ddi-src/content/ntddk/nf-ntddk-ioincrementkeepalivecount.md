@@ -4,7 +4,7 @@ title: IoIncrementKeepAliveCount function
 author: windows-driver-content
 description: The IoIncrementKeepAliveCount routine increments a reference count associated with an Windows app process on a specific device.
 old-location: kernel\ioincrementkeepalivecount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A80754BD-0F23-4EE9-898F-30743AA82C72
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

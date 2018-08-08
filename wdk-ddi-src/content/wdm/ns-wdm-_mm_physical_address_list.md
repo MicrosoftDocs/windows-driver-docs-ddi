@@ -4,7 +4,7 @@ title: "_MM_PHYSICAL_ADDRESS_LIST"
 author: windows-driver-content
 description: The MM_PHYSICAL_ADDRESS_LIST structure specifies a range of physical addresses.
 old-location: kernel\mm_physical_address_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D653607A-7C37-408D-AD19-B4A8988CDACE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

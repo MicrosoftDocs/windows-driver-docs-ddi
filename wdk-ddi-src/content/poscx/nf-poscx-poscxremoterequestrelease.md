@@ -4,7 +4,7 @@ title: PosCxRemoteRequestRelease function
 author: windows-driver-content
 description: PosCxRemoteRequestRelease is called whenever a remote device asks for the device to release. This initiates claim negotiation.
 old-location: pos\poscxremoterequestrelease.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 1755E30C-15F8-41A9-9F4C-26455C92B66A
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

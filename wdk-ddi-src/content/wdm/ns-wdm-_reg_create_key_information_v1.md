@@ -4,7 +4,7 @@ title: "_REG_CREATE_KEY_INFORMATION_V1"
 author: windows-driver-content
 description: The REG_CREATE_KEY_INFORMATION_V1 structure contains information that a filter driver's RegistryCallback routine can use when a registry key is being created.
 old-location: kernel\reg_create_key_information_v1.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d81dd8db-9074-43ea-a7bd-e83bd205c564
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

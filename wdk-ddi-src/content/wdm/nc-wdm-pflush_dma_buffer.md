@@ -35,7 +35,8 @@ api_location:
 api_name: 
 -	PFLUSH_DMA_BUFFER
 -   FlushDmaBuffer
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

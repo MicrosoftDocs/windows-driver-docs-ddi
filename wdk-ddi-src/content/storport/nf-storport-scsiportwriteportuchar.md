@@ -4,7 +4,7 @@ title: ScsiPortWritePortUchar macro
 author: windows-driver-content
 description: The ScsiPortWritePortUchar routine transfers an unsigned byte to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: aba28a55-d7bc-4f75-ac87-4148cb1b4cfb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: LOGINSESSIONTYPE
 author: windows-driver-content
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 old-location: storage\loginsessiontype.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

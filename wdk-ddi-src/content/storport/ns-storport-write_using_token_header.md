@@ -4,7 +4,7 @@ title: WRITE_USING_TOKEN_HEADER
 author: windows-driver-content
 description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

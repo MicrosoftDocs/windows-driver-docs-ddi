@@ -4,7 +4,7 @@ title: "_DEVICE_POWER_DESCRIPTOR"
 author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to describes the power capabilities of a storage device.
 old-location: storage\device_power_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

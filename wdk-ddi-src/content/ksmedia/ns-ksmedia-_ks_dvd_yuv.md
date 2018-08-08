@@ -4,7 +4,7 @@ title: "_KS_DVD_YUV"
 author: windows-driver-content
 description: The KS_DVD_YUV structure is used to describe a color in the YUV colorspace.
 old-location: stream\ks_dvd_yuv.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9b155d09-6fb2-4c6c-bde6-7eadeb09bc40
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

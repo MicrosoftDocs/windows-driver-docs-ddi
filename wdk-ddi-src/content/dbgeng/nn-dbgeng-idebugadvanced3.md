@@ -4,10 +4,10 @@ title: IDebugAdvanced3
 author: windows-driver-content
 description: IDebugAdvanced3 interface
 old-location: debugger\idebugadvanced3.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: f0226d35-f7a9-4220-be91-afb6d0debd36
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging],described, dbgeng/IDebugAdvanced3, debugger.idebugadvanced3
 ms.prod: windows-hardware
 ms.technology: windows-devices

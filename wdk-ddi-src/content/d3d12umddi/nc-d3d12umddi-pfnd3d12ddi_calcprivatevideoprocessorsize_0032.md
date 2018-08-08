@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032
 author: windows-driver-content
 description: Used to calculate the size of a video processor.
 old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize_0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 7CE581B5-A6B5-4108-A678-554221386636
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

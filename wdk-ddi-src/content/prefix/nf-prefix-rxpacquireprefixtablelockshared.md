@@ -4,7 +4,7 @@ title: RxpAcquirePrefixTableLockShared function
 author: windows-driver-content
 description: RxpAcquirePrefixTableLockShared acquires the prefix table lock shared.
 old-location: ifsk\rxpacquireprefixtablelockshared.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 89924d1d-80c2-4778-9647-c3add9e7d013
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

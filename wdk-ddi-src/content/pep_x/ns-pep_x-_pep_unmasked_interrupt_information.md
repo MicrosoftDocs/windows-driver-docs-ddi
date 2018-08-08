@@ -4,7 +4,7 @@ title: "_PEP_UNMASKED_INTERRUPT_INFORMATION"
 author: windows-driver-content
 description: The PEP_UNMASKED_INTERRUPT_INFORMATION structure contains information about an interrupt source.
 old-location: kernel\pep_unmasked_interrupt_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1DD9A0A2-7D19-419A-8653-C16FDB28299E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

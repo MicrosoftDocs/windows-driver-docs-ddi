@@ -4,7 +4,7 @@ title: KsGetFilterFromIrp function
 author: windows-driver-content
 description: The KsGetFilterFromIrp function returns the AVStream filter object associated with a given IRP.
 old-location: stream\ksgetfilterfromirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 00c90dbf-bb44-4cba-97b3-170765a2eba7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

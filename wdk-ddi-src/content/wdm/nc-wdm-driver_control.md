@@ -4,7 +4,7 @@ title: DRIVER_CONTROL
 author: windows-driver-content
 description: This routine starts a DMA data-transfer or a data transfer operation.
 old-location: kernel\adaptercontrol.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b75b8937-793d-4d75-9bb7-2226096044f0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

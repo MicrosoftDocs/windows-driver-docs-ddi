@@ -4,7 +4,7 @@ title: FltInitializeOplock function
 author: windows-driver-content
 description: The FltInitializeOplock routine initializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fltinitializeoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9878f614-89dc-4b23-8095-2a8c2b80c79d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

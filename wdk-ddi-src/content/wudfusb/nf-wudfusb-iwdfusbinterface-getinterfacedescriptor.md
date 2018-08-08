@@ -4,7 +4,7 @@ title: IWDFUsbInterface::GetInterfaceDescriptor
 author: windows-driver-content
 description: The GetInterfaceDescriptor method retrieves a descriptor for a USB interface.
 old-location: wdf\iwdfusbinterface_getinterfacedescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ae4cffc8-65db-452c-9b85-19752c32c421
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

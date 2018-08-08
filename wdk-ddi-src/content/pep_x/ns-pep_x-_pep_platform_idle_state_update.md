@@ -4,7 +4,7 @@ title: "_PEP_PLATFORM_IDLE_STATE_UPDATE"
 author: windows-driver-content
 description: The PEP_PLATFORM_IDLE_STATE_UPDATE structure contains the updated properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state_update.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 488DA7B7-FB11-4AEF-902C-E461A281DF68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

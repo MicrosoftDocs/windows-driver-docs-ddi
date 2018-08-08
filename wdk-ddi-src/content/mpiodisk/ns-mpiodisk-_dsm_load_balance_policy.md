@@ -4,7 +4,7 @@ title: "_DSM_Load_Balance_Policy"
 author: windows-driver-content
 description: The DSM_Load_Balance_Policy structure is used to represent a load balance policy that is applied to a LUN.
 old-location: storage\dsm_load_balance_policy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4338e496-99e8-47d2-ba97-ce661c9cb025
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

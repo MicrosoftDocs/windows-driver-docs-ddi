@@ -4,7 +4,7 @@ title: WdfPdoUpdateAddressDescription function
 author: windows-driver-content
 description: The WdfPdoUpdateAddressDescription method updates the address description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoupdateaddressdescription.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

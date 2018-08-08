@@ -4,7 +4,7 @@ title: "_OEM_DMEXTRAHEADER"
 author: windows-driver-content
 description: The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private DEVMODEW structure members.
 old-location: print\oem_dmextraheader.htm
-old-project: print
+tech.root: print
 ms.assetid: fecefdbc-3036-4991-900c-203ae8be254b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

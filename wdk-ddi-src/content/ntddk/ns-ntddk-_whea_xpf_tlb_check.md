@@ -4,7 +4,7 @@ title: "_WHEA_XPF_TLB_CHECK"
 author: windows-driver-content
 description: The WHEA_XPF_TLB_CHECK union describes translation lookaside buffer (TLB) error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_tlb_check.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 3943c854-3bb9-4fc9-9af9-735c3f4ee94e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,7 +4,7 @@ title: InitializeListHead function
 author: windows-driver-content
 description: The InitializeListHead routine initializes a LIST_ENTRY structure that represents the head of a doubly linked list.
 old-location: kernel\initializelisthead.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 123434fd-4e83-4042-834b-1eb4cf13dd10
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

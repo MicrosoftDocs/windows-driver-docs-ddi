@@ -4,7 +4,7 @@ title: IPrinterScriptablePropertyBag::GetInt32
 author: windows-driver-content
 description: Gets an integer property.
 old-location: print\iprinterscriptablepropertybag_getint32.htm
-old-project: print
+tech.root: print
 ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

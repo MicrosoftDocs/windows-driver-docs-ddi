@@ -4,10 +4,10 @@ title: DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO
 author: windows-driver-content
 description: The pfnAcquireFirstDescriptorInfo function returns the first descriptor in a monitor descriptor set object.
 old-location: display\dxgk_monitordescriptorset_interface_pfnacquirefirstdescriptorinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 228f6947-a7e5-4b76-8224-fac6889fc77a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO callback, VidPnFunctions_fae7b938-60d5-41c0-92a8-9381e67aa411.xml, d3dkmddi/pfnAcquireFirstDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnacquirefirstdescriptorinfo, pfnAcquireFirstDescriptorInfo, pfnAcquireFirstDescriptorInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_SM_SendRPS_OUT"
 author: windows-driver-content
 description: The SM_SendRPS_OUT structure is used to receive output parameters from the SM_SendRPS method.
 old-location: storage\sm_sendrps_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e202a292-df26-4829-be51-b8427d2dee20
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

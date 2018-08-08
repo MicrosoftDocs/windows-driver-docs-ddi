@@ -4,7 +4,7 @@ title: SeTokenIsAdmin function
 author: windows-driver-content
 description: The SeTokenIsAdmin routine determines whether a token contains the local administrators group.
 old-location: ifsk\setokenisadmin.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7d0a5d28-175a-44a7-888f-d11dc3f55904
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

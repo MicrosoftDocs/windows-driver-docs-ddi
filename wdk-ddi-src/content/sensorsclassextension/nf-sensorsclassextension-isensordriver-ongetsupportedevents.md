@@ -4,10 +4,10 @@ title: ISensorDriver::OnGetSupportedEvents
 author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedEvents method retrieves the list of events that the specified sensor can raise.
 old-location: sensors\isensordriver_ongetsupportedevents.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: b323f803-56fb-44db-9b88-be25062c08ff
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedEvents method, ISensorDriver.OnGetSupportedEvents, ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], OnGetSupportedEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedevents, sensorsclassextension/ISensorDriver::OnGetSupportedEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

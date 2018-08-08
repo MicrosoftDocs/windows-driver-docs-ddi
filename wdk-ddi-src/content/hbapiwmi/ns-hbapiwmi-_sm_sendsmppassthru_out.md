@@ -4,7 +4,7 @@ title: "_SM_SendSMPPassThru_OUT"
 author: windows-driver-content
 description: The SM_SendSMPPassThru_OUT structure is used to receive output parameters from the SM_SendSMPPassThru method.
 old-location: storage\sm_sendsmppassthru_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: eb173171-3990-405e-b740-8c1a0c915165
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

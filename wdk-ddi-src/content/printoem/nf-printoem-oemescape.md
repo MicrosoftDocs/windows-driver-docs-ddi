@@ -4,7 +4,7 @@ title: OEMEscape function
 author: windows-driver-content
 description: The OEMEscape function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.
 old-location: print\oemescape.htm
-old-project: print
+tech.root: print
 ms.assetid: 3acc1c1f-5696-4297-a34e-047e402dbdcb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IPartFont2
 author: windows-driver-content
 description: "."
 old-location: print\ipartfont2.htm
-old-project: print
+tech.root: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

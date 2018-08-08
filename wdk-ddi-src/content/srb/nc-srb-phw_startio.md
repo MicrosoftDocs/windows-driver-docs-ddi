@@ -4,7 +4,7 @@ title: PHW_STARTIO
 author: windows-driver-content
 description: The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
 old-location: storage\phw_startio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1b177ef5-2b58-425e-9b9a-428bbe15de69
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
+The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The PHW_INITIALIZE routine prototype declares a routine that initializes the min
 
 ### -param DeviceExtension [in]
 
-Pointer to the miniport driver's per-HBA storage area. 
+Pointer to the miniport driver's per-HBA storage area.
 
 
 ### -param Srb [in]
 
-Pointer to the SCSI request block to be started. 
+Pointer to the SCSI request block to be started.
 
 
 ## -returns
@@ -82,11 +82,11 @@ The start I/O routine returns <b>TRUE</b> to acknowledge receipt of the SCSI req
 
 
 
-The start routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
+The start routine for both SCSI and StorPort miniport drivers are declared using this prototype.
 
-For more information about the SCSI miniport driver's start I/O routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>. 
+For more information about the SCSI miniport driver's start I/O routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>.
 
-For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>. 
+For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>.
 
 
 

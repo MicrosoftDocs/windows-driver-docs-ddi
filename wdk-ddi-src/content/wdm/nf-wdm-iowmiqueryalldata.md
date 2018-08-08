@@ -4,7 +4,7 @@ title: IoWMIQueryAllData function
 author: windows-driver-content
 description: The IoWMIQueryAllData routine returns all WMI data blocks that implement a given WMI class.
 old-location: kernel\iowmiqueryalldata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d0efae7b-5a53-4f8a-b2d7-c30eefad7c90
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

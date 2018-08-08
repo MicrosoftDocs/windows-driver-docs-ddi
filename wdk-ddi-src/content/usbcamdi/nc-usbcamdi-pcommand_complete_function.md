@@ -4,7 +4,7 @@ title: PCOMMAND_COMPLETE_FUNCTION
 author: windows-driver-content
 description: A camera minidriver's CommandCompleteFunction callback function allows the camera minidriver to perform any additional tasks necessary to complete certain USBCAMD services
 old-location: stream\commandcompletefunction.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f3bce52a-3420-42b6-8026-6731ce541b83
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

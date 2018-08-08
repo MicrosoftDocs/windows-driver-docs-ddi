@@ -4,7 +4,7 @@ title: "_BDA_TEMPLATE_CONNECTION"
 author: windows-driver-content
 description: The BDA_TEMPLATE_CONNECTION structure describes the template for a BDA connection in terms of where it begins and ends.
 old-location: stream\bda_template_connection.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f3b5d06d-0557-49a8-9c0d-be964203108a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

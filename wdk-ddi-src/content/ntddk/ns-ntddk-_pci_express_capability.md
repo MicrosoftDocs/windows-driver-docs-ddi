@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_CAPABILITY"
 author: windows-driver-content
 description: The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability structure.
 old-location: pci\pci_express_capability.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: f1faf319-95de-41f8-b32c-927ff4bb17ea
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -153,17 +153,17 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXP
 
 ### -field DeviceCapabilities2
 
- 
+
 
 
 ### -field DeviceControl2
 
- 
+
 
 
 ### -field DeviceStatus2
 
- 
+
 
 
 

@@ -4,10 +4,10 @@ title: VideoPortGetDmaAdapter function
 author: windows-driver-content
 description: The VideoPortGetDmaAdapter function returns a pointer to a VP_DMA_ADAPTER structure, which is used in subsequent calls to other DMA-related functions.
 old-location: display\videoportgetdmaadapter.htm
-old-project: display
+tech.root: display
 ms.assetid: e28649d3-cb4f-4589-b421-a7cdd9139e4c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices], VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, display.videoportgetdmaadapter, video/VideoPortGetDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

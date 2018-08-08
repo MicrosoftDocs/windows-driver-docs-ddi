@@ -8,6 +8,8 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: kernel
 ---
 
@@ -17,6 +19,12 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header header exposes security routines for kernel-mode  drivers.  They are used to create the device object with a security descriptor.
+Do not use the functions in this header directly, instead use:
 
-- [Windows kernel](../_kernel/index.md)
+- [**IoCreateDeviceSecure**]()
+- [**IoValidateDeviceIoControlAccess**]()
+- [**RtlInitUnicodeString**]()
+
+
+

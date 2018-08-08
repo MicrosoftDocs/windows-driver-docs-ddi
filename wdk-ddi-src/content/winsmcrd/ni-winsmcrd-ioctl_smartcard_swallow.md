@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_SWALLOW
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_SWALLOW request causes the smart card reader to swallow the card.
 old-location: smartcrd\ioctl_smartcard_swallow.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: c229769d-8798-436e-bd26-9dfd507fba9c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

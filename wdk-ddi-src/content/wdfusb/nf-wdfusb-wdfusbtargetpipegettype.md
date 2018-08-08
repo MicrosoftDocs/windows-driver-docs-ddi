@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeGetType function
 author: windows-driver-content
 description: The WdfUsbTargetPipeGetType method returns the type of a specified USB pipe.
 old-location: wdf\wdfusbtargetpipegettype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

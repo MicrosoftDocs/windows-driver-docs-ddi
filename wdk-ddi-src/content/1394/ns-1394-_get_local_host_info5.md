@@ -4,7 +4,7 @@ title: "_GET_LOCAL_HOST_INFO5"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO5 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_HOST_CONFIG_ROM.
 old-location: ieee\get_local_host_info5.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: a0cdf40e-627e-4d39-9c7b-6defcc2f29c3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

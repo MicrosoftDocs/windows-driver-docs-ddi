@@ -4,7 +4,7 @@ title: tagKS_AnalogVideoInfo
 author: windows-driver-content
 description: The KS_ANALOGVIDEOINFO structure describes an analog video stream.
 old-location: stream\ks_analogvideoinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a3562a08-c567-4bb5-9de2-aaa561687b88
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

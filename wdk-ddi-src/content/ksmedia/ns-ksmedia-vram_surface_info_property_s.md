@@ -4,7 +4,7 @@ title: VRAM_SURFACE_INFO_PROPERTY_S
 author: windows-driver-content
 description: The VRAM_SURFACE_INFO_PROPERTY_S structure describes property items in the KSPROPSETID_VramCapture property set.
 old-location: stream\vram_surface_info_property_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9bb24ca3-2684-4873-8136-c560f3374310
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

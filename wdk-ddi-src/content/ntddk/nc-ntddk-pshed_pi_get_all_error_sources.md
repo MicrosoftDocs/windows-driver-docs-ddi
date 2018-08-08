@@ -4,7 +4,7 @@ title: PSHED_PI_GET_ALL_ERROR_SOURCES
 author: windows-driver-content
 description: A PSHED plug-in's GetAllErrorSources callback function returns a list of error source descriptor structures that represents all of the error sources that are implemented by the hardware platform.
 old-location: whea\getallerrorsources.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e9c97f88-aa13-4a3e-9236-c09703d17e4b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

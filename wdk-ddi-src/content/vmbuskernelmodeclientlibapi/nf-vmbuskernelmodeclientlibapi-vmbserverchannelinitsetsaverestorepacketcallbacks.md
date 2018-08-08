@@ -4,10 +4,10 @@ title: VmbServerChannelInitSetSaveRestorePacketCallbacks function
 author: windows-driver-content
 description: The VmbServerChannelInitSetSaveRestorePacketCallbacks function sets the save and restore callback functions that are called for each packet when the driver calls a save function, such as VmbChannelSaveBegin, VmbChannelSaveContinue, and VmbChannelSaveEnd, or the VmbChannelRestoreFromBuffer function.
 old-location: netvista\vmbserverchannelinitsetsaverestorepacketcallbacks.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2E704BF1-21E2-498E-82C2-2B55BF44D044
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: VmbServerChannelInitSetSaveRestorePacketCallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetsaverestorepacketcallbacks, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetSaveRestorePacketCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: HBA_GetPortStatistics function
 author: windows-driver-content
 description: The HBA_GetPortStatistics routine retrieves statistics for the indicated port on the HBA.
 old-location: storage\hba_getportstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 282eccaf-7cb9-4675-9cc3-9261ed1322ca
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

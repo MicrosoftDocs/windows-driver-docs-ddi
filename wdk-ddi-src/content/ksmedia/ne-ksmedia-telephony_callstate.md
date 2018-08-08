@@ -4,10 +4,10 @@ title: TELEPHONY_CALLSTATE
 author: windows-driver-content
 description: The TELEPHONY_CALLSTATE enumeration defines constants that specify the state of a phone call.
 old-location: audio\telephony_callstate.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 8191418A-7139-4BF4-9869-F21AA54EA8B3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: TELEPHONY_CALLSTATE, TELEPHONY_CALLSTATE enumeration [Audio Devices], TELEPHONY_CALLSTATE_DISABLED, TELEPHONY_CALLSTATE_ENABLED, TELEPHONY_CALLSTATE_HOLD, TELEPHONY_CALLSTATE_PROVIDERTRANSITION, audio.telephony_callstate, ksmedia/TELEPHONY_CALLSTATE, ksmedia/TELEPHONY_CALLSTATE_DISABLED, ksmedia/TELEPHONY_CALLSTATE_ENABLED, ksmedia/TELEPHONY_CALLSTATE_HOLD, ksmedia/TELEPHONY_CALLSTATE_PROVIDERTRANSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -34,7 +34,8 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	EVT_NET_ADAPTER_RETURN_RX_BUFFER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: MmLockPagableCodeSection macro
 author: windows-driver-content
 description: The MmLockPagableCodeSection routine locks a section of driver code, containing a set of driver routines marked with a special compiler directive, into system space.
 old-location: kernel\mmlockpagablecodesection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

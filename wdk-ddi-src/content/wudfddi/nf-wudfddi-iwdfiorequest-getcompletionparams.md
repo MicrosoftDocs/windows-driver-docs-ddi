@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetCompletionParams
 author: windows-driver-content
 description: The GetCompletionParams method retrieves the parameters object for the completion of an I/O request object.
 old-location: wdf\iwdfiorequest_getcompletionparams.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aaca14ff-9ea2-43f4-bfa9-9151d855c3af
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

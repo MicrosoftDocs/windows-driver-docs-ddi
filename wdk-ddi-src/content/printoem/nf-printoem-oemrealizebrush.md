@@ -4,7 +4,7 @@ title: OEMRealizeBrush function
 author: windows-driver-content
 description: The OEMRealizeBrush function requests that the driver realize a specified brush for a specified surface.
 old-location: print\oemrealizebrush.htm
-old-project: print
+tech.root: print
 ms.assetid: 1c2c103b-41a4-48e8-8232-01719c562d62
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

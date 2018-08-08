@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2
 author: windows-driver-content
 description: Defines operations for a simple asynchronous I/O functionality test.
 old-location: dtf\iwdtfsimpleiostressaction2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

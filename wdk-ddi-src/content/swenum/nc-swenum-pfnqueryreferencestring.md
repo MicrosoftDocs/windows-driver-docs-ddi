@@ -4,7 +4,7 @@ title: PFNQUERYREFERENCESTRING
 author: windows-driver-content
 description: This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool.
 old-location: stream\kstrqueryreferencestring.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 08fd750f-19cc-4d78-a26b-9f790c5c3acf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

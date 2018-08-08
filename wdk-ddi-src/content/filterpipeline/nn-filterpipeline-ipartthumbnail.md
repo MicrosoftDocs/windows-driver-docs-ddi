@@ -4,7 +4,7 @@ title: IPartThumbnail
 author: windows-driver-content
 description: The IPartThumbnail interface is an abstraction for thumbnails in an XPS document.
 old-location: print\ipartthumbnail.htm
-old-project: print
+tech.root: print
 ms.assetid: 2a651a3b-1a5b-4186-9cab-38d9055b8944
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
