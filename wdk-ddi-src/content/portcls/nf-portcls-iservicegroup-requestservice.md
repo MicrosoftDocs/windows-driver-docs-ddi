@@ -32,9 +32,9 @@ req.irql: PASSIVE_LEVEL
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	DllExport
 api_location:
--
+-	portcls.h
 api_name:
 -	IServiceGroup::RequestService
 product:
