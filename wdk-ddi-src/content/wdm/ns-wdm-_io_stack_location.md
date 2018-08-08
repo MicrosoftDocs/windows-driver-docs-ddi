@@ -402,6 +402,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 ### -field Parameters.Read.Key
 
  
+### -field Parameters.Read.Flags
 
 
 ### -field Parameters.Read.ByteOffset
@@ -419,7 +420,8 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ### -field Parameters.Write.Key
 
- 
+
+### -field Parameters.Write.Flags 
 
 
 ### -field Parameters.Write.ByteOffset

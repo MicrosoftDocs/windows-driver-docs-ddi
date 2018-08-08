@@ -52,16 +52,46 @@ req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
 
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. 
 
+## -syntax
+```
+typedef struct _FILE_LINK_INFORMATION {
+#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS5)
+    union {
+        BOOLEAN ReplaceIfExists;  // FileLinkInformation
+        ULONG Flags;              // FileLinkInformationEx
+    } DUMMYUNIONNAME;
+#else
+    BOOLEAN ReplaceIfExists;
+#endif
+    HANDLE RootDirectory;
+    ULONG FileNameLength;
+    WCHAR FileName[1];
+} FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION;
+
+```
+
+
 
 ## -struct-fields
 
 
 
 
-### -field ReplaceIfExists
+### -field DUMMYUNIONNAME.ReplaceIfExists
 
 Set to <b>TRUE</b> to specify that if the link already exists, it should be replaced with the new link. Set to <b>FALSE</b> if the link creation operation should fail if the link already exists. 
 
+### -field DUMMYUNIONNAME.Flags
+
+Here are the possible values:
+
+FILE_LINK_REPLACE_IF_EXISTS
+FILE_LINK_POSIX_SEMANTICS
+FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE  
+FILE_LINK_NO_INCREASE_AVAILABLE_SPACE
+FILE_LINK_NO_DECREASE_AVAILABLE_SPACE
+FILE_LINK_PRESERVE_AVAILABLE_SPACE
+FILE_LINK_IGNORE_READONLY_ATTRIBUTE
 
 ### -field RootDirectory
 

@@ -1,9 +1,9 @@
 ---
-UID: NC:wdm.IOMMU_UNMAP_LOGICAL_RANGE
-title: IOMMU_UNMAP_LOGICAL_RANGE
+UID: NC:wdm.GET_UPDATED_BUS_RESOURCE
+title: GET_UPDATED_BUS_RESOURCE
 author: windows-driver-content
-description: Unmaps a linear range from a domain.
-ms.assetid: 48b802b6-980c-407b-91cc-02b67c80fdc5
+description: 
+ms.assetid: d2624b1d-c2db-4240-ae78-1bda7efb8c7f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -26,63 +26,59 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	wdm.h
-apiname: 
--	IOMMU_UNMAP_LOGICAL_RANGE
+api_name: 
+-	GET_UPDATED_BUS_RESOURCE
 product: Windows
 targetos: Windows
 ---
 
-# IOMMU_UNMAP_LOGICAL_RANGE callback function
+# GET_UPDATED_BUS_RESOURCE callback function
 
 ## -description
 
-Unmaps a linear range from a domain. 
+Implemented by the client driver to ... 
 
 ## -prototype
 
 ```
 //Declaration
 
-IOMMU_UNMAP_LOGICAL_RANGE IommuUnmapLogicalRange; 
+GET_UPDATED_BUS_RESOURCE GetUpdatedBusResource; 
 
 // Definition
 
-NTSTATUS IommuUnmapLogicalRange 
+NTSTATUS GetUpdatedBusResource 
 (
-	PIOMMU_DMA_DOMAIN Domain
-	ULONGLONG LogicalAddress
-	ULONGLONG NumberOfPages
+	PVOID Context
+	PCM_RESOURCE_LIST * UpdatedResourceList
+	PCM_RESOURCE_LIST * UpdatedTranslatedResourceList
 )
 {...}
-
-IOMMU_UNMAP_LOGICAL_RANGE *PIOMMU_UNMAP_LOGICAL_RANGE
-
 
 ```
 
 ## -parameters
 
-### -param Domain
-[_In_] A pointer to the handle to the domain.
+### -param Context: 
+### -param UpdatedResourceList: 
+### -param UpdatedTranslatedResourceList: 
 
-### -param LogicalAddress
-[_In_] The logical address at which unmapping begins. The address must be page aligned.
-
-### -param NumberOfPages
-[_In_] The number of pages to unmap.
 
 
 ## -returns
 
+Returns NTSTATUS that ...
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 
 ## -see-also

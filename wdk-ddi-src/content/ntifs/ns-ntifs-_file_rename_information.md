@@ -52,6 +52,24 @@ req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
 
 The <b>FILE_RENAME_INFORMATION</b> structure is used to rename a file.
 
+## -syntax
+
+```
+typedef struct _FILE_RENAME_INFORMATION {
+#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS1)
+    union {
+        BOOLEAN ReplaceIfExists;  // FileRenameInformation
+        ULONG Flags;              // FileRenameInformationEx
+    } DUMMYUNIONNAME;
+#else
+    BOOLEAN ReplaceIfExists;
+#endif
+    HANDLE RootDirectory;
+    ULONG FileNameLength;
+    WCHAR FileName[1];
+} FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION;
+
+```
 
 ## -struct-fields
 
@@ -70,13 +88,17 @@ Set to <b>TRUE</b> to specify that if a file with the given name already exists,
 
 ### -field DUMMYUNIONNAME.Flags
 
+Here are the possible values:
+
+FILE_RENAME_REPLACE_IF_EXISTS
+FILE_RENAME_POSIX_SEMANTICS
+FILE_RENAME_SUPPRESS_PIN_STATE_INHERITANCE
+FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE  
+FILE_RENAME_NO_INCREASE_AVAILABLE_SPACE
+FILE_RENAME_NO_DECREASE_AVAILABLE_SPACE
+FILE_RENAME_PRESERVE_AVAILABLE_SPACE
+FILE_RENAME_IGNORE_READONLY_ATTRIBUTE
  
-
-
-### -field ReplaceIfExists
-
-Set to <b>TRUE</b> to specify that if a file with the given name already exists, it should be replaced with the given file. Set to <b>FALSE</b> if the rename operation should fail if a file with the given name already exists. 
-
 
 ### -field RootDirectory
 

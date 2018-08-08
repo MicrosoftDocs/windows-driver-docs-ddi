@@ -43,17 +43,28 @@ Contains information required to configure a domain for an ARM64 system.
 ## -struct-fields
 
 ### -field Ttbr0
+The base address of translation table 0.
  
 ### -field Ttbr1
+The base address of translation table 0.
  
 ### -field Mair0
+Memory attribute indirection registers 0.
  
 ### -field Mair1
+Memory attribute indirection registers 1.
  
 ### -field InputSize0
+Desired input address width for TTBR0.
  
 ### -field InputSize1
- 
+Desired input address width for TTBR1.
+
+### -field CoherentTableWalks
+Enables or disables coherent translation table walks. This is available starting in Windows 10, version 1809.
+
+### -field TranslationEnabled
+Enables or disables translations. If not enabled, all transactions bypass S1 translations. This is available starting in Windows 10, version 1809.
 
 ## -remarks
 

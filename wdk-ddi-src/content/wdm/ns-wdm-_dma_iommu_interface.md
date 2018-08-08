@@ -79,7 +79,10 @@ A pointer to the [_IOMMU_UNMAP_LOGICAL_RANGE_](nc-wdm-iommu_unmap_logical_range.
 A pointer to the [_IOMMU_MAP_IDENTITY_RANGE_](nc-wdm-iommu_map_identity_range.md) callback function that creates an identity mapping for the provided MDL in the specified domain.
  
 ### -field UnmapIdentityRange
-A pointer to the [_IOMMU_UNMAP_IDENTITY_RANGE_](nc-wdm-iommu_unmap_identity_range.md) callback function that deletes an identity mapping. 
+A pointer to the [_IOMMU_UNMAP_IDENTITY_RANGE_](nc-wdm-iommu_unmap_identity_range.md) callback function that deletes an identity mapping.
+
+### -field SetDeviceFaultReporting
+A pointer to the [IOMMU_SET_DEVICE_FAULT_REPORTING](nc-wdm-iommu_set_device_fault_reporting.md) callback function that sets the device fault reporting state to device already attached to a domain.
 
 ## -remarks
 

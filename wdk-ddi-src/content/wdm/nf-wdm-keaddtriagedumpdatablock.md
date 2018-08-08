@@ -50,6 +50,9 @@ Adds a triage dump data block to a triage dump data block array.
 ### -param KtriageDumpDataArray
 [_Inout_] A pointer to a [**KTRIAGE_DUMP_DATA_ARRAY**](ns-wdm-_ktriage_dump_data_array.md) structure that is the data block array. It is assumed that the caller has already obtained exclusive write to _KtriageDumpDataArray_.
 
+### -param MaxDataSize
+[_In_] The maximum data size of the array pointed to by _KtriageDumpDataArray_.
+
 ### -param Address
  [_In_] A ULONG_PTR that is the starting address if the data block.
 

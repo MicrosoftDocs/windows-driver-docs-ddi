@@ -84,32 +84,28 @@ The effective previous system power state, as perceived by the user. This member
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.CurrentSystemState
-
 Opaque member. Reserved for system use.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IgnoreHibernationPath
-
 Opaque member. Reserved for system use.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.PseudoTransition
-
 Opaque member. Reserved for system use.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.KernelSoftReboot
+Opaque member. Reserved for system use.
 
- 
-
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DirectedDripsTransition
+Opaque member. Reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Reserved2
-
 Opaque member. Reserved for system use.
 
 
 ### -field DUMMYUNIONNAME.ContextAsUlong
-
 Opaque member. Reserved for system use.
 
 

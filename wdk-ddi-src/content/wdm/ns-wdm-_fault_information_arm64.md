@@ -2,7 +2,7 @@
 UID: NS:wdm._FAULT_INFORMATION_ARM64
 title: _FAULT_INFORMATION_ARM64
 author: windows-driver-content
-description: Contains fault information on an ARM64 system. 
+description: Contains fault information for an ARM64 system. 
 ms.assetid: 13ff621d-7cda-4440-91bc-9184a3b44bf2
 ms.author: windowsdriverdev
 ms.date: 
@@ -38,34 +38,26 @@ targetos: Windows
 # _FAULT_INFORMATION_ARM64 structure
 
 ## -description
-
+Describes fault information for an ARM64 system.
 
 ## -struct-fields
 
-### -field Flags
- 
-### -field Flags.WriteNotRead
- 
-### -field Flags.InstructionNotData
- 
-### -field Flags.Privileged
- 
-### -field Flags.Multi
- 
-### -field Flags.Asynchronous
- 
-### -field Flags.PageTableWalkFault
- 
-### -field Flags.Reserved
- 
 ### -field DomainHandle
+The handle to the DMA domain that the caller obtained from a previous call to [**PGET_DMA_DOMAIN**](nc-wdm-pget_dma_domain.md).
  
 ### -field FaultAddress
  
 ### -field PhysicalDeviceObject
+ A pointer the physical device object (PDO) in the device stack of the device.
  
 ### -field InputMappingId
+The input mapping base for the device's desired stream.
  
+### -field Flags
+A bitwise of [**FAULT_INFORMATION_ARM64_FLAGS**](ns-wdm-_fault_information_arm64_flags.md) flags.
+ 
+### -field Type
+A bitwise of [**FAULT_INFORMATION_ARM64_TYPE**](ne-wdm-_fault_information_arm64_type.md) flags.
 
 ## -remarks
 
