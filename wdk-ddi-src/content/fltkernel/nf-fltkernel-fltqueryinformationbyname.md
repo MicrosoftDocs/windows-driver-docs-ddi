@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: FltMgr.lib
+req.dll: Fltmgr.sys
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	fltmgr.sys
 api_name: 
 -	FltQueryInformationByName
 product:
