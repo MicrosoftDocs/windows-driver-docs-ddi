@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+-	pepfx.h
 api_name:
 -	PEP_DEVICE_REGISTER_V2
 product:

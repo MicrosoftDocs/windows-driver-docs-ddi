@@ -2,7 +2,7 @@
 UID: NS:ntddvdeo._PANEL_GET_BRIGHTNESS
 title: _PANEL_GET_BRIGHTNESS
 author: windows-driver-content
-description:
+description: Gets the current brightness level, plus details on the brightness transition in progress.
 tech.root: display
 ms.assetid: f7fbdbb4-f3cc-4ab7-b891-370190a96c19
 ms.author: windowsdriverdev

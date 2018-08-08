@@ -2,7 +2,7 @@
 UID: NF:engextcpp.EXT_COMMAND
 title: EXT_COMMAND macro
 author: windows-driver-content
-description: The EXT_COMMAND macro is used to define an extension command that was declared by using the EXT_COMMAND_METHOD macro.An extension command is defined as follows:
+description: The EXT_COMMAND macro is used to define an extension command that was declared by using the EXT_COMMAND_METHOD macro.An extension command is defined as follows.
 old-location: debugger\ext_command.htm
 tech.root: debugger
 ms.assetid: 349712b1-bd1f-4f1f-a242-b6aa36e48773
