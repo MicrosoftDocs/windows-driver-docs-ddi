@@ -108,7 +108,7 @@
 ### [ExtRemoteTyped::GetTypeName](../engextcpp/nf-engextcpp-extremotetyped-gettypename.md)
 ### [ExtRemoteTyped::GetTypeSize](../engextcpp/nf-engextcpp-extremotetyped-gettypesize.md)
 ### [ExtRemoteTyped::HasField](../engextcpp/nf-engextcpp-extremotetyped-hasfield.md)
-### [ExtRemoteTyped::operator[]](../engextcpp/nf-engextcpp-extremotetyped-operator-brackets.md)
+### [ExtRemoteTyped::operator[]](../engextcpp/nf-engextcpp-extremotetyped-operator[].md)
 ### [ExtRemoteTyped::operator= method](../engextcpp/nf-engextcpp-extremotetyped-operator=.md)
 ### [ExtRemoteTyped::operator](../engextcpp/nf-engextcpp-extremotetyped-operator.md)
 ### [ExtRemoteTyped::operator[](LONG64)](../engextcpp/nf-engextcpp-extremotetyped-operator[](long64).md)
