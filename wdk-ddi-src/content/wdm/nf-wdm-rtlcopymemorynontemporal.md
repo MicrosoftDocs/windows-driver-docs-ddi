@@ -28,9 +28,10 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	NtDll.dll
+-	NtosKrnl.exe
 api_name: 
 -	RtlCopyMemoryNonTemporal
 product:

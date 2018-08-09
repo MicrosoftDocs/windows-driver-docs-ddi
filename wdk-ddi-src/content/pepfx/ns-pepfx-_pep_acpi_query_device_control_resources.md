@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+-	pepfx.h
 api_name:
 -	PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 product:
