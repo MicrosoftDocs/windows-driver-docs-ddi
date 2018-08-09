@@ -26,16 +26,16 @@ req.max-support: Windows 10, version 1709
 req.namespace:
 req.assembly:
 req.type-library:
-req.lib: NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateBundleObject
 product:
