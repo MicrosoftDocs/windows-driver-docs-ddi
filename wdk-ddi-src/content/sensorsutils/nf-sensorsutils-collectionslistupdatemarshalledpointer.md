@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListUpdateMarshalledPointer
 title: CollectionsListUpdateMarshalledPointer function
 author: windows-driver-content
-description: Coming soon.
+description: This routine update embedded pointers.
 ms.assetid: f4e07e07-4f80-4427-b073-ea6f38346db5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,28 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine update embedded pointers. It should be called when marshalled collection list pass between processes.
+
+> [!WARNING]
+> This method assumes the structure sizes stay the same during marshalling. Avoid using this method if passing the data between processes that can have different bit-ness values (e.g. 32 bit <-> 64 bit). Use CollectionsListDeserializeFromBuffer instead.
+
+
 
 ## -parameters
 
 ### -param Collection
-Coming soon.
+
+[in/out] A pointer to a sensor collection list.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns STATUS_INVALID_PARAMETER if:
+
+* The Collection is null.
+* The AllocatedSizeInBytes member of Collection is less than the acceptable minimum size (in bytes) for a sensor collection list. 
+
+Returns STATUS_SUCCESS otherwise.
+
 ## -remarks
 
 ## -see-also

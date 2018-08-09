@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListSortSubscribedActivitiesByConfidence
 title: CollectionsListSortSubscribedActivitiesByConfidence function
 author: windows-driver-content
-description: Coming soon.
+description: This routine rearranges activity data collection under certain conditions.
 ms.assetid: 10616185-a9af-4b35-a7b7-d3288c319121
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,40 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine rearranges activity data collection for following:
+
+1. Remove state that is not subscribed
+2. Sort state based on confidence from high to low
+3. If there are multiple states with the same confidence, use state precedence order. The routine returns and error if one of the following conditions apply:
+
+    * There is invalid state, or
+    * There is confidence that is 0 or greater than 100, or
+    * There are multiple entries of the same state
+
+> [!Caution] 
+> This routine assumes that there is no embedded pointer in the collection list.
+
 
 ## -parameters
 
 ### -param thresholds
-Coming soon.
+
+[in] A pointer to a sensor collection list that contains the activity detection thresholds.
+
 ### -param pCollection
-Coming soon.
+
+[in] A pointer to a sensor collection list.
 
 ## -returns
-This function returns NTSTATUS.
+
+Returns STATUS_INVALID_PARAMETER if one of the following conditions apply:
+
+* *pCollection* is null.
+* The AllocatedSizeInBytes member of Collection is less than the acceptable minimum size (in bytes).
+* *pCollection* contains less than 3 elements (1 timestamp and one pair of state and confidence) for a sensor collection list.
+
+Returns STATUS_SUCCESS when the collection list was properly sorted.
+
 ## -remarks
 
 ## -see-also

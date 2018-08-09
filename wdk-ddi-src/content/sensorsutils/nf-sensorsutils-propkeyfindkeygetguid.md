@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.PropKeyFindKeyGetGuid
 title: PropKeyFindKeyGetGuid function
 author: windows-driver-content
-description: Coming soon.
+description: This routine gets a GUID value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 56740950-e6d3-4f3a-83ab-546fda013b81
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,27 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine gets a GUID value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
+
 
 ## -parameters
 
 ### -param pList
-Coming soon.
+
+[in] Pointer to the list of PROPVARIANT collection.
+
 ### -param pKey
-Coming soon.
+
+[in] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+
 ### -param pRetValue
-Coming soon.
+
+[out] Pointer to the output buffer.
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
 
 ## -see-also
