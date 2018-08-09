@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.IsGUIDPresentInList
 title: IsGUIDPresentInList function
 author: windows-driver-content
-description: Coming soon.
+description: This routine looks for a GUID in a list of GUIDs.
 ms.assetid: e6209d36-e01c-4922-9dfa-c3e41eb0285e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,27 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine looks for a GUID in a list of GUIDs.
+
 
 ## -parameters
 
 ### -param guidArray
-Coming soon.
+
+[in] GUID Array to search in.
+
 ### -param arrayLength
-Coming soon.
+
+[in] Length of GUID Array to search in.
+
 ### -param guidElem
-Coming soon.
+
+[in] GUID Element to search for.
 
 ## -returns
-This function returns BOOLEAN.
+
+This function returns TRUE if the element is present in the list, FALSE otherwise.
+
 ## -remarks
 
 ## -see-also

@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListDeserializeFromBuffer
 title: CollectionsListDeserializeFromBuffer function
 author: windows-driver-content
-description: Coming soon.
+description: This routine deserializes a collection list from the input buffer.
 ms.assetid: db498ec5-520f-4850-b596-a178e9c7540c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/07/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,26 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine deserializes a collection list from the input buffer.
 
 ## -parameters
 
 ### -param SourceBufferSizeInBytes
-Coming soon.
+
+[in] The input buffer size (in bytes).
+
 ### -param SourceBuffer
-Coming soon.
+
+[in] A buffer containing the serialized collection list data.
+
 ### -param TargetCollection
-Coming soon.
+
+[in/out] The caller-allocated collection list with AllocatedSizeInBytes set to the allocation size.
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
 
 ## -see-also

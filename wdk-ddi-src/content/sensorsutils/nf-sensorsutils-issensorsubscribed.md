@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.IsSensorSubscribed
 title: IsSensorSubscribed function
 author: windows-driver-content
-description: Coming soon.
+description: For internal use only.
 ms.assetid: 9919282f-c1bd-4f48-8b4e-14f82c7d78fc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,22 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+For internal use only.
 
 ## -parameters
 
 ### -param subscriptionList
-Coming soon.
+
+Internal.
+
 ### -param currentType
-Coming soon.
+
+Internal.
 
 ## -returns
+
 This function returns BOOLEAN.
+
 ## -remarks
 
 ## -see-also

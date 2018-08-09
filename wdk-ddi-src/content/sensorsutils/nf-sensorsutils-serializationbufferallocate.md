@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.SerializationBufferAllocate
 title: SerializationBufferAllocate function
 author: windows-driver-content
-description: Coming soon.
+description: Exported memory allocation function for allocating a serialized buffer.
 ms.assetid: de91ea34-86fb-42fc-896f-45b2e164b81b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,26 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+Exported memory allocation function for allocating a serialized buffer.
+
 
 ## -parameters
 
 ### -param SizeInBytes
-Coming soon.
+
+[in] The size (in bytes) of the buffer to allocate.
+
 ### -param pBuffer
-Coming soon.
+
+[in/out] Pointer to the buffer to allocate.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns the following NTSTATUS codes:
+
+* STATUS_NO_MEMORY if there is no more memory.
+* STATUS_SUCCESS on success.
+
 ## -remarks
 
 ## -see-also

@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.IsKeyPresentInCollectionList
 title: IsKeyPresentInCollectionList function
 author: windows-driver-content
-description: Coming soon.
+description: This routine determine if a key is present in a collection list.
 ms.assetid: 80e70dfa-7f4b-4617-83cb-6c3c7d5396fe
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,22 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine determine if a key is present in a collection list.
 
 ## -parameters
 
 ### -param pList
-Coming soon.
+
+[in] Pointer to the list of collection.
+
 ### -param pKey
-Coming soon.
+
+[in] Pointer to a PROPERTYKEY.
 
 ## -returns
-This function returns BOOLEAN.
+
+This function returns TRUE if the key is present.
+
 ## -remarks
 
 ## -see-also

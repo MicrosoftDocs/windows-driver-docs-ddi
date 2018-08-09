@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.SerializationBufferFree
 title: SerializationBufferFree function
 author: windows-driver-content
-description: Coming soon.
+description: Exported memory allocation function for freeing a serialization buffer.
 ms.assetid: dd820f7c-1250-4af6-85e9-71f96bae27bc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,19 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+Exported memory allocation function for freeing a serialization buffer.
+
 
 ## -parameters
 
 ### -param Buffer
-Coming soon.
+
+[in] The buffer to free.
 
 ## -returns
+
 This function returns VOID.
+
 ## -remarks
 
 ## -see-also
