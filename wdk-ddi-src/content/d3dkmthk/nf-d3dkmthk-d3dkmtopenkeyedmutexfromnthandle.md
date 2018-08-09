@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib: NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
@@ -30,7 +30,7 @@ topictype:
 apitype:
 -	DllExport
 apilocation:
--	NtosKrnl.exe
+-	Gdi32.dll
 apiname:
 -	D3DKMTOpenKeyedMutexFromNtHandle
 product: 
