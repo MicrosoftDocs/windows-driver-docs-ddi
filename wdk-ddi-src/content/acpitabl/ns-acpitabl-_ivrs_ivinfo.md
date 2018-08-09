@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_IVRS_IVINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

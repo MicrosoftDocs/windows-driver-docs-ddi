@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_PROC_TOPOLOGY_NODE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

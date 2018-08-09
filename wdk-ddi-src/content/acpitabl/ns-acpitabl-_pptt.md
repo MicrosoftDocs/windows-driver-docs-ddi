@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_PPTT
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

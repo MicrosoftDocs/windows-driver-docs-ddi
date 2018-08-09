@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_IVHD_ACPI_DEVICE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

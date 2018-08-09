@@ -28,7 +28,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_IVHD_ENTRY_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

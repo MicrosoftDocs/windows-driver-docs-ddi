@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_ACPI_PDTT
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

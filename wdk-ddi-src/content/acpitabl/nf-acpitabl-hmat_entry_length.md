@@ -33,7 +33,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	HMAT_ENTRY_LENGTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

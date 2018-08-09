@@ -31,7 +31,8 @@ api_location:
 -	acpitabl.h
 api_name: 
 -	_HMAT_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 
