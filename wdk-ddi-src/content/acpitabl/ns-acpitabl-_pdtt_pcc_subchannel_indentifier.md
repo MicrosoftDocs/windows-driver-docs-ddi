@@ -32,7 +32,7 @@ api_location:
 api_name: 
 -	_PDTT_PCC_SUBCHANNEL_INDENTIFIER
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

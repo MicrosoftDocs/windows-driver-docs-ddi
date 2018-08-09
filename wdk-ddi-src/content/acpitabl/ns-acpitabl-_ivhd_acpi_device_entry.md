@@ -32,7 +32,7 @@ api_location:
 api_name: 
 -	_IVHD_ACPI_DEVICE_ENTRY
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

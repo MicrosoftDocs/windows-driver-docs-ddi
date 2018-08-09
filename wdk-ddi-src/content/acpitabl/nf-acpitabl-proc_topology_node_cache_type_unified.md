@@ -34,7 +34,7 @@ api_location:
 api_name: 
 -	PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 product:
-- Windows
+-	Windows
 targetos: Windows
 
 

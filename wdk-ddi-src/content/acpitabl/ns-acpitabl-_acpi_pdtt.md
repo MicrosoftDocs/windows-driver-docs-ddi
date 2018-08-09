@@ -32,7 +32,7 @@ api_location:
 api_name: 
 -	_ACPI_PDTT
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

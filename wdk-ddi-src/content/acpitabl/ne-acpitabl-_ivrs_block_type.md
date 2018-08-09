@@ -29,7 +29,7 @@ api_location:
 api_name: 
 -	_IVRS_BLOCK_TYPE
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

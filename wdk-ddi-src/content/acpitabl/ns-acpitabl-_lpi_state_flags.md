@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	LPI_STATE_FLAGS
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 ---

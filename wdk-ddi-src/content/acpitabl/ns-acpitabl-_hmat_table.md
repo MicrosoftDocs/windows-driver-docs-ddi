@@ -32,7 +32,7 @@ api_location:
 api_name: 
 -	_HMAT_TABLE
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

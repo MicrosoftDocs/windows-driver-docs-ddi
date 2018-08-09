@@ -32,7 +32,7 @@ api_location:
 api_name: 
 -	_PROC_TOPOLOGY_CACHE_ATTRIBUTES
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

@@ -29,7 +29,7 @@ api_location:
 api_name: 
 -	_IVHD_ENTRY_TYPE
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 

@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	LPIT
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: LPIT, *PLPIT
 ---

@@ -32,7 +32,7 @@ api_location:
 api_name: 
 -	_IVRS_IVINFO
 product:
-- Windows
+-	Windows
 targetos: Windows
 ---
 
