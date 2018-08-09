@@ -44,15 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetKind method returns what kind of object is boxed inside the IModelObject. Such kind is defined by the ModelObjectKind enumeration.
+
 
 ## -parameters
 
 ### -param kind
-
+The kind of object as indicated above will be returned in this argument.
 
 ## -returns
-This method returns HRESULT that indicates success or failure.
+This method returns HRESULT that indicates success or failure. This method should not typically fail.
 
 ## -remarks
 
@@ -60,7 +61,12 @@ This method returns HRESULT that indicates success or failure.
 **Code Sample**
 
 ```
+ComPtr<IModelObject> spObject; /* acquired from somewhere */
 
+ModelObjectKind kind;
+HRESULT hr = spObject->GetKind(&kind);
+
+// kind indicates the kind of model object
 ```
 
 ## -see-also
