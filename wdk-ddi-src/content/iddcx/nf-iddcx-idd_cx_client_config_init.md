@@ -26,16 +26,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: IddCxStub.lib
+req.dll: IddCx.dll
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	iddcx.h
+-	IddCx.dll
 api_name:
 -	IDD_CX_CLIENT_CONFIG_INIT
 product:
@@ -49,10 +49,7 @@ req.typenames:
 
 ## -description
 
-
-
-                        Initializes the IDD_CX_CLIENT_CONFIG structure.
-                
+Initializes the IDD_CX_CLIENT_CONFIG structure.
 
 
 ## -parameters
