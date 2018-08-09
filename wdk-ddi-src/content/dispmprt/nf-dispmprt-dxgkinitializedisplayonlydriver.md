@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	LibDef
+-	DllExport
 api_location:
 -	Displib.lib
 -	Displib.dll

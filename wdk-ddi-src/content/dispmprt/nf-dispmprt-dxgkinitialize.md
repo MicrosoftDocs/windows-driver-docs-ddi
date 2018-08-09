@@ -33,9 +33,9 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	dispmprt.h
+-	Displib.lib
 api_name:
 -	DxgkInitialize
 product:

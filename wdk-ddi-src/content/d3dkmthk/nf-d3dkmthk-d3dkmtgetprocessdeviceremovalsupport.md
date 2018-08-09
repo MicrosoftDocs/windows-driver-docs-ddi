@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib: NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
@@ -25,13 +25,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	DllExport
-apilocation:
--	NtosKrnl.exe
-apiname:
+api_location:
+-	Gdi32.dll
+api_name:
 -	D3DKMTGetProcessDeviceRemovalSupport
 product: 
 -	Windows
