@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: fe0e5bc3-e852-4755-81b5-e169365b3064
 ms.author: windowsdriverdev
-ms.date: 07/20/2018
+ms.date: 08/08/2018
 ms.topic: method
 ms.keywords: IModelObject::EnumerateRawReferences, EnumerateRawReferences, IModelObject.EnumerateRawReferences, IModelObject::EnumerateRawReferences, IModelObject.EnumerateRawReferences
 req.header: dbgmodel.h
@@ -64,11 +64,6 @@ This method returns HRESULT that indicates success or failure.
 ## -remarks
 
 
-**Code Sample**
-
-```
-
-```
 
 ## -see-also
 
