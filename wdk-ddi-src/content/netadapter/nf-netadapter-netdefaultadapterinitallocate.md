@@ -61,14 +61,16 @@ A handle to a framework device object.
 
 Returns a pointer to a framework-allocated NETADAPTER_INIT structure if the operation succeeds. Otherwise, this method returns **NULL**.
 
+> [!IMPORTANT]
+> If a client driver receives a NETADAPTER_INIT structure from a successful call to this method, the driver must always call **NetAdapterInitFree** to deallocate it regardless of the result of [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+
 ## -remarks
 
 A client driver must call **NetDefaultAdapterInitAllocate** to obtain a NETADAPTER_INIT structure that it can pass to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md). 
 
-> [!IMPORTANT]
-> Client drivers call [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) for a network interface card (NIC)'s default/primary NETADAPTER object, then call **NetAdapterInitAllocate** for subsequent NETADAPTER objects if required.
+Client drivers call [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) for a network interface card (NIC)'s default/primary NETADAPTER object, then call **NetAdapterInitAllocate** for subsequent NETADAPTER objects if required.
 
-After **NetDefaultAdapterInitAllocate** succeeds, client drivers call **NetAdapterInitSetXxx** methods to set further initialization attributes for the NETADAPTER. If the driver encounters an error after **NetDefaultAdapterInitAllocate** succeeds but before [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md) succeeds, it must call [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md) to deallocate the NETADAPTER_INIT object.
+After **NetDefaultAdapterInitAllocate** succeeds, client drivers can optionally call **NetAdapterInitSetXxx** methods to set further initialization attributes for the NETADAPTER.
 
 For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
 

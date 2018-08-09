@@ -63,9 +63,7 @@ This method does not return a value.
 
 ## -remarks
 
-If a client driver receives a NETADAPTER_INIT structure from a call to [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) or [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md), and if the driver subsequently encounters an error when it calls a NETADAPTER object initialization function or [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md), the driver must call **NetAdapterInitFree**.
-
-Client drivers must not call **NetAdapterInitFree** after a successful call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+If a client driver receives a NETADAPTER_INIT structure from a call to [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) or [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md), the driver must always call **NetAdapterInitFree** to deallocate it regardless of the result of [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 For more information and a code example about calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md), see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
 
