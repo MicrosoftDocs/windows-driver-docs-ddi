@@ -63,7 +63,7 @@ The Clear method is a member of the <b>ExtRemoteData</b> class. The <b>ExtRemote
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
 
-[ExtRemoteData](nl-engextcpp-extremotedata)
+[ExtRemoteData](nl-engextcpp-extremotedata.md)
  
 
  
