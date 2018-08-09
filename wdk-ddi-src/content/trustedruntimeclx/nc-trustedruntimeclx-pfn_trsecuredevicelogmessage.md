@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	*PFN_TRSECUREDEVICELOGMESSAGE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -31,7 +31,8 @@ api_location:
 -	treerpmbservice.h
 api_name: 
 -	_TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

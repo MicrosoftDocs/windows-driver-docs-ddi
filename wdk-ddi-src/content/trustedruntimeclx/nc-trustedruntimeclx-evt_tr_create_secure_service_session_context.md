@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

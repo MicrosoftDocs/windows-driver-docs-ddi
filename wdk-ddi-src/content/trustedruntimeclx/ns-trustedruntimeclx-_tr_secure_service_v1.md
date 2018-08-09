@@ -31,7 +31,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	_TR_SECURE_SERVICE_V1
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

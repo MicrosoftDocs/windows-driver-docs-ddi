@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

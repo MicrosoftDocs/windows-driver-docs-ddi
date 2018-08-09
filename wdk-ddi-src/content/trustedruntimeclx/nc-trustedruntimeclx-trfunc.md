@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	TRFUNC
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

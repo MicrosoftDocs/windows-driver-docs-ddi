@@ -34,7 +34,8 @@ api_location:
 -	systemrng.h
 api_name: 
 -	PENTROPY_SOURCE_CALLBACK_FUNCTION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

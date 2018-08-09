@@ -29,7 +29,8 @@ api_location:
 -	trustedrt.h
 api_name: 
 -	IOCTL_TR_ENUMERATE_SERVICES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

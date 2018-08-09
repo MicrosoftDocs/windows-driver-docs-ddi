@@ -28,7 +28,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	_TR_SECURE_DEPENDENCY_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

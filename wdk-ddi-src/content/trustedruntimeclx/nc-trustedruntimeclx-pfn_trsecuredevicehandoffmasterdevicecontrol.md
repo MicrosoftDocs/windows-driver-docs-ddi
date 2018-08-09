@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

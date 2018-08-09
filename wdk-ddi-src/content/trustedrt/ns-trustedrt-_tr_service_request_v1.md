@@ -31,7 +31,8 @@ api_location:
 -	trustedrt.h
 api_name: 
 -	_TR_SERVICE_REQUEST_V1
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

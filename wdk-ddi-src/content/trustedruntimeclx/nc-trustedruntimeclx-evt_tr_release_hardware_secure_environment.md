@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

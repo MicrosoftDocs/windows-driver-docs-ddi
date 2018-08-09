@@ -31,7 +31,8 @@ api_location:
 -	treetpmservice.h
 api_name: 
 -	_TPM_INVOKE_GENERIC_OUT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

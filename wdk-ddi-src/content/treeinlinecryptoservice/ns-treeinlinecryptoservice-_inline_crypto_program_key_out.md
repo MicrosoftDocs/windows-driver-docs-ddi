@@ -31,7 +31,8 @@ api_location:
 -	treeinlinecryptoservice.h
 api_name: 
 -	_INLINE_CRYPTO_PROGRAM_KEY_OUT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

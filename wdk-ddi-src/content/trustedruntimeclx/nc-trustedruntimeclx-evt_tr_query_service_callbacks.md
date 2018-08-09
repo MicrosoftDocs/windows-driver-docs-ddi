@@ -34,7 +34,8 @@ api_location:
 -	trustedruntimeclx.h
 api_name: 
 -	EVT_TR_QUERY_SERVICE_CALLBACKS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
