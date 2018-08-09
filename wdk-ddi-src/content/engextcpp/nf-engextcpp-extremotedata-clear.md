@@ -7,7 +7,7 @@ old-location: debugger\extremotedata.htm
 tech.root: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 08/09/2018
 ms.keywords: ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, debugger.extremotedata, Clear, ExtRemoteData class [Windows Debugging], ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -266,16 +266,13 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554311">ReadPhysical2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
 
-<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
 
+[ExtRemoteData](nl-engextcpp-extremotedata)
  
 
  
