@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 859277b5-e121-4f1c-a1aa-12c2aef4b673
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/09/2018
 ms.topic: method
 ms.keywords: IModelObject::GetKind, GetKind, IModelObject.GetKind, IModelObject::GetKind, IModelObject.GetKind
 req.header: dbgmodel.h
@@ -52,7 +52,17 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
+**Code Sample**
+
+```
+
+```
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)

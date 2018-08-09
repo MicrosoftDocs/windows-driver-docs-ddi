@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 3ef1b4c2-2f82-4455-a1de-c15d6fa6f0aa
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/09/2018 
 ms.topic: method
 ms.keywords: IModelObject::GetNumberOfParentModels, GetNumberOfParentModels, IModelObject.GetNumberOfParentModels, IModelObject::GetNumberOfParentModels, IModelObject.GetNumberOfParentModels
 req.header: dbgmodel.h
@@ -52,7 +52,17 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
+**Code Sample**
+
+```
+
+```
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)
