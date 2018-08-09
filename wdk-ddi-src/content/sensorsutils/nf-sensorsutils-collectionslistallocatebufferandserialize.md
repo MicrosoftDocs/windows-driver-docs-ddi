@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListAllocateBufferAndSerialize
 title: CollectionsListAllocateBufferAndSerialize function
 author: windows-driver-content
-description: Coming soon.
+description: This routine allocates a buffer and then serializes a sensor collection list to it.
 ms.assetid: be6b18b4-97cf-4206-ad98-57a045ecd11f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/07/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,27 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine allocates a buffer and then serializes a sensor collection list to it. On success, callers must use [SerializationBufferFree](nf-sensorsutils-serializationbufferfree.md) to free the buffer.
+
 
 ## -parameters
 
 ### -param SourceCollection
-Coming soon.
+
+[in] Pointer to a collection list.
+
 ### -param pTargetBufferSizeInBytes
-Coming soon.
+
+[out] The allocated buffer size (in bytes).
+
 ### -param pTargetBuffer
-Coming soon.
+
+[out] Pointer to the allocated buffer, to hold the serialized data.
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
 
 ## -see-also

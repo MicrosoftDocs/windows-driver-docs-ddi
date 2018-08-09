@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListGetSerializedSize
 title: CollectionsListGetSerializedSize function
 author: windows-driver-content
-description: Coming soon.
+description: This routine returns the larger of the two sizes to provide for sufficient buffer sizes to accommodate passing the collection list across processes that can have different bit-ness values.
 ms.assetid: e5b38220-cc8d-425c-b1a8-d61983d36e2a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,21 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine returns the larger of the two sizes to provide for sufficient buffer sizes to accommodate passing the collection list across processes that can have different bit-ness values (e.g. 32 bit <-> 64 bit):
+
+1. The architecture-independent size of the entire collection list, including size of memory blocks that are pointed by embedded pointers.
+2. The RPC serialized size of the collection list.
 
 ## -parameters
 
 ### -param Collection
-Coming soon.
+
+[in] Pointer to a collection list.
 
 ## -returns
-This function returns ULONG.
+
+This function returns a ULONG that represents the serialized data size.
+
 ## -remarks
 
 ## -see-also

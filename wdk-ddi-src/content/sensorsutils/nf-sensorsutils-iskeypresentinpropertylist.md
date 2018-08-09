@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.IsKeyPresentInPropertyList
 title: IsKeyPresentInPropertyList function
 author: windows-driver-content
-description: Coming soon.
+description: This routine determine if a key is present in a property list.
 ms.assetid: 4a565915-3f6d-45ff-8912-0a4e80910a8b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,23 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine determine if a key is present in a property list.
+
 
 ## -parameters
 
 ### -param pList
-Coming soon.
+
+[in] Pointer to the list of PROPERTYKEYs
+
 ### -param pKey
-Coming soon.
+
+[in] Pointer to a PROPERTYKEY.
 
 ## -returns
-This function returns BOOLEAN.
+
+This function returns TRUE if the key is present, FALSE otherwise.
+
 ## -remarks
 
 ## -see-also
