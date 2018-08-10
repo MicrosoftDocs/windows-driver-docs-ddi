@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.SensorCollectionGetAt
 title: SensorCollectionGetAt function
 author: windows-driver-content
-description: Coming soon.
+description: This routine returns the PROPERTYKEY and PROPVARIANT associated with the nth element in the provided sensor collection list.
 ms.assetid: 76aef6af-76a1-4bc2-aeee-7656b9745c40
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,21 +48,31 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine returns the PROPERTYKEY and PROPVARIANT associated with the nth element in the provided sensor collection list.
+
 
 ## -parameters
 
 ### -param Index
-Coming soon.
+
+[in] Zero-based index of the element in the pSensorsList.
+
 ### -param pSensorsList
-Coming soon.
+
+[in] Pointer to a sensor collection list.
+
 ### -param pKey
-Coming soon.
+
+[out] Size of data.
+
 ### -param pValue
-Coming soon.
+
+[out] Location of the data.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns STATUS_NOT_FOUND if not found, STATUS_SUCCESS otherwise.
+
 ## -remarks
 
 ## -see-also

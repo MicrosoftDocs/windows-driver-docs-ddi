@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.PropVariantGetInformation
 title: PropVariantGetInformation function
 author: windows-driver-content
-description: Coming soon.
+description: This routine gets offset, size, location pointer and DEVPROPTYPE, of a PROPVARIANT.
 ms.assetid: 37444fc1-54cf-4898-af68-6aa6019b85d5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,23 +48,35 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine gets offset, size, location pointer and DEVPROPTYPE, of a PROPVARIANT.
+
 
 ## -parameters
 
 ### -param PropVariantValue
-Coming soon.
+
+[in] Pointer to a PROPVARIANT.
+
 ### -param PropVariantOffset
-Coming soon.
+
+[out] The offset of the location pointer in PROPVARIANT.
+
 ### -param PropVariantSize
-Coming soon.
+
+[out] Size of data.
+
 ### -param PropVariantPointer
-Coming soon.
+C
+[out] The location of data.
+
 ### -param RemappedType
-Coming soon.
+
+[out] The DEVPROPTYPE.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns STATUS_NOT_SUPPORTED if the PROPVARIANT is not a supported type, STATUS_SUCCESS otherwise.
+
 ## -remarks
 
 ## -see-also

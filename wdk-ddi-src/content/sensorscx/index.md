@@ -11,6 +11,8 @@ ms.topic: portal
 product:
 -	Windows
 tech.root: sensors
+product:
+- Windows
 ---
 
 # Sensorscx.h header
