@@ -84,7 +84,7 @@ Pointer to a null-terminated Unicode string with which to initialize the new str
 
 The <i>DestinationString</i> is allocated from paged pool. The caller is responsible for freeing the <i>DestinationString</i> by calling <b>RtlFreeUnicodeString</b>.
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see the string manipulation functions in [Run-Time Library (RTL) Routines](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_kernel/#run-time-library-rtl-routines). 
 
 
 
