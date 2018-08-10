@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExtRemoteData</b> constructor creates a new instance of the [ExtRemoteData](nl-engextcpp-extremotedata) class.
+The <b>ExtRemoteData</b> constructor creates a new instance of the [ExtRemoteData](nl-engextcpp-extremotedata.md) class.
 
 
 ## -parameters
@@ -65,9 +65,11 @@ The constructor is called by the ExtRemoteData::Set(Typed) or ExtRemoteData::Set
 
 ## -see-also
 
-[ExtRemoteData](nl-engextcpp-extremotedata)
+[ExtRemoteData](nl-engextcpp-extremotedata.md)
 
 [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md)
+
+[ExtRemoteData(PCSTR,ULONG64,ULONG)](nf-engextcpp-extremotedata-extremotedata(pcstr,ulong64,ulong).md)
 
 
  

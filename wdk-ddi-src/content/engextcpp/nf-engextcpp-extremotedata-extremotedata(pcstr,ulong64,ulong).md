@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExtRemoteData</b> constructor creates a new instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> class.
+The <b>ExtRemoteData</b> constructor creates a new instance of the [ExtRemoteData](nl-engextcpp-extremotedata.md) class.
 
 
 ## -parameters
@@ -84,10 +84,6 @@ The constructor is called by the ExtRemoteData::Set(Typed) and ExtRemoteData::Se
 ## -see-also
 
 [ExtRemoteData](nl-engextcpp-extremotedata.md)
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
-
-<a href="https://msdn.microsoft.com/0728f32e-750a-4212-9b8d-f4bfe85978cb">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
 
 [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md) 
 
