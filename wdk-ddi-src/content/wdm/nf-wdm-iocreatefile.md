@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoCreateFile</b> routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
+The **IoCreateFile** routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
 
 
 ## -parameters
@@ -70,12 +70,12 @@ Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540
 
 ### -param ObjectAttributes [in]
 
-A pointer to a structure that specifies the object's attributes, which has already been initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for <i>ObjectAttributes</i>.
+A pointer to a structure that specifies the object's attributes, which has already been initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for *ObjectAttributes*.
 
 
 ### -param IoStatusBlock [out]
 
-A pointer to a variable that receives the final completion status and information about the requested operation. On return from <b>IoCreateFile</b>, the <b>Information</b> member contains one of the following values:
+A pointer to a variable that receives the final completion status and information about the requested operation. On return from **IoCreateFile**, the **Information** member contains one of the following values:
 
 <ul>
 <li>
@@ -111,7 +111,7 @@ Optionally specifies the initial allocation size in bytes for the file. A nonzer
 
 ### -param FileAttributes [in]
 
-Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which are defined in Wdm.h. For a list of flags that can be used with <b>IoCreateFile</b>, see <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> in the Microsoft Windows SDK documentation.
+Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> in the Microsoft Windows SDK documentation.
 
 
 ### -param ShareAccess [in]
@@ -129,7 +129,7 @@ FILE_SHARE_READ
 
 </td>
 <td>
-The file can be opened for read access by other threads' calls to <b>IoCreateFile</b>.
+The file can be opened for read access by other threads' calls to **IoCreateFile**.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ FILE_SHARE_WRITE
 
 </td>
 <td>
-The file can be opened for write access by other threads' calls to <b>IoCreateFile</b>.
+The file can be opened for write access by other threads' calls to **IoCreateFile**.
 
 </td>
 </tr>
@@ -149,14 +149,14 @@ FILE_SHARE_DELETE
 
 </td>
 <td>
-The file can be opened for delete access by other threads' calls to <b>IoCreateFile</b>.
+The file can be opened for delete access by other threads' calls to **IoCreateFile**.
 
 </td>
 </tr>
 </table>
  
 
-Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
+Device and intermediate drivers usually set *ShareAccess* to zero, which gives the caller exclusive access to the open file.
 
 
 ### -param Disposition [in]
@@ -247,7 +247,7 @@ FILE_DIRECTORY_FILE
 
 </td>
 <td>
-The file being created or opened is a directory file. With this flag, the <i>Disposition</i> parameter must be set to one of FILE_CREATE, FILE_OPEN, or FILE_OPEN_IF. With this flag, other compatible <i>CreateOptions</i> flags include only the following: FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_WRITE_THROUGH, FILE_OPEN_FOR_BACKUP_INTENT, and FILE_OPEN_BY_FILE_ID. 
+The file being created or opened is a directory file. With this flag, the *Disposition* parameter must be set to one of FILE_CREATE, FILE_OPEN, or FILE_OPEN_IF. With this flag, other compatible *CreateOptions* flags include only the following: FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_WRITE_THROUGH, FILE_OPEN_FOR_BACKUP_INTENT, and FILE_OPEN_BY_FILE_ID. 
 
 </td>
 </tr>
@@ -297,7 +297,7 @@ FILE_NO_INTERMEDIATE_BUFFERING
 
 </td>
 <td>
-The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the <i>DesiredAccess</i> FILE_APPEND_DATA flag.
+The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the *DesiredAccess* FILE_APPEND_DATA flag.
 
 </td>
 </tr>
@@ -307,7 +307,7 @@ FILE_SYNCHRONOUS_IO_ALERT
 
 </td>
 <td>
-All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the <i>DesiredAccess</i> SYNCHRONIZE flag also must be set.
+All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the *DesiredAccess* SYNCHRONIZE flag also must be set.
 
 </td>
 </tr>
@@ -317,7 +317,7 @@ FILE_SYNCHRONOUS_IO_NONALERT
 
 </td>
 <td>
-All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the <i>DesiredAccess</i> SYNCHRONIZE flag also must be set.
+All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the *DesiredAccess* SYNCHRONIZE flag also must be set.
 
 </td>
 </tr>
@@ -367,7 +367,7 @@ FILE_DELETE_ON_CLOSE
 
 </td>
 <td>
-Delete the file when the last handle to it is passed to <b>ZwClose</b>.
+Delete the file when the last handle to it is passed to **ZwClose**.
 
 </td>
 </tr>
@@ -377,7 +377,7 @@ FILE_OPEN_BY_FILE_ID
 
 </td>
 <td>
-The file name specified in the <i>ObjectAttributes</i> parameter includes the 8-byte file reference number for the file. This number is assigned by the file system and is file-system-specific. If the file is a reparse point, the file name also includes the name of a device. Note: The FAT file system does not support FILE_OPEN_BY_FILE_ID.
+The file name specified in the *ObjectAttributes* parameter includes the 8-byte file reference number for the file. This number is assigned by the file system and is file-system-specific. If the file is a reparse point, the file name also includes the name of a device. Note: The FAT file system does not support FILE_OPEN_BY_FILE_ID.
 
 </td>
 </tr>
@@ -387,7 +387,7 @@ FILE_OPEN_FOR_BACKUP_INTENT
 
 </td>
 <td>
-The file is being opened for backup intent, hence, the system should check for certain access rights and grant the caller the appropriate accesses to the file before checking the input <i>DesiredAccess</i> against the file's security descriptor. This flag is irrelevant to device and intermediate drivers.
+The file is being opened for backup intent, hence, the system should check for certain access rights and grant the caller the appropriate accesses to the file before checking the input *DesiredAccess* against the file's security descriptor. This flag is irrelevant to device and intermediate drivers.
 
 </td>
 </tr>
@@ -399,7 +399,7 @@ FILE_OPEN_REQUIRING_OPLOCK
 <td>
 The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and the create operation will fail with a return code of STATUS_CANNOT_BREAK_OPLOCK if the create operation would break an existing oplock.
 
-<div class="alert"><b>Note</b>    The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2, and later Windows operating systems.</div>
+<div class="alert">**Note**    The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2, and later Windows operating systems.</div>
 <div> </div>
 </td>
 </tr>
@@ -419,7 +419,7 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 
 ### -param EaBuffer [in, optional]
 
-For device and intermediate drivers, this parameter must be a <b>NULL</b> pointer.
+For device and intermediate drivers, this parameter must be a **NULL** pointer.
 
 
 ### -param EaLength [in]
@@ -429,12 +429,12 @@ For device and intermediate drivers, this parameter must be zero.
 
 ### -param CreateFileType [in]
 
-Drivers must set this parameter to <b>CreateFileTypeNone</b>.
+Drivers must set this parameter to **CreateFileTypeNone**.
 
 
 ### -param InternalParameters [in, optional]
 
-Drivers must set this parameter to <b>NULL</b>.
+Drivers must set this parameter to **NULL**.
 
 
 ### -param Options [in]
@@ -462,7 +462,7 @@ IO_FORCE_ACCESS_CHECK
 
 </td>
 <td>
-Indicates that the I/O manager must check the operation against the file's security descriptor.
+Indicates that the I/O manager must check the operation against the file's security descriptor. For more information, see Remarks.
 
 </td>
 </tr>
@@ -494,98 +494,64 @@ Open the file's parent directory.
 
 
 
-<b>IoCreateFile</b> either returns STATUS_SUCCESS or an appropriate error status. If it returns an error status, the caller can find additional information about the cause of the failure by checking the <i>IoStatusBlock</i>.
+**IoCreateFile** either returns STATUS_SUCCESS or an appropriate error status. If it returns an error status, the caller can find additional information about the cause of the failure by checking the *IoStatusBlock*.
 
 
 
 
 ## -remarks
 
+>[!NOTE]
+>The [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex) routine is similar to the **IoCreateFile** routine but provides greater functionality than the **IoCreateFile** routine, including access to extra create parameters (ECPs), device objects, and transaction information.
 
+The handle obtained by **IoCreateFile** can be used by subsequent calls to manipulate data within the file or the file object's state or attributes.
 
-<div class="alert"><b>Note</b>  The Windows Vista <a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a> routine is similar to the <b>IoCreateFile</b> routine but provides greater functionality than the <b>IoCreateFile</b> routine, including access to extra create parameters (ECPs), device objects, and transaction information.</div>
-<div> </div>
-The handle, obtained by <b>IoCreateFile</b>, can be used by subsequent calls to manipulate data within the file or the file object's state or attributes.
+There are two alternate ways to specify the name of the file to be created or opened with **IoCreateFile**:
 
-There are two alternate ways to specify the name of the file to be created or opened with <b>IoCreateFile</b>:
+1. As a fully qualified pathname, supplied in the **ObjectName** member of the input *ObjectAttributes*
+2. As pathname relative to the directory file represented by the handle in the **RootDirectory** member of the input *ObjectAttributes*
 
-<ol>
-<li>
-As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the input <i>ObjectAttributes</i>
+Certain *DesiredAccess* flags and combinations of flags have the following effects:
 
-</li>
-<li>
-As pathname relative to the directory file represented by the handle in the <b>RootDirectory</b> member of the input <i>ObjectAttributes</i>
+* For a caller to synchronize an I/O completion by waiting for the returned *FileHandle*, the SYNCHRONIZE flag must be set. Otherwise, a caller that is a device or intermediate driver must synchronize an I/O completion by using an event object.
 
-</li>
-</ol>
-Certain <i>DesiredAccess</i> flags and combinations of flags have the following effects:
+* If only the FILE_APPEND_DATA and SYNCHRONIZE flags are set, the caller can write only to the end of the file, and any offset information about writes to the file is ignored. However, the file will automatically be extended as necessary for this type of write operation.
 
-<ul>
-<li>
-For a caller to synchronize an I/O completion by waiting for the returned <i>FileHandle</i>, the SYNCHRONIZE flag must be set. Otherwise, a caller that is a device or intermediate driver must synchronize an I/O completion by using an event object.
+* Setting the FILE_WRITE_DATA flag for a file also allows writes beyond the end of the file to occur. The file is automatically extended for this type of write, as well.
 
-</li>
-<li>
-If only the FILE_APPEND_DATA and SYNCHRONIZE flags are set, the caller can write only to the end of the file, and any offset information about writes to the file is ignored. However, the file will automatically be extended as necessary for this type of write operation.
+* If only the FILE_EXECUTE and SYNCHRONIZE flags are set, the caller cannot directly read or write any data in the file using the returned *FileHandle*: that is, all operations on the file occur through the system pager in response to instruction and data accesses. Device and intermediate drivers should not set the FILE_EXECUTE flag in *DesiredAccess*.
 
-</li>
-<li>
-Setting the FILE_WRITE_DATA flag for a file also allows writes beyond the end of the file to occur. The file is automatically extended for this type of write, as well.
+The *ShareAccess* parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of **IoCreateFile** does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file: that is, the original caller is given exclusive access to the file.
 
-</li>
-<li>
-If only the FILE_EXECUTE and SYNCHRONIZE flags are set, the caller cannot directly read or write any data in the file using the returned <i>FileHandle</i>: that is, all operations on the file occur through the system pager in response to instruction and data accesses. Device and intermediate drivers should not set the FILE_EXECUTE flag in <i>DesiredAccess</i>.
+In order for a shared file to be successfully opened, the requested *DesiredAccess* to the file must be compatible with both the *DesiredAccess* and *ShareAccess* specifications of all preceding opens that have not yet been released with **ZwClose**. That is, the *DesiredAccess* specified to **IoCreateFile** for a given file must not conflict with the accesses that other openers of the file have disallowed.
 
-</li>
-</ul>
-The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of <b>IoCreateFile</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file: that is, the original caller is given exclusive access to the file.
+The *Disposition* value FILE_SUPERSEDE requires that the caller have DELETE access to a existing file object. If so, a successful call to **IoCreateFile** with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess *parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
 
-In order for a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <b>ZwClose</b>. That is, the <i>DesiredAccess</i> specified to <b>IoCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed.
-
-The <i>Disposition</i> value FILE_SUPERSEDE requires that the caller have DELETE access to a existing file object. If so, a successful call to <b>IoCreateFile</b> with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a <i>ShareAccess </i>parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
-
-The <i>Disposition</i> values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If <b>IoCreateFile</b> is called with a existing file and either of these <i>Disposition</i> values, the file will be replaced.
+The *Disposition* values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If **IoCreateFile** is called with a existing file and either of these *Disposition* values, the file will be replaced.
 
 Overwriting a file is semantically equivalent to a supersede operation, except for the following:
 
-<ul>
-<li>
-The caller must have write access to the file, rather than delete access. This implies that, if the file has already been opened by another thread, it opened the file with the FILE_SHARE_WRITE flag set in the input <i>ShareAccess</i>.
+* The caller must have write access to the file, rather than delete access. This implies that, if the file has already been opened by another thread, it opened the file with the FILE_SHARE_WRITE flag set in the input *ShareAccess*.
 
-</li>
-<li>
-The specified file attributes are logically ORed with those already on the file. This implies that, if the file has already been opened by another thread, a subsequent caller of <b>IoCreateFile</b> cannot disable existing <i>FileAttributes</i> flags but can enable additional flags for the same file.
+* The specified file attributes are logically ORed with those already on the file. This implies that, if the file has already been opened by another thread, a subsequent caller of **IoCreateFile** cannot disable existing *FileAttributes* flags but can enable additional flags for the same file.
 
-</li>
-</ul>
-The <i>CreateOptions</i> FILE_DIRECTORY_FILE value specifies that the file to be created or opened is a directory file. When a directory file is created, the file system creates an appropriate structure on the disk to represent an empty directory for that particular file system's on-disk structure. If this option was specified and the given file to be opened is not a directory file, or if the caller specified an inconsistent <i>CreateOptions</i> or <i>Disposition</i> value, the call to <b>IoCreateFile</b> will fail.
+The *CreateOptions* FILE_DIRECTORY_FILE value specifies that the file to be created or opened is a directory file. When a directory file is created, the file system creates an appropriate structure on the disk to represent an empty directory for that particular file system's on-disk structure. If this option was specified and the given file to be opened is not a directory file, or if the caller specified an inconsistent *CreateOptions* or *Disposition* value, the call to **IoCreateFile** will fail.
 
-The <i>CreateOptions</i> FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this value places certain restrictions on the caller's parameters to the <b>Zw<i>Xxx</i>File</b> routines, including the following:
+The *CreateOptions* FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this value places certain restrictions on the caller's parameters to the **Zw*Xxx*File** routines, including the following:
 
-<ul>
-<li>
-Any optional <i>ByteOffset</i> passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be an integral of the sector size.
+* Any optional *ByteOffset* passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be an integral of the sector size.
 
-</li>
-<li>
-The <i>Length</i> passed to <b>ZwReadFile</b> or <b>ZwWriteFile</b>, must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
+* The *Length* passed to **ZwReadFile** or **ZwWriteFile**, must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
 
-</li>
-<li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFile</b> to get a handle for the file object that represents the physical device, and, then, calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+* Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling **IoCreateFile** to get a handle for the file object that represents the physical device, and, then, calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_*XXX*_ALIGNMENT values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
-</li>
-<li>
-Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is an integral of the sector size.
+* Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is an integral of the sector size.
 
-</li>
-</ul>
-The <i>CreateOptions</i> FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. With either of these <i>CreateOptions</i>, the <i>DesiredAccess</i> SYNCHRONIZE flag must be set so that the I/O manager will use the file object as a synchronization object. With either of these <i>CreateOptions</i> set, the I/O manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to <b>ZwReadFile</b> and <b>ZwWriteFile</b>. Its position also can be queried or set with <b>ZwQueryInformationFile</b> and <b>ZwSetInformationFile</b>.
+The *CreateOptions* FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads using the returned handle. With either of these *CreateOptions*, the *DesiredAccess* SYNCHRONIZE flag must be set so that the I/O manager will use the file object as a synchronization object. With either of these *CreateOptions* set, the I/O manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to **ZwReadFile** and **ZwWriteFile**. Its position also can be queried or set with **ZwQueryInformationFile** and **ZwSetInformationFile**.
 
-If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is <u>not</u> specified and <b>IoCreateFile</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file. If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does <u>not</u> occur and <b>IoCreateFile</b> attempts to directly open the reparse point file. In either case, if the open operation was successful, <b>IoCreateFile</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>IoCreateFile</b> never returns STATUS_REPARSE.
+If the *CreateOptions* FILE_OPEN_REPARSE_POINT flag is <u>not</u> specified and **IoCreateFile** attempts to open a file with a reparse point, normal reparse point processing occurs for the file. If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does <u>not</u> occur and **IoCreateFile** attempts to directly open the reparse point file. In either case, if the open operation was successful, **IoCreateFile** returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. **IoCreateFile** never returns STATUS_REPARSE.
 
-The <i>CreateOptions</i> FILE_OPEN_REQUIRING_OPLOCK flag eliminates the time between when you open the file and request an oplock that could potentially enable a third party to open the file and get a sharing violation. An application can use the FILE_OPEN_REQUIRING_OPLOCK flag on <b>IoCreateFile</b> and then request any oplock. This ensures that an oplock owner will be notified of any later open request that causes a sharing violation.
+The *CreateOptions* FILE_OPEN_REQUIRING_OPLOCK flag eliminates the time between when you open the file and request an oplock that could potentially enable a third party to open the file and get a sharing violation. An application can use the FILE_OPEN_REQUIRING_OPLOCK flag on **IoCreateFile** and then request any oplock. This ensures that an oplock owner will be notified of any later open request that causes a sharing violation.
 
 In Windows 7, if other handles exist on the file when an application uses the FILE_OPEN_REQUIRING_OPLOCK flag, the create operation will fail with STATUS_OPLOCK_NOT_GRANTED. This restriction no longer exists starting with Windows 8.
 
@@ -593,53 +559,28 @@ If this create operation would break an oplock that already exists on the file, 
 
 An application that uses the FILE_OPEN_REQUIRING_OPLOCK flag must request an oplock after this call succeeds, or all subsequent attempts to open the file will be blocked without the benefit of normal oplock processing. Similarly, if this call succeeds but the subsequent oplock request fails, an application that uses this flag must close its handle after it detects that the oplock request has failed.
 
-<div class="alert"><b>Note</b>    The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2 and later versions of Windows. The Microsoft file systems that implement this flag in Windows 7 are NTFS, FAT, and exFAT.</div>
-<div> </div>
-The <i>CreateOptions</i> flag, FILE_RESERVE_OPFILTER, allows an application to request a level 1, batch, or filter oplock to prevent other applications from getting share violations. However, FILE_RESERVE_OPFILTER is only useful for filter oplocks. To use it, you must follow these steps:
+>[!NOTE]
+>The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2 and later versions of Windows. The Microsoft file systems that implement this flag in Windows 7 are NTFS, FAT, and exFAT.
 
-<ol>
-<li>
-Issue a create request with <i>CreateOptions</i> of FILE_RESERVE_OPFILTER, <i>DesiredAccess</i> of exactly FILE_READ_ATTRIBUTES, and <i>ShareAccess</i> of exactly FILE_SHARE_READ | FILE_SHARE_WRITE | FILE_SHARE_DELETE.
+The *CreateOptions* flag, FILE_RESERVE_OPFILTER, allows an application to request a level 1, batch, or filter oplock to prevent other applications from getting share violations. However, FILE_RESERVE_OPFILTER is only useful for filter oplocks. To use it, you must follow these steps:
 
-<ul>
-<li>
-If there are already open handles, the create request fails with STATUS_OPLOCK_NOT_GRANTED, and the next requested oplock also fails.
+1. Issue a create request with *CreateOptions* of FILE_RESERVE_OPFILTER, *DesiredAccess* of exactly FILE_READ_ATTRIBUTES, and *ShareAccess* of exactly FILE_SHARE_READ | FILE_SHARE_WRITE | FILE_SHARE_DELETE.
+    * If there are already open handles, the create request fails with STATUS_OPLOCK_NOT_GRANTED, and the next requested oplock also fails.
+    * If you open with more access or less sharing will also cause a failure of STATUS_OPLOCK_NOT_GRANTED.
+2. If the create request succeeds, request an oplock.
+3. Open another handle to the file to do I/O.
 
-</li>
-<li>
-If you open with more access or less sharing will also cause a failure of STATUS_OPLOCK_NOT_GRANTED.
+Step 3 makes this practical only for filter oplocks. The handle opened in step 3 can have a *DesiredAccess* that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a filter oplock. However, any *DesiredAccess* greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a level 1 or batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
 
-</li>
-</ul>
-</li>
-<li>
-If the create request succeeds, request an oplock.
+The *Options* IO_NO_PARAMETER_CHECKING flag can be useful if a driver is issuing a kernel-mode create request on behalf of an operation initiated by a user-mode application. Because the request occurs within a user-mode context, the I/O manager, by default, probes the supplied parameter values, which can cause an access violation if the parameters are kernel-mode addresses. This flag enables the caller to override this default behavior and avoid the access violation.
 
-</li>
-<li>
-Open another handle to the file to do I/O.
-
-</li>
-</ol>
-Step 3 makes this practical only for filter oplocks. The handle opened in step 3 can have a <i>DesiredAccess</i> that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a filter oplock. However, any <i>DesiredAccess</i> greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a level 1 or batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
-
-The <i>Options</i> IO_NO_PARAMETER_CHECKING flag can be useful if a kernel-mode create request is issued in the context of an operation initiated by a user-mode application. Because the request occurs within a user-mode context, the I/O manager, by default, probes the supplied parameter values, which can cause an access violation if the parameters are kernel-mode addresses. This flag enables the caller to override this default behavior and avoid the access violation.
+For create requests originating in user mode, if the driver sets both IO_NO_PARAMETER_CHECKING and IO_FORCE_ACCESS_CHECK in the *Options* parameter of **IoCreateFile** then it should also set OBJ_FORCE_ACCESS_CHECK in the *ObjectAttributes* parameter. For info on this flag, see the **Attributes** member of [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes).
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateFile</b>. This restricts the use of the handle returned by <b>IoCreateFile</b> to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute as follows.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFile**. This restricts the use of the handle returned by **IoCreateFile** to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
-</td>
-</tr>
-</table></span></div>
-
+```InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);```
 
 
 ## -see-also
