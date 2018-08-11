@@ -476,11 +476,11 @@ A [FILE_DESIRED_STORAGE_CLASS_INFORMATION] structure, declared in ntifs.h.  This
 
 ### -field FileStatInformation
 
-A [**FILE_STAT_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+A **FILE_STAT_INFORMATION** structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
 
 ### -field FileMemoryPartitionInformation
 
-A [**FILE_MEMORY_PARTITION_INFORMATION**](..\ntifs\ns-ntifs-_file_memory_partition_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+A **FILE_MEMORY_PARTITION_INFORMATION** structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 
 ### -field FileStatLxInformation 
