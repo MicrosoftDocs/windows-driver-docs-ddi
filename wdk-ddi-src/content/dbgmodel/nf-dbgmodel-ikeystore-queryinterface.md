@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 59ec40a9-117e-4f05-a2df-8a44d0d1f556
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IKeyStore::QueryInterface, QueryInterface, IKeyStore.QueryInterface, IKeyStore::QueryInterface, IKeyStore.QueryInterface
 req.header: dbgmodel.h
@@ -44,17 +44,32 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 
-### -param iid
 
-### -param iface
+## -returns
+This method returns HRESULT that indicates success or failure.
+
+## -remarks
+
+
+## -see-also
+
+[IKeyStore interface](nn-dbgmodel-ikeystore.md)
+
 
 
 ## -returns
 This method returns HRESULT.
+
 ## -remarks
+**Code Sample**
+
+```
+```
 
 ## -see-also
+
+[IKeyStore interface](nn-dbgmodel-ikeystore.md)

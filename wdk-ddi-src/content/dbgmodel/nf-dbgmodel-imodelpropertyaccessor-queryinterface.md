@@ -55,6 +55,9 @@ Standard Com Method. See [QueryInterface: Navigating in an Object](https://docs.
 
 ## -returns
 This method returns HRESULT.
+
 ## -remarks
 
 ## -see-also
+
+[IModelPropertyAcessor interface](nn-dbgmodel-imodelpropertyaccessor.md)

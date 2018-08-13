@@ -124,5 +124,4 @@ private:
 
 ## -see-also
 
-
 [IModelPropertyAcessor interface](nn-dbgmodel-imodelpropertyaccessor.md)

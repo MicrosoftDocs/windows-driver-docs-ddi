@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: aead1e27-6a4e-4e94-be63-73099198d4cf
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyStore::Release, Release, IKeyStore.Release, IKeyStore::Release, IKeyStore.Release
 req.header: dbgmodel.h
@@ -44,13 +44,17 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
+
 ## -see-also
+
+[IKeyStore interface](nn-dbgmodel-ikeystore.md)

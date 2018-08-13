@@ -118,7 +118,7 @@ private:
     int m_value;
 };
 ```
-## -see-also
 
+## -see-also
 
 [IModelPropertyAcessor interface](nn-dbgmodel-imodelpropertyaccessor.md)

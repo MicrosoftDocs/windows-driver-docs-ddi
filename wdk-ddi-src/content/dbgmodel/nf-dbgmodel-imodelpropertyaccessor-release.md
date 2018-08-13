@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IModelPropertyAcessor interface](nn-dbgmodel-imodelpropertyaccessor.md)

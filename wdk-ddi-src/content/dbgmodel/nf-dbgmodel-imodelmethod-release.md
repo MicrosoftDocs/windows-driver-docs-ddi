@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IModelMethod interface](nn-dbgmodel-imodelmethod.md)

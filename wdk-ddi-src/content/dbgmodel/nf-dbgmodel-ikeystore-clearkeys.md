@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 7fb81fa1-c09a-4995-9a28-34a2d5716625
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyStore::ClearKeys, ClearKeys, IKeyStore.ClearKeys, IKeyStore::ClearKeys, IKeyStore.ClearKeys
 req.header: dbgmodel.h
@@ -44,13 +44,28 @@ targetos: Windows
 
 ## -description
 
-TBD
+The ClearKeys method is analogous to the ClearKeys method on IModelObject. It will remove every key from the given metadata store. This method has no effect on any parent store. 
 
 ## -parameters
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```
+ComPtr<IKeyStore> spMetadata; /* get a metadata store */
+
+if (SUCCEEDED(spMetadata->ClearKeys()))
+{
+    // The metadata store is now empty.  A parent store may still have keys 
+    // and GetKey[Value] may find those keys and values.
+}
+```
+
 ## -see-also
+
+[IKeyStore interface](nn-dbgmodel-ikeystore.md)
