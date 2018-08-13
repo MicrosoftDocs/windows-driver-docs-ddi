@@ -2,7 +2,7 @@
 UID: NF:acpitabl.HMAT_ENTRY_LENGTH
 title: HMAT_ENTRY_LENGTH macro
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 9b3af834-8d0d-4825-8ff6-f5ff28377fcd
 ms.author: windowsdriverdev
 ms.date: 
@@ -45,12 +45,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param _Type
-TBD
+
 
 
 ## -remarks

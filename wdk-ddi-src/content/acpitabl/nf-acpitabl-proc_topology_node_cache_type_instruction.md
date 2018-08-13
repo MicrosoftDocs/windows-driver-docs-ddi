@@ -2,7 +2,7 @@
 UID: NF:acpitabl.PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION
 title: PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 95029449-5656-4098-9e83-a8fead0941fd
 ms.author: windowsdriverdev
 ms.date: 
@@ -45,12 +45,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param CacheType
-TBD
+
 
 
 ## -remarks
