@@ -28,7 +28,8 @@ api_location:
 -	ksmedia.h
 api_name: 
 -	KSPROPERTY_RTAUDIO
-product: Windows
+product:
+-   Windows
 targetos: Windows
 ---
 

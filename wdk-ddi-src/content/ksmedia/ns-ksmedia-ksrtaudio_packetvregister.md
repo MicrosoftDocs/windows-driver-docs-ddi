@@ -31,7 +31,8 @@ api_location:
 -	ksmedia.h
 api_name: 
 -	KSRTAUDIO_PACKETVREGISTER
-product: Windows
+product:
+-   Windows
 targetos: Windows
 ---
 
