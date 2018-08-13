@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4633f51c-783c-4944-8f3c-56c9ed01ac68
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelPropertyAccessor::Release, Release, IModelPropertyAccessor.Release, IModelPropertyAccessor::Release, IModelPropertyAccessor.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2a3fb86c-b9f4-4275-82e6-c6ff24f2fc4c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelObject::RemoveParentModel, RemoveParentModel, IModelObject.RemoveParentModel, IModelObject::RemoveParentModel, IModelObject.RemoveParentModel
 req.header: dbgmodel.h
@@ -44,15 +44,31 @@ targetos: Windows
 
 ## -description
 
-TBD
+The RemoveParentModel will remove a specified parent model from the parent search chain of the given object. 
 
 ## -parameters
 
 ### -param model
-
+The parent model to remove from this object.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```
+ComPtr<IModelObject> spObject;          /* get an object */
+ComPtr<IModelObject> spDataModelObject; /* get an attached data model (from earlier add or from GetParentModel) */
+
+if (SUCCEEDED(spObject->RemoveParentModel(spDataModelObject.Get())))
+{
+    // spObject no longer has the properties or concepts exposed by spDataModelObject
+}
+```
+
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)

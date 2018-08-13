@@ -41,10 +41,11 @@ targetos: Windows
 
 # IModelObject::QueryInterface
 
-
 ## -description
 
-Standard COM method.
+Standard COM method. 
+
+See [QueryInterface: Navigating in an Object](https://docs.microsoft.com/windows/desktop/com/queryinterface--navigating-in-an-object).
 
 ## -parameters
 

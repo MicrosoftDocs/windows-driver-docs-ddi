@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: db7ed6ce-3a42-4dbb-8a36-239ceca9475d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelPropertyAccessor::QueryInterface, QueryInterface, IModelPropertyAccessor.QueryInterface, IModelPropertyAccessor::QueryInterface, IModelPropertyAccessor.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard Com Method. See [QueryInterface: Navigating in an Object](https://docs.microsoft.com/windows/desktop/com/queryinterface--navigating-in-an-object).
 
 ## -parameters
 

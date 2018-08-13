@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c6bb82b4-bc7a-441f-accb-b73caf305380
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IPreferredRuntimeTypeConcept::AddRef, AddRef, IPreferredRuntimeTypeConcept.AddRef, IPreferredRuntimeTypeConcept::AddRef, IPreferredRuntimeTypeConcept.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
