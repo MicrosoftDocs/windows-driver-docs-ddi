@@ -75,8 +75,6 @@ typedef struct _FILE_LINK_INFORMATION {
 ## -struct-fields
 
 
-
-
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
 Set to <b>TRUE</b> to specify that if the link already exists, it should be replaced with the new link. Set to <b>FALSE</b> if the link creation operation should fail if the link already exists. 
@@ -85,13 +83,13 @@ Set to <b>TRUE</b> to specify that if the link already exists, it should be repl
 
 Here are the possible values:
 
-FILE_LINK_REPLACE_IF_EXISTS
-FILE_LINK_POSIX_SEMANTICS
-FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE  
-FILE_LINK_NO_INCREASE_AVAILABLE_SPACE
-FILE_LINK_NO_DECREASE_AVAILABLE_SPACE
-FILE_LINK_PRESERVE_AVAILABLE_SPACE
-FILE_LINK_IGNORE_READONLY_ATTRIBUTE
+- FILE_LINK_REPLACE_IF_EXISTS
+- FILE_LINK_POSIX_SEMANTICS
+- FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE  
+- FILE_LINK_NO_INCREASE_AVAILABLE_SPACE
+- FILE_LINK_NO_DECREASE_AVAILABLE_SPACE
+- FILE_LINK_PRESERVE_AVAILABLE_SPACE
+- FILE_LINK_IGNORE_READONLY_ATTRIBUTE
 
 ### -field RootDirectory
 
