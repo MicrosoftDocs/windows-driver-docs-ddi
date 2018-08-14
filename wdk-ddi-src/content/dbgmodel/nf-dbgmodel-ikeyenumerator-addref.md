@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 70cde105-08c7-4fc5-8731-fe85bef95872
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::AddRef, AddRef, IKeyEnumerator.AddRef, IKeyEnumerator::AddRef, IKeyEnumerator.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,8 @@ targetos: Windows
 
 ## -description
 
-TBD
+
+Standard COM Method.
 
 ## -parameters
 
@@ -54,3 +55,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IKeyEnumerator interface](nn-dbgmodel-ikeyenumerator.md)

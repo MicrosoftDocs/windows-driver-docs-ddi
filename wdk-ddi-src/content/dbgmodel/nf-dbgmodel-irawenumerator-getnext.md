@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 64162d89-113d-4383-ba11-d984a16c801b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018  
 ms.topic: method
 ms.keywords: IRawEnumerator::GetNext, GetNext, IRawEnumerator.GetNext, IRawEnumerator::GetNext, IRawEnumerator.GetNext
 req.header: dbgmodel.h
@@ -44,7 +44,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+Moves the iterator forward and fetches the name of the raw element and, optionally, its value (or a reference to it) and what kind of element it is. Note that depending on how this enumerator was acquired, the object returned in the value field may be the value of the raw element (EnumerateRawValues) or a reference to the raw element (EnumerateRawReferences).
+    
+If there was an error in reading the value of the raw element (for EnumerateRawValues, for instance), the method may return an error *AND* fill value with an error object. When the enumerator hits the end of the sequence, E_BOUNDS will be returned.
 
 ## -parameters
 
@@ -60,3 +62,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IRawEnumerator interface](nn-dbgmodel-irawenumerator.md)

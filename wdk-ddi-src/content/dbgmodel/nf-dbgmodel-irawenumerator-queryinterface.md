@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e98eeb95-89ff-4112-8562-8cf0d6f13050
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IRawEnumerator::QueryInterface, QueryInterface, IRawEnumerator.QueryInterface, IRawEnumerator::QueryInterface, IRawEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IRawEnumerator interface](nn-dbgmodel-irawenumerator.md)

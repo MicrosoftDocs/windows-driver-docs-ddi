@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 72ad0098-17a6-40ab-a9c6-f994017f5957
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IRawEnumerator::Release, Release, IRawEnumerator.Release, IRawEnumerator::Release, IRawEnumerator.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IRawEnumerator interface](nn-dbgmodel-irawenumerator.md)

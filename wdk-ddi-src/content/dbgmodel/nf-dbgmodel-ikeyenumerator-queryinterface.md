@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4f870fe7-0c4f-4cf0-aa73-78802329d35d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::QueryInterface, QueryInterface, IKeyEnumerator.QueryInterface, IKeyEnumerator::QueryInterface, IKeyEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,8 @@ targetos: Windows
 
 ## -description
 
-TBD
+
+Standard COM Method.
 
 ## -parameters
 
@@ -59,3 +60,5 @@ This method returns HRESULT that indicates success or failure.
 ## -remarks
 
 ## -see-also
+
+[IKeyEnumerator interface](nn-dbgmodel-ikeyenumerator.md)
