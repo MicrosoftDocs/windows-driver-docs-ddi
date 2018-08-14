@@ -38,7 +38,7 @@ targetos: Windows
 # _FILE_STORAGE_RESERVE_ID_INFORMATION structure
 
 ## -description
-The structure is used by the [**NtQueryInformationFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile) and [**NtSetInformationFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile) routines to query and set the storage reserve ID on a file or directory.
+The structure is used by [**NtQueryInformationFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile) and [**NtSetInformationFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile) routines to query and set the storage reserve ID on a file or directory.
 
 ## -struct-fields
 
