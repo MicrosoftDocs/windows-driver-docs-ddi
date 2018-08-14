@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4e8442a9-7b3d-4b23-9182-cfc3771ac05f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference::AddRef, AddRef, IModelKeyReference.AddRef, IModelKeyReference::AddRef, IModelKeyReference.AddRef
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IModelKeyReference interface](nn-dbgmodel-imodelkeyreference.md)

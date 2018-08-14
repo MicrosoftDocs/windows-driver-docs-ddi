@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: bfb61278-8eac-47e5-9900-aed8b31370c5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference2::GetKeyName, GetKeyName, IModelKeyReference2.GetKeyName, IModelKeyReference2::GetKeyName, IModelKeyReference2.GetKeyName
 req.header: dbgmodel.h
@@ -44,15 +44,37 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetKeyName method returns the name of the key to which this key reference is a handle. The returned string is a standard BSTR and must be freed via a call to SysFreeString. 
 
 ## -parameters
 
 ### -param keyName
-
+The name of the key to which this key reference is a handle will be returned here as an allocated string.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```
+ComPtr<IModelObject> spObject; /* get an object */
+
+ComPtr<IModelKeyReference> spKeyRef;
+if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
+{
+    // The key reference is a reference to the Id key.  The name returned 
+    // should be "Id"
+    BSTR returnedKeyName;
+    if (SUCCEEDED(spKeyRef->Getname(&returnedKeyName)))
+    {
+        // returnedKeyName is "Id"
+        SysFreeString(returnedKeyName);
+    }
+}
+```
+
 ## -see-also
+
+[IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)

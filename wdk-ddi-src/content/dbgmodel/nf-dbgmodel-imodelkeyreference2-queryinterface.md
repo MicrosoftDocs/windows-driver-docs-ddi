@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 38a12b94-44d2-45f1-820a-abbaa1e78ecc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference2::QueryInterface, QueryInterface, IModelKeyReference2.QueryInterface, IModelKeyReference2::QueryInterface, IModelKeyReference2.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)
