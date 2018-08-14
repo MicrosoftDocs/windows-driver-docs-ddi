@@ -62,11 +62,15 @@ A pointer to the datapath queue's [NET_DATAPATH_DESCRIPTOR](../netdatapathdescri
 This method does not return a value.
 
 ## -remarks
+
+> [!IMPORTANT]
+> This method must only be called within the context of *EvtTx(Rx)QueueAdvance* or *EvtTx(Rx)QueueCancel*. At no other time should the client driver call this helper method, or any other helper method, that modifies the **BeginIndex** of either the fragment or packet ring buffers.
+
 Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor structure for the queue with which you're working.
 
 The NetAdapter data path requires packets to be completed in the order that they are given to your driver. If your driver can complete some packets out of order, you can use **NetRingBufferReturnCompletedPackets** to simplify your completion path.
 
-To use this convenience function, first set the **Completed** flag on the first fragment of all packets with which your driver is finished, whether the packets were processed successfully or not. Then, call **NetRingBufferReturnCompletedPackets** to batch the completion of all consecutive packets for which the first fragment has the **Completed** flag set.
+To use this convenience method, first set the **Completed** flag on the first fragment of all packets with which your driver is finished, whether the packets were processed successfully or not. Then, call **NetRingBufferReturnCompletedPackets** to batch the completion of all consecutive packets for which the first fragment has the **Completed** flag set.
 
 **NetRingBufferReturnCompletedPackets** completes packets by writing a new value to the **BeginIndex** of the ring buffer.
 
