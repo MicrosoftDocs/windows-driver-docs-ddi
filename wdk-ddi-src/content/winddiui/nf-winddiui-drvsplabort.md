@@ -2,7 +2,7 @@
 UID: NF:winddiui.DrvSplAbort
 title: DrvSplAbort function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\drvsplabort.htm
 tech.root: print
 ms.assetid: b40dff76-4330-4527-b1f6-69f625732604

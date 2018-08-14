@@ -2,7 +2,7 @@
 UID: NE:prdrvcom.tagSHIMOPTS
 title: tagSHIMOPTS
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\shimopts.htm
 tech.root: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6

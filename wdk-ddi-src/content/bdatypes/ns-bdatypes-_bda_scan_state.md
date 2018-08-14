@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_SCAN_STATE
 title: "_BDA_SCAN_STATE"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_scan_state.htm
 tech.root: stream
 ms.assetid: C80506D2-AAB6-4A37-A62F-CDDD3DCBC7F1

@@ -90,7 +90,7 @@ The size of the <a href="https://msdn.microsoft.com/240e14d1-d8ee-403c-b728-b149
 
 ### -param pPrintPropertiesCollection
 
-TBD
+
 
 
 

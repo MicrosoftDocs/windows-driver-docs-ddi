@@ -92,7 +92,7 @@ The OEM object that is being called should set the value pointed to by this para
 
 ### -param pDevModeFlags
 
-TBD
+
 
 
 ### -param cNamespaces [out]

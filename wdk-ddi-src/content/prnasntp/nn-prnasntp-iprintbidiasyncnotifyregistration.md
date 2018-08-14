@@ -2,7 +2,7 @@
 UID: NN:prnasntp.IPrintBidiAsyncNotifyRegistration
 title: IPrintBidiAsyncNotifyRegistration
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintbidiasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: A187FD9F-8A2E-4B98-8CC4-C0AC66D6FB08

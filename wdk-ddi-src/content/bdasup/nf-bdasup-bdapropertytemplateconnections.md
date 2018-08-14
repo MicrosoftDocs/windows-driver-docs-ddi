@@ -61,7 +61,7 @@ The <b>BdaPropertyTemplateConnections</b> function retrieves a list of connectio
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

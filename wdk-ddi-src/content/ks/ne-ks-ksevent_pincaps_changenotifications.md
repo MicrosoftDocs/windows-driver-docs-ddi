@@ -2,7 +2,7 @@
 UID: NE:ks.KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksevent_pincaps_changenotifications.htm
 tech.root: stream
 ms.assetid: FC46144A-8343-4C1F-8061-4C9DCAB22370

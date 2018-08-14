@@ -66,7 +66,7 @@ Indicates the file object to fill in the first stack location with.
 
 ### -param RequestorMode
 
-TBD
+
 
 
 ### -param IoControl [in]

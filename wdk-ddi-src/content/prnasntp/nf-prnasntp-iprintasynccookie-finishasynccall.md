@@ -2,7 +2,7 @@
 UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
 title: IPrintAsyncCookie::FinishAsyncCall
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintasyncnotify_finishasynccall.htm
 tech.root: print
 ms.assetid: 4E2D11E9-9399-48C5-8EA8-B17FBB6625FF

@@ -2,7 +2,7 @@
 UID: NF:winddiui.DrvSplEndDoc
 title: DrvSplEndDoc function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\drvsplenddoc.htm
 tech.root: print
 ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c

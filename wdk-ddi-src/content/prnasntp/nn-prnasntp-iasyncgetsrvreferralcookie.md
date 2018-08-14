@@ -2,7 +2,7 @@
 UID: NN:prnasntp.IAsyncGetSrvReferralCookie
 title: IAsyncGetSrvReferralCookie
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iasyncgetsrvreferralcookie.htm
 tech.root: print
 ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
