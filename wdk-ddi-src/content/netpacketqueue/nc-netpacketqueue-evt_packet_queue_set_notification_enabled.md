@@ -83,6 +83,8 @@ This callback function does not return a value.
 
 ## -remarks
 
+This callback indicates to a client driver that polling (of [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) or [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md)) will stop and will not continue until the client driver calls [**NetTxQueueNotifyMoreCompletedPacketsAvailable**](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) or [**NetRxQueueNotifyMoreReceivedPacketsAvailable**](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md). Typically, a PCI device uses this callback to enable Tx or Rx interrupts. Once an interrupt is received, interrupts can be disabled again and the client driver calls **NetTxQueueNotifyMoreCompletedPacketsAvailable** or **NetRxQueueNotifyMoreReceivedPacketsAvailable** to trigger the framework to begin polling again.
+
 Register this callback function in your *EVT_NET_ADAPTER_CREATE_TX(RX)QUEUE* callback. Set the appropriate member of a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure when you are initializing the structure with [**NET_PACKET_QUEUE_CONFIG_INIT**](nf-netpacketqueue-net_packet_queue_config_init.md), then call **NetTx(Rx)QueueCreate**.
 
 NetAdapterCx serializes this callback function along with the packet queue's [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md) and [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) callback functions.
@@ -91,13 +93,13 @@ For more info and a diagram showing the NetAdapterCx data path polling model, se
 
 ### Transmit queue example
 
-For a PCI NIC, enabling transmit queue notification typically means enabling the transmit queue's hardware interrupt. When the hardware interrupt fires, the client calls [NetTxQueueNotifyMoreCompletedPacketsAvailable](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) from its DPC.
+For a PCI NIC, enabling transmit queue notification typically means enabling the transmit queue's hardware interrupt. When the hardware interrupt fires, the client calls [**NetTxQueueNotifyMoreCompletedPacketsAvailable**](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) from its DPC.
 
 Similarly, for a PCI NIC, disabling queue notification means disabling the interrupt associated with the queue.
 
-For a device that has an asynchronous I/O model, the client typically uses an internal flag to track the enabled state. When an asynchronous operation completes, the completion handler checks this flag and calls [NetTxQueueNotifyMoreCompletedPacketsAvailable](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) if it is set.
+For a device that has an asynchronous I/O model, the client typically uses an internal flag to track the enabled state. When an asynchronous operation completes, the completion handler checks this flag and calls [**NetTxQueueNotifyMoreCompletedPacketsAvailable**](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) if it is set.
 
-If NetAdapterCx calls *EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED* with *NotificationEnabled* set to **FALSE**, the client must not call [NetTxQueueNotifyMoreCompletedPacketsAvailable](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) until NetAdapterCx next calls this callback function with *NotificationEnabled* set to **TRUE**.
+If NetAdapterCx calls *EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED* with *NotificationEnabled* set to **FALSE**, the client must not call [**NetTxQueueNotifyMoreCompletedPacketsAvailable**](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) until NetAdapterCx next calls this callback function with *NotificationEnabled* set to **TRUE**.
 
 For example:
 
@@ -127,7 +129,7 @@ MyEvtTxInterruptDpc(
 
 ### Receive queue example
 
-For a PCI NIC, enabling receive queue notification typically means enabling the receive queue's hardware interrupt. When the hardware interrupt fires, the client calls [NetRxQueueNotifyMoreReceivedPacketsAvailable](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md) from its DPC.
+For a PCI NIC, enabling receive queue notification typically means enabling the receive queue's hardware interrupt. When the hardware interrupt fires, the client calls [**NetRxQueueNotifyMoreReceivedPacketsAvailable**](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md) from its DPC.
 
 For example:
 
@@ -155,7 +157,7 @@ MyEvtRxInterruptDpc(
 }
 ```
 
-For a USB device, or any other queue with a software receive completion mechanism, the client driver should track in its own Context whether the queue's notification is enabled. From the completion routine (triggered for example when a message becomes available in the USB continuous reader), call [NetRxQueueNotifyMoreReceivedPacketsAvailable](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md) if the notification is enabled. The following example shows how you might do this.
+For a USB device, or any other queue with a software receive completion mechanism, the client driver should track in its own Context whether the queue's notification is enabled. From the completion routine (triggered for example when a message becomes available in the USB continuous reader), call [**NetRxQueueNotifyMoreReceivedPacketsAvailable**](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md) if the notification is enabled. The following example shows how you might do this.
 
 ```C++
 VOID
@@ -205,3 +207,7 @@ UsbEvtReaderCompletionRoutine(
 [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md)
 
 [*EVT_PACKET_QUEUE_STOP*](nc-netpacketqueue-evt_packet_queue_stop.md)
+
+[**NetTxQueueNotifyMoreCompletedPacketsAvailable**](../nettxqueue/nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md)
+
+[**NetRxQueueNotifyMoreReceivedPacketsAvailable**](../netrxqueue/nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md)
