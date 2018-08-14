@@ -473,7 +473,7 @@ A [**FILE_STAT_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_information.md) struc
 
 ### -field FileMemoryPartitionInformation
 
-A [**FILE_MEMORY_PARTITION_INFORMATION**](..\ntifs\ns-ntifs-_file_memory_partition_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
+Reserved. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatLxInformation 
 A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update. 
@@ -482,10 +482,10 @@ A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md)
 A [**FILE_CASE_SENSITIVE_INFORMATION**](..\ntifs\ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileLinkInformationEx
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure. This value is available starting with Windows 10, version 1809.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1809.
 
 ### -field FileLinkInformationExBypassAccessCheck
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RENAME_INFORMATION</a> structure which contains additional flags. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure which contains additional flags.
 
 This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation
 is only recognized by the <i>IOManager</i> and a file system should never receive it.
