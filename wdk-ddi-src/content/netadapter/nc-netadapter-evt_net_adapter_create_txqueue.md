@@ -118,6 +118,10 @@ EvtAdapterCreateTxQueue(
         EvtTxQueueSetNotificationEnabled,
         EvtTxQueueCancel);
 
+    // Optional: register the queue's start and stop callbacks
+    txConfig.EvtStart = EvtTxQueueStart;
+    txConfig.EvtStop = EvtTxQueueStop;
+
     // Initialize the first default packet context
     NET_PACKET_CONTEXT_ATTRIBUTES myTxContextAttributes;
     NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE(&myTxContextAttributes, MY_DEFAULT_TX_PACKET_CONTEXT);

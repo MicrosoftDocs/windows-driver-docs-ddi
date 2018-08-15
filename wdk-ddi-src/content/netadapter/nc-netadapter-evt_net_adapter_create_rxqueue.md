@@ -121,6 +121,10 @@ EvtAdapterCreateRxQueue(
         EvtRxQueueSetNotificationEnabled,
         EvtRxQueueCancel);
 
+    // Optional: register the queue's start and stop callbacks
+    rxConfig.EvtStart = EvtRxQueueStart;
+    rxConfig.EvtStop = EvtRxQueueStop;
+
     // Initialize the per-packet context
     NET_PACKET_CONTEXT_ATTRIBUTES myRxContextAttributes;
     NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE(&myRxContextAttributes, MY_RXQUEUE_PACKET_CONTEXT);
