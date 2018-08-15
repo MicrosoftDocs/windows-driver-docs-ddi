@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 55ad88f7-ef21-40b8-a496-cb2d015080e5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHost::GetHostDefinedInterface, GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface, IDebugHost::GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface
 req.header: dbgmodel.h
@@ -44,15 +44,37 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetHostDefinedInterface method returns the host's main private interface, if such exists for the given host. For Debugging Tools for Windows, the interface returned here is an IDebugClient (cast to IUnknown). 
 
 ## -parameters
 
 ### -param hostUnk
-
+The debug host's core private interface is returned here. For Debugging Tools for Windows, this is an IDebugClient interface.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure. A host which does not have a private interface that it wishes to expose to data model clients may return E_NOTIMPL here.
+
 ## -remarks
 
+**Code Sample**
+
+```
+ComPtr<IDebugHost> spHost; /* get the debug host */
+
+// Get the debug host private interface back from the host interfaces.  
+// This is **HOST SPECIFIC**
+ComPtr<IUnknown> spPrivate;
+if (SUCCEEDED(spHost->GetHostDefinedInterface(&spPrivate)))
+{
+    // As an example, consider DbgEng:
+    ComPtr<IDebugClient> spClient;
+    if (SUCCEEDED(spPrivate.As(&spClient)))
+    {
+        // spClient now contains a DbgEng IDebugClient!
+    }
+}
+```
+
 ## -see-also
+
+[IDebugHost interface](nn-dbgmodel-idebughost.md)

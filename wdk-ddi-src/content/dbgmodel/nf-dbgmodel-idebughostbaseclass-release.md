@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c4822de7-ae21-4682-8aac-78865a72d0fe
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::Release, Release, IDebugHostBaseClass.Release, IDebugHostBaseClass::Release, IDebugHostBaseClass.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM Method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDebugHostBaseClass interface](nn-dbgmodel-idebughostbaseclass.md)

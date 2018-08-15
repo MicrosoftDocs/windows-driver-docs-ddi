@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5a77b1fc-e62b-4017-bfc1-db4c3c96e0b5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::EnumerateChildren, EnumerateChildren, IDebugHostBaseClass.EnumerateChildren, IDebugHostBaseClass::EnumerateChildren, IDebugHostBaseClass.EnumerateChildren
 req.header: dbgmodel.h
@@ -56,7 +56,14 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```
+```
 ## -see-also
+
+[IDebugHostBaseClass interface](nn-dbgmodel-idebughostbaseclass.md)
