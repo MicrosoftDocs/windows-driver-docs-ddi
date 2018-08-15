@@ -2,7 +2,7 @@
 UID: NF:wdm.ExAcquirePushLockExclusive
 title: ExAcquirePushLockExclusive macro
 author: windows-driver-content
-description: TBD
+description: Acquires the given push lock for exclusive access by the calling thread.
 ms.assetid: ba752619-f885-4977-b0e6-7c0339373b78
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,14 +44,14 @@ targetos: Windows
 
 ## -description
 
-Acquire a slim readers/writer lock (SRWLock) exclusively.
+Acquires the given push lock for exclusive access by the calling thread.
 
 ## -parameters
 
 ### -param Lock
-Opaque push lock pointer. This pointer must have been initialized by a previous call to FltInitializePushLock.
-
+Opaque push lock pointer. This pointer must have been initialized by a previous call to [**FltInitializePushLock**](nf-wdm-exinitializepushlock.md).
 
 ## -remarks
+The caller is required call KeEnter/LeaveCriticalRegion before calling FltAcquirePushLockExclusive. 
 
 ## -see-also

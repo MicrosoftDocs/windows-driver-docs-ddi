@@ -38,7 +38,7 @@ targetos: Windows
 # _FILE_STAT_LX_INFORMATION structure
 
 ## -description
-The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
+The _FILE_STAT_LX_INFORMATION structure contains metadata extended attributes present on the file.
 
 ## -struct-fields
 
@@ -116,11 +116,14 @@ Specifies the User id of the file
 Specifies the Group id of the file
 
 ### -field LxMode
+Specifies the Linux file type (S_IFREG, S_IFDIR, S_IFLNK, S_IFSOCK, S_IFIFO, S_IFCHR or S_IFBLK) and file system permissions.
+
  
 ### -field LxDeviceIdMajor
+For device files (S_IFCHR or S_IFBLK), specifies the device major number. For other file types, this field is not used.
  
 ### -field LxDeviceIdMinor
- 
+For device files (S_IFCHR or S_IFBLK), specifies the device minor number. For other file types, this field is not used. 
 
 ## -remarks
 
