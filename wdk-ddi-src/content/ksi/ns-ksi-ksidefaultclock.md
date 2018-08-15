@@ -2,7 +2,7 @@
 UID: NS:ksi.KSIDEFAULTCLOCK
 title: KSIDEFAULTCLOCK
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksidefaultclock.htm
 tech.root: stream
 ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1

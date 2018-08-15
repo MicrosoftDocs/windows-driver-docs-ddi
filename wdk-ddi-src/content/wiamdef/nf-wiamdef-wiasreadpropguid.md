@@ -70,12 +70,12 @@ Specifies the property identifier.
 
 ### -param pguidVal
 
-TBD
+
 
 
 ### -param pguidValOld
 
-TBD
+
 
 
 ### -param bMustExist

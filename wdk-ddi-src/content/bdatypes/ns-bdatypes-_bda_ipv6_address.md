@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_IPv6_ADDRESS
 title: "_BDA_IPv6_ADDRESS"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_ipv6_address.htm
 tech.root: stream
 ms.assetid: 50D52380-1FBE-4046-A7DC-8415501D7FA6

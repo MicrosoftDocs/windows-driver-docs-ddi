@@ -60,12 +60,12 @@ Obsolete. Do not use.
 
 ### -param HwDeviceExtension
 
-TBD
+
 
 
 ### -param StreamDescriptorSize
 
-TBD
+
 
 
 

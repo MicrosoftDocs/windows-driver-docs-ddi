@@ -2,7 +2,7 @@
 UID: NE:ksi.KSPROPERTY_SERVICE
 title: KSPROPERTY_SERVICE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_service.htm
 tech.root: stream
 ms.assetid: 771027AA-E64D-4AC8-9C52-D1F96A761FAD

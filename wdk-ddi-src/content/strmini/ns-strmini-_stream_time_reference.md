@@ -2,7 +2,7 @@
 UID: NS:strmini._STREAM_TIME_REFERENCE
 title: "_STREAM_TIME_REFERENCE"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\stream_time_reference.htm
 tech.root: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A

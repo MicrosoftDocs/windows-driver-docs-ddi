@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_CAS_CHECK_ENTITLEMENTTOKEN
 title: "_BDA_CAS_CHECK_ENTITLEMENTTOKEN"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_cas_check_entitlementtoken.htm
 tech.root: stream
 ms.assetid: B6B645DF-AB4C-42FE-A664-AF9C9DD4F9E6

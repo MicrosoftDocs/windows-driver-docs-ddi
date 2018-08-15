@@ -70,7 +70,7 @@ Caller-supplied handle of the window that should be used as the parent for dialo
 
 ### -param pszMonitorNameIn
 
-TBD
+
 
 
 ### -param ppszPortNameOut [out, optional]

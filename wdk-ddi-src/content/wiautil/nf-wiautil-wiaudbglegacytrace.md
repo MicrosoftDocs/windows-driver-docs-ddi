@@ -60,12 +60,12 @@ The <b>wiauDbgLegacyTrace</b> function logs a trace message.
 
 ### -param fmt
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

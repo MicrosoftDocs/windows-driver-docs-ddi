@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_QUALITY
 title: KSPROPERTY_QUALITY
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_quality.htm
 tech.root: stream
 ms.assetid: 6350A740-BD69-40C3-804A-075F9889865B

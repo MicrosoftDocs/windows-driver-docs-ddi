@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_TOPOLOGY
 title: KSPROPERTY_TOPOLOGY
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_topology.htm
 tech.root: stream
 ms.assetid: 9C000B4B-DB21-41E1-9AF0-D3B92EAC070B

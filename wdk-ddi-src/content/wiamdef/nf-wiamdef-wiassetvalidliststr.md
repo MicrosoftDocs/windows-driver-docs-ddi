@@ -80,7 +80,7 @@ Specifies the nominal value of the property.
 
 ### -param bstrValues
 
-TBD
+
 
 
 

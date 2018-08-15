@@ -2,7 +2,7 @@
 UID: NF:winspool.PrinterMessageBoxA
 title: PrinterMessageBoxA function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\printermessageboxa.htm
 tech.root: print
 ms.assetid: 6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F

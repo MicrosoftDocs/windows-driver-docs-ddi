@@ -2,7 +2,7 @@
 UID: NE:ks.KSEVENT_CONNECTION
 title: KSEVENT_CONNECTION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksevent_connection.htm
 tech.root: stream
 ms.assetid: E85946B3-90B6-41CA-9F69-47B33AE8D851

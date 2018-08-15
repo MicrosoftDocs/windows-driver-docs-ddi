@@ -2,7 +2,7 @@
 UID: NF:winddiui.DrvSplStartDoc
 title: DrvSplStartDoc function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\drvsplstartdoc.htm
 tech.root: print
 ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2

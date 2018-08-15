@@ -2,7 +2,7 @@
 UID: NF:winsplp.SpoolerFreePrinterNotifyInfo
 title: SpoolerFreePrinterNotifyInfo function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\spoolerfreeprinternotifyinfo.htm
 tech.root: print
 ms.assetid: 5EA31AC4-FFAF-4AB8-B471-32B823F35D2F
