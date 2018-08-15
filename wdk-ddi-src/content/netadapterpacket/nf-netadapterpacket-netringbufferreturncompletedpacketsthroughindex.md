@@ -65,6 +65,10 @@ The index of the last [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) to 
 This method does not return a value.
 
 ## -remarks
+
+> [!IMPORTANT]
+> This method must only be called within the context of *EvtTx(Rx)QueueAdvance* or *EvtTx(Rx)QueueCancel*. At no other time should the client driver call this helper method, or any other helper method, that modifies the **BeginIndex** of either the fragment or packet ring buffers.
+
 Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor structure for the queue with which you're working.
 
 The NetAdapter data path requires packets to be completed in the order in which they are given to your driver. If your driver can complete some packets out of order, you can use **NetRingBufferReturnCompletedPacketsThroughIndex** to simplify your completion path.
