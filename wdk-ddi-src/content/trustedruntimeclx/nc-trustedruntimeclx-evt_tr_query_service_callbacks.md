@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+ 
 
 ## -prototype
 
@@ -76,7 +76,7 @@ Returns PTR_SECURE_SERVICE_CALLBACKS that ...
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

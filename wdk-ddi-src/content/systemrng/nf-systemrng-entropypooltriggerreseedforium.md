@@ -2,7 +2,7 @@
 UID: NF:systemrng.EntropyPoolTriggerReseedForIum
 title: EntropyPoolTriggerReseedForIum function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: e8efc920-4aea-49fa-a773-bb42d06d2e34
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   systemrng.h
 api_name: 
 -	EntropyPoolTriggerReseedForIum
 product:
@@ -45,12 +45,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param fPerformCallbacks
-TBD
+
 
 ## -returns
 This function returns VOID.

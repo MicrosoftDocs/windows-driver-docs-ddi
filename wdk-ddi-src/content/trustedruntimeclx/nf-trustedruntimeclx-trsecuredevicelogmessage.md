@@ -2,7 +2,7 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceLogMessage
 title: TrSecureDeviceLogMessage function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 16b1cdbb-3e55-406e-8755-cc5e944ad1cb
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   trustedruntimeclx.h
 api_name: 
 -	TrSecureDeviceLogMessage
 product:
@@ -45,18 +45,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param Device
-TBD
+
 ### -param Severity
-TBD
+
 ### -param Message
-TBD
+
 ### -param 
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.

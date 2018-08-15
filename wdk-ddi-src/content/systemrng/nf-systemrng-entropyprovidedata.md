@@ -2,7 +2,7 @@
 UID: NF:systemrng.EntropyProvideData
 title: EntropyProvideData function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: b4c814cc-3af9-4481-8060-6ea107e6e9a3
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   systemrng.h
 api_name: 
 -	EntropyProvideData
 product:
@@ -45,18 +45,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param hEntropySource
-TBD
+
 ### -param pbData
-TBD
+
 ### -param cbData
-TBD
+
 ### -param entropyEstimateInMilliBits
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.

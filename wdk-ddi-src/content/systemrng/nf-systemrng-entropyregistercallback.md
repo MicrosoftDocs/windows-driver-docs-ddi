@@ -2,7 +2,7 @@
 UID: NF:systemrng.EntropyRegisterCallback
 title: EntropyRegisterCallback function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 3bb67a7b-ea22-4df5-8008-469786d3ef82
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   systemrng.h
 api_name: 
 -	EntropyRegisterCallback
 product:
@@ -45,16 +45,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param hEntropySource
-TBD
+
 ### -param pCallbackFunction
-TBD
+
 ### -param context
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.

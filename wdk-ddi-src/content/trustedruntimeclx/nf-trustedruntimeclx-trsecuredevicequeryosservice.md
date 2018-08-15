@@ -2,7 +2,7 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceQueryOSService
 title: TrSecureDeviceQueryOSService function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: c0f9c4f7-d6bd-427d-954f-43539797fcd8
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   trustedruntimeclx.h
 api_name: 
 -	TrSecureDeviceQueryOSService
 product:
@@ -45,16 +45,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param Device
-TBD
+
 ### -param OSServiceGuid
-TBD
+
 ### -param Information
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.

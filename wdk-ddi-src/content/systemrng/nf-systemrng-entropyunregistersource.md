@@ -2,7 +2,7 @@
 UID: NF:systemrng.EntropyUnregisterSource
 title: EntropyUnregisterSource function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: f1574fd7-3511-40cb-a4dd-5fdc8adb6f61
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   systemrng.h
 api_name: 
 -	EntropyUnregisterSource
 product:
@@ -45,12 +45,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param hEntropySource
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.

@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+ 
 
 ## -prototype
 
@@ -80,7 +80,7 @@ Returns WDFAPI that ...
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

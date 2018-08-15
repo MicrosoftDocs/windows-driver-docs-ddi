@@ -2,7 +2,7 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceCompleteAsyncRequest
 title: TrSecureDeviceCompleteAsyncRequest function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: c41603ac-2509-4a88-920a-ec379c818ba4
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   trustedruntimeclx.h
 api_name: 
 -	TrSecureDeviceCompleteAsyncRequest
 product:
@@ -45,16 +45,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param RequestHandle
-TBD
+
 ### -param Result
-TBD
+
 ### -param BytesWritten
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.

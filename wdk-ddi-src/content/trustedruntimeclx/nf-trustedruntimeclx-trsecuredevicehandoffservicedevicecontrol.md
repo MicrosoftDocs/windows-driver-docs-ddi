@@ -2,7 +2,7 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceHandoffServiceDeviceControl
 title: TrSecureDeviceHandoffServiceDeviceControl function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: e841e346-7a6d-49a6-8a75-6425cc04513c
 ms.author: windowsdriverdev
 ms.date: 
@@ -27,10 +27,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-   HeaderDef
+api_location:
+-   trustedruntimeclx.h
 api_name: 
 -	TrSecureDeviceHandoffServiceDeviceControl
 product:
@@ -45,18 +45,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param DeviceInit
-TBD
+
 ### -param ServiceGuid
-TBD
+
 ### -param Callbacks
-TBD
+
 ### -param ServiceDevice
-TBD
+
 
 ## -returns
 This function returns NTSTATUS.
