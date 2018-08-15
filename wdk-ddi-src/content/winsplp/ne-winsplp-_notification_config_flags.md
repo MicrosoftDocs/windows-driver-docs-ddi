@@ -2,7 +2,7 @@
 UID: NE:winsplp._NOTIFICATION_CONFIG_FLAGS
 title: "_NOTIFICATION_CONFIG_FLAGS"
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\notification_config_flags.htm
 tech.root: print
 ms.assetid: B53AB706-D780-4E29-A531-51D3A9041D24

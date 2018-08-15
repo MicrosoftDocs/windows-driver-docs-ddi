@@ -60,12 +60,12 @@ The <b>wiauDbgLegacyError</b> function logs an error message.
 
 ### -param fmt
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

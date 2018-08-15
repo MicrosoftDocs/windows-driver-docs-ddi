@@ -2,7 +2,7 @@
 UID: NE:winsplp._NOTIFICATION_CALLBACK_COMMANDS
 title: "_NOTIFICATION_CALLBACK_COMMANDS"
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\notification_callback_commands.htm
 tech.root: print
 ms.assetid: D93D09AE-B0B8-4682-BBBA-1EEC952A733D

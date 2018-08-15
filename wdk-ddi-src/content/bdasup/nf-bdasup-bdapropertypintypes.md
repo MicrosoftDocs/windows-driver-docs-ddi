@@ -61,7 +61,7 @@ The <b>BdaPropertyPinTypes</b> function retrieves a list of pin types in a templ
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

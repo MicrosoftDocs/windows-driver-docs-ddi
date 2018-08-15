@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_STREAMALLOCATOR
 title: KSPROPERTY_STREAMALLOCATOR
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_streamallocator.htm
 tech.root: stream
 ms.assetid: 4731864F-01B3-42CB-A1D4-C82FDD1DCBBE

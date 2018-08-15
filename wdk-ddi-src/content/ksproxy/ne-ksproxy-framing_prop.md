@@ -2,7 +2,7 @@
 UID: NE:ksproxy.FRAMING_PROP
 title: FRAMING_PROP
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\framing_prop.htm
 tech.root: stream
 ms.assetid: EE68F14D-F76D-4D98-99FB-BD3FB93B669A

@@ -2,7 +2,7 @@
 UID: NF:filterpipeline.IPartFont2.GetFontRestriction
 title: IPartFont2::GetFontRestriction
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\ipartfont2_getfontrestriction.htm
 tech.root: print
 ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684

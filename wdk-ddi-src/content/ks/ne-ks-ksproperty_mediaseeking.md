@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_MEDIASEEKING
 title: KSPROPERTY_MEDIASEEKING
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_mediaseeking.htm
 tech.root: stream
 ms.assetid: 9B9C308B-7D0B-4549-9EE5-2E53B0B8946C

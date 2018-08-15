@@ -60,12 +60,12 @@ The WIAS_ASSERT macro writes a diagnostic message to the <i>Wiatrace.log</i> fil
 
 ### -param x
 
-TBD
+
 
 
 ### -param y
 
-TBD
+
 
 
 

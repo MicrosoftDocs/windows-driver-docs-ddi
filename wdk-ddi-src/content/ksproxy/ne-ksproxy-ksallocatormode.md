@@ -2,7 +2,7 @@
 UID: NE:ksproxy.KSALLOCATORMODE
 title: KSALLOCATORMODE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksallocatormode.htm
 tech.root: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
