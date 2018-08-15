@@ -2,7 +2,7 @@
 UID: NE:ks.KSMETHOD_STREAMALLOCATOR
 title: KSMETHOD_STREAMALLOCATOR
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksmethod_streamallocator.htm
 tech.root: stream
 ms.assetid: 2CADC0BF-D8C0-48EC-8206-E1BD61DF4AD7

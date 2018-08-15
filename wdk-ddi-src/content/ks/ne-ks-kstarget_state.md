@@ -2,7 +2,7 @@
 UID: NE:ks.KSTARGET_STATE
 title: KSTARGET_STATE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\kstarget_state.htm
 tech.root: stream
 ms.assetid: 4D18A0F0-51E9-4871-B8C1-32FAA518FAEC

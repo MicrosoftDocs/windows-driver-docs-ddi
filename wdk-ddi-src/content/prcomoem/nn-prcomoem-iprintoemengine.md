@@ -2,7 +2,7 @@
 UID: NN:prcomoem.IPrintOemEngine
 title: IPrintOemEngine
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintoemengine.htm
 tech.root: print
 ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399

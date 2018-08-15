@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_CLOCK
 title: KSPROPERTY_CLOCK
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_clock.htm
 tech.root: stream
 ms.assetid: 7269B231-62EC-4AF3-A11E-B51A19B85160

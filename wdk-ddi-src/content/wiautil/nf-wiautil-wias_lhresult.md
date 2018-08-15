@@ -60,12 +60,12 @@ The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommend
 
 ### -param x
 
-TBD
+
 
 
 ### -param y
 
-TBD
+
 
 
 

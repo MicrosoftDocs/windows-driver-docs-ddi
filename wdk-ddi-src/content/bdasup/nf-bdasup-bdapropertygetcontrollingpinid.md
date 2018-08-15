@@ -66,7 +66,7 @@ Points to the IRP for the request to retrieve the controlling pin for a node. Th
 
 ### -param Property
 
-TBD
+
 
 
 ### -param pulControllingPinId [out, optional]

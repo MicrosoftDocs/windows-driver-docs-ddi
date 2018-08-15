@@ -2,7 +2,7 @@
 UID: NE:ks.KSEVENT_STREAMALLOCATOR
 title: KSEVENT_STREAMALLOCATOR
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksevent_streamallocator.htm
 tech.root: stream
 ms.assetid: DD614794-5E54-4538-91C5-8777B244143C

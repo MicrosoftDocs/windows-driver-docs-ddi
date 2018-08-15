@@ -2,7 +2,7 @@
 UID: NF:winsplp.ReplyPrinterChangeNotificationEx
 title: ReplyPrinterChangeNotificationEx function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\replyprinterchangenotificationex.htm
 tech.root: print
 ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833

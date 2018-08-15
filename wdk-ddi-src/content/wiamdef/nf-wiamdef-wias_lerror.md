@@ -62,17 +62,17 @@ The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
 ### -param pILog
 
-TBD
+
 
 
 ### -param ResID
 
-TBD
+
 
 
 ### -param Args
 
-TBD
+
 
 
 

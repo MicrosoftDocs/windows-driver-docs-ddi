@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_ISDBCAS_REQUESTHEADER
 title: "_BDA_ISDBCAS_REQUESTHEADER"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_isdbcas_requestheader.htm
 tech.root: stream
 ms.assetid: E83111C1-5A46-4AB4-B54C-F8330943070D

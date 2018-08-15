@@ -83,7 +83,7 @@ If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>,
 
 ### -param OPTIONAL
 
-TBD
+
 
 
 ### -param EventsLock [in, optional]

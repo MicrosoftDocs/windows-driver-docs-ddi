@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_SIGNAL_TIMEOUTS
 title: "_BDA_SIGNAL_TIMEOUTS"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_signal_timeouts.htm
 tech.root: stream
 ms.assetid: CFEF848D-8268-4FFC-A629-D122021D8411

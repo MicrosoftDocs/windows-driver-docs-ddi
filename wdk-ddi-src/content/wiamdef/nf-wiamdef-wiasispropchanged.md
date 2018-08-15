@@ -60,7 +60,7 @@ The <b>wiasIsPropChanged </b>function tests whether a specified property has bee
 
 ### -param propid
 
-TBD
+
 
 
 ### -param pContext [in]

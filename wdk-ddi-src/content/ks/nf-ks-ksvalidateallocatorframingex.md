@@ -60,17 +60,17 @@ For system use only.
 
 ### -param Framing
 
-TBD
+
 
 
 ### -param BufferSize
 
-TBD
+
 
 
 ### -param PinFraming
 
-TBD
+
 
 
 

@@ -62,22 +62,22 @@ The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 
 ### -param pILog
 
-TBD
+
 
 
 ### -param ResID
 
-TBD
+
 
 
 ### -param Detail
 
-TBD
+
 
 
 ### -param Args
 
-TBD
+
 
 
 

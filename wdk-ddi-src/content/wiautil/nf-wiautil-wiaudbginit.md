@@ -60,7 +60,7 @@ The <b>wiauDbgInit</b> function initializes WIA debugging.
 
 ### -param a
 
-TBD
+
 
 
 
