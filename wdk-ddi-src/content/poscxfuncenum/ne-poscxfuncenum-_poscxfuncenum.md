@@ -28,7 +28,8 @@ api_location:
 -	poscxfuncenum.h
 api_name: 
 -	_POSCXFUNCENUM
-product: Windows
+product:
+-   Windows
 targetos: Windows
 ---
 
