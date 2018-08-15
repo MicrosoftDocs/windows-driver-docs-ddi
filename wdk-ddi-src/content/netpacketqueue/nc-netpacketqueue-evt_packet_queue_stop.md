@@ -47,7 +47,7 @@ targetos: Windows
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-The *EvtPacketQueueStop* callback function is implemented by the client driver to stop the data path for a packet queue before it is deleted.
+The *EvtPacketQueueStop* callback function is an optional callback that is implemented by the client driver to stop the data path for a packet queue.
 
 ## -prototype
 
@@ -78,78 +78,13 @@ This callback function does not return a value.
 
 ## -remarks
 
-Register this callback function in your *EVT_NET_ADAPTER_CREATE_TX(rxQueueContext)QUEUE* callback. Set the appropriate member of a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure after you initialize the structure with [**NET_PACKET_QUEUE_CONFIG_INIT**](nf-netpacketqueue-net_packet_queue_config_init.md), then call **NetTx(rxQueueContext)QueueCreate**.
+This is an optional callback. Register this callback function in your *EVT_NET_ADAPTER_CREATE_TX(rxQueueContext)QUEUE* callback. Set the appropriate member of a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure after you initialize the structure with [**NET_PACKET_QUEUE_CONFIG_INIT**](nf-netpacketqueue-net_packet_queue_config_init.md), then call **NetTx(rxQueueContext)QueueCreate**.
+
+This callback does not return a value and therefore should not fail, so this callback should be a light-weight function that executes quickly.
+
+Client drivers will not receive calls to [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md), [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md), or [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) after *EvtPacketQueueStop* returns. In addition, *EvtPacketQueueStop* is called in the same execution context, or thread, as *EvtPacketQueueAdvance*, *EvtPacketQueueCancel*, and *EvtPacketQueueSetNotificationEnabled*, so client drivers do not need to synchronize between these callback functions for an individual queue instance.
 
 For more info and a diagram showing the NetAdapterCx data path polling model, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-### Transmit queue example
-
-When stopping the data path for a transmit queue, client drivers typically clear information they previously set in [*EvtPacketQueueStart*](nc-netpacketqueue-evt_packet_queue_start.md) and disable their hardware interrupt.
-
-```C++
-VOID
-MyEvtTxQueueStop(
-    NETPACKETQUEUE TxQueue
-)
-{
-    PMY_TX_QUEUE_CONTEXT *txQueueContext = MyGetTxQueueContext(TxQueue);
-
-    WdfSpinLockAcquire(txQueueContext->Adapter->Lock);
-
-	// Clear the control/status register's command register
-    txQueueContext->Adapter->CSRAddress->CmdReg &= ~CR_TE;
-
-	// Disable the hardware interrupt
-    MyTxQueueSetInterrupt(txQueueContext, 
-						  false);
-
-	// Clear the handle to the queue
-    txQueueContext->Adapter->TxQueue = WDF_NO_HANDLE;
-
-    WdfSpinLockRelease(txQueueContext->Adapter->Lock);
-}
-```
-
-### Receive queue example
-
-The pattern for stopping a receive queue is typically similar to stopping a transmit queue. This example takes into account multiple receive queues.
-
-```C++
-VOID
-MyEvtRxQueueStop(
-    NETPACKETQUEUE RxQueue
-)
-{
-    PMY_RX_QUEUE_CONTEXT *rxQueueContext = RtGetRxQueueContext(RxQueue);
-
-    WdfSpinLockAcquire(rxQueueContext->Adapter->Lock);
-
-	// Iterate through all of this adapter's receive queues
-    bool count = 0;
-    for (size_t i = 0; i < ARRAYSIZE(rxQueueContext->Adapter->RxQueues); i++)
-    {
-        if (rxQueueContext->Adapter->RxQueues[i])
-        {
-            count++;
-        }
-    }
-
-	// Clear the control/status register's command register only if this is the last receive queue
-    if (1 == count)
-    {
-        rxQueueContext->Adapter->CSRAddress->CmdReg &= ~CR_RE;
-    }
-
-	// Disable the hardware interrupt
-    MyRxQueueSetInterrupt(rxQueueContext, 
-						  false);
-
-	// Clear the handle to the queue
-    rxQueueContext->Adapter->RxQueues[rxQueueContext->QueueId] = WDF_NO_HANDLE;
-
-    WdfSpinLockRelease(rxQueueContext->Adapter->Lock);
-}
-```
 
 ## -see-also
 
