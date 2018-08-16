@@ -2,7 +2,7 @@
 UID: NF:winsplp.DevQueryPrint
 title: DevQueryPrint function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\devqueryprint.htm
 tech.root: print
 ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70

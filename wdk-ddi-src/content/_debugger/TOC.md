@@ -1589,7 +1589,7 @@
 ### [ExtRemoteTyped::operator[](LONG64)](../engextcpp/nf-engextcpp-extremotetyped-operator[](long64).md)
 ### [ExtRemoteTyped::operator[](ULONG)](../engextcpp/nf-engextcpp-extremotetyped-operator[](ulong).md)
 ### [ExtRemoteTyped::operator[](ULONG64)](../engextcpp/nf-engextcpp-extremotetyped-operator[](ulong64).md)
-### [ExtRemoteTyped::operator[]](../engextcpp/nf-engextcpp-extremotetyped-operator-brackets.md)
+### [ExtRemoteTyped::operator[]](../engextcpp/nf-engextcpp-extremotetyped-operator[].md)
 ### [ExtRemoteTyped::operator](../engextcpp/nf-engextcpp-extremotetyped-operator.md)
 ### [ExtRemoteTyped::~ExtRemoteTyped method](../engextcpp/nf-engextcpp-extremotetyped-~extremotetyped.md)
 ### [ExtRemoteTypedList class](../engextcpp/nl-engextcpp-extremotetypedlist.md)

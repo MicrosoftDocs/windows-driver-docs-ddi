@@ -65,27 +65,27 @@ Caller-supplied handle to the printer.
 
 ### -param pszDeviceName
 
-TBD
+
 
 
 ### -param Capability
 
-TBD
+
 
 
 ### -param pOutput
 
-TBD
+
 
 
 ### -param cchBufSize
 
-TBD
+
 
 
 ### -param pDevmode
 
-TBD
+
 
 
 

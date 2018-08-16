@@ -61,12 +61,12 @@ The <b>BdaValidateNodeProperty</b> function validates that a node property reque
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pProperty
 
-TBD
+
 
 
 

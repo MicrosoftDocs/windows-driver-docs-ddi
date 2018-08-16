@@ -2,7 +2,7 @@
 UID: NS:strmini.KSSCATTER_GATHER
 title: KSSCATTER_GATHER
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksscatter_gather.htm
 tech.root: stream
 ms.assetid: 10AFDC4B-75E5-4E88-A614-60043848C570

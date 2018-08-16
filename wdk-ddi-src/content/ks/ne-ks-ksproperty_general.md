@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_GENERAL
 title: KSPROPERTY_GENERAL
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_general.htm
 tech.root: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC

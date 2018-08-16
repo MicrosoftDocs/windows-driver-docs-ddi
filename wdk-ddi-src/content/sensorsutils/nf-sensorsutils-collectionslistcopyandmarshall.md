@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListCopyAndMarshall
 title: CollectionsListCopyAndMarshall function
 author: windows-driver-content
-description: Coming soon.
+description: This routine copies and marshalls a collection list from source to target.
 ms.assetid: 63abf500-d6c8-428c-b359-2041ee49091c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/07/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,25 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine copies and marshalls a collection list from source to target.
 
 ## -parameters
 
 ### -param Target
-Coming soon.
+
+[in] A pointer to a collection list.
+
 ### -param Source
-Coming soon.
+
+[out] A pointer to a collection list.
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
+
+> [!WARNING]
+> This method assumes the structure sizes stay the same during marshalling. Avoid using this method if passing the data between processes that can have different bit-ness values (e.g. 32 bit <-> 64 bit). Use [CollectionsListSerializeToBuffer](nf-sensorsutils-collectionslistserializetobuffer.md) instead.
 
 ## -see-also

@@ -61,7 +61,7 @@ The <b>BdaPropertyNodeTypes</b> function retrieves a list of node types in a tem
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

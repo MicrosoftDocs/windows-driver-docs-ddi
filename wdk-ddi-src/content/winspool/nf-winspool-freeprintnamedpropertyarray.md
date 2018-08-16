@@ -2,7 +2,7 @@
 UID: NF:winspool.FreePrintNamedPropertyArray
 title: FreePrintNamedPropertyArray function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\freeprintnamedpropertyarray.htm
 tech.root: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4

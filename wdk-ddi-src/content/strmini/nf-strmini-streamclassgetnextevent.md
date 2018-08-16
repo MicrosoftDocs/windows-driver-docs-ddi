@@ -61,7 +61,7 @@ Minidrivers can use the <b>StreamClassGetNextEvent</b> routine to search the eve
 
 ### -param HwInstanceExtension_OR_HwDeviceExtension
 
-TBD
+
 
 
 ### -param HwStreamObject [in, optional]

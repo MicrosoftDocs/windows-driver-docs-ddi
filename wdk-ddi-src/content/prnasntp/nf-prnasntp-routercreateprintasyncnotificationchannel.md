@@ -70,7 +70,7 @@ A pointer to a GUID that represents the type of notifications sent through this 
 
 ### -param eNotifyFilter
 
-TBD
+
 
 
 ### -param eConversationStyle [in]
@@ -85,7 +85,7 @@ A pointer to the callback function that is called to deliver the response notifi
 
 ### -param ppIAsynchNotification
 
-TBD
+
 
 
 

@@ -11,6 +11,8 @@ ms.topic: portal
 product:
 -	Windows
 tech.root: display
+product:
+- Windows
 ---
 
 # Umdprovider.h header

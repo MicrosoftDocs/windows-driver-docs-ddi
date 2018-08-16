@@ -60,7 +60,7 @@ The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommend
 
 ### -param pILog
 
-TBD
+
 
 
 ### -param hr

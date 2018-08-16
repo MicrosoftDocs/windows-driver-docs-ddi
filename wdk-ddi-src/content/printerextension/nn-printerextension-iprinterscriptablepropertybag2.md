@@ -2,7 +2,7 @@
 UID: NN:printerextension.IPrinterScriptablePropertyBag2
 title: IPrinterScriptablePropertyBag2
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprinterscriptablepropertybag2.htm
 tech.root: print
 ms.assetid: 97586B8D-D070-4DF1-AECE-50EB4D28414B
