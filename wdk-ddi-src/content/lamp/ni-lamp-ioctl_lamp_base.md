@@ -1,15 +1,15 @@
 ---
-UID: NI:trustedrt.IOCTL_TR_ENUMERATE_SERVICES
-title: IOCTL_TR_ENUMERATE_SERVICES
+UID: NI:lamp.IOCTL_LAMP_BASE
+title: IOCTL_LAMP_BASE
 author: windows-driver-content
 description: 
-ms.assetid: de6f27ed-7fb3-4cf1-953c-e683ffdbf475
+ms.assetid: 91ad561c-3f84-4395-8612-bd7a836b6e24
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
-req.header: trustedrt.h
+req.header: lamp.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -26,15 +26,15 @@ topic_type:
 api_type: 
 -	HeaderDef
 api_location: 
--	trustedrt.h
+-	lamp.h
 api_name: 
--	IOCTL_TR_ENUMERATE_SERVICES
-product:
--	Windows
+-	IOCTL_LAMP_BASE
+product: 
+-   Windows
 targetos: Windows
 ---
 
-# IOCTL_TR_ENUMERATE_SERVICES IOCTL
+# IOCTL_LAMP_BASE IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
