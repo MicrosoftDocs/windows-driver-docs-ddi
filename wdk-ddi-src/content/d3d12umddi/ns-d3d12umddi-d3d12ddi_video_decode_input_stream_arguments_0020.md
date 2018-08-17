@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
 author: windows-driver-content
 description: Specifies input stream arguments.
 old-location: display\d3d12ddi_video_decode_input_stream_arguments.htm
-tech.root: display
 ms.assetid: B956626C-B5D7-4217-A90A-EC7E436DF6C0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
 ---
 

@@ -4,7 +4,6 @@ title: DXGKCB_SETPOWERCOMPONENTRESIDENCY
 author: windows-driver-content
 description: Called by the display miniport driver to set the expected residency for a power component of type DXGK_POWER_COMPONENT_OTHER.
 old-location: display\dxgkcbsetpowercomponentresidency.htm
-tech.root: display
 ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

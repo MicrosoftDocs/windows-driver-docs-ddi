@@ -4,7 +4,6 @@ title: "_D3DKMT_OUTPUTDUPLPRESENTFLAGS"
 author: windows-driver-content
 description: Describes options for a Desktop Duplication API swapchain present operation.
 old-location: display\d3dkmt_outputduplpresentflags.htm
-tech.root: display
 ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OUTPUTDUPLPRESENTFLAGS
 ---
 

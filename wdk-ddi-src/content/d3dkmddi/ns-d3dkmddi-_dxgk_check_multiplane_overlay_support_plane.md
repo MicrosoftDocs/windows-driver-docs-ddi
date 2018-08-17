@@ -4,7 +4,6 @@ title: "_DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE"
 author: windows-driver-content
 description: Specifies the support attributes that the hardware provides for multiplane overlays.
 old-location: display\dxgk_check_multiplane_overlay_support_plane.htm
-tech.root: display
 ms.assetid: 28CC4BE1-D4C1-4D22-885B-D50BE5AD6EE6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ---
 

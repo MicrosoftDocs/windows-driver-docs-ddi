@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022
 author: windows-driver-content
 description: Contains values for automatic processing for a driver.
 old-location: display\d3d12ddi_video_process_auto_processing_flags.htm
-tech.root: display
 ms.assetid: 37F982EE-8FCB-452F-B589-B14D0E593F1E
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022
 ---
 

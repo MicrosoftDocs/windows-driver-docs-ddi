@@ -4,7 +4,6 @@ title: D3DKMTLock function
 author: windows-driver-content
 description: The D3DKMTLock function locks an entire allocation or specific pages within an allocation.
 old-location: display\d3dkmtlock.htm
-tech.root: display
 ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

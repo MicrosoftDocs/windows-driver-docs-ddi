@@ -4,7 +4,6 @@ title: D3D10_1DDI_DEVICEFUNCS
 author: windows-driver-content
 description: The D3D10_1DDI_DEVICEFUNCS structure contains functions that a user-mode display driver that is optimized for the Microsoft Direct3D version 10.1 runtime can implement to render graphics primitives and process state changes.
 old-location: display\d3d10_1ddi_devicefuncs.htm
-tech.root: display
 ms.assetid: 6de52d56-deca-4623-81a7-a043b8a85dc5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_1DDI_DEVICEFUNCS
 ---
 

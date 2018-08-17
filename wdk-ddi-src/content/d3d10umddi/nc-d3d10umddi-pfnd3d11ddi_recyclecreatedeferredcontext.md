@@ -4,7 +4,6 @@ title: PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT
 author: windows-driver-content
 description: The RecycleCreateDeferredContext function clears out the pipeline state for a deferred context.
 old-location: display\recyclecreatedeferredcontext.htm
-tech.root: display
 ms.assetid: c9e08048-683a-4f43-b3b8-1914c2933a5c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

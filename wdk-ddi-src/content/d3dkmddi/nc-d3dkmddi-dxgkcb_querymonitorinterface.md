@@ -4,7 +4,6 @@ title: DXGKCB_QUERYMONITORINTERFACE
 author: windows-driver-content
 description: The DxgkCbQueryMonitorInterface function returns a pointer to a DXGK_MONITOR_INTERFACE structure.
 old-location: display\dxgkcbquerymonitorinterface.htm
-tech.root: display
 ms.assetid: 0c23e72d-3eb9-4511-a386-1dcc2f4910b7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

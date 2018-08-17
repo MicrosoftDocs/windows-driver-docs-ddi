@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032
 author: windows-driver-content
 description: Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE capability check. Retrieves the memory allocation size of a video decoder heap created with the given properties.
 old-location: display\d3d12ddi_video_decoder_heap_size_data_0032.htm
-tech.root: display
 ms.assetid: 5EF65599-65C3-4EA8-A3A7-3849CF01DE87
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_QAITARGETIN"
 author: windows-driver-content
 description: Used to integrate a target.
 old-location: display\dxgk_qaitargetin.htm
-tech.root: display
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_QAITARGETIN
 ---
 

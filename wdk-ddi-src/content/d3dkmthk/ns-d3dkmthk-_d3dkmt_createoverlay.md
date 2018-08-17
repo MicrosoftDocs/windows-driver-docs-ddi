@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEOVERLAY"
 author: windows-driver-content
 description: The D3DKMT_CREATEOVERLAY structure describes overlay hardware.
 old-location: display\d3dkmt_createoverlay.htm
-tech.root: display
 ms.assetid: b020b06c-72e2-4322-a5db-fcfc46db429e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEOVERLAY
 ---
 

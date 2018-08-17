@@ -4,7 +4,6 @@ title: D3D11_1DDI_AUTHENTICATED_QUERY_INPUT
 author: windows-driver-content
 description: Contains input data for the QueryAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_query_input.htm
-tech.root: display
 ms.assetid: f7a4fb53-aa01-4279-a59a-fd92b0ceeab7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_QUERY_INPUT
 ---
 

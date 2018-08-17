@@ -4,7 +4,6 @@ title: "_DXGKARG_UPDATEHWCONTEXTSTATE"
 author: windows-driver-content
 description: Used to update the context state.
 old-location: display\dxgkarg_updatehwcontextstate.htm
-tech.root: display
 ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_UPDATEHWCONTEXTSTATE
 ---
 

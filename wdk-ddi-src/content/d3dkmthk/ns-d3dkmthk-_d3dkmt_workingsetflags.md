@@ -4,7 +4,6 @@ title: "_D3DKMT_WORKINGSETFLAGS"
 author: windows-driver-content
 description: The D3DKMT_WORKINGSETFLAGS structure identifies working-set properties of the display miniport driver that the OpenGL installable client driver (ICD) obtains by calling the D3DKMTQueryAdapterInfo function.
 old-location: display\d3dkmt_workingsetflags.htm
-tech.root: display
 ms.assetid: 05dddebc-2a30-4cc5-b905-9ee4ebf8d00e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_WORKINGSETFLAGS
 ---
 

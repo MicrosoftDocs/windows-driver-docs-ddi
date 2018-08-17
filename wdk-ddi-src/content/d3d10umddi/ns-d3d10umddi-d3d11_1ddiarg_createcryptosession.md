@@ -4,7 +4,6 @@ title: D3D11_1DDIARG_CREATECRYPTOSESSION
 author: windows-driver-content
 description: Specifies the attributes of the cryptographic session to be created by the user-mode driver's CreateCryptoSession function.
 old-location: display\d3d11_1ddiarg_createcryptosession.htm
-tech.root: display
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_CREATECRYPTOSESSION
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB
 author: windows-driver-content
 description: The pfnStateIaInputLayoutCb function causes the Microsoft Direct3D 10 runtime to refresh the input layout state.
 old-location: display\pfnstateiainputlayoutcb.htm
-tech.root: display
 ms.assetid: fce49c60-8573-4a28-9d1c-5cf33d260db3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

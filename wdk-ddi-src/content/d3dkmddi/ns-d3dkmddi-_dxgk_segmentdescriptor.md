@@ -4,7 +4,6 @@ title: "_DXGK_SEGMENTDESCRIPTOR"
 author: windows-driver-content
 description: The DXGK_SEGMENTDESCRIPTOR structure contains information about a segment that the driver supports.
 old-location: display\dxgk_segmentdescriptor.htm
-tech.root: display
 ms.assetid: d9d79c58-6ef6-4917-b499-fd5a70dc8829
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SEGMENTDESCRIPTOR
 ---
 

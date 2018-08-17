@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 author: windows-driver-content
 description: Indicates how to update a tile mapping.
 old-location: display\d3dwddm1_3ddi_tile_mapping_flag.htm
-tech.root: display
 ms.assetid: 1149547D-9165-42AA-B12A-5C7681A8EAC1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 ---
 

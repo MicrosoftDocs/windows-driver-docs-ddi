@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEALLOCATIONFLAGS"
 author: windows-driver-content
 description: The D3DKMT_CREATEALLOCATIONFLAGS structure identifies how to create an allocation in a call to the D3DKMTCreateAllocation function.
 old-location: display\d3dkmt_createallocationflags.htm
-tech.root: display
 ms.assetid: ddcb8222-808b-4dfe-9303-a588b3522ebe
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEALLOCATIONFLAGS
 ---
 

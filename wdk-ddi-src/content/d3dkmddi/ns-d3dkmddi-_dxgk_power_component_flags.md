@@ -4,7 +4,6 @@ title: "_DXGK_POWER_COMPONENT_FLAGS"
 author: windows-driver-content
 description: Describes state transition information about a power component.
 old-location: display\dxgk_power_component_flags.htm
-tech.root: display
 ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_POWER_COMPONENT_FLAGS
 ---
 

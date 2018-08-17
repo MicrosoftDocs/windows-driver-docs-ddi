@@ -4,7 +4,6 @@ title: "_DXGK_CPUHOSTAPERTURE"
 author: windows-driver-content
 description: DXGK_CPUHOSTAPERTURE describes a memory segment supporting a CPU host aperture.
 old-location: display\dxgk_cpuhostaperture.htm
-tech.root: display
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CPUHOSTAPERTURE
 ---
 

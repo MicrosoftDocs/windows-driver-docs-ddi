@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION
 author: windows-driver-content
 description: Returns the private state data for a video processor stream to an application.
 old-location: display\videoprocessorgetstreamextension.htm
-tech.root: display
 ms.assetid: e2c91e9c-f8ab-48ba-b98a-332cb0ac7077
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

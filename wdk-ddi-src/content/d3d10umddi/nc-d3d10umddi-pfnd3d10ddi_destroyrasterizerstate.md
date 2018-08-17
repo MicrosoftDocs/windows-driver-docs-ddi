@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYRASTERIZERSTATE
 author: windows-driver-content
 description: The DestroyRasterizerState function destroys the specified rasterizer state object. The rasterizer state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyrasterizerstate.htm
-tech.root: display
 ms.assetid: 7d730528-dc97-4490-a9fa-3d7916eef2e6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE
 author: windows-driver-content
 description: Establishes a session key for an authenticated channel.
 old-location: display\negotiateauthenticatedchannelkeyexchange.htm
-tech.root: display
 ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

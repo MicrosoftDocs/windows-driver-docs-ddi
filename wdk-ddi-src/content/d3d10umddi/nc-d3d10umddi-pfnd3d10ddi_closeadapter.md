@@ -4,7 +4,6 @@ title: PFND3D10DDI_CLOSEADAPTER
 author: windows-driver-content
 description: The CloseAdapter(D3D10) function releases resources for a graphics adapter object.
 old-location: display\closeadapter_d3d10_.htm
-tech.root: display
 ms.assetid: bc7ccd91-becc-4596-a56a-562cfe9a18b9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_HANDLETYPE
 author: windows-driver-content
 description: Contains driver handle types.
 old-location: display\d3d12ddi_handletype.htm
-tech.root: display
 ms.assetid: 807CC73E-C5A5-4D49-AFAF-32A51D832F82
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_HANDLETYPE
 ---
 

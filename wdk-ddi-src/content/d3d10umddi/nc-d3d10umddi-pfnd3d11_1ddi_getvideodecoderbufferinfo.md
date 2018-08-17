@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO
 author: windows-driver-content
 description: Queries the description of a video decoder buffer for a specified video operation.
 old-location: display\getvideodecoderbufferinfo.htm
-tech.root: display
 ms.assetid: f129ae04-da7f-4681-a266-ac13317a895d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

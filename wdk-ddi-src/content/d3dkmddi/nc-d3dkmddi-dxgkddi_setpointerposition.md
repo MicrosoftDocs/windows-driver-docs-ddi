@@ -4,7 +4,6 @@ title: DXGKDDI_SETPOINTERPOSITION
 author: windows-driver-content
 description: The DxgkDdiSetPointerPosition function sets the location and visibility state of the mouse pointer.
 old-location: display\dxgkddisetpointerposition.htm
-tech.root: display
 ms.assetid: b30e4f19-068c-4ab0-a2e9-b1f57592be1c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

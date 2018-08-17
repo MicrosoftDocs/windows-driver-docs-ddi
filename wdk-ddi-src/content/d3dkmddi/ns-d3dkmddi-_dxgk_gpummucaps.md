@@ -4,7 +4,6 @@ title: "_DXGK_GPUMMUCAPS"
 author: windows-driver-content
 description: The DXGK_GPUMMUCAPS structure is used by the kernel mode driver to express virtual memory addressing capabilities.
 old-location: display\dxgk_gpummucaps.htm
-tech.root: display
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GPUMMUCAPS
 ---
 

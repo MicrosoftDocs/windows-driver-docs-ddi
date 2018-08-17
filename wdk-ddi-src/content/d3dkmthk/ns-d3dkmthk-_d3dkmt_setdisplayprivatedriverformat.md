@@ -4,7 +4,6 @@ title: "_D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT"
 author: windows-driver-content
 description: The D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source.
 old-location: display\d3dkmt_setdisplayprivatedriverformat.htm
-tech.root: display
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 

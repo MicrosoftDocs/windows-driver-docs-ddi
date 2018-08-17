@@ -4,7 +4,6 @@ title: PFND3D10DDI_IA_SETINDEXBUFFER
 author: windows-driver-content
 description: The IaSetIndexBuffer function sets an index buffer for an input assembler.
 old-location: display\iasetindexbuffer.htm
-tech.root: display
 ms.assetid: 042ebb72-b794-4cb8-9d81-bd52a785f1e0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

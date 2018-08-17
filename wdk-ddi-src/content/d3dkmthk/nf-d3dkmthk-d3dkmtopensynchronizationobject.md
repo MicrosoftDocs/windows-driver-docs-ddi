@@ -4,7 +4,6 @@ title: D3DKMTOpenSynchronizationObject function
 author: windows-driver-content
 description: The D3DKMTOpenSynchronizationObject function opens a kernel-mode synchronization object.
 old-location: display\d3dkmtopensynchronizationobject.htm
-tech.root: display
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

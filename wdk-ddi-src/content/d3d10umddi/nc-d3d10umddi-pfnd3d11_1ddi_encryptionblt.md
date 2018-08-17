@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_ENCRYPTIONBLT
 author: windows-driver-content
 description: Reads encrypted data from a protected surface.
 old-location: display\encryptionblt1.htm
-tech.root: display
 ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

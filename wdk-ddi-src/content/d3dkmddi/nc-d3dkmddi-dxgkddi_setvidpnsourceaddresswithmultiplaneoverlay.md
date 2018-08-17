@@ -4,7 +4,6 @@ title: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY
 author: windows-driver-content
 description: Sets the addresses of multiple surfaces, including the Desktop Window Manager (DWM)'s swapchain, that are associated with a particular video present source. This function is used to present multiple surfaces (including the DWM’s swapchain) to the screen.
 old-location: display\dxgkddisetvidpnsourceaddresswithmultiplaneoverlay.htm
-tech.root: display
 ms.assetid: 95108e45-1a3a-4a75-8719-0caadb911469
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

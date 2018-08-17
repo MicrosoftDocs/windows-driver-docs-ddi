@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTSHADERUSAGE
 author: windows-driver-content
 description: Sets the color space information for the video processor output surface. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videoprocessorsetoutputshaderusage.htm
-tech.root: display
 ms.assetid: 320618F6-DE98-45D0-8015-DE24689D24D2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

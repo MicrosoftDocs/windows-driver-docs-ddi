@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
 author: windows-driver-content
 description: Specifies the rate at which the video processor produces output frames from an input stream.
 old-location: display\d3d11_1ddi_video_processor_output_rate.htm
-tech.root: display
 ms.assetid: ff34c208-9b42-4f72-bb2a-43f3bb44fd68
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
 ---
 

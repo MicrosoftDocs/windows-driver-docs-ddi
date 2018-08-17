@@ -4,7 +4,6 @@ title: PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE
 author: windows-driver-content
 description: The CalcPrivateDeferredContextSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a deferred context.
 old-location: display\calcprivatedeferredcontextsize.htm
-tech.root: display
 ms.assetid: 282898b1-45e1-4d85-9ab7-fd400623bdc5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

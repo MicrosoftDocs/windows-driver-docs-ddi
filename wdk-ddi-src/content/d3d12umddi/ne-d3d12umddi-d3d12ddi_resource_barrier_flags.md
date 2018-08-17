@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_BARRIER_FLAGS
 author: windows-driver-content
 description: Contains resource barrier flags.
 old-location: display\d3d12ddi_resource_barrier_flags.htm
-tech.root: display
 ms.assetid: 876ABC9C-F9BE-480F-8641-AE132840F8D5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_BARRIER_FLAGS
 ---
 

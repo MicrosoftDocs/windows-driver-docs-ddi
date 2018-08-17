@@ -4,7 +4,6 @@ title: D3D11DDIARG_CREATEDEFERREDCONTEXT
 author: windows-driver-content
 description: The D3D11DDIARG_CREATEDEFERREDCONTEXT structure describes the deferred context to create.
 old-location: display\d3d11ddiarg_createdeferredcontext.htm
-tech.root: display
 ms.assetid: 4486939d-a35c-4b0b-b0d0-6402a62a4870
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_CREATEDEFERREDCONTEXT
 ---
 

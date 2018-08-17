@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
 author: windows-driver-content
 description: Specifies information about a video decoder buffer.
 old-location: display\d3d11_1ddi_video_decoder_buffer_info.htm
-tech.root: display
 ms.assetid: 1f013077-ea85-4c35-8667-cdf0c1353b0f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
 ---
 

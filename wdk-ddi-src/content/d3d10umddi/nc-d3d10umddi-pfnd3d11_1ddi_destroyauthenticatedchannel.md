@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL
 author: windows-driver-content
 description: Releases resources for the authenticated channel that were created through a call to the CreateAuthenticatedChannel(D3D11_1) function.
 old-location: display\destroyauthenticatedchannel1.htm
-tech.root: display
 ms.assetid: 3eebda5e-72c6-4167-a886-58e877551923
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

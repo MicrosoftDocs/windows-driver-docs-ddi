@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEHWCONTEXT"
 author: windows-driver-content
 description: A structure holding information to create a hardware context.
 old-location: display\d3dkmt_createhwcontext.htm
-tech.root: display
 ms.assetid: 9B6EA552-B576-45F3-A0BD-7EB721638D7F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEHWCONTEXT
 ---
 

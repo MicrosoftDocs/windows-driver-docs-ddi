@@ -4,7 +4,6 @@ title: PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP
 author: windows-driver-content
 description: The DefaultConstantBufferUpdateSubresourceUP function updates a destination subresource region that stores constant buffers from a source system-memory region.
 old-location: display\defaultconstantbufferupdatesubresourceup.htm
-tech.root: display
 ms.assetid: 80086f1a-75f8-464f-973e-9c1e67725933
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

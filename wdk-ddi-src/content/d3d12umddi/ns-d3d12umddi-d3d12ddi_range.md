@@ -4,7 +4,6 @@ title: D3D12DDI_RANGE
 author: windows-driver-content
 description: Specifies a range.
 old-location: display\d3d12ddi_range.htm
-tech.root: display
 ms.assetid: B3A8F252-D56D-4F20-A0DE-2A29904BC907
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RANGE
 ---
 

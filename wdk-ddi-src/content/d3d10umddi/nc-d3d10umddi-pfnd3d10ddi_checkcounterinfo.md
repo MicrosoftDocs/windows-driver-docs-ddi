@@ -4,7 +4,6 @@ title: PFND3D10DDI_CHECKCOUNTERINFO
 author: windows-driver-content
 description: The CheckCounterInfo function determines global information that is related to manipulating counters.
 old-location: display\checkcounterinfo.htm
-tech.root: display
 ms.assetid: 5dcea47c-aac7-46e5-afd5-c3390c3c5286
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

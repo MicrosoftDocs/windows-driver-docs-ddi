@@ -4,7 +4,6 @@ title: PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021
 author: windows-driver-content
 description: The pfnShaderCacheGetValueCb callback function gets a shader cache value.
 old-location: display\pfnd3d12ddi_shadercachegetvalue_cb_0021.htm
-tech.root: display
 ms.assetid: EFC9E2D0-1995-4FE9-840C-7B33081AEF2F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 author: windows-driver-content
 description: Specifies texture layout capabilities.
 old-location: display\d3d12ddi_texture_layout_caps_0001.htm
-tech.root: display
 ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 ---
 

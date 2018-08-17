@@ -4,7 +4,6 @@ title: D3D11DDIARG_CREATECOMMANDLIST
 author: windows-driver-content
 description: The D3D11DDIARG_CREATECOMMANDLIST structure contains a handle to the deferred context that was created by the CreateDeferredContext function.
 old-location: display\d3d11ddiarg_createcommandlist.htm
-tech.root: display
 ms.assetid: 7d720346-4a68-40bd-816d-c406995b3232
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_CREATECOMMANDLIST
 ---
 

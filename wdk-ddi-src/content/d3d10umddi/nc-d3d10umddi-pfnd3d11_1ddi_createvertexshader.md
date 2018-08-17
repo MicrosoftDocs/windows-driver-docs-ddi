@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEVERTEXSHADER
 author: windows-driver-content
 description: Creates a vertex shader.
 old-location: display\createvertexshader_d3d11_1_.htm
-tech.root: display
 ms.assetid: 8da896d3-b80c-409a-a838-99eb71668a93
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

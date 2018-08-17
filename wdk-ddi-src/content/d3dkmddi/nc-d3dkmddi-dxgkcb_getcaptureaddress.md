@@ -4,7 +4,6 @@ title: DXGKCB_GETCAPTUREADDRESS
 author: windows-driver-content
 description: The DxgkCbGetCaptureAddress function retrieves the physical address and segment identifier of a capture buffer that is associated with the given allocation handle.
 old-location: display\dxgkcbgetcaptureaddress.htm
-tech.root: display
 ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

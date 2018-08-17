@@ -4,7 +4,6 @@ title: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2
 author: windows-driver-content
 description: DxgkDdiCheckMultiPlaneOverlaySupport2 is called to determine whether a specific multi-plane overlay configuration is supported.
 old-location: display\dxgkddicheckmultiplaneoverlaysupport2.htm
-tech.root: display
 ms.assetid: A453B59F-0DD1-4FFF-A0E6-09494211780F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

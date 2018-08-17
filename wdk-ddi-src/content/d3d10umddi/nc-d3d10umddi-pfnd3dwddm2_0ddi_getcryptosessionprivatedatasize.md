@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE
 author: windows-driver-content
 description: GetCryptoSessionPrivateDataSize retrieves sizes for optional private driver data.
 old-location: display\getcryptosessionprivatedatasize.htm
-tech.root: display
 ms.assetid: 1D135203-AA20-4D5D-A0F2-A53BDF5104C0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

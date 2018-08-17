@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
 author: windows-driver-content
 description: Describes a transition barrier between subresources.
 old-location: display\d3d12ddi_resource_transition_barrier_0003.htm
-tech.root: display
 ms.assetid: 86E2A0A4-F02C-43E7-8CC1-395B444299A6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
 ---
 

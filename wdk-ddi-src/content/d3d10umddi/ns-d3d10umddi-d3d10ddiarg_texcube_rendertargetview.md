@@ -4,7 +4,6 @@ title: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure describes a cube texture that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_texcube_rendertargetview.htm
-tech.root: display
 ms.assetid: cffd2c5d-847b-4ecd-b99d-5916e7b5bbd0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
 ---
 

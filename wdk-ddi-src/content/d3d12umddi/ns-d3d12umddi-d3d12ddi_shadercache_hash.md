@@ -4,7 +4,6 @@ title: D3D12DDI_SHADERCACHE_HASH
 author: windows-driver-content
 description: Includes a hash value.
 old-location: display\d3d12ddi_shadercache_hash.htm
-tech.root: display
 ms.assetid: 30ACE58C-E10C-46D7-8ED5-5C693D6246CB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_SHADERCACHE_HASH
 ---
 

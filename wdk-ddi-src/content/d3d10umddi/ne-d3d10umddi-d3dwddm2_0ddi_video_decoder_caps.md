@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 author: windows-driver-content
 description: Describes the video decoder capabilities.
 old-location: display\d3dwddm2_0ddi_video_decoder_caps.htm
-tech.root: display
 ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 ---
 

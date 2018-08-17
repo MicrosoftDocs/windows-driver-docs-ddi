@@ -4,7 +4,6 @@ title: "_DXGK_ALLOCATIONUSAGEHINT"
 author: windows-driver-content
 description: The DXGK_ALLOCATIONUSAGEHINT structure contains allocation usage and version information that is used as a hint about how to use an allocation.
 old-location: display\dxgk_allocationusagehint.htm
-tech.root: display
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ALLOCATIONUSAGEHINT
 ---
 

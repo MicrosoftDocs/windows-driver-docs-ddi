@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR
 author: windows-driver-content
 description: Sets the background color for the video processor.
 old-location: display\videoprocessorsetoutputbackgroundcolor.htm
-tech.root: display
 ms.assetid: F258F21F-0177-4DBB-87FA-F0374689DC7B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

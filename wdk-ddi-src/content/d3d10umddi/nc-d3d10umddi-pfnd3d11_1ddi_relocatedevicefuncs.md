@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_RELOCATEDEVICEFUNCS
 author: windows-driver-content
 description: Notifies the user-mode display driver about the new location of the driver function table.
 old-location: display\relocatedevicefuncs_d3d11_1_.htm
-tech.root: display
 ms.assetid: 5d9f964e-5d7a-4b6c-977e-c718e3424f84
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

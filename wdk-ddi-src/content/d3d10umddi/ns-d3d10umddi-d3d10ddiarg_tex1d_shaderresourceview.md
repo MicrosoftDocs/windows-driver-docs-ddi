@@ -4,7 +4,6 @@ title: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure describes a one-dimensional (1-D) texture that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_tex1d_shaderresourceview.htm
-tech.root: display
 ms.assetid: 5cb10ec9-8496-49d1-b8d0-53d8fe7470c5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
 ---
 

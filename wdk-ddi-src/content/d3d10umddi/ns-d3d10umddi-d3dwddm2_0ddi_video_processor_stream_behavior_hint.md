@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
 author: windows-driver-content
 description: D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT is used to describe behavior hints for the stream.
 old-location: display\d3dwddm2_0ddi_video_processor_stream_behavior_hint.htm
-tech.root: display
 ms.assetid: 82B8F3F2-62E5-475B-AAE0-F6DF2B2B9814
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_UPDATEGPUVIRTUALADDRESS"
 author: windows-driver-content
 description: D3DKMT_UPDATEGPUVIRTUALADDRESS is used with UpdateGpuVirtualAddress to allow the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 old-location: display\d3dkmt_updategpuvirtualaddress.htm
-tech.root: display
 ms.assetid: B6586406-6CAD-479F-AE41-93EFBA195B99
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_UPDATEGPUVIRTUALADDRESS
 ---
 

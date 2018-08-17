@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENADAPTERFROMHDC"
 author: windows-driver-content
 description: The D3DKMT_OPENADAPTERFROMHDC structure describes the mapping of a device context handle (HDC) to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromhdc.htm
-tech.root: display
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENADAPTERFROMHDC
 ---
 

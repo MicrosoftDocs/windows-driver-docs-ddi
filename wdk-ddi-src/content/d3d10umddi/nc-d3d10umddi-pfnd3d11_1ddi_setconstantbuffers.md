@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_SETCONSTANTBUFFERS
 author: windows-driver-content
 description: Sets constant buffers for a compute shader.
 old-location: display\cssetconstantbuffers_d3d11_1_.htm
-tech.root: display
 ms.assetid: 6A2B50BF-415D-47BB-9514-B15F717A76EA
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

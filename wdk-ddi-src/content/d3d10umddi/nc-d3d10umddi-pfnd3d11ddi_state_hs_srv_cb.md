@@ -4,7 +4,6 @@ title: PFND3D11DDI_STATE_HS_SRV_CB
 author: windows-driver-content
 description: The pfnStateHsSrvCb function causes the Microsoft Direct3D 11 runtime to refresh the constant shader resource view state for the hull shader.
 old-location: display\pfnstatehssrvcb.htm
-tech.root: display
 ms.assetid: 93a0a6b2-6a1a-4cef-ad7e-c5b606d11c17
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

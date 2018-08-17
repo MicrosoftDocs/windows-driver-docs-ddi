@@ -4,7 +4,6 @@ title: "_DXGK_RECOMMENDFUNCTIONALVIDPN_REASON"
 author: windows-driver-content
 description: The DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration indicates the reason for calling the display miniport driver's DxgkDdiRecommendFunctionalVidPn function.
 old-location: display\dxgk_recommendfunctionalvidpn_reason.htm
-tech.root: display
 ms.assetid: 75dda423-8d5a-4b11-a187-d6703601a366
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
 ---
 

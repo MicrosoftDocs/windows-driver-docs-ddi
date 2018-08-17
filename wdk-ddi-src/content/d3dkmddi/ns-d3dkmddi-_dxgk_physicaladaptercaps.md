@@ -4,7 +4,6 @@ title: "_DXGK_PHYSICALADAPTERCAPS"
 author: windows-driver-content
 description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of a physical adapter.
 old-location: display\dxgk_physicaladaptercaps.htm
-tech.root: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PHYSICALADAPTERCAPS
 ---
 

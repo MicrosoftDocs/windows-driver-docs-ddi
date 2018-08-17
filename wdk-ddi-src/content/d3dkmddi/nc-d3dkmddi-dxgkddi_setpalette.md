@@ -4,7 +4,6 @@ title: DXGKDDI_SETPALETTE
 author: windows-driver-content
 description: The DxgkDdiSetPalette function programs the color registers for palettized 8 bits-per-pixel (bpp) modes.
 old-location: display\dxgkddisetpalette.htm
-tech.root: display
 ms.assetid: 3a46bf84-df62-4247-b842-d5b131c96428
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

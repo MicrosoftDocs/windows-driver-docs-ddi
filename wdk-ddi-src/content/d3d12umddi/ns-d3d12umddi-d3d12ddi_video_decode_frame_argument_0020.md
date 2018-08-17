@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
 author: windows-driver-content
 description: Contains the decode parameters for the frame.
 old-location: display\d3d12ddi_video_decode_frame_parameter.htm
-tech.root: display
 ms.assetid: 5651BDA8-256F-4041-A8BB-E3B30DB1870C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
 ---
 

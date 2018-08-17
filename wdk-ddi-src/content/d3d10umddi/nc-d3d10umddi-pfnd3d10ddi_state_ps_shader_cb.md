@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_PS_SHADER_CB
 author: windows-driver-content
 description: The pfnStatePsShaderCb function causes the Microsoft Direct3D 10 runtime to refresh the pixel shader stage's shader program.
 old-location: display\pfnstatepsshadercb.htm
-tech.root: display
 ms.assetid: 0865e79e-7df9-4dc7-a655-4fbd0af72030
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

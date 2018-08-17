@@ -4,7 +4,6 @@ title: "_DXGK_COLORIMETRY"
 author: windows-driver-content
 description: Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
 old-location: display\dxgk_colorimetry.htm
-tech.root: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 ---
 

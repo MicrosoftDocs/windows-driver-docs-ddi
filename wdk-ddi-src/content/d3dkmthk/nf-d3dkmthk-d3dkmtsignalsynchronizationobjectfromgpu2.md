@@ -4,7 +4,6 @@ title: D3DKMTSignalSynchronizationObjectFromGpu2 function
 author: windows-driver-content
 description: D3DKMTSignalSynchronizationObjectFromGpu2 is used to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu2.htm
-tech.root: display
 ms.assetid: 813193DC-8066-4B98-BC24-7688630AAC1C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3DKMT_CREATECONTEXT
 author: windows-driver-content
 description: The D3DKMTCreateContext function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatecontext.htm
-tech.root: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

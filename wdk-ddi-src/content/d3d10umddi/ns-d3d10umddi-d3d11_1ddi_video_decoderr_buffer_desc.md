@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC
 author: windows-driver-content
 description: Describes a compressed buffer for Microsoft DirectX Video Acceleration (DXVA) decoding.
 old-location: display\d3d11_1ddi_video_decoderr_buffer_desc.htm
-tech.root: display
 ms.assetid: aff44ad9-7ade-4b01-8e41-11d686728faa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
 ---
 

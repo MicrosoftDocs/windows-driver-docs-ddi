@@ -4,7 +4,6 @@ title: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 author: windows-driver-content
 description: Write buffer immediate parameter.
 old-location: display\d3d12ddi-writebufferimmediate-parameter-0032.htm
-tech.root: display
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 ---
 

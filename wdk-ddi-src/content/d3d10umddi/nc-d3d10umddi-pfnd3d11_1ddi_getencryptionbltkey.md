@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETENCRYPTIONBLTKEY
 author: windows-driver-content
 description: Queries the key that is used to decrypt the data returned by the EncryptionBlt(D3D11_1) function.
 old-location: display\getencryptionbltkey1.htm
-tech.root: display
 ms.assetid: f1d3a443-7980-4894-b6a9-04c0886c6996
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

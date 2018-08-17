@@ -4,7 +4,6 @@ title: "_D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure identifies a GDI system present-history operation.
 old-location: display\d3dkmt_gdimodel_sysmem_presenthistorytoken.htm
-tech.root: display
 ms.assetid: 764e6504-a056-44c4-acf5-1788832a9c70
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN
 ---
 
