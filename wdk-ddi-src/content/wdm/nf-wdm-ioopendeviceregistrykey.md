@@ -75,7 +75,7 @@ The flags are defined as follows:
 
 #### PLUGPLAY_REGKEY_DEVICE
 
-Open the <b>Device Parameters</b> subkey under the device's <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a>. The key is located under the key for the device instance specified by <i>DeviceObject</i>. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
+Open the <b>Device Parameters</b> subkey under the device's hardware key, a device-specific registry subkey that contains information about the device. The key is located under the key for the device instance specified by *DeviceObject*. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
 
 
 
