@@ -2,16 +2,16 @@
 UID: NF:wdm.ExReleasePushLockShared
 title: ExReleasePushLockShared macro
 author: windows-driver-content
-description: TBD
+description: Releases a specified push lock for shared access owned by the current thread.
 ms.assetid: 261e7340-9015-4c58-a52e-87d563c7c884
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: macro
 ms.keywords: ExReleasePushLockShared
 req.header: wdm.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -44,14 +44,19 @@ targetos: Windows
 
 ## -description
 
-TBD
+Releases a specified push lock for shared access owned by the current thread.
 
 ## -parameters
 
 ### -param Lock
-TBD
+Opaque push lock pointer specified in the [**ExAcquirePushLockShared**](nf-wdm-exacquirepushlockshared.md) call. This pointer must have been initialized by a previous call to [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
 
 
 ## -remarks
+The caller is required call  [**KeLeaveCriticalRegion**](../ntddk/nf-ntddk-keleavecriticalregion.md) after calling [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
+
+To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md).
+
+To acquire a push lock for shared access, call [**ExAcquirePushLockShared**](nf-wdm-exacquirepushlockshared.md).
 
 ## -see-also
