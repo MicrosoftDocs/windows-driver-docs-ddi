@@ -118,7 +118,7 @@ For transmit queues, this value is read-only.
  
 ### -field Offset
 
-Contains the offset from the start of the **VirtualAddress** and **DmaLogicalAddress** to the start of the valid packet payload. This value is less than or equal to the value of Capacity.
+Contains the offset from the start of the **VirtualAddress** and **DmaLogicalAddress** to the start of the valid packet payload. This value is less than or equal to the value of **Capacity**.
 
 For transmit queues, this value is read-only.
 

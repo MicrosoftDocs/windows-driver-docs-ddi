@@ -53,7 +53,7 @@ The **NET_ADAPTER_TX_CAPABILITIES** structure describes the transmit capabilitie
 The size of this structure, in bytes.
  
 ### -field MappingRequirement
-A [NET_MEMORY_MAPPING_REQUIREMENT](ne-netadapter-_net_memory_mapping_requirement.md) value that specifies how the operating system should map transmit data buffers.
+A [**NET_MEMORY_MAPPING_REQUIREMENT**](ne-netadapter-_net_memory_mapping_requirement.md) value that specifies how the operating system should map transmit data buffers.
  
 ### -field MaximumFragmentBufferSize
 The maximum fragment buffer size, in bytes, that the adapter can transmit.
@@ -70,23 +70,22 @@ The maximum number of fragments per packet that the adapter can handle, or `((SI
 The minimum alignment for packet fragments. This member must be a power of 2.
  
 ### -field FragmentRingNumberOfElementsHint
-A hint indicating how many elements the adapter wants for each transmit queue's [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md) ring buffer. This member must be a power of 2.
+A hint indicating how many elements the adapter wants for each transmit queue's [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) ring buffer. This member must be a power of 2.
  
 ### -field MaximumNumberOfQueues
 The maximum number of transmit queues that the adapter supports.
  
 ### -field DmaCapabilities
-A pointer to a driver-allocated and initialized [NET_DMA_CAPABILITIES](ns-netadapter-_net_adapter_dma_capabilities.md) structure that describes the adapter's DMA capabilities on the transmit path. This member is ignored by NetAdapterCx if **MappingRequirement** is not set to **NetMemoryMappingRequirementDmaMapped**. 
+A pointer to a driver-allocated and initialized [**NET_DMA_CAPABILITIES**](ns-netadapter-_net_adapter_dma_capabilities.md) structure that describes the adapter's DMA capabilities on the transmit path. This member is ignored by NetAdapterCx if **MappingRequirement** is not set to **NetMemoryMappingRequirementDmaMapped**. 
 
 ## -remarks
 
 Call one of the NET_ADAPTER_TX_CAPABILITIES_INIT_*XXX* methods to initialize this structure. For more info about each initialization method, see the links in the See Also section. 
 
-An initialized **NET_ADAPTER_TX_CAPABILITIES** structure is passed as a parameter to [NetAdapterSetDatapathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md).
-
-
+An initialized **NET_ADAPTER_TX_CAPABILITIES** structure is passed as a parameter to [**NetAdapterSetDatapathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md).
 
 ## -see-also
-[NET_ADAPTER_TX_CAPABILITIES_INIT](nf-netadapter-net_adapter_tx_capabilities_init.md)
 
-[NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA](nf-netadapter-net_adapter_tx_capabilities_init_for_dma.md)
+[**NET_ADAPTER_TX_CAPABILITIES_INIT**](nf-netadapter-net_adapter_tx_capabilities_init.md)
+
+[**NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA**](nf-netadapter-net_adapter_tx_capabilities_init_for_dma.md)
