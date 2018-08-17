@@ -4,7 +4,6 @@ title: D3DKMTReleaseKeyedMutex2 function
 author: windows-driver-content
 description: Releases a keyed mutex object that includes private data.
 old-location: display\d3dkmtreleasekeyedmutex2.htm
-tech.root: display
 ms.assetid: e5df165c-3d85-42b9-affe-3dcc7c46aa0b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTReleaseKeyedMutex2
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

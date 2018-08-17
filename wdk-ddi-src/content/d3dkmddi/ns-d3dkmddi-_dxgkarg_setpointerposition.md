@@ -4,7 +4,6 @@ title: "_DXGKARG_SETPOINTERPOSITION"
 author: windows-driver-content
 description: The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the mouse pointer.
 old-location: display\dxgkarg_setpointerposition.htm
-tech.root: display
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETPOINTERPOSITION
 ---
 

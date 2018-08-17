@@ -4,7 +4,6 @@ title: D3DKMTSharedPrimaryUnLockNotification function
 author: windows-driver-content
 description: The D3DKMTSharedPrimaryUnLockNotification function notifies the operating system that a shared primary surface was unlocked.
 old-location: display\d3dkmtsharedprimaryunlocknotification.htm
-tech.root: display
 ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

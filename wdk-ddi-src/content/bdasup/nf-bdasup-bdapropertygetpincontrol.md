@@ -66,7 +66,7 @@ Points to the IRP for the request to retrieve pin information. The BDA minidrive
 
 ### -param Property
 
-TBD
+
 
 
 ### -param pulProperty [out, optional]

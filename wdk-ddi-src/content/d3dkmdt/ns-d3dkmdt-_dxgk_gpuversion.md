@@ -23,17 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GPUVERSION
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	_DXGK_GPUVERSION
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_GPUVERSION structure

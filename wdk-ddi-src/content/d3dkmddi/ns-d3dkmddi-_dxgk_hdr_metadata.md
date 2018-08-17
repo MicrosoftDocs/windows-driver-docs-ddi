@@ -4,7 +4,6 @@ title: "_DXGK_HDR_METADATA"
 author: windows-driver-content
 description: Contains information about the HDR metadata.
 old-location: display\dxgk_hdr_metadata.htm
-tech.root: display
 ms.assetid: 15AE3B05-1FD4-4ADB-B92F-9098225A920B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_HDR_METADATA
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 author: windows-driver-content
 description: Specifies callback functions for extended features.
 old-location: display\d3d12ddi_extended_features_funcs_0021.htm
-tech.root: display
 ms.assetid: 9E2D8EF5-18D0-4BC5-ADCA-3D3BE76D3BF1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 ---
 

@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.InitPropVariantFromFloat
 title: InitPropVariantFromFloat function
 author: windows-driver-content
-description: Coming soon.
+description: This routine initializes a PROPVARIANT with the given float.
 ms.assetid: 585790f6-563a-41a6-a500-01d1cfac6a78
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,24 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine initializes a PROPVARIANT with the given float.
+
+
 
 ## -parameters
 
 ### -param fltVal
-Coming soon.
+
+[in] Float value to initialize to.
+
 ### -param ppropvar
-Coming soon.
+
+[out] Pointer to a PROPVARIANT to be initialized.
 
 ## -returns
-This function returns HRESULT.
+
+This function returns S_OK if the PROPVARIANT was properly initialized, and E_FAIL if *ppropvar* is null.
+
 ## -remarks
 
 ## -see-also

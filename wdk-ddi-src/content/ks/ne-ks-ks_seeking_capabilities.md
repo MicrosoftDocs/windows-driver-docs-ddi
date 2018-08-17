@@ -2,7 +2,7 @@
 UID: NE:ks.KS_SEEKING_CAPABILITIES
 title: KS_SEEKING_CAPABILITIES
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ks_seeking_capabilities.htm
 tech.root: stream
 ms.assetid: 345ADD1F-2002-4F9C-942C-212CADCF84E5

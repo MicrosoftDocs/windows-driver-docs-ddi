@@ -4,7 +4,6 @@ title: DXGKCB_SETPOWERCOMPONENTACTIVE
 author: windows-driver-content
 description: Called by the display miniport driver to access a power component.
 old-location: display\dxgkcbsetpowercomponentactive.htm
-tech.root: display
 ms.assetid: 12008d80-8bcb-4289-97ea-d3325731a95f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

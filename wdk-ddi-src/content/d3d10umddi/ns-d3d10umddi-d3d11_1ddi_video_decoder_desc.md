@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_DECODER_DESC
 author: windows-driver-content
 description: Describes a video stream for a Microsoft Direct3D video decoder or video processor.
 old-location: display\d3d11_1ddi_video_decoder_desc.htm
-tech.root: display
 ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_DECODER_DESC
 ---
 

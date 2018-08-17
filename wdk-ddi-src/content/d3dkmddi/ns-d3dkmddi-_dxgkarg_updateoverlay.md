@@ -4,7 +4,6 @@ title: "_DXGKARG_UPDATEOVERLAY"
 author: windows-driver-content
 description: The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\dxgkarg_updateoverlay.htm
-tech.root: display
 ms.assetid: 077f2df2-c115-4702-9472-b43df02dac42
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_UPDATEOVERLAY
 ---
 

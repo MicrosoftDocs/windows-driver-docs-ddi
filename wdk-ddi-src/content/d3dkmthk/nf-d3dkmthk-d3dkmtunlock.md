@@ -4,7 +4,6 @@ title: D3DKMTUnlock function
 author: windows-driver-content
 description: The D3DKMTUnlock function unlocks a list of allocations.
 old-location: display\d3dkmtunlock.htm
-tech.root: display
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTQueryResourceInfoFromNtHandle function
 author: windows-driver-content
 description: Maps a global NT handle to resource information that is needed for a call to the D3DKMTQueryResourceInfo function.
 old-location: display\d3dkmtqueryresourceinfofromnthandle.htm
-tech.root: display
 ms.assetid: 7a433aaf-3215-4d11-8989-2d7bdc7f7499
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTQueryResourceInfoFromNtHandle
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

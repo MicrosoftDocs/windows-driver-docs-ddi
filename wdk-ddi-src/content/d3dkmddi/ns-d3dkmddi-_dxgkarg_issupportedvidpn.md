@@ -4,7 +4,6 @@ title: "_DXGKARG_ISSUPPORTEDVIDPN"
 author: windows-driver-content
 description: The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the DxgkDdiIsSupportedVidPn function. The DxgkDdiIsSupportedVidPn function determines whether a specified video present network (VidPN) is supported on a display adapter.
 old-location: display\dxgkarg_issupportedvidpn.htm
-tech.root: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_ISSUPPORTEDVIDPN
 ---
 

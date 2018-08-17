@@ -4,7 +4,6 @@ title: PFND3D12DDI_OPENCRYPTOSESSION_0030
 author: windows-driver-content
 description: Used to open a crypto session.
 old-location: display\pfnd3d12ddi_opencryptosession_0030.htm
-tech.root: display
 ms.assetid: 37A4A739-019E-41E6-B7B8-8F61E915C845
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

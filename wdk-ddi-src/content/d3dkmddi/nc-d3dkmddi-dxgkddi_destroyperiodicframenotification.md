@@ -4,7 +4,6 @@ title: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
 author: windows-driver-content
 description: Used to destroy a periodic frame notification.
 old-location: display\dxgkddi_destroyperiodicframenotification.htm
-tech.root: display
 ms.assetid: 4C6B6FB2-A699-40F5-ACA3-62E8620E99AB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

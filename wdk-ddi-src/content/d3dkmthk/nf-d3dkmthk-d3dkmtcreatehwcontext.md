@@ -4,7 +4,6 @@ title: D3DKMTCreateHwContext function
 author: windows-driver-content
 description: Used to create a new hardware context.
 old-location: display\d3dkmtcreatehwcontext.htm
-tech.root: display
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateHwContext
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

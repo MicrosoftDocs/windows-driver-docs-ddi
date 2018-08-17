@@ -4,7 +4,6 @@ title: PFND3D12DDI_OPENCRYPTOSESSIONPOLICY_0030
 author: windows-driver-content
 description: Used to open a crypto session policy.
 old-location: display\pfnd3d12ddi_opencryptosessionpolicy_0030.htm
-tech.root: display
 ms.assetid: 24B30BE0-9B7E-4946-8677-E3E727A63498
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

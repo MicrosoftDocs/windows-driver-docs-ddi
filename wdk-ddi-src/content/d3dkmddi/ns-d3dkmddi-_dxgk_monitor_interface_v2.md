@@ -4,7 +4,6 @@ title: "_DXGK_MONITOR_INTERFACE_V2"
 author: windows-driver-content
 description: The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, contains pointers to functions that belong to the Monitor Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitor_interface_v2.htm
-tech.root: display
 ms.assetid: 5c08b988-2cc0-46e1-a8b5-66de840650e4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MONITOR_INTERFACE_V2
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDICAPS_TYPE_VIDEO_0020
 author: windows-driver-content
 description: Contains capability types for video.
 old-location: display\d3d12ddicaps_type_video_0020.htm
-tech.root: display
 ms.assetid: 3B95996D-EB7C-4DCF-B00C-BA5AFEFD4110
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
 ---
 

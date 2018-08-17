@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETSHADER
 author: windows-driver-content
 description: The CsSetShader function sets the compute shader code so that all of the subsequent dispatching operations use that code.
 old-location: display\cssetshader.htm
-tech.root: display
 ms.assetid: ab689c60-3099-4d69-a7e2-5edfb623cbc3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT
 author: windows-driver-content
 description: Sets the destination rectangle for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamdestrect.htm
-tech.root: display
 ms.assetid: 84AD6C4F-A674-4CCC-B2E9-378E3E55EEF3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

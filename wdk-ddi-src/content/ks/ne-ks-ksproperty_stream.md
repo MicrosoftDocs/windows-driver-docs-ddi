@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_STREAM
 title: KSPROPERTY_STREAM
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_stream.htm
 tech.root: stream
 ms.assetid: 1A7C7181-00AF-4AAB-822F-017F11DB9409

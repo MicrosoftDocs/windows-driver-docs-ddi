@@ -4,7 +4,6 @@ title: D3D10DDIARG_CREATEELEMENTLAYOUT
 author: windows-driver-content
 description: The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to create.
 old-location: display\d3d10ddiarg_createelementlayout.htm
-tech.root: display
 ms.assetid: 3eb1555b-3274-496d-b6af-9cb0a6083ee4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_CREATEELEMENTLAYOUT
 ---
 

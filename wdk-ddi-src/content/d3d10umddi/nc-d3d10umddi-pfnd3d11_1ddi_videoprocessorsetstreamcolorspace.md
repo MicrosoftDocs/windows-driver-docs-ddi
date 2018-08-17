@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE
 author: windows-driver-content
 description: Sets the color space for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamcolorspace.htm
-tech.root: display
 ms.assetid: bb187968-ae2a-4872-a745-fb42c0cff528
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

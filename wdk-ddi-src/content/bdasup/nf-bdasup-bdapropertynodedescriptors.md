@@ -61,7 +61,7 @@ The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a te
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]
@@ -71,7 +71,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56426
 
 ### -param pNodeDescriptorProperty
 
-TBD
+
 
 
 

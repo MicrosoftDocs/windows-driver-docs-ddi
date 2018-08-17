@@ -4,7 +4,6 @@ title: "_D3DKMT_DEVICE_ESCAPE"
 author: windows-driver-content
 description: Do not use the D3DKMT_DEVICE_ESCAPE structure or D3DKMT_DEVICEESCAPE_TYPE enumeration. They are for testing purposes only. The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_device_escape.htm
-tech.root: display
 ms.assetid: 274bdd80-e898-42c7-8adc-8eae4e895b5f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DEVICE_ESCAPE
 ---
 

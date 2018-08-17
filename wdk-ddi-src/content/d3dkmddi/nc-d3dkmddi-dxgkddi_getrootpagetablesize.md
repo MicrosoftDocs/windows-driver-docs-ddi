@@ -4,7 +4,6 @@ title: DXGKDDI_GETROOTPAGETABLESIZE
 author: windows-driver-content
 description: DxgkDdiGetRootPageTableSize returns the minimum root page table size, in bytes, that is needed to hold the given number of page table entries.
 old-location: display\dxgkddigetrootpagetablesize.htm
-tech.root: display
 ms.assetid: 474F1772-0DF9-487B-AEB9-302392AE0B98
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENGLINFO"
 author: windows-driver-content
 description: The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD) information.
 old-location: display\d3dkmt_openglinfo.htm
-tech.root: display
 ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENGLINFO
 ---
 

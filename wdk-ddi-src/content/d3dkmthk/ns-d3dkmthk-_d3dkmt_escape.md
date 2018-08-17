@@ -4,7 +4,6 @@ title: "_D3DKMT_ESCAPE"
 author: windows-driver-content
 description: The D3DKMT_ESCAPE structure describes information that is exchanged with the display miniport driver.
 old-location: display\d3dkmt_escape.htm
-tech.root: display
 ms.assetid: db57ae5e-7060-4d45-99a5-e54c82b0aa05
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_ESCAPE
 ---
 

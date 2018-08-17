@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--
+-	NtosKrnl.exe
 api_name:
 -	VslDeleteSecureSection
 product:

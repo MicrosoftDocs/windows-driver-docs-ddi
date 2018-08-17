@@ -4,7 +4,6 @@ title: D3DKMTCheckMonitorPowerState function
 author: windows-driver-content
 description: The D3DKMTCheckMonitorPowerState function verifies the power state of a monitor.
 old-location: display\d3dkmtcheckmonitorpowerstate.htm
-tech.root: display
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCheckMonitorPowerState
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

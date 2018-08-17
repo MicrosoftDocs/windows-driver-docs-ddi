@@ -4,7 +4,6 @@ title: "_DXGK_GDIARG_CLEARTYPEBLEND"
 author: windows-driver-content
 description: The DXGK_GDIARG_CLEARTYPEBLEND structure describes the characteristics of a GDI hardware-accelerated ClearType and antialiased text pixel blending operation.
 old-location: display\dxgk_gdiarg_cleartypeblend.htm
-tech.root: display
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_CLEARTYPEBLEND
 ---
 

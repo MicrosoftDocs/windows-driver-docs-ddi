@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 08/10/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,9 +50,7 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
-The <b>operator=</b> overloaded assignment operator sets the typed data represented by the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object by copying the information from another object.
-
+The <b>operator=</b> overloaded assignment operator sets the typed data represented by the [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) object by copying the information from another object.
 
 ## -syntax
 
@@ -66,45 +64,27 @@ ExtRemoteTyped & operator=(
 
 ## -parameters
 
-
-
-
-
-
 #### - Typed [in]
 
-A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the data and type to be assigned to this object.
+A pointer to a [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) structure that describes the data and type to be assigned to this object.
 
 
 ## -returns
 
-
-
-<b>operator=</b>  returns the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object.
-
-
+<b>operator=</b>  returns the [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) object.
 
 
 ## -remarks
 
-
-
-The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
-
-
+The typed data can also be copied using the [ExtBuffer::Copy method](..\engextcpp\nf-engextcpp-extbuffer-copy.md) method.
 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+[ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md)
 
 
-
-<a href="..\wextestclass\nf-wextestclass-fixtureinvokefunctor-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
-
-
-
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+[DEBUG_TYPED_DATA](..\wdbgexts\ns-wdbgexts-_debug_typed_data.md)
 
 
 

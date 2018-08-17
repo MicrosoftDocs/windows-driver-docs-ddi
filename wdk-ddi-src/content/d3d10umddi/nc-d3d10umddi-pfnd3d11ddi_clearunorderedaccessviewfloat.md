@@ -4,7 +4,6 @@ title: PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT
 author: windows-driver-content
 description: The ClearUnorderedAccessViewFLOAT function clears the specified unordered-access view by setting it to a constant value.
 old-location: display\clearunorderedaccessviewfloat.htm
-tech.root: display
 ms.assetid: 31734efd-0c17-4476-918d-942c015072bd
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

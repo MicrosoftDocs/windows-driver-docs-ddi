@@ -4,7 +4,6 @@ title: PFND3D11DDI_DISPATCH
 author: windows-driver-content
 description: The Dispatch function executes the compute shader.
 old-location: display\dispatch.htm
-tech.root: display
 ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

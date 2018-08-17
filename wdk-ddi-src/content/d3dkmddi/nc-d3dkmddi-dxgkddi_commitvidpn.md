@@ -4,7 +4,6 @@ title: DXGKDDI_COMMITVIDPN
 author: windows-driver-content
 description: The DxgkDdiCommitVidPn function makes a specified video present network (VidPN) active on a display adapter.
 old-location: display\dxgkddicommitvidpn.htm
-tech.root: display
 ms.assetid: 979b86e9-f3ff-4022-8c00-b6afc2b1f747
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

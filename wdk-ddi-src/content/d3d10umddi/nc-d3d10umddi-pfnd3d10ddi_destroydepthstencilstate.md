@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYDEPTHSTENCILSTATE
 author: windows-driver-content
 description: The DestroyDepthStencilState function destroys the specified depth stencil state object. The depth stencil state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroydepthstencilstate.htm
-tech.root: display
 ms.assetid: 5fc537f6-2507-4edd-bfa0-c011dd834a22
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

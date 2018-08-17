@@ -61,7 +61,7 @@ The <b>BdaGetChangeState</b> function returns the current change state of BDA to
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pChangeState [out, optional]

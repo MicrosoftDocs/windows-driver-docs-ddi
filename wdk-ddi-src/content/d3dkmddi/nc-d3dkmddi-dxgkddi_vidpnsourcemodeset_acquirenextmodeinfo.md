@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO
 author: windows-driver-content
 description: The pfnAcquireNextModeInfo function returns a descriptor of the next mode in a specified VidPN source mode set, given the current mode.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirenextmodeinfo.htm
-tech.root: display
 ms.assetid: d9cb1ff1-c428-46e5-884a-5fc39e16300e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

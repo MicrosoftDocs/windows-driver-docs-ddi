@@ -4,7 +4,6 @@ title: "_D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME"
 author: windows-driver-content
 description: Describes information that is required to map a GDI display name to a remote video present network (VidPN) source ID.
 old-location: display\d3dkmt_queryremotevidpnsourcefromgdidisplayname.htm
-tech.root: display
 ms.assetid: ac0ec68a-1f2c-4a39-bf88-0e69d50b1279
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 ---
 

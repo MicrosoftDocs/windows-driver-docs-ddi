@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
 author: windows-driver-content
 description: The pfnAssignMultisamplingMethodSet function assigns a set of multisampling methods to a particular video present source in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassignmultisamplingmethodset.htm
-tech.root: display
 ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

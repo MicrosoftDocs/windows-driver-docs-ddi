@@ -4,7 +4,6 @@ title: PFND3D10DDI_OPENRESOURCE
 author: windows-driver-content
 description: The OpenResource(D3D10) function opens a shared resource.
 old-location: display\openresource_d3d10_.htm
-tech.root: display
 ms.assetid: 95f6d1e5-0c85-41ce-ad6d-f10d5103e2eb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

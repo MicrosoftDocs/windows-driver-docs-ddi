@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_TILE_RANGE_FLAG
 author: windows-driver-content
 description: Specifies a range of tile mappings to use with the UpdateTileMappings function.
 old-location: display\d3dwddm1_3ddi_tile_range_flag.htm
-tech.root: display
 ms.assetid: 7D8B55F1-00BD-414B-9E78-DABCEBEF949F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_RANGE_FLAG
 ---
 

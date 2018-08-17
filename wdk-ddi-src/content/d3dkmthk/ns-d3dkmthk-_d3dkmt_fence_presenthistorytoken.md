@@ -4,7 +4,6 @@ title: "_D3DKMT_FENCE_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-history operation.
 old-location: display\d3dkmt_fence_presenthistorytoken.htm
-tech.root: display
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_FENCE_PRESENTHISTORYTOKEN
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_VIDEO_DECODE_FRAME_0030
 author: windows-driver-content
 description: Used to decode a video frame.
 old-location: display\pfnd3d12ddi_video_decode_frame_0030.htm
-tech.root: display
 ms.assetid: 6BC35C7C-8E27-45FF-B406-BCE6E486E115
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

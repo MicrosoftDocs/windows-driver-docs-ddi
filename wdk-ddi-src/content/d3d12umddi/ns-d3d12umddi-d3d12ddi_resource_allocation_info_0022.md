@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
 author: windows-driver-content
 description: Specifies information for resource allocation.
 old-location: display\d3d12ddi_resource_allocation_info_0022.htm
-tech.root: display
 ms.assetid: 71CDBF47-B32D-4084-B2F6-9F8C037FCB79
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
 ---
 

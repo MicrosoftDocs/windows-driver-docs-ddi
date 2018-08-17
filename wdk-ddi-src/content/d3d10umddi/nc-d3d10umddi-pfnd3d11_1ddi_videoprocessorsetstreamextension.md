@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION
 author: windows-driver-content
 description: Sets the private state data for a video processor stream from an application.
 old-location: display\videoprocessorsetstreamextension.htm
-tech.root: display
 ms.assetid: 380f7fbd-34aa-401b-a7dc-5d8b521f7948
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

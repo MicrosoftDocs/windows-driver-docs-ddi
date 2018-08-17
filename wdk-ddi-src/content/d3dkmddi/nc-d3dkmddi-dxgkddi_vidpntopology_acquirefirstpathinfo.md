@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
 author: windows-driver-content
 description: The pfnAcquireFirstPathInfo structure returns a descriptor of the first path in a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirefirstpathinfo.htm
-tech.root: display
 ms.assetid: b5dc35dc-f4fb-4209-9a4d-50dc11f16216
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

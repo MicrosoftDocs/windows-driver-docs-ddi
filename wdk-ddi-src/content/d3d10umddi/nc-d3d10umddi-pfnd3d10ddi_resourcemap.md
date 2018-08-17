@@ -4,7 +4,6 @@ title: PFND3D10DDI_RESOURCEMAP
 author: windows-driver-content
 description: The ResourceMap function maps a subresource of a resource.
 old-location: display\resourcemap.htm
-tech.root: display
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

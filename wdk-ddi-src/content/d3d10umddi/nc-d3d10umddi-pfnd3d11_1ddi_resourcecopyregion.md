@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_RESOURCECOPYREGION
 author: windows-driver-content
 description: Copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion_d3d11_1_.htm
-tech.root: display
 ms.assetid: CA26FB37-1A4C-4057-90A5-64FFBE289E39
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

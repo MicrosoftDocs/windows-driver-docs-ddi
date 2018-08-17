@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_PALETTE_0020
 author: windows-driver-content
 description: Specifies whether the palette is enabled and an array of palette entries.
 old-location: display\d3d12ddi_video_process_palette.htm
-tech.root: display
 ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_PALETTE_0020
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE
 author: windows-driver-content
 description: Queries the range of values that the display miniport driver supports for a specified video processor filter.
 old-location: display\getvideoprocessorfilterrange.htm
-tech.root: display
 ms.assetid: ab3f8abb-4735-42c1-9664-8f2f5f7d5da7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

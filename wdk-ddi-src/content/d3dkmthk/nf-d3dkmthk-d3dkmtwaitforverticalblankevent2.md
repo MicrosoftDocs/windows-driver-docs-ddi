@@ -4,7 +4,6 @@ title: D3DKMTWaitForVerticalBlankEvent2 function
 author: windows-driver-content
 description: Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
 old-location: display\d3dkmtwaitforverticalblankevent2.htm
-tech.root: display
 ms.assetid: 71a48c1f-1eca-4f3e-a085-99ffc207a7e0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTWaitForVerticalBlankEvent2
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGKARG_PRESENT"
 author: windows-driver-content
 description: The DXGKARG_PRESENT structure describes a source-to-primary copy operation.
 old-location: display\dxgkarg_present.htm
-tech.root: display
 ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_PRESENT
 ---
 

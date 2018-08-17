@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT
 author: windows-driver-content
 description: Enables or disables stereo 3D video for an input stream on the video processor. In addition, this function specifies the layout of the video frames in memory.
 old-location: display\videoprocessorsetstreamstereoformat.htm
-tech.root: display
 ms.assetid: bc79f431-d23e-4440-a8c5-50c29c48444e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

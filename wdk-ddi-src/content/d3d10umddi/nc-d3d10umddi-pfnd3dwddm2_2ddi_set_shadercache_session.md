@@ -4,7 +4,6 @@ title: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION
 author: windows-driver-content
 description: The pfnSetShaderCacheSession callback function sets a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_set_shadercache_session.htm
-tech.root: display
 ms.assetid: 18BA159D-5E78-41AC-8CB8-97AEC2AE9592
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEQUERY
 author: windows-driver-content
 description: The CreateQuery(D3D10) function creates a query.
 old-location: display\createquery_d3d10_.htm
-tech.root: display
 ms.assetid: abe6a82f-1613-4c74-9e81-01939db74bfd
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETSHADERRESOURCES
 author: windows-driver-content
 description: The CsSetShaderResources function sets resources for a compute shader.
 old-location: display\cssetshaderresources.htm
-tech.root: display
 ms.assetid: 29570c3b-eb3b-4d8f-b471-8f3ea6226e23
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

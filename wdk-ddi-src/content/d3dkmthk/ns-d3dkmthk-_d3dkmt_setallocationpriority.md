@@ -4,7 +4,6 @@ title: "_D3DKMT_SETALLOCATIONPRIORITY"
 author: windows-driver-content
 description: The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority level to set a resource or list of allocations to.
 old-location: display\d3dkmt_setallocationpriority.htm
-tech.root: display
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETALLOCATIONPRIORITY
 ---
 

@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.GetPerformanceTime
 title: GetPerformanceTime function
 author: windows-driver-content
-description: Coming soon.
+description: This routine calculates system time in milliseconds.
 ms.assetid: f37e8d1a-48dc-403c-a95e-1b3572dc14ac
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,19 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine calculates system time in milliseconds. The time source is the performance counter.
+
 
 ## -parameters
 
 ### -param TimeMs
-Coming soon.
+
+[out] Time in milliseconds.
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
 
 ## -see-also

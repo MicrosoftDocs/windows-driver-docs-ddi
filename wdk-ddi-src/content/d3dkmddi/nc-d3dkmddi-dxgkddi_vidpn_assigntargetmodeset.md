@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPN_ASSIGNTARGETMODESET
 author: windows-driver-content
 description: The pfnAssignTargetModeSet function assigns a target mode set to a particular target in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassigntargetmodeset.htm
-tech.root: display
 ms.assetid: 846c6dd5-d4f8-4835-83a2-994725deaf36
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

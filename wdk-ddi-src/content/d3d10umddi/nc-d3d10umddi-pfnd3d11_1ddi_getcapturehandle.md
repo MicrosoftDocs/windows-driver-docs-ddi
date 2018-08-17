@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETCAPTUREHANDLE
 author: windows-driver-content
 description: Returns the handle for a specified resource that was allocated by the driver. This function also returns the size and location of specified data within the resource.
 old-location: display\getcapturehandle.htm
-tech.root: display
 ms.assetid: b1ca7cf0-fe63-452f-8360-fdba05875719
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

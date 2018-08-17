@@ -4,7 +4,6 @@ title: D3DKMTReclaimAllocations function
 author: windows-driver-content
 description: Reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations.htm
-tech.root: display
 ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTReclaimAllocations
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

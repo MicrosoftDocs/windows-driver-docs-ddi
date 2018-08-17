@@ -4,7 +4,6 @@ title: DXGKCB_NOTIFY_INTERRUPT
 author: windows-driver-content
 description: The DxgkCbNotifyInterrupt function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at interrupt-service-routine (ISR) time.
 old-location: display\dxgkcbnotifyinterrupt.htm
-tech.root: display
 ms.assetid: 7968d26d-0195-463d-8954-e7ebef4f9dea
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

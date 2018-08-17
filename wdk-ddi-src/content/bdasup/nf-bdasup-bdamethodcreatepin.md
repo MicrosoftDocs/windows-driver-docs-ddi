@@ -61,7 +61,7 @@ The <b>BdaMethodCreatePin</b> function creates a pin factory.
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSMethod [in]

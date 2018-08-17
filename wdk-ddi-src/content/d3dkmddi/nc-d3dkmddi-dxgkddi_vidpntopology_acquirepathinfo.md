@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO
 author: windows-driver-content
 description: The pfnAcquirePathInfo function returns a descriptor of the video present path specified by a video present source and a video present target within a particular VidPN topology.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirepathinfo.htm
-tech.root: display
 ms.assetid: 27a03106-a5b5-489c-968a-81b3ea9940cb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

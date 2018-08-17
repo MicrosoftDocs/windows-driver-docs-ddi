@@ -4,7 +4,6 @@ title: "_DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT"
 author: windows-driver-content
 description: The DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT structure describes how to set the private-format attribute for a video present source.
 old-location: display\dxgkarg_setdisplayprivatedriverformat.htm
-tech.root: display
 ms.assetid: a09cfc9a-26e8-4984-b5c6-7ead5aa4644e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 

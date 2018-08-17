@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.PropKeyFindKeyGetUlong
 title: PropKeyFindKeyGetUlong function
 author: windows-driver-content
-description: Coming soon.
+description: This routine gets a ULONG value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: e3c390be-bebf-400d-9650-b7e3d0ff5a23
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,32 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine gets a ULONG value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
+
+
 
 ## -parameters
 
 ### -param pList
-Coming soon.
+
+[in] Pointer to the list of PROPVARIANT collection.
+
 ### -param pKey
-Coming soon.
+
+[in] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+
 ### -param pRetValue
-Coming soon.
+
+[out] Pointer to the output buffer.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns one of the following NTSTATUS codes:
+
+* STATUS_INVALID_PARAMETER if *pList*, *pKey* or, *pRetValue* is nullptr.
+* STATUS_NOT_FOUND if the element identified by *pKey* was not found.
+* STATUS_SUCCESS on success.
+
 ## -remarks
 
 ## -see-also

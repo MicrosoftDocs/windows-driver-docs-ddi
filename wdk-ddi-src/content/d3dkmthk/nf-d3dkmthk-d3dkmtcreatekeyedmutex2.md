@@ -4,7 +4,6 @@ title: D3DKMTCreateKeyedMutex2 function
 author: windows-driver-content
 description: Creates a keyed mutex object that includes private data.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
-tech.root: display
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateKeyedMutex2
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

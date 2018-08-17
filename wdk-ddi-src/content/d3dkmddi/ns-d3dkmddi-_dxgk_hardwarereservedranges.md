@@ -23,17 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_HARDWARERESERVEDRANGES
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGK_HARDWARERESERVEDRANGES
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_HARDWARERESERVEDRANGES structure

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020
 author: windows-driver-content
 description: Input stream flags.
 old-location: display\d3d12ddi_video_process_input_stream_flags.htm
-tech.root: display
 ms.assetid: 6BF1C31E-45F8-4921-87A2-53331530EAC4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020
 ---
 

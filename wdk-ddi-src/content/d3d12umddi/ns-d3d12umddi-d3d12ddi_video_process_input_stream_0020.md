@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 author: windows-driver-content
 description: Contains stream information for the video processor blend functionality.
 old-location: display\d3d12ddi_video_process_input_stream.htm
-tech.root: display
 ms.assetid: DB0AF7A5-8E90-45B8-AF9C-58BFF7CE066E
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 ---
 

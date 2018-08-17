@@ -4,7 +4,6 @@ title: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
 author: windows-driver-content
 description: Specifies output stream parameters for the output to be processed.
 old-location: display\d3d12ddiarg_video_process_output_stream_parameters.htm
-tech.root: display
 ms.assetid: F8D7A87D-FFE6-4846-A902-2A686D78F0C1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
 ---
 

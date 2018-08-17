@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETCERTIFICATE
 author: windows-driver-content
 description: Returns a certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificate.htm
-tech.root: display
 ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

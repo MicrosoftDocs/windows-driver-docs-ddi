@@ -32,9 +32,9 @@ req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	UserDefined
 api_location:
--
+-	Ufxclient.h
 api_name:
 -	EVT_UFX_DEVICE_TESTHOOK callback
 product:

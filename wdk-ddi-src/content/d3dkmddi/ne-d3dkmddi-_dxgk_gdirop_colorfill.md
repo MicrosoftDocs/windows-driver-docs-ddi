@@ -4,7 +4,6 @@ title: "_DXGK_GDIROP_COLORFILL"
 author: windows-driver-content
 description: The DXGK_GDIROP_COLORFILL enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
 old-location: display\dxgk_gdirop_colorfill.htm
-tech.root: display
 ms.assetid: 1ef99bb0-855a-46d1-9702-5fc3eba5e68e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIROP_COLORFILL
 ---
 

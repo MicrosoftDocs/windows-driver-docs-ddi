@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYBLENDSTATE
 author: windows-driver-content
 description: The DestroyBlendState function destroys the specified blend state object. The blend state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyblendstate.htm
-tech.root: display
 ms.assetid: 56fc1ecf-fd4c-4d36-941b-8fa6cca3b6b4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

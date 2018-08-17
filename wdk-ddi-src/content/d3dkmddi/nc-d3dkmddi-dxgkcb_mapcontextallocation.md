@@ -4,7 +4,6 @@ title: DXGKCB_MAPCONTEXTALLOCATION
 author: windows-driver-content
 description: Maps a graphics processing unit (GPU) virtual address to the specified context allocation.
 old-location: display\dxgkcbmapcontextallocation.htm
-tech.root: display
 ms.assetid: 8EAC322D-B666-428A-99A3-96E489611832
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -65,7 +65,7 @@ Pointer to the DEVMODE structure to be validated.
 
 ### -param DevmodeSize
 
-TBD
+
 
 
 

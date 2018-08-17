@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEDEPTHSTENCILSTATE
 author: windows-driver-content
 description: The CreateDepthStencilState function creates a depth stencil state.
 old-location: display\createdepthstencilstate.htm
-tech.root: display
 ms.assetid: ed2da104-c4e8-43eb-80e0-10273b575020
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

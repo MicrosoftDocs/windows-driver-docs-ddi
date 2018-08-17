@@ -4,7 +4,6 @@ title: DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO
 author: windows-driver-content
 description: The pfnAcquirePreferredModeInfo returns a descriptor of the preferred mode in a specified monitor source mode set object.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirepreferredmodeinfo.htm
-tech.root: display
 ms.assetid: 80d3d199-42ad-4f21-8122-05dfad37016d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_SET_TIMING_PATH_INFO"
 author: windows-driver-content
 description: Structure to hold information to modify SetTiming path.
 old-location: display\dxgk_set_timing_path_info.htm
-tech.root: display
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SET_TIMING_PATH_INFO
 ---
 

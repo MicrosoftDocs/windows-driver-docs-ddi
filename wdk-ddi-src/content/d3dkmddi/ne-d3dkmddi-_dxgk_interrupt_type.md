@@ -4,7 +4,6 @@ title: "_DXGK_INTERRUPT_TYPE"
 author: windows-driver-content
 description: The DXGK_INTERRUPT_TYPE enumeration indicates the type of interrupt that the display miniport driver notifies the graphics processing unit (GPU) scheduler about.
 old-location: display\dxgk_interrupt_type.htm
-tech.root: display
 ms.assetid: f942e448-94b8-400b-927b-fb5f2b1f544e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_INTERRUPT_TYPE
 ---
 

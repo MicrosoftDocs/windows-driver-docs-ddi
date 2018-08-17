@@ -4,7 +4,6 @@ title: "_DXGKARG_QUERYCURRENTFENCE"
 author: windows-driver-content
 description: The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submission fence.
 old-location: display\dxgkarg_querycurrentfence.htm
-tech.root: display
 ms.assetid: 84a7c49b-d079-4d14-b371-5cfb75c1331c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_QUERYCURRENTFENCE
 ---
 

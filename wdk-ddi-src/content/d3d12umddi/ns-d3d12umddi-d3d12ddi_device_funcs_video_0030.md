@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_VIDEO_0030
 author: windows-driver-content
 description: Video device functions.
 old-location: display\d3d12ddi-device-funcs-video-0030.htm
-tech.root: display
 ms.assetid: 39647e7d-d89f-43f4-916a-cbfa5ba28611
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0030
 ---
 

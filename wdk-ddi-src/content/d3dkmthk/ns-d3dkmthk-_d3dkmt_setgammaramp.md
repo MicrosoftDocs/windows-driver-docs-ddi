@@ -4,7 +4,6 @@ title: "_D3DKMT_SETGAMMARAMP"
 author: windows-driver-content
 description: The D3DKMT_SETGAMMARAMP structure describes parameters for setting the gamma ramp.
 old-location: display\d3dkmt_setgammaramp.htm
-tech.root: display
 ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETGAMMARAMP
 ---
 

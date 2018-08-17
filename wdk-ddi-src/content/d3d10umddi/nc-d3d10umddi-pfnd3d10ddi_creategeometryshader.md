@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEGEOMETRYSHADER
 author: windows-driver-content
 description: The CreateGeometryShader function creates a geometry shader.
 old-location: display\creategeometryshader.htm
-tech.root: display
 ms.assetid: b3b422e3-f8da-4aad-a230-7c7e26dd72ec
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

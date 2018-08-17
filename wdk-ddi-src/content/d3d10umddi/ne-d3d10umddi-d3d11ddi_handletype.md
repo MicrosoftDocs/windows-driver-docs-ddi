@@ -4,7 +4,6 @@ title: D3D11DDI_HANDLETYPE
 author: windows-driver-content
 description: Contains values that identify handle types.
 old-location: display\d3d11ddi_handletype.htm
-tech.root: display
 ms.assetid: 9ac032fe-b870-49aa-8602-3c7aa997ef9a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDI_HANDLETYPE
 ---
 

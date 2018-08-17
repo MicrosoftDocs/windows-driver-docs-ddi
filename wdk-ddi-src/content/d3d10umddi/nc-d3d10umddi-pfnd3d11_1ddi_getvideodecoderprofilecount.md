@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT
 author: windows-driver-content
 description: Queries the number of video decoder profiles that are supported by the display miniport driver.
 old-location: display\getvideodecoderprofilecount.htm
-tech.root: display
 ms.assetid: ae24bc29-177e-48a1-adf9-ed8c79b7f39c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

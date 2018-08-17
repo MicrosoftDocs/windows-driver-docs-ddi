@@ -4,7 +4,6 @@ title: "_DXGKARGCB_GETCAPTUREADDRESS"
 author: windows-driver-content
 description: The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
 old-location: display\dxgkargcb_getcaptureaddress.htm
-tech.root: display
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_GETCAPTUREADDRESS
 ---
 

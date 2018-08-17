@@ -4,7 +4,6 @@ title: "_D3DKMT_OUTPUTDUPL_SNAPSHOT"
 author: windows-driver-content
 description: Provides information on the current processes in which output duplication is occurring.
 old-location: display\d3dkmt_outputdupl_snapshot.htm
-tech.root: display
 ms.assetid: bec6a398-34e8-4c03-ac15-c3f00645eac7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OUTPUTDUPL_SNAPSHOT
 ---
 

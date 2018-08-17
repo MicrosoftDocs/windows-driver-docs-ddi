@@ -4,7 +4,6 @@ title: D3D12DDI_TABLE_TYPE
 author: windows-driver-content
 description: Command list and queue types to allow drivers to point to different implementations for video.
 old-location: display\d3d12ddi_table_type.htm
-tech.root: display
 ms.assetid: 93562C36-7ADE-4CC6-B33D-D6E955E3D42C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_TABLE_TYPE
 ---
 

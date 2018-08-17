@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_TS_SELECTORINFO
 title: "_BDA_TS_SELECTORINFO"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_ts_selectorinfo.htm
 tech.root: stream
 ms.assetid: 34F10EDD-C196-4022-8D03-45A005F17F5F

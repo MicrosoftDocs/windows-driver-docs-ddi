@@ -4,7 +4,6 @@ title: "_D3DKMT_DIRTYREGIONS"
 author: windows-driver-content
 description: The D3DKMT_DIRTYREGIONS structure describes active rectangles (dirty regions) of a surface.
 old-location: display\d3dkmt_dirtyregions.htm
-tech.root: display
 ms.assetid: 53565c01-9e6f-4ade-8c4a-2a4dbe7d48c7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DIRTYREGIONS
 ---
 

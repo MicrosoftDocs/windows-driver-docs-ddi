@@ -4,7 +4,6 @@ title: DXGKCB_CREATECONTEXTALLOCATION
 author: windows-driver-content
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to allocate a GPU context or device-specific context.
 old-location: display\dxgkcbcreatecontextallocation.htm
-tech.root: display
 ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

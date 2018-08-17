@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATEDEPTHSTENCILVIEW
 author: windows-driver-content
 description: The CreateDepthStencilView(D3D11) function creates a depth-stencil view.
 old-location: display\createdepthstencilview_d3d11_.htm
-tech.root: display
 ms.assetid: cf4c34da-71df-4b49-b1c8-73d1a2dbc3cb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW
 author: windows-driver-content
 description: Creates a resource view for a video processor. This view defines the output sample for the video processing operation.
 old-location: display\createvideoprocessoroutputview.htm
-tech.root: display
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

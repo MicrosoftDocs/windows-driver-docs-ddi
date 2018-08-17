@@ -4,7 +4,6 @@ title: PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD
 author: windows-driver-content
 description: The ShaderResourceViewReadAfterWriteHazard function informs the user-mode display driver that the specified resource was used as an output from the graphics processing unit (GPU) and that the resource will be used as an input to the GPU.
 old-location: display\shaderresourceviewreadafterwritehazard.htm
-tech.root: display
 ms.assetid: bb391154-a9ff-4032-b86e-81fa4ea2e37c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030
 author: windows-driver-content
 description: Used to transform encrypted data.
 old-location: display\pfnd3d12ddi_transformencrypteddata_0030.htm
-tech.root: display
 ms.assetid: B738C096-E821-4D7E-A713-47300E4E3779
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

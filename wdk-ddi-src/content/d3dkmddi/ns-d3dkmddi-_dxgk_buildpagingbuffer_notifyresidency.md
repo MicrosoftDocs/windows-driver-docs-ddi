@@ -4,7 +4,6 @@ title: "_DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY describes a residency allocation change operation.
 old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
-tech.root: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 ---
 

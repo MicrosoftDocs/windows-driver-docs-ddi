@@ -75,7 +75,7 @@ Pointer to the first element of a caller-allocated array of property identifiers
 
 ### -param ppszNames
 
-TBD
+
 
 
 

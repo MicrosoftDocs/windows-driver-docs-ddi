@@ -4,7 +4,6 @@ title: "_D3DKMT_CHECKOCCLUSION"
 author: windows-driver-content
 description: The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check for occlusion.
 old-location: display\d3dkmt_checkocclusion.htm
-tech.root: display
 ms.assetid: 1797b64d-ca2c-4b07-aaad-bef4966b5ca7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CHECKOCCLUSION
 ---
 

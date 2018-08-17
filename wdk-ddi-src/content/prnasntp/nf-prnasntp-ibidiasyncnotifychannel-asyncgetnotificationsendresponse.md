@@ -2,7 +2,7 @@
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
 title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
 tech.root: print
 ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2

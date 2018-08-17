@@ -4,7 +4,6 @@ title: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
 author: windows-driver-content
 description: This structure contains runtime callback functions that the user-mode display driver can use.
 old-location: display\d3d12ddi_corelayer_devicecallbacks_0022.htm
-tech.root: display
 ms.assetid: E5B7FDB6-3351-489E-B0BB-8B8DD605FCF4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
 ---
 

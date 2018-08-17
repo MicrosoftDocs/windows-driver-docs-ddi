@@ -2,7 +2,7 @@
 UID: NF:d3d12umddi.DEFINE_ENUM_FLAG_OPERATORS~r40
 title: DEFINE_ENUM_FLAG_OPERATORS function
 author: windows-driver-content
-description: TBD
+description: Defines operator overloads to enable bit operations on enum values that are used to define flags.
 ms.assetid: 5cb4b764-b51d-4df5-8f08-1cf6246bedf0
 ms.author: windowsdriverdev
 ms.date:
@@ -25,17 +25,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	DEFINE_ENUM_FLAG_OPERATORS
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 
 ---
 

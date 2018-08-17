@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENT_MODEL"
 author: windows-driver-content
 description: The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation.
 old-location: display\d3dkmt_present_model.htm
-tech.root: display
 ms.assetid: 4663cc8e-ce69-4454-afff-03d4a8d82dfb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENT_MODEL
 ---
 

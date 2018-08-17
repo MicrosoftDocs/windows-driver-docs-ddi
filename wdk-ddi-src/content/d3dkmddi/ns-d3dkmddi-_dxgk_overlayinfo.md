@@ -4,7 +4,6 @@ title: "_DXGK_OVERLAYINFO"
 author: windows-driver-content
 description: The DXGK_OVERLAYINFO structure describes parameters that are required to create or modify an overlay.
 old-location: display\dxgk_overlayinfo.htm
-tech.root: display
 ms.assetid: 7c2a7484-452f-4801-b650-3d8221740892
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_OVERLAYINFO
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGKARG_PRESENT_DISPLAYONLY"
 author: windows-driver-content
 description: Indicates how a kernel mode display-only driver (KMDOD) is to perform a present operation.
 old-location: display\dxgkarg_present_displayonly.htm
-tech.root: display
 ms.assetid: 7679d4f2-55c6-458c-afd3-020c3b7fd7e2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_PRESENT_DISPLAYONLY
 ---
 

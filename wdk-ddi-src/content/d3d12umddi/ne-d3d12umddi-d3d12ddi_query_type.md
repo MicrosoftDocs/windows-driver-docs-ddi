@@ -4,7 +4,6 @@ title: D3D12DDI_QUERY_TYPE
 author: windows-driver-content
 description: Type of a query.
 old-location: display\d3d12ddi_query_type.htm
-tech.root: display
 ms.assetid: C411997A-0F01-4D88-816A-BD375D0744C7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_QUERY_TYPE
 ---
 

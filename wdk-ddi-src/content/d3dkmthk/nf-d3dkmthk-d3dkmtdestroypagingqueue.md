@@ -4,7 +4,6 @@ title: D3DKMTDestroyPagingQueue function
 author: windows-driver-content
 description: D3DKMTDestroyPagingQueue waits for a paging queue to finish all operations queued to it, and destroys it along with the associated sync object.
 old-location: display\d3dkmtdestroypagingqueue.htm
-tech.root: display
 ms.assetid: 470563BD-F185-4CA2-B4AD-06E1AABD36AD
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,7 +34,6 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
@@ -44,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

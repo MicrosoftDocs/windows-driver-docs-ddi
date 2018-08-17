@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_HEADER
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	_DXGK_DIAGNOSTIC_HEADER
 product: 
 - Windows

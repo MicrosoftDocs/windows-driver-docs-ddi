@@ -4,7 +4,6 @@ title: "_D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
 author: windows-driver-content
 description: A structure that contains information to submit a wait on the hardware queue.
 old-location: display\d3dkmt_submitwaitforsyncobjectstohwqueue_.htm
-tech.root: display
 ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ---
 

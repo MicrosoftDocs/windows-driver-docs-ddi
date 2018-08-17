@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	NfcCx.dll
 api_name: 
 -	MmUnmapViewInSystemSpace
 product:

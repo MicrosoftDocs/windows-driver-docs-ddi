@@ -4,7 +4,6 @@ title: "_DXGK_SEGMENTBANKPREFERENCE"
 author: windows-driver-content
 description: The DXGK_SEGMENTBANKPREFERENCE structure describes bank preferences for paging in an allocation.
 old-location: display\dxgk_segmentbankpreference.htm
-tech.root: display
 ms.assetid: ff292137-4d95-4388-aae9-f6436b403c6a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SEGMENTBANKPREFERENCE
 ---
 

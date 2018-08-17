@@ -4,7 +4,6 @@ title: D3D12DDI_ALLOCATION_INFO_FLAGS_0022
 author: windows-driver-content
 description: Contains allocation information flags.
 old-location: display\d3d12ddi_allocation_info_flags_0022.htm
-tech.root: display
 ms.assetid: DE3C133C-C1A9-4735-B1C4-9F6E791845A1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_ALLOCATION_INFO_FLAGS_0022
 ---
 
