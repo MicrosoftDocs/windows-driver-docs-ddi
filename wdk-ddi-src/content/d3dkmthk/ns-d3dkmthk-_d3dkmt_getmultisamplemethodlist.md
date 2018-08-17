@@ -4,7 +4,6 @@ title: "_D3DKMT_GETMULTISAMPLEMETHODLIST"
 author: windows-driver-content
 description: The D3DKMT_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
 old-location: display\d3dkmt_getmultisamplemethodlist.htm
-tech.root: display
 ms.assetid: 138f6f75-3986-42f8-840c-d48edb271203
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETMULTISAMPLEMETHODLIST
 ---
 

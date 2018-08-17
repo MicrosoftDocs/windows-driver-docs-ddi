@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEDCFROMMEMORY"
 author: windows-driver-content
 description: The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the display context.
 old-location: display\d3dkmt_createdcfrommemory.htm
-tech.root: display
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEDCFROMMEMORY
 ---
 

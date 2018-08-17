@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
 author: windows-driver-content
 description: Used to calculate the size of an opened session.
 old-location: display\pfnd3d12ddi_calcprivateopenedcryptosessionsize_0030.htm
-tech.root: display
 ms.assetid: 2BA706AC-4B00-461F-8EED-0BC3BB6E2A2C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

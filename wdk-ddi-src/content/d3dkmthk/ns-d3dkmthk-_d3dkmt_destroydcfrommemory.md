@@ -4,7 +4,6 @@ title: "_D3DKMT_DESTROYDCFROMMEMORY"
 author: windows-driver-content
 description: The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
 old-location: display\d3dkmt_destroydcfrommemory.htm
-tech.root: display
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DESTROYDCFROMMEMORY
 ---
 

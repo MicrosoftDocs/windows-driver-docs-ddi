@@ -4,7 +4,6 @@ title: "_DXGK_DEVICEINFO"
 author: windows-driver-content
 description: The DXGK_DEVICEINFO structure describes parameters that the Microsoft DirectX graphics kernel subsystem requires from the display miniport driver.
 old-location: display\dxgk_deviceinfo.htm
-tech.root: display
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_DEVICEINFO
 ---
 

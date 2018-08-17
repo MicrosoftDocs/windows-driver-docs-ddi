@@ -4,7 +4,6 @@ title: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
 author: windows-driver-content
 description: The DxgkDdiUpdateActiveVidPnPresentPath function updates one of the video present paths that is currently active on the display adapter.
 old-location: display\dxgkddiupdateactivevidpnpresentpath.htm
-tech.root: display
 ms.assetid: 3bf5ebf7-8113-4ab2-beb1-1a52df25ac37
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_CURRENTDISPLAYMODE"
 author: windows-driver-content
 description: The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source.
 old-location: display\d3dkmt_currentdisplaymode.htm
-tech.root: display
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CURRENTDISPLAYMODE
 ---
 

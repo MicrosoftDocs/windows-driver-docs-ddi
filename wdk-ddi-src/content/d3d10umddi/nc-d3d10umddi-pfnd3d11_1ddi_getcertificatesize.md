@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETCERTIFICATESIZE
 author: windows-driver-content
 description: Queries the size in bytes of the certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificatesize.htm
-tech.root: display
 ms.assetid: 7f9a2a76-ee50-4f72-a588-d7b9145c14a6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

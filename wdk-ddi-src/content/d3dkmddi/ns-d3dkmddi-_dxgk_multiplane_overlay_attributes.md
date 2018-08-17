@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES"
 author: windows-driver-content
 description: Used by the display miniport driver to specify overlay plane attributes.
 old-location: display\dxgk_multiplane_overlay_attributes.htm
-tech.root: display
 ms.assetid: 1f48a08f-138c-44b4-b13f-efa9b448ce4f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES
 ---
 

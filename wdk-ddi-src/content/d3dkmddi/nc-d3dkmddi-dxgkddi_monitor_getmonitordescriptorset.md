@@ -4,7 +4,6 @@ title: DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
 author: windows-driver-content
 description: The pfnGetMonitorDescriptorSet function returns a handle to a monitor descriptor set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfngetmonitordescriptorset.htm
-tech.root: display
 ms.assetid: e2244cd3-6630-440b-a4f7-1e0fa5702161
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

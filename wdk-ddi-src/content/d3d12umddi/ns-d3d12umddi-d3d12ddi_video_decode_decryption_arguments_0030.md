@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
 author: windows-driver-content
 description: Video decode decryption arguments.
 old-location: display\d3d12ddi-video-decode-decryption-arguments-0030.htm
-tech.root: display
 ms.assetid: cdd89f48-1b27-4362-81b3-ed3b89b80b6e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
 ---
 

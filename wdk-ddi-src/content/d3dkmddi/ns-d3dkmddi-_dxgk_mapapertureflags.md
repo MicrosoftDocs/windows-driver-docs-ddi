@@ -4,7 +4,6 @@ title: "_DXGK_MAPAPERTUREFLAGS"
 author: windows-driver-content
 description: The DXGK_MAPAPERTUREFLAGS structure identifies the type of map-aperture-segment operation to set up in a call to the DxgkDdiBuildPagingBuffer function.
 old-location: display\dxgk_mapapertureflags.htm
-tech.root: display
 ms.assetid: c6a6f98f-a4e3-47ed-b9e9-7303c824612d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MAPAPERTUREFLAGS
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030
 author: windows-driver-content
 description: Used to destroy a crypto session.
 old-location: display\pfnd3d12ddi_destroycryptosessionpolicy_0030.htm
-tech.root: display
 ms.assetid: D02ED6F5-1976-4EAE-A648-0F8ED32B77C6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_ALLOCATIONINFOFLAGS"
 author: windows-driver-content
 description: The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
 old-location: display\dxgk_allocationinfoflags.htm
-tech.root: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ALLOCATIONINFOFLAGS
 ---
 

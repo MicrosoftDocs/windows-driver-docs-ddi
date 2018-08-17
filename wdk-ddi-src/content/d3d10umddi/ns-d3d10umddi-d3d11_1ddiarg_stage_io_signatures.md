@@ -4,7 +4,6 @@ title: D3D11_1DDIARG_STAGE_IO_SIGNATURES
 author: windows-driver-content
 description: Describes an I/O signature.
 old-location: display\d3d11_1ddiarg_stage_io_signatures.htm
-tech.root: display
 ms.assetid: c7da4303-2ba4-4ac3-ad24-4ff25bb5466d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_STAGE_IO_SIGNATURES
 ---
 

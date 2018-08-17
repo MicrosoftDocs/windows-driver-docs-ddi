@@ -4,7 +4,6 @@ title: "_DXGK_SETVIDPNSOURCEADDRESS_FLAGS"
 author: windows-driver-content
 description: The DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure identifies the specific type of operation to perform in a call to the display miniport driver's DxgkDdiSetVidPnSourceAddress or DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay functions.
 old-location: display\dxgk_setvidpnsourceaddress_flags.htm
-tech.root: display
 ms.assetid: cdc4aec6-45d4-4a5b-aa52-7830494a12b6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_DMM_ESCAPE"
 author: windows-driver-content
 description: Do not use the D3DKMT_DMM_ESCAPE structure; it is for testing purposes only. The D3DKMT_DMM_ESCAPE structure describes how to control the display mode manager (DMM) in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_dmm_escape.htm
-tech.root: display
 ms.assetid: 9d4a317d-bb0c-47d4-b9f2-e668adc4d0d4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DMM_ESCAPE
 ---
 

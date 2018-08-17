@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENRESOURCE"
 author: windows-driver-content
 description: The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 old-location: display\d3dkmt_openresource.htm
-tech.root: display
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENRESOURCE
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_PAGE_TABLE_LEVEL_DESC"
 author: windows-driver-content
 description: The DXGK_PAGE_TABLE_LEVEL_DESC structure describes capabilities that are applied at the page level.
 old-location: display\dxgk_page_table_level_desc.htm
-tech.root: display
 ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PAGE_TABLE_LEVEL_DESC
 ---
 

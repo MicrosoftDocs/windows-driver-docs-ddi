@@ -4,7 +4,6 @@ title: D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW structure describes a two-dimensional texture (2-D) that is used to create an unordered access view in a call to the CreateUnorderedAccessView function.
 old-location: display\d3d11ddiarg_tex2d_unorderedaccessview.htm
-tech.root: display
 ms.assetid: 2d6a5945-5e30-404c-8ddb-13be781da1b4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW
 ---
 

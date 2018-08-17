@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETDEPTHSTENCILSTATE
 author: windows-driver-content
 description: The SetDepthStencilState function sets a depth-stencil state.
 old-location: display\setdepthstencilstate.htm
-tech.root: display
 ms.assetid: 379f8113-b07c-4984-ba37-a06d6c21b9e9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

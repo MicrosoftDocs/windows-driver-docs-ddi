@@ -4,7 +4,6 @@ title: "_DXGK_BUILDPAGINGBUFFER_FLUSHTLB"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_FLUSHTLB is used as part of a flush translation look-aside buffer (TLB) operation.
 old-location: display\dxgk_buildpagingbuffer_flushtlb.htm
-tech.root: display
 ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_FLUSHTLB
 ---
 

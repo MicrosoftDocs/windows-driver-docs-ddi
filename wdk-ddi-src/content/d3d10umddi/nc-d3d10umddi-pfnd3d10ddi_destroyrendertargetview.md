@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYRENDERTARGETVIEW
 author: windows-driver-content
 description: The DestroyRenderTargetView function destroys the specified render target view object. The render target view object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyrendertargetview.htm
-tech.root: display
 ms.assetid: ec04fed3-8e43-4f76-af82-b36c7029f0cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

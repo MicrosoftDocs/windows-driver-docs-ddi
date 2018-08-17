@@ -4,7 +4,6 @@ title: PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS
 author: windows-driver-content
 description: The CheckMultisampleQualityLevels function retrieves the number of quality levels that the device supports for the specified number of samples.
 old-location: display\checkmultisamplequalitylevels.htm
-tech.root: display
 ms.assetid: 2b6a0ab8-f197-48c3-baf2-305b77b7e8b5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

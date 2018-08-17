@@ -37,6 +37,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PDXGK_FSTATE_NOTIFICATION callback function

@@ -4,7 +4,6 @@ title: DXGKCB_POWERRUNTIMECONTROLREQUEST
 author: windows-driver-content
 description: Called by the display miniport driver to exchange information with the Power Engine Plug-in (PEP).
 old-location: display\dxgkcbpowerruntimecontrolrequest.htm
-tech.root: display
 ms.assetid: 28984c89-a1d9-4720-8c4c-2b2ce34e0899
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

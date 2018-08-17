@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETPREDICATION
 author: windows-driver-content
 description: The SetPredication function specifies whether rendering and resource-manipulation commands that follow are actually performed.
 old-location: display\setpredication.htm
-tech.root: display
 ms.assetid: df671478-859f-4ccd-9ab4-1986f9af10cf
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

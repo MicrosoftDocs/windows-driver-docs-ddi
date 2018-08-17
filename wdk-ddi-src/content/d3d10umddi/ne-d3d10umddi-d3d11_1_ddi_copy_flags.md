@@ -4,7 +4,6 @@ title: D3D11_1_DDI_COPY_FLAGS
 author: windows-driver-content
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_copy_flags.htm
-tech.root: display
 ms.assetid: 044dc1cd-426e-4f6c-b14d-8c366834b5ac
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1_DDI_COPY_FLAGS
 ---
 

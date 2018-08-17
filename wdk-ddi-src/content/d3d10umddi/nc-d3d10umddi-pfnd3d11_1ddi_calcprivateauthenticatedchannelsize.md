@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE
 author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the authenticated channel state.
 old-location: display\calcprivateauthenticatedchannelsize.htm
-tech.root: display
 ms.assetid: f22dee75-a7e3-4ad4-a0d1-584adff3230e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

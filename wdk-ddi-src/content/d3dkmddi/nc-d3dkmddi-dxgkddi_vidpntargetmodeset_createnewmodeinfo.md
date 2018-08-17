@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTARGETMODESET_CREATENEWMODEINFO
 author: windows-driver-content
 description: The pfnCreateNewModeInfo function returns a pointer to a D3DKMDT_VIDPN_TARGET_MODE structure that the display miniport driver populates before calling pfnAddMode.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfncreatenewmodeinfo.htm
-tech.root: display
 ms.assetid: ebb37681-fa03-49f5-968b-87c9ff4ebae9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

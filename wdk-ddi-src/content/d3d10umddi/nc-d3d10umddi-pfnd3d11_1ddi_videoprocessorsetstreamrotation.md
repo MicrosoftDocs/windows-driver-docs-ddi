@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
 author: windows-driver-content
 description: Enables or disables rotation on an input stream of the video processor.
 old-location: display\videoprocessorsetstreamrotation.htm
-tech.root: display
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

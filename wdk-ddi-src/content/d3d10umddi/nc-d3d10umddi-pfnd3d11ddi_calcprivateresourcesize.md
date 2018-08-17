@@ -4,7 +4,6 @@ title: PFND3D11DDI_CALCPRIVATERESOURCESIZE
 author: windows-driver-content
 description: The CalcPrivateResourceSize(D3D11) function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory).
 old-location: display\calcprivateresourcesize_d3d11_.htm
-tech.root: display
 ms.assetid: 3b3a2571-012e-4acd-b836-f52e7b88a2fb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

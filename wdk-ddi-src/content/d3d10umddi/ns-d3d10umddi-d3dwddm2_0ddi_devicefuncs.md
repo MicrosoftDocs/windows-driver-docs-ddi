@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_DEVICEFUNCS
 author: windows-driver-content
 description: This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.0.
 old-location: display\d3dwddm2_0ddi_devicefuncs.htm
-tech.root: display
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_DEVICEFUNCS
 ---
 

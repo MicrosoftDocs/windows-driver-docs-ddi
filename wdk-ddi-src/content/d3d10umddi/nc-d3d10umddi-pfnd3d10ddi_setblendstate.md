@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETBLENDSTATE
 author: windows-driver-content
 description: The SetBlendState function sets a blend state.
 old-location: display\setblendstate.htm
-tech.root: display
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_CREATECONTEXTFLAGS"
 author: windows-driver-content
 description: The DXGK_CREATECONTEXTFLAGS structure identifies how to create contexts.
 old-location: display\dxgk_createcontextflags.htm
-tech.root: display
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CREATECONTEXTFLAGS
 ---
 

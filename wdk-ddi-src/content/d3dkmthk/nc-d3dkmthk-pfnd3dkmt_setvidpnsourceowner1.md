@@ -4,7 +4,6 @@ title: PFND3DKMT_SETVIDPNSOURCEOWNER1
 author: windows-driver-content
 description: Sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN, and lets output duplication options be specified. Supported starting with Windows 8.
 old-location: display\d3dkmtsetvidpnsourceowner1.htm
-tech.root: display
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

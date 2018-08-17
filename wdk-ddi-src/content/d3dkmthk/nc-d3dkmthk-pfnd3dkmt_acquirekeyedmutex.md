@@ -4,7 +4,6 @@ title: PFND3DKMT_ACQUIREKEYEDMUTEX
 author: windows-driver-content
 description: The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object.
 old-location: display\d3dkmtacquirekeyedmutex.htm
-tech.root: display
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

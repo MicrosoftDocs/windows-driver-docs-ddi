@@ -4,7 +4,6 @@ title: D3D10DDI_CORELAYER_DEVICECALLBACKS
 author: windows-driver-content
 description: The D3D10DDI_CORELAYER_DEVICECALLBACKS structure contains Microsoft Direct3D 10 runtime callback functions that the user-mode display driver can use.
 old-location: display\d3d10ddi_corelayer_devicecallbacks.htm
-tech.root: display
 ms.assetid: cced2221-7e8c-432a-9963-3b1de67037a3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDI_CORELAYER_DEVICECALLBACKS
 ---
 

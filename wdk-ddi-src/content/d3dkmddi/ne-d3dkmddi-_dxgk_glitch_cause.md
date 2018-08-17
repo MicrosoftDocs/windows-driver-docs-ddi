@@ -4,7 +4,6 @@ title: "_DXGK_GLITCH_CAUSE"
 author: windows-driver-content
 description: Enumeration that describes what caused a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_cause.htm
-tech.root: display
 ms.assetid: A0356AE8-3A82-4722-9F46-8FE05646BF10
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GLITCH_CAUSE
 ---
 

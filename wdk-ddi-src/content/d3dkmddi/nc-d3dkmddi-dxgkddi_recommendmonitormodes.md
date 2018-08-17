@@ -4,7 +4,6 @@ title: DXGKDDI_RECOMMENDMONITORMODES
 author: windows-driver-content
 description: The DxgkDdiRecommendMonitorModes function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
 old-location: display\dxgkddirecommendmonitormodes.htm
-tech.root: display
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

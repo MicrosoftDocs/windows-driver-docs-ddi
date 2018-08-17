@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO
 author: windows-driver-content
 description: The pfnReleaseModeInfo function releases a D3DKMDT_VIDPN_TARGET_MODE structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo.htm
-tech.root: display
 ms.assetid: 0b1d0331-f0fa-40fc-a1d6-15fe3568f3cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

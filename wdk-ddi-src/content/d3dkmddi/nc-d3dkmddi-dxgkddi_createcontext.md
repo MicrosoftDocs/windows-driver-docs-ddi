@@ -4,7 +4,6 @@ title: DXGKDDI_CREATECONTEXT
 author: windows-driver-content
 description: The DxgkDdiCreateContext function creates a graphics processing unit (GPU) context.
 old-location: display\dxgkddicreatecontext.htm
-tech.root: display
 ms.assetid: aea21a36-f3d5-4541-bd2d-aa026668c562
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

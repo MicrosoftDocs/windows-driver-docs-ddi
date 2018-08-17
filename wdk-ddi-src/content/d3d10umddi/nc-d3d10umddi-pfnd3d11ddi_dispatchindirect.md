@@ -4,7 +4,6 @@ title: PFND3D11DDI_DISPATCHINDIRECT
 author: windows-driver-content
 description: The DispatchIndirect function executes the compute shader.
 old-location: display\dispatchindirect.htm
-tech.root: display
 ms.assetid: 0c818515-163f-48ba-ad57-f4405672c98f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

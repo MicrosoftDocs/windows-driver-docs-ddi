@@ -4,7 +4,6 @@ title: D3DWDDM2_2DDI_SHADERCACHE_HASH
 author: windows-driver-content
 description: Contains a hash value for a shader cache.
 old-location: display\d3dwddm2_2ddi_shadercache_hash.htm
-tech.root: display
 ms.assetid: 1024FF58-7758-473A-8B1F-9CE184B9667A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_2DDI_SHADERCACHE_HASH
 ---
 

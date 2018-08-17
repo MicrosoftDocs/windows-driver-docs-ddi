@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_INPUT
 author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3d11_1ddi_video_input.htm
-tech.root: display
 ms.assetid: 371f494c-abd2-43c8-ab06-749144762b01
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_INPUT
 ---
 

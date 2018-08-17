@@ -4,7 +4,6 @@ title: "_D3DKMT_RECLAIMALLOCATIONS"
 author: windows-driver-content
 description: Describes video memory resources that are to be reclaimed and that the driver previously offered for reuse. Used with the D3DKMTReclaimAllocations function.
 old-location: display\d3dkmt_reclaimallocations.htm
-tech.root: display
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_RECLAIMALLOCATIONS
 ---
 

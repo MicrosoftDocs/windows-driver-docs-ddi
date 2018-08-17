@@ -20,18 +20,19 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
-topictype:
+topic_type:
 -	apiref
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT enumeration

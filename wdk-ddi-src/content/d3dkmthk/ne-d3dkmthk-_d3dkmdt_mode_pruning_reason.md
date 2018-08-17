@@ -4,7 +4,6 @@ title: "_D3DKMDT_MODE_PRUNING_REASON"
 author: windows-driver-content
 description: The D3DKMDT_MODE_PRUNING_REASON enumeration type contains values that identify the reason why the monitor either supports a display mode or does not support a display mode.
 old-location: display\d3dkmdt_mode_pruning_reason.htm
-tech.root: display
 ms.assetid: 41b80b84-3ed6-4ca3-a2ca-63982585d6dc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMDT_MODE_PRUNING_REASON
 ---
 

@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_GETRESOURCELAYOUT
 author: windows-driver-content
 description: The pfnGetResourceLayout callback function supports getting resource layout information.
 old-location: display\pfnd3dwddm2_0ddi_getresourcelayout.htm
-tech.root: display
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

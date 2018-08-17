@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 author: windows-driver-content
 description: Creates a pipeline state.
 old-location: display\d3d12ddiarg-create-pipeline-state-0033.htm
-tech.root: display
 ms.assetid: 2a9108ab-5852-4053-9a7a-266ae1b1dced
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 ---
 

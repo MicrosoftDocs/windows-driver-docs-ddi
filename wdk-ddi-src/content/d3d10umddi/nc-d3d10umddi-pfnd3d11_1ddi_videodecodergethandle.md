@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEODECODERGETHANDLE
 author: windows-driver-content
 description: Returns the driver's handle for a video decoder that can be used by the application to configure content protection.
 old-location: display\videodecodergethandle.htm
-tech.root: display
 ms.assetid: 05c16416-d48c-44ce-b025-d62d763682bc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
 author: windows-driver-content
 description: Used to create a protected session state.
 old-location: display\pfnd3d12ddi_create_protected_session_cb_0030.htm
-tech.root: display
 ms.assetid: 64E38759-2863-4481-8A89-6E6263CEFE8B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_RESOURCEBARRIER_0022
 author: windows-driver-content
 description: The pfnResourceBarrier callback function supports resource barriers.
 old-location: display\pfnd3d12ddi_resourcebarrier_0022.htm
-tech.root: display
 ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

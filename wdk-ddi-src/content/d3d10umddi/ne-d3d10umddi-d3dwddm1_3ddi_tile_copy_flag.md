@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_TILE_COPY_FLAG
 author: windows-driver-content
 description: Identifies how to copy a tile using the CopyTiles function.
 old-location: display\d3dwddm1_3ddi_tile_copy_flag.htm
-tech.root: display
 ms.assetid: DE743C61-4060-4601-987C-8026C78801A7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_COPY_FLAG
 ---
 

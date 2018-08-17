@@ -4,7 +4,6 @@ title: PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
 author: windows-driver-content
 description: Used to open a protected resource session.
 old-location: display\pfnd3d12ddi_openprotectedresourcesession_0030.htm
-tech.root: display
 ms.assetid: B71FD65C-5D10-4486-A6F7-C6EF1A4DEF03
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

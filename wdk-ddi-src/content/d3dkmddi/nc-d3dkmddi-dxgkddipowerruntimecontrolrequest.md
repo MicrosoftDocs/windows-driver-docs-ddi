@@ -4,7 +4,6 @@ title: DXGKDDIPOWERRUNTIMECONTROLREQUEST
 author: windows-driver-content
 description: Called by the Power Engine Plug-in (PEP) to exchange information with the display miniport driver. Also called by the Microsoft DirectX graphics kernel subsystem to notify the display miniport driver about certain events.
 old-location: display\dxgkddipowerruntimecontrolrequest.htm
-tech.root: display
 ms.assetid: 56535128-3107-4fb5-b0e1-2e913c386cc2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

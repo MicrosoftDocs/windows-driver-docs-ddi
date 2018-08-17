@@ -4,7 +4,6 @@ title: PFND3D10DDI_OPENADAPTER
 author: windows-driver-content
 description: The OpenAdapter10 function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\openadapter10.htm
-tech.root: display
 ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_PNP_KEY_TYPE"
 author: windows-driver-content
 description: An enum that indicates the type of PNP key.
 old-location: display\d3dkmt_pnp_key_type.htm
-tech.root: display
 ms.assetid: 48B173D5-56C3-4611-BC55-CB7A25D05352
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PNP_KEY_TYPE
 ---
 

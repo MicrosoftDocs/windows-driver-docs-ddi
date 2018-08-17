@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION
 author: windows-driver-content
 description: Sets the amount of downsampling to perform on the output.
 old-location: display\videoprocessorsetoutputconstriction.htm
-tech.root: display
 ms.assetid: 4b34a76b-2e56-4656-9112-ad2e1d53525d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_ASSIGNDEBUGBINARY
 author: windows-driver-content
 description: Provides the full shader binary that is available after shader creation. The full shader binary lets a driver retrieve debugging information or other shader binary information that would not normally be available to the driver.
 old-location: display\assigndebugbinary.htm
-tech.root: display
 ms.assetid: eb1e3c27-71c1-4920-9aa4-3253306fa3f4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

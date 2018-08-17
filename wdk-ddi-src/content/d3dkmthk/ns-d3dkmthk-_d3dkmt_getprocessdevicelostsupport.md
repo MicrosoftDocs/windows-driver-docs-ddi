@@ -4,7 +4,6 @@ title: "_D3DKMT_GETPROCESSDEVICELOSTSUPPORT"
 author: windows-driver-content
 description: Used to get the indicated process.
 old-location: display\d3dkmt-getprocessdevicelostsupport.htm
-tech.root: display
 ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 ---
 

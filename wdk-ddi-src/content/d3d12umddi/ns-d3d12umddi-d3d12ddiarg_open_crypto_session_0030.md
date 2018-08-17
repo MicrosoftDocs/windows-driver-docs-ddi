@@ -4,7 +4,6 @@ title: D3D12DDIARG_OPEN_CRYPTO_SESSION_0030
 author: windows-driver-content
 description: Opens a crypto session.
 old-location: display\d3d12ddiarg-open-crypto-session-0030.htm
-tech.root: display
 ms.assetid: 8b500956-6d22-4862-b9e4-e3cb545fcc0e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_OPEN_CRYPTO_SESSION_0030
 ---
 

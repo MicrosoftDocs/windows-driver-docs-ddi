@@ -4,7 +4,6 @@ title: "_DXGK_PRESENTMULTIPLANEOVERLAYLIST"
 author: windows-driver-content
 description: Specifies an overlay plane to display in a call to the DxgkDdiPresent function.
 old-location: display\dxgk_presentmultiplaneoverlaylist.htm
-tech.root: display
 ms.assetid: 970b3155-9e81-4725-90ee-079339c1d5c5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ---
 

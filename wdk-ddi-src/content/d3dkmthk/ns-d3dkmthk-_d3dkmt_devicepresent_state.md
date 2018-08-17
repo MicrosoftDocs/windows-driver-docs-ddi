@@ -4,7 +4,6 @@ title: "_D3DKMT_DEVICEPRESENT_STATE"
 author: windows-driver-content
 description: The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the present status for a device.
 old-location: display\d3dkmt_devicepresent_state.htm
-tech.root: display
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DEVICEPRESENT_STATE
 ---
 

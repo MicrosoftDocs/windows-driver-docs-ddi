@@ -4,7 +4,6 @@ title: "_DXGK_ENGINESTATUS"
 author: windows-driver-content
 description: Indicates the progress of a node within an active physical display adapter (engine) specified by a DXGKARG_QUERYENGINESTATUS structure.
 old-location: display\dxgk_enginestatus.htm
-tech.root: display
 ms.assetid: e052e3bc-688e-4aa8-b987-88ed6963774a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ENGINESTATUS
 ---
 

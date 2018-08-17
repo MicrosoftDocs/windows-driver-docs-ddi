@@ -4,7 +4,6 @@ title: "_D3DKMT_STANDARDALLOCATION_EXISTINGHEAP"
 author: windows-driver-content
 description: Holds information about the existing heap.
 old-location: display\d3dkmt-standardallocation-existingheap.htm
-tech.root: display
 ms.assetid: 7e97fb29-64a7-4fb5-b07e-a9810499cf1b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ---
 

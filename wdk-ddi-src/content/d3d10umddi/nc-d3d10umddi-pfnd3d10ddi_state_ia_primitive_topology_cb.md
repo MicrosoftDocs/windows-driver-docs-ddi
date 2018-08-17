@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB
 author: windows-driver-content
 description: The pfnStateIaPrimitiveTopologyCb function causes the Microsoft Direct3D 10 runtime to refresh the primitive topology state.
 old-location: display\pfnstateiaprimitivetopologycb.htm
-tech.root: display
 ms.assetid: 5a394a5b-afbc-41f5-8013-ab228e6284f9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

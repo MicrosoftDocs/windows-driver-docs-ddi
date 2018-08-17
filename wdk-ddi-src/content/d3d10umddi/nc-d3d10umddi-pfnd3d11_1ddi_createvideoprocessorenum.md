@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM
 author: windows-driver-content
 description: Creates an enumeration object for the video processor capabilities of the driver.
 old-location: display\createvideoprocessorenum.htm
-tech.root: display
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
 author: windows-driver-content
 description: This structure contains the function table for the core layer device callback functions.
 old-location: display\d3dwddm2_0ddi_corelayer_devicecallbacks.htm
-tech.root: display
 ms.assetid: A8E60BF8-2DFE-479A-9DA9-C3D9B012EBE9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
 ---
 

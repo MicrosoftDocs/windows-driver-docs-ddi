@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
 author: windows-driver-content
 description: The pfnRemovePath function removes a video present path to a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnremovepath.htm
-tech.root: display
 ms.assetid: 463973e0-c443-417a-86ff-0b78773d40cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

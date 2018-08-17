@@ -4,7 +4,6 @@ title: PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021
 author: windows-driver-content
 description: The pfnProcessorTrimAllocations callback function trims allocations for submissions that are finished.
 old-location: display\pfnd3d12ddi_video_processor_trim_allocations.htm
-tech.root: display
 ms.assetid: 505B3502-FC2D-47FB-B8CD-3D7DE9ED4770
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

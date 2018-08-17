@@ -4,7 +4,6 @@ title: DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET
 author: windows-driver-content
 description: The pfnReleaseAdditionalMonitorModeSet function, available in the DXGK_MONITOR_INTERFACE_V2 interface beginning with Windows 7, releases a handle to an additional monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset.htm
-tech.root: display
 ms.assetid: b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

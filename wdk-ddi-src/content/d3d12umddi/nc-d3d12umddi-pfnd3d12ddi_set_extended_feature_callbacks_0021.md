@@ -4,7 +4,6 @@ title: PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
 author: windows-driver-content
 description: The pfnSetExtendedFeatureCallbacks callback function sets extended feature callbacks.
 old-location: display\pfnd3d12ddi_set_extended_feature_callbacks_0021.htm
-tech.root: display
 ms.assetid: 8380C972-D5A0-46D5-B32B-C31D5113BB95
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2"
 author: windows-driver-content
 description: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 is used with D3DKMTOpenSyncObjectFromNtHandle2 to open a monitored fence object.
 old-location: display\d3dkmt_opensyncobjectfromnthandle2.htm
-tech.root: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ---
 

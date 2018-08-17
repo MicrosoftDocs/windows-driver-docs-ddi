@@ -4,7 +4,6 @@ title: D3DKMTReleaseKeyedMutex2 function
 author: windows-driver-content
 description: Releases a keyed mutex object that includes private data.
 old-location: display\d3dkmtreleasekeyedmutex2.htm
-tech.root: display
 ms.assetid: e5df165c-3d85-42b9-affe-3dcc7c46aa0b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

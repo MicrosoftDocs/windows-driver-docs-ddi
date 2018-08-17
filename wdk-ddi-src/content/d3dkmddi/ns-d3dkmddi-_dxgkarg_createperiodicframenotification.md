@@ -4,7 +4,6 @@ title: "_DXGKARG_CREATEPERIODICFRAMENOTIFICATION"
 author: windows-driver-content
 description: The arguments needed to create a periodic frame notification.
 old-location: display\dxgkarg_createperiodicframenotification.htm
-tech.root: display
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 ---
 

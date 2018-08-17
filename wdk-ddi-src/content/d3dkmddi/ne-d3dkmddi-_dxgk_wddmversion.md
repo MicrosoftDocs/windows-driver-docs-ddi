@@ -4,7 +4,6 @@ title: "_DXGK_WDDMVERSION"
 author: windows-driver-content
 description: The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case noted below, do not use it in your driver.
 old-location: display\dxgk_wddmversion.htm
-tech.root: display
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_WDDMVERSION
 ---
 

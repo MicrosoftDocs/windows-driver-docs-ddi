@@ -4,7 +4,6 @@ title: "_D3DKMT_CONFIGURESHAREDRESOURCE"
 author: windows-driver-content
 description: The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the D3DKMTConfigureSharedResource function uses to configure a shared resource.
 old-location: display\d3dkmt_configuresharedresource.htm
-tech.root: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CONFIGURESHAREDRESOURCE
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030
 author: windows-driver-content
 description: Creates a protected resource session.
 old-location: display\d3d12ddiarg-create-protected-resource-session-0030.htm
-tech.root: display
 ms.assetid: 0b28ea12-1182-4be6-83f3-850172cc6a89
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_EVICT"
 author: windows-driver-content
 description: D3DKMT_EVICT is used with D3DKMTEvict to subtract one from the residency reference count.
 old-location: display\d3dkmt_evict.htm
-tech.root: display
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_EVICT
 ---
 

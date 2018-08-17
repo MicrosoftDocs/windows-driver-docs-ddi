@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_COLOR_YCbCrA
 author: windows-driver-content
 description: Specifies a YCbCr color value.
 old-location: display\d3d11_1ddi_video_color_ycbcra.htm
-tech.root: display
 ms.assetid: d6d8147e-8cc8-4c35-8031-bce2fa3ccd67
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_COLOR_YCbCrA
 ---
 

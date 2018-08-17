@@ -4,7 +4,6 @@ title: "_D3DKMT_DEVICEEXECUTION_STATE"
 author: windows-driver-content
 description: Contains values that indicate the execution status for a device.
 old-location: display\d3dkmt_deviceexecution_state.htm
-tech.root: display
 ms.assetid: 31935433-6fa4-4d1a-9ad4-879353102e71
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DEVICEEXECUTION_STATE
 ---
 
