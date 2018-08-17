@@ -4,7 +4,6 @@ title: D3D10_DDI_TEXTURE_ADDRESS_MODE
 author: windows-driver-content
 description: The D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration type contains values that identify the texture address mode of a sampler.
 old-location: display\d3d10_ddi_texture_address_mode.htm
-tech.root: display
 ms.assetid: 96bbba03-97c1-43f2-bf3e-902de77d5eb9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_TEXTURE_ADDRESS_MODE
 ---
 

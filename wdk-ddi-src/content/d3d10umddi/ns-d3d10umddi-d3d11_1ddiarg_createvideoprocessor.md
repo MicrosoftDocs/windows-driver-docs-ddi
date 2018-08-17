@@ -4,7 +4,6 @@ title: D3D11_1DDIARG_CREATEVIDEOPROCESSOR
 author: windows-driver-content
 description: Specifies the attributes of a video processor object.
 old-location: display\d3d11_1ddiarg_createvideoprocessor.htm
-tech.root: display
 ms.assetid: 957cfebe-4cd9-4a35-822e-ebde4cd9e84c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSOR
 ---
 

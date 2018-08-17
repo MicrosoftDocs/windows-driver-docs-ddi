@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
 title: PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
 author: windows-driver-content
-description: 
+description: Adds the input pipeline state to the corresponding library.
 ms.assetid: b7f4ac02-7138-420f-b633-8f93fd7b5b86
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,24 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Adds the input pipeline state to the corresponding library.
 
 ## -prototype
 
@@ -70,20 +71,28 @@ PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
 
 ## -parameters
 
-### -param hDevice: 
-### -param hLibrary: 
-### -param hPipelineState: 
+### -param hDevice
+
+A handle to the display device (graphics context).
+
+### -param hLibrary
+
+The user mode driver handle type library.
+
+### -param hPipelineState
+
+A handle to the state of the pipeline.
+
 ### -param PipelineIndex: 
 
-
+The pipeline index.
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 
 ## -see-also

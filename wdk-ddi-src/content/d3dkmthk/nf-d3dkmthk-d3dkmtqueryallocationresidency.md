@@ -4,7 +4,6 @@ title: D3DKMTQueryAllocationResidency function
 author: windows-driver-content
 description: The D3DKMTQueryAllocationResidency function retrieves the residency status of a resource or list of allocations.
 old-location: display\d3dkmtqueryallocationresidency.htm
-tech.root: display
 ms.assetid: f9522de0-54cd-4afd-b8cd-06f229ac1325
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

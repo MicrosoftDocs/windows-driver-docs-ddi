@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPN_RELEASETARGETMODESET
 author: windows-driver-content
 description: The pfnReleaseTargetModeSet function releases a handle to a target mode set object.
 old-location: display\dxgk_vidpn_interface_pfnreleasetargetmodeset.htm
-tech.root: display
 ms.assetid: bd369651-57d4-406f-ba51-9632362de15d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

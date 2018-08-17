@@ -4,7 +4,6 @@ title: DXGKDDI_STOPCAPTURE
 author: windows-driver-content
 description: The DxgkDdiStopCapture function stops the capture hardware from using the given allocation as a capture buffer.
 old-location: display\dxgkddistopcapture.htm
-tech.root: display
 ms.assetid: e5d622cc-c550-44cf-8923-5092226066d9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

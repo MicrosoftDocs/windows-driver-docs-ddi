@@ -4,7 +4,6 @@ title: D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
 author: windows-driver-content
 description: The D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration type contains values that identify quality levels for multisample patterns.
 old-location: display\d3d10_1_ddiarg_standard_multisample_quality_levels.htm
-tech.root: display
 ms.assetid: 47c285fa-f53a-4e35-ad66-bf14dfc9f80e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
 ---
 

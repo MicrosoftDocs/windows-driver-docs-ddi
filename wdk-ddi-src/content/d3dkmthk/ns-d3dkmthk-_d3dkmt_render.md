@@ -4,7 +4,6 @@ title: "_D3DKMT_RENDER"
 author: windows-driver-content
 description: The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dkmt_render.htm
-tech.root: display
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_RENDER
 ---
 

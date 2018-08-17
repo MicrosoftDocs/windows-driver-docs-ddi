@@ -4,7 +4,6 @@ title: D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 author: windows-driver-content
 description: The D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure describes a blend state for a render target.
 old-location: display\d3d10_ddi_render_target_blend_desc1.htm
-tech.root: display
 ms.assetid: 4cbc3072-46f1-40c3-ba3f-4d99f19b280e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 ---
 

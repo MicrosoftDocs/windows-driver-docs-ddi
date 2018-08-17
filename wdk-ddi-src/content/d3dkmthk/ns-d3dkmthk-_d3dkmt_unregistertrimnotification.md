@@ -4,7 +4,6 @@ title: "_D3DKMT_UNREGISTERTRIMNOTIFICATION"
 author: windows-driver-content
 description: D3DKMT_UNREGISTERTRIMNOTIFICATION is used with D3DKMTUnregisterTrimNotification to remove a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).
 old-location: display\d3dkmt_unregistertrimnotification.htm
-tech.root: display
 ms.assetid: 336C5C6A-619B-4D28-9F06-A09CABF78073
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_UNREGISTERTRIMNOTIFICATION
 ---
 

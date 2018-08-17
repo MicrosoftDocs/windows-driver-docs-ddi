@@ -4,7 +4,6 @@ title: PFND3D11DDI_STATE_DS_CONSTBUF_CB
 author: windows-driver-content
 description: The pfnStateDsConstBufCb function causes the Microsoft Direct3D 11 runtime to refresh the domain shader constant buffer state.
 old-location: display\pfnstatedsconstbufcb.htm
-tech.root: display
 ms.assetid: 8170be69-3e75-4e33-a123-3039e3f9d0c0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE"
 author: windows-driver-content
 description: Used to query information on the protected session.
 old-location: display\d3dkmt-queryprotectedsessioninfofromnthandle.htm
-tech.root: display
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 ---
 

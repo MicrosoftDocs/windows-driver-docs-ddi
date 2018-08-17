@@ -4,7 +4,6 @@ title: D3DKMTGetProcessSchedulingPriorityClass function
 author: windows-driver-content
 description: The D3DKMTGetProcessSchedulingPriorityClass function retrieves the scheduling priority for a process.
 old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
-tech.root: display
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

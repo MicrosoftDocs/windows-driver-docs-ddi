@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEPIXELSHADER
 author: windows-driver-content
 description: Converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
 old-location: display\createpixelshader_d3d11_1_.htm
-tech.root: display
 ms.assetid: 8b5d6d2e-6a08-4841-8df5-ca88368a4e26
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTEnumAdapters function
 author: windows-driver-content
 description: Enumerates all graphics adapters on the system.
 old-location: display\d3dkmtenumadapters.htm
-tech.root: display
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

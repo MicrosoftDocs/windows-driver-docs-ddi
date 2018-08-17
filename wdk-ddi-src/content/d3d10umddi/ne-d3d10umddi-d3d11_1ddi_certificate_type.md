@@ -4,7 +4,6 @@ title: D3D11_1DDI_CERTIFICATE_TYPE
 author: windows-driver-content
 description: Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
 old-location: display\d3d11_1ddi_certificate_type.htm
-tech.root: display
 ms.assetid: e95573c9-0ea7-4ad2-9e7e-d75761e98be6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_CERTIFICATE_TYPE
 ---
 

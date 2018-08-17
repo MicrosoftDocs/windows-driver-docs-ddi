@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT
 author: windows-driver-content
 description: Queries the number of buffer types that the display miniport driver requires to perform a specified decode operation.
 old-location: display\getvideodecoderbuffertypecount.htm
-tech.root: display
 ms.assetid: 3528ac03-55cf-4e02-ae42-69b736684147
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

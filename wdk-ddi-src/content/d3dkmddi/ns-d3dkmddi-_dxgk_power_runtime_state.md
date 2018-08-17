@@ -4,7 +4,6 @@ title: "_DXGK_POWER_RUNTIME_STATE"
 author: windows-driver-content
 description: Describes the characteristics of an idle state (an F-state).
 old-location: display\dxgk_power_runtime_state.htm
-tech.root: display
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_POWER_RUNTIME_STATE
 ---
 

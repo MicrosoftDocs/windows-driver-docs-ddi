@@ -4,7 +4,6 @@ title: D3D10_DDI_RESOURCE_MISC_FLAG
 author: windows-driver-content
 description: Identifies miscellaneous information about a resource.
 old-location: display\d3d10_ddi_resource_misc_flag.htm
-tech.root: display
 ms.assetid: 1de11acf-1571-44ae-9bde-2b417bf615b7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_RESOURCE_MISC_FLAG
 ---
 

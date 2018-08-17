@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_PIPELINE_STATE_0021
 author: windows-driver-content
 description: The pfnCreatePipelineState callback function creates a pipeline state.
 old-location: display\pfnd3d12ddi_create_pipeline_state_0021.htm
-tech.root: display
 ms.assetid: 08C19E55-7DD7-4BDF-8C9A-A2E1B973AFEC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

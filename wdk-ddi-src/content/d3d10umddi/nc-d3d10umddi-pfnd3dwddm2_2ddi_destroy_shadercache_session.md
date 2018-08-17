@@ -4,7 +4,6 @@ title: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION
 author: windows-driver-content
 description: The pfnDestroyShaderCacheSession callback function destroys a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_destroy_shadercache_session.htm
-tech.root: display
 ms.assetid: 1C6AFC89-F740-4309-9389-BFB5C62FCA77
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

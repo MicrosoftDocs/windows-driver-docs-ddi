@@ -4,7 +4,6 @@ title: "_DXGK_INTERRUPT_STATE"
 author: windows-driver-content
 description: "."
 old-location: display\dxgk_interrupt_state.htm
-tech.root: display
 ms.assetid: C72DF96B-5D12-4AC0-8FBB-904E087807DB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_INTERRUPT_STATE
 ---
 

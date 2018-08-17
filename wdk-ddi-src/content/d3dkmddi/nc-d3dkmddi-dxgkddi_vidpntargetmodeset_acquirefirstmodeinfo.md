@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
 author: windows-driver-content
 description: The pfnAcquireFirstModeInfo function returns a descriptor of the first mode in a specified VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirefirstmodeinfo.htm
-tech.root: display
 ms.assetid: 64a1a8f4-afbc-4337-b809-9346c1171e0b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

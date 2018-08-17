@@ -4,7 +4,6 @@ title: "_D3DKMT_UPDATEOVERLAY"
 author: windows-driver-content
 description: The D3DKMT_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\d3dkmt_updateoverlay.htm
-tech.root: display
 ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_UPDATEOVERLAY
 ---
 

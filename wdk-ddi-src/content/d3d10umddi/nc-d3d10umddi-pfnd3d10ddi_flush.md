@@ -4,7 +4,6 @@ title: PFND3D10DDI_FLUSH
 author: windows-driver-content
 description: The Flush(D3D10) function submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 old-location: display\flush_d3d10_.htm
-tech.root: display
 ms.assetid: 846f8539-4cb3-41d5-836d-563b7eb0d70b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

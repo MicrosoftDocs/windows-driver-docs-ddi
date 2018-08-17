@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
 author: windows-driver-content
 description: Contains information for a transform.
 old-location: display\d3d12ddi_video_process_transform.htm
-tech.root: display
 ms.assetid: E463BD7F-F89C-4D82-ABCA-4AF48EC21655
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETRENDERTARGETS
 author: windows-driver-content
 description: The SetRenderTargets function sets render target surfaces.
 old-location: display\setrendertargets.htm
-tech.root: display
 ms.assetid: 852893e6-1f1c-470a-ab72-f52c1e06e0c0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

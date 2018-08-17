@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS
 author: windows-driver-content
 description: Queries the capabilities of a specified video processor.
 old-location: display\getvideoprocessorcaps.htm
-tech.root: display
 ms.assetid: 5ffb4f6e-41c6-4d15-8995-a398b9976822
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

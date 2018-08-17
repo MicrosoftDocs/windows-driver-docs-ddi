@@ -26,17 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function

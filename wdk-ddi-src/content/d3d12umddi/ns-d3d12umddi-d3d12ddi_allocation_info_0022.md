@@ -4,7 +4,6 @@ title: D3D12DDI_ALLOCATION_INFO_0022
 author: windows-driver-content
 description: Specifies allocation information.
 old-location: display\d3d12ddi_allocation_info_0022.htm
-tech.root: display
 ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_ALLOCATION_INFO_0022
 ---
 

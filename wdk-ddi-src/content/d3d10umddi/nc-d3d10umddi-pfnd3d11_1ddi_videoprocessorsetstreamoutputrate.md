@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE
 author: windows-driver-content
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: display\videoprocessorsetstreamoutputrate.htm
-tech.root: display
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

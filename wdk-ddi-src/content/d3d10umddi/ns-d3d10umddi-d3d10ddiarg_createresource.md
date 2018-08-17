@@ -4,7 +4,6 @@ title: D3D10DDIARG_CREATERESOURCE
 author: windows-driver-content
 description: Describes a resource to create.
 old-location: display\d3d10ddiarg_createresource.htm
-tech.root: display
 ms.assetid: 2d67a00e-a3ba-4a19-ac6b-0b12d079435c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_CREATERESOURCE
 ---
 

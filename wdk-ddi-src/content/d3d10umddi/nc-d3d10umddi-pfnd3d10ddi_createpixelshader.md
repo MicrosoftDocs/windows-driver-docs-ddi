@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEPIXELSHADER
 author: windows-driver-content
 description: The CreatePixelShader(D3D10) function creates a pixel shader.
 old-location: display\createpixelshader_d3d10_.htm
-tech.root: display
 ms.assetid: 67b7cc14-89f5-45f2-b1cf-53316f495c66
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D10_DDI_VIEWPORT
 author: windows-driver-content
 description: The D3D10_DDI_VIEWPORT structure describes a viewport.
 old-location: display\d3d10_ddi_viewport.htm
-tech.root: display
 ms.assetid: 5b2025ce-e0dd-434d-b92b-16ecaf24808f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_VIEWPORT
 ---
 

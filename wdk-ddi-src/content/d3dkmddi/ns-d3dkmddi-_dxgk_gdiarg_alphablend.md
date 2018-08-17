@@ -4,7 +4,6 @@ title: "_DXGK_GDIARG_ALPHABLEND"
 author: windows-driver-content
 description: The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
 old-location: display\dxgk_gdiarg_alphablend.htm
-tech.root: display
 ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_ALPHABLEND
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_PROTECTED_SESSION_STATUS"
 author: windows-driver-content
 description: Indicates the status of the protected session.
 old-location: display\d3dkmt-protected-session-status.htm
-tech.root: display
 ms.assetid: 87a7de73-5e94-4016-b760-f3501ead08ac
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PROTECTED_SESSION_STATUS
 ---
 

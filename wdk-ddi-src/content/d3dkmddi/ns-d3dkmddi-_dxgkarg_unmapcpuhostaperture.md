@@ -4,7 +4,6 @@ title: "_DXGKARG_UNMAPCPUHOSTAPERTURE"
 author: windows-driver-content
 description: The DXGKARG_UNMAPCPUHOSTAPERTURE structure is used to unmap a previously mapped range of the CPU host aperture.
 old-location: display\dxgkarg_unmapcpuhostaperture.htm
-tech.root: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_UNMAPCPUHOSTAPERTURE
 ---
 

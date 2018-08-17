@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEODECODEREXTENSION
 author: windows-driver-content
 description: Performs an extended function for DirectX Video Acceleration (DXVA) decoding. This method enables extensions to the basic DXVA decoder functionality.
 old-location: display\videodecoderextension.htm
-tech.root: display
 ms.assetid: 0cfcc05a-77d7-4157-bd27-ba127afe3e92
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

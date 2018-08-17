@@ -4,7 +4,6 @@ title: "_DXGK_DISPLAYPANELORIENTATION"
 author: windows-driver-content
 description: Enum used to express the orientation of an integrated panel.
 old-location: display\dxgk_displaypanelorientation.htm
-tech.root: display
 ms.assetid: 49758A57-EFCE-4E9C-9BF6-74F6EFD356D9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_DISPLAYPANELORIENTATION
 ---
 

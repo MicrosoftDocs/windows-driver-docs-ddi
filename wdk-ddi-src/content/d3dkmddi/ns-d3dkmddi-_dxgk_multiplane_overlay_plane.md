@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_PLANE"
 author: windows-driver-content
 description: Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay function.
 old-location: display\dxgk_multiplane_overlay_plane.htm
-tech.root: display
 ms.assetid: 8ea1abc7-b861-4217-a3ab-cf60026d9608
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE
 ---
 

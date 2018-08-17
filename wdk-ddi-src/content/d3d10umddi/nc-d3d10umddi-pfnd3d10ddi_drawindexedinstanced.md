@@ -4,7 +4,6 @@ title: PFND3D10DDI_DRAWINDEXEDINSTANCED
 author: windows-driver-content
 description: The DrawIndexedInstanced function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstanced.htm
-tech.root: display
 ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

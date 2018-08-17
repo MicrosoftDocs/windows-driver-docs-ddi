@@ -4,7 +4,6 @@ title: PFND3DKMT_OPENKEYEDMUTEX2
 author: windows-driver-content
 description: Opens a keyed mutex object that includes private data.
 old-location: display\d3dkmtopenkeyedmutex2.htm
-tech.root: display
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_VS_SHADER_CB
 author: windows-driver-content
 description: The pfnStateVsShaderCb function causes the Microsoft Direct3D 10 runtime to refresh the vertex shader stage's shader program.
 old-location: display\pfnstatevsshadercb.htm
-tech.root: display
 ms.assetid: f43f7dea-26a6-4e3f-99e2-5e3488a621b0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

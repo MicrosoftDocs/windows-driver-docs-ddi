@@ -4,7 +4,6 @@ title: "_D3DKMT_DEVICERESET_STATE"
 author: windows-driver-content
 description: The D3DKMT_DEVICERESET_STATE structure identifies reset status.
 old-location: display\d3dkmt_devicereset_state.htm
-tech.root: display
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DEVICERESET_STATE
 ---
 

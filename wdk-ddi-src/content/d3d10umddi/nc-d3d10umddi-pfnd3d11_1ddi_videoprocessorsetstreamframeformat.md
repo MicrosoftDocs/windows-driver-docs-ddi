@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT
 author: windows-driver-content
 description: Specifies whether an input stream on the video processor contains interlaced or progressive frames.
 old-location: display\videoprocessorsetstreamframeformat.htm
-tech.root: display
 ms.assetid: 49310ddf-403a-4fb4-98bb-9ef00ef28310
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

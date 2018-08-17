@@ -4,7 +4,6 @@ title: "_DXGK_TRANSFERFLAGS"
 author: windows-driver-content
 description: The DXGK_TRANSFERFLAGS structure identifies the type of transfer operation to set up in a call to the DxgkDdiBuildPagingBuffer function.
 old-location: display\dxgk_transferflags.htm
-tech.root: display
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_TRANSFERFLAGS
 ---
 

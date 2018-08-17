@@ -4,7 +4,6 @@ title: "_D3DKMT_CHECKSHAREDRESOURCEACCESS"
 author: windows-driver-content
 description: The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the D3DKMTCheckSharedResourceAccess function uses to determine if a process can access a shared resource.
 old-location: display\d3dkmt_checksharedresourceaccess.htm
-tech.root: display
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CHECKSHAREDRESOURCEACCESS
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_COLLECTDBGINFO
 author: windows-driver-content
 description: The DxgkDdiCollectDbgInfo function outputs driver information for a debug report.
 old-location: display\dxgkddicollectdbginfo.htm
-tech.root: display
 ms.assetid: f2f3d8f7-5a54-4830-b8f8-ac2f93096eda
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

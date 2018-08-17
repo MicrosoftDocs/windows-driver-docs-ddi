@@ -4,7 +4,6 @@ title: PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES
 author: windows-driver-content
 description: The CheckDeferredContextHandleSizes function verifies the sizes of the driver-private memory spaces that hold the handle data of deferred context handles.
 old-location: display\checkdeferredcontexthandlesizes.htm
-tech.root: display
 ms.assetid: 0ddaec86-79e6-4d09-8403-6588b35f8b0f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

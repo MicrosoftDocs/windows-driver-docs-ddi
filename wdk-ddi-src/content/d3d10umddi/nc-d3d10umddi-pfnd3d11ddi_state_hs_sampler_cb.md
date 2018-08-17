@@ -4,7 +4,6 @@ title: PFND3D11DDI_STATE_HS_SAMPLER_CB
 author: windows-driver-content
 description: The pfnStateHsSamplerCb function causes the Microsoft Direct3D 11 runtime to refresh the hull shader sample state.
 old-location: display\pfnstatehssamplercb.htm
-tech.root: display
 ms.assetid: 95475c7a-874c-45e9-ab92-1c3983315446
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

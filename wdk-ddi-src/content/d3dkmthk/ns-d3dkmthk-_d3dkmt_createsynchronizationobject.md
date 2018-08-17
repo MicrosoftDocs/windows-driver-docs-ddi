@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATESYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DKMT_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the D3DKMTCreateSynchronizationObject function creates.
 old-location: display\d3dkmt_createsynchronizationobject.htm
-tech.root: display
 ms.assetid: 2e4e1fd7-9a36-4c35-8d9d-932a0d2e60a2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATESYNCHRONIZATIONOBJECT
 ---
 

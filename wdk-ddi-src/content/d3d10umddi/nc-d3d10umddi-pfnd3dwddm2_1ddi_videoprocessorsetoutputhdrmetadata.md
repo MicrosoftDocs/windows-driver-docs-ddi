@@ -37,6 +37,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA callback function

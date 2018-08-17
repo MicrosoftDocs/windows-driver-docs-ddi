@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETSCISSORRECTS
 author: windows-driver-content
 description: The SetScissorRects function marks portions of render targets that rendering is confined to.
 old-location: display\setscissorrects.htm
-tech.root: display
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

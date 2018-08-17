@@ -4,7 +4,6 @@ title: PFND3D10DDI_CHECKCOUNTER
 author: windows-driver-content
 description: The CheckCounter function retrieves information that describes a counter.
 old-location: display\checkcounter.htm
-tech.root: display
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

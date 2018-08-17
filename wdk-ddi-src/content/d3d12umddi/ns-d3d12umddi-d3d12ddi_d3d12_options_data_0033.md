@@ -4,7 +4,6 @@ title: D3D12DDI_D3D12_OPTIONS_DATA_0033
 author: windows-driver-content
 description: Display options data.
 old-location: display\d3d12ddi-d3d12-options-data-0033.htm
-tech.root: display
 ms.assetid: d2b90ec1-cc4c-4a2b-8f7e-d46cd39d553b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0033
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_ENUMADAPTERS"
 author: windows-driver-content
 description: Supplies information for enumerating all graphics adapters on the system.
 old-location: display\d3dkmt_enumadapters.htm
-tech.root: display
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_ENUMADAPTERS
 ---
 

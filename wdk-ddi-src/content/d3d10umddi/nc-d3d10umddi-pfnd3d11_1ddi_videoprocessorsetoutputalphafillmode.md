@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE
 author: windows-driver-content
 description: Sets the alpha fill mode for data that the video processor writes to the render target.
 old-location: display\videoprocessorsetoutputalphafillmode.htm
-tech.root: display
 ms.assetid: 0c2cbb8f-d031-4267-b32f-620ed1ad065c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

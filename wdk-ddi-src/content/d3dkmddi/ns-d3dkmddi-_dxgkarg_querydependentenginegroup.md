@@ -4,7 +4,6 @@ title: "_DXGKARG_QUERYDEPENDENTENGINEGROUP"
 author: windows-driver-content
 description: Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the DxgkDdiQueryDependentEngineGroup function to query node dependencies.
 old-location: display\dxgkarg_querydependentenginegroup.htm
-tech.root: display
 ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_QUERYDEPENDENTENGINEGROUP
 ---
 

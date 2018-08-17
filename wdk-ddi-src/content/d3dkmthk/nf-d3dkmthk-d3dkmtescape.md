@@ -4,7 +4,6 @@ title: D3DKMTEscape function
 author: windows-driver-content
 description: The D3DKMTEscape function exchanges information with the display miniport driver.
 old-location: display\d3dkmtescape.htm
-tech.root: display
 ms.assetid: 60b105df-2085-40bc-9d95-0f6b317a565e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

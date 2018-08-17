@@ -4,7 +4,6 @@ title: "_DXGK_VIDPNTOPOLOGY_INTERFACE"
 author: windows-driver-content
 description: The DXGK_VIDPNTOPOLOGY_INTERFACE structure contains pointers to functions that belong to the VidPn Topology interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpntopology_interface.htm
-tech.root: display
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_VIDPNTOPOLOGY_INTERFACE
 ---
 

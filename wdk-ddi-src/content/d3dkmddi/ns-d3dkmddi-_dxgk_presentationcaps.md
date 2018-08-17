@@ -4,7 +4,6 @@ title: "_DXGK_PRESENTATIONCAPS"
 author: windows-driver-content
 description: The DXGK_PRESENTATIONCAPS structure identifies presentation capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_presentationcaps.htm
-tech.root: display
 ms.assetid: 38de4631-535f-4950-b361-d70f8c638c36
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PRESENTATIONCAPS
 ---
 

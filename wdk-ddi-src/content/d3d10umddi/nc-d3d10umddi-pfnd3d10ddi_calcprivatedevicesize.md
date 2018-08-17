@@ -4,7 +4,6 @@ title: PFND3D10DDI_CALCPRIVATEDEVICESIZE
 author: windows-driver-content
 description: The CalcPrivateDeviceSize function determines the size of a memory region that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data.
 old-location: display\calcprivatedevicesize.htm
-tech.root: display
 ms.assetid: 8221a99a-1b46-48ba-8930-ac973e009eee
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

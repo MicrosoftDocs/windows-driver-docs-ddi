@@ -4,7 +4,6 @@ title: "_DXGK_STANDARD_COLORIMETRY_FLAGS"
 author: windows-driver-content
 description: Flags describing standard colorimetry and related support.
 old-location: display\dxgk_standard_colorimetry_flags.htm
-tech.root: display
 ms.assetid: 473C5D7B-8FDD-49E2-981A-00ECCA67671A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAGS
 ---
 

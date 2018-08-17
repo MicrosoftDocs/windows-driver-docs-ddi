@@ -4,7 +4,6 @@ title: "_DXGKARG_OPENALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_OPENALLOCATION structure describes allocations that the display miniport driver should open.
 old-location: display\dxgkarg_openallocation.htm
-tech.root: display
 ms.assetid: cddb85c7-137c-4ceb-b53c-170ce020cea1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_OPENALLOCATION
 ---
 

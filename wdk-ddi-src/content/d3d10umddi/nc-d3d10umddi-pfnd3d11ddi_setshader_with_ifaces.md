@@ -4,7 +4,6 @@ title: PFND3D11DDI_SETSHADER_WITH_IFACES
 author: windows-driver-content
 description: The CsSetShaderWithIfaces function sets the compute shader code along with a group of interfaces so that all of the subsequent dispatching operations use that code and those interfaces.
 old-location: display\cssetshaderwithifaces.htm
-tech.root: display
 ms.assetid: 2e7170e8-2b77-45a7-9ff5-834452c13ddf
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

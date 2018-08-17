@@ -4,7 +4,6 @@ title: D3DKMTSubmitWaitForSyncObjectsToHwQueue function
 author: windows-driver-content
 description: Used to submit a wait to the hardware queue.
 old-location: display\d3dkmtsubmitwaitforsyncobjectstohwqueue.htm
-tech.root: display
 ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTDestroyOverlay function
 author: windows-driver-content
 description: The D3DKMTDestroyOverlay function destroys a kernel-mode overlay object.
 old-location: display\d3dkmtdestroyoverlay.htm
-tech.root: display
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

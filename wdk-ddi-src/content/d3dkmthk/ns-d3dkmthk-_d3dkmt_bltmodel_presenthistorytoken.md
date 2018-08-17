@@ -4,7 +4,6 @@ title: "_D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN structure identifies a bit-block transfer (bitblt) present-history operation.
 old-location: display\d3dkmt_bltmodel_presenthistorytoken.htm
-tech.root: display
 ms.assetid: 841c1e6f-4561-4c37-a509-d9c0e9054022
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN
 ---
 

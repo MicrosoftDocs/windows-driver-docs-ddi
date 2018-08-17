@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETTEXTFILTERSIZE
 author: windows-driver-content
 description: The SetTextFilterSize function sets the width and height of the monochrome convolution filter.
 old-location: display\settextfiltersize.htm
-tech.root: display
 ms.assetid: 663fd3c3-7a8f-446d-b45a-392716116407
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

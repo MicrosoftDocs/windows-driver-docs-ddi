@@ -4,7 +4,6 @@ title: D3D11_1DDI_BUS_TYPE
 author: windows-driver-content
 description: Specifies the type of I/O bus that is used by the graphics adapter.
 old-location: display\d3d11_1ddi_bus_type.htm
-tech.root: display
 ms.assetid: 07cf1893-1ced-4bfa-a6f7-ec71345b9f18
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_BUS_TYPE
 ---
 

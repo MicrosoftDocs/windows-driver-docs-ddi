@@ -23,17 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxgiddi.h
-apiname:
+api_name:
 -	DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE structure

@@ -4,7 +4,6 @@ title: DXGKDDI_ENUMVIDPNCOFUNCMODALITY
 author: windows-driver-content
 description: The DxgkDdiEnumVidPnCofuncModality function makes the source and target modes sets of a VidPN cofunctional with the VidPN's topology and the modes that have already been pinned.
 old-location: display\dxgkddienumvidpncofuncmodality.htm
-tech.root: display
 ms.assetid: 6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

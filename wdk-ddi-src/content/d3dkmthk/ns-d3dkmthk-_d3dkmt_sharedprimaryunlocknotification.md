@@ -4,7 +4,6 @@ title: "_D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION"
 author: windows-driver-content
 description: The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primary surface that an application just unlocked.
 old-location: display\d3dkmt_sharedprimaryunlocknotification.htm
-tech.root: display
 ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 ---
 

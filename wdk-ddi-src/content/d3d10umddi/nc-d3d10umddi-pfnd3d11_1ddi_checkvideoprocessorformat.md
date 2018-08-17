@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
 author: windows-driver-content
 description: Queries whether the video processor supports a specified video format.
 old-location: display\checkvideoprocessorformat.htm
-tech.root: display
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

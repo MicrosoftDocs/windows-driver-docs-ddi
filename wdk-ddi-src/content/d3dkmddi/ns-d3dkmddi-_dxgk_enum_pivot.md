@@ -4,7 +4,6 @@ title: "_DXGK_ENUM_PIVOT"
 author: windows-driver-content
 description: The DXGK_ENUM_PIVOT structure identifies either a video present source or a video present target as the enumeration pivot in a call to DxgkDdiEnumVidPnCofuncModality.
 old-location: display\dxgk_enum_pivot.htm
-tech.root: display
 ms.assetid: f2a234f3-aec9-4fe5-b720-bed9747d5a7f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ENUM_PIVOT
 ---
 

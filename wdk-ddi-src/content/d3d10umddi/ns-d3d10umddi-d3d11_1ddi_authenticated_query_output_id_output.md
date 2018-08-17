@@ -4,7 +4,6 @@ title: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT
 author: windows-driver-content
 description: Contains the response to a QueryAuthenticatedChannel(D3D11_1) query with a D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT.QueryType value of D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID.
 old-location: display\d3d11_1ddi_authenticated_query_output_id_output.htm
-tech.root: display
 ms.assetid: 6b4c87e5-9109-4be2-b912-4396a0e9eb10
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT
 ---
 

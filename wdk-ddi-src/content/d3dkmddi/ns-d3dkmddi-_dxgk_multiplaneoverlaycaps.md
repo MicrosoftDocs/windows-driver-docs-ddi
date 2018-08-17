@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANEOVERLAYCAPS"
 author: windows-driver-content
 description: Multiplane overlay capabilities returned by the DxgkDdiGetMultiPlaneOverlayCaps function.
 old-location: display\dxgk_multiplaneoverlaycaps.htm
-tech.root: display
 ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANEOVERLAYCAPS
 ---
 

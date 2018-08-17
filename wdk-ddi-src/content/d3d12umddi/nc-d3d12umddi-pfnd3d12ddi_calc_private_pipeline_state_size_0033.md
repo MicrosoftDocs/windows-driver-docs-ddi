@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
 author: windows-driver-content
 description: Used to calculate the pipeline state size.
 old-location: display\pfnd3d12ddi_calc_private_pipeline_state_size_0033_.htm
-tech.root: display
 ms.assetid: C119B295-CBCF-46B3-BC8D-3C8AC058F6D8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

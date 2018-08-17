@@ -4,7 +4,6 @@ title: "_DXGKARG_DESTROYALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_DESTROYALLOCATION structure describes how the display miniport driver should release allocations.
 old-location: display\dxgkarg_destroyallocation.htm
-tech.root: display
 ms.assetid: 0679ade4-9bbd-4bbc-ad2a-46bf35cac645
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_DESTROYALLOCATION
 ---
 

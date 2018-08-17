@@ -20,17 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYADAPTERTYPE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	_D3DDDI_QUERYADAPTERTYPE
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DDDI_QUERYADAPTERTYPE enumeration

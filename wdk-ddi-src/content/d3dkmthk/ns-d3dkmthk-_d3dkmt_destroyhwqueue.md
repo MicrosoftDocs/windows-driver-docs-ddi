@@ -4,7 +4,6 @@ title: "_D3DKMT_DESTROYHWQUEUE"
 author: windows-driver-content
 description: A structure holding information to destroy a hardware queue.
 old-location: display\d3dkmt_destroyhwqueue.htm
-tech.root: display
 ms.assetid: 076B47F5-8312-43E3-AE75-D4DDA8C0A181
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DESTROYHWQUEUE
 ---
 

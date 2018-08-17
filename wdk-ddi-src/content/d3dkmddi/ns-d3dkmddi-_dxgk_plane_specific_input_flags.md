@@ -4,7 +4,6 @@ title: "_DXGK_PLANE_SPECIFIC_INPUT_FLAGS"
 author: windows-driver-content
 description: A structure containing the input flags to be used for the driver that apply to a plane.
 old-location: display\dxgk_plane_specific_input_flags.htm
-tech.root: display
 ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 ---
 

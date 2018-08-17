@@ -4,7 +4,6 @@ title: "_DXGK_VIDPN_INTERFACE_VERSION"
 author: windows-driver-content
 description: The DXGK_VIDPN_INTERFACE_VERSION enumeration indicates the version of a video present network (VidPN) interface.
 old-location: display\dxgk_vidpn_interface_version.htm
-tech.root: display
 ms.assetid: 819261a5-bec0-49a8-942a-9313d3b793ca
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_VIDPN_INTERFACE_VERSION
 ---
 

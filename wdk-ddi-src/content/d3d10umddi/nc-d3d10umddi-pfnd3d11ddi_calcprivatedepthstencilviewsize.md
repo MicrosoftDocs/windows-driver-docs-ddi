@@ -4,7 +4,6 @@ title: PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE
 author: windows-driver-content
 description: The CalcPrivateDepthStencilViewSize(D3D11) function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a depth-stencil view.
 old-location: display\calcprivatedepthstencilviewsize_d3d11_.htm
-tech.root: display
 ms.assetid: d92e3bde-9527-401e-aafd-4ba39603d4a7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

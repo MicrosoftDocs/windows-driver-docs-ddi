@@ -4,7 +4,6 @@ title: "_D3DKMT_SCHEDULINGPRIORITYCLASS"
 author: windows-driver-content
 description: The D3DKMT_SCHEDULINGPRIORITYCLASS enumeration type contains values that describe the scheduling priority for a process.
 old-location: display\d3dkmt_schedulingpriorityclass.htm
-tech.root: display
 ms.assetid: d42e37d0-0ba9-4b79-903d-fdbb478ab196
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SCHEDULINGPRIORITYCLASS
 ---
 

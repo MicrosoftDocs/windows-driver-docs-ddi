@@ -4,7 +4,6 @@ title: "_DXGKARG_COLLECTDBGINFO"
 author: windows-driver-content
 description: The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 old-location: display\dxgkarg_collectdbginfo.htm
-tech.root: display
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_COLLECTDBGINFO
 ---
 

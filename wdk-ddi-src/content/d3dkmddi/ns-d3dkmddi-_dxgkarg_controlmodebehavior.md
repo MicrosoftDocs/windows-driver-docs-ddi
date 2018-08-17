@@ -34,6 +34,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGKARG_CONTROLMODEBEHAVIOR structure

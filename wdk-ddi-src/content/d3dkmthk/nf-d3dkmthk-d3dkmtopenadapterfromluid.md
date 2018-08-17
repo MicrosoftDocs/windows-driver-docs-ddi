@@ -4,7 +4,6 @@ title: D3DKMTOpenAdapterFromLuid function
 author: windows-driver-content
 description: Maps a locally unique identifier (LUID) to a graphics adapter handle.
 old-location: display\d3dkmtopenadapterfromluid.htm
-tech.root: display
 ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

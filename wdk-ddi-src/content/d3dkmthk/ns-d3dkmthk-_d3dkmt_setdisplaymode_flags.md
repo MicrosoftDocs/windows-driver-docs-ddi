@@ -4,7 +4,6 @@ title: "_D3DKMT_SETDISPLAYMODE_FLAGS"
 author: windows-driver-content
 description: The D3DKMT_SETDISPLAYMODE_FLAGS structure identifies attributes for setting the display mode.
 old-location: display\d3dkmt_setdisplaymode_flags.htm
-tech.root: display
 ms.assetid: 245586cb-d277-4cef-aeb9-b576a4ae6d43
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETDISPLAYMODE_FLAGS
 ---
 

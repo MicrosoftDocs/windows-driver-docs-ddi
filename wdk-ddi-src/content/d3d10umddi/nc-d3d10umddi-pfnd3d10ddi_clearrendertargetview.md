@@ -4,7 +4,6 @@ title: PFND3D10DDI_CLEARRENDERTARGETVIEW
 author: windows-driver-content
 description: The ClearRenderTargetView function clears the specified render-target view by setting it to a constant value.
 old-location: display\clearrendertargetview.htm
-tech.root: display
 ms.assetid: 9dc95dd2-01ad-45d7-9e75-049026b25968
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

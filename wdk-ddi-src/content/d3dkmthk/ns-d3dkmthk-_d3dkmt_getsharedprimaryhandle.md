@@ -4,7 +4,6 @@ title: "_D3DKMT_GETSHAREDPRIMARYHANDLE"
 author: windows-driver-content
 description: The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are required to retrieve the global shared handle for the primary surface.
 old-location: display\d3dkmt_getsharedprimaryhandle.htm
-tech.root: display
 ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETSHAREDPRIMARYHANDLE
 ---
 

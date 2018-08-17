@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG
 author: windows-driver-content
 description: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG describes the type of context being created for interacting with JPEG hardware.
 old-location: display\d3dwddm2_0ddi_contexttype_flag.htm
-tech.root: display
 ms.assetid: F767C051-637A-4912-80B0-36C4DF7E46DD
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG
 ---
 

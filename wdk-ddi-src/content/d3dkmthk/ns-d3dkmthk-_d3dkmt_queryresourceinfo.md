@@ -4,7 +4,6 @@ title: "_D3DKMT_QUERYRESOURCEINFO"
 author: windows-driver-content
 description: The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving information about a resource.
 old-location: display\d3dkmt_queryresourceinfo.htm
-tech.root: display
 ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERYRESOURCEINFO
 ---
 
