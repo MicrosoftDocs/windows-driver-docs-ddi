@@ -1,15 +1,15 @@
 ---
-UID: NI:trustedrt.IOCTL_TR_ENUMERATE_SERVICES
-title: IOCTL_TR_ENUMERATE_SERVICES
+UID: NI:usbscan.IOCTL_ABORT_PIPE
+title: IOCTL_ABORT_PIPE
 author: windows-driver-content
 description: 
-ms.assetid: de6f27ed-7fb3-4cf1-953c-e683ffdbf475
+ms.assetid: b532777a-0834-4d70-9cde-060f697e912d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
-req.header: trustedrt.h
+req.header: usbscan.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -26,15 +26,15 @@ topic_type:
 api_type: 
 -	HeaderDef
 api_location: 
--	trustedrt.h
+-	usbscan.h
 api_name: 
--	IOCTL_TR_ENUMERATE_SERVICES
-product:
--	Windows
+-	IOCTL_ABORT_PIPE
+product: 
+-   Windows
 targetos: Windows
 ---
 
-# IOCTL_TR_ENUMERATE_SERVICES IOCTL
+# IOCTL_ABORT_PIPE IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
