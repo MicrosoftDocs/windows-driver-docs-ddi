@@ -75,7 +75,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetRadioState
 
-Asynchronous [OID_WWAN_RADIO_STATE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-radio-state) set request.
+Asynchronous [OID_WWAN_RADIO_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-radio-state) set request.
 
 
 ### -field WwanAsyncGetPin
@@ -85,7 +85,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetPin
 
-Asynchronous [OID_WWAN_PIN](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-pin) set request.
+Asynchronous [OID_WWAN_PIN](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pin) set request.
 
 
 ### -field WwanAsyncGetPinList
@@ -100,7 +100,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetHomeProvider
 
-Asynchronous [OID_WWAN_HOME_PROVIDER](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-home-provider) set request.
+Asynchronous [OID_WWAN_HOME_PROVIDER](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-home-provider) set request.
 
 
 ### -field WwanAsyncGetPreferredProviders
@@ -110,7 +110,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetPreferredProviders
 
-Asynchronous [OID_WWAN_PREFERRED_PROVIDERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-preferred-providers) set request.
+Asynchronous [OID_WWAN_PREFERRED_PROVIDERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-providers) set request.
 
 
 ### -field WwanAsyncGetVisibleProviders
@@ -125,7 +125,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetRegisterState
 
-Asynchronous [OID_WWAN_REGISTER_STATE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-register-state) set request.
+Asynchronous [OID_WWAN_REGISTER_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-register-state) set request.
 
 
 ### -field WwanAsyncGetPacketService
@@ -135,7 +135,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetPacketService
 
-Asynchronous [OID_WWAN_PACKET_SERVICE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-packet-service) set request.
+Asynchronous [OID_WWAN_PACKET_SERVICE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-packet-service) set request.
 
 
 ### -field WwanAsyncGetSignalState
@@ -145,7 +145,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetSignalState
 
-Asynchronous [OID_WWAN_SIGNAL_STATE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-signal-state) set request.
+Asynchronous [OID_WWAN_SIGNAL_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-signal-state) set request.
 
 
 ### -field WwanAsyncGetConnect
@@ -155,17 +155,17 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetConnect
 
-Asynchronous [OID_WWAN_CONNECT](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-connect) set request.
+Asynchronous [OID_WWAN_CONNECT](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-connect) set request.
 
 
 ### -field WwanAsyncGetProvisionedContexts
 
-Asynchronous <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a> get request.
+Asynchronous <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a> get request.
 
 
 ### -field WwanAsyncSetProvisionedContext
 
-Asynchronous [OID_WWAN_PROVISIONED_CONTEXTS](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts) set request.
+Asynchronous [OID_WWAN_PROVISIONED_CONTEXTS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-provisioned-contexts) set request.
 
 
 ### -field WwanAsyncSetServiceActivation
@@ -180,7 +180,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ### -field WwanAsyncSetSmsConfiguration
 
-Asynchronous [OID_WWAN_SMS_CONFIGURATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-sms-configuration) set request.
+Asynchronous [OID_WWAN_SMS_CONFIGURATION](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sms-configuration) set request.
 
 
 ### -field WwanAsyncSmsRead
@@ -252,43 +252,43 @@ Asynchronous [OID_WWAN_PIN_EX](https://docs.microsoft.com/windows-hardware/drive
 
 ### -field WwanAsyncGetDeviceServiceCommand
 
-Asynchronous [OID_WWAN_DEVICE_SERVICE_COMMAND](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-service-command) get request.
+Asynchronous [OID_WWAN_DEVICE_SERVICE_COMMAND](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-service-command) get request.
 
 ### -field WwanAsyncSetDeviceServiceCommand
 
-Asynchronous [OID_WWAN_DEVICE_SERVICE_COMMAND](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-service-command) set request.
+Asynchronous [OID_WWAN_DEVICE_SERVICE_COMMAND](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-service-command) set request.
 
 
 ### -field WwanAsyncQueryDeviceServiceSupportedCommands
 
-Asynchronous [OID_WWAN_DEVICE_SERVICES](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-services)
+Asynchronous [OID_WWAN_DEVICE_SERVICES](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-services)
 
 ### -field WwanAsyncGetPreferredMultiCarrierProviders
 
-Asynchronous [OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-preferred-multicarrier-providers) get request.
+Asynchronous [OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-multicarrier-providers) get request.
 
 ### -field WwanAsyncSetPreferredMultiCarrierProviders
 
-Asynchronous [OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-preferred-multicarrier-providers) set request.
+Asynchronous [OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-multicarrier-providers) set request.
 
 ### -field WwanAsyncSetDeviceServiceSession
 
-Asynchronous [OID_WWAN_DEVICE_SERVICE_SESSION](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-service-session) set request.
+Asynchronous [OID_WWAN_DEVICE_SERVICE_SESSION](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-service-session) set request.
 
 
 ### -field WwanAsyncWriteDeviceServiceSession
 
-Asynchronous [OID_WWAN_DEVICE_SERVICE_SESSION_WRITE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-service-session-write) set request.
+Asynchronous [OID_WWAN_DEVICE_SERVICE_SESSION_WRITE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-service-session-write) set request.
 
 
 ### -field WwanAsyncSetNetworkIdleHint
 
-Asynchronous [OID_WWAN_NETWORK_IDLE_HINT](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-network-idle-hint) set request.
+Asynchronous [OID_WWAN_NETWORK_IDLE_HINT](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-network-idle-hint) set request.
 
 
 ### -field WwanAsyncSetPreshutdown
 
-Asynchronous [OID_WWAN_PRESHUTDOWN](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-preshutdown) set request.
+Asynchronous [OID_WWAN_PRESHUTDOWN](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preshutdown) set request.
 
 ### -field WwanAsyncGetAtr
 
@@ -331,12 +331,11 @@ Asynchronous OID_WWAN_PS_MEDIA_CONFIG set request.
 
 ### -field WwanAsyncGetSarConfig
 
-Asynchronous OID_WWAN_SAR_CONFIG get request.
-
+Asynchronous [OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-config) get request.
 
 ### -field WwanAsyncSetSarConfig
 
-Asynchronous OID_WWAN_SAR_CONFIG set request.
+Asynchronous [OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-config) set request.
 
 
 ### -field WwanAsyncGetSarTransmissionStatus
@@ -380,56 +379,56 @@ Asynchronous OID_WWAN_LTE_ATTACH_STATUS set request.
 
 ### -field WwanAsyncGetSysCap
 
-Asynchronous [OID_WWAN_SYS_CAPS_INFO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-sys-caps) get request.
+Asynchronous [OID_WWAN_SYS_CAPS_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sys-caps) get request.
 
 ### -field WwanAsyncGetDeviceCapsEx
 
-Asynchronous [OID_WWAN_DEVICE_CAPS_EX](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-caps-ex) get request.
+Asynchronous [OID_WWAN_DEVICE_CAPS_EX](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps-ex) get request.
 
 ### -field WwanAsyncGetUiccSlotMapping
 
-Asynchronous [OID_WWAN_DEVICE_SLOT_MAPPING_INFO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-slot-mappings) get request.
+Asynchronous [OID_WWAN_DEVICE_SLOT_MAPPING_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-slot-mappings) get request.
 
 ### -field WwanAsyncSetUiccSlotMapping
 
-Asynchronous [OID_WWAN_DEVICE_SLOT_MAPPING_INFO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-slot-mappings) set request.
+Asynchronous [OID_WWAN_DEVICE_SLOT_MAPPING_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-slot-mappings) set request.
 
 ### -field WwanAsyncGetUiccSlotInfo
 
-Asynchronous [OID_WWAN_SLOT_INFO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-slot-info-status) get request.
+Asynchronous [OID_WWAN_SLOT_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-slot-info-status) get request.
 
 
 ### -field WwanAsyncGetModemConfigInfo
 
-Asynchronous [OID_WWAN_MODEM_CONFIG_INFO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-modem-config-info) get request.
+Asynchronous [OID_WWAN_MODEM_CONFIG_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-config-info) get request.
 
 ### -field WwanAsyncGetPcoStatus
 
-Asynchronous [OID_WWAN_PCO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-pco) get request.
+Asynchronous [OID_WWAN_PCO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pco) get request.
 
 ### -field WwanAsyncUiccGetReset
 
-Asynchronous [OID_WWAN_UICC_RESET](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-uicc-reset) get request.
+Asynchronous [OID_WWAN_UICC_RESET](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-reset) get request.
 
 ### -field WwanAsyncUiccSetReset
 
-Asynchronous [OID_WWAN_UICC_RESET](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-uicc-reset) set request.
+Asynchronous [OID_WWAN_UICC_RESET](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-reset) set request.
 
 ### -field WwanAsyncSetDeviceReset
 
-Asynchronous [OID_WWAN_DEVICE_RESET](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-device-reset) set request.
+Asynchronous [OID_WWAN_DEVICE_RESET](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset) set request.
 
 ### -field WwanAsyncGetCellInfo
 
-Asynchronous [OID_WWAN_BASE_STATIONS_INFO](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-base-stations-info) get request.
+Asynchronous [OID_WWAN_BASE_STATIONS_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info) get request.
 
 ### -field WwanAsyncGetMPDP
 
-Asynchronous [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) get request.
+Asynchronous [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) get request.
 
 ### -field WwanAsyncSetMPDP
 
-Asynchronous [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
+Asynchronous [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
 
 ### -field WWAN_ASYNC_GETSET_TYPE_MAX
 
