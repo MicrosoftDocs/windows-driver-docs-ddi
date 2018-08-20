@@ -2,7 +2,7 @@
 UID: NS:ks.BUS_INTERFACE_MEDIUMS
 title: BUS_INTERFACE_MEDIUMS
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bus_interface_mediums.htm
 tech.root: stream
 ms.assetid: 0A2D1D8F-8C82-4335-9FBF-4515A8DC20C1

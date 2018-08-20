@@ -2,7 +2,7 @@
 UID: NE:ks.KSINTERFACE_FILEIO
 title: KSINTERFACE_FILEIO
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksinterface_fileio.htm
 tech.root: stream
 ms.assetid: B8965A1A-4EF9-4FCA-8ED0-60F720331AC4

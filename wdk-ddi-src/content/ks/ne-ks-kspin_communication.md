@@ -2,7 +2,7 @@
 UID: NE:ks.KSPIN_COMMUNICATION
 title: KSPIN_COMMUNICATION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\kspin_communication.htm
 tech.root: stream
 ms.assetid: DBBEEE9D-82C1-4387-AA6D-C5D86EDB138C

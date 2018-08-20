@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.PropertiesListGetFillableCount
 title: PropertiesListGetFillableCount function
 author: windows-driver-content
-description: Coming soon.
+description: Returns the number of elements a properties list buffer of a certain size can possibly hold.
 ms.assetid: 18425b45-8ebc-4bbe-b69c-caf7a3a83414
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,18 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+Returns the number of elements a properties list buffer of a certain size can possibly hold.
 
 ## -parameters
 
 ### -param BufferSizeBytes
-Coming soon.
+
+Size of the buffer in bytes.
 
 ## -returns
-This function returns ULONG.
+
+A ULONG that represents an acceptable number for a properties list of BufferSizeBytes size.
+
 ## -remarks
 
 ## -see-also

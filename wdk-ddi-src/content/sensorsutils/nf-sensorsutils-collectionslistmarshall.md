@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListMarshall
 title: CollectionsListMarshall function
 author: windows-driver-content
-description: Coming soon.
+description: This routine is similar to CollectionsListCopyAndMarshall, except that it marshalls a collection list in-place.
 ms.assetid: e3f361d5-278a-4904-babf-7149a038b2fb
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,19 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine is similar to [CollectionsListCopyAndMarshall](nf-sensorsutils-collectionslistcopyandmarshall.md), except that it marshalls a collection list in-place.
+
 
 ## -parameters
 
 ### -param Target
-Coming soon.
+
+[in] Pointer to a collection list.
 
 ## -returns
-This function returns NTSTATUS.
+
+If the Source Collection list is not large enough to accommodate the marshalled/flattened list, this function fails with STATUS_BUFFER_TOO_SMALL. Returns STATUS_SUCCESS otherwise.
+
 ## -remarks
 
 ## -see-also

@@ -2,7 +2,7 @@
 UID: NN:prnasntp.IPrintAsyncNotify
 title: IPrintAsyncNotify
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintasyncnotify.htm
 tech.root: print
 ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505

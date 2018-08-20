@@ -75,7 +75,7 @@ Specifies the property specification ID to search for in the array pointed to by
 
 ### -param pIdx
 
-TBD
+
 
 
 

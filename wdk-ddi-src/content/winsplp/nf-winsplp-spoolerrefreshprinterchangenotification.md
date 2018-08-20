@@ -2,7 +2,7 @@
 UID: NF:winsplp.SpoolerRefreshPrinterChangeNotification
 title: SpoolerRefreshPrinterChangeNotification function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\spoolerrefreshprinterchangenotification.htm
 tech.root: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92

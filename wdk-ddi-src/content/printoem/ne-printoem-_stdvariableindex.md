@@ -2,7 +2,7 @@
 UID: NE:printoem._STDVARIABLEINDEX
 title: "_STDVARIABLEINDEX"
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\stdvariableindex.htm
 tech.root: print
 ms.assetid: 02E54636-0B8D-40FE-8405-0FB130139828

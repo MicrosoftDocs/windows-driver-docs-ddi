@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.MILLISECONDS_TO_100NANOSECONDS
 title: MILLISECONDS_TO_100NANOSECONDS macro
 author: windows-driver-content
-description: Coming soon.
+description: This macro converts time, in milliseconds, to 100 nanosecond units.
 ms.assetid: 118243ed-695b-402b-b132-8913b5bac918
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,12 +48,14 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This macro converts time, in milliseconds, to 100 nanosecond units.
+
 
 ## -parameters
 
 ### -param durationMs
-Coming soon.
+
+The duration in milliseconds to convert to 100 nanosecond units.
 
 
 ## -remarks

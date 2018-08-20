@@ -85,6 +85,9 @@ A value of **TRUE** requests that the client enable transmit queue notification.
 This callback function does not return a value.
 
 ## -remarks
+
+This callback indicates to a client driver that polling (of *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* or *[EVT_TXQUEUE_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)*) will stop and will not continue until the client driver calls [**NetTxQueueNotifyMoreCompletedPacketsAvailable**](nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md). Typically, a PCI device uses this callback to enable Tx interrupts. Once an interrupt is received, Tx interrupts can be disabled again and the client driver calls **NetTxQueueNotifyMoreCompletedPacketsAvailable** to trigger the framework to begin polling again.
+
 Register this callback function in by setting the appropriate member of [NET_TX_QUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md), initializing the **NET_TX_QUEUE_CONFIG** structure with [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md), then calling [NetRxQueueCreate](nf-nettxqueue-nettxqueuecreate.md).
 
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* callback functions.

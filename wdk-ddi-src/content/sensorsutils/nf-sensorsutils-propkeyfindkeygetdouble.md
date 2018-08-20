@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.PropKeyFindKeyGetDouble
 title: PropKeyFindKeyGetDouble function
 author: windows-driver-content
-description: Coming soon.
+description: This routine gets a double precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 8dc6e964-d55a-4b06-b571-985e1c302e84
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,31 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine gets a double precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
+
 
 ## -parameters
 
 ### -param pList
-Coming soon.
+
+[in] Pointer to the list of PROPVARIANT collection.
+
 ### -param pKey
-Coming soon.
+
+[in] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+
 ### -param pRetValue
-Coming soon.
+
+[out] Pointer to a PROPERTYKEY for the target PROPVARIANT.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns an NTSTATUS code that represents:
+
+* STATUS_INVALID_PARAMETER if pList, pKey or, pRetValue is nullptr.
+* STATUS_NOT_FOUND if the element identified by pKey was not found.
+* STATUS_SUCCESS if the function was successful.
+
 ## -remarks
 
 ## -see-also

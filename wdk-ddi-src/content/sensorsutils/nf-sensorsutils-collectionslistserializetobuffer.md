@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListSerializeToBuffer
 title: CollectionsListSerializeToBuffer function
 author: windows-driver-content
-description: Coming soon.
+description: This routine serializes a collection list to the caller-allocated buffer.
 ms.assetid: 5006837d-7e09-4dad-b7ef-927b69d67a25
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,26 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine serializes a collection list to the caller-allocated buffer.
 
 ## -parameters
 
 ### -param SourceCollection
-Coming soon.
+
+[in] Pointer to a collection list.
+
 ### -param TargetBufferSizeInBytes
-Coming soon.
+
+[in] Caller-allocated buffer size (in bytes).
+
 ### -param TargetBuffer
-Coming soon.
+
+[out] Caller-allocated buffer to hold the serialized data.
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
 
 ## -see-also
