@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 430fc152-c052-468a-a64a-26a1a6a0a6c8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptClient::Release, Release, IDataModelScriptClient.Release, IDataModelScriptClient::Release, IDataModelScriptClient.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptClient interface](nn-dbgmodel-idatamodelscriptclient.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c8cedcee-002c-4373-a518-31aad3cee313
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptClient::ReportError, ReportError, IDataModelScriptClient.ReportError, IDataModelScriptClient::ReportError, IDataModelScriptClient.ReportError
 req.header: dbgmodel.h
@@ -44,19 +44,27 @@ targetos: Windows
 
 ## -description
 
-TBD
+If an error occurs during execution or invocation of the script, the script provider calls the ReportError method to notify the user interface of the error. 
+
+The script provider may call the ReportError method an arbitrary number of times during an Execute or InvokeMain operation. It is up to the client to determine how to present the error information to the user. 
+
 
 ## -parameters
 
 ### -param errClass
+The class of error which is being reported as a member of the ErrorClass enumeration. Further information about this enumeration can be found in the documentation for IDebugHostErrorSink.
 
 ### -param hrFail
+The HRESULT of the error which occurred. If the domain of the error was not an HRESULT, it should be converted to such by the most appropriate means.
 
 ### -param message
+The error message which occurred.
 
 ### -param line
+The one based line number of the script where the error occurred.
 
 ### -param position
+The one based position (column number) within the line where the error occurred.
 
 
 ## -returns
@@ -64,3 +72,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptClient interface](nn-dbgmodel-idatamodelscriptclient.md)
