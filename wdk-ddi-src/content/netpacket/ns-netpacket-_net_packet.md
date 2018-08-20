@@ -56,9 +56,13 @@ Represents a single network packet.
 
 The offset, in bytes, to the first [**NET_PACKET_FRAGMENT**](ns-netpacket-_net_packet_fragment.md) fragment structure in this packet's payload. This offset is from the beginning of the fragment ring buffer to the first fragment that belongs to this packet.
 
+For receiving, client drivers are expected to set this value to the offset of the first **NET_PACKET_FRAGMENT** in the fragment ring.
+
 ### -field FragmentCount
 
-The number of [**NET_PACKET_FRAGMENT**](ns-netpacket-_net_packet_fragment.md) structures in this **NET_PACKET**.
+The number of [**NET_PACKET_FRAGMENT**](ns-netpacket-_net_packet_fragment.md) structures that make up this packet.
+
+For receiving, client drivers are expected to set this number.
  
 ### -field Layout
 
