@@ -33,7 +33,8 @@ api_location:
 -	netadaptercxstub.lib
 api_name: 
 -	NetAdapterInitAllocate
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

@@ -34,7 +34,8 @@ api_location:
 -	netpacketqueue.h
 api_name: 
 -	EVT_PACKET_QUEUE_START
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

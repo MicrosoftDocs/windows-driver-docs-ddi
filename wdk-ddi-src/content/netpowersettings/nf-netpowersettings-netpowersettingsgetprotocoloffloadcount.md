@@ -38,7 +38,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetPowerSettingsGetProtocolOffloadCount function

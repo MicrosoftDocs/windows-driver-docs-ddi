@@ -36,7 +36,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_REQUEST_QUEUE_SET_DATA_HANDLER structure

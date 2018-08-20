@@ -36,7 +36,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_ADAPTER_LINK_LAYER_CAPABILITIES structure

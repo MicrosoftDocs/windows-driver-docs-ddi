@@ -38,7 +38,8 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN callback function

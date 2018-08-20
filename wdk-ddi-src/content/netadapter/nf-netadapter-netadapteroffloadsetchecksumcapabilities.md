@@ -33,7 +33,8 @@ api_location:
 -	netadaptercxstub.lib
 api_name: 
 -	NetAdapterOffloadSetChecksumCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

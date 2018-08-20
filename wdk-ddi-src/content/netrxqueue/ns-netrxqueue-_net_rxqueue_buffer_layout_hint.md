@@ -36,7 +36,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_RXQUEUE_BUFFER_LAYOUT_HINT structure

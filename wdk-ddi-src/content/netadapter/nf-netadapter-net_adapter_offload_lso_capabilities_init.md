@@ -33,7 +33,8 @@ api_location:
 -	netadaptercxstub.lib
 api_name: 
 -	NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

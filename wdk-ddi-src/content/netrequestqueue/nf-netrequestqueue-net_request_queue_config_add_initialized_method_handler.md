@@ -38,7 +38,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER function

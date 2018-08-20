@@ -38,7 +38,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT function

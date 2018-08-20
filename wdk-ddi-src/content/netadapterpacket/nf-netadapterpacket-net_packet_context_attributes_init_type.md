@@ -38,7 +38,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE macro

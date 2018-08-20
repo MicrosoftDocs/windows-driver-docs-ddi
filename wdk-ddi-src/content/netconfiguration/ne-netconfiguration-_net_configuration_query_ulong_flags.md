@@ -33,7 +33,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration

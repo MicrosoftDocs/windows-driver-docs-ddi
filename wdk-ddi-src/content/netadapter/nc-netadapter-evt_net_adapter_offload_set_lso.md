@@ -34,7 +34,8 @@ api_location:
 -	netadapter.h
 api_name: 
 -	EVT_NET_ADAPTER_OFFLOAD_SET_LSO
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

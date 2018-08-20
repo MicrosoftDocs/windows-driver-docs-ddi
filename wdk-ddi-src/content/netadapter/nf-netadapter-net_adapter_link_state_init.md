@@ -39,7 +39,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NET_ADAPTER_LINK_STATE_INIT function

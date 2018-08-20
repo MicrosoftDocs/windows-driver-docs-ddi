@@ -31,7 +31,8 @@ api_location:
 -	netpacketqueue.h
 api_name: 
 -	_NET_PACKET_QUEUE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

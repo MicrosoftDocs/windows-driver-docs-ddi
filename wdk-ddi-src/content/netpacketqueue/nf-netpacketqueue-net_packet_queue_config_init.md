@@ -33,7 +33,8 @@ api_location:
 -	
 api_name: 
 -	NET_PACKET_QUEUE_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

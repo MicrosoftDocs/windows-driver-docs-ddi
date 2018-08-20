@@ -33,7 +33,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_ADAPTER_WAKE_PATTERN_FLAGS enumeration

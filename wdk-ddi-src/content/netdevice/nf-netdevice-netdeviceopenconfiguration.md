@@ -33,7 +33,8 @@ api_location:
 -	netadaptercxstub.lib
 api_name: 
 -	NetDeviceOpenConfiguration
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 
