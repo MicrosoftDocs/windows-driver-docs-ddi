@@ -31,7 +31,8 @@ api_location:
 -	wwan.h
 api_name: 
 -	_WWAN_SET_SAR_TRANSMISSION_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

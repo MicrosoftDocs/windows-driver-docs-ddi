@@ -28,7 +28,8 @@ api_location:
 -	wwan.h
 api_name: 
 -	_WWAN_SAR_WIFI_HARDWARE_INTEGRATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

@@ -31,7 +31,8 @@ api_location:
 -	mbbcxtypes.h
 api_name: 
 -	_MBB_DRIVER_GLOBALS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

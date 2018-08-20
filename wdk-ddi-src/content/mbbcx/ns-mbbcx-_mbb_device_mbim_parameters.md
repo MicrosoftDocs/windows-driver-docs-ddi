@@ -31,7 +31,8 @@ api_location:
 -	mbbcx.h
 api_name: 
 -	_MBB_DEVICE_MBIM_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

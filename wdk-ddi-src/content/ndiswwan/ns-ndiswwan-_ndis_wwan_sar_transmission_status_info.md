@@ -31,7 +31,8 @@ api_location:
 -	ndiswwan.h
 api_name: 
 -	_NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

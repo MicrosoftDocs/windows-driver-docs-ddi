@@ -33,7 +33,8 @@ api_location:
 -	mbbcxstub.lib
 api_name: 
 -	MBB_DEVICE_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

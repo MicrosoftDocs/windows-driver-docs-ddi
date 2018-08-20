@@ -28,7 +28,8 @@ api_location:
 -	wwan.h
 api_name: 
 -	_WWAN_SAR_BACKOFF_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

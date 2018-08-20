@@ -33,7 +33,8 @@ api_location:
 -	mbbcxstub.lib
 api_name: 
 -	MbbRequestGetBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

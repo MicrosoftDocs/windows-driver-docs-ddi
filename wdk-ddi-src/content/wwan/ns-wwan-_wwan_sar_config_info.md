@@ -31,7 +31,8 @@ api_location:
 -	wwan.h
 api_name: 
 -	_WWAN_SAR_CONFIG_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 
