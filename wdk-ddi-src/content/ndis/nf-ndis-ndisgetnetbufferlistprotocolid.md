@@ -140,11 +140,7 @@ NDIS drivers can call the
     miniport drivers that support TCP chimney offload can verify that a NET_BUFFER_LIST structure comes from
     a TCP protocol.
 
-Protocol drivers that create NET_BUFFER_LIST structures should set the protocol identifier by calling
-    the 
-    <a href="netvista.ndissetnetbufferlistprotocolid">
-    NdisSetNetBufferListProtocolId</a> macro or by associating an identifier with a NET_BUFFER_LIST
-    pool.
+Protocol drivers that create NET_BUFFER_LIST structures should set the protocol identifier by calling the [NdisSetNetBufferListProtocolId](nf-ndis-ndissetnetbufferlistprotocolid.md) macro or by associating an identifier with a NET_BUFFER_LIST pool.
 
 
 
@@ -158,9 +154,4 @@ Protocol drivers that create NET_BUFFER_LIST structures should set the protocol 
 
 
 
-<a href="netvista.ndissetnetbufferlistprotocolid">
-   NdisSetNetBufferListProtocolId</a>
- 
-
- 
-
+[NdisSetNetBufferListProtocolId](nf-ndis-ndissetnetbufferlistprotocolid.md)

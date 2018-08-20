@@ -33,7 +33,8 @@ api_location:
 -	ndis.lib
 api_name: 
 -	NdisCopyNblTimestampInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

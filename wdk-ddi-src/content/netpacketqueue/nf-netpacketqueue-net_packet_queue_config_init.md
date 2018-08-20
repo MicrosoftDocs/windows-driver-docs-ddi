@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver: 1.27
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	LibDef
 api_location: 
--	
+-	netadaptercxstub.lib
 api_name: 
 -	NET_PACKET_QUEUE_CONFIG_INIT
 product:

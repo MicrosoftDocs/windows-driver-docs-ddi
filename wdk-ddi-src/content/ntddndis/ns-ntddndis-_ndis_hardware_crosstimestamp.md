@@ -31,7 +31,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	_NDIS_HARDWARE_CROSSTIMESTAMP
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 
