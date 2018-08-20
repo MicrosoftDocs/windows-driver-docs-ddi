@@ -2,18 +2,18 @@
 UID: NS:wwan._WWAN_SAR_CONFIG_INDICES
 title: _WWAN_SAR_CONFIG_INDICES
 author: windows-driver-content
-description: 
+description: The WWAN_SAR_CONFIG_INDICES structure represents a Specific Absorption Rate (SAR) configuration for a mobile broadband (MBB) modem.
 ms.assetid: 67e70750-eb08-4acb-941c-b6919968b2a5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _WWAN_SAR_CONFIG_INDICES, WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES, 
 req.header: wwan.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -39,14 +39,24 @@ targetos: Windows
 
 ## -description
 
+The **WWAN_SAR_CONFIG_INDICES** structure represents a Specific Absorption Rate (SAR) configuration for a mobile broadband (MBB) modem.
 
 ## -struct-fields
 
 ### -field SarAntennaIndex
+
+A **ULONG** value specifying the antenna, or executor, for this SAR configuration.
  
 ### -field SarBackoffIndex
- 
+
+A **ULONG** value specifying the SAR back off index for the antenna indicated by **SarAntennaIndex**. 
 
 ## -remarks
 
+A list of **WWAN_SAR_CONFIG_INDICES** follows the **SarConfigIndexListHeader** member of either the [**WWAN_SET_SAR_CONFIG**](ns-wwan-_wwan_set_sar_config.md) structure or the [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md) structure.
+
 ## -see-also
+
+[**WWAN_SET_SAR_CONFIG**](ns-wwan-_wwan_set_sar_config.md)
+
+[**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md)

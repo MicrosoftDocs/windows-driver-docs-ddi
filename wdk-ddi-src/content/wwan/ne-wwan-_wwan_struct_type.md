@@ -193,7 +193,7 @@ The elements are of type **WWAN_UICC_TERMINAL_CAPABILITY_TLV**. For more info ab
 
 ### -field WwanStructSarConfig
 
-The elements are of type **WWAN_SAR_CONFIG_INFO**. For more info about MB SAR operations, see [MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support#mbimcidmssarconfig).
+The elements are of type [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_indices.md). For more info about MB SAR operations, see [MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support#mbimcidmssarconfig).
 
 ### -field WwanStructContextV2
 
