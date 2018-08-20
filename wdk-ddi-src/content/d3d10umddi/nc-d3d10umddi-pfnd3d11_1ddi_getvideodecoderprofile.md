@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEODECODERPROFILE
 author: windows-driver-content
 description: Queries the attributes of a specified video decoder profile.
 old-location: display\getvideodecoderprofile.htm
-tech.root: display
 ms.assetid: 75576152-0afd-4602-b481-bf1d6d9348b3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

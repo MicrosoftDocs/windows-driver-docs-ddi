@@ -4,7 +4,6 @@ title: D3DKMTCreateProtectedSession function
 author: windows-driver-content
 description: Used to create a protected session.
 old-location: display\d3dkmtcreateprotectedsession.htm
-tech.root: display
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

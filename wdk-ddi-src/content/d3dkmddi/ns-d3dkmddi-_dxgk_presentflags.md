@@ -4,7 +4,6 @@ title: "_DXGK_PRESENTFLAGS"
 author: windows-driver-content
 description: The DXGK_PRESENTFLAGS structure identifies, in bit-field flags, the type of present operation to perform.
 old-location: display\dxgk_presentflags.htm
-tech.root: display
 ms.assetid: ff1fe315-7824-4e61-83f5-6d75aba2a941
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PRESENTFLAGS
 ---
 

@@ -4,7 +4,6 @@ title: PFND3DWDDM1_3DDI_COPYTILES
 author: windows-driver-content
 description: Copies tiles from buffer to tiled resource or vice versa.
 old-location: display\copytiles.htm
-tech.root: display
 ms.assetid: 8DA0FF6C-CA2C-4943-93C3-BFC3773617CC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

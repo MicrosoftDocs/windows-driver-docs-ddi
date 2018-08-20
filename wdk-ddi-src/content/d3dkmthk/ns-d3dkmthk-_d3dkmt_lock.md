@@ -4,7 +4,6 @@ title: "_D3DKMT_LOCK"
 author: windows-driver-content
 description: The D3DKMT_LOCK structure describes parameters for locking an allocation.
 old-location: display\d3dkmt_lock.htm
-tech.root: display
 ms.assetid: 0f985d0b-2b98-413d-a736-c507743ac786
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_LOCK
 ---
 

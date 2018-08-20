@@ -4,7 +4,6 @@ title: PFND3DWDDM1_3DDI_RESIZETILEPOOL
 author: windows-driver-content
 description: Resizes a tile pool.
 old-location: display\resizetilepool.htm
-tech.root: display
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

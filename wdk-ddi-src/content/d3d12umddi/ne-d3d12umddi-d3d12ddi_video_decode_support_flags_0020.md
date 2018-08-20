@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
 author: windows-driver-content
 description: Contains video decode support flags.
 old-location: display\d3d12ddi_video_decode_support_flags.htm
-tech.root: display
 ms.assetid: 3AF74BA9-168C-4EB0-B219-CC6BA58E1BCD
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
 ---
 

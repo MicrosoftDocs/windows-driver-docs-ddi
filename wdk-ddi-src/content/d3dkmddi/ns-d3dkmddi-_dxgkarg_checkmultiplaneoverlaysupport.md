@@ -4,7 +4,6 @@ title: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT"
 author: windows-driver-content
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport function to check details on hardware support for multiplane overlays.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport.htm
-tech.root: display
 ms.assetid: BAFC7DD1-56F8-47CE-8914-54531BBC3165
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---
 

@@ -4,7 +4,6 @@ title: D3D10_DDI_FILTER
 author: windows-driver-content
 description: The D3D10_DDI_FILTER enumeration type contains values that identify filter properties of a sampler in a call to the driver's CreateSampler function.
 old-location: display\d3d10_ddi_filter.htm
-tech.root: display
 ms.assetid: 02d0985e-ddf3-49cb-89e4-dcadb908399f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_FILTER
 ---
 

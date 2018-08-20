@@ -4,7 +4,6 @@ title: PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
 author: windows-driver-content
 description: The DrawIndexedInstancedIndirect function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstancedindirect.htm
-tech.root: display
 ms.assetid: 3debfb11-4de9-456b-a094-feb2f68e96a5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

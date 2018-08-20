@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS
 author: windows-driver-content
 description: Returns driver hints as to which video processor operations are best performed using multi-plane overlay hardware rather than VideoProcessorBlt. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videoprocessorgetbehaviorhints.htm
-tech.root: display
 ms.assetid: E6CBAFEE-9587-45D5-A6CD-4CA739AF279E
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

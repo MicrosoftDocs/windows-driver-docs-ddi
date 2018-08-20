@@ -4,7 +4,6 @@ title: PFND3D10DDI_QUERYBEGIN
 author: windows-driver-content
 description: The QueryBegin function marks the beginning of a sequence of graphics commands for a query and transitions the query to the &#0034;building&#0034; state.
 old-location: display\querybegin.htm
-tech.root: display
 ms.assetid: 2f0a7462-83a6-47df-b5f6-b3706b875349
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

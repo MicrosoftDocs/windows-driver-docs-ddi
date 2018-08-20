@@ -4,7 +4,6 @@ title: D3DKMTGetSharedPrimaryHandle function
 author: windows-driver-content
 description: The D3DKMTGetSharedPrimaryHandle function retrieves the global shared handle for the primary surface.
 old-location: display\d3dkmtgetsharedprimaryhandle.htm
-tech.root: display
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

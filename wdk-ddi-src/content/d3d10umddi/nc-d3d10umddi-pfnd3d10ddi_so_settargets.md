@@ -4,7 +4,6 @@ title: PFND3D10DDI_SO_SETTARGETS
 author: windows-driver-content
 description: The SoSetTargets function sets stream output target resources.
 old-location: display\sosettargets.htm
-tech.root: display
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

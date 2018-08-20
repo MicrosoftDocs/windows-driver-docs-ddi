@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENT_REDIRECTED"
 author: windows-driver-content
 description: Used to give information on the status of the present history token.
 old-location: display\d3dkmt-present-redirected.htm
-tech.root: display
 ms.assetid: a883d80a-0240-4a2a-b3d8-ca87080717ee
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENT_REDIRECTED
 ---
 

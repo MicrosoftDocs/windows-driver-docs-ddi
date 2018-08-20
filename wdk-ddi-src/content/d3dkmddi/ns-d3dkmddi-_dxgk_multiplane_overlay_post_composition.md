@@ -4,7 +4,7 @@ title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION"
 author: windows-driver-content
 description: Specifies information about any additional transforms that should occur after the planes are composed.
 old-location: display\dxgk_multiplane_overlay_post_composition.htm
-tech.root: display
+
 ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 ---
 

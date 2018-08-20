@@ -4,7 +4,6 @@ title: PFND3D10DDI_RESOURCECOPYREGION
 author: windows-driver-content
 description: The ResourceCopyRegion function copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion.htm
-tech.root: display
 ms.assetid: e782dc8c-e34e-4f96-b6d9-c34d7843ed05
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

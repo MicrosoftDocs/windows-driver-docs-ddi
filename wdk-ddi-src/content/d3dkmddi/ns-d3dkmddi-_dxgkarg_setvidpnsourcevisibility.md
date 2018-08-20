@@ -4,7 +4,6 @@ title: "_DXGKARG_SETVIDPNSOURCEVISIBILITY"
 author: windows-driver-content
 description: The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the DxgkDdiSetVidPnSourceVisibility function.
 old-location: display\dxgkarg_setvidpnsourcevisibility.htm
-tech.root: display
 ms.assetid: 073fbcc4-57d8-4709-9605-a3440b5e8e17
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETVIDPNSOURCEVISIBILITY
 ---
 

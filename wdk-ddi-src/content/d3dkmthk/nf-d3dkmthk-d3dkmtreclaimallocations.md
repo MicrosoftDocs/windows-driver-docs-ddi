@@ -4,7 +4,6 @@ title: D3DKMTReclaimAllocations function
 author: windows-driver-content
 description: Reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations.htm
-tech.root: display
 ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

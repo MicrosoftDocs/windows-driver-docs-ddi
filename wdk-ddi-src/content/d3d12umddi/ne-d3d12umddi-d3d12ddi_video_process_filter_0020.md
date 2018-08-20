@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_FILTER_0020
 author: windows-driver-content
 description: Contains video process filters.
 old-location: display\d3d12ddi_video_process_filter_0020.htm
-tech.root: display
 ms.assetid: A69E2A06-EA08-465C-A1E9-2D7FAB4E2F81
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_0020
 ---
 

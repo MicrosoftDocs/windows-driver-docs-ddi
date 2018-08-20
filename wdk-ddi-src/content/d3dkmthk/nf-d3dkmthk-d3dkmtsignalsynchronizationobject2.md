@@ -4,7 +4,6 @@ title: D3DKMTSignalSynchronizationObject2 function
 author: windows-driver-content
 description: The D3DKMTSignalSynchronizationObject2 function inserts a signal for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtsignalsynchronizationobject2.htm
-tech.root: display
 ms.assetid: 7a13d999-9caf-4750-beba-4e031cd0db81
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020
 author: windows-driver-content
 description: Information for the input stream rate to use for video processing in a pattern, such as deinterlacing or frame-rate conversion.
 old-location: display\d3d12ddi_video_process_input_stream_rate_info.htm
-tech.root: display
 ms.assetid: 3F92B206-BA05-4ECC-854B-8D1EA9D7FD19
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020
 ---
 

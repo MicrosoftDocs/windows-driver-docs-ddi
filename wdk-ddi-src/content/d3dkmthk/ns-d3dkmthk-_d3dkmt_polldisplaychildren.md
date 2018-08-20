@@ -4,7 +4,6 @@ title: "_D3DKMT_POLLDISPLAYCHILDREN"
 author: windows-driver-content
 description: The D3DKMT_POLLDISPLAYCHILDREN structure describes parameters for querying for connectivity status of all child devices of the given display adapter.
 old-location: display\d3dkmt_polldisplaychildren.htm
-tech.root: display
 ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_POLLDISPLAYCHILDREN
 ---
 

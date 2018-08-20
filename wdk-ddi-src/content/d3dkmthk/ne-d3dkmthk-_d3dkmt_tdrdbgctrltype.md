@@ -4,7 +4,6 @@ title: "_D3DKMT_TDRDBGCTRLTYPE"
 author: windows-driver-content
 description: The D3DKMT_TDRDBGCTRLTYPE enumeration type contains values that affect the behavior of the operating system's Timeout Detection and Recovery (TDR) process in a call to the OpenGL D3DKMTEscape function.
 old-location: display\d3dkmt_tdrdbgctrltype.htm
-tech.root: display
 ms.assetid: d3a6dfcc-e318-4fd0-85e0-5a0cc13fd00f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_TDRDBGCTRLTYPE
 ---
 

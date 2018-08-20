@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS
 author: windows-driver-content
 description: Contains swizzle pattern flag values.
 old-location: display\d3dwddm2_0ddi_swizzle_pattern_flags.htm
-tech.root: display
 ms.assetid: 4C3E818B-E265-4AB8-BAAF-D3155578E558
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_VIDSCHESCAPETYPE"
 author: windows-driver-content
 description: The D3DKMT_VIDMMESCAPETYPE enumeration is used with the D3DKMT_VIDSCH_ESCAPE structure.
 old-location: display\d3dkmt_vidschescapetype.htm
-tech.root: display
 ms.assetid: 8388A03F-995A-4A33-B541-4FF2422DEE83
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_VIDSCHESCAPETYPE
 ---
 

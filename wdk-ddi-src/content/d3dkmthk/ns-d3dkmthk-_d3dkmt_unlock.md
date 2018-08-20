@@ -4,7 +4,6 @@ title: "_D3DKMT_UNLOCK"
 author: windows-driver-content
 description: The D3DKMT_UNLOCK structure describes allocations to unlock.
 old-location: display\d3dkmt_unlock.htm
-tech.root: display
 ms.assetid: 397d2ab0-89a0-42a8-a665-ca7e1ed5d8f3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_UNLOCK
 ---
 

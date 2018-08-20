@@ -4,7 +4,6 @@ title: PFND3DKMT_CREATEKEYEDMUTEX2
 author: windows-driver-content
 description: Creates a keyed mutex object that includes private data.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
-tech.root: display
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

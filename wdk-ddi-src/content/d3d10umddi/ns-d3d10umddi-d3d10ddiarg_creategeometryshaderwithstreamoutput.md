@@ -4,7 +4,6 @@ title: D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 author: windows-driver-content
 description: The D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure describes the geometry shader with stream output to create.
 old-location: display\d3d10ddiarg_creategeometryshaderwithstreamoutput.htm
-tech.root: display
 ms.assetid: 172af07e-9cc7-48d1-900a-93f18bdc37a9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 ---
 

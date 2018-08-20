@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_TEXTFILTERSIZE_CB
 author: windows-driver-content
 description: The pfnStateTextFilterSizeCb function causes the Microsoft Direct3D 10 runtime to refresh the width and height of the monochrome convolution filter.
 old-location: display\pfnstatetextfiltersizecb.htm
-tech.root: display
 ms.assetid: f53f73bf-8297-4c56-81f9-443d10a6b701
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTOpenAdapterFromGdiDisplayName function
 author: windows-driver-content
 description: The D3DKMTOpenAdapterFromGdiDisplayName function maps a GDI device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromgdidisplayname.htm
-tech.root: display
 ms.assetid: 56656fc2-785c-4021-9864-e4c152551973
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

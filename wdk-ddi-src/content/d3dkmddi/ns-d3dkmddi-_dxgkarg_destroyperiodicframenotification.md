@@ -4,7 +4,6 @@ title: "_DXGKARG_DESTROYPERIODICFRAMENOTIFICATION"
 author: windows-driver-content
 description: The arguments used to destroy a periodic frame notification.
 old-location: display\dxgkarg_destroyperiodicframenotification.htm
-tech.root: display
 ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 ---
 

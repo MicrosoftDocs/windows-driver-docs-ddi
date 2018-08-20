@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATECOMMANDQUEUE_0023
 author: windows-driver-content
 description: Contains arguments used to create a command queue.
 old-location: display\d3d12ddiarg_createcommandqueue_0023.htm
-tech.root: display
 ms.assetid: F8194BA0-325F-48B8-994F-FA2EA80C70D9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATECOMMANDQUEUE_0023
 ---
 

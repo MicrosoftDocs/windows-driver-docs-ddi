@@ -4,7 +4,6 @@ title: D3DKMTCreateDevice function
 author: windows-driver-content
 description: The D3DKMTCreateDevice function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatedevice.htm
-tech.root: display
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

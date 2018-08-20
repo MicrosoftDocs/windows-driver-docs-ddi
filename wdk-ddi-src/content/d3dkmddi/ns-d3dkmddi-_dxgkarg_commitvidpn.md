@@ -4,7 +4,6 @@ title: "_DXGKARG_COMMITVIDPN"
 author: windows-driver-content
 description: The DXGKARG_COMMITVIDPN structure holds arguments for the DxgkDdiCommitVidPn function. The DxgkDdiCommitVidPn function makes a specified video present network (VidPN) active on a display adapter.
 old-location: display\dxgkarg_commitvidpn.htm
-tech.root: display
 ms.assetid: d297d917-fc49-454a-aacd-4db0ac7a09c2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_COMMITVIDPN
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTARGETMODESET_ADDMODE
 author: windows-driver-content
 description: The pfnAddMode function adds a VidPN target mode to a specified VidPN target mode set object.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnaddmode.htm
-tech.root: display
 ms.assetid: 96c14056-aa93-4164-8adf-31fa1b3d33d3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DKMT_OPENSYNCHRONIZATIONOBJECT structure describes a synchronization object that the D3DKMTOpenSynchronizationObject function opens.
 old-location: display\d3dkmt_opensynchronizationobject.htm
-tech.root: display
 ms.assetid: 58e71ce5-29d0-4ee2-8d91-02230021110d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENSYNCHRONIZATIONOBJECT
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_BLEND"
 author: windows-driver-content
 description: Identifies a blend operation to be performed on an overlay plane.
 old-location: display\dxgk_multiplane_overlay_blend.htm
-tech.root: display
 ms.assetid: e489919c-c0a7-4792-9758-ce7b587b13cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_BLEND
 ---
 

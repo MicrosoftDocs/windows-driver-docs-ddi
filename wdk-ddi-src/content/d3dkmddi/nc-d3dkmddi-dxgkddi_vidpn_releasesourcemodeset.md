@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPN_RELEASESOURCEMODESET
 author: windows-driver-content
 description: The pfnReleaseSourceModeSet function releases a handle to a source mode set object.
 old-location: display\dxgk_vidpn_interface_pfnreleasesourcemodeset.htm
-tech.root: display
 ms.assetid: f1ee8761-f36e-4a39-a78e-95975442f7d3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

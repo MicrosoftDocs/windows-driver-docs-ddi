@@ -4,7 +4,6 @@ title: D3DKMTChangeSurfacePointer function
 author: windows-driver-content
 description: The D3DKMTChangeSurfacePointer function is for system use only.
 old-location: display\d3dkmtchangesurfacepointer.htm
-tech.root: display
 ms.assetid: 3db4e04b-2707-4eb1-a249-2714304246a8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

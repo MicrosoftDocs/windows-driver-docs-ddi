@@ -4,7 +4,6 @@ title: DXGKDDI_CREATEPROTECTEDSESSION
 author: windows-driver-content
 description: Used to create a protected session.
 old-location: display\dxgkddi_createprotectedsession.htm
-tech.root: display
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

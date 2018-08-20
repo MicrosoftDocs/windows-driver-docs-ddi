@@ -4,7 +4,6 @@ title: PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS
 author: windows-driver-content
 description: The pfnRelocateDeviceFuncs callback function specifies the device functions table.
 old-location: display\pfnd3dwddm2_2ddi_relocatedevicefuncs.htm
-tech.root: display
 ms.assetid: EAABE65C-3893-4B4C-BB7E-A02F91F869BE
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

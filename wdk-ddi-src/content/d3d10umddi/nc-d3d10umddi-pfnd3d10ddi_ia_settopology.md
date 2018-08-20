@@ -4,7 +4,6 @@ title: PFND3D10DDI_IA_SETTOPOLOGY
 author: windows-driver-content
 description: The IaSetTopology function sets the primitive topology to enable drawing for the input assember.
 old-location: display\iasettopology.htm
-tech.root: display
 ms.assetid: c2ee9c8b-7e33-4fc9-9bd3-2b2984e94390
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

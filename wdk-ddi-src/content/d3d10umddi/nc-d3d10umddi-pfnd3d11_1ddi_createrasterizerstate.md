@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATERASTERIZERSTATE
 author: windows-driver-content
 description: Creates a rasterizer state.
 old-location: display\createrasterizerstate_d3d11_1_.htm
-tech.root: display
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

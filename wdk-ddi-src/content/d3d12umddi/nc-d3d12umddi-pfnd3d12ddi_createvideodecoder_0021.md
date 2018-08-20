@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATEVIDEODECODER_0021
 author: windows-driver-content
 description: The pfnCreateVideoDecoder callback function creates a video decoder.
 old-location: display\pfnd3d12ddi_createvideodecoder.htm
-tech.root: display
 ms.assetid: 5E0B6A5A-FA6E-4722-B442-FE74437224B3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

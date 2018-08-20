@@ -4,7 +4,6 @@ title: "_DXGKARG_SETVIDPNSOURCEADDRESS"
 author: windows-driver-content
 description: The DXGKARG_SETVIDPNSOURCEADDRESS structure contains arguments for the DxgkDdiSetVidPnSourceAddress function.
 old-location: display\dxgkarg_setvidpnsourceaddress.htm
-tech.root: display
 ms.assetid: b83736b6-17c5-43b8-9204-d165fe07853b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETVIDPNSOURCEADDRESS
 ---
 

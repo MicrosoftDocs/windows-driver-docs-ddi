@@ -4,7 +4,6 @@ title: DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
 author: windows-driver-content
 description: The DxgkDdiSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\dxgkddisetdisplayprivatedriverformat.htm
-tech.root: display
 ms.assetid: 053fdf22-20c3-4b57-94f4-0613857abfa7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

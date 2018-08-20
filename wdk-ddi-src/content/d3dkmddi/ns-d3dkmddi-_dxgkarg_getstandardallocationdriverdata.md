@@ -4,7 +4,6 @@ title: "_DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA"
 author: windows-driver-content
 description: The DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure describes a standard allocation type.
 old-location: display\dxgkarg_getstandardallocationdriverdata.htm
-tech.root: display
 ms.assetid: 4327ba59-bd74-4018-85d2-54a1693c62c1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA
 ---
 

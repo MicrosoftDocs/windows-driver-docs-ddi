@@ -4,7 +4,6 @@ title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the D3DKMTWaitForSynchronizationObject function waits for to occur.
 old-location: display\d3dkmt_waitforsynchronizationobject.htm
-tech.root: display
 ms.assetid: 47d0330e-5413-4729-b103-c1a4d6c648e1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 ---
 

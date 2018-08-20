@@ -4,7 +4,6 @@ title: D3DKMTWaitForSynchronizationObject2 function
 author: windows-driver-content
 description: The D3DKMTWaitForSynchronizationObject2 function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject2.htm
-tech.root: display
 ms.assetid: 692d3336-d9cd-438b-a52c-ae4c55070227
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

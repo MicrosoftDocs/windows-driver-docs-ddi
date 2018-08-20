@@ -4,7 +4,6 @@ title: "_DXGKARG_CREATEPROCESS"
 author: windows-driver-content
 description: DXGKARG_CREATEPROCESS is used with DxgkDdiCreateProcess to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 old-location: display\dxgkarg_createprocess.htm
-tech.root: display
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CREATEPROCESS
 ---
 

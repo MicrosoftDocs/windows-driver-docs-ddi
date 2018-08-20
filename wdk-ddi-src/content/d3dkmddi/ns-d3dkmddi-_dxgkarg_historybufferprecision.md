@@ -4,7 +4,6 @@ title: "_DXGKARG_HISTORYBUFFERPRECISION"
 author: windows-driver-content
 description: Indicates info about the precision of history buffer data used by the display miniport driver.
 old-location: display\dxgkarg_historybufferprecision.htm
-tech.root: display
 ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_HISTORYBUFFERPRECISION
 ---
 

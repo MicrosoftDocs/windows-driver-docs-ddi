@@ -35,6 +35,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure

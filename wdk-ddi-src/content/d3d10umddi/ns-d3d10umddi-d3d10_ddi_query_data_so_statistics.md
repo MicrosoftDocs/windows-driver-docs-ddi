@@ -4,7 +4,6 @@ title: D3D10_DDI_QUERY_DATA_SO_STATISTICS
 author: windows-driver-content
 description: The D3D10_DDI_QUERY_DATA_SO_STATISTICS structure describes stream output statistics that is used in a call to the CreateQuery(D3D10) function to create a D3D10DDI_QUERY_STREAMOUTPUTSTATS query type and in a call to the QueryGetData function to return information about the query.
 old-location: display\d3d10_ddi_query_data_so_statistics.htm
-tech.root: display
 ms.assetid: 641c8f8d-e398-4ca4-9e28-bba2ef7d1bd3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_QUERY_DATA_SO_STATISTICS
 ---
 

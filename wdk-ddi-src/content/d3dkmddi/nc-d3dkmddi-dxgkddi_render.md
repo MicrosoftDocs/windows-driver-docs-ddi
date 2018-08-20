@@ -4,7 +4,6 @@ title: DXGKDDI_RENDER
 author: windows-driver-content
 description: The DxgkDdiRender function generates a direct memory access (DMA) buffer from the command buffer that the user-mode display driver passed.
 old-location: display\dxgkddirender.htm
-tech.root: display
 ms.assetid: fd634768-5e1e-4f40-82fd-5ef69148c3d7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

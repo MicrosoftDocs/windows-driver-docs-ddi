@@ -4,7 +4,6 @@ title: "_D3DKMT_ADDSURFACETOSWAPCHAIN"
 author: windows-driver-content
 description: Used to add a surface to the swapchain.
 old-location: display\d3dkmt-addsurfacetoswapchain.htm
-tech.root: display
 ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_ADDSURFACETOSWAPCHAIN
 ---
 

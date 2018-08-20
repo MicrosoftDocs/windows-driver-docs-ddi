@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 author: windows-driver-content
 description: Specifies the alpha fill mode for video processing.
 old-location: display\d3d11_1ddi_video_processor_alpha_fill_mode.htm
-tech.root: display
 ms.assetid: 22b50f49-821a-407e-89c0-fe7d637664fa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 ---
 

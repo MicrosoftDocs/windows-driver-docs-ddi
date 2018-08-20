@@ -4,7 +4,6 @@ title: "_DXGKARG_MAPCPUHOSTAPERTURE"
 author: windows-driver-content
 description: The DXGKARG_MAPCPUHOSTAPERTURE structure is used to map an allocation, resident in a local memory segment, into the CPU host aperture in order to make it visible to the CPU.
 old-location: display\dxgkarg_mapcpuhostaperture.htm
-tech.root: display
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_MAPCPUHOSTAPERTURE
 ---
 

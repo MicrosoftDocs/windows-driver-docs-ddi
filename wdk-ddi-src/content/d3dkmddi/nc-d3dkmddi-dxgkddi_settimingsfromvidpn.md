@@ -4,7 +4,6 @@ title: DXGKDDI_SETTIMINGSFROMVIDPN
 author: windows-driver-content
 description: DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an adapter. This DDI replaces DxgkDdiCommitVidPn.
 old-location: display\dxgkddi_settimingsfromvidpn.htm
-tech.root: display
 ms.assetid: 7E991251-1738-41AD-83D6-60DD7E183D68
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

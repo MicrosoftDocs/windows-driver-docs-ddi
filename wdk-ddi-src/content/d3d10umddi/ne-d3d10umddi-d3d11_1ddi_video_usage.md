@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_USAGE
 author: windows-driver-content
 description: Identifies how the decode device plays video.
 old-location: display\d3d11_1ddi_video_usage.htm
-tech.root: display
 ms.assetid: f107b9a8-d124-4fc3-80b3-dd20a87f9a86
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_USAGE
 ---
 

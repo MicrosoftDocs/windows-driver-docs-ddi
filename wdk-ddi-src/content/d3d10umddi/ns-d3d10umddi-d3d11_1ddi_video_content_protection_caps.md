@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
 author: windows-driver-content
 description: Describes the content-protection capabilities of the user-mode display driver.
 old-location: display\d3d11_1ddi_video_content_protection_caps.htm
-tech.root: display
 ms.assetid: 31ff5dfc-72b1-4ce1-af83-cad3816a785c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
 ---
 

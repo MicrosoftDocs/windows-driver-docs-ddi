@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATEVIDEODECODERHEAP_0032
 author: windows-driver-content
 description: Used to create a video decoder heap.
 old-location: display\pfnd3d12ddi_createvideodecoderheap_0032.htm
-tech.root: display
 ms.assetid: EC383086-CE8F-4387-8F92-BEC8215A97DA
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_RELEASEKEYEDMUTEX"
 author: windows-driver-content
 description: The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the D3DKMTReleaseKeyedMutex function releases.
 old-location: display\d3dkmt_releasekeyedmutex.htm
-tech.root: display
 ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_RELEASEKEYEDMUTEX
 ---
 

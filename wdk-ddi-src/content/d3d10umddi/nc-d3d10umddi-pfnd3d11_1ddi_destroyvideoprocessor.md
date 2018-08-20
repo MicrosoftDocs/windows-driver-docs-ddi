@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOR
 author: windows-driver-content
 description: Releases resources for the video processor object that were created through a call to the CreateVideoProcessor function.
 old-location: display\destroyvideoprocessor1.htm
-tech.root: display
 ms.assetid: a04776ba-bc80-498e-b25d-511ecb03fb63
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

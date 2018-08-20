@@ -4,7 +4,6 @@ title: PFND3D11DDI_RECYCLECOMMANDLIST
 author: windows-driver-content
 description: The RecycleCommandList function recycles a command list.
 old-location: display\recyclecommandlist.htm
-tech.root: display
 ms.assetid: 4cff7f3d-ba13-4389-bafc-edffc0697ce9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

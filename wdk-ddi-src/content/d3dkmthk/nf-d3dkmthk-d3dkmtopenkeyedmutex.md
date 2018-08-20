@@ -4,7 +4,6 @@ title: D3DKMTOpenKeyedMutex function
 author: windows-driver-content
 description: The D3DKMTOpenKeyedMutex function opens a keyed mutex object.
 old-location: display\d3dkmtopenkeyedmutex.htm
-tech.root: display
 ms.assetid: 309a43bf-5fad-409f-83e6-e88361b03827
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

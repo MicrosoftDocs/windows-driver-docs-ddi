@@ -4,7 +4,6 @@ title: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 author: windows-driver-content
 description: Describes the video processor's input view.
 old-location: display\d3d11_1ddiarg_createvideoprocessorinputview.htm
-tech.root: display
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 ---
 

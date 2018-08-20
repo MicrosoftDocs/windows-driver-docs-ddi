@@ -4,7 +4,6 @@ title: "_D3DKMT_RENDERFLAGS"
 author: windows-driver-content
 description: The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the D3DKMTRender function.
 old-location: display\d3dkmt_renderflags.htm
-tech.root: display
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_RENDERFLAGS
 ---
 

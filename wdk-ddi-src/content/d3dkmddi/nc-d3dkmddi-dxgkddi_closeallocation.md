@@ -4,7 +4,6 @@ title: DXGKDDI_CLOSEALLOCATION
 author: windows-driver-content
 description: The DxgkDdiCloseAllocation function unbinds device-specific allocations that the DxgkDdiOpenAllocation function created.
 old-location: display\dxgkddicloseallocation.htm
-tech.root: display
 ms.assetid: f9c195d7-debe-495e-a355-e176d06884f8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

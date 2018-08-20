@@ -4,7 +4,6 @@ title: DXGKDDI_ISSUPPORTEDVIDPN
 author: windows-driver-content
 description: The DxgkDdiIsSupportedVidPn function determines whether a specified VidPN is supported on a display adapter.
 old-location: display\dxgkddiissupportedvidpn.htm
-tech.root: display
 ms.assetid: 96e96366-6306-4d20-8752-e942f2ed4069
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

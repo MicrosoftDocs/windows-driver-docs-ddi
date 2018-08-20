@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEDEVICE
 author: windows-driver-content
 description: The CreateDevice(D3D10) function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice_d3d10_.htm
-tech.root: display
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

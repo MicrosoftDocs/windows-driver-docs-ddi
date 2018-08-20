@@ -4,7 +4,6 @@ title: PFND3D11DDI_STATE_DS_SAMPLER_CB
 author: windows-driver-content
 description: The pfnStateDsSamplerCb function causes the Microsoft Direct3D 11 runtime to refresh the domain shader sample state.
 old-location: display\pfnstatedssamplercb.htm
-tech.root: display
 ms.assetid: 975da57f-c859-46b0-b98f-400aaf99098d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

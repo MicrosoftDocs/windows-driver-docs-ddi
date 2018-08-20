@@ -23,17 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_INFO
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	_D3DDDI_QUERYREGISTRY_INFO
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DDDI_QUERYREGISTRY_INFO structure

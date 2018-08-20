@@ -4,7 +4,6 @@ title: PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
 author: windows-driver-content
 description: Destroys an unordered access view.
 old-location: display\destroyunorderedaccessview.htm
-tech.root: display
 ms.assetid: 1bce3519-f333-4b47-b29b-bde1b5c3005c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

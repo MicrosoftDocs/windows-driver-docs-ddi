@@ -4,7 +4,6 @@ title: DXGKDDI_UPDATEOVERLAY
 author: windows-driver-content
 description: The DxgkDdiUpdateOverlay function modifies the overlay hardware.
 old-location: display\dxgkddiupdateoverlay.htm
-tech.root: display
 ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

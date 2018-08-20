@@ -4,7 +4,6 @@ title: PFND3D12DDI_SETVIEWINSTANCEMASK_0033
 author: windows-driver-content
 description: Used to set a view instance mask.
 old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
-tech.root: display
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

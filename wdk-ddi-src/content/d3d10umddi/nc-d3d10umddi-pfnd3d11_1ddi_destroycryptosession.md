@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_DESTROYCRYPTOSESSION
 author: windows-driver-content
 description: Releases resources for the cryptographic session that were created through a call to the CreateCryptoSession function.
 old-location: display\destroycryptosession1.htm
-tech.root: display
 ms.assetid: 067eeba4-2914-4616-98c8-f163cbe5fae2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

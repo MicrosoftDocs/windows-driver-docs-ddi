@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING
 author: windows-driver-content
 description: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING describes the details of a video decoder downsampling operation.
 old-location: display\d3dwddm2_0ddi_video_capability_decoder_downsampling.htm
-tech.root: display
 ms.assetid: 8D12F2AC-2A64-4FEF-813C-15899FBCA108
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING
 ---
 
