@@ -87,7 +87,7 @@ Client drivers will not receive calls to [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpack
 
 When a queue starts, NetAdapterCx guarantees that **BeginIndex** == **NextIndex** == **0** for all of this queue's ring buffers. After start, the framework does not read or write **NextIndex** for packet ring buffers, so client drivers can either use it as needed or choose not to use it at all. **BeginIndex** is read by the framework but is not modified outside of *EvtPacketQueueStart*.
 
-For more info and a diagram showing the NetAdapterCx data path polling model, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
+For more info and a diagram showing the NetAdapterCx data path polling model, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 ## -see-also
 

@@ -91,7 +91,7 @@ In your *EVT_PACKET_CANCEL* callback function for a transmit queue, you have an 
 
 If your hardware supports cancelling in-flight transmits, you should also advance the ring buffer's **BeginIndex** past all cancelled packets. If your hardware does not support cancellation, this callback can return without taking action.
 
-For more info about ring buffer usage, see [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) and [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
+For more info about ring buffer usage, see [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) and [Using the ring buffer](https://docs.microsoft.com/windows-hardware/drivers/netcx/using-the-ring-buffer).
 
 ### Receive queue remarks and example
 
