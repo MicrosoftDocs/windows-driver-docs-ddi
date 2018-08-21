@@ -7,7 +7,7 @@ old-location: print\wcsdisassociatecolorprofilefromdevice.htm
 tech.root: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 8/20/2018
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: icm.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -72,14 +72,15 @@ A pointer to the file name of the profile to disassociate.
 
 A pointer to the name of the device from which the profile is to be disassociated.
 
+The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_display_devicea)
+
 
 #### - profileManagementScope [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
 
 
 ## -remarks
-
 
 
 The WCS color profile should be installed on the system and must have been associated with the device using the same value for the <i>profileManagementScope</i> parameter.
@@ -92,16 +93,6 @@ If your application disassociates all profiles from a device, WCS uses the sRGB 
 
 This function is executable in Least-Privileged User Account (LUA) context if <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER. Otherwise, administrative privileges are required..
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563709">WcsAssociateColorProfileWithDevice</a>
-Â
-
-Â
-
+[WcsAssociateColorProfileWithDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsassociatecolorprofilewithdevice)
