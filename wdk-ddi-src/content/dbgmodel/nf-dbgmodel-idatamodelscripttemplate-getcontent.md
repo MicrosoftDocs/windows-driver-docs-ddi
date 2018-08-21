@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 6c374069-2f98-4283-a01f-b65bcab8cd3a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplate::GetContent, GetContent, IDataModelScriptTemplate.GetContent, IDataModelScriptTemplate::GetContent, IDataModelScriptTemplate.GetContent
 req.header: dbgmodel.h
@@ -44,15 +44,20 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetContent method returns the content (or code) of the template. This is what would be pre-filled into the edit window if a user elected to create a new script from this template. The template is responsible for creating (and returning) a standard stream over the content that the client can pull. 
 
 ## -parameters
 
 ### -param contentStream
 
+A newly created standard stream over the content (code) for the template. This stream may be backed by memory, a file, or whatever the implementation wishes.
+
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptTemplate interface](nn-dbgmodel-idatamodelscripttemplate.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: cabb3bfa-e704-4209-82a3-7334f950fb34
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::SetEventFilter, SetEventFilter, IDataModelScriptDebug2.SetEventFilter, IDataModelScriptDebug2::SetEventFilter, IDataModelScriptDebug2.SetEventFilter
 req.header: dbgmodel.h
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)

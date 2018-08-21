@@ -4,8 +4,7 @@ title: IDataModelScriptTemplateEnumerator::QueryInterface
 author: windows-driver-content
 description: TBD
 ms.assetid: 852b4d18-b2e3-4151-99ba-b5705063ebbb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplateEnumerator::QueryInterface, QueryInterface, IDataModelScriptTemplateEnumerator.QueryInterface, IDataModelScriptTemplateEnumerator::QueryInterface, IDataModelScriptTemplateEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -58,3 +57,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptTemplateEnumerator interface](nn-dbgmodel-idatamodelscripttemplateenumerator.md)

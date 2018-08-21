@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c69d8e7c-af0b-42e8-be21-208298bd0213
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::AddRef, AddRef, IDataModelScriptDebug2.AddRef, IDataModelScriptDebug2::AddRef, IDataModelScriptDebug2.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)

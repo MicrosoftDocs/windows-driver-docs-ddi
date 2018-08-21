@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2cebdd6c-9883-492a-881d-f3b9175804f2
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::StartDebugging, StartDebugging, IDataModelScriptDebug2.StartDebugging, IDataModelScriptDebug2::StartDebugging, IDataModelScriptDebug2.StartDebugging
 req.header: dbgmodel.h
@@ -56,3 +56,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)

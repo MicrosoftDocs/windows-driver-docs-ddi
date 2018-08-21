@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9b4c5b34-ce0f-49dc-b53b-1d24e48a1c6b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::EnumerateBreakpoints, EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints, IDataModelScriptDebug::EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints
 req.header: dbgmodel.h
@@ -44,15 +44,20 @@ targetos: Windows
 
 ## -description
 
-TBD
+The EnumerateBreakpoints method returns an enumerator capable of enumerating every breakpoint which is set within a particular script. 
+
+As long as the script debugger is enabled via a call to the StartDebugging method, it is legal to call this method. 
+
 
 ## -parameters
 
 ### -param breakpointEnum
-
+An enumerator which enumerates every breakpoint which is set within the script (whether enabled or disabled) must be returned here.
 
 ## -returns
 This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)

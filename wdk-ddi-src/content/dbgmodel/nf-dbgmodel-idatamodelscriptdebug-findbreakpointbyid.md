@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 138bcb48-3c97-4633-9922-75d37e774027
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug.FindBreakpointById, IDataModelScriptDebug::FindBreakpointById, IDataModelScriptDebug.FindBreakpointById
 req.header: dbgmodel.h
@@ -44,13 +44,17 @@ targetos: Windows
 
 ## -description
 
-TBD
+Each breakpoint which is created within the script via the SetBreakpoint method is assigned a unique identifier (a 64-bit unsigned integer) by the implementation. The FindBreakpointById method is used to get an interface to the breakpoint from a given identifier. 
+
+As long as the script debugger is enabled via a call to the StartDebugging method, it is legal to call this method. 
 
 ## -parameters
 
 ### -param breakpointId
+The unique id of the breakpoint being retrieved.
 
 ### -param breakpoint
+An interface to the found breakpoint is returned here. If the breakpoint cannot be found, an error is returned.
 
 
 ## -returns
@@ -58,3 +62,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)
