@@ -3,7 +3,7 @@ UID: TP:netvista
 author: windows-driver-content
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowsdriverdev
-ms.date: 05/09/18
+ms.date: 08/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,6 +28,10 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [fwpmk.h](..\fwpmk\index.md)
  * [fwpsk.h](..\fwpsk\index.md)
  * [knetpwrdepbroker.h](..\knetpwrdepbroker\index.md)
+ * [mbbcx.h](../mbbcx/index.md)
+ * [mbbcxtypes.h](../mbbcxtypes/index.md)
+ * [mbbfuncenum.h](../mbbfuncenum/index.md)
+ * [mf.h](..\mf\index.md)
  * [ndis.h](..\ndis\index.md)
  * [ndischimney.h](..\ndischimney\index.md)
  * [ndisndk.h](..\ndisndk\index.md)
@@ -38,9 +42,11 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [netadapterpacket.h](..\netadapterpacket\index.md)
  * [netconfiguration.h](..\netconfiguration\index.md)
  * [netdatapathdescriptor.h](..\netdatapathdescriptor\index.md)
+ * [netdevice.h](../netdevice/index.md)
  * [netdma.h](..\netdma\index.md)
  * [netioddk.h](..\netioddk\index.md)
  * [netpacket.h](..\netpacket\index.md)
+ * [netpacketqueue.h](../netpacketqueue/index.md)
  * [netpnp.h](..\netpnp\index.md)
  * [netpowersettings.h](..\netpowersettings\index.md)
  * [netreceivescaling.h](..\netreceivescaling\index.md)
@@ -71,7 +77,7 @@ The following sections contain information for each area of network driver techn
 
 Starting in Windows 10, version 1703, the Windows Driver Kit (WDK) includes a class extension module (NetAdapterCx) that enables you to write a KMDF-based networking (NDIS) client driver for Network Interface Cards (NICs). The client driver interacts with NetAdapterCx, which acts as a bridge to traditional NDIS. 
 
-For more info, see [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/).
+For more info about NetAdapterCx, see [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/).
 
 Header files that support NetAdapterCx include the following:
 
@@ -145,6 +151,17 @@ Header files that support wireless networking include the following:
 - [Wlantypes.h](../wlantypes/index.md)
 - [Wlclient.h](../wlclient/index.md)
 - [Wwan.h](../wwan/index.md)
+
+## MBBCx
+
+Starting in Windows 10, version 1809, the Windows Driver Kit (WDK) includes a class extension module (MBBCx) that enables you to write a KMDF-based mobile broadband (MBB) client driver for MBB devices. The client driver interacts with MBBCx for mobile broadband media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
+
+For more info about MBBCx, see [Mobile Broadband (MBB) WDF class extension](https://docs.microsoft.com/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
+
+Header files that support MBBCx include the following:
+
+- [Mbbcx.h](../mbbcx/index.md)
+- [Mbbcxtypes.h](../mbbcxtypes/index.md)
 
 ## Network Module Registrar
 

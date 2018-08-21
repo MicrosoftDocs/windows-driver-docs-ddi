@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure describes a net adapter's receive side scaling (RSS) capabilities.
 ms.assetid: d6076d3f-2f62-4b81-88b1-801e1612a28c
 ms.author: windowsdriverdev
-ms.date: 03/08/2018
+ms.date: 07/13/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.25
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -42,7 +42,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES** structure describes a net adapter's receive side scaling (RSS) capabilities.
 
@@ -57,15 +57,20 @@ The number of hardware receive queues. This member must be a power of 2.
 ### -field IndirectionTableSize
 The number of indirection table entries. This member must be a power of 2.
 
-### -field UnhashedTarget
+### -field UnhashedTargetIndex
 The default destination for frames to which no hash is applied. The value of this member depends on the value of the **UnhashedTargetType** member:
 
 - If **UnhashedTargetType** is set to **NetAdapterReceiveScalingUnhashedTargetTypeUnspecified**, **UnhashedTarget** is ignored.
 - If **UnhashedTargetType** is set to **NetAdapterReceiveScalingUnhashedTargetTypeHashIndex**, **UnhashedTarget** specifies a hash index in the indirection table.
-- If **UnhashedTargetType** is set to **NetAdapterReceiveScalingUnhashedTargetTypeQueue**, **UnhashedTarget** specifies a queue ID.
+
+This member must be **N**, where `0 <= N < IndirectionTableSize`.
 
 ### -field UnhashedTargetType
-A [NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE](ne-netreceivescaling-_net_adapter_receive_scaling_unhashed_target_type.md) value that indicates the type of handling for unhashed frames. If this member is set to **NetAdapterReceiveScalingUnhashedTargetTypeUnspecified**, then **UnhashedTarget** is ignored.
+A [NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE](ne-netreceivescaling-_net_adapter_receive_scaling_unhashed_target_type.md) value that indicates the type of handling for unhashed frames. 
+
+If this member is set to **NetAdapterReceiveScalingUnhashedTargetTypeUnspecified**, then **UnhashedTargetIndex** is ignored and defaults to **0**. 
+
+If this member is set to **NetAdapterReceiveScalingUnhashedTargetTypeHashIndex**, then **UnhashedTargetIndex** indicates the target hash value.
 
 ### -field ReceiveScalingHashTypes
 A [NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE](ne-netreceivescaling-_net_adapter_receive_scaling_hash_type.md) value that indicates supported hash function types for calculating hash values.

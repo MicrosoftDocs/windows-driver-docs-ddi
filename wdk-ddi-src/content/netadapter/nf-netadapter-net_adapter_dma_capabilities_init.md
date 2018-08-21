@@ -46,9 +46,9 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
-The **NET_ADAPTER_DMA_CAPABILITIES_INIT** method initializes a [NET_ADAPTER_DMA_CAPABILITIES](ns-netadapter-_net_adapter_dma_capabilities.md) structure.
+The **NET_ADAPTER_DMA_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_DMA_CAPABILITIES**](ns-netadapter-_net_adapter_dma_capabilities.md) structure.
 
 ## -parameters
 
@@ -56,14 +56,13 @@ The **NET_ADAPTER_DMA_CAPABILITIES_INIT** method initializes a [NET_ADAPTER_DMA_
 A pointer to the driver-allocated **NET_ADAPTER_DMA_CAPABILITIES** structure to be initialized.
 
 ### -param DmaEnabler
-A DMA enabler object the client driver obtained in a previous call to [WdfDmaEnablerCreate](../wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate.md).
+A DMA enabler object the client driver obtained in a previous call to [**WdfDmaEnablerCreate**](../wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate.md).
 
 ## -returns
 This method does not return a value.
 
 ## -remarks
-The client driver typically calls this method from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function when setting capabilities for its data path.
 
-
+The client driver typically calls this method while setting capabilities for its data path, when it is starting a net adapter but before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also

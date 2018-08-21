@@ -46,7 +46,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The NetRingBufferReturnAllPackets method returns all packets in a datapath queue's packet ring buffer.
 
@@ -61,7 +61,7 @@ This method does not return a value.
 ## -remarks
 Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor structure for the queue with which you're working.
 
-This method is a convenience function to return all outstanding packets. Typically, you would call this method from your *[EvtRxQueueCancel](../netrxqueue/nc-netrxqueue-evt_rxqueue_cancel.md)* callback function.
+This method is a convenience function to return all outstanding packets. Typically, you would call this method from your [*EvtPacketQueueCancel*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel.md) callback function for a receive queue.
 
 
 

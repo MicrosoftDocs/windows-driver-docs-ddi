@@ -6,7 +6,6 @@
 ### [NetPacketGetPacketReceiveSegmentCoalescence function](../netpacket/nf-netpacket-netpacketgetpacketreceivesegmentcoalescence.md)
 ### [NetPacketIsIpv4 function](../netpacket/nf-netpacket-netpacketisipv4.md)
 ### [NetPacketIsIpv6 function](../netpacket/nf-netpacket-netpacketisipv6.md)
-### [NET_PACKET_GET_FRAGMENT_VALID macro](../netpacket/nf-netpacket-net_packet_get_fragment_valid.md)
 ### [_NET_PACKET structure](../netpacket/ns-netpacket-_net_packet.md)
 ### [_NET_PACKET_CHECKSUM structure](../netpacket/ns-netpacket-_net_packet_checksum.md)
 ### [_NET_PACKET_FRAGMENT structure](../netpacket/ns-netpacket-_net_packet_fragment.md)
