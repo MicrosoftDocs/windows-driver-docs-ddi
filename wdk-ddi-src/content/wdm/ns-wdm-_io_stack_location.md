@@ -308,7 +308,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.Create
-
+System service parameters for **NtCreateFile**.
 
 ### -field Parameters.Create.SecurityContext
 
@@ -336,7 +336,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.CreatePipe
-
+ System service parameters fo **NtCreateNamedPipeFile**.
 
 ### -field Parameters.CreatePipe.SecurityContext
 
@@ -365,6 +365,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ### -field Parameters.CreateMailslot
 
+System service parameters for  **NtCreateMailslotFile**
 
 ### -field Parameters.CreateMailslot.SecurityContext
 
@@ -392,7 +393,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.Read
-
+ System service parameters for **NtReadFile**.
 
 ### -field Parameters.Read.Length
 
@@ -411,7 +412,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.Write
-
+System service parameters for **NtWriteFile**.
 
 ### -field Parameters.Write.Length
 
@@ -430,7 +431,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryDirectory
-
+System service parameters for **NtQueryDirectoryFile**.
 
 ### -field Parameters.QueryDirectory.Length
 
@@ -453,6 +454,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.NotifyDirectory
+System service parameters for **NtNotifyChangeDirectoryFile**.
 
 
 ### -field Parameters.NotifyDirectory.Length
@@ -466,6 +468,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.NotifyDirectoryEx
+System service parameters for **NtNotifyChangeDirectoryFileEx**.
 
  
 
@@ -486,7 +489,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryFile
-
+System service parameters for **NtQueryInformationFile**.
 
 ### -field Parameters.QueryFile.Length
 
@@ -499,7 +502,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetFile
-
+System service parameters for **NtSetInformationFile**.
 
 ### -field Parameters.SetFile.Length
 
@@ -529,7 +532,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryEa
-
+System service parameters for **NtQueryEaFile**.
 
 ### -field Parameters.QueryEa.Length
 
@@ -552,7 +555,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetEa
-
+System service parameters for **NtSetEaFile**.
 
 ### -field Parameters.SetEa.Length
 
@@ -560,7 +563,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryVolume
-
+System service parameters for **NtQueryVolumeInformationFile**.
 
 ### -field Parameters.QueryVolume.Length
 
@@ -573,6 +576,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetVolume
+System service parameters for **NtSetVolumeInformationFile**.
 
 
 ### -field Parameters.SetVolume.Length
@@ -586,6 +590,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.FileSystemControl
+System service parameters for **NtFsControlFile**.
 
 
 ### -field Parameters.FileSystemControl.OutputBufferLength
@@ -609,7 +614,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.LockControl
-
+System service parameters for **LockFile/NtUnlockFile**.
 
 ### -field Parameters.LockControl.Length
 
@@ -627,7 +632,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.DeviceIoControl
-
+System service parameters for **NtDeviceIoControlFile**.
 
 ### -field Parameters.DeviceIoControl.OutputBufferLength
 
@@ -650,6 +655,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QuerySecurity
+System service parameters for **NtQuerySecurityObject**.
 
 
 ### -field Parameters.QuerySecurity.SecurityInformation
@@ -663,7 +669,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetSecurity
-
+System service parameters for **NtSetSecurityObject**.
 
 ### -field Parameters.SetSecurity.SecurityInformation
 
@@ -676,6 +682,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.MountVolume
+System service parameters for **MountVolume**.
 
 
 ### -field Parameters.MountVolume.Vpb
@@ -689,6 +696,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.VerifyVolume
+System service parameters for **VerifyVolume**.
 
 
 ### -field Parameters.VerifyVolume.Vpb
@@ -702,6 +710,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.Scsi
+Parameters for Scsi with internal device control.
 
 
 ### -field Parameters.Scsi.Srb
@@ -710,7 +719,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryQuota
-
+System service parameters for **NtSetQuotaInformationFile**.
 
 ### -field Parameters.QueryQuota.Length
 
@@ -733,7 +742,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetQuota
-
+System service parameters for **NtSetQuotaInformationFile**.
 
 ### -field Parameters.SetQuota.Length
 
@@ -741,7 +750,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryDeviceRelations
-
+Parameters for IRP_MN_QUERY_DEVICE_RELATIONS.
 
 ### -field Parameters.QueryDeviceRelations.Type
 
@@ -749,7 +758,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryInterface
-
+Parameters for IRP_MN_QUERY_INTERFACE.
 
 ### -field Parameters.QueryInterface.InterfaceType
 
@@ -777,7 +786,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.DeviceCapabilities
-
+Parameters for IRP_MN_QUERY_CAPABILITIES.
 
 ### -field Parameters.DeviceCapabilities.Capabilities
 
@@ -785,7 +794,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.FilterResourceRequirements
-
+Parameters for IRP_MN_FILTER_RESOURCE_REQUIREMENTS.
 
 ### -field Parameters.FilterResourceRequirements.IoResourceRequirementList
 
@@ -793,7 +802,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.ReadWriteConfig
-
+Parameters for IRP_MN_READ_CONFIG and IRP_MN_WRITE_CONFIG.
 
 ### -field Parameters.ReadWriteConfig.WhichSpace
 
@@ -816,7 +825,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetLock
-
+Parameters for IRP_MN_SET_LOCK.
 
 ### -field Parameters.SetLock.Lock
 
@@ -824,7 +833,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryId
-
+Parameters for IRP_MN_QUERY_ID.
 
 ### -field Parameters.QueryId.IdType
 
@@ -832,7 +841,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.QueryDeviceText
-
+Parameters for IRP_MN_QUERY_DEVICE_TEXT.
 
 ### -field Parameters.QueryDeviceText.DeviceTextType
 
@@ -845,7 +854,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.UsageNotification
-
+Parameters for IRP_MN_DEVICE_USAGE_NOTIFICATION.
 
 ### -field Parameters.UsageNotification.InPath
 
@@ -863,7 +872,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.WaitWake
-
+Parameters for IRP_MN_WAIT_WAKE.
 
 ### -field Parameters.WaitWake.PowerState
 
@@ -871,7 +880,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.PowerSequence
-
+Parameter for IRP_MN_POWER_SEQUENCE.
 
 ### -field Parameters.PowerSequence.PowerSequence
 
@@ -882,7 +891,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.Power
-
+Parameters for IRP_MN_SET_POWER and IRP_MN_QUERY_POWER.
 
 ### -field Parameters.Power.SystemContext
 
@@ -903,7 +912,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.StartDevice
-
+ Parameters for StartDevice.
 
 ### -field Parameters.StartDevice.AllocatedResources
 
@@ -916,7 +925,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.WMI
-
+ Parameters for WMI IRPs.
 
 ### -field Parameters.WMI.ProviderId
 
@@ -939,7 +948,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.Others
-
+Parameters for other driver-specific operations.
 
 ### -field Parameters.Others.Argument1
 
@@ -972,10 +981,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 ### -field CompletionRoutine
-
+The completion routines that is invoked depending on the flags in the preceding flags field.
 
 ### -field Context
-
+Driver-defined context that is used to store the address of the context parameter that is passed to the CompletionRoutine.
 
 ## -remarks
 

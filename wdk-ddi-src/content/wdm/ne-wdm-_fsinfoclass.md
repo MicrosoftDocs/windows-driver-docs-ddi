@@ -126,5 +126,5 @@ Returns a [**FILE_FS_FULL_SIZE_INFORMATION_EX**](../ntddk/ns-ntddk-_file_fs_full
 
 ### -field FileFsMaximumInformation
 
-
+End of this enumeration.
 
