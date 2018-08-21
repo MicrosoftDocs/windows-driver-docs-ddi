@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 62471d06-62bf-4dd7-a132-0305c629a6c6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProvider::GetDefaultTemplateContent, GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent, IDataModelScriptProvider::GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent
 req.header: dbgmodel.h
@@ -44,15 +44,22 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetDefaultTemplateContent method returns an interface for the default template content of the provider. This is content that the script provider would like pre-populated in an edit window for a newly created script. If the script provider has no templates (or has no template content which is designated as the default content), the script provider may return E_NOTIMPL from this method. 
 
 ## -parameters
 
 ### -param templateContent
 
+The default template content for the script provider is returned here as a component implementing the IDataModelScriptTemplate interface.
+
 
 ## -returns
-This method returns HRESULT.
+
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
 ## -see-also
+
+[IDataModelScriptProvider interface](nn-dbgmodel-idatamodelscriptprovider.md)

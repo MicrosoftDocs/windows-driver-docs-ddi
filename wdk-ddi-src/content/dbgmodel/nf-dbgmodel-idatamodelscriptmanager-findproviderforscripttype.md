@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e71aa49e-bb3d-4faf-a455-139888ff6e55
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018 
 ms.topic: method
 ms.keywords: IDataModelScriptManager::FindProviderForScriptType, FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType, IDataModelScriptManager::FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType
 req.header: dbgmodel.h
@@ -44,17 +44,22 @@ targetos: Windows
 
 ## -description
 
-TBD
+The FindProviderForScriptExtension method searches the script manager for a provider which has claims to support a given file extension as indicated by the scriptExtension argument. If one cannot be found, this method will fail; otherwise, such script provider will be returned to the caller. 
 
 ## -parameters
 
 ### -param scriptType
+A string which describes the type of script being searched for (e.g.: JavaScript)
 
 ### -param provider
+If a provider can be found which supports the type of script given by the scriptType argument, it will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptManager interface](nn-dbgmodel-idatamodelscriptmanager.md)

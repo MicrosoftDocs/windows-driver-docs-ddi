@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 737177da-1933-41fb-8b74-0a60a4306d2f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptManager::GetDefaultNameBinder, GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder, IDataModelScriptManager::GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder
 req.header: dbgmodel.h
@@ -44,15 +44,20 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetDefaultNameBinder method returns the data model's default script name binder. A name binder is a component which resolves a name within the context of an object. For instance, given the expression "foo.bar", a name binder is called upon to resolve the name bar in the context of object foo. The binder returned here follows a set of default rules for the data model. Script providers can use this binder to provide consistency in name resolution across providers. 
 
 ## -parameters
 
 ### -param ppNameBinder
+The default name binder will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
 ## -see-also
+
+[IDataModelScriptManager interface](nn-dbgmodel-idatamodelscriptmanager.md)
