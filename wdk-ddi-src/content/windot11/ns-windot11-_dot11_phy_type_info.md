@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_PHY_TYPE_INFO structure

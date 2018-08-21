@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_WFD_DISCOVER_DEVICE_FILTER, *PDOT11_WFD_DISCOVER_DEVICE_FILTER
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_WFD_DISCOVER_DEVICE_FILTER structure

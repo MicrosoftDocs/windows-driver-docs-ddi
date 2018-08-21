@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_WPS_CONFIG_METHOD, *PDOT11_WPS_CONFIG_METHOD
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_WPS_CONFIG_METHOD enumeration

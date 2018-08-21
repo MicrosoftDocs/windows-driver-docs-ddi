@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_PRIVACY_EXEMPTION structure

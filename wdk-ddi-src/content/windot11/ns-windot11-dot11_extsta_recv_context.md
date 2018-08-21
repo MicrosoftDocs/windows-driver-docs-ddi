@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, *PDOT11_EXTAP_RECV_CONTEXT
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_RECV_CONTEXT structure

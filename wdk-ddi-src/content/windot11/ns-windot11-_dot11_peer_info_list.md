@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_PEER_INFO_LIST, *PDOT11_PEER_INFO_LIST
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_PEER_INFO_LIST structure

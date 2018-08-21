@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_KEY_ALGO_CCMP structure
