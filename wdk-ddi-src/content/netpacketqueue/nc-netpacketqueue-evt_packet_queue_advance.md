@@ -197,19 +197,6 @@ In this callback function, the client driver typically performs the following st
 		}
 	```
 
-For OS-allocated and attached receive buffers, client drivers must perform these actions:
-
-- Client drivers must not modify the **VirtualAddress** of any fragment and should treat it as read-only.
-- Client drivers must set the **Offset** field of the fragment.
-- Client drivers must set the **ValidLength** field of the fragment.
-- Client drivers should check to that **ValidLength** \<= **Capacity**.
-
-The purpose of the **Offset** field in each fragment is to reserve space for upper layers such as filter or protocol drivers. For example, this permits an upper layer component that might want to encap this packet to do so in-place. 
-
-The framework ensures that the total size of each fragment buffer meets both the requirements of client drivers and of upper layers. For example, if a client driver's device has a maximum transmission unit (MTU) size of 1500 bytes and it needs 32 additional bytes per buffer for metadata, the client driver should report 1532 as the **MaximumFragmentBufferSize**. Then, because the `TCPIP.sys` upper layer protocol driver requires 8 bytes of header room per packet, the framework allocates 1540 bytes per receive buffer (1532 + 8). Client drivers should receive into the base address of the fragment + 8 (the extra offset for TCPIP), then process the 32 bytes of metadata that is meaningful to them. Finally, before indicating the packet up the stack, client drivers should update the **Offset** to be 40 (8 + 32), which is where the actual IP packet starts.
-
-For more information and diagrams about packet and fragment descriptors, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
-
 ## -see-also
 
 [*EVT_NET_ADAPTER_CREATE_RXQUEUE*](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)
