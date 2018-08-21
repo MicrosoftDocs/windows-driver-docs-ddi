@@ -45,14 +45,17 @@ targetos: Windows
 ### -field DUMMYSTRUCTNAME
  
 ### -field DUMMYSTRUCTNAME.Type
+A [**MEM_EXTENDED_PARAMETER_TYPE**](ne-wdm-mem_extended_parameter_type.md) value that indicates the type of parameter.
  
 ### -field DUMMYSTRUCTNAME.Reserved
+Reserved.
  
 ### -field DUMMYUNIONNAME
  
 ### -field DUMMYUNIONNAME.ULong64
  
 ### -field DUMMYUNIONNAME.Pointer
+A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](ns-wdm-_mem_address_requirements.md) structure that specifies, the lowest and highest base address and alignment.
  
 ### -field DUMMYUNIONNAME.Size
  

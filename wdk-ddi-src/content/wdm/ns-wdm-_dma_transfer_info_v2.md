@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 ms.assetid: b6466a0d-273f-4bc0-a4fe-f79fcb4ba5b6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
