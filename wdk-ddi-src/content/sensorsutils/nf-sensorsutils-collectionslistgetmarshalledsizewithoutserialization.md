@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.CollectionsListGetMarshalledSizeWithoutSerialization
 title: CollectionsListGetMarshalledSizeWithoutSerialization function
 author: windows-driver-content
-description: Coming soon.
+description: Returns the size of the entire collection list, including size of memories blocks that are pointed by embedded pointers.
 ms.assetid: 4e1ee557-8daa-41a4-8cf7-c4bd876d8fca
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.topic: function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,15 +48,18 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine returns the size of the entire collection list, including size of memories blocks that are pointed by embedded pointers.
 
 ## -parameters
 
 ### -param Collection
-Coming soon.
+
+[in] Pointer to a sensor collection list.
 
 ## -returns
-This function returns ULONG.
+
+This function returns a ULONG that represents the size of the data.
+
 ## -remarks
 
 ## -see-also

@@ -4,7 +4,6 @@ title: "_DXGK_PATH_UPDATE"
 author: windows-driver-content
 description: Enum which indicates how this path has been modified since the previous successful call to SetTimingsFromVidPn.
 old-location: display\dxgk_path_update.htm
-tech.root: display
 ms.assetid: DCBBFBF7-73B2-4298-BB87-83E1C6D76BD0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PATH_UPDATE
 ---
 

@@ -23,17 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure

@@ -4,7 +4,6 @@ title: "_DXGK_VIDMMCAPS"
 author: windows-driver-content
 description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
 old-location: display\dxgk_vidmmcaps.htm
-tech.root: display
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_VIDMMCAPS
 ---
 

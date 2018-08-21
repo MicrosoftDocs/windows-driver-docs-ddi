@@ -4,7 +4,6 @@ title: PFND3D10DDI_DRAW
 author: windows-driver-content
 description: The Draw function draws nonindexed primitives.
 old-location: display\draw.htm
-tech.root: display
 ms.assetid: 7a6f1d56-12be-4185-97bf-06f265ee6fe3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

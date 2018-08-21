@@ -4,7 +4,6 @@ title: D3D10DDI_VERTEX_CACHE_DESC
 author: windows-driver-content
 description: The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 old-location: display\d3d10ddi_vertex_cache_desc.htm
-tech.root: display
 ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDI_VERTEX_CACHE_DESC
 ---
 

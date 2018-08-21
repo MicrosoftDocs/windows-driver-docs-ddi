@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATEUNORDEREDACCESSVIEW
 author: windows-driver-content
 description: The CreateUnorderedAccessView function creates an unordered access view.
 old-location: display\createunorderedaccessview.htm
-tech.root: display
 ms.assetid: c5a258e7-6645-46bb-ab2c-a1c8f5e593b7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

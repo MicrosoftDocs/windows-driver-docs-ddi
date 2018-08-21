@@ -4,7 +4,7 @@ title: "_DXGKARGCB_NOTIFY_INTERRUPT_DATA"
 author: windows-driver-content
 description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information.
 old-location: display\dxgkargcb_notify_interrupt_data.htm
-tech.root: display
+
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_NOTIFY_INTERRUPT_DATA
 ---
 

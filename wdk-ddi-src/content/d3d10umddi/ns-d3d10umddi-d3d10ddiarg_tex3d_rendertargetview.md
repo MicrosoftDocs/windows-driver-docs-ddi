@@ -4,7 +4,6 @@ title: D3D10DDIARG_TEX3D_RENDERTARGETVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEX3D_RENDERTARGETVIEW structure describes a three-dimensional (3-D) texture that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_tex3d_rendertargetview.htm
-tech.root: display
 ms.assetid: 2feff5f5-a104-4738-94be-add08fd99037
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEX3D_RENDERTARGETVIEW
 ---
 

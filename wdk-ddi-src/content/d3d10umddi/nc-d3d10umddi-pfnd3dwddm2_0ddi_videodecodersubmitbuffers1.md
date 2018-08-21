@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
 author: windows-driver-content
 description: VideoDecoderSubmitBuffers1 submits one or more buffers for decoding.
 old-location: display\videodecodersubmitbuffers1.htm
-tech.root: display
 ms.assetid: 708A7F64-F8A8-4D0B-A824-CC8DD158216A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

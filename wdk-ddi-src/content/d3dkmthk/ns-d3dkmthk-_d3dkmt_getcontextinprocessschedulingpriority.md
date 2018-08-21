@@ -4,7 +4,6 @@ title: "_D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY"
 author: windows-driver-content
 description: Describes information that is required for an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 old-location: display\d3dkmt_getcontextinprocessschedulingpriority.htm
-tech.root: display
 ms.assetid: a72dd755-efd9-4950-8400-179eb1d63e9a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 ---
 

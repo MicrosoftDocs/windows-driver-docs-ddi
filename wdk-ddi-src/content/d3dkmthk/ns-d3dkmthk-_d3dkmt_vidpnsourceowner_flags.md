@@ -4,7 +4,6 @@ title: "_D3DKMT_VIDPNSOURCEOWNER_FLAGS"
 author: windows-driver-content
 description: Specifies output duplication options for use with the D3DKMTSetVidPnSourceOwner1 function.
 old-location: display\d3dkmt_vidpnsourceowner_flags.htm
-tech.root: display
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ---
 

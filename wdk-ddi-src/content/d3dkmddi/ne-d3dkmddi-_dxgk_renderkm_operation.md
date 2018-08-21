@@ -4,7 +4,6 @@ title: "_DXGK_RENDERKM_OPERATION"
 author: windows-driver-content
 description: The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the DxgkDdiRenderKm function is called.
 old-location: display\dxgk_renderkm_operation.htm
-tech.root: display
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_RENDERKM_OPERATION
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH"
 author: windows-driver-content
 description: The DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure contains a D3DKMDT_VIDPN_PRESENT_PATH structure, which contains arguments for the DxgkDdiUpdateActiveVidPnPresentPath function.
 old-location: display\dxgkarg_updateactivevidpnpresentpath.htm
-tech.root: display
 ms.assetid: 6a4d43fd-f118-4424-93e8-57f72b56f929
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
 ---
 

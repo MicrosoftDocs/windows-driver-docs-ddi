@@ -61,7 +61,7 @@ The <b>BdaPropertyNodeEvents</b> function retrieves a list of events that a node
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

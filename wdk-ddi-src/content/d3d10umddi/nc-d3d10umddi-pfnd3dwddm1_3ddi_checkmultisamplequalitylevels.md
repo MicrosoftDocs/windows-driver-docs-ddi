@@ -4,7 +4,6 @@ title: PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS
 author: windows-driver-content
 description: Retrieves the number of quality levels that the device supports for the specified number of samples. Supported.
 old-location: display\checkmultisamplequalitylevels_d3d11_2_.htm
-tech.root: display
 ms.assetid: A3AD5F2F-4FB9-407C-A436-A0B5F96002D7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

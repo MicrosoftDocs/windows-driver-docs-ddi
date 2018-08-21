@@ -4,7 +4,6 @@ title: DXGKDDI_ESCAPE
 author: windows-driver-content
 description: The DxgkDdiEscape function shares information with the user-mode display driver.
 old-location: display\dxgkddiescape.htm
-tech.root: display
 ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

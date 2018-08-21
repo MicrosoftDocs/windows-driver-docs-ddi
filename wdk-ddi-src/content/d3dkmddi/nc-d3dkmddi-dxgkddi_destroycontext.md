@@ -4,7 +4,6 @@ title: DXGKDDI_DESTROYCONTEXT
 author: windows-driver-content
 description: The DxgkDdiDestroyContext function destroys the specified graphics processing unit (GPU) context.
 old-location: display\dxgkddidestroycontext.htm
-tech.root: display
 ms.assetid: c21f62ab-c52e-43a2-a3a1-6fd6e5fbde01
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

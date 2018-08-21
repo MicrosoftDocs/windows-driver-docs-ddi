@@ -4,7 +4,6 @@ title: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 author: windows-driver-content
 description: Specifies the type of Microsoft Direct3D authenticated channel.
 old-location: display\d3d11_1ddi_authenticated_channel_type.htm
-tech.root: display
 ms.assetid: da04ef5d-c3e4-4321-8cc8-e20763c5a7db
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 ---
 

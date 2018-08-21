@@ -75,12 +75,12 @@ Specifies the number of items in the <i>pgValues</i> array.
 
 ### -param guidNom
 
-TBD
+
 
 
 ### -param pguidValues
 
-TBD
+
 
 
 

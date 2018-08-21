@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_STRING
 title: "_BDA_STRING"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_string.htm
 tech.root: stream
 ms.assetid: 69E2090F-02A6-43FB-85CB-E482B9142645

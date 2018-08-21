@@ -4,7 +4,6 @@ title: "_D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY"
 author: windows-driver-content
 description: A structure that holds information to query the physical adapter PNP key.
 old-location: display\d3dkmt_query_physical_adapter_pnp_key.htm
-tech.root: display
 ms.assetid: 58E5D200-56C3-48BA-A7C9-C9DC01592554
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 ---
 

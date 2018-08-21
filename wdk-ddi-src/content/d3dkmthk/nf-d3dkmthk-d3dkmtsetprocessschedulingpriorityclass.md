@@ -4,7 +4,6 @@ title: D3DKMTSetProcessSchedulingPriorityClass function
 author: windows-driver-content
 description: The D3DKMTSetProcessSchedulingPriorityClass function sets the scheduling priority for a process.
 old-location: display\d3dkmtsetprocessschedulingpriorityclass.htm
-tech.root: display
 ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

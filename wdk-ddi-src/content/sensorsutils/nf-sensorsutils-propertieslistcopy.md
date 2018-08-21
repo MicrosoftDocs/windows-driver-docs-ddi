@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.PropertiesListCopy
 title: PropertiesListCopy function
 author: windows-driver-content
-description: Coming soon.
+description: This routine copies a properties list from source to target.
 ms.assetid: 75d16f0b-ded0-49fe-b2a3-ee751f05391c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,17 +48,27 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine copies a properties list from source to target.
+
 
 ## -parameters
 
 ### -param Target
-Coming soon.
+
+[in] Pointer to a collection list to copy to.
+
 ### -param Source
-Coming soon.
+
+[in] Pointer to a collection list to copy.
 
 ## -returns
-This function returns NTSTATUS.
+
+This function returns:
+
+* STATUS_INVALID_PARAMETER if the Target or Source is nullptr.
+* STATUS_BUFFER_TOO_SMALL if the Target collection list is not large enough to contain the content of the Source collection list.
+* STATUS_SUCCESS if the copy was successful.
+
 ## -remarks
 
 ## -see-also

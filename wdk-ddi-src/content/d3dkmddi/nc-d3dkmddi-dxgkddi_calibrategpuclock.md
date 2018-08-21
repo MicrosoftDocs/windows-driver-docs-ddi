@@ -4,7 +4,6 @@ title: DXGKDDI_CALIBRATEGPUCLOCK
 author: windows-driver-content
 description: Called by the Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the DXGK_HISTORY_BUFFER history buffer with the CPU clock time.
 old-location: display\dxgkddicalibrategpuclock.htm
-tech.root: display
 ms.assetid: AF912508-D6EF-450D-AEC3-47D1C44D0DA0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

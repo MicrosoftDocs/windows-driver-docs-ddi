@@ -4,7 +4,6 @@ title: "_D3DKMT_TRIMNOTIFICATION"
 author: windows-driver-content
 description: D3DKMT_TRIMNOTIFICATION is used to notify a driver to trim its memory residency list.
 old-location: display\d3dkmt_trimnotification.htm
-tech.root: display
 ms.assetid: 50E3F5CC-AFB9-4527-A812-44295373D80B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_TRIMNOTIFICATION
 ---
 

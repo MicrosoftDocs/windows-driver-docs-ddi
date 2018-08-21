@@ -4,7 +4,6 @@ title: "_D3DKMT_MPO3DDI_SUPPORT"
 author: windows-driver-content
 description: A structure that holds the support status.
 old-location: display\d3dkmt_mpo3ddi_support.htm
-tech.root: display
 ms.assetid: 993E0BC3-DE46-48B9-A346-386E49CE28CE
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_MPO3DDI_SUPPORT
 ---
 

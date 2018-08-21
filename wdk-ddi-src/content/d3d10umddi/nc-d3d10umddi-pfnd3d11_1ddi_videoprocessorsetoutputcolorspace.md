@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE
 author: windows-driver-content
 description: Sets the output color space for the video processor.
 old-location: display\videoprocessorsetoutputcolorspace.htm
-tech.root: display
 ms.assetid: a6d1020d-e8e1-465f-a133-59afdfe1cfce
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

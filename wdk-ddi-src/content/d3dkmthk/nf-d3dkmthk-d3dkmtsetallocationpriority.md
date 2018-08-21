@@ -4,7 +4,6 @@ title: D3DKMTSetAllocationPriority function
 author: windows-driver-content
 description: The D3DKMTSetAllocationPriority function sets the priority level of a resource or list of allocations.
 old-location: display\d3dkmtsetallocationpriority.htm
-tech.root: display
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

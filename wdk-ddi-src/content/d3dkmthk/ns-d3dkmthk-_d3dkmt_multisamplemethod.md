@@ -4,7 +4,6 @@ title: "_D3DKMT_MULTISAMPLEMETHOD"
 author: windows-driver-content
 description: The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
 old-location: display\d3dkmt_multisamplemethod.htm
-tech.root: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_MULTISAMPLEMETHOD
 ---
 

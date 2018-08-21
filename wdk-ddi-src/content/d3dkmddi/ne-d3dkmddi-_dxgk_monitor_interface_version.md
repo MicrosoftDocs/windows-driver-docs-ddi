@@ -4,7 +4,6 @@ title: "_DXGK_MONITOR_INTERFACE_VERSION"
 author: windows-driver-content
 description: Indicates a particular version of the Monitor interface.
 old-location: display\dxgk_monitor_interface_version.htm
-tech.root: display
 ms.assetid: 76af0d70-f9bb-4768-9bfd-f2aaeb212db0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MONITOR_INTERFACE_VERSION
 ---
 

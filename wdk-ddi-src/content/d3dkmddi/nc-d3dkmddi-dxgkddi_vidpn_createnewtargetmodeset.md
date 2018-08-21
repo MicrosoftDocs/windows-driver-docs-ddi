@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPN_CREATENEWTARGETMODESET
 author: windows-driver-content
 description: The pfnCreateNewTargetModeSet function creates a new target mode set object within a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfncreatenewtargetmodeset.htm
-tech.root: display
 ms.assetid: c52935b4-306f-4200-80d9-0cfab6998450
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D10_DDIARG_SUBRESOURCE_UP
 author: windows-driver-content
 description: The D3D10_DDIARG_SUBRESOURCE_UP structure describes initialization information about a subresource.
 old-location: display\d3d10_ddiarg_subresource_up.htm
-tech.root: display
 ms.assetid: 035ce56c-b2a0-4ee0-83ce-4a45f05e5ff4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDIARG_SUBRESOURCE_UP
 ---
 

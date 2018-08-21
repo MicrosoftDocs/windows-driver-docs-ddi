@@ -4,7 +4,6 @@ title: PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 author: windows-driver-content
 description: Maps a global NT handle to resource information that is needed for a call to the D3DKMTQueryResourceInfo function.
 old-location: display\d3dkmtqueryresourceinfofromnthandle.htm
-tech.root: display
 ms.assetid: 7a433aaf-3215-4d11-8989-2d7bdc7f7499
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_RECOMMENDFUNCTIONALVIDPN
 author: windows-driver-content
 description: The DxgkDdiRecommendFunctionalVidPn function creates a functional VidPN that can be implemented on a specified display adapter.
 old-location: display\dxgkddirecommendfunctionalvidpn.htm
-tech.root: display
 ms.assetid: 320a77a7-d7d4-47b9-8a40-2b6e12819e4b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

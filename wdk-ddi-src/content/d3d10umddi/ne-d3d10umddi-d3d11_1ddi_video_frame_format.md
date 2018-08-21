@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_FRAME_FORMAT
 author: windows-driver-content
 description: Describes how a video stream is interlaced.
 old-location: display\d3d11_1ddi_video_frame_format.htm
-tech.root: display
 ms.assetid: 36af5af2-dfb1-4827-8898-93e52f4c8312
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_FRAME_FORMAT
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021
 author: windows-driver-content
 description: The pfnProcessFrame callback function performs a video processing operation on one or more input samples and writes the result to an output surface.
 old-location: display\pfnd3d12ddi_video_process_frame.htm
-tech.root: display
 ms.assetid: C4908916-D91F-4E89-A17B-87ABF3546C6A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

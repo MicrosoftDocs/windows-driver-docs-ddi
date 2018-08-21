@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENT_STATS"
 author: windows-driver-content
 description: The D3DKMT_PRESENT_STATS structure describes present status for a rendering device.
 old-location: display\d3dkmt_present_stats.htm
-tech.root: display
 ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENT_STATS
 ---
 

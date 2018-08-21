@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEALLOCATION"
 author: windows-driver-content
 description: The D3DKMT_CREATEALLOCATION structure describes parameters for creating allocations.
 old-location: display\d3dkmt_createallocation.htm
-tech.root: display
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEALLOCATION
 ---
 

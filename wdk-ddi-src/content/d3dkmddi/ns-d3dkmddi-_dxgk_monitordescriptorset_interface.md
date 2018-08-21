@@ -4,7 +4,6 @@ title: "_DXGK_MONITORDESCRIPTORSET_INTERFACE"
 author: windows-driver-content
 description: The DXGK_MONITORDESCRIPTORSET_INTERFACE structure contains pointers to functions that belong to the Monitor Descriptor Set Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitordescriptorset_interface.htm
-tech.root: display
 ms.assetid: ac492a44-f14e-4b66-9ec1-4f1b04806646
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MONITORDESCRIPTORSET_INTERFACE
 ---
 

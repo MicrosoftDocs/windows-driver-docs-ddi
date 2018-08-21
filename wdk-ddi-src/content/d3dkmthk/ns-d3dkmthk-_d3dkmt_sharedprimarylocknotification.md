@@ -4,7 +4,6 @@ title: "_D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION"
 author: windows-driver-content
 description: The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary surface that an application is about to lock.
 old-location: display\d3dkmt_sharedprimarylocknotification.htm
-tech.root: display
 ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 ---
 

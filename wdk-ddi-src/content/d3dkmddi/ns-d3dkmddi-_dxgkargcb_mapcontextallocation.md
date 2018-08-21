@@ -4,7 +4,6 @@ title: "_DXGKARGCB_MAPCONTEXTALLOCATION"
 author: windows-driver-content
 description: DXGKARGCB_MAPCONTEXTALLOCATION is used with DxgkCbMapContextAllocation to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 old-location: display\dxgkargcb_mapcontextallocation.htm
-tech.root: display
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
 ---
 

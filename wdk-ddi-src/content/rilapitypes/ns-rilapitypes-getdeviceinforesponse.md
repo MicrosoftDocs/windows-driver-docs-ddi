@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+-	ntddrilapitypes.h
 api_name:
 -	GETDEVICEINFORESPONSE
 product:

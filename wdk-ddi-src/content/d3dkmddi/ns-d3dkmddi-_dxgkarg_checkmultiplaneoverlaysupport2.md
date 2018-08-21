@@ -4,7 +4,6 @@ title: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2"
 author: windows-driver-content
 description: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 is passed to the DxgkDdiCheckMultiPlaneOverlaySupport2 function to determine whether a specific multi-plane overlay configuration is supported.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport2.htm
-tech.root: display
 ms.assetid: 477EBC8A-04A5-4904-AC62-0FA7DB861ACC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_DECRYPTIONBLT
 author: windows-driver-content
 description: Writes encrypted data to a protected surface.
 old-location: display\decryptionblt1.htm
-tech.root: display
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

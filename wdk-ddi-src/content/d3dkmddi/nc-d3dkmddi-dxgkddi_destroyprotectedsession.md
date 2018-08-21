@@ -4,7 +4,6 @@ title: DXGKDDI_DESTROYPROTECTEDSESSION
 author: windows-driver-content
 description: Used to destroy a protected session.
 old-location: display\dxgkddi_destroyprotectedsession.htm
-tech.root: display
 ms.assetid: 42D4064A-1697-4772-8450-6D217C526347
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

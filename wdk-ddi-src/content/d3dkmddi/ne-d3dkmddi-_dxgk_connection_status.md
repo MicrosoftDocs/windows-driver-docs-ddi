@@ -4,7 +4,6 @@ title: "_DXGK_CONNECTION_STATUS"
 author: windows-driver-content
 description: Enumeration indicating the connection status values which can be reported.
 old-location: display\dxgk_connection_status.htm
-tech.root: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
 ---
 

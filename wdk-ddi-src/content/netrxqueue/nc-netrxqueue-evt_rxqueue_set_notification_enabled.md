@@ -85,6 +85,9 @@ A value of TRUE requests that the client enable receive queue notification. A va
 This callback function does not return a value.
 
 ## -remarks
+
+This callback indicates to a client driver that polling (of *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* or *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)*) will stop and will not continue until the client driver calls [**NetRxQueueNotifyMoreReceivedPacketsAvailable**](nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md). Typically, a PCI device uses this callback to enable Rx interrupts. Once an interrupt is received, Rx interrupts can be disabled again and the client driver calls **NetRxQueueNotifyMoreReceivedPacketsAvailable** to trigger the framework to begin polling again.
+
 Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
 
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* and *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)* callback functions.

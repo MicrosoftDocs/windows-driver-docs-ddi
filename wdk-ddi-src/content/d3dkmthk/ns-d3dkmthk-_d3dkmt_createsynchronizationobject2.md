@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATESYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: The D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure describes a synchronization object that the D3DKMTCreateSynchronizationObject2 function creates.
 old-location: display\d3dkmt_createsynchronizationobject2.htm
-tech.root: display
 ms.assetid: fa5cf57e-826b-43f6-881d-caf2aecb2dde
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATESYNCHRONIZATIONOBJECT2
 ---
 

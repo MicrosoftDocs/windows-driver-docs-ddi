@@ -4,7 +4,6 @@ title: D3DWDDM2_2DDI_DEVICEFUNCS
 author: windows-driver-content
 description: Specifies the callback functions that operate on a shader cache.
 old-location: display\d3dwddm2_2ddi_devicefuncs.htm
-tech.root: display
 ms.assetid: 4E082193-70BA-4F36-9001-2A12014F3AC3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_2DDI_DEVICEFUNCS
 ---
 

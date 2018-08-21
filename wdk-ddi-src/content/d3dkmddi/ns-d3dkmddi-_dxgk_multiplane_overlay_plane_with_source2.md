@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2"
 author: windows-driver-content
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
 old-location: display\dxgk_multiplane_overlay_plane_with_source2.htm
-tech.root: display
 ms.assetid: A9508EBF-0B33-48D7-AD57-31E38D77F5DA
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
 ---
 

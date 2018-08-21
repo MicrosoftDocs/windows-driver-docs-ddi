@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_MARKER_TYPE
 author: windows-driver-content
 description: Indicates the type of marker that the user-mode display driver supports.
 old-location: display\d3dwddm1_3ddi_marker_type.htm
-tech.root: display
 ms.assetid: E57CA17F-FB96-4E9B-A38D-67A4F925D3B4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_MARKER_TYPE
 ---
 

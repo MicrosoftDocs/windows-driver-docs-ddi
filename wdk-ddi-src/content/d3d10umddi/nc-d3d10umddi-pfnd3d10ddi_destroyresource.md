@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYRESOURCE
 author: windows-driver-content
 description: The DestroyResource(D3D10) function destroys the specified resource object. The resource object can be destoyed only if it is not currently bound to a display device, and if all views that refer to the resource are also destroyed.
 old-location: display\destroyresource_d3d10_.htm
-tech.root: display
 ms.assetid: 3ff77844-eeee-4fda-8798-2e240bc51379
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

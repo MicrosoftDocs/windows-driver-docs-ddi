@@ -4,7 +4,6 @@ title: "_DXGK_UPDATEHWCONTEXTSTATE_FLAGS"
 author: windows-driver-content
 description: Used to update the HW context state flags.
 old-location: display\dxgk_updatehwcontextstate_flags.htm
-tech.root: display
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 ---
 

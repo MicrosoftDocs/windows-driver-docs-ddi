@@ -4,7 +4,6 @@ title: "_DXGKARG_QUERYCONNECTIONCHANGE"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_QUERYCONNECTIONCHANGE.
 old-location: display\dxgkarg_queryconnectionchange.htm
-tech.root: display
 ms.assetid: 6B91F3F0-B02D-46F3-9086-EA32F043FC16
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_QUERYCONNECTIONCHANGE
 ---
 

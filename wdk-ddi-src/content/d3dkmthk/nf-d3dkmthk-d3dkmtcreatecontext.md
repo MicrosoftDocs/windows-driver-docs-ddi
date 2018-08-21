@@ -4,7 +4,6 @@ title: D3DKMTCreateContext function
 author: windows-driver-content
 description: The D3DKMTCreateContext function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatecontext.htm
-tech.root: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateContext
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

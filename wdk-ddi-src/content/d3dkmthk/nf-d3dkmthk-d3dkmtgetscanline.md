@@ -4,7 +4,6 @@ title: D3DKMTGetScanLine function
 author: windows-driver-content
 description: The D3DKMTGetScanLine function determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 old-location: display\d3dkmtgetscanline.htm
-tech.root: display
 ms.assetid: 052507ec-4a26-4bb6-8876-c03a9c81f412
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

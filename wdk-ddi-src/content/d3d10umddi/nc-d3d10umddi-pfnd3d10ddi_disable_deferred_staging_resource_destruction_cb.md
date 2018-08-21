@@ -4,7 +4,6 @@ title: PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB
 author: windows-driver-content
 description: The pfnDisableDeferredStagingResourceDestruction function disables the deferred destruction of staging resources.
 old-location: display\pfndisabledeferredstagingresourcedestruction.htm
-tech.root: display
 ms.assetid: f0328782-9b5b-44e6-ac58-7eb72685aa52
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

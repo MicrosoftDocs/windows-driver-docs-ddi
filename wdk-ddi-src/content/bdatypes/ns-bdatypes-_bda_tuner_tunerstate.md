@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_TUNER_TUNERSTATE
 title: "_BDA_TUNER_TUNERSTATE"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_tuner_tunerstate.htm
 tech.root: stream
 ms.assetid: 77B30ADC-27F2-4883-97FC-F6C29B539EE0

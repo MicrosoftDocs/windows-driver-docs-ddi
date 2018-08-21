@@ -4,7 +4,6 @@ title: D3D12DDI_SWIZZLE_PATTERN_FLAGS
 author: windows-driver-content
 description: Specifies swizzle pattern flags.
 old-location: display\d3d12ddi_swizzle_pattern_flags.htm
-tech.root: display
 ms.assetid: 613FE631-8381-4EDD-85C9-7B91F9F8B92F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_SWIZZLE_PATTERN_FLAGS
 ---
 

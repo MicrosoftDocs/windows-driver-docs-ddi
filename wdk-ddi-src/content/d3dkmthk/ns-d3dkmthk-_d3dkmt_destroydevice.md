@@ -4,7 +4,6 @@ title: "_D3DKMT_DESTROYDEVICE"
 author: windows-driver-content
 description: The D3DKMT_DESTROYDEVICE structure contains a handle to the kernel-mode device context to release.
 old-location: display\d3dkmt_destroydevice.htm
-tech.root: display
 ms.assetid: f74ea9da-71ba-466a-b102-78d999d38096
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DESTROYDEVICE
 ---
 

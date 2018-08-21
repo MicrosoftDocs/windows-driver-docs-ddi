@@ -4,7 +4,6 @@ title: "_DXGKARG_QUERYENGINESTATUS"
 author: windows-driver-content
 description: Used in a call to the DxgkDdiQueryEngineStatus function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
 old-location: display\dxgkarg_queryenginestatus.htm
-tech.root: display
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_QUERYENGINESTATUS
 ---
 

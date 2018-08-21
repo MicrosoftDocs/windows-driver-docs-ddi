@@ -66,7 +66,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ### -param RegistryPathName
 
-TBD
+
 
 
 ### -param Descriptor [in, optional]

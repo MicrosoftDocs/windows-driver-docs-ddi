@@ -4,7 +4,6 @@ title: "_DXGK_MEMORY_TRANSFER_DIRECTION"
 author: windows-driver-content
 description: DXGK_MEMORY_TRANSFER_DIRECTION is used as part of an allocation transfer operation to specify the direction of the transfer.
 old-location: display\dxgk_memory_transfer_direction.htm
-tech.root: display
 ms.assetid: A45411DF-AD08-4349-A134-091343E7989E
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MEMORY_TRANSFER_DIRECTION
 ---
 

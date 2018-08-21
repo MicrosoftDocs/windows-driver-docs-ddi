@@ -2,7 +2,7 @@
 UID: NE:ksproxy.FRAMING_CACHE_OPS
 title: FRAMING_CACHE_OPS
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\framing_cache_ops.htm
 tech.root: stream
 ms.assetid: EA496897-7D5A-43A8-A61E-34E986288E8B

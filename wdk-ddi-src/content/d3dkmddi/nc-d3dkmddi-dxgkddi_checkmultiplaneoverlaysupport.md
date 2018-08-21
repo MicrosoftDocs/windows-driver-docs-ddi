@@ -4,7 +4,6 @@ title: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
 author: windows-driver-content
 description: Called by the Microsoft DirectX graphics kernel subsystem to check the details of hardware support for multiplane overlays.
 old-location: display\dxgkddicheckmultiplaneoverlaysupport.htm
-tech.root: display
 ms.assetid: 8332DD64-B75E-40A4-9D98-3406187150F2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

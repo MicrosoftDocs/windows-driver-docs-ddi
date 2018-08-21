@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO
 author: windows-driver-content
 description: Sets the pixel aspect ratio for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampixelaspectratio.htm
-tech.root: display
 ms.assetid: fe472b54-09f5-4689-a3d1-0985dafa7d4b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11DDI_COMMANDLISTEXECUTE
 author: windows-driver-content
 description: The CommandListExecute function runs a command list.
 old-location: display\commandlistexecute.htm
-tech.root: display
 ms.assetid: 49f44f29-52f6-40d9-8617-a24aa3d30736
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

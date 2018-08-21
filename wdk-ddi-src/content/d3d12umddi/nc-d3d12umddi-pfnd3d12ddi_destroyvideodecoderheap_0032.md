@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
 author: windows-driver-content
 description: Used to destroy a video decoder heap.
 old-location: display\pfnd3d12ddi_destroyvideodecoderheap_0032.htm
-tech.root: display
 ms.assetid: EFB7D67D-1900-4182-B604-8C0A183B118D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY"
 author: windows-driver-content
 description: The DXGKARG_ENUMVIDPNCOFUNCMODALITY structure contains arguments for the DxgkDdiEnumVidPnCofuncModality function.
 old-location: display\dxgkarg_enumvidpncofuncmodality.htm
-tech.root: display
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_ENUMVIDPNCOFUNCMODALITY
 ---
 

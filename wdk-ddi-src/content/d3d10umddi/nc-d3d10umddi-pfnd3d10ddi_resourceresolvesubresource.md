@@ -4,7 +4,6 @@ title: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE
 author: windows-driver-content
 description: The ResourceResolveSubresource function resolves multiple samples to one pixel.
 old-location: display\resourceresolvesubresource.htm
-tech.root: display
 ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

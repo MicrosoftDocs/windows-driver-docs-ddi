@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB
 author: windows-driver-content
 description: The pfnStateOmRenderTargetsCb function causes the Microsoft Direct3D 10 runtime to refresh the output merger's bound render targets.
 old-location: display\pfnstateomrendertargetscb.htm
-tech.root: display
 ms.assetid: d17cd31d-44a1-4f7d-82be-1201c0d5769f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

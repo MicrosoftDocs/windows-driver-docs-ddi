@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO
 author: windows-driver-content
 description: The pfnAcquireNextPathInfo function returns a descriptor of the next video present path in a specified VidPN topology, given the current path.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirenextpathinfo.htm
-tech.root: display
 ms.assetid: 9f09ac0e-057c-48fb-a246-35e8ed7ddfc2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

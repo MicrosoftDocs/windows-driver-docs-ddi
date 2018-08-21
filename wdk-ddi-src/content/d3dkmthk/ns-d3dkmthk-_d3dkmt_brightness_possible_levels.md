@@ -4,7 +4,6 @@ title: "_D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
 author: windows-driver-content
 description: Contains information about all possible brightness levels that an integrated display panel supports.
 old-location: display\d3dkmt_brightness_possible_levels.htm
-tech.root: display
 ms.assetid: d7402839-2afe-43d3-9747-7b2e98d1c238
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 ---
 

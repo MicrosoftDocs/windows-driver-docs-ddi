@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL
 author: windows-driver-content
 description: Creates an authenticated channel object. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 old-location: display\createauthenticatedchannel1.htm
-tech.root: display
 ms.assetid: 90b43bc3-6569-4799-8be3-e4e60f59164f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

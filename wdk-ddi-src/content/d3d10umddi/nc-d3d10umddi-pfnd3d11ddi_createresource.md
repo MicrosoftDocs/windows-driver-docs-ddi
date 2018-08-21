@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATERESOURCE
 author: windows-driver-content
 description: Creates a resource.
 old-location: display\createresource_d3d11_.htm
-tech.root: display
 ms.assetid: 2dff9d2e-c497-422f-824b-a7101904fd67
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

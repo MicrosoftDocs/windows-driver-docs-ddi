@@ -4,7 +4,6 @@ title: "_D3DKMT_SETQUEUEDLIMIT"
 author: windows-driver-content
 description: The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrieving the limit for the number of operations of the given type that can be queued for the given device.
 old-location: display\d3dkmt_setqueuedlimit.htm
-tech.root: display
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETQUEUEDLIMIT
 ---
 

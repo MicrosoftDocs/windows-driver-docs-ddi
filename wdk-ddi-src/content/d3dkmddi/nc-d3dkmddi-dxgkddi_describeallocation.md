@@ -4,7 +4,6 @@ title: DXGKDDI_DESCRIBEALLOCATION
 author: windows-driver-content
 description: The DxgkDdiDescribeAllocation function retrieves information about an existing allocation that is not otherwise available to the Microsoft DirectX graphics kernel subsystem.
 old-location: display\dxgkddidescribeallocation.htm
-tech.root: display
 ms.assetid: 8ee65716-496c-4b0f-baa7-34a625847d5f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_SET_TIMING_RESULTS"
 author: windows-driver-content
 description: Structure to report result flags from the SetTiming call which apply to the complete call rather than individual paths.
 old-location: display\dxgk_set_timing_results.htm
-tech.root: display
 ms.assetid: EA5C845B-76FD-40AD-B4E8-78601CA847CE
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS
 ---
 

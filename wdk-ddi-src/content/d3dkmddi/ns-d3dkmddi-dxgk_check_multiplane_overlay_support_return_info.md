@@ -4,7 +4,6 @@ title: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
 author: windows-driver-content
 description: Specifies limitations on hardware support of multiplane overlays.
 old-location: display\dxgk_check_multiplane_overlay_support_return_info.htm
-tech.root: display
 ms.assetid: EA440D77-18E6-4EB4-8621-50C3233DFEA6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
 ---
 

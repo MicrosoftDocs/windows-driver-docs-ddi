@@ -4,7 +4,6 @@ title: "_DXGKARG_GETSCANLINE"
 author: windows-driver-content
 description: The DXGKARG_GETSCANLINE structure contains information about a video present target's vertical blanking status.
 old-location: display\dxgkarg_getscanline.htm
-tech.root: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_GETSCANLINE
 ---
 

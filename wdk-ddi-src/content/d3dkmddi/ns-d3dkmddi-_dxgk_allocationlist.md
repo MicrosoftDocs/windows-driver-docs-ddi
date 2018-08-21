@@ -4,7 +4,6 @@ title: "_DXGK_ALLOCATIONLIST"
 author: windows-driver-content
 description: The DXGK_ALLOCATIONLIST structure describes an allocation specification that is used in direct memory access (DMA) buffering.
 old-location: display\dxgk_allocationlist.htm
-tech.root: display
 ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ALLOCATIONLIST
 ---
 

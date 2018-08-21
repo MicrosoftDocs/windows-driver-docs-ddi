@@ -4,7 +4,6 @@ title: D3D11_1DDIARG_VIDEODECODERBEGINFRAME
 author: windows-driver-content
 description: Specifies a content key in a call to the VideoDecoderBeginFrame function.
 old-location: display\d3d11_1ddiarg_videodecoderbeginframe.htm
-tech.root: display
 ms.assetid: e2664aec-dc96-4cf6-921b-ccd4ee6cf04e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_VIDEODECODERBEGINFRAME
 ---
 

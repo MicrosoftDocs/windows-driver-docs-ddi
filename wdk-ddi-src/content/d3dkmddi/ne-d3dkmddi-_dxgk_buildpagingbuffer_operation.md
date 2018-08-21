@@ -4,7 +4,6 @@ title: "_DXGK_BUILDPAGINGBUFFER_OPERATION"
 author: windows-driver-content
 description: Indicates the type of memory operation to perform.
 old-location: display\dxgk_buildpagingbuffer_operation.htm
-tech.root: display
 ms.assetid: D170D828-A0BC-4CBC-9F3F-E384AAD11FCC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_OPERATION
 ---
 

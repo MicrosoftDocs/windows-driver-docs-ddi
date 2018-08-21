@@ -4,7 +4,6 @@ title: "_D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP"
 author: windows-driver-content
 description: The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to determine the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
 old-location: display\d3dkmt_checkvidpnexclusiveownership.htm
-tech.root: display
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 ---
 

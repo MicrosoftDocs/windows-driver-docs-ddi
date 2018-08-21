@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATECONTEXTVIRTUAL"
 author: windows-driver-content
 description: D3DKMT_CREATECONTEXTVIRTUAL is used with D3DKMTCreateContextVirtual to create a kernel mode device context that supports virtual addressing.
 old-location: display\d3dkmt_createcontextvirtual.htm
-tech.root: display
 ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 ---
 

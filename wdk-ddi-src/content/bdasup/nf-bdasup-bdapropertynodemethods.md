@@ -61,7 +61,7 @@ The <b>BdaPropertyNodeMethods</b> function retrieves a list of methods that a no
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

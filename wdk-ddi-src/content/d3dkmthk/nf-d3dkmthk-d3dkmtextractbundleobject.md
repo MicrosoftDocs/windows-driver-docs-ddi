@@ -4,7 +4,6 @@ title: D3DKMTExtractBundleObject function
 author: windows-driver-content
 description: Used to extract the bundle object.
 old-location: display\d3dkmtextractbundleobject.htm
-tech.root: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support: Windows 10, version 1709
 req.namespace:
 req.assembly:
 req.type-library:
-req.lib: NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTExtractBundleObject
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTSubmitSignalSyncObjectsToHwQueue function
 author: windows-driver-content
 description: Used to submit a signal to the hardware queue.
 old-location: display\d3dkmtsubmitsignalsyncobjectstohwqueue.htm
-tech.root: display
 ms.assetid: DA0D44AF-168F-4B9B-B184-1DC8C3477CBC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,12 +34,13 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTSubmitSignalSyncObjectsToHwQueue
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

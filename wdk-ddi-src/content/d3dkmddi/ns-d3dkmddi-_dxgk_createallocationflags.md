@@ -4,7 +4,6 @@ title: "_DXGK_CREATEALLOCATIONFLAGS"
 author: windows-driver-content
 description: The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 old-location: display\dxgk_createallocationflags.htm
-tech.root: display
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CREATEALLOCATIONFLAGS
 ---
 

@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION
 author: windows-driver-content
 description: Indicates whether the driver supports a specific format/color-space conversion combination. This function must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers.
 old-location: display\checkvideoprocessorformatconversion.htm
-tech.root: display
 ms.assetid: 70A741CC-9D1B-4ECC-BB3A-6ACF6893691A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

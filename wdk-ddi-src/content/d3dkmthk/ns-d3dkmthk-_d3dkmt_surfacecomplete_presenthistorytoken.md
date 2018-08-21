@@ -4,7 +4,6 @@ title: "_D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: A structure used to present the history token for a surface.
 old-location: display\d3dkmt_surfacecomplete_presenthistorytoken.htm
-tech.root: display
 ms.assetid: AF58684E-3516-48F9-B771-63701C00645F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
 ---
 

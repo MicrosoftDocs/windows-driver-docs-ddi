@@ -4,7 +4,6 @@ title: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER
 author: windows-driver-content
 description: Specifies a data access ordering constraint between multiple tiled resources. For more info about this constraint, see Remarks.
 old-location: display\tiledresourcebarrier.htm
-tech.root: display
 ms.assetid: 9A2E9B3F-13E4-48D7-A3F3-E7CDCDD1E0CC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

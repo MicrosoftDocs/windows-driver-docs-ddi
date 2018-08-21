@@ -4,7 +4,6 @@ title: D3D10DDIARG_SIGNATURE_ENTRY
 author: windows-driver-content
 description: The D3D10DDIARG_SIGNATURE_ENTRY structure describes an entry for a signature.
 old-location: display\d3d10ddiarg_signature_entry.htm
-tech.root: display
 ms.assetid: 9a7a595e-59b1-4cc2-ab09-ba22aebae9ca
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_SIGNATURE_ENTRY
 ---
 

@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE
 title: PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE
 author: windows-driver-content
-description:
+description: Calculates the private meta-command size.
 ms.assetid: e1f4ad6e-a3a3-4145-9742-4b155b4d979c
 ms.author: windowsdriverdev
 ms.date:
@@ -26,24 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE callback function
 
 ## -description
 
-Implemented by the client driver to calculate the private meta-command size.
+Calculates the private meta-command size.
 
 ## -prototype
 

@@ -31,8 +31,21 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql:
-req.typenames: *PWNODE_HEADER, WNODE_HEADER
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wpprecorder.h
+api_name:
+-	imp_WppRecorderGetTriageInfo
+product:
+- Windows
+targetos: Windows
+
 ---
 
 # WppRecorderGetTriageInfo macro

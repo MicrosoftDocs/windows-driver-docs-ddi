@@ -4,7 +4,6 @@ title: "_D3D11_1DDI_GETCAPTUREHANDLEDATA"
 author: windows-driver-content
 description: Defines a resource allocation in a call to the GetCaptureHandle function.
 old-location: display\d3d11_1ddi_getcapturehandledata.htm
-tech.root: display
 ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 

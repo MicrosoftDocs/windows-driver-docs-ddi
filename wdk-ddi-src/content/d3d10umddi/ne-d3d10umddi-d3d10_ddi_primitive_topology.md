@@ -4,7 +4,6 @@ title: D3D10_DDI_PRIMITIVE_TOPOLOGY
 author: windows-driver-content
 description: The D3D10_DDI_PRIMITIVE_TOPOLOGY enumeration type contains values that identify primitive topologies in a call to the driver's IaSetTopology function.
 old-location: display\d3d10_ddi_primitive_topology.htm
-tech.root: display
 ms.assetid: 49e7f8d3-36e2-41d6-9cea-ea0c284586e6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_PRIMITIVE_TOPOLOGY
 ---
 

@@ -4,7 +4,6 @@ title: D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT
 author: windows-driver-content
 description: The D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure describes timestamp-disjoint information that is used in a call to the CreateQuery(D3D10) function to create a D3D10DDI_QUERY_TIMESTAMPDISJOINT query type and in a call to the QueryGetData function to return information about the query.
 old-location: display\d3d10_ddi_query_data_timestamp_disjoint.htm
-tech.root: display
 ms.assetid: 1dd7e73d-b804-4018-8c72-732bd68dd8d2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT
 ---
 

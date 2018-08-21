@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
 author: windows-driver-content
 description: Specifies whether the video processor produces stereo video frames.
 old-location: display\videoprocessorsetoutputstereomode.htm
-tech.root: display
 ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

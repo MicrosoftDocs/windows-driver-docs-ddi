@@ -2,10 +2,10 @@
 UID: NF:sensorsutils.EvaluateActivityThresholds
 title: EvaluateActivityThresholds function
 author: windows-driver-content
-description: Coming soon.
+description: This routine determines whether the new incoming activity data meets the threshold.
 ms.assetid: f2a211f5-90ab-4665-856a-cd9b007c8efa
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	HeaderDef
+-	LibDef
 api_location: 
 -	sensorsutils.h
 api_name: 
@@ -48,19 +48,29 @@ targetos: Windows
 
 ## -description
 
-Coming soon.
+This routine determines whether the new incoming activity data meets the threshold.
+
+Note that the samples must be sorted and filtered data. Use CollectionsListSortSubscribedActivitiesByConfidence function to sort and filter data.
+
 
 ## -parameters
 
 ### -param newSample
-Coming soon.
+
+[in] Incoming activity data, as a sensor collection list.
+
 ### -param oldSample
-Coming soon.
+
+[in] Last reported activity data, as a sensor collection list.
+
 ### -param thresholds
-Coming soon.
+
+[in] Activity detection thresholds, as a sensor collection list.
 
 ## -returns
-This function returns BOOLEAN.
+
+This function returns TRUE if succeeded, FALSE otherwise.
+
 ## -remarks
 
 ## -see-also

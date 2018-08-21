@@ -4,7 +4,6 @@ title: "_DXGKARG_CREATEALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_CREATEALLOCATION structure describes how the display miniport driver should create allocations.
 old-location: display\dxgkarg_createallocation.htm
-tech.root: display
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CREATEALLOCATION
 ---
 

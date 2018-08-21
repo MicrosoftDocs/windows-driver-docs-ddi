@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETRASTERIZERSTATE
 author: windows-driver-content
 description: The SetRasterizerState function sets the rasterizer state.
 old-location: display\setrasterizerstate.htm
-tech.root: display
 ms.assetid: 8162c9c9-4ebd-45a9-adaf-576f25c3907e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

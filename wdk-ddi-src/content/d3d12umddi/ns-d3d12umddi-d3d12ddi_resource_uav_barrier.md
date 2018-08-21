@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_UAV_BARRIER
 author: windows-driver-content
 description: Contains an unordered access view (UAV) barrier.
 old-location: display\d3d12ddi_resource_uav_barrier.htm
-tech.root: display
 ms.assetid: 8473EB26-54C5-49D0-A854-422086CE8CCC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_UAV_BARRIER
 ---
 

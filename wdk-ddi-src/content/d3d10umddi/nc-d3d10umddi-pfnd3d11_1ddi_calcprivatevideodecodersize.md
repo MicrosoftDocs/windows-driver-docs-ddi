@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE
 author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video decoder state.
 old-location: display\calcprivatevideodecodersize.htm
-tech.root: display
 ms.assetid: a878cba1-589e-4932-9d2b-1abab417660f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

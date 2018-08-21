@@ -4,7 +4,6 @@ title: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
 author: windows-driver-content
 description: Protected resource session support data.
 old-location: display\d3d12ddi-protected-resource-session-support-data-0030.htm
-tech.root: display
 ms.assetid: 7e8b824b-b6a6-486a-abb7-545d5156a94a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
 ---
 

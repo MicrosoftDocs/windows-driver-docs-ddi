@@ -4,7 +4,6 @@ title: D3D10DDI_MAPPED_SUBRESOURCE
 author: windows-driver-content
 description: The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's ResourceMap function.
 old-location: display\d3d10ddi_mapped_subresource.htm
-tech.root: display
 ms.assetid: a55f9aee-c6a5-4391-aad1-4003e58692cd
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDI_MAPPED_SUBRESOURCE
 ---
 

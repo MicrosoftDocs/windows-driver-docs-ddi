@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032
 author: windows-driver-content
 description: Video decode bitstream encryption scheme count data.
 old-location: display\d3d12ddi-video-decode-bitstream-encryption-scheme-count-data-0032.htm
-tech.root: display
 ms.assetid: 0aba733b-a69a-4a8a-a8bc-e934fbbbacbf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATESAMPLER
 author: windows-driver-content
 description: The CreateSampler function creates a sampler.
 old-location: display\createsampler.htm
-tech.root: display
 ms.assetid: 603bb033-390b-4965-b6ea-6acc2c7a8fcf
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030
 author: windows-driver-content
 description: The crypto session transform operations.
 old-location: display\d3d12ddi-crypto-session-transform-operation-0030.htm
-tech.root: display
 ms.assetid: 20d49b34-436a-4bc3-9b32-25f03478c90a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030
 ---
 

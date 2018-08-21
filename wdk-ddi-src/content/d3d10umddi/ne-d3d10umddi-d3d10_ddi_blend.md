@@ -4,7 +4,6 @@ title: D3D10_DDI_BLEND
 author: windows-driver-content
 description: The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's CreateBlendState function.
 old-location: display\d3d10_ddi_blend.htm
-tech.root: display
 ms.assetid: 719cd6b3-4f48-4b26-95fe-6f5faac56c06
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_BLEND
 ---
 

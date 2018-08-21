@@ -4,7 +4,6 @@ title: D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
 author: windows-driver-content
 description: The bitstream encryption type.
 old-location: display\d3d12ddi-bitstream-encryption-type-0030.htm
-tech.root: display
 ms.assetid: 99eab339-d93c-4afa-95f2-899ceb2e7828
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
 ---
 
