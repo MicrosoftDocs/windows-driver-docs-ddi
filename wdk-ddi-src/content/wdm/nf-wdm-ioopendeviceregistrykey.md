@@ -145,7 +145,7 @@ The driver must call [ZwClose](https://docs.microsoft.com/windows-hardware/drive
 
 The registry keys opened by this routine are nonvolatile.
 
-User-mode setup applications, such as <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installers</a>, can access these registry keys using <a href="https://msdn.microsoft.com/library/windows/hardware/ff541299">device installation functions</a> such as [SetupDiOpenDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey).
+User-mode setup applications can access these registry keys by using [device installation functions](https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions) such as [SetupDiOpenDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey). An example of a user-mode setup applications would be a class installer, a Win32 DLL that performs installation operations for devices in a particular [Device Setup Class](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-setup-classes).
 
 To create registry keys, use <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in an INF file or use [SetupDiCreateDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya) in a setup application.
 
