@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: db59c333-2707-4ff9-9ee2-9c34275d7162
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject, IDataModelManager2.CreateTypedIntrinsicObject, IDataModelManager2::CreateTypedIntrinsicObject, IDataModelManager2.CreateTypedIntrinsicObject
 req.header: dbgmodel.h
@@ -60,3 +60,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

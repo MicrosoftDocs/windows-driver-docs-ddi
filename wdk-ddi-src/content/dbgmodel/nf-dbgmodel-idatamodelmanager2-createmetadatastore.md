@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 545fd9fa-22bf-4bdd-b898-d5533fe8df81
 ms.author: windowsdriverdev
-ms.date: 07/20/2018
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateMetadataStore, CreateMetadataStore, IDataModelManager2.CreateMetadataStore, IDataModelManager2::CreateMetadataStore, IDataModelManager2.CreateMetadataStore
 req.header: dbgmodel.h
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

@@ -72,7 +72,20 @@ This method returns HRESULT that indicates success or failure.
 **Sample Code**
 
 ```
+ComPtr<IDataModelManager> spManager; /* get the data model manager */
 
+VARIANT vtValue;
+vtValue.vt = VT_I4;
+vtValue.lVal = 42;
+
+// If the object is an VT_UNKNOWN, the first argument to CreateIntrinsicObject
+// indicates what KIND of IUnknown.  For example, ObjectPropertyAccessor would 
+// indicate IModelPropertyAccessor.  ObjectMethod would indicate IModelMethod, etc...
+ComPtr<IModelObject> spValue;
+if (SUCCEEDED(spManager->CreateIntrinsicObject(ObjectIntrinsic, &vtValue, &spValue)))
+{
+    // spValue now contains the object (boxed) representation of the int value 42.
+}
 ```
 
 

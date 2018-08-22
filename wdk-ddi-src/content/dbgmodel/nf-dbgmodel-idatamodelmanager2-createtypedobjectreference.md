@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: d8400c87-6e6d-419e-b02b-dde4270c94bb
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateTypedObjectReference, CreateTypedObjectReference, IDataModelManager2.CreateTypedObjectReference, IDataModelManager2::CreateTypedObjectReference, IDataModelManager2.CreateTypedObjectReference
 req.header: dbgmodel.h
@@ -62,3 +62,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

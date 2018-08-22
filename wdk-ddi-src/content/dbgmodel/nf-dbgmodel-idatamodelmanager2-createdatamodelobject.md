@@ -59,6 +59,7 @@ The newly created synthetic object (with the data model concept set) will be ret
 This method returns HRESULT.
 
 ## -remarks
+
 **Sample Code**
 
 ```
@@ -103,5 +104,8 @@ if (spMyModel != nullptr)
         // as a parent to any other object via AddParentModel().
     }
 }
-
 ```
+
+## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
