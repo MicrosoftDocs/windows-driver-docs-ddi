@@ -36,7 +36,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_RING_BUFFER structure
@@ -46,9 +47,9 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
-Specifies a buffer comprised of one or more [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) structures.
+Specifies a buffer comprised of one or more [**NET_PACKET**](../netpacket/ns-netpacket-_net_packet.md) or [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) structures.
 
 ## -struct-fields
 
@@ -80,13 +81,13 @@ A pointer to a buffer that the client driver may use for any purpose.
 Reserved. Client drivers must not read or write to this value.
  
 ### -field Buffer
-A byte array that contains the packets in the ring buffer. Typically, a client driver calls [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) to access packets in the ring buffer.
+A byte array that contains the elements in the ring buffer. Typically, a client driver calls [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) to access packets in the ring buffer.
 
 ## -remarks
-The **NET_RING_BUFFER** structure is a generic ring buffer, optimized for efficient access from a single thread. A **NET_RING_BUFFER** contains [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) elements.
+The **NET_RING_BUFFER** structure is a generic ring buffer, optimized for efficient access from a single thread. A **NET_RING_BUFFER** contains [**NET_PACKET**](../netpacket/ns-netpacket-_net_packet.md) or [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) elements.
 
-For more info about the ring buffer, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data#using-the-ring-buffer).
+For more info about packet and fragment ring buffers, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions#storage-of-packet-descriptors).
 
-
+For more info about using the packet ring buffer, see [Using the ring buffer](https://docs.microsoft.com/windows-hardware/drivers/netcx/using-the-ring-buffer).
 
 ## -see-also

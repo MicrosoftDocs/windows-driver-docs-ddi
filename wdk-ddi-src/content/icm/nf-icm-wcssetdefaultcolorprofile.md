@@ -67,7 +67,7 @@ The <code>WcsSetDefaultColorProfile</code> function sets the default color profi
 
 A pointer to the name of the device for which the default color profile is to be set. If <b>NULL</b>, a device-independent default profile will be used. 
 
-The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_display_devicea)
+The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_display_devicea).
 
 
 

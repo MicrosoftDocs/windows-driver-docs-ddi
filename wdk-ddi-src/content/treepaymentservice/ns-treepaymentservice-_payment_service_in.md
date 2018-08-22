@@ -2,7 +2,7 @@
 UID: NS:treepaymentservice._PAYMENT_SERVICE_IN
 title: _PAYMENT_SERVICE_IN structure
 author: windows-driver-content
-description: 
+description: Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
 ms.assetid: 69ab7349-5e68-4da5-bbfb-4300140aeac5
 ms.author: windowsdriverdev
 ms.date: 
