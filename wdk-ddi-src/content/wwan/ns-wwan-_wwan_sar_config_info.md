@@ -58,7 +58,7 @@ A [**WWAN_SAR_WIFI_HARDWARE_INTEGRATION**](ne-wwan-_wwan_sar_wifi_hardware_integ
  
 ### -field SarConfigIndexListHeader
 
-A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) structure that represents a list of SAR configurations that the modem supports. The **ElementType** member in the **WWAN_LIST_HEADER** should be set to **WwanStructSarConfig**. The **ElementCount** member in the **WWAN_LIST_HEADER** should be set to the number of SAR configurations that follow the **WWAN_LIST_HEADER** structure.
+A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) structure that represents a list of SAR configurations that the modem supports. The **ElementType** member in the **WWAN_LIST_HEADER** should be set to **WwanStructSarConfig**. The **ElementCount** member in the **WWAN_LIST_HEADER** should be set to the number of [**WWAN_SAR_CONFIG_INDICES**](ns-wwan-_wwan_sar_config_indices.md) structures that follow the **WWAN_LIST_HEADER** structure.
 
 ## -remarks
 

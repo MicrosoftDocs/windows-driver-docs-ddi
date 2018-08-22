@@ -340,22 +340,22 @@ Asynchronous [OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/d
 
 ### -field WwanAsyncGetSarTransmissionStatus
 
-Asynchronous OID_WWAN_SAR_TRANSMISSION_STATUS get request.
+Asynchronous [OID_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-transmission-status) get request.
 
 
 ### -field WwanAsyncSetSarTransmissionStatus
 
-Asynchronous OID_WWAN_SAR_TRANSMISSION_STATUS set request.
+Asynchronous [OID_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-transmission-status) set request.
 
 
 ### -field WwanAsyncGetNetworkBlacklist
 
-Asynchronous OID_WWAN_NETWORK_BLACKLIST get request.
+Asynchronous [OID_WWAN_NETWORK_BLACKLIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-network-blacklist) get request.
 
 
 ### -field WwanAsyncSetNetworkBlacklist
 
-Asynchronous OID_WWAN_NETWORK_BLACKLIST set request.
+Asynchronous [OID_WWAN_NETWORK_BLACKLIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-network-blacklist) set request.
 
 
 ### -field WwanAsyncGetLteAttachConfig
