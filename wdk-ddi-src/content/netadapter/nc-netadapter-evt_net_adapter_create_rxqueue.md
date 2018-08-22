@@ -38,7 +38,8 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # EVT_NET_ADAPTER_CREATE_RXQUEUE callback function
@@ -49,7 +50,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The client driver's implementation of the *EvtNetAdapterCreateRxQueue* event callback function that sets up a receive (Rx) queue.
 
@@ -75,7 +76,7 @@ typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE;
 ## -parameters
 
 ### -param Adapter 
-The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
+The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 ### -param RxQueueInit 
 A pointer to a NetAdapterCx-allocated **NETRXQUEUE_INIT** structure. For more information, see the Remarks section.
@@ -87,21 +88,20 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 ## -remarks
 
-To register an EVT_NET_ADAPTER_CREATE_RXQUEUE callback function, the client driver must call [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
+To register an EVT_NET_ADAPTER_CREATE_RXQUEUE callback function, the client driver must call [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-The **NETRXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to [WDFDEVICE_INIT](https://msdn.microsoft.com/library/windows/hardware/ff546951).
+The **NETRXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to [**WDFDEVICE_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff546951).
 
-In this callback, the client driver might call [NetRxQueueInitGetQueueId](../netrxqueue/nf-netrxqueue-netrxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up.
+In this callback, the client driver might call [**NetRxQueueInitGetQueueId**](../netrxqueue/nf-netrxqueue-netrxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up.
 
-Next, the client calls [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EvtNetAdapterCreateRxQueue* callback function should return an error code.
+Next, the client calls [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EvtNetAdapterCreateRxQueue* callback function should return an error code.
 
-To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md), then use the [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure returned by that method to call [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md).
+To retrieve the ring buffer associated with a given queue, call [**NetRxQueueGetDatapathDescriptor**](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md), then use the [**NET_DATAPATH_DESCRIPTOR**](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure returned by that method to call [**NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER**](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md).
 
 
 ### Example
-NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.
 
-To configure additional properties for its Rx queues, such as DMA or receive buffer allocation requirements, the client driver sets its Rx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
+NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.
 
 Error handling code has been left out of this example for clarity.
 
@@ -109,17 +109,22 @@ Error handling code has been left out of this example for clarity.
 NTSTATUS
 EvtAdapterCreateRxQueue(
     _In_ NETADAPTER netAdapter,
-    _Inout_ PNETRXQUEUE_INIT rxQueueInit)
+    _Inout_ PNETRXQUEUE_INIT rxQueueInit
+    )
 {
     NTSTATUS status = STATUS_SUCCESS;
 
     // Prepare the configuration structure
-    NET_RXQUEUE_CONFIG rxConfig;
-    NET_RXQUEUE_CONFIG_INIT(
+    NET_PACKET_QUEUE_CONFIG rxConfig;
+    NET_PACKET_QUEUE_CONFIG_INIT(
         &rxConfig,
         EvtRxQueueAdvance,
         EvtRxQueueSetNotificationEnabled,
         EvtRxQueueCancel);
+
+    // Optional: register the queue's start and stop callbacks
+    rxConfig.EvtStart = EvtRxQueueStart;
+    rxConfig.EvtStop = EvtRxQueueStop;
 
     // Initialize the per-packet context
     NET_PACKET_CONTEXT_ATTRIBUTES myRxContextAttributes;
@@ -132,7 +137,7 @@ EvtAdapterCreateRxQueue(
     const ULONG queueId = NetRxQueueInitGetQueueId(rxQueueInit);
 
     // Create the receive queue
-    NETRXQUEUE rxQueue;
+    NETPACKETQUEUE rxQueue;
     status = NetRxQueueCreate(
         rxQueueInit,
         &rxAttributes,

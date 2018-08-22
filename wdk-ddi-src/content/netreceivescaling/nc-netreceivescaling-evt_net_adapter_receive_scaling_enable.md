@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The EvtNetAdapterReceiveScalingEnable callback function is implemented by the client driver to enable receive side scaling (RSS) for a network interface controller (NIC).
 ms.assetid: a37af139-8c98-4733-b2d2-cb0c9d67de35
 ms.author: windowsdriverdev
-ms.date: 03/08/2018
+ms.date: 07/13/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -14,7 +14,7 @@ req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.25
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -45,7 +45,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The *EvtNetAdapterReceiveScalingEnable* callback function is implemented by the client driver to enable receive side scaling (RSS) for a network interface controller (NIC).
 
@@ -60,7 +60,9 @@ EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE EvtNetAdapterReceiveScalingEnable;
 
 NTSTATUS EvtNetAdapterReceiveScalingEnable 
 (
-	_In_ NETADAPTER Adapter
+	_In_ NETADAPTER Adapter,
+	_In_ NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE HashType,
+	_In_ NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE ProtocolType
 )
 {...}
 
@@ -70,24 +72,28 @@ typedef EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE *PFN_NET_ADAPTER_RECEIVE_SCALING_
 ## -parameters
 
 ### -param Adapter 
+
 The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
+### -param HashType
+
+A [**NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE**](ne-netreceivescaling-_net_adapter_receive_scaling_hash_type.md) value that specifies the type of receive side scaling (RSS) hash function that a NIC should use to compute the hash values for incoming packets.
+
+### -param ProtocolType
+
+A [**NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE**](ne-netreceivescaling-_net_adapter_receive_scaling_protocol_type.md) value that specifies the portion of received network data that an RSS-capable NIC must use to calculate an RSS hash value.
+
 ## -returns
+
 Returns STATUS_SUCCESS if RSS was successfully enabled. Otherwise, returns an appropriate NTSTATUS error code.
 
 ## -remarks
-Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** from their *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function.
 
-
+Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ### Example
-In this callback, NIC client drivers get what information they need to turn RSS on for their NIC, such as the protocol types, hash function type, and hash secret key. Clients can use any of these helper methods to get the information they need:
 
-- [NetAdapterGetReceiveScalingProtocoltypes](nf-netreceivescaling-netadaptergetreceivescalingprotocoltypes.md)
-- [NetAdapterGetReceiveScalingHashType](nf-netreceivescaling-netadaptergetreceivescalinghashtype.md)
-- [NetAdapterGetReceiveScalingHashSecretKey](nf-netreceivescaling-netadaptergetreceivescalinghashsecretkey.md)
-
-Then, clients turn RSS on with the supplied information by setting the appropriate control bits in hardware. In this example, the client gets protocol types before enabling RSS.
+In this callback, clients turn RSS on with the supplied information by setting the appropriate control bits in hardware.
 
 > [!IMPORTANT]
 > Client drivers should **not** clear or reset their indirection table from their *EvtNetAdapterReceiveScalingEnable* callback. The framework will set the driver's initial indirection table state.
@@ -95,22 +101,24 @@ Then, clients turn RSS on with the supplied information by setting the appropria
 ```C++
 NTSTATUS
 MyEvtNetAdapterReceiveScalingEnable(
-	_In_ NETADAPTER Adapter
+	_In_ NETADAPTER Adapter,
+	_In_ NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE HashType,
+	_In_ NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE ProtocolType
 )
 {
 	NTSTATUS status = STATUS_SUCCESS;
 
-	const NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE protocolTypes = NetAdapterGetReceiveScalingProtocolTypes(Adapter);
+	// Not using the hash type in this example
+	UNREFERENCED_PARAMETER(HashType);
 
 	UINT32 controlBitsEnable = MY_RSS_MULTI_CPU_ENABLE | MY_RSS_HASH_BITS_ENABLE;
 
-	// Set the appropriate control bits
-
-	if(protocolTypes & NetAdapterReceiveScalingProtocolTypeIPv4)
+	// Set the appropriate control bits for IPv4
+	if(ProtocolType & NetAdapterReceiveScalingProtocolTypeIPv4)
 	{
 		controlBitsEnable |= MY_RSS_IPV4_ENABLE;
 
-		if (protocolTypes & NetAdapterReceiveScalingProtocolTypeTcp)
+		if (ProtocolType & NetAdapterReceiveScalingProtocolTypeTcp)
         {
             controlBitsEnable |= MY_RSS_IPV4_TCP_ENABLE;
         }
@@ -133,11 +141,6 @@ MyEvtNetAdapterReceiveScalingEnable(
 ```
 
 ## -see-also
-[NetAdapterGetReceiveScalingProtocoltypes](nf-netreceivescaling-netadaptergetreceivescalingprotocoltypes.md)
-
-[NetAdapterGetReceiveScalingHashType](nf-netreceivescaling-netadaptergetreceivescalinghashtype.md)
-
-[NetAdapterGetReceiveScalingHashSecretKey](nf-netreceivescaling-netadaptergetreceivescalinghashsecretkey.md)
 
 *[EvtNetAdapterReceiveScalingDisable](nc-netreceivescaling-evt_net_adapter_receive_scaling_disable.md)*
 
