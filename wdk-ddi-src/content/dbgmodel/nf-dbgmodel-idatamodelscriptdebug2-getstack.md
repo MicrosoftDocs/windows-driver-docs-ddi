@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5f780a6c-c765-4b6f-baa9-d8367bfdbbec
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::GetStack, GetStack, IDataModelScriptDebug2.GetStack, IDataModelScriptDebug2::GetStack, IDataModelScriptDebug2.GetStack
 req.header: dbgmodel.h
@@ -43,16 +43,18 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+The GetStack method gets the current call stack at the break position. This method may only be called when the script is broken into the debugger. 
 
 ## -parameters
 
 ### -param stack
 
+A component implementing IDataModelScriptDebugStack is returned here representing the call stack state at the position of the break.
 
 ## -returns
-This method returns HRESULT.
-## -remarks
+
+This method returns HRESULT that indicates success or failure.
 
 ## -see-also
+
+[IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)

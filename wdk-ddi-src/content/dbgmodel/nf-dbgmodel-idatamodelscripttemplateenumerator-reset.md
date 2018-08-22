@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 465eb32a-bb01-4bf6-ad62-5187ec877972
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplateEnumerator::Reset, Reset, IDataModelScriptTemplateEnumerator.Reset, IDataModelScriptTemplateEnumerator::Reset, IDataModelScriptTemplateEnumerator.Reset
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Reset method resets the enumerator to the position it was at when it was first created -- before the first template produced. 
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptTemplateEnumerator interface](nn-dbgmodel-idatamodelscripttemplateenumerator.md)

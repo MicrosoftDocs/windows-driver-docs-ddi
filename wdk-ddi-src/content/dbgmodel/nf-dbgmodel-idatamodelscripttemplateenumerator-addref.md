@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 768fcce5-8cdd-40d4-bed5-f1ccb73b9f5a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplateEnumerator::AddRef, AddRef, IDataModelScriptTemplateEnumerator.AddRef, IDataModelScriptTemplateEnumerator::AddRef, IDataModelScriptTemplateEnumerator.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptTemplateEnumerator interface](nn-dbgmodel-idatamodelscripttemplateenumerator.md)

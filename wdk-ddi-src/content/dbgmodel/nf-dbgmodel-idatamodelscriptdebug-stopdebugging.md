@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 92a0f999-c123-4130-afcd-581deae19647
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018 
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::StopDebugging, StopDebugging, IDataModelScriptDebug.StopDebugging, IDataModelScriptDebug::StopDebugging, IDataModelScriptDebug.StopDebugging
 req.header: dbgmodel.h
@@ -44,15 +44,20 @@ targetos: Windows
 
 ## -description
 
-TBD
+The StopDebugging method is called by a client that wants to stop debugging. This method call may be made at any point after StartDebugging was made successfully (e.g.: during a break, while the script is executing, etc...). The call immediately ceases all debugging activity and resets the state back to before StartDebugging was called. 
 
 ## -parameters
 
 ### -param debugClient
 
+The debug client which is stopping debugging. This should match the debug client passed to the StartDebugging call. A non-matching client is an illegal call.
 
 ## -returns
-This method returns HRESULT.
+
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 86cb85cf-370b-488d-b656-e2998c96832b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProviderEnumerator::QueryInterface, QueryInterface, IDataModelScriptProviderEnumerator.QueryInterface, IDataModelScriptProviderEnumerator::QueryInterface, IDataModelScriptProviderEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptProviderEnumerator interface](nn-dbgmodel-idatamodelscriptproviderenumerator.md)
