@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 author: windows-driver-content
 description: Indicates the level of support by the hardware and user-mode display driver for tiled resources.
 old-location: display\d3dwddm1_3ddi_tiled_resources_support_flag.htm
-tech.root: display
 ms.assetid: 5EEF8C68-0DE7-466B-946F-37157B21C9B7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 ---
 

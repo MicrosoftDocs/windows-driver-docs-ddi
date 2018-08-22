@@ -4,7 +4,6 @@ title: D3DKMTUpdateGpuVirtualAddress function
 author: windows-driver-content
 description: D3DKMTUpdateGpuVirtualAddress is a special operation used in the context of tile resources. It allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 old-location: display\d3dkmtupdategpuvirtualaddress.htm
-tech.root: display
 ms.assetid: 3390A01D-BD4B-4399-AA3E-91BB32264A13
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

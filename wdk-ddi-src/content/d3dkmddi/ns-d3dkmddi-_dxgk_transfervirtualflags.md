@@ -4,7 +4,6 @@ title: "_DXGK_TRANSFERVIRTUALFLAGS"
 author: windows-driver-content
 description: DXGK_TRANSFERVIRTUALFLAGS is used as part of an allocation transfer operation.
 old-location: display\dxgk_transfervirtualflags.htm
-tech.root: display
 ms.assetid: E5323A30-5BBE-4084-9F99-91FBDD680C12
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_TRANSFERVIRTUALFLAGS
 ---
 

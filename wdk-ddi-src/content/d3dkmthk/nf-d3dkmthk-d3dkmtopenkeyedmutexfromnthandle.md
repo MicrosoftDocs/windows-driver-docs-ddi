@@ -25,17 +25,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Gdi32.dll
-apiname:
+api_name:
 -	D3DKMTOpenKeyedMutexFromNtHandle
 product: 
 -	Windows
 targetos: Windows
+tech.root: display
 
 ---
 

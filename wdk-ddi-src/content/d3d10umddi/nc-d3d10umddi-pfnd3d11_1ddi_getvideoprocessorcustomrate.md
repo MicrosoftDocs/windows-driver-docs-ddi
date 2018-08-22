@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE
 author: windows-driver-content
 description: Queries a custom frame rate that is associated with a rate conversion capability group.
 old-location: display\getvideoprocessorcustomrate.htm
-tech.root: display
 ms.assetid: 49aec00a-8d63-4ec9-966a-0826354fbbe0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_VS_SRV_CB
 author: windows-driver-content
 description: The pfnStateVsSrvCb function causes the Microsoft Direct3D 10 runtime to refresh the vertex shader stage's bound shader resource views.
 old-location: display\pfnstatevssrvcb.htm
-tech.root: display
 ms.assetid: 5102104e-b79c-40e5-87de-9ccf848288db
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
 author: windows-driver-content
 description: Used to calculate the size of a protected resource session.
 old-location: display\pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0030.htm
-tech.root: display
 ms.assetid: 3D677BE9-32D7-4EA4-988F-83A64CFA3FFC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

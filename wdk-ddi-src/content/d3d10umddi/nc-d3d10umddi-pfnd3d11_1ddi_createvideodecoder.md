@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEVIDEODECODER
 author: windows-driver-content
 description: Creates a video decoder object.
 old-location: display\createvideodecoder.htm
-tech.root: display
 ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

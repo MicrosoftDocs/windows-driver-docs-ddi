@@ -4,7 +4,6 @@ title: "_DXGKARG_FLIPOVERLAY"
 author: windows-driver-content
 description: The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\dxgkarg_flipoverlay.htm
-tech.root: display
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_FLIPOVERLAY
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_ADDPATH
 author: windows-driver-content
 description: The pfnAddPath function adds a video present path to a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnaddpath.htm
-tech.root: display
 ms.assetid: 893e0be1-aa29-429a-a3ca-a9f19053fd92
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

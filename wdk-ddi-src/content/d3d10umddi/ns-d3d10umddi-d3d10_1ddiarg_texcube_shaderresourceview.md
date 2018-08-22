@@ -4,7 +4,6 @@ title: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 author: windows-driver-content
 description: The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures that are used to create a shader resource view in a call to the CreateShaderResourceView(D3D10_1) function.
 old-location: display\d3d10_1ddiarg_texcube_shaderresourceview.htm
-tech.root: display
 ms.assetid: 89d0b6fa-b990-43a9-a943-76d270b507cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 ---
 

@@ -4,7 +4,6 @@ title: D3D11DDI_3DPIPELINESUPPORT_CAPS
 author: windows-driver-content
 description: The D3D11DDI_3DPIPELINESUPPORT_CAPS structure contains display device pipeline capabilities.
 old-location: display\d3d11ddi_3dpipelinesupport_caps.htm
-tech.root: display
 ms.assetid: 69bafa36-2f99-4c6f-b5ed-99a7030b22e6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDI_3DPIPELINESUPPORT_CAPS
 ---
 

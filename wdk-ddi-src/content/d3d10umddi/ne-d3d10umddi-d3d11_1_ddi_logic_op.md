@@ -4,7 +4,6 @@ title: D3D11_1_DDI_LOGIC_OP
 author: windows-driver-content
 description: Indicates shader logic operations used in a blend state.
 old-location: display\d3d11_1_ddi_logic_op.htm
-tech.root: display
 ms.assetid: 5ea964a2-7d80-4846-bee8-a5476cc8d0fa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1_DDI_LOGIC_OP
 ---
 

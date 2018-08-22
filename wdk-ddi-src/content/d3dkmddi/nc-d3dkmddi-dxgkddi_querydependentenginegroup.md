@@ -4,7 +4,6 @@ title: DXGKDDI_QUERYDEPENDENTENGINEGROUP
 author: windows-driver-content
 description: Called by the display port driver's GPU scheduler to query dependencies of nodes in a physical display adapter.
 old-location: display\dxgkddiquerydependentenginegroup.htm
-tech.root: display
 ms.assetid: 42040ffc-40a3-4794-805c-7a165c47c8c9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

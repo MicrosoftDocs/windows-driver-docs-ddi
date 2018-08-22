@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY
 author: windows-driver-content
 description: Sets the luma key for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamlumakey.htm
-tech.root: display
 ms.assetid: 1b5ca40d-1836-4c80-af55-8d20c6792445
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

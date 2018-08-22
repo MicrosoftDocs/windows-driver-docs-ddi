@@ -4,7 +4,6 @@ title: "_DXGK_GLITCH_DURATION"
 author: windows-driver-content
 description: Enumeration that describes the duration of a user visible effect of a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_duration.htm
-tech.root: display
 ms.assetid: 8B6597A7-D652-4143-9320-7FB8E98FE8EC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GLITCH_DURATION
 ---
 

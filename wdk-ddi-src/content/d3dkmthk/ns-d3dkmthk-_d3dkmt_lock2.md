@@ -4,7 +4,6 @@ title: "_D3DKMT_LOCK2"
 author: windows-driver-content
 description: D3DKMT_LOCK2 describes parameters for locking an allocation.
 old-location: display\d3dkmt_lock2.htm
-tech.root: display
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_LOCK2
 ---
 

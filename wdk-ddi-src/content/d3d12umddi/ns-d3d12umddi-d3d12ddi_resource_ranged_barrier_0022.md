@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_RANGED_BARRIER_0022
 author: windows-driver-content
 description: Describes a resource ranged barrier.
 old-location: display\d3d12ddi_resource_ranged_barrier_0022.htm
-tech.root: display
 ms.assetid: 759BA42A-2F38-42D3-A245-8DEA2919DC39
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_RANGED_BARRIER_0022
 ---
 

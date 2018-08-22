@@ -4,7 +4,6 @@ title: "_DXGKARG_RENDER"
 author: windows-driver-content
 description: The DXGKARG_RENDER structure describes members for generating a direct memory access (DMA) buffer from a command buffer.
 old-location: display\dxgkarg_render.htm
-tech.root: display
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_RENDER
 ---
 

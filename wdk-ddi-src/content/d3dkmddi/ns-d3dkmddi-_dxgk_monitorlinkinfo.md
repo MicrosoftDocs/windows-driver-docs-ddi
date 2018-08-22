@@ -4,7 +4,7 @@ title: "_DXGK_MONITORLINKINFO"
 author: windows-driver-content
 description: This structure was defined in WDDM 2.1, however the usage hints and capabilities structure definitions were nested within DXGK_MONITORLINKINFO.
 old-location: display\dxgk_monitorlinkinfo.htm
-tech.root: display
+
 ms.assetid: 4A22CC69-F529-4D0B-BF00-877468E29429
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MONITORLINKINFO
 ---
 

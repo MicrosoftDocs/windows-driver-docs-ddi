@@ -4,7 +4,6 @@ title: "_DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS"
 author: windows-driver-content
 description: DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS provides additional information to the driver in a DxgkCbHardwareContentProtectionTeardown call.
 old-location: display\dxgk_hardware_content_protection_teardown_flags.htm
-tech.root: display
 ms.assetid: C9D2763D-D129-429C-AA30-85EF4D30F730
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
 ---
 

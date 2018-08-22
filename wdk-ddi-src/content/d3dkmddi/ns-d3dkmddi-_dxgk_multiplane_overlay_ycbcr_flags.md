@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 author: windows-driver-content
 description: Identifies YUV range and conversion info that describes a multiplane overlay.
 old-location: display\dxgk_multiplane_overlay_ycbcr_flags.htm
-tech.root: display
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 

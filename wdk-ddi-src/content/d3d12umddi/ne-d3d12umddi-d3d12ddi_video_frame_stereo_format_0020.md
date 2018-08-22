@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
 author: windows-driver-content
 description: Defines the layout in memory of a stereo 3D video frame.
 old-location: display\d3d12ddi_video_frame_stereo_format.htm
-tech.root: display
 ms.assetid: 91C5C387-320C-4ABE-98AB-36D2CDE7428F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
 ---
 

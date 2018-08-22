@@ -26,13 +26,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DXGKCB_REPORT_DIAGNOSTIC
 product: 
 - Windows

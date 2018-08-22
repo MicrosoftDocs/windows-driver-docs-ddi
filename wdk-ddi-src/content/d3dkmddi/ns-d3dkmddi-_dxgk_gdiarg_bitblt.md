@@ -4,7 +4,6 @@ title: "_DXGK_GDIARG_BITBLT"
 author: windows-driver-content
 description: The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) with no stretching.
 old-location: display\dxgk_gdiarg_bitblt.htm
-tech.root: display
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_BITBLT
 ---
 

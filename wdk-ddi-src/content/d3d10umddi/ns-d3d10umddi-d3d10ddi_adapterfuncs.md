@@ -4,7 +4,6 @@ title: D3D10DDI_ADAPTERFUNCS
 author: windows-driver-content
 description: The D3D10DDI_ADAPTERFUNCS structure contains functions that the user-mode display driver can implement to communicate with a graphics adapter object.
 old-location: display\d3d10ddi_adapterfuncs.htm
-tech.root: display
 ms.assetid: 11a38b89-cc74-4921-855a-3fd795522945
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDI_ADAPTERFUNCS
 ---
 

@@ -23,17 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure

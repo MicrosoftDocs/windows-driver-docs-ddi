@@ -4,7 +4,6 @@ title: DXGKDDI_CREATEALLOCATION
 author: windows-driver-content
 description: The DxgkDdiCreateAllocation function creates allocations of system or video memory.
 old-location: display\dxgkddicreateallocation.htm
-tech.root: display
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_SWIZZLE_BIT_ENTRY
 author: windows-driver-content
 description: Defines a swizzle bit entry.
 old-location: display\d3d12ddi_swizzle_bit_entry.htm
-tech.root: display
 ms.assetid: B7FF7AA2-39B2-4D9E-8DDC-0A39FFF49F37
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_SWIZZLE_BIT_ENTRY
 ---
 

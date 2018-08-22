@@ -4,7 +4,6 @@ title: DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
 author: windows-driver-content
 description: Used to create a periodic frame notification.
 old-location: display\dxgkddi_createperiodicframenotification.htm
-tech.root: display
 ms.assetid: EE11227A-E576-49C6-AEF1-CBE0AD788275
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

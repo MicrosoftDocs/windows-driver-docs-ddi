@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030
 author: windows-driver-content
 description: Video crypto session support data.
 old-location: display\d3d12ddi-video-crypto-session-support-data-0030.htm
-tech.root: display
 ms.assetid: 6a1a2c3e-a120-4b5e-bd25-02cb3ab11e9c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030
 ---
 

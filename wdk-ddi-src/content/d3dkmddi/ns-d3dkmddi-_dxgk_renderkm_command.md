@@ -4,7 +4,6 @@ title: "_DXGK_RENDERKM_COMMAND"
 author: windows-driver-content
 description: The DXGK_RENDERKM_COMMAND structure is used to construct a command buffer to control GDI hardware-accelerated rendering.
 old-location: display\dxgk_renderkm_command.htm
-tech.root: display
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_RENDERKM_COMMAND
 ---
 

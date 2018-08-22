@@ -4,7 +4,6 @@ title: D3DKMTDestroyHwQueue function
 author: windows-driver-content
 description: Used to destroy a hardware queue.
 old-location: display\d3dkmtdestroyhwqueue.htm
-tech.root: display
 ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

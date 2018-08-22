@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
 author: windows-driver-content
 description: Provides status information for an existing CryptoSession object.
 old-location: display\d3dwddm2_0ddi_crypto_session_status.htm
-tech.root: display
 ms.assetid: DBAFEAE2-66B6-4F2F-801D-21B7792BCA60
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
 ---
 

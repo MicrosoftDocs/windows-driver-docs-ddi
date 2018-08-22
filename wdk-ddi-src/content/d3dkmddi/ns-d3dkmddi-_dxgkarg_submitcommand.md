@@ -4,7 +4,6 @@ title: "_DXGKARG_SUBMITCOMMAND"
 author: windows-driver-content
 description: The DXGKARG_SUBMITCOMMAND structure describes the direct memory access (DMA) buffer that a display miniport driver submits to the hardware command execution unit.
 old-location: display\dxgkarg_submitcommand.htm
-tech.root: display
 ms.assetid: f0b5c7aa-855e-419a-ac27-c9f4edefd648
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SUBMITCOMMAND
 ---
 

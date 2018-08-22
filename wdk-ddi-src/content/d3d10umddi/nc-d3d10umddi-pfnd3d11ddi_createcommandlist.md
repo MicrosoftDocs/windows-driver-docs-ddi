@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATECOMMANDLIST
 author: windows-driver-content
 description: The CreateCommandList function creates a command list.
 old-location: display\createcommandlist.htm
-tech.root: display
 ms.assetid: 583bde52-ba21-44ce-9f48-8ace6f7a70cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

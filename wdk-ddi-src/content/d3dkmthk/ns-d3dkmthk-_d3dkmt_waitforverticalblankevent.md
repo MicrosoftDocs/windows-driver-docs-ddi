@@ -4,7 +4,6 @@ title: "_D3DKMT_WAITFORVERTICALBLANKEVENT"
 author: windows-driver-content
 description: The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 old-location: display\d3dkmt_waitforverticalblankevent.htm
-tech.root: display
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_WAITFORVERTICALBLANKEVENT
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
 author: windows-driver-content
 description: The pfnShaderCacheStoreValueCb callback function stores a shader cache value.
 old-location: display\pfnd3d12ddi_shadercachestorevalue_cb_0021.htm
-tech.root: display
 ms.assetid: F47C4E6E-4B09-4461-85F6-2E850CE2A2F6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

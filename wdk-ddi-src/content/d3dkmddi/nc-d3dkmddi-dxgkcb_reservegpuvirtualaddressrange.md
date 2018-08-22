@@ -4,7 +4,6 @@ title: DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
 author: windows-driver-content
 description: DxgkCbReserveGpuVirtualAddressRange allows the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
 old-location: display\dxgkcbreservegpuvirtualaddressrange.htm
-tech.root: display
 ms.assetid: 26A827F1-1094-4A7D-9C63-758925EE6273
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -42,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D10DDIARG_CREATERENDERTARGETVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_CREATERENDERTARGETVIEW structure describes the render target view to create.
 old-location: display\d3d10ddiarg_createrendertargetview.htm
-tech.root: display
 ms.assetid: 2d21aacb-3b2b-4c33-ac35-9f15c1fa8171
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_CREATERENDERTARGETVIEW
 ---
 

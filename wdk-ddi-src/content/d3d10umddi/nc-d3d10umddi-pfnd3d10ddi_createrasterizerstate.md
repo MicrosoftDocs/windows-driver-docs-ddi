@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATERASTERIZERSTATE
 author: windows-driver-content
 description: The CreateRasterizerState function creates a rasterizer state.
 old-location: display\createrasterizerstate.htm
-tech.root: display
 ms.assetid: 4507b92e-2437-4f90-b527-e06773ca1e08
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

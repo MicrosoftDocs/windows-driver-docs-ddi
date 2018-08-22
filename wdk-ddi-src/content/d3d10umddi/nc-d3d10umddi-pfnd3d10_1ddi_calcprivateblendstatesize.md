@@ -4,7 +4,6 @@ title: PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE
 author: windows-driver-content
 description: The CalcPrivateBlendStateSize(D3D10_1) function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a blend state.
 old-location: display\calcprivateblendstatesize_d3d10_1_.htm
-tech.root: display
 ms.assetid: 6f48290e-d571-4e59-9f33-58398db5b6fb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

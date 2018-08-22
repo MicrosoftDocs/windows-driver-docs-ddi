@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021
 author: windows-driver-content
 description: The pfnDestroyVideoProcessor callback function destroys a video processor.
 old-location: display\pfnd3d12ddi_destroyvideoprocessor.htm
-tech.root: display
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

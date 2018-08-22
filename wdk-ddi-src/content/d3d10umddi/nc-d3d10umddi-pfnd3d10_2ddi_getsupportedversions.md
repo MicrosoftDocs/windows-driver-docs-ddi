@@ -4,7 +4,6 @@ title: PFND3D10_2DDI_GETSUPPORTEDVERSIONS
 author: windows-driver-content
 description: The GetSupportedVersions function queries for the Direct3D interface versions that the driver supports.
 old-location: display\getsupportedversions.htm
-tech.root: display
 ms.assetid: b38683f3-42f2-4f5e-9482-f72e9f2e0a34
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYDEVICE
 author: windows-driver-content
 description: The DestroyDevice(D3D10) function destroys the specified device object.
 old-location: display\destroydevice_d3d10_.htm
-tech.root: display
 ms.assetid: 90ada8c8-8ad8-4992-aac1-6eb7fdf3f249
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

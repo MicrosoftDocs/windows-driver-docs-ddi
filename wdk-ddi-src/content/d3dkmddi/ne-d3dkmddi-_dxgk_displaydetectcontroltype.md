@@ -4,7 +4,6 @@ title: "_DXGK_DISPLAYDETECTCONTROLTYPE"
 author: windows-driver-content
 description: Enumeration indicating the type of display detection action.
 old-location: display\dxgk_displaydetectcontroltype.htm
-tech.root: display
 ms.assetid: D777342E-439E-4BEF-9DCC-7962B1AF8EAB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_DISPLAYDETECTCONTROLTYPE
 ---
 

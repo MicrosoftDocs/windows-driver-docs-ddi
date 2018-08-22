@@ -4,7 +4,6 @@ title: PFND3D11DDI_DESTROYCOMMANDLIST
 author: windows-driver-content
 description: The DestroyCommandList function destroys a command list.
 old-location: display\destroycommandlist.htm
-tech.root: display
 ms.assetid: 9f03c193-f017-4189-a082-908e28a2e9f7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

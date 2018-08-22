@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0021
 author: windows-driver-content
 description: Specifies core device functions.
 old-location: display\d3d12ddi_device_funcs_core_0021.htm
-tech.root: display
 ms.assetid: 4E4C3DB3-9C4C-4BBC-82C4-C5C41C0B818C
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0021
 ---
 

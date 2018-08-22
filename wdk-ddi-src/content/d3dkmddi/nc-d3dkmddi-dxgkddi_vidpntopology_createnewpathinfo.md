@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
 author: windows-driver-content
 description: The pfnCreateNewPathInfo function returns a pointer to a D3DKMDT_VIDPN_PRESENT_PATH structure that the display miniport driver populates before calling pfnAddPath.
 old-location: display\dxgk_vidpntopology_interface_pfncreatenewpathinfo.htm
-tech.root: display
 ms.assetid: 2d9a4e10-514d-4ea9-9d60-0bbb7cdca29d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

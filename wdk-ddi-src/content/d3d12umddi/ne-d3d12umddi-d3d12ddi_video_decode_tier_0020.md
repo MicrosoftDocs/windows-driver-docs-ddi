@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_TIER_0020
 author: windows-driver-content
 description: Specifies the video decode tier.
 old-location: display\d3d12ddi_video_decode_tier.htm
-tech.root: display
 ms.assetid: CC4B83A3-1F57-493F-840F-F0F799B631E6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_TIER_0020
 ---
 

@@ -4,7 +4,6 @@ title: PFND3DKMT_CLOSEADAPTER
 author: windows-driver-content
 description: The D3DKMTCloseAdapter function closes a graphics adapter that was previously opened by using the D3DKMTOpenAdapterFromHdc function.
 old-location: display\d3dkmtcloseadapter.htm
-tech.root: display
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

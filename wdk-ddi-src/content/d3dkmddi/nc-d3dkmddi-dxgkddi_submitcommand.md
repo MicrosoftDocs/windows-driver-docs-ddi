@@ -4,7 +4,6 @@ title: DXGKDDI_SUBMITCOMMAND
 author: windows-driver-content
 description: The DxgkDdiSubmitCommand function submits a direct memory access (DMA) buffer to the hardware command execution unit.
 old-location: display\dxgkddisubmitcommand.htm
-tech.root: display
 ms.assetid: de1925ab-e444-4cf6-acd9-8fdab26afcec
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

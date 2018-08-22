@@ -4,7 +4,6 @@ title: "_D3DKMT_SETCONTEXTSCHEDULINGPRIORITY"
 author: windows-driver-content
 description: The D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure describes parameters for setting scheduling priority for a device context.
 old-location: display\d3dkmt_setcontextschedulingpriority.htm
-tech.root: display
 ms.assetid: 879c7117-080a-4056-b94f-6462b370f434
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
 ---
 

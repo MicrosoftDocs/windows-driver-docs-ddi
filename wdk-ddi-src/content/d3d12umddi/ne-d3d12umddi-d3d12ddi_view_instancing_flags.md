@@ -4,7 +4,6 @@ title: D3D12DDI_VIEW_INSTANCING_FLAGS
 author: windows-driver-content
 description: Defines the view instancing flags.
 old-location: display\d3d12ddi-view-instancing-flags.htm
-tech.root: display
 ms.assetid: fa44933f-aa3b-466a-8ee2-2d34d0311562
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIEW_INSTANCING_FLAGS
 ---
 

@@ -4,7 +4,6 @@ title: DXGKCB_UPDATECONTEXTALLOCATION
 author: windows-driver-content
 description: DxgkCbUpdateContextAllocation is used to update the content of a context allocation.
 old-location: display\dxgkcbupdatecontextallocation.htm
-tech.root: display
 ms.assetid: 708A33C2-9620-4259-845A-2F862B6F209B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

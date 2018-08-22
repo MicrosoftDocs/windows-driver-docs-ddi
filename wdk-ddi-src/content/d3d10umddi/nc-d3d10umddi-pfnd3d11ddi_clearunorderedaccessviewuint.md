@@ -4,7 +4,6 @@ title: PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT
 author: windows-driver-content
 description: The ClearUnorderedAccessViewUINT function clears the specified unordered-access view by setting it to a constant value.
 old-location: display\clearunorderedaccessviewuint.htm
-tech.root: display
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

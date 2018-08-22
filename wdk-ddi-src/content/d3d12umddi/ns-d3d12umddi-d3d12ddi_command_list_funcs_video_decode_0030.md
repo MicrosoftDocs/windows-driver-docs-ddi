@@ -4,7 +4,6 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
 author: windows-driver-content
 description: Command list functions for video decode.
 old-location: display\d3d12ddi-command-list-funcs-video-decode-0030.htm
-tech.root: display
 ms.assetid: ca1b9c07-0195-4e0d-9917-96def0a8ea47
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
 ---
 

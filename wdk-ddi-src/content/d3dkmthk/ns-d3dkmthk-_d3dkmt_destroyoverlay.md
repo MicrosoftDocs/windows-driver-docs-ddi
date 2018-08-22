@@ -4,7 +4,6 @@ title: "_D3DKMT_DESTROYOVERLAY"
 author: windows-driver-content
 description: The D3DKMT_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 old-location: display\d3dkmt_destroyoverlay.htm
-tech.root: display
 ms.assetid: b1b8554f-8d6b-4c2e-b6b8-fcbfc97f5dd9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DESTROYOVERLAY
 ---
 

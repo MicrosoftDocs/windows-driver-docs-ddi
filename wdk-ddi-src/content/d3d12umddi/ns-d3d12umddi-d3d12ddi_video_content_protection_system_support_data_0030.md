@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030
 author: windows-driver-content
 description: Video content protection system support data.
 old-location: display\d3d12ddi-video-content-protection-system-support-data-0030.htm
-tech.root: display
 ms.assetid: 82096e3b-574d-44f6-85a9-b560749f6472
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030
 ---
 

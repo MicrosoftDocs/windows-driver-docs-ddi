@@ -4,7 +4,6 @@ title: D3D10DDI_QUERY
 author: windows-driver-content
 description: The D3D10DDI_QUERY enumeration type contains values that identify a query type.
 old-location: display\d3d10ddi_query.htm
-tech.root: display
 ms.assetid: f33dad71-f50a-4524-8f95-abc24e4d2ce2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDI_QUERY
 ---
 

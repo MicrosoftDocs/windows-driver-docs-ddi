@@ -4,7 +4,6 @@ title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE
 author: windows-driver-content
 description: Contains input data for a call to the ConfigureAuthenticatedChannel(D3D11_1) function when D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT.ConfigureType has a GUID value of D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE.
 old-location: display\d3d11_1ddi_authenticated_configure_shared_resource.htm
-tech.root: display
 ms.assetid: 004046d1-552e-43a5-94b1-30b113e8b40e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE
 ---
 

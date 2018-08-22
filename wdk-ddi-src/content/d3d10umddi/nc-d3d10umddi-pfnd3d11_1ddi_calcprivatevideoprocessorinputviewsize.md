@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE
 author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video processor input view state.
 old-location: display\calcprivatevideoprocessorinputviewsize.htm
-tech.root: display
 ms.assetid: 3cdf467c-41f5-4a44-b10a-41aeb76ca815
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

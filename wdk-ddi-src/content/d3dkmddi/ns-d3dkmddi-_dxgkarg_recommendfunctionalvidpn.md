@@ -4,7 +4,6 @@ title: "_DXGKARG_RECOMMENDFUNCTIONALVIDPN"
 author: windows-driver-content
 description: The DXGKARG_RECOMMENDFUNCTIONALVIDPN structure contains arguments for the DxgkDdiRecommendFunctionalVidPn function.
 old-location: display\dxgkarg_recommendfunctionalvidpn.htm
-tech.root: display
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ---
 

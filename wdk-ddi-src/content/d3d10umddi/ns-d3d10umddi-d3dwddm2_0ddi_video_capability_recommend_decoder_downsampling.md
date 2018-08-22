@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
 author: windows-driver-content
 description: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING is used by the user-mode driver to recommend downsampling parameters that can be used to decode the stream in real-time.
 old-location: display\d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling.htm
-tech.root: display
 ms.assetid: 5BC38128-8866-48C9-B5C5-4D6B6DB793E0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
 ---
 

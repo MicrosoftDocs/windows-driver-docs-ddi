@@ -4,7 +4,6 @@ title: D3DKMTGetSharedResourceAdapterLuid function
 author: windows-driver-content
 description: Maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
 old-location: display\d3dkmtgetsharedresourceadapterluid.htm
-tech.root: display
 ms.assetid: 880bf5bd-eadc-480f-a10c-f6d57f670857
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

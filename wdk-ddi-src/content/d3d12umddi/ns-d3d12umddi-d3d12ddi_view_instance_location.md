@@ -4,7 +4,6 @@ title: D3D12DDI_VIEW_INSTANCE_LOCATION
 author: windows-driver-content
 description: View instance location.
 old-location: display\d3d12ddi-view-instance-location.htm
-tech.root: display
 ms.assetid: 1b31ac34-233b-4246-a1c3-d0aac0f35db6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIEW_INSTANCE_LOCATION
 ---
 

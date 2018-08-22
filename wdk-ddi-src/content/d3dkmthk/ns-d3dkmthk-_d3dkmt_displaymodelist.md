@@ -4,7 +4,6 @@ title: "_D3DKMT_DISPLAYMODELIST"
 author: windows-driver-content
 description: Describes a list of display modes.
 old-location: display\d3dkmt_displaymodelist.htm
-tech.root: display
 ms.assetid: 2eb99f42-3639-4327-a880-47e18d1da71d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DISPLAYMODELIST
 ---
 

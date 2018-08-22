@@ -4,7 +4,6 @@ title: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
 author: windows-driver-content
 description: Describes precision support options for shaders in the user-mode display driver.
 old-location: display\d3d11_ddi_shader_min_precision_support_data.htm
-tech.root: display
 ms.assetid: e93649d1-4ad0-4873-99c7-b2f3ed48aac6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_CREATEDEVICE
 author: windows-driver-content
 description: The DxgkDdiCreateDevice function creates a graphics context device that is subsequently used in calls to the display miniport driver's device-specific functions.
 old-location: display\dxgkddicreatedevice.htm
-tech.root: display
 ms.assetid: a7027735-0ec4-4fad-81fb-1c3aca4ebf2d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

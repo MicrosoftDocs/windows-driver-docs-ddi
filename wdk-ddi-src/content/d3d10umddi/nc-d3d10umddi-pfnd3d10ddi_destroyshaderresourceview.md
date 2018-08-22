@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYSHADERRESOURCEVIEW
 author: windows-driver-content
 description: The DestroyShaderResourceView function destroys the specified shader resource view object. The shader resource view object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyshaderresourceview.htm
-tech.root: display
 ms.assetid: dcdfe76e-a392-4a76-91fe-03648fec1278
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

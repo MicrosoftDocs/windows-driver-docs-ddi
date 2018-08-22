@@ -4,7 +4,6 @@ title: "_DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION describes an operation used to update the content of a context or device allocation.
 old-location: display\dxgk_buildpagingbuffer_updatecontextallocation.htm
-tech.root: display
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
 ---
 

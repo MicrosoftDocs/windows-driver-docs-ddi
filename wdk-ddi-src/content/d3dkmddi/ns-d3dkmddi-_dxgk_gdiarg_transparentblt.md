@@ -4,7 +4,6 @@ title: "_DXGK_GDIARG_TRANSPARENTBLT"
 author: windows-driver-content
 description: The DXGK_GDIARG_TRANSPARENTBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) operation with transparency.
 old-location: display\dxgk_gdiarg_transparentblt.htm
-tech.root: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_TRANSPARENTBLT
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_QUERYSEGMENTIN"
 author: windows-driver-content
 description: The DXGK_QUERYSEGMENTIN structure describes relevant information for a memory-segment query through a call to the display miniport driver's DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentin.htm
-tech.root: display
 ms.assetid: 5a3e6edf-40c7-49f3-8394-0e54c080c92c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_QUERYSEGMENTIN
 ---
 

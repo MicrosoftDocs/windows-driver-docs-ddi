@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS"
 author: windows-driver-content
 description: Indicates how a kernel mode display-only driver (KMDOD) is to perform a present operation.
 old-location: display\d3dkmt_present_display_only_flags.htm
-tech.root: display
 ms.assetid: a45dfdeb-06d2-49c8-a6e1-f42a43857492
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 ---
 

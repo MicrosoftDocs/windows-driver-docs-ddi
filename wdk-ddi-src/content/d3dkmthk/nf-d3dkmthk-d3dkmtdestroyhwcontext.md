@@ -4,7 +4,6 @@ title: D3DKMTDestroyHwContext function
 author: windows-driver-content
 description: Used to destroy a hardware context.
 old-location: display\d3dkmtdestroyhwcontext.htm
-tech.root: display
 ms.assetid: 832CA7CA-40B3-4D6D-B640-9838B479EC76
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

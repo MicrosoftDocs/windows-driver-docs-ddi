@@ -4,7 +4,6 @@ title: DXGKCB_COMPLETEFSTATETRANSITION
 author: windows-driver-content
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to notify the port driver that a power component has completed the F-state transition.
 old-location: display\dxgkcbcompletefstatetransition.htm
-tech.root: display
 ms.assetid: 69a6d9bc-44a9-4204-988e-e11c80f67f28
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

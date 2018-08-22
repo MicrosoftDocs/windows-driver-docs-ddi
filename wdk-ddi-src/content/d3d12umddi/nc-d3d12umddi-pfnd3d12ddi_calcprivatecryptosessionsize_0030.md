@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
 author: windows-driver-content
 description: Used to calculate a private session size.
 old-location: display\pfnd3d12ddi_calcprivatecryptosessionsize_0030_.htm
-tech.root: display
 ms.assetid: 5C6A62D2-C4D1-4024-B777-EA4AAC7AC971
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

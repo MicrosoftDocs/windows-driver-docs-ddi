@@ -4,7 +4,6 @@ title: PFND3D10DDI_CLEARDEPTHSTENCILVIEW
 author: windows-driver-content
 description: The ClearDepthStencilView function clears the specified currently bound depth-stencil view.
 old-location: display\cleardepthstencilview.htm
-tech.root: display
 ms.assetid: 0474c154-1bec-4602-880c-ffdc48c738f0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

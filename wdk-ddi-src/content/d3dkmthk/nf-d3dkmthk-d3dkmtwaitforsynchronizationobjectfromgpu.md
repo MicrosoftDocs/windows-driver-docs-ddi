@@ -4,7 +4,6 @@ title: D3DKMTWaitForSynchronizationObjectFromGpu function
 author: windows-driver-content
 description: D3DKMTWaitForSynchronizationObjectFromGpu waits for a monitored fence to reach a certain value before processing subsequent context commands.
 old-location: display\d3dkmtwaitforsynchronizationobjectfromgpu.htm
-tech.root: display
 ms.assetid: 93705446-8B87-46DD-9CFE-DD0473DEE6B6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

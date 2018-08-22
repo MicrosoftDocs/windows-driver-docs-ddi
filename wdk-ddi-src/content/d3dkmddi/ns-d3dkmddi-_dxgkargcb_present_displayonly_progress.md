@@ -4,7 +4,6 @@ title: "_DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS"
 author: windows-driver-content
 description: Provides the progress of a kernel mode display-only driver's (KMDOD) present operation that was requested by the operating system.
 old-location: display\dxgkargcb_present_displayonly_progress.htm
-tech.root: display
 ms.assetid: c3849df0-0794-43fe-ba29-6daa8461cd9a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 ---
 

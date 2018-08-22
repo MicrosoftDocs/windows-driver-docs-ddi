@@ -4,7 +4,6 @@ title: D3D12DDI_TEXTURE_LAYOUT
 author: windows-driver-content
 description: Specifies a texture layout.
 old-location: display\d3d12ddi_texture_layout.htm
-tech.root: display
 ms.assetid: F039A0D9-D1AE-4940-B67D-30CC6344EC7D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_TEXTURE_LAYOUT
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEDEVICE"
 author: windows-driver-content
 description: The D3DKMT_CREATEDEVICE structure describes a kernel-mode device context.
 old-location: display\d3dkmt_createdevice.htm
-tech.root: display
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEDEVICE
 ---
 

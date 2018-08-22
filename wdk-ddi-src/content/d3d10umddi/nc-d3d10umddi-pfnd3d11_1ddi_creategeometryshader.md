@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEGEOMETRYSHADER
 author: windows-driver-content
 description: Creates a geometry shader.
 old-location: display\creategeometryshader_d3d11_1_.htm
-tech.root: display
 ms.assetid: A0C3826D-E4F3-4169-A899-41C11006DE69
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

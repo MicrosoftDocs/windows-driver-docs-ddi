@@ -4,7 +4,6 @@ title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
 author: windows-driver-content
 description: Contains output data for the ConfigureAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_configure_output.htm
-tech.root: display
 ms.assetid: 074e87c9-b57e-48ea-8613-2fe1a70cd9e4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGKCB_GETHANDLEDATAFLAGS"
 author: windows-driver-content
 description: The DXGKCB_GETHANDLEDATAFLAGS structure indicates if allocations belong to a resource.
 old-location: display\dxgkcb_gethandledataflags.htm
-tech.root: display
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKCB_GETHANDLEDATAFLAGS
 ---
 

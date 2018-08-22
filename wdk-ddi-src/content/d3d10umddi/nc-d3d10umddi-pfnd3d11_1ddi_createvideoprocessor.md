@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CREATEVIDEOPROCESSOR
 author: windows-driver-content
 description: Creates a video processor object.
 old-location: display\createvideoprocessor1.htm
-tech.root: display
 ms.assetid: 741045a2-0a91-490a-907d-5f4900a4a0ae
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

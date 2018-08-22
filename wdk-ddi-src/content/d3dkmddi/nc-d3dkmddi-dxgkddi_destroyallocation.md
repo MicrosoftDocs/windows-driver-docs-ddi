@@ -4,7 +4,6 @@ title: DXGKDDI_DESTROYALLOCATION
 author: windows-driver-content
 description: The DxgkDdiDestroyAllocation function releases allocations.
 old-location: display\dxgkddidestroyallocation.htm
-tech.root: display
 ms.assetid: cade544a-f9c6-4635-ab57-d09d694ca315
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

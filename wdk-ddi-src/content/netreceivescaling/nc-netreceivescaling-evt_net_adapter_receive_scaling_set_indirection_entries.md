@@ -45,7 +45,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The *EvtNetAdapterReceiveScalingSetIndirectionEntries* callback function is implemented by the client driver to perform moves of receive side scaling (RSS) indirection table entries to new receive queues.
 
@@ -80,7 +80,7 @@ A pointer to a [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES](ns-netreceivesc
 Returns STATUS_SUCCESS if the move operations were successful. Otherwise, returns an appropriate NTSTATUS error code.
 
 ## -remarks
-Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** from their *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function.
+Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 When a protocol driver needs to rebalance processor workload in RSS, it first calculates a new mapping for each indirection table entry to a new processor. Then the protocol passes this information to NetAdapterCx, which internally maps processor numbers to NIC receive queue IDs. NetAdapterCx stores the new indirection table, with entries mapped to receive queue IDs, in a [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entries.md) structure and passes it to the NIC client driver when it invokes the driver's *EvtNetAdapterReceiveScalingSetIndirectionEntries* callback function. 
 

@@ -4,7 +4,6 @@ title: "_DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL is used as part of an operation to fill an allocation with a pattern.
 old-location: display\dxgk_buildpagingbuffer_fillvirtual.htm
-tech.root: display
 ms.assetid: 373065F6-C754-4517-905E-86A974866120
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 ---
 

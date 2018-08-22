@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020
 author: windows-driver-content
 description: This structure contains device functions for core features in video.
 old-location: display\d3d12ddi_device_funcs_core_video_0020.htm
-tech.root: display
 ms.assetid: E880F758-A872-4B59-BF7D-602C3ACDA490
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020
 ---
 

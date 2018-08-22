@@ -4,7 +4,6 @@ title: PFND3DKMT_OPENRESOURCEFROMNTHANDLE
 author: windows-driver-content
 description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
-tech.root: display
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

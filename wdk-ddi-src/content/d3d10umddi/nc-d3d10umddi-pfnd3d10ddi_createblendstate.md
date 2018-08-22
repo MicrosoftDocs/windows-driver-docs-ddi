@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEBLENDSTATE
 author: windows-driver-content
 description: The CreateBlendState function creates a blend state.
 old-location: display\createblendstate.htm
-tech.root: display
 ms.assetid: f203a83c-0108-4e20-9972-06857099378c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

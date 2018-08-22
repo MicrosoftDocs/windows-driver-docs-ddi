@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_RS_VIEWPORTS_CB
 author: windows-driver-content
 description: The pfnStateRsViewportsCb function causes the Microsoft Direct3D 10 runtime to refresh the viewport state.
 old-location: display\pfnstatersviewportscb.htm
-tech.root: display
 ms.assetid: 9390ddca-4658-4853-a45c-9fb306bbdef8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

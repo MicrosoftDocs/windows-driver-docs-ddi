@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
 author: windows-driver-content
 description: Updates the decoder down sampling parameters. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videodecoderupdatedownsampling.htm
-tech.root: display
 ms.assetid: DBF0F62D-E6E5-4711-9A7A-19C88F62575D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

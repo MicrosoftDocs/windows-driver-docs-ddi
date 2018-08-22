@@ -4,7 +4,6 @@ title: DXGKCB_SETPOWERCOMPONENTLATENCY
 author: windows-driver-content
 description: Called by the display miniport driver to set the latency tolerance for a power component of type DXGK_POWER_COMPONENT_OTHER.
 old-location: display\dxgkcbsetpowercomponentlatency.htm
-tech.root: display
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

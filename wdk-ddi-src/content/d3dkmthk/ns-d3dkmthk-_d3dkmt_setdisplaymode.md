@@ -4,7 +4,6 @@ title: "_D3DKMT_SETDISPLAYMODE"
 author: windows-driver-content
 description: The D3DKMT_SETDISPLAYMODE structure describes the primary allocation that is used for scanning out to the display.
 old-location: display\d3dkmt_setdisplaymode.htm
-tech.root: display
 ms.assetid: cb590e18-59a4-4c4d-9d97-9f60c409c2e9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETDISPLAYMODE
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_ALLOCATIONINFO"
 author: windows-driver-content
 description: The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
 old-location: display\dxgk_allocationinfo.htm
-tech.root: display
 ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ALLOCATIONINFO
 ---
 

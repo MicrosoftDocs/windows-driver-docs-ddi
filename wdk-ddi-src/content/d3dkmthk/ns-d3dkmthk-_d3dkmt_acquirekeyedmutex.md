@@ -4,7 +4,6 @@ title: "_D3DKMT_ACQUIREKEYEDMUTEX"
 author: windows-driver-content
 description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the D3DKMTAcquireKeyedMutex function acquires.
 old-location: display\d3dkmt_acquirekeyedmutex.htm
-tech.root: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_ACQUIREKEYEDMUTEX
 ---
 
