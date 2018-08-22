@@ -4,7 +4,6 @@ title: "_DXGK_OPENALLOCATIONFLAGS"
 author: windows-driver-content
 description: The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
 old-location: display\dxgk_openallocationflags.htm
-tech.root: display
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_OPENALLOCATIONFLAGS
 ---
 

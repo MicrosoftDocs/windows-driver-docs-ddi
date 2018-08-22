@@ -4,7 +4,6 @@ title: "_DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
 author: windows-driver-content
 description: The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
 old-location: display\dxgkarg_validateupdateallocproperty.htm
-tech.root: display
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 ---
 

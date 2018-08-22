@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENNTHANDLEFROMNAME"
 author: windows-driver-content
 description: Describes information that is required to open an NT handle to the process from a graphics adapter name.
 old-location: display\d3dkmt_opennthandlefromname.htm
-tech.root: display
 ms.assetid: 34f70519-7905-4a16-bd07-db3592b05890
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENNTHANDLEFROMNAME
 ---
 

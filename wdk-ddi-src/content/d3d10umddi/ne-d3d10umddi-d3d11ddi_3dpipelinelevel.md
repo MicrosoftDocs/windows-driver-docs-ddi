@@ -4,7 +4,6 @@ title: D3D11DDI_3DPIPELINELEVEL
 author: windows-driver-content
 description: The D3D11DDI_3DPIPELINELEVEL enumeration type contains values that identify the pipeline level that the driver supports, which is retrieved from a call to the driver's GetCaps(D3D10_2) function.
 old-location: display\d3d11ddi_3dpipelinelevel.htm
-tech.root: display
 ms.assetid: 824008f2-fe83-47ea-9387-38978b98e7e4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDI_3DPIPELINELEVEL
 ---
 

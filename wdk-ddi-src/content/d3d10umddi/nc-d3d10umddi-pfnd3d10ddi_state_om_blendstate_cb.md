@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_OM_BLENDSTATE_CB
 author: windows-driver-content
 description: The pfnStateOmBlendStateCb function causes the Microsoft Direct3D 10 runtime to refresh the output merger blend state.
 old-location: display\pfnstateomblendstatecb.htm
-tech.root: display
 ms.assetid: 3cec9d99-0d15-4c61-9de2-ab203a56441d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

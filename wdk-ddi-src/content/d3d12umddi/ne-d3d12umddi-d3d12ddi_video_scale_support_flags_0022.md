@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
 author: windows-driver-content
 description: Contains the options for video scale support.
 old-location: display\d3d12ddi_video_scale_support_flags.htm
-tech.root: display
 ms.assetid: A0E1AA43-FE1A-4754-B8E6-BFE87CA810E2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
 ---
 

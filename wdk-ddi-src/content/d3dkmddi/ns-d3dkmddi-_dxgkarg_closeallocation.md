@@ -4,7 +4,6 @@ title: "_DXGKARG_CLOSEALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_CLOSEALLOCATION structure describes allocations that the display miniport driver should close.
 old-location: display\dxgkarg_closeallocation.htm
-tech.root: display
 ms.assetid: ccd65750-b4d0-4955-9fd4-9546709c2390
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CLOSEALLOCATION
 ---
 

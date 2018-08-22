@@ -4,7 +4,6 @@ title: D3DKMTSubmitCommand function
 author: windows-driver-content
 description: D3DKMTSubmitCommand is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dkmtsubmitcommand.htm
-tech.root: display
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_QUERYSEGMENTIN4"
 author: windows-driver-content
 description: The DXGK_QUERYSEGMENTIN4 structure is used to specify the adapter to query.
 old-location: display\dxgk_querysegmentin4.htm
-tech.root: display
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_QUERYSEGMENTIN4
 ---
 

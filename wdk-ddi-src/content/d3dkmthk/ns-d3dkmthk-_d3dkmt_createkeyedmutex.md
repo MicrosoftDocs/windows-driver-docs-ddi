@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEKEYEDMUTEX"
 author: windows-driver-content
 description: The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the D3DKMTCreateKeyedMutex function creates.
 old-location: display\d3dkmt_createkeyedmutex.htm
-tech.root: display
 ms.assetid: ab028faf-d3f7-4267-81c7-7ababe845667
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEKEYEDMUTEX
 ---
 

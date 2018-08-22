@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_VS_SAMPLER_CB
 author: windows-driver-content
 description: The pfnStateVsSamplerCb function causes the Microsoft Direct3D 10 runtime to refresh the vertex shader stage's bound samplers.
 old-location: display\pfnstatevssamplercb.htm
-tech.root: display
 ms.assetid: 5f5dd2ee-72fb-450c-850a-f5546401cd96
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

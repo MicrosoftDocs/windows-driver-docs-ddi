@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATEDEFERREDCONTEXT
 author: windows-driver-content
 description: The CreateDeferredContext function creates a deferred context.
 old-location: display\createdeferredcontext.htm
-tech.root: display
 ms.assetid: 464a2291-55c8-4e51-ba08-219ce426d038
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

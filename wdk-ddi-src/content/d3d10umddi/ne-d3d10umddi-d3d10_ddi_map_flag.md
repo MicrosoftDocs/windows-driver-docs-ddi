@@ -4,7 +4,6 @@ title: D3D10_DDI_MAP_FLAG
 author: windows-driver-content
 description: The D3D10_DDI_MAP_FLAG enumeration type contains flags that identify how to map to a subresource in a call to the driver's ResourceMap function.
 old-location: display\d3d10_ddi_map_flag.htm
-tech.root: display
 ms.assetid: e17ca347-6514-47df-9373-5d33fc7f8e5c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_MAP_FLAG
 ---
 

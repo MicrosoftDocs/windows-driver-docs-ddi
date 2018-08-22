@@ -4,7 +4,6 @@ title: PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY
 author: windows-driver-content
 description: Allows the driver to return independent hardware vendor (IHV)-specific information used when initializing the new hardware key.
 old-location: display\getdatafornewhardwarekey.htm
-tech.root: display
 ms.assetid: 0B365C66-2E6E-4DE9-A7A4-963965995F61
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

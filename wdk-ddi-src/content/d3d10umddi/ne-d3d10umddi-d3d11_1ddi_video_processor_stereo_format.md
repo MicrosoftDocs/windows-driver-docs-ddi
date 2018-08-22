@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
 author: windows-driver-content
 description: Specifies the layout in memory of a stereo 3-D video frame.
 old-location: display\d3d11_1ddi_video_processor_stereo_format.htm
-tech.root: display
 ms.assetid: 348d17f3-a688-4f63-87aa-a8588f069c5c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO
 author: windows-driver-content
 description: The pfnUpdatePathSupportInfo function updates the transformation and copy protection support of a particular path in a specified VidPN topology.
 old-location: display\dxgk_vidpntopology_interface_pfnupdatepathsupportinfo.htm
-tech.root: display
 ms.assetid: affe9ab2-49ef-4284-b441-49c311158827
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMDT_DISPLAYMODE_FLAGS"
 author: windows-driver-content
 description: The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a display mode.
 old-location: display\d3dkmdt_displaymode_flags.htm
-tech.root: display
 ms.assetid: 0b45cd69-5c9e-4772-a68f-d604806e7789
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMDT_DISPLAYMODE_FLAGS
 ---
 

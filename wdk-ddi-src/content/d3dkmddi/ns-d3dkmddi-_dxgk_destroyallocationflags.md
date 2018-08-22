@@ -4,7 +4,6 @@ title: "_DXGK_DESTROYALLOCATIONFLAGS"
 author: windows-driver-content
 description: The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release allocations.
 old-location: display\dxgk_destroyallocationflags.htm
-tech.root: display
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_DESTROYALLOCATIONFLAGS
 ---
 

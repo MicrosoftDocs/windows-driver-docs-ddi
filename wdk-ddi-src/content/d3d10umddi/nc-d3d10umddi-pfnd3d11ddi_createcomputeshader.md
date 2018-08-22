@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATECOMPUTESHADER
 author: windows-driver-content
 description: The CreateComputeShader function creates a compute shader.
 old-location: display\createcomputeshader.htm
-tech.root: display
 ms.assetid: e62ad086-f652-4e2c-bc2d-f1ccb197f01e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
 author: windows-driver-content
 description: Specifies the protection level for video content.
 old-location: display\d3d11_1ddi_authenticated_protection_flags.htm
-tech.root: display
 ms.assetid: 687eb573-ea7c-4e8a-80df-65339521ec18
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
 ---
 

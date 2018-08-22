@@ -4,7 +4,6 @@ title: "_DXGK_SUBMITCOMMANDFLAGS"
 author: windows-driver-content
 description: The DXGK_SUBMITCOMMANDFLAGS structure identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 old-location: display\dxgk_submitcommandflags.htm
-tech.root: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SUBMITCOMMANDFLAGS
 ---
 

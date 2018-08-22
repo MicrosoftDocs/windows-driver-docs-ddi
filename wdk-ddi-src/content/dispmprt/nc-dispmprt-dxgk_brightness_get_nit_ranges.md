@@ -26,13 +26,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DXGK_BRIGHTNESS_GET_NIT_RANGES
 product: 
 - Windows

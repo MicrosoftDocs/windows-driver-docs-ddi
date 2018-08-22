@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_PRESENTHISTORYTOKEN structure identifies a type of present operation.
 old-location: display\d3dkmt_presenthistorytoken.htm
-tech.root: display
 ms.assetid: d3571412-d853-496b-a651-2c8860a28e9d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENTHISTORYTOKEN
 ---
 

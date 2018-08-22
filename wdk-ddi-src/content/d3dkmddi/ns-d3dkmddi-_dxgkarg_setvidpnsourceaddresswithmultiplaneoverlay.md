@@ -4,7 +4,6 @@ title: "_DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY"
 author: windows-driver-content
 description: Contains arguments for the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay function.
 old-location: display\dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay.htm
-tech.root: display
 ms.assetid: 12266cb0-20c1-4077-b3c5-fb902f3805d3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY
 ---
 

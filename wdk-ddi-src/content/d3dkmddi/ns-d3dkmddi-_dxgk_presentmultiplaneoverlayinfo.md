@@ -4,7 +4,6 @@ title: "_DXGK_PRESENTMULTIPLANEOVERLAYINFO"
 author: windows-driver-content
 description: Specifies info on a VidPN input and an overlay plane to display.
 old-location: display\dxgk_presentmultiplaneoverlayinfo.htm
-tech.root: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PRESENTMULTIPLANEOVERLAYINFO
 ---
 

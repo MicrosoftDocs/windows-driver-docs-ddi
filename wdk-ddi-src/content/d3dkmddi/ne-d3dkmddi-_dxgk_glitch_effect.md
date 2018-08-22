@@ -4,7 +4,6 @@ title: "_DXGK_GLITCH_EFFECT"
 author: windows-driver-content
 description: Enumeration which describes the user visible effect of a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_effect.htm
-tech.root: display
 ms.assetid: EACD5B8D-B579-4EB0-93C7-0B356A67CA8F
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GLITCH_EFFECT
 ---
 

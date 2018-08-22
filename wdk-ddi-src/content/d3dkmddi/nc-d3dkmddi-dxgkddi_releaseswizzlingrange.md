@@ -4,7 +4,6 @@ title: DXGKDDI_RELEASESWIZZLINGRANGE
 author: windows-driver-content
 description: The DxgkDdiReleaseSwizzlingRange function releases a swizzling range that the DxgkDdiAcquireSwizzlingRange function previously set up.
 old-location: display\dxgkddireleaseswizzlingrange.htm
-tech.root: display
 ms.assetid: 6c583a48-baa4-429f-b2fc-5f86859617cc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

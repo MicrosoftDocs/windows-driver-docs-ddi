@@ -4,7 +4,6 @@ title: "_DXGKARG_COMMITVIDPN_FLAGS"
 author: windows-driver-content
 description: The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the DxgkDdiCommitVidPn function.
 old-location: display\dxgkarg_commitvidpn_flags.htm
-tech.root: display
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_COMMITVIDPN_FLAGS
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_CRTC_VSYNC_STATE"
 author: windows-driver-content
 description: Provides additional information for DxgkDdi_ControlInterrupt2 when VSYNC is being utilized.
 old-location: display\dxgk_crtc_vsync_state.htm
-tech.root: display
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CRTC_VSYNC_STATE
 ---
 

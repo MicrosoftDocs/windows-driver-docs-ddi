@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENT"
 author: windows-driver-content
 description: The D3DKMT_PRESENT structure describes the present operation.
 old-location: display\d3dkmt_present.htm
-tech.root: display
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENT
 ---
 

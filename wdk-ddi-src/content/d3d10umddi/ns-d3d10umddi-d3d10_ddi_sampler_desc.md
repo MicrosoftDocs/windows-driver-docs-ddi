@@ -4,7 +4,6 @@ title: D3D10_DDI_SAMPLER_DESC
 author: windows-driver-content
 description: The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 old-location: display\d3d10_ddi_sampler_desc.htm
-tech.root: display
 ms.assetid: 2f65b381-bf81-45b5-9583-793e4ffb453c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_SAMPLER_DESC
 ---
 

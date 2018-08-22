@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATERENDERTARGETVIEW
 author: windows-driver-content
 description: The CreateRenderTargetView function creates a render target view.
 old-location: display\createrendertargetview.htm
-tech.root: display
 ms.assetid: bf9fc732-5f9a-4fee-8ea0-19b140789463
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

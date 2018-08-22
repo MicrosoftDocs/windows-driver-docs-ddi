@@ -4,7 +4,6 @@ title: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 author: windows-driver-content
 description: The D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of the stream output for a geometry shader.
 old-location: display\d3d11ddiarg_stream_output_declaration_entry.htm
-tech.root: display
 ms.assetid: 336bfc9d-325b-4ff1-8d6b-ec2ef4158cb9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 ---
 

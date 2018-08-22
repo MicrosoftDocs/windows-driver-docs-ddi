@@ -4,7 +4,6 @@ title: D3DKMTSubmitSignalSyncObjectsToHwQueue function
 author: windows-driver-content
 description: Used to submit a signal to the hardware queue.
 old-location: display\d3dkmtsubmitsignalsyncobjectstohwqueue.htm
-tech.root: display
 ms.assetid: DA0D44AF-168F-4B9B-B184-1DC8C3477CBC
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

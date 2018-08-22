@@ -4,7 +4,6 @@ title: "_DXGKARG_BUILDPAGINGBUFFER"
 author: windows-driver-content
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
-tech.root: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_BUILDPAGINGBUFFER
 ---
 

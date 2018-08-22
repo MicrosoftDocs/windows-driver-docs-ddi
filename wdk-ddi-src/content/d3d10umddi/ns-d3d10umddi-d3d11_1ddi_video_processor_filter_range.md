@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 author: windows-driver-content
 description: Defines the range of supported values for an image filter.
 old-location: display\d3d11_1ddi_video_processor_filter_range.htm
-tech.root: display
 ms.assetid: 9dc93d92-ccdc-488b-a5dd-a2efe783cbb3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 ---
 

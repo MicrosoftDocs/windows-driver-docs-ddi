@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYVIDEODECODER_0021
 author: windows-driver-content
 description: Destroys the video decoder.
 old-location: display\pfnd3d12ddi_destroyvideodecoder_.htm
-tech.root: display
 ms.assetid: 97028FEB-A3C2-4C2F-B64E-07024BC3C382
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames:
 ---
 

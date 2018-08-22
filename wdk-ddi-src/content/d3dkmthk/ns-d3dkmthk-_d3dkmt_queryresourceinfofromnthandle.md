@@ -4,7 +4,6 @@ title: "_D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE"
 author: windows-driver-content
 description: Describes information that is required to map a global NT handle to resource information.
 old-location: display\d3dkmt_queryresourceinfofromnthandle.htm
-tech.root: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
 

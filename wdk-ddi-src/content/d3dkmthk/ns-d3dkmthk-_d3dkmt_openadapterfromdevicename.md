@@ -4,7 +4,6 @@ title: "_D3DKMT_OPENADAPTERFROMDEVICENAME"
 author: windows-driver-content
 description: The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the given name of a device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromdevicename.htm
-tech.root: display
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENADAPTERFROMDEVICENAME
 ---
 

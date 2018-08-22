@@ -4,7 +4,6 @@ title: "_D3DKMT_WORKINGSETINFO"
 author: windows-driver-content
 description: The D3DKMT_WORKINGSETINFO structure describes information about the graphics adapter's working set that the OpenGL installable client driver (ICD) obtains by calling the D3DKMTQueryAdapterInfo function.
 old-location: display\d3dkmt_workingsetinfo.htm
-tech.root: display
 ms.assetid: 1a5b75e4-abdd-4916-b2b5-4dbb53a525ae
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_WORKINGSETINFO
 ---
 

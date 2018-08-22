@@ -4,7 +4,6 @@ title: PFND3DKMT_CHECKMONITORPOWERSTATE
 author: windows-driver-content
 description: The D3DKMTCheckMonitorPowerState function verifies the power state of a monitor.
 old-location: display\d3dkmtcheckmonitorpowerstate.htm
-tech.root: display
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

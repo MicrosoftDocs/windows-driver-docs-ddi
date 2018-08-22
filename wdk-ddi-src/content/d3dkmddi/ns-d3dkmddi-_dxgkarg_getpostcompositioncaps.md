@@ -4,7 +4,6 @@ title: "_DXGKARG_GETPOSTCOMPOSITIONCAPS"
 author: windows-driver-content
 description: Arguments for the DxgkDdiGetPostCompositionCaps function.
 old-location: display\dxgkarg_getpostcompositioncaps.htm
-tech.root: display
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
 ---
 

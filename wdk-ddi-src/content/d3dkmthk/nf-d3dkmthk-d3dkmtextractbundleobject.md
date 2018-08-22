@@ -4,7 +4,6 @@ title: D3DKMTExtractBundleObject function
 author: windows-driver-content
 description: Used to extract the bundle object.
 old-location: display\d3dkmtextractbundleobject.htm
-tech.root: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

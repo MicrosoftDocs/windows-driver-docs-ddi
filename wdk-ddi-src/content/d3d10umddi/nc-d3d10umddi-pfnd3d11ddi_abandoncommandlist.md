@@ -4,7 +4,6 @@ title: PFND3D11DDI_ABANDONCOMMANDLIST
 author: windows-driver-content
 description: The AbandonCommandList function abandons the command list.
 old-location: display\abandoncommandlist.htm
-tech.root: display
 ms.assetid: fc8347da-25ac-47ea-b482-61b7873ca5bc
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
 author: windows-driver-content
 description: The pfnGetNumPathsFromSource function returns the number of video present paths that contain a specified video present source.
 old-location: display\dxgk_vidpntopology_interface_pfngetnumpathsfromsource.htm
-tech.root: display
 ms.assetid: 6c5ee84d-e106-47fc-88bd-b184e9cdd561
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

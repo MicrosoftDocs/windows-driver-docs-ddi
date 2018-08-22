@@ -4,7 +4,6 @@ title: DXGKDDI_OPENALLOCATIONINFO
 author: windows-driver-content
 description: The DxgkDdiOpenAllocation function binds non-device-specific allocations that the DxgkDdiCreateAllocation function created to allocations that are specific to the specified graphics context device.
 old-location: display\dxgkddiopenallocation.htm
-tech.root: display
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

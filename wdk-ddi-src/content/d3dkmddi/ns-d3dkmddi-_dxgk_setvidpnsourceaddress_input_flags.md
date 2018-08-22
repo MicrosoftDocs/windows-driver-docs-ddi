@@ -4,7 +4,7 @@ title: "_DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS"
 author: windows-driver-content
 description: A structure containing the set of flags needed to set the VidPN source address.
 old-location: display\dxgk_setvidpnsourceaddress_input_flags.htm
-tech.root: display
+
 ms.assetid: FBC661AA-B028-45AF-8E3C-7C2472652BD5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 ---
 

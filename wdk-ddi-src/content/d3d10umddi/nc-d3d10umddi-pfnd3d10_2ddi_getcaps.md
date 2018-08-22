@@ -4,7 +4,6 @@ title: PFND3D10_2DDI_GETCAPS
 author: windows-driver-content
 description: The GetCaps(D3D10_2) function queries for capabilities of the graphics adapter.
 old-location: display\getcaps_d3d10_2_.htm
-tech.root: display
 ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

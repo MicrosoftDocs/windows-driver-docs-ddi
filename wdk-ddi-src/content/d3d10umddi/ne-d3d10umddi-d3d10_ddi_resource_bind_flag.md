@@ -4,7 +4,6 @@ title: D3D10_DDI_RESOURCE_BIND_FLAG
 author: windows-driver-content
 description: Identifies how a resource is bound.
 old-location: display\d3d10_ddi_resource_bind_flag.htm
-tech.root: display
 ms.assetid: 1c911435-5a55-4b92-9c65-3116d98f8ecf
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG
 ---
 

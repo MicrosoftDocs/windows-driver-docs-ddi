@@ -4,7 +4,6 @@ title: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
 author: windows-driver-content
 description: The pfnReleaseMonitorSourceModeSet function releases a handle to a monitor source mode set object.
 old-location: display\dxgk_monitor_interface_pfnreleasemonitorsourcemodeset.htm
-tech.root: display
 ms.assetid: af5f4a1b-232c-4192-96b4-8fa31dfe3019
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTSubmitCommandToHwQueue function
 author: windows-driver-content
 description: Used to submit a command to the hardware queue.
 old-location: display\d3dkmtsubmitcommandtohwqueue.htm
-tech.root: display
 ms.assetid: E4E6B637-BFAF-4ACD-86C2-109704B8D33D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

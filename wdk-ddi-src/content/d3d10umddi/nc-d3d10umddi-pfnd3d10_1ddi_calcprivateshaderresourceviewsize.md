@@ -4,7 +4,6 @@ title: PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
 author: windows-driver-content
 description: The CalcPrivateShaderResourceViewSize(D3D10_1) function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader resource view.
 old-location: display\calcprivateshaderresourceviewsize_d3d10_1_.htm
-tech.root: display
 ms.assetid: 310adb3e-1af4-430e-ba50-bd145ffda361
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

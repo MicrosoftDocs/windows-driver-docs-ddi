@@ -4,7 +4,6 @@ title: "_DXGK_CREATEDEVICEFLAGS"
 author: windows-driver-content
 description: The DXGK_CREATEDEVICEFLAGS structure identifies how to create devices.
 old-location: display\dxgk_createdeviceflags.htm
-tech.root: display
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CREATEDEVICEFLAGS
 ---
 

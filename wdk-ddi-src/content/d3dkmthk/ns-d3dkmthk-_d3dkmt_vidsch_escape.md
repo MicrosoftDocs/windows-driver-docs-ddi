@@ -4,7 +4,6 @@ title: "_D3DKMT_VIDSCH_ESCAPE"
 author: windows-driver-content
 description: The D3DKMT_VIDSCH_ESCAPE structure describes how to control the graphics processing unit (GPU) scheduler (which is part of Dxgkrnl.sys) in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_vidsch_escape.htm
-tech.root: display
 ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_VIDSCH_ESCAPE
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_UNORDEREDPRESENTSWAPCHAIN"
 author: windows-driver-content
 description: Used to store information about the swapchain being presented.
 old-location: display\d3dkmt-unorderedpresentswapchain.htm
-tech.root: display
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 ---
 

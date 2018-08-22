@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS
 author: windows-driver-content
 description: Identifies video processor capabilities that the user-mode driver supports.
 old-location: display\d3d11_1ddi_video_processor_filter_caps.htm
-tech.root: display
 ms.assetid: ac94ffe8-efab-4b30-8106-f6fed9b59615
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS
 ---
 

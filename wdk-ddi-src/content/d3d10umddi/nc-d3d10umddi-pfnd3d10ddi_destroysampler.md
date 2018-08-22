@@ -4,7 +4,6 @@ title: PFND3D10DDI_DESTROYSAMPLER
 author: windows-driver-content
 description: The DestroySampler function destroys the specified sampler object. The sampler object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroysampler.htm
-tech.root: display
 ms.assetid: 8e66de90-c336-43b4-b0ad-cb24cea3638c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

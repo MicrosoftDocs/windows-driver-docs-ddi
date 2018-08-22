@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
 author: windows-driver-content
 description: Indicates the luminance range of YUV data.
 old-location: display\d3d11_1ddi_video_processor_nominal_range.htm
-tech.root: display
 ms.assetid: E8D77D49-9E7C-45B3-850C-1E814B44464B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
 ---
 

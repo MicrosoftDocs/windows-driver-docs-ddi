@@ -4,7 +4,6 @@ title: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB
 author: windows-driver-content
 description: The pfnPerformAmortizedProcessingCb function performs amortized processing.
 old-location: display\pfnperformamortizedprocessingcb.htm
-tech.root: display
 ms.assetid: 6b9fd47f-c6b6-4541-a014-0cd6604eb3b3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

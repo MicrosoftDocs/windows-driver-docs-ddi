@@ -4,7 +4,6 @@ title: D3DKMTAcquireKeyedMutex2 function
 author: windows-driver-content
 description: Acquires a keyed mutex object that includes private data.
 old-location: display\d3dkmtacquirekeyedmutex2.htm
-tech.root: display
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

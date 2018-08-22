@@ -4,7 +4,6 @@ title: D3DKMTGetOverlayState function
 author: windows-driver-content
 description: The D3DKMTGetOverlayState function retrieves the status about an overlay.
 old-location: display\d3dkmtgetoverlaystate.htm
-tech.root: display
 ms.assetid: 6e3db876-c9f9-4de9-a0e2-5911132b72be
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORENUMSIZE
 author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video processor enumeration state.
 old-location: display\calcprivatevideoprocessorenumsize.htm
-tech.root: display
 ms.assetid: d468c892-6635-40a5-ad52-cbcc86555419
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_STATUS_0020
 author: windows-driver-content
 description: Contains status values for video decode.
 old-location: display\d3d12ddi_video_decode_status.htm
-tech.root: display
 ms.assetid: E7A3944D-142E-450C-B9EE-9190BF264C60
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_STATUS_0020
 ---
 

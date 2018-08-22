@@ -4,7 +4,6 @@ title: D3DKMTCreateSynchronizationObject function
 author: windows-driver-content
 description: The D3DKMTCreateSynchronizationObject function creates a kernel-mode synchronization object.
 old-location: display\d3dkmtcreatesynchronizationobject.htm
-tech.root: display
 ms.assetid: c91686dc-1c6a-4d21-84e8-fd8a2803ff4e
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

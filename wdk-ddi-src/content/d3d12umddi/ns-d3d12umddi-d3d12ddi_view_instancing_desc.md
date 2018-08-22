@@ -4,7 +4,6 @@ title: D3D12DDI_VIEW_INSTANCING_DESC
 author: windows-driver-content
 description: View instancing description.
 old-location: display\d3d12ddi-view-instancing-desc.htm
-tech.root: display
 ms.assetid: 4d942de6-d829-499c-80cf-3cff8266aee4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIEW_INSTANCING_DESC
 ---
 

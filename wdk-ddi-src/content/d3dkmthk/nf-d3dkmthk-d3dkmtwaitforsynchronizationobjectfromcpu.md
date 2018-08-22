@@ -4,7 +4,6 @@ title: D3DKMTWaitForSynchronizationObjectFromCpu function
 author: windows-driver-content
 description: D3DKMTWaitForSynchronizationObjectFromCpu waits for a monitored fence to reach a certain value.
 old-location: display\d3dkmtwaitforsynchronizationobjectfromcpu.htm
-tech.root: display
 ms.assetid: C65880F7-DFCA-4DF9-ABF1-95A82D1D43ED
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

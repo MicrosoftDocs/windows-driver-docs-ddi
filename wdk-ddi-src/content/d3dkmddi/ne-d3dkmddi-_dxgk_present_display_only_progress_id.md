@@ -4,7 +4,6 @@ title: "_DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID"
 author: windows-driver-content
 description: Indicates the status of the current present operation.
 old-location: display\dxgk_present_display_only_progress_id.htm
-tech.root: display
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 ---
 

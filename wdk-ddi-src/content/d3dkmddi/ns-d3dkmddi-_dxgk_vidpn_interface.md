@@ -4,7 +4,6 @@ title: "_DXGK_VIDPN_INTERFACE"
 author: windows-driver-content
 description: The DXGK_VIDPN_INTERFACE structure contains pointers to functions that belong to the VidPn interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpn_interface.htm
-tech.root: display
 ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_VIDPN_INTERFACE
 ---
 

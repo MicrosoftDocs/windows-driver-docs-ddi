@@ -4,7 +4,6 @@ title: "_D3DKMT_DEVICEPRESENT_QUEUE_STATE"
 author: windows-driver-content
 description: A structure that holds information on the queue state of a hardware device.
 old-location: display\d3dkmt_devicepresent_queue_state.htm
-tech.root: display
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 ---
 

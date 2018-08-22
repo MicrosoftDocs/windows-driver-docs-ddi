@@ -4,7 +4,6 @@ title: "_DXGKARG_CREATEPROTECTEDSESSION"
 author: windows-driver-content
 description: Used to create a protected session.
 old-location: display\dxgkarg_createprotectedsession.htm
-tech.root: display
 ms.assetid: 37A9A957-344F-48F6-93DE-D81DE5C20076
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CREATEPROTECTEDSESSION
 ---
 

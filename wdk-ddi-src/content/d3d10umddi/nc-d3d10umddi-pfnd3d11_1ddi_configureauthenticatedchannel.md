@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL
 author: windows-driver-content
 description: Processes a request from an application to configure an authenticated channel for content protection. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 old-location: display\configureauthenticatedchannel1.htm
-tech.root: display
 ms.assetid: 28d32813-15f5-4b9c-9bdb-5ad9b47bbe3b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_CREATE_SHADER_FLAGS
 author: windows-driver-content
 description: Defines flags for shader creation.
 old-location: display\d3d12ddi_create_shader_flags.htm
-tech.root: display
 ms.assetid: 93F27775-3E74-4310-8E09-DCB079436706
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CREATE_SHADER_FLAGS
 ---
 

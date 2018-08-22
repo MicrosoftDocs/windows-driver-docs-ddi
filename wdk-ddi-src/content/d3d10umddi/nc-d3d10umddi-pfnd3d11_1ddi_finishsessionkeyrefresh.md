@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
 author: windows-driver-content
 description: Completes the switch to a new session key.
 old-location: display\finishsessionkeyrefresh1.htm
-tech.root: display
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM
 author: windows-driver-content
 description: Releases resources for the video processor enumeration object that were created through a call to the CreateVideoProcessorEnum function.
 old-location: display\destroyvideoprocessorenum.htm
-tech.root: display
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

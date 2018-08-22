@@ -4,7 +4,6 @@ title: "_D3DKMT_FLIPOVERLAY"
 author: windows-driver-content
 description: The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\d3dkmt_flipoverlay.htm
-tech.root: display
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_FLIPOVERLAY
 ---
 

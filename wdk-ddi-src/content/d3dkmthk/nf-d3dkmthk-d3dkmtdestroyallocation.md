@@ -4,7 +4,6 @@ title: D3DKMTDestroyAllocation function
 author: windows-driver-content
 description: The D3DKMTDestroyAllocation function releases a resource, a list of allocations, or both.
 old-location: display\d3dkmtdestroyallocation.htm
-tech.root: display
 ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

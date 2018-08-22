@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATECONTEXT"
 author: windows-driver-content
 description: The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
 old-location: display\d3dkmt_createcontext.htm
-tech.root: display
 ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATECONTEXT
 ---
 

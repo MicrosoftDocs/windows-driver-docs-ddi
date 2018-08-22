@@ -4,7 +4,6 @@ title: "_D3DKMT_SEGMENTGROUPSIZEINFO"
 author: windows-driver-content
 description: A structure that holds information about the segment group size.
 old-location: display\d3dkmt_segmentgroupsizeinfo.htm
-tech.root: display
 ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SEGMENTGROUPSIZEINFO
 ---
 

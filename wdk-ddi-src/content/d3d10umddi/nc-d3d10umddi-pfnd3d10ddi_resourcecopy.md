@@ -4,7 +4,6 @@ title: PFND3D10DDI_RESOURCECOPY
 author: windows-driver-content
 description: The ResourceCopy function copies an entire source resource to a destination resource.
 old-location: display\resourcecopy.htm
-tech.root: display
 ms.assetid: 9a837f42-0bea-4425-b693-dd7947ac24b1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

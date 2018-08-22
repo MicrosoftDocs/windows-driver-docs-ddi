@@ -4,7 +4,6 @@ title: "_DXGK_MONITORFREQUENCYRANGESET_INTERFACE"
 author: windows-driver-content
 description: The DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure contains pointers to functions that belong to the Monitor Frequency Range Set interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitorfrequencyrangeset_interface.htm
-tech.root: display
 ms.assetid: 4a973ecd-341f-4766-9fed-f56e55f8deae
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 ---
 

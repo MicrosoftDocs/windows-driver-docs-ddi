@@ -45,7 +45,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The *EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP* callback function is reserved for system use. Do not implement this callback in your code.
 

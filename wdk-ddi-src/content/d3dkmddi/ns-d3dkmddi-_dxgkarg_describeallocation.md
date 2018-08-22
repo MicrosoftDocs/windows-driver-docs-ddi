@@ -4,7 +4,6 @@ title: "_DXGKARG_DESCRIBEALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_DESCRIBEALLOCATION structure describes an existing allocation.
 old-location: display\dxgkarg_describeallocation.htm
-tech.root: display
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_DESCRIBEALLOCATION
 ---
 

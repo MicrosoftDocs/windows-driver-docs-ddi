@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
 author: windows-driver-content
 description: Identifies the overlay plane's stereo flip mode. Only the DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE value is supported.
 old-location: display\dxgk_multiplane_overlay_stereo_flip_mode.htm
-tech.root: display
 ms.assetid: f226f276-c5d3-460d-9f52-c66ccfd3393f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 ---
 

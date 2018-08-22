@@ -4,7 +4,6 @@ title: PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS
 author: windows-driver-content
 description: Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
 old-location: display\updatetilemappings.htm
-tech.root: display
 ms.assetid: 1C8FC920-145F-4AE9-B049-F6BDAE29D1F1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

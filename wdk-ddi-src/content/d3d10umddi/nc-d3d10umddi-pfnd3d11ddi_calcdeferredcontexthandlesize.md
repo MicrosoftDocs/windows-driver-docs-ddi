@@ -4,7 +4,6 @@ title: PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE
 author: windows-driver-content
 description: The CalcDeferredContextHandleSize function queries for the amount of storage space that the driver requires to satisfy deferred context handles to the given immediate context object.
 old-location: display\calcdeferredcontexthandlesize.htm
-tech.root: display
 ms.assetid: d26c26ef-be8e-434a-b3d3-623ed539c541
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

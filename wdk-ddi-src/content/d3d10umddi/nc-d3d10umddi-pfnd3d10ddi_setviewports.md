@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETVIEWPORTS
 author: windows-driver-content
 description: The SetViewports function sets viewports.
 old-location: display\setviewports.htm
-tech.root: display
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_BUILDPAGINGBUFFER_COPY_RANGE"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_COPY_RANGE is used as part of a page table entry copy operation.
 old-location: display\dxgk_buildpagingbuffer_copy_range.htm
-tech.root: display
 ms.assetid: BA35F50C-7399-41DC-A10B-2F5E4BB24B49
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_FLAGS_0003
 author: windows-driver-content
 description: Specifies resource flag values.
 old-location: display\d3d12ddi_resource_flags_0003.htm
-tech.root: display
 ms.assetid: 595A4177-4A18-48D6-8B5C-D7D2FBD9FE9B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_FLAGS_0003
 ---
 

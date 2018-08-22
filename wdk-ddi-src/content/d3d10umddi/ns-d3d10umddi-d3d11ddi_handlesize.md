@@ -4,7 +4,6 @@ title: D3D11DDI_HANDLESIZE
 author: windows-driver-content
 description: The D3D11DDI_HANDLESIZE structure describes a handle.
 old-location: display\d3d11ddi_handlesize.htm
-tech.root: display
 ms.assetid: 9b785bee-289f-4f91-8183-c1dc2fa1fa6d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDI_HANDLESIZE
 ---
 

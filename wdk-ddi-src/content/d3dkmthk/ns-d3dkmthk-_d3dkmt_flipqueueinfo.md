@@ -4,7 +4,6 @@ title: "_D3DKMT_FLIPQUEUEINFO"
 author: windows-driver-content
 description: The D3DKMT_FLIPQUEUEINFO structure describes information about the graphics adapter's queue of flip operations that the OpenGL installable client driver (ICD) obtains by calling the D3DKMTQueryAdapterInfo function.
 old-location: display\d3dkmt_flipqueueinfo.htm
-tech.root: display
 ms.assetid: 5bf5eb72-aa51-4ab3-ab68-13e6303f12a9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_FLIPQUEUEINFO
 ---
 

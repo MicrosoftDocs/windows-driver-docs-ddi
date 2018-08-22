@@ -4,7 +4,6 @@ title: PFND3D11DDI_SETRESOURCEMINLOD
 author: windows-driver-content
 description: The SetResourceMinLOD function sets the minimum level of detail (LOD) for a resource.
 old-location: display\setresourceminlod.htm
-tech.root: display
 ms.assetid: a54b2fa7-c0c2-42b7-ae89-7984282d4af4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

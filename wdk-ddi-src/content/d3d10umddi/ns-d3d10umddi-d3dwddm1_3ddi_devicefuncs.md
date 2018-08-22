@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_DEVICEFUNCS
 author: windows-driver-content
 description: Contains functions that a user-mode display driver that is optimized for the Microsoft Direct3D version 11.2 runtime can implement to render graphics primitives and process state changes.
 old-location: display\d3dwddm1_3ddi_devicefuncs.htm
-tech.root: display
 ms.assetid: DE7A88BA-2E59-4E8C-B315-CA6260E3D68E
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_DEVICEFUNCS
 ---
 

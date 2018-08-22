@@ -4,7 +4,6 @@ title: "_DXGK_PATCHFLAGS"
 author: windows-driver-content
 description: The DXGK_PATCHFLAGS structure identifies, in bit-field flags, information about the direct memory access (DMA) buffer that requires patching.
 old-location: display\dxgk_patchflags.htm
-tech.root: display
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PATCHFLAGS
 ---
 

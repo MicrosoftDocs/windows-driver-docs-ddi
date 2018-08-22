@@ -39,7 +39,8 @@ apiname:
 product:
 -	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetAdapterSetPowerCapabilities function
@@ -50,7 +51,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Sets the power capabilities of the network adapter.
 
@@ -67,15 +68,16 @@ This method does not return a value.
 
 ## -remarks
 
-The client driver sets capabilities by calling the following methods from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md) event callback routine.
+The client driver sets capabilities by calling the following methods when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
-- [NetAdapterSetDataPathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md)
-- [NetAdapterSetLinkLayerCapabilities](nf-netadapter-netadaptersetlinklayercapabilities.md)
+- [**NetAdapterSetDataPathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md)
+- [**NetAdapterSetLinkLayerCapabilities**](nf-netadapter-netadaptersetlinklayercapabilities.md)
 - **NetAdapterSetPowerCapabilities**
+- [**NetAdapterSetReceiveScalingCapabilities**](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
+- [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
+- [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md)
 
 Alternatively, the client can call **NetAdapterSetPowerCapabilities** at a later time, but it must not change the *[EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN](nc-netadapter-evt_net_adapter_preview_wake_pattern.md)* and *[EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD](nc-netadapter-evt_net_adapter_preview_protocol_offload.md)* event callback functions.
-
-
 
 ## -see-also
 

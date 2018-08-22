@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION
 author: windows-driver-content
 description: Sets private state data for a video processor from an application.
 old-location: display\videoprocessorsetoutputextension.htm
-tech.root: display
 ms.assetid: 040aa673-4b80-4e89-a58d-f298936537cd
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

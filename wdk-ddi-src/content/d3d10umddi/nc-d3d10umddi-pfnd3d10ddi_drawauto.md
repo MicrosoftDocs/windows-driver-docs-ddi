@@ -4,7 +4,6 @@ title: PFND3D10DDI_DRAWAUTO
 author: windows-driver-content
 description: The DrawAuto function works similarly to the Draw function, except DrawAuto is used for the special case where vertex data is written through the stream-output unit and then recycled as a vertex buffer.
 old-location: display\drawauto.htm
-tech.root: display
 ms.assetid: 83d96dc0-dfd4-449e-9e14-18f354d44534
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_PRESENTFLAGS"
 author: windows-driver-content
 description: The D3DKMT_PRESENTFLAGS structure identifies how to perform a present operation.
 old-location: display\d3dkmt_presentflags.htm
-tech.root: display
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENTFLAGS
 ---
 

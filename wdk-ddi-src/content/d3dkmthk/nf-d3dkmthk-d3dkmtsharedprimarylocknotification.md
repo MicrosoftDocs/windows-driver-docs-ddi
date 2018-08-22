@@ -4,7 +4,6 @@ title: D3DKMTSharedPrimaryLockNotification function
 author: windows-driver-content
 description: The D3DKMTSharedPrimaryLockNotification function notifies the operating system about an upcoming lock to a shared primary surface.
 old-location: display\d3dkmtsharedprimarylocknotification.htm
-tech.root: display
 ms.assetid: 4104b137-dd32-4566-a46a-f20ef6b602c6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

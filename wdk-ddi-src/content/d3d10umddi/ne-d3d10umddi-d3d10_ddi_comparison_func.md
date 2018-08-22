@@ -4,7 +4,6 @@ title: D3D10_DDI_COMPARISON_FUNC
 author: windows-driver-content
 description: The D3D10_DDI_COMPARISON_FUNC enumeration type contains values that identify the comparison function to perform.
 old-location: display\d3d10_ddi_comparison_func.htm
-tech.root: display
 ms.assetid: 32a823e2-324a-45f3-82ad-e9f99749dc85
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_COMPARISON_FUNC
 ---
 

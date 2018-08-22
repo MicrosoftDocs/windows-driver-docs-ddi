@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATEHULLSHADER
 author: windows-driver-content
 description: The CreateHullShader function creates a hull shader.
 old-location: display\createhullshader.htm
-tech.root: display
 ms.assetid: 7fe647cf-37b0-427e-9e16-664bdd365ea6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

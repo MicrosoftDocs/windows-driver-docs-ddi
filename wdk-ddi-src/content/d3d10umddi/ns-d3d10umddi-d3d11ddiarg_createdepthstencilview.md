@@ -4,7 +4,6 @@ title: D3D11DDIARG_CREATEDEPTHSTENCILVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_CREATEDEPTHSTENCILVIEW structure describes the depth-stencil view to create.
 old-location: display\d3d11ddiarg_createdepthstencilview.htm
-tech.root: display
 ms.assetid: 563a443b-f460-4fb2-b179-454466c2291b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_CREATEDEPTHSTENCILVIEW
 ---
 
