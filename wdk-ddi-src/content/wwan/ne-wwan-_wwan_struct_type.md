@@ -197,7 +197,7 @@ The elements are of type [**WWAN_SAR_CONFIG_INDICES**](ns-wwan-_wwan_sar_config_
 
 ### -field WwanStructContextV2
 
-The elements are of type **WWAN_CONTEXT_V2**.
+The elements are of type [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md).
 
 
 ### -field WwanStructNetworkBlacklistProvider
