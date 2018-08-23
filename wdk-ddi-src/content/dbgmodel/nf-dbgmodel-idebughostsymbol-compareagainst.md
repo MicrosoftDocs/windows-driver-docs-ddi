@@ -63,12 +63,6 @@ This method returns HRESULT that indicates success or failure.
 
 ## -remarks
 
-**Code Sample**
-
-```
-Pending
-```
-
 ## -see-also
 
 [IDebugHostSymbol interface](nn-dbgmodel-idebughostsymbol.md)

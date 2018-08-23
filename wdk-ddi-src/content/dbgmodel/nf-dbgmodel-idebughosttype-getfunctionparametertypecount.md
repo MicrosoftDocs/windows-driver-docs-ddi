@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 394a5b18-fa42-42cd-b92a-200e99f5b6ca
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount, IDebugHostType::GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount
 req.header: dbgmodel.h
@@ -44,15 +44,32 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetFunctionParameterTypeCount method returns the number of arguments that the function takes. Note that the C/C++ ellipsis based variable argument marker is not considered in this count. The presence of such must be detected via the GetFunctionVarArgsKind method. This will only include arguments before the ellipsis. 
 
 ## -parameters
 
 ### -param count
+The number of arguments to the function (ignoring the variable argument ellipsis) will be returned here. The types of each individual argument may be acquired via the GetFunctionParameterTypeAt method.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+ComPtr<IDebugHostType> spType; /* get a type for a function (see FindTypeByName) */
+
+ULONG64 count;
+if (SUCCEEDED(spType->GetFunctionParameterTypeCount(&count)))
+{
+    // count is the number of parameters the function takes.  This does not 
+    // include any ellipsis for variable arguments.
+}
+```
+
 ## -see-also
+
+[IDebugHostType interface](nn-dbgmodel-idebughosttype.md)

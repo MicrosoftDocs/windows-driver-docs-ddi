@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 27784335-4eb9-48f9-a442-7ce943178a15
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::QueryInterface, QueryInterface, IDebugHostSymbolEnumerator.QueryInterface, IDebugHostSymbolEnumerator::QueryInterface, IDebugHostSymbolEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDebugHostSymbolEnumerator interface](nn-dbgmodel-idebughostsymbolenumerator.md)

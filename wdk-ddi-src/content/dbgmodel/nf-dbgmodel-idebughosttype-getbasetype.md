@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b3dab0db-f36f-49b0-80e7-0848fc49b13c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetBaseType, GetBaseType, IDebugHostType.GetBaseType, IDebugHostType::GetBaseType, IDebugHostType.GetBaseType
 req.header: dbgmodel.h
@@ -44,15 +44,36 @@ targetos: Windows
 
 ## -description
 
-TBD
+If the type is a derivative of another single type (e.g.: as MyStruct * is derived from MyStruct'), the GetBaseType method returns the base type of the derivation. For pointers, this returns the type pointed to. For arrays, this returns what the array is an array of. If the type is not such a derivative type, an error is returned. 
+
+Note that this method has nothing to do with C++ (or other linguistic) base classes. Such are symbols (IDebugHostBaseClass) which can be enumerated from the derived class via a call to the EnumerateChildren method. 
 
 ## -parameters
 
 ### -param baseType
+The type that this type is derived from is returned here. This is the type pointed to, the type an array contains, etc...
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+ComPtr<IDebugHostType> spType; /* get a type (see FindTypeByName) */
+
+ComPtr<IDebugHostType> spBaseType;
+if (SUCCEEDED(spType->GetBaseType(&spBaseType)))
+{
+    // spBaseType is the base type.
+    //     For a pointer, this is the type pointed to
+    //     For an array, this is the type which the array contains
+    //     etc...
+}
+```
+
 ## -see-also
+
+[IDebugHostType interface](nn-dbgmodel-idebughosttype.md)

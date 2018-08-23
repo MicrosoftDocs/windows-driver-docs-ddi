@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ecb389b7-66ca-49fa-bc98-587a3a3fd94b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::AddRef, AddRef, IDebugHostSymbolEnumerator.AddRef, IDebugHostSymbolEnumerator::AddRef, IDebugHostSymbolEnumerator.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDebugHostSymbolEnumerator interface](nn-dbgmodel-idebughostsymbolenumerator.md)

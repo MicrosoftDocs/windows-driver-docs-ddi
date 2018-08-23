@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 1fab98d5-4221-46f9-aa04-29112930747b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetArrayDimensionality, GetArrayDimensionality, IDebugHostType.GetArrayDimensionality, IDebugHostType::GetArrayDimensionality, IDebugHostType.GetArrayDimensionality
 req.header: dbgmodel.h
@@ -44,15 +44,31 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetArrayDimensionality method returns the number of dimensions that the array is indexed in. For C style arrays, the value returned here will always be 1. 
 
 ## -parameters
 
 ### -param arrayDimensionality
+The number of dimensions that the array is indexed in will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+ComPtr<IDebugHostType> spType; /* get a type for some array (see FindTypeByName) */
+
+ULONG64 arrayDims;
+if (SUCCEEDED(spType->GetArrayDimensionality(&arrayDims)))
+{
+    // arrayDims is the dimensionality of the array.  For C/C++, this is always 1.
+}
+```
+
 ## -see-also
+
+[IDebugHostType interface](nn-dbgmodel-idebughosttype.md)
