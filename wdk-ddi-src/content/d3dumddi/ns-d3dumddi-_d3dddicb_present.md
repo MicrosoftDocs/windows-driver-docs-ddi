@@ -90,37 +90,37 @@ The original context that the <b>hContext</b> member specifies and that the user
 ### -field BroadcastSrcAllocation
 
  
-
+Allocations which content will be presented.
 
 ### -field BroadcastDstAllocation
 
  
-
+If non-zero, represents the destination allocations of the present.
 
 ### -field PrivateDriverDataSize
 
- 
+Private driver data size in bytes. 
 
 
 ### -field pPrivateDriverData
 
- 
+Private driver data to pass to DdiPresent.
 
 
 ### -field bOptimizeForComposition
 
- 
+DWM is involved in composition. 
 
 
 ### -field SyncIntervalOverrideValid
 
- 
+Override app sync interval is valid. 
 
 
 ### -field SyncIntervalOverride
 
  
-
+Override app sync interval.
 
 
 
