@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	BBRT_TABLE
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: BBRT_TABLE, *PBBRT_TABLE
 ---
