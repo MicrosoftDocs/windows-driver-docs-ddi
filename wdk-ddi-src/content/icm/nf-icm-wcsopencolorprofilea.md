@@ -15,7 +15,7 @@ ms.topic: function
 req.header: icm.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -149,7 +149,7 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
 <td>Specifies that the ICC profile specified by pCDMPProfile will be used and the embedded WCS profile will be ignored.</td>
 </tr>
 </table>
-Â
+
 
 
 #### - dwDesiredAccess [in]
@@ -203,7 +203,7 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
-Â
 
-Â
+
+
 

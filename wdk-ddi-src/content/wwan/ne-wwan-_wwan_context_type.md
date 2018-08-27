@@ -97,39 +97,46 @@ Purchase a connection. For example, a walled garden, hot-lining or captive porta
 
 ### -field WwanContextTypeMms
 
+The context represents a connection for a multimedia message (MMS).
 
 ### -field WwanContextTypeIms
 
+The context represents a connection for IP Multimedia Subsystem (IMS).
 
 ### -field WwanContextTypeAdmin
 
+The context is used for administrative purposes such as device management.
 
 ### -field WwanContextTypeApp
 
+The context represents a connection for certain applications whitelisted by mobile operators.
 
 ### -field WwanContextTypeXcap
 
+The context is used for XCAP provisioning on IMS services.
 
 ### -field WwanContextTypeTethering
 
+The context is used for mobile hotspot tethering.
 
 ### -field WwanContextTypeEmergencyCall
 
+The context is used for IMS emergency calling.
 
 ### -field WwanContextTypeLteAttach
 
+The context represents an attachment to LTE.
 
 ### -field WwanContextTypeMax
 
 The total number of supported context types.
-
 
 ## -remarks
 
 
 
 This enumeration indicates the usage of the provisioned context. For example, whether the context is
-    used to connect to the Internet, or to a VPN into a corporate network. Miniport driver should specify 
+    used to connect to the Internet, or to a VPN into a corporate network. Miniport drivers should specify 
     <b>WwanContextTypeNone</b> for empty (unprovisioned) context slots.
 
 

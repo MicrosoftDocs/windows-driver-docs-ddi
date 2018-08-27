@@ -56,8 +56,6 @@ The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate
 ## -parameters
 
 
-
-
 ### -param Arg1
 
 A handle to the display device (graphics context).
@@ -66,17 +64,17 @@ A handle to the display device (graphics context).
 
 
 
+The CreateCommandQueue argument is used to create a command queue.
 
 
 
 
-
-#### - CreateCommandQueue [in]
+### -param CreateCommandQueue [in]
 
 An argument used to create a command queue.
 
 
-#### - hDevice
+### -param hDevice
 
 The handle of a device.
 

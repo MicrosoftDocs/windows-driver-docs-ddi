@@ -360,22 +360,22 @@ Asynchronous [OID_WWAN_NETWORK_BLACKLIST](https://docs.microsoft.com/windows-har
 
 ### -field WwanAsyncGetLteAttachConfig
 
-Asynchronous OID_WWAN_LTE_ATTACH_CONFIG get request.
+Asynchronous [OID_WWAN_LTE_ATTACH_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-config) get request.
 
 
 ### -field WwanAsyncSetLteAttachConfig
 
-Asynchronous OID_WWAN_LTE_ATTACH_CONFIG set request.
+Asynchronous [OID_WWAN_LTE_ATTACH_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-config) set request.
 
 
 ### -field WwanAsyncGetLteAttachStatus
 
-Asynchronous OID_WWAN_LTE_ATTACH_STATUS get request.
+Asynchronous [OID_WWAN_LTE_ATTACH_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-status) get request.
 
 
 ### -field WwanAsyncSetLteAttachStatus
 
-Asynchronous OID_WWAN_LTE_ATTACH_STATUS set request.
+Asynchronous [OID_WWAN_LTE_ATTACH_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-status) set request.
 
 ### -field WwanAsyncGetSysCap
 

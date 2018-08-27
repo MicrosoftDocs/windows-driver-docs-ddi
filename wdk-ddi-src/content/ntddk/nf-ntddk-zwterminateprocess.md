@@ -136,7 +136,7 @@ If the caller specifies the current process in the <i>ProcessHandle</i> paramete
 
 
 
-To obtain a process handle that a driver can specify for the <i>ProcessHandle</i> parameter, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567022">ZwOpenProcess</a>. The handle must be a <a href="https://msdn.microsoft.com/4015d7bd-48f6-489b-a0e5-eca83758c5bb">kernel handle</a>.
+To obtain a process handle that a driver can specify for the <i>ProcessHandle</i> parameter, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567022">ZwOpenProcess</a>. The handle must be a *kernel handle*, a handle that can only be accessed in kernel mode. A handle is a kernel handle if it is created with the OBJ_KERNEL_HANDLE flag. For more info see [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes).
 
 Drivers must not specify the current process if resources have not been freed from the kernel stack, because the operating system will not unwind the kernel stack for the calling thread.
 

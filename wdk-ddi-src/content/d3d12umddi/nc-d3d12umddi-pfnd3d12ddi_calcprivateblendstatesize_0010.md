@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010
 title: PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010
 author: windows-driver-content
-description: 
+description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a blend state.
 ms.assetid: 1b9a4131-0167-46db-a717-cfcbd3102cf7
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+The CalcPrivateBlendStateSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a blend state.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE
+
+A handle to the display device (graphics context).
+
 ### -param *: 
 
-
+A pointer to a D3D12DDI_BLEND_DESC_0010 structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns SIZE_T.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also
