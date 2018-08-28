@@ -1,6 +1,6 @@
 ---
 UID: NA:ucmucsidevice
-author: windows-driver-content
+author: windows-driver-content\ntech.root: 
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
 ms.author: windowsdriverdev
 ms.date: 09/30/2018 

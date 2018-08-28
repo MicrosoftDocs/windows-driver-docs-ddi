@@ -1,7 +1,8 @@
 ---
 UID: NS:ucmucsidevice._UCMUCSI_DEVICE_CONFIG
 title: _UCMUCSI_DEVICE_CONFIG
-author: windows-driver-content 
+author: windows-driver-content
+tech.root: usbref
 description: Configuration structure for UcmUcsiDeviceInitialize.
 ms.assetid: e31e55aa-de96-4ea0-967e-ae12507ea643
 ms.author: windowsdriverdev

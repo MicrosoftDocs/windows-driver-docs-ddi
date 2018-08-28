@@ -44,8 +44,7 @@ targetos: Windows
 
 ## -description
 
-An extended version of [**NtCreateSection**](nf-ntifs-ntcreatesection.md) that creates a section object by specifying to
-        indicate that this is actually an AWE section.
+An extended version of [**NtCreateSection**](nf-ntifs-ntcreatesection.md) that creates a section object by specifying to indicate that this is actually an AWE section.
 
 ## -parameters
 
