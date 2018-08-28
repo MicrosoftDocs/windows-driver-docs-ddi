@@ -2,6 +2,7 @@
 UID: NF:ucmucsippm.UcmUcsiConnectorCollectionAddConnector
 title: UcmUcsiConnectorCollectionAddConnector function
 author: windows-driver-content
+tech.root: usbref
 description: Adds a connector to the connector collection object.
 ms.assetid: 0b8f9d0c-60c8-467d-9575-833c87f45bb6
 ms.author: windowsdriverdev
