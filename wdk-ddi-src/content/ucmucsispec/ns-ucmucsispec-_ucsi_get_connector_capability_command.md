@@ -5,6 +5,7 @@ author: windows-driver-content
 description: Used in the GET_CONNECTOR_CAPABILITY command. See Table 4-15.
 ms.assetid: f8297a49-cb5b-4ff9-a67b-6105bc4ca4fe
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

@@ -5,6 +5,7 @@ author: windows-driver-content
 description: Used in the SET_NEW_CAM command. See Table 4-32.
 ms.assetid: 873b6724-0496-40f6-b93f-fdd90e00d3cb
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

@@ -2,6 +2,7 @@
 UID: NS:ucmucsispec._UCSI_GET_CAM_SUPPORTED_IN
 title: _UCSI_GET_CAM_SUPPORTED_IN
 author: windows-driver-content
+tech.root: usbref
 description: Used in the GET_CAM_SUPPORTED command. See Table 4-27.
 ms.assetid: 45493c52-9170-477d-b7da-3fb7ee31ab42
 ms.author: windowsdriverdev

@@ -5,6 +5,7 @@ author: windows-driver-content
 description: Used in the GET_CURRENT_CAM command. See Table 4-29.
 ms.assetid: a3ea2dac-94ef-444f-8003-f3be5cb865b3
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

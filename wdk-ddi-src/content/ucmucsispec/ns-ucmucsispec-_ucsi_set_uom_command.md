@@ -5,6 +5,7 @@ author: windows-driver-content
 description: Used in the SET_UOM command. See Table 4-18.
 ms.assetid: 45926fa9-c2ce-4949-a644-4b43b9763d73
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

@@ -5,6 +5,7 @@ author: windows-driver-content
 description: Used in the GET_PDOS command. See Table 4-34.
 ms.assetid: e3f8b770-0582-434c-9d46-f882d5a55b0b
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

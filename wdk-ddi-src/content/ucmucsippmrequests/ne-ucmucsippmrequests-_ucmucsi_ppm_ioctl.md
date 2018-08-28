@@ -2,6 +2,7 @@
 UID: NE:ucmucsippmrequests._UCMUCSI_PPM_IOCTL
 title: _UCMUCSI_PPM_IOCTL
 author: windows-driver-content
+tech.root: usbref
 description: Defines I/O control codes handled by the client driver.
 ms.assetid: 8ef6d1a5-c204-48ea-b889-367118a87c8a
 ms.author: windowsdriverdev

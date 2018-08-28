@@ -5,6 +5,7 @@ author: windows-driver-content
 description: The MESSAGE OUT data structure. See Section 3.5.
 ms.assetid: c6b580ab-45c4-4cc9-b466-ae3d599b33b9
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

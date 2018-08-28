@@ -5,6 +5,7 @@ author: windows-driver-content
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42.
 ms.assetid: 09365116-affe-4b3e-9b31-e98bcf6c3518
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

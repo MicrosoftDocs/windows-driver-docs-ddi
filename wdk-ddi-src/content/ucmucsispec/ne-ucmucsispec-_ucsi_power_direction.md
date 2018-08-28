@@ -2,6 +2,7 @@
 UID: NE:ucmucsispec._UCSI_POWER_DIRECTION
 title: _UCSI_POWER_DIRECTION
 author: windows-driver-content
+tech.root: usbref
 description: 
 ms.assetid: 1915856c-21ec-4801-b549-acd825b23a0b
 ms.author: windowsdriverdev

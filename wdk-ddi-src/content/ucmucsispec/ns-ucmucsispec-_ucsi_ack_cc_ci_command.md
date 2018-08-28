@@ -2,6 +2,7 @@
 UID: NS:ucmucsispec._UCSI_ACK_CC_CI_COMMAND
 title: _UCSI_ACK_CC_CI_COMMAND
 author: windows-driver-content
+tech.root: usbref
 description: Used in the ACK_CC_CI command. See Table 4-7.
 ms.assetid: 9b7f17fa-451c-4abc-ab51-a7c2ff09493c
 ms.author: windowsdriverdev

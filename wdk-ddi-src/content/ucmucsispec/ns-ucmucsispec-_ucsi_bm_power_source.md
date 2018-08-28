@@ -2,6 +2,7 @@
 UID: NS:ucmucsispec._UCSI_BM_POWER_SOURCE
 title: _UCSI_BM_POWER_SOURCE
 author: windows-driver-content
+tech.root: usbref
 description: Used in GET_CAPABILITY command. See Bit 15:8 in Table 4-14.
 ms.assetid: f47e1834-9a6b-4d7f-a840-cb035a58f846
 ms.author: windowsdriverdev

@@ -5,6 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 9f813bd2-bfcb-450f-a8bb-77df5b79270a
 ms.author: windowsdriverdev
+tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
 ms.prod: windows-hardware

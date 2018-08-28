@@ -2,6 +2,7 @@
 UID: NE:ucmucsispec._UCSI_USB_OPERATION_MODE
 title: _UCSI_USB_OPERATION_MODE
 author: windows-driver-content
+tech.root: usbref
 description: Used in the SET_UOR command. See Table 4-20, Offset 23.
 ms.assetid: a8cd9084-40bf-4b06-be2d-53f324e811e4
 ms.author: windowsdriverdev
