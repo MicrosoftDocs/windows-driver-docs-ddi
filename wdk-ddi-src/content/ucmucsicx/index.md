@@ -36,4 +36,4 @@ UcmUcsiPpmRequests.h
 
 For more information, see:
 - [Write a UcmUcsi client driver]()
-- [Universal Serial Bus (USB)](../_usbref/index.md)
+- [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
