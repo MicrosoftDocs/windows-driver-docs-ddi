@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	FPGA_CONTROL_ERROR_REPORTING
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

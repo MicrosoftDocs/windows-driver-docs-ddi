@@ -91,7 +91,7 @@ Specifies the size of the buffer passed.
 
 ### -param OPTIONAL
 
-TBD
+
 
 
 ### -param RequestorMode [in]

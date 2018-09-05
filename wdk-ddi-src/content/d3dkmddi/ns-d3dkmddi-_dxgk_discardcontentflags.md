@@ -4,7 +4,6 @@ title: "_DXGK_DISCARDCONTENTFLAGS"
 author: windows-driver-content
 description: The DXGK_DISCARDCONTENTFLAGS structure identifies the type of discard-content operation to set up in a call to the DxgkDdiBuildPagingBuffer function.
 old-location: display\dxgk_discardcontentflags.htm
-tech.root: display
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_DISCARDCONTENTFLAGS
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_UMD_DRIVER_VERSION"
 author: windows-driver-content
 description: Indicates the version number of the user-mode driver.
 old-location: display\d3dkmt_umd_driver_version.htm
-tech.root: display
 ms.assetid: 0661a65d-5129-49f6-9400-70b8c8e8245f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_UMD_DRIVER_VERSION
 ---
 

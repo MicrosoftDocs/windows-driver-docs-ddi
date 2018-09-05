@@ -4,7 +4,6 @@ title: D3DKMTGetDisplayModeList function
 author: windows-driver-content
 description: The D3DKMTGetDisplayModeList function retrieves a list of available display modes, including modes with extended format.
 old-location: display\d3dkmtgetdisplaymodelist.htm
-tech.root: display
 ms.assetid: f813171d-1c7d-4f75-850f-225ea166ff5c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTGetDisplayModeList</b> function retrieves a list of available displ
 
 ### -param Arg1
 
-TBD
+
 
 
 

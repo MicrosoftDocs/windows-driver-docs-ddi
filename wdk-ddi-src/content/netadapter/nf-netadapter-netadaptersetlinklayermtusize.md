@@ -36,9 +36,11 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NetAdapterSetLinkLayerMtuSize
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetAdapterSetLinkLayerMtuSize function
@@ -49,14 +51,14 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Sets the link layer maximum transfer unit size of the adapter.
 
 ## -parameters
 
 ### -param Adapter
-The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
+The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 ### -param MtuSize
 The new size of the adapter's MTU, in bytes.
@@ -65,9 +67,9 @@ The new size of the adapter's MTU, in bytes.
 This method does not return a value.
 
 ## -remarks
-The client driver first sets MTU size by calling **NetAdapterSetLinkLayerMtuSize** from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* implementation.
+The client driver first sets MTU size by calling **NetAdapterSetLinkLayerMtuSize** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
-The client driver can change the MTU size after returning from *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* by calling this method again. Doing so causes all of the adapter's transmit (Tx) and receive (Rx) queues to be recreated.
+The client driver can change the MTU size after [**NetAdapterStart**](nf-netadapter-netadapterstart.md) returns by calling this method again. Doing so causes all of the adapter's transmit (Tx) and receive (Rx) queues to be recreated.
 
 
 

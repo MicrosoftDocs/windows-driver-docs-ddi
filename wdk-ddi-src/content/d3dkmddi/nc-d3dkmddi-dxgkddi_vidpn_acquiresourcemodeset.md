@@ -4,7 +4,6 @@ title: DXGKDDI_VIDPN_ACQUIRESOURCEMODESET
 author: windows-driver-content
 description: The pfnAcquireSourceModeSet function returns a handle to a particular source mode set object that is contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfnacquiresourcemodeset.htm
-tech.root: display
 ms.assetid: cf19f468-86c1-4cc9-8945-e23f73a85c91
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

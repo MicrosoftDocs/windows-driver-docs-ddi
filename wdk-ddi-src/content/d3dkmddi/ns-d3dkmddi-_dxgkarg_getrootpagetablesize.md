@@ -4,7 +4,6 @@ title: "_DXGKARG_GETROOTPAGETABLESIZE"
 author: windows-driver-content
 description: DXGKARG_GETROOTPAGETABLESIZE is used with DxgkDdiGetRootPageTableSize.
 old-location: display\dxgkarg_getrootpagetablesize.htm
-tech.root: display
 ms.assetid: 31CB33F9-87E8-419D-AF35-E7F731661DD5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_GETROOTPAGETABLESIZE
 ---
 

@@ -4,7 +4,6 @@ title: "_D3DKMT_STANDARDALLOCATIONTYPE"
 author: windows-driver-content
 description: Used to give information on the allocation type.
 old-location: display\d3dkmt-standardallocationtype.htm
-tech.root: display
 ms.assetid: 7ce6d148-bfe8-4040-a4c1-ccd22fd07307
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_STANDARDALLOCATIONTYPE
 ---
 

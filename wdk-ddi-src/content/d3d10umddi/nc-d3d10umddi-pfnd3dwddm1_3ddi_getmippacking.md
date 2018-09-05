@@ -4,7 +4,6 @@ title: PFND3DWDDM1_3DDI_GETMIPPACKING
 author: windows-driver-content
 description: For a given tiled resource, returns how many mips are packed, and how many tiles are needed to store all the packed mips.
 old-location: display\getmippacking.htm
-tech.root: display
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

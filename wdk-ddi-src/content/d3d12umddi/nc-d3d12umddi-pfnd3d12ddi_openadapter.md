@@ -4,7 +4,6 @@ title: PFND3D12DDI_OPENADAPTER
 author: windows-driver-content
 description: The PFND3D12DDI_OPENADAPTER function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\pfnd3d12ddi_openadapter.htm
-tech.root: display
 ms.assetid: FEDC2FB5-9F1A-4829-A98D-3BEA4218AE3D
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

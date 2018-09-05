@@ -2,7 +2,7 @@
 UID: NF:prcomoem.IPrintOemEngine.DisablePDEV
 title: IPrintOemEngine::DisablePDEV
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintoemengine_disablepdev.htm
 tech.root: print
 ms.assetid: F550A8B8-0C96-46E8-8E2A-32679E1D1E01

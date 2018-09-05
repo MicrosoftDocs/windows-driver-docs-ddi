@@ -4,7 +4,6 @@ title: PFND3D11DDI_STATE_CS_SHADER_CB
 author: windows-driver-content
 description: The pfnStateCsShaderCb function causes the Microsoft Direct3D 11 runtime to refresh the compute shader.
 old-location: display\pfnstatecsshadercb.htm
-tech.root: display
 ms.assetid: ae06ffb3-3ed5-4117-8373-e41a45be37d1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

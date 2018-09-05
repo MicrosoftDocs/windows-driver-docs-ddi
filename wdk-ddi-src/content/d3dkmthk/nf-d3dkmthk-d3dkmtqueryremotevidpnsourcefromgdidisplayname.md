@@ -4,7 +4,6 @@ title: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function
 author: windows-driver-content
 description: Maps a GDI display name to a remote video present network (VidPN) source ID that is needed for a call to the D3DKMTOutputDuplPresent function.
 old-location: display\d3dkmtqueryremotevidpnsourcefromgdidisplayname.htm
-tech.root: display
 ms.assetid: 3606d5f4-760f-4ba1-84ea-218b6c2a2e20
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Maps a GDI display name to a remote video present network (VidPN) source ID that
 
 ### -param Arg1
 
-TBD
+
 
 
 

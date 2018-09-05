@@ -60,12 +60,12 @@ The print spooler's <code>ReplyPrinterChangeNotification</code> function allows 
 
 ### -param hPrinter
 
-TBD
+
 
 
 ### -param fdwChangeFlags
 
-TBD
+
 
 
 ### -param pdwResult [out, optional]

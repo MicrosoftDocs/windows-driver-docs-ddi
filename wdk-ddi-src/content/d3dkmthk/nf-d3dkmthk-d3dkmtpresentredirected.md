@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTPresentRedirected
 title: D3DKMTPresentRedirected function
 author: windows-driver-content
-description: TBD
+description: 
 ms.assetid: 1811b73a-c33f-4fd5-add5-4e6986ceb539
 ms.author: windowsdriverdev
 ms.date:
@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
@@ -25,16 +25,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	DllExport
-apilocation:
--	NtosKrnl.exe
-apiname:
+api_location:
+-	Gdi32.dll
+api_name:
 -	D3DKMTPresentRedirected
-product: Windows
+product: 
+-	Windows
 targetos: Windows
+tech.root: display
 
 ---
 

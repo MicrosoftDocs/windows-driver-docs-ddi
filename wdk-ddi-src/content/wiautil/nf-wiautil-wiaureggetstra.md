@@ -65,12 +65,12 @@ Specifies the registry key handle. This parameter should be set to the value poi
 
 ### -param pszValueName
 
-TBD
+
 
 
 ### -param pszValue
 
-TBD
+
 
 
 ### -param pdwLength [in, out]

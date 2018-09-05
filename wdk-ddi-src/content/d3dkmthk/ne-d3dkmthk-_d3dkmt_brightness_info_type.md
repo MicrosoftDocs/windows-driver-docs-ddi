@@ -4,7 +4,6 @@ title: "_D3DKMT_BRIGHTNESS_INFO_TYPE"
 author: windows-driver-content
 description: Indicates the type of information to retrieve or set for the brightness of an integrated display panel.
 old-location: display\d3dkmt_brightness_info_type.htm
-tech.root: display
 ms.assetid: 0f37ac57-9f3b-4bbc-a927-ea85aa44f910
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_BRIGHTNESS_INFO_TYPE
 ---
 

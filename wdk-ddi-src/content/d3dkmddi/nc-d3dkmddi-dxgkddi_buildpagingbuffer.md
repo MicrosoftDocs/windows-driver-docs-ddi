@@ -4,7 +4,6 @@ title: DXGKDDI_BUILDPAGINGBUFFER
 author: windows-driver-content
 description: The DxgkDdiBuildPagingBuffer function builds paging buffers for memory operations.
 old-location: display\dxgkddibuildpagingbuffer.htm
-tech.root: display
 ms.assetid: d315ff53-4a9f-46a3-ad74-d65a5eb72de1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

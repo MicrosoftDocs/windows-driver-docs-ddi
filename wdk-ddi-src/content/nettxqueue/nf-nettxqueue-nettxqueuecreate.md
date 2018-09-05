@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Creates a net transmit queue object.
 ms.assetid: 50a3a979-0699-40d9-9932-3836a3b0b3a0
 ms.author: windowsdriverdev
-ms.date: 02/09/2018
+ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetTxQueueCreate
 req.header: nettxqueue.h
@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.21
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -35,9 +35,11 @@ apilocation:
 -	nettxqueue.h
 apiname: 
 -	NetTxQueueCreate
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetTxQueueCreate function
@@ -48,7 +50,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Creates a net transmit queue object.
 
@@ -58,10 +60,10 @@ Creates a net transmit queue object.
 A pointer to the **NETTXQUEUE_INIT** structure that the client driver received in *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)*.
 
 ### -param TxQueueAttributes
-A pointer to an initialized, caller-allocated [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. The structure’s **ParentObject** must be **NULL**. The parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to an initialized, caller-allocated [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. The structure’s **ParentObject** must be **NULL**. The parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param Configuration
-A pointer to a caller-allocated [NET_TXQUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md) structure.
+A pointer to a caller-allocated [**NET_PACKET_QUEUE_CONFIG**](../netpacketqueue/ns-netpacketqueue-_net_packet_queue_config.md) structure.
 
 ### -param TxQueue
 A pointer to a location that receives a handle to the new net transmit queue object.
@@ -72,7 +74,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 The client calls **NetTxQueueCreate** from within its *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* event callback function. For info on assigning context space to the new object, see [Framework Object Context Space](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space).
 
-The NETTXQUEUE object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
+The NETPACKETQUEUE object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
 
 
 

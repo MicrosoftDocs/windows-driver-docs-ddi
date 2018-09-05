@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_GETVIDEODECODERCONFIG
 author: windows-driver-content
 description: Queries the video decoder configuration for a specified video operation.
 old-location: display\getvideodecoderconfig.htm
-tech.root: display
 ms.assetid: e13cb42b-258e-4fa6-8dc0-8983b118af3c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

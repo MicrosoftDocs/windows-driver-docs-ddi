@@ -4,7 +4,6 @@ title: "_DXGK_RECOMMENDVIDPNTOPOLOGY_REASON"
 author: windows-driver-content
 description: Indicates the reason for calling the display miniport driver's DxgkDdiRecommendVidPnTopology function.
 old-location: display\dxgk_recommendvidpntopology_reason.htm
-tech.root: display
 ms.assetid: 2a67a119-863b-4cde-9308-e4862823bad1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
 ---
 

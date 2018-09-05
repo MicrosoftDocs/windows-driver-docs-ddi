@@ -4,7 +4,6 @@ title: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure describes the unordered access view to create.
 old-location: display\d3d11ddiarg_createunorderedaccessview.htm
-tech.root: display
 ms.assetid: 3c977fe6-d0f9-4edc-abeb-0725d68a482d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
 ---
 

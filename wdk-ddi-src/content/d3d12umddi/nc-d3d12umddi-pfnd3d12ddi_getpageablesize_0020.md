@@ -4,7 +4,6 @@ title: PFND3D12DDI_GETPAGEABLESIZE_0020
 author: windows-driver-content
 description: The pfnGetPageableSize callback function gets the pageable size.
 old-location: display\pfnd3d12ddi_getpageablesize.htm
-tech.root: display
 ms.assetid: DC215186-A216-4C34-AE9A-A487178B34C0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

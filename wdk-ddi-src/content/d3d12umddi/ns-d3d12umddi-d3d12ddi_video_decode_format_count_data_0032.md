@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 author: windows-driver-content
 description: Video decode format count data.
 old-location: display\d3d12ddi-video-decode-format-count-data-0032.htm
-tech.root: display
 ms.assetid: 3d28fe10-1dfc-4017-9ab0-d8b8e2d45448
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 ---
 

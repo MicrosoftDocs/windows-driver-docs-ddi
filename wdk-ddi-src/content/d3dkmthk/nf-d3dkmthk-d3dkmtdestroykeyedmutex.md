@@ -4,7 +4,6 @@ title: D3DKMTDestroyKeyedMutex function
 author: windows-driver-content
 description: The D3DKMTDestroyKeyedMutex function destroys a keyed mutex object.
 old-location: display\d3dkmtdestroykeyedmutex.htm
-tech.root: display
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyKeyedMutex</b> function destroys a keyed mutex object.
 
 ### -param D3DKMT_DESTROYKEYEDMUTEX
 
-TBD
+
 
 
 

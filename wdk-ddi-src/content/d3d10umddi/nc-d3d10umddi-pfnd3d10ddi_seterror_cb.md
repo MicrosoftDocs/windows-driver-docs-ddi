@@ -4,7 +4,6 @@ title: PFND3D10DDI_SETERROR_CB
 author: windows-driver-content
 description: The pfnSetErrorCb function sets the return error code of a user-mode display driver's function.
 old-location: display\pfnseterrorcb.htm
-tech.root: display
 ms.assetid: 968b04a7-8869-410c-a6fc-83d57726858f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

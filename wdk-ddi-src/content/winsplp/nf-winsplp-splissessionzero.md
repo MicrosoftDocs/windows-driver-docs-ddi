@@ -65,7 +65,7 @@ Is a handle to the printer.
 
 ### -param JobId
 
-TBD
+
 
 
 ### -param pIsSessionZero [out]

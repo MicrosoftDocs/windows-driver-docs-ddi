@@ -4,7 +4,6 @@ title: D3DKMTOfferAllocations function
 author: windows-driver-content
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
-tech.root: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTOfferAllocations
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Offers video memory allocations for reuse.
 
 ### -param D3DKMT_OFFERALLOCATIONS
 
-TBD
+
 
 
 

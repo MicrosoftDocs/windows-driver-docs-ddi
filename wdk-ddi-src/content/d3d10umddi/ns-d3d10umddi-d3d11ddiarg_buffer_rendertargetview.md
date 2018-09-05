@@ -4,7 +4,6 @@ title: D3D11DDIARG_BUFFER_RENDERTARGETVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d11ddiarg_buffer_rendertargetview.htm
-tech.root: display
 ms.assetid: 1c89b4bd-7473-4da6-afbe-4103f3f3d7be
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_BUFFER_RENDERTARGETVIEW
 ---
 

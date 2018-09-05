@@ -4,7 +4,6 @@ title: D3DKMTQueryAdapterInfo function
 author: windows-driver-content
 description: The D3DKMTQueryAdapterInfo function retrieves graphics adapter information.
 old-location: display\d3dkmtqueryadapterinfo.htm
-tech.root: display
 ms.assetid: fa67207d-cf83-42a5-969b-29379f99883f
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTQueryAdapterInfo</b> function retrieves graphics adapter informatio
 
 ### -param D3DKMT_QUERYADAPTERINFO
 
-TBD
+
 
 
 

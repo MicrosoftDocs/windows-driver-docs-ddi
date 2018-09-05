@@ -228,7 +228,7 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-
 ### -field DxgkDdiPresentDisplayOnly
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
 
 
 ### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
@@ -278,7 +278,7 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/56535128-3107-4fb5-
 ### -field DxgkDdiNotifySurpriseRemoval
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
 
 
 ### -field DxgkDdiPowerRuntimeSetDeviceHandle

@@ -4,7 +4,6 @@ title: D3DKMTRender function
 author: windows-driver-content
 description: The D3DKMTRender function submits the current command buffer to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtrender.htm
-tech.root: display
 ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTRender</b> function submits the current command buffer to the Micro
 
 ### -param Arg1
 
-TBD
+
 
 
 

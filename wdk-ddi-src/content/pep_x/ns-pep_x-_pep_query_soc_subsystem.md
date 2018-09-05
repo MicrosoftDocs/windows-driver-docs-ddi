@@ -74,7 +74,7 @@ The  PEP can ignore this value.
 
 ### -field SubsystemHandle
 
-[out] A context pointer that the PEP can optionally assign a value to. It will receive the pointer on subsequent notifications for this particular subsystem.  In subsequent notifications, a PEP uses <b>PlatformIdleStateIndex</b> along with <b>SubsystemName</b> and/or <b>SubsystemHandle</b> to look up a particular subsystemâ€™s accounting data. 
+[out] A context pointer that the PEP can optionally assign a value to. It will receive the pointer on subsequent notifications for this particular subsystem.  In subsequent notifications, a PEP uses <b>PlatformIdleStateIndex</b> along with <b>SubsystemName</b> and/or <b>SubsystemHandle</b> to look up a particular subsystem's accounting data. 
 
 By default the value if this member is zero.  This value is ignored by the OS and used only in notifications.  
 
@@ -83,7 +83,7 @@ The PEP is not required to fill  this member.
 
 ### -field ParentName
 
-[in/out]  A buffer for holding the parent name of the corresponding subsystem.  Each  subsystem has a parent and subsystems with the same value for <b>ParentName</b> are considered siblings.  Subsystem sibling hierarchies are optional.  In the absence of any hierarchy, all subsystems are top level subsystems and specify a common value for <b>ParentName</b>.  To indicate a hierarchy, top level subsystems specify a common <b>ParentName</b> while each non-top-level subsystem specifies its parent subsystemâ€™s <b>SubsystemName</b> for <b>ParentName</b>.  
+[in/out]  A buffer for holding the parent name of the corresponding subsystem.  Each  subsystem has a parent and subsystems with the same value for <b>ParentName</b> are considered siblings.  Subsystem sibling hierarchies are optional.  In the absence of any hierarchy, all subsystems are top level subsystems and specify a common value for <b>ParentName</b>.  To indicate a hierarchy, top level subsystems specify a common <b>ParentName</b> while each non-top-level subsystem specifies its parent subsystem's <b>SubsystemName</b> for <b>ParentName</b>.  
 
 
 
@@ -103,7 +103,7 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 ### -field SubsystemName
 
-[in/out] A buffer for holding this subsystem's name.  Every subsystem has a subsystem name and <b>SubsystemName</b> must be unique among all subsystems within the context of a given platform idle state.  A subsystemâ€™s <b>SubsystemName</b> cannot be the same as <b>ParentName</b>.
+[in/out] A buffer for holding this subsystem's name.  Every subsystem has a subsystem name and <b>SubsystemName</b> must be unique among all subsystems within the context of a given platform idle state.  A subsystem's <b>SubsystemName</b> cannot be the same as <b>ParentName</b>.
 
 
 

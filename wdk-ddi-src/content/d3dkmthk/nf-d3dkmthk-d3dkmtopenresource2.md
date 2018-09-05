@@ -4,7 +4,6 @@ title: D3DKMTOpenResource2 function
 author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtopenresource2.htm
-tech.root: display
 ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ Reserved for system use. Do not use in your driver.
 
 ### -param Arg1
 
-TBD
+
 
 
 

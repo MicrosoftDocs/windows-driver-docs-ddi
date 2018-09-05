@@ -4,7 +4,6 @@ title: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 author: windows-driver-content
 description: Identifies how to check multisample quality levels using the CheckMultisampleQualityLevels(D3D11_2) function.
 old-location: display\d3dwddm1_3ddi_check_multisample_quality_levels_flag.htm
-tech.root: display
 ms.assetid: C69CDCCF-3E5F-4E1A-8781-A995F8E4F2C2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 ---
 

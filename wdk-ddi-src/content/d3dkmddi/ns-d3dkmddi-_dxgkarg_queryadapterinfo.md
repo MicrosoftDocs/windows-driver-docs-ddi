@@ -4,7 +4,6 @@ title: "_DXGKARG_QUERYADAPTERINFO"
 author: windows-driver-content
 description: The DXGKARG_QUERYADAPTERINFO structure contains parameters for a query.
 old-location: display\dxgkarg_queryadapterinfo.htm
-tech.root: display
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_QUERYADAPTERINFO
 ---
 

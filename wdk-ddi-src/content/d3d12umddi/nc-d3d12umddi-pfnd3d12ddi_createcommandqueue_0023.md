@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATECOMMANDQUEUE_0023
 author: windows-driver-content
 description: The pfnCreateCommandQueue callback function is used to create command queue.
 old-location: display\pfnd3d12ddi_createcommandqueue_0023.htm
-tech.root: display
 ms.assetid: 1DA52354-2338-4214-8489-B6BFCD6060FB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -76,22 +76,22 @@ The <i>pfnCreateCommandQueue</i> callback function is used to create command que
 
 
 
-#### - CreateCommandQueue [in]
+### -param CreateCommandQueue [in]
 
 An argument used to create a command queue.
 
 
-#### - hDevice
+### -param hDevice
 
 The handle of a device.
 
 
-#### - hDrvCommandQueue
+### -param hDrvCommandQueue
 
 The handle of a command queue.
 
 
-#### - hRTCommandQueue
+### -param hRTCommandQueue
 
 The handle of the command queue for the driver to use when it calls back into the runtime.
 

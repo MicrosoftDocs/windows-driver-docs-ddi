@@ -4,7 +4,6 @@ title: DXGKDDI_UPDATEHWCONTEXTSTATE
 author: windows-driver-content
 description: Used to update the hardware context state.
 old-location: display\dxgkddi_updatehwcontextstate.htm
-tech.root: display
 ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

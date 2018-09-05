@@ -33,7 +33,8 @@ api_location:
 -	ntddstor.h
 api_name: 
 -	DEVICE_DSM_ROUND_UP
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

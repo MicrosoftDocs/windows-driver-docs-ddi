@@ -4,7 +4,6 @@ title: D3DKMTDestroySynchronizationObject function
 author: windows-driver-content
 description: The D3DKMTDestroySynchronizationObject function destroys a kernel-mode synchronization object.
 old-location: display\d3dkmtdestroysynchronizationobject.htm
-tech.root: display
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode sy
 
 ### -param D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 
-TBD
+
 
 
 

@@ -4,7 +4,6 @@ title: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
 author: windows-driver-content
 description: Content protection callbacks.
 old-location: display\d3d12ddi-content-protection-callbacks-0030.htm
-tech.root: display
 ms.assetid: a3a9b862-872e-4a1e-bb80-1831db983b28
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
 ---
 

@@ -2,7 +2,7 @@
 UID: NN:prnasntp.IAsyncGetSendNotificationCookie
 title: IAsyncGetSendNotificationCookie
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iasyncgetsendnotificationcookie.htm
 tech.root: print
 ms.assetid: A9FF489E-458D-4E37-85F0-AA61249CE4B8

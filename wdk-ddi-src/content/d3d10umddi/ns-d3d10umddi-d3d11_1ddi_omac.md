@@ -4,7 +4,6 @@ title: D3D11_1DDI_OMAC
 author: windows-driver-content
 description: Contains a Message Authentication Code (MAC).
 old-location: display\d3d11_1ddi_omac.htm
-tech.root: display
 ms.assetid: 6807f32a-0e63-4603-abfb-b35d0d0d5f8c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_OMAC
 ---
 

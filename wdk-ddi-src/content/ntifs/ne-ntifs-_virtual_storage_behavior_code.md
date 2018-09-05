@@ -28,7 +28,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_VIRTUAL_STORAGE_BEHAVIOR_CODE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

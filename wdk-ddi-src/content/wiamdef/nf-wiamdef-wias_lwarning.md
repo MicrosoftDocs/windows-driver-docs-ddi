@@ -62,17 +62,17 @@ The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
 ### -param pILog
 
-TBD
+
 
 
 ### -param ResID
 
-TBD
+
 
 
 ### -param Args
 
-TBD
+
 
 
 

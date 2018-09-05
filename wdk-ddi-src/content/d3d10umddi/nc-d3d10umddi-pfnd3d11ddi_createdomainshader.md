@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATEDOMAINSHADER
 author: windows-driver-content
 description: The CreateDomainShader function creates a domain shader.
 old-location: display\createdomainshader.htm
-tech.root: display
 ms.assetid: 534c292a-b3ef-41aa-868a-f5e57b90d789
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

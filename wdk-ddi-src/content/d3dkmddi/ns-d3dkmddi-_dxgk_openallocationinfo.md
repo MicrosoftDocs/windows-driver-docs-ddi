@@ -4,7 +4,6 @@ title: "_DXGK_OPENALLOCATIONINFO"
 author: windows-driver-content
 description: The DXGK_OPENALLOCATIONINFO structure contains handles to nondevice-specific and device-specific allocations that the DxgkDdiOpenAllocation function associates.
 old-location: display\dxgk_openallocationinfo.htm
-tech.root: display
 ms.assetid: e23b7e4e-e670-4421-aa2f-4389a74a7d6d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_OPENALLOCATIONINFO
 ---
 

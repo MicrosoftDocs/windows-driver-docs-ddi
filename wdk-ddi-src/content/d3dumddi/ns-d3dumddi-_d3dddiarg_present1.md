@@ -109,7 +109,7 @@ The driver can use this member to perform optimizations, though it's not require
 ### -field BackBufferMultiplicity
 
  
-
+The number of physical back buffer per logical back buffer.
 
 
 

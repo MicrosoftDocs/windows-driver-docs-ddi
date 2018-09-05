@@ -4,7 +4,6 @@ title: PFND3D11DDI_COPYSTRUCTURECOUNT
 author: windows-driver-content
 description: The CopyStructureCount function copies the number of items in the filled portion (that is, the filled-size value) of an append buffer unordered access view (UAV) to an offset into a destination buffer.
 old-location: display\copystructurecount.htm
-tech.root: display
 ms.assetid: 39f20ff3-859f-4933-8be0-e2bb7c05e7e1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

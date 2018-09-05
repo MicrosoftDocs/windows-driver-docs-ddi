@@ -34,7 +34,8 @@ api_location:
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
 -	FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

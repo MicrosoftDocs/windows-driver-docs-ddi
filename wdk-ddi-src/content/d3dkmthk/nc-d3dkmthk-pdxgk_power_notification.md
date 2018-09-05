@@ -4,7 +4,6 @@ title: PDXGK_POWER_NOTIFICATION
 author: windows-driver-content
 description: A callback providing notification that the graphics device will be undergoing a device power state transition.
 old-location: display\pdxgk_power_notification.htm
-tech.root: display
 ms.assetid: 11549B4E-7929-4957-9775-BF8AAF501D45
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
 
@@ -94,6 +94,7 @@ This callback function does not return a value.
 
 This callback is made at PASSIVE_LEVEL. The driver may block in order to complete the servicing of the operation only when the new power state is PowerDeviceD3. In this case, the call must still be completed in a timely fashion, as it can block the completion of the overall device power state transition and is subject to causing a power watchdog bug check. The driver must not block when the new state is PowerDeviceD0. When going into PowerDeviceD3, both a “pre” and “post” notification will be provided, assuming that that transition is not canceled in the interim. When going into PowerDeviceD0, only a “post” notification will be provided. It is permitted for this callback handler to call the SetSharedPowerComponentStateCb graphics callback if desired; no other callbacks into graphics kernel are permitted from this handler.
 
-> [!Important] > The initial graphics power state will be provided in the IOCTL output, however, since it is possible that the graphics device may be undergoing a power state transition while registration is occurring, a mutex must be acquired around the IOCTL call and parsing of the original state, and that same mutex must be acquired in this callback function. That way, should the state be transitioning, the callback will provide the most up to date state information.
+> [!Important] 
+> The initial graphics power state will be provided in the IOCTL output, however, since it is possible that the graphics device may be undergoing a power state transition while registration is occurring, a mutex must be acquired around the IOCTL call and parsing of the original state, and that same mutex must be acquired in this callback function. That way, should the state be transitioning, the callback will provide the most up to date state information.
 
 The following

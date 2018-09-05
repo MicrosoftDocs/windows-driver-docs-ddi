@@ -65,22 +65,22 @@ Caller-supplied printer handle.
 
 ### -param pszDeviceName
 
-TBD
+
 
 
 ### -param Capability
 
-TBD
+
 
 
 ### -param pOutput
 
-TBD
+
 
 
 ### -param pDevmode
 
-TBD
+
 
 
 

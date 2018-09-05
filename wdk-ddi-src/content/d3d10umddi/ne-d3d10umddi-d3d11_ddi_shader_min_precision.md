@@ -4,7 +4,6 @@ title: D3D11_DDI_SHADER_MIN_PRECISION
 author: windows-driver-content
 description: Specifies minimum precision levels that the user-mode driver supports in shaders.
 old-location: display\d3d11_ddi_shader_min_precision.htm
-tech.root: display
 ms.assetid: cf77d6c7-8f42-470a-9e3a-85d95398470b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION
 ---
 

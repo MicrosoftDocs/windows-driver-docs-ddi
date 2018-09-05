@@ -2,7 +2,7 @@
 UID: NE:ks.KSLIST_ENTRY_LOCATION
 title: KSLIST_ENTRY_LOCATION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\kslist_entry_location.htm
 tech.root: stream
 ms.assetid: C2047F4D-6D24-432B-98F1-EA00D88E3860

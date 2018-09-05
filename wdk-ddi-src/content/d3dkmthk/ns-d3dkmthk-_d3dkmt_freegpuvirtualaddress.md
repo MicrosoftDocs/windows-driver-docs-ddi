@@ -4,7 +4,6 @@ title: "_D3DKMT_FREEGPUVIRTUALADDRESS"
 author: windows-driver-content
 description: D3DKMT_FREEGPUVIRTUALADDRESS is used with FreeGpuVirtualAddress to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 old-location: display\d3dkmt_freegpuvirtualaddress.htm
-tech.root: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_FREEGPUVIRTUALADDRESS
 ---
 

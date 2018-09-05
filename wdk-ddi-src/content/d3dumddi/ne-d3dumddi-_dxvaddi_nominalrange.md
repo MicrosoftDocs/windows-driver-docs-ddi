@@ -70,27 +70,27 @@ The nominal range is not specified.
 
 ### -field DXVADDI_NominalRange_Normal
 
-Normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
+Normalized chroma [0..1] maps to [0..255] for 8-bit or [0..1023] for 10-bit.
 
 
 ### -field DXVADDI_NominalRange_Wide
 
-Normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
+Normalized chroma [0..1] maps to [16..235] for 8-bit or [64..940] for 10-bit.
 
 
 ### -field DXVADDI_NominalRange_0_255
 
-Normalized chroma [0..1] maps explicitly to [0..255] (8bit).
+Normalized chroma [0..1] maps explicitly to [0..255] for 8-bit.
 
 
 ### -field DXVADDI_NominalRange_16_235
 
-Normalized chroma [0..1] maps explicitly to [16..235] (8bit).
+Normalized chroma [0..1] maps explicitly to [16..235] for 8-bit.
 
 
 ### -field DXVADDI_NominalRange_48_208
 
-Normalized chroma [0..1] maps explicitly to [48..208] (8bit).
+Normalized chroma [0..1] maps explicitly to [48..208] for 8-bit.
 
 
 ## -remarks

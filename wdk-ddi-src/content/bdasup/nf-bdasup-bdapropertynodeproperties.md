@@ -61,7 +61,7 @@ The <b>BdaPropertyNodeProperties</b> function retrieves a list of properties tha
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

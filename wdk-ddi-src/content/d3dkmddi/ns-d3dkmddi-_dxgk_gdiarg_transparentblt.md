@@ -4,7 +4,6 @@ title: "_DXGK_GDIARG_TRANSPARENTBLT"
 author: windows-driver-content
 description: The DXGK_GDIARG_TRANSPARENTBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) operation with transparency.
 old-location: display\dxgk_gdiarg_transparentblt.htm
-tech.root: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_TRANSPARENTBLT
 ---
 
@@ -167,17 +167,17 @@ When sub-rectangles are transformed to the source surface space, the result is g
 <li>(Xd, Yd) is a point inside the sub-rectangle</li>
 <li>(Xs, Ys) is a point inside the source rectangle</li>
 </ul>
-<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right â€“ SrcRect.left;
-float Wd = DstRect.right â€“ DstRect.left;
-int Xs = round((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left â€“ 0.5)
+<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right - SrcRect.left;
+float Wd = DstRect.right - DstRect.left;
+int Xs = round((Xd - DstRect.left + 0.5) * Ws/Wd + SrcRect.left - 0.5)
 OR
-int Xs = truncate((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left)
+int Xs = truncate((Xd - DstRect.left + 0.5) * Ws/Wd + SrcRect.left)
 
-float Hs = SrcRect.bottom â€“ SrcRect.top;
-float Hd = DstRect.bottom â€“ DstRect.top;
-int Ys = round((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top â€“ 0.5)
+float Hs = SrcRect.bottom - SrcRect.top;
+float Hd = DstRect.bottom - DstRect.top;
+int Ys = round((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top - 0.5)
 OR
-int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
+int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
 
 
 

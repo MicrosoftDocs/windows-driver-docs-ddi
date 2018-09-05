@@ -3,12 +3,14 @@ UID: NA:ksmedia
 author: windows-driver-content
 ms.assetid: 8877c4ae-aa0c-3131-b21b-33fa24797743
 ms.author: windowsdriverdev
-ms.date: 05/09/18
+ms.date: 08/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: display
+product:
+-	Windows
+tech.root: stream
 ---
 
 # Ksmedia.h header
@@ -17,6 +19,7 @@ tech.root: display
 ## -description
 
 
-This header is used by audio. For more information, see:
+This header is used by stream. For more information, see:
 
-- [Audio](../_audio/index.md)
+- [Streaming media devices](../_stream/index.md)
+

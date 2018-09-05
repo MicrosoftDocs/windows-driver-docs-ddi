@@ -36,9 +36,11 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NetAdapterSetDataPathCapabilities
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetAdapterSetDataPathCapabilities function
@@ -49,7 +51,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Sets the data path capabilities of the network adapter.
 
@@ -68,7 +70,7 @@ A pointer to an allocated and initialized [NET_ADAPTER_RX_CAPABILITIES](ns-netad
 This method does not return a value.
 
 ## -remarks
-The client driver must call this method from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* event callback routine.
+The client driver must call this method when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 This method, along with a few other set capability methods (see below), is the replacement for the [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md).
 

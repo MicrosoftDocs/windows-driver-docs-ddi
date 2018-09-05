@@ -4,7 +4,6 @@ title: D3DKMTDestroyProtectedSession function
 author: windows-driver-content
 description: Used to destroy a protected session.
 old-location: display\d3dkmtdestroyprotectedsession.htm
-tech.root: display
 ms.assetid: e27ab1db-647d-447c-b79d-2553aa088398
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTDestroyProtectedSession
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-TBD
+
 
 
 

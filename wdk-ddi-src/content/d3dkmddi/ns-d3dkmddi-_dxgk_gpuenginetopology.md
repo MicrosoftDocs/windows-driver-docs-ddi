@@ -4,7 +4,6 @@ title: "_DXGK_GPUENGINETOPOLOGY"
 author: windows-driver-content
 description: The DXGK_GPUENGINETOPOLOGY structure describes the graphics processing unit (GPU)-engine topology that a driver can support.
 old-location: display\dxgk_gpuenginetopology.htm
-tech.root: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GPUENGINETOPOLOGY
 ---
 

@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"
 author: windows-driver-content
 description: Used by new drivers to report per-plane flip completion after a VSYNC.
 old-location: display\dxgk_multiplane_overlay_vsync_info2.htm
-tech.root: display
 ms.assetid: CC1371C5-1BAB-458C-BC7F-9844B2BBEA3A
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 ---
 

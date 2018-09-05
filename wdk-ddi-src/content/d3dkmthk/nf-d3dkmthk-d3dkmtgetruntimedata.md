@@ -4,7 +4,6 @@ title: D3DKMTGetRuntimeData function
 author: windows-driver-content
 description: The D3DKMTGetRuntimeData function is for system use only.
 old-location: display\d3dkmtgetruntimedata.htm
-tech.root: display
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTGetRuntimeData
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ The <b>D3DKMTGetRuntimeData</b> function is for system use only.
 
 ### -param D3DKMT_GETRUNTIMEDATA
 
-TBD
+
 
 
 

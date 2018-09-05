@@ -2,7 +2,7 @@
 UID: NS:ksproxy.OPTIMAL_WEIGHT_TOTALS
 title: OPTIMAL_WEIGHT_TOTALS
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\optimal_weight_totals.htm
 tech.root: stream
 ms.assetid: 56D97D0F-1934-4834-99A7-8A745A3E6757

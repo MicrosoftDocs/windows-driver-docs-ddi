@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	LibDef
+-	DllExport
 api_location:
 -	ndis.lib
 -	ndis.dll
@@ -150,7 +150,7 @@ Any miniport driver function that shares resources with any other driver functio
     caller before it returns control.
 
 For more information about acquiring and releasing NDIS spin locks, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
 

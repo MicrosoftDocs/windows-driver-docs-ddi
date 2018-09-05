@@ -4,7 +4,6 @@ title: "_DXGK_VIDSCHCAPS"
 author: windows-driver-content
 description: The DXGK_VIDSCHCAPS structure identifies the graphics processing unit (GPU) scheduling capabilities, in bit-field flags, that a driver can support.
 old-location: display\dxgk_vidschcaps.htm
-tech.root: display
 ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_VIDSCHCAPS
 ---
 

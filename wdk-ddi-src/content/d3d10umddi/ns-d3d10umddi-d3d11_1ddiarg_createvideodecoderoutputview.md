@@ -4,7 +4,6 @@ title: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
 author: windows-driver-content
 description: Describes the video decoder's output-view state.
 old-location: display\d3d11_1ddiarg_createvideodecoderoutputview.htm
-tech.root: display
 ms.assetid: 6DD555B1-01E8-48DE-B957-2752671B7EBB
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
 ---
 

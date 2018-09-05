@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 author: windows-driver-content
 description: Describes a supported range of output sizes for a scaler.
 old-location: display\d3d12ddi_video_scale_support.htm
-tech.root: display
 ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 ---
 

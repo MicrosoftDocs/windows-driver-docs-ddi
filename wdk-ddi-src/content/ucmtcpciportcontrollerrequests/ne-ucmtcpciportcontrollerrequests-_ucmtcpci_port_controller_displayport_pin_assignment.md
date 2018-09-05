@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+-	Ucmtcpciportcontrollerrequests.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 product:

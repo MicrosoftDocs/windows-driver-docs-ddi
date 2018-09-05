@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
 author: windows-driver-content
 description: Determines whether a specified format can be used as a video decoder output format for a specified DirectX Video Acceleration (DXVA) profile.
 old-location: display\checkvideodecoderformat.htm
-tech.root: display
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 author: windows-driver-content
 description: Contains the reference frames for the current decode operation.
 old-location: display\d3d12ddi_video_decode_reference_frames.htm
-tech.root: display
 ms.assetid: B7ED4ADA-572A-4D15-B8FD-6EAF2DB87157
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 ---
 

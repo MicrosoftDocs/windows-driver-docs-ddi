@@ -4,7 +4,6 @@ title: PFND3D10DDI_CHECKFORMATSUPPORT
 author: windows-driver-content
 description: Retrieves the capabilities that the device has with the specified format.
 old-location: display\checkformatsupport.htm
-tech.root: display
 ms.assetid: 463ab1e5-08b1-45a1-b7d8-bdfacb3d4bdb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

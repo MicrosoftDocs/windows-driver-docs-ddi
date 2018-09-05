@@ -4,7 +4,6 @@ title: "_D3DKMT_INVALIDATEACTIVEVIDPN"
 author: windows-driver-content
 description: The D3DKMT_INVALIDATEACTIVEVIDPN structure describes parameters that invalidate the active video present network (VidPN) currently in use.
 old-location: display\d3dkmt_invalidateactivevidpn.htm
-tech.root: display
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_INVALIDATEACTIVEVIDPN
 ---
 

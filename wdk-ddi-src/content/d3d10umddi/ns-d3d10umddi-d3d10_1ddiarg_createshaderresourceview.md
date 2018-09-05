@@ -4,7 +4,6 @@ title: D3D10_1DDIARG_CREATESHADERRESOURCEVIEW
 author: windows-driver-content
 description: The D3D10_1DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource view to create.
 old-location: display\d3d10_1ddiarg_createshaderresourceview.htm
-tech.root: display
 ms.assetid: d899ae74-9ee6-43c9-a8a9-44deb9eaa368
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_1DDIARG_CREATESHADERRESOURCEVIEW
 ---
 

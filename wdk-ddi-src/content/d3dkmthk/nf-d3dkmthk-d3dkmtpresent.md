@@ -4,7 +4,6 @@ title: D3DKMTPresent function
 author: windows-driver-content
 description: The D3DKMTPresent function submits a present command to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtpresent.htm
-tech.root: display
 ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTPresent</b> function submits a present command to the Microsoft Dir
 
 ### -param Arg1
 
-TBD
+
 
 
 

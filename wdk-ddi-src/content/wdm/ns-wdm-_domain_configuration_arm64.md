@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDOMAIN_CONFIGURATION_ARM64, DOMAIN_CONFIGURATION_ARM64
+req.typenames: DOMAIN_CONFIGURATION_ARM64, *PDOMAIN_CONFIGURATION_ARM64
 topictype: 
 -	apiref
 apitype: 
@@ -31,7 +31,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_DOMAIN_CONFIGURATION_ARM64
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

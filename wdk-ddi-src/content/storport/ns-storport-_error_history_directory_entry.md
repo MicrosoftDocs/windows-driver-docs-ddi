@@ -31,7 +31,8 @@ api_location:
 -	storport.h
 api_name: 
 -	_ERROR_HISTORY_DIRECTORY_ENTRY
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

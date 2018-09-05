@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA
 author: windows-driver-content
 description: Sets the planar alpha for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamalpha.htm
-tech.root: display
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTDestroyDCFromMemory function
 author: windows-driver-content
 description: The D3DKMTDestroyDCFromMemory function releases the display context.
 old-location: display\d3dkmtdestroydcfrommemory.htm
-tech.root: display
 ms.assetid: 1c34db7b-6153-40ec-9a9f-72b9c04c9f12
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyDCFromMemory</b> function releases the display context.
 
 ### -param D3DKMT_DESTROYDCFROMMEMORY
 
-TBD
+
 
 
 

@@ -4,7 +4,6 @@ title: "_DXGK_ACTIVE_VIDPN_INVALIDATION_REASON"
 author: windows-driver-content
 description: The DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration is used to indicate the reason why an active VidPN is invalidated and a new VidPN is requested.
 old-location: display\dxgk_active_vidpn_invalidation_reason.htm
-tech.root: display
 ms.assetid: e1f33307-1bb0-4cdd-aa47-954f6e551582
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 ---
 

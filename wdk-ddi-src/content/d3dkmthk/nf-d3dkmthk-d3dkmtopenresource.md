@@ -4,7 +4,6 @@ title: D3DKMTOpenResource function
 author: windows-driver-content
 description: The D3DKMTOpenResource function opens a shared resource.
 old-location: display\d3dkmtopenresource.htm
-tech.root: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTOpenResource</b> function opens a shared resource.
 
 ### -param Arg1
 
-TBD
+
 
 
 

@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
 ---

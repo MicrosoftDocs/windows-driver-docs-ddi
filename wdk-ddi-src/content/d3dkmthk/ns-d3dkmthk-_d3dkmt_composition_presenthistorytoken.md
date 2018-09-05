@@ -4,7 +4,6 @@ title: "_D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: Identifies a composition swap chain present-history operation. This type of presentation is used for Extensible Application Markup Language (XAML)-based apps.
 old-location: display\d3dkmt_composition_presenthistorytoken.htm
-tech.root: display
 ms.assetid: F3F2DE77-9FC5-4AC1-B857-51B51557108E
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
 ---
 

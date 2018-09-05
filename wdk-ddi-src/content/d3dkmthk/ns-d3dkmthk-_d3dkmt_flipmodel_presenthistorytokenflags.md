@@ -4,7 +4,6 @@ title: "_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS"
 author: windows-driver-content
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
-tech.root: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 ---
 

@@ -35,7 +35,8 @@ api_location:
 -	uart.h
 api_name:
 -	UART_GET_BYTE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

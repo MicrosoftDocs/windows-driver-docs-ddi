@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_GS_CONSTBUF_CB
 author: windows-driver-content
 description: The pfnStateGsConstBufCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader constant buffer state.
 old-location: display\pfnstategsconstbufcb.htm
-tech.root: display
 ms.assetid: 02468226-f0a4-4f24-a7f9-61a3b67dffb1
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

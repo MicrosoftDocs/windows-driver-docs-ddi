@@ -4,7 +4,6 @@ title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030
 author: windows-driver-content
 description: Crypto session transform output arguments.
 old-location: display\d3d12ddi-crypto-session-transform-output-arguments-0030.htm
-tech.root: display
 ms.assetid: a6b33349-cba2-4664-886d-1e007b4dc2f2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030
 ---
 

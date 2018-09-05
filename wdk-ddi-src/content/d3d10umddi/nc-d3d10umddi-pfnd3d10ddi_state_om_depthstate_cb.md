@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_OM_DEPTHSTATE_CB
 author: windows-driver-content
 description: The pfnStateOmDepthStateCb function causes the Microsoft Direct3D 10 runtime to refresh the output merger depth state.
 old-location: display\pfnstateomdepthstatecb.htm
-tech.root: display
 ms.assetid: caa8ea5b-7167-444a-9d81-6e4ea9375dd6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

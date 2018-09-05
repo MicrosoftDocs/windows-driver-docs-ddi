@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 title: PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 author: windows-driver-content
-description: 
+description: Gets the CPU descriptor handle that represents the start of the heap.
 ms.assetid: 1ba126a0-ae78-48f9-9560-3c15d464e390
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Gets the CPU descriptor handle that represents the start of the heap.
 
 ## -prototype
 
@@ -55,7 +57,7 @@ PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START Pfnd3d12ddiGetCpuDescriptor
 
 D3D12DDI_CPU_DESCRIPTOR_HANDLE Pfnd3d12ddiGetCpuDescriptorHandleForHeapStart 
 (
-	 D3D12DDI_HDEVICE
+	 D3D12DDI_HDEVICE hDevice
 	 D3D12DDI_HDESCRIPTORHEAP
 )
 {...}
@@ -67,18 +69,17 @@ PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HDESCRIPTORHEAP: 
+### -param hDevice
 
+A handle to the display device (graphics context).
 
+### -param D3D12DDI_HDESCRIPTORHEAP
+
+A user mode driver handle type.
 
 ## -returns
 
-Returns D3D12DDI_CPU_DESCRIPTOR_HANDLE that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Returns D3D12DDI_CPU_DESCRIPTOR_HANDLE that represents the start of the heap.
 
 
 ## -see-also

@@ -33,7 +33,8 @@ api_location:
 -	ndis.h
 api_name: 
 -	NET_BUFFER_LIST_MINIPORT_RESERVED
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

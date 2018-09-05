@@ -33,7 +33,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	NET_BUFFER_LIST_SET_HASH_FUNCTION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

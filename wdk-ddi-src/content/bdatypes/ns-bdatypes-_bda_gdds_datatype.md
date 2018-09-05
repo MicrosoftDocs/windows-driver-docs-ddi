@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_GDDS_DATATYPE
 title: "_BDA_GDDS_DATATYPE"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_gdds_datatype.htm
 tech.root: stream
 ms.assetid: D2E6A110-EC0F-4753-BAF1-7A9F84ECDD35

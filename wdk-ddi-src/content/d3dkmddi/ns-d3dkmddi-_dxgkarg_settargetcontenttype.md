@@ -4,7 +4,6 @@ title: "_DXGKARG_SETTARGETCONTENTTYPE"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_SETTARGETCONTENTTYPE.
 old-location: display\dxgkarg_settargetcontenttype.htm
-tech.root: display
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETTARGETCONTENTTYPE
 ---
 

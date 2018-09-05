@@ -3,11 +3,13 @@ UID: TP:debugger
 author: windows-driver-content
 ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
 ms.author: windowsdriverdev
-ms.date: 07/10/18
+ms.date: 08/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 ---
 
 # Debugger
@@ -64,8 +66,6 @@ For the programming guide, see [Debugger](https://docs.microsoft.com/en-us/windo
 | [PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE callback function](..\wdbgexts\nc-wdbgexts-pwindbg_write_process_memory_routine.md) | The PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE (WriteMemory) function works like the Win32 WriteProcessMemory routine. It writes memory to the process being debugged. The entire area to be written must be accessible, or the operation fails. |
 
 
-
-
 ## Macros
 
 | Title   | Description   |
@@ -82,139 +82,7 @@ For the programming guide, see [Debugger](https://docs.microsoft.com/en-us/windo
 
 | Title   | Description   |
 | ---- |:---- |
-| [ExtBuffer::Copy method](..\engextcpp\nf-engextcpp-extbuffer-copy.md) | The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtBuffer::Set method](..\engextcpp\nf-engextcpp-extbuffer-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtBuffer::operator= method](..\engextcpp\nf-engextcpp-extbuffer-operator-equal.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtCheckedPointer::Set method](..\engextcpp\nf-engextcpp-extcheckedpointer-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtCheckedPointer::operator= method](..\engextcpp\nf-engextcpp-extcheckedpointer-operator-equal.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtDeclAlignedBuffer::operator= method](..\engextcpp\nf-engextcpp-extdeclalignedbuffer-operator-equal.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtDeclBuffer::operator= method](..\engextcpp\nf-engextcpp-extdeclbuffer-operator-equal.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtDeleteHolder::Set method](..\engextcpp\nf-engextcpp-extdeleteholder-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtDeleteHolder::operator= method](..\engextcpp\nf-engextcpp-extdeleteholder-operator-equal.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtExtension::GetArgStr](..\engextcpp\nf-engextcpp-extextension-getargstr.md) | The GetArgStr method returns a named string argument from the command line used to invoke the current extension command. |
-| [ExtExtension::GetArgU64](..\engextcpp\nf-engextcpp-extextension-getargu64.md) | The GetArgU64 method returns the value of a named expression argument from the command line used to invoke the current extension command. |
-| [ExtExtension::GetNumUnnamedArgs](..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md) | The GetNumUnnamedArgs method returns the number of unnamed arguments in the command line used to invoke the current extension command. |
-| [ExtExtension::GetRawArgStr](..\engextcpp\nf-engextcpp-extextension-getrawargstr.md) | The GetRawArgStr method returns a string that represents the arguments passed to the extension command. |
-| [ExtExtension::GetUnnamedArgStr](..\engextcpp\nf-engextcpp-extextension-getunnamedargstr.md) | The GetUnnamedArgStr method returns an unnamed string argument from the command line used to invoke the current extension command. |
-| [ExtExtension::GetUnnamedArgU64](..\engextcpp\nf-engextcpp-extextension-getunnamedargu64.md) | The GetUnnamedArgU64 method returns the value of an unnamed expression argument from the command line used to invoke the current extension command. |
-| [ExtExtension::HasArg](..\engextcpp\nf-engextcpp-extextension-hasarg.md) | The HasArg method indicates whether a specified named argument is present in the command line used to invoke the current extension command. |
-| [ExtExtension::HasCharArg](..\engextcpp\nf-engextcpp-extextension-haschararg.md) | The HasCharArg method indicates whether a specified single-character named argument is present in the command line used to invoke the current extension command. |
-| [ExtExtension::HasUnnamedArg](..\engextcpp\nf-engextcpp-extextension-hasunnamedarg.md) | The HasUnnamedArg method indicates whether a specified unnamed argument is present in the command line used to invoke the current extension command. |
-| [ExtExtension::Initialize](..\engextcpp\nf-engextcpp-extextension-initialize.md) | The Initialize method is called by the engine to initialize an EngExtCpp extension library after loading it. |
-| [ExtExtension::OnSessionAccessible](..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md) | The OnSessionAccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible. |
-| [ExtExtension::OnSessionActive](..\engextcpp\nf-engextcpp-extextension-onsessionactive.md) | The OnSessionActive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active. |
-| [ExtExtension::OnSessionInaccessible](..\engextcpp\nf-engextcpp-extextension-onsessioninaccessible.md) | The OnSessionInaccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inaccessible. |
-| [ExtExtension::OnSessionInactive](..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md) | The OnSessionInactive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive. |
-| [ExtExtension::SetArgStr](..\engextcpp\nf-engextcpp-extextension-setargstr.md) | The SetArgStr method sets a named string argument for the current expression command. |
-| [ExtExtension::SetArgU64](..\engextcpp\nf-engextcpp-extextension-setargu64.md) | The SetArgU64 method sets a named expression argument for the current expression command. |
-| [ExtExtension::SetArg](..\engextcpp\nf-engextcpp-extextension-setarg.md) | The SetArg method sets a named argument for the current extension command. |
-| [ExtExtension::SetUnnamedArgStr](..\engextcpp\nf-engextcpp-extextension-setunnamedargstr.md) | The SetUnnamedArgStr method sets an unnamed string argument for the current extension command. |
-| [ExtExtension::SetUnnamedArgU64](..\engextcpp\nf-engextcpp-extextension-setunnamedargu64.md) | The SetUnnamedArgU64 method sets the value of an unnamed expression argument for the current extension command. |
-| [ExtExtension::SetUnnamedArg](..\engextcpp\nf-engextcpp-extextension-setunnamedarg.md) | The SetUnnamedArg method sets an unnamed argument for the current extension command. |
-| [ExtExtension::Uninitialize](..\engextcpp\nf-engextcpp-extextension-uninitialize.md) | The Uninitialize method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded. |
-| [ExtRemoteData::Clear method](..\engextcpp\nf-engextcpp-extremotedata-clear.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG)](..\engextcpp\nf-engextcpp-extremotedata-extremotedata(pcstr,ulong64,ulong).md) | The ExtRemoteData constructor creates a new instance of the ExtRemoteData class. |
-| [ExtRemoteData::ExtRemoteData(ULONG64,ULONG)](..\engextcpp\nf-engextcpp-extremotedata-extremotedata(ulong64,ulong).md) | The ExtRemoteData constructor creates a new instance of the ExtRemoteData class. |
-| [ExtRemoteData::ExtRemoteData](..\engextcpp\nf-engextcpp-extremotedata-extremotedata.md) | The ExtRemoteData constructor creates a new instance of the ExtRemoteData class. |
-| [ExtRemoteData::GetBoolean](..\engextcpp\nf-engextcpp-extremotedata-getboolean.md) | The GetBoolean method returns a Boolean version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetChar](..\engextcpp\nf-engextcpp-extremotedata-getchar.md) | The GetChar method returns a CHAR version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetData](..\engextcpp\nf-engextcpp-extremotedata-getdata.md) | The GetData method returns the contents of the target's memory, represented by the ExtRemoteData object. |
-| [ExtRemoteData::GetDouble](..\engextcpp\nf-engextcpp-extremotedata-getdouble.md) | The GetDouble method returns a double version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetFloat](..\engextcpp\nf-engextcpp-extremotedata-getfloat.md) | The GetFloat method returns a float version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetLong64](..\engextcpp\nf-engextcpp-extremotedata-getlong64.md) | The GetLong64 method returns a LONG64 version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetLongPtr](..\engextcpp\nf-engextcpp-extremotedata-getlongptr.md) | The GetLongPtr method returns a signed integer version (extended to LONG64) of the ExtRemoteData object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target. |
-| [ExtRemoteData::GetLong](..\engextcpp\nf-engextcpp-extremotedata-getlong.md) | The GetLong method returns a LONG version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetPtr](..\engextcpp\nf-engextcpp-extremotedata-getptr.md) | The GetPtr method returns a pointer from the target's memory version of the ExtRemoteData object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target. |
-| [ExtRemoteData::GetShort](..\engextcpp\nf-engextcpp-extremotedata-getshort.md) | The GetShort method returns a SHORT version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetStdBool](..\engextcpp\nf-engextcpp-extremotedata-getstdbool.md) | The GetStdBool method returns a bool version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetString(ExtBuffer<WCHAR>,ULONG)](..\engextcpp\nf-engextcpp-extremotedata-getstring(extbuffer_wchar_,ulong).md) | The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object. |
-| [ExtRemoteData::GetString(ExtBuffer<char>,ULONG)](..\engextcpp\nf-engextcpp-extremotedata-getstring(extbuffer_char_,ulong).md) | The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object. |
-| [ExtRemoteData::GetString(PWSTR,ULONG,ULONG,bool,PULONG)](..\engextcpp\nf-engextcpp-extremotedata-getstring(pwstr,ulong,ulong,bool,pulong).md) | The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object. |
-| [ExtRemoteData::GetString](..\engextcpp\nf-engextcpp-extremotedata-getstring.md) | The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object. |
-| [ExtRemoteData::GetUchar](..\engextcpp\nf-engextcpp-extremotedata-getuchar.md) | The GetUChar method returns a UCHAR version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetUlong64](..\engextcpp\nf-engextcpp-extremotedata-getulong64.md) | The GetUlong64 method returns a ULONG64 version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetUlongPtr](..\engextcpp\nf-engextcpp-extremotedata-getulongptr.md) | The GetUlongPtr method returns an unsigned integer version (extended to ULONG64) of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetUlong](..\engextcpp\nf-engextcpp-extremotedata-getulong.md) | The GetUlong method returns a ULONG version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetUshort](..\engextcpp\nf-engextcpp-extremotedata-getushort.md) | The GetUshort method returns a USHORT version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::GetW32Bool](..\engextcpp\nf-engextcpp-extremotedata-getw32bool.md) | The GetW32Bool method returns a BOOL version of the ExtRemoteData object, which represents the contents of the target's memory. |
-| [ExtRemoteData::ReadBuffer](..\engextcpp\nf-engextcpp-extremotedata-readbuffer.md) | The ReadBuffer method reads data from the target's memory. The data is located in the beginning of the region represented by the ExtRemoteData object. However, the size of the data can be different. |
-| [ExtRemoteData::Read](..\engextcpp\nf-engextcpp-extremotedata-read.md) | The Read method reads the contents of the target's memory, represented by the ExtRemoteData object, and then caches the data. |
-| [ExtRemoteData::Set(const DEBUG_TYPED_DATA)](..\engextcpp\nf-engextcpp-extremotedata-set(const debug_typed_data).md) | The Set method sets the region of the target's memory represented by the ExtRemoteData object. |
-| [ExtRemoteData::SetBoolean method](..\engextcpp\nf-engextcpp-extremotedata-setboolean.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetChar method](..\engextcpp\nf-engextcpp-extremotedata-setchar.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetData method](..\engextcpp\nf-engextcpp-extremotedata-setdata.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetDouble method](..\engextcpp\nf-engextcpp-extremotedata-setdouble.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetFloat method](..\engextcpp\nf-engextcpp-extremotedata-setfloat.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetLong method](..\engextcpp\nf-engextcpp-extremotedata-setlong.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetLong64 method](..\engextcpp\nf-engextcpp-extremotedata-setlong64.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetLongPtr method](..\engextcpp\nf-engextcpp-extremotedata-setlongptr.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetPtr method](..\engextcpp\nf-engextcpp-extremotedata-setptr.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetShort method](..\engextcpp\nf-engextcpp-extremotedata-setshort.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetStdBool method](..\engextcpp\nf-engextcpp-extremotedata-setstdbool.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetUchar method](..\engextcpp\nf-engextcpp-extremotedata-setuchar.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetUlong method](..\engextcpp\nf-engextcpp-extremotedata-setulong.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetUlong64 method](..\engextcpp\nf-engextcpp-extremotedata-setulong64.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetUlongPtr method](..\engextcpp\nf-engextcpp-extremotedata-setulongptr.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetUshort method](..\engextcpp\nf-engextcpp-extremotedata-setushort.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::SetW32Bool method](..\engextcpp\nf-engextcpp-extremotedata-setw32bool.md) | The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods. |
-| [ExtRemoteData::Set](..\engextcpp\nf-engextcpp-extremotedata-set.md) | The Set method sets the region of the target's memory represented by the ExtRemoteData object. |
-| [ExtRemoteData::WriteBuffer](..\engextcpp\nf-engextcpp-extremotedata-writebuffer.md) | The WriteBuffer method writes data to the target's memory. The data is located in the beginning of the region represented by the ExtRemoteData object. However, the size of the data can be different. |
-| [ExtRemoteData::Write](..\engextcpp\nf-engextcpp-extremotedata-write.md) | The Write method writes the data cached by the ExtRemoteData object to the region of memory on the target, represented by this object. |
-| [ExtRemoteList::ExtRemoteList method](..\engextcpp\nf-engextcpp-extremotelist-extremotelist.md) | The ExtRemoteList class provides a wrapper around a singly-linked or doubly-linked list. The class contains methods that can be used to move both forward and backward through the list. |
-| [ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool)](..\engextcpp\nf-engextcpp-extremotelist-extremotelist(extremotedata &,ulong,bool).md) | The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list. |
-| [ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)](..\engextcpp\nf-engextcpp-extremotelist-extremotelist(ulong64,ulong,bool).md) | The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list. |
-| [ExtRemoteList::GetNodeOffset](..\engextcpp\nf-engextcpp-extremotelist-getnodeoffset.md) | The GetNodeOffset method returns the address of the current list item. |
-| [ExtRemoteList::HasNode](..\engextcpp\nf-engextcpp-extremotelist-hasnode.md) | The HasNode method determines if there is a current item in the list iteration. |
-| [ExtRemoteList::Next](..\engextcpp\nf-engextcpp-extremotelist-next.md) | The Next method changes the current item to the next item in the list. |
-| [ExtRemoteList::Prev](..\engextcpp\nf-engextcpp-extremotelist-prev.md) | The Prev method changes the current item to the previous item in the list. |
-| [ExtRemoteList::StartHead](..\engextcpp\nf-engextcpp-extremotelist-starthead.md) | The StartHead method initializes the list for iterating forward starting at the head. |
-| [ExtRemoteList::StartTail](..\engextcpp\nf-engextcpp-extremotelist-starttail.md) | The StartTail method initializes the list for iterating backward, starting at the head. |
-| [ExtRemoteTyped::ArrayElement](..\engextcpp\nf-engextcpp-extremotetyped-arrayelement.md) | The ArrayElement method returns the typed data in the specified array element of the typed data represented by the ExtRemoteTyped object. |
-| [ExtRemoteTyped::Clear method](..\engextcpp\nf-engextcpp-extremotetyped-clear.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTyped::Copy(const ExtRemoteTyped &)](..\engextcpp\nf-engextcpp-extremotetyped-copy(const extremotetyped &).md) | The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtRemoteTyped::Copy](..\engextcpp\nf-engextcpp-extremotetyped-copy.md) | The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
-| [ExtRemoteTyped::Dereference](..\engextcpp\nf-engextcpp-extremotetyped-dereference.md) | The Dereference method returns the typed data that is pointed to by the typed data represented by this object. |
-| [ExtRemoteTyped::ErtIoctl method](..\engextcpp\nf-engextcpp-extremotetyped-ertioctl.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTyped::Eval](..\engextcpp\nf-engextcpp-extremotetyped-eval.md) | The Eval method returns typed data that is the result of evaluating an expression. |
-| [ExtRemoteTyped::ExtRemoteTyped(PCSTR)](..\engextcpp\nf-engextcpp-extremotetyped-extremotetyped(pcstr).md) | The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class. |
-| [ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64)](..\engextcpp\nf-engextcpp-extremotetyped-extremotetyped(pcstr,ulong64).md) | The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class. |
-| [ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64,bool,PULONG64,PCSTR)](..\engextcpp\nf-engextcpp-extremotetyped-extremotetyped(pcstr,ulong64,bool,pulong64,pcstr).md) | The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class. |
-| [ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA)](..\engextcpp\nf-engextcpp-extremotetyped-extremotetyped(const debug_typed_data).md) | The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class. |
-| [ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &)](..\engextcpp\nf-engextcpp-extremotetyped-extremotetyped(const extremotetyped &).md) | The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class. |
-| [ExtRemoteTyped::ExtRemoteTyped](..\engextcpp\nf-engextcpp-extremotetyped-extremotetyped.md) | The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class. |
-| [ExtRemoteTyped::Field](..\engextcpp\nf-engextcpp-extremotetyped-field.md) | The Field method returns the typed data for a member in the typed data that is represented by this object. |
-| [ExtRemoteTyped::GetFieldOffset](..\engextcpp\nf-engextcpp-extremotetyped-getfieldoffset.md) | The GetFieldOffset method returns the offset of a member from the base address of an instance of the type that is represented by this object. |
-| [ExtRemoteTyped::GetPointerTo](..\engextcpp\nf-engextcpp-extremotetyped-getpointerto.md) | The GetPointerTo method returns typed data that is a pointer to the typed data represented by this object. |
-| [ExtRemoteTyped::GetSimpleValue method](..\engextcpp\nf-engextcpp-extremotetyped-getsimplevalue.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTyped::GetTypeFieldOffset](..\engextcpp\nf-engextcpp-extremotetyped-gettypefieldoffset.md) | The GetTypeFieldOffset static method returns the offset of a member within a structure. |
-| [ExtRemoteTyped::GetTypeName](..\engextcpp\nf-engextcpp-extremotetyped-gettypename.md) | The GetTypeName method returns the type name of the typed data represented by this object. |
-| [ExtRemoteTyped::GetTypeSize](..\engextcpp\nf-engextcpp-extremotetyped-gettypesize.md) | The GetTypeSize method returns the size of the type represented by this object. |
-| [ExtRemoteTyped::HasField](..\engextcpp\nf-engextcpp-extremotetyped-hasfield.md) | The HasField method determines if the type of the data represented by this object contains the specified member. |
-| [ExtRemoteTyped::OutFullValue](..\engextcpp\nf-engextcpp-extremotetyped-outfullvalue.md) | The OutFullValue method prints the type and value of the typed data represented by this object. |
-| [ExtRemoteTyped::OutSimpleValue](..\engextcpp\nf-engextcpp-extremotetyped-outsimplevalue.md) | The OutSimpleValue method prints the value of the typed data represented by this object. |
-| [ExtRemoteTyped::OutTypeDefinition](..\engextcpp\nf-engextcpp-extremotetyped-outtypedefinition.md) | The OutTypeDefinition method prints the type of the typed data represented by this object. |
-| [ExtRemoteTyped::OutTypeName](..\engextcpp\nf-engextcpp-extremotetyped-outtypename.md) | The OutTypeName method prints the type name of the typed data represented by this object. |
-| [ExtRemoteTyped::Release](..\engextcpp\nf-engextcpp-extremotetyped-release.md) | The Release method releases any resources held by this object. |
-| [ExtRemoteTyped::Set(PCSTR,ULONG64)](..\engextcpp\nf-engextcpp-extremotetyped-set(pcstr,ulong64).md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtRemoteTyped::Set(PCSTR,ULONG64,bool,PULONG64,PCSTR)](..\engextcpp\nf-engextcpp-extremotetyped-set(pcstr,ulong64,bool,pulong64,pcstr).md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64)](..\engextcpp\nf-engextcpp-extremotetyped-set(bool,ulong64,ulong,ulong64).md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtRemoteTyped::SetPrint](..\engextcpp\nf-engextcpp-extremotetyped-setprint.md) | The SetPrint method sets the typed data represented by the ExtRemoteTyped object by formatting an expression and then evaluating that expression. |
-| [ExtRemoteTyped::Set](..\engextcpp\nf-engextcpp-extremotetyped-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtRemoteTyped::operator= method](..\engextcpp\nf-engextcpp-extremotetyped-operator-equal.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTyped::operator[](LONG64)](..\engextcpp\nf-engextcpp-extremotetyped-operator[](long64).md) | The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object. |
-| [ExtRemoteTyped::operator[](ULONG)](..\engextcpp\nf-engextcpp-extremotetyped-operator[](ulong).md) | The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object. |
-| [ExtRemoteTyped::operator[](ULONG64)](..\engextcpp\nf-engextcpp-extremotetyped-operator[](ulong64).md) | The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object. |
-| [ExtRemoteTyped::operator[]](..\engextcpp\nf-engextcpp-extremotetyped-operator-brackets.md) | The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object. |
-| [ExtRemoteTyped::operator](..\engextcpp\nf-engextcpp-extremotetyped-operator.md) | The operator* overloaded operator returns the typed data that is pointed to by the typed data represented by this object. |
-| [ExtRemoteTyped::~ExtRemoteTyped method](..\engextcpp\nf-engextcpp-extremotetyped-~extremotetyped.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTypedList::ExtRemoteTypedList method](..\engextcpp\nf-engextcpp-extremotetypedlist-extremotetypedlist.md) | The ExtRemoteTypedList class extends the ExtRemoteList class. The ExtRemoteTypedList class adds type information allowing each item in the list to be represented by an instance of the ExtRemoteTyped class. |
-| [ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)](..\engextcpp\nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata &,pcstr,pcstr,ulong64,ulong,pulong64,bool).md) | The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list. |
-| [ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)](..\engextcpp\nf-engextcpp-extremotetypedlist-extremotetypedlist(ulong64,pcstr,pcstr,ulong64,ulong,pulong64,bool).md) | The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list. |
-| [ExtRemoteTypedList::GetTypedNodePtr](..\engextcpp\nf-engextcpp-extremotetypedlist-gettypednodeptr.md) | The GetTypedNodePtr method returns a pointer to the current list item. |
-| [ExtRemoteTypedList::GetTypedNode](..\engextcpp\nf-engextcpp-extremotetypedlist-gettypednode.md) | The GetTypedNode method returns the current list item. |
-| [ExtRemoteTypedList::SetTypeAndLink](..\engextcpp\nf-engextcpp-extremotetypedlist-settypeandlink.md) | The SetTypeAndLink method sets the type information for the typed list. |
-| [ExtUnknownHolder::Set method](..\engextcpp\nf-engextcpp-extunknownholder-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
-| [ExtUnknownHolder::operator= method](..\engextcpp\nf-engextcpp-extunknownholder-operator-equal.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
+
 | [IDebugAdvanced2::FindSourceFileAndToken](..\dbgeng\nf-dbgeng-idebugadvanced2-findsourcefileandtoken.md) | The FindSourceFileAndToken method returns the filename of a source file on the source path or return the value of a variable associated with a file token. |
 | [IDebugAdvanced2::GetSourceFileInformation](..\dbgeng\nf-dbgeng-idebugadvanced2-getsourcefileinformation.md) | The GetSourceFileInformation method returns specified information about a source file. |
 | [IDebugAdvanced2::GetSymbolInformation](..\dbgeng\nf-dbgeng-idebugadvanced2-getsymbolinformation.md) | The GetSymbolInformation method returns specified information about a symbol. |

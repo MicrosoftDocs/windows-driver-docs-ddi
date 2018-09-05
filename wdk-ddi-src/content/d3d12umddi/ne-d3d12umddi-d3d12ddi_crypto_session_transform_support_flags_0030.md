@@ -4,7 +4,6 @@ title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
 author: windows-driver-content
 description: The crypto session transform support flags.
 old-location: display\d3d12ddi-crypto-session-transform-support-flags-0030.htm
-tech.root: display
 ms.assetid: 9b8fea62-9947-42ce-acb6-1736ac6e3d86
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
 ---
 

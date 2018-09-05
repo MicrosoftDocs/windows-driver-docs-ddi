@@ -4,7 +4,6 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 author: windows-driver-content
 description: Defines the range of supported values for an image filter.
 old-location: display\d3d11_1ddi_video_processor_filter_range.htm
-tech.root: display
 ms.assetid: 9dc93d92-ccdc-488b-a5dd-a2efe783cbb3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 ---
 
@@ -84,8 +84,8 @@ A multiplier. Use the following formula to translate the filter setting into the
 
 The multiplier enables the filter range to have a fractional step value.
 
-For example, a hue filter might have an actual range of [â€“180.0 … +180.0] with a step size of 0.25. The device would report the following range and multiplier:<ul>
-<li>Minimum: â€“720</li>
+For example, a hue filter might have an actual range of [-180.0 … +180.0] with a step size of 0.25. The device would report the following range and multiplier:<ul>
+<li>Minimum: -720</li>
 <li>Maximum: +720</li>
 <li>Multiplier: 0.25</li>
 </ul>

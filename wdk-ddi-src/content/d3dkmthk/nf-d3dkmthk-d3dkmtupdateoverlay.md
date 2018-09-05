@@ -4,7 +4,6 @@ title: D3DKMTUpdateOverlay function
 author: windows-driver-content
 description: The D3DKMTUpdateOverlay function modifies a kernel-mode overlay object.
 old-location: display\d3dkmtupdateoverlay.htm
-tech.root: display
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTUpdateOverlay</b> function modifies a kernel-mode overlay object.
 
 ### -param D3DKMT_UPDATEOVERLAY
 
-TBD
+
 
 
 

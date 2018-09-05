@@ -4,7 +4,6 @@ title: "_D3DKMT_GETCONTEXTSCHEDULINGPRIORITY"
 author: windows-driver-content
 description: The D3DKMT_GETDEVICESCHEDULINGPRIORITY structure describes parameters for retrieving scheduling priority for a device context.
 old-location: display\d3dkmt_getcontextschedulingpriority.htm
-tech.root: display
 ms.assetid: ef60ba1c-6fff-4553-ba1c-97abbe48fed9
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
 ---
 

@@ -38,7 +38,8 @@ api_location:
 -	PortableDevice.h
 api_name:
 -	WPD_DEVICE_TRANSPORTS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: WPD_DEVICE_TRANSPORTS
 ---

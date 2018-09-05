@@ -2,7 +2,7 @@
 UID: NE:ks.KSPROPERTY_PIN
 title: KSPROPERTY_PIN
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksproperty_pin.htm
 tech.root: stream
 ms.assetid: C73B306C-A6DA-469A-984C-3FC605CC5E19

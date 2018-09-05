@@ -4,7 +4,6 @@ title: D3DKMTSetGammaRamp function
 author: windows-driver-content
 description: The D3DKMTSetGammaRamp function sets the gamma ramp.
 old-location: display\d3dkmtsetgammaramp.htm
-tech.root: display
 ms.assetid: 48f1d2ba-747a-4588-8238-db6ac2aa89d6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTSetGammaRamp</b> function sets the gamma ramp.
 
 ### -param D3DKMT_SETGAMMARAMP
 
-TBD
+
 
 
 

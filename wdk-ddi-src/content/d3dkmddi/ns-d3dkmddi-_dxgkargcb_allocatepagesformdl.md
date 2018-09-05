@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_ALLOCATEPAGESFORMDL
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGKARGCB_ALLOCATEPAGESFORMDL
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGKARGCB_ALLOCATEPAGESFORMDL structure
@@ -65,7 +67,7 @@ Indicates the type of caching that is allowed for the requested memory.
 
 ### -field Flags
 
-Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex).
+Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex).
 
 ### -field hMemoryHandle
 

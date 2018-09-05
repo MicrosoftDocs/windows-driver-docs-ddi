@@ -61,42 +61,42 @@ The <b>KsFastPropertyHandler</b> function handles fast property requests through
 
 ### -param FileObject
 
-TBD
+
 
 
 ### -param Property
 
-TBD
+
 
 
 ### -param PropertyLength
 
-TBD
+
 
 
 ### -param Data
 
-TBD
+
 
 
 ### -param DataLength
 
-TBD
+
 
 
 ### -param IoStatus
 
-TBD
+
 
 
 ### -param PropertySetsCount
 
-TBD
+
 
 
 ### -param PropertySet
 
-TBD
+
 
 
 

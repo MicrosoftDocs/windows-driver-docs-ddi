@@ -4,7 +4,6 @@ title: D3DKMTWaitForVerticalBlankEvent function
 author: windows-driver-content
 description: The D3DKMTWaitForVerticalBlankEvent function waits for the vertical blanking interval to occur and then returns.
 old-location: display\d3dkmtwaitforverticalblankevent.htm
-tech.root: display
 ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTWaitForVerticalBlankEvent</b> function waits for the vertical blank
 
 ### -param D3DKMT_WAITFORVERTICALBLANKEVENT
 
-TBD
+
 
 
 

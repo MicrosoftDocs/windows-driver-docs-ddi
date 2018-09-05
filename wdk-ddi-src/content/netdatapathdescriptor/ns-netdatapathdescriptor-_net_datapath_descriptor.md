@@ -31,7 +31,8 @@ apilocation:
 -	netdatapathdescriptor.h
 apiname: 
 -	_NET_DATAPATH_DESCRIPTOR
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -41,17 +42,15 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_DATAPATH_DESCRIPTOR** structure describes a datapath queue's ring buffers.
 
 ## -struct-fields
-
-### -field NumberOfRingBuffers
-The number of ring buffers associated with the queue.
  
 ### -field RingBuffer
-A pointer an array of [NET_RING_BUFFER](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md) structures.
+
+A pointer an array of pointers to [**NET_RING_BUFFER**](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md) structures.
 
 ## -remarks
 Call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md) or [NetTxQueueGetDatapathDescriptor](../nettxqueue/nf-nettxqueue-nettxqueuegetdatapathdescriptor.md) to get a queue's datapath descriptor. You can then use the descriptor to access the queue's ring buffers of packets or fragments with these macros:
@@ -59,8 +58,6 @@ Call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueueget
 - [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER](nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md)
 - [NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER](nf-netdatapathdescriptor-net_datapath_descriptor_get_fragment_ring_buffer.md)
 - [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md)
-
-In addition, you can get a count of fragments in a given packet by calling [NetPacketGetFragmentCount](nf-netdatapathdescriptor-netpacketgetfragmentcount.md) with it.
 
 The datapath descriptor is also used in other ring buffer manipulation methods defined in [Netadapterpacket.h](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netadapterpacket/):
 
@@ -77,4 +74,4 @@ The datapath descriptor is also used in other ring buffer manipulation methods d
 
 ## -see-also
 
-[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

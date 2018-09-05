@@ -4,7 +4,6 @@ title: "_QAI_DRIVERVERSION"
 author: windows-driver-content
 description: The D3DKMT_DRIVERVERSION enumeration type contains values that indicate the version of the display driver model that the display miniport driver supports.
 old-location: display\d3dkmt_driverversion.htm
-tech.root: display
 ms.assetid: 12ac73ed-f829-4f22-bca9-ccc1dc29f4c4
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 

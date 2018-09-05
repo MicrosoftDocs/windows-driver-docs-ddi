@@ -4,7 +4,6 @@ title: "_DXGKARG_RECOMMENDMONITORMODES"
 author: windows-driver-content
 description: The DXGKARG_RECOMMENDMONITORMODES structure contains arguments for the DxgkDdiRecommendMonitorModes function.
 old-location: display\dxgkarg_recommendmonitormodes.htm
-tech.root: display
 ms.assetid: 283f398e-4162-4c46-847b-834f8f303052
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_RECOMMENDMONITORMODES
 ---
 

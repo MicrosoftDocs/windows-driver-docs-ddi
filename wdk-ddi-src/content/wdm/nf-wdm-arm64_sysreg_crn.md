@@ -33,7 +33,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	ARM64_SYSREG_CRN
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

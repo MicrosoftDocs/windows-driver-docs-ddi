@@ -4,7 +4,6 @@ title: D3D12DDIARG_OPENADAPTER
 author: windows-driver-content
 description: The D3D12DDIARG_OPENADAPTER structure describes the graphics adapter object.
 old-location: display\d3d12ddiarg_openadapter.htm
-tech.root: display
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_OPENADAPTER
 ---
 

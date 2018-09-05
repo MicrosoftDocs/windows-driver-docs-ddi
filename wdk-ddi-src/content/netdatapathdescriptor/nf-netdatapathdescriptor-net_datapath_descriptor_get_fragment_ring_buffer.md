@@ -33,7 +33,8 @@ apilocation:
 -	netdatapathdescriptor.h
 apiname: 
 -	NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -45,7 +46,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER** macro retrieves a datapath queue's fragment ring buffer.
 
@@ -55,10 +56,8 @@ The **NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER** macro retrieves a datap
 A pointer to the queue's [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure.
 
 ## -remarks
-Client drivers do not call this macro to access the fragment ring buffer directly. Instead, they can either access a fragment with a call to [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md), or they can call [NetPacketGetFragmentCount](nf-netdatapathdescriptor-netpacketgetfragmentcount.md) to get the number of fragments in a packet, then call [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md) to access each fragment in a `for` loop.
-
-
+Client drivers do not call this macro to access the fragment ring buffer directly. Instead, they can access a fragment with a call to [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md).
 
 ## -see-also
 
-[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

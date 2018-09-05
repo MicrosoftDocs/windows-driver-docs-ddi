@@ -4,7 +4,6 @@ title: D3DKMTCreateAllocation2 function
 author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtcreateallocation2.htm
-tech.root: display
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateAllocation2
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Reserved for system use. Do not use in your driver.
 
 ### -param Arg1
 
-TBD
+
 
 
 

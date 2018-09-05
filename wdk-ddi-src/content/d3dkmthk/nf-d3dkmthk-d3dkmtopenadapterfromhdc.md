@@ -4,7 +4,6 @@ title: D3DKMTOpenAdapterFromHdc function
 author: windows-driver-content
 description: The D3DKMTOpenAdapterFromHdc function maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromhdc.htm
-tech.root: display
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTOpenAdapterFromHdc</b> function maps a device context handle (HDC) 
 
 ### -param Arg1
 
-TBD
+
 
 
 

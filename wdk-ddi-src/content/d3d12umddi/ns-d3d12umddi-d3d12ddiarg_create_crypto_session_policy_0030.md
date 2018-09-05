@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
 author: windows-driver-content
 description: Creates a crypto session policy.
 old-location: display\d3d12ddiarg-create-crypto-session-policy-0030.htm
-tech.root: display
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
 ---
 

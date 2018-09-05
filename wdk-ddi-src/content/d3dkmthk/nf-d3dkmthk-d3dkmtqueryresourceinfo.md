@@ -4,7 +4,6 @@ title: D3DKMTQueryResourceInfo function
 author: windows-driver-content
 description: The D3DKMTQueryResourceInfo function retrieves information about a shared resource.
 old-location: display\d3dkmtqueryresourceinfo.htm
-tech.root: display
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTQueryResourceInfo</b> function retrieves information about a shared
 
 ### -param Arg1
 
-TBD
+
 
 
 

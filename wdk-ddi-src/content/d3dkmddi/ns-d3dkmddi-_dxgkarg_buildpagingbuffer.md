@@ -4,7 +4,6 @@ title: "_DXGKARG_BUILDPAGINGBUFFER"
 author: windows-driver-content
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
-tech.root: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_BUILDPAGINGBUFFER
 ---
 
@@ -528,7 +528,7 @@ Supported beginning with Windows 8.
 
 [in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
 
-Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
+Follow procedures in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
 
 
 ### -field InitContextResource.Destination.GpuVirtualAddress

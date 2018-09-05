@@ -4,7 +4,6 @@ title: "_DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY"
 author: windows-driver-content
 description: Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 old-location: display\dxgk_multiplane_overlay_stretch_quality.htm
-tech.root: display
 ms.assetid: 5C995970-59E4-46AD-84CD-0B5675949308
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 ---
 

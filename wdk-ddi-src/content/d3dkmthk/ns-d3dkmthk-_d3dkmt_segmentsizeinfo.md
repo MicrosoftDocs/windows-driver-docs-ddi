@@ -4,7 +4,6 @@ title: "_D3DKMT_SEGMENTSIZEINFO"
 author: windows-driver-content
 description: The D3DKMT_SEGMENTSIZEINFO structure describes the size, in bytes, of memory and aperture segments.
 old-location: display\d3dkmt_segmentsizeinfo.htm
-tech.root: display
 ms.assetid: 16c7b4bd-efc9-4cce-8677-8046038d1c76
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SEGMENTSIZEINFO
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTSetDisplayPrivateDriverFormat function
 author: windows-driver-content
 description: The D3DKMTSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\d3dkmtsetdisplayprivatedriverformat.htm
-tech.root: display
 ms.assetid: 4b720076-161f-47b4-b410-f9554e502a53
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTSetDisplayPrivateDriverFormat</b> function changes the private-form
 
 ### -param D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 
-TBD
+
 
 
 

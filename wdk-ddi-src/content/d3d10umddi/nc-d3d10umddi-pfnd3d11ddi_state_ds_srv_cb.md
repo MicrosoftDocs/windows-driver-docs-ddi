@@ -4,7 +4,6 @@ title: PFND3D11DDI_STATE_DS_SRV_CB
 author: windows-driver-content
 description: The pfnStateDsSrvCb function causes the Microsoft Direct3D 11 runtime to refresh the constant shader resource view state for the domain shader.
 old-location: display\pfnstatedssrvcb.htm
-tech.root: display
 ms.assetid: 23f92c9a-7f2c-4340-ad5e-101b13883bea
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

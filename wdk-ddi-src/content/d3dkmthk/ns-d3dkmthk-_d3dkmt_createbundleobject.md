@@ -4,7 +4,6 @@ title: "_D3DKMT_CREATEBUNDLEOBJECT"
 author: windows-driver-content
 description: Holds information to create a bundle object.
 old-location: display\d3dkmt-createbundleobject.htm
-tech.root: display
 ms.assetid: dbb01112-9d28-4dbf-88c7-3304d9d6a661
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CREATEBUNDLEOBJECT
 ---
 

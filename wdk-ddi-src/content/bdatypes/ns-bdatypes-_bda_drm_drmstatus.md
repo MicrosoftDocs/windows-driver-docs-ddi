@@ -2,7 +2,7 @@
 UID: NS:bdatypes._BDA_DRM_DRMSTATUS
 title: "_BDA_DRM_DRMSTATUS"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_drm_drmstatus.htm
 tech.root: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365

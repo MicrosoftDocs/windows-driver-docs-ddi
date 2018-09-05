@@ -4,7 +4,6 @@ title: D3DKMTGetDeviceState function
 author: windows-driver-content
 description: The D3DKMTGetDeviceState function retrieves the state of a device.
 old-location: display\d3dkmtgetdevicestate.htm
-tech.root: display
 ms.assetid: 8ea84934-63a7-40bf-8523-ccd2b9e5aceb
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTGetDeviceState</b> function retrieves the state of a device.
 
 ### -param Arg1
 
-TBD
+
 
 
 

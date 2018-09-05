@@ -34,10 +34,12 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD callback function
@@ -47,7 +49,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
 
@@ -77,7 +79,7 @@ typedef EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD *PFN_NET_ADAPTER_PREVIEW_PROTOC
 
 ### -param Adapter 
 
-The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
+The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 ### -param ExistingPowerSettings  
 
@@ -85,11 +87,11 @@ A handle to the net power settings object.
 
 ### -param ProtocolOffloadType
 
-An [NDIS_PM_PROTOCOL_OFFLOAD_TYPE](../ntddndis/ne-ntddndis-_ndis_pm_protocol_offload_type.md) enumeration value that specifies the type of protocol offload.
+An [**NDIS_PM_PROTOCOL_OFFLOAD_TYPE**](../ntddndis/ne-ntddndis-_ndis_pm_protocol_offload_type.md) enumeration value that specifies the type of protocol offload.
 
 ### -param ProtocolOffloadToBeAdded  
  
-A pointer to a structure of type [NDIS_PM_PROTOCOL_OFFLOAD](../ntddndis/ns-ntddndis-_ndis_pm_protocol_offload.md) that specifies the protocol offload to accept or reject.
+A pointer to a structure of type [**NDIS_PM_PROTOCOL_OFFLOAD**](../ntddndis/ns-ntddndis-_ndis_pm_protocol_offload.md) that specifies the protocol offload to accept or reject.
 
 ## -returns
 
@@ -99,18 +101,18 @@ To reject the protocol offload, return STATUS_NDIS_PM_PROTOCOL_OFFLOAD_LIST_FULL
 
 ## -remarks
 
-Drivers are not required to implement EvtNetAdapterPreviewProtocolOffload, as NetAdapter already blocks protocol offloads that are not compatible with the driver's [NET_ADAPTER_POWER_CAPABILITIES](ns-netadapter-_net_adapter_power_capabilities.md). However, if your hardware has additional limitations that cannot be expressed in the [NET_ADAPTER_POWER_CAPABILITIES](ns-netadapter-_net_adapter_power_capabilities.md) structure, you can provide *EvtNetAdapterPreviewProtocolOffload* to enforce those additional limitations.
+Drivers are not required to implement EvtNetAdapterPreviewProtocolOffload, as NetAdapter already blocks protocol offloads that are not compatible with the driver's [**NET_ADAPTER_POWER_CAPABILITIES**](ns-netadapter-_net_adapter_power_capabilities.md). However, if your hardware has additional limitations that cannot be expressed in the [**NET_ADAPTER_POWER_CAPABILITIES**](ns-netadapter-_net_adapter_power_capabilities.md) structure, you can provide *EvtNetAdapterPreviewProtocolOffload* to enforce those additional limitations.
 
-Register your implementation of this callback function by setting the appropriate member of [NET_ADAPTER_POWER_CAPABILITIES](ns-netadapter-_net_adapter_power_capabilities.md), then calling [NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md) during *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)*.
+Register your implementation of this callback function by setting the appropriate member of [**NET_ADAPTER_POWER_CAPABILITIES**](ns-netadapter-_net_adapter_power_capabilities.md), then calling [**NetAdapterSetPowerCapabilities**](nf-netadapter-netadaptersetpowercapabilities.md). Client drivers typically call **NetAdapterSetPowerCapabilities** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 In this callback, the driver typically iterates through the *ExistingPowerSettings* to determine whether to accept or reject *ProtocolOffloadToBeAdded*.
 
-The client driver can use the pointer to examine the [NDIS_PM_PROTOCOL_OFFLOAD](../ntddndis/ns-ntddndis-_ndis_pm_protocol_offload.md) structure, but should not retain it. NetAdapterCx will destroy the protocol offload structure once the driver's *EvtNetAdapterPreviewProtocolOffload* returns.
+The client driver can use the pointer to examine the [**NDIS_PM_PROTOCOL_OFFLOAD**](../ntddndis/ns-ntddndis-_ndis_pm_protocol_offload.md) structure, but should not retain it. NetAdapterCx will destroy the protocol offload structure once the driver's *EvtNetAdapterPreviewProtocolOffload* returns.
 
 For more info, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
 
 ## -see-also
 
-[EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN](nc-netadapter-evt_net_adapter_preview_wake_pattern.md)
+[*EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN*](nc-netadapter-evt_net_adapter_preview_wake_pattern.md)
 
-[NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md)
+[**NetAdapterSetPowerCapabilities**](nf-netadapter-netadaptersetpowercapabilities.md)

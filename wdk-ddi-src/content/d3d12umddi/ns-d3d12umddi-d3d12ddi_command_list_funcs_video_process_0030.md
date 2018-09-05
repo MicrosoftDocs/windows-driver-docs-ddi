@@ -4,7 +4,6 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
 author: windows-driver-content
 description: Command list functions for video process.
 old-location: display\d3d12ddi-command-list-funcs-video-process-0030.htm
-tech.root: display
 ms.assetid: b45b79bd-90d6-4bc5-b56a-99d2b71e216a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
 ---
 

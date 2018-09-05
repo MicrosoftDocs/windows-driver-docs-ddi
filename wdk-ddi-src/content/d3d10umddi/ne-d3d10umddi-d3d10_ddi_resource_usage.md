@@ -4,7 +4,6 @@ title: D3D10_DDI_RESOURCE_USAGE
 author: windows-driver-content
 description: The D3D10_DDI_RESOURCE_USAGE enumeration type contains values that identify how a resource is used.
 old-location: display\d3d10_ddi_resource_usage.htm
-tech.root: display
 ms.assetid: f412b665-3489-4200-8fb8-7b6eb564ba98
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_RESOURCE_USAGE
 ---
 

@@ -2,10 +2,10 @@
 UID: NF:nettxqueue.NetTxQueueGetPacketContextToken
 title: NetTxQueueGetPacketContextToken function
 author: windows-driver-content
-description: The NetTxQueueGetPacketContextToken method retrieves a NET_PACKET_CONTEXT_TOKEN for a NET_PACKET context on a transmit queue.
+description: The NetTxQueueGetPacketContextToken method retrieves a NET_PACKET_CONTEXT_TOKEN for a NET_PACKET context on a transmit queue. This method is reserved for NetAdapterCx. Client drivers must not call this method directly.
 ms.assetid: 073d6da4-96ae-4dbd-8aa5-fe12e465af33
 ms.author: windowsdriverdev
-ms.date: 02/09/2018
+ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetTxQueueGetPacketContextToken
 req.header: nettxqueue.h
@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.23
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -35,9 +35,11 @@ apilocation:
 -	nettxqueue.h
 apiname: 
 -	NetTxQueueGetPacketContextToken
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetTxQueueGetPacketContextToken function
@@ -48,12 +50,12 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NetTxQueueGetPacketContextToken** method retrieves a **NET_PACKET_CONTEXT_TOKEN** for a [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) context on a transmit queue.
 
 > [!WARNING]
-> This method is reserved for NetAdapterCx. Client drivers must not call this method directly. Instead, they should call [NET_TXQUEUE_GET_PACKET_CONTEXT_TOKEN](nf-nettxqueue-net_txqueue_get_packet_context_token.md).
+> This method is reserved for NetAdapterCx. Client drivers must not call this method directly.
 
 ## -parameters
 

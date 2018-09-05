@@ -4,7 +4,6 @@ title: D3DKMTSubmitWaitForSyncObjectsToHwQueue function
 author: windows-driver-content
 description: Used to submit a wait to the hardware queue.
 old-location: display\d3dkmtsubmitwaitforsyncobjectstohwqueue.htm
-tech.root: display
 ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Tbd
-req.dll: Tbd
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,12 +34,13 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	tbd
+-	Gdi32.dll
 api_name:
 -	D3DKMTSubmitWaitForSyncObjectsToHwQueue
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Used to submit a wait to the hardware queue.
 
 ### -param D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 
-TBD
+
 
 
 

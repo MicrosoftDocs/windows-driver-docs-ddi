@@ -4,7 +4,6 @@ title: PFND3D11DDI_CREATESHADERRESOURCEVIEW
 author: windows-driver-content
 description: The CreateShaderResourceView(D3D11) function creates a shader resource view.
 old-location: display\createshaderresourceview_d3d11_.htm
-tech.root: display
 ms.assetid: 7ca462c7-ec43-4af7-92c8-ed69e5d324e2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

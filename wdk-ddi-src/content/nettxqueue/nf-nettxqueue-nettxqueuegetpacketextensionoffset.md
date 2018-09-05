@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The NetTxQueueGetPacketExtensionOffset method retrieves the offset, in bytes, to a packet extension for all packets in a transmit (Tx) queue.
 ms.assetid: f7e9b686-a38a-47dd-9872-9ebeca533a3a
 ms.author: windowsdriverdev
-ms.date: 03/02/2018
+ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetTxQueueGetPacketExtensionOffset
 req.header: nettxqueue.h
@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.25
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	NetTxQueueGetPacketExtensionOffset
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -45,7 +46,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NetTxQueueGetPacketExtensionOffset** method retrieves the offset, in bytes, to a packet extension for all packets in a transmit (Tx) queue.
 
@@ -55,7 +56,7 @@ The **NetTxQueueGetPacketExtensionOffset** method retrieves the offset, in bytes
 The transmit queue object.
 
 ### -param ExtensionToGet
-A pointer to a driver-allocated and initialized [NET_PACKET_EXTENSION_QUERY](../netadapterpacket/ns-netadapterpacket-_net_packet_extension_query.md) structure that contains information about the desired packet extension.
+A pointer to a driver-allocated and initialized [**NET_PACKET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_packet_extension_query.md) structure that contains information about the desired packet extension.
 
 ## -returns
 Returns the offset to the desired extension from the beginning of the packet descriptor. This value is for all packets in this queue.

@@ -4,7 +4,6 @@ title: "_D3DKMT_DESTROYALLOCATION2"
 author: windows-driver-content
 description: The D3DKMT_DESTROYALLOCATION2 structure describes parameters for releasing allocations with D3DKMTDestroyAllocation2.
 old-location: display\d3dkmt_destroyallocation2.htm
-tech.root: display
 ms.assetid: A51C5F98-5979-436A-9E7E-EA54A1469940
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DESTROYALLOCATION2
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+title: "_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT"
 author: windows-driver-content
 description:
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
@@ -22,16 +22,17 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-topictype:
+req.typenames: DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 ---
 

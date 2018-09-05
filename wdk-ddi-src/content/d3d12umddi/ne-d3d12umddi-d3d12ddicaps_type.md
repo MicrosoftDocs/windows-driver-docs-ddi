@@ -4,7 +4,6 @@ title: D3D12DDICAPS_TYPE
 author: windows-driver-content
 description: Specifies a capability type.
 old-location: display\d3d12ddicaps_type.htm
-tech.root: display
 ms.assetid: C74697BF-A191-4371-9F23-7F655EBC53B3
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDICAPS_TYPE
 ---
 

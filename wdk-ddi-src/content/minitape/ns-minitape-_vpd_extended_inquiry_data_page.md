@@ -31,7 +31,8 @@ api_location:
 -	minitape.h
 api_name: 
 -	_VPD_EXTENDED_INQUIRY_DATA_PAGE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

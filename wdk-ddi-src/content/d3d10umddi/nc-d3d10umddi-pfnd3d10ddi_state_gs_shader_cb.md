@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_GS_SHADER_CB
 author: windows-driver-content
 description: The pfnStateGsShaderCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader.
 old-location: display\pfnstategsshadercb.htm
-tech.root: display
 ms.assetid: 2bcdc7bd-4327-4258-ad89-5e028cffd06b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

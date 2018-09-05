@@ -4,7 +4,6 @@ title: D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW structure describes a two-dimensional (2-D) texture that is used to create a depth stencil view in a call to the CreateDepthStencilView function.
 old-location: display\d3d10ddiarg_tex2d_depthstencilview.htm
-tech.root: display
 ms.assetid: f659584f-e0a5-46b6-b20d-c19aba421114
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW
 ---
 

@@ -4,7 +4,6 @@ title: D3D10DDIARG_CREATEDEVICE
 author: windows-driver-content
 description: The D3D10DDIARG_CREATEDEVICE structure describes the display device to create.
 old-location: display\d3d10ddiarg_createdevice.htm
-tech.root: display
 ms.assetid: 64154d8a-1775-455b-bf31-9c3a0f1398ad
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_CREATEDEVICE
 ---
 

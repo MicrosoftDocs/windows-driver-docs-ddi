@@ -65,7 +65,7 @@ A POHANDLE value that represents the registration of the device with PoFx. The p
 
 ### -field NotifyCode
 
-The Notify code. For a list of Notify codes and their meanings, see section 5.6.6, "Device Object Notifications", of the Advanced Configuration and Power Interface Specification, Revision 5.0 (<a href="http://www.acpi.info">ACPI 5.0 specification</a>).
+The Notify code. For a list of Notify codes and their meanings, see section 5.6.6, "Device Object Notifications", of the [ACPI 5.0 specification](https://www.uefi.org/specifications).
 
 
 ## -remarks

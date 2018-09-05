@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_VIDEODECODERBEGINFRAME
 author: windows-driver-content
 description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 old-location: display\videodecoderbeginframe.htm
-tech.root: display
 ms.assetid: 5aebc8c9-baa1-457f-9e46-3a86929ba0b5
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

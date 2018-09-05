@@ -4,7 +4,6 @@ title: D3DKMTReleaseProcessVidPnSourceOwners function
 author: windows-driver-content
 description: The D3DKMTReleaseProcessVidPnSourceOwners function releases the video present network source owners for a process.
 old-location: display\d3dkmtreleaseprocessvidpnsourceowners.htm
-tech.root: display
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video pre
 
 ### -param Arg1
 
-TBD
+
 
 
 

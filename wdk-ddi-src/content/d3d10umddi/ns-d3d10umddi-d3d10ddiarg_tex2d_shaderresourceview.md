@@ -4,7 +4,6 @@ title: D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure describes a two-dimensional (2-D) texture that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_tex2d_shaderresourceview.htm
-tech.root: display
 ms.assetid: 2282d08e-e192-4a0f-972b-1441cea1fe7d
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
 ---
 

@@ -4,7 +4,6 @@ title: D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 author: windows-driver-content
 description: Describes operations that the video processor can perform more efficiently than VideoProcessorBlt.
 old-location: display\d3dwddm2_0ddi_video_processor_behavior_hints.htm
-tech.root: display
 ms.assetid: 1D995AE5-C856-4971-8D51-B06EB32F8C74
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 ---
 

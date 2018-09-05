@@ -34,8 +34,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	PDXGK_FSTATE_NOTIFICATION
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PDXGK_FSTATE_NOTIFICATION callback function

@@ -4,7 +4,6 @@ title: PFND3D10DDI_QUERYGETDATA
 author: windows-driver-content
 description: The QueryGetData function polls for the state of a query operation.
 old-location: display\querygetdata.htm
-tech.root: display
 ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

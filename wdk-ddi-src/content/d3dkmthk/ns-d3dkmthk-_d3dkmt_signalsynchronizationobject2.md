@@ -4,7 +4,6 @@ title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the D3DKMTSignalSynchronizationObject2 function signals.
 old-location: display\d3dkmt_signalsynchronizationobject2.htm
-tech.root: display
 ms.assetid: a4bdafeb-310a-4ceb-966e-a1e3660fc5f2
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
 ---
 

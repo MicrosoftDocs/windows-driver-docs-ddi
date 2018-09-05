@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	IOMMU_QUERY_INPUT_MAPPINGS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

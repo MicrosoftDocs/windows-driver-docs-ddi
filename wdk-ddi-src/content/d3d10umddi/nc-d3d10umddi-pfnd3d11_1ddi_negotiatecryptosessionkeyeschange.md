@@ -4,7 +4,6 @@ title: PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
 author: windows-driver-content
 description: Establishes a session key for a cryptographic session object.
 old-location: display\negotiatecryptosessionkeyexchange.htm
-tech.root: display
 ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

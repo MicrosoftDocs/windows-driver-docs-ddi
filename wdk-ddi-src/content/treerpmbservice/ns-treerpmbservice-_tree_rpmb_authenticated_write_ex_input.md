@@ -1,0 +1,55 @@
+---
+UID: NS:treerpmbservice._TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
+title: _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
+author: windows-driver-content
+description: 
+ms.assetid: 2aaeaf15-1089-430f-a431-17fcf27c9518
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: struct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.keywords: _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, 
+req.header: treerpmbservice.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.ddi-compliance:
+req.unicode-ansi:
+req.max-support:
+req.typenames: TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	treerpmbservice.h
+api_name: 
+-	_TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
+product:
+-	Windows
+targetos: Windows
+---
+
+# _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT structure
+
+## -description
+
+
+## -struct-fields
+
+### -field WriteFrameCount
+ 
+### -field ReliableWriteSizeOverride
+ 
+### -field Data
+ 
+
+## -remarks
+
+## -see-also

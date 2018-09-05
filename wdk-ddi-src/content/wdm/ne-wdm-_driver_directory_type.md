@@ -28,7 +28,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_DRIVER_DIRECTORY_TYPE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

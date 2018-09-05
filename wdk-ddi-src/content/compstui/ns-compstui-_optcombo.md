@@ -2,7 +2,7 @@
 UID: NS:compstui._OPTCOMBO
 title: "_OPTCOMBO"
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\optcombo.htm
 tech.root: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E

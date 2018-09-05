@@ -4,7 +4,6 @@ title: "_DXGK_SEGMENTDESCRIPTOR4"
 author: windows-driver-content
 description: The DXGK_SEGMENTDESCRIPTOR4 structure describes a programmable CPU host aperture.
 old-location: display\dxgk_segmentdescriptor4.htm
-tech.root: display
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_SEGMENTDESCRIPTOR4
 ---
 

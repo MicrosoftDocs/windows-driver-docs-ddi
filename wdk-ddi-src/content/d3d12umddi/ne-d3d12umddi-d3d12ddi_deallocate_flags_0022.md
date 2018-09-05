@@ -4,7 +4,6 @@ title: D3D12DDI_DEALLOCATE_FLAGS_0022
 author: windows-driver-content
 description: Defines flags for use in deallocation.
 old-location: display\d3d12ddi_deallocate_flags_0022.htm
-tech.root: display
 ms.assetid: 17E3C01A-0716-4B3C-B4B3-72B055FB40EA
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_DEALLOCATE_FLAGS_0022
 ---
 

@@ -4,7 +4,6 @@ title: D3DKMTPollDisplayChildren function
 author: windows-driver-content
 description: The D3DKMTPollDisplayChildren function queries for connectivity status of all child devices of the given adapter.
 old-location: display\d3dkmtpolldisplaychildren.htm
-tech.root: display
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTPollDisplayChildren</b> function queries for connectivity status of
 
 ### -param D3DKMT_POLLDISPLAYCHILDREN
 
-TBD
+
 
 
 

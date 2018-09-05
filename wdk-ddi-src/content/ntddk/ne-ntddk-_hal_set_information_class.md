@@ -28,7 +28,8 @@ apilocation:
 -	ntddk.h
 apiname: 
 -	_HAL_SET_INFORMATION_CLASS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

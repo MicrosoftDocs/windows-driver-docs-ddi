@@ -4,7 +4,6 @@ title: PFND3D10DDI_STATE_SO_TARGETS_CB
 author: windows-driver-content
 description: The pfnStateSoTargetsCb function causes the Microsoft Direct3D 10 runtime to refresh the stream-out targets.
 old-location: display\pfnstatesotargetscb.htm
-tech.root: display
 ms.assetid: 9000543b-00ab-4378-9fa5-d4fc7cb05b24
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

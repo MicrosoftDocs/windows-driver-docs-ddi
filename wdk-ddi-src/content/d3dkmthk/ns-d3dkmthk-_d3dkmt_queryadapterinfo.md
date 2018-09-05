@@ -4,7 +4,6 @@ title: "_D3DKMT_QUERYADAPTERINFO"
 author: windows-driver-content
 description: The D3DKMT_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 old-location: display\d3dkmt_queryadapterinfo.htm
-tech.root: display
 ms.assetid: 2bc9afc3-2fcf-4f62-85d4-67f824733904
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERYADAPTERINFO
 ---
 

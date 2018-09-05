@@ -4,7 +4,6 @@ title: D3DKMTDestroyContext function
 author: windows-driver-content
 description: The D3DKMTDestroyContext function releases a kernel-mode device context.
 old-location: display\d3dkmtdestroycontext.htm
-tech.root: display
 ms.assetid: 33c10139-7a9a-41b1-a3c4-e3692be9a34a
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTDestroyContext</b> function releases a kernel-mode device context.
 
 ### -param D3DKMT_DESTROYCONTEXT
 
-TBD
+
 
 
 

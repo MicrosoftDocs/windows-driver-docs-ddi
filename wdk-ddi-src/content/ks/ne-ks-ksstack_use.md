@@ -2,7 +2,7 @@
 UID: NE:ks.KSSTACK_USE
 title: KSSTACK_USE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksstack_use.htm
 tech.root: stream
 ms.assetid: 76B45154-5E81-4515-ADEE-11401FDF4681

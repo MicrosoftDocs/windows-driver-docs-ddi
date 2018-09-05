@@ -4,7 +4,6 @@ title: "_DXGKARG_ACQUIRESWIZZLINGRANGE"
 author: windows-driver-content
 description: The DXGKARG_ACQUIRESWIZZLINGRANGE structure describes parameters for making an allocation accessible through a CPU aperture.
 old-location: display\dxgkarg_acquireswizzlingrange.htm
-tech.root: display
 ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_ACQUIRESWIZZLINGRANGE
 ---
 

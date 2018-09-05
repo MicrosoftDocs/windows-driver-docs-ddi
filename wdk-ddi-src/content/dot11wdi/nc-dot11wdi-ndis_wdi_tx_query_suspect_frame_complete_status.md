@@ -34,7 +34,8 @@ api_location:
 -	dot11wdi.h
 api_name: 
 -	NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

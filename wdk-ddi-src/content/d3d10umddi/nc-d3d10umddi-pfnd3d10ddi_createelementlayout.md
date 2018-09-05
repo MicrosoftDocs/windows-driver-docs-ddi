@@ -4,7 +4,6 @@ title: PFND3D10DDI_CREATEELEMENTLAYOUT
 author: windows-driver-content
 description: The CreateElementLayout function creates an element layout.
 old-location: display\createelementlayout.htm
-tech.root: display
 ms.assetid: 5af2189a-a064-4c62-be09-733c1d632983
 ms.author: windowsdriverdev
 ms.date: 5/10/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

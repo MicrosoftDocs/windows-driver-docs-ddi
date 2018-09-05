@@ -61,7 +61,7 @@ The <b>BdaMethodDeletePin</b> function deletes a pin factory.
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSMethod [in]
