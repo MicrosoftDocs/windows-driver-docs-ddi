@@ -96,7 +96,7 @@ Every call to <b>KeStackAttachProcess</b> must be matched by a subsequent call t
 <div> </div>
 
 
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see [Windows Kernel-Mode Process and Thread Manager](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager). 
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see [Windows Kernel-Mode Process and Thread Manager](https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager). 
 
 
 
