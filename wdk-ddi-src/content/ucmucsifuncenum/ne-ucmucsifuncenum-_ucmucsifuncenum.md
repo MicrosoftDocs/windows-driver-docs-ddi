@@ -42,21 +42,34 @@ Defines values for all export functions called by a client driver of a UcmUcsiCx
 ## -enum-fields
 
 ### -field UcmUcsiDeviceInitInitializeTableIndex 
-UcmUcsiDeviceInitInitialize function used to initialize the **WDFDEVICE_INIT** provided by the framework.
+UcmUcsiDeviceInitInitialize - initializes the **WDFDEVICE_INIT** provided by the framework.
 
 ### -field UcmUcsiDeviceInitializeTableIndex
-UcmUcsiDeviceInitialize function used to initialize the UcmUcsiCx class extension.
+UcmUcsiDeviceInitialize - initializes the UcmUcsiCx class extension.
 
 ### -field UcmUcsiConnectorCollectionCreateTableIndex 
-
+UcmUcsiConnectorCollectionCreate - creates a connector collection object with UcmUcsiCx.
 
 ### -field UcmUcsiConnectorCollectionAddConnectorTableIndex 
+UcmUcsiConnectorCollectionAddConnector - adds a connector to the connector collection object.
+
 ### -field UcmUcsiPpmCreateTableIndex 
+UcmUcsiPpmCreate - creates a Platform Policy Manager (PPM) object.
+
 ### -field UcmUcsiPpmSetUcsiCommandRequestQueueTableIndex 
+UcmUcsiPpmSetUcsiCommandRequestQueue - provides a framework queue object that is used to dispatch UCSI commands to the client driver.
+
 ### -field UcmUcsiPpmStartTableIndex 
+UcmUcsiPpmStart - instructs the class extension to start sending requests to the client driver.
+
 ### -field UcmUcsiPpmStopTableIndex 
+UcmUcsiPpmStop - instructs the class extension to stop sending requests to the client driver.
+
 ### -field UcmUcsiPpmNotificationTableIndex 
+UcmUcsiPpmNotification - informs the UcmUcsiCx class extension about a UCSI notification.
+
 ### -field UcmucsiFunctionTableNumEntries 
+End of this enumeration.
 
 ## -remarks
 

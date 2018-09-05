@@ -3,7 +3,7 @@ UID: NE:ucmucsispec._UCSI_POWER_DIRECTION
 title: _UCSI_POWER_DIRECTION
 author: windows-driver-content
 tech.root: usbref
-description: 
+description: Used in the  GET_CONNECTOR_STATUS command. See Table 4-42, Offset 20.
 ms.assetid: 1915856c-21ec-4801-b549-acd825b23a0b
 ms.author: windowsdriverdev
 ms.date: 09/30/2018 

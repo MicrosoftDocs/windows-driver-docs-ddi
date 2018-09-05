@@ -50,7 +50,7 @@ Initializes a [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-ucmucsi_ppm_config.md) stru
 ## -parameters
 
 ### -param Config
-A pointer to a **UCMUCSI_PPM_CONFIG** structure to initialize.
+A pointer to a [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-ucmucsi_ppm_config.md) structure to initialize.
 
 ### -param CollectionObject
 The handle to the connector collection object that the client driver retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
