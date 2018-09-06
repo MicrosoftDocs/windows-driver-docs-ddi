@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: b33cc6b7-153f-442a-bc3c-cc3e1c9e04e0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,3 +52,4 @@ targetos: Windows
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)

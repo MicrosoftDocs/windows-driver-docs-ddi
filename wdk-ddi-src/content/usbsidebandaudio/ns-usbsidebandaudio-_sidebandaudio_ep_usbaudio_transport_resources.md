@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 4c4691b4-9f3a-411f-b7e2-9a856c3c12b9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,16 +39,23 @@ targetos: Windows
 
 ## -description
 
+This structure describes USB sideband audio transport resources.
 
 ## -struct-fields
 
 ### -field bcdAudioSpec
+
+From USB class-specific AC interface descriptor
  
 ### -field bDelay
+
+ Delay introduced by the data path
  
 ### -field bSlotSize
  
+ From Audio Format Type I Descriptor
 
 ## -remarks
 
 ## -see-also
+[usbsidebandaudio.h](index.md)

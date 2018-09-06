@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: f34ee0ff-8e4a-4893-90f8-5dcf6fa50f0d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018 
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,15 +38,18 @@ targetos: Windows
 # SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure
 
 ## -description
-
+ Describes the variable I/O parameters for IOCTLs.
 
 ## -struct-fields
 
 ### -field EpIndex
- 
+0 based index indicating the Endpoint on device
+
 ### -field Format
- 
+Stream Format KSDATAFORMAT.
+
 ### -field SiopCount
+Number of Input parameters.
  
 ### -field Alignment
  
@@ -54,3 +57,4 @@ targetos: Windows
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)
