@@ -2,7 +2,7 @@
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 title: "_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT"
 author: windows-driver-content
-description: TBD.
+description:
 old-location: buses\ucmtcpci_port_controller_displayport_pin_assignment.htm
 tech.root: usbref
 ms.assetid: D5FC1963-4D68-4138-957B-3F39207C6D57

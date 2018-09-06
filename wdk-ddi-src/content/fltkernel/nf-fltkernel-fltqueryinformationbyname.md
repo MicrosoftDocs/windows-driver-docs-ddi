@@ -2,7 +2,7 @@
 UID: NF:fltkernel.FltQueryInformationByName
 title: FltQueryInformationByName function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: dac542b8-eaea-4065-ae36-1433a6589ac3
 ms.author: windowsdriverdev
 ms.date: 
