@@ -2,7 +2,7 @@
 UID: NS:storport._SES_CONFIGURATION_DIAGNOSTIC_PAGE
 title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE"
 author: windows-driver-content
-description: TBD.
+description:
 old-location: storage\ses_configuration_diagnostic_page.htm
 tech.root: storage
 ms.assetid: 0FD748D6-F598-44D1-A8D3-E63764CB90C6

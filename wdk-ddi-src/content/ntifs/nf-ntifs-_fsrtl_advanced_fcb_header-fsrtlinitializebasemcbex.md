@@ -2,7 +2,7 @@
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeBaseMcbEx
 title: FsRtlInitializeBaseMcbEx function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8
 ms.author: windowsdriverdev
 ms.date: 
