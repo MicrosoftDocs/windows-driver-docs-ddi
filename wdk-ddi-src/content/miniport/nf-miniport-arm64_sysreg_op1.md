@@ -2,7 +2,7 @@
 UID: NF:miniport.ARM64_SYSREG_OP1
 title: ARM64_SYSREG_OP1 macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 327521a0-8b25-4b01-a946-30b7f76d5dce
 ms.author: windowsdriverdev
 ms.date: 

@@ -2,7 +2,7 @@
 UID: NF:ntddstor.RtlCopyMemory
 title: RtlCopyMemory macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 0f83330e-b176-484e-a071-36a8ea4e00f8
 ms.author: windowsdriverdev
 ms.date: 

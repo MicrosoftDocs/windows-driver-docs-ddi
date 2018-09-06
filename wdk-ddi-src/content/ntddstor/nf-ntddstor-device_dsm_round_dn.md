@@ -2,7 +2,7 @@
 UID: NF:ntddstor.DEVICE_DSM_ROUND_DN
 title: DEVICE_DSM_ROUND_DN macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 6253058e-3315-4ae9-a2b7-1409cd56b6a5
 ms.author: windowsdriverdev
 ms.date: 
