@@ -7,7 +7,7 @@ old-location: image\cwiaupropertylist_class.htm
 tech.root: image
 ms.assetid: 4f11bec0-8ff4-4fa0-824c-71ce9774d5d1
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 9/7/2018
 ms.keywords: CWiauPropertyList, CWiauPropertyList class [Imaging Devices], CWiauPropertyList class [Imaging Devices],described, image.cwiaupropertylist_class, wiauFncs_b6021ff9-9843-4f31-b2c1-aff36af0cbc6.xml, wiautil/CWiauPropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -188,7 +188,7 @@ The <b>SetCurrentValue(INT,BYTE,INT)</b> method sets the current value of a prop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e61b5bbb-14a8-4dfa-af36-99c5dd1ecc99">SetValidValues(INT,LONG,LONG,LONG)</a>
+<a href="https://review.docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_long)">SetValidValues(INT,LONG,LONG,LONG)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,LONG,LONG,LONG)</b> method sets the type, as well as default, current, and valid values for a property whose values are defined by a flag. The method also sets the property type to <b>VT_I4</b> and subtype to <b>WIA_PROP_FLAG</b>.
@@ -206,7 +206,7 @@ The <b>SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)</b> method sets the type, as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a9a04f4-1260-4773-9c94-963fc0844ccb">SetValidValues(INT,LONG,LONG,INT,PLONG)</a>
+<a href="https://review.docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_int_plong)">SetValidValues(INT,LONG,LONG,INT,PLONG)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,LONG,LONG,INT,PLONG)</b> method sets the type, as well as default, current, and valid values for a <b>LONG</b> property associated with a list of values. The method also sets the property type to <b>VT_I4</b> and subtype to <b>WIA_PROP_LIST</b>.
@@ -215,7 +215,7 @@ The <b>SetValidValues(INT,LONG,LONG,INT,PLONG)</b> method sets the type, as well
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b806e310-4e6d-4258-8dd5-0c9aa35a35f4">SetValidValues(INT,BSTR,BSTR,INT,BSTR)</a>
+<a href="https://review.docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_bstr_bstr_int_bstr)">SetValidValues(INT,BSTR,BSTR,INT,BSTR)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,BSTR,BSTR,INT,BSTR)</b> method sets the type, as well as default, current, and valid values for a <b>BSTR</b> property associated with a list of values. The method also sets the property type to <b>VT_BSTR</b> and subtype to <b>WIA_PROP_LIST</b>.
@@ -224,7 +224,7 @@ The <b>SetValidValues(INT,BSTR,BSTR,INT,BSTR)</b> method sets the type, as well 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4234ce4a-5b9d-47a7-b00d-e278635ee93a">SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)</a>
+<a href="https://review.docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_float_float_float)">SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)</b> method sets the type, as well as default, current, and valid values for a <b>FLOAT</b> property associated with a range of values. The method also sets the property type to <b>VT_R4</b> and subtype to <b>WIA_PROP_RANGE</b>.
@@ -250,4 +250,3 @@ The <b>SetValidValues(INT,CLSID,CLSID,INT,CLSID)</b> method sets the type, as we
 </td>
 </tr>
 </table>
-
