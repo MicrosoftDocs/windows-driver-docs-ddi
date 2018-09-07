@@ -38,18 +38,21 @@ targetos: Windows
 # _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure
 
 ## -description
-
+TBD
 
 ## -struct-fields
 
 ### -field Volume
+TBD
  
 ### -field Mute
- 
+TBD
+
 ### -field Sidetone
- 
+TBD
+
 ### -field Feedback
- 
+TBD 
 
 ## -remarks
 

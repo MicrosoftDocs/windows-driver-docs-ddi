@@ -38,7 +38,7 @@ targetos: Windows
 # _SIDEBANDAUDIO_SIDETONE_PARAMS structure
 
 ## -description
-
+Describes the endpoint index and sidetone value.
 
 ## -struct-fields
 

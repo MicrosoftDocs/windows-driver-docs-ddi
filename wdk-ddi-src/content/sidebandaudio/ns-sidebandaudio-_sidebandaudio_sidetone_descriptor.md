@@ -38,14 +38,16 @@ targetos: Windows
 # _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure
 
 ## -description
+ Describes mute and volume components of the sidetone topology.
 
 
 ## -struct-fields
 
 ### -field Volume
+TBD
  
 ### -field Mute
- 
+TBD 
 
 ## -remarks
 

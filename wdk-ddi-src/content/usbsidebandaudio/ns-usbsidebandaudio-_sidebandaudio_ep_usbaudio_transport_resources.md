@@ -44,16 +44,13 @@ This structure describes USB sideband audio transport resources.
 ## -struct-fields
 
 ### -field bcdAudioSpec
-
-From USB class-specific AC interface descriptor
+From the USB class-specific AC interface descriptor.
  
 ### -field bDelay
-
- Delay introduced by the data path
+Delay introduced by the data path.
  
 ### -field bSlotSize
- 
- From Audio Format Type I Descriptor
+From the Audio Format Type I Descriptor.
 
 ## -remarks
 

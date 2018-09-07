@@ -38,12 +38,12 @@ targetos: Windows
 # _SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure
 
 ## -description
-
+ Describes the Container ID and number of endpoints on the device.
 
 ## -struct-fields
 
 ### -field NumberOfEndpoints
- 
+Number of Audio endpoints on the devices that can be sidebanded.  This number excludes the feedback endpoints. 
 
 ## -remarks
 

@@ -38,27 +38,34 @@ targetos: Windows
 # _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure
 
 ## -description
-
+Describes the characteristics of the audio Endpoint driver. This information does not change while the interface is enabled but can change while disabled.
 
 ## -struct-fields
 
 ### -field CbSize
- 
+Size of Descriptor including storage for UNICODE_STRING and any additional data.
+
 ### -field ContainerId
- 
+Pnp Container ID for connected device.
+
 ### -field Category
- 
+ KSPIN_DESCRIPTOR.Category to indicate form factor e.g. KSNODETYPE_HEADSET_MICROPHONE.
+
 ### -field Direction
+ Indicates render/capture.
  
 ### -field Capabilities
+ Capabilities of the endpoint like (mute, volume, sidetone, etc.).
  
 ### -field FriendlyName
+Storage for friendly name is attached after descriptor and is included in cbSize.
  
 ### -field VolumePropertyValuesSize
+Size of data returned by IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES.
  
 ### -field SidetoneVolumePropertyValueSize
+Size of data returned by IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES.
  
-
 ## -remarks
 
 ## -see-also

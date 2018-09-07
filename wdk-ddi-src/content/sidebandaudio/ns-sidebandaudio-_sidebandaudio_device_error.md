@@ -49,7 +49,7 @@ Zero based index indicating the Endpoint on device.
 Indicates whether IOCTL current value is requested or IRP should complete upon next change in value. 
  
 ### -field Status
-Indicates status. 
+TBD
 
 ## -remarks
 
