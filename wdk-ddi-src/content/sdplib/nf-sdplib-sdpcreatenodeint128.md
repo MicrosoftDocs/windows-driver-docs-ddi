@@ -62,7 +62,7 @@ The Bluetooth
 
 ### -param uil16Val
 
-TBD
+<p>The 128-bit integer value that is used to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]

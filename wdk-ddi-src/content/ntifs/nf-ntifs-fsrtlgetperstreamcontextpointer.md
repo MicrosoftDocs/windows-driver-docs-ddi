@@ -60,7 +60,7 @@ The <b>FsRtlGetPerStreamContextPointer</b> macro returns the file system's strea
 
 ### -param _fo
 
-TBD
+<p>Pointer to a file object for the file stream. </p>
 
 
 

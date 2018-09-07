@@ -60,7 +60,7 @@ The <b>FsRtlSupportsPerFileContexts</b> macro checks if per file context informa
 
 ### -param _fo
 
-TBD
+<p>A FILE_OBJECT that is associated with the file system to be checked.</p>
 
 
 

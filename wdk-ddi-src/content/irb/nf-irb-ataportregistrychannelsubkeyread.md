@@ -123,7 +123,7 @@ A pointer to the destination buffer where the data that is read from the registr
 
 ### -param BufferLength
 
-TBD
+<p>A pointer to the number of bytes of data to copy. If the operation fails, the location that is pointed to by <i>Length</i> will update to the length of data that was successfully copied from the registry.</p>
 
 
 

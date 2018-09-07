@@ -60,7 +60,7 @@ Converts a value of type <b>UINT_PTR</b> to a value of type <b>UINT</b>.
 
 ### -param uOperand
 
-TBD
+<p>The value to be converted.</p>
 
 
 ### -param puResult [out]

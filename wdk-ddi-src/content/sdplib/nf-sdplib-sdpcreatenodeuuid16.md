@@ -62,7 +62,7 @@ The Bluetooth
 
 ### -param uuidVal2
 
-TBD
+<p>The 16-bit UUID value that is used to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]

@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param DeviceOrDriverObject
 
-TBD
+<p>A pointer to the RDBSS device object.</p>
 
 
 ### -param OriginatorId [in]

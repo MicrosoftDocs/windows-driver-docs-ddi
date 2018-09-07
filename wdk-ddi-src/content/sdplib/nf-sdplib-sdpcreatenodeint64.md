@@ -62,7 +62,7 @@ The Bluetooth
 
 ### -param llVal
 
-TBD
+<p>The 64-bit integer value that is used to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]

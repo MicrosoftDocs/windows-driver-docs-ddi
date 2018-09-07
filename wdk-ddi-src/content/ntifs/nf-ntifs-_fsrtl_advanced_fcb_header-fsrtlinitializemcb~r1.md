@@ -60,7 +60,7 @@ The <b>FsRtlInitializeMcb</b> routine is obsolete, but is exported to support ex
 
 ### -param Mcb
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param PoolType

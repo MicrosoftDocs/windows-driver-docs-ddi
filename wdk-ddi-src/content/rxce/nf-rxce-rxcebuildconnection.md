@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param pLocalAddress
 
-TBD
+<p>A pointer to the local RDBSS connection engine address.</p>
 
 
 ### -param pConnectionInformation [in]

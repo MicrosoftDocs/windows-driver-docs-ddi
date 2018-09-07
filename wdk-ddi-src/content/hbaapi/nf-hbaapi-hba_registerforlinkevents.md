@@ -80,12 +80,12 @@ Contains the size, in bytes, of the buffer at <i>pRLIRBuffer</i>.
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA for which event callbacks are requested.</p>
 
 
 ### -param pCallbackHandle
 
-TBD
+<p>Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.</p>
 
 
 

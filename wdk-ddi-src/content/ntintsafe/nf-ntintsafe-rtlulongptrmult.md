@@ -60,17 +60,17 @@ Multiplies one value of type <b>ULONG_PTR</b> by another.
 
 ### -param ulMultiplicand
 
-TBD
+<p>The value to be multiplied by <i>Multiplier</i>.</p>
 
 
 ### -param ulMultiplier
 
-TBD
+<p>The value by which to multiply <i>Multiplicand</i>.</p>
 
 
 ### -param pulResult
 
-TBD
+<p>A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
 

@@ -60,12 +60,12 @@ The <b>HBA_GetRNIDMgmtInfo</b> routine queries the HBA for request node identifi
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA to query for RNID. </p>
 
 
 ### -param pInfo
 
-TBD
+<p>Contains a structure of type <a href="https://msdn.microsoft.com/library/Ff557092(v=VS.85).aspx"><b>HBA_MgmtInfo</b></a> that holds the RNID management information. </p>
 
 
 

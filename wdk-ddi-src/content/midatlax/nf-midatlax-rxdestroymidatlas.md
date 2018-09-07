@@ -60,12 +60,12 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>The MID_ATLAS structure to be freed.</p>
 
 
 ### -param ContextDestructor
 
-TBD
+<p>An associated context destructor.</p>
 
 
 

@@ -60,22 +60,22 @@ The <b>FsRtlAddLargeMcbEntry</b> routine adds a new mapping to an existing map c
 
 ### -param Mcb
 
-TBD
+<p>Pointer to an initialized MCB structure. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Starting virtual block number (VBN) of the new mapping run to be added to the MCB. </p>
 
 
 ### -param Lbn
 
-TBD
+<p>Logical block number (LBN) to which <i>LargeVbn</i> is to be mapped.</p>
 
 
 ### -param SectorCount
 
-TBD
+<p>Number of sectors in the new mapping run. </p>
 
 
 

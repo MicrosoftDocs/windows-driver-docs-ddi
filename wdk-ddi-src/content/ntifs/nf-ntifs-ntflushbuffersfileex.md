@@ -99,7 +99,7 @@ If the file is on an NTFS file system, file data and metadata in the file cache 
 
 ### -param Parameters
 
-TBD
+<p>Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.</p>
 
 
 ### -param ParametersSize

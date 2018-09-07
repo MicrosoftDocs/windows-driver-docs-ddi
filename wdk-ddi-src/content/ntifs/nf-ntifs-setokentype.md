@@ -60,7 +60,7 @@ This routine is reserved for system use. See <a href="https://msdn.microsoft.com
 
 ### -param Token
 
-TBD
+<p>Reserved.</p>
 
 
 

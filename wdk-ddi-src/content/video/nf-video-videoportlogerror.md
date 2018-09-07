@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to the video request packet (<a href="wdkgloss.v#wdkgloss.video_request_packet__vrp_#wdkgloss.video_request_packet__vrp_"><i>VRP</i></a>) if one is associated with the error; otherwise <b>NULL</b>.</p>
 
 
 ### -param ErrorCode

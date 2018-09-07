@@ -70,12 +70,12 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the local port t
 
 ### -param Agent_wwn
 
-TBD
+<p>Contains, when non-<b>NULL</b>, a 64-bit WWN that uniquely identifies the port to query for a list of ports of type FC_Port. If this member is <b>NULL</b>, it is ignored. For a definition of FC_Port, see the T11 committee's <i>Fibre Channel HBA API </i>specification. </p>
 
 
 ### -param Agent_domain
 
-TBD
+<p>Contains the domain number for the domain controller to query for a list of ports of type FC_Port. If <i>AgentWwn </i>is non-<b>NULL</b>, this member is ignored.  </p>
 
 
 ### -param PortIndex [in]
@@ -90,7 +90,7 @@ Pointer to a buffer that receives the results of the read port list (RPL) reques
 
 ### -param pRspBufferSize
 
-TBD
+<p>On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. </p>
 
 
 

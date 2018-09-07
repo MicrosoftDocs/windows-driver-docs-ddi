@@ -60,12 +60,67 @@ The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a l
 
 ### -param C
 
-TBD
+<p>The character to be tested.</p>
 
 
 ### -param FLAGS
 
-TBD
+<p>Combination of one or more of the following flag values:</p>
+  <table>
+    <tr>
+      <th>Flag</th>
+      <th>Meaning</th>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_FAT_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for FAT file names are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_HPFS_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for high-performance file system (HPFS) file names are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_NTFS_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for NTFS file names are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_WILD_CHARACTER</p>
+      </td>
+      <td>
+        <p>Wildcard characters are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_OLE_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for NTFS stream names are legal. </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_NTFS_STREAM_LEGAL</p>
+      </td>
+      <td>
+        <p>FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL</p>
+      </td>
+    </tr>
+  </table>
+  <p> </p>
 
 
 

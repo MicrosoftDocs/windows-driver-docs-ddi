@@ -70,7 +70,7 @@ The value to add to <i>ullAugend</i>.
 
 ### -param pullResult
 
-TBD
+<p>A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
 

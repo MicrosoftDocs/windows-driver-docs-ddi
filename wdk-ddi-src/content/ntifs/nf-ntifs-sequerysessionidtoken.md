@@ -60,7 +60,7 @@ The <b>SeQuerySessionIdToken</b> routine is reserved for system use.
 
 ### -param Token
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param SessionId

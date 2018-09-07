@@ -65,7 +65,7 @@ Validates the specified correlation vector to check whether it conforms to the C
 
 ### -param Vector
 
-TBD
+<p>A pointer to a  <a href="https://msdn.microsoft.com/library/Mt826258(v=VS.85).aspx"><b>CORRELATION_VECTOR</b></a> structure that represents the correlation vector to be validated.</p>
 
 
 

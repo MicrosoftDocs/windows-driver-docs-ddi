@@ -60,7 +60,7 @@ The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. 
 
 ### -param FsInformationClass
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Length
