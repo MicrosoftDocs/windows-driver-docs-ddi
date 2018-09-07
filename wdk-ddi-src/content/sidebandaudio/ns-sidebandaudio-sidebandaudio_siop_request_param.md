@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 02dcc788-480c-44d9-811f-56ac20077ffa
 ms.author: windowsdriverdev
-ms.date: 09/06/2018
+ms.date: 09/07/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,16 +38,18 @@ targetos: Windows
 # SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure
 
 ## -description
-
+Describes the variable I/O parameter.
 
 ## -struct-fields
 
 ### -field EpIndex
+0 based index indicating the Endpoint on device.
  
 ### -field RequestedSiop
+TBD
  
 ### -field Alignment
- 
+TBD 
 
 ## -remarks
 

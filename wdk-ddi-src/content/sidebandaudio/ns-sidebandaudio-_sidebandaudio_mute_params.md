@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: ae031886-fe99-427e-b24e-a7ae46c33956
 ms.author: windowsdriverdev
-ms.date: 09/06/2018
+ms.date: 09/07/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,7 +47,7 @@ Describes the endpoint index and mute value.
 0 based index indicating the Endpoint on device.
  
 ### -field Immediate
-Indicates whether IOCTL current value is requested or IRP should complete upon next change in value
+Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Channel
 TBD

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: b33cc6b7-153f-442a-bc3c-cc3e1c9e04e0
 ms.author: windowsdriverdev
-ms.date: 09/06/2018
+ms.date: 09/07/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,15 +38,18 @@ targetos: Windows
 # _SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure
 
 ## -description
-
+Describes the endpoint index and Device Error NTSTATUS.
 
 ## -struct-fields
 
 ### -field EpIndex
+0 based index indicating the Endpoint on device.
  
 ### -field Immediate
+Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Status
+Indicates status of stream including cause of any failure.
  
 
 ## -remarks

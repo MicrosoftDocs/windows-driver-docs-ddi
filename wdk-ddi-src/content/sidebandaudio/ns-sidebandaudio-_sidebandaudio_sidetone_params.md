@@ -43,13 +43,16 @@ Describes the endpoint index and sidetone value.
 ## -struct-fields
 
 ### -field EpIndex
+0 based index indicating the Endpoint on device.
  
 ### -field Immediate
+Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Channel
+ Sidetone Volume and Mute per channel. Set as ULONG(-1) if channel specific sidetone values are not required.
  
 ### -field Sidetone
- 
+TBD 
 
 ## -remarks
 
