@@ -62,7 +62,7 @@ The <b>CWiauPropertyList</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-~cwiaupropertylist">~CWiauPropertyList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-~cwiaupropertylist">~CWiauPropertyList</a>
 </td>
 <td align="left" width="63%">
 The <b>~CWiauPropertyList</b> method is the destructor for the <b>CWiauPropertyList</b> class.
@@ -71,7 +71,7 @@ The <b>~CWiauPropertyList</b> method is the destructor for the <b>CWiauPropertyL
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-cwiaupropertylist">CWiauPropertyList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-cwiaupropertylist">CWiauPropertyList</a>
 </td>
 <td align="left" width="63%">
 The <b>CWiauPropertyList</b> method is the constructor for the <b>CWiauPropertyList</b> class.
@@ -80,7 +80,7 @@ The <b>CWiauPropertyList</b> method is the constructor for the <b>CWiauPropertyL
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-defineproperty">DefineProperty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-defineproperty">DefineProperty</a>
 </td>
 <td align="left" width="63%">
 The <b>DefineProperty</b> method adds a property definition to a property list object.
@@ -89,7 +89,7 @@ The <b>DefineProperty</b> method adds a property definition to a property list o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-getpropid">GetPropId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-getpropid">GetPropId</a>
 </td>
 <td align="left" width="63%">
 The <b>GetPropId</b> method finds the property ID for a property, given its index in the property list.
@@ -98,7 +98,7 @@ The <b>GetPropId</b> method finds the property ID for a property, given its inde
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-init">Init</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-init">Init</a>
 </td>
 <td align="left" width="63%">
 The <b>Init</b> method initializes a property list object.
@@ -107,7 +107,7 @@ The <b>Init</b> method initializes a property list object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-lookuppropid">LookupPropId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-lookuppropid">LookupPropId</a>
 </td>
 <td align="left" width="63%">
 The <b>LookupPropId</b> method finds a property's index, given its property ID.
@@ -116,7 +116,7 @@ The <b>LookupPropId</b> method finds a property's index, given its property ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-sendtowia">SendToWia</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-sendtowia">SendToWia</a>
 </td>
 <td align="left" width="63%">
 The <b>SendToWia</b> method calls the WIA service to define all of the properties currently contained in the property list object.
@@ -125,7 +125,7 @@ The <b>SendToWia</b> method calls the WIA service to define all of the propertie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setaccesssubtype(int_ulong_ulong)">SetAccessSubType(INT,ULONG,ULONG)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setaccesssubtype(int_ulong_ulong)">SetAccessSubType(INT,ULONG,ULONG)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetAccessSubType</b> method resets a property's access and subtype.
@@ -134,7 +134,7 @@ The <b>SetAccessSubType</b> method resets a property's access and subtype.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_long)">SetCurrentValue(INT,LONG)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_long)">SetCurrentValue(INT,LONG)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetCurrentValue(INT,LONG)</b> method sets the current value of a property of type <b>LONG</b>, and sets its type to <b>VT_I4</b>.
@@ -143,7 +143,7 @@ The <b>SetCurrentValue(INT,LONG)</b> method sets the current value of a property
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_bstr)">SetCurrentValue(INT,BSTR)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_bstr)">SetCurrentValue(INT,BSTR)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetCurrentValue(INT,BSTR)</b> method sets the current value of a property of type <b>BSTR</b>, and sets its type to <b>VT_BSTR</b>.
@@ -152,7 +152,7 @@ The <b>SetCurrentValue(INT,BSTR)</b> method sets the current value of a property
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_float)">SetCurrentValue(INT,FLOAT)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_float)">SetCurrentValue(INT,FLOAT)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetCurrentValue(INT,FLOAT)</b> method sets the current value of a property of type <b>FLOAT</b>, and sets its type to <b>VT_R4</b>.
@@ -161,7 +161,7 @@ The <b>SetCurrentValue(INT,FLOAT)</b> method sets the current value of a propert
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_clsid)">SetCurrentValue(INT,CLSID)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_clsid)">SetCurrentValue(INT,CLSID)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetCurrentValue(INT,CLSID)</b> method sets the current value of a property of type <b>CLSID</b>, and sets its type to <b>VT_CLSID</b>.
@@ -170,7 +170,7 @@ The <b>SetCurrentValue(INT,CLSID)</b> method sets the current value of a propert
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_psystemtime)">SetCurrentValue(INT,PSYSTEMTIME)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_psystemtime)">SetCurrentValue(INT,PSYSTEMTIME)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetCurrentValue(INT,PSYSTEMTIME)</b> method sets the current value of a property of type <b>PSYSTEMTIME</b>, and sets its type to <b>VT_UI2</b> | <b>VT_VECTOR</b>.
@@ -179,7 +179,7 @@ The <b>SetCurrentValue(INT,PSYSTEMTIME)</b> method sets the current value of a p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_byte_int)">SetCurrentValue(INT,BYTE,INT)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setcurrentvalue(int_byte_int)">SetCurrentValue(INT,BYTE,INT)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetCurrentValue(INT,BYTE,INT)</b> method sets the current value of a property consisting of an array of bytes, and sets its type to <b>VT_UI1</b> | <b>VT_VECTOR</b>.
@@ -197,7 +197,7 @@ The <b>SetValidValues(INT,LONG,LONG,LONG)</b> method sets the type, as well as d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_long_long_long)">SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_long_long_long)">SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)</b> method sets the type, as well as default, current, and valid values for a <b>LONG</b> property associated with a range of values. The method also sets the property type to <b>VT_I4</b> and subtype to <b>WIA_PROP_RANGE</b>.
@@ -233,7 +233,7 @@ The <b>SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)</b> method sets the typ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_int_pfloat)">SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_int_pfloat)">SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)</b> method sets the type, as well as default, current, and valid values for a <b>FLOAT</b> property associated with a list of values. The method also sets the property type to <b>VT_R4</b> and subtype to <b>WIA_PROP_LIST</b>.
@@ -242,7 +242,7 @@ The <b>SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)</b> method sets the type, as w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_clsid_clsid_int_clsid)">SetValidValues(INT,CLSID,CLSID,INT,CLSID)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_clsid_clsid_int_clsid)">SetValidValues(INT,CLSID,CLSID,INT,CLSID)</a>
 </td>
 <td align="left" width="63%">
 The <b>SetValidValues(INT,CLSID,CLSID,INT,CLSID)</b> method sets the type, as well as default, current, and valid values for a <b>CLSID</b> property associated with a list of values. The method also sets the property type to <b>VT_CLSID</b> and subtype to <b>WIA_PROP_LIST</b>.

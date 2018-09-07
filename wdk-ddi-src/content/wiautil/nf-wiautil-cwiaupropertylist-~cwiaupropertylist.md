@@ -7,7 +7,7 @@ old-location: image\cwiaupropertylist__cwiaupropertylist.htm
 tech.root: image
 ms.assetid: 8b847c3e-f773-44d0-a033-3e40bc2e01fc
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 9/7/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],~CWiauPropertyList method, CWiauPropertyList.~CWiauPropertyList, CWiauPropertyList::~CWiauPropertyList, image.cwiaupropertylist__cwiaupropertylist, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, wiautil/CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], ~CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -71,15 +71,6 @@ This method does not return a value.
 
 ## -see-also
 
+[CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
-
-
-<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540389">CWiauPropertyList::CWiauPropertyList</a>
- 
-
- 
-
+[CWiauPropertyList::CWiauPropertyList](nf-wiautil-cwiaupropertylist-cwiaupropertylist)
