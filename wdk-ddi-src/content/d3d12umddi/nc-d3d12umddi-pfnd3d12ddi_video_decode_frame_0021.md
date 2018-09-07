@@ -75,24 +75,12 @@ The submission ID is a monotonically increasing integer value.  The value passed
 
 ### -param *pOutputStreamParameters
 
+The output surface and output parameters.  For more information, see the <a href="https://msdn.microsoft.com/4179447D-481F-4EC3-922C-4DFE3F5D768F">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
 ### -param *pInputStreamParameters
 
-
-
-
-
-
-
-
-#### - pInputStreamArguments
-
 The input bitstream, parameters, reference frames, and other input parameters for the decode operation.  For more information, see the <a href="https://msdn.microsoft.com/B956626C-B5D7-4217-A90A-EC7E436DF6C0">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a> structure.
 
-
-#### - pOutputStreamArguments
-
-The output surface and output parameters.  For more information, see the <a href="https://msdn.microsoft.com/4179447D-481F-4EC3-922C-4DFE3F5D768F">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
 
 ## -returns

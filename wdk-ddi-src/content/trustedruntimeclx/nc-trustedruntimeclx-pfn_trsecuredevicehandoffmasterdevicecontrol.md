@@ -76,7 +76,7 @@ WDFAPI PfnTrsecuredevicehandoffmasterdevicecontrol
 
 ## -returns
 
-Returns WDFAPI that ...
+Returns WDFAPI.
 
 ## -remarks
 

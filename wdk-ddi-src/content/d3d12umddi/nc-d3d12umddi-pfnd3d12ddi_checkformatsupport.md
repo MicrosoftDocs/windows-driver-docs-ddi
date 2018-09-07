@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKFORMATSUPPORT
 title: PFND3D12DDI_CHECKFORMATSUPPORT
 author: windows-driver-content
-description:
+description: Implemented by the client driver to check the format support.
 ms.assetid: b05a2e1a-5839-4a5e-83c5-67bfd41287b0
 ms.author: windowsdriverdev
 ms.date:
@@ -70,11 +70,17 @@ PFND3D12DDI_CHECKFORMATSUPPORT
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE:
-### -param DXGI_FORMAT:
-### -param *:
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
 
+### -param DXGI_FORMAT
+
+A DXGI_FORMAT.
+
+### -param *
+
+Pointer to a UINT.
 
 ## -returns
 

@@ -65,7 +65,7 @@ The hardware device being processed.
 
 ### -param hDrvCryptoSession
 
-The crypto session
+The crypto session.
 
 
 ## -returns

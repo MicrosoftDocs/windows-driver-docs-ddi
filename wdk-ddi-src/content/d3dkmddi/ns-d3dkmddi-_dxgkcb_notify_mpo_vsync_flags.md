@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
-title: "_DXGKCB_NOTIFY_MPO_VSYNC_FLAGS"
+title: _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
 author: windows-driver-content
 description: A structure containing the flags set by the driver to process a flip entry.
 old-location: display\dxgkcb_notify_mpo_vsync_flags.htm

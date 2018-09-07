@@ -61,15 +61,8 @@ The PFND3D12DDI_OPENADAPTER function creates a graphics adapter object that is r
 ### -param *
 
 
-
-
-
-
-
-
-#### - pOpenData [in, out]
-
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt779069">D3D12DDIARG_OPENADAPTER</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
+
 
 
 ## -returns

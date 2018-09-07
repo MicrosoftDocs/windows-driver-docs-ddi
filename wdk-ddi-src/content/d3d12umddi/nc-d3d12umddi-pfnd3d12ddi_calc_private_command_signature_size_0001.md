@@ -73,17 +73,17 @@ PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001
 
 A handle to the display device (graphics context).
 
-### -param *: 
+### -param * 
 
 Pointer to a D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure that contains the arguments to calculate a command signature size.
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns SIZE_T.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

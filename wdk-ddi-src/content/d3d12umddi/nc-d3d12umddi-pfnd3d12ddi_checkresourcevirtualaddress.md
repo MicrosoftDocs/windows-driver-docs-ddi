@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
 title: PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
 author: windows-driver-content
-description: 
+description: Check resource virtual address.
 ms.assetid: e54aa0b0-c2ef-44db-9053-3ceeb71cf9a8
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Check resource virtual address.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HRESOURCE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HRESOURCE 
 
 
 
 ## -returns
 
-Returns D3D12DDI_GPU_VIRTUAL_ADDRESS that ...
+Returns D3D12DDI_GPU_VIRTUAL_ADDRESS.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

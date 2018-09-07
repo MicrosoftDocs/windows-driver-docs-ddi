@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_OFFERRESOURCES
 title: PFND3D12DDI_OFFERRESOURCES
 author: windows-driver-content
-description: 
+description: Offer resources.
 ms.assetid: 794a29be-a6e8-4548-9de8-8230cb781cf8
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to offer resources. 
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_OFFERRESOURCES
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_OFFERRESOURCES structure.
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

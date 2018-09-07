@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_PHYSICAL_MEMORY_RANGE
 title: _DXGK_PHYSICAL_MEMORY_RANGE
 author: windows-driver-content
-description:
+description: The physical memory range.
 ms.assetid: 915fa8ff-3726-4166-9d7a-7e342c685bdd
 ms.author: windowsdriverdev
 ms.date:
@@ -40,9 +40,6 @@ tech.root: display
 # _DXGK_PHYSICAL_MEMORY_RANGE structure
 
 ## -description
-
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 The physical memory range.
 

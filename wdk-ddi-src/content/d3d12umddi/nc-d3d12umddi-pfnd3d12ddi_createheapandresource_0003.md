@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 author: windows-driver-content
-description: 
+description: Used to simultaneously create a heap and resource.
 ms.assetid: 478dfbcd-4472-4469-bd6e-66d6f7b45a3a
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Used to simultaneously create a heap and resource.
 
 ## -prototype
 
@@ -74,23 +74,36 @@ PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
-### -param D3D12DDI_HHEAP: 
-### -param D3D12DDI_HRTRESOURCE: 
-### -param *: 
-### -param *: 
-### -param D3D12DDI_HRESOURCE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
+
+Arguments used to create a heap.
+
+### -param D3D12DDI_HHEAP 
+
+A handle to a heap.
+
+### -param D3D12DDI_HRTRESOURCE 
+
+The handle of the resource for the driver to use when it calls back into the runtime.
+
+### -param * 
+
+Arguments used to create a resource.
+
+### -param * 
+
+Used to clear the values of the resource.
+
+### -param D3D12DDI_HRESOURCE 
+
+The handle of the resource.
 
 
 
 ## -returns
 
-Returns HRESULT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns HRESULT.

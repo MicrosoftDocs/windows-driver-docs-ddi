@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_RECORDER_0040
 title: PFND3D12DDI_CREATE_COMMAND_RECORDER_0040
 author: windows-driver-content
-description:
+description: Create a command to start recording data.
 ms.assetid: 24492843-f40e-4761-b5a5-fe904aafb710
 ms.author: windowsdriverdev
 ms.date:
@@ -78,7 +78,7 @@ A handle to the display device (graphics context).
 
 Pointer to a D3D12DDIARG_CREATE_COMMAND_RECORDER_0040 structure that describes the parameters that the user-mode display driver uses to create a command recorder.
 
-### -param D3D12DDI_HCOMMANDRECORDER_0040:
+### -param D3D12DDI_HCOMMANDRECORDER_0040
 
 The command recorder.
 

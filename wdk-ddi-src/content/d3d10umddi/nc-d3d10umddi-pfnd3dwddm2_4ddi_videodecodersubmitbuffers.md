@@ -2,7 +2,7 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
 title: PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
 author: windows-driver-content
-description:
+description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 ms.assetid: c5e55baf-a822-42ce-ac97-830873b75da0
 ms.author: windowsdriverdev
 ms.date:
@@ -71,21 +71,21 @@ PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
 
 ## -parameters
 
-### -param hDevice [in]
+### -param hDevice 
 
-A handle to the display device (graphics context).
+[in] A handle to the display device (graphics context).
 
-### -param hDecode [in]
+### -param hDecode
 
-A handle to the video decoder object that was created through a call to the CreateVideoDecoder function.
+[in] A handle to the video decoder object that was created through a call to the CreateVideoDecoder function.
 
-### -param BufferCount [in]
+### -param BufferCount
 
-The number of buffers in the array that is referenced by the pBufferDesc parameter.
+[in] The number of buffers in the array that is referenced by the pBufferDesc parameter.
 
-### -param *pBufferDesc [in]
+### -param *pBufferDesc
 
-A pointer to an array of one or more D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structures. For more information, see the Remarks section.
+[in] A pointer to an array of one or more D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structures. For more information, see the Remarks section.
 
 
 
@@ -108,7 +108,8 @@ Each D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structure includes the following da
 * A D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure that specifies which bytes of the frame buffer are encrypted.
 * A pointer to a D3D11_1DDI_AES_CTR_IV structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
 
->**Notes**  If the decode buffer does not contain any encrypted data, this pointer is set to NULL. This function does not honor a Microsoft Direct3D 11 predicate that may have been set.
+> [!NOTE]
+> If the decode buffer does not contain any encrypted data, this pointer is set to NULL. This function does not honor a Microsoft Direct3D 11 predicate that may have been set.
 
 
 

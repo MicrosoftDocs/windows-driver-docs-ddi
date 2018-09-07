@@ -69,8 +69,11 @@ PFND3D12DDI_CALC_PRIVATE_PIPELINE_LIBRARY_SIZE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
 
 
 

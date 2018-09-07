@@ -2,7 +2,7 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
 title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
 author: windows-driver-content
-description:
+description: Includes HDR metadata to allow the video processor to optimize video for display.
 ms.assetid: c7a687ae-1877-4565-9dd7-618e8cec81ff
 ms.author: windowsdriverdev
 ms.date:
@@ -69,26 +69,26 @@ VOID Pfnd3dwddm21DdiVideoprocessorsetoutputhdrmetadata
 
 ## -parameters
 
-### -param hDevice:
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-### -param hVideoProcessor:
+### -param hVideoProcessor
 
 A handle to the video processor object.
 
-### -param Type:
+### -param Type
 
 Indicates the type of the HDR metadata provided.
 
-### -param Size:
+### -param Size
 
 Indicates the type of the HDR metadata provided.
 
 * For D3DDDI_HDR_METADATA_TYPE_NONE, the size should be 0.
 * For D3DDDI_HDR_METADATA_TYPE_HDR10, the size is sizeof(D3DDDI_HDR_METADATA_HDR10).
 
-### -param *pMetaData:
+### -param *pMetaData
 
 Points to a structure containing the HDR metadata.
 

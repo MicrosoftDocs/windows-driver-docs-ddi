@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_BLOCKLIST_INFO
 title: _D3DKMT_BLOCKLIST_INFO
 author: windows-driver-content
-description:
+description: Contains information about the display block list.
 ms.assetid: 3b1bedab-5329-41ae-972e-85ff10c10c09
 ms.author: windowsdriverdev
 ms.date:

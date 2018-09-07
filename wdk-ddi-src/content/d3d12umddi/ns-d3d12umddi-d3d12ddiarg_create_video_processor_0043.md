@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
 title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
 author: windows-driver-content
-description:
+description: Used to create a video processor.
 ms.assetid: ad4d456a-1dd6-4444-b8c4-877b317d559e
 ms.author: windowsdriverdev
 ms.date:

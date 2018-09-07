@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0040
 title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0040
 author: windows-driver-content
-description:
+description: The command list functions for 3D.
 ms.assetid: e2a303e2-7780-4feb-8a65-4535cee8a41a
 ms.author: windowsdriverdev
 ms.date:
