@@ -54,8 +54,13 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
+**Sample Code**
+
+```
+```
 
 ## -see-also
 

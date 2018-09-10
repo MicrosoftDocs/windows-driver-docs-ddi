@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,4 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)
