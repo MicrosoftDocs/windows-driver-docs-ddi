@@ -2,7 +2,7 @@
 UID: NS:ntddk.CORRELATION_VECTOR
 title: CORRELATION_VECTOR
 author: windows-driver-content
-description: Store the correlation vector that is used to reference events and the generated logs for diagnostic purposes.
+description: Store the [correlation vector](https://github.com/Microsoft/CorrelationVector) that is used to reference events and the generated logs for diagnostic purposes.
 old-location: kernel\correlation_vector.htm
 tech.root: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
