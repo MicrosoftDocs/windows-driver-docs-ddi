@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutexFromNtHandle
 title: D3DKMTOpenKeyedMutexFromNtHandle function
 author: windows-driver-content
-description: 
+description: Opens a keyed mutex from an NT handle to the process.
 ms.assetid: 797fe9ea-3960-4b49-88aa-cfd8929fc0fe
 ms.author: windowsdriverdev
 ms.date:

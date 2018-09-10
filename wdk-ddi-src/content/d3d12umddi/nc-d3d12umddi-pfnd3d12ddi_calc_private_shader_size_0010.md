@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0010
 title: PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0010
 author: windows-driver-content
-description: 
+description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 ms.assetid: e0dff433-c376-40a9-a69c-3e5a5e76742d
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 
 ## -prototype
 
@@ -69,18 +69,14 @@ PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
+### -param *
+
+Used to create a shader.
 
 ## -returns
 
-Returns SIZE_T that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns SIZE_T.

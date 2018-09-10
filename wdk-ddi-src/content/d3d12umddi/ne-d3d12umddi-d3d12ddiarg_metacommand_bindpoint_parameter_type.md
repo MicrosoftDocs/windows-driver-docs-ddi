@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
 title: D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
 author: windows-driver-content
-description:
+description: The available meta-command bind point parameter types.
 ms.assetid: bad015e6-e95f-43e4-b139-4e8b4555a089
 ms.author: windowsdriverdev
 ms.date:

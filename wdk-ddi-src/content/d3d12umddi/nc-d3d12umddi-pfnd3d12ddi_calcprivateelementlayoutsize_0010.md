@@ -69,18 +69,21 @@ PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
 
 
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns SIZE_T.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

@@ -69,13 +69,10 @@ The physical adapter of the device to which this operation applies.
 
 ### -param *
 
-
-
-
-
-#### - pConfiguration
+*pConfiguration*
 
 The decode configuration for the list of formats.  For more information, see the <a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
+
 
 
 ## -returns

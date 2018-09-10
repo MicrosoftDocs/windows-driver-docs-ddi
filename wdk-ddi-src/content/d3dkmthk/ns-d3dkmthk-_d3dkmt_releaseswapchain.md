@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_RELEASESWAPCHAIN
 title: _D3DKMT_RELEASESWAPCHAIN
 author: windows-driver-content
-description:
+description: Release the swap chain.
 ms.assetid: bce1cc2a-5e38-4a35-b2a2-44adbf5e0117
 ms.author: windowsdriverdev
 ms.date:

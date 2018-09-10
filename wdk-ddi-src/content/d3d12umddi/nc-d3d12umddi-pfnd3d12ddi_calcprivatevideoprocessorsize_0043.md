@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043
 title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043
 author: windows-driver-content
-description:
+description: Used to calculate the size of a video processor.
 ms.assetid: d3793818-114a-4668-af13-b2eedbb39577
 ms.author: windowsdriverdev
 ms.date:
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-This method is used to calculate the driver object size. The D3D runtime allocates memory for storing the drivers CPU object that represents the video processor.
+This method is used to calculate the driver object size. The Direct3D runtime allocates memory for storing the drivers CPU object that represents the video processor.
 
 ## -prototype
 

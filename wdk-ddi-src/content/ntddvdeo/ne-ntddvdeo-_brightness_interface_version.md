@@ -2,7 +2,7 @@
 UID: NE:ntddvdeo._BRIGHTNESS_INTERFACE_VERSION
 title: _BRIGHTNESS_INTERFACE_VERSION
 author: windows-driver-content
-description:
+description: Specifies the brightness interface versions.
 ms.assetid: 2d13834a-bed3-4906-9a5c-778864173641
 ms.author: windowsdriverdev
 ms.date:

@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
 title: PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
 author: windows-driver-content
-description: 
+description: Calculates the driver's root signature size. 
 ms.assetid: 34ca9f84-67e3-451a-afda-95aa62f221ea
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Calculates the driver's root signature size. 
 
 ## -prototype
 
@@ -69,18 +69,14 @@ PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
+### -param * 
+
+Used to create a root signature.
 
 ## -returns
 
-Returns SIZE_T that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns SIZE_T.

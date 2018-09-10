@@ -2,7 +2,7 @@
 UID: NC:dispmprt.DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
 title: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
 author: windows-driver-content
-description:
+description: Implemented by the client driver to set the level of optimization used to control the brightness of a panel.
 ms.assetid: 07bffb8b-08d5-4f24-bdf3-c3a4648e8724
 ms.author: windowsdriverdev
 ms.date:

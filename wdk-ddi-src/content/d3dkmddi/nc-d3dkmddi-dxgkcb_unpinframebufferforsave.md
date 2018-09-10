@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_UNPINFRAMEBUFFERFORSAVE
 title: DXGKCB_UNPINFRAMEBUFFERFORSAVE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to release the mapping that was set by DXGKCB_PINFRAMEBUFFERFORSAVE.
 ms.assetid: 403a4aea-21e8-4a97-8314-c85bac6555ef
 ms.author: windowsdriverdev
 ms.date:

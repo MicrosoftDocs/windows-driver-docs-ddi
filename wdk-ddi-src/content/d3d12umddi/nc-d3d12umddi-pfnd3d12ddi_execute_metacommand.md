@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_EXECUTE_METACOMMAND
 title: PFND3D12DDI_EXECUTE_METACOMMAND
 author: windows-driver-content
-description:
+description: Implemented by the client driver to execute the meta-command.
 ms.assetid: 0ba97840-c316-4905-b65b-f103da9d5fe4
 ms.author: windowsdriverdev
 ms.date:

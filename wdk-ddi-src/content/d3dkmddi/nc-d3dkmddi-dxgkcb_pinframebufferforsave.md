@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_PINFRAMEBUFFERFORSAVE
 title: DXGKCB_PINFRAMEBUFFERFORSAVE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to pin down the entire frame buffer at once.
 ms.assetid: ed0ba03e-321c-4d52-827f-578a5a0e83f3
 ms.author: windowsdriverdev
 ms.date:
