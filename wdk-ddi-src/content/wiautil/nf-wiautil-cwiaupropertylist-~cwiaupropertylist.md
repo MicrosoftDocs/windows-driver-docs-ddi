@@ -46,31 +46,19 @@ req.typenames:
 
 # CWiauPropertyList::~CWiauPropertyList
 
-
 ## -description
 
-
-The <b>CWiauPropertyList::~CWiauPropertyList</b> method is the destructor for the <b>CWiauPropertyList</b> class.
-
+The **CWiauPropertyList::~CWiauPropertyList** method is the destructor for the **CWiauPropertyList** class.
 
 ## -parameters
 
 
-
-
-
-
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
-[CWiauPropertyList::CWiauPropertyList](nf-wiautil-cwiaupropertylist-cwiaupropertylist)
+[CWiauPropertyList::CWiauPropertyList](nf-wiautil-cwiaupropertylist-cwiaupropertylist.md)
