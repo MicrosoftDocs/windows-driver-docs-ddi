@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ff1e0637-59d8-4c5f-8d18-3e53da13d701
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::IsEnabled, IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled, IDataModelScriptDebugBreakpoint::IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+The IsEnabled method returns whether or not the breakpoint is enabled. A disabled breakpoint still exists and is still in the list of breakpoints for the script, it is merely "turned off" temporarily. All breakpoints should be created in the enabled state. 
 
 ## -parameters
 
 
 ## -returns
-This method returns bool.
+This method returns bool. The value is an indication of whether the breakpoint is enabled or not.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugBreakpoint interface](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md)

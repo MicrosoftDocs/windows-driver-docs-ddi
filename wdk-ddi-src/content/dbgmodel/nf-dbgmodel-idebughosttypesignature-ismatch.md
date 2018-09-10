@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c263f7b8-2612-4ef5-8eb7-35379fbadf4d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDebugHostTypeSignature::IsMatch, IsMatch, IDebugHostTypeSignature.IsMatch, IDebugHostTypeSignature::IsMatch, IDebugHostTypeSignature.IsMatch
 req.header: dbgmodel.h
@@ -44,19 +44,51 @@ targetos: Windows
 
 ## -description
 
-TBD
+The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature. If it does, an indication of this is returned as well as an enumerator which will indicate all of the specific portions of the type instance (as symbols) which matched wildcards in the type signature. 
 
 ## -parameters
 
 ### -param type
+The type instance to compare against the type signature.
 
 ### -param isMatch
+An indication of whether the type instance matches the type signature is returned here.
 
 ### -param wildcardMatches
+If the type instance matches the type signature, an enumerator will be returned here which will enumerate all the specific portions of the type instance (as symbols) which matched wildcards in the type signature.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
+**Sample Code**
+
+```
+ComPtr<IDebugHostSymbols> spSym; /* get the host's symbols interface */
+ComPtr<IDebugHostType> spType;   /* get a type */
+
+ComPtr<IDebugHostTypeSignature> spSig;
+if (SUCCEEDED(spSym->CreateTypeSignature(L"MyTemplateType<*>", 
+                                         nullptr, 
+                                         &spSig)))
+{
+    bool isMatch;
+    ComPtr<IDebugHostSymbolEnumerator> spWildcardEnum;
+    if (SUCCEEDED(spSig->IsMatch(spType.get(), &isMatch, &spWildcardEnum)))
+    {
+        // isMatch will contain whether the type matches the signature (whether 
+        // it is a MyTemplateType template with *ANY* template arguments
+        if (isMatch)
+        {
+            // spWildcardEnum will contain what the '*' in 'MyTemplateType<*>' 
+            // matched against.  This may be one or more template arguments in 
+            // linear order.  An IDebugHostType would be present for type arguments.
+        }
+    }
+}
+```
 
 ## -see-also
+
+[IDebugHostTypeSignature interface](nn-dbgmodel-idebughosttypesignature.md)
