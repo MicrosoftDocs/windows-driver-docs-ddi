@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 7c0b15e9-abd8-4b17-abc8-2212205875fa
 ms.author: windowsdriverdev
-ms.date: 08/22/2018
+ms.date: 09/07/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetFunctionCallingConvention, GetFunctionCallingConvention, IDebugHostType.GetFunctionCallingConvention, IDebugHostType::GetFunctionCallingConvention, IDebugHostType.GetFunctionCallingConvention
 req.header: dbgmodel.h
@@ -61,6 +61,13 @@ This method returns HRESULT that indicates success or failure.
 **Sample Code**
 
 ```
+ComPtr<IDebugHostModule> spType; /* get a type for some function type (see FindTypeByName) */
+
+CallingConventionKind conv;
+if (SUCCEEDED(spType->GetCallingConvention(&conv)))
+{
+    // conv indicates the calling convention (e.g.: cdecl, thiscall, etc...)
+}
 ```
 
 ## -see-also
