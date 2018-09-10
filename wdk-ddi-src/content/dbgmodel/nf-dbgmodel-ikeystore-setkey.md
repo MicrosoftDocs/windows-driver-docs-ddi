@@ -64,7 +64,7 @@ This method returns HRESULT that indicates success or failure.
 ## -remarks
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager; /* get the data model manager */
 ComPtr<IKeyStore> spMetadata;        /* get or create a metadata store */
 

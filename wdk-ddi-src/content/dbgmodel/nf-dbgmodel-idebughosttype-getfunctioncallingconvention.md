@@ -60,7 +60,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostModule> spType; /* get a type for some function type (see FindTypeByName) */
 
 CallingConventionKind conv;

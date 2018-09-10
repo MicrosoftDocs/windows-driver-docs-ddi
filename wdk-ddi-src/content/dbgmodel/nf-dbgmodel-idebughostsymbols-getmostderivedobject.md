@@ -73,7 +73,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHost> spHost;           /* get the host */
 ComPtr<IDebugHostType> spStaticType; /* get the static (compile time) type of 
                                      some object (see IModelObject::GetTargetInfo) */

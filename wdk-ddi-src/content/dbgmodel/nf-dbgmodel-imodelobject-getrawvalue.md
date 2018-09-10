@@ -75,7 +75,7 @@ The searchFlags argument is a set of bit flags specified by the RawSearchFlags e
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spMessage; /* get a tagMSG */
 
 // Get the 'message' field of the tagMSG structure:

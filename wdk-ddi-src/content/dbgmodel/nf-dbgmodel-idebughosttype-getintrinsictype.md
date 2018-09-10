@@ -70,7 +70,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a type (see FindTypeByName) for something 
                                   which is intrinsic (e.g.: an enum or ordinal) */
 

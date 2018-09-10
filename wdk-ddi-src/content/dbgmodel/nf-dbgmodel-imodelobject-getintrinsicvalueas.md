@@ -62,7 +62,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject; /* get from somewhere */
 
 // Unbox as VT_I4.  This will fail if the value does not FIT into an int (I4):

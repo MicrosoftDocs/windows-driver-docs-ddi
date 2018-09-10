@@ -48,7 +48,7 @@ The AddParentModel method adds a new parent model to the given object. Such a mo
 
 When a parent model has a context adjustment, the core data model will perform this adjustment automatically on behalf of the caller. In effect, for an object instance with a parent model parent having a context adjustor to newContext, a call of 
 
-```
+```cpp
 instance->GetKeyValue("someKey", &pValue, nullptr);
 ```
 
@@ -75,7 +75,7 @@ This method returns HRESULT that indicates success or failure.
 
 ** Code Sample**
 
-```
+```cpp
 
 
 ComPtr<IDataModelManager> spManager; /* get the data model manager */

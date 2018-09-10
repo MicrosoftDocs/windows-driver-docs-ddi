@@ -58,7 +58,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a type (see FindTypeByName) */
 
 ULONG64 size;

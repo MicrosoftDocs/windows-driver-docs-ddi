@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: a70649c0-d246-4132-b526-b71bda410dbf
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::EnumerateChildren, EnumerateChildren, IDebugHostConstant.EnumerateChildren, IDebugHostConstant::EnumerateChildren, IDebugHostConstant.EnumerateChildren
 req.header: dbgmodel.h
@@ -60,3 +60,4 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+[IDebugHostConstant interface](nn-dbgmodel-idebughostconstant.md)

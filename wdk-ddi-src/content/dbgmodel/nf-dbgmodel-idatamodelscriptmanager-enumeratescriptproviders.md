@@ -58,7 +58,7 @@ This method returns HRESULT that indicates success or failure.
 
 The EnumerateScriptProviders method will return an enumerator of the following form: 
 
-```
+```cpp
 DECLARE_INTERFACE_(IDataModelScriptProviderEnumerator, IUnknown)
 {
     STDMETHOD(Reset)() PURE;

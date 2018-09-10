@@ -152,7 +152,7 @@ IDataModelManager interits from IUnknown.
 
 The following set of methods is used to create new objects or to box values into an IModelObject -- the core interface of the data model. 
 
-```
+```cpp
 STDMETHOD(CreateNoValue)(_Out_ IModelObject** object) PURE;
 
 STDMETHOD(CreateErrorObject)(_In_ HRESULT hrError, 

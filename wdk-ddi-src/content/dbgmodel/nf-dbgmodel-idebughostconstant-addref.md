@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDebugHostConstant interface](nn-dbgmodel-idebughostconstant.md)

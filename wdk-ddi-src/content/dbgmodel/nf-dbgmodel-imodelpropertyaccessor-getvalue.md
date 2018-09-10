@@ -66,7 +66,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 // The full implementation class is shown for clarity.
 class MyReadOnlyProperty :
     public Microsoft::WRL::RuntimeClass<

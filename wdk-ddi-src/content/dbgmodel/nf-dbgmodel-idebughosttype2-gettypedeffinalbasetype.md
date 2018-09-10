@@ -46,7 +46,7 @@ targetos: Windows
 
 The GetTypedefFinalBaseType method will return the final type that the typedef is a definition for. If the typedef is a definition of another typedef, this will continue to follow the definition chain until it reaches a type which is not a typedef and that type will be returned. In this example: 
 
-```
+```cpp
 typedef MYSTRUCT *PMYSTRUCT;
 typedef PMYSTRUCT PTRMYSTRUCT;
 ```
@@ -65,7 +65,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a typedef type (only FindTypeByName since 
                                   the compiler usually emits base types for data) */
 

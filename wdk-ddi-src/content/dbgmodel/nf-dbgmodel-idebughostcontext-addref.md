@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5d37e8f5-78c2-48c5-bdd0-14eecaf12725
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostContext::AddRef, AddRef, IDebugHostContext.AddRef, IDebugHostContext::AddRef, IDebugHostContext.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,4 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+[IDebugHostContext interface](nn-dbgmodel-idebughostcontext.md)

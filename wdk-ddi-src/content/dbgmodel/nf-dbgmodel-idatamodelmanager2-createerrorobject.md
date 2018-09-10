@@ -69,7 +69,7 @@ This method returns HRESULT.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager; /* get the data model manager */
 
 ComPtr<IModelObject> spError;

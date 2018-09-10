@@ -62,7 +62,7 @@ The EnumerateKeys method behaves similar to the EnumerateKeyValues method except
 
 **Code Sample**
 
-```
+```cpp
 
 ```
 

@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDebugHost> spHost;      // get the debug host
 ComPtr<IModelObject> spObject;  // get an object within a process (or a process object)
 

@@ -46,11 +46,11 @@ targetos: Windows
 
 The GetTypedefBaseType method will return what the immediate definition of the typedef. In this examples: 
 
-```
+```cpp
 typedef MYSTRUCT *PMYSTRUCT;
 typedef PMYSTRUCT PTRMYSTRUCT;
 
-```
+```cpp
 this method will return MYSTRUCT * for PMYSTRUCT and PMYSTRUCT for PTRMYSTRUCT. For more information, see [IDebugHostType2::IsTypedef](nf-dbgmodel-idebughosttype2-istypedef.md). 
 
 
@@ -67,7 +67,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a typedef type (only FindTypeByName since 
                                   the compiler usually emits base types for data) */
 

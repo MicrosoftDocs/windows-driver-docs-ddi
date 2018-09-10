@@ -65,7 +65,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IKeyStore> spMetadata; /* get a metadata store */
 
 ComPtr<IModelObject> spRadix;

@@ -67,7 +67,7 @@ This method returns HRESULT.
 ## -remarks
 **Code Sample**
 
-```
+```cpp
 ```
 
 ## -see-also

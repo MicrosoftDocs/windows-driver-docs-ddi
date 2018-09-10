@@ -60,7 +60,7 @@ This method returns HRESULT.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a type for a typedef (only FindTypeByName 
                                   since the compiler usually only emits base types 
                                   in the symbols for data) */
@@ -79,7 +79,7 @@ if (SUCCEEDED(spType.As(&spType2)))
 
 Any type which is a typedef will behave as if the type is the final type underlying the typedef. This means that methods such as GetTypeKind will not indicate that the type is a typedef. Likewise, GetBaseType will not return the type the definition refers to. They will instead indicate behave as if they were called on the final definition underlying the typedef. As an example: 
 
-```
+```cpp
 typedef MYSTRUCT *PMYSTRUCT;
 typedef PMYSTRUCT PTRMYSTRUCT;
 ```
@@ -92,7 +92,7 @@ An IDebugHostType for 'either PMYSTRUCT or PTRMYSTRUCT will report the following
 
 The only difference here is how the typedef specific methods on IDebugHostType2 behave. Those methods are: 
 
-```
+```cpp
 STDMETHOD(IsTypedef)(_Out_ bool* isTypedef) PURE;
 
 STDMETHOD(GetTypedefBaseType)(_Out_ IDebugHostType2** baseType) PURE;

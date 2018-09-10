@@ -64,7 +64,7 @@ This method returns HRESULT that indicates success or failure. The return values
 ## -remarks
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject; /* get an object */
 ComPtr<IKeyStore> spMetadata;  /* get a key store from spObject (say 
                                   returned from GetKeyValue) */

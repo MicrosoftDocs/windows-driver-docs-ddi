@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 ## -remarks
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostTypeSignature> spSig; /* create a type signature */
 
 ULONG signatureHash;

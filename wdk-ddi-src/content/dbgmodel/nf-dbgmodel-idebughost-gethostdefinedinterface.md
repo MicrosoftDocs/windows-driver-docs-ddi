@@ -58,7 +58,7 @@ This method returns HRESULT that indicates success or failure. A host which does
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDebugHost> spHost; /* get the debug host */
 
 // Get the debug host private interface back from the host interfaces.  

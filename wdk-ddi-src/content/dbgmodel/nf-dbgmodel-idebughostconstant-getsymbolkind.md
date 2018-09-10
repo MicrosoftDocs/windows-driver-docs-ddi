@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 6d7e9ee5-7200-4ec6-a4e2-da182f9f68a1
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::GetSymbolKind, GetSymbolKind, IDebugHostConstant.GetSymbolKind, IDebugHostConstant::GetSymbolKind, IDebugHostConstant.GetSymbolKind
 req.header: dbgmodel.h
@@ -56,3 +56,4 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+[IDebugHostConstant interface](nn-dbgmodel-idebughostconstant.md)

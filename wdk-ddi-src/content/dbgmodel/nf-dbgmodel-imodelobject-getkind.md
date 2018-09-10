@@ -60,7 +60,7 @@ This method returns HRESULT that indicates success or failure. This method shoul
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject; /* acquired from somewhere */
 
 ModelObjectKind kind;

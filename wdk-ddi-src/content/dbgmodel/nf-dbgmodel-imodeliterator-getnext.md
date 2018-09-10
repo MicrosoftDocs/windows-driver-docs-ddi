@@ -72,7 +72,7 @@ This method returns HRESULT.
 
 **Sample Code**
 
-```
+```cpp
 // The full class is shown here for clarity on the iterator!  For the sake 
 // of example, this iterator produces integers from 10 to 
 // 10 + <value of 'NumElements' key> which are indexed by a linear 0-based index.

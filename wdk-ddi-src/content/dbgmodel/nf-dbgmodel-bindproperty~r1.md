@@ -67,7 +67,7 @@ This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.
 
 This sample code shows usage.
 
-```
+```cpp
 // Define a native type that we wish to project into the data model
 struct MyNativeType
 {

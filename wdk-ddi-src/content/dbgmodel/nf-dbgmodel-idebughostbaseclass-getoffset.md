@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDebugHostBaseClass> spBaseClass; /* get a base class symbol (see
                                             EnumerateChildren) */
 
