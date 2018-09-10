@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 > [!WARNING]
-> The *MiniportCheckForHangEx* and [*MiniportResetEx*](nc-ndis-miniport_reset.md) callback functions are discouraged for all NDIS 6.83 and later drivers. For more information, see [Check-for-Hang and Reset operations in NDIS 6.83 and later](https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations#check-for-hang-and-reset-operations-in-ndis-683-and-later).
+> The *MiniportResetEx* and [*MiniportCheckForHangEx*](nc-ndis-miniport_check_for_hang.md) callback functions are discouraged for all NDIS 6.83 and later drivers. For more information, see [Check-for-Hang and Reset operations in NDIS 6.83 and later](https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations#check-for-hang-and-reset-operations-in-ndis-683-and-later).
 
 
 NDIS calls an NDIS miniport driver's 
