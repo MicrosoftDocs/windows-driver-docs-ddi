@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 9c317855-e7c0-422c-b30c-93b6fa488dc7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,17 +38,20 @@ targetos: Windows
 # _SIDEBANDAUDIO_DEVICE_ERROR structure
 
 ## -description
-
+ Describes the error reported on the Device.
 
 ## -struct-fields
 
 ### -field EpIndex
- 
+Zero based index indicating the Endpoint on device.
+
 ### -field Immediate
+Indicates whether IOCTL current value is requested or IRP should complete upon next change in value. 
  
 ### -field Status
- 
+TBD
 
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)

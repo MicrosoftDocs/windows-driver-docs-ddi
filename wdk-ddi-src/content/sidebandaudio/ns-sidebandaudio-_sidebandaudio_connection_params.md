@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 15577347-4c95-4cd7-bb77-8341dbb0bae4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,17 +38,20 @@ targetos: Windows
 # _SIDEBANDAUDIO_CONNECTION_PARAMS structure
 
 ## -description
-
+ Describes the endpoint index and Connection value.
 
 ## -struct-fields
 
 ### -field EpIndex
+0 based index indicating the Endpoint on device.
  
 ### -field Immediate
- 
+Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
+
 ### -field Connected
- 
+Indicates whether the endpoint is connected or not. Could reflect jack states or wireless connection. 
 
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)

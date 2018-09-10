@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: e2f0fc99-4a73-44de-97f3-24f3a3d13b18
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/07/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,18 +39,24 @@ targetos: Windows
 
 ## -description
 
+Describes the size and type of parameter.
+
 
 ## -struct-fields
 
 ### -field ParamSet
+Parameter Set - This could be Microsoft Standard set or IHV defined.
  
 ### -field TypeId
+Type of parameter.
  
 ### -field Size
- 
+Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicate size of any extra input parameter.
+
 ### -field Alignment
- 
+TBD 
 
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)
