@@ -49,6 +49,9 @@ req.typenames:
 
 ## -description
 
+> [!WARNING]
+> The *MiniportCheckForHangEx* and [*MiniportResetEx*](nc-ndis-miniport_reset.md) callback functions are discouraged for all NDIS 6.83 and later drivers. For more information, see [Check-for-Hang and Reset operations in NDIS 6.83 and later](https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations#check-for-hang-and-reset-operations-in-ndis-683-and-later).
+
 
 NDIS calls an NDIS miniport driver's 
    <i>MiniportResetEx</i> function to initiate a reset of a network interface card (NIC). For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a> and <a href="https://msdn.microsoft.com/d5209809-039c-4ac2-afdf-1f5144307850">Miniport Driver Hardware Reset</a>.
