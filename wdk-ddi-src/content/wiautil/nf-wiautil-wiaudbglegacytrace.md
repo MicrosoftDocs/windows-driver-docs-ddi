@@ -7,7 +7,7 @@ old-location: image\wiaudbglegacytrace.htm
 tech.root: image
 ms.assetid: ccbcab46-0af9-4c21-896f-14096f1461bc
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 9/7/2018
 ms.keywords: image.wiaudbglegacytrace, wiauDbgLegacyTrace, wiauDbgLegacyTrace function [Imaging Devices], wiauFncs_a780f296-5780-4589-9aa6-1e61ebec013e.xml, wiautil/wiauDbgLegacyTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: This function is available in Windows XP and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -88,18 +88,11 @@ None
 
 
 
-The <b>wiauDbgLegacyTrace</b> function is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyTrace</b> function is identical to the [wiauDbgTrace](nf-wiautil-wiaudbgtrace.md) function except that the latter has a parameter used to identify the function or method that is active when the function is called.
 
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
- 
-
- 
-
+[wiauDbgTrace](nf-wiautil-wiaudbgtrace.md)
