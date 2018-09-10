@@ -64,36 +64,16 @@ A handle to the display device (graphics context).
 
 ### -param *
 
+The arguments used to create a pipeline state.
 
 ### -param Arg2
 
+The handle of the pipeline state.
 
 ### -param Arg3
 
+The handle of the pipeline state for the driver to use when it calls back into the runtime.
 
-
-
-
-
-
-
-#### - d3d12ddi_hdevice
-
-The hardware device being processed.
-
-
-#### - d3d12ddi_hpipelinestate
-
-Used to create a pipeline state.
-
-### -param D3D12DDI_HRTPIPELINESTATE
-
-Used to create a pipeline state.
-
-
-#### - d3d12ddiarg_create_pipeline_state_0033 [in]
-
-The arguments used to create a pipeline state.
 
 
 ## -returns

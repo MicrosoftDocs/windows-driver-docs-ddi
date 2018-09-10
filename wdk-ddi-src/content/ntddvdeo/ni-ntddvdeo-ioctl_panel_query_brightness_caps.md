@@ -2,7 +2,7 @@
 UID: NI:ntddvdeo.IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
 title: IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
 author: windows-driver-content
-description:
+description: Queries the brightness capabilities for a display panel.
 ms.assetid: e36d2980-28db-4770-acbb-db79c60049e6
 ms.author: windowsdriverdev
 ms.date:

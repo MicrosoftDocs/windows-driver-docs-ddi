@@ -2,7 +2,7 @@
 UID: NC:iddcx.PFN_IDDCXMONITORGETSRMLISTVERSION
 title: *PFN_IDDCXMONITORGETSRMLISTVERSION
 author: windows-driver-content
-description:
+description: Implemented by the client driver to retrieve the latest SRM list version stored by the GPU.
 ms.assetid: f73e9f90-0f6e-40e0-9716-b184ac90c4e7
 ms.author: windowsdriverdev
 ms.date:

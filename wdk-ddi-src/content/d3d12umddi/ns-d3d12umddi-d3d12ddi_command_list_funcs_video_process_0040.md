@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040
 title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040
 author: windows-driver-content
-description:
+description: The command list functions for video processing.
 ms.assetid: da7b5d77-77e5-4204-a84e-0e4b7da290b1
 ms.author: windowsdriverdev
 ms.date:

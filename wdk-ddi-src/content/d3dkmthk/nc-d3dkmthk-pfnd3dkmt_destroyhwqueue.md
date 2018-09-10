@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYHWQUEUE
 title: PFND3DKMT_DESTROYHWQUEUE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to destroy a hardware queue.
 ms.assetid: 4ac646f8-e8c2-4682-bbab-0e91a782e59a
 ms.author: windowsdriverdev
 ms.date:

@@ -2,7 +2,7 @@
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_TYPES
 title: _DXGK_DIAGNOSTIC_TYPES
 author: windows-driver-content
-description:
+description: A structure that contains a union of all the defined sets of diagnostic types.
 ms.assetid: 9373b413-20a5-4bee-a619-b71c0258124d
 ms.author: windowsdriverdev
 ms.date:

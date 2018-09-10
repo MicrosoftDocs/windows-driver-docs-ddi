@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATERASTERIZERSTATE_0010
 title: PFND3D12DDI_CREATERASTERIZERSTATE_0010
 author: windows-driver-content
-description: 
+description: Creates a rasterizer state.
 ms.assetid: c35b4b71-e223-485f-88e4-479663f46aef
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Creates a rasterizer state.
 
 ## -prototype
 
@@ -70,19 +70,18 @@ PFND3D12DDI_CREATERASTERIZERSTATE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
+
+Pointer to a D3D12DDI_RASTERIZER_DESC_0010 structure.
+
 ### -param D3D12DDI_HRASTERIZERSTATE: 
 
-
+A handle to a rasterizer state.
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

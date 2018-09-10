@@ -65,18 +65,6 @@ A handle to the display device (graphics context).
 ### -param *pArgs
 
 
-
-
-
-
-
-
-#### - GetPageableSize [in]
-
 Information used to get pageable size.
 
-
-#### - hDevice
-
-The handle of a device.
 

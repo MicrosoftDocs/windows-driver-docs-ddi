@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
 title: PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
 author: windows-driver-content
-description:
+description: Calculates sizes for private opened heap and resources.
 ms.assetid: af4c6fb0-a10f-4abe-8161-2df2563b76cd
 ms.author: windowsdriverdev
 ms.date:

@@ -2,7 +2,7 @@
 UID: NS:d3dumddi._D3DDDICB_QUERYADAPTERINFO2
 title: _D3DDDICB_QUERYADAPTERINFO2
 author: windows-driver-content
-description:
+description: Contains information that describes the graphics adapter.
 ms.assetid: ee97cc0b-2486-4fae-9950-af4422d9acb0
 ms.author: windowsdriverdev
 ms.date:

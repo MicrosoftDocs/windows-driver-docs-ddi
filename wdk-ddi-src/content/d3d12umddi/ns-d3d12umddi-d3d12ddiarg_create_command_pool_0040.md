@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_COMMAND_POOL_0040
 title: D3D12DDIARG_CREATE_COMMAND_POOL_0040
 author: windows-driver-content
-description:
+description: Used to create a command pool.
 ms.assetid: 55d2cbcb-1024-4e8d-a797-e269fb92b665
 ms.author: windowsdriverdev
 ms.date:

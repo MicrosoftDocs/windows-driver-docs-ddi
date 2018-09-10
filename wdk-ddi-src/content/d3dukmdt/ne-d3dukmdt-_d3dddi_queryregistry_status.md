@@ -2,7 +2,7 @@
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_STATUS
 title: _D3DDDI_QUERYREGISTRY_STATUS
 author: windows-driver-content
-description:
+description: Query registry status.
 ms.assetid: f7d2e2ff-ba33-4685-82dc-47c9d74b08d0
 ms.author: windowsdriverdev
 ms.date:

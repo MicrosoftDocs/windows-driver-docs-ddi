@@ -50,7 +50,7 @@ req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 ## -description
 
 
-TBD
+Specifies the condition for a particular microcode download.
 
 
 ## -enum-fields

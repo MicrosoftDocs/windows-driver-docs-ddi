@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002
 title: PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002
 author: windows-driver-content
-description: 
+description: Create shader resource view.
 ms.assetid: 90c30af4-5cf6-4a7e-b052-2f78a890b715
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Create shader resource view.
 
 ## -prototype
 
@@ -70,19 +70,18 @@ PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
+
+Pointer to a D3D12DDIARG_CREATE_SHADER_RESOURCE_VIEW_0002 structure.
+
 ### -param DestDescriptor: 
 
-
+A CPU descriptor handle.
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

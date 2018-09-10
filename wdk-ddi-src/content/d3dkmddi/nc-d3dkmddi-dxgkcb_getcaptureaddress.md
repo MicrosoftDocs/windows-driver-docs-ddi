@@ -27,7 +27,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "< DISPATCH_LEVEL"
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -56,15 +56,9 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 ## -parameters
 
 
+### -param 
 
-
-
-
-
-
-
-
-#### - pData [in, out]
+*pData*
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557531">DXGKARGCB_GETCAPTUREADDRESS</a> structure that describes parameters for retrieving information about a capture buffer.
 

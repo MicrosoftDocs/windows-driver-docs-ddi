@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_RECLAIMRESOURCES_0001
 title: PFND3D12DDI_RECLAIMRESOURCES_0001
 author: windows-driver-content
-description: 
+description: Implemented by the client driver to reclaim resources.
 ms.assetid: 3a8ee9d9-b122-4fe8-8243-70c3872ab95d
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to reclaim resources.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_RECLAIMRESOURCES_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_RECLAIMRESOURCES_0001 structure.
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also
