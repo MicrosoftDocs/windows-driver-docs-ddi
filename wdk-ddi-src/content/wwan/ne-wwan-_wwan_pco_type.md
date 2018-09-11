@@ -70,7 +70,7 @@ Specifies that the modem will only be passing up a subset of PCO structures that
 
 ### -field WwanPcoTypeMax
 
-
+The maximum value for this enumeration.
 
 
 ## -remarks

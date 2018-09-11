@@ -60,7 +60,7 @@ The <b>WWAN_PCO_VALUE</b> structure represents the PCO information payload from 
 
 ### -field Size
 
-The length of the PCO value that is valid in <b>PcoData</b>, which will be octets 3 (octet 1 to 3) + m*protocol element length + n*container element length. This is defined in the 3GPP TS24.008 spec, Section 10.5, since PCO is Type 4 information. 
+The length of the PCO value that is valid in <b>PcoData</b>, which will be octets 3 (octet 1 to 3) + (m * protocol element length) + (n * container element length). This is defined in the 3GPP TS24.008 spec, Section 10.5 because PCO is Type 4 information. 
 
 
 ### -field Type
@@ -74,8 +74,6 @@ The payload of the PCO structure that is received from the operator. The modem s
 
 
 ## -remarks
-
-
 
 Because some modems can currently only pass up operator specific PCO elements, the modem should pass up the information following the structure defined by 3GPP TS24.008 with the accurate synthesized header values for the content that is being passed up to the host.
 
