@@ -78,7 +78,7 @@ A pointer to a
      event, or Power Management event.
 
 > [!IMPORTANT]
-> If the **VPortId** field of this structure is set to a non-zero value, then the **Flags** member must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **NdisMNetPnPEvent** to succeed. Otherwise, **NdisMNetPnPEvent** fails with NDIS_STATUS_INVALID_STATE.
+> If the **VPortId** field of **NetPnpEventNotification** is set to a non-zero value, then the **Flags** member must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **NdisMNetPnPEvent** to succeed. Otherwise, **NdisMNetPnPEvent** fails with NDIS_STATUS_INVALID_STATE.
 
 ## -returns
 
