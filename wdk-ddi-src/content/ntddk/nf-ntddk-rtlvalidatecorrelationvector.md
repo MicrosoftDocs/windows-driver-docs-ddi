@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Validates the specified correlation vector to check whether it conforms to the Correlation Vector Specification (v2).
+Validates the specified [correlation vector](https://github.com/Microsoft/CorrelationVector) to check whether it conforms to the Correlation Vector Specification (v2).
     The function specifically checks if the first 22 bytes are a valid base64 representation of a 16 byte
         buffer
          and the remaining characters match the (\.\d+)+  regular expression.
