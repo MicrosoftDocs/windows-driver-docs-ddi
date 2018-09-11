@@ -94,7 +94,7 @@ The OS will not check if the PCO data is valid and leaves the validation to the 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-options-pco-operations">MB Protocol Configuration Options (PCO) operations</a>
 
 
 

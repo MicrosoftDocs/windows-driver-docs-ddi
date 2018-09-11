@@ -90,7 +90,7 @@ The following figure shows a full PCO structure as defined in the 3G TS24.008 sp
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-options-pco-operations">MB Protocol Configuration Options (PCO) operations</a>
 
 
 
