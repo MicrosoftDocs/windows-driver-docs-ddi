@@ -85,24 +85,23 @@ A
 
 ### -field Flags
 
- 
-
+Flags for this event notification. When **VPortId** is set to a non-zero value (in other words, )
 
 ### -field SwitchId
 
- 
-
+An **NDIS_NIC_SWITCH_ID** value that specifies a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An **NDIS_DEFAULT_SWITCH_ID** value indicates the default network adapter switch.
 
 ### -field VPortId
 
- 
+An **NDIS_NIC_SWITCH_VPORT_ID** value that uniquely identifies the virtual port (VPort) on the network adapter. 
 
+A value of **NDIS_DEFAULT_VPORT_ID** specifies the default VPort on the switch. The default VPort is always attached to the PCI Express (PCIe) Physical Function (PF) of the network adapter.
 
+> [!NOTE]
+> A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 
 ## -remarks
-
-
 
 When the operating system issues a system PnP event or a power management event to a target device
     object that represents an adapter, NDIS translates the event into a NET_PNP_EVENT_NOTIFICATION
