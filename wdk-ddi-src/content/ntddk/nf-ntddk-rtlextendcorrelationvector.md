@@ -2,7 +2,7 @@
 UID: NF:ntddk.RtlExtendCorrelationVector
 title: RtlExtendCorrelationVector function
 author: windows-driver-content
-description: This routine extends the supplied correlation vector. For a correlation vector of the form X.i, the extended value is X.i.0.
+description: This routine extends the supplied [correlation vector](https://github.com/Microsoft/CorrelationVector). For a correlation vector of the form X.i, the extended value is X.i.0.
 old-location: kernel\rtlextendcorrelationvector.htm
 tech.root: kernel
 ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
