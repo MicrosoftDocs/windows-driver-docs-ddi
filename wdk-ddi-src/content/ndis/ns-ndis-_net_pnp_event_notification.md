@@ -85,7 +85,12 @@ A
 
 ### -field Flags
 
-Flags for this event notification. When **VPortId** is set to a non-zero value (in other words, )
+Flags for this event notification.
+
+> [!IMPORTANT]
+> For miniport drivers calling [**NdisMNetPnPEvent**](nf-ndis-ndismnetpnpevent.md), if **VPortId** is set to a non-zero value then **Flags** must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for the function call to succeed. Otherwise, **NdisMNetPnPEvent** fails with NDIS_STATUS_INVALID_STATE.
+>
+> Other values for **Flags** are reserved for NDIS.
 
 ### -field SwitchId
 
