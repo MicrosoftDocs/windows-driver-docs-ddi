@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMPUTE_SHADER_0003
 title: PFND3D12DDI_CREATE_COMPUTE_SHADER_0003
 author: windows-driver-content
-description: 
+description: Create a compute shader.
 ms.assetid: bd3eb1b9-3238-4e2a-89ed-f0fdf2f841bc
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Create a compute shader.
 
 ## -prototype
 
@@ -72,21 +72,28 @@ PFND3D12DDI_CREATE_COMPUTE_SHADER_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *pShaderCode: 
-### -param D3D12DDI_HROOTSIGNATURE: 
-### -param D3D12DDI_HSHADER: 
-### -param D3D12DDI_CREATE_SHADER_FLAGS: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param *pShaderCode
+
+Pointer to a shader code.
+
+### -param D3D12DDI_HROOTSIGNATURE
+
+A handle to a root signature.
+
+### -param D3D12DDI_HSHADER
+
+A shader handle.
+
+### -param D3D12DDI_CREATE_SHADER_FLAGS
+
+Flags to create a shader.
 
 
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

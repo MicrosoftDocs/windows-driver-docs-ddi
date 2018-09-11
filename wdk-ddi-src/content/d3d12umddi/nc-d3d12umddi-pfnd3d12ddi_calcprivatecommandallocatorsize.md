@@ -73,7 +73,7 @@ PFND3D12DDI_CALCPRIVATECOMMANDALLOCATORSIZE
 
 A handle to the display device (graphics context).
 
-### -param *: 
+### -param *
 
 Pointer to a D3D12DDIARG_CREATECOMMANDALLOCATOR structure.
 

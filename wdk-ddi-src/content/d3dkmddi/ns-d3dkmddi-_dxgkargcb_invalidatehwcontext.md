@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_INVALIDATEHWCONTEXT
 title: _DXGKARGCB_INVALIDATEHWCONTEXT
 author: windows-driver-content
-description:
+description: Invalidates hardware context.
 ms.assetid: 1291e94b-ddaf-43ec-a205-7dda7d63ff01
 ms.author: windowsdriverdev
 ms.date:

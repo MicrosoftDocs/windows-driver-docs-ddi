@@ -60,24 +60,13 @@ The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is re
 
 ### -param Arg1
 
+A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt779071">PFND3D12DDI_OPENADAPTER</a> function.
 
 ### -param *
 
 
-
-
-
-
-
-
-#### - hAdapter
-
-A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt779071">PFND3D12DDI_OPENADAPTER</a> function.
-
-
-#### - pCreateData [in]
-
 A pointer to a <a href="https://msdn.microsoft.com/F139A61B-E074-4185-A934-17F6FDBA3F62">D3D12DDIARG_CREATEDEVICE</a> structure.
+
 
 
 ## -returns

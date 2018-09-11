@@ -2,7 +2,7 @@
 UID: NE:d3dkmddi._DXGK_SYNC_LOCK_STYLE
 title: _DXGK_SYNC_LOCK_STYLE
 author: windows-driver-content
-description:
+description: The sync lock style.
 ms.assetid: 79cd31ec-ab67-4b89-8faf-e1f2980c1534
 ms.author: windowsdriverdev
 ms.date:

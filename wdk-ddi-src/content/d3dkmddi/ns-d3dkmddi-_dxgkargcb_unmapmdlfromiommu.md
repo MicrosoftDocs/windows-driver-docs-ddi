@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_UNMAPMDLFROMIOMMU
 title: _DXGKARGCB_UNMAPMDLFROMIOMMU
 author: windows-driver-content
-description:
+description: Arguments used by the DxgkcbUnmapmdlFromIommu callback function to release the mapping that was set by DXGKCB_MAPMDLTOIOMMU.
 ms.assetid: 39dc2658-d3dc-43fa-a29d-806db351d4d7
 ms.author: windowsdriverdev
 ms.date:

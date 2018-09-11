@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_COPY_DESCRIPTORS_0003
 title: PFND3D12DDI_COPY_DESCRIPTORS_0003
 author: windows-driver-content
-description: 
+description: Copy descriptors.
 ms.assetid: 0409bbc2-7e61-4dd0-bfa6-6309565741e6
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Copy descriptors.
 
 ## -prototype
 
@@ -75,24 +75,38 @@ PFND3D12DDI_COPY_DESCRIPTORS_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param NumDestDescriptorRanges: 
-### -param *pDestDescriptorRangeStarts: 
-### -param *pDestDescriptorRangeSizes: 
-### -param NumSrcDescriptorRanges: 
-### -param *pSrcDescriptorRangeStarts: 
-### -param *pSrcDescriptorRangeSizes: 
-### -param DescriptorHeapsType: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param NumDestDescriptorRanges
 
+The number of descriptor ranges in the destination.
+
+### -param *pDestDescriptorRangeStarts
+
+Pointer to the start of the descriptor range in the destination.
+
+### -param *pDestDescriptorRangeSizes
+
+Pointer to the descriptor range sizes in the destination.
+
+### -param NumSrcDescriptorRanges
+
+The number of descriptor ranges in the source.
+
+### -param *pSrcDescriptorRangeStarts
+
+Pointer to the start of the descriptor range in the source.
+
+### -param *pSrcDescriptorRangeSizes
+
+Pointer to the descriptor range sizes in the destination.
+
+### -param DescriptorHeapsType
+
+The descriptor heap type.
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

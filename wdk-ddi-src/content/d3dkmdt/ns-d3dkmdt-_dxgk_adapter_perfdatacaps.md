@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._DXGK_ADAPTER_PERFDATACAPS
 title: _DXGK_ADAPTER_PERFDATACAPS
 author: windows-driver-content
-description:
+description: The physical adapter index in a LDA chain.
 ms.assetid: 4193f977-8617-4c1a-965b-040633d29eb3
 ms.author: windowsdriverdev
 ms.date:

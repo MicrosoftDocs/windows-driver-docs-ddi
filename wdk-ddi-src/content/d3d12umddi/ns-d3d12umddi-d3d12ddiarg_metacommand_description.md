@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_DESCRIPTION
 title: D3D12DDIARG_METACOMMAND_DESCRIPTION
 author: windows-driver-content
-description:
+description: Contains information about a meta-command.
 ms.assetid: b86863d7-2880-4c3d-94c8-f85fde93cf83
 ms.author: windowsdriverdev
 ms.date:

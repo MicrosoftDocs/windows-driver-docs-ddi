@@ -60,16 +60,13 @@ req.typenames:
 
 ### -param Arg1
 
+*hDrvDevice*
+
 A handle to the display device (graphics context).
 
 ### -param NodeIndex
 
 The physical adapter of the device to which this operation applies.
-
-
-#### - hDrvDevice
-
-The handle of a device.
 
 
 ## -returns

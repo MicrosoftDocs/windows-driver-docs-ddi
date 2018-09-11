@@ -2,7 +2,7 @@
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_CATEGORIES
 title: _DXGK_DIAGNOSTIC_CATEGORIES
 author: windows-driver-content
-description:
+description: Structure with a bit-field for each defined category of diagnostic.
 ms.assetid: ba2233ae-fe9b-4cd1-a9a6-7a26c95d5dae
 ms.author: windowsdriverdev
 ms.date:

@@ -72,7 +72,7 @@ PTR_SECURE_SERVICE_CALLBACKS EvtTrQueryServiceCallbacks
 
 ## -returns
 
-Returns PTR_SECURE_SERVICE_CALLBACKS that ...
+Returns PTR_SECURE_SERVICE_CALLBACKS.
 
 ## -remarks
 

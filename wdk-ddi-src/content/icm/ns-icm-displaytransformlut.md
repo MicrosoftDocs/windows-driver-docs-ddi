@@ -2,10 +2,10 @@
 UID: NS:icm.DisplayTransformLut
 title: DisplayTransformLut structure
 author: windows-driver-content
-description: 
+description: The DisplayTransformLut structure defines a 16-bit, 3-channel lookup table used to modify system colors.
 ms.assetid: 23f9c311-524c-4d13-a0ed-df630b37a163
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 9/10/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices

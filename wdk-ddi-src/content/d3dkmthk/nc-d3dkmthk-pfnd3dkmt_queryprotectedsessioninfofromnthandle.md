@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 title: PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to query protected session info from NT handle.
 ms.assetid: d446a771-1b71-458a-9dbb-f36f8838ba19
 ms.author: windowsdriverdev
 ms.date:

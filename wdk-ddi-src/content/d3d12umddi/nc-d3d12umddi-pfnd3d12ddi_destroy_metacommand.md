@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_METACOMMAND
 title: PFND3D12DDI_DESTROY_METACOMMAND
 author: windows-driver-content
-description:
+description: Destroys the meta-command.
 ms.assetid: 0bd395c4-a428-4db7-8ebc-43f1a8474506
 ms.author: windowsdriverdev
 ms.date:

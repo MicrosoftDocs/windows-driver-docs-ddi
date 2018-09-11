@@ -1,8 +1,8 @@
 ---
 UID: NS:dispmprt._DXGKARG_CONTROLDIAGNOSTICREPORTING
-title: "_DXGKARG_CONTROLDIAGNOSTICREPORTING"
+title: _DXGKARG_CONTROLDIAGNOSTICREPORTING
 author: windows-driver-content
-description:
+description: Contains arguments for the call to DxgkDdiControlDiagnosticReporting.
 ms.assetid: ac6a8e7d-85b8-4835-b8f6-827a6cbbee95
 ms.author: windowsdriverdev
 ms.date:

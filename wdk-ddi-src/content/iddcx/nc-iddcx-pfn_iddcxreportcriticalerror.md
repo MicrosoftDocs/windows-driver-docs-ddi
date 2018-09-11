@@ -2,7 +2,7 @@
 UID: NC:iddcx.PFN_IDDCXREPORTCRITICALERROR
 title: *PFN_IDDCXREPORTCRITICALERROR
 author: windows-driver-content
-description:
+description: An OS callback function the driver calls to report a critical error.
 ms.assetid: f4b2190f-f005-47bb-8b67-82701985e887
 ms.author: windowsdriverdev
 ms.date:

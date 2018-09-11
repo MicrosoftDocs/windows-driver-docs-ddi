@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._DXGK_NODE_PERFDATA
 title: _DXGK_NODE_PERFDATA
 author: windows-driver-content
-description:
+description: Input arguments for the call to node performance data.
 ms.assetid: 3dd040ac-12ce-4fa6-81c5-b867dbe942ce
 ms.author: windowsdriverdev
 ms.date:

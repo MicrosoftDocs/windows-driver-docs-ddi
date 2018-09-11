@@ -73,7 +73,7 @@ PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010
 
 A handle to the display device (graphics context).
 
-### -param *: 
+### -param *
 
 A pointer to a D3D12DDI_BLEND_DESC_0010 structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
