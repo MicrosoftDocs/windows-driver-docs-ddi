@@ -60,7 +60,7 @@ This routine is reserved for system use.
 
 ### -param FileName
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param LinkName

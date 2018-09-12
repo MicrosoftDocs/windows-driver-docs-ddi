@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914616">WppRe
 
 ### -param WppCb
 
-TBD
+<p>Handle to the recorder log to delete.</p>
 
 
 ### -param RecorderLog

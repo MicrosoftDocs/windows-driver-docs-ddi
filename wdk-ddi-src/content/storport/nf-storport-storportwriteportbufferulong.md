@@ -61,22 +61,22 @@ The <b>StorPortWritePortBufferUlong</b> routine writes a value to a specified re
 
 ### -param h
 
-TBD
+<p>Pointer to the hardware device extension.</p>
 
 
 ### -param p
 
-TBD
+<p>Contains the address of the port to be written to. </p>
 
 
 ### -param b
 
-TBD
+<p>Pointer to the buffer containing the data to be written. </p>
 
 
 ### -param c
 
-TBD
+<p>Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. </p>
 
 
 

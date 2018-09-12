@@ -60,7 +60,7 @@ The <b>KeReleaseMutant</b> routine is reserved for system use. See <a href="http
 
 ### -param Mutant
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Increment

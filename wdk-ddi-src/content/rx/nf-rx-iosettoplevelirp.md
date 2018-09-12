@@ -60,7 +60,7 @@ The <b>IoSetTopLevelIrp</b> routine sets the value of the <b>TopLevelIrp</b> fie
 
 ### -param irp
 
-TBD
+<p>I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of the current thread.</p>
 
 
 

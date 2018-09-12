@@ -65,7 +65,7 @@ On input, this parameter contains a pointer to a handle for an uninitialized vir
 
 ### -param Connection
 
-TBD
+<p>A pointer to the connection on which the virtual circuit is to be added.</p>
 
 
 

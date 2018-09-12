@@ -60,12 +60,12 @@ The <b>HBA_SendReportLUNs</b> routine sends a SCSI report LUNs command to the in
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the target port is located.</p>
 
 
 ### -param PortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI report LUNs command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param pRspBuffer [out]

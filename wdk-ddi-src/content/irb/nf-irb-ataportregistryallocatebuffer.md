@@ -68,7 +68,7 @@ A pointer to the channel extension.
 
 ### -param BufferSize
 
-TBD
+<p>Specifies the length of the buffer, in bytes.</p>
 
 
 

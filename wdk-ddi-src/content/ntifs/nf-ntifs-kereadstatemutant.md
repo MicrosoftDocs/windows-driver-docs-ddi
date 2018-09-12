@@ -60,7 +60,7 @@ The <b>KeReadStateMutant</b> routine is reserved for system use. See <a href="ht
 
 ### -param Mutant
 
-TBD
+<p>Reserved.</p>
 
 
 

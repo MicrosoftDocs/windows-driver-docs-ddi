@@ -60,7 +60,7 @@ The <b>KeInitializeMutant</b> routine is reserved for system use. See <a href="h
 
 ### -param Mutant
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param InitialOwner

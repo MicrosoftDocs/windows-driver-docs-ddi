@@ -65,7 +65,7 @@ A pointer to the RX_CONTEXT. This parameter supplies the context of the operatio
 
 ### -param Fcb
 
-TBD
+<p>A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. </p>
 
 
 

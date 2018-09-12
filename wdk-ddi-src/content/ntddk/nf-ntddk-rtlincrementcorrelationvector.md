@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Increments the specified correlation vector. For
+Increments the specified [correlation vector](https://github.com/Microsoft/CorrelationVector). For
     a correlation vector of the form X.i, the incremented value is be
     X.(i+1).
 

@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param pContext
 
-TBD
+<p>A pointer to the RX_CONTEXT. This parameter contains the IRP requesting the operation to complete. </p>
 
 
 ### -param Status

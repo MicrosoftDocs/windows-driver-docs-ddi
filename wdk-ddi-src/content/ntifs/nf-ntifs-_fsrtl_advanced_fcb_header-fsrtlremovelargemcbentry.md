@@ -60,17 +60,17 @@ The <b>FsRtlRemoveLargeMcbEntry</b> routine removes one or more mappings from a 
 
 ### -param Mcb
 
-TBD
+<p>Pointer to the MCB structure. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. </p>
 
 
 ### -param SectorCount
 
-TBD
+<p>Number of sectors (VBNs) in the range for which mappings are to be removed. </p>
 
 
 

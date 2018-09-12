@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoCallDriver</b> routine sends an IRP to the driver associated with a specified device object.
+The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object. For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 
 ## -parameters
@@ -60,28 +60,17 @@ The <b>IoCallDriver</b> routine sends an IRP to the driver associated with a spe
 
 ### -param a [in]
 
-Pointer to a device object, representing the target device for the requested I/O operation.
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ### -param b [in, out]
 
-Pointer to the [**IRP**](ns-wdm-_irp.md). 
-
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 
 
 ## -remarks
 
-
-
-Before calling <b>IoCallDriver</b>, the calling driver must set up the I/O stack location in the IRP for the target driver. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558781">Passing IRPs Down the Driver Stack</a>.
-
-<b>IoCallDriver</b> assigns the <i>DeviceObject</i> input parameter to the <i>DeviceObject</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure for the driver being called.
-
-An IRP passed in a call to <b>IoCallDriver</b> becomes inaccessible to the higher-level driver, unless the higher-level driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff549679">IoSetCompletionRoutine</a> to set up an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine for the IRP. If it has, the IRP input to the <i>IoCompletion</i> routine has its I/O status block set by the lower drivers, and all lower-level drivers' I/O stack locations are filled with zeros.
-
-Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff559654">PoCallDriver</a> rather than <b>IoCallDriver</b> to pass power IRPs (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>). For more information, see <a href="https://msdn.microsoft.com/a47e2310-e89b-4552-bbe3-d4984ae8b564">Calling IoCallDriver vs. Calling PoCallDriver</a>. 
-
-
+see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 
 ## -see-also

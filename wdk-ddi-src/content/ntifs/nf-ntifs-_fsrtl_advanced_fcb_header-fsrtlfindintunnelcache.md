@@ -65,7 +65,7 @@ Pointer to a tunnel cache initialized by <a href="https://msdn.microsoft.com/lib
 
 ### -param DirectoryKey
 
-TBD
+<p>Key value of the directory containing the file that is being created or renamed.</p>
 
 
 ### -param Name [in]

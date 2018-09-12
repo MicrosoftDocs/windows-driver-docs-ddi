@@ -60,7 +60,7 @@ The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a 
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

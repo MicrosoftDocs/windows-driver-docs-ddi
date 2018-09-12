@@ -66,7 +66,7 @@ Pointer to the hardware device extension. This is a per-HBA storage area that th
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.</p>
 
 
 ### -param PathId [in]

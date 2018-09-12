@@ -60,7 +60,7 @@ The <b>FsRtlInitializeLargeMcb</b> routine initializes a map control block (MCB)
 
 ### -param Mcb
 
-TBD
+<p>Pointer to a caller-allocated MCB structure to initialize.</p>
 
 
 ### -param PoolType [in]

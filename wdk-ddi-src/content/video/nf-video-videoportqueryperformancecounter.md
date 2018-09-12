@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param OPTIONAL
 
-TBD
+<p>Specifies an optional pointer to a variable that is to receive the performance counter frequency.</p>
 
 
 

@@ -60,12 +60,12 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 ### -param Params
 
-TBD
+<p>Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/Mt187928(v=VS.85).aspx"><b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b></a> structure to initialize.</p>
 
 
 ### -param Partner
 
-TBD
+<p>A <a href="https://msdn.microsoft.com/library/Mt187947(v=VS.85).aspx"><b>UCM_TYPE_C_PORT_STATE</b></a>-typed flag that indicates the state of the partner port.</p>
 
 
 

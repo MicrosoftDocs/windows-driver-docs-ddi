@@ -60,7 +60,7 @@ The <b>HBA_GetPortStatistics</b> routine retrieves statistics for the indicated 
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located. </p>
 
 
 ### -param PortIndex [in]
@@ -70,7 +70,7 @@ Contains an index that identifies which port on the HBA to query for statistics.
 
 ### -param PortStatistics
 
-TBD
+<p>Contains a structure of type <a href="https://msdn.microsoft.com/library/Ff557110(v=VS.85).aspx"><b>HBA_PortStatistics</b></a> that holds the statistics that were retrieved for the port. </p>
 
 
 

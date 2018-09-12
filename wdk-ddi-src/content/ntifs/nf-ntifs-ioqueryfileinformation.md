@@ -60,7 +60,7 @@ The <b>IoQueryFileInformation</b> routine is reserved for system use. See <a hre
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param FileInformationClass

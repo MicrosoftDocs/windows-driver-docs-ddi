@@ -73,7 +73,7 @@ Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.Config
 
 ### -param InterfaceListEntry
 
-TBD
+<p>Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/Ff539076(v=VS.85).aspx"><b>USBD_INTERFACE_LIST_ENTRY</b></a>    structure. For more information, see Remarks.</p>
 
 
 ### -param Urb [out]

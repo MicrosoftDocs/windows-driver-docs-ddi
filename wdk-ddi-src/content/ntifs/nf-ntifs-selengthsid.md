@@ -60,7 +60,7 @@ This macro is exported to support existing driver binaries and is obsolete. Use 
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

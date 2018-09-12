@@ -60,7 +60,7 @@ The <b>HBA_SendRNID</b> routine sends a request for node identification data (RN
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA that will route the command. The HBA routes this command to the appropriate fabric configuration server. </p>
 
 
 ### -param Wwn [in]
@@ -70,7 +70,7 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies a port or a node
 
 ### -param WnnType
 
-TBD
+<p>Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/Ff557245(v=VS.85).aspx"><b>HBA_wwntype</b></a> that indicates whether the WWN specified by <i>Wwn </i>is a port or a node:</p>
 
 
 ### -param pRspBuffer [out]

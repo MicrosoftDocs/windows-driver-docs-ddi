@@ -60,7 +60,7 @@ The <b>IoCheckDesiredAccess</b> routine is reserved for system use. See <a href=
 
 ### -param DesiredAccess
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param GrantedAccess

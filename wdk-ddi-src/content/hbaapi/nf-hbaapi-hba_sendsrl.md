@@ -60,22 +60,22 @@ The <b>HBA_SendSRL</b> routine issues a scan remote loop (SRL) request through t
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA through which the request is sent. </p>
 
 
 ### -param HbaPortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the port through which the SRL request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param Wwn
 
-TBD
+<p>Contains a 64-bit WWN that uniquely identifies the FL_Port port that is associated with the loop that is scanned. The SRL request is sent to this port. If this member is <b>NULL</b>, it is ignored, and the SRL request is sent to the domain controller that is associated with the loop. The domain controller is identified by the value in <i>domain. </i></p>
 
 
 ### -param Domain
 
-TBD
+<p>Indicates the number of the domain controller associated with the loops to scan. If <i>wwn</i> is nonzero, this member is ignored.</p>
 
 
 ### -param pRspBuffer [out]

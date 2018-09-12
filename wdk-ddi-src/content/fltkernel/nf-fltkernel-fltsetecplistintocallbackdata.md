@@ -65,7 +65,7 @@ Opaque filter pointer to the minifilter driver. This pointer uniquely identifies
 
 ### -param CallbackData
 
-TBD
+<p>Pointer to a callback-data object of type <a href="https://msdn.microsoft.com/library/Ff544620(v=VS.85).aspx"><b>FLT_CALLBACK_DATA</b></a>, which represents the create operation.</p>
 
 
 ### -param EcpList [in]

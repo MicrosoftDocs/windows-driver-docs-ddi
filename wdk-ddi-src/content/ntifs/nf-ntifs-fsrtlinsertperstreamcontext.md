@@ -60,7 +60,7 @@ The <b>FsRtlInsertPerStreamContext</b> routine associates a file system filter d
 
 ### -param PerStreamContext
 
-TBD
+<p>Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/Ff546056(v=VS.85).aspx"><b>FsRtlGetPerStreamContextPointer</b></a> macro. </p>
 
 
 ### -param Ptr [in]

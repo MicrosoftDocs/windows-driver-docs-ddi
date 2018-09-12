@@ -60,7 +60,7 @@ The <b>FsRtlNumberOfRunsInLargeMcb</b> routine returns the number of runs in a m
 
 ### -param Mcb
 
-TBD
+<p>Supplies the MCB being examined.</p>
 
 
 
