@@ -49,7 +49,7 @@ Returns the module which contains this symbol if the symbol has a containing mod
 ## -parameters
 
 ### -param containingModule
-
+The module which contains the symbol will be returned here.
 
 
 ## -returns

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2bf3a854-e0e4-44cc-adca-61d8c07e47a0
 ms.author: windowsdriverdev
-ms.date: 09/10/2018
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDebugHostType::IsGeneric, IsGeneric, IDebugHostType.IsGeneric, IDebugHostType::IsGeneric, IDebugHostType.IsGeneric
 req.header: dbgmodel.h
@@ -49,6 +49,7 @@ Returns whether the type is a generic or template.
 ## -parameters
 
 ### -param isGeneric
+An indication of whether the type is a generic or template type is returned here.
 
 
 ## -returns
