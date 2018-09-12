@@ -53,41 +53,41 @@ The CompareAgainst method compares the type signature to another type signature 
 **Ambiguous** - One signature or type compares ambiguously against the other. For two type signatures, this means that there are potential type instances which could match either signature equally well. As an example, the two type signatures shown below are ambiguous: 
 
 Signature 1: 
-```
-std::pair<*, int> 
-```
+
+    std::pair<*, int> 
+
 
 Signature 2:   
-```
-std::pair<int, *>
-```
+
+    std::pair<int, *>
+
 Because the type instance std::pair<int, int> matches either one equally well (both have one concrete and one wildcard match).
 
 **LessSpecific** - One signature or type is less specific than the other. Often, this means that the less specific signature has a wildcard where the more specific one has a concrete type. As an example, the first signature below is less specific than the second: 
 
 Signature 1: 
-```
-std::pair<*, int> 
-```
+
+    std::pair<*, int> 
+
 Signature 2: 
-```
-std::pair<int, int> 
-```
+
+    std::pair<int, int> 
+
 Because it has a wildcard (the \*) where the second has a concrete type (int).
 
 **MoreSpecific** - One signature or type is more specific than the other. Often, this means that the more specific signature has a concrete type where the less specific one has a wildcard. As an example, the first signature below is more specific than the second: 
+
 Signature 1:  
-```
-std::pair<int, int> 
-```
+
+    std::pair<int, int> 
+
 Signature 2:  
-```
-std::pair<*, int> 
-```
+
+    std::pair<*, int> 
+
 Because it has a concrete type (int) where the second has a wildcard (the \*). 
 
 **Identical** - The two signatures or types are identical.
-
 
 
 ## -parameters

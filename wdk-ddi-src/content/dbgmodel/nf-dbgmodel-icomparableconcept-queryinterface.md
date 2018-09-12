@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 90f5872f-e5b4-4a61-ab92-be2a6bae2030
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IComparableConcept::QueryInterface, QueryInterface, IComparableConcept.QueryInterface, IComparableConcept::QueryInterface, IComparableConcept.QueryInterface
 req.header: dbgmodel.h
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IComparableConcept interface](nn-dbgmodel-icomparableconcept.md)

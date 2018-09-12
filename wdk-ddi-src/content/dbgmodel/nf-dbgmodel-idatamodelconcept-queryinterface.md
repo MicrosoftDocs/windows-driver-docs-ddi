@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 932cbd0c-97e5-4cf1-8f6c-2dc0f6893d4a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelConcept::QueryInterface, QueryInterface, IDataModelConcept.QueryInterface, IDataModelConcept::QueryInterface, IDataModelConcept.QueryInterface
 req.header: dbgmodel.h
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelConcept interface](nn-dbgmodel-idatamodelconcept.md)

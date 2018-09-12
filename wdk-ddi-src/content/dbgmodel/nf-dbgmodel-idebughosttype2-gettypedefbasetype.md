@@ -49,8 +49,8 @@ The GetTypedefBaseType method will return what the immediate definition of the t
 ```cpp
 typedef MYSTRUCT *PMYSTRUCT;
 typedef PMYSTRUCT PTRMYSTRUCT;
+```
 
-```cpp
 this method will return MYSTRUCT * for PMYSTRUCT and PMYSTRUCT for PTRMYSTRUCT. For more information, see [IDebugHostType2::IsTypedef](nf-dbgmodel-idebughosttype2-istypedef.md). 
 
 

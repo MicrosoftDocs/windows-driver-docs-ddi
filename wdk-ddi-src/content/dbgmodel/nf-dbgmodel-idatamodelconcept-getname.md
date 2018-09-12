@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 963ade84-243f-419e-979e-6f8aed2ff596
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelConcept::GetName, GetName, IDataModelConcept.GetName, IDataModelConcept::GetName, IDataModelConcept.GetName
 req.header: dbgmodel.h
@@ -56,3 +56,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelConcept interface](nn-dbgmodel-idatamodelconcept.md)
