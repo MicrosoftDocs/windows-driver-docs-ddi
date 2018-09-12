@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_PNP_STATE, *PWDF_DEVICE_PNP_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter.
 

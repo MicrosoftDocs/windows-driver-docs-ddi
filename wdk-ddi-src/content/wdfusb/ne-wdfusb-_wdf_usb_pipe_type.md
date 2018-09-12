@@ -50,7 +50,7 @@ req.typenames: WDF_USB_PIPE_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_PIPE_TYPE</b> enumeration identifies the types of USB pipes.
 

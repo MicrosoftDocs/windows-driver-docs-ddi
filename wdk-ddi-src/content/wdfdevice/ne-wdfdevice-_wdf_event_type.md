@@ -51,7 +51,7 @@ req.typenames: WDF_EVENT_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_EVENT_TYPE</b> enumeration specifies  types of events about which a driver can notify a registered application.
 
