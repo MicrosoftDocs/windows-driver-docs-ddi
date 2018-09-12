@@ -60,12 +60,12 @@ The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a poi
 
 ### -param Destination [out]
 
-A pointer to the memory block to be filled with zeros.
+Datatype: void*. A pointer to the memory block to be filled with zeros.
 
 
 ### -param Length [in]
 
-The number of bytes to fill with zeros.
+Datatype: size_t. The number of bytes to fill with zeros.
 
 
 ## -remarks
