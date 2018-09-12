@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spPointer; /* get a pointer */
 
 ComPtr<IModelObject> spPointedTo;

@@ -73,7 +73,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 // The full implementation class is shown for clarity.  This is a method which sums up all integers passed to it.
 class MySummationMethod :
     public Microsoft::WRL::RuntimeClass<

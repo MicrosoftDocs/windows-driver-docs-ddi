@@ -62,7 +62,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ```
 ## -see-also
 

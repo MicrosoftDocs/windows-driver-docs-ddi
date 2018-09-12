@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ab261a45-8acf-4f14-aaa8-0a3895fdde88
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostContext::QueryInterface, QueryInterface, IDebugHostContext.QueryInterface, IDebugHostContext::QueryInterface, IDebugHostContext.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -57,4 +57,4 @@ TBD
 This method returns HRESULT.
 ## -remarks
 
-## -see-also
+## -see-also[IDebugHostContext interface](nn-dbgmodel-idebughostcontext.md)

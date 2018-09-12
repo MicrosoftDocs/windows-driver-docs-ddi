@@ -64,7 +64,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject;          /* get an object */
 ComPtr<IModelObject> spDataModelObject; /* get an attached data model (from earlier
                                            AddParentModel or from GetParentModel) anywhere in 

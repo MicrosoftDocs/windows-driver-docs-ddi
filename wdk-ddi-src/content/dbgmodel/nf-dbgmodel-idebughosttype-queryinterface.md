@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -57,10 +57,7 @@ TBD
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
-**Sample Code**
 
-```
-```
 
 ## -see-also
 

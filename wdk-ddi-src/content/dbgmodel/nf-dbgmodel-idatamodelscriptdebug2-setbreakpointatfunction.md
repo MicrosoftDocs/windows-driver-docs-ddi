@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: d8f17c0d-caf6-41ee-8ed9-6ec4837908f2
 ms.author: windowsdriverdev
-ms.date: 08/21/2018
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::SetBreakpointAtFunction, SetBreakpointAtFunction, IDataModelScriptDebug2.SetBreakpointAtFunction, IDataModelScriptDebug2::SetBreakpointAtFunction, IDataModelScriptDebug2.SetBreakpointAtFunction
 req.header: dbgmodel.h
@@ -49,9 +49,10 @@ Sets a breakpoint on the function given by the supplied name.
 ## -parameters
 
 ### -param functionName
+The name of the function you want a breakpoint set on.
 
 ### -param breakpoint
-
+The newly created breakpoint will be returned here.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

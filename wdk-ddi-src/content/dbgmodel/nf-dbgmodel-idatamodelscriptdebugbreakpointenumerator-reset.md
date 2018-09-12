@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5429efa0-1e6c-4323-aa31-f1460d3cd8de
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Reset, Reset, IDataModelScriptDebugBreakpointEnumerator.Reset, IDataModelScriptDebugBreakpointEnumerator::Reset, IDataModelScriptDebugBreakpointEnumerator.Reset
 req.header: dbgmodel.h
@@ -44,13 +44,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Reset method resets the position of the enumerator to where it was just after the enumerator was created -- that is, before the first enumerated breakpoint. 
 
 ## -parameters
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugBreakpointEnumerator interface](nn-dbgmodel-idatamodelscriptdebugbreakpointenumerator.md)

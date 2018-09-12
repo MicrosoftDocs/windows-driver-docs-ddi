@@ -66,7 +66,7 @@ This method returns HRESULT that indicates success or failure. The return values
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spProcess; /* get a process object */
 
 ComPtr<IModelObject> spProcId;

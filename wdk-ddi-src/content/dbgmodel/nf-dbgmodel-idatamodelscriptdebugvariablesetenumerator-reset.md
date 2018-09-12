@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f074795f-8ac5-47f9-890e-0e028fc4bc1d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Reset, Reset, IDataModelScriptDebugVariableSetEnumerator.Reset, IDataModelScriptDebugVariableSetEnumerator::Reset, IDataModelScriptDebugVariableSetEnumerator.Reset
 req.header: dbgmodel.h
@@ -44,13 +44,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Reset method resets the position of the enumerator to where it was immediately after creation -- that is, before the first element of the set. 
 
 ## -parameters
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDataModelScriptDebugVariableSetEnumerator interface](nn-dbgmodel-idatamodelscriptdebugvariablesetenumerator.md)

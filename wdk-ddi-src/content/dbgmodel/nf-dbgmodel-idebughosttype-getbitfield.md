@@ -65,7 +65,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get the type of a field which is a bitmap */
 
 ULONG lsb;

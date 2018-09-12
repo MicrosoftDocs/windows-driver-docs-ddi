@@ -61,7 +61,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a type (see FindTypeByName) */
 
 ComPtr<IDebugHostType> spBaseType;

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 3321861e-766c-4b41-84b7-f5058f956f03
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::Release, Release, IDataModelScriptDebugStackFrame.Release, IDataModelScriptDebugStackFrame::Release, IDataModelScriptDebugStackFrame.Release
 req.header: dbgmodel.h
@@ -44,13 +44,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
-This method returns ULONG.
+This method returns HRESULT which indicates success or failure.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugStackFrame interface](nn-dbgmodel-idatamodelscriptdebugstackframe.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 45a2d8e9-075e-4312-8d94-f5656c20cd1f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IComparableConcept::AddRef, AddRef, IComparableConcept.AddRef, IComparableConcept::AddRef, IComparableConcept.AddRef
 req.header: dbgmodel.h
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IComparableConcept interface](nn-dbgmodel-icomparableconcept.md)

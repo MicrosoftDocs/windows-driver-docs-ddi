@@ -50,9 +50,10 @@ The kind of pointer is supplied by the "kind" argument.
 ## -parameters
 
 ### -param kind
+The kind of pointer to create (e.g.: a standard pointer, a C++ reference, a C++ rvalue reference, etc…)
 
 ### -param newType
-
+The newly created pointer type will be returned here.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2e74264f-f0c4-4951-8cbd-dc63d5b32037
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateArguments, EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments, IDataModelScriptDebugStackFrame::EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments
 req.header: dbgmodel.h
@@ -44,15 +44,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+IDataModelScriptDebugVariableSetEnumerator interface) for all function arguments of the function called in the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. 
 
 ## -parameters
 
 ### -param variablesEnum
+A variable set enumerator which enumerates all function arguments of the function called in the given stack frame.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugStackFrame interface](nn-dbgmodel-idatamodelscriptdebugstackframe.md)

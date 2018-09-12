@@ -67,7 +67,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a type for something that's a pointer 
                                   or reference (see FindTypeByName) */
 

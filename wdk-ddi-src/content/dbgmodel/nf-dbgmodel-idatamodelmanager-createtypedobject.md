@@ -67,7 +67,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 // As an example, create an instance of nt!_EPROCESS at address 0x100
 ComPtr<IDebugHost> spHost;           /* get the host */
 ComPtr<IDataModelManager> spManager; /* get the data model manager */

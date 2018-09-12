@@ -68,7 +68,7 @@ This method returns HRESULT that indicates success or failure. The return values
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spMessage; /* get a tagMSG */
 
 ComPtr<IModelObject> spMsgIdRef;

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 7be844a4-a086-44a5-88d3-c96c02dd3271
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::AddRef, AddRef, IDataModelScriptDebugBreakpointEnumerator.AddRef, IDataModelScriptDebugBreakpointEnumerator::AddRef, IDataModelScriptDebugBreakpointEnumerator.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugBreakpointEnumerator interface](nn-dbgmodel-idatamodelscriptdebugbreakpointenumerator.md)

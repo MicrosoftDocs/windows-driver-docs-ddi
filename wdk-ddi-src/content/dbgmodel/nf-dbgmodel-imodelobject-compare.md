@@ -73,7 +73,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spValue1; /* get some ordinal */
 ComPtr<IModelObject> spValue2; /* get some other ordinal */
 

@@ -58,7 +58,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject;          /* get an object */
 ComPtr<IModelObject> spAdjustedContext; /* get the object you'd like to adjust context to */
 

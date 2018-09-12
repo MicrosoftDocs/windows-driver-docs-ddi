@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: bc277aed-d7ac-4bd9-b3bb-4ef27489eabc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::GetId, GetId, IDataModelScriptDebugBreakpoint.GetId, IDataModelScriptDebugBreakpoint::GetId, IDataModelScriptDebugBreakpoint.GetId
 req.header: dbgmodel.h
@@ -44,13 +44,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetId method returns the unique identifier assigned by the script provider's debug engine to the breakpoint. This identifier must be unique within the context of the containing script. The breakpoint identifier may be unique to the provider; however, that is not required. 
 
 ## -parameters
 
 
 ## -returns
-This method returns ULONG64.
+This method returns ULONG64. The value is the unique identifier assigned to the breakpoint.
+
 ## -remarks
 
+
+
 ## -see-also
+
+[IDataModelScriptDebugBreakpoint interface](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md)

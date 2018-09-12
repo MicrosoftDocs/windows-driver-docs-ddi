@@ -56,7 +56,7 @@ This method returns HRESULT.
 
 **Code Sample**
 
-```
+```cpp
 IFACEMETHOD(Reset)()
 {
     // It is legal for an iterator to be unable to Reset().  E_NOTIMPL can 

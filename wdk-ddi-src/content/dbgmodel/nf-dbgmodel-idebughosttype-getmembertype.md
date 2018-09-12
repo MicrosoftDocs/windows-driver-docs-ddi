@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostModule> spModule; /* find some module */
 
 ComPtr<IDebugHostType> spType;

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: a5344740-740f-4417-9cd1-9b08fdde45d8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugVariableSetEnumerator.QueryInterface, IDataModelScriptDebugVariableSetEnumerator::QueryInterface, IDataModelScriptDebugVariableSetEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,7 +54,9 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDataModelScriptDebugVariableSetEnumerator interface](nn-dbgmodel-idatamodelscriptdebugvariablesetenumerator.md)

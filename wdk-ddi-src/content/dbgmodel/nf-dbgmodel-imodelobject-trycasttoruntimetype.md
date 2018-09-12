@@ -58,7 +58,7 @@ This method returns HRESULT that indicates success or failure. Note that an anal
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spUnknown; /* get an IUnknown pointer to some CFoo */
 
 ComPtr<IModelObject> spRuntimeObj;

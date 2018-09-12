@@ -64,7 +64,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDebugHostContext> spContext1; /* get a context (e.g.:
                                          IDebugHost::GetCurrentContext) */
 ComPtr<IDebugHostContext> spContext2; /* get another context (e.g.:

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 906e0710-948f-470e-b5e5-ddbc825b6656
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDebugHostTypeSignature::AddRef, AddRef, IDebugHostTypeSignature.AddRef, IDebugHostTypeSignature::AddRef, IDebugHostTypeSignature.AddRef
 req.header: dbgmodel.h
@@ -53,4 +53,7 @@ Standard COM method.
 This method returns ULONG.
 ## -remarks
 
+
 ## -see-also
+
+[IDebugHostTypeSignature interface](nn-dbgmodel-idebughosttypesignature.md)

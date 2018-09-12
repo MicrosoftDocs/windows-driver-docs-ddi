@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 0ba1d2d4-a32e-4411-9810-85442c5d5c08
 ms.author: windowsdriverdev
-ms.date: 08/22/2018
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetGenericArgumentAt, GetGenericArgumentAt, IDebugHostType.GetGenericArgumentAt, IDebugHostType::GetGenericArgumentAt, IDebugHostType.GetGenericArgumentAt
 req.header: dbgmodel.h
@@ -51,8 +51,10 @@ Note that it is possible for some compiler generated generics and templates that
 ## -parameters
 
 ### -param i
+The zero based index of the generic argument to returned.
 
 ### -param argument
+The i’th generic argument of the type will be returned here
 
 
 ## -returns

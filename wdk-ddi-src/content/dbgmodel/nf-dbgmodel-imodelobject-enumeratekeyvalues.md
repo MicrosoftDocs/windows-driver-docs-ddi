@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject; /* get the object you want to enumerate */
 
 ComPtr<IKeyEnumerator> spEnum;

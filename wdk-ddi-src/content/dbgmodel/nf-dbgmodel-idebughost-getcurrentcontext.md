@@ -61,7 +61,7 @@ This method returns HRESULT which indicates success or failure. A host which doe
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDebugHost> spHost; /* get the debug host */
 
 ComPtr<IDebugHostContext> spContext;

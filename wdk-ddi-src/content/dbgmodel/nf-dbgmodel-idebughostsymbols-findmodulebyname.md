@@ -65,7 +65,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHost> spHost; /* get the host */
 
 ComPtr<IDebugHostSymbols> spSym;

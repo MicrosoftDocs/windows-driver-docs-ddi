@@ -64,7 +64,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject; /* get an object: say a new one from CreateSyntheticObject */
 
 // Implement IStringDisplayableConcept for the object.  Return a static "Hello World" string.

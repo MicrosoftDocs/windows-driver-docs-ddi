@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b9d7ccd3-cce4-4e63-9315-4a3ada35f82d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::Enable, Enable, IDataModelScriptDebugBreakpoint.Enable, IDataModelScriptDebugBreakpoint::Enable, IDataModelScriptDebugBreakpoint.Enable
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Enable method enables the breakpoint. If the breakpoint was disabled, "hitting the breakpoint" after calling this method will cause a break into the debugger. 
 
 ## -parameters
 
@@ -54,3 +54,6 @@ This method returns void.
 ## -remarks
 
 ## -see-also
+
+
+[IDataModelScriptDebugBreakpoint interface](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md)

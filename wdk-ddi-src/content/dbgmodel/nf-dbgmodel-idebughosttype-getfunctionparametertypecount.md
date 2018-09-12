@@ -59,7 +59,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostType> spType; /* get a type for a function (see FindTypeByName) */
 
 ULONG64 count;

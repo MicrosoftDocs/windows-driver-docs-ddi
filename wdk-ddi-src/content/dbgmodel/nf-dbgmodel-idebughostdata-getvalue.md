@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f36dd267-59f8-41aa-99ae-455ae6e98c1e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDebugHostData::GetValue, GetValue, IDebugHostData.GetValue, IDebugHostData::GetValue, IDebugHostData.GetValue
 req.header: dbgmodel.h
@@ -44,15 +44,30 @@ targetos: Windows
 
 ## -description
 
-TBD
+For data which has a constant value defined within the symbolic information (e.g.: data whose location kind indicates LocationConstant), the GetValue method will return the constant value of the field. 
 
 ## -parameters
 
 ### -param value
-
+The value of the data packed into a VARIANT will be returned here.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostData> spData; /* get a data symbol */
+
+VARIANT vtValue;
+if (SUCCEEDED(spData->GetValue(&vtValue)))
+{
+    // For data which has a constant value as determined by GetLocationKind, 
+    // vtValue contains the value of the data
+    VariantClear(&vtValue);
+}
+```
+
 ## -see-also
+[IDebugHostData interface](nn-dbgmodel-idebughostdata.md)

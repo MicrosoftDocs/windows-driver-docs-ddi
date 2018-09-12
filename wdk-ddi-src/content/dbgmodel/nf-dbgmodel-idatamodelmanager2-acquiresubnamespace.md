@@ -98,7 +98,7 @@ This method returns HRESULT.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager;   /* get the data model manager */
 ComPtr<IModelObject> spExtensionModel; /* get a data model you want to extend 
                                           some namespace with (see

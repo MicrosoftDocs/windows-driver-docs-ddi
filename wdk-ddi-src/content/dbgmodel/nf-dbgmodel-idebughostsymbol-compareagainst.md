@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 00afbd6a-9157-43b3-a449-fa9aa6f50fab
 ms.author: windowsdriverdev
-ms.date: 08/14/2018
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol::CompareAgainst, CompareAgainst, IDebugHostSymbol.CompareAgainst, IDebugHostSymbol::CompareAgainst, IDebugHostSymbol.CompareAgainst
 req.header: dbgmodel.h
@@ -51,11 +51,13 @@ Note that presently, "comparisonFlags" is reserved.
 ## -parameters
 
 ### -param pComparisonSymbol
+The symbol to compare against.
 
 ### -param comparisonFlags
-Reserved.
+Reserved.  Must be set to 0.
 
 ### -param pMatches
+An indication of whether the symbols are equal will be returned here.
 
 
 ## -returns

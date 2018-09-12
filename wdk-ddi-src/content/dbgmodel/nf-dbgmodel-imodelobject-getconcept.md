@@ -66,7 +66,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spObject; /* get some object */
 
 // Get the string conversion of spObject through the string displayable concept:

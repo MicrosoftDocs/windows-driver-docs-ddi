@@ -63,7 +63,7 @@ This method returns HRESULT that indicates success or failure.
 
 Usage Example (typically called by the data model itself): 
 
-```
+```cpp
 ComPtr<IDebugHost> spHost;     /* get the debug host */
 ComPtr<IModelObject> spObject; /* find some object that we want default metadata for */
 
@@ -117,7 +117,7 @@ if (SUCCEEDED(spHost->GetDefaultMetadata(&spDefaultMetadata)))
 
 Implementation Example (a host would normally do this): 
 
-```
+```cpp
 // Define a property which returns a radix of 16 for unsigned values and 10 
 // for signed values
 class RadixProperty :

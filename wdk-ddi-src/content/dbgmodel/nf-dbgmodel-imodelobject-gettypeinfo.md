@@ -57,7 +57,7 @@ This method returns HRESULT that indicates success or failure.
 ## -remarks
 
 **Code Sample**
-```
+```cpp
 ComPtr<IModelObject> spObject; /* get an object */
 
 ComPtr<IDebugHostType> spType;

@@ -47,7 +47,7 @@ targetos: Windows
 The RegisterNamedModel method registers a given data model under a well known name so that it can be found by clients wishing to extend it. This is the primary purpose of the API -- to publish a data model as something which can be extended by retrieving the model registered under this well known name and adding a parent model to it. 
 While the string passed in the modelName argument can be anything (it is just a name), there is a convention that it look like a dot separated namespace of the following form: 
 
-```
+```cpp
 • Debugger.Models.* - Data models which pertain to the debug target. 
 • DataModel.Models.* - Data models which pertain to the core data model itself. 
    o DataModel.Models.Concepts.* - Data models which pertain to concepts in the data model.
@@ -74,7 +74,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager;    /* get the data model manager */
 ComPtr<IModelObject> spDataModelObject; /* get your data model object (see
                                            CreateDataModelObject) */
