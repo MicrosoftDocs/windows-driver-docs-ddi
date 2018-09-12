@@ -60,17 +60,26 @@ The <b>FsRtlSetupAdvancedHeaderEx</b> macro is used by file systems to initializ
 
 ### -param _advhdr
 
-TBD
+<p>Pointer to the <a href="https://msdn.microsoft.com/library/Ff547334(v=VS.85).aspx"><b>FSRTL_ADVANCED_FCB_HEADER</b></a> structure to be initialized. </p>
 
 
 ### -param _fmutx
 
-TBD
+<p>Pointer to an initialized fast mutex that will be used to synchronize access to certain FSRTL_ADVANCED_FCB_HEADER members (for more information, see <a href="https://msdn.microsoft.com/library/Ff547334(v=VS.85).aspx"><b>FSRTL_ADVANCED_FCB_HEADER</b></a>). The fast mutex must be allocated from nonpaged pool. This parameter is optional and can be <b>NULL</b>. Callers should set this parameter to <b>NULL</b> if they intend to use an already existing fast mutex object. If <i>FastMutex</i> is <b>NULL</b>, the caller must explicitly set the <b>FastMutex</b> member of the FSRTL_ADVANCED_FCB_HEADER structure, contained in the stream context object, to point to the existing fast mutex. (This can be done before or after calling <b>FsRtlSetupAdvancedHeaderEx</b>.)</p>
 
 
 ### -param _fctxptr
 
-TBD
+<p>A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts. </p>
+  <p>This parameter is optional and can be <b>NULL</b>.  In particular:</p>
+  <ul>
+    <li>
+      <p> For Microsoft Windows operating systems released prior to Windows Vista: Callers must set this parameter to <b>NULL</b>.</p>
+    </li>
+    <li>
+      <p> For Windows operating systems starting with Windows Vista: If <i>FileContextSupportPointer</i> is not <b>NULL</b>, <i>FileContextSupportPointer</i> must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  To indicate that the file system driver does not support file contexts, callers must set <i>FileContextSupportPointer</i> to <b>NULL</b>.</p>
+    </li>
+  </ul>
 
 
 

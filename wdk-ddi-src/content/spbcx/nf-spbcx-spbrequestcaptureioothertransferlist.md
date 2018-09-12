@@ -61,7 +61,7 @@ The <b>SpbRequestCaptureIoOtherTransferList</b> method retrieves the <a href="ht
 
 ### -param Request
 
-TBD
+<p>An <a href="https://msdn.microsoft.com/library/Hh450925(v=VS.85).aspx">SPBREQUEST</a> handle to the custom IOCTL request. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/library/Hh450911(v=VS.85).aspx">event callback functions</a>.</p>
 
 
 

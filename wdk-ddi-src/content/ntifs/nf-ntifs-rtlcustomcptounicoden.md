@@ -60,7 +60,7 @@ The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href
 
 ### -param CustomCP
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param UnicodeString

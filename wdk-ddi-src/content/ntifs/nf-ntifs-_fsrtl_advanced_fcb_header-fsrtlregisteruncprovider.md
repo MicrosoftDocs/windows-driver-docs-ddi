@@ -65,7 +65,7 @@ A pointer to a location in which to return a MUP handle to be used when calling 
 
 ### -param RedirectorDeviceName
 
-TBD
+<p>A pointer to a Unicode string that contains the device name of the network redirector. </p>
 
 
 ### -param MailslotsSupported [in]

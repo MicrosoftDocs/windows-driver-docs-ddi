@@ -243,7 +243,7 @@ an NVS sleep.
 
 ### -param TranslationTypeNonStatic
 
-TBD
+<p>When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.</p>
 
 
 ### -param Resource [out]

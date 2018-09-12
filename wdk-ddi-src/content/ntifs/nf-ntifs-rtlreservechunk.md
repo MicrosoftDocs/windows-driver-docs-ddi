@@ -60,7 +60,7 @@ The <b>RtlReserveChunk</b> routine is reserved for system use.
 
 ### -param CompressionFormat
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param CompressedBuffer

@@ -77,11 +77,9 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_INFO_REVISION_1.
 
 ### -field VPortId
 
-An NDIS_NIC_SWITCH_VPORT_ID value  that uniquely identifies the virtual port (VPort)  on the network adapter. 
+An NDIS_NIC_SWITCH_VPORT_ID value that uniquely identifies the virtual port (VPort) on the network adapter. 
 
-A value of NDIS_DEFAULT_VPORT_ID specifies the default VPort on the switch. The default
-
-VPort is always attached to the PCI Express (PCIe) Physical Function (PF) of the network adapter.
+A value of NDIS_DEFAULT_VPORT_ID specifies the default VPort on the switch. The default VPort is always attached to the PCI Express (PCIe) Physical Function (PF) of the network adapter.
 
 <div class="alert"><b>Note</b>  A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.</div>
 <div> </div>

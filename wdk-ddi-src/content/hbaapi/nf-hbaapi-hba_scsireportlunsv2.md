@@ -60,7 +60,7 @@ The <b>HBA_ScsiReportLUNsV2</b> routine sends a SCSI report LUNs command to the 
 
 ### -param Hbahandle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA through which the SCSI report LUNs command is sent.</p>
 
 
 ### -param HbaPortWWN [in]
@@ -70,7 +70,7 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA po
 
 ### -param DiscoveredPortWWN
 
-TBD
+<p>Contains a 64-bit WWN that uniquely identifies the remote HBA port to which the SCSI report LUNs command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param pRespBuffer [out]

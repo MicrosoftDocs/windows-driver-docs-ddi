@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0003
 title: PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0003
 author: windows-driver-content
-description: 
+description: Calculates sizes for private opened heap and resources.
 ms.assetid: fadc2a19-60d0-4c03-8f03-62bd629186ac
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Calculates sizes for private opened heap and resources.
 
 ## -prototype
 
@@ -69,18 +69,14 @@ PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_OPENHEAP_0003.
 
 ## -returns
 
-Returns D3D12DDI_HEAP_AND_RESOURCE_SIZES that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns D3D12DDI_HEAP_AND_RESOURCE_SIZES.

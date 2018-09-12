@@ -60,7 +60,7 @@ The <b>ObInsertObject</b> routine is reserved for system use.
 
 ### -param Object
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param PassedAccessState

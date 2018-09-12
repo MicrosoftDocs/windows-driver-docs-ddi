@@ -60,7 +60,7 @@ The <b>ObMakeTemporaryObject</b> routine is reserved for system use.
 
 ### -param Object
 
-TBD
+<p>Reserved.</p>
 
 
 

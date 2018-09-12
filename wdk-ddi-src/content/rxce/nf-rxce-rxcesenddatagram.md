@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param hAddress
 
-TBD
+<p>A pointer to the transport along which the TSDU is to be sent.</p>
 
 
 ### -param pConnectionInformation [in]
@@ -70,7 +70,7 @@ A pointer to connection information that contains the remote address.
 
 ### -param SendOptions
 
-TBD
+<p>A pointer to connection information that contains the remote address.</p>
 
 
 ### -param pMdl [in]

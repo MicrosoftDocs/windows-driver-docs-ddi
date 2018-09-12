@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRe
 
 ### -param WppCb
 
-TBD
+<p>A pointer to a RECORDER_LOG_CREATE_PARAMS structure.</p>
 
 
 ### -param CreateParams

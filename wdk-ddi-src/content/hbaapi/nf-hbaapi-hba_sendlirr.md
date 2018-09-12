@@ -152,7 +152,7 @@ Pointer to a buffer that receives the payload data of the response to the LIRR, 
 
 ### -param pRspBufferSize
 
-TBD
+<p>On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member indicates the size, in bytes, of the response data. Eight bytes is sufficient for any response.</p>
 
 
 

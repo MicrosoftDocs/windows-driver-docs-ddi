@@ -60,7 +60,7 @@ The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not 
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 

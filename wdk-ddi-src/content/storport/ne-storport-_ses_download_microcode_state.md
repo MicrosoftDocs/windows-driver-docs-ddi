@@ -2,7 +2,7 @@
 UID: NE:storport._SES_DOWNLOAD_MICROCODE_STATE
 title: "_SES_DOWNLOAD_MICROCODE_STATE"
 author: windows-driver-content
-description: TBD.
+description:
 old-location: storage\ses_download_microcode_state.htm
 tech.root: storage
 ms.assetid: 5edff312-8373-4d36-b93c-c35fe8c2996a

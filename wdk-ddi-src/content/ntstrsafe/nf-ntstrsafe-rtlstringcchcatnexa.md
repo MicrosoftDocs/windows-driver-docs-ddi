@@ -78,7 +78,7 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 
 ### -param cchToAppend
 
-TBD
+<p>The maximum number of characters to append to the string that is contained in the buffer at <i>pszDest</i>.</p>
 
 
 ### -param ppszDestEnd [out, optional]

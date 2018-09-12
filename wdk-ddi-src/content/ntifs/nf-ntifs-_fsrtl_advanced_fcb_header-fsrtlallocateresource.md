@@ -60,7 +60,7 @@ The <b>FsRtlAllocateResource</b> routine is obsolete, but is exported to support
 
 ### -param
 
-TBD
+<p>Reserved.</p>
 
 
 

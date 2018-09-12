@@ -60,7 +60,7 @@ The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs 
 
 ### -param WppCb
 
-TBD
+<p>ID of the counter whose current value is to be read.</p>
 
 
 ### -param CounterOwner [in]

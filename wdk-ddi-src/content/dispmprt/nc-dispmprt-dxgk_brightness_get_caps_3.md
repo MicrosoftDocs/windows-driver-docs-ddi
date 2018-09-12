@@ -2,7 +2,7 @@
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_CAPS_3
 title: DXGK_BRIGHTNESS_GET_CAPS_3
 author: windows-driver-content
-description:
+description: Implemented by the client driver to retrieve the brightness control capabilities of an integrated display panel.
 ms.assetid: 8611cbe1-4c56-4c39-b2a7-41c73262052b
 ms.author: windowsdriverdev
 ms.date:

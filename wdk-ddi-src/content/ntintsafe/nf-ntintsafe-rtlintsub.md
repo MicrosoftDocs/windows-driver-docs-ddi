@@ -70,7 +70,7 @@ The value to subtract from <i>iMinuend</i>.
 
 ### -param piResult
 
-TBD
+<p>A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
 

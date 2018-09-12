@@ -58,13 +58,9 @@ The <b>DxgkCbEnumHandleChildren</b> function enumerates all of the allocations t
 
 
 
+### -param 
 
-
-
-
-
-
-#### - pData [in]
+*pData*
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557528">DXGKARGCB_ENUMHANDLECHILDREN</a> structure that describes the parent resource and the index of the child allocation to retrieve.
 

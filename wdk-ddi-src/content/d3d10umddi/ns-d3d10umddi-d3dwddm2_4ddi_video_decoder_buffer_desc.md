@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
 title: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
 author: windows-driver-content
-description:
+description: Represents additional decode parameters.
 ms.assetid: 24258007-5a94-4292-92d7-36e280c73fc8
 ms.author: windowsdriverdev
 ms.date:

@@ -75,7 +75,7 @@ A handle to a framework I/O target object. For more information about how to obt
 
 ### -param Options
 
-TBD
+<p>A pointer to a <a href="https://msdn.microsoft.com/library/Ff552491(v=VS.85).aspx"><b>WDF_REQUEST_SEND_OPTIONS</b></a> structure that contains caller-supplied request options. This parameter is optional and can be <b>NULL</b> if you do not want to enable any request options.</p>
 
 
 

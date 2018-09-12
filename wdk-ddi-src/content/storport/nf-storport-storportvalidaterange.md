@@ -71,7 +71,7 @@ Contains a value of type <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -param SystemIoBusNumber
 
-TBD
+<p>Contains an integer identifying a system bus.</p>
 
 
 ### -param IoAddress [in]

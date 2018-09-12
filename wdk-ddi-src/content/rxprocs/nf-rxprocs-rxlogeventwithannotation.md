@@ -65,27 +65,27 @@ A pointer to the RDBSS device object.
 
 ### -param EventId
 
-TBD
+<p>The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. </p>
 
 
 ### -param Status
 
-TBD
+<p>The value indicating the status code of a routine indicating a failure.</p>
 
 
 ### -param DataBuffer
 
-TBD
+<p>A pointer to a raw data buffer to be added to the I/O error log structure.</p>
 
 
 ### -param DataBufferLength
 
-TBD
+<p>The length of the raw data buffer to be added to the I/O error log structure.</p>
 
 
 ### -param Annotation
 
-TBD
+<p>A pointer to any annotation strings to add to the I/O error log structure.</p>
 
 
 ### -param AnnotationCount [in]

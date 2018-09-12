@@ -171,7 +171,7 @@ Specifies the number of ULONG values to follow this parameter.
 
 ### -param param
 
-TBD
+<p>Specifies a variable-sized array of ULONGs associated with the error to be logged.</p>
 
 
 

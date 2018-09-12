@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_PIPELINE_STATE_0001
 title: PFND3D12DDI_CREATE_PIPELINE_STATE_0001
 author: windows-driver-content
-description: 
+description: The pfnCreatePipelineState callback function creates a pipeline state.
 ms.assetid: 64291d84-d4c1-4629-927f-a57364d2d8c4
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+The pfnCreatePipelineState callback function creates a pipeline state.
 
 ## -prototype
 
@@ -69,18 +69,14 @@ PFND3D12DDI_CREATE_PIPELINE_STATE_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+A value used to create a pipeline state.
 
 ## -returns
 
-Returns HRESULT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns HRESULT.

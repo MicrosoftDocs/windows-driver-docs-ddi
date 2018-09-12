@@ -78,7 +78,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled <a
 
 ### -param param
 
-TBD
+<p>A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
 
 
 

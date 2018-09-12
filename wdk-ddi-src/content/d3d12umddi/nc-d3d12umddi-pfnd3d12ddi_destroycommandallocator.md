@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDALLOCATOR
 title: PFND3D12DDI_DESTROYCOMMANDALLOCATOR
 author: windows-driver-content
-description: 
+description: Destroys a command allocator.
 ms.assetid: c2d78cd5-3273-42eb-b069-bafdea236115
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Destroys a command allocator.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_DESTROYCOMMANDALLOCATOR
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
 ### -param D3D12DDI_HCOMMANDALLOCATOR: 
 
-
+A handle to a command allocator.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_CREATEPROTECTEDSESSION
 title: PFND3DKMT_CREATEPROTECTEDSESSION
 author: windows-driver-content
-description:
+description: Implemented by the client driver to create a protected session.
 ms.assetid: 000fb6fc-0d6e-4c2a-ac7c-05759d7e0d28
 ms.author: windowsdriverdev
 ms.date:

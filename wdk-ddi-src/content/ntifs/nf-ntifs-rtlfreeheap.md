@@ -88,7 +88,7 @@ Mutual exclusion will not be used when <b>RtlFreeHeap</b> is accessing the heap.
 
 ### -param BaseAddress
 
-TBD
+<p>A pointer to the memory block to free. This pointer is returned by <a href="https://msdn.microsoft.com/library/Ff552108(v=VS.85).aspx"><b>RtlAllocateHeap</b></a>. </p>
 
 
 

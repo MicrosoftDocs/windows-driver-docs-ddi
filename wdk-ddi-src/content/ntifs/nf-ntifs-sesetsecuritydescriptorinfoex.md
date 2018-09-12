@@ -118,7 +118,7 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 
 ### -param ModificationDescriptor
 
-TBD
+<p>The input security descriptor to be applied to the object. The caller of this routine is expected to probe and capture the passed security descriptor before calling, and to release it after calling.</p>
 
 
 ### -param ObjectsSecurityDescriptor [in, out]

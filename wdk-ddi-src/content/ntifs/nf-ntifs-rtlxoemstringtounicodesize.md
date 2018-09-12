@@ -60,7 +60,7 @@ The <b>RtlxOemStringToUnicodeSize</b> routine is reserved for system use - use <
 
 ### -param OemString
 
-TBD
+<p>Reserved.</p>
 
 
 

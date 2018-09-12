@@ -2,7 +2,7 @@
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_INFO
 title: _D3DDDI_QUERYREGISTRY_INFO
 author: windows-driver-content
-description:
+description: Contains information about the query registry.
 ms.assetid: 946cbde2-3fb2-4974-a446-178c91a81e49
 ms.author: windowsdriverdev
 ms.date:

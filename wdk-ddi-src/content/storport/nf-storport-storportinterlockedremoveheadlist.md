@@ -72,7 +72,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt79
 
 ### -param Result
 
-TBD
+<p>Pointer to a <a href="https://msdn.microsoft.com/library/Mt790432(v=VS.85).aspx"><b>STOR_LIST_ENTRY</b></a> structure that represents the entry removed from the list. If the list was empty, the routine returns <b>NULL</b>.</p>
 
 
 ### -param Lock [in, out]

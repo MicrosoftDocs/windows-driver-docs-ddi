@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
 title: PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
 author: windows-driver-content
-description: 
+description: Get implicit physical adapter mask.
 ms.assetid: c9f5b9fc-5d92-4e27-bad2-67bba6d1f7c3
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Get implicit physical adapter mask.
 
 ## -prototype
 
@@ -68,17 +68,20 @@ PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
 
 
 
 ## -returns
 
-Returns UINT that ...
+Returns UINT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

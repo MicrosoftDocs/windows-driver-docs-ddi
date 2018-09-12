@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param Fcb
 
-TBD
+<p>A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. </p>
 
 
 

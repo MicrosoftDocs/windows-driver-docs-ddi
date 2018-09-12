@@ -63,7 +63,7 @@ The <b>AtaPortInitializeQueueTag</b> routine initializes the queue tag list for 
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]

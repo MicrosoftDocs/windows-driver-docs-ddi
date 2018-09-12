@@ -67,7 +67,7 @@ A pointer to the string value to initialize the SDP_NODE structure.
 
 ### -param stringLength
 
-TBD
+<p>An unsigned long integer value that holds the length of the string.</p>
 
 
 ### -param tag [in]

@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
 title: PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
 author: windows-driver-content
-description: 
+description: Create constant buffer view.
 ms.assetid: 20f24353-affc-4862-ba13-e3bfc2c0a74d
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Create constant buffer view.
 
 ## -prototype
 
@@ -70,19 +70,18 @@ PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param *
+
+Pointer to a D3D12DDI_CONSTANT_BUFFER_VIEW_DESC structure.
+
 ### -param DestDescriptor: 
 
-
+CPU descriptor handle.
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

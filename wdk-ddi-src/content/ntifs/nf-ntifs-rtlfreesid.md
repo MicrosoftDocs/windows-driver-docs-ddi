@@ -60,7 +60,7 @@ The <b>RtlFreeSid</b> routine is reserved for system use.
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

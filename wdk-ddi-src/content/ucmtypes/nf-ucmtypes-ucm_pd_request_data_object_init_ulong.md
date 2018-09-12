@@ -61,7 +61,7 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 ### -param Rdo
 
-TBD
+<p>A pointer to a <a href="https://msdn.microsoft.com/library/Mt187942(v=VS.85).aspx"><b>UCM_PD_REQUEST_DATA_OBJECT</b></a> structure.</p>
 
 
 ### -param UlongInLittleEndian [in]

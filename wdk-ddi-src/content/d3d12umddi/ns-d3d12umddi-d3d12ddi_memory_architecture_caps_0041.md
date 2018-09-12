@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041
 title: D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041
 author: windows-driver-content
-description:
+description: Defines the memory architecture capabilities.
 ms.assetid: e69b499c-3865-4829-9b76-672130a2b648
 ms.author: windowsdriverdev
 ms.date:

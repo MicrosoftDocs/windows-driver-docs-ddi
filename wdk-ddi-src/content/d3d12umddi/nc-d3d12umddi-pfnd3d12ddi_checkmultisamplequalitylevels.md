@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
 title: PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
 author: windows-driver-content
-description:
+description: Implemented by the client driver to check multi-sample quality levels.
 ms.assetid: 50197de3-654f-47d1-9213-d10ac78c0299
 ms.author: windowsdriverdev
 ms.date:
@@ -72,19 +72,28 @@ PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
 
 ## -parameters
 
-### -param hDevice:
-### -param Format:
-### -param SampleCount:
-### -param Flags:
+### -param hDevice
+
+A handle to a device.
+
+### -param Format
+
+A DXGI_FORMAT.
+
+### -param SampleCount
+
+The sample count.
+
+### -param Flags
+
+Multi-sample quality level flags.
+
 ### -param *pNumQualityLevels:
 
-
+The number of quality levels.
 
 ## -returns
 
 Returns VOID.
 
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 

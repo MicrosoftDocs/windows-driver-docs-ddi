@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>A pointer to the MID_ATLAS structure.</p>
 
 
 ### -param Mid

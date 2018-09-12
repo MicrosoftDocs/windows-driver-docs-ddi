@@ -75,7 +75,7 @@ If the value is <b>TRUE</b>, the data value normally returned is treated as a fi
 
 ### -param GetRegistryRoutine
 
-TBD
+<p>Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/Ff567361(v=VS.85).aspx"><i>HwVidQueryNamedValueCallback</i></a> function.</p>
 
 
 ### -param Context

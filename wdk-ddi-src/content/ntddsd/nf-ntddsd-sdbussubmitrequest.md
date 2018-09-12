@@ -65,7 +65,7 @@ Contains the context information returned by the <a href="https://msdn.microsoft
 
 ### -param Packet
 
-TBD
+<p>Pointer to a caller-supplied structure of type <a href="https://msdn.microsoft.com/library/Ff537931(v=VS.85).aspx"><b>SDBUS_REQUEST_PACKET</b></a> that describes the request.</p>
 
 
 

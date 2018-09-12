@@ -61,17 +61,17 @@ The <b>StorPortWritePortUshort</b> routine writes a value to a specified registe
 
 ### -param h
 
-TBD
+<p>Pointer to the hardware device extension.</p>
 
 
 ### -param p
 
-TBD
+<p>Contains the address of the port to be written to. </p>
 
 
 ### -param v
 
-TBD
+<p>Contains the value to be written. </p>
 
 
 

@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_MAPMDLTOIOMMU
 title: DXGKCB_MAPMDLTOIOMMU
 author: windows-driver-content
-description:
+description: Implemented by the client driver to map physical pages described by a memory descriptor list (MDL) into the system virtual address space, and use them with the IoMmu.
 ms.assetid: 8badbe56-f46c-442c-8918-5e99db889278
 ms.author: windowsdriverdev
 ms.date:

@@ -70,7 +70,7 @@ Pointer to a caller-allocated buffer that receives the requested volume property
 
 ### -param VolumePropertiesLength
 
-TBD
+<p>Size, in bytes, of the buffer pointed to by the <i>VolumeProperties</i> parameter. This parameter is optional and can be zero. If it is zero, <i>LengthReturned</i> receives the size, in bytes, of the buffer needed to hold the volume properties. If this parameter is nonzero, it must be at least the value of <b>sizeof(</b>FLT_VOLUME_PROPERTIES<b>)</b>. </p>
 
 
 ### -param LengthReturned [out]

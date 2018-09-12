@@ -67,7 +67,7 @@ A handle to a framework request object that contains the <a href="https://msdn.m
 
 ### -param BytesCompleted
 
-TBD
+<p>The number of transferred bytes to set in the <a href="https://msdn.microsoft.com/library/Ff538923(v=VS.85).aspx"><b>URB</b></a>. This value must not be greater than the transfer buffer length.</p>
 
 
 

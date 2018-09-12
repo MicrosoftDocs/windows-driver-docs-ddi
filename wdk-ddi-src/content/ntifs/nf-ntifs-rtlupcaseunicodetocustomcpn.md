@@ -60,7 +60,7 @@ The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <
 
 ### -param CustomCP
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param CustomCPString

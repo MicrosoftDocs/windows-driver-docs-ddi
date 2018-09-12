@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040
 title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040
 author: windows-driver-content
-description:
+description: Command list functions for video decode.
 ms.assetid: 456af5da-43f5-4915-961d-ec31963ea629
 ms.author: windowsdriverdev
 ms.date:
