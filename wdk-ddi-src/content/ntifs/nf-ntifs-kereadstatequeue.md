@@ -60,7 +60,7 @@ The <b>KeReadStateQueue</b> routine is reserved for system use.
 
 ### -param Queue
 
-TBD
+<p>Reserved.</p>
 
 
 

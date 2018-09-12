@@ -60,7 +60,7 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 ### -param WppCb
 
-TBD
+<p>Pointer to a <a href="https://msdn.microsoft.com/library/Dn895242(v=VS.85).aspx"><b>WPP_TRIAGE_INFO</b></a> structure.</p>
 
 
 ### -param WppTriageInfo [out]

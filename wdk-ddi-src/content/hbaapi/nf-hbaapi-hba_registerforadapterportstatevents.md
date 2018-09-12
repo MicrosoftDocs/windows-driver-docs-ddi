@@ -65,12 +65,12 @@ Pointer to a callback routine of type <a href="https://msdn.microsoft.com/librar
 
 ### -param pUserData
 
-TBD
+<p>Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. </p>
 
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA for which the adapter events are generated. </p>
 
 
 ### -param PortWWN
@@ -92,7 +92,7 @@ If the value of <i>statType </i>is HBA_EVENT_PORT_STAT_GROWTH, then the values i
 
 ### -param pCallbackHandle
 
-TBD
+<p>Pointer to an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/Ff557175(v=VS.85).aspx"><b>HBA_RemoveCallback</b></a> to de-register the callback routine.</p>
 
 
 

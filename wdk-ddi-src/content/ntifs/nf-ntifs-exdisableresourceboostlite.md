@@ -60,7 +60,7 @@ This routine is reserved for system use. Do not use this routine in your driver.
 
 ### -param Resource
 
-TBD
+<p>Reserved.</p>
 
 
 

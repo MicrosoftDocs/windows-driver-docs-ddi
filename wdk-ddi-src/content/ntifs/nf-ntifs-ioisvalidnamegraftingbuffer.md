@@ -60,7 +60,7 @@ The <b>IoIsValidNameGraftingBuffer</b> routine is reserved for system use.
 
 ### -param Irp
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param ReparseBuffer

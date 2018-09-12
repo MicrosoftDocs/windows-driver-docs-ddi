@@ -70,7 +70,7 @@ ExtRemoteTyped & operator=(
 
 ### -param
 
-TBD
+<p>A pointer to a <a href="https://msdn.microsoft.com/library/Ff541706(v=VS.85).aspx"><b>DEBUG_TYPED_DATA</b></a> structure that describes the data and type to be assigned to this object.</p>
 
 
 

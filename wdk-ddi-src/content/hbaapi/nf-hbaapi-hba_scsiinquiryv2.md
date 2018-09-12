@@ -70,12 +70,12 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA po
 
 ### -param DiscoveredPortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote HBA port to which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param FcLUN
 
-TBD
+<p>Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. </p>
 
 
 ### -param CDB_Byte1 [in]

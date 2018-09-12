@@ -60,7 +60,7 @@ The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a hr
 
 ### -param DeviceExtension
 
-TBD
+<p>Pointer to a per-adapter device extension.</p>
 
 
 ### -param LockHandle [in, out]

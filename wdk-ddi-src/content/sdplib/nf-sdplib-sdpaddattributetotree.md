@@ -62,7 +62,8 @@ The Bluetooth
 
 ### -param Tree
 
-TBD
+<p>The top level of the SDP record to which the 
+     <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.</p>
 
 
 ### -param AttribId [in]
@@ -72,7 +73,7 @@ The identifier of the attribute to attach.
 
 ### -param AttribValue
 
-TBD
+<p>Pointer to the SDP node to be added as an attribute.</p>
 
 
 ### -param tag [in]

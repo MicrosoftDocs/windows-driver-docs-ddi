@@ -66,7 +66,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA). This 
 
 ### -param Address
 
-TBD
+<p>A pointer to the power control code. This code is a GUID value that specifies the requested operation.</p>
 
 
 ### -param PowerControlCode [in]

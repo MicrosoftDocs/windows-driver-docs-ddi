@@ -519,12 +519,12 @@ The maximum number of instances allowed for this named pipe.
 
 ### -param InboundQuota
 
-TBD
+<p>The number of bytes to reserve for the input buffer.</p>
 
 
 ### -param OutboundQuota
 
-TBD
+<p>The number of bytes to reserve for the output buffer.</p>
 
 
 ### -param DefaultTimeout [in, optional]

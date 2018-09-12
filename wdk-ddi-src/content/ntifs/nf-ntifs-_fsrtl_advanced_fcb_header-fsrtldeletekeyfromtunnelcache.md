@@ -65,7 +65,7 @@ A pointer to a tunnel cache that was initialized by <a href="https://msdn.micros
 
 ### -param DirectoryKey
 
-TBD
+<p>The directory key value for the directory that is being removed. For more information, see the reference entry for <a href="https://msdn.microsoft.com/library/Ff546153(v=VS.85).aspx"><b>FsRtlInitializeTunnelCache</b></a>.</p>
 
 
 

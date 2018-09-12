@@ -78,7 +78,8 @@ BOOLEAN NdisMSynchronizeWithInterruptEx(
 
 ### -param
 
-TBD
+<p>An interrupt handle that the miniport driver obtained in a previous call to the 
+     <a href="https://msdn.microsoft.com/library/Ff563649(v=VS.85).aspx"><b>NdisMRegisterInterruptEx</b></a> function.</p>
 
 
 

@@ -60,7 +60,7 @@ The <b>RtlCompressChunks</b> routine is reserved for system use.
 
 ### -param UncompressedBuffer
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param UncompressedBufferSize

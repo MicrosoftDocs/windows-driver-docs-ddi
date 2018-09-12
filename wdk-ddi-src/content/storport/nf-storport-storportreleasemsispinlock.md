@@ -65,7 +65,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param MessageId
 
-TBD
+<p>The identifier of the message.</p>
 
 
 ### -param OldIrql [in]

@@ -60,7 +60,7 @@ The <b>IoIsFileOpenedExclusively</b> macro is reserved for system use.
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 

@@ -61,7 +61,7 @@ Creates a UDE endpoint object.
 
 ### -param EndpointInit
 
-TBD
+<p>A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/Mt627989(v=VS.85).aspx"><b>UdecxUsbSimpleEndpointInitAllocate</b></a>.</p>
 
 
 ### -param Attributes [in, optional]

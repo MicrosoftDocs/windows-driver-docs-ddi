@@ -60,7 +60,7 @@ The <b>AtaPortAllocateQueueTag</b> routine returns a queue tag for the specified
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]

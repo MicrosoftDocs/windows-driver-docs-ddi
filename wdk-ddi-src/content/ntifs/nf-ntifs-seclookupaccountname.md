@@ -81,7 +81,7 @@ A pointer to a SID_NAME_USE enumerated type that indicates the type of the accou
 
 ### -param OPTIONAL
 
-TBD
+<p>A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.</p>
 
 
 

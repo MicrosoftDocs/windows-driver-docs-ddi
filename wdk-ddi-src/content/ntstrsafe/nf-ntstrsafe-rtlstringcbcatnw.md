@@ -82,7 +82,7 @@ Pointer to a null-terminated string. This string will be concatenated to the end
 
 ### -param cbToAppend
 
-TBD
+<p>The maximum number of bytes to append to the string that is contained in the buffer at <i>pszDest</i>.</p>
 
 
 

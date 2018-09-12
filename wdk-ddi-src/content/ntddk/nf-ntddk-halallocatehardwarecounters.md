@@ -60,7 +60,7 @@ The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware perfo
 
 ### -param GroupAffinty
 
-TBD
+<p>Reserved for future use. Set this parameter to <b>NULL</b>.</p>
 
 
 ### -param GroupCount [in]

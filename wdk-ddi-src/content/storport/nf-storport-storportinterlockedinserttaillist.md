@@ -77,7 +77,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt7904
 
 ### -param Result
 
-TBD
+<p>Pointer to a <a href="https://msdn.microsoft.com/library/Mt790432(v=VS.85).aspx"><b>STOR_LIST_ENTRY</b></a> structure that represents the first entry of the list before the new entry was inserted.</p>
 
 
 ### -param Lock [in, out]

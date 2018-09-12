@@ -65,7 +65,7 @@ A pointer to the file system device object.
 
 ### -param DiskDeviceObject
 
-TBD
+<p>A pointer to a variable that receives the address of the device object for the disk device object. </p>
 
 
 

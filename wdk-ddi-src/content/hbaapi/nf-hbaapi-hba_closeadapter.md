@@ -60,7 +60,7 @@ The <b>HBA_CloseAdapter</b> routine releases system resources associated with th
 
 ### -param handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA. </p>
 
 
 

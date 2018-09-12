@@ -66,7 +66,7 @@ Pointer to the hardware device extension of the adapter to pause. This is a per-
 
 ### -param Timeout
 
-TBD
+<p>Specifies the interval of time, in seconds, that the adapter is to be paused. </p>
 
 
 

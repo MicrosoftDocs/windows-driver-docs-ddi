@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914611">WppRe
 
 ### -param WppCb
 
-TBD
+<p>Pointer to a caller-allocated RECORDER_CONFIGURE_PARAMS structure.</p>
 
 
 ### -param ConfigureParams

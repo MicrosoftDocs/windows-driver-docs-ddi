@@ -60,7 +60,7 @@ The <b>MmFlushImageSection</b> routine flushes the image section for a file.
 
 ### -param SectionObjectPointer
 
-TBD
+<p>Pointer to a structure that contains the file object's section object pointers.</p>
 
 
 ### -param FlushType [in]

@@ -60,7 +60,7 @@ The <b>HBA_GetPersistentBindingV2</b> routine retrieves persistent bindings, inc
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA to query for the persistent bindings. The HBA returns bindings for the logical units that it can enumerate on the port specified by <i>HbaPortWWN</i>. </p>
 
 
 ### -param HbaPortWWN [in]

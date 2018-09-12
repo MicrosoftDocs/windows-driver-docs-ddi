@@ -60,7 +60,7 @@ The <b>FsRtlReleaseFile</b> routine is reserved for system use. See <a href="htt
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 

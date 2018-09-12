@@ -60,7 +60,7 @@ The <b>GET_ISO_URB_SIZE</b> macro returns the number of bytes required to hold a
 
 ### -param n
 
-TBD
+<p>Specifies the number of isochronous transfer packets that will be part of the transfer request.</p>
 
 
 

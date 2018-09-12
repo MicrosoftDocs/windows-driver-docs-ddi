@@ -62,7 +62,7 @@ Notifies UCX about a new port change event from host controller.
 
 ### -param Controller
 
-TBD
+<p> A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/Mt188033(v=VS.85).aspx"><b>UcxControllerCreate</b></a> method.</p>
 
 
 ### -param UcxControllerTransportCharacteristics [out]

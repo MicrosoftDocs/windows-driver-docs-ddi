@@ -60,7 +60,7 @@ The <b>IoCheckFunctionAccess</b> routine is reserved for system use. See <a href
 
 ### -param GrantedAccess
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param MajorFunction

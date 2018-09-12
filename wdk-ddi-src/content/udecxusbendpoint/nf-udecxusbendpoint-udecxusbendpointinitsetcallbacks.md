@@ -61,7 +61,7 @@ Sets pointers to UDE client driver-implemented  callback functions in the initia
 
 ### -param UdecxUsbEndpointInit
 
-TBD
+<p>A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/Mt627989(v=VS.85).aspx"><b>UdecxUsbSimpleEndpointInitAllocate</b></a>.</p>
 
 
 ### -param EndpointCallbacks [in]

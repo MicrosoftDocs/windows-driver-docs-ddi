@@ -52,7 +52,7 @@ req.typenames:
 
 
 			
-              Initializes the specified correlation vector with
+              Initializes the specified [correlation vector](https://github.com/Microsoft/CorrelationVector) with
     the supplied GUID.
 
 

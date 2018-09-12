@@ -60,7 +60,7 @@ Notifies UFX when the client driver receives a setup packet from the host.
 
 ### -param UfxEndpoint
 
-TBD
+<p>A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/Mt187951(v=VS.85).aspx"><b>UfxDeviceCreate</b></a>.</p>
 
 
 ### -param SetupInfo [in]

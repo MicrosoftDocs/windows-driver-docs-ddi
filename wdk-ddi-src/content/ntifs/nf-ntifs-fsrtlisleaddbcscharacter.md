@@ -60,7 +60,7 @@ The <b>FsRtlIsLeadDbcsCharacter</b> macro determines whether a character is a le
 
 ### -param DBCS_CHAR
 
-TBD
+<p>The character to be tested.</p>
 
 
 

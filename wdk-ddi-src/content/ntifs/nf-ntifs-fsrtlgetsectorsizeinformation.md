@@ -60,7 +60,7 @@ The <b>FsRtlGetSectorSizeInformation</b> routine retrieves the physical and logi
 
 ### -param DeviceObject
 
-TBD
+<p>The target device object for a storage device.</p>
 
 
 ### -param SectorSizeInfo [out]
