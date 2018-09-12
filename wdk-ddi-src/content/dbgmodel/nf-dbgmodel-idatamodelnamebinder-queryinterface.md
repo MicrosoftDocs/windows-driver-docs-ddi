@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 30c88578-1a85-4127-8e4b-446931a60e29
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018 
 ms.topic: method
 ms.keywords: IDataModelNameBinder::QueryInterface, QueryInterface, IDataModelNameBinder.QueryInterface, IDataModelNameBinder::QueryInterface, IDataModelNameBinder.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,7 +54,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)

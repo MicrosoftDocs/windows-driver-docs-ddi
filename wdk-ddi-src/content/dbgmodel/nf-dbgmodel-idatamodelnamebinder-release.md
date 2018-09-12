@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 13f662d0-27ba-4760-b23e-c822a0b03c6f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)

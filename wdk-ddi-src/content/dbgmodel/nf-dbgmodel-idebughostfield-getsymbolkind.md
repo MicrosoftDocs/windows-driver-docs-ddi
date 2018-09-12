@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b7737952-db0d-41e3-b137-232293b513d0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018 
 ms.topic: method
 ms.keywords: IDebugHostField::GetSymbolKind, GetSymbolKind, IDebugHostField.GetSymbolKind, IDebugHostField::GetSymbolKind, IDebugHostField.GetSymbolKind
 req.header: dbgmodel.h
@@ -52,7 +52,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostField interface](nn-dbgmodel-idebughostfield.md)

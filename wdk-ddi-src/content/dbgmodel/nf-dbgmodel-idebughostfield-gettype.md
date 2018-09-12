@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: db92380d-d0a4-4530-af78-5fe60a35861b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018  
 ms.topic: method
 ms.keywords: IDebugHostField::GetType, GetType, IDebugHostField.GetType, IDebugHostField::GetType, IDebugHostField.GetType
 req.header: dbgmodel.h
@@ -52,7 +52,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostField interface](nn-dbgmodel-idebughostfield.md)

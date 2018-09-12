@@ -56,6 +56,7 @@ The abstract location (e.g.: address) of the data will be returned here.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 **Sample Code**

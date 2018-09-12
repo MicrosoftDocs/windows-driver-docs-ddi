@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 3166599e-94ec-4ca7-b883-b8353ced57f0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostErrorSink::QueryInterface, QueryInterface, IDebugHostErrorSink.QueryInterface, IDebugHostErrorSink::QueryInterface, IDebugHostErrorSink.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDebugHostErrorSink interface](nn-dbgmodel-idebughosterrorsink.md)

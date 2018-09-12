@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: dc3fe2ae-10cd-433d-a3b0-d8bcf8314581
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostErrorSink::AddRef, AddRef, IDebugHostErrorSink.AddRef, IDebugHostErrorSink::AddRef, IDebugHostErrorSink.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IDebugHostErrorSink interface](nn-dbgmodel-idebughosterrorsink.md)
