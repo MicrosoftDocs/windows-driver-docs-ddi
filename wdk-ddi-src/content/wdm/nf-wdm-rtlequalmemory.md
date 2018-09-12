@@ -60,17 +60,17 @@ The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whe
 
 ### -param Destination [in]
 
-Pointer to a caller-allocated block of memory to compare. 
+Datatype: void*. A pointer to a caller-allocated block of memory to compare.
 
 
 ### -param Source [in]
 
-Pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points. 
+Datatype: void*. A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
 
 
 ### -param Length [in]
 
-Specifies the number of bytes to be compared. 
+Datatype: size_t. Specifies the number of bytes to be compared.
 
 
 ## -remarks

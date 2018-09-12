@@ -58,8 +58,9 @@ A callback routine implemented by a driver to notify the caller when a process i
 
 
 
-### -param Process
+### -param Process [_Inout_]
 
+A pointer to the EPROCESS structure that represents the process. Drivers can use the [**PsGetCurrentProcess**](../wdm/nf-wdm-iogetcurrentprocess.md) and [**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md) routines to obtain a pointer to the EPROCESS structure for a process.
 
 ### -param ProcessId [in]
 
@@ -68,12 +69,7 @@ The process ID of the process.
 
 ### -param CreateInfo [in, out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559960">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. 
-
-
-#### - ParentId [in]
-
-The process ID of the parent process.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559960">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. If this parameter is NULL, the specified process is exiting.
 
 
 ## -returns
