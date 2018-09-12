@@ -64,9 +64,11 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 ### -param Arg2
 
+The handle of a command list.
 
 ### -param Arg3
 
+The handle of a query heap.
 
 ### -param StartElement
 
@@ -93,14 +95,6 @@ The destination offset.
 A query type.
 
 
-#### - hCommandList
-
-The handle of a command list.
-
-
-#### - hQueryHeap
-
-The handle of a query heap.
 
 
 ## -returns

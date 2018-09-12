@@ -50,7 +50,7 @@ req.typenames: CORRELATION_VECTOR
 ## -description
 
 
-Store the correlation vector that is used to reference events and the generated logs
+Store the [correlation vector](https://github.com/Microsoft/CorrelationVector) that is used to reference events and the generated logs
     for diagnostic purposes.
 
 

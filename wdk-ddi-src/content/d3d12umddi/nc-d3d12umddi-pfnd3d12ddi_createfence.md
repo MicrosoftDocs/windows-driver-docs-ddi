@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEFENCE
 title: PFND3D12DDI_CREATEFENCE
 author: windows-driver-content
-description: 
+description: Creates a fence.
 ms.assetid: dcfe2112-bb20-4808-9cd3-59aa56875af7
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Creates a fence.
 
 ## -prototype
 
@@ -70,19 +70,18 @@ PFND3D12DDI_CREATEFENCE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
 ### -param D3D12DDI_HFENCE: 
-### -param *: 
 
+A fence handle.
 
+### -param * 
+
+Pointer to a D3D12DDIARG_CREATE_FENCE structure.
 
 ## -returns
 
-Returns HRESULT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns HRESULT.

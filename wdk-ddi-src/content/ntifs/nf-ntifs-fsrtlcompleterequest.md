@@ -60,12 +60,12 @@ The <b>FsRtlCompleteRequest</b> macro completes an IRP with the specified status
 
 ### -param IRP
 
-TBD
+<p>Pointer to the IRP to be completed.</p>
 
 
 ### -param STATUS
 
-TBD
+<p>Status value to be returned for the IRP.</p>
 
 
 

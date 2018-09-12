@@ -60,40 +60,20 @@ The <i>pfnCreateCommandQueue</i> callback function is used to create command que
 
 ### -param Arg1
 
+The handle of a device.
 
 ### -param *
 
+An argument used to create a command queue.
 
 ### -param Arg2
 
+The handle of a command queue.
 
 ### -param Arg3
 
-
-
-
-
-
-
-
-### -param CreateCommandQueue [in]
-
-An argument used to create a command queue.
-
-
-### -param hDevice
-
-The handle of a device.
-
-
-### -param hDrvCommandQueue
-
-The handle of a command queue.
-
-
-### -param hRTCommandQueue
-
 The handle of the command queue for the driver to use when it calls back into the runtime.
+
 
 
 ## -returns

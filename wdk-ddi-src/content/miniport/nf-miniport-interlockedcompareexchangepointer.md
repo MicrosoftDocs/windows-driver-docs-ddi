@@ -70,7 +70,7 @@ Specifies the PVOID value to set (*<i>Destination</i>) to.
 
 ### -param Comperand
 
-TBD
+<p>Specifies the PVOID value to compare with (*<i>Destination</i>).</p>
 
 
 

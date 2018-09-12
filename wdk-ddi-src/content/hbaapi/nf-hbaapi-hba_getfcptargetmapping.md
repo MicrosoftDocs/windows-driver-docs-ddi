@@ -60,7 +60,7 @@ The <b>HBA_GetFcpTargetMapping</b> routine retrieves the mappings between operat
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA to query for the target mappings. The HBA returns mappings for the targets that it can enumerate. </p>
 
 
 ### -param Mapping [in, out]

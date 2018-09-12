@@ -60,7 +60,7 @@ The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use.
 
 ### -param Number
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param OldIrql

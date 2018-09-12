@@ -70,7 +70,7 @@ A pointer to memory allocated by the caller to store the ID in the thread.
 
 ### -param OriginalId
 
-TBD
+<p>Upon successfully returning from the call, holds the ID that was previously set on the thread. The driver must call <a href="https://msdn.microsoft.com/library/Hh439297(v=VS.85).aspx"><b>IoClearActivityIdThread</b></a> with this pointer when tracing is completed within the same thread context.</p>
 
 
 

@@ -65,7 +65,7 @@ A pointer to the callback data containing the request with an associated activit
 
 ### -param PropagateId
 
-TBD
+<p>A pointer to a caller allocated <b>GUID</b> which stores the activity ID for the current thread.</p>
 
 
 ### -param OriginalId [out]

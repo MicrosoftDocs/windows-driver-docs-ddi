@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895241">WppRe
 
 ### -param WppCb
 
-TBD
+<p>A recorder log handle returned in a previous call to WppRecorderLogCreate.</p>
 
 
 ### -param RecorderLog

@@ -65,7 +65,7 @@ Pointer to the device object representing the disk whose partition tables are to
 
 ### -param DriveLayout
 
-TBD
+<p>Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="https://msdn.microsoft.com/library/Ff552662(v=VS.85).aspx"><b>DRIVE_LAYOUT_INFORMATION_EX</b></a>.</p>
 
 
 

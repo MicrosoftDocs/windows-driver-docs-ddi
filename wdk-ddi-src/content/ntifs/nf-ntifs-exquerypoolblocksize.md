@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param PoolBlock
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param QuotaCharged

@@ -63,7 +63,7 @@ The <b>AtaPortReleaseQueueTag</b> routine releases the specified queue tag.
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]

@@ -65,7 +65,7 @@ The value to be converted.
 
 ### -param pui8Result
 
-TBD
+<p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
 

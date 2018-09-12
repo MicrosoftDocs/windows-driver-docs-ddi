@@ -62,7 +62,7 @@ The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function initializes a <a href="ht
 
 ### -param ExtendedPolicy
 
-TBD
+<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Ff552349(v=VS.85).aspx"><b>WDF_INTERRUPT_EXTENDED_POLICY</b></a> structure.</p>
 
 
 

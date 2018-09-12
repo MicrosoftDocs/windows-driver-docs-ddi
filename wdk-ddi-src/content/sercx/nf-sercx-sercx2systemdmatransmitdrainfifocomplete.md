@@ -60,7 +60,7 @@ The <b>SerCx2SystemDmaTransmitDrainFifoComplete</b> method notifies version 2 of
 
 ### -param SystemDmaTransmit
 
-TBD
+<p>A <a href="https://msdn.microsoft.com/library/Dn265308(v=VS.85).aspx"><b>SERCX2SYSTEMDMATRANSMIT</b></a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/Dn265288(v=VS.85).aspx"><b>SerCx2SystemDmaTransmitCreate</b></a> method to create this object.</p>
 
 
 

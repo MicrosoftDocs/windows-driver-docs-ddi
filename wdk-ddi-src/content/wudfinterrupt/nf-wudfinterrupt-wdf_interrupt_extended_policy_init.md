@@ -63,7 +63,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552350">WDF_I
 
 ### -param ExtendedPolicy
 
-TBD
+<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Ff552349(v=VS.85).aspx"><b>WDF_INTERRUPT_EXTENDED_POLICY</b></a> structure.</p>
 
 
 

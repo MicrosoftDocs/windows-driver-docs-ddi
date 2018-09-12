@@ -60,7 +60,7 @@ The <b>RtlOemStringToUnicodeSize</b> routine determines the size, in bytes, that
 
 ### -param STRING
 
-TBD
+<p>Pointer to a caller-allocated OEM string. </p>
 
 
 

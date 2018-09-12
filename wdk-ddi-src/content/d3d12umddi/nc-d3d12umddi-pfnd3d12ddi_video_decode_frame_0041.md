@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 author: windows-driver-content
-description:
+description: Implemented by the client driver to decode a video frame.
 ms.assetid: 4b403250-5567-431a-9df0-609ca59b1f9e
 ms.author: windowsdriverdev
 ms.date:

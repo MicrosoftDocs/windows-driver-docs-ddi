@@ -60,22 +60,51 @@ The <b>FsRtlInitPerStreamContext</b> macro initializes a filter driver context s
 
 ### -param _fc
 
-TBD
+<p>Pointer to a caller-allocated FSRTL_PER_STREAM_CONTEXT structure to be used to maintain context information for a file stream. This structure can be used as is or embedded in a driver-defined per-stream context structure. Both structure types are commonly allocated by calling <a href="https://msdn.microsoft.com/library/Ff544520(v=VS.85).aspx"><b>ExAllocatePoolWithTag</b></a>. </p>
 
 
 ### -param _owner
 
-TBD
+<p>Pointer to a caller-allocated variable that uniquely identifies the owner of the per-stream context structure. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of a driver object or device object. Callers must specify a non-<b>NULL</b> value for this parameter. </p>
 
 
 ### -param _inst
 
-TBD
+<p>Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the stream context object for the file stream. (To get this address from a file object, use the <a href="https://msdn.microsoft.com/library/Ff546056(v=VS.85).aspx"><b>FsRtlGetPerStreamContextPointer</b></a> macro.) This parameter is optional and can be <b>NULL</b>. </p>
 
 
 ### -param _cb
 
-TBD
+<p>Pointer to a callback routine that frees the per-stream context structure. Callers must specify a non-<b>NULL</b> value for this parameter. This routine and its parameters are defined as follows: </p>
+  <div class="code">
+    <span codelanguage="">
+      <table>
+        <tr>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <pre>typedef
+VOID (*PFREE_FUNCTION) (
+          IN PVOID Buffer
+          );</pre>
+          </td>
+        </tr>
+      </table>
+    </span>
+  </div>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="Buffer"></a>
+      <a id="buffer"></a>
+      <a id="BUFFER"></a>
+      <i>Buffer</i>
+    </dt>
+    
+      <p>Pointer to the per-stream context structure to be freed. The <i>FreeCallback</i> routine typically casts this pointer to the appropriate structure pointer type and frees it by calling <a href="https://msdn.microsoft.com/library/Ff544590(v=VS.85).aspx"><b>ExFreePool</b></a>. </p>
+    
+  </dl>
 
 
 

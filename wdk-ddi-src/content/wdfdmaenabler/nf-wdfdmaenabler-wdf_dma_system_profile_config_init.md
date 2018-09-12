@@ -62,7 +62,7 @@ The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> function initializes a driver's <a
 
 ### -param DmaConfig
 
-TBD
+<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Hh439495(v=VS.85).aspx"><b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b></a> structure.</p>
 
 
 ### -param Address [in]

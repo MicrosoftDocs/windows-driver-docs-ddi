@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param ThisFcb
 
-TBD
+<p>A pointer to the FCB structure to be dereferenced and finalized.</p>
 
 
 ### -param RxContext [in]

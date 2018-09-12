@@ -60,7 +60,7 @@ The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to suppor
 
 ### -param Oplock
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param IrpSp

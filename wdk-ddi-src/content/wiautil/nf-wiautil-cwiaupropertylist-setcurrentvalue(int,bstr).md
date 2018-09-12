@@ -2,12 +2,12 @@
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,BSTR)
 title: CWiauPropertyList::SetCurrentValue(INT,BSTR)
 author: windows-driver-content
-description: The CWiauPropertyList::SetCurrentValue(BSTR) method sets the current value of a property of type BSTR, and sets its type to VT_BSTR.
+description: The CWiauPropertyList::SetCurrentValue(INT,BSTR) method sets the current value of a property of type BSTR, and sets its type to VT_BSTR.
 old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
 tech.root: image
 ms.assetid: 017ab648-ee62-47f5-abd3-f4eac4378b8a
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 9/7/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,BSTR), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT  ,BSTR  ), CWiauPropertyList::SetCurrentValue(INT,BSTR ), CWiauPropertyList::SetCurrentValue(INT,BSTR), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_bstr_, wiauFncs_dfd640f7-63c2-41a6-adf3-589e87aa85cc.xml, wiautil/CWiauPropertyList::SetCurrentValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,52 +46,28 @@ req.typenames:
 
 # CWiauPropertyList::SetCurrentValue(INT,BSTR)
 
-
 ## -description
 
-
-The <b>CWiauPropertyList::SetCurrentValue(BSTR)</b> method sets the current value of a property of type <b>BSTR</b>, and sets its type to VT_BSTR.
-
+The **CWiauPropertyList::SetCurrentValue(INT,BSTR)** method sets the current value of a property of type **BSTR**, and sets its type to VT_BSTR.
 
 ## -parameters
 
-
-
-
 ### -param index
 
-Specifies the property index. Set this parameter to the value in *<i>pIdx</i> when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a> method returns.
-
+Specifies the property index. Set this parameter to the value in *_pIdx_ when the [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md) method returns.
 
 ### -param value
 
-Pointer to a memory location containing the value that is written to the device property in the property list. This pointer must remain valid until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a> method is called.
-
+Pointer to a memory location containing the value that is written to the device property in the property list. This pointer must remain valid until the [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md) method is called.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
+[CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
+[CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
-
-<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a>
- 
-
- 
-
+[CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)

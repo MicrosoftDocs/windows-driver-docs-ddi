@@ -80,7 +80,7 @@ One of the following IRP major function codes: IRP_MJ_DEVICE_CONTROL, IRP_MJ_INT
 
 ### -param EvtDeviceWdmIrpDisptach
 
-TBD
+<p>A pointer to the driver's <a href="https://msdn.microsoft.com/library/Hh406404(v=VS.85).aspx"><i>EvtDeviceWdmIrpDispatch</i></a> callback function.</p>
 
 
 ### -param DriverContext [in, optional]

@@ -60,7 +60,7 @@ The <b>HBA_OpenAdapter</b> routine opens an HBA and returns a handle.
 
 ### -param AdapterName
 
-TBD
+<p>Indicates the name of the HBA to open. </p>
 
 
 

@@ -60,7 +60,7 @@ The <b>FsRtlLookupLastMcbEntry</b> routine is obsolete, but is exported to suppo
 
 ### -param Mcb
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Vbn

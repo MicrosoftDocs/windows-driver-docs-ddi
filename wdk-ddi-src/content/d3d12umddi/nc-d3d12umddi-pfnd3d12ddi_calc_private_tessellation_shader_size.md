@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_TESSELLATION_SHADER_SIZE
 title: PFND3D12DDI_CALC_PRIVATE_TESSELLATION_SHADER_SIZE
 author: windows-driver-content
-description: 
+description: Determines the size of the user-mode display driver's private region of memory for a hull or domain shader.
 ms.assetid: 40bbfdfa-e310-4e77-9e8c-2800a64f6bcb
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Determines the size of the user-mode display driver's private region of memory for a hull or domain shader.
 
 ## -prototype
 
@@ -71,20 +71,24 @@ PFND3D12DDI_CALC_PRIVATE_TESSELLATION_SHADER_SIZE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *pShaderCode: 
-### -param D3D12DDI_HROOTSIGNATURE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE
+
+A handle to the display device (graphics context).
+
+### -param *pShaderCode
+
+Pointer to a shader code.
+
+### -param D3D12DDI_HROOTSIGNATURE
+
+A handle to a root signature.
+
+### -param *
+
+Pointer to a D3D12DDIARG_TESSELLATION_IO_SIGNATURES structure.
 
 
 
 ## -returns
 
-Returns SIZE_T that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns SIZE_T.

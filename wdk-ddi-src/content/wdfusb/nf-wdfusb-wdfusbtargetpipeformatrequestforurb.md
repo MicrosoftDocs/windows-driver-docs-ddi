@@ -63,7 +63,7 @@ The <b>WdfUsbTargetPipeFormatRequestForUrb</b> method builds an USB request for 
 
 ### -param PIPE
 
-TBD
+<p>A handle to a framework pipe object that was obtained by calling <a href="https://msdn.microsoft.com/library/Ff550057(v=VS.85).aspx"><b>WdfUsbInterfaceGetConfiguredPipe</b></a>. </p>
 
 
 ### -param Request [in]

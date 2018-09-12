@@ -70,7 +70,7 @@ A handle to a framework request object.
 
 ### -param MinimumRequiredLength
 
-TBD
+<p>The minimum buffer size, in bytes, that the driver needs to process the I/O request.</p>
 
 
 ### -param Buffer [out]

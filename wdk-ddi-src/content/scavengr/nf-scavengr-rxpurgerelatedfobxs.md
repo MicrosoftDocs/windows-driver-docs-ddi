@@ -70,7 +70,7 @@ A pointer to the RX_CONTEXT structure.
 
 ### -param AttemptFinalization
 
-TBD
+<p>A Boolean value that indicates whether an attempt to finalize and release the associated FCB structure should occur.</p>
 
 
 ### -param PurgingFcb

@@ -71,7 +71,7 @@ Specifies an array of <b>NV_MEMORY_RANGE</b> structures which describe the non-v
 
 ### -param NumRanges
 
-TBD
+<p>Specifies the number of elements in the <b>NVRanges</b> array.</p>
 
 
 ### -param Flags

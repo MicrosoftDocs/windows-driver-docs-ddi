@@ -63,7 +63,7 @@ The <b>WdfDeviceWdmGetDeviceObject</b> method returns the Windows Driver Model (
 
 ### -param Device
 
-TBD
+<p>A handle to a framework device object.</p>
 
 
 

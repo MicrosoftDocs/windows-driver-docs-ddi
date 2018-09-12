@@ -60,7 +60,7 @@ Creates a UFX device object, registers event callback routines, and specifies ca
 
 ### -param WdfDevice
 
-TBD
+<p>A handle to a WDF device object.</p>
 
 
 ### -param Callbacks [in]

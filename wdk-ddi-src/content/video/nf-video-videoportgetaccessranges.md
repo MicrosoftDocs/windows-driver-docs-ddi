@@ -70,7 +70,7 @@ Specifies the number of elements in the <i>RequestedResources</i> array.
 
 ### -param OPTIONAL
 
-TBD
+<p>An array of IO_RESOURCE_DESCRIPTOR-type elements. Each descriptor specifies a single hardware resource that the miniport driver needs, prefers, or can use as an alternative to that specified in another array element. For detailed information about this structure, see the description of <a href="https://msdn.microsoft.com/library/Ff548285(v=VS.85).aspx"><b>IoAssignResources</b></a>.</p>
 
 
 ### -param NumAccessRanges

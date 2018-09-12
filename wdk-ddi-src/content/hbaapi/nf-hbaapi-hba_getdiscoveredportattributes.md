@@ -60,7 +60,7 @@ The <b>HBA_GetDiscoveredPortAttributes</b> routine retrieves the attributes for 
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located.  </p>
 
 
 ### -param PortIndex [in]
@@ -75,7 +75,7 @@ Indicates the index of the remote port to query.
 
 ### -param PortAttributes
 
-TBD
+<p>Contains a structure of type <a href="https://msdn.microsoft.com/library/Ff557107(v=VS.85).aspx"><b>HBA_PortAttributes</b></a> that reports the port attributes. </p>
 
 
 

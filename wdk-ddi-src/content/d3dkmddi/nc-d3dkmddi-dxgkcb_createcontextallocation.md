@@ -56,17 +56,11 @@ Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport dr
 ## -parameters
 
 
+### -param 
 
+*ContextAllocation* 
 
-
-
-
-
-
-
-#### - ContextAllocation [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451242">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure that specifies the attributes of the context to be allocated.
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451242">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure that specifies the attributes of the context to be allocated.
 
 
 ## -returns

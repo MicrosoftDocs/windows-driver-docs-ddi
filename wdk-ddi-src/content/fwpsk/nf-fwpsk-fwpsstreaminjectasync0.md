@@ -335,7 +335,7 @@ Injected stream data will not be reindicated to the callout, but it will be made
 
 If the return value is not STATUS_SUCCESS, the completion function will not be called. In this case,
     the network buffer list pointed to by 
-    <i>metBufferList</i> must be freed by a call to 
+    <i>netBufferList</i> must be freed by a call to 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551172">FwpsFreeNetBufferList0</a> or 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551170">FwpsFreeCloneNetBufferList0</a>.
 

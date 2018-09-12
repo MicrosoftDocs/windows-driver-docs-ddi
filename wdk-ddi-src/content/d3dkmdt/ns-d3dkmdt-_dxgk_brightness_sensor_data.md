@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_SENSOR_DATA
 title: _DXGK_BRIGHTNESS_SENSOR_DATA
 author: windows-driver-content
-description:
+description: Describes the sensor data brightness.
 ms.assetid: 38aca9c4-ed04-405b-a659-5d5d252a45dc
 ms.author: windowsdriverdev
 ms.date:

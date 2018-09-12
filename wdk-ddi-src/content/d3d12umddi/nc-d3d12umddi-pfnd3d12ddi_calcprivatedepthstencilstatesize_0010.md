@@ -2,8 +2,8 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0010
 title: PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0010
 author: windows-driver-content
-description: 
-ms.assetid: d98cef55-7a1f-444a-82a0-7d0c20ff473f
+description: The CalcPrivateDepthStencilStateSize function determines the size of the user-mode display driver's private region of memory for a depth stencil state.
+ms.assetid: f589834c-e00b-42cf-b76a-fdb4bf90e8a1
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -34,8 +34,8 @@ api_location:
 -	d3d12umddi.h
 api_name: 
 -	PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0010
-product: 
-- Windows
+product:
+-	Windows
 targetos: Windows
 tech.root: display
 ---
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+The **CalcPrivateDepthStencilStateSize** function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a depth stencil state.
 
 ## -prototype
 
@@ -57,30 +57,30 @@ PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0010 Pfnd3d12ddiCalcprivatedepthste
 
 SIZE_T Pfnd3d12ddiCalcprivatedepthstencilstatesize0010 
 (
-	 D3D12DDI_HDEVICE
-	CONST D3D12DDI_DEPTH_STENCIL_DESC_0010 *
+	D3D12DDI_HDEVICE hDevice
+	CONST D3D12DDI_DEPTH_STENCIL_DESC_0010 *pDepthStencilDesc
 )
 {...}
-
-PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0010 
-
 
 ```
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param hDevice
+
+A handle to the display device (graphics context).
 
 
+### -param pDepthStencilDesc
+
+A pointer to a [D3D12DDI_DEPTH_STENCIL_DESC_0010](ns-d3d12umddi-d3d12ddi_depth_stencil_desc_0010.md) structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns the size of the memory region that the driver requires for creating a depth stencil state.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 
 ## -see-also

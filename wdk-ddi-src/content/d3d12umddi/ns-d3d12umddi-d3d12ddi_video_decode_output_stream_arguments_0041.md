@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041
 title: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041
 author: windows-driver-content
-description:
+description: Output stream arguments for video decode.
 ms.assetid: b304f1ff-edff-46ce-8626-a2428c396c09
 ms.author: windowsdriverdev
 ms.date:

@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYDEPTHSTENCILSTATE
 title: PFND3D12DDI_DESTROYDEPTHSTENCILSTATE
 author: windows-driver-content
-description: 
+description: Destroy depth stencil state.
 ms.assetid: 36db022f-0740-4864-9f13-9bce157fdb3a
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Destroy depth stencil state.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_DESTROYDEPTHSTENCILSTATE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
 ### -param D3D12DDI_HDEPTHSTENCILSTATE: 
 
-
+A depth stencil state handle.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

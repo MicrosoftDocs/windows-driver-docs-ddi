@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARG_UPDATEMONITORLINKINFO
 title: _DXGKARG_UPDATEMONITORLINKINFO
 author: windows-driver-content
-description:
+description: Contains arguments for the DXGKDDI_UPDATEMONITORLINKINFO callback function.
 ms.assetid: a4a7f01c-ff10-4ce7-b666-0229e0e8bf85
 ms.author: windowsdriverdev
 ms.date:
@@ -41,7 +41,7 @@ tech.root: display
 
 ## -description
 
-Contains arguments for the [DXGKDDI_UPDATEMONITORLINKINFO](../d3dkmddi/nc-d3dkmddi-dxgkddi_updatemonitorlinkinfo.md) callback functions.
+Contains arguments for the [DXGKDDI_UPDATEMONITORLINKINFO](../d3dkmddi/nc-d3dkmddi-dxgkddi_updatemonitorlinkinfo.md) callback function.
 
 ## -struct-fields
 

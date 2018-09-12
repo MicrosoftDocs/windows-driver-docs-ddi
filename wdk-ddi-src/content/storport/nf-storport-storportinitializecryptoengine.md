@@ -60,7 +60,7 @@ Reserved for system use.
 
 ### -param HwDeviceExtension
 
-TBD
+<p>Reserved for system use.</p>
 
 
 ### -param CryptoCapabilitiesData

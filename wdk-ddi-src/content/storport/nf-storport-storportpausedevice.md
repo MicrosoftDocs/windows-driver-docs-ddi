@@ -81,7 +81,7 @@ Identifies the logical unit number of the target device.
 
 ### -param Timeout
 
-TBD
+<p>Contains the interval of time that the device is to be paused, in seconds. </p>
 
 
 

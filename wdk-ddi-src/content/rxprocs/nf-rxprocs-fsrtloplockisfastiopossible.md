@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param __a
 
-TBD
+<p>Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/Ff546150(v=VS.85).aspx"><b>FsRtlInitializeOplock</b></a>. </p>
 
 
 

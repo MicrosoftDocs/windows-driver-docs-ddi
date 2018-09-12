@@ -60,12 +60,12 @@ The <b>HBA_GetAdapterAttributes</b> routine retrieves the attributes for an HBA.
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located.  </p>
 
 
 ### -param HbaAttributes
 
-TBD
+<p>Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/Ff556044(v=VS.85).aspx"><b>HBA_AdapterAttributes</b></a> that holds the HBA attributes. </p>
 
 
 

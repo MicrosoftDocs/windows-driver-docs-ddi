@@ -52,7 +52,7 @@ req.typenames:
 
 
 			
-            This routine extends the supplied correlation vector. For
+            This routine extends the supplied [correlation vector](https://github.com/Microsoft/CorrelationVector). For
     a correlation vector of the form X.i, the extended value is
     X.i.0.
 

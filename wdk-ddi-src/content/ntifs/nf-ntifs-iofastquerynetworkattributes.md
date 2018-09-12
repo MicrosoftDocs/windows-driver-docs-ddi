@@ -60,7 +60,7 @@ This routine is reserved for system use.
 
 ### -param ObjectAttributes
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param DesiredAccess

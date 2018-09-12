@@ -60,7 +60,7 @@ The <b>RtlSubAuthorityCountSid</b> routine is reserved for system use. See <a hr
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

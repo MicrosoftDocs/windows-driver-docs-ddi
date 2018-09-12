@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param format
 
-TBD
+<p>The variable argument list that contains a format string and a variable number of parameters.</p>
 
 
 ### -param param

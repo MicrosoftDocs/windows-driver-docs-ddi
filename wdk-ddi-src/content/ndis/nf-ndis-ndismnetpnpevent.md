@@ -77,6 +77,9 @@ A pointer to a
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network Plug and Play event, NDIS PnP
      event, or Power Management event.
 
+> [!IMPORTANT]
+> If the **VPortId** field of **NetPnpEventNotification** is set to a value different from NDIS_DEFAULT_VPORT_ID, then the **Flags** member must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **VPortId** to take effect.
+
 ## -returns
 
 

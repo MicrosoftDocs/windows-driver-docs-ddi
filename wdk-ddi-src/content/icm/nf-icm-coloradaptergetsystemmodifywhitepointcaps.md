@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterGetSystemModifyWhitePointCaps
 title: ColorAdapterGetSystemModifyWhitePointCaps function
 author: windows-driver-content
-description:
+description: This DDI construct is intended for OEM use only.
 ms.assetid: fbce7afe-0432-4483-99f9-d6485627cb8d
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterGetSystemModifyWhitePointCaps
 req.header: icm.h
@@ -56,7 +56,9 @@ targetos: Windows
 
 
 ## -returns
+
 This function returns HRESULT.
+
 ## -remarks
 
 ## -see-also

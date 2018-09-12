@@ -71,7 +71,7 @@ A pointer to a Unicode string specifying the service name for the security servi
 
 ### -param OPTIONAL
 
-TBD
+<p>A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. </p>
 
 
 ### -param Spn [in, out]

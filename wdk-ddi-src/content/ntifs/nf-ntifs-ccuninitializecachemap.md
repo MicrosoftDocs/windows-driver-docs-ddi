@@ -70,7 +70,7 @@ If specified, the file was truncated to the specified size, and the cache should
 
 ### -param UninitializeEvent
 
-TBD
+<p>If specified, the provided event is set to the signaled state when the cached file data has been flushed to disk.</p>
 
 
 

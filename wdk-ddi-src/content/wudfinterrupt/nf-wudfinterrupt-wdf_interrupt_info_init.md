@@ -63,7 +63,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_I
 
 ### -param InterruptInfo
 
-TBD
+<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Ff552351(v=VS.85).aspx"><b>WDF_INTERRUPT_INFO</b></a> structure.</p>
 
 
 

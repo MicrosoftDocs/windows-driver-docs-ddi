@@ -60,6 +60,8 @@ The <i>pfnResourceBarrier</i> callback function supports resource barriers.
 
 ### -param Arg1
 
+**hDrvCommandList**
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Count
@@ -69,21 +71,11 @@ Specifies a count.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - ResourceBarrier [in]
+**ResourceBarrier** [in]
 
 A pointer to a resource barrier as a <a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
-#### - hDrvCommandList
-
-The handle of a command list.
 
 
 ## -returns

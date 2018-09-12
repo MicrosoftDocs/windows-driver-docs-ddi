@@ -71,7 +71,7 @@ The IOCTL control code to issue.
 
 ### -param Flags
 
-TBD
+<p>The desired IRP flags to set for IOCTL request.</p>
 
 
 ### -param InputBuffer [in, optional]

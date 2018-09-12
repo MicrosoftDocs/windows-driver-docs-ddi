@@ -61,7 +61,7 @@ The  PcRegisterAdapterPnpManagement function registers the adapter's PnP-managem
 
 ### -param Unknown
 
-TBD
+<p>Pointer to an adapter driver object's <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://msdn.microsoft.com/library/Mt604850(v=VS.85).aspx">IAdapterPnpManagement</a> interface.</p>
 
 
 ### -param DeviceObject [in]

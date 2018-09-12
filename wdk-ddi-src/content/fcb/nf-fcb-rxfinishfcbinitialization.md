@@ -60,17 +60,94 @@ req.typenames:
 
 ### -param Fcb
 
-TBD
+<p>A pointer to the MRX_FCB structure being initialized.</p>
 
 
 ### -param FileType
 
-TBD
+<p>The value indicating the storage type of entity that the FCB refers to. Possible options for this parameter include the following:</p>
+  <table>
+    <tr>
+      <th>Value</th>
+      <th>Meaning</th>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="RDBSS_NTC_MAILSLOT"></a>
+        <a id="rdbss_ntc_mailslot"></a>
+        <dl>
+          <dt>
+            <b>RDBSS_NTC_MAILSLOT</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>A mail slot.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="RDBSS_NTC_SPOOLFILE"></a>
+        <a id="rdbss_ntc_spoolfile"></a>
+        <dl>
+          <dt>
+            <b>RDBSS_NTC_SPOOLFILE</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>A printer spool file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="RDBSS_NTC_STORAGE_TYPE_DIRECTORY"></a>
+        <a id="rdbss_ntc_storage_type_directory"></a>
+        <dl>
+          <dt>
+            <b>RDBSS_NTC_STORAGE_TYPE_DIRECTORY</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>A directory.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="RDBSS_NTC_STORAGE_TYPE_UNKNOWN"></a>
+        <a id="rdbss_ntc_storage_type_unknown"></a>
+        <dl>
+          <dt>
+            <b>RDBSS_NTC_STORAGE_TYPE_UNKNOWN</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>The storage type is unknown.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="RDBSS_NTC_STORAGE_TYPE_FILE"></a>
+        <a id="rdbss_ntc_storage_type_file"></a>
+        <dl>
+          <dt>
+            <b>RDBSS_NTC_STORAGE_TYPE_FILE</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>A file.</p>
+      </td>
+    </tr>
+  </table>
+  <p> </p>
 
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.</p>
 
 
 

@@ -75,7 +75,7 @@ Number of sub-authorities to set in the SID.
 
 ### -param param
 
-TBD
+<p>The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.</p>
 
 
 

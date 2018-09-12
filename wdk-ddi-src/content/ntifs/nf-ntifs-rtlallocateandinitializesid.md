@@ -60,7 +60,7 @@ The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <
 
 ### -param IdentifierAuthority
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param SubAuthorityCount
