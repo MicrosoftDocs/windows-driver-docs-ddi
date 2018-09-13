@@ -110,7 +110,7 @@ A pointer to the [**VmbChannelCleanup**](nc-vmbuskernelmodeclientlibapi-fn_vmb_c
  
 ### -field VmbChannelCreateGpadlFromBuffer
 
-A pointer to the [**VmbChannelCleanup**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_cleanup.md) function.
+A pointer to the [**VmbChannelCreateGpadlFromBuffer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_buffer.md) function.
  
 ### -field VmbChannelCreateGpadlFromMdl
 
@@ -190,7 +190,7 @@ A pointer to the [**VmbChannelPause**](nc-vmbuskernelmodeclientlibapi-fn_vmb_cha
  
 ### -field VmbChannelSendSynchronousRequest
 
-A pointer to the [**VmbChannelPause**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_pause.md) function.
+A pointer to the [**VmbChannelPause**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_send_synchronous_request.md) function.
  
 ### -field VmbChannelSetIncomingProcessingAtPassive
 
@@ -266,13 +266,13 @@ A pointer to the [**VmbPacketSetPointer**](nc-vmbuskernelmodeclientlibapi-fn_vmb
  
 ## -remarks
 
-The function pointers in this structure are called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This structure contains function pointers for client functions. 
+The function pointers in **KMCL_CLIENT_INTERFACE_V1** are called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This structure contains function pointers for client functions. 
 
 To access client functions of the KMCL interface, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with these parameters:
  
 - *InterfaceType* parameter: **KMCL_CLIENT_INTERFACE_TYPE**
 - *Size* parameter: `sizeof(KMCL_CLIENT_INTERFACE_V1)`
-- *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_LATEST** 
+- *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_V1** 
 
 If the interface query function succeeds, the **KMCL_CLIENT_INTERFACE_V1** structure contains function pointers that you can use to call VMBus KMCL client functions.
 
