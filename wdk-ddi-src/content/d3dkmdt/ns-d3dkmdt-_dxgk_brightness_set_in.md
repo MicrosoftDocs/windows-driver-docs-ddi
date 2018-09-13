@@ -47,11 +47,13 @@ Contains input parameters for the [DxgkBrightnessSet3](..\dispmprt\nc-dispmprt-d
 
 ### -field BrightnessMillinits
 
-The brightness level in millinits to transition to.
+The brightness level in millinits to transition to. If the driver has not set [DXGK_BRIGHTNESS_CAPS.NitsBrightness](ns-d3dkmdt-_dxgk_brightness_caps.md), then this value means the brightness level in uncalibrated 1/10000ths of a percent.
+
+For example, if <b>BrightnessMillinits</b> is set to 60500 and <b>NitsBrightness</b> is set, this means 60.5 nits luminance. If <b>NitsBrightness</b> is not set, this means 60.5%.
 
 ### -field TransitionTimeMs
 
-How long the transition should take.
+How long the transition should take in milliseconds.
 
 ### -field SensorReadings
 
