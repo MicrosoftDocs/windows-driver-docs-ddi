@@ -81,11 +81,6 @@ The translated resource descriptor for the DMA channel assigned
       the device during <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>.
 
 
-#### - Config [out]
-
-A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439495">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure.
-
-
 ## -returns
 
 

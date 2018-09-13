@@ -79,11 +79,6 @@ Specifies an array of <b>NV_MEMORY_RANGE</b> structures which describe the non-v
 For flags specified, refer <a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">RtlFlushNonVolatileMemory</a> as this routine also honors the flags apart from passing it to <b>RtlFlushNonVolatileMemory</b>.
 
 
-#### - TotalRanges
-
-Specifies the number of elements in the <b>NVRanges</b> array.
-
-
 ## -returns
 
 

@@ -70,16 +70,6 @@ req.typenames:
 
 
 
-#### - pContextDestructor
-
-An associated context destructor.
-
-
-#### - pMidAtlas
-
-The MID_ATLAS structure to be freed.
-
-
 ## -returns
 
 

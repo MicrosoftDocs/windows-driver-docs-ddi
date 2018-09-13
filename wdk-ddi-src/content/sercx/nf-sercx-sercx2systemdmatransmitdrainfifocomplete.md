@@ -65,11 +65,6 @@ The <b>SerCx2SystemDmaTransmitDrainFifoComplete</b> method notifies version 2 of
 
 
 
-#### - PioTransmit [in]
-
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
-
-
 ## -returns
 
 

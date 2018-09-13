@@ -73,11 +73,6 @@ Specifies the target identifier of the device.
 Specifies the logical unit number (LUN) of the device.
 
 
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
-
-
 ## -returns
 
 

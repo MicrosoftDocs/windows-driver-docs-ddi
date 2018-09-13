@@ -68,11 +68,6 @@ Converts a value of type <b>UINT_PTR</b> to a value of type <b>UINT</b>.
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
-#### - UOperand [in]
-
-The value to be converted.
-
-
 ## -remarks
 
 

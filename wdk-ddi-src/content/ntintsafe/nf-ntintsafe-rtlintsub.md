@@ -75,11 +75,6 @@ The value to subtract from <i>iMinuend</i>.
 
 
 
-#### - pu8Result [out]
-
-A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
 ## -remarks
 
 

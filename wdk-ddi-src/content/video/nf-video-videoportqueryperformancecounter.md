@@ -70,11 +70,6 @@ Pointer to the miniport driver's device extension.
 
 
 
-#### - PerformanceFrequency [out, optional]
-
-Specifies an optional pointer to a variable that is to receive the performance counter frequency.
-
-
 ## -returns
 
 

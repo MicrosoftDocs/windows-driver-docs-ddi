@@ -86,11 +86,6 @@ Identifies the logical unit number of the target device.
 
 
 
-#### - TimeOut [in]
-
-Contains the interval of time that the device is to be paused, in seconds. 
-
-
 ## -returns
 
 

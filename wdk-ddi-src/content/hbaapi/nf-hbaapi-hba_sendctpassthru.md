@@ -83,11 +83,6 @@ Pointer to a buffer that contains the payload data from the reply to the common 
 Indicates the size of the buffer pointed to by <i>pRspBuffer</i>. 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
-
-
 ## -returns
 
 

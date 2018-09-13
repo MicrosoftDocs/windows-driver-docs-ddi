@@ -67,11 +67,6 @@ The <b>RtlOemStringToCountedUnicodeSize</b> routine determines the size, in byte
 
 
 
-#### - OemString [in]
-
-Pointer to a caller-allocated OEM string. 
-
-
 ## -remarks
 
 

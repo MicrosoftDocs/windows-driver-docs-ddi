@@ -71,18 +71,6 @@ The <b>FsRtlSetupAdvancedHeader</b> macro is used by file systems to initialize 
 
 
 
-#### - AdvancedHeader [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure to be initialized. 
-
-
-#### - FastMutex [in]
-
-A pointer to an initialized fast mutex that will be used to synchronize access to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure. The fast mutex must be allocated from nonpaged pool. 
-
-This parameter can be <b>NULL</b>. Callers should set this parameter to <b>NULL</b> if they intend to use an already existing fast mutex object. If <i>FastMutex</i> is <b>NULL</b>, the caller must explicitly set the <i>FastMutex</i> member of the stream context object to point to the existing fast mutex. (This can be done before or after calling <b>FsRtlSetupAdvancedHeader</b>.) 
-
-
 ## -returns
 
 

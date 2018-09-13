@@ -68,11 +68,6 @@ req.typenames:
 The multiplex ID to be mapped.
 
 
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS structure.
-
-
 ## -returns
 
 

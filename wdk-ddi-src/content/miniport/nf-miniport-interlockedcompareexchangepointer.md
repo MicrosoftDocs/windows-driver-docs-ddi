@@ -75,11 +75,6 @@ Specifies the PVOID value to set (*<i>Destination</i>) to.
 
 
 
-#### - Comparand [in]
-
-Specifies the PVOID value to compare with (*<i>Destination</i>).
-
-
 ## -returns
 
 

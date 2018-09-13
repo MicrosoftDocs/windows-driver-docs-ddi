@@ -75,21 +75,6 @@ The <b>FsRtlLookupLastLargeMcbEntry</b> routine retrieves the last mapping entry
 
 
 
-#### - LargeLbn [out]
-
-Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists.
-
-
-#### - LargeVbn [out]
-
-Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
-
-
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure to be searched.
-
-
 ## -returns
 
 

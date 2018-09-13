@@ -70,11 +70,6 @@ A pointer to a tunnel cache that was initialized by <a href="https://msdn.micros
 
 
 
-#### - DirKey [in]
-
-The directory key value for the directory that is being removed. For more information, see the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff546153">FsRtlInitializeTunnelCache</a>.
-
-
 ## -returns
 
 

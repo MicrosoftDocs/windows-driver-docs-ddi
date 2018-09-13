@@ -70,16 +70,6 @@ The <b>HBA_GetRNIDMgmtInfo</b> routine queries the HBA for request node identifi
 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA to query for RNID. 
-
-
-#### - HbaMgmtInfo [out]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a> that holds the RNID management information. 
-
-
 ## -returns
 
 

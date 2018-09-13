@@ -81,11 +81,6 @@ Specifies the logical unit number (LUN) of the device.
 Specifies the maximum allowed value for the queue tag.
 
 
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
-
-
 ## -returns
 
 

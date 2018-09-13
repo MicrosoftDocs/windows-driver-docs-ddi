@@ -68,11 +68,6 @@ The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a hr
 Pointer to a lock handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>.
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to a per-adapter device extension.
-
-
 ## -returns
 
 

@@ -212,41 +212,6 @@ Return STATUS_CANNOT_BREAK_OPLOCK if the value of <i>NewLowerOplockState</i> res
 Break only Read (R) upper oplocks and notify R holders that they may again request R.  All other upper oplock checks it will return STATUS_CANNOT_BREAK_OPLOCK.
 
 
-#### - PrePendIrpRoutine [in, optional]
-
-A pointer to a caller-supplied callback routine to be called if <b>FsRtlCheckUpperOplock</b> will return STATUS_PENDING. This parameter is optional and can be <b>NULL</b>. 
-
-This routine is declared as follows: 
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
-(*POPLOCK_FS_PREPOST_IRP) (
-      _In_ PVOID Context,
-      _in_opt_ PIRP Irp
-      );</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-
-
-#### Context
-
-A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. 
-
-
-
-#### Irp
-
-A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
-
-
 ## -returns
 
 

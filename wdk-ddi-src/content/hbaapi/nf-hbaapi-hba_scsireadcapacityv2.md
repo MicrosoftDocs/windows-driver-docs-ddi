@@ -103,16 +103,6 @@ Pointer to a buffer that receives the SCSI sense data.
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned.
 
 
-#### - discoveredPortWWN [in]
-
-Contains a 64-bit WWN that uniquely identifies the remote HBA port to which the SCSI read capacity command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. 
-
-
 ## -returns
 
 

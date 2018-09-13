@@ -75,11 +75,6 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 On output, the <b>Status</b> member of each HBA_FCPBindingEntry2 structure is 0. 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA to query for the persistent bindings. The HBA returns bindings for the logical units that it can enumerate on the port specified by <i>HbaPortWWN</i>. 
-
-
 ## -returns
 
 

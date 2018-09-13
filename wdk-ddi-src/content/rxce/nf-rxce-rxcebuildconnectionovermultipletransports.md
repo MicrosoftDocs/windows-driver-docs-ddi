@@ -132,31 +132,6 @@ A pointer to a connection completion routine when this routine completed if STAT
 On input, this parameter contains a pointer to an uninitialized RXCE_CONNECTION_COMPLETION_CONTEXT structure. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit and connection are properly initialized.
 
 
-#### - CreateOptions [in]
-
-Create options that determine which transport will be selected for establishing a connection. These options can be one of the following enumerations for RXCE_CONNECTION_CREATE_OPTIONS:
-
-
-
-
-
-#### RxCeSelectFirstSuccessfulTransport
-
-Select the first successful transport that responds.
-
-
-
-#### RxCeSelectBestSuccessfulTransport
-
-Select the best successful transport that responds.
-
-
-
-#### RxCeSelectAllSuccessfulTransports
-
-Select all of the successful transports that respond.
-
-
 ## -returns
 
 

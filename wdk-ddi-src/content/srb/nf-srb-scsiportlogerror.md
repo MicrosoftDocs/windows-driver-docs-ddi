@@ -202,11 +202,6 @@ Indicates that a target disconnected unexpectedly.
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
 
 
-#### - Srb [in, optional]
-
-Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
-
-
 ## -returns
 
 

@@ -75,21 +75,6 @@ req.typenames:
 
 
 
-#### - pContext
-
-A pointer to the context.
-
-
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS data structure.
-
-
-#### - pNewMid
-
-A pointer to the multiplex ID to be associated with the context.
-
-
 ## -returns
 
 

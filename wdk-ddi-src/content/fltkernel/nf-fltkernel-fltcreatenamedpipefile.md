@@ -537,16 +537,6 @@ The default timeout in 100-nanosecond increments. This value is expressed as a n
 An optional pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548565">IO_DRIVER_CREATE_CONTEXT</a> structure already initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548419">IoInitializeDriverCreateContext</a>.
 
 
-#### - InBoundQuota [in]
-
-The number of bytes to reserve for the input buffer.
-
-
-#### - OutBoundQuota [in]
-
-The number of bytes to reserve for the output buffer.
-
-
 ## -returns
 
 

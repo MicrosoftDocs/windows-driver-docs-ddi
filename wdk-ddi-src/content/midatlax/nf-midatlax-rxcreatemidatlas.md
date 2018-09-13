@@ -70,16 +70,6 @@ req.typenames:
 
 
 
-#### - MaximumNumberOfMids
-
-The maximum number of multiplex IDs (MIDs) to be allowed in the atlas.
-
-
-#### - MidsAllocatedAtStart
-
-The number of multiplex IDs allocated initially.
-
-
 ## -returns
 
 

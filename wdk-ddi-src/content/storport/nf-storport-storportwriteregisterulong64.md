@@ -77,16 +77,6 @@ TBD
 
 
 
-#### - Register [in]
-
-Pointer to the register where the data is written to. The register must be a mapped range in memory space
-
-
-#### - Value [in]
-
-A <b>ULONG64</b> value to write to the register.
-
-
 ## -remarks
 
 

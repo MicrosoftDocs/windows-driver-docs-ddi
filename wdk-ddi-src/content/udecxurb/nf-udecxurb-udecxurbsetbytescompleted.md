@@ -72,11 +72,6 @@ A handle to a framework request object that contains the <a href="https://msdn.m
 
 
 
-#### - Length [in]
-
-The number of transferred bytes to set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>. This value must not be greater than the transfer buffer length.
-
-
 ## -returns
 
 

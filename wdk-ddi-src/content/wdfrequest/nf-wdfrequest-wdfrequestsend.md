@@ -80,11 +80,6 @@ A handle to a framework I/O target object. For more information about how to obt
 
 
 
-#### - RequestOptions [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552491">WDF_REQUEST_SEND_OPTIONS</a> structure that contains caller-supplied request options. This parameter is optional and can be <b>NULL</b> if you do not want to enable any request options.
-
-
 ## -returns
 
 

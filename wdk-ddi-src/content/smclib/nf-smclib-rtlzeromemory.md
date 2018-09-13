@@ -84,16 +84,6 @@ VOID RtlZeroMemory(
 
 
 
-#### - Destination [out]
-
-A pointer to the memory block to be filled with zeros.
-
-
-#### - Length [in]
-
-The number of bytes to fill with zeros.
-
-
 ## -remarks
 
 

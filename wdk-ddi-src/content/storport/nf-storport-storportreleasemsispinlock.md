@@ -73,11 +73,6 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 The IRQL that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567023">StorPortAcquireMSISpinLock</a> routine returned when the miniport driver acquired the spin lock.
 
 
-#### - MessageID [in]
-
-The identifier of the message.
-
-
 ## -returns
 
 

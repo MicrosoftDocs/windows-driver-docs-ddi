@@ -91,11 +91,6 @@ The version number of the requested interface. The format of this value is defin
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - Device [in]
-
-A handle to a framework device object.
-
-
 ## -returns
 
 

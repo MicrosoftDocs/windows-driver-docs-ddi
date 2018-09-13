@@ -80,11 +80,6 @@ A string that contains the name of device model.
 A string that contains the revision number of the device model.
 
 
-#### - UcxController [in]
-
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
-
-
 ## -returns
 
 

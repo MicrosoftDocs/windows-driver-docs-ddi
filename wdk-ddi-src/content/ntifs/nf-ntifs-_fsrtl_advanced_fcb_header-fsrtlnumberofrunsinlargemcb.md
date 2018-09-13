@@ -65,11 +65,6 @@ The <b>FsRtlNumberOfRunsInLargeMcb</b> routine returns the number of runs in a m
 
 
 
-#### - OpaqueMcb [in]
-
-Supplies the MCB being examined.
-
-
 ## -returns
 
 

@@ -160,11 +160,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
  
 
 
-#### - cbMaxAppend [in]
-
-The maximum number of bytes to append to <i>pszDest</i>. 
-
-
 ## -returns
 
 

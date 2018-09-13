@@ -78,11 +78,6 @@ Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating w
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 
 
-#### - ServerIsRemote [in]
-
-Set to <b>TRUE</b> if the server of the client's request is remote.
-
-
 ## -returns
 
 
