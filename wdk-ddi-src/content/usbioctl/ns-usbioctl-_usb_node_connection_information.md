@@ -70,7 +70,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEV
 
 ### -field CurrentConfigurationValue
 
-The value that is used with the SetConfiguration request to specify that current configuration of the device that is connected to the indicated port. For more information about this member, see Universal Serial Bus Specification.
+Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs).
 
 
 ### -field LowSpeed
