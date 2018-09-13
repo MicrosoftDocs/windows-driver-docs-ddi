@@ -34,7 +34,8 @@ api_location:
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
 -	FN_VMB_SERVER_CHANNEL_INIT_SET_VMBUS_HANDLE
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
