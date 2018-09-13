@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_STATE, *PWDF_DEVICE_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_STATE</b> structure specifies a device's Plug and Play state.
 

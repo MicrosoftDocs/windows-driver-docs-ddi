@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceFilterAddResourceRequirements</i> event callback function can add resources to a set of hardware resource requirements before the system assigns resources to a device.
 

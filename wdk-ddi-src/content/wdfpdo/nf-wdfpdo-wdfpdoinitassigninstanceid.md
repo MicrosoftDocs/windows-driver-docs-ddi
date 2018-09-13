@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitAssignInstanceID</b> method updates the <a href="https://msdn.microsoft.com/093063a6-1855-4e36-9465-1eedaa3cd0f9">instance ID</a> for a child device.
 

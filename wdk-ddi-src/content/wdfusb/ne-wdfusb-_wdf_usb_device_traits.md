@@ -50,7 +50,7 @@ req.typenames: WDF_USB_DEVICE_TRAITS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_DEVICE_TRAITS</b> enumeration identifies USB device traits.
 

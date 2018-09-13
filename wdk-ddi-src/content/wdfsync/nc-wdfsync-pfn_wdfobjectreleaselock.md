@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectReleaseLock</b> method releases an object's synchronization lock.
 

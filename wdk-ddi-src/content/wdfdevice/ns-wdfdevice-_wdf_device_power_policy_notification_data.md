@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</b> structure describes a state change within a device's power policy state machine.
 

@@ -50,7 +50,7 @@ req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_COMMON_BUFFER_CONFIG</b> structure contains configuration information for a common buffer.
 
