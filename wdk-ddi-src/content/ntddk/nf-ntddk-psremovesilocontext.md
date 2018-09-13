@@ -75,11 +75,6 @@ A slot allocated by the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-#### - ReturnedSiloContext
-
-A pointer to a caller-allocated variable that receives the address of the removed object. This parameter is optional and can be <b>NULL</b>.
-
-
 ## -returns
 
 

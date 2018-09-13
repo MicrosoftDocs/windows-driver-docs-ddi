@@ -303,11 +303,6 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 
 
 
-#### - arguments
-
-Specifies the arguments corresponding to the notification type.
-
-
 ## -returns
 
 

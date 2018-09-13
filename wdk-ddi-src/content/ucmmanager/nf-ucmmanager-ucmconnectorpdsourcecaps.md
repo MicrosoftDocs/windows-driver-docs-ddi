@@ -74,11 +74,6 @@ Handle to the connector object that the client driver received in the previous c
 Number of elements in the array specified by   <i>Pdos[]</i>.
 
 
-#### - Pdos[] [in]
-
-A caller-allocated array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
-
-
 ## -returns
 
 

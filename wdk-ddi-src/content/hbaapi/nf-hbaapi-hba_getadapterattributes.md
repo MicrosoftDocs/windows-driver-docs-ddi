@@ -70,16 +70,6 @@ The <b>HBA_GetAdapterAttributes</b> routine retrieves the attributes for an HBA.
 
 
 
-#### - HbaAdapterAttributes [out]
-
-Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a> that holds the HBA attributes. 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
-
-
 ## -returns
 
 

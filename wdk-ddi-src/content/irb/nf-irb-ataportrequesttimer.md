@@ -73,11 +73,6 @@ A pointer to the channel extension.
 Time interval in units of microseconds.
 
 
-#### - TimerRoutine [in]
-
-A pointer to the timer routine. 
-
-
 ## -returns
 
 

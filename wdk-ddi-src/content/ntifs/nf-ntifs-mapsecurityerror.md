@@ -65,11 +65,6 @@ The <b>MapSecurityError</b> function maps a security interface SECURITY_STATUS s
 
 
 
-#### - Error [in]
-
-The security interface SECURITY_STATUS status code to be mapped.
-
-
 ## -returns
 
 

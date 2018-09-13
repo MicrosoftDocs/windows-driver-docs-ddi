@@ -67,11 +67,6 @@ The <b>SeDeleteClientSecurity</b> routine deletes a client security context.
 
 
 
-#### - ClientContext [in]
-
-Pointer to the client security context structure to be deleted.
-
-
 ## -remarks
 
 

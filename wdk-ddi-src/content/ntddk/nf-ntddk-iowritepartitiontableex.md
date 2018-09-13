@@ -70,11 +70,6 @@ Pointer to the device object representing the disk whose partition tables are to
 
 
 
-#### - PartitionBuffer [in]
-
-Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552662">DRIVE_LAYOUT_INFORMATION_EX</a>.
-
-
 ## -returns
 
 

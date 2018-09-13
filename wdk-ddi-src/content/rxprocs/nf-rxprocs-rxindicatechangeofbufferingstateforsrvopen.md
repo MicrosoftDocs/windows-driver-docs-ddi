@@ -80,11 +80,6 @@ A pointer to the key for the SRV_OPEN key structure.
 
 
 
-#### - MRxContext
-
-A pointer to the context to be passed back to the network mini-redirector during callbacks for processing the request.
-
-
 ## -returns
 
 

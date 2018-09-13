@@ -75,16 +75,6 @@ Contains the worldwide name (WWN) of the port whose attributes to retrieve. For 
 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
-
-
-#### - HbaPortAttributes [out]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a> that holds the port attributes: 
-
-
 ## -returns
 
 

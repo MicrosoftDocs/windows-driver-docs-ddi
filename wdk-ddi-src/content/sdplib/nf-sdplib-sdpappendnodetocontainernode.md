@@ -73,11 +73,6 @@ The SDP sequence or alternative node to which the
 
 
 
-#### - Child [in]
-
-The SDP node to add to the parent node.
-
-
 ## -returns
 
 

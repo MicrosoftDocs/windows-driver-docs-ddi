@@ -75,16 +75,6 @@ Contains an index that identifies which port on the HBA to query for statistics.
 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
-
-
-#### - HbaPortStatistics [out]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557110">HBA_PortStatistics</a> that holds the statistics that were retrieved for the port. 
-
-
 ## -returns
 
 

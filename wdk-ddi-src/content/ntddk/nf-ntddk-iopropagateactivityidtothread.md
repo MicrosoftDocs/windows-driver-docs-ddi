@@ -75,11 +75,6 @@ A pointer to memory allocated by the caller to store the ID in the thread.
 
 
 
-#### - *OriginalId [out]
-
-Upon successfully returning from the call, holds the ID that was previously set on the thread. The driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh439297">IoClearActivityIdThread</a> with this pointer when tracing is completed within the same thread context.
-
-
 ## -returns
 
 

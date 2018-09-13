@@ -78,11 +78,6 @@ A parameter that indicates if this should be a recursive finalize operation.
 A parameter that indicates if this routine should force the <i>Fcb</i> parameter to be finalized.
 
 
-#### - Fcb [out]
-
-A pointer to the FCB structure to be dereferenced and finalized.
-
-
 ## -returns
 
 

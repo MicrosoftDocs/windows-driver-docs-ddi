@@ -67,11 +67,6 @@ req.typenames:
 
 
 
-#### - Oplock [in]
-
-Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
-
-
 ## -remarks
 
 

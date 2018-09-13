@@ -75,11 +75,6 @@ ExtRemoteTyped & operator=(
 
 
 
-#### - Typed [in]
-
-A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the data and type to be assigned to this object.
-
-
 ## -returns
 
 

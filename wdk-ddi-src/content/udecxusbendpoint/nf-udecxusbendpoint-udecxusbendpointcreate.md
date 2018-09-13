@@ -74,11 +74,6 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 A pointer to a variable that receives a handle to the new UDE endpoint object that represents the simple endpoint on the  USB device.
 
 
-#### - Init [in, out]
-
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>.
-
-
 ## -returns
 
 

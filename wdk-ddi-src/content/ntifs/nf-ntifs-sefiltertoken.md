@@ -136,11 +136,6 @@ This parameter is optional and can be <b>NULL</b>.
 
 
 
-#### - NewToken [out]
-
-Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. 
-
-
 ## -returns
 
 

@@ -83,11 +83,6 @@ A pointer to a location that receives the buffer's address.
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - MinimumRequiredSize [in]
-
-The minimum buffer size, in bytes, that the driver needs to process the I/O request.
-
-
 ## -returns
 
 

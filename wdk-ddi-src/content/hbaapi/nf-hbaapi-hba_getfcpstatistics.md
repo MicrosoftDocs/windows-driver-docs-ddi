@@ -75,21 +75,6 @@ The <b>HBA_GetFCPStatistics</b> routine retrieves traffic statistics that the fi
 
 
 
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
-
-
-#### - lunit [in]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that contains information used by the operating system to identify a SCSI logical unit. 
-
-
-#### - statistics [out]
-
-Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556051">HBA_FC4Statistics</a> that holds the traffic statistics that the FCP protocol has collected for the indicated logical unit. 
-
-
 ## -returns
 
 

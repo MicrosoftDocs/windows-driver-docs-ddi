@@ -70,11 +70,6 @@ A pointer to the channel extension.
 
 
 
-#### - WorkerRoutine [in]
-
-A pointer of type IDE_HW_DPC to the worker routine to call. 
-
-
 ## -returns
 
 

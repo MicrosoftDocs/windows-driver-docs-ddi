@@ -75,21 +75,6 @@ The <b>FsRtlRemoveLargeMcbEntry</b> routine removes one or more mappings from a 
 
 
 
-#### - LargeSectorCount [in]
-
-Number of sectors (VBNs) in the range for which mappings are to be removed. 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. 
-
-
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
-
-
 ## -returns
 
 

@@ -78,11 +78,6 @@ The maximum number of characters allowed in the buffer pointed to by <i>psz</i>,
 
 
 
-#### - pcch [out, optional]
-
-If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in characters, of the string that is contained in the buffer. The length does not include the string's terminating null character.
-
-
 ## -returns
 
 

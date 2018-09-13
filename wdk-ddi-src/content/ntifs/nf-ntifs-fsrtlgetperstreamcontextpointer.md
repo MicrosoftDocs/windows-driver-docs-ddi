@@ -67,11 +67,6 @@ The <b>FsRtlGetPerStreamContextPointer</b> macro returns the file system's strea
 
 
 
-#### - FileObject [in]
-
-Pointer to a file object for the file stream. 
-
-
 ## -remarks
 
 

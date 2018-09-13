@@ -67,11 +67,6 @@ The <b>FsRtlSupportsPerFileContexts</b> macro checks if per file context informa
 
 
 
-#### - FileObject
-
-A FILE_OBJECT that is associated with the file system to be checked.
-
-
 ## -remarks
 
 

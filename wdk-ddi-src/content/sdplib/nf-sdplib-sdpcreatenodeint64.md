@@ -70,11 +70,6 @@ The Bluetooth
 A profile driver defined tag to associate with the node.
 
 
-#### - llval [in]
-
-The 64-bit integer value that is used to initialize the SDP_NODE structure.
-
-
 ## -returns
 
 

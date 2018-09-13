@@ -93,11 +93,6 @@ The length of the data buffer to be added to the I/O error log structure.
 The line number in the source code file where this failure occurred.
 
 
-#### - DeviceObject [in]
-
-A pointer to the RDBSS device object.
-
-
 ## -returns
 
 

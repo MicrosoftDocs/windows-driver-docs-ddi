@@ -72,16 +72,6 @@ The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a know
 
 
 
-#### - Field [in]
-
-Specifies the name of a field in a structure of type <i>Type</i>. 
-
-
-#### - Type [in]
-
-Specifies the name of a known structure type containing <i>Field</i>. 
-
-
 ## -remarks
 
 

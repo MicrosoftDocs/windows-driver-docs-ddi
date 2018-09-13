@@ -70,11 +70,6 @@ A pointer to the silo being terminated.
 
 
 
-#### - ExistStatus [in]
-
-The exit status for the silo.
-
-
 ## -returns
 
 

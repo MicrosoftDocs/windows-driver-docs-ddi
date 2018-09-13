@@ -74,11 +74,6 @@ Whether progress is being made toward completing the custom-receive transaction.
 For more information about these enumeration constants, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265317">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
 
 
-#### - CustomReceive [in]
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
-
-
 ## -returns
 
 

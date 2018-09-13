@@ -75,11 +75,6 @@ On return, a pointer to a linked list of one or more MDLs that point to the cach
 
 
 
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
-
-
 ## -returns
 
 
