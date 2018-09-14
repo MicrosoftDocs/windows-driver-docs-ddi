@@ -60,7 +60,7 @@ The <b>FsRtlInitializeLargeMcb</b> routine initializes a map control block (MCB)
 
 ### -param Mcb
 
-TBD
+<p>Pointer to a caller-allocated MCB structure to initialize.</p>
 
 
 ### -param PoolType [in]
@@ -78,11 +78,6 @@ Type of pool to use when allocating additional internal storage for the MCB. One
 
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
 <div> </div>
-
-#### - OpaqueMcb [in]
-
-Pointer to a caller-allocated MCB structure to initialize.
-
 
 ## -returns
 

@@ -65,14 +65,9 @@ A pointer to the silo being terminated.
 
 ### -param ExitStatus
 
-TBD
+<p>The exit status for the silo.</p>
 
 
-
-
-#### - ExistStatus [in]
-
-The exit status for the silo.
 
 
 ## -returns

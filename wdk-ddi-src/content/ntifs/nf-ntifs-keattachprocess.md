@@ -60,7 +60,7 @@ The <b>KeAttachProcess</b> routine is exported to support existing driver binari
 
 ### -param Process
 
-TBD
+<p>Reserved.</p>
 
 
 

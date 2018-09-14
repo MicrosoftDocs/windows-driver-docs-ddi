@@ -65,64 +65,34 @@ Pointer to a callback routine of type <a href="https://msdn.microsoft.com/librar
 
 ### -param pUserData
 
-TBD
+<p>Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. </p>
 
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA for which the adapter events are generated. </p>
 
 
 ### -param HbaPortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the target was discovered. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param DiscoveredPortWWN
 
-TBD
+<p>Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. </p>
 
 
 ### -param pCallbackHandle
 
-TBD
+<p>Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/Ff557175(v=VS.85).aspx"><b>HBA_RemoveCallback</b></a> to de-register the callback routine.</p>
 
 
 ### -param AllTargets
 
-TBD
+<p>Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. </p>
 
 
-
-
-#### - allTargets
-
-Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
-
-
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
-#### - discoveredPortWWN
-
-Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
-
-
-#### - handle
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
-
-
-#### - hbaPortWWN
-
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the target was discovered. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
-#### - userData
-
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns

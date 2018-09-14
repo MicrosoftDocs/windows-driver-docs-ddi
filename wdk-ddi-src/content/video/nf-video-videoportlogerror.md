@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to the video request packet (<a href="wdkgloss.v#wdkgloss.video_request_packet__vrp_#wdkgloss.video_request_packet__vrp_"><i>VRP</i></a>) if one is associated with the error; otherwise <b>NULL</b>.</p>
 
 
 ### -param ErrorCode
@@ -76,11 +76,6 @@ Specifies a miniport driver-defined error code that indicates the type of hardwa
 ### -param UniqueId
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected; for others, it is a value returned by the hardware.
-
-
-#### - Vrp [optional]
-
-Pointer to the video request packet (<a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a>) if one is associated with the error; otherwise <b>NULL</b>.
 
 
 ## -returns

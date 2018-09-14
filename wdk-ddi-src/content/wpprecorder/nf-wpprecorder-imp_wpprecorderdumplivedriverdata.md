@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914612">WppRe
 
 ### -param WppCb
 
-TBD
+<p>Pointer to the buffer that was allocated by WppRecorderLogCreate.</p>
 
 
 ### -param OutBuffer

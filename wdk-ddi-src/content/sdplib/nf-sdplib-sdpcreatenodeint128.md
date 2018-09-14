@@ -62,17 +62,12 @@ The Bluetooth
 
 ### -param uil16Val
 
-TBD
+<p>The 128-bit integer value that is used to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - pul16Val [in]
-
-The 128-bit integer value that is used to initialize the SDP_NODE structure.
 
 
 ## -returns

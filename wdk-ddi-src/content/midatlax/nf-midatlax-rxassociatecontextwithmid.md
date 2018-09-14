@@ -60,34 +60,19 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>A pointer to the MID_ATLAS data structure.</p>
 
 
 ### -param Context
 
-TBD
+<p>A pointer to the context.</p>
 
 
 ### -param NewMid
 
-TBD
+<p>A pointer to the multiplex ID to be associated with the context.</p>
 
 
-
-
-#### - pContext
-
-A pointer to the context.
-
-
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS data structure.
-
-
-#### - pNewMid
-
-A pointer to the multiplex ID to be associated with the context.
 
 
 ## -returns

@@ -67,17 +67,12 @@ A pointer to the string value to initialize the SDP_NODE structure.
 
 ### -param stringLength
 
-TBD
+<p>An unsigned long integer value that holds the length of the string.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - StringLength
-
-An unsigned long integer value that holds the length of the string.
 
 
 ## -returns

@@ -70,24 +70,14 @@ A pointer to the input value that is compared with the value of <i>Comparand</i>
 
 ### -param ExChange
 
-TBD
+<p>Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. </p>
 
 
 ### -param Comperand
 
-TBD
+<p>Specifies the value that is compared with the input value pointed to by <i>Destination</i>.</p>
 
 
-
-
-#### - Comparand [in]
-
-Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
-
-
-#### - Exchange [in]
-
-Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
 
 
 ## -returns

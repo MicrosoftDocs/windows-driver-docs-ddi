@@ -60,7 +60,7 @@ The <b>SerCx2CustomReceiveTransactionReportProgress</b> method reports whether p
 
 ### -param CustomReceiveTransaction
 
-TBD
+<p>A <a href="https://msdn.microsoft.com/library/Dn265249(v=VS.85).aspx"><b>SERCX2CUSTOMRECEIVETRANSACTION</b></a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/Dn265251(v=VS.85).aspx"><b>SerCx2CustomReceiveTransactionCreate</b></a> method to create this object.</p>
 
 
 ### -param Progress [in]
@@ -72,11 +72,6 @@ Whether progress is being made toward completing the custom-receive transaction.
 <li>SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED</li>
 </ul>
 For more information about these enumeration constants, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265317">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
-
-
-#### - CustomReceive [in]
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
 
 ## -returns

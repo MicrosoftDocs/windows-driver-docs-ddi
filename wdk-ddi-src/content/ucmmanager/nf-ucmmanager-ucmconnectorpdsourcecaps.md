@@ -66,17 +66,12 @@ Handle to the connector object that the client driver received in the previous c
 
 ### -param Pdos
 
-TBD
+<p>A caller-allocated array of <a href="https://msdn.microsoft.com/library/Mt187935(v=VS.85).aspx"><b>UCM_PD_POWER_DATA_OBJECT</b></a> structures that describes the power source capabilities.</p>
 
 
 ### -param PdoCount [in]
 
 Number of elements in the array specified by   <i>Pdos[]</i>.
-
-
-#### - Pdos[] [in]
-
-A caller-allocated array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
 
 
 ## -returns

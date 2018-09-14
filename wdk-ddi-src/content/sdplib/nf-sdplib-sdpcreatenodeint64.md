@@ -62,17 +62,12 @@ The Bluetooth
 
 ### -param llVal
 
-TBD
+<p>The 64-bit integer value that is used to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - llval [in]
-
-The 64-bit integer value that is used to initialize the SDP_NODE structure.
 
 
 ## -returns

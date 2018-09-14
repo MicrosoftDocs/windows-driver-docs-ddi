@@ -70,17 +70,17 @@ IPv4.
 
 ### -field WwanIPTypeIPv6
 
-IPv6
+IPv6.
 
 
 ### -field WwanIPTypeIpv4v6
 
-IPv4 with IPv6
+IPv4 with IPv6.
 
 
 ### -field WwanIPTypeXlat
 
-
+XLAT.
 
 
 ## -see-also

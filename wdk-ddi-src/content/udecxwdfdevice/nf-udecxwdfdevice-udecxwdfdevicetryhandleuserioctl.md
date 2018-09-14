@@ -61,17 +61,12 @@ Attempts to handle an IOCTL request sent by a user-mode software.
 
 ### -param UdecxWdfDevice
 
-TBD
+<p>A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/Mt627990(v=VS.85).aspx"><b>UdecxWdfDeviceAddUsbDeviceEmulation</b></a>.</p>
 
 
 ### -param Request [in]
 
 A handle to a framework request object that represents the IOCTL request. 
-
-
-#### - Device [in]
-
-A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ## -returns

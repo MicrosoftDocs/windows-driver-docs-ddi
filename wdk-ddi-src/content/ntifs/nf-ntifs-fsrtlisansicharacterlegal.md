@@ -60,94 +60,71 @@ The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a l
 
 ### -param C
 
-TBD
+<p>The character to be tested.</p>
 
 
 ### -param FLAGS
 
-TBD
+<p>Combination of one or more of the following flag values:</p>
+  <table>
+    <tr>
+      <th>Flag</th>
+      <th>Meaning</th>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_FAT_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for FAT file names are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_HPFS_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for high-performance file system (HPFS) file names are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_NTFS_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for NTFS file names are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_WILD_CHARACTER</p>
+      </td>
+      <td>
+        <p>Wildcard characters are legal.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_OLE_LEGAL</p>
+      </td>
+      <td>
+        <p>Valid characters for NTFS stream names are legal. </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FSRTL_NTFS_STREAM_LEGAL</p>
+      </td>
+      <td>
+        <p>FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL</p>
+      </td>
+    </tr>
+  </table>
+  <p> </p>
 
 
 
 
-
-
-#### - Character
-
-The character to be tested.
-
-
-#### - Flags
-
-Combination of one or more of the following flag values:
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FSRTL_FAT_LEGAL
-
-</td>
-<td>
-Valid characters for FAT file names are legal.
-
-</td>
-</tr>
-<tr>
-<td>
-FSRTL_HPFS_LEGAL
-
-</td>
-<td>
-Valid characters for high-performance file system (HPFS) file names are legal.
-
-</td>
-</tr>
-<tr>
-<td>
-FSRTL_NTFS_LEGAL
-
-</td>
-<td>
-Valid characters for NTFS file names are legal.
-
-</td>
-</tr>
-<tr>
-<td>
-FSRTL_WILD_CHARACTER
-
-</td>
-<td>
-Wildcard characters are legal.
-
-</td>
-</tr>
-<tr>
-<td>
-FSRTL_OLE_LEGAL
-
-</td>
-<td>
-Valid characters for NTFS stream names are legal. 
-
-</td>
-</tr>
-<tr>
-<td>
-FSRTL_NTFS_STREAM_LEGAL
-
-</td>
-<td>
-FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

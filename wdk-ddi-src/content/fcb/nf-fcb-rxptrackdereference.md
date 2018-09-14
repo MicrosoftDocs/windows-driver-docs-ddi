@@ -113,14 +113,9 @@ The line number in the source file where this routine was called.
 
 ### -param Instance
 
-TBD
+<p>A pointer to the structure to be dereferenced.</p>
 
 
-
-
-#### - pInstance [in]
-
-A pointer to the structure to be dereferenced.
 
 
 ## -returns

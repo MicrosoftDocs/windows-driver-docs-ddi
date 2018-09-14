@@ -2,7 +2,7 @@
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_3
 title: DXGK_BRIGHTNESS_GET_3
 author: windows-driver-content
-description:
+description: Implemented by the client driver to retrieve the currently active brightness level of an integrated display panel, with details on the brightness transition in progress.
 ms.assetid: 0bcf8d16-da3a-45a3-b9cc-d767b69695db
 ms.author: windowsdriverdev
 ms.date:

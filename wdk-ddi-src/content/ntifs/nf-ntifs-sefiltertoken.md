@@ -131,14 +131,9 @@ This parameter is optional and can be <b>NULL</b>.
 
 ### -param FilteredToken
 
-TBD
+<p>Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. </p>
 
 
-
-
-#### - NewToken [out]
-
-Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. 
 
 
 ## -returns

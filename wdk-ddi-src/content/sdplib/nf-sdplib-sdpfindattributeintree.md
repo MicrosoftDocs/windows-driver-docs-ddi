@@ -72,14 +72,9 @@ The identifier of the attribute node to locate.
 
 ### -param Attribute
 
-TBD
+<p>A pointer to a variable that receives the address of the located attribute node.</p>
 
 
-
-
-#### - AttribValue [out]
-
-A pointer to a variable that receives the address of the located attribute node.
 
 
 ## -returns

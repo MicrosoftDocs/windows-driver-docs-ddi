@@ -60,16 +60,11 @@ The <b>RtlOemStringToCountedUnicodeSize</b> routine determines the size, in byte
 
 ### -param STRING
 
-TBD
+<p>Pointer to a caller-allocated OEM string. </p>
 
 
 
 
-
-
-#### - OemString [in]
-
-Pointer to a caller-allocated OEM string. 
 
 
 ## -remarks

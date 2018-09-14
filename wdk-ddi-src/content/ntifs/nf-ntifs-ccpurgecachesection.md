@@ -79,14 +79,9 @@ Length of the byte range to purge, starting at <i>FileOffset</i>. If <i>Length</
 
 ### -param Flags
 
-TBD
+<p>Set to <b>TRUE</b> to uninitialize any private cache maps for the file before purging the file data.</p>
 
 
-
-
-#### - UninitializeCacheMaps [in]
-
-Set to <b>TRUE</b> to uninitialize any private cache maps for the file before purging the file data.
 
 
 ## -returns

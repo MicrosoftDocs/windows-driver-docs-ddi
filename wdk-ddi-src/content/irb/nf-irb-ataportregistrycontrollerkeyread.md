@@ -123,14 +123,9 @@ A pointer to the buffer where the results are to be copied.
 
 ### -param BufferLength
 
-TBD
+<p>A pointer to the number of bytes of data to copy. If the operation fails because of an insufficient buffer, the location that is pointed to by <i>Length</i> will update to the actual length of the data in the registry.</p>
 
 
-
-
-#### - Length [in, out]
-
-A pointer to the number of bytes of data to copy. If the operation fails because of an insufficient buffer, the location that is pointed to by <i>Length</i> will update to the actual length of the data in the registry.
 
 
 ## -returns

@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_PROPERTY_DATA</b> structure describes a device property.
 

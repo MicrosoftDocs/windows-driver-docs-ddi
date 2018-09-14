@@ -1,0 +1,75 @@
+---
+UID: NF:mbbcx.MbbDeviceSetMbimParameters
+title: MbbDeviceSetMbimParameters function
+author: windows-driver-content
+description: The client driver calls the MbbDeviceSetMbimParameters method to report its MBIM-specification related parameters.
+ms.assetid: 87c11c92-f859-4b52-8aa0-7fe461cefc4c
+ms.author: windowsdriverdev
+ms.date: 06/29/2018
+ms.topic: function
+ms.keywords: MbbDeviceSetMbimParameters
+req.header: mbbcx.h
+req.include-header:
+req.target-type: Universal
+req.target-min-winverclnt: Windows 10, version 1809
+req.target-min-winversvr:
+req.kmdf-ver: 1.27
+req.umdf-ver:
+req.lib: mbbcxstub.lib
+req.dll:
+req.irql: PASSIVE_LEVEL
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topic_type: 
+-	apiref
+api_type: 
+-	LibDef
+api_location: 
+-	mbbcxstub.lib
+api_name: 
+-	MbbDeviceSetMbimParameters
+product:
+- Windows
+targetos: Windows
+
+
+---
+
+# MbbDeviceSetMbimParameters function
+
+
+## -description
+
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> 
+> MBBCx is preview only in Windows 10, version 1809.
+
+The client driver calls the **MbbDeviceSetMbimParameters** method to report its MBIM-specification related parameters.
+
+## -parameters
+
+### -param Device
+
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+
+### -param MbimParameters
+
+A pointer to a client driver-allocated and initialized [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure.
+
+## -returns
+
+This method does not return a value.
+
+## -remarks
+
+The client driver typically calls this method from within [*EVT_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md). 
+
+For more information, see [Initialize the device](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#initialize-the-device).
+
+## -see-also

@@ -78,14 +78,9 @@ A pointer to a caller-supplied, null-terminated string.
 
 ### -param cchToCopy
 
-TBD
+<p>The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.</p>
 
 
-
-
-#### - cchSrc [in]
-
-The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.
 
 
 ## -returns

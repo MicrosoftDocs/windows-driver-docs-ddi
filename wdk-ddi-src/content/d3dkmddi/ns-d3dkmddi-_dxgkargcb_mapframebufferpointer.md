@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_MAPFRAMEBUFFERPOINTER
 title: _DXGKARGCB_MAPFRAMEBUFFERPOINTER
 author: windows-driver-content
-description:
+description: Contains arguments used by the DxgkCbMapFrameBufferPointer callback function to map frame buffer pointer.
 ms.assetid: 8404fc1c-84e7-4758-90cd-39de1d4320f7
 ms.author: windowsdriverdev
 ms.date:
@@ -42,6 +42,7 @@ tech.root: display
 ## -description
 
 Contains arguments used by the [DxgkCbMapFrameBufferPointer](nc-d3dkmddi-dxgkcb_mapframebufferpointer.md) callback function to map frame buffer pointer.
+
 ## -struct-fields
 
 ### -field PhysicalAdapterIndex

@@ -2,7 +2,7 @@
 UID: NI:ntddvdeo.IOCTL_PANEL_SET_BRIGHTNESS_STATE
 title: IOCTL_PANEL_SET_BRIGHTNESS_STATE
 author: windows-driver-content
-description:
+description: Sets the brightness state for the display panel.
 ms.assetid: fe3220fd-033f-4510-b615-a49607341280
 ms.author: windowsdriverdev
 ms.date:

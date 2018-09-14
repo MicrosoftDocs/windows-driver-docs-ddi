@@ -65,17 +65,12 @@ A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
-TBD
+<p>A pointer to the timer routine. </p>
 
 
 ### -param TimerValue [in]
 
 Time interval in units of microseconds.
-
-
-#### - TimerRoutine [in]
-
-A pointer to the timer routine. 
 
 
 ## -returns

@@ -60,7 +60,7 @@ The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support exis
 
 ### -param FileLock
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param FileObject

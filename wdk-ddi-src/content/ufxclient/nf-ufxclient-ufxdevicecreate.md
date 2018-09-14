@@ -60,7 +60,7 @@ Creates a UFX device object, registers event callback routines, and specifies ca
 
 ### -param WdfDevice
 
-TBD
+<p>A handle to a WDF device object.</p>
 
 
 ### -param Callbacks [in]
@@ -83,11 +83,6 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 A pointer to a location that receives a handle to the new UFX device object.
 
 
-
-
-#### - Device [in]
-
-A handle to a WDF device object.
 
 
 ## -returns

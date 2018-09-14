@@ -60,7 +60,7 @@ The <b>ObQueryObjectAuditingByHandle</b> routine is reserved for system use.
 
 ### -param Handle
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param GenerateOnClose

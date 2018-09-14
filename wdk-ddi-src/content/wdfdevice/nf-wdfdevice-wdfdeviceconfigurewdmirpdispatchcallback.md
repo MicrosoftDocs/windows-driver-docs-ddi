@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method registers a driver's <a href="https://msdn.microsoft.com/C6BED59F-066E-42F6-86AE-B0423E0E847F">EvtDeviceWdmIrpDispatch</a> callback function.
 
@@ -80,17 +80,12 @@ One of the following IRP major function codes: IRP_MJ_DEVICE_CONTROL, IRP_MJ_INT
 
 ### -param EvtDeviceWdmIrpDisptach
 
-TBD
+<p>A pointer to the driver's <a href="https://msdn.microsoft.com/library/Hh406404(v=VS.85).aspx"><i>EvtDeviceWdmIrpDispatch</i></a> callback function.</p>
 
 
 ### -param DriverContext [in, optional]
 
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="https://msdn.microsoft.com/C6BED59F-066E-42F6-86AE-B0423E0E847F">EvtDeviceWdmIrpDispatch</a> callback function. This parameter is optional and can be NULL.
-
-
-#### - EvtDeviceWdmIrpDispatch [in]
-
-A pointer to the driver's <a href="https://msdn.microsoft.com/C6BED59F-066E-42F6-86AE-B0423E0E847F">EvtDeviceWdmIrpDispatch</a> callback function.
 
 
 ## -returns

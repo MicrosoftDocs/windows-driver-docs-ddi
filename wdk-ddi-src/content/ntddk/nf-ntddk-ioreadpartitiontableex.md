@@ -65,14 +65,9 @@ Pointer to the device object for the disk whose partitions are to be read.
 
 ### -param DriveLayout
 
-TBD
+<p>Pointer to an uninitialized address. If successful, <b>IoReadPartitionTableEx</b> allocates the memory for this buffer from nonpaged pool and returns the drive layout information in it.</p>
 
 
-
-
-#### - PartitionBuffer [out]
-
-Pointer to an uninitialized address. If successful, <b>IoReadPartitionTableEx</b> allocates the memory for this buffer from nonpaged pool and returns the drive layout information in it.
 
 
 ## -returns

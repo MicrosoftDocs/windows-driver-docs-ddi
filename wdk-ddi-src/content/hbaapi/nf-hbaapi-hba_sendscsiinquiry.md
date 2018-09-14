@@ -60,17 +60,17 @@ The <b>HBA_SendScsiInquiry</b> routine sends a SCSI inquiry command to the indic
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the target port is located.</p>
 
 
 ### -param PortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param FcLUN
 
-TBD
+<p>Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. </p>
 
 
 ### -param EVPD [in]
@@ -90,7 +90,7 @@ Pointer to a buffer that receives the output data of the SCSI inquiry command.
 
 ### -param RspBufferSize
 
-TBD
+<p>Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.</p>
 
 
 ### -param pSenseBuffer [out]
@@ -101,26 +101,6 @@ Pointer to a buffer that receives the SCSI sense data.
 ### -param SenseBufferSize [in]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
-
-
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. 
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
-
-
-#### - pRespBufferSize [in]
-
-Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
-
-
-#### - portWWN [in]
-
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
 ## -returns

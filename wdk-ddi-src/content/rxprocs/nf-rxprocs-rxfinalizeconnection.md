@@ -65,44 +65,42 @@ A pointer to the NET_ROOT structure being finalized.
 
 ### -param OPTIONAL
 
-TBD
+<p>A pointer to the V_NET_ROOT structure being finalized.</p>
 
 
 ### -param ForceFilesClosed
 
-TBD
+<p>The flag that controls the behavior of the <b>RxFinalizeConnection</b> routine. The flag can be one of the following values:</p>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="TRUE"></a>
+      <a id="true"></a>
+      <b>TRUE</b>
+    </dt>
+    
+      <p>
+        <b>RxFinalizeConnection</b> succeeds no matter what even if orphan files and IRP_MN_NOTIFY_CHANGE_DIRECTORY requests are open. The option forces these orphan files closed.</p>
+    
+    <dt>
+      <a id="FALSE"></a>
+      <a id="false"></a>
+      <b>FALSE</b>
+    </dt>
+    
+      <p>
+        <b>RxFinalizeConnection</b> fails if files or change notifications are open.</p>
+    
+    <dt>
+      <a id="0xff"></a>
+      <a id="0XFF"></a>0xff</dt>
+    
+      <p>
+        <b>RxFinalizeConnection</b> removes the extra reference on the V_NET_ROOT structure due to the add connection request, but otherwise act like <b>FALSE</b>. <b>RxFinalizeConnection</b> fails if files or change notifications are open.</p>
+    
+  </dl>
 
 
-
-
-#### - Level [in]
-
-The flag that controls the behavior of the <b>RxFinalizeConnection</b> routine. The flag can be one of the following values:
-
-
-
-
-
-#### TRUE
-
-<b>RxFinalizeConnection</b> succeeds no matter what even if orphan files and IRP_MN_NOTIFY_CHANGE_DIRECTORY requests are open. The option forces these orphan files closed.
-
-
-
-#### FALSE
-
-<b>RxFinalizeConnection</b> fails if files or change notifications are open.
-
-
-
-#### 0xff
-
-<b>RxFinalizeConnection</b> removes the extra reference on the V_NET_ROOT structure due to the add connection request, but otherwise act like <b>FALSE</b>. <b>RxFinalizeConnection</b> fails if files or change notifications are open.
-
-
-#### - VNetRoot [in, out, optional]
-
-A pointer to the V_NET_ROOT structure being finalized.
 
 
 ## -returns

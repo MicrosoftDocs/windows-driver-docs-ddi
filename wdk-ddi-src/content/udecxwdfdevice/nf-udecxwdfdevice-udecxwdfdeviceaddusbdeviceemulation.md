@@ -61,17 +61,12 @@ Initializes a framework device object to support operations related to a host co
 
 ### -param WdfDevice
 
-TBD
+<p>A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/Ff545926(v=VS.85).aspx"><b>WdfDeviceCreate</b></a>.</p>
 
 
 ### -param Config [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt628008">UDECX_WDF_DEVICE_CONFIG</a> structure that the client driver initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628010">UDECX_WDF_DEVICE_CONFIG_INIT</a>.
-
-
-#### - Device [in]
-
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 ## -returns

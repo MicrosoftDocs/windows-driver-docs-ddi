@@ -65,14 +65,9 @@ A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
-TBD
+<p>A pointer to the routine to call. </p>
 
 
-
-
-#### - SynchronizedRoutine [in]
-
-A pointer to the routine to call. 
 
 
 ## -returns

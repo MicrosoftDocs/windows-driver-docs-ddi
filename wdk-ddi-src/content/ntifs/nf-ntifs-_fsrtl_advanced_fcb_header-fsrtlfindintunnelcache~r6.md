@@ -65,7 +65,7 @@ Pointer to a tunnel cache initialized by <a href="https://msdn.microsoft.com/lib
 
 ### -param DirectoryKey
 
-TBD
+<p>Key value of the directory containing the file that is being created or renamed.</p>
 
 
 ### -param Name [in]
@@ -91,11 +91,6 @@ On input, this is a pointer to a variable that specifies the length of the buffe
 ### -param Data [out]
 
 Pointer to a caller-allocated buffer to receive the data found in the tunnel cache.
-
-
-#### - DirKey [in]
-
-Key value of the directory containing the file that is being created or renamed.
 
 
 ## -returns

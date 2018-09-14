@@ -65,17 +65,12 @@ Specifies the new search path. If this argument is <b>NULL</b> or the string is 
 
 ### -param OPTIONAL
 
-TBD
+<p>Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current search path in the buffer pointed to by <i>Result</i>.</p>
 
 
 ### -param Length [in]
 
 Specifies the size of the buffer for storing the result.
-
-
-#### - Result [out, optional]
-
-Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current search path in the buffer pointed to by <i>Result</i>.
 
 
 ## -returns

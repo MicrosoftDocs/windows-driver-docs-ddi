@@ -73,17 +73,12 @@ Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.Config
 
 ### -param InterfaceListEntry
 
-TBD
+<p>Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/Ff539076(v=VS.85).aspx"><b>USBD_INTERFACE_LIST_ENTRY</b></a>    structure. For more information, see Remarks.</p>
 
 
 ### -param Urb [out]
 
 Pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure that receives the URB allocated by <b>USBD_SelectInterfaceUrbAllocateAndBuild</b>. The client driver must free the URB when the driver has finished using it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh406252">USBD_UrbFree</a>.
-
-
-#### - InterfaceList [in]
-
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff539076">USBD_INTERFACE_LIST_ENTRY</a>    structure. For more information, see Remarks.
 
 
 ## -returns

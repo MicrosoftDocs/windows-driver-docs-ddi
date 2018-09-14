@@ -13,7 +13,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
-req.include-header: TBD
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -109,7 +109,7 @@ The driver can use this member to perform optimizations, though it's not require
 ### -field BackBufferMultiplicity
 
  
-
+The number of physical back buffer per logical back buffer.
 
 
 

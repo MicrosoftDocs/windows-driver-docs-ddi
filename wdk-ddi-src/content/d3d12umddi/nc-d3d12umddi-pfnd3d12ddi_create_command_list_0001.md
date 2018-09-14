@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_LIST_0001
 title: PFND3D12DDI_CREATE_COMMAND_LIST_0001
 author: windows-driver-content
-description: 
+description: Creates a command list.
 ms.assetid: ff7999b0-ba8c-4302-b1b8-a65d6ccb2822
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Creates a command list.
 
 ## -prototype
 
@@ -69,18 +69,14 @@ PFND3D12DDI_CREATE_COMMAND_LIST_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_CREATE_COMMAND_LIST_0001 structure.
 
 ## -returns
 
-Returns HRESULT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns HRESULT.

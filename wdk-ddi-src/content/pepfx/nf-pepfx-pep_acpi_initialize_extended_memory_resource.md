@@ -243,17 +243,12 @@ an NVS sleep.
 
 ### -param TranslationTypeNonStatic
 
-TBD
+<p>When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.</p>
 
 
 ### -param Resource [out]
 
 This is cast to *<a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a>.
-
-
-#### - TanslationTypeNonStatic [in]
-
-When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.
 
 
 ## -returns

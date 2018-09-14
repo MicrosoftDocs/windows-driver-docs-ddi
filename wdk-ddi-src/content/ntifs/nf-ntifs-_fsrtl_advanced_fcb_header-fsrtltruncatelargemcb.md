@@ -60,24 +60,14 @@ The <b>FsRtlTruncateLargeMcb</b> routine truncates a large map control block (MC
 
 ### -param Mcb
 
-TBD
+<p>Pointer to the MCB structure. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. </p>
 
 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. 
-
-
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
 
 
 ## -returns

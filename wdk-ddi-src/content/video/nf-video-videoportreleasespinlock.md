@@ -66,17 +66,12 @@ Pointer to the miniport driver's device extension.
 
 ### -param param
 
-TBD
+<p>Pointer to a memory location that contains the spin lock to be released.</p>
 
 
 ### -param NewIrql [in]
 
 Specifies the IRQL to be restored.
-
-
-#### - SpinLock [in, out]
-
-Pointer to a memory location that contains the spin lock to be released.
 
 
 ## -returns

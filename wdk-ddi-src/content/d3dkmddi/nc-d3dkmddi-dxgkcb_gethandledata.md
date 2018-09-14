@@ -64,7 +64,9 @@ The <i>DxgkCbGetHandleData</i> function retrieves the private data that is assoc
 
 
 
-#### - pData [in]
+#### -param
+
+*pData*
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557534">DXGKARGCB_GETHANDLEDATA</a> structure that describes the allocation data to retrieve.
 

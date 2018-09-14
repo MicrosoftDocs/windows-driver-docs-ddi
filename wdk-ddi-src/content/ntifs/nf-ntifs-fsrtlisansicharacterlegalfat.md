@@ -60,26 +60,16 @@ The <b>FsRtlIsAnsiCharacterLegalFat</b> macro determines whether an ANSI charact
 
 ### -param C
 
-TBD
+<p>Pointer to the character to be tested.</p>
 
 
 ### -param WILD_OK
 
-TBD
+<p>Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.</p>
 
 
 
 
-
-
-#### - Character
-
-Pointer to the character to be tested.
-
-
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
 ## -see-also

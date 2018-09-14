@@ -90,14 +90,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ### -param DeviceObject
 
-TBD
+<p>A pointer to an <a href="https://msdn.microsoft.com/library/Ff550671(v=VS.85).aspx"><b>IO_STATUS_BLOCK</b></a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.</p>
 
 
-
-
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

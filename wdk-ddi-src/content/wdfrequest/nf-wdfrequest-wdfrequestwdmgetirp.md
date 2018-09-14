@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that is associated with a specified framework request object.
 

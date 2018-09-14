@@ -75,14 +75,9 @@ A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https
 
 ### -param DeviceObject
 
-TBD
+<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/Hh706192(v=VS.85).aspx"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
 
 
-
-
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

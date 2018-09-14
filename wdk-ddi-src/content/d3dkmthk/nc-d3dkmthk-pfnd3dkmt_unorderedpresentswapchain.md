@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN
 title: PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN
 author: windows-driver-content
-description:
+description: Implemented by the client driver to store information about the swap chain being presented.
 ms.assetid: 0de92381-b602-4ae5-adf2-eba28814fe72
 ms.author: windowsdriverdev
 ms.date:
@@ -74,7 +74,7 @@ Pointer to a [D3DKMT_UNORDEREDPRESENTSWAPCHAIN](ns-d3dkmthk-_d3dkmt_unorderedpre
 
 ## -returns
 
-Returns NTSTATUS that ...
+Returns NTSTATUS.
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [XREF-LINK:NTSTATUS Values].
 
 ## -remarks

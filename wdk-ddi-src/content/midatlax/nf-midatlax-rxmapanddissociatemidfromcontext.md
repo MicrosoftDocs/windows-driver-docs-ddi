@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>A pointer to the MID_ATLAS structure.</p>
 
 
 ### -param Mid
@@ -70,19 +70,9 @@ The multiplex ID to be mapped.
 
 ### -param ContextPointer
 
-TBD
+<p>A pointer that will hold the context for this MID on exit.</p>
 
 
-
-
-#### - pContextPointer
-
-A pointer that will hold the context for this MID on exit.
-
-
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS structure.
 
 
 ## -returns

@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_SET_COLORSPACE_TRANSFORM
 title: "_D3DKMT_SET_COLORSPACE_TRANSFORM"
 author: windows-driver-content
-description: .
+description: Used to set the color space transform.
 old-location: display\d3dkmt-set-colorspace-transform.htm
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e
 ms.author: windowsdriverdev
@@ -49,9 +49,26 @@ req.typenames: D3DKMT_SET_COLORSPACE_TRANSFORM
 
 ## -description
 
-
-
-
+Used to set the color space transform.
 
 ## -struct-fields
 
+### -field AdapterLuid
+
+A LUID that serves as an identifier for the device. 
+
+### -field VidPnTargetId
+
+The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. 
+
+### -field Type
+
+The type of color space.
+
+### -field Size
+
+The size of the color space transform.
+
+### -field pColorSpaceTransform
+
+Pointer to a [D3DKMDT_3x4_COLORSPACE_TRANSFORM](../d3dukmdt/ns-d3dukmdt-_d3dkmdt_3x4_colorspace_transform.md) structure.

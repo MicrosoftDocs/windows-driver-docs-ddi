@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECOMMANDALLOCATOR
 title: PFND3D12DDI_CREATECOMMANDALLOCATOR
 author: windows-driver-content
-description: 
+description: Creates a command allocator.
 ms.assetid: 78393c5e-a99a-4b55-8302-76137bc4f4e5
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Creates a command allocator.
 
 ## -prototype
 
@@ -69,18 +69,14 @@ PFND3D12DDI_CREATECOMMANDALLOCATOR
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_CREATECOMMANDALLOCATOR structure.
 
 ## -returns
 
-Returns HRESULT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns HRESULT.

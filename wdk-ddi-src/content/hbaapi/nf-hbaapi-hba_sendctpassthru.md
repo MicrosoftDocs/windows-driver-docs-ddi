@@ -60,7 +60,7 @@ The <b>HBA_SendCTPassThru</b> routine sends a common transport (CT) pass-through
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. </p>
 
 
 ### -param pReqBuffer [in]
@@ -81,11 +81,6 @@ Pointer to a buffer that contains the payload data from the reply to the common 
 ### -param RspBufferSize [in]
 
 Indicates the size of the buffer pointed to by <i>pRspBuffer</i>. 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
 
 
 ## -returns

@@ -78,7 +78,7 @@ A pointer to a caller-supplied, null-terminated string.
 
 ### -param cchToCopy
 
-TBD
+<p>The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.</p>
 
 
 ### -param ppszDestEnd [out, optional]
@@ -152,11 +152,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </tr>
 </table>
  
-
-
-#### - cchSrc [in]
-
-The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.
 
 
 ## -returns

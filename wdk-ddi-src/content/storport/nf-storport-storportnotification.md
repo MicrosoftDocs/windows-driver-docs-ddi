@@ -298,14 +298,9 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 
 ### -param param
 
-TBD
+<p>Specifies the arguments corresponding to the notification type.</p>
 
 
-
-
-#### - arguments
-
-Specifies the arguments corresponding to the notification type.
 
 
 ## -returns

@@ -61,7 +61,7 @@ Creates a UDE endpoint object.
 
 ### -param EndpointInit
 
-TBD
+<p>A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/Mt627989(v=VS.85).aspx"><b>UdecxUsbSimpleEndpointInitAllocate</b></a>.</p>
 
 
 ### -param Attributes [in, optional]
@@ -72,11 +72,6 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 ### -param UdecxUsbEndpoint [out]
 
 A pointer to a variable that receives a handle to the new UDE endpoint object that represents the simple endpoint on the  USB device.
-
-
-#### - Init [in, out]
-
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
 ## -returns

@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceProcessQueryInterfaceRequest</i> event callback function examines another driver's request for access to a driver-defined interface, before the framework passes the interface to the requesting driver.
 

@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfLookasideListCreate</b> method creates a lookaside-list object, from which the driver can obtain memory objects. 
 

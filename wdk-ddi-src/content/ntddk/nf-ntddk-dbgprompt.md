@@ -71,14 +71,9 @@ A pointer to a character array buffer that receives the user's response, includi
 
 ### -param Length
 
-TBD
+<p>The size, in characters, of the buffer that receives the user's response. This size is the maximum number of characters that the routine will return.</p>
 
 
-
-
-#### - MaximumResponseLength [in]
-
-The size, in characters, of the buffer that receives the user's response. This size is the maximum number of characters that the routine will return.
 
 
 ## -returns

@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param pLocalAddress
 
-TBD
+<p>A pointer to the local RDBSS connection engine address.</p>
 
 
 ### -param pConnectionInformation [in]
@@ -86,11 +86,6 @@ On input, this parameter contains a pointer to an uninitialized RDBSS connection
 ### -param pVc [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RDBSS virtual circuit. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit is properly initialized.
-
-
-#### - pAddress [in]
-
-A pointer to the local RDBSS connection engine address.
 
 
 ## -returns

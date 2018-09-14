@@ -60,14 +60,9 @@ The <b>ReloadSymbols</b> function deletes symbol information from the debugger s
 
 ### -param OPTIONAL
 
-TBD
+<p>Specifies the arguments for the debugger command <b>.reload</b>.  For example, setting <i>Arg</i> to <b>/u ntdll.dll</b> has the same effect as the command <b>.reload /u ntdll.dll</b>.</p>
 
 
-
-
-#### - Arg [in, optional]
-
-Specifies the arguments for the debugger command <b>.reload</b>.  For example, setting <i>Arg</i> to <b>/u ntdll.dll</b> has the same effect as the command <b>.reload /u ntdll.dll</b>.
 
 
 ## -returns

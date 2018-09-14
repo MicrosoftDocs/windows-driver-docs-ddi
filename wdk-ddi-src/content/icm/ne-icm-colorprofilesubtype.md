@@ -15,7 +15,7 @@ ms.topic: enum
 req.header: icm.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

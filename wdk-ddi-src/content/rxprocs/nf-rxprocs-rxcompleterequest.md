@@ -60,17 +60,12 @@ req.typenames:
 
 ### -param pContext
 
-TBD
+<p>A pointer to the RX_CONTEXT. This parameter contains the IRP requesting the operation to complete. </p>
 
 
 ### -param Status
 
 The status value to return when the IRP request is complete. This is the value that will be stored in the <b>IoStatus.Status</b> member of the associated IRP on completion.
-
-
-#### - RxContext
-
-A pointer to the RX_CONTEXT. This parameter contains the IRP requesting the operation to complete. 
 
 
 ## -returns

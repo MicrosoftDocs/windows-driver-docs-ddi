@@ -60,34 +60,20 @@ The <b>GetDebuggerData</b> function retrieves information stored in a data block
 
 ### -param TAG
 
-TBD
+<p>This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)</p>
 
 
 ### -param BUF
 
-TBD
+<p>Points to the debugger data block.</p>
 
 
 ### -param SIZE
 
-TBD
+<p>Specifies the size of the data block, including the header.</p>
 
 
 
 
 
-
-#### - Buf
-
-Points to the debugger data block.
-
-
-#### - Size
-
-Specifies the size of the data block, including the header.
-
-
-#### - Tag
-
-This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)
 

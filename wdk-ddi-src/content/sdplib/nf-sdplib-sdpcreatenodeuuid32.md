@@ -62,17 +62,12 @@ The Bluetooth
 
 ### -param uuidVal4
 
-TBD
+<p>The 32-bit UUID value to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - ulVal [in]
-
-The 32-bit UUID value to initialize the SDP_NODE structure.
 
 
 ## -returns

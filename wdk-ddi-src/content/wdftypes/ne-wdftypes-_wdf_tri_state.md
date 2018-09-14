@@ -51,7 +51,7 @@ req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
 

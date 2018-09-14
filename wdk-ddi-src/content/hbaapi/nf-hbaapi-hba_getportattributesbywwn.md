@@ -60,7 +60,7 @@ The <b>HBA_GetPortAttributesByWWN</b> routine retrieves the attributes for the p
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located.  </p>
 
 
 ### -param PortWWN [in]
@@ -70,19 +70,9 @@ Contains the worldwide name (WWN) of the port whose attributes to retrieve. For 
 
 ### -param PortAttributes
 
-TBD
+<p>Contains a structure of type <a href="https://msdn.microsoft.com/library/Ff557107(v=VS.85).aspx"><b>HBA_PortAttributes</b></a> that holds the port attributes: </p>
 
 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
-
-
-#### - HbaPortAttributes [out]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a> that holds the port attributes: 
 
 
 ## -returns

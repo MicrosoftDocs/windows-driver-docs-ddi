@@ -71,7 +71,7 @@ Contains a value of type <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -param SystemIoBusNumber
 
-TBD
+<p>Contains an integer identifying a system bus.</p>
 
 
 ### -param IoAddress [in]
@@ -87,11 +87,6 @@ Contains the length in bytes of the range of addresses to be validated.
 ### -param InIoSpace [in]
 
 Indicates, when <b>TRUE</b>, that the address range is in I/O space. If <b>FALSE</b>, the address is in memory space. 
-
-
-#### - SystemToBusNumber [in]
-
-Contains an integer identifying a system bus.
 
 
 ## -returns

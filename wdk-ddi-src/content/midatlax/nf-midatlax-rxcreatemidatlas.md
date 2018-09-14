@@ -60,24 +60,14 @@ req.typenames:
 
 ### -param MaximumNumberOfEntries
 
-TBD
+<p>The maximum number of multiplex IDs (MIDs) to be allowed in the atlas.</p>
 
 
 ### -param InitialAllocation
 
-TBD
+<p>The number of multiplex IDs allocated initially.</p>
 
 
-
-
-#### - MaximumNumberOfMids
-
-The maximum number of multiplex IDs (MIDs) to be allowed in the atlas.
-
-
-#### - MidsAllocatedAtStart
-
-The number of multiplex IDs allocated initially.
 
 
 ## -returns

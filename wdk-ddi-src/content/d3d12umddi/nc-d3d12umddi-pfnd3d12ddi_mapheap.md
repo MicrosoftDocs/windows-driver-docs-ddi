@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_MAPHEAP
 title: PFND3D12DDI_MAPHEAP
 author: windows-driver-content
-description: 
+description: Map heap.
 ms.assetid: 2187b018-e5d2-4a82-8232-ba9f1ae3a988
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Map heap.
 
 ## -prototype
 
@@ -70,19 +70,25 @@ PFND3D12DDI_MAPHEAP
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HHEAP: 
-### -param **: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HHEAP 
 
+A heap handle.
+
+### -param **
+
+Pointer.
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

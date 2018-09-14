@@ -72,26 +72,16 @@ VOID RtlZeroMemory(
 
 ### -param d
 
-TBD
+<p>A pointer to the memory block to be filled with zeros.</p>
 
 
 ### -param c
 
-TBD
+<p>The number of bytes to fill with zeros.</p>
 
 
 
 
-
-
-#### - Destination [out]
-
-A pointer to the memory block to be filled with zeros.
-
-
-#### - Length [in]
-
-The number of bytes to fill with zeros.
 
 
 ## -remarks

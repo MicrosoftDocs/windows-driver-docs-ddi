@@ -61,17 +61,12 @@ Sets pointers to UDE client driver-implemented  callback functions in the initia
 
 ### -param UdecxUsbEndpointInit
 
-TBD
+<p>A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/Mt627989(v=VS.85).aspx"><b>UdecxUsbSimpleEndpointInitAllocate</b></a>.</p>
 
 
 ### -param EndpointCallbacks [in]
 
 A pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/mt628005">UDECX_USB_ENDPOINT_CALLBACKS</a> that contains function pointers to event callback functions implemented by the UDE client driver. 
-
-
-#### - Init [in, out]
-
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
 ## -returns

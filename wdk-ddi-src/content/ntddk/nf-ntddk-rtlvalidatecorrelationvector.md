@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Validates the specified correlation vector to check whether it conforms to the Correlation Vector Specification (v2).
+Validates the specified [correlation vector](https://github.com/Microsoft/CorrelationVector) to check whether it conforms to the Correlation Vector Specification (v2).
     The function specifically checks if the first 22 bytes are a valid base64 representation of a 16 byte
         buffer
          and the remaining characters match the (\.\d+)+  regular expression.
@@ -65,14 +65,9 @@ Validates the specified correlation vector to check whether it conforms to the C
 
 ### -param Vector
 
-TBD
+<p>A pointer to a  <a href="https://msdn.microsoft.com/library/Mt826258(v=VS.85).aspx"><b>CORRELATION_VECTOR</b></a> structure that represents the correlation vector to be validated.</p>
 
 
-
-
-#### - CorrelationVector [in, out]
-
-A pointer to a  <a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a> structure that represents the correlation vector to be validated.
 
 
 ## -returns

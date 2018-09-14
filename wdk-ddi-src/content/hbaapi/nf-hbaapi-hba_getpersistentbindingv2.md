@@ -60,7 +60,7 @@ The <b>HBA_GetPersistentBindingV2</b> routine retrieves persistent bindings, inc
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA to query for the persistent bindings. The HBA returns bindings for the logical units that it can enumerate on the port specified by <i>HbaPortWWN</i>. </p>
 
 
 ### -param HbaPortWWN [in]
@@ -73,11 +73,6 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the fibre channe
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556057">HBA_FCPBinding2</a> that holds an array of elements of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556060">HBA_FCPBindingEntry2</a>, each of which holds a persistent binding between operating system and fibre channel protocol (FCP) identifiers for a logical unit. On input, the <b>NumberOfEntries</b> member of HBA_FCPBinding2 should contain the number of bindings that fit in the output buffer. On output, <b>NumberOfEntries</b> holds the number of bindings actually returned, which is equal to the number specified on input, or the full set of available bindings, whichever is smaller. The value in <b>NumberOfEntries</b> contains the number of persistent bindings returned even when an error occurred because of insufficient buffer space. 
 
 On output, the <b>Status</b> member of each HBA_FCPBindingEntry2 structure is 0. 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA to query for the persistent bindings. The HBA returns bindings for the logical units that it can enumerate on the port specified by <i>HbaPortWWN</i>. 
 
 
 ## -returns

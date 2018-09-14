@@ -68,14 +68,9 @@ The SDP sequence or alternative node to which the
 
 ### -param Node
 
-TBD
+<p>The SDP node to add to the parent node.</p>
 
 
-
-
-#### - Child [in]
-
-The SDP node to add to the parent node.
 
 
 ## -returns

@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
 

@@ -70,14 +70,9 @@ On return, a pointer to a linked list of one or more MDLs that point to the cach
 
 ### -param DeviceObject
 
-TBD
+<p>On return, a pointer to a linked list of one or more MDLs that point to the cached file data.</p>
 
 
-
-
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

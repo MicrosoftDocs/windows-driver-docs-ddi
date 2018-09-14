@@ -60,14 +60,9 @@ The <b>FsRtlUninitializeLargeMcb</b> routine uninitializes a large map-control b
 
 ### -param Mcb
 
-TBD
+<p>Supplies a pointer to the MCB structure to uninitialize. The MCB must have been initialized by calling <a href="https://msdn.microsoft.com/library/Ff546132(v=VS.85).aspx"><b>FsRtlInitializeLargeMcb</b></a>.</p>
 
 
-
-
-#### - OpaqueMcb [in]
-
-Supplies a pointer to the MCB structure to uninitialize. The MCB must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546132">FsRtlInitializeLargeMcb</a>.
 
 
 ## -returns

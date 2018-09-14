@@ -60,7 +60,7 @@ The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware perfo
 
 ### -param GroupAffinty
 
-TBD
+<p>Reserved for future use. Set this parameter to <b>NULL</b>.</p>
 
 
 ### -param GroupCount [in]
@@ -76,11 +76,6 @@ Reserved for future use. Set this parameter to <b>NULL</b>.
 ### -param CounterSetHandle [out]
 
 A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, <b>HalAllocateHardwareCounters</b> sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
-
-
-#### - GroupAffinity [in]
-
-Reserved for future use. Set this parameter to <b>NULL</b>.
 
 
 ## -returns

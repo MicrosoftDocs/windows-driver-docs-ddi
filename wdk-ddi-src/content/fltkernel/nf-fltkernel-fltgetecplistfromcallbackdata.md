@@ -65,17 +65,12 @@ An opaque filter pointer to the minifilter driver. This pointer uniquely identif
 
 ### -param CallbackData
 
-TBD
+<p>A pointer to a callback-data object of type <a href="https://msdn.microsoft.com/library/Ff544620(v=VS.85).aspx"><b>FLT_CALLBACK_DATA</b></a>, which represents the create operation.</p>
 
 
 ### -param EcpList [out]
 
 Receives a pointer to the ECP list that is associated with the <i>Data</i> callback-data object.
-
-
-#### - Data [in]
-
-A pointer to a callback-data object of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>, which represents the create operation.
 
 
 ## -returns

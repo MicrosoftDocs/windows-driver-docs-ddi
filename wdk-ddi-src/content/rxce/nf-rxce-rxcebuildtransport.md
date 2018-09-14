@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param pRxCeTransport
 
-TBD
+<p>On input, this parameter contains a pointer to an uninitialized RDBSS transport with which this transport name is to be associated. On output when this call is successful, the transport is associated with the specified transport name and the transport is properly initialized.</p>
 
 
 ### -param pTransportName [in]
@@ -71,11 +71,6 @@ A pointer to the Unicode binding string for the desired transport.
 ### -param QualityOfService [in]
 
 The quality of service desired from the transport.
-
-
-#### - pTransport [in]
-
-On input, this parameter contains a pointer to an uninitialized RDBSS transport with which this transport name is to be associated. On output when this call is successful, the transport is associated with the specified transport name and the transport is properly initialized.
 
 
 ## -returns

@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param hAddress
 
-TBD
+<p>A pointer to the transport along which the TSDU is to be sent.</p>
 
 
 ### -param pConnectionInformation [in]
@@ -70,7 +70,7 @@ A pointer to connection information that contains the remote address.
 
 ### -param SendOptions
 
-TBD
+<p>A pointer to connection information that contains the remote address.</p>
 
 
 ### -param pMdl [in]
@@ -86,37 +86,6 @@ The length of data to be sent.
 ### -param pCompletionContext [in]
 
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
-
-
-#### - Options [in]
-
-The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>Options</i> parameter consists of set of bits defined in <i>rxce.h</i>. The <i>Options</i> parameter can be a combination of the following bits:
-
-
-
-
-
-#### RXCE_SEND_PARTIAL
-
-Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only portions of it need to be sent. This option requests that the transport allow the send operation to transmit part of the data if the transport and MDL allow this behavior.
-
-
-
-#### RXCE_SEND_SYNCHRONOUS
-
-Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
-
-Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams because the underlying transports do not block on datagram sends.
-
-
-#### - pAddress [in]
-
-A pointer to the local transport address.
-
-
-#### - pTransport [in]
-
-A pointer to the transport along which the TSDU is to be sent.
 
 
 ## -returns

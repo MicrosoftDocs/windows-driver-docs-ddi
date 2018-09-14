@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_METACOMMAND
 title: PFND3D12DDI_CREATE_METACOMMAND
 author: windows-driver-content
-description:
+description: Implemented by the client driver to create meta-commands.
 ms.assetid: a01b1dd8-2663-4ab6-82b7-01ae1b3d6661
 ms.author: windowsdriverdev
 ms.date:
@@ -81,11 +81,11 @@ Pointer to a structure that contains meta-command fields.
 
 ### -param D3D12DDI_HMETACOMMAND
 
-Handle to a meta-command.
+Handle to a meta command.
 
 ### -param D3D12DDI_HRTMETACOMMAND
 
-A meta-command.
+A meta command.
 
 ## -returns
 

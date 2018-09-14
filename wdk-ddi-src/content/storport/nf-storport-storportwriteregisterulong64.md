@@ -60,12 +60,12 @@ This <b>StorPortWriteRegisterUlong64</b> routine writes a <b>ULONG64</b> value t
 
 ### -param h
 
-TBD
+<p>Pointer to the register where the data is written to. The register must be a mapped range in memory space</p>
 
 
 ### -param r
 
-TBD
+<p>A <b>ULONG64</b> value to write to the register.</p>
 
 
 ### -param v
@@ -75,16 +75,6 @@ TBD
 
 
 
-
-
-#### - Register [in]
-
-Pointer to the register where the data is written to. The register must be a mapped range in memory space
-
-
-#### - Value [in]
-
-A <b>ULONG64</b> value to write to the register.
 
 
 ## -remarks

@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The 
    <b>WdfDmaTransactionInitializeUsingOffset</b> method initializes a specified DMA transaction by using a byte offset into an MDL chain.

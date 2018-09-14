@@ -2,7 +2,7 @@
 UID: NF:portcls.IServiceGroup.RequestService
 title: IServiceGroup::RequestService
 author: windows-driver-content
-description: TBD
+description:
 old-location: audio\iservicegroup_requestservice.htm
 tech.root: audio
 ms.assetid: 9CB0CE26-2F26-424E-9EF5-C6780F521E09

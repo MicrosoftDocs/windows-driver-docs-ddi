@@ -60,14 +60,9 @@ The <b>MapSecurityError</b> function maps a security interface SECURITY_STATUS s
 
 ### -param SecStatus
 
-TBD
+<p>The security interface SECURITY_STATUS status code to be mapped.</p>
 
 
-
-
-#### - Error [in]
-
-The security interface SECURITY_STATUS status code to be mapped.
 
 
 ## -returns

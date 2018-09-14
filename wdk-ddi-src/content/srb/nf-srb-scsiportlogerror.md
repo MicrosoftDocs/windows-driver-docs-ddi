@@ -66,7 +66,7 @@ Pointer to the hardware device extension. This is a per-HBA storage area that th
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.</p>
 
 
 ### -param PathId [in]
@@ -200,11 +200,6 @@ Indicates that a target disconnected unexpectedly.
 ### -param UniqueId [in]
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
-
-
-#### - Srb [in, optional]
-
-Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
 
 
 ## -returns

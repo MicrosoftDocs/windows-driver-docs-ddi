@@ -65,14 +65,9 @@ Pointer to the device object that represents the changer.
 
 ### -param changerDeviceError
 
-TBD
+<p>Pointer to the buffer of type <a href="https://msdn.microsoft.com/library/Ff568029(v=VS.85).aspx"><b>WMI_CHANGER_PROBLEM_DEVICE_ERROR</b></a> in which the minidriver returns the diagnostic information.</p>
 
 
-
-
-#### - ChangerDeviceError [out]
-
-Pointer to the buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568029">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a> in which the minidriver returns the diagnostic information.
 
 
 ## -returns

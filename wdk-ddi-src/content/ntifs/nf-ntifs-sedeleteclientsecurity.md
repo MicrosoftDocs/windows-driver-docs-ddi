@@ -60,16 +60,11 @@ The <b>SeDeleteClientSecurity</b> routine deletes a client security context.
 
 ### -param C
 
-TBD
+<p>Pointer to the client security context structure to be deleted.</p>
 
 
 
 
-
-
-#### - ClientContext [in]
-
-Pointer to the client security context structure to be deleted.
 
 
 ## -remarks

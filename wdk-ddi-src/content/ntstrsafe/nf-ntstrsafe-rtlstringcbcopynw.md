@@ -82,14 +82,9 @@ A pointer to a caller-supplied, null-terminated string.
 
 ### -param cbToCopy
 
-TBD
+<p>The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>.</p>
 
 
-
-
-#### - cbSrc [in]
-
-The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ## -returns

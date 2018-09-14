@@ -50,7 +50,7 @@ req.typenames: WDF_DMA_DIRECTION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DMA_DIRECTION</b> enumeration defines the direction of a DMA transfer.
 

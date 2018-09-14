@@ -70,17 +70,12 @@ Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating w
 
 ### -param RemoteSession
 
-TBD
+<p>Set to <b>TRUE</b> if the server of the client's request is remote.</p>
 
 
 ### -param ClientContext [out]
 
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
-
-
-#### - ServerIsRemote [in]
-
-Set to <b>TRUE</b> if the server of the client's request is remote.
 
 
 ## -returns

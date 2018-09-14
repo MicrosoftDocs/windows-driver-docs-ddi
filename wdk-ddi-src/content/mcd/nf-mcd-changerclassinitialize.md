@@ -71,14 +71,9 @@ Pointer to the registry path for changer miniclass driver. This is also passed a
 
 ### -param ChangerInitData
 
-TBD
+<p>Pointer to an <a href="https://msdn.microsoft.com/library/Ff562210(v=VS.85).aspx"><b>MCD_INIT_DATA</b></a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. </p>
 
 
-
-
-#### - MCDInitData [in]
-
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff562210">MCD_INIT_DATA</a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. 
 
 
 ## -returns

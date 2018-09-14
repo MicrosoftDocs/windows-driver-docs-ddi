@@ -76,43 +76,27 @@ VOID NdisMapFile(
 
 ### -param
 
-TBD
-
-
-
-
-#### - FileHandle [in]
-
-The handle that was returned by a preceding call to the
-     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
-
-
-#### - MappedBuffer [out]
-
-A pointer to a caller-supplied variable in which this function returns the base virtual address of
-     the mapped file contents or <b>NULL</b>.
-
-
-#### - Status [out]
-
-A pointer to a caller-supplied variable in which this function returns the status of the mapping
+<p>A pointer to a caller-supplied variable in which this function returns the status of the mapping
      operation, which can be one of the following:
+     </p>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="NDIS_STATUS_SUCCESS"></a>
+      <a id="ndis_status_success"></a>NDIS_STATUS_SUCCESS</dt>
+    
+      <p>The caller has exclusive access to the file contents until the 
+       <a href="https://msdn.microsoft.com/library/Ff564641(v=VS.85).aspx"><b>NdisUnmapFile</b></a> function is called.</p>
+    
+    <dt>
+      <a id="NDIS_STATUS_ALREADY_MAPPED"></a>
+      <a id="ndis_status_already_mapped"></a>NDIS_STATUS_ALREADY_MAPPED</dt>
+    
+      <p>The caller cannot access the file contents at this time.</p>
+    
+  </dl>
 
 
-
-
-
-
-#### NDIS_STATUS_SUCCESS
-
-The caller has exclusive access to the file contents until the
-       <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
-
-
-
-#### NDIS_STATUS_ALREADY_MAPPED
-
-The caller cannot access the file contents at this time.
 
 
 ## -returns

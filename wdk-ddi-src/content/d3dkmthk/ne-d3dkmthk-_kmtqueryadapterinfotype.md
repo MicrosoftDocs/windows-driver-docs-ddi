@@ -2,7 +2,7 @@
 UID: NE:d3dkmthk._KMTQUERYADAPTERINFOTYPE
 title: _KMTQUERYADAPTERINFOTYPE
 author: windows-driver-content
-description:
+description: The available types of display adapters in the registry.
 ms.assetid: bb3888be-1948-4b72-b3f4-c04ff33f2573
 ms.author: windowsdriverdev
 ms.date:

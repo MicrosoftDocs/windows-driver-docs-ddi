@@ -65,17 +65,12 @@ A pointer to a location in which to return a MUP handle to be used when calling 
 
 ### -param RedirectorDeviceName
 
-TBD
+<p>A pointer to a Unicode string that contains the device name of the network redirector. </p>
 
 
 ### -param MailslotsSupported [in]
 
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
-
-
-#### - RedirDevName [in]
-
-A pointer to a Unicode string that contains the device name of the network redirector. 
 
 
 ## -returns

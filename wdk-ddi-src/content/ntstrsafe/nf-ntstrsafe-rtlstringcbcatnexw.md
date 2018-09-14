@@ -84,7 +84,7 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 
 ### -param cbToAppend
 
-TBD
+<p>The maximum number of bytes to append to <i>pszDest</i>. </p>
 
 
 ### -param ppszDestEnd [out, optional]
@@ -158,11 +158,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </tr>
 </table>
  
-
-
-#### - cbMaxAppend [in]
-
-The maximum number of bytes to append to <i>pszDest</i>. 
 
 
 ## -returns

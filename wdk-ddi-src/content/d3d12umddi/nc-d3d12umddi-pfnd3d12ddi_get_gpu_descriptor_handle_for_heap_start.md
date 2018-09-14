@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 title: PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 author: windows-driver-content
-description: 
+description: Gets the GPU descriptor handle that represents the start of the heap.
 ms.assetid: bffa5a27-4b90-4fb9-a121-4ecbe4813b10
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Gets the GPU descriptor handle that represents the start of the heap.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HDESCRIPTORHEAP: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HDESCRIPTORHEAP
 
+A descriptor heap handle.
 
 ## -returns
 
-Returns D3D12DDI_GPU_DESCRIPTOR_HANDLE that ...
+Returns D3D12DDI_GPU_DESCRIPTOR_HANDLE.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

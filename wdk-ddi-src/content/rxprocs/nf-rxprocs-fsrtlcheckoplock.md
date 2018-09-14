@@ -60,138 +60,112 @@ The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operatio
 
 ### -param A1
 
-TBD
+<p>An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/Ff546150(v=VS.85).aspx"><b>FsRtlInitializeOplock</b></a>. </p>
 
 
 ### -param A2
 
-TBD
+<p>A pointer to the IRP for the I/O operation. </p>
 
 
 ### -param A3
 
-TBD
+<p>A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. </p>
 
 
 ### -param A4
 
-TBD
-
-
-### -param A5
-
-TBD
-
-
-
-
-
-
-#### - CompletionRoutine [in, optional]
-
-A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. 
-
-This routine is declared as follows: 
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+<p>A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. </p>
+  <p>This routine is declared as follows: </p>
+  <div class="code">
+    <span codelanguage="">
+      <table>
+        <tr>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <pre>typedef VOID
 (*POPLOCK_WAIT_COMPLETE_ROUTINE) (
       IN PVOID Context,
       IN PIRP Irp
       );</pre>
-</td>
-</tr>
-</table></span></div>
-This routine has the following parameters: 
+          </td>
+        </tr>
+      </table>
+    </span>
+  </div>
+  <p>This routine has the following parameters: </p>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="Context"></a>
+      <a id="context"></a>
+      <a id="CONTEXT"></a>
+      <i>Context</i>
+    </dt>
+    
+      <p>A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. </p>
+    
+    <dt>
+      <a id="Irp"></a>
+      <a id="irp"></a>
+      <a id="IRP"></a>
+      <i>Irp</i>
+    </dt>
+    
+      <p>A pointer to the IRP for the I/O operation. </p>
+    
+  </dl>
 
 
+### -param A5
 
-
-
-#### Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
-
-
-
-#### Irp
-
-A pointer to the IRP for the I/O operation. 
-
-
-##### - CompletionRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
-
-
-##### - CompletionRoutine.Irp
-
-A pointer to the IRP for the I/O operation. 
-
-
-#### - Context [in, optional]
-
-A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
-
-
-#### - Irp [in]
-
-A pointer to the IRP for the I/O operation. 
-
-
-#### - Oplock [in]
-
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
-
-
-#### - PostIrpRoutine [in, optional]
-
-A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. 
-
-This routine is declared as follows: 
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+<p>A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. </p>
+  <p>This routine is declared as follows: </p>
+  <div class="code">
+    <span codelanguage="">
+      <table>
+        <tr>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <pre>typedef VOID
 (*POPLOCK_FS_PREPOST_IRP) (
       IN PVOID Context,
       IN PIRP Irp
       );</pre>
-</td>
-</tr>
-</table></span></div>
+          </td>
+        </tr>
+      </table>
+    </span>
+  </div>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="Context"></a>
+      <a id="context"></a>
+      <a id="CONTEXT"></a>
+      <i>Context</i>
+    </dt>
+    
+      <p>A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. </p>
+    
+    <dt>
+      <a id="Irp"></a>
+      <a id="irp"></a>
+      <a id="IRP"></a>
+      <i>Irp</i>
+    </dt>
+    
+      <p>A pointer to the IRP for the I/O operation. </p>
+    
+  </dl>
 
 
 
 
-#### Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
-
-
-
-#### Irp
-
-A pointer to the IRP for the I/O operation. 
-
-
-##### - PostIrpRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
-
-
-##### - PostIrpRoutine.Irp
-
-A pointer to the IRP for the I/O operation. 
 
 
 ## -remarks

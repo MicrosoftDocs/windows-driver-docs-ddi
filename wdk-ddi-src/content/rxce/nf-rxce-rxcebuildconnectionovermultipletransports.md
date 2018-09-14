@@ -65,7 +65,31 @@ A pointer to the mini-redirector device object.
 
 ### -param CreateOption
 
-TBD
+<p>Create options that determine which transport will be selected for establishing a connection. These options can be one of the following enumerations for RXCE_CONNECTION_CREATE_OPTIONS:</p>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="RxCeSelectFirstSuccessfulTransport"></a>
+      <a id="rxceselectfirstsuccessfultransport"></a>
+      <a id="RXCESELECTFIRSTSUCCESSFULTRANSPORT"></a>RxCeSelectFirstSuccessfulTransport</dt>
+    
+      <p>Select the first successful transport that responds.</p>
+    
+    <dt>
+      <a id="RxCeSelectBestSuccessfulTransport"></a>
+      <a id="rxceselectbestsuccessfultransport"></a>
+      <a id="RXCESELECTBESTSUCCESSFULTRANSPORT"></a>RxCeSelectBestSuccessfulTransport</dt>
+    
+      <p>Select the best successful transport that responds.</p>
+    
+    <dt>
+      <a id="RxCeSelectAllSuccessfulTransports"></a>
+      <a id="rxceselectallsuccessfultransports"></a>
+      <a id="RXCESELECTALLSUCCESSFULTRANSPORTS"></a>RxCeSelectAllSuccessfulTransports</dt>
+    
+      <p>Select all of the successful transports that respond.</p>
+    
+  </dl>
 
 
 ### -param NumberOfAddresses [in]
@@ -106,31 +130,6 @@ A pointer to a connection completion routine when this routine completed if STAT
 ### -param pCompletionContext [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RXCE_CONNECTION_COMPLETION_CONTEXT structure. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit and connection are properly initialized.
-
-
-#### - CreateOptions [in]
-
-Create options that determine which transport will be selected for establishing a connection. These options can be one of the following enumerations for RXCE_CONNECTION_CREATE_OPTIONS:
-
-
-
-
-
-#### RxCeSelectFirstSuccessfulTransport
-
-Select the first successful transport that responds.
-
-
-
-#### RxCeSelectBestSuccessfulTransport
-
-Select the best successful transport that responds.
-
-
-
-#### RxCeSelectAllSuccessfulTransports
-
-Select all of the successful transports that respond.
 
 
 ## -returns

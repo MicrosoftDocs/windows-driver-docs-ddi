@@ -50,7 +50,7 @@ req.typenames: WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CON
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_CONTINUOUS_READER_CONFIG</b> structure contains information that the framework uses to configure a continuous reader for a USB pipe.
 

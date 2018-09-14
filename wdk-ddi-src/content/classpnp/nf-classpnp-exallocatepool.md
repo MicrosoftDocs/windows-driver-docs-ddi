@@ -73,28 +73,17 @@ PVOID ExAllocatePool(
 
 ### -param a
 
-TBD
+<p>Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://msdn.microsoft.com/library/Ff559707(v=VS.85).aspx"><b>POOL_TYPE</b></a>.</p>
+  <p>You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.</p>
 
 
 ### -param b
 
-TBD
+<p>Specifies the number of bytes to allocate. </p>
 
 
 
 
-
-
-#### - NumberOfBytes [in]
-
-Specifies the number of bytes to allocate.
-
-
-#### - PoolType [in]
-
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>.
-
-You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
 
 ## -remarks

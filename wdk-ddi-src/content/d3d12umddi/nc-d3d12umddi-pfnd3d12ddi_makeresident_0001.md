@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_MAKERESIDENT_0001
 title: PFND3D12DDI_MAKERESIDENT_0001
 author: windows-driver-content
-description: 
+description: Make resident.
 ms.assetid: 2b3e5e59-420c-4107-be13-bb225b0d640a
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to ... 
+Make resident.
 
 ## -prototype
 
@@ -69,18 +69,21 @@ PFND3D12DDI_MAKERESIDENT_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_MAKERESIDENT_0001 structure.
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

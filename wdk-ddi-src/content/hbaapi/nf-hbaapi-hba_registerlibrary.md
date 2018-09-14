@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param entrypoints
 
-TBD
+<p>Reserved.</p>
 
 
 

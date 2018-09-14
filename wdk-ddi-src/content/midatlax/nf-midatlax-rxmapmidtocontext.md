@@ -60,17 +60,12 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>A pointer to the MID_ATLAS structure.</p>
 
 
 ### -param Mid
 
 The multiplex ID to be mapped.
-
-
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS structure.
 
 
 ## -returns

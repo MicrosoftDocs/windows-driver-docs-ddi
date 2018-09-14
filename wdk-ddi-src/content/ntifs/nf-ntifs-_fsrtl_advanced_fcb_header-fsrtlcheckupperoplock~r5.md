@@ -150,7 +150,47 @@ A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b>
 
 ### -param PrePendRoutine
 
-TBD
+<p>A pointer to a caller-supplied callback routine to be called if <b>FsRtlCheckUpperOplock</b> will return STATUS_PENDING. This parameter is optional and can be <b>NULL</b>. </p>
+  <p>This routine is declared as follows: </p>
+  <div class="code">
+    <span codelanguage="">
+      <table>
+        <tr>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <pre>typedef VOID
+(*POPLOCK_FS_PREPOST_IRP) (
+      _In_ PVOID Context,
+      _in_opt_ PIRP Irp
+      );</pre>
+          </td>
+        </tr>
+      </table>
+    </span>
+  </div>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="Context"></a>
+      <a id="context"></a>
+      <a id="CONTEXT"></a>
+      <i>Context</i>
+    </dt>
+    
+      <p>A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. </p>
+    
+    <dt>
+      <a id="Irp"></a>
+      <a id="irp"></a>
+      <a id="IRP"></a>
+      <i>Irp</i>
+    </dt>
+    
+      <p>A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.</p>
+    
+  </dl>
 
 
 ### -param Flags [in]
@@ -170,41 +210,6 @@ Return STATUS_CANNOT_BREAK_OPLOCK if the value of <i>NewLowerOplockState</i> res
 #### OPLOCK_UPPER_FLAG_NOTIFY_REFRESH_READ   (0x00020000)
 
 Break only Read (R) upper oplocks and notify R holders that they may again request R.  All other upper oplock checks it will return STATUS_CANNOT_BREAK_OPLOCK.
-
-
-#### - PrePendIrpRoutine [in, optional]
-
-A pointer to a caller-supplied callback routine to be called if <b>FsRtlCheckUpperOplock</b> will return STATUS_PENDING. This parameter is optional and can be <b>NULL</b>.
-
-This routine is declared as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
-(*POPLOCK_FS_PREPOST_IRP) (
-      _In_ PVOID Context,
-      _in_opt_ PIRP Irp
-      );</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-
-
-#### Context
-
-A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>.
-
-
-
-#### Irp
-
-A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
 
 
 ## -returns

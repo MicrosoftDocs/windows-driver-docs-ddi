@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_COMMAND_POOL_0040
 title: PFND3D12DDI_DESTROY_COMMAND_POOL_0040
 author: windows-driver-content
-description:
+description: Implemented by the client driver to clean up command pool resources.
 ms.assetid: 3a43d9fa-07c8-441e-8d2f-d4354db225a9
 ms.author: windowsdriverdev
 ms.date:

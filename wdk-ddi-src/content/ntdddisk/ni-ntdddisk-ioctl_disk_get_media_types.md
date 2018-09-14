@@ -13,7 +13,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
-req.include-header: TBD
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -62,7 +62,7 @@ Updates the identifier strings
 
 ### -param Controller
 
-TBD
+<p> A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/Mt188033(v=VS.85).aspx"><b>UcxControllerCreate</b></a> method.</p>
 
 
 ### -param ManufacturerNameString [in]
@@ -78,11 +78,6 @@ A string that contains the name of device model.
 ### -param ModelNumberString [in]
 
 A string that contains the revision number of the device model.
-
-
-#### - UcxController [in]
-
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
 ## -returns

@@ -71,7 +71,7 @@ The IOCTL control code to issue.
 
 ### -param Flags
 
-TBD
+<p>The desired IRP flags to set for IOCTL request.</p>
 
 
 ### -param InputBuffer [in, optional]
@@ -97,11 +97,6 @@ The length, in bytes, of the output data buffer at <i>OutputBuffer</i>.
 ### -param IosbInformation [in]
 
 A pointer to a <b>ULONG</b> status value to receive the information field value set in the I/O status block at completion of the request.
-
-
-#### - IrpFlags [in]
-
-The desired IRP flags to set for IOCTL request.
 
 
 ## -returns

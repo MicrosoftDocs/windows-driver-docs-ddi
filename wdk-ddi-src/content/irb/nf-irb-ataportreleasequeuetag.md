@@ -63,7 +63,7 @@ The <b>AtaPortReleaseQueueTag</b> routine releases the specified queue tag.
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]
@@ -79,11 +79,6 @@ Specifies the logical unit number of the device.
 ### -param QueueTag [in]
 
 Specifies the queue tag to be freed.
-
-
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
 
 
 ## -returns

@@ -71,26 +71,16 @@ LONG FIELD_OFFSET(
 
 ### -param type
 
-TBD
+<p>Specifies the name of a known structure type containing <i>Field</i>. </p>
 
 
 ### -param field
 
-TBD
+<p>Specifies the name of a field in a structure of type <i>Type</i>. </p>
 
 
 
 
-
-
-#### - Field [in]
-
-Specifies the name of a field in a structure of type <i>Type</i>.
-
-
-#### - Type [in]
-
-Specifies the name of a known structure type containing <i>Field</i>.
 
 
 ## -remarks

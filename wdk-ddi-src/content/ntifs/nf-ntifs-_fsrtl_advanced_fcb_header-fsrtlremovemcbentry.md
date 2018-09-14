@@ -60,7 +60,7 @@ The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support e
 
 ### -param Mcb
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Vbn

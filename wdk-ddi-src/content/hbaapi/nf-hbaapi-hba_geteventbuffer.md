@@ -60,7 +60,7 @@ The <b>HBA_GetEventBuffer</b> routine retrieves the indicated number of events, 
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located. </p>
 
 
 ### -param EventBuffer [out]
@@ -71,11 +71,6 @@ Pointer to a buffer that on return holds a structure of type <a href="https://ms
 ### -param EventCount [in, out]
 
 Indicates, on input, the number of event records that fit in the buffer pointed to by <i>EventBuffer. </i>If the full number of events requested cannot be retrieved, on return, this member contains the number of event records actually retrieved. 
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 ## -returns
