@@ -103,8 +103,6 @@ Flags that define attributes for the send operation. The flags can be combined w
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
-
-
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
 Specifies that the miniport driver reclaims ownership of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures and any
@@ -115,10 +113,27 @@ Specifies that the miniport driver reclaims ownership of the <a href="https://ms
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
-Specifies that all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> have the same protocol type (EtherType).
+Specifies that all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures in the list at <i>NetBufferLists</i> have the same protocol type (EtherType).
 
+**Miniport drivers**
 
+NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE is optionally set by miniport drivers that are certain all NBLs in an NBL chain have the same EtherType. By setting this flag, the miniport driver informs NDIS and upper layer protocols that they do not have to examine each packet for its EtherType, which increases performance. Miniport drivers are never required to set this flag.
+
+**Light-weight filters (LWFs)**
+
+When indicating novel receives, a light-weight filter (LWF) can also optionally set NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE if it is certain that all NBLs in an NBL chain have the same EtherType. However, like miniport drivers, LWFs are never required to set this flag in this case, and can always choose to clear the flag.
+
+When passing through receives from the lower layer, if a LWF changes the EhterType of the NBLs, the LWF **must** clear the flag if the NBLs no longer have the same EtherType.
+
+When passing through receives from the lower layer, if a LWF changes the EtherType of the NBLs, the LWF can set optionally set this flag if it is certain that all NBLs in an NBL chain have the same EtherType. In this case, the LWF is never required to set this flag and can always choose to clear it.
+
+When consuming receives from the lower layer, if this flag is set, a LWF can assume that each NBL in the chain has the same EtherType. The LWF is never required to read this flag and can instead choose to always read the EtherType from every NBL.
+
+When combining multiple NBL chains, a LWF **must** clear this flag unless it is certain that the new NBL chain has a homogenous EtherType.
+
+**Protocol drivers**
+
+When consuming receives from the lower layer, if NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE is set, the protocol can assume that each NBL in the chain has the same EtherType. A protocol is never required to read this flag and can instead choose to always read the EtherType from every NBL.
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
 
@@ -175,8 +190,6 @@ None
 
 ## -remarks
 
-
-
 A miniport driver typically calls the 
     <b>NdisMIndicateReceiveNetBufferLists</b> function from its 
     <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function.
@@ -222,9 +235,6 @@ The caller of
     <b>NdisMIndicateReceiveNetBufferLists</b> must properly initialize the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures,
     attached 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures, and any attached MDLs.
-
-
-
 
 ## -see-also
 
