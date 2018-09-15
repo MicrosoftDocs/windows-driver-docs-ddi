@@ -123,7 +123,7 @@ NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE is optionally set by miniport drivers that 
 
 When indicating novel receives, a light-weight filter (LWF) can also optionally set NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE if it is certain that all NBLs in an NBL chain have the same EtherType. However, like miniport drivers, LWFs are never required to set this flag in this case, and can always choose to clear the flag.
 
-When passing through receives from the lower layer, if a LWF changes the EhterType of the NBLs, the LWF **must** clear the flag if the NBLs no longer have the same EtherType.
+When passing through receives from the lower layer, if a LWF changes the EtherType of the NBLs, the LWF **must** clear the flag if the NBLs no longer have the same EtherType.
 
 When passing through receives from the lower layer, if a LWF changes the EtherType of the NBLs, the LWF can set optionally set this flag if it is certain that all NBLs in an NBL chain have the same EtherType. In this case, the LWF is never required to set this flag and can always choose to clear it.
 
