@@ -93,36 +93,6 @@ Given a virtual block number (VBN) and a map control block (MCB), the <b>FsRtlLo
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - LargeCountFromStartingLbn [out, optional]
-
-Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
-
-
-#### - LargeLbn [out, optional]
-
-Pointer to a variable that receives the LBN that is mapped to <i>LargeVbn</i> in the mapping entry, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. 
-
-
-#### - LargeSectorCount [out, optional]
-
-Pointer to a variable that receives the number of sectors that follow <i>LargeVbn</i> in the mapping run. This parameter is optional and can be <b>NULL</b>. 
-
-
-#### - LargeStartingLbn [out, optional]
-
-Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. 
-
-
-#### - LargeVbn [in]
-
-Pointer to the requested VBN.
-
-
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure. 
-
-
 ## -returns
 
 

@@ -154,11 +154,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
  
 
 
-#### - cchSrc [in]
-
-The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.
-
-
 ## -returns
 
 

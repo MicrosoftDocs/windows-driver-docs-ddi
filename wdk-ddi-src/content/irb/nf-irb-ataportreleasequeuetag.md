@@ -81,11 +81,6 @@ Specifies the logical unit number of the device.
 Specifies the queue tag to be freed.
 
 
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
-
-
 ## -returns
 
 

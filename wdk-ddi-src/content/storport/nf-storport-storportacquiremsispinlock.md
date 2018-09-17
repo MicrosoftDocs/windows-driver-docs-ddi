@@ -73,11 +73,6 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 A pointer to the storage for the original IRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>.
 
 
-#### - MessageID [in]
-
-The identifier of the message whose spin lock the caller acquires.
-
-
 ## -returns
 
 

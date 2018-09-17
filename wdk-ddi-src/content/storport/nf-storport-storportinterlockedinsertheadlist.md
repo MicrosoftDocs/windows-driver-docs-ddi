@@ -87,11 +87,6 @@ A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock use
 You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.
 
 
-#### - *Result [in, out]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the first entry of the list before the new entry was inserted.
-
-
 ## -returns
 
 

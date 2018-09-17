@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceCreate</b> method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations.
 <div class="alert"><b>Note</b>  If you are building your driver using KMDF 1.11 or UMDF 2.0, or later, we recommend that you call <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a> instead of  <b>WdfUsbTargetDeviceCreate</b>.</div><div> </div>

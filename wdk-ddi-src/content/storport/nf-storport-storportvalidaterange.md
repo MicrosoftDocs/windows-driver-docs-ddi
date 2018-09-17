@@ -89,11 +89,6 @@ Contains the length in bytes of the range of addresses to be validated.
 Indicates, when <b>TRUE</b>, that the address range is in I/O space. If <b>FALSE</b>, the address is in memory space. 
 
 
-#### - SystemToBusNumber [in]
-
-Contains an integer identifying a system bus.
-
-
 ## -returns
 
 

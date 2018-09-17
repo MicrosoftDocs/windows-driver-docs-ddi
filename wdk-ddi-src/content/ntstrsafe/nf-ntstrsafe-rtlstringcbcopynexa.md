@@ -160,11 +160,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
  
 
 
-#### - cbSrc [in]
-
-The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>. 
-
-
 ## -returns
 
 

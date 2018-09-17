@@ -179,11 +179,6 @@ Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the
 Pointer to a GENERIC_MAPPING structure that specifies the mapping of generic to specific and standard access types for the object being accessed. This mapping structure is expected to be safe to access (that is, captured if necessary) prior to be passed to this routine.
 
 
-#### - SecurityDescriptor [in]
-
-The input security descriptor to be applied to the object. The caller of this routine is expected to probe and capture the passed security descriptor before calling, and to release it after calling.
-
-
 ## -returns
 
 

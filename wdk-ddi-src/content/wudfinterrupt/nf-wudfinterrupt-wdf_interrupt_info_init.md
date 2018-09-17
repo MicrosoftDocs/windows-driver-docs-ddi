@@ -68,11 +68,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_I
 
 
 
-#### - Info [out]
-
-A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure.
-
-
 ## -returns
 
 

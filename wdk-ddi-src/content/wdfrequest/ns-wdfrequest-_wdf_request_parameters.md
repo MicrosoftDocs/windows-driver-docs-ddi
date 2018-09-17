@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_PARAMETERS</b> structure receives parameters that are associated with an I/O request.
 

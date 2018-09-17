@@ -50,7 +50,7 @@ req.typenames: WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_TIMER_CONFIG</b> structure contains configuration information for a framework timer object.
 

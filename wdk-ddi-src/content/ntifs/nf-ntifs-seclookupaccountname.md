@@ -86,16 +86,6 @@ A pointer to a SID_NAME_USE enumerated type that indicates the type of the accou
 
 
 
-#### - DomainSize [out]
-
-A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
-
-
-#### - ReferencedDomain [in, out]
-
-A pointer to a buffer that receives the name of the domain as a Unicode string where the account name is found. For computers that are not joined to a domain, this buffer receives the computer name. If this parameter is <b>NULL</b>, the function returns the required buffer size in the <i>DomainSize</i> variable. 
-
-
 ## -returns
 
 

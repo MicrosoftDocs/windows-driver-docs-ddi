@@ -75,16 +75,6 @@ The multiplex ID to be mapped.
 
 
 
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS structure.
-
-
-#### - pNewContext
-
-A pointer that will hold the new context for this MID on exit.
-
-
 ## -returns
 
 

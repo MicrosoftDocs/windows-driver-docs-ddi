@@ -73,11 +73,6 @@ Opaque filter pointer to the minifilter driver. This pointer uniquely identifies
 Pointer to the ECP list, which contains one or more ECPs, to be attached to the callback-data object.
 
 
-#### - Data [in]
-
-Pointer to a callback-data object of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>, which represents the create operation.
-
-
 ## -returns
 
 

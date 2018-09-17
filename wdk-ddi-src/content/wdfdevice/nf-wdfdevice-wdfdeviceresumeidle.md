@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceResumeIdle</b> method informs the framework that the specified device is not in use and can be placed in a device low-power state if it remains idle.
 

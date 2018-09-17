@@ -50,7 +50,7 @@ req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_FILEOBJECT_CONFIG</b> structure contains configuration information of a driver's framework file objects. 
 

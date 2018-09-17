@@ -65,11 +65,6 @@ The <b>HBA_CloseAdapter</b> routine releases system resources associated with th
 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA. 
-
-
 ## -returns
 
 

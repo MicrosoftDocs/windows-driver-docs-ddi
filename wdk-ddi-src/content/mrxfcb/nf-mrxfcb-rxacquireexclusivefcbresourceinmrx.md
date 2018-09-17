@@ -65,11 +65,6 @@ req.typenames:
 
 
 
-#### - pFcb [in, out]
-
-A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. 
-
-
 ## -returns
 
 

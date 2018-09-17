@@ -50,7 +50,7 @@ req.typenames: WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_SPECIAL_FILE_TYPE</b> enumeration identifies special file types that a device can support.
 

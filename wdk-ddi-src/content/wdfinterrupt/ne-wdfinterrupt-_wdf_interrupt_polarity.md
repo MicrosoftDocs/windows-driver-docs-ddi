@@ -50,7 +50,7 @@ req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify an interrupt signal's polarity.
 

@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueRetrieveRequestByFileObject</b> method retrieves the next available I/O request, from a specified I/O queue, that is associated with a specified file object. 
 

@@ -50,7 +50,7 @@ req.typenames: WDF_INTERRUPT_CONFIG, *PWDF_INTERRUPT_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_INTERRUPT_CONFIG</b> structure contains configuration information for a device interrupt.
 

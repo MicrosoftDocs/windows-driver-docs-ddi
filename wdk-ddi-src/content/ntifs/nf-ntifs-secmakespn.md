@@ -84,26 +84,6 @@ A pointer to a Unicode string for storing the security service provider name str
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
 
-#### - InstanceName [in]
-
-A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
-
-
-#### - InstancePort [in]
-
-An optional variable specifying the instance port for connecting with the security service provider. 
-
-
-#### - Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
-
-
-#### - Referrer [in]
-
-A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
-
-
 ## -returns
 
 

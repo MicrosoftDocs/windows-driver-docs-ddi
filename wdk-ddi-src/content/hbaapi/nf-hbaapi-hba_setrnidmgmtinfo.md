@@ -70,16 +70,6 @@ The <b>HBA_SetRNIDMgmtInfo</b> routine programs the HBA to return the indicated 
 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA whose RNID is set.  
-
-
-#### - HbaMgmtInfo [in]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a> that specifies the RNID to associate with the HBA referenced by <i>HbaHandle. </i>
-
-
 ## -returns
 
 

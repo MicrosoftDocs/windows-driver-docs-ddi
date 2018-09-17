@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceAllocAndQueryString</b> method allocates a buffer, then it retrieves the Unicode string that is associated with a specified USB device and descriptor index value.
 

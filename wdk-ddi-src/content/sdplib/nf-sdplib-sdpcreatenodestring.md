@@ -75,11 +75,6 @@ A pointer to the string value to initialize the SDP_NODE structure.
 A profile driver defined tag to associate with the node.
 
 
-#### - StringLength
-
-An unsigned long integer value that holds the length of the string.
-
-
 ## -returns
 
 

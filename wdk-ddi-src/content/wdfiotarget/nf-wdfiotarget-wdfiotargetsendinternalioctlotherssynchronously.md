@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b> method builds a non-standard internal device control request and sends it synchronously to an I/O target.
 

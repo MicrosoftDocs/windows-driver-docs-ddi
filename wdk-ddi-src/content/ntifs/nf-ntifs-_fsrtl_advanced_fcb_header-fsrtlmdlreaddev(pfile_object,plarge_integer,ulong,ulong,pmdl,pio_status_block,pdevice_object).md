@@ -95,11 +95,6 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
-
-
 ## -returns
 
 

@@ -75,7 +75,9 @@ The flags are defined as follows:
 
 #### PLUGPLAY_REGKEY_DEVICE
 
-Open the <b>Device Parameters</b> subkey under the device's hardware key, a device-specific registry subkey that contains information about the device. The key is located under the key for the device instance specified by *DeviceObject*. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
+Open the <b>Device Parameters</b> subkey under the device's hardware key (see [HKLM\SYSTEM\CurrentControlSet\Enum Registry Tree](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-enum-registry-tree)), a device-specific registry subkey that contains information about the device. The key is located under the key for the device instance specified by *DeviceObject*. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
+
+
 
 
 
@@ -83,11 +85,11 @@ Open the <b>Device Parameters</b> subkey under the device's hardware key, a devi
 
 Open a *software key* for storing driver-specific information. This flag cannot be specified with PLUGPLAY_REGKEY_DEVICE.
 
-A driver's software key is also called its *driver key* because the registry contains a software key for each driver. The registry contains a list of all of the device classes, and each driver's software key resides under its device class entry. The system stores information about each driver under its software key.
+A driver's software key is also called its *driver key* because the registry contains a software key for each driver. The registry contains a list of all of the device classes, and each driver's software key resides under its device class entry. The system stores information about each driver under its software key. For more information about software keys, see [The HKLM\SYSTEM\CurrentControlSet\Control Tree](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-control-registry-tree).
 
 #### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
 
-Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. 
+Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. For more information, see [HKLM\SYSTEM\CurrentControlSet\HardwareProfiles Registry Tree](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-hardwareprofiles-registry-tree).
 
 
 ### -param DesiredAccess [in]

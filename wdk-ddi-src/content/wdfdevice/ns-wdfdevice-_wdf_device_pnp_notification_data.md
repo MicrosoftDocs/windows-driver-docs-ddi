@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_PNP_NOTIFICATION_DATA
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 

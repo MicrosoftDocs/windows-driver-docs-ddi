@@ -65,22 +65,22 @@ The <b>IOCTL_INTERNAL_USB_GET_BUS_INFO</b> I/O request queries the bus driver fo
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> should be a pointer to a <b>USB_BUS_NOTIFICATION</b> structure.
+<b>Parameters.Others.Argument1</b> should be a pointer to a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.
 
 
 ### -input-buffer-length
 
-The size of a <b>USB_BUS_NOTIFICATION</b> structure.
+The size of a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.
 
 
 ### -output-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <b>USB_BUS_NOTIFICATION</b> structure that has the <b>TotalBandwidth</b>, <b>ConsumedBandwidth</b>, and <b>ControllerNameLength</b> fields filled in.
+<b>Parameters.Others.Argument1</b> points to a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure that has the <b>TotalBandwidth</b>, <b>ConsumedBandwidth</b>, and <b>ControllerNameLength</b> fields filled in.
 
 
 ### -output-buffer-length
 
-The size of a <b>USB_BUS_NOTIFICATION</b> structure.
+The size of a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.
 
 
 ### -in-out-buffer
@@ -111,7 +111,7 @@ The bus or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 
 
-<b>USB_BUS_NOTIFICATION</b>
+[**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md)
  
 
  

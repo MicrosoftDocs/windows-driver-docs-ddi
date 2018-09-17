@@ -50,7 +50,7 @@ req.typenames: WDF_DRIVER_INIT_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 

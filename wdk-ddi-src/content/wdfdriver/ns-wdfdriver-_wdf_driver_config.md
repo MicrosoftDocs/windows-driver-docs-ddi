@@ -50,7 +50,7 @@ req.typenames: WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DRIVER_CONFIG structure is an input parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>.
 

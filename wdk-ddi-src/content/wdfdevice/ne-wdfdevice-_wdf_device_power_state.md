@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_POWER_STATE, *PWDF_DEVICE_POWER_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DEVICE_POWER_STATE</b> enumeration identifies all of the states that the framework's power state machine can enter.
 

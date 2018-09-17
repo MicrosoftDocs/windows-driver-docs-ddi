@@ -104,41 +104,6 @@ Length, in bytes, of the buffer pointed to by the <i>Acl</i> parameter. This val
 
 
 
-#### - AceRevision [in]
-
-ACL revision level of the ACE to be added. Windows version requirments are the following:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ACL_REVISION</dt>
-</dl>
-</td>
-<td width="60%">
-The revision level valid on all Windows versions.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ACL_REVISION_DS</dt>
-</dl>
-</td>
-<td width="60%">
-<div class="alert"><b>Note</b>  <i>AceRevision</i> must be ACL_REVISION_DS if the ACL in <i>Acl</i> contains an object-specific ACE.</div>
-<div> </div>
-</td>
-</tr>
-</table>
- 
-
-
 ## -returns
 
 

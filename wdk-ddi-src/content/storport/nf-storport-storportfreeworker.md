@@ -70,11 +70,6 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
 
-#### - WorkItem [in]
-
-A pointer to an opaque buffer for the work item context returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>.
-
-
 ## -returns
 
 

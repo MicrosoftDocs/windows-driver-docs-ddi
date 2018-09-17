@@ -50,7 +50,7 @@ req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDFMEMORY_OFFSET</b> structure identifies a subsection of a memory object's buffer.
 

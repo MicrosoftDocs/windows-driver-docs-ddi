@@ -80,11 +80,6 @@ A pointer to the Unicode string name of the portion of the name that was unmatch
 
 
 
-#### - RxConnectionId [in]
-
-An optional parameter that represents a pointer to the RX_CONNECTION_ID to be used.
-
-
 ## -returns
 
 

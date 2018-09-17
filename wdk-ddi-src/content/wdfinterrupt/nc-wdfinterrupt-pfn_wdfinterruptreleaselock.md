@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptReleaseLock</b> method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 

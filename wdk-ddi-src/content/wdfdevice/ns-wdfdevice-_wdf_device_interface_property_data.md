@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPER
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure describes a device interface property.
 

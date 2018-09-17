@@ -66,11 +66,6 @@ Informs the  USB device emulation  class extension (UdeCx) that the reset operat
 
 
 
-#### - Device [in]
-
-A handle to a framework device object that represents the controller that has been reset. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
-
-
 ## -returns
 
 

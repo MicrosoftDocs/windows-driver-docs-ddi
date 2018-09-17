@@ -80,26 +80,6 @@ The <b>FsRtlAddLargeMcbEntry</b> routine adds a new mapping to an existing map c
 
 
 
-#### - LargeLbn [in]
-
-Logical block number (LBN) to which <i>LargeVbn</i> is to be mapped.
-
-
-#### - LargeSectorCount [in]
-
-Number of sectors in the new mapping run. 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the new mapping run to be added to the MCB. 
-
-
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure. 
-
-
 ## -returns
 
 

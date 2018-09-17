@@ -73,11 +73,6 @@ A pointer to the callback data containing the request with an associated activit
 On return, the <b>GUID</b> pointer referenced by <i>OriginalId</i> points to the activity ID that was previously set for the thread.
 
 
-#### - PropagatedId [in, out]
-
-A pointer to a caller allocated <b>GUID</b> which stores the activity ID for the current thread.
-
-
 ## -returns
 
 

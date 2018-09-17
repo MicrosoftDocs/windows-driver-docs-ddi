@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DEVICE_PNP_CAPABILITIES structure describes a device's Plug and Play capabilities.
 

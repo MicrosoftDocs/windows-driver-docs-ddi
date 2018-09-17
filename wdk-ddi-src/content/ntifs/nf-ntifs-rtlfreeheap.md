@@ -93,11 +93,6 @@ Mutual exclusion will not be used when <b>RtlFreeHeap</b> is accessing the heap.
 
 
 
-#### - HeapBase [in]
-
-A pointer to the memory block to free. This pointer is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>. 
-
-
 ## -returns
 
 

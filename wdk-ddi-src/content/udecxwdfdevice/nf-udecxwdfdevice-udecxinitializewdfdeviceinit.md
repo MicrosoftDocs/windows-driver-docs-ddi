@@ -66,11 +66,6 @@ Initializes device initialization operations when the Plug and Play (PnP) manage
 
 
 
-#### - DeviceInit
-
-A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
-
-
 ## -returns
 
 

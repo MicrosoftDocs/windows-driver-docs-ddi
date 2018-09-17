@@ -67,11 +67,6 @@ The<b> FsRtlAreThereCurrentFileLocks</b> macro checks whether any byte range loc
 
 
 
-#### - FileLock [in]
-
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
-
-
 ## -remarks
 
 
