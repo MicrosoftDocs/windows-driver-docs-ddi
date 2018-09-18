@@ -3,6 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 title: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function
 author: windows-driver-content
 description: Initializes the NET_ADAPTER_LINK_LAYER_CAPABILITIES structure.
+tech.root: netvista
 ms.assetid: f73e2515-c7e3-46f0-b5bd-741c24e65cbd
 ms.author: windowsdriverdev
 ms.date: 02/05/2018

@@ -3,6 +3,7 @@ UID: NF:netdatapathdescriptor.NET_PACKET_GET_FRAGMENT
 title: NET_PACKET_GET_FRAGMENT macro
 author: windows-driver-content
 description: The NET_PACKET_GET_FRAGMENT macro retrieves a single fragment from a net packet.
+tech.root: netvista
 ms.assetid: ee42c2b6-078c-493e-8b47-67aecffc7be7
 ms.author: windowsdriverdev
 ms.date: 02/27/2018

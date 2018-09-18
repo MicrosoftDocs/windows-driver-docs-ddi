@@ -3,6 +3,7 @@ UID: NF:nettxqueue.NetTxQueueInitGetQueueId
 title: NetTxQueueInitGetQueueId function
 author: windows-driver-content
 description: Retrieves the identifier associated with a transmit queue.
+tech.root: netvista
 ms.assetid: 2d76830e-d5eb-4573-bd5a-c4f90a8e0bf1
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

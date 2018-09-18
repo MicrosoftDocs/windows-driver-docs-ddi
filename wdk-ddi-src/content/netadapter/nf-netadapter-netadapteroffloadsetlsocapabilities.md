@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterOffloadSetLsoCapabilities
 title: NetAdapterOffloadSetLsoCapabilities function
 author: windows-driver-content
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware large send offload (LSO) offload capabilities of a network adapter.
+tech.root: netvista
 ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
 ms.author: windowsdriverdev
 ms.date: 07/20/2018

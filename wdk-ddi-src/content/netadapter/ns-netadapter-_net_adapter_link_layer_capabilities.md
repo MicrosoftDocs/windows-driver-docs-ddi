@@ -3,6 +3,7 @@ UID: NS:netadapter._NET_ADAPTER_LINK_LAYER_CAPABILITIES
 title: _NET_ADAPTER_LINK_LAYER_CAPABILITIES
 author: windows-driver-content
 description: Describes the link layer capabilities of the adapter.
+tech.root: netvista
 ms.assetid: 24888f71-0e12-41c8-a218-9289b1f5b288
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

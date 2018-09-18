@@ -3,6 +3,7 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_START
 title: FN_VMB_CHANNEL_START
 author: windows-driver-content
 description: The VmbChannelStart function moves a channel out of the paused state.
+tech.root: netvista
 ms.assetid: 2cc86b88-53af-4207-9bd2-829c950f87d8
 ms.author: windowsdriverdev
 ms.date: 05/22/2018

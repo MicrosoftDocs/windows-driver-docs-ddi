@@ -3,6 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_LINK_STATE_INIT
 title: NET_ADAPTER_LINK_STATE_INIT function
 author: windows-driver-content
 description: Initializes a NET_ADAPTER_LINK_STATE structure.
+tech.root: netvista
 ms.assetid: 6cb7595b-d33f-40fb-a1da-319b31bbeadc
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

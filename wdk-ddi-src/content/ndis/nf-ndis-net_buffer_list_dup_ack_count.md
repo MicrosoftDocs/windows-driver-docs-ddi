@@ -3,6 +3,7 @@ UID: NF:ndis.NET_BUFFER_LIST_DUP_ACK_COUNT
 title: NET_BUFFER_LIST_DUP_ACK_COUNT macro
 author: windows-driver-content
 description: The NET_BUFFER_LIST_DUP_ACK_COUNT is a macro that NDIS drivers use to get and set the number of coalesced segments in a NET_BUFFER_LIST structure.
+tech.root: netvista
 ms.assetid: 9c0e02cd-549a-481c-bd07-6210bf9fd154
 ms.author: windowsdriverdev
 ms.date: 04/12/2018

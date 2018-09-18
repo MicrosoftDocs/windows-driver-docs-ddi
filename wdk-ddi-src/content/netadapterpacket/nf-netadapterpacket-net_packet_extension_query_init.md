@@ -3,6 +3,7 @@ UID: NF:netadapterpacket.NET_PACKET_EXTENSION_QUERY_INIT
 title: NET_PACKET_EXTENSION_QUERY_INIT function
 author: windows-driver-content
 description: The NET_PACKET_EXTENSION_QUERY_INIT method initializes a NET_PACKET_EXTENSION_QUERY structure.
+tech.root: netvista
 ms.assetid: 79787ad3-8183-46be-9d37-75223947bbc2
 ms.author: windowsdriverdev
 ms.date: 03/01/2018
