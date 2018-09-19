@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 55e87b33-8392-4391-970c-690d5a1934e9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostModule2::FindSymbolByRVA, FindSymbolByRVA, IDebugHostModule2.FindSymbolByRVA, IDebugHostModule2::FindSymbolByRVA, IDebugHostModule2.FindSymbolByRVA
 req.header: dbgmodel.h
@@ -54,7 +54,8 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
 ## -remarks
 
 ## -see-also
+[IDebugHostModule2 interface](nn-dbgmodel-idebughostmodule2.md)

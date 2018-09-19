@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 559e4079-a1bb-4d53-abfb-4d35789bf5a9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostModuleSignature::Release, Release, IDebugHostModuleSignature.Release, IDebugHostModuleSignature::Release, IDebugHostModuleSignature.Release
 req.header: dbgmodel.h
@@ -54,3 +54,4 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+[IDebugHostModuleSignature interface](nn-dbgmodel-idebughostmodulesignature.md)

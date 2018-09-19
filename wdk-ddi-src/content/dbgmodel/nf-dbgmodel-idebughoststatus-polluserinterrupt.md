@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostStatus::PollUserInterrupt, PollUserInterrupt, IDebugHostStatus.PollUserInterrupt, IDebugHostStatus::PollUserInterrupt, IDebugHostStatus.PollUserInterrupt
 req.header: dbgmodel.h

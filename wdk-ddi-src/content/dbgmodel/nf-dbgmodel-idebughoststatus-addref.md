@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 6a246cf8-df04-4567-a18e-56b56ded5689
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostStatus::AddRef, AddRef, IDebugHostStatus.AddRef, IDebugHostStatus::AddRef, IDebugHostStatus.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 

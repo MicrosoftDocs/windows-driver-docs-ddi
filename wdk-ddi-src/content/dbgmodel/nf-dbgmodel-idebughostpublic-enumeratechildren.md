@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b4da5b7d-1ad1-4472-9eb5-516c382ab388
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018  
 ms.topic: method
 ms.keywords: IDebugHostPublic::EnumerateChildren, EnumerateChildren, IDebugHostPublic.EnumerateChildren, IDebugHostPublic::EnumerateChildren, IDebugHostPublic.EnumerateChildren
 req.header: dbgmodel.h
@@ -54,9 +54,11 @@ TBD
 
 ### -param ppEnum
 
-
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostPublic interface](nn-dbgmodel-idebughostpublic.md)

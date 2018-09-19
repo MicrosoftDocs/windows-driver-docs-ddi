@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 98e0285d-c45a-46ba-8eb6-2b41a4ae1937
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::AddRef, AddRef, IDebugHostMemory2.AddRef, IDebugHostMemory2::AddRef, IDebugHostMemory2.AddRef
 req.header: dbgmodel.h
@@ -51,6 +51,9 @@ TBD
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostMemory2 interface](nn-dbgmodel-idebughostmemory2.md)

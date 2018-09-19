@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2fdcd129-67da-49e9-91cc-118df3370a5d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostPublic::GetLocation, GetLocation, IDebugHostPublic.GetLocation, IDebugHostPublic::GetLocation, IDebugHostPublic.GetLocation
 req.header: dbgmodel.h
@@ -44,15 +44,35 @@ targetos: Windows
 
 ## -description
 
-TBD
+For data which has an address, the GetLocation method will return the abstract location (address) of the field. 
+
+If the given public does not have a static location, the GetLocation method will fail. 
+
 
 ## -parameters
 
 ### -param location
-
+The abstract location (e.g.: address) of the data will be returned here.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostPublic> spPublic; /* get a public symbol (see EnumerateChildren) */
+
+Location publicLocation;
+if (SUCCEEDED(spPublic->GetLocation(&publicLocation)))
+{
+    // For public symbols which indicate they have a static location 
+    // via GetLocationKind, publicLocation will be the location of the symbol
+}
+
+```
+
 ## -see-also
+
+[IDebugHostPublic interface](nn-dbgmodel-idebughostpublic.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2c835fe9-e18e-4847-a377-70cf5058f98c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::LinearizeLocation, LinearizeLocation, IDebugHostMemory2.LinearizeLocation, IDebugHostMemory2::LinearizeLocation, IDebugHostMemory2.LinearizeLocation
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Takes a location which may represent something other than a virtual memory address and attempts to linearize the location into a virtual memory address within the given context.  This operation may fail if the location cannot be represented by a virtual address (e.g.: it's a register). 
 
 ## -parameters
 
@@ -56,7 +56,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostMemory2 interface](nn-dbgmodel-idebughostmemory2.md)

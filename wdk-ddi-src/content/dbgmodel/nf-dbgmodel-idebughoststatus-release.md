@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c847e8a2-0cfa-422d-b4e5-4479ed472410
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018  
 ms.topic: method
 ms.keywords: IDebugHostStatus::Release, Release, IDebugHostStatus.Release, IDebugHostStatus::Release, IDebugHostStatus.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 

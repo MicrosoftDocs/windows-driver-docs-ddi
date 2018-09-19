@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f88e3c4b-8375-4e28-9e6e-8980b391237b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory::Release, Release, IDebugHostMemory.Release, IDebugHostMemory::Release, IDebugHostMemory.Release
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostMemory interface](nn-dbgmodel-idebughostmemory.md)

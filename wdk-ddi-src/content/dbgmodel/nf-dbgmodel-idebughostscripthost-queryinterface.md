@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2d04d5d3-6bc3-4dc1-9c48-bd9e05d698b3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018  
 ms.topic: method
 ms.keywords: IDebugHostScriptHost::QueryInterface, QueryInterface, IDebugHostScriptHost.QueryInterface, IDebugHostScriptHost::QueryInterface, IDebugHostScriptHost.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
