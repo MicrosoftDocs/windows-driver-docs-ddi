@@ -3,6 +3,7 @@ UID: NF:netadapterpacket.NetRingBufferGetNextPacket
 title: NetRingBufferGetNextPacket function
 author: windows-driver-content
 description: Returns a pointer to the packet in a packet ring buffer at the ring buffer's NextIndex index value.
+tech.root: netvista
 ms.assetid: f77fdf7a-cd55-4828-9eeb-1853dae6a023
 ms.author: windowsdriverdev
 ms.date: 02/07/2018

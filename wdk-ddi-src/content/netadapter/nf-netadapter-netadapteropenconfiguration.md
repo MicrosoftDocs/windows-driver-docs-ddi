@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterOpenConfiguration
 title: NetAdapterOpenConfiguration function
 author: windows-driver-content
 description: Opens the adapter’s configuration database.
+tech.root: netvista
 ms.assetid: 42e2310c-2302-4594-96ab-574e13f99a6c
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

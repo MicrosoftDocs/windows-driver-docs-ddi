@@ -3,6 +3,7 @@ UID: NS:netrequestqueue._NET_REQUEST_QUEUE_METHOD_HANDLER
 title: _NET_REQUEST_QUEUE_METHOD_HANDLER
 author: windows-driver-content
 description: Reserved for internal use. Call NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER to add a caller-provided handler for a specific OID method request.
+tech.root: netvista
 ms.assetid: 70770bd2-4ab6-42c5-abd4-88a41ad8553a
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

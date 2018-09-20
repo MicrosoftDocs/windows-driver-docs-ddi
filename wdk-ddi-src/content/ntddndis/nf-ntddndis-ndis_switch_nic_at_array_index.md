@@ -3,6 +3,7 @@ UID: NF:ntddndis.NDIS_SWITCH_NIC_AT_ARRAY_INDEX
 title: NDIS_SWITCH_NIC_AT_ARRAY_INDEX macro
 author: windows-driver-content
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_NIC_AT_ARRAY_INDEX macro to access an NDIS_SWITCH_NIC_PARAMETERS element inside an NDIS_SWITCH_NIC_ARRAY structure.
+tech.root: netvista
 ms.assetid: f70d852b-c2d1-42f9-b69a-e86089262e92
 ms.author: windowsdriverdev
 ms.date: 04/17/2018

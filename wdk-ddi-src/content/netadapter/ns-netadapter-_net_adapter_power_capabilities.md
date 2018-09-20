@@ -3,6 +3,7 @@ UID: NS:netadapter._NET_ADAPTER_POWER_CAPABILITIES
 title: _NET_ADAPTER_POWER_CAPABILITIES
 author: windows-driver-content
 description: Describes the power capabilities of the adapter.
+tech.root: netvista
 ms.assetid: ffd56d81-ed07-4c28-bbb3-dd872f935da3
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

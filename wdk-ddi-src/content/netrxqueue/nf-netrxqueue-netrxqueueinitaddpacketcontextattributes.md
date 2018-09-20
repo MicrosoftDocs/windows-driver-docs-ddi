@@ -3,6 +3,7 @@ UID: NF:netrxqueue.NetRxQueueInitAddPacketContextAttributes
 title: NetRxQueueInitAddPacketContextAttributes function
 author: windows-driver-content
 description: The NetRxQueueInitAddPacketContextAttributes method adds an initialized NET_PACKET_CONTEXT_ATTRIBUTES structure to a receive queue's packet context space.
+tech.root: netvista
 ms.assetid: 6bb92b58-bc85-402a-90d7-f1b4a0f4865b
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

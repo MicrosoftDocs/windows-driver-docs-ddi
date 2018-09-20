@@ -3,6 +3,7 @@ UID: NF:ntddndis.NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
 title: NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro
 author: windows-driver-content
 description: The NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro gets the hash type from the hash information.
+tech.root: netvista
 ms.assetid: 348687af-4632-4dad-a62a-0bc4e4c62415
 ms.author: windowsdriverdev
 ms.date: 04/16/2018

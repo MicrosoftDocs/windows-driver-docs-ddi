@@ -3,6 +3,7 @@ UID: NF:mbbcx.MbbRequestGetCorrelationId
 title: MbbRequestGetCorrelationId function
 author: windows-driver-content
 description: Client drivers can call the MbbRequestGetCorrelationId method to correlate a pair of send and receive requests that exchange MBIM control messages between the MBBCx framework and the client driver.
+tech.root: netvista
 ms.assetid: 666340d8-3c73-4072-afbb-a51267d307ac
 ms.author: windowsdriverdev
 ms.date: 06/29/2018

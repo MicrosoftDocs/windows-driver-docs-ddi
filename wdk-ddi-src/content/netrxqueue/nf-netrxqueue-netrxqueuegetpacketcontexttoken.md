@@ -3,6 +3,7 @@ UID: NF:netrxqueue.NetRxQueueGetPacketContextToken
 title: NetRxQueueGetPacketContextToken function
 author: windows-driver-content
 description: The NetRxQueueGetPacketContextToken method retrieves a NET_PACKET_CONTEXT_TOKEN for a NET_PACKET context on a receive queue. This method is reserved for NetAdapterCx. Client drivers must not call this method directly.
+tech.root: netvista
 ms.assetid: 4e4d870f-2be6-4936-a76b-226bafb5bb90
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

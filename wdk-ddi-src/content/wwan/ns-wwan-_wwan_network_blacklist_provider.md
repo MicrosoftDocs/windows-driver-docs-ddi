@@ -3,6 +3,7 @@ UID: NS:wwan._WWAN_NETWORK_BLACKLIST_PROVIDER
 title: _WWAN_NETWORK_BLACKLIST_PROVIDER
 author: windows-driver-content
 description: The WWAN_NETWORK_BLACKLIST_PROVIDER structure represents a network blacklist provider in a mobile broadband (MBB) modem.
+tech.root: netvista
 ms.assetid: ee770094-bb4c-44eb-a232-2de76de9ef6e
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

@@ -3,6 +3,7 @@ UID: NF:ndis.NET_BUFFER_DATA_OFFSET
 title: NET_BUFFER_DATA_OFFSET macro
 author: windows-driver-content
 description: NET_BUFFER_DATA_OFFSET is a macro that NDIS drivers use to get the current offset from the beginning of the data space to the start of the used data space in a NET_BUFFER structure.
+tech.root: netvista
 ms.assetid: 8de2a456-0b0e-47f1-895b-eee5de319283
 ms.author: windowsdriverdev
 ms.date: 04/12/2018

@@ -3,6 +3,7 @@ UID: NS:ndiswwan._NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
 title: _NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
 author: windows-driver-content
 description: The NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO structure describes a mobile broadband (MBB) modem's Specific Absorption Rate (SAR) transmission status.
+tech.root: netvista
 ms.assetid: 7b1c6aac-9aa3-4971-ae48-bbdb7e0cb506
 ms.author: windowsdriverdev
 ms.date: 08/20/2018

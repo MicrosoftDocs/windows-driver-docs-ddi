@@ -3,6 +3,7 @@ UID: NF:netpowersettings.NetPowerSettingsGetProtocolOffloadCountForType
 title: NetPowerSettingsGetProtocolOffloadCountForType function
 author: windows-driver-content
 description: Retrieves the number of protocol offload structures in the NETPOWERSETTINGS object for the particular offload type.
+tech.root: netvista
 ms.assetid: 9d7db442-522c-4079-97b2-24619a845da6
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

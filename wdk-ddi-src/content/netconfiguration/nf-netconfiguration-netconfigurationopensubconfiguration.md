@@ -3,6 +3,7 @@ UID: NF:netconfiguration.NetConfigurationOpenSubConfiguration
 title: NetConfigurationOpenSubConfiguration function
 author: windows-driver-content
 description: Opens a sub configuration of a specified adapter configuration object.
+tech.root: netvista
 ms.assetid: e825d2f8-b8ad-4488-a68e-73d1d6b849bb
 ms.author: windowsdriverdev
 ms.date: 02/07/2018
