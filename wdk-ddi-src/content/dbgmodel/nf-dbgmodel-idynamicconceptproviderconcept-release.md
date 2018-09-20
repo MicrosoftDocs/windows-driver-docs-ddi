@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 8c206673-e9d0-4b06-82c5-d94901f3962f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicConceptProviderConcept::Release, Release, IDynamicConceptProviderConcept.Release, IDynamicConceptProviderConcept::Release, IDynamicConceptProviderConcept.Release
 req.header: dbgmodel.h
@@ -44,13 +44,17 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+
+[IDynamicConceptProviderConcept interface](nn-dbgmodel-idynamicconceptproviderconcept.md)

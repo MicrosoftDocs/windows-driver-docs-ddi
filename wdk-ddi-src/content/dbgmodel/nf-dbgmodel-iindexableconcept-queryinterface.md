@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 34b15894-ae66-4d4e-9776-b10599c76cd8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IIndexableConcept::QueryInterface, QueryInterface, IIndexableConcept.QueryInterface, IIndexableConcept::QueryInterface, IIndexableConcept.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,7 +54,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
 ## -remarks
 
+
 ## -see-also
+
+[IIndexableConcept interface](nn-dbgmodel-iindexableconcept.md)

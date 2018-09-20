@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 104da76b-51a4-4b86-8255-9b395091e169
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::Release, Release, IDynamicKeyProviderConcept.Release, IDynamicKeyProviderConcept::Release, IDynamicKeyProviderConcept.Release
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDynamicKeyProviderConcept interface](nn-dbgmodel-idynamickeyproviderconcept.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 1e78ef6c-0494-423e-81ee-c01691dc40be
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IEquatableConcept interface](nn-dbgmodel-iequatableconcept.md)

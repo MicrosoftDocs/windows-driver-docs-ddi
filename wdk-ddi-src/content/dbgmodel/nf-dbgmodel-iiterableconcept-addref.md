@@ -43,14 +43,16 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IEquatableConcept interface](nn-dbgmodel-iequatableconcept.md)

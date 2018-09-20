@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 792fda8f-9c28-409f-a0b3-150bba2a9a7c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::QueryInterface, QueryInterface, IDynamicKeyProviderConcept.QueryInterface, IDynamicKeyProviderConcept::QueryInterface, IDynamicKeyProviderConcept.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,7 +54,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDynamicKeyProviderConcept interface](nn-dbgmodel-idynamickeyproviderconcept.md)

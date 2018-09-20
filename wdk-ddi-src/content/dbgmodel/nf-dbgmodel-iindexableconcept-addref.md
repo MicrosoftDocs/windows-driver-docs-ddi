@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4373da2e-30b0-4729-8e97-9d9d01dd2671
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IIndexableConcept::AddRef, AddRef, IIndexableConcept.AddRef, IIndexableConcept::AddRef, IIndexableConcept.AddRef
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IIndexableConcept interface](nn-dbgmodel-iindexableconcept.md)
