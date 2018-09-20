@@ -105,9 +105,6 @@ Reserved for NDIS.
 
 The offset, in bytes, of the TCP header from the beginning of the packet for TCP packets. Miniport drivers can use <b>TcpHeaderOffset</b> to determine the location of the TCP header so that they do not need to parse the MAC and IP header. 
 
-> [!TIP]
-> The **TcpHeaderOffset** field can also be used for UDP packets to determine the beginning of the UDP header.
-
 ### -field Receive
 
 A structure that contains the following members:
@@ -209,10 +206,7 @@ Before the TCP/IP transport passes to the miniport driver a TCP/IP packet on whi
     <b>IsIPv6</b> flag, it also sets the 
     <b>IpHeaderChecksum</b>, <b>TcpChecksum</b>, or 
     <b>UdpChecksum</b> flags that are required to indicate which checksums the miniport driver should
-    calculate for the packet. In addition, the TCP/IP transport sets the **TcpHeaderOffset** field when either the **IsIPv4** or **IPv6** flag is set. 
-
-> [!TIP]
-> The **TcpHeaderOffset** field can also be used for UDP packets to determine the beginning of the UDP header.
+    calculate for the packet. In addition, for TCP packets, the TCP/IP transport sets the **TcpHeaderOffset** field when either the **IsIPv4** or **IPv6** flag is set. The transport does not set this field for UDP packets.
 
 Before indicating up a receive TCP/IP packet on which it performs checksum tasks, a miniport driver
     sets the appropriate 
