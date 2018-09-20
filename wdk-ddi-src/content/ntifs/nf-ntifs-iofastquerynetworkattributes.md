@@ -65,22 +65,22 @@ This routine is reserved for system use.
 
 ### -param DesiredAccess
 
-TBD
+Reserved.
 
 
 ### -param OpenOptions
 
-TBD
+Reserved.
 
 
 ### -param IoStatus
 
-TBD
+Reserved.
 
 
 ### -param Buffer
 
-TBD
+Reserved.
 
 
 

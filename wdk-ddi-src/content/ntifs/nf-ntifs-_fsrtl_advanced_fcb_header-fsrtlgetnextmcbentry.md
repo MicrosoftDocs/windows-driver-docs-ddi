@@ -65,22 +65,22 @@ The <b>FsRtlGetNextMcbEntry</b> routine is obsolete, but is exported to support 
 
 ### -param RunIndex
 
-TBD
+Reserved.
 
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 ### -param Lbn
 
-TBD
+Reserved.
 
 
 ### -param SectorCount
 
-TBD
+Reserved.
 
 
 

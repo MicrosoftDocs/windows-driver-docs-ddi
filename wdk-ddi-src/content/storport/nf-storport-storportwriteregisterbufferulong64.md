@@ -61,22 +61,20 @@ This <b>StorPortWriteRegisterBufferUlong64</b> routine writes a number of <b>ULO
 
 ### -param h
 
-<p>Pointer to the register where the data is written to. The register must be a mapped range in memory space</p>
 
+<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/Ff567108(v=VS.85).aspx"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
 
 ### -param r
 
-<p>Pointer to the buffer to write the <b>ULONG64</b> values from.</p>
-
+<p>Pointer to the register where the data is written to. The given <i>Register</i> must be in a mapped memory-space range returned by [**StorPortGetDeviceBase**](nf-storport-storportgetdevicebase.md).
 
 ### -param b
 
-<p>Specifies the number of data values to write. Each data item has a size of <b>sizeof</b>(ULONG64). </p>
-
+<p>Pointer to the buffer to write the <b>ULONG64</b> values from.</p>
 
 ### -param c
 
-TBD
+<p>Specifies the number of data values to write. Each data item has a size of <b>sizeof</b>(ULONG64). </p>
 
 
 

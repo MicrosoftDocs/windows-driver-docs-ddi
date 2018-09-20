@@ -65,27 +65,27 @@ The <b>RtlUnicodeToCustomCPN</b> routine is reserved for system use. See <a href
 
 ### -param CustomCPString
 
-TBD
+Reserved.
 
 
 ### -param MaxBytesInCustomCPString
 
-TBD
+Reserved.
 
 
 ### -param BytesInCustomCPString
 
-TBD
+Reserved.
 
 
 ### -param UnicodeString
 
-TBD
+Reserved.
 
 
 ### -param BytesInUnicodeString
 
-TBD
+Reserved.
 
 
 

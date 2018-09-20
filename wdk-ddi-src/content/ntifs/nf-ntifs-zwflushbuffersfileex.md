@@ -111,7 +111,7 @@ Handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ### -param ParametersSize
 
-TBD
+The size, in bytes, of the parameters block.
 
 
 ### -param IoStatusBlock [out]
