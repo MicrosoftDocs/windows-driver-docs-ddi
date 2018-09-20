@@ -125,14 +125,6 @@ Specifies the Group id of the file
 
 ## -remarks
 
-The REPARSE_DATA_BUFFER structure is used by Microsoft file systems, filters, and minifilter drivers, as well as the I/O manager, to store data for a reparse point. 
-
-This structure can only be used for Microsoft reparse points. Third-party reparse point owners must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a> structure instead. 
-
-Microsoft reparse points can use the REPARSE_DATA_BUFFER structure or the REPARSE_GUID_DATA_BUFFER structure. 
-
-For more information about reparse point tags, see the Microsoft Windows SDK documentation. 
-
 For more information about absolute and relative symbolic links, see Creating Symbolic Links in the Microsoft Windows SDK documentation.
 
 ## -see-also
