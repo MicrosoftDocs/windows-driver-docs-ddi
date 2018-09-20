@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4bb3fbdc-d1f0-4410-b289-3344d64cb051
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IPreferredRuntimeTypeConcept::QueryInterface, QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface, IPreferredRuntimeTypeConcept::QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,7 +54,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IPreferredRuntimeTypeConcept interface](nn-dbgmodel-ipreferredruntimetypeconcept.md)

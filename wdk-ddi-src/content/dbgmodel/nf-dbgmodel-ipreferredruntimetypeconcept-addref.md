@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IPreferredRuntimeTypeConcept interface](nn-dbgmodel-ipreferredruntimetypeconcept.md)

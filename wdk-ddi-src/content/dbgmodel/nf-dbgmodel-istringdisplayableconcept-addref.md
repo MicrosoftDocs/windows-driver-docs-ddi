@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 7e39ce98-cca8-4ae7-a887-0011fc9544fd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::AddRef, AddRef, IStringDisplayableConcept.AddRef, IStringDisplayableConcept::AddRef, IStringDisplayableConcept.AddRef
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns ULONG.
 ## -remarks
 
 ## -see-also
+
+[IStringDisplayableConcept interface](nn-dbgmodel-isStringdisplayableconcept.md)

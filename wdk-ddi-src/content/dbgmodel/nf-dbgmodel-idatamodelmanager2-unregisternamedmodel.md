@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 0bdd2601-f489-4b9d-9b9f-41f058044dc8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::UnregisterNamedModel, UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel, IDataModelManager2::UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel
 req.header: dbgmodel.h
@@ -43,16 +43,29 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+The UnregisterNamedModel method undoes a prior call to RegisterNamedModel. It removes the association between a data model and a name under which it can be looked up. 
 
 ## -parameters
 
 ### -param modelName
-
+The name which will be unregistered. Any data model registered under this name will no longer be registered.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
-## -see-also
+**Sample Code**
+
+```cpp
+ComPtr<IDataModelManager> spManager;    /* get the data model manager */
+
+if (SUCCEEDED(spManager->UnregisterNamedModel(
+    L"Debugger.Models.Process.PrivateProcessExtension")))
+{
+    // Whatever data model was registered under
+    // Debugger.Models.Process.PrivateProcessExtension is no longer registered.
+}
+```
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e6823fca-e9c4-4e2a-8c0f-95bd9f7527e9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::ToDisplayString, ToDisplayString, IStringDisplayableConcept.ToDisplayString, IStringDisplayableConcept::ToDisplayString, IStringDisplayableConcept.ToDisplayString
 req.header: dbgmodel.h
@@ -44,19 +44,25 @@ targetos: Windows
 
 ## -description
 
-TBD
+The ToDisplayString method is called whenever a client wishes to convert an object into a string to display (to console, in the UI, etc...). Such a string conversion should not be used for the basis of additional programmatic manipulation. The string conversion itself may be deeply influenced by the metadata passed to the call. A string conversion should make every attempt to honor the PreferredRadix and PreferredFormat keys. 
 
 ## -parameters
 
 ### -param contextObject
+The instance (this pointer) being converted to a display string is passed in this argument.
 
 ### -param metadata
+An optional metadata store which defines how the caller would like the string to be converted. The implementation should make every attempt to honor the requests in the store (in particular, the PreferredRadix and PreferredFormat keys).
 
 ### -param displayString
+The string conversion as allocated by the SysAllocString function will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IStringDisplayableConcept interface](nn-dbgmodel-isStringdisplayableconcept.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: edb82187-ddf5-4ebb-b8d5-ea191053533b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::QueryInterface, QueryInterface, IStringDisplayableConcept.QueryInterface, IStringDisplayableConcept::QueryInterface, IStringDisplayableConcept.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method
 
 ## -parameters
 
@@ -54,7 +54,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IStringDisplayableConcept interface](nn-dbgmodel-isStringdisplayableconcept.md)
