@@ -54,7 +54,8 @@ Standard COM method.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicate success or failure.
+
 ## -remarks
 
 ## -see-also

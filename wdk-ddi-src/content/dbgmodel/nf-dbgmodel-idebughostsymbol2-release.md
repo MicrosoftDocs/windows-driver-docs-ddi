@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ced24de3-5ee6-4a5b-9860-2ce89caff0ff
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::Release, Release, IDebugHostSymbol2.Release, IDebugHostSymbol2::Release, IDebugHostSymbol2.Release
 req.header: dbgmodel.h
@@ -44,13 +44,17 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
 
 ## -returns
 This method returns ULONG.
+
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostSymbol2 interface](nn-dbgmodel-idebughostsymbol2.md)

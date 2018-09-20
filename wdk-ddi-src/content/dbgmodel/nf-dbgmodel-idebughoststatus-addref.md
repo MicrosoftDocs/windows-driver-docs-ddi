@@ -51,6 +51,9 @@ Standard COM method.
 
 ## -returns
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostStatus interface](nn-dbgmodel-idebughoststatus.md)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5ae39f4b-c5cf-4e46-800a-1577c86e5602
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018  
 ms.topic: method
 ms.keywords: IDebugHostType2::GetGenericArgumentCount, GetGenericArgumentCount, IDebugHostType2.GetGenericArgumentCount, IDebugHostType2::GetGenericArgumentCount, IDebugHostType2.GetGenericArgumentCount
 req.header: dbgmodel.h
@@ -44,15 +44,19 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the number of arguments to the generic/template.  The returned value must be greater than zero.
 
 ## -parameters
 
 ### -param argCount
+The number of generic arguments (e.g.: template arguments) to the type will be returned here.
+
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)

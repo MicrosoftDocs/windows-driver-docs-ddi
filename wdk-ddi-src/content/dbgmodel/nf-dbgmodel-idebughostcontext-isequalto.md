@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f0b782ca-f7b8-4521-9e2b-dd5afd5adeee
 ms.author: windowsdriverdev
-ms.date: 09/12/2018
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostContext::IsEqualTo, IsEqualTo, IDebugHostContext.IsEqualTo, IDebugHostContext::IsEqualTo, IDebugHostContext.IsEqualTo
 req.header: dbgmodel.h
@@ -49,7 +49,7 @@ Returns whether two IDebugHostContext objects are equal by value.  Note that the
 ## -parameters
 
 ### -param pContext
-TBD
+The host context to compare against.
 
 ### -param pIsEqual
 An indication of whether the values of the two objects are equal.

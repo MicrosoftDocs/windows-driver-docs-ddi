@@ -54,7 +54,10 @@ Standard COM method.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostScriptHost interface](nn-dbgmodel-idebughostscripthost.md)

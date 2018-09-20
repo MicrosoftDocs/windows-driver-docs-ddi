@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ed83b2e9-318c-4f3f-ba23-b14d31ce057b
 ms.author: windowsdriverdev
-ms.date: 08/22/2018
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::IsTypedef, IsTypedef, IDebugHostType2.IsTypedef, IDebugHostType2::IsTypedef, IDebugHostType2.IsTypedef
 req.header: dbgmodel.h

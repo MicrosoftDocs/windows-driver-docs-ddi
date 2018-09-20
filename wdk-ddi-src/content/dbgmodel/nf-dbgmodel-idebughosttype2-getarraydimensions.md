@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9d8a0a77-4599-4a86-acb5-6f5bd9563fa4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetArrayDimensions, GetArrayDimensions, IDebugHostType2.GetArrayDimensions, IDebugHostType2::GetArrayDimensions, IDebugHostType2.GetArrayDimensions
 req.header: dbgmodel.h
@@ -43,18 +43,29 @@ targetos: Windows
 
 
 ## -description
+The GetArrayDimensions method returns a set of descriptors, one for each dimension of the array as indicated by the GetArrayDimensionality method. Each descriptor is an ArrayDimension structure which describes the starting index, length, and forward stride of each array dimension. This allows descriptions of significantly more powerful array constructs than are allowed in the C type system.
 
-TBD
+For C-style arrays, a single array dimension is returned here with values which are always: 
+
+- LowerBound = 0
+- Length = ARRAYSIZE(array)
+- Stride = sizeof(elementType)
+
 
 ## -parameters
 
 ### -param dimensions
+Indicates the number of dimension descriptors to fetch. This must be the value acquired from a call to GetArrayDimensionality.
+A buffer of dimensions ArrayDimension structures which will be filled in to fully describe the layout of the array in memory.
 
 ### -param pDimensions
+A buffer of dimensions ArrayDimension structures which will be filled in to fully describe the layout of the array in memory.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)
