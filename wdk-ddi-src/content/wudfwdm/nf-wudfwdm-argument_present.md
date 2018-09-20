@@ -62,6 +62,13 @@ The <b>ARGUMENT_PRESENT</b> macro takes an argument pointer and returns <b>FALSE
 
 Specifies the value of the pointer argument to be tested.
 
+## -returns
+
+
+
+<b>ARGUMENT_PRESENT</b> returns <b>TRUE</b> if the pointer is non-<b>NULL</b> and <b>FALSE</b> otherwise.
+
+
 
 ## -remarks
 
