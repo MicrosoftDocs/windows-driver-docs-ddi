@@ -16,7 +16,7 @@ tech.root: usbref
 
 ## -description
 
-This header provides UCM-UCSI Platform Policy Manager (PPM) declarations. PPM abstracts the details of sending UCSI commands from Operating System Policy Manager (OPM) to PPM and receiving notifications from the PPM. It converts PPM commands to WDFREQUEST objects and forwards them to the client driver.
+This header provides declarations for UCM-UCSI Platform Policy Manager (PPM) abstraction within the class extension. This PPM object implements the details of sending UCSI commands from Operating System Policy Manager (OPM) object to the client driver and receiving notifications from the client driver. For sending command to the client driver, it converts UCSI PPM commands to IOCTLs and forwards them to the client driver which later transports the commands to the actual firmware.
 
 > Do not include this header. Instead, include Ucmucsicx.h.
 
