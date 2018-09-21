@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 1e78ef6c-0494-423e-81ee-c01691dc40be
 ms.author: windowsdriverdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release
 req.header: dbgmodel.h
@@ -44,15 +44,21 @@ targetos: Windows
 
 ## -description
 
-Standard COM method.
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
 
 ## -remarks
+
 
 ## -see-also
 

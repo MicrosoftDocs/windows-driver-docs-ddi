@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9d5d4b53-b65b-4e77-85d3-abd66b7e8180
 ms.author: windowsdriverdev
-ms.date: 07/19/2018
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager::Release, Release, IDataModelManager.Release, IDataModelManager::Release, IDataModelManager.Release
 req.header: dbgmodel.h
@@ -44,14 +44,18 @@ targetos: Windows
 
 ## -description
 
-Standard COM method.
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
-
+None
 
 ## -returns
-This method returns HRESULT that indicates success or failure.
+
+This method returns ULONG.
 
 ## -remarks
 

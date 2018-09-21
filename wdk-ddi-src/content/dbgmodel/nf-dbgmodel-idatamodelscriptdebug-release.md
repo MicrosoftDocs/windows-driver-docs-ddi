@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 8751e9a9-1e39-4266-9506-40b7917d114a
 ms.author: windowsdriverdev
-ms.date: 08/21/2018
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::Release, Release, IDataModelScriptDebug.Release, IDataModelScriptDebug::Release, IDataModelScriptDebug.Release
 req.header: dbgmodel.h
