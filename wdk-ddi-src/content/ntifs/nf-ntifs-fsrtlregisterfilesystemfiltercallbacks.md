@@ -453,12 +453,8 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the following status values: 
 
@@ -538,10 +534,6 @@ One of the parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
