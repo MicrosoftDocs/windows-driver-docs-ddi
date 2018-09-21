@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-Description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
+Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 
 For more information, see [IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
@@ -62,6 +62,8 @@ The returned pointer to the requested COM interface.
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
+
+Standard COM method.
 
 ## -see-also
 
