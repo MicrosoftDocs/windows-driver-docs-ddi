@@ -43,16 +43,16 @@ targetos: Windows
 
 
 ## -description
-
-TBD
-
+Returns the type (e.g.: "int *") of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
+ 
 ## -parameters
 
 ### -param type
-
+The type of the symbol will be returned here.
 
 ## -returns
-This method returns HRESULT which indicates success or failure.
+This method returns HRESULT that indicates success or failure.
+
 
 ## -remarks
 

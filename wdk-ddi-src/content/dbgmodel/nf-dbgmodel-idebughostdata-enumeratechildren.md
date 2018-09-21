@@ -43,11 +43,7 @@ targetos: Windows
 
 
 ## -description
-
-Indicates what kinds of child symbols the caller wishes to enumerate. If the flat value Symbol is passed, all kinds of child symbols will be enumerated.
-If specified, only child symbols with a name as given in this argument will be enumerated.
-An enumerator which enumerates child symbols of the specified kind and name will be returned here.
-
+The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. For a C++ type, for example, the base classes, fields, member functions, and the like are all considered children of the type symbol. 
 
 ## -parameters
 
@@ -66,7 +62,7 @@ This method returns HRESULT that indicates success or failure.
 
 ## -remarks
 
-**Sample Code**
+**Code Sample**
 
 ```cpp
 ComPtr<IDebugHostType> spType; /* get the type of an object */

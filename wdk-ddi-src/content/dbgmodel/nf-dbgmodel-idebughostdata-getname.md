@@ -53,6 +53,7 @@ The name of the symbol will be returned here as a string allocated via the SysAl
 
 ## -returns
 This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also

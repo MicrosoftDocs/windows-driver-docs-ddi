@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 44c0dec2-be36-4863-8b09-f10b1a101855
 ms.author: windowsdriverdev
-ms.date: 08/14/2018
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::AddRef, AddRef, IDebugHostConstant.AddRef, IDebugHostConstant::AddRef, IDebugHostConstant.AddRef
 req.header: dbgmodel.h
@@ -44,13 +44,19 @@ targetos: Windows
 
 ## -description
 
-Standard COM Method.
+Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
+
+For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also

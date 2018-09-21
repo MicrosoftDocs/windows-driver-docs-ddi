@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 40159a9f-c3f1-4519-86a8-9ec22909e359
 ms.author: windowsdriverdev
-ms.date: 08/14/2018
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::GetContainingModule, GetContainingModule, IDebugHostBaseClass.GetContainingModule, IDebugHostBaseClass::GetContainingModule, IDebugHostBaseClass.GetContainingModule
 req.header: dbgmodel.h
@@ -48,7 +48,7 @@ Returns the module which contains this symbol if the symbol has a containing mod
 ## -parameters
 
 ### -param containingModule
-TBD
+The module which contains the symbol will be returned here.
 
 
 ## -returns

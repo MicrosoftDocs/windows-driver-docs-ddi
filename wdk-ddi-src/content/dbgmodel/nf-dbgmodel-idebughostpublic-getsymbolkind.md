@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 3b5ec3ce-84c9-41fa-8f4c-412418d912d3
 ms.author: windowsdriverdev
-ms.date: 09/18/2018 
+ms.date: 09/21/2018 
 ms.topic: method
 ms.keywords: IDebugHostPublic::GetSymbolKind, GetSymbolKind, IDebugHostPublic.GetSymbolKind, IDebugHostPublic::GetSymbolKind, IDebugHostPublic.GetSymbolKind
 req.header: dbgmodel.h
@@ -44,17 +44,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+Gets the kind of symbol that this is (e.g.: a field, a base class, a type, etc...).
 
 ## -parameters
 
 ### -param kind
-
+The kind of symbol (e.g.: a type, field, base class, etc…) will be returned here.
 
 ## -returns
-This method returns HRESULT which indicates success or failure.
+This method returns HRESULT that indicates success or failure.
 
 ## -remarks
+
 
 ## -see-also
 

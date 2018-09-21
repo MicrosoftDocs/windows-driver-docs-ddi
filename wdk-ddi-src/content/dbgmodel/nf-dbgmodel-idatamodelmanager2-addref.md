@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 1e499fac-94bf-4850-9847-3d757b339930
 ms.author: windowsdriverdev
-ms.date:  07/20/2018
+ms.date:  09/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::AddRef, AddRef, IDataModelManager2.AddRef, IDataModelManager2::AddRef, IDataModelManager2.AddRef
 req.header: dbgmodel.h
@@ -43,11 +43,13 @@ targetos: Windows
 
 
 ## -description
+Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 
-Standard COM method.
+For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
-
+None
 
 ## -returns
 This method returns ULONG.
