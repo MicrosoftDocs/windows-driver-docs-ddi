@@ -694,8 +694,8 @@ TBD
 <td>
 
 <dl>
-<dt>PreNotifyStreamFileObject</dt>
-<dt>PostNotifyStreamFileObject</dt>
+<dt>PreQueryOpen</dt>
+<dt>PostQueryOpen</dt>
 </dl>
 
 
