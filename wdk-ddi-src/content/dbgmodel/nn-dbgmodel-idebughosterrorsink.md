@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostErrorSink
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostErrorSink interface

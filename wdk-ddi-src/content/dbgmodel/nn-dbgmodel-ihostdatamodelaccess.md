@@ -32,6 +32,7 @@ api_name:
 -	IHostDataModelAccess
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IHostDataModelAccess interface

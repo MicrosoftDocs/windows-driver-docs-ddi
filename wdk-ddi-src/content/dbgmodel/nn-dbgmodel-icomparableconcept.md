@@ -32,6 +32,7 @@ api_name:
 -	IComparableConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IComparableConcept interface

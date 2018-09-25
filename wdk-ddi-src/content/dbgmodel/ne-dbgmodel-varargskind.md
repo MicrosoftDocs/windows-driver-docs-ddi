@@ -30,6 +30,7 @@ api_name:
 -	VarArgsKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # VarArgsKind enumeration

@@ -32,6 +32,7 @@ api_name:
 -	IModelMethod
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IModelMethod interface

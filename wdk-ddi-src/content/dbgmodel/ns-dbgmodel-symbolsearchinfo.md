@@ -33,6 +33,7 @@ api_name:
 -	SymbolSearchInfo
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # SymbolSearchInfo structure

@@ -32,6 +32,7 @@ api_name:
 -	IModelPropertyAccessor
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IModelPropertyAccessor interface

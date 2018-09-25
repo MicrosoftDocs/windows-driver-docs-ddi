@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostMemory
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostMemory interface

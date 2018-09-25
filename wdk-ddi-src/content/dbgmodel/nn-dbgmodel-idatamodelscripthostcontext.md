@@ -32,6 +32,7 @@ api_name:
 -	IDataModelScriptHostContext
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelScriptHostContext interface

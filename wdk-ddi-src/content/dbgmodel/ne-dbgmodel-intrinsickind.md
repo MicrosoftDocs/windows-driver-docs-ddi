@@ -30,6 +30,7 @@ api_name:
 -	IntrinsicKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IntrinsicKind enumeration

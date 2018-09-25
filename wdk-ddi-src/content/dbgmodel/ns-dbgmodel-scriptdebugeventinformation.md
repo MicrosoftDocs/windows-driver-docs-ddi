@@ -33,6 +33,7 @@ api_name:
 -	ScriptDebugEventInformation
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ScriptDebugEventInformation structure

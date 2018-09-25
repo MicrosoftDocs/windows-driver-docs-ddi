@@ -32,6 +32,7 @@ api_name:
 -	IRawEnumerator
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IRawEnumerator interface

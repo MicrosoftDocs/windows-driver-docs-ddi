@@ -30,6 +30,7 @@ api_name:
 -	ScriptDebugEvent
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ScriptDebugEvent enumeration

@@ -30,6 +30,7 @@ api_name:
 -	SymbolSearchOptions
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # SymbolSearchOptions enumeration

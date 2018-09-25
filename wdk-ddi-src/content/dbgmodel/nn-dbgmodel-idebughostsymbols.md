@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostSymbols
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostSymbols interface

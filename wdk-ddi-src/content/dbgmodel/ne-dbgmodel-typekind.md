@@ -30,6 +30,7 @@ api_name:
 -	TypeKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # TypeKind enumeration

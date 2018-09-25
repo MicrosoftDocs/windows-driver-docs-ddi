@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostModule2
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostModule2 interface

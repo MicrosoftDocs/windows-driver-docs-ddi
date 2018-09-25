@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostConstant
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostConstant interface

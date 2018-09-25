@@ -32,6 +32,7 @@ api_name:
 -	IEquatableConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IEquatableConcept interface

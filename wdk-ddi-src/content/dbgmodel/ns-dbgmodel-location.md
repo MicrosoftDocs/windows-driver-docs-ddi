@@ -33,6 +33,7 @@ api_name:
 -	Location
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # Location structure

@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostExtensibility
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostExtensibility interface

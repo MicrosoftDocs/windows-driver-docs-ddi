@@ -30,6 +30,7 @@ api_name:
 -	RawSearchFlags
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # RawSearchFlags enumeration

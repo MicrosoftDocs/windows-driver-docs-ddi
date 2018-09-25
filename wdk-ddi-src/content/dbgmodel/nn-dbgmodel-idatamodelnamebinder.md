@@ -32,6 +32,7 @@ api_name:
 -	IDataModelNameBinder
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelNameBinder interface

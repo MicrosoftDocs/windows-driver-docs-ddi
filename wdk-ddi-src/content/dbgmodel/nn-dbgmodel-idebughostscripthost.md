@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostScriptHost
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostScriptHost interface
