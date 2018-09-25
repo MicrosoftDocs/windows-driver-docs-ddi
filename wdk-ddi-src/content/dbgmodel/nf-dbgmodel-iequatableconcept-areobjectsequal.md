@@ -61,8 +61,10 @@ Returned Boolean indicating if the two objects are equal.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
 
 ## -remarks
 
 ## -see-also
+
+[IEquatableConcept interface](nn-dbgmodel-iequatableconcept.md)

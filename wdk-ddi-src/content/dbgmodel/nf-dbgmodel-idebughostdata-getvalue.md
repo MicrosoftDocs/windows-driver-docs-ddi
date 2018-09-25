@@ -53,6 +53,7 @@ The value of the data packed into a VARIANT will be returned here.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 **Sample Code**

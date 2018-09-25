@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 13f662d0-27ba-4760-b23e-c822a0b03c6f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release
 req.header: dbgmodel.h
@@ -44,13 +44,21 @@ targetos: Windows
 
 ## -description
 
-TBD
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)

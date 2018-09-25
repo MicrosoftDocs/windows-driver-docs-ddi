@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ae1684f3-9d50-4ad3-b205-4cdecf9aa006
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018 
 ms.topic: method
 ms.keywords: IDebugHostEvaluator2::Release, Release, IDebugHostEvaluator2.Release, IDebugHostEvaluator2::Release, IDebugHostEvaluator2.Release
 req.header: dbgmodel.h
@@ -44,13 +44,22 @@ targetos: Windows
 
 ## -description
 
-TBD
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
+
 ## -see-also
+
+[IDebugHostEvaluator2 interface](nn-dbgmodel-idebughostevaluator2.md)

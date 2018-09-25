@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: db0ae688-692c-468f-aa1b-7dca69a53ee2
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::ReadBytes, ReadBytes, IDebugHostMemory2.ReadBytes, IDebugHostMemory2::ReadBytes, IDebugHostMemory2.ReadBytes
 req.header: dbgmodel.h
@@ -44,7 +44,8 @@ targetos: Windows
 
 ## -description
 
-TBD
+Reads a number of bytes from the address space of the target as defined by the inpassed context and location.
+The number of bytes read is returned in "bytesRead" upon success.
 
 ## -parameters
 
@@ -60,7 +61,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostMemory2 interface](nn-dbgmodel-idebughostmemory2.md)

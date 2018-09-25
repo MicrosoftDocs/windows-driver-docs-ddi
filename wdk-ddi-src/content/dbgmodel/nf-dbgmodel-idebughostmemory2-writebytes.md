@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 63704020-5225-47dd-a388-151b5b02885f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::WriteBytes, WriteBytes, IDebugHostMemory2.WriteBytes, IDebugHostMemory2::WriteBytes, IDebugHostMemory2.WriteBytes
 req.header: dbgmodel.h
@@ -44,7 +44,10 @@ targetos: Windows
 
 ## -description
 
-TBD
+ Writes a number of bytes to the address space of the target as defined by the inpassed context and location.
+
+ The number of bytes written is returned in "bytesWritten" upon success.
+
 
 ## -parameters
 

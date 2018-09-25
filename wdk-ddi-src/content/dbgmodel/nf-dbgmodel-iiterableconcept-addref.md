@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: d20e7a6b-9fe5-4cc2-9003-147eba239209
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IIterableConcept::AddRef, AddRef, IIterableConcept.AddRef, IIterableConcept::AddRef, IIterableConcept.AddRef
 req.header: dbgmodel.h
@@ -43,14 +43,23 @@ targetos: Windows
 
 
 ## -description
+Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 
-TBD
+For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
+
+
 ## -see-also
+
+[IIterableConcept interface](nn-dbgmodel-iiterableconcept.md)

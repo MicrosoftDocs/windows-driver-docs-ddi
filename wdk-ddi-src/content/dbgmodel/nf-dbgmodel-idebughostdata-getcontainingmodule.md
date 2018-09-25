@@ -44,12 +44,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the module which contains this symbol if the symbol has a containing module.  If the symbol does not have a containing module, an error is returned.
 
 ## -parameters
 
 ### -param containingModule
-
+The module which contains the symbol will be returned here.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

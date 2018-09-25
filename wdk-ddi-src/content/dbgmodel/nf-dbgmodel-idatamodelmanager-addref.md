@@ -43,11 +43,13 @@ targetos: Windows
 
 
 ## -description
+Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 
-Standard COM method.
+For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
-
+None
 
 ## -returns
 This method returns ULONG.

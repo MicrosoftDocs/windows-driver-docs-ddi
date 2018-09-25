@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 8aba42ca-72d0-45fd-b2e7-ade953081f49
 ms.author: windowsdriverdev
-ms.date: 08/22/2018
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetContainingModule, GetContainingModule, IDebugHostType.GetContainingModule, IDebugHostType::GetContainingModule, IDebugHostType.GetContainingModule
 req.header: dbgmodel.h

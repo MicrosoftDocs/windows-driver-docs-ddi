@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 0719f5b4-abea-4cf9-942f-6d9da5edf4fd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetFunctionCallingConvention, GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention, IDebugHostType2::GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention
 req.header: dbgmodel.h
@@ -44,15 +44,32 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the CallingConventionKind enumeration. 
 
 ## -parameters
 
 ### -param conventionKind
+The calling convention of the function is returned here as a member of the CallingConventionKind enumeration.
+
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostModule> spType; /* get a type for some function type (see FindTypeByName) */
+
+CallingConventionKind conv;
+if (SUCCEEDED(spType->GetCallingConvention(&conv)))
+{
+    // conv indicates the calling convention (e.g.: cdecl, thiscall, etc...)
+}
+```
+
+
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)

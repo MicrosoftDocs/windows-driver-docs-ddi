@@ -44,16 +44,21 @@ targetos: Windows
 
 ## -description
 
-Standard COM method.
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
 
 ## -remarks
-`
+
 
 ## -see-also
 

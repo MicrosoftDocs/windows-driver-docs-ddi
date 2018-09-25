@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: deaa874d-59a5-4deb-9ea6-426374c5666a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::BindValue, BindValue, IDataModelNameBinder.BindValue, IDataModelNameBinder::BindValue, IDataModelNameBinder.BindValue
 req.header: dbgmodel.h
@@ -44,21 +44,27 @@ targetos: Windows
 
 ## -description
 
-TBD
+The BindValue method performs the equivalent of contextObject.name on the given object according to a set of binding rules. The result of this binding is a value. As a value, the underlying script provider cannot use the value to perform assignment back to name. 
 
 ## -parameters
 
 ### -param contextObject
+The object to bind a name against.
 
 ### -param name
+The name to bind in the context of contextObject.
 
 ### -param value
+The value of name in the context of contextObject is returned. As a value binding, this cannot be used to support assignment back to name.
 
 ### -param metadata
-
+Any metadata optionally associated with name is returned here.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)

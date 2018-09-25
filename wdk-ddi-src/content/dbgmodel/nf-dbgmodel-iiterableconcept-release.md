@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 82e6678e-82e1-43fa-965a-73877c476f83
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IIterableConcept::Release, Release, IIterableConcept.Release, IIterableConcept::Release, IIterableConcept.Release
 req.header: dbgmodel.h
@@ -43,14 +43,22 @@ targetos: Windows
 
 
 ## -description
+Decrements the reference count for an interface on an object. 
 
-TBD
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
+
 ## -see-also
+
+[IIterableConcept interface](nn-dbgmodel-iiterableconcept.md)

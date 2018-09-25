@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9cff0b19-7c3f-4ea2-8cb6-44ca813eb452
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostPublic::GetLocationKind, GetLocationKind, IDebugHostPublic.GetLocationKind, IDebugHostPublic::GetLocationKind, IDebugHostPublic.GetLocationKind
 req.header: dbgmodel.h
@@ -44,15 +44,29 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. The description of this enumeration can be found in the documentation for IDebugHostField. 
 
 ## -parameters
 
 ### -param locationKind
-
+The kind of location for this field will be returned here as a value of the LocationKind enumeration.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostPublic> spPublic; /* get a public symbol (see EnumerateChildren) */
+
+LocationKind kind;
+if (SUCCEEDED(spPublic->GetLocationKind(&kind)))
+{
+    // kind indicates the kind of location (static, none).
+}
+```
 ## -see-also
+
+[IDebugHostPublic interface](nn-dbgmodel-idebughostpublic.md)
