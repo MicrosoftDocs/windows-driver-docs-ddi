@@ -200,25 +200,63 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ### -field pfnGetMultiplaneOverlayCaps
 
- 
+Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to request that the user-mode display driver get basic overlay plane capabilities. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
+
+**Syntax**
+
+```cpp
+pfnGetMultiPlaneOverlayCaps GetMultiPlaneOverlayCaps;
+
+HRESULT __stdcall* GetMultiPlaneOverlayCaps(
+    DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS *pCaps
+)
+{ ... }
+```
+
+**Parameters*
+
+*pCaps* 
+A pointer to a [DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS](ns-dxgiddi-_dxgi_ddi_arg_getmultiplaneoverlaycaps.md) structure that specifies the overlay plane capabilities.
+
+**Return value**
+
+Returns one of the following values.
+
+* **S_OK**  The driver successfully provided the overlay plane capabilities.
+* **D3DDDIERR_DEVICEREMOVED**  The driver detected that the display adapter was removed, so the driver did not complete the operation. If the driver is not aware of the adapter removal, the driver is not required to return this error code.
 
 
 ### -field pfnGetMultiplaneOverlayFilterRange
 
- 
+This member is reserved and should be set to zero. Supported starting with Windows 8.1.
 
 
 ### -field pfnCheckMultiplaneOverlaySupport
 
- 
+Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to check the details on hardware support for multiplane overlays.
 
+**Syntax**
+
+```cpp
+PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT pfnCheckMultiplaneOverlaySupport;
+
+HRESULT __stdcall* pfnCheckMultiplaneOverlaySupport(
+   DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY *pSupport
+)
+{ ... }
+```
+
+**Parameter**
+
+*pSupport* A pointer to a DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure that describes how to display to the destination surface. 
+
+**Return value**
+
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ### -field pfnPresentMultiplaneOverlay
 
- 
-
-
-
+A pointer to the driver's <a href="https://msdn.microsoft.com/C6EB96AC-0D5B-4D75-9B44-B1744F6A4360">pfnPresentMultiplaneOverlay (DXGI)</a> function. Supported starting with Windows 8.1.
 
 #### - pfnCheckMultiPlaneOverlaySupport
 
@@ -231,25 +269,8 @@ Called by the DXGI runtime to check the details on hardware support for multipla
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780277">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
 
 
-#### - pfnGetMultiPlaneOverlayCaps
-
-Called by the DXGI runtime to request that the user-mode display driver  get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
 
 
-
-#### pCaps
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780278">DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS</a> structure that specifies the overlay plane capabilities.
-
-
-#### - pfnGetMultiPlaneOverlayFilterRange
-
-This member is reserved and should be set to zero. Supported starting with Windows 8.1.
-
-
-#### - pfnPresentMultiPlaneOverlay
-
-A pointer to the driver's <a href="https://msdn.microsoft.com/C6EB96AC-0D5B-4D75-9B44-B1744F6A4360">pfnPresentMultiplaneOverlay (DXGI)</a> function. Supported starting with Windows 8.1.
 
 
 ## -see-also
