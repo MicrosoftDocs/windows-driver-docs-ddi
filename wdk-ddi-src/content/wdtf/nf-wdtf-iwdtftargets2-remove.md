@@ -4,7 +4,7 @@ title: IWDTFTargets2::Remove
 author: windows-driver-content
 description: Removes an item from the collection.
 old-location: dtf\iwdtftargets2_remove.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 5db8c912-a446-4ae7-a775-f56ffa979283
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

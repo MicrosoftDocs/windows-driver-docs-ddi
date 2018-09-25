@@ -4,10 +4,10 @@ title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION"
 author: windows-driver-content
 description: Contains unregistration information for the IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE request.
 old-location: buses\usb_transport_characteristics_change_unregistration.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 22F185EB-103D-4D7D-94B7-D34D48B1C526
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION structure pointer [Buses], USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION structure [Buses], _USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, buses.usb_transport_characteristics_change_unregistration, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, usbioctl/USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

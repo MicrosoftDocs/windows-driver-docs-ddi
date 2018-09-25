@@ -4,7 +4,7 @@ title: "_KSM_BDA_PIN"
 author: windows-driver-content
 description: The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_bda_pin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

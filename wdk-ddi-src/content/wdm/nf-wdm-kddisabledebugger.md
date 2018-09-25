@@ -4,7 +4,7 @@ title: KdDisableDebugger function
 author: windows-driver-content
 description: The KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kddisabledebugger.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 491f1b10-342d-4edf-9b70-732f9d4755f2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

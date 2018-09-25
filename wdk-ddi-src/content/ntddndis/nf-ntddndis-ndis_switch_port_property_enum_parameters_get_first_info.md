@@ -33,7 +33,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

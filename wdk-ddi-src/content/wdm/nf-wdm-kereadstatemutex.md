@@ -4,7 +4,7 @@ title: KeReadStateMutex function
 author: windows-driver-content
 description: The KeReadStateMutex routine returns the current state, signaled or not-signaled, of the specified mutex object.
 old-location: kernel\kereadstatemutex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b23d846a-a1d4-4b2a-ab3c-8076302ff3fc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

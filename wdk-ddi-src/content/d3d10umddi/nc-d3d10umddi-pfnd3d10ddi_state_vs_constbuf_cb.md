@@ -4,10 +4,9 @@ title: PFND3D10DDI_STATE_VS_CONSTBUF_CB
 author: windows-driver-content
 description: The pfnStateVsConstBufCb function causes the Microsoft Direct3D 10 runtime to refresh the vertex shader stage's bound constant buffers.
 old-location: display\pfnstatevsconstbufcb.htm
-old-project: display
 ms.assetid: 43aa7188-d6aa-4890-8eac-1342a984005b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_STATE_VS_CONSTBUF_CB, PFND3D10DDI_STATE_VS_CONSTBUF_CB callback, d3d10state_functions_e0f1c7e6-7f55-462a-b723-011f6bf30906.xml, d3d10umddi/pfnStateVsConstBufCb, display.pfnstatevsconstbufcb, pfnStateVsConstBufCb, pfnStateVsConstBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

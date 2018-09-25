@@ -4,7 +4,7 @@ title: FsRtlGetPerStreamContextPointer macro
 author: windows-driver-content
 description: The FsRtlGetPerStreamContextPointer macro returns the file system's stream context for a file stream.
 old-location: ifsk\fsrtlgetperstreamcontextpointer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f3f9294a-23c0-450a-ae29-22add8176540
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ The <b>FsRtlGetPerStreamContextPointer</b> macro returns the file system's strea
 
 ### -param _fo
 
-TBD
+<p>Pointer to a file object for the file stream. </p>
 
 
 
 
-
-
-#### - FileObject [in]
-
-Pointer to a file object for the file stream. 
 
 
 ## -remarks

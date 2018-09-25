@@ -4,10 +4,10 @@ title: "_UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
 author: windows-driver-content
 description: Describes the partner that is currently attached to the connector.
 old-location: buses\ucm_connector_typec_attach_params.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: D1D4B9D8-0BBF-4592-9EC8-ED294D6D0C90
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses], _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

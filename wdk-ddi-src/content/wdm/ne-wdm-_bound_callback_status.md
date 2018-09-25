@@ -4,7 +4,7 @@ title: "_BOUND_CALLBACK_STATUS"
 author: windows-driver-content
 description: The BOUND_CALLBACK_STATUS enumeration indicates how a user-mode bounds exception was processed by the BoundCallback function.
 old-location: kernel\bound_callback_status.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

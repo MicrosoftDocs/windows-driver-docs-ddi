@@ -2,7 +2,7 @@
 UID: NC:d3dumddi.PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
 title: PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
 author: windows-driver-content
-description:
+description: Implemented by the client driver to submit a present blt to the hardware queue.
 ms.assetid: e699bb81-9414-4396-a08b-11ae38b3d8c2
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function

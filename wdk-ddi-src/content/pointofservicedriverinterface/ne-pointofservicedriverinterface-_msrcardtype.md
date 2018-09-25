@@ -4,7 +4,7 @@ title: "_MsrCardType"
 author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe cards.
 old-location: pos\msrcardtype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: aa7af210-fb5e-49a1-911f-cb1e90c2ac26
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

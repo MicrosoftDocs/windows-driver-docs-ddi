@@ -4,7 +4,7 @@ title: "_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure contains driver-supplied information that the framework uses to enable guaranteed forward progress for an I/O queue.
 old-location: wdf\wdf_io_queue_forward_progress_policy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cee3de1f-eaee-40e9-97a9-979e75e22c0a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, *PWDF_IO_QUEUE_FORWARD_PROG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</b> structure contains driver-supplied information that the framework uses to enable <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guaranteed forward progress</a> for an I/O queue.
 

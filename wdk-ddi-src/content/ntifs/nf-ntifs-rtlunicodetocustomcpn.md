@@ -4,7 +4,7 @@ title: RtlUnicodeToCustomCPN function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlunicodetocustomcpn.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: db4335c1-b6c9-4afd-b30f-95b736be696b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlUnicodeToCustomCPN</b> routine is reserved for system use. See <a href
 
 ### -param CustomCP
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param CustomCPString

@@ -4,7 +4,7 @@ title: "_REG_LOAD_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_LOAD_KEY_INFORMATION structure contains information about a registry hive that is being loaded.
 old-location: kernel\reg_load_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4012667b-d287-4846-8860-0cca977f9792
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

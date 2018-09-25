@@ -4,7 +4,7 @@ title: "_PARCLASS_NEGOTIATION_MASK"
 author: windows-driver-content
 description: The PARCLASS_NEGOTIATION_MASK structure specifies the read and write protocols that a driver selects for a parallel device.
 old-location: parports\parclass_negotiation_mask.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 6d246ec3-47f1-46da-8ac4-f073f91c0d44
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -83,7 +83,7 @@ Specifies the write protocols.
 
 
 
-A client specifies a set of requested protocols by setting a bitwise OR of the constants that represent each protocol. The system-supplied bus driver for parallel ports selects the fastest protocol that it supports from among those specified by the client. 
+A client specifies a set of requested protocols by setting a bitwise OR of the constants that represent each protocol. The system-supplied bus driver for parallel ports selects the fastest protocol that it supports from among those specified by the client.
 
 For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f-b6e4-5f7d20124a7c">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 

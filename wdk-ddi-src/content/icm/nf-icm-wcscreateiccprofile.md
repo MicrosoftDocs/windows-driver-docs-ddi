@@ -4,7 +4,7 @@ title: WcsCreateIccProfile function
 author: windows-driver-content
 description: The WcsCreateIccProfile function converts a WCS profile into an ICC profile.
 old-location: print\wcscreateiccprofile.htm
-old-project: print
+tech.root: print
 ms.assetid: fbe37d6c-9b91-46d8-9d29-1de3ef542c19
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -4,7 +4,7 @@ title: "_BASEBAND_CHANNEL_INFO"
 author: windows-driver-content
 description: The BASEBAND_CHANNEL_INFO structure describes output information about the baseband channel that is used by a SCO link after a BRB_GET_CHANNEL_INFO BRB completes.
 old-location: bltooth\baseband_channel_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c9328791-898e-48f2-acfd-30c8a36fcd29
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

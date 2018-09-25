@@ -4,7 +4,7 @@ title: WdfInterruptDisable function
 author: windows-driver-content
 description: The WdfInterruptDisable method disables a specified device interrupt by calling the driver's EvtInterruptDisable callback function.
 old-location: wdf\wdfinterruptdisable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptDisable</b> method disables a specified device interrupt by calling the driver's <a href="https://msdn.microsoft.com/a9d5e3cd-2e95-4ad6-9380-64fe4df9e27f">EvtInterruptDisable</a> callback function.
 

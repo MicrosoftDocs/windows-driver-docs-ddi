@@ -4,7 +4,7 @@ title: WdfMemoryGetBuffer function
 author: windows-driver-content
 description: The WdfMemoryGetBuffer method returns a pointer to the buffer that is associated with a specified memory object.
 old-location: wdf\wdfmemorygetbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfMemoryGetBuffer</b> method returns a pointer to the buffer that is associated with a specified memory object.
 

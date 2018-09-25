@@ -4,7 +4,7 @@ title: IWDFDriverCreatedFile::Close
 author: windows-driver-content
 description: The Close method closes an instance of a UMDF driver-created-file object that was created by calling the IWDFDevice::CreateWdfFile method.
 old-location: wdf\iwdfdrivercreatedfile_close.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a9c1d1d7-4222-4c8c-92eb-497d13952bed
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

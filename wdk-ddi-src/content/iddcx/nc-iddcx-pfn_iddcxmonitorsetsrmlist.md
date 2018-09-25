@@ -2,7 +2,7 @@
 UID: NC:iddcx.PFN_IDDCXMONITORSETSRMLIST
 title: *PFN_IDDCXMONITORSETSRMLIST
 author: windows-driver-content
-description:
+description: Implemented by the client driver to pass a HDCP SRM list to the GPU driver associated with the rendering of the specified monitor.
 ms.assetid: 38dfb1cf-f2fd-462f-bce0-a95505cead96
 ms.author: windowsdriverdev
 ms.date:
@@ -34,7 +34,8 @@ apilocation:
 -	iddcx.h
 apiname:
 -	*PFN_IDDCXMONITORSETSRMLIST
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

@@ -4,10 +4,10 @@ title: "_USBFN_PORT_TYPE"
 author: windows-driver-content
 description: Defines the possible port types that can be returned by the client driver during port detection.
 old-location: buses\usbfn_port_type.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBFN_PORT_TYPE, USBFN_PORT_TYPE, USBFN_PORT_TYPE enumeration [Buses], UsbfnChargingDownstreamPort, UsbfnDedicatedChargingPort, UsbfnInvalidDedicatedChargingPort, UsbfnPortTypeMaximum, UsbfnProprietaryDedicatedChargingPort, UsbfnStandardDownstreamPort, UsbfnUnknownPort, _USBFN_PORT_TYPE, buses.usbfn_port_type, usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnChargingDownstreamPort, usbfnbase/UsbfnDedicatedChargingPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnStandardDownstreamPort, usbfnbase/UsbfnUnknownPort"
 ms.prod: windows-hardware
 ms.technology: windows-devices

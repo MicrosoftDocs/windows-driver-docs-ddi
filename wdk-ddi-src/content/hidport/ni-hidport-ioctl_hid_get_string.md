@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_STRING
 author: windows-driver-content
 description: The IOCTL_HID_GET_STRING request obtains a manufacturer ID, product ID, or serial number for a top-level collection. The retrieved string is a NULL-terminated wide character string in a human-readable format.
 old-location: hid\ioctl_hid_get_string.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 0812f27f-f38c-487d-9e92-98e16ddde21c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

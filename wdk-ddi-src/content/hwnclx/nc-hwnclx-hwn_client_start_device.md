@@ -4,7 +4,7 @@ title: HWN_CLIENT_START_DEVICE
 author: windows-driver-content
 description: Implemented by the client driver to start the hardware notification component. It is invoked as a result of a call to EVT_WDF_DEVICE_D0_ENTRY.
 old-location: gpiobtn\hwn_client_start_device.htm
-old-project: gpiobtn
+tech.root: gpiobtn
 ms.assetid: 79ad880a-74a2-48e8-b16b-0d488003889f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: hwnclx.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -51,7 +51,7 @@ req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPO
 
 
 
-Implemented by the client driver to start the hardware notification component. It is invoked as a result of a call to <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EVT_WDF_DEVICE_D0_ENTRY</a>. 
+Implemented by the client driver to start the hardware notification component. It is invoked as a result of a call to <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EVT_WDF_DEVICE_D0_ENTRY</a>.
 
 
 ## -prototype

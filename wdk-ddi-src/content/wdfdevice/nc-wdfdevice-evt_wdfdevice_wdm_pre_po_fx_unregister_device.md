@@ -4,7 +4,7 @@ title: EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE
 author: windows-driver-content
 description: The EvtDeviceWdmPrePoFxUnregisterDevice callback function performs device-specific operations before the framework deletes a specified registration with the power framework.
 old-location: wdf\evtdevicewdmprepofxunregisterdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: D663C47D-C59E-4210-84D8-9773A3003990
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The 

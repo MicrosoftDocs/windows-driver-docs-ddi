@@ -4,7 +4,7 @@ title: IPrintPipelineManagerControl::RequestShutdown
 author: windows-driver-content
 description: The RequestShutdown method requests that a pipeline be shut down.
 old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
-old-project: print
+tech.root: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

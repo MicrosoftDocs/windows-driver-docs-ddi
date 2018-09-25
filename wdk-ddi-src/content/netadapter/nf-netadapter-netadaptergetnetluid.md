@@ -36,9 +36,11 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NetAdapterGetNetLuid
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetAdapterGetNetLuid function
@@ -49,7 +51,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Retrieves the NET_LUID that is assigned to a network adapter.
 

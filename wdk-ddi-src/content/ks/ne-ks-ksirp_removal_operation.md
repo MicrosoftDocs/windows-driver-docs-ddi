@@ -2,9 +2,9 @@
 UID: NE:ks.KSIRP_REMOVAL_OPERATION
 title: KSIRP_REMOVAL_OPERATION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksirp_removal_operation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

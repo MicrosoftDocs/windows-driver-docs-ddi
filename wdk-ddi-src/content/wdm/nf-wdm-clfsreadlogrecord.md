@@ -4,7 +4,7 @@ title: ClfsReadLogRecord function
 author: windows-driver-content
 description: The ClfsReadLogRecord routine reads a target record in a CLFS stream and returns a read context that the caller can use to read the records preceding or following it in the stream.
 old-location: kernel\clfsreadlogrecord.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE
 author: windows-driver-content
 description: A driver's EvtChildListAddressDescriptionDuplicate event callback function duplicates a child address description.
 old-location: wdf\evtchildlistaddressdescriptionduplicate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3b99401c-5a36-4ccd-b3a4-c5687310c29b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtChildListAddressDescriptionDuplicate</i> event callback function duplicates a child address description.
 

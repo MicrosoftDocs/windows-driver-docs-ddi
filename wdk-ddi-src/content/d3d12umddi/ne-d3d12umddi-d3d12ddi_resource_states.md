@@ -4,7 +4,6 @@ title: D3D12DDI_RESOURCE_STATES
 author: windows-driver-content
 description: Contains resource states.
 old-location: display\d3d12ddi_resource_states.htm
-old-project: display
 ms.assetid: E5DB8AF3-A6ED-4CD7-9723-78ACD57F1723
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_RESOURCE_STATES
 ---
 

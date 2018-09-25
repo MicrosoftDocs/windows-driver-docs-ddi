@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c704a73d-a6c1-4ff6-b2a1-4c5f683b0582
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::EnumerateValues, EnumerateValues, IDataModelNameBinder.EnumerateValues, IDataModelNameBinder::EnumerateValues, IDataModelNameBinder.EnumerateValues
 req.header: dbgmodel.h
@@ -44,17 +44,22 @@ targetos: Windows
 
 ## -description
 
-TBD
+The EnumerateValues method enumerates the set of names and values which will bind against the object according to the rules of the BindValue method. Unlike the EnumerateKeys, EnumerateValues, and similar methods on IModelObject which may return multiple names with the same value (for base classes, parent models, and the like), this enumerator will only return the specific set of names which will bind with BindValue and BindReference. Names will never be duplicated. Note that there is a significantly higher cost of enumerating an object via the name binder than calling the IModelObject methods. 
 
 ## -parameters
 
 ### -param contextObject
+The object for which to enumerate all name bindings and their values.
 
 ### -param enumerator
+An enumerator which will enumerate every name that would bind according to calls to BindValue and their values. Note that this enumerator will never duplicate names. It will only return the set of names and values which would come out of explicit calls to BindValue.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)

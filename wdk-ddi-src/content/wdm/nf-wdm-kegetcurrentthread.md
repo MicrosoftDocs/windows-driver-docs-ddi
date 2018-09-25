@@ -4,7 +4,7 @@ title: KeGetCurrentThread function
 author: windows-driver-content
 description: The KeGetCurrentThread routine identifies the current thread.
 old-location: kernel\kegetcurrentthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0fbc9f6d-698b-4fa5-86c4-3f6ef0cc50fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

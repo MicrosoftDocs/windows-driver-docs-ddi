@@ -4,7 +4,7 @@ title: "_MsrTrackIds"
 author: windows-driver-content
 description: Defines the constants that represent the magnetic stripe reader (MSR) tracks.
 old-location: pos\msrtrackids.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 9366722a-c545-411d-a59f-63edfb0cd68e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

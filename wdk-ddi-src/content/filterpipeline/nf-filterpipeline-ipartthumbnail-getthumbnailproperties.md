@@ -4,7 +4,7 @@ title: IPartThumbnail::GetThumbnailProperties
 author: windows-driver-content
 description: The GetThumbnailProperties method gets the thumbnail properties.
 old-location: print\ipartthumbnail_getthumbnailproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

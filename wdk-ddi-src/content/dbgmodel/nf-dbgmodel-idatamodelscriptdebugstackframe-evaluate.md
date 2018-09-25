@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ef36e451-1a5a-4ea0-a2cf-6af38fe6757c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::Evaluate, Evaluate, IDataModelScriptDebugStackFrame.Evaluate, IDataModelScriptDebugStackFrame::Evaluate, IDataModelScriptDebugStackFrame.Evaluate
 req.header: dbgmodel.h
@@ -44,17 +44,21 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Evaluate method evaluates an expression (of the language of the script provider) in the context of the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. The result of the expression evaluation must be marshaled out of the script provider as an IModelObject. The properties and other constructs on the resulting IModelObject must all be able to be acquired while the debugger is in a break state. 
 
 ## -parameters
 
 ### -param pwszExpression
+An expression (of the language of the script provider) to evaluate in the context of the stack frame represented by the IDataModelScriptDebugStackFrame on which this method was called.
 
 ### -param ppResult
+The result of the expression evaluation. The script provider construct must be marshaled out to an IModelObject representation and all properties and constructs on that object must be able to be acquired while the debugger is in a break state.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugStackFrame interface](nn-dbgmodel-idatamodelscriptdebugstackframe.md)

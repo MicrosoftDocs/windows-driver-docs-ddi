@@ -4,10 +4,10 @@ title: UcmConnectorPdPartnerSourceCaps function
 author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the partner connector.
 old-location: buses\ucmconnectorpdportpartnersourcecaps.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,17 +66,12 @@ Handle to the connector object that the client driver received in the previous c
 
 ### -param Pdos
 
-TBD
+<p>A caller-allocated array of <a href="https://msdn.microsoft.com/library/Mt187935(v=VS.85).aspx"><b>UCM_PD_POWER_DATA_OBJECT</b></a> structures that describes the power source capabilities.</p>
 
 
 ### -param PdoCount [in]
 
 Number of elements in the array specified by   <i>Pdos[]</i>.
-
-
-#### - Pdos[] [in]
-
-A caller-allocated array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
 
 
 ## -returns

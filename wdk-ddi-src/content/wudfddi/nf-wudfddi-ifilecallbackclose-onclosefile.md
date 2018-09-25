@@ -4,7 +4,7 @@ title: IFileCallbackClose::OnCloseFile
 author: windows-driver-content
 description: The OnCloseFile method is called when the last reference count on a file object goes down to zero and before the file object is released.
 old-location: wdf\ifilecallbackclose_onclosefile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ca3bd7af-b270-497e-a90a-6d79ce66d968
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

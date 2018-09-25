@@ -4,7 +4,7 @@ title: StorPortAcquireMSISpinLock function
 author: windows-driver-content
 description: The StorPortAcquireMSISpinLock routine acquires the message signaled interrupt (MSI) spin lock that is associated with the specified message.
 old-location: storage\storportacquiremsispinlock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8aa5a8a6-2024-4b3e-a500-5a484d937a62
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,17 +65,12 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param MessageId
 
-TBD
+<p>The identifier of the message whose spin lock the caller acquires.</p>
 
 
 ### -param OldIrql [in]
 
 A pointer to the storage for the original IRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>.
-
-
-#### - MessageID [in]
-
-The identifier of the message whose spin lock the caller acquires.
 
 
 ## -returns

@@ -2,9 +2,9 @@
 UID: NS:winspool.PrintPropertiesCollection
 title: PrintPropertiesCollection
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\printpropertiescollection.htm
-old-project: print
+tech.root: print
 ms.assetid: 824E8A5C-7530-4C7B-B093-386DD3D45A6B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

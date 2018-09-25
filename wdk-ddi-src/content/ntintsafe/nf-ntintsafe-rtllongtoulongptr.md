@@ -4,7 +4,7 @@ title: RtlLongToULongPtr function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type ULONG_PTR.
 old-location: kernel\rtllongtoulongptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D05EDC76-7A3E-4A9F-8950-8E54CDD16016
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,24 +60,14 @@ Converts a value of type <b>LONG</b> to a value of type <b>ULONG_PTR</b>.
 
 ### -param lOperand
 
-TBD
+<p>The value to be converted.</p>
 
 
 ### -param pulResult
 
-TBD
+<p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - pusResult [out]
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
-#### - ulOperand [in]
-
-The value to be converted.
 
 
 ## -remarks

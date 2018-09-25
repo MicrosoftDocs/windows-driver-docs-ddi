@@ -4,7 +4,7 @@ title: "_PROPSHEETUI_INFO"
 author: windows-driver-content
 description: The PROPSHEETUI_INFO structure is used as an input parameter to PFNPROPSHEETUI-typed functions.
 old-location: print\propsheetui_info.htm
-old-project: print
+tech.root: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

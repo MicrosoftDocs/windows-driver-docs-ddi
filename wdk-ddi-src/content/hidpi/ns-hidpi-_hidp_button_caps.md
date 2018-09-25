@@ -4,7 +4,7 @@ title: "_HIDP_BUTTON_CAPS"
 author: windows-driver-content
 description: The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button usage (or a set of buttons associated with a usage range).
 old-location: hid\hidp_button_caps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d3d77679-6749-4ef5-a8f2-91639587144a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

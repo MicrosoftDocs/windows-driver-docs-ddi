@@ -4,10 +4,9 @@ title: "_D3DKMT_TDRDBGCTRLTYPE"
 author: windows-driver-content
 description: The D3DKMT_TDRDBGCTRLTYPE enumeration type contains values that affect the behavior of the operating system's Timeout Detection and Recovery (TDR) process in a call to the OpenGL D3DKMTEscape function.
 old-location: display\d3dkmt_tdrdbgctrltype.htm
-old-project: display
 ms.assetid: d3a6dfcc-e318-4fd0-85e0-5a0cc13fd00f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_TDRDBGCTRLTYPE, D3DKMT_TDRDBGCTRLTYPE enumeration [Display Devices], D3DKMT_TDRDBGCTRLTYPE_DISABLEBREAK, D3DKMT_TDRDBGCTRLTYPE_ENABLEBREAK, D3DKMT_TDRDBGCTRLTYPE_ENGINETDR, D3DKMT_TDRDBGCTRLTYPE_FORCEDODTDR, D3DKMT_TDRDBGCTRLTYPE_FORCEDODVSYNCTDR, D3DKMT_TDRDBGCTRLTYPE_FORCETDR, D3DKMT_TDRDBGCTRLTYPE_GPUTDR, D3DKMT_TDRDBGCTRLTYPE_UNCONDITIONAL, D3DKMT_TDRDBGCTRLTYPE_VSYNCTDR, OpenGL_Structs_7c8128ed-aa43-4943-bc1f-948da6163316.xml, _D3DKMT_TDRDBGCTRLTYPE, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_DISABLEBREAK, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_ENABLEBREAK, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_ENGINETDR, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_FORCEDODTDR, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_FORCEDODVSYNCTDR, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_FORCETDR, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_GPUTDR, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_UNCONDITIONAL, d3dkmthk/D3DKMT_TDRDBGCTRLTYPE_VSYNCTDR, display.d3dkmt_tdrdbgctrltype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_TDRDBGCTRLTYPE
 ---
 

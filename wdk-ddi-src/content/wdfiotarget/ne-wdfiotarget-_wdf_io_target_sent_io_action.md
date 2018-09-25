@@ -4,7 +4,7 @@ title: "_WDF_IO_TARGET_SENT_IO_ACTION"
 author: windows-driver-content
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetStop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_TARGET_SENT_IO_ACTION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration identifies the actions that the framework can take when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548680">WdfIoTargetStop</a> to stop an I/O target.
 

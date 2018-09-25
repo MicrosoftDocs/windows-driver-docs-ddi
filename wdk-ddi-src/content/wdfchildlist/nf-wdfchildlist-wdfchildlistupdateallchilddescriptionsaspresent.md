@@ -4,7 +4,7 @@ title: WdfChildListUpdateAllChildDescriptionsAsPresent function
 author: windows-driver-content
 description: The WdfChildListUpdateAllChildDescriptionsAsPresent method informs the framework that all of the child devices in a specified child list are plugged in and available.
 old-location: wdf\wdfchildlistupdateallchilddescriptionsaspresent.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 598d2b4f-9b49-480a-9cf8-25661c24483f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListUpdateAllChildDescriptionsAsPresent</b> method informs the framework that all of the child devices in a specified child list are plugged in and available.
 

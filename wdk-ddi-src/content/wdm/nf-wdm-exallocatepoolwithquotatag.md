@@ -4,7 +4,7 @@ title: ExAllocatePoolWithQuotaTag function
 author: windows-driver-content
 description: The ExAllocatePoolWithQuotaTag routine allocates pool memory, charging the quota against the current process.
 old-location: kernel\exallocatepoolwithquotatag.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1d2e4c8c-c76c-4936-80bf-005d8a393aa9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE
 author: windows-driver-content
 description: Returns a handle for a cryptographic session.
 old-location: display\cryptosessiongethandle.htm
-old-project: display
 ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CryptoSessionGetHandle, CryptoSessionGetHandle callback function [Display Devices], PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE callback, d3d10umddi/CryptoSessionGetHandle, display.cryptosessiongethandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

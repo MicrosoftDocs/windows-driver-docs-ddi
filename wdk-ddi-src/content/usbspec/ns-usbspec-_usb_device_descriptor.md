@@ -4,10 +4,10 @@ title: "_USB_DEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_DEVICE_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined device descriptor.
 old-location: buses\usb_device_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 124184ef-7410-4e04-abb2-e07db4ae2cbf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses], _USB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, usbspec/PUSB_DEVICE_DESCRIPTOR, usbspec/USB_DEVICE_DESCRIPTOR, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR
 
 
 The <b>USB_DEVICE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined device descriptor.
-
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.1.
 
 ## -struct-fields
 

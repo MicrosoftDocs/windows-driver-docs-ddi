@@ -4,7 +4,7 @@ title: CcCopyWriteWontFlush function
 author: windows-driver-content
 description: The CcCopyWriteWontFlush macro determines whether the amount of data to be copied in a call to CcCopyWrite is small enough not to require immediate flushing to disk if CcCopyWrite is called with Wait set to FALSE.
 old-location: ifsk\cccopywritewontflush.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

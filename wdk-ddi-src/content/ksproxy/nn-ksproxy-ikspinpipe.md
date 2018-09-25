@@ -4,7 +4,7 @@ title: IKsPinPipe
 author: windows-driver-content
 description: The IKsPinPipe interface is for proxy use and not recommended for application use. IKsPinPipe provides methods that control a pin pipe.
 old-location: stream\ikspinpipe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bb9ebe0b-4a6e-41ff-a460-6c0b3a749d8d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

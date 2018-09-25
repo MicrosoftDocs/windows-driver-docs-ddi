@@ -4,10 +4,10 @@ title: RIL_GetAllEmergencyNumbers function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getallemergencynumbers.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9bb94db6-1d0d-471f-b2a5-71ca659afcd0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getallemergencynumbers, rilapi/RIL_GetAllEmergencyNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

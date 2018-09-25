@@ -4,7 +4,7 @@ title: "_CHANGER_SET_POSITION"
 author: windows-driver-content
 description: The CHANGER_SET_POSITION structure is used in conjunction with theIOCTL_CHANGER_SET_POSITION request to set the changer's robotic transport mechanism to the specified element address.
 old-location: storage\changer_set_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1c71473a-98db-41a1-9ca5-ce59f345b5f7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

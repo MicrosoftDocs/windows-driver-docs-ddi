@@ -4,10 +4,10 @@ title: "_STI_DEVICE_STATUS"
 author: windows-driver-content
 description: The STI_DEVICE_STATUS structure is used as a parameter to the IStiDevice::GetStatus and IStiUSD::GetStatus methods.
 old-location: image\sti_device_status.htm
-old-project: image
+tech.root: image
 ms.assetid: 40104e1f-b936-430b-9e8c-28738579f4c7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: "*PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], _STI_DEVICE_STATUS, image.sti_device_status, sti/PSTI_DEVICE_STATUS, sti/STI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

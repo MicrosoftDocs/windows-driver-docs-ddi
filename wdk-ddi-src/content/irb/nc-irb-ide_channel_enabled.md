@@ -4,7 +4,7 @@ title: IDE_CHANNEL_ENABLED
 author: windows-driver-content
 description: The AtaControllerChannelEnabled miniport driver routine indicates whether the specified channel is enabled.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\atacontrollerchannelenabled.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 67713537-6a5b-4108-8af9-fb5d16844b03
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

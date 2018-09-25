@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE
 author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the cryptographic session state.
 old-location: display\calcprivatecryptosessionsize.htm
-old-project: display
 ms.assetid: 9ca0fdd5-a724-4d5d-81b2-8885b2aed1ca
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CalcPrivateCryptoSessionSize, CalcPrivateCryptoSessionSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE, PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE callback, d3d10umddi/CalcPrivateCryptoSessionSize, display.calcprivatecryptosessionsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

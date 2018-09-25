@@ -4,7 +4,7 @@ title: WdfIoTargetFormatRequestForIoctl function
 author: windows-driver-content
 description: The WdfIoTargetFormatRequestForIoctl method builds a device control request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforioctl.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 673f53e8-67ce-481d-be1b-ea4146b9776a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetFormatRequestForIoctl</b> method builds a device control request for an I/O target but does not send the request.
 

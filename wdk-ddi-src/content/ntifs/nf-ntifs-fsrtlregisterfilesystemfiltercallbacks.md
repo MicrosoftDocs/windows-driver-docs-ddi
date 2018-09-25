@@ -4,7 +4,7 @@ title: FsRtlRegisterFileSystemFilterCallbacks function
 author: windows-driver-content
 description: File system filter drivers and file systems call the FsRtlRegisterFileSystemFilterCallbacks routine to register notification callback routines to be invoked when the underlying file system performs certain operations.
 old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

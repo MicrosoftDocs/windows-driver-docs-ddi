@@ -4,7 +4,7 @@ title: WdfWmiProviderGetDevice function
 author: windows-driver-content
 description: The WdfWmiProviderGetDevice method returns a handle to the framework device object that is the parent of a specified WMI provider object.
 old-location: wdf\wdfwmiprovidergetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8d934e44-c6f9-42f7-81a6-202b6c97aca2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfWmiProviderGetDevice</b> method returns a handle to the framework device object that is the parent of a specified WMI provider object.
 

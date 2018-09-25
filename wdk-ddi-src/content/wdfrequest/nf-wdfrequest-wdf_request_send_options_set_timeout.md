@@ -4,7 +4,7 @@ title: WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function sets a time-out value in a driver's WDF_REQUEST_SEND_OPTIONS structure.
 old-location: wdf\wdf_request_send_options_set_timeout.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 729bd44f-9ac7-4b3d-905d-a78b10fba2a7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</b> function sets a time-out value in a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552491">WDF_REQUEST_SEND_OPTIONS</a> structure.
 

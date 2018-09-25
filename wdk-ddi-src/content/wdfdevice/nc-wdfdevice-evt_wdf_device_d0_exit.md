@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_D0_EXIT
 author: windows-driver-content
 description: A driver's EvtDeviceD0Exit event callback function performs operations that are needed when the driver's device leaves the D0 power state.
 old-location: wdf\evtdeviced0exit.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bc3af732-f9ab-43a4-bc6f-7fa0b4c05a66
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceD0Exit</i> event callback function performs operations that are needed when the driver's device leaves the D0 power state.
 

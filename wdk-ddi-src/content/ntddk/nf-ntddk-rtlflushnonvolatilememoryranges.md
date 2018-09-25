@@ -4,7 +4,7 @@ title: RtlFlushNonVolatileMemoryRanges function
 author: windows-driver-content
 description: The routine RtlFlushNonVolatileMemoryRanges optimally flushes the given non-volatile memory regions.
 old-location: ifsk\rtlflushnonvolatilememoryranges.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 169C5F41-B372-4056-AAC5-53DD0582A563
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -71,17 +71,12 @@ Specifies an array of <b>NV_MEMORY_RANGE</b> structures which describe the non-v
 
 ### -param NumRanges
 
-TBD
+<p>Specifies the number of elements in the <b>NVRanges</b> array.</p>
 
 
 ### -param Flags
 
 For flags specified, refer <a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">RtlFlushNonVolatileMemory</a> as this routine also honors the flags apart from passing it to <b>RtlFlushNonVolatileMemory</b>.
-
-
-#### - TotalRanges
-
-Specifies the number of elements in the <b>NVRanges</b> array.
 
 
 ## -returns

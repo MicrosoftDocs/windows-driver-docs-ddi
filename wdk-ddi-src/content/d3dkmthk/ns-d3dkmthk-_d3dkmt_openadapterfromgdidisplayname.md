@@ -4,10 +4,9 @@ title: "_D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME"
 author: windows-driver-content
 description: The D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure describes the mapping of the given name of a GDI device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromgdidisplayname.htm
-old-project: display
 ms.assetid: 8b166fbb-f6fa-4d90-9b32-40ce213cbd71
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure [Display Devices], OpenGL_Structs_a6a0807b-454b-48a4-91d1-26d62e592280.xml, _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, display.d3dkmt_openadapterfromgdidisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 ---
 

@@ -4,7 +4,7 @@ title: FsRtlIssueDeviceIoControl function
 author: windows-driver-content
 description: The FsRtlIssueDeviceIoControl routine sends a synchronous device I/O control request to a target device object.
 old-location: ifsk\fsrtlissuedeviceiocontrol.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -71,7 +71,7 @@ The IOCTL control code to issue.
 
 ### -param Flags
 
-TBD
+<p>The desired IRP flags to set for IOCTL request.</p>
 
 
 ### -param InputBuffer [in, optional]
@@ -97,11 +97,6 @@ The length, in bytes, of the output data buffer at <i>OutputBuffer</i>.
 ### -param IosbInformation [in]
 
 A pointer to a <b>ULONG</b> status value to receive the information field value set in the I/O status block at completion of the request.
-
-
-#### - IrpFlags [in]
-
-The desired IRP flags to set for IOCTL request.
 
 
 ## -returns

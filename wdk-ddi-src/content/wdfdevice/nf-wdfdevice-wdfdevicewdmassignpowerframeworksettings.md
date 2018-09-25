@@ -4,7 +4,7 @@ title: WdfDeviceWdmAssignPowerFrameworkSettings function
 author: windows-driver-content
 description: The WdfDeviceWdmAssignPowerFrameworkSettings method registers power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 676A458E-A6E0-4F09-AAF2-21EA122EF74D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method registers  power management framework (PoFx) settings for single-component devices.

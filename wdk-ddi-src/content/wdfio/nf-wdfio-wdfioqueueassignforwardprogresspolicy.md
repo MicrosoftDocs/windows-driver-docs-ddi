@@ -4,7 +4,7 @@ title: WdfIoQueueAssignForwardProgressPolicy function
 author: windows-driver-content
 description: The WdfIoQueueAssignForwardProgressPolicy method enables the framework's ability to guarantee forward progress for a specified I/O queue.
 old-location: wdf\wdfioqueueassignforwardprogresspolicy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoQueueAssignForwardProgressPolicy</b> method enables the framework's ability to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guarantee forward progress</a> for a specified I/O queue. 
 

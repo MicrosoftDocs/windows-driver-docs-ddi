@@ -4,7 +4,7 @@ title: WdfDeviceSetBusInformationForChildren function
 author: windows-driver-content
 description: The WdfDeviceSetBusInformationForChildren method sets information about a bus that a bus driver supports. This information is available to the bus's child devices.
 old-location: wdf\wdfdevicesetbusinformationforchildren.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ecfce692-7dac-4f55-8a8a-1f51c27cce41
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceSetBusInformationForChildren</b> method sets information about a bus that a bus driver supports. This information is available to the bus's child devices.
 

@@ -4,10 +4,10 @@ title: IDebugDataSpaces2
 author: windows-driver-content
 description: IDebugDataSpaces2 interface
 old-location: debugger\idebugdataspaces2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: a8548f9c-5cb6-4a13-b37c-da28d316b8e1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces2, debugger.idebugdataspaces2
 ms.prod: windows-hardware
 ms.technology: windows-devices

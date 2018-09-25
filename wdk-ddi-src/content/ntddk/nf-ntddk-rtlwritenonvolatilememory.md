@@ -4,7 +4,7 @@ title: RtlWriteNonVolatileMemory function
 author: windows-driver-content
 description: The routine RtlWriteNonVolatileMemory copies the contents of a source buffer to a non-volatile destination memory buffer.
 old-location: ifsk\rtlwritenonvolatilememory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

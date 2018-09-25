@@ -4,7 +4,7 @@ title: WdfChildListRetrieveAddressDescription function
 author: windows-driver-content
 description: The WdfChildListRetrieveAddressDescription method locates a child device that has a specified identification description and retrieves the device's address description.
 old-location: wdf\wdfchildlistretrieveaddressdescription.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0c551de0-970a-4733-b904-27c40cf7b42f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListRetrieveAddressDescription</b> method locates a child device that has a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> and retrieves the device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>.
 

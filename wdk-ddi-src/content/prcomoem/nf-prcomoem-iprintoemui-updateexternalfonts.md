@@ -4,7 +4,7 @@ title: IPrintOemUI::UpdateExternalFonts
 author: windows-driver-content
 description: The IPrintOemUI::UpdateExternalFonts method allows a user interface plug-in to update a printer's Unidrv Font Format Files (.uff file).
 old-location: print\iprintoemui_updateexternalfonts.htm
-old-project: print
+tech.root: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

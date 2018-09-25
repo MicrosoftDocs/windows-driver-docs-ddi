@@ -4,7 +4,7 @@ title: RxFinalizeSrvOpen function
 author: windows-driver-content
 description: RxFinalizeSrvOpen finalizes the given SRV_OPEN structure. The caller must have an exclusive lock on the FCB associated with the SRV_OPEN and either a shared or exclusive lock on the table lock of the NET_ROOT associated with the FCB.
 old-location: ifsk\rxfinalizesrvopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9a756606-90df-4bb8-a87a-f000616812fa
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: WdfStringCreate function
 author: windows-driver-content
 description: The WdfStringCreate method creates a framework string object and optionally assigns a specified Unicode string to the object.
 old-location: wdf\wdfstringcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 491b99c6-5531-4d24-83a4-c404b58d111c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfStringCreate</b> method creates a framework string object and optionally assigns a specified Unicode string to the object.
 

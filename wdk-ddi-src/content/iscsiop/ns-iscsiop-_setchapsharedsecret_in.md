@@ -4,7 +4,7 @@ title: "_SetCHAPSharedSecret_IN"
 author: windows-driver-content
 description: The SetCHAPSharedSecret_IN structure holds the input data for the SetCHAPSharedSecret method.
 old-location: storage\setchapsharedsecret_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

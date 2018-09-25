@@ -4,7 +4,7 @@ title: FsRtlOplockIsFastIoPossible macro
 author: windows-driver-content
 description: FsRtlOplockIsFastIoPossible checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.
 old-location: ifsk\fsrtloplockisfastiopossible.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ba482fbf-862c-48b4-b8f9-aaab6c5527ee
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ req.typenames:
 
 ### -param __a
 
-TBD
+<p>Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/Ff546150(v=VS.85).aspx"><b>FsRtlInitializeOplock</b></a>. </p>
 
 
 
 
-
-
-#### - Oplock [in]
-
-Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ## -remarks

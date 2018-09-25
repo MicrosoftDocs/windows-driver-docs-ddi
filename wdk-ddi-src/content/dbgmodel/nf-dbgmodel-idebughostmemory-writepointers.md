@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2173d16d-c22b-412e-8e46-d5cb64922239
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory::WritePointers, WritePointers, IDebugHostMemory.WritePointers, IDebugHostMemory::WritePointers, IDebugHostMemory.WritePointers
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+ Takes a number of pointers as held in unsigned 64-bit values, truncates them to the native pointer size of the target, and writes them into the address space of the target as defined by the inpassed context and location.
 
 ## -parameters
 
@@ -58,7 +58,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostMemory interface](nn-dbgmodel-idebughostmemory.md)

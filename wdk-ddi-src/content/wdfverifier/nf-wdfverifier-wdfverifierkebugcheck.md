@@ -4,7 +4,7 @@ title: WdfVerifierKeBugCheck function
 author: windows-driver-content
 description: The WdfVerifierKeBugCheck function creates a bug check.
 old-location: wdf\wdfverifierkebugcheck.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3fa8ea3d-cca0-402d-a3a8-1281ad4231d4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfVerifierKeBugCheck</b> function creates a bug check.
 

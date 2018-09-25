@@ -4,10 +4,9 @@ title: "_DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES describes the operation used copy page table entries from one location to another.
 old-location: display\dxgk_buildpagingbuffer_copypagetableentries.htm
-old-project: display
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
 ---
 

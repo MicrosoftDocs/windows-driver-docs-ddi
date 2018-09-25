@@ -4,7 +4,7 @@ title: WdfRequestImpersonate function
 author: windows-driver-content
 description: The WdfRequestImpersonate method registers a driver-supplied event callback function that the framework should call for impersonation.
 old-location: wdf\wdfrequestimpersonate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: WUDFx02000.lib
-req.dll: WUDFx02000.dll; TBD
+req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfRequestImpersonate</b> method registers a driver-supplied event callback function  that the framework should call for impersonation.
 

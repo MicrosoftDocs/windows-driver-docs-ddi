@@ -4,10 +4,9 @@ title: DXGKCB_GETCAPTUREADDRESS
 author: windows-driver-content
 description: The DxgkCbGetCaptureAddress function retrieves the physical address and segment identifier of a capture buffer that is associated with the given allocation handle.
 old-location: display\dxgkcbgetcaptureaddress.htm
-old-project: display
 ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_GETCAPTUREADDRESS, DXGKCB_GETCAPTUREADDRESS callback, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml, DxgkCbGetCaptureAddress, DxgkCbGetCaptureAddress callback function [Display Devices], d3dkmddi/DxgkCbGetCaptureAddress, display.dxgkcbgetcaptureaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +27,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "< DISPATCH_LEVEL"
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -56,15 +56,9 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 ## -parameters
 
 
+### -param 
 
-
-
-
-
-
-
-
-#### - pData [in, out]
+*pData*
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557531">DXGKARGCB_GETCAPTUREADDRESS</a> structure that describes parameters for retrieving information about a capture buffer.
 

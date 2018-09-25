@@ -4,7 +4,7 @@ title: FIELD_OFFSET macro
 author: windows-driver-content
 description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
 old-location: kernel\field_offset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c792d021-3c64-4341-878c-08a7e163447c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: scsi.h
 req.include-header: Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: scsi.h
-req.dll: 
+req.dll:
 req.irql: Any level
 topic_type:
 -	APIRef
@@ -72,33 +72,23 @@ LONG FIELD_OFFSET(
 
 ### -param type
 
-TBD
+<p>Specifies the name of a known structure type containing <i>Field</i>. </p>
 
 
 ### -param field
 
-TBD
+<p>Specifies the name of a field in a structure of type <i>Type</i>. </p>
 
 
 
 
-
-
-#### - Field [in]
-
-Specifies the name of a field in a structure of type <i>Type</i>. 
-
-
-#### - Type [in]
-
-Specifies the name of a known structure type containing <i>Field</i>. 
 
 
 ## -remarks
 
 
 
-Used by device driver writers to symbolically determine the offset of a known field in a known structure type. 
+Used by device driver writers to symbolically determine the offset of a known field in a known structure type.
 
 
 

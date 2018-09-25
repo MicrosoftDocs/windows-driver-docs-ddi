@@ -4,7 +4,7 @@ title: PoFxRegisterCoreDevice function
 author: windows-driver-content
 description: The PoFxRegisterCoreDevice routine registers a new core system resource with the Windows power management framework (PoFx).
 old-location: kernel\pofxregistercoredevice.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

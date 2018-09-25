@@ -4,7 +4,7 @@ title: WdfDeviceGetDeviceState function
 author: windows-driver-content
 description: The WdfDeviceGetDeviceState method retrieves the device state for a specified device.
 old-location: wdf\wdfdevicegetdevicestate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 510197cf-8eab-4e1a-8b51-c1c08c58532b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceGetDeviceState</b> method retrieves the device state for a specified device.
 

@@ -4,7 +4,7 @@ title: IKsQualityForwarder
 author: windows-driver-content
 description: The IKsQualityForwarder interface inherits the method of the IKsObject interface and extends IKsObject to provide a method that flushes information from a pin.
 old-location: stream\iksqualityforwarder.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1f0ebadc-4a6c-4d57-ba96-936ce138142b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

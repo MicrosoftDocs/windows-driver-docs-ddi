@@ -4,10 +4,9 @@ title: DXGKDDI_SETVIDPNSOURCEVISIBILITY
 author: windows-driver-content
 description: The DxgkDdiSetVidPnSourceVisibility function programs the video output codec that is associated with a specified video present source to either start scanning or stop scanning the source's primary surface.
 old-location: display\dxgkddisetvidpnsourcevisibility.htm
-old-project: display
 ms.assetid: c94473b4-b898-456d-944d-8879adea16d1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_SETVIDPNSOURCEVISIBILITY, DXGKDDI_SETVIDPNSOURCEVISIBILITY callback, DmFunctions_6a3bb1aa-8bc1-4672-8028-ea3299809a37.xml, DxgkDdiSetVidPnSourceVisibility, DxgkDdiSetVidPnSourceVisibility callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceVisibility, display.dxgkddisetvidpnsourcevisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,7 @@ title: KeReadStateEvent function
 author: windows-driver-content
 description: The KeReadStateEvent routine returns the current state, signaled or not-signaled, of an event object.
 old-location: kernel\kereadstateevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c80e18db-332a-41d3-b761-46b94436742c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

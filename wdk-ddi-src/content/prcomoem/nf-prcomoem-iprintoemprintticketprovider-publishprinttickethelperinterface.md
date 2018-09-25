@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
 old-location: print\iprintoemprintticketprovider_publishprinttickethelperinterface.htm
-old-project: print
+tech.root: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

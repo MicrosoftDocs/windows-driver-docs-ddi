@@ -4,7 +4,7 @@ title: imp_WppRecorderLinkCounters function
 author: windows-driver-content
 description: The WppRecorderLinkCounters.
 old-location: devtest\wpprecorderlinkcounters.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: D8FF1E87-EB3E-491E-9649-076376C272B3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -60,7 +60,7 @@ The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs 
 
 ### -param WppCb
 
-TBD
+<p>ID of the counter whose current value is to be read.</p>
 
 
 ### -param CounterOwner [in]

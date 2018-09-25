@@ -4,7 +4,7 @@ title: HBA_SendCTPassThruV2 function
 author: windows-driver-content
 description: The HBA_SendCTPassThruV2 routine sends a common transport (CT) pass-through command through the indicated port.
 old-location: storage\hba_sendctpassthruv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 95526c2d-19bf-4f4a-abfa-e5be73c1a6a5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,7 +60,7 @@ The <b>HBA_SendCTPassThruV2</b> routine sends a common transport (CT) pass-throu
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. </p>
 
 
 ### -param HbaPortWWN [in]
@@ -85,19 +85,9 @@ Pointer to a buffer that contains the payload data from the reply to the common 
 
 ### -param pRspBufferSize
 
-TBD
+<p>On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. </p>
 
 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
-
-
-#### - RspBufferSize [in, out]
-
-On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
 
 
 ## -returns

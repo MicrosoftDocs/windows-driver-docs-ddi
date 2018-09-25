@@ -4,7 +4,7 @@ title: "_WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
 author: windows-driver-content
 description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure is a header structure that must be the first member of every identification description structure.
 old-location: wdf\wdf_child_identification_description_header.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFI
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</b> structure is a header structure that must be the first member of every <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> structure.
 

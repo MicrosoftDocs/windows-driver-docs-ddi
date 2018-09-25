@@ -4,7 +4,7 @@ title: RtlRightChild macro
 author: windows-driver-content
 description: The RtlRightChild routine returns a pointer to the right child of the specified splay link node.
 old-location: ifsk\rtlrightchild.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1b906983-b000-449b-8e82-46ade5384168
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

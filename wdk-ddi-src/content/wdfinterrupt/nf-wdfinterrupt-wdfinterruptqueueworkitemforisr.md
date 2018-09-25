@@ -4,7 +4,7 @@ title: WdfInterruptQueueWorkItemForIsr function
 author: windows-driver-content
 description: The WdfInterruptQueueWorkItemForIsr method queues a framework interrupt object's EvtInterruptWorkItem callback function for execution.
 old-location: wdf\wdfinterruptqueueworkitemforisr.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1E88E9D9-B564-43B4-9A83-F621FF23437F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptQueueWorkItemForIsr</b> method queues a framework interrupt object's <a href="https://msdn.microsoft.com/1A473A08-EA23-4DFE-8B58-EBB4AC977891">EvtInterruptWorkItem</a> callback function for execution.
 

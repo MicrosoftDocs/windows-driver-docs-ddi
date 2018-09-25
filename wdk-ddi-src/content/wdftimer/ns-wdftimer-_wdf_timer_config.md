@@ -4,7 +4,7 @@ title: "_WDF_TIMER_CONFIG"
 author: windows-driver-content
 description: The WDF_TIMER_CONFIG structure contains configuration information for a framework timer object.
 old-location: wdf\wdf_timer_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5ef6491d-90bb-472c-821a-b296bef17463
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_TIMER_CONFIG</b> structure contains configuration information for a framework timer object.
 

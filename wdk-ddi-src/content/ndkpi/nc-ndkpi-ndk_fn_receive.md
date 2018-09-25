@@ -4,10 +4,10 @@ title: NDK_FN_RECEIVE
 author: windows-driver-content
 description: The NdkReceive (NDK_FN_RECEIVE) function posts a receive request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_receive.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: DC40C6B5-3F52-4A7E-B8FC-917ACDF8309A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_RECEIVE, NDK_FN_RECEIVE callback, NdkReceive, NdkReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReceive, netvista.ndk_fn_receive
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_WDF_INTERRUPT_POLARITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity.
 old-location: wdf\wdf_interrupt_polarity.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6621a1ec-1d4e-4801-9418-d09a0073686a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify an interrupt signal's polarity.
 

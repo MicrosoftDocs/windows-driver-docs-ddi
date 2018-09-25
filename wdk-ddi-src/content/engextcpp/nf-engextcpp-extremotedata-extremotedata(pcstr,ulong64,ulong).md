@@ -4,10 +4,10 @@ title: ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG)
 author: windows-driver-content
 description: The ExtRemoteData constructor creates a new instance of the ExtRemoteData class.
 old-location: debugger\extremotedata_extremotedata_name_offset_bytes.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 0728f32e-750a-4212-9b8d-f4bfe85978cb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 08/09/2018
 ms.keywords: ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(PCSTR,ULONG64,ULONG), ExtRemoteData::ExtRemoteData, ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG), debugger.extremotedata_extremotedata_name_offset_bytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.ExtRemoteData
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExtRemoteData</b> constructor creates a new instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> class.
+The <b>ExtRemoteData</b> constructor creates a new instance of the [ExtRemoteData](nl-engextcpp-extremotedata.md) class.
 
 
 ## -parameters
@@ -75,42 +76,19 @@ Number of bytes in the memory region.
 
 ## -remarks
 
+If a memory region is specified, the contents of the region are read from the target and cached.  The data can be retrieved using [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md) or one of the ExtRemoteTyped::Get<i>Xxx</i> methods.
 
-
-If a memory region is specified, the contents of the region are read from the target and cached.  The data can be retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a> or one of the ExtRemoteTyped::Get<i>Xxx</i> methods.
-
-The constructor is called by the  <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a> or <a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
-			methods and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a> method.
-
-
+The constructor is called by the ExtRemoteData::Set(Typed) and ExtRemoteData::Set(Offset Bytes) methods and the ExtRemoteData::GetData method.
 
 
 ## -see-also
 
+[ExtRemoteData](nl-engextcpp-extremotedata.md)
+
+[ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md) 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
-
-
-
-<a href="https://msdn.microsoft.com/0728f32e-750a-4212-9b8d-f4bfe85978cb">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
-<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
-
-
-
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a>
  
 
  

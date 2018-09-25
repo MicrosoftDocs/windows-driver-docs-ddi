@@ -4,7 +4,7 @@ title: WdfPdoRemoveEjectionRelationsPhysicalDevice function
 author: windows-driver-content
 description: The WdfPdoRemoveEjectionRelationsPhysicalDevice method removes a specified device from the list of devices that must be ejected when another specified device is ejected.
 old-location: wdf\wdfpdoremoveejectionrelationsphysicaldevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d224b93b-4c3e-4e14-bc5d-404cb703752c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b> method removes a specified device from the list of devices that must be ejected when another specified device is ejected. 
 

@@ -4,7 +4,7 @@ title: IoCheckFunctionAccess function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iocheckfunctionaccess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>IoCheckFunctionAccess</b> routine is reserved for system use. See <a href
 
 ### -param GrantedAccess
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param MajorFunction

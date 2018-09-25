@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_FORWARD_OPTIONS"
 author: windows-driver-content
 description: The WDF_REQUEST_FORWARD_OPTIONS structure contains options for requeuing an I/O request from a child device's I/O queue to the parent device's I/O queue.
 old-location: wdf\wdf_request_forward_options.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 61ec4a05-749d-4d60-9bd7-ad121b6fd90f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_FORWARD_OPTIONS, *PWDF_REQUEST_FORWARD_OPTIONS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_REQUEST_FORWARD_OPTIONS</b> structure contains options for requeuing an I/O request from a child device's I/O queue to the parent device's I/O queue.
 

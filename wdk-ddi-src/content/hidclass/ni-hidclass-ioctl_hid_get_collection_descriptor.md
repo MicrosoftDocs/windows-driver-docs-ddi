@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_COLLECTION_DESCRIPTOR
 author: windows-driver-content
 description: The IOCTL_HID_GET_COLLECTION_DESCRIPTOR request obtains a top-level collection's preparsed data, which the HID class driver extracted from the physical device's report descriptor during device initialization.
 old-location: hid\ioctl_hid_get_collection_descriptor.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 93684a1a-788d-4b90-b9cc-58a3c4f7b25e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,9 @@ title: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021
 author: windows-driver-content
 description: Output stream arguments for video decode.
 old-location: display\d3d12ddi_video_decode_output_stream_arguments.htm
-old-project: display
 ms.assetid: 4179447D-481F-4EC3-922C-4DFE3F5D768F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021, D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021, display.d3d12ddi_video_decode_output_stream_arguments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021
 ---
 

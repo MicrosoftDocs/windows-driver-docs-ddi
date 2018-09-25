@@ -4,7 +4,7 @@ title: WdfRequestRetrieveOutputMemory function
 author: windows-driver-content
 description: The WdfRequestRetrieveOutputMemory method retrieves a handle to a framework memory object that represents an I/O request's output buffer.
 old-location: wdf\wdfrequestretrieveoutputmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c61e343a-5276-4cb8-87ff-9852ad167ff5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRetrieveOutputMemory</b> method retrieves a handle to a framework memory object that represents an I/O request's output buffer.
 

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 author: windows-driver-content
 description: Describes input stream properties for the video processor.
 old-location: display\d3d12ddi_video_processor_input_stream_desc_0032.htm
-old-project: display
 ms.assetid: 3A4D19FD-FC65-4B78-8F0E-9792EB0A9B03
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 ---
 

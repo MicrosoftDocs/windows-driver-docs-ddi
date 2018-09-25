@@ -4,7 +4,7 @@ title: "_WDFMEMORY_OFFSET"
 author: windows-driver-content
 description: The WDFMEMORY_OFFSET structure describes the location and size of information that is accessed within a memory block.
 old-location: wdf\wdfmemory_offset_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 960710f7-15b1-4815-a33a-0e903d0a4193
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

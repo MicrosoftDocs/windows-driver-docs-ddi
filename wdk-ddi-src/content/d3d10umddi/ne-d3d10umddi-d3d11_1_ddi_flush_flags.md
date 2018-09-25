@@ -4,10 +4,9 @@ title: D3D11_1_DDI_FLUSH_FLAGS
 author: windows-driver-content
 description: In calls to the Flush(D3D11_1) function, indicates whether the driver should continue to submit command buffers. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_flush_flags.htm
-old-project: display
 ms.assetid: 0786c63d-ce4e-47c1-b54f-47f1da90cb64
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, display.d3d11_1_ddi_flush_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1_DDI_FLUSH_FLAGS
 ---
 

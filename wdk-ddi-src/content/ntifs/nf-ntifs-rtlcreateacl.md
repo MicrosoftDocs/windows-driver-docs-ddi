@@ -4,7 +4,7 @@ title: RtlCreateAcl function
 author: windows-driver-content
 description: The RtlCreateAcl routine creates and initializes an access control list (ACL).
 old-location: ifsk\rtlcreateacl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -70,44 +70,38 @@ Length, in bytes, of the buffer pointed to by the <i>Acl</i> parameter. This val
 
 ### -param AclRevision
 
-TBD
+<p>ACL revision level of the ACE to be added. Windows version requirments are the following:</p>
+  <table>
+    <tr>
+      <th>Value</th>
+      <th>Meaning</th>
+    </tr>
+    <tr>
+      <td width="40%">
+        <dl>
+          <dt>ACL_REVISION</dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>The revision level valid on all Windows versions.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%">
+        <dl>
+          <dt>ACL_REVISION_DS</dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <div class="alert">
+          <b>Note</b>  <i>AceRevision</i> must be ACL_REVISION_DS if the ACL in <i>Acl</i> contains an object-specific ACE.</div>
+        <div> </div>
+      </td>
+    </tr>
+  </table>
+  <p> </p>
 
 
-
-
-#### - AceRevision [in]
-
-ACL revision level of the ACE to be added. Windows version requirments are the following:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ACL_REVISION</dt>
-</dl>
-</td>
-<td width="60%">
-The revision level valid on all Windows versions.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ACL_REVISION_DS</dt>
-</dl>
-</td>
-<td width="60%">
-<div class="alert"><b>Note</b>  <i>AceRevision</i> must be ACL_REVISION_DS if the ACL in <i>Acl</i> contains an object-specific ACE.</div>
-<div> </div>
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns

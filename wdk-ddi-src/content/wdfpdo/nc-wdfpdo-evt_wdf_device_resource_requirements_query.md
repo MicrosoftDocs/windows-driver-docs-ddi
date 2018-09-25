@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY
 author: windows-driver-content
 description: A bus driver's EvtDeviceResourceRequirementsQuery event callback function creates a resource requirements list that represents the device's required hardware resources.
 old-location: wdf\evtdeviceresourcerequirementsquery.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bacd7e7c-9f71-4dda-98ed-a8d813360943
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A bus driver's <i>EvtDeviceResourceRequirementsQuery</i> event callback function creates a resource requirements list that represents the device's required hardware resources.
 

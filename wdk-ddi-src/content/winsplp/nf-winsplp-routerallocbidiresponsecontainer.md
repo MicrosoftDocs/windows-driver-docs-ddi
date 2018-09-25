@@ -4,7 +4,7 @@ title: RouterAllocBidiResponseContainer function
 author: windows-driver-content
 description: RouterAllocBidiResponseContainer allocates a BIDI_RESPONSE_CONTAINER structure containing a list of bidi responses. The bidi response list is an array of BIDI_RESPONSE_DATA structures.
 old-location: print\routerallocbidiresponsecontainer.htm
-old-project: print
+tech.root: print
 ms.assetid: ca10f0d5-62d6-451a-96e5-38aca18cf5b0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param Count
 
-TBD
+
 
 
 

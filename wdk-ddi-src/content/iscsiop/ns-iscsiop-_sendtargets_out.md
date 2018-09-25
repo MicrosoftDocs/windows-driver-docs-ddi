@@ -4,7 +4,7 @@ title: "_SendTargets_OUT"
 author: windows-driver-content
 description: The SendTargets_OUT structure holds the output data for the SendTargets method.
 old-location: storage\sendtargets_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 82efeeb9-1167-4114-9d88-7ef66f613f80
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

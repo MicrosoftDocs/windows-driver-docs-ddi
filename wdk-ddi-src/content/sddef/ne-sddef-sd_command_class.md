@@ -4,7 +4,7 @@ title: SD_COMMAND_CLASS
 author: windows-driver-content
 description: The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.
 old-location: sd\sd_command_class.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

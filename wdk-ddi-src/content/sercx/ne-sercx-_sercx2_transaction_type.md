@@ -4,7 +4,7 @@ title: "_SERCX2_TRANSACTION_TYPE"
 author: windows-driver-content
 description: The SERCX2_TRANSACTION_TYPE enumeration defines constants that indicate the type of data-transfer mechanism to use to perform an I/O transaction.
 old-location: serports\sercx2_transaction_type.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 9F50CA34-DDEA-49E4-8149-B92D00476720
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

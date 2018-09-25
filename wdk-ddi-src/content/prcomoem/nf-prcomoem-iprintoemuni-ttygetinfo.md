@@ -4,7 +4,7 @@ title: IPrintOemUni::TTYGetInfo
 author: windows-driver-content
 description: The IPrintOemUni::TTYGetInfo method enables a rendering plug-in to supply Unidrv with information relevant to text-only printers.
 old-location: print\iprintoemuni_ttygetinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

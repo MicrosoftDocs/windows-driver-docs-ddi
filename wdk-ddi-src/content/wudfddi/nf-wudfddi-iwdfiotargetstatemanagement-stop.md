@@ -4,7 +4,7 @@ title: IWDFIoTargetStateManagement::Stop
 author: windows-driver-content
 description: The Stop method stops sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_stop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

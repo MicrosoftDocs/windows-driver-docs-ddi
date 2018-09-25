@@ -4,10 +4,10 @@ title: wiasPrintDebugHResult function
 author: windows-driver-content
 description: The wiasPrintDebugHResult function is obsolete for Windows XP and later, and is no longer supported. Use the WIAS_LHRESULT macro instead.This function prints an HRESULT string on the Device Manager debug console.
 old-location: image\wiasprintdebughresult.htm
-old-project: image
+tech.root: image
 ms.assetid: f9dc5379-0efa-4743-9460-bfb16945768b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasprintdebughresult, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

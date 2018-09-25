@@ -4,7 +4,7 @@ title: RxIndicateChangeOfBufferingStateForSrvOpen function
 author: windows-driver-content
 description: RxIndicateChangeOfBufferingStateForSrvOpen is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further.
 old-location: ifsk\rxindicatechangeofbufferingstateforsrvopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 70efd8d7-c275-440e-a4df-f41b799a63f0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -75,14 +75,9 @@ A pointer to the key for the SRV_OPEN key structure.
 
 ### -param Context
 
-TBD
+<p>A pointer to the context to be passed back to the network mini-redirector during callbacks for processing the request.</p>
 
 
-
-
-#### - MRxContext
-
-A pointer to the context to be passed back to the network mini-redirector during callbacks for processing the request.
 
 
 ## -returns

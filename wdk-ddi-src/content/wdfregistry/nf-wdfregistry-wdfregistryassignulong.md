@@ -4,7 +4,7 @@ title: WdfRegistryAssignULong function
 author: windows-driver-content
 description: The WdfRegistryAssignULong method assigns a specified unsigned long word value to a specified value name in the registry.
 old-location: wdf\wdfregistryassignulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a5a160a7-3408-4d26-83c8-2f5a7b6acaf1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryAssignULong</b> method assigns a specified unsigned long word value to a specified value name in the registry.
 

@@ -4,7 +4,7 @@ title: "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\vpd_zoned_block_device_characteristics_page.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9b1f83fd-e367-4b0d-8f93-24f35d9a5fd8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

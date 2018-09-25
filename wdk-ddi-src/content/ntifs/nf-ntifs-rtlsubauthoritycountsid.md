@@ -4,7 +4,7 @@ title: RtlSubAuthorityCountSid function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlsubauthoritycountsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 11e825ad-3d8f-46cf-a08a-4027ff38ab90
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlSubAuthorityCountSid</b> routine is reserved for system use. See <a hr
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

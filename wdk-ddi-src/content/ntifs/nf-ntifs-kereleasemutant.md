@@ -4,7 +4,7 @@ title: KeReleaseMutant function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kereleasemutant.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f5dc0f1b-3287-410d-97be-6d4f65466e65
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>KeReleaseMutant</b> routine is reserved for system use. See <a href="http
 
 ### -param Mutant
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Increment

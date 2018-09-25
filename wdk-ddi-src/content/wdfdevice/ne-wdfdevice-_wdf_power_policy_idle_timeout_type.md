@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration identifies how the idle timeout for a device is determined.
 old-location: wdf\wdf_power_policy_idle_timeout_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEO
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration identifies how the idle timeout for a device is determined.

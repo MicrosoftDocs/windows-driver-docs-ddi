@@ -4,7 +4,7 @@ title: WdfDeviceStopIdle macro
 author: windows-driver-content
 description: The WdfDeviceStopIdle method informs the framework that the specified device must be placed in its working (D0) power state.
 old-location: wdf\wdfdevicestopidle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a394f539-bd66-44e2-a857-d657a123b473
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceStopIdle</b> method informs the framework that the specified device must be placed in its working (D0) power state.
 

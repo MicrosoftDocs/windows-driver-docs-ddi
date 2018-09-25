@@ -4,7 +4,7 @@ title: StorPortFreeTimer function
 author: windows-driver-content
 description: Frees a Storport timer context object previously created by the StorPortInitializeTimer routine.
 old-location: storage\storportfreetimer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

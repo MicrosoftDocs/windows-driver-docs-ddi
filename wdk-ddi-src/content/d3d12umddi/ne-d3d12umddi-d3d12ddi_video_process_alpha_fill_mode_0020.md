@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020
 author: windows-driver-content
 description: Contains values for alpha fill modes.
 old-location: display\d3d12ddi_video_process_alpha_fill_mode.htm
-old-project: display
 ms.assetid: 74F07876-5502-4B57-9128-624F6066AF5B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020
 ---
 

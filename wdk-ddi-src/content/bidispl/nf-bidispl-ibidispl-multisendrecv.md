@@ -4,7 +4,7 @@ title: IBidiSpl::MultiSendRecv
 author: windows-driver-content
 description: The MultiSendRecv method sends a list of bidi requests.
 old-location: print\ibidispl_ibidispl__multisendrecv.htm
-old-project: print
+tech.root: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

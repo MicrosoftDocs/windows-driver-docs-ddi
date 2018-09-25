@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 877b66bb-4b7a-4e4e-8199-d90a77eabda7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IIterableConcept::GetDefaultIndexDimensionality, GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality, IIterableConcept::GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality
 req.header: dbgmodel.h
@@ -44,17 +44,42 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetDefaultIndexDimensionality method returns the number of dimensions to the default index. If an object is not indexable, this method should return 0 and succeed (S_OK). Any object which returns a non-zero value from this method is declaring support for a protocol contract which states: 
+
+- The object supports the indexable concept via support of IIndexableConcept
+- The GetNext method of the IModelIterator returned from the GetIterator method of the iterable concept will return a unique default index for each produced element. Such index will have the number of dimensions as indicated here.
+- Passing the indicies returned from the GetNext method of the IModelIterator to the GetAt method on the indexable concept (IIndexableConcept) will refer to the same object that GetNext produced. The same value is returned.
+
 
 ## -parameters
 
 ### -param contextObject
+The instance (this pointer) being queried.
 
 ### -param dimensionality
+The number of dimensions of the default indexer is returned here. A return value of zero indicates that the object is not indexable.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
+**Example Implementation:** 
+
+```cpp
+IFACEMETHOD(GetDefaultIndexDimensionality)(_In_ IModelObject * /*pContextObject*/,
+                                           _Out_ ULONG64 *pDimensionality)
+{
+    // If the object is not indexable, pDimensionality should be 0 and the 
+    // method should return S_OK.  Here, the object is indexable in one dimension.
+    // Providing this information requires that our iterator return these 
+    // 1D indexes and that we have an indexer which accepts them.
+    *pDimensionality = 1;
+    return S_OK;
+}
+```
+
 ## -see-also
+
+[IIterableConcept interface](nn-dbgmodel-iiterableconcept.md)

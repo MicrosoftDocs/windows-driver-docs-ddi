@@ -4,7 +4,7 @@ title: "_TRANSACTION_ENLISTMENTS_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTION_ENLISTMENTS_INFORMATION structure contains information about the enlistments that are associated with a transaction object.
 old-location: kernel\transaction_enlistments_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8b33a7ed-6892-4b2d-9d7a-cfc43c9fbf68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

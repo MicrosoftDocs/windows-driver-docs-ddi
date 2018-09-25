@@ -4,7 +4,7 @@ title: KSRATE_CAPABILITY
 author: windows-driver-content
 description: The client uses the KSRATE_CAPABILITY structure in a KSPROPERTY_STREAM_RATECAPABILITY property request.
 old-location: stream\ksrate_capability.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 70866a87-0ebd-4230-9958-ace18116fa23
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

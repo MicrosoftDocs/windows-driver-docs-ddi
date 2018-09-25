@@ -4,7 +4,7 @@ title: WdfDeviceAddQueryInterface function
 author: windows-driver-content
 description: The WdfDeviceAddQueryInterface method creates a driver-defined interface that other drivers can query and use.
 old-location: wdf\wdfdeviceaddqueryinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6e811b5e-bd2a-473b-8e5c-52bfbd9b8f7c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceAddQueryInterface</b> method creates a driver-defined interface that other drivers can query and use.
 

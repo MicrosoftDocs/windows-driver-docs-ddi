@@ -4,7 +4,7 @@ title: "_IO_RESOURCE_REQUIREMENTS_LIST"
 author: windows-driver-content
 description: The IO_RESOURCE_REQUIREMENTS_LIST structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_requirements_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e581fd34-4564-4882-b91d-94801e579bde
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

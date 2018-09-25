@@ -4,10 +4,9 @@ title: "_DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE is used as part of a page table update operation.
 old-location: display\dxgk_buildpagingbuffer_updatepagetable.htm
-old-project: display
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ---
 

@@ -4,7 +4,7 @@ title: PsGetCurrentProcessId function
 author: windows-driver-content
 description: The PsGetCurrentProcessId routine identifies the current thread's process.
 old-location: kernel\psgetcurrentprocessid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9434f740-34c1-4244-813d-3fe9f1ead333
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -74,31 +74,31 @@ The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a>
+[IoGetCurrentProcess](https://msdn.microsoft.com/library/windows/hardware/ff549177)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
+[PsGetCurrentThread](https://msdn.microsoft.com/library/windows/hardware/ff559936)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559937">PsGetCurrentThreadId</a>
+[PsGetCurrentThreadId](https://msdn.microsoft.com/library/windows/hardware/ff559937)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">PsSetCreateProcessNotifyRoutine</a>
+[PsSetCreateProcessNotifyRoutine](https://msdn.microsoft.com/library/windows/hardware/ff559951)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a>
+[PsSetCreateThreadNotifyRoutine](https://msdn.microsoft.com/library/windows/hardware/ff559954)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
+[PsSetLoadImageNotifyRoutine](https://msdn.microsoft.com/library/windows/hardware/ff559957)
  
 
  

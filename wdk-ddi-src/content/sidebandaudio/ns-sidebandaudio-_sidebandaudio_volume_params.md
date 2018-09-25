@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: f84929d3-f908-4686-83e7-f73e61912975
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/07/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,19 +38,23 @@ targetos: Windows
 # _SIDEBANDAUDIO_VOLUME_PARAMS structure
 
 ## -description
-
+Describes the endpoint index and volume value.
 
 ## -struct-fields
 
 ### -field EpIndex
+ 0 based index indicating the Endpoint on device.
  
 ### -field Immediate
+Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Channel
- 
+TBD 
+
 ### -field Value
- 
+TBD 
 
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)

@@ -4,7 +4,7 @@ title: RtlIntPtrToChar function
 author: windows-driver-content
 description: Converts a value of type INT_PTR to a value of type CHAR.
 old-location: kernel\rtlintptrtochar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 96FC52D7-E383-451A-BB30-9C677F254DE2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_DISK_GEOMETRY"
 author: windows-driver-content
 description: The DISK_GEOMETRY structure is obsolete and provided only to support existing drivers.
 old-location: storage\disk_geometry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f92d1f63-4361-4775-88f8-be1c9bf781ef
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

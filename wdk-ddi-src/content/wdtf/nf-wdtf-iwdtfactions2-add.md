@@ -4,7 +4,7 @@ title: IWDTFActions2::Add
 author: windows-driver-content
 description: Add a single action to the collection.
 old-location: dtf\iwdtfactions2_add.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: a6361d17-419f-4e34-b36f-5258dd34cc88
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

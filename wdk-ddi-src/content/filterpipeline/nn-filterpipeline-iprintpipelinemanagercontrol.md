@@ -4,7 +4,7 @@ title: IPrintPipelineManagerControl
 author: windows-driver-content
 description: The IPrintPipelineManagerControl interface is passed to each filter in the IPrintPipelineFilter::InitializeFilter method.
 old-location: print\iprintpipelinemanagercontrol.htm
-old-project: print
+tech.root: print
 ms.assetid: 82efbe8d-0928-4550-9de1-a806a00791eb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

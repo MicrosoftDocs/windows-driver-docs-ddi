@@ -44,7 +44,7 @@ The interface which indicates the capability of the debug host to take part in t
 
 
 ## -inheritance
-IDebugHostScriptHost interits from IUnknown. 
+IDebugHostScriptHost inherits from IUnknown. 
 ## -members
 
 <p>IDebugHostScriptHost has these methods.</p>

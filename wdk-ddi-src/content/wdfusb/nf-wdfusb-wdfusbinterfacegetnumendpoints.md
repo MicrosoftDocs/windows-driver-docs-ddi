@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetNumEndpoints function
 author: windows-driver-content
 description: The WdfUsbInterfaceGetNumEndpoints method returns the number of endpoints that are associated with a specified alternate setting of a specified USB interface.
 old-location: wdf\wdfusbinterfacegetnumendpoints.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6041b96e-2364-4592-9bc5-de4fb1b36957
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbInterfaceGetNumEndpoints</b> method returns the number of endpoints that are associated with a specified alternate setting of a specified USB interface.
 

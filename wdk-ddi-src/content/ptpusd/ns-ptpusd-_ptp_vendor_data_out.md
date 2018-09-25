@@ -4,10 +4,10 @@ title: "_PTP_VENDOR_DATA_OUT"
 author: windows-driver-content
 description: The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
 old-location: image\ptp_vendor_data_out.htm
-old-project: image
+tech.root: image
 ms.assetid: 2585c7ce-6dba-491a-86c1-5ee69f28136f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: "*PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], PTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], _PTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, ptpusd/PPTP_VENDOR_DATA_OUT, ptpusd/PTP_VENDOR_DATA_OUT, wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

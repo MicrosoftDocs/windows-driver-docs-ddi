@@ -4,7 +4,7 @@ title: WdfRequestIsCanceled function
 author: windows-driver-content
 description: The WdfRequestIsCanceled method determines whether the I/O manager has attempted to cancel a specified I/O request.
 old-location: wdf\wdfrequestiscanceled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 73ec4bf1-ba48-4b51-8824-61ce42f9708d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestIsCanceled</b> method determines whether the I/O manager has attempted to cancel a specified I/O request.
 

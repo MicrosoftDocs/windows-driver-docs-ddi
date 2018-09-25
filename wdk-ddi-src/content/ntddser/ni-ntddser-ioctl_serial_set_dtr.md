@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_DTR
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_DTR request sets DTR (data terminal ready).
 old-location: serports\ioctl_serial_set_dtr.htm
-old-project: serports
+tech.root: serports
 ms.assetid: cec61f34-389b-43a9-9b24-d42779c018d2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

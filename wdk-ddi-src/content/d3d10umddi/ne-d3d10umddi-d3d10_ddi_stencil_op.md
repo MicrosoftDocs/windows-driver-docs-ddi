@@ -4,10 +4,9 @@ title: D3D10_DDI_STENCIL_OP
 author: windows-driver-content
 description: The D3D10_DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers in a call to the driver's CreateDepthStencilState function.
 old-location: display\d3d10_ddi_stencil_op.htm
-old-project: display
 ms.assetid: 624decb3-6279-45ba-8cdd-5a52de80dd71
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10_DDI_STENCIL_OP, D3D10_DDI_STENCIL_OP enumeration [Display Devices], D3D10_DDI_STENCIL_OP_DECR, D3D10_DDI_STENCIL_OP_DECR_SAT, D3D10_DDI_STENCIL_OP_INCR, D3D10_DDI_STENCIL_OP_INCR_SAT, D3D10_DDI_STENCIL_OP_INVERT, D3D10_DDI_STENCIL_OP_KEEP, D3D10_DDI_STENCIL_OP_REPLACE, D3D10_DDI_STENCIL_OP_ZERO, UMDisplayDriver_Dx10param_Structs_0d70cbc2-b62c-4dce-b1f4-65b4c99ed5d7.xml, d3d10umddi/D3D10_DDI_STENCIL_OP, d3d10umddi/D3D10_DDI_STENCIL_OP_DECR, d3d10umddi/D3D10_DDI_STENCIL_OP_DECR_SAT, d3d10umddi/D3D10_DDI_STENCIL_OP_INCR, d3d10umddi/D3D10_DDI_STENCIL_OP_INCR_SAT, d3d10umddi/D3D10_DDI_STENCIL_OP_INVERT, d3d10umddi/D3D10_DDI_STENCIL_OP_KEEP, d3d10umddi/D3D10_DDI_STENCIL_OP_REPLACE, d3d10umddi/D3D10_DDI_STENCIL_OP_ZERO, display.d3d10_ddi_stencil_op
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_STENCIL_OP
 ---
 

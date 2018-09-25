@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS"
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure contains driver-supplied information about a device's ability to wake itself and the system, when both are in a low-power state.
 old-location: wdf\wdf_device_power_policy_wake_settings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d7448873-aa96-4eac-a5be-16dff661ab40
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure contains driver-supplied information about a device's ability to wake itself and the system, when both are in a low-power state.
 

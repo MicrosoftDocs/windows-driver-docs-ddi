@@ -4,7 +4,7 @@ title: IoBuildSynchronousFsdRequest function
 author: windows-driver-content
 description: The IoBuildSynchronousFsdRequest routine allocates and sets up an IRP for a synchronously processed I/O request.
 old-location: kernel\iobuildsynchronousfsdrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b6d257cb-5384-44fe-bcff-67c67439ad08
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: "<= APC_LEVEL"
+req.irql: <= APC_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax

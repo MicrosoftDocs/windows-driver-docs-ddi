@@ -4,10 +4,9 @@ title: PFND3DKMT_RECLAIMALLOCATIONS
 author: windows-driver-content
 description: Reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations.htm
-old-project: display
 ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, PFND3DKMT_RECLAIMALLOCATIONS callback, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

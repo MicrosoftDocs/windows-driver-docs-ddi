@@ -4,10 +4,10 @@ title: VmbServerChannelInitSetVmbusHandle function
 author: windows-driver-content
 description: The VmbServerChannelInitSetVmbusHandle function associates an instance of VMBus with this channel.
 old-location: netvista\vmbserverchannelinitsetvmbushandle.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0ECF76C7-9475-439E-8E59-B2B7CD350D24
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetvmbushandle, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

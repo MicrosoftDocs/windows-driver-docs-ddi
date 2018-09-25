@@ -4,7 +4,7 @@ title: FsRtlAcquireFileExclusive function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\fsrtlacquirefileexclusive.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bc0b48a9-6e15-4351-bba0-abd66120b449
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not 
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 

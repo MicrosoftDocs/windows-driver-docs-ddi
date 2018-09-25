@@ -4,7 +4,7 @@ title: "_PEP_ACPI_OBJECT_TYPE"
 author: windows-driver-content
 description: The PEP_ACPI_OBJECT_TYPE enumeration indicates the type of ACPI object.
 old-location: kernel\pep_acpi_object_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: BLOCK_DEVICE_TOKEN_DESCRIPTOR
 author: windows-driver-content
 description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.
 old-location: storage\block_device_token_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

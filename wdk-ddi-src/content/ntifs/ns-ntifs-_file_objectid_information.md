@@ -4,7 +4,7 @@ title: "_FILE_OBJECTID_INFORMATION"
 author: windows-driver-content
 description: The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume.
 old-location: ifsk\file_objectid_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

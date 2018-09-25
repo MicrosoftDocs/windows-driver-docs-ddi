@@ -4,7 +4,7 @@ title: WdfPdoGetParent function
 author: windows-driver-content
 description: The WdfPdoGetParent method returns a handle to the framework device object that represents the parent device of a specified device.
 old-location: wdf\wdfpdogetparent.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoGetParent</b> method returns a handle to the framework device object that represents the parent device of a specified device.
 

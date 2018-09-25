@@ -4,7 +4,7 @@ title: WdfObjectReferenceActual function
 author: windows-driver-content
 description: The WdfObjectReferenceActual method increments the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
 old-location: wdf\wdfobjectreferenceactual.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d0bb58c1-1036-496a-b108-c0d5e5de3bc2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectReferenceActual</b> method increments the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
 

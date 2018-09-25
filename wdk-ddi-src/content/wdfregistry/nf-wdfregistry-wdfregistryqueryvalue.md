@@ -4,7 +4,7 @@ title: WdfRegistryQueryValue function
 author: windows-driver-content
 description: The WdfRegistryQueryValue method retrieves the data that is currently assigned to a specified registry value.
 old-location: wdf\wdfregistryqueryvalue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryQueryValue</b> method retrieves the data that is currently assigned to a specified registry value.
 

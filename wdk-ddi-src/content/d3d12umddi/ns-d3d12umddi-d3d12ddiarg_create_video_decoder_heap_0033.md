@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033
 author: windows-driver-content
 description: Create a video decoder heap.
 old-location: display\d3d12ddiarg-create-video-decoder-heap-0033.htm
-old-project: display
 ms.assetid: 158411ee-6cc1-466d-b772-fe380b55baef
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033
 ---
 

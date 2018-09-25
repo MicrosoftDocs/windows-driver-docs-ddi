@@ -4,7 +4,7 @@ title: WdfCollectionGetLastItem function
 author: windows-driver-content
 description: The WdfCollectionGetLastItem method returns a handle to the last object that is in an object collection.
 old-location: wdf\wdfcollectiongetlastitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f90732ab-3756-46e2-8a15-e94ff82b3548
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCollectionGetLastItem</b> method returns a handle to the last object that is in an object collection.
 

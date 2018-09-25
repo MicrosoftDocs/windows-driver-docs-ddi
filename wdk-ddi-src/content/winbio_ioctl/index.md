@@ -8,7 +8,9 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: biometrics
+product:
+-	Windows
+tech.root: biometric
 ---
 
 # Winbio_Ioctl.h header

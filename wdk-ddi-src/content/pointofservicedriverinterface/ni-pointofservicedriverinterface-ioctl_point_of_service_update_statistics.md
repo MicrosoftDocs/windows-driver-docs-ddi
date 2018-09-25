@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
 author: windows-driver-content
 description: This I/O control function sets the specified statistic to the value in the input buffer.
 old-location: pos\ioctl_point_of_service_update_statistics.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

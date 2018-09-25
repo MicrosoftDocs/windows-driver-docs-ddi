@@ -4,7 +4,7 @@ title: HBA_RegisterForAdapterPortEvents function
 author: windows-driver-content
 description: The HBA_RegisterForAdapterPortEvents routine registers the indicated user callback routine to call when a port event occurs.
 old-location: storage\hba_registerforadapterportevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 596bfba5-7025-4cdc-b1f9-c8df546f6dac
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,12 +65,12 @@ Pointer to a callback routine of type <a href="https://msdn.microsoft.com/librar
 
 ### -param UserData
 
-TBD
+<p>Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. </p>
 
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA for which the adapter events are generated. </p>
 
 
 ### -param PortWWN
@@ -80,24 +80,9 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the HBA port fro
 
 ### -param pCallbackHandle
 
-TBD
+<p>Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/Ff557175(v=VS.85).aspx"><b>HBA_RemoveCallback</b></a> to de-register the callback routine.</p>
 
 
-
-
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
-#### - handle
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
-
-
-#### - userData
-
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns

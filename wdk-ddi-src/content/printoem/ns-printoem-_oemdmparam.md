@@ -4,7 +4,7 @@ title: "_OEMDMPARAM"
 author: windows-driver-content
 description: The OEMDMPARAM structure is used as an input parameter to the IPrintOemUI::DevMode, IPrintOemUni::DevMode, and IPrintOemPS::DevMode methods.
 old-location: print\oemdmparam.htm
-old-project: print
+tech.root: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

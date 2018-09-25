@@ -4,7 +4,7 @@ title: FsRtlNumberOfRunsInLargeMcb function
 author: windows-driver-content
 description: The FsRtlNumberOfRunsInLargeMcb routine returns the number of runs in a map control block (MCB).
 old-location: ifsk\fsrtlnumberofrunsinlargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a0722e8c-224c-4710-8cd1-68f9bd3051db
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,14 +60,9 @@ The <b>FsRtlNumberOfRunsInLargeMcb</b> routine returns the number of runs in a m
 
 ### -param Mcb
 
-TBD
+<p>Supplies the MCB being examined.</p>
 
 
-
-
-#### - OpaqueMcb [in]
-
-Supplies the MCB being examined.
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: PSCSIWMI_QUERY_DATABLOCK
 author: windows-driver-content
 description: A miniport driver's HwScsiWmiQueryDataBlock routine is called to obtain either a single instance or all instances of a data block.
 old-location: storage\hwscsiwmiquerydatablock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a2e588b8-50d6-4bed-b50c-c42be24955f1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

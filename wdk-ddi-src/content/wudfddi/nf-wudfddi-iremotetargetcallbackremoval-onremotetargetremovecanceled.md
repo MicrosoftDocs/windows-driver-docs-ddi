@@ -4,7 +4,7 @@ title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteTargetRemoveCanceled event callback function performs operations that are necessary when the operating system cancels the removal of a remote I/O target's device.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecanceled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 26a6e9e7-f1bb-4174-a640-f665cecfd191
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

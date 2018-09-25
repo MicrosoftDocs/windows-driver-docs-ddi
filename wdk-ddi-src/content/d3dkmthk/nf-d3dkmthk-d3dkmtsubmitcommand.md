@@ -4,10 +4,9 @@ title: D3DKMTSubmitCommand function
 author: windows-driver-content
 description: D3DKMTSubmitCommand is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dkmtsubmitcommand.htm
-old-project: display
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,7 +34,6 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
@@ -44,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -71,7 +70,7 @@ Some kernel mode drivers need information from their user mode driver on how to 
 
 ### -param D3DKMT_SUBMITCOMMAND
 
-TBD
+
 
 
 

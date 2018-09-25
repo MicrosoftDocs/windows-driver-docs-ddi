@@ -4,7 +4,7 @@ title: IsValidDevmodeA function
 author: windows-driver-content
 description: The print spooler's IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
 old-location: print\isvaliddevmode.htm
-old-project: print
+tech.root: print
 ms.assetid: 74da159d-7edc-44fc-abd9-aa068c4de7f2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -65,7 +65,7 @@ Pointer to the DEVMODE structure to be validated.
 
 ### -param DevmodeSize
 
-TBD
+
 
 
 

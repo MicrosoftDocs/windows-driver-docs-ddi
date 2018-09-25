@@ -4,7 +4,7 @@ title: TAPE_ERROR_ROUTINE
 author: windows-driver-content
 description: TAPE_ERROR_ROUTINE provides device-specific error handling when an SRB is completed with an error status. This routine is optional.
 old-location: storage\tapeminitapeerror.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a39fac12-f284-4b3a-a9ab-ae75934f810e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

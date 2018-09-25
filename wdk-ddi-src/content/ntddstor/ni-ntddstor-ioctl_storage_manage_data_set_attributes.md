@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 author: windows-driver-content
 description: This IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request is used to send a manage data set attributes request to a storage device.
 old-location: storage\ioctl_storage_manage_data_set_attributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 678bbca6-f21f-480a-897d-a30e922d01e3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

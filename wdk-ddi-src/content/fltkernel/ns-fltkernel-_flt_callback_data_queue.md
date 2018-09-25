@@ -4,7 +4,7 @@ title: "_FLT_CALLBACK_DATA_QUEUE"
 author: windows-driver-content
 description: FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use FltCbdqInitialize to initialize this structure.
 old-location: ifsk\flt_callback_data_queue.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bd0defc1-7c06-4b54-b4e3-3c17c49a6c57
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

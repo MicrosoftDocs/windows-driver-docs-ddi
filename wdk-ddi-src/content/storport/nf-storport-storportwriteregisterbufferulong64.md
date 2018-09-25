@@ -4,7 +4,7 @@ title: StorPortWriteRegisterBufferUlong64 macro
 author: windows-driver-content
 description: This StorPortWriteRegisterBufferUlong64 routine writes a number of ULONG64 values from a the specified 64-bit register address.
 old-location: storage\storportwriteregisterbufferulong64.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -61,17 +61,17 @@ This <b>StorPortWriteRegisterBufferUlong64</b> routine writes a number of <b>ULO
 
 ### -param h
 
-TBD
+<p>Pointer to the register where the data is written to. The register must be a mapped range in memory space</p>
 
 
 ### -param r
 
-TBD
+<p>Pointer to the buffer to write the <b>ULONG64</b> values from.</p>
 
 
 ### -param b
 
-TBD
+<p>Specifies the number of data values to write. Each data item has a size of <b>sizeof</b>(ULONG64). </p>
 
 
 ### -param c
@@ -81,21 +81,6 @@ TBD
 
 
 
-
-
-#### - Buffer [in]
-
-Pointer to the buffer to write the <b>ULONG64</b> values from.
-
-
-#### - Count [in]
-
-Specifies the number of data values to write. Each data item has a size of <b>sizeof</b>(ULONG64). 
-
-
-#### - Register [in]
-
-Pointer to the register where the data is written to. The register must be a mapped range in memory space
 
 
 ## -remarks

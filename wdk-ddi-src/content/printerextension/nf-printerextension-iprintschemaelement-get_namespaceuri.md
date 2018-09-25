@@ -4,7 +4,7 @@ title: IPrintSchemaElement::get_NamespaceUri
 author: windows-driver-content
 description: Gets the namespace URI value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_namespaceuri.htm
-old-project: print
+tech.root: print
 ms.assetid: F03FFC6A-6186-4C59-97EB-0D954BF198D3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

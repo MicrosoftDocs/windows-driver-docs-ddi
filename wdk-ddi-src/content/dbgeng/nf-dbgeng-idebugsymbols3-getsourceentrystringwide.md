@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetSourceEntryStringWide
 author: windows-driver-content
 description: Queries symbol information and returns locations in the target's memory.
 old-location: debugger\idebugsymbols3_getsourceentrystringwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: CDB72C6A-43E5-463B-97E5-44D22214C071
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryStringWide method, IDebugSymbols3.GetSourceEntryStringWide, IDebugSymbols3::GetSourceEntryStringWide, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, debugger.idebugsymbols3_getsourceentrystringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

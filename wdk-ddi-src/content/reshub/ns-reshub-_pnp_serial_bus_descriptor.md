@@ -4,7 +4,7 @@ title: "_PNP_SERIAL_BUS_DESCRIPTOR"
 author: windows-driver-content
 description: The PNP_SERIAL_BUS_DESCRIPTOR structure describes the physical connection of a target device to a serial bus (I2C, SPI, or UART).
 old-location: spb\pnp_serial_bus_descriptor.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 7516B493-F86E-44C5-ABCD-450B6F66AA15
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: reshub.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -79,7 +79,7 @@ typedef struct _PNP_SERIAL_BUS_DESCRIPTOR {
 
 ### -field Tag
 
-The serial bus type. This member is set to 0x8e for a serial bus (I2C, SPI, or UART) connection. For more information, see the description of the serial bus connection descriptor in revision 5.0 of the the Advanced Configuration and Power Interface Specification (ACPI 5.0) at the <a href="http://www.acpi.info">ACPI</a> website.
+The serial bus type. This member is set to 0x8e for a serial bus (I2C, SPI, or UART) connection. For more information, see the description of the serial bus connection descriptor in the [ACPI 5.0 specification](https://www.uefi.org/specifications).
 
 
 ### -field Length

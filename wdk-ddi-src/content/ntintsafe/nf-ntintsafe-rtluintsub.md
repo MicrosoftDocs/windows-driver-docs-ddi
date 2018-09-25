@@ -4,7 +4,7 @@ title: RtlUIntSub function
 author: windows-driver-content
 description: Subtracts one value of type UINT from another.
 old-location: kernel\rtluintsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0886578A-C1CF-4A48-86A3-407A0C16ADEC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

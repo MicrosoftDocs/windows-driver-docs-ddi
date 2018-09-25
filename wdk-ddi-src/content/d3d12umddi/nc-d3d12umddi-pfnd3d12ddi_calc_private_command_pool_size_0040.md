@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040
 title: PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040
 author: windows-driver-content
-description:
+description: Calculates the size of the command pool for display.
 ms.assetid: e2ea4d46-52df-4173-8b91-438bc5b02283
 ms.author: windowsdriverdev
 ms.date:
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040 callback function
 
 ## -description
 
-Implemented by the client driver to calculate the size of the command pool for display.
+Calculates the size of the command pool for display.
 
 ## -prototype
 

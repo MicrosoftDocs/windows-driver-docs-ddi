@@ -28,12 +28,13 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	NtosKrnl.exe
 api_name: 
 -	FsRtlUninitializeBaseMcb
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -4,7 +4,7 @@ title: RxAcquireSharedFcbResourceInMRx function
 author: windows-driver-content
 description: RxAcquireSharedFcbResourceInMRx acquires the FCB resource for a network mini-redirector driver in shared mode.
 old-location: ifsk\rxacquiresharedfcbresourceinmrx.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5ef976a7-5be6-414b-a558-75c107f75d61
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,14 +60,9 @@ req.typenames:
 
 ### -param Fcb
 
-TBD
+<p>A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. </p>
 
 
-
-
-#### - pFcb [in, out]
-
-A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: KeGetCurrentProcessorNumber function
 author: windows-driver-content
 description: The KeGetCurrentProcessorNumber routine returns the system-assigned number of the current processor on which the caller is running.
 old-location: kernel\kegetcurrentprocessornumber.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 24de4374-fa73-4891-b212-6f5c7ed53407
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

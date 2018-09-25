@@ -4,7 +4,7 @@ title: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start listening for geofence alerts from the driver.
 old-location: gnss\ioctl_gnss_listen_geofence_alert.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 5803A28E-BEBD-4E0D-B8D6-AFE34881C9F5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

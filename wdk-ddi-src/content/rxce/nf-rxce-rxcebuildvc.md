@@ -4,7 +4,7 @@ title: RxCeBuildVC function
 author: windows-driver-content
 description: RxCeBuildVC adds a virtual circuit to a specified RDBSS connection..
 old-location: ifsk\rxcebuildvc.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -65,14 +65,9 @@ On input, this parameter contains a pointer to a handle for an uninitialized vir
 
 ### -param Connection
 
-TBD
+<p>A pointer to the connection on which the virtual circuit is to be added.</p>
 
 
-
-
-#### - pConnection [in]
-
-A pointer to the connection on which the virtual circuit is to be added.
 
 
 ## -returns

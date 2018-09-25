@@ -2,11 +2,11 @@
 UID: NC:uart.UART_HARDWARE_WRITE_UCHAR
 title: UART_HARDWARE_WRITE_UCHAR
 author: windows-driver-content
-description: Writes a byte to the port or a register. 
-old-project: serports
+description: Writes a byte to the port or a register.
+tech.root: serports
 ms.assetid: 4fb781e3-0e25-4e35-8ebf-f8046b05fd23
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -19,23 +19,24 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_HARDWARE_WRITE_UCHAR
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -43,18 +44,18 @@ targetos: Windows
 
 ## -description
 
-Writes a byte to the port specified by address. 
+Writes a byte to the port specified by address.
 
 ## -prototype
 
 ```
 //Declaration
 
-UART_HARDWARE_WRITE_UCHAR UartHardwareWriteUchar; 
+UART_HARDWARE_WRITE_UCHAR UartHardwareWriteUchar;
 
 // Definition
 
-VOID UartHardwareWriteUchar 
+VOID UartHardwareWriteUchar
 (
 	PUCHAR Address
 	UCHAR Value
@@ -67,7 +68,7 @@ VOID UartHardwareWriteUchar
 
 ### -param Address
 A pointer to a variable that contains the port or register address.
- 
+
 ### -param Value
 Specifies a byte to be written to the port or register.
 

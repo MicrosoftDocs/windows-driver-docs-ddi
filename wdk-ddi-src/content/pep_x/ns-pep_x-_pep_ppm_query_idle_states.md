@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_IDLE_STATES"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_IDLE_STATES structure describes the idle states of a particular processor.
 old-location: kernel\pep_ppm_query_idle_states.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 27B43684-6564-41A0-9F0D-D49F88D1F14D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

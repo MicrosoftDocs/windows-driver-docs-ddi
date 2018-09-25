@@ -4,10 +4,9 @@ title: "_DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT"
 author: windows-driver-content
 description: Identifies the overlay plane's video frame format. Only the DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE value is supported.
 old-location: display\dxgk_multiplane_overlay_video_frame_format.htm
-old-project: display
 ms.assetid: 072543cd-d11c-4418-884f-a7823c033a17
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE, _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE, display.dxgk_multiplane_overlay_video_frame_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 ---
 

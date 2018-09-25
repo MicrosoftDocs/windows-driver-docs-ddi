@@ -4,7 +4,7 @@ title: KsSetDevicePnpAndBaseObject function
 author: windows-driver-content
 description: The KsSetDevicePnpAndBaseObject function sets the PnP device object in the device header, which is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if KsDefaultDispatchPnp is used.
 old-location: stream\kssetdevicepnpandbaseobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 269bbb79-c730-4b78-bf46-d502f23f039b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -71,7 +71,7 @@ Specifies the PnP device object to place in the device header, overwriting any p
 
 ### -param BaseObject
 
-TBD
+
 
 
 

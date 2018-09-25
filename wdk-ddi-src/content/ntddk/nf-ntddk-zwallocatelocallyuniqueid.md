@@ -4,7 +4,7 @@ title: ZwAllocateLocallyUniqueId function
 author: windows-driver-content
 description: The ZwAllocateLocallyUniqueId routine allocates a locally unique identifier (LUID).
 old-location: kernel\zwallocatelocallyuniqueid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -61,14 +61,9 @@ The <b>ZwAllocateLocallyUniqueId</b> routine allocates a locally unique identifi
 
 ### -param Luid
 
-TBD
+<p>Pointer to a caller-allocated buffer to receive a copy of the source LUID structure. The buffer must be at least <b>sizeof</b>(<i>LUID</i>). </p>
 
 
-
-
-#### - LUID [out]
-
-Pointer to a caller-allocated buffer to receive a copy of the source LUID structure. The buffer must be at least <b>sizeof</b>(<i>LUID</i>). 
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: WdfWorkItemCreate function
 author: windows-driver-content
 description: The WdfWorkItemCreate method creates a framework work-item object, which can subsequently be added to the system's work-item queue.
 old-location: wdf\wdfworkitemcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f5bb3af4-c687-47ad-88ce-d56067c78d6d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWorkItemCreate</b> method creates a framework work-item object, which can subsequently be added to the system's work-item queue.
 

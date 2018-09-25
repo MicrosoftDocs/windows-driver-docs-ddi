@@ -2,9 +2,9 @@
 UID: NE:strmini._STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
 title: "_STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\stream_minidriver_stream_notification_type.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 13D8152C-FE7E-46EB-9C7F-9CA0135A4B76
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

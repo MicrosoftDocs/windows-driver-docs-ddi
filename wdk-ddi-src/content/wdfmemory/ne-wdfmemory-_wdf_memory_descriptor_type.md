@@ -4,7 +4,7 @@ title: "_WDF_MEMORY_DESCRIPTOR_TYPE"
 author: windows-driver-content
 description: The WDF_MEMORY_DESCRIPTOR_TYPE enumeration identifies the types of memory descriptions that a WDF_MEMORY_DESCRIPTOR structure can specify.
 old-location: wdf\wdf_memory_descriptor_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ab364ad8-1b04-4ad0-a036-9b1c41e16604
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_MEMORY_DESCRIPTOR_TYPE</b> enumeration identifies the types of memory descriptions that a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure can specify.
 

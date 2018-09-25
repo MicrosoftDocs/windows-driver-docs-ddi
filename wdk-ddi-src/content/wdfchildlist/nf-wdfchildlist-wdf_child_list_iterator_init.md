@@ -4,7 +4,7 @@ title: WDF_CHILD_LIST_ITERATOR_INIT function
 author: windows-driver-content
 description: The WDF_CHILD_LIST_ITERATOR_INIT function initializes a WDF_CHILD_LIST_ITERATOR structure.
 old-location: wdf\wdf_child_list_iterator_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e06a377a-e68a-4773-9f7f-b1c47010029c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_LIST_ITERATOR_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551230">WDF_CHILD_LIST_ITERATOR</a> structure.
 

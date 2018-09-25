@@ -4,7 +4,7 @@ title: WdfDeviceAssignS0IdleSettings function
 author: windows-driver-content
 description: The WdfDeviceAssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\wdfdeviceassigns0idlesettings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 78bb5b51-b5b2-4177-8965-e54c04881dd3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceAssignS0IdleSettings</b> method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 

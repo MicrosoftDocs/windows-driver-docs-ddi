@@ -4,10 +4,10 @@ title: NmrRegisterProvider function
 author: windows-driver-content
 description: The NmrRegisterProvider function registers a provider module with the NMR.
 old-location: netvista\nmrregisterprovider.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

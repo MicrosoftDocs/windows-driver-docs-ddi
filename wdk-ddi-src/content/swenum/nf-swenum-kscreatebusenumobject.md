@@ -4,7 +4,7 @@ title: KsCreateBusEnumObject function
 author: windows-driver-content
 description: The KsCreateBusEnumObject function creates a demand-load bus enumerator object and initializes it for use with the demand-load bus enumerator services.
 old-location: stream\kscreatebusenumobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

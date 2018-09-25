@@ -4,10 +4,10 @@ title: FWPS_INJECT_COMPLETE0
 author: windows-driver-content
 description: The filter engine calls a callout's completionFn callout function whenever packet data, described by the netBufferList parameter in one of the packet injection functions, has been injected into the network stack.
 old-location: netvista\completionfn.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c03656ec-f0fe-49f5-8a04-2d26ef23c50a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_INJECT_COMPLETE0, FWPS_INJECT_COMPLETE0 callback, completionFn, completionFn callback function [Network Drivers Starting with Windows Vista], fwpsk/completionFn, netvista.completionfn, wfp_ref_2_funct_4_callout_bc142e7e-f390-4b8c-b82b-c13077e1d6bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.typenames:
 The filter engine calls a callout's 
   <i>completionFn</i> callout function whenever packet data, described by the 
   <i>netBufferList</i> parameter in one of the 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>, has been
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, has been
   injected into the network stack.
 
 
@@ -66,7 +66,7 @@ The filter engine calls a callout's
 
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
 
@@ -74,7 +74,7 @@ A pointer to the
 
 The pointer passed in the 
      <i>netBufferList</i> parameter of one of the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
 
@@ -120,7 +120,7 @@ The
 
 After packet data in a cloned or created <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure chain has successfully been
     injected into the network stack by one of the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, 
     <i>completionFn</i> is called.
 
 If the 
@@ -176,7 +176,7 @@ The filter engine calls a callout's
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
  
 
  

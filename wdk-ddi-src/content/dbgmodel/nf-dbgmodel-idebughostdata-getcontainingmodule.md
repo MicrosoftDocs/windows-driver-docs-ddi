@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f4dc58a1-ef47-45ff-b142-a9e9279f5ab5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDebugHostData::GetContainingModule, GetContainingModule, IDebugHostData.GetContainingModule, IDebugHostData::GetContainingModule, IDebugHostData.GetContainingModule
 req.header: dbgmodel.h
@@ -44,15 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the module which contains this symbol if the symbol has a containing module.  If the symbol does not have a containing module, an error is returned.
 
 ## -parameters
 
 ### -param containingModule
-
+The module which contains the symbol will be returned here.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
 ## -remarks
 
 ## -see-also
+[IDebugHostData interface](nn-dbgmodel-idebughostdata.md)

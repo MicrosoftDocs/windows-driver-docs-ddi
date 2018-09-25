@@ -4,7 +4,7 @@ title: WdfIoQueueRetrieveFoundRequest function
 author: windows-driver-content
 description: The WdfIoQueueRetrieveFoundRequest method delivers a specified request to the driver, so that the driver can process the request.
 old-location: wdf\wdfioqueueretrievefoundrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueRetrieveFoundRequest</b> method delivers a specified request to the driver, so that the driver can process the request.
 

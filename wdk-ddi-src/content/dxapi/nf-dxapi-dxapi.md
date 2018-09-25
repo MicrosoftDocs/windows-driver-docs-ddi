@@ -4,10 +4,10 @@ title: DxApi function
 author: windows-driver-content
 description: The DxApi function accepts commands from the hardware decoder's video capture driver to access the DxApi interface functions that are implemented in a video miniport driver.
 old-location: display\dxapi.htm
-old-project: display
+tech.root: display
 ms.assetid: c4b38376-b54f-4fbb-b305-5951a1ea76a1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DxApi, DxApi function [Display Devices], ddfncs_b76158a1-30ff-4874-b527-a201c5a67fc5.xml, display.dxapi, dxapi/DxApi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	LibDef
+-	DllExport
 api_location:
 -	Dxapi.lib
 -	Dxapi.dll

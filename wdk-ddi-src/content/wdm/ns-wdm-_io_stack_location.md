@@ -4,7 +4,7 @@ title: "_IO_STACK_LOCATION"
 author: windows-driver-content
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
 old-location: kernel\io_stack_location.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

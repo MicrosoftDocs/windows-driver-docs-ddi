@@ -4,7 +4,7 @@ title: IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_power_source_update_ex.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 8D582EF9-B9D1-498B-AE20-337F3A33250C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

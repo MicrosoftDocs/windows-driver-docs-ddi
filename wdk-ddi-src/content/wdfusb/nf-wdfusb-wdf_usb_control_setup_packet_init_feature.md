@@ -4,7 +4,7 @@ title: WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function
 author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that sets or clears a device feature.
 old-location: wdf\wdf_usb_control_setup_packet_init_feature.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ef3f7b9f-8b4b-4d47-8457-17452e3e918a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a> structure for a USB control transfer that sets or clears a device feature.
 

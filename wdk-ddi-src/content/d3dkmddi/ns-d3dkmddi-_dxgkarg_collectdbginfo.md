@@ -4,10 +4,9 @@ title: "_DXGKARG_COLLECTDBGINFO"
 author: windows-driver-content
 description: The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 old-location: display\dxgkarg_collectdbginfo.htm
-old-project: display
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO structure [Display Devices], DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, VIDEO_ENGINE_TIMEOUT_DETECTED, VIDEO_TDR_TIMEOUT_DETECTED, _DXGKARG_COLLECTDBGINFO, d3dkmddi/DXGKARG_COLLECTDBGINFO, display.dxgkarg_collectdbginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_COLLECTDBGINFO
 ---
 

@@ -4,10 +4,10 @@ title: NDIS_WDI_TX_ABORT_CONFIRM
 author: windows-driver-content
 description: The NdisWdiTxAbortConfirm callback function indicates an asynchronous confirmation of a MiniportWdiTxAbort from WDI.
 old-location: netvista\ndiswditxabortconfirm.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1619BF14-DDEE-48CB-8E31-0CC17C8A4C6A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_TX_ABORT_CONFIRM, NDIS_WDI_TX_ABORT_CONFIRM callback, NdisWdiTxAbortConfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxAbortConfirm, netvista.ndiswditxabortconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices

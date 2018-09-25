@@ -4,7 +4,7 @@ title: "_MOUNTMGR_MOUNT_POINT"
 author: windows-driver-content
 description: The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an IOCTL_MOUNTMGR_QUERY_POINTS request to query the mount manager for all of the mount points (symbolic links) associated with a device.
 old-location: storage\mountmgr_mount_point.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a4142380-1596-49dc-a18d-ac5c3cef73fe
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

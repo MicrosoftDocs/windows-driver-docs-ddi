@@ -4,7 +4,7 @@ title: IOCTL_GNSS_RESPOND_NI
 author: windows-driver-content
 description: The IOCTL_GNSS_RESPOND_NI control code is used by the GNSS adapter to respond to an NI request that was asynchronously communicated to it by the GNSS driver through the resolution of an IOCTL_GNSS_LISTEN_NI request.
 old-location: gnss\ioctl_gnss_respond_ni.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: AEEB014C-653F-459A-A04A-6E0732E8E5B0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

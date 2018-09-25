@@ -4,10 +4,9 @@ title: D3D10DDIARG_TEX2D_RENDERTARGETVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure describes a two-dimensional (2-D) texture that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_tex2d_rendertargetview.htm
-old-project: display
 ms.assetid: 9537801f-568a-4fb6-b4f8-e901cf9146f6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_TEX2D_RENDERTARGETVIEW, D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_542468b2-b74d-4146-b745-65727ecd9510.xml, d3d10umddi/D3D10DDIARG_TEX2D_RENDERTARGETVIEW, display.d3d10ddiarg_tex2d_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEX2D_RENDERTARGETVIEW
 ---
 

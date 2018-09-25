@@ -4,7 +4,7 @@ title: ZwSetEaFile function
 author: windows-driver-content
 description: The ZwSetEaFile routine sets extended-attribute (EA) values for a file.
 old-location: kernel\zwseteafile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

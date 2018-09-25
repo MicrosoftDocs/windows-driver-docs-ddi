@@ -4,7 +4,7 @@ title: "_LineDisplayCursorCoordinates"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaycursorcoordinates.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 70770FEA-9E5F-4D0F-8AD2-25DAA0E4E1D9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

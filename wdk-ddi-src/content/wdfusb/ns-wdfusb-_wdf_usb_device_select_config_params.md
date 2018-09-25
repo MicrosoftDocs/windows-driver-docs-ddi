@@ -4,7 +4,7 @@ title: "_WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
 author: windows-driver-content
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure specifies USB device configuration parameters.
 old-location: wdf\wdf_usb_device_select_config_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d48484eb-a7bf-4ca7-9d18-4c4c166db90c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, *PWDF_USB_DEVICE_SELECT_CONF
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</b> structure specifies USB device configuration parameters.
 

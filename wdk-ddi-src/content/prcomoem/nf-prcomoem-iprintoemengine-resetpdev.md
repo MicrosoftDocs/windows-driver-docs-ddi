@@ -2,9 +2,9 @@
 UID: NF:prcomoem.IPrintOemEngine.ResetPDEV
 title: IPrintOemEngine::ResetPDEV
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintoemengine_resetpdev.htm
-old-project: print
+tech.root: print
 ms.assetid: DD8E4DAC-A4CA-4F1A-A898-E4A68A2D6715
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

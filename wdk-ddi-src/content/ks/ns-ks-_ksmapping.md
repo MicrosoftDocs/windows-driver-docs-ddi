@@ -4,7 +4,7 @@ title: "_KSMAPPING"
 author: windows-driver-content
 description: The KSMAPPING structure is used to describe a single contiguous chunk of physical memory for use in scatter/gather DMA operations.
 old-location: stream\ksmapping.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9a5149dc-5506-4100-80fc-7cd17585d2af
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

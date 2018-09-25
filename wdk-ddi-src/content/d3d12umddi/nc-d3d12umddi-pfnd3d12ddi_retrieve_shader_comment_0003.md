@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003
 title: PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003
 author: windows-driver-content
-description: 
+description: Implemented by the client driver to retrieve shader comment.
 ms.assetid: 3c06c20c-915f-41c7-949d-a41038317e07
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to retrieve shader comment.
 
 ## -prototype
 
@@ -69,20 +71,29 @@ PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HPIPELINESTATE: 
-### -param *pBuffer: 
-### -param *CharacterCountIncludingNullTerminator: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HPIPELINESTATE
 
+A handle to a pipeline state.
+
+### -param *pBuffer
+
+Pointer to a buffer.
+
+### -param *CharacterCountIncludingNullTerminator
+
+The character count, including the null terminator.
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

@@ -4,7 +4,7 @@ title: RtlShortToUInt8 function
 author: windows-driver-content
 description: Converts a value of type SHORT to a value of type UINT8.
 old-location: kernel\rtlshorttouint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B1B5AE37-23BC-444A-9014-529BAD50ED52
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -65,14 +65,9 @@ The value to be converted.
 
 ### -param pui8Result
 
-TBD
+<p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - puiResult [out]
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 ## -remarks

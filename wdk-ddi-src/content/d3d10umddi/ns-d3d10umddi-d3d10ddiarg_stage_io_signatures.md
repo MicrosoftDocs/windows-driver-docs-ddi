@@ -4,10 +4,9 @@ title: D3D10DDIARG_STAGE_IO_SIGNATURES
 author: windows-driver-content
 description: The D3D10DDIARG_STAGE_IO_SIGNATURES structure describes an I/O signature.
 old-location: display\d3d10ddiarg_stage_io_signatures.htm
-old-project: display
 ms.assetid: 9639bdc8-9b2f-4911-8a09-d5cf16204cf4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_STAGE_IO_SIGNATURES, D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES, display.d3d10ddiarg_stage_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_STAGE_IO_SIGNATURES
 ---
 

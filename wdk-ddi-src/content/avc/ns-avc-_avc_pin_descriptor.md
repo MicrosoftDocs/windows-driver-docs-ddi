@@ -4,7 +4,7 @@ title: "_AVC_PIN_DESCRIPTOR"
 author: windows-driver-content
 description: The AVC_PIN_DESCRIPTOR structure describes a pin on an AV/C subunit device.
 old-location: stream\avc_pin_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

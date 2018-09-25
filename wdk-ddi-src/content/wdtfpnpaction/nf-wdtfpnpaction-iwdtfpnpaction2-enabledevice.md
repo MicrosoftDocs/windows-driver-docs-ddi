@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::EnableDevice
 author: windows-driver-content
 description: Enables the target device.
 old-location: dtf\iwdtfpnpaction2_enabledevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: f11d31ec-71fb-4110-949c-6d33671dc85c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

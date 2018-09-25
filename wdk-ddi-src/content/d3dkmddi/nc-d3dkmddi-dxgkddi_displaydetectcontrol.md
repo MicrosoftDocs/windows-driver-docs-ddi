@@ -4,10 +4,9 @@ title: DXGKDDI_DISPLAYDETECTCONTROL
 author: windows-driver-content
 description: Used to turn hot plug detection on and off and to initiate status polls on either a specific target or all targets.
 old-location: display\dxgkddi_displaydetectcontrol.htm
-old-project: display
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

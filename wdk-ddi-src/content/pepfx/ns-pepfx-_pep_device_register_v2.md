@@ -4,7 +4,7 @@ title: "_PEP_DEVICE_REGISTER_V2"
 author: windows-driver-content
 description: The PEP_DEVICE_REGISTER structure describes all the components in a particular device.
 old-location: kernel\pep_device_register_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 67747FF9-4808-45BB-8809-24B2CE56546B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+-	pepfx.h
 api_name:
 -	PEP_DEVICE_REGISTER_V2
 product:

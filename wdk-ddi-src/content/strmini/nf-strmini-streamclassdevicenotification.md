@@ -4,7 +4,7 @@ title: StreamClassDeviceNotification function
 author: windows-driver-content
 description: Minidrivers use the StreamClassDeviceNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 old-location: stream\streamclassdevicenotification.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 80383159-c2c3-4d05-92e8-9245408e5243
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -103,7 +103,7 @@ Pointer to the minidriver's device extension. The minidriver specifies the size 
 
 ### -param param
 
-TBD
+
 
 
 

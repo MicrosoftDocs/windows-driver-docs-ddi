@@ -4,7 +4,7 @@ title: GET_VIRTUAL_DEVICE_DATA
 author: windows-driver-content
 description: The GetVirtualFunctionData routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getvirtualfunctiondata.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 2DE7417D-C616-4D1F-835D-29F477410F1E
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<= APC_LEVEL"
 topic_type:
 -	APIRef
@@ -98,15 +98,15 @@ The offset into the PCIe configuration space data of the VF. This member specifi
 
 ### -param Length [in]
 
-The length, in bytes, of the data to be read. 
+The length, in bytes, of the data to be read.
 
 
 ## -returns
 
 
 
-The 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero. 
+The
+      <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
 
 
 

@@ -4,7 +4,7 @@ title: "_CONTROLLER_ATTRIBUTE_FLAGS"
 author: windows-driver-content
 description: The CONTROLLER_ATTRIBUTE_FLAGS structure describes the hardware attributes of the general-purpose I/O (GPIO) controller device.
 old-location: gpio\controller_attribute_flags.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 4D3DE8AE-99FB-48C8-A2FC-099CA908EC18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: RxPrefixTableLookupName function
 author: windows-driver-content
 description: RxPrefixTableLookupName looks up a name in a prefix table used to catalog SRV_CALL, NET_ROOT, and V_NET_ROOT names and converts the underlying pointer to a structure that contains the name.
 old-location: ifsk\rxprefixtablelookupname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 20d61d23-4151-4a23-8963-6e38a08f391e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -75,14 +75,9 @@ A pointer to the Unicode string name of the portion of the name that was unmatch
 
 ### -param ConnectionId
 
-TBD
+<p>An optional parameter that represents a pointer to the RX_CONNECTION_ID to be used.</p>
 
 
-
-
-#### - RxConnectionId [in]
-
-An optional parameter that represents a pointer to the RX_CONNECTION_ID to be used.
 
 
 ## -returns

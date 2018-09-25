@@ -4,7 +4,7 @@ title: "_LineDisplayMarqueeFormatType"
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueeformattype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: BB182083-58F2-4706-9D6B-B581325BDD48
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

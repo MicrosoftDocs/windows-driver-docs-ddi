@@ -2,9 +2,9 @@
 UID: NF:nfccx.NfcCxDeviceInitConfig
 title: NfcCxDeviceInitConfig function
 author: windows-driver-content
-description: Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged:
+description: Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged.
 old-location: nfpdrivers\_nfccxdeviceinitconfig_.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	NfcCxDeviceInitConfig
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

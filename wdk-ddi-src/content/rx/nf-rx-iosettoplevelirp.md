@@ -4,7 +4,7 @@ title: IoSetTopLevelIrp macro
 author: windows-driver-content
 description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 10d1889b-d79c-4c06-a012-77414c88ce17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ The <b>IoSetTopLevelIrp</b> routine sets the value of the <b>TopLevelIrp</b> fie
 
 ### -param irp
 
-TBD
+<p>I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of the current thread.</p>
 
 
 
 
-
-
-#### - Irp [in, optional]
-
-I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of the current thread.
 
 
 ## -remarks

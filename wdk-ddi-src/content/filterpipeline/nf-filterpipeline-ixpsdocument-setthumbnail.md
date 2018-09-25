@@ -4,7 +4,7 @@ title: IXpsDocument::SetThumbnail
 author: windows-driver-content
 description: The SetThumbnail method removes the current thumbnail object from the document and inserts a new one.
 old-location: print\ixpsdocument_setthumbnail.htm
-old-project: print
+tech.root: print
 ms.assetid: 47211c8f-e112-47fd-bd9e-57ff7ec586a5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

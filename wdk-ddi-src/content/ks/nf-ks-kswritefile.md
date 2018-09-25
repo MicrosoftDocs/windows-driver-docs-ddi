@@ -4,7 +4,7 @@ title: KsWriteFile function
 author: windows-driver-content
 description: The KsWriteFile function performs a write against the specified file object.
 old-location: stream\kswritefile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -91,7 +91,7 @@ Specifies the size of the buffer passed.
 
 ### -param OPTIONAL
 
-TBD
+
 
 
 ### -param RequestorMode [in]

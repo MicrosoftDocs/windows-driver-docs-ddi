@@ -4,10 +4,9 @@ title: PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES
 author: windows-driver-content
 description: Queries the driver for video capabilities. Required for Windows Display Driver Model (WDDM) 2.0 or later drivers.
 old-location: display\queryvideocapabilities.htm
-old-project: display
 ms.assetid: C86C7D1C-541F-4EC3-B4C8-126826BE3529
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES, PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES callback, d3d10umddi/pfnQueryVideoCapabilities, display.queryvideocapabilities, pfnQueryVideoCapabilities, pfnQueryVideoCapabilities callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

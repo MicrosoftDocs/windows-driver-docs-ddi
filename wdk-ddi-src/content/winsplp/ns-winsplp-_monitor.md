@@ -4,7 +4,7 @@ title: "_MONITOR"
 author: windows-driver-content
 description: The MONITOR structure is obsolete and is supported only for compatibility reasons.
 old-location: print\monitor.htm
-old-project: print
+tech.root: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

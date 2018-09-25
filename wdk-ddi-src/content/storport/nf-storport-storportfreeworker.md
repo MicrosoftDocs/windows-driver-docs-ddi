@@ -4,7 +4,7 @@ title: StorPortFreeWorker function
 author: windows-driver-content
 description: Frees a Storport work item previously allocated by the StorPortInitializeWorker routine.
 old-location: storage\storportfreeworker.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,14 +65,9 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Worker
 
-TBD
+<p>A pointer to an opaque buffer for the work item context returned by <a href="https://msdn.microsoft.com/library/Hh451486(v=VS.85).aspx"><b>StorPortInitializeWorker</b></a>.</p>
 
 
-
-
-#### - WorkItem [in]
-
-A pointer to an opaque buffer for the work item context returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>.
 
 
 ## -returns

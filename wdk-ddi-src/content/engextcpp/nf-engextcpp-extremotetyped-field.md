@@ -4,10 +4,10 @@ title: ExtRemoteTyped::Field
 author: windows-driver-content
 description: The Field method returns the typed data for a member in the typed data that is represented by this object.
 old-location: debugger\extremotetyped_field.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging],Field method, ExtRemoteTyped.Field, ExtRemoteTyped::Field, Field, Field method [Windows Debugging], Field method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_field
 ms.prod: windows-hardware
 ms.technology: windows-devices

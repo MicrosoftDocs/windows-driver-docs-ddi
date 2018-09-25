@@ -4,10 +4,9 @@ title: D3DKMTCreateBundleObject function
 author: windows-driver-content
 description: Used to create a bundle object.
 old-location: display\d3dkmtcreatebundleobject.htm
-old-project: display
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices], d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support: Windows 10, version 1709
 req.namespace:
 req.assembly:
 req.type-library:
-req.lib: NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateBundleObject
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-TBD
+
 
 
 

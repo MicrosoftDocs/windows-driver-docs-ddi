@@ -4,10 +4,10 @@ title: UdecxWdfDeviceResetComplete function
 author: windows-driver-content
 description: Informs the USB device emulation class extension (UdeCx) that the reset operation on the specified controller has competed.
 old-location: buses\udecxwdfdeviceresetcomplete.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: B5873B19-17EF-4DF8-A3E7-7E7F6440A2B7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,9 @@ Informs the  USB device emulation  class extension (UdeCx) that the reset operat
 
 ### -param UdeWdfDevice
 
-TBD
+<p>A handle to a framework device object that represents the controller that has been reset. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/Mt627990(v=VS.85).aspx"><b>UdecxWdfDeviceAddUsbDeviceEmulation</b></a>.</p>
 
 
-
-
-#### - Device [in]
-
-A handle to a framework device object that represents the controller that has been reset. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ## -returns

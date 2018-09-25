@@ -4,10 +4,10 @@ title: IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
 author: windows-driver-content
 description: This request unregisters the caller from getting notifications about transport characteristics changes.
 old-location: buses\ioctl_usb_unregister_for_transport_characteristics_change.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A6D17761-4E5F-42FC-AB40-C2BCE7769243
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control, IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_unregister_for_transport_characteristics_change, usbioctl/IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

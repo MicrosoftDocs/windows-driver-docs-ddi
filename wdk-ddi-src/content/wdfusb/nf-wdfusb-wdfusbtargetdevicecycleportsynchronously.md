@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceCyclePortSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceCyclePortSynchronously method power-cycles the USB port to which a specified device is attached.
 old-location: wdf\wdfusbtargetdevicecycleportsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetDeviceCyclePortSynchronously</b> method power-cycles the USB port to which a specified device is attached.
 

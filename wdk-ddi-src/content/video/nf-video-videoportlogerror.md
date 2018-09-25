@@ -4,10 +4,10 @@ title: VideoPortLogError function
 author: windows-driver-content
 description: The VideoPortLogError function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 old-location: display\videoportlogerror.htm
-old-project: display
+tech.root: display
 ms.assetid: d013aeb9-43a9-460f-a670-5b7bc9d3753d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to the video request packet (<a href="wdkgloss.v#wdkgloss.video_request_packet__vrp_#wdkgloss.video_request_packet__vrp_"><i>VRP</i></a>) if one is associated with the error; otherwise <b>NULL</b>.</p>
 
 
 ### -param ErrorCode
@@ -76,11 +76,6 @@ Specifies a miniport driver-defined error code that indicates the type of hardwa
 ### -param UniqueId
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected; for others, it is a value returned by the hardware.
-
-
-#### - Vrp [optional]
-
-Pointer to the video request packet (<a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a>) if one is associated with the error; otherwise <b>NULL</b>.
 
 
 ## -returns

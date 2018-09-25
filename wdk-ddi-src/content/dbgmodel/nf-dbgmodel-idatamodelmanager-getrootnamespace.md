@@ -46,7 +46,7 @@ targetos: Windows
 
 The GetRootNamespace method returns the data model's root namespace. This is an object which the data model manages and into which the debug host places certain objects. It is expected that at least the following hierarchy is exposed by every host: 
 
-```
+```cpp
 • Debugger - represents the debugger which is hosting the data model
 
     o Sessions - a collection of sessions which represent each debug target 
@@ -70,7 +70,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager; /* get the data model manager */
 
 ComPtr<IModelObject> spRootNamespace;

@@ -4,7 +4,7 @@ title: IoGetConfigurationInformation function
 author: windows-driver-content
 description: The IoGetConfigurationInformation routine returns a pointer to the I/O manager's global configuration information structure, which contains the current values for how many physical disk, floppy, CD-ROM, tape, SCSI HBA, serial, and parallel devices have device objects created to represent them by drivers as they are loaded.
 old-location: kernel\iogetconfigurationinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

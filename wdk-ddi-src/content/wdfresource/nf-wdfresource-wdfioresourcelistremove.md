@@ -4,7 +4,7 @@ title: WdfIoResourceListRemove function
 author: windows-driver-content
 description: The WdfIoResourceListRemove method removes a resource descriptor from a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
 

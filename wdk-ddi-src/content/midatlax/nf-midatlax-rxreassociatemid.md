@@ -4,7 +4,7 @@ title: RxReassociateMid function
 author: windows-driver-content
 description: RxReassociateMid reassociates a Multiplex ID (MID) with an alternate context.
 old-location: ifsk\rxreassociatemid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2b80aa77-45b3-4157-8ab5-770c827a536a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>A pointer to the MID_ATLAS structure.</p>
 
 
 ### -param Mid
@@ -70,19 +70,9 @@ The multiplex ID to be mapped.
 
 ### -param NewContext
 
-TBD
+<p>A pointer that will hold the new context for this MID on exit.</p>
 
 
-
-
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS structure.
-
-
-#### - pNewContext
-
-A pointer that will hold the new context for this MID on exit.
 
 
 ## -returns

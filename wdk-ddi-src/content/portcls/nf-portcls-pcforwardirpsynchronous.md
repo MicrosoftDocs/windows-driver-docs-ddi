@@ -4,10 +4,10 @@ title: PcForwardIrpSynchronous function
 author: windows-driver-content
 description: The PcForwardIrpSynchronous function is used by IRP handlers to forward Plug and Play IRPs to the physical device object (PDO).
 old-location: audio\pcforwardirpsynchronous.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices

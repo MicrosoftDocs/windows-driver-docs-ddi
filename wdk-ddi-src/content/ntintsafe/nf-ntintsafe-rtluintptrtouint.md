@@ -4,7 +4,7 @@ title: RtlUIntPtrToUInt function
 author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type UINT.
 old-location: kernel\rtluintptrtouint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DA00BB09-7559-439A-935C-55A1304C6BBC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,17 +60,12 @@ Converts a value of type <b>UINT_PTR</b> to a value of type <b>UINT</b>.
 
 ### -param uOperand
 
-TBD
+<p>The value to be converted.</p>
 
 
 ### -param puResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
-#### - UOperand [in]
-
-The value to be converted.
 
 
 ## -remarks

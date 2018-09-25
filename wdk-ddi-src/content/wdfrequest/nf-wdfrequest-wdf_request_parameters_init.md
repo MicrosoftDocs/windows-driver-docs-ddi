@@ -4,7 +4,7 @@ title: WDF_REQUEST_PARAMETERS_INIT function
 author: windows-driver-content
 description: The WDF_REQUEST_PARAMETERS_INIT function initializes a WDF_REQUEST_PARAMETERS structure.
 old-location: wdf\wdf_request_parameters_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c4e83638-4931-460f-848b-ceb0f7a00afb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_PARAMETERS_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552472">WDF_REQUEST_PARAMETERS</a> structure.
 

@@ -4,7 +4,6 @@ title: PDXGK_GRAPHICSPOWER_UNREGISTER
 author: windows-driver-content
 description: A callback to un-register itself with the graphics driver.
 old-location: display\pdxgk_graphicspower_unregister.htm
-old-project: display
 ms.assetid: A925D5D3-EF79-4C14-BE1C-188C255DDF8E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames:
 ---
 

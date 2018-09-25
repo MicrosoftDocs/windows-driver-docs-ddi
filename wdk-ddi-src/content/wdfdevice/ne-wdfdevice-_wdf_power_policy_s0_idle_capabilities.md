@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling.
 old-location: wdf\wdf_power_policy_s0_idle_capabilities.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b4a3611d-5eb6-4fb2-a66a-e563569c4790
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames: WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</b> enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling.
 

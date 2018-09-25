@@ -4,7 +4,7 @@ title: FsRtlIsAnsiCharacterWild macro
 author: windows-driver-content
 description: The FsRtlIsAnsiCharacterWild macro determines whether an ANSI character is a wildcard character.
 old-location: ifsk\fsrtlisansicharacterwild.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: badbc73a-44aa-4917-83a8-2ebd9f9ec576
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ The <b>FsRtlIsAnsiCharacterWild</b> macro determines whether an ANSI character i
 
 ### -param C
 
-TBD
+<p>Pointer to the character to be tested.</p>
 
 
 
 
-
-
-#### - Character
-
-Pointer to the character to be tested.
 
 
 ## -remarks

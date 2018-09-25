@@ -4,7 +4,7 @@ title: WdfDeviceRemoveDependentUsageDeviceObject function
 author: windows-driver-content
 description: The WdfDeviceRemoveDependentUsageDeviceObject method indicates that a specified device no longer depends on another device when the specified device is used to store special files.
 old-location: wdf\wdfdeviceremovedependentusagedeviceobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d9569b4b-ad71-46dd-b421-8493f595f030
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceRemoveDependentUsageDeviceObject</b> method indicates that a specified device no longer depends on another device when the specified device is used to store <a href="https://msdn.microsoft.com/3879570f-e083-4eaf-aa5b-9b78d8f826c1">special files</a>. 
 

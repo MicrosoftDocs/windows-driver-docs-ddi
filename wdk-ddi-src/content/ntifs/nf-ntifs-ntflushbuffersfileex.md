@@ -4,7 +4,7 @@ title: NtFlushBuffersFileEx function
 author: windows-driver-content
 description: The ZwFlushBuffersFileEx routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
 old-location: kernel\zwflushbuffersfileex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -99,7 +99,7 @@ If the file is on an NTFS file system, file data and metadata in the file cache 
 
 ### -param Parameters
 
-TBD
+<p>Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.</p>
 
 
 ### -param ParametersSize

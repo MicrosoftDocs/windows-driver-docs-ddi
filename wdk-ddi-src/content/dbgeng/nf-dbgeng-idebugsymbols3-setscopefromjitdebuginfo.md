@@ -4,10 +4,10 @@ title: IDebugSymbols3::SetScopeFromJitDebugInfo
 author: windows-driver-content
 description: Recovers just-in-time (JIT) debugging information and sets current debugger scope context based on that information.
 old-location: debugger\idebugsymbols3_setscopefromjitdebuginfo.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromJitDebugInfo method, IDebugSymbols3.SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

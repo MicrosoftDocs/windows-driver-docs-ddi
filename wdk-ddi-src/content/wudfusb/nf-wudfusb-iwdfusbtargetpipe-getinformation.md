@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe::GetInformation
 author: windows-driver-content
 description: The GetInformation method retrieves information about a USB pipe (endpoint).
 old-location: wdf\iwdfusbtargetpipe_getinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

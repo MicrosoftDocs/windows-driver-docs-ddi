@@ -4,7 +4,7 @@ title: WdfPdoRequestEject function
 author: windows-driver-content
 description: The WdfPdoRequestEject method informs the framework that a specified device is about to be ejected from its docking station.
 old-location: wdf\wdfpdorequesteject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoRequestEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
 

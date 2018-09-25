@@ -4,7 +4,7 @@ title: WdfDeviceUnmapIoSpace function
 author: windows-driver-content
 description: The WdfDeviceUnmapIoSpace function unmaps a specified range of physical addresses previously mapped by the WdfDeviceMapIoSpace function.
 old-location: wdf\wdfdeviceunmapiospace.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfDeviceUnmapIoSpace</b> function unmaps a specified range of physical addresses previously mapped by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265605">WdfDeviceMapIoSpace</a> function.
 

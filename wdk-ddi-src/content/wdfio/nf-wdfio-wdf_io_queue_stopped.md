@@ -4,7 +4,7 @@ title: WDF_IO_QUEUE_STOPPED function
 author: windows-driver-content
 description: The WDF_IO_QUEUE_STOPPED function returns TRUE if an I/O queue's state indicates that the queue is stopped.
 old-location: wdf\wdf_io_queue_stopped.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8257c636-824d-4909-b0cb-76d72ac980fa
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_QUEUE_STOPPED</b> function returns <b>TRUE</b> if an I/O queue's state indicates that the queue is stopped.
 

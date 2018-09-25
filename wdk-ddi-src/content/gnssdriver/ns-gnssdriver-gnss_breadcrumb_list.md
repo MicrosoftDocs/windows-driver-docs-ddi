@@ -4,7 +4,7 @@ title: GNSS_BREADCRUMB_LIST
 author: windows-driver-content
 description: This structure contains the response to an IOCTL_GNSS_POP_BREADCRUMBS.
 old-location: gnss\gnss_breadcrumb_list.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 40C11C4B-2FFE-452F-AA08-2BCD4B6A4F7F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

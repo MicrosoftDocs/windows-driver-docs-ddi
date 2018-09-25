@@ -4,7 +4,7 @@ title: "_SLIST_ENTRY"
 author: windows-driver-content
 description: An SLIST_ENTRY structure describes an entry in a sequenced singly linked list.
 old-location: kernel\slist_entry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 690bcd8a-3c4f-4254-99c7-4ad600b4ae4f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

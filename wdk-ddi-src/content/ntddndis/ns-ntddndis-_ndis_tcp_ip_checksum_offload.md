@@ -4,10 +4,10 @@ title: "_NDIS_TCP_IP_CHECKSUM_OFFLOAD"
 author: windows-driver-content
 description: The NDIS_TCP_IP_CHECKSUM_OFFLOAD structure provides checksum task offload information in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_tcp_ip_checksum_offload.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: bf5369c5-8656-41a4-a23f-79e40a60d111
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_TCP_IP_CHECKSUM_OFFLOAD, NDIS_TCP_IP_CHECKSUM_OFFLOAD, NDIS_TCP_IP_CHECKSUM_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_IP_CHECKSUM_OFFLOAD, PNDIS_TCP_IP_CHECKSUM_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_OFFLOAD, netvista.ndis_tcp_ip_checksum_offload, ntddndis/NDIS_TCP_IP_CHECKSUM_OFFLOAD, ntddndis/PNDIS_TCP_IP_CHECKSUM_OFFLOAD, tcpip_offload_ref_0214ebce-2667-42c6-8be6-6086d358d2ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -280,6 +280,18 @@ For an
 The following flags are defined for the 
     <b>Encapsulation</b> members:
 
+- NDIS_ENCAPSULATION_NOT_SUPPORTED  
+Specifies that no encapsulation offload is supported.
+- NDIS_ENCAPSULATION_NULL  
+Specifies NULL encapsulation.
+- NDIS_ENCAPSULATION_IEEE_802_3  
+Specifies IEEE 802.3 encapsulation.
+- NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q  
+Specifies IEEE 802.3p and IEEE 802.3q encapsulation.
+- NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q_IN_OOB  
+Specifies that IEEE 802.3p and IEEE 802.3q encapsulation settings are specified in the NetBufferListInfo member of each NET_BUFFER_LIST structure.
+- NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED  
+Specifies logical link control (LLC) encapsulation for routed protocols, as described in RFC 1483. This flag is also used to indicate Ethernet LLC/SNAP encapsulation.
 
 
 The meaning of the values in the 
@@ -289,12 +301,16 @@ The meaning of the values in the
     <b>TcpChecksum</b>, 
     <b>UdpChecksum</b>, and 
     <b>IpChecksum</b> members of <b>NDIS_TCP_IP_CHECKSUM_OFFLOAD</b> depends on which OID or status indication
-    includes the task offload structure: These members can have one of the following values:
+    includes the task offload structure. These members can have one of the following values:
 
-
-
-
-
+- NDIS_OFFLOAD_NOT_SUPPORTED  
+In [OID_TCP_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config), this value specifies that the miniport adapter does not support the feature that the member specifies.
+- NDIS_OFFLOAD_SUPPORTED  
+In [OID_TCP_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config), this value specifies that the miniport adapter supports the feature that the member specifies.
+- NDIS_OFFLOAD_SET_OFF  
+In the [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication, this value specifies that the feature that the member specifies is disabled.
+- NDIS_OFFLOAD_SET_ON  
+In the [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication, this value specifies that the feature that the member specifies is enabled.
 
 ## -see-also
 

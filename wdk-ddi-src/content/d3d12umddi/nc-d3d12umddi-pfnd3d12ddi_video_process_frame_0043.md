@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
 title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
 author: windows-driver-content
-description:
+description: Implemented by the client driver to process a video frame.
 ms.assetid: cd60f939-e9f0-408b-8bb3-709bd7d14fdc
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 callback function

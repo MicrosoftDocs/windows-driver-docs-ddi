@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 title: PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to open a protected session from the NT handle.
 ms.assetid: c226000c-38a3-4956-b51d-b0ddbc6c46ca
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE callback function

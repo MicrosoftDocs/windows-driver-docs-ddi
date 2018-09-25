@@ -2,8 +2,8 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
 title: PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
 author: windows-driver-content
-description: 
-ms.assetid: 0d574081-4505-4692-a774-9a490e0309fd
+description: The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth stencil view.
+ms.assetid: e3973803-8c0d-4e73-b935-34bb6413d0d4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -26,15 +26,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -42,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth stencil view.
 
 ## -prototype
 
@@ -55,32 +56,33 @@ PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW Pfnd3d12ddiCreateDepthStencilView;
 
 VOID Pfnd3d12ddiCreateDepthStencilView 
 (
-	 D3D12DDI_HDEVICE
-	CONST D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW *
+	D3D12DDI_HDEVICE hDevice
+	CONST D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW *pCreateDepthStencilView
 	D3D12DDI_CPU_DESCRIPTOR_HANDLE DestDescriptor
 )
 {...}
-
-PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW 
-
 
 ```
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
-### -param DestDescriptor: 
+### -param hDevice
 
+A handle to the display device (graphics context).
 
+### -param pCreateDepthStencilView
+
+A pointer to a [D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW](ns-d3d12umddi-d3d12ddiarg_create_depth_stencil_view.md) structure that describes the parameters that the display driver uses to create a depth stencil view. 
+
+### -param DestDescriptor
+
+A pointer to [D3D12DDI_CPU_DESCRIPTOR_HANDLE](ns-d3d12umddi-d3d12ddi_cpu_descriptor_handle.md) structure that describes the depth buffer bindings.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 
 ## -see-also

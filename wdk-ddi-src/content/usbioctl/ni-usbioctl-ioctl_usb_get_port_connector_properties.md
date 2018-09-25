@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 author: windows-driver-content
 description: The IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request is sent by an application to retrieve information about a specific port on a USB hub.
 old-location: buses\ioctl_usb_get_port_connector_properties.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

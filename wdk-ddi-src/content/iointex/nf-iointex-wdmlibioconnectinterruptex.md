@@ -4,7 +4,7 @@ title: WdmlibIoConnectInterruptEx function
 author: windows-driver-content
 description: The WdmlibIoConnectInterruptEx function registers an interrupt-handling routine for a device's interrupts.
 old-location: kernel\wdmlibioconnectinterruptex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 172598B1-C486-489F-98F0-382EB8139A08
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

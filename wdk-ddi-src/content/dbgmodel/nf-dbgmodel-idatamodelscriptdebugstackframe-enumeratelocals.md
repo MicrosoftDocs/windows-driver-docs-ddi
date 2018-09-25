@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c538a07f-cd0c-44a5-897a-2e35920685d5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateLocals, EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals, IDataModelScriptDebugStackFrame::EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals
 req.header: dbgmodel.h
@@ -44,15 +44,21 @@ targetos: Windows
 
 ## -description
 
-TBD
+The EnumerateLocals method returns a variable set (represented by an IDataModelScriptDebugVariableSetEnumerator interface) for all local variables which are in scope in the context of the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. 
+
+Note that if there are multiple definitions of a single variable where an inner scope eclipses an outer scope, only a single definition should be returned -- the definition which is in scope at the code position represented by the frame. 
+
 
 ## -parameters
 
 ### -param variablesEnum
+A variable set enumerator which enumerates all in-scope local variables at the code position represented by the stack frame.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebugStackFrame interface](nn-dbgmodel-idatamodelscriptdebugstackframe.md)

@@ -4,7 +4,7 @@ title: FsRtlRemoveMcbEntry function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlremovemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlRemoveMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +60,7 @@ The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support e
 
 ### -param Mcb
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Vbn

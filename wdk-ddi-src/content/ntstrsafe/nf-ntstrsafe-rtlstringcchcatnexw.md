@@ -4,7 +4,7 @@ title: RtlStringCchCatNExW function
 author: windows-driver-content
 description: The RtlStringCchCatNExW and RtlStringCchCatNExA functions concatenate two character-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcchcatnex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a8919512-0e39-46f0-b421-776341c61fa2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -78,7 +78,7 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 
 ### -param cchToAppend
 
-TBD
+<p>The maximum number of characters to append to the string that is contained in the buffer at <i>pszDest</i>.</p>
 
 
 ### -param ppszDestEnd [out, optional]
@@ -152,11 +152,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </tr>
 </table>
  
-
-
-#### - cchMaxAppend [in]
-
-The maximum number of characters to append to the string that is contained in the buffer at <i>pszDest</i>.
 
 
 ## -returns

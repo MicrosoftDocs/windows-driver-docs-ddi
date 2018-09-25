@@ -2,9 +2,9 @@
 UID: NS:ks.KSGRAPHMANAGER_FUNCTIONTABLE
 title: KSGRAPHMANAGER_FUNCTIONTABLE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksgraphmanager_functiontable.htm
-old-project: stream
+tech.root: stream
 ms.assetid: F077B970-F146-43BC-BB92-A836C8843890
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

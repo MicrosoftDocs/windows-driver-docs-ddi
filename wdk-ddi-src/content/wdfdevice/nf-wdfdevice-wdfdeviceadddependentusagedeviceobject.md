@@ -4,7 +4,7 @@ title: WdfDeviceAddDependentUsageDeviceObject function
 author: windows-driver-content
 description: The WdfDeviceAddDependentUsageDeviceObject method indicates that a specified device depends on another device when the specified device is used to store special files.
 old-location: wdf\wdfdeviceadddependentusagedeviceobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 025046e2-ffa1-4210-b4aa-ab3d6b211066
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceAddDependentUsageDeviceObject</b> method indicates that a specified device depends on another device when the specified device is used to store <a href="https://msdn.microsoft.com/3879570f-e083-4eaf-aa5b-9b78d8f826c1">special files</a>. 
 

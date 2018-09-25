@@ -4,7 +4,7 @@ title: FsRtlFastLock macro
 author: windows-driver-content
 description: The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 old-location: ifsk\fsrtlfastlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c3e209b5-9925-4911-8c42-0f15c1c710be
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,116 +60,61 @@ The <b>FsRtlFastLock</b> macro is used by file systems and filter drivers to req
 
 ### -param A1
 
-TBD
+<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/Ff545640(v=VS.85).aspx"><b>FsRtlAllocateFileLock</b></a> or <a href="https://msdn.microsoft.com/library/Ff546122(v=VS.85).aspx"><b>FsRtlInitializeFileLock</b></a>.</p>
 
 
 ### -param A2
 
-TBD
+<p>Pointer to the file object for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both). </p>
 
 
 ### -param A3
 
-TBD
+<p>Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.</p>
 
 
 ### -param A4
 
-TBD
+<p>Pointer to a variable that specifies the length in bytes of the range to be locked.</p>
 
 
 ### -param A5
 
-TBD
+<p>Pointer to the process ID for the process requesting the byte-range lock.</p>
 
 
 ### -param A6
 
-TBD
+<p>The key to be assigned to the byte-range lock.</p>
 
 
 ### -param A7
 
-TBD
+<p>Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. </p>
 
 
 ### -param A8
 
-TBD
+<p>Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.</p>
 
 
 ### -param A9
 
-TBD
+<p>Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. </p>
 
 
 ### -param A10
 
-TBD
+<p>Optional pointer to a context to use when releasing the byte-range lock. </p>
 
 
 ### -param A11
 
-TBD
+<p>This parameter is obsolete, but is retained for compatibility with legacy drivers.</p>
 
 
 
 
-
-
-#### - AlreadySynchronized [in]
-
-This parameter is obsolete, but is retained for compatibility with legacy drivers.
-
-
-#### - Context [in]
-
-Optional pointer to a context to use when releasing the byte-range lock. 
-
-
-#### - ExclusiveLock [in]
-
-Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.
-
-
-#### - FailImmediately [in]
-
-Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
-
-
-#### - FileLock [in]
-
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
-
-
-#### - FileObject [in]
-
-Pointer to the file object for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both). 
-
-
-#### - FileOffset [in]
-
-Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
-
-
-#### - Iosb [out]
-
-Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. 
-
-
-#### - Key [in]
-
-The key to be assigned to the byte-range lock.
-
-
-#### - Length [in]
-
-Pointer to a variable that specifies the length in bytes of the range to be locked.
-
-
-#### - ProcessId [in]
-
-Pointer to the process ID for the process requesting the byte-range lock.
 
 
 ## -remarks

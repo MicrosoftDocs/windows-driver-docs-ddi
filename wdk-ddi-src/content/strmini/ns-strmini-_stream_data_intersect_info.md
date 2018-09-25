@@ -4,7 +4,7 @@ title: "_STREAM_DATA_INTERSECT_INFO"
 author: windows-driver-content
 description: STREAM_DATA_INTERSECT_INFO describes the parameters of a data intersection operation.
 old-location: stream\stream_data_intersect_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92a37945-4b7c-4d10-a071-ae1584590692
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

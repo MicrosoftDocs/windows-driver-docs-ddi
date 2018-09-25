@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: eaef18a0-1bbb-4248-a65d-e81ef486c2fa
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostModuleSignature::IsMatch, IsMatch, IDebugHostModuleSignature.IsMatch, IDebugHostModuleSignature::IsMatch, IDebugHostModuleSignature.IsMatch
 req.header: dbgmodel.h
@@ -44,17 +44,44 @@ targetos: Windows
 
 ## -description
 
-TBD
+The IsMatch method compares a particular module (as given by an IDebugHostModule symbol) against a signature, comparing the module name and version to the name and version range indicated in the signature. An indication of whether the given module symbol matches the signature is returned. 
 
 ## -parameters
 
 ### -param pModule
+The module symbol to compare against the module signature.
 
 ### -param isMatch
+An indication of whether the given module symbol matches the module signature is returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostSymbols> spSym;   /* get the host's symbols interface */
+ComPtr<IDebugHostModule> spModule; /* find a module */
+
+ComPtr<IDebugHostModuleSignature> spModuleSignature;
+if (SUCCEEDED(spSym->CreateModuleSignature(
+    L"Windows.UI.Xaml.dll", 
+    L"6.3", 
+    nullptr, 
+    &spModuleSignature)))
+{
+    bool isMatch;
+    if (SUCCEEDED(spModuleSignature->IsMatch(spModule.Get(), &isMatch)))
+    {
+        // isMatch indicates whether the module is a match for the signature.  
+        // In this case, that means the module is named Windows.UI.Xaml.dll 
+        // and the version is at least 6.3(.0.0).
+    }
+}
+```
+
 ## -see-also
+[IDebugHostModuleSignature interface](nn-dbgmodel-idebughostmodulesignature.md)

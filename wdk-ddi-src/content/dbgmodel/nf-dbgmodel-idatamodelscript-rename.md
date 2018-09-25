@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b6bb9297-1c8a-4f4c-a5c7-dfa62408be9d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScript::Rename, Rename, IDataModelScript.Rename, IDataModelScript::Rename, IDataModelScript.Rename
 req.header: dbgmodel.h
@@ -44,15 +44,20 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Rename method assigns a new name to the script. It is the responsibility of the script implementation to save this name and return it upon any call to the GetName method. This is often called when a user interface chooses to Save As the script to a new name. Note that renaming the script may affect where the hosting application chooses to project the contents of the script. 
 
 ## -parameters
 
 ### -param scriptName
 
+The name being assigned to the script is passed here.
 
 ## -returns
-This method returns HRESULT.
+
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelScript interface](nn-dbgmodel-idatamodelscript.md)

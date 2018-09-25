@@ -4,10 +4,9 @@ title: D3DKMTSetQueuedLimit function
 author: windows-driver-content
 description: The D3DKMTSetQueuedLimit function sets or retrieves the limit for the number of operations of the given type that can be queued for the given device.
 old-location: display\d3dkmtsetqueuedlimit.htm
-old-project: display
 ms.assetid: 184473e4-603f-40a0-a4ea-c15d5b0b0b35
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSetQueuedLimit, D3DKMTSetQueuedLimit function [Display Devices], OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, d3dkmthk/D3DKMTSetQueuedLimit, display.d3dkmtsetqueuedlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTSetQueuedLimit</b> function sets or retrieves the limit for the num
 
 ### -param D3DKMT_SETQUEUEDLIMIT
 
-TBD
+
 
 
 

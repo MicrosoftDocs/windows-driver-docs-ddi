@@ -4,7 +4,7 @@ title: "_DOT11_SSID"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_ssid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f032b0db-92a0-40ff-a80d-e263d7b2dc67
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlantypes.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,7 +72,7 @@ typedef struct _DOT11_SSID {
 
 ### -field uSSIDLength
 
-The length, in bytes, of the 
+The length, in bytes, of the
      <b>ucSSID</b> array.
 
 
@@ -85,12 +85,12 @@ The SSID.
 
 
 
-The SSID that is specified by the 
-    <b>ucSSID</b> member is not a null-terminated ASCII string. The length of the SSID is determined by the 
+The SSID that is specified by the
+    <b>ucSSID</b> member is not a null-terminated ASCII string. The length of the SSID is determined by the
     <b>uSSIDLength</b> member.
 
-A 
-    <i>wildcard SSID</i> is an SSID whose 
+A
+    <i>wildcard SSID</i> is an SSID whose
     <b>uSSIDLength</b> member is set to zero. When the desired SSID is set to the wildcard SSID, the 802.11
     station can connect to any basic service set (BSS) network.
 

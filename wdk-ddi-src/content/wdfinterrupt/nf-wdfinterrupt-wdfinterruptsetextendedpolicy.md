@@ -4,7 +4,7 @@ title: WdfInterruptSetExtendedPolicy function
 author: windows-driver-content
 description: The WdfInterruptSetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
 old-location: wdf\wdfinterruptsetextendedpolicy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 043c15dc-ebd7-4d91-8f65-d89d6064cc7c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptSetExtendedPolicy</b> method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
 

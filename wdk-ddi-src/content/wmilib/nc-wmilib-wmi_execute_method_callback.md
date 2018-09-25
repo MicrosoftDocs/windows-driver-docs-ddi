@@ -4,7 +4,7 @@ title: WMI_EXECUTE_METHOD_CALLBACK
 author: windows-driver-content
 description: The DpWmiExecuteMethod routine executes a method associated with a data block. This routine is optional.
 old-location: kernel\dpwmiexecutemethod.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3e671484-8f8d-4ba0-a763-37c3178487ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

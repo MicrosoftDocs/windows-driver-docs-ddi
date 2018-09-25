@@ -4,7 +4,7 @@ title: IOCTL_GNSS_EXECUTE_CWTEST
 author: windows-driver-content
 description: The IOCTL_GNSS_EXECUTE_CWTEST control code is used by the GNSS manufacturing test application to start a carrier wave test and get the measurement. The test application must wait for the result before starting another iteration of the measurement.
 old-location: gnss\ioctl_gnss_execute_cwtest.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 36AFBB03-9F01-4CA7-A5E8-C6F744984B6F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

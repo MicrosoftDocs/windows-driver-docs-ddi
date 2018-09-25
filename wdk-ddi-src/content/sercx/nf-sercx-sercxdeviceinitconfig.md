@@ -4,7 +4,7 @@ title: SerCxDeviceInitConfig function
 author: windows-driver-content
 description: The SerCxDeviceInitConfig method is called by the serial controller driver to attach the serial framework extension (SerCx) to the I/O pipeline for a framework device object (FDO or PDO) that it is creating.
 old-location: serports\sercxdeviceinitconfig.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

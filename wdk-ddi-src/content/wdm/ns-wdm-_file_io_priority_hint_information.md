@@ -4,7 +4,7 @@ title: "_FILE_IO_PRIORITY_HINT_INFORMATION"
 author: windows-driver-content
 description: The FILE_IO_PRIORITY_HINT_INFORMATION structure is used by the ZwQueryInformationFile and ZwSetInformationFile routines to query and set the default IRP priority hint for requests on the specified file handle.
 old-location: kernel\file_io_priority_hint_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 55f88d42-8411-49f0-bc40-7ccc268b3cc5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_USB_READER_COMPLETION_ROUTINE
 author: windows-driver-content
 description: A driver's EvtUsbTargetPipeReadComplete event callback function informs the driver that a continuous reader has successfully completed a read request.
 old-location: wdf\evtusbtargetpipereadcomplete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: da762d78-6d73-4ab9-83a8-297c6f48855b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtUsbTargetPipeReadComplete</i> event callback function informs the driver that a continuous reader has successfully completed a read request.
 

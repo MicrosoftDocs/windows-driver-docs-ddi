@@ -4,7 +4,7 @@ title: StorPortInterlockedRemoveHeadList function
 author: windows-driver-content
 description: The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedremoveheadlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -72,7 +72,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt79
 
 ### -param Result
 
-TBD
+<p>Pointer to a <a href="https://msdn.microsoft.com/library/Mt790432(v=VS.85).aspx"><b>STOR_LIST_ENTRY</b></a> structure that represents the entry removed from the list. If the list was empty, the routine returns <b>NULL</b>.</p>
 
 
 ### -param Lock [in, out]
@@ -80,11 +80,6 @@ TBD
 A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>.
 
  You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.
-
-
-#### - *Result [in, out]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the entry removed from the list. If the list was empty, the routine returns <b>NULL</b>.
 
 
 ## -returns

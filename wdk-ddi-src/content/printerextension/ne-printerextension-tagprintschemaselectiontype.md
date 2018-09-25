@@ -4,7 +4,7 @@ title: tagPrintSchemaSelectionType
 author: windows-driver-content
 description: The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document.
 old-location: print\printschemaselectiontype.htm
-old-project: print
+tech.root: print
 ms.assetid: 30BB7A95-512C-418B-B496-47832DD4C0BC
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

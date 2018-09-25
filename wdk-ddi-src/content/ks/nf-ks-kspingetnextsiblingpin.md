@@ -4,7 +4,7 @@ title: KsPinGetNextSiblingPin function
 author: windows-driver-content
 description: The KsPinGetNextSiblingPin function returns the next instantiated pin of the same type and on the same filter as Pin.
 old-location: stream\kspingetnextsiblingpin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

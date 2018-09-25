@@ -4,7 +4,7 @@ title: IAction::SetTarget
 author: windows-driver-content
 description: The SetTarget method is used internally by WDTF. Do not call this method directly.
 old-location: dtf\iaction_settarget.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: ac539b82-83a1-4ccb-8088-c6f4b746a184
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

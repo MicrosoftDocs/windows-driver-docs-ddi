@@ -31,7 +31,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_DOMAIN_CONFIGURATION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

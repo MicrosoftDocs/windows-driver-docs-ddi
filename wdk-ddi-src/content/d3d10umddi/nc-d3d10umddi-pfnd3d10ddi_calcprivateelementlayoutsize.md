@@ -4,10 +4,9 @@ title: PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE
 author: windows-driver-content
 description: The CalcPrivateElementLayoutSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an element layout.
 old-location: display\calcprivateelementlayoutsize.htm
-old-project: display
 ms.assetid: 9fc80cea-8e4a-467a-b232-74333d2ceb5f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CalcPrivateElementLayoutSize, CalcPrivateElementLayoutSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE, PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE callback, UserModeDisplayDriverDx10_Functions_7c153781-eabd-4f5e-b949-0ac5c9e0d94b.xml, d3d10umddi/CalcPrivateElementLayoutSize, display.calcprivateelementlayoutsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

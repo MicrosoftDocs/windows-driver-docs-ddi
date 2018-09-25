@@ -4,7 +4,7 @@ title: HBA_OpenAdapter function
 author: windows-driver-content
 description: The HBA_OpenAdapter routine opens an HBA and returns a handle.
 old-location: storage\hba_openadapter.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 78c37e2c-171b-483c-967d-1b80bde24338
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,14 +60,9 @@ The <b>HBA_OpenAdapter</b> routine opens an HBA and returns a handle.
 
 ### -param AdapterName
 
-TBD
+<p>Indicates the name of the HBA to open. </p>
 
 
-
-
-#### - SniaAdapterName [in]
-
-Indicates the name of the HBA to open. 
 
 
 ## -returns

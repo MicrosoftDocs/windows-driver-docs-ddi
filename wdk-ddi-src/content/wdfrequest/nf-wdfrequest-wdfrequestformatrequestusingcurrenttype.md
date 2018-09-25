@@ -4,7 +4,7 @@ title: WdfRequestFormatRequestUsingCurrentType function
 author: windows-driver-content
 description: The WdfRequestFormatRequestUsingCurrentType method formats a specified I/O request so that the driver can forward it, unmodified, to the driver's local I/O target.
 old-location: wdf\wdfrequestformatrequestusingcurrenttype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 51af6f9e-1e38-4af2-9db8-cfad41e2f435
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestFormatRequestUsingCurrentType</b> method formats a specified I/O request so that the driver can <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a> it, unmodified, to the driver's local I/O target.
 

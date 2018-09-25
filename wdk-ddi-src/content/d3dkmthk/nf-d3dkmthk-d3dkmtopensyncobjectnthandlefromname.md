@@ -4,10 +4,9 @@ title: D3DKMTOpenSyncObjectNtHandleFromName function
 author: windows-driver-content
 description: D3DKMTOpenSyncObjectNtHandleFromName opens an NT handle for a named shared monitored fence object, similar to what D3DKMTOpenNtHandleFromName does for shared allocations.
 old-location: display\d3dkmtopensyncobjectnthandlefromname.htm
-old-project: display
 ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-TBD
+
 
 
 

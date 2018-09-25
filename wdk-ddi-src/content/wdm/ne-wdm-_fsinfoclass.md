@@ -4,7 +4,7 @@ title: "_FSINFOCLASS"
 author: windows-driver-content
 description: The FS_INFORMATION_CLASS enumeration contains the information class constants that specify what type of information structure is present for a set or a query operation.
 old-location: ifsk\fs_information_class.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

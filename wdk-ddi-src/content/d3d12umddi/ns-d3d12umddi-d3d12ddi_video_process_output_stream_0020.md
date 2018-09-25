@@ -4,10 +4,9 @@ title: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
 author: windows-driver-content
 description: The output stream for video processing commands, which points to a target surface.
 old-location: display\d3d12ddi_video_process_output_stream.htm
-old-project: display
 ms.assetid: D6C510B3-D578-41D0-9D52-131F2B61161D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, display.d3d12ddi_video_process_output_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
 ---
 

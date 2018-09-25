@@ -4,7 +4,7 @@ title: HBA_GetFCPStatistics function
 author: windows-driver-content
 description: The HBA_GetFCPStatistics routine retrieves traffic statistics that the fibre channel protocol (FCP) has collected for the indicated logical unit.
 old-location: storage\hba_getfcpstatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 62ef9d02-3a59-4d4e-a48f-21a8bb4f6e58
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,34 +60,19 @@ The <b>HBA_GetFCPStatistics</b> routine retrieves traffic statistics that the fi
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located. </p>
 
 
 ### -param Lunit
 
-TBD
+<p>Contains a structure of type <a href="https://msdn.microsoft.com/library/Ff557191(v=VS.85).aspx"><b>HBA_ScsiId</b></a> that contains information used by the operating system to identify a SCSI logical unit. </p>
 
 
 ### -param Statistics
 
-TBD
+<p>Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/Ff556051(v=VS.85).aspx"><b>HBA_FC4Statistics</b></a> that holds the traffic statistics that the FCP protocol has collected for the indicated logical unit. </p>
 
 
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
-
-
-#### - lunit [in]
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that contains information used by the operating system to identify a SCSI logical unit. 
-
-
-#### - statistics [out]
-
-Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556051">HBA_FC4Statistics</a> that holds the traffic statistics that the FCP protocol has collected for the indicated logical unit. 
 
 
 ## -returns

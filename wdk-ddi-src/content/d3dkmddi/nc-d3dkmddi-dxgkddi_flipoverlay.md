@@ -4,10 +4,9 @@ title: DXGKDDI_FLIPOVERLAY
 author: windows-driver-content
 description: The DxgkDdiFlipOverlay function displays a new allocation by using the specified overlay.
 old-location: display\dxgkddiflipoverlay.htm
-old-project: display
 ms.assetid: 9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_FLIPOVERLAY, DXGKDDI_FLIPOVERLAY callback, DmFunctions_fac1657b-03ec-4d63-93d6-3458423a1fe9.xml, DxgkDdiFlipOverlay, DxgkDdiFlipOverlay callback function [Display Devices], d3dkmddi/DxgkDdiFlipOverlay, display.dxgkddiflipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

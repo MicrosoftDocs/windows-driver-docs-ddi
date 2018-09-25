@@ -4,7 +4,7 @@ title: IoGetCurrentIrpStackLocation function
 author: windows-driver-content
 description: The IoGetCurrentIrpStackLocation routine returns a pointer to the caller's I/O stack location in the specified IRP.
 old-location: kernel\iogetcurrentirpstacklocation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 75144188-728b-4613-ac69-8cadf0f60233
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

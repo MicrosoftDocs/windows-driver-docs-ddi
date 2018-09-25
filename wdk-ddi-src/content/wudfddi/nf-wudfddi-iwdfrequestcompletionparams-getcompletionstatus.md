@@ -4,7 +4,7 @@ title: IWDFRequestCompletionParams::GetCompletionStatus
 author: windows-driver-content
 description: The GetCompletionStatus method retrieves the completion status of an I/O request.
 old-location: wdf\iwdfrequestcompletionparams_getcompletionstatus.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8959fc25-2477-485a-aa40-10d6228cb476
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

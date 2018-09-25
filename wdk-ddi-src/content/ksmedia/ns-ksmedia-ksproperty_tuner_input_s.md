@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_INPUT_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_INPUT_S structure describes the input connection index of a tuner device for devices that support multiple inputs.
 old-location: stream\ksproperty_tuner_input_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 02873563-7448-4406-a8ab-599569abbf7e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

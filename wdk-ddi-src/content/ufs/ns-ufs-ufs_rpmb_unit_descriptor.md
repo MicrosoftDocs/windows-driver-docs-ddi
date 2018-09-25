@@ -4,7 +4,7 @@ title: UFS_RPMB_UNIT_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_RPMB_UNIT_DESCRIPTOR structure describes the contents of a Replay Protected Memory Block (RBMB) Unit.
 old-location: storage\ufs_rpmb_unit_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 19A066BD-1099-475C-BF81-F1BE7C7778E5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: BdaCreateFilterFactoryEx function
 author: windows-driver-content
 description: The BdaCreateFilterFactoryEx function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology.
 old-location: stream\bdacreatefilterfactoryex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 105b6a66-5800-4079-af88-f44d01134ff0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

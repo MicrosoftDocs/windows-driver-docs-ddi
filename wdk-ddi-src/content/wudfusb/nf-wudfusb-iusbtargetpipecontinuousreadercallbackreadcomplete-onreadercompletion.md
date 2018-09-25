@@ -4,7 +4,7 @@ title: IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
 author: windows-driver-content
 description: A driver's OnReaderCompletion event callback function informs the driver that a continuous reader has successfully completed a read request.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

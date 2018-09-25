@@ -4,7 +4,7 @@ title: FsRtlResetLargeMcb function
 author: windows-driver-content
 description: The FsRtlResetLargeMcb routine truncates a map control block (MCB) structure to contain zero mapping pairs. It does not shrink the mapping pairs array.
 old-location: ifsk\fsrtlresetlargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 49134501-165a-4296-b4c6-3f1e7ae9d485
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -87,7 +87,7 @@ None
 <div> </div>
 File systems must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546132">FsRtlInitializeLargeMcb</a> before using any other <b>FsRtl...Mcb...</b> routines on the MCB structure.
 
-If the caller is already synchronized (the <i>SelfSynchronized</i> parameter is set to <b>TRUE</b>), such that no other thread of operation can call an Mcb routine on this MCB during this call, then <b>FsRtlResetLargeMcb</b> just clears out the current mapping pair count. If the <i>SelfSynchronized</i> parameter is set to <b>FALSE</b>, then <b>FsRtlResetLargeMcb</b> will serialize access to the <i>Mcb</i> before clearing the pair count which requires more time. 
+If the caller is already synchronized (the <i>SelfSynchronized</i> parameter is set to <b>TRUE</b>), such that no other thread of operation can call an Mcb routine on this MCB during this call, then <b>FsRtlResetLargeMcb</b> just clears out the current mapping pair count. If the <i>SelfSynchronized</i> parameter is set to <b>FALSE</b>, then <b>FsRtlResetLargeMcb</b> will serialize access to the <i>Mcb</i> before clearing the pair count which requires more time.
 
 
 

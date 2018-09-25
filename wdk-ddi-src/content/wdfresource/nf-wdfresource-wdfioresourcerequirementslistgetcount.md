@@ -4,7 +4,7 @@ title: WdfIoResourceRequirementsListGetCount function
 author: windows-driver-content
 description: The WdfIoResourceRequirementsListGetCount method returns the number of logical configurations that are contained in a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistgetcount.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceRequirementsListGetCount</b> method returns the number of <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configurations</a> that are contained in a resource requirements list.
 

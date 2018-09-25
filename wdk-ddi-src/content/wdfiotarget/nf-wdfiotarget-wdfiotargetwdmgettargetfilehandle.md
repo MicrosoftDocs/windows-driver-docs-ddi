@@ -4,7 +4,7 @@ title: WdfIoTargetWdmGetTargetFileHandle function
 author: windows-driver-content
 description: The WdfIoTargetWdmGetTargetFileHandle method returns a handle to the file that is associated with a specified remote I/O target.
 old-location: wdf\wdfiotargetwdmgettargetfilehandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns a handle to the file that is associated with a specified remote I/O target.
 

@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceSendUrbSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceSendUrbSynchronously method sends a USB request synchronously to a specified USB device, using request parameters that are described by a URB.
 old-location: wdf\wdfusbtargetdevicesendurbsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b9b76796-bf08-4d10-82a4-7894b3285fff
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetDeviceSendUrbSynchronously</b> method sends a USB request synchronously to a specified USB device, using request parameters that are described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
 

@@ -4,10 +4,9 @@ title: "_DXGK_GDIARG_ALPHABLEND"
 author: windows-driver-content
 description: The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
 old-location: display\dxgk_gdiarg_alphablend.htm
-old-project: display
 ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, _DXGK_GDIARG_ALPHABLEND, d3dkmddi/DXGK_GDIARG_ALPHABLEND, display.dxgk_gdiarg_alphablend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_ALPHABLEND
 ---
 
@@ -125,17 +125,17 @@ When sub-rectangles are transformed to the source surface space, the result is g
 <li>(Xd, Yd) is a point inside the sub-rectangle</li>
 <li>(Xs, Ys) is a point inside the source rectangle</li>
 </ul>
-<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right â€“ SrcRect.left;
-float Wd = DstRect.right â€“ DstRect.left;
-int Xs = round((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left â€“ 0.5)
+<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right - SrcRect.left;
+float Wd = DstRect.right - DstRect.left;
+int Xs = round((Xd - DstRect.left + 0.5) * Ws/Wd + SrcRect.left - 0.5)
 OR
-int Xs = truncate((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left)
+int Xs = truncate((Xd - DstRect.left + 0.5) * Ws/Wd + SrcRect.left)
 
-float Hs = SrcRect.bottom â€“ SrcRect.top;
-float Hd = DstRect.bottom â€“ DstRect.top;
-int Ys = round((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top â€“ 0.5)
+float Hs = SrcRect.bottom - SrcRect.top;
+float Hd = DstRect.bottom - DstRect.top;
+int Ys = round((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top - 0.5)
 OR
-int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
+int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
 
 
 

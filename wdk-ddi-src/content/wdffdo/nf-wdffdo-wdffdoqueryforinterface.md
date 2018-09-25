@@ -4,7 +4,7 @@ title: WdfFdoQueryForInterface function
 author: windows-driver-content
 description: The WdfFdoQueryForInterface method obtains access to another driver's GUID-identified interface.
 old-location: wdf\wdffdoqueryforinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFdoQueryForInterface</b> method obtains access to another driver's GUID-identified interface.
 
@@ -63,7 +63,7 @@ The <b>WdfFdoQueryForInterface</b> method obtains access to another driver's GUI
 
 ### -param Fdo
 
-TBD
+<p>A handle to a framework device object.</p>
 
 
 ### -param InterfaceType [in]
@@ -89,11 +89,6 @@ The version number of the requested interface. The format of this value is defin
 ### -param InterfaceSpecificData [in, optional]
 
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
-
-
-#### - Device [in]
-
-A handle to a framework device object.
 
 
 ## -returns

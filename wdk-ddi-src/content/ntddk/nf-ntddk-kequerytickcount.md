@@ -4,7 +4,7 @@ title: KeQueryTickCount macro
 author: windows-driver-content
 description: The KeQueryTickCount routine maintains a count of the interval timer interrupts that have occurred since the system was booted.
 old-location: kernel\kequerytickcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7cd0ed27-a056-4ed9-8ff4-e917b31b0dd6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,16 +60,11 @@ The <b>KeQueryTickCount</b> routine maintains a count of the interval timer inte
 
 ### -param CurrentCount
 
-TBD
+<p>Pointer to the tick count value on return from <b>KeQueryTickCount</b>.</p>
 
 
 
 
-
-
-#### - TickCount [out]
-
-Pointer to the tick count value on return from <b>KeQueryTickCount</b>.
 
 
 ## -remarks

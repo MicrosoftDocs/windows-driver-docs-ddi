@@ -2,7 +2,7 @@
 UID: NF:fltkernel.FltQueryInformationByName
 title: FltQueryInformationByName function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: dac542b8-eaea-4065-ae36-1433a6589ac3
 ms.author: windowsdriverdev
 ms.date: 
@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: FltMgr.lib
+req.dll: Fltmgr.sys
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -28,12 +28,13 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	fltmgr.sys
 api_name: 
 -	FltQueryInformationByName
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

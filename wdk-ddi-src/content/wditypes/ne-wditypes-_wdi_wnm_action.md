@@ -4,10 +4,10 @@ title: "_WDI_WNM_ACTION"
 author: windows-driver-content
 description: The WDI_WNM_ACTION enumeration defines the message type for 802.11v BSS Transition Management action frames.
 old-location: netvista\wdi_wnm_action.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 350D3182-3BEE-4AB7-A9F0-5C5D7D60A617
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: WDI_WNM_ACTION, WDI_WNM_ACTION enumeration [Network Drivers Starting with Windows Vista], WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, _WDI_WNM_ACTION, netvista.wdi_wnm_action, wditypes/WDI_WNM_ACTION, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices

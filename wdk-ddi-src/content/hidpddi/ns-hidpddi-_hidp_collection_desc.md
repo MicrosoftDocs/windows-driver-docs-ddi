@@ -4,7 +4,7 @@ title: "_HIDP_COLLECTION_DESC"
 author: windows-driver-content
 description: Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_collection_desc.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

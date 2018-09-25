@@ -4,7 +4,7 @@ title: IPrintOemUni::GetInfo
 author: windows-driver-content
 description: A rendering plug-in's IPrintOemUni::GetInfo method returns identification information.
 old-location: print\iprintoemuni_getinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: WdfRegistryQueryMultiString function
 author: windows-driver-content
 description: The WdfRegistryQueryMultiString method retrieves the strings that are currently assigned to a specified multi-string registry value, creates a framework string object for each string, and adds each string object to a specified object collection.
 old-location: wdf\wdfregistryquerymultistring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9ce754b4-a783-4b2e-978d-e38a30c5d3dd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryQueryMultiString</b> method retrieves the strings that are currently assigned to a specified multi-string registry value, creates a framework string object for each string, and adds each string object to a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">object collection</a>.
 

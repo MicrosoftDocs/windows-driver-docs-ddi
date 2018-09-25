@@ -4,7 +4,7 @@ title: "_CDROM_WRITE_SPEED_REQUEST"
 author: windows-driver-content
 description: The CDROM_WRITE_SPEED_REQUEST structure is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE IOCTL and for requesting write speed descriptors.
 old-location: storage\cdrom_write_speed_request.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A7F8AFAE-AFFA-4022-8C04-2BF9177FE9EB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

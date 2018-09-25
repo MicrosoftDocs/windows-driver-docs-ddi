@@ -4,7 +4,7 @@ title: RtlCheckRegistryKey function
 author: windows-driver-content
 description: The RtlCheckRegistryKey routine checks for the existence of a given named key in the registry.
 old-location: kernel\rtlcheckregistrykey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b752a764-1f7d-4768-9fa2-c8976560f840
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

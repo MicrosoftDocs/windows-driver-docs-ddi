@@ -4,7 +4,7 @@ title: KeSetCoalescableTimer function
 author: windows-driver-content
 description: The KeSetCoalescableTimer routine sets the initial expiration time and period of a timer object and specifies how much delay can be tolerated in the expiration times.
 old-location: kernel\kesetcoalescabletimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

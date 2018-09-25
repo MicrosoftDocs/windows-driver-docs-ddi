@@ -4,10 +4,9 @@ title: "_DXGKARG_PREEMPTCOMMAND"
 author: windows-driver-content
 description: The DXGKARG_PREEMPTCOMMAND structure describes a command that a display miniport driver must use to preempt a direct memory access (DMA) buffer that the DxgkDdiSubmitCommand function previously submitted to the hardware command execution unit.
 old-location: display\dxgkarg_preemptcommand.htm
-old-project: display
 ms.assetid: de8f8bee-44e9-4a6a-bb36-a43a66afe188
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND structure [Display Devices], DmStructs_2564ca47-8304-4a95-a408-2e5ccca7353d.xml, _DXGKARG_PREEMPTCOMMAND, d3dkmddi/DXGKARG_PREEMPTCOMMAND, display.dxgkarg_preemptcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_PREEMPTCOMMAND
 ---
 

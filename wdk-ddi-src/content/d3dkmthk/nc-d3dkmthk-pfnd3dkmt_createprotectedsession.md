@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_CREATEPROTECTEDSESSION
 title: PFND3DKMT_CREATEPROTECTEDSESSION
 author: windows-driver-content
-description:
+description: Implemented by the client driver to create a protected session.
 ms.assetid: 000fb6fc-0d6e-4c2a-ac7c-05759d7e0d28
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_CREATEPROTECTEDSESSION
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_CREATEPROTECTEDSESSION callback function

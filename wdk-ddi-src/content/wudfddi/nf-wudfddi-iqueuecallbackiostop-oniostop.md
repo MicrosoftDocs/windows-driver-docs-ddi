@@ -4,7 +4,7 @@ title: IQueueCallbackIoStop::OnIoStop
 author: windows-driver-content
 description: The OnIoStop callback function stops the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackiostop_oniostop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: baa48d1b-b7da-4f89-b2e8-9a9ae2086527
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

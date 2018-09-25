@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
 author: windows-driver-content
 description: Describes image pin control properties in the PROPSETID_VIDCAP_CAMERACONTROL_IMAGE_PIN_CAPABILITY camera control property set.
 old-location: stream\ksproperty_cameracontrol_image_pin_capability_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: AFFCD1E0-A92F-446D-A30E-C41FA8706FC1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: WDF_DEVICE_PROPERTY_DATA_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_PROPERTY_DATA_INIT function initializes a driver's WDF_DEVICE_PROPERTY_DATA structure.
 old-location: wdf\wdf_device_property_data_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: D3A7646A-49A8-499E-A63A-BCD222DF7804
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_PROPERTY_DATA_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265632">WDF_DEVICE_PROPERTY_DATA</a> structure.
 

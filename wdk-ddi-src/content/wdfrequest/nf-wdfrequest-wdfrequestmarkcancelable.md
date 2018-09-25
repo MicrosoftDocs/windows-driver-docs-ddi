@@ -4,7 +4,7 @@ title: WdfRequestMarkCancelable function
 author: windows-driver-content
 description: The WdfRequestMarkCancelable method enables cancellation of a specified I/O request.
 old-location: wdf\wdfrequestmarkcancelable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1bd1ec2a-8b07-4843-84b6-6b651453328c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestMarkCancelable</b> method enables cancellation of a specified I/O request.
 

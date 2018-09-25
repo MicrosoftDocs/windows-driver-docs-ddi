@@ -4,7 +4,7 @@ title: BLOCK_DEVICE_RANGE_DESCRIPTOR
 author: windows-driver-content
 description: The BLOCK_DEVICE_RANGE_DESCRIPTOR structure describes a range of logical blocks associated with various fragments of a file for an offload copy operation.
 old-location: storage\block_device_range_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6B262D38-8BD6-43B5-96AB-6D311B8EBA88
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

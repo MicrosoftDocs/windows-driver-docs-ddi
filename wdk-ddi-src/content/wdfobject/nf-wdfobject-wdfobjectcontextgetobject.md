@@ -4,7 +4,7 @@ title: WdfObjectContextGetObject function
 author: windows-driver-content
 description: The WdfObjectContextGetObject method returns a handle to the framework object that a specified context space belongs to.
 old-location: wdf\wdfobjectcontextgetobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7288a7e5-8e64-4ac3-9779-edc27a3888bb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectContextGetObject</b> method returns a handle to the framework object that a specified context space belongs to.
 

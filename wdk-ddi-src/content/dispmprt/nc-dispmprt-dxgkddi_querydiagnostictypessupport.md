@@ -2,7 +2,7 @@
 UID: NC:dispmprt.DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
 title: DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
 author: windows-driver-content
-description: 
+description: The OS calls the DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function to discover what types of diagnostic the driver supports for the passed diagnostic category.
 ms.assetid: ad14a3b9-d0bf-4292-8e53-7f51544d96c5
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,15 +26,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	dispmprt.h
-apiname: 
+api_name: 
 -	DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
@@ -42,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+The OS calls the DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function to discover what types of diagnostic the driver supports for the passed diagnostic category.
 
 ## -prototype
 
@@ -67,19 +68,22 @@ DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT *PDXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
 
 ## -parameters
 
-### -param MiniportDeviceContext: 
-### -param pArgQueryDiagnosticTypesSupport: 
+### -param MiniportDeviceContext
 
+A handle to a context block associated with a display adapter.
 
+### -param pArgQueryDiagnosticTypesSupport
+
+Pointer to a [DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT](ns-dispmprt-_dxgkarg_querydiagnostictypessupport.md) structure.
 
 ## -returns
 
-Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [XREF-LINK:NTSTATUS Values].
+Returns NTSTATUS.
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

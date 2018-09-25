@@ -4,7 +4,7 @@ title: "_REG_SET_KEY_SECURITY_INFORMATION"
 author: windows-driver-content
 description: The REG_SET_KEY_SECURITY_INFORMATION structure specifies security information for a registry key object.
 old-location: kernel\reg_set_key_security_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 196bad19-85a6-41a0-ac61-b70594a19f0f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

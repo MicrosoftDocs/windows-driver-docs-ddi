@@ -4,7 +4,7 @@ title: EVT_WDF_REQUEST_COMPLETION_ROUTINE
 author: windows-driver-content
 description: A driver's CompletionRoutine event callback function executes when another driver completes a specified I/O request.
 old-location: wdf\completionroutine.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7d3eb4d6-9fc7-4924-9b95-f5824713049b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>CompletionRoutine</i> event callback function executes when another driver completes a specified I/O request.
 

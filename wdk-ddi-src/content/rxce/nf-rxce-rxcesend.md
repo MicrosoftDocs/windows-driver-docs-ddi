@@ -4,7 +4,7 @@ title: RxCeSend function
 author: windows-driver-content
 description: RxCeSend sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 old-location: ifsk\rxcesend.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterUpdateDeviceProfile
 title: ColorAdapterUpdateDeviceProfile function
 author: windows-driver-content
-description:
+description: This DDI construct is intended for OEM use only.
 ms.assetid: 87fa4c08-ee0f-47a7-a4d0-b5b053d98bb5
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterUpdateDeviceProfile
 req.header: icm.h
@@ -33,7 +33,8 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterUpdateDeviceProfile
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -55,7 +56,9 @@ targetos: Windows
 
 
 ## -returns
+
 This function returns HRESULT.
+
 ## -remarks
 
 ## -see-also

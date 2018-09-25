@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041
 title: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041
 author: windows-driver-content
-description:
+description: Flags for indicating a subset of components used with video decode histogram.
 ms.assetid: 93f2f873-7c24-4738-adef-ded5f9e5cc17
 ms.author: windowsdriverdev
 ms.date:
@@ -20,16 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041 enumeration

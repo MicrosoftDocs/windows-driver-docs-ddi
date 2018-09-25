@@ -4,7 +4,7 @@ title: IoForwardIrpSynchronously function
 author: windows-driver-content
 description: The IoForwardIrpSynchronously routine sends an IRP to a specified driver and waits for that driver to complete the IRP.
 old-location: kernel\ioforwardirpsynchronously.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c3e7c79f-2a0d-4011-887d-0f01537cd6e6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

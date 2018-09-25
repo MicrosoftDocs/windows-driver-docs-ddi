@@ -4,7 +4,7 @@ title: "_PO_FX_PERF_STATE_UNIT"
 author: windows-driver-content
 description: The PO_FX_PERF_STATE_UNIT enumeration contains values that describe the type of unit that is controlled by the performance states in a PO_FX_COMPONENT_PERF_SET.
 old-location: kernel\po_fx_perf_state_unit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E16657AE-9EEF-4E36-AAC5-5BF822006F1C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

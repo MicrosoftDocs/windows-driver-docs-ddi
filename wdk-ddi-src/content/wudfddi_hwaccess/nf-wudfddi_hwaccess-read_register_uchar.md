@@ -4,7 +4,7 @@ title: READ_REGISTER_UCHAR function
 author: windows-driver-content
 description: The READ_REGISTER_UCHAR function reads a byte from the specified register address.
 old-location: wdf\read_register_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 149DE843-937C-4A6F-AB2D-ACC8895D5E91
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

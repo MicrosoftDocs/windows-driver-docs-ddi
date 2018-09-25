@@ -4,7 +4,7 @@ title: RxGetRDBSSProcess function
 author: windows-driver-content
 description: RxGetRDBSSProcess returns a pointer to the process of the main thread used by the RDBSS kernel process.
 old-location: ifsk\rxgetrdbssprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -83,7 +83,7 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
 
 
 

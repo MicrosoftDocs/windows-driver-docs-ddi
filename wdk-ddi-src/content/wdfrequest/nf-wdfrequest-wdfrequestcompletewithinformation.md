@@ -4,7 +4,7 @@ title: WdfRequestCompleteWithInformation function
 author: windows-driver-content
 description: The WdfRequestCompleteWithInformation method stores completion information and then completes a specified I/O request with a supplied completion status.
 old-location: wdf\wdfrequestcompletewithinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestCompleteWithInformation</b> method stores completion information and then completes a specified I/O request with a supplied completion status.
 

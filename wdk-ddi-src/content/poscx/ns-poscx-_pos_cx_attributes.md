@@ -4,7 +4,7 @@ title: "_POS_CX_ATTRIBUTES"
 author: windows-driver-content
 description: The POS_CX_ATTRIBUTES structure contains pointers to event callback functions implemented by the client driver.
 old-location: pos\pos_cx_attributes.htm
-old-project: pos
+tech.root: pos
 ms.assetid: A91B8EAA-2FCB-4468-8CF3-A3C4D9D7E355
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

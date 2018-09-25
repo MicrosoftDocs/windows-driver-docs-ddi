@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction
 author: windows-driver-content
 description: IWDTFSimulatedBatterySystemAction Interface
 old-location: dtf\iwdtfsimulatedbatterysystemaction.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 38df72bd-5206-4655-846c-ae925ed648eb
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

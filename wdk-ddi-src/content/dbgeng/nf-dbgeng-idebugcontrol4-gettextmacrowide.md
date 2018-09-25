@@ -4,10 +4,10 @@ title: IDebugControl4::GetTextMacroWide
 author: windows-driver-content
 description: The GetTextMacroWide method returns the value of a fixed-name alias.
 old-location: debugger\gettextmacrowide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5b125041-969e-49bb-96d5-b40cc7285315
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetTextMacroWide, GetTextMacroWide method [Windows Debugging], GetTextMacroWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextMacroWide method, IDebugControl4.GetTextMacroWide, IDebugControl4::GetTextMacroWide, dbgeng/IDebugControl4::GetTextMacroWide, debugger.gettextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices

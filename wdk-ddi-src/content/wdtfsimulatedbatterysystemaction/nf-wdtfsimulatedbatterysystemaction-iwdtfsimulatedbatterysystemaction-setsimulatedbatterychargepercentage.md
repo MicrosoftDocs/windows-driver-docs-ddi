@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage
 author: windows-driver-content
 description: Sets the charge percentage reported to the OS by the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: b330c423-b295-4b5b-b6bf-1f48549e8bfa
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

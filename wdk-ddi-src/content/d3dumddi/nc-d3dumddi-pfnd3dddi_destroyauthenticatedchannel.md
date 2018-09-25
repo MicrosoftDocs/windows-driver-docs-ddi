@@ -4,10 +4,10 @@ title: PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL
 author: windows-driver-content
 description: The DestroyAuthenticatedChannel function releases resources for the authenticated channel that the CreateAuthenticatedChannel function creates.
 old-location: display\destroyauthenticatedchannel.htm
-old-project: display
+tech.root: display
 ms.assetid: ccea427b-e19e-433b-91b0-b40ce7c1da5a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyAuthenticatedChannel, DestroyAuthenticatedChannel callback function [Display Devices], PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL, PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL callback, UserModeDisplayDriver_Functions_94df7fa0-966d-45e3-81b7-bae1f6ebac64.xml, d3dumddi/DestroyAuthenticatedChannel, display.destroyauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

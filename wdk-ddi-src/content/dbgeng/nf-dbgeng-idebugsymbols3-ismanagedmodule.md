@@ -4,10 +4,10 @@ title: IDebugSymbols3::IsManagedModule
 author: windows-driver-content
 description: Checks whether the engine is using managed debugging support when it retrieves information for a module.
 old-location: debugger\idebugsymbols3_ismanagedmodule.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],IsManagedModule method, IDebugSymbols3.IsManagedModule, IDebugSymbols3::IsManagedModule, IsManagedModule, IsManagedModule method [Windows Debugging], IsManagedModule method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::IsManagedModule, debugger.idebugsymbols3_ismanagedmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

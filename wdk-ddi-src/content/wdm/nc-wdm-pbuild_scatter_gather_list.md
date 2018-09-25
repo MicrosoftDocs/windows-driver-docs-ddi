@@ -4,7 +4,7 @@ title: PBUILD_SCATTER_GATHER_LIST
 author: windows-driver-content
 description: The BuildScatterGatherList routine prepares the system for a DMA operation, using a driver-supplied buffer to build the scatter/gather list.
 old-location: kernel\buildscattergatherlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 678b568a-2efe-443e-89f5-84d012431755
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

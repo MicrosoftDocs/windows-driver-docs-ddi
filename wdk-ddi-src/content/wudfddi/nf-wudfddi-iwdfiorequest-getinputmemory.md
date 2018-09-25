@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetInputMemory
 author: windows-driver-content
 description: The GetInputMemory method retrieves the memory object that represents the input buffer in an I/O request.
 old-location: wdf\iwdfiorequest_getinputmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: be3f965b-69fe-4d5e-b1b6-3a370603cd7b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

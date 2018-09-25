@@ -4,7 +4,7 @@ title: IOCTL_DISK_REASSIGN_BLOCKS
 author: windows-driver-content
 description: Maps defective blocks to new location on disk. This request instructs the device to reassign the bad block address to a good block from its spare-block pool.
 old-location: storage\ioctl_disk_reassign_blocks.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d79f8e47-87c5-4203-b9d7-722d9be4e848
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

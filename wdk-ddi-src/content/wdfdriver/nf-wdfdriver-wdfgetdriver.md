@@ -4,7 +4,7 @@ title: WdfGetDriver function
 author: windows-driver-content
 description: The WdfGetDriver method returns a handle to the framework driver object that represents the calling driver.
 old-location: wdf\wdfgetdriver.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 423d4407-9e30-4625-bbe8-5465af29cfaa
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfGetDriver</b> method returns a handle to the framework driver object that represents the calling driver.
 

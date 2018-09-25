@@ -4,10 +4,10 @@ title: RILRADIOSTATEITEM
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostateitem.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

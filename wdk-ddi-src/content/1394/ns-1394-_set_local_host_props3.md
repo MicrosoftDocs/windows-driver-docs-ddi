@@ -4,7 +4,7 @@ title: "_SET_LOCAL_HOST_PROPS3"
 author: windows-driver-content
 description: SET_LOCAL_HOST_PROPS3 contains the data necessary for defining or identifying one or more unit directories in the Configuration ROM of a 1394 Host Controller.
 old-location: ieee\set_local_host_props3.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: f49a8b86-5611-4737-9b25-e7446e155bbc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

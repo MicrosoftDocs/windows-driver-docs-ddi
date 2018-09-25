@@ -4,7 +4,7 @@ title: WdfDeviceConfigureRequestDispatching function
 author: windows-driver-content
 description: The WdfDeviceConfigureRequestDispatching method causes the framework to queue a specified type of I/O requests to a specified I/O queue.
 old-location: wdf\wdfdeviceconfigurerequestdispatching.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aba4cccd-267d-48cc-a6ff-be19802adfdc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceConfigureRequestDispatching</b> method causes the framework to queue a specified type of I/O requests to a specified I/O queue.
 

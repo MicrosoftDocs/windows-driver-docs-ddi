@@ -4,7 +4,7 @@ title: IWDTFLOG2::StartTestCase
 author: windows-driver-content
 description: Marks the start of a test case.
 old-location: dtf\iwdtflog2_starttestcase.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d72bff68-d1c0-4ce4-bc2d-abe350036eec
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

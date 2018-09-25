@@ -4,7 +4,7 @@ title: "_GIC_ITS"
 author: windows-driver-content
 description: This topic describes the GIC_ITS structure.
 old-location: acpi\gic_its.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: C0DA1B09-230E-4DE6-98CD-F80243D63B95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	GIC_ITS
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: GIC_ITS
 ---

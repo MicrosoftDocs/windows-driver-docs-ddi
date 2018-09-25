@@ -4,10 +4,10 @@ title: "_DXVADDI_NOMINALRANGE"
 author: windows-driver-content
 description: The DXVADDI_NOMINALRANGE enumeration type contains values that identify whether sample data includes headroom (that is, values beyond 1.0 white) and toeroom (that is, superblacks below the reference 0.0 black).
 old-location: display\dxvaddi_nominalrange.htm
-old-project: display
+tech.root: display
 ms.assetid: f3f5fac9-013c-4739-a29e-c781b34e5289
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, DXVADDI_NOMINALRANGE, DXVADDI_NOMINALRANGE enumeration [Display Devices], DXVADDI_NominalRangeMask, DXVADDI_NominalRange_0_255, DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_48_208, DXVADDI_NominalRange_Normal, DXVADDI_NominalRange_Unknown, DXVADDI_NominalRange_Wide, _DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NominalRangeMask, d3dumddi/DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRange_16_235, d3dumddi/DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_Normal, d3dumddi/DXVADDI_NominalRange_Unknown, d3dumddi/DXVADDI_NominalRange_Wide, display.dxvaddi_nominalrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,27 +70,27 @@ The nominal range is not specified.
 
 ### -field DXVADDI_NominalRange_Normal
 
-Normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
+Normalized chroma [0..1] maps to [0..255] for 8-bit or [0..1023] for 10-bit.
 
 
 ### -field DXVADDI_NominalRange_Wide
 
-Normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
+Normalized chroma [0..1] maps to [16..235] for 8-bit or [64..940] for 10-bit.
 
 
 ### -field DXVADDI_NominalRange_0_255
 
-Normalized chroma [0..1] maps explicitly to [0..255] (8bit).
+Normalized chroma [0..1] maps explicitly to [0..255] for 8-bit.
 
 
 ### -field DXVADDI_NominalRange_16_235
 
-Normalized chroma [0..1] maps explicitly to [16..235] (8bit).
+Normalized chroma [0..1] maps explicitly to [16..235] for 8-bit.
 
 
 ### -field DXVADDI_NominalRange_48_208
 
-Normalized chroma [0..1] maps explicitly to [48..208] (8bit).
+Normalized chroma [0..1] maps explicitly to [48..208] for 8-bit.
 
 
 ## -remarks

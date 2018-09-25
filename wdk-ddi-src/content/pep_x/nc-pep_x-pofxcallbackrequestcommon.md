@@ -4,7 +4,7 @@ title: POFXCALLBACKREQUESTCOMMON
 author: windows-driver-content
 description: The RequestCommon routine is a generic request handler.
 old-location: kernel\requestcommon.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

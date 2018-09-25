@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1"
 author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER_COMPLEX structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method and an input array of ACPI_METHOD_ARGUMENT structures.
 old-location: acpi\acpi_eval_input_buffer_complex.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 6b59fa86-3c3b-4ab9-98e2-f62f028d53df
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

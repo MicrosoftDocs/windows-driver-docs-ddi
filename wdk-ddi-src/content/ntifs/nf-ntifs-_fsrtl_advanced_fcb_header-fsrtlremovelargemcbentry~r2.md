@@ -4,7 +4,7 @@ title: FsRtlRemoveLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlRemoveLargeMcbEntry routine removes one or more mappings from a map control block (MCB).
 old-location: ifsk\fsrtlremovelargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0608442-59ba-4431-94d5-7514555d0b4f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -60,34 +60,19 @@ The <b>FsRtlRemoveLargeMcbEntry</b> routine removes one or more mappings from a 
 
 ### -param Mcb
 
-TBD
+<p>Pointer to the MCB structure. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. </p>
 
 
 ### -param SectorCount
 
-TBD
+<p>Number of sectors (VBNs) in the range for which mappings are to be removed. </p>
 
 
-
-
-#### - LargeSectorCount [in]
-
-Number of sectors (VBNs) in the range for which mappings are to be removed. 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. 
-
-
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
 
 
 ## -returns
@@ -103,11 +88,11 @@ None
 
 
 
-<b>FsRtlRemoveLargeMcbEntry</b> removes all mappings of VBNs to LBNs in the MCB that fall within the range of VBNs that begins with <i>*LargeVbn</i> and ends with (<i>*LargeVbn </i>+ <i>LargeSectorCount</i> - 1). 
+<b>FsRtlRemoveLargeMcbEntry</b> removes all mappings of VBNs to LBNs in the MCB that fall within the range of VBNs that begins with <i>*LargeVbn</i> and ends with (<i>*LargeVbn </i>+ <i>LargeSectorCount</i> - 1).
 
 <div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
 <div> </div>
-Holes (gaps) between mappings are ignored. 
+Holes (gaps) between mappings are ignored.
 
 If the range of VBNs to be removed includes the highest mapped VBN in the MCB, the MCB's <b>PairCount</b> member is adjusted accordingly.
 

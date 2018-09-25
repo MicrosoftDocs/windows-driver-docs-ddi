@@ -4,7 +4,7 @@ title: IPrinterScriptableSequentialStream
 author: windows-driver-content
 description: The IPrinterScriptableSequentialStream interface is an ISequentialStream-like interface that works in JavaScript. Instead of reading and writing byte arrays, it reads and writes JavaScript arrays of bytes, which are values between 0 and 255.
 old-location: print\iprinterscriptablesequentialstream_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 85DF7DCB-7AB1-4A46-AD70-6D47D9F98079
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

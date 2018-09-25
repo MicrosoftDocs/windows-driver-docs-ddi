@@ -4,7 +4,7 @@ title: EVT_WDF_INTERRUPT_DPC
 author: windows-driver-content
 description: A driver's EvtInterruptDpc event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored.
 old-location: wdf\evtinterruptdpc.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d2d505e0-aeac-4871-8c60-d026b2833043
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtInterruptDpc</i> event callback function processes interrupt information that the driver's <a href="https://msdn.microsoft.com/6f28a66a-9c17-4020-bfe2-295c22af6ba7">EvtInterruptIsr</a> callback function has stored.
 

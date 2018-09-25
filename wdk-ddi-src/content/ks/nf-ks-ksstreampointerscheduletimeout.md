@@ -4,7 +4,7 @@ title: KsStreamPointerScheduleTimeout function
 author: windows-driver-content
 description: The KsStreamPointerScheduleTimeout function registers a timeout callback with AVStream for the given stream pointer.
 old-location: stream\ksstreampointerscheduletimeout.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 143c4ca2-91ae-49c3-80e0-e7959e4bd297
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

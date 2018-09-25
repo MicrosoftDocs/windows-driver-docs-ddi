@@ -4,7 +4,7 @@ title: "_SERCX2_CUSTOM_RECEIVE_CONFIG"
 author: windows-driver-content
 description: The SERCX2_CUSTOM_RECEIVE_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new custom-receive object.
 old-location: serports\sercx2_custom_receive_config.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 815DB069-4AB5-4C00-BB7A-BAAA4050C8CF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

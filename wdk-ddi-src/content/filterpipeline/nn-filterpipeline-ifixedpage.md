@@ -4,7 +4,7 @@ title: IFixedPage
 author: windows-driver-content
 description: A filter uses the IFixedPage interface to work with fixed pages in an XPS document.
 old-location: print\ifixedpage.htm
-old-project: print
+tech.root: print
 ms.assetid: e9e309ed-42e5-40cc-a230-6ca001f9fb1b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::GetNext, GetNext, IDebugHostSymbolEnumerator.GetNext, IDebugHostSymbolEnumerator::GetNext, IDebugHostSymbolEnumerator.GetNext
 req.header: dbgmodel.h
@@ -44,7 +44,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+Moves the iterator forward and fetches the next symbol in the set.
+
+E_BOUNDS will be returned when the enumerator hits the end of the set.
 
 ## -parameters
 
@@ -52,7 +54,10 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostSymbolEnumerator interface](nn-dbgmodel-idebughostsymbolenumerator.md)

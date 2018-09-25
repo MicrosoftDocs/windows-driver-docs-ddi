@@ -4,7 +4,7 @@ title: WppRecorderLogSetIdentifier macro
 author: windows-driver-content
 description: The WppRecorderLogSetIdentifier method sets a string identifier for the recorder log.
 old-location: devtest\wpprecorderlogsetidentifier.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

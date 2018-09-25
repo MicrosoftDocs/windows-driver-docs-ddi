@@ -4,7 +4,7 @@ title: "_DMA_TRANSFER_INFO_V1"
 author: windows-driver-content
 description: The DMA_TRANSFER_INFO_V1 structure contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 old-location: kernel\dma_transfer_info_v1.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 01EAF66D-F4E8-4D0F-A52C-900EF338FCA1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

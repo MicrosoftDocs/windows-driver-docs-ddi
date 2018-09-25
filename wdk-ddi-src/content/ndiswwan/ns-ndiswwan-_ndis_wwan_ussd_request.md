@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_USSD_REQUEST"
 author: windows-driver-content
 description: The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS request.
 old-location: netvista\ndis_wwan_ussd_request.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: B98143A1-7F7D-4130-A388-72A21B89E6D8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_REQUEST, PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_REQUEST, ndiswwan/NDIS_WWAN_USSD_REQUEST, ndiswwan/PNDIS_WWAN_USSD_REQUEST, netvista.ndis_wwan_ussd_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

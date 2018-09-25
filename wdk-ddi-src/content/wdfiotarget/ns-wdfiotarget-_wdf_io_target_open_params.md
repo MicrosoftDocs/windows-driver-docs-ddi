@@ -4,7 +4,7 @@ title: "_WDF_IO_TARGET_OPEN_PARAMS"
 author: windows-driver-content
 description: The WDF_IO_TARGET_OPEN_PARAMS structure contains parameters that the WdfIoTargetOpen method uses.
 old-location: wdf\wdf_io_target_open_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9539868c-127b-4781-9a73-b56fbfda3233
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_TARGET_OPEN_PARAMS, *PWDF_IO_TARGET_OPEN_PARAMS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure contains parameters that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a> method uses.
 

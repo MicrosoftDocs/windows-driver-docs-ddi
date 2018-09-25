@@ -4,7 +4,7 @@ title: FsRtlIsEcpAcknowledged function
 author: windows-driver-content
 description: The FsRtlIsEcpAcknowledged routine is used to determine if a given extra create parameter (ECP) context structure has been marked as acknowledged.
 old-location: ifsk\fsrtlisecpacknowledged.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ee2f06f6-3295-4a92-b232-daf66ec6195a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

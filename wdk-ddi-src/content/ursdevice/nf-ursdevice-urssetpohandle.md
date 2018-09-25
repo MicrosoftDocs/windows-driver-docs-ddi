@@ -4,10 +4,10 @@ title: UrsSetPoHandle function
 author: windows-driver-content
 description: Registers and deletes the client driver's registration with the power management framework (PoFx).
 old-location: buses\urssetpohandle.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

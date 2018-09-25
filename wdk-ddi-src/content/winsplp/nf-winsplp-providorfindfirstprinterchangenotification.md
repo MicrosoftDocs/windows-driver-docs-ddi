@@ -2,9 +2,9 @@
 UID: NF:winsplp.ProvidorFindFirstPrinterChangeNotification
 title: ProvidorFindFirstPrinterChangeNotification function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\providorfindfirstprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_FILE_RENAME_INFORMATION"
 author: windows-driver-content
 description: The FILE_RENAME_INFORMATION structure is used to rename a file.
 old-location: ifsk\file_rename_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

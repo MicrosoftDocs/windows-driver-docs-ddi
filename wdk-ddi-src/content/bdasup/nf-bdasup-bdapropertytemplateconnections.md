@@ -4,7 +4,7 @@ title: BdaPropertyTemplateConnections function
 author: windows-driver-content
 description: The BdaPropertyTemplateConnections function retrieves a list of connections that describe how pin types and node types are connected in a template topology.
 old-location: stream\bdapropertytemplateconnections.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 64b55b53-677a-4977-b865-0a07d34d2530
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -61,7 +61,7 @@ The <b>BdaPropertyTemplateConnections</b> function retrieves a list of connectio
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

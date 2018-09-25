@@ -4,7 +4,7 @@ title: IWDTFAction2::GetStatus
 author: windows-driver-content
 description: Returns the status code for the last operation.
 old-location: dtf\iwdtfaction2_getstatus.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 39e5bfb8-83fe-4b68-814d-933a26d6d567
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

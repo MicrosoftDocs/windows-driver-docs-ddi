@@ -4,7 +4,7 @@ title: DOT11EXT_SEND_NOTIFICATION
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsendnotification.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8191b375-537e-44df-920e-077c77ed2354
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
-The IHV Extensions DLL calls the 
+The IHV Extensions DLL calls the
   <b>Dot11ExtSendNotification</b> function to send notifications to any service or
   application that has registered for the notification.
 
@@ -77,16 +77,16 @@ DWORD WINAPI * Dot11ExtSendNotification(
 ### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
-     value was specified through a previous call to the 
+     value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param pNotificationData [in]
 
-A pointer to an 
+A pointer to an
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557044">L2_NOTIFICATION_DATA</a> structure.
-     
+
 
 
 <div class="alert"><b>Note</b>  The IHV Extensions DLL must not pass a <b>NULL</b> value for this parameter.</div>
@@ -98,7 +98,7 @@ A pointer to an
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -108,12 +108,12 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-A service or application registers to receive the notification by calling the 
+A service or application registers to receive the notification by calling the
     <b>WlanRegisterNotification</b> Auto Configuration Manager (ACM) function. For more information about this
     function, refer to the Microsoft Windows SDK documentation.
 
-If the IHV Extensions DLL allocated memory for the notification data referenced by the 
-    <i>pNotificationData</i> parameter, the DLL can free the memory after the call to 
+If the IHV Extensions DLL allocated memory for the notification data referenced by the
+    <i>pNotificationData</i> parameter, the DLL can free the memory after the call to
     <b>Dot11ExtSendNotification</b> returns.
 
 

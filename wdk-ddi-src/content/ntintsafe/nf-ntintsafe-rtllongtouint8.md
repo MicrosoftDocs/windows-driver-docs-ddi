@@ -4,7 +4,7 @@ title: RtlLongToUInt8 function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type UINT8.
 old-location: kernel\rtllongtouint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3C2221F8-DD75-4FB7-A28D-B636D2D2394D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,24 +60,14 @@ Converts a value of type <b>LONG</b> to a value of type <b>UINT8</b>.
 
 ### -param lOperand
 
-TBD
+<p>The value to be converted.</p>
 
 
 ### -param pui8Result
 
-TBD
+<p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - pusResult [out]
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
-#### - ulOperand [in]
-
-The value to be converted.
 
 
 ## -remarks

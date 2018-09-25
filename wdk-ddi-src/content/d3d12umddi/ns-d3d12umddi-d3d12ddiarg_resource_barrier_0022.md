@@ -4,10 +4,9 @@ title: D3D12DDIARG_RESOURCE_BARRIER_0022
 author: windows-driver-content
 description: Describes a resource barrier.
 old-location: display\d3d12ddiarg_resource_barrier_0022.htm
-old-project: display
 ms.assetid: ED597BB0-F9ED-4311-9E2F-06AEA2755B37
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, display.d3d12ddiarg_resource_barrier_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_RESOURCE_BARRIER_0022
 ---
 

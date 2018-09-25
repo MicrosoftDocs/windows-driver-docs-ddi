@@ -4,10 +4,10 @@ title: wiauStrC2W function
 author: windows-driver-content
 description: The wiauStrC2W function converts an ANSI character string to a Unicode string.
 old-location: image\wiaustrc2w.htm
-old-project: image
+tech.root: image
 ms.assetid: 66d90248-c496-44c8-98f4-5eb3e2cae130
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaustrc2w, wiauFncs_acd27425-a431-42a0-8317-514ea7904ace.xml, wiauStrC2W, wiauStrC2W function [Imaging Devices], wiautil/wiauStrC2W
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ebf8fe3d-bd5d-4fdb-8ce7-0baca3149fb5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::GetType, GetType, IDebugHostBaseClass.GetType, IDebugHostBaseClass::GetType, IDebugHostBaseClass.GetType
 req.header: dbgmodel.h
@@ -43,16 +43,17 @@ targetos: Windows
 
 
 ## -description
-
-TBD
-
+Returns the type (e.g.: "int *") of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
+ 
 ## -parameters
 
 ### -param type
-
+The type of the symbol will be returned here.
 
 ## -returns
-This method returns HRESULT.
-## -remarks
+This method returns HRESULT that indicates success or failure.
 
+```
 ## -see-also
+
+[IDebugHostBaseClass interface](nn-dbgmodel-idebughostbaseclass.md)

@@ -4,7 +4,7 @@ title: WdfIoTargetFormatRequestForRead function
 author: windows-driver-content
 description: The WdfIoTargetFormatRequestForRead method builds a read request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforread.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e7c770de-0508-46e8-9820-aee6716fb7a7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetFormatRequestForRead</b> method builds a read request for an I/O target but does not send the request.
 

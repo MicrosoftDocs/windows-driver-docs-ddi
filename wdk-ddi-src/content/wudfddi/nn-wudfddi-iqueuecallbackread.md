@@ -4,7 +4,7 @@ title: IQueueCallbackRead
 author: windows-driver-content
 description: An I/O queue notifies a driver when a read request is available for the driver.
 old-location: wdf\iqueuecallbackread.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ccae49a2-2081-44f2-b1f6-cb1e98b74e5d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

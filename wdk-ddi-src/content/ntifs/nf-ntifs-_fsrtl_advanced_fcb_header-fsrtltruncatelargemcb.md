@@ -4,7 +4,7 @@ title: FsRtlTruncateLargeMcb function
 author: windows-driver-content
 description: The FsRtlTruncateLargeMcb routine truncates a large map control block (MCB).
 old-location: ifsk\fsrtltruncatelargemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 59970380-0cf5-4557-aa39-854c837552a5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlTruncateLargeMcb
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,24 +60,14 @@ The <b>FsRtlTruncateLargeMcb</b> routine truncates a large map control block (MC
 
 ### -param Mcb
 
-TBD
+<p>Pointer to the MCB structure. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. </p>
 
 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. 
-
-
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
 
 
 ## -returns

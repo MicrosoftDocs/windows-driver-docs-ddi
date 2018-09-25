@@ -4,10 +4,9 @@ title: D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 author: windows-driver-content
 description: The D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of the stream output for a geometry shader.
 old-location: display\d3d10ddiarg_stream_output_declaration_entry.htm
-old-project: display
 ms.assetid: 42d01b63-ca3b-4348-bf50-a1d648548266
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bdfafade-cf99-4cbb-9ae1-d1bd57997dac.xml, d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d10ddiarg_stream_output_declaration_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 ---
 

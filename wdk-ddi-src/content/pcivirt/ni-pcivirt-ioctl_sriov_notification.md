@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_NOTIFICATION
 author: windows-driver-content
 description: The request indicates that the virtualization stack wants to be notified when one of the events listed in SRIOV_PF_EVENT occurs.
 old-location: pci\ioctl-sriov-notification.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pcivirt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -47,7 +47,7 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 # IOCTL_SRIOV_NOTIFICATION IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
@@ -56,7 +56,7 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 
 
 The  request indicates that the virtualization stack wants to be notified when one of the events listed in
-<a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-839a-d34acb108807">SRIOV_PF_EVENT</a> occurs.  
+<a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-839a-d34acb108807">SRIOV_PF_EVENT</a> occurs.
 
 
 ## -ioctlparameters
@@ -74,7 +74,7 @@ A pointer to the variable, which is assigned the number of written bytes to the 
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 ## -remarks
@@ -89,15 +89,15 @@ The <b>IOCTL_SRIOV_NOTIFICATION</b> request is held in a queue by the PF driver 
 
 If the PF driver receives this IOCTL request while processing a Plug and Play event  for which the driver has not yet completed a notification, it should complete the IOCTL request immediately with the event details in the output buffer.  Otherwise, the driver should queue the request until either it is cancelled or a Plug and Play event that requires notification occurs.
 
-The virtualization stack can send the <b>IOCTL_SRIOV_NOTIFICATION</b> request immediately after the previous <b>IOCTL_SRIOV_NOTIFICATION</b> request completes.   The PF driver must keep track of the fact 
+The virtualization stack can send the <b>IOCTL_SRIOV_NOTIFICATION</b> request immediately after the previous <b>IOCTL_SRIOV_NOTIFICATION</b> request completes.   The PF driver must keep track of the fact
 that an event notification has been delivered and must not complete two IOCTL requests for the same event twice.
 
-  It is pended by the PF driver until it is canceled by the sender or until the PF driver experiences one of several PnP events, at which point it is completed. 
+  It is pended by the PF driver until it is canceled by the sender or until the PF driver experiences one of several PnP events, at which point it is completed.
 
 ```
 
 case IOCTL_SRIOV_NOTIFICATION:
-        TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL, 
+        TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL,
             "IOCTL_SRIOV_NOTIFICATION:\n");
 
         status = WdfRequestForwardToIoQueue(Request,

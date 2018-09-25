@@ -4,7 +4,7 @@ title: KeReadStateSemaphore function
 author: windows-driver-content
 description: The KeReadStateSemaphore routine returns the current state, signaled or not-signaled, of the specified semaphore object.
 old-location: kernel\kereadstatesemaphore.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e88c89fb-c308-4c6d-a67d-c8f98d539a43
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

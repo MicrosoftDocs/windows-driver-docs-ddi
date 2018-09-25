@@ -4,7 +4,7 @@ title: WdfDmaTransactionSetTransferCompleteCallback function
 author: windows-driver-content
 description: The WdfDmaTransactionSetTransferCompleteCallback method registers a transfer completion event callback function for a system-mode DMA transaction.
 old-location: wdf\wdfdmatransactionsettransfercompletecallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDmaTransactionSetTransferCompleteCallback</b> method registers a transfer completion event callback function for a system-mode DMA transaction.

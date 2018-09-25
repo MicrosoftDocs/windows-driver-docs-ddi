@@ -4,7 +4,7 @@ title: "_FLT_NAME_CONTROL"
 author: windows-driver-content
 description: A minifilter that provides file names for the Filter Manager's name cache can use the FLT_NAME_CONTROL structure to manage its name buffers.
 old-location: ifsk\flt_name_control.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0f796ad1-e4b4-4113-b076-ed6c9ea711c9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

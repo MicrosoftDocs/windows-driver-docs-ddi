@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_PHOTOMODE
 author: windows-driver-content
 description: The KSCAMERA_EXTENDEDPROP_PHOTOMODE structure contains the property data for the history frame counts in photo mode.
 old-location: stream\kscamera_extendedprop_photomode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 96F920FC-43CE-4ACC-B880-9AD03B5D6009
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

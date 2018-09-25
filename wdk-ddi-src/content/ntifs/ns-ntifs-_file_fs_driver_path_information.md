@@ -4,7 +4,7 @@ title: "_FILE_FS_DRIVER_PATH_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_DRIVER_PATH_INFORMATION structure is used to query whether a given driver is in the I/O path for a file system volume.
 old-location: ifsk\file_fs_driver_path_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6149765b-cd2c-44f5-aa72-f4755e0b034c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

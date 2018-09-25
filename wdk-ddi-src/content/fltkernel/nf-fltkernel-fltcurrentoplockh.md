@@ -4,7 +4,7 @@ title: FltCurrentOplockH function
 author: windows-driver-content
 description: A minifilter driver calls the FltCurrentOplockH routine to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file.
 old-location: ifsk\fltcurrentoplockh.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ee066013-99fb-4a43-82f9-edbad7b5a8e9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: FsRtlUninitializeFileLock function
 author: windows-driver-content
 description: The FsRtlUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fsrtluninitializefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e92763e2-a15a-41cd-9f69-ec759b254929
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlUninitializeFileLock
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---
@@ -79,7 +80,7 @@ None
 
 <b>FsRtlUninitializeFileLock</b> can be used to uninitialize a FILE_LOCK structure that was initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>. Do not use <b>FsRtlUninitializeFileLock</b> for such a FILE_LOCK structure unless the structure is to be initialized for reuse. It is a programming error to call <b>FsRtlFreeFileLock</b> for an uninitialized FILE_LOCK structure.
 
-Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544595">FltUninitializeFileLock</a> instead of <b>FsRtlUninitializeFileLock</b>. 
+Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544595">FltUninitializeFileLock</a> instead of <b>FsRtlUninitializeFileLock</b>.
 
 
 

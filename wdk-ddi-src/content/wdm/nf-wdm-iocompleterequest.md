@@ -4,7 +4,7 @@ title: IoCompleteRequest macro
 author: windows-driver-content
 description: The IoCompleteRequest routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
 old-location: kernel\iocompleterequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function initializes a driver's WDF_DMA_SYSTEM_PROFILE_CONFIG structure.
 old-location: wdf\wdf_dma_system_profile_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439495">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure.
 
@@ -62,7 +62,7 @@ The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> function initializes a driver's <a
 
 ### -param DmaConfig
 
-TBD
+<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Hh439495(v=VS.85).aspx"><b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b></a> structure.</p>
 
 
 ### -param Address [in]
@@ -79,11 +79,6 @@ The width of the register specified by <b>Address</b>.
 
 The translated resource descriptor for the DMA channel assigned 
       the device during <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>.
-
-
-#### - Config [out]
-
-A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439495">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure.
 
 
 ## -returns

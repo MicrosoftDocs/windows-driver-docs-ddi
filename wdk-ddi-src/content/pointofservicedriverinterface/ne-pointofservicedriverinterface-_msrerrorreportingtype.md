@@ -4,7 +4,7 @@ title: "_MsrErrorReportingType"
 author: windows-driver-content
 description: This enumeration defines the constants that indicate the error reporting type for the magnetic stripe reader (MSR).
 old-location: pos\msrerrorreportingtype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 86b0845b-28fc-47d3-add8-dd3e8b8f631c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,10 +4,10 @@ title: RIL_AvoidCDMASystem function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_avoidcdmasystem.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 03b445ca-a2af-4d84-bb2e-fea9f5800e20
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

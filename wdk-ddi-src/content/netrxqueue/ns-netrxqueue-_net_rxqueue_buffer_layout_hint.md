@@ -33,9 +33,11 @@ apilocation:
 -	netrxqueue.h
 apiname: 
 -	NET_RXQUEUE_BUFFER_LAYOUT_HINT
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # _NET_RXQUEUE_BUFFER_LAYOUT_HINT structure
@@ -45,7 +47,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_RXQUEUE_BUFFER_LAYOUT_HINT** structure represents receive buffer layout hints returned to a client driver from the upper layer.
 

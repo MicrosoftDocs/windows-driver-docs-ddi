@@ -4,10 +4,9 @@ title: D3D12DDIARG_CREATE_VIDEO_DECODER_0021
 author: windows-driver-content
 description: Used to create a decoder object for a decode session.
 old-location: display\d3d12ddiarg_create_video_decoder.htm
-old-project: display
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_0021
 ---
 

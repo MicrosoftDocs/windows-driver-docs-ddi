@@ -4,7 +4,7 @@ title: IoReadDiskSignature function
 author: windows-driver-content
 description: The IoReadDiskSignature routine reads the disk signature information for the partition table of a disk.
 old-location: storage\ioreaddisksignature.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

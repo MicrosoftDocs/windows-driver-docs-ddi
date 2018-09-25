@@ -4,10 +4,10 @@ title: IDebugEventCallbacksWide::ChangeSymbolState
 author: windows-driver-content
 description: The ChangeSymbolState callback method is called by the engine when the symbol state changes.
 old-location: debugger\idebugeventcallbackswide_changesymbolstate.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacksWide.ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

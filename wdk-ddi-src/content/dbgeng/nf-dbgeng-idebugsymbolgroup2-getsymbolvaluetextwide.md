@@ -4,10 +4,10 @@ title: IDebugSymbolGroup2::GetSymbolValueTextWide
 author: windows-driver-content
 description: The GetSymbolValueTextWide method returns a string that represents the value of a symbol.
 old-location: debugger\getsymbolvaluetextwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 56e147ea-497b-4691-8a62-8165828b1f36
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetSymbolValueTextWide, GetSymbolValueTextWide method [Windows Debugging], GetSymbolValueTextWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolValueTextWide method, IDebugSymbolGroup2.GetSymbolValueTextWide, IDebugSymbolGroup2::GetSymbolValueTextWide, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, debugger.getsymbolvaluetextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

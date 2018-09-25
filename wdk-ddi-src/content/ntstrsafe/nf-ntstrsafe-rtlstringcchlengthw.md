@@ -4,7 +4,7 @@ title: RtlStringCchLengthW function
 author: windows-driver-content
 description: The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string.
 old-location: kernel\rtlstringcchlength.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -73,14 +73,9 @@ The maximum number of characters allowed in the buffer pointed to by <i>psz</i>,
 
 ### -param pcchLength
 
-TBD
+<p>If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in characters, of the string that is contained in the buffer. The length does not include the string's terminating null character.</p>
 
 
-
-
-#### - pcch [out, optional]
-
-If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in characters, of the string that is contained in the buffer. The length does not include the string's terminating null character.
 
 
 ## -returns

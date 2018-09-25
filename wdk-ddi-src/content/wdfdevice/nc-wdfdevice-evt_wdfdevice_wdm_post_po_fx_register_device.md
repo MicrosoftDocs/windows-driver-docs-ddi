@@ -4,7 +4,7 @@ title: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE
 author: windows-driver-content
 description: The EvtDeviceWdmPostPoFxRegisterDevice callback function performs device-specific operations after the framework has registered with the power framework.
 old-location: wdf\evtdevicewdmpostpofxregisterdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4CE227F5-9ED4-4484-AFBF-44D1260EB99D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The 

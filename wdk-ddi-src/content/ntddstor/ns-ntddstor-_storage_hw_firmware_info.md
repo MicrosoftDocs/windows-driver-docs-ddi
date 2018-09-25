@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_INFO"
 author: windows-driver-content
 description: This structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5A85A7EC-2333-4161-A1E7-55D3420E730C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

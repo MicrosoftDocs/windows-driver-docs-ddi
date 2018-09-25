@@ -4,7 +4,7 @@ title: EtwEventEnabled function
 author: windows-driver-content
 description: The EtwEventEnabled function verifies whether an event is enabled.
 old-location: devtest\etweventenabled.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 19aa5905-f611-46e2-8d70-a6cc4649c911
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

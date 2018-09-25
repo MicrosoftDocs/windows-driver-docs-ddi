@@ -4,7 +4,7 @@ title: IKsPinPipe::KsSetPinFramingCache
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpinframingcache.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E334FEE1-DD78-4906-ADFA-1B496F91BA28
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

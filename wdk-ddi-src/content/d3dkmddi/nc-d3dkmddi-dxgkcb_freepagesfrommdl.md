@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_FREEPAGESFROMMDL
 title: DXGKCB_FREEPAGESFROMMDL
 author: windows-driver-content
-description:
+description: Implemented by the client driver to frees all the physical pages that are described by an MDL and was created by the DXGKCB_ALLOCATEPAGESFORMDL routine.
 ms.assetid: 8d18ed12-1cbd-4908-ba06-d87e83fc175d
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKCB_FREEPAGESFROMMDL
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGKCB_FREEPAGESFROMMDL callback function
@@ -71,7 +73,7 @@ DXGKCB_FREEPAGESFROMMDL
 
 Handle to a display adapter.
 
-### -param pFreePagesFromMdl:
+### -param pFreePagesFromMdl
 
 Pointer to a DXGKARGCB_FREEPAGESFROMMDL structure that contains a handle to the pages for MDL.
 

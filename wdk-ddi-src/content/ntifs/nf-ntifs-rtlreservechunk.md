@@ -4,7 +4,7 @@ title: RtlReserveChunk function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlreservechunk.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d6cd676c-32ed-457f-84a3-999246eba0d8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlReserveChunk</b> routine is reserved for system use.
 
 ### -param CompressionFormat
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param CompressedBuffer

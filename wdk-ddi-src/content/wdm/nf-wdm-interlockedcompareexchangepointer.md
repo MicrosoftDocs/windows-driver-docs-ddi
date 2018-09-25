@@ -2,9 +2,9 @@
 UID: NF:wdm.InterlockedCompareExchangePointer
 title: InterlockedCompareExchangePointer function
 author: windows-driver-content
-description: The InterlockedCompareExchangePointer routine performs an atomic operation that compares the input pointer value pointed to by Destination with the pointer value Comparand.
+description: The InterlockedCompareExchangePointer routine performs an atomic operation that compares the input pointer value pointed to by Destination with the pointer value Comperand.
 old-location: kernel\interlockedcompareexchangepointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b96076f-a7f7-4705-bbee-595ee4d9f789
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>InterlockedCompareExchangePointer</b> routine performs an atomic operation that compares the input pointer value pointed to by <i>Destination</i> with the pointer value <i>Comparand</i>.
+The <b>InterlockedCompareExchangePointer</b> routine performs an atomic operation that compares the input pointer value pointed to by <i>Destination</i> with the pointer value <i>Comperand</i>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>InterlockedCompareExchangePointer</b> routine performs an atomic operatio
 
 ### -param Destination [in, out]
 
-A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comparand</i>, then the routine sets (*<i>Destination</i>) to <i>Exchange</i>.
+A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comperand</i>, then the routine sets (*<i>Destination</i>) to <i>Exchange</i>.
 
 
 ### -param Exchange [in]
@@ -87,9 +87,9 @@ Specifies the PVOID value to compare with (*<i>Destination</i>).
 
 
 
-If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
+If <i>Comperand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
 
-<b>InterlockedCompareExchangePointer</b> provides a fast, atomic way to synchronize the testing and updating of a pointer variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>, the value pointed to by <i>Destination</i> is set to the value of <i>Exchange</i>.
+<b>InterlockedCompareExchangePointer</b> provides a fast, atomic way to synchronize the testing and updating of a pointer variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comperand</i>, the value pointed to by <i>Destination</i> is set to the value of <i>Exchange</i>.
 
 <b>InterlockedCompareExchangePointer</b> is designed for speed and, typically, is implemented inline by a compiler. <b>InterlockedCompareExchangePointer</b> is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls. It does not use a spin lock and can be safely used on pageable data.
 

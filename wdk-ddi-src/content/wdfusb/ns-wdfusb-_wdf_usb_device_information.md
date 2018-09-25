@@ -4,7 +4,7 @@ title: "_WDF_USB_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The WDF_USB_DEVICE_INFORMATION structure contains version and capability information for a USB device.
 old-location: wdf\wdf_usb_device_information.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5d212a29-22b9-408d-9562-b232fc91cc9f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_USB_DEVICE_INFORMATION, *PWDF_USB_DEVICE_INFORMATION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_DEVICE_INFORMATION</b> structure contains version and capability information for a USB device.
 

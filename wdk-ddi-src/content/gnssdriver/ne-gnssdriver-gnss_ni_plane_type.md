@@ -4,7 +4,7 @@ title: GNSS_NI_PLANE_TYPE
 author: windows-driver-content
 description: This enumeration indicates the plane type of a network initiated (NI) request represented by the GNSS_NI_REQUEST_PARAM structure.
 old-location: gnss\gnss_ni_plane_type.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: F06FFABA-D7AB-4301-9F73-CE4BBB0B8AA6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

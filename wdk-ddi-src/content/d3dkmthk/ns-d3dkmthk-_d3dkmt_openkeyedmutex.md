@@ -4,10 +4,9 @@ title: "_D3DKMT_OPENKEYEDMUTEX"
 author: windows-driver-content
 description: The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the D3DKMTOpenKeyedMutex function opens.
 old-location: display\d3dkmt_openkeyedmutex.htm
-old-project: display
 ms.assetid: c5200822-b393-4ba1-8d2a-d4ab98ffcf1d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OPENKEYEDMUTEX, D3DKMT_OPENKEYEDMUTEX structure [Display Devices], OpenGL_Structs_78a96126-b992-431f-9e91-c08c61694732.xml, _D3DKMT_OPENKEYEDMUTEX, d3dkmthk/D3DKMT_OPENKEYEDMUTEX, display.d3dkmt_openkeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENKEYEDMUTEX
 ---
 

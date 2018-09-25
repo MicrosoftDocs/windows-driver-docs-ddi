@@ -4,7 +4,7 @@ title: WdfChildListBeginScan function
 author: windows-driver-content
 description: The WdfChildListBeginScan method prepares a specified list of child devices so the driver can update the information in the list.
 old-location: wdf\wdfchildlistbeginscan.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 08951cde-d9d2-4de6-bb63-7c3e7cf1f92f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListBeginScan</b> method prepares a specified list of child devices so the driver can update the information in the list.
 

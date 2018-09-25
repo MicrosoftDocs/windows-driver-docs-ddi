@@ -4,7 +4,7 @@ title: "_DISK_CACHE_INFORMATION"
 author: windows-driver-content
 description: The DISK_CACHE_INFORMATION structure is used with the IOCTL_DISK_GET_CACHE_INFORMATION request to retrieve cache information.
 old-location: storage\disk_cache_information.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

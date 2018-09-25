@@ -4,7 +4,7 @@ title: "_MEMORY_BASIC_INFORMATION"
 author: windows-driver-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

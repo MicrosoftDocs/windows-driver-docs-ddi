@@ -4,10 +4,10 @@ title: CWiauFormatConverter::ConvertToBmp
 author: windows-driver-content
 description: The CWiauFormatConverter::ConvertToBmp method converts an image to BMP format.
 old-location: image\cwiauformatconverter_converttobmp.htm
-old-project: image
+tech.root: image
 ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],ConvertToBmp method, CWiauFormatConverter.ConvertToBmp, CWiauFormatConverter::ConvertToBmp, ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, wiautil/CWiauFormatConverter::ConvertToBmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

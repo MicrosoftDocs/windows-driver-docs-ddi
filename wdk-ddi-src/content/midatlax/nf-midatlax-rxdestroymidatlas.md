@@ -4,7 +4,7 @@ title: RxDestroyMidAtlas function
 author: windows-driver-content
 description: RxDestroyMidAtlas destroys an existing instance of a MID_ATLAS data structure and frees the allocated memory.
 old-location: ifsk\rxdestroymidatlas.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9d5c08c8-8306-46e3-b10b-eeefe473d340
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,24 +60,14 @@ req.typenames:
 
 ### -param MidAtlas
 
-TBD
+<p>The MID_ATLAS structure to be freed.</p>
 
 
 ### -param ContextDestructor
 
-TBD
+<p>An associated context destructor.</p>
 
 
-
-
-#### - pContextDestructor
-
-An associated context destructor.
-
-
-#### - pMidAtlas
-
-The MID_ATLAS structure to be freed.
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: RevertToPrinterSelf function
 author: windows-driver-content
 description: When RevertToPrinterSelf is called on an impersonating thread, it returns the token for the thread that is being impersonated.
 old-location: print\reverttoprinterself.htm
-old-project: print
+tech.root: print
 ms.assetid: 3d94d363-fc8b-4b12-b90d-43dfc5923bdf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

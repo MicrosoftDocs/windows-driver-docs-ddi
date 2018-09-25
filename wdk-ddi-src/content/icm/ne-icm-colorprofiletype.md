@@ -4,7 +4,7 @@ title: COLORPROFILETYPE
 author: windows-driver-content
 description: The COLORPROFILETYPE enumeration is used to specify the type of color profile.
 old-location: print\colorprofiletype.htm
-old-project: print
+tech.root: print
 ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -15,7 +15,7 @@ ms.topic: enum
 req.header: icm.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

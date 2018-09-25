@@ -4,7 +4,7 @@ title: KsIncrementCountedWorker function
 author: windows-driver-content
 description: Increments the current worker count, and optionally queues the counted work item with the worker previously created by KsRegisterCountedWorker.
 old-location: stream\ksincrementcountedworker.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

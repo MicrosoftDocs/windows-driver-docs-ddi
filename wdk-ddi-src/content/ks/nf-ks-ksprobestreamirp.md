@@ -4,7 +4,7 @@ title: KsProbeStreamIrp function
 author: windows-driver-content
 description: The KsProbeStreamIrp function makes the specified modifications to the input and output buffers of the given IRP based on the flags passed, and it then validates the stream header.
 old-location: stream\ksprobestreamirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 25b49781-2676-4b5e-b17b-dcb1bf98b297
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -71,7 +71,7 @@ Specifies flags specifying how to probe the streaming IRP; the flags are listed 
 
 ### -param OPTIONAL
 
-TBD
+
 
 
 

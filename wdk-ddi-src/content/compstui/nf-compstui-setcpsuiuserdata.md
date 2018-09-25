@@ -4,7 +4,7 @@ title: SetCPSUIUserData function
 author: windows-driver-content
 description: CPSUI's SetCPSUIUserData function allows CPSUI applications (including printer interface DLLs) to associate nondisplayed data with a property sheet dialog box.
 old-location: print\setcpsuiuserdata.htm
-old-project: print
+tech.root: print
 ms.assetid: 35119100-adf9-4376-bb1a-7317733fbcc5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

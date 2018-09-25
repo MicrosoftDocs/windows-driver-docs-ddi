@@ -4,7 +4,7 @@ title: PsGetHostSilo function
 author: windows-driver-content
 description: This routine returns the host silo.
 old-location: kernel\psgethostsilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0B78562C-25DD-4CF2-9804-6DBEDE8B5F69
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

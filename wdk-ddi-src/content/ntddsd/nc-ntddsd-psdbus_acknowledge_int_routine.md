@@ -4,7 +4,7 @@ title: PSDBUS_ACKNOWLEDGE_INT_ROUTINE
 author: windows-driver-content
 description: The PSDBUS_ACKNOWLEDGE_INT_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver must call to acknowledge to the bus driver that it has finished processing the interrupt.
 old-location: sd\psdbus_acknowledge_int_routine.htm
-old-project: SD
+tech.root: SD
 ms.assetid: b3d23404-2d55-4a37-8c4c-d857c5307f18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

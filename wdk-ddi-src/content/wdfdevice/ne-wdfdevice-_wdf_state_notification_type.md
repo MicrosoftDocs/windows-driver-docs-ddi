@@ -4,7 +4,7 @@ title: "_WDF_STATE_NOTIFICATION_TYPE"
 author: windows-driver-content
 description: The WDF_STATE_NOTIFICATION_TYPE enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive.
 old-location: wdf\wdf_state_notification_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_STATE_NOTIFICATION_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_STATE_NOTIFICATION_TYPE</b> enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive.
 

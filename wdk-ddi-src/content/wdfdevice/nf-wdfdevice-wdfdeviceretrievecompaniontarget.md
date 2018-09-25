@@ -4,7 +4,7 @@ title: WdfDeviceRetrieveCompanionTarget function
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfdeviceretrievecompaniontarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

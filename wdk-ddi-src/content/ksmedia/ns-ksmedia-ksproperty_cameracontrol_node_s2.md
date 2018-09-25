@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_NODE_S2
 author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set that use two values at the same time. This structure specifies property values in requests to the USB video class driver.
 old-location: stream\ksproperty_cameracontrol_node_s2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0d3ed82e-3565-4b0b-bca9-1d0b91732d18
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

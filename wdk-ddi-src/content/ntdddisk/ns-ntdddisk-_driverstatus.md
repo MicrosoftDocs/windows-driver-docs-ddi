@@ -4,7 +4,7 @@ title: "_DRIVERSTATUS"
 author: windows-driver-content
 description: The DRIVERSTATUS structure is used in conjunction with the SENDCMDOUTPARAMS structure and the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\driverstatus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

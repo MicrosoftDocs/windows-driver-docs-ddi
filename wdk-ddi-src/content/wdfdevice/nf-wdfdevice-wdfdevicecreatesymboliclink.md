@@ -4,7 +4,7 @@ title: WdfDeviceCreateSymbolicLink function
 author: windows-driver-content
 description: The WdfDeviceCreateSymbolicLink method creates a symbolic link to a specified device.
 old-location: wdf\wdfdevicecreatesymboliclink.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c22035a2-8ceb-42e9-9d54-8997ce0dd8da
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceCreateSymbolicLink</b> method creates a symbolic link to a specified device.
 

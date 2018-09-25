@@ -4,7 +4,7 @@ title: RILADDRESSNUMPLAN
 author: windows-driver-content
 description: This enumeration describes the RILADDRESSNUMPLAN.
 old-location: netvista\riladdressnumplan.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fa25ce95-3eed-41f3-a0eb-5c290fa032e8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,13 +60,13 @@ req.typenames: RILADDRESSNUMPLAN
 
 ````
 enum RILADDRESSNUMPLAN {
-  RIL_NUMPLAN_UNKNOWN    = 0x00000000, 
-  RIL_NUMPLAN_TELEPHONE  = 0x00000001, 
-  RIL_NUMPLAN_DATA       = 0x00000002, 
-  RIL_NUMPLAN_TELEX      = 0x00000003, 
-  RIL_NUMPLAN_NATIONAL   = 0x00000004, 
-  RIL_NUMPLAN_PRIVATE    = 0x00000005, 
-  RIL_NUMPLAN_ERMES      = 0x00000006 
+  RIL_NUMPLAN_UNKNOWN    = 0x00000000,
+  RIL_NUMPLAN_TELEPHONE  = 0x00000001,
+  RIL_NUMPLAN_DATA       = 0x00000002,
+  RIL_NUMPLAN_TELEX      = 0x00000003,
+  RIL_NUMPLAN_NATIONAL   = 0x00000004,
+  RIL_NUMPLAN_PRIVATE    = 0x00000005,
+  RIL_NUMPLAN_ERMES      = 0x00000006
 
 };
 ````

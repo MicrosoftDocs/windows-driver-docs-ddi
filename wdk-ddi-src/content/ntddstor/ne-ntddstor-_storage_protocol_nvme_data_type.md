@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_NVME_DATA_TYPE"
 author: windows-driver-content
 description: Describes the type of NVMe protocol-specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_nvme_data_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 02DB004B-F5B9-4CA2-9CA8-9C7BFB9BA5CD
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

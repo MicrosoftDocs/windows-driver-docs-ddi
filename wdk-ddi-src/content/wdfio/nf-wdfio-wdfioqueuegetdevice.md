@@ -4,7 +4,7 @@ title: WdfIoQueueGetDevice function
 author: windows-driver-content
 description: The WdfIoQueueGetDevice method returns a handle to the framework device object that a specified I/O queue belongs to.
 old-location: wdf\wdfioqueuegetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueGetDevice</b> method returns a handle to the framework device object that a specified I/O queue belongs to.
 

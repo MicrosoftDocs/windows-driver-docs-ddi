@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_OPENHEAPANDRESOURCE_0043
 title: PFND3D12DDI_OPENHEAPANDRESOURCE_0043
 author: windows-driver-content
-description:
+description: Implemented by the client driver to open heap and resource.
 ms.assetid: e4387638-208c-4ea7-9858-773c2da0d2ba
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_OPENHEAPANDRESOURCE_0043
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_OPENHEAPANDRESOURCE_0043 callback function
@@ -91,7 +93,7 @@ Used to create a resource.
 
 The protected resource session.
 
-### -param D3D12DDI_HRESOURCE:
+### -param D3D12DDI_HRESOURCE
 
 The hardware resource.
 

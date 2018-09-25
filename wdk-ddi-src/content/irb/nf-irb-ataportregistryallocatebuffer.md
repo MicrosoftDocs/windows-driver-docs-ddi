@@ -4,7 +4,7 @@ title: AtaPortRegistryAllocateBuffer function
 author: windows-driver-content
 description: The AtaPortRegistryAllocateBuffer routine allocates a buffer for registry operations.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportregistryallocatebuffer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c888fd84-2828-4f2d-921d-ba92a5ce9c84
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -68,14 +68,9 @@ A pointer to the channel extension.
 
 ### -param BufferSize
 
-TBD
+<p>Specifies the length of the buffer, in bytes.</p>
 
 
-
-
-#### - Count [in]
-
-Specifies the length of the buffer, in bytes.
 
 
 ## -returns

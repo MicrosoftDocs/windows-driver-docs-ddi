@@ -4,7 +4,7 @@ title: RtlFillMemory macro
 author: windows-driver-content
 description: The RtlFillMemory routine fills a block of memory with the specified fill value.
 old-location: kernel\rtlfillmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -62,17 +62,17 @@ The <b>RtlFillMemory</b> routine fills a block of memory with the specified fill
 
 ### -param Destination [out]
 
-A pointer to the block of memory to be filled.
+Datatype: void*. A pointer to the block of memory to be filled.
 
 
 ### -param Length [in]
 
-The number of bytes in the block of memory to be filled.
+Datatype: size_t. The number of bytes in the block of memory to be filled.
 
 
 ### -param Fill [in]
 
-The value to fill the destination memory block with. This value is copied to every byte in the memory block that is defined by <i>Destination</i> and <i>Length</i>.
+Datatype: int. The value to fill the destination memory block with. This value is copied to every byte in the memory block that is defined by <i>Destination</i> and <i>Length</i>.
 
 
 ## -remarks

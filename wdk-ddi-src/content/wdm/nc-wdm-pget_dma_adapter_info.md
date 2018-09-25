@@ -4,7 +4,7 @@ title: PGET_DMA_ADAPTER_INFO
 author: windows-driver-content
 description: The GetDmaAdapterInfo routine retrieves information about the hardware capabilities of a system DMA channel.
 old-location: kernel\getdmaadapterinfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2F502ACA-0CFF-46A1-B54C-1034D6E56815
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

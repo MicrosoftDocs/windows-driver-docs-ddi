@@ -4,7 +4,7 @@ title: HBA_FCPBinding
 author: windows-driver-content
 description: The HBA_FCPBinding structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of logical units.
 old-location: storage\hba_fcpbinding.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e06b82f7-2b48-47e8-b6fa-c86b790e8019
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

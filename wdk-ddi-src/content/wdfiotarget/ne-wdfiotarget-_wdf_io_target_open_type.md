@@ -4,7 +4,7 @@ title: "_WDF_IO_TARGET_OPEN_TYPE"
 author: windows-driver-content
 description: The WDF_IO_TARGET_OPEN_TYPE enumeration specifies how a driver identifies a remote I/O target when the driver calls WdfIoTargetOpen.
 old-location: wdf\wdf_io_target_open_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_TARGET_OPEN_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration specifies how a driver identifies a remote I/O target when the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a>.
 

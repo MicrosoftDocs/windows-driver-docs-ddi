@@ -4,7 +4,7 @@ title: InterlockedExchangeAdd function
 author: windows-driver-content
 description: The InterlockedExchangeAdd routine adds a value to a given integer as an atomic operation and returns the original value of the given integer.
 old-location: kernel\interlockedexchangeadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f61878b4-6bfa-463e-9fb1-c95171ce65b4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: AppendPrinterNotifyInfoData function
 author: windows-driver-content
 description: The print spooler's AppendPrinterNotifyInfoData function adds the contents of a specified PRINTER_NOTIFY_INFO_DATA structure to a specified PRINTER_NOTIFY_INFO structure.
 old-location: print\appendprinternotifyinfodata.htm
-old-project: print
+tech.root: print
 ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -65,7 +65,7 @@ Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (defined in the Micro
 
 ### -param pDataSrc
 
-TBD
+
 
 
 ### -param fdwFlags

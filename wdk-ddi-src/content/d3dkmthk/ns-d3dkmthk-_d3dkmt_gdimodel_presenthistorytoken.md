@@ -4,10 +4,9 @@ title: "_D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure identifies a GDI present-history operation.
 old-location: display\d3dkmt_gdimodel_presenthistorytoken.htm
-old-project: display
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_gdimodel_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
 ---
 

@@ -4,7 +4,7 @@ title: "_WDF_EXECUTION_LEVEL"
 author: windows-driver-content
 description: The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object.
 old-location: wdf\wdf_execution_level.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 82b1fe8e-054c-4710-9a32-d620a62a070e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_EXECUTION_LEVEL
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object.
 

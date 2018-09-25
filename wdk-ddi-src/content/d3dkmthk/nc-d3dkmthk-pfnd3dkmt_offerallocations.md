@@ -4,10 +4,9 @@ title: PFND3DKMT_OFFERALLOCATIONS
 author: windows-driver-content
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
-old-project: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

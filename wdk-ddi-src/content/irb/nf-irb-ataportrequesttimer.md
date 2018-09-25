@@ -4,7 +4,7 @@ title: AtaPortRequestTimer function
 author: windows-driver-content
 description: The AtaPortRequestTimer routine requests a timer callback.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequesttimer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,17 +65,12 @@ A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
-TBD
+<p>A pointer to the timer routine. </p>
 
 
 ### -param TimerValue [in]
 
 Time interval in units of microseconds.
-
-
-#### - TimerRoutine [in]
-
-A pointer to the timer routine. 
 
 
 ## -returns

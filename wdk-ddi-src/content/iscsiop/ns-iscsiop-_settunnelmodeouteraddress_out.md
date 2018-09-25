@@ -4,7 +4,7 @@ title: "_SetTunnelModeOuterAddress_OUT"
 author: windows-driver-content
 description: The SetTunnelModeOuterAddress_OUT structure holds the output data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2cfe935f-eba4-48aa-869d-6381ca038e70
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

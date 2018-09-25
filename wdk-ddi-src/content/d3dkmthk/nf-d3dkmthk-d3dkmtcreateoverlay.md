@@ -4,10 +4,9 @@ title: D3DKMTCreateOverlay function
 author: windows-driver-content
 description: The D3DKMTCreateOverlay function creates a kernel-mode overlay object.
 old-location: display\d3dkmtcreateoverlay.htm
-old-project: display
 ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices], OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, d3dkmthk/D3DKMTCreateOverlay, display.d3dkmtcreateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTCreateOverlay</b> function creates a kernel-mode overlay object.
 
 ### -param Arg1
 
-TBD
+
 
 
 

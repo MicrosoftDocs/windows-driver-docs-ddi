@@ -4,7 +4,7 @@ title: WDF_REMOVE_LOCK_OPTIONS_INIT function
 author: windows-driver-content
 description: The WDF_REMOVE_LOCK_OPTIONS_INIT function initializes a WDF_REMOVE_LOCK_OPTIONS structure.
 old-location: wdf\wdf_remove_lock_options_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 08D0CE94-E37E-4BAE-99C8-FB4EDF7BCDDB
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The 

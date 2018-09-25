@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_SEND_OPTIONS_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_SEND_OPTIONS structure.
 old-location: wdf\wdf_request_send_options_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 68be1034-62f0-4444-b4c9-097277a7561f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_SEND_OPTIONS_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_SEND_OPTIONS_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552491">WDF_REQUEST_SEND_OPTIONS</a> structure.
 

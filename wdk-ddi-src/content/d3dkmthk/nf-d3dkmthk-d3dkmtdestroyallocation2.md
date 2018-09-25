@@ -4,10 +4,9 @@ title: D3DKMTDestroyAllocation2 function
 author: windows-driver-content
 description: The D3DKMTDestroyAllocation2 function releases a resource, a list of allocations, or both.
 old-location: display\d3dkmtdestroyallocation2.htm
-old-project: display
 ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,7 +34,6 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
@@ -44,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +62,7 @@ The <b>D3DKMTDestroyAllocation2</b> function releases a resource, a list of allo
 
 ### -param D3DKMT_DESTROYALLOCATION2
 
-TBD
+
 
 
 

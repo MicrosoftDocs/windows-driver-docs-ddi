@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterUnregisterOEMColorService
 title: ColorAdapterUnregisterOEMColorService function
 author: windows-driver-content
-description:
+description: This DDI construct is intended for OEM use only.
 ms.assetid: 104c955b-e26b-47b4-8506-dad91062c87b
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterUnregisterOEMColorService
 req.header: icm.h
@@ -33,7 +33,8 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterUnregisterOEMColorService
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -52,7 +53,9 @@ targetos: Windows
 
 
 ## -returns
+
 This function returns HRESULT.
+
 ## -remarks
 
 ## -see-also

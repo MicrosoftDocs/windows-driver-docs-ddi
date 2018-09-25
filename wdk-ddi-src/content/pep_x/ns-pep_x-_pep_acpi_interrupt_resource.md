@@ -4,7 +4,7 @@ title: "_PEP_ACPI_INTERRUPT_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource.
 old-location: kernel\pep_acpi_interrupt_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B440AB0E-72CC-40F1-B77E-C12C84124737
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

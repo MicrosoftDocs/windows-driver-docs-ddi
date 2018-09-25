@@ -4,7 +4,7 @@ title: "_IO_INTERRUPT_MESSAGE_INFO_ENTRY"
 author: windows-driver-content
 description: The IO_INTERRUPT_MESSAGE_INFO_ENTRY structure describes the properties of a single message-signaled interrupt.
 old-location: kernel\io_interrupt_message_info_entry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e5007381-2436-4eb6-85cd-7145361ab793
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -65,7 +65,7 @@ Specifies the physical address that triggers the interrupt message.
 
 ### -field TargetProcessorSet
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value that determines the set of processors that can receive the interrupt.
+Specifies a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that determines the set of processors that can receive the interrupt.
 
 
 ### -field InterruptObject

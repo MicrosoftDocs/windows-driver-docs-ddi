@@ -4,7 +4,7 @@ title: EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE
 author: windows-driver-content
 description: The EvtSerCx2SelectNextTransmitTransactionType event callback function is called by version 2 of the serial framework extension (SerCx2) to determine which data-transfer mechanism to use for the next write operation.
 old-location: serports\evtsercx2selectnexttransmittransactiontype.htm
-old-project: serports
+tech.root: serports
 ms.assetid: EE46CB43-18BA-4FD7-A60D-07DB1760B8E7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

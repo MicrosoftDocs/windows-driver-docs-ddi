@@ -4,7 +4,7 @@ title: IBidiRequest::GetResult
 author: windows-driver-content
 description: The GetResult method tells whether the bidi request was successful.
 old-location: print\ibidirequest_ibidirequest__getresult.htm
-old-project: print
+tech.root: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

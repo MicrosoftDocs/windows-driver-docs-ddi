@@ -4,10 +4,9 @@ title: D3DKMTSetVidPnSourceOwner1 function
 author: windows-driver-content
 description: Sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN, and lets output duplication options be specified. Supported starting with Windows 8.
 old-location: display\d3dkmtsetvidpnsourceowner1.htm
-old-project: display
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTSetVidPnSourceOwner1
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Sets and releases the video present source in the path of a video present networ
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER1
 
-TBD
+
 
 
 

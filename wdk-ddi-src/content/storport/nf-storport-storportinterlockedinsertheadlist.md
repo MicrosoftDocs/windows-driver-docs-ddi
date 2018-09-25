@@ -4,7 +4,7 @@ title: StorPortInterlockedInsertHeadList function
 author: windows-driver-content
 description: The StorPortInterlockedInsertHeadList routine atomically inserts an entry at the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinsertheadlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -77,7 +77,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt7904
 
 ### -param Result
 
-TBD
+<p>Pointer to a <a href="https://msdn.microsoft.com/library/Mt790432(v=VS.85).aspx"><b>STOR_LIST_ENTRY</b></a> structure that represents the first entry of the list before the new entry was inserted.</p>
 
 
 ### -param Lock [in, out]
@@ -85,11 +85,6 @@ TBD
 A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>. 
 
 You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.
-
-
-#### - *Result [in, out]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the first entry of the list before the new entry was inserted.
 
 
 ## -returns

@@ -22,17 +22,19 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDXGK_BRIGHTNESS_SET_IN, DXGK_BRIGHTNESS_SET_IN
-topictype:
+req.typenames: DXGK_BRIGHTNESS_SET_IN, *PDXGK_BRIGHTNESS_SET_IN
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	_DXGK_BRIGHTNESS_SET_IN
-product: Windows
+product: 
+-	Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_BRIGHTNESS_SET_IN structure

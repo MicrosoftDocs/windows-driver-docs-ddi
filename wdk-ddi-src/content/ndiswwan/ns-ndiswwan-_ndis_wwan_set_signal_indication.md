@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_SET_SIGNAL_INDICATION"
 author: windows-driver-content
 description: The NDIS_WWAN_SET_SIGNAL_INDICATION structure represents the signal indication of the MB device.
 old-location: netvista\ndis_wwan_set_signal_indication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6ef6fdd4-7d52-436a-96ee-ed83fab33e7b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, _NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication"
 ms.prod: windows-hardware
 ms.technology: windows-devices

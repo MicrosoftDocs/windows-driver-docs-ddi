@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_INTERFACE_PROPERTY_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_INTERFACE_PROPERTY_DATA structure describes a device interface property.
 old-location: wdf\wdf_device_interface_property_data.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2AC9E23B-928E-480F-A208-5A2DE92AEF4B
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPER
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure describes a device interface property.
 

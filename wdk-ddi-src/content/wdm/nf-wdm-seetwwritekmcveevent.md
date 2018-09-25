@@ -4,7 +4,7 @@ title: SeEtwWriteKMCveEvent function
 author: windows-driver-content
 description: The SeEtwWriteKMCveEvent function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.
 old-location: devtest\seetwwritekmcveevent.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 9CF6C8FC-869A-4667-9859-845BFF093549
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

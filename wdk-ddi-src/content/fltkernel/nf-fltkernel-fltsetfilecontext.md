@@ -4,7 +4,7 @@ title: FltSetFileContext function
 author: windows-driver-content
 description: The FltSetFileContext routine sets a context for a file.
 old-location: ifsk\fltsetfilecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d56cb216-a757-4ab8-ac7f-04dc22997835
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

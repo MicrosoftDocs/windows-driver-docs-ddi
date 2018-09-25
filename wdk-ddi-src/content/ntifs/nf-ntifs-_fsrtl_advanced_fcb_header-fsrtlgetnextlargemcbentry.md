@@ -4,7 +4,7 @@ title: FsRtlGetNextLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlGetNextLargeMcbEntry routine retrieves a mapping run from a map control block (MCB).
 old-location: ifsk\fsrtlgetnextlargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e67f60da-4200-4d87-9b36-55ce027f0933
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlGetNextLargeMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +60,7 @@ The <b>FsRtlGetNextLargeMcbEntry</b> routine retrieves a mapping run from a map 
 
 ### -param Mcb
 
-TBD
+<p>Pointer to an initialized MCB structure. </p>
 
 
 ### -param RunIndex [in]
@@ -69,39 +70,19 @@ Zero-based index of the requested mapping run.
 
 ### -param Vbn
 
-TBD
+<p>Pointer to a variable that receives the starting virtual block number (VBN) of the mapping run, or zero if the run does not exist. Its value is meaningless if <b>FsRtlGetNextLargeMcbEntry</b> returns <b>FALSE</b>.</p>
 
 
 ### -param Lbn
 
-TBD
+<p>Pointer to a variable that receives the starting logical block number (LBN) of the mapping run, or zero if the run does not exist. Its value is meaningless if <b>FsRtlGetNextLargeMcbEntry</b> returns <b>FALSE</b>.</p>
 
 
 ### -param SectorCount
 
-TBD
+<p>Pointer to a variable that receives the number of sectors in the mapping run, or zero if the run does not exist. Its value is meaningless if <b>FsRtlGetNextLargeMcbEntry</b> returns <b>FALSE</b>.</p>
 
 
-
-
-#### - LargeLbn [out]
-
-Pointer to a variable that receives the starting logical block number (LBN) of the mapping run, or zero if the run does not exist. Its value is meaningless if <b>FsRtlGetNextLargeMcbEntry</b> returns <b>FALSE</b>.
-
-
-#### - LargeSectorCount [out]
-
-Pointer to a variable that receives the number of sectors in the mapping run, or zero if the run does not exist. Its value is meaningless if <b>FsRtlGetNextLargeMcbEntry</b> returns <b>FALSE</b>.
-
-
-#### - LargeVbn [out]
-
-Pointer to a variable that receives the starting virtual block number (VBN) of the mapping run, or zero if the run does not exist. Its value is meaningless if <b>FsRtlGetNextLargeMcbEntry</b> returns <b>FALSE</b>.
-
-
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure. 
 
 
 ## -returns

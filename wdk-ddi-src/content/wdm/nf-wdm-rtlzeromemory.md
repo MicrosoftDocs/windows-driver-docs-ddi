@@ -4,7 +4,7 @@ title: RtlZeroMemory macro
 author: windows-driver-content
 description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 old-location: kernel\rtlzeromemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e9e20d9c-0f2f-4ab1-a249-3e09bb6a7a22
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,12 +60,12 @@ The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a poi
 
 ### -param Destination [out]
 
-A pointer to the memory block to be filled with zeros.
+Datatype: void*. A pointer to the memory block to be filled with zeros.
 
 
 ### -param Length [in]
 
-The number of bytes to fill with zeros.
+Datatype: size_t. The number of bytes to fill with zeros.
 
 
 ## -remarks

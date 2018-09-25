@@ -4,7 +4,7 @@ title: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 author: windows-driver-content
 description: The IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code is sent to force a flush of a file system before a volume shadow copy occurs.
 old-location: ifsk\ioctl_volsnap_flush_and_hold_writes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c9189ca4-8b0e-470b-b027-f629ed243534
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

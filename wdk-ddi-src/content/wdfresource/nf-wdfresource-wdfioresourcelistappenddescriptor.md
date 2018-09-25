@@ -4,7 +4,7 @@ title: WdfIoResourceListAppendDescriptor function
 author: windows-driver-content
 description: The WdfIoResourceListAppendDescriptor method adds a resource descriptor to the end of a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistappenddescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceListAppendDescriptor</b> method adds a resource descriptor to the end of a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
 

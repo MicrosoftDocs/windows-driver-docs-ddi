@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c69d8e7c-af0b-42e8-be21-208298bd0213
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::AddRef, AddRef, IDataModelScriptDebug2.AddRef, IDataModelScriptDebug2::AddRef, IDataModelScriptDebug2.AddRef
 req.header: dbgmodel.h
@@ -44,13 +44,22 @@ targetos: Windows
 
 ## -description
 
-TBD
+Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
+
+For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
+
 ## -see-also
+
+[IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)

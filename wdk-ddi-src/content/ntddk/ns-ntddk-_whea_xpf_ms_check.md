@@ -4,7 +4,7 @@ title: "_WHEA_XPF_MS_CHECK"
 author: windows-driver-content
 description: The WHEA_XPF_MS_CHECK union describes microarchitecture-specific error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_ms_check.htm
-old-project: whea
+tech.root: whea
 ms.assetid: aa446b31-ac53-4623-bacd-72ab72e94618
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

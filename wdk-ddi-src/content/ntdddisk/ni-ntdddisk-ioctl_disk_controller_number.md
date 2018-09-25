@@ -4,7 +4,7 @@ title: IOCTL_DISK_CONTROLLER_NUMBER
 author: windows-driver-content
 description: Retrieves the controller number and disk number for an IDE disk.
 old-location: storage\ioctl_disk_controller_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dbf7829b-c5b9-4428-a296-34199a726ec5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

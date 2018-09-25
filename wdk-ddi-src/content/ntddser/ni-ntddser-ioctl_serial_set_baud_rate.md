@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_BAUD_RATE
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_BAUD_RATE request sets the baud rate on a serial controller device. The serial controller driver verifies the specified baud rate.
 old-location: serports\ioctl_serial_set_baud_rate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: cf3a4b6e-fefa-4a81-84cf-3a4d5529c8a7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

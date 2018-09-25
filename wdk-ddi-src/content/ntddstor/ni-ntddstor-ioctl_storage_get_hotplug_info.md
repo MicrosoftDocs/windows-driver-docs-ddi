@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_HOTPLUG_INFO
 author: windows-driver-content
 description: Retrieves the hotplug configuration of the specified device.
 old-location: storage\ioctl_storage_get_hotplug_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e549aa75-d847-4276-ab40-29214b0475cf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

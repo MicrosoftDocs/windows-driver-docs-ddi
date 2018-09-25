@@ -4,7 +4,7 @@ title: IoSetPartitionInformation function
 author: windows-driver-content
 description: The IoSetPartitionInformation routine is obsolete and is provided only to support existing drivers.
 old-location: storage\iosetpartitioninformation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3f1a6e3f-3bbc-4cc5-8efe-e3cf6ac3adf5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

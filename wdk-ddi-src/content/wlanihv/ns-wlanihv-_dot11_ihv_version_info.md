@@ -4,7 +4,7 @@ title: "_DOT11_IHV_VERSION_INFO"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_ihv_version_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d482abdc-c6c1-4789-a1fc-39e76c32e78a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,7 +74,7 @@ typedef struct _DOT11_IHV_VERSION_INFO {
 ### -field dwVerMin
 
 The minimum API version supported by the IHV Extensions DLL.
-     
+
 
 For the Windows Vista operating system, the minimum API version is zero.
 
@@ -82,7 +82,7 @@ For the Windows Vista operating system, the minimum API version is zero.
 ### -field dwVerMax
 
 The maximum API version supported by the IHV Extensions DLL.
-     
+
 
 For the Windows Vista operating system, the maximum API version is zero.
 
@@ -91,12 +91,12 @@ For the Windows Vista operating system, the maximum API version is zero.
 
 
 
-Prior to starting the IHV Extensions DLL through a call to the 
+Prior to starting the IHV Extensions DLL through a call to the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> IHV
     handler function, the operating system queries the API versions supported by the IHV Extensions DLL
-    through a call to the 
+    through a call to the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a> IHV
-    handler function. The IHV Extensions DLL returns the range of API versions it supports through the 
+    handler function. The IHV Extensions DLL returns the range of API versions it supports through the
     <i>pDot11IHVVersionInfo</i> parameter.
 
 

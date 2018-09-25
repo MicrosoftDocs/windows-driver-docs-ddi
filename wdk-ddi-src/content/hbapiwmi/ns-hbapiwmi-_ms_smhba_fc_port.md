@@ -4,7 +4,7 @@ title: "_MS_SMHBA_FC_Port"
 author: windows-driver-content
 description: The MS_SMHBA_FC_Port structure is used to report the FC port information.
 old-location: storage\ms_smhba_fc_port.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e5d0d58c-f2dd-4c8a-9b15-967d0be89788
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_CREATE_DISK_GPT"
 author: windows-driver-content
 description: The CREATE_DISK_GPT structure is used with the IOCTL IOCTL_DISK_CREATE_DISK to initialize a disk with an empty GPT partition table.
 old-location: storage\create_disk_gpt.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 24ae7329-064f-43bf-8c1d-8aad9fdf2254
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

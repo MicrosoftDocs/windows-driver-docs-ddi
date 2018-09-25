@@ -4,10 +4,10 @@ title: FWPS_PACKET_LIST_FWP_INFORMATION0_
 author: windows-driver-content
 description: The FWPS_PACKET_LIST_FWP_INFORMATION0 structure defines Windows Filtering Platform information associated with a packet list.Note  FWPS_PACKET_LIST_FWP_INFORMATION0 is a specific version of FWPS_PACKET_LIST_FWP_INFORMATION.
 old-location: netvista\fwps_packet_list_fwp_information0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e2d3faf3-cd3b-4147-8ceb-5b3f0c257939
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_FWP_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, netvista.fwps_packet_list_fwp_information0, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

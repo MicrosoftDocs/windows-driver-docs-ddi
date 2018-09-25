@@ -4,7 +4,7 @@ title: RxCompleteRequest_Real function
 author: windows-driver-content
 description: RxCompleteRequest_Real completes the IRP request associated with an RX_CONTEXT structure.
 old-location: ifsk\rxcompleterequest_real.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 54d8fab2-bde3-4b8a-8542-075c5e30afbb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

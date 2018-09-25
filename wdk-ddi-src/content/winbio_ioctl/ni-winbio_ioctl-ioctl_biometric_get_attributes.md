@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_GET_ATTRIBUTES
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL returns a structure that contains a set of attributes for the sensor. Vendor-supplied WBDI drivers must support this IOCTL.
 old-location: biometric\ioctl_biometric_get_attributes.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 7a855435-017e-4724-adb4-976403015a93
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

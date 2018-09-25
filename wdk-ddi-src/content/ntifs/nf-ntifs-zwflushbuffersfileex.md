@@ -4,7 +4,7 @@ title: ZwFlushBuffersFileEx function
 author: windows-driver-content
 description: The ZwFlushBuffersFileEx routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
 old-location: kernel\zwflushbuffersfileex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -66,12 +66,47 @@ Handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ### -param FLags
 
-TBD
+<p>Flush operation flags. <i>Flags</i> can be 0 or one of the following values.</p>
+  <table>
+    <tr>
+      <th>Value</th>
+      <th>Meaning</th>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="FLUSH_FLAGS_FILE_DATA_ONLY"></a>
+        <a id="flush_flags_file_data_only"></a>
+        <dl>
+          <dt>
+            <b>FLUSH_FLAGS_FILE_DATA_ONLY</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="40%">
+        <a id="FLUSH_FLAGS_NO_SYNC"></a>
+        <a id="flush_flags_no_sync"></a>
+        <dl>
+          <dt>
+            <b>FLUSH_FLAGS_NO_SYNC</b>
+          </dt>
+        </dl>
+      </td>
+      <td width="60%">
+        <p>If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.</p>
+      </td>
+    </tr>
+  </table>
+  <p> </p>
 
 
 ### -param Parameters
 
-TBD
+<p>Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.</p>
 
 
 ### -param ParametersSize
@@ -82,39 +117,6 @@ TBD
 ### -param IoStatusBlock [out]
 
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
-
-
-#### - Flags [in]
-
-Flush operation flags. <i>Flags</i> can be 0 or one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FLUSH_FLAGS_FILE_DATA_ONLY"></a><a id="flush_flags_file_data_only"></a><dl>
-<dt><b>FLUSH_FLAGS_FILE_DATA_ONLY</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FLUSH_FLAGS_NO_SYNC"></a><a id="flush_flags_no_sync"></a><dl>
-<dt><b>FLUSH_FLAGS_NO_SYNC</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns

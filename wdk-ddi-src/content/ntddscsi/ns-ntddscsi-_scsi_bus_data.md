@@ -4,7 +4,7 @@ title: "_SCSI_BUS_DATA"
 author: windows-driver-content
 description: The SCSI_BUS_DATA structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request and the SCSI_ADAPTER_BUS_INFO structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_bus_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d7baddb5-ad12-4aea-9515-97511dc05fe7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

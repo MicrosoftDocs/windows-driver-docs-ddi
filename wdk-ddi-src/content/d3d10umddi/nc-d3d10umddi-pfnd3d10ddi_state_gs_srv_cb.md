@@ -4,10 +4,9 @@ title: PFND3D10DDI_STATE_GS_SRV_CB
 author: windows-driver-content
 description: The pfnStateGsSrvCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader constant shader resource view state.
 old-location: display\pfnstategssrvcb.htm
-old-project: display
 ms.assetid: 4ab7444f-face-4ad0-a73c-18dd0b59a344
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_STATE_GS_SRV_CB, PFND3D10DDI_STATE_GS_SRV_CB callback, d3d10state_functions_a19053b4-243c-4158-baf0-2eee3ba01dc5.xml, d3d10umddi/pfnStateGsSrvCb, display.pfnstategssrvcb, pfnStateGsSrvCb, pfnStateGsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

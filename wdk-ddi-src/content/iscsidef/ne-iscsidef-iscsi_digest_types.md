@@ -4,7 +4,7 @@ title: ISCSI_DIGEST_TYPES
 author: windows-driver-content
 description: The ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 old-location: storage\iscsi_digest_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0515dd76-ef1f-4f0f-a7d7-1b3b07e0523d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

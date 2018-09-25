@@ -4,10 +4,10 @@ title: ISensorDriver::OnClientConnect
 author: windows-driver-content
 description: The ISensorDriver::OnClientConnect method notifies the sensor driver that a client application has connected.
 old-location: sensors\isensordriver_onclientconnect.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientConnect method, ISensorDriver.OnClientConnect, ISensorDriver::OnClientConnect, OnClientConnect, OnClientConnect method [Sensor Devices], OnClientConnect method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientconnect, sensorsclassextension/ISensorDriver::OnClientConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

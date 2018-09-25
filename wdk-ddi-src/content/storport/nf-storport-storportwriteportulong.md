@@ -4,7 +4,7 @@ title: StorPortWritePortUlong macro
 author: windows-driver-content
 description: The StorPortWritePortUlong routine writes a value to a specified register address.
 old-location: storage\storportwriteportulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7c6d61c6-40e5-46fd-8c18-1f9d89c58515
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -61,36 +61,21 @@ The <b>StorPortWritePortUlong</b> routine writes a value to a specified register
 
 ### -param h
 
-TBD
+<p>Pointer to the hardware device extension.</p>
 
 
 ### -param p
 
-TBD
+<p>Contains the address of the port to be written to. </p>
 
 
 ### -param v
 
-TBD
+<p>Contains the value to be written. </p>
 
 
 
 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
-#### - Value [in]
-
-Contains the value to be written. 
 
 
 ## -remarks

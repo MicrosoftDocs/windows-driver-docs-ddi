@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe::Flush
 author: windows-driver-content
 description: The Flush method discards any data that WinUsb saved when the device returned more data than the client requested.
 old-location: wdf\iwdfusbtargetpipe_flush.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

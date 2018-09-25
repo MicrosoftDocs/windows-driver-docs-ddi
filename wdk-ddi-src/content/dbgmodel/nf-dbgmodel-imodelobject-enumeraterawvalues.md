@@ -66,7 +66,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IModelObject> spMessage; /* get a tagMSG */
 
 ComPtr<IRawEnumerator> spEnum;

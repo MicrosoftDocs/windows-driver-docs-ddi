@@ -4,7 +4,7 @@ title: RtlStringCbLengthW function
 author: windows-driver-content
 description: The RtlStringCbLengthW and RtlStringCbLengthA functions determine the length, in bytes, of a supplied string.
 old-location: kernel\rtlstringcblength.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -77,14 +77,9 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 
 ### -param pcbLength
 
-TBD
+<p>If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in bytes, of the string that is contained in the buffer. The length does not include the string's terminating null character.</p>
 
 
-
-
-#### - pcb [out, optional]
-
-If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in bytes, of the string that is contained in the buffer. The length does not include the string's terminating null character.
 
 
 ## -returns

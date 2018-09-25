@@ -4,7 +4,7 @@ title: IoReleaseRemoveLock macro
 author: windows-driver-content
 description: The IoReleaseRemoveLock routine releases a remove lock acquired with a previous call to IoAcquireRemoveLock.
 old-location: kernel\ioreleaseremovelock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 75cf8262-8cb4-428e-b18e-b80121c6390e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IoRegisterFsRegistrationChange function
 author: windows-driver-content
 description: The IoRegisterFsRegistrationChange routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
 old-location: ifsk\ioregisterfsregistrationchange.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 132951ef-7bb3-417e-a7b7-eb21f08aa846
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

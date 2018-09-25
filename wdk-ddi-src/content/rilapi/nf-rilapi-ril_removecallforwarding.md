@@ -4,10 +4,10 @@ title: RIL_RemoveCallForwarding function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_removecallforwarding.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d2ac3147-fe34-4643-b735-c795b6ba4768
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_RemoveCallForwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding
 ms.prod: windows-hardware
 ms.technology: windows-devices

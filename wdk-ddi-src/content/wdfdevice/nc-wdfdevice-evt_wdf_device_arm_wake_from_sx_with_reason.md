@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON
 author: windows-driver-content
 description: A driver's EvtDeviceArmWakeFromSxWithReason event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state.
 old-location: wdf\evtdevicearmwakefromsxwithreason.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8966ea8f-9760-4a09-b9d3-8fd1ac278b12
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceArmWakeFromSxWithReason</i> event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state. The wake signal causes the device to enter its working state (D0) and causes the system to enter its working state (S0). 
 

@@ -4,7 +4,7 @@ title: "_TRANSACTIONMANAGER_BASIC_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTIONMANAGER_BASIC_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bffa1bd2-143c-4d32-a886-0a2e82320dc8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

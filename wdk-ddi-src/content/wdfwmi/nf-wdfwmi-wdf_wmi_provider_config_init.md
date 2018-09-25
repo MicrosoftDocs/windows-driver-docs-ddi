@@ -4,7 +4,7 @@ title: WDF_WMI_PROVIDER_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_CONFIG_INIT function initializes a WDF_WMI_PROVIDER_CONFIG structure.
 old-location: wdf\wdf_wmi_provider_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a63079ab-45ec-44b2-8769-f5b30f378972
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_WMI_PROVIDER_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553067">WDF_WMI_PROVIDER_CONFIG</a> structure.
 

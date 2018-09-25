@@ -4,10 +4,10 @@ title: DXGKDDI_SET_POWER_STATE
 author: windows-driver-content
 description: The DxgkDdiSetPowerState function sets the power state of a display adapter or a child device of a display adapter.
 old-location: display\dxgkddisetpowerstate.htm
-old-project: display
+tech.root: display
 ms.assetid: 6462be4f-1f6e-4b85-a3ba-15820ee8605b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_SET_POWER_STATE, DXGKDDI_SET_POWER_STATE callback, DmFunctions_712dfd67-ab92-4ffb-80e8-18e6b80a0dd4.xml, DxgkDdiSetPowerState, DxgkDdiSetPowerState callback function [Display Devices], display.dxgkddisetpowerstate, dispmprt/DxgkDdiSetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices

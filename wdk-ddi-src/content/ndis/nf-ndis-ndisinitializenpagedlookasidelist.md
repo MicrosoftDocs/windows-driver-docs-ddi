@@ -4,10 +4,10 @@ title: NdisInitializeNPagedLookasideList function
 author: windows-driver-content
 description: The NdisInitializeNPagedLookasideList function initializes a lookaside list. After a successful initialization, nonpaged fixed-size blocks can be allocated from and freed to the lookaside list.
 old-location: netvista\ndisinitializenpagedlookasidelist.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d240f2cc-18a6-4c2d-889f-e25a9486d5fe
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeNPagedLookasideList, ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

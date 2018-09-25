@@ -4,7 +4,7 @@ title: FltGetBottomInstance function
 author: windows-driver-content
 description: FltGetBottomInstance returns an opaque instance pointer for the minifilter driver instance, if there is one, that is attached at the bottom of the instance stack for a given volume.
 old-location: ifsk\fltgetbottominstance.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a5e7379a-6501-4245-92ce-0474baa33e2c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

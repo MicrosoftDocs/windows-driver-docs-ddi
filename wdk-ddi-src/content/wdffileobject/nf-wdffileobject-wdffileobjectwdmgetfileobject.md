@@ -4,7 +4,7 @@ title: WdfFileObjectWdmGetFileObject function
 author: windows-driver-content
 description: The WdfFileObjectWdmGetFileObject method returns the Windows Driver Model (WDM) file object that is associated with a specified framework file object.
 old-location: wdf\wdffileobjectwdmgetfileobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f3cc9b23-6140-4cb2-959d-c76f23c697ea
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFileObjectWdmGetFileObject</b> method returns the Windows Driver Model (WDM) file object that is associated with a specified framework file object.
 

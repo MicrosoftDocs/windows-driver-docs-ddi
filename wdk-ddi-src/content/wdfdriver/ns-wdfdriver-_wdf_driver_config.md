@@ -4,7 +4,7 @@ title: "_WDF_DRIVER_CONFIG"
 author: windows-driver-content
 description: The WDF_DRIVER_CONFIG structure is an input parameter to WdfDriverCreate.
 old-location: wdf\wdf_driver_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 24197846-9664-4fc6-8578-5bcaf0e4a71c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DRIVER_CONFIG structure is an input parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>.
 

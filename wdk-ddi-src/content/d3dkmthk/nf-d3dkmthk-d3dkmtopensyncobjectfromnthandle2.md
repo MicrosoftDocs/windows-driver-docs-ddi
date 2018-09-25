@@ -4,10 +4,9 @@ title: D3DKMTOpenSyncObjectFromNtHandle2 function
 author: windows-driver-content
 description: D3DKMTOpenSyncObjectFromNtHandle2 opens a monitored fence object from an NT handle previously created by D3DKMTShareObjects.
 old-location: display\d3dkmtopensyncobjectfromnthandle2.htm
-old-project: display
 ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle2, D3DKMTOpenSyncObjectFromNtHandle2 function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2, display.d3dkmtopensyncobjectfromnthandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -43,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-TBD
+
 
 
 

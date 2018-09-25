@@ -4,7 +4,7 @@ title: SeImpersonateClient function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\seimpersonateclient.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b039609e-d259-44d7-bbde-20993576e18a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>SeImpersonateClient</b> routine is obsolete, but it is exported to suppor
 
 ### -param ClientContext
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param ServerThread

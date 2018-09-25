@@ -4,7 +4,7 @@ title: WdfLookasideListCreate function
 author: windows-driver-content
 description: The WdfLookasideListCreate method creates a lookaside-list object, from which the driver can obtain memory objects.
 old-location: wdf\wdflookasidelistcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfLookasideListCreate</b> method creates a lookaside-list object, from which the driver can obtain memory objects. 
 

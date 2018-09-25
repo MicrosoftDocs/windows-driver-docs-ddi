@@ -31,7 +31,8 @@ api_location:
 -	ntddstor.h
 api_name: 
 -	_NVME_RESERVED_CQ_CREATE_REQUEST
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

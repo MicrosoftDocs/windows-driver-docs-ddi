@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni
 author: windows-driver-content
 description: This section describes the methods that are defined for the IPrintCoreHelperUni COM interface.
 old-location: print\iprintcorehelperuni_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: e581d190-8185-45c1-80c7-ff8eb305360e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

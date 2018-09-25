@@ -4,7 +4,7 @@ title: RILPOSITIONINFOUMTS
 author: windows-driver-content
 description: This structure represents a RILPOSITIONINFOUMTS.
 old-location: netvista\rilpositioninfoumts.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

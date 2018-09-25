@@ -4,7 +4,7 @@ title: HidP_GetUsagesEx function
 author: windows-driver-content
 description: The HidP_GetUsagesEx routine returns a list of the all the HID control button usages that are set to ON in a HID report.
 old-location: hid\hidp_getusagesex.htm
-old-project: hid
+tech.root: hid
 ms.assetid: c799ecb6-3024-491c-90d5-70e1d21b1baf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

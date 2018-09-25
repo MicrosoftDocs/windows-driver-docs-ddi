@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT
 author: windows-driver-content
 description: Sets the target rectangle for the video processor.
 old-location: display\videoprocessorsetoutputtargetrect.htm
-old-project: display
 ms.assetid: ac1ba2e0-a289-4dee-b739-d3c1ad0970e1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback, d3d10umddi/pfnVideoProcessorSetOutputTargetRect, display.videoprocessorsetoutputtargetrect, pfnVideoProcessorSetOutputTargetRect, pfnVideoProcessorSetOutputTargetRect callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

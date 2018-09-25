@@ -4,7 +4,7 @@ title: FsRtlNotifyFullChangeDirectory macro
 author: windows-driver-content
 description: The FsRtlNotifyFullChangeDirectory routine creates a notify structure for a notification request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfullchangedirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,263 +60,189 @@ The <b>FsRtlNotifyFullChangeDirectory</b> routine creates a notify structure for
 
 ### -param A1
 
-TBD
+<p>A pointer to an opaque synchronization object for the notify list for the current volume.</p>
 
 
 ### -param A2
 
-TBD
+<p>A pointer to the head of a notify list. Each element in the list is an opaque notify structure.</p>
 
 
 ### -param A3
 
-TBD
+<p>A pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine.</p>
 
 
 ### -param A4
 
-TBD
+<p>A pointer to an ANSI or Unicode string that contains the full name for the directory associated with this notify structure. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.</p>
 
 
 ### -param A5
 
-TBD
+<p>Set to <b>TRUE</b> if all subdirectories of this directory should also be watched. Set to <b>FALSE</b> if only the directory itself is to be watched. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.</p>
 
 
 ### -param A6
 
-TBD
+<p>Set to <b>TRUE</b> to ignore any user buffers and force the directory to be reenumerated. This action speeds the operation. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.</p>
 
 
 ### -param A7
 
-TBD
+<p>Bitmask of flags that specify the types of changes to files or subdirectories that should cause the queue of pending notify IRPs to be completed. The possible flag values are described following.</p>
+  <table>
+    <tr>
+      <th>Flag</th>
+      <th>Meaning</th>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_FILE_NAME</p>
+      </td>
+      <td>
+        <p>A file has been added, deleted, or renamed in this directory.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_DIR_NAME</p>
+      </td>
+      <td>
+        <p>A subdirectory has been created, removed, or renamed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_NAME</p>
+      </td>
+      <td>
+        <p>This directory's name has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_ATTRIBUTES</p>
+      </td>
+      <td>
+        <p>The value of an attribute of this file, such as last access time, has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_SIZE</p>
+      </td>
+      <td>
+        <p>This file's size has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_LAST_WRITE</p>
+      </td>
+      <td>
+        <p>This file's last modification time has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_LAST_ACCESS</p>
+      </td>
+      <td>
+        <p>This file's last access time has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_CREATION</p>
+      </td>
+      <td>
+        <p>This file's creation time has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_EA</p>
+      </td>
+      <td>
+        <p>This file's extended attributes have been modified.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_SECURITY</p>
+      </td>
+      <td>
+        <p>This file's security information has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_STREAM_NAME</p>
+      </td>
+      <td>
+        <p>A file stream has been added, deleted, or renamed in this directory.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_STREAM_SIZE</p>
+      </td>
+      <td>
+        <p>This file stream's size has changed.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>FILE_NOTIFY_CHANGE_STREAM_WRITE</p>
+      </td>
+      <td>
+        <p>This file stream's data has changed.</p>
+      </td>
+    </tr>
+  </table>
+  <p> </p>
+  <p>
+    <i>CompletionFilter</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.</p>
 
 
 ### -param A8
 
-TBD
+<p>A pointer to the IRP to complete on notify change. If <i>NotifyIrp</i> is <b>NULL</b>, this means that the file stream represented by this file object is being deleted.</p>
 
 
 ### -param A9
 
-TBD
-
-
-### -param A10
-
-TBD
-
-
-
-
-
-
-#### - CompletionFilter [in]
-
-Bitmask of flags that specify the types of changes to files or subdirectories that should cause the queue of pending notify IRPs to be completed. The possible flag values are described following.
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_FILE_NAME
-
-</td>
-<td>
-A file has been added, deleted, or renamed in this directory.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_DIR_NAME
-
-</td>
-<td>
-A subdirectory has been created, removed, or renamed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_NAME
-
-</td>
-<td>
-This directory's name has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_ATTRIBUTES
-
-</td>
-<td>
-The value of an attribute of this file, such as last access time, has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_SIZE
-
-</td>
-<td>
-This file's size has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_LAST_WRITE
-
-</td>
-<td>
-This file's last modification time has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_LAST_ACCESS
-
-</td>
-<td>
-This file's last access time has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_CREATION
-
-</td>
-<td>
-This file's creation time has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_EA
-
-</td>
-<td>
-This file's extended attributes have been modified.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_SECURITY
-
-</td>
-<td>
-This file's security information has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_STREAM_NAME
-
-</td>
-<td>
-A file stream has been added, deleted, or renamed in this directory.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_STREAM_SIZE
-
-</td>
-<td>
-This file stream's size has changed.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NOTIFY_CHANGE_STREAM_WRITE
-
-</td>
-<td>
-This file stream's data has changed.
-
-</td>
-</tr>
-</table>
- 
-
-<i>CompletionFilter</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
-
-
-#### - FsContext [in]
-
-A pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine.
-
-
-#### - FullDirectoryName [in]
-
-A pointer to an ANSI or Unicode string that contains the full name for the directory associated with this notify structure. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
-
-
-#### - IgnoreBuffer [in]
-
-Set to <b>TRUE</b> to ignore any user buffers and force the directory to be reenumerated. This action speeds the operation. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
-
-
-#### - NotifyIrp [in, optional]
-
-A pointer to the IRP to complete on notify change. If <i>NotifyIrp</i> is <b>NULL</b>, this means that the file stream represented by this file object is being deleted.
-
-
-#### - NotifyList [in]
-
-A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
-
-
-#### - NotifySync [in]
-
-A pointer to an opaque synchronization object for the notify list for the current volume.
-
-
-#### - SubjectContext [in, optional]
-
-A pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtlNotifyFullChangeDirectory</b> releases the context and frees the structure after using it. Ignored if <i>NotifyIrp</i> is <b>NULL</b>. If a <i>TraverseCallback</i> routine is supplied, <i>SubjectContext</i> is passed as the <i>SubjectContext</i> parameter to that routine.
-
-
-#### - TraverseCallback [in, optional]
-
-Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+<p>Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:</p>
+  <div class="code">
+    <span codelanguage="">
+      <table>
+        <tr>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <pre>NTSTATUS
 (*PCHECK_FOR_TRAVERSE_ACCESS) (
     IN PVOID NotifyContext,                     // FsContext
     IN PVOID TargetContext,                     // Context pointer
     IN PSECURITY_SUBJECT_CONTEXT SubjectContext // SubjectContext
     );</pre>
-</td>
-</tr>
-</table></span></div>
-For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547041">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
+          </td>
+        </tr>
+      </table>
+    </span>
+  </div>
+  <p>For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://msdn.microsoft.com/library/Ff547041(v=VS.85).aspx"><b>FsRtlNotifyFullReportChange</b></a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.</p>
 
 
-#### - WatchTree [in]
+### -param A10
 
-Set to <b>TRUE</b> if all subdirectories of this directory should also be watched. Set to <b>FALSE</b> if only the directory itself is to be watched. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
+<p>A pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtlNotifyFullChangeDirectory</b> releases the context and frees the structure after using it. Ignored if <i>NotifyIrp</i> is <b>NULL</b>. If a <i>TraverseCallback</i> routine is supplied, <i>SubjectContext</i> is passed as the <i>SubjectContext</i> parameter to that routine.</p>
+
+
+
+
 
 
 ## -remarks

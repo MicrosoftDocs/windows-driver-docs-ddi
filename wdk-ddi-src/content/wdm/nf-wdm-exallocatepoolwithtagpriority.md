@@ -4,7 +4,7 @@ title: ExAllocatePoolWithTagPriority function
 author: windows-driver-content
 description: The ExAllocatePoolWithTagPriority routine allocates pool memory of the specified type.
 old-location: kernel\exallocatepoolwithtagpriority.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

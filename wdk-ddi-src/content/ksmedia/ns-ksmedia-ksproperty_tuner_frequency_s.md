@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_FREQUENCY_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_FREQUENCY_S structure describes the frequency of a TV or radio tuner device.
 old-location: stream\ksproperty_tuner_frequency_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 19d2c3cc-69e3-4216-9eb7-32b522fe058b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

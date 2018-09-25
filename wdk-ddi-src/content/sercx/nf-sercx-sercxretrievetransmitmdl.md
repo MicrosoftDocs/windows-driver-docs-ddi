@@ -4,7 +4,7 @@ title: SerCxRetrieveTransmitMdl function
 author: windows-driver-content
 description: The SerCxRetrieveTransmitMdl method retrieves the MDL that describes the buffer that contains the next block of output data to be transmitted.
 old-location: serports\sercxretrievetransmitmdl.htm
-old-project: serports
+tech.root: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

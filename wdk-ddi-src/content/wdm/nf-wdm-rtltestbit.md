@@ -4,7 +4,7 @@ title: RtlTestBit function
 author: windows-driver-content
 description: The RtlTestBit routine returns the value of a bit in a bitmap.
 old-location: kernel\rtltestbit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 52f892a8-e82d-465d-aef5-630f5e971e8f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

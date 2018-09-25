@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_MAPMDLTOIOMMU
 title: _DXGKARGCB_MAPMDLTOIOMMU
 author: windows-driver-content
-description:
+description: Arguments used by the DXGKCB_MAPMDLTOIOMMU callback function.
 ms.assetid: 2dc0bd13-f7d3-44b4-a1da-ee05ff63d832
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_MAPMDLTOIOMMU
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGKARGCB_MAPMDLTOIOMMU
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGKARGCB_MAPMDLTOIOMMU structure

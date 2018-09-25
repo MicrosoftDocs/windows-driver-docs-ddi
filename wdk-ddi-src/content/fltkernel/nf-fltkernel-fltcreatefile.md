@@ -4,7 +4,7 @@ title: FltCreateFile function
 author: windows-driver-content
 description: Minifilter drivers call FltCreateFile to create a new file or open an existing file.
 old-location: ifsk\fltcreatefile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

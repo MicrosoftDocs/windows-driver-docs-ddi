@@ -4,7 +4,7 @@ title: AtaPortRequestWorkerRoutine function
 author: windows-driver-content
 description: The AtaPortRequestWorkerRoutine routine requests a worker routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequestworkerroutine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2d9a6886-aeec-4d61-8c9d-056d1409b905
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,14 +65,9 @@ A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
-TBD
+<p>A pointer of type IDE_HW_DPC to the worker routine to call. </p>
 
 
-
-
-#### - WorkerRoutine [in]
-
-A pointer of type IDE_HW_DPC to the worker routine to call. 
 
 
 ## -returns

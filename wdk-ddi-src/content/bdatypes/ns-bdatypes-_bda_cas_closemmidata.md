@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_CAS_CLOSEMMIDATA
 title: "_BDA_CAS_CLOSEMMIDATA"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_cas_closemmidata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: D1AA47FB-A419-4B25-89A8-7481630B108A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

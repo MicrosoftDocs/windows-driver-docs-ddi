@@ -4,7 +4,7 @@ title: WdfDevStateNormalize function
 author: windows-driver-content
 description: The WdfDevStateNormalize method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states.
 old-location: wdf\wdfdevstatenormalize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDevStateNormalize</b> method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states.
 

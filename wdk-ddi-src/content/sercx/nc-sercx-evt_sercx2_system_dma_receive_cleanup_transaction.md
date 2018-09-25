@@ -4,7 +4,7 @@ title: EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION
 author: windows-driver-content
 description: The EvtSerCx2SystemDmaReceiveCleanupTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller state after a system-DMA-receive transaction ends.
 old-location: serports\evtsercx2systemdmareceivecleanuptransaction.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 66B15ED1-583D-418C-90C5-25BBBCEE7B5A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

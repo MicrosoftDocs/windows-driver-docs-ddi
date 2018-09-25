@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0040
 title: D3D12DDI_DEVICE_FUNCS_CORE_0040
 author: windows-driver-content
-description:
+description: Core device functions.
 ms.assetid: f4a40b3b-ce5e-4591-aab6-236297623a46
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0040
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_DEVICE_FUNCS_CORE_0040
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDI_DEVICE_FUNCS_CORE_0040 structure

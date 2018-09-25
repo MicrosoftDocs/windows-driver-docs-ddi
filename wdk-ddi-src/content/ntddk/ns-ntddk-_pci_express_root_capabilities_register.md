@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_root_capabilities_register.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: d4e6cc35-f6f1-4983-b4d6-2a524245fd15
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -74,7 +74,7 @@ typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsUSHORT

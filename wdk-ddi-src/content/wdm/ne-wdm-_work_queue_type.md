@@ -4,7 +4,7 @@ title: "_WORK_QUEUE_TYPE"
 author: windows-driver-content
 description: The WORK_QUEUE_TYPE enumeration type indicates the type of system worker thread that handles a work item.
 old-location: kernel\work_queue_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: SecMakeSPNEx function
 author: windows-driver-content
 description: SecMakeSPNEx creates a service provider name string that can be used when communicating with specific security service providers.
 old-location: ifsk\secmakespnex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -71,7 +71,7 @@ A pointer to a Unicode string specifying the service name for the security servi
 
 ### -param OPTIONAL
 
-TBD
+<p>A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. </p>
 
 
 ### -param Spn [in, out]
@@ -82,31 +82,6 @@ A pointer to a Unicode string for storing the security service provider name str
 ### -param Allocate [in]
 
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
-
-
-#### - InstanceName [in]
-
-A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
-
-
-#### - InstancePort [in]
-
-An optional variable specifying the instance port for connecting with the security service provider. 
-
-
-#### - Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
-
-
-#### - Referrer [in]
-
-A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
-
-
-#### - TargetInfo [in]
-
-A pointer to an optional Unicode string specifying target information for connecting with the security service provider. 
 
 
 ## -returns

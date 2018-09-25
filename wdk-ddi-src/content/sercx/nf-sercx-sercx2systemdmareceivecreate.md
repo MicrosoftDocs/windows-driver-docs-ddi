@@ -4,7 +4,7 @@ title: SerCx2SystemDmaReceiveCreate function
 author: windows-driver-content
 description: The SerCx2SystemDmaReceiveCreate method creates a SerCx2 system-DMA-receive object, which version 2 of the serial framework extension (SerCx2) uses to perform system-DMA-receive transactions.
 old-location: serports\sercx2systemdmareceivecreate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 62758F49-5CBB-4694-B4F4-12A5372F846F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

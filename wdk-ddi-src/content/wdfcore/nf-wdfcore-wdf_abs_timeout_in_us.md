@@ -4,7 +4,7 @@ title: WDF_ABS_TIMEOUT_IN_US function
 author: windows-driver-content
 description: The WDF_ABS_TIMEOUT_IN_US function converts a specified number of microseconds to an absolute time value.
 old-location: wdf\wdf_abs_timeout_in_us.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9258d82c-98d1-45ab-88db-484cb9db45ee
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_ABS_TIMEOUT_IN_US</b> function converts a specified number of microseconds to an absolute time value.
 

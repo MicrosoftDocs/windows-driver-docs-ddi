@@ -4,7 +4,7 @@ title: FsRtlInitExtraCreateParameterLookasideList function
 author: windows-driver-content
 description: The FsRtlInitExtraCreateParameterLookasideList routine initializes a paged or nonpaged pool lookaside list used for the allocation of one or more extra create parameter context structures (ECPs) of fixed size.
 old-location: ifsk\fsrtlinitextracreateparameterlookasidelist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 30ad87de-a371-415b-b77f-513369fed098
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IXpsDocumentProvider
 author: windows-driver-content
 description: The IxpsDocumentProvider interface provides interfaces to consume parts of a document.
 old-location: print\ixpsdocumentprovider.htm
-old-project: print
+tech.root: print
 ms.assetid: e1fac90f-5c21-4857-a52f-04c5366d7b18
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

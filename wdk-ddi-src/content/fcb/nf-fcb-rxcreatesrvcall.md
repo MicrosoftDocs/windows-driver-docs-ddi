@@ -4,7 +4,7 @@ title: RxCreateSrvCall function
 author: windows-driver-content
 description: RxCreateSrvCall builds a SRV_CALL structure and inserts the name into the net name table maintained by RDBSS.
 old-location: ifsk\rxcreatesrvcall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0eda9724-686f-4681-a1f0-92bdc36e695d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -70,17 +70,12 @@ A pointer to the name to be inserted in the name table.
 
 ### -param OPTIONAL
 
-TBD
+<p>A pointer to an optional inner prefix name to be inserted into the name table with the <i>Name</i>.</p>
 
 
 ### -param RxConnectionId [in]
 
 A pointer to the connection ID to be associated with the name to be inserted in the prefix name table. This parameter can be <b>NULL</b> in which case no connection ID will be associated with the name inserted in the prefix name table.
-
-
-#### - InnerNamePrefix [in, optional]
-
-A pointer to an optional inner prefix name to be inserted into the name table with the <i>Name</i>.
 
 
 ## -returns

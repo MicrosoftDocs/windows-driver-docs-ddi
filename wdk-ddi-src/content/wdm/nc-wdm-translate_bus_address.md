@@ -4,7 +4,7 @@ title: TRANSLATE_BUS_ADDRESS
 author: windows-driver-content
 description: The TranslateBusAddress routine translates addresses on the parent bus to logical addresses.
 old-location: kernel\translatebusaddress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DDED1237-74B7-4127-8E86-D0794A1FB49B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WDF_READ_PORT_UCHAR function
 author: windows-driver-content
 description: The WDF_READ_PORT_UCHAR function reads a byte from the specified port address.
 old-location: wdf\wdf_read_port_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: FC7AB24C-2AE0-4014-82FE-97C285E9558E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_PORT_UCHAR</b>  function reads a byte from the specified port address.
 

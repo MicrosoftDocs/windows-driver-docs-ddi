@@ -4,7 +4,7 @@ title: IoGetNextIrpStackLocation function
 author: windows-driver-content
 description: The IoGetNextIrpStackLocation routine gives a higher level driver access to the next-lower driver's I/O stack location in an IRP so the caller can set it up for the lower driver.
 old-location: kernel\iogetnextirpstacklocation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 44d38686-7a66-4e27-9dc7-9b3b4dbdffd6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

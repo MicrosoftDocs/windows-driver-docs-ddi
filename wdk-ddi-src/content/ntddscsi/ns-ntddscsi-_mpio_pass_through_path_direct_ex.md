@@ -4,7 +4,7 @@ title: "_MPIO_PASS_THROUGH_PATH_DIRECT_EX"
 author: windows-driver-content
 description: The MPIO_PASS_THROUGH_PATH_DIRECT_EX structure is used together with an IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\mpio_pass_through_path_direct_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3EB8721D-291E-492A-9BB3-28F411195DD5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

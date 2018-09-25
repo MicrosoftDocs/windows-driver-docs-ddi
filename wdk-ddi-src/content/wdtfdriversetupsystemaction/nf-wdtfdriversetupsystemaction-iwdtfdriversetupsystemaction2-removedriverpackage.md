@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::RemoveDriverPackage
 author: windows-driver-content
 description: Removes a driver package from the driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_removedriverpackage.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: de742d86-d38c-4d33-b808-678b5cb7419e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

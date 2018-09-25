@@ -4,7 +4,7 @@ title: WdfWmiInstanceDeregister function
 author: windows-driver-content
 description: The WdfWmiInstanceDeregister method deregisters a specified instance of a WMI data provider from the system's WMI service.
 old-location: wdf\wdfwmiinstancederegister.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2167504e-ca92-4427-9101-04a2c2bf66df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfWmiInstanceDeregister</b> method deregisters a specified instance of a WMI data provider from the system's WMI service.
 

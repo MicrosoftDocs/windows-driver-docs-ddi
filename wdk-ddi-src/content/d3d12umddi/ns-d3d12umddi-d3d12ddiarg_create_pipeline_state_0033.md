@@ -4,10 +4,9 @@ title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 author: windows-driver-content
 description: Creates a pipeline state.
 old-location: display\d3d12ddiarg-create-pipeline-state-0033.htm
-old-project: display
 ms.assetid: 2a9108ab-5852-4053-9a7a-266ae1b1dced
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDIARG_CREATE_PIPELINE_STATE_0033, D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_PIPELINE_STATE_0033, display.d3d12ddiarg-create-pipeline-state-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 ---
 

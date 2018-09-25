@@ -4,10 +4,9 @@ title: "_D3DKMT_OUTPUTDUPLPRESENT"
 author: windows-driver-content
 description: Describes a Desktop Duplication API swapchain present operation.
 old-location: display\d3dkmt_outputduplpresent.htm
-old-project: display
 ms.assetid: 1820e11c-0888-4d6d-aa75-b895c863eb43
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OUTPUTDUPLPRESENT
 ---
 

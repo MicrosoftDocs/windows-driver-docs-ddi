@@ -4,7 +4,7 @@ title: "_WDF_IO_QUEUE_STATE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_STATE enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 old-location: wdf\wdf_io_queue_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_QUEUE_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_QUEUE_STATE</b> enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 

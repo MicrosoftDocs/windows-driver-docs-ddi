@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_METACOMMAND_FUNCS_0033
 title: D3D12DDI_METACOMMAND_FUNCS_0033
 author: windows-driver-content
-description:
+description: Meta-command functions.
 ms.assetid: ab765602-a6bb-4c7e-abb7-20185554bd8d
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_METACOMMAND_FUNCS_0033
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_METACOMMAND_FUNCS_0033
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDI_METACOMMAND_FUNCS_0033 structure

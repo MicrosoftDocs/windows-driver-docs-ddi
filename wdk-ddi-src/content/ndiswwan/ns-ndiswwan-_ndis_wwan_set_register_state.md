@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_SET_REGISTER_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_SET_REGISTER_STATE structure represents the network provider registration state of the MB device.
 old-location: netvista\ndis_wwan_set_register_state.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c8d9c2aa-2eb7-43da-ae13-f7209e68e2fd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, _NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

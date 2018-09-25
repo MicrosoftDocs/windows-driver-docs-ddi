@@ -4,7 +4,7 @@ title: KeInitializeDpc function
 author: windows-driver-content
 description: The KeInitializeDpc routine initializes a DPC object, and registers a CustomDpc routine for that object.
 old-location: kernel\keinitializedpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5dd82086-d39c-4ebc-9e2a-73ef504f873c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

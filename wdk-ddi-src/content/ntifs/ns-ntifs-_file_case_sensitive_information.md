@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_CASE_SENSITIVE_INFORMATION
 title: _FILE_CASE_SENSITIVE_INFORMATION
 author: windows-driver-content
-description: The FILE_CASE_SENSITIVE_INFORMATION structure type represents if a directory has case-sensitive information.
+description: The FILE_CASE_SENSITIVE_INFORMATION structure is used to query or set per-directory case-sensitive information.
 ms.assetid: 4a36d9b7-8ddf-4064-b0bc-d95d6c1fb360
 ms.author: windowsdriverdev
 ms.date: 
@@ -31,7 +31,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_FILE_CASE_SENSITIVE_INFORMATION
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -39,7 +40,7 @@ targetos: Windows
 
 ## -description
 
-The **FILE_CASE_SENSITIVE_INFORMATION** structure type represents if a directory has case-sensitive information.
+The **FILE_CASE_SENSITIVE_INFORMATION** structure is used to query or set per-directory case-sensitive information.
 
 ## -struct-fields
 
@@ -48,7 +49,7 @@ Contains one the following values:
 
 Flag|Value|Description
 ---|---|---
-FILE_CS_FLAG_CASE_SENSITIVE_DIR|0x00000001|Specifies the directory is Case-sensitive.
+FILE_CS_FLAG_CASE_SENSITIVE_DIR|0x00000001|Specifies the directory is case-sensitive.
 
 ## -remarks
 

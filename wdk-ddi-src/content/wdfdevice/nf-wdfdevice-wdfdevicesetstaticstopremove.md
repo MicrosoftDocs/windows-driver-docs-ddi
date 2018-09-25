@@ -4,7 +4,7 @@ title: WdfDeviceSetStaticStopRemove function
 author: windows-driver-content
 description: The WdfDeviceSetStaticStopRemove method informs the framework whether a device can be stopped and removed.
 old-location: wdf\wdfdevicesetstaticstopremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b2776618-2585-4a7a-9f8f-536f1d28745b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceSetStaticStopRemove</b> method informs the framework whether a device can be stopped and removed.
 

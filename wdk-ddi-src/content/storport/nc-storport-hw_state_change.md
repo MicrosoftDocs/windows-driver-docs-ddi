@@ -4,7 +4,7 @@ title: HW_STATE_CHANGE
 author: windows-driver-content
 description: A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed.
 old-location: storage\hwstorstatechange.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E7E5E26A-B477-453C-AAFC-9B3572F4FC72
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_UNIT_ISOCH_PARAMS"
 author: windows-driver-content
 description: The UNIT_ISOCH_PARAMS structure is used to get or set the parameters that the IEC-61883 protocol driver uses when capturing or transmitting isochronous packets.
 old-location: ieee\unit_isoch_params.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 1c661a35-8209-49c5-9987-b4b6e9e710b4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

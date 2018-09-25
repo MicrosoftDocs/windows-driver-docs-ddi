@@ -4,7 +4,7 @@ title: WdfInterruptQueueDpcForIsr function
 author: windows-driver-content
 description: The WdfInterruptQueueDpcForIsr method queues a framework interrupt object's EvtInterruptDpc callback function for execution.
 old-location: wdf\wdfinterruptqueuedpcforisr.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ba9a292d-12c8-41b5-bddb-7c8ebf4fdc48
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptQueueDpcForIsr</b> method queues a framework interrupt object's <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function for execution.
 

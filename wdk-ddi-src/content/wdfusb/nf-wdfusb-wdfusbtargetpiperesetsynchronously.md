@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeResetSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetPipeResetSynchronously method builds a reset request and sends it synchronously to a specified USB pipe.
 old-location: wdf\wdfusbtargetpiperesetsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7d29fb09-0ddc-4b61-8f85-c0e69d891bc5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeResetSynchronously</b> method builds a reset request and sends it synchronously to a specified USB pipe.
 

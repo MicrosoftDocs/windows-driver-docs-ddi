@@ -4,7 +4,7 @@ title: PCREATE_PROCESS_NOTIFY_ROUTINE
 author: windows-driver-content
 description: Process-creation callback implemented by a driver to track the system-wide creation and deletion of processes against the driver's internal state.
 old-location: kernel\pcreate_process_notify_routine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2C5B3C90-04A9-48CF-9162-0E069A483C5F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

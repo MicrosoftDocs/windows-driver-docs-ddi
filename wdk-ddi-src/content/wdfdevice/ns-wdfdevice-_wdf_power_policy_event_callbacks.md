@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_EVENT_CALLBACKS"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_EVENT_CALLBACKS structure contains pointers to a driver's power policy event callback functions.
 old-location: wdf\wdf_power_policy_event_callbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6932c938-e477-4a18-9ada-bb3864c6a6f1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_POWER_POLICY_EVENT_CALLBACKS, *PWDF_POWER_POLICY_EVENT_CALLBA
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_POWER_POLICY_EVENT_CALLBACKS</b> structure contains pointers to a driver's power policy event callback functions. 
 

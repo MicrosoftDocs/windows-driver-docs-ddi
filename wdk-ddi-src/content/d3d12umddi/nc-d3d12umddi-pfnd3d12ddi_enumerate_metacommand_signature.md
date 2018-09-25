@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE
 title: PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to enumerate meta-command signatures.
 ms.assetid: 9ab6bbb3-6641-4576-b86d-f90dd2975cb0
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE callback function

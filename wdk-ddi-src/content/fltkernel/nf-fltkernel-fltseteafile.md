@@ -4,7 +4,7 @@ title: FltSetEaFile function
 author: windows-driver-content
 description: FltSetEaFile sets extended-attribute (EA) values for a file.
 old-location: ifsk\fltseteafile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 06427ef2-43e9-46c1-92e5-ab1b6146cc43
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

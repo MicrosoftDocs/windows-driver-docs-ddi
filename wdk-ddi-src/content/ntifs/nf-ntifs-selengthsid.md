@@ -4,7 +4,7 @@ title: SeLengthSid macro
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\selengthsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f6539ab6-709e-43e4-9e3f-595cf59c85c5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ This macro is exported to support existing driver binaries and is obsolete. Use 
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

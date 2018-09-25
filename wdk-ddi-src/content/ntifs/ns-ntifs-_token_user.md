@@ -4,7 +4,7 @@ title: "_TOKEN_USER"
 author: windows-driver-content
 description: TOKEN_USER identifies the user associated with an access token.
 old-location: ifsk\token_user.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0168f1ea-d2b0-4343-b6e7-c6cc97214201
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

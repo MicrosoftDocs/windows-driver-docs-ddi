@@ -4,7 +4,7 @@ title: PSHED_PI_CLEAR_ERROR_RECORD
 author: windows-driver-content
 description: A PSHED plug-in's ClearErrorRecord callback function clears the specified error record from the system's persistent data storage.
 old-location: whea\clearerrorrecord.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e9893f9c-7fbd-4a02-8c2d-d7c480ed5198
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 title: PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to submit a signal to the hardware queue.
 ms.assetid: 4d3b171d-10f1-43a7-ba73-3864d9a590a9
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE callback function

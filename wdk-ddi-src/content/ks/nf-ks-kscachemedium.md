@@ -4,7 +4,7 @@ title: KsCacheMedium function
 author: windows-driver-content
 description: The KsCacheMedium function improves graph building performance of pins that use Mediums to define connectivity.
 old-location: stream\kscachemedium.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d0e9c146-5d73-49e8-92a8-c453f5bbbfe9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

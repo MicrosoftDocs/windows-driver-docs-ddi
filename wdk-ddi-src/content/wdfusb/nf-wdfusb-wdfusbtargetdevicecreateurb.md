@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceCreateUrb function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceCreateUrb method allocates a USB request block (URB).
 old-location: wdf\wdfusbtargetdevicecreateurb.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 274232FF-573A-47B4-B363-2FA7F810BF84
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The 

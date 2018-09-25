@@ -4,10 +4,10 @@ title: VideoPortWriteRegisterBufferUlong function
 author: windows-driver-content
 description: The VideoPortWriteRegisterBufferUlong function writes a number of ULONG values to a mapped register.
 old-location: display\videoportwriteregisterbufferulong.htm
-old-project: display
+tech.root: display
 ms.assetid: 48322143-8c95-4ffa-ac7a-597ed5fb066c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong function [Display Devices], VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, display.videoportwriteregisterbufferulong, video/VideoPortWriteRegisterBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices

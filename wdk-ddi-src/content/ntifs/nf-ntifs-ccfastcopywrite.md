@@ -4,7 +4,7 @@ title: CcFastCopyWrite function
 author: windows-driver-content
 description: The CcFastCopyWrite routine performs a fast copy write from a buffer in memory to a cached file.
 old-location: ifsk\ccfastcopywrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

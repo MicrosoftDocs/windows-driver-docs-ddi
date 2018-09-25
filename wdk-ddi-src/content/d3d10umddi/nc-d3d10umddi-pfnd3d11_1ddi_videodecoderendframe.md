@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEODECODERENDFRAME
 author: windows-driver-content
 description: Completes a DirectX Video Acceleration (DXVA) decoding operation for a video frame.
 old-location: display\videodecoderendframe.htm
-old-project: display
 ms.assetid: f0110435-d060-4f4b-ad29-baaeb8fc2e0e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERENDFRAME, PFND3D11_1DDI_VIDEODECODERENDFRAME callback, d3d10umddi/pfnVideoDecoderEndFrame, display.videodecoderendframe, pfnVideoDecoderEndFrame, pfnVideoDecoderEndFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

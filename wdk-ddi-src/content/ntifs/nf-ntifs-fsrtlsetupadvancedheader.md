@@ -4,7 +4,7 @@ title: FsRtlSetupAdvancedHeader function
 author: windows-driver-content
 description: The FsRtlSetupAdvancedHeader macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with filter contexts.
 old-location: ifsk\fsrtlsetupadvancedheader.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8bcf7bbf-6c41-4683-9a62-d408b120c7b9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,26 +60,15 @@ The <b>FsRtlSetupAdvancedHeader</b> macro is used by file systems to initialize 
 
 ### -param AdvHdr
 
-TBD
+<p>A pointer to the <a href="https://msdn.microsoft.com/library/Ff547334(v=VS.85).aspx"><b>FSRTL_ADVANCED_FCB_HEADER</b></a> structure to be initialized. </p>
 
 
 ### -param FMutex
 
-TBD
+<p>A pointer to an initialized fast mutex that will be used to synchronize access to the <a href="https://msdn.microsoft.com/library/Ff547334(v=VS.85).aspx"><b>FSRTL_ADVANCED_FCB_HEADER</b></a> structure. The fast mutex must be allocated from nonpaged pool. </p>
+  <p>This parameter can be <b>NULL</b>. Callers should set this parameter to <b>NULL</b> if they intend to use an already existing fast mutex object. If <i>FastMutex</i> is <b>NULL</b>, the caller must explicitly set the <i>FastMutex</i> member of the stream context object to point to the existing fast mutex. (This can be done before or after calling <b>FsRtlSetupAdvancedHeader</b>.) </p>
 
 
-
-
-#### - AdvancedHeader [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure to be initialized. 
-
-
-#### - FastMutex [in]
-
-A pointer to an initialized fast mutex that will be used to synchronize access to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure. The fast mutex must be allocated from nonpaged pool. 
-
-This parameter can be <b>NULL</b>. Callers should set this parameter to <b>NULL</b> if they intend to use an already existing fast mutex object. If <i>FastMutex</i> is <b>NULL</b>, the caller must explicitly set the <i>FastMutex</i> member of the stream context object to point to the existing fast mutex. (This can be done before or after calling <b>FsRtlSetupAdvancedHeader</b>.) 
 
 
 ## -returns

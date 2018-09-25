@@ -4,7 +4,7 @@ title: "_FILE_END_OF_FILE_INFORMATION"
 author: windows-driver-content
 description: The FILE_END_OF_FILE_INFORMATION structure is used as an argument to the ZwSetInformationFile routine.
 old-location: kernel\file_end_of_file_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9af172d9-2309-4731-82bf-55ec99c475a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

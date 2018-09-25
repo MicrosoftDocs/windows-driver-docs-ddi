@@ -4,7 +4,7 @@ title: imp_WppRecorderDumpLiveDriverData function
 author: windows-driver-content
 description: The WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log.
 old-location: devtest\wpprecorderdumplivedriverdata.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: FE3DE2A8-8EE5-4F34-BEE6-731987E5F5BD
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914612">WppRe
 
 ### -param WppCb
 
-TBD
+<p>Pointer to the buffer that was allocated by WppRecorderLogCreate.</p>
 
 
 ### -param OutBuffer

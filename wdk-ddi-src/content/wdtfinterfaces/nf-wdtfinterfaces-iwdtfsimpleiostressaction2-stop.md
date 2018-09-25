@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::Stop
 author: windows-driver-content
 description: Stops the device.
 old-location: dtf\iwdtfsimpleiostressaction2_stop.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: d813b9f4-95f7-49cd-97c0-08a04dbd362e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

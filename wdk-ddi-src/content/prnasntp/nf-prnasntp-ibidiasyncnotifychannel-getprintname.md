@@ -2,9 +2,9 @@
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetPrintName
 title: IBidiAsyncNotifyChannel::GetPrintName
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\ibidiasyncnotifychannel_getprintname.htm
-old-project: print
+tech.root: print
 ms.assetid: DE84073F-8D87-4C72-B820-4CBCF1B9DF2F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

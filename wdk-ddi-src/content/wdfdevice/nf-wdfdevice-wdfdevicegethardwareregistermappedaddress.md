@@ -4,7 +4,7 @@ title: WdfDeviceGetHardwareRegisterMappedAddress function
 author: windows-driver-content
 description: A driver calls WdfDeviceGetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it mapped previously using WdfDeviceMapIoSpace.
 old-location: wdf\wdfdevicegethardwareregistermappedaddress.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4D172D39-0D28-4950-B428-330D5B4D0654
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 A driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b> to get the user-mode mapped address of the memory resource it mapped previously using <a href="https://msdn.microsoft.com/library/windows/hardware/dn265605">WdfDeviceMapIoSpace</a>.
 

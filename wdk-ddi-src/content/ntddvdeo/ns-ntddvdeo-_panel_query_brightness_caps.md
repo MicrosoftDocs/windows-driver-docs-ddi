@@ -2,14 +2,15 @@
 UID: NS:ntddvdeo._PANEL_QUERY_BRIGHTNESS_CAPS
 title: _PANEL_QUERY_BRIGHTNESS_CAPS
 author: windows-driver-content
-description:
+description: Retrieves brightness control capabilities of a display panel.
+tech.root: display
 ms.assetid: b0bdacef-4409-49cf-b53b-6e7023617793
 ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS,
+ms.keywords: _PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:
@@ -22,16 +23,17 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS
-topictype:
+req.typenames: PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_QUERY_BRIGHTNESS_CAPS
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 ---
 

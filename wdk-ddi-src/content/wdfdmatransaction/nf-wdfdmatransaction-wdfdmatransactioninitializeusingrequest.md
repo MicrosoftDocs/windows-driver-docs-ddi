@@ -4,7 +4,7 @@ title: WdfDmaTransactionInitializeUsingRequest function
 author: windows-driver-content
 description: The WdfDmaTransactionInitializeUsingRequest method initializes a specified DMA transaction by using the parameters of a specified I/O request.
 old-location: wdf\wdfdmatransactioninitializeusingrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5a59c1cc-b5a9-4e94-966d-9998a98d6ad2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionInitializeUsingRequest</b> method initializes a specified DMA transaction by using the parameters of a specified I/O request. 
 

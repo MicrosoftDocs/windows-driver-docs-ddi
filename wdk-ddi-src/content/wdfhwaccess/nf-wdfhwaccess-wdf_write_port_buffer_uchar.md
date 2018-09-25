@@ -4,7 +4,7 @@ title: WDF_WRITE_PORT_BUFFER_UCHAR function
 author: windows-driver-content
 description: The WDF_WRITE_PORT_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified port.
 old-location: wdf\wdf_write_port_buffer_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_PORT_BUFFER_UCHAR</b> function writes a number of bytes from a buffer to the specified port.
 

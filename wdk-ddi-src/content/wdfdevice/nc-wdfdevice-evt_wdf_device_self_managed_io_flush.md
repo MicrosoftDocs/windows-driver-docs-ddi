@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH
 author: windows-driver-content
 description: A driver's EvtDeviceSelfManagedIoFlush event callback function handles flush activity for the device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagedioflush.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ad4ace83-c6c1-4b5f-b998-f46f3e721165
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceSelfManagedIoFlush</i> event callback function handles flush activity for the device's self-managed I/O operations.
 

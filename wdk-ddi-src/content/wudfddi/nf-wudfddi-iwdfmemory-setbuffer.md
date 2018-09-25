@@ -4,7 +4,7 @@ title: IWDFMemory::SetBuffer
 author: windows-driver-content
 description: The SetBuffer method assigns a specified buffer to a memory object that a driver created by calling IWDFDriver::CreatePreallocatedWdfMemory.
 old-location: wdf\iwdfmemory_setbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1399922d-684c-44a4-8bc7-b9e45ba05086
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

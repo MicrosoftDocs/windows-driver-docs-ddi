@@ -4,7 +4,7 @@ title: USBCAMD_ControlVendorCommand function
 author: windows-driver-content
 description: The USBCAMD_ControlVendorCommand function sends vendor-specific commands to the control pipe.
 old-location: stream\usbcamd_controlvendorcommand.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

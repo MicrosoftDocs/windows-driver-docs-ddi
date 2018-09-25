@@ -4,7 +4,7 @@ title: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function
 author: windows-driver-content
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying a handle to an interface object and an alternate setting for the interface.
 old-location: wdf\wdf_usb_interface_select_setting_params_init_setting.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2b58eb8f-c468-4bc6-ad50-0bc9f2dee561
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure so that a driver can select a USB interface by specifying a handle to an interface object and an alternate setting for the interface.
 

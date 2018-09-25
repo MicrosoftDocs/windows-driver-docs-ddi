@@ -2,10 +2,10 @@
 UID: NS:icm.WhitePoint
 title: WhitePoint structure
 author: windows-driver-content
-description: 
+description: The Whitepoint structure encapsulates a display whitepoint.
 ms.assetid: 15925576-f238-430f-885b-879de5716710
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 9/10/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,8 @@ api_location:
 -	icm.h
 api_name: 
 -	WhitePoint
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

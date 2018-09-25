@@ -4,7 +4,7 @@ title: PsRevertToSelf function
 author: windows-driver-content
 description: The PsRevertToSelf routine ends the calling thread's impersonation of a client.
 old-location: ifsk\psreverttoself.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 21ae3a61-55c6-437d-8c1e-84d720de9dd5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

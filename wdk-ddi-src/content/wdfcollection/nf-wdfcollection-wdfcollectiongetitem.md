@@ -4,7 +4,7 @@ title: WdfCollectionGetItem function
 author: windows-driver-content
 description: The WdfCollectionGetItem method returns a handle to the object that is contained in a specified object collection and associated with a specified index value.
 old-location: wdf\wdfcollectiongetitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCollectionGetItem</b> method returns a handle to the object that is contained in a specified object collection and associated with a specified index value.
 

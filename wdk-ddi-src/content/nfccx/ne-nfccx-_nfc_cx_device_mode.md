@@ -4,7 +4,7 @@ title: "_NFC_CX_DEVICE_MODE"
 author: windows-driver-content
 description: Specifies device mode flags.
 old-location: nfpdrivers\nfc_cx_device_mode.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: B9996339-984D-4F6B-BFE9-2F536EC75924
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

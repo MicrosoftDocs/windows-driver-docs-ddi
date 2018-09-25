@@ -4,7 +4,7 @@ title: "_PNP_LOCATION_INTERFACE"
 author: windows-driver-content
 description: The PNP_LOCATION_INTERFACE structure describes the GUID_PNP_LOCATION_INTERFACE interface.
 old-location: kernel\pnp_location_interface.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5189ffad-e5dc-4f5a-a7e3-481d36332c81
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -50,7 +50,7 @@ req.typenames: PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE
 ## -description
 
 
-The <b>PNP_LOCATION_INTERFACE</b> structure describes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546564">GUID_PNP_LOCATION_INTERFACE</a> interface.
+The <b>PNP_LOCATION_INTERFACE</b> structure describes the <a href=https://docs.microsoft.com/windows-hardware/drivers/kernel/adding-a-pnp-device-to-a-running-system#using-guidpnplocationinterface>GUID_PNP_LOCATION_INTERFACE</a> interface.
 
 
 ## -struct-fields

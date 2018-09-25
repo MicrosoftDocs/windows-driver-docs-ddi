@@ -4,7 +4,7 @@ title: RtlStringCbPrintfExW function
 author: windows-driver-content
 description: The RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbprintfex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 514a5b40-c9ba-4ed1-871d-fd6ffde583a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -157,7 +157,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled <a
 
 ### -param param
 
-TBD
+<p>A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
 
 
 

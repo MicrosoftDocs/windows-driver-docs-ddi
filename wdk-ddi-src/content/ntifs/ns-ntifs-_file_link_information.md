@@ -4,7 +4,7 @@ title: "_FILE_LINK_INFORMATION"
 author: windows-driver-content
 description: The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file.
 old-location: ifsk\file_link_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

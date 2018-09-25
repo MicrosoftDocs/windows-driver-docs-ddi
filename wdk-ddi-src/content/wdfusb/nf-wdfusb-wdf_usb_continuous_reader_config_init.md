@@ -4,7 +4,7 @@ title: WDF_USB_CONTINUOUS_READER_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_USB_CONTINUOUS_READER_CONFIG_INIT function initializes a WDF_USB_CONTINUOUS_READER_CONFIG structure.
 old-location: wdf\wdf_usb_continuous_reader_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552561">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
 

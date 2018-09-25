@@ -4,7 +4,7 @@ title: imp_WppRecorderLogCreate function
 author: windows-driver-content
 description: The WppRecorderLogCreate method creates a buffer to contain the recorder log.
 old-location: devtest\wpprecorderlogcreate.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRe
 
 ### -param WppCb
 
-TBD
+<p>A pointer to a RECORDER_LOG_CREATE_PARAMS structure.</p>
 
 
 ### -param CreateParams

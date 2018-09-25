@@ -4,10 +4,9 @@ title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU"
 author: windows-driver-content
 description: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU is used with D3DKMTSignalSynchronizationObjectFromCpu to enable a driver to signal a monitored fence.
 old-location: display\d3dkmt_signalsynchronizationobjectfromcpu.htm
-old-project: display
 ms.assetid: 03B822CF-2FB0-412B-9F45-43756D8B4C19
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_signalsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---
 

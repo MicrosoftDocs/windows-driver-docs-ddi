@@ -4,7 +4,7 @@ title: "_WIM_PROVIDER_UPDATE_OVERLAY_INPUT"
 author: windows-driver-content
 description: A current Windows Image File (WIM) data source is updated with a new WIM file using the FSCTL_UPDATE_OVERLAY control request with a WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_update_overlay_input.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: FA100AE0-4725-426F-B57B-C32AC9B75477
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

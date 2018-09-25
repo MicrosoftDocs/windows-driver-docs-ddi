@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_SCAN_START
 title: "_BDA_SCAN_START"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_scan_start.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 931CC532-BC46-4B64-B6BA-29D20827EC0A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

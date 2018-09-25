@@ -2,9 +2,9 @@
 UID: NE:strmini._SRB_COMMAND
 title: "_SRB_COMMAND"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\srb_command.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2A72D3B5-286A-4C20-AFEC-77EDCDD56B6A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

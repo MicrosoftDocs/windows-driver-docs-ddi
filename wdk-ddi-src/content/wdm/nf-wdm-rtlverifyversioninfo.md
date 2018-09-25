@@ -4,7 +4,7 @@ title: RtlVerifyVersionInfo function
 author: windows-driver-content
 description: The RtlVerifyVersionInfo routine compares a specified set of operating system version requirements to the corresponding attributes of the currently running version of the operating system.
 old-location: kernel\rtlverifyversioninfo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

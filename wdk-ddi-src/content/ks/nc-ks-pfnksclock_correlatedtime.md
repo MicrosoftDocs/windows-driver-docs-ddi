@@ -4,7 +4,7 @@ title: PFNKSCLOCK_CORRELATEDTIME
 author: windows-driver-content
 description: The routine is a system-supplied routine that retrieves and the following:KStrClockGetCorrelatedTime is a system-supplied routine that retrieves both the current system time and the corresponding clock tick count since boot.KStrClockGetCorrelatedPhysicalTime is a system-supplied routine that retrieves both the current system time minus suspended delta and the corresponding clock tick since boot.
 old-location: stream\kstrclockgetcorrelatedtime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1fc71718-a1fb-4e82-9805-7830e761cd6d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

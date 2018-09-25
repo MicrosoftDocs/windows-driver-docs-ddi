@@ -4,10 +4,10 @@ title: PFND3DDDI_CHECKPRESENTDURATIONSUPPORT
 author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to request that the user-mode display driver get hardware device capabilities for seamlessly switching to a new monitor refresh rate.
 old-location: display\checkpresentdurationsupport.htm
-old-project: display
+tech.root: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

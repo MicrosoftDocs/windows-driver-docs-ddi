@@ -4,10 +4,9 @@ title: PFND3DKMT_OPENNTHANDLEFROMNAME
 author: windows-driver-content
 description: From a given graphics adapter name, opens an NT handle to the process.
 old-location: display\d3dkmtopennthandlefromname.htm
-old-project: display
 ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, PFND3DKMT_OPENNTHANDLEFROMNAME callback, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

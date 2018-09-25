@@ -4,10 +4,10 @@ title: UCM_MANAGER_CONFIG_INIT function
 author: windows-driver-content
 description: Initializes a UCM_MANAGER_CONFIG structure.
 old-location: buses\ucm_manager_config_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 5247D5F0-8422-48C1-81AF-98C8A3537FAD
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCM_MANAGER_CONFIG_INIT, UCM_MANAGER_CONFIG_INIT function [Buses], buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

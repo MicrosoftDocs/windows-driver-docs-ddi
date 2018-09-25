@@ -4,7 +4,7 @@ title: WdfInterruptSynchronize function
 author: windows-driver-content
 description: The WdfInterruptSynchronize method executes a specified callback function at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptsynchronize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b41fc37a-d41f-49ca-848f-844e049dd987
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptSynchronize</b> method executes a specified callback function at the device's DIRQL while holding an interrupt object's spin lock.
 

@@ -4,7 +4,7 @@ title: WDF_WRITE_REGISTER_USHORT function
 author: windows-driver-content
 description: The WDF_WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: wdf\wdf_write_register_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified address.
 

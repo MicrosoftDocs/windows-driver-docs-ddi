@@ -4,7 +4,7 @@ title: IWDFFile3
 author: windows-driver-content
 description: Drivers obtain the IWDFFile3 interface by calling IWDFFile::QueryInterface.
 old-location: wdf\iwdffile3.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

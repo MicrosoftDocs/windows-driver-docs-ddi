@@ -4,7 +4,7 @@ title: HBA_RegisterForAdapterAddEvents function
 author: windows-driver-content
 description: The HBA_RegisterForAdapterAddEvents routine registers the indicated user callback routine to call when a new adapter is added to the system.
 old-location: storage\hba_registerforadapteraddevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7395ccb8-2608-46ae-a378-987bd757761b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,24 +65,14 @@ Pointer to a callback routine of type <a href="https://msdn.microsoft.com/librar
 
 ### -param pUserData
 
-TBD
+<p>Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. </p>
 
 
 ### -param pCallbackHandle
 
-TBD
+<p>Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/Ff557175(v=VS.85).aspx"><b>HBA_RemoveCallback</b></a> to de-register the callback routine.</p>
 
 
-
-
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
-#### - userData
-
-Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns

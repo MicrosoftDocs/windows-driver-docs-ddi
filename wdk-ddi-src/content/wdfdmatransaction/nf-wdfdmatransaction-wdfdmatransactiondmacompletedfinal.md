@@ -4,7 +4,7 @@ title: WdfDmaTransactionDmaCompletedFinal function
 author: windows-driver-content
 description: The WdfDmaTransactionDmaCompletedFinal method notifies the framework that a device's DMA transfer operation has completed with an underrun condition and supplies the length of the completed transfer.
 old-location: wdf\wdfdmatransactiondmacompletedfinal.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: de16eaf4-11f0-428b-8833-1d1e6ef78853
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionDmaCompletedFinal</b> method notifies the framework that a device's DMA transfer operation has completed with an underrun condition and supplies the length of the completed transfer. 
 

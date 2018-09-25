@@ -4,7 +4,7 @@ title: RtlFreeSid function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlfreesid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c3afb073-feb4-47ad-96a1-c9b580626026
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlFreeSid</b> routine is reserved for system use.
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

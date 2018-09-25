@@ -4,7 +4,7 @@ title: RtlAddAccessAllowedAceEx function
 author: windows-driver-content
 description: The RtlAddAccessAllowedAceEx routine adds an access-allowed access control entry (ACE) with inheritance ACE flags to an access control list (ACL). The access is granted to the specified security identifier (SID).
 old-location: ifsk\rtladdaccessallowedaceex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aeef74d8-d4a5-4ce4-b7f8-e2a2d263a678
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -36,9 +36,11 @@ apilocation:
 -	netadapter.h
 apiname: 
 -	NetAdapterOpenConfiguration
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetAdapterOpenConfiguration function
@@ -49,9 +51,9 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
-Opens the adapter’s configuration database.
+The **NetAdapterOpenConfiguration** method opens a net adapter’s configuration database.
 
 ## -parameters
 
@@ -68,6 +70,7 @@ A pointer to a location that receives a handle to the new adapter configuration 
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
 
 ## -remarks
+
 Typically, the client calls this method from its *[EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)* callback function.
 
 If the client provides a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md), it specifies **NULL** for **ParentObject**. The adapter configuration object is automatically parented to the adapter object.
@@ -77,5 +80,7 @@ As a result, WDF automatically deletes the configuration object when the adapter
 
 
 ## -see-also
+
+[Accessing configuration information](https://docs.microsoft.com/windows-hardware/drivers/netcx/accessing-configuration-information)
 
 [NetConfigurationClose](../netconfiguration/nf-netconfiguration-netconfigurationclose.md)

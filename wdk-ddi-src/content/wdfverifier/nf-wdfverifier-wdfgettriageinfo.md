@@ -4,7 +4,7 @@ title: WdfGetTriageInfo function
 author: windows-driver-content
 description: The WdfGetTriageInfo method is reserved for internal use only.
 old-location: wdf\wdfgettriageinfo.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
 

@@ -4,7 +4,7 @@ title: RILADDRESSTYPE
 author: windows-driver-content
 description: This enumeration describes the RILADDRESSTYPE.
 old-location: netvista\riladdresstype.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a9fe509e-ef15-49ac-beca-339e3582d16e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,15 +60,15 @@ req.typenames: RILADDRESSTYPE
 
 ````
 enum RILADDRESSTYPE {
-  RIL_ADDRTYPE_UNKNOWN        = 0x00000000, 
-  RIL_ADDRTYPE_INTERNATIONAL  = 0x00000001, 
-  RIL_ADDRTYPE_NATIONAL       = 0x00000002, 
-  RIL_ADDRTYPE_NETWKSPECIFIC  = 0x00000003, 
-  RIL_ADDRTYPE_SUBSCRIBER     = 0x00000004, 
-  RIL_ADDRTYPE_ALPHANUM       = 0x00000005, 
-  RIL_ADDRTYPE_ABBREV         = 0x00000006, 
-  RIL_ADDRTYPE_IP             = 0x00000007, 
-  RIL_ADDRTYPE_EMAIL          = 0x00000008 
+  RIL_ADDRTYPE_UNKNOWN        = 0x00000000,
+  RIL_ADDRTYPE_INTERNATIONAL  = 0x00000001,
+  RIL_ADDRTYPE_NATIONAL       = 0x00000002,
+  RIL_ADDRTYPE_NETWKSPECIFIC  = 0x00000003,
+  RIL_ADDRTYPE_SUBSCRIBER     = 0x00000004,
+  RIL_ADDRTYPE_ALPHANUM       = 0x00000005,
+  RIL_ADDRTYPE_ABBREV         = 0x00000006,
+  RIL_ADDRTYPE_IP             = 0x00000007,
+  RIL_ADDRTYPE_EMAIL          = 0x00000008
 
 };
 ````

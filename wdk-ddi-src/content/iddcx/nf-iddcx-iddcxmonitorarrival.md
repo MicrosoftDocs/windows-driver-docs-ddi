@@ -4,10 +4,10 @@ title: IddCxMonitorArrival function
 author: windows-driver-content
 description: An OS callback function the driver calls to report a monitor arrival on the WDDM graphics adapter.
 old-location: display\iddcxmonitorarrival.htm
-old-project: display
+tech.root: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,16 +26,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: IddCxStub.lib 
+req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	iddcx.h
+-	IddCx.dll
 api_name:
 -	IddCxMonitorArrival
 product:

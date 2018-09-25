@@ -4,7 +4,7 @@ title: IOCTL_DOT4_WRITE
 author: windows-driver-content
 description: This topic describes IOCTL_DOT4_WRITE.
 old-location: print\ioctl_ioctl_dot4_write.htm
-old-project: print
+tech.root: print
 ms.assetid: 40B095ED-BB8C-4FBC-BA09-A40BC70B8F9D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

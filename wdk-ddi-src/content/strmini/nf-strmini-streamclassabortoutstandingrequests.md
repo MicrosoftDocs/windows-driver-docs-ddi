@@ -4,7 +4,7 @@ title: StreamClassAbortOutstandingRequests function
 author: windows-driver-content
 description: The StreamClassAbortOutstandingRequests routine aborts all outstanding requests, either to a particular stream, or to the entire driver.
 old-location: stream\streamclassabortoutstandingrequests.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d60ef96b-d145-48e5-be56-7f0bc4d1d0f3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

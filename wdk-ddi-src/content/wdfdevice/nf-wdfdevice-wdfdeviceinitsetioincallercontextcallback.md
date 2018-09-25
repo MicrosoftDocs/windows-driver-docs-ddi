@@ -4,7 +4,7 @@ title: WdfDeviceInitSetIoInCallerContextCallback function
 author: windows-driver-content
 description: The WdfDeviceInitSetIoInCallerContextCallback method registers a driver's EvtIoInCallerContext event callback function.
 old-location: wdf\wdfdeviceinitsetioincallercontextcallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f0104e8b-9a2f-4f52-a431-bec7de3be968
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitSetIoInCallerContextCallback</b> method registers a driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> event callback function.
 

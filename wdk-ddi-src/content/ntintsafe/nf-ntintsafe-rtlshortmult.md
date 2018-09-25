@@ -4,7 +4,7 @@ title: RtlShortMult function
 author: windows-driver-content
 description: Multiplies one value of type SHORT by another.
 old-location: kernel\rtlshortmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 15DCCCF1-72B1-4944-9BF0-ACAF1DEB9243
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

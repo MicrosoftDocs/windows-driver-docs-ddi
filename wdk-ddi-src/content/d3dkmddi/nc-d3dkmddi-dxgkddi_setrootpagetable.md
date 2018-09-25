@@ -4,10 +4,9 @@ title: DXGKDDI_SETROOTPAGETABLE
 author: windows-driver-content
 description: DxgkDdiSetRootPageTable sets the root page table for the given context. This function is used to notify a context when its associated root page table is resized or moved in memory.
 old-location: display\dxgkddisetrootpagetable.htm
-old-project: display
 ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_SETROOTPAGETABLE, DXGKDDI_SETROOTPAGETABLE callback, DxgkDdiSetRootPageTable, DxgkDdiSetRootPageTable callback function [Display Devices], d3dkmddi/DxgkDdiSetRootPageTable, display.dxgkddisetrootpagetable, dispmprt/DxgkDdiSetRootPageTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,10 +4,10 @@ title: IPortClsRuntimePower
 author: windows-driver-content
 description: IPortClsRuntimePower is the interface that the port class driver (PortCls) uses for accessing the runtime power management capabilities of the audio adapter.
 old-location: audio\iportclsruntimepower.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices],described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices

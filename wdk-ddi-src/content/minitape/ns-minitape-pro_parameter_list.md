@@ -4,7 +4,7 @@ title: PRO_PARAMETER_LIST
 author: windows-driver-content
 description: The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
 old-location: storage\pro_parameter_list.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 96c128e1-c38a-412f-adeb-cde820e1af4e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

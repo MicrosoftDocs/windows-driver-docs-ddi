@@ -4,11 +4,10 @@ title: PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION
 author: windows-driver-content
 description: Indicates whether the driver supports a specific format/color-space conversion combination. This function must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers.
 old-location: display\checkvideoprocessorformatconversion.htm
-old-project: display
 ms.assetid: 70A741CC-9D1B-4ECC-BB3A-6ACF6893691A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion callback function [Display Devices], d3d10umddi/CheckVideoProcessorFormatConversion, display.checkvideoprocessorformatconversion
+ms.date: 5/10/2018
+ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion callback function [Display Devices], PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION, PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback, d3d10umddi/CheckVideoProcessorFormatConversion, display.checkvideoprocessorformatconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +40,11 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+tech.root: display
+req.typenames: 
 ---
 
-# PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback
+# PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback function
 
 
 ## -description

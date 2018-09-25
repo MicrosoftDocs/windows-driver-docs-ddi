@@ -4,10 +4,9 @@ title: D3DKMTAcquireKeyedMutex2 function
 author: windows-driver-content
 description: Acquires a keyed mutex object that includes private data.
 old-location: display\d3dkmtacquirekeyedmutex2.htm
-old-project: display
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, PFND3DKMT_ACQUIREKEYEDMUTEX2 callback, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTAcquireKeyedMutex2
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Acquires a keyed mutex object that includes private data.
 
 ### -param Arg1
 
-TBD
+
 
 
 

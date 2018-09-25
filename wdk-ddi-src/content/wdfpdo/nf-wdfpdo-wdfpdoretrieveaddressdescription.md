@@ -4,7 +4,7 @@ title: WdfPdoRetrieveAddressDescription function
 author: windows-driver-content
 description: The WdfPdoRetrieveAddressDescription method retrieves the address description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoretrieveaddressdescription.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b19e6492-af8d-48dc-8d17-81c2d8c25a6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoRetrieveAddressDescription</b> method retrieves the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> that is associated with a specified framework device object.
 

@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_METACOMMAND_PARAMETER_TYPE
 title: D3D12DDI_METACOMMAND_PARAMETER_TYPE
 author: windows-driver-content
-description:
+description: The meta-command parameter type.
 ms.assetid: f17784a6-3573-456f-abac-b7782ed2f92b
 ms.author: windowsdriverdev
 ms.date:
@@ -20,16 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_METACOMMAND_PARAMETER_TYPE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_METACOMMAND_PARAMETER_TYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDI_METACOMMAND_PARAMETER_TYPE enumeration

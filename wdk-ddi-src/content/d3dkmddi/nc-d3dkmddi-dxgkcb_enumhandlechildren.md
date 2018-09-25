@@ -4,10 +4,9 @@ title: DXGKCB_ENUMHANDLECHILDREN
 author: windows-driver-content
 description: The DxgkCbEnumHandleChildren function enumerates all of the allocations that are associated with a given resource, one allocation at a time.
 old-location: display\dxgkcbenumhandlechildren.htm
-old-project: display
 ms.assetid: 36307e63-9e94-4441-92c6-fd4293ea8fa9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_ENUMHANDLECHILDREN, DXGKCB_ENUMHANDLECHILDREN callback, DpFunctions_9690e256-00e7-4c6e-88cc-d2e1c32580a2.xml, DxgkCbEnumHandleChildren, DxgkCbEnumHandleChildren callback function [Display Devices], d3dkmddi/DxgkCbEnumHandleChildren, display.dxgkcbenumhandlechildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -58,13 +58,9 @@ The <b>DxgkCbEnumHandleChildren</b> function enumerates all of the allocations t
 
 
 
+### -param 
 
-
-
-
-
-
-#### - pData [in]
+*pData*
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557528">DXGKARGCB_ENUMHANDLECHILDREN</a> structure that describes the parent resource and the index of the child allocation to retrieve.
 

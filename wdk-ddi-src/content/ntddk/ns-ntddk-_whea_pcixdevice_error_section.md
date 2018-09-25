@@ -4,7 +4,7 @@ title: "_WHEA_PCIXDEVICE_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_PCIXDEVICE_ERROR_SECTION structure describes PCI or PCI-X device error data.
 old-location: whea\whea_pcixdevice_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 0d2ec4e5-193d-45bf-8588-6afc1a9fb68c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

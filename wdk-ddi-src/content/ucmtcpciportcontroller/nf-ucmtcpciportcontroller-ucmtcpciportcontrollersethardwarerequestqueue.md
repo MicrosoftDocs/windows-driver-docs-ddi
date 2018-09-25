@@ -4,10 +4,10 @@ title: UcmTcpciPortControllerSetHardwareRequestQueue function
 author: windows-driver-content
 description: Assigns a framework queue object to which the UcmTcpciCx dispatches hardware requests for the port controller.
 old-location: buses\ucmtcpciportcontrollersethardwarerequestqueue.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], buses.ucmtcpciportcontrollersethardwarerequestqueue, ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

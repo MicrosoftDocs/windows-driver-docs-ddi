@@ -4,10 +4,10 @@ title: IResourceList
 author: windows-driver-content
 description: The IResourceList interface provides an abstraction of a configuration resource list, which is a list of the system hardware resources that the Plug and Play manager assigns to a device at startup time.
 old-location: audio\iresourcelist.htm
-old-project: audio
+tech.root: audio
 ms.assetid: e99ed3bc-368c-433f-ad40-98deda668c51
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices],described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_PosEventDataHeader"
 author: windows-driver-content
 description: This structure describes the scanned image data that is passed to the BarcodeScannerImagePreviewReceived event.
 old-location: pos\posbarcodescannerimageprevieweventdata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE
 author: windows-driver-content
 description: Queries the type of key exchange that is supported by the cryptographic engine of the display adapter for a specified encryption algorithm and video decoder profile.
 old-location: display\getcryptokeyexchangetype.htm
-old-project: display
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,10 +4,10 @@ title: DxgkInitializeDisplayOnlyDriver function
 author: windows-driver-content
 description: Loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys) for use by a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkinitializedisplayonlydriver.htm
-old-project: display
+tech.root: display
 ms.assetid: d80d2d6a-758f-4b11-b33c-4b176a458bd2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	LibDef
+-	DllExport
 api_location:
 -	Displib.lib
 -	Displib.dll

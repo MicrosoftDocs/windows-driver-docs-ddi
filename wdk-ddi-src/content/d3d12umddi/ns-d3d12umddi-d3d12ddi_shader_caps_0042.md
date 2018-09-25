@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_SHADER_CAPS_0042
 title: D3D12DDI_SHADER_CAPS_0042
 author: windows-driver-content
-description:
+description: The D3D12DDI_SHADER_CAPS_0042 structure contains display device shader capabilities that the driver supports.
 ms.assetid: eaa06c01-4aa1-4a27-abd1-68102a3f5d54
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_SHADER_CAPS_0042
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_SHADER_CAPS_0042
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDI_SHADER_CAPS_0042 structure

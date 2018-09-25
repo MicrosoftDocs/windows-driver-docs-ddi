@@ -4,7 +4,7 @@ title: BdaPropertyPinTypes function
 author: windows-driver-content
 description: The BdaPropertyPinTypes function retrieves a list of pin types in a template topology.
 old-location: stream\bdapropertypintypes.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 155aafd7-0d26-47b1-9401-9d780e393e03
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -61,7 +61,7 @@ The <b>BdaPropertyPinTypes</b> function retrieves a list of pin types in a templ
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

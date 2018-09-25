@@ -4,7 +4,7 @@ title: IWDFUsbTargetPipe::IsOutEndPoint
 author: windows-driver-content
 description: The IsOutEndPoint method determines whether a USB pipe (endpoint) is an OUT pipe.
 old-location: wdf\iwdfusbtargetpipe_isoutendpoint.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

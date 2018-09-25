@@ -4,7 +4,7 @@ title: WcsEnumColorProfiles function
 author: windows-driver-content
 description: The WcsEnumColorProfiles function enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.
 old-location: print\wcsenumcolorprofiles.htm
-old-project: print
+tech.root: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: icm.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -113,7 +113,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563722">WcsEnumColorProfilesSize</a>
-Â
 
-Â
+
+
 

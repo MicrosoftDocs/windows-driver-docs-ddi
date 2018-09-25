@@ -4,7 +4,7 @@ title: WdfDmaTransactionFreeResources function
 author: windows-driver-content
 description: The WdfDmaTransactionFreeResources method releases DMA resources that the driver previously allocated by calling WdfDmaTransactionAllocateResources.
 old-location: wdf\wdfdmatransactionfreeresources.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionFreeResources</b> method releases DMA resources that the driver previously allocated by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451123">WdfDmaTransactionAllocateResources</a>.
 

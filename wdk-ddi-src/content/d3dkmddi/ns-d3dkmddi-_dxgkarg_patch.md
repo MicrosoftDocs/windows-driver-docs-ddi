@@ -4,10 +4,9 @@ title: "_DXGKARG_PATCH"
 author: windows-driver-content
 description: The DXGKARG_PATCH structure describes a direct memory access (DMA) buffer that requires patching (that is, requires the assignment of physical addresses).
 old-location: display\dxgkarg_patch.htm
-old-project: display
 ms.assetid: 37ca2208-253c-417e-a44c-fd1303d5f3dc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, _DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_PATCH
 ---
 

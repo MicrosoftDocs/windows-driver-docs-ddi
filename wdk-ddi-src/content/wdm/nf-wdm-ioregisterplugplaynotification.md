@@ -4,7 +4,7 @@ title: IoRegisterPlugPlayNotification function
 author: windows-driver-content
 description: The IoRegisterPlugPlayNotification routine registers a Plug and Play (PnP) notification callback routine to be called when a PnP event of the specified category occurs.
 old-location: kernel\ioregisterplugplaynotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06fd10ab-3478-4b01-b678-24944f17fa9d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

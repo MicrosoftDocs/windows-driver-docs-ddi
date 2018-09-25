@@ -4,7 +4,7 @@ title: GetPrintProcessorCapabilities function
 author: windows-driver-content
 description: A print processor's GetPrintProcessorCapabilities function returns capabilities associated with a specified input data type.
 old-location: print\getprintprocessorcapabilities.htm
-old-project: print
+tech.root: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

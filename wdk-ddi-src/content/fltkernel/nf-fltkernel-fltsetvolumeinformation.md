@@ -4,7 +4,7 @@ title: FltSetVolumeInformation function
 author: windows-driver-content
 description: FltSetVolumeInformation changes various kinds of information about the volume that the given instance is attached to.
 old-location: ifsk\fltsetvolumeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: ScsiPortStallExecution function
 author: windows-driver-content
 description: The ScsiPortStallExecution routine stalls in the miniport driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportstallexecution.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

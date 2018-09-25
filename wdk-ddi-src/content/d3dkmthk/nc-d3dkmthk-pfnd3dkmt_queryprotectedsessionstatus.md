@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
 title: PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
 author: windows-driver-content
-description:
+description: Implemented by the client driver to query a protected session.
 ms.assetid: 2b5d646e-45c8-4f15-91e5-70c9bc25ea6b
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS callback function

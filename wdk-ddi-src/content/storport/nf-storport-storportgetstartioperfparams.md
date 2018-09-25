@@ -4,7 +4,7 @@ title: StorPortGetStartIoPerfParams function
 author: windows-driver-content
 description: The StorPortGetStartIoPerfParams routine places the performance parameters for a given I/O request in a STARTIO_PERFORMANCE_PARAMETERS structure.
 old-location: storage\storportgetstartioperfparams.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c3314ac6-2b46-417f-a87b-64e27df9686d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

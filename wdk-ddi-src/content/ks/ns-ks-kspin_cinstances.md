@@ -2,9 +2,9 @@
 UID: NS:ks.KSPIN_CINSTANCES
 title: KSPIN_CINSTANCES
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\kspin_cinstances.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

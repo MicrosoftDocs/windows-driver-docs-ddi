@@ -4,11 +4,11 @@ title: ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool)
 author: windows-driver-content
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
 old-location: debugger\extremotelist_extremotelist_extremotedata.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: db670175-ad3b-4bed-b9ad-625494319256
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool), debugger.extremotelist_extremotelist_extremotedata
+ms.date: 5/3/2018
+ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool), ExtRemoteList.ExtRemoteList(ExtRemoteData&,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool), debugger.extremotelist_extremotelist_extremotedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteList.ExtRemoteList
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

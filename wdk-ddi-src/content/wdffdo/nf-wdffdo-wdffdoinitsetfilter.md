@@ -4,7 +4,7 @@ title: WdfFdoInitSetFilter function
 author: windows-driver-content
 description: The WdfFdoInitSetFilter method identifies the calling driver as an upper-level or lower-level filter driver, for a specified device.
 old-location: wdf\wdffdoinitsetfilter.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6e195025-4e70-44fa-a12d-0a98417381a0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfFdoInitSetFilter</b> method identifies the calling driver as an upper-level or lower-level <a href="https://msdn.microsoft.com/4def5503-bb0e-4bae-b048-4c8d25d62020">filter driver</a>, for a specified device.
 

@@ -4,7 +4,7 @@ title: KIPI_BROADCAST_WORKER
 author: windows-driver-content
 description: The IpiGenericCall routine runs simultaneously on all processors.
 old-location: kernel\ipigenericcall.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7c4e3d6b-e000-4ac4-b200-966689d05426
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

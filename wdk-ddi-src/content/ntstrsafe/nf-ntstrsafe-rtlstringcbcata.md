@@ -4,7 +4,7 @@ title: RtlStringCbCatA function
 author: windows-driver-content
 description: The RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.
 old-location: kernel\rtlstringcbcat.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1034384f-6295-42ca-bf78-47c383417500
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

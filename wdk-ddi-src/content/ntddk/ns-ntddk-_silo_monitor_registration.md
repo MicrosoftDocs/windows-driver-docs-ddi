@@ -4,7 +4,7 @@ title: "_SILO_MONITOR_REGISTRATION"
 author: windows-driver-content
 description: This structure specifies a server silo monitor that can receive notifications about server silo events.
 old-location: kernel\silo_monitor_registration.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

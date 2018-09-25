@@ -4,7 +4,7 @@ title: "_FEATURE_PROFILE_TYPE"
 author: windows-driver-content
 description: The FEATURE_PROFILE_TYPE enumeration provides a list of the profile names that are defined by the SCSI Multimedia - 4 (MMC-4) specification.
 old-location: storage\feature_profile_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 60cce78f-1025-41a7-861d-150ef28376cb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

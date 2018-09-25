@@ -4,10 +4,9 @@ title: "_D3DKMT_DESTROYCONTEXT"
 author: windows-driver-content
 description: The D3DKMT_DESTROYCONTEXT structure contains a handle to a kernel-mode device context to release.
 old-location: display\d3dkmt_destroycontext.htm
-old-project: display
 ms.assetid: 116c0fa7-ac3c-4a56-804c-637514a19c73
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_DESTROYCONTEXT
 ---
 

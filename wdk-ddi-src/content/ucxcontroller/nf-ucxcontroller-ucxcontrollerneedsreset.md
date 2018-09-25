@@ -4,10 +4,10 @@ title: UcxControllerNeedsReset function
 author: windows-driver-content
 description: Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event into the controller reset state machine.
 old-location: buses\_ucxcontrollerneedsreset.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: FAE099E4-6BE9-4637-934F-9F86FFDCAA6A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

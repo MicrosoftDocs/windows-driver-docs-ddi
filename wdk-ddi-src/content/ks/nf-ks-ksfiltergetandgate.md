@@ -4,7 +4,7 @@ title: KsFilterGetAndGate function
 author: windows-driver-content
 description: The KsFilterGetAndGate function returns Filter's AND gate.
 old-location: stream\ksfiltergetandgate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b5f7c4ed-0596-4e88-b987-fd454e4b4971
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

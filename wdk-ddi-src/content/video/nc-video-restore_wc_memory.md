@@ -4,10 +4,10 @@ title: RESTORE_WC_MEMORY
 author: windows-driver-content
 description: The VideoPortRestoreWCMemory callback routine restores Write Combined video memory from a protected state after the VideoPortProtectWCMemory callback routine was called.
 old-location: display\videoportrestorewcmemory.htm
-old-project: display
+tech.root: display
 ms.assetid: 8fa0be0c-04ce-41ab-93dd-6dc9e8daa356
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: RESTORE_WC_MEMORY, RESTORE_WC_MEMORY callback, VideoPortRestoreWCMemory, VideoPortRestoreWCMemory callback function [Display Devices], VideoPort_Functions_88c8ebcc-40d1-4883-9e99-eac1aab0c6c7.xml, display.videoportrestorewcmemory, video/VideoPortRestoreWCMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

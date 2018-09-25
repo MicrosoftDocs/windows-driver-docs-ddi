@@ -4,7 +4,7 @@ title: StorPortWritePortUchar macro
 author: windows-driver-content
 description: The StorPortWritePortUchar routine writes a value to a specified register address.
 old-location: storage\storportwriteportuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -61,36 +61,21 @@ The <b>StorPortWritePortUchar</b> routine writes a value to a specified register
 
 ### -param h
 
-TBD
+<p>Pointer to the hardware device extension.</p>
 
 
 ### -param p
 
-TBD
+<p>Contains the address of the port to be written to. </p>
 
 
 ### -param v
 
-TBD
+<p>Contains the value to be written. </p>
 
 
 
 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
-#### - Value [in]
-
-Contains the value to be written. 
 
 
 ## -remarks

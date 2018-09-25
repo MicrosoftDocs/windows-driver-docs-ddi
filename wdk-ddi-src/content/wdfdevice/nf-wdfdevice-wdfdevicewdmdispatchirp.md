@@ -4,7 +4,7 @@ title: WdfDeviceWdmDispatchIrp function
 author: windows-driver-content
 description: The WdfDeviceWdmDispatchIrp method returns a dispatched IRP to the framework from EvtDeviceWdmIrpDispatch.
 old-location: wdf\wdfdevicewdmdispatchirp.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 362C6F7C-7B92-43A8-9BD0-F647FDD266E4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceWdmDispatchIrp</b> method returns a dispatched IRP to the framework from <a href="https://msdn.microsoft.com/C6BED59F-066E-42F6-86AE-B0423E0E847F">EvtDeviceWdmIrpDispatch</a>.
 

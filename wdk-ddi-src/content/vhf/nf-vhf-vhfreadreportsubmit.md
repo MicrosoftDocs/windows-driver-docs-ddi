@@ -4,7 +4,7 @@ title: VhfReadReportSubmit function
 author: windows-driver-content
 description: The HID source driver calls this method to submit a HID Read (Input) Report to Virtual HID Framework (VHF).
 old-location: hid\vhfreadreportsubmit.htm
-old-project: hid
+tech.root: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

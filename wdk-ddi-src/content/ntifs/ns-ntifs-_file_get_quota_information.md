@@ -4,7 +4,7 @@ title: "_FILE_GET_QUOTA_INFORMATION"
 author: windows-driver-content
 description: The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information.
 old-location: ifsk\file_get_quota_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

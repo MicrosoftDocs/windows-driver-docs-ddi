@@ -2,9 +2,9 @@
 UID: NN:prnasntp.IPrintAsyncCookie
 title: IPrintAsyncCookie
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintasynccookie.htm
-old-project: print
+tech.root: print
 ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

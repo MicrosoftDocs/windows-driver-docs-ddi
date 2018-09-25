@@ -4,10 +4,10 @@ title: NdisCancelTimerObject function
 author: windows-driver-content
 description: The NdisCancelTimerObject function cancels a timer object that is associated with a previous call to the NdisSetTimerObject function.
 old-location: netvista\ndiscanceltimerobject.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

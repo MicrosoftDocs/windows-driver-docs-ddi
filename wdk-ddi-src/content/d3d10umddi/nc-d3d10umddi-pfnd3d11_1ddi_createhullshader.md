@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CREATEHULLSHADER
 author: windows-driver-content
 description: Creates a hull shader.
 old-location: display\createhullshader_d3d11_1_.htm
-old-project: display
 ms.assetid: 5461f9d4-5eff-4ff7-9eeb-cf94bc243dba
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateHullShader(D3D11_1), CreateHullShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEHULLSHADER, PFND3D11_1DDI_CREATEHULLSHADER callback, d3d10umddi/CreateHullShader(D3D11_1), display.createhullshader_d3d11_1_, display.pfncreatehullshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

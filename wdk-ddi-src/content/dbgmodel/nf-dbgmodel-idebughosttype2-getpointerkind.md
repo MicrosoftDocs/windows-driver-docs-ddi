@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 53e92618-35f7-44e9-b640-32d71930cc18
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetPointerKind, GetPointerKind, IDebugHostType2.GetPointerKind, IDebugHostType2::GetPointerKind, IDebugHostType2.GetPointerKind
 req.header: dbgmodel.h
@@ -52,7 +52,9 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)

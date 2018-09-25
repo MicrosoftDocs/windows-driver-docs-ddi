@@ -4,10 +4,9 @@ title: D3D10DDIARG_BUFFER_RENDERTARGETVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_buffer_rendertargetview.htm
-old-project: display
 ms.assetid: 05c1d6e2-61e1-4bf0-b02e-5ea8ad144a9f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_BUFFER_RENDERTARGETVIEW, D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7307c354-c2a6-45e8-a9f6-9cb3d7c7724d.xml, d3d10umddi/D3D10DDIARG_BUFFER_RENDERTARGETVIEW, display.d3d10ddiarg_buffer_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_BUFFER_RENDERTARGETVIEW
 ---
 

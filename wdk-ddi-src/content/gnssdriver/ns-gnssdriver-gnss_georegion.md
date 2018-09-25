@@ -4,7 +4,7 @@ title: GNSS_GEOREGION
 author: windows-driver-content
 description: This structure defines the geographical shape of a geofence.
 old-location: gnss\gnss_georegion.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

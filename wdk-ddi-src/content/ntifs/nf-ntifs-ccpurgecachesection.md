@@ -4,7 +4,7 @@ title: CcPurgeCacheSection function
 author: windows-driver-content
 description: The CcPurgeCacheSection routine purges all or a portion of a cached file from the system cache.
 old-location: ifsk\ccpurgecachesection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -79,14 +79,9 @@ Length of the byte range to purge, starting at <i>FileOffset</i>. If <i>Length</
 
 ### -param Flags
 
-TBD
+<p>Set to <b>TRUE</b> to uninitialize any private cache maps for the file before purging the file data.</p>
 
 
-
-
-#### - UninitializeCacheMaps [in]
-
-Set to <b>TRUE</b> to uninitialize any private cache maps for the file before purging the file data.
 
 
 ## -returns

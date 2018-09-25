@@ -2,7 +2,7 @@
 UID: NF:ntddk.MmUnmapViewInSystemSpace
 title: MmUnmapViewInSystemSpace function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 0fabae76-0497-4d17-a684-fade48708a57
 ms.author: windowsdriverdev
 ms.date: 
@@ -28,12 +28,13 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	NfcCx.dll
 api_name: 
 -	MmUnmapViewInSystemSpace
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

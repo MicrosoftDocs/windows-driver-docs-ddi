@@ -4,10 +4,10 @@ title: wiasGetDrvItem function
 author: windows-driver-content
 description: The wiasGetDrvItem function retrieves a driver item.
 old-location: image\wiasgetdrvitem.htm
-old-project: image
+tech.root: image
 ms.assetid: c09924ef-cd2c-419c-81d5-bbd40b886767
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasgetdrvitem, wiamdef/wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem, wiasGetDrvItem function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Pointer to a WIA item context.
 
 ### -param ppIWiaDrvItem
 
-TBD
+
 
 
 

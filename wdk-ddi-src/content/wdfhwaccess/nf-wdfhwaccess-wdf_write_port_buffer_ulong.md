@@ -4,7 +4,7 @@ title: WDF_WRITE_PORT_BUFFER_ULONG function
 author: windows-driver-content
 description: The WDF_WRITE_PORT_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified port address.
 old-location: wdf\wdf_write_port_buffer_ulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4FBBC349-B6D0-4F99-AF34-FA237199431E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_PORT_BUFFER_ULONG</b> function writes a number of ULONG values from a buffer to the specified port address.
 

@@ -4,10 +4,10 @@ title: "_UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
 author: windows-driver-content
 description: Contains identification information and USB specification version information (in BCD format) about the port controller.
 old-location: buses\ucmtcpci_port_controller_identification.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: fad8ca8b-1854-4a71-a0f2-60c211ece022
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, buses.ucmtcpci_port_controller_identification, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

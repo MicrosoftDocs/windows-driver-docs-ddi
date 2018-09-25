@@ -2,7 +2,7 @@
 UID: NS:dispmprt._DXGK_DIAGTYPE_NOTIFICATIONS
 title: _DXGK_DIAGTYPE_NOTIFICATIONS
 author: windows-driver-content
-description:
+description: A structure used to identify one or more diagnostic types in the Notifications category.
 ms.assetid: cfebcf14-30cd-4577-a25d-98eea944834e
 ms.author: windowsdriverdev
 ms.date:
@@ -23,15 +23,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGTYPE_NOTIFICATIONS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	_DXGK_DIAGTYPE_NOTIFICATIONS
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 

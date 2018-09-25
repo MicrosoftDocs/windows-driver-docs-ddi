@@ -4,7 +4,7 @@ title: DbgBreakPointWithStatus function
 author: windows-driver-content
 description: The DbgBreakPointWithStatus routine breaks into the kernel debugger and sends the value of Status to the debugger.
 old-location: devtest\dbgbreakpointwithstatus.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: d508c9de-5fae-47c1-88fa-df9048662419
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

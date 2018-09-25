@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_BINDPOINT_IN_SHADER
 title: D3D12DDIARG_BINDPOINT_IN_SHADER
 author: windows-driver-content
-description:
+description: The binding point that is set within the shader.
 ms.assetid: 1374f5b9-d114-44af-bbfa-8793ae90b30e
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_BINDPOINT_IN_SHADER
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDIARG_BINDPOINT_IN_SHADER
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDIARG_BINDPOINT_IN_SHADER structure

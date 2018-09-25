@@ -4,10 +4,10 @@ title: PcNewResourceSublist function
 author: windows-driver-content
 description: The PcNewResourceSublist function creates and initializes an empty resource list that is derived from another resource list.
 old-location: audio\pcnewresourcesublist.htm
-old-project: audio
+tech.root: audio
 ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], audio.pcnewresourcesublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, portcls/PcNewResourceSublist
 ms.prod: windows-hardware
 ms.technology: windows-devices

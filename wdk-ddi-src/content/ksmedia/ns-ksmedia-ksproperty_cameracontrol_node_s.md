@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_NODE_S
 author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set. This structure specifies property values in requests to the USB Video Class driver.
 old-location: stream\ksproperty_cameracontrol_node_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ced1d848-fb6e-4207-bdb0-29ca82249d06
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

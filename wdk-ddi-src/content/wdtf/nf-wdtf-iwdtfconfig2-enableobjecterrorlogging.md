@@ -4,7 +4,7 @@ title: IWDTFCONFIG2::EnableObjectErrorLogging
 author: windows-driver-content
 description: Enables object error logging for all objects.
 old-location: dtf\iwdtfconfig2_enableobjecterrorlogging.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 10e7abc9-addd-4f0e-b77b-af9e8e1fa061
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

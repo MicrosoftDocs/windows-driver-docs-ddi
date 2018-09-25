@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
 author: windows-driver-content
 description: This IO control function authenticates the magnetic stripe reader (MSR).
 old-location: pos\ioctl_point_of_service_msr_authenticate_device.htm
-old-project: pos
+tech.root: pos
 ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

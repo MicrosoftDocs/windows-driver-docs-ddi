@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeGetInformation function
 author: windows-driver-content
 description: The WdfUsbTargetPipeGetInformation method retrieves information about a USB pipe and its endpoint.
 old-location: wdf\wdfusbtargetpipegetinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d453cc6a-d81f-485c-a71e-d99c080bfa28
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeGetInformation</b> method retrieves information about a USB pipe and its endpoint.
 

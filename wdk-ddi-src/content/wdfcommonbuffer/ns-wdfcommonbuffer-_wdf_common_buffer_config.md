@@ -4,7 +4,7 @@ title: "_WDF_COMMON_BUFFER_CONFIG"
 author: windows-driver-content
 description: The WDF_COMMON_BUFFER_CONFIG structure contains configuration information for a common buffer.
 old-location: wdf\wdf_common_buffer_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 19e98448-6951-4eb4-bca1-8119cd6f7713
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_COMMON_BUFFER_CONFIG</b> structure contains configuration information for a common buffer.
 

@@ -4,7 +4,7 @@ title: WdfDpcGetParentObject function
 author: windows-driver-content
 description: The WdfDpcGetParentObject method returns the parent object of a specified DPC object.
 old-location: wdf\wdfdpcgetparentobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 77ebca0f-3056-4f11-9d59-fbd166967ed3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDpcGetParentObject</b> method returns the parent object of a specified DPC object.
 

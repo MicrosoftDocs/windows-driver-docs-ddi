@@ -4,7 +4,7 @@ title: WdfPostDeviceRemove function
 author: windows-driver-content
 description: The co-installer's WdfPostDeviceRemove function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service.
 old-location: wdf\wdfpostdeviceremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f29579de-ba5d-4b7a-9aeb-558be03d7eef
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The co-installer's <b>WdfPostDeviceRemove</b> function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service. 
 

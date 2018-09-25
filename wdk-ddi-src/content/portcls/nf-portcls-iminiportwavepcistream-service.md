@@ -4,10 +4,10 @@ title: IMiniportWavePciStream::Service
 author: windows-driver-content
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportwavepcistream_service.htm
-old-project: audio
+tech.root: audio
 ms.assetid: d41e0774-54b4-43cc-997d-fbd512440450
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],Service method, IMiniportWavePciStream.Service, IMiniportWavePciStream::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_service, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, portcls/IMiniportWavePciStream::Service
 ms.prod: windows-hardware
 ms.technology: windows-devices

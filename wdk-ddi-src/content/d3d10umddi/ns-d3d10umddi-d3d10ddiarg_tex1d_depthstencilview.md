@@ -4,10 +4,9 @@ title: D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW
 author: windows-driver-content
 description: The D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW structure describes a one-dimensional texture (1-D) that is used to create a depth stencil view in a call to the CreateDepthStencilView function.
 old-location: display\d3d10ddiarg_tex1d_depthstencilview.htm
-old-project: display
 ms.assetid: 313e616c-12e3-4493-9c49-e79232bbf031
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW, D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5d65c450-41df-45d9-9bdd-9ccb9890161a.xml, d3d10umddi/D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW, display.d3d10ddiarg_tex1d_depthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW
 ---
 

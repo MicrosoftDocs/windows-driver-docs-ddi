@@ -4,7 +4,7 @@ title: IWDTFStrings2
 author: windows-driver-content
 description: Defines operations and properties for a collection of strings.
 old-location: dtf\iwdtfstrings2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: ea7ebda9-9588-4c72-bac6-2bae1f80538e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

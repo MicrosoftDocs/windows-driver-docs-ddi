@@ -4,7 +4,7 @@ title: WdfFileObjectGetInitiatorProcessId function
 author: windows-driver-content
 description: The WdfFileObjectGetInitiatorProcessId function retrieves the initiator process ID that is associated with a specified framework file object.
 old-location: wdf\wdffileobjectgetinitiatorprocessid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 59E15EAA-4934-48D9-A9E3-7CDEEAE01985
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfFileObjectGetInitiatorProcessId</b> function retrieves the initiator process ID that is associated with a specified framework file object.
 

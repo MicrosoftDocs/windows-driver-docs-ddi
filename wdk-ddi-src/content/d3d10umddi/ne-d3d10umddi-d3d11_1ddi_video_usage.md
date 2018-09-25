@@ -4,10 +4,9 @@ title: D3D11_1DDI_VIDEO_USAGE
 author: windows-driver-content
 description: Identifies how the decode device plays video.
 old-location: display\d3d11_1ddi_video_usage.htm
-old-project: display
 ms.assetid: f107b9a8-d124-4fc3-80b3-dd20a87f9a86
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_USAGE, D3D11_1DDI_VIDEO_USAGE enumeration [Display Devices], D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_USAGE, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, display.d3d11_1ddi_video_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_USAGE
 ---
 

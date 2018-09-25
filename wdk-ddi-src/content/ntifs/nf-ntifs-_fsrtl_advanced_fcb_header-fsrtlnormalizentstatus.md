@@ -4,7 +4,7 @@ title: FsRtlNormalizeNtstatus function
 author: windows-driver-content
 description: The FsRtlNormalizeNtstatus routine translates an arbitrary exception into a status value that is handled by the exception filter.
 old-location: ifsk\fsrtlnormalizentstatus.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNormalizeNtstatus
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -4,7 +4,7 @@ title: BdaMethodDeletePin function
 author: windows-driver-content
 description: The BdaMethodDeletePin function deletes a pin factory.
 old-location: stream\bdamethoddeletepin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 179419ee-2a99-4c03-9afb-a9bb34f3efb6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -61,7 +61,7 @@ The <b>BdaMethodDeletePin</b> function deletes a pin factory.
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSMethod [in]

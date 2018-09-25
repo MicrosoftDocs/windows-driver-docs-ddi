@@ -4,7 +4,7 @@ title: IoUnregisterFileSystem function
 author: windows-driver-content
 description: The IoUnregisterFileSystem routine removes a file system's control device object from the global file system queue.
 old-location: ifsk\iounregisterfilesystem.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f6a0bff7-85b6-479a-b952-9a3a637e339e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

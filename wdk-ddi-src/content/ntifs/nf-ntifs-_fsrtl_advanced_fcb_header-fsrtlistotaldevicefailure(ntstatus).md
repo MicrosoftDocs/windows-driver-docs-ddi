@@ -4,7 +4,7 @@ title: FsRtlIsTotalDeviceFailure function
 author: windows-driver-content
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later versions of Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlIsTotalDeviceFailure
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---
@@ -79,7 +80,7 @@ If <b>FsRtlIsTotalDeviceFailure</b> returns <b>TRUE</b>, a higher-level driver, 
 
 <b>FsRtlIsTotalDeviceFailure</b> does not return <b>TRUE</b> for either of the status values STATUS_DEVICE_DATA_ERROR and STATUS_CRC_ERROR, which are assumed to indicate a sector failure rather than a total disk failure.
 
-For more information about handling device failure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>. 
+For more information about handling device failure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
 
 
 

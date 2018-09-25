@@ -4,7 +4,7 @@ title: KeReleaseInterruptSpinLock function
 author: windows-driver-content
 description: The KeReleaseInterruptSpinLock routine releases an interrupt spin lock acquired by KeAcquireInterruptSpinLock.
 old-location: kernel\kereleaseinterruptspinlock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 291442df-21e1-4acf-a107-0a18f28e30ad
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

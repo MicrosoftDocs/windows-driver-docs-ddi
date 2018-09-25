@@ -4,10 +4,9 @@ title: D3DWDDM1_3DDI_TILE_COPY_FLAG
 author: windows-driver-content
 description: Identifies how to copy a tile using the CopyTiles function.
 old-location: display\d3dwddm1_3ddi_tile_copy_flag.htm
-old-project: display
 ms.assetid: DE743C61-4060-4601-987C-8026C78801A7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DWDDM1_3DDI_TILE_COPY_FLAG, D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE, D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, display.d3dwddm1_3ddi_tile_copy_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_COPY_FLAG
 ---
 

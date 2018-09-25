@@ -4,7 +4,7 @@ title: WdfDeviceInterfaceDereferenceNoOp function
 author: windows-driver-content
 description: The WdfDeviceInterfaceDereferenceNoOp method can be used for driver-defined interfaces that do not require reference counts.
 old-location: wdf\wdfdeviceinterfacedereferencenoop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 76319a0b-a7b3-48f6-804b-e01bc360c441
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInterfaceDereferenceNoOp</b> method can be used for driver-defined interfaces that do not require reference counts.
 

@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
 author: windows-driver-content
 description: The IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER request writes data to the i8042 port controller to control operation of a keyboard device.
 old-location: hid\ioctl_internal_i8042_keyboard_write_buffer.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 583263fc-8b95-47d9-9f20-306b2200b573
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

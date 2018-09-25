@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_DEVICE_RESET_STATUS"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_RESET_STATUS structure represents a modem device's reset status. It is sent to the MB host in the NDIS_STATUS_WWAN_DEVICE_RESET_STATUS notification in an asynchronous response to an OID_WWAN_DEVICE_RESET set request.
 old-location: netvista\ndis_wwan_device_reset_status.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: D18E8633-BEAD-49A5-A730-10564AFF8A3E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS, PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices

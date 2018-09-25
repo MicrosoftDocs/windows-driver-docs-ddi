@@ -4,7 +4,7 @@ title: "_BTH_SDP_SERVICE_SEARCH_REQUEST"
 author: windows-driver-content
 description: The BTH_SDP_SERVICE_SEARCH_REQUEST structure contains information pertinent to an SDP service search.
 old-location: bltooth\bth_sdp_service_search_request.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: d1ef833e-8350-499c-9a3d-408d900c9245
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

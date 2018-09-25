@@ -4,7 +4,7 @@ title: StorPortWritePortBufferUlong macro
 author: windows-driver-content
 description: The StorPortWritePortBufferUlong routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -61,46 +61,26 @@ The <b>StorPortWritePortBufferUlong</b> routine writes a value to a specified re
 
 ### -param h
 
-TBD
+<p>Pointer to the hardware device extension.</p>
 
 
 ### -param p
 
-TBD
+<p>Contains the address of the port to be written to. </p>
 
 
 ### -param b
 
-TBD
+<p>Pointer to the buffer containing the data to be written. </p>
 
 
 ### -param c
 
-TBD
+<p>Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. </p>
 
 
 
 
-
-
-#### - Buffer [in]
-
-Pointer to the buffer containing the data to be written. 
-
-
-#### - Count [in]
-
-Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
 
 
 ## -remarks

@@ -4,7 +4,7 @@ title: ClfsLsnCreate function
 author: windows-driver-content
 description: The ClfsLsnCreate routine creates a log sequence number (LSN), given a container identifier, a block offset, and a record sequence number.
 old-location: kernel\clfslsncreate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2b183911-0c4d-4b67-834d-e876d22c99af
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

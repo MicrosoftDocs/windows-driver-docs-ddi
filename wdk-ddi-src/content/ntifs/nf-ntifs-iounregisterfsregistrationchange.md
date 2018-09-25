@@ -4,7 +4,7 @@ title: IoUnregisterFsRegistrationChange function
 author: windows-driver-content
 description: The IoUnregisterFsRegistrationChange routine unregisters file system filter driver's file system registration change notification routine.
 old-location: ifsk\iounregisterfsregistrationchange.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4e10afc0-b9c4-4495-83a1-11f9b82143fc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

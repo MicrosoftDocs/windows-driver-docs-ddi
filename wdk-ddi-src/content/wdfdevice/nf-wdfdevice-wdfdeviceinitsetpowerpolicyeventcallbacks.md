@@ -4,7 +4,7 @@ title: WdfDeviceInitSetPowerPolicyEventCallbacks function
 author: windows-driver-content
 description: The WdfDeviceInitSetPowerPolicyEventCallbacks method registers a driver's power policy event callback functions.
 old-location: wdf\wdfdeviceinitsetpowerpolicyeventcallbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ae74d58c-3b36-4298-aa6f-4c272e7ff61c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceInitSetPowerPolicyEventCallbacks</b> method registers a driver's power policy event callback functions.
 

@@ -4,7 +4,7 @@ title: "_WDF_PNPPOWER_EVENT_CALLBACKS"
 author: windows-driver-content
 description: The WDF_PNPPOWER_EVENT_CALLBACKS structure contains pointers to a driver's Plug and Play and power event callback functions.
 old-location: wdf\wdf_pnppower_event_callbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2bfd677f-f2bd-49d7-b572-d7df4de0425c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_PNPPOWER_EVENT_CALLBACKS, *PWDF_PNPPOWER_EVENT_CALLBACKS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_PNPPOWER_EVENT_CALLBACKS</b> structure contains pointers to a driver's Plug and Play and power event callback functions. 
 

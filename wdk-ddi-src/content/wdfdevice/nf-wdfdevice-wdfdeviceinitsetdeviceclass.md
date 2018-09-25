@@ -4,7 +4,7 @@ title: WdfDeviceInitSetDeviceClass function
 author: windows-driver-content
 description: The WdfDeviceInitSetDeviceClass method specifies a GUID that identifies the device's device setup class.
 old-location: wdf\wdfdeviceinitsetdeviceclass.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c87a8368-3804-4a07-92c8-65a453d0808f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitSetDeviceClass</b> method specifies a GUID that identifies the device's <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. 
 

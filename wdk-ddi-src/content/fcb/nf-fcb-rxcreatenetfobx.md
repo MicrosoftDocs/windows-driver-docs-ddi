@@ -4,7 +4,7 @@ title: RxCreateNetFobx function
 author: windows-driver-content
 description: RxCreateNetFobx allocates, initializes, and inserts a new file object extension (FOBX) structure into the in-memory data structures for a FCB that this FOBX is being opened on.
 old-location: ifsk\rxcreatenetfobx.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4ea03ea5-31df-4220-982c-0102d20c2d4a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

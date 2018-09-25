@@ -3,39 +3,40 @@ UID: NC:uart.UART_SET_BAUD
 title: UART_SET_BAUD
 author: windows-driver-content
 description: Changes the baud rate of the UART hardware.
-old-project: serports
+tech.root: serports
 ms.assetid: 1bce0489-47eb-4e27-b54c-6e920fde2039
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: Windows 10, version 1803 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
+req.type-library:
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	UserDefined
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	UART_SET_BAUD
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -50,11 +51,11 @@ Changes the baud rate of the UART hardware.
 ```
 //Declaration
 
-UART_SET_BAUD UartSetBaud; 
+UART_SET_BAUD UartSetBaud;
 
 // Definition
 
-BOOLEAN UartSetBaud 
+BOOLEAN UartSetBaud
 (
 	PCPPORT Port
 	ULONG Rate
@@ -68,7 +69,7 @@ BOOLEAN UartSetBaud
 ### -param Port
 [_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
 
-### -param Rate: 
+### -param Rate:
 The baud rate to set in bits per second.
 
 ## -returns
@@ -84,4 +85,4 @@ Register your implementation of this callback function by setting the appropriat
 
 [**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md)
 
-[**_CPPORT**](ns-uart-_cpport.md) 
+[**_CPPORT**](ns-uart-_cpport.md)

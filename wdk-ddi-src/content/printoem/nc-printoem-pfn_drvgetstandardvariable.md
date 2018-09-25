@@ -4,7 +4,7 @@ title: PFN_DrvGetStandardVariable
 author: windows-driver-content
 description: This DrvGetStandardVariable function is obsolete.
 old-location: print\drvgetstandardvariable.htm
-old-project: print
+tech.root: print
 ms.assetid: 743d8e3c-3115-4c2d-b7f3-6f99ba684693
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

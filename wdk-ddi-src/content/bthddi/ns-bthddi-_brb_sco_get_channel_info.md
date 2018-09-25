@@ -4,7 +4,7 @@ title: "_BRB_SCO_GET_CHANNEL_INFO"
 author: windows-driver-content
 description: The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of a SCO channel.
 old-location: bltooth\_brb_sco_get_channel_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 1a7eb79c-5a3e-4977-ba1f-682bbebb0494
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: WDF_CHILD_LIST_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_CHILD_LIST_CONFIG_INIT function initializes a WDF_CHILD_LIST_CONFIG structure.
 old-location: wdf\wdf_child_list_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551227">WDF_CHILD_LIST_CONFIG</a> structure.
 

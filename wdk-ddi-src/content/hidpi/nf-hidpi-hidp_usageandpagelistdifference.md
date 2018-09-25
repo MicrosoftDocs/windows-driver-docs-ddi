@@ -4,7 +4,7 @@ title: HidP_UsageAndPageListDifference function
 author: windows-driver-content
 description: The HidP_UsageAndPageListDifference routine is not implemented.
 old-location: hid\hidp_usageandpagelistdifference.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 80be9231-365d-4a38-8aa6-7da383bdcc40
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: TBD
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

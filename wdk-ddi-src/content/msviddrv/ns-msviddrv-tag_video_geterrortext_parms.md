@@ -2,9 +2,9 @@
 UID: NS:msviddrv.tag_video_geterrortext_parms
 title: tag_video_geterrortext_parms
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\video_geterrortext_parms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6CF06E9A-D6A1-42A7-9C34-44BC52713621
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

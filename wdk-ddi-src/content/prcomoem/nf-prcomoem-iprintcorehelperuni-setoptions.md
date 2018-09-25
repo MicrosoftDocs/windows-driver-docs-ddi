@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni::SetOptions
 author: windows-driver-content
 description: The IPrintCoreHelperUni::SetOptions method sets multiple feature-option pairs at the same time.
 old-location: print\iprintcorehelperuni_setoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

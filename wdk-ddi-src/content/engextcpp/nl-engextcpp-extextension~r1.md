@@ -4,7 +4,7 @@ title: ExtExtension
 author: windows-driver-content
 description: The ExtExtension class is the base class for the C++ class that represents the EngExtCpp extension library.
 old-location: debugger\extextension.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 9c6c4633-df49-4f49-8116-d680bb20c3f5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
 req.header: engextcpp.hpp
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: engextcpp.hpp
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topictype:
 -	APIRef
 -	kbSyntax

@@ -4,7 +4,7 @@ title: WdfRegistryQueryULong function
 author: windows-driver-content
 description: The WdfRegistryQueryULong method retrieves the unsigned long word (REG_DWORD) data that is currently assigned to a specified registry value and copies the data to a specified location.
 old-location: wdf\wdfregistryqueryulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 54583406-9c60-4622-a78d-085c35ce7593
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryQueryULong</b> method retrieves the unsigned long word (REG_DWORD) data that is currently assigned to a specified registry value and copies the data to a specified location.
 

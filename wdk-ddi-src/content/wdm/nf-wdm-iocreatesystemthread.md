@@ -4,7 +4,7 @@ title: IoCreateSystemThread function
 author: windows-driver-content
 description: The IoCreateSystemThread routine creates a system thread that executes in kernel mode, and supplies a handle for the thread.
 old-location: kernel\iocreatesystemthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

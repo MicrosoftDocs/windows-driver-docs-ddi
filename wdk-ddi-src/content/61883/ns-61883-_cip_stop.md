@@ -4,7 +4,7 @@ title: "_CIP_STOP"
 author: windows-driver-content
 description: This structure is used to stop transmission or reception.
 old-location: ieee\cip_stop.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: FE396C2C-B099-47F4-9C27-93D420D54103
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: RtlShortAdd function
 author: windows-driver-content
 description: Adds two values of type SHORT.
 old-location: kernel\rtlshortadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6CCBDECB-D52A-409D-91CA-6635E6D02545
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_MSiSCSI_DiscoveryConfig"
 author: windows-driver-content
 description: The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 old-location: storage\msiscsi_discoveryconfig.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fe2f4a93-3fdd-422b-afce-8def3ed6688e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

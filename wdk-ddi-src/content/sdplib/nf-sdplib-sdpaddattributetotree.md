@@ -4,7 +4,7 @@ title: SdpAddAttributeToTree function
 author: windows-driver-content
 description: The Bluetooth SdpAddAttributeToTree function is used to attach an SDP attribute node to the top level of an SDP record.
 old-location: bltooth\sdpaddattributetotree.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 4/27/2018
@@ -62,7 +62,8 @@ The Bluetooth
 
 ### -param Tree
 
-TBD
+<p>The top level of the SDP record to which the 
+     <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.</p>
 
 
 ### -param AttribId [in]
@@ -72,7 +73,7 @@ The identifier of the attribute to attach.
 
 ### -param AttribValue
 
-TBD
+<p>Pointer to the SDP node to be added as an attribute.</p>
 
 
 ### -param tag [in]
@@ -81,17 +82,6 @@ Specifies a 4-byte
      <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
-
-
-#### - AttribValueNode [in]
-
-Pointer to the SDP node to be added as an attribute.
-
-
-#### - Root [in]
-
-The top level of the SDP record to which the 
-     <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.
 
 
 ## -returns

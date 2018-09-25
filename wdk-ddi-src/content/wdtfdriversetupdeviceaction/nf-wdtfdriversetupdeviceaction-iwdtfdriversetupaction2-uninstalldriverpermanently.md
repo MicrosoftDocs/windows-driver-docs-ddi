@@ -4,7 +4,7 @@ title: IWDTFDriverSetupAction2::UnInstallDriverPermanently
 author: windows-driver-content
 description: Uninstalls the current driver for the target device.
 old-location: dtf\iwdtfdriversetupaction2_uninstalldriverpermanently.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 60346c38-0ee2-4f69-8fef-0a47a6375430
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

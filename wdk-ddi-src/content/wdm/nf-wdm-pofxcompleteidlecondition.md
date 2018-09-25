@@ -4,7 +4,7 @@ title: PoFxCompleteIdleCondition function
 author: windows-driver-content
 description: The PoFxCompleteIdleCondition routine informs the power management framework (PoFx) that the specified component has completed a pending change to the idle condition.
 old-location: kernel\pofxcompleteidlecondition.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D43DA9A4-02F4-4C4E-83AE-DFADA0FCC73D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

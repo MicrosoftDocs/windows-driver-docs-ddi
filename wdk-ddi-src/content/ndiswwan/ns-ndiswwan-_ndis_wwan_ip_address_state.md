@@ -4,10 +4,10 @@ title: "_NDIS_WWAN_IP_ADDRESS_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_IP_ADDRESS_STATE structure represents the IP address of a PDP context.
 old-location: netvista\ndis_wwan_ip_address_state.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 114EDC8D-2FD2-4602-827E-9737638E49AC
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE, netvista.ndis_wwan_ip_address_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

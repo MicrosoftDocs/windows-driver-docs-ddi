@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_ENUMERATE_METACOMMANDS
 title: PFND3D12DDI_ENUMERATE_METACOMMANDS
 author: windows-driver-content
-description:
+description: The PFND3D12DDI_ENUMERATE_METACOMMANDS callback function enumerates meta-commands.
 ms.assetid: df59aa62-ee03-4ec3-bcab-8a50ef26a03b
 ms.author: windowsdriverdev
 ms.date:
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_ENUMERATE_METACOMMANDS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_ENUMERATE_METACOMMANDS callback function
 
 ## -description
 
-Implemented by the client driver to enumerate meta-commands.
+The PFND3D12DDI_ENUMERATE_METACOMMANDS callback function enumerates meta-commands.
 
 ## -prototype
 

@@ -4,7 +4,7 @@ title: WdfIoTargetFormatRequestForWrite function
 author: windows-driver-content
 description: The WdfIoTargetFormatRequestForWrite method builds a write request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforwrite.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 936fe0f7-cff6-45c3-b1dd-cbed2f60438f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetFormatRequestForWrite</b> method builds a write request for an I/O target but does not send the request.
 

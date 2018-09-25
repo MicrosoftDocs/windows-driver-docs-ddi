@@ -4,10 +4,9 @@ title: DXGKDDI_CREATEPROCESS
 author: windows-driver-content
 description: DxgkDdiCreateProcess creates a graphics kernel process object.
 old-location: display\dxgkddicreateprocess.htm
-old-project: display
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_CREATEPROCESS, DXGKDDI_CREATEPROCESS callback, DxgkDdiCreateProcess, DxgkDdiCreateProcess callback function [Display Devices], d3dkmddi/DxgkDdiCreateProcess, display.dxgkddicreateprocess, dispmprt/DxgkDdiCreateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,10 +4,10 @@ title: D3DDDI_DESTROYPAGINGQUEUE
 author: windows-driver-content
 description: D3DDDI_DESTROYPAGINGQUEUE is used with pfnDestroyPagingQueueCb and D3DKMTDestroyPagingQueue to wait for a paging queue to finish all operations queued to it and destroy it along with the associated sync object.
 old-location: display\d3dddi_destroypagingqueue.htm
-old-project: display
+tech.root: display
 ms.assetid: CBCE6C4C-C713-4ED3-9C40-30F9D8C2406D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_DESTROYPAGINGQUEUE, D3DDDI_DESTROYPAGINGQUEUE structure [Display Devices], d3dukmdt/D3DDDI_DESTROYPAGINGQUEUE, display.d3dddi_destroypagingqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

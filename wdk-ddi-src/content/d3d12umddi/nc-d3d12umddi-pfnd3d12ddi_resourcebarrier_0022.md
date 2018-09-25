@@ -4,10 +4,9 @@ title: PFND3D12DDI_RESOURCEBARRIER_0022
 author: windows-driver-content
 description: The pfnResourceBarrier callback function supports resource barriers.
 old-location: display\pfnd3d12ddi_resourcebarrier_0022.htm
-old-project: display
 ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_RESOURCEBARRIER_0022, PFND3D12DDI_RESOURCEBARRIER_0022 callback, d3d12umddi/pfnResourceBarrier, display.pfnd3d12ddi_resourcebarrier_0022, pfnResourceBarrier, pfnResourceBarrier callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,6 +60,8 @@ The <i>pfnResourceBarrier</i> callback function supports resource barriers.
 
 ### -param Arg1
 
+**hDrvCommandList**
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Count
@@ -69,21 +71,11 @@ Specifies a count.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - ResourceBarrier [in]
+**ResourceBarrier** [in]
 
 A pointer to a resource barrier as a <a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
-#### - hDrvCommandList
-
-The handle of a command list.
 
 
 ## -returns

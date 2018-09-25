@@ -4,7 +4,7 @@ title: "_PosValueStatisticsEntry"
 author: windows-driver-content
 description: This structure contains the value of a statistic.
 old-location: pos\posvaluestatisticsentry.htm
-old-project: pos
+tech.root: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

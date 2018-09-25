@@ -4,7 +4,7 @@ title: KSWAVE_BUFFER
 author: windows-driver-content
 description: The KSWAVE_BUFFER structure is used to describe a sample buffer.
 old-location: stream\kswave_buffer.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1bd19fcd-90da-4e1a-ac9a-692c6fddc7ab
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

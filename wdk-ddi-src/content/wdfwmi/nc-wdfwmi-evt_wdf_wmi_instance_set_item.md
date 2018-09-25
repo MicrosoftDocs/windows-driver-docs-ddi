@@ -4,7 +4,7 @@ title: EVT_WDF_WMI_INSTANCE_SET_ITEM
 author: windows-driver-content
 description: A driver's EvtWmiInstanceSetItem callback function sets a single item of a WMI data provider's instance data to a value that a WMI client supplies.
 old-location: wdf\evtwmiinstancesetitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3011d92c-b12b-4240-8a4e-aa039ab8e053
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtWmiInstanceSetItem</i> callback function sets a single item of a WMI data provider's instance data to a value that a WMI client supplies.
 

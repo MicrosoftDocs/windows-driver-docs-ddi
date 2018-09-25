@@ -4,7 +4,8 @@
     "spb.h",
     "spbcx.h",
     "spbfuncenum.h",
-    "spbtraceenums.h"
+    "spbtraceenums.h",
+    "pwmutil.h"
   ],
   "displayName": "Simple Peripheral Bus (SPB)"
 }

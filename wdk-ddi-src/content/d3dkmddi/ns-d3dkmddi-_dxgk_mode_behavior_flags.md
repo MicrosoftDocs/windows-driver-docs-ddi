@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_MODE_BEHAVIOR_FLAGS
 title: _DXGK_MODE_BEHAVIOR_FLAGS
 author: windows-driver-content
-description:
+description: The high-level mode and setting behaviors which the OS may request.
 ms.assetid: 309de6f3-d699-475b-a667-9d16cdf779d9
 ms.author: windowsdriverdev
 ms.date:
@@ -23,25 +23,34 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_MODE_BEHAVIOR_FLAGS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGK_MODE_BEHAVIOR_FLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_MODE_BEHAVIOR_FLAGS structure
 
 ## -description
 
-The high-level mode and setting behaviors.
+The high-level mode and setting behaviors which the OS may request. The same union is used in different fields to describe the input request to the driver and the results output from the driver.
 
-## -struct-fields
+## -union-fields
+
+| Member | Description |
+| --- | --- |
+| PrioritizeHDR | [in] If set, the driver should prioritize HDR support when enumerating display modes and setting display modes over other constraints such as balancing modes available on different targets, supporting high frequencies or high resolutions.  If not set, the driver should use its default policies for prioritizing the modes made available to the OS. |
+| ColorimetricControl | Controls known color enhancements that affect the color accuracy of the display that the OS is not aware of. A value of one for Request.ColorimetricControl indicates that the OS is requesting the driver to disable any color enhancements that affect the color accuracy of the display. A zero value of Request.ColorimetricControl indicates the OS is informing the driver it is free to enable the any color enhancements that it had disabled. |
+| Reserved | Reserved. |
+
 
 ### -field PrioritizeHDR
 

@@ -4,10 +4,10 @@ title: tagKS_H264VIDEOINFO
 author: windows-driver-content
 description: The KS_H264VIDEOINFO describes the device capabilities that apply to the current media type.
 old-location: stream\ks_h264videoinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1EBA2124-F5D3-4683-B967-8179CCCD3102
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 9/12/2018
 ms.keywords: "*PKS_H264VIDEOINFO, KS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], PKS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, stream.ks_h264videoinfo, tagKS_H264VIDEOINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,52 +46,47 @@ req.typenames: KS_H264VIDEOINFO, *PKS_H264VIDEOINFO
 
 # tagKS_H264VIDEOINFO structure
 
-
 ## -description
-
 
 The KS_H264VIDEOINFO describes the device capabilities that apply to the current media type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wWidth
 
 Specifies the width in pixels of pictures output from the decoding process. 
 
-<div class="alert"><b>Note</b>  The value for this member must be a multiple of 2, but it does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active Sequence Parameter Set (SPS).</div>
-<div> </div>
+> [!NOTE]
+> The value for this member must be a multiple of 2, but it does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active Sequence Parameter Set (SPS).
 
 ### -field wHeight
 
 Specifies the height in pixels of pictures output from the decoding process.
 
-<div class="alert"><b>Note</b>   The value for this member must be a multiple of 2. When field coding or frame/field adaptive coding is used, it must be a multiple of 4. It does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active SPS.</div>
-<div> </div>
+> [!NOTE]
+> The value for this member must be a multiple of 2. When field coding or frame/field adaptive coding is used, it must be a multiple of 4. It does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active SPS.
 
 ### -field wSARwidth
 
 Specifies the sample aspect ratio width as defined in the H.264 Annex E. 
 
-<div class="alert"><b>Note</b>  It must  be relatively prime with respect to <b>wSARheight</b>.</div>
-<div> </div>
+> [!NOTE]
+> It must  be relatively prime with respect to **wSARheight**.
 
 ### -field wSARheight
 
 Specifies the sample aspect ratio height as defined in the H.264 Annex E. 
 
-<div class="alert"><b>Note</b>  It must be relatively prime with respect to <b>bSARwidth</b>.</div>
-<div> </div>
+> [!NOTE]
+> It must be relatively prime with respect to **bSARwidth**.
 
 ### -field wProfile
 
 Specifies the first two bytes of the sequence parameter set as described by profile_idc and constraint flags in the H.264 specification. 
 
-<div class="alert"><b>Note</b>  This member indicates the profile and applicable constraints to be used. </div>
-<div> </div>
+> [!NOTE]
+> This member indicates the profile and applicable constraints to be used.
+
 The following are examples of allowed values:
 
 <table>
@@ -139,8 +134,9 @@ The following are examples of allowed values:
 
 Specifies the level as described by the level_idc flag.
 
-<div class="alert"><b>Note</b>  This member indicates the minimum level that supports the resolution and the maximum bit rate for this frame descriptor.</div>
-<div> </div>
+> [!NOTE]
+> This member indicates the minimum level that supports the resolution and the maximum bit rate for this frame descriptor.
+
 The following are examples of allowed values:
 
 <table>
@@ -158,8 +154,6 @@ The following are examples of allowed values:
 </tr>
 </table>
  
-
-
 ### -field wConstrainedToolset
 
 Constrains the features allowed by <b>wProfile</b>.
@@ -373,8 +367,8 @@ Defines the bitmap that specifies the Multicast Video Coding (MVC) capabilities.
 
 Specifies the supported frame interval.
 
-<div class="alert"><b>Note</b>  This is the shortest frame interval supported, at the highest frame rate, in 100-nanoseconds units. </div>
-<div> </div>
+> [!NOTE]
+> This is the shortest frame interval supported, at the highest frame rate, in 100-nanoseconds units.
 
 ### -field bMaxCodecConfigDelay
 
@@ -446,11 +440,11 @@ Defines the bitmap that specifies the rate control modes.
 </tr>
 <tr>
 <td>D0</td>
-<td>Variable Bit Rate (VBR) without underflow (H.264 low_delay_hrd_flag = 0).</td>
+<td>Variable bit rate (VBR) with underflow allowed (H.264 low_delay_hrd_flag = 1).</td>
 </tr>
 <tr>
 <td>D1</td>
-<td>Constant Bit Rate (CBR) (H.264 low_delay_hrd_flag = 0). </td>
+<td>Constant bit rate (CBR) (H.264 low_delay_hrd_flag = 0).</td>
 </tr>
 <tr>
 <td>D2</td>
@@ -458,15 +452,19 @@ Defines the bitmap that specifies the rate control modes.
 </tr>
 <tr>
 <td>D3</td>
-<td>Global VBR without underflow (H.264 low_delay_hrd_flag = 0).</td>
+<td>Global VBR with underflow allowed (H.264 low_delay_hrd_flag = 1).</td>
 </tr>
 <tr>
 <td>D4</td>
-<td>VBR with underflow allowed (H.264 low_delay_hrd_flag = 1).</td>
+<td>VBR without underflow (H.264 low_delay_hrd_flag = 0).</td>
 </tr>
 <tr>
 <td>D5</td>
-<td>Global VBR with underflow allowed (H.264 low_delay_hrd_flag = 1).</td>
+<td>Global VBR without underflow (H.264 low_delay_hrd_flag = 0).</td>
+</tr>
+<tr>
+<td>D7-D6</td>
+<td>Reserved, set to 0.</td>
 </tr>
 </table>
  
@@ -689,24 +687,10 @@ Specifies the maximum macroblock processing rate allowed for temporal scalable s
 
 ## -remarks
 
-
-
 The KS_H264VIDEOINFO structure contains the frame and the format descriptor information.  
-
-
-
 
 ## -see-also
 
+[KS_DATAFORMAT_H264VIDEOINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_dataformat_h264videoinfo)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463996">KS_DATAFORMAT_H264VIDEOINFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464002">KS_DATARANGE_H264_VIDEO</a>
- 
-
- 
-
+[KS_DATARANGE_H264_VIDEO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_datarange_h264_video)

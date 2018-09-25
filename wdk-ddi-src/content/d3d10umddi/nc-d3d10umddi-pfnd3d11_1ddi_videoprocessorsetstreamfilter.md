@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER
 author: windows-driver-content
 description: Enables or disables an image filter for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamfilter.htm
-old-project: display
 ms.assetid: e44e5e4a-20e1-4327-b64c-5806d1bb2ece
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback, d3d10umddi/pfnVideoProcessorSetStreamFilter, display.videoprocessorsetstreamfilter, pfnVideoProcessorSetStreamFilter, pfnVideoProcessorSetStreamFilter callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

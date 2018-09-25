@@ -4,10 +4,9 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0033
 author: windows-driver-content
 description: Core device functions.
 old-location: display\d3d12ddi-device-funcs-core-0033.htm
-old-project: display
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033, display.d3d12ddi-device-funcs-core-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0033
 ---
 

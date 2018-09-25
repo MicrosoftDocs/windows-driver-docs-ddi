@@ -4,10 +4,10 @@ title: MINIPORT_RESET
 author: windows-driver-content
 description: NDIS calls an NDIS miniport driver's MiniportResetEx function to initiate a reset of a network interface card (NIC). For more information, see Miniport Adapter Check-for-Hang and Reset Operations and Miniport Driver Hardware Reset.
 old-location: netvista\miniportresetex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 15f82163-a1b5-4cef-a53e-8a97adb2cd92
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,9 @@ req.typenames:
 
 
 ## -description
+
+> [!WARNING]
+> The *MiniportResetEx* and [*MiniportCheckForHangEx*](nc-ndis-miniport_check_for_hang.md) callback functions are discouraged for all NDIS 6.83 and later drivers. For more information, see [Check-for-Hang and Reset operations in NDIS 6.83 and later](https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations#check-for-hang-and-reset-operations-in-ndis-683-and-later).
 
 
 NDIS calls an NDIS miniport driver's 

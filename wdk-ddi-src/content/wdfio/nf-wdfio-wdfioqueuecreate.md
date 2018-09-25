@@ -4,7 +4,7 @@ title: WdfIoQueueCreate function
 author: windows-driver-content
 description: The WdfIoQueueCreate method creates and configures an I/O queue for a specified device.
 old-location: wdf\wdfioqueuecreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueCreate</b> method creates and configures an I/O queue for a specified device.
 

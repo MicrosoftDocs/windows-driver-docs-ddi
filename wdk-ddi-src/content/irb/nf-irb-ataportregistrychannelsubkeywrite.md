@@ -4,7 +4,7 @@ title: AtaPortRegistryChannelSubkeyWrite function
 author: windows-driver-content
 description: The AtaPortRegistryChannelSubKeyWrite routine writes data to the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel.
 old-location: storage\ataportregistrychannelsubkeywrite.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -123,14 +123,9 @@ A pointer to the source buffer that contains the data to be written to the regis
 
 ### -param BufferLength
 
-TBD
+<p>A pointer to the number of bytes of data to copy. If the operation fails, the location that is pointed to by <i>Length</i> will update to the length of data that was successfully written to the registry.</p>
 
 
-
-
-#### - Length [in]
-
-A pointer to the number of bytes of data to copy. If the operation fails, the location that is pointed to by <i>Length</i> will update to the length of data that was successfully written to the registry.
 
 
 ## -returns

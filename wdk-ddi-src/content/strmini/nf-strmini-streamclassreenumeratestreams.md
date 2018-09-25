@@ -4,7 +4,7 @@ title: StreamClassReenumerateStreams function
 author: windows-driver-content
 description: Obsolete. Do not use.
 old-location: stream\streamclassreenumeratestreams.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 22196280-d097-45ac-a008-22b1ab0037e5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -60,12 +60,12 @@ Obsolete. Do not use.
 
 ### -param HwDeviceExtension
 
-TBD
+
 
 
 ### -param StreamDescriptorSize
 
-TBD
+
 
 
 

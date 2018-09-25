@@ -4,7 +4,7 @@ title: "_SWENUM_INSTALL_INTERFACE"
 author: windows-driver-content
 description: The SWENUM_INSTALL_INTERFACE structure describes a specific demand-load bus enumerator object interface to install.
 old-location: stream\swenum_install_interface.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 05280f35-7728-464e-9a8a-e45ab797e8a9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

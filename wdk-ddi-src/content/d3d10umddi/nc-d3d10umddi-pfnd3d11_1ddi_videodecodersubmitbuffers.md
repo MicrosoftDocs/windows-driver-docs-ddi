@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
 author: windows-driver-content
 description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 old-location: display\videodecodersubmitbuffers.htm
-old-project: display
 ms.assetid: fc1644d8-9058-4100-8e3e-f4727af89773
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback, d3d10umddi/pfnVideoDecoderSubmitBuffers, display.videodecodersubmitbuffers, pfnVideoDecoderSubmitBuffers, pfnVideoDecoderSubmitBuffers callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,10 +4,10 @@ title: PROTOCOL_CM_ACTIVATE_VC_COMPLETE
 author: windows-driver-content
 description: The ProtocolCmActivateVcComplete function is required.
 old-location: netvista\protocolcmactivatevccomplete.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6ec9e73e-8abd-4d27-b598-6176f2125348
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_ACTIVATE_VC_COMPLETE, PROTOCOL_CM_ACTIVATE_VC_COMPLETE callback, ProtocolCmActivateVcComplete, ProtocolCmActivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_2a632e5a-975c-44a2-8b30-088c128561c2.xml, ndis/ProtocolCmActivateVcComplete, netvista.protocolcmactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: PsRemoveSiloContext function
 author: windows-driver-content
 description: This routine removes an object that was inserted in the Silo.
 old-location: kernel\psremovesilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3323EF1B-9EB3-4D56-A9A5-0A8397F8A235
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -70,14 +70,9 @@ A slot allocated by the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ### -param RemovedSiloContext
 
-TBD
+<p>A pointer to a caller-allocated variable that receives the address of the removed object. This parameter is optional and can be <b>NULL</b>.</p>
 
 
-
-
-#### - ReturnedSiloContext
-
-A pointer to a caller-allocated variable that receives the address of the removed object. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns

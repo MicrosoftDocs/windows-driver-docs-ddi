@@ -4,7 +4,7 @@ title: BindPrinter function
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::BindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
 old-location: print\iprintoemprintticketprovider_bindprinter.htm
-old-project: print
+tech.root: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -71,7 +71,7 @@ The major version number of the print schema. Windows Vista supports only versio
 
 ### -param pOptions [out]
 
-A pointer to a variable that receives one of the following enumerated values: 
+A pointer to a variable that receives one of the following enumerated values:
 
 
 
@@ -79,7 +79,7 @@ A pointer to a variable that receives one of the following enumerated values:
 
 #### OEMPT_DEFAULT
 
-The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
+The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket.
 
 
 
@@ -92,7 +92,7 @@ The OEM object that is being called should set the value pointed to by this para
 
 ### -param pDevModeFlags
 
-TBD
+
 
 
 ### -param cNamespaces [out]
@@ -150,7 +150,7 @@ The plug-in does not support the version of the print schema that is specified i
 
 The plug-in is responsible for allocating memory for the array that is pointed to by the <i>ppNamespaces</i> parameter and for the namespace URI strings. The array should be allocated by using the <b>CoTaskMemAlloc</b> function; the namespace strings should be allocated by using the <b>SysAllocString</b> function. Both of these functions are described in the Microsoft Windows SDK documentation. The array that is pointed to by the <i>ppNamespaces</i> parameter is not required to contain the namespaces for the Print Schema Keywords or the Print Schema Framework.
 
-Binding to a device enables the provider to cache certain objects and handles that it will need for future print ticket or print capabilities services on that device. For example, the printer handle in <i>hPrinter</i> can be cached. <code>IPrintOemPrintTicketProvider::BindPrinter</code> is guaranteed to be called only once. 
+Binding to a device enables the provider to cache certain objects and handles that it will need for future print ticket or print capabilities services on that device. For example, the printer handle in <i>hPrinter</i> can be cached. <code>IPrintOemPrintTicketProvider::BindPrinter</code> is guaranteed to be called only once.
 
 An <b>IPrintTicketProvider</b> object does not have to be able to bind more than once. The print ticket manager always uses different <b>IPrintTicketProvider</b> object instances for binding to different devices. All resources that are acquired in a successful call to <code>IPrintTicketProvider::BindPrinter</code> should be released when the reference count of an <b>IPrintTicketProvider</b> object is zero. (Note that the provider should not close the handle that was passed into the call to <b>BindPrinter</b>). The print ticket manager might create multiple providers for the same device, in different versions, if multiple versions are supported.
 

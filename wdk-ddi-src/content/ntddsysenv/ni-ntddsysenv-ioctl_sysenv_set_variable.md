@@ -4,7 +4,7 @@ title: IOCTL_SYSENV_SET_VARIABLE
 author: windows-driver-content
 description: Sets the value of the specified system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_set_variable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2BA555D8-CFD3-4D27-BC38-3B261D2F95EF
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

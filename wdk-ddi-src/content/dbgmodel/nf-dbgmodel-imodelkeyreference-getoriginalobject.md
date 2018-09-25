@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 90470310-3ddb-444d-bf70-835cf42ea2ae
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference::GetOriginalObject, GetOriginalObject, IModelKeyReference.GetOriginalObject, IModelKeyReference::GetOriginalObject, IModelKeyReference.GetOriginalObject
 req.header: dbgmodel.h
@@ -44,15 +44,37 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetOriginalObject method returns the instance object from which the key reference was created. Note that the key may itself be on a parent model of the instance object. 
 
 ## -parameters
 
 ### -param originalObject
+The instance object from which the key reference was created will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```cpp
+ComPtr<IModelObject> spObject; /* get an object */
+
+ComPtr<IModelKeyReference> spKeyRef;
+if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
+{
+    ComPtr<IModelObject> spOriginalObject;
+    if (SUCCEEDED(spKeyRef->GetOriginalObject(&spOriginalObject)))
+    {
+        // spObject and spOriginalObject should be the same.
+        // This is true even if someone calls
+        // IModelKeyReference2::OverrideContextObject with some other object.
+    }
+}
+```
+
 ## -see-also
+
+[IModelKeyReference interface](nn-dbgmodel-imodelkeyreference.md)

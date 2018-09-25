@@ -4,10 +4,9 @@ title: "_D3DKMT_RECLAIMALLOCATIONS2"
 author: windows-driver-content
 description: D3DKMT_RECLAIMALLOCATIONS2 describes video memory resources that are to be reclaimed and that the driver previously offered for reuse. Used with the D3DKMTReclaimAllocations2 function.
 old-location: display\d3dkmt_reclaimallocations2.htm
-old-project: display
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_RECLAIMALLOCATIONS2
 ---
 

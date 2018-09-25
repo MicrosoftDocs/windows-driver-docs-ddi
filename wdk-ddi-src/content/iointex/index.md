@@ -8,6 +8,8 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: kernel
 ---
 
@@ -17,6 +19,8 @@ tech.root: kernel
 ## -description
 
 
-This header is used by kernel. For more information, see:
+This header exposes the programming interfaces to connect and disconnect interrupts allowing drivers to use those interfaces to run on downlevel systems. For more information, see:
 
-- [Windows kernel](../_kernel/index.md)
+- [Registering an ISR](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/registering-an-isr)
+- [Servicing Interrupts](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/servicing-interrupts)
+

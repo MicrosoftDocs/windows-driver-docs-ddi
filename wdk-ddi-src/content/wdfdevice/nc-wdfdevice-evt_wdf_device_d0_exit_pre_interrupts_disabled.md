@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED
 author: windows-driver-content
 description: A driver's EvtDeviceD0ExitPreInterruptsDisabled event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts.
 old-location: wdf\evtdeviced0exitpreinterruptsdisabled.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8f57c3b3-2dcf-44a3-a3c2-c9585bdfa253
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceD0ExitPreInterruptsDisabled</i> event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts.
 

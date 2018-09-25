@@ -4,7 +4,7 @@ title: SeMarkLogonSessionForTerminationNotification function
 author: windows-driver-content
 description: The SeMarkLogonSessionForTerminationNotification routine marks a logon session so that the caller's registered callback routine is called when the logon session terminates.
 old-location: ifsk\semarklogonsessionforterminationnotification.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

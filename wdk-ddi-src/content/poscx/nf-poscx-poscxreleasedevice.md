@@ -4,7 +4,7 @@ title: PosCxReleaseDevice function
 author: windows-driver-content
 description: PosCxReleaseDevice is called to release a device that was previously claimed with PosCxClaimDevice. Once the device is released, the next pending claim requester is promoted.
 old-location: pos\poscxreleasedevice.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

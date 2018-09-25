@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeAbortSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetPipeAbortSynchronously method builds an abort request and sends it synchronously to a specified USB pipe.
 old-location: wdf\wdfusbtargetpipeabortsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeAbortSynchronously</b> method builds an abort request and sends it synchronously to a specified USB pipe.
 

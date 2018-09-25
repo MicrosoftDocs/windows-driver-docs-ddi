@@ -4,10 +4,10 @@ title: NdisMFlushLog function
 author: windows-driver-content
 description: NdisMFlushLog clears the log file.
 old-location: netvista\ndismflushlog.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a681b704-80cc-406a-b60f-31ef5f953164
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMFlushLog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml, ndis/NdisMFlushLog, netvista.ndismflushlog
 ms.prod: windows-hardware
 ms.technology: windows-devices

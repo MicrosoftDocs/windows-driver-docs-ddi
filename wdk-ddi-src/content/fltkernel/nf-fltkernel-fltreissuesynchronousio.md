@@ -4,7 +4,7 @@ title: FltReissueSynchronousIo function
 author: windows-driver-content
 description: FltReissueSynchronousIo initiates a new synchronous I/O operation that uses the parameters from a previously synchronized I/O operation.
 old-location: ifsk\fltreissuesynchronousio.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5feba526-17f3-4969-9199-93cb2a36e937
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

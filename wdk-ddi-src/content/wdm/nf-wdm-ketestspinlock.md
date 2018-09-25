@@ -4,7 +4,7 @@ title: KeTestSpinLock function
 author: windows-driver-content
 description: The KeTestSpinLock routine tests for the availability of a spin lock.
 old-location: kernel\ketestspinlock.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5386349c-b4b8-43db-8f66-70dc7e71345e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

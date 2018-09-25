@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 title: PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 author: windows-driver-content
-description: 
+description: Gets present private driver data size.
 ms.assetid: 17433662-deaa-4642-9ac1-0026b439491e
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Gets present private driver data size.
 
 ## -prototype
 
@@ -67,18 +69,21 @@ PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param * 
 
+Pointer to a D3D12DDIARG_PRESENT_0001 structure.
 
 ## -returns
 
-Returns UINT that ...
+Returns UINT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

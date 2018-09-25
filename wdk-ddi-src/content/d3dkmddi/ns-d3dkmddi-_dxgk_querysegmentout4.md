@@ -4,10 +4,9 @@ title: "_DXGK_QUERYSEGMENTOUT4"
 author: windows-driver-content
 description: The DXGK_QUERYSEGMENTOUT4 structure contains memory segment information returned from the driver.
 old-location: display\dxgk_querysegmentout4.htm
-old-project: display
 ms.assetid: AE6988E6-81D7-47FB-986A-B5DEE9B7215B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_QUERYSEGMENTOUT4, DXGK_QUERYSEGMENTOUT4 structure [Display Devices], _DXGK_QUERYSEGMENTOUT4, d3dkmddi/DXGK_QUERYSEGMENTOUT4, display.dxgk_querysegmentout4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_QUERYSEGMENTOUT4
 ---
 

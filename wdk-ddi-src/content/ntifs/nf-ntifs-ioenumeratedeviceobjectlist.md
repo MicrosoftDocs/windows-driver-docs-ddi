@@ -4,7 +4,7 @@ title: IoEnumerateDeviceObjectList function
 author: windows-driver-content
 description: The IoEnumerateDeviceObjectList routine enumerates a driver's device object list.
 old-location: ifsk\ioenumeratedeviceobjectlist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_EJECT
 author: windows-driver-content
 description: A driver's EvtDeviceEject event callback function handles operations that are necessary to eject a device from its docking station.
 old-location: wdf\evtdeviceeject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fc3f3a15-9a79-4275-9ba4-b01ab8851390
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceEject</i> event callback function handles operations that are necessary to eject a device from its docking station.
 

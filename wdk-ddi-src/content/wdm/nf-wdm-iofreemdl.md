@@ -4,7 +4,7 @@ title: IoFreeMdl function
 author: windows-driver-content
 description: The IoFreeMdl routine releases a caller-allocated memory descriptor list (MDL).
 old-location: kernel\iofreemdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

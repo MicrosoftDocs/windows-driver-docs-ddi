@@ -4,10 +4,10 @@ title: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL
 author: windows-driver-content
 description: This callback function returns the data interval for a specified sensor.
 old-location: sensors\evtsensorgetdatainterval.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 2C53ABFD-127C-42E6-86B6-EB0DC6FC62F1
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback, EvtSensorGetDataInterval, EvtSensorGetDataInterval callback function [Sensor Devices], sensors.evtsensorgetdatainterval, sensorscx/EvtSensorGetDataInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

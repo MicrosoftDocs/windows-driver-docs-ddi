@@ -4,7 +4,7 @@ title: HBA_ScsiId
 author: windows-driver-content
 description: The HBA_ScsiId structure contains information used by the operating system to identify a SCSI logical unit.
 old-location: storage\hba_scsiid.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c2acb40c-cb6e-45b4-b0be-911f6b37094e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

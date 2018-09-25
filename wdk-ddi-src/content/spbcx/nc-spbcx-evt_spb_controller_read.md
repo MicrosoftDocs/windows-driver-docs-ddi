@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_READ
 author: windows-driver-content
 description: An SPB controller driver's EvtSpbControllerIoRead event callback function reads data from the specified target device into the buffers that are supplied with the read request.
 old-location: spb\evtspbcontrollerioread.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

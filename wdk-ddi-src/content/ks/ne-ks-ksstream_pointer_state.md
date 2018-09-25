@@ -2,9 +2,9 @@
 UID: NE:ks.KSSTREAM_POINTER_STATE
 title: KSSTREAM_POINTER_STATE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksstream_pointer_state.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E3DF002D-825C-4DF6-935F-53D73F12FE2E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

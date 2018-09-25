@@ -4,10 +4,9 @@ title: "_D3DKMT_OPENRESOURCEFROMNTHANDLE"
 author: windows-driver-content
 description: Describes information that is required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
 old-location: display\d3dkmt_openresourcefromnthandle.htm
-old-project: display
 ms.assetid: 3f595816-29b5-4efc-a00c-77597dd9fa48
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENRESOURCEFROMNTHANDLE, d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmt_openresourcefromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OPENRESOURCEFROMNTHANDLE
 ---
 

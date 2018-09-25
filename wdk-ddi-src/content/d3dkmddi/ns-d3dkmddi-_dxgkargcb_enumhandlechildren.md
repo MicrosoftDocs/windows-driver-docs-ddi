@@ -4,10 +4,9 @@ title: "_DXGKARGCB_ENUMHANDLECHILDREN"
 author: windows-driver-content
 description: The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the index of one of its child allocations.
 old-location: display\dxgkargcb_enumhandlechildren.htm
-old-project: display
 ms.assetid: da97b175-a24c-406d-9747-c84122781f79
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, _DXGKARGCB_ENUMHANDLECHILDREN, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, display.dxgkargcb_enumhandlechildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_ENUMHANDLECHILDREN
 ---
 

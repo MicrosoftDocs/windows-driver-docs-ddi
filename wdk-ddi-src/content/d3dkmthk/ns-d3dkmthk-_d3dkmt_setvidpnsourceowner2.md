@@ -4,10 +4,9 @@ title: "_D3DKMT_SETVIDPNSOURCEOWNER2"
 author: windows-driver-content
 description: Used to set the VidPN source owner.
 old-location: display\d3dkmt-setvidpnsourceowner2.htm
-old-project: display
 ms.assetid: 6a6477db-23ad-42ad-b1cb-d81c7be4cf38
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER2, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, display.d3dkmt-setvidpnsourceowner2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETVIDPNSOURCEOWNER2
 ---
 

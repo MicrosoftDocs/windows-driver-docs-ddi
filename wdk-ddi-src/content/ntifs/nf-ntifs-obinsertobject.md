@@ -4,7 +4,7 @@ title: ObInsertObject function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\obinsertobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2984b246-3e3c-4121-b7a0-d9509a1717a3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>ObInsertObject</b> routine is reserved for system use.
 
 ### -param Object
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param PassedAccessState

@@ -4,7 +4,7 @@ title: WdfChildListCreate function
 author: windows-driver-content
 description: The WdfChildListCreate method creates a child list for a specified parent device.
 old-location: wdf\wdfchildlistcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListCreate</b> method creates a child list for a specified parent device.
 

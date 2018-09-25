@@ -4,7 +4,7 @@ title: WdfDeviceCreateDeviceInterface function
 author: windows-driver-content
 description: The WdfDeviceCreateDeviceInterface method creates a device interface for a specified device.
 old-location: wdf\wdfdevicecreatedeviceinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceCreateDeviceInterface</b> method creates a device interface for a specified device.
 

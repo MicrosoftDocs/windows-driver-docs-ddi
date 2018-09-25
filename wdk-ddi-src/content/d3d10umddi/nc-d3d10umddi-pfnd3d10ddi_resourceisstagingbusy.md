@@ -4,10 +4,9 @@ title: PFND3D10DDI_RESOURCEISSTAGINGBUSY
 author: windows-driver-content
 description: The ResourceIsStagingBusy function determines whether a resource is currently being used by the graphics pipeline.
 old-location: display\resourceisstagingbusy.htm
-old-project: display
 ms.assetid: df8498e2-a3b5-4bc8-b6d2-0d444f1d1485
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEISSTAGINGBUSY, PFND3D10DDI_RESOURCEISSTAGINGBUSY callback, ResourceIsStagingBusy, ResourceIsStagingBusy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_4109ed72-e2a5-4b1a-bfc6-7e5ce9227efc.xml, d3d10umddi/ResourceIsStagingBusy, display.resourceisstagingbusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

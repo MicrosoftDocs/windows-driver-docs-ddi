@@ -4,10 +4,9 @@ title: "_D3DKMT_OUTPUTDUPLCONTEXTSCOUNT"
 author: windows-driver-content
 description: Specifies the number of current Desktop Duplication API (DDA) clients that are attached to a given video present network (VidPN).
 old-location: display\d3dkmt_outputduplcontextscount.htm
-old-project: display
 ms.assetid: db63b984-73da-4b66-8a5e-06704dd7c031
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, D3DKMT_OUTPUTDUPLCONTEXTSCOUNT structure [Display Devices], _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, d3dkmthk/D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, display.d3dkmt_outputduplcontextscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
 ---
 

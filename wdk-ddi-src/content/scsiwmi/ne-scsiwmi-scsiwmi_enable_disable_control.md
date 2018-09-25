@@ -4,7 +4,7 @@ title: SCSIWMI_ENABLE_DISABLE_CONTROL
 author: windows-driver-content
 description: The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable.
 old-location: storage\scsiwmi_enable_disable_control.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

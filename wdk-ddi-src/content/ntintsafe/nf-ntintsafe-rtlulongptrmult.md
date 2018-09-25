@@ -4,7 +4,7 @@ title: RtlULongPtrMult function
 author: windows-driver-content
 description: Multiplies one value of type ULONG_PTR by another.
 old-location: kernel\rtlulongptrmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6E66CD0B-7CAD-4BF1-A6DD-56C5029A929E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,34 +60,19 @@ Multiplies one value of type <b>ULONG_PTR</b> by another.
 
 ### -param ulMultiplicand
 
-TBD
+<p>The value to be multiplied by <i>Multiplier</i>.</p>
 
 
 ### -param ulMultiplier
 
-TBD
+<p>The value by which to multiply <i>Multiplicand</i>.</p>
 
 
 ### -param pulResult
 
-TBD
+<p>A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - Multiplicand [in]
-
-The value to be multiplied by <i>Multiplier</i>.
-
-
-#### - Multiplier [in]
-
-The value by which to multiply <i>Multiplicand</i>.
-
-
-#### - pResult [out]
-
-A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 ## -remarks

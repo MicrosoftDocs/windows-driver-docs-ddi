@@ -4,7 +4,7 @@ title: "_KBUGCHECK_CALLBACK_REASON"
 author: windows-driver-content
 description: The KBUGCHECK_CALLBACK_REASON enumeration type specifies the situations in which a bug-check callback executes.
 old-location: kernel\kbugcheck_callback_reason.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

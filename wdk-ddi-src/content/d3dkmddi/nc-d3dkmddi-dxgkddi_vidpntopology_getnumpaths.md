@@ -4,10 +4,9 @@ title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS
 author: windows-driver-content
 description: The pfnGetNumPaths function returns the number of video present paths in a specified VidPN topology.
 old-location: display\dxgk_vidpntopology_interface_pfngetnumpaths.htm
-old-project: display
 ms.assetid: 60960774-3f90-4eeb-a408-fa37122f22ea
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS, DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS callback, VidPnFunctions_c330d233-9a8e-4c53-a73e-b789fb2cb7b0.xml, d3dkmddi/pfnGetNumPaths, display.dxgk_vidpntopology_interface_pfngetnumpaths, pfnGetNumPaths, pfnGetNumPaths callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

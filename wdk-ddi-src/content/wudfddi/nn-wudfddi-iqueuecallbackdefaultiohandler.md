@@ -4,7 +4,7 @@ title: IQueueCallbackDefaultIoHandler
 author: windows-driver-content
 description: The IQueueCallbackDefaultIoHandler interface contains a method that handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3b2980f9-2f55-4fe3-99ac-1da578688f4b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: IPrintSchemaTicket
 author: windows-driver-content
 description: Provides the primary method to access and validate a PrintTicket.
 old-location: print\iprintschematicket_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date:
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices],described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ Provides the primary method to access and validate a PrintTicket.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaTicket</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>. <b>IPrintSchemaTicket</b> also has these types of members:
+The **IPrintSchemaTicket** interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>. **IPrintSchemaTicket** also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -124,7 +124,7 @@ Gets an asynchronous PrintTicket validation operation context.
 </td>
 </tr>
 </table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaTicket</b> interface has these properties.
+<h3><a id="properties"></a>Properties</h3>The **IPrintSchemaTicket** interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -168,32 +168,17 @@ Sets the copy count.
 
 ## -remarks
 
+For C++ clients, to obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first dereference the <i>ppXmlNode</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh969196">XmlNode</a> property (using *ppXmlNode ). This retrieves a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method of the PrintTicket object to access the underlying IXMLDOMDocument2 object.
 
-
-To obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first dereference the <i>ppXmlNode</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh969196">XmlNode</a> property (using *ppXmlNode ). This retrieves a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method of the PrintTicket object to access the underlying  IXMLDOMDocument2 object.
-
-
-
+For C# and JavaScript clients, use printerextension.h GetReadStream or GetWriteStream methods to access a IPrintSchemaElement XmlNode.
 
 ## -see-also
 
+[IPrintSchemaAsyncOperationEvent::Completed](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed)
 
+[IPrintSchemaCapabilities](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemacapabilities)
 
+[IPrintSchemaElement](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaelement)
 
-<a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>
-
-
-
-<a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
+[IPrintSchemaElement::XmlNode](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
  
-
- 
-

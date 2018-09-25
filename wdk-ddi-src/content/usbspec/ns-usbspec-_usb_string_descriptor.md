@@ -4,10 +4,10 @@ title: "_USB_STRING_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_STRING_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined string descriptor.
 old-location: buses\usb_string_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 
 
 The <b>USB_STRING_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined string descriptor.
-
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.9.
 
 ## -struct-fields
 

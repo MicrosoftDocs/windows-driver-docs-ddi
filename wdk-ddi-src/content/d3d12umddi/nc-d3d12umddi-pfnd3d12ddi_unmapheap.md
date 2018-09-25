@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_UNMAPHEAP
 title: PFND3D12DDI_UNMAPHEAP
 author: windows-driver-content
-description: 
+description: Implemented by the client driver to unmap a heap.
 ms.assetid: ff2743ac-ae14-4c19-836a-d8a869b3ff9b
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_UNMAPHEAP
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_UNMAPHEAP callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to unmap a heap.
 
 ## -prototype
 
@@ -67,18 +69,21 @@ PFND3D12DDI_UNMAPHEAP
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HHEAP: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HHEAP 
 
+A heap handle.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

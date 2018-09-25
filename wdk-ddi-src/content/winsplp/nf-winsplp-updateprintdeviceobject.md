@@ -4,7 +4,7 @@ title: UpdatePrintDeviceObject function
 author: windows-driver-content
 description: The UpdatePrintDeviceObject function updates the properties of a device object that is in the print provider queue.
 old-location: print\updateprintdeviceobject.htm
-old-project: print
+tech.root: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

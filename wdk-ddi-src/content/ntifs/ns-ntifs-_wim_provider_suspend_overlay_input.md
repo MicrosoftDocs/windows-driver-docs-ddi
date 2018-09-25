@@ -4,7 +4,7 @@ title: "_WIM_PROVIDER_SUSPEND_OVERLAY_INPUT"
 author: windows-driver-content
 description: A Windows Image File (WIM) data source to suspend from the WIM provider is specified in the WIM_PROVIDER_SUSPEND_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_suspend_overlay_input.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 85BECD4F-3039-483F-8ED1-EFCA6BEE1181
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

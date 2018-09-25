@@ -2,9 +2,9 @@
 UID: NE:ks.KSEVENT_CLOCK_POSITION
 title: KSEVENT_CLOCK_POSITION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksevent_clock_position.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9F5268BF-293F-4736-974D-25914B67ED4B
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

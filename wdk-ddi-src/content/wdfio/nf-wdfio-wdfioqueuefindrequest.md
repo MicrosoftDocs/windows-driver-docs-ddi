@@ -4,7 +4,7 @@ title: WdfIoQueueFindRequest function
 author: windows-driver-content
 description: The WdfIoQueueFindRequest method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant ownership of the request to the driver.
 old-location: wdf\wdfioqueuefindrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueFindRequest</b> method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">ownership</a> of the request to the driver.
 

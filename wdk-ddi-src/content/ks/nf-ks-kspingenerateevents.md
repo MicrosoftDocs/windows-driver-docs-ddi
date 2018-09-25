@@ -4,7 +4,7 @@ title: KsPinGenerateEvents function
 author: windows-driver-content
 description: The KsPinGenerateEvents function generates events of an indicated type that are present in Pin's event list.
 old-location: stream\kspingenerateevents.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

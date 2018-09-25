@@ -4,7 +4,7 @@ title: KsDispatchIrp function
 author: windows-driver-content
 description: KsDispatchIrp calls a dispatch routine corresponding to the function code of the specified IRP. KsDispatchIrp then returns the status code from this call.
 old-location: stream\ksdispatchirp.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6ee88b2d-4086-4e6d-b80b-eff6868ce784
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

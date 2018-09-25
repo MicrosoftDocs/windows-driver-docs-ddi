@@ -4,7 +4,7 @@ title: IoCheckQuerySetVolumeInformation function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iocheckquerysetvolumeinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b3bfd54d-9fd2-401a-b01d-32983f0a6021
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. 
 
 ### -param FsInformationClass
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Length

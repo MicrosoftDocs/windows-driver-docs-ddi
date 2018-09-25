@@ -4,7 +4,7 @@ title: WdfDmaTransactionCreate function
 author: windows-driver-content
 description: The WdfDmaTransactionCreate method creates a DMA transaction.
 old-location: wdf\wdfdmatransactioncreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9470e4a6-eee4-4a73-80b0-3d45f9d79934
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionCreate</b> method creates a DMA transaction.  
 

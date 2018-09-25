@@ -4,10 +4,10 @@ title: RILSETCALLWAITINGSTATUSPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetcallwaitingstatusparams.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1ba8d745-96bf-4d9d-8784-e6594360c632
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams, ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

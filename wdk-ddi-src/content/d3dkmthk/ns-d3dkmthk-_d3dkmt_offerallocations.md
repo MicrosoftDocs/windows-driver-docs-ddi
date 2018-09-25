@@ -4,10 +4,9 @@ title: "_D3DKMT_OFFERALLOCATIONS"
 author: windows-driver-content
 description: Defines the video memory allocations that the driver offers for reuse. Used with the D3DKMTOfferAllocations function.
 old-location: display\d3dkmt_offerallocations.htm
-old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], _D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_OFFERALLOCATIONS
 ---
 

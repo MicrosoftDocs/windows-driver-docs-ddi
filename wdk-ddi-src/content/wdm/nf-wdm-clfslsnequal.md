@@ -4,7 +4,7 @@ title: ClfsLsnEqual function
 author: windows-driver-content
 description: The ClfsLsnEqual routine determines whether two LSNs from the same stream are equal.
 old-location: kernel\clfslsnequal.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e154c9d5-a131-47db-b0fa-d51154637c56
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

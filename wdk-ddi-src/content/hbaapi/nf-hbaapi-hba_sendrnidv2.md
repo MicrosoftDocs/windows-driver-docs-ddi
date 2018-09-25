@@ -4,7 +4,7 @@ title: HBA_SendRNIDV2 function
 author: windows-driver-content
 description: The HBA_SendRNIDV2 routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server.
 old-location: storage\hba_sendrnidv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,22 +60,22 @@ The <b>HBA_SendRNIDV2</b> routine sends a request for node identification data (
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. </p>
 
 
 ### -param HbaPortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies a port from which the RNID command is issued. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param DestWWN
 
-TBD
+<p>Contains a WWN for the destination port on the fabric configuration server that will provide the node identification data. </p>
 
 
 ### -param DestFCID
 
-TBD
+<p>Contains the fibre channel identifier of the destination port specified by <i>destWWN. </i>If no fibre channel identifier for the destination port is available, the caller should set this member to 0. </p>
 
 
 ### -param NodeIdDataFormat [in]
@@ -90,34 +90,9 @@ Pointer to a buffer that contains the payload data, in big-endian (wire) format,
 
 ### -param pRspBufferSize
 
-TBD
+<p>On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. </p>
 
 
-
-
-#### - RspBufferSize [in, out]
-
-On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
-
-
-#### - destFCID [in]
-
-Contains the fibre channel identifier of the destination port specified by <i>destWWN. </i>If no fibre channel identifier for the destination port is available, the caller should set this member to 0. 
-
-
-#### - destWWN [in]
-
-Contains a WWN for the destination port on the fabric configuration server that will provide the node identification data. 
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. 
-
-
-#### - hbaPortWWN [in]
-
-Contains a 64-bit worldwide name (WWN) that uniquely identifies a port from which the RNID command is issued. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
 ## -returns

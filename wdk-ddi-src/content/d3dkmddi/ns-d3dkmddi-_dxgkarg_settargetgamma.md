@@ -4,10 +4,9 @@ title: "_DXGKARG_SETTARGETGAMMA"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_SETTARGETGAMMA.
 old-location: display\dxgkarg_settargetgamma.htm
-old-project: display
 ms.assetid: 94BA40BD-3B56-44EF-BAD4-49556E68C550
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], PDXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], _DXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, d3dkmddi/PDXGKARG_SETTARGETGAMMA, display.dxgkarg_settargetgamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_SETTARGETGAMMA
 ---
 

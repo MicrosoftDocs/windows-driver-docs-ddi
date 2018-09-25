@@ -4,10 +4,10 @@ title: IddCxSwapChainFinishedProcessingFrame function
 author: windows-driver-content
 description: An OS callback function the driver calls report all GPU command for processing this frame have been queue.
 old-location: display\iddcxswapchainfinishedprocessingframe.htm
-old-project: display
+tech.root: display
 ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame method [Display Devices], display.iddcxswapchainfinishedprocessingframe, iddcx/IddCxSwapChainFinishedProcessingFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,16 +26,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: IddCxStub.lib 
+req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	iddcx.h
+-	IddCx.dll
 api_name:
 -	IddCxSwapChainFinishedProcessingFrame
 product:

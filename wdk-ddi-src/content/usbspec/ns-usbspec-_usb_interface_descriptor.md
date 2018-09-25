@@ -4,10 +4,10 @@ title: "_USB_INTERFACE_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_INTERFACE_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined interface descriptor.
 old-location: buses\usb_interface_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 12378915-fa3d-4054-bb06-6eb8b292559c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], _USB_INTERFACE_DESCRIPTOR, buses.usb_interface_descriptor, usbspec/PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR
 
 
 The <b>USB_INTERFACE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined interface descriptor.
-
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.5.
 
 ## -struct-fields
 

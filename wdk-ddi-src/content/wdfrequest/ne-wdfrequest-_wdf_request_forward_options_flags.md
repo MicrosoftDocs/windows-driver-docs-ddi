@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_FORWARD_OPTIONS_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_FORWARD_OPTIONS structure.
 old-location: wdf\wdf_request_forward_options_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6161bfd3-482c-4571-bd88-2e25d32b34a0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_FORWARD_OPTIONS_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_REQUEST_FORWARD_OPTIONS_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552459">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 

@@ -4,10 +4,10 @@ title: UCX_USBDEVICE_EVENT_CALLBACKS_INIT function
 author: windows-driver-content
 description: Initializes a UCX_USBDEVICE_EVENT_CALLBACKS structure with the function pointers to client driver's callback functions.
 old-location: buses\_ucx_usbdevice_event_callbacks_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 594583B0-6CCB-469F-82AB-604825D85E2E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_usbdevice_event_callbacks_init, ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

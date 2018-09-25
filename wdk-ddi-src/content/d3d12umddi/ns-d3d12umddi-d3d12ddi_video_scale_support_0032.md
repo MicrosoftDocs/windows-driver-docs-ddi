@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_SCALE_SUPPORT_0032
 author: windows-driver-content
 description: Video scale support.
 old-location: display\d3d12ddi-video-scale-support-0032.htm
-old-project: display
 ms.assetid: 630ee3fe-f97a-4e82-83d7-4efd05bc5d6e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_0032
 ---
 

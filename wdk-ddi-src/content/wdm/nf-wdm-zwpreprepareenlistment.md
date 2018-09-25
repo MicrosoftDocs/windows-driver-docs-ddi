@@ -4,7 +4,7 @@ title: ZwPrePrepareEnlistment function
 author: windows-driver-content
 description: The ZwPrePrepareEnlistment routine initiates the pre-prepare operation for a specified enlistment's transaction.
 old-location: kernel\zwpreprepareenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: adf2513c-9a0e-4552-baad-010ab243e9dc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

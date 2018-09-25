@@ -4,7 +4,7 @@ title: SeDeleteClientSecurity macro
 author: windows-driver-content
 description: The SeDeleteClientSecurity routine deletes a client security context.
 old-location: ifsk\sedeleteclientsecurity.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 413469b9-2f6c-4f4d-8723-80645a72744c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ The <b>SeDeleteClientSecurity</b> routine deletes a client security context.
 
 ### -param C
 
-TBD
+<p>Pointer to the client security context structure to be deleted.</p>
 
 
 
 
-
-
-#### - ClientContext [in]
-
-Pointer to the client security context structure to be deleted.
 
 
 ## -remarks

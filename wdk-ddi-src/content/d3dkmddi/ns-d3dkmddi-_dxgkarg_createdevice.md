@@ -4,10 +4,9 @@ title: "_DXGKARG_CREATEDEVICE"
 author: windows-driver-content
 description: The DXGKARG_CREATEDEVICE structure describes a graphics context device.
 old-location: display\dxgkarg_createdevice.htm
-old-project: display
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices], DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, _DXGKARG_CREATEDEVICE, d3dkmddi/DXGKARG_CREATEDEVICE, display.dxgkarg_createdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_CREATEDEVICE
 ---
 

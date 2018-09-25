@@ -4,7 +4,7 @@ title: "_WDF_QUERY_INTERFACE_CONFIG"
 author: windows-driver-content
 description: The WDF_QUERY_INTERFACE_CONFIG structure describes a driver-defined interface.
 old-location: wdf\wdf_query_interface_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2f7112fc-7f3e-415d-9994-ffd93f456d97
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure describes a driver-defined interface.
 

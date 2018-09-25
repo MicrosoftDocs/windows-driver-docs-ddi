@@ -3,14 +3,14 @@ UID: NS:uart._CPPORT
 title: _CPPORT
 author: windows-driver-content
 description: Contains the mutable runtime state of a specific instance of a UART device.
-old-project: serports
+tech.root: serports
 ms.assetid: f82a2ac1-ed30-4e75-ad87-54275a36130b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _CPPORT, CPPORT, *PCPPORT, 
+ms.keywords: _CPPORT, CPPORT, *PCPPORT,
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -24,15 +24,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: CPPORT, *PCPPORT
-topic_type: 
+topic_type:
 -	apiref
-api_type: 
+api_type:
 -	HeaderDef
-api_location: 
+api_location:
 -	uart.h
-api_name: 
+api_name:
 -	_CPPORT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -45,13 +46,13 @@ Contains the mutable runtime state of a specific instance of a UART device.
 
 ### -field Address
 The base address of the UART registers.
- 
+
 ### -field BaudRate
 The UART hardware's baud rate in bits per second.
 
 ### -field Flags
 A bitmask of the port's internal flags.
- 
+
 ### -field ByteWidth
 The width of each of the UART hardware's registers as a number of bytes.
 

@@ -4,7 +4,7 @@ title: "_MSiSCSI_HBASessionConfig"
 author: windows-driver-content
 description: The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device.
 old-location: storage\msiscsi_hbasessionconfig.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

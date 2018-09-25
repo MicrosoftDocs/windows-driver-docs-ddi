@@ -4,7 +4,7 @@ title: SecMakeSPNEx2 function
 author: windows-driver-content
 description: SecMakeSPNEx2 creates a service provider name string that can be used when it communicates with specific security service providers.
 old-location: ifsk\secmakespnex2.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: abb8d45a-a698-41b0-94b3-c658fe3105bb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -71,7 +71,7 @@ A pointer to a Unicode string that specifies the service name for the security s
 
 ### -param OPTIONAL
 
-TBD
+<p>A pointer to an optional Unicode string that specifies the instance name that is used to connect with the security service provider. </p>
 
 
 ### -param Spn [in, out]
@@ -87,31 +87,6 @@ A Boolean variable that indicates if the memory that is used to store the <i>Spn
 ### -param IsTargetInfoMarshaled [in]
 
 A Boolean variable that indicates that the caller provided a marshaled <i>InTargetInfo</i> structure.  If <i>IsTargetInfoMarshaled</i> is <b>TRUE</b>, <i>InTargetInfo</i>-&gt;Buffer points to a string representation of the CREDENTIAL_TARGET_INFORMATION structure as returned by the <b>CredMarshalTargetInfo</b> function.
-
-
-#### - InstanceName [in]
-
-A pointer to an optional Unicode string that specifies the instance name that is used to connect with the security service provider. 
-
-
-#### - InstancePort [in]
-
-An optional variable that specifies the instance port that is used to connect with the security service provider. 
-
-
-#### - Referrer [in]
-
-A pointer to an optional Unicode string that specifies the referrer name that is used to connect with the security service provider. 
-
-
-#### - TargetInfo [in]
-
-A pointer to an optional Unicode string that specifies target information that is used to connect with the security service provider. 
-
-
-#### - TotalSize [out]
-
-A pointer to an optional variable that receives the length of the security service provider name string that is created by this function.
 
 
 ## -returns

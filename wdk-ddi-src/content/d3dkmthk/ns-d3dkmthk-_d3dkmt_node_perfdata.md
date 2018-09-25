@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_NODE_PERFDATA
 title: _D3DKMT_NODE_PERFDATA
 author: windows-driver-content
-description:
+description: Represents performance data collected per engine from an adapter on an interval basis.
 ms.assetid: 90d91283-4891-4459-b182-40bf600c8b92
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_NODE_PERFDATA
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_NODE_PERFDATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_NODE_PERFDATA structure

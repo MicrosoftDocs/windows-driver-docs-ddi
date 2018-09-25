@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_WMI"
 author: windows-driver-content
 description: The SRBEX_DATA_WMI structure contains the request data for an extended WMI SRB.
 old-location: storage\srbex_data_wmi.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3FFBF258-50C3-4D2D-AFC8-184D2FF85EE4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

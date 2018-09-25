@@ -4,7 +4,7 @@ title: HWN_CLIENT_UNINITIALIZE_DEVICE
 author: windows-driver-content
 description: Implemented by the client driver and invoked as invoked as a result of a call to EVT_WDF_DEVICE_RELEASE_HARDWARE. This callback function uninitializes the hardware notification component.
 old-location: gpiobtn\hwn_client_uninitialize_device.htm
-old-project: gpiobtn
+tech.root: gpiobtn
 ms.assetid: 19ed1c21-d041-4876-8f90-4319e43a7004
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: hwnclx.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -76,12 +76,12 @@ typedef HWN_CLIENT_UNINITIALIZE_DEVICE *PHWN_CLIENT_UNINITIALIZE_DEVICE;
 
 ### -param Device [in]
 
-Handle to the client drivers framework device object. 
+Handle to the client drivers framework device object.
 
 
 ### -param Context [in]
 
-Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>. 
+Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
 ## -returns

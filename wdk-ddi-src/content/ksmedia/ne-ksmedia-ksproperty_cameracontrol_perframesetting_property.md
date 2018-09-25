@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
 author: windows-driver-content
 description: This enumeration contains the property IDs defined for the per-frame property set.
 old-location: stream\ksproperty_cameracontrol_perframesetting_property.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 59328DD6-3E7B-43C3-A1FF-E02DC24228BA
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

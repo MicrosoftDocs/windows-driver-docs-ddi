@@ -4,7 +4,7 @@ title: "_TAPE_DRIVE_PROBLEM_TYPE"
 author: windows-driver-content
 description: The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive.
 old-location: storage\tape_drive_problem_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

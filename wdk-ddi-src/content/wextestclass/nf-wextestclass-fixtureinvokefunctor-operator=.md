@@ -4,7 +4,7 @@ title: operator= function
 author: windows-driver-content
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 2/27/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: wextestclass.h
 req.include-header: Engextcpp.hpp, Wexlogtrace.h, Wextestclass.h, Wextestclass.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -71,14 +71,9 @@ ExtRemoteTyped & operator=(
 
 ### -param
 
-TBD
+<p>A pointer to a <a href="https://msdn.microsoft.com/library/Ff541706(v=VS.85).aspx"><b>DEBUG_TYPED_DATA</b></a> structure that describes the data and type to be assigned to this object.</p>
 
 
-
-
-#### - Typed [in]
-
-A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the data and type to be assigned to this object.
 
 
 ## -returns

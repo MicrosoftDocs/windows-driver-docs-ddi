@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_OPENHEAPANDRESOURCE_0003
 title: PFND3D12DDI_OPENHEAPANDRESOURCE_0003
 author: windows-driver-content
-description: 
+description: Implemented by the client driver to open heap and resource.
 ms.assetid: aca4ecce-657a-4288-b761-2c6463d039d8
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_OPENHEAPANDRESOURCE_0003
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_OPENHEAPANDRESOURCE_0003 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to open heap and resource.
 
 ## -prototype
 
@@ -70,21 +72,35 @@ PFND3D12DDI_OPENHEAPANDRESOURCE_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
-### -param D3D12DDI_HHEAP: 
-### -param D3D12DDI_HRTRESOURCE: 
-### -param D3D12DDI_HRESOURCE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
+
+Pointer to a D3D12DDIARG_OPENHEAP_0003 structure.
+
+### -param D3D12DDI_HHEAP 
+
+A heap handle.
+
+### -param D3D12DDI_HRTRESOURCE 
+
+The handle of the resource for the driver to use when it calls back into the runtime.
+
+### -param D3D12DDI_HRESOURCE 
+
+A resource handle.
 
 
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

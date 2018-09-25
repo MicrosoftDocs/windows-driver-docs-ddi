@@ -4,7 +4,7 @@ title: IoPropagateActivityIdToThread function
 author: windows-driver-content
 description: The IoPropagateActivityIdToThread routine associates the activity ID from an IRP with the current thread.
 old-location: kernel\iopropagateactivityidtothread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -70,14 +70,9 @@ A pointer to memory allocated by the caller to store the ID in the thread.
 
 ### -param OriginalId
 
-TBD
+<p>Upon successfully returning from the call, holds the ID that was previously set on the thread. The driver must call <a href="https://msdn.microsoft.com/library/Hh439297(v=VS.85).aspx"><b>IoClearActivityIdThread</b></a> with this pointer when tracing is completed within the same thread context.</p>
 
 
-
-
-#### - *OriginalId [out]
-
-Upon successfully returning from the call, holds the ID that was previously set on the thread. The driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh439297">IoClearActivityIdThread</a> with this pointer when tracing is completed within the same thread context.
 
 
 ## -returns

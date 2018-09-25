@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_CDRW_CAV_WRITE"
 author: windows-driver-content
 description: The FEATURE_DATA_CDRW_CAV_WRITE structure contains information about the CD-RW CAV Write feature.
 old-location: storage\feature_data_cdrw_cav_write.htm
-old-project: storage
+tech.root: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

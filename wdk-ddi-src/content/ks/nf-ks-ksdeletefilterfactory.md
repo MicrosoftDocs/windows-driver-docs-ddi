@@ -4,7 +4,7 @@ title: KsDeleteFilterFactory macro
 author: windows-driver-content
 description: KsDeleteFilterFactory deletes a given filter factory.
 old-location: stream\ksdeletefilterfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4d946524-8ad2-45a0-91be-861b30b0c297
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

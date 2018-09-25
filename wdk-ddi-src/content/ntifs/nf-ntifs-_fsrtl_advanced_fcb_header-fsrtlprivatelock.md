@@ -4,7 +4,7 @@ title: FsRtlPrivateLock function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlprivatelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0f6b5bd-991c-403c-9bda-82960b356ca9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlPrivateLock
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +60,7 @@ The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support exis
 
 ### -param FileLock
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param FileObject

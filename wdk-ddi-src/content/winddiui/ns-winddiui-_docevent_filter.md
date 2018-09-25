@@ -4,7 +4,7 @@ title: "_DOCEVENT_FILTER"
 author: windows-driver-content
 description: The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.
 old-location: print\docevent_filter.htm
-old-project: print
+tech.root: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

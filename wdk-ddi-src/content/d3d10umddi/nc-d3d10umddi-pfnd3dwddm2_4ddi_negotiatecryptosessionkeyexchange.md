@@ -2,7 +2,7 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE
 title: PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE
 author: windows-driver-content
-description:
+description: Establishes a session key for a cryptographic session object.
 ms.assetid: 29deaace-55a0-406e-949e-c3aca2b8097c
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE callback function
@@ -108,7 +110,8 @@ For sessions that use the RSA Encryption Scheme - Optimal Asymmetric Encryption 
 
 The key exchange for a cryptographic session is identical to the key exchange for the Output Protection Manager (OPM) interface. However, the OPM key buffer contains additional data besides the session key.
 
->**Note**  The same certificate can be used for the cryptographic session and OPM session key.
+> [!NOTE]
+> The same certificate can be used for the cryptographic session and OPM session key.
 
 
 ## -see-also

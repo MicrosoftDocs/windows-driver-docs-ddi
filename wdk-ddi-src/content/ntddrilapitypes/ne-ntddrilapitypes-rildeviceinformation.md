@@ -4,7 +4,7 @@ title: RILDEVICEINFORMATION
 author: windows-driver-content
 description: This enumeration describes the RILDEVICEINFORMATION.
 old-location: netvista\rildeviceinformation.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1abba51c-1db9-4424-aa11-64d3fd116a79
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,13 +58,13 @@ req.typenames: RILDEVICEINFORMATION
 
 ````
 enum RILDEVICEINFORMATION {
-  RIL_DEVICEINFO_MANUFACTURER       = 0x01, 
-  RIL_DEVICEINFO_MODEL              = 0x02, 
-  RIL_DEVICEINFO_REVISION           = 0x03, 
-  RIL_DEVICEINFO_SERIALNUMBER_GW    = 0x04, 
-  RIL_DEVICEINFO_SERIALNUMBER_CDMA  = 0x05, 
-  RIL_DEVICEINFO_ARG_SMALLEST       = RIL_DEVICEINFO_MANUFACTURER, 
-  RIL_DEVICEINFO_ARG_LARGEST        = RIL_DEVICEINFO_SERIALNUMBER_CDMA 
+  RIL_DEVICEINFO_MANUFACTURER       = 0x01,
+  RIL_DEVICEINFO_MODEL              = 0x02,
+  RIL_DEVICEINFO_REVISION           = 0x03,
+  RIL_DEVICEINFO_SERIALNUMBER_GW    = 0x04,
+  RIL_DEVICEINFO_SERIALNUMBER_CDMA  = 0x05,
+  RIL_DEVICEINFO_ARG_SMALLEST       = RIL_DEVICEINFO_MANUFACTURER,
+  RIL_DEVICEINFO_ARG_LARGEST        = RIL_DEVICEINFO_SERIALNUMBER_CDMA
 
 };
 ````

@@ -4,7 +4,7 @@ title: KSSTREAM_UVC_METADATA
 author: windows-driver-content
 description: The KSSTREAM_UVC_METADATA structure contains start and end of frame timestamp information.
 old-location: stream\ksstream_uvc_metadata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 99ED5E06-23C7-4B24-BD9B-E6713B1D58D2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

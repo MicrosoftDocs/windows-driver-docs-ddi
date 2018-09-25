@@ -4,7 +4,7 @@ title: WdfRequestRetrieveUnsafeUserOutputBuffer function
 author: windows-driver-content
 description: The WdfRequestRetrieveUnsafeUserOutputBuffer method retrieves an I/O request's output buffer, if the request's technique for accessing data buffers is neither buffered nor direct I/O.
 old-location: wdf\wdfrequestretrieveunsafeuseroutputbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7969f683-3426-4863-8afe-d9cbe490a4b5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> method retrieves an I/O request's output buffer, if the request's technique for accessing data buffers is <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">neither buffered nor direct I/O</a>.
 

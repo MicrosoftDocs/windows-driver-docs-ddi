@@ -4,7 +4,7 @@ title: IDE_ADAPTER_CONTROL
 author: windows-driver-content
 description: The AtaAdapterControl miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataadaptercontrol.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 50125022-7450-4582-b98d-1d597e4e96d4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

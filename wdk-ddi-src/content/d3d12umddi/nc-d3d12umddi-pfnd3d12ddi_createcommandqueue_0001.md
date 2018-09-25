@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECOMMANDQUEUE_0001
 title: PFND3D12DDI_CREATECOMMANDQUEUE_0001
 author: windows-driver-content
-description: 
+description: The PFND3D12DDI_CREATECOMMANDQUEUE_0001 callback function is used to create command queue.
 ms.assetid: 872fcefc-ef32-443f-acd2-f5a206abee33
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CREATECOMMANDQUEUE_0001
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CREATECOMMANDQUEUE_0001 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+The PFND3D12DDI_CREATECOMMANDQUEUE_0001 callback function is used to create command queue.
 
 ## -prototype
 
@@ -67,18 +69,23 @@ PFND3D12DDI_CREATECOMMANDQUEUE_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE
+
+The handle of a device.
+
+### -param *
+
+Arguments used to create a command queue.
 
 
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Access this callback function by using a device functions core structure, such as the [D3D12DDI_DEVICE_FUNCS_CORE_0010](ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md) structure.
 
 
 ## -see-also

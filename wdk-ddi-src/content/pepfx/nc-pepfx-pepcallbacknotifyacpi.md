@@ -4,7 +4,7 @@ title: PEPCALLBACKNOTIFYACPI
 author: windows-driver-content
 description: An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptacpinotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7BC27FD1-CCD8-4ABC-B973-C2242D6C243B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

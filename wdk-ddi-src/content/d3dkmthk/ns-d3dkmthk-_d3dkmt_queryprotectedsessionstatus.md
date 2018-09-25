@@ -4,10 +4,9 @@ title: "_D3DKMT_QUERYPROTECTEDSESSIONSTATUS"
 author: windows-driver-content
 description: Used to query the status of the protected session.
 old-location: display\d3dkmt-queryprotectedsessionstatus.htm
-old-project: display
 ms.assetid: c49b1c12-8757-4d15-807d-fdb963746810
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONSTATUS, D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONSTATUS, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS, display.d3dkmt-queryprotectedsessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_QUERYPROTECTEDSESSIONSTATUS
 ---
 

@@ -4,7 +4,7 @@ title: "_HARDWARE_COUNTER"
 author: windows-driver-content
 description: The HARDWARE_COUNTER structure contains information about a hardware counter.
 old-location: kernel\hardware_counter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 15eeeb07-b71f-4868-8854-6a5034d3f8c6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

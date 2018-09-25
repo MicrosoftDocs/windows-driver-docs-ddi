@@ -4,10 +4,9 @@ title: PFND3D12DDI_ALLOCATE_CB_0022
 author: windows-driver-content
 description: The pfnAllocateCb callback function controls heap allocation by using a D3D12DDICB_ALLOCATE_0022 value.
 old-location: display\pfnd3d12ddi_allocate_cb_0022.htm
-old-project: display
 ms.assetid: D0326C98-F187-4F62-AE60-60F0B38AB0D4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_ALLOCATE_CB_0022, PFND3D12DDI_ALLOCATE_CB_0022 callback, d3d12umddi/pfnAllocateCb, display.pfnd3d12ddi_allocate_cb_0022, pfnAllocateCb, pfnAllocateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,24 +60,14 @@ The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <
 
 ### -param Arg1
 
+The handle for a device.
 
 ### -param *
 
 
-
-
-
-
-
-
-#### - Allocate [in, out]
-
 A <a href="https://msdn.microsoft.com/C39262BA-D1CE-4634-974A-ACCE8D321830">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
 
 
-#### - hRTDevice [in]
-
-The handle for a device.
 
 
 ## -returns

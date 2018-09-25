@@ -4,7 +4,7 @@ title: KeMemoryBarrier function
 author: windows-driver-content
 description: The KeMemoryBarrier routine creates a barrier at its position in the code&#8212;across which the compiler and the processor cannot move any operations.
 old-location: kernel\kememorybarrier.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e6ffb893-a79f-4cc0-9052-667b835f4ad3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

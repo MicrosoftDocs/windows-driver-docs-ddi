@@ -4,7 +4,7 @@ title: "_GetPersistentBinding2_IN"
 author: windows-driver-content
 description: The GetPersistentBinding2_IN structure is used to deliver input parameter data to the GetPersistentBinding2 WMI method.
 old-location: storage\getpersistentbinding2_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 646378f8-9037-4c40-bcbc-5ffe380e6279
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

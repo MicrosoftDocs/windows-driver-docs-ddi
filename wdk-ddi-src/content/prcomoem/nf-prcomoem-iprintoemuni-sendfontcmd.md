@@ -4,7 +4,7 @@ title: IPrintOemUni::SendFontCmd
 author: windows-driver-content
 description: The IPrintOemUni::SendFontCmd method enables a rendering plug-in to modify a printer's font selection command and then send it to the printer.
 old-location: print\iprintoemuni_sendfontcmd.htm
-old-project: print
+tech.root: print
 ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

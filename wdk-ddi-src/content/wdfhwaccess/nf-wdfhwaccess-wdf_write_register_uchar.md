@@ -4,7 +4,7 @@ title: WDF_WRITE_REGISTER_UCHAR function
 author: windows-driver-content
 description: The WDF_WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: wdf\wdf_write_register_uchar.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5738654A-83B1-44B4-BA45-52E2B60C852D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 

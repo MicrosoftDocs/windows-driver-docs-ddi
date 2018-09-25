@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
 author: windows-driver-content
 description: The IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION request passes a pointer to a mouse interrupt object.
 old-location: hid\ioctl_internal_i8042_mouse_start_information.htm
-old-project: hid
+tech.root: hid
 ms.assetid: aa7d5802-d1d0-4c7c-bf55-0f0b5b664113
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

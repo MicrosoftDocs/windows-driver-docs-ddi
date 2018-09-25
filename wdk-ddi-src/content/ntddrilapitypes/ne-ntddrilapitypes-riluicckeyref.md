@@ -4,7 +4,7 @@ title: RILUICCKEYREF
 author: windows-driver-content
 description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluicckeyref.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7812008b-867f-4b17-b715-7a1f10c38368
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,11 +58,11 @@ req.typenames: RILUICCKEYREF
 
 ````
 enum RILUICCKEYREF {
-  RIL_UICCKEYREF_ALW   = 0x00, 
-  RIL_UICCKEYREF_PIN1  = 0x01, 
-  RIL_UICCKEYREF_UPIN  = 0x10, 
-  RIL_UICCKEYREF_PIN2  = 0x81, 
-  RIL_UICCKEYREF_NEV   = 0xff 
+  RIL_UICCKEYREF_ALW   = 0x00,
+  RIL_UICCKEYREF_PIN1  = 0x01,
+  RIL_UICCKEYREF_UPIN  = 0x10,
+  RIL_UICCKEYREF_PIN2  = 0x81,
+  RIL_UICCKEYREF_NEV   = 0xff
 
 };
 ````

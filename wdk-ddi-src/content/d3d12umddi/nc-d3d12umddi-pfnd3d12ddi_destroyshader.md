@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYSHADER
 title: PFND3D12DDI_DESTROYSHADER
 author: windows-driver-content
-description: 
+description: Destroy shader.
 ms.assetid: 11ca0734-50b5-45a3-af8a-d344c88a2b68
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_DESTROYSHADER
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_DESTROYSHADER callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Destroy shader.
 
 ## -prototype
 
@@ -67,18 +69,21 @@ PFND3D12DDI_DESTROYSHADER
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
 ### -param D3D12DDI_HSHADER: 
 
-
+A shader handle.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

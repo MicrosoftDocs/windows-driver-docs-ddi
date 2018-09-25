@@ -4,7 +4,7 @@ title: WdfTimerCreate function
 author: windows-driver-content
 description: The WdfTimerCreate method creates a framework timer object.
 old-location: wdf\wdftimercreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfTimerCreate</b> method creates a framework timer object.
 

@@ -4,10 +4,10 @@ title: PcInitializeAdapterDriver function
 author: windows-driver-content
 description: The PcInitializeAdapterDriver function binds an adapter driver to the PortCls system driver.
 old-location: audio\pcinitializeadapterdriver.htm
-old-project: audio
+tech.root: audio
 ms.assetid: c9d019da-a05b-4c60-99e9-06b8537fa78e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audio.pcinitializeadapterdriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, portcls/PcInitializeAdapterDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices

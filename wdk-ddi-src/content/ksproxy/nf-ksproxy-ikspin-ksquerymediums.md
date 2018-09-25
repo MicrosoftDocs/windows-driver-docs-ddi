@@ -4,7 +4,7 @@ title: IKsPin::KsQueryMediums
 author: windows-driver-content
 description: The KsQueryMediums method retrieves mediums that a pin supports.
 old-location: stream\ikspin_ksquerymediums.htm
-old-project: stream
+tech.root: stream
 ms.assetid: de6efd10-7f97-422a-abd4-c21c4cbc1dd7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
 author: windows-driver-content
 description: A driver's EvtIoDeviceControl event callback function processes a specified device I/O control request.
 old-location: wdf\evtiodevicecontrol.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoDeviceControl</i> event callback function processes a specified device I/O control request.
 

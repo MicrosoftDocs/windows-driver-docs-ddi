@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: a93e26a7-1ffe-4702-90bd-7fbd93d3e605
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/12/2018 
 ms.topic: method
 ms.keywords: IDebugHostField::GetOffset, GetOffset, IDebugHostField.GetOffset, IDebugHostField::GetOffset, IDebugHostField.GetOffset
 req.header: dbgmodel.h
@@ -44,15 +44,33 @@ targetos: Windows
 
 ## -description
 
-TBD
+For fields which have an offset (e.g.: fields whose location kind indicates LocationMember), the GetOffset method will return the offset from the base address of the containing type (the this pointer) to the data for the field itself. Such offsets are always expressed as unsigned 64-bit values.
+
+If the given field does not have a location which is an offset from the base address of the containing type, the GetOffset method will fail. 
+
 
 ## -parameters
 
 ### -param offset
-
+The offset of the field data from the base address of the containing type (e.g.: the this pointer) will be returned here.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
+```cpp
+ComPtr<IDebugHostField> spField; /* get a field symbol (see EnumerateChildren) */
+
+ULONG64 fieldOffset;
+if (SUCCEEDED(spField->GetOffset(&fieldOffset)))
+{
+    // For locations which have offsets (as indicated by GetLocationKind), 
+    // fieldOffset will contain the offset of the field from the start 
+    // of its containing type.
+}
+```
+
 ## -see-also
+
+[IDebugHostField interface](nn-dbgmodel-idebughostfield.md)

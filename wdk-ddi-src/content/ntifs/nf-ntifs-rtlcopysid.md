@@ -4,7 +4,7 @@ title: RtlCopySid function
 author: windows-driver-content
 description: The RtlCopySid routine copies the value of a security identifier (SID) to a buffer.
 old-location: ifsk\rtlcopysid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: adfe720f-695e-49a2-b7b5-940ba11bc83f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
 author: windows-driver-content
 description: The security properties of bands in a band-managed storage device are modified with the IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY request.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_security.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CBA94AF4-649D-47C9-879B-4B939DE32BE2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

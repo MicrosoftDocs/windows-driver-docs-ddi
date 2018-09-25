@@ -4,7 +4,7 @@ title: RtlIdentifierAuthoritySid function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlidentifierauthoritysid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cf81a653-19fd-45fc-ad38-3f701241fd80
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a 
 
 ### -param Sid
 
-TBD
+<p>Reserved.</p>
 
 
 

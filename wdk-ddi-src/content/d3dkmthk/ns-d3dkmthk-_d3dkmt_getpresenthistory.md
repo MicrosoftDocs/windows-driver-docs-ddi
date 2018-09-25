@@ -4,10 +4,9 @@ title: "_D3DKMT_GETPRESENTHISTORY"
 author: windows-driver-content
 description: The D3DKMT_GETPRESENTHISTORY structure describes the state of copying history.
 old-location: display\d3dkmt_getpresenthistory.htm
-old-project: display
 ms.assetid: 6d9b0473-544f-43aa-9358-ec51d84d45d9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices], OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, _D3DKMT_GETPRESENTHISTORY, d3dkmthk/D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETPRESENTHISTORY
 ---
 

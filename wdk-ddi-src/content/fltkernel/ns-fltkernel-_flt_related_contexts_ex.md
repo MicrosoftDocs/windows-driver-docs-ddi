@@ -4,7 +4,7 @@ title: "_FLT_RELATED_CONTEXTS_EX"
 author: windows-driver-content
 description: The FLT_RELATED_CONTEXTS_EX structure contains a minifilter driver's contexts for the objects associated with an I/O operation.
 old-location: ifsk\flt_related_contexts_ex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9D3E77AE-C63D-4253-8520-6A9ACCBB89CC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

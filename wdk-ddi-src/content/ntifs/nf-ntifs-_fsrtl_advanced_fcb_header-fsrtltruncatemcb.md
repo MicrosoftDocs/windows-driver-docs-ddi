@@ -4,7 +4,7 @@ title: FsRtlTruncateMcb function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtltruncatemcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e23b9324-7e68-4914-93bb-3348d91b0b3f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlTruncateMcb
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +60,7 @@ The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support exis
 
 ### -param Mcb
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Vbn

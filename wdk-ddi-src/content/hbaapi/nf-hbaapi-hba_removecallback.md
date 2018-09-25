@@ -4,7 +4,7 @@ title: HBA_RemoveCallback function
 author: windows-driver-content
 description: The HBA_RemoveCallback routine de-registers a callback routine.
 old-location: storage\hba_removecallback.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9b97e93c-a375-4df7-9d2d-86f1ad72b62d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

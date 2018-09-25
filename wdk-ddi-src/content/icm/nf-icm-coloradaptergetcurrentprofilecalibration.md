@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterGetCurrentProfileCalibration
 title: ColorAdapterGetCurrentProfileCalibration function
 author: windows-driver-content
-description:
+description: This DDI construct is intended for OEM use only.
 ms.assetid: 806b31a3-c4e2-4ede-add1-19146ef84bb6
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterGetCurrentProfileCalibration
 req.header: icm.h
@@ -33,7 +33,8 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetCurrentProfileCalibration
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -45,7 +46,6 @@ targetos: Windows
 
 > [!NOTE]
 > This DDI construct is intended for OEM use only.
-
 
 ## -parameters
 
@@ -59,7 +59,9 @@ targetos: Windows
 
 
 ## -returns
+
 This function returns HRESULT.
+
 ## -remarks
 
 ## -see-also

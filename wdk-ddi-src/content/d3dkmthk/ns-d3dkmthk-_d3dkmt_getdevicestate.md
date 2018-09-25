@@ -4,10 +4,9 @@ title: "_D3DKMT_GETDEVICESTATE"
 author: windows-driver-content
 description: The D3DKMT_GETDEVICESTATE structure describes parameters for retrieving the state of a device.
 old-location: display\d3dkmt_getdevicestate.htm
-old-project: display
 ms.assetid: b90f8b63-51d3-4de4-9d8b-91926150fd30
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE structure [Display Devices], OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml, _D3DKMT_GETDEVICESTATE, d3dkmthk/D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_GETDEVICESTATE
 ---
 

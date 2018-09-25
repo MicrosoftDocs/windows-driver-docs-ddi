@@ -4,7 +4,7 @@ title: WdfDeviceSetFailed function
 author: windows-driver-content
 description: The WdfDeviceSetFailed method informs the framework that the driver encountered a hardware or software error that is associated with a specified device.
 old-location: wdf\wdfdevicesetfailed.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 87fbceab-d08c-4da7-a257-1454f84c04b7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceSetFailed</b> method informs the framework that the driver encountered a hardware or software error that is associated with a specified device.
 

@@ -4,7 +4,7 @@ title: "_TRANSACTION_OUTCOME"
 author: windows-driver-content
 description: The TRANSACTION_OUTCOME enumeration defines the outcomes (results) that KTM can assign to a transaction.
 old-location: kernel\transaction_outcome.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

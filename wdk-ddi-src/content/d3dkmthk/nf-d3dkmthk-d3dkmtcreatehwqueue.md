@@ -4,10 +4,9 @@ title: D3DKMTCreateHwQueue function
 author: windows-driver-content
 description: Used to create a new hardware queue.
 old-location: display\d3dkmtcreatehwqueue.htm
-old-project: display
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], d3dkmthk/D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateHwQueue
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Used to create a new hardware queue.
 
 ### -param Arg1
 
-TBD
+
 
 
 

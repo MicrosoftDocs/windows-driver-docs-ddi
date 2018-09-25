@@ -4,7 +4,7 @@ title: WDF_OBJECT_ATTRIBUTES_INIT function
 author: windows-driver-content
 description: The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's WDF_OBJECT_ATTRIBUTES structure.
 old-location: wdf\wdf_object_attributes_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c8412ad0-a3c2-41cf-aed6-32b244bc3969
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 

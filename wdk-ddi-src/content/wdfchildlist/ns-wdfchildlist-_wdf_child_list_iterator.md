@@ -4,7 +4,7 @@ title: "_WDF_CHILD_LIST_ITERATOR"
 author: windows-driver-content
 description: The WDF_CHILD_LIST_ITERATOR structure identifies the type of child devices that the framework will retrieve when a driver calls WdfChildListRetrieveNextDevice.
 old-location: wdf\wdf_child_list_iterator.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3baeaaab-cb2f-49a1-bd01-01bd1e3e5214
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_CHILD_LIST_ITERATOR, *PWDF_CHILD_LIST_ITERATOR
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_LIST_ITERATOR</b> structure identifies the type of child devices that the framework will retrieve when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545655">WdfChildListRetrieveNextDevice</a>.
 

@@ -4,7 +4,7 @@ title: "_PEP_COMPONENT_V2"
 author: windows-driver-content
 description: The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device.
 old-location: kernel\pep_component_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6C7AB917-1A98-471C-BA6C-B7C6BFF1AC3F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_PARTITION_INFO_EX
 author: windows-driver-content
 description: Returns information about the type, size, and nature of a disk partition. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_get_partition_info_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 561967a3-8b57-4f24-921a-a70e1a6c717a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

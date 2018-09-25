@@ -4,7 +4,7 @@ title: "_STORAGE_DIAGNOSTIC_DATA"
 author: windows-driver-content
 description: Describes diagnostic data about the storage driver stack. The STORAGE_DIAGNOSTIC_DATA structure is provided in the output buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 68BC990B-DD0C-49CD-95EC-672FD1459B39
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

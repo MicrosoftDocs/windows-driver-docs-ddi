@@ -4,7 +4,7 @@ title: KsPinRegisterPowerCallbacks function
 author: windows-driver-content
 description: The KsPinRegisterPowerCallbacks function registers power management callbacks for Pin.
 old-location: stream\kspinregisterpowercallbacks.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e498a907-8d20-4d00-9411-8e82030af223
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

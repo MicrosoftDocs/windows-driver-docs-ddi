@@ -4,7 +4,7 @@ title: IDriverEntry::OnDeinitialize
 author: windows-driver-content
 description: The OnDeinitialize method performs any operations that are necessary before a system unloads a driver.
 old-location: wdf\idriverentry_ondeinitialize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

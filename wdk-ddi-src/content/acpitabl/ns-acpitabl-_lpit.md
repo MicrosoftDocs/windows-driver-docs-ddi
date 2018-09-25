@@ -4,7 +4,7 @@ title: "_LPIT"
 author: windows-driver-content
 description: Defines an LPI ACPI table.
 old-location: acpi\lpit.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	LPIT
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: LPIT, *PLPIT
 ---

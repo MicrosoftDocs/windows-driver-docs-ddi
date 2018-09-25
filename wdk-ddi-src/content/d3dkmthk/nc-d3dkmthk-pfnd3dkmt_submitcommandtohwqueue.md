@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
 title: PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to submit a command to queue hardware flags.
 ms.assetid: 4d21d4b5-4b23-44d0-be9c-25d2abbcf628
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_SUBMITCOMMANDTOHWQUEUE callback function

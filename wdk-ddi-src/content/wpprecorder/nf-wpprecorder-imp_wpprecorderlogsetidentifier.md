@@ -4,7 +4,7 @@ title: imp_WppRecorderLogSetIdentifier function
 author: windows-driver-content
 description: The WppRecorderLogSetIdentifier method sets a string identifier for the recorder log.
 old-location: devtest\wpprecorderlogsetidentifier.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895241">WppRe
 
 ### -param WppCb
 
-TBD
+<p>A recorder log handle returned in a previous call to WppRecorderLogCreate.</p>
 
 
 ### -param RecorderLog

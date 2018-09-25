@@ -4,7 +4,7 @@ title: IWDFInterrupt::GetDevice
 author: windows-driver-content
 description: The GetDevice method returns the framework device object interface for this interrupt object.
 old-location: wdf\iwdfinterrupt_getdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 71C4E02F-B58A-46BA-A6A7-133D6CAF2A85
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

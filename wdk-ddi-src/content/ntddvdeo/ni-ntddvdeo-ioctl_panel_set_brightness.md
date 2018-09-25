@@ -2,7 +2,7 @@
 UID: NI:ntddvdeo.IOCTL_PANEL_SET_BRIGHTNESS
 title: IOCTL_PANEL_SET_BRIGHTNESS
 author: windows-driver-content
-description:
+description: Sets the brightness for the display panel.
 ms.assetid: 7fa5e82d-90fa-4e99-a33d-c2519ff619aa
 ms.author: windowsdriverdev
 ms.date:
@@ -21,16 +21,18 @@ req.dll:
 req.irql:
 req.ddi-compliance:
 req.max-support:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	IOCTL_PANEL_SET_BRIGHTNESS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # IOCTL_PANEL_SET_BRIGHTNESS IOCTL

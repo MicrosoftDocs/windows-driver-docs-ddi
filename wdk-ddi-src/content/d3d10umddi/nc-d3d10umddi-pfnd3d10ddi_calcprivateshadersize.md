@@ -4,10 +4,9 @@ title: PFND3D10DDI_CALCPRIVATESHADERSIZE
 author: windows-driver-content
 description: The CalcPrivateShaderSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 old-location: display\calcprivateshadersize.htm
-old-project: display
 ms.assetid: 76cdddb0-b927-4547-ae1d-f5105905633b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CalcPrivateShaderSize, CalcPrivateShaderSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESHADERSIZE, PFND3D10DDI_CALCPRIVATESHADERSIZE callback, UserModeDisplayDriverDx10_Functions_32a6a3cc-1a0d-4a20-a985-0e0e50daa914.xml, d3d10umddi/CalcPrivateShaderSize, display.calcprivateshadersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

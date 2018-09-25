@@ -4,7 +4,7 @@ title: "_MONITOR_DISPLAY_STATE"
 author: windows-driver-content
 description: Indicates the power state of the monitor being displayed on.
 old-location: kernel\monitor_display_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

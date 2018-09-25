@@ -4,10 +4,9 @@ title: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
 author: windows-driver-content
 description: Called to change the overlay configuration being displayed.
 old-location: display\dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.htm
-old-project: display
 ms.assetid: B4B6C5F0-AB67-4D30-B6A5-76B7596D22B6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback function [Display Devices], d3dkmddi/DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, display.dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

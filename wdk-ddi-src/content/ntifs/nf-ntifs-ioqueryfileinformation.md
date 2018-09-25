@@ -4,7 +4,7 @@ title: IoQueryFileInformation function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioqueryfileinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cfaa6068-979c-49c3-b671-c51ede023776
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>IoQueryFileInformation</b> routine is reserved for system use. See <a hre
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param FileInformationClass

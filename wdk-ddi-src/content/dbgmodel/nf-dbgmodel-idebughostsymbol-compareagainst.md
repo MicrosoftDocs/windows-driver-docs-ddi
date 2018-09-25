@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 00afbd6a-9157-43b3-a449-fa9aa6f50fab
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol::CompareAgainst, CompareAgainst, IDebugHostSymbol.CompareAgainst, IDebugHostSymbol::CompareAgainst, IDebugHostSymbol.CompareAgainst
 req.header: dbgmodel.h
@@ -44,19 +44,27 @@ targetos: Windows
 
 ## -description
 
-TBD
+Compares two symbols for equality.  A host is under no obligation to ensure that there is interface pointer equality for two identical symbols.  This can be used to check for equality. 
+
+Note that presently, "comparisonFlags" is reserved.
 
 ## -parameters
 
 ### -param pComparisonSymbol
+The symbol to compare against.
 
 ### -param comparisonFlags
+Reserved.  Must be set to 0.
 
 ### -param pMatches
+An indication of whether the symbols are equal will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostSymbol interface](nn-dbgmodel-idebughostsymbol.md)

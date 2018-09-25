@@ -33,7 +33,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	DeviceDsmValidateInput
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

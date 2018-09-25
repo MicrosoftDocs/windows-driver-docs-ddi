@@ -4,7 +4,7 @@ title: StorPortNotification function
 author: windows-driver-content
 description: The miniport driver uses the StorPortNotification routine to notify the Storport driver of certain events and conditions.
 old-location: storage\storportnotification.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -298,14 +298,9 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 
 ### -param param
 
-TBD
+<p>Specifies the arguments corresponding to the notification type.</p>
 
 
-
-
-#### - arguments
-
-Specifies the arguments corresponding to the notification type.
 
 
 ## -returns

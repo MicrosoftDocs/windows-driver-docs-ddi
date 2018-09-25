@@ -4,10 +4,9 @@ title: D3D11_1_DDI_COPY_FLAGS
 author: windows-driver-content
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_copy_flags.htm
-old-project: display
 ms.assetid: 044dc1cd-426e-4f6c-b14d-8c366834b5ac
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_COPY_DISCARD, D3D11_1DDI_COPY_NO_OVERWRITE, D3D11_1DDI_COPY_TILEABLE, D3D11_1_DDI_COPY_FLAGS, D3D11_1_DDI_COPY_FLAGS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_COPY_DISCARD, d3d10umddi/D3D11_1DDI_COPY_NO_OVERWRITE, d3d10umddi/D3D11_1DDI_COPY_TILEABLE, d3d10umddi/D3D11_1_DDI_COPY_FLAGS, display.d3d11_1_ddi_copy_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1_DDI_COPY_FLAGS
 ---
 

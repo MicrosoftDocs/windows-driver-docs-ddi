@@ -4,7 +4,7 @@ title: EVT_WDF_WMI_INSTANCE_SET_INSTANCE
 author: windows-driver-content
 description: A driver's EvtWmiInstanceSetInstance callback function sets all of a WMI data provider's instance data to values that a WMI client supplies.
 old-location: wdf\evtwmiinstancesetinstance.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: defd33c5-90ae-40c9-9123-7c3de2c77f35
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtWmiInstanceSetInstance</i> callback function sets all of a WMI data provider's instance data to values that a WMI client supplies.
 

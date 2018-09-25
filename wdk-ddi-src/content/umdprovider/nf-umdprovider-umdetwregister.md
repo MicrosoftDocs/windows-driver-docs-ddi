@@ -4,10 +4,10 @@ title: UMDEtwRegister function
 author: windows-driver-content
 description: Registers the event trace provider. The driver should call this function before it makes any calls to log events.
 old-location: display\umdetwregister.htm
-old-project: display
+tech.root: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
 -	umdprovider.h
 api_name:

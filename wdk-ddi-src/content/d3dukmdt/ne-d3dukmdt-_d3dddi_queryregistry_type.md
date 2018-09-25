@@ -2,7 +2,7 @@
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_TYPE
 title: _D3DDDI_QUERYREGISTRY_TYPE
 author: windows-driver-content
-description:
+description: Used to query the registry type.
 ms.assetid: c01641d0-ff58-4e3a-9f2e-e8918c84b4b5
 ms.author: windowsdriverdev
 ms.date:
@@ -20,16 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_TYPE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	_D3DDDI_QUERYREGISTRY_TYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DDDI_QUERYREGISTRY_TYPE enumeration

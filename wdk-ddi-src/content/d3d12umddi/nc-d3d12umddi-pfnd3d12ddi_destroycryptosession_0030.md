@@ -4,10 +4,9 @@ title: PFND3D12DDI_DESTROYCRYPTOSESSION_0030
 author: windows-driver-content
 description: Used to destroy a crypto session.
 old-location: display\pfnd3d12ddi_destroycryptosession_0030_.htm
-old-project: display
 ms.assetid: 1A16AE54-8A39-419E-B664-366287CF396D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSION_0030, PFND3D12DDI_DESTROYCRYPTOSESSION_0030  callback, PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSION_0030, display.pfnd3d12ddi_destroycryptosession_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -65,7 +65,7 @@ The hardware device being processed.
 
 ### -param hDrvCryptoSession
 
-The crypto session
+The crypto session.
 
 
 ## -returns

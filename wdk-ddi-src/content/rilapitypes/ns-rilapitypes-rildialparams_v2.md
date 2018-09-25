@@ -4,10 +4,10 @@ title: RILDIALPARAMS_V2
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildialparams_v2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0a60001b-5fa9-4f25-a92f-3634e2a50e36
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILDIALPARAMS, *LPRILDIALPARAMS_V2, RILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v2, ntddrilapitypes/RILDIALPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: PGET_DMA_ALIGNMENT
 author: windows-driver-content
 description: The GetDmaAlignment routine returns the alignment requirements of the DMA system.
 old-location: kernel\getdmaalignment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c96ed5ad-34d8-4530-8d00-483e5aee7261
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

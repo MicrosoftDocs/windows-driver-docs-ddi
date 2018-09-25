@@ -4,10 +4,10 @@ title: GetDebuggerData macro
 author: windows-driver-content
 description: The GetDebuggerData function retrieves information stored in a data block.
 old-location: debugger\getdebuggerdata.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetDebuggerData, GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,34 +60,20 @@ The <b>GetDebuggerData</b> function retrieves information stored in a data block
 
 ### -param TAG
 
-TBD
+<p>This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)</p>
 
 
 ### -param BUF
 
-TBD
+<p>Points to the debugger data block.</p>
 
 
 ### -param SIZE
 
-TBD
+<p>Specifies the size of the data block, including the header.</p>
 
 
 
 
 
-
-#### - Buf
-
-Points to the debugger data block.
-
-
-#### - Size
-
-Specifies the size of the data block, including the header.
-
-
-#### - Tag
-
-This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)
 

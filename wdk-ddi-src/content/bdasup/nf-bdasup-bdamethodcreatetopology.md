@@ -4,7 +4,7 @@ title: BdaMethodCreateTopology function
 author: windows-driver-content
 description: The BdaMethodCreateTopology function creates a template topology between two pins of a filter.
 old-location: stream\bdamethodcreatetopology.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1f0e8fdc-ae3d-4f5e-b047-b3b7bf73d389
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -61,7 +61,7 @@ The <b>BdaMethodCreateTopology</b> function creates a template topology between 
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSMethod [in]

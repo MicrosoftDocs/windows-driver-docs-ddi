@@ -4,7 +4,7 @@ title: DrvQueryJobAttributes function
 author: windows-driver-content
 description: The DrvQueryJobAttributes function allows a printer interface DLL to specify support for such capabilities as printing multiple document pages on a physical page (&#0034;N-up&#0034; printing), printing multiple copies of each page, collating pages, and printing pages in reverse order.
 old-location: print\drvqueryjobattributes.htm
-old-project: print
+tech.root: print
 ms.assetid: 71e07572-bb15-4838-94d1-e07a3305ab82
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

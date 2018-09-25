@@ -4,7 +4,7 @@ title: PFNREFERENCEDEVICEOBJECT
 author: windows-driver-content
 description: The driver can use this routine to increment the reference count of the PDO.
 old-location: stream\kstrreferencedeviceobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f4bf38eb-5028-4fcb-9752-8dab88db5904
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

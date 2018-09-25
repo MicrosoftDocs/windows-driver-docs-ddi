@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeSetNoMaximumPacketSizeCheck function
 author: windows-driver-content
 description: The WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method disables the framework's test of whether the size of a driver's read buffer is a multiple of a USB pipe's maximum packet size.
 old-location: wdf\wdfusbtargetpipesetnomaximumpacketsizecheck.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 552eaf46-1710-4df5-bdc3-0fa7ce3adf54
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeSetNoMaximumPacketSizeCheck</b> method disables the framework's test of whether the size of a driver's read buffer is a multiple of a USB pipe's maximum packet size.
 

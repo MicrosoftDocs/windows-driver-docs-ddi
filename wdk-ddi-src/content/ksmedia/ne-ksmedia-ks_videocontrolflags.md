@@ -4,7 +4,7 @@ title: KS_VideoControlFlags
 author: windows-driver-content
 description: The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.
 old-location: stream\ks_videocontrolflags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7f8b3727-132c-41c8-a252-0f9c8812002f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

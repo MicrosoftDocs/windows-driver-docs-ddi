@@ -4,10 +4,10 @@ title: WIAS_LWARNING macro
 author: windows-driver-content
 description: The WIAS_LWARNING macro is obsolete for Windows Vista and later.The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 old-location: image\wias_lwarning.htm
-old-project: image
+tech.root: image
 ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, wiamdef/WIAS_LWARNING
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,17 +62,17 @@ The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
 ### -param x
 
-TBD
+
 
 
 ### -param y
 
-TBD
+
 
 
 ### -param params
 
-TBD
+
 
 
 

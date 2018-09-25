@@ -4,7 +4,7 @@ title: "_CREATE_DISK"
 author: windows-driver-content
 description: The CREATE_DISK structure is used with the IOCTL_DISK_CREATE_DISK IOCTL to initialize a disk with an empty partition table. The partition table styles are master boot record (MBR) or GUID partition table (GPT).
 old-location: storage\create_disk.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

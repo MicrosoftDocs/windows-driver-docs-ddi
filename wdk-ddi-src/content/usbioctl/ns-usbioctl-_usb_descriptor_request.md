@@ -4,10 +4,10 @@ title: "_USB_DESCRIPTOR_REQUEST"
 author: windows-driver-content
 description: The USB_DESCRIPTOR_REQUEST structure is used with the IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index.
 old-location: buses\usb_descriptor_request.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: d4d51366-4d04-47fe-8c44-09c9c6ccf35f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], USB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST structure [Buses], _USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, usbioctl/PUSB_DESCRIPTOR_REQUEST, usbioctl/USB_DESCRIPTOR_REQUEST, usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST
 ## -description
 
 
-The <b>USB_DESCRIPTOR_REQUEST</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index.
+The <b>USB_DESCRIPTOR_REQUEST</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index. The fields in this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs).
 
 
 ## -struct-fields
@@ -65,22 +65,22 @@ The port whose descriptors are retrieved.
 
 ### -field SetupPacket
 
-The members of the <b>SetupPacket</b> structure are as follows:
+The members of the <b>SetupPacket</b> structure defined as per the official specification. See section 9.3.
 
 
 ### -field SetupPacket.bmRequest
 
-The type of USB device request (standard, class, or vendor), the direction of the data transfer, and the type of data recipient (device, interface, or endpoint). On input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bmRequest</b> and inserts a value of 0x80. This value indicates a standard USB device request and a device-to-host data transfer. For more information about this member, see Universal Serial Bus Specification.
+The type of USB device request (standard, class, or vendor), the direction of the data transfer, and the type of data recipient (device, interface, or endpoint). On input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bmRequest</b> and inserts a value of 0x80. This value indicates a standard USB device request and a device-to-host data transfer. 
 
 
 ### -field SetupPacket.bRequest
 
-The request number. On input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bRequest</b> and inserts a value of 0x06. This value indicates a request of <b>GET_DESCRIPTOR</b>. For more information about this member see Universal Serial Bus Specification.
+The request number. On input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bRequest</b> and inserts a value of 0x06. This value indicates a request of <b>GET_DESCRIPTOR</b>. 
 
 
 ### -field SetupPacket.wValue
 
-On input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the caller should specify the type of descriptor to retrieve in the high byte of <b>wValue</b> and the descriptor index in the low byte. The following table lists the possible descriptor types.
+On input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the caller should specify the type of descriptor to retrieve in the high byte of <b>wValue</b> and the descriptor index in the low byte. The following table lists the possible descriptor types. These constant types are defined in the Usbspec.h header included in the Windows Driver Kit.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ USB_CONFIGURATION_DESCRIPTOR_TYPE
 
 </td>
 <td>
-Instructs the USB stack to return the configuration descriptor and all interface, endpoint, class-specific, and vendor-specific descriptors associated with the current configuration.. 
+Instructs the USB stack to return the configuration descriptor and all interface, endpoint, class-specific, and vendor-specific descriptors associated with the current configuration.
 
 </td>
 </tr>
@@ -143,12 +143,12 @@ Instructs the USB stack to return the indicated endpoint descriptor.
 
 ### -field SetupPacket.wIndex
 
-The device-specific index of the descriptor that is to be retrieved. For more information about this member, see Universal Serial Bus Specification.
+The device-specific index of the descriptor that is to be retrieved. 
 
 
 ### -field SetupPacket.wLength
 
-The length of the data that is transferred during the second phase of the control transfer. For more information about this member, see Universal Serial Bus Specification.
+The length of the data that is transferred during the second phase of the control transfer. 
 
 
 ### -field Data

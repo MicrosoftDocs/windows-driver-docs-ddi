@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_BIDIRECTIONAL"
 author: windows-driver-content
 description: The SRBEX_DATA_BIDIRECTIONAL structure contains the extended SRB data for bi-directional transfer commands.
 old-location: storage\srbex_data_bidirectional.htm
-old-project: storage
+tech.root: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

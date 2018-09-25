@@ -4,7 +4,7 @@ title: IPrintSchemaParameterDefinition
 author: windows-driver-content
 description: The IPrintSchemaParameterDefinition interface represents a parameter definition, as defined in the Print Schema Specification.
 old-location: print\iprintschemaparameterdefinition.htm
-old-project: print
+tech.root: print
 ms.assetid: 205A4F09-6FE5-459E-A94A-13B1839AF489
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

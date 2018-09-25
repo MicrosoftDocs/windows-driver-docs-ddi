@@ -4,7 +4,7 @@ title: WDF_READ_REGISTER_USHORT function
 author: windows-driver-content
 description: The WDF_READ_REGISTER_USHORT function reads a USHORT value from the specified register address.
 old-location: wdf\wdf_read_register_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: EC3D7812-4EAB-419D-B736-47AE148FC61C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_REGISTER_USHORT</b> function reads a USHORT value from the specified register address.
 

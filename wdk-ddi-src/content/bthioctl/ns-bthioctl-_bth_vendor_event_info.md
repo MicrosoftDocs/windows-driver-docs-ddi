@@ -4,7 +4,7 @@ title: "_BTH_VENDOR_EVENT_INFO"
 author: windows-driver-content
 description: The BTH_VENDOR_EVENT_INFO structure specifies the buffer that is associated with the GUID_BLUETOOTH_HCI_VENDOR_EVENT GUID.
 old-location: bltooth\bth_vendor_event_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 796f9d91-5c75-4a05-a997-0d5beb7d9fca
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

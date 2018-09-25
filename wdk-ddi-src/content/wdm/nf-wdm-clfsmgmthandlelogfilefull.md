@@ -4,7 +4,7 @@ title: ClfsMgmtHandleLogFileFull function
 author: windows-driver-content
 description: The ClfsMgmtHandleLogFileFull routine attempts to make more space available in a log. It might make more space available by adding containers to the log, or it might ask clients to move their log tails.
 old-location: kernel\clfsmgmthandlelogfilefull.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: acfd28c9-c6d5-4768-b095-488f174d78c0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

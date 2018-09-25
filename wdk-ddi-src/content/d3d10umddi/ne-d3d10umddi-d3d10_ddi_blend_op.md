@@ -4,10 +4,9 @@ title: D3D10_DDI_BLEND_OP
 author: windows-driver-content
 description: The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's CreateBlendState function.
 old-location: display\d3d10_ddi_blend_op.htm
-old-project: display
 ms.assetid: 3743db2a-d613-4efb-ae73-80eb1bfd9410
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10_DDI_BLEND_OP, D3D10_DDI_BLEND_OP enumeration [Display Devices], D3D10_DDI_BLEND_OP_ADD, D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP_SUBTRACT, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, d3d10umddi/D3D10_DDI_BLEND_OP, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_MIN, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, display.d3d10_ddi_blend_op
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_BLEND_OP
 ---
 

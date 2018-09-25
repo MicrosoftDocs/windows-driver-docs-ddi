@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_IO_READ
 author: windows-driver-content
 description: A driver's EvtIoRead event callback function processes a specified read request.
 old-location: wdf\evtioread.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d6fbb153-1355-4e94-b5d3-a218bd8c565d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoRead</i> event callback function processes a specified read request.
 

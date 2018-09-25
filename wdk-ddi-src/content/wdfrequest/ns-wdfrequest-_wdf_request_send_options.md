@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_SEND_OPTIONS"
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS structure specifies options that are associated with sending an I/O request to an I/O target.
 old-location: wdf\wdf_request_send_options.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0d561e0f-ca7e-44ed-9025-1a6513e4cd28
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_SEND_OPTIONS</b> structure specifies options that are associated with sending an I/O request to an I/O target.
 

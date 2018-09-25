@@ -4,7 +4,7 @@ title: IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 author: windows-driver-content
 description: Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
 old-location: print\iprintschemapageimageablesize_extentheightinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: AA305230-B194-465F-936E-24FDE9929EAC
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

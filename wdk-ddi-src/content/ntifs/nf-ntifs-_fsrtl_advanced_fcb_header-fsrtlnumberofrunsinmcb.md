@@ -4,7 +4,7 @@ title: FsRtlNumberOfRunsInMcb function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlnumberofrunsinmcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cb519cb5-5209-4ca6-92bc-860c53d3ca6c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to suppor
 
 ### -param Mcb
 
-TBD
+<p>Reserved.</p>
 
 
 

@@ -4,7 +4,7 @@ title: WDF_ABS_TIMEOUT_IN_SEC function
 author: windows-driver-content
 description: The WDF_ABS_TIMEOUT_IN_SEC function converts a specified number of seconds to an absolute time value.
 old-location: wdf\wdf_abs_timeout_in_sec.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 492bdc23-7e55-4e6d-9d7c-189a94934049
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_ABS_TIMEOUT_IN_SEC</b> function converts a specified number of seconds to an absolute time value.
 

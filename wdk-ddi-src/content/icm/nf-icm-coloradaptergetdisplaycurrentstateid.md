@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterGetDisplayCurrentStateID
 title: ColorAdapterGetDisplayCurrentStateID function
 author: windows-driver-content
-description:
+description: This DDI construct is intended for OEM use only.
 ms.assetid: ae9901b7-e040-47c5-a9fa-a9c031ed5550
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterGetDisplayCurrentStateID
 req.header: icm.h
@@ -33,7 +33,8 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetDisplayCurrentStateID
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -54,7 +55,9 @@ targetos: Windows
 
 
 ## -returns
+
 This function returns HRESULT.
+
 ## -remarks
 
 ## -see-also

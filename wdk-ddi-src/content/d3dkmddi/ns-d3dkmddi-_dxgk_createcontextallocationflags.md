@@ -4,10 +4,9 @@ title: "_DXGK_CREATECONTEXTALLOCATIONFLAGS"
 author: windows-driver-content
 description: Specifies the properties of the context to be allocated.
 old-location: display\dxgk_createcontextallocationflags.htm
-old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_CREATECONTEXTALLOCATIONFLAGS
 ---
 

@@ -4,7 +4,7 @@ title: WdfIoTargetCreate function
 author: windows-driver-content
 description: The WdfIoTargetCreate method creates a remote I/O target for a specified device.
 old-location: wdf\wdfiotargetcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetCreate</b> method creates a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets">remote I/O target</a> for a specified device.
 

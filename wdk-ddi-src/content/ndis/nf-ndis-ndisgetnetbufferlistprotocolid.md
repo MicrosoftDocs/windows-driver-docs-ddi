@@ -4,10 +4,10 @@ title: NdisGetNetBufferListProtocolId function
 author: windows-driver-content
 description: The NdisGetNetBufferListProtocolId function retrieves the protocol identifier from the NetBufferListInfo member of a NET_BUFFER_LIST structure.
 old-location: netvista\ndisgetnetbufferlistprotocolid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, netvista.ndisgetnetbufferlistprotocolid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,11 +140,7 @@ NDIS drivers can call the
     miniport drivers that support TCP chimney offload can verify that a NET_BUFFER_LIST structure comes from
     a TCP protocol.
 
-Protocol drivers that create NET_BUFFER_LIST structures should set the protocol identifier by calling
-    the 
-    <a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
-    NdisSetNetBufferListProtocolId</a> macro or by associating an identifier with a NET_BUFFER_LIST
-    pool.
+Protocol drivers that create NET_BUFFER_LIST structures should set the protocol identifier by calling the [NdisSetNetBufferListProtocolId](nf-ndis-ndissetnetbufferlistprotocolid.md) macro or by associating an identifier with a NET_BUFFER_LIST pool.
 
 
 
@@ -158,9 +154,4 @@ Protocol drivers that create NET_BUFFER_LIST structures should set the protocol 
 
 
 
-<a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
-   NdisSetNetBufferListProtocolId</a>
- 
-
- 
-
+[NdisSetNetBufferListProtocolId](nf-ndis-ndissetnetbufferlistprotocolid.md)

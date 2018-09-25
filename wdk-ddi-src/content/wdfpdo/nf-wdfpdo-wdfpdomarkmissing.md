@@ -4,7 +4,7 @@ title: WdfPdoMarkMissing function
 author: windows-driver-content
 description: The WdfPdoMarkMissing method informs the framework that a device is no longer accessible.
 old-location: wdf\wdfpdomarkmissing.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoMarkMissing</b> method informs the framework that a device is no longer accessible.
 

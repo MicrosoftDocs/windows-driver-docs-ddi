@@ -4,7 +4,7 @@ title: WdfRequestGetUserModeDriverInitiatedIo function
 author: windows-driver-content
 description: The WdfRequestGetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver.
 old-location: wdf\wdfrequestgetusermodeinitiatedio.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3F2B060F-3818-4BBC-9BF7-7A82128274E0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: WUDFx02000.lib
-req.dll: WUDFx02000.dll; TBD
+req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfRequestGetUserModeDriverInitiatedIo</b> method determines whether an I/O request is marked as initiated by a UMDF driver.
 

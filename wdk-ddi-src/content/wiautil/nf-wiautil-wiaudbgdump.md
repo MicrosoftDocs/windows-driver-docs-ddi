@@ -4,10 +4,10 @@ title: wiauDbgDump function
 author: windows-driver-content
 description: The wiauDbgDump function logs a message containing one or more data values.
 old-location: image\wiaudbgdump.htm
-old-project: image
+tech.root: image
 ms.assetid: 5df074ff-572d-47f7-9c5c-4423b200cddc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -65,12 +65,12 @@ Pointer to a string containing the name of the function or method into which the
 
 ### -param fmt
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

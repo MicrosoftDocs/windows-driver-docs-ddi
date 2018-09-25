@@ -4,7 +4,7 @@ title: WdfFileObjectGetDevice function
 author: windows-driver-content
 description: The WdfFileObjectGetDevice method returns the framework device object that is associated with a specified framework file object.
 old-location: wdf\wdffileobjectgetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 10bb8bbd-0347-4ceb-844e-87f049813684
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfFileObjectGetDevice</b> method returns the framework device object that is associated with a specified framework file object.
 

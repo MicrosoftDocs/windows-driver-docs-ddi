@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP
 author: windows-driver-content
 description: A driver's EvtChildListAddressDescriptionCleanup event callback function frees any memory allocations for an address description that the driver's EvtChildListAddressDescriptionDuplicate callback function allocated.
 old-location: wdf\evtchildlistaddressdescriptioncleanup.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 845c8c96-7d34-4273-963e-b7f644884f26
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtChildListAddressDescriptionCleanup</i> event callback function frees any memory allocations for an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> that the driver's <a href="https://msdn.microsoft.com/3b99401c-5a36-4ccd-b3a4-c5687310c29b">EvtChildListAddressDescriptionDuplicate</a> callback function allocated.
 

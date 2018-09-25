@@ -4,7 +4,7 @@ title: MmAllocateNodePagesForMdlEx function
 author: windows-driver-content
 description: The MmAllocateNodePagesForMdlEx routine allocates nonpaged physical memory from an ideal node, and allocates an MDL structure to describe this memory.
 old-location: kernel\mmallocatenodepagesformdlex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 491327A4-87B5-4206-9D47-007CE14E1327
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

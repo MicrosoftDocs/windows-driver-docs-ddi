@@ -2,9 +2,9 @@
 UID: NE:ks.PKSPIN_COMMUNICATION
 title: "*PKSPIN_COMMUNICATION"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\kspin_communication.htm
-old-project: stream
+tech.root: stream
 ms.assetid: DBBEEE9D-82C1-4387-AA6D-C5D86EDB138C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ req.typenames: KSPIN_COMMUNICATION, *PKSPIN_COMMUNICATION
 
 
 ````
-typedef enum  { 
+typedef enum  {
   KSPIN_COMMUNICATION_NONE,
   KSPIN_COMMUNICATION_SINK,
   KSPIN_COMMUNICATION_SOURCE,

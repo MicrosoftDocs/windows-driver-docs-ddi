@@ -4,7 +4,7 @@ title: HBA_SendReadCapacity function
 author: windows-driver-content
 description: The HBA_SendReadCapacity routine sends a SCSI read capacity command to the indicated remote port.
 old-location: storage\hba_sendreadcapacity.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 642a085f-03d4-438a-8584-c1f420161e94
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,17 +60,17 @@ The <b>HBA_SendReadCapacity</b> routine sends a SCSI read capacity command to th
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA through which the SCSI read capacity command is sent.</p>
 
 
 ### -param PortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI read capacity command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param FcLUN
 
-TBD
+<p>Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. </p>
 
 
 ### -param pRspBuffer [out]
@@ -91,21 +91,6 @@ Pointer to a buffer that receives the SCSI sense data.
 ### -param SenseBufferSize [in]
 
 On input, indicates on input the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
-
-
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. 
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
-
-
-#### - portWWN [in]
-
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI read capacity command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
 ## -returns

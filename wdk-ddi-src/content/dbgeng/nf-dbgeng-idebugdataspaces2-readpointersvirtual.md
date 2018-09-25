@@ -4,10 +4,10 @@ title: IDebugDataSpaces2::ReadPointersVirtual
 author: windows-driver-content
 description: The ReadPointersVirtual method is a convenience method for reading pointers from the target's virtual address space.
 old-location: debugger\readpointersvirtual.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 003fd20c-12d6-40b0-8e43-a7d730199846
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces2 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces2.ReadPointersVirtual, IDebugDataSpaces2::ReadPointersVirtual, IDebugDataSpaces3 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces4 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces_d3857a69-3e22-4d7a-97ef-d6cb7bf8613a.xml, ReadPointersVirtual, ReadPointersVirtual method [Windows Debugging], ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces2 interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces3 interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPointersVirtual, dbgeng/IDebugDataSpaces3::ReadPointersVirtual, dbgeng/IDebugDataSpaces4::ReadPointersVirtual, dbgeng/IDebugDataSpaces::ReadPointersVirtual, debugger.readpointersvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

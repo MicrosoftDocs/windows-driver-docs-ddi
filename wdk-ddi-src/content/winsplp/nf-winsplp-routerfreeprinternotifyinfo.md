@@ -4,7 +4,7 @@ title: RouterFreePrinterNotifyInfo function
 author: windows-driver-content
 description: The print spooler's RouterFreePrinterNotifyInfo function deallocates a specified PRINTER_NOTIFY_INFO structure and its associated PRINTER_NOTIFY_INFO_DATA structure array.
 old-location: print\routerfreeprinternotifyinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

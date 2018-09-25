@@ -4,7 +4,7 @@ title: FltGetUpperInstance function
 author: windows-driver-content
 description: The FltGetUpperInstance routine returns an opaque instance pointer for the next higher minifilter driver instance, if there is one, that is attached above a given minifilter driver instance on the same volume.
 old-location: ifsk\fltgetupperinstance.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 01e7760c-b10c-497e-9cab-4d839c2ce5ff
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

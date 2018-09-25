@@ -4,7 +4,7 @@ title: "_WHEA_TIMESTAMP"
 author: windows-driver-content
 description: The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
 old-location: whea\whea_timestamp.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

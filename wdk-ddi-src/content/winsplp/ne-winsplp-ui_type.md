@@ -2,9 +2,9 @@
 UID: NE:winsplp.UI_TYPE
 title: UI_TYPE
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\ui_type.htm
-old-project: print
+tech.root: print
 ms.assetid: 99C87D65-C633-4AA2-95DF-6AE74428C71D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

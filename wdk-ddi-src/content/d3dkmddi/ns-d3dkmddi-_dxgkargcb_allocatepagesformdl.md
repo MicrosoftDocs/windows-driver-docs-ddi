@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATEPAGESFORMDL
 title: _DXGKARGCB_ALLOCATEPAGESFORMDL
 author: windows-driver-content
-description:
+description: Arguments used in the DXGKCB_ALLOCATEPAGESFORMDL callback function, to allocate pages for MDL.
 ms.assetid: c41ff98e-5704-441d-b73f-1fad90895555
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_ALLOCATEPAGESFORMDL
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGKARGCB_ALLOCATEPAGESFORMDL
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGKARGCB_ALLOCATEPAGESFORMDL structure
@@ -65,7 +67,7 @@ Indicates the type of caching that is allowed for the requested memory.
 
 ### -field Flags
 
-Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex).
+Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex).
 
 ### -field hMemoryHandle
 

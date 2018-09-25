@@ -4,7 +4,7 @@ title: "_MSiSCSI_PortalInfoClass"
 author: windows-driver-content
 description: The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 old-location: storage\msiscsi_portalinfoclass.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

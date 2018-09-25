@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: bb8de044-1e9d-4357-8419-44016942f386
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDebugHostType::CreateArrayOf, CreateArrayOf, IDebugHostType.CreateArrayOf, IDebugHostType::CreateArrayOf, IDebugHostType.CreateArrayOf
 req.header: dbgmodel.h
@@ -44,19 +44,25 @@ targetos: Windows
 
 ## -description
 
-TBD
+For any given type, this returns a new IDebugHostType which is an array of this type.
+The dimensions of the array must be supplied via the "dimensions" and "pDimensions" arguments.
 
 ## -parameters
 
 ### -param dimensions
+The number of dimensions of the array type to create.
 
 ### -param pDimensions
+A pointer to an array of ArrayDimension structures describing the structure of each dimension of the array type to create.
 
 ### -param newType
-
+The newly created array type will be returned here.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDebugHostType interface](nn-dbgmodel-idebughosttype.md)

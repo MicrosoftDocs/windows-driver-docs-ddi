@@ -4,10 +4,10 @@ title: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS
 author: windows-driver-content
 description: This callback function returns a list of data fields supported by the specified sensor.
 old-location: sensors\evtsensorgetsupporteddatafields.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 8C73DFE2-E87A-460D-8EBE-CF3767CAA23F
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

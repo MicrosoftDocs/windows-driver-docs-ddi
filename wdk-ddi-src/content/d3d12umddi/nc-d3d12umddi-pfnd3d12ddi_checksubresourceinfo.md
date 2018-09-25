@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKSUBRESOURCEINFO
 title: PFND3D12DDI_CHECKSUBRESOURCEINFO
 author: windows-driver-content
-description: 
+description: Check subresource info.
 ms.assetid: d8285aa5-1eec-425b-9cc5-28fa2e14b521
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CHECKSUBRESOURCEINFO
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CHECKSUBRESOURCEINFO callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Check subresource info.
 
 ## -prototype
 
@@ -69,20 +71,24 @@ PFND3D12DDI_CHECKSUBRESOURCEINFO
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HRESOURCE: 
-### -param Subresource: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HRESOURCE
+
+A resource handle.
+
+### -param Subresource
+
+The subresource index.
+
+### -param *
+
+Pointer to a D3D12DDI_SUBRESOURCE_INFO.
 
 
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

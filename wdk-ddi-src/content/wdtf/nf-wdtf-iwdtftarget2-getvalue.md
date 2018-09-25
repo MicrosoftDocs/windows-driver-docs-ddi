@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetValue
 author: windows-driver-content
 description: Returns a value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvalue.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 41805e57-770b-416a-989f-25f81ee4d757
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

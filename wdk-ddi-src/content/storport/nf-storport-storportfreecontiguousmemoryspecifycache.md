@@ -4,7 +4,7 @@ title: StorPortFreeContiguousMemorySpecifyCache function
 author: windows-driver-content
 description: The StorPortFreeContiguousMemorySpecifyCache routine deallocates a range of noncached memory in the nonpaged portion of the system address space.
 old-location: storage\storportfreecontiguousmemoryspecifycache.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 29735ea8-6125-4958-8d78-12d1f13b16ea
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

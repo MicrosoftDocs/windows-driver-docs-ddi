@@ -4,7 +4,7 @@ title: ScsiPortValidateRange function
 author: windows-driver-content
 description: The ScsiPortValidateRange routine indicates whether the specified access range values have already been claimed in the registry by another driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportvalidaterange.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a9ad58c2-16fc-410a-abc7-01c3f2354b88
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

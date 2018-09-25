@@ -4,7 +4,7 @@ title: "_GPIO_MASK_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_MASK_INTERRUPT_PARAMETERS structure describes a set of general-purpose I/O (GPIO) interrupt pins to mask.
 old-location: gpio\gpio_mask_interrupt_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: E7975BAE-4255-4D07-A747-481D210D1244
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: WdfCmResourceListGetDescriptor function
 author: windows-driver-content
 description: The WdfCmResourceListGetDescriptor method returns a pointer to a resource descriptor that is contained in a specified resource list.
 old-location: wdf\wdfcmresourcelistgetdescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5aa96fed-83ca-417e-876d-a734be6f27dd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCmResourceListGetDescriptor</b> method returns a pointer to a resource descriptor that is contained in a specified resource list.
 

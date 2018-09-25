@@ -4,7 +4,7 @@ title: WDF_DEVICE_POWER_CAPABILITIES_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_CAPABILITIES_INIT function initializes a WDF_DEVICE_POWER_CAPABILITIES structure.
 old-location: wdf\wdf_device_power_capabilities_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1a4b2708-efe2-47c0-b5b7-4e56f33e0266
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_POWER_CAPABILITIES_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551264">WDF_DEVICE_POWER_CAPABILITIES</a> structure.
 

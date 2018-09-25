@@ -4,10 +4,9 @@ title: DXGKDDI_PRESENTDISPLAYONLY
 author: windows-driver-content
 description: Presents the screen image to the display device of a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkddipresentdisplayonly.htm
-old-project: display
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DXGKDDI_PRESENTDISPLAYONLY callback, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

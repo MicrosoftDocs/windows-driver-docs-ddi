@@ -4,7 +4,7 @@ title: EVT_WDF_PROGRAM_DMA
 author: windows-driver-content
 description: A framework-based driver's EvtProgramDma event callback function programs a specified device to perform a DMA transfer operation.
 old-location: wdf\evtprogramdma.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c01b94b2-aabf-47dd-952a-06e481579614
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A framework-based driver's <i>EvtProgramDma</i> event callback function programs a specified device to perform a DMA transfer operation.
 

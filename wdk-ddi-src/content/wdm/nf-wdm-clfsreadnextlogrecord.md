@@ -4,7 +4,7 @@ title: ClfsReadNextLogRecord function
 author: windows-driver-content
 description: The ClfsReadNextLogRecord routine reads the next record in a sequence, relative to the current record in a read context.
 old-location: kernel\clfsreadnextlogrecord.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4990f3d7-e48c-49ee-9384-4bcad93c9281
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

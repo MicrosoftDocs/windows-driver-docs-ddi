@@ -4,7 +4,7 @@ title: FsRtlPrepareMdlWriteDev function
 author: windows-driver-content
 description: The FltFastIoPrepareMdlWrite routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache.
 old-location: ifsk\fltfastiopreparemdlwrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlPrepareMdlWriteDev
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -89,14 +90,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ### -param DeviceObject
 
-TBD
+<p>A pointer to an <a href="https://msdn.microsoft.com/library/Ff550671(v=VS.85).aspx"><b>IO_STATUS_BLOCK</b></a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.</p>
 
 
-
-
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

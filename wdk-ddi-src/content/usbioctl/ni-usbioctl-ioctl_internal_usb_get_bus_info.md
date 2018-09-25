@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_BUS_INFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_BUS_INFO I/O request queries the bus driver for certain bus information.
 old-location: buses\ioctl_internal_usb_get_bus_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 31a5a829-1bb7-45cb-93b0-e899f7737df2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_BUS_INFO, IOCTL_INTERNAL_USB_GET_BUS_INFO control, IOCTL_INTERNAL_USB_GET_BUS_INFO control code [Buses], buses.ioctl_internal_usb_get_bus_info, usbioctl/IOCTL_INTERNAL_USB_GET_BUS_INFO, usbirp_6f2e2c9c-3bbc-40bd-a2e7-6fc79cfcc02b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,22 +65,22 @@ The <b>IOCTL_INTERNAL_USB_GET_BUS_INFO</b> I/O request queries the bus driver fo
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> should be a pointer to a <b>USB_BUS_NOTIFICATION</b> structure.
+<b>Parameters.Others.Argument1</b> should be a pointer to a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.
 
 
 ### -input-buffer-length
 
-The size of a <b>USB_BUS_NOTIFICATION</b> structure.
+The size of a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.
 
 
 ### -output-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <b>USB_BUS_NOTIFICATION</b> structure that has the <b>TotalBandwidth</b>, <b>ConsumedBandwidth</b>, and <b>ControllerNameLength</b> fields filled in.
+<b>Parameters.Others.Argument1</b> points to a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure that has the <b>TotalBandwidth</b>, <b>ConsumedBandwidth</b>, and <b>ControllerNameLength</b> fields filled in.
 
 
 ### -output-buffer-length
 
-The size of a <b>USB_BUS_NOTIFICATION</b> structure.
+The size of a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.
 
 
 ### -in-out-buffer
@@ -111,7 +111,7 @@ The bus or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 
 
-<b>USB_BUS_NOTIFICATION</b>
+[**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md)
  
 
  

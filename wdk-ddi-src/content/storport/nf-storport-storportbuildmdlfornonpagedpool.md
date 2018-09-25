@@ -4,7 +4,7 @@ title: StorPortBuildMdlForNonPagedPool function
 author: windows-driver-content
 description: The StorPortBuildMdlForNonPagedPool routine updates the MDL to describe the associated non-paged memory.
 old-location: storage\storportbuildmdlfornonpagedpool.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f22dbf1e-4b40-4294-bca5-3011f0a97644
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

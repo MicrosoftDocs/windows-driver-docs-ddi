@@ -4,7 +4,7 @@ title: RxLogEventWithBufferDirect function
 author: windows-driver-content
 description: RxLogEventWithBufferDirect allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 old-location: ifsk\rxlogeventwithbufferdirect.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param DeviceOrDriverObject
 
-TBD
+<p>A pointer to the RDBSS device object.</p>
 
 
 ### -param OriginatorId [in]
@@ -91,11 +91,6 @@ The length of the data buffer to be added to the I/O error log structure.
 ### -param LineNumber [in]
 
 The line number in the source code file where this failure occurred.
-
-
-#### - DeviceObject [in]
-
-A pointer to the RDBSS device object.
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: "_SendRNIDV2_OUT"
 author: windows-driver-content
 description: The SendRNIDV2_OUT structure is used to report the output parameter data of the SendRNIDV2 WMI method to the WMI client.
 old-location: storage\sendrnidv2_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

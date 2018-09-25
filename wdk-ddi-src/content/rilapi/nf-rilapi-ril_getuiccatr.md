@@ -4,10 +4,10 @@ title: RIL_GetUiccATR function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuiccatr.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7518f018-5ece-43e6-8aad-02038c0e94fc
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetUiccATR, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccatr, rilapi/RIL_GetUiccATR
 ms.prod: windows-hardware
 ms.technology: windows-devices

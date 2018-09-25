@@ -4,7 +4,7 @@ title: ExCreateCallback function
 author: windows-driver-content
 description: The ExCreateCallback routine either creates a new callback object or opens an existing callback object on behalf of the caller.
 old-location: kernel\excreatecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

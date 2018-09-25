@@ -4,7 +4,7 @@ title: "_KTMOBJECT_TYPE"
 author: windows-driver-content
 description: The KTMOBJECT_TYPE enumeration identifies the types of objects that KTM supports.
 old-location: kernel\ktmobject_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

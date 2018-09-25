@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN
 author: windows-driver-content
 description: A driver's EvtChildListScanForChildren event callback function must report all of the child devices that are present.
 old-location: wdf\evtchildlistscanforchildren.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 57b06ecd-fc8c-4653-bb78-2bc6ecde6d63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtChildListScanForChildren</i> event callback function must report all of the child devices that are present. 
 

@@ -4,7 +4,7 @@ title: WdfMemoryCopyFromBuffer function
 author: windows-driver-content
 description: The WdfMemoryCopyFromBuffer method copies the contents of a specified source buffer into a specified memory object's buffer.
 old-location: wdf\wdfmemorycopyfrombuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 702d5239-48cd-4c11-90bc-a86ab27b8cfe
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfMemoryCopyFromBuffer</b> method copies the contents of a specified source buffer into a specified memory object's buffer.
 

@@ -4,10 +4,10 @@ title: NDK_FN_CLOSE_OBJECT
 author: windows-driver-content
 description: The NdkCloseObject (NDK_FN_CLOSE_OBJECT) function initiates a close request for an NDK object.
 old-location: netvista\ndk_fn_close_object.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9547DCCE-6B3C-434F-A8CA-1AA59AB7152A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CLOSE_OBJECT, NDK_FN_CLOSE_OBJECT callback, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object
 ms.prod: windows-hardware
 ms.technology: windows-devices

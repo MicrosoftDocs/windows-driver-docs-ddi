@@ -4,10 +4,9 @@ title: "_D3DKMT_ADAPTERTYPE"
 author: windows-driver-content
 description: Specifies the type of display device that the graphics adapter supports.
 old-location: display\d3dkmt_adaptertype.htm
-old-project: display
 ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_ADAPTERTYPE
 ---
 

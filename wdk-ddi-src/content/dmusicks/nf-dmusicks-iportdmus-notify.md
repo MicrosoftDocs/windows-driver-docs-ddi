@@ -4,10 +4,10 @@ title: IPortDMus::Notify
 author: windows-driver-content
 description: The Notify method should be called from the miniport driver's interrupt service routine (ISR) when a hardware interrupt has occurred.
 old-location: audio\iportdmus_notify.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortDMus interface [Audio Devices],Notify method, IPortDMus.Notify, IPortDMus::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortDMus interface, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

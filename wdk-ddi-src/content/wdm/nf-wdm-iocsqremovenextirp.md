@@ -4,7 +4,7 @@ title: IoCsqRemoveNextIrp function
 author: windows-driver-content
 description: The IoCsqRemoveNextIrp routine removes the next matching IRP in the queue.
 old-location: kernel\iocsqremovenextirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: db92bbc1-7257-4e84-af69-ce09c1fd998e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

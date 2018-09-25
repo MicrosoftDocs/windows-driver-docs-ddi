@@ -4,10 +4,10 @@ title: MINIPORT_CHECK_FOR_HANG
 author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportCheckForHangEx function to check the operational state of the miniport adapter that represents a network interface card (NIC).
 old-location: netvista\miniportcheckforhangex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ead0af85-0584-49de-82cc-8a059ebfdf4f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_CHECK_FOR_HANG, MINIPORT_CHECK_FOR_HANG callback, MiniportCheckForHangEx, MiniportCheckForHangEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_4dac5544-94b0-4be6-aa81-709bff9163a7.xml, ndis/MiniportCheckForHangEx, netvista.miniportcheckforhangex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,9 @@ req.typenames:
 
 
 ## -description
+
+> [!WARNING]
+> The *MiniportCheckForHangEx* and [*MiniportResetEx*](nc-ndis-miniport_reset.md) callback functions are discouraged for all NDIS 6.83 and later drivers. For more information, see [Check-for-Hang and Reset operations in NDIS 6.83 and later](https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations#check-for-hang-and-reset-operations-in-ndis-683-and-later).
 
 
 NDIS calls a miniport driver's 

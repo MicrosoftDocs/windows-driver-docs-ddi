@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_GDDS_DATA
 title: "_BDA_GDDS_DATA"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_gdds_data.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2BBF14E3-8E1A-42AF-9C26-7F886FD2B945
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

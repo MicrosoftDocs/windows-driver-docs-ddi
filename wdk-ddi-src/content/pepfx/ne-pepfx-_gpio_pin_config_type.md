@@ -4,7 +4,7 @@ title: "_GPIO_PIN_CONFIG_TYPE"
 author: windows-driver-content
 description: The GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO resource.
 old-location: kernel\gpio_pin_config_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

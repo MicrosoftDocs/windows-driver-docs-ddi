@@ -4,11 +4,11 @@ title: IoGetCurrentProcess function
 author: windows-driver-content
 description: The IoGetCurrentProcess routine returns a pointer to the current process.
 old-location: kernel\iogetcurrentprocess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 97a5c14f-949a-4455-9109-79355e5dec37
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
-ms.keywords: IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, wdm/IoGetCurrentProcess
+ms.keywords: IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, wdm/IoGetCurrentProcess, PsGetCurrentProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,6 +38,7 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoGetCurrentProcess
+-	PsGetCurrentProcess
 product:
 - Windows
 targetos: Windows
@@ -46,45 +47,22 @@ req.typenames:
 
 # IoGetCurrentProcess function
 
-
 ## -description
 
-
-The <b>IoGetCurrentProcess</b> routine returns a pointer to the current process.
-
+The **IoGetCurrentProcess** routine returns a pointer to the current process. Call **PsGetCurrentProcess** instead of **IoGetCurrentProcess**.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
 
-
-
-<b>IoGetCurrentProcess</b> returns a pointer to the current process.
-
-
-
+**IoGetCurrentProcess** returns a pointer to the current process.
 
 ## -remarks
 
+This routine is identical to **PsGetCurrentProcess**.
 
-
-This routine is identical to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>.
-
-
-
+``#define PsGetCurrentProcess IoGetCurrentProcess``
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
- 
-
- 
-
+[PsGetCurrentThread](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentthread)

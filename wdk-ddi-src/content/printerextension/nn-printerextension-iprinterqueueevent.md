@@ -4,7 +4,7 @@ title: IPrinterQueueEvent
 author: windows-driver-content
 description: Provides the event delegate for printer queue events.
 old-location: print\iprinterqueueevent_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: AA4B2578-61C9-47C3-A114-4B873B475124
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

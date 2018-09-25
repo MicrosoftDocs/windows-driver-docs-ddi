@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
 title: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
 author: windows-driver-content
-description:
+description: Specifies convenience indices for arrays of per component histogram information.
 ms.assetid: f303d082-2235-4da2-b9f5-4ebf81c4ebd1
 ms.author: windowsdriverdev
 ms.date:
@@ -20,16 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041 enumeration

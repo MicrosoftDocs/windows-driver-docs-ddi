@@ -4,7 +4,7 @@ title: RouterAllocPrinterNotifyInfo function
 author: windows-driver-content
 description: The print spooler's RouterAllocPrinterNotifyInfo function allocates a PRINTER_NOTIFY_INFO structure and an array of PRINTER_NOTIFY_INFO_DATA structures.
 old-location: print\routerallocprinternotifyinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

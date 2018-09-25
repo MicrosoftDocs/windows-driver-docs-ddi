@@ -4,7 +4,7 @@ title: CcUninitializeCacheMap function
 author: windows-driver-content
 description: The CcUninitializeCacheMap routine stops the caching of a cached file.
 old-location: ifsk\ccuninitializecachemap.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 00e5abd6-c2d7-4408-aaf4-27a67dd3ee51
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -70,14 +70,9 @@ If specified, the file was truncated to the specified size, and the cache should
 
 ### -param UninitializeEvent
 
-TBD
+<p>If specified, the provided event is set to the signaled state when the cached file data has been flushed to disk.</p>
 
 
-
-
-#### - UninitializeCompleteEvent [in, optional]
-
-If specified, the provided event is set to the signaled state when the cached file data has been flushed to disk.
 
 
 ## -returns

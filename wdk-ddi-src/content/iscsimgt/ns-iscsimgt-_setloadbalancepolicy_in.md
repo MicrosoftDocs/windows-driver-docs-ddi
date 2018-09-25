@@ -4,7 +4,7 @@ title: "_SetLoadBalancePolicy_IN"
 author: windows-driver-content
 description: The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

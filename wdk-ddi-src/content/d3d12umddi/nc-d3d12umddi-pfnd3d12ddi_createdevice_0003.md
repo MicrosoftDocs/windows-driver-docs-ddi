@@ -4,10 +4,9 @@ title: PFND3D12DDI_CREATEDEVICE_0003
 author: windows-driver-content
 description: The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is referenced in subsequent calls.
 old-location: display\pfnd3d12ddi_createdevice_0003.htm
-old-project: display
 ms.assetid: 5F25CFE0-00C5-45CD-8EA1-50F01BA4EA0B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CREATEDEVICE_0003, PFND3D12DDI_CREATEDEVICE_0003 callback, PFND3D12DDI_CREATEDEVICE_0003 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEDEVICE_0003, display.pfnd3d12ddi_createdevice_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,24 +60,13 @@ The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is re
 
 ### -param Arg1
 
+A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt779071">PFND3D12DDI_OPENADAPTER</a> function.
 
 ### -param *
 
 
-
-
-
-
-
-
-#### - hAdapter
-
-A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt779071">PFND3D12DDI_OPENADAPTER</a> function.
-
-
-#### - pCreateData [in]
-
 A pointer to a <a href="https://msdn.microsoft.com/F139A61B-E074-4185-A934-17F6FDBA3F62">D3D12DDIARG_CREATEDEVICE</a> structure.
+
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetFieldName
 author: windows-driver-content
 description: The GetFieldName method returns the name of a field within a structure.
 old-location: debugger\getfieldname.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 3fb9abdd-f2c0-41b4-8df9-2f7f5065f90c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetFieldName, GetFieldName method [Windows Debugging], GetFieldName method [Windows Debugging],IDebugSymbols2 interface, GetFieldName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetFieldName method, IDebugSymbols2::GetFieldName, IDebugSymbols3 interface [Windows Debugging],GetFieldName method, IDebugSymbols3.GetFieldName, IDebugSymbols3::GetFieldName, IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml, dbgeng/IDebugSymbols2::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, debugger.getfieldname
 ms.prod: windows-hardware
 ms.technology: windows-devices

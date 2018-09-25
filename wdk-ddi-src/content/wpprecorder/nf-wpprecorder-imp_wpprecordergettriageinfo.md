@@ -4,7 +4,7 @@ title: imp_WppRecorderGetTriageInfo function
 author: windows-driver-content
 description: The WppRecorderGetTriageInfo.
 old-location: devtest\wpprecordergettriageinfo.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
@@ -60,7 +60,7 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 ### -param WppCb
 
-TBD
+<p>Pointer to a <a href="https://msdn.microsoft.com/library/Dn895242(v=VS.85).aspx"><b>WPP_TRIAGE_INFO</b></a> structure.</p>
 
 
 ### -param WppTriageInfo [out]

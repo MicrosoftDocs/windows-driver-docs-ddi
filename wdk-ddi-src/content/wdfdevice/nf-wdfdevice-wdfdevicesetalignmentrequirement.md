@@ -4,7 +4,7 @@ title: WdfDeviceSetAlignmentRequirement function
 author: windows-driver-content
 description: The WdfDeviceSetAlignmentRequirement method registers the driver's preferred address alignment for the data buffers that the device uses during memory transfer operations.
 old-location: wdf\wdfdevicesetalignmentrequirement.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceSetAlignmentRequirement</b> method registers the driver's preferred address alignment for the data buffers that the device uses during memory transfer operations.
 

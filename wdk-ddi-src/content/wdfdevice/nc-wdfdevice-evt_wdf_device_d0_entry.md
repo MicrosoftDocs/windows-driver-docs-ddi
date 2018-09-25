@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_D0_ENTRY
 author: windows-driver-content
 description: A driver's EvtDeviceD0Entry event callback function performs operations that are needed when the driver's device enters the D0 power state.
 old-location: wdf\evtdeviced0entry.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0cfabb0f-2d5e-4445-8683-d2916de5b549
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceD0Entry</i> event callback function performs operations that are needed when the driver's device enters the D0 power state.
 

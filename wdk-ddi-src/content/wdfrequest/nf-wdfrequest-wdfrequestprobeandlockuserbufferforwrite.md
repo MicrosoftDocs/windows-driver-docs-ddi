@@ -4,7 +4,7 @@ title: WdfRequestProbeAndLockUserBufferForWrite function
 author: windows-driver-content
 description: The WdfRequestProbeAndLockUserBufferForWrite method verifies that an I/O request's user-mode buffer is writeable, and then it locks the buffer's physical memory pages so drivers in the driver stack can write into the buffer.
 old-location: wdf\wdfrequestprobeandlockuserbufferforwrite.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a4e6f0aa-bf96-4274-9a1d-f37dc7bd96fd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestProbeAndLockUserBufferForWrite</b> method verifies that an I/O request's user-mode buffer is writeable, and then it locks the buffer's physical memory pages so drivers in the driver stack can write into the buffer.
 

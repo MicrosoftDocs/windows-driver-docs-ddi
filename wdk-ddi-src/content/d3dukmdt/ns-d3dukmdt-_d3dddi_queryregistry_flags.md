@@ -2,7 +2,7 @@
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_FLAGS
 title: _D3DDDI_QUERYREGISTRY_FLAGS
 author: windows-driver-content
-description:
+description: Contains information to query for registry flags.
 ms.assetid: 9dabfa1e-4574-4a82-a7c9-f44d5012dcbb
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_FLAGS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	_D3DDDI_QUERYREGISTRY_FLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DDDI_QUERYREGISTRY_FLAGS structure

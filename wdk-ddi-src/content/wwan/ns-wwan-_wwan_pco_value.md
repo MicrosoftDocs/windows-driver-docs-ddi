@@ -4,10 +4,10 @@ title: "_WWAN_PCO_VALUE"
 author: windows-driver-content
 description: The WWAN_PCO_VALUE structure represents the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 old-location: netvista\wwan_pco_value.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 45A499CE-2C9A-4070-BEF8-880E7673FA8E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_PCO_VALUE, PWWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, netvista.wwan_pco_value, wwan/PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>WWAN_PCO_VALUE</b> structure represents the PCO information payload from 
 
 ### -field Size
 
-The length of the PCO value that is valid in <b>PcoData</b>, which will be octets 3 (octet 1 to 3) + m*protocol element length + n*container element length. This is defined in the 3GPP TS24.008 spec, Section 10.5, since PCO is Type 4 information. 
+The length of the PCO value that is valid in <b>PcoData</b>, which will be octets 3 (octet 1 to 3) + (m * protocol element length) + (n * container element length). This is defined in the 3GPP TS24.008 spec, Section 10.5 because PCO is Type 4 information. 
 
 
 ### -field Type
@@ -75,8 +75,6 @@ The payload of the PCO structure that is received from the operator. The modem s
 
 ## -remarks
 
-
-
 Because some modems can currently only pass up operator specific PCO elements, the modem should pass up the information following the structure defined by 3GPP TS24.008 with the accurate synthesized header values for the content that is being passed up to the host.
 
 For example, if the modem received a PCO with 3 protocols and 3 containers, and is only passing up the 2 operator specific element containers to the host, the modem will make changes to the header that indicates the length of the PCO structure. This is to reflect the fact that there are only the two containers by subtracting the length of the 3 protocols.
@@ -90,7 +88,7 @@ The following figure shows a full PCO structure as defined in the 3G TS24.008 sp
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-options-pco-operations">MB Protocol Configuration Options (PCO) operations</a>
 
 
 

@@ -4,7 +4,7 @@ title: "_BIDI_DATA"
 author: windows-driver-content
 description: The BIDI_DATA structure is used to store the values of a bidi schema.
 old-location: print\bidi_data.htm
-old-project: print
+tech.root: print
 ms.assetid: 9e0f3044-01c0-4dec-b34c-0f33ccfe3300
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

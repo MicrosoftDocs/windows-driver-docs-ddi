@@ -4,7 +4,7 @@ title: "_FLT_PARAMETERS"
 author: windows-driver-content
 description: The FLT_PARAMETERS union defines the request-type-specific parameters associated with an I/O operation.
 old-location: ifsk\flt_parameters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 62aa20b7-ce5c-4d42-bce2-1d76a98887ed
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

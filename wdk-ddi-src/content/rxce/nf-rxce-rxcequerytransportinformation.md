@@ -4,7 +4,7 @@ title: RxCeQueryTransportInformation function
 author: windows-driver-content
 description: RxCeQueryTransportInformation queries transport information for a given transport.
 old-location: ifsk\rxcequerytransportinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

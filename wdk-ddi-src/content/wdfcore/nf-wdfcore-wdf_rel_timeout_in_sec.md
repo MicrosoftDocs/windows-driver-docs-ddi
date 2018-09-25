@@ -4,7 +4,7 @@ title: WDF_REL_TIMEOUT_IN_SEC function
 author: windows-driver-content
 description: The WDF_REL_TIMEOUT_IN_SEC function converts a specified number of seconds to a relative time value.
 old-location: wdf\wdf_rel_timeout_in_sec.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 40d0f5bf-609e-4609-8785-261b087fa372
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REL_TIMEOUT_IN_SEC</b> function converts a specified number of seconds to a relative time value.
 

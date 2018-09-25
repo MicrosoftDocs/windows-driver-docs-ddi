@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020
 author: windows-driver-content
 description: Defines the features that video processor supports.
 old-location: display\d3d12ddi_video_process_feature_support_flags.htm
-old-project: display
 ms.assetid: 6DBF48B1-44C7-4C53-8488-F1217E6FAA1C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020
 ---
 

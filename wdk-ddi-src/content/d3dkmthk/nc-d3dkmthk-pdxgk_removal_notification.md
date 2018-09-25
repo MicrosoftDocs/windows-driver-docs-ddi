@@ -4,7 +4,6 @@ title: PDXGK_REMOVAL_NOTIFICATION
 author: windows-driver-content
 description: A callback indicating that the graphics device is being removed.
 old-location: display\pdxgk_removal_notification.htm
-old-project: display
 ms.assetid: F9AA5859-8E8A-491D-B149-F42E418A64DC
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
 

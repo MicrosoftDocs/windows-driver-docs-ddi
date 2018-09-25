@@ -4,10 +4,10 @@ title: UcxStaticStreamsCreate function
 author: windows-driver-content
 description: Creates a static streams object.
 old-location: buses\_ucxstaticstreamscreate.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,9 @@ A handle to the endpoint object that supports static streams. The client driver 
 
 ### -param StaticStreamsInit
 
-TBD
+<p>A pointer to a <b>UCXSSTREAMS_INIT</b> structure that describes various configuration
+        operations for creating the stream object. The driver specifies function pointers to its callback functions in this structure.
+    This structure is managed by UCX.</p>
 
 
 ### -param Attributes [in, optional]
@@ -75,21 +77,9 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 
 ### -param StaticStreams
 
-TBD
+<p>A pointer to a variable that receives a handle to the new stream object.</p>
 
 
-
-
-#### - SStreams [out]
-
-A pointer to a variable that receives a handle to the new stream object.
-
-
-#### - SStreamsInit [out]
-
-A pointer to a <b>UCXSSTREAMS_INIT</b> structure that describes various configuration
-        operations for creating the stream object. The driver specifies function pointers to its callback functions in this structure.
-    This structure is managed by UCX.
 
 
 ## -returns

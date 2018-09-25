@@ -68,7 +68,7 @@ As the primary purpose of the AcquireNamedModel method is to extend the model, t
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager;    /* get the data model manager */
 ComPtr<IModelObject> spExtensionModel;  /* create a data model object you want 
                                            to use as an extension (see

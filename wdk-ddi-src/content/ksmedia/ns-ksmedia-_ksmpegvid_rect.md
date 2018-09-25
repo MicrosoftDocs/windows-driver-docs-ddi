@@ -4,7 +4,7 @@ title: "_KSMPEGVID_RECT"
 author: windows-driver-content
 description: KSMPEGVID_RECT structure
 old-location: stream\ksmpegvid_rect.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

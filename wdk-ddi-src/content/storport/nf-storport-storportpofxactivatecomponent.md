@@ -4,7 +4,7 @@ title: StorPortPoFxActivateComponent function
 author: windows-driver-content
 description: The StorPortPoFxActivateComponent routine increments the activation reference count on the specified component of a storage device.
 old-location: storage\storportpofxactivatecomponent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

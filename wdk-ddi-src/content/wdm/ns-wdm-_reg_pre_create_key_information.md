@@ -4,7 +4,7 @@ title: "_REG_PRE_CREATE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_PRE_OPEN_KEY_INFORMATION structure contains the name of a registry key that is about to be opened.
 old-location: kernel\reg_pre_open_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9b7240b5-429b-4bf2-aa7b-373b63bb79ae
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

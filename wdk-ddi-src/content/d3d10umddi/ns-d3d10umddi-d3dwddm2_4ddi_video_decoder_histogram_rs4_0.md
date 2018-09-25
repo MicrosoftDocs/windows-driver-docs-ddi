@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0
 title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0
 author: windows-driver-content
-description:
+description: Contains decode histogram output buffer information such as decode profile, resolution, and format.
 ms.assetid: 12eac5ab-18cb-4274-aa0a-1ee5fef2218f
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0 structure

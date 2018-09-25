@@ -4,7 +4,7 @@ title: "_KBUGCHECK_DUMP_IO_TYPE"
 author: windows-driver-content
 description: The KBUGCHECK_DUMP_IO_TYPE enumeration type identifies the type of a section of data within a crash dump file.
 old-location: kernel\kbugcheck_dump_io_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

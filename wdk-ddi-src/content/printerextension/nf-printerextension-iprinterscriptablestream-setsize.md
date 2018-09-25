@@ -4,7 +4,7 @@ title: IPrinterScriptableStream::SetSize
 author: windows-driver-content
 description: Sets the size of the scriptable stream, in bytes.
 old-location: print\iprinterscriptablestream__setsize.htm
-old-project: print
+tech.root: print
 ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

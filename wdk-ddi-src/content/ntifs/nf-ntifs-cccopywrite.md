@@ -4,7 +4,7 @@ title: CcCopyWrite function
 author: windows-driver-content
 description: The CcCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\cccopywrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 100fec4a-eebe-4a4d-b322-09afbe68ec5c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

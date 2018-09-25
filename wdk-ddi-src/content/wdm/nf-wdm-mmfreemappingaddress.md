@@ -4,7 +4,7 @@ title: MmFreeMappingAddress function
 author: windows-driver-content
 description: The MmFreeMappingAddress routine frees a range of virtual memory reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmfreemappingaddress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: df5afc18-da83-46b4-b7ab-8cef4353b951
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

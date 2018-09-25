@@ -2,7 +2,7 @@
 UID: NE:d3dumddi._D3DDDI_QUERYADAPTERTYPE
 title: _D3DDDI_QUERYADAPTERTYPE
 author: windows-driver-content
-description:
+description: Query for the display adapter type.
 ms.assetid: 5e3cdd6c-94a9-4870-98f4-a97402231cbe
 ms.author: windowsdriverdev
 ms.date:
@@ -20,16 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYADAPTERTYPE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	_D3DDDI_QUERYADAPTERTYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DDDI_QUERYADAPTERTYPE enumeration

@@ -4,7 +4,7 @@ title: FIELD_OFFSET macro
 author: windows-driver-content
 description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
 old-location: kernel\field_offset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c792d021-3c64-4341-878c-08a7e163447c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,26 +60,16 @@ The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a know
 
 ### -param type
 
-TBD
+<p>Specifies the name of a known structure type containing <i>Field</i>. </p>
 
 
 ### -param field
 
-TBD
+<p>Specifies the name of a field in a structure of type <i>Type</i>. </p>
 
 
 
 
-
-
-#### - Field [in]
-
-Specifies the name of a field in a structure of type <i>Type</i>. 
-
-
-#### - Type [in]
-
-Specifies the name of a known structure type containing <i>Field</i>. 
 
 
 ## -remarks

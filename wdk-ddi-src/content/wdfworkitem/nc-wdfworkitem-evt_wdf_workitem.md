@@ -4,7 +4,7 @@ title: EVT_WDF_WORKITEM
 author: windows-driver-content
 description: A driver's EvtWorkItem event callback function performs the work that is associated with a specified work item.
 old-location: wdf\evtworkitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2a2811de-9024-40a8-b8af-b61ca4100218
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtWorkItem</i> event callback function performs the work that is associated with a specified work item.
 

@@ -4,7 +4,7 @@ title: RtlUTF8ToUnicodeN function
 author: windows-driver-content
 description: The RtlUTF8ToUnicodeN routine converts a UTF-8 string to a Unicode string.
 old-location: kernel\rtlutf8tounicoden.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0b5f791a-9814-4058-8ee0-8f113ca3ade2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IInterFilterCommunicator
 author: windows-driver-content
 description: The IInterFilterCommunicator interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface.
 old-location: print\iinterfiltercommunicator.htm
-old-project: print
+tech.root: print
 ms.assetid: 777da1db-5522-48fc-bf35-8e6bf9203d6a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

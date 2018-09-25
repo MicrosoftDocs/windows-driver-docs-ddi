@@ -4,7 +4,7 @@ title: FsRtlIsEcpFromUserMode function
 author: windows-driver-content
 description: The FsRtlIsEcpFromUserMode routine determines whether an extra create parameter (ECP) context structure originated from user mode.
 old-location: ifsk\fsrtlisecpfromusermode.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

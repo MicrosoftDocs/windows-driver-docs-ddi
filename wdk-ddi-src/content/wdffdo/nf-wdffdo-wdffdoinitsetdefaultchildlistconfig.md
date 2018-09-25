@@ -4,7 +4,7 @@ title: WdfFdoInitSetDefaultChildListConfig function
 author: windows-driver-content
 description: The WdfFdoInitSetDefaultChildListConfig method configures a bus driver's default child list.
 old-location: wdf\wdffdoinitsetdefaultchildlistconfig.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 656a0c58-dd12-4417-a781-464d1670592c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFdoInitSetDefaultChildListConfig</b> method configures a bus driver's default child list.
 

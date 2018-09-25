@@ -4,7 +4,7 @@ title: WdfDmaTransactionSetChannelConfigurationCallback function
 author: windows-driver-content
 description: The WdfDmaTransactionSetChannelConfigurationCallback method registers a channel configuration event callback function for a system-mode DMA transaction.
 old-location: wdf\wdfdmatransactionsetchannelconfigurationcallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: B38BD937-5027-4EED-9ECA-3333F56DFFA8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDmaTransactionSetChannelConfigurationCallback</b> method registers a channel configuration event callback function for a system-mode DMA transaction.

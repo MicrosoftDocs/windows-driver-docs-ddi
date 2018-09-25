@@ -4,10 +4,10 @@ title: IServiceGroup
 author: windows-driver-content
 description: The IServiceGroup interface encapsulates a group of objects that all require notification of the same service request.
 old-location: audio\iservicegroup.htm
-old-project: audio
+tech.root: audio
 ms.assetid: eef2741e-e1a3-471b-a756-d89990929738
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 09/17/2018
 ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices],described, audio.iservicegroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml, portcls/IServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ The <code>RequestDelayedService</code> method requests service after the specifi
 <a href="https://msdn.microsoft.com/9CB0CE26-2F26-424E-9EF5-C6780F521E09">IServiceGroup::RequestService</a>
 </td>
 <td align="left" width="63%">
-TBD
+The RequestService method is called to forward a service request to an IServiceSink object.
 
 </td>
 </tr>

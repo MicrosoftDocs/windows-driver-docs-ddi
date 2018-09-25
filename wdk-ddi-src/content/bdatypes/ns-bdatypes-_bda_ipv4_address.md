@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_IPv4_ADDRESS
 title: "_BDA_IPv4_ADDRESS"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_ipv4_address.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5206CEEB-C1EF-4AE0-B4BC-52E8D85AD706
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

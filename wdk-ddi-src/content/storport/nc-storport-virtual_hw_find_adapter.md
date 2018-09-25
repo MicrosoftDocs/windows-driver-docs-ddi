@@ -4,7 +4,7 @@ title: VIRTUAL_HW_FIND_ADAPTER
 author: windows-driver-content
 description: The Storport virtual miniport uses configuration information supplied to the VirtualHwStorFindAdapter routine to further initialize itself.
 old-location: storage\virtualhwstorfindadapter.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 55c16545-194e-4d23-b2e6-26821180eafa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

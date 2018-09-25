@@ -4,7 +4,7 @@ title: "_WDF_IO_TARGET_STATE"
 author: windows-driver-content
 description: The WDF_IO_TARGET_STATE enumeration specifies the states that an I/O target can be in.
 old-location: wdf\wdf_io_target_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0189a83d-da46-49f1-99b8-8fb920009804
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TARGET_STATE</b> enumeration specifies the states that an I/O target can be in.
 

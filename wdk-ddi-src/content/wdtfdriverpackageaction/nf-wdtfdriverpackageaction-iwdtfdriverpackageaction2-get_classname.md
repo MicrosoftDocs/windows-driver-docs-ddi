@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_ClassName
 author: windows-driver-content
 description: Gets the class name.
 old-location: dtf\iwdtfdriverpackageaction2_classname.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 8358cd45-62aa-41d8-a795-d42c53fdaf07
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

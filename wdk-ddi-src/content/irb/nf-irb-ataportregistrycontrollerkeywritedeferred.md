@@ -4,7 +4,7 @@ title: AtaPortRegistryControllerKeyWriteDeferred function
 author: windows-driver-content
 description: The AtaPortRegistryControllerKeyWriteDeferred routine writes the data asynchronously to the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN, where N is the number of the controller.
 old-location: storage\ataportregistrycontrollerkeywritedeferred.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f4297e91-06ae-4c7a-87bc-12e3f5b0238c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -123,14 +123,9 @@ A pointer to the source buffer that contains the data to write to the registry v
 
 ### -param BufferLength
 
-TBD
+<p>A pointer to the number of bytes of data to copy. If the operation fails, the location pointed to by <i>Length</i> will update to the length of data that was successfully copied to the registry.</p>
 
 
-
-
-#### - Length [in]
-
-A pointer to the number of bytes of data to copy. If the operation fails, the location pointed to by <i>Length</i> will update to the length of data that was successfully copied to the registry.
 
 
 ## -returns

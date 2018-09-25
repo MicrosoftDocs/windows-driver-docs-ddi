@@ -4,7 +4,7 @@ title: FsRtlOplockBreakToNone function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,20 +15,20 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,7 +60,7 @@ The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to suppor
 
 ### -param Oplock
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param IrpSp

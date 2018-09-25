@@ -4,10 +4,10 @@ title: GET_ISO_URB_SIZE macro
 author: windows-driver-content
 description: The GET_ISO_URB_SIZE macro returns the number of bytes required to hold an isochronous transfer request.
 old-location: buses\get_iso_urb_size.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 37e96d41-3a8c-429a-a8fd-463f9be5555f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,16 +60,11 @@ The <b>GET_ISO_URB_SIZE</b> macro returns the number of bytes required to hold a
 
 ### -param n
 
-TBD
+<p>Specifies the number of isochronous transfer packets that will be part of the transfer request.</p>
 
 
 
 
-
-
-#### - NumberOfPackets [in]
-
-Specifies the number of isochronous transfer packets that will be part of the transfer request.
 
 
 ## -see-also

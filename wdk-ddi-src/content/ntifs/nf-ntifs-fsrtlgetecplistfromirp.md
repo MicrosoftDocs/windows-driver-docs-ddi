@@ -4,7 +4,7 @@ title: FsRtlGetEcpListFromIrp function
 author: windows-driver-content
 description: The FsRtlGetEcpListFromIrp routine returns a pointer to an extra create parameter (ECP) context structure list that is associated with a given IRP_MJ_CREATE operation.
 old-location: ifsk\fsrtlgetecplistfromirp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9e225f00-f830-488f-8bf0-666290dc40b0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

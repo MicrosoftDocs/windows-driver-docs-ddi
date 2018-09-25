@@ -4,7 +4,7 @@ title: "_INSTANCE_FULL_INFORMATION"
 author: windows-driver-content
 description: The INSTANCE_FULL_INFORMATION structure contains full information for a minifilter instance.
 old-location: ifsk\instance_full_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6c034749-c110-4623-8a7b-a19235cad298
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IWDFDevice2::RegisterRemoteInterfaceNotification
 author: windows-driver-content
 description: The RegisterRemoteInterfaceNotification method registers a driver to receive a notification when a specified device interface becomes available.
 old-location: wdf\iwdfdevice2_registerremoteinterfacenotification.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

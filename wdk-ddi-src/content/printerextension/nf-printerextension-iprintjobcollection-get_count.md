@@ -4,7 +4,7 @@ title: IPrintJobCollection::get_Count
 author: windows-driver-content
 description: Gets the number of jobs in the print queue.
 old-location: print\iprintjobcollection_count.htm
-old-project: print
+tech.root: print
 ms.assetid: B44C8023-CB5F-4381-8A75-CA086E989BAC
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

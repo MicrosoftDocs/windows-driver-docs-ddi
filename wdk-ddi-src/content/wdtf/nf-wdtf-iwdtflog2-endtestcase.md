@@ -4,7 +4,7 @@ title: IWDTFLOG2::EndTestCase
 author: windows-driver-content
 description: Marks the end of a test case.
 old-location: dtf\iwdtflog2_endtestcase.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 1932a0f0-bf76-4a8e-8b2a-e2ba2c81dc2b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

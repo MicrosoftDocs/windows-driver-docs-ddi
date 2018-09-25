@@ -4,7 +4,7 @@ title: "_ACPI_METHOD_ARGUMENT_V2"
 author: windows-driver-content
 description: This topic describes the ACPI_METHOD_ARGUMENT_V2 structure.
 old-location: acpi\acpi_method_argument_v2.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 10DD32ED-96F2-43BF-BBF4-85851BC9A377
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

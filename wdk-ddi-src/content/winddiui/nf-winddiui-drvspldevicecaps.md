@@ -4,7 +4,7 @@ title: DrvSplDeviceCaps function
 author: windows-driver-content
 description: A printer interface DLL's DrvSplDeviceCaps function queries a printer for its capabilities.
 old-location: print\drvspldevicecaps.htm
-old-project: print
+tech.root: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -65,27 +65,27 @@ Caller-supplied handle to the printer.
 
 ### -param pszDeviceName
 
-TBD
+
 
 
 ### -param Capability
 
-TBD
+
 
 
 ### -param pOutput
 
-TBD
+
 
 
 ### -param cchBufSize
 
-TBD
+
 
 
 ### -param pDevmode
 
-TBD
+
 
 
 

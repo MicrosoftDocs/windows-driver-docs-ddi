@@ -4,7 +4,7 @@ title: KSPROPERTY_MEMBERSHEADER
 author: windows-driver-content
 description: A driver provides a structure of type KSPROPERTY_MEMBERSHEADER to describe the size and type of each element in an array containing property values or ranges.
 old-location: stream\ksproperty_membersheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8a5d8f8c-4924-4ae0-a7b2-8d2b04a49a9e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

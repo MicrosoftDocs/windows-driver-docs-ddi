@@ -4,7 +4,7 @@ title: "_ECP_OPEN_PARAMETERS"
 author: windows-driver-content
 description: The ECP_OPEN_PARAMETERS structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file.
 old-location: ifsk\ecp_open_parameters.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

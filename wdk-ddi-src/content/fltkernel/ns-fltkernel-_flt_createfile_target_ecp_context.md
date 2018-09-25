@@ -4,7 +4,7 @@ title: "_FLT_CREATEFILE_TARGET_ECP_CONTEXT"
 author: windows-driver-content
 description: The FLT_CREATEFILE_TARGET_ECP_CONTEXT structure is an extra create parameter (ECP) used to return reparse target information back to the caller of FltCreateFileEx2.
 old-location: ifsk\flt_createfile_target_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

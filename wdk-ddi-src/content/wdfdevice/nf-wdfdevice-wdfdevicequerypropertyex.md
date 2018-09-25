@@ -4,7 +4,7 @@ title: WdfDeviceQueryPropertyEx function
 author: windows-driver-content
 description: The WdfDeviceQueryPropertyEx method retrieves a specified device property.
 old-location: wdf\wdfdevicequerypropertyex.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: CA189010-0BEB-420A-BE69-5F7FEE322FE3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceQueryPropertyEx</b> method retrieves a specified device property.
 

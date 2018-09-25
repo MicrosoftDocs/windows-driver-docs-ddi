@@ -4,10 +4,10 @@ title: wiauDbgTrace function
 author: windows-driver-content
 description: The wiauDbgTrace function logs a trace message.
 old-location: image\wiaudbgtrace.htm
-old-project: image
+tech.root: image
 ms.assetid: c3cdb5c9-b43d-443b-8d04-d30eb74f39da
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbgtrace, wiauDbgTrace, wiauDbgTrace function [Imaging Devices], wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiautil/wiauDbgTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -65,12 +65,12 @@ Pointer to a string containing the name of the function or method into which the
 
 ### -param fmt
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

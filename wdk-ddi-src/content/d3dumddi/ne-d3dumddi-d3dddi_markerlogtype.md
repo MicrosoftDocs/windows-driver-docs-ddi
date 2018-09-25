@@ -4,10 +4,10 @@ title: D3DDDI_MARKERLOGTYPE
 author: windows-driver-content
 description: Indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
 old-location: display\d3dddi_markerlogtype.htm
-old-project: display
+tech.root: display
 ms.assetid: CBD48828-7DAA-470F-AB9E-34957C579EB5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_PROFILE, d3dumddi/D3DDDI_MARKERLOGTYPE, display.d3dddi_markerlogtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

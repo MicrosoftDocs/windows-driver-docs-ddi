@@ -4,7 +4,7 @@ title: RtlRunOnceExecuteOnce function
 author: windows-driver-content
 description: The RtlRunOnceExecuteOnce performs a one-time initialization.
 old-location: kernel\rtlrunonceexecuteonce.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2769eb2c-33e2-4e3f-a1bf-1ebc9213b224
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

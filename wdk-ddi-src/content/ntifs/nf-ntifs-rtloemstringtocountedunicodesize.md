@@ -4,7 +4,7 @@ title: RtlOemStringToCountedUnicodeSize macro
 author: windows-driver-content
 description: The RtlOemStringToCountedUnicodeSize routine determines the size, in bytes, that a given OEM string will be after it is translated into a counted Unicode string.
 old-location: ifsk\rtloemstringtocountedunicodesize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a618420f-ea69-471d-82a0-1e86f85e270b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ The <b>RtlOemStringToCountedUnicodeSize</b> routine determines the size, in byte
 
 ### -param STRING
 
-TBD
+<p>Pointer to a caller-allocated OEM string. </p>
 
 
 
 
-
-
-#### - OemString [in]
-
-Pointer to a caller-allocated OEM string. 
 
 
 ## -remarks

@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_EXTENDED_ADDRESS structure.
 old-location: kernel\pep_acpi_initialize_extended_memory_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: F566E078-9446-49E1-9325-AF65F3ABB6B9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -243,17 +243,12 @@ an NVS sleep.
 
 ### -param TranslationTypeNonStatic
 
-TBD
+<p>When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.</p>
 
 
 ### -param Resource [out]
 
 This is cast to *<a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a>.
-
-
-#### - TanslationTypeNonStatic [in]
-
-When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.
 
 
 ## -returns

@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY
 title: _DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY
 author: windows-driver-content
-description:
+description: The chromaticity coordinates from a color sensor.
 ms.assetid: c6709e1b-9604-43db-88c8-23ef35db43e0
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	_DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY structure

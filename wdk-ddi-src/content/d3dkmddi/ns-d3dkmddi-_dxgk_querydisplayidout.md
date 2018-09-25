@@ -4,10 +4,9 @@ title: "_DXGK_QUERYDISPLAYIDOUT"
 author: windows-driver-content
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidout.htm
-old-project: display
 ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_QUERYDISPLAYIDOUT
 ---
 

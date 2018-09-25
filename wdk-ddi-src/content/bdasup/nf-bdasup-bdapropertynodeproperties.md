@@ -4,7 +4,7 @@ title: BdaPropertyNodeProperties function
 author: windows-driver-content
 description: The BdaPropertyNodeProperties function retrieves a list of properties that a node supports.
 old-location: stream\bdapropertynodeproperties.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1f50bf08-6134-4a97-8c9c-adc9ad697154
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -61,7 +61,7 @@ The <b>BdaPropertyNodeProperties</b> function retrieves a list of properties tha
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSProperty [in]

@@ -4,7 +4,7 @@ title: RxDereference function
 author: windows-driver-content
 description: RxDereference decrements the NodeReferenceCount member of a structure by one for several reference counted data structures used by RDBSS.
 old-location: ifsk\rxdereference.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4f63fc92-56e3-4414-a912-09ed0de59c92
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_DVD_START_SESSION
 author: windows-driver-content
 description: Returns an authentication grant ID (AGID) as a DVD session ID, which a caller must pass to the device in all subsequent operations in a DVD session.
 old-location: storage\ioctl_dvd_start_session.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a4010756-b230-4e49-85a4-498f5ebcf785
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

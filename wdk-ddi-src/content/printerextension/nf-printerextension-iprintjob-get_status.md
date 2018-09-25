@@ -4,7 +4,7 @@ title: IPrintJob::get_Status method
 author: windows-driver-content
 description: Gets the current status of the print job.
 old-location: print\iprintjob_status.htm
-old-project: print
+tech.root: print
 ms.assetid: 3C806C3B-78A1-44B6-A9AC-E7258D216637
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -4,7 +4,7 @@ title: "_ISCSI_DiscoveredTargetPortalGroup2"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTargetPortalGroup2 structure contains information about a discovered target portal group.
 old-location: storage\iscsi_discoveredtargetportalgroup2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d852f062-3090-4a7a-bdb8-9dde93257a90
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

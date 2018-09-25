@@ -4,7 +4,7 @@ title: "_WDF_OBJECT_ATTRIBUTES"
 author: windows-driver-content
 description: The WDF_OBJECT_ATTRIBUTES structure describes attributes that can be associated with any framework object.
 old-location: wdf\wdf_object_attributes.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3331c2d8-3100-410d-9c75-33a3b55d5a49
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_OBJECT_ATTRIBUTES, *PWDF_OBJECT_ATTRIBUTES
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_OBJECT_ATTRIBUTES structure describes attributes that can be associated with any framework object.
 

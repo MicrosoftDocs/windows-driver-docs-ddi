@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceRetrieveCurrentFrameNumber function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceRetrieveCurrentFrameNumber method retrieves the current USB frame number.
 old-location: wdf\wdfusbtargetdeviceretrievecurrentframenumber.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7f73339f-adac-4569-92e7-1b166f93db92
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</b> method retrieves the current USB frame number.
 

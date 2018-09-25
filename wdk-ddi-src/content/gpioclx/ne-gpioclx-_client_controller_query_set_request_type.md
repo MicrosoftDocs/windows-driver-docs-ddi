@@ -4,7 +4,7 @@ title: "_CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE"
 author: windows-driver-content
 description: The CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration type indicates what type of attribute information the GPIO framework extension (GpioClx) is requesting from the GPIO controller driver.
 old-location: gpio\client_controller_query_set_request_type.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

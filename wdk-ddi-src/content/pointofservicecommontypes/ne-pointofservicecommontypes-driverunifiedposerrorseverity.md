@@ -4,7 +4,7 @@ title: DriverUnifiedPosErrorSeverity
 author: windows-driver-content
 description: This enumeration indicates the severity of the error.
 old-location: pos\unifiedposerrorseverity.htm
-old-project: pos
+tech.root: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

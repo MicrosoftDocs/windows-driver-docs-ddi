@@ -4,10 +4,10 @@ title: NdisCoGetTapiCallId function
 author: windows-driver-content
 description: NdisCoGetTapiCallId retrieves a string that TAPI applications can use to identify a particular NDIS virtual connection (VC).
 old-location: netvista\ndiscogettapicallid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3cb47545-177f-46ef-aff6-33ad8c9a6974
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisCoGetTapiCallId, NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml, ndis/NdisCoGetTapiCallId, netvista.ndiscogettapicallid
 ms.prod: windows-hardware
 ms.technology: windows-devices

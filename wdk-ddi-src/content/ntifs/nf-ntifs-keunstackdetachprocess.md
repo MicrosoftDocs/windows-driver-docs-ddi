@@ -4,7 +4,7 @@ title: KeUnstackDetachProcess function
 author: windows-driver-content
 description: The KeUnstackDetachProcess routine detaches the current thread from the address space of a process and restores the previous attach state.
 old-location: ifsk\keunstackdetachprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3dd5b8f7-d8f8-4c02-80d1-76d0dbe06cd3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -121,7 +121,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
 
 
 

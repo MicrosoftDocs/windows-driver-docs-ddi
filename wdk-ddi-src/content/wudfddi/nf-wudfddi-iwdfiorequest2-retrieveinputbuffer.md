@@ -4,7 +4,7 @@ title: IWDFIoRequest2::RetrieveInputBuffer
 author: windows-driver-content
 description: The RequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f727d9b7-d7ea-4551-bc5a-7829f9807e02
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,9 @@ title: D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW structure describes a one-dimensional texture (1-D) that is used to create an unordered access view in a call to the CreateUnorderedAccessView function.
 old-location: display\d3d11ddiarg_tex1d_unorderedaccessview.htm
-old-project: display
 ms.assetid: aeee9194-2824-43ff-8225-4c0ef666e44f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW, D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_46a7f507-bfcb-4d1d-a905-ea60655785d6.xml, d3d10umddi/D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW, display.d3d11ddiarg_tex1d_unorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW
 ---
 

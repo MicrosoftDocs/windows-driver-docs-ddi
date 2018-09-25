@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001
 title: PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001
 author: windows-driver-content
-description: 
+description: Create a command signature.
 ms.assetid: 467a206c-9fe2-41c0-a264-05a80be53a6c
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Create a command signature.
 
 ## -prototype
 
@@ -68,19 +70,18 @@ PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param *
+
+Pointer to a D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure.
+
 ### -param D3D12DDI_HCOMMANDSIGNATURE: 
 
-
+A handle to a command signature.
 
 ## -returns
 
-Returns HRESULT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns HRESULT.

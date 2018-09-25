@@ -4,7 +4,7 @@ title: WDF_READ_REGISTER_ULONG64 function
 author: windows-driver-content
 description: The WDF_READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
 old-location: wdf\wdf_read_register_ulong64.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: A47BEA59-CBDD-41B5-9CEB-DC354D2BCC72
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_REGISTER_ULONG64</b> function reads a ULONG64 value from the specified register address.
 

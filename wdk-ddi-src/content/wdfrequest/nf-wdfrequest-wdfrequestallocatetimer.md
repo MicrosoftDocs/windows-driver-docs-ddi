@@ -4,7 +4,7 @@ title: WdfRequestAllocateTimer function
 author: windows-driver-content
 description: The WdfRequestAllocateTimer method allocates a timer for a specified I/O request.
 old-location: wdf\wdfrequestallocatetimer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestAllocateTimer</b> method allocates a timer for a specified I/O request.
 

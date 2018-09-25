@@ -4,7 +4,7 @@ title: KsSynchronousIoControlDevice function
 author: windows-driver-content
 description: The KsSynchronousIoControlDevice function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\kssynchronousiocontroldevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7e4ca8ea-52c1-462e-bf02-cc82e9ab2be2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -66,7 +66,7 @@ Indicates the file object to fill in the first stack location with.
 
 ### -param RequestorMode
 
-TBD
+
 
 
 ### -param IoControl [in]

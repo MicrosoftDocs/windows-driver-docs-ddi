@@ -4,7 +4,7 @@ title: IWDFDevice3::WriteToHardware
 author: windows-driver-content
 description: The WriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_writetohardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

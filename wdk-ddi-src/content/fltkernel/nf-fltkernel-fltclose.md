@@ -4,7 +4,7 @@ title: FltClose function
 author: windows-driver-content
 description: FltClose closes a file handle that was opened by FltCreateFile or FltCreateFileEx.
 old-location: ifsk\fltclose.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fd5967cc-fb30-4882-9567-4617b9f9e723
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

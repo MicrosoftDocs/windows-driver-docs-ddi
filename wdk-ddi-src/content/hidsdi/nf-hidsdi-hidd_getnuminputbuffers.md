@@ -4,7 +4,7 @@ title: HidD_GetNumInputBuffers function
 author: windows-driver-content
 description: The HidD_GetNumInputBuffers routine returns the current size, in number of reports, of the ring buffer that the HID class driver uses to queue input reports from a specified top-level collection.
 old-location: hid\hidd_getnuminputbuffers.htm
-old-project: hid
+tech.root: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

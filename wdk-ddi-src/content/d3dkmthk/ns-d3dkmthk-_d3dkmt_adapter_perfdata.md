@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_PERFDATA
 title: _D3DKMT_ADAPTER_PERFDATA
 author: windows-driver-content
-description:
+description: Contains input arguments for the D3DKMTQueryAdapterInfo function. Represents performance data collected per adapter on an interval basis.
 ms.assetid: 9ea3462d-9604-4d22-9d7f-1dc5a0693d2a
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ADAPTER_PERFDATA
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_ADAPTER_PERFDATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_ADAPTER_PERFDATA structure

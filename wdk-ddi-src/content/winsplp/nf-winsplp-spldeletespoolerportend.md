@@ -2,9 +2,9 @@
 UID: NF:winsplp.SplDeleteSpoolerPortEnd
 title: SplDeleteSpoolerPortEnd function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\spldeletespoolerportend.htm
-old-project: print
+tech.root: print
 ms.assetid: 947391B5-5355-4ADB-B26E-A51FE0B0B85F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

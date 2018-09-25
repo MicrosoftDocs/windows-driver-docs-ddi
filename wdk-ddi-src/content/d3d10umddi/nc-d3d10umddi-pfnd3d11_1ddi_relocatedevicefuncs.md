@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_RELOCATEDEVICEFUNCS
 author: windows-driver-content
 description: Notifies the user-mode display driver about the new location of the driver function table.
 old-location: display\relocatedevicefuncs_d3d11_1_.htm
-old-project: display
 ms.assetid: 5d9f964e-5d7a-4b6c-977e-c718e3424f84
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_RELOCATEDEVICEFUNCS, PFND3D11_1DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs(D3D11_1), RelocateDeviceFuncs(D3D11_1) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_1), display.pfnrelocatedevicefuncs, display.relocatedevicefuncs_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

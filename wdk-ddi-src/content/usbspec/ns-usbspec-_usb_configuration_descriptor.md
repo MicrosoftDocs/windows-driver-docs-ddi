@@ -4,10 +4,10 @@ title: "_USB_CONFIGURATION_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_CONFIGURATION_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined configuration descriptor.
 old-location: buses\usb_configuration_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2a9398f7-4d01-42a6-9ac2-ca105db76bb8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], USB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR structure [Buses], _USB_CONFIGURATION_DESCRIPTOR, buses.usb_configuration_descriptor, usbspec/PUSB_CONFIGURATION_DESCRIPTOR, usbspec/USB_CONFIGURATION_DESCRIPTOR, usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
 
 
 The  <b>USB_CONFIGURATION_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined configuration descriptor.
-
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.3.
 
 ## -struct-fields
 

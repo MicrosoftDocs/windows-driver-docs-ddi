@@ -4,7 +4,7 @@ title: "_ZONE_DESCRIPTIOR"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\zone_descriptior.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8326f683-3952-486e-b322-80ce96759366
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

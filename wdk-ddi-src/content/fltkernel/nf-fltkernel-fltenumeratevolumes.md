@@ -4,7 +4,7 @@ title: FltEnumerateVolumes function
 author: windows-driver-content
 description: The FltEnumerateVolumes routine enumerates all volumes in the system.
 old-location: ifsk\fltenumeratevolumes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 67038ff5-c450-460b-b158-f5d817fdc972
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

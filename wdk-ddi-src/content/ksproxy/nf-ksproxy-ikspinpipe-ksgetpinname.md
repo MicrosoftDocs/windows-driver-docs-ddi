@@ -4,7 +4,7 @@ title: IKsPinPipe::KsGetPinName
 author: windows-driver-content
 description: Returns the name of a pin.
 old-location: stream\ikspinpipe_ksgetpinname.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2757FF0D-C84E-4309-AFD4-D9FE1F4D77CE
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

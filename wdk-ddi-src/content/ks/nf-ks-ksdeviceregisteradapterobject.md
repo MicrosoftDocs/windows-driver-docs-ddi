@@ -4,7 +4,7 @@ title: KsDeviceRegisterAdapterObject function
 author: windows-driver-content
 description: The KsDeviceRegisterAdapterObject function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use IKsDeviceFunctions::RegisterAdapterObjectEx instead.
 old-location: stream\ksdeviceregisteradapterobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6e3c33fe-eb28-4985-98f3-cafa85543d68
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -71,7 +71,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ### -param MaxMappingsByteCount
 
-TBD
+
 
 
 ### -param MappingTableStride [in]

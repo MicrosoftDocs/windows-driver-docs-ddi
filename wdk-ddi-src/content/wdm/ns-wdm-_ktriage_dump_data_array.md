@@ -31,7 +31,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_KTRIAGE_DUMP_DATA_ARRAY
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

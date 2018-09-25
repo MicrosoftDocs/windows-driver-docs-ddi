@@ -4,7 +4,7 @@ title: WdfPreDeviceRemove function
 author: windows-driver-content
 description: The co-installer's WdfPreDeviceRemove function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer deletes the driver's kernel-mode service.
 old-location: wdf\wdfpredeviceremove.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8cde623d-a255-45ff-ab1e-bdd0c14a02a0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The co-installer's <b>WdfPreDeviceRemove</b> function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer deletes the driver's kernel-mode service. 
 

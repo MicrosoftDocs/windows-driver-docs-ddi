@@ -4,7 +4,7 @@ title: ExDeletePagedLookasideList function
 author: windows-driver-content
 description: The ExDeletePagedLookasideList routine destroys a paged lookaside list.
 old-location: kernel\exdeletepagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: da3784a8-6fc5-47cc-932e-52ec16392e49
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

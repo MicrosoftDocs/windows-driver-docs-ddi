@@ -4,7 +4,7 @@ title: WdfRequestUnmarkCancelable function
 author: windows-driver-content
 description: The WdfRequestUnmarkCancelable method disables cancellation of a specified I/O request.
 old-location: wdf\wdfrequestunmarkcancelable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 91740445-e380-4798-a553-e7d502d2ce92
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestUnmarkCancelable</b> method disables cancellation of a specified I/O request.
 

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f14483b6-cac2-4ac7-8100-f0a7759eea0a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::GetName, GetName, IDebugHostConstant.GetName, IDebugHostConstant::GetName, IDebugHostConstant.GetName
 req.header: dbgmodel.h
@@ -44,15 +44,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the name of the symbol if the symbol has a name.  If the symbol does not have a name, an error is returned.
+
 
 ## -parameters
 
 ### -param symbolName
-
+The name of the symbol will be returned here as a string allocated via the SysAllocString method.  The caller is responsible for freeing the allocated string via the SysFreeString method.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDebugHostConstant interface](nn-dbgmodel-idebughostconstant.md)

@@ -4,7 +4,7 @@ title: IWDFDevice::CommitPnpState
 author: windows-driver-content
 description: The CommitPnpState method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the IWDFDevice::SetPnpState method set.
 old-location: wdf\iwdfdevice_commitpnpstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 650ad98a-81e5-4ec8-b276-a5dc79366652
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

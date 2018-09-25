@@ -4,7 +4,7 @@ title: RtlSecondsSince1980ToTime function
 author: windows-driver-content
 description: The RtlSecondsSince1980ToTime routine converts the elapsed time, in seconds, since the beginning of 1980 to an absolute system time value.
 old-location: ifsk\rtlsecondssince1980totime.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2552df19-424e-43ba-9c8d-431123353d4a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

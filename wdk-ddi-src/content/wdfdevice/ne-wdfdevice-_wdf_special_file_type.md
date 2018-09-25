@@ -4,7 +4,7 @@ title: "_WDF_SPECIAL_FILE_TYPE"
 author: windows-driver-content
 description: The WDF_SPECIAL_FILE_TYPE enumeration identifies special file types that a device can support.
 old-location: wdf\wdf_special_file_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_SPECIAL_FILE_TYPE</b> enumeration identifies special file types that a device can support.
 

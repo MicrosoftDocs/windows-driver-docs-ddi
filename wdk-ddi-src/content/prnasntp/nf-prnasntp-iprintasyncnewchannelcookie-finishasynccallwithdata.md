@@ -2,9 +2,9 @@
 UID: NF:prnasntp.IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
 title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintasyncnewchannelcookie_finishasynccallwithdata.htm
-old-project: print
+tech.root: print
 ms.assetid: 6103FBCB-C89F-4FE9-BD04-6129AEAA97EE
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

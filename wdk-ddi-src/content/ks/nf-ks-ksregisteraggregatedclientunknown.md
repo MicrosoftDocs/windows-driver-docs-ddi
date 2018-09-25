@@ -4,7 +4,7 @@ title: KsRegisterAggregatedClientUnknown function
 author: windows-driver-content
 description: In a manner very similar to COM, the KsRegisterAggregatedClientUnknown function aggregates two objects:\_the specified AVStream object and a client unknown object.
 old-location: stream\ksregisteraggregatedclientunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

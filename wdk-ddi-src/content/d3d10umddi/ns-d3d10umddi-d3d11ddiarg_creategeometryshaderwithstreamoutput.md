@@ -4,10 +4,9 @@ title: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 author: windows-driver-content
 description: The D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure describes the geometry shader with stream output to create.
 old-location: display\d3d11ddiarg_creategeometryshaderwithstreamoutput.htm
-old-project: display
 ms.assetid: 07ad9fdb-16f0-4752-9b35-e69d6a7b8815
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_6b81cccd-92f9-4135-8bcc-d523b514c45c.xml, d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, display.d3d11ddiarg_creategeometryshaderwithstreamoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 ---
 

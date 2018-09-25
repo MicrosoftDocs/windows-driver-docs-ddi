@@ -4,7 +4,7 @@ title: ExAllocateFromNPagedLookasideList function
 author: windows-driver-content
 description: The ExAllocateFromNPagedLookasideList routine returns a pointer to a nonpaged entry from the given lookaside list, or it returns a pointer to a newly allocated nonpaged entry.
 old-location: kernel\exallocatefromnpagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f62c63f0-cf17-4308-97f1-84bb668d2d51
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

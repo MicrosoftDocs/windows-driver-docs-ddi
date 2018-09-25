@@ -4,10 +4,9 @@ title: PFND3D11DDI_STATE_HS_CONSTBUF_CB
 author: windows-driver-content
 description: The pfnStateHsConstBufCb function causes the Microsoft Direct3D 11 runtime to refresh the hull shader constant buffer state.
 old-location: display\pfnstatehsconstbufcb.htm
-old-project: display
 ms.assetid: 2f817497-7334-47ef-aa9d-d43386aa4751
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_STATE_HS_CONSTBUF_CB, PFND3D11DDI_STATE_HS_CONSTBUF_CB callback, d3d10umddi/pfnStateHsConstBufCb, d3d11state_functions_a6869e87-887a-43de-ae5e-8ca310193939.xml, display.pfnstatehsconstbufcb, pfnStateHsConstBufCb, pfnStateHsConstBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

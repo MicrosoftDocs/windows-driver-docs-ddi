@@ -4,7 +4,7 @@ title: PCAM_CONFIGURE_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamConfigure callback function configures the isochronous streaming interface.
 old-location: stream\camconfigure.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b17fa32e-0a58-4be4-a096-e486471c1cdd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

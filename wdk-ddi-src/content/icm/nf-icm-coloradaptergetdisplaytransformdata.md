@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterGetDisplayTransformData
 title: ColorAdapterGetDisplayTransformData function
 author: windows-driver-content
-description:
+description: This DDI construct is intended for OEM use only.
 ms.assetid: 8c8c70dc-037c-4c99-8378-baa3c38968e6
 ms.author: windowsdriverdev
-ms.date:
+ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterGetDisplayTransformData
 req.header: icm.h
@@ -33,7 +33,8 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetDisplayTransformData
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---
@@ -57,7 +58,9 @@ targetos: Windows
 
 
 ## -returns
+
 This function returns HRESULT.
+
 ## -remarks
 
 ## -see-also

@@ -4,7 +4,7 @@ title: TmEnableCallbacks function
 author: windows-driver-content
 description: The TmEnableCallbacks routine enables a callback routine that receives transaction notifications.
 old-location: kernel\tmenablecallbacks.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d3f79cda-349a-4a42-a2a9-d9be3a695c1c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

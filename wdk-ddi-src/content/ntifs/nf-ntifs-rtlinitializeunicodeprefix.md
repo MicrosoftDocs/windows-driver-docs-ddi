@@ -4,7 +4,7 @@ title: RtlInitializeUnicodePrefix function
 author: windows-driver-content
 description: The RtlInitializeUnicodePrefix routine initializes a prefix table.
 old-location: ifsk\rtlinitializeunicodeprefix.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8891641a-392c-4c2b-aa5a-9464774d8610
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

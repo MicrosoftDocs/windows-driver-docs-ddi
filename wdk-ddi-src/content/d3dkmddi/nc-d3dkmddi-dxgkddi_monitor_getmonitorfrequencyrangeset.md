@@ -4,10 +4,9 @@ title: DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET
 author: windows-driver-content
 description: The pfnGetMonitorFrequencyRangeSet function returns a handle to the monitor frequency range set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfngetmonitorfrequencyrangeset.htm
-old-project: display
 ms.assetid: 78b80dbb-af1e-457c-854f-ff0404ab9808
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET, DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET callback, VidPnFunctions_2088f146-59a2-49d1-9295-21a28d50e2d0.xml, d3dkmddi/pfnGetMonitorFrequencyRangeSet, display.dxgk_monitor_interface_pfngetmonitorfrequencyrangeset, pfnGetMonitorFrequencyRangeSet, pfnGetMonitorFrequencyRangeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

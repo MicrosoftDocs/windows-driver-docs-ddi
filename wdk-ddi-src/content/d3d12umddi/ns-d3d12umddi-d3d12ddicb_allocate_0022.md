@@ -4,10 +4,9 @@ title: D3D12DDICB_ALLOCATE_0022
 author: windows-driver-content
 description: Specifies information for use in an allocation callback function.
 old-location: display\d3d12ddicb_allocate_0022.htm
-old-project: display
 ms.assetid: C39262BA-D1CE-4634-974A-ACCE8D321830
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDICB_ALLOCATE_0022, D3D12DDICB_ALLOCATE_0022 structure [Display Devices], d3d12umddi/D3D12DDICB_ALLOCATE_0022, display.d3d12ddicb_allocate_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDICB_ALLOCATE_0022
 ---
 

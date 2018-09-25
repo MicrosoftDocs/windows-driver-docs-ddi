@@ -4,7 +4,7 @@ title: RtlStringCbCatNExW function
 author: windows-driver-content
 description: The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatnex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 76842444-e733-4dee-b83b-db4ef22f697e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -84,7 +84,7 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 
 ### -param cbToAppend
 
-TBD
+<p>The maximum number of bytes to append to <i>pszDest</i>. </p>
 
 
 ### -param ppszDestEnd [out, optional]
@@ -158,11 +158,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </tr>
 </table>
  
-
-
-#### - cbMaxAppend [in]
-
-The maximum number of bytes to append to <i>pszDest</i>. 
 
 
 ## -returns

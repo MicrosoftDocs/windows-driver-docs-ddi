@@ -4,7 +4,7 @@ title: "_STOR_SPINLOCK"
 author: windows-driver-content
 description: The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
 old-location: storage\stor_spinlock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 73e5e994-4133-4651-bb94-1d21386be1cd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeFormatRequestForWrite function
 author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForWrite method builds a write request for a USB output pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforwrite.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cf880701-d1e9-4bda-8d6c-35f35b707e9b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeFormatRequestForWrite</b> method builds a write request for a USB output pipe, but it does not send the request.
 

@@ -58,7 +58,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager;    /* get the data model manager */
 
 if (SUCCEEDED(spManager->UnregisterNamedModel(

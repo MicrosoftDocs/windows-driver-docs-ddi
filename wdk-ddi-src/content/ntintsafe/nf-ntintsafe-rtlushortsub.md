@@ -4,7 +4,7 @@ title: RtlUShortSub function
 author: windows-driver-content
 description: Subtracts one value of type USHORT from another.
 old-location: kernel\rtlushortsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1C0392AE-F3BD-4F42-9094-87228B7C3E10
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

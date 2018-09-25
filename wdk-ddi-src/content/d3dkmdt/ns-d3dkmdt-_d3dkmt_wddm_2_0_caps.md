@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._D3DKMT_WDDM_2_0_CAPS
 title: _D3DKMT_WDDM_2_0_CAPS
 author: windows-driver-content
-description:
+description: Indicates the capabilities for Windows Display Driver Model v2.0.
 ms.assetid: 4a073daa-4233-4c38-bcef-86dc04d00352
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_WDDM_2_0_CAPS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	_D3DKMT_WDDM_2_0_CAPS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_WDDM_2_0_CAPS structure

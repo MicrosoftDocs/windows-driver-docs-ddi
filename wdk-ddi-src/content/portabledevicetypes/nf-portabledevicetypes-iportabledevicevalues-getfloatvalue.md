@@ -1,0 +1,146 @@
+---
+UID: NF:portabledevicetypes.IPortableDeviceValues.GetFloatValue
+title: IPortableDeviceValues::GetFloatValue
+author: windows-driver-content
+description: The GetFloatValue method retrieves a FLOAT value (type VT_R4) specified by a key.
+old-location: wpddk\iportabledevicevalues_getfloatvalue.htm
+tech.root: wpd_dk
+ms.assetid: f281c407-7d1c-48e8-ab5e-c18bf0c080e0
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetFloatValue, GetFloatValue method, GetFloatValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetFloatValue method, IPortableDeviceValues.GetFloatValue, IPortableDeviceValues::GetFloatValue, IPortableDeviceValuesGetFloatValue, portabledevicetypes/IPortableDeviceValues::GetFloatValue, wpddk.iportabledevicevalues_getfloatvalue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: portabledevicetypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceTypes.h
+api_name:
+-	IPortableDeviceValues.GetFloatValue
+product:
+-	Windows
+targetos: Windows
+req.typenames: 
+---
+
+# IPortableDeviceValues::GetFloatValue
+
+
+## -description
+
+
+
+The <b>GetFloatValue</b> method retrieves a <b>FLOAT</b> value (type VT_R4) specified by a key.
+
+
+
+
+## -parameters
+
+
+
+
+### -param key [in]
+
+A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
+
+
+### -param pValue [out]
+
+Pointer to the retrieved <b>FLOAT</b> value.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DISP_E_TYPEMISMATCH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property specified by <i>key</i> is not a <b>FLOAT</b> type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property specified by <i>key</i> is not in the collection.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+None.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/60e4ce74-5d8e-49d4-af16-84ea66557b60">IPortableDeviceValues::SetFloatValue</a>
+ 
+
+ 
+

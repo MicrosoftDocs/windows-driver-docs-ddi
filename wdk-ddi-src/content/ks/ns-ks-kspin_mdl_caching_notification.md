@@ -4,7 +4,7 @@ title: KSPIN_MDL_CACHING_NOTIFICATION
 author: windows-driver-content
 description: This structure is used internally by the operating system.
 old-location: stream\kspin_mdl_caching_notification.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 93BAAF88-3F82-4E32-B403-4028ECF21F9A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

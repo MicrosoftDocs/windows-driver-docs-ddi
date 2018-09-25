@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_DISCARD
 author: windows-driver-content
 description: Discards (evicts) an allocation from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\discard_d3d11_1_.htm
-old-project: display
 ms.assetid: d94234ab-712b-4449-96de-16b9e310d250
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: Discard(D3D11_1), Discard(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_DISCARD, PFND3D11_1DDI_DISCARD callback, d3d10umddi/Discard(D3D11_1), display.discard_d3d11_1_, display.pfndiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,7 @@ title: "_DXGKARG_DISPLAYDETECTCONTROL"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_DISPLAYDETECTCONTROL.
 old-location: display\dxgkarg_displaydetectcontrol.htm
-old-project: display
+
 ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_DISPLAYDETECTCONTROL
 ---
 

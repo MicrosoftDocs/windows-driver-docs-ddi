@@ -4,7 +4,7 @@ title: "_AV_PCR"
 author: windows-driver-content
 description: The AV_PCR structure specifies settings for an input or output plug.
 old-location: ieee\av_pcr.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: f6d3f95b-7484-4a6b-9b7e-69f6172b7a12
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

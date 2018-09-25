@@ -4,7 +4,7 @@ title: "_LPI_STATE_DESCRIPTOR"
 author: windows-driver-content
 description: Defines an LPI state descriptor.
 old-location: acpi\lpi_state_descriptor.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: B52012DB-922A-43A2-A175-7F7887C290F1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	LPI_STATE_DESCRIPTOR
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
 ---

@@ -2,9 +2,9 @@
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
 title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintasyncnotify_createprintasyncnotifyregistration.htm
-old-project: print
+tech.root: print
 ms.assetid: 845FA810-0286-4FA9-9BD4-A160989C581A
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

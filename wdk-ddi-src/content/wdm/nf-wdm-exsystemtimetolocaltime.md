@@ -4,7 +4,7 @@ title: ExSystemTimeToLocalTime function
 author: windows-driver-content
 description: The ExSystemTimeToLocalTime routine converts a GMT system time value to the local system time for the current time zone.
 old-location: kernel\exsystemtimetolocaltime.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d77ce60e-7b23-4f60-af63-d613ceba281e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

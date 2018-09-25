@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_REQUEST_TYPE enumeration type identifies types of requests that a framework request object might contain.
 old-location: wdf\wdf_request_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 91c036a0-7fce-4c7d-a217-eb1c487a15d0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_TYPE</b> enumeration type identifies types of requests that a framework request object might contain.
 

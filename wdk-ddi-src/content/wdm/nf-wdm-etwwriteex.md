@@ -4,7 +4,7 @@ title: EtwWriteEx function
 author: windows-driver-content
 description: The EtwWriteEx function is a tracing function for publishing events that support filtering in your kernel-mode driver code.
 old-location: devtest\etwwriteex.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: E2EF929A-61EB-412B-B8E8-D51FD6944B1D
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

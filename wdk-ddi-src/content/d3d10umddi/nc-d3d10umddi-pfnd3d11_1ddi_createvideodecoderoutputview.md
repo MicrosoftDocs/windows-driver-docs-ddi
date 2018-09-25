@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW
 author: windows-driver-content
 description: Creates a resource view for a video decoder. This view defines the output sample for the video decoding operation.
 old-location: display\createvideodecoderoutputview.htm
-old-project: display
 ms.assetid: a5a32b4e-799c-4d18-995d-f804e6dff85c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback, d3d10umddi/CreateVideoDecoderOutputView, display.createvideodecoderoutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

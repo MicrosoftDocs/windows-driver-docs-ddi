@@ -4,10 +4,9 @@ title: DXGKDDI_MONITORSOURCEMODESET_ADDMODE
 author: windows-driver-content
 description: The pfnAddMode function adds a monitor source mode to a specified monitor source mode set object.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnaddmode.htm
-old-project: display
 ms.assetid: 88fe5a2d-d140-4ebc-846d-acea39b8bc73
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ADDMODE, DXGKDDI_MONITORSOURCEMODESET_ADDMODE callback, VidPnFunctions_1b037d93-a615-41e1-bc22-bf9565050062.xml, d3dkmddi/pfnAddMode, display.dxgk_monitorsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

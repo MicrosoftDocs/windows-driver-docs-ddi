@@ -4,10 +4,10 @@ title: UDECX_WDF_DEVICE_CONFIG_INIT function
 author: windows-driver-content
 description: Initializes a UDECX_WDF_DEVICE_CONFIG structure.
 old-location: buses\udecx_wdf_device_config_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: EC26EDCA-1C9E-4D06-A970-71FB96FEB0DF
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses], buses.udecx_wdf_device_config_init, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

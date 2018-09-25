@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_ENABLER_ENABLE
 author: windows-driver-content
 description: A driver's EvtDmaEnablerEnable event callback function enables a device's DMA capability after the device enters its working (D0) state.
 old-location: wdf\evtdmaenablerenable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b6344a06-98ee-48c0-8fd5-76edfc71af2b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDmaEnablerEnable</i> event callback function enables a device's DMA capability after the device enters its working (D0) state. 
 

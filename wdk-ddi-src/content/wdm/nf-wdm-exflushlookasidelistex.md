@@ -4,7 +4,7 @@ title: ExFlushLookasideListEx function
 author: windows-driver-content
 description: The ExFlushLookasideListEx routine flushes all entries from the specified lookaside list and frees the allocated storage for each entry.
 old-location: kernel\exflushlookasidelistex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

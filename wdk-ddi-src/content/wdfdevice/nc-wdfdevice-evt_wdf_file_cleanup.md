@@ -4,7 +4,7 @@ title: EVT_WDF_FILE_CLEANUP
 author: windows-driver-content
 description: A driver's EvtFileCleanup callback function handles operations that must be performed when an application is closing all accesses to a device.
 old-location: wdf\evtfilecleanup.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8ce3d316-3976-4af5-a0ae-af4e93f380a1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtFileCleanup</i> callback function handles operations that must be performed when an application is closing all accesses to a device.
 

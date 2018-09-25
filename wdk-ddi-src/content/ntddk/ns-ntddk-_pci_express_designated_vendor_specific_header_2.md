@@ -22,16 +22,17 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2, PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
-topictype: 
+req.typenames: PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	HeaderDef
-apilocation: 
+api_location: 
 -	ntddk.h
 apiname: 
 -	_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

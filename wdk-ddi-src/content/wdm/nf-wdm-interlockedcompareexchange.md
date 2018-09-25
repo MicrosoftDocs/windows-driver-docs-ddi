@@ -2,9 +2,9 @@
 UID: NF:wdm.InterlockedCompareExchange
 title: InterlockedCompareExchange function
 author: windows-driver-content
-description: The InterlockedCompareExchange routine performs an atomic operation that compares the input value pointed to by Destination with the value of Comparand.
+description: The InterlockedCompareExchange routine performs an atomic operation that compares the input value pointed to by Destination with the value of Comperand.
 old-location: kernel\interlockedcompareexchange.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -55,7 +55,7 @@ req.typenames:
 ## -description
 
 
-The <b>InterlockedCompareExchange</b> routine performs an atomic operation that compares the input value pointed to by <i>Destination</i> with the value of <i>Comparand</i>. 
+The <b>InterlockedCompareExchange</b> routine performs an atomic operation that compares the input value pointed to by <i>Destination</i> with the value of <i>Comperand</i>. 
 
 
 ## -parameters
@@ -65,12 +65,12 @@ The <b>InterlockedCompareExchange</b> routine performs an atomic operation that 
 
 ### -param Destination [in, out]
 
-A pointer to the input value that is compared with the value of <i>Comparand</i>.
+A pointer to the input value that is compared with the value of <i>Comperand</i>.
 
 
 ### -param ExChange [in]
 
-Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
+Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comperand</i>. 
 
 
 ### -param Comperand [in]
@@ -94,9 +94,9 @@ Specifies the value that is compared with the input value pointed to by <i>Desti
 
 
 
-If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
+If <i>Comperand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
 
-<b>InterlockedCompareExchange</b> provides a fast, atomic way to synchronize the testing and updating of a variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>, the output value of <i>Destination</i> is set to the value of <i>Exchange</i>. 
+<b>InterlockedCompareExchange</b> provides a fast, atomic way to synchronize the testing and updating of a variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comperand</i>, the output value of <i>Destination</i> is set to the value of <i>Exchange</i>. 
 
 <b>InterlockedCompareExchange</b> is designed for speed and, typically, is implemented inline by a compiler. <b>InterlockedCompareExchange </b>is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls. It does not use a spin lock and can be safely used on pageable data. 
 

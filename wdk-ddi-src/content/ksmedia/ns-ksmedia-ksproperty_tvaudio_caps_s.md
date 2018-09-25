@@ -4,7 +4,7 @@ title: KSPROPERTY_TVAUDIO_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_TVAUDIO_CAPS_S structure describes the capability of a TV audio device, such as stereo versus mono audio support and language capabilities.
 old-location: stream\ksproperty_tvaudio_caps_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 991208ee-d245-41d1-a5e6-0e79368e37a8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

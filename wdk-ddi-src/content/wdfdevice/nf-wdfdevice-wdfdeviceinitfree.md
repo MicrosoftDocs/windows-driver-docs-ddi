@@ -4,7 +4,7 @@ title: WdfDeviceInitFree function
 author: windows-driver-content
 description: The WdfDeviceInitFree method deallocates a WDFDEVICE_INIT structure.
 old-location: wdf\wdfdeviceinitfree.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 61540bd2-8496-4972-854c-968b53c90788
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitFree</b> method deallocates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 

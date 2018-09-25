@@ -4,7 +4,7 @@ title: "_STOR_SCATTER_GATHER_ELEMENT"
 author: windows-driver-content
 description: The STOR_SCATTER_GATHER_ELEMENT structure is used with STOR_SCATTER_GATHER_LIST to build a list of scatter/gather elements.
 old-location: storage\stor_scatter_gather_element.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2e387418-a37c-492b-8ee4-b6ff8f0e53b0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

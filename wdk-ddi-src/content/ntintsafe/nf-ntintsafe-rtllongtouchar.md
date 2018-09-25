@@ -4,7 +4,7 @@ title: RtlLongToUChar function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type UCHAR.
 old-location: kernel\rtllongtouchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 22440E1D-8DF5-4391-90F4-6080AAAC65D1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeFormatRequestForReset function
 author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForReset method builds a reset request for a specified USB pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforreset.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 10f5296c-6be2-4f88-952b-b23e518b844a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeFormatRequestForReset</b> method builds a reset request for a specified USB pipe, but it does not send the request.
 

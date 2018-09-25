@@ -4,7 +4,7 @@ title: WdfDeviceGetDefaultQueue function
 author: windows-driver-content
 description: The WdfDeviceGetDefaultQueue method returns a handle to a device's default I/O queue.
 old-location: wdf\wdfdevicegetdefaultqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 914c4ef8-2210-468c-8720-11f8adf9dce7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceGetDefaultQueue</b> method returns a handle to a device's default I/O queue.
 

@@ -4,7 +4,7 @@ title: IQueueCallbackCreate::OnCreateFile
 author: windows-driver-content
 description: The OnCreateFile method is called to handle an open file request when an application opens a device through the Microsoft Win32 CreateFile function.
 old-location: wdf\iqueuecallbackcreate_oncreatefile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

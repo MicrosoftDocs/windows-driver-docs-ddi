@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni::WhyConstrained
 author: windows-driver-content
 description: The IPrintCoreHelperUni::WhyConstrained method provides a list of options that constrain the specified feature-option pair in the current configuration.
 old-location: print\iprintcorehelperuni_whyconstrained.htm
-old-project: print
+tech.root: print
 ms.assetid: 99cd35f3-ebae-4ef2-b6fa-96853b3639ee
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

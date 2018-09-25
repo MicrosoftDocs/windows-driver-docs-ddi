@@ -4,10 +4,10 @@ title: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
 author: windows-driver-content
 description: Describes whether simple instancing is supported.
 old-location: display\d3dddicaps_simple_instancing_support.htm
-old-project: display
+tech.root: display
 ms.assetid: CF75EBC8-D756-49B5-BC1F-1DBE8DC04137
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support
 ms.prod: windows-hardware
 ms.technology: windows-devices

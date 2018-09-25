@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer::SendFixedDocument
 author: windows-driver-content
 description: The SendFixedDocument method sends a fixed document object to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendfixeddocument.htm
-old-project: print
+tech.root: print
 ms.assetid: 917dd9c3-5552-43d0-b396-9ba236f53132
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

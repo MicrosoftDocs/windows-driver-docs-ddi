@@ -4,7 +4,7 @@ title: "_HW_STREAM_OBJECT"
 author: windows-driver-content
 description: HW_STREAM_OBJECT describes an instance of a minidriver stream.
 old-location: stream\hw_stream_object.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0cb2041a-844d-4ddb-9dab-e1c77c28835a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

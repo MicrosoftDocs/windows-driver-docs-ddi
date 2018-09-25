@@ -4,7 +4,7 @@ title: FltAllocateCallbackDataEx function
 author: windows-driver-content
 description: The FltAllocateCallbackDataEx routine allocates a callback data structure and can preallocate memory for additional structures that a minifilter driver can use to initiate an I/O request.
 old-location: ifsk\fltallocatecallbackdataex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f03851a4-e1e9-4fee-b264-c2f91c6e8180
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

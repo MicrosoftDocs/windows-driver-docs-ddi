@@ -4,7 +4,7 @@ title: IWDFDevice3::ReadFromHardware
 author: windows-driver-content
 description: The ReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_readfromhardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: RtlFreeHeap function
 author: windows-driver-content
 description: The RtlFreeHeap routine frees a memory block that was allocated from a heap by RtlAllocateHeap.
 old-location: ifsk\rtlfreeheap.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5e8b6bd7-71e7-45ad-985c-fe197693ce05
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -88,14 +88,9 @@ Mutual exclusion will not be used when <b>RtlFreeHeap</b> is accessing the heap.
 
 ### -param BaseAddress
 
-TBD
+<p>A pointer to the memory block to free. This pointer is returned by <a href="https://msdn.microsoft.com/library/Ff552108(v=VS.85).aspx"><b>RtlAllocateHeap</b></a>. </p>
 
 
-
-
-#### - HeapBase [in]
-
-A pointer to the memory block to free. This pointer is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>. 
 
 
 ## -returns

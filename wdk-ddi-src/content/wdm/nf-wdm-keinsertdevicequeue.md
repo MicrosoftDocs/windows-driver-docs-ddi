@@ -4,7 +4,7 @@ title: KeInsertDeviceQueue function
 author: windows-driver-content
 description: The KeInsertDeviceQueue routine acquires the spin lock for the specified device queue object and, if the device queue is set to a busy state, queues the specified entry.
 old-location: kernel\keinsertdevicequeue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d0e634e0-f0b4-49a7-9df5-7af0842154f4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

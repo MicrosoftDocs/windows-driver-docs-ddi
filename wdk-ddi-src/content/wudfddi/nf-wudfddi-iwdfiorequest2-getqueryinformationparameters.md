@@ -4,7 +4,7 @@ title: IWDFIoRequest2::GetQueryInformationParameters
 author: windows-driver-content
 description: The GetQueryInformationParameters method retrieves parameters that are associated with a WdfRequestQueryInformation-typed I/O request.
 old-location: wdf\iwdfiorequest2_getqueryinformationparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

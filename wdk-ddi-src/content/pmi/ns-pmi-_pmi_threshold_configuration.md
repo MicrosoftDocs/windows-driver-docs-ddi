@@ -4,10 +4,10 @@ title: "_PMI_THRESHOLD_CONFIGURATION"
 author: windows-driver-content
 description: The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
 old-location: powermeter\pmi_threshold_configuration.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, _PMI_THRESHOLD_CONFIGURATION, pmi/PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: WDF_DMA_ENABLER_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG_INIT function initializes a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b01efb50-a3b2-4ffd-83e6-daa0ebbc6484
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DMA_ENABLER_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure.
 

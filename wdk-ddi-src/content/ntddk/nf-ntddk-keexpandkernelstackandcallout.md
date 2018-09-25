@@ -4,7 +4,7 @@ title: KeExpandKernelStackAndCallout function
 author: windows-driver-content
 description: The KeExpandKernelStackAndCallout routine calls a routine with a guaranteed amount of stack space.
 old-location: kernel\keexpandkernelstackandcallout.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: afa27127-b427-4831-b5f5-3e293738c275
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

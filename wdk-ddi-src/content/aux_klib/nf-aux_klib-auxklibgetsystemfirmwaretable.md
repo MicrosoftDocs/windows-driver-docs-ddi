@@ -4,7 +4,7 @@ title: AuxKlibGetSystemFirmwareTable function
 author: windows-driver-content
 description: The AuxKlibGetSystemFirmwareTable routine retrieves the specified firmware table from the firmware table provider.
 old-location: kernel\auxklibgetsystemfirmwaretable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

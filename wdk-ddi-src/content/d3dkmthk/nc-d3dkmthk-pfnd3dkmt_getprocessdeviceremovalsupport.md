@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 title: PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 author: windows-driver-content
-description:
+description: Implemented by the client driver to get process device removal support.
 ms.assetid: a9c7b426-d67d-44d5-948d-017c0ee855cc
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT callback function

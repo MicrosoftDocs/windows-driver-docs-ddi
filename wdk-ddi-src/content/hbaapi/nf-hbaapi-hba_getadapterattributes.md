@@ -4,7 +4,7 @@ title: HBA_GetAdapterAttributes function
 author: windows-driver-content
 description: The HBA_GetAdapterAttributes routine retrieves the attributes for an HBA.
 old-location: storage\hba_getadapterattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a172f53c-9993-4d52-ae3f-35a8ab5745f6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,24 +60,14 @@ The <b>HBA_GetAdapterAttributes</b> routine retrieves the attributes for an HBA.
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located.  </p>
 
 
 ### -param HbaAttributes
 
-TBD
+<p>Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/Ff556044(v=VS.85).aspx"><b>HBA_AdapterAttributes</b></a> that holds the HBA attributes. </p>
 
 
-
-
-#### - HbaAdapterAttributes [out]
-
-Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a> that holds the HBA attributes. 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
 
 
 ## -returns

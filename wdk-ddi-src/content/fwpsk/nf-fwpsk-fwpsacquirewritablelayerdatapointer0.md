@@ -4,10 +4,10 @@ title: FwpsAcquireWritableLayerDataPointer0 function
 author: windows-driver-content
 description: The FwpsAcquireWritableLayerDataPointer0 function returns layer-specific data that can be inspected and changed.Note  FwpsAcquireWritableLayerDataPointer0 is a specific version of FwpsAcquireWritableLayerDataPointer.
 old-location: netvista\fwpsacquirewritablelayerdatapointer0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 79816d01-bf27-49d0-b6f1-083b7e87cc4e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsAcquireWritableLayerDataPointer0, FwpsAcquireWritableLayerDataPointer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireWritableLayerDataPointer0, netvista.fwpsacquirewritablelayerdatapointer0, wfp_ref_2_funct_3_fwps_A-B_adf2c5a7-ebcb-4c05-aa5a-3b794b60dc74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

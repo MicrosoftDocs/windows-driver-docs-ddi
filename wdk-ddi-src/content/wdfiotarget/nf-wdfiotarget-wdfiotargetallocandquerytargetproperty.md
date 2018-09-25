@@ -4,7 +4,7 @@ title: WdfIoTargetAllocAndQueryTargetProperty function
 author: windows-driver-content
 description: The WdfIoTargetAllocAndQueryTargetProperty method allocates a buffer and retrieves a specified device property for a specified I/O target.
 old-location: wdf\wdfiotargetallocandquerytargetproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9b66ba25-7723-4805-aa7c-7091a18d749b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoTargetAllocAndQueryTargetProperty</b> method allocates a buffer and retrieves a specified device property for a specified I/O target.
 

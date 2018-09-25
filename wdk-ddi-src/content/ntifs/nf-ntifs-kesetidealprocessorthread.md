@@ -4,7 +4,7 @@ title: KeSetIdealProcessorThread function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kesetidealprocessorthread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ac8cf336-c2b7-4949-8237-a2008b9d883f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>KeSetIdealProcessorThread</b> routine is reserved for system use.
 
 ### -param Thread
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param Processor

@@ -4,7 +4,7 @@ title: IOCTL_DISK_FIND_NEW_DEVICES
 author: windows-driver-content
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_FIND_NEW_DEVICES. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_disk_find_new_devices.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d8a603a3-fa3c-4524-89f8-eed43d0db316
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -13,7 +13,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
-req.include-header: TBD
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

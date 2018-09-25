@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 8ab2d7b7-8e07-45d8-9de1-e04de3c0f448
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::SetKey, SetKey, IDynamicKeyProviderConcept.SetKey, IDynamicKeyProviderConcept::SetKey, IDynamicKeyProviderConcept.SetKey
 req.header: dbgmodel.h
@@ -44,21 +44,28 @@ targetos: Windows
 
 ## -description
 
-TBD
+The SetKey method on a dynamic key provider is effectively an override of the SetKey method on IModelObject. This sets a key in the dynamic provider. It is effectively the creation of a new property on the provider. Note that a provider which does not support any notion of something like the creation of expando properties should return E_NOTIMPL here. 
 
 ## -parameters
 
 ### -param contextObject
+The instance object (this pointer) for which to set a key.
 
 ### -param key
+The name of the key to set.
 
 ### -param keyValue
+The value of the key to set.
 
 ### -param metadata
+Optional metadata to be associated with the (newly created) key.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IDynamicKeyProviderConcept interface](nn-dbgmodel-idynamickeyproviderconcept.md)

@@ -4,7 +4,7 @@ title: HBA_SendSRL function
 author: windows-driver-content
 description: The HBA_SendSRL routine issues a scan remote loop (SRL) request through the specified HBA to a specified domain controller.
 old-location: storage\hba_sendsrl.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 455ff9c9-89d5-4c79-8b01-f0d731ac8d5a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,22 +60,22 @@ The <b>HBA_SendSRL</b> routine issues a scan remote loop (SRL) request through t
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA through which the request is sent. </p>
 
 
 ### -param HbaPortWWN
 
-TBD
+<p>Contains a 64-bit worldwide name (WWN) that uniquely identifies the port through which the SRL request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param Wwn
 
-TBD
+<p>Contains a 64-bit WWN that uniquely identifies the FL_Port port that is associated with the loop that is scanned. The SRL request is sent to this port. If this member is <b>NULL</b>, it is ignored, and the SRL request is sent to the domain controller that is associated with the loop. The domain controller is identified by the value in <i>domain. </i></p>
 
 
 ### -param Domain
 
-TBD
+<p>Indicates the number of the domain controller associated with the loops to scan. If <i>wwn</i> is nonzero, this member is ignored.</p>
 
 
 ### -param pRspBuffer [out]
@@ -86,26 +86,6 @@ Pointer to a buffer that receives the output data of the SRL request.
 ### -param pRspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member contains the number of bytes of data retrieved in <i>pRspBuffer</i>. If the buffer is not large enough to receive all of the response data, the data is truncated to the size of the buffer. Eight bytes is sufficient buffer space for any response. 
-
-
-#### - domain [in]
-
-Indicates the number of the domain controller associated with the loops to scan. If <i>wwn</i> is nonzero, this member is ignored.
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
-
-
-#### - hbaPortWWN [in]
-
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the port through which the SRL request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
-#### - wwn [in]
-
-Contains a 64-bit WWN that uniquely identifies the FL_Port port that is associated with the loop that is scanned. The SRL request is sent to this port. If this member is <b>NULL</b>, it is ignored, and the SRL request is sent to the domain controller that is associated with the loop. The domain controller is identified by the value in <i>domain. </i>
 
 
 ## -returns

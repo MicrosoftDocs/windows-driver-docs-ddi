@@ -2,9 +2,9 @@
 UID: NS:msviddrv.tag_video_configure_parms
 title: tag_video_configure_parms
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\videoconfigparms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

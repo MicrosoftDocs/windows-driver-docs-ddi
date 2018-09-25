@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_QUERY_NODE_MAP
 title: PFND3D12DDI_QUERY_NODE_MAP
 author: windows-driver-content
-description: 
+description: Query node map.
 ms.assetid: e3b3025e-80a9-4dad-96fc-3298260a1742
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_QUERY_NODE_MAP
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_QUERY_NODE_MAP callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Query node map.
 
 ## -prototype
 
@@ -68,19 +70,27 @@ PFND3D12DDI_QUERY_NODE_MAP
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param NumPhysicalAdapters: 
-### -param *pMap: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param NumPhysicalAdapters
+
+The number of physical adapters.
+
+### -param *pMap
+
+Pointer to a map.
 
 
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

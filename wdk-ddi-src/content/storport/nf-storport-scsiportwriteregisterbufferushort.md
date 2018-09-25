@@ -4,7 +4,7 @@ title: ScsiPortWriteRegisterBufferUshort macro
 author: windows-driver-content
 description: The ScsiPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 663c0543-7059-4fb7-be3d-57edbba6bf83
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

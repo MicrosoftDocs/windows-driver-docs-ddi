@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_TESS_SHADER_0003
 title: PFND3D12DDI_CREATE_TESS_SHADER_0003
 author: windows-driver-content
-description: 
+description: Create a tessellation shader.
 ms.assetid: 9a80bdac-138c-4025-99d9-7afaee97b6da
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CREATE_TESS_SHADER_0003
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CREATE_TESS_SHADER_0003 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Create a tessellation shader.
 
 ## -prototype
 
@@ -71,22 +73,30 @@ PFND3D12DDI_CREATE_TESS_SHADER_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *pShaderCode: 
-### -param D3D12DDI_HROOTSIGNATURE: 
-### -param D3D12DDI_HSHADER: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param *pShaderCode
+
+Pointer to a shader code.
+
+### -param D3D12DDI_HROOTSIGNATURE
+
+A root signature handle.
+
+### -param D3D12DDI_HSHADER
+
+A shader handle.
+
+### -param * 
+
+Pointer to a D3D12DDIARG_TESSELLATION_IO_SIGNATURES structure.
+
 ### -param D3D12DDI_CREATE_SHADER_FLAGS: 
 
-
+Flags to create a shader.
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

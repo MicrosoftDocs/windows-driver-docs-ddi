@@ -4,7 +4,7 @@ title: IWDFDevice::GetDriver
 author: windows-driver-content
 description: The GetDriver method retrieves the interface to the parent driver object of a device instance.
 old-location: wdf\iwdfdevice_getdriver.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

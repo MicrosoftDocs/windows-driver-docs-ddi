@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_VIDEO_DECODER_0032
 author: windows-driver-content
 description: Creates a video decoder.
 old-location: display\d3d12ddiarg-create-video-decoder-0032.htm
-old-project: display
 ms.assetid: d4d42334-ae09-4900-828b-86da81b446c1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_0032
 ---
 

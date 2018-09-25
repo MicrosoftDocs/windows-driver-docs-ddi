@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GETMIPPACKING
 title: PFND3D12DDI_GETMIPPACKING
 author: windows-driver-content
-description: 
+description: Gets MIP packing info.
 ms.assetid: 9b95e67c-7a52-4ae2-814a-b0358b0cb755
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_GETMIPPACKING
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_GETMIPPACKING callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Gets MIP packing info.
 
 ## -prototype
 
@@ -69,20 +71,29 @@ PFND3D12DDI_GETMIPPACKING
 
 ## -parameters
 
-### -param hDevice: 
-### -param hTiledResource: 
-### -param *pNumPackedMips: 
-### -param *pNumTilesForPackedMips: 
+### -param hDevice
 
+A device handle.
 
+### -param hTiledResource
+
+A tiled resource handle.
+
+### -param *pNumPackedMips
+
+Pointer to the number of packed MIPs.
+
+### -param *pNumTilesForPackedMips
+
+Pointer to the number of tiles for packed MIPs.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

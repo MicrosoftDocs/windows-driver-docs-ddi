@@ -4,7 +4,7 @@ title: FsRtlDoesNameContainWildCards function
 author: windows-driver-content
 description: The FsRtlDoesNameContainWildCards routine determines whether a Unicode string contains wildcard characters.
 old-location: ifsk\fsrtldoesnamecontainwildcards.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

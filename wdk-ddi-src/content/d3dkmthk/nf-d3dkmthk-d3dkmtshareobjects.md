@@ -4,10 +4,9 @@ title: D3DKMTShareObjects function
 author: windows-driver-content
 description: Shares resource objects that were created with the D3DKMTCreateAllocation, D3DKMTCreateKeyedMutex2, and D3DKMTCreateSynchronizationObject2 functions.
 old-location: display\d3dkmtshareobjects.htm
-old-project: display
 ms.assetid: 853c4e73-b571-4b68-8690-bbef7a726c8e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

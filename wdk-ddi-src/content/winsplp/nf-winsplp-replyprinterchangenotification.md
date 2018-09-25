@@ -4,7 +4,7 @@ title: ReplyPrinterChangeNotification function
 author: windows-driver-content
 description: The print spooler's ReplyPrinterChangeNotification function allows a print provider to update the spooler's database of print queue events associated with a notification handle, and to notify the client that print queue events have occurred.
 old-location: print\replyprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -60,12 +60,12 @@ The print spooler's <code>ReplyPrinterChangeNotification</code> function allows 
 
 ### -param hPrinter
 
-TBD
+
 
 
 ### -param fdwChangeFlags
 
-TBD
+
 
 
 ### -param pdwResult [out, optional]

@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceGetDeviceDescriptor function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceGetDeviceDescriptor method retrieves the USB device descriptor for the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdevicegetdevicedescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b2c70976-00ce-4563-af60-0bbdd1a65540
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceGetDeviceDescriptor</b> method retrieves the USB device descriptor for the USB device that is associated with a specified framework USB device object.
 

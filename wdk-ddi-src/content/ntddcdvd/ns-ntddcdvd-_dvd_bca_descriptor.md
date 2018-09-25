@@ -4,7 +4,7 @@ title: "_DVD_BCA_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_BCA_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD burst cutting area (BCA) descriptor.
 old-location: storage\dvd_bca_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a573beb8-7019-4605-ab37-5871f67c585d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

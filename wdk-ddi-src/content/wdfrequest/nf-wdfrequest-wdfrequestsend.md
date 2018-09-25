@@ -4,7 +4,7 @@ title: WdfRequestSend function
 author: windows-driver-content
 description: The WdfRequestSend method sends a specified I/O request to a specified I/O target.
 old-location: wdf\wdfrequestsend.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a0f4d4a4-f636-44df-911f-e3a615144fa9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestSend</b> method sends a specified I/O request to a specified I/O target.
 
@@ -75,14 +75,9 @@ A handle to a framework I/O target object. For more information about how to obt
 
 ### -param Options
 
-TBD
+<p>A pointer to a <a href="https://msdn.microsoft.com/library/Ff552491(v=VS.85).aspx"><b>WDF_REQUEST_SEND_OPTIONS</b></a> structure that contains caller-supplied request options. This parameter is optional and can be <b>NULL</b> if you do not want to enable any request options.</p>
 
 
-
-
-#### - RequestOptions [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552491">WDF_REQUEST_SEND_OPTIONS</a> structure that contains caller-supplied request options. This parameter is optional and can be <b>NULL</b> if you do not want to enable any request options.
 
 
 ## -returns

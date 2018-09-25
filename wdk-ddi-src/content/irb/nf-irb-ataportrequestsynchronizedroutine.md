@@ -4,7 +4,7 @@ title: AtaPortRequestSynchronizedRoutine function
 author: windows-driver-content
 description: The AtaPortRequestSynchronizedRoutine routine is used by the miniport driver to request synchronization with the interrupt service routine (ISR).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequestsynchronizedroutine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fc4faca4-4d44-4b3e-bace-718fc8774f54
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,14 +65,9 @@ A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
-TBD
+<p>A pointer to the routine to call. </p>
 
 
-
-
-#### - SynchronizedRoutine [in]
-
-A pointer to the routine to call. 
 
 
 ## -returns

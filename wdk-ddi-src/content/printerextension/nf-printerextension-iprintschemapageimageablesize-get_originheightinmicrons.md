@@ -4,7 +4,7 @@ title: IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
 author: windows-driver-content
 description: Gets the vertical origin of the imageable area relative to the application media size.
 old-location: print\iprintschemapageimageablesize_originheightinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: 9D266AC2-4CA1-4E23-B058-F2841420D0AC
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

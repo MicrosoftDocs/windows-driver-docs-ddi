@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE
 author: windows-driver-content
 description: Enables or disables automatic processing features for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamautoprocessingmode.htm
-old-project: display
 ms.assetid: 85c504e3-46b4-434a-8ab9-5c866eafe05a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE callback, d3d10umddi/pfnVideoProcessorSetStreamAutoProcessingMode, display.videoprocessorsetstreamautoprocessingmode, pfnVideoProcessorSetStreamAutoProcessingMode, pfnVideoProcessorSetStreamAutoProcessingMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

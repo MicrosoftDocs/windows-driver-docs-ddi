@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5372dfd6-015f-41d8-ba2a-ee6f283ebab7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetFunctionReturnType, GetFunctionReturnType, IDebugHostType2.GetFunctionReturnType, IDebugHostType2::GetFunctionReturnType, IDebugHostType2.GetFunctionReturnType
 req.header: dbgmodel.h
@@ -44,15 +44,31 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetFunctionReturnType method returns the return type of the function. 
 
 ## -parameters
 
 ### -param returnType
+A type symbol indicating the return type of the function is returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostType> spType; /* get a type for a function (see FindTypeByName) */
+
+ComPtr<IDebugHostType> spReturnType;
+if (SUCCEEDED(spType->GetFunctionReturnType(&spReturnType)))
+{
+    // spReturnType is the type symbol for the return type of the function.
+}
+```
+
+
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)

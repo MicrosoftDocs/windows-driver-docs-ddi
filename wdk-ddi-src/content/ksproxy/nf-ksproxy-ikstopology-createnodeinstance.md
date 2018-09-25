@@ -4,7 +4,7 @@ title: IKsTopology::CreateNodeInstance
 author: windows-driver-content
 description: The CreateNodeInstance method requests a KS filter object to open a topology node object.
 old-location: stream\ikstopology_createnodeinstance.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 author: windows-driver-content
-description:
+description: Used to register the power state of a new input.
 ms.assetid: e312c3ba-7a23-41e4-bebb-b19daa7a43ae
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure
@@ -84,7 +86,7 @@ Graphics drivers indicate what power components exist by responding to the queri
 
 If a graphics driver registers at least one [DXGK_POWER_COMPONENT_SHARED](../d3dkmddi/ne-d3dkmddi-_dxgk_power_component_type.md) component, a GRAPHICSPOWER interface will be created for that adapter. The interface will not be registered for adapters that do not expose any of these components.
 
-Graphics drivers can register a “blocking” component by setting the [DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md) flag *ActiveInD3* to **0**, or a “nonblocking” component by setting this flag to **1**.
+Graphics drivers can register a “blocking” component by setting the [DXGK_POWER_RUNTIME_COMPONENT](../d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_component.md) flag *ActiveInD3* to **0**, or a “nonblocking” component by setting this flag to **1**.
 
 A blocking power component will prevent the graphics device from powering down when in use while a non-blocking power component will not. Both allow the graphics driver to properly manage its power planes when in-use by the non-graphics driver.
 

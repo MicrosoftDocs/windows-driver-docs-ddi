@@ -4,7 +4,7 @@ title: "_IDE_ACCESS_RANGE"
 author: windows-driver-content
 description: The IDE_ACCESS_RANGE structure contains the address ranges allocated for an IDE controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_access_range.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e81441a2-0659-4d32-97f4-415abef6c87a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: WdfRequestSetActivityId function
 author: windows-driver-content
 description: The WdfRequestSetActivityId method associates an activity identifier with an I/O request.
 old-location: wdf\wdfrequestsetactivityid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 05FE0F91-781F-4B8B-87D1-E06BC315856C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: WUDFx02000.lib
-req.dll: WUDFx02000.dll; TBD
+req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfRequestSetActivityId</b> method associates an activity identifier with an I/O request.
 

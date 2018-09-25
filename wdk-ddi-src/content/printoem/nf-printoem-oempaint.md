@@ -4,7 +4,7 @@ title: OEMPaint function
 author: windows-driver-content
 description: The OEMPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. See DrvPaint.
 old-location: print\oempaint.htm
-old-project: print
+tech.root: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

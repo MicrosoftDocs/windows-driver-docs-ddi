@@ -4,7 +4,7 @@ title: "_GLYPHRUN"
 author: windows-driver-content
 description: The GLYPHRUN structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\glyphrun.htm
-old-project: print
+tech.root: print
 ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

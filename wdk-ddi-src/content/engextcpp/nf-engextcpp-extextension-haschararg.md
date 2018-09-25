@@ -4,10 +4,10 @@ title: ExtExtension::HasCharArg
 author: windows-driver-content
 description: The HasCharArg method indicates whether a specified single-character named argument is present in the command line used to invoke the current extension command.
 old-location: debugger\haschararg.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 24d9a231-2c04-43da-aa20-9e10f7633532
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_1ef6d849-e279-4705-b0fe-8147fbd7daf8.xml, ExtExtension class [Windows Debugging],HasCharArg method, ExtExtension.HasCharArg, ExtExtension::HasCharArg, HasCharArg, HasCharArg method [Windows Debugging], HasCharArg method [Windows Debugging],ExtExtension class, debugger.haschararg
 ms.prod: windows-hardware
 ms.technology: windows-devices

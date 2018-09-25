@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_FRAMEBUFFERSAVEAREA
 title: _DXGK_FRAMEBUFFERSAVEAREA
 author: windows-driver-content
-description:
+description: The size required by the driver to save the frame buffer reserve area during power transitions.
 ms.assetid: b8036275-799b-424f-889e-a3a25700c69f
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_FRAMEBUFFERSAVEAREA
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGK_FRAMEBUFFERSAVEAREA
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_FRAMEBUFFERSAVEAREA structure

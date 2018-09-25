@@ -4,7 +4,7 @@ title: IPrintPipelineFilter
 author: windows-driver-content
 description: The methods in the IPrintPipelineFilter interface are called for initialization and shutdown. A filter must implement these methods.
 old-location: print\iprintpipelinefilter.htm
-old-project: print
+tech.root: print
 ms.assetid: e8841091-1d62-4770-aa85-993b49efbd48
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

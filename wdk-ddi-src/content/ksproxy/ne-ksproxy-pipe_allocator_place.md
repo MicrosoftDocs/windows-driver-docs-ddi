@@ -2,9 +2,9 @@
 UID: NE:ksproxy.PIPE_ALLOCATOR_PLACE
 title: PIPE_ALLOCATOR_PLACE
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\pipe_allocator_place.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 86B1D8BB-7213-403C-8EAB-D681A5DBF49E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

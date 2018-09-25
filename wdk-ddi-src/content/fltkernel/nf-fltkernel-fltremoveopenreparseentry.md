@@ -4,7 +4,7 @@ title: FltRemoveOpenReparseEntry function
 author: windows-driver-content
 description: This routine removes an OPEN_REPARSE_LIST_ENTRY structure (added by FltAddOpenReparseEntry) from a create operation.
 old-location: ifsk\fltremoveopenreparseentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

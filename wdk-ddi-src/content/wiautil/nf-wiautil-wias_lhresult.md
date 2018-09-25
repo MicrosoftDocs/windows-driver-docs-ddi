@@ -4,10 +4,10 @@ title: WIAS_LHRESULT macro
 author: windows-driver-content
 description: The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the WIAS_HRESULT macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 old-location: image\wias_lhresult.htm
-old-project: image
+tech.root: image
 ms.assetid: dcc02735-632f-4b86-ac4f-833c8dcba1c5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, WIAS_LHRESULT, WIAS_LHRESULT macro [Imaging Devices], image.wias_lhresult, wiamdef/WIAS_LHRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommend
 
 ### -param x
 
-TBD
+
 
 
 ### -param y
 
-TBD
+
 
 
 

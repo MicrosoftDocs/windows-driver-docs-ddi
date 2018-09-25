@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_GET_OUT
 title: _DXGK_BRIGHTNESS_GET_OUT
 author: windows-driver-content
-description:
+description: Contains the output parameters for the DxgkBrightnessGet3 callback function.
 ms.assetid: fa213718-aa84-4751-b3a9-767441024a94
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_GET_OUT, *PDXGK_BRIGHTNESS_GET_OUT
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	_DXGK_BRIGHTNESS_GET_OUT
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_BRIGHTNESS_GET_OUT structure

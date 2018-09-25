@@ -4,7 +4,7 @@ title: WdfRequestGetParameters function
 author: windows-driver-content
 description: The WdfRequestGetParameters method retrieves the parameters that are associated with a specified framework request object.
 old-location: wdf\wdfrequestgetparameters.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestGetParameters</b> method retrieves the parameters that are associated with a specified framework request object.
 

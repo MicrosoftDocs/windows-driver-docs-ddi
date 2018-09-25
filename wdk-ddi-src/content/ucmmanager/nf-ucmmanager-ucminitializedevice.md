@@ -4,10 +4,10 @@ title: UcmInitializeDevice function
 author: windows-driver-content
 description: Initializes the USB connector manager framework extension (UcmCx).
 old-location: buses\ucminitializedevice.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

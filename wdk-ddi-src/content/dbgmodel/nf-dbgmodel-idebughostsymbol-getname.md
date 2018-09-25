@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: a7f1c557-1c01-491a-afc9-3046e8db4cc0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol::GetName, GetName, IDebugHostSymbol.GetName, IDebugHostSymbol::GetName, IDebugHostSymbol.GetName
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the name of the symbol if the symbol has a name.  If the symbol does not have a name, an error is returned.
 
 ## -parameters
 
@@ -52,7 +52,11 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
 ## -see-also
+
+[IDebugHostSymbol interface](nn-dbgmodel-idebughostsymbol.md)

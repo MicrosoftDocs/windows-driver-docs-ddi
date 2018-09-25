@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 8038e101-f14b-4762-8deb-6acdc0fe28cc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetGenericArgumentAt, GetGenericArgumentAt, IDebugHostType2.GetGenericArgumentAt, IDebugHostType2::GetGenericArgumentAt, IDebugHostType2.GetGenericArgumentAt
 req.header: dbgmodel.h
@@ -43,18 +43,23 @@ targetos: Windows
 
 
 ## -description
+For the "i"-th generic argument to the generic/template, this returns a new IDebugHostSymbol  which represents that argument.  For templates, this is most often an IDebugHostType; however --  it may be an IDebugHostConstant for non-template type arguments.  
 
-TBD
+Note that it is possible for some compiler generated generics and templates that this method  will fail.
 
 ## -parameters
 
 ### -param i
+The zero based index of the generic argument to returned.
 
 ### -param argument
+The i’th generic argument of the type will be returned here
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)

@@ -4,7 +4,7 @@ title: WdfIoTargetFormatRequestForInternalIoctlOthers function
 author: windows-driver-content
 description: The WdfIoTargetFormatRequestForInternalIoctlOthers method builds a non-standard internal device control request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforinternalioctlothers.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e843eb33-f688-4963-9f35-244b4ed0ef7a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoTargetFormatRequestForInternalIoctlOthers</b> method builds a non-standard internal device control request for an I/O target but does not send the request.
 

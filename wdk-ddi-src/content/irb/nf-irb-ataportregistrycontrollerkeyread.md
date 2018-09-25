@@ -4,7 +4,7 @@ title: AtaPortRegistryControllerKeyRead function
 author: windows-driver-content
 description: The AtaPortRegistryControllerKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN, where N is the number of the controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrycontrollerkeyread.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -123,14 +123,9 @@ A pointer to the buffer where the results are to be copied.
 
 ### -param BufferLength
 
-TBD
+<p>A pointer to the number of bytes of data to copy. If the operation fails because of an insufficient buffer, the location that is pointed to by <i>Length</i> will update to the actual length of the data in the registry.</p>
 
 
-
-
-#### - Length [in, out]
-
-A pointer to the number of bytes of data to copy. If the operation fails because of an insufficient buffer, the location that is pointed to by <i>Length</i> will update to the actual length of the data in the registry.
 
 
 ## -returns

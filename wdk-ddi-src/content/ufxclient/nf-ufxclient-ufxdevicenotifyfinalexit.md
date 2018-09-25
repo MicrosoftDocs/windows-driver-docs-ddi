@@ -34,7 +34,8 @@ apilocation:
 -   ufxstub.lib
 apiname: 
 -	UfxDeviceNotifyFinalExit
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

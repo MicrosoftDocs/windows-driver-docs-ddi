@@ -4,7 +4,7 @@ title: "_FLT_FILE_NAME_INFORMATION"
 author: windows-driver-content
 description: The FLT_FILE_NAME_INFORMATION structure contains file name information.
 old-location: ifsk\flt_file_name_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 998a028a-7dd8-429a-8195-68d4b4b1b156
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

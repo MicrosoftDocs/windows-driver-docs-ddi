@@ -4,7 +4,7 @@ title: FsRtlAreThereCurrentOrInProgressFileLocks function
 author: windows-driver-content
 description: TheFsRtlAreThereCurrentOrInProgressFileLocks routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
 old-location: ifsk\fsrtlaretherecurrentorinprogressfilelocks.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlAreThereCurrentOrInProgressFileLocks
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---

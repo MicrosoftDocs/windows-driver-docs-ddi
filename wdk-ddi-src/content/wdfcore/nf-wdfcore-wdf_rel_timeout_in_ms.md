@@ -4,7 +4,7 @@ title: WDF_REL_TIMEOUT_IN_MS function
 author: windows-driver-content
 description: The WDF_REL_TIMEOUT_IN_MS function converts a specified number of milliseconds to a relative time value.
 old-location: wdf\wdf_rel_timeout_in_ms.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f68b9575-04e4-4046-aec4-b664d8a643d4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REL_TIMEOUT_IN_MS</b> function converts a specified number of milliseconds to a relative time value.
 

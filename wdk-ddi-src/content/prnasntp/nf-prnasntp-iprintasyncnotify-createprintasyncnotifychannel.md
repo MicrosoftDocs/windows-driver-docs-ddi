@@ -2,9 +2,9 @@
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
 title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintasyncnotify_createprintasyncnotifychannel.htm
-old-project: print
+tech.root: print
 ms.assetid: B86297A4-1234-46B1-A10B-BD9A6E5012F2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

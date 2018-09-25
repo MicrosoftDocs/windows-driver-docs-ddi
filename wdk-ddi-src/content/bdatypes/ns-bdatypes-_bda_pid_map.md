@@ -4,7 +4,7 @@ title: "_BDA_PID_MAP"
 author: windows-driver-content
 description: The BDA_PID_MAP structure describes a type of data to filter out of the input stream of a packet identifier (PID) filter and then pass to a downstream filter.
 old-location: stream\bda_pid_map.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a5ad0f35-8413-4828-92f8-47544a6e802e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

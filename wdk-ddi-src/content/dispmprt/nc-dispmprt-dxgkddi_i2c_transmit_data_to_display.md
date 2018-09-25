@@ -4,10 +4,10 @@ title: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY
 author: windows-driver-content
 description: The DxgkDdiI2CTransmitDataToDisplay function transmits data to an I2C device in a monitor.
 old-location: display\dxgkddii2ctransmitdatatodisplay.htm
-old-project: display
+tech.root: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

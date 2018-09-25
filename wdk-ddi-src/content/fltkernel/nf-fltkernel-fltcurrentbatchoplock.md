@@ -4,7 +4,7 @@ title: FltCurrentBatchOplock function
 author: windows-driver-content
 description: A minifilter driver calls FltCurrentBatchOplock to determine whether there are any batch or filter opportunistic locks (oplocks) on a file.
 old-location: ifsk\fltcurrentbatchoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 00eb27ee-2c6d-47c7-b3a6-63a6a7aac2fb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

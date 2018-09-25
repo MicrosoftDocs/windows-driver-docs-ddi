@@ -4,7 +4,7 @@ title: KSCAMERA_PERFRAMESETTING_ITEM_TYPE
 author: windows-driver-content
 description: This enumeration contains the different item types for the per-frame settings DDI.
 old-location: stream\kscamera_perframesetting_item_type.htm
-old-project: stream
+tech.root: stream
 ms.assetid: B4312084-E545-45FD-BA93-3BE551CE52DF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

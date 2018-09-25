@@ -4,7 +4,7 @@ title: "_PEP_PLATFORM_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -65,7 +65,7 @@ A <b>POHANDLE</b> value that identifies the processor that initiates the transit
 
 ### -field InitiatingState
 
-The index of the processor idle state that the processor enters to initiate the platform's entry to the specified platform idle state. If the <b>IdleStates</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186824">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure contains N elements, the idle states are numbered 0 to Nâ€“1 in the order in which they appear in the array.
+The index of the processor idle state that the processor enters to initiate the platform's entry to the specified platform idle state. If the <b>IdleStates</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186824">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure contains N elements, the idle states are numbered 0 to N-1 in the order in which they appear in the array.
 
 
 ### -field Latency

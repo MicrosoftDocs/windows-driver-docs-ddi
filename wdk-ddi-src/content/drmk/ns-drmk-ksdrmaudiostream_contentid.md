@@ -4,10 +4,10 @@ title: KSDRMAUDIOSTREAM_CONTENTID
 author: windows-driver-content
 description: The KSDRMAUDIOSTREAM_CONTENTID structure specifies the DRM content ID and DRM content rights for a KSPROPERTY_DRMAUDIOSTREAM_CONTENTIDset-property request.
 old-location: audio\ksdrmaudiostream_contentid.htm
-old-project: audio
+tech.root: audio
 ms.assetid: d11be514-2a45-407e-884a-66f6f503f57a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*PKSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, audio.ksdrmaudiostream_contentid, drmk/KSDRMAUDIOSTREAM_CONTENTID, drmk/PKSDRMAUDIOSTREAM_CONTENTID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

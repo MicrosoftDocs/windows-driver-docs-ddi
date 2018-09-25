@@ -4,7 +4,7 @@ title: WdfIoQueueDrainSynchronously function
 author: windows-driver-content
 description: The WdfIoQueueDrainSynchronously method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed. The method returns after all requests are completed or canceled.
 old-location: wdf\wdfioqueuedrainsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e8e53a6d-8b8b-49ed-947b-d0bb69a4d050
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueDrainSynchronously</b> method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed. The method returns after all requests are completed or canceled.
 

@@ -4,7 +4,7 @@ title: StorPortWritePortBufferUshort macro
 author: windows-driver-content
 description: The StorPortWritePortBufferUshort routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -61,46 +61,26 @@ The <b>StorPortWritePortBufferUshort</b> routine writes a value to a specified r
 
 ### -param h
 
-TBD
+<p>Pointer to the hardware device extension.</p>
 
 
 ### -param p
 
-TBD
+<p>Contains the address of the port to be written to. </p>
 
 
 ### -param b
 
-TBD
+<p>Pointer to the buffer containing the data to be written. </p>
 
 
 ### -param c
 
-TBD
+<p>Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. </p>
 
 
 
 
-
-
-#### - Buffer [in]
-
-Pointer to the buffer containing the data to be written. 
-
-
-#### - Count [in]
-
-Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
 
 
 ## -remarks

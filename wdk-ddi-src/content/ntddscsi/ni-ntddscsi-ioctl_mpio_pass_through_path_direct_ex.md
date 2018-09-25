@@ -4,7 +4,7 @@ title: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX
 author: windows-driver-content
 description: The IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code request is the extended version of the IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
 old-location: storage\ioctl_mpio_pass_through_path_direct_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2B5AF281-C080-4ED9-9C58-5757CDE0117A
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: NdisAcquireRWLockRead function
 author: windows-driver-content
 description: The NdisAcquireRWLockRead function obtains a read lock that the caller uses for read access to resources that are shared among driver threads.
 old-location: netvista\ndisacquirerwlockread.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a9c16537-e344-43d4-bae7-fb11487caa0e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisAcquireRWLockRead, NdisAcquireRWLockRead function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockRead, ndis_processor_group_ref_0ac3bf44-b94f-4818-af69-79eec8045cc9.xml, netvista.ndisacquirerwlockread
 ms.prod: windows-hardware
 ms.technology: windows-devices

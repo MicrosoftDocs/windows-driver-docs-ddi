@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_OPENSWAPCHAIN
 title: _D3DKMT_OPENSWAPCHAIN
 author: windows-driver-content
-description:
+description: Used to open a swap chain.
 ms.assetid: e4a4db5b-a3ab-45f2-bd3b-0bf808e2d6f8
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_OPENSWAPCHAIN
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_OPENSWAPCHAIN
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_OPENSWAPCHAIN structure

@@ -4,7 +4,7 @@ title: PFLT_INSTANCE_SETUP_CALLBACK
 author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK as the minifilter driver's InstanceSetupCallback routine.
 old-location: ifsk\pflt_instance_setup_callback.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bbdd393d-3f0f-4bbd-8a74-ed75d20b0433
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

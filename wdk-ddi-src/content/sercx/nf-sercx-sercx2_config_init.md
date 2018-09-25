@@ -4,7 +4,7 @@ title: SERCX2_CONFIG_INIT function
 author: windows-driver-content
 description: The SERCX2_CONFIG_INIT function initializes a SERCX2_CONFIG structure.
 old-location: serports\sercx2_config_init.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

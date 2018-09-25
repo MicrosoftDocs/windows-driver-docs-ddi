@@ -4,7 +4,7 @@ title: AtaPortAllocateQueueTag function
 author: windows-driver-content
 description: The AtaPortAllocateQueueTag routine returns a queue tag for the specified device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportallocatequeuetag.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e298f51b-58b7-4f04-85d3-3ee809deb489
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,7 +60,7 @@ The <b>AtaPortAllocateQueueTag</b> routine returns a queue tag for the specified
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]
@@ -71,11 +71,6 @@ Specifies the target identifier of the device.
 ### -param Lun [in]
 
 Specifies the logical unit number (LUN) of the device.
-
-
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
 
 
 ## -returns

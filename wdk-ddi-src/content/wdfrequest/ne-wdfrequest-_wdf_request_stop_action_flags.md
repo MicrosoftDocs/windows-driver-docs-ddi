@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration type defines flags that the framework passes to a driver's EvtIoStop callback function.
 old-location: wdf\wdf_request_stop_action_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 01f95aee-60aa-4d6f-88a9-c0fa6ea6a09a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_STOP_ACTION_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_STOP_ACTION_FLAGS</b> enumeration type defines flags that the framework passes to a driver's <a href="https://msdn.microsoft.com/71a789f1-4f10-44c3-8bd0-a0ea74ec28ab">EvtIoStop</a> callback function.
 

@@ -4,10 +4,10 @@ title: FwpsStreamInjectAsync0 function
 author: windows-driver-content
 description: The FwpsStreamInjectAsync0 function injects TCP data segments into a TCP data stream.Note  FwpsStreamInjectAsync0 is a specific version of FwpsStreamInjectAsync.
 old-location: netvista\fwpsstreaminjectasync0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -335,7 +335,7 @@ Injected stream data will not be reindicated to the callout, but it will be made
 
 If the return value is not STATUS_SUCCESS, the completion function will not be called. In this case,
     the network buffer list pointed to by 
-    <i>metBufferList</i> must be freed by a call to 
+    <i>netBufferList</i> must be freed by a call to 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551172">FwpsFreeNetBufferList0</a> or 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551170">FwpsFreeCloneNetBufferList0</a>.
 

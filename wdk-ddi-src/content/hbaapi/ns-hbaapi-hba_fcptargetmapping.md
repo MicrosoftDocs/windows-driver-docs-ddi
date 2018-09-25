@@ -4,7 +4,7 @@ title: HBA_FCPTargetMapping
 author: windows-driver-content
 description: The HBA_FCPTargetMapping structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of target devices.
 old-location: storage\hba_fcptargetmapping.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 666f4aea-2fcb-46cf-8d25-d1322c0517c9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

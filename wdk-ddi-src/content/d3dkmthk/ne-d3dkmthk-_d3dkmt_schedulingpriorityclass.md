@@ -4,10 +4,9 @@ title: "_D3DKMT_SCHEDULINGPRIORITYCLASS"
 author: windows-driver-content
 description: The D3DKMT_SCHEDULINGPRIORITYCLASS enumeration type contains values that describe the scheduling priority for a process.
 old-location: display\d3dkmt_schedulingpriorityclass.htm
-old-project: display
 ms.assetid: d42e37d0-0ba9-4b79-903d-fdbb478ab196
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_SCHEDULINGPRIORITYCLASS, D3DKMT_SCHEDULINGPRIORITYCLASS enumeration [Display Devices], D3DKMT_SCHEDULINGPRIORITYCLASS_ABOVE_NORMAL, D3DKMT_SCHEDULINGPRIORITYCLASS_BELOW_NORMAL, D3DKMT_SCHEDULINGPRIORITYCLASS_HIGH, D3DKMT_SCHEDULINGPRIORITYCLASS_IDLE, D3DKMT_SCHEDULINGPRIORITYCLASS_NORMAL, D3DKMT_SCHEDULINGPRIORITYCLASS_REALTIME, OpenGL_Structs_4e331f58-8ed5-4aff-ac73-5af374f0d556.xml, _D3DKMT_SCHEDULINGPRIORITYCLASS, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_ABOVE_NORMAL, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_BELOW_NORMAL, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_HIGH, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_IDLE, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_NORMAL, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_REALTIME, display.d3dkmt_schedulingpriorityclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SCHEDULINGPRIORITYCLASS
 ---
 

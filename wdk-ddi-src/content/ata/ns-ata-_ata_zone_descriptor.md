@@ -4,7 +4,7 @@ title: "_ATA_ZONE_DESCRIPTOR"
 author: windows-driver-content
 description: This structure is for internal use only and should not be called from your code.
 old-location: storage\ata_zone_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

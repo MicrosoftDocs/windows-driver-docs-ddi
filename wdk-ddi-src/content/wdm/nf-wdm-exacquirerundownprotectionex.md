@@ -4,7 +4,7 @@ title: ExAcquireRundownProtectionEx function
 author: windows-driver-content
 description: The ExAcquireRundownProtectionEx routine tries to acquire run-down protection on a shared object so the caller can safely access the object.
 old-location: kernel\exacquirerundownprotectionex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AB5939B9-01DD-4F51-BAEB-6C5EC909FAE1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

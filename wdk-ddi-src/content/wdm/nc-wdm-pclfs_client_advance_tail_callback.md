@@ -4,7 +4,7 @@ title: PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK
 author: windows-driver-content
 description: The ClfsAdvanceTailCallback function advances the base log sequence number (LSN) of the client's log.
 old-location: kernel\clfsadvancetailcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e5c3ac56-9e9f-40b8-b8a8-2eb4d41bca52
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

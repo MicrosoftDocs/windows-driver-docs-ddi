@@ -4,7 +4,7 @@ title: IWDTFLOG2
 author: windows-driver-content
 description: Defines operations that enable the test case author to add to the WDTF test log.
 old-location: dtf\iwdtflog2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: e09d0c3d-28a0-4c8d-ac70-9575968cbea1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -34,7 +34,8 @@ api_location:
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
 -	FN_VMB_CHANNEL_ALLOCATE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

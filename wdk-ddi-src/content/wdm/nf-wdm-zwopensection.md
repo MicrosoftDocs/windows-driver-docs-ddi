@@ -4,7 +4,7 @@ title: ZwOpenSection function
 author: windows-driver-content
 description: The ZwOpenSection routine opens a handle for an existing section object.
 old-location: kernel\zwopensection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c4373f7b-cc88-45da-a140-ead1c6891c11
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

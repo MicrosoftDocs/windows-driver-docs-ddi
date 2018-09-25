@@ -4,7 +4,7 @@ title: WdfDeviceInitRegisterPowerStateChangeCallback function
 author: windows-driver-content
 description: The WdfDeviceInitRegisterPowerStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's power state machine changes state.
 old-location: wdf\wdfdeviceinitregisterpowerstatechangecallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f3c09dfb-d327-488b-8e5d-77a579d1e1f0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitRegisterPowerStateChangeCallback</b> method registers a driver-supplied event callback function that the framework calls when a device's power state machine changes state.
 

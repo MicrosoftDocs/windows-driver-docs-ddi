@@ -4,7 +4,7 @@ title: RxSetSrvCallDomainName function
 author: windows-driver-content
 description: RxSetSrvCallDomainName is called by a network mini-redirector driver to set the domain name associated with any given server (SRV_CALL structure).
 old-location: ifsk\rxsetsrvcalldomainname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 876b3932-780f-4d00-8afc-40960f8fcaaf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

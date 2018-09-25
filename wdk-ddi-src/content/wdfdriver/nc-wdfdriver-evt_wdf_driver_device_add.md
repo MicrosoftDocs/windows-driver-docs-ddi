@@ -4,7 +4,7 @@ title: EVT_WDF_DRIVER_DEVICE_ADD
 author: windows-driver-content
 description: A driver's EvtDriverDeviceAdd event callback function performs device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: wdf\evtdriverdeviceadd.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDriverDeviceAdd</i> event callback function performs device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 

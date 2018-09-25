@@ -4,7 +4,7 @@ title: WDF_READ_PORT_USHORT function
 author: windows-driver-content
 description: The WDF_READ_PORT_USHORT function reads a USHORT value from the specified port address.
 old-location: wdf\wdf_read_port_ushort.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F9688E1F-D8A3-432E-8724-2D601946E707
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_PORT_USHORT</b>  function reads a USHORT value from the specified port address.
 

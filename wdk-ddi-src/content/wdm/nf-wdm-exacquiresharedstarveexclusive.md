@@ -4,7 +4,7 @@ title: ExAcquireSharedStarveExclusive function
 author: windows-driver-content
 description: The ExAcquireSharedStarveExclusive routine acquires a given resource for shared access without waiting for any pending attempts to acquire exclusive access to the same resource.
 old-location: kernel\exacquiresharedstarveexclusive.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b148e684-18bd-4ab3-b772-6bc103b9f436
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

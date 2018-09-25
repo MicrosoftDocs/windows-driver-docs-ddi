@@ -4,7 +4,7 @@ title: ZwQueryInformationToken function
 author: windows-driver-content
 description: The ZwQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: kernel\zwqueryinformationtoken.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 554b541b-943a-413e-9803-7dba17d0c6ce
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

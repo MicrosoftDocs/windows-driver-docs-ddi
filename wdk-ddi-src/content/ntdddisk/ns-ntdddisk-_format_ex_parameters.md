@@ -4,7 +4,7 @@ title: "_FORMAT_EX_PARAMETERS"
 author: windows-driver-content
 description: The FORMAT_EX_PARAMETERS structure is used in conjunction with the IOCTL_DISK_FORMAT_TRACKS_EX request to format the specified set of contiguous tracks on the disk.
 old-location: storage\format_ex_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

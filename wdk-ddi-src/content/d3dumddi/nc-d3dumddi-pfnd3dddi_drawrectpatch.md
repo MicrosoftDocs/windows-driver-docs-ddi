@@ -4,10 +4,10 @@ title: PFND3DDDI_DRAWRECTPATCH
 author: windows-driver-content
 description: The DrawRectPatch function draws a new or cached rectangular patch or updates the specification of a previously defined patch.
 old-location: display\drawrectpatch.htm
-old-project: display
+tech.root: display
 ms.assetid: c0e3046c-f2af-4406-ac5a-c3e44f40b1fd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DrawRectPatch, DrawRectPatch callback function [Display Devices], PFND3DDDI_DRAWRECTPATCH, PFND3DDDI_DRAWRECTPATCH callback, UserModeDisplayDriver_Functions_a32bf010-d5a9-4cf7-b885-4f0fb407a4ad.xml, d3dumddi/DrawRectPatch, display.drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

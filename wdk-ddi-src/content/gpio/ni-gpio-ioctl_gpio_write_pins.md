@@ -4,7 +4,7 @@ title: IOCTL_GPIO_WRITE_PINS
 author: windows-driver-content
 description: The IOCTL_GPIO_WRITE_PINS I/O control code enables a client of the general-purpose I/O (GPIO) controller to write to a set of GPIO pins that are configured as outputs.
 old-location: gpio\ioctl_gpio_write_pins.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 579462C6-2C0B-41AC-836D-2D3448080AD8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

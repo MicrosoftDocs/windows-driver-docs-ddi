@@ -4,7 +4,7 @@ title: RtlStringCbCopyNA function
 author: windows-driver-content
 description: The RtlStringCbCopyNW and RtlStringCbCopyNA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcbcopyn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -82,14 +82,9 @@ A pointer to a caller-supplied, null-terminated string.
 
 ### -param cbToCopy
 
-TBD
+<p>The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>.</p>
 
 
-
-
-#### - cbSrc [in]
-
-The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ## -returns

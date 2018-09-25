@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 author: windows-driver-content
 description: Returns information about the number of partitions, disk signature, and features of each partition on a disk. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_get_drive_layout_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b0ffd1a6-aaa1-4001-a02b-6c0693b7ec5c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

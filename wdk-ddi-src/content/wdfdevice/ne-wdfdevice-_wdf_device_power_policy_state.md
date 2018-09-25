@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_POWER_POLICY_STATE"
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_POLICY_STATE enumeration identifies all of the states that the framework's power policy state machine can enter.
 old-location: wdf\wdf_device_power_policy_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 87fa78f7-417a-4720-9520-0eb90486630a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_POWER_POLICY_STATE, *PWDF_DEVICE_POWER_POLICY_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The WDF_DEVICE_POWER_POLICY_STATE enumeration identifies all of the states that the framework's power policy state machine can enter.
 

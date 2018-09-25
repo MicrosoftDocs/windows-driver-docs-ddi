@@ -4,7 +4,7 @@ title: DOT11_PHY_ID_LIST
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_id_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,11 +74,11 @@ typedef struct DOT11_PHY_ID_LIST {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_PHY_ID_LIST structure. This member is formatted as an 
+The type, revision, and size of the DOT11_PHY_ID_LIST structure. This member is formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -99,22 +99,22 @@ This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        sizeof(DOT11_PHY_ID_LIST).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uNumOfEntries
 
-The number of entries in the 
+The number of entries in the
      <b>dot11PhyId</b> array.
 
 
 ### -field uTotalNumOfEntries
 
-The maximum number of entries that the 
+The maximum number of entries that the
      <b>dot11PhyId</b> array can contain.
 
 
@@ -127,97 +127,97 @@ The list of PHY identifiers (IDs).
 
 
 
-A PHY ID in the 
+A PHY ID in the
     <b>dot11PhyId</b> array must be one of the following:
 
 <ul>
 <li>
-An index into the table of supported PHYs that are defined by the Native 802.11 Operational 
+An index into the table of supported PHYs that are defined by the Native 802.11 Operational
       <b>msDot11SupportedPhyTypes</b> management information base (MIB) object. For more information about PHY
-      IDs and the 
-      <b>msDot11SupportedPhyTypes</b> MIB object, see 
+      IDs and the
+      <b>msDot11SupportedPhyTypes</b> MIB object, see
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
       OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 </li>
 <li>
-A PHY ID with the value of DOT11_PHY_ID_ANY. This PHY ID is called a 
+A PHY ID with the value of DOT11_PHY_ID_ANY. This PHY ID is called a
       <i>wildcard PHY ID</i> and is used to specify any supported PHY on the 802.11 station. If the wildcard
-      PHY ID is used, it must be the only entry in the 
+      PHY ID is used, it must be the only entry in the
       <b>dot11PhyId</b> array.
 
 </li>
 </ul>
-A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or 
+A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>.
 
-When these OIDs are queried, the miniport driver must verify that the 
-    <b>InformationBuffer</b> member of the 
+When these OIDs are queried, the miniport driver must verify that the
+    <b>InformationBuffer</b> member of the
     <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function's
     <i>OidRequest</i> parameter is large enough to return the entire DOT11_PHY_ID_LIST structure, including
-    all entries in the 
-    <b>dot11PhyId</b> array. The value of the 
-    <b>InformationBufferLength</b> member of the 
+    all entries in the
+    <b>dot11PhyId</b> array. The value of the
+    <b>InformationBufferLength</b> member of the
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
 
 <ul>
 <li>
-If the value of the 
+If the value of the
       <b>InformationBufferLength</b> member is less than the length, in bytes, of the entire DOT11_PHY_ID_LIST
       structure, the miniport driver must do the following:
 
 <ul>
 <li>
-Set the 
+Set the
         <b>uNumOfEntries</b> member to zero.
 
 </li>
 <li>
-Set the 
-        <b>uTotalNumOfEntries</b> member to the number of entries in the 
+Set the
+        <b>uTotalNumOfEntries</b> member to the number of entries in the
         <b>dot11PhyId</b> array.
 
 </li>
 <li>
-For the 
-        <i>OidRequest</i> parameter, set the 
-        <b>BytesWritten</b> member to zero and the 
+For the
+        <i>OidRequest</i> parameter, set the
+        <b>BytesWritten</b> member to zero and the
         <b>BytesNeeded</b> member to the length, in bytes, of the entire DOT11_PHY_ID_LIST structure.
 
 </li>
 <li>
-Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its 
+Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
 </li>
 </ul>
 </li>
 <li>
-If the value of the 
+If the value of the
       <b>InformationBufferLength</b> member is greater than or equal to the length, in bytes, of the entire
       DOT11_PHY_ID_LIST structure, the miniport driver must do the following to complete a successful query
       request:
 
 <ul>
 <li>
-For the DOT11_PHY_ID_LIST structure, set the 
-        <b>uNumOfEntries</b> and 
-        <b>uTotalNumOfEntries</b> members to the total number of entries in the 
+For the DOT11_PHY_ID_LIST structure, set the
+        <b>uNumOfEntries</b> and
+        <b>uTotalNumOfEntries</b> members to the total number of entries in the
         <b>dot11PhyId</b> array.
 
 </li>
 <li>
-For the 
-        <i>OidRequest</i> parameter, set the 
-        <b>BytesNeeded</b> member to zero and the 
+For the
+        <i>OidRequest</i> parameter, set the
+        <b>BytesNeeded</b> member to zero and the
         <b>BytesWritten</b> member to the length, in bytes, of the entire DOT11_PHY_ID_LIST structure. The
-        miniport driver must also copy the entire DOT11_PHY_ID_LIST structure to the 
+        miniport driver must also copy the entire DOT11_PHY_ID_LIST structure to the
         <b>InformationBuffer</b> member.
 
 </li>
 <li>
-Return NDIS_STATUS_SUCCESS from its 
+Return NDIS_STATUS_SUCCESS from its
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
 </li>

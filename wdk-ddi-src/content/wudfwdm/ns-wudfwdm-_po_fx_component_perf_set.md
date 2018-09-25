@@ -4,7 +4,7 @@ title: "_PO_FX_COMPONENT_PERF_SET"
 author: windows-driver-content
 description: The PO_FX_COMPONENT_PERF_SET structure represents a set of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_set.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

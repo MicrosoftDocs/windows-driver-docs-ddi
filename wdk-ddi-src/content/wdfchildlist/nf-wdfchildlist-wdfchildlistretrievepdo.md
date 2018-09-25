@@ -4,7 +4,7 @@ title: WdfChildListRetrievePdo function
 author: windows-driver-content
 description: The WdfChildListRetrievePdo method returns a handle to the framework device object that is associated with a specified child description in a child list.
 old-location: wdf\wdfchildlistretrievepdo.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListRetrievePdo</b> method returns a handle to the framework device object that is associated with a specified child description in a child list.
 

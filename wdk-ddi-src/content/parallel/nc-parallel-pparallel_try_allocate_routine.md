@@ -4,7 +4,7 @@ title: PPARALLEL_TRY_ALLOCATE_ROUTINE
 author: windows-driver-content
 description: The PPARALLEL_TRY_ALLOCATE_ROUTINE-typed (ISR) callback routine attempts to allocate a parallel port at IRQL = DIRQL. The system-supplied function driver for parallel ports supplies this routine.
 old-location: parports\parallel_try_allocate_routine__isr_.htm
-old-project: parports
+tech.root: parports
 ms.assetid: bc69e347-8ef7-4a80-9ef4-bbc03f5586c4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: DIRQL
 topic_type:
 -	APIRef

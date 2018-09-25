@@ -4,7 +4,7 @@ title: IOCTL_KS_RESET_STATE
 author: windows-driver-content
 description: An application can use IOCTL_KS_RESET_STATE to return a pin to the state it was in at Acquire-time. The application passes IOCTL_KS_RESET_STATE with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_reset_state.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0f3fd5ae-f8ce-4a2f-b8c0-4ac101569e09
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

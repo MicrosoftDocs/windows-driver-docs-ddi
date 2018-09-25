@@ -4,7 +4,7 @@ title: "_GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure indicates which interrupt pins in a bank of general-purpose I/O (GPIO) pins are enabled.
 old-location: gpio\gpio_query_enabled_interrupts_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: CC2EEF26-CCC0-4093-8A44-12FF1EDD2FF9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

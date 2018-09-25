@@ -4,7 +4,7 @@ title: ClfsMgmtDeregisterManagedClient function
 author: windows-driver-content
 description: The ClfsMgmtDeregisterManagedClient routine removes the connection between a client and a log, so that the client no longer manages the log.
 old-location: kernel\clfsmgmtderegistermanagedclient.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5dee3b70-9c8d-420d-86f9-9795b4d8b1e8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

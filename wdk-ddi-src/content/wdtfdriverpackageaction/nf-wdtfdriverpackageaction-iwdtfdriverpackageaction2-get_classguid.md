@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_ClassGuid
 author: windows-driver-content
 description: Gets the class GUID.
 old-location: dtf\iwdtfdriverpackageaction2_classguid.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: a89950ff-2825-4b1d-9099-1e96dbf629ee
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

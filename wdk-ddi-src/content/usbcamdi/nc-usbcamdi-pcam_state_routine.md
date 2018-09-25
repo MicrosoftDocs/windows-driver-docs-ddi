@@ -4,7 +4,7 @@ title: PCAM_STATE_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.
 old-location: stream\camrestorestate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9a69cace-11cc-4671-9e7c-df510cbdd16d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

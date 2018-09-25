@@ -4,7 +4,7 @@ title: HBA_SendLIRR function
 author: windows-driver-content
 description: The HBA_SendLIRR routine registers or de-registers a local (source) port to receive link incident records (LIR) from a remote (destination) port.
 old-location: storage\hba_sendlirr.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2e38d297-1e26-4605-a242-3f0180ac0360
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -152,14 +152,9 @@ Pointer to a buffer that receives the payload data of the response to the LIRR, 
 
 ### -param pRspBufferSize
 
-TBD
+<p>On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member indicates the size, in bytes, of the response data. Eight bytes is sufficient for any response.</p>
 
 
-
-
-#### - RspBufferSize [in, out]
-
-On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member indicates the size, in bytes, of the response data. Eight bytes is sufficient for any response.
 
 
 ## -returns

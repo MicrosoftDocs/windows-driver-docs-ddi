@@ -4,7 +4,7 @@ title: WmiQueryTraceInformation function
 author: windows-driver-content
 description: The WmiQueryTraceInformation routine returns information about a WMI event trace.
 old-location: kernel\wmiquerytraceinformation.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

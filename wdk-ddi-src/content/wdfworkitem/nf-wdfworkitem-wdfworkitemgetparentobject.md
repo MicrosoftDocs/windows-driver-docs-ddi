@@ -4,7 +4,7 @@ title: WdfWorkItemGetParentObject function
 author: windows-driver-content
 description: The WdfWorkItemGetParentObject method returns the framework object that a specified work item is associated with.
 old-location: wdf\wdfworkitemgetparentobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6ebb1955-1ffc-4869-84c8-69d672ac782e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWorkItemGetParentObject</b> method returns the framework object that a specified work item is associated with.
 

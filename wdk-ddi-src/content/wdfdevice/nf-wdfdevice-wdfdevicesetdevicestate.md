@@ -4,7 +4,7 @@ title: WdfDeviceSetDeviceState function
 author: windows-driver-content
 description: The WdfDeviceSetDeviceState method sets the device state for a specified device.
 old-location: wdf\wdfdevicesetdevicestate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bee3c0e9-9196-4e9b-9b75-08883f452304
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceSetDeviceState</b> method sets the device state for a specified device.
 

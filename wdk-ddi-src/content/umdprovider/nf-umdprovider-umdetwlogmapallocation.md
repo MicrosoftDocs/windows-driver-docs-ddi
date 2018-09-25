@@ -4,10 +4,10 @@ title: UMDEtwLogMapAllocation function
 author: windows-driver-content
 description: Describes how a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is being used.
 old-location: display\umdetwlogmapallocation.htm
-old-project: display
+tech.root: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
 -	umdprovider.h
 api_name:

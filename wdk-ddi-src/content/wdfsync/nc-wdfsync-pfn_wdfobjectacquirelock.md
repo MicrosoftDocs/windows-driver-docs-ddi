@@ -4,7 +4,7 @@ title: PFN_WDFOBJECTACQUIRELOCK
 author: windows-driver-content
 description: The WdfObjectAcquireLock method acquires an object's synchronization lock.
 old-location: wdf\wdfobjectacquirelock.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
@@ -15,19 +15,19 @@ ms.topic: callback
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: See Remarks section.
 topictype:
 -	APIRef
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectAcquireLock</b> method acquires an object's synchronization lock.
 
@@ -107,7 +107,7 @@ When the driver no longer needs the object's synchronization lock, it must call 
 
 If the driver specified <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL &lt;= APC_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="https://msdn.microsoft.com/8c8014bf-6b81-4039-ae93-d4cedd6d6fed">fast mutex</a> and returns at the caller's IRQL. (In this case, <b>WdfObjectAcquireLock</b> also calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> before returning so that <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled.)
 
-If the driver did <i>not</i> specify <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's WDF_OBJECT_ATTRIBUTES structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL &lt;= DISPATCH_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="https://msdn.microsoft.com/0585fc2a-0d0b-434d-92b3-da07a9385444">spin lock</a> and returns at IRQL = DISPATCH_LEVEL. 
+If the driver did <i>not</i> specify <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's WDF_OBJECT_ATTRIBUTES structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL &lt;= DISPATCH_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="https://msdn.microsoft.com/0585fc2a-0d0b-434d-92b3-da07a9385444">spin lock</a> and returns at IRQL = DISPATCH_LEVEL.
 
 For more information about synchronization locks, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 

@@ -4,10 +4,10 @@ title: IMiniportWavePci::Init
 author: windows-driver-content
 description: The Init method initializes the WavePci miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.
 old-location: audio\iminiportwavepci_init.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 0796a1a2-1aaa-4e07-a8f1-7a3c895643e7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportWavePci interface [Audio Devices],Init method, IMiniportWavePci.Init, IMiniportWavePci::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_init, audmp-routines_fd2d7813-ebe8-4cf3-8a6c-4ebfccca5826.xml, portcls/IMiniportWavePci::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

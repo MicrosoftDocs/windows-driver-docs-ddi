@@ -4,7 +4,7 @@ title: RtlULongLongToULong function
 author: windows-driver-content
 description: Converts a value of type ULONGLONG to a value of type ULONG.
 old-location: kernel\rtlulonglongtoulong.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 322A17F1-E767-44EF-837D-F9162C2D5237
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -65,14 +65,9 @@ The value to be converted.
 
 ### -param pulResult
 
-TBD
+<p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - puResult [out]
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 ## -remarks

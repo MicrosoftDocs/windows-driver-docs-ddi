@@ -4,7 +4,7 @@ title: KeQueryNodeMaximumProcessorCount function
 author: windows-driver-content
 description: The KeQueryNodeMaximumProcessorCount routine returns the maximum number of logical processors that a specified node in a non-uniform memory access (NUMA) multiprocessor system can contain.
 old-location: kernel\kequerynodemaximumprocessorcount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 56688002-d481-45a6-bfb0-e7761f9ae055
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

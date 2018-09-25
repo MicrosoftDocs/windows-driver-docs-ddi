@@ -4,7 +4,7 @@ title: FsRtlRegisterUncProvider function
 author: windows-driver-content
 description: The FsRtlRegisterUncProvider routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 old-location: ifsk\fsrtlregisteruncprovider.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,17 +15,17 @@ ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -65,7 +65,7 @@ A pointer to a location in which to return a MUP handle to be used when calling 
 
 ### -param RedirectorDeviceName
 
-TBD
+<p>A pointer to a Unicode string that contains the device name of the network redirector. </p>
 
 
 ### -param MailslotsSupported [in]
@@ -73,16 +73,11 @@ TBD
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
 
 
-#### - RedirDevName [in]
-
-A pointer to a Unicode string that contains the device name of the network redirector. 
-
-
 ## -returns
 
 
 
-<b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following: 
+<b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following:
 
 <table>
 <tr>
@@ -96,7 +91,7 @@ A pointer to a Unicode string that contains the device name of the network redir
 </dl>
 </td>
 <td width="60%">
-The execution mode of the original requester for  the IRP operation sent to MUP was not from kernel mode. 
+The execution mode of the original requester for  the IRP operation sent to MUP was not from kernel mode.
 
 </td>
 </tr>
@@ -107,7 +102,7 @@ The execution mode of the original requester for  the IRP operation sent to MUP 
 </dl>
 </td>
 <td width="60%">
-An access violation occurred when attempting access to the MUP device. 
+An access violation occurred when attempting access to the MUP device.
 
 </td>
 </tr>
@@ -151,7 +146,7 @@ An invalid parameter was passed to MUP in the IRP.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnormal termination occurred. 
+An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnormal termination occurred.
 
 </td>
 </tr>
@@ -165,7 +160,7 @@ An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnor
 
 
 
-A network redirector must register with the MUP to handle UNC names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
+A network redirector must register with the MUP to handle UNC names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -185,9 +180,9 @@ For network redirectors that conform to the Windows Vistaredirector model, MUP i
 
 Network redirectors that conform to the Windows Vista redirector model should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547184">FsRtlRegisterUncProviderEx</a>, not <b>FsRtlRegisterUncProvider</b>.
 
-<b>FsRtlRegisterUncProvider</b> sends a private file system control (FSCTL) to MUP to perform the registration. 
+<b>FsRtlRegisterUncProvider</b> sends a private file system control (FSCTL) to MUP to perform the registration.
 
-The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This registry value is located under the following registry key: 
+The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This registry value is located under the following registry key:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -199,7 +194,7 @@ The ProviderOrder registry value determines the order in which MUP issues prefix
 </td>
 </tr>
 </table></span></div>
-Changes to the ProviderOrder registry value require a reboot to take effect in MUP on Windows Server 2003, Windows XP, and Windows 2000. 
+Changes to the ProviderOrder registry value require a reboot to take effect in MUP on Windows Server 2003, Windows XP, and Windows 2000.
 
 Only one network provider on a system can support mailslots. So the <i>MailslotsSupported</i> parameter is normally only set to <b>TRUE</b> for the Microsoft SMB redirector.
 

@@ -4,7 +4,7 @@ title: WdfRequestCompleteWithPriorityBoost function
 author: windows-driver-content
 description: The WdfRequestCompleteWithPriorityBoost method completes a specified I/O request and supplies a completion status. It also specifies a value that the system can use to boost the run-time priority of the thread that requested the I/O operation.
 old-location: wdf\wdfrequestcompletewithpriorityboost.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestCompleteWithPriorityBoost</b> method completes a specified I/O request and supplies a completion status. It also specifies a value that the system can use to boost the run-time priority of the thread that requested the I/O operation.
 

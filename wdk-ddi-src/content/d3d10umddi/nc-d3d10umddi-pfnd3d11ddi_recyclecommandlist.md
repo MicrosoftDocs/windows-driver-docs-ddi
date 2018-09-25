@@ -4,10 +4,9 @@ title: PFND3D11DDI_RECYCLECOMMANDLIST
 author: windows-driver-content
 description: The RecycleCommandList function recycles a command list.
 old-location: display\recyclecommandlist.htm
-old-project: display
 ms.assetid: 4cff7f3d-ba13-4389-bafc-edffc0697ce9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_RECYCLECOMMANDLIST, PFND3D11DDI_RECYCLECOMMANDLIST callback, RecycleCommandList, RecycleCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a917a4c2-4226-46e8-a696-8c51b2960bda.xml, d3d10umddi/RecycleCommandList, display.recyclecommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

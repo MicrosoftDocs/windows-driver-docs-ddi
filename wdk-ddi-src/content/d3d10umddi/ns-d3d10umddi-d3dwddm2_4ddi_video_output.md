@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_OUTPUT
 title: D3DWDDM2_4DDI_VIDEO_OUTPUT
 author: windows-driver-content
-description:
+description: This structure is not implemented.
 ms.assetid: 70525c7d-5921-486c-b57c-82ac5258c4fb
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_OUTPUT
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3DWDDM2_4DDI_VIDEO_OUTPUT
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3DWDDM2_4DDI_VIDEO_OUTPUT structure

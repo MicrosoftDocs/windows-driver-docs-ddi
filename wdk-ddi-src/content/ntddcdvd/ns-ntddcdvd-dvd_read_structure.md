@@ -4,7 +4,7 @@ title: DVD_READ_STRUCTURE
 author: windows-driver-content
 description: The DVD_READ_STRUCTURE structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD descriptor containing information about a DVD disc.
 old-location: storage\dvd_read_structure.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fe8c55de-e542-4c0d-a96b-31ad39e11dff
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

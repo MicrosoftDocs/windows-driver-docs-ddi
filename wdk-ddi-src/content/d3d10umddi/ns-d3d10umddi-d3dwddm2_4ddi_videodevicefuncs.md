@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEODEVICEFUNCS
 title: D3DWDDM2_4DDI_VIDEODEVICEFUNCS
 author: windows-driver-content
-description:
+description: Specifies the video function table for the Microsoft Direct3D driver device object.
 ms.assetid: d7df13fe-cff3-4ecd-8215-370521cade1a
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEODEVICEFUNCS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3DWDDM2_4DDI_VIDEODEVICEFUNCS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3DWDDM2_4DDI_VIDEODEVICEFUNCS structure

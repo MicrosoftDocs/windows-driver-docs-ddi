@@ -4,7 +4,7 @@ title: KsFilterCreateNode function
 author: windows-driver-content
 description: The KsFilterCreateNode function creates a new topology node on the specified filter.
 old-location: stream\ksfiltercreatenode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2a796bb9-7d55-47da-9a57-2829cd193e23
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

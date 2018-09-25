@@ -4,7 +4,7 @@ title: WdfRequestWdmGetIrp function
 author: windows-driver-content
 description: The WdfRequestWdmGetIrp method returns the WDM IRP structure that is associated with a specified framework request object.
 old-location: wdf\wdfrequestwdmgetirp.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 414950c6-b082-4ea9-bba4-f3d12b4d2a9e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that is associated with a specified framework request object.
 

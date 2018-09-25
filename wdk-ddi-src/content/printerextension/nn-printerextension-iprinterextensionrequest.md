@@ -4,7 +4,7 @@ title: IPrinterExtensionRequest
 author: windows-driver-content
 description: Completes the given extension event with either a cancellation or success.
 old-location: print\iprinterextensionrequest_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

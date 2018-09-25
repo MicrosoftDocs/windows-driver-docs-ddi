@@ -4,7 +4,7 @@ title: EVT_VHF_READY_FOR_NEXT_READ_REPORT
 author: windows-driver-content
 description: The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF.
 old-location: hid\evtvhfreadyfornextreadreport.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 02DDBE00-C342-474B-8D06-FBB929BA4760
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

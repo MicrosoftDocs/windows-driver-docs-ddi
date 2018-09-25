@@ -4,7 +4,7 @@ title: KeSetSystemAffinityThreadEx function
 author: windows-driver-content
 description: The KeSetSystemAffinityThreadEx routine sets the system affinity of the current thread.
 old-location: kernel\kesetsystemaffinitythreadex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,7 +60,7 @@ The <b>KeSetSystemAffinityThreadEx</b> routine sets the system affinity of the c
 
 ### -param Affinity [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed variable that specifies the new system affinity of the current thread.
+A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread.
 
 
 ## -returns
@@ -112,7 +112,7 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

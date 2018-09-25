@@ -4,7 +4,7 @@ title: ClfsSetArchiveTail function
 author: windows-driver-content
 description: The ClfsSetArchiveTail routine sets the archive tail of a CLFS log to a specified LSN.
 old-location: kernel\clfssetarchivetail.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 58c1d222-72c5-4b40-9ae5-f633bac599f0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

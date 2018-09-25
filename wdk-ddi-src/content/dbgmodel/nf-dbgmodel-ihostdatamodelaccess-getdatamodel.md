@@ -66,7 +66,7 @@ This method returns HRESULT that indicates success or failure.
 
 **Code Sample**
 
-```
+```cpp
 ComPtr<IDebugClient> spClient; /* get an IDebugClient* from DbgEng */
 
 ComPtr<IHostDataModelAccess> spDataModelAccess;

@@ -4,10 +4,9 @@ title: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021
 author: windows-driver-content
 description: The pfnCalcPrivateVideoDecoderSize callback function calculates the size of a private video decoder.
 old-location: display\pfnd3d12ddi_calcprivatevideodecodersize.htm
-old-project: display
 ms.assetid: 29A0CB0F-3469-4EF5-8C5B-132321F6C8E8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021 callback, d3d12umddi/pfnCalcPrivateVideoDecoderSize, display.pfnd3d12ddi_calcprivatevideodecodersize, pfnCalcPrivateVideoDecoderSize, pfnCalcPrivateVideoDecoderSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -2,7 +2,7 @@
 UID: NF:miniport.ARM64_SYSREG_CRN
 title: ARM64_SYSREG_CRN macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: e49773c3-d777-4f0b-b14f-1bd505f55f43
 ms.author: windowsdriverdev
 ms.date: 
@@ -33,7 +33,8 @@ api_location:
 -	miniport.h
 api_name: 
 -	ARM64_SYSREG_CRN
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

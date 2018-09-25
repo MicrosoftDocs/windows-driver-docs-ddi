@@ -4,7 +4,7 @@ title: "_MPIO_DSM_Path"
 author: windows-driver-content
 description: The MPIO_DSM_Path structure is used to represent the DSM's definition of a path.
 old-location: storage\mpio_dsm_path.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 17338526-d682-4d11-89b9-730b1a275870
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

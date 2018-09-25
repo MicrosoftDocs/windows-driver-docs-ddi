@@ -4,7 +4,7 @@ title: KsDispatchSpecificProperty function
 author: windows-driver-content
 description: The KsDispatchSpecificProperty function dispatches the property to a specific handler.
 old-location: stream\ksdispatchspecificproperty.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3ea9a473-606d-4021-89af-5f895020d054
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -63,12 +63,12 @@ This function can only be called at PASSIVE_LEVEL.
 
 ### -param Irp
 
-TBD
+
 
 
 ### -param Handler
 
-TBD
+
 
 
 

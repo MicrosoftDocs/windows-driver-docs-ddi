@@ -4,7 +4,7 @@ title: WdfIoQueueStart function
 author: windows-driver-content
 description: The WdfIoQueueStart method enables an I/O queue to start receiving and delivering new I/O requests.
 old-location: wdf\wdfioqueuestart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueStart</b> method enables an I/O queue to start receiving and delivering new I/O requests.
 

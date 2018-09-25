@@ -4,7 +4,7 @@ title: KsDefaultDeviceIoCompletion function
 author: windows-driver-content
 description: The KsDefaultDeviceIoCompletion function is used to return a default response and to complete any device I/O control.
 old-location: stream\ksdefaultdeviceiocompletion.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

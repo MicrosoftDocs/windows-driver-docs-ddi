@@ -4,10 +4,10 @@ title: wiasDebugError function
 author: windows-driver-content
 description: This function prints a debug error string in the Device Manager debug console. The output color is always red.
 old-location: image\wiasdebugerror.htm
-old-project: image
+tech.root: image
 ms.assetid: fcddc83d-5fb1-43ad-9abd-8d5e2549b580
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasdebugerror, wiamdef/wiasDebugError, wiasDebugError, wiasDebugError function [Imaging Devices], wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,12 +65,12 @@ Is the module handle of calling module.
 
 ### -param pszFormat
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: "_MSR_DATA_RECEIVED"
 author: windows-driver-content
 description: This structure contains the data read from a swiped magnetic stripe card.
 old-location: pos\msr_data_received.htm
-old-project: pos
+tech.root: pos
 ms.assetid: f103724c-25c4-4dec-a7a3-9713440ca833
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

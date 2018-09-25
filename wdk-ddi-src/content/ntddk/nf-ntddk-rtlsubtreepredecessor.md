@@ -4,7 +4,7 @@ title: RtlSubtreePredecessor function
 author: windows-driver-content
 description: The RtlSubtreePredecessor routine returns a pointer to the predecessor of the specified node within the subtree that is rooted at that node.
 old-location: ifsk\rtlsubtreepredecessor.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

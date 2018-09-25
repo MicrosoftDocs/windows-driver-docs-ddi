@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CALCPRIVATESHADERSIZE
 author: windows-driver-content
 description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 old-location: display\calcprivateshadersize_d3d11_1_.htm
-old-project: display
 ms.assetid: e23c267f-41df-47a6-ae43-3bbcb48fd300
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CalcPrivateShaderSize(D3D11_1), CalcPrivateShaderSize(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATESHADERSIZE, PFND3D11_1DDI_CALCPRIVATESHADERSIZE callback, d3d10umddi/CalcPrivateShaderSize(D3D11_1), display.calcprivateshadersize_d3d11_1_, display.pfncalcprivateshadersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

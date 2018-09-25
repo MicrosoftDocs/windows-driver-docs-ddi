@@ -4,7 +4,7 @@ title: RxPrepareToReparseSymbolicLink function
 author: windows-driver-content
 description: RxPrepareToReparseSymbolicLink sets up the file object name to facilitate a reparse. This routine is used by the network mini-redirectors to traverse symbolic links.
 old-location: ifsk\rxpreparetoreparsesymboliclink.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

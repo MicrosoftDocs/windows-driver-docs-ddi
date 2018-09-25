@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001
 title: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001
 author: windows-driver-content
-description: 
+description: The pfnCalcPrivateCommandQueueSize callback function is used to calculate the size of a private command queue.
 ms.assetid: d0ff52b6-0e23-4cb9-8da7-4037ee3ec96a
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate the size of a private command queue.
 
 ## -prototype
 
@@ -67,18 +69,24 @@ PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+
+### -param Arg1
+
+A handle to the display device (graphics context).
+
+### -param *
+
+An argument used to create a command queue.
 
 
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns SIZE_T.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

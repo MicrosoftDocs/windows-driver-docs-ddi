@@ -4,10 +4,9 @@ title: PFND3D12DDI_VIDEO_DECODE_FRAME_0021
 author: windows-driver-content
 description: The pfnDecodeFrame callback function records a decode frame operation to the command list.
 old-location: display\pfnd3d12ddi_video_decode_frame.htm
-old-project: display
 ms.assetid: 8EA34C58-9B2D-4B69-ABAB-D67F6BCD6229
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_DECODE_FRAME_0021, PFND3D12DDI_VIDEO_DECODE_FRAME_0021 callback, d3d12umddi/pfnDecodeFrame, display.pfnd3d12ddi_video_decode_frame, pfnDecodeFrame, pfnDecodeFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -75,24 +75,12 @@ The submission ID is a monotonically increasing integer value.  The value passed
 
 ### -param *pOutputStreamParameters
 
+The output surface and output parameters.  For more information, see the <a href="https://msdn.microsoft.com/4179447D-481F-4EC3-922C-4DFE3F5D768F">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
 ### -param *pInputStreamParameters
 
-
-
-
-
-
-
-
-#### - pInputStreamArguments
-
 The input bitstream, parameters, reference frames, and other input parameters for the decode operation.  For more information, see the <a href="https://msdn.microsoft.com/B956626C-B5D7-4217-A90A-EC7E436DF6C0">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a> structure.
 
-
-#### - pOutputStreamArguments
-
-The output surface and output parameters.  For more information, see the <a href="https://msdn.microsoft.com/4179447D-481F-4EC3-922C-4DFE3F5D768F">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
 
 ## -returns

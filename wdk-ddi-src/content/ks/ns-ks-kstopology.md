@@ -4,7 +4,7 @@ title: KSTOPOLOGY
 author: windows-driver-content
 description: The KSTOPOLOGY structure describes the topology of pins and nodes.
 old-location: stream\kstopology.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8dbd37ed-5d71-43bd-a3ca-caa5b0d08075
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

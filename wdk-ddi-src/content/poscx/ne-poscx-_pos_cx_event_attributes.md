@@ -4,7 +4,7 @@ title: "_POS_CX_EVENT_ATTRIBUTES"
 author: windows-driver-content
 description: The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in POS_CX_EVENT_DEST and POS_CX_EVENT_PRIORITY.
 old-location: pos\pos_cx_event_attributes.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 5B8B38B6-ACF3-44F9-BC83-71F0A2FC4DDD
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

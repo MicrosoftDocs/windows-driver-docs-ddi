@@ -4,7 +4,7 @@ title: "_TRANSACTION_INFORMATION_CLASS"
 author: windows-driver-content
 description: The TRANSACTION_INFORMATION_CLASS enumeration specifies the type of information that ZwSetInformationTransaction can set and ZwQueryInformationTransaction can retrieve for a transaction manager object.
 old-location: kernel\transaction_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

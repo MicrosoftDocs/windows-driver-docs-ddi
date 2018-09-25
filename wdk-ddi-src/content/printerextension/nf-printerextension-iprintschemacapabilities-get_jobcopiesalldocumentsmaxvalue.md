@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
 author: windows-driver-content
 description: Gets the JobCopiesAllDocuments parameter maximum value.
 old-location: print\iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: A0705B79-BD13-4AB7-8647-A7AF905B97CC
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

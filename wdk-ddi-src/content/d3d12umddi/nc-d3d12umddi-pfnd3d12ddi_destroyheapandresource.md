@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYHEAPANDRESOURCE
 title: PFND3D12DDI_DESTROYHEAPANDRESOURCE
 author: windows-driver-content
-description: 
+description: Destroy heap and resource.
 ms.assetid: 12c5cdc3-981a-4a34-af3c-b62ff7872877
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_DESTROYHEAPANDRESOURCE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_DESTROYHEAPANDRESOURCE callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Destroy heap and resource.
 
 ## -prototype
 
@@ -68,19 +70,25 @@ PFND3D12DDI_DESTROYHEAPANDRESOURCE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_HHEAP: 
-### -param D3D12DDI_HRESOURCE: 
+### -param D3D12DDI_HDEVICE  
 
+A handle to the display device (graphics context).
+ 
+### -param D3D12DDI_HHEAP 
 
+A heap handle.
+
+### -param D3D12DDI_HRESOURCE 
+
+A resource handle.
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

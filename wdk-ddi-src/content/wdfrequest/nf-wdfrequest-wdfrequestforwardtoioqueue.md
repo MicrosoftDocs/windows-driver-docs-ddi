@@ -4,7 +4,7 @@ title: WdfRequestForwardToIoQueue function
 author: windows-driver-content
 description: The WdfRequestForwardToIoQueue method requeues an I/O request to one of the calling driver's I/O queues.
 old-location: wdf\wdfrequestforwardtoioqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestForwardToIoQueue</b> method requeues an I/O request to one of the calling driver's I/O queues.
 

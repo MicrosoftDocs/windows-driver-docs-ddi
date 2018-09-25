@@ -4,7 +4,7 @@ title: WdfDriverRegisterTraceInfo function
 author: windows-driver-content
 description: The WdfDriverRegisterTraceInfo method is reserved for internal use only.
 old-location: wdf\wdfdriverregistertraceinfo.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f2d332cd-d744-444c-b616-d8400ad30d43
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0032
 author: windows-driver-content
 description: Used to create a video processor.
 old-location: display\pfnd3d12ddi_createvideoprocessor_0032_.htm
-old-project: display
 ms.assetid: 64E9EDF7-0B98-4D8A-BB2B-D336622558D0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames:
 ---
 

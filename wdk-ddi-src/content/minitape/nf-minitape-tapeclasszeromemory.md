@@ -4,7 +4,7 @@ title: TapeClassZeroMemory function
 author: windows-driver-content
 description: The TapeClassZeroMemory routine fills a buffer with zeros.
 old-location: storage\tapeclasszeromemory.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a1f15890-ded8-4aba-8b67-6f1fb1490178
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

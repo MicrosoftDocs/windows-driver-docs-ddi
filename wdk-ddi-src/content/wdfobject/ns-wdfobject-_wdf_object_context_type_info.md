@@ -4,7 +4,7 @@ title: "_WDF_OBJECT_CONTEXT_TYPE_INFO"
 author: windows-driver-content
 description: The WDF_OBJECT_CONTEXT_TYPE_INFO structure describes a framework object's driver-defined context memory.
 old-location: wdf\wdf_object_context_type_info.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2b56183e-03aa-493a-84ba-03f9bc5daee2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_OBJECT_CONTEXT_TYPE_INFO structure describes a framework object's driver-defined context memory.
 

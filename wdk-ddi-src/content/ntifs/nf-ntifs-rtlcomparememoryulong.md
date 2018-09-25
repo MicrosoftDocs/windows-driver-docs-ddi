@@ -4,7 +4,7 @@ title: RtlCompareMemoryUlong function
 author: windows-driver-content
 description: The RtlCompareMemoryUlong routine returns how many bytes in a block of memory match a specified pattern.
 old-location: ifsk\rtlcomparememoryulong.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

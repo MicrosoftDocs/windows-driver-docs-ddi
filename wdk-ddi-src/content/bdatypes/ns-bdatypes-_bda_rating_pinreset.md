@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_RATING_PINRESET
 title: "_BDA_RATING_PINRESET"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_rating_pinreset.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 237463EC-3C57-4DCA-9757-870B5F55C584
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

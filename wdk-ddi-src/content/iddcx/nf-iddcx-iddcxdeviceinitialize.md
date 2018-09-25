@@ -4,10 +4,10 @@ title: IddCxDeviceInitialize function
 author: windows-driver-content
 description: Initializes a WDF device.
 old-location: display\iddcxdeviceinitialize.htm
-old-project: display
+tech.root: display
 ms.assetid: 4967e897-1a71-4f17-ad5b-9cc9916b0087
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: IddCxDeviceInitialize, IddCxDeviceInitialize method [Display Devices], display.iddcxdeviceinitialize, iddcx/IddCxDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,16 +26,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: IddCxStub.lib 
+req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	iddcx.h
+-	IddCx.dll
 api_name:
 -	IddCxDeviceInitialize
 product:

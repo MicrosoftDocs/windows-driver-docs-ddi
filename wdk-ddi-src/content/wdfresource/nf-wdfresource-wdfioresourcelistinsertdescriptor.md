@@ -4,7 +4,7 @@ title: WdfIoResourceListInsertDescriptor function
 author: windows-driver-content
 description: The WdfIoResourceListInsertDescriptor method inserts a resource descriptor into a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistinsertdescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceListInsertDescriptor</b> method inserts a resource descriptor into a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
 

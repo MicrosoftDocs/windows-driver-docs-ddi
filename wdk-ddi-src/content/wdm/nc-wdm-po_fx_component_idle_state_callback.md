@@ -4,7 +4,7 @@ title: PO_FX_COMPONENT_IDLE_STATE_CALLBACK
 author: windows-driver-content
 description: The ComponentIdleStateCallback callback routine notifies the driver of a pending change to the Fx power state of the specified component.
 old-location: kernel\componentidlestatecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B98D14A1-7016-4299-9E7E-45E5EB6BE912
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

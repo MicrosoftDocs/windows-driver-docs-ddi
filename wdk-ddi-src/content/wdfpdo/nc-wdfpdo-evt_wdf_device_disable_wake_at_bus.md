@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS
 author: windows-driver-content
 description: A bus driver's EvtDeviceDisableWakeAtBus event callback function performs bus-level operations that disable the ability of one of the bus's devices to trigger a wake-up signal on the bus.
 old-location: wdf\evtdevicedisablewakeatbus.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 91ae9694-5020-42ee-b882-a753e9bbe919
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A bus driver's <i>EvtDeviceDisableWakeAtBus</i> event callback function performs bus-level operations that disable the ability of one of the bus's devices to trigger a wake-up signal on the bus.
 

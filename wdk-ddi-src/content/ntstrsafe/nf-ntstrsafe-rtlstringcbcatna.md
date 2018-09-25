@@ -4,7 +4,7 @@ title: RtlStringCbCatNA function
 author: windows-driver-content
 description: The RtlStringCbCatNW and RtlStringCbCatNA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 60ecabb1-5607-4962-82c6-8081916b507d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -82,14 +82,9 @@ Pointer to a null-terminated string. This string will be concatenated to the end
 
 ### -param cbToAppend
 
-TBD
+<p>The maximum number of bytes to append to the string that is contained in the buffer at <i>pszDest</i>.</p>
 
 
-
-
-#### - cbMaxAppend [in]
-
-The maximum number of bytes to append to the string that is contained in the buffer at <i>pszDest</i>.
 
 
 ## -returns

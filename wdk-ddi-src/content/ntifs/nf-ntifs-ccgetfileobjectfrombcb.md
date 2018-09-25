@@ -4,7 +4,7 @@ title: CcGetFileObjectFromBcb function
 author: windows-driver-content
 description: Given a pointer to a pinned buffer control block (BCB) for a file, the CcGetFileObjectFromBcb routine returns a pointer to the file object that the cache manager is using for that file.
 old-location: ifsk\ccgetfileobjectfrombcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

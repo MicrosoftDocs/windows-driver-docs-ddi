@@ -4,7 +4,7 @@ title: KeSaveExtendedProcessorState function
 author: windows-driver-content
 description: The KeSaveExtendedProcessorState routine saves extended processor state information.
 old-location: kernel\kesaveextendedprocessorstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

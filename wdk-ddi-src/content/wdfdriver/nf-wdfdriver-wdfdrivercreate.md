@@ -4,7 +4,7 @@ title: WdfDriverCreate function
 author: windows-driver-content
 description: The WdfDriverCreate method creates a framework driver object for the calling driver.
 old-location: wdf\wdfdrivercreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDriverCreate</b> method creates a framework driver object for the calling driver.
 

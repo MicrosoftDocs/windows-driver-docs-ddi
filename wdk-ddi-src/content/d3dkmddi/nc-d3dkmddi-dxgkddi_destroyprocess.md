@@ -4,10 +4,9 @@ title: DXGKDDI_DESTROYPROCESS
 author: windows-driver-content
 description: DxgkDdiDestroyProcess destroys a kernel mode driver process object.
 old-location: display\dxgkddidestroyprocess.htm
-old-project: display
 ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS callback, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,7 @@ title: "_DVD_LAYER_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD layer descriptor.
 old-location: storage\dvd_layer_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

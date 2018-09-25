@@ -4,7 +4,7 @@ title: WdfPdoInitAssignDeviceID function
 author: windows-driver-content
 description: The WdfPdoInitAssignDeviceID method updates the device ID for a child device.
 old-location: wdf\wdfpdoinitassigndeviceid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f8992245-42db-4ca8-afdc-e123adc0a40d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitAssignDeviceID</b> method updates the <a href="https://msdn.microsoft.com/a71b64bc-319e-4133-810b-7fd417cf0af8">device ID</a> for a child device.
 

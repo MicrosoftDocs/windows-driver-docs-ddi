@@ -4,7 +4,7 @@ title: FsRtlCheckUpperOplock function
 author: windows-driver-content
 description: The FsRtlCheckUpperOplock routine provides opportunistic lock (oplock) checking in secondary, or layered, file systems when the oplocks they hold change state.
 old-location: ifsk\fsrtlcheckupperoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: IRQL <= APC_LEVEL
@@ -60,7 +60,7 @@ The <b>FsRtlCheckUpperOplock</b> routine provides opportunistic lock (oplock) ch
 
 ### -param Oplock [in]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>.
 
 
 ### -param NewLowerOplockState [in]
@@ -108,14 +108,14 @@ Indicates an oplock Handle (H) type.
 
 ### -param CompletionRoutineContext [in, optional]
 
-A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PrePendIrpRoutine</i> parameters point to. 
+A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PrePendIrpRoutine</i> parameters point to.
 
 
 ### -param CompletionRoutine [in, optional]
 
-A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. 
+A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed.
 
-This routine is declared as follows: 
+This routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -131,7 +131,7 @@ This routine is declared as follows:
 </td>
 </tr>
 </table></span></div>
-This routine has the following parameters: 
+This routine has the following parameters:
 
 
 
@@ -139,18 +139,58 @@ This routine has the following parameters:
 
 #### Context
 
-A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. 
+A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>.
 
 
 
 #### Irp
 
-A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b> will always set this to NULL. 
+A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
 
 
 ### -param PrePendRoutine
 
-TBD
+<p>A pointer to a caller-supplied callback routine to be called if <b>FsRtlCheckUpperOplock</b> will return STATUS_PENDING. This parameter is optional and can be <b>NULL</b>. </p>
+  <p>This routine is declared as follows: </p>
+  <div class="code">
+    <span codelanguage="">
+      <table>
+        <tr>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <pre>typedef VOID
+(*POPLOCK_FS_PREPOST_IRP) (
+      _In_ PVOID Context,
+      _in_opt_ PIRP Irp
+      );</pre>
+          </td>
+        </tr>
+      </table>
+    </span>
+  </div>
+  <p></p>
+  <dl>
+    <dt>
+      <a id="Context"></a>
+      <a id="context"></a>
+      <a id="CONTEXT"></a>
+      <i>Context</i>
+    </dt>
+    
+      <p>A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. </p>
+    
+    <dt>
+      <a id="Irp"></a>
+      <a id="irp"></a>
+      <a id="IRP"></a>
+      <i>Irp</i>
+    </dt>
+    
+      <p>A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.</p>
+    
+  </dl>
 
 
 ### -param Flags [in]
@@ -172,46 +212,11 @@ Return STATUS_CANNOT_BREAK_OPLOCK if the value of <i>NewLowerOplockState</i> res
 Break only Read (R) upper oplocks and notify R holders that they may again request R.  All other upper oplock checks it will return STATUS_CANNOT_BREAK_OPLOCK.
 
 
-#### - PrePendIrpRoutine [in, optional]
-
-A pointer to a caller-supplied callback routine to be called if <b>FsRtlCheckUpperOplock</b> will return STATUS_PENDING. This parameter is optional and can be <b>NULL</b>. 
-
-This routine is declared as follows: 
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
-(*POPLOCK_FS_PREPOST_IRP) (
-      _In_ PVOID Context,
-      _in_opt_ PIRP Irp
-      );</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-
-
-#### Context
-
-A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. 
-
-
-
-#### Irp
-
-A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
-
-
 ## -returns
 
 
 
-<b>FsRtlCheckUpperOplock</b> returns an appropriate NTSTATUS code such as one of the following: 
+<b>FsRtlCheckUpperOplock</b> returns an appropriate NTSTATUS code such as one of the following:
 
 <table>
 <tr>
@@ -247,7 +252,7 @@ The oplock break cannot be accomplished. See <i>Flags</i> for conditions that re
 </dl>
 </td>
 <td width="60%">
-An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> is called as a notification of the pending operation.  <i>CompletionRoutine</i> is called when the oplock break is complete. STATUS_PENDING is a success code. 
+An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> is called as a notification of the pending operation.  <i>CompletionRoutine</i> is called when the oplock break is complete. STATUS_PENDING is a success code.
 
 </td>
 </tr>

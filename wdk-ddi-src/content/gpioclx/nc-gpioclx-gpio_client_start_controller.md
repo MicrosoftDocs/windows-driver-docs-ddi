@@ -4,7 +4,7 @@ title: GPIO_CLIENT_START_CONTROLLER
 author: windows-driver-content
 description: The CLIENT_StartController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.
 old-location: gpio\client_startcontroller.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

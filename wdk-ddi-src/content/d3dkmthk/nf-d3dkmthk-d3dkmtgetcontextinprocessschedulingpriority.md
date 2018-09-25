@@ -4,10 +4,9 @@ title: D3DKMTGetContextInProcessSchedulingPriority function
 author: windows-driver-content
 description: Called by an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 old-location: display\d3dkmtgetcontextinprocessschedulingpriority.htm
-old-project: display
 ms.assetid: e2a662b6-6a16-4e63-b5a8-5701a7180f60
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTGetContextInProcessSchedulingPriority
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Called by an in-process (in-proc) Microsoft Direct3D composition device to retri
 
 ### -param Arg1
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: FsRtlAllocateResource function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlallocateresource.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a02f87ea-e7e5-48ff-94a2-a76b4f0cd04a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>FsRtlAllocateResource</b> routine is obsolete, but is exported to support
 
 ### -param
 
-TBD
+<p>Reserved.</p>
 
 
 

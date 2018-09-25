@@ -4,7 +4,7 @@ title: RtlTimeFieldsToTime function
 author: windows-driver-content
 description: The RtlTimeFieldsToTime routine converts TIME_FIELDS information to a system time value.
 old-location: kernel\rtltimefieldstotime.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5873b627-6ef4-4e2c-8a53-921f37b729bc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

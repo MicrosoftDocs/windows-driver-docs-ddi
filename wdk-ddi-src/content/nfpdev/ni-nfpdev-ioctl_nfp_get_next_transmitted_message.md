@@ -4,7 +4,7 @@ title: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
 author: windows-driver-content
 description: A client interested in receiving notifications that a message has been transmitted will send the IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE request to the proximity driver.
 old-location: nfpdrivers\ioctl_nfp_get_next_transmitted_message.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 3E8B47B5-D774-4D37-BA57-FAB49C9DE9A3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

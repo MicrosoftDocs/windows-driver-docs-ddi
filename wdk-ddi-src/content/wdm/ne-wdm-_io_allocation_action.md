@@ -4,7 +4,7 @@ title: "_IO_ALLOCATION_ACTION"
 author: windows-driver-content
 description: The IO_ALLOCATION_ACTION enumerated type is used to specify return values for AdapterControl and ControllerControl routines.
 old-location: kernel\io_allocation_action.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 245d35a1-e877-4446-a0da-e50ece3656b1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

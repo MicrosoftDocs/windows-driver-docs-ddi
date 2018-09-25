@@ -4,10 +4,10 @@ title: PROTOCOL_CL_INCOMING_DROP_PARTY
 author: windows-driver-content
 description: The ProtocolClIncomingDropParty function is used by connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolclincomingdropparty.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_INCOMING_DROP_PARTY, PROTOCOL_CL_INCOMING_DROP_PARTY callback, ProtocolClIncomingDropParty, ProtocolClIncomingDropParty callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ac4b9f43-23f6-4300-8110-1589cecffe21.xml, ndis/ProtocolClIncomingDropParty, netvista.protocolclincomingdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices

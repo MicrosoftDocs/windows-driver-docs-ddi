@@ -4,10 +4,10 @@ title: NdisInitiateOffload function
 author: windows-driver-content
 description: A protocol or intermediate driver calls the NdisInitiateOffload function to offload TCP chimney state objects.
 old-location: netvista\ndisinitiateoffload.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a1979227-a447-4dd3-8a5d-7986362020cd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisInitiateOffload, NdisInitiateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisInitiateOffload, netvista.ndisinitiateoffload, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

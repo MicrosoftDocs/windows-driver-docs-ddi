@@ -4,7 +4,7 @@ title: WdfRegistryWdmGetHandle function
 author: windows-driver-content
 description: The WdfRegistryWdmGetHandle method returns a Windows Driver Model (WDM) handle to the registry key that a specified framework registry-key object represents.
 old-location: wdf\wdfregistrywdmgethandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryWdmGetHandle</b> method returns a Windows Driver Model (WDM) handle to the registry key that a specified framework registry-key object represents.
 

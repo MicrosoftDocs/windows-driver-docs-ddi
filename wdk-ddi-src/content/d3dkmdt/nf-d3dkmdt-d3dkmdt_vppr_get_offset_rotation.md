@@ -4,10 +4,10 @@ title: D3DKMDT_VPPR_GET_OFFSET_ROTATION function
 author: windows-driver-content
 description: A helper function that extracts the offset angle from a given value of the D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration.
 old-location: display\d3dkmdt_vppr_get_offset_rotation.htm
-old-project: display
+tech.root: display
 ms.assetid: EA7D2840-63B2-417A-933C-C1D360106264
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_VPPR_GET_OFFSET_ROTATION, D3DKMDT_VPPR_GET_OFFSET_ROTATION function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_OFFSET_ROTATION, display.d3dkmdt_vppr_get_offset_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
 -	D3dkmdt.h
 api_name:

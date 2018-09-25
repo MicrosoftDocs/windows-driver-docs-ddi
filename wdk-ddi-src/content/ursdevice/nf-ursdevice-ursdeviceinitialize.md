@@ -4,10 +4,10 @@ title: UrsDeviceInitialize function
 author: windows-driver-content
 description: Initializes a framework device object to support operations related to a USB dual-role controller and registers the relevant event callback functions with the USB dual-role controller class extension.
 old-location: buses\ursdeviceinitialize.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

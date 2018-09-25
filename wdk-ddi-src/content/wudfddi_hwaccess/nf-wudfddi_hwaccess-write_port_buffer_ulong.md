@@ -4,7 +4,7 @@ title: WRITE_PORT_BUFFER_ULONG function
 author: windows-driver-content
 description: The WRITE_PORT_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified port address.
 old-location: wdf\write_port_buffer_ulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: B5C6FA66-617E-4DB1-A62A-3F3F41E971B0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

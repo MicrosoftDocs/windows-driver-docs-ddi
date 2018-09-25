@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES
 author: windows-driver-content
 description: A driver's EvtDeviceRemoveAddedResources event callback function removes hardware resources that the driver's EvtDeviceFilterAddResourceRequirements callback function added.
 old-location: wdf\evtdeviceremoveaddedresources.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b18c2b34-db6d-4553-9340-556da1fd7991
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceRemoveAddedResources</i> event callback function removes hardware resources that the driver's <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a3-8771-57a8d1f98725">EvtDeviceFilterAddResourceRequirements</a> callback function added.
 

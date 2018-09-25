@@ -4,7 +4,7 @@ title: WdfDmaTransactionGetBytesTransferred function
 author: windows-driver-content
 description: The WdfDmaTransactionGetBytesTransferred method returns the total number of bytes that have been transferred for a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetbytestransferred.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionGetBytesTransferred</b> method returns the total number of bytes that have been transferred for a specified DMA transaction.  
 

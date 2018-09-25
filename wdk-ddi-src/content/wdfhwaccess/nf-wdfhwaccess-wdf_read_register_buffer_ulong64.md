@@ -4,7 +4,7 @@ title: WDF_READ_REGISTER_BUFFER_ULONG64 function
 author: windows-driver-content
 description: The WDF_READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64 values from the specified register address into a buffer.
 old-location: wdf\wdf_read_register_buffer_ulong64.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: E06F6BE4-C450-4810-BB7A-B2818C76A818
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_REGISTER_BUFFER_ULONG64</b> function reads a number of ULONG64 values from the specified register address into a buffer.
 

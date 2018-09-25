@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeFormatRequestForUrb function
 author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForUrb method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforurb.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetPipeFormatRequestForUrb</b> method builds an USB request for a specified USB pipe, using request parameters that a specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> describes, but it does not send the request.
 
@@ -63,7 +63,7 @@ The <b>WdfUsbTargetPipeFormatRequestForUrb</b> method builds an USB request for 
 
 ### -param PIPE
 
-TBD
+<p>A handle to a framework pipe object that was obtained by calling <a href="https://msdn.microsoft.com/library/Ff550057(v=VS.85).aspx"><b>WdfUsbInterfaceGetConfiguredPipe</b></a>. </p>
 
 
 ### -param Request [in]
@@ -81,11 +81,6 @@ If the driver previously called <a href="https://msdn.microsoft.com/library/wind
 ### -param UrbMemoryOffset [in, optional]
 
 A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/Ff548718">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address of the URB within the memory that <i>UrbMemory</i> specifies. If this pointer is <b>NULL</b>, the URB is located at the beginning of the <i>UrbMemory</i> memory. 
-
-
-#### - Pipe [in]
-
-A handle to a framework pipe object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
 ## -returns

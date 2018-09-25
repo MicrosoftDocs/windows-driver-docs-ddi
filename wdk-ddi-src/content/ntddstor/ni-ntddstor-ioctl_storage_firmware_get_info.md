@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_FIRMWARE_GET_INFO
 author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_FIRMWARE_GET_INFO to query a storage device for detailed firmware information.
 old-location: storage\ioctl_storage_firmware_get_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: AB5FA3A5-1187-4925-9EC0-62870851AED1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

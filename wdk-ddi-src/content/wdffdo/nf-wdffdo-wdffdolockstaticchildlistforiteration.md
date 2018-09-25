@@ -4,7 +4,7 @@ title: WdfFdoLockStaticChildListForIteration function
 author: windows-driver-content
 description: The WdfFdoLockStaticChildListForIteration method prepares the framework for retrieving items from the static child list that belongs to a specified parent device.
 old-location: wdf\wdffdolockstaticchildlistforiteration.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 79ff278c-a30e-49f6-9146-badf24970de2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFdoLockStaticChildListForIteration</b> method prepares the framework for retrieving items from the static child list that belongs to a specified parent device. 
 

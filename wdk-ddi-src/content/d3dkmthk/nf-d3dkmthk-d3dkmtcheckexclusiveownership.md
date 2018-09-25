@@ -4,10 +4,9 @@ title: D3DKMTCheckExclusiveOwnership function
 author: windows-driver-content
 description: The D3DKMTCheckExclusiveOwnership function checks whether any kernel device object in the operating system has an exclusive level of ownership of any video present sources.
 old-location: display\d3dkmtcheckexclusiveownership.htm
-old-project: display
 ms.assetid: 1695abc2-13ef-4168-b3f5-e9e8be55c5f0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCheckExclusiveOwnership, D3DKMTCheckExclusiveOwnership callback function [Display Devices], OpenGL_Functions_f5c7a3e5-651c-48f0-b58c-4a6571c10a61.xml, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckExclusiveOwnership, display.d3dkmtcheckexclusiveownership
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCheckExclusiveOwnership
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

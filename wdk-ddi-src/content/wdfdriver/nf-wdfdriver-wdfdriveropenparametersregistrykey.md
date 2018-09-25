@@ -4,7 +4,7 @@ title: WdfDriverOpenParametersRegistryKey function
 author: windows-driver-content
 description: The WdfDriverOpenParametersRegistryKey method opens the driver's Parameters registry key and retrieves a handle to a framework registry-key object that represents the key.
 old-location: wdf\wdfdriveropenparametersregistrykey.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDriverOpenParametersRegistryKey</b> method opens the driver's <b>Parameters</b> registry key and retrieves a handle to a framework registry-key object that represents the key.
 

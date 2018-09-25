@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_ATTACH_BUFFERS"
 author: windows-driver-content
 description: This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
 old-location: ieee\irb_req_isoch_attach_buffers.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

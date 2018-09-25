@@ -8,7 +8,11 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: sensors
+product:
+- Windows
 ---
 
 # Sensorscx.h header

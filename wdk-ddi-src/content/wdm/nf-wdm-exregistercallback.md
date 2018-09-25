@@ -4,7 +4,7 @@ title: ExRegisterCallback function
 author: windows-driver-content
 description: The ExRegisterCallback routine registers a given callback routine with a given callback object.
 old-location: kernel\exregistercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

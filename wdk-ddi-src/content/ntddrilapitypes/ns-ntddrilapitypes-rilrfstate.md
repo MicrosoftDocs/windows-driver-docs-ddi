@@ -4,10 +4,10 @@ title: RILRFSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrfstate.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7eb78864-d20c-4993-8b33-63096bf971fa
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILRFSTATE, RILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilrfstate, ntddrilapitypes/RILRFSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function
 author: windows-driver-content
 description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function initializes a WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure.
 old-location: wdf\wdf_child_address_description_header_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: acc56cb0-5f89-413f-9fdc-a051cc4947c0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 

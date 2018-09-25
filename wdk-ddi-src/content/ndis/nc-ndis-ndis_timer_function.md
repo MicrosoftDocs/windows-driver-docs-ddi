@@ -2,13 +2,13 @@
 UID: NC:ndis.NDIS_TIMER_FUNCTION
 title: NDIS_TIMER_FUNCTION
 author: windows-driver-content
-description: The NetTimerCallback function is called by NDIS after a driver sets a one-shot or periodic timer when a timer fires.Note  You must declare the function by using the NDIS_TIMER_FUNCTION type.
+description: The NdisTimerFunction function is called by NDIS after a driver sets a one-shot or periodic timer when a timer fires.Note  You must declare the function by using the NDIS_TIMER_FUNCTION type.
 old-location: netvista\nettimercallback.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 76e59376-58a4-4e35-bac4-ec5938c88cd7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NetTimerCallback, NetTimerCallback callback function [Network Drivers Starting with Windows Vista], ndis/NetTimerCallback, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
+ms.date: 5/2/2018
+ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NdisTimerFunction, NdisTimerFunction callback function [Network Drivers Starting with Windows Vista], ndis/NdisTimerFunction, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
 -	Ndis.h
 api_name:
--	NetTimerCallback
+-	NdisTimerFunction
 product:
 - Windows
 targetos: Windows
@@ -51,7 +51,7 @@ req.typenames:
 
 
 The 
-  <i>NetTimerCallback</i> function is called by NDIS after a driver sets a one-shot or periodic timer when a
+  <i>NdisTimerFunction</i> callback function is called by NDIS after a driver sets a one-shot or periodic timer when a
   timer fires.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_TIMER_FUNCTION</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -102,8 +102,8 @@ None
 
 
 Any NDIS driver can have one or more 
-    <i>NetTimerCallback</i> functions. Each such 
-    <i>NetTimerCallback</i> function must be associated with a different driver-allocated and initialized
+    <i>NdisTimerFunction</i> callback functions. Each such 
+    <i>NdisTimerFunction</i> callback must be associated with a different driver-allocated and initialized
     timer object.
 
 The driver initializes a driver-allocated timer object by calling the 
@@ -112,24 +112,24 @@ The driver initializes a driver-allocated timer object by calling the
 
 A subsequent call to the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function causes the 
-    <i>NetTimerCallback</i> function that is associated with the timer object to be run after a specified
+    <i>NdisTimerFunction</i> callback that is associated with the timer object to be run after a specified
     interval or periodically.
 
 To cancel calls to 
-    <i>NetTimerCallback</i>, call the 
+    <i>NdisTimerFunction</i>, call the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a> function. NDIS
     might still call 
-    <i>NetTimerCallback</i> if the timeout has already expired before the call to 
+    <i>NdisTimerFunction</i> if the timeout has already expired before the call to 
     <b>NdisCancelTimerObject</b>.
 
 If a 
-    <i>NetTimerCallback</i> function shares resources with other driver functions, the driver should
+    <i>NdisTimerFunction</i> callback shares resources with other driver functions, the driver should
     synchronize access to those resources with a spin lock.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>NetTimerCallback</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>NdisTimerFunction</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-For example, to define a <i>NetTimerCallback</i> function that is named "MyTimerCallback", use the <b>NDIS_TIMER_FUNCTION</b> type as shown in this code example:
+For example, to define a <i>NdisTimerFunction</i> function that is named "MyTimerCallback", use the <b>NDIS_TIMER_FUNCTION</b> type as shown in this code example:
 
 <div class="code"><span codelanguage=""><table>
 <tr>

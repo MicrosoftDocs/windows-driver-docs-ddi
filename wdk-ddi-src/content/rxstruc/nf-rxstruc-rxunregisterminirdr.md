@@ -4,7 +4,7 @@ title: RxUnregisterMinirdr function
 author: windows-driver-content
 description: RxUnregisterMinirdr is an inline routine called by a network mini-redirector driver to de-register the driver with RDBSS and remove the registration information from the internal RDBSS registration table.
 old-location: ifsk\rxunregisterminirdr.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 090e5fc5-a0cf-4df2-b9b9-abaf4833aef7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

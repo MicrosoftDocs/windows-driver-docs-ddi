@@ -2,9 +2,9 @@
 UID: NF:prnasntp.IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
 title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\iprintunidiasyncnotifyregistration_asyncgetnotification.htm
-old-project: print
+tech.root: print
 ms.assetid: 48C444CD-4D8B-491A-98EB-27B8796FD3A7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

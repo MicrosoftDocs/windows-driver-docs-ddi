@@ -4,7 +4,7 @@ title: PFN_DrvWriteSpoolBuf
 author: windows-driver-content
 description: The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete.
 old-location: print\drvwritespoolbuf.htm
-old-project: print
+tech.root: print
 ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

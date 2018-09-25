@@ -2,7 +2,7 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
 title: PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
 author: windows-driver-content
-description:
+description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 ms.assetid: 803a326d-735e-44c3-b27b-a6330094f9af
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 callback function
@@ -94,7 +96,8 @@ Returns one of the following HRESULT values:
 
 If this function returns S_OK, the Microsoft Direct3D runtime calls the VideoDecoderSubmitBuffers function to perform the decoding operations. When all decoding operations have been executed, the runtime calls the VideoDecoderEndFrame function to stop the decoding operation on a video frame.
 
->**Note**  Each call to VideoDecoderBeginFrame must have a matching call to VideoDecoderEndFrame, and VideoDecoderBeginFrame calls cannot be nested.
+> [!NOTE]
+> Each call to VideoDecoderBeginFrame must have a matching call to VideoDecoderEndFrame, and VideoDecoderBeginFrame calls cannot be nested.
 
 The [D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0](ns-d3d10umddi-d3dwddm2_4ddiarg_videodecoderbeginframe_rs4_0.md) structure contains the following data:
 
@@ -103,7 +106,8 @@ The [D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0](ns-d3d10umddi-d3dwddm2_4ddia
 
 If the *pContentKey* member of this structure is not set to NULL, the buffer that is referenced by this member contains a per-frame content key. This key must be used to decrypt the data instead of using the session key.
 
->**Note**  If the *pContentKey* member is not set to NULL, the buffer that is referenced by this member is encrypted by using the session key with the AES-ECB algorithm.
+> [!NOTE]
+> If the *pContentKey* member is not set to NULL, the buffer that is referenced by this member is encrypted by using the session key with the AES-ECB algorithm.
 
 If the pContentKey member is set to NULL, the video frame data should be decrypted by using the session key.
 

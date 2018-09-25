@@ -4,7 +4,7 @@ title: IDE_DEVICE_TYPE
 author: windows-driver-content
 description: The IDE_DEVICE_TYPE enumeration type indicates the device type.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_device_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

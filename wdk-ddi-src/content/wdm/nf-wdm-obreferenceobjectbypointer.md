@@ -4,7 +4,7 @@ title: ObReferenceObjectByPointer function
 author: windows-driver-content
 description: The ObReferenceObjectByPointer routine increments the pointer reference count for a given object.
 old-location: kernel\obreferenceobjectbypointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c575bd3f-6790-4815-b7c7-8ee16a9cac17
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

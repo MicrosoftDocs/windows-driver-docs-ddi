@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 8c206673-e9d0-4b06-82c5-d94901f3962f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDynamicConceptProviderConcept::Release, Release, IDynamicConceptProviderConcept.Release, IDynamicConceptProviderConcept::Release, IDynamicConceptProviderConcept.Release
 req.header: dbgmodel.h
@@ -43,14 +43,23 @@ targetos: Windows
 
 
 ## -description
+Decrements the reference count for an interface on an object. 
 
-TBD
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
+
 ## -see-also
+
+
+[IDynamicConceptProviderConcept interface](nn-dbgmodel-idynamicconceptproviderconcept.md)

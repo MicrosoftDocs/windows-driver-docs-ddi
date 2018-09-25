@@ -4,7 +4,7 @@ title: GdiPlayPageEMF function
 author: windows-driver-content
 description: The GdiPlayPageEMF function plays the EMF records within a specified rectangle for one document page of a spooled print job.
 old-location: print\gdiplaypageemf.htm
-old-project: print
+tech.root: print
 ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

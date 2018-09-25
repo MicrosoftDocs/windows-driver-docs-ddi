@@ -4,7 +4,7 @@ title: WdfRequestWdmFormatUsingStackLocation function
 author: windows-driver-content
 description: The WdfRequestWdmFormatUsingStackLocation method formats an I/O request by copying the contents of a specified WDM I/O stack location structure to the next stack location in the request.
 old-location: wdf\wdfrequestwdmformatusingstacklocation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestWdmFormatUsingStackLocation</b> method formats an I/O request by copying the contents of a specified WDM <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a> structure to the next stack location in the request.
 

@@ -4,7 +4,7 @@ title: IBidiSpl
 author: windows-driver-content
 description: The IBidiSpl interface allows an application or other objects to send a single bidi request or a list of bidi requests.
 old-location: print\ibidispl.htm
-old-project: print
+tech.root: print
 ms.assetid: 7e4a30b2-ac3a-475a-b818-455cdb7a91bf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

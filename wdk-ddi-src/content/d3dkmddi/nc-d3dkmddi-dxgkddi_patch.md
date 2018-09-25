@@ -4,10 +4,9 @@ title: DXGKDDI_PATCH
 author: windows-driver-content
 description: The DxgkDdiPatch function assigns physical addresses to the given direct memory access (DMA) buffer before the DMA buffer is submitted to the graphics hardware.
 old-location: display\dxgkddipatch.htm
-old-project: display
 ms.assetid: 363be784-0e3b-4f9a-a643-80857478bbae
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_PATCH, DXGKDDI_PATCH callback, DmFunctions_dc8691fa-b688-4762-a641-93e4625d8931.xml, DxgkDdiPatch, DxgkDdiPatch callback function [Display Devices], d3dkmddi/DxgkDdiPatch, display.dxgkddipatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

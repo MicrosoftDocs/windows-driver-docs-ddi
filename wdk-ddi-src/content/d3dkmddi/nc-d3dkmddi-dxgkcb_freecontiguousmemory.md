@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_FREECONTIGUOUSMEMORY
 title: DXGKCB_FREECONTIGUOUSMEMORY
 author: windows-driver-content
-description:
+description: Implemented by the client driver to release a range of physically contiguous memory that was allocated by DXGKCB_ALLOCATECONTIGUOUSMEMORY.
 ms.assetid: da301608-4cfa-4247-9f91-84a633ab87af
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKCB_FREECONTIGUOUSMEMORY
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGKCB_FREECONTIGUOUSMEMORY callback function

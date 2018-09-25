@@ -4,7 +4,7 @@ title: KSWAVE_COMPATCAPS
 author: windows-driver-content
 description: The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
 old-location: stream\kswave_compatcaps.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: UcmConnectorTypeCCurrentAdChanged function
 author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) when the specified connector changes the current advertisement. Either the connector changes it (when it is DFP/Source), or the partner changed it (when it is UFP/Sink).
 old-location: buses\ucmconnectortypeccurrentadchanged.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 26C4D840-2287-4DC2-B039-FD8D2FB92288
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, ucmmanager/UcmConnectorTypeCCurrentAdChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

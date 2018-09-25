@@ -4,10 +4,9 @@ title: "_DXGK_GDIARG_COLORFILL"
 author: windows-driver-content
 description: The DXGK_GDIARG_COLORFILL structure describes the characteristics of a GDI hardware-accelerated color fill operation.
 old-location: display\dxgk_gdiarg_colorfill.htm
-old-project: display
 ms.assetid: f7dad933-31e6-4de2-9753-67c054f44c4a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL structure [Display Devices], DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, _DXGK_GDIARG_COLORFILL, d3dkmddi/DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GDIARG_COLORFILL
 ---
 

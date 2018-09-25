@@ -4,7 +4,7 @@ title: DOT11EXTIHV_RECEIVE_INDICATION
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvreceiveindication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b4d5c33e-563d-459c-90da-a2912c82d1cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvReceiveIndication</i> function to issue an IHV-specific indication to the IHV Extensions DLL
   from the wireless LAN (WLAN) adapter.
 
@@ -80,21 +80,21 @@ DWORD APIENTRY Dot11ExtIhvReceiveIndication(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
-     specified through a previous call to the 
+     specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
 ### -param indicationType [in]
 
-The 
+The
      <a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">
      DOT11EXT_IHV_INDICATION_TYPE</a> indication type.
 
 
 ### -param uBufferLength [in]
 
-The length, in bytes, of the data within the buffer that is referenced by the 
+The length, in bytes, of the data within the buffer that is referenced by the
      <i>pvBuffer</i> parameter.
 
 
@@ -109,7 +109,7 @@ The pointer to a buffer, allocated by the operating system, which contains the n
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -119,10 +119,10 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an 
+When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
     NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a> indication, the operating system forwards the notification
-    data to the IHV Extensions DLL by calling the 
+    data to the IHV Extensions DLL by calling the
     <i>Dot11ExtIhvReceiveIndication</i> function.
 
 

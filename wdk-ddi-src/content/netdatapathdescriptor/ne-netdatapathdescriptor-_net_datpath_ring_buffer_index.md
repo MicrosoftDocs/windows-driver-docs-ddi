@@ -28,7 +28,8 @@ apilocation:
 -	netdatapathdescriptor.h
 apiname: 
 -	_NET_DATPATH_RING_BUFFER_INDEX
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 
@@ -38,7 +39,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_DATAPATH_RING_BUFFER_INDEX** enumeration defines indices in a datapath queue's array of ring buffers.
 
@@ -60,7 +61,7 @@ NIC client drivers should not use this enumeration directly. Instead, they shoul
 
 ## -see-also
 
-[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net_datapath_descriptor.md)
 

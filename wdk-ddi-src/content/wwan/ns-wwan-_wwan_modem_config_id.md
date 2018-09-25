@@ -31,7 +31,8 @@ apilocation:
 -	wwan.h
 apiname: 
 -	_WWAN_MODEM_CONFIG_ID
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

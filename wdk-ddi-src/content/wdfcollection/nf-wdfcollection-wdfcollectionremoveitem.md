@@ -4,7 +4,7 @@ title: WdfCollectionRemoveItem function
 author: windows-driver-content
 description: The WdfCollectionRemoveItem method removes a specified object from an object collection, based on a specified index value.
 old-location: wdf\wdfcollectionremoveitem.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCollectionRemoveItem</b> method removes a specified object from an object collection, based on a specified index value. 
 

@@ -4,7 +4,7 @@ title: "_WDF_FILEOBJECT_CLASS"
 author: windows-driver-content
 description: The WDF_FILEOBJECT_CLASS enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open.
 old-location: wdf\wdf_fileobject_class.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e0887061-eafe-4dba-bb7a-58bf949e2d08
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_FILEOBJECT_CLASS, *PWDF_FILEOBJECT_CLASS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_FILEOBJECT_CLASS</b> enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open. These values also specify where the framework can store the object's handle.
 

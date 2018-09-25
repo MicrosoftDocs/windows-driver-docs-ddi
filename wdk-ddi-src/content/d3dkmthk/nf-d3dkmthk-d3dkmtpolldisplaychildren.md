@@ -4,10 +4,9 @@ title: D3DKMTPollDisplayChildren function
 author: windows-driver-content
 description: The D3DKMTPollDisplayChildren function queries for connectivity status of all child devices of the given adapter.
 old-location: display\d3dkmtpolldisplaychildren.htm
-old-project: display
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices], OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, d3dkmthk/D3DKMTPollDisplayChildren, display.d3dkmtpolldisplaychildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTPollDisplayChildren</b> function queries for connectivity status of
 
 ### -param D3DKMT_POLLDISPLAYCHILDREN
 
-TBD
+
 
 
 

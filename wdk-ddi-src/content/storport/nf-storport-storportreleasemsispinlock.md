@@ -4,7 +4,7 @@ title: StorPortReleaseMSISpinLock function
 author: windows-driver-content
 description: The StorPortReleaseMSISpinLock routine releases a previously acquired message signaled interrupt (MSI) spin lock for the specified message.
 old-location: storage\storportreleasemsispinlock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5a2cf757-9dca-4717-a775-834a22c02a12
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -65,17 +65,12 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param MessageId
 
-TBD
+<p>The identifier of the message.</p>
 
 
 ### -param OldIrql [in]
 
 The IRQL that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567023">StorPortAcquireMSISpinLock</a> routine returned when the miniport driver acquired the spin lock.
-
-
-#### - MessageID [in]
-
-The identifier of the message.
 
 
 ## -returns

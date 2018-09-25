@@ -4,7 +4,7 @@ title: WdfChildListUpdateChildDescriptionAsMissing function
 author: windows-driver-content
 description: The WdfChildListUpdateChildDescriptionAsMissing method informs the framework that a specified child device is currently unplugged or otherwise unavailable.
 old-location: wdf\wdfchildlistupdatechilddescriptionasmissing.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 21932a96-285c-490d-a1fb-a137aed57bbb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListUpdateChildDescriptionAsMissing</b> method informs the framework that a specified child device is currently unplugged or otherwise unavailable.
 

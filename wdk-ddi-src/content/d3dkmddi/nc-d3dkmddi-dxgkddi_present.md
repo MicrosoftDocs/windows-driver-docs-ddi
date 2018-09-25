@@ -4,10 +4,9 @@ title: DXGKDDI_PRESENT
 author: windows-driver-content
 description: The DxgkDdiPresent function copies content from source allocations to a primary surface (and sometimes to off-screen system memory allocations).
 old-location: display\dxgkddipresent.htm
-old-project: display
 ms.assetid: 1a46b129-1e78-44e6-a609-59eab206692b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_PRESENT, DXGKDDI_PRESENT callback, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml, DxgkDdiPresent, DxgkDdiPresent callback function [Display Devices], d3dkmddi/DxgkDdiPresent, display.dxgkddipresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

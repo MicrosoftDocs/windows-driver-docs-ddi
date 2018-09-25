@@ -2,7 +2,7 @@
 UID: NF:netadapterpacket.NetPacketGetContextFromToken
 title: NetPacketGetContextFromToken function
 author: windows-driver-content
-description: The NetPacketGetContextFromToken method retrieves a NET_PACKET context based on a NET_PACKET_CONTEXT_TOKEN.
+description: Client drivers should not call this method directly. Instead, they should call an accessor method created by a call to NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME.
 ms.assetid: 437a8acf-4f9b-4a82-a6f2-b815343c8f3e
 ms.author: windowsdriverdev
 ms.date: 02/07/2018
@@ -35,9 +35,11 @@ apilocation:
 -	netadapterpacket.h
 apiname: 
 -	NetPacketGetContextFromToken
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetPacketGetContextFromToken function
@@ -48,9 +50,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
-
-The **NetPacketGetContextFromToken** method retrieves a [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) context based on a NET_PACKET_CONTEXT_TOKEN.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Client drivers should not call this method directly. Instead, they should call an accessor method created by a call to [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](nf-netadapterpacket-net_packet_declare_context_type_with_name.md).
 

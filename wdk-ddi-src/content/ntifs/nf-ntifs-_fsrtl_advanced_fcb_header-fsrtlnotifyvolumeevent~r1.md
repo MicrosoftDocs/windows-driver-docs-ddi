@@ -4,7 +4,7 @@ title: FsRtlNotifyVolumeEvent function
 author: windows-driver-content
 description: The FsRtlNotifyVolumeEvent routine notifies any registered applications that a volume event is occurring.
 old-location: ifsk\fsrtlnotifyvolumeevent.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications that a volume event is occurring. 
+The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications that a volume event is occurring.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications t
 
 ### -param FileObject [in]
 
-A pointer to a file object for the given volume. 
+A pointer to a file object for the given volume.
 
 
 ### -param EventCode [in]
@@ -277,7 +277,7 @@ The volume is a write-once, read-many (WORM) volume and it is nearly full. This 
 
 
 
-<b>FsRtlNotifyVolumeEvent</b> returns the status of the notification. 
+<b>FsRtlNotifyVolumeEvent</b> returns the status of the notification.
 
 
 
@@ -286,11 +286,11 @@ The volume is a write-once, read-many (WORM) volume and it is nearly full. This 
 
 
 
-File systems call <b>FsRtlNotifyVolumeEvent</b> to notify any registered user-mode applications that a volume event is occurring. 
+File systems call <b>FsRtlNotifyVolumeEvent</b> to notify any registered user-mode applications that a volume event is occurring.
 
-PnP event GUID values are defined in Ioevent.h. 
+PnP event GUID values are defined in Ioevent.h.
 
-To register for volume event notification, applications must call the Microsoft Win32 <b>RegisterDeviceNotification</b> function. For more information, see the Device Management section in the Microsoft Windows SDK documentation. 
+To register for volume event notification, applications must call the Microsoft Win32 <b>RegisterDeviceNotification</b> function. For more information, see the Device Management section in the Microsoft Windows SDK documentation.
 
 
 

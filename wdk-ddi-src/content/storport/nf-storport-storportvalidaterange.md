@@ -4,7 +4,7 @@ title: StorPortValidateRange function
 author: windows-driver-content
 description: The StorPortValidateRange routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems.
 old-location: storage\storportvalidaterange.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -71,7 +71,7 @@ Contains a value of type <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -param SystemIoBusNumber
 
-TBD
+<p>Contains an integer identifying a system bus.</p>
 
 
 ### -param IoAddress [in]
@@ -87,11 +87,6 @@ Contains the length in bytes of the range of addresses to be validated.
 ### -param InIoSpace [in]
 
 Indicates, when <b>TRUE</b>, that the address range is in I/O space. If <b>FALSE</b>, the address is in memory space. 
-
-
-#### - SystemToBusNumber [in]
-
-Contains an integer identifying a system bus.
 
 
 ## -returns

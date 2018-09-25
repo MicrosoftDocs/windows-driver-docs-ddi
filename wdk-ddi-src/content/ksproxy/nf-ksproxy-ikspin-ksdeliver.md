@@ -4,7 +4,7 @@ title: IKsPin::KsDeliver
 author: windows-driver-content
 description: The KsDeliver method delivers a media sample from an output pin to an input pin, continues an I/O operation by retrieving the next buffer from an allocator, and submits the buffer to the associated device.
 old-location: stream\ikspin_ksdeliver.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

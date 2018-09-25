@@ -4,7 +4,7 @@ title: IPrinterQueue2
 author: windows-driver-content
 description: Represents a single printer queue.
 old-location: print\iprinterqueue2.htm
-old-project: print
+tech.root: print
 ms.assetid: 06459A1F-A14B-43BA-9771-47205CC3F388
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

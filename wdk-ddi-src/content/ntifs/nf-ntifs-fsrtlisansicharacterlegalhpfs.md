@@ -4,7 +4,7 @@ title: FsRtlIsAnsiCharacterLegalHpfs macro
 author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegalHpfs macro determines whether an ANSI character is legal for HPFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalhpfs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7c7e79ff-badf-4f5b-bab6-5b9fa1656e23
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,26 +60,16 @@ The <b>FsRtlIsAnsiCharacterLegalHpfs</b> macro determines whether an ANSI charac
 
 ### -param C
 
-TBD
+<p>Pointer to the character to be tested.</p>
 
 
 ### -param WILD_OK
 
-TBD
+<p>Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.</p>
 
 
 
 
-
-
-#### - Character
-
-Pointer to the character to be tested.
-
-
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
 ## -remarks

@@ -4,7 +4,7 @@ title: WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function
 author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that obtains device status.
 old-location: wdf\wdf_usb_control_setup_packet_init_get_status.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1d21fe54-761b-42cf-9da2-83687cb9e079
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a> structure for a USB control transfer that obtains device status.
 

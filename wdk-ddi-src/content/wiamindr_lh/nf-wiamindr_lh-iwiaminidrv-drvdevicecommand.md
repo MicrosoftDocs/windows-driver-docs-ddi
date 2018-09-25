@@ -4,10 +4,10 @@ title: IWiaMiniDrv::drvDeviceCommand
 author: windows-driver-content
 description: The IWiaMiniDrv::drvDeviceCommand method issues a command to a WIA device.
 old-location: image\iwiaminidrv_drvdevicecommand.htm
-old-project: image
+tech.root: image
 ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeviceCommand method, IWiaMiniDrv.drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdevicecommand, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

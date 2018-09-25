@@ -4,7 +4,7 @@ title: IOCTL_SERENUM_PORT_DESC
 author: windows-driver-content
 description: The IOCTL_SERENUM_PORT_DESC request returns a description of the RS-232 port associated with a filter DO.
 old-location: serports\ioctl_serenum_port_desc.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 9ecaa3fa-137d-4f79-9316-727ecab35da8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

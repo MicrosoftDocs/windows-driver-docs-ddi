@@ -4,7 +4,7 @@ title: KsDecrementCountedWorker function
 author: windows-driver-content
 description: Decrements the current worker count of a worker previous created by KsRegisterCountedWorker. This should be called after each task within a worker has been completed.
 old-location: stream\ksdecrementcountedworker.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2b38e4df-e5b6-480b-bd4e-62e059e26411
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

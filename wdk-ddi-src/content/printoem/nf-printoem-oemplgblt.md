@@ -4,7 +4,7 @@ title: OEMPlgBlt function
 author: windows-driver-content
 description: The OEMPlgBlt function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
 old-location: print\oemplgblt.htm
-old-project: print
+tech.root: print
 ms.assetid: c33a9592-8e1b-4028-bd34-72cc4885f17f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

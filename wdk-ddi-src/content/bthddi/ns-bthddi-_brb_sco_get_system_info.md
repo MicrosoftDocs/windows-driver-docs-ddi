@@ -4,7 +4,7 @@ title: "_BRB_SCO_GET_SYSTEM_INFO"
 author: windows-driver-content
 description: The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local system's support for SCO connections.
 old-location: bltooth\_brb_sco_get_system_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

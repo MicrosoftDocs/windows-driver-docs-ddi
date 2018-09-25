@@ -4,7 +4,7 @@ title: IPrintCoreHelper
 author: windows-driver-content
 description: This section describes the methods that are defined for the IPrintCoreHelper COM interface.
 old-location: print\iprintcorehelper_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: db13410f-e4cb-4077-bb4b-7963e97b435c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

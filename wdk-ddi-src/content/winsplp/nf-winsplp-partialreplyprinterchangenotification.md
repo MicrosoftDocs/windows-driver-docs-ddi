@@ -4,7 +4,7 @@ title: PartialReplyPrinterChangeNotification function
 author: windows-driver-content
 description: The print spooler's PartialReplyPrinterChangeNotification function allows a print provider to update the spooler's database of printer changes associated with a notification handle.
 old-location: print\partialreplyprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -60,12 +60,12 @@ The print spooler's <code>PartialReplyPrinterChangeNotification</code> function 
 
 ### -param hPrinter
 
-TBD
+
 
 
 ### -param pDataSrc
 
-TBD
+
 
 
 

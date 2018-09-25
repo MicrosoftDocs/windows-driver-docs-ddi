@@ -4,7 +4,7 @@ title: IPrinterExtensionEventArgs::get_DetailedReasonId
 author: windows-driver-content
 description: Gets a more detailed activation reason than what can be retrieved from ReasonId.
 old-location: print\iprinterextensioneventargs_detailedreasonid.htm
-old-project: print
+tech.root: print
 ms.assetid: B39DC40A-2B7D-402F-B88C-E6684BF9AA0F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: OEMResetPDEV function
 author: windows-driver-content
 description: OEMResetPDEV function
 old-location: print\oemresetpdev.htm
-old-project: print
+tech.root: print
 ms.assetid: 92ae8382-49f3-4bfc-917a-047991953809
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

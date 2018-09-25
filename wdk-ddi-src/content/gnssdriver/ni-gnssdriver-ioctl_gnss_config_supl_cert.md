@@ -4,7 +4,7 @@ title: IOCTL_GNSS_CONFIG_SUPL_CERT
 author: windows-driver-content
 description: The IOCTL_GNSS_CONFIG_SUPL_CERT control code is used by the GNSS adapter to set SUPL certificates.
 old-location: gnss\ioctl_gnss_config_supl_cert.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 34095934-26C1-4855-9ED9-71627E88A903
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

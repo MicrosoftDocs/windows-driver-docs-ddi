@@ -4,10 +4,9 @@ title: "_DXGKARGCB_GETHANDLEDATA"
 author: windows-driver-content
 description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 old-location: display\dxgkargcb_gethandledata.htm
-old-project: display
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_GETHANDLEDATA
 ---
 

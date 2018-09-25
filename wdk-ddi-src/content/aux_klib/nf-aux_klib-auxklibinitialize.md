@@ -4,7 +4,7 @@ title: AuxKlibInitialize function
 author: windows-driver-content
 description: The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library.
 old-location: kernel\auxklibinitialize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7e15cbe1-17f7-4df7-9273-9a365d309d03
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KeQueryTimeIncrement function
 author: windows-driver-content
 description: The KeQueryTimeIncrement routine returns the number of 100-nanosecond units that are added to the system time each time the interval clock interrupts.
 old-location: kernel\kequerytimeincrement.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f8291e2b-a7a1-4a19-9137-fcd93e62bbaf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

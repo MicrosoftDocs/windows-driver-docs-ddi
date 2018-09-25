@@ -4,10 +4,9 @@ title: PFND3D10DDI_CHECKCOUNTER
 author: windows-driver-content
 description: The CheckCounter function retrieves information that describes a counter.
 old-location: display\checkcounter.htm
-old-project: display
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CheckCounter, CheckCounter callback function [Display Devices], PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER callback, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml, d3d10umddi/CheckCounter, display.checkcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

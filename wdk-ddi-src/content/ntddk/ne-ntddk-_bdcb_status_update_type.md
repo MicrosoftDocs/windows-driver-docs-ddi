@@ -4,7 +4,7 @@ title: "_BDCB_STATUS_UPDATE_TYPE"
 author: windows-driver-content
 description: The BDCB_STATUS_UPDATE_TYPE enumeration lists the types of boot-driver callback status updates.
 old-location: kernel\bdcb_status_update_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

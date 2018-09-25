@@ -4,7 +4,7 @@ title: WdfDeviceAssignProperty function
 author: windows-driver-content
 description: The WdfDeviceAssignProperty method modifies the current setting of a device property.
 old-location: wdf\wdfdeviceassignproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceAssignProperty</b> method modifies the current setting of a device property.
 

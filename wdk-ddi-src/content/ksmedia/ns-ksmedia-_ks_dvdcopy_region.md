@@ -4,7 +4,7 @@ title: "_KS_DVDCOPY_REGION"
 author: windows-driver-content
 description: The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
 old-location: stream\ks_dvdcopy_region.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

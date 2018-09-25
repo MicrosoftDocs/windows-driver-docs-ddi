@@ -4,7 +4,7 @@ title: WdfCommonBufferGetAlignedLogicalAddress function
 author: windows-driver-content
 description: The WdfCommonBufferGetAlignedLogicalAddress method returns the logical address that is associated with a specified common buffer.
 old-location: wdf\wdfcommonbuffergetalignedlogicaladdress.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6222db07-5aba-467c-94a5-18493dfb1524
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCommonBufferGetAlignedLogicalAddress</b> method returns the logical address that is associated with a specified common buffer. 
 

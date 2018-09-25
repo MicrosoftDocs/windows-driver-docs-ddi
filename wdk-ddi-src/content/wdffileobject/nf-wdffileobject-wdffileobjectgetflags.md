@@ -4,7 +4,7 @@ title: WdfFileObjectGetFlags function
 author: windows-driver-content
 description: The WdfFileObjectGetFlags method returns the flags that a specified framework file object contains.
 old-location: wdf\wdffileobjectgetflags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFileObjectGetFlags</b> method returns the flags that a specified framework file object contains.
 

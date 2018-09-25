@@ -4,7 +4,7 @@ title: EVT_WDFDEVICE_WDM_IRP_PREPROCESS
 author: windows-driver-content
 description: A driver's EvtDeviceWdmIrpPreprocess event callback function receives an IRP before the framework processes the IRP.
 old-location: wdf\evtdevicewdmirppreprocess.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceWdmIrpPreprocess</i> event callback function receives an IRP before the framework processes the IRP.
 

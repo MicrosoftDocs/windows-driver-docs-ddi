@@ -4,7 +4,7 @@ title: FsRtlRemoveLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlRemoveLargeMcbEntry routine removes one or more mappings from a map control block (MCB).
 old-location: ifsk\fsrtlremovelargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c0608442-59ba-4431-94d5-7514555d0b4f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlRemoveLargeMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,34 +60,19 @@ The <b>FsRtlRemoveLargeMcbEntry</b> routine removes one or more mappings from a 
 
 ### -param Mcb
 
-TBD
+<p>Pointer to the MCB structure. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. </p>
 
 
 ### -param SectorCount
 
-TBD
+<p>Number of sectors (VBNs) in the range for which mappings are to be removed. </p>
 
 
-
-
-#### - LargeSectorCount [in]
-
-Number of sectors (VBNs) in the range for which mappings are to be removed. 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. 
-
-
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
 
 
 ## -returns

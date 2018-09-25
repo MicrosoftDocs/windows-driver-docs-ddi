@@ -4,7 +4,7 @@ title: WdfDmaTransactionStopSystemTransfer function
 author: windows-driver-content
 description: The WdfDmaTransactionStopSystemTransfer method attempts to stop a system-mode DMA transfer after the framework has called EvtProgramDma.
 old-location: wdf\wdfdmatransactionstopsystemtransfer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 55674946-A2DA-4695-8673-6BF3123FB5FC
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The 

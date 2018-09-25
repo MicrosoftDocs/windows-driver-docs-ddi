@@ -4,10 +4,9 @@ title: D3D12DDI_CRYPTO_SESSION_FLAGS_0030
 author: windows-driver-content
 description: The crypto session flags.
 old-location: display\d3d12ddi-crypto-session-flags-0030.htm
-old-project: display
 ms.assetid: 0a799227-9b37-45f6-bded-e56c439e465f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_CRYPTO_SESSION_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration [Display Devices], D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAGS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, display.d3d12ddi-crypto-session-flags-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_CRYPTO_SESSION_FLAGS_0030
 ---
 

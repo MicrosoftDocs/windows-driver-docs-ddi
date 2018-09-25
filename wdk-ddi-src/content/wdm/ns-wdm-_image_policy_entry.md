@@ -4,7 +4,7 @@ title: "_IMAGE_POLICY_ENTRY"
 author: windows-driver-content
 description: This structure is not supported.
 old-location: kernel\_image_policy_entry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ea400bef-5c69-4f75-b96e-aae12292fd5a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

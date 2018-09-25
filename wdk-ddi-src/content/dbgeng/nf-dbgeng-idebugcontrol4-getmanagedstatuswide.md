@@ -4,10 +4,10 @@ title: IDebugControl4::GetManagedStatusWide
 author: windows-driver-content
 description: Provides feedback as a Unicode character string on the engine's use of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_getmanagedstatuswide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 5854BB6A-EB5F-493A-96E4-0DF298EC0332
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetManagedStatusWide, GetManagedStatusWide method [Windows Debugging], GetManagedStatusWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetManagedStatusWide method, IDebugControl4.GetManagedStatusWide, IDebugControl4::GetManagedStatusWide, dbgeng/IDebugControl4::GetManagedStatusWide, debugger.idebugcontrol4_getmanagedstatuswide
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer::SendXpsDocument
 author: windows-driver-content
 description: The SendXpsDocument method sends an XPS document to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsdocument.htm
-old-project: print
+tech.root: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

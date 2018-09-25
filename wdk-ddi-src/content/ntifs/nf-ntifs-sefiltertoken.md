@@ -4,7 +4,7 @@ title: SeFilterToken function
 author: windows-driver-content
 description: The SeFilterToken routine creates a new access token that is a restricted version of an existing access token.
 old-location: ifsk\sefiltertoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -131,14 +131,9 @@ This parameter is optional and can be <b>NULL</b>.
 
 ### -param FilteredToken
 
-TBD
+<p>Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. </p>
 
 
-
-
-#### - NewToken [out]
-
-Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. 
 
 
 ## -returns

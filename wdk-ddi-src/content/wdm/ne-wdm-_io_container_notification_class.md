@@ -4,7 +4,7 @@ title: "_IO_CONTAINER_NOTIFICATION_CLASS"
 author: windows-driver-content
 description: The IO_CONTAINER_NOTIFICATION_CLASS enumeration contains constants that indicate the classes of events for which a kernel-mode driver can register to receive notifications.
 old-location: kernel\io_container_notification_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

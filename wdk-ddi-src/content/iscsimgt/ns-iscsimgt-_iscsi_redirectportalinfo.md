@@ -4,7 +4,7 @@ title: "_ISCSI_RedirectPortalInfo"
 author: windows-driver-content
 description: This ISCSI_RedirectPortalInfo structure contains information about a collection of iSCSI portals that can be used during portal hopping or portal redirect operations.
 old-location: storage\iscsi_redirectportalinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

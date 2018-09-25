@@ -4,7 +4,7 @@ title: WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function
 author: windows-driver-content
 description: The WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a driver's WDF_POWER_POLICY_EVENT_CALLBACKS structure.
 old-location: wdf\wdf_power_policy_event_callbacks_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 09ab4995-58be-4d87-adf7-e843e637ac09
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_POWER_POLICY_EVENT_CALLBACKS_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552424">WDF_POWER_POLICY_EVENT_CALLBACKS</a> structure.
 

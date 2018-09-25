@@ -4,7 +4,7 @@ title: FsRtlIsUnicodeCharacterWild macro
 author: windows-driver-content
 description: The FsRtlIsUnicodeCharacterWild macro determines whether a Unicode character is a wildcard character.
 old-location: ifsk\fsrtlisunicodecharacterwild.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5e72aa2e-3aa6-49e5-b49f-339722060d5b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,16 +60,11 @@ The <b>FsRtlIsUnicodeCharacterWild</b> macro determines whether a Unicode charac
 
 ### -param C
 
-TBD
+<p>Pointer to the character to be tested.</p>
 
 
 
 
-
-
-#### - Character
-
-Pointer to the character to be tested.
 
 
 ## -remarks

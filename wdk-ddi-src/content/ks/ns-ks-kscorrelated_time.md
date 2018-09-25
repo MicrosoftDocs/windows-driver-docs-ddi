@@ -4,7 +4,7 @@ title: KSCORRELATED_TIME
 author: windows-driver-content
 description: The KSCORRELATED_TIME structure contains a clock time as well as the corresponding number of clock ticks since system boot.
 old-location: stream\kscorrelated_time.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d733f50c-01a2-484f-ab5b-72aaa3378c7d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,9 @@ title: PFND3DWDDM1_3DDI_COPYTILEMAPPINGS
 author: windows-driver-content
 description: Copies mappings from a source tiled resource to a destination tiled resource.
 old-location: display\copytilemappings.htm
-old-project: display
 ms.assetid: CB2CE5E7-DDD4-4782-BB91-67A2C562A975
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CopyTileMappings, CopyTileMappings callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILEMAPPINGS, PFND3DWDDM1_3DDI_COPYTILEMAPPINGS callback, d3d10umddi/CopyTileMappings, display.copytilemappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

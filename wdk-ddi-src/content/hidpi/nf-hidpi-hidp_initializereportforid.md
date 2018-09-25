@@ -4,7 +4,7 @@ title: HidP_InitializeReportForID function
 author: windows-driver-content
 description: The HidP_InitializeReportForID routine initializes a HID report.
 old-location: hid\hidp_initializereportforid.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

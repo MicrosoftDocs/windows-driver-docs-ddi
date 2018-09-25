@@ -4,7 +4,7 @@ title: SdpCreateNodeUUID32 function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeUUID32 function is used to allocate and initialize an SDP_NODE structure to a 32-bit UUID type.
 old-location: bltooth\sdpcreatenodeuuid32.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2e67e0eb-9daa-4b38-947a-46893f9d6eab
 ms.author: windowsdriverdev
 ms.date: 4/27/2018
@@ -62,17 +62,12 @@ The Bluetooth
 
 ### -param uuidVal4
 
-TBD
+<p>The 32-bit UUID value to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - ulVal [in]
-
-The 32-bit UUID value to initialize the SDP_NODE structure.
 
 
 ## -returns

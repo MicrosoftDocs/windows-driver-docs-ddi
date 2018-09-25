@@ -4,7 +4,7 @@ title: RtlLengthSecurityDescriptor function
 author: windows-driver-content
 description: The RtlLengthSecurityDescriptor routine returns the size of a given security descriptor.
 old-location: kernel\rtllengthsecuritydescriptor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e06888eb-2ced-46c0-bdbf-3bad57020bf7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: AtaPortInitializeQueueTag function
 author: windows-driver-content
 description: The AtaPortInitializeQueueTag routine initializes the queue tag list for the specified device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportinitializequeuetag.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f6d40f3e-4bc9-4b30-97ac-600a33280305
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -63,7 +63,7 @@ The <b>AtaPortInitializeQueueTag</b> routine initializes the queue tag list for 
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]
@@ -79,11 +79,6 @@ Specifies the logical unit number (LUN) of the device.
 ### -param MaxQueueTag [in]
 
 Specifies the maximum allowed value for the queue tag.
-
-
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
 
 
 ## -returns

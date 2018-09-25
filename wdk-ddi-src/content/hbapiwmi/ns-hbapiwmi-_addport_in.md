@@ -4,7 +4,7 @@ title: "_AddPort_IN"
 author: windows-driver-content
 description: The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the AddPort WMI method to the HBA miniport driver.
 old-location: storage\addport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c9cdc0fc-e292-4142-a070-50a25a2a5673
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RtlStringCchCopyNA function
 author: windows-driver-content
 description: The RtlStringCchCopyNW and RtlStringCchCopyNA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopyn.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 86ec1a98-d70f-437c-9c8b-005bf78375ba
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -78,14 +78,9 @@ A pointer to a caller-supplied, null-terminated string.
 
 ### -param cchToCopy
 
-TBD
+<p>The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.</p>
 
 
-
-
-#### - cchSrc [in]
-
-The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.
 
 
 ## -returns

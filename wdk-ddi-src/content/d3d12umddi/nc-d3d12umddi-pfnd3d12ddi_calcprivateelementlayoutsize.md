@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE
 title: PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE
 author: windows-driver-content
-description: 
+description: The CalcPrivateElementLayoutSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an element layout.
 ms.assetid: 0de50da1-011c-4595-bd82-c0f17e11f595
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+The CalcPrivateElementLayoutSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an element layout.
 
 ## -prototype
 
@@ -67,18 +69,21 @@ PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
 
 
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns SIZE_T.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

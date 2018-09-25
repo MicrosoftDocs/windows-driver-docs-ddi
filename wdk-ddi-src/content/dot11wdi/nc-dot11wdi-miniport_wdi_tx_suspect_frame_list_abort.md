@@ -34,7 +34,8 @@ api_location:
 -	dot11wdi.h
 api_name: 
 -	MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

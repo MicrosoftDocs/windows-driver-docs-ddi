@@ -4,7 +4,7 @@ title: GenerateCopyFilePaths function
 author: windows-driver-content
 description: A Point and Print DLL's GenerateCopyFilePaths function is used for modifying the source and destination paths used by print spoolers when they copy print queue-associated files to a print client.
 old-location: print\generatecopyfilepaths.htm
-old-project: print
+tech.root: print
 ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

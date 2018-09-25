@@ -4,7 +4,7 @@ title: BranchOfficeJobData
 author: windows-driver-content
 description: This structure contains the type of event to log (eEventType), the job ID, and the data required by the event.
 old-location: print\branchofficejobdata.htm
-old-project: print
+tech.root: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

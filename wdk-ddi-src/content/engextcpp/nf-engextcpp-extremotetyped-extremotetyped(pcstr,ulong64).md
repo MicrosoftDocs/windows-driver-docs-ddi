@@ -4,10 +4,10 @@ title: ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64)
 author: windows-driver-content
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_pcstr_ulong64.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 85b6e625-ad5a-4e11-a39a-418e0aa152c3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(PCSTR,ULONG64), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64), debugger.extremotetyped_extremotetyped_pcstr_ulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.ExtRemoteTyped
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

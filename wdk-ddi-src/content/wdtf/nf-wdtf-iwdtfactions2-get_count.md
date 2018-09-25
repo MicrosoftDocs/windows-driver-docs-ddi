@@ -4,7 +4,7 @@ title: IWDTFActions2::get_Count
 author: windows-driver-content
 description: Gets the number of actions in this collection.
 old-location: dtf\iwdtfactions2_count.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 73115e3a-3749-4751-a460-7557c996c0b8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

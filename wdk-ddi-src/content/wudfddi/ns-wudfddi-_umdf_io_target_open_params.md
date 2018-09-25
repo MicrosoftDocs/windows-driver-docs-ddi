@@ -4,7 +4,7 @@ title: "_UMDF_IO_TARGET_OPEN_PARAMS"
 author: windows-driver-content
 description: The UMDF_IO_TARGET_OPEN_PARAMS structure contains file-open parameters.
 old-location: wdf\umdf_io_target_open_params.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ee8c3585-4e27-4b53-99d8-0af0c5a0099d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

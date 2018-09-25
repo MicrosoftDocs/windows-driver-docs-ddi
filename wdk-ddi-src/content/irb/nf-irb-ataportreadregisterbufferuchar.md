@@ -4,7 +4,7 @@ title: AtaPortReadRegisterBufferUchar function
 author: windows-driver-content
 description: The AtaPortReadRegisterBufferUchar routine transfers a specified number of unsigned bytes from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: adc6724b-f3dc-4605-8ee1-198c88bc3fcd
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

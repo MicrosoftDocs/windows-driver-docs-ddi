@@ -4,7 +4,7 @@ title: "_OB_PRE_OPERATION_INFORMATION"
 author: windows-driver-content
 description: The OB_PRE_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPreCallback routine.
 old-location: kernel\ob_pre_operation_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2fe0f1aa-cf9f-4b45-8c34-a6d810fd461a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

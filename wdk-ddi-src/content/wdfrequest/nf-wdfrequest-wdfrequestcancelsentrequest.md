@@ -4,7 +4,7 @@ title: WdfRequestCancelSentRequest function
 author: windows-driver-content
 description: The WdfRequestCancelSentRequest method attempts to cancel an I/O request that the caller previously submitted to an I/O target.
 old-location: wdf\wdfrequestcancelsentrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 24319054-5e5c-4330-86e5-b1527c48eaf2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestCancelSentRequest</b> method attempts to cancel an I/O request that the caller previously submitted to an I/O target.
 

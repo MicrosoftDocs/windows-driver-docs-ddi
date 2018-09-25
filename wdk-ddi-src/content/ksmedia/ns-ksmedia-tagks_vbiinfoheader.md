@@ -4,7 +4,7 @@ title: tagKS_VBIINFOHEADER
 author: windows-driver-content
 description: The KS_VBIINFOHEADER structure describes raw vertical blanking interval (VBI) streams.
 old-location: stream\ks_vbiinfoheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4424be3a-6e73-449c-b5fb-5cbc1109490d
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

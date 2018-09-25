@@ -4,7 +4,7 @@ title: "_FILE_FS_OBJECTID_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_OBJECTID_INFORMATION structure is used to query or set the object ID for a file system volume.
 old-location: ifsk\file_fs_objectid_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 37da9699-2edb-4a32-a865-2bf3b1cef157
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: PsStartSiloMonitor function
 author: windows-driver-content
 description: This routine tries to start the server silo monitor.
 old-location: kernel\psstartsilomonitor.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,10 +4,9 @@ title: D3D11_1DDIARG_SIGNATURE_ENTRY
 author: windows-driver-content
 description: Describes an entry for a signature.
 old-location: display\d3d11_1ddiarg_signature_entry.htm
-old-project: display
 ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY, D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, display.d3d11_1ddiarg_signature_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDIARG_SIGNATURE_ENTRY
 ---
 

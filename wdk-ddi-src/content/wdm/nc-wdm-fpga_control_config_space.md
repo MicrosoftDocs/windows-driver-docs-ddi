@@ -34,7 +34,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	FPGA_CONTROL_CONFIG_SPACE
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -4,10 +4,10 @@ title: "_D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS"
 author: windows-driver-content
 description: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS describes the type of input synchronization objects to wait for.
 old-location: display\d3dddi_waitforsynchronizationobjectfromcpu_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 2283D20F-D256-48E5-BFD2-D3ACACD7BF1C
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure [Display Devices], _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, d3dukmdt/D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, display.d3dddi_waitforsynchronizationobjectfromcpu_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

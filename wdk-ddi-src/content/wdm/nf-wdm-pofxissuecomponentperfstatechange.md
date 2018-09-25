@@ -4,7 +4,7 @@ title: PoFxIssueComponentPerfStateChange function
 author: windows-driver-content
 description: The PoFxIssueComponentPerfStateChange routine submits a request to place a device component in a particular performance state.
 old-location: kernel\pofxissuecomponentperfstatechange.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DBB4747B-F6CF-4842-988C-6FAA9C552EA9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceRetrieveInformation function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceRetrieveInformation method retrieves information about the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdeviceretrieveinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceRetrieveInformation</b> method retrieves information about the USB device that is associated with a specified framework USB device object.
 

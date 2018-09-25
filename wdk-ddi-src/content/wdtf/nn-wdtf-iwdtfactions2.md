@@ -4,7 +4,7 @@ title: IWDTFActions2
 author: windows-driver-content
 description: Defines operations and properties for the collection of actions that the IWDTFTargets::GetInterfaces method returns.
 old-location: dtf\iwdtfactions2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: cf78bd7f-7d92-421f-8f68-e56db5e7c7d4
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -2,9 +2,9 @@
 UID: NF:winddiui.DrvSplWritePrinter
 title: DrvSplWritePrinter function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\drvsplwriteprinter.htm
-old-project: print
+tech.root: print
 ms.assetid: c42bb90a-3c38-4c0c-b523-10e740a027c4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: FltGetDeviceObject function
 author: windows-driver-content
 description: The FltGetDeviceObject routine returns a pointer to the Filter Manager's volume device object (VDO) for a given volume.
 old-location: ifsk\fltgetdeviceobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1351efd1-1f7f-4f4b-b0ce-d9f08fba6613
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

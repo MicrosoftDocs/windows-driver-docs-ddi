@@ -4,7 +4,7 @@ title: KsStreamPointerAdvance function
 author: windows-driver-content
 description: The KsStreamPointerAdvance function advances a stream pointer to the next data frame.
 old-location: stream\ksstreampointeradvance.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 98d0b8ce-5485-4584-b164-a1bc698b08ba
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

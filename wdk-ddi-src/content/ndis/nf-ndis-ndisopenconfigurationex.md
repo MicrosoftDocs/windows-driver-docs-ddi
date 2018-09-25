@@ -4,10 +4,10 @@ title: NdisOpenConfigurationEx function
 author: windows-driver-content
 description: NDIS drivers call the NdisOpenConfigurationEx function to get a configuration handle that allows access to configuration parameters in the registry.
 old-location: netvista\ndisopenconfigurationex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 76539106-6d8d-4a80-9c74-a6a4ca37c40e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisOpenConfigurationEx, NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationEx, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml, netvista.ndisopenconfigurationex
 ms.prod: windows-hardware
 ms.technology: windows-devices

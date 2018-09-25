@@ -4,7 +4,7 @@ title: "_CHANGER_MOVE_MEDIUM"
 author: windows-driver-content
 description: The CHANGER_MOVE_MEDIUM structure is used in conjunction with the IOCTL_CHANGER_MOVE_MEDIUM request to move a piece of media from a source element to a destination.
 old-location: storage\changer_move_medium.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b19c8add-7377-40d2-8496-fcfa166ac143
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

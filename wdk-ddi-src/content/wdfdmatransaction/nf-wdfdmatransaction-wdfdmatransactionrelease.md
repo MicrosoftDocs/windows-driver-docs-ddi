@@ -4,7 +4,7 @@ title: WdfDmaTransactionRelease function
 author: windows-driver-content
 description: The WdfDmaTransactionRelease method terminates a specified DMA transaction without deleting the associated DMA transaction object.
 old-location: wdf\wdfdmatransactionrelease.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b271e095-1ac5-4795-82b0-954a17df334a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionRelease</b> method terminates a specified DMA transaction without deleting the associated DMA transaction object.  
 

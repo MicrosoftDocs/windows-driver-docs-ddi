@@ -4,7 +4,7 @@ title: FsRtlCompleteRequest macro
 author: windows-driver-content
 description: The FsRtlCompleteRequest macro completes an IRP with the specified status.
 old-location: ifsk\fsrtlcompleterequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dd53d3c5-3a31-4ea9-9f16-0d1b9397f63e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,26 +60,16 @@ The <b>FsRtlCompleteRequest</b> macro completes an IRP with the specified status
 
 ### -param IRP
 
-TBD
+<p>Pointer to the IRP to be completed.</p>
 
 
 ### -param STATUS
 
-TBD
+<p>Status value to be returned for the IRP.</p>
 
 
 
 
-
-
-#### - Irp [in]
-
-Pointer to the IRP to be completed.
-
-
-#### - Status [in]
-
-Status value to be returned for the IRP.
 
 
 ## -see-also

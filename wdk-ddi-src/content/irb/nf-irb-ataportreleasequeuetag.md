@@ -4,7 +4,7 @@ title: AtaPortReleaseQueueTag function
 author: windows-driver-content
 description: The AtaPortReleaseQueueTag routine releases the specified queue tag.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreleasequeuetag.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 54399050-740f-4af8-ad85-cd3060f14af4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -63,7 +63,7 @@ The <b>AtaPortReleaseQueueTag</b> routine releases the specified queue tag.
 
 ### -param DeviceExtension
 
-TBD
+<p>A pointer to the channel extension.</p>
 
 
 ### -param TargetId [in]
@@ -79,11 +79,6 @@ Specifies the logical unit number of the device.
 ### -param QueueTag [in]
 
 Specifies the queue tag to be freed.
-
-
-#### - ChannelExtension [in]
-
-A pointer to the channel extension.
 
 
 ## -returns

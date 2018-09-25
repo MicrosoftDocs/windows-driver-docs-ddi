@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_PARAMETER_DATA
 title: D3D12DDIARG_METACOMMAND_PARAMETER_DATA
 author: windows-driver-content
-description:
+description: Contains the data for a meta-command's parameter.
 ms.assetid: 04c29d9e-641a-4757-a50a-dae8da63d964
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_METACOMMAND_PARAMETER_DATA
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDIARG_METACOMMAND_PARAMETER_DATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDIARG_METACOMMAND_PARAMETER_DATA structure

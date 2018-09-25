@@ -4,7 +4,7 @@ title: HidP_GetUsages function
 author: windows-driver-content
 description: The HidP_GetUsages routine returns a list of all the HID control button usages that are on a specified usage page and are set to ON in a HID report.
 old-location: hid\hidp_getusages.htm
-old-project: hid
+tech.root: hid
 ms.assetid: e35ae7c6-2cf4-4f20-bb00-7f33ae133118
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: FsRtlLookupLastLargeMcbEntry function
 author: windows-driver-content
 description: The FsRtlLookupLastLargeMcbEntry routine retrieves the last mapping entry stored in the map control block (MCB).
 old-location: ifsk\fsrtllookuplastlargemcbentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c12a5b96-2e11-45c6-aebf-ee49ac911fa0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlLookupLastLargeMcbEntry
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,34 +60,19 @@ The <b>FsRtlLookupLastLargeMcbEntry</b> routine retrieves the last mapping entry
 
 ### -param Mcb
 
-TBD
+<p>Pointer to an initialized MCB structure to be searched. </p>
 
 
 ### -param Vbn
 
-TBD
+<p>Pointer to a variable that receives the last virtual block number (VBN) that was mapped.</p>
 
 
 ### -param Lbn
 
-TBD
+<p>Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. </p>
 
 
-
-
-#### - LargeLbn [out]
-
-Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. 
-
-
-#### - LargeVbn [out]
-
-Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
-
-
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure to be searched. 
 
 
 ## -returns

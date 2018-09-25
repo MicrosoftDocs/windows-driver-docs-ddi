@@ -4,10 +4,9 @@ title: PFND3D10DDI_DESTROYBLENDSTATE
 author: windows-driver-content
 description: The DestroyBlendState function destroys the specified blend state object. The blend state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyblendstate.htm
-old-project: display
 ms.assetid: 56fc1ecf-fd4c-4d36-941b-8fa6cca3b6b4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyBlendState, DestroyBlendState callback function [Display Devices], PFND3D10DDI_DESTROYBLENDSTATE, PFND3D10DDI_DESTROYBLENDSTATE callback, UserModeDisplayDriverDx10_Functions_8af7f412-da7f-4326-a681-41bdfb4a97bb.xml, d3d10umddi/DestroyBlendState, display.destroyblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

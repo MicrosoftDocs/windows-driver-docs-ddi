@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice::GetWinUsbHandle
 author: windows-driver-content
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 old-location: wdf\iwdfusbtargetdevice_getwinusbhandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

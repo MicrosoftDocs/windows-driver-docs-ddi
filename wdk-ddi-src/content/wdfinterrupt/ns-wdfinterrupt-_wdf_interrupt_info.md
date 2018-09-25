@@ -4,7 +4,7 @@ title: "_WDF_INTERRUPT_INFO"
 author: windows-driver-content
 description: The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource.
 old-location: wdf\wdf_interrupt_info.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7e626306-6ad9-4d99-a578-60bf69a3e73d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_INTERRUPT_INFO</b> structure contains information about a device's interrupt resource.
 
@@ -72,7 +72,7 @@ This member is reserved for future use.
 
 ### -field TargetProcessorSet
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed value that specifies the interrupt's processor affinity.
+A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies the interrupt's processor affinity.
 
 
 ### -field Reserved2
@@ -134,7 +134,7 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

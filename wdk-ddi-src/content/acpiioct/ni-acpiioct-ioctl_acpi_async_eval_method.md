@@ -4,7 +4,7 @@ title: IOCTL_ACPI_ASYNC_EVAL_METHOD
 author: windows-driver-content
 description: A driver for a device can use the IOCTL_ACPI_ASYNC_EVAL_METHOD device control request to asynchronously evaluate an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_async_eval_method.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 43dcbd78-97c6-469e-9f66-f50959dc60e2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

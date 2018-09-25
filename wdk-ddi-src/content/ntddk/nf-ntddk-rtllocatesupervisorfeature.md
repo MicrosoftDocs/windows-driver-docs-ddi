@@ -34,7 +34,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	RtlLocateSupervisorFeature
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

@@ -4,10 +4,10 @@ title: "_D3DDDI_ADAPTERCALLBACKS"
 author: windows-driver-content
 description: The D3DDDI_ADAPTERCALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 old-location: display\d3dddi_adaptercallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: b912449b-45d1-473d-aa14-b3f3ffbfefff
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDI_ADAPTERCALLBACKS, D3DDDI_ADAPTERCALLBACKS structure [Display Devices], D3D_other_Structs_6919397d-68ab-4ada-9f39-bf08bc0ac9ae.xml, _D3DDDI_ADAPTERCALLBACKS, d3dumddi/D3DDDI_ADAPTERCALLBACKS, display.d3dddi_adaptercallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

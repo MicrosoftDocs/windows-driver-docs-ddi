@@ -4,7 +4,7 @@ title: RtlUIntPtrToChar function
 author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type CHAR.
 old-location: kernel\rtluintptrtochar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 531A8110-FF91-4DE7-8FC5-305A2525DD40
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,24 +60,14 @@ Converts a value of type <b>UINT_PTR</b> to a value of type <b>CHAR</b>.
 
 ### -param uOperand
 
-TBD
+<p>The value to be converted.</p>
 
 
 ### -param pch
 
-TBD
+<p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - pulResult [out]
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
-#### - sOperand [in]
-
-The value to be converted.
 
 
 ## -remarks

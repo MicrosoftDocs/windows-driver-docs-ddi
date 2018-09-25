@@ -4,7 +4,7 @@ title: StorPortReadPortBufferUshort macro
 author: windows-driver-content
 description: The StorPortReadPortBufferUshort routine reads a value from a specified port address.
 old-location: storage\storportreadportbufferushort.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

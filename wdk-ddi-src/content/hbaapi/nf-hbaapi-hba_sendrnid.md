@@ -4,7 +4,7 @@ title: HBA_SendRNID function
 author: windows-driver-content
 description: The HBA_SendRNID routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server.
 old-location: storage\hba_sendrnid.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,7 +60,7 @@ The <b>HBA_SendRNID</b> routine sends a request for node identification data (RN
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA that will route the command. The HBA routes this command to the appropriate fabric configuration server. </p>
 
 
 ### -param Wwn [in]
@@ -70,7 +70,7 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies a port or a node
 
 ### -param WnnType
 
-TBD
+<p>Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/Ff557245(v=VS.85).aspx"><b>HBA_wwntype</b></a> that indicates whether the WWN specified by <i>Wwn </i>is a port or a node:</p>
 
 
 ### -param pRspBuffer [out]
@@ -81,16 +81,6 @@ Pointer to a buffer that contains, in big-endian (wire) format, the payload data
 ### -param RspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command to the appropriate fabric configuration server. 
-
-
-#### - WwnType [in]
-
-Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557245">HBA_wwntype</a> that indicates whether the WWN specified by <i>Wwn </i>is a port or a node:
 
 
 ## -returns

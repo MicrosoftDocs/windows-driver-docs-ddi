@@ -4,7 +4,7 @@ title: EVT_WDF_INTERRUPT_ENABLE
 author: windows-driver-content
 description: A driver's EvtInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\evtinterruptenable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 981195e6-6f62-4a6f-9c84-d98f6cd7bab3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtInterruptEnable</i> event callback function enables a specified hardware interrupt.
 

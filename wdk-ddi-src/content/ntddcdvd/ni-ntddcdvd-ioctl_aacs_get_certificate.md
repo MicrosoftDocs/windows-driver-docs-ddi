@@ -4,7 +4,7 @@ title: IOCTL_AACS_GET_CERTIFICATE
 author: windows-driver-content
 description: Queries the logical unit for the device certificate.
 old-location: storage\ioctl_aacs_get_certificate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1245f9c3-702c-48d8-8ecd-c0ce40d520b3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

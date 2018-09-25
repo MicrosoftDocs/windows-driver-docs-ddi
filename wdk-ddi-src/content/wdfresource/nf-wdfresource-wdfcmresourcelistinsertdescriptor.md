@@ -4,7 +4,7 @@ title: WdfCmResourceListInsertDescriptor function
 author: windows-driver-content
 description: The WdfCmResourceListInsertDescriptor method inserts a resource descriptor into a specified resource list.
 old-location: wdf\wdfcmresourcelistinsertdescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 18406f06-d60c-401e-a745-54caf1d0c21d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCmResourceListInsertDescriptor</b> method inserts a resource descriptor into a specified resource list.
 

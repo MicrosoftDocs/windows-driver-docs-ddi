@@ -4,7 +4,7 @@ title: KsReadFile function
 author: windows-driver-content
 description: The KsReadFile function performs a read against the specified file object.
 old-location: stream\ksreadfile.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e3bb6ead-8129-4605-8755-3a56d4b3d8f6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -91,7 +91,7 @@ Specifies the size of the buffer passed.
 
 ### -param OPTIONAL
 
-TBD
+
 
 
 ### -param RequestorMode [in]

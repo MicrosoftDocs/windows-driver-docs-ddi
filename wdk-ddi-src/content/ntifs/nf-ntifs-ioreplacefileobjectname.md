@@ -4,7 +4,7 @@ title: IoReplaceFileObjectName function
 author: windows-driver-content
 description: The IoReplaceFileObjectName routine replaces the name of a file object.
 old-location: ifsk\ioreplacefileobjectname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1550a35f-2733-4ee8-9715-d82f96eb5da7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

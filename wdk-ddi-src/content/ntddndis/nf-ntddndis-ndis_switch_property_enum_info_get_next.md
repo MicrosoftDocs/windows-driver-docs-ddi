@@ -33,7 +33,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

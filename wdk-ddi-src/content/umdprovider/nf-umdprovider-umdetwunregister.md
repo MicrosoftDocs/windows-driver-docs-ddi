@@ -4,10 +4,10 @@ title: UMDEtwUnregister function
 author: windows-driver-content
 description: Unregisters the event trace provider. Call this function before the user-mode driver is unloaded. After this function is called, the driver should not make any other calls to log events.
 old-location: display\umdetwunregister.htm
-old-project: display
+tech.root: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
 -	umdprovider.h
 api_name:

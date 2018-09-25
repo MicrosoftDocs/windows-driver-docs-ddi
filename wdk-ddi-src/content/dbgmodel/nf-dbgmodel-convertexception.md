@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: cd951fc0-c5a0-4e62-ad33-cfc6a834d849
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/08/2018
 ms.topic: function
 ms.keywords: ConvertException
 req.header: dbgmodel.h

@@ -4,7 +4,7 @@ title: FsRtlIsNameInExpression function
 author: windows-driver-content
 description: The FsRtlIsNameInExpression routine determines whether a Unicode string matches the specified pattern.
 old-location: ifsk\fsrtlisnameinexpression.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available in Windows 2000 and later versions of the Windows operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
@@ -50,7 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlIsNameInExpression</b> routine determines whether a Unicode string matches the specified pattern. 
+The <b>FsRtlIsNameInExpression</b> routine determines whether a Unicode string matches the specified pattern.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>FsRtlIsNameInExpression</b> routine determines whether a Unicode string m
 
 ### -param Expression [in]
 
-A pointer to the pattern string. Can contain wildcard characters. If <i>IgnoreCase</i> is <b>TRUE</b>, <i>Expression</i> must be uppercase. 
+A pointer to the pattern string. Can contain wildcard characters. If <i>IgnoreCase</i> is <b>TRUE</b>, <i>Expression</i> must be uppercase.
 
 
 ### -param Name [in]
 
-A pointer to the string to be compared against the pattern. Cannot contain wildcard characters. 
+A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
 
 ### -param IgnoreCase [in]
@@ -156,7 +156,7 @@ Matches zero or more characters until encountering and matching the final . in t
 
 </div>
 <div> </div>
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
 
 
 

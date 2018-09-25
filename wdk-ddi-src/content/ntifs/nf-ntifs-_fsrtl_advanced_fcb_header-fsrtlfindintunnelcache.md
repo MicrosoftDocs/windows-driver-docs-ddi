@@ -4,7 +4,7 @@ title: FsRtlFindInTunnelCache function
 author: windows-driver-content
 description: The FsRtlFindInTunnelCache routine searches for a matching entry in the tunnel cache that matches the specified name.
 old-location: ifsk\fsrtlfindintunnelcache.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlFindInTunnelCache
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -64,7 +65,7 @@ Pointer to a tunnel cache initialized by <a href="https://msdn.microsoft.com/lib
 
 ### -param DirectoryKey
 
-TBD
+<p>Key value of the directory containing the file that is being created or renamed.</p>
 
 
 ### -param Name [in]
@@ -90,11 +91,6 @@ On input, this is a pointer to a variable that specifies the length of the buffe
 ### -param Data [out]
 
 Pointer to a caller-allocated buffer to receive the data found in the tunnel cache. 
-
-
-#### - DirKey [in]
-
-Key value of the directory containing the file that is being created or renamed.
 
 
 ## -returns

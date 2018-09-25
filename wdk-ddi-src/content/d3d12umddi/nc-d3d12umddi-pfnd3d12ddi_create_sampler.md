@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_SAMPLER
 title: PFND3D12DDI_CREATE_SAMPLER
 author: windows-driver-content
-description: 
+description: Create sampler.
 ms.assetid: b15f237f-2ef3-4b88-88cb-4a2f3c9e6fc9
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CREATE_SAMPLER
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CREATE_SAMPLER callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Create sampler. 
 
 ## -prototype
 
@@ -68,19 +70,18 @@ PFND3D12DDI_CREATE_SAMPLER
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
+### -param * 
+
+Pointer to a D3D12DDIARG_CREATE_SAMPLER structure.
+
 ### -param DestDescriptor: 
 
-
+A CPU descriptor handle.
 
 ## -returns
 
-Returns VOID that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns VOID.

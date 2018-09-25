@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 08520bbf-96dd-431c-8752-f1243a277e03
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::Release, Release, IDataModelScriptDebug2.Release, IDataModelScriptDebug2::Release, IDataModelScriptDebug2.Release
 req.header: dbgmodel.h
@@ -44,13 +44,21 @@ targetos: Windows
 
 ## -description
 
-TBD
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)

@@ -4,10 +4,9 @@ title: DXGKDDI_SETTARGETCONTENTTYPE
 author: windows-driver-content
 description: Passes the content type for which the driver should optimize on the specified target.
 old-location: display\dxgkddi_settargetcontenttype.htm
-old-project: display
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_SETTARGETCONTENTTYPE, DXGKDDI_SETTARGETCONTENTTYPE callback, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE, display.dxgkddi_settargetcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

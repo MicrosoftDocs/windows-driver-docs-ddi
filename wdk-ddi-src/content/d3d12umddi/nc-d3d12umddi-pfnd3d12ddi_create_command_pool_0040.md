@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_POOL_0040
 title: PFND3D12DDI_CREATE_COMMAND_POOL_0040
 author: windows-driver-content
-description:
+description: Implemented by the client driver to create a command pool.
 ms.assetid: 04cc7078-a69b-4783-adea-21131baf49dd
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_CREATE_COMMAND_POOL_0040
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CREATE_COMMAND_POOL_0040 callback function

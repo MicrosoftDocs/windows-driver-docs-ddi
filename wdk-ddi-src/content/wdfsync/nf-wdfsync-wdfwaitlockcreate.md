@@ -4,7 +4,7 @@ title: WdfWaitLockCreate function
 author: windows-driver-content
 description: The WdfWaitLockCreate method creates a framework wait-lock object.
 old-location: wdf\wdfwaitlockcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a0ffa493-4490-440b-9f67-426a7b5d4442
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWaitLockCreate</b> method creates a framework wait-lock object.
 

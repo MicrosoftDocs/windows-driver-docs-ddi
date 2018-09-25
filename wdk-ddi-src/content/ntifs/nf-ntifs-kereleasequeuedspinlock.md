@@ -4,7 +4,7 @@ title: KeReleaseQueuedSpinLock function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kereleasequeuedspinlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d10baf1a-149d-4499-89de-e151327218f7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>KeReleaseQueuedSpinLock</b> routine is reserved for system use.
 
 ### -param Number
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param OldIrql

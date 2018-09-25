@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice::SetPowerPolicy
 author: windows-driver-content
 description: The SetPowerPolicy method sets the WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_setpowerpolicy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

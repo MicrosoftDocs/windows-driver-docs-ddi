@@ -4,10 +4,10 @@ title: "_KSAUDIO_PACKETSIZE_CONSTRAINTS2"
 author: windows-driver-content
 description: The KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure describes the physical hardware constraints.
 old-location: audio\ksaudio_packetsize_constraints2.htm
-old-project: audio
+tech.root: audio
 ms.assetid: E87C7AA7-A48A-4569-ADD5-9DC143F919B6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: FILE_128_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_BYTE_ALIGNMENT, FILE_LONG_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_WORD_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS2, KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure [Audio Devices], PKSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2 structure pointer [Audio Devices], _KSAUDIO_PACKETSIZE_CONSTRAINTS2, audio.ksaudio_packetsize_constraints2, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS2, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS2
 ms.prod: windows-hardware
 ms.technology: windows-devices

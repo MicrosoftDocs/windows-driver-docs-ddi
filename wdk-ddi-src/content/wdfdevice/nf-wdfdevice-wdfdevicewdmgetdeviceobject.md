@@ -4,7 +4,7 @@ title: WdfDeviceWdmGetDeviceObject function
 author: windows-driver-content
 description: The WdfDeviceWdmGetDeviceObject method returns the Windows Driver Model (WDM) device object that is associated with a specified framework device object.
 old-location: wdf\wdfdevicewdmgetdeviceobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 87a427ae-5c1e-4975-a48f-80c3549a3564
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceWdmGetDeviceObject</b> method returns the Windows Driver Model (WDM) device object that is associated with a specified framework device object.
 
@@ -63,14 +63,9 @@ The <b>WdfDeviceWdmGetDeviceObject</b> method returns the Windows Driver Model (
 
 ### -param Device
 
-TBD
+<p>A handle to a framework device object.</p>
 
 
-
-
-#### - hDevice [in]
-
-A handle to a framework device object.
 
 
 ## -returns

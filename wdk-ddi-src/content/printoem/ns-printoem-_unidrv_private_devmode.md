@@ -4,7 +4,7 @@ title: "_UNIDRV_PRIVATE_DEVMODE"
 author: windows-driver-content
 description: The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
 old-location: print\unidrv_private_devmode.htm
-old-project: print
+tech.root: print
 ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -2,7 +2,7 @@
 UID: NF:ntddstor.RtlZeroMemory
 title: RtlZeroMemory macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: c45de332-ebef-43d7-b1ce-852c08291127
 ms.author: windowsdriverdev
 ms.date: 
@@ -33,7 +33,8 @@ api_location:
 -	ntddstor.h
 api_name: 
 -	RtlZeroMemory
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

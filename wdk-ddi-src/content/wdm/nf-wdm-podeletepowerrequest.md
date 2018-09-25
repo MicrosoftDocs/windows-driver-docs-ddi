@@ -4,7 +4,7 @@ title: PoDeletePowerRequest function
 author: windows-driver-content
 description: The PoDeletePowerRequest routine deletes a power request object.
 old-location: kernel\podeletepowerrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21298d5b-e99f-470f-a352-65da2d91b81e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

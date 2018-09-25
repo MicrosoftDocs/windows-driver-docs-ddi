@@ -4,7 +4,7 @@ title: KSPROPERTY_TUNER_SCAN_STATUS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_SCAN_STATUS_S structure describes status for a scanning operation.
 old-location: stream\ksproperty_tuner_scan_status_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b09373ef-7b65-46f7-b5b7-a6dcecf0166c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

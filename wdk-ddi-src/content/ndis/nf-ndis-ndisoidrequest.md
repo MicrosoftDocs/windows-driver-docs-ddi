@@ -4,10 +4,10 @@ title: NdisOidRequest function
 author: windows-driver-content
 description: The NdisOidRequest function forwards a request to the underlying drivers to query the capabilities or status of an adapter or set the state of an adapter.
 old-location: netvista\ndisoidrequest.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

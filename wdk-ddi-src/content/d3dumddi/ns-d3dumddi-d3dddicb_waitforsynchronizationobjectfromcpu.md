@@ -4,10 +4,10 @@ title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 author: windows-driver-content
 description: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU is used with pfnWaitForSynchronizationObjectFromCpuCb to wait for a monitored fence to reach a certain value.
 old-location: display\d3dddicb_waitforsynchronizationobjectfromcpu.htm
-old-project: display
+tech.root: display
 ms.assetid: 0F5BEDBF-6871-4343-88D1-85E7620171EF
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices

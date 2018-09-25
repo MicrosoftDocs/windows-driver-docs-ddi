@@ -4,7 +4,7 @@ title: HBA_OpenAdapterByWWN function
 author: windows-driver-content
 description: The HBA_OpenAdapterByWWN routine opens the HBA that is associated with either a node or a port that has the indicated name.
 old-location: storage\hba_openadapterbywwn.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

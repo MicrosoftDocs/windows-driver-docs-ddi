@@ -4,7 +4,7 @@ title: WdfDeviceInitSetPnpPowerEventCallbacks function
 author: windows-driver-content
 description: The WdfDeviceInitSetPnpPowerEventCallbacks method registers a driver's Plug and Play and power management event callback functions.
 old-location: wdf\wdfdeviceinitsetpnppowereventcallbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ace53515-0e8a-487d-abf7-caaa09478ed5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceInitSetPnpPowerEventCallbacks</b> method registers a driver's Plug and Play and power management event callback functions.
 

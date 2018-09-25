@@ -4,7 +4,7 @@ title: KsGenerateDataEvent function
 author: windows-driver-content
 description: The KsGenerateDataEvent function generates one of the standard event notifications when given an event entry structure and callback data.
 old-location: stream\ksgeneratedataevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3ba49134-e144-4212-9ef7-e16b9d5f90ea
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

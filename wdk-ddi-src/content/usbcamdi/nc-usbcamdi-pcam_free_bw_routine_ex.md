@@ -4,7 +4,7 @@ title: PCAM_FREE_BW_ROUTINE_EX
 author: windows-driver-content
 description: A camera minidriver's CamFreeBandwidthEx callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 old-location: stream\camfreebandwidthex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ef6aa2bf-8b45-4048-ac21-b069e28b556f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

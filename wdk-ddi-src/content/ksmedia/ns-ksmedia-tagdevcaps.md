@@ -4,7 +4,7 @@ title: tagDEVCAPS
 author: windows-driver-content
 description: The DEVCAPS structure describes the capabilities of an external device.
 old-location: stream\devcaps.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: wiauDbgFlags function
 author: windows-driver-content
 description: The wiauDbgFlags function determines whether a particular debugging flag is set.
 old-location: image\wiaudbgflags.htm
-old-project: image
+tech.root: image
 ms.assetid: 2185a1c0-e952-4dbd-b1a9-82339e417774
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbgflags, wiauDbgFlags, wiauDbgFlags function [Imaging Devices], wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, wiautil/wiauDbgFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -75,12 +75,12 @@ Pointer to a string containing the name of the function or method into which the
 
 ### -param fmt
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: FsRtlIncrementCcFastReadNotPossible function
 author: windows-driver-content
 description: The FsRtlIncrementCcFastReadNotPossible routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadnotpossible.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2e0ae5d1-5189-4f78-9729-9c1b9bbf046d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

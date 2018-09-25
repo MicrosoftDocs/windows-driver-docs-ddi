@@ -4,7 +4,7 @@ title: RtlSizeTSub function
 author: windows-driver-content
 description: Subtracts one value of type SIZE_T from another.
 old-location: kernel\rtlsizetsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B7508B3B-DCE7-42F4-9257-E1E140625DA9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

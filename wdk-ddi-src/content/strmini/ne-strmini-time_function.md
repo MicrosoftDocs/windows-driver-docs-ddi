@@ -2,9 +2,9 @@
 UID: NE:strmini.TIME_FUNCTION
 title: TIME_FUNCTION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\time_function.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9335B3FB-B46B-404C-BCF9-F4E2F7A4C216
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

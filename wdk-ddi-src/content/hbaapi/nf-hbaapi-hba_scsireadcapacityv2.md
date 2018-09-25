@@ -4,7 +4,7 @@ title: HBA_ScsiReadCapacityV2 function
 author: windows-driver-content
 description: The HBA_ScsiReadCapacityV2 routine sends a SCSI read capacity command to the indicated remote port.
 old-location: storage\hba_scsireadcapacityv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -70,12 +70,12 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA po
 
 ### -param DiscoveredPortWWN
 
-TBD
+<p>Contains a 64-bit WWN that uniquely identifies the remote HBA port to which the SCSI read capacity command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. </p>
 
 
 ### -param FcLUN
 
-TBD
+<p>Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. </p>
 
 
 ### -param pRespBuffer [out]
@@ -101,16 +101,6 @@ Pointer to a buffer that receives the SCSI sense data.
 ### -param pSenseBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned.
-
-
-#### - discoveredPortWWN [in]
-
-Contains a 64-bit WWN that uniquely identifies the remote HBA port to which the SCSI read capacity command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. 
 
 
 ## -returns

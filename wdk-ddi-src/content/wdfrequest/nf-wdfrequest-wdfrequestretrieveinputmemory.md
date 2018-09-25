@@ -4,7 +4,7 @@ title: WdfRequestRetrieveInputMemory function
 author: windows-driver-content
 description: The WdfRequestRetrieveInputMemory method retrieves a handle to a framework memory object that represents an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c619e9b3-3736-48e3-a84d-e166be4f39af
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRetrieveInputMemory</b> method retrieves a handle to a framework memory object that represents an I/O request's input buffer.
 

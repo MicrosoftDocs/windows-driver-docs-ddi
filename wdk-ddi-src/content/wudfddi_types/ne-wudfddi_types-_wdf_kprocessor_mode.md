@@ -4,7 +4,7 @@ title: "_WDF_KPROCESSOR_MODE"
 author: windows-driver-content
 description: The WDF_KPROCESSOR_MODE enumeration type identifies the processor modes in which a thread can execute.
 old-location: wdf\wdf_kprocessor_mode.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

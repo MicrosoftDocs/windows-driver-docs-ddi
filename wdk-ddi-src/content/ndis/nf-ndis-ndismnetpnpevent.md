@@ -4,10 +4,10 @@ title: NdisMNetPnPEvent function
 author: windows-driver-content
 description: NDIS miniport drivers (and intermediate drivers that are registered as miniport drivers) call the NdisMNetPnPEvent function to originate a network Plug and Play event, an NDIS PnP event, or Power Management event or propagate it to overlying drivers.
 old-location: netvista\ndismnetpnpevent.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,6 +76,9 @@ A pointer to a
      <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network Plug and Play event, NDIS PnP
      event, or Power Management event.
+
+> [!IMPORTANT]
+> If the **VPortId** field of **NetPnpEventNotification** is set to a value different from NDIS_DEFAULT_VPORT_ID, then the **Flags** member must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **VPortId** to take effect.
 
 ## -returns
 

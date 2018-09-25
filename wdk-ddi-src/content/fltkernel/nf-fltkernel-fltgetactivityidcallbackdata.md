@@ -4,7 +4,7 @@ title: FltGetActivityIdCallbackData function
 author: windows-driver-content
 description: The FltGetActivityIdCallbackData routine retrieves the current activity ID associated with a request in a minifilter's callback data.
 old-location: ifsk\fltgetactivityidcallbackdata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

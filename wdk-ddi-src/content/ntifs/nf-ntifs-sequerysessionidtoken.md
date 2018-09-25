@@ -4,7 +4,7 @@ title: SeQuerySessionIdToken function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\sequerysessionidtoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4b2e981d-1ad7-4f40-86d2-e6b210cec7d2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>SeQuerySessionIdToken</b> routine is reserved for system use.
 
 ### -param Token
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param SessionId

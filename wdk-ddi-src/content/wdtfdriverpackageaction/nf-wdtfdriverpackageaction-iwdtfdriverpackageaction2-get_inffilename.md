@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_InfFileName
 author: windows-driver-content
 description: Gets the INF file name.
 old-location: dtf\iwdtfdriverpackageaction2_inffilename.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9c2dae4e-05e8-4063-993f-f505d25004df
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: ScsiPortLogError function
 author: windows-driver-content
 description: The ScsiPortLogError routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportlogerror.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -66,7 +66,7 @@ Pointer to the hardware device extension. This is a per-HBA storage area that th
 
 ### -param OPTIONAL
 
-TBD
+<p>Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.</p>
 
 
 ### -param PathId [in]
@@ -200,11 +200,6 @@ Indicates that a target disconnected unexpectedly.
 ### -param UniqueId [in]
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
-
-
-#### - Srb [in, optional]
-
-Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
 
 
 ## -returns

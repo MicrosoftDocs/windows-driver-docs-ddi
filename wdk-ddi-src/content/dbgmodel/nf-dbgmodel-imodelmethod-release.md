@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release
 req.header: dbgmodel.h
@@ -44,13 +44,21 @@ targetos: Windows
 
 ## -description
 
-TBD
+Decrements the reference count for an interface on an object. 
+
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+
 
 ## -parameters
 
+None
 
 ## -returns
+
 This method returns ULONG.
+
 ## -remarks
 
 ## -see-also
+
+[IModelMethod interface](nn-dbgmodel-imodelmethod.md)

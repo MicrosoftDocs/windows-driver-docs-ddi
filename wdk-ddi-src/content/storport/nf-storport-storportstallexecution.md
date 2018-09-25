@@ -4,7 +4,7 @@ title: StorPortStallExecution function
 author: windows-driver-content
 description: The StorPortStallExecution routine stalls the miniport driver.
 old-location: storage\storportstallexecution.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d635d93b-3e69-4ce5-9dc0-60186417d009
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

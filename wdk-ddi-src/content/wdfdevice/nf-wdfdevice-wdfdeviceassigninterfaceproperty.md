@@ -4,7 +4,7 @@ title: WdfDeviceAssignInterfaceProperty function
 author: windows-driver-content
 description: The WdfDeviceAssignInterfaceProperty method modifies the current value of a device interface property.
 old-location: wdf\wdfdeviceassigninterfaceproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: WUDFx02000.lib
-req.dll: WUDFx02000.dll; TBD
+req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfDeviceAssignInterfaceProperty</b> method modifies the current value of a <a href="https://msdn.microsoft.com/43aa0ce6-a06b-43e4-a213-300554391ae0">device interface property</a>.
 

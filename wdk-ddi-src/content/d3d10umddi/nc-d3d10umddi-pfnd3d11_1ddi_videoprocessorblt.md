@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEOPROCESSORBLT
 author: windows-driver-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: display\videoprocessorblt.htm
-old-project: display
 ms.assetid: 7a3e17cb-0397-4051-8443-fb2edf3b4cff
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORBLT, PFND3D11_1DDI_VIDEOPROCESSORBLT callback, d3d10umddi/pfnVideoProcessorBlt, display.videoprocessorblt, pfnVideoProcessorBlt, pfnVideoProcessorBlt callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

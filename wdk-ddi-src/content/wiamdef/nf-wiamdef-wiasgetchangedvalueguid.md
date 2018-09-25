@@ -4,10 +4,10 @@ title: wiasGetChangedValueGuid function
 author: windows-driver-content
 description: The wiasGetChangedValueGuid function determines whether a property with a GUID value has been changed by an application.
 old-location: image\wiasgetchangedvalueguid.htm
-old-project: image
+tech.root: image
 ms.assetid: 5a282acf-6084-4076-a69b-fe23c9eb4d6c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiasgetchangedvalueguid, wiamdef/wiasGetChangedValueGuid, wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml, wiasGetChangedValueGuid, wiasGetChangedValueGuid function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Specifies the property identifier of the property being tested.
 
 ### -param pInfo
 
-TBD
+
 
 
 

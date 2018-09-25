@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP
 author: windows-driver-content
 description: A driver's EvtDeviceSelfManagedIoCleanup event callback function handles deallocation activity for the device's self-managed I/O operations, after a device has been removed.
 old-location: wdf\evtdeviceselfmanagediocleanup.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 639ff3fd-ce38-417e-8fc4-a03ad259a5c8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceSelfManagedIoCleanup</i> event callback function handles deallocation activity for the device's self-managed I/O operations, after a device has been removed.
 

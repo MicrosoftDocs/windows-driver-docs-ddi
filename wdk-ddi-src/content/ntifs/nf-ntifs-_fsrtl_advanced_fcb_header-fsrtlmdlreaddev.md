@@ -4,7 +4,7 @@ title: FsRtlMdlReadDev function
 author: windows-driver-content
 description: The FltFastIoMdlRead routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 old-location: ifsk\fltfastiomdlread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlMdlReadDev
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -89,14 +90,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ### -param DeviceObject
 
-TBD
+<p>A pointer to an <a href="https://msdn.microsoft.com/library/Ff550671(v=VS.85).aspx"><b>IO_STATUS_BLOCK</b></a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.</p>
 
 
-
-
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

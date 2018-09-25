@@ -4,10 +4,9 @@ title: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030
 author: windows-driver-content
 description: Opens a crypto session policy.
 old-location: display\d3d12ddiarg-open-crypto-session-policy-0030.htm
-old-project: display
 ms.assetid: 90d8e4c8-936d-49b5-bac0-5ccddf142164
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-open-crypto-session-policy-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030
 ---
 

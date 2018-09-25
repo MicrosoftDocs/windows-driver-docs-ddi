@@ -4,7 +4,7 @@ title: "_WDF_DMA_DIRECTION"
 author: windows-driver-content
 description: The WDF_DMA_DIRECTION enumeration defines the direction of a DMA transfer.
 old-location: wdf\wdf_dma_direction.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 813414fa-17b6-4b69-a3dd-f3a2e5190305
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DMA_DIRECTION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DMA_DIRECTION</b> enumeration defines the direction of a DMA transfer.
 

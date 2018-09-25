@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_IPv6_ADDRESS_LIST
 title: "_BDA_IPv6_ADDRESS_LIST"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_ipv6_address_list.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 45C8C690-7545-47D5-8E98-FB976797AA1A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

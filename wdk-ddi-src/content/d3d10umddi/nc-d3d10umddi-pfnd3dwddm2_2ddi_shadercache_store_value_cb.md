@@ -4,10 +4,9 @@ title: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
 author: windows-driver-content
 description: The pfnShaderCacheStoreValue callback function stores a shader cache value.
 old-location: display\pfnd3dwddm2_2ddi_shadercache_store_value.htm
-old-project: display
 ms.assetid: 715D4C28-029F-463E-9A6D-D8155B570538
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback, d3d12umddi/pfnShaderCacheStoreValue, display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue, pfnShaderCacheStoreValue callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

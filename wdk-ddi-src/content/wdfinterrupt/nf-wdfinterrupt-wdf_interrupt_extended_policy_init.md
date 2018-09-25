@@ -4,7 +4,7 @@ title: WDF_INTERRUPT_EXTENDED_POLICY_INIT function
 author: windows-driver-content
 description: The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_INTERRUPT_EXTENDED_POLICY structure.
 old-location: wdf\wdf_interrupt_extended_policy_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fcc1e631-c77b-483b-9b5e-ec8d643f9930
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
 
@@ -62,14 +62,9 @@ The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function initializes a <a href="ht
 
 ### -param ExtendedPolicy
 
-TBD
+<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Ff552349(v=VS.85).aspx"><b>WDF_INTERRUPT_EXTENDED_POLICY</b></a> structure.</p>
 
 
-
-
-#### - PolicyAndGroup [out]
-
-A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
 
 
 ## -returns

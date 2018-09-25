@@ -4,7 +4,7 @@ title: WdfRequestMarkCancelableEx function
 author: windows-driver-content
 description: The WdfRequestMarkCancelableEx method enables cancellation of a specified I/O request.
 old-location: wdf\wdfrequestmarkcancelableex.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5513804b-f785-4617-81b6-1cecc72d6051
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestMarkCancelableEx</b> method enables cancellation of a specified I/O request.
 

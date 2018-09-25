@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START
 author: windows-driver-content
 description: A driver's EvtDmaEnablerSelfManagedIoStart event callback function starts a DMA device's self-managed I/O operations.
 old-location: wdf\evtdmaenablerselfmanagediostart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 397791c1-c394-48ae-b6cf-42f4494438f1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDmaEnablerSelfManagedIoStart</i> event callback function starts a DMA device's self-managed I/O operations.
 

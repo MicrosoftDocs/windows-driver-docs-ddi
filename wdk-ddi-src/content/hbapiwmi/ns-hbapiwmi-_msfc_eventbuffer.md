@@ -4,7 +4,7 @@ title: "_MSFC_EventBuffer"
 author: windows-driver-content
 description: The MSFC_EventBuffer structure is used in conjunction with the GetEventBuffer method to retrieve the next events in the HBA's event queue.
 old-location: storage\msfc_eventbuffer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7d41c092-251e-4f93-b5be-ff989b37196b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

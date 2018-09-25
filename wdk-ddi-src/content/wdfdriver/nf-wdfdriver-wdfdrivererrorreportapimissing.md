@@ -2,7 +2,7 @@
 UID: NF:wdfdriver.WdfDriverErrorReportApiMissing
 title: WdfDriverErrorReportApiMissing function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: fdd7c033-0b0a-46d7-8488-ac7d49b37676
 ms.author: windowsdriverdev
 ms.date: 
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	WdfDriverErrorReportApiMissing
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

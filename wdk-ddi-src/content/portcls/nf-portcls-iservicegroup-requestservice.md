@@ -2,12 +2,12 @@
 UID: NF:portcls.IServiceGroup.RequestService
 title: IServiceGroup::RequestService
 author: windows-driver-content
-description: TBD
+description:
 old-location: audio\iservicegroup_requestservice.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9CB0CE26-2F26-424E-9EF5-C6780F521E09
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 09/17/2018
 ms.keywords: IServiceGroup interface [Audio Devices],RequestService method, IServiceGroup.RequestService, IServiceGroup::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_requestservice, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::RequestService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -32,9 +32,9 @@ req.irql: PASSIVE_LEVEL
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	DllExport
 api_location:
--
+-	portcls.h
 api_name:
 -	IServiceGroup::RequestService
 product:
@@ -49,31 +49,23 @@ req.typenames:
 ## -description
 
 
-TBD
+The RequestService method is called to forward a service request to an IServiceSink object.
 
 
 ## -parameters
 
 
-
+#### - None
 
 
 
 ## -returns
 
-
-
-
-            TBD
-
+None
 
 
 
 ## -remarks
-
-
-
-TBD.
 
 
 

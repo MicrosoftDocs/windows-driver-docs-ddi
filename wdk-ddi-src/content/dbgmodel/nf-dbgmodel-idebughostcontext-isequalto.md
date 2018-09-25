@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f0b782ca-f7b8-4521-9e2b-dd5afd5adeee
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostContext::IsEqualTo, IsEqualTo, IDebugHostContext.IsEqualTo, IDebugHostContext::IsEqualTo, IDebugHostContext.IsEqualTo
 req.header: dbgmodel.h
@@ -44,13 +44,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns whether two IDebugHostContext objects are equal by value.  Note that there is no requirement for a debug host to have interface pointer equality for two contexts which are equivalent.  The actual contexts can be compared through this method.
 
 ## -parameters
 
 ### -param pContext
+The host context to compare against.
 
 ### -param pIsEqual
+An indication of whether the values of the two objects are equal.
 
 
 ## -returns
@@ -58,3 +60,4 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+[IDebugHostContext interface](nn-dbgmodel-idebughostcontext.md)

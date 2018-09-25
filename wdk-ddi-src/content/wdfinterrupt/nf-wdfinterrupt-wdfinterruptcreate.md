@@ -4,7 +4,7 @@ title: WdfInterruptCreate function
 author: windows-driver-content
 description: The WdfInterruptCreate method creates a framework interrupt object.
 old-location: wdf\wdfinterruptcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6279f9ed-f271-45e6-92ef-2a919f3584ed
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptCreate</b> method creates a framework interrupt object.
 

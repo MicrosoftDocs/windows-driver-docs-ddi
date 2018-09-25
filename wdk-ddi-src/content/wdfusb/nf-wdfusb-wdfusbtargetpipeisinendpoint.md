@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeIsInEndpoint function
 author: windows-driver-content
 description: The WdfUsbTargetPipeIsInEndpoint method determines whether a specified USB pipe is connected to an input endpoint.
 old-location: wdf\wdfusbtargetpipeisinendpoint.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 431d8f18-18db-460c-9f2f-454a5378825c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeIsInEndpoint</b> method determines whether a specified USB pipe is connected to an input endpoint.
 

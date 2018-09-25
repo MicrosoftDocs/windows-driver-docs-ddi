@@ -4,7 +4,7 @@ title: "_PO_FX_PERF_STATE_TYPE"
 author: windows-driver-content
 description: The PO_FX_PERF_STATE_TYPE enumeration contains values that describe the type of performance states in a PO_FX_COMPONENT_PERF_SET.
 old-location: kernel\po_fx_perf_state_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

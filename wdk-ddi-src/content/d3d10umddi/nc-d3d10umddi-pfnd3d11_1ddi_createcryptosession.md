@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CREATECRYPTOSESSION
 author: windows-driver-content
 description: Creates a cryptographic session to encrypt video content that is sent to the display miniport driver.
 old-location: display\createcryptosession1.htm
-old-project: display
 ms.assetid: 3c31efc3-b844-4e51-947d-b48f36020766
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3D11_1DDI_CREATECRYPTOSESSION, PFND3D11_1DDI_CREATECRYPTOSESSION callback, d3d10umddi/CreateCryptoSession, display.createcryptosession1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

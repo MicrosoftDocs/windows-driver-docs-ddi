@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_DEVICE_SILO_COMMAND
 author: windows-driver-content
 description: This IOCTL issues a silo command to the targeted silo on the device. Both input and output data are structured according to the definition of silo commands, as found in the IEEE 1667 specification document.
 old-location: storage\ioctl_ehstor_device_silo_command.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -8,6 +8,8 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: kernel
 ---
 
@@ -16,6 +18,7 @@ tech.root: kernel
 
 ## -description
 
+This is the include file that defines all common constants, ioctls and types for Scheduled File I/O (SFIO).
 
 This header is used by kernel. For more information, see:
 

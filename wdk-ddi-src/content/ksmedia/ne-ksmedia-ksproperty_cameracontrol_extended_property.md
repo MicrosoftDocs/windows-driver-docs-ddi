@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
 author: windows-driver-content
 description: This enumeration contains extended camera controls.
 old-location: stream\ksproperty_cameracontrol_extended_property.htm
-old-project: stream
+tech.root: stream
 ms.assetid: DA89A917-75F3-4120-90A4-8DA9DB322B4F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

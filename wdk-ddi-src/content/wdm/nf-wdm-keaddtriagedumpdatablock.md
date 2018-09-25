@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	KeAddTriageDumpDataBlock
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

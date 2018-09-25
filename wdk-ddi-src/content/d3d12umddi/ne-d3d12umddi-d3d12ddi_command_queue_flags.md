@@ -4,7 +4,6 @@ title: D3D12DDI_COMMAND_QUEUE_FLAGS
 author: windows-driver-content
 description: Contains values for the video command queue.
 old-location: display\d3d12ddi_command_queue_flags.htm
-old-project: display
 ms.assetid: A5EFE133-6F63-4EA4-8F7F-B2B6A4E1838C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_COMMAND_QUEUE_FLAGS
 ---
 

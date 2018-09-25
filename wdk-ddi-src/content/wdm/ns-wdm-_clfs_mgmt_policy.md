@@ -4,7 +4,7 @@ title: "_CLFS_MGMT_POLICY"
 author: windows-driver-content
 description: The CLFS_MGMT_POLICY structure holds a description of a policy for managing a CLFS log.
 old-location: kernel\clfs_mgmt_policy.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

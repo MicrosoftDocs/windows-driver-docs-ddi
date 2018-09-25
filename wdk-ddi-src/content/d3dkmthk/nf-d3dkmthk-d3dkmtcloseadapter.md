@@ -4,10 +4,9 @@ title: D3DKMTCloseAdapter function
 author: windows-driver-content
 description: The D3DKMTCloseAdapter function closes a graphics adapter that was previously opened by using the D3DKMTOpenAdapterFromHdc function.
 old-location: display\d3dkmtcloseadapter.htm
-old-project: display
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCloseAdapter, D3DKMTCloseAdapter callback function [Display Devices], OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, PFND3DKMT_CLOSEADAPTER, PFND3DKMT_CLOSEADAPTER callback, d3dkmthk/D3DKMTCloseAdapter, display.d3dkmtcloseadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCloseAdapter
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previo
 
 ### -param D3DKMT_CLOSEADAPTER
 
-TBD
+
 
 
 

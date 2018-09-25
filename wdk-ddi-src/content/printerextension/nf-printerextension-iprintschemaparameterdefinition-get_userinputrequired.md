@@ -4,7 +4,7 @@ title: IPrintSchemaParameterDefinition::get_UserInputRequired
 author: windows-driver-content
 description: The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_userinputrequired.htm
-old-project: print
+tech.root: print
 ms.assetid: C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

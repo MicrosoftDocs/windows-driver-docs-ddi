@@ -4,10 +4,9 @@ title: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
 author: windows-driver-content
 description: Contains video functions.
 old-location: display\d3d12ddi_device_funcs_video.htm
-old-project: display
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0021, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO, display.d3d12ddi_device_funcs_video
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
 ---
 

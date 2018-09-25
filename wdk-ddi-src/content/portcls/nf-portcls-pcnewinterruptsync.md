@@ -4,10 +4,10 @@ title: PcNewInterruptSync function
 author: windows-driver-content
 description: The PcNewInterruptSync function creates and initializes an interrupt-synchronization object.
 old-location: audio\pcnewinterruptsync.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 2455d09a-608e-4529-9c27-ed760c7da675
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

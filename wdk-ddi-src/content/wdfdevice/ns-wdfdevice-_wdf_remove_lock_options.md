@@ -4,7 +4,7 @@ title: "_WDF_REMOVE_LOCK_OPTIONS"
 author: windows-driver-content
 description: The WDF_REMOVE_LOCK_OPTIONS structure specifies options for acquiring a remove lock before delivering an IRP to the driver.
 old-location: wdf\wdf_remove_lock_options.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0A50C1FB-D0C6-47C4-AD71-AD0B7486AA2E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WDF_REMOVE_LOCK_OPTIONS</b> structure specifies options for acquiring a remove lock before delivering an IRP to the driver.

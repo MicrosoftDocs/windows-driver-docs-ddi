@@ -4,7 +4,7 @@ title: "_DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
 author: windows-driver-content
 description: the DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure is included with a OID_DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST request. The structure contains the list of secondary device types advertised by a Wi-Fi Direct device.
 old-location: netvista\_dot11_wfd_secondary_device_type_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ABD61A6C-EE0A-49AF-AE8C-75014C2A09D4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

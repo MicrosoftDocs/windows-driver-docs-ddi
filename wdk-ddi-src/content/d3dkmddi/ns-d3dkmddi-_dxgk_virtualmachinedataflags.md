@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_VIRTUALMACHINEDATAFLAGS
 title: _DXGK_VIRTUALMACHINEDATAFLAGS
 author: windows-driver-content
-description:
+description: The virtual machine data flags.
 ms.assetid: decc4a46-fe67-49bf-bf9e-067c184ec272
 ms.author: windowsdriverdev
 ms.date:
@@ -23,24 +23,23 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_VIRTUALMACHINEDATAFLAGS
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	_DXGK_VIRTUALMACHINEDATAFLAGS
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_VIRTUALMACHINEDATAFLAGS structure
 
 ## -description
-
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 The virtual machine data flags.
 

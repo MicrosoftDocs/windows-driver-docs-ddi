@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_ALLOCATEPAGESFORMDL
 title: DXGKCB_ALLOCATEPAGESFORMDL
 author: windows-driver-content
-description:
+description: Implemented by the client driver to allocate physical memory pages for a memory descriptor list (MDL) from the GPU to the IoMmu's logical address space.
 ms.assetid: fcfd09f8-109f-4123-9090-dc4ca89a6513
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKCB_ALLOCATEPAGESFORMDL
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGKCB_ALLOCATEPAGESFORMDL callback function
@@ -71,7 +73,7 @@ DXGKCB_ALLOCATEPAGESFORMDL
 
 A handle to the display adapter.
 
-### -param pAllocatePagesForMdl:
+### -param pAllocatePagesForMdl
 
 Pointer to a [DXGKARGCB_ALLOCATEPAGESFORMDL](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) structure that contains arguments to allocate pages for MDL.
 
@@ -85,7 +87,8 @@ Register your implementation of this callback function by setting the appropriat
 
 All memory accessed by the GPU during paging operations, or mapped via the GpuMmu must be mapped to the IoMmu. The Dxgkrnl provides callbacks to the KMD to allow the allocation and remapping in one step.
 
->**Note** Calls to DxgkCbAllocatePagesForMdl are limited to the 4GB PAGE_SIZE MDL restriction, and DirectX graphics kernel always specifies the *MM_ALLOCATE_FULLY_REQUIRED* flag in the internal call to [MmAllocatePagesForMdlEx function](..\wdm\nf-wdm-mmallocatepagesformdl.md). The driver should also not lock any memory. Dxgkrnl will manage locked pages for the driver, and once the memory is remapped, the logical address of the pages provided to the driver may no longer match the physical addresses.
+> [!NOTE] 
+> Calls to DxgkCbAllocatePagesForMdl are limited to the 4GB PAGE_SIZE MDL restriction, and DirectX graphics kernel always specifies the *MM_ALLOCATE_FULLY_REQUIRED* flag in the internal call to [MmAllocatePagesForMdlEx function](..\wdm\nf-wdm-mmallocatepagesformdl.md). The driver should also not lock any memory. Dxgkrnl will manage locked pages for the driver, and once the memory is remapped, the logical address of the pages provided to the driver may no longer match the physical addresses.
 
 
 

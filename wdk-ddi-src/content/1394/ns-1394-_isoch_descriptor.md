@@ -4,7 +4,7 @@ title: "_ISOCH_DESCRIPTOR"
 author: windows-driver-content
 description: The ISOCH_DESCRIPTOR structure describes a buffer to be attached or detailed from a resource handle, using the REQUEST_ISOCH_ATTACH_BUFFERS and REQUEST_ISOCH_DETACH_BUFFERS requests.
 old-location: ieee\isoch_descriptor.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: WdfRequestRequeue function
 author: windows-driver-content
 description: The WdfRequestRequeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 old-location: wdf\wdfrequestrequeue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 955859d2-7c4f-454c-8621-84bacf0b9770
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRequeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 

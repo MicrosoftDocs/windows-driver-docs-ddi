@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO request obtains information about the underlying device and service that caused the Plug and Play (PnP) manager to load the profile driver.
 old-location: bltooth\ioctl_internal_bthenum_get_enuminfo.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 43cd8e6b-5710-4308-a7c4-fb6f14940977
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

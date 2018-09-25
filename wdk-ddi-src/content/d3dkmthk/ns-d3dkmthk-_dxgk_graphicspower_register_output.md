@@ -4,7 +4,6 @@ title: "_DXGK_GRAPHICSPOWER_REGISTER_OUTPUT"
 author: windows-driver-content
 description: A structure containing output data used to manage shared power components.
 old-location: display\dxgk_graphicspower_register_output.htm
-old-project: display
 ms.assetid: 13F74BB4-91FE-4B5C-B0EB-B3524D0BD959
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ---
 

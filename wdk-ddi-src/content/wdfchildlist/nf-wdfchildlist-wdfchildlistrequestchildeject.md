@@ -4,7 +4,7 @@ title: WdfChildListRequestChildEject function
 author: windows-driver-content
 description: The WdfChildListRequestChildEject method informs the framework that a specified device is about to be ejected from its docking station.
 old-location: wdf\wdfchildlistrequestchildeject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListRequestChildEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
 

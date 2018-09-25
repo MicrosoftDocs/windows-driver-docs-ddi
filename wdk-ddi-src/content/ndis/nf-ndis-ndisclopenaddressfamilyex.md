@@ -4,10 +4,10 @@ title: NdisClOpenAddressFamilyEx function
 author: windows-driver-content
 description: The NdisClOpenAddressFamilyEx function registers an address family (AF) that is associated with a call manager for a connection-oriented client.
 old-location: netvista\ndisclopenaddressfamilyex.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 54170917-60b4-4d8f-bf92-df7d7dc0faee
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices

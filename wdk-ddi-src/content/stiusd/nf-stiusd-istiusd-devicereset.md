@@ -4,10 +4,10 @@ title: IStiUSD::DeviceReset
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::DeviceReset method resets a still image device to a known, initialized state.
 old-location: image\istiusd_devicereset.htm
-old-project: image
+tech.root: image
 ms.assetid: f6944297-9aca-4912-a398-c5f3a3e8d4b4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: DeviceReset, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],DeviceReset method, IStiUSD.DeviceReset, IStiUSD::DeviceReset, image.istiusd_devicereset, stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, stiusd/IStiUSD::DeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

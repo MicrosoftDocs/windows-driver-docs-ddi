@@ -4,10 +4,9 @@ title: DXGKDDI_UNMAPCPUHOSTAPERTURE
 author: windows-driver-content
 description: DxgkDdiUnmapCpuHostAperture is used to unmap a previously mapped range of the CPU host aperture.
 old-location: display\dxgkddiunmapcpuhostaperture.htm
-old-project: display
 ms.assetid: AFE6B92F-49DB-47F9-90BC-F75B5F37178D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_UNMAPCPUHOSTAPERTURE, DXGKDDI_UNMAPCPUHOSTAPERTURE callback, DxgkDdiUnmapCpuHostAperture, DxgkDdiUnmapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiUnmapCpuHostAperture, display.dxgkddiunmapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

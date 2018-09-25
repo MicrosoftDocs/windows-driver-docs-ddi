@@ -4,7 +4,7 @@ title: PsGetCurrentServerSilo function
 author: windows-driver-content
 description: This routine returns the effective server silo for the thread.
 old-location: kernel\psgetcurrentserversilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

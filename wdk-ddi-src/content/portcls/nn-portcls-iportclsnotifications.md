@@ -4,10 +4,10 @@ title: IPortClsNotifications
 author: windows-driver-content
 description: An interface implemented by ports to provide notification helpers to miniports to support audio module communication.
 old-location: audio\iportclsnotifications.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices],described, audio.iportclsnotifications, portcls/IPortClsNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

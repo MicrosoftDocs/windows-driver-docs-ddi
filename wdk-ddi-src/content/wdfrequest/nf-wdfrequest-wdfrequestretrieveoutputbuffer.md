@@ -4,7 +4,7 @@ title: WdfRequestRetrieveOutputBuffer function
 author: windows-driver-content
 description: The WdfRequestRetrieveOutputBuffer method retrieves an I/O request's output buffer.
 old-location: wdf\wdfrequestretrieveoutputbuffer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRetrieveOutputBuffer</b> method retrieves an I/O request's output buffer.
 

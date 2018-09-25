@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
 title: _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
 author: windows-driver-content
-description:
+description: Used to query for a unique guid.
 ms.assetid: 35ebebc5-e10d-4360-9f1b-9b2580072237
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID structure

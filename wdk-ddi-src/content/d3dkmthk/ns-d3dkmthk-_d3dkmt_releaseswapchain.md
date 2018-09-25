@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_RELEASESWAPCHAIN
 title: _D3DKMT_RELEASESWAPCHAIN
 author: windows-driver-content
-description:
+description: Release the swap chain.
 ms.assetid: bce1cc2a-5e38-4a35-b2a2-44adbf5e0117
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_RELEASESWAPCHAIN
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_RELEASESWAPCHAIN
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_RELEASESWAPCHAIN structure

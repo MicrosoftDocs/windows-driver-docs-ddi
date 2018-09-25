@@ -4,7 +4,7 @@ title: WdfPdoInitAssignContainerID function
 author: windows-driver-content
 description: The WdfPdoInitAssignContainerID method updates the container ID for a child device.
 old-location: wdf\wdfpdoinitassigncontainerid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 603bff9f-fd18-40bd-9b2b-8f013f99ec61
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitAssignContainerID</b> method updates the container ID for a child device.
 

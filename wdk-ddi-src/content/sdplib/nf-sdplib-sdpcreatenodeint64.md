@@ -4,7 +4,7 @@ title: SdpCreateNodeInt64 function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeInt64 function is used to allocate and initialize an SDP_NODE structure to a 64-bit integer type.
 old-location: bltooth\sdpcreatenodeint64.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: c6bfb1e6-9b10-4d8b-b36e-64e98c5e9080
 ms.author: windowsdriverdev
 ms.date: 4/27/2018
@@ -62,17 +62,12 @@ The Bluetooth
 
 ### -param llVal
 
-TBD
+<p>The 64-bit integer value that is used to initialize the SDP_NODE structure.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - llval [in]
-
-The 64-bit integer value that is used to initialize the SDP_NODE structure.
 
 
 ## -returns

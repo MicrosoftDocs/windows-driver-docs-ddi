@@ -4,7 +4,7 @@ title: GdiStartDocEMF function
 author: windows-driver-content
 description: The GdiStartDocEMF function performs initialization operations for an EMF-formatted print job.
 old-location: print\gdistartdocemf.htm
-old-project: print
+tech.root: print
 ms.assetid: aca4534a-871e-4d86-b329-cb4f84611a29
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

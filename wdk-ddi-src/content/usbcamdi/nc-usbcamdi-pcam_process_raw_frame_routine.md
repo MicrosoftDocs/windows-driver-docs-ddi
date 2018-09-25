@@ -4,7 +4,7 @@ title: PCAM_PROCESS_RAW_FRAME_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamProcessRawVideoFrame callback function decodes a raw video frame.
 old-location: stream\camprocessrawvideoframe.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 98dd7262-e8f7-4e22-b19e-1a7fc56c8fe1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

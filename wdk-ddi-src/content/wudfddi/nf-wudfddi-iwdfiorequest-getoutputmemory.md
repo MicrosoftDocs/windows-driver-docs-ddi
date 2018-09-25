@@ -4,7 +4,7 @@ title: IWDFIoRequest::GetOutputMemory
 author: windows-driver-content
 description: The GetOutputMemory method retrieves the memory object that represents the output buffer for an I/O request.
 old-location: wdf\iwdfiorequest_getoutputmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

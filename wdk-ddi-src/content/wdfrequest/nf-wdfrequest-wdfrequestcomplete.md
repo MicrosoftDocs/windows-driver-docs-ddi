@@ -4,7 +4,7 @@ title: WdfRequestComplete function
 author: windows-driver-content
 description: The WdfRequestComplete method completes a specified I/O request and supplies a completion status.
 old-location: wdf\wdfrequestcomplete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cb5bfd4f-e45a-4894-acb4-0ece2de91510
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestComplete</b> method completes a specified I/O request and supplies a completion status.
 

@@ -4,10 +4,9 @@ title: D3DKMTOpenProtectedSessionFromNtHandle function
 author: windows-driver-content
 description: Used to open a protected session from the NT handle.
 old-location: display\d3dkmtopenprotectedsessionfromnthandle.htm
-old-project: display
 ms.assetid: 3ebdf120-ecdd-474b-961d-958179cf30e0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTOpenProtectedSessionFromNtHandle
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -62,7 +62,7 @@ Used to open a protected session from the NT handle.
 
 ### -param Arg1
 
-TBD
+
 
 
 

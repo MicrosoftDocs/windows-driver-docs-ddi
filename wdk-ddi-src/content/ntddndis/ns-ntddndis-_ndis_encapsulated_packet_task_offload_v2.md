@@ -31,7 +31,8 @@ api_location:
 -	ntddndis.h
 api_name: 
 -	_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

@@ -4,7 +4,7 @@ title: WdfCmResourceListRemoveByDescriptor function
 author: windows-driver-content
 description: The WdfCmResourceListRemoveByDescriptor method removes a specified resource descriptor from a specified resource list.
 old-location: wdf\wdfcmresourcelistremovebydescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 532b56c9-6c24-4737-b1d6-e44802a898e3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCmResourceListRemoveByDescriptor</b> method removes a specified resource descriptor from a specified resource list.
 

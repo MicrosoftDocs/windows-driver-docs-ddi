@@ -4,7 +4,7 @@ title: "_WDF_WMI_PROVIDER_CONFIG"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_CONFIG structure contains configuration information for a driver's WMI data block.
 old-location: wdf\wdf_wmi_provider_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 91b8e4e8-f144-4469-bedf-18f40be7e649
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_WMI_PROVIDER_CONFIG</b> structure contains configuration information for a driver's WMI data block.
 

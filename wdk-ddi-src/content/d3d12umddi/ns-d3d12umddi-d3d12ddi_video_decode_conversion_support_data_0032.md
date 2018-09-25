@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 author: windows-driver-content
 description: Video decode conversion support data.
 old-location: display\d3d12ddi-video-decode-conversion-support-data-0032.htm
-old-project: display
 ms.assetid: 1395fe30-9bbf-433c-8696-a0f842bad10e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 ---
 

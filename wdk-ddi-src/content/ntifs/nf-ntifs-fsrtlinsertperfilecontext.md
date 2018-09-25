@@ -4,7 +4,7 @@ title: FsRtlInsertPerFileContext function
 author: windows-driver-content
 description: The FsRtlInsertPerFileContext routine associates a FSRTL_PER_FILE_CONTEXT object with a driver-specified context object for a file.
 old-location: ifsk\fsrtlinsertperfilecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: accc3600-9614-48e0-912d-1e8b324e659f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PCM_DATA_FORMAT"
 author: windows-driver-content
 description: This enumeration is for internal use only.
 old-location: bltooth\pcm_data_format.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 50B76D96-120C-4C86-89ED-7F298E50B1A4
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

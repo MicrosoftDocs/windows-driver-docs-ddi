@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_FAILED_ACTION"
 author: windows-driver-content
 description: The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure.
 old-location: wdf\wdf_device_failed_action.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 260fdda5-bc97-4522-96ca-1c29d41e8542
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_FAILED_ACTION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure.
 

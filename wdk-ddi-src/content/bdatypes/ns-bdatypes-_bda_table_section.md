@@ -4,7 +4,7 @@ title: "_BDA_TABLE_SECTION"
 author: windows-driver-content
 description: The BDA_TABLE_SECTION structure describes a table section.
 old-location: stream\bda_table_section.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f7669c36-6bf0-477e-8466-46a3da015cf3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

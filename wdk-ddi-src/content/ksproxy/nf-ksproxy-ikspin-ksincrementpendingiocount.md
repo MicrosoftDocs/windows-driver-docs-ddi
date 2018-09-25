@@ -4,7 +4,7 @@ title: IKsPin::KsIncrementPendingIoCount
 author: windows-driver-content
 description: The KsIncrementPendingIoCount method increments the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksincrementpendingiocount.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e79ae2ac-6636-491d-8c98-70a5ff3a23ef
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

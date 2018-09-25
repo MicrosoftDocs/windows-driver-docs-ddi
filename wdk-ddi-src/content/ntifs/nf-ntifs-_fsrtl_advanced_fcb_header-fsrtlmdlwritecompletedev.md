@@ -4,7 +4,7 @@ title: FsRtlMdlWriteCompleteDev function
 author: windows-driver-content
 description: The FltFastIoMdlWriteComplete routine frees the resources that FltFastIoPrepareMdlWrite allocated.
 old-location: ifsk\fltfastiomdlwritecomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlMdlWriteCompleteDev
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -74,14 +75,9 @@ A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https
 
 ### -param DeviceObject
 
-TBD
+<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/Hh706192(v=VS.85).aspx"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
 
 
-
-
-#### - InitiatingInstance
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns

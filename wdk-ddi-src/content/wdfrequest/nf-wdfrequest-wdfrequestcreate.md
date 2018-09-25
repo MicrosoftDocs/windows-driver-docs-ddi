@@ -4,7 +4,7 @@ title: WdfRequestCreate function
 author: windows-driver-content
 description: The WdfRequestCreate method creates an empty framework request object.
 old-location: wdf\wdfrequestcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 94329e5a-9efb-4e88-92a6-457098d1245f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestCreate</b> method creates an empty framework request object.
 

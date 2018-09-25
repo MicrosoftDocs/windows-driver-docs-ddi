@@ -4,7 +4,7 @@ title: WdfRequestGetIoQueue function
 author: windows-driver-content
 description: The WdfRequestGetIoQueue method returns a handle to the framework queue object from which a specified I/O request was delivered.
 old-location: wdf\wdfrequestgetioqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9b7d67a3-2899-47b1-9652-d3696d37ec2d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestGetIoQueue</b> method returns a handle to the framework queue object from which a specified I/O request was delivered.
 

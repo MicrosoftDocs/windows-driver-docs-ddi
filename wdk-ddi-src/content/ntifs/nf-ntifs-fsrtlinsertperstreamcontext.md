@@ -4,7 +4,7 @@ title: FsRtlInsertPerStreamContext function
 author: windows-driver-content
 description: The FsRtlInsertPerStreamContext routine associates a file system filter driver's per-stream context structure with a file stream.
 old-location: ifsk\fsrtlinsertperstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d1592021-7765-4553-bcb0-9124af44123f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,17 +60,12 @@ The <b>FsRtlInsertPerStreamContext</b> routine associates a file system filter d
 
 ### -param PerStreamContext
 
-TBD
+<p>Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/Ff546056(v=VS.85).aspx"><b>FsRtlGetPerStreamContextPointer</b></a> macro. </p>
 
 
 ### -param Ptr [in]
 
 Pointer to a FSRTL_PER_STREAM_CONTEXT structure that the filter driver has allocated and initialized. To initialize this structure, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546178">FsRtlInitPerStreamContext</a> macro. 
-
-
-#### - StreamContext [in]
-
-Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546056">FsRtlGetPerStreamContextPointer</a> macro. 
 
 
 ## -returns

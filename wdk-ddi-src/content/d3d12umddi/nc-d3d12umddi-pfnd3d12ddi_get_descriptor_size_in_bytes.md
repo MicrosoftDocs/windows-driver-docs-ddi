@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
 title: PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
 author: windows-driver-content
-description: 
+description: Gets the size of the handle for a given type of descriptor heap.
 ms.assetid: 3387f063-96f5-4d77-b006-924738808d51
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+The PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES callback function gets the size of the handle, in bytes, for a given type of descriptor heap.
 
 ## -prototype
 
@@ -55,7 +57,7 @@ PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES Pfnd3d12ddiGetDescriptorSizeInBytes;
 
 UINT Pfnd3d12ddiGetDescriptorSizeInBytes 
 (
-	 D3D12DDI_HDEVICE
+	 D3D12DDI_HDEVICE hDevice
 	 D3D12DDI_DESCRIPTOR_HEAP_TYPE
 )
 {...}
@@ -67,18 +69,17 @@ PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param D3D12DDI_DESCRIPTOR_HEAP_TYPE: 
+### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
+### -param D3D12DDI_DESCRIPTOR_HEAP_TYPE
+
+The D3D12DDI_DESCRIPTOR_HEAP_TYPE-typed value that specifies the type of descriptor heap to get the size of the handle increment for.
 
 ## -returns
 
-Returns UINT that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Returns UINT.
 
 
 ## -see-also

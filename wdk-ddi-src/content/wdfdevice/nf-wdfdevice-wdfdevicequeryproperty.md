@@ -4,7 +4,7 @@ title: WdfDeviceQueryProperty function
 author: windows-driver-content
 description: The WdfDeviceQueryProperty method retrieves a specified device property.
 old-location: wdf\wdfdevicequeryproperty.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceQueryProperty</b> method retrieves a specified device property.
 

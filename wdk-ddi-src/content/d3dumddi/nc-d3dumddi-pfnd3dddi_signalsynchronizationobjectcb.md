@@ -4,10 +4,10 @@ title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB
 author: windows-driver-content
 description: The pfnSignalSynchronizationObjectCb function inserts a signal on the specified synchronization objects in the specified context DMA stream.
 old-location: display\pfnsignalsynchronizationobjectcb.htm
-old-project: display
+tech.root: display
 ms.assetid: 12ffa230-2c26-4cd3-ae83-f753a0b6ba38
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3Druntime_Functions_7bda6d91-797a-4f72-9182-e30b9fb1963a.xml, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnSignalSynchronizationObjectCb, display.pfnsignalsynchronizationobjectcb, pfnSignalSynchronizationObjectCb, pfnSignalSynchronizationObjectCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

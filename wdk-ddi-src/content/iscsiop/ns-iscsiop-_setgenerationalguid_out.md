@@ -4,7 +4,7 @@ title: "_SetGenerationalGuid_OUT"
 author: windows-driver-content
 description: The SetGenerationalGuid_OUT structure holds the output data for the SetGenerationalGuid method.
 old-location: storage\setgenerationalguid_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7b697241-6411-4fb0-b633-502233f2d155
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: HBA_RefreshInformation function
 author: windows-driver-content
 description: The HBA_RefreshInformation routine refreshes the library's internally cached data for the indicated HBA.
 old-location: storage\hba_refreshinformation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7fd03702-154b-47d4-96cb-6ad9683124ca
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,14 +60,9 @@ The <b>HBA_RefreshInformation</b> routine refreshes the library's internally cac
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA whose cached data the library will refresh.</p>
 
 
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA whose cached data the library will refresh.
 
 
 ## -returns

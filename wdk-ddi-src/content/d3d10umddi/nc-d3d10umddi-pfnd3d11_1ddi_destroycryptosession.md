@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_DESTROYCRYPTOSESSION
 author: windows-driver-content
 description: Releases resources for the cryptographic session that were created through a call to the CreateCryptoSession function.
 old-location: display\destroycryptosession1.htm
-old-project: display
 ms.assetid: 067eeba4-2914-4616-98c8-f163cbe5fae2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYCRYPTOSESSION, PFND3D11_1DDI_DESTROYCRYPTOSESSION callback, d3d10umddi/pfnDestroyCryptoSession, display.destroycryptosession1, display.pfndestroycryptosession1, pfnDestroyCryptoSession, pfnDestroyCryptoSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

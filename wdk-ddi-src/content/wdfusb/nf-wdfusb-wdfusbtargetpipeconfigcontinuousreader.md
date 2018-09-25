@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeConfigContinuousReader function
 author: windows-driver-content
 description: The WdfUsbTargetPipeConfigContinuousReader method configures the framework to continuously read from a specified USB pipe.
 old-location: wdf\wdfusbtargetpipeconfigcontinuousreader.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 56ed3c4f-bcfa-417d-a276-9934e3bc1666
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeConfigContinuousReader</b> method configures the framework to continuously read from a specified USB pipe.
 

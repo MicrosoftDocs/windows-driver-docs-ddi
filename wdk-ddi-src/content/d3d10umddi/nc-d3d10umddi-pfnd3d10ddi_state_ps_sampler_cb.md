@@ -4,10 +4,9 @@ title: PFND3D10DDI_STATE_PS_SAMPLER_CB
 author: windows-driver-content
 description: The pfnStatePsSamplerCb function causes the Microsoft Direct3D 10 runtime to refresh the pixel shader stage's bound samplers.
 old-location: display\pfnstatepssamplercb.htm
-old-project: display
 ms.assetid: 8cf25918-1acf-40b6-be51-2c1afc419f2a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_STATE_PS_SAMPLER_CB, PFND3D10DDI_STATE_PS_SAMPLER_CB callback, d3d10state_functions_2e14a132-dd8b-4a78-905e-b2d74d9e669d.xml, d3d10umddi/pfnStatePsSamplerCb, display.pfnstatepssamplercb, pfnStatePsSamplerCb, pfnStatePsSamplerCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,7 @@ title: StorPortQuerySystemTime function
 author: windows-driver-content
 description: The StoriPortQuerySystemTime routine obtains the current system time.
 old-location: storage\storportquerysystemtime.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

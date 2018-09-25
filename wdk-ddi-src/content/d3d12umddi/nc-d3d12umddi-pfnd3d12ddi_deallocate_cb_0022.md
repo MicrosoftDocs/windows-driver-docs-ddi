@@ -4,10 +4,9 @@ title: PFND3D12DDI_DEALLOCATE_CB_0022
 author: windows-driver-content
 description: The pfnDeallocateCb callback function controls heap deallocation by using a D3D12DDICB_DEALLOCATE_0022 structure.
 old-location: display\pfnd3d12ddi_deallocate_cb_0022.htm
-old-project: display
 ms.assetid: 85304F27-A522-44B7-86EC-31F670828354
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_DEALLOCATE_CB_0022, PFND3D12DDI_DEALLOCATE_CB_0022 callback, d3d12umddi/pfnDeallocateCb, display.pfnd3d12ddi_deallocate_cb_0022, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,24 +60,12 @@ The <i>pfnDeallocateCb</i> callback function controls heap deallocation by using
 
 ### -param Arg1
 
+The handle to a device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - Deallocate [in]
-
 A  <a href="https://msdn.microsoft.com/977868D1-02E1-4460-9194-2079B986045E">D3D12DDICB_DEALLOCATE_0022</a> structure that contains information for a deallocation.
 
-
-#### - hRTDevice [in]
-
-The handle for a device.
 
 
 ## -returns

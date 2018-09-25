@@ -4,7 +4,7 @@ title: "_DISK_PERFORMANCE"
 author: windows-driver-content
 description: The DISK_PERFORMANCE structure is used in conjunction with the IOCTL_DISK_PERFORMANCE request to collect summary disk statistics for purposes of measuring disk performance.
 old-location: storage\disk_performance.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

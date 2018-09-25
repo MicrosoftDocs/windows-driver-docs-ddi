@@ -4,7 +4,7 @@ title: KsCreateAllocator function
 author: windows-driver-content
 description: The KsCreateAllocator function creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
 old-location: stream\kscreateallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c67e036c-9f4c-447e-94bb-73cf215c865a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

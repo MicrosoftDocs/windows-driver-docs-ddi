@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c424d21a-987d-4250-ae01-5e802e33b1f8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProviderEnumerator::Reset, Reset, IDataModelScriptProviderEnumerator.Reset, IDataModelScriptProviderEnumerator::Reset, IDataModelScriptProviderEnumerator.Reset
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Resets the enumerator to the first element.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataModelScriptProviderEnumerator interface](nn-dbgmodel-idatamodelscriptproviderenumerator.md)

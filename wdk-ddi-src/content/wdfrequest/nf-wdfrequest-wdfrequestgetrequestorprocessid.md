@@ -4,7 +4,7 @@ title: WdfRequestGetRequestorProcessId function
 author: windows-driver-content
 description: The WdfRequestGetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.
 old-location: wdf\wdfrequestgetrequestorprocessid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
-req.dll: WUDFx02000.dll; TBD
+req.dll: WUDFx02000.dll
 req.irql: DISPATCH_LEVEL
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestGetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
 

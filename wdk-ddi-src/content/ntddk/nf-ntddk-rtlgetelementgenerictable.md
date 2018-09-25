@@ -4,7 +4,7 @@ title: RtlGetElementGenericTable function
 author: windows-driver-content
 description: The RtlGetElementGenericTable routine returns a pointer to the caller-supplied data for a particular generic table element.
 old-location: ifsk\rtlgetelementgenerictable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 85b5fce8-eac4-4cd8-9a24-22564aae915a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

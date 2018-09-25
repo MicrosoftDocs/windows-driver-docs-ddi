@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetConfiguredSettingIndex function
 author: windows-driver-content
 description: The WdfUsbInterfaceGetConfiguredSettingIndex method returns the alternate setting index that is currently selected for a specified USB device interface.
 old-location: wdf\wdfusbinterfacegetconfiguredsettingindex.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ca8f1fae-1655-4e0d-baa4-133f11cf246f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> method returns the alternate setting index that is currently selected for a specified USB device interface.
 

@@ -4,7 +4,7 @@ title: DrvDeviceCapabilities function
 author: windows-driver-content
 description: A printer interface DLL's DrvDeviceCapabilities function returns requested information about a printer's capabilities.
 old-location: print\drvdevicecapabilities.htm
-old-project: print
+tech.root: print
 ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -65,22 +65,22 @@ Caller-supplied printer handle.
 
 ### -param pszDeviceName
 
-TBD
+
 
 
 ### -param Capability
 
-TBD
+
 
 
 ### -param pOutput
 
-TBD
+
 
 
 ### -param pDevmode
 
-TBD
+
 
 
 

@@ -4,7 +4,7 @@ title: RtlULongLongAdd function
 author: windows-driver-content
 description: Adds two values of type ULONGLONG.
 old-location: kernel\rtlulonglongadd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AE58D20E-25A0-4D45-9E60-38EF2F1D1EF3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -70,14 +70,9 @@ The value to add to <i>ullAugend</i>.
 
 ### -param pullResult
 
-TBD
+<p>A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
 
-
-
-#### - pllResult [out]
-
-A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 ## -remarks

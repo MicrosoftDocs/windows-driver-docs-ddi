@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeWdmGetPipeHandle function
 author: windows-driver-content
 description: The WdfUsbTargetPipeWdmGetPipeHandle method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object.
 old-location: wdf\wdfusbtargetpipewdmgetpipehandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d24577e3-3124-4ce7-a6ea-bed75ff18a1e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetPipeWdmGetPipeHandle</b> method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object. 
 

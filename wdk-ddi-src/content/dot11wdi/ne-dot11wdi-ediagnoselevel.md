@@ -4,10 +4,10 @@ title: eDiagnoseLevel
 author: windows-driver-content
 description: The eDiagnoseLevel enumeration defines the diagnosis levels for adapter hang diagnosis.
 old-location: netvista\wdiediagnoselevel.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: DiagnoseLevelDriverStateDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelFirmwareImageDump, dot11wdi/DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, eDiagnoseLevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

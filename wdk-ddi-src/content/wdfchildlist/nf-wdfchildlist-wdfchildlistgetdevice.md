@@ -4,7 +4,7 @@ title: WdfChildListGetDevice function
 author: windows-driver-content
 description: The WdfChildListGetDevice method returns a handle to the framework device object that represents the parent device of a specified child list.
 old-location: wdf\wdfchildlistgetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListGetDevice</b> method returns a handle to the framework device object that represents the parent device of a specified child list.
 

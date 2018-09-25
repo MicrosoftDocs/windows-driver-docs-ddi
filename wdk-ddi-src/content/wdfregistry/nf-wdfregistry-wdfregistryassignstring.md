@@ -4,7 +4,7 @@ title: WdfRegistryAssignString function
 author: windows-driver-content
 description: The WdfRegistryAssignString method assigns a string to a specified value name in the registry. The string is contained in a specified framework string object.
 old-location: wdf\wdfregistryassignstring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e84ee541-4347-4385-9742-5cc0c6c5017f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryAssignString</b> method assigns a string to a specified value name in the registry. The string is contained in a specified framework string object.
 

@@ -4,7 +4,7 @@ title: IPrintPipelineFilter::ShutdownOperation
 author: windows-driver-content
 description: The Pipeline Manager uses the ShutdownOperation method to shut down a filter if the print job is canceled or an error occurs.
 old-location: print\iprintpipelinefilter_shutdownoperation.htm
-old-project: print
+tech.root: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

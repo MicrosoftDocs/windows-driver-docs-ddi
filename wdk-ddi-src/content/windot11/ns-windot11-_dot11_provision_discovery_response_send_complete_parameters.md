@@ -4,7 +4,7 @@ title: "_DOT11_PROVISION_DISCOVERY_RESPONSE_SEND_COMPLETE_PARAMETERS"
 author: windows-driver-content
 description: The parameters for a provision discovery response are specified in a DOT11_PROVISION_DISCOVERY_RESPONSE_SEND_COMPLETE_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_RESPONSE_SEND_COMPLETE indication.
 old-location: netvista\dot11_provision_discovery_response_send_complete_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: EAE45375-63BA-4BBB-A36D-1D56E986694A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

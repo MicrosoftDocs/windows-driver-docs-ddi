@@ -4,7 +4,7 @@ title: IOCTL_SOCKET_INFORMATION
 author: windows-driver-content
 description: This request retrieves socket information for the socket that is indicated by the caller.
 old-location: pcmcia\ioctl_socket_information.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: 95563d68-e812-4c62-9668-8cb25b4735aa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

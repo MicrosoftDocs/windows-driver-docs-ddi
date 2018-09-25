@@ -4,7 +4,7 @@ title: WDF_QUERY_INTERFACE_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_QUERY_INTERFACE_CONFIG_INIT function initializes a driver's WDF_QUERY_INTERFACE_CONFIG structure.
 old-location: wdf\wdf_query_interface_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552439">WDF_QUERY_INTERFACE_CONFIG</a> structure.
 
@@ -67,7 +67,7 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/ha
 
 ### -param Interface [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure.
 
 
 ### -param InterfaceType [in]
@@ -113,7 +113,7 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 

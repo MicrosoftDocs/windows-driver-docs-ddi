@@ -4,7 +4,7 @@ title: EVT_WDF_INTERRUPT_ISR
 author: windows-driver-content
 description: A driver's EvtInterruptIsr event callback function services a hardware interrupt.
 old-location: wdf\evtinterruptisr.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6f28a66a-9c17-4020-bfe2-295c22af6ba7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtInterruptIsr</i> event callback function services a hardware interrupt.
 

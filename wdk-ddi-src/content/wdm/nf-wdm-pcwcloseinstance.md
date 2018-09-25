@@ -4,7 +4,7 @@ title: PcwCloseInstance function
 author: windows-driver-content
 description: The PcwCloseInstance function closes the specified instance of the counter set.
 old-location: devtest\pcwcloseinstance.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: a577a116-9e5e-42d3-aac0-a6b90131ad9d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

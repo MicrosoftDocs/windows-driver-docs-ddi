@@ -4,7 +4,7 @@ title: IPrintJobCollection
 author: windows-driver-content
 description: This interfaces provides an enumeration of the jobs in the print queue.
 old-location: print\iprintjobcollection.htm
-old-project: print
+tech.root: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

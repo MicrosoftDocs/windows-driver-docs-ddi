@@ -4,7 +4,7 @@ title: WDF_POWER_FRAMEWORK_SETTINGS_INIT function
 author: windows-driver-content
 description: The WDF_POWER_FRAMEWORK_SETTINGS_INIT function initializes a WDF_POWER_FRAMEWORK_SETTINGS structure.
 old-location: wdf\wdf_power_framework_settings_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 26F872A2-7727-4346-BA80-779D082EAE9D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
     The 

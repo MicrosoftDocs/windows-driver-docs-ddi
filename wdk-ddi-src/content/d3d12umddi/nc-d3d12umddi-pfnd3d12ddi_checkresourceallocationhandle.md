@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
 title: PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
 author: windows-driver-content
-description: 
+description: Checks resource allocation handle.
 ms.assetid: 627c14f1-f793-40a8-b52d-ba98f90d2d1b
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Checks resource allocation handle.
 
 ## -prototype
 
@@ -67,18 +69,14 @@ PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
+### -param D3D12DDI_HDEVICE  
+
+A handle to the display device (graphics context).
+ 
 ### -param D3D10DDI_HRESOURCE: 
 
-
+A resource handle.
 
 ## -returns
 
-Returns D3DKMT_HANDLE that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns D3DKMT_HANDLE.

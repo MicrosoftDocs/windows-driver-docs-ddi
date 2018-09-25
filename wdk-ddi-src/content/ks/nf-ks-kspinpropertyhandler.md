@@ -4,7 +4,7 @@ title: KsPinPropertyHandler function
 author: windows-driver-content
 description: The KsPinPropertyHandler function performs standard handling of the static members of the KSPROPSETID_Pin property set. This handling does not include KSPROPERTY_PIN_CINSTANCES or KSPROPERTY_PIN_DATAINTERSECTION.
 old-location: stream\kspinpropertyhandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

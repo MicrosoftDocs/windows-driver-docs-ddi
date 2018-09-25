@@ -4,10 +4,9 @@ title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021
 author: windows-driver-content
 description: The pfnCreateVideoProcessor callback function creates a video processor.
 old-location: display\pfnd3d12ddi_createvideoprocessor.htm
-old-project: display
 ms.assetid: 4F1AA75F-DDC7-490B-8CE2-590691991234
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021, PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnCreateVideoProcessor, display.pfnd3d12ddi_createvideoprocessor, pfnCreateVideoProcessor, pfnCreateVideoProcessor callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

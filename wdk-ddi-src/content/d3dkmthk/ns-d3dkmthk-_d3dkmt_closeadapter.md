@@ -4,10 +4,9 @@ title: "_D3DKMT_CLOSEADAPTER"
 author: windows-driver-content
 description: The D3DKMT_CLOSEADAPTER structure specifies the graphics adapter to close.
 old-location: display\d3dkmt_closeadapter.htm
-old-project: display
 ms.assetid: ef85d18a-c4cd-4999-8782-19e4114a0594
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, _D3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMT_CLOSEADAPTER, display.d3dkmt_closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_CLOSEADAPTER
 ---
 

@@ -2,9 +2,9 @@
 UID: NE:ks.VARENUM
 title: VARENUM
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\varenum.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 00F015F4-708F-4272-A903-56C44DC6646E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_LPI_STATE_FLAGS"
 author: windows-driver-content
 description: Defines LPI state flags, either as a structure or as an integer.
 old-location: acpi\lpi_state_flags.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 3A9DECE8-E85A-49D5-8AF1-6C7BA8B1AB7D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	LPI_STATE_FLAGS
 product:
-- Windows
+-	Windows
 targetos: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 ---

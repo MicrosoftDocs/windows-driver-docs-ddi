@@ -4,7 +4,7 @@ title: "_SM_GetBindingCapability_OUT"
 author: windows-driver-content
 description: The SM_GetBindingCapability_OUT structure is used to receive output parameters from the SM_GetBindingCapability method.
 old-location: storage\sm_getbindingcapability_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7dfa36be-ab05-478d-b47a-783e599545bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

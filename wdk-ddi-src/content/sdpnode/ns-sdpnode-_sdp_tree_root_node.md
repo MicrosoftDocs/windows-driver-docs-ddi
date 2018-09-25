@@ -4,7 +4,7 @@ title: "_SDP_TREE_ROOT_NODE"
 author: windows-driver-content
 description: The SDP_TREE_ROOT_NODE structure is the root element of a tree-based representation of an SDP record.
 old-location: bltooth\sdp_tree_root_node.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: bde75364-387b-4f57-8942-1cf32652c02d
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

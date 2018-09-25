@@ -4,7 +4,7 @@ title: RtlUpcaseUnicodeStringToOemString function
 author: windows-driver-content
 description: The RtlUpcaseUnicodeStringToOemString routine translates a given Unicode source string into an uppercase OEM string using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodestringtooemstring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d81c5e4-780b-4b1f-ad3a-6d59cab5650f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

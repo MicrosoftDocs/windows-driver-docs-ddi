@@ -4,10 +4,10 @@ title: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function
 author: windows-driver-content
 description: Initializes a UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure.
 old-location: buses\ucm_connector_typec_attach_params_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: C360556B-5A28-4FC3-9304-6000061A1D69
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], buses.ucm_connector_typec_attach_params_init, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,24 +60,14 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 ### -param Params
 
-TBD
+<p>Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/Mt187928(v=VS.85).aspx"><b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b></a> structure to initialize.</p>
 
 
 ### -param Partner
 
-TBD
+<p>A <a href="https://msdn.microsoft.com/library/Mt187947(v=VS.85).aspx"><b>UCM_TYPE_C_PORT_STATE</b></a>-typed flag that indicates the state of the partner port.</p>
 
 
-
-
-#### - Config [out]
-
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187928">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure to initialize.
-
-
-#### - PortPartnerType [in]
-
-A <a href="https://msdn.microsoft.com/4779E943-5C13-4DE2-AF8F-37657F0F99C0">UCM_TYPE_C_PORT_STATE</a>-typed flag that indicates the state of the partner port.
 
 
 ## -returns

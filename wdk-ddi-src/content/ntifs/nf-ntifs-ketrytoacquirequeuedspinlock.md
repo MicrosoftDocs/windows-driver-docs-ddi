@@ -4,7 +4,7 @@ title: KeTryToAcquireQueuedSpinLock function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ketrytoacquirequeuedspinlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e598c402-ef60-4f6c-924d-fc37114c3432
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use.
 
 ### -param Number
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param OldIrql

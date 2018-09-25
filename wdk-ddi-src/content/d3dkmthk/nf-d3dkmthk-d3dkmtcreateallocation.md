@@ -4,10 +4,9 @@ title: D3DKMTCreateAllocation function
 author: windows-driver-content
 description: The D3DKMTCreateAllocation function creates allocations of system or video memory.
 old-location: display\d3dkmtcreateallocation.htm
-old-project: display
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTCreateAllocation
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ The <b>D3DKMTCreateAllocation</b> function creates allocations of system or vide
 
 ### -param Arg1
 
-TBD
+
 
 
 

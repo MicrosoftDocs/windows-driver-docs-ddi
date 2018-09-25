@@ -4,10 +4,10 @@ title: NdisMGetVirtualFunctionLocation function
 author: windows-driver-content
 description: A miniport driver calls the NdisMGetVirtualFunctionLocation function to query the device location of a PCI Express (PCIe) Virtual Function (VF) on a PCI bus. The driver uses the device location to construct the PCIe Requestor ID (RID) for the VF.
 old-location: netvista\ndismgetvirtualfunctionlocation.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

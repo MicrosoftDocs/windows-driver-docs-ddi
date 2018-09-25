@@ -4,10 +4,10 @@ title: "_USB_HUB_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_HUB_DESCRIPTOR structure contains a hub descriptor.
 old-location: buses\usb_hub_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 6f5521f4-44da-4470-b649-d98c1d4e4891
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], USB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], _USB_HUB_DESCRIPTOR, buses.usb_hub_descriptor, usbspec/PUSB_HUB_DESCRIPTOR, usbspec/USB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR
 
 
 The <b>USB_HUB_DESCRIPTOR</b> structure contains a hub descriptor.
-
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 10.15.2.1.
 
 ## -struct-fields
 

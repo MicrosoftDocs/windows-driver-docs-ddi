@@ -4,7 +4,7 @@ title: IKsPinFactory::KsPinFactory
 author: windows-driver-content
 description: The KsPinFactory method retrieves the identifier of a pin factory.
 old-location: stream\ikspinfactory_kspinfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

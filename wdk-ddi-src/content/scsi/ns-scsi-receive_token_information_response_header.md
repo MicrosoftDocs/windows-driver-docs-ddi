@@ -4,7 +4,7 @@ title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 author: windows-driver-content
 description: A token, created as a representation of data (ROD), for an offload read data operation is returned in a RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure.
 old-location: storage\receive_token_information_response_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 54168476-1C55-4343-858C-7FBA863D35D0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

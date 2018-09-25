@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_RESET_DEVICE
 author: windows-driver-content
 description: The IOCTL_SERIAL_RESET_DEVICE request resets a serial device.
 old-location: serports\ioctl_serial_reset_device.htm
-old-project: serports
+tech.root: serports
 ms.assetid: af7482b4-4622-40b7-af7a-c952813e7095
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

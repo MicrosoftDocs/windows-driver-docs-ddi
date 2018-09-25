@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_PNP_CAPABILITIES"
 author: windows-driver-content
 description: The WDF_DEVICE_PNP_CAPABILITIES structure describes a device's Plug and Play capabilities.
 old-location: wdf\wdf_device_pnp_capabilities.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0857e32e-9962-44ca-9d61-b98b09073c16
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The WDF_DEVICE_PNP_CAPABILITIES structure describes a device's Plug and Play capabilities.
 

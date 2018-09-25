@@ -4,7 +4,7 @@ title: WdfChildListAddOrUpdateChildDescriptionAsPresent function
 author: windows-driver-content
 description: The WdfChildListAddOrUpdateChildDescriptionAsPresent method adds a new child description to a list of children or updates an existing child description.
 old-location: wdf\wdfchildlistaddorupdatechilddescriptionaspresent.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 10d169bc-4476-4d7f-8eeb-49941c12a7a0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> method adds a new child description to a list of children or updates an existing child description.
 

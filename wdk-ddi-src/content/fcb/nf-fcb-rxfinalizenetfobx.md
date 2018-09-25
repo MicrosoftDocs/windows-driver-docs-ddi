@@ -4,7 +4,7 @@ title: RxFinalizeNetFobx function
 author: windows-driver-content
 description: RxFinalizeNetFOBX finalizes the given FOBX structure. The caller must have an exclusive lock on the FCB associated with FOBX structure.
 old-location: ifsk\rxfinalizenetfobx.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 052e7995-fab8-4863-a3a2-8b9bd6f21ec9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

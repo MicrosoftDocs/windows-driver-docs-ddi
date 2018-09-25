@@ -4,7 +4,7 @@ title: RtlCopyLuid function
 author: windows-driver-content
 description: The RtlCopyLuid routine copies a locally unique identifier (LUID) to a buffer.
 old-location: ifsk\rtlcopyluid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ebda25f4-77d6-4178-9ff8-b1f0e95df9f0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

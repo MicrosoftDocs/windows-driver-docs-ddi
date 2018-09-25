@@ -4,7 +4,7 @@ title: "_CHANNEL_CONFIG_RESULTS_ENHANCED"
 author: windows-driver-content
 description: The CHANNEL_CONFIG_RESULTS_ENHANCED structure describes configuration parameters and the buffer size of any extra option for the inbound and outbound directions of an L2CAP channel.
 old-location: bltooth\channel_config_results_enhanced.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: E7A2FC77-86B0-4990-93DC-2A04E33A426C
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

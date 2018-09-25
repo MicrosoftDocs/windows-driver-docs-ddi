@@ -4,7 +4,7 @@ title: GNSS_GEOFENCE_CREATE_RESPONSE
 author: windows-driver-content
 description: This structure defines the response expected from the GNSS engine when a new geofence is created.
 old-location: gnss\gnss_geofence_create_response.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D832B534-34E2-402F-833A-C072007E3106
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

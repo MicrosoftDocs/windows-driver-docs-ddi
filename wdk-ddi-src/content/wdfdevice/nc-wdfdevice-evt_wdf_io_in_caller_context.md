@@ -4,7 +4,7 @@ title: EVT_WDF_IO_IN_CALLER_CONTEXT
 author: windows-driver-content
 description: A driver's EvtIoInCallerContext event callback function preprocesses an I/O request before the framework places it into an I/O queue.
 old-location: wdf\evtioincallercontext.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b8bcea29-e404-490e-9d0c-02c96a5690ab
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtIoInCallerContext</i> event callback function preprocesses an I/O request before the framework places it into an I/O queue.
 

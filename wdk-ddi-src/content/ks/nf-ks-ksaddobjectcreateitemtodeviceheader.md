@@ -4,7 +4,7 @@ title: KsAddObjectCreateItemToDeviceHeader function
 author: windows-driver-content
 description: The KsAddObjectCreateItemToDeviceHeader function adds the specified create-item to an empty item in the previously allocated create item list for this device header.
 old-location: stream\ksaddobjectcreateitemtodeviceheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

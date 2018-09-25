@@ -4,7 +4,7 @@ title: WdfRequestGetFileObject function
 author: windows-driver-content
 description: The WdfRequestGetFileObject method retrieves the framework file object that is associated with a specified I/O request.
 old-location: wdf\wdfrequestgetfileobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0c5a1e12-b66f-4bcb-bb9d-739b883fe9c2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestGetFileObject</b> method retrieves the framework file object that is associated with a specified I/O request.
 

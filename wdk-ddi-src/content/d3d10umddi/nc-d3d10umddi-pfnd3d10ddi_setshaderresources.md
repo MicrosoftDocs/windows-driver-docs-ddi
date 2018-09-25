@@ -4,10 +4,9 @@ title: PFND3D10DDI_SETSHADERRESOURCES
 author: windows-driver-content
 description: The CsSetShaderResources function sets resources for a compute shader.
 old-location: display\cssetshaderresources.htm
-old-project: display
 ms.assetid: 29570c3b-eb3b-4d8f-b471-8f3ea6226e23
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CsSetShaderResources, CsSetShaderResources callback function [Display Devices], PFND3D10DDI_SETSHADERRESOURCES, PFND3D10DDI_SETSHADERRESOURCES callback, UserModeDisplayDriverDx11_Functions_0fe556e4-8c6f-4848-b502-d35744c60713.xml, d3d10umddi/CsSetShaderResources, display.cssetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -109,6 +109,14 @@ The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6
 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>CsSetShaderResources</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
+
+The <b>VsSetShaderResources</b> function sets resources for a vertex shader.
+
+The <b>PsSetShaderResources</b> function sets resources for a pixel shader.
+
+The <b>DsSetShaderResources</b> function sets resources for a domain shader.
+
+The <b>GsSetShaderResources</b> function sets resources for a geometry shader.
 
 
 

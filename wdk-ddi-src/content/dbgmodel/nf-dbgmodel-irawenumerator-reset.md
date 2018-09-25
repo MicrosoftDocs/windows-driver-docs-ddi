@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4cf9fdb7-d79e-437b-a5a3-8224e682e6b6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IRawEnumerator::Reset, Reset, IRawEnumerator.Reset, IRawEnumerator::Reset, IRawEnumerator.Reset
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Resets the enumerator to its initial state.  A subsequent GetNext call will return the first raw element (native field, base class, etc...) in enumerator order.
 
 ## -parameters
 
@@ -54,3 +54,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IRawEnumerator interface](nn-dbgmodel-irawenumerator.md)

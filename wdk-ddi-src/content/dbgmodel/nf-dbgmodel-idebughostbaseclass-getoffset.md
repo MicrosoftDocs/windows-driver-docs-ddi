@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 13e58ad4-e518-4861-ba38-666e27350160
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::GetOffset, GetOffset, IDebugHostBaseClass.GetOffset, IDebugHostBaseClass::GetOffset, IDebugHostBaseClass.GetOffset
 req.header: dbgmodel.h
@@ -44,15 +44,33 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetOffset method returns the offset of the base class from the base address of the derived class. Such offset may be zero or may be a positive unsigned 64-bit value. 
 
 ## -parameters
 
 ### -param offset
+The offset of the base class from the base address of the derived class is returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```cpp
+ComPtr<IDebugHostBaseClass> spBaseClass; /* get a base class symbol (see
+                                            EnumerateChildren) */
+
+ULONG64 offset;
+if (SUCCEEDED(spBaseClass->GetOffset(&offset)))
+{
+    // offset indicates the position of the base class relative to the 
+    // start of its parent class.
+}
+```
+
 ## -see-also
+
+[IDebugHostBaseClass interface](nn-dbgmodel-idebughostbaseclass.md)

@@ -4,7 +4,7 @@ title: IoClearActivityIdThread function
 author: windows-driver-content
 description: The IoClearActivityIdThread routine clears the activity ID of the current thread.
 old-location: kernel\ioclearactivityidthread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2F69FC2F-C336-4B51-8EFC-0A9AA22121B9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

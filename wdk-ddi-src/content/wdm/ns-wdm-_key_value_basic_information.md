@@ -4,7 +4,7 @@ title: "_KEY_VALUE_BASIC_INFORMATION"
 author: windows-driver-content
 description: The KEY_VALUE_BASIC_INFORMATION structure defines a subset of the full information available for a value entry of a registry key.
 old-location: kernel\key_value_basic_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b3b14c21-3613-4f84-9e7d-368c4cc3fa9d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

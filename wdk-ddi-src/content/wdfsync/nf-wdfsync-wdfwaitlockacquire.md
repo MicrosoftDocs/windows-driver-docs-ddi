@@ -4,7 +4,7 @@ title: WdfWaitLockAcquire function
 author: windows-driver-content
 description: The WdfWaitLockAcquire method acquires a specified wait lock.
 old-location: wdf\wdfwaitlockacquire.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWaitLockAcquire</b> method acquires a specified wait lock.
 

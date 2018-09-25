@@ -4,7 +4,7 @@ title: SerCx2CustomTransmitTransactionInitializeComplete function
 author: windows-driver-content
 description: The SerCx2CustomTransmitTransactionInitializeComplete method informs version 2 of the serial framework extension (SerCx2) that the serial driver has finished initializing the serial controller and associated hardware in preparation for a new custom-transmit transaction.
 old-location: serports\sercx2customtransmittransactioninitializecomplete.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 5C2BF433-11C0-425A-B14A-7A0275F7DF51
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

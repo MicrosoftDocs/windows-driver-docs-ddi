@@ -4,7 +4,7 @@ title: WdfInterruptGetDevice function
 author: windows-driver-content
 description: The WdfInterruptGetDevice method returns a handle to the framework device object that is associated with a specified framework interrupt object.
 old-location: wdf\wdfinterruptgetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c1e7a9ce-5794-4ed0-bb30-e3e68b0251db
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptGetDevice</b> method returns a handle to the framework device object that is associated with a specified framework interrupt object.
 

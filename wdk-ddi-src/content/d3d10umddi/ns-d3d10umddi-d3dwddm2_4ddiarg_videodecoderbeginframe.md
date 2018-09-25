@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
 title: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
 author: windows-driver-content
-description:
+description: A collection of histogram output buffers.
 ms.assetid: 35f914e8-031f-4326-8cf3-c0d9889c1d9f
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure

@@ -4,7 +4,7 @@ title: KSPROPERTY_SELECTOR_NODE_S
 author: windows-driver-content
 description: The KSPROPERTY_SELECTOR_NODE_S structure describes node-based property settings in the PROPSETID_VIDCAP_SELECTOR property set.
 old-location: stream\ksproperty_selector_node_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 37dc9f4a-1e9c-42f2-8894-4972562f5898
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

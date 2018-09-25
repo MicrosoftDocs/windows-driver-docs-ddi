@@ -4,10 +4,10 @@ title: RILUICCPRLID
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccprlid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fab3455a-c09f-4a08-a76d-4d80468accd2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
 ms.prod: windows-hardware
 ms.technology: windows-devices

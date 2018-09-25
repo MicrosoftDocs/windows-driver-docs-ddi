@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_PACKET_V1"
 author: windows-driver-content
 description: The WHEA_ERROR_PACKET_V1 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).Note  The WHEA_ERROR_PACKET_V1 structure is supported in Windows Server 2008 and Windows Vista SP1.
 old-location: whea\whea_error_packet_v1.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 66189a9a-241f-4457-87cd-d5d583a46f14
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

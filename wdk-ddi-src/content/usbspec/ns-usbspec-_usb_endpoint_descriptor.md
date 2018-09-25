@@ -4,10 +4,10 @@ title: "_USB_ENDPOINT_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_ENDPOINT_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 old-location: buses\usb_endpoint_descriptor.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], _USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 
 
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
-
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.6.
 
 ## -struct-fields
 

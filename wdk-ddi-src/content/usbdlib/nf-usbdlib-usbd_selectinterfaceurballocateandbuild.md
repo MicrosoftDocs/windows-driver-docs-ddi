@@ -4,10 +4,10 @@ title: USBD_SelectInterfaceUrbAllocateAndBuild function
 author: windows-driver-content
 description: The USBD_SelectInterfaceUrbAllocateAndBuild routine allocates and formats a URB structure that is required for a request to select an interface or change its alternate setting.
 old-location: buses\usbd_selectinterfaceurballocateandbuild.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,17 +73,12 @@ Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.Config
 
 ### -param InterfaceListEntry
 
-TBD
+<p>Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/Ff539076(v=VS.85).aspx"><b>USBD_INTERFACE_LIST_ENTRY</b></a>    structure. For more information, see Remarks.</p>
 
 
 ### -param Urb [out]
 
 Pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure that receives the URB allocated by <b>USBD_SelectInterfaceUrbAllocateAndBuild</b>. The client driver must free the URB when the driver has finished using it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh406252">USBD_UrbFree</a>.
-
-
-#### - InterfaceList [in]
-
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff539076">USBD_INTERFACE_LIST_ENTRY</a>    structure. For more information, see Remarks.
 
 
 ## -returns

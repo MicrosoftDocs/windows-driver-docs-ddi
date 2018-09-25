@@ -4,7 +4,7 @@ title: IoSetFileOrigin function
 author: windows-driver-content
 description: The IoSetFileOrigin routine specifies whether a given file object is for a remote create request.
 old-location: ifsk\iosetfileorigin.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 98d38c84-ed3a-4119-9a05-f8211f220467
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

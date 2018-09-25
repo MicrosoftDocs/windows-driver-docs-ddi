@@ -4,7 +4,7 @@ title: WdfDeviceOpenDevicemapKey function
 author: windows-driver-content
 description: The WdfDeviceOpenDevicemapKey method opens the DEVICEMAP key and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfdeviceopendevicemapkey.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceOpenDevicemapKey</b> method opens the <b>DEVICEMAP</b> key and creates a framework registry-key object that represents the registry key.
 

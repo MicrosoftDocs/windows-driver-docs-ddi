@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0002"
 author: windows-driver-content
 description: The EXpsFontOptions enumeration describes the font options for an XPS part.
 old-location: print\expsfontoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

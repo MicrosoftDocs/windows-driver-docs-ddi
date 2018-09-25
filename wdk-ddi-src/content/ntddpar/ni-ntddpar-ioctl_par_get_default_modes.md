@@ -4,7 +4,7 @@ title: IOCTL_PAR_GET_DEFAULT_MODES
 author: windows-driver-content
 description: The IOCTL_PAR_GET_DEFAULT_MODES request returns the default write (forward) and read (reverse) IEEE 1284 protocols that the system-supplied bus driver for parallel ports uses.
 old-location: parports\ioctl_par_get_default_modes.htm
-old-project: parports
+tech.root: parports
 ms.assetid: d2f440b2-1208-4cae-9790-b93f267499b1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 # IOCTL_PAR_GET_DEFAULT_MODES IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -56,7 +56,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 
 
 
-The IOCTL_PAR_GET_DEFAULT_MODES request returns the default write (forward) and read (reverse) IEEE 1284 protocols that the system-supplied bus driver for parallel ports uses. The default write protocol is CENTRONICS; the default read protocol is NIBBLE. 
+The IOCTL_PAR_GET_DEFAULT_MODES request returns the default write (forward) and read (reverse) IEEE 1284 protocols that the system-supplied bus driver for parallel ports uses. The default write protocol is CENTRONICS; the default read protocol is NIBBLE.
 
 For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f-b6e4-5f7d20124a7c">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
@@ -85,7 +85,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a PARCLASS_NEGOTIATION_MA
 
 ### -output-buffer-length
 
-The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a> structure. 
+The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a> structure.
 
 
 ### -in-out-buffer
@@ -108,7 +108,7 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 ### -status-block
 
-If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure. Otherwise, <b>Information</b> is set to zero. 
+If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure. Otherwise, <b>Information</b> is set to zero.
 
 The <b>Status</b> member is set to one of the generic status values returned by device control requests for parallel devices or to the following value:
 

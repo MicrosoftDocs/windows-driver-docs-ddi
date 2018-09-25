@@ -4,10 +4,9 @@ title: D3D10_DDI_DEPTH_STENCILOP_DESC
 author: windows-driver-content
 description: The D3D10_DDI_DEPTH_STENCILOP_DESC structure describes a depth stencil operation.
 old-location: display\d3d10_ddi_depth_stencilop_desc.htm
-old-project: display
 ms.assetid: 3f0f3f1d-5b38-4815-9732-3b4079481c58
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D10_DDI_DEPTH_STENCILOP_DESC, D3D10_DDI_DEPTH_STENCILOP_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_606e4f10-c713-4aae-b1d1-4a3c9ffde205.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCILOP_DESC, display.d3d10_ddi_depth_stencilop_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D10_DDI_DEPTH_STENCILOP_DESC
 ---
 

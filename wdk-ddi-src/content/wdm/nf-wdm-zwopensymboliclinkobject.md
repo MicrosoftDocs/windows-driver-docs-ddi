@@ -4,7 +4,7 @@ title: ZwOpenSymbolicLinkObject function
 author: windows-driver-content
 description: The ZwOpenSymbolicLinkObject routine opens an existing symbolic link.
 old-location: kernel\zwopensymboliclinkobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1b5b9410-1243-4fd4-b02a-fc262abf18c7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_ScsiReportLuns_IN"
 author: windows-driver-content
 description: The ScsiReportLuns_IN structure holds the input data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ba1d67f7-cb90-473a-849d-7990889e4a40
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

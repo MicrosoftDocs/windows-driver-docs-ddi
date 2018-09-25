@@ -4,7 +4,7 @@ title: "_GET_LOCAL_HOST_INFO3"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO3 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_POWER_SUPPLIED.
 old-location: ieee\get_local_host_info3.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 49c24328-dfd9-4d4d-a40f-a375f1384a5c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

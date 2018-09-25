@@ -4,7 +4,7 @@ title: ScsiPortMoveMemory function
 author: windows-driver-content
 description: The ScsiPortMoveMemory routine copies data from one location to another.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportmovememory.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

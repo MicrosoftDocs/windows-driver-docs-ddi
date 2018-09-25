@@ -4,7 +4,7 @@ title: "_DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_frequency_adopted_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c6f98202-b70e-4ef7-853a-b97bb5e6294e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -78,11 +78,11 @@ typedef struct _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure. This member
-     is formatted as an 
+     is formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -103,24 +103,24 @@ This member must be set to DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS_REVISION_1.
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <b>sizeof</b>(DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ulPhyId
 
-The value of an entry in the list of active PHY types defined by the 
+The value of an entry in the list of active PHY types defined by the
      <b>msDot11ActivePhyList</b> MIB object that specifies the current channel or frequency that the NIC has
      adopted to communicate over the BSS network.
-     
 
-The miniport driver sets 
+
+The miniport driver sets
      <b>msDot11ActivePhyList</b> object to the list of PHYs that have been activated for use over the current
-     BSS network connection. For more information about the 
-     <b>msDot11ActivePhyList</b> MIB object, see 
+     BSS network connection. For more information about the
+     <b>msDot11ActivePhyList</b> MIB object, see
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 This member should not be set to DOT11_PHY_ID_ANY.
@@ -128,7 +128,7 @@ This member should not be set to DOT11_PHY_ID_ANY.
 
 #### - ulChannel
 
-The channel number of the 
+The channel number of the
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
       configurations</a> that the NIC has adopted to communicate over the BSS network.
 
@@ -144,7 +144,7 @@ The orthogonal frequency division multiplexing (OFDM) frequency that the NIC has
 
 
 The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure when the
-    driver makes an 
+    driver makes an
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
     NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a> status indication.
 

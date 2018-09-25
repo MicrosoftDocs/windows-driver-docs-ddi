@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_MEDIA_TYPES
 author: windows-driver-content
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_GET_MEDIA_TYPES. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_disk_get_media_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d6e6cd4c-680d-4885-b910-3de8de143e2b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -13,7 +13,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
-req.include-header: TBD
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

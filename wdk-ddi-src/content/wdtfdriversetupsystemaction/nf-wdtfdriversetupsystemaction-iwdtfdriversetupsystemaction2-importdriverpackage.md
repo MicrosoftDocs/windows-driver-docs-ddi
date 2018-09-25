@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::ImportDriverPackage
 author: windows-driver-content
 description: Imports a driver packge to the system driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_importdriverpackage.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

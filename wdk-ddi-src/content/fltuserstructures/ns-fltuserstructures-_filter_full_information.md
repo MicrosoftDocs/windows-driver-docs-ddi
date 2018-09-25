@@ -4,7 +4,7 @@ title: "_FILTER_FULL_INFORMATION"
 author: windows-driver-content
 description: The FILTER_FULL_INFORMATION structure contains full information for a minifilter driver.
 old-location: ifsk\filter_full_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fb592350-76e2-4655-b6db-854fd48aa827
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

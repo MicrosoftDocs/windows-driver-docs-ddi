@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_CREATE_DEVICE
 author: windows-driver-content
 description: A bus driver'sEvtChildListCreateDevice event callback function creates a framework device object for a new device that has been dynamically enumerated.
 old-location: wdf\evtchildlistcreatedevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 296fbe06-1680-43a8-b5c3-1a1faa19c6c3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A bus driver's<i>EvtChildListCreateDevice</i> event callback function creates a framework device object for a new device that has been dynamically enumerated.
 

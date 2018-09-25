@@ -4,7 +4,7 @@ title: EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST
 author: windows-driver-content
 description: A driver's EvtIoAllocateResourcesForReservedRequest callback function allocates request-specific resources that the driver can use to process an I/O request in the future.
 old-location: wdf\evtioallocateresourcesforreservedrequest.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 07ba6437-655b-417a-87a8-5374812ca4d7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtIoAllocateResourcesForReservedRequest</i> callback function allocates request-specific resources that the driver can use to process an I/O request in the future. The framework is pre-allocating the specified request object for future use in low-memory situations.
 

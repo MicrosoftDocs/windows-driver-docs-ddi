@@ -4,7 +4,7 @@ title: RxLogEventWithAnnotation function
 author: windows-driver-content
 description: RxLogEventWithAnnotation allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 old-location: ifsk\rxlogeventwithannotation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -65,57 +65,32 @@ A pointer to the RDBSS device object.
 
 ### -param EventId
 
-TBD
+<p>The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. </p>
 
 
 ### -param Status
 
-TBD
+<p>The value indicating the status code of a routine indicating a failure.</p>
 
 
 ### -param DataBuffer
 
-TBD
+<p>A pointer to a raw data buffer to be added to the I/O error log structure.</p>
 
 
 ### -param DataBufferLength
 
-TBD
+<p>The length of the raw data buffer to be added to the I/O error log structure.</p>
 
 
 ### -param Annotation
 
-TBD
+<p>A pointer to any annotation strings to add to the I/O error log structure.</p>
 
 
 ### -param AnnotationCount [in]
 
 The count of the number of annotation strings to add to the I/O error log structure.
-
-
-#### - Annotations [in]
-
-A pointer to any annotation strings to add to the I/O error log structure.
-
-
-#### - Id [in]
-
-The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
-
-
-#### - NtStatus [in]
-
-The value indicating the status code of a routine indicating a failure.
-
-
-#### - RawDataBuffer [in]
-
-A pointer to a raw data buffer to be added to the I/O error log structure.
-
-
-#### - RawDataLength [in]
-
-The length of the raw data buffer to be added to the I/O error log structure.
 
 
 ## -returns

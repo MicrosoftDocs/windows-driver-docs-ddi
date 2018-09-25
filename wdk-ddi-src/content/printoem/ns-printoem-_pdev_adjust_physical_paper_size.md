@@ -4,7 +4,7 @@ title: "_PDEV_ADJUST_PHYSICAL_PAPER_SIZE"
 author: windows-driver-content
 description: The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure specifies a paper size value.
 old-location: print\pdev_adjust_paper_physical_size.htm
-old-project: print
+tech.root: print
 ms.assetid: 27f6bc52-6973-4370-87cb-07d6f9399e20
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

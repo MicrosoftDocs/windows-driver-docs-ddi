@@ -2,7 +2,7 @@
 UID: NS:d3dumddi._D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 title: _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 author: windows-driver-content
-description:
+description: A structure that contains information to present Blt to the hardware queue.
 ms.assetid: 6c2eda0a-e6df-4467-bbd8-dd55acdb457e
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	_D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE structure

@@ -2,10 +2,10 @@
 UID: NS:icm.DisplayStateID
 title: DisplayStateID structure
 author: windows-driver-content
-description: 
+description: The DisplayStateID structure holds the current color state IDs for a display.
 ms.assetid: ed1f917e-81b8-4613-87b5-8808d28e5573
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 9/10/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,8 @@ api_location:
 -	icm.h
 api_name: 
 -	DisplayStateID
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

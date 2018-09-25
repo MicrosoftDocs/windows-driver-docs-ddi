@@ -4,7 +4,7 @@ title: WDF_ALIGN_SIZE_UP function
 author: windows-driver-content
 description: The WDF_ALIGN_SIZE_UP function returns the next-higher buffer size that is aligned to a specified alignment offset.
 old-location: wdf\wdf_align_size_up.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 68523004-c9f5-4038-985e-702d929cdf04
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_ALIGN_SIZE_UP</b> function returns the next-higher buffer size that is aligned to a specified alignment offset.
 

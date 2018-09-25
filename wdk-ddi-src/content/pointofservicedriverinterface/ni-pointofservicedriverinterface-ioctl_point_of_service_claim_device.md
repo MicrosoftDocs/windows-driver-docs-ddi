@@ -4,7 +4,7 @@ title: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 author: windows-driver-content
 description: The I/O control function claims the device for exclusive access.
 old-location: pos\ioctl_point_of_service_claim_device.htm
-old-project: pos
+tech.root: pos
 ms.assetid: e9dfa630-d3ac-4228-ae2a-02ff5a0fd558
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

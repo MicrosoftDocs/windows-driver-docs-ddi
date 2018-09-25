@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 0ecd0629-ed33-4507-8231-f52bc5d47af4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,15 +38,18 @@ targetos: Windows
 # _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure
 
 ## -description
+ Describes mute and volume components of the sidetone topology.
 
 
 ## -struct-fields
 
 ### -field Volume
+TBD
  
 ### -field Mute
- 
+TBD 
 
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)

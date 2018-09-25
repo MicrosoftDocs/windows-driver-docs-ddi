@@ -4,7 +4,7 @@ title: SdpCreateNodeNil function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeNil function is used to allocate and initialize an SDP_NODE structure to an empty node type.
 old-location: bltooth\sdpcreatenodenil.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 53312cb8-a974-4394-969b-2a39def64109
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

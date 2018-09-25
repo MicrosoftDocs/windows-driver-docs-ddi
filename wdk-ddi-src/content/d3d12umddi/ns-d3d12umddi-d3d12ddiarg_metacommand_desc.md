@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_DESC
 title: D3D12DDIARG_METACOMMAND_DESC
 author: windows-driver-content
-description:
+description: Contains information about a meta-command.
 ms.assetid: d61a72ca-9e93-456f-b10f-e8a0b6516b4b
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_METACOMMAND_DESC
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDIARG_METACOMMAND_DESC
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # D3D12DDIARG_METACOMMAND_DESC structure

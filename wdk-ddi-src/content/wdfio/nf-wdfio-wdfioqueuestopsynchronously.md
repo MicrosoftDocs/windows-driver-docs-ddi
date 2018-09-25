@@ -4,7 +4,7 @@ title: WdfIoQueueStopSynchronously function
 author: windows-driver-content
 description: The WdfIoQueueStopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 old-location: wdf\wdfioqueuestopsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueStopSynchronously</b> method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 

@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_CLEARVIEW
 author: windows-driver-content
 description: Sets all the elements in a resource view to one value. A resource view is a surface descriptor that indicates a format and possibly a subset of the resource.
 old-location: display\clearview.htm
-old-project: display
 ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: ClearView, ClearView callback function [Display Devices], PFND3D11_1DDI_CLEARVIEW, PFND3D11_1DDI_CLEARVIEW callback, d3d10umddi/ClearView, display.clearview, display.clearview_d3d11_1_, display.pfnclearview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

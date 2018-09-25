@@ -4,7 +4,7 @@ title: IoAllocateIrp function
 author: windows-driver-content
 description: The IoAllocateIrp routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller.
 old-location: kernel\ioallocateirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 40abbdf8-3712-4724-8aef-16c247780c86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

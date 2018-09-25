@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_SERIALIZE_LIBRARY_0010
 title: PFND3D12DDI_SERIALIZE_LIBRARY_0010
 author: windows-driver-content
-description: 
+description: Implemented by the client driver to serialize the library.
 ms.assetid: 7e23cd4e-e023-4b84-8335-587ff68242eb
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_SERIALIZE_LIBRARY_0010
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_SERIALIZE_LIBRARY_0010 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Implemented by the client driver to serialize the library.
 
 ## -prototype
 
@@ -68,19 +70,27 @@ PFND3D12DDI_SERIALIZE_LIBRARY_0010
 
 ## -parameters
 
-### -param hDevice: 
-### -param hLibrary: 
-### -param *pBlob: 
+### -param hDevice
+
+A device handle.
+
+### -param hLibrary
+
+A library handle.
+
+### -param *pBlob
+
+Pointer to a blob.
 
 
 
 ## -returns
 
-Returns HRESULT that ...
+Returns HRESULT.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
 
 
 ## -see-also

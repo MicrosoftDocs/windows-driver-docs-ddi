@@ -4,7 +4,7 @@ title: "_MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA"
 author: windows-driver-content
 description: This structure contains authentication information retrieved from the device.
 old-location: pos\msr_retrieve_device_authentication_data.htm
-old-project: pos
+tech.root: pos
 ms.assetid: e355ca5b-d396-4748-a0ec-b12294a6dcfa
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: IFixedDocument
 author: windows-driver-content
 description: The IFixedDocument interface represents a fixed document for an XPS document sequence.
 old-location: print\ifixeddocument.htm
-old-project: print
+tech.root: print
 ms.assetid: 3f9f64a1-8681-4b70-8cdc-7c944912f767
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

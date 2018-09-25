@@ -4,10 +4,9 @@ title: D3D11_1DDI_VIDEO_PROCESSOR_CAPS
 author: windows-driver-content
 description: Describes the capabilities of a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_caps.htm
-old-project: display
 ms.assetid: d825a0d1-fa58-4525-bf90-eb7eaee0cfba
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CAPS, display.d3d11_1ddi_video_processor_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_CAPS
 ---
 

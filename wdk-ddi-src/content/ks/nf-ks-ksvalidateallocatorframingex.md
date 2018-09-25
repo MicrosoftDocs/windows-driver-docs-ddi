@@ -4,7 +4,7 @@ title: KsValidateAllocatorFramingEx function
 author: windows-driver-content
 description: For system use only.
 old-location: stream\ksvalidateallocatorframingex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c30e1bae-08fc-496e-8781-2f47398a7b82
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -60,17 +60,17 @@ For system use only.
 
 ### -param Framing
 
-TBD
+
 
 
 ### -param BufferSize
 
-TBD
+
 
 
 ### -param PinFraming
 
-TBD
+
 
 
 

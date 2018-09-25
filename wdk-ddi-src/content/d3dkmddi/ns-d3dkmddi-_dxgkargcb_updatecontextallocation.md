@@ -4,10 +4,9 @@ title: "_DXGKARGCB_UPDATECONTEXTALLOCATION"
 author: windows-driver-content
 description: DXGKARGCB_UPDATECONTEXTALLOCATION contains the data used to call DxgkCbUpdateContextAllocation.
 old-location: display\dxgkargcb_updatecontextallocation.htm
-old-project: display
 ms.assetid: 07BFCA6C-4E75-4BB5-9F6A-22E1FFAFFF6F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARGCB_UPDATECONTEXTALLOCATION
 ---
 

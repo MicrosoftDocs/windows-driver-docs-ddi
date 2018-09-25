@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsGetCorrelatedTime
 author: windows-driver-content
 description: The KsGetCorrelatedTime method retrieves the current time and the correlated system time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetcorrelatedtime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b91f33b3-2706-4c94-9960-ceea023891af
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: UFX_ENDPOINT_CALLBACKS_INIT function
 author: windows-driver-content
 description: The UFX_ENDPOINT_CALLBACKS_INIT macro initializes the UFX_ENDPOINT_CALLBACKS structure.
 old-location: buses\ufx_endpoint_callbacks_init.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 10EB0C86-915F-4C24-ADBE-1D8E8DD8ECB6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UFX_ENDPOINT_CALLBACKS_INIT, UFX_ENDPOINT_CALLBACKS_INIT function [Buses], buses.ufx_endpoint_callbacks_init, ufxclient/UFX_ENDPOINT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

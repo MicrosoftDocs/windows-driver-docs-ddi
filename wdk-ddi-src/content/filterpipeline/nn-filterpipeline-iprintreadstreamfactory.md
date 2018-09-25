@@ -4,7 +4,7 @@ title: IPrintReadStreamFactory
 author: windows-driver-content
 description: The IPrintReadStreamFactory interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
 old-location: print\iprintreadstreamfactory.htm
-old-project: print
+tech.root: print
 ms.assetid: 91f82cab-64c4-4f25-bf9a-b0757b1a83ca
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

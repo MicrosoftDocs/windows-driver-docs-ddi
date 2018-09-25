@@ -4,10 +4,9 @@ title: "_D3DKMT_PRESENT_RGNS"
 author: windows-driver-content
 description: Specifies dirty and move regions in a present operation.
 old-location: display\d3dkmt_present_rgns.htm
-old-project: display
 ms.assetid: 90ae3382-0a2d-46cf-89e6-2148f0cbfc83
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices], _D3DKMT_PRESENT_RGNS, d3dkmthk/D3DKMT_PRESENT_RGNS, display.d3dkmt_present_rgns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_PRESENT_RGNS
 ---
 

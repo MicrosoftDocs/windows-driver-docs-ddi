@@ -4,7 +4,7 @@ title: WcsCheckColors function
 author: windows-driver-content
 description: The WcsCheckColors function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.
 old-location: print\wcscheckcolors.htm
-old-project: print
+tech.root: print
 ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: Included in Windows Vista and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

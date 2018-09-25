@@ -4,7 +4,7 @@ title: WdfMemoryCreateFromLookaside function
 author: windows-driver-content
 description: The WdfMemoryCreateFromLookaside method creates a framework memory object and obtains a memory buffer from a specified lookaside list.
 old-location: wdf\wdfmemorycreatefromlookaside.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfMemoryCreateFromLookaside</b> method creates a framework memory object and obtains a memory buffer from a specified lookaside list.
 

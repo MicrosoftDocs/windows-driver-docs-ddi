@@ -4,10 +4,10 @@ title: NdisRawReadPortBufferUshort macro
 author: windows-driver-content
 description: NdisRawReadPortBufferUshort reads a specified number of USHORTs into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferushort.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c100aad1-2fb9-49e0-b68e-20b165a69701
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisRawReadPortBufferUshort, NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, ndis/NdisRawReadPortBufferUshort, netvista.ndisrawreadportbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices

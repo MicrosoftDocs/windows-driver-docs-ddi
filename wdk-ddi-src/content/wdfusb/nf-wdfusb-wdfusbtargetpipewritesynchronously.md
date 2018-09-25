@@ -4,7 +4,7 @@ title: WdfUsbTargetPipeWriteSynchronously function
 author: windows-driver-content
 description: The WdfUsbTargetPipeWriteSynchronously method builds a write request and sends it synchronously to a specified USB output pipe.
 old-location: wdf\wdfusbtargetpipewritesynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5513a245-0417-42f7-9c01-99b8bd5745eb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeWriteSynchronously</b> method builds a write request and sends it synchronously to a specified USB output pipe.
 

@@ -4,7 +4,7 @@ title: KS_TUNER_TUNING_FLAGS
 author: windows-driver-content
 description: The KS_TUNER_TUNING_FLAGS enumeration defines tuning flags that describe the granularity of a tuning operation.
 old-location: stream\ks_tuner_tuning_flags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f8742053-0d02-40af-9a6e-7af029db8575
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -39,7 +39,7 @@ api_location:
 api_name:
 -	KS_TUNER_TUNING_FLAGS
 product:
-- Windows
+-   Windows
 targetos: Windows
 req.typenames: KS_TUNER_TUNING_FLAGS
 ---

@@ -4,7 +4,7 @@ title: FltIsVolumeWritable function
 author: windows-driver-content
 description: The FltIsVolumeWritable routine determines whether the disk device that corresponds to a volume or minifilter driver instance is writable.
 old-location: ifsk\fltisvolumewritable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9347bc8d-e8fb-440c-8ceb-ce5e8cb1429e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,9 @@ title: "_DXGKARG_RELEASESWIZZLINGRANGE"
 author: windows-driver-content
 description: The DXGKARG_RELEASESWIZZLINGRANGE structure describes parameters for releasing a swizzling range.
 old-location: display\dxgkarg_releaseswizzlingrange.htm
-old-project: display
 ms.assetid: f7d1af11-c360-4f7f-a47a-cf7a182b2b78
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_RELEASESWIZZLINGRANGE, DXGKARG_RELEASESWIZZLINGRANGE structure [Display Devices], DmStructs_7ed7a86e-7376-47a8-8198-9c991005fd0a.xml, _DXGKARG_RELEASESWIZZLINGRANGE, d3dkmddi/DXGKARG_RELEASESWIZZLINGRANGE, display.dxgkarg_releaseswizzlingrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_RELEASESWIZZLINGRANGE
 ---
 

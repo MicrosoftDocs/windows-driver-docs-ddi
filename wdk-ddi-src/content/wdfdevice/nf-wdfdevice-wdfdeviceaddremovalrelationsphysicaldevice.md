@@ -4,7 +4,7 @@ title: WdfDeviceAddRemovalRelationsPhysicalDevice function
 author: windows-driver-content
 description: The WdfDeviceAddRemovalRelationsPhysicalDevice method indicates that a specified device must be removed when another specified device is removed.
 old-location: wdf\wdfdeviceaddremovalrelationsphysicaldevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4638905f-cefb-4bf0-aa00-64f2f096dc22
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceAddRemovalRelationsPhysicalDevice</b> method indicates that a specified device must be removed when another specified device is removed. 
 

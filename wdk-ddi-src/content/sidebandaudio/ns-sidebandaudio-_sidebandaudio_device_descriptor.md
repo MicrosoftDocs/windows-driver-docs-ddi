@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 6eb69211-4a34-4e63-ae42-80fd298957d8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/06/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,13 +38,14 @@ targetos: Windows
 # _SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure
 
 ## -description
-
+ Describes the Container ID and number of endpoints on the device.
 
 ## -struct-fields
 
 ### -field NumberOfEndpoints
- 
+Number of Audio endpoints on the devices that can be sidebanded.  This number excludes the feedback endpoints. 
 
 ## -remarks
 
 ## -see-also
+[sidebandaudio.h](index.md)

@@ -4,7 +4,7 @@ title: RtlStringCchPrintfW function
 author: windows-driver-content
 description: The RtlStringCchPrintfW and RtlStringCchPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchprintf.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -78,7 +78,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled <a
 
 ### -param param
 
-TBD
+<p>A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
 
 
 

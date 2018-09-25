@@ -4,7 +4,7 @@ title: PsSetLoadImageNotifyRoutine function
 author: windows-driver-content
 description: The PsSetLoadImageNotifyRoutine routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
 old-location: kernel\pssetloadimagenotifyroutine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e90bc043-1b92-474c-b6c7-7e510271118b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

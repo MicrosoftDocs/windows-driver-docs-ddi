@@ -4,7 +4,7 @@ title: PCAM_FREE_BW_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamFreeBandwidth callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 old-location: stream\camfreebandwidth.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 360fd299-bb8a-4fbb-899d-0e5fbe228d80
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

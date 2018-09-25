@@ -2,7 +2,7 @@
 UID: NF:ntddstor.DEVICE_DSM_ROUND_UP
 title: DEVICE_DSM_ROUND_UP macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
 ms.author: windowsdriverdev
 ms.date: 
@@ -33,7 +33,8 @@ api_location:
 -	ntddstor.h
 api_name: 
 -	DEVICE_DSM_ROUND_UP
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

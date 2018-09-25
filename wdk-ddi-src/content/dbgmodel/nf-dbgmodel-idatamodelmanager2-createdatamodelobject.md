@@ -59,9 +59,10 @@ The newly created synthetic object (with the data model concept set) will be ret
 This method returns HRESULT.
 
 ## -remarks
+
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager> spManager; /* get the data model manager */
 
 // We need some IDataModelConcept implementation.  Provide a 
@@ -103,5 +104,8 @@ if (spMyModel != nullptr)
         // as a parent to any other object via AddParentModel().
     }
 }
-
 ```
+
+## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

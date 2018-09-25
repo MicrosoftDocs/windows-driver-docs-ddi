@@ -4,7 +4,7 @@ title: RxCeBuildConnection function
 author: windows-driver-content
 description: RxCeBuildConnection establishes a connection between a local RDBSS connection address and a given remote address.
 old-location: ifsk\rxcebuildconnection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param pLocalAddress
 
-TBD
+<p>A pointer to the local RDBSS connection engine address.</p>
 
 
 ### -param pConnectionInformation [in]
@@ -86,11 +86,6 @@ On input, this parameter contains a pointer to an uninitialized RDBSS connection
 ### -param pVc [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RDBSS virtual circuit. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit is properly initialized.
-
-
-#### - pAddress [in]
-
-A pointer to the local RDBSS connection engine address.
 
 
 ## -returns

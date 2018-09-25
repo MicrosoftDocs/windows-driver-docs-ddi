@@ -4,10 +4,9 @@ title: PFND3DWDDM1_3DDI_SETMARKERMODE
 author: windows-driver-content
 description: Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 old-location: display\setmarkermode.htm
-old-project: display
 ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, PFND3DWDDM1_3DDI_SETMARKERMODE callback, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

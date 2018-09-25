@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL
 author: windows-driver-content
 description: A driver's EvtDmaTransactionConfigureDmaChannel event callback function configures the DMA adapter for a system-mode DMA enabler.
 old-location: wdf\evtdmatransactionconfiguredmachannel.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 405D1D3F-FC01-4223-8E28-B3FD3F0516F7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    A driver's <i>EvtDmaTransactionConfigureDmaChannel</i> event callback function configures the DMA adapter for a system-mode DMA enabler.

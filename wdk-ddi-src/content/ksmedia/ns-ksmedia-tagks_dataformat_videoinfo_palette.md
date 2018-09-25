@@ -4,7 +4,7 @@ title: tagKS_DATAFORMAT_VIDEOINFO_PALETTE
 author: windows-driver-content
 description: The KS_DATAFORMAT_VIDEOINFO_PALETTE structure describes color palette information.
 old-location: stream\ks_dataformat_videoinfo_palette.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bc984f10-8eae-45f7-9ab0-637b35e57e3c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

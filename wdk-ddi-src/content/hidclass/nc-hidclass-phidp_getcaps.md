@@ -4,7 +4,7 @@ title: PHIDP_GETCAPS
 author: windows-driver-content
 description: The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure.
 old-location: hid\hidp_getcaps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

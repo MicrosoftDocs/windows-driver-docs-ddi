@@ -4,7 +4,7 @@ title: HBA_GetFcpTargetMappingV2 function
 author: windows-driver-content
 description: The HBA_GetFcpTargetMappingV2 routine retrieves the mappings between operating system and fibre channel protocol (FCP) identifiers for a set of targets that the HBA can enumerate on the indicated port.
 old-location: storage\hba_getfcptargetmappingv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 970475d7-dd81-4189-bd2b-2a22c4f732dc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

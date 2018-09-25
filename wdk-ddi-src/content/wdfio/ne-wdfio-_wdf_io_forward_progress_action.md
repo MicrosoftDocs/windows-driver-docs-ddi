@@ -4,7 +4,7 @@ title: "_WDF_IO_FORWARD_PROGRESS_ACTION"
 author: windows-driver-content
 description: The WDF_IO_FORWARD_PROGRESS_ACTION enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation.
 old-location: wdf\wdf_io_forward_progress_action.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4d63c908-8ae3-4df4-826f-9d87ea6c24ad
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_FORWARD_PROGRESS_ACTION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation.
 

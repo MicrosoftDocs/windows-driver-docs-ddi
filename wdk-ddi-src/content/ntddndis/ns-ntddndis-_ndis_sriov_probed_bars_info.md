@@ -4,10 +4,10 @@ title: "_NDIS_SRIOV_PROBED_BARS_INFO"
 author: windows-driver-content
 description: The NDIS_SRIOV_PROBED_BARS_INFO structure specifies the values of the PCI Express (PCIe) Base Address Registers (BARs) of a network adapter that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: netvista\ndis_sriov_probed_bars_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9f37d9e7-ae8b-448e-a535-f34b01c2bf8a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PROBED_BARS_INFO, PNDIS_SRIOV_PROBED_BARS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_PROBED_BARS_INFO, netvista.ndis_sriov_probed_bars_info, ntddndis/NDIS_SRIOV_PROBED_BARS_INFO, ntddndis/PNDIS_SRIOV_PROBED_BARS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

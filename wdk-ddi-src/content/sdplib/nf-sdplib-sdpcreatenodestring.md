@@ -4,7 +4,7 @@ title: SdpCreateNodeString function
 author: windows-driver-content
 description: The Bluetooth SdpCreateNodeString function is used to allocate and initialize an SDP_NODE structure to a string type.
 old-location: bltooth\sdpcreatenodestring.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 27611211-a782-4c62-8848-d9ca6e49b5f4
 ms.author: windowsdriverdev
 ms.date: 4/27/2018
@@ -67,17 +67,12 @@ A pointer to the string value to initialize the SDP_NODE structure.
 
 ### -param stringLength
 
-TBD
+<p>An unsigned long integer value that holds the length of the string.</p>
 
 
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
-
-
-#### - StringLength
-
-An unsigned long integer value that holds the length of the string.
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: HidP_GetValueCaps function
 author: windows-driver-content
 description: The HidP_GetValueCaps routine returns a value capability array that describes all the HID control values in a top-level collection for a specified type of HID report.
 old-location: hid\hidp_getvaluecaps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 74c26072-3b41-4d5c-96a1-d9c5b37ed97a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

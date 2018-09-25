@@ -4,7 +4,7 @@ title: "_WDF_DMA_ENABLER_CONFIG_FLAGS"
 author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG_FLAGS enumeration type defines flags that are used in a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8F8C97B2-5C77-4AD0-9434-22108111F5A8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DMA_ENABLER_CONFIG_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DMA_ENABLER_CONFIG_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure.
 

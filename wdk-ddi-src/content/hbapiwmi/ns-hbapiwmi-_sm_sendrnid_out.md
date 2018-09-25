@@ -4,7 +4,7 @@ title: "_SM_SendRNID_OUT"
 author: windows-driver-content
 description: The SM_SendRNID_OUT structure is used to receive output parameters from the SM_SendRNID method.
 old-location: storage\sm_sendrnid_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 177ffc7d-697d-47c5-9692-19cba6734077
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

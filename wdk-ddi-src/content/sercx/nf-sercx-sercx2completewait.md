@@ -4,7 +4,7 @@ title: SerCx2CompleteWait function
 author: windows-driver-content
 description: The SerCx2CompleteWait method notifies version 2 of the serial framework extension (SerCx2) that an event in the current wait mask has occurred.
 old-location: serports\sercx2completewait.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 7A3DC90E-628C-4FFC-807D-8F23BDC97742
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

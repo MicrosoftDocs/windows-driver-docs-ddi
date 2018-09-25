@@ -4,10 +4,10 @@ title: PFND3DDDI_SETDISPLAYMODECB
 author: windows-driver-content
 description: The pfnSetDisplayModeCb function sets the allocation that is used to scan out to the display.
 old-location: display\pfnsetdisplaymodecb.htm
-old-project: display
+tech.root: display
 ms.assetid: a1f58757-809d-4351-8b1a-fd4420981c24
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3Druntime_Functions_717329e1-853d-498e-8792-ba6468825cbb.xml, PFND3DDDI_SETDISPLAYMODECB, PFND3DDDI_SETDISPLAYMODECB callback, d3dumddi/pfnSetDisplayModeCb, display.pfnsetdisplaymodecb, pfnSetDisplayModeCb, pfnSetDisplayModeCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

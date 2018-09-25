@@ -4,10 +4,10 @@ title: wiauDbgWarning function
 author: windows-driver-content
 description: The wiauDbgWarning function logs a warning message.
 old-location: image\wiaudbgwarning.htm
-old-project: image
+tech.root: image
 ms.assetid: f10f1c28-0bfd-44c5-a0aa-9f9227f775d2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbgwarning, wiauDbgWarning, wiauDbgWarning function [Imaging Devices], wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, wiautil/wiauDbgWarning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -65,12 +65,12 @@ Pointer to a string containing the name of the function or method into which the
 
 ### -param fmt
 
-TBD
+
 
 
 ### -param param
 
-TBD
+
 
 
 

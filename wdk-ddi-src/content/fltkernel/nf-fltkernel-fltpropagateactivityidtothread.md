@@ -4,7 +4,7 @@ title: FltPropagateActivityIdToThread function
 author: windows-driver-content
 description: The FltPropagateActivityIdToThread routine associates the activity ID from the IRP in the minifilter's callback data with the current thread.
 old-location: ifsk\fltpropagateactivityidtothread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -65,17 +65,12 @@ A pointer to the callback data containing the request with an associated activit
 
 ### -param PropagateId
 
-TBD
+<p>A pointer to a caller allocated <b>GUID</b> which stores the activity ID for the current thread.</p>
 
 
 ### -param OriginalId [out]
 
 On return, the <b>GUID</b> pointer referenced by <i>OriginalId</i> points to the activity ID that was previously set for the thread.
-
-
-#### - PropagatedId [in, out]
-
-A pointer to a caller allocated <b>GUID</b> which stores the activity ID for the current thread.
 
 
 ## -returns

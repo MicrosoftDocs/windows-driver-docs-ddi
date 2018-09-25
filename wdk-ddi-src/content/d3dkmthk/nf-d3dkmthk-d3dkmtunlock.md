@@ -4,10 +4,9 @@ title: D3DKMTUnlock function
 author: windows-driver-content
 description: The D3DKMTUnlock function unlocks a list of allocations.
 old-location: display\d3dkmtunlock.htm
-old-project: display
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +63,7 @@ The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
 
 ### -param D3DKMT_UNLOCK
 
-TBD
+
 
 
 

@@ -4,10 +4,10 @@ title: IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
 author: windows-driver-content
 description: Gets the value of the PeakMeter node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelpeakmeter.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 69860DFE-DDA6-4889-B796-CEAEE59A10CC
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], GetStreamChannelPeakMeter method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelPeakMeter method, IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
 ms.prod: windows-hardware
 ms.technology: windows-devices

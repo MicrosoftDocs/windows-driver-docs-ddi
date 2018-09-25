@@ -4,7 +4,7 @@ title: "_GetPortAttributesByWWN_IN"
 author: windows-driver-content
 description: The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the GetPortAttributesByWWN WMI method.
 old-location: storage\getportattributesbywwn_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

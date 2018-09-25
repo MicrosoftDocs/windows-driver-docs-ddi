@@ -4,7 +4,7 @@ title: WdfCollectionCreate function
 author: windows-driver-content
 description: The WdfCollectionCreate method creates a framework collection object.
 old-location: wdf\wdfcollectioncreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b185b1ca-6fd9-4508-b001-d1853f2948c2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCollectionCreate</b> method creates a framework collection object. 
 

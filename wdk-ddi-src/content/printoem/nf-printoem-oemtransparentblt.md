@@ -4,7 +4,7 @@ title: OEMTransparentBlt function
 author: windows-driver-content
 description: The OEMTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: print\oemtransparentblt.htm
-old-project: print
+tech.root: print
 ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

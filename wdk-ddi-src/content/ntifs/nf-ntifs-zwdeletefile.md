@@ -4,7 +4,7 @@ title: ZwDeleteFile function
 author: windows-driver-content
 description: The ZwDeleteFile routine deletes the specified file.
 old-location: kernel\zwdeletefile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e6ad3bc5-9e19-4d32-bc08-b894ac802f41
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

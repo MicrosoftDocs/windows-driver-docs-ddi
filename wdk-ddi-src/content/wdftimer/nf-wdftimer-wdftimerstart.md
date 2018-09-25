@@ -4,7 +4,7 @@ title: WdfTimerStart function
 author: windows-driver-content
 description: The WdfTimerStart method starts a timer's clock.
 old-location: wdf\wdftimerstart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfTimerStart</b> method starts a timer's clock.
 

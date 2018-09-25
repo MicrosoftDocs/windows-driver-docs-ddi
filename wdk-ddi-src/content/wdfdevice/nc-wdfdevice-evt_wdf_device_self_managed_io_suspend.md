@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND
 author: windows-driver-content
 description: A driver's EvtDeviceSelfManagedIoSuspend event callback function suspends a device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagediosuspend.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 85a569ea-eb14-4453-9591-fc44afbd3a59
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceSelfManagedIoSuspend</i> event callback function suspends a device's self-managed I/O operations.
 

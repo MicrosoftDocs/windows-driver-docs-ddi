@@ -4,10 +4,10 @@ title: "_DXGKMDT_CERTIFICATE_TYPE"
 author: windows-driver-content
 description: The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the DxgkDdiOPMGetCertificateSize and DxgkDdiOPMGetCertificate functions require.
 old-location: display\dxgkmdt_certificate_type.htm
-old-project: display
+tech.root: display
 ms.assetid: aad96bf7-46d3-4859-b324-f48cdb99a594
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_CERTIFICATE_TYPE enumeration [Display Devices], DXGKMDT_COPP_CERTIFICATE, DXGKMDT_FORCE_ULONG, DXGKMDT_OPM_CERTIFICATE, DXGKMDT_UAB_CERTIFICATE, DmEnums_837195ed-375e-43ef-a854-1d1f0aab0c84.xml, _DXGKMDT_CERTIFICATE_TYPE, d3dkmdt/DXGKMDT_CERTIFICATE_TYPE, d3dkmdt/DXGKMDT_COPP_CERTIFICATE, d3dkmdt/DXGKMDT_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_CERTIFICATE, d3dkmdt/DXGKMDT_UAB_CERTIFICATE, display.dxgkmdt_certificate_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

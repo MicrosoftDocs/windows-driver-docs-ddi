@@ -4,7 +4,7 @@ title: "_MSiSCSI_LUNMappingInformation"
 author: windows-driver-content
 description: This MSiSCSI_LUNMappingInformation structure provides the SCSI address information that the operating system assigns to a particular logical unit.
 old-location: storage\msiscsi_lunmappinginformation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_GET_CONFIG_ROM"
 author: windows-driver-content
 description: This structure contains the fields necessary for the bus driver to carry out a GetConfigRom request.
 old-location: ieee\irb_req_get_config_rom.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 9C4EC9CA-3B7F-4611-BB96-A86C0FEDDF25
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

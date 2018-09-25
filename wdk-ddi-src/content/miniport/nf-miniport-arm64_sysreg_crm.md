@@ -2,7 +2,7 @@
 UID: NF:miniport.ARM64_SYSREG_CRM
 title: ARM64_SYSREG_CRM macro
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: a40eba0a-d060-4813-8b15-80f2dd1cf418
 ms.author: windowsdriverdev
 ms.date: 
@@ -33,7 +33,8 @@ api_location:
 -	miniport.h
 api_name: 
 -	ARM64_SYSREG_CRM
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

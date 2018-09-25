@@ -4,7 +4,7 @@ title: "_MSiSCSI_RequestTimeStatistics"
 author: windows-driver-content
 description: The MSiSCSI_RequestTimeStatistics structure is used by iSCSI initiators to report request time statistics.
 old-location: storage\msiscsi_requesttimestatistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

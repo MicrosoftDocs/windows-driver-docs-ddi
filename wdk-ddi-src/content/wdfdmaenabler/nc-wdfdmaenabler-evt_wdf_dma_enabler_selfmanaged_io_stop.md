@@ -4,7 +4,7 @@ title: EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP
 author: windows-driver-content
 description: A driver's EvtDmaEnablerSelfManagedIoStop event callback function stops a DMA device's self-managed I/O operations.
 old-location: wdf\evtdmaenablerselfmanagediostop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b334588a-7a92-4542-8f45-13c363ce22f0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDmaEnablerSelfManagedIoStop</i> event callback function stops a DMA device's self-managed I/O operations.
 

@@ -4,7 +4,7 @@ title: IOCTL_GET_PHYSICAL_DESCRIPTOR
 author: windows-driver-content
 description: The IOCTL_GET_PHYSICAL_DESCRIPTOR request obtains the physical descriptor of a top-level collection. For a minidriver, this descriptor is the descriptor of the HIDClass device.
 old-location: hid\ioctl_get_physical_descriptor.htm
-old-project: hid
+tech.root: hid
 ms.assetid: cf15dd7f-4568-40c7-b2e4-7cec8239df0b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

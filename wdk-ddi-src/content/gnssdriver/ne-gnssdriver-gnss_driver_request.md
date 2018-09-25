@@ -4,7 +4,7 @@ title: GNSS_DRIVER_REQUEST
 author: windows-driver-content
 description: GNSS_DRIVER_REQUEST enumerates the GNSS driver data request types.
 old-location: gnss\gnss_driver_request.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: 923774E0-4F4E-470A-9793-8AD4261AEB64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

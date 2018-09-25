@@ -4,10 +4,10 @@ title: UdecxInitializeWdfDeviceInit function
 author: windows-driver-content
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\udecxinitializewdfdeviceinit.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 6FF62F6B-D83D-45DB-BE83-7A6D61A6AC92
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], buses.udecxinitializewdfdeviceinit, udecxwdfdevice/UdecxInitializeWdfDeviceInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,9 @@ Initializes device initialization operations when the Plug and Play (PnP) manage
 
 ### -param WdfDeviceInit
 
-TBD
+<p>A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/Ff546951(v=VS.85).aspx">WDFDEVICE_INIT</a> structure. </p>
 
 
-
-
-#### - DeviceInit
-
-A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
 
 
 ## -returns

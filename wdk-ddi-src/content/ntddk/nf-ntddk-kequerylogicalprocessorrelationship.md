@@ -4,7 +4,7 @@ title: KeQueryLogicalProcessorRelationship function
 author: windows-driver-content
 description: The KeQueryLogicalProcessorRelationship routine gets information about the relationships of one or more processors to the other processors in a multiprocessor system.
 old-location: kernel\kequerylogicalprocessorrelationship.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

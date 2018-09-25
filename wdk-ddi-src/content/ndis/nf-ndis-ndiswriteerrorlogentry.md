@@ -4,10 +4,10 @@ title: NdisWriteErrorLogEntry function
 author: windows-driver-content
 description: NdisWriteErrorLogEntry writes an entry to the system I/O error log file.
 old-location: netvista\ndiswriteerrorlogentry.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,7 +171,7 @@ Specifies the number of ULONG values to follow this parameter.
 
 ### -param param
 
-TBD
+<p>Specifies a variable-sized array of ULONGs associated with the error to be logged.</p>
 
 
 

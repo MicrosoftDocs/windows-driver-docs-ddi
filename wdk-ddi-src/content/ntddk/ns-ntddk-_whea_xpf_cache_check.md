@@ -4,7 +4,7 @@ title: "_WHEA_XPF_CACHE_CHECK"
 author: windows-driver-content
 description: The WHEA_XPF_CACHE_CHECK union describes cache error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_cache_check.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 61dd30b9-5290-4c72-b053-586066c58108
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

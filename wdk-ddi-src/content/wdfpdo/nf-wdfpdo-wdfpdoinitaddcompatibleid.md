@@ -4,7 +4,7 @@ title: WdfPdoInitAddCompatibleID function
 author: windows-driver-content
 description: The WdfPdoInitAddCompatibleID method adds a compatible ID to the list of compatible IDs for a child device.
 old-location: wdf\wdfpdoinitaddcompatibleid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cf79661f-afe8-4154-8302-e5018172c6ec
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitAddCompatibleID</b> method adds a compatible ID to the list of compatible IDs for a child device.
 

@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_QUERY_PROPERTY
 author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_QUERY_PROPERTY to return properties of a storage device or adapter.
 old-location: storage\ioctl_storage_query_property.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b68c5971-6d09-49a8-873d-8736068f6003
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

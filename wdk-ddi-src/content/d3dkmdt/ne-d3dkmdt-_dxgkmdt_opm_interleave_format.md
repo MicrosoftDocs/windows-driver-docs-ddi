@@ -4,10 +4,10 @@ title: "_DXGKMDT_OPM_INTERLEAVE_FORMAT"
 author: windows-driver-content
 description: The DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration indicates the scan line ordering of a video frame from a protected output's signal.
 old-location: display\dxgkmdt_opm_interleave_format.htm
-old-project: display
+tech.root: display
 ms.assetid: beaee817-5a91-40df-8b29-4750e3c1600e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKMDT_OPM_INTERLEAVE_FORMAT, DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration [Display Devices], DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, DmEnums_7b247abd-613b-495b-aea0-d53d9b519525.xml, _DXGKMDT_OPM_INTERLEAVE_FORMAT, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, display.dxgkmdt_opm_interleave_format
 ms.prod: windows-hardware
 ms.technology: windows-devices

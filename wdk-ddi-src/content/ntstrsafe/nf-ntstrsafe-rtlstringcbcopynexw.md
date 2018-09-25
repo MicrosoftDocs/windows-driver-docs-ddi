@@ -4,7 +4,7 @@ title: RtlStringCbCopyNExW function
 author: windows-driver-content
 description: The RtlStringCbCopyNExW and RtlStringCbCopyNExA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcbcopynex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -84,7 +84,7 @@ A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointe
 
 ### -param cbToCopy
 
-TBD
+<p>The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>. </p>
 
 
 ### -param ppszDestEnd [out, optional]
@@ -158,11 +158,6 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </tr>
 </table>
  
-
-
-#### - cbSrc [in]
-
-The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>. 
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: "_HID_DEVICE_EXTENSION"
 author: windows-driver-content
 description: The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object.
 old-location: hid\hid_device_extension.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 409fbc3e-1221-4869-9087-693b1e4d4587
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

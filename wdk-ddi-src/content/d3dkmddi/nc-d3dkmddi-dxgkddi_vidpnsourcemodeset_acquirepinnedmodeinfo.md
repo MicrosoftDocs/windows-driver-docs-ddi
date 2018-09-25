@@ -4,10 +4,9 @@ title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO
 author: windows-driver-content
 description: The pfnAcquirePinnedModeInfo function returns a descriptor of the pinned mode in a specified VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirepinnedmodeinfo.htm
-old-project: display
 ms.assetid: e757852b-ee68-4b07-83c8-9dfd089d1ab7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO callback, VidPnFunctions_552ed18a-24d2-4a92-85fa-3af6aa4733dc.xml, d3dkmddi/pfnAcquirePinnedModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnacquirepinnedmodeinfo, pfnAcquirePinnedModeInfo, pfnAcquirePinnedModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

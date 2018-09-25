@@ -4,7 +4,7 @@ title: RtlInitializeSidEx function
 author: windows-driver-content
 description: The RtlInitializeSidEx routine initializes a pre-allocated security identifier (SID) structure.
 old-location: ifsk\rtlinitializesidex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -75,7 +75,7 @@ Number of sub-authorities to set in the SID.
 
 ### -param param
 
-TBD
+<p>The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.</p>
 
 
 

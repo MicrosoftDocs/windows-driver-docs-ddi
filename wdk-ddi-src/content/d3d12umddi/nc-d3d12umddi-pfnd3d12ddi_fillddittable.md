@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_FILLDDITTABLE
 title: PFND3D12DDI_FILLDDITTABLE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to retrieve the D3D12DDI_DEVICE_FUNCS_VIDEO structure.
 ms.assetid: af03fe9b-c950-4045-9234-0e8700262854
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_FILLDDITTABLE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_FILLDDITTABLE callback function
@@ -71,12 +73,28 @@ PFND3D12DDI_FILLDDITTABLE
 
 ## -parameters
 
-### -param D3D12DDI_HADAPTER:
-### -param D3D12DDI_TABLE_TYPE:
-### -param VOID:
-### -param SIZE_T:
-### -param UINT:
-### -param D3D12DDI_HRTTABLE:
+### -param D3D12DDI_HADAPTER
+
+Adapter handle.
+
+### -param D3D12DDI_TABLE_TYPE
+
+Table type.
+
+### -param VOID
+
+Void.
+
+### -param SIZE_T
+
+Size of the table.
+
+### -param UINT
+
+
+### -param D3D12DDI_HRTTABLE
+
+Table handle.
 
 
 

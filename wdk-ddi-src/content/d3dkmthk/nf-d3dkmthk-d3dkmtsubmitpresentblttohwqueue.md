@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTSubmitPresentBltToHwQueue
 title: D3DKMTSubmitPresentBltToHwQueue function
 author: windows-driver-content
-description: TBD
+description: Submits a present Blt to hardware queue.
 ms.assetid: 3dfcbcf4-f07d-4f22-9209-c9f3e6eb45ef
 ms.author: windowsdriverdev
 ms.date:
@@ -15,8 +15,8 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
@@ -25,16 +25,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	DllExport
-apilocation:
--	NtosKrnl.exe
-apiname:
+api_location:
+-	Gdi32.dll
+api_name:
 -	D3DKMTSubmitPresentBltToHwQueue
-product: Windows
+product: 
+-	Windows
 targetos: Windows
+tech.root: display
 
 ---
 

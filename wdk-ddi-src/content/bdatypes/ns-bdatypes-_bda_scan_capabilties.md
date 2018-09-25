@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_SCAN_CAPABILTIES
 title: "_BDA_SCAN_CAPABILTIES"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_scan_capabilties.htm
-old-project: stream
+tech.root: stream
 ms.assetid: AB97C5AC-E5B8-4C2B-ADA1-73E27E4B81D5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

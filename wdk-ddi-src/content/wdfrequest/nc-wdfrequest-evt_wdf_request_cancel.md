@@ -4,7 +4,7 @@ title: EVT_WDF_REQUEST_CANCEL
 author: windows-driver-content
 description: A driver's EvtRequestCancel event callback function handles operations that must be performed when an I/O request is canceled.
 old-location: wdf\evtrequestcancel.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtRequestCancel</i> event callback function handles operations that must be performed when an I/O request is canceled.
 

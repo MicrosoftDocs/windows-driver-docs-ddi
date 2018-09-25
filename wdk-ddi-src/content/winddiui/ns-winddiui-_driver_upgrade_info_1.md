@@ -4,7 +4,7 @@ title: "_DRIVER_UPGRADE_INFO_1"
 author: windows-driver-content
 description: The DRIVER_UPGRADE_INFO_1 structure is used as an input to a printer interface DLL's DrvUpgradePrinter function.
 old-location: print\driver_upgrade_info_1.htm
-old-project: print
+tech.root: print
 ms.assetid: fef7c63b-ca9e-47f4-96cb-4dafa080ddcf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

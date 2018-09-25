@@ -4,7 +4,7 @@ title: StorPortWriteRegisterBufferUchar macro
 author: windows-driver-content
 description: The StorPortWriteRegisterBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -61,17 +61,17 @@ The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of 
 
 ### -param h
 
-TBD
+<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/Ff567108(v=VS.85).aspx"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
 
 
 ### -param r
 
-TBD
+<p>Pointer to a buffer containing the data to be written. </p>
 
 
 ### -param b
 
-TBD
+<p>Specifies the number of bytes to be transferred to the HBA. </p>
 
 
 ### -param c
@@ -81,21 +81,6 @@ TBD
 
 
 
-
-
-#### - Count
-
-Specifies the number of bytes to be transferred to the HBA. 
-
-
-#### - HwDeviceExtension
-
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
-
-
-#### - Register
-
-Pointer to a buffer containing the data to be written. 
 
 
 ## -see-also

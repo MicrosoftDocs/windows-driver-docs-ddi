@@ -4,7 +4,7 @@ title: HBA_GetAdapterPortAttributes function
 author: windows-driver-content
 description: The HBA_GetAdapterPortAttributes routine retrieves the attributes for a specified remote fibre channel port.
 old-location: storage\hba_getadapterportattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,7 +60,7 @@ The <b>HBA_GetAdapterPortAttributes</b> routine retrieves the attributes for a s
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located. </p>
 
 
 ### -param PortIndex [in]
@@ -71,11 +71,6 @@ Indicates which remote port to query on the HBA specified by <i>HbaHandle</i>.
 ### -param PortAttributes [out]
 
 Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a> that, on return, contains the attributes of the remote port with an index of <i>PortIndex </i>on the HBA specified by <i>HbaHandle. </i>
-
-
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 ## -returns

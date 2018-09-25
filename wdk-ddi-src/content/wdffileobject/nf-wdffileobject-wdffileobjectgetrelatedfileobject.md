@@ -4,7 +4,7 @@ title: WdfFileObjectGetRelatedFileObject function
 author: windows-driver-content
 description: The WdfFileObjectGetRelatedFileObject method retrieves the related file object to a framework file object.
 old-location: wdf\wdffileobjectgetrelatedfileobject.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: EB00FF6B-144B-4256-A362-D593FD4CFC98
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: WUDFx02000.lib
-req.dll: WUDFx02000.dll; TBD
+req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to UMDF only]
+<p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfFileObjectGetRelatedFileObject</b> method retrieves the related file object to a framework file object.
 

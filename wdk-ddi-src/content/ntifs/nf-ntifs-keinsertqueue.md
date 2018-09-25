@@ -4,7 +4,7 @@ title: KeInsertQueue function
 author: windows-driver-content
 description: The KeInsertQueue routine inserts an entry at the tail of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertqueue.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0aee6102-e9e3-41dc-a222-36bebb3d4294
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

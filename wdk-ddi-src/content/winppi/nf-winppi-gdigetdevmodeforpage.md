@@ -4,7 +4,7 @@ title: GdiGetDevmodeForPage function
 author: windows-driver-content
 description: The GdiGetDevmodeForPage function returns DEVMODEW structures for the specified and previous pages of a print job.
 old-location: print\gdigetdevmodeforpage.htm
-old-project: print
+tech.root: print
 ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

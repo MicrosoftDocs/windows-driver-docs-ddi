@@ -219,7 +219,7 @@
 ### [_CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure](../storport/ns-storport-_current_internal_status_parameter_data.md)
 ### [_ERROR_HISTORY_DIRECTORY structure](../storport/ns-storport-_error_history_directory.md)
 ### [_ERROR_HISTORY_DIRECTORY_ENTRY structure](../storport/ns-storport-_error_history_directory_entry.md)
-### [_HW_INITIALIZATION_DATA structure](../storport/ns-storport-_hw_initialization_data.md)
+### [_HW_INITIALIZATION_DATA structure](../storport/ns-storport-_hw_initialization_data~r1.md)
 ### [_INQUIRYDATA structure](../storport/ns-storport-_inquirydata.md)
 ### [_MEMORY_REGION structure](../storport/ns-storport-_memory_region.md)
 ### [_MESSAGE_INTERRUPT_INFORMATION structure](../storport/ns-storport-_message_interrupt_information.md)

@@ -2,9 +2,9 @@
 UID: NE:ksproxy.KSIOOPERATION
 title: KSIOOPERATION
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\ksiooperation.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 993909CB-B00C-40C0-ADDA-DB4389D9812E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

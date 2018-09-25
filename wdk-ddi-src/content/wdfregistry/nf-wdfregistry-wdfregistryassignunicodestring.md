@@ -4,7 +4,7 @@ title: WdfRegistryAssignUnicodeString function
 author: windows-driver-content
 description: The WdfRegistryAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry.
 old-location: wdf\wdfregistryassignunicodestring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3a614b58-8230-4137-aae9-5c50e94bea5e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryAssignUnicodeString</b> method assigns a specified Unicode string to a specified value name in the registry.
 

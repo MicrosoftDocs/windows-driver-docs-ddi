@@ -4,7 +4,7 @@ title: WdfIoTargetSendReadSynchronously function
 author: windows-driver-content
 description: The WdfIoTargetSendReadSynchronously method builds a read request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendreadsynchronously.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bc6ceaac-883b-44af-8ac5-20145a5a6af9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetSendReadSynchronously</b> method builds a read request and sends it synchronously to an I/O target.
 

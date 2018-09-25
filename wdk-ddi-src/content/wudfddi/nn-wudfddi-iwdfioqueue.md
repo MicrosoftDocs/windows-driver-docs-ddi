@@ -4,7 +4,7 @@ title: IWDFIoQueue
 author: windows-driver-content
 description: The IWDFIoQueue interface exposes an I/O queue object.
 old-location: wdf\iwdfioqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9a3ec86a-6a1d-4c65-a65a-7cb85bbd1ab8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

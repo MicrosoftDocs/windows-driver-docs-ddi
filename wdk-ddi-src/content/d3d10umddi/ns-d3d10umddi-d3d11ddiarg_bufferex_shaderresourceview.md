@@ -4,10 +4,9 @@ title: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW
 author: windows-driver-content
 description: The D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure describes a buffer that is used to create a shader resource view in a call to the CreateShaderResourceView(D3D11) function.
 old-location: display\d3d11ddiarg_bufferex_shaderresourceview.htm
-old-project: display
 ms.assetid: b3585a06-fdb0-4fe9-8d5c-63680039a789
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW
 ---
 

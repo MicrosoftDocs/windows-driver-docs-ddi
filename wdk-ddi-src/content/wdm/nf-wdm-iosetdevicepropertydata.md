@@ -4,7 +4,7 @@ title: IoSetDevicePropertyData function
 author: windows-driver-content
 description: The IoSetDevicePropertyData routine modifies the current setting for a device property.
 old-location: kernel\iosetdevicepropertydata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

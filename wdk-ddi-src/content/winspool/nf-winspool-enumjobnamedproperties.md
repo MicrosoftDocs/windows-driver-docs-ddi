@@ -2,9 +2,9 @@
 UID: NF:winspool.EnumJobNamedProperties
 title: EnumJobNamedProperties function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\enumjobnamedproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

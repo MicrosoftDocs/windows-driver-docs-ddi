@@ -4,10 +4,9 @@ title: "_DXGKARG_STOPCAPTURE"
 author: windows-driver-content
 description: The DXGKARG_STOPCAPTURE structure contains the handle to the allocation that is used for a capture buffer.
 old-location: display\dxgkarg_stopcapture.htm
-old-project: display
 ms.assetid: 09b1275f-9755-44f7-ab8a-1b6797bfefde
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE structure [Display Devices], DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml, _DXGKARG_STOPCAPTURE, d3dkmddi/DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_STOPCAPTURE
 ---
 

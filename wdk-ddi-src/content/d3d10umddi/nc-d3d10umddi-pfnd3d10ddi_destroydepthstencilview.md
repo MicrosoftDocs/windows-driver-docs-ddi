@@ -4,10 +4,9 @@ title: PFND3D10DDI_DESTROYDEPTHSTENCILVIEW
 author: windows-driver-content
 description: The DestroyDepthStencilView function destroys the specified depth stencil view object. The depth stencil view object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroydepthstencilview.htm
-old-project: display
 ms.assetid: 5cd2b7bd-0231-4f00-a54e-960b9bffa98e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DestroyDepthStencilView, DestroyDepthStencilView callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILVIEW, PFND3D10DDI_DESTROYDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_140d9da4-c965-4f51-b16c-1c29ff6e2e94.xml, d3d10umddi/DestroyDepthStencilView, display.destroydepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

@@ -4,7 +4,7 @@ title: WdfPdoClearEjectionRelationsDevices function
 author: windows-driver-content
 description: The WdfPdoClearEjectionRelationsDevices method removes all devices from the list of devices that must be ejected when a specified device is ejected.
 old-location: wdf\wdfpdoclearejectionrelationsdevices.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoClearEjectionRelationsDevices</b> method removes all devices from the list of devices that must be ejected when a specified device is ejected. 
 

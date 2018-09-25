@@ -4,7 +4,7 @@ title: FltDetachVolume function
 author: windows-driver-content
 description: FltDetachVolume detaches a minifilter driver instance from a volume.
 old-location: ifsk\fltdetachvolume.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 889750fc-69a9-4fe6-8905-6a7edc5c04fb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

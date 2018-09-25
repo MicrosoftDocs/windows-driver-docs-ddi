@@ -4,7 +4,7 @@ title: PsChargePoolQuota function
 author: windows-driver-content
 description: The PsChargePoolQuota routine charges pool quota of the specified pool type to the specified process.
 old-location: ifsk\pschargepoolquota.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c405771c-726f-4003-b3c6-f063dd74187e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

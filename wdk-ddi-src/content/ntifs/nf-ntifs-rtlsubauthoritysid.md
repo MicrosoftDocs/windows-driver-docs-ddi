@@ -4,7 +4,7 @@ title: RtlSubAuthoritySid function
 author: windows-driver-content
 description: The RtlSubAuthoritySid routine returns a pointer to a specified subauthority of a security identifier (SID).
 old-location: ifsk\rtlsubauthoritysid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -66,14 +66,9 @@ Pointer to the SID structure. The SID must have been initialized by calling <b>R
 
 ### -param SubAuthority
 
-TBD
+<p>Zero-based index indicating which subauthority is being specified. This value is not validated against the number of subauthorities in the SID. </p>
 
 
-
-
-#### - SubAuthorityCount [in]
-
-Zero-based index indicating which subauthority is being specified. This value is not validated against the number of subauthorities in the SID. 
 
 
 ## -returns

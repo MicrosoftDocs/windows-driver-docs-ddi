@@ -4,7 +4,7 @@ title: FsRtlPostStackOverflow function
 author: windows-driver-content
 description: The FsRtlPostStackOverflow routine posts a stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpoststackoverflow.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later versions of Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
@@ -86,9 +86,9 @@ None
 
 
 
-A file system typically calls <b>FsRtlPostStackOverflow</b> during a file I/O operation when the amount of remaining stack space returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549286">IoGetRemainingStackSize</a> is below the file system's stack overflow threshold for the operation. <b>FsRtlPostStackOverflow</b> posts the I/O request to a special stack overflow work queue. When the I/O operation has been completed, the caller's <i>Event</i> is set to a signaled state. 
+A file system typically calls <b>FsRtlPostStackOverflow</b> during a file I/O operation when the amount of remaining stack space returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549286">IoGetRemainingStackSize</a> is below the file system's stack overflow threshold for the operation. <b>FsRtlPostStackOverflow</b> posts the I/O request to a special stack overflow work queue. When the I/O operation has been completed, the caller's <i>Event</i> is set to a signaled state.
 
-File system filter drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a> instead of <b>FsRtlPostStackOverflow</b>, because <b>IoQueueWorkItem</b> ensures that the device object that is associated with the specified work item is available for the processing of the work item. 
+File system filter drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a> instead of <b>FsRtlPostStackOverflow</b>, because <b>IoQueueWorkItem</b> ensures that the device object that is associated with the specified work item is available for the processing of the work item.
 
 If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlPostStackOverflow</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 

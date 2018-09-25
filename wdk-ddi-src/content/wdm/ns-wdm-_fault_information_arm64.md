@@ -31,7 +31,8 @@ apilocation:
 -	wdm.h
 apiname: 
 -	_FAULT_INFORMATION_ARM64
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

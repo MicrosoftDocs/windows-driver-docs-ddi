@@ -4,7 +4,7 @@ title: EVT_WDF_RESERVE_DMA
 author: windows-driver-content
 description: The EvtReserveDma event callback function is called when the framework has reserved resources to execute and release a transaction. Reserved resources include map registers and the WDM DMA adapter's lock.
 old-location: wdf\evtreservedma.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3663EF19-5F16-43D1-BFBC-28280E28D4DE
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The 

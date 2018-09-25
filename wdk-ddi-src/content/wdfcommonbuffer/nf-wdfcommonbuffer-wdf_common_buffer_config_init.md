@@ -4,7 +4,7 @@ title: WDF_COMMON_BUFFER_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_COMMON_BUFFER_CONFIG_INIT function initializes a WDF_COMMON_BUFFER_CONFIG structure.
 old-location: wdf\wdf_common_buffer_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a678516a-159f-42bc-b135-489677452472
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_COMMON_BUFFER_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551244">WDF_COMMON_BUFFER_CONFIG</a> structure.
 

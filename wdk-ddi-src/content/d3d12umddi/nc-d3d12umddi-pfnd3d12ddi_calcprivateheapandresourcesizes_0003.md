@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0003
 title: PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0003
 author: windows-driver-content
-description: 
+description: Calculate private heap and resources.
 ms.assetid: c814564d-01e0-4bae-bd2b-0ef95e654686
 ms.author: windowsdriverdev
 ms.date: 
@@ -26,23 +26,25 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 -	apiref
-apitype: 
+api_type: 
 -	UserDefined
-apilocation: 
+api_location: 
 -	d3d12umddi.h
-apiname: 
+api_name: 
 -	PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0003
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0003 callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+Calculate private heap and resources.
 
 ## -prototype
 
@@ -68,19 +70,18 @@ PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0003
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE: 
-### -param *: 
-### -param *: 
+### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
+### -param *
+
+Pointer to a D3D12DDIARG_CREATEHEAP_0001 structure.
+
+### -param *
+
+Pointer to a D3D12DDIARG_CREATERESOURCE_0003 structure.
 
 ## -returns
 
-Returns D3D12DDI_HEAP_AND_RESOURCE_SIZES that ...
-
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
+Returns D3D12DDI_HEAP_AND_RESOURCE_SIZES.

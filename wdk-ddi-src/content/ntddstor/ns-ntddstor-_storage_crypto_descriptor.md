@@ -4,7 +4,7 @@ title: "_STORAGE_CRYPTO_DESCRIPTOR"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_crypto_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1D948882-2286-4080-A41B-D20714FC0A66
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

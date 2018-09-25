@@ -4,10 +4,9 @@ title: D3DKMTOutputDuplPresent function
 author: windows-driver-content
 description: Submits a present command from the Desktop Duplication API swapchain of the Desktop Window Manager (DWM) to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtoutputduplpresent.htm
-old-project: display
 ms.assetid: d5846165-f58d-44a8-9242-02a2f85d3a8d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], PFND3DKMT_OUTPUTDUPLPRESENT, PFND3DKMT_OUTPUTDUPLPRESENT callback, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	DllExport
 api_location:
--	D3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTOutputDuplPresent
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -60,7 +60,7 @@ Submits a present command from the <a href="https://msdn.microsoft.com/523FBFAD-
 
 ### -param D3DKMT_OUTPUTDUPLPRESENT
 
-TBD
+
 
 
 

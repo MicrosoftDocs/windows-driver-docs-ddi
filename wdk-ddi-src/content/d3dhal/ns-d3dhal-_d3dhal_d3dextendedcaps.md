@@ -4,10 +4,10 @@ title: "_D3DHAL_D3DEXTENDEDCAPS"
 author: windows-driver-content
 description: D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
 old-location: display\d3dhal_d3dextendedcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: b1e63dce-6d51-438c-a4aa-cc17d9292576
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], _D3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, display.d3dhal_d3dextendedcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

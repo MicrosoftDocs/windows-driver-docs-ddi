@@ -4,7 +4,7 @@ title: tagWNODE_EVENT_REFERENCE
 author: windows-driver-content
 description: The WNODE_EVENT_REFERENCE structure contains information that WMI can use to query for an event that exceeds the event size limit set in the registry.
 old-location: kernel\wnode_event_reference.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9dfe75e5-301e-4378-a2ad-f43676d8c208
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

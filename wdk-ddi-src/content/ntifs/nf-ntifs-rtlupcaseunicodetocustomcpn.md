@@ -4,7 +4,7 @@ title: RtlUpcaseUnicodeToCustomCPN function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 906dd8c6-a7a7-4722-9ca6-78c437ab29e8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <
 
 ### -param CustomCP
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param CustomCPString

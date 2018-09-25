@@ -4,7 +4,7 @@ title: KSCAMERA_PERFRAMESETTING_FRAME_HEADER
 author: windows-driver-content
 description: This structure contains the header information for a frame in a per-frame settings payload.
 old-location: stream\kscamera_perframesetting_frame_header.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 59A52F4B-D987-420D-BF83-1375354C6D6A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

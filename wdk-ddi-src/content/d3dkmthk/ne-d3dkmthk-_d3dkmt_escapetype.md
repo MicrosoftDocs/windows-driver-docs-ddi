@@ -2,7 +2,7 @@
 UID: NE:d3dkmthk._D3DKMT_ESCAPETYPE
 title: _D3DKMT_ESCAPETYPE
 author: windows-driver-content
-description:
+description: Do not use the D3DKMT_VIDMMESCAPETYPE enumeration; it is for testing purposes only.
 ms.assetid: 6660c74f-4bdb-4c8a-920a-2b67ac3495f7
 ms.author: windowsdriverdev
 ms.date:
@@ -20,16 +20,18 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_ESCAPETYPE
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_ESCAPETYPE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_ESCAPETYPE enumeration

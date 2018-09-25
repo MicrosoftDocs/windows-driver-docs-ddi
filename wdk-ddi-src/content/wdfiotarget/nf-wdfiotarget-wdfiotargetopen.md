@@ -4,7 +4,7 @@ title: WdfIoTargetOpen function
 author: windows-driver-content
 description: The WdfIoTargetOpen method opens a remote I/O target so the driver can send I/O requests to it.
 old-location: wdf\wdfiotargetopen.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6ea2e6dd-9794-4214-8fb1-db563f49b33a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetOpen</b> method opens a remote I/O target so the driver can send I/O requests to it.
 

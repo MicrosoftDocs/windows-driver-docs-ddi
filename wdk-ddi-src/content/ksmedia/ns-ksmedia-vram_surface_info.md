@@ -4,7 +4,7 @@ title: VRAM_SURFACE_INFO
 author: windows-driver-content
 description: The VRAM_SURFACE_INFO structure describes a region of system or display memory into which an AVStream minidriver captures audio or video data.
 old-location: stream\vram_surface_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6fce78f7-a23e-4651-b6d8-b3d5387ccc27
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

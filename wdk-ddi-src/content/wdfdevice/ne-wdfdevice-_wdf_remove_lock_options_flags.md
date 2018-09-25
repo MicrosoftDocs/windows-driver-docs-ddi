@@ -4,7 +4,7 @@ title: "_WDF_REMOVE_LOCK_OPTIONS_FLAGS"
 author: windows-driver-content
 description: The WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REMOVE_LOCK_OPTIONS structure.
 old-location: wdf\wdf_remove_lock_options_flags.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3822B8A2-1EFB-45C7-A7DB-FBCE76A06336
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_REMOVE_LOCK_OPTIONS_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_REMOVE_LOCK_OPTIONS_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 

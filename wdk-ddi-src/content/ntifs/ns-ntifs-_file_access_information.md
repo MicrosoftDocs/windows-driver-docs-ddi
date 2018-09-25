@@ -4,7 +4,7 @@ title: "_FILE_ACCESS_INFORMATION"
 author: windows-driver-content
 description: The FILE_ACCESS_INFORMATION structure is used to query for or set the access rights of a file.
 old-location: kernel\file_access_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f5a09843-caf7-4550-bbc6-c0d799d66cd6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

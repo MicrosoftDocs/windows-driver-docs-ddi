@@ -4,7 +4,7 @@ title: WdfWmiInstanceCreate function
 author: windows-driver-content
 description: The WdfWmiInstanceCreate method creates a WMI instance object that represents an instance of a WMI data provider.
 old-location: wdf\wdfwmiinstancecreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ed662d6f-c42f-4dcb-86c5-135a302c59d7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfWmiInstanceCreate</b> method creates a WMI instance object that represents an instance of a WMI data provider.
 

@@ -4,7 +4,7 @@ title: RxChangeBufferingState function
 author: windows-driver-content
 description: RxChangeBufferingState is called to process a buffering state change request.
 old-location: ifsk\rxchangebufferingstate.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 83e181cd-bbec-4142-8d97-4f67285b6bb4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

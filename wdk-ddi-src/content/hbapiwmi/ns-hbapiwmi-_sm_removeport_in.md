@@ -4,7 +4,7 @@ title: "_SM_RemovePort_IN"
 author: windows-driver-content
 description: The SM_RemovePort_IN structure is used to provide input parameters to the SM_RemovePort WMI method.
 old-location: storage\sm_removeport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b8eb6321-928f-4366-9553-c75900fa1ac6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

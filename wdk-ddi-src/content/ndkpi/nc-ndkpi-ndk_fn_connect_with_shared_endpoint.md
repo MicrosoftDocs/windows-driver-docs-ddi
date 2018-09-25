@@ -4,10 +4,10 @@ title: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT
 author: windows-driver-content
 description: The NdkConnectWithSharedEndpoint (NDK_FN_CONNECT_WITH_SHARED_ENDPOINT) function initiates an NDK connect request from a shared local address to a remote address.
 old-location: netvista\ndk_fn_connect_with_shared_endpoint.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E97C0B87-C031-4C91-8FFF-86B5E8324FB8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT, NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback, NdkConnectWithSharedEndpoint, NdkConnectWithSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectWithSharedEndpoint, netvista.ndk_fn_connect_with_shared_endpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

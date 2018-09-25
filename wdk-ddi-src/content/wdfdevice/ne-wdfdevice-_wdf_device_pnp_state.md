@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_PNP_STATE"
 author: windows-driver-content
 description: The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter.
 old-location: wdf\wdf_device_pnp_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b907a1ca-d9ef-45e9-9e1b-26e58e3e1e07
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_PNP_STATE, *PWDF_DEVICE_PNP_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter.
 

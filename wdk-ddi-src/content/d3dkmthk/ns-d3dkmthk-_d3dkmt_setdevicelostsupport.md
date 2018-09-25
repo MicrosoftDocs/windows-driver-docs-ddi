@@ -4,10 +4,9 @@ title: "_D3DKMT_SETDEVICELOSTSUPPORT"
 author: windows-driver-content
 description: Used to indicate whether a device can recover from losing a graphics device.
 old-location: display\d3dkmt-setdevicelostsupport.htm
-old-project: display
 ms.assetid: 191ea8ac-6646-44db-88eb-54dc51afef17
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_SETDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT, display.d3dkmt-setdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3DKMT_SETDEVICELOSTSUPPORT
 ---
 

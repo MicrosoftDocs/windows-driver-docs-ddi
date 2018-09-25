@@ -4,10 +4,9 @@ title: "_DXGKARG_ESCAPE"
 author: windows-driver-content
 description: The DXGKARG_ESCAPE structure describes information that the user-mode display driver shares with the display miniport driver.
 old-location: display\dxgkarg_escape.htm
-old-project: display
 ms.assetid: 73a1afa6-e156-4733-b204-a9cae4e18563
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKARG_ESCAPE, DXGKARG_ESCAPE structure [Display Devices], DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, _DXGKARG_ESCAPE, d3dkmddi/DXGKARG_ESCAPE, display.dxgkarg_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGKARG_ESCAPE
 ---
 

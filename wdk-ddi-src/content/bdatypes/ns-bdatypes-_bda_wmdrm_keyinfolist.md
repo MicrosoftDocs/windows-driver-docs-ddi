@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_WMDRM_KEYINFOLIST
 title: "_BDA_WMDRM_KEYINFOLIST"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_wmdrm_keyinfolist.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0A151425-C22F-4201-855F-FF6FECE611D7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

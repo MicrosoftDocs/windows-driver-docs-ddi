@@ -4,7 +4,7 @@ title: RILIMSSERVICE
 author: windows-driver-content
 description: The RILIMSSERVICE enumeration has the following values.
 old-location: netvista\rilimsservice.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 11d009d7-5a97-46a8-b1d6-f1906127bf3a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,11 +58,11 @@ req.typenames: RILIMSSERVICE
 
 ````
 enum RILIMSSERVICE  {
-  RIL_IMS_SERVICE_SMS     = 0x00000001, 
-  RIL_IMS_SERVICE_VOICE   = 0x00000002, 
-  RIL_IMS_SERVICE_VIDEO   = 0x00000004, 
-  RIL_IMS_SERVICE_CUSTOM  = 0x00000008, 
-  RIL_IMS_SERVICE_ALL     = 0x0000000F  
+  RIL_IMS_SERVICE_SMS     = 0x00000001,
+  RIL_IMS_SERVICE_VOICE   = 0x00000002,
+  RIL_IMS_SERVICE_VIDEO   = 0x00000004,
+  RIL_IMS_SERVICE_CUSTOM  = 0x00000008,
+  RIL_IMS_SERVICE_ALL     = 0x0000000F
 
 };
 ````

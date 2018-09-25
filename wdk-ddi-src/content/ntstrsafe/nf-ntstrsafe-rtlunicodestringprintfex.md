@@ -4,7 +4,7 @@ title: RtlUnicodeStringPrintfEx function
 author: windows-driver-content
 description: The RtlUnicodeStringPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringprintfex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a08cb8d-d933-4dc6-8bf2-8f435ffc9eb1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -119,7 +119,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled fo
 
 ### -param param
 
-TBD
+<p>Optional. A list of arguments that <b>RtlUnicodeStringPrintfEx</b> interprets, based on formatting directives that the <i>pszFormat</i> string specifies.</p>
 
 
 

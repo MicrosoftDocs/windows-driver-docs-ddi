@@ -4,7 +4,7 @@ title: ClfsDeleteLogByPointer function
 author: windows-driver-content
 description: The ClfsDeleteLogByPointer routine marks a CLFS stream for deletion.
 old-location: kernel\clfsdeletelogbypointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: da6e4133-a2ba-4f8c-9490-e1f9b453b6e2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

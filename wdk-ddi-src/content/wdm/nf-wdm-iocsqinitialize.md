@@ -4,7 +4,7 @@ title: IoCsqInitialize function
 author: windows-driver-content
 description: The IoCsqInitialize routine initializes the driver's cancel-safe IRP queue dispatch table.
 old-location: kernel\iocsqinitialize.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5287db75-3096-45ab-b35b-1ee8b076157d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

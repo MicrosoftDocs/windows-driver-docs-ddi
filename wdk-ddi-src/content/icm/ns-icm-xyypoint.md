@@ -2,10 +2,10 @@
 UID: NS:icm.XYYPoint
 title: XYYPoint structure
 author: windows-driver-content
-description: 
+description: The XYYPoint structure describes a CIE xyY chromaticity point.
 ms.assetid: 7fa290ff-3f63-4d2f-9352-ffa821d6a8ab
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 9/10/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,7 +31,8 @@ api_location:
 -	icm.h
 api_name: 
 -	XYYPoint
-product: Windows
+product:
+-	Windows
 targetos: Windows
 ---
 

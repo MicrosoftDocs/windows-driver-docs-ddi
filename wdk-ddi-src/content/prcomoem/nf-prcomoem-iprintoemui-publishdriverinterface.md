@@ -4,7 +4,7 @@ title: IPrintOemUI::PublishDriverInterface
 author: windows-driver-content
 description: The IPrintOemUI::PublishDriverInterface method allows a user interface plug-in to obtain the Unidrv or Pscript5 driver's IPrintOemDriverUI, IPrintCoreUI2, IPrintCoreHelperPS, or IPrintCoreHelperUni interface.
 old-location: print\iprintoemui_publishdriverinterface.htm
-old-project: print
+tech.root: print
 ms.assetid: 4c2053ec-c6b3-4584-b689-dc887610c57e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

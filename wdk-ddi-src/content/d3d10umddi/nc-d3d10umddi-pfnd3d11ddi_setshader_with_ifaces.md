@@ -4,10 +4,9 @@ title: PFND3D11DDI_SETSHADER_WITH_IFACES
 author: windows-driver-content
 description: The CsSetShaderWithIfaces function sets the compute shader code along with a group of interfaces so that all of the subsequent dispatching operations use that code and those interfaces.
 old-location: display\cssetshaderwithifaces.htm
-old-project: display
 ms.assetid: 2e7170e8-2b77-45a7-9ff5-834452c13ddf
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CsSetShaderWithIfaces, CsSetShaderWithIfaces callback function [Display Devices], PFND3D11DDI_SETSHADER_WITH_IFACES, PFND3D11DDI_SETSHADER_WITH_IFACES callback, UserModeDisplayDriverDx11_Functions_bffc7a50-c0dd-420e-b599-5fb1e223ef3c.xml, d3d10umddi/CsSetShaderWithIfaces, display.cssetshaderwithifaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -128,6 +128,16 @@ A location for the data that is used by that class instance
 The <i>NumClassInstances</i> parameter specifies the number of interfaces that must be assigned values at run time. For each interface, each element of the <b>pIfaces</b> array provides a function table identifier, and each element of the <b>pPointerData</b> array provides the data locations for a class instance that is assigned to the interface. 
 
 The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIERR_DEVICEREMOVED (if the device is removed) in a call to the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function. The Direct3D runtime determines that any other errors are critical. If the driver passes any errors, which includes D3DDDIERR_DEVICEREMOVED, the Direct3D runtime determines that the handle is invalid; therefore, the runtime does not call the <a href="https://msdn.microsoft.com/51a3e5aa-0f17-49a6-824d-7cfe8e0a1ded">DestroyShader</a> function to destroy the handle that the <i>hShader</i> parameter specifies.
+
+The <b>GsSetShaderWithIfaces</b> function sets the geometry shader code along with a group of interfaces so that all of the subsequent drawing operations use that code and those interfaces. 
+
+The <b>PsSetShaderWithIfaces</b> function sets the pixel shader code along with a group of interfaces so that all of the subsequent drawing operations use that code and those interfaces.
+
+The <b>DsSetShaderWithIfaces</b> function sets the domain shader code along with a group of interfaces so that all of the subsequent drawing operations use that code and those interfaces.
+
+The <b>HsSetShaderWithIfaces</b> function sets the hull shader code along with a group of interfaces so that all of the subsequent drawing operations use that code and those interfaces.
+
+The <b>VsSetShaderWithIfaces</b> function sets the vertex shader code along with a group of interfaces so that all of the subsequent drawing operations use that code and those interfaces.
 
 
 

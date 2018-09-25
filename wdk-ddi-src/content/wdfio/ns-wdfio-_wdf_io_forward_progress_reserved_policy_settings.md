@@ -4,7 +4,7 @@ title: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS"
 author: windows-driver-content
 description: The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure contains information about specific actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 old-location: wdf\wdf_io_forward_progress_reserved_policy_settings.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 28ffe82f-79b6-4a00-b4fa-36df5df303a6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS</b> structure contains information about specific actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 

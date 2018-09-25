@@ -4,7 +4,7 @@ title: HalAllocateHardwareCounters function
 author: windows-driver-content
 description: The HalAllocateHardwareCounters routine allocates a set of hardware performance counters.
 old-location: kernel\halallocatehardwarecounters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,7 +60,7 @@ The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware perfo
 
 ### -param GroupAffinty
 
-TBD
+<p>Reserved for future use. Set this parameter to <b>NULL</b>.</p>
 
 
 ### -param GroupCount [in]
@@ -76,11 +76,6 @@ Reserved for future use. Set this parameter to <b>NULL</b>.
 ### -param CounterSetHandle [out]
 
 A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, <b>HalAllocateHardwareCounters</b> sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
-
-
-#### - GroupAffinity [in]
-
-Reserved for future use. Set this parameter to <b>NULL</b>.
 
 
 ## -returns

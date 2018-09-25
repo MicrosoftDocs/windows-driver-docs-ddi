@@ -4,10 +4,10 @@ title: FwpsRedirectHandleCreate0 function
 author: windows-driver-content
 description: The FwpsRedirectHandleCreate0 function creates a handle that connection redirection functions can use to redirect connections to a local process.
 old-location: netvista\fwpsredirecthandlecreate0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices

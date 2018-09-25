@@ -4,10 +4,10 @@ title: "_PMI_MEASUREMENT_CONFIGURATION"
 author: windows-driver-content
 description: The PMI_MEASUREMENT_CONFIGURATION structure contains information about the current power measurement configuration of a power meter.
 old-location: powermeter\pmi_measurement_configuration.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, _PMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices

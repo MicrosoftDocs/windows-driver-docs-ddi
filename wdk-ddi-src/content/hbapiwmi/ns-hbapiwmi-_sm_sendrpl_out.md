@@ -4,7 +4,7 @@ title: "_SM_SendRPL_OUT"
 author: windows-driver-content
 description: The SM_SendRPL_OUT structure is used to receive output parameters from the SM_SendRPL method.
 old-location: storage\sm_sendrpl_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c8dfc30a-81ac-4342-9996-0c04db80e5e7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

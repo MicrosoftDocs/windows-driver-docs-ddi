@@ -4,10 +4,10 @@ title: PROTOCOL_CM_MAKE_CALL
 author: windows-driver-content
 description: The ProtocolCmMakeCall function is a required function that sets up media specific parameters for a virtual connection (VC) and activates the virtual connection.Note  You must declare the function by using the PROTOCOL_CM_MAKE_CALL type.
 old-location: netvista\protocolcmmakecall.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ede0a18a-cd3b-4fbb-a16b-e7493940d633
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_MAKE_CALL, PROTOCOL_CM_MAKE_CALL callback, ProtocolCmMakeCall, ProtocolCmMakeCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_4f72c0f7-470b-496c-adbb-ea465246fb48.xml, ndis/ProtocolCmMakeCall, netvista.protocolcmmakecall
 ms.prod: windows-hardware
 ms.technology: windows-devices

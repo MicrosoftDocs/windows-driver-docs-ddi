@@ -4,10 +4,10 @@ title: "_NET_PNP_EVENT_NOTIFICATION"
 author: windows-driver-content
 description: The NET_PNP_EVENT_NOTIFICATION structure describes a network Plug and Play (PnP) event, an NDIS PnP event, or a power management event.
 old-location: netvista\net_pnp_event_notification.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION, PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,24 +85,28 @@ A
 
 ### -field Flags
 
- 
+Flags for this event notification.
 
+> [!IMPORTANT]
+> For miniport drivers calling [**NdisMNetPnPEvent**](nf-ndis-ndismnetpnpevent.md), if **VPortId** is set to a value different from NDIS_DEFAULT_VPORT_ID then **Flags** must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **VPortId** to take effect.
+>
+> Other values for **Flags** are reserved for NDIS.
 
 ### -field SwitchId
 
- 
-
+An **NDIS_NIC_SWITCH_ID** value that specifies a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An **NDIS_DEFAULT_SWITCH_ID** value indicates the default network adapter switch.
 
 ### -field VPortId
 
- 
+An **NDIS_NIC_SWITCH_VPORT_ID** value that uniquely identifies the virtual port (VPort) on the network adapter. 
 
+A value of **NDIS_DEFAULT_VPORT_ID** specifies the default VPort on the switch. The default VPort is always attached to the PCI Express (PCIe) Physical Function (PF) of the network adapter.
 
+> [!NOTE]
+> A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 
 ## -remarks
-
-
 
 When the operating system issues a system PnP event or a power management event to a target device
     object that represents an adapter, NDIS translates the event into a NET_PNP_EVENT_NOTIFICATION

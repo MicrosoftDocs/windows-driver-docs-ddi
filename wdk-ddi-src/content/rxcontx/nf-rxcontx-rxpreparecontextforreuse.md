@@ -4,7 +4,7 @@ title: RxPrepareContextForReuse function
 author: windows-driver-content
 description: RxPrepareContextForReuse prepares an RX_CONTEXT data structure for reuse by resetting all of the operation-specific allocations and acquisitions that have been made (the ReferenceCount member to the RX_CONTEXT structure is set to zero).
 old-location: ifsk\rxpreparecontextforreuse.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 16b4bd82-0ffc-40c7-8cd2-f73a2a588ac8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

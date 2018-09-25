@@ -4,10 +4,9 @@ title: "_DXGK_GLITCH_EFFECT"
 author: windows-driver-content
 description: Enumeration which describes the user visible effect of a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_effect.htm
-old-project: display
 ms.assetid: EACD5B8D-B579-4EB0-93C7-0B356A67CA8F
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_GLITCH_EFFECT, DXGK_GLITCH_EFFECT enumeration [Display Devices], DXGK_GLITCH_EFFECT_BLACK_CONTENT, DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, DXGK_GLITCH_EFFECT_SEAMLESS, DXGK_GLITCH_EFFECT_STALE_CONTENT, DXGK_GLITCH_EFFECT_SYNC_LOSS, _DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT_BLACK_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SEAMLESS, d3dkmddi/DXGK_GLITCH_EFFECT_STALE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SYNC_LOSS, display.dxgk_glitch_effect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_GLITCH_EFFECT
 ---
 

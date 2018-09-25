@@ -4,7 +4,7 @@ title: "_BRB_GET_DEVICE_INTERFACE_STRING"
 author: windows-driver-content
 description: The _BRB_GET_DEVICE_INTERFACE_STRING structure describes the device interface string for the current device object.
 old-location: bltooth\_brb_get_device_interface_string.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 340e4b9a-9959-4eda-b26b-674f7fca7156
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

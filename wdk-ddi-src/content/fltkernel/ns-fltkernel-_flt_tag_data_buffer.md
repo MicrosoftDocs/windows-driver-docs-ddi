@@ -4,7 +4,7 @@ title: "_FLT_TAG_DATA_BUFFER"
 author: windows-driver-content
 description: The FLT_TAG_DATA_BUFFER structure contains information about a reparse point tag.
 old-location: ifsk\flt_tag_data_buffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

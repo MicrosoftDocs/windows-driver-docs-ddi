@@ -4,7 +4,7 @@ title: "_TOKEN_DEFAULT_DACL"
 author: windows-driver-content
 description: The TOKEN_DEFAULT_DACL structure specifies a discretionary access-control list (DACL).
 old-location: ifsk\token_default_dacl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: db4c23e1-4a49-4864-9eab-36abb2581e58
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

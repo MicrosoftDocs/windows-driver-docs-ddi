@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 92275a50-78d9-42a1-986c-30aa100015d4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetTypeKind, GetTypeKind, IDebugHostType2.GetTypeKind, IDebugHostType2::GetTypeKind, IDebugHostType2.GetTypeKind
 req.header: dbgmodel.h
@@ -43,16 +43,33 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to. 
 
 ## -parameters
 
 ### -param kind
-
+The kind of type the symbol refers to will be returned here (as a member of the TypeKind enumeration).
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostType2> spType; /* get a type (see FindTypeByName) */
+
+TypeKind tk;
+if (SUCCEEDED(spType->GetTypeKind(&tk)))
+{
+    // tk is the kind of type
+    //    TypePointer: it's a pointer
+    //    TypeArray:   it's an array
+    //    etc...
+}
+
+```
+
 ## -see-also
+[IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)

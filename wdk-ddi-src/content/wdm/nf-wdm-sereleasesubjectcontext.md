@@ -4,7 +4,7 @@ title: SeReleaseSubjectContext function
 author: windows-driver-content
 description: The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
 old-location: ifsk\sereleasesubjectcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: efae077e-2698-4392-ac2a-8f41acdb12a2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

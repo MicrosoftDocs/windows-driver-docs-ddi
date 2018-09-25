@@ -4,7 +4,7 @@ title: WDF_DEVICE_STATE_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_STATE_INIT function initializes a driver's WDF_DEVICE_STATE structure.
 old-location: wdf\wdf_device_state_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f8c040aa-bfa0-4b74-ad0a-8796f1cfc4b8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_STATE_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551284">WDF_DEVICE_STATE</a> structure.
 

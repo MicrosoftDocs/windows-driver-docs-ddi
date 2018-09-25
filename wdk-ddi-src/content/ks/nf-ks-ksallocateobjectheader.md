@@ -4,7 +4,7 @@ title: KsAllocateObjectHeader function
 author: windows-driver-content
 description: The KsAllocateObjectHeader function initializes the required file context header.
 old-location: stream\ksallocateobjectheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 18f5ea44-3f70-4c26-beb3-2f03568df03b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

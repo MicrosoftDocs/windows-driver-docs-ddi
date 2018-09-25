@@ -4,7 +4,7 @@ title: "_DeleteInitiatorNodeName_IN"
 author: windows-driver-content
 description: The DeleteInitiatorNodeName_IN structure holds the input data for the DeleteInitiatorNodeName method, which is used to delete an initiator node name.
 old-location: storage\deleteinitiatornodename_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 10b6660c-7f48-4717-89d4-d6a5eb6594c8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

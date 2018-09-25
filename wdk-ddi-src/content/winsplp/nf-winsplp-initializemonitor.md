@@ -2,9 +2,9 @@
 UID: NF:winsplp.InitializeMonitor
 title: InitializeMonitor function
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\initializemonitor.htm
-old-project: print
+tech.root: print
 ms.assetid: e9d833cd-29d6-4c71-ba90-8d7dcf934420
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

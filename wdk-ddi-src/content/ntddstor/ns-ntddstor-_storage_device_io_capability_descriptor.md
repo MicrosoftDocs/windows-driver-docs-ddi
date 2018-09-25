@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
 author: windows-driver-content
 description: The output buffer for the StorageDeviceIoCapabilityProperty as defined in STORAGE_PROPERTY_ID.
 old-location: storage\storage_device_io_capability_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 98377F8F-62C8-4E8F-838B-A63DC63E4A0C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

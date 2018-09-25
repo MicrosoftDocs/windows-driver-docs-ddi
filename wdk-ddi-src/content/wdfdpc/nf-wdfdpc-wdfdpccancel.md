@@ -4,7 +4,7 @@ title: WdfDpcCancel function
 author: windows-driver-content
 description: The WdfDpcCancel method attempts to cancel the execution of a DPC object's scheduled EvtDpcFunc callback function.
 old-location: wdf\wdfdpccancel.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6eb56c5b-d198-4542-a239-c54b49561196
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDpcCancel</b> method attempts to cancel the execution of a DPC object's scheduled <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function.
 

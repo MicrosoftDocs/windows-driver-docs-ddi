@@ -4,10 +4,10 @@ title: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 author: windows-driver-content
 description: The USB dual-role class extension invokes this callback to allow the client driver to insert the resources from the resource-requirements-list object to resource lists that will be used during the life time of each role.
 old-location: buses\evt_urs_device_filter_resource_requirements.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: E5CFA6CF-1EB3-41FA-BAE4-A030737F220D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices

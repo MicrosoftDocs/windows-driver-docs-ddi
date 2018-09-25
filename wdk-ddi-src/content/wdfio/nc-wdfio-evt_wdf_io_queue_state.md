@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_STATE
 author: windows-driver-content
 description: A driver's EvtIoQueueState event callback function delivers queue state information to the driver.
 old-location: wdf\evtioqueuestate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 14999036-c137-4056-b6f7-53a8476fd385
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoQueueState</i> event callback function delivers queue state information to the driver.
 
@@ -85,7 +85,7 @@ None
 
 Drivers can register an <i>EvtIoQueueState</i> callback function by specifying its address as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548482">WdfIoQueueStop</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff547406">WdfIoQueueDrain</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548452">WdfIoQueueReadyNotify</a>. The framework calls the <i>EvtIoQueueState</i> callback function after the specified operation completes. 
 
-The <i>EvtIoQueueState</i> callback function can be called at IRQL &lt;= DISPATCH_LEVEL, unless the <b>ExecutionLevel</b> member of the device or driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure is set to <b>WdfExecutionLevelPassive</b>.
+The <i>EvtIoQueueState</i> callback function can be called at IRQL &lt;= DISPATCH_LEVEL, unless the <b>ExecutionLevel</b> member of the queue's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> is set to <b>WdfExecutionLevelPassive</b>, in which case it is called at IRQL = PASSIVE_LEVEL. If the queue specifies <b>WdfExecutionLevelInheritFromParent</b>, the property can be inherited from the WDFDEVICE or WDFDRIVER's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>.
 
 If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a <a href="https://msdn.microsoft.com/3781498a-45e9-4f24-8fd2-830eed61298c">critical region</a>.
 

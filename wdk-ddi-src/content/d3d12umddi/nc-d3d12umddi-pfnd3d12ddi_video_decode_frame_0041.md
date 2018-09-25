@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 author: windows-driver-content
-description:
+description: Implemented by the client driver to decode a video frame.
 ms.assetid: 4b403250-5567-431a-9df0-609ca59b1f9e
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_VIDEO_DECODE_FRAME_0041
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function
@@ -79,11 +81,11 @@ The video decoder that contains internal state for this decode session.  Example
 
 ### -param *pOutputStreamParameters
 
-Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0030.md).
+Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md).
 
 ### -param *pInputStreamParameters:
 
-Specifies the input bitstream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0030.md).
+Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
 
 ## -returns
 

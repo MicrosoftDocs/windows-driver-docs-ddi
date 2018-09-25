@@ -4,7 +4,7 @@ title: InterlockedCompareExchangePointer function
 author: windows-driver-content
 description: The InterlockedCompareExchangePointer routine performs an atomic operation that compares the input pointer value pointed to by Destination with the pointer value Comparand.
 old-location: kernel\interlockedcompareexchangepointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b96076f-a7f7-4705-bbee-595ee4d9f789
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -70,14 +70,9 @@ Specifies the PVOID value to set (*<i>Destination</i>) to.
 
 ### -param Comperand
 
-TBD
+<p>Specifies the PVOID value to compare with (*<i>Destination</i>).</p>
 
 
-
-
-#### - Comparand [in]
-
-Specifies the PVOID value to compare with (*<i>Destination</i>).
 
 
 ## -returns

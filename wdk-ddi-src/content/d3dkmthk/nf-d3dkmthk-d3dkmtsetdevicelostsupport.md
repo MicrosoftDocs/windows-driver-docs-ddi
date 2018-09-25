@@ -4,10 +4,9 @@ title: D3DKMTSetDeviceLostSupport function
 author: windows-driver-content
 description: Used to indicate that the device has lost support.
 old-location: display\d3dkmtsetdevicelostsupport.htm
-old-project: display
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,21 +25,22 @@ req.max-support: Windows 10, version 1709
 req.namespace:
 req.assembly:
 req.type-library:
-req.lib: NtosKrnl.exe
-req.dll:
+req.lib: Gdi32.lib 
+req.dll: Gdi32.dll
 req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	d3dkmthk.h
+-	Gdi32.dll
 api_name:
 -	D3DKMTSetDeviceLostSupport
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -62,7 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-TBD
+
 
 
 

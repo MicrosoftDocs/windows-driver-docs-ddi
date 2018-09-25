@@ -4,10 +4,10 @@ title: ISensorClassExtension::CleanupFile
 author: windows-driver-content
 description: The ISensorClassExtension::CleanupFile method notifies the class extension about a file handle that closes and cancels all pending I/O requests, for the specified application.
 old-location: sensors\isensorclassextension_cleanupfile.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: eeade123-fb83-478f-99e3-e79bbbb1919b
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: CleanupFile, CleanupFile method [Sensor Devices], CleanupFile method [Sensor Devices],ISensorClassExtension interface, ISensorClassExtension interface [Sensor Devices],CleanupFile method, ISensorClassExtension.CleanupFile, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile, sensorsclassextension/ISensorClassExtension::CleanupFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

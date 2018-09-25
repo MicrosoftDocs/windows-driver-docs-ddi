@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function
 author: windows-driver-content
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.
 old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

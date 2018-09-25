@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 author: windows-driver-content
 description: Initializes the status of all elements or of specified number of elements of a particular type.
 old-location: storage\ioctl_changer_initialize_element_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 25cbb42a-7263-47b7-84c7-cfcb41a858c8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

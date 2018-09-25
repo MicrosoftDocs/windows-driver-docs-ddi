@@ -4,7 +4,7 @@ title: IoDecrementKeepAliveCount function
 author: windows-driver-content
 description: The IoDecrementKeepAliveCount routine decrements a reference count associated with an Windows app on a specific device.
 old-location: kernel\iodecrementkeepalivecount.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

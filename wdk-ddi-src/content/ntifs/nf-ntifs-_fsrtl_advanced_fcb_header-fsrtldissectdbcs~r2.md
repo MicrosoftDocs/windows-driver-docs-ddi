@@ -4,7 +4,7 @@ title: FsRtlDissectDbcs function
 author: windows-driver-content
 description: Given an ANSI or double-byte character set (DBCS) pathname string, the FsRtlDissectDbcs routine returns two strings:\_one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectdbcs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -16,16 +16,16 @@ req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later versions of Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
@@ -65,7 +65,7 @@ The pathname string to be parsed.
 
 ### -param FirstName [out]
 
-A pointer to the first file name in the pathname string. 
+A pointer to the first file name in the pathname string.
 
 
 ### -param RemainingName [out]
@@ -86,7 +86,7 @@ None
 
 
 
-In the input string, backslashes are read as name separators. The first name in the string is assumed to consist of all characters from the beginning of the string to the character preceding the first backslash, inclusive. There is just one exception to this rule: if the first character in the input string is a backslash, this character is ignored and does not appear in the output string. The remaining portion of the string consists of all characters following the backslash that follows the first name found in the string. 
+In the input string, backslashes are read as name separators. The first name in the string is assumed to consist of all characters from the beginning of the string to the character preceding the first backslash, inclusive. There is just one exception to this rule: if the first character in the input string is a backslash, this character is ignored and does not appear in the output string. The remaining portion of the string consists of all characters following the backslash that follows the first name found in the string.
 
 <b>FsRtlDissectDbcs</b> does not check for the presence of illegal characters in the input string.
 
@@ -229,7 +229,7 @@ FsRtlDissectDbcs (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
 </td>
 </tr>
 </table></span></div>
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
 
 
 

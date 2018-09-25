@@ -4,7 +4,7 @@ title: EtwActivityIdControl function
 author: windows-driver-content
 description: The EtwActivityIdControl function creates, queries, and sets the current activity identifier.
 old-location: devtest\etwactivityidcontrol.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: dd2e1558-db5d-4d48-a55e-fbdf2838ec55
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

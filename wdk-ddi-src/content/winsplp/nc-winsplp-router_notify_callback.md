@@ -2,9 +2,9 @@
 UID: NC:winsplp.ROUTER_NOTIFY_CALLBACK
 title: ROUTER_NOTIFY_CALLBACK
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\router_notify_callback.htm
-old-project: print
+tech.root: print
 ms.assetid: 97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_PDO_STATE"
 author: windows-driver-content
 description: This enumeration describes the states of Physical Device Objects (PDOs).
 old-location: storage\pdo_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 006e2cef-4e49-4819-bfce-d9bf5983643e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

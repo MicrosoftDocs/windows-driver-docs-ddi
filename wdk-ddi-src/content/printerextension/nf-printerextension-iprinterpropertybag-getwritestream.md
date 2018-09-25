@@ -4,7 +4,7 @@ title: IPrinterPropertyBag::GetWriteStream
 author: windows-driver-content
 description: Gets a stream in order to write a stream property.
 old-location: print\iprinterpropertybag_getwritestream.htm
-old-project: print
+tech.root: print
 ms.assetid: 47F535C0-57C7-407B-B47B-188EB6434F2E
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

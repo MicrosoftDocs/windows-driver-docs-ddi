@@ -4,7 +4,7 @@ title: IoUnregisterBootDriverCallback function
 author: windows-driver-content
 description: The IoUnRegisterBootDriverCallback routine unregisters a previously registered BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\iounregisterbootdrivercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: Any level
+req.irql: <= APC_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoUnRegisterBootDriverCallback</b> routine unregisters a previously registered <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine.
+The <b>IoUnRegisterBootDriverCallback</b> routine unregisters a previously registered <b>[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)</b> routine.
 
 
 ## -parameters

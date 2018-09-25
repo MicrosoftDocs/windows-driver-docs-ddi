@@ -4,7 +4,7 @@ title: BdaMethodCreatePin function
 author: windows-driver-content
 description: The BdaMethodCreatePin function creates a pin factory.
 old-location: stream\bdamethodcreatepin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0bc31a97-661c-463d-a043-9f86f63bb4b4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
@@ -61,7 +61,7 @@ The <b>BdaMethodCreatePin</b> function creates a pin factory.
 
 ### -param pIrp
 
-TBD
+
 
 
 ### -param pKSMethod [in]

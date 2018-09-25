@@ -4,7 +4,7 @@ title: IPrintCoreUI2::QuerySimulationSupport
 author: windows-driver-content
 description: The IPrintCoreUI2::QuerySimulationSupport method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
 old-location: print\iprintcoreui2_querysimulationsupport.htm
-old-project: print
+tech.root: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: WdfIoQueueGetState function
 author: windows-driver-content
 description: The WdfIoQueueGetState method returns the status of a specified I/O queue.
 old-location: wdf\wdfioqueuegetstate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueGetState</b> method returns the status of a specified I/O queue.
 

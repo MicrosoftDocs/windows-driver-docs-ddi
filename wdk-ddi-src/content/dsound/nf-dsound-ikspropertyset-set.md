@@ -4,7 +4,7 @@ title: IKsPropertySet::Set
 author: windows-driver-content
 description: The Set method sets a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_set.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: FltGetRequestorProcess function
 author: windows-driver-content
 description: The FltGetRequestorProcess routine returns a process pointer for the thread that requested a given I/O operation.
 old-location: ifsk\fltgetrequestorprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: be734d14-64ee-47f0-8df9-4c4b8830448d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

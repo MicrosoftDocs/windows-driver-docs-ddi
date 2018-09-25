@@ -4,7 +4,7 @@ title: "_WDF_TASK_SEND_OPTIONS"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_send_options.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cb2fd11c-c6a5-4499-a340-f96ffcfbbe0f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

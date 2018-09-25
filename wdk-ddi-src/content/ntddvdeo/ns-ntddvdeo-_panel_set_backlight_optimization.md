@@ -2,7 +2,8 @@
 UID: NS:ntddvdeo._PANEL_SET_BACKLIGHT_OPTIMIZATION
 title: _PANEL_SET_BACKLIGHT_OPTIMIZATION
 author: windows-driver-content
-description:
+description: Used to set the level of optimization used to control the brightness of a panel.
+tech.root: display
 ms.assetid: 08ccd864-748e-4831-834d-7a06a80e8dd3
 ms.author: windowsdriverdev
 ms.date:
@@ -22,16 +23,17 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PPANEL_SET_BACKLIGHT_OPTIMIZATION, PANEL_SET_BACKLIGHT_OPTIMIZATION
-topictype:
+req.typenames: PANEL_SET_BACKLIGHT_OPTIMIZATION, *PPANEL_SET_BACKLIGHT_OPTIMIZATION
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	_PANEL_SET_BACKLIGHT_OPTIMIZATION
-product: Windows
+product: 
+-	Windows
 targetos: Windows
 ---
 

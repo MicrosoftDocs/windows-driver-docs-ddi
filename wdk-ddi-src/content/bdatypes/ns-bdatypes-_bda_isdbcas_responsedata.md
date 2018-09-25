@@ -2,9 +2,9 @@
 UID: NS:bdatypes._BDA_ISDBCAS_RESPONSEDATA
 title: "_BDA_ISDBCAS_RESPONSEDATA"
 author: windows-driver-content
-description: "."
+description: 
 old-location: stream\bda_isdbcas_responsedata.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 70BD9007-6CA4-49EC-8A30-3544FE62C18E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

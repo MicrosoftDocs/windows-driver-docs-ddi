@@ -4,7 +4,7 @@ title: "_MINIPORT_DUMP_POINTERS"
 author: windows-driver-content
 description: A Storport miniport driver uses this structure to support the SCSI_REQUEST_BLOCK (SRB) function code SRB_FUNCTION_DUMP_POINTERS.
 old-location: storage\miniport_dump_pointers.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDTFPNPActions2::RequestEjectDevice
 author: windows-driver-content
 description: Initiates a device eject.
 old-location: dtf\iwdtfpnpactions2_requestejectdevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 6c79b6e7-1134-4de6-b698-e09f295c3e84
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

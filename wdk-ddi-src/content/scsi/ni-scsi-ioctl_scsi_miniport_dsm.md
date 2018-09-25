@@ -4,7 +4,7 @@ title: IOCTL_SCSI_MINIPORT_DSM
 author: windows-driver-content
 description: A Data Set Management (DSM) notification is transferred to a miniport driver in a IOCTL_SCSI_MINIPORT_DSM control code request.
 old-location: storage\ioctl_scsi_miniport_dsm.htm
-old-project: storage
+tech.root: storage
 ms.assetid: CA91B623-F926-453D-A348-92655875D801
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: "_WWAN_AUTH_AKA_CHALLENGE"
 author: windows-driver-content
 description: The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge using the AKA method.
 old-location: netvista\wwan_auth_aka_challenge.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: A0513766-7D58-4F85-8105-93D7A0D9036B
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, wwan/PWWAN_AUTH_AKA_CHALLENGE, wwan/WWAN_AUTH_AKA_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

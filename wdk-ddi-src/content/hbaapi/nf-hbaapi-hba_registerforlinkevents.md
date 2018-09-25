@@ -4,7 +4,7 @@ title: HBA_RegisterForLinkEvents function
 author: windows-driver-content
 description: The HBA_RegisterForLinkEvents routine registers with a specified adapter for asynchronous fabric link-level events.
 old-location: storage\hba_registerforlinkevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f0e6834c-b827-4342-83f1-5980f8edce24
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -80,24 +80,14 @@ Contains the size, in bytes, of the buffer at <i>pRLIRBuffer</i>.
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA for which event callbacks are requested.</p>
 
 
 ### -param pCallbackHandle
 
-TBD
+<p>Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.</p>
 
 
-
-
-#### - callbackHandle
-
-Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.
-
-
-#### - handle
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
 
 
 ## -returns

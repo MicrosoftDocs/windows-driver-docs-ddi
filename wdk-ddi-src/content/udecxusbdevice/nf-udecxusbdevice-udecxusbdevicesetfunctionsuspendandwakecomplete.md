@@ -4,10 +4,10 @@ title: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function
 author: windows-driver-content
 description: Completes an asynchronous request for changing the power state of a particular function of a virtual USB 3.0 device.
 old-location: buses\udecxusbdevicesetfunctionsuspendandwakecomplete.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 21339CB5-8529-4649-9F1A-9D8C80709407
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

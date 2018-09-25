@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_RESET
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_RESET IOCTL resets the device to a known or idle state, according to the current power state. Vendor-supplied WBDI drivers must support this IOCTL.
 old-location: biometric\ioctl_biometric_reset.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 4385911b-ae38-4748-ad11-cc161922776a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_ACQUIRESWAPCHAIN
 title: _D3DKMT_ACQUIRESWAPCHAIN
 author: windows-driver-content
-description:
+description: Used to get information about the swap chain.
 ms.assetid: 43e4b889-e55b-4921-8e41-e90698ac26f0
 ms.author: windowsdriverdev
 ms.date:
@@ -23,16 +23,18 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ACQUIRESWAPCHAIN
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	_D3DKMT_ACQUIRESWAPCHAIN
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _D3DKMT_ACQUIRESWAPCHAIN structure

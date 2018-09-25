@@ -4,7 +4,7 @@ title: "_PEP_PPM_IS_PROCESSOR_HALTED"
 author: windows-driver-content
 description: The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the processor is currently halted in its selected idle state.
 old-location: kernel\pep_ppm_is_processor_halted.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

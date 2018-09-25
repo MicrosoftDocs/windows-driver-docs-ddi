@@ -4,7 +4,7 @@ title: IoGetDiskDeviceObject function
 author: windows-driver-content
 description: The IoGetDiskDeviceObject routine retrieves a pointer to the disk device object associated with a given file system volume device object.
 old-location: ifsk\iogetdiskdeviceobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c4f27011-f198-474e-8d2c-8bf35c3c8c66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -65,14 +65,9 @@ A pointer to the file system device object.
 
 ### -param DiskDeviceObject
 
-TBD
+<p>A pointer to a variable that receives the address of the device object for the disk device object. </p>
 
 
-
-
-#### - DeviceObject [out]
-
-A pointer to a variable that receives the address of the device object for the disk device object. 
 
 
 ## -returns

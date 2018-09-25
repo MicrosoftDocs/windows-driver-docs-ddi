@@ -4,7 +4,7 @@ title: StorPortPause function
 author: windows-driver-content
 description: The StorPortPause routine pauses an adapter for the specified period of time.
 old-location: storage\storportpause.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -66,14 +66,9 @@ Pointer to the hardware device extension of the adapter to pause. This is a per-
 
 ### -param Timeout
 
-TBD
+<p>Specifies the interval of time, in seconds, that the adapter is to be paused. </p>
 
 
-
-
-#### - TimeOut [in]
-
-Specifies the interval of time, in seconds, that the adapter is to be paused. 
 
 
 ## -returns

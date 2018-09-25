@@ -4,7 +4,7 @@ title: "*PISCSI_ADAPTER_EVENT_CODE"
 author: windows-driver-content
 description: The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event.
 old-location: storage\iscsi_adapter_event_code.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 65fa2307-8d71-4c83-86b3-a965bd7f3da8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event.
 
 
 ````
-typedef enum  { 
+typedef enum  {
   ISCSI_ADAPTER_TARGETS_CHANGED  = 3
 } ISCSI_ADAPTER_EVENT_CODE, *PISCSI_ADAPTER_EVENT_CODE;
 ````
@@ -70,7 +70,7 @@ typedef enum  {
 
 ### -field ISCSI_ADAPTER_TARGETS_CHANGED
 
-An adapter discovered that its list of targets changed. 
+An adapter discovered that its list of targets changed.
 
 
 ## -see-also

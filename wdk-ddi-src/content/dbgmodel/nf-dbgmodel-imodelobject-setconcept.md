@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelObject::SetConcept, SetConcept, IModelObject.SetConcept, IModelObject::SetConcept, IModelObject.SetConcept
 req.header: dbgmodel.h
@@ -44,19 +44,61 @@ targetos: Windows
 
 ## -description
 
-TBD
+The SetConcept method will place a specified concept on the object instance specified by the this pointer. If a parent model attached to the object instance specified by this also supports the concept, the implementation in the instance will override that in the parent model. 
 
 ## -parameters
 
 ### -param conceptId
+The unique identifier of the concept being assigned. This is also the IID of the core interface of the concept.
 
 ### -param conceptInterface
+The concept interface being assigned (defined by conceptId).
 
 ### -param conceptMetadata
-
+Optional metadata to be associated with this concept.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Code Sample**
+
+```cpp
+ComPtr<IModelObject> spObject; /* get an object: say a new one from CreateSyntheticObject */
+
+// Implement IStringDisplayableConcept for the object.  Return a static "Hello World" string.
+class MyStringConversion :
+    public Microsoft::WRL::RuntimeClass<
+        Microsoft::WRL::RuntimeClassFlags<Microsoft::WRL::RuntimeClassType::ClassicCom>,
+        IStringDisplayableConcept
+        >
+{
+public:
+
+    IFACEMETHOD(ToDisplayString)(_In_ IModelObject * /*pContextObject*/, 
+                                 _In_opt_ IKeyStore * /*pMetadata*/, 
+                                 _Out_ BSTR *pDisplayString)
+    {
+        *pDisplayString = SysAllocString(L"Hello World");
+        return *pDisplayString == nullptr ? E_OUTOFMEMORY : S_OK;
+    }
+};
+
+// Add the implementation as a concept
+ComPtr<MyStringConversion> spStringConverter = Microsoft::WRL::Make<MyStringConversion>();
+if (spStringConverter != nullptr)
+{
+    if (SUCCEEDED(spObject->SetConcept(__uuidof(IStringDisplayableConcept),
+                                       static_cast<IStringDisplayableConcept *>
+                                           (spStringConverter.Get()), nullptr)))
+    {
+        // The new object can be converted to a string! 
+    }
+}
+```
+
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)

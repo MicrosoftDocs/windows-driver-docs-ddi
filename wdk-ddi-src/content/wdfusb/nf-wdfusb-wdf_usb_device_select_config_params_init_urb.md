@@ -4,7 +4,7 @@ title: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function
 author: windows-driver-content
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can specify a configuration by using a URB.
 old-location: wdf\wdf_usb_device_select_config_params_init_urb.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 087888ce-e08a-4f9f-adac-419a638e65bd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552600">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure so that a driver can specify a configuration by using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>. 
 

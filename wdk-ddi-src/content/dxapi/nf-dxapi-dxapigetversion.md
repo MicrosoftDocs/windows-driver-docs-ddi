@@ -4,10 +4,10 @@ title: DxApiGetVersion function
 author: windows-driver-content
 description: Do not use the DxApiGetVersion function; use the DxApi function along with the DD_DXAPI_GETVERSIONNUMBER function identifier instead.The DxApiGetVersion function returns a Direct Sound version number of 4.02.
 old-location: display\dxapigetversion.htm
-old-project: display
+tech.root: display
 ms.assetid: f9d441a5-46b5-4da8-aa7e-f4f45eb733d4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DxApiGetVersion, DxApiGetVersion function [Display Devices], ddfncs_72fbedfa-d63f-462a-a6c4-862c6815f1c1.xml, display.dxapigetversion, dxapi/DxApiGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,7 +33,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	LibDef
+-	DllExport
 api_location:
 -	Dxapi.lib
 -	Dxapi.dll

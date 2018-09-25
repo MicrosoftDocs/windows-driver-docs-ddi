@@ -4,7 +4,7 @@ title: ScsiPortWriteRegisterUchar function
 author: windows-driver-content
 description: The ScsiPortWriteRegisterUchar routine transfers a unsigned byte value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisteruchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 67764b34-3bd3-42ad-a1f8-765b4f11fcf6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

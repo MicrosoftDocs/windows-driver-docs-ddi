@@ -4,7 +4,7 @@ title: RECEIVE_TOKEN_INFORMATION_HEADER
 author: windows-driver-content
 description: The RECEIVE_TOKEN_INFORMATION_HEADER structure contains information returned as status from an offload data transfer operation.
 old-location: storage\receive_token_information_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

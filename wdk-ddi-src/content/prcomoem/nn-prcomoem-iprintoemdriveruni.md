@@ -4,7 +4,7 @@ title: IPrintOemDriverUni
 author: windows-driver-content
 description: This section describes the methods defined for the IPrintOemDriverUni COM interface.
 old-location: print\iprintoemdriveruni_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

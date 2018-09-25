@@ -4,7 +4,7 @@ title: ObDereferenceObjectWithTag macro
 author: windows-driver-content
 description: The ObDereferenceObjectWithTag routine decrements the reference count of the specified object, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obdereferenceobjectwithtag.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 872098c1-d684-4ce5-9f53-2fee8b50b626
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -107,7 +107,7 @@ For more information about object references, see <a href="https://msdn.microsof
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> routine is similar to <b>ObDereferenceObjectWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObDereferenceObject</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObDereferenceObject</b> has the same effect as a call to <b>ObDereferenceObjectWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
 
-To view an object reference trace in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <b>!obtrace</b> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558668">Object Reference Tracing with Tags</a>. 
+To view an object reference trace in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564594">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <b>!obtrace</b> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558668">Object Reference Tracing with Tags</a>. 
 
 
 

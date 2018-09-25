@@ -4,10 +4,10 @@ title: wiauDbgLegacyHresult2 function
 author: windows-driver-content
 description: The wiauDbgLegacyHresult2 function logs a default message containing an HRESULT.
 old-location: image\wiaudbglegacyhresult2.htm
-old-project: image
+tech.root: image
 ms.assetid: 1b73c94b-07a8-4b65-8ed7-d5f1a073c3b2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: image.wiaudbglegacyhresult2, wiauDbgLegacyHresult2, wiauDbgLegacyHresult2 function [Imaging Devices], wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiautil/wiauDbgLegacyHresult2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows XP and later.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

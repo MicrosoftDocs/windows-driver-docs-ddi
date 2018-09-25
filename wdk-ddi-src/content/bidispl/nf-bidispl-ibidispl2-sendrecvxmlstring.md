@@ -4,7 +4,7 @@ title: IBidiSpl2::SendRecvXMLString
 author: windows-driver-content
 description: The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas.
 old-location: print\ibidispl2_ibidispl2__sendrecvxmlstring.htm
-old-project: print
+tech.root: print
 ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

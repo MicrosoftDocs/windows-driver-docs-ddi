@@ -4,7 +4,7 @@ title: PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK
 author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK as the minifilter driver's InstanceQueryTeardownCallback routine.
 old-location: ifsk\pflt_instance_query_teardown_callback.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5aa41472-cb1d-49ba-a546-ec42bb859552
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: SplIsSessionZero function
 author: windows-driver-content
 description: The SplIsSessionZero function determines whether a certain print job (print handle plus job ID) was issued in session zero.
 old-location: print\splissessionzero.htm
-old-project: print
+tech.root: print
 ms.assetid: 9d68a41d-0f2b-4cf0-92c6-8e05ce6b4378
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
@@ -65,7 +65,7 @@ Is a handle to the printer.
 
 ### -param JobId
 
-TBD
+
 
 
 ### -param pIsSessionZero [out]

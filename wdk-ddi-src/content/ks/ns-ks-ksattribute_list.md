@@ -4,7 +4,7 @@ title: KSATTRIBUTE_LIST
 author: windows-driver-content
 description: The KSATTRIBUTE_LIST structure contains an attribute defined in a KSATTRIBUTE structure.
 old-location: stream\ksattribute_list.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4E533E77-9288-45DF-8C93-2A6EACADF9FF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

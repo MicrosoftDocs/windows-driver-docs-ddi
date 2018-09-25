@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_UFS_DATA_TYPE"
 author: windows-driver-content
 description: The UFS (Universal Flash Storage) data type. Describes the type of UFS specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_ufs_data_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A4324FAD-A925-4D65-9697-9CC2878DBE0B
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

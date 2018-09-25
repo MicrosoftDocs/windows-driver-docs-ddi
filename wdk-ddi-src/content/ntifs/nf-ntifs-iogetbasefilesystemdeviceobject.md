@@ -4,7 +4,7 @@ title: IoGetBaseFileSystemDeviceObject function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iogetbasefilesystemdeviceobject.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 12a326d8-8628-496d-96e7-8c680aeb1a03
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>IoGetBaseFileSystemDeviceObject</b> routine is reserved for system use. S
 
 ### -param FileObject
 
-TBD
+<p>Reserved.</p>
 
 
 

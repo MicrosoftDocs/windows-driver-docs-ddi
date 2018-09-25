@@ -4,10 +4,9 @@ title: PFND3D12DDI_CREATE_PIPELINE_STATE_0033
 author: windows-driver-content
 description: Used to create a pipeline state.
 old-location: display\pfnd3d12ddi_create_pipeline_state_0033.htm
-old-project: display
 ms.assetid: F8255544-D5B6-4692-BDC0-EF5A2B856153
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033, display.pfnd3d12ddi_create_pipeline_state_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -64,36 +64,16 @@ A handle to the display device (graphics context).
 
 ### -param *
 
+The arguments used to create a pipeline state.
 
 ### -param Arg2
 
+The handle of the pipeline state.
 
 ### -param Arg3
 
+The handle of the pipeline state for the driver to use when it calls back into the runtime.
 
-
-
-
-
-
-
-#### - d3d12ddi_hdevice
-
-The hardware device being processed.
-
-
-#### - d3d12ddi_hpipelinestate
-
-Used to create a pipeline state.
-
-### -param D3D12DDI_HRTPIPELINESTATE
-
-Used to create a pipeline state.
-
-
-#### - d3d12ddiarg_create_pipeline_state_0033 [in]
-
-The arguments used to create a pipeline state.
 
 
 ## -returns

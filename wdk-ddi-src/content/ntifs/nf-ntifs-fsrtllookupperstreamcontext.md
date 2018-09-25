@@ -4,7 +4,7 @@ title: FsRtlLookupPerStreamContext macro
 author: windows-driver-content
 description: The FsRtlLookupPerStreamContext macro retrieves a per-stream context structure for a file stream.
 old-location: ifsk\fsrtllookupperstreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8f8c47c3-1917-4252-b812-711ef52d22d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,40 +60,23 @@ The <b>FsRtlLookupPerStreamContext</b> macro retrieves a per-stream context stru
 
 ### -param _sc
 
-TBD
+<p>Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/Ff546056(v=VS.85).aspx"><b>FsRtlGetPerStreamContextPointer</b></a> macro. </p>
 
 
 ### -param _oid
 
-TBD
+<p>Pointer to a caller-allocated variable that uniquely identifies the owner of the per-stream context structure. The format of this variable is filter driver − specific. Must be non-<b>NULL</b> if a non-<b>NULL</b> value is supplied for <i>InstanceId</i>. </p>
 
 
 ### -param _iid
 
-TBD
+<p>Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. </p>
+  <p>If <i>OwnerId</i> and <i>InstanceId</i> are both <b>NULL</b>, <b>FsRtlLookupPerStreamContext</b> returns the first per-stream context found. </p>
+  <p>If a non-<b>NULL</b> value is supplied for <i>OwnerId</i> and <i>InstanceId</i> is <b>NULL</b>, <b>FsRtlLookupPerStreamContext</b> returns the first per-stream context found whose <b>OwnerId</b> member matches the <i>OwnerId</i> parameter. </p>
 
 
 
 
-
-
-#### - InstanceId [in, optional]
-
-Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. 
-
-If <i>OwnerId</i> and <i>InstanceId</i> are both <b>NULL</b>, <b>FsRtlLookupPerStreamContext</b> returns the first per-stream context found. 
-
-If a non-<b>NULL</b> value is supplied for <i>OwnerId</i> and <i>InstanceId</i> is <b>NULL</b>, <b>FsRtlLookupPerStreamContext</b> returns the first per-stream context found whose <b>OwnerId</b> member matches the <i>OwnerId</i> parameter. 
-
-
-#### - OwnerId [in, optional]
-
-Pointer to a caller-allocated variable that uniquely identifies the owner of the per-stream context structure. The format of this variable is filter driver − specific. Must be non-<b>NULL</b> if a non-<b>NULL</b> value is supplied for <i>InstanceId</i>. 
-
-
-#### - StreamContext [in]
-
-Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546056">FsRtlGetPerStreamContextPointer</a> macro. 
 
 
 ## -remarks

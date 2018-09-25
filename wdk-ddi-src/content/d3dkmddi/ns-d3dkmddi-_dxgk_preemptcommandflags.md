@@ -4,10 +4,9 @@ title: "_DXGK_PREEMPTCOMMANDFLAGS"
 author: windows-driver-content
 description: The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a structure with a reserved member or a 32-bit value. No bit-field flags are currently defined.
 old-location: display\dxgk_preemptcommandflags.htm
-old-project: display
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, _DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: DXGK_PREEMPTCOMMANDFLAGS
 ---
 

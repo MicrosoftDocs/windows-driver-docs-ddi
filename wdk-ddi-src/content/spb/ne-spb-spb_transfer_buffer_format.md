@@ -4,7 +4,7 @@ title: SPB_TRANSFER_BUFFER_FORMAT
 author: windows-driver-content
 description: The SPB_TRANSFER_BUFFER_FORMAT enumeration specifies the format of the buffer that is described by an SPB_TRANSFER_BUFFER structure.
 old-location: spb\spb_transfer_buffer_format.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

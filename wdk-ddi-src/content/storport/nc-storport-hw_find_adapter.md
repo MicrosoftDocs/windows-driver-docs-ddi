@@ -4,7 +4,7 @@ title: HW_FIND_ADAPTER
 author: windows-driver-content
 description: The HwStorFindAdapter routine uses the supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter.
 old-location: storage\hwstorfindadapter.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8642d0b8-ebc8-4053-b35e-3a81108a2f7f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

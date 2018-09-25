@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PDXGK_FSTATE_NOTIFICATION
 title: PDXGK_FSTATE_NOTIFICATION
 author: windows-driver-content
-description:
+description: Implemented by the client driver to issue a state notification.
 ms.assetid: a6d6baab-576b-407d-bfb3-91b0e8f6453d
 ms.author: windowsdriverdev
 ms.date:
@@ -34,8 +34,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	PDXGK_FSTATE_NOTIFICATION
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PDXGK_FSTATE_NOTIFICATION callback function

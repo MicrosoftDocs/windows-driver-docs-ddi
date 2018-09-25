@@ -4,7 +4,7 @@ title: IoDisconnectInterrupt function
 author: windows-driver-content
 description: The IoDisconnectInterrupt routine releases a device driver's set of interrupt object(s) when the device is paused or removed, or when the driver is being unloaded.
 old-location: kernel\iodisconnectinterrupt.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06130ec3-7031-4c40-932a-7342c26b7e15
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IPrinterExtensionEvent::OnDriverEvent
 author: windows-driver-content
 description: Called when a driver event occurs.
 old-location: print\iprinterextensionevent_ondriverevent.htm
-old-project: print
+tech.root: print
 ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

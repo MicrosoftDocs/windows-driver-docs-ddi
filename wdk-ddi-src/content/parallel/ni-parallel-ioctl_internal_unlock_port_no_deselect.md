@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT request frees a parallel device's parent parallel port.
 old-location: parports\ioctl_internal_unlock_port_no_deselect.htm
-old-project: parports
+tech.root: parports
 ms.assetid: 516441bc-d240-43d2-a206-3d0bd8e712e9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
@@ -15,20 +15,20 @@ ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 # IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT IOCTL
 
 
-##  Major Code: 
+##  Major Code:
 
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -55,7 +55,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ## -description
 
 
-The <b>IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT</b> request frees a parallel device's parent parallel port. The request does not deselect the parallel device on the parallel port. 
+The <b>IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT</b> request frees a parallel device's parent parallel port. The request does not deselect the parallel device on the parallel port.
 
 This request is only supported in Windows XP and later.
 
@@ -107,7 +107,7 @@ None.
 
 ### -status-block
 
-The <b>Information</b> member is set to zero. 
+The <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the generic status values returned by internal device control requests for parallel devices.
 

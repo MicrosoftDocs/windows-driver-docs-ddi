@@ -4,7 +4,7 @@ title: "_STORAGE_PROPERTY_QUERY"
 author: windows-driver-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_property_query.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5f8e4fbd-706c-4694-bcba-927474a66e86
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

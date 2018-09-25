@@ -4,7 +4,7 @@ title: LAMP_MODE
 author: windows-driver-content
 description: This enumeration contains the operating modes of a lamp device.
 old-location: stream\lamp_mode.htm
-old-project: stream
+tech.root: stream
 ms.assetid: B379B6EF-C3AD-4E6F-B32D-F85228DB6A72
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

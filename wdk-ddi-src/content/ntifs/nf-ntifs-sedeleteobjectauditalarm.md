@@ -4,7 +4,7 @@ title: SeDeleteObjectAuditAlarm function
 author: windows-driver-content
 description: The SeDeleteObjectAuditAlarm routine generates audit and alarm messages for an object that is marked for deletion.
 old-location: ifsk\sedeleteobjectauditalarm.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3d0a26e2-60d4-437e-b5cc-3ca7afee8f5a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

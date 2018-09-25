@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_SERIALNUMBER_STRING
 author: windows-driver-content
 description: The IOCTL_HID_GET_SERIALNUMBER_STRING request obtains a top-level collection's embedded string that identifies the device's serial number.
 old-location: hid\ioctl_hid_get_serialnumber_string.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 81adb295-a4b3-46de-8b46-15fe89c5f7a5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

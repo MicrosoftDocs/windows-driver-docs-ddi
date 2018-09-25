@@ -4,10 +4,9 @@ title: D3DKMTSignalSynchronizationObjectFromGpu function
 author: windows-driver-content
 description: D3DKMTSignalSynchronizationObjectFromGpu is used to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu.htm
-old-project: display
 ms.assetid: 5343A7F6-7EFC-4BAE-8D21-CA8FB9B6078A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu, D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu, display.d3dkmtsignalsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topic_type:
 -	APIRef
@@ -35,7 +34,6 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
@@ -44,6 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 
@@ -63,7 +62,7 @@ req.typenames:
 
 ### -param D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 
-TBD
+
 
 
 

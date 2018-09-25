@@ -4,10 +4,10 @@ title: VideoPortGetAccessRanges function
 author: windows-driver-content
 description: The VideoPortGetAccessRanges function retrieves bus-relative configuration information and, if possible, claims these hardware resources in the registry for the caller.
 old-location: display\videoportgetaccessranges.htm
-old-project: display
+tech.root: display
 ms.assetid: 7a858b32-408e-4926-9aba-44046b0266e2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortGetAccessRanges, VideoPortGetAccessRanges function [Display Devices], VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml, display.videoportgetaccessranges, video/VideoPortGetAccessRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Specifies the number of elements in the <i>RequestedResources</i> array.
 
 ### -param OPTIONAL
 
-TBD
+<p>An array of IO_RESOURCE_DESCRIPTOR-type elements. Each descriptor specifies a single hardware resource that the miniport driver needs, prefers, or can use as an alternative to that specified in another array element. For detailed information about this structure, see the description of <a href="https://msdn.microsoft.com/library/Ff548285(v=VS.85).aspx"><b>IoAssignResources</b></a>.</p>
 
 
 ### -param NumAccessRanges
@@ -98,11 +98,6 @@ Should be set to <b>NULL</b>.
 Pointer to a memory location in which the video port driver stores the slot number for the device, or is <b>NULL</b>. 
 
 For Plug and Play devices, if this is a valid pointer, the video port driver stores the slot number at the memory location specified by the pointer. If a <b>NULL</b> value is passed in the call, the video port driver does not store a value in the location.
-
-
-#### - RequestedResources [in, optional]
-
-An array of IO_RESOURCE_DESCRIPTOR-type elements. Each descriptor specifies a single hardware resource that the miniport driver needs, prefers, or can use as an alternative to that specified in another array element. For detailed information about this structure, see the description of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>.
 
 
 ## -returns

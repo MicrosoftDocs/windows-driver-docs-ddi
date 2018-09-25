@@ -4,7 +4,7 @@ title: IPnpCallback
 author: windows-driver-content
 description: The IPnpCallback interface is a Plug and Play (PnP) and power management (PM) interface.
 old-location: wdf\ipnpcallback.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b6ab28e1-08d5-49ee-931a-8e2fe68bd75e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

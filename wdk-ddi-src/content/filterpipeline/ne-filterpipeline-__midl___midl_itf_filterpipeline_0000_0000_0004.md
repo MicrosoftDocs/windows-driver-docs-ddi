@@ -2,9 +2,9 @@
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0004
 title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0004"
 author: windows-driver-content
-description: "."
+description: 
 old-location: print\expsfontrestriction.htm
-old-project: print
+tech.root: print
 ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

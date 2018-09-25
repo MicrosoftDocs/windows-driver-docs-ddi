@@ -4,10 +4,10 @@ title: IDebugClient5::GetDumpFile
 author: windows-driver-content
 description: The GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfile.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 06317b65-4853-40da-9131-9983918b7157
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetDumpFile, GetDumpFile method [Windows Debugging], GetDumpFile method [Windows Debugging],IDebugClient4 interface, GetDumpFile method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFile method, IDebugClient4::GetDumpFile, IDebugClient5 interface [Windows Debugging],GetDumpFile method, IDebugClient5.GetDumpFile, IDebugClient5::GetDumpFile, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, dbgeng/IDebugClient4::GetDumpFile, dbgeng/IDebugClient5::GetDumpFile, debugger.getdumpfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

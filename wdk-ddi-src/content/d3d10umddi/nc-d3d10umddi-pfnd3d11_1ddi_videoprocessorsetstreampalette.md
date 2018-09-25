@@ -4,10 +4,9 @@ title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE
 author: windows-driver-content
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampalette.htm
-old-project: display
 ms.assetid: a655baef-4f99-45a1-ac78-5f54d2f4f1ab
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE callback, d3d10umddi/pfnVideoProcessorSetStreamPalette, display.videoprocessorsetstreampalette, pfnVideoProcessorSetStreamPalette, pfnVideoProcessorSetStreamPalette callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: 
 ---
 

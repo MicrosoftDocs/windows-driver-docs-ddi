@@ -4,7 +4,7 @@ title: "_GetFcpTargetMapping_IN"
 author: windows-driver-content
 description: The GetFcpTargetMapping_IN structure is used to report the output parameter data of the GetFcpTargetMapping WMI method to the WMI client.
 old-location: storage\getfcptargetmapping_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a07a97ea-17f0-4e24-89c5-1b24600ac497
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

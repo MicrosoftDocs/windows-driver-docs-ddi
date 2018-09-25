@@ -4,7 +4,7 @@ title: KsGetFirstChild function
 author: windows-driver-content
 description: The KsGetFirstChild function returns the first AVStream child object of Object.
 old-location: stream\ksgetfirstchild.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f7ff16ac-fe20-4998-a8b3-d1d02c418938
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: FltSupportsStreamContexts function
 author: windows-driver-content
 description: FltSupportsStreamContexts determines whether stream contexts are supported on a given file object.
 old-location: ifsk\fltsupportsstreamcontexts.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: ea1fd4d5-85c6-40ce-9feb-a2c22e9fe905
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY
 author: windows-driver-content
 description: A driver's EvtChildListAddressDescriptionCopy event callback function copies a child address description from one specified location to another.
 old-location: wdf\evtchildlistaddressdescriptioncopy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b73ec39c-8d93-4992-8791-5070a088701a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtChildListAddressDescriptionCopy</i> event callback function copies a child address description from one specified location to another.
 

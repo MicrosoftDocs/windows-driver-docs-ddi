@@ -4,7 +4,7 @@ title: "_BTHDDI_SDP_PARSE_INTERFACE"
 author: windows-driver-content
 description: The BTHDDI_SDP_PARSE_INTERFACE structure provides functions for parsing SDP records.
 old-location: bltooth\bthddi_sdp_parse_interface.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: bb8a1dd5-8207-4034-993e-eed49dc0f9c4
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

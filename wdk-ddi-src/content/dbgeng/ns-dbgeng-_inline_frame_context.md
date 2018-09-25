@@ -4,10 +4,10 @@ title: "_INLINE_FRAME_CONTEXT"
 author: windows-driver-content
 description: Describes inline frame context.
 old-location: debugger\inline_frame_context.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 6EB52227-8685-4096-882F-64550A84DE4F
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], _INLINE_FRAME_CONTEXT, dbgeng/INLINE_FRAME_CONTEXT, debugger.inline_frame_context
 ms.prod: windows-hardware
 ms.technology: windows-devices

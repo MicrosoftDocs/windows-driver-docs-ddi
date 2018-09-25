@@ -4,7 +4,7 @@ title: "_WdfUsbTargetDeviceSelectSettingType"
 author: windows-driver-content
 description: The WdfUsbTargetDeviceSelectSettingType enumeration defines techniques for specifying an alternate setting for a USB interface.
 old-location: wdf\wdfusbtargetdeviceselectsettingtype.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WdfUsbTargetDeviceSelectSettingType
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration defines techniques for specifying an alternate setting for a USB interface.
 

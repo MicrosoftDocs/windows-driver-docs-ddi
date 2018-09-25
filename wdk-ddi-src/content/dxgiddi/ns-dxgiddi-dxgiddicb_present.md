@@ -4,10 +4,10 @@ title: DXGIDDICB_PRESENT
 author: windows-driver-content
 description: The DXGIDDICB_PRESENT structure describes allocations that content is copied to and from.
 old-location: display\dxgiddicb_present.htm
-old-project: display
+tech.root: display
 ms.assetid: 1d766004-c6bb-40c6-ad5d-d2bea53649d3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGIDDICB_PRESENT, DXGIDDICB_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_932d6171-c487-44f6-834e-5d57b3e14515.xml, display.dxgiddicb_present, dxgiddi/DXGIDDICB_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,37 +95,37 @@ The original context that the <b>hContext</b> member specifies and that the user
 ### -field BroadcastSrcAllocation
 
  
-
+Allocations which content will be presented.
 
 ### -field BroadcastDstAllocation
 
- 
+If non-zero, represents the destination allocations of the present.
 
 
 ### -field PrivateDriverDataSize
 
  
-
+Private driver data size in bytes.
 
 ### -field pPrivateDriverData
 
  
-
+Private driver data to pass to DxgiPresent.
 
 ### -field bOptimizeForComposition
 
  
-
+DWM is involved in composition.
 
 ### -field SyncIntervalOverrideValid
 
- 
+Override app sync interval is valid. 
 
 
 ### -field SyncIntervalOverride
 
  
-
+Override app sync interval.
 
 
 

@@ -4,7 +4,7 @@ title: PsGetProcessCreateTimeQuadPart function
 author: windows-driver-content
 description: The PsGetProcessCreateTimeQuadPart routine returns a LONGLONG value that represents the time at which the process was created.
 old-location: kernel\psgetprocesscreatetimequadpart.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -60,7 +60,7 @@ The <b>PsGetProcessCreateTimeQuadPart</b> routine returns a LONGLONG value that 
 
 ### -param Process [in]
 
-A pointer to the EPROCESS structure that represents the process. Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> routines to obtain a pointer to the EPROCESS structure for a process. 
+A pointer to the EPROCESS structure that represents the process. Drivers can use the [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> routines to obtain a pointer to the EPROCESS structure for a process. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ A pointer to the EPROCESS structure that represents the process. Drivers can use
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
  
 
  

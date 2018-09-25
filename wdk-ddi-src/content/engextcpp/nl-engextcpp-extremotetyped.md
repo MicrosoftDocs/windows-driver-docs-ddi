@@ -4,10 +4,10 @@ title: ExtRemoteTyped
 author: windows-driver-content
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 08/09/2018
 ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging],described, debugger.extremotetyped, engextcpp/ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,12 +68,7 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 
 
 </dd>
-<dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544349">operator=</a>
-
-
-</dd>
 <dd>
 
 <a href="https://msdn.microsoft.com/bfeafa09-49b7-45b3-84d8-afad5f43b78e">Copy(Debug Typed Data)</a>

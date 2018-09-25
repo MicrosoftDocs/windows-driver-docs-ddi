@@ -4,10 +4,10 @@ title: ReadPtr function
 author: windows-driver-content
 description: The ReadPtr function reads a pointer from the target. ReadPointer should be used instead of this function as the return value of ReadPointer is more consistent with the rest of the WdbgExts API.
 old-location: debugger\readptr.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, debugger.readptr, wdbgexts/ReadPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

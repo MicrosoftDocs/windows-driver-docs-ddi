@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_NUMBER"
 author: windows-driver-content
 description: The STORAGE_DEVICE_NUMBER structure is used in conjunction with the IOCTL_STORAGE_GET_DEVICE_NUMBER request to retrieve the FILE_DEVICE_XXX device type, the device number, and, for a device that can be partitioned, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\storage_device_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3efed879-bde4-44ea-9af5-fc35a2ac27fc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

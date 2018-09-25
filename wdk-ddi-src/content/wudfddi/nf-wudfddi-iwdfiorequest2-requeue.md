@@ -4,7 +4,7 @@ title: IWDFIoRequest2::Requeue
 author: windows-driver-content
 description: The Requeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 old-location: wdf\iwdfiorequest2_requeue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

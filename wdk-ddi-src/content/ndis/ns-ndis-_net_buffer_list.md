@@ -4,10 +4,10 @@ title: "_NET_BUFFER_LIST"
 author: windows-driver-content
 description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER structures.
 old-location: netvista\net_buffer_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNET_BUFFER_LIST, NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, netvista.net_buffer_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,24 +61,24 @@ The NET_BUFFER_LIST structure specifies a linked list of
 
 ### -field Next
 
- 
+The next **NET_BUFFER_LIST** structure in the chain. 
+
+Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_NEXT_NBL**](nf-ndis-net_buffer_list_next_nbl.md) macro.
 
 
 ### -field FirstNetBuffer
 
- 
+The first [**NET_BUFFER**](ns-ndis-_net_buffer.md) on this **NET_BUFFER_LIST**.
 
+Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_FIRST_NB**](nf-ndis-net_buffer_list_first_nb.md) macro.
 
 ### -field Link
 
- 
-
+Reserved for NDIS.
 
 ### -field NetBufferListHeader
 
-A 
-     <a href="https://msdn.microsoft.com/49169618-c42d-4bae-b1df-1426059d60d7">
-     NET_BUFFER_LIST_HEADER</a> structure.
+A <a href="https://msdn.microsoft.com/49169618-c42d-4bae-b1df-1426059d60d7">NET_BUFFER_LIST_HEADER</a> structure.
 
 
 ### -field Context
@@ -154,11 +154,6 @@ Data that is defined by the current owner of the NET_BUFFER_LIST structure. The 
 
 A handle that NDIS provided to the driver in a binding or attaching operation by using one of the
      following driver-supplied routines:
-     
-
-
-
-
 
 #### Miniport Driver
 
@@ -201,10 +196,7 @@ Use the
 
 Intermediate drivers and filter drivers can set the following flags if they do not modify data that
      is associated with a NET_BUFFER_LIST. For example, if the data did not change, NDIS might reuse the
-     original information from which the NET_BUFFER_LIST was created.:
-
-
-
+     original information from which the NET_BUFFER_LIST was created.
 
 
 #### NDIS_NBL_FLAGS_SEND_READ_ONLY
@@ -218,9 +210,6 @@ If set, the NET_BUFFER_LIST structure and its data are read-only for send operat
 If set, the NET_BUFFER_LIST structure and its data are read-only for receive operations.
 
 A driver can set the following flags even if it does not split the associated Ethernet frame:
-
-
-
 
 
 #### NDIS_NBL_FLAGS_IS_IPV4
@@ -262,15 +251,10 @@ If the header-data split provider does not split the associated Ethernet frame, 
      must indicate the NET_BUFFER_LIST structure with the following flags cleared:
 
 
-
-
-
 #### NDIS_NBL_FLAGS_HD_SPLIT
 
 The header and data are split in all of the Ethernet frames that are associated with this
        NET_BUFFER_LIST structure.
-
-
 
 #### NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_HEADER
 
@@ -279,8 +263,6 @@ All of the Ethernet frames in this NET_BUFFER_LIST are split at the beginning of
        NDIS_NBL_FLAGS_IS_IPV4 flag or the NDIS_NBL_FLAGS_IS_IPV6 flag. Also, the provider can set the
        NDIS_NBL_FLAGS_IS_TCP flag or the NDIS_NBL_FLAGS_IS_UDP flag, but the provider must not set the
        NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_PAYLOAD flag.
-
-
 
 #### NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_PAYLOAD
 
@@ -301,9 +283,6 @@ If this NET_BUFFER_LIST structure has clones (is a parent), this member specifie
 
 Attributes of the NET_BUFFER_LIST structure. The following definitions specify a bit mask for a set
       of flags:
-
-
-
 
 
 #### NBL_FLAGS_PROTOCOL_RESERVED
@@ -339,11 +318,6 @@ The final completion status of a network data operation on this NET_BUFFER_LIST 
      Miniport drivers write this value before calling the 
      <a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
      NdisMSendNetBufferListsComplete</a> function. Miniport drivers specify one of the following values:
-     
-
-
-
-
 
 #### NDIS_STATUS_SUCCESS
 
@@ -394,8 +368,7 @@ If a driver must reject send requests because it is paused, it sets the complete
 
 ### -field NdisReserved2
 
- 
-
+Reserved for NDIS.
 
 ### -field NetBufferListInfo
 

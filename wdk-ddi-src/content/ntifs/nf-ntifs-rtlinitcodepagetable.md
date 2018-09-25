@@ -4,7 +4,7 @@ title: RtlInitCodePageTable function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlinitcodepagetable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 247d2694-f43f-4c30-9831-7110a1f29935
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -60,7 +60,7 @@ The <b>RtlInitCodePageTable</b> routine is reserved for system use.
 
 ### -param TableBase
 
-TBD
+<p>Reserved.</p>
 
 
 ### -param CodePageTable

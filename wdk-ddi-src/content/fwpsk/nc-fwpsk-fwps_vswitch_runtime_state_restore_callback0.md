@@ -4,10 +4,10 @@ title: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0
 author: windows-driver-content
 description: The filter engine calls the vSwitchRuntimeStateRestoreNotifyFn (FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0) callout function to notify a callout driver about virtual switch run-time state restore events.Note  FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 is a specific version of FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_runtime_state_restore_callback0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: E684429C-1BDC-4821-89DF-08FF20D25315
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 callback, fwpsk/vSwitchRuntimeStateRestoreNotifyFn, netvista.fwps_vswitch_runtime_state_restore_callback0, vSwitchRuntimeStateRestoreNotifyFn, vSwitchRuntimeStateRestoreNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices

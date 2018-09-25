@@ -4,7 +4,7 @@ title: IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
 author: windows-driver-content
 description: The IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request sets the number of buffers for the input report queue of a top-level collection.
 old-location: hid\ioctl_set_num_device_input_buffers.htm
-old-project: hid
+tech.root: hid
 ms.assetid: a44f9d57-473c-45ed-94e3-db339c6d2296
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

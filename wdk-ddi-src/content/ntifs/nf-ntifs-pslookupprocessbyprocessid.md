@@ -4,7 +4,7 @@ title: PsLookupProcessByProcessId function
 author: windows-driver-content
 description: The PsLookupProcessByProcessId routine accepts the process ID of a process and returns a referenced pointer to EPROCESS structure of the process.
 old-location: ifsk\pslookupprocessbyprocessid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f9c4bcab-5584-4b26-b4ff-6067d7ef1890
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -137,7 +137,7 @@ The <b>PsLookupProcessByProcessId</b> routine contains pageable code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
 
 
 

@@ -4,7 +4,7 @@ title: IPrintSchemaParameterDefinition::get_RangeMin
 author: windows-driver-content
 description: The RangeMin property gets the minimum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemin.htm
-old-project: print
+tech.root: print
 ms.assetid: ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

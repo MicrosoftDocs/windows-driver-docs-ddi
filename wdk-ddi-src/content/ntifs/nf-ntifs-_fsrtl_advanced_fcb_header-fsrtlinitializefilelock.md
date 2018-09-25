@@ -4,7 +4,7 @@ title: FsRtlInitializeFileLock function
 author: windows-driver-content
 description: The FsRtlInitializeFileLock routine initializes a FILE_LOCK structure.
 old-location: ifsk\fsrtlinitializefilelock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0a476cd8-b0e6-4faa-bb97-3647a88ecded
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlInitializeFileLock
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

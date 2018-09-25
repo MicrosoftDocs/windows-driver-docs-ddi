@@ -2,7 +2,7 @@
 UID: NF:wdfdevice.WdfDeviceRetrieveDeviceDirectoryString
 title: WdfDeviceRetrieveDeviceDirectoryString function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 94f803e2-0972-4248-8b55-c02fd096a1e2
 ms.author: windowsdriverdev
 ms.date: 
@@ -33,7 +33,8 @@ apilocation:
 -	NtosKrnl.exe
 apiname: 
 -	WdfDeviceRetrieveDeviceDirectoryString
-product: Windows
+product:
+-	Windows
 targetos: Windows
 
 ---

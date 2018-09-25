@@ -35,9 +35,11 @@ apilocation:
 -	netringbuffer.h
 apiname: 
 -	NetRingBufferGetNumberOfElementsInRange
-product: Windows
+product:
+-	Windows
 targetos: Windows
-req.product: Windows 10 or later.
+product:
+- Windows
 ---
 
 # NetRingBufferGetNumberOfElementsInRange function
@@ -48,7 +50,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 Calculates the number of elements contained in a range of the specified net ring buffer.
 

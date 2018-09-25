@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e0015d19-19cc-4ffc-90cd-e4b690847cbb
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::Reset, Reset, IKeyEnumerator.Reset, IKeyEnumerator::Reset, IKeyEnumerator.Reset
 req.header: dbgmodel.h
@@ -44,13 +44,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+Resets the enumerator to its initial state.  A subsequent GetNext call will return the first key in enumerator order.
 
 ## -parameters
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
+
+[IKeyEnumerator interface](nn-dbgmodel-ikeyenumerator.md)

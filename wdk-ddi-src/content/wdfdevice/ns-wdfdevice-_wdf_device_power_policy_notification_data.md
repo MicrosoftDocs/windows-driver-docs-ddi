@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure describes a state change within a device's power policy state machine.
 old-location: wdf\wdf_device_power_policy_notification_data.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aa91ea9b-3d92-4f33-8bbd-dd64a76a0a86
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -50,7 +50,7 @@ req.typenames: WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF only]
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</b> structure describes a state change within a device's power policy state machine.
 

@@ -4,7 +4,7 @@ title: "*PPCNODE_DESCRIPTOR"
 author: windows-driver-content
 description: The PCNODE_DESCRIPTOR structure describes a node in the filter that a topology miniport driver implements.
 old-location: audio\pcnode_descriptor.htm
-old-project: audio
+tech.root: audio
 ms.assetid: e83051ca-07fa-439d-8b0f-cbe6d84679a7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
@@ -73,22 +73,22 @@ typedef struct {
 
 ### -field portcls.Flags
 
- 
+
 
 
 ### -field portcls.AutomationTable
 
- 
+
 
 
 ### -field portcls.Type
 
- 
+
 
 
 ### -field portcls.Name
 
- 
+
 
 
 

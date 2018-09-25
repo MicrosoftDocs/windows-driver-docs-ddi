@@ -4,7 +4,7 @@ title: tagTRANSPORTVIDEOPARMS
 author: windows-driver-content
 description: The TRANSPORTVIDEOPARMS structure is defined but not presently used. It may be used in the future.
 old-location: stream\transportvideoparms.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 14bc6133-78f1-4f25-8638-9348245180fa
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: HBA_GetFC4Statistics function
 author: windows-driver-content
 description: The HBA_GetFC4Statistics routine retrieves traffic statistics that a specific FC-4 protocol has collected for the indicated port and local adapter.
 old-location: storage\hba_getfc4statistics.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -60,12 +60,12 @@ The <b>HBA_GetFC4Statistics</b> routine retrieves traffic statistics that a spec
 
 ### -param Handle
 
-TBD
+<p>Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/Ff557097(v=VS.85).aspx"><b>HBA_OpenAdapter</b></a> that identifies the HBA on which the port is located. </p>
 
 
 ### -param PortWWN
 
-TBD
+<p>Contains a 64-bit world-wide name (WWN) that uniquely identifies the local HBA port for which this routine retrieves traffic statistics for a specific FC-4 protocol. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.</p>
 
 
 ### -param FC4type [in]
@@ -75,24 +75,9 @@ Contains a value that indicates the type FC-4 protocol. For an explanation of FC
 
 ### -param Statistics
 
-TBD
+<p>Pointer to a structure of type <a href="https://msdn.microsoft.com/library/Ff556051(v=VS.85).aspx"><b>HBA_FC4Statistics</b></a> that contains statistics for the specified port and FC-4 protocol. </p>
 
 
-
-
-#### - handle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
-
-
-#### - portWWN [in]
-
-Contains a 64-bit world-wide name (WWN) that uniquely identifies the local HBA port for which this routine retrieves traffic statistics for a specific FC-4 protocol. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
-
-
-#### - statistics [out]
-
-Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556051">HBA_FC4Statistics</a> that contains statistics for the specified port and FC-4 protocol. 
 
 
 ## -returns

@@ -4,7 +4,7 @@ title: RtlAppendUnicodeStringToString function
 author: windows-driver-content
 description: The RtlAppendUnicodeStringToString routine concatenates two Unicode strings.
 old-location: kernel\rtlappendunicodestringtostring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018
@@ -111,9 +111,9 @@ The destination string length is too small to allow the source string to be conc
 
 
 
-<b>RtlAppendUnicodeStringToString</b> copies bytes from the source up to the length of the destination buffer.
+<b>RtlAppendUnicodeStringToString</b> copies bytes from the source to the specified destination string, after the current contents of the destination string and the destination length is incremented by the number of bytes copied.
 
-The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL. 
+The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL.
 
 
 

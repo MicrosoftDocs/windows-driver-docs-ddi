@@ -4,7 +4,7 @@ title: "_LineDisplaySizeInPixelsType"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysizeinpixelstype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

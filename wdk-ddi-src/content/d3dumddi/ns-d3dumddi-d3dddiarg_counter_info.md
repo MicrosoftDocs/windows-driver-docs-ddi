@@ -4,10 +4,10 @@ title: D3DDDIARG_COUNTER_INFO
 author: windows-driver-content
 description: Describes info to manipulate counters.
 old-location: display\d3dddiarg_counter_info.htm
-old-project: display
+tech.root: display
 ms.assetid: FB2B8FBF-908D-4668-8C5B-263903BA1EF5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_COUNTER_INFO, D3DDDIARG_COUNTER_INFO structure [Display Devices], d3dumddi/D3DDDIARG_COUNTER_INFO, display.d3dddiarg_counter_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

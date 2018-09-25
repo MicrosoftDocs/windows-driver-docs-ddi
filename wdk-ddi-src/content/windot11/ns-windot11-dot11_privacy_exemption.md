@@ -4,7 +4,7 @@ title: DOT11_PRIVACY_EXEMPTION
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_privacy_exemption.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,7 +80,7 @@ The value of the IEEE EtherType in big-endian byte order.
 ### -field usExemptionActionType
 
 The type of exemption for the specified EtherType. The following exemption types are defined:
-     
+
 
 
 
@@ -104,7 +104,7 @@ The 802.11 station must discard the received packet if a key-mapping key for the
 
 The type of packet that the exemption for the specified EtherType applies to. The following packet
      types are defined:
-     
+
 
 
 
@@ -131,10 +131,10 @@ Exempt all packet types.
 
 
 
-The 802.11 station's packet exemption list if configured through a set request of 
+The 802.11 station's packet exemption list if configured through a set request of
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
     OID_DOT11_PRIVACY_EXEMPTION_LIST</a>. For each packet the 802.11 station receives, it will apply the
-    decryption exemption specified by the list entry with a 
+    decryption exemption specified by the list entry with a
     <b>usEtherType</b> value that matches the EtherType of the packet.
 
 

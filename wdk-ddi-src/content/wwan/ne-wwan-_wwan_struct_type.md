@@ -4,10 +4,10 @@ title: "_WWAN_STRUCT_TYPE"
 author: windows-driver-content
 description: The WWAN_STRUCT_TYPE enumeration lists the different types of the list elements that follow the WWAN_LIST_HEADER object in memory.
 old-location: netvista\wwan_struct_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 43729964-9338-45ab-ad59-406176c1ae9f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WwanStructContext, WwanStructDeviceCellularClass, WwanStructDeviceServiceCommandId, WwanStructDeviceServiceEntry, WwanStructDeviceServiceGuid, WwanStructMax, WwanStructProvider, WwanStructProvider2, WwanStructReserved0, WwanStructReserved1, WwanStructReserved2, WwanStructReserved3, WwanStructSmsCdma, WwanStructSmsPdu, WwanStructTN, _WWAN_STRUCT_TYPE, netvista.wwan_struct_type, wwan/PWWAN_STRUCT_TYPE, wwan/WWAN_STRUCT_TYPE, wwan/WwanStructContext, wwan/WwanStructDeviceCellularClass, wwan/WwanStructDeviceServiceCommandId, wwan/WwanStructDeviceServiceEntry, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructMax, wwan/WwanStructProvider, wwan/WwanStructProvider2, wwan/WwanStructReserved0, wwan/WwanStructReserved1, wwan/WwanStructReserved2, wwan/WwanStructReserved3, wwan/WwanStructSmsCdma, wwan/WwanStructSmsPdu, wwan/WwanStructTN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -193,16 +193,16 @@ The elements are of type **WWAN_UICC_TERMINAL_CAPABILITY_TLV**. For more info ab
 
 ### -field WwanStructSarConfig
 
-The elements are of type **WWAN_SAR_CONFIG_INFO**. For more info about MB SAR operations, see [MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support#mbimcidmssarconfig).
+The elements are of type [**WWAN_SAR_CONFIG_INDICES**](ns-wwan-_wwan_sar_config_indices.md). For more info about MB SAR operations, see [MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support#mbimcidmssarconfig).
 
 ### -field WwanStructContextV2
 
-The elements are of type **WWAN_CONTEXT_V2**.
+The elements are of type [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md).
 
 
 ### -field WwanStructNetworkBlacklistProvider
 
-The elements are of type **WWAN_NETWORK_BLACKLIST_PROVIDER**. For more info about network blacklist providers, see [MB Network Blacklist Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-network-blacklist-operations).
+The elements are of type [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_wwan_network_blacklist_provider.md). For more info about network blacklist providers, see [MB Network Blacklist Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-network-blacklist-operations).
 
 
 ### -field WwanStructMax

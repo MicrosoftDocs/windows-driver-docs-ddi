@@ -4,7 +4,7 @@ title: SerCxProgressTransmit function
 author: windows-driver-content
 description: The SerCxProgressTransmit method reports the progress of the current write (transmit) operation.
 old-location: serports\sercxprogresstransmit.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

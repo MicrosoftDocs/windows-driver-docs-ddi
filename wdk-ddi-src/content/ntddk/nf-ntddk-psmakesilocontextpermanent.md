@@ -4,7 +4,7 @@ title: PsMakeSiloContextPermanent function
 author: windows-driver-content
 description: This routine makes the slot in a silo instance read-only, allowing the object in the slot to be retrieved without affecting the reference count on that object.
 old-location: kernel\psmakesilocontextpermanent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 74BE4FF9-0342-4942-A58F-9C6D5F76E5F0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

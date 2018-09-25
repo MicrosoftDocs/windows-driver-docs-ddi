@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_SET_READ_AHEAD
 author: windows-driver-content
 description: Causes the device to skip to the given target address when the device reaches a certain trigger address during read-ahead caching.
 old-location: storage\ioctl_storage_set_read_ahead.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a7ed65f3-40a9-4b08-b59d-7c65c250d5cb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

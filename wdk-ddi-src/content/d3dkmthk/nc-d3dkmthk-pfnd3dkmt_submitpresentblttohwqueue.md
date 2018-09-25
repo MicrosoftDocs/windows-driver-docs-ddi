@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE
 title: PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE
 author: windows-driver-content
-description:
+description: Implemented by the client driver to submit a present Blt to hardware queue.
 ms.assetid: 779315a3-96ce-493a-82b3-63c8b9d289c3
 ms.author: windowsdriverdev
 ms.date:
@@ -26,16 +26,18 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
+topic_type:
 -	apiref
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE
-product: Windows
+product: 
+- Windows
 targetos: Windows
+tech.root: display
 ---
 
 # PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE callback function

@@ -4,7 +4,7 @@ title: FsRtlDissectDbcs function
 author: windows-driver-content
 description: Given an ANSI or double-byte character set (DBCS) pathname string, the FsRtlDissectDbcs routine returns two strings:\_one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectdbcs.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlDissectDbcs
-product: Windows
+product:
+-	Windows
 targetos: Windows
 req.typenames: 
 ---

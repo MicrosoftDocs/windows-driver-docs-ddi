@@ -4,7 +4,7 @@ title: "_FILE_MEMORY_PARTITION_INFORMATION"
 author: windows-driver-content
 description: Stores information about memory partition. This structure is used by the ZwSetInformationFile function.
 old-location: ifsk\_file_memory_partition_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IPrintSchemaParameterInitializer::get_Value
 author: windows-driver-content
 description: The Value (get_Value) property gets the current value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_getvalue.htm
-old-project: print
+tech.root: print
 ms.assetid: CDBAB58C-F051-4047-A538-5504F0E28EC7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

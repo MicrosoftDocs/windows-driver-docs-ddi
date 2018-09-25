@@ -4,10 +4,9 @@ title: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
 author: windows-driver-content
 description: Video crypto session transform support data.
 old-location: display\d3d12ddi-video-crypto-session-transform-support-data-0030.htm
-old-project: display
 ms.assetid: fb83a03e-56d9-4daf-93c1-407744ad134a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-transform-support-data-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +40,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+tech.root: display
 req.typenames: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
 ---
 

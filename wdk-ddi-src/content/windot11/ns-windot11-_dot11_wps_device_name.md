@@ -4,7 +4,7 @@ title: "_DOT11_WPS_DEVICE_NAME"
 author: windows-driver-content
 description: The DOT11_WPS_DEVICE_NAME structure contains a friendly name of the P2P device.
 old-location: netvista\dot11_wps_device_name.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6C2B8E87-A88F-4244-81B2-0241E2DAE756
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 
 ````
 typedef struct _DOT11_WPS_DEVICE_NAME {
-   ULONG  
+   ULONG
 uDeviceNameLength;
   UCHAR   ucDeviceName[DOT11_WPS_DEVICE_NAME_MAX_LENGTH];
 } DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME;
@@ -78,7 +78,7 @@ The length, in bytes, of the device name.
 
 ### -field ucDeviceName
 
- 
+
 
 
 
