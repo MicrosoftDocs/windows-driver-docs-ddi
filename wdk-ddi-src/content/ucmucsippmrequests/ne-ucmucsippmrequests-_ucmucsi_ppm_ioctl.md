@@ -12,7 +12,7 @@ ms.keywords: _UCMUCSI_PPM_IOCTL, UCMUCSI_PPM_IOCTL,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: ucmucsippmrequests.h
-req.include-header: UcmucsiCx.h
+req.include-header: UcmUcsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

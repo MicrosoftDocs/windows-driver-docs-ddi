@@ -12,7 +12,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _UCMUCSI_DEVICE_CONFIG, UCMUCSI_DEVICE_CONFIG, *PUCMUCSI_DEVICE_CONFIG, 
 req.header: ucmucsidevice.h
-req.include-header: UcmucsiCx.h 
+req.include-header: UcmUcsiCx.h 
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

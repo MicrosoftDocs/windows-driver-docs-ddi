@@ -10,7 +10,7 @@ ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UCSI_CMD_SUCCEEDED
 req.header: ucmucsispec.h
-req.include-header: UcmucsiCx.h 
+req.include-header: UcmUcsiCx.h 
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -34,7 +34,8 @@ api_location:
 -	ucmucsispec.h
 api_name: 
 -	UCSI_CMD_SUCCEEDED
-product: Windows
+product: 
+- Windows
 targetos: Windows
 
 

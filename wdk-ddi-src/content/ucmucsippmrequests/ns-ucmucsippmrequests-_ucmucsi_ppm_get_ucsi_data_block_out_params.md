@@ -12,7 +12,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, *PUCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, 
 req.header: ucmucsippmrequests.h
-req.include-header: UcmucsiCx.h
+req.include-header: UcmUcsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

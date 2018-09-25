@@ -11,7 +11,7 @@ ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: Ucmucsippmrequests.h
-req.include-header: UcmucsiCx.h
+req.include-header: UcmUcsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

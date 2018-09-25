@@ -12,7 +12,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _UCSI_ACK_CC_CI_COMMAND, UCSI_ACK_CC_CI_COMMAND, *PUCSI_ACK_CC_CI_COMMAND, 
 req.header: ucmucsispec.h
-req.include-header: UcmucsiCx.h 
+req.include-header: UcmUcsiCx.h 
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

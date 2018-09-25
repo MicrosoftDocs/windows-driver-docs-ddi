@@ -22,5 +22,6 @@ This header declares an enumeration of all export functions called by a client d
 > Do not include this header. Instead, include Ucmucsicx.h.
 
 For more information, see:
-- [Write a UcmUcsi client driver]()
-- [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+- [Write a UcmUcsi client driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+- [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon)
+

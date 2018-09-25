@@ -10,7 +10,7 @@ ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UCMUCSI_CONNECTOR_INFO_INIT
 req.header: ucmucsippm.h
-req.include-header: UcmucsiCx.h
+req.include-header: UcmUcsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

@@ -12,7 +12,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG, 
 req.header: ucmucsippm.h
-req.include-header: UcmucsiCx.h
+req.include-header: UcmUcsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

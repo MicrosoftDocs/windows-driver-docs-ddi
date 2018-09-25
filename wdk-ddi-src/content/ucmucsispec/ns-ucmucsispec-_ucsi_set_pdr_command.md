@@ -12,7 +12,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _UCSI_SET_PDR_COMMAND, UCSI_SET_PDR_COMMAND, *PUCSI_SET_PDR_COMMAND, 
 req.header: ucmucsispec.h
-req.include-header: UcmucsiCx.h 
+req.include-header: UcmUcsiCx.h 
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

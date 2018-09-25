@@ -12,7 +12,7 @@ ms.keywords: _UCSI_USB_OPERATION_ROLE, UCSI_USB_OPERATION_ROLE,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: ucmucsispec.h
-req.include-header: UcmucsiCx.h 
+req.include-header: UcmUcsiCx.h 
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -21,7 +21,6 @@ req.umdf-ver: N/A
 req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_USB_OPERATION_ROLE
-c
 api_name: 
 -	_UCSI_USB_OPERATION_ROLE
 product: Windows

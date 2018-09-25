@@ -12,7 +12,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _UCMUCSI_CONNECTOR_INFO, UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO, 
 req.header: ucmucsippm.h
-req.include-header: UcmucsiCx.h
+req.include-header: UcmUcsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:

@@ -3,7 +3,7 @@ UID: NE:ucmucsispec._UCSI_USB_OPERATION_MODE
 title: _UCSI_USB_OPERATION_MODE
 author: windows-driver-content
 tech.root: usbref
-description: Used in the SET_UOR command. See Table 4-20, Offset 23.
+description: Used in the SET_UOR command. See Table 4-18, Offset 23.
 ms.assetid: a8cd9084-40bf-4b06-be2d-53f324e811e4
 ms.author: windowsdriverdev
 ms.date: 09/30/2018 
@@ -12,7 +12,7 @@ ms.keywords: _UCSI_USB_OPERATION_MODE, UCSI_USB_OPERATION_MODE,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: ucmucsispec.h
-req.include-header: UcmucsiCx.h 
+req.include-header: UcmUcsiCx.h 
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -37,7 +37,7 @@ targetos: Windows
 
 ## -description
 
-Used in the SET_UOR command. See Table 4-20, Offset 23 in [UCSI spec version 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
+Used in the SET_UOR command. See Table 4-18, Offset 23 in [UCSI spec version 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
 
 ## -enum-fields
 
