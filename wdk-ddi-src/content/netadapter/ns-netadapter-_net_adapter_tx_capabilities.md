@@ -3,6 +3,7 @@ UID: NS:netadapter._NET_ADAPTER_TX_CAPABILITIES
 title: _NET_ADAPTER_TX_CAPABILITIES
 author: windows-driver-content
 description: The NET_ADAPTER_TX_CAPABILITIES structure describes the transmit capabilities of a net adapter.
+tech.root: netvista
 ms.assetid: dd7810b6-12cc-46d3-9b74-2eabede35831
 ms.author: windowsdriverdev
 ms.date: 07/11/2018

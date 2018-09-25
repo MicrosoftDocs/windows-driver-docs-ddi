@@ -157,11 +157,6 @@ Pointer to a buffer that receives the payload data of the response to the LIRR, 
 
 
 
-#### - RspBufferSize [in, out]
-
-On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member indicates the size, in bytes, of the response data. Eight bytes is sufficient for any response.
-
-
 ## -returns
 
 

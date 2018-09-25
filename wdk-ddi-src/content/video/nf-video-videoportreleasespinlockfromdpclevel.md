@@ -71,11 +71,6 @@ Pointer to the miniport driver's device extension.
 
 
 
-#### - SpinLock [in, out]
-
-Pointer to a memory location that contains the spin lock to be released.
-
-
 ## -returns
 
 

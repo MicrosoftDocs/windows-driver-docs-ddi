@@ -68,11 +68,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552350">WDF_I
 
 
 
-#### - PolicyAndGroup [out]
-
-A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
-
-
 ## -returns
 
 

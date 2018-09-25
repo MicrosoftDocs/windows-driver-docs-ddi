@@ -86,33 +86,6 @@ The <b>FsRtlSetupAdvancedHeaderEx</b> macro is used by file systems to initializ
 
 
 
-#### - AdvancedHeader [in]
-
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure to be initialized. 
-
-
-#### - FastMutex [in, optional]
-
-Pointer to an initialized fast mutex that will be used to synchronize access to certain FSRTL_ADVANCED_FCB_HEADER members (for more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a>). The fast mutex must be allocated from nonpaged pool. This parameter is optional and can be <b>NULL</b>. Callers should set this parameter to <b>NULL</b> if they intend to use an already existing fast mutex object. If <i>FastMutex</i> is <b>NULL</b>, the caller must explicitly set the <b>FastMutex</b> member of the FSRTL_ADVANCED_FCB_HEADER structure, contained in the stream context object, to point to the existing fast mutex. (This can be done before or after calling <b>FsRtlSetupAdvancedHeaderEx</b>.)
-
-
-#### - FileContextSupportPointer [in, optional]
-
-A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts. 
-
-This parameter is optional and can be <b>NULL</b>.  In particular:
-
-<ul>
-<li>
- For Microsoft Windows operating systems released prior to Windows Vista: Callers must set this parameter to <b>NULL</b>.
-
-</li>
-<li>
- For Windows operating systems starting with Windows Vista: If <i>FileContextSupportPointer</i> is not <b>NULL</b>, <i>FileContextSupportPointer</i> must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  To indicate that the file system driver does not support file contexts, callers must set <i>FileContextSupportPointer</i> to <b>NULL</b>.
-
-</li>
-</ul>
-
 ## -remarks
 
 

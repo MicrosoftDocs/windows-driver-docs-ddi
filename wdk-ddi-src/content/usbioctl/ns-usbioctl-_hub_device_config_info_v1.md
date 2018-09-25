@@ -89,13 +89,12 @@ Description of the device in a <a href="https://msdn.microsoft.com/library/windo
 
 
 ### -field Reserved
-
+Reserved.
  
 
 
 ### -field UxdSettings
 
- 
 
 
 

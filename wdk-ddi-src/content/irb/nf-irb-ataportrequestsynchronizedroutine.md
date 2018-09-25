@@ -70,11 +70,6 @@ A pointer to the channel extension.
 
 
 
-#### - SynchronizedRoutine [in]
-
-A pointer to the routine to call. 
-
-
 ## -returns
 
 

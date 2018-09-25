@@ -51,7 +51,7 @@ req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TARGET_STATE</b> enumeration specifies the states that an I/O target can be in.
 

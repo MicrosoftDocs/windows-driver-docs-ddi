@@ -67,11 +67,6 @@ The <b>FsRtlIsAnsiCharacterWild</b> macro determines whether an ANSI character i
 
 
 
-#### - Character
-
-Pointer to the character to be tested.
-
-
 ## -remarks
 
 

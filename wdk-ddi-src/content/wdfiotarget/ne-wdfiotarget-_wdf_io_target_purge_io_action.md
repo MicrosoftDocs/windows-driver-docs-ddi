@@ -50,7 +50,7 @@ req.typenames: WDF_IO_TARGET_PURGE_IO_ACTION
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The 

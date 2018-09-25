@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_ip_checksum_net_buffer_list_info.htm
 tech.root: netvista
 ms.assetid: 989ecf50-18c4-4977-b845-b3fea0cade47
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 09/19/2018
 ms.keywords: "*PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_ip_checksum_net_buffer_list_info, tcpip_offload_ref_2ce657f6-a894-420b-bcb0-310819237c5b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,11 +103,7 @@ Reserved for NDIS.
 
 ### -field Transmit.TcpHeaderOffset
 
-The offset, in bytes, of the TCP header from the beginning of the packet for TCP packets.
-       Miniport drivers can use 
-       <b>TcpHeaderOffset</b> to determine the location of the TCP header so that they do not need to parse
-       the MAC and IP header.
-
+The offset, in bytes, of the TCP header from the beginning of the packet for TCP packets. Miniport drivers can use <b>TcpHeaderOffset</b> to determine the location of the TCP header so that they do not need to parse the MAC and IP header. 
 
 ### -field Receive
 
@@ -210,7 +206,7 @@ Before the TCP/IP transport passes to the miniport driver a TCP/IP packet on whi
     <b>IsIPv6</b> flag, it also sets the 
     <b>IpHeaderChecksum</b>, <b>TcpChecksum</b>, or 
     <b>UdpChecksum</b> flags that are required to indicate which checksums the miniport driver should
-    calculate for the packet.
+    calculate for the packet. In addition, for TCP packets, the TCP/IP transport sets the **TcpHeaderOffset** field when either the **IsIPv4** or **IPv6** flag is set. The transport does not set this field for UDP packets.
 
 Before indicating up a receive TCP/IP packet on which it performs checksum tasks, a miniport driver
     sets the appropriate 

@@ -68,11 +68,6 @@ The <b>HBA_ResetStatistics</b> routine resets the statistics counters for the in
 Indicates for which port on the HBA the statistics counters should be reset. 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
-
-
 ## -returns
 
 

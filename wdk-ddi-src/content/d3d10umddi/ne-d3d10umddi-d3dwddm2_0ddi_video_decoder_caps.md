@@ -17,7 +17,7 @@ req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
-req.umdf-ver: 
+req.umdf-ver: Direct3D 12.0
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -52,6 +52,17 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 
 Describes the video decoder capabilities.
 
+## -syntax
+
+```c
+typedef enum D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+{ 
+    D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE           = 0x01,
+    D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME        = 0x02,
+    D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED  = 0x04,
+    D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED          = 0x08
+} D3DWDDM2_0DDI_VIDEO_DECODER_CAPS;
+```
 
 ## -enum-fields
 

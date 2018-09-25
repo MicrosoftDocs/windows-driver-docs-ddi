@@ -3,6 +3,7 @@ UID: NE:netconfiguration._NET_CONFIGURATION_QUERY_ULONG_FLAGS
 title: _NET_CONFIGURATION_QUERY_ULONG_FLAGS
 author: windows-driver-content
 description: The NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration is used as an input parameter to the NetConfigurationQueryUlong method.
+tech.root: netvista
 ms.assetid: fd0f43ac-4895-4fe7-9eb3-7b4d7a8c052e
 ms.author: windowsdriverdev
 ms.date: 02/07/2018

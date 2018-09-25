@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterCreate
 title: NetAdapterCreate function
 author: windows-driver-content
 description: Creates a NETADAPTER object.
+tech.root: netvista
 ms.assetid: cc03535e-1e57-483f-93af-950f5fc08d36
 ms.author: windowsdriverdev
 ms.date: 07/11/2018

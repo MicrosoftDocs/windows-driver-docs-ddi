@@ -85,11 +85,6 @@ A pointer to a location that receives a handle to the new UFX device object.
 
 
 
-#### - Device [in]
-
-A handle to a WDF device object.
-
-
 ## -returns
 
 

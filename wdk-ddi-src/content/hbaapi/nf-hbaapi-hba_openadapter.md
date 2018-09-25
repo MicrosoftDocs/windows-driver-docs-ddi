@@ -65,11 +65,6 @@ The <b>HBA_OpenAdapter</b> routine opens an HBA and returns a handle.
 
 
 
-#### - SniaAdapterName [in]
-
-Indicates the name of the HBA to open. 
-
-
 ## -returns
 
 

@@ -72,16 +72,6 @@ The <b>FsRtlIsAnsiCharacterLegalFat</b> macro determines whether an ANSI charact
 
 
 
-#### - Character
-
-Pointer to the character to be tested.
-
-
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
-
-
 ## -see-also
 
 

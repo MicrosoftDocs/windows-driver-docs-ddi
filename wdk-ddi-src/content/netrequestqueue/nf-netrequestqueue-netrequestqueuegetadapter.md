@@ -3,6 +3,7 @@ UID: NF:netrequestqueue.NetRequestQueueGetAdapter
 title: NetRequestQueueGetAdapter function
 author: windows-driver-content
 description: Retrieves the NETADAPTER object corresponding to a NETREQUESTQUEUE.
+tech.root: netvista
 ms.assetid: 638f5dea-d79b-41bb-967b-27339bfae3ab
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

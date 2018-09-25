@@ -67,11 +67,6 @@ The <b>KeQueryTickCount</b> routine maintains a count of the interval timer inte
 
 
 
-#### - TickCount [out]
-
-Pointer to the tick count value on return from <b>KeQueryTickCount</b>.
-
-
 ## -remarks
 
 

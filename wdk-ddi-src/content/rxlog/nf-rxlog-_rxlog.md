@@ -70,11 +70,6 @@ TBD
 
 
 
-#### - Format
-
-The variable argument list that contains a format string and a variable number of parameters.
-
-
 ## -returns
 
 

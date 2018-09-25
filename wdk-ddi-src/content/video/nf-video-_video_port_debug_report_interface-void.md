@@ -99,40 +99,6 @@ VOID NdisMapFile(
 
 
 
-#### - FileHandle [in]
-
-The handle that was returned by a preceding call to the
-     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
-
-
-#### - MappedBuffer [out]
-
-A pointer to a caller-supplied variable in which this function returns the base virtual address of
-     the mapped file contents or <b>NULL</b>.
-
-
-#### - Status [out]
-
-A pointer to a caller-supplied variable in which this function returns the status of the mapping
-     operation, which can be one of the following:
-
-
-
-
-
-
-#### NDIS_STATUS_SUCCESS
-
-The caller has exclusive access to the file contents until the
-       <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
-
-
-
-#### NDIS_STATUS_ALREADY_MAPPED
-
-The caller cannot access the file contents at this time.
-
-
 ## -returns
 
 

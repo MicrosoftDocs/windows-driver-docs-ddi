@@ -85,21 +85,6 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the HBA port fro
 
 
 
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
-#### - handle
-
-Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
-
-
-#### - userData
-
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
-
-
 ## -returns
 
 

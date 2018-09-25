@@ -3,6 +3,7 @@ UID: NS:netpacket._NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 title: _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 author: windows-driver-content
 description: The NET_PACKET_RECEIVE_SEGMENT_COALESCENCE structure contains receive segment coalescence (RSC) information for a packet.
+tech.root: netvista
 ms.assetid: 6385d38a-1731-4dc3-81db-d61bca59621e
 ms.author: windowsdriverdev
 ms.date: 03/02/2018

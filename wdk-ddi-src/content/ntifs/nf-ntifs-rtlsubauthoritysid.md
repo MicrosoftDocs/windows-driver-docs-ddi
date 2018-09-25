@@ -71,11 +71,6 @@ Pointer to the SID structure. The SID must have been initialized by calling <b>R
 
 
 
-#### - SubAuthorityCount [in]
-
-Zero-based index indicating which subauthority is being specified. This value is not validated against the number of subauthorities in the SID. 
-
-
 ## -returns
 
 

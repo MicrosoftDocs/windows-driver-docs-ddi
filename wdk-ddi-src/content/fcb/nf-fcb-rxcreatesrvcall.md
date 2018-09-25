@@ -78,11 +78,6 @@ A pointer to the name to be inserted in the name table.
 A pointer to the connection ID to be associated with the name to be inserted in the prefix name table. This parameter can be <b>NULL</b> in which case no connection ID will be associated with the name inserted in the prefix name table.
 
 
-#### - InnerNamePrefix [in, optional]
-
-A pointer to an optional inner prefix name to be inserted into the name table with the <i>Name</i>.
-
-
 ## -returns
 
 

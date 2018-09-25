@@ -70,11 +70,6 @@ The Bluetooth
 A profile driver defined tag to associate with the node.
 
 
-#### - usVal [in]
-
-The 16-bit UUID value that is used to initialize the SDP_NODE structure.
-
-
 ## -returns
 
 

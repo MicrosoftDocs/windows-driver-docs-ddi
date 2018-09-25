@@ -3,6 +3,7 @@ UID: NF:netconfiguration.NetConfigurationAssignBinary
 title: NetConfigurationAssignBinary function
 author: windows-driver-content
 description: The NetConfigurationAssignBinary method writes caller-supplied binary data to a specified value name in the registry.
+tech.root: netvista
 ms.assetid: 55f386f7-0327-4cd2-96bc-bb666a2b3465
 ms.author: windowsdriverdev
 ms.date: 02/07/2018

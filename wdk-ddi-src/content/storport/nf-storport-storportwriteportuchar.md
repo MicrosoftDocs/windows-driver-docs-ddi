@@ -78,21 +78,6 @@ The <b>StorPortWritePortUchar</b> routine writes a value to a specified register
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
-#### - Value [in]
-
-Contains the value to be written. 
-
-
 ## -remarks
 
 

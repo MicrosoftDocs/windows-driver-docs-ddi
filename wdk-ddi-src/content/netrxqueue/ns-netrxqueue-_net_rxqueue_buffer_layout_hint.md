@@ -3,6 +3,7 @@ UID: NS:netrxqueue._NET_RXQUEUE_BUFFER_LAYOUT_HINT
 title: _NET_RXQUEUE_BUFFER_LAYOUT_HINT
 author: windows-driver-content
 description: The NET_RXQUEUE_BUFFER_LAYOUT_HINT structure represents receive buffer layout hints returned to a client driver from the upper layer.
+tech.root: netvista
 ms.assetid: e9d6b199-e950-4c70-9ac3-0bdf3bbf2616
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

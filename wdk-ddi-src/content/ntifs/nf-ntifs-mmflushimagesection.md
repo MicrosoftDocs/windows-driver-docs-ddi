@@ -96,11 +96,6 @@ The file is being opened for write access.
  
 
 
-#### - SectionPointer [in]
-
-Pointer to a structure that contains the file object's section object pointers.
-
-
 ## -returns
 
 

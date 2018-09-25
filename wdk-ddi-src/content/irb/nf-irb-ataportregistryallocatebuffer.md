@@ -73,11 +73,6 @@ A pointer to the channel extension.
 
 
 
-#### - Count [in]
-
-Specifies the length of the buffer, in bytes.
-
-
 ## -returns
 
 

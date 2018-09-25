@@ -50,7 +50,7 @@ req.typenames: WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TYPE_CONFIG</b> structure specifies the driver's preferred buffer access method for read and write requests, and for device I/O control requests.
 

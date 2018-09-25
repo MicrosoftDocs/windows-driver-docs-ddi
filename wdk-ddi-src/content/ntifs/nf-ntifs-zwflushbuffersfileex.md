@@ -119,39 +119,6 @@ TBD
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - Flags [in]
-
-Flush operation flags. <i>Flags</i> can be 0 or one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FLUSH_FLAGS_FILE_DATA_ONLY"></a><a id="flush_flags_file_data_only"></a><dl>
-<dt><b>FLUSH_FLAGS_FILE_DATA_ONLY</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FLUSH_FLAGS_NO_SYNC"></a><a id="flush_flags_no_sync"></a><dl>
-<dt><b>FLUSH_FLAGS_NO_SYNC</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.
-
-</td>
-</tr>
-</table>
- 
-
-
 ## -returns
 
 

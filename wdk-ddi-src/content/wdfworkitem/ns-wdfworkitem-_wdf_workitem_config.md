@@ -50,7 +50,7 @@ req.typenames: WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_WORKITEM_CONFIG</b> structure contains information that is associated with a work item.
 

@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterDriverWdmGetHandle
 title: NetAdapterDriverWdmGetHandle function
 author: windows-driver-content
 description: A WDF client driver calls NetAdapterDriverWdmGetHandle to get a handle that can be used to call NDIS APIs.
+tech.root: netvista
 ms.assetid: ca8d396d-aa0e-4761-bc2d-068e28169301
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

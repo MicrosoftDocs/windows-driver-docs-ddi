@@ -53,7 +53,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRetrieveInputBuffer</b> method retrieves an I/O request's input buffer.
 
@@ -81,11 +81,6 @@ A pointer to a location that receives the buffer's address.
 ### -param Length [out, optional]
 
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
-
-
-#### - MinimumRequiredSize [in]
-
-The minimum buffer size, in bytes, that the driver needs to process the I/O request.
 
 
 ## -returns

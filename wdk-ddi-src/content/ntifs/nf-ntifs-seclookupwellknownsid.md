@@ -457,11 +457,6 @@ A variable that specifies the size of the <i>Sid</i> buffer in bytes.
 
 
 
-#### - SidSize [in, out]
-
-An optional pointer to a variable that specifies the size of the <i>Sid</i> buffer. If the function fails because the buffer is too small or if <i>SidBufferSize</i> is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>Sid</i>
-
-
 ## -returns
 
 

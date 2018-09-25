@@ -67,11 +67,6 @@ The <b>FsRtlIsUnicodeCharacterWild</b> macro determines whether a Unicode charac
 
 
 
-#### - Character
-
-Pointer to the character to be tested.
-
-
 ## -remarks
 
 

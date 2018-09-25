@@ -3,6 +3,7 @@ UID: NE:netadapter._NET_ADAPTER_STATISTICS_FLAGS
 title: _NET_ADAPTER_STATISTICS_FLAGS
 author: windows-driver-content
 description: Specifies statistics that an adapter supports.
+tech.root: netvista
 ms.assetid: c20c2586-8d1d-484f-99ce-5eaf44f37886
 ms.author: windowsdriverdev
 ms.date: 02/05/2018

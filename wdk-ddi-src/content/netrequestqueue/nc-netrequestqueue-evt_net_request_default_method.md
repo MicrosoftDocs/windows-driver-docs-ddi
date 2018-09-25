@@ -3,6 +3,7 @@ UID: NC:netrequestqueue.EVT_NET_REQUEST_DEFAULT_METHOD
 title: EVT_NET_REQUEST_DEFAULT_METHOD
 author: windows-driver-content
 description: Implemented by the client driver as the default handler for method object identifier (OID) requests.
+tech.root: netvista
 ms.assetid: b9b871b2-b92a-47f1-9b68-ccfbca6eeeea
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

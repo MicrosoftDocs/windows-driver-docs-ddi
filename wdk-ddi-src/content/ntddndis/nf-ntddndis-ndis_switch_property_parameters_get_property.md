@@ -3,6 +3,7 @@ UID: NF:ntddndis.NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY
 title: NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY macro
 author: windows-driver-content
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY macro to access the extensible switch property buffer inside an NDIS_SWITCH_PROPERTY_PARAMETERS structure.
+tech.root: netvista
 ms.assetid: a1e79d2b-fd80-4834-a1bb-a7b6cd6fa5f8
 ms.author: windowsdriverdev
 ms.date: 04/17/2018

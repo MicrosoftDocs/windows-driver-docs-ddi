@@ -50,7 +50,7 @@ req.typenames: WDF_REQUEST_TYPE
 ## -description
 
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_TYPE</b> enumeration type identifies types of requests that a framework request object might contain.
 

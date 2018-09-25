@@ -3,6 +3,7 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_ENABLE
 title: FN_VMB_CHANNEL_ENABLE
 author: windows-driver-content
 description: The VmbChannelEnable function enables a channel that is in the disabled state by connecting to VMBus and offering or opening a channel, as appropriate for the endpoint type.
+tech.root: netvista
 ms.assetid: e2761a5b-dac3-4423-93af-5f009c2cfaad
 ms.author: windowsdriverdev
 ms.date: 05/21/2018

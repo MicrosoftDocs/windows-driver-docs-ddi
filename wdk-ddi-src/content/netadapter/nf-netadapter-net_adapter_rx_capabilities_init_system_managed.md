@@ -3,6 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED
 title: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED function
 author: windows-driver-content
 description: The NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED method initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify operating system-managed receive buffer allocation and attachment, but not the use of DMA memory mapping.
+tech.root: netvista
 ms.assetid: 552987ea-44d8-4330-a9e8-3f1c3d0e5590
 ms.author: windowsdriverdev
 ms.date: 02/15/2018

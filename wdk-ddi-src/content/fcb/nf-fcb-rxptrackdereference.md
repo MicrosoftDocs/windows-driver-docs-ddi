@@ -118,11 +118,6 @@ The line number in the source file where this routine was called.
 
 
 
-#### - pInstance [in]
-
-A pointer to the structure to be dereferenced.
-
-
 ## -returns
 
 

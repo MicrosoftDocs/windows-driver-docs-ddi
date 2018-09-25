@@ -72,16 +72,6 @@ The <b>FsRtlCompleteRequest</b> macro completes an IRP with the specified status
 
 
 
-#### - Irp [in]
-
-Pointer to the IRP to be completed.
-
-
-#### - Status [in]
-
-Status value to be returned for the IRP.
-
-
 ## -see-also
 
 

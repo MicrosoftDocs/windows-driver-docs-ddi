@@ -70,11 +70,6 @@ Contains the context information returned by the <a href="https://msdn.microsoft
 
 
 
-#### - Sdrp [in]
-
-Pointer to a caller-supplied structure of type <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a> that describes the request.
-
-
 ## -returns
 
 

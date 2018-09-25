@@ -3,6 +3,7 @@ UID: NS:netpacket._NET_PACKET_LAYOUT
 title: _NET_PACKET_LAYOUT
 author: windows-driver-content
 description: A NET_PACKET_LAYOUT structure describes the start of each protocol header in a NET_PACKET.
+tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

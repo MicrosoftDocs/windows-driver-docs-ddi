@@ -75,21 +75,6 @@ Adds two values of type <b>LONG_PTR</b>.
 
 
 
-#### - pu8Result [out]
-
-A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
-#### - u8Addend [in]
-
-The value to add to <i>u8Augend</i>.
-
-
-#### - u8Augend [in]
-
-The first value in the equation.
-
-
 ## -remarks
 
 

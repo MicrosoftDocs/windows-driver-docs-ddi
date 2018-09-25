@@ -70,11 +70,6 @@ Pointer to the device object for the disk whose partitions are to be read.
 
 
 
-#### - PartitionBuffer [out]
-
-Pointer to an uninitialized address. If successful, <b>IoReadPartitionTableEx</b> allocates the memory for this buffer from nonpaged pool and returns the drive layout information in it.
-
-
 ## -returns
 
 

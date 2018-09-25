@@ -71,11 +71,6 @@ Pointer to the hardware device extension of the adapter to pause. This is a per-
 
 
 
-#### - TimeOut [in]
-
-Specifies the interval of time, in seconds, that the adapter is to be paused. 
-
-
 ## -returns
 
 

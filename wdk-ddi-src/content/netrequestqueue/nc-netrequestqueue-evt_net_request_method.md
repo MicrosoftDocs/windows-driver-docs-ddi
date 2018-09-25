@@ -3,6 +3,7 @@ UID: NC:netrequestqueue.EVT_NET_REQUEST_METHOD
 title: EVT_NET_REQUEST_METHOD
 author: windows-driver-content
 description: Implemented by the client driver to handle a specific method OID request.
+tech.root: netvista
 ms.assetid: c9df356a-9b50-4906-aa8f-20b81e0dacb2
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

@@ -70,16 +70,6 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 
 
-#### - Config [out]
-
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187928">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure to initialize.
-
-
-#### - PortPartnerType [in]
-
-A <a href="https://msdn.microsoft.com/4779E943-5C13-4DE2-AF8F-37657F0F99C0">UCM_TYPE_C_PORT_STATE</a>-typed flag that indicates the state of the partner port.
-
-
 ## -returns
 
 

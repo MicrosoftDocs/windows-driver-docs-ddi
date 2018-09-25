@@ -66,11 +66,6 @@ The <b>ZwAllocateLocallyUniqueId</b> routine allocates a locally unique identifi
 
 
 
-#### - LUID [out]
-
-Pointer to a caller-allocated buffer to receive a copy of the source LUID structure. The buffer must be at least <b>sizeof</b>(<i>LUID</i>). 
-
-
 ## -returns
 
 

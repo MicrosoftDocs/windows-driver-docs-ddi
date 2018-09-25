@@ -3,6 +3,7 @@ UID: NF:ndis.NdisSetNblTimestampInfo
 title: NdisSetNblTimestampInfo function
 author: windows-driver-content
 description: This function is reserved for system use and should not be called in your code.
+tech.root: netvista
 ms.assetid: 0065bfcd-e384-4577-a55b-869be615a3de
 ms.author: windowsdriverdev
 ms.date: 08/08/2018

@@ -68,11 +68,6 @@ The <b>FsRtlGetSectorSizeInformation</b> routine retrieves the physical and logi
 A pointer to a caller supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh406395">FILE_FS_SECTOR_SIZE_INFORMATION</a> structure.
 
 
-#### - RealDevice [in]
-
-The target device object for a storage device.
-
-
 ## -returns
 
 
