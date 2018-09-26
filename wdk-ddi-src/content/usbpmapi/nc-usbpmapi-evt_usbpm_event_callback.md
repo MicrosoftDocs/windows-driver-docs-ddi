@@ -9,6 +9,7 @@ ms.date: 9/30/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:
 req.target-type:

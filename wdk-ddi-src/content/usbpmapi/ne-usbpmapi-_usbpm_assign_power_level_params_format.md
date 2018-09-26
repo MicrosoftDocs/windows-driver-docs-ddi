@@ -10,6 +10,7 @@ ms.topic: enum
 ms.keywords: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, 
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:
 req.target-type:

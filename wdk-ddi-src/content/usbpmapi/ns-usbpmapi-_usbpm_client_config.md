@@ -9,6 +9,7 @@ ms.date: 9/30/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG, USBPM_CLIENT_CONFIG, *PUSBPM_CLIENT_CONFIG, 
 req.header: usbpmapi.h
 req.include-header:

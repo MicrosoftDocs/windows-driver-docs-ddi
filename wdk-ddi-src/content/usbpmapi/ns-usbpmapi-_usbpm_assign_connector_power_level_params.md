@@ -9,6 +9,7 @@ ms.date: 9/30/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 ms.keywords: _USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS, USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS, *PUSBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS, 
 req.header: usbpmapi.h
 req.include-header:

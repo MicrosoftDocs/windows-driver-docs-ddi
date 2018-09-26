@@ -8,6 +8,7 @@ ms.author: windowsdriverdev
 ms.date: 9/30/2018 
 ms.topic: function
 ms.keywords: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
+tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:
 req.target-type:

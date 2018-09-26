@@ -10,6 +10,7 @@ ms.topic: enum
 ms.keywords: _USBPM_EVENT_TYPE, USBPM_EVENT_TYPE, 
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:
 req.target-type:

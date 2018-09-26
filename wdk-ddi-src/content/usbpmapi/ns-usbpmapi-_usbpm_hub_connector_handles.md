@@ -9,6 +9,7 @@ ms.date: 9/30/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 ms.keywords: _USBPM_HUB_CONNECTOR_HANDLES, USBPM_HUB_CONNECTOR_HANDLES, *PUSBPM_HUB_CONNECTOR_HANDLES, 
 req.header: usbpmapi.h
 req.include-header:

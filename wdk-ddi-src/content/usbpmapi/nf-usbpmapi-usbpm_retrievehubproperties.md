@@ -8,6 +8,7 @@ ms.author: windowsdriverdev
 ms.date: 9/30/2018 
 ms.topic: function
 ms.keywords: UsbPm_RetrieveHubProperties
+tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:
 req.target-type:

@@ -9,6 +9,7 @@ ms.date: 9/30/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
+tech.root: usbref
 ms.keywords: _USBPM_CONNECTOR_STATE, USBPM_CONNECTOR_STATE, *PUSBPM_CONNECTOR_STATE, 
 req.header: usbpmapi.h
 req.include-header:

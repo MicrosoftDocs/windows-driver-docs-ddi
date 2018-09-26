@@ -71,7 +71,6 @@
     "ucmucsippmrequests.h",
     "ucmucsispec.h",
     "ucmucsitraceenums.h",
-    "usbpmapi.h",
     "usbctypes.h"
   ],
   "displayName": "Universal Serial Bus (USB)"
