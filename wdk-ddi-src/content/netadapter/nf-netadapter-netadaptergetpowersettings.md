@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterGetPowerSettings
 title: NetAdapterGetPowerSettings function
 author: windows-driver-content
 description: Retrieves the NETPOWERSETTINGS object that is associated with a net adapter.
+tech.root: netvista
 ms.assetid: e3f3d00f-37f6-4d3c-b170-0d423574ccbd
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

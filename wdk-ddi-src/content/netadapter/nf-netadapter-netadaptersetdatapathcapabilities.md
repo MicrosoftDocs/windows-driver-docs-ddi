@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterSetDataPathCapabilities
 title: NetAdapterSetDataPathCapabilities function
 author: windows-driver-content
 description: Sets the data path capabilities of the network adapter.
+tech.root: netvista
 ms.assetid: 00abe85f-5c61-4fc3-b863-ca31a5989376
 ms.author: windowsdriverdev
 ms.date: 02/06/2018

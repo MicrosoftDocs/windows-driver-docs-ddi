@@ -3,6 +3,7 @@ UID: NS:ndiswwan._NDIS_WWAN_LTE_ATTACH_STATUS
 title: _NDIS_WWAN_LTE_ATTACH_STATUS
 author: windows-driver-content
 description: The NDIS_WWAN_LTE_ATTACH_STATUS structure describes the last used default LTE attach context for a mobile broadband (MBB) modem.
+tech.root: netvista
 ms.assetid: 8371490f-2c1b-41fe-8a90-6c12e92e793d
 ms.author: windowsdriverdev
 ms.date: 08/23/2018

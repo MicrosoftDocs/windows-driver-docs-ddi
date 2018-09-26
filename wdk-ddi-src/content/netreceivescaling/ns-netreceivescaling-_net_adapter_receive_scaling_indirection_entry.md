@@ -3,6 +3,7 @@ UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
 title: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
 author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY structure represents a single entry in the receive side scaling (RSS) indirection table.
+tech.root: netvista
 ms.assetid: 053929b4-7420-40ac-a844-df62e055607b
 ms.author: windowsdriverdev
 ms.date: 03/07/2018

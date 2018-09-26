@@ -3,6 +3,7 @@ UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_SET_DATA_HANDLE
 title: NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_SET_DATA_HANDLER function
 author: windows-driver-content
 description: Adds a caller-provided, pre-initialized set request handler structure to a NET_REQUEST_QUEUE_CONFIG structure.
+tech.root: netvista
 ms.assetid: 44328633-7ebf-472d-b7d1-39779fb273b2
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

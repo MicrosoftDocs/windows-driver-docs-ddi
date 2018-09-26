@@ -3,6 +3,7 @@ UID: NF:ntddndis.NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO
 title: NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO macro
 author: windows-driver-content
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO macro to access the first NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO element that is specified by an NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure.
+tech.root: netvista
 ms.assetid: 6aa3c33f-b9ed-467c-868b-dc4134107425
 ms.author: windowsdriverdev
 ms.date: 04/17/2018

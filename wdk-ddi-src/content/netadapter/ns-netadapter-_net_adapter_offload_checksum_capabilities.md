@@ -3,6 +3,7 @@ UID: NS:netadapter._NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES
 title: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES
 author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for offloading checksum calculation and validation.
+tech.root: netvista
 ms.assetid: edf69542-3428-4919-ac04-872429a873d8
 ms.author: windowsdriverdev
 ms.date: 07/19/2018

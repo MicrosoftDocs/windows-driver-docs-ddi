@@ -3,6 +3,7 @@ UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITIES
 title: _NDIS_TIMESTAMP_CAPABILITIES
 author: windows-driver-content
 description: This structure is reserved for system use and should not be used in your code.
+tech.root: netvista
 ms.assetid: 6d8bbe05-2855-42b1-89d1-79a5db9bd27c
 ms.author: windowsdriverdev
 ms.date: 08/08/2018

@@ -3,6 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 title: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function
 author: windows-driver-content
 description: The NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED method initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
+tech.root: netvista
 ms.assetid: d3b29896-25ef-4d96-99db-799408fb207f
 ms.author: windowsdriverdev
 ms.date: 02/14/2018

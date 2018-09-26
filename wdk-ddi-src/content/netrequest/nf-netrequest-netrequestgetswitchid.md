@@ -3,6 +3,7 @@ UID: NF:netrequest.NetRequestGetSwitchId
 title: NetRequestGetSwitchId function
 author: windows-driver-content
 description: Retrieves the switch identifier for the net request.
+tech.root: netvista
 ms.assetid: 44e290cf-13ea-4da5-898a-4a882eb881bf
 ms.author: windowsdriverdev
 ms.date: 02/08/2018
