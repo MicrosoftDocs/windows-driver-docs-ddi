@@ -30,6 +30,7 @@ api_name:
 -	LocationKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # LocationKind enumeration

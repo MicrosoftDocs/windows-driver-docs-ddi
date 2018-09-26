@@ -33,6 +33,7 @@ api_name:
 -	ScriptDebugPosition
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ScriptDebugPosition structure

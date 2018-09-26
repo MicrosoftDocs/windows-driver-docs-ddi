@@ -30,6 +30,7 @@ api_name:
 -	ErrorClass
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ErrorClass enumeration

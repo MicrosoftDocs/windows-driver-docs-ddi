@@ -37,6 +37,7 @@ product: Windows
 targetos: Windows
 
 
+tech.root: debugger
 ---
 
 # IDebugHost::AddRef

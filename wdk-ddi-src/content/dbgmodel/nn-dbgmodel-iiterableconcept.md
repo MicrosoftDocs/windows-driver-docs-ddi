@@ -32,6 +32,7 @@ api_name:
 -	IIterableConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IIterableConcept interface

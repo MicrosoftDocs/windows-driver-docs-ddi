@@ -30,6 +30,7 @@ api_name:
 -	PreferredFormat
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # PreferredFormat enumeration

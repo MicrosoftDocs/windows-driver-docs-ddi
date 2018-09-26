@@ -32,6 +32,7 @@ api_name:
 -	IModelKeyReference
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IModelKeyReference interface

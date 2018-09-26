@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostStatus
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostStatus interface

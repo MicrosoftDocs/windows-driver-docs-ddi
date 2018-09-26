@@ -33,6 +33,7 @@ api_name:
 -	ArrayDimension
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ArrayDimension structure

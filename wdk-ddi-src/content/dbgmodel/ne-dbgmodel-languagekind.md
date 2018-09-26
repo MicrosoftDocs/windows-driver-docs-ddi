@@ -30,6 +30,7 @@ api_name:
 -	LanguageKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # LanguageKind enumeration

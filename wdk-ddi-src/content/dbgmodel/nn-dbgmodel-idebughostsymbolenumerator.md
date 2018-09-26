@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostSymbolEnumerator
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostSymbolEnumerator interface

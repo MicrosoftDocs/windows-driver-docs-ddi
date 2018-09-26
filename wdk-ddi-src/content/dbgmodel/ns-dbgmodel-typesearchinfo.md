@@ -33,6 +33,7 @@ api_name:
 -	TypeSearchInfo
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # TypeSearchInfo structure

@@ -32,6 +32,7 @@ api_name:
 -	IModelIterator
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IModelIterator interface

@@ -30,6 +30,7 @@ api_name:
 -	SymbolKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # SymbolKind enumeration

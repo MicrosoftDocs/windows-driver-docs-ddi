@@ -30,6 +30,7 @@ api_name:
 -	ScriptDebugState
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ScriptDebugState enumeration

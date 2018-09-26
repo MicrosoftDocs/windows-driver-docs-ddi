@@ -32,6 +32,7 @@ api_name:
 -	IDynamicConceptProviderConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDynamicConceptProviderConcept interface

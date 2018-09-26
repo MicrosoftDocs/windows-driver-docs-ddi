@@ -30,6 +30,7 @@ api_name:
 -	SignatureComparison
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # SignatureComparison enumeration

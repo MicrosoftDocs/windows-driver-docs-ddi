@@ -32,6 +32,7 @@ api_name:
 -	IDataModelScriptDebugBreakpointEnumerator
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelScriptDebugBreakpointEnumerator interface

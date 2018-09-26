@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostTypeSignature
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostTypeSignature interface

@@ -30,6 +30,7 @@ api_name:
 -	ModelObjectKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ModelObjectKind enumeration

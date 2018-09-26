@@ -32,6 +32,7 @@ api_name:
 -	IDataModelConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelConcept interface

@@ -30,6 +30,7 @@ api_name:
 -	PointerKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # PointerKind enumeration

@@ -32,6 +32,7 @@ api_name:
 -	IDataModelScriptTemplateEnumerator
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelScriptTemplateEnumerator interface

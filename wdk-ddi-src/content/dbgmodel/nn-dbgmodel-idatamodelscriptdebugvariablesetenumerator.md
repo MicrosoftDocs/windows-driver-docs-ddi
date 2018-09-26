@@ -32,6 +32,7 @@ api_name:
 -	IDataModelScriptDebugVariableSetEnumerator
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelScriptDebugVariableSetEnumerator interface

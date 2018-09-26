@@ -30,6 +30,7 @@ api_name:
 -	CallingConventionKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # CallingConventionKind enumeration

@@ -32,6 +32,7 @@ api_name:
 -	IIndexableConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IIndexableConcept interface

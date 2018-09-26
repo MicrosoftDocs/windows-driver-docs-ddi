@@ -30,6 +30,7 @@ api_name:
 -	ScriptExecutionKind
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # ScriptExecutionKind enumeration

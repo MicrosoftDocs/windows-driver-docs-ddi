@@ -32,6 +32,7 @@ api_name:
 -	IModelObject
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IModelObject interface

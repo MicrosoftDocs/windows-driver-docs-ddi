@@ -32,6 +32,7 @@ api_name:
 -	IKeyStore
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IKeyStore interface

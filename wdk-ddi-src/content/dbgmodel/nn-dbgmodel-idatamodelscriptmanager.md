@@ -32,6 +32,7 @@ api_name:
 -	IDataModelScriptManager
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelScriptManager interface

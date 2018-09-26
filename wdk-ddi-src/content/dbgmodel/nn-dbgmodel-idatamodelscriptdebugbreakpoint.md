@@ -32,6 +32,7 @@ api_name:
 -	IDataModelScriptDebugBreakpoint
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDataModelScriptDebugBreakpoint interface

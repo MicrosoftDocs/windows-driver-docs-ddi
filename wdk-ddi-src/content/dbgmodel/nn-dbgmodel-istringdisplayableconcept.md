@@ -32,6 +32,7 @@ api_name:
 -	IStringDisplayableConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IStringDisplayableConcept interface

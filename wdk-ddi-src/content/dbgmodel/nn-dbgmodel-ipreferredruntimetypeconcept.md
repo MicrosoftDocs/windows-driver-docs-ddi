@@ -32,6 +32,7 @@ api_name:
 -	IPreferredRuntimeTypeConcept
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IPreferredRuntimeTypeConcept interface

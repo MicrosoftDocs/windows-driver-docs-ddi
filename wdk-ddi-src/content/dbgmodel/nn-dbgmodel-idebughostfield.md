@@ -32,6 +32,7 @@ api_name:
 -	IDebugHostField
 product: Windows
 targetos: Windows
+tech.root: debugger
 ---
 
 # IDebugHostField interface
