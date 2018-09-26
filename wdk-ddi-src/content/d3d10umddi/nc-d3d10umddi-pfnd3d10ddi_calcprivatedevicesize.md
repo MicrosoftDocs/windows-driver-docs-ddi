@@ -60,24 +60,15 @@ The <b>CalcPrivateDeviceSize</b> function determines the size of a memory region
 
 ### -param Arg1
 
+*hAdapter* [in]
+
+A handle that identifies the graphics adapter. 
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
-
-#### - hAdapter [in]
-
- A handle that identifies the graphics adapter. 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541649">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541649">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
 
 ## -returns

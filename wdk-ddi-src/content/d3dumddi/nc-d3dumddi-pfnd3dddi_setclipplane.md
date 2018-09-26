@@ -60,7 +60,7 @@ The <i>SetClipPlane</i> function sets a clip plane.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetClipPlane</i> function sets a clip plane.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543280">D3DDDIARG_SETCLIPPLANE</a> structure that describes the clip plane to set.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543280">D3DDDIARG_SETCLIPPLANE</a> structure that describes the clip plane to set.
 
 
 ## -returns

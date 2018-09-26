@@ -60,34 +60,21 @@ The <b>CalcPrivateShaderSize</b> function determines the size of the user-mode d
 
 ### -param Arg1
 
+*hDevice* [in] 
 
-### -param *pShaderCode
+A handle to the display device (graphics context).
 
+### -param 
+
+*pShaderCode* [in] 
+
+An array of CONST UINT tokens that make up the shader code.
 
 ### -param *
 
+*pSignatures* [in] 
 
-
-
-
-
-
-
-#### - hDevice
-
- [in] A handle to the display device (graphics context).
-
-
-#### - pCode
-
-
-      [in] An array of CONST UINT tokens that make up the shader code.
-     
-
-
-#### - pSignatures
-
- [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 
 
 ## -returns

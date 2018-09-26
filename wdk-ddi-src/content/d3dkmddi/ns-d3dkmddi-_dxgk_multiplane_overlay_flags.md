@@ -83,11 +83,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 A 32-bit value that identifies the type of flip operation to perform.
 
-
-#### - PanelFitterPostComposition
+*PanelFitterPostComposition*
 
 Indicates that the plane is to be stretched using panel fitter hardware. 
-                                                        This should only be set for plane 0. 
+This should only be set for plane 0. 
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 

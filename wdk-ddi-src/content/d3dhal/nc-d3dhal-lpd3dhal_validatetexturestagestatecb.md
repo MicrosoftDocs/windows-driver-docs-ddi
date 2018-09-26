@@ -60,14 +60,7 @@ The <b>D3dValidateTextureStageState</b> function returns the number of passes wh
 
 ### -param Arg1
 
-
-
-
-
-
-
-
-#### - pvtssd [in]
+*pvtssd* [in]
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545964">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 

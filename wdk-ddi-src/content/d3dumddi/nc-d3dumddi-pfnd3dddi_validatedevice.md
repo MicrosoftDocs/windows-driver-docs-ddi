@@ -60,7 +60,7 @@ The <i>ValidateDevice</i> function returns the number of passes in which the har
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>ValidateDevice</i> function returns the number of passes in which the har
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544098">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a> structure that receives the number of passes in which the hardware can perform the blending operations.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544098">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a> structure that receives the number of passes in which the hardware can perform the blending operations.
 
 
 ## -returns

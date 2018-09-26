@@ -60,12 +60,7 @@ Used to destroy a hardware context.
 
 ### -param D3DKMT_DESTROYHWCONTEXT
 
-
-
-
-
-
-#### - destroyHwContext [in]
+*destroyHwContext* [in]
 
 A structure holding the information needed to destroy a hardware context.
 

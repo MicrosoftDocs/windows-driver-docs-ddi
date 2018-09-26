@@ -58,14 +58,14 @@ This callback function sets the batch latency for a specified sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
-### -param BatchLatencyMs [in]
+### -param BatchLatencyMs
 
-The batch latency, expressed in milliseconds.
+[in] The batch latency, expressed in milliseconds.
 
 
 ## -returns

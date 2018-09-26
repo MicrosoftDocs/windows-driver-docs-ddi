@@ -65,7 +65,7 @@ The DXGI format of the output texture.
 
 ### -field ColorSpace
 
-A DXGI_COLOR_SPACE_TYPE value that specifies the colorspace for the video processor output surface.
+A DXGI_COLOR_SPACE_TYPE value that specifies the color space for the video processor output surface.
 
 
 ### -field AlphaFillMode

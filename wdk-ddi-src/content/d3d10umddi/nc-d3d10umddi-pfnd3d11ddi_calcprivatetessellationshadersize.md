@@ -60,32 +60,24 @@ The <b>CalcPrivateTessellationShaderSize</b> function determines the size of the
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *pShaderCode
 
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pCode [in]
+*pCode* [in]
 
  An array of CONST UINT tokens that form the hull-shader code or domain-shader code.
 
+### -param *
 
-#### - pSignatures [in]
+*pSignatures* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542105">D3D11DDIARG_TESSELLATION_IO_SIGNATURES</a> structure that forms the hull or domain shader's signature.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542105">D3D11DDIARG_TESSELLATION_IO_SIGNATURES</a> structure that forms the hull or domain shader's signature.
 
 
 ## -returns

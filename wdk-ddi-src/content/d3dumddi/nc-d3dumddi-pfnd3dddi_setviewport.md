@@ -60,7 +60,7 @@ The <i>SetViewport</i> function informs guard-band-aware drivers of the view-cli
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetViewport</i> function informs guard-band-aware drivers of the view-cli
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544116">D3DDDIARG_VIEWPORTINFO</a> structure that describes the view-clipping rectangle.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544116">D3DDDIARG_VIEWPORTINFO</a> structure that describes the view-clipping rectangle.
 
 
 ## -returns

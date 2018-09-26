@@ -68,7 +68,7 @@ The <b>D3DKMTGetPresentHistory</b> function retrieves copying history.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 Supplies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548052">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
 

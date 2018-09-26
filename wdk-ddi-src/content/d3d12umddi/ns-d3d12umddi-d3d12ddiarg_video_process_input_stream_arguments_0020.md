@@ -95,7 +95,7 @@ Specifies whether the stream is stereo or not. If there is a value of <b>D3D12DD
 
 ### -field ColorSpace
 
-The colorspace for the video processor input and reference surfaces as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
+The color space for the video processor input and reference surfaces as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
 
 
 ### -field FilterFlags

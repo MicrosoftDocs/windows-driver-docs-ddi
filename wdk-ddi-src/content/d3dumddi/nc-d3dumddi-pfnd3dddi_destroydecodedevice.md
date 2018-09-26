@@ -60,21 +60,14 @@ The <b>DestroyDecodeDevice</b> function releases resources for a Microsoft Direc
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*hDecodeDevice* [in]
 
-
-
-
-
-
-
-#### - hDecodeDevice [in]
-
- A handle to the DirectX VA decode device that was created by the <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
+A handle to the DirectX VA decode device that was created by the <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
 
 
 ## -returns

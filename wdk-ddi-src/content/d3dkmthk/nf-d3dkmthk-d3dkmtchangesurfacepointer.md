@@ -65,7 +65,7 @@ The <b>D3DKMTChangeSurfacePointer</b> function is for system use only.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 For system use only.
 

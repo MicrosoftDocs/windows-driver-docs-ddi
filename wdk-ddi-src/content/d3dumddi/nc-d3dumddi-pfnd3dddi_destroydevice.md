@@ -60,7 +60,7 @@ The <i>DestroyDevice</i> function destroys a graphics context.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context) being destroyed.
+A handle to the display device (graphics context) being destroyed.
 
 
 ## -returns

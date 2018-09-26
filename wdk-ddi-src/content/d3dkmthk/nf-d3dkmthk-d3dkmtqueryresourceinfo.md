@@ -68,7 +68,7 @@ The <b>D3DKMTQueryResourceInfo</b> function retrieves information about a shared
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548223">D3DKMT_QUERYRESOURCEINFO</a> structure that contains parameters for retrieving information about a shared resource.
 

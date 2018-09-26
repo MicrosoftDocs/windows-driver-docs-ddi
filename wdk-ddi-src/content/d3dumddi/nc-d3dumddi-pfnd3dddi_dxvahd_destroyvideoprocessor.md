@@ -60,24 +60,15 @@ The <b>DestroyVideoProcessor</b> function releases resources for a Microsoft Dir
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hVideoProcessor [in]
-
- A handle to the DirectX VA video processor that the <a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a> function creates. 
+A handle to the DirectX VA video processor that the <a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a> function creates. 
 
 
 ## -returns

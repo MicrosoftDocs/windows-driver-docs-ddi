@@ -60,24 +60,18 @@ The <b>DestroyBlendState</b> function destroys the specified blend state object.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hBlendState* [in]
+
+A handle to the driver's private data for the blend state object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
 
 
 
-
-
-
-
-#### - hBlendState [in]
-
- A handle to the driver's private data for the blend state object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

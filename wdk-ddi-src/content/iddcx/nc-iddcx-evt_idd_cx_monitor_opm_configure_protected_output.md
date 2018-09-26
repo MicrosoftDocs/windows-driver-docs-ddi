@@ -60,16 +60,12 @@ req.typenames:
 
 ### -param OpmCxtObject [in]
 
-
-                    
-                A context used by the OS to identify the OPM context to configure output for.
+A context used by the OS to identify the OPM context to configure output for.
 
 
 ### -param pInArgs [in]
 
-
-                    
-                Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM CONFIGURE_PROTECTED_OUTPUT</b>.
+Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM CONFIGURE_PROTECTED_OUTPUT</b>.
 
 
 ## -returns

@@ -68,7 +68,7 @@ The <b>D3DKMTCreateOverlay</b> function creates a kernel-mode overlay object.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547840">D3DKMT_CREATEOVERLAY</a> structure that describes overlay hardware.
 

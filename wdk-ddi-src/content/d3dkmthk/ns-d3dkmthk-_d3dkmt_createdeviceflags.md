@@ -83,8 +83,6 @@ Setting this member is equivalent to setting the second bit of a 32-bit value (0
 
 ### -field Reserved
 
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of a 32-bit value to zeros.
-
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of a 32-bit value to zeros.
 
 

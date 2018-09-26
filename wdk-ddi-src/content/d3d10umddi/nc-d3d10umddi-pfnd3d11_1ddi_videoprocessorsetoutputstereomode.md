@@ -62,37 +62,21 @@ Specifies whether the video processor produces stereo video frames.
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hVideoProcessor* [in]
 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
-#### - hVideoProcessor [in]
+### -param Arg3
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+*Enable* [in]
 
+If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
 
 
 

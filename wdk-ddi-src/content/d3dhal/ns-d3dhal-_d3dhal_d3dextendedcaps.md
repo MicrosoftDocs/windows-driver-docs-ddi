@@ -66,41 +66,41 @@ Specifies the size in bytes of this D3DHAL_D3DEXTENDEDCAPS structure.
 ### -field dwMinTextureWidth
 
  
-
+Specify the minimum texture width, in pixels, supported by the driver or device. This member is typically a power of 2. These members are provided as hints to the application, and it is the application's responsibility to adjust texture sizes when necessary.
 
 ### -field dwMaxTextureWidth
 
  
-
+Specify the maximum texture width, in pixels, supported by the driver or device. This member is typically a power of 2. These members are provided as hints to the application, and it is the application's responsibility to adjust texture sizes when necessary.
 
 ### -field dwMinTextureHeight
 
  
-
+Specify the minimum texture height, in pixels, supported by the driver. This member is typically a power of 2.
 
 ### -field dwMaxTextureHeight
 
- 
+Specify the maximum texture height, in pixels, supported by the driver. This member is typically a power of 2.
 
 
 ### -field dwMinStippleWidth
 
- 
+Specify the minimum stipple width, in pixels, supported by the driver.
 
 
 ### -field dwMaxStippleWidth
 
- 
+Specify the maximum stipple width, in pixels, supported by the driver.
 
 
 ### -field dwMinStippleHeight
 
- 
+Specify the minimum stipple height, in pixels, supported by the driver.
 
 
 ### -field dwMaxStippleHeight
 
- 
+Specify the maximum stipple height, in pixels, supported by the driver.
 
 
 ### -field dwMaxTextureRepeat
@@ -631,26 +631,6 @@ Reserved for system use.
 ### -field dwReserved4
 
 Reserved for system use.
-
-
-#### - dwMinStippleHeight, dwMaxStippleHeight
-
-Specify the minimum and maximum stipple heights, in pixels, supported by the driver.
-
-
-#### - dwMinStippleWidth, dwMaxStippleWidth
-
-Specify the minimum and maximum stipple widths, in pixels, supported by the driver.
-
-
-#### - dwMinTextureHeight, dwMaxTextureHeight
-
-Specify the minimum and maximum texture heights, in pixels, supported by the driver. This member is typically a power of 2.
-
-
-#### - dwMinTextureWidth, dwMaxTextureWidth
-
-Specify the minimum and maximum texture widths, in pixels, supported by the driver or device. This member is typically a power of 2. These members are provided as hints to the application, and it is the application's responsibility to adjust texture sizes when necessary.
 
 
 ## -remarks

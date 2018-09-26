@@ -60,7 +60,7 @@ The <i>Rename</i> function informs a user-mode display driver to start using the
 
 ### -param hDevice [in]
 
- A handle to a display device (that is, the graphics context).
+A handle to a display device (that is, the graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>Rename</i> function informs a user-mode display driver to start using the
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543262">D3DDDIARG_RENAME</a> structure that describes the resource or surface within a resource to rename with a new allocation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543262">D3DDDIARG_RENAME</a> structure that describes the resource or surface within a resource to rename with a new allocation.
 
 
 ## -returns

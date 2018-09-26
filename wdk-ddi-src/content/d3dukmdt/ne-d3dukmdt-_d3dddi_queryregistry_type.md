@@ -54,6 +54,10 @@ Adapter key.
 
 Driver store path.
 
+### -field D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH
+
+Driver image path.
+
 ### -field D3DDDI_QUERYREGISTRY_MAX
 
 Max.

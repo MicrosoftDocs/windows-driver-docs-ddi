@@ -65,14 +65,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pLogUMDMarker [in]
+*pLogUMDMarker* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn535965">D3DDDICB_LOGUMDMARKER</a> structure that indicates the location of an ETW marker event that is defined by the user-mode display driver.
 
@@ -82,7 +75,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn53
 
 
 
-      Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
+Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
 
 
 

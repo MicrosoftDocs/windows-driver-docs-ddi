@@ -60,14 +60,7 @@ Used to destroy a hardware queue.
 
 ### -param D3DKMT_DESTROYHWQUEUE
 
-
-
-
-
-
-#### - destroyHwContext [in]
-
-A structure holding the information needed to destroy a hardware queue.
+[in] A structure holding the information needed to destroy a hardware queue.
 
 
 ## -returns

@@ -65,15 +65,15 @@ From a provided adapter handle, returns the engine type and friendly name of an 
 
 ### -param NodeOrdinalAndAdapterIndex
 
+An index of a node for which engine information will be obtained. This node is within the physical adapter defined by the <i>hAdapter</i> parameter.
 
 ### -param pGetNodeMetadata [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a> structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
+A pointer to a [DXGKARG_GETNODEMETADATA]() structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
 
 
-#### - NodeOrdinal [in]
 
-An index of a node for which engine information will be obtained. This node is within the physical adapter defined by the <i>hAdapter</i> parameter.
+
 
 
 ## -returns

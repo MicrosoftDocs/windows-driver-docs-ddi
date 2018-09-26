@@ -60,21 +60,14 @@ The <b>DestroyResource</b> function releases a specified resource.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context) that is used to destroy the resource.
+A handle to the display device (graphics context) that is used to destroy the resource.
 
 
 ### -param Arg1
 
+*hResource* [in]
 
-
-
-
-
-
-
-#### - hResource [in]
-
- A handle to the resource that the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> or <a href="https://msdn.microsoft.com/e3f5cec2-391b-40f9-8a4b-afe6b8de2954">OpenResource</a> function created.
+A handle to the resource that the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> or <a href="https://msdn.microsoft.com/e3f5cec2-391b-40f9-8a4b-afe6b8de2954">OpenResource</a> function created.
 
 
 ## -returns

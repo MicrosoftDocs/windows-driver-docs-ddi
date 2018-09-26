@@ -65,7 +65,7 @@ Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 
 ### -field MaxPlanes
 
- 
+[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
 
 
 ### -field MaxRGBPlanes
@@ -93,7 +93,5 @@ Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 [out] Indicates the maximum shrink factor that can be applied to a plane.
 
 
-#### - MaxPlane
 
-[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
 

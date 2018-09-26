@@ -60,6 +60,9 @@ The <i>GetSupportedVersions</i> function queries for the Direct3D interface vers
 
 ### -param Arg1
 
+*hAdapter* [in]
+
+A handle that identifies the graphics adapter.
 
 ### -param *puEntries [in, out]
 
@@ -68,12 +71,10 @@ A pointer to a variable that, on input, contains the number of entries that the 
 
 ### -param *pSupportedDDIInterfaceVersions [out, optional]
 
- A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
+A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
 
 
-#### - hAdapter [in]
 
- A handle that identifies the graphics adapter. 
 
 
 ## -returns

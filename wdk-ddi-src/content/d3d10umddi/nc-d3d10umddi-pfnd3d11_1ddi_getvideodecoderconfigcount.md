@@ -60,31 +60,23 @@ Queries the number of video decoder configurations that are supported by the dis
 
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
+
+*pDecodeDesc* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
 
 
+### -param *
 
-#### - pConfigCount [out]
+*pConfigCount* [out]
 
 A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
 
-
-#### - pDecodeDesc [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
 
 
 ## -returns

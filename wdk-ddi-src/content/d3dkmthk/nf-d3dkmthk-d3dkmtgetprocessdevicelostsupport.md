@@ -62,12 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_getprocessdevicelostsupport [in, out]
+*D3dkmt_getprocessdevicelostsupport* [in, out]
 
 Holds information to get the indicated process.
 

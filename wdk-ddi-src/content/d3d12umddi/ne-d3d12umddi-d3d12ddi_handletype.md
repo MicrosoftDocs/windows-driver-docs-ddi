@@ -160,3 +160,14 @@ A command recorder.
 
 A meta-command.
 
+### -field D3D12DDI_HT_0050_SCHEDULINGGROUP 
+
+Hardware scheduling group.
+
+### -field D3D12DDI_HT_0053_VIDEO_MOTION_ESTIMATOR 
+
+Video motion estimator.
+
+### -field D3D12DDI_HT_0053_VIDEO_MOTION_VECTOR_HEAP 
+
+Video motion vector heap.

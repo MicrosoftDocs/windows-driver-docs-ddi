@@ -72,7 +72,7 @@ A handle to the display device.
 
 
 
-#### - pData
+*pData*
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906765">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
 

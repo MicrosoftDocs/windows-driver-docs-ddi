@@ -60,24 +60,16 @@ The <i>pfnDestroyShaderCacheSession</i> callback function destroys a shader cach
 
 ### -param Arg1
 
+*hDevice*
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
-
-
-
-
-
-
-
-#### - hCacheSession
+*hCacheSession*
 
 The handle of a cache session.
 
-
-#### - hDevice
-
-The handle of a device.
 
 
 ## -returns

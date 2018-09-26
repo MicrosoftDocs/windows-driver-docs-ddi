@@ -65,7 +65,7 @@ The data size of  the resource.
 
 ### -field AdditionalDataHeaderSize
 
- 
+The additional size of the data header.
 
 
 ### -field AdditionalDataSize
@@ -103,9 +103,7 @@ The MIP level for a swizzle transition.
 The plane slice for a swizzle transition. 
 
 
-#### - UINT64
 
-The additional size of the data header.
 
 
 ## -see-also

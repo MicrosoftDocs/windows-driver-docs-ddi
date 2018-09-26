@@ -118,16 +118,33 @@ Supported starting with Windows 10.
 
 ### -field KMT_DRIVERVERSION_WDDM_2_1
 
+The display miniport driver supports the Windows display driver model with released Windows 10 features.
+
+Supported starting with Windows 10, version 1607.
 
 ### -field KMT_DRIVERVERSION_WDDM_2_2
 
+The display miniport driver supports the Windows display driver model with released Windows 10 features.
+
+Supported starting with Windows 10, version 1703.
 
 ### -field KMT_DRIVERVERSION_WDDM_2_3
 
+The display miniport driver supports the Windows display driver model with released Windows 10 features.
+
+Supported starting with Windows 10, version 1709.
 
 ### -field KMT_DRIVERVERSION_WDDM_2_4
 
+The display miniport driver supports the Windows display driver model with released Windows 10 features.
 
+Supported starting with Windows 10, version 1803.
+
+### -field KMT_DRIVERVERSION_WDDM_2_5
+
+The display miniport driver supports the Windows display driver model with released Windows 10 features.
+
+Supported starting with Windows 10, version 1809.
 
 ## -remarks
 

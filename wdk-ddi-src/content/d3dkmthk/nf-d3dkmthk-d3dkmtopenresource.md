@@ -68,7 +68,7 @@ The <b>D3DKMTOpenResource</b> function opens a shared resource.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548145">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
 

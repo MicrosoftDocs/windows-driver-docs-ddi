@@ -60,7 +60,7 @@ The <i>StateSet</i> function sets a state block.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>StateSet</i> function sets a state block.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543380">D3DDDIARG_STATESET</a> structure that describes how to set the state block.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543380">D3DDDIARG_STATESET</a> structure that describes how to set the state block.
 
 
 ## -returns

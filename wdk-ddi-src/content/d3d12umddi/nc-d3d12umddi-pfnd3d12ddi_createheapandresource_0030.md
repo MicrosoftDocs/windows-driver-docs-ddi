@@ -76,6 +76,18 @@ Used to create a heap.
 
 Used to create a resource.
 
+### -param *
+
+*d3d12ddiarg_createresource_0003* [in, optional]
+
+Arguments used to create a resource.
+
+### -param *
+
+*d3d12ddi_clear_values* [in, optional]
+
+Used to clear the values of the resource.
+
 ### -param Arg4
 
 The protected resource session.
@@ -84,20 +96,6 @@ The protected resource session.
 
 The hardware resource.
 
-
-#### - d3d12ddi_clear_values [in, optional]
-
-Used to clear the values of the resource.
-
-
-#### - d3d12ddi_hdevice
-
-The device being operated on.
-
-
-#### - d3d12ddiarg_createresource_0003 [in, optional]
-
-Arguments used to create a resource.
 
 
 ## -returns

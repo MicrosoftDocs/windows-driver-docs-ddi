@@ -65,16 +65,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pSetVidPnSourceAddressWithMultiPlaneOverlay
 
-
-
-
-
-
-
-
-#### - pData [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914471">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a> structure that describes the surfaces and display options to present.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914471">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a> structure that describes the surfaces and display options to present.
 
 
 ## -returns

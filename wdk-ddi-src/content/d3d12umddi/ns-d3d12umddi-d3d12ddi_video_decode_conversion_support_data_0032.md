@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 ## -description
 
 
-Structure used to check if a colorspace conversion, format conversion, and scale are supported, and whether it is required for real-time reasons or reference buffer format.
+Structure used to check if a color space conversion, format conversion, and scale are supported, and whether it is required for real-time reasons or reference buffer format.
 
 
 ## -struct-fields
@@ -100,7 +100,7 @@ Indicates the supported output size range for decode conversion. See [D3D12DDI_V
 
 ## -remarks
 
-If the colorspace and format conversion is reported, **SupportedFlags** will have D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED set. Callers should check **ScaleSupport** to understand if the scale is supported.
+If the color space and format conversion is reported, **SupportedFlags** will have D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED set. Callers should check **ScaleSupport** to understand if the scale is supported.
 
 
 ## -see-also

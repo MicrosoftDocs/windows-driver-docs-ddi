@@ -68,7 +68,7 @@ The <b>D3DKMTGetDeviceState</b> function retrieves the state of a device.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
 

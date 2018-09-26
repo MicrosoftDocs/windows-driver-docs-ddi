@@ -62,12 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_destroyprotectedsession [in, out]
+*D3dkmt_destroyprotectedsession* [in, out]
 
 Holds information to destroy a protected session.
 

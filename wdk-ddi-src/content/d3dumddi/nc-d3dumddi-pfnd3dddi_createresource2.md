@@ -58,23 +58,16 @@ Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and l
 
 
 
-### -param hDevice [in]
+### -param hDevice 
 
- A handle to the display device (graphics context) that is used to create the resource.
+[in] A handle to the display device (graphics context) that is used to create the resource.
 
 
 ### -param *
 
+*pResource2* [in, out]
 
-
-
-
-
-
-
-#### - pResource2 [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451074">D3DDDIARG_CREATERESOURCE2</a> structure that describes the resource that is created.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451074">D3DDDIARG_CREATERESOURCE2</a> structure that describes the resource that is created.
 
 
 ## -returns

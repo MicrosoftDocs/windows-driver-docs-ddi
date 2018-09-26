@@ -60,14 +60,7 @@ The <b>D3DKMTCheckOcclusion</b> function verifies whether the client area of a w
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547306">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
 

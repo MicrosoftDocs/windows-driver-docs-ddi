@@ -271,11 +271,11 @@ Specifies core layer device callback functions.
 ### -field pfnShaderCacheGetValueCb
 
  
-
+A callback function that gets the shader cache value.
 
 ### -field pfnShaderCacheStoreValueCb
 
- 
+A callback function that stores the shader cache value.
 
 
 ### -field pfnShaderCacheAddRefCb
@@ -288,12 +288,4 @@ A callback function that adds a reference to the shader cache.
 A callback function that releases a reference to a cache. 
 
 
-#### - pfnShaderCacheGetValue
-
-A callback function that gets the shader cache value.
-
-
-#### - pfnShaderCacheStoreValue
-
-A callback function that stores the shader cache value. 
 

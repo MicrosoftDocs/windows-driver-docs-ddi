@@ -62,14 +62,7 @@ req.typenames:
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER2
 
-
-
-
-
-
-#### - D3dkmt_setvidpnsourceowner2 [in]
-
-Indicates the source owner.
+[in] Indicates the source owner.
 
 
 ## -returns

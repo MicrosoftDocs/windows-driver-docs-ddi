@@ -68,7 +68,7 @@ The <b>D3DKMTQueryAllocationResidency</b> function retrieves the residency statu
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548212">D3DKMT_QUERYALLOCATIONRESIDENCY</a> structure that contains information for retrieving the residency status of a resource or list of allocations.
 

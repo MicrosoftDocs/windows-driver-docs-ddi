@@ -68,7 +68,7 @@ The <b>D3DKMTPresent</b> function submits a present command to the Microsoft Dir
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a> structure that describes parameters for presenting.
 

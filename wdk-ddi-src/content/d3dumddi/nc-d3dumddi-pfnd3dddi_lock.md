@@ -60,7 +60,7 @@ The <i>Lock</i> function locks the given resource or a surface within the resour
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>Lock</i> function locks the given resource or a surface within the resour
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a> structure that describes the resource or surface within the resource to lock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a> structure that describes the resource or surface within the resource to lock.
 
 
 ## -returns

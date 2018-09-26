@@ -68,7 +68,7 @@ The <b>D3DKMTWaitForVerticalBlankEvent</b> function waits for the vertical blank
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548441">D3DKMT_WAITFORVERTICALBLANKEVENT</a> structure that describes parameters for waiting for the vertical blank to occur.
 

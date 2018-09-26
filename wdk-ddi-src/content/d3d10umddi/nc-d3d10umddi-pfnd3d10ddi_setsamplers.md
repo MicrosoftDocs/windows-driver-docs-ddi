@@ -60,37 +60,26 @@ The <b>CsSetSamplers</b> function sets samplers for a compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param StartSlot
 
+*Offset* [in]
 
-### -param NumSamplers [in]
+The offset to the first sampler to set.
 
- The total number of samplers to set. 
+### -param NumSamplers 
 
+[in] The total number of samplers to set. 
 
 ### -param *
 
+*phSamplers* [in]
 
+An array of handles to the samplers, beginning at the offset that <i>Offset</i> specifies.
 
-
-
-
-
-
-#### - Offset [in]
-
- The offset to the first sampler to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phSamplers [in]
-
- An array of handles to the samplers, beginning at the offset that <i>Offset</i> specifies.
 
 
 ## -returns

@@ -55,7 +55,7 @@ The contents of the swap chain is not in order.
 
 ### -field Reserved
 
-Reserved.
+Reserved for internal use.
 
 ### -field Value
 

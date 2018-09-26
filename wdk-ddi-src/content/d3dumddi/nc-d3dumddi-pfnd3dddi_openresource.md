@@ -60,21 +60,14 @@ The <i>OpenResource</i> function informs the driver that a shared resource is op
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context) that is used to open the resource.
+A handle to the display device (graphics context) that is used to open the resource.
 
 
 ### -param *
 
+*pResource* [in, out]
 
-
-
-
-
-
-
-#### - pResource [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543232">D3DDDIARG_OPENRESOURCE</a> structure that describes the resource that is opened.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543232">D3DDDIARG_OPENRESOURCE</a> structure that describes the resource that is opened.
 
 
 ## -returns

@@ -60,24 +60,15 @@ The <i>GenMips</i> function generates the lower MIP-map levels on the specified 
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hShaderResourceView* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hShaderResourceView [in]
-
- A handle to the MIP-map texture surface.
+A handle to the MIP-map texture surface.
 
 
 ## -returns

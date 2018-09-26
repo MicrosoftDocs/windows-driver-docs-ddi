@@ -60,12 +60,7 @@ Called by an in-process (in-proc) Microsoft Direct3D composition device to retri
 
 ### -param Arg1
 
-
-
-
-
-
-#### - pContextPriority [in, out]
+*pContextPriority* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780256">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes information that is required to retrieve the scheduling priority for a device context.
 

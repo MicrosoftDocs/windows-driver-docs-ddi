@@ -66,11 +66,6 @@ Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. 
 Pointer to a string that contains the debug message.
 
 
-### -param param
-
-TBD
-
-
 
 
 ## -returns

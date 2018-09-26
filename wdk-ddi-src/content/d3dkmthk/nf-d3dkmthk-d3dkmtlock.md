@@ -68,7 +68,7 @@ The <b>D3DKMTLock</b> function locks an entire allocation or specific pages with
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548094">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
 

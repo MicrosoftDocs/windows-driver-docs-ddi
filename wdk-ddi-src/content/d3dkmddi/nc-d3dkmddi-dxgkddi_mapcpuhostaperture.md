@@ -65,14 +65,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-
-
-
-
-
-
-
-#### - Map [in]
+*Map* [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906822">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 

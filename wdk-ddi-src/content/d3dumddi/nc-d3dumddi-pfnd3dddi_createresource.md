@@ -60,21 +60,14 @@ The <b>CreateResource</b> function creates a resource.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context) that is used to create the resource.
+A handle to the display device (graphics context) that is used to create the resource.
 
 
 ### -param *
 
+*pResource* [in, out]
 
-
-
-
-
-
-
-#### - pResource [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a> structure that describes the resource that is created.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a> structure that describes the resource that is created.
 
 
 ## -returns

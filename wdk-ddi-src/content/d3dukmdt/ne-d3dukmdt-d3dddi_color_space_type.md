@@ -686,64 +686,10 @@ This is usually used with 10, 12, or 16 bit color channels.
 </table>
  
 
-This colorspace can be used as an input to the video processor DDIs, but will never be used to scan out.
+This color space can be used as an input to the video processor DDIs, but will never be used to scan out.
 
 
 ### -field D3DDDI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020
-
-
-### -field D3DDDI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709
-
-
-### -field D3DDDI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020
-
-
-### -field D3DDDI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709
-
-
-### -field D3DDDI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020
-
-
-### -field D3DDDI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020
-
-
-### -field D3DDDI_COLOR_SPACE_CUSTOM
-
-A custom color definition is used.
-
-
-#### - DD3DDDI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020
-
-<table>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>Colorspace</td>
-<td>RGB</td>
-</tr>
-<tr>
-<td>Range</td>
-<td>0-255</td>
-</tr>
-<tr>
-<td>Gamma</td>
-<td>2.2</td>
-</tr>
-<tr>
-<td>Cositing</td>
-<td>None</td>
-</tr>
-<tr>
-<td>Primaries</td>
-<td>BT.2020</td>
-</tr>
-</table>
- 
-
-
-#### - DD3DDDI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020
 
 <table>
 <tr>
@@ -773,7 +719,31 @@ A custom color definition is used.
 </table>
  
 
-This colorspace can be used as an input to the video processor DDIs, but will never be used to scan out.
+This color space can be used as an input to the video processor DDIs, but will never be used to scan out.
+
+### -field D3DDDI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709
+
+
+### -field D3DDDI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020
+
+
+### -field D3DDDI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709
+
+
+### -field D3DDDI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020
+
+
+### -field D3DDDI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020
+
+
+### -field D3DDDI_COLOR_SPACE_CUSTOM
+
+A custom color definition is used.
+
+
+
+
+
 
 
 ## -remarks

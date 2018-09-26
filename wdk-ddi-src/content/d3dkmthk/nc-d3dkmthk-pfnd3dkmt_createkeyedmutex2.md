@@ -67,7 +67,7 @@ Creates a keyed mutex object that includes private data.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439474">D3DKMT_CREATEKEYEDMUTEX2</a> structure that describes a keyed mutex object to create.
 

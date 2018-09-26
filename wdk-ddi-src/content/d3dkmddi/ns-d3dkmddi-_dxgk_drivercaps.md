@@ -4,7 +4,6 @@ title: "_DXGK_DRIVERCAPS"
 author: windows-driver-content
 description: The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_drivercaps.htm
-
 ms.assetid: 1ee8eb02-066c-4a54-b31a-cd6644cbce06
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
@@ -112,7 +111,7 @@ The DXGK_DRIVERCAPS structure describes capabilities of a display miniport drive
 
 ### -field ColorTransformCaps
 
-Flags to describe gamma and colorspace transform capabilities of the display pipelines.
+[out] Flags to describe gamma and color space transform capabilities of the display pipelines.
 
 <div class="alert"><b>Note</b>  This field replaces the GammaRampCaps in the pre-WDDM 2.2 version of this structure.</div>
 <div> </div>
@@ -158,7 +157,7 @@ with the Windows 7 WDK (Version 7600), set this member to DXGKDDI_WDDMv1.
 with the Windows 8 WDK, set this member to DXGKDDI_WDDMv1_2.
 
 </div>
-<div> </div>
+
 Supported starting with Windows 7.
 
 
@@ -262,29 +261,24 @@ Supported starting with Windows 8.1.
 
 Supported starting with Windows 8.1.
 
-* GammaRampCaps
-
-  * [out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gammarampcaps.md">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
 
 ### -field HybridIntegrated
 
-
+Indicates whether the current GPU is hybrid.
 
 
 ### -field InternalGpuVirtualAddressRangeStart
 
-
+Internal GPU virtual address range start.
 
 
 ### -field InternalGpuVirtualAddressRangeEnd
 
-
-
+Internal GPU virtual address range end.
 
 ### -field SupportSurpriseRemoval
 
-
-
+Support surprise removal.
 
 ### -field SupportMultiPlaneOverlayImmediateFlip
 
@@ -311,19 +305,25 @@ Indicates that this hybrid discrete driver requires chaining of ACPI events trig
 
 Miscellaneous capabilities.
 
-* MiscCaps.SupportContextlessPresent
+### -field MiscCaps.SupportContextlessPresent
 
-  * Supports contextless present.
+Supports null context in DDI calls. When this value is set, the OS will pass NULL context in present related DDIs.
 
-* MiscCaps.Detachable
+Supported starting in WDDM 2.4.
 
-  * Detachable.
+### -field MiscCaps.Detachable
 
-* MiscCaps.Reserved
+Detachable, i.e. hot-pluggable. Drivers will set this bit during adapter initialization if the adapter is hot-pluggable.
 
-  * Reserved.
+### -field MiscCaps.VirtualGpuOnly
 
-* MiscCaps.Value
+The adapter should not be used by Direct3D applications on the host.
+
+### -field MiscCaps.Reserved
+
+Reserved.
+
+### -field MiscCaps.Value
 
 ## -see-also
 

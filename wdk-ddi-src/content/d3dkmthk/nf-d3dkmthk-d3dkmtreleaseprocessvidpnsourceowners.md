@@ -63,14 +63,9 @@ The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video pre
 
 ### -param Arg1
 
+*hProcess* 
 
-
-
-
-
-#### - hProcess [in]
-
-A handle to the process that video present network source owners are released from.
+[in] A handle to the process that video present network source owners are released from.
 
 
 ## -returns

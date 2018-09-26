@@ -60,7 +60,7 @@ The <b>DestroyOverlay</b> function disables the overlay hardware and frees the o
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DestroyOverlay</b> function disables the overlay hardware and frees the o
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543042">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543042">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
 
 
 ## -returns

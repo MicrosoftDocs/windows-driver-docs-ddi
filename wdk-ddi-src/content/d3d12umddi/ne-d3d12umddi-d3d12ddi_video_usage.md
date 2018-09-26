@@ -70,10 +70,7 @@ Lower the power usage. This setting can lead to some reduction in video quality.
 
 ### -field D3D12DDI_VIDEO_USAGE_QUALITY
 
-
-
-
-#### - D3D12_VIDEO_USAGE_QUALITY
+*D3D12_VIDEO_USAGE_QUALITY*
 
 The best video quality possible. This setting is appropriate for tasks such as video editing, where quality is more important than speed. It is not appropriate for real-time playback.
 

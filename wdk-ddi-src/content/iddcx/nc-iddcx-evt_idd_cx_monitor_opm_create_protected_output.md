@@ -60,9 +60,7 @@ req.typenames:
 
 ### -param MonitorObject [in]
 
-
-                    
-                A handle used by the OS to identify the monitor that the OPM context should be created on.
+A handle used by the OS to identify the monitor that the OPM context should be created on.
 
 
 ### -param OpmCxtObject [in]

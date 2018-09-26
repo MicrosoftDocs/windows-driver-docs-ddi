@@ -80,16 +80,5 @@ A barrier flag as a <a href="https://msdn.microsoft.com/876ABC9C-F9BE-480F-8641-
 
 ### -field UAV
 
- 
 
-
-
-
-#### - {
-        D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 Transition;
-        D3D12DDI_RESOURCE_UAV_BARRIER             UAV;
-        D3D12DDI_RESOURCE_RANGED_BARRIER_0022     Ranged;
-    }
-
-A resource barrier.
 

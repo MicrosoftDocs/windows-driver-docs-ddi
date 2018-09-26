@@ -58,14 +58,14 @@ This callback function sets the threshold for one or more data fields associated
 
 
 
-### -param Sensor [in]
+### -param Sensor 
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
-### -param pThresholds [in]
+### -param pThresholds 
 
-A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[in] A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -returns

@@ -78,11 +78,9 @@ The address of the I2C device to which data will be transmitted.
 The length, in bytes, of the data to be transmitted. This parameter must be between 1 and 64, inclusive.
 
 
-### -param PVOID
+### -param VOID
 
-
-
-#### - Data [in]
+*Data* [in]
 
 A pointer to a buffer that holds the data to be transmitted.
 

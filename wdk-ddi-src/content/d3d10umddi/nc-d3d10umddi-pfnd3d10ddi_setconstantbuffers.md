@@ -55,42 +55,27 @@ The <b>CsSetConstantBuffers</b> function sets constant buffers for a compute sha
 
 ## -parameters
 
-
-
-
 ### -param Arg1
+
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 
 ### -param StartSlot
 
+[in] The starting constant buffer to set.
 
-### -param NumBuffers [in]
+### -param NumBuffers 
 
- The total number of buffers to set. 
+[in] The total number of buffers to set. 
 
 
 ### -param *
 
+*phBuffers* [in]
 
-
-
-
-
-
-
-#### - StartBuffer [in]
-
- The starting constant buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phBuffers [in]
-
- An array of handles to the constant buffers, beginning with the buffer that <b>StartBuffer</b> specifies.
+An array of handles to the constant buffers, beginning with the buffer that <b>StartBuffer</b> specifies.
 
 
 ## -returns

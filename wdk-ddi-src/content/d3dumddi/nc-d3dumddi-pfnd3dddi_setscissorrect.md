@@ -60,21 +60,14 @@ The <i>SetScissorRect</i> function marks a portion of a render target that rende
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pRect* [in]
 
-
-
-
-
-
-
-#### - pRect [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the 2-D portion of the render target to confine rendering to.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the 2-D portion of the render target to confine rendering to.
 
 
 ## -returns

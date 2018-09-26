@@ -83,7 +83,7 @@ Indicates that  a JPEG copy context should be created.
 Indicates that a JPEG video context should be created.
 
 
-#### - D3DWDDM2_0DDI_CONTEXTTYPE_IMAGE
+### -field D3DWDDM2_0DDI_CONTEXTTYPE_IMAGE
 
 Indicates that a JPEG image context should be created.
 

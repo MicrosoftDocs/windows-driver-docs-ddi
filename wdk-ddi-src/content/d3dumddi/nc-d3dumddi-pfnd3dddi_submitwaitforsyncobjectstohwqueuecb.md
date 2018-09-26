@@ -65,14 +65,7 @@ A handle to the device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - submitWaitForSyncObjectsToHwQueue [in]
+*submitWaitForSyncObjectsToHwQueue* [in]
 
 A pointer to the structure holding information on submitting a wait command to the hardware queue.
 

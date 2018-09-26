@@ -60,21 +60,14 @@ The <i>SetPixelShader</i> function sets a pixel shader to be used in all drawing
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*hShaderHandle* [in]
 
-
-
-
-
-
-
-#### - hShaderHandle [in]
-
- A handle to the pixel shader code object.
+A handle to the pixel shader code object.
 
 
 ## -returns

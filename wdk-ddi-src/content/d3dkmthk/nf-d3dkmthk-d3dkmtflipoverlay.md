@@ -68,7 +68,7 @@ The <b>D3DKMTFlipOverlay</b> function changes the allocation to display on the o
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548002">D3DKMT_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
 

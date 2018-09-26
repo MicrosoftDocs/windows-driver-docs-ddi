@@ -72,7 +72,7 @@ A handle to the display device.
 
 
 
-#### - pData [out]
+*pData* [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906760">D3DDDICB_CREATEPAGINGQUEUE</a> structure that provides the details of the requested operation.
 

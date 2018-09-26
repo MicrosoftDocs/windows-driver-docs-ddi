@@ -62,44 +62,29 @@ Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) de
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - BufferCount [in]
-
-The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
-
-
-#### - hDecoder [in]
-
-A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hDecoder* [in]
 
+A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
-#### - pBufferDesc [in]
+### -param Arg3
+
+*BufferCount* [in]
+
+The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
+
+### -param *
+
+*pBufferDesc* [in]
 
 A pointer to an array of one or more  <a href="https://msdn.microsoft.com/library/windows/hardware/hh698264">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. For more information, see the Remarks section.
+
+
 
 
 ## -returns

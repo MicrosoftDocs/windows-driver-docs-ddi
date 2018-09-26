@@ -60,16 +60,9 @@ The <b>AbandonCommandList</b> function abandons the command list.
 
 ### -param Arg1
 
+*hDevice* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ## -returns

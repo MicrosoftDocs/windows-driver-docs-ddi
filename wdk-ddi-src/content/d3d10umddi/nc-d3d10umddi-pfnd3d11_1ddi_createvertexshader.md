@@ -60,43 +60,29 @@ Creates a vertex shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *pShaderCode [in]
 
  An array of CONST UINT tokens that make up the shader code. The first token in the shader code stream is always the version token. The next token in the stream is the length token that determines the end of the shader code stream. For more information about the format of Direct3D version 11.1 shader code, see the comments inside the D3d10tokenizedprogramformat.hpp header file that is included with the WDK.
 
-
 ### -param Arg2
 
+*hShader* [in]
+
+A handle to the driver's private data for the vertex shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e23c267f-41df-47a6-ae43-3bbcb48fd300">CalcPrivateShaderSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
 
 ### -param Arg3
 
+*hRTShader* [in]
+
+A handle to the vertex shader that the driver should use when it calls back into the Direct3D runtime.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-#### - hRTShader
-
- A handle to the vertex shader that the driver should use when it calls back into the Direct3D runtime. 
-
-
-#### - hShader
-
- A handle to the driver's private data for the vertex shader. The driver returns the size, in bytes, of the memory region that the Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e23c267f-41df-47a6-ae43-3bbcb48fd300">CalcPrivateShaderSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object. 
-
-
-#### - pSignatures [in]
+*pSignatures* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406324">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 

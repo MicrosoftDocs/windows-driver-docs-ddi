@@ -60,56 +60,40 @@ The <b>DrawIndexedInstanced</b> function draws particular instances of indexed p
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*IndexCountPerInstance* [in]
+
+The number of indexes per instance of the index buffer that indexes are read from to draw the primitives.
 
 ### -param Arg3
 
-
-### -param Arg4
-
-
-### -param Arg5
-
-
-### -param Arg6
-
-
-
-
-
-
-
-
-#### - BaseVertexLocation [in]
-
-The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
-
-
-#### - IndexCountPerInstance [in]
-
-The number of indexes per instance of the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - InstanceCount [in]
+*InstanceCount* [in]
 
 The number of instances of the index buffer that indexes are read from to draw the primitives. 
 
+### -param Arg4
 
-#### - StartIndexLocation [in]
+*StartIndexLocation* [in]
 
-The first index in the index buffer that indexes are read from to draw the primitives. 
+The first index in the index buffer that indexes are read from to draw the primitives.
 
+### -param Arg5
 
-#### - StartInstanceLocation [in]
+*BaseVertexLocation* [in]
+
+The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
+
+### -param Arg6
+
+*StartInstanceLocation* [in]
 
 The first instance of the index buffer that indexes are read from to draw the primitives. 
 
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 ## -returns

@@ -60,26 +60,21 @@ The <i>SetLight</i> function sets properties for a light source.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
 
+*pData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543317">D3DDDIARG_SETLIGHT</a> structure that describes how to set the light source.
 
+### -param *
 
+*pLightProperties* [in]
 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543317">D3DDDIARG_SETLIGHT</a> structure that describes how to set the light source.
-
-
-#### - pLightProperties [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that describes the light properties to set.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that describes the light properties to set.
 
 
 ## -returns

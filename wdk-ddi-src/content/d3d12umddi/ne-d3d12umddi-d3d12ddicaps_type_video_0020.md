@@ -75,7 +75,7 @@ Retrieve the list of supported decode formats for a [D3D12DDI_VIDEO_DECODE_CONFI
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT
 
-Check whether a colorspace conversion, format conversion, and scale are supported. The associated data structure is [D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032](ns-d3d12umddi-d3d12ddi_video_decode_conversion_support_data_0032.md).
+Check whether a color space conversion, format conversion, and scale are supported. The associated data structure is [D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032](ns-d3d12umddi-d3d12ddi_video_decode_conversion_support_data_0032.md).
 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES
@@ -137,3 +137,15 @@ The video crypto session transform support. Maps to the [D3D12DDI_VIDEO_CRYPTO_S
 ### -field D3D12DDICAPS_TYPE_VIDEO_0040_DECODE_HISTOGRAM
 
 The video decode histogram data. Maps to the [D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041](ns-d3d12umddi-d3d12ddi_video_decode_histogram_data_0041.md) structure.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_FEATURE_AREA_SUPPORT 
+
+The video feature area support.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR 
+
+The video motion estimator caps check.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR_SIZE 
+
+The video motion estimator size caps check.

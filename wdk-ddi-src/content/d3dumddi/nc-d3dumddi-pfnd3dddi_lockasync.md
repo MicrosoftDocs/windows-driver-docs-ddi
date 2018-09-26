@@ -60,7 +60,7 @@ The <i>LockAsync</i> function locks the specified resource or a surface within t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>LockAsync</i> function locks the specified resource or a surface within t
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543213">D3DDDIARG_LOCKASYNC</a> structure that describes the resource or surface within the resource to lock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543213">D3DDDIARG_LOCKASYNC</a> structure that describes the resource or surface within the resource to lock.
 
 
 ## -returns

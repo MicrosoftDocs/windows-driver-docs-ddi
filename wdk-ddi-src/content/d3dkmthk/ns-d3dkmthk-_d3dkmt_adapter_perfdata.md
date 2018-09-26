@@ -47,7 +47,7 @@ Contains input arguments for the [D3DKMTQueryAdapterInfo](nf-d3dkmthk-d3dkmtquer
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index in a LDA chain.
+The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field MemoryFrequency
 

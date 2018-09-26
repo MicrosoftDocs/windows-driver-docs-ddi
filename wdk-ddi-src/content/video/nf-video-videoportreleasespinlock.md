@@ -59,19 +59,20 @@ The <b>VideoPortReleaseSpinLock</b> function releases ownership of a given spin 
 
 
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
-Pointer to the miniport driver's device extension.
-
-
-### -param param
-
-<p>Pointer to a memory location that contains the spin lock to be released.</p>
+[in] Pointer to the miniport driver's device extension.
 
 
-### -param NewIrql [in]
+### -param SpinLock
 
-Specifies the IRQL to be restored.
+[in, out] Pointer to a memory location that contains the spin lock to be released.
+
+
+### -param NewIrql 
+
+[in] Specifies the IRQL to be restored.
+
 
 
 ## -returns

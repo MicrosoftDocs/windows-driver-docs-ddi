@@ -60,6 +60,7 @@ The <i>DxgkCbLogEtwEvent</i> function logs an Event Tracing for Windows (ETW) ev
 
 ### -param LPCGUID
 
+[in] A GUID that identifies the event to be logged.
 
 ### -param Type [in]
 
@@ -76,9 +77,7 @@ The size, in bytes, of the buffer pointed to by <i>EventBuffer</i>. There is a s
 A pointer to a buffer that contains the information to be logged.
 
 
-#### - EventGuid [in]
 
-A GUID that identifies the event to be logged.
 
 
 ## -returns

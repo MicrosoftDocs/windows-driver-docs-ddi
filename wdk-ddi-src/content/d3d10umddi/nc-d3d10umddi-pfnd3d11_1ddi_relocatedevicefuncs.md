@@ -60,24 +60,14 @@ Notifies the user-mode display driver about the new location of the driver funct
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406443">D3D11_1DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
 
-
-
-
-
-
-
-#### - [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406443">D3D11_1DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
 
 
 ## -returns

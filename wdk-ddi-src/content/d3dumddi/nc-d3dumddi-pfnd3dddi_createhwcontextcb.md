@@ -65,14 +65,7 @@ A handle to the device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - createHwContext [in, out]
+*createHwContext* [in, out]
 
 A pointer to the structure holding information on creating the hardware context.
 

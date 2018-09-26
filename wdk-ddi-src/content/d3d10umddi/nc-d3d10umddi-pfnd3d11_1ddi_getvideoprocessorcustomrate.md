@@ -60,54 +60,33 @@ Queries a custom frame rate that is associated with a rate conversion capability
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - CustomRateIndex [in]
-
-The zero-based index of the custom rate to query. For more information, see the Remarks section.
-
-
-#### - RateConversionIndex [in]
-
-The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
-
-
-#### - hProcessorEnum [in]
+*hProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
+### -param Arg3
 
+*CustomRateIndex* [in]
 
+The zero-based index of the custom rate to query. For more information, see the Remarks section.
 
-#### - pRate [out]
+### -param Arg4
+
+*RateConversionIndex* [in]
+
+The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
+
+### -param *
+
+*pRate* [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450977">D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE</a> structure that contains the attributes of the specified custom rate.
-
-
 
 
 ## -returns

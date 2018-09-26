@@ -68,7 +68,4 @@ Reserved for system use.
 Reserved for system use.
 
 
-#### - Stereo
-
-Reserved for system use.
 

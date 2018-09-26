@@ -68,7 +68,7 @@ The <b>D3DKMTSetGammaRamp</b> function sets the gamma ramp.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548307">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
 

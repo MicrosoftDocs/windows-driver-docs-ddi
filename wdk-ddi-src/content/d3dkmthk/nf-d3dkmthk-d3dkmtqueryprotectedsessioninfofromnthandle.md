@@ -62,12 +62,7 @@ Used to get information on the protected session.
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_queryprotectedsessioninfofromnthandle
+*D3dkmt_queryprotectedsessioninfofromnthandle*
 
 Holds session information from the NT handle.
 

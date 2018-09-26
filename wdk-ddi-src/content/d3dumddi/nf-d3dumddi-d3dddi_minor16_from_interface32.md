@@ -1,0 +1,58 @@
+---
+UID: NF:d3dumddi.D3DDDI_MINOR16_FROM_INTERFACE32
+title: D3DDDI_MINOR16_FROM_INTERFACE32 macro
+author: windows-driver-content
+description: Converts a 16 bit minor from a 32 bit interface.
+ms.assetid: a099608b-ab54-40a8-ab69-956144f68d4c
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: macro
+ms.keywords: D3DDDI_MINOR16_FROM_INTERFACE32
+req.header: d3dumddi.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.irql: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	d3dumddi.h
+api_name: 
+-	D3DDDI_MINOR16_FROM_INTERFACE32
+product:
+-	Windows
+targetos: Windows
+
+
+---
+
+# D3DDDI_MINOR16_FROM_INTERFACE32 macro
+
+
+## -description
+
+Converts a 16 bit minor from a 32 bit interface.
+
+## -parameters
+
+### -param v
+
+The current value.
+
+## -remarks
+
+## -see-also

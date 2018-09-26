@@ -235,12 +235,6 @@ Must be 1.
 ### -field dwMB_SNL
 
 
-
-
-
-######### 
-
-
 ### -field wPatternCode
 
 Indicates whether residual difference data is sent for each block in the macroblock. In an intra picture, residual difference data is sent for every block in the macroblock. The bits in <b>wPatternCode</b> that refer to all blocks of the current macroblock must be 1 in DXVA_MBctrl_I_OffHostIDCT_1.

@@ -58,14 +58,9 @@ The <b>DxgkCbNotifyInterrupt</b> function informs the graphics processing unit (
 
 
 
-### -param hAdapter [in]
+### -param hAdapter 
 
 [in] A handle to the adapter object for the GPU. A driver receives the handle from the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure in a call to its <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
-
-
-#### - pData [in, out]
-
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure that describes notification information.
 
 
 ## -returns

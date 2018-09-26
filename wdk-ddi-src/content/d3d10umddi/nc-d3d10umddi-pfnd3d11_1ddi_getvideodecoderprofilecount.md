@@ -60,24 +60,13 @@ Queries the number of video decoder profiles that are supported by the display m
 
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
-
-
-#### - pDecodeProfileCount [out]
+*pDecodeProfileCount* [out]
 
 A pointer to a UINT value that specifies the maximum number of decoder profiles that are supported.
 

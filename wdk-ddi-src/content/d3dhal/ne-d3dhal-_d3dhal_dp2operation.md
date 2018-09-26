@@ -227,529 +227,157 @@ Specifies that a user-defined clip plane is being used. See <a href="https://msd
 
 
 
-###### 
-
-
-
-####### 
-
 
 ### -field D3DDP2OP_DELETEVERTEXSHADER
 
 
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETVERTEXSHADER
 
 
 
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_SETVERTEXSHADERCONST
 
 
 
-###### 
-
-
-
-####### 
-
 
 ### -field D3DDP2OP_SETSTREAMSOURCE
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETSTREAMSOURCEUM
 
 
 
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_SETINDICES
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_DRAWPRIMITIVE
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_DRAWINDEXEDPRIMITIVE
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_CREATEPIXELSHADER
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_DELETEPIXELSHADER
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETPIXELSHADER
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_SETPIXELSHADERCONST
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_CLIPPEDTRIANGLEFAN
 
-
-      DirectX 8.0 and later versions only.This token is sent to the driver to draw transformed, clipped triangle fans. This token is a replacement for the DirectX 7.0 tokens that used inline vertices in the command stream. The triangle fans are specified by one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff544733">D3DHAL_CLIPPEDTRIANGLEFAN</a> structures.
+DirectX 8.0 and later versions only.This token is sent to the driver to draw transformed, clipped triangle fans. This token is a replacement for the DirectX 7.0 tokens that used inline vertices in the command stream. The triangle fans are specified by one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff544733">D3DHAL_CLIPPEDTRIANGLEFAN</a> structures.
 
 
 ### -field D3DDP2OP_DRAWPRIMITIVE2
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_DRAWINDEXEDPRIMITIVE2
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_DRAWRECTPATCH
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_DRAWTRIPATCH
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_VOLUMEBLT
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_BUFFERBLT
-
-
-
-###### 
-
-
-
-###### 
-
 
 ### -field D3DDP2OP_MULTIPLYTRANSFORM
 
-
-      DirectX 8.0 and later versions only. Multiplies a current transform. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545664">D3DHAL_DP2MULTIPLYTRANSFORM</a>.
+DirectX 8.0 and later versions only. Multiplies a current transform. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545664">D3DHAL_DP2MULTIPLYTRANSFORM</a>.
 
 
 ### -field D3DDP2OP_ADDDIRTYRECT
 
-
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_ADDDIRTYBOX
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_CREATEVERTEXSHADERDECL
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_DELETEVERTEXSHADERDECL
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETVERTEXSHADERDECL
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_CREATEVERTEXSHADERFUNC
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_DELETEVERTEXSHADERFUNC
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_SETVERTEXSHADERFUNC
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_SETVERTEXSHADERCONSTI
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_SETSCISSORRECT
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_SETSTREAMSOURCE2
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_BLT
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_COLORFILL
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_SETVERTEXSHADERCONSTB
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_CREATEQUERY
 
 
-
-###### 
-
-
-
-######## 
-
-
 ### -field D3DDP2OP_SETRENDERTARGET2
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETDEPTHSTENCIL
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_RESPONSECONTINUE
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_RESPONSEQUERY
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_GENERATEMIPSUBLEVELS
-
-
-
-###### 
-
-
-
-######## 
 
 
 ### -field D3DDP2OP_DELETEQUERY
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_ISSUEQUERY
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETPIXELSHADERCONSTI
 
 
-
-###### 
-
-
-
-####### 
-
-
 ### -field D3DDP2OP_SETPIXELSHADERCONSTB
-
-
-
-###### 
-
-
-
-####### 
 
 
 ### -field D3DDP2OP_SETSTREAMSOURCEFREQ
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_SURFACEBLT
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field D3DDP2OP_SETCONVOLUTIONKERNELMONO
 
 
-
-###### 
-
-
-
-###### 
-
-
 ### -field D3DDP2OP_COMPOSERECTS
-
-
-
-###### 
-
-
-
-###### 
 
 
 ## -remarks

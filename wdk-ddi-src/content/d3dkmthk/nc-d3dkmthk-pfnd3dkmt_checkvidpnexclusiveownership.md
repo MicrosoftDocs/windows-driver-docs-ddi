@@ -67,7 +67,7 @@ The <b>D3DKMTCheckVidPnExclusiveOwnership</b> function determines the video pres
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> structure that describes the parameters to determine exclusive VidPN ownership. 
 

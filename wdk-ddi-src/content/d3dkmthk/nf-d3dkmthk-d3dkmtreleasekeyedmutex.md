@@ -68,7 +68,7 @@ The <b>D3DKMTReleaseKeyedMutex</b> function releases a keyed mutex object.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548234">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
 

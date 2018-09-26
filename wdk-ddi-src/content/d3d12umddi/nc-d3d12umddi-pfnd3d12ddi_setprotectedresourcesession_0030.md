@@ -60,23 +60,13 @@ Used to set a protected resource session.
 
 ### -param Arg1
 
+*hCommandList*
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 
-
-
-
-
-
-
-
-#### - hCommandList
-
-The command list.
-
-
-#### - hProtectedResourceSession
+*hProtectedResourceSession*
 
 The protected resource session.
 

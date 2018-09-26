@@ -65,7 +65,7 @@ The <b>D3DKMTCheckMonitorPowerState</b> function verifies the power state of a m
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547301">D3DKMT_CHECKMONITORPOWERSTATE</a> structure that describes the connection to the monitor for which to check the power state. 
 

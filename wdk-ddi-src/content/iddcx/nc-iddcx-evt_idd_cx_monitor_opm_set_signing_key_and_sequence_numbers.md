@@ -60,16 +60,12 @@ req.typenames:
 
 ### -param OpmCxtObject [in]
 
-
-                    
-                The object for the OPM context whose signing key and sequence number will be set.
+The object for the OPM context whose signing key and sequence number will be set.
 
 
 ### -param pInArgs [in]
 
-
-                    
-                Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS</b>.
+Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS</b>.
 
 
 ## -returns

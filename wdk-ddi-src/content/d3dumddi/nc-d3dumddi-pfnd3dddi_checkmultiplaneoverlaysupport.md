@@ -67,14 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pSupport [in, out]
+*pSupport* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780229">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that provides details on hardware support for multiplane overlays.
 

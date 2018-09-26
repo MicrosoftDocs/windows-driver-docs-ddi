@@ -60,42 +60,33 @@ The <b>CsSetShaderWithIfaces</b> function sets the compute shader code along wit
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hShader* [in]
+
+A handle to the compute shader code object. 
 
 ### -param NumClassInstances [in]
 
- The number of class instances for implementations of the interfaces. 
+The number of class instances for implementations of the interfaces. 
 
 
 ### -param *
 
+*pPointerData* [in]
 
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542095">D3D11DDIARG_POINTERDATA</a> structures. Each structure describes the location of the data that is referenced by a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
 
+### -param *
 
+*pIfaces* [in]
 
+An array of function table identifiers. Each identifier corresponds to a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hShader [in]
-
- A handle to the compute shader code object. 
-
-
-#### - pIfaces [in]
-
- An array of function table identifiers. Each identifier corresponds to a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
-
-
-#### - pPointerData [in]
-
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542095">D3D11DDIARG_POINTERDATA</a> structures. Each structure describes the location of the data that is referenced by a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
 
 
 ## -returns

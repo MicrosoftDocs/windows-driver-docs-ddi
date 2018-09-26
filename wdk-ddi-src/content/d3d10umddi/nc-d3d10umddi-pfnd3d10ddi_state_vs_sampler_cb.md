@@ -60,32 +60,23 @@ The <b>pfnStateVsSamplerCb</b> function causes the Microsoft Direct3D 10 runtime
 
 ### -param Arg1
 
+*hRuntimeDevice* [in]
+
+A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 ### -param Arg2
 
+*Count* [in]
+
+The total number of DDI handles to samplers. The number can be -1, which specifies that <b>pfnStateVsSamplerCb</b> will use its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 
 ### -param Arg3
 
+*Base* [in]
+
+The beginning of the DDI handles to samplers. 
 
 
-
-
-
-
-
-#### - Base [in]
-
- The beginning of the DDI handles to samplers. 
-
-
-#### - Count [in]
-
- The total number of DDI handles to samplers. The number can be -1, which specifies that <b>pfnStateVsSamplerCb</b> will use its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
-
-
-#### - hRuntimeDevice [in]
-
- A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns

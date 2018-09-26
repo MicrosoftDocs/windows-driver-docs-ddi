@@ -60,40 +60,28 @@ The <b>CreateDepthStencilView</b> function creates a depth stencil view.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pCreateDepthStencilView* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541658">D3D10DDIARG_CREATEDEPTHSTENCILVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a depth stencil view. 
 ### -param Arg2
 
+*hDepthStencilView* [in]
+
+A handle to the driver's private data for the depth stencil view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e5dfa018-f9a5-467f-8e84-9697d5f94689">CalcPrivateDepthStencilViewSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its depth stencil view object.
 
 ### -param Arg3
 
+*hRTDepthStencilView* [in]
+
+A handle to the depth stencil view that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
-
-
-
-
-
-#### - hDepthStencilView [in]
-
- A handle to the driver's private data for the depth stencil view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e5dfa018-f9a5-467f-8e84-9697d5f94689">CalcPrivateDepthStencilViewSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its depth stencil view object.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRTDepthStencilView [in]
-
- A handle to the depth stencil view that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - pCreateDepthStencilView [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541658">D3D10DDIARG_CREATEDEPTHSTENCILVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a depth stencil view. 
 
 
 ## -returns

@@ -95,7 +95,7 @@ The zero-based identification number of a video present source in a path of a vi
 
 ### -field hIndirectContext
 
- 
+The indirect adapter context for redirecting through the DoD present path. This member is valid only if the PresentIndirect flag is set.
 
 
 

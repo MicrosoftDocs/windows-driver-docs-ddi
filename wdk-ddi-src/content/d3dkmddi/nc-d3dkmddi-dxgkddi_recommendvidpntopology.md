@@ -65,16 +65,7 @@ A handle to a context block that is associated with a display adapter. The displ
 
 ### -param pRecommendVidPnTopology
 
-
-
-
-
-
-
-
-#### - pRecommendVidPnTopologyArg [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557639">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557639">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
 
 
 ## -returns

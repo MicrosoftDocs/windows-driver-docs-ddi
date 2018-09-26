@@ -68,7 +68,7 @@ The <b>D3DKMTDestroyOverlay</b> function destroys a kernel-mode overlay object.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
 

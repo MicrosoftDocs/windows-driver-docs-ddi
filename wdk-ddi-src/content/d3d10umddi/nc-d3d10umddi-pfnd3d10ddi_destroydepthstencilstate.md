@@ -60,24 +60,15 @@ The <b>DestroyDepthStencilState</b> function destroys the specified depth stenci
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDepthStencilState* [in]
 
-
-
-
-
-
-
-#### - hDepthStencilState [in]
-
- A handle to the driver's private data for the depth stencil state object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
+A handle to the driver's private data for the depth stencil state object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
 
 
 ## -returns

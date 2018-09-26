@@ -63,19 +63,14 @@ The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the schedu
 
 ### -param
 
+*hProcess*
+
+[in] A handle to the process for which scheduling priority is set.
 
 
+*pPriority* 
 
-
-
-#### - hProcess [in]
-
-A handle to the process for which scheduling priority is set.
-
-
-#### - pPriority [out]
-
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
+[out] A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
 
 
 ## -returns

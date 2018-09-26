@@ -60,7 +60,7 @@ A structure that holds information about the segment group size.
 
 ### -field PhysicalAdapterIndex
 
-An index to the physical adapter.
+The physical adapter index in the LDA (linked display adapter) chain.
 
 
 ### -field LegacyInfo

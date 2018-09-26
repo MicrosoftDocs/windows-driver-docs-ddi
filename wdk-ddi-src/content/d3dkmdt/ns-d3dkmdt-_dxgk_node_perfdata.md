@@ -69,3 +69,6 @@ The maximum voltage of the engine in milli-volts while not overclocked.
 
 The max voltage of the engine while overclocked in milli-volts.
 
+### -field MaxTransitionLatency
+
+The max transition latency.

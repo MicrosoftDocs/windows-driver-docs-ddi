@@ -2,7 +2,7 @@
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 title: "_D3DDDICB_SUBMITCOMMANDTOHWQUEUE"
 author: windows-driver-content
-description: A structure that holds information to queue hardware flags.
+description: A structure that holds information to queue hardware.
 old-location: display\d3dddicb_submitcommandtohwqueue.htm
 tech.root: display
 ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
@@ -50,7 +50,7 @@ req.typenames: D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 ## -description
 
 
-A structure that holds information to queue hardware flags.
+A structure that holds information to queue hardware.
 
 
 ## -struct-fields
@@ -98,13 +98,4 @@ The number of primaries written by this command buffer.
 The array of primaries written by this command buffer.
 
 
-
-#### - Reserved
-
-This value is reserved for system use.
-
-
-#### - Value
-
-The combined UINT used to operate over the values.
 

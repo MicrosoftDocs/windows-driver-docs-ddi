@@ -60,40 +60,27 @@ The <b>Dispatch</b> function executes the compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - ThreadGroupCountX [in]
+*ThreadGroupCountX* [in]
 
  The size, in thread groups, of the x-dimension of the thread-group grid.  The maximum size is 65535. 
 
+### -param Arg3
 
-#### - ThreadGroupCountY [in]
+*ThreadGroupCountY* [in]
 
  The size, in thread groups, of the y-dimension of the thread-group grid.  The maximum size is 65535. 
 
+### -param Arg4
 
-#### - ThreadGroupCountZ [in]
+*ThreadGroupCountZ* [in]
 
  The size, in thread groups, of the z-dimension of the thread-group grid.  The maximum size is 65535. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

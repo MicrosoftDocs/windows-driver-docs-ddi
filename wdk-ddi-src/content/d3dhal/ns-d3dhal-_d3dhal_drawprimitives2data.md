@@ -292,45 +292,12 @@ Each vertex has <i>x, y, z,</i> and <i>w</i> coordinates. This flag is always se
 ### -field lpDDCommands
 
 
-
-###### 
-
-
-
-####### 
-
-
-
-###### 
-
-
-
-####### 
-
-
 ### -field dwCommandOffset
-
-
-
-###### 
-
-
-
-##### 
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field dwCommandLength
 
 Specifies the number of bytes of valid command data in the surface that <b>lpDDCommands</b> points to starting at <b>dwCommandOffset</b>.
-
 
 ### -field lpDDVertex
 
@@ -408,20 +375,7 @@ The driver requires the Direct3D runtime to parse the execute buffer.
 ### -field dwErrorOffset
 
 
-
-###### 
-
-
-
-###### 
-
-
-
-###### 
-
-
-
-########  Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
+Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
 
 
 
@@ -434,14 +388,6 @@ The driver requires the Direct3D runtime to parse the execute buffer.
 
 
 #### D3DDEVINFO_VCACHE structure for D3DQUERYTYPE_VCACHE
-
-
-
-##### 
-
-
-
-##### 
 
 
 ## -remarks

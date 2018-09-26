@@ -67,13 +67,6 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
-
-
-
-
-
-#### - pCommitVidPnArg [in]
-
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557552">DXGKARG_COMMITVIDPN</a> structure that contains function arguments.
 
 

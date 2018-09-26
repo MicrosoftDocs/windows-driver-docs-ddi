@@ -91,7 +91,7 @@ A pointer to the <a href="https://msdn.microsoft.com/37878f3a-f61e-423c-ab03-943
 ### -field pfnReleaseAdditionalMonitorModeSet
 
 
-      A pointer to the <a href="https://msdn.microsoft.com/b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6">pfnReleaseAdditionalMonitorModeSet</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6">pfnReleaseAdditionalMonitorModeSet</a> function.
      
 
 

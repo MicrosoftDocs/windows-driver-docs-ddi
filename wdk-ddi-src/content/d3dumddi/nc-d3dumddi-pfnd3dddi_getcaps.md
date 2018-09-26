@@ -60,7 +60,7 @@ The <i>GetCaps</i> function queries for capabilities of the graphics adapter.
 
 ### -param hAdapter [in]
 
- A handle that identifies the graphics adapter. 
+A handle that identifies the graphics adapter. 
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>GetCaps</i> function queries for capabilities of the graphics adapter.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 
 ## -returns

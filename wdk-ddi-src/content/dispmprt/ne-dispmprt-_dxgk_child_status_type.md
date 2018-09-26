@@ -75,11 +75,6 @@ Indicates that the request or report pertains to the rotation angle of the monit
 
 ### -field StatusMiracastConnection
 
-
-
-
-#### - StatusMiracast
-
 Indicates that the request or report pertains to a monitor (or other display device) that is connected wirelessly to the child device through a Miracast connected session.
 
 Supported by WDDM 1.3 and later drivers running on Windows 8.1 and later.

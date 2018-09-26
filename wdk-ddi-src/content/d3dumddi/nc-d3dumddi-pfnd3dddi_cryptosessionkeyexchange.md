@@ -60,7 +60,7 @@ The <b>CryptoSessionKeyExchange</b> function negotiates a session key.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>CryptoSessionKeyExchange</b> function negotiates a session key.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542981">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a> structure that describes a session key that is used for encryption. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542981">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a> structure that describes a session key that is used for encryption. 
 
 
 ## -returns

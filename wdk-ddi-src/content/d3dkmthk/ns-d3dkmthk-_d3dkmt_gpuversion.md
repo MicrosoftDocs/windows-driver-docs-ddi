@@ -47,7 +47,7 @@ Used to collect the bios version and GPU architecture name once during GPU initi
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index in a LDA chain.
+The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field BiosVersion
 

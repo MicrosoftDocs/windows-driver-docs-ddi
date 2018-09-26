@@ -173,43 +173,43 @@ Supported starting with Windows 8.
 
 ### -field hAdapter
 
- 
+A handle to the graphics adapter.
 
 
 ### -field hIndirectContext
 
  
-
+The indirect adapter context for redirecting through the DoD present path. This member is valid only if the PresentIndirect flag is set.
 
 ### -field Duration
 
- 
+Per-present duration. Valid only when the DurationValid flag is set.
 
 
 ### -field BroadcastSrcAllocation
 
  
-
+Linked display adapter for the source.
 
 ### -field BroadcastDstAllocation
 
  
-
+Linked display adapter for the destination.
 
 ### -field PrivateDriverDataSize
 
  
-
+Private driver data size.
 
 ### -field pPrivateDriverData
 
- 
+Pointer to a buffer that contains optional private driver data.
 
 
 ### -field bOptimizeForComposition
 
  
-
+Indicates whether the device is optimized for composition.
 
 
 

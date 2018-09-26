@@ -65,7 +65,7 @@ The arguments to decode each frame.
 
 ### -field FrameArgumentsCount
 
-
+The count of frame arguments.
 
 
 ### -field ReferenceFrames
@@ -83,9 +83,7 @@ The compressed bitstream.  All source video slices should be placed contiguously
 Decryption parameters.  When decryption is not used, this structure is zero initialized.
 
 
-#### - FrameParametersCount
 
-The count of frame arguments.
 
 
 ## -see-also

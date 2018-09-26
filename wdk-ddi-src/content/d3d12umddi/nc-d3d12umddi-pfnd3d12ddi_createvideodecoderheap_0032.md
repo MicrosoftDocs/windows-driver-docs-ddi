@@ -65,15 +65,15 @@ The hardware device being processed.
 
 ### -param *
 
+pArgs [in]
+
+The arguments used to create a video decoder heap.
 
 ### -param hDrvVideoDecoderHeap
 
 The video decoder heap.
 
 
-#### - pArgs [in]
-
-The arguments used to create a video decoder heap.
 
 
 ## -returns

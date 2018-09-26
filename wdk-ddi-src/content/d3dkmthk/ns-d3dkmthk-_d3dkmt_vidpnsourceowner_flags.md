@@ -75,7 +75,7 @@ If a value of one, the video present network (VidPN) explicitly allows output du
 
 ### -field Reserved
 
-Reserved for system use.
+Reserved for internal use.
 
 
 ### -field Value

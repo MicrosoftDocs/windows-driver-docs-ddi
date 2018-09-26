@@ -291,26 +291,24 @@ Supported starting with Windows 8.
 ### -field CrossAdapter
 
  
-
+The cross adapter.
 
 ### -field DurationValid
 
  
-
+Indicates whether the duration is valid.
 
 ### -field PresentIndirect
 
- 
+Present indirect.
 
 
 ### -field PresentHMD
 
- 
+
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 6 bits (0xFC000000) of the 32-bit <b>Value</b> member to zeros.
 
 Supported starting with Windows 8.
 
