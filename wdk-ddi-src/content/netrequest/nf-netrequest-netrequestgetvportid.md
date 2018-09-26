@@ -3,6 +3,7 @@ UID: NF:netrequest.NetRequestGetVPortId
 title: NetRequestGetVPortId function
 author: windows-driver-content
 description: Retrieves the VPortId for the NETREQUEST.
+tech.root: netvista
 ms.assetid: 811d3c80-f307-4823-a46e-b9f958f040a2
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

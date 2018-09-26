@@ -27,7 +27,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,14 +58,14 @@ DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an
 
 
 
-### -param hAdapter [in]
+### -param hAdapter 
 
-Identifies the adapter upon which the display timings should be set.
+[in] Identifies the adapter upon which the display timings should be set.
 
 
-### -param pSetTimings [in, out]
+### -param pSetTimings 
 
-A pointer to a <a href="https://msdn.microsoft.com/14D652C4-9812-481E-8E69-A6D7923F01A3">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/14D652C4-9812-481E-8E69-A6D7923F01A3">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
 
 
 ## -returns
@@ -87,5 +87,4 @@ The kernel mode driver evaluates the parameters and initiates the changes if no 
 
 This function is always called at PASSIVE level.
 
-
-
+This function is registered by DriverEntry of the display miniport driver.

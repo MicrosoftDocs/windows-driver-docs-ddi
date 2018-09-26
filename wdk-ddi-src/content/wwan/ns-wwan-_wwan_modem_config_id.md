@@ -3,6 +3,7 @@ UID: NS:wwan._WWAN_MODEM_CONFIG_ID
 title: _WWAN_MODEM_CONFIG_ID
 author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_ID structure represents a unique ID for a modem configuration file.
+tech.root: netvista
 ms.assetid: e5653619-58fe-4fc7-a1d3-550a8cd6a735
 ms.author: windowsdriverdev
 ms.date: 03/23/2018

@@ -3,6 +3,7 @@ UID: NF:nettxqueue.NetTxQueueGetDatapathDescriptor
 title: NetTxQueueGetDatapathDescriptor function
 author: windows-driver-content
 description: The NetTxQueueGetDatapathDescriptor method retrieves the NET_DATAPATH_DESCRIPTOR structure for a transmit (Tx) queue.
+tech.root: netvista
 ms.assetid: 0767d0c0-d648-4dca-a664-a514de495c3d
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

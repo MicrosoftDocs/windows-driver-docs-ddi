@@ -3,6 +3,7 @@ UID: NF:netpowersettings.NetPowerSettingsGetWakePatternCountForType
 title: NetPowerSettingsGetWakePatternCountForType function
 author: windows-driver-content
 description: Retrieves the number of wake-on-LAN (WoL) patterns stored in the NETPOWERSETTINGS object for the specified wake pattern type.
+tech.root: netvista
 ms.assetid: 87e1c05c-ca73-40b0-add8-ec3c56697557
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

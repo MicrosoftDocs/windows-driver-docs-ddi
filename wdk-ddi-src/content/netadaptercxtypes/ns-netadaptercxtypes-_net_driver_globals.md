@@ -3,6 +3,7 @@ UID: NS:netadaptercxtypes._NET_DRIVER_GLOBALS
 title: _NET_DRIVER_GLOBALS
 author: windows-driver-content
 description: Call NET_DRIVER_GLOBALS_INIT to initialize this structure.
+tech.root: netvista
 ms.assetid: 865a1096-836a-4b4c-82a1-7811c2806a58
 ms.author: windowsdriverdev
 ms.date: 02/07/2018

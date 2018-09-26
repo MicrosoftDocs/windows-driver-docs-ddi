@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>ARGUMENT_PRESENT</b> macro takes an argument pointer and returns <b>FALSE</b> if the pointer is <b>NULL</b>. Otherwise, it returns <b>TRUE</b>.
+The <b>ARGUMENT_PRESENT</b> macro evaluates to <b>FALSE</b> if the value of <i>ArgumentPointer</i> is <b>NULL</b>.  Otherwise, it evaluates to <b>TRUE</b>.
 
 
 ## -parameters

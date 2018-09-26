@@ -3,6 +3,7 @@ UID: NF:netpowersettings.NetPowerSettingsGetProtocolOffload
 title: NetPowerSettingsGetProtocolOffload function
 author: windows-driver-content
 description: Retrieves a structure that specifies parameters for a low power protocol offload to a network adapter.
+tech.root: netvista
 ms.assetid: 32c8e98b-8192-442a-8dca-fe97ea5a11bd
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

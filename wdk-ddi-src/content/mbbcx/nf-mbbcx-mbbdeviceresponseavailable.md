@@ -3,6 +3,7 @@ UID: NF:mbbcx.MbbDeviceResponseAvailable
 title: MbbDeviceResponseAvailable function
 author: windows-driver-content
 description: A client driver calls the MbbDeviceResponseAvailable method when there is an MBIM control message ready from the device, as the response to a previous MBIM control message sent to the device from the MBBCx framework.
+tech.root: netvista
 ms.assetid: 045363e7-a8f4-490d-ae82-b382c66d8a7a
 ms.author: windowsdriverdev
 ms.date: 06/29/2018

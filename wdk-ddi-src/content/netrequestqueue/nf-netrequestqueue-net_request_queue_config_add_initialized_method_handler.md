@@ -3,6 +3,7 @@ UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER
 title: NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER function
 author: windows-driver-content
 description: Adds a caller-provided, pre-initialized custom method request handler structure to a NET_REQUEST_QUEUE_CONFIG structure.
+tech.root: netvista
 ms.assetid: 37e4f6c5-df94-4af9-9950-b263594c6ead
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

@@ -3,6 +3,7 @@ UID: NF:netadapterpacket.NetRingBufferAdvanceNextPacket
 title: NetRingBufferAdvanceNextPacket function
 author: windows-driver-content
 description: Increments the NextIndex value of the packet ring buffer, then returns a pointer to the packet at the new NextIndex value.
+tech.root: netvista
 ms.assetid: 0b83570a-5d36-4ddd-8289-1506304990b7
 ms.author: windowsdriverdev
 ms.date: 02/07/2018

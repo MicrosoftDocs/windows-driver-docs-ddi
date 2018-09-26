@@ -3,6 +3,7 @@ UID: NF:netadapterpacket.NetRingBufferGetPacketAtIndex
 title: NetRingBufferGetPacketAtIndex function
 author: windows-driver-content
 description: Returns a pointer to the net packet at the specified index value of the packet ring buffer.
+tech.root: netvista
 ms.assetid: 26c6887c-0805-4850-9e53-5cf22d377b3e
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

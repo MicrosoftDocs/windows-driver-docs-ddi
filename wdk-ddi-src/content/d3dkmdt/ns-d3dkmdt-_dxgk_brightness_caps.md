@@ -73,7 +73,9 @@ Setting this member is equivalent to setting the second bit of a 32-bit value (0
 
 ### -field NitsBrightness
 
-[in] Nit-based brightness support. If NitsBrightness is set, then the display brightness is calibrated to correspond to absolute brightness levels measured in nits.  Calibrated data provided to the Display Driver by OEMs should be taken with an On Pixel Ratio (OPR) percentage of 100% where each pixel is set to an RGB value of (255, 255, 255) or floating point equivalent.  If it is not set, then the OS is aware that the levels exposed by GetNitRanges do not necessarily represent the actual luminance of the display.
+[in] Nit-based brightness support. If <b>NitsBrightness</b> is set, then the display brightness is calibrated to correspond to absolute brightness levels measured in nits.  Calibrated data provided to the Display Driver by OEMs should be taken with an On Pixel Ratio (OPR) percentage of 100% where each pixel is set to an RGB value of (255, 255, 255) or floating point equivalent.
+
+If <b>NitsBrightness</b> is not set, then the OS will interpret all values that are defined in nits/millinits, for example [DXGK_BRIGHTNESS_NIT_RANGE](ns-d3dkmdt-_dxgk_brightness_nit_range.md), as uncalibrated thousandths of a percent of the maximum brightness level.
 
 ### -field Reserved
 

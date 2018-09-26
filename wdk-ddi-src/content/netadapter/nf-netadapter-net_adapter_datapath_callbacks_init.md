@@ -3,6 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 title: NET_ADAPTER_DATAPATH_CALLBACKS_INIT function
 author: windows-driver-content
 description: The NET_ADAPTER_DATAPATH_CALLBACKS_INIT method initializes a NET_ADAPTER_DATAPATH_CALLBACKS structure.
+tech.root: netvista
 ms.assetid: bc15c768-b5ba-48b0-ad78-fb33cc577407
 ms.author: windowsdriverdev
 ms.date: 07/27/2018

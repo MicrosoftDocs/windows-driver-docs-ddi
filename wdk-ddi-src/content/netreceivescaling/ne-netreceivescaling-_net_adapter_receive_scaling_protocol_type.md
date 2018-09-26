@@ -3,6 +3,7 @@ UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
 title: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
 author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE enumeration specifies the portion of received network data that a NIC must use to calculate an RSS hash value.
+tech.root: netvista
 ms.assetid: 4a22dc5e-257b-411e-aae8-9abd92143bc5
 ms.author: windowsdriverdev
 ms.date: 03/07/2018

@@ -3,6 +3,7 @@ UID: NS:netrequestqueue._NET_REQUEST_QUEUE_SET_DATA_HANDLER
 title: _NET_REQUEST_QUEUE_SET_DATA_HANDLER
 author: windows-driver-content
 description: Reserved for internal use. Call NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER to add a caller-provided handler for a specific OID set request.
+tech.root: netvista
 ms.assetid: c5af08b7-0733-481d-a6ba-32a21dd7990f
 ms.author: windowsdriverdev
 ms.date: 02/09/2018

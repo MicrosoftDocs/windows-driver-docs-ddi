@@ -3,6 +3,7 @@ UID: NF:netpowersettings.NetPowerSettingsGetEnabledProtocolOffloadFlags
 title: NetPowerSettingsGetEnabledProtocolOffloadFlags function
 author: windows-driver-content
 description: Retrieves flags that specify currently enabled low power protocol offloads that a network adapter supports.
+tech.root: netvista
 ms.assetid: 80320d68-e1cd-49b1-b8e0-5709ab7a1817
 ms.author: windowsdriverdev
 ms.date: 02/08/2018
