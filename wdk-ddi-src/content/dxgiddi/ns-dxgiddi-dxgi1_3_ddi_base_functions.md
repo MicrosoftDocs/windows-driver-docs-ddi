@@ -115,8 +115,7 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A
 
 ### -field pfnGetMultiplaneOverlayCaps
 
- 
-
+Called by the DXGI runtime to request that the user-mode display driver get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
 
 ### -field pfnGetMultiplaneOverlayGroupCaps
 
@@ -125,11 +124,28 @@ Called by the DXGI runtime to request that the user-mode display driver  get a g
 <div class="alert"><b>Note</b>  This function is called for each of the capability groups that the driver reports.</div>
 <div> </div>
 
+**Syntax**
 
-#### pGroupCaps
+```cpp
+pfnGetMultiplaneOverlayGroupCaps GetMultiplaneOverlayGroupCaps;
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265375">DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS</a> structure that specifies the group of overlay plane capabilities.
+HRESULT __stdcall* GetMultiplaneOverlayGroupCaps(
+   DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS *pGroupCaps
+)
+{ ... }
+```
 
+**Parameter**
+
+*pGroupCaps* A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265375">DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS</a> structure that specifies the group of overlay plane capabilities.
+
+**Return value**
+
+Returns one of the following values.
+
+* **S_OK**  The driver successfully provided the overlay plane capabilities.
+* **D3DDDIERR_DEVICEREMOVED**  The driver detected that the display adapter was removed, so the driver did not complete the operation. If the driver is not aware of the adapter removal, the driver is not required to return this error code.
+ 
 
 ### -field pfnReserved1
 
@@ -138,7 +154,26 @@ Reserved for system use.
 
 ### -field pfnPresentMultiplaneOverlay
 
- 
+Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. Must be implemented by Windows Display Driver Model (WDDM) 1.3 or later drivers that support multiplane overlays.
+
+When the user-mode display driver successfully completes its processing of a call to this function, it presents the source surface to the display by calling the [pfnPresentMultiPlaneOverlayCb (DXGI)](nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md) function.
+
+```cpp
+PFND3DDDI_PRESENTMULTIPLANEOVERLAY pfnPresentMultiPlaneOverlay;
+
+HRESULT __stdcall* pfnPresentMultiPlaneOverlay(
+   DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY *pPresentDXGI
+)
+{ ... }
+```
+
+**Parameter**
+
+*pPresentDXGI* A pointer to a [DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY](ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md) structure that describes how to display to the destination surface. 
+
+**Return value**
+
+If this callback function succeeds, it returns S_OK. Otherwise it returns an HRESULT error code.
 
 
 ### -field pfnReserved2
@@ -150,6 +185,23 @@ Reserved for system use.
 
 Notifies the user-mode display driver that an application finished rendering and that all ownership of the shared resource is released, and requests that the driver display to the destination surface.
 
+**Syntax**
+
+```cpp
+pfnPresent1 Present1DXGI;
+
+HRESULT __stdcall* Present1DXGI(
+   DXGI_DDI_ARG_PRESENT1 *pPresentData
+)
+{ ... }
+```
+
+**Parameter**
+
+*pPresentData* [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn457714">DXGI_DDI_ARG_PRESENT1</a> structure that describes how to display to the destination surface. 
+
+#### Remarks
+
 The <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn457714">DXGI_DDI_ARG_PRESENT1</a> structure that the <i>pPresentData</i> parameter points to is the same handle that the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function passed back to the runtime in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure. Therefore, driver writers must define the type of this handle carefully. In addition, drivers can supply different implementations of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function based on which DDI implementation handled the call to <i>CreateDevice(D3D10)</i>. The runtime will never mix driver handles across DDI implementations.
 
 The <b>pDXGIContext</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn457714">DXGI_DDI_ARG_PRESENT1</a> is an opaque communication mechanism. The runtime passes this DXGI context to the driver. The driver should copy this DXGI context unchanged to the <b>pDXGIContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557440">DXGIDDICB_PRESENT</a> structure when the driver calls the <a href="https://msdn.microsoft.com/eefb8f2c-e460-4f9c-851d-9a97dbcd728f">pfnPresentCbDXGI</a> function.
@@ -157,8 +209,8 @@ The <b>pDXGIContext</b> member of <a href="https://msdn.microsoft.com/library/wi
 The driver must submit all partially built render data (command buffers) using the <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a> function, and the driver must make a single call to <a href="https://msdn.microsoft.com/eefb8f2c-e460-4f9c-851d-9a97dbcd728f">pfnPresentCbDXGI</a>. When calling either of these callbacks, the driver must follow the threading rules of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a> function.
 
 <div class="alert"><b>Note</b>    When the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function copies sRGB-formatted content from a source surface to a non-sRGB destination surface, the driver should copy the sRGB content unchanged (that is, the driver should not perform the sRGB to linear conversion).</div>
-<div> </div>
-Threading rules
+
+#### Threading rules
 
 These rules apply whether the driver supports free threading or not:<ul>
 <li>The driver indicates support for free threading by setting the <b>Caps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a> structure to <b>D3D11DDICAPS_FREETHREADED</b>. In this case:<ul>
@@ -170,25 +222,12 @@ These rules apply whether the driver supports free threading or not:<ul>
 </ul>For further info on threading, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
 
 
-
-#### pPresentData
-
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn457714">DXGI_DDI_ARG_PRESENT1</a> structure that describes how to display to the destination surface. 
-
-
 ### -field pfnCheckPresentDurationSupport
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/D54A1BFB-7EAC-4172-854D-23A9EB9B0C76">pfnCheckPresentDurationSupport(DXGI)</a> function.
 
 
-#### - pfnGetMultiPlaneOverlayCaps
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a> function.
-
-
-#### - pfnPresentMultiPlaneOverlay
-
-A pointer to the driver's <a href="https://msdn.microsoft.com/C6EB96AC-0D5B-4D75-9B44-B1744F6A4360">pfnPresentMultiplaneOverlay (DXGI)</a> function.
 
 
 ## -remarks
