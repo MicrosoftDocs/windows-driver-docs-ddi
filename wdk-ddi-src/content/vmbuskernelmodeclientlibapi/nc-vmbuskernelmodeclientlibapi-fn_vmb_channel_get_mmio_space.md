@@ -46,7 +46,7 @@ targetos: Windows
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The **VmbChannelGetMmioSpace** function retrieves the kernel virtual address of the MMIO space allocated to a channel. This MMIO space is reserved via [**VmbServerChannelInitSetMmioMegabytes**](nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetmmiomegabytes.md). This function is only valid after the open channel callback has been received.
+The **VmbChannelGetMmioSpace** function retrieves the kernel virtual address of the MMIO space allocated to a channel. This MMIO space is reserved via [**VmbServerChannelInitSetMmioMegabytes**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes.md). This function is only valid after the open channel callback has been received.
 
 ## -prototype
 
@@ -88,21 +88,13 @@ This function does not return a value.
 ## -remarks
 
 > [!IMPORTANT]
-> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
+> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a client function accessed from the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md) structure. 
 >
-> To access the KMCL interface, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with these parameters:
-> 
-> - *InterfaceType* parameter: **KMCL_CLIENT_INTERFACE_TYPE**
-> - *Size* parameter: `sizeof(KMCL_CLIENT_INTERFACE_V1)`
-> - *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_LATEST** 
->
-> If the interface query function succeeds, the **KMCL_CLIENT_INTERFACE_V1** structure contains function pointers for the VMBus KMCL functions that you can use to call them.
->
-> For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 
 ## -see-also
 
-[**VmbServerChannelInitSetMmioMegabytes**](nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetmmiomegabytes.md)
+[**VmbServerChannelInitSetMmioMegabytes**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes.md)
 
 [**VmbChannelAllocate**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate.md)
