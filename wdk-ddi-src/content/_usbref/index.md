@@ -118,7 +118,8 @@ A USB function class driver implements the functionality of a specific interface
 The USB function client driver is responsible for implementing a function controller-specific operations. The client driver communicates with the USB function class extension (UFX) module to handle endpoint data transfers, USB device state changes (reset, suspend, resume), attach/detach detection, port/charger detection. The client driver is also responsible for handling power management, and PnP events.
 
 ### Programming Guide
-[Developing Windows drivers for USB function controllers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers)
+[Write a USB function controller client driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/function-client-driver)
+
 
 ### Headers
 
@@ -127,10 +128,9 @@ The USB function client driver is responsible for implementing a function contro
 
 ## Filter driver for supporting USB chargers
 
-Write a filter driver that supports detection of chargers, if the function controller uses the in-box Synopsys and ChipIdea drivers. If you are writing a client driver for a proprietary function controller, charger/attach detection is integrated in the client driver by implementing EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, and EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER.
+Write a filter driver that supports detection of chargers, if the function controller uses the in-box Synopsys and ChipIdea drivers. If you are writing a client driver for a proprietary function controller, charger/attach detection is integrated in the client driver by implementing [EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY](../ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_set_property.md), [EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET](../ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_reset.md), and [EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER](../ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_detect.md).
 ### Programming Guide
-[Developing Windows drivers for USB function controllers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers)
-
+[USB filter driver for supporting USB chargers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-filter-driver-for-supporting-chargers)
 
 ### Headers
 * [usbfnattach.h](..\usbfnattach\index.md)
