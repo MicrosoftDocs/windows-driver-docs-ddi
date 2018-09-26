@@ -20,9 +20,29 @@ This reference section describes the driver programming interfaces that are incl
 
 For the programming guide, see [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon).
 
-## Deprecated functions, IOCTL requests
+## Common USB client driver reference
 
-These functions have been deprecated. 
+A Windows Driver Model (WDM)-based USB client driver can call functions to communicate with the Microsoft-provided USB driver stack. These functions are defined in Usbdlib.h and the client driver requires the Usbdex.lib library. The library gets loaded and statically linked to the client driver module when it is built. A client driver that calls these routines can run on Windows Vista and later versions of Windows.
+
+### Programming Guide
+[Developing Windows client drivers for USB devices](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-driver-development-guide).
+
+### Headers
+ * [usb.h](..\usb\index.md)
+ * [usbbusif.h](..\usbbusif\index.md)
+ * [usbdlib.h](..\usbdlib\index.md)
+ * [usbfnattach.h](..\usbfnattach\index.md)
+ * [usbfnbase.h](..\usbfnbase\index.md)
+ * [usbfnioctl.h](..\usbfnioctl\index.md)
+ * [usbioctl.h](..\usbioctl\index.md)
+ * [usbiodef.h](..\usbiodef\index.md)
+ * [usbspec.h](..\usbspec\index.md)
+
+
+
+## Deprecated functions, IOCTL requests for all USB drivers
+
+These functions have been deprecated.
 
 >Do not use.
 
@@ -50,7 +70,7 @@ These I/O requests have been deprecated or reserved for internal use.
 - IOCTL_USB_RESET_HUB 
 
 
-## USB dual-role controller reference
+## Dual-role controller driver reference
 
 A USB driver for a dual-role controller can behave as a host controller or a function controller depending on the hardware to which it is connected. These controllers are common on mobile devices and allow for connections to PCs, as well as USB peripherals like keyboards and mice. A mobile device can behave as a peripheral when it is connected to a PC, allowing you to transfer files between your PC and the mobile device. In that scenario, the controller on the device operates in the function role. Conversely, the controller can operate in the host role when connected to USB peripherals like storage drives, keyboard, mice. 
 
@@ -67,9 +87,57 @@ For information about enabling a Windows system for USB dual-role support, see [
  * [ursglobals.h](..\ursglobals\index.md)
  * [urstypes.h](..\urstypes\index.md)
 
+## Emulated host controller driver reference
+Windows drivers can present non-USB devices as emulated USB devices. By using the WDF class extension-client driver model, you can write a driver that translates USB-level constructs (reset, data transfers) to the actual underlying bus by using the hardware’s interface. The class extension and the client driver represent an emulated host controller with a root hub that is capable of presenting an attached device to the system as an USB device.
+
+- USB device emulation class extension (UdeCx). This is an in-box driver included Windows 10. 
+- The client driver is written by an IHV/OEM. This driver is referred to as the UDE client driver. 
+
+The driver pair loads as the FDO in the host controller device stack. The UDE client driver communicates with Udecx by using a set of methods and event callback functions to handle device requests and notify the class extension about various events.
+
+### Programming Guide
+[Developing Windows drivers for emulated USB devices (UDE)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices).
+
+### Headers
+ * [udecxfuncenum.h](..\udecxfuncenum\index.md)
+ * [udecxtypes.h](..\udecxtypes\index.md)
+ * [udecxurb.h](..\udecxurb\index.md)
+ * [udecxusbdevice.h](..\udecxusbdevice\index.md)
+ * [udecxusbendpoint.h](..\udecxusbendpoint\index.md)
+ * [udecxwdfdevice.h](..\udecxwdfdevice\index.md)
+
+## Function class driver reference
+A USB function class driver implements the functionality of a specific interface (or group of interfaces) on the USB device. The class driver handle requests issued by user mode services, or it can forwards requests to USB function class extension (UFX) and its function client driver. Certain class drivers are included in Windows, such as MTP and IpOverUsb. Windows also provides a generic kernel-mode class driver, Generic USBFN (GenericUSBFn.sys). If a particular interface or functionality is not provided by a system-supplied driver, you might need write a function class driver. The class driver may be implemented as a kernel-mode driver by using Windows Driver Frameworks (WDF). Alternatively, you may implement it as a user-mode service. In that case, your class driver must be paired with the system-supplied class driver, Generic USBFN. For example, the MTP class driver runs as a user-mode service that transferring files to and from the device. 
+
+### Headers
+
+* [usbfnbase.h](..\usbfnbase\index.md)
+* [usbfnioctl.h](..\usbfnioctl\index.md)
+
+## USB function controller client driver reference
+The USB function client driver is responsible for implementing a function controller-specific operations. The client driver communicates with the USB function class extension (UFX) module to handle endpoint data transfers, USB device state changes (reset, suspend, resume), attach/detach detection, port/charger detection. The client driver is also responsible for handling power management, and PnP events.
+
+### Programming Guide
+[Developing Windows drivers for USB function controllers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers)
+
+### Headers
+
+* [ufxclient.h](..\ufxclient\index.md)
 
 
-## USB host controller reference
+## Filter driver for supporting USB chargers
+
+Write a filter driver that supports detection of chargers, if the function controller uses the in-box Synopsys and ChipIdea drivers. If you are writing a client driver for a proprietary function controller, charger/attach detection is integrated in the client driver by implementing EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, and EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER.
+### Programming Guide
+[Developing Windows drivers for USB function controllers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers)
+
+
+### Headers
+* [usbfnattach.h](..\usbfnattach\index.md)
+* [ufxbase.h](..\ufxbase\index.md)
+* [ufxproprietarycharger.h](..\ufxproprietarycharger\index.md)
+
+## Host controller driver reference
 
 The USB host controller extension is a system-supplied extension to the Kernel-Mode Driver Framework (KMDF). Within the Microsoft USB Driver Stack Architecture, UCX provides functionality to assist a host controller client driver in managing a USB host controller device. The client driver handles hardware operations and events, power management, and PnP events. UCX serves as an abstracted interface to the rest of the Microsoft USB 3.0 stack, queues requests to the client driver, and performs other tasks.
 
@@ -91,101 +159,12 @@ If you are developing an xHCI host controller that is not compliant with the spe
  * [ucxusbdevice.h](..\ucxusbdevice\index.md)
 
 
-## USB function class driver reference
-A USB function class driver implements the functionality of a specific interface (or group of interfaces) on the USB device. The class driver handle requests issued by user mode services, or it can forwards requests to USB function class extension (UFX) and its function client driver. Certain class drivers are included in Windows, such as MTP and IpOverUsb. Windows also provides a generic kernel-mode class driver, Generic USBFN (GenericUSBFn.sys). If a particular interface or functionality is not provided by a system-supplied driver, you might need write a function class driver. The class driver may be implemented as a kernel-mode driver by using Windows Driver Frameworks (WDF). Alternatively, you may implement it as a user-mode service. In that case, your class driver must be paired with the system-supplied class driver, Generic USBFN. For example, the MTP class driver runs as a user-mode service that transferring files to and from the device. 
-
-### Headers
-
-* [usbfnbase.h](..\usbfnbase\index.md)
-* [usbfnioctl.h](..\usbfnioctl\index.md)
-
-## USB function controller client driver reference
-The USB function client driver is responsible for implementing a function controller-specific operations. The client driver communicates with the USB function class extension (UFX) module to handle endpoint data transfers, USB device state changes (reset, suspend, resume), attach/detach detection, port/charger detection. The client driver is also responsible for handling power management, and PnP events.
-
-### Programming Guide
-[Developing Windows drivers for USB function controllers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers)
-
-### Headers
-
-* [ufxclient.h](..\ufxclient\index.md)
-
-
-## USB filter driver for supporting USB chargers
-
-Write a filter driver that supports detection of chargers, if the function controller uses the in-box Synopsys and ChipIdea drivers. If you are writing a client driver for a proprietary function controller, charger/attach detection is integrated in the client driver by implementing EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, and EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER.
-### Programming Guide
-[Developing Windows drivers for USB function controllers](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-function-controllers)
-
-
-### Headers
-* [usbfnattach.h](..\usbfnattach\index.md)
-* [ufxbase.h](..\ufxbase\index.md)
-* [ufxproprietarycharger.h](..\ufxproprietarycharger\index.md)
-
-## USB Type-C driver reference
+## Type-C driver reference
 Windows 10 introduces support for the new USB connector: USB Type-C. You can write a driver for these scenarios:
 
-**If your USB Type-C hardware has the capability of handling the power delivery (PD) state machine.**
 
-### Programming Guide
-[Write a USB Type-C connector driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system)
-### Headers
- * [ucmcx.h](..\ucmcx\index.md)
- * [ucmfuncenum.h](..\ucmfuncenum\index.md)
- * [ucmglobals.h](..\ucmglobals\index.md)
- * [ucmmanager.h](..\ucmmanager\index.md)
-
-
-**If your Type-C hardware does not support PD.** 
-
-### Programming Guide
-[Write a USB Type-C port controller driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver).
-
-### Headers
- * [ucmtcpcicx.h](..\ucmtcpcicx\index.md)
- * [ucmtcpcidevice.h](..\ucmtcpcidevice\index.md)
- * [ucmtcpcifuncenum.h](..\ucmtcpcifuncenum\index.md)
- * [ucmtcpciglobals.h](..\ucmtcpciglobals\index.md)
- * [ucmtcpciportcontroller.h](..\ucmtcpciportcontroller\index.md)
- * [ucmtcpciportcontrollerrequests.h](..\ucmtcpciportcontrollerrequests\index.md)
- * [ucmtcpcispec.h](..\ucmtcpcispec\index.md)
- * [ucmtypes.h](..\ucmtypes\index.md)
-
-
-## Emulated USB host controller driver
-Windows drivers can present non-USB devices as emulated USB devices. By using the WDF class extension-client driver model, you can write a driver that translates USB-level constructs (reset, data transfers) to the actual underlying bus by using the hardware’s interface. The class extension and the client driver represent an emulated host controller with a root hub that is capable of presenting an attached device to the system as an USB device.
-
-- USB device emulation class extension (UdeCx). This is an in-box driver included Windows 10. 
-- The client driver is written by an IHV/OEM. This driver is referred to as the UDE client driver. 
-
-The driver pair loads as the FDO in the host controller device stack. The UDE client driver communicates with Udecx by using a set of methods and event callback functions to handle device requests and notify the class extension about various events.
-
-### Programming Guide
-[Developing Windows drivers for emulated USB devices (UDE)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices).
-
-### Headers
- * [udecxfuncenum.h](..\udecxfuncenum\index.md)
- * [udecxtypes.h](..\udecxtypes\index.md)
- * [udecxurb.h](..\udecxurb\index.md)
- * [udecxusbdevice.h](..\udecxusbdevice\index.md)
- * [udecxusbendpoint.h](..\udecxusbendpoint\index.md)
- * [udecxwdfdevice.h](..\udecxwdfdevice\index.md)
-
-## Programming reference for all USB drivers
-
-A Windows Driver Model (WDM)-based USB client driver can call functions to communicate with the Microsoft-provided USB driver stack. These functions are defined in Usbdlib.h and the client driver requires the Usbdex.lib library. The library gets loaded and statically linked to the client driver module when it is built. A client driver that calls these routines can run on Windows Vista and later versions of Windows.
-
-### Programming Guide
-[Developing Windows client drivers for USB devices](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-driver-development-guide).
-
-### Headers
- * [usb.h](..\usb\index.md)
- * [usbbusif.h](..\usbbusif\index.md)
- * [usbdlib.h](..\usbdlib\index.md)
- * [usbfnattach.h](..\usbfnattach\index.md)
- * [usbfnbase.h](..\usbfnbase\index.md)
- * [usbfnioctl.h](..\usbfnioctl\index.md)
- * [usbioctl.h](..\usbioctl\index.md)
- * [usbiodef.h](..\usbiodef\index.md)
- * [usbspec.h](..\usbspec\index.md)
-
+|Scenario|Headers|Programming Guide|
+|---|---|---|
+|**If your USB Type-C hardware has the capability of handling the power delivery (PD) state machine.**|<p>[ucmcx.h](..\ucmcx\index.md)</p><p>[ucmfuncenum.h](..\ucmfuncenum\index.md)</p><p>[ucmglobals.h](..\ucmglobals\index.md)</p><p>[ucmmanager.h](..\ucmmanager\index.md)</p>|[Write a USB Type-C connector driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system)|
+|**If your hardware does not support PD.**| <p>[ucmtcpcicx.h](..\ucmtcpcicx\index.md)</p> <p>[ucmtcpcidevice.h](..\ucmtcpcidevice\index.md)</p> <p>[ucmtcpcifuncenum.h](..\ucmtcpcifuncenum\index.md)</p> <p>[ucmtcpciglobals.h](..\ucmtcpciglobals\index.md)</p> <p>[ucmtcpciportcontroller.h](..\ucmtcpciportcontroller\index.md)</p> <p>[ucmtcpciportcontrollerrequests.h](..\ucmtcpciportcontrollerrequests\index.md)</p> <p>[ucmtcpcispec.h](..\ucmtcpcispec\index.md)</p> <p>[ucmtypes.h](..\ucmtypes\index.md)</p>|[Write a USB Type-C port controller driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver).
+**If your embedded controller is connected over non-ACPI transport**|</p>[Ucmucsicx.h](../ucmucsicx/index.md)</p></p>[Ucmucsidevice.h](../ucmucsidevice/index.md)</p></p>[Ucmucsifuncenum.h](../ucmucsifuncenum/index.md)</p></p>[Ucmucsiglobals.h](../ucmucsiglobals/index.md)</p></p>[Ucmucsippm.h](../ucmucsippm/index.md)</p></p>[Ucmucsippmrequests.h](../ucmucsippmrequests/index.md)</p></p>[Ucmucsispec.h](../ucmucsispec/index.md)</p>|[Write a UCSI client driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-ucsi-driver)|
