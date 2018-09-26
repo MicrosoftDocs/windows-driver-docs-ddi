@@ -3,6 +3,7 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SAVE_END
 title: FN_VMB_CHANNEL_SAVE_END
 author: windows-driver-content
 description: The VmbChannelSaveEnd function cleans up any resources that were allocated for saving state of a channel.
+tech.root: netvista
 ms.assetid: 9de0f0e0-edee-4f91-be92-a4d7a439ec5a
 ms.author: windowsdriverdev
 ms.date: 05/21/2018

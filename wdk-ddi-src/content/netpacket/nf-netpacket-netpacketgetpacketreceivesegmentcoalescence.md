@@ -3,6 +3,7 @@ UID: NF:netpacket.NetPacketGetPacketReceiveSegmentCoalescence
 title: NetPacketGetPacketReceiveSegmentCoalescence function
 author: windows-driver-content
 description: The NetPacketGetPacketReceiveSegmentCoalescence method retrieves receive segment coalescence (RSC) information for a packet.
+tech.root: netvista
 ms.assetid: fad9b214-3c5b-445a-af85-2c9464dfa5f2
 ms.author: windowsdriverdev
 ms.date: 03/02/2018

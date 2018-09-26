@@ -3,6 +3,7 @@ UID: NE:netadapter._NET_ADAPTER_MEDIA_SPECIFIC_WAKEUP_EVENTS_FLAGS
 title: _NET_ADAPTER_MEDIA_SPECIFIC_WAKEUP_EVENTS_FLAGS
 author: windows-driver-content
 description: Specifies the media-specific wake-up events that a network adapter supports.
+tech.root: netvista
 ms.assetid: 73fcfbf5-e5c4-4ee3-9ed5-544b743e683c
 ms.author: windowsdriverdev
 ms.date: 02/05/2018

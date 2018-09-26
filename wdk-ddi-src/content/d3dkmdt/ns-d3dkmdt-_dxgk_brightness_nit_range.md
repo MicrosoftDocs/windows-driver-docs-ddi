@@ -41,7 +41,7 @@ tech.root: display
 
 ## -description
 
-This structure represents a linear range of supported millinit levels.
+This structure represents a linear range of supported millinit levels. If the driver has not set [DXGK_BRIGHTNESS_CAPS.NitsBrightness](ns-d3dkmdt-_dxgk_brightness_caps.md), then all values represent brightness level in uncalibrated thousandths of a percent. 
 
 ## -struct-fields
 

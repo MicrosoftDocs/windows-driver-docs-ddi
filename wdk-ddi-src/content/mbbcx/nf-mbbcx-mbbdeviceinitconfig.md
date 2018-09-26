@@ -3,6 +3,7 @@ UID: NF:mbbcx.MbbDeviceInitConfig
 title: MbbDeviceInitConfig function
 author: windows-driver-content
 description: The MBBDeviceInitConfig method initializes MBBCx device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
+tech.root: netvista
 ms.assetid: c4998ab1-28f7-44d3-83ef-e6f303ff6279
 ms.author: windowsdriverdev
 ms.date: 06/28/2018

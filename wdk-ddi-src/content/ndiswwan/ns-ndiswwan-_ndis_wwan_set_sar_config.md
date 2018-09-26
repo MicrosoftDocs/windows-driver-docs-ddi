@@ -3,6 +3,7 @@ UID: NS:ndiswwan._NDIS_WWAN_SET_SAR_CONFIG
 title: _NDIS_WWAN_SET_SAR_CONFIG
 author: windows-driver-content
 description: The NDIS_WWAN_SET_SAR_CONFIG structure describes Specific Absorption Rate (SAR) information that a mobile broadband (MB) modem should use to set its SAR configuration.
+tech.root: netvista
 ms.assetid: 1d92e287-b6d5-4eb6-9d34-963331b04a00
 ms.author: windowsdriverdev
 ms.date: 08/20/2018

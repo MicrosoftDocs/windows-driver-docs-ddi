@@ -3,6 +3,7 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SET_COMPLETION_ROUTINE
 title: FN_VMB_PACKET_SET_COMPLETION_ROUTINE
 author: windows-driver-content
 description: The VmbPacketSetCompletionRoutine function sets the completion routine for a packet object.
+tech.root: netvista
 ms.assetid: e59dd45b-4158-4f05-a513-e1e97e82228c
 ms.author: windowsdriverdev
 ms.date: 05/22/2018

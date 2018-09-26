@@ -3,6 +3,7 @@ UID: NF:netrxqueue.NetRxQueueCreate
 title: NetRxQueueCreate function
 author: windows-driver-content
 description: Creates a net receive queue object.
+tech.root: netvista
 ms.assetid: 2f5e886c-10c8-42bf-83d3-1902ef628b5a
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

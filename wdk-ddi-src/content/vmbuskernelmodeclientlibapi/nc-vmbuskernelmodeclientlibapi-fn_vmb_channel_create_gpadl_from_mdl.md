@@ -3,6 +3,7 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_CREATE_GPADL_FROM_MDL
 title: FN_VMB_CHANNEL_CREATE_GPADL_FROM_MDL
 author: windows-driver-content
 description: The VmbChannelCreateGpadlFromMdl function creates a Guest Physical Address Descriptor List (GPADL) that describes a client-side buffer. The GPADL can be used in the server to access the buffer.
+tech.root: netvista
 ms.assetid: 910ee2ef-69af-448c-b911-b9cfe782eb74
 ms.author: windowsdriverdev
 ms.date: 05/21/2018

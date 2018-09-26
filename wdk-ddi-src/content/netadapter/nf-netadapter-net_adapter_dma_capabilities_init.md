@@ -3,6 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_DMA_CAPABILITIES_INIT
 title: NET_ADAPTER_DMA_CAPABILITIES_INIT function
 author: windows-driver-content
 description: The NET_ADAPTER_DMA_CAPABILITIES_INIT method initializes a NET_ADAPTER_DMA_CAPABILITIES structure.
+tech.root: netvista
 ms.assetid: 7e1a1622-4479-445e-8672-3dcc9b402679
 ms.author: windowsdriverdev
 ms.date: 02/14/2018

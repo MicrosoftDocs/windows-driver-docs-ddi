@@ -3,6 +3,7 @@ UID: NF:ndis.NdisSetNblFlag
 title: NdisSetNblFlag macro
 author: windows-driver-content
 description: The NdisSetNblFlag macro sets a flag in a NET_BUFFER_LIST structure.
+tech.root: netvista
 ms.assetid: fb399afc-ff20-43aa-9c9c-7be525e61d1f
 ms.author: windowsdriverdev
 ms.date: 04/16/2018

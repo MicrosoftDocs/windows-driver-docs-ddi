@@ -3,6 +3,7 @@ UID: NS:ndiswwan._NDIS_WWAN_SET_MPDP_STATE
 title: _NDIS_WWAN_SET_MPDP_STATE
 author: windows-driver-content
 description: The NDIS_WWAN_SET_MPDP_STATE structure contains information for performing an operation on a Multiple Packet Data Protocol (MPDP) interface.
+tech.root: netvista
 ms.assetid: 2bacc2a8-0117-4f3c-8865-af8d1c5529ba
 ms.author: windowsdriverdev
 ms.date: 06/25/2018

@@ -95,14 +95,26 @@ DXGI_DDI_PRIMARY_STEREO (0x4)
 
 </td>
 <td>
-Supported in   Windows 8 and later versions.
+Supported in Windows 8 and later versions.
 
 The primary represents a stereo back buffer.
 
 </td>
 </tr>
+<tr>
+<td>
+DXGI_DDI_PRIMARY_INDIRECT (0x8)
+
+</td>
+<td>
+Supported in Windows 10 and later versions.
+
+The primary will be used for presenting to an indirect display device.
+
+</td>
+</tr>
 </table>
- 
+
 
 
 ### -field VidPnSourceId

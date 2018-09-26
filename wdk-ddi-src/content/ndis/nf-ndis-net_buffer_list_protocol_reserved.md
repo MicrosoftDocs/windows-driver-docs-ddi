@@ -3,6 +3,7 @@ UID: NF:ndis.NET_BUFFER_LIST_PROTOCOL_RESERVED
 title: NET_BUFFER_LIST_PROTOCOL_RESERVED macro
 author: windows-driver-content
 description: NET_BUFFER_LIST_PROTOCOL_RESERVED is a macro that NDIS drivers use to access the ProtocolReserved member of a NET_BUFFER_LIST structure.
+tech.root: netvista
 ms.assetid: 2d6cc00f-2f22-4105-9e01-7cc179a0b851
 ms.author: windowsdriverdev
 ms.date: 04/13/2018

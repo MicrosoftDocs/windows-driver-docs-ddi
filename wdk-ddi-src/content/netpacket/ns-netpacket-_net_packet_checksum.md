@@ -3,6 +3,7 @@ UID: NS:netpacket._NET_PACKET_CHECKSUM
 title: _NET_PACKET_CHECKSUM
 author: windows-driver-content
 description: A NET_PACKET_CHECKSUM structure describes checksum information for a NET_PACKET.
+tech.root: netvista
 ms.assetid: 75363870-C58D-4677-A523-9728CB4A1BAC
 ms.author: windowsdriverdev
 ms.date: 02/08/2018

@@ -3,6 +3,7 @@ UID: NF:netadapter.NetAdapterSetCurrentLinkLayerAddress
 title: NetAdapterSetCurrentLinkLayerAddress function
 author: windows-driver-content
 description: The NetAdapterSetCurrentLinkLayerAddress method sets the current link layer address for the network adapter.
+tech.root: netvista
 ms.assetid: bc19abdf-be00-4cbb-bc8b-5a2d59919907
 ms.author: windowsdriverdev
 ms.date: 02/06/2018
