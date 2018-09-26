@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_ADDITIONAL_IE structure

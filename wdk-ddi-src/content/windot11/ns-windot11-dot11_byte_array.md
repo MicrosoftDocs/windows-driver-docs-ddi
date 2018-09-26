@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_BYTE_ARRAY structure

@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_ASSOCIATION_STATE, *PDOT11_ASSOCIATION_STATE
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_ASSOCIATION_STATE enumeration
