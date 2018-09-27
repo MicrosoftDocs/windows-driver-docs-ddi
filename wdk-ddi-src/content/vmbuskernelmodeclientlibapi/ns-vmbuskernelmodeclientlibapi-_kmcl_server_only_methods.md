@@ -34,6 +34,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: netvista
 ---
 
 # _KMCL_SERVER_ONLY_METHODS structure
