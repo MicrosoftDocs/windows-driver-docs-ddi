@@ -11,18 +11,18 @@ ms.topic: portal
 tech.root: usbref
 ---
 
-# Ucmpmapi.h header
+# Usbpmapi.h header
 
 
 ## -description
 
 This header is the main include header for client drivers of the USB Policy Manager to monitor the activities of USB Type-C connectors and/or get involved into policy decisions of USB Type-C connectors.
 
-Ucmpmapi.h includes:
+Usbpmapi.h includes:
 
-UsbCTypes.h
+[UsbCTypes.h](..\usbctypes\index.md)
 
-> Do not include the preceding header directly. Instead, only include Ucmpmapi.h.
+> Do not include the preceding header directly. Instead, only include Usbpmapi.h.
 
 For more information, see:
 - [Universal Serial Bus (USB)](../_usbref/index.md)
