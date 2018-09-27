@@ -1,0 +1,54 @@
+---
+UID: NE:usbctypes._USBC_PD_POWER_DATA_OBJECT_TYPE
+title: _USBC_PD_POWER_DATA_OBJECT_TYPE
+author: windows-driver-content
+description: Defines Power Data Object types.
+ms.assetid: 12eea3e2-18dc-4c5a-a97d-4776e6c85180
+ms.author: windowsdriverdev
+ms.date: 09/30/2018
+ms.topic: enum
+ms.keywords: _USBC_PD_POWER_DATA_OBJECT_TYPE, USBC_PD_POWER_DATA_OBJECT_TYPE, 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: usbctypes.h
+req.include-header: usbctypes.h
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver: 1.27
+req.umdf-ver: N/A
+req.ddi-compliance:
+req.max-support:
+req.typenames: USBC_PD_POWER_DATA_OBJECT_TYPE
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	usbctypes.h
+api_name: 
+-	_USBC_PD_POWER_DATA_OBJECT_TYPE
+product: Windows
+targetos: Windows
+---
+
+# _USBC_PD_POWER_DATA_OBJECT_TYPE enumeration
+
+## -description
+Defines Power Data Object types. For information about these members, see the [Power Delivery specification](http://www.usb.org/developers/docs/usb20_docs/).
+
+
+## -enum-fields
+
+### -field UsbCPdPdoTypeFixedSupply 
+Indicates the PD data object type is a fixed supply.
+
+### -field UsbCPdPdoTypeBatterySupply 
+Indicates the PD data object type is a battery supply.
+
+### -field UsbCPdPdoTypeVariableSupplyNonBattery 
+Indicates the PD data object type is a non-battery variable supply.
+
+## -remarks
+
+## -see-also

@@ -399,10 +399,8 @@ A <b>FILE_REMOTE_PROTOCOL_INFORMATION</b> structure. This value is reserved for 
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RENAME_INFORMATION</a> structure. This value is available starting with Windows 10. 
 
-This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security
-        access checks.  This operation
-        is only recognized by the <i>IOManager</i> and a file system should never
-        receive it.
+This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation
+is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 
 
@@ -410,10 +408,8 @@ This is a special version of the <b>FileRenameInformation</b> operation that is 
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure. This value is available starting with Windows 10.
 
-This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security
-        access checks.  This operation
-        is only recognized by the <i>IOManager</i> and a file system should never
-        receive it.
+This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation
+is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 
 
@@ -463,31 +459,49 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RE
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709. 
 
-This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security
-        access checks.  This operation
-        is only recognized by the <i>IOManager</i> and a file system should never
-        receive it.
+This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 
 
 ### -field FileDesiredStorageClassInformation
 
-A [FILE_DESIRED_STORAGE_CLASS_INFORMATION] structure, declared in ntifs.h.  This value is available starting with Windows 10, version 1709. 
+A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](..\ntifs\ns-ntifs-_file_desired_storage_class_information.md) structure, declared in ntifs.h.  This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatInformation
 
-A **FILE_STAT_INFORMATION** structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+A [**FILE_STAT_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileMemoryPartitionInformation
 
-A **FILE_MEMORY_PARTITION_INFORMATION** structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
-
+Reserved. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatLxInformation 
-A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update. 
+A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This information class is used for fields refer to Linux metadata used/created by the Windows Subsystem for Linux. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileCaseSensitiveInformation 
 A [**FILE_CASE_SENSITIVE_INFORMATION**](..\ntifs\ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
+
+### -field FileLinkInformationEx
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1809.
+
+### -field FileLinkInformationExBypassAccessCheck
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure which contains additional flags.
+
+This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
+
+
+This value is available starting with Windows 10, version 1809.
+
+### -field FileStorageReserveIdInformation
+A [**FILE_SET_STORAGE_RESERVE_ID_INFORMATION**](..\ntifs\ns-ntifs-_file_storage_reserve_id_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
+
+
+### -field FileCaseSensitiveInformationForceAccessCheck 
+A [**FILE_CASE_SENSITIVE_INFORMATION**](..\ntifs\ns-ntifs-_file_case_sensitive_information.md), declared in ntifs.h. 
+
+This is a special version of the **FileCaseSensitiveInformation** operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it.
+
+This value is available starting with Windows 10, version 1809.
 
 ### -field FileMaximumInformation
 

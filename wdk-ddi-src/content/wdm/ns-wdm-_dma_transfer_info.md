@@ -67,6 +67,8 @@ The version number of the <b>DMA_TRANSFER_INFO_<i>XXX</i></b> structure that fol
 
 The allocation requirements for a scatter/gather list. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451003">DMA_TRANSFER_INFO_V1</a>.
 
+### -field V2
+The allocation requirements for a scatter/gather list. For more information, see [**DMA_TRANSFER_INFO_V2**](ns-wdm-_dma_transfer_info_v2.md).
 
 ## -remarks
 
@@ -74,7 +76,7 @@ The allocation requirements for a scatter/gather list. For more information, see
 
 A device driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451125">GetDmaTransferInfo</a> routine to obtain a <b>DMA_TRANSFER_INFO</b> structure that describes the allocation requirements for the scatter/gather list to use in a DMA transfer.
 
-The unnamed union in this structure contains a <b>DMA_TRANSFER_INFO_<i>XXX</i></b> structure. The <b>Version</b> member indicates which version of the <b>DMA_TRANSFER_INFO_<i>XXX</i></b> structure is contained in the union. Currently, only version 1 is supported.
+The unnamed union in this structure contains a <b>DMA_TRANSFER_INFO_<i>XXX</i></b> structure. The <b>Version</b> member indicates which version of the <b>DMA_TRANSFER_INFO_<i>XXX</i></b> structure is contained in the union. 
 
 
 

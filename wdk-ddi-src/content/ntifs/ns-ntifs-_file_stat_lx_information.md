@@ -39,7 +39,7 @@ targetos: Windows
 # _FILE_STAT_LX_INFORMATION structure
 
 ## -description
-The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
+Contains Linux metadata extended attributes present on the file. This is used and created by the Windows Subsystem for Linux (WSL).
 
 ## -struct-fields
 
@@ -110,21 +110,47 @@ LX_FILE_CASE_SENSITIVE_DIR|x10
 
 ### -field LxUid
 
-Specifies the User id of the file
+Specifies the User id of the file.
 ### -field LxGid
- 
 
-Specifies the Group id of the file
+Specifies the Group id of the file.
 
 ### -field LxMode
+Specifies the Linux file type and and file system permissions. These values are defined in sys/stat.h in the Windows SDK. 
+
+- S_IFLNK
+- S_IFSOCK
+- S_IFBLK
+
+| Flag | Description|
+|---|---|
+|_S_IFMT   0xF000 |File type mask|
+|_S_IFDIR  0x4000 | Directory|
+|_S_IFCHR  0x2000 | Character special|
+|_S_IFIFO  0x1000 | Pipe|
+|_S_IFREG  0x8000 | Regular|
+|_S_IREAD  0x0100 | Read permission, owner|
+|_S_IWRITE 0x0080 | Write permission, owner|
+|_S_IEXEC  0x0040 | Execute/search permission, owner|
  
 ### -field LxDeviceIdMajor
+For device files (_S_IFCHR or S_IFBLK), specifies the device major number. For other file types, this field is not used.
  
 ### -field LxDeviceIdMinor
- 
+For device files (_S_IFCHR or S_IFBLK), specifies the device minor number. For other file types, this field is not used.
 
 ## -remarks
 
+The [**REPARSE_DATA_BUFFER**](ns-ntifs-_reparse_guid_data_buffer.md) structure is used by Microsoft file systems, filters, and minifilter drivers, as well as the I/O manager, to store data for a reparse point.
+
+This structure can only be used for Microsoft reparse points. Third-party reparse point owners must use the **REPARSE_GUID_DATA_BUFFER** structure instead.
+
+Microsoft reparse points can use the **REPARSE_DATA_BUFFER** structure or the **REPARSE_GUID_DATA_BUFFER** structure.
+
+For more information about reparse point tags, see the Microsoft Windows SDK documentation. 
+
 For more information about absolute and relative symbolic links, see Creating Symbolic Links in the Microsoft Windows SDK documentation.
+
+
 
 ## -see-also

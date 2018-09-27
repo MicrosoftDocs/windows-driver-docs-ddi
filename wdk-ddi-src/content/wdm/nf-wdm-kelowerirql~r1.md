@@ -1,6 +1,6 @@
 ---
-UID: NF:wdm.KeLowerIrql
-title: KeLowerIrql macro
+UID: NF:wdm.KeLowerIrql~r1
+title: KeLowerIrql function
 author: windows-driver-content
 description: The KeLowerIrql routine restores the IRQL on the current processor to its original value.
 old-location: kernel\kelowerirql.htm
@@ -11,7 +11,7 @@ ms.date: 4/30/2018
 ms.keywords: KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, kernel.kelowerirql, wdm/KeLowerIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: macro
+ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ targetos: Windows
 req.typenames: 
 ---
 
-# KeLowerIrql macro
+# KeLowerIrql function
 
 
 ## -description
@@ -59,9 +59,9 @@ The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its
 
 
 
-### -param a [in]
+### -param NewIrql
 
-Specifies the IRQL that was returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553084">KeRaiseIrqlToDpcLevel</a>.
+[in] Specifies the IRQL that was returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553084">KeRaiseIrqlToDpcLevel</a>.
 
 
 
