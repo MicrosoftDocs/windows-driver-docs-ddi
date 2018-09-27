@@ -68,7 +68,7 @@ VOID IommuDeviceFaultHandler
 A pointer to the opaque driver-supplied fault context.
 
 ### -param FaultInformation
-A pointer to a [**FAULT_INFORMATION**] structure that contains fault information.
+A pointer to a [**FAULT_INFORMATION**](ns-wdm-_fault_information.md) structure that contains fault information.
 
 
 ## -returns
