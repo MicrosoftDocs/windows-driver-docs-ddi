@@ -53,7 +53,6 @@ Opaque push lock pointer specified in the [**ExAcquirePushLockShared**](nf-wdm-e
 
 
 ## -remarks
-The caller is required call  [**KeLeaveCriticalRegion**](../ntddk/nf-ntddk-keleavecriticalregion.md) after calling [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
 
 To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md).
 

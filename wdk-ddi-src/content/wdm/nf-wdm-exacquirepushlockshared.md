@@ -65,7 +65,7 @@ When the caller will be given shared access to the given push lock depends on th
 
 - If the push lock has already been acquired for exclusive access by another thread or if there is another thread waiting for exclusive access, the current thread is put into a wait state until the push lock can be acquired.
 
-The caller is required call  [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion) before calling [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
+The caller is required call  [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion) before calling **ExAcquirePushLockShared**.
 
 To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md). 
 
