@@ -37,6 +37,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: netvista
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_FLAGS callback function
