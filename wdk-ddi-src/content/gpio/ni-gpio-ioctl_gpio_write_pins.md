@@ -118,7 +118,7 @@ The client sends this I/O control request to the file object for the target devi
 For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request to write to a set of GPIO I/O pins, see the following topics:
 
 <a href="https://msdn.microsoft.com/02F6431C-7B55-4DFB-9792-4A72F0268C76">Connecting a KMDF Driver to GPIO I/O Pins</a>
-<a href="https://msdn.microsoft.com/6869D298-5EB4-4991-A67F-F4398CE2D191">Connecting a UMDF Driver to GPIO I/O Pins</a>
+
 
 
 
