@@ -65,14 +65,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pPresentData [in]
+*pPresentData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn457997">D3DDDIARG_PRESENT1</a> structure that describes how to display to the destination surface. 
 
@@ -80,9 +73,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn45
 ## -returns
 
 
-
-
-      Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
+Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
 
 
 
