@@ -65,14 +65,9 @@ The <b>FsRtlLookupPerStreamContextInternal</b> routine is reserved for system us
 
 ### -param OwnerId
 
-TBD
+Reserved.
 
 
 ### -param InstanceId
 
-TBD
-
-
-
-
-
+Reserved.

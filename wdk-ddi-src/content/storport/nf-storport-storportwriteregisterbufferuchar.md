@@ -66,17 +66,17 @@ The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of 
 
 ### -param r
 
-<p>Pointer to a buffer containing the data to be written. </p>
+Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by [**StorPortGetDeviceBase**](nf-storport-storportgetdevicebase.md).
 
 
 ### -param b
 
-<p>Specifies the number of bytes to be transferred to the HBA. </p>
+<p>Pointer to a buffer containing the data to be written. </p>
 
 
 ### -param c
 
-TBD
+<p>Specifies the number of bytes to be transferred to the HBA. </p>
 
 
 

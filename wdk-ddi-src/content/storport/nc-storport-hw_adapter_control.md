@@ -46,22 +46,15 @@ req.typenames:
 
 # HW_ADAPTER_CONTROL callback function
 
-
 ## -description
-
 
 A miniport driver's <b>HwStorAdapterControl</b> routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceExtension [in]
 
-A pointer to the miniport driver's per-HBA storage area. 
-
+A pointer to the miniport driver's per-HBA storage area.
 
 ### -param ControlType [in]
 
@@ -98,17 +91,17 @@ None
 
 </td>
 <td>
-Shuts down the HBA. The Storport driver calls <b>HwStorAdapterControl</b> with this control type when the HBA has been removed from the system, stopped for resource reconfiguration, shut down for power management, or otherwise reconfigured or disabled. The Storport driver ensures that there are no uncompleted requests and issues an SRB_FUNCTION_FLUSH request to the miniport driver before calling this routine. 
+Shuts down the HBA. The Storport driver calls <b>HwStorAdapterControl</b> with this control type when the HBA has been removed from the system, stopped for resource reconfiguration, shut down for power management, or otherwise reconfigured or disabled. The Storport driver ensures that there are no uncompleted requests and issues an SRB_FUNCTION_FLUSH request to the miniport driver before calling this routine.
 
-The miniport driver disables interrupts on its HBA, halts all processing, (including background processing not subject to interrupts or processing of which the Storport driver is unaware, such as reconstructing fault-tolerant volumes), flushes any remaining cached data to persistent storage, and puts the HBA into a state from which it can be reinitialized or restarted. 
+The miniport driver disables interrupts on its HBA, halts all processing, (including background processing not subject to interrupts or processing of which the Storport driver is unaware, such as reconstructing fault-tolerant volumes), flushes any remaining cached data to persistent storage, and puts the HBA into a state from which it can be reinitialized or restarted.
 
-The miniport driver should not free its resources when stopping its HBA. If the HBA was removed or stopped for PnP resource reconfiguration, the Storport driver releases resources on behalf of the miniport driver. If the HBA is shut down for power management, the miniport driver's resources are preserved so the HBA can be restarted. 
+The miniport driver should not free its resources when stopping its HBA. If the HBA was removed or stopped for PnP resource reconfiguration, the Storport driver releases resources on behalf of the miniport driver. If the HBA is shut down for power management, the miniport driver's resources are preserved so the HBA can be restarted.
 
-After <b>HwStorAdapterControl</b> returns from stopping the HBA, any data structures allocated on behalf of the miniport driver for the HBA should be considered invalid until the miniport driver is asked to restart. 
+After <b>HwStorAdapterControl</b> returns from stopping the HBA, any data structures allocated on behalf of the miniport driver for the HBA should be considered invalid until the miniport driver is asked to restart.
 
 Note that the Storport driver might call <b>HwStorAdapterControl</b> to stop the adapter after the HBA has already been physically removed from the system, so the miniport driver's <b>HwStorAdapterControl</b> routine must not perform any operations that require the HBA to be physically present while it is stopping the HBA.
 
-The miniport driver is not called again for the HBA until either the PnP manager requests that the HBA be started, in which case the Storport driver (re)initializes by calling its <b>HwStorAdapterControl</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routines, or an HBA that was stopped for power management is powered up, in which case the Storport driver calls the miniport driver's <b>HwStorAdapterControl</b> routine with <b>ScsiRestartAdapter</b> or, if the miniport driver does not implement that control type, repeats the initialization sequence for the HBA. 
+The miniport driver is not called again for the HBA until either the PnP manager requests that the HBA be started, in which case the Storport driver (re)initializes by calling its <b>HwStorAdapterControl</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routines, or an HBA that was stopped for power management is powered up, in which case the Storport driver calls the miniport driver's <b>HwStorAdapterControl</b> routine with <b>ScsiRestartAdapter</b> or, if the miniport driver does not implement that control type, repeats the initialization sequence for the HBA.
 
 </td>
 <td>
@@ -132,7 +125,7 @@ The miniport driver performs the same operations as in its <a href="https://msdn
 
 The miniport driver must not call routines that can only be called from <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> or from <b>HwStorAdapterControl</b> when the control type is <b>ScsiSetRunningConfig</b>, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff567076">StorPortGetBusData</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567503">StorPortSetBusDataByOffset</a>. If the miniport driver must call such routines to restart its HBA, it must also implement <b>ScsiSetRunningConfig</b>.
 
-If the miniport driver does not implement <b>ScsiRestartAdapter</b>, the Storport driver calls the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routines. However, because such routines might do detection work unnecessary for restarting the HBA, such a miniport driver will not power up its HBA as quickly as a miniport driver that implements <b>ScsiRestartAdapter</b>. 
+If the miniport driver does not implement <b>ScsiRestartAdapter</b>, the Storport driver calls the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routines. However, because such routines might do detection work unnecessary for restarting the HBA, such a miniport driver will not power up its HBA as quickly as a miniport driver that implements <b>ScsiRestartAdapter</b>.
 
 </td>
 <td>
@@ -150,9 +143,9 @@ InterruptLock
 
 </td>
 <td>
-Restores any settings on an HBA that the BIOS might need to reboot. The Storport driver calls <b>HwStorAdapterControl</b> with this control type after calling this routine with <b>ScsiStopAdapter</b>. 
+Restores any settings on an HBA that the BIOS might need to reboot. The Storport driver calls <b>HwStorAdapterControl</b> with this control type after calling this routine with <b>ScsiStopAdapter</b>.
 
-A miniport driver must implement <b>ScsiSetBootConfig</b> if it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567076">StorPortGetBusData</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567503">StorPortSetBusDataByOffset</a> before the system will be able to reboot. 
+A miniport driver must implement <b>ScsiSetBootConfig</b> if it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567076">StorPortGetBusData</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567503">StorPortSetBusDataByOffset</a> before the system will be able to reboot.
 
 </td>
 <td>
@@ -210,7 +203,7 @@ None
 
 </td>
 <td>
-Filters the required resources for the adapter. The storport driver calls <i>HwStorAdapterControl</i> with this <a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> control type when the storport processes the  request.
+Filters the required resources for the adapter. The storport driver calls <i>HwStorAdapterControl</i> with this <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> control type when the storport processes the request and miniport has the STOR_FEATURE_ADAPTER_CONTROL_PRE_FINDADAPTER flag set in the FeatureSupport field of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_hw_initialization_data~r1">_HW_INITIALIZATION_DATA</a>. Note that the <i>DeviceExtension</i> passed in for this control type will be uninitialized.
 
 The miniport driver should change or reduce the resources described in the buffer using the <b>STOR_FILTER_RESOURCE_REQUIREMENTS</b> structure. This control type is valid in Windows 8.1 and later.
 
@@ -351,8 +344,6 @@ None
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Parameters [in]
 
@@ -377,14 +368,13 @@ Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 </tr>
 <tr>
 <td>
-<pre>typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST { 
+<pre>typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST {
     IN ULONG MaxControlType;
     OUT BOOLEAN SupportedTypeList[0];
 } SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST;</pre>
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="MaxControlType"></a><a id="maxcontroltype"></a><a id="MAXCONTROLTYPE"></a><b>MaxControlType</b></dt>
@@ -394,11 +384,9 @@ Specifies the number of entries in the <b>SupportedTypeList</b> array.
 </dd>
 <dt><a id="SupportedTypeList"></a><a id="supportedtypelist"></a><a id="SUPPORTEDTYPELIST"></a><b>SupportedTypeList</b></dt>
 <dd>
-Points to a caller-allocated array of BOOLEAN values that indicate the control types implemented by the miniport driver. The port driver initializes each element to <b>FALSE</b>. 
+Points to a caller-allocated array of BOOLEAN values that indicate the control types implemented by the miniport driver. The port driver initializes each element to <b>FALSE</b>.
 
 The miniport driver sets the corresponding array element to <b>TRUE</b> for each operation it supports:
-
-
 <dl>
 <dt>SupportedTypeList[ScsiQuerySupportedControlTypes]</dt>
 <dt>SupportedTypeList[ScsiStopAdapter]</dt>
@@ -414,7 +402,6 @@ The miniport driver sets the corresponding array element to <b>TRUE</b> for each
 <dt>SupportedTypeList[ScsiAdapterPrepareForBusReScan]</dt>
 <dt>SupportedTypeList[ScsiAdapterSystemPowerHints]</dt>
 </dl>
-
 
 The miniport driver must not set any element beyond <b>SupportedTypeList</b>[<b>MaxControlType</b> - 1].
 
@@ -485,8 +472,6 @@ Caller-allocated STOR_POWER_SETTING_INFO structure.
 </td>
 </tr>
 </table></span></div>
-
-
 <dl>
 <dt><a id="PowerSettingGuid"></a><a id="powersettingguid"></a><a id="POWERSETTINGGUID"></a><b>PowerSettingGuid</b></dt>
 <dd>
@@ -525,13 +510,12 @@ Caller-allocated STOR_FILTER_RESOURCE_REQUIREMENTS structure.
     ULONG Size;
     PIO_RESOURCE_REQUIREMENTS_LIST IoResourceRequirementsList;
 } STOR_FILTER_RESOURCE_REQUIREMENTS, *PSTOR_FILTER_RESOURCE_REQUIREMENTS;
-   
+
 #define STOR_FILTER_RESOURCE_REQUIREMENTS_V1 0x1
 </pre>
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Version"></a><a id="version"></a><a id="VERSION"></a><b>Version</b></dt>
@@ -575,7 +559,6 @@ Caller-allocated STOR_ADAPTER_CONTROL_POWER structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -630,7 +613,6 @@ Caller-allocated STOR_POFX_ACTIVE_CONTEXT structure.
 </tr>
 </table></span></div>
 
-
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
 <dd>
@@ -673,7 +655,6 @@ Caller-allocated STOR_POFX_FSTATE_CONTEXT structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -721,7 +702,6 @@ Caller-allocated STOR_POFX_POWER_CONTROL structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -797,7 +777,6 @@ Caller-allocated STOR_SYSTEM_POWER_HINTS structure.
 </tr>
 </table></span></div>
 
-
 <table>
 <tr>
 <th>Term</th>
@@ -830,8 +809,6 @@ The size of this structure. Set to <b>sizeof</b>(STOR_SYSTEM_POWER_HINTS).
 </td>
 <td width="60%">
 A system power usage indicator. This is one of the following values.
-
-
 
 <dl>
 <dt><a id="RaidSystemPowerUnknown"></a><a id="raidsystempowerunknown"></a><a id="RAIDSYSTEMPOWERUNKNOWN"></a>RaidSystemPowerUnknown</dt>
@@ -873,17 +850,12 @@ The resume latency, in milliseconds, of the device.
 </td>
 </tr>
 </table>
- 
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Depending on the control type, <b>HwStorAdapterControl</b> returns one of the following SCSI_ADAPTER_CONTROL_STATUS values:
 
@@ -917,14 +889,8 @@ The adapter control operation was not successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because miniport drivers that work with the Storport driver must support Plug and Play (PnP), this function is required. The control types, <b>ScsiStopAdapter</b> and <b>ScsiRestartAdapter</b>, must be supported.
 
@@ -947,7 +913,7 @@ HW_ADAPTER_CONTROL (
 </tr>
 </table></span></div>
 
-#### Examples
+### Examples
 
 To define an <b>HwStorAdapterControl</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
@@ -986,32 +952,14 @@ MyHwAdapterControl (
 </table></span></div>
 The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_ADAPTER_CONTROL</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567076">StorPortGetBusData</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567503">StorPortSetBusDataByOffset</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451513">StorPortSetPowerSettingNotificationGuids</a>
- 
-
- 
-

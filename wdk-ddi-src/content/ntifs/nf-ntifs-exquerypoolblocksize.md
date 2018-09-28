@@ -65,7 +65,7 @@ req.typenames:
 
 ### -param QuotaCharged
 
-TBD
+Reserved.
 
 
 

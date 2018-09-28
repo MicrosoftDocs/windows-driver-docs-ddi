@@ -50,7 +50,7 @@ req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 ## -description
 
 
-TBD
+The **SES_DOWNLOAD_MICROCODE_STATE** enumeration specifies the state of a microcode download operation.
 
 
 ## -enum-fields
@@ -70,15 +70,15 @@ Specifies a microcode download operation is in progress.
 
 ### -field SesDownloadMcStateCompletedPendingReset
 
-Specifies a microcode download operations completed and is waiting for a hard reset.
+Specifies a microcode download operation completed and is waiting for a hard reset.
 
 
 ### -field SesDownloadMcStateCompletedPendingPowerOn
 
-Specifies a microcode download operations completed and is waiting for a power on.
+Specifies a microcode download operation completed and is waiting for a power on.
 
 
 ### -field SesDownloadMcStateCompletedPendingActivation
 
-Specifies a microcode download operations completed and is waiting for activation.
+Specifies a microcode download operation completed and is waiting for activation.
 
