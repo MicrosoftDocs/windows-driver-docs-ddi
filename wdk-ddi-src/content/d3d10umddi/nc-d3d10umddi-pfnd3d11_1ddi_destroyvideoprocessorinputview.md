@@ -61,24 +61,13 @@ Releases resources for the video processor input view that were created through 
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
-
-
-#### - hView [in]
+*hView* [in]
 
 A handle to the driver's private data for the video processor input view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/f3942c53-e366-41c5-9f43-d093fa6b6ed6">CreateVideoProcessorInputView</a>.
 

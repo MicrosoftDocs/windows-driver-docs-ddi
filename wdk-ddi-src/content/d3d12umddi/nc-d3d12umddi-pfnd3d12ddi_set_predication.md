@@ -60,41 +60,25 @@ The <i>pfnSetPredication</i> callback function denotes that subsequent video ope
 
 ### -param Arg1
 
+*hCommandList*
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 
+*hResource*
+
+The handle of a resource.
 
 ### -param Arg3
 
 
 ### -param Arg4
 
-
-
-
-
-
-
-
-#### - PredicationOp
+*PredicationOp*
 
 A predication operation. For more information, see the <a href="https://msdn.microsoft.com/70676251-BCD7-4996-B5B7-96A8D9B107DB">D3D12DDI_PREDICATION_OP</a> enumeration.
 
-
-#### - Uint64
-
-An integer.
-
-
-#### - hCommandList
-
-The handle of a command list.
-
-
-#### - hResource
-
-The handle of a resource.
 
 
 ## -returns

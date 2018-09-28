@@ -60,24 +60,16 @@ The <b>pfnSetErrorCb</b> function sets the return error code of a user-mode disp
 
 ### -param Arg1
 
+*hRuntimeDevice* [in]
+
+A handle to a context for the core Microsoft Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 ### -param Arg2
 
+*hResult* [in]
 
+An HRESULT value that specifies the error to set for a driver function. 
 
-
-
-
-
-
-#### - hResult [in]
-
- An HRESULT value that specifies the error to set for a driver function. 
-
-
-#### - hRuntimeDevice [in]
-
- A handle to a context for the core Microsoft Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns

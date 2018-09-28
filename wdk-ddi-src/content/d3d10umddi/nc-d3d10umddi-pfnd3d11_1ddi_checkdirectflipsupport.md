@@ -60,12 +60,21 @@ Called by the Desktop Window Manager (DWM) to verify that the user-mode driver s
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hResource1*
+
+A resource in the application's swapchain.
 
 ### -param Arg3
 
+*hResource2*
+
+A resource in the DWM's swapchain.
 
 ### -param CheckDirectFlipFlags
 
@@ -75,21 +84,6 @@ If this parameter has a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>, 
 ### -param *pSupported [out]
 
 Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-#### - hResource1
-
-A resource in the application's swapchain.
-
-
-#### - hResource2
-
-A resource in the DWM's swapchain.
 
 
 ## -returns

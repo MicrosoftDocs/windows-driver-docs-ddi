@@ -60,21 +60,14 @@ The <i>SetVertexShaderDecl</i> function sets the vertex shader declaration so th
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*hShaderHandle* [in]
 
-
-
-
-
-
-
-#### - hShaderHandle [in]
-
- A handle to the vertex shader declaration object.
+A handle to the vertex shader declaration object.
 
 
 ## -returns

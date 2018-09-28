@@ -77,6 +77,7 @@ See Remarks for more info about the input buffer.
 
 ### -param OutputBufferSize
 
+[in] The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 ### -param *pOutputBuffer [out]
 
@@ -99,9 +100,7 @@ See Return value and Remarks sections for more about calls to <a href="https://m
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
 
-#### - OutBufferSize [in]
 
-The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
 ## -returns

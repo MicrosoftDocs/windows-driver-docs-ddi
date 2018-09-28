@@ -60,16 +60,12 @@ req.typenames:
 
 ### -param MonitorObject [in]
 
-
-                    
-                A handle by the OS to identify the monitor to set a gamma ramp for.
+A handle by the OS to identify the monitor to set a gamma ramp for.
 
 
 ### -param pInArgs [in]
 
-
-                    
-                Input arguments used by <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b>.
+Input arguments used by <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b>.
 
 
 ## -returns

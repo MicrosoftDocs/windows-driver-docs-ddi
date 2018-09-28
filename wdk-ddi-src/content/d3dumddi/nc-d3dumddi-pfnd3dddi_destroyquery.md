@@ -60,21 +60,14 @@ The <b>DestroyQuery</b> function releases resources for a query.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param HANDLE
 
+*hQuery* [in]
 
-
-
-
-
-
-
-#### - hQuery [in]
-
- A handle to the query that the <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function created.
+A handle to the query that the <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function created.
 
 
 ## -returns

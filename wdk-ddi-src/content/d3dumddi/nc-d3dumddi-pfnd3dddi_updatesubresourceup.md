@@ -67,14 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pCounterInfo [in]
+*pCounterInfo* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn449153">D3DDDIARG_UPDATESUBRESOURCEUP</a> structure that describes how to update a destination subresource region from a source system-memory region.
 

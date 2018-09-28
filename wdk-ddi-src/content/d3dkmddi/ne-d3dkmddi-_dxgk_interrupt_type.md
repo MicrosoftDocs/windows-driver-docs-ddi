@@ -105,6 +105,11 @@ Supported starting with Windows 8.1.
 
 ### -field DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE
 
+The GPU has completed encoding a Miracast encode chunk.
+
+The display miniport driver can optionally provide private data that the user-mode driver can obtain using the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>  function.
+
+Supported starting with Windows 8.1.
 
 ### -field DXGK_INTERRUPT_DMA_PAGE_FAULTED
 
@@ -137,15 +142,6 @@ The interrupt type should be raised when the hardware context list switch has co
 This interrupt type should be raised when the periodic monitored fence is signaled.
 
 Supported starting with Windows 10.
-
-
-#### - DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE
-
-The GPU has completed encoding a Miracast encode chunk.
-
-The display miniport driver can optionally provide private data that the user-mode driver can obtain using the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>  function.
-
-Supported starting with Windows 8.1.
 
 ### -field DXGK_INTERRUPT_SCHEDULING_LOG_INTERRUPT
 

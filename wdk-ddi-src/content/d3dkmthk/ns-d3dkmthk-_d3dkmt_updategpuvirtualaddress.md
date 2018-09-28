@@ -102,6 +102,7 @@ Specifies the <b>FenceValue</b> for <b>hFenceObject</b> that the map operation s
 
 ### -field Flags
 
+Flag options.
 
 ### -field Flags.DoNotWait
 

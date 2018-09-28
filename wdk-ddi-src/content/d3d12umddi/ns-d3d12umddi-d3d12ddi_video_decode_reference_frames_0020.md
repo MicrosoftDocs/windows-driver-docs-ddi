@@ -61,33 +61,21 @@ Contains the reference frames for the current decode operation.
 ### -field hDrvTexture2Ds
 
 
-
+The reference textures.
 
 ### -field pSubresources
 
 
-
+An array of subresource indexes for the list of reference textures.  A value of null indicates to assume a subresource of zero (0) for each resource.
 
 ### -field NumTexture2Ds
 
 
 
-
-
-
-#### - NumReferenceResources
-
 The number of references specified.
 
 
-#### - hDrvReferenceTexture2Ds
 
-The reference textures.
-
-
-#### - pReferenceSubresources
-
-An array of subresource indexes for the list of reference textures.  A value of null indicates to assume a subresource of zero (0) for each resource.
 
 
 ## -remarks

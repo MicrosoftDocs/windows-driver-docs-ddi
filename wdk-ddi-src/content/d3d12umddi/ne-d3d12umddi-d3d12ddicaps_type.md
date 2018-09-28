@@ -60,12 +60,12 @@ Specifies a capability type.
 
 ### -field D3D12DDICAPS_TYPE_TEXTURE_LAYOUT
 
-Texture layout.
+Texture layout. Deprecated. Use D3D12DDICAPS_TYPE_0022_TEXTURE_LAYOUT instead.
 
 
 ### -field D3D12DDICAPS_TYPE_SWIZZLE_PATTERN
 
-Swizzle pattern.
+Swizzle pattern. Deprecated. Use D3D12DDICAPS_TYPE_0022_SWIZZLE_PATTERN instead.
 
 
 ### -field D3D12DDICAPS_TYPE_MEMORY_ARCHITECTURE
@@ -105,7 +105,7 @@ GPU video acceleration capabilities.
 
 ### -field D3D12DDICAPS_TYPE_TEXTURE_LAYOUT1
 
-Texture layout.
+Texture layout. Deprecated. Use D3D12DDICAPS_TYPE_0022_TEXTURE_LAYOUT instead.
 
 
 ### -field D3D12DDICAPS_TYPE_0011_SHADER_MODELS
@@ -115,9 +115,11 @@ Shader models.
 
 ### -field D3D12DDICAPS_TYPE_0030_PROTECTED_RESOURCE_SESSION_SUPPORT
 
+Protected resource session support.
 
 ### -field D3D12DDICAPS_TYPE_0030_CRYPTO_SESSION_SUPPORT
 
+Crypto session support. Deprecated. See D3D12DDICAPS_TYPE_VIDEO_0032_CRYPTO_SESSION_SUPPORT in to [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 ### -field D3D12DDICAPS_TYPE_0022_CPU_PAGE_TABLE_FALSE_POSITIVES
 
@@ -141,26 +143,34 @@ UMD-based command queue priority.
 
 ### -field D3D12DDICAPS_TYPE_0030_CONTENT_PROTECTION_SYSTEM_COUNT
 
+Content protection system count. Deprecated. See D3D12DDICAPS_TYPE_VIDEO_0032_CONTENT_PROTECTION_SYSTEM_COUNT in to [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 ### -field D3D12DDICAPS_TYPE_0030_CONTENT_PROTECTION_SYSTEM_SUPPORT
 
+Content protection system support. Deprecated. See D3D12DDICAPS_TYPE_VIDEO_0032_CONTENT_PROTECTION_SYSTEM_SUPPORT in to [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 ### -field D3D12DDICAPS_TYPE_0030_CRYPTO_SESSION_TRANSFORM_SUPPORT
 
+Crypto transform support. Deprecated. See D3D12DDICAPS_TYPE_VIDEO_0032_CRYPTO_SESSION_TRANSFORM_SUPPORT in to [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
-
-
-#### - D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_DRM_SUPPORT
+#### D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_DRM_SUPPORT
 
 Content protection digital rights management (DRM) support.
 
 
-#### - D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_SUPPORT
+#### D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_SUPPORT
 
 Content protection support.
 
 
-#### - D3D12DDICAPS_TYPE_JPEG_OPTIONS
+#### D3D12DDICAPS_TYPE_JPEG_OPTIONS
 
 JPEG options.
 
+### -field D3D12DDICAPS_TYPE_0033_ADAPTER_COMPUTE_ONLY 
+
+Adapter computer only.
+
+### -field D3D12DDICAPS_TYPE_0050_HARDWARE_SCHEDULING_CAPS 
+
+Hardware scheduling capabilities.

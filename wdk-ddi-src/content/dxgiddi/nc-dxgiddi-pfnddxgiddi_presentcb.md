@@ -58,23 +58,16 @@ The <b>pfnPresentCbDXGI</b> function copies content from a source allocation to 
 
 
 
-### -param hDevice [in]
+### -param hDevice 
 
- A handle to a display device (graphics context). 
+[in] A handle to a display device (graphics context). 
 
 
 ### -param *
 
+*pPresentData* [in]
 
-
-
-
-
-
-
-#### - pPresentData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557440">DXGIDDICB_PRESENT</a> structure that describes the source and destination allocations that content is copied from and to. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557440">DXGIDDICB_PRESENT</a> structure that describes the source and destination allocations that content is copied from and to. 
 
 
 ## -returns

@@ -65,7 +65,7 @@ Submits a present command from the <a href="https://msdn.microsoft.com/523FBFAD-
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406509">D3DKMT_OUTPUTDUPLPRESENT</a> structure that describes parameters for the present operation.
 

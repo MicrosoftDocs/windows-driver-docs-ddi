@@ -60,21 +60,14 @@ Called by the Desktop Window Manager (DWM) to verify that the user-mode driver s
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pData* [in, out]
 
-
-
-
-
-
-
-#### - pData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451072">D3DDDIARG_CHECKDIRECTFLIPSUPPORT</a> structure that defines the parameters for the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451072">D3DDDIARG_CHECKDIRECTFLIPSUPPORT</a> structure that defines the parameters for the operation.
 
 
 ## -returns

@@ -60,31 +60,29 @@ The <b>DrawTriPatch</b> function draws a new or cached triangular patch or updat
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
 
+*pData* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
 
 
+### -param *
+
+*pInfo* [in]
+
+Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
 
 
+### -param *
 
+*pPatch* [in]
 
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
-
-
-#### - pInfo [in]
-
- Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
-
-
-#### - pPatch [in]
-
- Optional. A pointer to a buffer that contains three floating-point values (D3DFLOAT[3]) that provide the segment counts for each of the three edges of the triangular patch.
+Optional. A pointer to a buffer that contains three floating-point values (D3DFLOAT[3]) that provide the segment counts for each of the three edges of the triangular patch.
 
 
 ## -returns

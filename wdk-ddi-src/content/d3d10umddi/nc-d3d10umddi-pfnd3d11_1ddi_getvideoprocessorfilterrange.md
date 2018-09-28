@@ -60,46 +60,28 @@ Queries the range of values that the display miniport driver supports for a spec
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Filter [in]
-
-The type of the video processor filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
-
-
-#### - hProcessorEnum [in]
+*hProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
+### -param Arg3
 
+*Filter* [in]
 
+The type of the video processor filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
-#### - pFilterRange [out]
+### -param *
+
+*pFilterRange* [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450985">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a> structure that specifies the range of values for the specified filter.
+
 
 
 

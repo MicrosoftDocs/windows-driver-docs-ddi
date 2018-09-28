@@ -72,7 +72,7 @@ A handle to a display device (graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544218">D3DDDICB_PRESENT</a> structure that describes the source allocation that content is copied from.
 

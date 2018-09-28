@@ -75,4 +75,8 @@ The hardware device being processed.
 Returns the size of the video decoder in bytes.
 
 
+## -remarks
 
+
+
+The runtime allocates memory for storing the driver CPU object that represents the video decoder.  This method is used to calculate the driver object size.

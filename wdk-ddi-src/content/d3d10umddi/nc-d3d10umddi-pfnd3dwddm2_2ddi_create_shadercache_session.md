@@ -55,31 +55,20 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 
 ## -parameters
 
-### -param hDevice
+### -param Arg1
 
 The handle of a device.
 
 
-### -param Arg1
-
-
 ### -param Arg2
 
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hCacheSession
+*hCacheSession*
 
 The handle of a cache session.
 
-### -param hRTCacheSession
+### -param Arg3
+
+*hRTCacheSession*
 
 The handle of the cache session for the driver to use when it calls back into the runtime.
 

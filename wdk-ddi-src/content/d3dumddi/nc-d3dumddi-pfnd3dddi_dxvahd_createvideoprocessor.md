@@ -70,14 +70,14 @@ The <b>CreateVideoProcessor</b> function creates a Microsoft DirectX Video Accel
 
 
 
-#### - hDevice [in]
+*hDevice* [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543077">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543077">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 
 
 ## -returns

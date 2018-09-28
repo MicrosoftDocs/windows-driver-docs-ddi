@@ -60,7 +60,7 @@ The <i>FinishSessionKeyRefresh</i> function indicates that all buffers from that
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>FinishSessionKeyRefresh</i> function indicates that all buffers from that
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543120">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543120">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
 
 
 ## -returns

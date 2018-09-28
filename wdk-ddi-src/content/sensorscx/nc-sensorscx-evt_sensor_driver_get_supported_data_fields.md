@@ -60,19 +60,19 @@ For more information about data fields, see <a href="https://msdn.microsoft.com/
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
-
-
-### -param pDataFields [in, out, optional]
-
-A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>.
+[in] A reference to a sensor object.
 
 
-### -param pSize [out]
+### -param pDataFields
 
-The size of <b>pFields</b>.
+[in, out, optional] A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>.
+
+
+### -param pSize 
+
+[out] The size of *pDataFields*.
 
 
 ## -returns

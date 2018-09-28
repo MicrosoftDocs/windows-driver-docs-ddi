@@ -60,27 +60,15 @@ The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of i
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hBufferForArgs*
 
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - AlignedByteOffsetForArgs
-
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
-
-
-#### - hBufferForArgs
-
- A handle to a buffer that contains the arguments for <b>DrawIndexedInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
+A handle to a buffer that contains the arguments for <b>DrawIndexedInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -100,10 +88,14 @@ The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of i
 </table></span></div>
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/3dc64562-9dc0-4d43-835d-6fdd509435f8">DrawIndexedInstanced</a> reference page. 
 
+### -param Arg3
 
-#### - hDevice
+*AlignedByteOffsetForArgs*
 
- A handle to the display device (graphics context).
+The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
+
+
+
 
 
 ## -returns

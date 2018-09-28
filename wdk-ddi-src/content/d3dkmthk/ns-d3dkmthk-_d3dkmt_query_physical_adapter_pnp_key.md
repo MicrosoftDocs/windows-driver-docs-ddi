@@ -60,7 +60,7 @@ A structure that holds information to query the physical adapter PNP key.
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index.
+The physical adapter index in the LDA (linked display adapter) chain.
 
 
 ### -field PnPKeyType

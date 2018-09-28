@@ -60,12 +60,7 @@ Used to create a new hardware context.
 
 ### -param Arg1
 
-
-
-
-
-
-#### - createHwContext [in, out]
+*createHwContext* [in, out]
 
 A structure holding the information needed to create a new hardware context.
 

@@ -60,61 +60,47 @@ The <i>DefaultConstantBufferUpdateSubresourceUP</i> function updates a destinati
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDstResource* [in]
+
+A handle to the destination resource to copy to.
 
 ### -param Arg3
+
+*DstSubresource* [in]
+
+An index that indicates the destination subresource to copy to. 
+
+### -param *
+
+*pDstBox* [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
 
 
 ### -param *
 
+*pSysMemUP* [in]
+
+A pointer to the beginning address of the source data that <i>DefaultConstantBufferUpdateSubresourceUP</i> uses to update the destination subresouce. 
 
 ### -param Arg4
 
+*RowPitch* [in]
+
+The offset, in bytes, to move to the next row of source data.
 
 ### -param Arg5
 
+*DepthPitch* [in]
 
+The offset, in bytes, to move to the next depth slice of source data.
 
-
-
-
-
-
-#### - DepthPitch [in]
-
- The offset, in bytes, to move to the next depth slice of source data.
-
-
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to copy to. 
-
-
-#### - RowPitch [in]
-
- The offset, in bytes, to move to the next row of source data. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
-#### - pDstBox [in, optional]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
-
-
-#### - pSysMemUP [in]
-
- A pointer to the beginning address of the source data that <i>DefaultConstantBufferUpdateSubresourceUP</i> uses to update the destination subresouce. 
 
 
 ## -returns

@@ -72,13 +72,6 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 ### -field MultiplaneOverlayCaps
 
- 
-
-
-
-
-#### - MultiPlaneOverlayCaps
-
 [out] The overlay plane capabilities, given as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780285">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a> structure.
 
 

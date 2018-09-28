@@ -60,7 +60,7 @@ The <i>SetOverlayColorControls</i> function changes color-control settings for t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetOverlayColorControls</i> function changes color-control settings for t
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543323">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a> structure that describes parameters for changing an overlay's color-control settings.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543323">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a> structure that describes parameters for changing an overlay's color-control settings.
 
 
 ## -returns

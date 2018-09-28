@@ -60,36 +60,27 @@ The <i>SetViewports</i> function sets viewports.
 
 ### -param Arg1
 
+*hDevice* [in]
 
-### -param NumViewports [in]
+A handle to the display device (graphics context).
 
- The total number of viewports that the <i>pViewports</i> parameter specifies. 
+### -param NumViewports 
+
+[in] The total number of viewports that the <i>pViewports</i> parameter specifies. 
 
 
-### -param ClearViewports [in]
+### -param ClearViewports 
 
- The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
+[in] The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
 
 Note that the number that <i>ClearViewports</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
 ### -param *
 
+*pViewports* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pViewports [in]
-
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542020">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542020">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
 
 
 ## -returns

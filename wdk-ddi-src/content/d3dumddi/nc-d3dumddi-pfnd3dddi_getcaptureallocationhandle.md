@@ -60,7 +60,7 @@ The <i>GetCaptureAllocationHandle</i> function maps the given capture resource h
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>GetCaptureAllocationHandle</i> function maps the given capture resource h
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543154">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a> structure that describes parameters for retrieving an allocation handle from a capture resource handle.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543154">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a> structure that describes parameters for retrieving an allocation handle from a capture resource handle.
 
 
 ## -returns

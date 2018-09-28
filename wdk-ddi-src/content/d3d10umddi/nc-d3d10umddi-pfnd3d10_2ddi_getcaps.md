@@ -60,24 +60,15 @@ The <i>GetCaps(D3D10_2)</i> function queries for capabilities of the graphics ad
 
 ### -param Arg1
 
+*hAdapter* [in]
+
+A handle that identifies the graphics adapter.
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
-
-#### - hAdapter [in]
-
- A handle that identifies the graphics adapter. 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 
 ## -returns

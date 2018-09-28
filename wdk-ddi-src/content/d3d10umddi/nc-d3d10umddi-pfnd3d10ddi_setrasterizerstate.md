@@ -60,24 +60,16 @@ The <i>SetRasterizerState</i> function sets the rasterizer state.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
 
+*hRasterizerState* [in]
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRasterizerState [in]
-
- A handle to the rasterizer state object.
+A handle to the rasterizer state object.
 
 
 ## -returns

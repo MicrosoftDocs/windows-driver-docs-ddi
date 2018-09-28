@@ -60,42 +60,28 @@ Creates a video decoder object.
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDecoder [in]
-
-A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+*pCreateData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
 
-#### - hRTDecode [in]
+### -param Arg2
+
+*hDecoder* [in]
+
+A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
+
+### -param Arg3
+
+*hRTDecode* [in]
 
 A handle to the video decoder object that the driver should use when it calls back into the runtime.
 
-
-#### - pCreateData [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
 
 
 ## -returns

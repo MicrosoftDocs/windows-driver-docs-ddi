@@ -60,14 +60,7 @@ The <b>D3dDrawPrimitives2</b> function renders primitives and returns the update
 
 ### -param Arg1
 
-
-
-
-
-
-
-
-#### - pdp [in]
+*pdp* [in]
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> structure that contains the information required for the driver to render one or more primitives.
 

@@ -62,12 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_extractbundleobject [in, out]
+*D3dkmt_extractbundleobject* [in, out]
 
 Holds information to extract the bundle object.
 

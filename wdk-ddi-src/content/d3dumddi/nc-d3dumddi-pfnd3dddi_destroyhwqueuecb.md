@@ -65,14 +65,7 @@ A handle to the device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - destroyHwQueue [in]
+*destroyHwQueue* [in]
 
 A pointer to the structure holding information to destroy the hardware queue.
 

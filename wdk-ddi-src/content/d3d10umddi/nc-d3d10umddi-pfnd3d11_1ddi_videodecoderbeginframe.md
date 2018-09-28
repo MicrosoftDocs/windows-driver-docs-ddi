@@ -62,34 +62,19 @@ Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video 
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDecoder [in]
-
-A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hDecoder* [in]
 
+A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
-#### - pBeginFrame [in]
+### -param *
+
+*pBeginFrame* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406328">D3D11_1DDIARG_VIDEODECODERBEGINFRAME</a> structure. For more information, see the Remarks section.
 

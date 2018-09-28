@@ -60,50 +60,35 @@ Enables or disables rotation on an input stream of the video processor.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
+Rotation [in]
+
+The clockwise degrees of rotation as specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451019">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
 
 ### -param Arg5
 
-
-
-
-
-
-
-
-#### - Enable [in]
+Enable [in]
 
 If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
 
 
-#### - Rotation [in]
-
-The clockwise degrees of rotation as specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451019">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 

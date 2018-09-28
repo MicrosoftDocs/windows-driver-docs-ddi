@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
- The <i>pfnGetDecodeProfileCount</i> callback function retrieves the number of decode profiles supported by the driver.
+The <i>pfnGetDecodeProfileCount</i> callback function retrieves the number of decode profiles supported by the driver.
 
 
 ## -parameters

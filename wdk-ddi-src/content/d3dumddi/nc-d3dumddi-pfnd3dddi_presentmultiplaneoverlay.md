@@ -65,14 +65,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pPresent [in]
+*pPresent* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780230">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a> structure that describes how to display to the destination surface. 
 

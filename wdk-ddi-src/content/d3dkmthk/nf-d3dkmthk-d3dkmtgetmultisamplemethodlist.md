@@ -63,14 +63,9 @@ The <b>D3DKMTGetMultisampleMethodList</b> function retrieves a list of multiple-
 
 ### -param Arg1
 
+*pData* 
 
-
-
-
-
-#### - pData [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548039">D3DKMT_GETMULTISAMPLEMETHODLIST</a> structure that describes the list of multiple-sample methods for an allocation.
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548039">D3DKMT_GETMULTISAMPLEMETHODLIST</a> structure that describes the list of multiple-sample methods for an allocation.
 
 
 ## -returns

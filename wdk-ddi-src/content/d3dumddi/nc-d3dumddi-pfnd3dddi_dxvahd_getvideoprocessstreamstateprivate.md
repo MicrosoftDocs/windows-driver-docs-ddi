@@ -70,14 +70,14 @@ The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stre
 
 
 
-#### - hDevice [in]
+*hDevice* [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543089">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543089">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
 
 
 ## -returns

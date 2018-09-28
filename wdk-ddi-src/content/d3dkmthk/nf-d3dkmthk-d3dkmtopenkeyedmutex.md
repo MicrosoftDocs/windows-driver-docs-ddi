@@ -68,7 +68,7 @@ The <b>D3DKMTOpenKeyedMutex</b> function opens a keyed mutex object.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548135">D3DKMT_OPENKEYEDMUTEX</a> structure that describes a keyed mutex object.
 

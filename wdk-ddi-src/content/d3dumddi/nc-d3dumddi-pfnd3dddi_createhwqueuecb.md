@@ -65,14 +65,7 @@ A handle to the device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - createHwQueue [in, out]
+*createHwQueue* [in, out]
 
 A pointer to the structure holding information on creating the hardware queue.
 

@@ -100,7 +100,7 @@ The frame rate of the output.
 
 ### -field SupportFlags
 
-Indicates if the conversion from input format and colorspace to output format and colorspace is supported. See [D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md) for details,
+Indicates if the conversion from input format and color space to output format and color space is supported. See [D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md) for details,
 
 
 ### -field ScaleSupport

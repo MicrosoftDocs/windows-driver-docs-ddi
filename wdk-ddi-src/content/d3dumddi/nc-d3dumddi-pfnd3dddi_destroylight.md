@@ -60,7 +60,7 @@ The <b>DestroyLight</b> function deactivates a light source.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DestroyLight</b> function deactivates a light source.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543034">D3DDDIARG_DESTROYLIGHT</a> structure that describes how to set the light source.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543034">D3DDDIARG_DESTROYLIGHT</a> structure that describes how to set the light source.
 
 
 ## -returns

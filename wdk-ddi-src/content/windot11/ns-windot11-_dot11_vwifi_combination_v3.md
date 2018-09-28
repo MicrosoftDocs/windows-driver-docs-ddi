@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_VWIFI_COMBINATION_V3, *PDOT11_VWIFI_COMBINATION_V3
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_VWIFI_COMBINATION_V3 structure

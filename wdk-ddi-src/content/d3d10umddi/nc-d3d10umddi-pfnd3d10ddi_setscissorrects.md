@@ -60,42 +60,27 @@ The <i>SetScissorRects</i> function marks portions of render targets that render
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param NumRects
 
+[in] The total number of render-target portions that the <i>pRects</i> parameter specifies. 
 
 ### -param ClearRects
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - ClearScissorRects [in]
-
- The number of render-target portions after the number of render-target portions that <i>NumScissorRects </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render-target portions (that is, when the Microsoft Direct3D runtime previously called <i>SetScissorRects</i>) and the new number of render-target portions. 
+[in] The number of render-target portions after the number of render-target portions that <i>NumScissorRects </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render-target portions (that is, when the Microsoft Direct3D runtime previously called <i>SetScissorRects</i>) and the new number of render-target portions. 
 
 Note that the number that <i>ClearScissorRects</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
-#### - NumScissorRects [in]
+### -param *
 
- The total number of render-target portions that the <i>pRects</i> parameter specifies. 
+*pRects* [in]
 
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the render-target portions to mark. 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pRects [in]
-
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the render-target portions to mark. 
 
 
 ## -returns

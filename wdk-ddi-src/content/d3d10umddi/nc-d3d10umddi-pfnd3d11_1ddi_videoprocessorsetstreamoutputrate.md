@@ -62,36 +62,25 @@ Sets the rate at which the video processor produces output frames for an input s
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
-
-### -param Arg5
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - OutputRate [in]
-
-The output rate, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450989">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
-
-For more information, see the Remarks section.
-
-
-#### - RepeatFrame [in]
+*RepeatFrame* [in]
 
 Specifies how the driver performs frame-rate conversion, if it is required.
 
@@ -106,26 +95,17 @@ If the <i>RepeatFrame</i> parameter is <b>FALSE</b>,  the driver should interpol
 <div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div>
 <div> </div>
 
-#### - StreamIndex [in]
+### -param Arg5
 
-The zero-based index of the input stream.
+*OutputRate* [in]
 
+The output rate, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450989">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
 
-#### - hDevice [in]
+For more information, see the Remarks section.
 
-A handle to the display device (graphics context).
+### -param *
 
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - pCustomRate [in]
+*pCustomRate* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If the <i>OutputRate</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>, this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be set to NULL.
 

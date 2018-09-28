@@ -58,19 +58,43 @@ Called by the Microsoft Direct3D runtime to retrieve info that describes a count
 
 
 
-### -param hDevice [in]
+### -param hDevice 
 
- A handle to the display device (graphics context).
+[in] A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*Counter* [in]
+
+A value of type <a href="https://msdn.microsoft.com/f80224c6-9046-4471-b6c6-eb14f02fc51f">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
 ### -param *
 
+*pType* [out]
+
+A pointer to a variable that receives one of the following values from the <b>D3DDDI_COUNTER_TYPE</b> enumeration that identifies the data type that the counter outputs.
+
+|Value|Meaning|
+|:--|:--|
+|D3DDDI_COUNTER_TYPE_FLOAT32|Single-precision float|
+|D3DDDI_COUNTER_TYPE_UINT16|16-bit value|
+|D3DDDI_COUNTER_TYPE_UINT32|32-bit value|
+|D3DDDI_COUNTER_TYPE_UINT64|64-bit value|
+
+### -param *
+
+*pActiveCounters* [out]
+
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
 
 ### -param Arg2
 
+*pszName* [out, optional]
+
+An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the counter identifier.
+
+Can be <b>NULL</b>, in which case the app doesn't need the name.
 
 ### -param *pNameLength [in, out, optional]
 
@@ -86,6 +110,11 @@ Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i>
 
 ### -param Arg3
 
+*pszUnits* [out, optional]
+
+An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the units that the counter identifier measures.
+
+Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
 
 ### -param *pUnitsLength [in, out, optional]
 
@@ -101,6 +130,11 @@ Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</
 
 ### -param Arg4
 
+*pszDescription* [out, optional]
+
+An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the description of what the counter identifier measures.
+
+Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
 ### -param *pDescriptionLength [in, out, optional]
 
@@ -114,88 +148,6 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
 <li>If both <i>pszDescription</i> and <i>pDescriptionLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pDescriptionLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszDescription</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pDescriptionLength</i> parameter.</li>
 </ul>
 
-#### - Counter [in]
-
- A value of type <a href="https://msdn.microsoft.com/f80224c6-9046-4471-b6c6-eb14f02fc51f">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
-
-
-#### - pActiveCounters [out]
-
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
-
-
-#### - pType [out]
-
-A pointer to a variable that receives one of the following values from the <b>D3DDDI_COUNTER_TYPE</b> enumeration that identifies the data type that the counter outputs.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDI_COUNTER_TYPE_FLOAT32
-
-</td>
-<td>
-Single-precision float
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_COUNTER_TYPE_UINT16
-
-</td>
-<td>
-16-bit value
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_COUNTER_TYPE_UINT32
-
-</td>
-<td>
-32-bit value
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_COUNTER_TYPE_UINT64
-
-</td>
-<td>
-64-bit value
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - pszDescription [out, optional]
-
-An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the description of what the counter identifier measures.
-
-Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
-
-
-#### - pszName [out, optional]
-
-An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the counter identifier.
-
-Can be <b>NULL</b>, in which case the app doesn't need the name.
-
-
-#### - pszUnits [out, optional]
-
-An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the units that the counter identifier measures.
-
-Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
 
 
 ## -returns

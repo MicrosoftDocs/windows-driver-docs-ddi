@@ -60,25 +60,17 @@ Used to calculate the pipeline state size.
 
 ### -param Arg1
 
+*hDevice*
+
 A handle to the display device (graphics context).
+
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - d3d12ddiarg_create_pipeline_state_0033 [in]
+*d3d12ddiarg_create_pipeline_state_0033* [in]
 
 Used to create a pipeline state.
 
-
-#### - hDevice
-
-The device being processed.
 
 
 ## -returns

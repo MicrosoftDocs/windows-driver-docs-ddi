@@ -65,7 +65,7 @@ The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547275">D3DKMT_ACQUIREKEYEDMUTEX</a> structure that specifies the keyed mutex object to acquire. 
 

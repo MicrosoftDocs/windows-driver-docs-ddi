@@ -60,26 +60,20 @@ The <b>CreatePixelShader</b> function converts pixel shader code into a hardware
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pCode* [in]
 
+An array of CONST UINT tokens that make up the pixel shader code.
 
+### -param *
 
+*pData* [in, out]
 
-
-
-
-#### - pCode [in]
-
- An array of CONST UINT tokens that make up the pixel shader code.
-
-
-#### - pData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542952">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542952">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
 
 
 ## -returns

@@ -60,9 +60,15 @@ Provides the full shader binary that is available after shader creation. The ful
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+hShader
+
+A handle to the driver's private data for the shader object.
 
 ### -param uBinarySize
 
@@ -74,14 +80,6 @@ The size, in bytes, of the full shader binary.
 A pointer to the full shader binary.
 
 
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-#### - hShader
-
-A handle to the driver's private data for the shader object.
 
 
 ## -returns

@@ -68,7 +68,7 @@ The <b>D3DKMTSetDisplayPrivateDriverFormat</b> function changes the private-form
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548290">D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that describes how to format a video present source.
 

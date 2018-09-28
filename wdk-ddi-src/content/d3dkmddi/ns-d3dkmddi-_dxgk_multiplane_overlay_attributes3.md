@@ -92,7 +92,7 @@ Specifies the blend mode that applies to this overlay plane and the plane beneat
 
 ### -field ColorSpaceType
 
-Specifies the colorspace configuration, given as a value from the D3DDDI_COLOR_SPACE_TYPE enumeration.
+Specifies the color space configuration, given as a value from the D3DDDI_COLOR_SPACE_TYPE enumeration.
 
 
 ### -field StretchQuality
@@ -102,7 +102,25 @@ Specifies the overlay plane's stretch quality, given as a value from the DXGK_MU
 
 ### -field SDRWhiteLevel
 
- 
+Specifies the value in nits that the driver should to map sRGB 1.0.
 
+For HDR content, this will always be 0.
 
+For SDR (standard dynamic range) content, a value of 0 indicates that the driver should map sRGB 1.0 to the default value, which is 80 nits.
+
+This value is ignored when not in HDR mode.
+
+### -field DirtyRectCnt
+
+The number of dirty rectangles of *pDirtyRects*.
+
+### -field pDirtyRects
+
+Pointer of the dirty rectangles.
+
+## -remarks
+
+WDDM 2.3 drivers need to check the SDRWhiteLevel value passed in the [CheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) callback, and return unsupported if the harware is unable to adjust the relative brightness of the SDR content.
+
+When boosting the SDR content to the SDRWhiteLevel, the scaling must occur in linear space.
 

@@ -70,7 +70,7 @@ The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to crea
 
 ### -field Version
 
-[in] A UINT value that the driver can use to identify when the Direct3D runtime was built.
+[in] A UINT value that the driver can use to identify when the Direct3D runtime was built (the runtime version).
 
 
 ### -field pKTCallbacks
@@ -90,8 +90,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -field p12UMCallbacks_0022
 
-A pointer to a D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure that contains a table of Direct3D runtime callback functions that the driver can use to access core user-mode runtime functionality. 
+A pointer to a [D3D12DDI_CORELAYER_DEVICECALLBACKS_0022](ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md) structure that contains a table of Direct3D runtime callback functions that the driver can use to access core user-mode runtime functionality. 
 
+### -field p12UMCallbacks_0050
+
+A pointer to a [D3D12DDI_CORELAYER_DEVICECALLBACKS_0050](ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0050.md) structure that contains a table of Direct3D runtime callback functions that the driver can use to access core user-mode runtime functionality.
 
 ### -field Flags
 

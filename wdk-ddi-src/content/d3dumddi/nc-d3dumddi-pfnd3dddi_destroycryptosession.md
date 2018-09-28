@@ -60,7 +60,7 @@ The <b>DestroyCryptoSession</b> function releases resources for the encryption s
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DestroyCryptoSession</b> function releases resources for the encryption s
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543028">D3DDDIARG_DESTROYCRYPTOSESSION</a> structure that contains one member that specifies the handle to the encryption session to destroy. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543028">D3DDDIARG_DESTROYCRYPTOSESSION</a> structure that contains one member that specifies the handle to the encryption session to destroy. 
 
 
 ## -returns

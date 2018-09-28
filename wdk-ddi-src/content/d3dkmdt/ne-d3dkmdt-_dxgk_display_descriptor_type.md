@@ -67,8 +67,11 @@ Invalid type.
 
 A VESA EDID descriptor.
 
+### -field DXGK_DDT_DISPLAYID 
+
+Display id type. Starting in WDDM 2.5.
 
 ### -field BYTE
 
-
+Indicates byte.
 

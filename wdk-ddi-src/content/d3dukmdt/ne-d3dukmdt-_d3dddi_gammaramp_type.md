@@ -80,7 +80,7 @@ Indicates that the gamma lookup table is described by a <a href="https://msdn.mi
 
 ### -field D3DDDI_GAMMARAMP_MATRIX_3x4
 
-Indicates that the colorspace transform is defined by a D3DDDI_3X4_COLORSPACE_TRANSFORM structure.
+Indicates that the color space transform is defined by a D3DDDI_3X4_COLORSPACE_TRANSFORM structure.
 
 
 ## -remarks

@@ -60,32 +60,22 @@ The <i>SetDepthStencilState</i> function sets a depth-stencil state.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hState* [in]
+
+A handle to the depth-stencil state to set.
 
 ### -param Arg3
 
+*StencilRef* [in]
 
+A stencil reference value to compare against.
 
-
-
-
-
-
-#### - StencilRef [in]
-
- A stencil reference value to compare against.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hState [in]
-
- A handle to the depth-stencil state to set.
 
 
 ## -returns

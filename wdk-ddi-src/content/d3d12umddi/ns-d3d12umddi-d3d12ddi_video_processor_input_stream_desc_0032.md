@@ -65,7 +65,7 @@ The DXGI format of the input texture and references.
 
 ### -field ColorSpace
 
-A DXGI_COLOR_SPACE_TYPE value that specifies the colorspace for the video processor input and reference surfaces.
+A DXGI_COLOR_SPACE_TYPE value that specifies the color space for the video processor input and reference surfaces.
 
 
 ### -field SourceAspectRatio

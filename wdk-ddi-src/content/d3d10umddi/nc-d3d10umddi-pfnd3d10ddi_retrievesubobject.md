@@ -60,6 +60,9 @@ Retrieves subparts of the Microsoft Direct3D driver device object.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param SubDeviceID [in]
 
@@ -117,10 +120,6 @@ The size, in bytes, of an output parameter structure that is described by the <i
 
 A pointer to an output parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
-
-#### - hDevice
-
-A handle to the display device (graphics context).
 
 
 

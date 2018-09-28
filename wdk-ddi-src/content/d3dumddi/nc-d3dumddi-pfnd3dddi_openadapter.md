@@ -60,16 +60,9 @@ The <i>OpenAdapter</i> function creates a graphics adapter object that is refere
 
 ### -param *
 
+*pOpenData* [in, out]
 
-
-
-
-
-
-
-#### - pOpenData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543226">D3DDDIARG_OPENADAPTER</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543226">D3DDDIARG_OPENADAPTER</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 
 
 ## -returns

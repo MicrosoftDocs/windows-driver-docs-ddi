@@ -60,6 +60,9 @@ Discards (evicts) an allocation from video display memory. Implemented by Window
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param HandleType
 
@@ -73,20 +76,14 @@ A pointer to a handle to the resource or to the view that is to be discarded.
 
 ### -param *
 
+*pRects* [in, optional]
+
+An optional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
 
 ### -param NumRects
 
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 
-
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-#### - pRects [in, optional]
-
-An optional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
 
 
 ## -returns

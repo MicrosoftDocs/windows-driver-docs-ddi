@@ -60,9 +60,7 @@ req.typenames:
 
 ### -param OpmCxtObject [in]
 
-
-                    
-                The object for the OPM context that will be destroyed.
+The object for the OPM context that will be destroyed.
 
 
 ## -returns

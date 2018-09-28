@@ -72,7 +72,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544232">D3DDDICB_QUERYRESIDENCY</a> structure that describes the residency status of a resource or list of allocations.
 

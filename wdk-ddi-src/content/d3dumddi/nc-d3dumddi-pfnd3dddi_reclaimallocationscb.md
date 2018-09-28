@@ -60,7 +60,7 @@ Called by the user-mode display driver   to reclaim video memory allocations tha
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ Called by the user-mode display driver   to reclaim video memory allocations tha
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451159">D3DDDICB_RECLAIMALLOCATIONS</a> structure that defines the allocations to reclaim.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451159">D3DDDICB_RECLAIMALLOCATIONS</a> structure that defines the allocations to reclaim.
 
 
 ## -returns

@@ -68,7 +68,7 @@ The <b>D3DKMTQueryAdapterInfo</b> function retrieves graphics adapter informatio
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a> structure that is filled with specified information about the graphics hardware. 
 

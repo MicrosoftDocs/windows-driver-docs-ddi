@@ -60,7 +60,7 @@ The <i>VolBlt</i> function performs a bit-block transfer (bitblt) operation from
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>VolBlt</i> function performs a bit-block transfer (bitblt) operation from
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544121">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544121">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
 
 
 ## -returns

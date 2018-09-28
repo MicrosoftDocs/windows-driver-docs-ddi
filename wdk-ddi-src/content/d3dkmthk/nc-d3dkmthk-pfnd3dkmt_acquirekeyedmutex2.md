@@ -60,16 +60,9 @@ Acquires a keyed mutex object that includes private data.
 
 ### -param *
 
+*pData* 
 
-
-
-
-
-
-
-#### - pData [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439466">D3DKMT_ACQUIREKEYEDMUTEX2</a> structure that specifies the keyed mutex object to acquire. 
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439466">D3DKMT_ACQUIREKEYEDMUTEX2</a> structure that specifies the keyed mutex object to acquire. 
 
 
 ## -returns

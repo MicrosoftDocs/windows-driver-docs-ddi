@@ -60,7 +60,7 @@ The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map 
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
 
 
 ## -returns

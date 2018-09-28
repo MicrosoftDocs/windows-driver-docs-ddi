@@ -68,7 +68,7 @@ The <b>D3DKMTCreateSynchronizationObject2</b> function creates a kernel-mode syn
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547854">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes a synchronization object.
 

@@ -70,14 +70,14 @@ The <i>SetVideoProcessStreamState</i> function sets the stream state for a video
 
 
 
-#### - hDevice [in]
+*hDevice* [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543098">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543098">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
 
 
 ## -returns

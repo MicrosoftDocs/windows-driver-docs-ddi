@@ -447,19 +447,11 @@ Must be set to zero.
 
 
 
-#### DirectX 7 and later versions
+DirectX 7 and later versions
 
+DirectX 6
 
-
-##### 
-
-
-
-#### DirectX 6
-
-
-
-###### 
+ 
 
 
 ## -remarks

@@ -55,4 +55,6 @@ Pointer to a [D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT](ns-d3dkmthk-_d3dkmt_getproc
 
 ## -returns
 
+
 This function returns NTSTATUS.
+

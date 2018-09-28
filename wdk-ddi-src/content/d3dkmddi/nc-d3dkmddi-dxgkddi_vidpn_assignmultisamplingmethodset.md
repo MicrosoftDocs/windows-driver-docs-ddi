@@ -75,15 +75,6 @@ The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampli
 
 ### -param D3DDDI_MULTISAMPLINGMETHOD
 
-
-
-
-
-
-
-
-#### - pSupportedMethodSet [in]
-
 [in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
 
 

@@ -68,7 +68,7 @@ The <b>D3DKMTPollDisplayChildren</b> function queries for connectivity status of
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548161">D3DKMT_POLLDISPLAYCHILDREN</a> structure that describes the parameters for querying for connectivity status of the adapter's child devices.
 

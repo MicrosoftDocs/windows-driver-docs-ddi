@@ -60,16 +60,9 @@ The <b>DestroyDevice(D3D10)</b> function destroys the specified device object.
 
 ### -param Arg1
 
+*hDevice*
 
-
-
-
-
-
-
-#### - hDevice
-
- A handle to the display device (graphics context). The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
+A handle to the display device (graphics context). The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
 
 
 ## -returns

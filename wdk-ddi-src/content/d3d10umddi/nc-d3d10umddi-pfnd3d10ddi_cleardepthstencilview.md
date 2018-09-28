@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>ClearDepthStencilView</b> function clears the specified currently bound depth-stencil view. 
+The **ClearDepthStencilView** function clears the specified currently bound depth-stencil view. 
 
 
 ## -parameters
@@ -60,77 +60,40 @@ The <b>ClearDepthStencilView</b> function clears the specified currently bound d
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDepthStencilView* [in]
+
+A handle to the depth-stencil view to clear.
 
 ### -param Arg3
 
+*Stencil* [in]
+
+An unsigned 8-bit integer value to set the stencil to.
 
 ### -param Arg4
+
+*Depth* [in]
+
+A single-precision float vector to set the depth to.
+
 
 
 ### -param Arg5
 
+*Flags* [in]
 
+A value that specifies which parts of the buffer to affect. This parameter must be set to one of the following values from the D3D10_DDI_CLEAR_FLAG enumeration.
 
-
-
-
-
-
-#### - Depth [in]
-
- A single-precision float vector to set the depth to. 
-
-
-#### - Flags [in]
-
- A value that specifies which parts of the buffer to affect. This parameter must be set to one of the following values from the D3D10_DDI_CLEAR_FLAG enumeration.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CLEAR_DEPTH (0x01L)
-
-</td>
-<td>
-The depth value (Z) is clamped to the ZNear and ZFar range of the viewport that is currently bound to slot zero by using Microsoft Direct3D. Afterwards, Z is clamped again to the representable range of the currently bound depth-stencil view by again using Direct3D.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CLEAR_STENCIL (0x02L)
-
-</td>
-<td>
-The stencil value is cleared.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - Stencil [in]
-
- An unsigned 8-bit integer value to set the stencil to. 
-
-
-#### - hDepthStencilView [in]
-
- A handle to the depth-stencil view to clear. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
+|Value|Meaning|
+|:--|:--|
+|D3D10_DDI_CLEAR_DEPTH (0x01L)|The depth value (Z) is clamped to the ZNear and ZFar range of the viewport that is currently bound to slot zero by using Microsoft Direct3D. Afterwards, Z is clamped again to the representable range of the currently bound depth-stencil view by again using Direct3D.|
+|D3D10_DDI_CLEAR_STENCIL (0x02L)|The stencil value is cleared.|
 
 ## -returns
 

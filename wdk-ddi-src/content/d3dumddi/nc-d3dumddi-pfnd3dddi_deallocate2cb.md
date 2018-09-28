@@ -75,7 +75,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906761">D3DDDICB_DEALLOCATE2</a> structure that describes the resource to release.
 

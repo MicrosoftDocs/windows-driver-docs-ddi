@@ -62,12 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_setdevicelostsupport [in]
+*D3dkmt_setdevicelostsupport* [in]
 
 Indicates that the device has lost support.
 

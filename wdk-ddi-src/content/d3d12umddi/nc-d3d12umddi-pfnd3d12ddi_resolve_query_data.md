@@ -60,15 +60,21 @@ The <i>pfnResolveQueryData</i> callback function transforms a previously stored 
 
 ### -param Arg1
 
+hCommandList
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 
-The handle of a command list.
+hQueryHeap
+
+The handle of a query heap.
 
 ### -param Arg3
 
-The handle of a query heap.
+QueryType
+
+A query type.
 
 ### -param StartElement
 
@@ -88,13 +94,6 @@ The handle of a destination buffer.
 ### -param DestinationOffset
 
 The destination offset.
-
-
-#### - QueryType
-
-A query type.
-
-
 
 
 ## -returns

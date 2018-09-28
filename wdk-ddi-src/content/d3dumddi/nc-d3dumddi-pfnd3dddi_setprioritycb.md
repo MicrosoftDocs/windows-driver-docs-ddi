@@ -72,7 +72,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544265">D3DDDICB_SETPRIORITY</a> structure that describes the priority level to set a resource or list of allocations to.
 

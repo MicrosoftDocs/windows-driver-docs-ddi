@@ -60,6 +60,7 @@ Provides additional information for <a href="https://msdn.microsoft.com/0C09CAB1
 
 ### -field DXGK_VSYNC_ENABLE
 
+Indicates that the VSYNC interrupt is enabled and will call into the interrupt callback whenever a display target enters the VBLANK state.
 
 ### -field DXGK_VSYNC_DISABLE_KEEP_PHASE
 
@@ -71,7 +72,7 @@ Indicates that the VSYNC interrupt is disabled and the display driver will ensur
 Indicates that the VSYNC interrupt is disabled, but that the display driver will not require re-entering the VSYNC enabled state in phase of prior interrupts.
 
 
-#### - DXGK_INTERRUPT_ENABLE
 
-Indicates that the VSYNC interrupt is enabled and will call into the interrupt callback whenever a display target enters the VBLANK state.
+
+
 

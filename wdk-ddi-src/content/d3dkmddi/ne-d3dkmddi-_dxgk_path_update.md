@@ -60,6 +60,7 @@ Enum which indicates how this path has been modified since the previous successf
 
 ### -field DXGK_PATH_UPDATE_UNMODIFIED
 
+Indicates that this path has not been changed since the last call to SetTimingsFromVidPn.  This allows the driver to skip interrogating VidPn for changes.  Existing scan-out should continue, other than any glitching which might be caused due to reassignment of display resources to satisfy other paths.
 
 ### -field DXGK_PATH_UPDATE_ADDED
 
@@ -83,7 +84,4 @@ Indicates that this path was present in the previous VidPn but has been removed.
 
 
 
-#### - DXGK_PATH_UPDATE_UNMODIFED
-
-Indicates that this path has not been changed since the last call to SetTimingsFromVidPn.  This allows the driver to skip interrogating VidPn for changes.  Existing scan-out should continue, other than any glitching which might be caused due to reassignment of display resources to satisfy other paths.
 

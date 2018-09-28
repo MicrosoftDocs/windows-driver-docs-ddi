@@ -65,7 +65,7 @@ The <b>D3DKMTGetRuntimeData</b> function is for system use only.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 Reserved for system use.
 

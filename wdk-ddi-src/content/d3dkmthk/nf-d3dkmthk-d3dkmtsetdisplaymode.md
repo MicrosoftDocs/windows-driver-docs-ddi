@@ -68,7 +68,7 @@ The <i>D3DKMTSetDisplayMode</i> function sets the allocation that is used to sca
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548275">D3DKMT_SETDISPLAYMODE</a> structure that describes the allocation that is used to scan out.
 

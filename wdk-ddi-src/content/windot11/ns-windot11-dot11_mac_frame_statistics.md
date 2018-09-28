@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_MAC_FRAME_STATISTICS, *PDOT11_MAC_FRAME_STATISTICS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_MAC_FRAME_STATISTICS structure

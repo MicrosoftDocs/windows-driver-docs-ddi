@@ -60,7 +60,7 @@ The <i>SetIndices</i> function sets the current index buffer.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetIndices</i> function sets the current index buffer.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
 
 
 ## -returns

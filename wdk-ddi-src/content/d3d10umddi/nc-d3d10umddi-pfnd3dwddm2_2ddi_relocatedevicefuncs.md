@@ -60,24 +60,17 @@ The <i>pfnRelocateDeviceFuncs</i> callback function specifies the device functio
 
 ### -param Arg1
 
+*hDevice*
+
+A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - DeviceFunctions [in]
+*DeviceFunctions* [in]
 
 The device functions table, as a <a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure.
 
 
-#### - hDevice
-
-The handle of a device.
 
 
 ## -returns

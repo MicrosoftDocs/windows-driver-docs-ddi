@@ -422,40 +422,40 @@ A pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3c
 ### -field pfnCreateHwContextCb
 
 
-
+A pointer to a [PFND3DDDI_CREATEHWCONTEXTCB](nc-d3dumddi-pfnd3dddi_createhwcontextcb.md) callback function.
 
 ### -field pfnDestroyHwContextCb
 
-
+A pointer to a [PFND3DDDI_DESTROYHWCONTEXTCB](nc-d3dumddi-pfnd3dddi_destroyhwcontextcb.md) callback function.
 
 
 ### -field pfnCreateHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_CREATEHWQUEUECB](nc-d3dumddi-pfnd3dddi_createhwqueuecb.md) callback function.
 
 ### -field pfnDestroyHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_DESTROYHWQUEUECB](nc-d3dumddi-pfnd3dddi_destroyhwqueuecb.md) callback function.
 
 ### -field pfnSubmitCommandToHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitcommandtohwqueuecb.md) callback function.
 
 ### -field pfnSubmitWaitForSyncObjectsToHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.md) callback function.
 
 ### -field pfnSubmitSignalSyncObjectsToHwQueueCb
 
-
+A pointer to a [PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitsignalsyncobjectstohwqueuecb.md) callback function.
 
 ### -field pfnSubmitPresentBltToHwQueueCb
 
-
+A [PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresentblttohwqueuecb.md) callback function.
 
 ## -remarks
 

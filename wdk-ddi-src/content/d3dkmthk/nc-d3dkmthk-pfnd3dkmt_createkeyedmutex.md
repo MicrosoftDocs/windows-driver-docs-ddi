@@ -67,7 +67,7 @@ The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
 

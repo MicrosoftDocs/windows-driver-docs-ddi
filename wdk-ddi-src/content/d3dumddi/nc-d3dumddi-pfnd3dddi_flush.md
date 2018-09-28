@@ -60,7 +60,7 @@ The <i>Flush</i> function submits outstanding hardware commands that are in the 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ## -returns

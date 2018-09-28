@@ -60,7 +60,7 @@ The <i>ResolveSharedResource</i> function informs a user-mode display driver tha
 
 ### -param hDevice [in]
 
- A handle to the display device (that is, the graphics context) that is associated with the shared surface or GDI interoperable surface. 
+A handle to the display device (that is, the graphics context) that is associated with the shared surface or GDI interoperable surface. 
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>ResolveSharedResource</i> function informs a user-mode display driver tha
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543274">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543274">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
 
 
 ## -returns

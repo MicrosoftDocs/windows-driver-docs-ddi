@@ -62,12 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_createbundleobject [in, out]
+*D3dkmt_createbundleobject* [in, out]
 
 Holds information to create a bundle object.
 

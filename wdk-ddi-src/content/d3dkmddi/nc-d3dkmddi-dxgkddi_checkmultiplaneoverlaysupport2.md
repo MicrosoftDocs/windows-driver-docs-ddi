@@ -65,15 +65,6 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pCheckMultiPlaneOverlaySupport
 
-
-
-
-
-
-
-
-#### - pData [in, out]
-
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914469">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a> structure that describes the surfaces and display options to present.
 
 

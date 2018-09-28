@@ -61,15 +61,9 @@ Opens a keyed mutex object that includes private data.
 ### -param *
 
 
+*pData* 
 
-
-
-
-
-
-#### - pData [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406490">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406490">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
 
 
 ## -returns

@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_CHANNEL_HINT structure

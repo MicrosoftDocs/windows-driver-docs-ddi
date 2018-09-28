@@ -70,3 +70,14 @@ Shader Model 6.2 Preview.
 
 Shader Model 6.2 Release.
 
+### -field D3D12DDI_SHADER_MODEL_6_3_EXPERIMENTAL_0054 
+
+Shader Model 6.3 Preview.
+
+### -field D3D12DDI_SHADER_MODEL_6_3_RELEASE_0054 
+
+Shader Model 6.3 Release.
+
+### -field D3D12DDI_SHADER_MODEL_6_4_EXPERIMENTAL_0054 
+
+Shader Model 6.4 Preview.

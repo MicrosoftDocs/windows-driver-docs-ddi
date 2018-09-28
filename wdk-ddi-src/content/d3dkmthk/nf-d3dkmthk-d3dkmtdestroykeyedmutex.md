@@ -68,7 +68,7 @@ The <b>D3DKMTDestroyKeyedMutex</b> function destroys a keyed mutex object.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547885">D3DKMT_DESTROYKEYEDMUTEX</a> structure that specifies the keyed mutex object to destroy. 
 

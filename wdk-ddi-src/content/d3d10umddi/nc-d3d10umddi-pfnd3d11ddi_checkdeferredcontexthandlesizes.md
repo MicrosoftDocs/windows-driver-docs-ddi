@@ -60,6 +60,9 @@ The <b>CheckDeferredContextHandleSizes</b> function verifies the sizes of the dr
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *pHSizes [in, out]
 
@@ -68,21 +71,9 @@ The size, in bytes, of the array pointed to by <i>pHandleSize</i>.
 
 ### -param *
 
+*pHandleSize* [out, optional]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pHandleSize [out, optional]
-
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542146">D3D11DDI_HANDLESIZE</a> structures that describe the handle data of deferred context handles.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542146">D3D11DDI_HANDLESIZE</a> structures that describe the handle data of deferred context handles.
 
 
 ## -returns

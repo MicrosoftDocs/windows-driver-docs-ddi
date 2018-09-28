@@ -58,24 +58,24 @@ This callback function returns the properties of a given data field associated w
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
-
-
-### -param pDataField [in]
-
-A reference to a data field. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>.
+[in] A reference to a sensor object.
 
 
-### -param pProperties [in, out, optional]
+### -param pDataField
 
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[in] A reference to a data field. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>.
 
 
-### -param pSize [out]
+### -param pProperties
 
-The size of <b>pDataField</b>.
+[in, out, optional] A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+
+
+### -param pSize
+
+[out] The size of <b>pDataField</b>.
 
 
 ## -returns

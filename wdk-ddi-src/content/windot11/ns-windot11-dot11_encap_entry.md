@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_ENCAP_ENTRY structure

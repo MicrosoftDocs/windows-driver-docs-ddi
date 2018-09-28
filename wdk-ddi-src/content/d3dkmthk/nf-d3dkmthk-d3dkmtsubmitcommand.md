@@ -75,7 +75,7 @@ Some kernel mode drivers need information from their user mode driver on how to 
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906806">D3DKMT_SUBMITCOMMAND</a> structure that describes the operation.
 

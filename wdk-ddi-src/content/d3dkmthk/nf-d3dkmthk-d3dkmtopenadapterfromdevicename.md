@@ -68,7 +68,7 @@ The <b>D3DKMTOpenAdapterFromDeviceName</b> function maps a device name to a grap
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548106">D3DKMT_OPENADAPTERFROMDEVICENAME</a> structure that describes the parameters that are required to perform the mapping.
 

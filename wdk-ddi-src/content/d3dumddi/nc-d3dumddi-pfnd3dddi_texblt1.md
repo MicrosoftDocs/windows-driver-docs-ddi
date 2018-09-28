@@ -60,7 +60,7 @@ Performs a bit-block transfer (bitblt) operation from a source texture to a dest
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ Performs a bit-block transfer (bitblt) operation from a source texture to a dest
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451142">D3DDDIARG_TEXBLT1</a> structure that defines the parameters for the texture bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451142">D3DDDIARG_TEXBLT1</a> structure that defines the parameters for the texture bitblt operation.
 
 
 ## -returns

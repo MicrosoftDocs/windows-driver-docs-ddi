@@ -60,7 +60,7 @@ The <i>ExtensionExecute</i> function performs an operation by using the given Mi
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>ExtensionExecute</i> function performs an operation by using the given Mi
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543112">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543112">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
 
 
 ## -returns

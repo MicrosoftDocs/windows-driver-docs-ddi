@@ -75,15 +75,6 @@ The <b>pfnAcquirePathInfo</b> function returns a descriptor of the video present
 
 ### -param ppVidPnPresentPathInfo
 
-
-
-
-
-
-
-
-#### - pVidPnPresentPathInfo [out]
-
 [out] A pointer to a variable that receives a pointer to a D3DKMDT_VIDPN_PRESENT_PATH structure that describes the requested path.
 
 

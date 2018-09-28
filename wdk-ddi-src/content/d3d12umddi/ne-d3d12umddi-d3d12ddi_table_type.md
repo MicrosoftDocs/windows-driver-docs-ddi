@@ -140,3 +140,19 @@ Device content protection streaming.
 ### -field D3D12DDI_TABLE_TYPE_0033_METACOMMAND
 
 Meta-command.
+
+### -field D3D12DDI_TABLE_TYPE_0043_RENDER_PASS 
+
+Render pass.
+
+### -field D3D12DDI_TABLE_TYPE_0053_COMMAND_LIST_VIDEO_ENCODE 
+
+Command list video encode.
+
+### -field D3D12DDI_TABLE_TYPE_0053_COMMAND_QUEUE_VIDEO_ENCODE 
+
+Command queue video encode.
+
+### -field D3D12DDI_TABLE_TYPE_0054_DOWNLEVEL_SUPPORT_CALLBACKS 
+
+Down level support callbacks.

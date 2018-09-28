@@ -60,23 +60,17 @@ req.typenames:
 
 ### -param OpmCxtObject [in]
 
-
-                    
-                The object for the OPM context that information will be gotten from.
+The object for the OPM context that information will be gotten from.
 
 
 ### -param pInArgs [in]
 
-
-                    
-                Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
+Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
 
 
 ### -param pOutArgs [out]
 
-
-                    
-                Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
+Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
 
 
 ## -returns

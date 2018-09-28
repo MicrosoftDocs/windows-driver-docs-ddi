@@ -60,7 +60,7 @@ The <i>SetZRange</i> function informs the driver about the range of z values.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetZRange</i> function informs the driver about the range of z values.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544127">D3DDDIARG_ZRANGE</a> structure that specifies minimum and maximum values for the range of z values.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544127">D3DDDIARG_ZRANGE</a> structure that specifies minimum and maximum values for the range of z values.
 
 
 ## -returns

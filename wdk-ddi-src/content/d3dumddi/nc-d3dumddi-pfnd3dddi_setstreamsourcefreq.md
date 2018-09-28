@@ -60,7 +60,7 @@ The <i>SetStreamSourceFreq</i> function sets the frequency divisor of a stream s
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetStreamSourceFreq</i> function sets the frequency divisor of a stream s
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543356">D3DDDIARG_SETSTREAMSOURCEFREQ</a> structure that specifies how the frequency divisor for the stream source is set.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543356">D3DDDIARG_SETSTREAMSOURCEFREQ</a> structure that specifies how the frequency divisor for the stream source is set.
 
 
 ## -returns

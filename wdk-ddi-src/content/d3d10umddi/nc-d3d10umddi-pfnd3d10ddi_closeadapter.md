@@ -60,16 +60,9 @@ The <b>CloseAdapter(D3D10)</b> function releases resources for a graphics adapte
 
 ### -param Arg1
 
+*hAdapter* [in]
 
-
-
-
-
-
-
-#### - hAdapter [in]
-
- A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/50c10021-2bad-4e3c-99cc-24cf31fbc95d">OpenAdapter10</a> function.
+A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/50c10021-2bad-4e3c-99cc-24cf31fbc95d">OpenAdapter10</a> function.
 
 
 ## -returns

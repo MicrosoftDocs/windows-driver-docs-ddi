@@ -60,7 +60,7 @@ The <i>GetEncryptionBltKey</i> function returns the key that is used to decrypt 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>GetEncryptionBltKey</i> function returns the key that is used to decrypt 
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543164">D3DDDIARG_GETENCRYPTIONBLTKEY</a> structure that describes the key for an encrypted session. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543164">D3DDDIARG_GETENCRYPTIONBLTKEY</a> structure that describes the key for an encrypted session. 
 
 
 ## -returns

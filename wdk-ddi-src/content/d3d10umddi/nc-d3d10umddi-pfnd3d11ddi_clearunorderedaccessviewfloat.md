@@ -60,32 +60,21 @@ The <b>ClearUnorderedAccessViewFLOAT</b> function clears the specified unordered
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hUnorderedAccessView* [in]
+
+A handle to the unordered-access view to clear. 
 
 ### -param FLOAT[4]
 
+[in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hUnorderedAccessView [in]
-
- A handle to the unordered-access view to clear. 
-
-
-#### - pFloats [in]
-
- A four-element array of single-precision float vectors that the driver uses to clear an unordered-access view. 
+A four-element array of single-precision float vectors that the driver uses to clear an unordered-access view. 
 
 
 ## -returns

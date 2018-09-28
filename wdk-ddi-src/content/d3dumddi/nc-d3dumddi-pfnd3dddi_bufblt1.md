@@ -60,21 +60,14 @@ Performs a bit-block transfer (bitblt) operation from a source vertex or index b
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+pData [in]
 
-
-
-
-
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451069">D3DDDIARG_BUFFERBLT1</a> structure that describes the parameters of the buffer bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451069">D3DDDIARG_BUFFERBLT1</a> structure that describes the parameters of the buffer bitblt operation.
 
 
 ## -returns

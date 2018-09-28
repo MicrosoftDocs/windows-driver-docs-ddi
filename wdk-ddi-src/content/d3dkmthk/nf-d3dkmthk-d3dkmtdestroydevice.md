@@ -68,7 +68,7 @@ The <b>D3DKMTDestroyDevice</b> function releases a kernel-mode device context.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547881">D3DKMT_DESTROYDEVICE</a> structure that contains the handle to the kernel-mode device context.
 

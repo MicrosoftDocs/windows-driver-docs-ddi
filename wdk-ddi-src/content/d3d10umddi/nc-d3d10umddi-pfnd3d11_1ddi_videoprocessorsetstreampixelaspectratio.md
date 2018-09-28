@@ -62,52 +62,42 @@ Sets the pixel aspect ratio for an input stream on the video processor.
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hVideoProcessor* [in]
 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
-#### - hVideoProcessor [in]
+### -param Arg3
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+*StreamIndex* [in]
 
+The zero-based index of the input stream.
 
+### -param Arg4
 
+*Enable* [in]
 
-#### - pDestRatio [in]
+If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
+
+### -param *
+
+*pSourceRatio* [in]
+
+A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the source rectangle. 
+
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter can be NULL.
+
+</div>
+<div> </div>
+
+### -param *
+
+*pDestRatio* [in]
 
 A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the destination rectangle. 
 
@@ -116,14 +106,7 @@ A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect rat
 </div>
 <div> </div>
 
-#### - pSourceRatio [in]
 
-A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the source rectangle. 
-
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter can be NULL.
-
-</div>
-<div> </div>
 
 ## -returns
 

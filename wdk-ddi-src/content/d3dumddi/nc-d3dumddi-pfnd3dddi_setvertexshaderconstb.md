@@ -60,26 +60,21 @@ The <i>SetVertexShaderConstB</i> function sets one or more vertex shader constan
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
 
+*pData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543368">D3DDDIARG_SETVERTEXSHADERCONST</a> structure that specifies how to set the vertex shader constant registers.
 
+### -param *
 
+*pRegisters* [in]
 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543368">D3DDDIARG_SETVERTEXSHADERCONST</a> structure that specifies how to set the vertex shader constant registers.
-
-
-#### - pRegisters [in]
-
- A pointer to a buffer that contains BOOL values to copy.
+A pointer to a buffer that contains BOOL values to copy.
 
 
 ## -returns

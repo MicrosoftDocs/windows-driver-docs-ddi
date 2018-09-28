@@ -182,6 +182,17 @@ Video process read.
 
 Video process write.
 
+### -field D3D12DDI_RESOURCE_STATE_0020_VIDEO_ENCODE_READ
+
+Video encode read resource state.
+
+### -field D3D12DDI_RESOURCE_STATE_0020_VIDEO_ENCODE_WRITE
+
+Video encode write resource state.
+
+### -field D3D12DDI_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE
+
+Ray tracing acceleration structure resource state.
 
 ## -remarks
 

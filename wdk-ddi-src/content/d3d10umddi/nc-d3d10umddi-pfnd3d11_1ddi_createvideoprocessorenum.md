@@ -60,42 +60,27 @@ Creates an enumeration object for the video processor capabilities of the driver
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+pCreateData [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
-#### - hRTVideoProcessorEnum [in]
+### -param Arg2
 
-A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
-
-
-#### - hVideoProcessorEnum [in]
+hVideoProcessorEnum [in]
 
 A handle to the driver's private data for the video processor enumeration object. For more information, see the Remarks section.
 
+### -param Arg3
 
-#### - pCreateData [in]
+hRTVideoProcessorEnum [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
+A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

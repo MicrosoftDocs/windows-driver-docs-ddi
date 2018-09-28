@@ -60,50 +60,32 @@ The <i>SetRenderTargets</i> function sets render target surfaces.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*phRenderTargetView* [in]
+
+An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 ### -param NumViews
 
+[in] The number of elements in the array that <i>phRenderTargetView</i> specifies.
 
 ### -param ClearSlots
 
-
-### -param Arg2
-
-
-
-
-
-
-
-
-#### - ClearTargets [in]
-
- The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
+[in] The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
 
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
+### -param Arg2
 
-#### - RTargets [in]
+*hDepthStencilView* [in]
 
- The number of elements in the array that <i>phRenderTargetView</i> specifies. 
+A handle to the depth stencil buffer to set. 
 
-
-#### - hDepthStencilView [in]
-
- A handle to the depth stencil buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phRenderTargetView [in]
-
- An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 
 ## -returns

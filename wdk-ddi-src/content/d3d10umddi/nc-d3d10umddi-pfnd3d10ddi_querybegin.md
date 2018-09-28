@@ -60,24 +60,16 @@ The <i>QueryBegin</i> function marks the beginning of a sequence of graphics com
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
 
+*hQuery* [in]
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hQuery [in]
-
- A handle to the query object to begin.
+A handle to the query object to begin.
 
 
 ## -returns

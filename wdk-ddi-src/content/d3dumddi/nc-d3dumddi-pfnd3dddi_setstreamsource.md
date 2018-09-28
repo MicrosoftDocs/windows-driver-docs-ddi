@@ -60,7 +60,7 @@ The <i>SetStreamSource</i> function binds a portion of a vertex stream source to
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetStreamSource</i> function binds a portion of a vertex stream source to
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543352">D3DDDIARG_SETSTREAMSOURCE</a> structure that specifies the portion of the vertex stream source to bind.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543352">D3DDDIARG_SETSTREAMSOURCE</a> structure that specifies the portion of the vertex stream source to bind.
 
 
 ## -returns

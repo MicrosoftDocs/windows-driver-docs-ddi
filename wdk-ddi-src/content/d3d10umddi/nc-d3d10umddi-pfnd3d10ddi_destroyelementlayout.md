@@ -60,24 +60,15 @@ The <b>DestroyElementLayout</b> function destroys the specified element layout o
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hElementLayout* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hElementLayout [in]
-
- A handle to the driver's private data for the element layout object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
+A handle to the driver's private data for the element layout object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
 
 
 ## -returns

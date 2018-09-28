@@ -60,7 +60,7 @@ The <i>SetTextureStageState</i> function updates the state of a texture at a par
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetTextureStageState</i> function updates the state of a texture at a par
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a> structure that describes how to update the texture.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a> structure that describes how to update the texture.
 
 
 ## -returns

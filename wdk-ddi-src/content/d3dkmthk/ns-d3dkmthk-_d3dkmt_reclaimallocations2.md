@@ -87,8 +87,13 @@ If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b
 
 ### -field pDiscarded
 
-[out] Optional array of boolean variables  specifying whether each resource or allocation was discarded.
+[out] Optional array of boolean variables specifying whether each resource or allocation was discarded.
 
+*pResults*
+
+[out] Pointer to an array of [D3DDDI_RECLAIM_RESULT](../d3dukmdt/ne-d3dukmdt-_d3dddi_reclaim_result.md) enumerations that represent results, specifying whether each resource or allocation is OK, discarded, or has no commitment. 
+
+*pResults* is valid only if the DXGKDDI_INTERFACE_VERSION and D3D_UMD_INTERFACE_VERSION are greater than or equal to DXGKDDI_INTERFACE_VERSION_WDDM2_1 and D3D_UMD_INTERFACE_VERSION_WDDM2_1, respectively.
 
 ### -field PagingFenceValue
 

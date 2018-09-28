@@ -72,7 +72,7 @@ A handle to a display device (that is, the graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544169">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
 

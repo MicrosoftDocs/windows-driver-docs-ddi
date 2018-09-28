@@ -91,7 +91,7 @@ If the routine succeeds, it never returns to the driver as the driver process wi
 
 The OS will bug check the driver with the following bug check code:
 
-```
+```cpp
 (pInArgs->MajorErrorCode+0x100 << 8) + pInArgs->MinorErrorCode
 ```
 

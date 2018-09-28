@@ -65,16 +65,7 @@ A handle to a context block that is associated with a display adapter. The displ
 
 ### -param pUpdateActiveVidPnPresentPath
 
-
-
-
-
-
-
-
-#### - pUpdateActiveVidPnPresentPathArg [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559494">DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH</a> structure, which contains one member: a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure. The members of the D3DKMDT_VIDPN_PRESENT_PATH structure identify the path and supply new settings for the path. The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function must program the path on the display adapter according to the new settings.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559494">DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH</a> structure, which contains one member: a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure. The members of the D3DKMDT_VIDPN_PRESENT_PATH structure identify the path and supply new settings for the path. The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function must program the path on the display adapter according to the new settings.
 
 
 ## -returns

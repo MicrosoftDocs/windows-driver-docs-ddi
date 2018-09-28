@@ -60,7 +60,7 @@ The <i>MultiplyTransform</i> function modifies the current transform.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>MultiplyTransform</i> function modifies the current transform.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543221">D3DDDIARG_MULTIPLYTRANSFORM</a> structure that describes how to modify the current transform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543221">D3DDDIARG_MULTIPLYTRANSFORM</a> structure that describes how to modify the current transform.
 
 
 ## -returns

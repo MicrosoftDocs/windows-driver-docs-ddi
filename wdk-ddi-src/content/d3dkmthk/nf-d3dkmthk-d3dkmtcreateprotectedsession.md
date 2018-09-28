@@ -62,12 +62,7 @@ req.typenames:
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_createprotectedsession [in, out]
+*D3dkmt_createprotectedsession* [in, out]
 
 Holds information to create a protected session.
 

@@ -60,6 +60,9 @@ Determines the size of the user-mode display driver's private region of memory (
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *pShaderCode [in]
 
@@ -68,19 +71,7 @@ A pointer to an array of CONST UINT tokens that make up the shader code.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-#### - pSignatures [in]
+*pSignatures* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406324">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 

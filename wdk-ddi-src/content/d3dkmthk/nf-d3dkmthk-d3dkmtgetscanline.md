@@ -68,7 +68,7 @@ The <b>D3DKMTGetScanLine</b> function determines whether the given video present
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a> structure that contains the vertical blanking status of a video present source.
 

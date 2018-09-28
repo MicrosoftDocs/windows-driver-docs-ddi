@@ -100,7 +100,7 @@ Specifies the overlay plane's video frame format, given as a value from the <a h
 
 ### -field ColorSpaceType
 
-Specifies the colorspace configuration, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
+Specifies the color space configuration, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
 
 
 ### -field StereoFormat
@@ -130,12 +130,7 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 ### -field Reserved1
 
- 
-
-
-
-
-#### - ColorKey
+*ColorKey*
 
 Specifies the color key value used when color key blending is enabled for legacy overlays.
 

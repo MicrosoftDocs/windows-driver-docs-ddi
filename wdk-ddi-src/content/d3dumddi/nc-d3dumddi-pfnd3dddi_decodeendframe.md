@@ -60,7 +60,7 @@ The <b>DecodeEndFrame</b> function notifies the user-mode display driver that al
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DecodeEndFrame</b> function notifies the user-mode display driver that al
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542991">D3DDDIARG_DECODEENDFRAME</a> structure that describes the DirectX VA decoder that should stop decoding a frame.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542991">D3DDDIARG_DECODEENDFRAME</a> structure that describes the DirectX VA decoder that should stop decoding a frame.
 
 
 ## -returns

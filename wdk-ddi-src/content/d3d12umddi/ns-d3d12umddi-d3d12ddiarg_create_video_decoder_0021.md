@@ -90,7 +90,7 @@ The frame rate of the input video stream.
 
 ### -field BitRate
 
-
+The data compression rate, in bits per second, for the compressed video stream.
 
 
 ### -field Usage
@@ -98,9 +98,7 @@ The frame rate of the input video stream.
 A hint for the intended usage for the decoder stream. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
-#### - Bitrate
 
-The data compression rate, in bits per second, for the compressed video stream.
 
 
 ## -remarks

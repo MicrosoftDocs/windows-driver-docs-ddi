@@ -72,7 +72,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544178">D3DDDICB_DESTROYOVERLAY</a> structure that contains a handle to the overlay object to be disabled.
 

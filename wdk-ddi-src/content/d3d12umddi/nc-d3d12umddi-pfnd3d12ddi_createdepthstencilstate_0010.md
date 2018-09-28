@@ -2,8 +2,8 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010
 title: PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010
 author: windows-driver-content
-description: Create a depth stencil state.
-ms.assetid: f4a5fec5-216b-4488-987b-87cfeb3b3e2b
+description: The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010 callback function creates a depth stencil state.
+ms.assetid: 0c0663d0-9b42-4ef7-b252-e5b2f8e7fffb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -34,8 +34,8 @@ api_location:
 -	d3d12umddi.h
 api_name: 
 -	PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010
-product: 
-- Windows
+product:
+-	Windows
 targetos: Windows
 tech.root: display
 ---
@@ -44,7 +44,7 @@ tech.root: display
 
 ## -description
 
-Create a depth stencil state.
+The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010 callback function creates a depth stencil state.
 
 ## -prototype
 
@@ -57,31 +57,32 @@ PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010 Pfnd3d12ddiCreatedepthstencilstate0010;
 
 VOID Pfnd3d12ddiCreatedepthstencilstate0010 
 (
-	 D3D12DDI_HDEVICE
-	CONST D3D12DDI_DEPTH_STENCIL_DESC_0010 *
-	 D3D12DDI_HDEPTHSTENCILSTATE
+	D3D12DDI_HDEVICE hDevice
+	CONST D3D12DDI_DEPTH_STENCIL_DESC_0010 *pDepthStencilDesc
+	D3D12DDI_HDEPTHSTENCILSTATE hDepthStencilState
 )
 {...}
-
-PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010 
-
 
 ```
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE  
+### -param hDevice
 
 A handle to the display device (graphics context).
- 
-### -param * 
 
-Pointer to a D3D12DDI_DEPTH_STENCIL_DESC_0010 structure.
+### -param pDepthStencilDesc
 
-### -param D3D12DDI_HDEPTHSTENCILSTATE: 
+A pointer to a [D3D12DDI_DEPTH_STENCIL_DESC_0010](ns-d3d12umddi-d3d12ddi_depth_stencil_desc_0010.md) structure that describes the parameters that the user-mode display driver uses to create a depth stencil state. 
 
-A depth stencil state handle.
+### -param hDepthStencilState
+
+A handle to the driver's private data for the depth stencil state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's [CalcPrivateDepthStencilStateSize](nc-d3d12umddi-pfnd3d12ddi_calcprivatedepthstencilstatesize_0010.md) function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its depth stencil state object.
+
 
 ## -returns
 
 Returns VOID.
+
+
+## -see-also

@@ -58,19 +58,19 @@ This callback function returns the properties for a given sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
-
-
-### -param pProperties [in, out, optional]
-
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[in] A reference to a sensor object.
 
 
-### -param pSize [out]
+### -param pProperties
 
-The size of pProperties.
+[in, out, optional] A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+
+
+### -param pSize
+
+[out] The size of pProperties.
 
 
 ## -returns

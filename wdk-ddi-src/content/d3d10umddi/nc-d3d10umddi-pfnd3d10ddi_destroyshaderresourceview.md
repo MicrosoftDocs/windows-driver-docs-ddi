@@ -60,24 +60,15 @@ The <b>DestroyShaderResourceView</b> function destroys the specified shader reso
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hShaderResourceView* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hShaderResourceView [in]
-
- A handle to the driver's private data for the shader resource view object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
+A handle to the driver's private data for the shader resource view object to destroy. The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
 
 
 ## -returns

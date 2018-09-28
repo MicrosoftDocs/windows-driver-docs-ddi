@@ -60,7 +60,7 @@ The <i>FlipOverlay</i> function causes the overlay hardware to start displaying 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>FlipOverlay</i> function causes the overlay hardware to start displaying 
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 
 ## -returns

@@ -68,7 +68,7 @@ The <b>D3DKMTSetVidPnSourceOwner</b> function sets and releases the video presen
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548317">D3DKMT_SETVIDPNSOURCEOWNER</a> structure that describes the parameters for setting or releasing.
 

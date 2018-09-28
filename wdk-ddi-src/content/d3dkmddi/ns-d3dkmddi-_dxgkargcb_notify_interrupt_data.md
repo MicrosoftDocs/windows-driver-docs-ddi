@@ -429,28 +429,25 @@ Vsync with multiplane overlay Vidpn target id.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.PhysicalAdapterMask
 
-Physical adapter mask.
+The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
 
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.MultiPlaneOverlayVsyncInfoCount
 
-
-Multi-plane overlay vsync info count.
+The number of overlay planes that are available to display.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.pMultiPlaneOverlayVsyncInfo
 
-Multi-plane overlay vsync info.
+A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
 
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.GpuFrequency
 
-
-GPU frequency.
+The frequency of the GPU clock counter.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.GpuClockCounter
 
-
-GPU clock counter.
+The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt.
 
 ### -field MonitoredFenceSignaled
 
@@ -632,42 +629,6 @@ An array of 32-bit values that are reserved for future use.
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md">DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS</a> structure that indicates if the display miniport driver provides a physical adapter mask in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function.
 
-
-#### - DisplayOnlyPresentProgress
-
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a> structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation.
-
-Supported starting with Windows 8.
-
-
-#### - GpuClockCounter
-
-The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt.
-
-
-#### - GpuFrequency
-
-The frequency of the GPU clock counter.
-
-
-#### - MultiPlaneOverlayVsyncInfoCount
-
-The number of overlay planes that are available to display.
-
-
-#### - PhysicalAdapterMask
-
-The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
-
-
-#### - VidPnTargetId
-
-The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
-
-
-#### - pMultiPlaneOverlayVsyncInfo
-
-A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
 
 
 ## -remarks

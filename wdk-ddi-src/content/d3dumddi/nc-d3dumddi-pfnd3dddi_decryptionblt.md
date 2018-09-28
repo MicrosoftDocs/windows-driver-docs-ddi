@@ -60,7 +60,7 @@ The <b>DecryptionBlt</b> function writes data to a protected surface.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). 
+A handle to the display device (graphics context). 
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DecryptionBlt</b> function writes data to a protected surface.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543011">D3DDDIARG_DECRYPTIONBLT</a> structure that describes the parameters of the decrypted bit-block transfer (bitblt) operation. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543011">D3DDDIARG_DECRYPTIONBLT</a> structure that describes the parameters of the decrypted bit-block transfer (bitblt) operation. 
 
 
 ## -returns
@@ -142,7 +142,7 @@ If the driver and hardware support partially encrypted buffers, the <b>pEncrypte
 
 <b>DecryptionBlt</b> cannot write sub-rectangles.
 
-The Direct3D runtime verifies that the source surface specified by the <b>SrcSubResourceIndex</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543011">D3DDDIARG_DECRYPTIONBLT</a> structure is in system memory and that no stretching, colorspace conversion, and so on is performed. An application should ensure that the system memory buffer is properly aligned and that the buffer's size matches the destination surface. The driver should verify the memory alignment and the buffer size (<b>SrcResourceSize</b> member of D3DDDIARG_DECRYPTIONBLT) and fail if these conditions are not correct..
+The Direct3D runtime verifies that the source surface specified by the <b>SrcSubResourceIndex</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543011">D3DDDIARG_DECRYPTIONBLT</a> structure is in system memory and that no stretching, color space conversion, and so on is performed. An application should ensure that the system memory buffer is properly aligned and that the buffer's size matches the destination surface. The driver should verify the memory alignment and the buffer size (<b>SrcResourceSize</b> member of D3DDDIARG_DECRYPTIONBLT) and fail if these conditions are not correct..
 
 
 

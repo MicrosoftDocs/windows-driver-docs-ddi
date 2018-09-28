@@ -60,28 +60,26 @@ The <i>GetInfo</i> function retrieves information about the specified display de
 
 ### -param hDevice
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*DevInfoID*
+
+An identifier for the type of device information to retrieve.
 
 ### -param *
 
+*pDevInfoStruct*
+
+A pointer to a buffer of the type that <i>DevInfoID</i> specifies that receives information about the device.
 
 ### -param DevInfoSize
 
- The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
+The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
 
 
-#### - DevInfoID
-
- An identifier for the type of device information to retrieve.
-
-
-#### - pDevInfoStruct
-
- A pointer to a buffer of the type that <i>DevInfoID</i> specifies that receives information about the device.
 
 
 ## -returns

@@ -92,6 +92,7 @@ Pointer to the name of the device as determined by the ARC firmware. This parame
 
 ### -param IdentiferLength
 
+Specifies the size in bytes of the buffered <i>Identifier</i> string<i>.</i> The value should be zero if the machine is not ARC-compliant.
 
 ### -param ConfigurationData
 
@@ -113,9 +114,7 @@ Reserved for system use.
 Reserved for system use.
 
 
-#### - IdentifierLength
 
-Specifies the size in bytes of the buffered <i>Identifier</i> string<i>.</i> The value should be zero if the machine is not ARC-compliant.
 
 
 ## -returns

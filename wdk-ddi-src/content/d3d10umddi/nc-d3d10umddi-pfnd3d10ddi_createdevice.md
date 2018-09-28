@@ -60,22 +60,13 @@ The <b>CreateDevice(D3D10)</b> function creates a graphics context that is refer
 
 ### -param Arg1
 
+*hAdapter* [in]
+
+A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/50c10021-2bad-4e3c-99cc-24cf31fbc95d">OpenAdapter10</a> function.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - hAdapter
-
- A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/50c10021-2bad-4e3c-99cc-24cf31fbc95d">OpenAdapter10</a> function.
-
-
-#### - pCreateData [in, out]
+*pCreateData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
 

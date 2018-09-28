@@ -60,31 +60,26 @@ The <b>DrawRectPatch</b> function draws a new or cached rectangular patch or upd
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543064">D3DDDIARG_DRAWRECTPATCH</a> structure that describes the rectangular patch to draw.
 
+### -param *
 
+*pInfo* [in]
 
+Optional. A pointer to a D3DDDIRECTPATCH_INFO structure that describes information about the rectangular patch.
 
+### -param *
 
+*pPatch* [in]
 
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543064">D3DDDIARG_DRAWRECTPATCH</a> structure that describes the rectangular patch to draw.
-
-
-#### - pInfo [in]
-
- Optional. A pointer to a D3DDDIRECTPATCH_INFO structure that describes information about the rectangular patch.
-
-
-#### - pPatch [in]
-
- Optional. A pointer to a buffer that contains four floating-point values (D3DFLOAT[4]) that provide the segment counts for each of the four edges of the rectangular patch.
+Optional. A pointer to a buffer that contains four floating-point values (D3DFLOAT[4]) that provide the segment counts for each of the four edges of the rectangular patch.
 
 
 ## -returns

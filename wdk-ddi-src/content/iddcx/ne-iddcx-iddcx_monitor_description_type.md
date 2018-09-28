@@ -49,42 +49,24 @@ req.typenames:
 
 ## -description
 
-
-
-                     Used to describe the monitor description.
-                
+Used to describe the monitor description.
 
 
 ## -enum-fields
 
 
-
-
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 
-
-                        
-                    Indicates that an <b>IDDCX_MONITOR_DESCRIPTION_TYPE</b> variable has not yet been assigned a meaningful value.
+Indicates that an <b>IDDCX_MONITOR_DESCRIPTION_TYPE</b> variable has not yet been assigned a meaningful value.
 
 
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_EDID
 
-
-                        The monitor description is EdId
-                    
-
+The monitor description is EdId.
 
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID
 
+The monitor description is DisplayId.
 
 ### -field UINT
-
-
-
-
-#### - IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID
-
-
-                        The monitor description is DisplayId
-                    
 

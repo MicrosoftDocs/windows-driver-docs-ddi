@@ -58,20 +58,20 @@ This callback function returns the thresholds that are associated with a sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
-### -param pThresholds [out]
+### -param pThresholds
 
-A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[out] A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize
 
 
-
+The size of *pThresholds*.
 
 
 

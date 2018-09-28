@@ -65,7 +65,7 @@ The <b>D3DKMTCreateDevice</b> function creates a kernel-mode device context.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547819">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
 

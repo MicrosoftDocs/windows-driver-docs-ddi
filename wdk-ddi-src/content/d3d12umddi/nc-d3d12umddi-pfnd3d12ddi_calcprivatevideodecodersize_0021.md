@@ -56,29 +56,16 @@ The <i>pfnCalcPrivateVideoDecoderSize</i> callback function calculates the size 
 ## -parameters
 
 
-
-
 ### -param hDrvDevice
 
-A handle to the display device (graphics context).
+The hardware device being processed
 
 ### -param *pArgs
 
-
-
-
-
-
-
-
-#### - CreateVideoDecoder [in]
+*CreateVideoDecoder* [in]
 
 The arguments used to create a video decoder.
 
-
-#### - hDevice
-
-The handle of a device.
 
 
 ## -remarks

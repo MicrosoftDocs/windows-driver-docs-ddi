@@ -70,14 +70,14 @@ The <i>SetVideoProcessBltState</i> function sets the state of a bit-block transf
 
 
 
-#### - hDevice [in]
+*hDevice* [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543093">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543093">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
 
 
 ## -returns

@@ -82,7 +82,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 
  
 
-
+Flag options.
 
 
 ## -see-also
