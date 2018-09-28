@@ -65,22 +65,22 @@ The <b>IoPageRead</b> routine is reserved for system use. See <a href="https://m
 
 ### -param MemoryDescriptorList
 
-TBD
+Reserved.
 
 
 ### -param StartingOffset
 
-TBD
+Reserved.
 
 
 ### -param Event
 
-TBD
+Reserved.
 
 
 ### -param IoStatusBlock
 
-TBD
+Reserved.
 
 
 

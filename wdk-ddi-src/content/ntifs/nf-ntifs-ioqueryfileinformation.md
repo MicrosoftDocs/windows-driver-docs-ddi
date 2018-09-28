@@ -65,22 +65,22 @@ The <b>IoQueryFileInformation</b> routine is reserved for system use. See <a hre
 
 ### -param FileInformationClass
 
-TBD
+Reserved.
 
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param FileInformation
 
-TBD
+Reserved.
 
 
 ### -param ReturnedLength
 
-TBD
+Reserved.
 
 
 

@@ -65,7 +65,7 @@ The <b>SeSetSessionIdToken</b> routine is reserved for system use.
 
 ### -param SessionId
 
-TBD
+Reserved.
 
 
 

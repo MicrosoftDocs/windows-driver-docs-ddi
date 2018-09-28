@@ -65,7 +65,7 @@ The <b>RtlInitCodePageTable</b> routine is reserved for system use.
 
 ### -param CodePageTable
 
-TBD
+Reserved.
 
 
 

@@ -65,12 +65,12 @@ Reserved for system use.
 
 ### -param Srb
 
-TBD
+Reserved.
 
 
 ### -param CryptoKeyInfo
 
-TBD
+Reserved.
 
 
 

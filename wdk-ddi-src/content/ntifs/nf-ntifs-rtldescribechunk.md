@@ -65,22 +65,22 @@ The <b>RtlDescribeChunk</b> routine is reserved for system use.
 
 ### -param CompressedBuffer
 
-TBD
+Reserved.
 
 
 ### -param EndOfCompressedBufferPlus1
 
-TBD
+Reserved.
 
 
 ### -param ChunkBuffer
 
-TBD
+Reserved.
 
 
 ### -param ChunkSize
 
-TBD
+Reserved.
 
 
 

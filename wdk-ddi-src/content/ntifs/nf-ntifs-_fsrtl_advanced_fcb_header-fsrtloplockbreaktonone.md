@@ -65,27 +65,27 @@ The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to suppor
 
 ### -param IrpSp
 
-TBD
+Reserved.
 
 
 ### -param Irp
 
-TBD
+Reserved.
 
 
 ### -param Context
 
-TBD
+Reserved.
 
 
 ### -param CompletionRoutine
 
-TBD
+Reserved.
 
 
 ### -param PostIrpRoutine
 
-TBD
+Reserved.
 
 
 

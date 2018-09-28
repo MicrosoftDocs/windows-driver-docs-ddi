@@ -65,7 +65,7 @@ This routine is reserved for system use.
 
 ### -param SecurityDescriptor
 
-TBD
+Reserved.
 
 
 

@@ -65,32 +65,32 @@ The <b>RtlDecompressChunks</b> routine is reserved for system use.
 
 ### -param UncompressedBufferSize
 
-TBD
+Reserved.
 
 
 ### -param CompressedBuffer
 
-TBD
+Reserved.
 
 
 ### -param CompressedBufferSize
 
-TBD
+Reserved.
 
 
 ### -param CompressedTail
 
-TBD
+Reserved.
 
 
 ### -param CompressedTailSize
 
-TBD
+Reserved.
 
 
 ### -param CompressedDataInfo
 
-TBD
+Reserved.
 
 
 

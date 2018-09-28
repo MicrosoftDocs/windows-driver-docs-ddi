@@ -2,10 +2,11 @@
 UID: NE:ntifs._CSV_CONTROL_OP
 title: _CSV_CONTROL_OP
 author: windows-driver-content
-description: 
+description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
+tech.root: ifsk
 ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/14/2018
 ms.topic: enum
 ms.keywords: _CSV_CONTROL_OP, CSV_CONTROL_OP, *PCSV_CONTROL_OP, 
 ms.prod: windows-hardware
@@ -37,8 +38,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the type of CSV control operation to use.
-
+Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](https://msdn.microsoft.com/6CCCD5CA-FF29-41D4-B687-E403CADABF84) control code.
 
 ## -enum-fields
 
@@ -47,27 +47,56 @@ Specifies the type of CSV control operation to use.
 Starts CSV file redirection.
 
 ### -field CsvControlStopRedirectFile 
+
 Stops CSV file redirection.
+
 ### -field CsvControlQueryRedirectState 
-Search for state redirection. When this value is specified, the CSV_QUERY_REDIRECT_STATE structure must also be used.
+
+Search for state redirection. When this value is specified, the [**CSV_QUERY_REDIRECT_STATE**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state) structure must also be used.
+
 ### -field CsvControlQueryFileRevision  
-Search for file revision. When this value is specified, the CSV_QUERY_FILE_REVISION structure must also be used.
+
+Search for file revision. When this value is specified, the [**CSV_QUERY_FILE_REVISION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision) structure must also be used.
+
 ### -field CsvControlQueryMdsPath 
-Search for MDS path. When this value is specified, the CSV_QUERY_MDS_PATH structure must also be used.
+
+Search for MDS path. When this value is specified, the [**CSV_QUERY_MDS_PATH**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path) structure must also be used.
+
 ### -field CsvControlQueryFileRevisionFileId128 
-TBD 
+
+Search for 128-bit file revision. When this value is specified, the **CSV_QUERY_FILE_REVISION_FILE_ID_128** structure must also be used.
+
 ### -field CsvControlQueryVolumeRedirectState 
-TBD 
+
+Search for volume state redirection. When this value is specified, the **CSV_QUERY_VOLUME_REDIRECT_STATE** structure must also be used.
+
 ### -field CsvControlEnableUSNRangeModificationTracking 
-TBD 
+
+Enable USN range tracking.
+
 ### -field CsvControlMarkHandleLocalVolumeMount 
-TBD 
+
+When a VHD file is about to be loopback mounted, marks a handle and requests that CVSFS to fail I/Os and invalidate handles after a short timeout (currently 20 seconds) if no I/Os make progress.
+
 ### -field CsvControlUnmarkHandleLocalVolumeMount 
-TBD 
+
+When a VHD file is about to be loopback unmounted, unmarks a handle that had been previously marked by **CsvControlMarkHandleLocalVolumeMount**.
+
 ### -field CsvControlGetCsvFsMdsPathV2 
-TBD 
+
+Search for version 2 of the MDS path. When this value is specified, the **CSV_QUERY_MDS_PATH_V2** structure must also be used.
+
+### -field CsvControlDisableCaching 
+
+Disables caching of the CSV file.
+
+### -field CsvControlEnableCaching
+
+Enables caching of the CSV file.
 
 ## -remarks
+
+An alternative to calling the [FSCTL_CSV_CONTROL](https://msdn.microsoft.com/6CCCD5CA-FF29-41D4-B687-E403CADABF84) control code with this enumeration is to use the [**CSV_CONTROL_PARAM**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param) structure, which encapsulates a member of this enumeration type.
 
 ## -see-also
 

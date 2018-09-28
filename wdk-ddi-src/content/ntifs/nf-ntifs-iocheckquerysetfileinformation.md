@@ -65,14 +65,9 @@ The <b>IoCheckQuerySetFileInformation</b> routine is reserved for system use. Se
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param SetOperation
 
-TBD
-
-
-
-
-
+Reserved.

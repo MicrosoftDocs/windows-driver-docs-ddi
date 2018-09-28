@@ -65,17 +65,17 @@ The <b>KeReleaseMutant</b> routine is reserved for system use. See <a href="http
 
 ### -param Increment
 
-TBD
+Reserved.
 
 
 ### -param Abandoned
 
-TBD
+Reserved.
 
 
 ### -param Wait
 
-TBD
+Reserved.
 
 
 

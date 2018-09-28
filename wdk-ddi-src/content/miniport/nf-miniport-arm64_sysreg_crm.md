@@ -2,16 +2,16 @@
 UID: NF:miniport.ARM64_SYSREG_CRM
 title: ARM64_SYSREG_CRM macro
 author: windows-driver-content
-description:
+description: Returns the CRm field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
 ms.assetid: a40eba0a-d060-4813-8b15-80f2dd1cf418
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: macro
 ms.keywords: ARM64_SYSREG_CRM
 req.header: miniport.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -44,12 +44,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the CRm field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
 
 ## -parameters
 
 ### -param _Reg_
-TBD
+ARM system register encoding value. 
 
 
 ## -remarks

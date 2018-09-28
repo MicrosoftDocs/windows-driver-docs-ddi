@@ -104,7 +104,7 @@ If the file is on an NTFS file system, file data and metadata in the file cache 
 
 ### -param ParametersSize
 
-TBD
+The size, in bytes, of the parameters block.
 
 
 ### -param IoStatusBlock [out]

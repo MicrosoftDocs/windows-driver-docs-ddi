@@ -65,7 +65,7 @@ The <b>KeSetIdealProcessorThread</b> routine is reserved for system use.
 
 ### -param Processor
 
-TBD
+Reserved.
 
 
 

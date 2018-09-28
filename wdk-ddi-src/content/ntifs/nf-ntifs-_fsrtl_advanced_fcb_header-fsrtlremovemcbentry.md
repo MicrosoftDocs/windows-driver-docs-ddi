@@ -65,12 +65,12 @@ The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support e
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 ### -param SectorCount
 
-TBD
+Reserved.
 
 
 
