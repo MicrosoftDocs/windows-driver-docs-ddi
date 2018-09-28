@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9d2e671b-af82-49fb-ba13-8f780e931929
 ms.author: windowsdriverdev
-ms.date: 07/13/2018
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: BindProperty
 req.header: dbgmodel.h
@@ -53,13 +53,14 @@ tech.root: debugger
 ## -parameters
 
 ### -param classObject
-TBD
+The instance of a given class to which the newly created property accessor will be bound.
+
 ### -param getMethod
-TBD
+A pointer-to-member function pointer of signature (PCWSTR, IModelObject *, IModelObject**) which will act as the getter for the newly created property accessor.
+
 ### -param setMethod
-TBD
-### -param 
-TBD
+A pointer-to-member function of signature (PCWSTR, IModelObject *, IModelObject *) which will act as the setter for the newly created property accessor.
+
 
 ## -returns
 This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.

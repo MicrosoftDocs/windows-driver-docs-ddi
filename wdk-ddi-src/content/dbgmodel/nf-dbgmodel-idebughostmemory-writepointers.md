@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2173d16d-c22b-412e-8e46-d5cb64922239
 ms.author: windowsdriverdev
-ms.date: 09/18/2018
+ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory::WritePointers, WritePointers, IDebugHostMemory.WritePointers, IDebugHostMemory::WritePointers, IDebugHostMemory.WritePointers
 req.header: dbgmodel.h
@@ -50,12 +50,16 @@ tech.root: debugger
 ## -parameters
 
 ### -param context
+The host context in which to write pointers.  This represents, for example, the address space in which the location exists.
 
 ### -param location
+The location at which to write pointers.  This location may represent a virtual address within the address space defined by context or it may represent something like a register within a context record for a thread.
 
 ### -param count
+The number of pointers to write.
 
 ### -param pointers
+The pointers to write to the debug target.  If the target is 32-bits, the pointer values here will be truncated prior to writing them to the underlying debug target.
 
 
 ## -returns

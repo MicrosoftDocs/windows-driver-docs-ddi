@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c59ee365-d2da-4352-8311-a4a1d27fabdc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: BindReadOnlyProperty
 req.header: dbgmodel.h
@@ -56,10 +56,8 @@ Usage: BindProperty(get_lambda)
 ## -parameters
 
 ### -param getFunctor
-TBD
+A functor of signature (PCWSTR, IModelObject *, IModelObject **) which will act as the getter for the newly created read-only property accessor.
 
-### -param 
-TBD
 
 ## -returns
 This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.

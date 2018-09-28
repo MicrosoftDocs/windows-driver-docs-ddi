@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5bb97697-3462-4fcc-9306-e8741fc6003e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: BindProperty
 req.header: dbgmodel.h
@@ -53,13 +53,10 @@ Usage: BindProperty(get_lambda, set_lambda)
 ## -parameters
 
 ### -param getFunctor
-TBD
+A functor of signature (PCWSTR, IModelObject *, IModelObject **) which will act as the getter for the newly created property accessor.
 
 ### -param setFunctor
-TBD
-
-### -param 
-TBD
+A functor of signature (PCWSTR, IModelObject *, IModelObject *) which will act as the setter for the newly created property accessor.
 
 ## -returns
 This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.

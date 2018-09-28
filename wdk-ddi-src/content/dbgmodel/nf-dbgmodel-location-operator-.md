@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: aa145b1c-88f7-451d-b8d8-a34177d76b28
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator-
 req.header: dbgmodel.h
@@ -57,3 +57,5 @@ This function returns Location.
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

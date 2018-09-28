@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: dc230851-0655-418f-8cba-0e9bc4f885a5
 ms.author: windowsdriverdev
-ms.date: 09/18/2018 
+ms.date: 09/28/2018 
 ms.topic: method
 ms.keywords: IDebugHostMemory::WriteBytes, WriteBytes, IDebugHostMemory.WriteBytes, IDebugHostMemory::WriteBytes, IDebugHostMemory.WriteBytes
 req.header: dbgmodel.h
@@ -52,14 +52,19 @@ tech.root: debugger
 ## -parameters
 
 ### -param context
+The host context in which to write bytes.  This represents, for example, the address space in which the location exists.
 
 ### -param location
+The location at which to write bytes.  This location may represent a virtual address within the address space defined by context or it may represent something like a register within a context record for a thread.
 
 ### -param buffer
+The bytes to write to the debug target.
 
 ### -param bufferSize
+The size of the buffer / number of bytes to write to the debug target.
 
 ### -param bytesWritten
+The number of bytes actually written to the debug target will be returned here.  If the method can complete a partial write, S_FALSE will be returned and the value in bytesWritten may be less than the requested number of bytes.  If the method returns S_OK, a full write was completed.
 
 
 ## -returns
