@@ -2,7 +2,7 @@
 UID: NF:acpitabl.HMAT_ENTRY_LENGTH
 title: HMAT_ENTRY_LENGTH macro
 author: windows-driver-content
-description: 
+description: The **HMAT_ENTRY_LENGTH** macro returns the size of the type in the HMAT_ENTRY stucture.
 ms.assetid: 9b3af834-8d0d-4825-8ff6-f5ff28377fcd
 ms.author: windowsdriverdev
 ms.date: 
@@ -36,22 +36,19 @@ api_name:
 product:
 -	Windows
 targetos: Windows
-
-
 ---
 
 # HMAT_ENTRY_LENGTH macro
 
-
 ## -description
 
-
+The **HMAT_ENTRY_LENGTH** macro returns the size of the type in the HMAT_ENTRY stucture.
 
 ## -parameters
 
 ### -param _Type
 
-
+The *_Type* parameter specifies the HMAT_ENTRY table type: Memory Subsystem Address Range (MSAR), System Locality Latency and Bandwidth Information (SLLBI), or Memory Side Cache Information (MSCI).
 
 ## -remarks
 

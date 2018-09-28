@@ -2,10 +2,10 @@
 UID: NS:acpitabl._HMAT_ENTRY
 title: _HMAT_ENTRY
 author: windows-driver-content
-description: 
+description: The HMAT_ENTRY structure contains the Heterogeneous Memory Attribute Table (HMAT) information for the table.
 ms.assetid: e37fa3c2-99c2-478f-9d00-3bba73cbc7d5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 9/28/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,14 +40,21 @@ targetos: Windows
 
 ## -description
 
+The HMAT_ENTRY structure contains the Heterogeneous Memory Attribute Table (HMAT) information for the table. The structure can contain one of three HMAT types: Memory Subsystem Address Range (MSAR), System Locality Latency and Bandwidth Information (SLLBI), or Memory Side Cache Information (MSCI).
 
 ## -struct-fields
 
 ### -field Type
+
+A USHORT value containing the HMAT table type.
  
 ### -field Reserved
- 
+
+Reserved for future use.
+
 ### -field Length
+
+A ULONG value containing the size of the table.
  
 ### -field DUMMYUNIONNAME
  
