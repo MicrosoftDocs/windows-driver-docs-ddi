@@ -65,27 +65,27 @@ The <b>IoCheckFunctionAccess</b> routine is reserved for system use. See <a href
 
 ### -param MajorFunction
 
-TBD
+Reserved.
 
 
 ### -param MinorFunction
 
-TBD
+Reserved.
 
 
 ### -param IoControlCode
 
-TBD
+Reserved.
 
 
 ### -param Arg1
 
-TBD
+Reserved.
 
 
 ### -param Arg2
 
-TBD
+Reserved.
 
 
 

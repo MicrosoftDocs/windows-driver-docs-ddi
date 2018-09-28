@@ -65,22 +65,22 @@ The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a hre
 
 ### -param MemoryDescriptorList
 
-TBD
+Reserved.
 
 
 ### -param StartingOffset
 
-TBD
+Reserved.
 
 
 ### -param Event
 
-TBD
+Reserved.
 
 
 ### -param IoStatusBlock
 
-TBD
+Reserved.
 
 
 

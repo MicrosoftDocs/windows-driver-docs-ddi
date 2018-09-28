@@ -65,7 +65,7 @@ The <b>SeImpersonateClient</b> routine is obsolete, but it is exported to suppor
 
 ### -param ServerThread
 
-TBD
+Reserved.
 
 
 

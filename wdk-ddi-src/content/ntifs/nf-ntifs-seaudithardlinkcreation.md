@@ -65,12 +65,12 @@ This routine is reserved for system use.
 
 ### -param LinkName
 
-TBD
+Reserved.
 
 
 ### -param bSuccess
 
-TBD
+Reserved.
 
 
 

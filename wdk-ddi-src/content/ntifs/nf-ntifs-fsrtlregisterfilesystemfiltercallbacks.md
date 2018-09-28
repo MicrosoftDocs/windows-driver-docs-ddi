@@ -92,8 +92,8 @@ This structure is defined as follows.
     PFS_FILTER_COMPLETION_CALLBACK PostAcquireForModifiedPageWriter;
     PFS_FILTER_CALLBACK PreReleaseForModifiedPageWriter;
     PFS_FILTER_COMPLETION_CALLBACK PostReleaseForModifiedPageWriter;
-    PFS_FILTER_CALLBACK PreQueryOpen;
-    PFS_FILTER_COMPLETION_CALLBACK PostQueryOpen;
+    PFS_FILTER_CALLBACK PreNotifyStreamFileObject;
+    PFS_FILTER_COMPLETION_CALLBACK PostNotifyStreamFileObject;
 } FS_FILTER_CALLBACKS, *PFS_FILTER_CALLBACKS;</pre>
 </td>
 </tr>
@@ -453,12 +453,8 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the following status values: 
 
@@ -538,10 +534,6 @@ One of the parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 

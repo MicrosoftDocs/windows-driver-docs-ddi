@@ -65,22 +65,22 @@ req.typenames:
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 ### -param Lbn
 
-TBD
+Reserved.
 
 
 ### -param SectorCount
 
-TBD
+Reserved.
 
 
 ### -param Index
 
-TBD
+Reserved.
 
 
 

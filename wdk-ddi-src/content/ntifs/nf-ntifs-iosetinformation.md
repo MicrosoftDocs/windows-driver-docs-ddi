@@ -65,17 +65,17 @@ The <b>IoSetInformation</b> routine is reserved for system use. See <a href="htt
 
 ### -param FileInformationClass
 
-TBD
+Reserved.
 
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param FileInformation
 
-TBD
+Reserved.
 
 
 

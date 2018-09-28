@@ -65,14 +65,9 @@ The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. 
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param SetOperation
 
-TBD
-
-
-
-
-
+Reserved.

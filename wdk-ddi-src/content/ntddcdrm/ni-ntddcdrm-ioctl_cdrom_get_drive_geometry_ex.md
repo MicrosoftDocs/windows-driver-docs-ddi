@@ -110,11 +110,6 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-TBD
-
-
-
-
 ## -see-also
 
 

@@ -50,7 +50,7 @@ req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 ## -description
 
 
-TBD
+The **SES_DOWNLOAD_MICROCODE_STATE** enumeration specifies the state of a microcode download operation.
 
 
 ## -enum-fields

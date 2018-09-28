@@ -65,17 +65,17 @@ The <b>FsRtlAddMcbEntry</b> routine is obsolete, but is exported to support exis
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 ### -param Lbn
 
-TBD
+Reserved.
 
 
 ### -param SectorCount
 
-TBD
+Reserved.
 
 
 

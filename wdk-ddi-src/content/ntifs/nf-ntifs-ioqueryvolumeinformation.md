@@ -65,22 +65,22 @@ The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a h
 
 ### -param FsInformationClass
 
-TBD
+Reserved.
 
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param FsInformation
 
-TBD
+Reserved.
 
 
 ### -param ReturnedLength
 
-TBD
+Reserved.
 
 
 

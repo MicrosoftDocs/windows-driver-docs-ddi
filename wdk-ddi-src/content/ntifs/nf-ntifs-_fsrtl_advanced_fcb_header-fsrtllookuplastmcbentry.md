@@ -65,12 +65,12 @@ The <b>FsRtlLookupLastMcbEntry</b> routine is obsolete, but is exported to suppo
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 ### -param Lbn
 
-TBD
+Reserved.
 
 
 
