@@ -60,7 +60,7 @@ The <b>DepthFill</b> function fills a depth buffer with a pixel value that is sp
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DepthFill</b> function fills a depth buffer with a pixel value that is sp
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543018">D3DDDIARG_DEPTHFILL</a> structure that describes the parameters of the depth-fill operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543018">D3DDDIARG_DEPTHFILL</a> structure that describes the parameters of the depth-fill operation.
 
 
 ## -returns

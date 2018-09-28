@@ -68,7 +68,7 @@ The <b>D3DKMTOpenAdapterFromGdiDisplayName</b> function maps a GDI device name t
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548113">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a> structure that describes the parameters that are required to perform the mapping.
 

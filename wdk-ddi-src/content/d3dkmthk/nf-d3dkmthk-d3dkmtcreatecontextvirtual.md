@@ -66,7 +66,7 @@ The <b>D3DKMTCreateContextVirtual</b> function creates a kernel mode device cont
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906791">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
 

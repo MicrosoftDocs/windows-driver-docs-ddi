@@ -58,9 +58,9 @@ Callback to enable wake for the sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor 
 
-A reference to the sensor object
+[in] A reference to the sensor object.
 
 
 ## -returns

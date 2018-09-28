@@ -60,7 +60,7 @@ The <i>Present</i> function notifies the user-mode display driver that an applic
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>Present</i> function notifies the user-mode display driver that an applic
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543240">D3DDDIARG_PRESENT</a> structure that describes the resource to display.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543240">D3DDDIARG_PRESENT</a> structure that describes the resource to display.
 
 
 ## -returns

@@ -68,7 +68,7 @@ The <b>D3DKMTGetDisplayModeList</b> function retrieves a list of available displ
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a> structure that describes a list of available display modes.
 

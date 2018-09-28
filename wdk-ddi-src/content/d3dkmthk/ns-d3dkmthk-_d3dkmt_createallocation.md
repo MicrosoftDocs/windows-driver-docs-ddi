@@ -92,7 +92,7 @@ When the driver sets the <b>CreateShared</b> bit-field flag in <b>Flags</b> to c
 ### -field pStandardAllocation
 
  
-
+Pointer to a standard allocation.
 
 ### -field pPrivateDriverData
 

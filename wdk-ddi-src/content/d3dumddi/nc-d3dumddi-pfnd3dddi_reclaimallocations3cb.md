@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param hDevice [in]
 
- A handle to the display device.
+A handle to the display device.
 
 
 ### -param *
@@ -72,9 +72,9 @@ req.typenames:
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a> structure that defines the allocations to reclaim. The previously used discarded array is replaced by a pResults member in this iteration.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a> structure that defines the allocations to reclaim. The previously used discarded array is replaced by a pResults member in this iteration.
 
 
 ## -returns

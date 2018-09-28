@@ -60,7 +60,7 @@ Supplies configuration information about a graphics adapter.
 
 ### -field hAdapter
 
-A handle to the adapter.
+A handle to the graphics adapter.
 
 
 ### -field AdapterLuid

@@ -70,7 +70,7 @@ Indicates that the video memory manager manages the GPU memory management unit a
 
 ### -field MovePagingSupported
 
- 
+Indicates that the device driver is capable of moving content to a new destination on the same memory segment.
 
 
 ### -field VPRPagingContextRequired
@@ -93,7 +93,6 @@ This member is reserved and should be set to zero.
 The consolidated  value of the bitfield members in this structure.
 
 
-#### - MovingPagingSupported
 
-Indicates that the device driver is capable of moving content to a new destination on the same memory segment.
+
 

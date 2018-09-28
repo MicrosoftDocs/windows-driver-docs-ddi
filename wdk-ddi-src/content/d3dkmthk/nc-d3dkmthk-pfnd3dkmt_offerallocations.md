@@ -60,16 +60,9 @@ Offers video memory allocations for reuse.
 
 ### -param *
 
+*pData* 
 
-
-
-
-
-
-
-#### - pData [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
 
 
 ## -returns

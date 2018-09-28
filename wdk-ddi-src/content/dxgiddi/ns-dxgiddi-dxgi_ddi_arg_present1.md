@@ -61,8 +61,7 @@ Describes a resource to display. Used with the <a href="https://msdn.microsoft.c
 
 ### -field hDevice
 
- 
-
+[in] A handle to the display device (graphics context) on which the driver performs the presentation. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 ### -field phSurfacesToPresent
 
@@ -84,7 +83,7 @@ When many resource are being presented, <b>hDstResource</b> will be <b>NULL</b>,
 ### -field DstSubResourceIndex
 
 
-      [in] The zero-based index into the destination resource, which the handle in the <b>hDstResource</b> member specifies. The <b>DstSubResourceIndex</b> index indicates the subresource or surface to display to.
+[in] The zero-based index into the destination resource, which the handle in the <b>hDstResource</b> member specifies. The <b>DstSubResourceIndex</b> index indicates the subresource or surface to display to.
 
 
 ### -field pDXGIContext
@@ -121,14 +120,8 @@ The driver can use this member to perform optimizations, though it's not require
 
 ### -field BackBufferMultiplicity
 
- 
-
 The number of physical back buffer per logical back buffer.
 
-
-#### - hSurface
-
-[in] A handle to the display device (graphics context) on which the driver performs the presentation. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ## -see-also

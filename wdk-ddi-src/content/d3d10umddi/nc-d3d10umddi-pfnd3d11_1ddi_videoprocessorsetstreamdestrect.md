@@ -60,53 +60,38 @@ Sets the destination rectangle for an input stream on the video processor.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
-
-### -param Arg4
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
-
-
-
-
-#### - StreamIndex [in]
+*StreamIndex* [in]
 
 The zero-based index of the input stream.
 
+### -param Arg4
 
-#### - hDevice [in]
+*Enable* [in]
 
-A handle to the display device (graphics context). 
+If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
 
+### -param *
 
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a> function. 
-
-
-#### - pDestRect [in]
+*pDestRect* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the destination rectangle.
 
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div>
 <div> </div>
+
+
 
 ## -returns
 

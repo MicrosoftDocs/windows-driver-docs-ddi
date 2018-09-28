@@ -70,7 +70,7 @@ The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
 
 ### -field Reserved
 
-[out] Reserved.
+Reserved for internal use.
 
 
 ## -remarks

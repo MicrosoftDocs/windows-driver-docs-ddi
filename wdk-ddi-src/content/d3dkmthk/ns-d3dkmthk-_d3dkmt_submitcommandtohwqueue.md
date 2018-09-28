@@ -91,7 +91,7 @@ Size of private driver data in bytes.
 
 ### -field pPrivateDriverData
 
-Pointer to the private driver data.
+Pointer to a buffer that contains optional private driver data.
 
 
 

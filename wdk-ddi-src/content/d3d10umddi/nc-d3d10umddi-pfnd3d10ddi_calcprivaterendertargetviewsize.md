@@ -60,24 +60,15 @@ The <b>CalcPrivateRenderTargetViewSize</b> function determines the size of the u
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pCreateRenderTargetView* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pCreateRenderTargetView [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541689">D3D10DDIARG_CREATERENDERTARGETVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541689">D3D10DDIARG_CREATERENDERTARGETVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns

@@ -72,7 +72,7 @@ A handle to the display device.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906759">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
 

@@ -68,7 +68,7 @@ The <b>D3DKMTGetContextSchedulingPriority</b> function retrieves the scheduling 
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548027">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for retrieving the scheduling priority for a device context.
 

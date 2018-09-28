@@ -60,7 +60,7 @@ The <b>DecodeExtensionExecute</b> function performs a decode operation by using 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DecodeExtensionExecute</b> function performs a decode operation by using 
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543009">D3DDDIARG_DECODEEXTENSIONEXECUTE</a> structure that describes the DirectX VA decode operation to perform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543009">D3DDDIARG_DECODEEXTENSIONEXECUTE</a> structure that describes the DirectX VA decode operation to perform.
 
 
 ## -returns

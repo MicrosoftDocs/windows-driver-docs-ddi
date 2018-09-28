@@ -67,7 +67,7 @@ req.typenames:
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906810">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</a> structure that describes the operation.
 

@@ -60,24 +60,16 @@ The <i>QueryEnd</i> function marks the end of a sequence of graphics commands fo
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
 
+*hQuery* [in]
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hQuery [in]
-
- A handle to the query object to end.
+A handle to the query object to end.
 
 
 ## -returns

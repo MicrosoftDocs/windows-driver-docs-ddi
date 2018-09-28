@@ -68,7 +68,7 @@ The <b>D3DKMTSharedPrimaryUnLockNotification</b> function notifies the operating
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548344">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure that describes the shared primary surface that was unlocked.
 

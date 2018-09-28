@@ -60,14 +60,7 @@ The <b>D3dContextDestroy</b> function deletes the specified context.
 
 ### -param Arg1
 
-
-
-
-
-
-
-
-#### - pcdd [in]
+*pcdd* [in]
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544748">D3DHAL_CONTEXTDESTROYDATA</a> structure that contains the information required for the driver to destroy the context. 
 

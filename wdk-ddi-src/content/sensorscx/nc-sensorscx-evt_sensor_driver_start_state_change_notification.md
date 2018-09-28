@@ -58,9 +58,9 @@ Used to start a state change notification.
 
 
 
-### -param Sensors [in]
+### -param Sensors
 
-Holds information on the sensors handled by the sensor driver.
+[in] Holds information on the sensors handled by the sensor driver.
 
 
 ## -returns

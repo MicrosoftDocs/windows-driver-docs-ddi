@@ -62,26 +62,31 @@ Sets the planar alpha for an input stream on the video processor.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
+*Enable* [in]
+
+If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
 
 ### -param Arg5
 
-
-
-
-
-
-
-
-#### - Alpha [in]
+*Alpha* [in]
 
 A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
 
@@ -89,28 +94,6 @@ A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The val
 
 </div>
 <div> </div>
-
-#### - Enable [in]
-
-If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
 
 
 

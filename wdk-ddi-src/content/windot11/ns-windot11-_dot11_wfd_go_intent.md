@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_WFD_GO_INTENT structure

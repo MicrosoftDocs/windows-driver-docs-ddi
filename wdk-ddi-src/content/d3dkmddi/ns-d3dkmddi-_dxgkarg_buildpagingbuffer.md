@@ -386,19 +386,19 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
-##### Source.(unnamed union)
+#### Source.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the source (<b>pMdl</b>).
 
 
 
-###### (unnamed union).SegmentAddress
+#### (unnamed union).SegmentAddress
 
 [in] The source segment address, if the <b>SegmentId</b> member of <b>Source</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
 
-###### (unnamed union).pMdl
+#### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the source, if the <b>SegmentId</b> member of <b>Source</b> is zero.
 
@@ -424,19 +424,19 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
-##### Destination.(unnamed union)
+#### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
 
 
 
-###### (unnamed union).SegmentAddress
+#### (unnamed union).SegmentAddress
 
 [in] The destination segment address, if the <b>SegmentId</b> member of <b>Destination</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
 
-###### (unnamed union).pMdl
+#### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 
@@ -492,19 +492,19 @@ Supported beginning with Windows 8.
 
 
 
-##### Destination.(unnamed union)
+#### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination context allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
 
 
 
-###### (unnamed union).SegmentAddress
+#### (unnamed union).SegmentAddress
 
 [in] The destination segment address, if the <b>SegmentId</b> member of <b>Destination</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
 
-###### (unnamed union).pMdl
+#### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 

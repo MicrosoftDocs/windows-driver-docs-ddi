@@ -75,7 +75,7 @@ IOMMU_UNMAP_LOGICAL_RANGE *PIOMMU_UNMAP_LOGICAL_RANGE
 ### -param LogicalAddress
 [_In_] The logical address at which unmapping begins. The address must be page aligned.
 
-### -param NumberOfPages: 
+### -param NumberOfPages
 [_In_] The number of pages to unmap.
 
 

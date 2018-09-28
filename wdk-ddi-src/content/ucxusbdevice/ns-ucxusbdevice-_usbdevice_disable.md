@@ -67,6 +67,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVI
 
 A handle to the default endpoint of the USB device or hub to disable.
 
+### -field UsbDeviceRecoveryAction
+A [**UCX_USBDEVICE_RECOVERY_ACTION**](ne-ucxusbdevice-_ucx_usbdevice_recovery_action.md)-value that indicates FLDR or PLDR trigger resets.
+
 
 ## -see-also
 

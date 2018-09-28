@@ -67,7 +67,7 @@ The <b>D3DKMTDestroyAllocation2</b> function releases a resource, a list of allo
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906793">D3DKMT_DESTROYALLOCATION2</a> structure that contains information for releasing allocations.
 

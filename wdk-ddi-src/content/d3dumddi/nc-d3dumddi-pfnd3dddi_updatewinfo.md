@@ -60,7 +60,7 @@ The <i>UpdateWInfo</i> function updates the w range for w buffering.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>UpdateWInfo</i> function updates the w range for w buffering.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544124">D3DDDIARG_WINFO</a> structure that describes the w range for w buffering.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544124">D3DDDIARG_WINFO</a> structure that describes the w range for w buffering.
 
 
 ## -returns

@@ -85,7 +85,7 @@ If <b>Type</b> is equal to D3DDDI_GAMMARAMP_DXGI_1, this member is a pointer to 
 
 ### -field Data.p3x4
 
-Pointer to a D3DDDI_3x4_COLORSPACE_TRANSFORM which describes the 3 by 4 matrix colorspace transform to be applied.
+Pointer to a D3DDDI_3x4_COLORSPACE_TRANSFORM which describes the 3 by 4 matrix color space transform to be applied.
 
 
 ### -field Data.pRaw

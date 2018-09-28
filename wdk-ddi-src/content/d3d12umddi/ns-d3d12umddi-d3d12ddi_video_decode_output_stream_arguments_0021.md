@@ -68,7 +68,7 @@ The output texture. If decode conversion is enabled, this output specifies the p
 The output subresource to use for the <i>hDrvOutputTexture2D</i> parameter. If the output is an array, this allows specifying array indices.
 
 
-#### - ConversionParameters
+### -field ConversionArguments
 
 Optional output conversion parameters.
 

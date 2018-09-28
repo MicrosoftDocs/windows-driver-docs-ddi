@@ -60,22 +60,13 @@ The <b>CheckCounterInfo</b> function determines global information that is relat
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pCounterInfo [out]
+*pCounterInfo* [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541827">D3D10DDI_COUNTER_INFO</a> structure that the driver populates with global information that is related to manipulating counters. 
 

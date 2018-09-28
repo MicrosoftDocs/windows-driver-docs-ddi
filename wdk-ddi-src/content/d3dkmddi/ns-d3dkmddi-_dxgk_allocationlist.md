@@ -62,51 +62,13 @@ The <b>DXGK_ALLOCATIONLIST</b> structure describes an allocation specification t
 
 [in/out] An open handle to the allocation that is being referenced (that is, the handle that the driver returned in the <b>hDeviceSpecificAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561983">DXGK_OPENALLOCATIONINFO</a> structure for the allocation in a call to the driver's <a href="https://msdn.microsoft.com/551154d7-950d-40e5-810b-8d803c1731ca">DxgkDdiOpenAllocation</a> function).
 
-
-### -field WriteOperation
-
- 
-
-
-### -field SegmentId
-
- 
-
-
-### -field Reserved
-
- 
-
-
-### -field VirtualAddress
-
-[in/out] A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address.
-
-Supported starting with Windows 10.
-
-
-### -field PhysicalAddress
-
-[in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
-
-Supported starting with Windows 10.
-
-[in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
-
-
-#### - ( unnamed struct )
-
-Â 
-
-
+The following members are embedded in the structure:
 
 #### WriteOperation
 
 [in/out] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that can hold information about whether the allocation can be written to. Setting this member to 1 indicates that the allocation can be written to anywhere in the DMA buffer.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001). 
-
-
 
 #### SegmentId
 
@@ -115,12 +77,30 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 Setting this member is equivalent to setting the second through sixth bit of a 32-bit value (0x0000002E). 
 
 
-
 #### Reserved
 
 [in] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that is reserved. This member should be set to 0.
 
 Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros. 
+
+The following members are embedded in a union:
+
+#### PhysicalAddress
+
+[in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
+
+Supported starting with Windows 10.
+
+#### VirtualAddress
+
+[in/out] A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address.
+
+Supported starting with Windows 10.
+
+### -field PhysicalAddress
+
+[in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
+
 
 
 ## -remarks

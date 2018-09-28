@@ -63,12 +63,7 @@ Maps an NT process handle to a graphics processing unit (GPU) synchronization ob
 
 ### -param Arg1
 
-
-
-
-
-
-#### - pObject [in, out]
+*pObject* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780268">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
 

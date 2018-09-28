@@ -60,24 +60,13 @@ Returns the number of bytes that the driver requires to store private data for t
 
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
-
-
-#### - pView [in]
+*pView* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406320">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure that describes the video processor output view.
 

@@ -60,37 +60,15 @@ Gives information about the cursor associated with the monitor.
 
 ### -field LastShapeId
 
- 
+[in] The shape id of the last cursor shape the driver received for this monitor. This is compared against the latest shape the OS has. The new shape is only copied to the buffer if the OS version has been updated since the last image driver was        received.
 
 
 ### -field ShapeBufferSizeInBytes
 
- 
+[in] Size of the cursor shape buffer <b>pShapeBuffer</b>.
 
 
 ### -field pShapeBuffer
 
- 
-
-
-
-
-#### - MonitorDescription
-
-
-                     [in] The shape id of the last cursor shape the driver received for this monitor. This is compared against the latest shape the OS has. The new shape is only copied to the buffer if the OS version has been updated since the last image driver was        received.
-                 
-
-
-#### - TargetModeBufferInputCount
-
-
-                     [in] Size of the cursor shape buffer <b>pShapeBuffer</b>
-
-
-#### - pTargetModes
-
-
-                     [out] Buffer provided by driver that the OS will copy any new cursor image data into.
-                 
+[out] Buffer provided by driver that the OS will copy any new cursor image data into.
 

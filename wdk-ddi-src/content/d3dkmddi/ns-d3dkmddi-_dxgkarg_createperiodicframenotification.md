@@ -65,7 +65,7 @@ A handle to the adapter associated with VidPnSourceID.
 
 ### -field VidPnTargetId
 
- 
+The output that the compositor wishes to receive notifications for.
 
 
 ### -field Time
@@ -83,7 +83,6 @@ Represents an ID for the notification that will be used to track which interrupt
 A Handle to the notification object, later used to destroy the object.
 
 
-#### - VidPnTargetID
 
-The output that the compositor wishes to receive notifications for.
+
 

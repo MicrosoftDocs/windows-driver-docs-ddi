@@ -65,14 +65,7 @@ A handle to the display device associated with the allocation
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - *pUpdateAllocationProperty [in, out]
+*pUpdateAllocationProperty* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt761856">D3DDDI_UPDATEALLOCPROPERTY</a> structure that describes how to update the allocation with the desired properties.
 

@@ -144,7 +144,7 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 ### -field Evict.hProcess
 
- 
+A handle to the process.
 
 
 ### -field EvictByNtHandle
@@ -182,7 +182,7 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 ### -field GetVads.GetGpuMmuCaps
 
- 
+The GPU memory management capabilities.
 
 
 ### -field GetVads.GetPte
@@ -227,7 +227,7 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 ### -field SuspendProcess.hProcess
 
- 
+A handle to the process.
 
 
 ### -field SuspendProcess.bAllowWakeOnSubmission
@@ -242,8 +242,7 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 ### -field ResumeProcess.hProcess
 
- 
-
+A handle to the process.
 
 ### -field GetBudget
 

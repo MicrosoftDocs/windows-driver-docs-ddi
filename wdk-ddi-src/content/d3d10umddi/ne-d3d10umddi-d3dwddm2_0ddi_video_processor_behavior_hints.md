@@ -70,7 +70,7 @@ Indicates that the multi-plane overlay hardware can perform the scaling operatio
 
 ### -field D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINT_MULTIPLANE_OVERLAY_COLOR_SPACE_CONVERSION
 
-Indicates that the multi-plane overlay hardware can perform the colorspace conversion operation more efficiently than <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>. 
+Indicates that the multi-plane overlay hardware can perform the color space conversion operation more efficiently than <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>. 
 
 
 ## -see-also

@@ -60,12 +60,7 @@ Used to create a new hardware queue.
 
 ### -param Arg1
 
-
-
-
-
-
-#### - createHwQueue [in, out]
+*createHwQueue* [in, out]
 
 A structure holding the information needed to create a new hardware queue.
 

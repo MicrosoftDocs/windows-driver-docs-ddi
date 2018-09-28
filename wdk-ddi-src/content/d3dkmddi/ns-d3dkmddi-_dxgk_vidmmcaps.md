@@ -88,6 +88,29 @@ Specifies whether the driver supports cross-adapter resources in a <a href="http
 
 Supported starting with Windows 8.1.
 
+Starting in WDDM 2.4, DXGI will be enabling the current hybrid presentation optimizations for the broader scenario wherever rendering is on one GPU and presenting on another GPU’s monitor. This is only possible if both GPUs support cross adapter resources.
+
+The cross adapter resource properties are listed below.
+
+1. The resource can be paged-in only to the aperture GPU memory segment
+2. The resource is allocated as shared.
+3. The resource must be marked CPU Visible.
+4. The allocation will be created by the OS as write-combined.
+5. The resource has only one allocation and has the linear format.
+6. The resource has standard pitch alignment (128 bytes). The D3DKMT_CROSS_ADAPTER_RESOURCE_PITCH_ALIGNMENT definition is added for the pitch alignment. The resource must be created at the smallest multiple of this alignment that will contain the resource contents.
+7. The resource has a standard height alignment (4 rows). The D3DKMT_CROSS_ADAPTER_RESOURCE_HEIGHT_ALIGNMENT is added. The resource must be created at the smallest multiple of this alignment that will contain the resource contents.
+
+```cpp
+#define D3DKMT_CROSS_ADAPTER_RESOURCE_PITCH_ALIGNMENT 128
+
+#define D3DKMT_CROSS_ADAPTER_RESOURCE_HEIGHT_ALIGNMENT 4
+```
+
+8. The start address of the resource memory is aligned to one page boundary.
+9. The resource might be e created as a standard allocation from kernel mode and later opened by the UMD.
+10. The resource might be created by the UMD.
+
+The cross adapter allocation could be used as a primary, but the driver will not get information, that is usually provided when the primary is created
 
 ### -field VirtualAddressingSupported
 

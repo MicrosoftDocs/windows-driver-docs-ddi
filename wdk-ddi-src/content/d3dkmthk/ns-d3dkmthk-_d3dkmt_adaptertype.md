@@ -111,6 +111,8 @@ The adapter supports paravirtualization.
 
 ### -field Reserved
 
-Reserved for system use.
+Reserved for internal use.
 
 ### -field Value
+
+The value used to operate over the other members.

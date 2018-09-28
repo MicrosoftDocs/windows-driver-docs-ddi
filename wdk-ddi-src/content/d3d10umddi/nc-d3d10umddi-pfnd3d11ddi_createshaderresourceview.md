@@ -60,40 +60,29 @@ The <b>CreateShaderResourceView(D3D11)</b> function creates a shader resource vi
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pCreateShaderResourceView* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542073">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a shader resource view. 
 
 ### -param Arg2
 
+*hShaderResourceView* [in]
+
+A handle to the driver's private data for the shader resource view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/894f6ef1-a5a4-40aa-9a07-f66da4ce7d81">CalcPrivateShaderResourceViewSize(D3D11)</a> function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader resource view object. 
 
 ### -param Arg3
 
+*hRTShaderResourceView* [in]
+
+A handle to the shader resource view that the driver should use when it calls back into the Direct3D runtime. 
 
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRTShaderResourceView [in]
-
- A handle to the shader resource view that the driver should use when it calls back into the Direct3D runtime. 
-
-
-#### - hShaderResourceView [in]
-
- A handle to the driver's private data for the shader resource view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/894f6ef1-a5a4-40aa-9a07-f66da4ce7d81">CalcPrivateShaderResourceViewSize(D3D11)</a> function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader resource view object. 
-
-
-#### - pCreateShaderResourceView [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542073">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a shader resource view. 
 
 
 ## -returns

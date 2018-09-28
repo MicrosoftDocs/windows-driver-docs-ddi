@@ -60,7 +60,7 @@ The <i>QueryResourceResidency</i> function determines the residency of the given
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>QueryResourceResidency</i> function determines the residency of the given
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543251">D3DDDIARG_QUERYRESOURCERESIDENCY</a> structure that describes a list of resources on which residency is verified.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543251">D3DDDIARG_QUERYRESOURCERESIDENCY</a> structure that describes a list of resources on which residency is verified.
 
 
 ## -returns

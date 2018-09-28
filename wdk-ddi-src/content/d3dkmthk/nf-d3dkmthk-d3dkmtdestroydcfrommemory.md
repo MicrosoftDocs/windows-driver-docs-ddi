@@ -68,7 +68,7 @@ The <b>D3DKMTDestroyDCFromMemory</b> function releases the display context.
 
 
 
-#### - pData [in]
+*pData* [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547878">D3DKMT_DESTROYDCFROMMEMORY</a> structure that contains handles to the display context and bitmap.
 

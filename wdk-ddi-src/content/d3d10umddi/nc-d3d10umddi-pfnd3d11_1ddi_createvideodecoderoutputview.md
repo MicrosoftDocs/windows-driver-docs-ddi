@@ -60,42 +60,29 @@ Creates a resource view for a video decoder. This view defines the output sample
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+*pCreateData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406312">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
 
-#### - hRTView [in]
+### -param Arg2
 
-A handle to the video decoder output view that the driver should use when it calls back into the Direct3D runtime.
-
-
-#### - hView [in]
+*hView* [in]
 
 A handle to the driver's private data for the video decoder output view. For more information, see the Remarks section.
 
 
-#### - pCreateData [in]
+### -param Arg3
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406312">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
+*hRTView* [in]
+
+A handle to the video decoder output view that the driver should use when it calls back into the Direct3D runtime.
+
 
 
 ## -returns

@@ -75,11 +75,7 @@ Describes video memory resources that are to be reclaimed and that the driver  p
 
 ### -field PagingFenceValue
 
-[out] The paging fence to synchronize against before submitting work to the GPU which
-                                                                           references any of the resources or allocations in the provided arrays
+[out] The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
 
 
-#### - pResources
-
-[in]  An array of Direct3D runtime resource handles.
 

@@ -60,14 +60,7 @@ Sets and releases the video present source in the path of a video present networ
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER1
 
-
-
-
-
-
-#### - pSetVidPnSourceOwner1 [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406588">D3DKMT_SETVIDPNSOURCEOWNER1</a> structure that describes the parameters for setting or releasing the video present source.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406588">D3DKMT_SETVIDPNSOURCEOWNER1</a> structure that describes the parameters for setting or releasing the video present source.
 
 
 ## -returns

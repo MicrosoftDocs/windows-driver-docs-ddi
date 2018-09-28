@@ -65,7 +65,7 @@ The <b>D3DKMTCheckSharedResourceAccess</b> function determines if a process can 
 
 
 
-#### - pData [in]
+*pData* [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547312">D3DKMT_CHECKSHAREDRESOURCEACCESS</a> structure that specifies parameters to determine if a process can access a shared resource. 
 

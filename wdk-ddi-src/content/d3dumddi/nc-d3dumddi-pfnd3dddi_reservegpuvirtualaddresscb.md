@@ -79,7 +79,7 @@ A handle to the display device.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906327">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 

@@ -60,7 +60,7 @@ The <b>CreateQuery</b> function creates driver-side resources for a query that t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>CreateQuery</b> function creates driver-side resources for a query that t
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542958">D3DDDIARG_CREATEQUERY</a> structure that identifies the query.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542958">D3DDDIARG_CREATEQUERY</a> structure that identifies the query.
 
 
 ## -returns

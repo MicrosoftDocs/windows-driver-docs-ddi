@@ -60,24 +60,15 @@ The <b>CalcPrivateUnorderedAccessViewSize</b> function determines the size of th
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pCreateUnorderedAccessView* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pCreateUnorderedAccessView [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542086">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542086">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns

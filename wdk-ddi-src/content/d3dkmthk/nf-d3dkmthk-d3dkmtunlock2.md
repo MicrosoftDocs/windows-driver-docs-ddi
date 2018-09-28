@@ -67,7 +67,7 @@ The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
 

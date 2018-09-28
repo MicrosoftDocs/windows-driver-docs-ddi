@@ -60,26 +60,21 @@ The <i>SetPixelShaderConst</i> function sets one or more pixel shader constant r
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
 
+*pData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543329">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
 
+### -param *
 
+*pRegisters* [in]
 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543329">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
-
-
-#### - pRegisters [in]
-
- A pointer to a buffer that contains 4-float vectors to copy.
+A pointer to a buffer that contains 4-float vectors to copy.
 
 
 ## -returns

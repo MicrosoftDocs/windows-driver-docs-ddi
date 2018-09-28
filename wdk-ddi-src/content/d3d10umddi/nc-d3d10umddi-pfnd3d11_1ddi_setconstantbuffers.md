@@ -60,17 +60,24 @@ Sets constant buffers for a compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param StartSlot
 
+[in] The starting constant buffer to set. 
 
 ### -param NumBuffers [in]
 
- The total number of buffers to set. 
+The total number of buffers to set. 
 
 
 ### -param *
 
+*phBuffers* [in]
+
+An array of handles to the constant buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 ### -param *pFirstConstant [in, optional]
 
@@ -82,19 +89,6 @@ A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
 The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
 
 
-#### - StartBuffer [in]
-
- The starting constant buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phBuffers [in]
-
- An array of handles to the constant buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 ## -returns

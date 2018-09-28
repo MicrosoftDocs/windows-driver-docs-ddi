@@ -72,7 +72,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544255">D3DDDICB_SETDISPLAYMODE</a> structure that describes the allocation that is used to scan out.
 

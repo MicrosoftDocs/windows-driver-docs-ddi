@@ -99,11 +99,11 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 ### -field dxgContext
 
 
-
+The DirectX graphics context.
 
 ### -field VidPnSourceId
 
-
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
 
 ### -field SwapChainIndex
@@ -141,7 +141,7 @@ Supported starting with Windows 8.
 ### -field confirmationCookie
 
 
-
+Confirmation cookie.
 
 ### -field CompositionSyncKey
 
@@ -209,27 +209,27 @@ Supported starting with Windows 8.
 ### -field Reserved
 
 
-
+Reserved for internal use.
 
 ### -field SourceRect
 
-
+The source rectangle.
 
 
 ### -field DestWidth
 
 
-
+The destination width.
 
 ### -field DestHeight
 
 
-
+The destination height.
 
 ### -field TargetRect
 
 
-
+The target rectangle.
 
 ### -field Transform
 
@@ -254,25 +254,12 @@ Supported starting with Windows 8.
 ### -field ColorSpace
 
 
-
+The color space of the data. 
 
 ### -field DirtyRegions
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
 
-
-#### - ScatterBlts
-
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
-
-
-#### - hSyncObject
-
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
 
 ### -field HDRMetaDataHDR10
 

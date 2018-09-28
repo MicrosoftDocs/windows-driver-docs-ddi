@@ -60,24 +60,15 @@ The <b>CalcPrivateOpenedResourceSize</b> function determines the size of the use
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pOpenResource* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pOpenResource [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541736">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the shared memory region. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541736">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the shared memory region. 
 
 
 ## -returns

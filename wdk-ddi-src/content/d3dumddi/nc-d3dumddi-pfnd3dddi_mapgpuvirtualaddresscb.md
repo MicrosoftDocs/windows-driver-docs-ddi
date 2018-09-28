@@ -76,7 +76,7 @@ A handle to the display device.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906325">D3DDDI_MAPGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 

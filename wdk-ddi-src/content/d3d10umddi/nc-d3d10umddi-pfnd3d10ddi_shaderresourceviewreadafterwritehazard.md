@@ -60,32 +60,21 @@ The <i>ShaderResourceViewReadAfterWriteHazard</i> function informs the user-mode
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hResource* [in]
+
+A handle to the resource.
 
 ### -param Arg3
 
+*hShaderResourceView* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hResource [in]
-
- A handle to the resource.
-
-
-#### - hShaderResourceView [in]
-
- A handle to the driver's private data for a shader resource view object. 
+A handle to the driver's private data for a shader resource view object. 
 
 
 ## -returns

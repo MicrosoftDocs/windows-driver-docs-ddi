@@ -60,37 +60,24 @@ The <b>CsSetShaderResources</b> function sets resources for a compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param StartSlot
 
+[in] The offset to the first view to set. 
 
 ### -param NumViews [in]
 
- The total number of views to set. 
+The total number of views to set. 
 
 
 ### -param *
 
+*phShaderResourceViews* [in]
 
-
-
-
-
-
-
-#### - Offset [in]
-
- The offset to the first view to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phShaderResourceViews [in]
-
- An array of handles to the shader resource views, beginning at the offset that <i>Offset</i> specifies.
+An array of handles to the shader resource views, beginning at the offset that <i>Offset</i> specifies.
 
 
 ## -returns

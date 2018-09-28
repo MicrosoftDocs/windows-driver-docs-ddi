@@ -80,12 +80,7 @@ The smallest output height that can be scaled to.  The smallest allowed value is
 
 ### -field Flags
 
-
-
-
-
-
-#### - ScaleSupportFlags
+*ScaleSupportFlags*
 
 Flags that indicated level of scale support. For more information, see the <a href="https://msdn.microsoft.com/A0E1AA43-FE1A-4754-B8E6-BFE87CA810E2">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a> enumeration. 
 

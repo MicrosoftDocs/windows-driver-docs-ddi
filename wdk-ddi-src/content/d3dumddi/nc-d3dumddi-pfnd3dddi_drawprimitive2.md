@@ -60,7 +60,7 @@ The <b>DrawPrimitive2</b> function draws nonindexed primitives in which the Micr
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DrawPrimitive2</b> function draws nonindexed primitives in which the Micr
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543061">D3DDDIARG_DRAWPRIMITIVE2</a> structure that describes the primitive to draw.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543061">D3DDDIARG_DRAWPRIMITIVE2</a> structure that describes the primitive to draw.
 
 
 ## -returns

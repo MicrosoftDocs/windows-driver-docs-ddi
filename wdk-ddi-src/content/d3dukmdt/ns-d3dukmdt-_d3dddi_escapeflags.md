@@ -106,6 +106,13 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 Indicates that [DxgkDdiEscape](..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
 
+### -field DriverKnownEscape
+
+The driver private data points to a well known structure.
+
+### -field DriverCommonEscape
+
+The private data points runtime defined structure.
 
 ### -field Reserved2
 

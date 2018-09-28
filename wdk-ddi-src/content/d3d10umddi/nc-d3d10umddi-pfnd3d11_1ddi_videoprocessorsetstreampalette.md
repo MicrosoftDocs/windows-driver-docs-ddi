@@ -62,50 +62,31 @@ Sets the color-palette entries for an input stream on the video processor.
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Count [in]
-
-The number of elements in the array that is referenced by the <i>pEntries</i> parameter.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hVideoProcessor* [in]
 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
-#### - hVideoProcessor [in]
+### -param Arg3
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+*StreamIndex* [in]
 
+The zero-based index of the input stream.
 
+### -param Arg4
 
+*Count* [in]
 
-#### - pEntries [in]
+The number of elements in the array that is referenced by the <i>pEntries</i> parameter.
+
+### -param *
+
+*pEntries* [in]
 
 A pointer to an array of palette entries. For RGB streams, the palette entries are specified in the <b>DXGI_FORMAT_B8G8R8A8</b> format. For YCbCr streams, the palette entries are specified in the <b>DXGI_FORMAT_AYUV</b> format. 
 

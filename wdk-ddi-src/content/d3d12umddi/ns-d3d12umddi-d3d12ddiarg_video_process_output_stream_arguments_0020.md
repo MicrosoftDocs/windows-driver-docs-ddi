@@ -119,7 +119,7 @@ If true, stereo output is enabled. If false, the video processor produces mono v
 
 ### -field ColorSpace
 
-The colorspace for the video processor output surface as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
+The color space for the video processor output surface as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
 
 
 ### -field TargetRectangle

@@ -90,7 +90,7 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 ### -field Flags
 
  
-
+Flag options.
 
 
 

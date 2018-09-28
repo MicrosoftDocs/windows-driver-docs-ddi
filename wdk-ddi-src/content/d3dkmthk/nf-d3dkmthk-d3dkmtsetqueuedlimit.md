@@ -68,7 +68,7 @@ The <b>D3DKMTSetQueuedLimit</b> function sets or retrieves the limit for the num
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548314">D3DKMT_SETQUEUEDLIMIT</a> structure that describes parameters for setting or retrieving the limit of queued operations.
 

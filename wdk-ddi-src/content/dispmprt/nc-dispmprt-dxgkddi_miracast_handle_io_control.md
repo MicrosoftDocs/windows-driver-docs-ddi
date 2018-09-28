@@ -80,8 +80,11 @@ Supplied by the operating system as a pointer to the input buffer. This value or
 <i>InputBufferSize</i> specifies the size of the buffer.
 
 
-### -param OutputBufferSize
+### -param OutputBufferSize [in]
 
+Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
+
+This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
 ### -param *pOutputBuffer [out]
 
@@ -95,11 +98,8 @@ Supplied by the operating system as a pointer to the output buffer. This value o
 Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
 
 
-#### - OutBufferSize [in]
 
-Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
-This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
 
 ## -returns

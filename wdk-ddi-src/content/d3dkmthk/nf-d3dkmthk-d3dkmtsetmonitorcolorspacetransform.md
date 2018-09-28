@@ -62,14 +62,9 @@ req.typenames:
 
 ### -param Arg1
 
+*D3dkmt_set_colorspace_transform*
 
-
-
-
-
-#### - D3dkmt_set_colorspace_transform
-
-Used to set the colorspace transform.
+Used to set the color space transform.
 
 
 ## -returns

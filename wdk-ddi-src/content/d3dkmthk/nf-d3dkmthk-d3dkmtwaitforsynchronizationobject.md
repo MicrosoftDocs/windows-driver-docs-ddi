@@ -68,7 +68,7 @@ The <b>D3DKMTWaitForSynchronizationObject</b> function inserts a wait for the sp
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548430">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context stream that the wait is set up for.
 

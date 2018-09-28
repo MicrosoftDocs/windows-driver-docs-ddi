@@ -67,7 +67,7 @@ req.typenames:
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906804">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a> structure that provides the details of the requested operation.
 

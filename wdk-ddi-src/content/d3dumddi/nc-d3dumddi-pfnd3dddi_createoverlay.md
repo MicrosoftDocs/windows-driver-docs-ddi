@@ -60,7 +60,7 @@ The <b>CreateOverlay</b> function allocates overlay hardware and makes the overl
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>CreateOverlay</b> function allocates overlay hardware and makes the overl
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542948">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542948">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
 
 
 ## -returns

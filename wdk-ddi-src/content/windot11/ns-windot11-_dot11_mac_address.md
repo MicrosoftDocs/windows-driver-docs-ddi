@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_MAC_ADDRESS structure

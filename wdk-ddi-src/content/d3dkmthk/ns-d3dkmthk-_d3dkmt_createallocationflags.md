@@ -155,13 +155,13 @@ Supported starting with Windows 8.
 
 ### -field CrossAdapter
 
- 
+The cross adapter.
 
 
 ### -field OpenCrossAdapter
 
  
-
+The open cross adapter. Can't be used when allocation is created from the user mode.
 
 ### -field PartialSharedCreation
 
@@ -189,8 +189,6 @@ Supported starting with Windows 8.
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 22 bits (0xFFFFFC00) of a 32-bit value to zeros.
 
 Supported starting with Windows 8.
 

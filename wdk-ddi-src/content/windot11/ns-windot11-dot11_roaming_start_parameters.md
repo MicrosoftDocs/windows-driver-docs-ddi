@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_ROAMING_START_PARAMETERS, *PDOT11_ROAMING_START_PARAMETERS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_ROAMING_START_PARAMETERS structure

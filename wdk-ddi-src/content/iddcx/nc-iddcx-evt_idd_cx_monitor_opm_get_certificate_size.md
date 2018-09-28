@@ -60,23 +60,17 @@ req.typenames:
 
 ### -param AdapterObject [in]
 
-
-                    
-                The object for the adapter that the OPM certificate size will be gotten for.
+The object for the adapter that the OPM certificate size will be gotten for.
 
 
 ### -param pInArgs [in]
 
-
-                    
-                Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
+Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
 
 
 ### -param pOutArgs [out]
 
-
-                    
-                Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
+Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
 
 
 ## -returns

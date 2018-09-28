@@ -68,7 +68,7 @@ req.typenames:
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906809">D3DKMT_UPDATEGPUVIRTUALADDRESS</a> structure that describes the operation.
 

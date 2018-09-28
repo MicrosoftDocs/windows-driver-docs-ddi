@@ -67,14 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pCounterInfo [out]
+*pCounterInfo* [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn449152">D3DDDIARG_COUNTER_INFO</a> structure that the driver populates with global information that's related to manipulating counters.
 

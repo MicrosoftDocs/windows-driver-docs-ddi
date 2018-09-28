@@ -60,40 +60,28 @@ The <i>SetBlendState</i> function sets a blend state.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hState* [in]
+
+A handle to the blend state to set.
 
 ### -param FLOAT[4]
 
+*pBlendFactor* [in]
+
+A four-element array of single-precision float vectors that the driver uses to set the blend state.
 
 ### -param Arg3
 
+*SampleMask* [in]
 
+A sample format mask.
 
-
-
-
-
-
-#### - SampleMask [in]
-
- A sample format mask.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hState [in]
-
- A handle to the blend state to set.
-
-
-#### - pBlendFactor [in]
-
- A four-element array of single-precision float vectors that the driver uses to set the blend state.
 
 
 ## -returns

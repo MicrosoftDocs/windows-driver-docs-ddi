@@ -60,7 +60,7 @@ Performs a bit-block transfer (bitblt) operation from a source volume texture to
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ Performs a bit-block transfer (bitblt) operation from a source volume texture to
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451145">D3DDDIARG_VOLUMEBLT1</a> structure that defines the parameters for the volume bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451145">D3DDDIARG_VOLUMEBLT1</a> structure that defines the parameters for the volume bitblt operation.
 
 
 ## -returns

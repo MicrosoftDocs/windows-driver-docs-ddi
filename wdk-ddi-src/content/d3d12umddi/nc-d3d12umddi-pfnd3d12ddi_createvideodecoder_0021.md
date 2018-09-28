@@ -60,23 +60,20 @@ The <i>pfnCreateVideoDecoder</i> callback function creates a video decoder.
 
 ### -param hDrvDevice
 
+The hardware device being processed.
 
 ### -param *pArgs
 
+*CreateVideoDecoder* [in]
+
+The arguments used to create a video decoder.
 
 ### -param hDrvVideoDecoder
 
 The handle of a driver video decoder.
 
 
-#### - CreateVideoDecoder [in]
 
-The arguments used to create a video decoder.
-
-
-#### - hDevice
-
-The handle of the device.
 
 
 ## -returns

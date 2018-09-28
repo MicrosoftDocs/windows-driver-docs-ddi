@@ -60,7 +60,7 @@ Called by the user-mode display driver   to offer  video memory allocations for 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param *
@@ -72,9 +72,9 @@ Called by the user-mode display driver   to offer  video memory allocations for 
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451158">D3DDDICB_OFFERALLOCATIONS</a> structure  that defines the video memory allocations that the driver offers.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451158">D3DDDICB_OFFERALLOCATIONS</a> structure  that defines the video memory allocations that the driver offers.
 
 
 ## -returns

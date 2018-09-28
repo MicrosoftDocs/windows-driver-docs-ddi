@@ -70,6 +70,8 @@ Specifies the number of elements in the <i>RequestedResources</i> array.
 
 ### -param OPTIONAL
 
+*RequestedResources* [in, optional]
+
 <p>An array of IO_RESOURCE_DESCRIPTOR-type elements. Each descriptor specifies a single hardware resource that the miniport driver needs, prefers, or can use as an alternative to that specified in another array element. For detailed information about this structure, see the description of <a href="https://msdn.microsoft.com/library/Ff548285(v=VS.85).aspx"><b>IoAssignResources</b></a>.</p>
 
 
@@ -98,6 +100,7 @@ Should be set to <b>NULL</b>.
 Pointer to a memory location in which the video port driver stores the slot number for the device, or is <b>NULL</b>. 
 
 For Plug and Play devices, if this is a valid pointer, the video port driver stores the slot number at the memory location specified by the pointer. If a <b>NULL</b> value is passed in the call, the video port driver does not store a value in the location.
+
 
 
 ## -returns

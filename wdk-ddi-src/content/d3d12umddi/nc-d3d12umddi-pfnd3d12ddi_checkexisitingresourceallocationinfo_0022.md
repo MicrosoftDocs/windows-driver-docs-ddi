@@ -60,31 +60,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt799844"
 
 ### -param Arg1
 
+*hDevice*
+
 A handle to the display device (graphics context).
 
 ### -param Arg2
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice
-
-A device handle.
-
-
-#### - hResource
+hResource
 
 A resource handle.
 
+### -param *
 
-#### - pInfo [out]
+pInfo [out]
 
 Information for resource allocation.
 

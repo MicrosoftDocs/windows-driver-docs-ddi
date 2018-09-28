@@ -72,7 +72,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543304">D3DDDIARG_SETDISPLAYMODE</a> structure that specifies parameters for setting the display mode.
 

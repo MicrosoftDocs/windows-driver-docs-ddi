@@ -60,7 +60,7 @@ The <b>DestroyAuthenticatedChannel</b> function releases resources for the authe
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DestroyAuthenticatedChannel</b> function releases resources for the authe
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543022">D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL</a> structure that contains one member that specifies the handle to the authenticated channel to destroy. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543022">D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL</a> structure that contains one member that specifies the handle to the authenticated channel to destroy. 
 
 
 ## -returns

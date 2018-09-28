@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTInvalidateActiveVidPn
 title: D3DKMTInvalidateActiveVidPn function
 author: windows-driver-content
-description: The D3DKMTInvalidateActiveVidPn function invalidates the active video present network (VidPN) currently in use.Note   This function is obsolete in Windows 7 and later versions of the Windows operating systems.
+description: The D3DKMTInvalidateActiveVidPn function invalidates the active video present network (VidPN) currently in use. Note   This function is obsolete in Windows 7 and later versions of the Windows operating systems.
 old-location: display\d3dkmtinvalidateactivevidpn.htm
 ms.assetid: a7cac46d-b64d-4362-99ab-179aa6525ba2
 ms.author: windowsdriverdev
@@ -73,7 +73,7 @@ The <b>D3DKMTInvalidateActiveVidPn</b> function invalidates the active video pre
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548082">D3DKMT_INVALIDATEACTIVEVIDPN</a> structure that describes parameters that invalidate the active VidPN currently in use.
 

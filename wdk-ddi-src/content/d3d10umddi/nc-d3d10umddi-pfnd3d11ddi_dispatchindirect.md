@@ -60,27 +60,15 @@ The <b>DispatchIndirect</b> function executes the compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hBufferForArgs* [in]
 
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - AlignedByteOffsetForArgs [in]
-
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
-
-
-#### - hBufferForArgs [in]
-
- A handle to a buffer that contains three UINT values that hold the sizes, in thread groups, of the X, Y, and Z dimensions of the thread-group grid. The buffer contains the following tightly packed structure:
+A handle to a buffer that contains three UINT values that hold the sizes, in thread groups, of the X, Y, and Z dimensions of the thread-group grid. The buffer contains the following tightly packed structure:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -97,9 +85,13 @@ The <b>DispatchIndirect</b> function executes the compute shader.
 </tr>
 </table></span></div>
 
-#### - hDevice [in]
+### -param Arg3
 
- A handle to the display device (graphics context).
+*AlignedByteOffsetForArgs* [in]
+
+The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
+
+
 
 
 ## -returns

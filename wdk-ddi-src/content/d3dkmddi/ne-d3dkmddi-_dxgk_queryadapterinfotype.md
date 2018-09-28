@@ -110,18 +110,17 @@ Indicates the driver capabilities in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_dr
 ### -field DXGKQAITYPE_QUERYSEGMENT
 
 
-      Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure.
-
-
+Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure.
 
 ### -field DXGKQAITYPE_RESERVED
 
-Reserved.
+Reserved for system use. Do not use in your driver. Note that this constant occurs starting with Windows 7.
 
 ### -field DXGKQAITYPE_QUERYSEGMENT2
 
 Reserved for system use. Do not use in your driver.
-     Note that this constant occurs starting with Windows 7.
+
+Note that this constant occurs starting with Windows 7.
 
 
 ### -field DXGKQAITYPE_QUERYSEGMENT3
@@ -259,11 +258,10 @@ Represents data caps that are static and queried once per GPU during initializat
 
 Used to collect the bios version and gpu architecture name once during GPU initialization.
 
-#### - DXGKQAITYPE_ALLOCATIONGROUP
 
+### -field DXGKQAITYPE_DEVICE_TYPE_CAPS
 
-Reserved for system use. Do not use in your driver. Note that this constant occurs starting with Windows 7.
-
+The device type capabilities.
 
 ## -remarks
 

@@ -60,7 +60,7 @@ The <i>SetRenderState</i> function updates a render state.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetRenderState</i> function updates a render state.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543267">D3DDDIARG_RENDERSTATE</a> structure that describes how to update the render state.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543267">D3DDDIARG_RENDERSTATE</a> structure that describes how to update the render state.
 
 
 ## -returns

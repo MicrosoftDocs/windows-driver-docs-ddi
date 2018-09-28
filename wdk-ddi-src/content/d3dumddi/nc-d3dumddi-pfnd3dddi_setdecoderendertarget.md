@@ -60,7 +60,7 @@ The <i>SetDecodeRenderTarget</i> function sets the render target surface for dec
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetDecodeRenderTarget</i> function sets the render target surface for dec
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543295">D3DDDIARG_SETDECODERENDERTARGET</a> structure that describes the decode render target surface.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543295">D3DDDIARG_SETDECODERENDERTARGET</a> structure that describes the decode render target surface.
 
 
 ## -returns

@@ -60,7 +60,7 @@ The <i>StartSessionKeyRefresh</i> function returns a random number that the driv
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>StartSessionKeyRefresh</i> function returns a random number that the driv
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543375">D3DDDIARG_STARTSESSIONKEYREFRESH</a> structure that contains information about the random number. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543375">D3DDDIARG_STARTSESSIONKEYREFRESH</a> structure that contains information about the random number. 
 
 
 ## -returns

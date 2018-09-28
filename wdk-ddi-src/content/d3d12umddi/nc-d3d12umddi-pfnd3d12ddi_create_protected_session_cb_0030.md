@@ -70,11 +70,11 @@ The protected session.
 
 ### -param *pArgs
 
+*D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION*
+
 Arguments to use for the function.
 
-#### - D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION [in]
 
-Used to create a protected resource session
 
 
 ## -returns

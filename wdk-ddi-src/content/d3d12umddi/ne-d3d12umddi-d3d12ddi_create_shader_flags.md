@@ -70,10 +70,7 @@ The shader is tracing.
 
 ### -field D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION_0024
 
-
-
-
-#### - D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION
+*D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION*
 
 The shader is compiled quickly and less optimally. 
 

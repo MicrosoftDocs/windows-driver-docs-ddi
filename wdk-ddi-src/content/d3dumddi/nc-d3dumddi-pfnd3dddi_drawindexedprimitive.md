@@ -60,7 +60,7 @@ The <b>DrawIndexedPrimitive</b> function draws indexed primitives that the Micro
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <b>DrawIndexedPrimitive</b> function draws indexed primitives that the Micro
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543048">D3DDDIARG_DRAWINDEXEDPRIMITIVE</a> structure that describes the indexed primitive to draw.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543048">D3DDDIARG_DRAWINDEXEDPRIMITIVE</a> structure that describes the indexed primitive to draw.
 
 
 ## -returns

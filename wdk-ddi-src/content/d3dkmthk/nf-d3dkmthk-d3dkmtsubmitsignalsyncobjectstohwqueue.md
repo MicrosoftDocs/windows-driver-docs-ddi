@@ -60,14 +60,7 @@ Used to submit a signal to the hardware queue.
 
 ### -param D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 
-
-
-
-
-
-#### - submitWaitForSyncObjectsToHwQueue [in]
-
-A structure holding the information needed to submit a signal to the hardware queue.
+[in] A structure holding the information needed to submit a signal to the hardware queue.
 
 
 ## -returns

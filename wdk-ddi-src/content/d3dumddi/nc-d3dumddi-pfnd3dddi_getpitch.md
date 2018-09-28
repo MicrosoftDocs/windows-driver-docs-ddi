@@ -60,7 +60,7 @@ The <i>GetPitch</i> function retrieves the pitch of a protected or non-lockable 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). 
+A handle to the display device (graphics context). 
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>GetPitch</i> function retrieves the pitch of a protected or non-lockable 
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543176">D3DDDIARG_GETPITCH</a> structure that describes the protected surface. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543176">D3DDDIARG_GETPITCH</a> structure that describes the protected surface. 
 
 
 ## -returns

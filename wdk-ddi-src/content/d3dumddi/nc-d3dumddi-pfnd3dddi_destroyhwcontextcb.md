@@ -65,14 +65,7 @@ A handle to the device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - destroyHwContext [in]
+*destroyHwContext* [in]
 
 A pointer to the structure holding information to destroy the hardware context.
 

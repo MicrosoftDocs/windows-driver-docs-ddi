@@ -60,7 +60,7 @@ Discards (evicts) a set of subresources from video display memory. Implemented b
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ Discards (evicts) a set of subresources from video display memory. Implemented b
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451076">D3DDDIARG_DISCARD</a> structure that defines the set of subresources that is to be discarded.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451076">D3DDDIARG_DISCARD</a> structure that defines the set of subresources that is to be discarded.
 
 
 ## -returns

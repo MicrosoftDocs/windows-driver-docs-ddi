@@ -60,21 +60,12 @@ The <i>VideoProcessBeginFrame</i> function notifies the user-mode display driver
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param hVideoProcess
 
-
-
-
-
-
-
-
-#### - hVideoProcessor [in]
-
- The handle to the DirectX VA video processing device that should start processing the video frame. The <a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> function created this handle.
+[in] The handle to the DirectX VA video processing device that should start processing the video frame. The <a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> function created this handle.
 
 
 ## -returns

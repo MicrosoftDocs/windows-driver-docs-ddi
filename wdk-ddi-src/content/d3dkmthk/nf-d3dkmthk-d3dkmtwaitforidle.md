@@ -68,7 +68,7 @@ The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548423">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
 

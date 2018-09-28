@@ -68,7 +68,7 @@ The <b>D3DKMTSetAllocationPriority</b> function sets the priority level of a res
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548262">D3DKMT_SETALLOCATIONPRIORITY</a> structure that contains information for setting the priority level of a resource or list of allocations.
 

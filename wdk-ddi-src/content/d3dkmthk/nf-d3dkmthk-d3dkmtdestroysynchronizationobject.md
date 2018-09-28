@@ -68,7 +68,7 @@ The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode sy
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547898">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
 

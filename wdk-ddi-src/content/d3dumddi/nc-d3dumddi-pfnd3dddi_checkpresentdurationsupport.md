@@ -65,14 +65,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pPresentDurationSupport [in]
+*pPresentDurationSupport* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn465881">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a> structure that contains info on hardware device support for seamlessly switching to a new monitor refresh rate.
 

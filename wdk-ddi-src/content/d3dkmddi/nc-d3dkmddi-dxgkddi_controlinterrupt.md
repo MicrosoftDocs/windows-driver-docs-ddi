@@ -72,13 +72,6 @@ The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interr
 
 
 
-
-
-
-
-
-#### - Enable [in]
-
 [in] A Boolean value that indicates whether <i>DxgkDdiControlInterrupt</i> enables or disables the specified interrupt type. <b>TRUE</b> indicates that it enables and <b>FALSE</b> indicates that it disables.
 
 

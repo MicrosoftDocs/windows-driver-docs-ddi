@@ -67,7 +67,7 @@ req.typenames:
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906794">D3DKMT_EVICT</a> structure that describes the operation.
 

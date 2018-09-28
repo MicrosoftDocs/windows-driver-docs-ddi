@@ -68,7 +68,7 @@ The <b>D3DKMTEscape</b> function exchanges information with the display miniport
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a> structure that describes the exchanged information.
 

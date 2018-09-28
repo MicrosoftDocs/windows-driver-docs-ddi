@@ -60,21 +60,14 @@ The <b>ConfigureAuthenticatedChannel</b> function sets state within an authentic
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pData* [in, out]
 
-
-
-
-
-
-
-#### - pData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542913">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542913">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information. 
 
 
 ## -returns

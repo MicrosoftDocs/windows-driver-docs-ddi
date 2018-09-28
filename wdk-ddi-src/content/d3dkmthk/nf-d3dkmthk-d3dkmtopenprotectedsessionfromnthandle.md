@@ -62,12 +62,7 @@ Used to open a protected session from the NT handle.
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_openprotectedsessionfromnthandle [in, out]
+*D3dkmt_openprotectedsessionfromnthandle* [in, out]
 
 Holds information to open the protected session.
 

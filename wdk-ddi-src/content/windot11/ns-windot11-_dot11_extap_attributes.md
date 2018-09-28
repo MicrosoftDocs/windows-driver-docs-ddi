@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_EXTAP_ATTRIBUTES structure

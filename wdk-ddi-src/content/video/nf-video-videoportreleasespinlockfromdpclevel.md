@@ -59,16 +59,14 @@ The <b>VideoPortReleaseSpinLockFromDpcLevel</b> function releases the spin lock 
 
 
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
-Pointer to the miniport driver's device extension.
-
-
-### -param param
-
-<p>Pointer to a memory location that contains the spin lock to be released.</p>
+[in] Pointer to the miniport driver's device extension.
 
 
+### -param SpinLock 
+
+[in, out] Pointer to a memory location that contains the spin lock to be released.
 
 
 ## -returns

@@ -61,15 +61,11 @@ The <b>DrawAuto</b> function works similarly to the <a href="https://msdn.micros
 ### -param Arg1
 
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

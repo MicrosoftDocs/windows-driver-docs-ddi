@@ -68,7 +68,7 @@ The <b>D3DKMTSharedPrimaryLockNotification</b> function notifies the operating s
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548329">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a> structure that describes the shared primary surface that an application will lock. 
 

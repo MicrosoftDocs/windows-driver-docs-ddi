@@ -60,16 +60,9 @@ Maps a GDI display name to a remote video present network (VidPN) source ID that
 
 ### -param *
 
+*pData* 
 
-
-
-
-
-
-
-#### - pData [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406554">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a> structure that describes information that is required to perform the mapping.
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406554">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a> structure that describes information that is required to perform the mapping.
 
 
 ## -returns

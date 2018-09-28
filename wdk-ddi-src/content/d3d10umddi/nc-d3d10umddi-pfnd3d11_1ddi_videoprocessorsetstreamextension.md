@@ -60,50 +60,39 @@ Sets the private state data for a video processor stream from an application.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param *
 
+*pGuid* [in]
 
-
-
-
-
-
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 ### -param Arg4
 
-
-#### - DataSize [in]
+*DataSize* [in]
 
 The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
 
-#### - StreamIndex [in]
 
-The zero-based index of the input stream.
+### -param *
 
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - pData [in]
+*pData* [in, out]
 
 A pointer to a buffer that contains the private state data. 
 
@@ -111,11 +100,6 @@ A pointer to a buffer that contains the private state data.
 
 <div class="alert"><b>Note</b>  The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetStreamExtension</b> function</div>
 <div> </div>
-
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
-
 
 
 
@@ -161,7 +145,7 @@ The graphics adapter was removed.
 </td>
 <td width="60%">
 
-        The display miniport driver cannot set the requested private state data for the video processor.
+The display miniport driver cannot set the requested private state data for the video processor.
 
 </td>
 </tr>

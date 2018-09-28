@@ -81,7 +81,7 @@ A handle to the display device.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906763">D3DDDICB_FREEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 

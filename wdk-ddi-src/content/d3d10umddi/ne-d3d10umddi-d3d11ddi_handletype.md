@@ -66,7 +66,7 @@ A resource handle.
 ### -field D3D10DDI_HT_SHADERRESOURCEVIEW
 
 
-      A shader-resource-view handle. 
+A shader-resource-view handle. 
      
 
 
@@ -172,42 +172,42 @@ Supported starting with Windows 8.
 
 
 
-#### - D3D12DDI_HT_COMMAND_ALLOCATOR
+### -field D3D12DDI_HT_COMMAND_ALLOCATOR
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_COMMAND_LIST
+### -field D3D12DDI_HT_COMMAND_LIST
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_COMMAND_QUEUE
+### -field D3D12DDI_HT_COMMAND_QUEUE
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_DESCRIPTOR_HEAP
+### -field D3D12DDI_HT_DESCRIPTOR_HEAP
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_FENCE
+### -field D3D12DDI_HT_FENCE
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_HEAP
+### -field D3D12DDI_HT_HEAP
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_PIPELINE_STATE
+### -field D3D12DDI_HT_PIPELINE_STATE
 
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_UNORDERED_ACCESS_VIEW_COUNTER
+### -field D3D12DDI_HT_UNORDERED_ACCESS_VIEW_COUNTER
 
 Supported starting with Windows 10.
 

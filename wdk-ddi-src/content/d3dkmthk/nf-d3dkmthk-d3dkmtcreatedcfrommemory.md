@@ -65,7 +65,7 @@ The <b>D3DKMTCreateDCFromMemory</b> function creates a display context from a sp
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547814">D3DKMT_CREATEDCFROMMEMORY</a> structure that describes parameters for creating a display context.
 

@@ -60,24 +60,17 @@ The <i>IaSetTopology</i> function sets the primitive topology to enable drawing 
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*PrimitiveTopology* [in]
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541964">D3D10_DDI_PRIMITIVE_TOPOLOGY</a>-typed value that indicates the primitive topology to set. 
 
 
-
-
-
-
-
-#### - PrimitiveTopology [in]
-
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541964">D3D10_DDI_PRIMITIVE_TOPOLOGY</a>-typed value that indicates the primitive topology to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

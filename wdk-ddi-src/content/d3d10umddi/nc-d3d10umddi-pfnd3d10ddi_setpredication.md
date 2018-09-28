@@ -60,32 +60,23 @@ The <i>SetPredication</i> function specifies whether rendering and resource-mani
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hQuery* [in]
+
+A handle to the query object to set as a predicate. Setting <i>hQuery</i> to <b>NULL</b> indicates "no predication". If <i>hQuery</i> is set to <b>NULL</b>, the driver ignores the value in the <i>PredicateValue</i> parameter; however, the driver should store the predicate value for subsequent requests for the value.
 
 ### -param Arg3
 
+*PredicateValue* [in]
+
+A Boolean value to compare with query data. If the query data is equal to the predicate value, the following rendering and resource manipulation commands are not performed.
 
 
-
-
-
-
-
-#### - PredicateValue [in]
-
- A Boolean value to compare with query data. If the query data is equal to the predicate value, the following rendering and resource manipulation commands are not performed. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hQuery [in]
-
- A handle to the query object to set as a predicate. Setting <i>hQuery</i> to <b>NULL</b> indicates "no predication". If <i>hQuery</i> is set to <b>NULL</b>, the driver ignores the value in the <i>PredicateValue</i> parameter; however, the driver should store the predicate value for subsequent requests for the value.
 
 
 ## -returns

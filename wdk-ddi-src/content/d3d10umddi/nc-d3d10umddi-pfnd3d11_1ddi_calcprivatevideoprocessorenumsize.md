@@ -60,24 +60,13 @@ Returns the number of bytes that the driver requires to store private data for t
 
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
-
-
-#### - pProcessorEnum [in]
+*pProcessorEnum* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure that describes the video processor enumeration object that was created through the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 

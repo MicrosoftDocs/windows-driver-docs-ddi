@@ -60,16 +60,10 @@ The <i>Flush(D3D10)</i> function submits outstanding hardware commands that are 
 
 ### -param Arg1
 
+*hDevice* [in]
 
+A handle to the display device (graphics context).
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

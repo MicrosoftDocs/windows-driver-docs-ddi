@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_SCAN_REQUEST_V2 structure

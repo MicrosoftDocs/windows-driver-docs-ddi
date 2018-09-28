@@ -60,24 +60,17 @@ The <i>pfnSetShaderCacheSession</i> callback function sets a shader cache sessio
 
 ### -param Arg1
 
+*hDevice*
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
-
-
-
-
-
-
-
-#### - hCacheSession
+*hCacheSession*
 
 The handle of a cache session.
 
 
-#### - hDevice
-
-The handle of a device.
 
 
 ## -returns

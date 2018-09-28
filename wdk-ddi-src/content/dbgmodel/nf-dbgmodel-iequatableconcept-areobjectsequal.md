@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 846d56f6-e5e2-411d-ae4b-5dc1e31e3221
 ms.author: windowsdriverdev
-ms.date: 07/20/2018
+ms.date: 09/26/2018
 ms.topic: method
 ms.keywords: IEquatableConcept::AreObjectsEqual, AreObjectsEqual, IEquatableConcept.AreObjectsEqual, IEquatableConcept::AreObjectsEqual, IEquatableConcept.AreObjectsEqual
 req.header: dbgmodel.h
@@ -51,10 +51,10 @@ IEquatableConcept is typically implemented by the object creators.  To compare o
 ## -parameters
 
 ### -param contextObject
-The object to compare against.
+The object being compared.
 
 ### -param otherObject
-Another object (of arbitrary type) to compare.
+The other object (of arbitrary type) that contextObject is being compared to.
 
 
 ### -param isEqual
@@ -65,6 +65,9 @@ Returned Boolean indicating if the two objects are equal.
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
+
+Generally speaking, you will implement (but not necessarily consume) IEquatableConcept.  It can be easier to call IModelObject::IsEqualTo or IModelObject::Compare and let those methods manage the concept fetch.
+
 
 ## -see-also
 

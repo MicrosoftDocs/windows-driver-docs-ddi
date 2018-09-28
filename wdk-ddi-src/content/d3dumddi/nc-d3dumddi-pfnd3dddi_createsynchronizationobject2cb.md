@@ -72,7 +72,7 @@ A handle to the display device (that is, the graphics context) that will own the
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451156">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization object to create.
 
@@ -108,7 +108,7 @@ The synchronization object was successfully created.
 </td>
 <td width="60%">
 
-        The function could not allocate memory that was required for it to complete.
+The function could not allocate memory that was required for it to complete.
 
 </td>
 </tr>

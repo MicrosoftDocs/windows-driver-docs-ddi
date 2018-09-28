@@ -60,7 +60,7 @@ The <i>SetTransform</i> function sets up a transform.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetTransform</i> function sets up a transform.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543367">D3DDDIARG_SETTRANSFORM</a> structure that describes how to set up the transform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543367">D3DDDIARG_SETTRANSFORM</a> structure that describes how to set up the transform.
 
 
 ## -returns

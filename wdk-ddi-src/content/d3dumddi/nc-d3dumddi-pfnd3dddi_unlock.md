@@ -60,7 +60,7 @@ The <i>Unlock</i> function unlocks a resource or a surface within the resource t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>Unlock</i> function unlocks a resource or a surface within the resource t
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543394">D3DDDIARG_UNLOCK</a> structure that describes the resource or surface within the resource to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543394">D3DDDIARG_UNLOCK</a> structure that describes the resource or surface within the resource to unlock.
 
 
 ## -returns

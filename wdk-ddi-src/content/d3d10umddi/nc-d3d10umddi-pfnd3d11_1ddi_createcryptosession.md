@@ -132,7 +132,7 @@ A cryptographic type was specified that is not supported by the decode profile.
 </td>
 <td width="60%">
 
-        Memory was not available to complete the operation.
+Memory was not available to complete the operation.
 
 </td>
 </tr>

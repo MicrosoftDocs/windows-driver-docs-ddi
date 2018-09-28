@@ -60,15 +60,14 @@ Submits outstanding hardware commands that are in the hardware command buffer to
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param FlushFlags [in]
 
- A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451049">D3D11_1_DDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should  continue to submit command buffers if there have been no new commands.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451049">D3D11_1_DDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should  continue to submit command buffers if there have been no new commands.
 
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

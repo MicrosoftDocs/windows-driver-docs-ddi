@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param hDevice [in]
 
- A handle to the display device.
+A handle to the display device.
 
 
 ### -param *
@@ -72,9 +72,9 @@ req.typenames:
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906764">D3DDDICB_RECLAIMALLOCATIONS2</a> structure that defines the allocations to reclaim.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906764">D3DDDICB_RECLAIMALLOCATIONS2</a> structure that defines the allocations to reclaim.
 
 
 ## -returns

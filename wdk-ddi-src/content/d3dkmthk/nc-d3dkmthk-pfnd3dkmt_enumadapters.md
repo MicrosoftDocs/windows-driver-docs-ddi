@@ -60,14 +60,7 @@ Enumerates all graphics adapters on the system.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pEnumAdapters [in, out]
+*pEnumAdapters* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406463">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
 

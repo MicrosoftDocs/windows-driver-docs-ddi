@@ -62,44 +62,29 @@ Enables or disables automatic processing features for an input stream on the vid
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
-
-
-
-
-
-
-
-#### - Enable [in]
+*Enable* [in]
 
 If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the driver disables any additional video processing that it might be performing.
 
 
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 

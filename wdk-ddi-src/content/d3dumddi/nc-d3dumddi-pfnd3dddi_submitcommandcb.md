@@ -78,7 +78,7 @@ A handle to the display device.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914419">D3DDDICB_SUBMITCOMMAND</a> structure that describes the operation to perform.
 

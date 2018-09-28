@@ -60,7 +60,7 @@ The <i>SetVideoProcessRenderTarget</i> function sets the render target surface t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetVideoProcessRenderTarget</i> function sets the render target surface t
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543372">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a> structure that describes the render target surface that is used for video processing.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543372">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a> structure that describes the render target surface that is used for video processing.
 
 
 ## -returns

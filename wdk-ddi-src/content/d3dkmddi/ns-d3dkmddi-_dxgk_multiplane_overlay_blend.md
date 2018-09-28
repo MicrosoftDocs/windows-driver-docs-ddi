@@ -83,7 +83,4 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 A 32-bit value that identifies the type of blend operation to perform.
 
 
-#### - ColorKey
-
-A value for the color key. 
 

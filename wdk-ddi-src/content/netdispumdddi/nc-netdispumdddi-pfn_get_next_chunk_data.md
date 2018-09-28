@@ -78,7 +78,7 @@ If this value is zero and a chunk is not ready, the operating system will not bl
 
 The number of additional events that are supplied in the <i>pAdditionalWaitEvents</i> parameter.
 
- A maximum of 4 wait events can be supplied.
+A maximum of 4 wait events can be supplied.
 
 
 ### -param *pAdditionalWaitEvents [in, optional]

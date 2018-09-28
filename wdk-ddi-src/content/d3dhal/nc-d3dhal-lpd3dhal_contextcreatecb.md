@@ -60,14 +60,7 @@ The <b>D3dContextCreate</b> function creates a context.
 
 ### -param Arg1
 
-
-
-
-
-
-
-
-#### - pccd [in]
+*pccd* [in]
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544739">D3DHAL_CONTEXTCREATEDATA</a> structure that contains the information required to create a context and the data that the driver should store in the new context.
 

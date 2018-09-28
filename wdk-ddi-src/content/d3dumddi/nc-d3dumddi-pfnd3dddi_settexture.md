@@ -60,29 +60,21 @@ The <i>SetTexture</i> function inserts a texture at a particular stage in a mult
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*hTexture* [in]
+
+A handle to the texture to insert.
 
 ### -param Arg2
 
+*Stage* [in]
 
+The stage in a multiple-texture group that indicates where to insert the texture that is specified by the <i>hTexture</i> handle. This parameter can be an integer in the range from 0 through 7, with the highest-numbered texture being closest to the frame buffer.
 
-
-
-
-
-
-#### - Stage [in]
-
- The stage in a multiple-texture group that indicates where to insert the texture that is specified by the <i>hTexture</i> handle. This parameter can be an integer in the range from 0 through 7, with the highest-numbered texture being closest to the frame buffer.
-
-
-#### - hTexture [in]
-
- A handle to the texture to insert.
 
 
 ## -returns

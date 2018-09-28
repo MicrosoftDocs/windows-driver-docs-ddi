@@ -49,10 +49,14 @@ Opens a keyed mutex from an NT handle to the process.
 
 ## -parameters
 
-#### - D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE * [in, out]
+### -param Arg1
+
+*D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE* [in, out]
 
 Pointer to a [D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE](ns-d3dkmthk-_d3dkmt_openkeyedmutexfromnthandle.md) structure.
 
 ## -returns
 
+
 This function returns NTSTATUS.
+

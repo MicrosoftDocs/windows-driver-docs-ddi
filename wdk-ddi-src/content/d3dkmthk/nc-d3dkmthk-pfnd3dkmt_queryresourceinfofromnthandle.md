@@ -61,15 +61,9 @@ Maps a global NT handle  to resource information that is needed for a call to th
 ### -param *
 
 
+*pData* 
 
-
-
-
-
-
-#### - pData [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406560">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
+[in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406560">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
 
 
 ## -returns

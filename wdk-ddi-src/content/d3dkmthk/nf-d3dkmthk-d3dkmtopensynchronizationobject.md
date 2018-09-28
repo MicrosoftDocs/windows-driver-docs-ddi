@@ -68,7 +68,7 @@ The <b>D3DKMTOpenSynchronizationObject</b> function opens a kernel-mode synchron
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548152">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a> structure that describes a shared synchronization object to open. 
 

@@ -42,7 +42,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS structure

@@ -72,7 +72,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544198">D3DDDICB_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
 

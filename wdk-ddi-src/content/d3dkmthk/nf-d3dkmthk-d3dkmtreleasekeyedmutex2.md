@@ -65,7 +65,7 @@ Releases a keyed mutex object that includes private data.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406571">D3DKMT_RELEASEKEYEDMUTEX2</a> structure that specifies the keyed mutex object to release. 
 

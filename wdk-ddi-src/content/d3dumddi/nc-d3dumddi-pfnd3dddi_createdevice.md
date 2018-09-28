@@ -60,21 +60,14 @@ The <b>CreateDevice</b> function creates a graphics context that is referenced i
 
 ### -param hAdapter [in]
 
- A handle that identifies the graphics adapter. 
+A handle that identifies the graphics adapter. 
 
 
 ### -param *
 
+*pCreateData* [in, out]
 
-
-
-
-
-
-
-#### - pCreateData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
 
 
 ## -returns

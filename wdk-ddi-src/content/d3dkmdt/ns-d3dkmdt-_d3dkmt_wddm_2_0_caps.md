@@ -65,6 +65,10 @@ Supports flip overwrite.
 
 Supports contextless present display.
 
+### -field SupportSurpriseRemoval
+
+Supports surprise removal.
+
 ### -field Reserved
 
 Reserved.

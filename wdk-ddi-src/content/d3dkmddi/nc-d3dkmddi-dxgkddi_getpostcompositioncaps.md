@@ -65,16 +65,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pGetPostCompositionCaps
 
-
-
-
-
-
-
-
-#### - pGetPostCompositonCaps [in]
-
-IA pointer to a DXGKARG_GETPOSTCOMPOSITIONCAPS structure that receives the driver capabilities.
+[in] IA pointer to a DXGKARG_GETPOSTCOMPOSITIONCAPS structure that receives the driver capabilities.
 
 
 ## -returns

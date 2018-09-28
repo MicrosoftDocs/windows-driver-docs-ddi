@@ -68,7 +68,7 @@ The <b>D3DKMTUpdateOverlay</b> function modifies a kernel-mode overlay object.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548402">D3DKMT_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 

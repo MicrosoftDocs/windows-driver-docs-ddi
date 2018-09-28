@@ -60,7 +60,7 @@ The <i>SetPalette</i> function associates a palette with a texture.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetPalette</i> function associates a palette with a texture.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543327">D3DDDIARG_SETPALETTE</a> structure that describes the parameters for the set-palette operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543327">D3DDDIARG_SETPALETTE</a> structure that describes the parameters for the set-palette operation.
 
 
 ## -returns

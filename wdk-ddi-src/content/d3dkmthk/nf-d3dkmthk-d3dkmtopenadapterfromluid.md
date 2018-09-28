@@ -62,12 +62,7 @@ Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 ### -param D3DKMT_OPENADAPTERFROMLUID
 
-
-
-
-
-
-#### - pAdapter [in, out]
+*pAdapter* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780267">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
 

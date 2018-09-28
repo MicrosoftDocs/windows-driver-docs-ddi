@@ -60,24 +60,16 @@ Determines the size of the user-mode display driver's private region of memory (
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pRasterizerDesc* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
-
-
-
-
-
-#### - [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
-
-
-#### - hDevice
-
- A handle to the display device (graphics context).
 
 
 ## -returns

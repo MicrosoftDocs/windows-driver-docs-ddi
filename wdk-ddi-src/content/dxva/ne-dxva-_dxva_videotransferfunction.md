@@ -91,34 +91,10 @@ Specifies true 2.0 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 ### -field DXVA_VideoTransFunc_22
 
 
-
-######### 
-
-
-
-###### 
-
-
 ### -field DXVA_VideoTransFunc_22_709
 
 
-
-###### 
-
-
-
-##### 
-
-
 ### -field DXVA_VideoTransFunc_22_240M
-
-
-
-###### 
-
-
-
-##### 
 
 
 ### -field DXVA_VideoTransFunc_22_8bit_sRGB

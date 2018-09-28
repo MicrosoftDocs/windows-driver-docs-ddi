@@ -64,17 +64,7 @@ The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes 
 
 ### -field dwHandle
 
-
-
-######### 
-
-
-
-###### 
-
-
-
-##### 
+A handle to the display.
 
 
 ## -remarks

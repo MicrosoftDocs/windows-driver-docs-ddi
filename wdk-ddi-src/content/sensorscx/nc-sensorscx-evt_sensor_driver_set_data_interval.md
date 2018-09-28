@@ -58,23 +58,15 @@ This callback function sets the data interval for a specified sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
 ### -param DataRateMs
 
+[in] The data interval to set for the <b>Sensor</b>.
 
-
-
-
-
-
-
-#### - pDataRateMs [in]
-
-The data interval to set for the <b>Sensor</b>.
 
 
 ## -returns

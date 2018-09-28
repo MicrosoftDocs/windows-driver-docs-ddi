@@ -65,14 +65,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pData [in, out]
+pData [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544137">D3DDDICB_ALLOCATE</a> structure that describes the allocation.
 

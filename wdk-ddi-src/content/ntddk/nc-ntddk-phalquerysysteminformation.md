@@ -70,11 +70,11 @@ pHalQuerySystemInformation
 
 ## -parameters
 
-### -param InformationClass: 
+### -param InformationClass
 [in] The HalMcaLogInformation to read the current MCA error log. If any of the uncorrected Machine Check errors is found, it is returned in the buffer. For Itanium systems, specify HalCmcLogInformation to read the current corrected CPU error log and HalCpeLogInformation to read the current corrected platform error log.
-### -param BufferSize: 
+### -param BufferSize
 [in] The size, in bytes, of the buffer that the caller supplies.
-### -param Buffer: 
+### -param Buffer
 [out] A pointer to a caller-supplied buffer of type MCA_EXCEPTION that will contain the information returned by this routine. For Intel Itanium processors, the returned information must be compliant, at a minimum, with the V3.0 SAL specification, Error Record Structures, January 2001, Appendix B"". For Intel Pentium Pro processors, the information is as described in the following code example.
 ```
 typedef union _MCI_STATS {
@@ -129,7 +129,7 @@ typedef struct _MCA_EXCEPTION {
 } MCA_EXCEPTION, *PMCA_EXCEPTION;
 ```
 
-### -param ReturnedLength: 
+### -param ReturnedLength
 [out] The number of bytes that are returned in Buffer.
 
 

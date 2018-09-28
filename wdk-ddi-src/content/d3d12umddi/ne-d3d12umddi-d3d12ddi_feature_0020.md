@@ -82,3 +82,11 @@ Supports content protection streaming.
 ### -field D3D12DDI_FEATURE_0033_METACOMMAND
 
 Supports meta-commands.
+
+### -field D3D12DDI_FEATURE_0043_RENDER_PASS
+
+Supports render pass.
+
+### -field D3D12DDI_FEATURE_0054_DOWNLEVEL_SUPPORT 
+
+Supports down level.

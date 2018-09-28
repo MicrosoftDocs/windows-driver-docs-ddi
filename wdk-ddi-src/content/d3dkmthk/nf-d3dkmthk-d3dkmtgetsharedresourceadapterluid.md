@@ -63,12 +63,7 @@ Maps a shared resource to a locally unique identifier (LUID) that identifies the
 
 ### -param Arg1
 
-
-
-
-
-
-#### - pLuid [in, out]
+*pLuid* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/jj128344">D3DKMT_GETSHAREDRESOURCEADAPTERLUID</a> structure that describes a shared resource and the graphics adapter that the resource was created on.
 

@@ -65,7 +65,7 @@ Indicates the format of the video processor input.
 
 ### -field InputColorSpace
 
-Indicates the colorspace of the video processor input.
+Indicates the color space of the video processor input.
 
 
 ### -field OutputFormat
@@ -75,7 +75,7 @@ Indicates the format of the video processor output.
 
 ### -field OutputColorSpace
 
-Indicates the colorspace of the video processor output.
+Indicates the color space of the video processor output.
 
 
 ### -field Supported

@@ -60,40 +60,27 @@ The <i>OpenResource(D3D10)</i> function opens a shared resource.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pOpenResource* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541736">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to open a shared resource.
 
 ### -param Arg2
 
+*hResource* [in]
+
+A handle to the driver's private data for the resource. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/000688fb-6475-4dab-bb65-91c899a592a7">CalcPrivateOpenedResourceSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its resource object.
 
 ### -param Arg3
 
+*hRTResource* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRTResource [in]
-
- A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - hResource [in]
-
- A handle to the driver's private data for the resource. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/000688fb-6475-4dab-bb65-91c899a592a7">CalcPrivateOpenedResourceSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its resource object. 
-
-
-#### - pOpenResource [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541736">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to open a shared resource. 
+A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

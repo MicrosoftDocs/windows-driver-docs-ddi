@@ -80,14 +80,10 @@ This value is reserved for system use.
 
 ### -field MonitorConnect
 
-
-
-##### LinkTargetType
-
 This is the video output technology of the monitor which has been connected.  Internal and Miracast are not allowed so only the following values are allowed:
 
 
-### -field MonitorConnect.LinkTargetType
+#### MonitorConnect.LinkTargetType
 
  
 
@@ -96,23 +92,15 @@ This is the video output technology of the monitor which has been connected.  In
 
 
 
-##### BaseTargetType
+#### BaseTargetType
 
 This is the video output technology of connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.
 
 
 
-##### NewTargetId
+#### NewTargetId
 
 The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
-
-
-### -field TargetConnect.BaseTargetType
-
- 
-
-
-### -field TargetConnect.NewTargetId
 
  
 
@@ -120,8 +108,7 @@ The target id for which the change is being reported.  This target id must have 
 ### -field TargetJoin
 
 
-
-##### BaseTargetType
+#### BaseTargetType
 
 This is the video output technology of the connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.  
 
@@ -129,19 +116,7 @@ This is the video output technology of the connector of the new target.  As with
 <div> </div>
 
 
-##### NewTargetId
+#### NewTargetId
 
 The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
-
-
-### -field TargetJoin.BaseTargetType
-
- 
-
-
-### -field TargetJoin.NewTargetId
-
- 
-
-
 

@@ -67,7 +67,7 @@ The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previo
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547789">D3DKMT_CLOSEADAPTER</a> structure that specifies the adapter to close.
 

@@ -60,40 +60,28 @@ The <b>CreateDepthStencilState</b> function creates a depth stencil state.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pDepthStencilDesc* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541944">D3D10_DDI_DEPTH_STENCIL_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a depth stencil state. 
 
 ### -param Arg2
 
+*hDepthStencilState* [in]
+
+A handle to the driver's private data for the depth stencil state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/dcc02e1e-97e0-4ccd-8329-8219cad5d09a">CalcPrivateDepthStencilStateSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its depth stencil state object.
 
 ### -param Arg3
 
+*hRTDepthStencilState* [in]
 
+A handle to the depth stencil state that the driver should use anytime it calls back into the Direct3D runtime. 
 
-
-
-
-
-
-#### - hDepthStencilState [in]
-
- A handle to the driver's private data for the depth stencil state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/dcc02e1e-97e0-4ccd-8329-8219cad5d09a">CalcPrivateDepthStencilStateSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its depth stencil state object.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRTDepthStencilState [in]
-
- A handle to the depth stencil state that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - pDepthStencilDesc [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541944">D3D10_DDI_DEPTH_STENCIL_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a depth stencil state. 
 
 
 ## -returns

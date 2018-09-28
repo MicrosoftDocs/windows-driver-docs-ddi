@@ -95,6 +95,10 @@ Decode video.
 
 Process video.
 
+### -field D3D12DDI_COMMAND_QUEUE_FLAG_0053_VIDEO_ENCODE
+
+Video encode.
+
 ## -remarks
 
 There are separate queue types for video decode and video processing.  The video decode command queue only supports submitting video decode command lists and the video process command queue only supports submitting video process command lists.  Both video decode and video process share the same DDI table definition, but separate table instances are retrieved from the driver for each type, see [D3D12DDI_TABLE_TYPE](ne-d3d12umddi-d3d12ddi_table_type.md).

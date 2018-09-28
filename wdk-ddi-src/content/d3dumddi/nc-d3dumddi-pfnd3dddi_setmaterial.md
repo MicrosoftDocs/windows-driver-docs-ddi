@@ -60,7 +60,7 @@ The <i>SetMaterial</i> function sets the material properties that devices on the
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +72,9 @@ The <i>SetMaterial</i> function sets the material properties that devices on the
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543319">D3DDDIARG_SETMATERIAL</a> structure that describes the material properties that are used for rendering.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543319">D3DDDIARG_SETMATERIAL</a> structure that describes the material properties that are used for rendering.
 
 
 ## -returns

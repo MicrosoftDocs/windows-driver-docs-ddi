@@ -60,7 +60,7 @@ The <b>CloseAdapter</b> function releases resources for a graphics adapter objec
 
 ### -param hAdapter [in]
 
- A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a> function.
+A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a> function.
 
 
 ## -returns

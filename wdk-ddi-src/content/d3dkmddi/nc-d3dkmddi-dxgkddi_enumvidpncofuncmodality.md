@@ -67,13 +67,6 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
-
-
-
-
-
-#### - pEnumCofuncModalityArg [in]
-
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557583">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure that contains function arguments.
 
 

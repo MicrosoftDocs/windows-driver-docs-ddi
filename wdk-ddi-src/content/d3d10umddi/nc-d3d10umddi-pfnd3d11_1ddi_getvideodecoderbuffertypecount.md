@@ -55,36 +55,25 @@ Queries the number of buffer types that the display miniport driver requires to 
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+*pDecodeDesc* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
 
-#### - pBufferTypeCount [out]
+### -param *
+
+*pBufferTypeCount* [out]
 
 A pointer to a UINT value that specifies the maximum number of buffer types that the driver supports for the specified video decoder operation.
 
 
-#### - pDecodeDesc [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
 
 
 ## -returns

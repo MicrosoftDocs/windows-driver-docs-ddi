@@ -65,7 +65,7 @@ The <b>D3DKMTCreateAllocation</b> function creates allocations of system or vide
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547798">D3DKMT_CREATEALLOCATION</a> structure that contains information for creating allocations.
 

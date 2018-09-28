@@ -68,7 +68,7 @@ The <b>D3DKMTOpenAdapterFromHdc</b> function maps a device context handle (HDC) 
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548121">D3DKMT_OPENADAPTERFROMHDC</a> structure that describes the parameters that are required to perform the mapping.
 

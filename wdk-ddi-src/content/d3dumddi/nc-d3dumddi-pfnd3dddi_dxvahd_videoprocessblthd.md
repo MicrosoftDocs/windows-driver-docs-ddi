@@ -70,14 +70,14 @@ The <i>VideoProcessBltHD</i> function processes video input streams and composes
 
 
 
-#### - hDevice [in]
+*hDevice* [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
 
 
 ## -returns

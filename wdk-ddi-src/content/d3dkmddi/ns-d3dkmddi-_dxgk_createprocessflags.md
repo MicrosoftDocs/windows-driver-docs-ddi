@@ -76,6 +76,10 @@ The virtual machine DXG process created during a call to DxgkDdiCreateProcess. N
 
 The virtual machine worker process created during a call to DxgkDdiCreateProcess. Note that because no rendering or driver resource is created in this process context, the driver might skip allocating certain resources.
 
+### -field SessionIsolatedContainer
+
+The session isolated container.
+
 ### -field Reserved
 
 This member is reserved and should be set to zero.

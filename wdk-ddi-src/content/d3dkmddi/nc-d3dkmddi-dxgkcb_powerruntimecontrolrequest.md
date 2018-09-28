@@ -65,47 +65,41 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 ### -param LPCGUID
 
+*PowerControlCode* [in]
+
+A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
 
 ### -param OPTIONAL
 
-
-
-
-
-
-
-
-### -param SIZE_T
-
-
-#### - BytesReturned [out, optional]
-
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
-
-
-#### - InBuffer [in, optional]
+*InBuffer* [in, optional]
 
 An optional pointer to an input buffer.
 
 
-#### - InBufferSize [in]
+### -param SIZE_T
 
-The size, in bytes, of the buffer that <i>InBuffer</i> points to.
+*InBufferSize* [in]
 
+The size, in bytes, of the buffer that <i>InBuffer (OPTIONAL)</i> points to.
 
-#### - OutBuffer [out, optional]
+### -param OPTIONAL
+
+*OutBuffer* [out, optional]
 
 An optional pointer to an output buffer.
 
+### -param SIZE_T
 
-#### - OutBufferSize [in]
+*OutBufferSize* [in]
 
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
+### -param OPTIONAL
 
-#### - PowerControlCode [in]
+*BytesReturned* [out, optional]
 
-A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
+An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
+
 
 
 ## -returns

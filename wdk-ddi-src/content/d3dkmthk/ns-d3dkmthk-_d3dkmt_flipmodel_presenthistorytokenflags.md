@@ -222,7 +222,6 @@ Supported starting with Windows 8.
 
 ### -field Reserved
 
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
 Supported starting with Windows 8.
 
@@ -234,11 +233,11 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A 32-bit value that identifies the flip present-history operation.
 
 
-#### - ScatterBlt
+### -field ScatterBlt
 
 This member is reserved for system use and should be set to zero.
 
-Setting this member is equivalent to setting the    seventh bit of the 32-bit <b>Value</b> member (0x00000040).
+Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 Supported starting with Windows 8.
 

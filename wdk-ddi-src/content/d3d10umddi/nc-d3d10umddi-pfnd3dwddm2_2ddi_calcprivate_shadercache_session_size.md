@@ -55,22 +55,11 @@ The <i>pfnCalcPrivateShaderCacheSessionSize</i> callback function returns the si
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-
-
-
-
-
-
-#### - hDevice
+*hDevice*
 
 The handle of a device.
-
 
 ## -returns
 

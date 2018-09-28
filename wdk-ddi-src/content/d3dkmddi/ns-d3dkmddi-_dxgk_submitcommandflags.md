@@ -125,7 +125,7 @@ Supported starting with Windows 10.
 ### -field VirtualMachineData
 
  
-
+The virtual machine data.
 
 ### -field Reserved
 

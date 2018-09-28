@@ -47,7 +47,7 @@ Represents data capabilities that are static and queried once per GPU during ini
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index in a LDA chain.
+The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field MaxMemoryBandwidth
 

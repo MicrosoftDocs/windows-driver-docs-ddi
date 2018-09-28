@@ -1,0 +1,62 @@
+---
+UID: NE:ntddk._PROCESS_MITIGATION_POLICY
+title: _PROCESS_MITIGATION_POLICY
+author: windows-driver-content
+description: Represents the different process mitigation policies.
+ms.assetid: a5d6d94a-b03e-45cc-bb3a-9c9a770fa6f4
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: enum
+ms.keywords: _PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY, 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: ntddk.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	ntddk.h
+api_name: 
+-	_PROCESS_MITIGATION_POLICY
+product: Windows
+targetos: Windows
+---
+
+# _PROCESS_MITIGATION_POLICY enumeration
+
+## -description
+Represents the different process mitigation policies. For more information, see [**_PROCESS_MITIGATION_POLICY**](https://docs.microsoft.com/en-us/windows/desktop/api/winnt/ne-winnt-_process_mitigation_policy) enumeration.
+
+
+## -enum-fields
+
+### -field ProcessDEPPolicy 
+### -field ProcessASLRPolicy 
+### -field ProcessDynamicCodePolicy 
+### -field ProcessStrictHandleCheckPolicy 
+### -field ProcessSystemCallDisablePolicy 
+### -field ProcessMitigationOptionsMask 
+### -field ProcessExtensionPointDisablePolicy 
+### -field ProcessControlFlowGuardPolicy 
+### -field ProcessSignaturePolicy 
+### -field ProcessFontDisablePolicy 
+### -field ProcessImageLoadPolicy 
+### -field ProcessSystemCallFilterPolicy 
+### -field ProcessPayloadRestrictionPolicy 
+### -field ProcessChildProcessPolicy 
+### -field ProcessSideChannelIsolationPolicy 
+### -field MaxProcessMitigationPolicy 
+
+## -remarks
+
+## -see-also

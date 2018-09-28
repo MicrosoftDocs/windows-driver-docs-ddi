@@ -60,16 +60,13 @@ req.typenames:
 
 ### -param AdapterObject [in]
 
-
-                    
-                A handle provided by the driver used by the OS to reference the adapter in a call to the driver.
+A handle provided by the driver used by the OS to reference the adapter in a call to the driver.
 
 
 ### -param pInArgs [in]
 
 
-                    
-                Input arguments used by <b>EVT_IDD_CX_ADAPTER_COMMIT_MODES</b>.
+Input arguments used by <b>EVT_IDD_CX_ADAPTER_COMMIT_MODES</b>.
 
 
 ## -returns

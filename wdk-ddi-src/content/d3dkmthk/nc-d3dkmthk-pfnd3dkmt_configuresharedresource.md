@@ -67,7 +67,7 @@ The <b>D3DKMTConfigureSharedResource</b> function configures a shared resource.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547793">D3DKMT_CONFIGURESHAREDRESOURCE</a> structure that specifies parameters to configure the shared resource. 
 
