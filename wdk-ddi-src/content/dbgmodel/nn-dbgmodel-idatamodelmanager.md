@@ -54,15 +54,15 @@ IDataModelManager interits from IUnknown.
 		<td>Description</td>
 	</tr>
     <tr>
-        <td>[QueryInterface]( https://review.docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-queryinterface?branch=rs5)</td>
+        <td>[QueryInterface]( https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-queryinterface?branch=rs5)</td>
         <td> Standard COM method.Retrieves pointers to the supported interfaces on an object.</td>
     </tr>
     <tr>
-        <td>[AddRef]( https://review.docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-addref?branch=rs5)</td>
+        <td>[AddRef]( https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-addref?branch=rs5)</td>
         <td> Standard COM method. </td>
     </tr>
     <tr>
-        <td>[AcquireNamedModel]( https://review.docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager- acquirenamedmodel?branch=rs5)</td>
+        <td>[AcquireNamedModel]( https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager- acquirenamedmodel?branch=rs5)</td>
         <td> This looks up a well known model name and returns the data model registered by that name. Note that if there is no model registered by the supplied name, a stub will be created and returned to the caller. </td>
     </tr>
     <tr>
@@ -195,4 +195,4 @@ STDMETHOD(CreateTypedIntrinsicObjectEx)(_In_opt_ IDebugHostContext* context,
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)
+[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)

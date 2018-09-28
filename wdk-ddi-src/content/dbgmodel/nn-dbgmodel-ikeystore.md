@@ -100,4 +100,4 @@ While a key store can have an arbitrary number (and arbitrary naming) of keys, t
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)
+[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
