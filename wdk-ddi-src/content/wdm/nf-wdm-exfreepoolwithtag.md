@@ -86,6 +86,8 @@ None
 
 Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must have specified a <b>NonPaged</b><i>Xxx</i><i>PoolType</i> when the memory was allocated. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
 
+<i>Tag</i> validity is not checked but is it required for correct debug.
+
 
 
 
