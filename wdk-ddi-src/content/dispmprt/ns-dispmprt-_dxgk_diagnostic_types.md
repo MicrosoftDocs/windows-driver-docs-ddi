@@ -48,6 +48,10 @@ A structure that contains a union of all the defined sets of diagnostic types. T
 
 A [DXGK_DIAGTYPE_NOTIFICATIONS](ns-dispmprt-_dxgk_diagtype_notifications.md) structure for indicating what kind of diagnostics are being described.
 
+### -field Progressions
+
+A [DXGK_DIAGTYPE_PROGRESSIONS](..\dispmprt\ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
+
 ### -field Value
 
 Value of the diagnostic type.
