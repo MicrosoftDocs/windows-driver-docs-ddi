@@ -2,10 +2,10 @@
 UID: NF:acpitabl.PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 title: PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro
 author: windows-driver-content
-description: 
+description: Defines the processor topology node cache type data macro.
 ms.assetid: 55fa6c8e-a32b-4474-b788-faa7ed73a656
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: macro
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 req.header: acpitabl.h
@@ -36,22 +36,19 @@ api_name:
 product:
 -	Windows
 targetos: Windows
-
-
 ---
 
 # PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro
 
-
 ## -description
 
-
+Defines the processor topology node cache type data macro.
 
 ## -parameters
 
 ### -param CacheType
 
-
+The *CacheType* parameter.
 
 ## -remarks
 

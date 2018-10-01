@@ -65,7 +65,7 @@ The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support exis
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 

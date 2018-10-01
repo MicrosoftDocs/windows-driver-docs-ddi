@@ -70,7 +70,7 @@ A pointer to the FCB for which the scavenging should occur.
 
 ### -param SynchronizeWithScavenger
 
-TBD
+A Boolean value that specifies if this routine should synchronize with the scavenger.
 
 
 

@@ -65,52 +65,52 @@ The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <
 
 ### -param SubAuthorityCount
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority0
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority1
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority2
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority3
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority4
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority5
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority6
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority7
 
-TBD
+Reserved.
 
 
 ### -param Sid
 
-TBD
+Reserved.
 
 
 

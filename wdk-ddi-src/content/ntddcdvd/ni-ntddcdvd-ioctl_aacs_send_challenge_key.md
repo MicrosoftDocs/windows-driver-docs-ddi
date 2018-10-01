@@ -80,12 +80,8 @@ None.
 
 ### -in-out-buffer
 
-TBD
-
 
 ### -inout-buffer-length
-
-TBD
 
 
 ### -status-block

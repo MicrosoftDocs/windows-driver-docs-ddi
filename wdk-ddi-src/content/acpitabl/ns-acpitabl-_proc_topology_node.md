@@ -2,10 +2,10 @@
 UID: NS:acpitabl._PROC_TOPOLOGY_NODE
 title: _PROC_TOPOLOGY_NODE
 author: windows-driver-content
-description: 
+description: Defines the processor topology node structure.
 ms.assetid: f26eebde-0e00-4351-9d22-12d37e15af6b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+Defines the processor topology node structure.
 
 ## -struct-fields
 
@@ -48,6 +49,8 @@ targetos: Windows
 ### -field Length
  
 ### -field Reserved
+
+Reserved for future use.
  
 ### -field HeirarchyNode
  

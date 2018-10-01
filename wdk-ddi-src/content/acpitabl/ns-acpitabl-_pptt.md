@@ -2,10 +2,10 @@
 UID: NS:acpitabl._PPTT
 title: _PPTT
 author: windows-driver-content
-description: 
+description: Defines the Processor Properties Topology Table (PPTT) structure.
 ms.assetid: 7d62f635-3e42-4e31-8849-b0452b21caff
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+Defines the Processor Properties Topology Table (PPTT) structure.
 
 ## -struct-fields
 

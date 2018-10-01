@@ -60,17 +60,15 @@ This <b>StorPortWriteRegisterUlong64</b> routine writes a <b>ULONG64</b> value t
 
 ### -param h
 
-<p>Pointer to the register where the data is written to. The register must be a mapped range in memory space</p>
-
+<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/Ff567108(v=VS.85).aspx"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
 
 ### -param r
 
-<p>A <b>ULONG64</b> value to write to the register.</p>
-
+<p>Pointer to the register where the data is written to. The register must be a mapped range in memory space</p>
 
 ### -param v
 
-TBD
+<p>A <b>ULONG64</b> value to write to the register.</p>
 
 
 

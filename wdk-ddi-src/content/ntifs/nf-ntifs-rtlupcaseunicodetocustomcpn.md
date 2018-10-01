@@ -65,27 +65,27 @@ The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <
 
 ### -param CustomCPString
 
-TBD
+Reserved.
 
 
 ### -param MaxBytesInCustomCPString
 
-TBD
+Reserved.
 
 
 ### -param BytesInCustomCPString
 
-TBD
+Reserved.
 
 
 ### -param UnicodeString
 
-TBD
+Reserved.
 
 
 ### -param BytesInUnicodeString
 
-TBD
+Reserved.
 
 
 

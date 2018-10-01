@@ -65,7 +65,7 @@ Reserved for system use.
 
 ### -param CryptoCapabilitiesData
 
-TBD
+Reserved.
 
 
 

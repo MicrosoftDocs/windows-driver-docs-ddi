@@ -41,7 +41,7 @@ tech.root: display
 
 ## -description
 
-Arguments used to add a GPU instruction to signal the paging monitored fence object to the DMA buffer.
+Arguments used by the [DXGKDDI_SIGNALMONITOREDFENCE](nc-d3dkmddi-dxgkddi_signalmonitoredfence.md) callback function to add a GPU instruction to signal the paging monitored fence object to the DMA buffer.
 
 ## -struct-fields
 
@@ -78,14 +78,16 @@ A value that specifies the progress of the rendering operation.
 GPU VA of the monitored fence value to be updated.
 
 ### -field MonitoredFenceValue
- 
+
+Fence value to write from the DMA buffer being built.
+
 ### -field MonitoredFenceCpuVa
 
 Kernel mode CPU VA of the monitored fence value to be updated.
 
 ### -field hHwQueue
  
-Fence value to write from the DMA buffer being built.
+Handle to the hardware queue that the DMA buffer will be submitted to.
 
 ## -remarks
 

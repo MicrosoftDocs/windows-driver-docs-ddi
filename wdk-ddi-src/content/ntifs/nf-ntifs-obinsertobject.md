@@ -65,27 +65,27 @@ The <b>ObInsertObject</b> routine is reserved for system use.
 
 ### -param PassedAccessState
 
-TBD
+Reserved.
 
 
 ### -param DesiredAccess
 
-TBD
+Reserved.
 
 
 ### -param ObjectPointerBias
 
-TBD
+Reserved.
 
 
 ### -param NewObject
 
-TBD
+Reserved.
 
 
 ### -param Handle
 
-TBD
+Reserved.
 
 
 

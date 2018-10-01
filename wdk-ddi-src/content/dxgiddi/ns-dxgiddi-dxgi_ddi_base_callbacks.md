@@ -53,19 +53,6 @@ req.typenames: DXGI_DDI_BASE_CALLBACKS
 The DXGI_DDI_BASE_CALLBACKS structure contains pointers to Microsoft Direct3D 10 runtime callback functions that the user-mode display driver can use.
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_BASE_CALLBACKS {
-  PFNDDXGIDDI_PRESENTCB                    pfnPresentCb;
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN8)
-  PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB pfnPresentMultiplaneOverlayCb;
-#endif
-} DXGI_DDI_BASE_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 
@@ -83,9 +70,15 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh
 
 ### -field pfnPresentMultiplaneOverlay1Cb
 
+A pointer to the PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAY1CB function. Supported starting with WDDM 2.1.
 
 ### -field pfnSubmitPresentBltToHwQueueCb
 
+A pointer to the [PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB](..\dxgiddi\nc-dxgiddi-pfnddxgiddi_submitpresentblttohwqueuecb.md) function. Supported starting with WDDM 2.4.
+
+### -field pfnSubmitPresentToHwQueueCb
+
+A pointer to the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](..\dxgiddi\nc-dxgiddi-pfnddxgiddi_submitpresenttohwqueuecb.md) function. Supported starting with WDDM 2.5.
 
 ## -see-also
 

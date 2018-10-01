@@ -182,18 +182,23 @@ If the primary format is palettized RGB, <b>Color</b> contains the palette index
 
 ### -field DmaBufferGpuVirtualAddress
 
+A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address where the DMA buffer was paged in. If the physical address is zero, the DMA buffer is not correctly paged in.
 
 ### -field NumSrcAllocations
 
+The number of context allocations in the source.
 
 ### -field NumDstAllocations
 
+The number of context allocations in the destination.
 
 ### -field PrivateDriverDataSize
 
+The size of *pPrivateDriverData*.
 
 ### -field pPrivateDriverData
 
+Pointer to a buffer that contains optional private driver data.
 
 ## -remarks
 

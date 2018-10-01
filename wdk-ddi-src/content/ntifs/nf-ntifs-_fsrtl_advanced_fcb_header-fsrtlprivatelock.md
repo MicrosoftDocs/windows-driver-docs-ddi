@@ -65,57 +65,57 @@ The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support exis
 
 ### -param FileObject
 
-TBD
+Reserved.
 
 
 ### -param FileOffset
 
-TBD
+Reserved.
 
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param ProcessId
 
-TBD
+Reserved.
 
 
 ### -param Key
 
-TBD
+Reserved.
 
 
 ### -param FailImmediately
 
-TBD
+Reserved.
 
 
 ### -param ExclusiveLock
 
-TBD
+Reserved.
 
 
 ### -param Iosb
 
-TBD
+Reserved.
 
 
 ### -param Irp
 
-TBD
+Reserved.
 
 
 ### -param Context
 
-TBD
+Reserved.
 
 
 ### -param AlreadySynchronized
 
-TBD
+Reserved.
 
 
 
