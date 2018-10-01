@@ -45,7 +45,8 @@ tech.root: debugger
 
 ## -description
 
-TBD
+Subtraction operator for the location function.
+
 
 ## -parameters
 
@@ -54,6 +55,7 @@ TBD
 
 ## -returns
 This function returns Location.
+
 ## -remarks
 
 ## -see-also

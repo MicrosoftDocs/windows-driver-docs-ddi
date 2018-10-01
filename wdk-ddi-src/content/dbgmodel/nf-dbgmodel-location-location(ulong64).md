@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 035868db-4cee-4c86-a842-33bb8f9cd3eb
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018 
 ms.topic: function
 ms.keywords: Location
 req.header: dbgmodel.h
@@ -45,7 +45,8 @@ tech.root: debugger
 
 ## -description
 
-TBD
+Constructs a location from an offset into the virtual address space of the target.
+
 
 ## -parameters
 
@@ -53,7 +54,16 @@ TBD
 TBD
 
 ## -returns
-This function returns .
+This function does not return a value.
+
 ## -remarks
 
+Defines the location for an object.  This particular variant of Location is the C-COM access struct.
+Note that a location only has meaning in conjunction with a host context.  It is a location within
+a context.  When performing an operation on the location (reading bytes, writing bytes, etc...), 
+a valid host context must be supplied.
+
+
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

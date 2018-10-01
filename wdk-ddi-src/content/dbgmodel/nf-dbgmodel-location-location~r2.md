@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 51c5c136-c904-4883-852b-d4a284443d8a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: Location
 req.header: dbgmodel.h
@@ -45,13 +45,16 @@ tech.root: debugger
 
 ## -description
 
-TBD
+Constructs a location from an offset into the virtual address space of the target.
 
 ## -parameters
-
+None
 
 ## -returns
-This function returns .
+This function does not return a value.
+
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

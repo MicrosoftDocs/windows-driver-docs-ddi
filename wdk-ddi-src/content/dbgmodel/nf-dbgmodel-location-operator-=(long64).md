@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4f8fc5c4-580b-410d-bfed-5ecea0f05089
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator-=
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ tech.root: debugger
 
 ## -description
 
-TBD
+The subtraction assignment operator for the location function.
 
 ## -parameters
 
@@ -56,3 +56,6 @@ This function returns Location &.
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)
+

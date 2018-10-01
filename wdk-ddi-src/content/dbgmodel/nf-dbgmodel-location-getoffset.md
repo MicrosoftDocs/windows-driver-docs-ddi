@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 27a75e72-a15f-4c7c-a995-4f68b6980c2b
 ms.author: windowsdriverdev
-ms.date: 09/20/2018 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: GetOffset
 req.header: dbgmodel.h
@@ -55,3 +55,4 @@ This function returns ULONG64.
 ## -remarks
 
 ## -see-also
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

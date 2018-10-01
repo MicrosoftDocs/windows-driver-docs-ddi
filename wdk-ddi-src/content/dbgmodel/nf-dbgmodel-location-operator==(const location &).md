@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 25221b6a-208e-4f9e-a41b-c2a1c4405977
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator==
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ tech.root: debugger
 
 ## -description
 
-TBD
+Equivalence operator for the location function.
 
 ## -parameters
 
@@ -56,3 +56,5 @@ This function returns bool.
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

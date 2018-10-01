@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 9ab3c521-e5c9-48ad-977e-d95954f5064b
 ms.author: windowsdriverdev
-ms.date: 07/16/2018
+ms.date: 10/01/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,18 +48,19 @@ Note that a location only has meaning in conjunction with a host context.  It is
 
 ### -field HostDefined
  
+ The HostDefined field has two states that are "Non-Opaque" at the API layer.
+
+      0: Indicates that the offset is a pointer into virtual address space of the target.
+
+      Non-Zero: The defined value is proprietary to the host.  Clients can propagate and change offset.  They cannot legally change the value. 
+      This can be determined by the IsVirtualAddress() method if this structure is built from C++ code.
+
 ### -field Offset
- 
+
+TBD
+
 
 ## -remarks
-
-The HostDefined field has two states that are "Non-Opaque" at the API layer.
- 
-     0: Indicates that the offset is a pointer into virtual address space of the target.
-
-     Non-Zero: The defined value is proprietary to the host.  Clients can propagate and change offset.  They cannot legally change the value.
- 
-This can be determined by the IsVirtualAddress() method if this structure is built from C++ code.
 
 
 ## -see-also
