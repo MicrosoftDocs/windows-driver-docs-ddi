@@ -2,7 +2,7 @@
 UID: NE:acpitabl._IVHD_ENTRY_TYPE
 title: _IVHD_ENTRY_TYPE
 author: windows-driver-content
-description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry type constants.
+description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
 ms.author: windowsdriverdev
 ms.date: 10/1/2018
