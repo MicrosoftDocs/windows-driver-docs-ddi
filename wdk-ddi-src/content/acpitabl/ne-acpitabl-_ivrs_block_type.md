@@ -2,10 +2,10 @@
 UID: NE:acpitabl._IVRS_BLOCK_TYPE
 title: _IVRS_BLOCK_TYPE
 author: windows-driver-content
-description: 
+description: Enumerates the I/O Virtualization Reporting Structure (IVRS) block types.
 ms.assetid: 9b75046e-01a5-40d1-ab5c-3dcc5a6a7b3a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: enum
 ms.keywords: _IVRS_BLOCK_TYPE, IVRS_BLOCK_TYPE, 
 ms.prod: windows-hardware
@@ -37,16 +37,33 @@ targetos: Windows
 
 ## -description
 
-
+Enumerates the I/O Virtualization Reporting Structure (IVRS) block types.
 
 ## -enum-fields
 
 ### -field IommuDefinitionBlockTypeIvhd 
+
+Value is 0x10.
+
 ### -field IommuDefinitionBlockType11Ivhd 
+
+Value is 0x11.
+
 ### -field IommuDefinitionBlockTypeIvmdAll 
+
+Value is 0x20.
+
 ### -field IommuDefinitionBlockTypeIvmdSpecified 
+
+Value is 0x21.
+
 ### -field IommuDefinitionBlockTypeIvmdRange 
+
+Value is 0x22.
+
 ### -field IommuDefinitionBlockType40Ivhd 
+
+Value is 0x40.
 
 ## -remarks
 

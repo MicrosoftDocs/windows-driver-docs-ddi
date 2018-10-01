@@ -2,10 +2,10 @@
 UID: NS:acpitabl._IVHD_ACPI_DEVICE_ENTRY
 title: _IVHD_ACPI_DEVICE_ENTRY
 author: windows-driver-content
-description: 
+description: Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry structure. 
 ms.assetid: a21ba0d1-de8c-457a-86b3-2f85ba5abef1
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry structure.
 
 ## -struct-fields
 

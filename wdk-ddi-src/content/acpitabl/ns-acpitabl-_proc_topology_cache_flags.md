@@ -2,10 +2,10 @@
 UID: NS:acpitabl._PROC_TOPOLOGY_CACHE_FLAGS
 title: _PROC_TOPOLOGY_CACHE_FLAGS
 author: windows-driver-content
-description: 
+description: Defines the processor topology cache flags structure.
 ms.assetid: 8ecf42fd-1d73-43b3-b642-16bbd5367809
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+Defines the processor topology cache flags structure.
 
 ## -struct-fields
 
@@ -58,6 +59,8 @@ targetos: Windows
 ### -field LineSizeValid
  
 ### -field Reserved
+
+Reserved for future use.
  
 ### -field AsULONG
  

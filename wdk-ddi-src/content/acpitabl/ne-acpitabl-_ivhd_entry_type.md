@@ -2,10 +2,10 @@
 UID: NE:acpitabl._IVHD_ENTRY_TYPE
 title: _IVHD_ENTRY_TYPE
 author: windows-driver-content
-description: 
+description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry type constants.
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: enum
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE, 
 ms.prod: windows-hardware
@@ -37,22 +37,57 @@ targetos: Windows
 
 ## -description
 
-
+Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
 
 ## -enum-fields
 
 ### -field IvhdEntryTypePad4 
+
+Value is 0.
+
 ### -field IvhdEntryTypeAll 
+
+Value is 1.
+
 ### -field IvhdEntryTypeSelect 
+
+Value is 2.
+
 ### -field IvhdEntryTypeStartRange 
+
+Value is 3.
+
 ### -field IvhdEntryTypeEndRange 
+
+Value is 4.
+
 ### -field IvhdEntryTypePad8 
+
+Value is 64.
+
 ### -field IvhdEntryTypeAliasSelect 
+
+Value is 66.
+
 ### -field IvhdEntryTypeAliasStartRange 
+
+Value is 67.
+
 ### -field IvhdEntryTypeExtendedSelect 
+
+Value is 70.
+
 ### -field IvhdEntryTypeExtendedStartRange 
+
+Value is 71.
+
 ### -field IvhdEntryTypeSpecialDevice 
+
+Value is 72.
+
 ### -field IvhdEntryTypeAcpiDevice 
+
+Value is 0xF0.
 
 ## -remarks
 

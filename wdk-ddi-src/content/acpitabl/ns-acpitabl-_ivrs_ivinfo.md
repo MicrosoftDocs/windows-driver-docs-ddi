@@ -2,10 +2,10 @@
 UID: NS:acpitabl._IVRS_IVINFO
 title: _IVRS_IVINFO
 author: windows-driver-content
-description: 
+description: Defines the I/O Virtualization Reporting Structure (IVRS) I/O virtualization structure.
 ms.assetid: 5d3b9617-d979-4a7c-80e7-7eaec3a6d713
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/1/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+Defines the I/O Virtualization Reporting Structure (IVRS) I/O virtualization structure.
 
 ## -struct-fields
 
