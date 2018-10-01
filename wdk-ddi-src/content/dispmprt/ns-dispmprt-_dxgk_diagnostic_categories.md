@@ -46,7 +46,11 @@ Structure with a bit-field for each defined category of diagnostic.
 
 ### -field Notifications
 
-An OS defined category which has diagnostic types defined in the [DXGK_DIAGTYPE_NOTIFCATIONS](ns-dispmprt-_dxgk_diagtype_notifications.md) structure.
+An OS defined category which has diagnostic types defined in the [DXGK_DIAGTYPE_NOTIFICATIONS](ns-dispmprt-_dxgk_diagtype_notifications.md) structure.
+
+### -field Progressions
+
+A [DXGK_DIAGTYPE_PROGRESSIONS](..\dispmprt\ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
 
 ### -field Reserved
 

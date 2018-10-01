@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b97fb7f8-ccd2-4450-b1fb-a3ea218889ec
 ms.author: windowsdriverdev
-ms.date: 09/20/2018
+ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::GetLanguage, GetLanguage, IDebugHostSymbol2.GetLanguage, IDebugHostSymbol2::GetLanguage, IDebugHostSymbol2.GetLanguage
 req.header: dbgmodel.h
@@ -51,7 +51,7 @@ It is also possible that the host does not understand the language or there is n
 ## -parameters
 
 ### -param pKind
-
+If it is possible to determine from the symbolic information, the language in which the given symbol was defined is returned here.  This may be indeterminate for many symbols.
 
 ## -returns
 This method returns HRESULT which indicate success or failure.

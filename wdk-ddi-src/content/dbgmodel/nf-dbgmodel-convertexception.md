@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: cd951fc0-c5a0-4e62-ad33-cfc6a834d849
 ms.author: windowsdriverdev
-ms.date: 08/08/2018
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: ConvertException
 req.header: dbgmodel.h
@@ -52,10 +52,8 @@ C++ Specific API Helper.
 ## -parameters
 
 ### -param fn
-TBD
+An HRESULT returning functor.  If the functor throws an exception, the exception will be caught and converted to an HRESULT.
 
-### -param 
-TBD
 
 ## -returns
 This function returns HRESULT.

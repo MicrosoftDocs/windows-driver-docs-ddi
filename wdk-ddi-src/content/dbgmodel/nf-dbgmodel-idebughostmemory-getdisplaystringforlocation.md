@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c9b9c5d6-4c5f-49ea-949e-846ec4a8a874
 ms.author: windowsdriverdev
-ms.date: 09/18/2018
+ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory::GetDisplayStringForLocation, GetDisplayStringForLocation, IDebugHostMemory.GetDisplayStringForLocation, IDebugHostMemory::GetDisplayStringForLocation, IDebugHostMemory.GetDisplayStringForLocation
 req.header: dbgmodel.h
@@ -52,12 +52,16 @@ If the "verbose" argument is true, the string conversion may be "more verbose"
 ## -parameters
 
 ### -param context
+The host context in which the location is valid.  This represents, for example, the address space in which the location exists.
 
 ### -param location
+The location to convert to a displayable string.
 
 ### -param verbose
+An indication of whether the conversion should be verbose or not.  A verbose conversion will contain more information than a non-verbose one.  The default is for a non-verbose conversion.
 
 ### -param locationName
+A displayable string for the location will be returned here.  This string is allocated by SysAllocString and the caller is responsible for freeing the allocation with a call to the SysFreeString function.
 
 
 ## -returns

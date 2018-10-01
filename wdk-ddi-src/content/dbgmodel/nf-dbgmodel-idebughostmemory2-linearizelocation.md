@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2c835fe9-e18e-4847-a377-70cf5058f98c
 ms.author: windowsdriverdev
-ms.date: 09/18/2018
+ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::LinearizeLocation, LinearizeLocation, IDebugHostMemory2.LinearizeLocation, IDebugHostMemory2::LinearizeLocation, IDebugHostMemory2.LinearizeLocation
 req.header: dbgmodel.h
@@ -50,10 +50,14 @@ Takes a location which may represent something other than a virtual memory addre
 ## -parameters
 
 ### -param context
+The host context in which the location is valid.  This represents, for example, the address space in which the location exists.
 
 ### -param location
+The location to linearize into a virtual memory address.
 
 ### -param pLinearizedLocation
+A new location representing a virtual memory address will be returned here.  If the location cannot be linearized into a virtual memory address (e.g.: the location represents an enregistered value), this method will fail.
+
 
 
 ## -returns

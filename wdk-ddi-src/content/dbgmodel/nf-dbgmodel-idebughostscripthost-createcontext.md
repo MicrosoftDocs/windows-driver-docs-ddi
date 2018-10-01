@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e7dbce17-bc44-4707-805e-2607263c8ce4
 ms.author: windowsdriverdev
-ms.date: 09/20/2018  
+ms.date: 09/28/2018  
 ms.topic: method
 ms.keywords: IDebugHostScriptHost::CreateContext, CreateContext, IDebugHostScriptHost.CreateContext, IDebugHostScriptHost::CreateContext, IDebugHostScriptHost.CreateContext
 req.header: dbgmodel.h
@@ -50,6 +50,7 @@ The CreateContext method is called by a script provider to create a new context 
 ## -parameters
 
 ### -param script
+The script for which to create a new context.
 
 ### -param scriptContext
 The newly created script host context is returned here.

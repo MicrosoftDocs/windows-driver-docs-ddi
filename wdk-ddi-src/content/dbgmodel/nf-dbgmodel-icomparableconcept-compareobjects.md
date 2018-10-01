@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c9736b52-f159-4468-af0a-94b409c89991
 ms.author: windowsdriverdev
-ms.date: 09/11/2018
+ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IComparableConcept::CompareObjects, CompareObjects, IComparableConcept.CompareObjects, IComparableConcept::CompareObjects, IComparableConcept.CompareObjects
 req.header: dbgmodel.h
@@ -56,13 +56,13 @@ tech.root: debugger
 ## -parameters
 
 ### -param contextObject
-TBD
+The object which is being compared.  This should be the same object from which the comparable concept was acquired.
 
 ### -param otherObject
-TBD
+The object to compare to.
 
 ### -param comparisonResult
-TBD
+The result of the comparison will be returned here.  If the returned value is less than 0, contextObject is less than otherObject.  If the returned value is zero, they are equal.  If the returned value is greater than zero, contextObject is greater than otherObject.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.
