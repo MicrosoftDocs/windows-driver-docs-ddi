@@ -35,8 +35,6 @@ api_name:
 -	IModelObject.EnumerateKeyReferences
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

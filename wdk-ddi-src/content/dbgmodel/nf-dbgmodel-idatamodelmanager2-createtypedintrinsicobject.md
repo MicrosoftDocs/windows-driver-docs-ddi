@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager2.CreateTypedIntrinsicObject
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

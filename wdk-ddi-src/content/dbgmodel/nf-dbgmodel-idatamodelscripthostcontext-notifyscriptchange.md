@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptHostContext.NotifyScriptChange
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

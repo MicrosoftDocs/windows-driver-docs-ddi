@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebugVariableSetEnumerator.Reset
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

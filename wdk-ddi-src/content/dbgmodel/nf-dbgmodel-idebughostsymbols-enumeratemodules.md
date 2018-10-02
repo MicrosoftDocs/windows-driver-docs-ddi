@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbols.EnumerateModules
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

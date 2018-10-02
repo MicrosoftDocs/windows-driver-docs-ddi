@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptManager.EnumerateScriptProviders
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IModelMethod.Call
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

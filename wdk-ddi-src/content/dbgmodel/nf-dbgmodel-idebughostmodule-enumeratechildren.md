@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostModule.EnumerateChildren
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

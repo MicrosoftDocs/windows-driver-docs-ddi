@@ -35,8 +35,6 @@ api_name:
 -	IDynamicConceptProviderConcept.NotifyParent
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

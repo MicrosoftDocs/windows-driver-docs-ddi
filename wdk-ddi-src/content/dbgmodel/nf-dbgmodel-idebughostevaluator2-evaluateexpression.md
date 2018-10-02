@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostEvaluator2.EvaluateExpression
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

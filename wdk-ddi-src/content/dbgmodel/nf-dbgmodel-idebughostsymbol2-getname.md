@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbol2.GetName
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

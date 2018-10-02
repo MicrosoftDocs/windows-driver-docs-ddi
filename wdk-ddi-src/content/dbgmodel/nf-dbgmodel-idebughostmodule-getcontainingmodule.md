@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostModule.GetContainingModule
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	TypeSearchInfo
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,15 +43,18 @@ tech.root: debugger
 
 ## -description
 
-TBD
+The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 
 ## -parameters
 
 ### -param searchType
-TBD
+Defines the type being searched for.
 
 ## -returns
-This function returns .
+This function is a constructor and does not return a value.
+
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

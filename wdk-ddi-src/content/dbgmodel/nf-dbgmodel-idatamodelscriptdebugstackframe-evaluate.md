@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebugStackFrame.Evaluate
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

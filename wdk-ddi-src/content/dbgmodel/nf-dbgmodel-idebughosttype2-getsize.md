@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType2.GetSize
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

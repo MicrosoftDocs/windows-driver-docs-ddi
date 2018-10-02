@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScript.Rename
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

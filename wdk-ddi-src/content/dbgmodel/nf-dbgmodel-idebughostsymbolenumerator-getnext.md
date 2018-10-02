@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbolEnumerator.GetNext
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

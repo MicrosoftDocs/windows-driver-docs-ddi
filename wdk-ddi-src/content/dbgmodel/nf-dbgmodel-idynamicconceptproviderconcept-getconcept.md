@@ -35,8 +35,6 @@ api_name:
 -	IDynamicConceptProviderConcept.GetConcept
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

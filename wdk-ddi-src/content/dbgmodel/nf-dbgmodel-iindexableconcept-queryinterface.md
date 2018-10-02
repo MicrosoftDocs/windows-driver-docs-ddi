@@ -35,8 +35,6 @@ api_name:
 -	IIndexableConcept.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

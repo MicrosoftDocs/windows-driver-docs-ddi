@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbols.FindModuleByLocation
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

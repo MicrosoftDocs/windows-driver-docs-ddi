@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager2.CreateErrorObject
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

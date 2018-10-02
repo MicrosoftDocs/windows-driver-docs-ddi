@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptTemplate.GetDescription
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

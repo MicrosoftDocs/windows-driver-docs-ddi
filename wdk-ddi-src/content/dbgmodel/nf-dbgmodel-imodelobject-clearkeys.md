@@ -35,8 +35,6 @@ api_name:
 -	IModelObject.ClearKeys
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

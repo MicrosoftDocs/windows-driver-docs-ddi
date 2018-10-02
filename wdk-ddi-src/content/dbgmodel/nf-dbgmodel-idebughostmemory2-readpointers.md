@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostMemory2.ReadPointers
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

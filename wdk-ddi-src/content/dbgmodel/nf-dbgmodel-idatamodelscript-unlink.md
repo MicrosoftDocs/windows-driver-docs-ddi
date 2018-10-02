@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScript.Unlink
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

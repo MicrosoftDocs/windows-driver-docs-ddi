@@ -35,8 +35,6 @@ api_name:
 -	SymbolSearchInfo
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,15 +43,20 @@ tech.root: debugger
 
 ## -description
 
-TBD
+The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
+
+A given kind of symbol (as indicated by the SymbolKind enumeration) searched may have its own derived type.
 
 ## -parameters
 
 ### -param derivedSize
-TBD
+The derived size.
 
 ## -returns
-This function returns .
+This function is a constructor and does not return a value.
+
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

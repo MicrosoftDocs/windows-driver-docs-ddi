@@ -35,8 +35,6 @@ api_name:
 -	IKeyStore.SetKeyValue
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

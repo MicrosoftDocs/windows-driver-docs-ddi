@@ -35,8 +35,6 @@ api_name:
 -	IModelObject.GetIntrinsicValueAs
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

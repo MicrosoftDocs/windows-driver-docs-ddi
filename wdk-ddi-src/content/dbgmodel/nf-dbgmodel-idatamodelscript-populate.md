@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScript.Populate
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

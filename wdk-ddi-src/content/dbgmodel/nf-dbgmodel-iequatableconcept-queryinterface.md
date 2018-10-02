@@ -35,8 +35,6 @@ api_name:
 -	IEquatableConcept.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDebugHost.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType.GetArrayDimensionality
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

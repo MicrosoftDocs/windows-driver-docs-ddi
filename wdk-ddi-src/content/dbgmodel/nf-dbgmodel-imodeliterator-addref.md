@@ -35,8 +35,6 @@ api_name:
 -	IModelIterator.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

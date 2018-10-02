@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebugClient.NotifyDebugEvent
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

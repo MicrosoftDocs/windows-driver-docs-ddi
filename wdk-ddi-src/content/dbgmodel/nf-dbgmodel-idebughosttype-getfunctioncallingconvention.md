@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType.GetFunctionCallingConvention
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

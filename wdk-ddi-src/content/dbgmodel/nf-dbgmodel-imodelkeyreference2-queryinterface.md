@@ -35,8 +35,6 @@ api_name:
 -	IModelKeyReference2.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

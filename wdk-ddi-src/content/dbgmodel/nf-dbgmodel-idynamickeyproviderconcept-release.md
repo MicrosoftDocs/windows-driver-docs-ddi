@@ -35,8 +35,6 @@ api_name:
 -	IDynamicKeyProviderConcept.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

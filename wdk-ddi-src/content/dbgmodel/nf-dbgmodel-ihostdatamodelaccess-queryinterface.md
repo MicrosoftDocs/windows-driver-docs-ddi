@@ -35,8 +35,6 @@ api_name:
 -	IHostDataModelAccess.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

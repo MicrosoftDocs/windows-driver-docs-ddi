@@ -35,8 +35,6 @@ api_name:
 -	IModelObject.EnumerateRawReferences
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

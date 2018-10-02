@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScript.InvokeMain
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

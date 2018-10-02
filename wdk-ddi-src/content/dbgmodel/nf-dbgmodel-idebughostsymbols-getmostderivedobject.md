@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbols.GetMostDerivedObject
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

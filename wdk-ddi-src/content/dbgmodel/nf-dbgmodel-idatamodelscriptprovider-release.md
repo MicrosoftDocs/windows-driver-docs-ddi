@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptProvider.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
