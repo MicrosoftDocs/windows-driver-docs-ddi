@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager.AcquireNamedModel
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

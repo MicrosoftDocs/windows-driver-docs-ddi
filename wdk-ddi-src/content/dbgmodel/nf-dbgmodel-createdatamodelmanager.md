@@ -35,8 +35,6 @@ api_name:
 -	CreateDataModelManager
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IComparableConcept.CompareObjects
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

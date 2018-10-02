@@ -35,8 +35,6 @@ api_name:
 -	IDataModelConcept.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

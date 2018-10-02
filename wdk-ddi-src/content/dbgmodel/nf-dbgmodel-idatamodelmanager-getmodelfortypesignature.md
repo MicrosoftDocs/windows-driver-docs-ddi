@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager.GetModelForTypeSignature
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

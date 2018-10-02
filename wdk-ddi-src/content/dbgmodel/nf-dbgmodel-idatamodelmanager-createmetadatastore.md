@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager.CreateMetadataStore
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

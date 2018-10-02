@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager.RegisterNamedModel
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
