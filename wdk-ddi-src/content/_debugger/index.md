@@ -3,11 +3,12 @@ UID: TP:debugger
 author: windows-driver-content
 ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
 ms.author: windowsdriverdev
-ms.date: 08/09/18
+ms.date: 10/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: debugger
 product:
 -	Windows
 ---
@@ -16,18 +17,17 @@ product:
 
 ## -description
 
-Overview of the Debugger technology.
-
-To develop Debugger, you need these headers:
+To develop Debugger apps, you can work with these headers:
 
  * [dbgeng.h](..\dbgeng\index.md)
  * [dbghelp.h](..\dbghelp\index.md)
+ * [dbgmodel.h](..\dbgmodel\index.md)
  * [engextcpp.hpp](..\engextcpp\index.md)
  * [extsfns.h](..\extsfns\index.md)
  * [ksdebug.h](..\ksdebug\index.md)
  * [wdbgexts.h](..\wdbgexts\index.md)
 
-For the programming guide, see [Debugger](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger).
+For the programming guide information, see [Debugging Resources](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-resources).
 
 
 ## Callback functions
@@ -81,8 +81,7 @@ For the programming guide, see [Debugger](https://docs.microsoft.com/en-us/windo
 ## Methods
 
 | Title   | Description   |
-| ---- |:---- |
-
+|---------|---------------|
 | [IDebugAdvanced2::FindSourceFileAndToken](..\dbgeng\nf-dbgeng-idebugadvanced2-findsourcefileandtoken.md) | The FindSourceFileAndToken method returns the filename of a source file on the source path or return the value of a variable associated with a file token. |
 | [IDebugAdvanced2::GetSourceFileInformation](..\dbgeng\nf-dbgeng-idebugadvanced2-getsourcefileinformation.md) | The GetSourceFileInformation method returns specified information about a source file. |
 | [IDebugAdvanced2::GetSymbolInformation](..\dbgeng\nf-dbgeng-idebugadvanced2-getsymbolinformation.md) | The GetSymbolInformation method returns specified information about a symbol. |
