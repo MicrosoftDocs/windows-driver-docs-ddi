@@ -274,6 +274,25 @@ This flag is a page protection modifier, valid only when used with one of the pa
 
 <b>ZwAllocateVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following:
 
+**STATUS_ACCESS_DENIED**
+
+**STATUS_ALREADY_COMMITTED** 
+
+**STATUS_COMMITMENT_LIMIT**
+
+**STATUS_CONFLICTING_ADDRESSES**
+
+**STATUS_INSUFFICIENT_RESOURCES**
+
+**STATUS_INVALID_HANDLE** 
+
+**STATUS_INVALID_PAGE_PROTECTION**
+
+**STATUS_NO_MEMORY**
+
+**STATUS_OBJECT_TYPE_MISMATCH**
+
+**STATUS_PROCESS_IS_TERMINATING**
 
 
 
