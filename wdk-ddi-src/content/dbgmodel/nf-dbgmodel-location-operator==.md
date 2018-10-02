@@ -35,8 +35,6 @@ api_name:
 -	operator==
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -44,7 +42,6 @@ tech.root: debugger
 
 
 ## -description
-
 Equivalence operator for the location function.
 
 ## -parameters

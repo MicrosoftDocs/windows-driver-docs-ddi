@@ -48,7 +48,7 @@ tech.root: debugger
 Indicates whether the location refers to a virtual address.
 
 ## -parameters
- None
+None
 
 ## -returns
 This function returns bool.

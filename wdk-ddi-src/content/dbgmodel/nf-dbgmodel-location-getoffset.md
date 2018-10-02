@@ -44,14 +44,14 @@ tech.root: debugger
 
 
 ## -description
-
-TBD
+Returns the offset of the location.
 
 ## -parameters
-
+None 
 
 ## -returns
 This function returns ULONG64.
+
 ## -remarks
 
 ## -see-also

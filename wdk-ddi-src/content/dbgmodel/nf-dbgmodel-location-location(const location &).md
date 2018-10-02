@@ -42,7 +42,6 @@ tech.root: debugger
 
 # Location function
 
-
 ## -description
 
 Constructs a location from an offset into the virtual address space of the target.
@@ -53,7 +52,8 @@ Constructs a location from an offset into the virtual address space of the targe
 TBD
 
 ## -returns
-This function returns .
+This function returns TBD.
+
 ## -remarks
 
 ## -see-also

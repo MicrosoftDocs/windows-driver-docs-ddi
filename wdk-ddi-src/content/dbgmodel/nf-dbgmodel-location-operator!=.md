@@ -42,9 +42,7 @@ tech.root: debugger
 
 # operator!= function
 
-
 ## -description
-
 Not equal to comparison operator for the location function.
 
 ## -parameters
@@ -54,6 +52,7 @@ TBD
 
 ## -returns
 This function returns bool.
+
 ## -remarks
 
 ## -see-also

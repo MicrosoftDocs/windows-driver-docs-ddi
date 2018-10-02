@@ -54,7 +54,7 @@ Constructs a location from an offset into the virtual address space of the targe
 TBD
 
 ## -returns
-This function does not return a value.
+This function returns TBD.
 
 ## -remarks
 

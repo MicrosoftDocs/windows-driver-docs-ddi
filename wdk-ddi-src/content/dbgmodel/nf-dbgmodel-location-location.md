@@ -50,7 +50,7 @@ Constructs a location from an offset into the virtual address space of the targe
 Default constructs an equivalent nullptr.
 
 ## -parameters
- None
+None
 
 
 ## -returns

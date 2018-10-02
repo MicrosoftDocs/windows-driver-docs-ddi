@@ -48,12 +48,12 @@ Note that a location only has meaning in conjunction with a host context.  It is
 
 ### -field HostDefined
  
- The HostDefined field has two states that are "Non-Opaque" at the API layer.
+The HostDefined field has two states that are "Non-Opaque" at the API layer.
 
-      0: Indicates that the offset is a pointer into virtual address space of the target.
+0: Indicates that the offset is a pointer into virtual address space of the target.
 
-      Non-Zero: The defined value is proprietary to the host.  Clients can propagate and change offset.  They cannot legally change the value. 
-      This can be determined by the IsVirtualAddress() method if this structure is built from C++ code.
+Non-Zero: The defined value is proprietary to the host.  Clients can propagate and change offset.  They cannot legally change the value. 
+This can be determined by the IsVirtualAddress() method if this structure is built from C++ code.
 
 ### -field Offset
 
