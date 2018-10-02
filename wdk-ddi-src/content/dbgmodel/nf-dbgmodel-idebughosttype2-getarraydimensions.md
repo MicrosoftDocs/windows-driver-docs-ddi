@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType2.GetArrayDimensions
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

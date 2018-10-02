@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebugBreakpoint.IsEnabled
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

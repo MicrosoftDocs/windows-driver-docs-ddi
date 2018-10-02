@@ -35,8 +35,6 @@ api_name:
 -	IIndexableConcept.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

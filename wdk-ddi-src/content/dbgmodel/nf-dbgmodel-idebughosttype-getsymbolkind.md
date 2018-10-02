@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType.GetSymbolKind
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

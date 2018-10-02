@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostExtensibility.DestroyFunctionAlias
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostPublic.GetType
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

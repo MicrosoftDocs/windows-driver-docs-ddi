@@ -35,8 +35,6 @@ api_name:
 -	IModelKeyReference2.SetKeyValue
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

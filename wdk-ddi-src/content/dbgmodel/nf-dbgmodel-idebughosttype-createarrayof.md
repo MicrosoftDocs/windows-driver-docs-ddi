@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType.CreateArrayOf
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbol.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

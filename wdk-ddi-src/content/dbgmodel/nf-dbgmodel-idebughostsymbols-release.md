@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbols.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

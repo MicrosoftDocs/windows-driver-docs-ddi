@@ -35,8 +35,6 @@ api_name:
 -	IModelObject.GetConcept
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

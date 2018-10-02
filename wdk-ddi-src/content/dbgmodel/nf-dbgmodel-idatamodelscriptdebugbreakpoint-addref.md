@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebugBreakpoint.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

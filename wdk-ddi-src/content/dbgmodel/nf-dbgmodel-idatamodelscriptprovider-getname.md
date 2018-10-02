@@ -35,9 +35,6 @@ api_name:
 -	IDataModelScriptProvider.GetName
 product: Windows
 targetos: Windows
-
-
-tech.root: debugger
 ---
 
 # IDataModelScriptProvider::GetName

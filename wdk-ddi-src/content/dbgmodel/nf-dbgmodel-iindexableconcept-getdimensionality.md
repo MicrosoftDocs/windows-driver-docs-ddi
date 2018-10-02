@@ -35,8 +35,6 @@ api_name:
 -	IIndexableConcept.GetDimensionality
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

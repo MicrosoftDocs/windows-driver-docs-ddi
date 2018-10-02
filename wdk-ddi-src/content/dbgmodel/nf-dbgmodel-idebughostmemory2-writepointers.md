@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostMemory2.WritePointers
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

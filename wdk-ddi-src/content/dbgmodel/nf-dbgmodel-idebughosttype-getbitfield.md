@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType.GetBitField
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

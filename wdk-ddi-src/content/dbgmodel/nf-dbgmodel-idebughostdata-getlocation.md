@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostData.GetLocation
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptManager.UnregisterScriptProvider
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

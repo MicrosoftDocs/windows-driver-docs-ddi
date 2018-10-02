@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebugBreakpointEnumerator.Reset
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

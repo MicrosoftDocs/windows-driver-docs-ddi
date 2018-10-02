@@ -35,8 +35,6 @@ api_name:
 -	IModelPropertyAccessor.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

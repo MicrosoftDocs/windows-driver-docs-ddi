@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostModule2.GetBaseLocation
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

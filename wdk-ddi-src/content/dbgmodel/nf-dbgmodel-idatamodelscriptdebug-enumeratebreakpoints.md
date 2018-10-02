@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebug.EnumerateBreakpoints
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

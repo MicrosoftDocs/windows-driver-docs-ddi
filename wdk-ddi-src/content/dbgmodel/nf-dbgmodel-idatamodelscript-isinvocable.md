@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScript.IsInvocable
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

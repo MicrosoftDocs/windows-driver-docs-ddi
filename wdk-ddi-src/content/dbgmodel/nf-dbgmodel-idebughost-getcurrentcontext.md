@@ -35,8 +35,6 @@ api_name:
 -	IDebugHost.GetCurrentContext
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

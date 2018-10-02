@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptManager.FindProviderForScriptType
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

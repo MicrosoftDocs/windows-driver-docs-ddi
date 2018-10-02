@@ -35,8 +35,6 @@ api_name:
 -	IHostDataModelAccess.GetDataModel
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType2.GetPointerKind
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

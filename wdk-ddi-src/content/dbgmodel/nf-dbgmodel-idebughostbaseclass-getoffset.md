@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostBaseClass.GetOffset
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbol.CompareAgainst
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

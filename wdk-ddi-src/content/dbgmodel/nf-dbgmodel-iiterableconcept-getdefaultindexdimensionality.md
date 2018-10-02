@@ -35,8 +35,6 @@ api_name:
 -	IIterableConcept.GetDefaultIndexDimensionality
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

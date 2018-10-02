@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostModuleSignature.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IModelObject.GetKeyValue
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

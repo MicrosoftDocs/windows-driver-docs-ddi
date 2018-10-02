@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 91758763-6193-4287-8f91-445953e817a9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/02/2018
 ms.topic: function
 ms.keywords: TypeSearchInfo
 req.header: dbgmodel.h
@@ -35,8 +35,6 @@ api_name:
 -	TypeSearchInfo
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,13 +43,17 @@ tech.root: debugger
 
 ## -description
 
-TBD
+The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 
 ## -parameters
-
+None
 
 ## -returns
-This function returns .
+This function is a constructor and does not return a value.
+
+
 ## -remarks
 
 ## -see-also
+
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)

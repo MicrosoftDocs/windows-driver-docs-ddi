@@ -35,8 +35,6 @@ api_name:
 -	IDataModelManager2.RegisterExtensionForTypeSignature
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

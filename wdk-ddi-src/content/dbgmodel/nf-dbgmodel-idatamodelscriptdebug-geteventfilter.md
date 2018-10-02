@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebug.GetEventFilter
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptDebug2.GetCurrentPosition
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

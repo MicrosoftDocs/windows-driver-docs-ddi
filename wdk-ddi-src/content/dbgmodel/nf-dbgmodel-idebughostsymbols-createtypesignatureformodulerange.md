@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostSymbols.CreateTypeSignatureForModuleRange
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

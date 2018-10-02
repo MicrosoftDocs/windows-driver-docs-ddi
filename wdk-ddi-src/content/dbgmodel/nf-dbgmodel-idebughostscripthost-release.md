@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostScriptHost.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -17,6 +17,6 @@ tech.root: debugger
 ## -description
 
 
-This header is used by debugger. For more information, see:
+This header is used to create debugger data model apps. For more information, see:
 
-- [Debugger](../_debugger/index.md)
+- [Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)

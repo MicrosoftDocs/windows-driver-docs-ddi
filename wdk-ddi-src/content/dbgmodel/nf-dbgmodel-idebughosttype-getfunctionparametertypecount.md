@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostType.GetFunctionParameterTypeCount
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

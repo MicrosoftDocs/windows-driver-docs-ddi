@@ -34,8 +34,6 @@ api_name:
 -	IDataModelScriptTemplateEnumerator.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

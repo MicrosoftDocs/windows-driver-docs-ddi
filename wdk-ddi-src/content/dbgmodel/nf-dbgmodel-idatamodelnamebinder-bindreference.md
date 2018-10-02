@@ -35,8 +35,6 @@ api_name:
 -	IDataModelNameBinder.BindReference
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

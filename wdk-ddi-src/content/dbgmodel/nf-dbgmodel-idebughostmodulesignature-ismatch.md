@@ -35,8 +35,6 @@ api_name:
 -	IDebugHostModuleSignature.IsMatch
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

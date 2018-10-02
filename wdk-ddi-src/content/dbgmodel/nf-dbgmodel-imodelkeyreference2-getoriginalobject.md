@@ -35,8 +35,6 @@ api_name:
 -	IModelKeyReference2.GetOriginalObject
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

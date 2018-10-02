@@ -35,8 +35,6 @@ api_name:
 -	IDataModelScriptTemplateEnumerator.GetNext
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
