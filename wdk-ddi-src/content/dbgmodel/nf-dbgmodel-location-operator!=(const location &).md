@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 474f5a04-76f9-4784-82ed-bb35527f320a
 ms.author: windowsdriverdev
-ms.date: 09/28/2018
+ms.date: 10/02/2018
 ms.topic: function
 ms.keywords: operator!=
 req.header: dbgmodel.h
@@ -35,7 +35,6 @@ api_name:
 -	operator!=
 product: Windows
 targetos: Windows
-
 tech.root: debugger
 ---
 
@@ -48,10 +47,10 @@ Not equal to comparison operator for the location function.
 ## -parameters
 
 ### -param rhs
-TBD
+The location to compare this location against.
 
 ## -returns
-This function returns bool.
+This function returns whether the two locations refer to different places.
 
 ## -remarks
 

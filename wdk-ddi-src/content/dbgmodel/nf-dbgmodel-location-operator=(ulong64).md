@@ -35,8 +35,6 @@ api_name:
 -	operator=
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -49,7 +47,7 @@ The assignment operator for the location function.
 ## -parameters
 
 ### -param virtualAddress
-TBD
+The virtual address to assign to this location.
 
 ## -returns
 This function returns Location &.

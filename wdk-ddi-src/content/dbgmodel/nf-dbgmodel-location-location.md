@@ -35,8 +35,6 @@ api_name:
 -	Location
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,7 +43,7 @@ tech.root: debugger
 
 ## -description
 
-Constructs a location from an offset into the virtual address space of the target.
+Copy constructs a location.
 
 Default constructs an equivalent nullptr.
 
@@ -54,7 +52,7 @@ None
 
 
 ## -returns
-This function does not return value.
+This function is a constructor and does not return value.
 
 ## -remarks
 Defines the location for an object.  This particular variant of Location is the C-COM access struct.

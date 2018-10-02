@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 9ab3c521-e5c9-48ad-977e-d95954f5064b
 ms.author: windowsdriverdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ This can be determined by the IsVirtualAddress() method if this structure is bui
 
 ### -field Offset
 
-TBD
+The location’s offset into the address space defined by the host context and the HostDefined field of this structure.  If the HostDefined field is zero, this is the virtual address of the location.  If the HostDefined field is non-zero, this is the offset into some other address space.  It may, for example, indicate where a particular field of a registered structure is located within the containing register.
 
 
 ## -remarks

@@ -35,8 +35,6 @@ api_name:
 -	Location
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -51,7 +49,7 @@ Constructs a location from an offset into the virtual address space of the targe
 None
 
 ## -returns
-This function does not returns TBD.
+This function is a constructor and does not return value.
 
 ## -remarks
 

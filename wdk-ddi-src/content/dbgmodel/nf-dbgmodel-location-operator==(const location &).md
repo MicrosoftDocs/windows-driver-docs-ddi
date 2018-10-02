@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 25221b6a-208e-4f9e-a41b-c2a1c4405977
 ms.author: windowsdriverdev
-ms.date: 09/28/2018
+ms.date: 10/02/2018
 ms.topic: function
 ms.keywords: operator==
 req.header: dbgmodel.h
@@ -47,10 +47,11 @@ Equivalence operator for the location function.
 ## -parameters
 
 ### -param rhs
-TBD
+The location to compare against this location.
 
 ## -returns
-This function returns bool.
+This function returns an indication of whether the two locations refer to the same place.
+
 ## -remarks
 
 ## -see-also

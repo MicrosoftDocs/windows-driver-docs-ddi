@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: d653fca1-8a9a-4fd5-b37a-2d3e506c1a77
 ms.author: windowsdriverdev
-ms.date: 09/28/2018
+ms.date: 10/02/2018
 ms.topic: function
 ms.keywords: Location
 req.header: dbgmodel.h
@@ -35,24 +35,21 @@ api_name:
 -	Location
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
 # Location function
 
 ## -description
-
-Constructs a location from an offset into the virtual address space of the target.
+Copy constructs a location.
 
 ## -parameters
 
 ### -param src
-TBD
+The location from which to copy construct a new location.
 
 ## -returns
-This function returns TBD.
+This function is a constructor and does not return value.
 
 ## -remarks
 

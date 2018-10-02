@@ -35,7 +35,6 @@ api_name:
 -	operator=
 product: Windows
 targetos: Windows
-
 tech.root: debugger
 ---
 
@@ -49,10 +48,11 @@ The assignment operator for the location function.
 ## -parameters
 
 ### -param src
-TBD
+The location from which to copy.
 
 ## -returns
 This function returns Location &.
+
 ## -remarks
 
 ## -see-also

@@ -35,8 +35,6 @@ api_name:
 -	operator!=
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -48,10 +46,10 @@ Not equal to comparison operator for the location function.
 ## -parameters
 
 ### -param rhs
-TBD
+The location to compare this location against.
 
 ## -returns
-This function returns bool.
+This function returns whether the two locations refer to different places.
 
 ## -remarks
 

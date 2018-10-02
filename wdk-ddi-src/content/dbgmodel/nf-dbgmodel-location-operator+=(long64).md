@@ -35,7 +35,6 @@ api_name:
 -	operator+=
 product: Windows
 targetos: Windows
-
 tech.root: debugger
 ---
 

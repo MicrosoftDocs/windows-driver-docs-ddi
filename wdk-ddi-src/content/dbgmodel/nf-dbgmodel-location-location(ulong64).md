@@ -35,8 +35,6 @@ api_name:
 -	Location
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -44,17 +42,16 @@ tech.root: debugger
 
 
 ## -description
-
 Constructs a location from an offset into the virtual address space of the target.
 
 
 ## -parameters
 
 ### -param virtualAddress
-TBD
+The virtual address.
 
 ## -returns
-This function returns TBD.
+This function is a constructor and does not return value.
 
 ## -remarks
 

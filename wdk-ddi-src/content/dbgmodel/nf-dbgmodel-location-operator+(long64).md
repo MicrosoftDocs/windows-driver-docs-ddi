@@ -35,7 +35,6 @@ api_name:
 -	operator+
 product: Windows
 targetos: Windows
-
 tech.root: debugger
 ---
 
@@ -43,16 +42,16 @@ tech.root: debugger
 
 
 ## -description
-
 The addition operator for the location function.
 
 ## -parameters
 
 ### -param offset
-TBD
+Adds this value from the location’s offset into its address space.
 
 ## -returns
-This function returns Location.
+This function returns a new Location which is ‘offset’ bytes after this location.
+
 ## -remarks
 
 ## -see-also

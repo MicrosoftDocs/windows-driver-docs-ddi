@@ -47,10 +47,11 @@ Equivalence operator for the location function.
 ## -parameters
 
 ### -param rhs
-TBD
+The location to compare against this location.
 
 ## -returns
-This function returns bool.
+This function returns an indication of whether the two locations refer to the same place.
+
 ## -remarks
 
 ## -see-also
