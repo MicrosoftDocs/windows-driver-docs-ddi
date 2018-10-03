@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebug.GetDebugState
 title: IDataModelScriptDebug::GetDebugState
 author: windows-driver-content
-description: TBD
+description: The GetDebugState method returns the current state of the script (whether it is executing or not). 
 ms.assetid: 718209b9-68ab-43eb-a944-6aad95db4e3d
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

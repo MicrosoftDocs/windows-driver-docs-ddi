@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelManager2.Close
 title: IDataModelManager2::Close
 author: windows-driver-content
-description: TBD
+description: The Close method is called on the data model manager by an application (debugger) hosting the data model in order to start the shutdown process of the data model manager.
 ms.assetid: 79331ae3-8757-4197-a482-70bb52716b60
 ms.author: windowsdriverdev
 ms.date:  07/20/2018

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.Reset
 title: IDataModelScriptDebugBreakpointEnumerator::Reset
 author: windows-driver-content
-description: TBD
+description: The Reset method resets the position of the enumerator to where it was just after the enumerator was created -- that is, before the first enumerated breakpoint. 
 ms.assetid: 5429efa0-1e6c-4323-aa31-f1460d3cd8de
 ms.author: windowsdriverdev
 ms.date: 09/10/2018 

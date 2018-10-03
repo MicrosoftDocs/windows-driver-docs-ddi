@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelManager2.UnregisterExtensionForTypeSignature
 title: IDataModelManager2::UnregisterExtensionForTypeSignature
 author: windows-driver-content
-description: TBD
+description: The UnregisterExtensionForTypeSignature method undoes a prior call to RegisterExtensionForTypeSignature. 
 ms.assetid: a92a25e0-191c-40fb-a0bc-7d29afbbcaaa
 ms.author: windowsdriverdev
 ms.date: 09/11/2018

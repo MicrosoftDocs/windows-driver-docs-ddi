@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostField
 title: IDebugHostField
 author: windows-driver-content
-description: TBD
+description: Represents a field within a structure or class.
 ms.assetid: e3b8dddc-1481-41ad-b162-4f5162aed653
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

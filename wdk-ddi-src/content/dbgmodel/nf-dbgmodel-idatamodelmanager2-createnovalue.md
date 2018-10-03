@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelManager2.CreateNoValue
 title: IDataModelManager2::CreateNoValue
 author: windows-driver-content
-description: TBD
+description: The CreateNoValue method creates a "no value" object, boxes it into an IModelObject, and returns it.
 ms.assetid: 2533e73e-a094-4e55-8c33-b52384037932
 ms.author: windowsdriverdev
 ms.date: 09/11/2018

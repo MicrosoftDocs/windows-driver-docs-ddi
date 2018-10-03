@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IModelMethod
 title: IModelMethod
 author: windows-driver-content
-description: TBD
+description: Represents a method which can be called.
 ms.assetid: 3483b979-a5a3-49ce-9036-3c021fa14b5b
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

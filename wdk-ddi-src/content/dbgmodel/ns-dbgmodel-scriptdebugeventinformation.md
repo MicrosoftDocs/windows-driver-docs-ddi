@@ -2,7 +2,7 @@
 UID: NS:dbgmodel.ScriptDebugEventInformation
 title: ScriptDebugEventInformation
 author: windows-driver-content
-description: 
+description: A struct containing information about a particular debug event. 
 ms.assetid: 33b3830f-8257-4dde-970f-2e21d7b7a831
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostExtensibility
 title: IDebugHostExtensibility
 author: windows-driver-content
-description: TBD
+description: The extensibility interface to the underlying debugger.
 ms.assetid: ca0b53b7-9e3a-4dca-ab84-0e147006ac32
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

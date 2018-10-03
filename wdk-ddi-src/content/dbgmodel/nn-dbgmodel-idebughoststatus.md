@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostStatus
 title: IDebugHostStatus
 author: windows-driver-content
-description: TBD
+description: An interface allowing a client to query for the status of the host.
 ms.assetid: aff0759f-6583-437e-a68d-793566b83eed
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

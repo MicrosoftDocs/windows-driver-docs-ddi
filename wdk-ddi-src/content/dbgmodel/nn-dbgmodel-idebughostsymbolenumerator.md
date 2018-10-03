@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostSymbolEnumerator
 title: IDebugHostSymbolEnumerator
 author: windows-driver-content
-description: TBD
+description: An enumerator which runs through children of a symbol.
 ms.assetid: ea0851a6-952e-44c3-819a-ead0568bd22c
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

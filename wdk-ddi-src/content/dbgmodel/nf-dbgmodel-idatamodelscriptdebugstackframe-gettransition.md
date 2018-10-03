@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.GetTransition
 title: IDataModelScriptDebugStackFrame::GetTransition
 author: windows-driver-content
-description: TBD
+description: If a given stack frame is a transition point as determined by the IsTransition method, the GetTransition method returns information about the transition. 
 ms.assetid: 8fbefa8a-9675-485e-8065-062ad7ad3a50
 ms.author: windowsdriverdev
 ms.date: 09/10/2018

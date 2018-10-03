@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostPublic
 title: IDebugHostPublic
 author: windows-driver-content
-description: TBD
+description: An (IDebugHostSymbol derived) interface to a public symbol (address/name only).
 ms.assetid: 18775b1d-4efc-422c-8920-21de383fb5b9
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.IsTransitionPoint
 title: IDataModelScriptDebugStackFrame::IsTransitionPoint
 author: windows-driver-content
-description: TBD
+description: The IDataModelScriptDebugStack interface represents a segment of a call stack -- that portion of the call stack which is contained within the context of one script. 
 ms.assetid: 1414b5f1-bd95-46aa-90c8-efd89b75504a
 ms.author: windowsdriverdev
 ms.date: 09/10/2018

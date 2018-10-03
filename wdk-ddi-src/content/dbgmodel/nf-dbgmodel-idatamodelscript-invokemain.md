@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScript.InvokeMain
 title: IDataModelScript::InvokeMain
 author: windows-driver-content
-description: TBD
+description: If the script has a "main function" which is intended to execute from a UI invocation, it indicates such via a true return from the IsInvocable method.
 ms.assetid: c2ade702-c9fb-478c-bca7-f92fdbd748e2
 ms.author: windowsdriverdev
 ms.date: 08/20/2018
