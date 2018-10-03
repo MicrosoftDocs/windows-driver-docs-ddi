@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.BindReadOnlyProperty~r1
 title: BindReadOnlyProperty function
 author: windows-driver-content
-description: TBD
+description: TA binder which converts one instance method on a class to a read-only property accessor.
 ms.assetid: c59ee365-d2da-4352-8311-a4a1d27fabdc
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

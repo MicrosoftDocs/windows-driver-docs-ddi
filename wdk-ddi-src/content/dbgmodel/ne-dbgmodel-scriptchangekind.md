@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.ScriptChangeKind
 title: ScriptChangeKind
 author: windows-driver-content
-description: 
+description: Indicates the type of notification firing to the host.
 ms.assetid: 6aca4d1a-84d3-400e-8b00-131364737c9b
 ms.author: windowsdriverdev
 ms.date: 07/16/2018 

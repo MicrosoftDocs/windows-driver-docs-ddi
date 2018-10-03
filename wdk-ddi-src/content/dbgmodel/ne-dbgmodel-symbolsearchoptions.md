@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.SymbolSearchOptions
 title: SymbolSearchOptions
 author: windows-driver-content
-description: 
+description: Symbols search options.
 ms.assetid: b6a5df9d-42b8-4d3b-b9a7-84b89d8826be
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.ScriptDebugEvent
 title: ScriptDebugEvent
 author: windows-driver-content
-description: 
+description: Defines what debug event occurred.
 ms.assetid: 79741ba7-a920-4f0e-a953-9ff6a0a8ee85
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

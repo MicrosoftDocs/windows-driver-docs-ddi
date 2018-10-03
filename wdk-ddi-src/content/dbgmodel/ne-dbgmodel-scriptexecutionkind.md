@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.ScriptExecutionKind
 title: ScriptExecutionKind
 author: windows-driver-content
-description: 
+description: Defines the kind of execution to do.
 ms.assetid: f39e999b-9d77-496b-841d-c89d13b776d3
 ms.author: windowsdriverdev
 ms.date: 07/16/2018
@@ -36,7 +36,6 @@ tech.root: debugger
 # ScriptExecutionKind enumeration
 
 ## -description
-
 Defines the kind of execution to do.
 
 ## -enum-fields

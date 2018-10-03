@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.CreateDataModelManager
 title: CreateDataModelManager function
 author: windows-driver-content
-description: TBD
+description: The initial call a host performs to create and initialize the data model.
 ms.assetid: 5694acc5-d39e-408a-8678-88207ca4707a
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

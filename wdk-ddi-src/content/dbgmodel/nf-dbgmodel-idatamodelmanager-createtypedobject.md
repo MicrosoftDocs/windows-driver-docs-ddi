@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelManager.CreateTypedObject
 title: IDataModelManager::CreateTypedObject
 author: windows-driver-content
-description: TBD
+description: The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target.
 ms.assetid: 6a92ab93-a6fe-4065-a538-ce957349c311
 ms.author: windowsdriverdev
 ms.date: 07/17/2018

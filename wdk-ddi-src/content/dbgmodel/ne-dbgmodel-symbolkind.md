@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.SymbolKind
 title: SymbolKind
 author: windows-driver-content
-description: 
+description: Defines the kind of a symbol.
 ms.assetid: 6c1562a7-d1fb-4418-99dd-a6391cb4163d
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

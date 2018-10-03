@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelConcept.InitializeObject
 title: IDataModelConcept::InitializeObject
 author: windows-driver-content
-description: TBD
+description: A data model can be registered as the canonical visualizer or as an extension for a given native type through the data model manager's RegisterModelForTypeSignature or RegisterExtensionForTypeSignature methods.
 ms.assetid: 39dd2497-1650-4bf4-9aa1-71ed154182ba
 ms.author: windowsdriverdev
 ms.date: 09/11/2018

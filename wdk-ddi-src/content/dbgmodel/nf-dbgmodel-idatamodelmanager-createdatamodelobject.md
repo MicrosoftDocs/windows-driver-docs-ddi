@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelManager.CreateDataModelObject
 title: IDataModelManager::CreateDataModelObject
 author: windows-driver-content
-description: TBD
+description: The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects. 
 ms.assetid: f1c18662-fe30-45ad-b71d-6776f64d3dc9
 ms.author: windowsdriverdev
 ms.date:  07/17/2018

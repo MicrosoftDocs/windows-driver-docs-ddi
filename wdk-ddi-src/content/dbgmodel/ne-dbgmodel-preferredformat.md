@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.PreferredFormat
 title: PreferredFormat
 author: windows-driver-content
-description: 
+description: Predefined values of the "PreferredFormat" key which may appear as the metadata on a returned key value.  
 ms.assetid: 13729758-f5f8-4f28-80b8-ed8c89d56db5
 ms.author: windowsdriverdev
 ms.date: 07/16/2018
