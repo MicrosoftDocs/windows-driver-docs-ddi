@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.operator-
 title: operator- function
 author: windows-driver-content
-description: TBD
+description: Subtraction operator for the location function.
 ms.assetid: aa145b1c-88f7-451d-b8d8-a34177d76b28
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

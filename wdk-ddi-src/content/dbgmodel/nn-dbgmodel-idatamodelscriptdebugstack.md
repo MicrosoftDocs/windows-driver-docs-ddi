@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelScriptDebugStack
 title: IDataModelScriptDebugStack
 author: windows-driver-content
-description: TBD
+description: An interface to a stack in the script. The script provider implements this interface to expose the notion of a call stack to the script debugger.
 ms.assetid: 835f361a-a4eb-4b32-a4a6-0aff8d9a2f50
 ms.author: windowsdriverdev
 ms.date: 07/13/2018
@@ -39,9 +39,7 @@ tech.root: debugger
 
 ## -description
 
-An interface to a stack in the script.
-
-IDataModelScriptDebugStack	The script provider implements this interface to expose the notion of a call stack to the script debugger.
+An interface to a stack in the script. The script provider implements this interface to expose the notion of a call stack to the script debugger.
 
 
 ## -inheritance

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelManager
 title: IDataModelManager
 author: windows-driver-content
-description: TBD
+description: The core interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.
 ms.assetid: e40a78ba-6352-4c50-bfdf-e52686ac507b
 ms.author: windowsdriverdev
 ms.date: 07/20/2018

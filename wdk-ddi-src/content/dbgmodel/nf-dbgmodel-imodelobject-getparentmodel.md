@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelObject.GetParentModel
 title: IModelObject::GetParentModel
 author: windows-driver-content
-description: TBD
+description: The GetParentModel method returns the i-th parent model in the parent model chain of the given object.
 ms.assetid: 14e98994-5d68-40a2-9891-df34e3e6c93f
 ms.author: windowsdriverdev
 ms.date: 08/09/2018

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelObject.GetRawReference
 title: IModelObject::GetRawReference
 author: windows-driver-content
-description: TBD
+description: The GetRawReference method finds a native construct within the given object and returns a reference to it. 
 ms.assetid: 2a886a30-3403-4276-be7c-93348e2b9eea
 ms.author: windowsdriverdev
 ms.date: 08/09/2018 

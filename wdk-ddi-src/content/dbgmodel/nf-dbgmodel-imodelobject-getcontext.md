@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelObject.GetContext
 title: IModelObject::GetContext
 author: windows-driver-content
-description: TBD
+description: The GetContext method returns the host context that is associated with the object. 
 ms.assetid: 448a54c8-ab67-4bc1-aad4-362ea94f7830
 ms.author: windowsdriverdev
 ms.date: 08/09/2018

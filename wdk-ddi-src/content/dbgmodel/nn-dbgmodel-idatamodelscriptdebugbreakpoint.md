@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelScriptDebugBreakpoint
 title: IDataModelScriptDebugBreakpoint
 author: windows-driver-content
-description: TBD
+description: An interface to a breakpoint on the script.
 ms.assetid: 68db1faf-dd0a-42a0-81dd-2ab633d9a3b2
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

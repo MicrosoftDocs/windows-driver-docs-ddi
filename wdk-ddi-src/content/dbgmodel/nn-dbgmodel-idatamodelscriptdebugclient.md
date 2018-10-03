@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelScriptDebugClient
 title: IDataModelScriptDebugClient
 author: windows-driver-content
-description: TBD
+description: The client of the script debugger implements this interface as a part of a two-way communication channel with the script debugger.
 ms.assetid: e6dbd395-a973-4447-a423-9d26ce13c90b
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

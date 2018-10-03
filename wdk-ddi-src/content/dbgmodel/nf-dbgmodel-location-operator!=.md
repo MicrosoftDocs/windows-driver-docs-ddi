@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.operator!=
 title: operator!= function
 author: windows-driver-content
-description: TBD
+description: Not equal to comparison operator for the location function.
 ms.assetid: a2206ed4-c0a8-4b21-84ba-87ecd6693f5b
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.operator=(ULONG64)
 title: operator= function
 author: windows-driver-content
-description: TBD
+description: The assignment operator for the location function.
 ms.assetid: bb0ccc46-390f-4bab-b6fb-0050375e1fc4
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

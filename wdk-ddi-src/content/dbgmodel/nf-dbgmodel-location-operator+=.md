@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.operator+=
 title: operator+= function
 author: windows-driver-content
-description: TBD
+description: The addition assignment operator for the location function.
 ms.assetid: c94bdf64-3532-4f4e-bad7-0c4665132de1
 ms.author: windowsdriverdev
 ms.date: 09/28/2018
