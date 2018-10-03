@@ -25,4 +25,6 @@ Usbpmapi.h includes:
 > Do not include the preceding header directly. Instead, only include Usbpmapi.h.
 
 For more information, see:
+
+- [Write a USB Type-C Policy Manager client driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/policy-manager-client)
 - [Universal Serial Bus (USB)](../_usbref/index.md)
