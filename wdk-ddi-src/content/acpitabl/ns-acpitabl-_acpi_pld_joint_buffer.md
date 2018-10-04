@@ -2,10 +2,10 @@
 UID: NS:acpitabl._ACPI_PLD_JOINT_BUFFER
 title: _ACPI_PLD_JOINT_BUFFER structure
 author: windows-driver-content
-description: 
+description: Describes the ACPI PLD joint descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 58ca5533-2732-4e70-8076-3402c601349b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/2/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,5 +76,12 @@ Describes the ACPI PLD joint descriptor buffer, revision 1 (Microsoft custom PLD
  
 
 ## -remarks
+
+The GUID is defined as follows:
+
+```C++
+DEFINE_GUID(ACPI_PLD_JOINT_BUFFER_GUID,
+    0xf01cfc40, 0x3c75, 0x4523, 0x9e, 0x44, 0x21, 0x5c, 0xb1, 0x54, 0xbd, 0xa6);
+```
 
 ## -see-also
