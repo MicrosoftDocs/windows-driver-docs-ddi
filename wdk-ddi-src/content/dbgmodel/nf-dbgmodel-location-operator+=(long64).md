@@ -47,7 +47,8 @@ The addition assignment operator for the location function.
 ## -parameters
 
 ### -param offset
-TBD
+Subtracts this value from the location’s offset into its address space.  The location will then refer ‘offset’ bytes prior to where it previously did.
+
 
 ## -returns
 This function returns Location &.

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IKeyStore.GetKey
 title: IKeyStore::GetKey
 author: windows-driver-content
-description: TBD
+description: The GetKey method is analogous to the GetKey method on IModelObject.
 ms.assetid: 9a27d20b-76ff-4b7c-8782-95bd6288e592
 ms.author: windowsdriverdev
 ms.date: 08/13/2018

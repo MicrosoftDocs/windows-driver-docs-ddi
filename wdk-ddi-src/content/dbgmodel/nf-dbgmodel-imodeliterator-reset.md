@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelIterator.Reset
 title: IModelIterator::Reset
 author: windows-driver-content
-description: TBD
+description: The Reset method on an iterator returned from the iterable concept will restore the position of the iterator to where it was when the iterator was first created (before the first element). 
 ms.assetid: 53ee9efd-4581-4e1e-8fbe-385e7b137f64
 ms.author: windowsdriverdev
 ms.date: 08/13/2018

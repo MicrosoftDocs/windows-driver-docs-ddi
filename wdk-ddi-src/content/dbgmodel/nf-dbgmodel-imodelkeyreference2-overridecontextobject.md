@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelKeyReference2.OverrideContextObject
 title: IModelKeyReference2::OverrideContextObject
 author: windows-driver-content
-description: TBD
+description: The OverrideContextObject method is an method which is used to permanently alter the context object which this key reference will pass to any underlying property accessor's GetValue or SetValue methods.
 ms.assetid: bb28b47c-7311-4572-9d87-0331a5cc728a
 ms.author: windowsdriverdev
 ms.date: 08/14/2018

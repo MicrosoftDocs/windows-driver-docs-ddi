@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelObject.Dereference
 title: IModelObject::Dereference
 author: windows-driver-content
-description: TBD
+description: The Dereference method dereferences an object.
 ms.assetid: c6eb77c2-b901-40c5-b558-f48d33a174de
 ms.author: windowsdriverdev
 ms.date: 07/20/2018

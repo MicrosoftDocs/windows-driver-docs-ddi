@@ -2,10 +2,10 @@
 UID: NF:dbgmodel.IDebugHostType2.IsGeneric
 title: IDebugHostType2::IsGeneric
 author: windows-driver-content
-description: TBD
+description: Returns whether the type is a generic or template.
 ms.assetid: 8c7c9c95-b15e-482f-84a7-9bfb9ea83c17
 ms.author: windowsdriverdev
-ms.date: 09/20/2018 
+ms.date: 10/04/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::IsGeneric, IsGeneric, IDebugHostType2.IsGeneric, IDebugHostType2::IsGeneric, IDebugHostType2.IsGeneric
 req.header: dbgmodel.h
@@ -42,16 +42,17 @@ tech.root: debugger
 
 
 ## -description
-
-TBD
+Returns whether the type is a generic or template.
 
 ## -parameters
 
 ### -param isGeneric
+An indication of whether the type is a generic or template type is returned here.
 
 
 ## -returns
-This method returns HRESULT which indicates success or failure.
+This method returns HRESULT that indicates success or failure.
+
 
 ## -remarks
 

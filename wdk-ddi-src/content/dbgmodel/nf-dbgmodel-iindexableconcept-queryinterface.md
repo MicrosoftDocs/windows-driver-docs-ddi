@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IIndexableConcept.QueryInterface
 title: IIndexableConcept::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 34b15894-ae66-4d4e-9776-b10599c76cd8
 ms.author: windowsdriverdev
 ms.date: 09/19/2018

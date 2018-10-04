@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostTypeSignature.CompareAgainst
 title: IDebugHostTypeSignature::CompareAgainst
 author: windows-driver-content
-description: TBD
+description: The CompareAgainst method compares the type signature to another type signature and returns how the two signatures compare. 
 ms.assetid: bf788feb-17ff-4844-b247-8083585d3ca7
 ms.author: windowsdriverdev
 ms.date: 09/10/2018 
@@ -44,8 +44,6 @@ tech.root: debugger
 ## -description
 
 The CompareAgainst method compares the type signature to another type signature and returns how the two signatures compare. The comparison result which is returned is a member of the SignatureComparison enumeration which is defined as follows: 
-
-
 
 **Unrelated**	- There is no relationship between the two signatures or types being compared.
 
@@ -104,7 +102,7 @@ This method returns HRESULT that indicates success or failure.
 ## -remarks
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDebugHostTypeSignature> spSig1; /* get a type signature */
 ComPtr<IDebugHostTypeSignature> spSig2; /* get a second type signature */
 

@@ -52,7 +52,6 @@ The type of the symbol will be returned here.
 ## -returns
 This method returns HRESULT that indicates success or failure.
 
-```
 ## -see-also
 
 [IDebugHostBaseClass interface](nn-dbgmodel-idebughostbaseclass.md)

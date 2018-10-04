@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostType2.GetGenericArgumentCount
 title: IDebugHostType2::GetGenericArgumentCount
 author: windows-driver-content
-description: TBD
+description: Returns the number of arguments to the generic/template. 
 ms.assetid: 5ae39f4b-c5cf-4e46-800a-1577c86e5602
 ms.author: windowsdriverdev
 ms.date: 09/20/2018  
