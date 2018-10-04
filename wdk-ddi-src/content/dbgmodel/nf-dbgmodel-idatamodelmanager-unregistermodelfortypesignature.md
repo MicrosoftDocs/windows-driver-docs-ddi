@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelManager.UnregisterModelForTypeSignature
 title: IDataModelManager::UnregisterModelForTypeSignature
 author: windows-driver-content
-description: TBD
+description: The UnregisterModelForTypeSignature method undoes a prior call to the RegisterModelForTypeSignature method.
 ms.assetid: 8c924b81-7865-4aa3-9959-18b2c57255d0
 ms.author: windowsdriverdev
 ms.date:  07/19/2018

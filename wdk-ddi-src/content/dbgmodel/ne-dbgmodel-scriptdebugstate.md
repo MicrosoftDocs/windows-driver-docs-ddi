@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.ScriptDebugState
 title: ScriptDebugState
 author: windows-driver-content
-description: 
+description: Defines the current debugging state of a script.
 ms.assetid: 4e89a344-ef44-479e-a97a-ce78a89d3273
 ms.author: windowsdriverdev
 ms.date: 07/16/2018
@@ -37,21 +37,21 @@ tech.root: debugger
 
 ## -description
 
-Defines the current debugging state of a script
+Defines the current debugging state of a script.
 
 ## -enum-fields
 
 ### -field ScriptDebugNoDebugger
-Indicates that debugging is not active on the script
+Indicates that debugging is not active on the script.
 
 ### -field ScriptDebugNotExecuting 
-Indicates that no code within the script is actively executing
+Indicates that no code within the script is actively executing.
 
 ### -field ScriptDebugExecuting 
-Indicates that the script is executing code
+Indicates that the script is executing code.
 
 ### -field ScriptDebugBreak
-The script status is that it is broken into the script debugger 
+The script status is that it is broken into the script debugger. 
 
 ## -remarks
 

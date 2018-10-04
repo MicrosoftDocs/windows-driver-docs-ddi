@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.GetName
 title: IDataModelScriptDebugStackFrame::GetName
 author: windows-driver-content
-description: TBD
+description: The GetName method returns the display name (that is the function name) of this frame. Such name will be displayed within the stack backtrace presented to the user in the debugger interface. 
 ms.assetid: 2c19c90f-fdd4-4653-a9be-42b77e004fc7
 ms.author: windowsdriverdev
 ms.date: 09/10/2018 

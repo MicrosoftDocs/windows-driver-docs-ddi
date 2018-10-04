@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelObject.SetConcept
 title: IModelObject::SetConcept
 author: windows-driver-content
-description: TBD
+description: The SetConcept method will place a specified concept on the object instance specified by the this pointer. 
 ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
 ms.author: windowsdriverdev
 ms.date: 08/13/2018 

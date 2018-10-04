@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.Release
 title: IDataModelScriptDebugBreakpointEnumerator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: b11ce58d-9614-4f05-875b-16e412d6c827
 ms.author: windowsdriverdev
 ms.date: 09/10/2018 

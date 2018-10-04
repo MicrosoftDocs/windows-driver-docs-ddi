@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IPreferredRuntimeTypeConcept
 title: IPreferredRuntimeTypeConcept
 author: windows-driver-content
-description: TBD
+description: Interface which clients can implement if they can provide better dynamic runtime type analysis for a given type than the debugger can acquire through RTTI or v-table analysis.
 ms.assetid: db2befcc-f796-49d1-b875-532adf3bec5a
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

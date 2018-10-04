@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.RawSearchFlags
 title: RawSearchFlags
 author: windows-driver-content
-description: 
+description: Flags to GetRawValue/EnumerateRawValues.
 ms.assetid: 1f876ef9-9130-45f0-8c00-33f5f0e41344
 ms.author: windowsdriverdev
 ms.date: 07/16/2018
@@ -36,8 +36,7 @@ tech.root: debugger
 # RawSearchFlags enumeration
 
 ## -description
-Flags to GetRawValue/EnumerateRawValues
-
+Flags to GetRawValue/EnumerateRawValues.
 
 
 ## -enum-fields

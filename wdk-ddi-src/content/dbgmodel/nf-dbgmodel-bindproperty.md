@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.BindProperty
 title: BindProperty function
 author: windows-driver-content
-description: TBD
+description:  A binder which converts two instance methods on a class to a read/write property accessor. 
 ms.assetid: 9d2e671b-af82-49fb-ba13-8f780e931929
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

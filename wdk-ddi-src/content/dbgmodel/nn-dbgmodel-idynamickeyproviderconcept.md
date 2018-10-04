@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDynamicKeyProviderConcept
 title: IDynamicKeyProviderConcept
 author: windows-driver-content
-description: TBD
+description: If a client wants to take over the storage of keys and values for an object, it can implement this concept interface.
 ms.assetid: f7a64209-5764-4a95-b099-0a0a04599ea4
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

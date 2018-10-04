@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.operator=
 title: operator= function
 author: windows-driver-content
-description: TBD
+description: The copy assignment operator for the location function.
 ms.assetid: 76ea5143-73e8-476a-8913-d47fea290a48
 ms.author: windowsdriverdev
 ms.date: 09/28/2018

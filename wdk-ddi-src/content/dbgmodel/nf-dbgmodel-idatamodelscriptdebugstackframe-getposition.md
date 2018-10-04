@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.GetPosition
 title: IDataModelScriptDebugStackFrame::GetPosition
 author: windows-driver-content
-description: TBD
+description: The GetPosition method returns the position within the script represented by the stack frame. 
 ms.assetid: b6f12839-5733-4d0f-8d6e-fa3cfbc58d6e
 ms.author: windowsdriverdev
 ms.date: 09/10/2018

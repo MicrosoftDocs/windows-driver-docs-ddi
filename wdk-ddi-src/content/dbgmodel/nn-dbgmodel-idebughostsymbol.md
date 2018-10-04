@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostSymbol
 title: IDebugHostSymbol
 author: windows-driver-content
-description: TBD
+description: An interface to a particular symbol.
 ms.assetid: 9170580b-516a-49c6-ba3a-f5af85a20242
 ms.author: windowsdriverdev
 ms.date: 07/13/2018
@@ -44,6 +44,7 @@ An interface to a particular symbol.
 
 ## -inheritance
 IDebugHostSymbol interits from IUnknown. 
+
 ## -members
 
 <p>IDebugHostSymbol has these methods.</p>

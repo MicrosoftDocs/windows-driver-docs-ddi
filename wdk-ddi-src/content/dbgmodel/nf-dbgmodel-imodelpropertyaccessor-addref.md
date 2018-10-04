@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelPropertyAccessor.AddRef
 title: IModelPropertyAccessor::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 ms.assetid: f0f7bd83-41dc-4683-9a67-8f37ca521881
 ms.author: windowsdriverdev
 ms.date: 08/13/2018 

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebug2.EnumerateBreakpoints
 title: IDataModelScriptDebug2::EnumerateBreakpoints
 author: windows-driver-content
-description: TBD
+description: The EnumerateBreakpoints method returns an enumerator capable of enumerating every breakpoint which is set within a particular script. 
 ms.assetid: 32ebb52c-74b2-4966-bdb4-47c69850b18a
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

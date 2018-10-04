@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostContext
 title: IDebugHostContext
 author: windows-driver-content
-description: TBD
+description: Represents a context of the debugger answers questions about (what session, process, thread).
 ms.assetid: d0930562-7c04-499a-89e3-d50a463b7cce
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

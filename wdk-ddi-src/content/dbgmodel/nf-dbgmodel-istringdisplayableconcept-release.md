@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IStringDisplayableConcept.Release
 title: IStringDisplayableConcept::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 9d3f6d73-6f6b-423a-8832-618cbf57e59c
 ms.author: windowsdriverdev
 ms.date: 09/21/2018 

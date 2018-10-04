@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelScriptDebug2
 title: IDataModelScriptDebug2
 author: windows-driver-content
-description: TBD
+description: An optional interface on scripts (objects which implement IDataModelScript).
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.author: windowsdriverdev
 ms.date: 07/13/2018
@@ -39,7 +39,7 @@ tech.root: debugger
 
 ## -description
 
- An optional interface on scripts (objects which implement IDataModelScript).  If this interface is supported, the script provider has a debug engine capable of some limited form of 'script debugging'.  This may include stepping, setting breakpoints, inspecting data, etc...
+An optional interface on scripts (objects which implement IDataModelScript).  If this interface is supported, the script provider has a debug engine capable of some limited form of 'script debugging'.  This may include stepping, setting breakpoints, inspecting data, etc...
 
 
 ## -inheritance

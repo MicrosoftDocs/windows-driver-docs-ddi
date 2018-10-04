@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelScriptHostContext
 title: IDataModelScriptHostContext
 author: windows-driver-content
-description: TBD
+description: Implemented by the underlying host debugger, represents information about where the debug host is bridging the script.
 ms.assetid: 89bc0f92-c13d-4516-b7b4-9105a2c2d479
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

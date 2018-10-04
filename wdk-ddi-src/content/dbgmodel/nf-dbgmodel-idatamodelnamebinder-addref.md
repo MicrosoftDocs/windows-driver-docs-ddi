@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelNameBinder.AddRef
 title: IDataModelNameBinder::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: ce08a583-95f5-49b0-aa01-e509e844a7c9
 ms.author: windowsdriverdev
 ms.date: 09/21/2018

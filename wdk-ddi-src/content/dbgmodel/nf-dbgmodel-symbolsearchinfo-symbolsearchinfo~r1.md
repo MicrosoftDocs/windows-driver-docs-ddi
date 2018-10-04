@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo~r1
 title: SymbolSearchInfo function
 author: windows-driver-content
-description: TBD
+description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: a2b85960-ae07-4f5f-8f41-5dd9784eaae9
 ms.author: windowsdriverdev
 ms.date: 

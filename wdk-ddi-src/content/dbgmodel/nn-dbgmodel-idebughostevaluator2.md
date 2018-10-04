@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostEvaluator2
 title: IDebugHostEvaluator2
 author: windows-driver-content
-description: TBD
+description: The expression evaluator interface to the underlying debugger.
 ms.assetid: 12192b1b-57b6-4a5b-b2a9-2de8e13ea5c3
 ms.author: windowsdriverdev
 ms.date: 07/13/2018

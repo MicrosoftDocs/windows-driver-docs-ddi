@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebug2.SetBreakpointAtFunction
 title: IDataModelScriptDebug2::SetBreakpointAtFunction
 author: windows-driver-content
-description: TBD
+description: Sets a breakpoint on the function given by the supplied name.
 ms.assetid: d8f17c0d-caf6-41ee-8ed9-6ec4837908f2
 ms.author: windowsdriverdev
 ms.date: 09/11/2018

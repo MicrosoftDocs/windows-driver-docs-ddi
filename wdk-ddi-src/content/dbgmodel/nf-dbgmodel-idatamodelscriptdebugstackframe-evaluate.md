@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.Evaluate
 title: IDataModelScriptDebugStackFrame::Evaluate
 author: windows-driver-content
-description: TBD
+description: The Evaluate method evaluates an expression (of the language of the script provider) in the context of the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called.
 ms.assetid: ef36e451-1a5a-4ea0-a2cf-6af38fe6757c
 ms.author: windowsdriverdev
 ms.date: 09/10/2018 

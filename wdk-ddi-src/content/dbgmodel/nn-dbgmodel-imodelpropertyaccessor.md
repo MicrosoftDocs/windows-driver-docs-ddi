@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IModelPropertyAccessor
 title: IModelPropertyAccessor
 author: windows-driver-content
-description: TBD
+description: The data model representation of a  property accessor (get/set).
 ms.assetid: 719a97dc-26eb-4b5a-9f68-50c4a9069bae
 ms.author: windowsdriverdev
 ms.date: 07/16/2018

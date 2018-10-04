@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IRawEnumerator.Release
 title: IRawEnumerator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 72ad0098-17a6-40ab-a9c6-f994017f5957
 ms.author: windowsdriverdev
 ms.date: 08/13/2018 

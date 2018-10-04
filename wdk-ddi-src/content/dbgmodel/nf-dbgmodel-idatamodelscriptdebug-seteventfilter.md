@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptDebug.SetEventFilter
 title: IDataModelScriptDebug::SetEventFilter
 author: windows-driver-content
-description: TBD
+description: The SetEventFilter method changes the "break on event" behavior for a particular event as defined by a member of the ScriptDebugEventFilter enumeration.
 ms.assetid: f70bad43-2e27-413d-ae03-f97f26d49158
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

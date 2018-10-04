@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.operator==
 title: operator== function
 author: windows-driver-content
-description: TBD
+description: Equivalence operator for the location function.
 ms.assetid: a384b22c-b14c-4609-b981-e6162dac005f
 ms.author: windowsdriverdev
 ms.date: 09/28/2018 
