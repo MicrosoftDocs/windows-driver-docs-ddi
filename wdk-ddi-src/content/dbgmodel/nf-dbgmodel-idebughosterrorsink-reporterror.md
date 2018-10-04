@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostErrorSink.ReportError
 title: IDebugHostErrorSink::ReportError
 author: windows-driver-content
-description: TBD
+description: The ReportError method is a callback on the error sink to notify it that an error has occurred and allow the sink to route the error to whatever UI or mechanism is appropriate. 
 ms.assetid: c7a5bba3-dd86-4710-9da8-0e5f111ab45e
 ms.author: windowsdriverdev
 ms.date: 09/12/2018

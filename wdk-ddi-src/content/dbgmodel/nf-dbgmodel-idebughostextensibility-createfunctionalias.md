@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostExtensibility.CreateFunctionAlias
 title: IDebugHostExtensibility::CreateFunctionAlias
 author: windows-driver-content
-description: TBD
+description: The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific.
 ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
 ms.author: windowsdriverdev
 ms.date: 09/12/2018 

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptHostContext.Release
 title: IDataModelScriptHostContext::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object.
 ms.assetid: b05f29ca-1383-45dc-a8c1-4cb7ec3860ed
 ms.author: windowsdriverdev
 ms.date: 09/21/2018 

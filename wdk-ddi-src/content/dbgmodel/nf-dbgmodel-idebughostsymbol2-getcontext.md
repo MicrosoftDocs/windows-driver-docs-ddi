@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.GetContext
 title: IDebugHostSymbol2::GetContext
 author: windows-driver-content
-description: TBD
+description: The GetContext method returns the context where the symbol is valid.
 ms.assetid: e86ac202-8116-42d8-be1a-f7772b0833e6
 ms.author: windowsdriverdev
 ms.date: 09/20/2018

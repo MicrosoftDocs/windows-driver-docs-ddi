@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.GetNext
 title: IDataModelScriptProviderEnumerator::GetNext
 author: windows-driver-content
-description: TBD
+description: Gets the next script provider which is being enumerated and moves the enumerator to the next position. 
 ms.assetid: d405006e-12bd-4540-be64-48e98a8651c1
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptTemplateEnumerator.GetNext
 title: IDataModelScriptTemplateEnumerator::GetNext
 author: windows-driver-content
-description: TBD
+description: The GetNext method moves the enumerator to the next template and returns it.
 ms.assetid: 0e713d20-12a1-457e-9638-03064773c19f
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

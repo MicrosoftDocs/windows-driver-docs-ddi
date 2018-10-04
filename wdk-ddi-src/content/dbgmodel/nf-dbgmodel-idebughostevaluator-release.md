@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostEvaluator.Release
 title: IDebugHostEvaluator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 78ce1485-9aaa-45c1-8656-84eee5bfea3a
 ms.author: windowsdriverdev
 ms.date: 09/12/2018 

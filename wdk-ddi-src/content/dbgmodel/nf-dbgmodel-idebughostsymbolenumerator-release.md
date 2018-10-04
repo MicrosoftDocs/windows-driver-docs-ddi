@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.Release
 title: IDebugHostSymbolEnumerator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 8de7fadd-4a77-43f4-8e12-2df0669a074b
 ms.author: windowsdriverdev
 ms.date: 08/22/2018

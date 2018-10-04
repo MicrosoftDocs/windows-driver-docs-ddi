@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostExtensibility.DestroyFunctionAlias
 title: IDebugHostExtensibility::DestroyFunctionAlias
 author: windows-driver-content
-description: TBD
+description: The DestroyFunctionAlias method undoes a prior call to the CreateFunctionAlias method. 
 ms.assetid: 804810be-bb3a-41e8-b239-919625eb6f0c
 ms.author: windowsdriverdev
 ms.date: 09/12/2018 

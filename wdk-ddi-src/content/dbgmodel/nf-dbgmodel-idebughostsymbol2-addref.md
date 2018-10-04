@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.AddRef
 title: IDebugHostSymbol2::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 ms.assetid: 43eacd30-eaaf-49d5-9897-fa8d5e03afb5
 ms.author: windowsdriverdev
 ms.date: 09/21/2018

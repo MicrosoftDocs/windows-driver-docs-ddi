@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostType.GetFunctionParameterTypeAt
 title: IDebugHostType::GetFunctionParameterTypeAt
 author: windows-driver-content
-description: TBD
+description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function. 
 ms.assetid: 27151f01-f037-4fab-bbe5-909f753eddbe
 ms.author: windowsdriverdev
 ms.date: 08/22/2018

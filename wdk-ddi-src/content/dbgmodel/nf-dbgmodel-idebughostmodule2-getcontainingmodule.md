@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostModule2.GetContainingModule
 title: IDebugHostModule2::GetContainingModule
 author: windows-driver-content
-description: TBD
+description: Returns the module which contains this symbol if the symbol has a containing module. 
 ms.assetid: 8fe7048a-b09d-49fa-ae9b-8f9e20dcc05f
 ms.author: windowsdriverdev
 ms.date: 09/21/2018  
