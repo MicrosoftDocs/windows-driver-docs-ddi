@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.AddRef
 title: IDynamicConceptProviderConcept::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 4b183d83-6515-4dd5-b604-09c77beb74e2
 ms.author: windowsdriverdev
 ms.date: 09/19/2018

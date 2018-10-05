@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostModuleSignature.IsMatch
 title: IDebugHostModuleSignature::IsMatch
 author: windows-driver-content
-description: TBD
+description: The IsMatch method compares a particular module against a signature, comparing the module name and version to the name and version range indicated in the signature.
 ms.assetid: eaef18a0-1bbb-4248-a65d-e81ef486c2fa
 ms.author: windowsdriverdev
 ms.date: 09/18/2018 

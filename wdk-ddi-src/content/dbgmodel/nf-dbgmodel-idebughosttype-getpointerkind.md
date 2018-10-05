@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostType.GetPointerKind
 title: IDebugHostType::GetPointerKind
 author: windows-driver-content
-description: TBD
+description: For types which are pointers, the GetPointerKind method returns the kind of pointer. 
 ms.assetid: cd03e7b1-769d-4316-a8f3-06467173ca70
 ms.author: windowsdriverdev
 ms.date: 08/22/2018 

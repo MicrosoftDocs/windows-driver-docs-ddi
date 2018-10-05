@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IEquatableConcept.AreObjectsEqual
 title: IEquatableConcept::AreObjectsEqual
 author: windows-driver-content
-description: TBD
+description: Compares this object to another (of arbitrary type) for equality.  If the comparison cannot be performed, E_NOT_SET should be returned.
 ms.assetid: 846d56f6-e5e2-411d-ae4b-5dc1e31e3221
 ms.author: windowsdriverdev
 ms.date: 09/26/2018

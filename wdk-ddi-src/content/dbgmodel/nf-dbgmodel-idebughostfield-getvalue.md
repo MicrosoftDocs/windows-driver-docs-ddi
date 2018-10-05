@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostField.GetValue
 title: IDebugHostField::GetValue
 author: windows-driver-content
-description: TBD
+description: For fields which have a constant value defined within the symbolic information, the GetValue method will return the constant value of the field. 
 ms.assetid: 1ecd00e7-869f-4e87-8c2f-3d4abea74698
 ms.author: windowsdriverdev
 ms.date: 09/12/2018  

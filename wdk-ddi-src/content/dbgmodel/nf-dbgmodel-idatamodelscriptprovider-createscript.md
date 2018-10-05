@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptProvider.CreateScript
 title: IDataModelScriptProvider::CreateScript
 author: windows-driver-content
-description: TBD
+description: The CreateScript method is called to create a new script. 
 ms.assetid: 00318d22-c30d-4279-92a2-5df4b46a841a
 ms.author: windowsdriverdev
 ms.date: 08/20/2018

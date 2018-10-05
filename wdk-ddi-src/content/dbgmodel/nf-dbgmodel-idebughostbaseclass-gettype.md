@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostBaseClass.GetType
 title: IDebugHostBaseClass::GetType
 author: windows-driver-content
-description: TBD
+description: Returns the type (that is "int *") of the symbol if the symbol has a type.
 ms.assetid: ebf8fe3d-bd5d-4fdb-8ce7-0baca3149fb5
 ms.author: windowsdriverdev
 ms.date: 09/21/2018
@@ -52,7 +52,6 @@ The type of the symbol will be returned here.
 ## -returns
 This method returns HRESULT that indicates success or failure.
 
-```
 ## -see-also
 
 [IDebugHostBaseClass interface](nn-dbgmodel-idebughostbaseclass.md)

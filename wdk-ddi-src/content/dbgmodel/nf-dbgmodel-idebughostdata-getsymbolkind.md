@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostData.GetSymbolKind
 title: IDebugHostData::GetSymbolKind
 author: windows-driver-content
-description: TBD
+description: Gets the kind of symbol that this is (that is a field, a base class, a type, etc...)
 ms.assetid: d4eb760e-3030-41b4-b83d-809bb2da8f3e
 ms.author: windowsdriverdev
 ms.date: 09/10/2018 
@@ -42,7 +42,7 @@ tech.root: debugger
 
 
 ## -description
-Gets the kind of symbol that this is (e.g.: a field, a base class, a type, etc...)
+Gets the kind of symbol that this is (that is a field, a base class, a type, etc...)
 
 
 ## -parameters

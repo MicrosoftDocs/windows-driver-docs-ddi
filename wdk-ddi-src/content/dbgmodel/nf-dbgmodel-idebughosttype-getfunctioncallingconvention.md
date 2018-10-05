@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostType.GetFunctionCallingConvention
 title: IDebugHostType::GetFunctionCallingConvention
 author: windows-driver-content
-description: TBD
+description: The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the CallingConventionKind enumeration. 
 ms.assetid: 7c0b15e9-abd8-4b17-abc8-2212205875fa
 ms.author: windowsdriverdev
 ms.date: 09/07/2018

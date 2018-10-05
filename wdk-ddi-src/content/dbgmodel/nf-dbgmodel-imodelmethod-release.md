@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelMethod.Release
 title: IModelMethod::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
 ms.author: windowsdriverdev
 ms.date: 08/13/2018 

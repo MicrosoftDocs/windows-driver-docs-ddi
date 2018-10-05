@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IKeyStore.ClearKeys
 title: IKeyStore::ClearKeys
 author: windows-driver-content
-description: TBD
+description: The ClearKeys method is analogous to the ClearKeys method on IModelObject. 
 ms.assetid: 7fb81fa1-c09a-4995-9a28-34a2d5716625
 ms.author: windowsdriverdev
 ms.date: 08/13/2018

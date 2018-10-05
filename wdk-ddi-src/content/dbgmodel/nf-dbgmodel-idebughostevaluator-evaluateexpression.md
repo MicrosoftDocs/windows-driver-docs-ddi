@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostEvaluator.EvaluateExpression
 title: IDebugHostEvaluator::EvaluateExpression
 author: windows-driver-content
-description: TBD
+description: The EvaluateExpression method allows requests the debug host to evaluate a language (that is C++) expression and return the resulting value of that expression evaluation boxed as an IModelObject.
 ms.assetid: 3a5d84d6-39ba-46c0-a4e7-4e8134aa1b1a
 ms.author: windowsdriverdev
 ms.date: 09/12/2018 

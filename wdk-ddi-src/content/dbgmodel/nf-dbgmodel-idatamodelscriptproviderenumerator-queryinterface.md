@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.QueryInterface
 title: IDataModelScriptProviderEnumerator::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 86cb85cf-370b-488d-b656-e2998c96832b
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

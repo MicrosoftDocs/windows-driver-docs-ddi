@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: ba74703e-32e0-46eb-a219-b8804c21d8b2
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/04/2018
 ms.topic: function
 ms.keywords: SymbolSearchInfo
 req.header: dbgmodel.h

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbols.FindModuleByLocation
 title: IDebugHostSymbols::FindModuleByLocation
 author: windows-driver-content
-description: TBD
+description: The FindModuleByName method will look through the given host context and locate a module which has the specified name and return an interface to it.
 ms.assetid: 255a026b-6114-44ca-8cdf-9543f1c0cd77
 ms.author: windowsdriverdev
 ms.date: 08/22/2018
