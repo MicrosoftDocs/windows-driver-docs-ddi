@@ -2,7 +2,7 @@
 UID: NE:usbsidebandaudio._SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 title: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 author: windows-driver-content
-description: 
+description: Describes the type of transport resource.
 ms.assetid: dde5fd97-0209-4a49-9386-16de45de40fb
 ms.author: windowsdriverdev
 ms.date: 09/06/2018
@@ -30,13 +30,14 @@ api_name:
 -	_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration
 
 ## -description
 
-//  Describes the type of transport resource
+Describes the type of transport resource.
 
 ## -enum-fields
 

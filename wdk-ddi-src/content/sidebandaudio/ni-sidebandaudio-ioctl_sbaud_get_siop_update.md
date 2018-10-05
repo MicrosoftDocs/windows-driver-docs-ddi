@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 90d5357e-faaf-4ece-80e0-3b93e6133367
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ api_name:
 -	IOCTL_SBAUD_GET_SIOP_UPDATE
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_GET_SIOP_UPDATE IOCTL
@@ -38,6 +39,7 @@ targetos: Windows
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 

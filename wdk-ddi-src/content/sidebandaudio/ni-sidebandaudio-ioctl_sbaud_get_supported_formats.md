@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 0e17eae1-e498-43b6-88d8-6a5f0752f3f0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018 
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ api_name:
 -	IOCTL_SBAUD_GET_SUPPORTED_FORMATS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL
@@ -39,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 

@@ -2,7 +2,7 @@
 UID: NS:usbsidebandaudio._SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 title: _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 author: windows-driver-content
-description: 
+description: This structure describes USB sideband audio transport resources.
 ms.assetid: 4c4691b4-9f3a-411f-b7e2-9a856c3c12b9
 ms.author: windowsdriverdev
 ms.date: 09/06/2018
@@ -33,6 +33,7 @@ api_name:
 -	_SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES structure

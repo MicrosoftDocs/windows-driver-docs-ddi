@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 65009cf5-5f6b-4dfc-b3d9-fade63426bf9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ api_name:
 -	IOCTL_SBAUD_STREAM_START
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_STREAM_START IOCTL
@@ -38,6 +39,7 @@ targetos: Windows
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 
