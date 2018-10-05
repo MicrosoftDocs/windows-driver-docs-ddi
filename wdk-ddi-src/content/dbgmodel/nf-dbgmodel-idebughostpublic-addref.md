@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostPublic.AddRef
 title: IDebugHostPublic::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: a2effe80-88fc-4b1f-8dc4-616d5d9f5a67
 ms.author: windowsdriverdev
 ms.date: 09/21/2018 

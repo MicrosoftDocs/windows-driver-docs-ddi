@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbols.EnumerateModules
 title: IDebugHostSymbols::EnumerateModules
 author: windows-driver-content
-description: TBD
+description: The EnumerateModules method creates an enumerator which will enumerate every module available in a particular host context.
 ms.assetid: 1eb51e30-762b-4c52-9297-52a620fd8104
 ms.author: windowsdriverdev
 ms.date: 08/22/2018

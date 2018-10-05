@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDataModelScriptTemplateEnumerator.Release
 title: IDataModelScriptTemplateEnumerator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 0985520c-6300-4f8d-8506-052b2048d404
 ms.author: windowsdriverdev
 ms.date: 08/21/2018

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostType2.CreateArrayOf
 title: IDebugHostType2::CreateArrayOf
 author: windows-driver-content
-description: TBD
+description: For any given type, this returns a new IDebugHostType which is an array of this type.
 ms.assetid: de060e4e-fb8c-4d0d-a718-32000a15ae5b
 ms.author: windowsdriverdev
 ms.date: 09/20/2018  

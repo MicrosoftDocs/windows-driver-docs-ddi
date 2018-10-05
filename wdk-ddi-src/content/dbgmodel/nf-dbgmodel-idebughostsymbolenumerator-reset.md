@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.Reset
 title: IDebugHostSymbolEnumerator::Reset
 author: windows-driver-content
-description: TBD
+description: Resets the enumerator to its initial state.  A subsequent GetNext call will return the first symbol in the set in enumerator order.
 ms.assetid: 2a2b6b49-694e-4da9-b046-f0ced9508ec4
 ms.author: windowsdriverdev
 ms.date: 08/22/2018

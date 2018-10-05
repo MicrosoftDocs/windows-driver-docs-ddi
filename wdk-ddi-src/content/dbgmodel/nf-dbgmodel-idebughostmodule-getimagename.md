@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostModule.GetImageName
 title: IDebugHostModule::GetImageName
 author: windows-driver-content
-description: TBD
+description: The GetImageName method returns the image name of the module.
 ms.assetid: 2671db4c-9fcc-41ba-a08b-15089dd9fe8d
 ms.author: windowsdriverdev
 ms.date: 09/18/2018 

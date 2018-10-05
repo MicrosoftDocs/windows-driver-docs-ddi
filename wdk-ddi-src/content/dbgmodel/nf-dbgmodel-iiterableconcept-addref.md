@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IIterableConcept.AddRef
 title: IIterableConcept::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: d20e7a6b-9fe5-4cc2-9003-147eba239209
 ms.author: windowsdriverdev
 ms.date: 09/19/2018

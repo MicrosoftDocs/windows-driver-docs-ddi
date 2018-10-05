@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.GetType
 title: IDebugHostSymbol2::GetType
 author: windows-driver-content
-description: TBD
+description: Returns the type (e.g. "int *") of the symbol if the symbol has a type.
 ms.assetid: 145f338d-07e2-49ee-ba1b-dfe1f9fd1237
 ms.author: windowsdriverdev
 ms.date: 09/21/2018

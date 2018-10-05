@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelMethod.Call
 title: IModelMethod::Call
 author: windows-driver-content
-description: TBD
+description: The Call method is the way in which any method defined in the data model is invoked. 
 ms.assetid: 217feb09-ddbf-407c-a8a4-1144d7dd7c41
 ms.author: windowsdriverdev
 ms.date: 08/13/2018

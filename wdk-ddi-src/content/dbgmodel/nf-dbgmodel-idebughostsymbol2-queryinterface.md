@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.QueryInterface
 title: IDebugHostSymbol2::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 700638e0-73ae-4689-930a-14a925a48ee7
 ms.author: windowsdriverdev
 ms.date: 09/20/2018 

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostSymbol.CompareAgainst
 title: IDebugHostSymbol::CompareAgainst
 author: windows-driver-content
-description: TBD
+description: Compares two symbols for equality. 
 ms.assetid: 00afbd6a-9157-43b3-a449-fa9aa6f50fab
 ms.author: windowsdriverdev
 ms.date: 09/11/2018

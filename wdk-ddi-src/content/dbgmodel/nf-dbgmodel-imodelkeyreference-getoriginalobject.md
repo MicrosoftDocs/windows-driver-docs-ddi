@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelKeyReference.GetOriginalObject
 title: IModelKeyReference::GetOriginalObject
 author: windows-driver-content
-description: TBD
+description: The GetOriginalObject method returns the instance object from which the key reference was created.
 ms.assetid: 90470310-3ddb-444d-bf70-835cf42ea2ae
 ms.author: windowsdriverdev
 ms.date: 08/14/2018

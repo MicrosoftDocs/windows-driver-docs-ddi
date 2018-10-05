@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IModelKeyReference2.GetKeyName
 title: IModelKeyReference2::GetKeyName
 author: windows-driver-content
-description: TBD
+description: The GetKeyName method returns the name of the key to which this key reference is a handle. 
 ms.assetid: bfb61278-8eac-47e5-9900-aed8b31370c5
 ms.author: windowsdriverdev
 ms.date: 08/14/2018

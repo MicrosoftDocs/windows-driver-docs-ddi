@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostType.GetGenericArgumentAt
 title: IDebugHostType::GetGenericArgumentAt
 author: windows-driver-content
-description: TBD
+description: For the "i"-th generic argument to the generic/template, this returns a new IDebugHostSymbol  which represents that argument. 
 ms.assetid: 0ba1d2d4-a32e-4411-9810-85442c5d5c08
 ms.author: windowsdriverdev
 ms.date: 09/11/2018

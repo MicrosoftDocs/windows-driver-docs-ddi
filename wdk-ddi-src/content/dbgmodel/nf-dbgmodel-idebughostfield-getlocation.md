@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostField.GetLocation
 title: IDebugHostField::GetLocation
 author: windows-driver-content
-description: TBD
+description: For fields which have an address regardless of the particular type instance (e.g. fields whose location kind indicates LocationStatic), the GetLocation method will return the abstract location (address) of the field.
 ms.assetid: 07120c08-228d-4f66-8097-c5966d18f0c2
 ms.author: windowsdriverdev
 ms.date: 09/12/2018 
@@ -43,7 +43,7 @@ tech.root: debugger
 
 ## -description
 
-For fields which have an address regardless of the particular type instance (e.g.: fields whose location kind indicates LocationStatic), the GetLocation method will return the abstract location (address) of the field.
+For fields which have an address regardless of the particular type instance (e.g. fields whose location kind indicates LocationStatic), the GetLocation method will return the abstract location (address) of the field.
 
 If the given field does not have a static location, the GetLocation method will fail. 
 

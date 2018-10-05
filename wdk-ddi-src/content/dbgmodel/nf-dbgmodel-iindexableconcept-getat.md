@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IIndexableConcept.GetAt
 title: IIndexableConcept::GetAt
 author: windows-driver-content
-description: TBD
+description: The GetAt method retrieves the value at a particular N-dimensional index from within the indexed object.
 ms.assetid: a2ad86e3-55ea-49ad-88a5-745a69741e17
 ms.author: windowsdriverdev
 ms.date: 09/19/2018 
