@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 0f733ef6-7993-4514-9d2c-f2e49c8d70dd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ api_name:
 -	IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL
@@ -39,6 +40,7 @@ targetos: Windows
 
 ## -description
 
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 

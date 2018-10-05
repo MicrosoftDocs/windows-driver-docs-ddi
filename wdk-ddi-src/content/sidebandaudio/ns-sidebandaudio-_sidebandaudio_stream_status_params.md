@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_STREAM_STATUS_PARAMS
 title: _SIDEBANDAUDIO_STREAM_STATUS_PARAMS
 author: windows-driver-content
-description: 
+description: Describes the endpoint index and Device Error NTSTATUS.
 ms.assetid: b33cc6b7-153f-442a-bc3c-cc3e1c9e04e0
 ms.author: windowsdriverdev
 ms.date: 09/07/2018
@@ -33,6 +33,7 @@ api_name:
 -	_SIDEBANDAUDIO_STREAM_STATUS_PARAMS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure
