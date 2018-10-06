@@ -142,9 +142,17 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX
 

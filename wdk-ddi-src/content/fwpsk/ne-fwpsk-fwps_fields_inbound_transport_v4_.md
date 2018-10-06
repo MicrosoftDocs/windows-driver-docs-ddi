@@ -141,9 +141,14 @@ The profile identifier (network category) of the network interface. The possible
 
 ### -field FWPS_FIELD_INBOUND_TRANSPORT_V4_IPSEC_SECURITY_REALM_ID
 
+The IPsec security realm ID.
 
 ### -field FWPS_FIELD_INBOUND_TRANSPORT_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_TRANSPORT_V4_MAX
 
@@ -177,8 +182,11 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV4 data fields:
 
+FWPS_FIELD_INBOUND_TRANSPORT_V4_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
-
+FWPS_FIELD_INBOUND_TRANSPORT_V4_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
 
 
