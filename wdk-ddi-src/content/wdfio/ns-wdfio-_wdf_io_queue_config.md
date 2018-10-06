@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI
 
 If set to <b>WdfFalse</b>, the driver must handle power management of the queue. 
 
-If set to <b>WdfDefault</b>, the framework handles power management for the queue unless the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547273">WdfFdoInitSetFilter</a>. 
+If set to <b>WdfUseDefault</b>, the framework handles power management for the queue unless the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547273">WdfFdoInitSetFilter</a>. 
 
 Drivers above the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/power-policy-ownership">power policy owner</a> in the driver stack must not set the <b>PowerManaged</b> member to <b>WdfTrue</b>. 
 
