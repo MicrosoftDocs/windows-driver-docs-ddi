@@ -54,7 +54,10 @@ The **NET_ADAPTER_DMA_CAPABILITIES** structure describes the DMA capabilities of
 The size of this structure, in bytes.
  
 ### -field DmaEnabler
-The DMA enabler object used by the client driver to map and allocate memory.
+The DMA enabler object used by the client driver to map and allocate memory. 
+
+> [!IMPORTANT]
+> When configuring this object with the [**WDF_DMA_ENABLER_CONFIG**](../wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config.md) structure, client drivers must set the **WdmDmaVersionOverride** member to **3** to specify DMA version 3.
  
 ### -field MaximumPhysicalAddress
 The maximum physical address to use when allocating memory buffers. Set this member to **0** to indicate that there is no maximum address.
