@@ -86,6 +86,10 @@ The profile identifier (network category) of the network interface. The possible
 
 ### -field FWPS_FIELD_IKEEXT_V4_IPSEC_SECURITY_REALM_ID
 
+The IPsec security realm identifier.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IKEEXT_V4_MAX
 

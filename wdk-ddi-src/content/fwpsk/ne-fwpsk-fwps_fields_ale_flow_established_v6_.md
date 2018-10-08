@@ -125,17 +125,7 @@ The locally unique identifier (<a href="https://msdn.microsoft.com/library/windo
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION
 
-
-
-#####  The possible values are:
-
-
-
-#### FWP_DIRECTION_INBOUND
-
-
-
-#### FWP_DIRECTION_OUTBOUND
+The possible values are: <ul><li>FWP_DIRECTION_INBOUND</li><li>FWP_DIRECTION_OUTBOUND</li></ul>
 
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_INTERFACE_TYPE
@@ -181,21 +171,33 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_LOCAL_ADDRESS
 
+A bitmap of the local IP address.
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_LOCAL_PORT
 
+A bitmap of the local transport protocol port number.
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_REMOTE_ADDRESS
 
+A bitmap of the remote IP address.
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_REMOTE_PORT
 
+A bitmap of the remote transport protocol port number.
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_MAX
 
@@ -229,9 +231,11 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV6 data fields:
 
+FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
-
-
+FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
 
 ## -see-also

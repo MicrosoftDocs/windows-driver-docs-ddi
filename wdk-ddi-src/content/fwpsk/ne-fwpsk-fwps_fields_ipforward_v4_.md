@@ -154,6 +154,10 @@ The profile identifier (network category) of the next-hop interface. The possibl
 
 ### -field FWPS_FIELD_IPFORWARD_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IPFORWARD_V4_MAX
 
