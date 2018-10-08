@@ -141,7 +141,7 @@ The profile identifier (network category) of the network interface. The possible
 
 ### -field FWPS_FIELD_INBOUND_TRANSPORT_V6_IPSEC_SECURITY_REALM_ID
 
-The IPsec security realm ID.
+The IPsec security realm identifier.
 
 ### -field FWPS_FIELD_INBOUND_TRANSPORT_V6_COMPARTMENT_ID
 

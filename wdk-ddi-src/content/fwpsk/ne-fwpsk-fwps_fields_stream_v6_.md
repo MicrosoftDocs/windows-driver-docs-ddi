@@ -108,6 +108,10 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 
 ### -field FWPS_FIELD_STREAM_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_STREAM_V6_MAX
 

@@ -115,9 +115,14 @@ The outbound MAC frame IEEE 802.3 NDIS port field.
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_ETHERNET_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_ETHERNET_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_ETHERNET_MAX
 
