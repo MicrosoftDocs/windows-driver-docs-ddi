@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SIDETONE_PARAMS
 title: _SIDEBANDAUDIO_SIDETONE_PARAMS
 author: windows-driver-content
-description: 
+description: Describes the endpoint index and sidetone value.
 ms.assetid: baeba68b-d15f-469f-97f8-bd53e38fe1ea
 ms.author: windowsdriverdev
 ms.date: 09/06/2018
@@ -33,6 +33,7 @@ api_name:
 -	_SIDEBANDAUDIO_SIDETONE_PARAMS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_SIDETONE_PARAMS structure

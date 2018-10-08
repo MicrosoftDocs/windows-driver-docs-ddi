@@ -15,8 +15,6 @@ tech.root: audio
 
 
 
-
-
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)

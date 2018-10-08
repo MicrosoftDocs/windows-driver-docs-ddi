@@ -33,6 +33,7 @@ api_name:
 -	_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure

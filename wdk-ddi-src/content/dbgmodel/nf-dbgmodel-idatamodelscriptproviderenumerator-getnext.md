@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Gets the next script provider which is being enumerated and moves the enumerator to the next position. 
 ms.assetid: d405006e-12bd-4540-be64-48e98a8651c1
 ms.author: windowsdriverdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProviderEnumerator::GetNext, GetNext, IDataModelScriptProviderEnumerator.GetNext, IDataModelScriptProviderEnumerator::GetNext, IDataModelScriptProviderEnumerator.GetNext
 req.header: dbgmodel.h
@@ -48,12 +48,12 @@ The GetNext method will move the enumerator forward one element and return the s
 ## -parameters
 
 ### -param provider
-
 The next script provider registered with the script manager will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also

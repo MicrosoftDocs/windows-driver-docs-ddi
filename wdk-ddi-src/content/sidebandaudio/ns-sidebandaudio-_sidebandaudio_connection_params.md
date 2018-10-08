@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_CONNECTION_PARAMS
 title: _SIDEBANDAUDIO_CONNECTION_PARAMS
 author: windows-driver-content
-description: 
+description: Describes the endpoint index and Connection value.
 ms.assetid: 15577347-4c95-4cd7-bb77-8341dbb0bae4
 ms.author: windowsdriverdev
 ms.date: 09/06/2018
@@ -33,12 +33,13 @@ api_name:
 -	_SIDEBANDAUDIO_CONNECTION_PARAMS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_CONNECTION_PARAMS structure
 
 ## -description
- Describes the endpoint index and Connection value.
+Describes the endpoint index and Connection value.
 
 ## -struct-fields
 

@@ -2,10 +2,10 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_VOLUME_PARAMS
 title: _SIDEBANDAUDIO_VOLUME_PARAMS
 author: windows-driver-content
-description: 
+description: Describes the endpoint index and volume value.
 ms.assetid: f84929d3-f908-4686-83e7-f73e61912975
 ms.author: windowsdriverdev
-ms.date: 09/07/2018
+ms.date: 10/05/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,6 +33,7 @@ api_name:
 -	_SIDEBANDAUDIO_VOLUME_PARAMS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_VOLUME_PARAMS structure
@@ -49,10 +50,10 @@ Describes the endpoint index and volume value.
 Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Channel
-TBD 
+0 based index indicating the channel number.
 
 ### -field Value
-TBD 
+dbValue.
 
 ## -remarks
 
