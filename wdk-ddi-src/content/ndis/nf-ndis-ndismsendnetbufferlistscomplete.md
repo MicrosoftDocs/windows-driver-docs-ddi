@@ -124,6 +124,26 @@ The miniport driver must set one of the following status codes in the
     <b>Status</b> member of each NET_BUFFER_LIST structure that the 
     <i>NetBufferLists</i> parameter specifies:
 
+NDIS_STATUS_SUCCESS  
+    All the network data that the NET_BUFFER_LIST structure and the associated NET_BUFFER structures describe was successfully processed for transmission. For example, the miniport driver copied the data to a queue or the data has already been transmitted.
+
+NDIS_STATUS_INVALID_LENGTH  
+    The size of the data in some NET_BUFFER structures associated with this NET_BUFFER_LIST structure was too large for the underlying NIC.
+
+NDIS_STATUS_RESOURCES  
+    The send request for this NET_BUFFER_LIST structure failed due to insufficient resources.
+
+NDIS_STATUS_PAUSED  
+    The miniport adapter is in the Paused state, as described on the reference page for the MiniportPause function.
+
+NDIS_STATUS_SEND_ABORTED  
+    NDIS called the MiniportCancelSend function to cancel the send operation for this NET_BUFFER_LIST structure.
+
+NDIS_STATUS_RESET_IN_PROGRESS  
+    The miniport driver aborted the send request due to a reset.
+
+NDIS_STATUS_FAILURE  
+    The miniport driver failed the send request because of some reason other than those previously described. For example, the miniport driver can fail the send request due to a hardware failure.
 
 
 A miniport driver's call to 
