@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ api_name:
 -	IOCTL_SBAUD_SET_DEVICE_CLAIMED
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL
@@ -39,12 +40,17 @@ targetos: Windows
 
 ## -description
 
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 
 ## -ioctlparameters
 
 ### -input-buffer
+
+(IN) BOOL  
+- TRUE indicates device was claimed by client
+- FALSE indicates device was not claimed and should be inband.
 
 <text></text>
 

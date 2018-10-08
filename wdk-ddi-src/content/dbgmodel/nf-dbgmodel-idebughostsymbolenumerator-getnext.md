@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Moves the iterator forward and fetches the next symbol in the set.
 ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
 ms.author: windowsdriverdev
-ms.date: 08/22/2018
+ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::GetNext, GetNext, IDebugHostSymbolEnumerator.GetNext, IDebugHostSymbolEnumerator::GetNext, IDebugHostSymbolEnumerator.GetNext
 req.header: dbgmodel.h
@@ -51,6 +51,7 @@ E_BOUNDS will be returned when the enumerator hits the end of the set.
 
 ### -param symbol
 
+TBD
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

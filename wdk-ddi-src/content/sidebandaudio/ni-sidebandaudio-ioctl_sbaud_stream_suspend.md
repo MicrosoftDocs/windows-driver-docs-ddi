@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: ff4f29b9-2902-4f72-b204-14d5e486d42d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018
 ms.topic: ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ api_name:
 -	IOCTL_SBAUD_STREAM_SUSPEND
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_STREAM_SUSPEND IOCTL
@@ -38,6 +39,8 @@ targetos: Windows
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
+
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 

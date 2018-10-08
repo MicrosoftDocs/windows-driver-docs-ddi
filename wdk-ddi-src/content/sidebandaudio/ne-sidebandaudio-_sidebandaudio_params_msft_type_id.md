@@ -30,6 +30,7 @@ api_name:
 -	_SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration
