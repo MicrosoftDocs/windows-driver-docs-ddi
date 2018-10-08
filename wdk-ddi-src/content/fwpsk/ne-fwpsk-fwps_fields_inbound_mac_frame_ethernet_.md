@@ -120,6 +120,10 @@ The inbound MAC frame IEEE 802.3 flags field.
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_ETHERNET_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_ETHERNET_MAX
 

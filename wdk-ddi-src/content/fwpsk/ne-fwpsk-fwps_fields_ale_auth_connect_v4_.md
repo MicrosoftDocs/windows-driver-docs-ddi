@@ -391,10 +391,11 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV4 data fields:
 
+FWPS_FIELD_ALE_AUTH_CONNECT_V4_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
-
-
-
+FWPS_FIELD_ALE_AUTH_CONNECT_V4_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
 ## -see-also
 
@@ -406,7 +407,3 @@ These macros are used to access the following IPV4 data fields:
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
- 
-
- 
-

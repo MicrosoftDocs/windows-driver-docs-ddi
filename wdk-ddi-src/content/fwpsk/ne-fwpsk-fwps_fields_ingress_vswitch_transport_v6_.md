@@ -122,9 +122,14 @@ The virtual switch ingress virtual switch source virtual machine (VM) identifier
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_TRANSPORT_V6_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_TRANSPORT_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_TRANSPORT_V6_MAX
 

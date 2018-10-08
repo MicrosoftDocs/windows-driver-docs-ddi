@@ -92,6 +92,7 @@ The virtual switch ingress virtual  LAN (VLAN) identifier field.
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_VSWITCH_TENANT_NETWORK_ID
 
+The virtual switch ingress tenant network identifier field.
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_VSWITCH_ID
 
@@ -115,13 +116,20 @@ The virtual switch ingress source interface type field.
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_VM_ID
 
-The virtual switch ingress source virtual machine (VM)  identifier field.
+The virtual switch ingress source virtual machine (VM) identifier field.
 
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
+
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_COMPARTMENT_ID
+
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_MAX
@@ -136,5 +144,5 @@ The virtual switch ingress ethernet flags field.
 
 #### - FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_TENANT_NETWORK_ID
 
-The virtual switch ingress tenant network identifier   field.
+The virtual switch ingress tenant network identifier field.
 

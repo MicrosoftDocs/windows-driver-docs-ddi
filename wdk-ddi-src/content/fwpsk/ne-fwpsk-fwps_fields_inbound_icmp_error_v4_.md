@@ -212,6 +212,10 @@ The time that has passed since the last media state change occurred for the netw
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V4_MAX
 
@@ -255,10 +259,29 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV4 data fields:
 
+FWPS_FIELD_INBOUND_ICMP_ERROR_V4_LOCAL_INTERFACE_INDEX  
+The index of the local network interface, as enumerated by the network stack.
 
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_SUB_INTERFACE_INDEX  
+The index of the logical network interface, as enumerated by the network stack.
 
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_INBOUND_ICMP_ERROR_V4_LOCAL_INTERFACE_TYPE  
+The type of the local network interface, as defined by the Internet Assigned Numbers Authority (IANA). For more information, see IANAifType-MIB Definitions and the Windows SDK.
 
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_INBOUND_ICMP_ERROR_V4_LOCAL_TUNNEL_TYPE  
+The encapsulation method used by a tunnel if the IfType member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined by IANA. For more information, see IANAifType-MIB Definitions and the Windows SDK.
 
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
 
 ## -see-also
 

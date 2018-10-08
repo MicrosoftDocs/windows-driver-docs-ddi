@@ -107,6 +107,8 @@ Indicates that the virtual switch interface was deleted.
 
 ### -field FWPS_VSWITCH_EVENT_INTERFACE_CONNECT
 
+Indicates that the virtual switch interface was connected.
+
 
 ### -field FWPS_VSWITCH_EVENT_INTERFACE_DISCONNECT
 
