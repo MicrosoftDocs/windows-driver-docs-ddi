@@ -50,7 +50,7 @@ req.typenames: PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE
 ## -description
 
 
-The <b>PNP_LOCATION_INTERFACE</b> structure describes the <a href=https://docs.microsoft.com/windows-hardware/drivers/kernel/adding-a-pnp-device-to-a-running-system#using-guidpnplocationinterface>GUID_PNP_LOCATION_INTERFACE</a> interface.
+The **PNP_LOCATION_INTERFACE** structure describes the [GUID_PNP_LOCATION_INTERFACE](https://docs.microsoft.com/windows-hardware/drivers/kernel/adding-a-pnp-device-to-a-running-system#using-guidpnplocationinterface) interface.
 
 
 ## -struct-fields
