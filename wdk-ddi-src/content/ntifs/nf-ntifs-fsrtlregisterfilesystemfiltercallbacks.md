@@ -302,8 +302,6 @@ The filter parameter union is defined as follows:
 </tr>
 <tr>
 <td>
-
-```C++
 typedef union _FS_FILTER_PARAMETERS {
     //
     //  AcquireForModifiedPageWriter
@@ -365,11 +363,10 @@ typedef union _FS_FILTER_PARAMETERS {
         PVOID Argument5;
     } Others;
 } FS_FILTER_PARAMETERS, *PFS_FILTER_PARAMETERS;
-```
-
 </td>
 </tr>
 </table></span></div>
+
 <table>
 <tr>
 <th>Parameter</th>
