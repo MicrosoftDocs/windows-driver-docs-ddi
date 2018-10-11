@@ -1347,4 +1347,358 @@ The ProcGrp library implements wrapper functions for the KeXxx routines in the p
 
 Earlier versions of Windows do not support processor groups and do not implement the KeXxx routines in the preceding list. If the ProcGrp library is linked to a driver that runs on one of these earlier versions of Windows, the library initialization function, WdmlibProcgrpInitialize, detects that the operating system does not support processor groups. To deal with this case, each wrapper function contains a simplified implementation of the corresponding KeXxx routine. This implementation supports only one processor group, group number 0. For example, the wrapper function for the KeQueryMaximumGroupCount routine always returns a count of one. For another example, the wrapper function for the KeGetCurrentProcessorNumberEx routine emulates this routine by calling the KeGetCurrentProcessorNumber routine. KeGetCurrentProcessorNumber is similar to KeGetCurrentProcessorNumberEx, but lacks support for processor groups, which, in this case, has the same effect as supporting just one processor group.
 
-For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](http://download.microsoft.com/download/a/d/f/ad
+For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](http://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
+
+The ProcGrp library is contained in the Windows 7 version of the WDK. The library functions are declared in the Procgrp.h header file and are implemented in the Procgrp.lib library file. 
+
+In addition to the KeXxx wrapper functions, the ProcGrp library implements the following function to initialize the library:
+
+- WdmlibProcgrpInitialize
+
+
+
+
+
+## DMA
+
+DMA Library Routines
+Drivers use the routines documented in this section to perform direct memory access (DMA) operations. The routines are accessed through pointers and cannot be called directly by name.
+
+Drivers performing DMA operations use IoGetDmaAdapter to get a pointer to the DMA_ADAPTER structure for the device. The DmaOperations member of the structure points to a DMA_OPERATIONS structure, which is a table of pointers to the DMA routines for the physical device object of that device.
+
+
+|Function|Description|
+|---|---|
+|IoGetDmaAdapter |Returns a pointer to an adapter object that represents either the DMA channel to which the driver's device is connected or the driver's bus-master adapter. Also returns the maximum number of map registers the driver can specify for each DMA transfer.
+|MmGetMdlVirtualAddress |Returns the base virtual address of a buffer described by a given MDL. The returned address, used as an index to a physical address entry in the MDL, can be input to MapTransfer.
+|MmGetSystemAddressForMdlSafe |Returns a nonpaged system-space virtual address for the base of the memory area described by an MDL. It maps the physical pages described by the MDL into system space, if they are not already mapped to system space. 
+|ADDRESS_AND_SIZE_TO_SPAN_PAGES |Returns the number of pages spanned by the virtual range defined by a virtual address and a length in bytes. A driver can use this macro to determine whether a transfer request must be split into partial transfers.
+|AllocateAdapterChannel |Reserves exclusive access to a DMA channel and map registers for a device. When the channel and registers are available, this routine calls a driver-supplied AdapterControl routine to carry out an I/O operation through either the system DMA controller or a bus-master adapter.
+|AllocateCommonBuffer |Allocates and maps a logically contiguous region of memory that is simultaneously accessible from both the processor and a device. This routine returns TRUE if the requested length was allocated.
+|BuildMdlFromScatterGatherList |Builds an MDL corresponding to a scatter/gather list.
+|BuildScatterGatherList |Prepares the system for scatter/gather DMA for a device and calls a driver-supplied routine to carry out the I/O operation. This function provides the same functionality as GetScatterGatherList, except it uses a driver-supplied buffer to hold the scatter/gather list.
+|CalculateScatterGatherList |Computes the buffer size needed to hold a scatter/gather list for a memory buffer.
+|FlushAdapterBuffers |Forces any data remaining in either a bus-master adapter's or the system DMA controller's internal buffers to be written into memory or to the device.
+|FreeAdapterChannel |Releases an adapter object that represents a system DMA channel, and optionally releases any allocated map registers.
+|FreeCommonBuffer |Releases and unmaps a previously allocated common buffer. Arguments must match those passed in an earlier call to AllocateCommonBuffer.
+|FreeMapRegisters |Releases a set of map registers that were saved from a call to AllocateAdapterChannel. A driver calls this routine after using the registers in one or more calls to MapTransfer, flushing the cache by calling FlushAdapterBuffers, and completing the bus-master DMA transfer.
+|GetDmaAlignment |Returns the buffer alignment requirements for a DMA controller or device.
+|GetScatterGatherList |Prepares the system for scatter/gather DMA for a device and calls a driver-supplied routine to carry out the I/O operation. For devices that support scatter/gather DMA, this routine combines the functionality of AllocateAdapterChannel and MapTransfer.
+|KeFlushIoBuffers |Flushes the memory region described by an MDL from all processors' caches into memory.
+|MapTransfer |Sets up map registers for an adapter object previously allocated by AllocateAdapterChannel to map a transfer from a locked-down buffer. Returns the logical address of the mapped region and, for bus-master devices that support scatter/gather, the number of bytes mapped.
+|PutDmaAdapter |Frees an adapter object previously allocated by IoGetDmaAdapter.
+|PutScatterGatherList |Frees map registers and scatter/gather list previously allocated by GetScatterGatherList. 
+|ReadDmaCounter Returns the number of bytes yet to be transferred during the current system DMA operation (in autoinitialize mode).
+
+## PIO
+|Function|Description|
+|---|---|
+|MmProbeAndLockPages |Probes the pages specified in an MDL for a particular kind of access, makes the pages resident, and locks them in memory; returns the MDL updated with corresponding physical addresses.
+|MmGetSystemAddressForMdlSafe |Returns a system-space virtual address that maps the physical pages described by a given MDL for drivers whose devices must use PIO. If no virtual address exists, one is assigned.
+|KeFlushIoBuffers |Flushes the memory region described by a given MDL from all processors' caches into memory.
+|MmUnlockPages |Unlocks the previously probed and locked pages specified in an MDL.
+|MmMapIoSpace |Maps a physical address range to a cached or noncached virtual address range in nonpaged system space.
+|MmUnmapIoSpace |Unmaps a virtual address range from a physical address range.
+
+## Interrupts
+|Function|Description|
+|---|---|
+|IoConnectInterrupt |Registers a driver's interrupt handling routine. Drivers should use IoConnectInterruptEx instead. 
+|IoDisconnectInterrupt |Unregisters an interrupt handling routine that IoConnectInterrupt registered.
+|IoConnectInterruptEx |Registers a driver's interrupt handling routine. Drivers can register either an InterruptService routine for line-based interrupts or an InterruptMessageService routine for message-signaled interrupts.
+|IoDisconnectInterruptEx |Unregisters an interrupt-handling routine that IoConnectInterruptEx registered.
+|IoInitializeDpcRequest |Associates a driver-supplied DpcForIsr routine with a given device object, so that the DpcForIsr routine can complete interrupt-driven I/O operations.
+|KeSynchronizeExecution |Synchronizes the execution of a driver-supplied SynchCritSection routine with that of the ISR associated with a set of interrupt objects, given a pointer to the interrupt objects.
+|KeAcquireInterruptSpinLock |Acquires the spin lock that synchronizes access with an interrupt's ISR.
+|KeReleaseInterruptSpinLock |Releases the spin lock that synchronized access with an interrupt's ISR.
+|KeRegisterNmiCallback |Registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
+|KeDeregisterNmiCallback |Deregisters a routine registered by KeRegisterNmiCallback.
+
+ 
+## Driver-Managed Queues
+|Function|Description|
+|---|---|
+|KeInitializeSpinLock |Initializes a variable of type KSPIN_LOCK. An initialized spin lock is a required parameter to the ExInterlockedXxxList routines.
+|InitializeListHead |Sets up a queue header for a driver's internal queue, given a pointer to driver-supplied storage for the queue header and queue. An initialized queue header is a required parameter to the ExInterlockedInsert/RemoveXxxList routines.
+|ExInterlockedInsertTailList |Inserts an entry at the tail of a doubly linked list, using a spin lock to ensure multiprocessor-safe access to the list and atomic modification of the list links.
+|ExInterlockedInsertHeadList |Inserts an entry at the head of a doubly linked list, using a spin lock to ensure multiprocessor-safe access to the list and atomic modification of the links in the list.
+|ExInterlockedRemoveHeadList |Removes an entry from the head of a doubly linked list, using a spin lock to ensure multiprocessor-safe access to the list and atomic modification of the links in the list.
+|ExInterlockedPopEntryList |Removes an entry from the head of a singly linked list as an atomic operation, using a spin lock to ensure multiprocessor-safe access to the list.
+|ExInterlockedPushEntryList |Inserts an entry at the head of a singly linked list as an atomic operation, using a spin lock to ensure multiprocessor-safe access to the list.
+|IsListEmpty |Returns TRUE if a queue is empty. (This type of doubly linked list is not protected by a spin lock, unless the caller explicitly manages synchronization to queued entries with an initialized spin lock for which the caller supplies the storage.)
+|InsertTailList |Queues an entry at the end of the list.
+|InsertHeadList |Queues an entry at the head of the list.
+|RemoveHeadList |Dequeues an entry at the head of the list.
+|RemoveTailList |Dequeues an entry at the end of the list.
+|RemoveEntryList |Returns whether a given entry is in the given list and dequeues the entry if it is.
+|PushEntryList |Inserts an entry into the queue. (This type of singly linked list is not protected by a spin lock, unless the caller explicitly manages synchronization to queued entries with an initialized spin lock for which the caller supplies the storage.)
+|PopEntryList |Removes an entry from the queue.
+|ExInterlockedPopEntrySList |Removes an entry from the head of a sequenced, singly linked list that was set up with ExInitializeSListHead. 
+|ExInterlockedPushEntrySList |Queues an entry at the head of a sequenced, singly linked list that was set up with ExInitializeSListHead. 
+|ExQueryDepthSList |Returns the number of entries currently queued in a sequenced, singly linked list. 
+|ExInitializeNPagedLookasideList |Sets up a lookaside list, protected by a system-supplied spin lock, in nonpaged pool from which the driver can allocate and free blocks of a fixed size. 
+|KeInitializeDeviceQueue |Initializes a device queue object to a not-busy state, setting up an associated spin lock for multiprocessor-safe access to device queue entries.
+|KeInsertDeviceQueue |Acquires the device queue spin lock and queues an entry to a device driver if the device queue is not empty; otherwise, inserts the entry at the tail of the device queue.
+|KeInsertByKeyDeviceQueue |Acquires the device queue spin lock and queues an entry to a device driver if the device queue is not empty; otherwise, inserts the entry into the queue according to the given sort-key value.
+|KeRemoveDeviceQueue |Removes an entry from the head of a given device queue.
+|KeRemoveByKeyDeviceQueue |Removes an entry, selected according to the specified sort-key value, from the given device queue.
+|KeRemoveEntryDeviceQueue |Determines whether a given entry is in the given device queue and, if so, dequeues the entry.
+
+## Driver System Processes and Threads
+
+
+|Function|Description|
+|---|---|
+|PsCreateSystemThread |Creates a kernel-mode thread associated with a given process object or with the default system process. Returns a handle for the thread.
+|PsTerminateSystemThread |Terminates the current thread and satisfies as many waits as possible for the current thread object.
+|PsGetCurrentThread |Returns a handle for the current thread.
+|KeGetCurrentThread |Returns a pointer to the opaque thread object that represents the current thread. 
+|KeQueryPriorityThread |Returns the current priority of a given thread. 
+|KeSetBasePriorityThread |Sets up the run-time priority, relative to the system process, for a driver-created thread.
+|KeSetPriorityThread |Sets up the run-time priority for a driver-created thread with a real-time priority attribute.
+|KeDelayExecutionThread |Puts the current thread into an alertable or nonalertable wait state for a given interval.
+|IoQueueWorkItem |Queues an initialized work queue item so the driver-supplied routine will be called when a system worker thread is given control.
+|ZwSetInformationThread |Sets the priority of a given thread for which the caller has a handle.
+
+|Function|Description|
+|---|---| 
+|PsGetCurrentProcessId| The PsGetCurrentProcessId routine identifies the current thread's process. 
+|PsGetProcessCreateTimeQuadPart|The PsGetProcessCreateTimeQuadPart routine returns a LONGLONG value that represents the time at which the process was created. 
+|PsGetProcessId| The PsGetProcessId routine returns the process identifier (process ID) that is associated with a specified process. 
+|PsQueryTotalCycleTimeProcess| The PsQueryTotalCycleTimeProcess routine returns the accumulated cycle time for the specified process.
+|PCREATE_PROCESS_NOTIFY_ROUTINE| Process-creation callback implemented by a driver to track the system-wide creation and deletion of processes against the driver's internal state.
+|PsSetCreateProcessNotifyRoutine| The PsSetCreateProcessNotifyRoutine routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.
+|PCREATE_PROCESS_NOTIFY_ROUTINE_EX| A callback routine implemented by a driver to notify the caller when a process is created or exits.
+|PsSetCreateProcessNotifyRoutineEx| The PsSetCreateProcessNotifyRoutineEx routine registers or removes a callback routine that notifies the caller when a process is created or exits.
+|PsSetCreateProcessNotifyRoutineEx2| The PsSetCreateProcessNotifyRoutineEx2 routine registers or removes a callback routine that notifies the caller when a process is created or deleted.
+
+|Function|Description|
+|---|---| 
+|PLOAD_IMAGE_NOTIFY_ROUTINE| Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. 
+|PsSetLoadImageNotifyRoutine| The PsSetLoadImageNotifyRoutine routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
+|PsSetLoadImageNotifyRoutineEx| The PsSetLoadImageNotifyRoutineEx routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
+|PsTerminateSystemThread| The PsTerminateSystemThread routine terminates the current system thread.
+ 
+
+ 
+### Best practices for implementing process and thread-related callback functions
+This set of guidelines applies to these callback routines:
+
+-   PCREATE_PROCESS_NOTIFY_ROUTINE 
+-   PCREATE_PROCESS_NOTIFY_ROUTINE_EX 
+-   PCREATE_THREAD_NOTIFY_ROUTINE 
+-   PLOAD_IMAGE_NOTIFY_ROUTINE 
+
+Keep notify routines short and simple. 
+-   Do not make calls into a user mode service to validate the process, thread, or image. 
+-   Do not make registry calls. 
+-   Do not make blocking and/or Interprocess Communication (IPC) function calls. 
+-   Do not synchronize with other threads because it can lead to reentrancy deadlocks. 
+-   Use System Worker Threads to queue work especially work involving: 
+
+    -   Slow API’s or API’s that call into other process. 
+    -   Any blocking behavior which could interrupt threads in core services. 
+
+-   Be considerate of best practices for kernel mode stack usage. For examples, see How do I keep my driver from running out of kernel-mode stack? and Key Driver Concepts and Tips. 
+      
+
+
+## Run-Time Library (RTL) Routines
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
+
+|Function|Description|
+|---|---|
+|RtlInitString |Initializes the specified string in a buffer.
+|RtlInitAnsiString |Initializes the specified ANSI string in a buffer.
+|RtlInitUnicodeString |Initializes the specified Unicode string in a buffer.
+|RtlAnsiStringToUnicodeSize |Returns the size in bytes required to hold a Unicode version of a given buffered ANSI string.
+|RtlAnsiStringToUnicodeString |Converts a buffered ANSI string to a Unicode string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.) You can also use the string manipulation routines provided by a compiler to convert ANSI strings to Unicode. 
+|RtlFreeUnicodeString |Releases a buffer containing a Unicode string, given a pointer to the buffer returned by RtlAnsiStringToUnicodeString.
+|RtlUnicodeStringToAnsiString |Converts a buffered Unicode string to an ANSI string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.)
+|RtlFreeAnsiString |Releases a buffer containing an ANSI string, given a pointer to the buffer returned by RtlUnicodeStringToAnsiString.
+|RtlAppendUnicodeStringToString |Concatenates a copy of a buffered Unicode string with a buffered Unicode string, given pointers to both buffers.
+|RtlAppendUnicodeToString |Concatenates a given input string with a buffered Unicode string, given a pointer to the buffer.
+|RtlCopyString |Copies the source string to the destination, given pointers to both buffers, or sets the length of the destination string (but not the length of the destination buffer) to zero if the optional pointer to the source-string buffer is NULL.
+|RtlCopyUnicodeString |Copies the source string to the destination, given pointers to both buffers, or sets the length of the destination string (but not the length of the destination buffer) to zero if the optional pointer to the source-string buffer is NULL.
+|RtlEqualString |Returns TRUE if the given ANSI alphabetic strings are equivalent.
+|RtlEqualUnicodeString |Returns TRUE if the given buffered strings are equivalent.
+|RtlCompareString |Compares two buffered, single-byte character strings and returns a signed value indicating whether they are equivalent or which is greater. 
+|RtlCompareUnicodeString |Compares two buffered Unicode strings and returns a signed value indicating whether they are equivalent or which is greater.
+|RtlUpperString |Converts a copy of a buffered string to uppercase and stores the copy in a destination buffer.
+|RtlUpcaseUnicodeString |Converts a copy of a buffered Unicode string to uppercase and stores the copy in a destination buffer.
+|RtlIntegerToUnicodeString |Converts an unsigned integer value in the specified base to one or more Unicode characters in a buffer.
+|RtlUnicodeStringToInteger |RtlUnicodeStringToInteger converts the Unicode string representation of an integer into its integer equivalent.
+
+The following routines are reserved for system use. Do not use them in your driver.
+
+|Routine|Replacement|
+|---|---|
+|RtlAssert| Use ASSERT instead. |
+|RtlGetCallersAddress| Use the intrinsic _ReturnAddress instead. |
+|RtlInterlockedAndBits| Use InterlockedAnd instead.|
+|RtlInterlockedAndBitsDiscardReturn| Use InterlockedAnd instead.|
+|RtlInterlockedClearBits| Use InterlockedAnd instead.|
+|RtlInterlockedClearBitsDiscardReturn| Use InterlockedAnd instead.|
+|RtlInterlockedSetBits| Use InterlockedOr instead.|
+|RtlInterlockedSetBitsDiscardReturn| Use InterlockedOr instead.|
+|RtlInterlockedSetClearBits||
+|RtlInterlockedXorBits| Use InterlockedXor instead|
+|RtlWalkFrameChain||
+
+
+### Safe String Functions for Unicode and ANSI Characters
+Use the functions in this section to manipulate Unicode and ANSI strings in kernel-mode drivers.
+
+Each function is available in two versions:
+
+A W-suffixed version that supports two-byte Unicode characters.
+
+An A-suffixed version that supports one-byte ANSI characters.
+
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
+
+|Function|Description|
+|---|---|
+|RtlStringCbCatW| The RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.
+|RtlStringCbCatExW| The RtlStringCbCatExW and RtlStringCbCatExA functions concatenate two byte-counted strings. 
+|RtlStringCbCatNW| The RtlStringCbCatNW and RtlStringCbCatNA functions concatenate two byte-counted strings while limiting the size of the appended string. 
+|RtlStringCbCatNExW| The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string. 
+|RtlStringCbCopyW| The RtlStringCbCopyW and RtlStringCbCopyA functions copy a byte-counted string into a buffer. 
+|RtlStringCbCopyExW| The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
+|RtlStringCbCopyNW| The RtlStringCbCopyNW and RtlStringCbCopyNA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCbCopyNExW| The RtlStringCbCopyNExW and RtlStringCbCopyNExA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCbLengthW| The RtlStringCbLengthW and RtlStringCbLengthA functions determine the length, in bytes, of a supplied string. 
+|RtlStringCbPrintfW| The RtlStringCbPrintfW and RtlStringCbPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information. 
+|RtlStringCbPrintfExW| The RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCbVPrintfW| The RtlStringCbVPrintfW and RtlStringCbVPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCbVPrintfExW| The RtlStringCbVPrintfExW and RtlStringCbVPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchCatW| The RtlStringCchCatW and RtlStringCchCatA functions concatenate two character-counted strings.
+|RtlStringCchCatExW| The RtlStringCchCatExW and RtlStringCchCatExA functions concatenate two character-counted strings.
+|RtlStringCchCatNW| The RtlStringCchCatNW and RtlStringCchCatNA functions concatenate two character-counted strings while limiting the size of the appended string. 
+|RtlStringCchCatNExW| The RtlStringCchCatNExW and RtlStringCchCatNExA functions concatenate two character-counted strings while limiting the size of the appended string.
+|RtlStringCchCopyW| The RtlStringCchCopyW and RtlStringCchCopyA functions copy a null-terminated source string into a destination buffer of specified length. 
+|RtlStringCchCopyExW| The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
+|RtlStringCchCopyNW| The RtlStringCchCopyNW and RtlStringCchCopyNA functions copy a character-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCchCopyNExW| The RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCchLengthW| The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string. 
+|RtlStringCchPrintfW| The RtlStringCchPrintfW and RtlStringCchPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchPrintfExW| The RtlStringCchPrintfExW and RtlStringCchPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchVPrintfW| The RtlStringCchVPrintfW and RtlStringCchVPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchVPrintfExW|The RtlStringCchVPrintfExW and RtlStringCchVPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlUnalignedStringCbLength| The RtlUnalignedStringCbLengthW function is a version of the RtlStringCbLength function that accepts an unaligned pointer to a string of Unicode characters.
+|RtlUnalignedStringCchLengthW| The RtlUnalignedStringCchLengthW function is a version of the RtlStringCchLength function that accepts an unaligned pointer to a string of Unicode characters.
+ 
+### Safe String Functions for UNICODE_STRING Structures
+Use the functions in this section to manipulate strings within UNICODE_STRING structures in kernel-mode drivers.
+
+If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
+
+|Function|Description|
+|---|---|
+|RtlStringCbCopyUnicodeString| The RtlStringCbCopyUnicodeString function copies the contents of a UNICODE_STRING structure to a specified destination.
+|RtlStringCbCopyUnicodeStringEx| The RtlStringCbCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination. 
+|RtlStringCchCopyUnicodeString| The RtlStringCchCopyUnicodeString function copies the contents of a UNICODE_STRING structure to a specified destination.
+|RtlStringCchCopyUnicodeStringEx| The RtlStringCchCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination. 
+|RtlUnicodeStringCat| The RtlUnicodeStringCat function concatenates two strings that are contained in UNICODE_STRING structures.
+|RtlUnicodeStringCatEx| The RtlUnicodeStringCatEx function concatenates two strings that are contained in UNICODE_STRING structures. 
+|RtlUnicodeStringCatString| The RtlUnicodeStringCatString function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
+|RtlUnicodeStringCatStringEx| The RtlUnicodeStringCatStringEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
+|RtlUnicodeStringCbCatN| The RtlUnicodeStringCbCatN function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCbCatNEx| The RtlUnicodeStringCbCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCbCatStringN| The RtlUnicodeStringCbCatStringN function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCbCatStringNEx| The RtlUnicodeStringCbCatStringNEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCbCopyN| The RtlUnicodeStringCbCopyN function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCbCopyNEx| The RtlUnicodeStringCbCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCbCopyStringN| The RtlUnicodeStringCbCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCbCopyStringNEx| The RtlUnicodeStringCbCopyStringNEx function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCchCatN| The RtlUnicodeStringCchCatN function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCchCatNEx| The RtlUnicodeStringCchCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCchCatStringN| The RtlUnicodeStringCchCatStringN function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCchCatStringNEx| The RtlUnicodeStringCchCatStringNEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCchCopyN| The RtlUnicodeStringCchCopyN function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCchCopyNEx| The RtlUnicodeStringCchCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCchCopyStringN| The RtlUnicodeStringCchCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCchCopyStringNEx| The RtlUnicodeStringCchCopyStringNEx function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCopy| The RtlUnicodeStringCopy function copies a string from one UNICODE_STRING structure to another.
+|RtlUnicodeStringCopyEx| The RtlUnicodeStringCopyEx function copies a string from one UNICODE_STRING structure to another.
+|RtlUnicodeStringCopyString| The RtlUnicodeStringCopyString function copies a string into a UNICODE_STRING structure.
+|RtlUnicodeStringCopyStringEx| The RtlUnicodeStringCopyStringEx function copies a string into a UNICODE_STRING structure.
+|RtlUnicodeStringInit| The RtlUnicodeStringInit function initializes a UNICODE_STRING structure.
+|RtlUnicodeStringInitEx| The RtlUnicodeStringInitEx function initializes a UNICODE_STRING structure.
+|RtlUnicodeStringPrintf| The RtlUnicodeStringPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+|RtlUnicodeStringPrintfEx| The RtlUnicodeStringPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+|RtlUnicodeStringValidate| The RtlUnicodeStringValidate function validates the contents of a UNICODE_STRING structure.
+|RtlUnicodeStringValidateEx| The RtlUnicodeStringValidateEx function validates the contents of a UNICODE_STRING structure.
+|RtlUnicodeStringVPrintf| The RtlUnicodeStringVPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+|RtlUnicodeStringVPrintfEx| The RtlUnicodeStringVPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+
+## Safe Integer Library Routines
+This section describes the safe integer functions for drivers. These functions are defined as inline functions in the Ntintsafe.h header file in the WDK. The safe integer functions are designed to help drivers to avoid arithmetic overflow errors. These functions are divided into two sets; the first converts integer values from one type to another, and the second performs math functions. For more information about these functions, see Using Safe Integer Functions.
+
+The Intsafe.h header file in the Windows SDK defines a similar set of safe integer functions for use by applications. For more information about this version of the safe integer functions, see Intsafe.h Functions.
+
+
+ 
+## Data Conversions
+|Function|Description|
+|---|---|
+|InterlockedExchange |Sets a variable of type LONG to a given value as an atomic operation; returns the original value of the variable.
+|RtlConvertLongToLargeInteger |Converts a given LONG value to a LARGE_INTEGER value.
+|RtlConvertUlongToLargeInteger |Converts a given ULONG value to a LARGE_INTEGER value.
+|RtlTimeFieldsToTime |Converts information in a TIME_FIELDS structure to system time.
+|RtlTimeToTimeFields |Converts a system time value into a buffered TIME_FIELDS value.
+|ExSystemTimeToLocalTime |Adds the time-zone bias for the current locale to GMT system time, converting it to local time.
+|ExLocalTimeToSystemTime |Subtracts the time-zone bias from the local time, converting it to GMT system time.
+|RtlAnsiStringToUnicodeString |Converts a buffered ANSI string to a Unicode string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.)
+|RtlUnicodeStringToAnsiString |Converts a buffered Unicode string to an ANSI string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.)
+|RtlUpperString |Converts a copy of a buffered string to uppercase and stores the copy in a destination buffer.
+|RtlUpcaseUnicodeString |Converts a copy of a buffered Unicode string to uppercase and stores the copy in a destination buffer.
+|RtlCharToInteger |Converts a single-byte character value into an integer in the specified base. 
+|RtlIntegerToUnicodeString |Converts an unsigned integer value in the specified base to one or more Unicode characters in the given buffer.
+|RtlUnicodeStringToInteger |Converts a Unicode string representation of an integer into its integer equivalent.
+
+## Access to Driver-Managed Objects
+|Function|Description|
+|---|---|
+|ExCreateCallback |Creates or opens a callback object.
+|ExNotifyCallback |Calls the callback routines registered with a previously created or opened callback object. 
+|ExRegisterCallback |Registers a callback routine with a previously created or opened callback object, so that the caller can be notified when conditions defined for the callback routine occur.
+|ExUnregisterCallback |Cancels the registration of a callback routine with a callback object.
+|IoRegisterDeviceInterface |Registers device functionality (a device interface) that a driver can enable for use by applications or other system components.
+|IoSetDeviceInterfaceState |Enables or disables a previously registered device interface. Applications and other system components can open only interfaces that are enabled.
+|IoGetDeviceInterfaceAlias |Returns the alias device interface of the specified interface class, if the alias exists. Device interfaces are considered aliases if they are exposed by the same underlying device and have identical interface reference strings, but are of different interface classes.
+|IoGetDeviceInterfaces |Returns a list of device interfaces of a particular device interface class (such as all devices on the system that support a HID interface).
+|IoGetFileObjectGenericMapping |Returns information about the mapping between generic access rights and specific access rights for file objects.
+|IoSetShareAccess |Sets the access allowed to a given file object representing a device. (Only highest-level drivers can call this routine.)
+|IoCheckShareAccess |Checks whether a request to open a file object specifies a desired access that is compatible with the current shared access permissions for the open file object. (Only highest-level drivers can call this routine.)
+|IoUpdateShareAccess |Modifies the current shared access permissions on the given file object. (Only highest-level drivers can call this routine.)
+|IoRemoveShareAccess |Restores the shared access permissions on the given file object that were modified by a preceding call to IoUpdateShareAccess.
+|RtlLengthSecurityDescriptor |Returns the size in bytes of a given security descriptor.
+|RtlValidSecurityDescriptor |Returns whether a given security descriptor is valid.
+|RtlCreateSecurityDescriptor |Initializes a new security descriptor to an absolute format with default values (in effect, with no security constraints).
+|RtlSetDaclSecurityDescriptor |Sets the discretionary ACL information for a given security descriptor in absolute format.
+|SeAssignSecurity |Builds a security descriptor for a new object, given the security descriptor of its parent directory (if any) and an originally requested security for the object.
+|SeDeassignSecurity |Deallocates the memory associated with a security descriptor that was created with SeAssignSecurity.
+|SeValidSecurityDescriptor |Returns whether a given security descriptor is structurally valid. 
+|SeAccessCheck |Returns a Boolean value indicating whether the requested access rights can be granted to an object protected by a security descriptor and, possibly, a current owner.
+|SeSinglePrivilegeCheck |Returns a Boolean value indicating whether the current thread has at least the given privilege level.
+
+ 
+## Error Handling
+|Function|Description|
+|---|---|
+|IoAllocateErrorLogEntry |Allocates and initializes an error log packet; returns a pointer so the caller can supply error log data and call IoWriteErrorLogEntry with the packet.
+|IoFreeErrorLogEntry |Frees an error log entry allocated by IoAllocateErrorLogEntry.
+|IoWriteErrorLogEntry |Queues a previously allocated error log packet, filled in by the driver, to the system error logging thread.
+|IoIsErrorUserInduced |Returns a Boolean value indicating whether an I/O request failed due to one of the following (user-correctable) conditions: STATUS_IO_TIMEOUT, STATUS_DEVICE_NOT_READY, STATUS_UNRECOGNIZED_MEDIA, STATUS_VERIFY_REQUIRED, STATUS_WRONG_VOLUME, STATUS_MEDIA_WRITE_PROTECTED, or STATUS_NO_MEDIA_IN_DEVICE. If the result is TRUE, a removable-media driver must call IoSetHardErrorOrVerifyDevice before completing the IRP.
+|IoSetHardErrorOrVerifyDevice |Supplies the device object for which the given IRP was failed due to a user-induced error, such as supplying the incorrect media for the requested operation or changing the media before the requested operation was completed. (A file system driver uses the associated device object to send a dialog box to the user; the user can then correct the error or retry the operation.)
+|IoSetThreadHardErrorMode |Enables or disables error reporting for the current thread using IoRaiseHardError or IoRaiseInformationalHardError.
+|IoRaiseHardError |Causes a dialog box to be sent to the user indicating that the given IRP was failed on the given device object for an optional VPB, so that the user can correct the error or retry the operation.
+|IoRaiseInformationalHardError |Causes a dialog box to be sent to the user, showing an I/O error status and optional string supplying more information.
+|ExRaiseStatus |Raises an error status so that a caller-supplied structured exception handler is called. (This routine is useful only to highest-level drivers that supply exception handlers, in particular to file systems.)
+|KeBugCheckEx |Brings down the system in a controlled manner, displaying the bug-check code and possibly more information, after the caller discovers an unrecoverable inconsistency that will corrupt the system unless it is brought down. After the system is brought down, this routine displays bug-check and possibly other information. (This routine can be called when debugging under-development drivers. Otherwise, drivers should never call this routine when they can handle an error by failing an IRP and by calling IoAllocateErrorLogEntry and IoWriteErrorLogEntry.)
+|KeBugCheck |Brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that will corrupt the system if the caller continues to run. KeBugCheckEx is preferable.
+|KeInitializeCallbackRecord |Initializes a bug-check callback record before a device driver calls KeRegisterBugCheckCallback. 
+|KeRegisterBugCheckCallback |Registers the device driver's bug-check callback routine, which is called if a system bug check occurs. Such a driver-supplied routine saves driver-determined state information, such as the contents of device registers, that would not otherwise be written into the system crash-dump file. 
+|KeDeregisterBugCheckCallback |Removes a device driver's callback routine from the set of registered bug-check callback routines. 
+
