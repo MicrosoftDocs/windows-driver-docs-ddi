@@ -113,7 +113,7 @@ A protocol driver sends this OID to a miniport driver to specify a wake-up patte
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
        OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
 
@@ -149,7 +149,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
 
 

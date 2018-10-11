@@ -73,7 +73,7 @@ The size, in bytes, of the NPI_REGISTRATION_INSTANCE structure.
 ### -field NpiId
 
 A pointer to the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> identifier for the specific 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> identifier for the specific 
      NPI to which the network module
      is registering as either a client or a provider. The NPIID data type is defined as:
      
@@ -100,7 +100,7 @@ A pointer to an
 ### -field Number
 
 The implementation number of the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the network module
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the network module
      is registering as either a client or a provider. A network module can support multiple implementations
      of the same 
      NPI by registering as either a
@@ -122,7 +122,7 @@ The implementation number of the
 
 A pointer to a structure that specifies characteristics that are unique to the network module. The
      contents of the structure are 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a>-specific. A network module
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a>-specific. A network module
      should set this member to <b>NULL</b> if it is registering as a client of an NPI that does not define a client
      characteristics structure or if it is registering as a provider of an NPI that does not define a
      provider characteristics structure.
@@ -150,7 +150,7 @@ A network module must make sure that the memory for the NPIID pointed to by the
     <b>NpiId</b> member, the memory for the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a> structure pointed to by the 
     <b>ModuleId</b> member, and the memory for the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a>-specific characteristics
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a>-specific characteristics
     structure pointed to by the 
     <b>NpiSpecificCharacteristics</b> member remain valid and resident in memory as long as the network module
     is registered with the NMR.

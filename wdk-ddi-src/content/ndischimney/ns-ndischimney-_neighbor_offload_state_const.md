@@ -109,7 +109,7 @@ When <b>NULL</b>, the offload target should use any VLAN IDs that have been conf
 
 For a description of how an offload target uses the 
     <b>VlanId</b> member, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570937">802.1Q
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">802.1Q
     and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 

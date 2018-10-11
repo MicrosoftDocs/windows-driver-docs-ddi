@@ -106,32 +106,32 @@ After returning from its
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure whose 
     <b>MiniportOffloadContext</b> member points to a memory location that contains a <b>NULL</b> value is followed by
     state to be offloaded. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>. The 
     <b>Header</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure contains a 
     <b>Type</b> member that specifies the type of offload state, and by implication, the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> or structures,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structure</a> or structures,
     that immediately follow the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in memory.
 
 The offload target offloads the offload state associated with an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
     structure into an offload context area. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
 When offloading state, the offload target must traverse the state tree in 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/traversing-a-state-tree">depth-first/breadth-next fashion</a>. It
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/traversing-a-state-tree">depth-first/breadth-next fashion</a>. It
     is critical that an offload target offloads state in this way.
 
 Some of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in the state tree that are passed to the 
     <i>MiniportInitiateOffload</i> function can be placeholders or linking nodes that do not have accompanying
     state to be offloaded. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
     New Offloads</a>.
 
 The offload target can receive buffered data from the host stack for a connection that is being
     offloaded. The offload target must copy this data into its own buffer before completing the offload
     operation. For more information about processing buffered receive data, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">
     Handling Buffered Receive Data During and After an Offload Operation</a>.
 
 For each state object that it offloads, the offload target must also supply a PVOID value that
@@ -142,7 +142,7 @@ For each state object that it offloads, the offload target must also supply a PV
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, it should not write a value to the memory location pointed to
     by the 
     <b>*MiniportOffloadContext</b> member. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
 

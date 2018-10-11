@@ -54,7 +54,7 @@ product:
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AVAILABLE_CHANNEL_LIST structure specifies the available operating frequency channel list
   of the
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
   configurations</a> that the NIC can operate with.
 
 
@@ -126,7 +126,7 @@ The maximum number of entries that the
 ### -field uChannelNumber
 
 An array that specifies the list of available operating frequency channels of the
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
      configurations</a> that the NIC can operate with.
 
 
@@ -135,7 +135,7 @@ An array that specifies the list of available operating frequency channels of th
 
 
 This structure is used with
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-channel-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-available-channel-list">
     OID_DOT11_AVAILABLE_CHANNEL_LIST</a>.
 
 
@@ -143,7 +143,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-channel-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-available-channel-list">
    OID_DOT11_AVAILABLE_CHANNEL_LIST</a>
 
 

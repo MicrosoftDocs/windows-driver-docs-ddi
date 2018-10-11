@@ -51,7 +51,7 @@ req.typenames: NDIS_WMI_ENUM_ADAPTER, *PNDIS_WMI_ENUM_ADAPTER
 
 
 The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff552617">
   GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID.
 
 
@@ -100,7 +100,7 @@ The device name of the NDIS miniport adapter interface that is associated with t
 
 NDIS returns the NDIS_WMI_ENUM_ADAPTER structure when it enumerates miniport adapters for WMI clients.
     For more information about enumerating miniport adapters for WMI clients, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552617">
     GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>.
 
 
@@ -111,7 +111,7 @@ NDIS returns the NDIS_WMI_ENUM_ADAPTER structure when it enumerates miniport ada
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
 
 

@@ -72,7 +72,7 @@ A run-time identifier that specifies the data flow from which to remove the cont
 
 The run-time identifier for the filtering layer from which the context is being removed. For more
      information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">Run-time Filtering Layer
      Identifiers</a>. A callout driver should specify the same identifier that it specified when it called
      the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a> function to associate the context with the data flow.

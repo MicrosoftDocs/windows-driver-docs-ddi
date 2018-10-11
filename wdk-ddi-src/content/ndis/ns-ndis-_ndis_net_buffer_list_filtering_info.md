@@ -119,9 +119,9 @@ To access the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure from the NET_
     <b>NetBufferListFilteringInfo</b>  information type.
 
 To access the identifier values directly, use the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568406">
     NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>, or 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568407">
     NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a> macros.
 
 
@@ -144,7 +144,7 @@ To access the identifier values directly, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568406">
    NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>
 
 
@@ -153,7 +153,7 @@ To access the identifier values directly, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568407">
    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
  
 

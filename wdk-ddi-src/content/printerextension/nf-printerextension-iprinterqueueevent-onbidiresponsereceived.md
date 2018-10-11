@@ -81,7 +81,7 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>.
+The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="http://msdn.microsoft.com/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>.
 
 
 
@@ -91,7 +91,7 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
 
 
 

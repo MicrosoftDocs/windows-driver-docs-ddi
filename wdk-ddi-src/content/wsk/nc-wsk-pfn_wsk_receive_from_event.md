@@ -188,7 +188,7 @@ If the WSK application enabled the
 <li>
 If the WSK application enabled the 
          <i>WskReceiveFromEvent</i> event callback function by using the 
-         <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+         <a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
          WSK_SET_STATIC_EVENT_CALLBACKS</a> client control operation, the WSK subsystem will not disable
          the 
          <i>WskReceiveFromEvent</i> event callback function. The WSK subsystem will continue calling the 
@@ -213,7 +213,7 @@ The WSK subsystem calls a WSK application's
     only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application's 

@@ -250,7 +250,7 @@ NDIS can call a protocol driver's
     <a href="https://msdn.microsoft.com/c964b4b8-ab07-4a07-9965-5cc06c028c20">
     ProtocolReceiveNetBufferLists</a> function after the driver sets up a packet filter for the binding
     with the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">
     OID_GEN_CURRENT_PACKET_FILTER</a> OID. If the underlying miniport adapter does not use a packet filter
     for incoming packets, receive indications are enabled after the open operation is complete. Protocol
     drivers can receive status indications at the 
@@ -380,7 +380,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
 
 

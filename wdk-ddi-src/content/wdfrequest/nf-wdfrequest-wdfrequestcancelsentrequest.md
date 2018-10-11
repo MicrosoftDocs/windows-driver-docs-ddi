@@ -93,7 +93,7 @@ If the driver has registered a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7
 
 Typically, if your driver calls <b>WdfRequestCancelSentRequest</b>, it must increment the request object's reference count. For more information, see <a href="https://msdn.microsoft.com/e7ec65c9-bc7b-46ea-853d-3e23b1763666">Synchronizing Cancellation of Sent Requests</a>.
 
-For more information about request cancellation, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+For more information about request cancellation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
 
 #### Examples

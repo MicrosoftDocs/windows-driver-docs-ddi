@@ -107,7 +107,7 @@ The
     a stand-alone structure or the root block list in an 
     <a href="https://msdn.microsoft.com/c96608bd-5e8f-499b-872a-b6f7f33c9e0c">offload state tree</a> that contains multiple
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures. Such block lists, as well as any 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structures</a> that are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structures</a> that are
     associated with them, are valid until the miniport driver calls the 
     <b>
     NdisMUpdateOffloadComplete</b> function.
@@ -121,13 +121,13 @@ Before the
 <li>
 The offload target copies the variable values from any state structures in the tree to the
       corresponding 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/offload-state-objects">offloaded state objects</a>. Only CACHED
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/offload-state-objects">offloaded state objects</a>. Only CACHED
       variables are updated.
 
 </li>
 <li>
 The tree might indicate that path-to-neighbor links must be updated. For more information, see 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff560463">Linking
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff560463">Linking
       Path State Objects to a New Neighbor State Object</a>. In this case, the offload target must update
       its internal representation of offloaded state to reflect the updated links.
 

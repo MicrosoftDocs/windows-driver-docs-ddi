@@ -314,7 +314,7 @@ A
 
 To get the settings and statistics of a SCO channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536868">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536868">
     BRB_SCO_GET_CHANNEL_INFO</a> request.
 
 
@@ -333,7 +333,7 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536868">BRB_SCO_GET_CHANNEL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536868">BRB_SCO_GET_CHANNEL_INFO</a>
 
 
 

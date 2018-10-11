@@ -97,7 +97,7 @@ A pointer to the miniport driver's <a href="https://msdn.microsoft.com/9965E4EA-
 
 
 
-To register the handler functions for NDIS selective suspend, the miniport driver follows these steps when its <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function is called:
+To register the handler functions for NDIS selective suspend, the miniport driver follows these steps when its <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function is called:
 
 <ol>
 <li>
@@ -131,7 +131,7 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

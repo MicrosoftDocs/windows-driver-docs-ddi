@@ -89,7 +89,7 @@ The set of data rates.
 The values that are specified in the
     <b>ucRateSet</b> array define the data rates at which the 802.11 station may transmit and receive data.
     Each value is an index into the table of data rates that are returned by the driver for a query of
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
     OID_DOT11_DATA_RATE_MAPPING_ENTRY</a>.
 
 
@@ -97,7 +97,7 @@ The values that are specified in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
 

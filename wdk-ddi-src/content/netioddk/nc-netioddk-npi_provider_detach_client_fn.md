@@ -121,7 +121,7 @@ The NMR calls a provider module's
 After its 
     <i>ProviderDetachClient</i> callback function has been called, a provider module should not make any more
     calls to any of the client module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions. If there
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions. If there
     are no in-progress calls to any of the client module's 
     NPI callback functions when the
     provider module's 
@@ -129,7 +129,7 @@ After its
     <i>ProviderDetachClient</i> callback function returns STATUS_SUCCESS.
 
 If there are in-progress calls to one or more of the client module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions when the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions when the
     provider module's 
     <i>ProviderDetachClient</i> callback function is called, the provider module's 
     <i>ProviderDetachClient</i> callback function returns STATUS_PENDING. In this situation, the provider

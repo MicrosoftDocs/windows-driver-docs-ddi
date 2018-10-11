@@ -65,7 +65,7 @@ Specifies the physical address that triggers the interrupt message.
 
 ### -field TargetProcessorSet
 
-Specifies a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that determines the set of processors that can receive the interrupt.
+Specifies a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that determines the set of processors that can receive the interrupt.
 
 
 ### -field InterruptObject

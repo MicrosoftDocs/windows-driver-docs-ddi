@@ -36,7 +36,7 @@ targetos: Windows
 
 # IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 Gets a UCSI data block from the PPM firmware by using the supported transport.
@@ -71,7 +71,7 @@ Size of the **UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS** structure.
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, set to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

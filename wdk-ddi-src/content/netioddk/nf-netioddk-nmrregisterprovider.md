@@ -145,7 +145,7 @@ An error occurred.
 
 A provider module calls the 
     <b>NmrRegisterProvider</b> function to register as a provider of an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
     client modules that register as clients of the same 
     NPI.
 
@@ -155,7 +155,7 @@ A provider module typically calls the
     all other initialization tasks. The call to the 
     <b>NmrRegisterProvider</b> function indicates to the NMR that the provider module is ready to attach to
     any client modules that have registered or will register as clients of the same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the provider module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the provider module
     has registered as a provider.
 
 

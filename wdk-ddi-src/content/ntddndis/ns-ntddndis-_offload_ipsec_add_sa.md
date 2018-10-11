@@ -163,7 +163,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a> structure before
      passing a send packet to the miniport driver. The TCP/IP transport must also specify this handle when
      deleting the SA with an 
-     <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+     <a href="https://msdn.microsoft.com/library/gg155485.aspx">
      OID_TCP_TASK_IPSEC_DELETE_SA</a> request.
 
 
@@ -225,7 +225,7 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
  
 
  

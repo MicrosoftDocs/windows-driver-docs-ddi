@@ -145,10 +145,10 @@ Before calling
     for the binding. The protocol driver sets the binding multicast address list to <b>NULL</b>, and the packet
     filter to zero. For more information, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a> and 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">
     OID_GEN_CURRENT_PACKET_FILTER</a>.
 
-If a wake-up pattern has been specified, the protocol driver should remove it with the   <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID and clear the receive side scaling parameters with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID. An NDIS 6.20 and later protocol driver should remove a wake-on-LAN pattern with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569771">OID_PM_REMOVE_WOL_PATTERN</a> OID and remove a low-power protocol offload with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
+If a wake-up pattern has been specified, the protocol driver should remove it with the   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID and clear the receive side scaling parameters with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID. An NDIS 6.20 and later protocol driver should remove a wake-on-LAN pattern with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569771">OID_PM_REMOVE_WOL_PATTERN</a> OID and remove a low-power protocol offload with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
 <i>ProtocolUnbindAdapterEx</i> must not free the memory at 
     <i>ProtocolBindingContext</i> until the close operation is complete. NDIS passes the handle at 
@@ -195,13 +195,13 @@ NDIS 6.0 and 6.1 protocol drivers should perform the following operations where 
 <ol>
 <li>
 Remove power management wake on LAN (WOL) patterns from the miniport adapter with the 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
        OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID.
 
 </li>
 <li>
 Clear the receive side scaling parameters with the 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
        OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID.
 
 </li>
@@ -216,7 +216,7 @@ Remove power management WOL patterns from the miniport adapter with the
 </li>
 <li>
 Remove power management protocol offloads from the miniport adapter with the 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">
        OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
 </li>
@@ -282,16 +282,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
    OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
 
 

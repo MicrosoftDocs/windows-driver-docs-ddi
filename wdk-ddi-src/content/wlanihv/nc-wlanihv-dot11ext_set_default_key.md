@@ -123,7 +123,7 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 A call to the
     <b>Dot11ExtSetDefaultKey</b> function results in a set request of the
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
     OID_DOT11_CIPHER_DEFAULT_KEY</a> object identifier to the WLAN adapter.
 
 A default cipher key is defined by setting the
@@ -159,7 +159,7 @@ A cipher key is deleted from the adapter's key tables if the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 
 

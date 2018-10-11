@@ -93,7 +93,7 @@ In the implementation, the client driver is required to ensure all I/O forwarded
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
 
 
 

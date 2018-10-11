@@ -220,7 +220,7 @@ A 3-bit priority value. If the offload target supports 802.1p packet information
      on the offloaded TCP connection. If the offload target does not support 802.1p packet information, it
      should ignore 
      <b>UserPriority</b> . For more information about supporting 802.1p packet information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570937">802.1Q
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">802.1Q
      and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 

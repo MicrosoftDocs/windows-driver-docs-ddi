@@ -111,7 +111,7 @@ The encapsulation that is defined through the IEEE 802.1h-1997 standard.
 
 
 The miniport driver returns an encapsulation list when it makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
     NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication. The encapsulation list specified in the
     indication applies to the association with an access point (AP) in an infrastructure basic service set
     (BSS) network.
@@ -120,14 +120,14 @@ The miniport driver returns an encapsulation list when it makes an
     stations within an independent BSS network.</div>
 <div> </div>
 For more information about 802.11 packet payload encapsulation, see
-    <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 Payload Encapsulation</a>.
+    <a href="https://technet.microsoft.com/library/cc757419">802.11 Payload Encapsulation</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
 
 

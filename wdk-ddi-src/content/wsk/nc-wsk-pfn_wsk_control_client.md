@@ -180,14 +180,14 @@ The number of bytes of output data that is returned by the operation that is bei
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
      
 
 This parameter is required, is optional, or must be <b>NULL</b>, depending on the particular client control
      operation that is being performed. For more information about the requirements for this parameter for
      each of the supported client control operations, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571157">WSK Client Control
      Operations</a>.
 
 
@@ -265,7 +265,7 @@ An error occurred. The IRP will be completed with failure status.
 
 For more information about how the input and output buffers are used for each client control
     operation, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571157">WSK Client Control
     Operations</a>.
 
 If the 
@@ -291,7 +291,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571157">WSK Client Control Operations</a>
 
 
 

@@ -142,7 +142,7 @@ An error occurred.
 A callout driver calls the 
     <b>FwpmEngineOpen0</b> function to open a session to the filter engine. A handle to an open session to the
     filter engine is a required parameter to most of the <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a>
-<a href="https://answers.microsoft.com/en-us/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f"> management functions</a>.
+<a href="https://answers.microsoft.com/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f"> management functions</a>.
 
 Callout drivers normally do not need to open a session to the filter engine because callout drivers
     typically do not call any of the <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a> management functions.
@@ -192,7 +192,7 @@ After a callout driver has finished accessing the filter engine, it calls the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Other Windows Filtering
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Other Windows Filtering
    Platform Functions</a>
  
 

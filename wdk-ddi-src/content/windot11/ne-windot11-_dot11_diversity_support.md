@@ -86,7 +86,7 @@ An uninitialized or unknown diversity support type.
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
      the
      <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see
-     <a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+     <a href="https://msdn.microsoft.com/library/ee483634.aspx">
      OID_DOT11_DIVERSITY_SELECTION_RX</a>.
 
 
@@ -104,7 +104,7 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+<a href="https://msdn.microsoft.com/library/ee483634.aspx">
    OID_DOT11_DIVERSITY_SELECTION_RX</a>
 
 

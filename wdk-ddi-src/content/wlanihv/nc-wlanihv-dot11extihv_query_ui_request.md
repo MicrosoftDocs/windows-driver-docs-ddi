@@ -106,7 +106,7 @@ Specifies any connection phase.
 
 Specifies the connection phase before the IHV Extensions DLL initiates a pre-association
        operation. For more information about the pre-association operation, see
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association
        Operations</a>.
 
 
@@ -115,7 +115,7 @@ Specifies the connection phase before the IHV Extensions DLL initiates a pre-ass
 
 Specifies the connection phase after the IHV Extensions DLL completes a post-association
        operation. For more information about the post-association operation, see
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association
        Operations</a>.
 
 

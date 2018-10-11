@@ -269,7 +269,7 @@ To access members of the NET_BUFFER structure, use the following macros and func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">
        NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
@@ -296,7 +296,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 

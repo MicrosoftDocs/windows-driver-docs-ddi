@@ -51,7 +51,7 @@ req.typenames:
 
 
 
-                 Call <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761937">IDDCX_PATH_INIT</a> to initialize this structure.
+                 Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt761937">IDDCX_PATH_INIT</a> to initialize this structure.
              
 
 

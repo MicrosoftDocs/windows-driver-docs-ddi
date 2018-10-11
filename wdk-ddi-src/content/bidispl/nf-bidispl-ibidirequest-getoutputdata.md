@@ -65,7 +65,7 @@ A zero-based index of the output data that is requested. For more information, s
 
 ### -param ppszSchema [out]
 
-A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free this pointer.
+A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://msdn.microsoft.com/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free this pointer.
 
 
 ### -param pdwType [out]
@@ -163,7 +163,7 @@ Binary data.
 
 ### -param ppData [out]
 
-A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> to free the buffer.
+A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://msdn.microsoft.com/library/windows/desktop/ms680722">CoTaskMemFree</a> to free the buffer.
 
 
 ### -param uSize [out]

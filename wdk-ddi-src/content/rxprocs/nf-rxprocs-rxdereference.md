@@ -131,7 +131,7 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
 
 
 

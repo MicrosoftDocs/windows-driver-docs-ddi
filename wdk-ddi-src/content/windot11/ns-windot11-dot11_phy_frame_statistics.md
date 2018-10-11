@@ -131,7 +131,7 @@ For MSDU packets, the miniport driver must increment this counter for each packe
 The number of MSDU packets and MMPDU frames that the 802.11 station failed to transmit because of
      a timeout as defined by the IEEE 802.11
      <b>dot11MaxTransmitMSDULifetime</b> MIB object. For more information about this MIB object, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
      OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</a>.
 
 
@@ -193,7 +193,7 @@ This counter is optional. If the NIC does not support this counter, the miniport
 
 The number of MSDU packets or MMPDU frames received by the 802.11 station when a promiscuous
      packet filter is enabled. For more information about packet filters, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
@@ -220,7 +220,7 @@ Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC addre
 The number if MSDU packets and MMPDU frames that the 802.11 station discarded because of a timeout
      as defined by the IEEE 802.11
      <b>dot11MaxReceiveLifetime</b> MIB object. For more information about this MIB object, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
      OID_DOT11_MAX_RECEIVE_LIFETIME</a>.
 
 
@@ -239,7 +239,7 @@ The number of MPDU frames received by the 802.11 station for MSDU packets or MMP
 
 The number of MPDU frames received by the 802.11 station for MSDU packets or MMPDU frames when a
      promiscuous packet filter was enabled. For more information about packet filters, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
@@ -292,7 +292,7 @@ The members of this structure are used to record PHY-level statistics for:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
    Statistics</a>
 
 

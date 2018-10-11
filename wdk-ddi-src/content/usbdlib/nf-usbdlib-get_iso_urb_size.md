@@ -72,7 +72,7 @@ The <b>GET_ISO_URB_SIZE</b> macro returns the number of bytes required to hold a
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
+<a href="https://docs.microsoft.com/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
 
 
 

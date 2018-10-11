@@ -95,7 +95,7 @@ An <b>NDIS_STATUS</b> value that contains an NDIS_STATUS_<i>Xxx</i> completion s
 The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used with the 
     <a href="https://msdn.microsoft.com/f071569f-fa99-4614-96a7-edf73a85d96a">
     NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</a> structure and the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
     OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a> OID.
 
 
@@ -115,7 +115,7 @@ The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used w
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
  
 

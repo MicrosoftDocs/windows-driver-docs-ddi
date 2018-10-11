@@ -119,7 +119,7 @@ A pointer to an
      <a href="https://msdn.microsoft.com/7c411d9e-1064-4278-9870-0546891d4743">
      NDIS_PORT_AUTHENTICATION_PARAMETERS</a> structure that defines the default port authentication
      parameters for the miniport adapter. For more information about port authentication parameters, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
      OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>.
 
 
@@ -182,7 +182,7 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
  
 

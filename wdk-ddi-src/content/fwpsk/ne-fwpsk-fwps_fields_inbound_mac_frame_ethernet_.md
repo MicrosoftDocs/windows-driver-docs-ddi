@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET
 
 The <b>FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET</b> enumeration type specifies the data field identifiers for the
   FWPS_LAYER_INBOUND_MAC_FRAME_ETHERNET 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
   <div class="alert"><b>Note</b>  In Windows 7 and Windows Server 2008 R2, the name of this enumeration was <b>FWPS_FIELDS_INBOUND_MAC_FRAME_802_3</b>.</div>
 <div> </div>
 

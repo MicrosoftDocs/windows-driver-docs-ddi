@@ -82,7 +82,7 @@ A
 ### -field usEtherType
 
 The value of the
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ieee-ethertype-handling">IEEE EtherType</a> in big-endian byte
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ieee-ethertype-handling">IEEE EtherType</a> in big-endian byte
      order.
 
 

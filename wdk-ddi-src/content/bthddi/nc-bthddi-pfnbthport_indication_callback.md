@@ -116,7 +116,7 @@ When the profile driver acts as a client and attempts to connect to a remote dev
       <b>Callback</b> member of the _BRB_L2CA_OPEN_CHANNEL structure that is passed when the profile driver 
       <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
       BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 </li>

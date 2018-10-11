@@ -90,7 +90,7 @@ The total number of hardware notifications that the client device driver provide
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
 
 
 

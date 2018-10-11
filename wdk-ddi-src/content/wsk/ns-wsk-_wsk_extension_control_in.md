@@ -62,7 +62,7 @@ The WSK_EXTENSION_CONTROL_IN structure specifies a WSK application's implementat
 ### -field NpiId
 
 A pointer to the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> identifier that identifies the extension interface.
 
 
@@ -89,7 +89,7 @@ A pointer to a structure that contains the WSK application's dispatch table of e
 
 A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to the WSK subsystem when
     registering an extension interface. For more information about registering an extension interface, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
     Interface</a>.
 
 

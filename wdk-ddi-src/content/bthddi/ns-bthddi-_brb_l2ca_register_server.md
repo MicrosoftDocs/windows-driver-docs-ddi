@@ -148,7 +148,7 @@ A pointer to an object to pass to the
      <b>IndicationCallback</b> member. The Bluetooth driver stack will decrease the reference count of the
      object when the profile driver 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">
      BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 
@@ -156,7 +156,7 @@ A pointer to an object to pass to the
 
 Handle to the L2CAP server, if successfully returned. When the profile driver should no longer
      receive remote connect indications it should pass this handle to 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">
      BRB_L2CA_UNREGISTER_SERVER</a>.
 
 
@@ -166,7 +166,7 @@ Handle to the L2CAP server, if successfully returned. When the profile driver sh
 
 To register itself as a L2CAP server, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">
     BRB_L2CA_REGISTER_SERVER</a> request.
 
 After the profile driver registers itself, it should then 
@@ -195,7 +195,7 @@ For more information about L2CAP servers and PSMs, see
 
 When the profile driver receives notification of a connection attempt, it should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
     BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> BRB to either accept or reject the connection attempt. For more
     information about accepting or rejecting L2CAP connection attempts, see the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a> structure.
@@ -205,7 +205,7 @@ After a connection is established, the profile driver can issue other BRBs to co
 
 To stop receiving remote connection notifications, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">
     BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 While this procedure allows a profile driver to accept incoming connection requests, it does not
@@ -226,11 +226,11 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 

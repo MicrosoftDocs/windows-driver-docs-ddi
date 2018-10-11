@@ -65,12 +65,12 @@ Check if a decode profile, bitstream encryption, resolution, and format are supp
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES
 
-Retrieve the list of decode profiles supported by the adapter. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/en-us/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support. The associated data structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
+Retrieve the list of decode profiles supported by the adapter. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support. The associated data structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS
 
-Retrieve the list of supported decode formats for a [D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/en-us/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support.
+Retrieve the list of supported decode formats for a [D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support.
 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT

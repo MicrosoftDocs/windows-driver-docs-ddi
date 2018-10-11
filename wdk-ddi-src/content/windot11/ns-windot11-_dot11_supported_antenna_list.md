@@ -98,9 +98,9 @@ The list of supported antennas. Each element in this list is formatted as a
 
 
 A miniport driver returns the DOT11_SUPPORTED_ANTENNA_LIST structure when queried by either
-    <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">
+    <a href="https://msdn.microsoft.com/library/ms893804.aspx">
     OID_DOT11_SUPPORTED_RX_ANTENNA</a> or
-    <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">
+    <a href="https://msdn.microsoft.com/library/ee484405.aspx">
     OID_DOT11_SUPPORTED_TX_ANTENNA</a>.
 
 When these OIDs are queried, the miniport driver must verify that the
@@ -183,11 +183,11 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+<a href="https://msdn.microsoft.com/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
+<a href="https://msdn.microsoft.com/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
 
 

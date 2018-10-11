@@ -87,7 +87,7 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 

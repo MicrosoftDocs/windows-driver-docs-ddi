@@ -92,7 +92,7 @@ Index values represent the order in which objects are added to a collection. An 
 
 When <b>WdfCollectionRemoveItem</b> removes an object from a collection, it decrements the object's reference count. 
 
-For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>
+For more information about object collections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>
 
 
 

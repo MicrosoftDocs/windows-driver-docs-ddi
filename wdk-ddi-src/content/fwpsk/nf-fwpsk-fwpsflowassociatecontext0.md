@@ -73,7 +73,7 @@ A run-time identifier that specifies the data flow with which to associate the c
 
 The run-time identifier for the filtering layer with which the context is being associated. The context will be associated only with the specified filtering layer. For
      more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">Run-time Filtering Layer
      Identifiers</a>.
 
 

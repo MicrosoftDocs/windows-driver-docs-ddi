@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4
 
 The FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4 and FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields

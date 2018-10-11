@@ -77,7 +77,7 @@ The elements are of type
      
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">
      OID_WWAN_PROVISIONED_CONTEXTS</a> uses this value to represent a list of provisioned
      contexts.
 
@@ -227,7 +227,7 @@ The elements are of type <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 

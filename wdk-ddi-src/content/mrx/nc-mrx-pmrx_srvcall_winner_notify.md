@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. 
+The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. 
 
 
 ## -parameters

@@ -221,7 +221,7 @@ During initialization, the offload target should allocate two pools of buffers, 
 Each allocated NET_BUFFER_LIST structure must have only one NET_BUFFER structure associated with it.
     The number of such structures to allocate is up to the driver writer. For more information about
     allocating such structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-driver-buffer-management">Miniport Driver Buffer
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-driver-buffer-management">Miniport Driver Buffer
     Management</a>.
 
 Provided that it is not making a delayed acknowledgment, the offload target should acknowledge
@@ -280,7 +280,7 @@ In the
     <b>RcvIndicationSize</b> member of the TCP_OFFLOAD_STATE_CACHED structure, the host stack can specify the
     optimum number of data bytes that the offload target should supply in a single call to the 
     <b>NdisTcpOffloadReceiveHandler</b> function. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff564606">Using the Specified
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">Using the Specified
     Receive Indication Size</a>.
 
 

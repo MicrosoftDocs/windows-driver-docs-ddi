@@ -80,7 +80,7 @@ The
 Before marking send 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures with cancellation
     IDs by calling the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro, a driver should call 
     <b>NdisGeneratePartialCancelId</b> one or more times. 
     <b>NdisGeneratePartialCancelId</b> returns a value that the calling driver can use as the high-order byte
@@ -111,7 +111,7 @@ Typically, an overlying driver calls
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 

@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The<i>MRxIsValidDirectory</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector check for the existence of a remote directory. 
+The<i>MRxIsValidDirectory</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector check for the existence of a remote directory. 
 
 
 ## -parameters

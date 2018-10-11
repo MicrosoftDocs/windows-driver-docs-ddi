@@ -96,7 +96,7 @@ Any NDIS intermediate driver that exports both
     <b>NdisIMAssociateMiniport</b> during its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
     Intermediate Drivers</a>.
 
 

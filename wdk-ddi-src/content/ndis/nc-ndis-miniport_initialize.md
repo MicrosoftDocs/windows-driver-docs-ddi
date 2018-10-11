@@ -165,7 +165,7 @@ NDIS calls
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. NDIS can call 
     <i>MiniportInitializeEx</i> after 
     <b>DriverEntry</b> returns. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>.
 
 For NDIS intermediate drivers, NDIS can call 

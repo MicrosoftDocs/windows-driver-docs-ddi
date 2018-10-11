@@ -105,7 +105,7 @@ The <b>WDF_DEVICE_STATE</b> structure is used as a parameter to <a href="https:/
 
 To initialize a <b>WDF_DEVICE_STATE</b> structure, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551286">WDF_DEVICE_STATE_INIT</a>.
 
-For more information about the members of the <b>WDF_DEVICE_STATE</b> structure, see [PNP_DEVICE_STATE](https://microsoft.com/en-us/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state).
+For more information about the members of the <b>WDF_DEVICE_STATE</b> structure, see [PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state).
 
 
 

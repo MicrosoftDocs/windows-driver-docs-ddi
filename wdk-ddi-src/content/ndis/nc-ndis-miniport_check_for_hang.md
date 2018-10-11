@@ -56,7 +56,7 @@ req.typenames:
 NDIS calls a miniport driver's 
    <i>MiniportCheckForHangEx</i> function to check the operational state of the miniport adapter that represents a network interface card (NIC).
 <div class="alert"><b>Note</b>  A miniport driver may declare this function by using the <b>MINIPORT_CHECK_FOR_HANG</b> type.
-</div><div> </div><div class="alert"><b>Note</b>  Starting with NDIS 6.30, this function must not be registered for drivers running on low power SoC platforms to avoid negative power impact caused by the periodic <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Check-for-Hang</a> activity.</div><div> </div>
+</div><div> </div><div class="alert"><b>Note</b>  Starting with NDIS 6.30, this function must not be registered for drivers running on low power SoC platforms to avoid negative power impact caused by the periodic <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Check-for-Hang</a> activity.</div><div> </div>
 
 ## -parameters
 
@@ -112,7 +112,7 @@ If a miniport driver does not complete an OID request within two successive call
     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function.
 
-For more information about setting the <b>CheckForHangTimeInSeconds</b> time-out value, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
+For more information about setting the <b>CheckForHangTimeInSeconds</b> time-out value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, <i>MiniportCheckForHangEx</i> must return <b>TRUE</b> if the miniport driver detects that the NIC has not completed a pending send request before a time-out period expired. The time-out period is driver-specific, but we recommend using a timeout period of 2 seconds.</div>
 <div> </div>
@@ -165,7 +165,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
 
 
 

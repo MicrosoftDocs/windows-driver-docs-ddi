@@ -65,7 +65,7 @@ The ID of the node that represents the audio device.
 
 ### -param pFormats [out]
 
-A structure of type <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a> that points to the array of audio data formats supported by the audio device.
+A structure of type <a href="http://msdn.microsoft.com/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a> that points to the array of audio data formats supported by the audio device.
 
 
 ### -param ulBufferSize [in]
@@ -93,7 +93,7 @@ returns an appropriate error code.
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
+<a href="http://msdn.microsoft.com/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
  
 
  

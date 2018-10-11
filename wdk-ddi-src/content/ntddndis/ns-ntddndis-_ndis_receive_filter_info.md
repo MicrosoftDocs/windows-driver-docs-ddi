@@ -126,7 +126,7 @@ A receive filter identifier. The filter identifier
 The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the 
     <a href="https://msdn.microsoft.com/32896b46-1143-4598-ad15-2eb4dbdea6e8">
     NDIS_RECEIVE_FILTER_INFO_ARRAY</a> structure for the 
-    OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates receive filters that have been configured on the miniport driver. This includes packet coalescing receive filters or the receive filters configured on a  receive queue that is used in the VMQ or SR-IOV interface.
+    OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates receive filters that have been configured on the miniport driver. This includes packet coalescing receive filters or the receive filters configured on a  receive queue that is used in the VMQ or SR-IOV interface.
 
 
 
@@ -145,7 +145,7 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
  
 
  

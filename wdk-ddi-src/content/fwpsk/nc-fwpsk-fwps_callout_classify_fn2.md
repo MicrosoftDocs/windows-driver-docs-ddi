@@ -229,7 +229,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
     for Deep Inspection of Stream Data</a>
 
 

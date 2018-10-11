@@ -64,7 +64,7 @@ Returns a handle to a directory on disk, in which drivers can store files. The f
 [_Out_] A pointer to a variable that receives a HANDLE to the requested device directory. The caller must not pass NULL.
 
 ## -returns
-Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 | Error code               | Description                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | STATUS_SUCCESS           | The call successfully opened a handle to the requested device directory.                           |

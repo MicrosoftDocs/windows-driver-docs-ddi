@@ -74,7 +74,7 @@ The
 
 The miniport adapter port, if any. If the GUID is not specific to a port, 
      <b>PortNumber</b> is zero. WMI clients can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552619">
      GUID_NDIS_GEN_ENUMERATE_PORTS</a> GUID to obtain a list of the ports that are associated with a
      miniport adapter.
 
@@ -82,7 +82,7 @@ The miniport adapter port, if any. If the GUID is not specific to a port,
 ### -field NetLuid
 
 The NDIS network interface name of the miniport adapter. WMI clients can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552617">
      GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID to find a device name and the associated 
      <b>NetLuid</b> value.
 
@@ -137,11 +137,11 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
 
 
 

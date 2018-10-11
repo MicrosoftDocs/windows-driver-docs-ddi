@@ -55,7 +55,7 @@ product:
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_START_PARAMETERS structure specifies the reason why the Native 802.11 miniport
   driver is performing a roaming operation. The driver includes a DOT11_ROAMING_START_PARAMETERS structure
   when the driver makes an
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">
   NDIS_STATUS_DOT11_ROAMING_START</a> status indication.
 
 
@@ -151,7 +151,7 @@ For more information about the data type for this member, see
 
 For more information about the IEEE 802.11
      <b>dot11DesiredBSSType</b> MIB object, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
      OID_DOT11_DESIRED_BSS_TYPE</a>.
 
 
@@ -185,11 +185,11 @@ For more information about the roaming operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
 
 
 

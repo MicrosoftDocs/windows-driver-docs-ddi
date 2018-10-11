@@ -95,11 +95,11 @@ If a protocol driver allocated the OOB data, it configured the data for a send o
     miniport driver allocated the data, it configured the data for a receive indication.
 
 To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566503">
     NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>, 
-    <a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
+    <a href="https://msdn.microsoft.com/library/gg159261.aspx">
     NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>, and 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566520">
     NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a> macros.
 
 
@@ -110,12 +110,12 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566503">
    NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
+<a href="https://msdn.microsoft.com/library/gg159261.aspx">
    NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
 
 
@@ -124,7 +124,7 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566520">
    NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
 
 

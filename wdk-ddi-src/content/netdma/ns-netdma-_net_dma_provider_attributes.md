@@ -85,7 +85,7 @@ Reserved for DMA provider attributes flags. Set this member to zero.
 A vendor identifier (ID) that uniquely identifies the vendor that created the DMA engine. This
      vendor ID is specified in the device's PCI configuration space. For more information about the vendor
      ID, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI
      Devices</a>.
 
 

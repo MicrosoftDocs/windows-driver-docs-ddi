@@ -93,7 +93,7 @@ Based on the device's EDID data, the operating system generates a default contai
 
 The display miniport driver can either accept the default container ID because the display hardware has no container ID coded into the firmware, or it can set the <b>ContainerId</b> member to a unique identifier obtained from the display hardware device before it returns from the call to <a href="https://msdn.microsoft.com/e7073fb3-0cb7-425e-9ffb-d7eaa963a70f">DxgkDdiGetChildContainerId</a>.
 
-For more information about Container IDs, see <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd542646">Container IDs</a>.
+For more information about Container IDs, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd542646">Container IDs</a>.
 
 
 

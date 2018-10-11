@@ -142,7 +142,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931860(d=robo
 
 #### - NdisPDOnRssReceiveQueues
 
-See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
 
 
 ## -see-also

@@ -145,7 +145,7 @@ An error occurred.
 
 A client module calls the 
     <b>NmrRegisterClient</b> function to register as a client of an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
     provider modules that register as providers of the same 
     NPI.
 
@@ -155,7 +155,7 @@ A client module typically calls the
     all other initialization tasks. The call to the 
     <b>NmrRegisterClient</b> function indicates to the NMR that the client module is ready to attach to any
     provider modules that have registered or will register as providers of the same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 

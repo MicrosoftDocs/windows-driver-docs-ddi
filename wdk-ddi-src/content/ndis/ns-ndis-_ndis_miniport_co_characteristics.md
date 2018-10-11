@@ -140,7 +140,7 @@ To specify entry points for CoNDIS, a miniport driver initializes an NDIS_MINIPO
 
 The miniport driver calls 
     <b>NdisSetOptionalHandlers</b> from the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
 
 
 
@@ -175,7 +175,7 @@ The miniport driver calls
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

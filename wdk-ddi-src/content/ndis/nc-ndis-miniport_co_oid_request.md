@@ -231,7 +231,7 @@ To register
     <i>MiniportCoOidRequest</i>, miniport drivers call the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
     from the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function. In 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function. In 
     <i>MiniportSetOptions</i>, the miniport driver initializes an 
     <a href="https://msdn.microsoft.com/9348c338-9fb4-4eee-a50f-f709748da56b">
     NDIS_MINIPORT_CO_CHARACTERISTICS</a> structure and passes it at the 
@@ -329,7 +329,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

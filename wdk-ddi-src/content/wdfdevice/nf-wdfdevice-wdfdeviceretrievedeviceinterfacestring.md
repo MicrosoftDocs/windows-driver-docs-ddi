@@ -80,7 +80,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 ### -param String [in]
 
-A handle to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
 
 
 ## -returns
@@ -164,7 +164,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
+For more information about device interfaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
 
 
 #### Examples

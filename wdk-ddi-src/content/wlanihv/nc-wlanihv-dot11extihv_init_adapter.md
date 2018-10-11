@@ -127,14 +127,14 @@ The operating system calls the
     as when a PCMCIA adapter is inserted.
 
 For more information about WLAN adapter initialization, see
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter Arrival</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff557044">802.11 WLAN Adapter Arrival</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 

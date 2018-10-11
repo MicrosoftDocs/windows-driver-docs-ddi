@@ -76,7 +76,7 @@ Indicates to a profile driver to release a reference to its device object and th
 Indicates to a server profile driver that a remote device is connecting to the PSM that the
      profile driver registered earlier. Profile drivers accept or reject this request by 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. When this indication code is passed, the profile driver
      should use the parameters that are passed to it in the 
      <b>Connect</b> member of the 
@@ -148,7 +148,7 @@ Indicates to a registered driver that the specified remote radio has been remove
 Indicates to a server profile driver that a low energy (LE) remote device is connecting to the PSM that the
      profile driver registered earlier. Profile drivers accept or reject this request by 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. When this indication code is passed, the profile driver
      should use the parameters that are passed to it in the 
      <b>Connect</b> member of the 
@@ -172,7 +172,7 @@ A value from this enumeration is passed to a profile driver's
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 
 

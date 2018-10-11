@@ -146,7 +146,7 @@ For nonzero values of
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS
     structure when the driver makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a> status indication.
 
 
@@ -154,7 +154,7 @@ The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIV
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a>
 
 

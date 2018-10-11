@@ -71,7 +71,7 @@ A handle that identifies the interface provider's context area for the interface
 
 An identifier for the object that is the target of the query request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
      OIDs</a>.
 
 
@@ -156,7 +156,7 @@ The call failed for some other reason. This function can propagate error codes f
 NDIS calls a network interface provider's 
     <i>ProviderQueryObject</i> function to obtain information about an interface that the provider registered.
     For a list of OIDs that apply to interface providers, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
 
 NDIS calls 
     <i>ProviderQueryObject</i> at IRQL = PASSIVE_LEVEL.

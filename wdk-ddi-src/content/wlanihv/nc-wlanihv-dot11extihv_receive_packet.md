@@ -134,7 +134,7 @@ The buffer pointed to by
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in
-      <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
+      <a href="https://technet.microsoft.com/library/cc757419">802.11 MAC Header
       Management</a>
 
 

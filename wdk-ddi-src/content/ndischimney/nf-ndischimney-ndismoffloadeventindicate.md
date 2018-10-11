@@ -165,7 +165,7 @@ None
 The host stack uses the 
     <b>NeighborReachabilityQuery</b> indication to detect neighbor unreachability for IPv4 and IPv6. For a
     detailed description of this indication, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/making-a-neighborreachabilityquery-indication">Making a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/making-a-neighborreachabilityquery-indication">Making a
     NeighborReachabilityQuery Indication</a>.
 
 

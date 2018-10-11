@@ -98,7 +98,7 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+<a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 

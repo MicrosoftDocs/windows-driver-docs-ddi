@@ -144,7 +144,7 @@ A pointer to an
     <i>FilterAttach</i> function when the specified filter module is in the 
     <i>Detached</i> state. NDIS can call 
     <i>FilterAttach</i> at any time after the call to the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a> function returns.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function returns.
 
 At the start of execution in 
     <i>FilterAttach</i>, the filter module enters the 
@@ -257,7 +257,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 

@@ -62,7 +62,7 @@ The WSK_SOCKET structure defines a socket object for a socket.
 
 A pointer to a constant provider dispatch structure. This structure is a dispatch table that
      contains pointers to a socket's functions. Depending on the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the
      socket, this pointer is a pointer to one of the following structures:
      
 

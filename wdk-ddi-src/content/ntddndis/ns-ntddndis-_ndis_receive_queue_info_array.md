@@ -95,7 +95,7 @@ A <b>ULONG</b> value that specifies the size, in bytes, of each element in the a
 
 
 The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
     OID_RECEIVE_FILTER_ENUM_QUEUES</a> OID that enumerates receive queues on a network adapter. Each
     element in the array is an 
     <a href="https://msdn.microsoft.com/7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585">
@@ -117,7 +117,7 @@ The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
  
 
  

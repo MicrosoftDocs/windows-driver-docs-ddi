@@ -117,7 +117,7 @@ A driver might call <b>WdfTimerStart</b> from its <a href="https://msdn.microsof
 
 To stop the timer's clock, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550056">WdfTimerStop</a>.
 
-For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
 #### Examples

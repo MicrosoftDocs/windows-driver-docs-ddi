@@ -137,7 +137,7 @@ An index into the table of supported PHYs that are defined by the Native 802.11 
       <b>msDot11SupportedPhyTypes</b> management information base (MIB) object. For more information about PHY
       IDs and the
       <b>msDot11SupportedPhyTypes</b> MIB object, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
       OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 </li>
@@ -150,7 +150,7 @@ A PHY ID with the value of DOT11_PHY_ID_ANY. This PHY ID is called a
 </li>
 </ul>
 A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>.
 
 When these OIDs are queried, the miniport driver must verify that the
@@ -230,7 +230,7 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 
 

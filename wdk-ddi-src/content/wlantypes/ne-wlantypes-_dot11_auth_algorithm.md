@@ -226,7 +226,7 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159168.aspx">
+<a href="https://msdn.microsoft.com/library/gg159168.aspx">
    OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</a>
 
 

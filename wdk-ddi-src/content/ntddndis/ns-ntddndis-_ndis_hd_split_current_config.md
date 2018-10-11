@@ -192,7 +192,7 @@ The maximum size, in bytes, that the miniport driver is using for the header por
 
 
 The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-hd-split-current-config">
     OID_GEN_HD_SPLIT_CURRENT_CONFIG</a> OID query request to obtain the current header-data split
     configuration of a miniport adapter.
 
@@ -212,7 +212,7 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
  
 
  

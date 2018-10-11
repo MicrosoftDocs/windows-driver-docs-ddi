@@ -76,7 +76,7 @@ The
 ### -field OffloadHandle
 
 An NDIS handle that identifies the SA. The miniport driver provided this handle in response to an 
-     OID set request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>.
+     OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>.
 
 
 ### -field Operation
@@ -104,7 +104,7 @@ The high-order bit of an IPsec sequence number. This bit is not included in the 
 The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointer to the next
     IPSEC_OFFLOAD_V2_UPDATE_SA structure in a linked list. The IPSEC_OFFLOAD_V2_UPDATE_SA structure is used
     with the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
     OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a> OID.
 
 
@@ -123,12 +123,12 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
  
 

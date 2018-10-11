@@ -60,7 +60,7 @@ The KSDATAFORMAT_WAVEFORMATEX structure provides detailed information about the 
 
 ### -field DataFormat
 
-Specifies the general features of the stream's data format. This member is a structure of type <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff561656(v=vs.85).aspx">KSDATAFORMAT</a>.
+Specifies the general features of the stream's data format. This member is a structure of type <a href="http://msdn.microsoft.com/library/windows/hardware/ff561656(v=vs.85).aspx">KSDATAFORMAT</a>.
 
 
 ### -field WaveFormatEx
@@ -88,7 +88,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff561656(v=vs.85).aspx">KSDATAFORMAT</a>
+<a href="http://msdn.microsoft.com/library/windows/hardware/ff561656(v=vs.85).aspx">KSDATAFORMAT</a>
 
 
 

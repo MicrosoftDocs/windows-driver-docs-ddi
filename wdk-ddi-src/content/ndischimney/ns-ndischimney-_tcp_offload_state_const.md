@@ -136,7 +136,7 @@ The initial maximum segment size (MSS) advertised by the remote endpoint during 
 ### -field HashValue
 
 A 32-bit hash value that the offload target uses for 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
      scaling (RSS)</a> processing on the TCP connection if the offload target supports RSS.
 
 

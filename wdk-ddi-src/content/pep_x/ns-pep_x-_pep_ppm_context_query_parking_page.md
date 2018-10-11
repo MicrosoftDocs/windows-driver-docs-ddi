@@ -72,7 +72,7 @@ The virtual memory address of the parking page.
 
 
 
-The output buffer for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186798">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a> power control request is a <b>PEP_PPM_CONTEXT_QUERY_PARKING_PAGE</b> structure.
+The output buffer for a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186798">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a> power control request is a <b>PEP_PPM_CONTEXT_QUERY_PARKING_PAGE</b> structure.
 
 
 
@@ -82,7 +82,7 @@ The output buffer for a <a href="https://msdn.microsoft.com/en-us/library/window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186798">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186798">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a>
  
 
  

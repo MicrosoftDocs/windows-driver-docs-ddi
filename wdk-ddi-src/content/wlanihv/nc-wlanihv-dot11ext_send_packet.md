@@ -145,7 +145,7 @@ The IHV Extensions DLL must set the
 </li>
 </ul>
 For more information about the IHV Handler functions, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 
 The buffer pointed to by
@@ -154,7 +154,7 @@ The buffer pointed to by
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in
-      <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
+      <a href="https://technet.microsoft.com/library/cc757419">802.11 MAC Header
       Management</a>
 
 
@@ -175,7 +175,7 @@ This packet data is passed to the miniport driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
@@ -189,7 +189,7 @@ This packet data is passed to the miniport driver.
 
 
 
-<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
+<a href="https://technet.microsoft.com/library/cc757419">802.11 MAC Header Management</a>
 
 
 

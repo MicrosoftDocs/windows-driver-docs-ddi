@@ -95,7 +95,7 @@ A protocol driver maps IRPs that it receives from higher-level software to NDIS 
     network data.
 
 Call the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro for each NET_BUFFER_LIST structure that is passed to
     lower-level drivers for transmission. The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks the specified
     packet with a cancellation identifier.
@@ -145,7 +145,7 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 

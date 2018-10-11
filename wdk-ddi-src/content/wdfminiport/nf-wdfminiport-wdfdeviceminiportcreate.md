@@ -161,11 +161,11 @@ The device object handle cannot be passed to any general framework device object
 
 </li>
 <li>
-The device object handle cannot be passed to any <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">framework FDO methods</a> except <a href="https://msdn.microsoft.com/library/windows/hardware/ff547289">WdfFdoQueryForInterface</a>.
+The device object handle cannot be passed to any <a href="https://msdn.microsoft.com/library/windows/hardware/dn265631">framework FDO methods</a> except <a href="https://msdn.microsoft.com/library/windows/hardware/ff547289">WdfFdoQueryForInterface</a>.
 
 </li>
 <li>
-The device object handle cannot be passed to any <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">framework PDO methods</a> or to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545615">WdfChildListCreate</a>, so the miniport driver cannot be a bus driver.
+The device object handle cannot be passed to any <a href="https://msdn.microsoft.com/library/windows/hardware/dn265631">framework PDO methods</a> or to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545615">WdfChildListCreate</a>, so the miniport driver cannot be a bus driver.
 
 </li>
 <li>
@@ -179,7 +179,7 @@ In order to send I/O requests to I/O targets, the miniport driver might pass the
 
 The miniport driver can pass the device object handle to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a> if the device supports DMA operations.
 
-For more information about miniport drivers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Using Kernel-Mode Driver Framework with Miniport Drivers</a>.
+For more information about miniport drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Using Kernel-Mode Driver Framework with Miniport Drivers</a>.
 
 
 #### Examples

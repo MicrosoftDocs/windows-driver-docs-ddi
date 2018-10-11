@@ -168,7 +168,7 @@ When calling <b>WdfObjectAllocateContext</b>, do not specify a <b>ParentObject</
 
 When the framework allocates context space for an object, it also zero-initializes the context space.
 
-For more information about object context space, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
+For more information about object context space, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
 #### Examples

@@ -169,7 +169,7 @@ Freeing a spin lock and releasing a spin lock are potentially confusing.
     another thread of execution to acquire that spin lock.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
 Callers of 
@@ -184,7 +184,7 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+<a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 

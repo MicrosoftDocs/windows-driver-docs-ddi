@@ -123,7 +123,7 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
 
 
 

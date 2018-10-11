@@ -60,7 +60,7 @@ The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a hre
 
 ### -field DeviceHandle
 
-A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field PowerControlCode
@@ -113,7 +113,7 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

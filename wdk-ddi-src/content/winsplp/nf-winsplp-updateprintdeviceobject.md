@@ -85,7 +85,7 @@ For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), 
 
 
 
-The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
+The <a href="http://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
 
 
 
@@ -99,7 +99,7 @@ The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
  
 
  

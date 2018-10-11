@@ -55,7 +55,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfDeviceGetIoTarget</b> method returns a handle to a function or filter driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets">local I/O target</a>, for a specified device.
+The <b>WdfDeviceGetIoTarget</b> method returns a handle to a function or filter driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets">local I/O target</a>, for a specified device.
 
 
 ## -parameters

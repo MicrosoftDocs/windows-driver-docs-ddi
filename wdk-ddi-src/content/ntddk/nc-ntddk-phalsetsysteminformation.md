@@ -103,6 +103,6 @@ Returns STATUS_SUCCESS if the registration is successful.
 
 HalSetSystemInformation must be called before an MCA driver can use any of the other interface routines. Only one MCA driver can be registered with the HAL at any given time.
 
-> Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through  [Windows Hardware Error Architecture (WHEA)](https://msdn.microsoft.com/en-us/library/Ff559509) instead.
+> Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through  [Windows Hardware Error Architecture (WHEA)](https://msdn.microsoft.com/library/Ff559509) instead.
 
 ## -see-also

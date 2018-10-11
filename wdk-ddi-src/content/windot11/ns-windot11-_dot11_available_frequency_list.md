@@ -131,7 +131,7 @@ An array that specifies the list of available frequencies that the NIC can opera
 
 
 This structure is used with
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-frequency-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-available-frequency-list">
     OID_DOT11_AVAILABLE_FREQUENCY_LIST</a>.
 
 
@@ -139,7 +139,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-frequency-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-available-frequency-list">
    OID_DOT11_AVAILABLE_FREQUENCY_LIST</a>
 
 

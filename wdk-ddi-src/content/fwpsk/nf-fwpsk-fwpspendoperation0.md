@@ -168,7 +168,7 @@ A callout can call this function only to pend a packet that originates from the
     FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_
     <i>Xxx</i>, FWPM_LAYER_ALE_AUTH_LISTEN_
     <i>Xxx</i>, or FWPM_LAYER_ALE_AUTH_CONNECT_
-    <i>Xxx</i> <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-layer-2-filtering">filtering layers</a>. A callout can
+    <i>Xxx</i> <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-layer-2-filtering">filtering layers</a>. A callout can
     pend the current processing operation on a packet when the callout must perform processing on one of
     these layers that may take a long interval to complete or that should occur at IRQL = PASSIVE_LEVEL if
     the current IRQL &gt; PASSIVE_LEVEL.
@@ -199,7 +199,7 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
     is set. A call to 
     <b>FwpsPendOperation0</b> from the FWPM_LAYER_ALE_AUTH_CONNECT_
     <i>Xxx</i> or FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_
-    <i>Xxx</i> <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-layer-2-filtering">filtering layers</a> will fail if the
+    <i>Xxx</i> <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-layer-2-filtering">filtering layers</a> will fail if the
     FWP_CONDITION_FLAG_IS_REAUTHORIZE flag is set, and the STATUS_FWP_CANNOT_PEND status code will be
     returned. For more information, see ALE Reauthorization in the Windows SDK.
 

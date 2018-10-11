@@ -130,14 +130,14 @@ The medium access control (MAC) options for the miniport adapter. For more infor
 ### -field SupportedPacketFilters
 
 The packet filter flags for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
      OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
 
 
 ### -field MaxMulticastListSize
 
 The maximum multicast address list size for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
      OID_802_3_MAXIMUM_LIST_SIZE</a>.
 
 
@@ -149,7 +149,7 @@ The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter 
      <a href="https://msdn.microsoft.com/dabd8f65-1aa5-4d45-9c0a-4539efd762c6">
      NDIS_RECEIVE_SCALE_CAPABILITIES</a> structure that is filled with zeros. For more information about
      RSS, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
      OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>.
 
 
@@ -226,7 +226,7 @@ NDIS passes an NDIS_RESTART_GENERAL_ATTRIBUTES structure to drivers during resta
 
 If the 
     <b>Oid</b> member in the NDIS_RESTART_ATTRIBUTES structure is 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
     OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>, the 
     <b>Data</b> member of NDIS_RESTART_ATTRIBUTES contains an NDIS_RESTART_GENERAL_ATTRIBUTES structure.
 
@@ -277,7 +277,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
 
 
 
@@ -297,12 +297,12 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
 
 
 
@@ -310,7 +310,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
    OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 

@@ -176,7 +176,7 @@ The miniport driver must be prepared to handle IRP_MN_FILTER_RESOURCE_REQUIREMEN
 A miniport driver can set an affinity policy for each resource of type 
     <b>CmResourceTypeInterrupt</b> that describes an MSI-X message. If an affinity policy requests targeting
     for a specific set of processors, the miniport driver also sets a 
-    [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) mask at the 
+    [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) mask at the 
     <b>Interrupt.TargetedProcessors</b> member in the 
     <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure.
 
@@ -351,7 +351,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
+[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

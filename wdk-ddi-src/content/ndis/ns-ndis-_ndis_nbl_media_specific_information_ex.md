@@ -76,11 +76,11 @@ The
 A pointer to the next NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure in a linked list of
      NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures. If this is the last structure in the list, the
      pointer is <b>NULL</b>. Drivers must use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">
      NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>, 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566512">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566512">
      NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>, and 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">
      NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a> macros to manipulate this list.
 
 
@@ -122,11 +122,11 @@ To get the first element in the linked list, an NDIS driver calls the
     <b>MediaSpecificInformationEx</b> information type.
 
 To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the linked list, use the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">
     NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>, 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566512">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566512">
     NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>, and 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">
     NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a> macros.
 
 
@@ -137,12 +137,12 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">
    NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566512">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566512">
    NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>
 
 
@@ -151,7 +151,7 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">
    NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a>
 
 

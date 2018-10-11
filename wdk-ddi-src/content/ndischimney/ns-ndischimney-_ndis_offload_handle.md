@@ -86,7 +86,7 @@ The NDIS_OFFLOAD_HANDLE structure contains a
     references the underlying driver's or offload target's context for the offloaded state object.
 
 For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
     Referencing Offloaded State Through an Intermediate Driver</a>.
 
 

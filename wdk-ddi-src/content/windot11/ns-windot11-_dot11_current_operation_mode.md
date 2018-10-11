@@ -125,7 +125,7 @@ Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operati
 Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode. This mode is available starting in Windows 8.
 
 For more information about operation modes, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
       Modes</a>.
 
 
@@ -137,7 +137,7 @@ The miniport driver must specify only one operation mode in the
     <b>uCurrentOpMode</b> member.
 
 For more information about Native 802.11 operation modes, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
     Modes</a>.
 
 
@@ -149,11 +149,11 @@ For more information about Native 802.11 operation modes, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
    OID_DOT11_CURRENT_OPERATION_MODE</a>
 
 

@@ -53,7 +53,7 @@ req.typenames:
 
 The 
   <b>WskCaptureProviderNPI</b> function captures a provider 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> when it becomes available from the WSK subsystem.
 
 
@@ -92,7 +92,7 @@ Return from this function immediately if the provider NPI is not available.
 Wait until the provider NPI is available from the WSK subsystem.
 
 For more information about how this parameter is used, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
      Kernel Application</a>.
 
 
@@ -185,7 +185,7 @@ For each call to
     become available will also return immediately with status code STATUS_DEVICE_NOT_READY.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 Callers of the 

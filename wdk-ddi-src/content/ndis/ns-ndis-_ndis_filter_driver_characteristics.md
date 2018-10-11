@@ -271,7 +271,7 @@ A Unicode string that represents the service name of the filter driver. This str
 ### -field SetOptionsHandler
 
 Specifies the entry point of the caller's 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function.
 
 
 ### -field SetFilterModuleOptionsHandler
@@ -508,7 +508,7 @@ A filter driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 

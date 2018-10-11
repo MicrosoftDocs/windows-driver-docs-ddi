@@ -138,9 +138,9 @@ The list of cipher algorithms is sorted by preference.
 
 
 A miniport driver returns the DOT11_CIPHER_ALGORITHM_LIST structure when it is queried by either
-    <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+    <a href="https://msdn.microsoft.com/library/gg157261.aspx">
     OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
     OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
 
 When these OIDs are queried, the miniport driver must verify that the
@@ -211,12 +211,12 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+<a href="https://msdn.microsoft.com/library/gg157261.aspx">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 

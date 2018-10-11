@@ -168,7 +168,7 @@ The length of the additional information elements (IEs), in bytes, which the NIC
 
 
 This structure is used with
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh406480">
     OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>.
 
 
@@ -176,7 +176,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406480">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
 
 

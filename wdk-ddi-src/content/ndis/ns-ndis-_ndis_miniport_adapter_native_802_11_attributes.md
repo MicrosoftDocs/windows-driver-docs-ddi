@@ -156,7 +156,7 @@ Specifies that the miniport driver supports the Extensible Station (ExtSTA) oper
 Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
 
 For more information about operation modes, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
      Modes</a>.
 
 
@@ -196,7 +196,7 @@ A pointer to an array of
      array must have
      <b>NumSupportedPhys</b> entries and must be sorted in the same order as the list of PHY types returned
      through a query of
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 
@@ -206,7 +206,7 @@ A pointer to a
      <a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a> structure
      that specifies the attributes of the miniport driver and 802.11 station when operating in Extensible
      Station (ExtSTA) mode. For more information about this operation mode, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
      Mode</a>.
 
 
@@ -277,7 +277,7 @@ The
 </li>
 </ul>
 For more information about the initialization requirements for a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
     Driver Initialization</a>.
 
 
@@ -285,12 +285,12 @@ For more information about the initialization requirements for a Native 802.11 m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
    Mode</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 
 
@@ -302,7 +302,7 @@ For more information about the initialization requirements for a Native 802.11 m
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
@@ -310,7 +310,7 @@ For more information about the initialization requirements for a Native 802.11 m
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
    Driver Initialization</a>
 
 

@@ -471,7 +471,7 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
      the Reception of a FIN or RST Segment</a>
  
 

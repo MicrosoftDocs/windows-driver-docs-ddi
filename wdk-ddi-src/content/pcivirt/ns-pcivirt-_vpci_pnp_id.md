@@ -50,7 +50,7 @@ req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ## -description
 
 
-Stores the PnP identifiers for a virtual PCI device. For example strings, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
+Stores the PnP identifiers for a virtual PCI device. For example strings, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
 
 
 ## -syntax
@@ -117,7 +117,7 @@ Vendor-defined subsystem identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>
 
 
 

@@ -96,7 +96,7 @@ The expected format of the payload is a <a href="https://msdn.microsoft.com/92A9
 
 
 
-For more information about audio modules, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+For more information about audio modules, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
 

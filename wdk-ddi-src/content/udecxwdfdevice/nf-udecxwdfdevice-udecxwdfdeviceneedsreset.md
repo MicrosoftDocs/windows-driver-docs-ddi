@@ -55,7 +55,7 @@ Informs the USB device emulation class extension (UdeCx) that the device needs a
 [In] A [**UDECX_WDF_DEVICE_RESET_TYPE**](ne-udecxwdfdevice-_udecx_wdf_device_reset_type.md)-type value that indicates the type of reset.
 
 ## -returns
-The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values) error code.
+The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 If an existing reset operation is in progress, the function fails with a STATUS_DEVICE_BUSY error.

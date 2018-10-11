@@ -64,7 +64,7 @@ A miniport driver calls the NdisMRegisterWdiMiniportDriver function to register 
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
 
 

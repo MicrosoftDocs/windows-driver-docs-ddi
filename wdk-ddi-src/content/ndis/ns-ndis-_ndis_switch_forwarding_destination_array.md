@@ -172,7 +172,7 @@ Extensible switch extensions can use the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>
 
 
 

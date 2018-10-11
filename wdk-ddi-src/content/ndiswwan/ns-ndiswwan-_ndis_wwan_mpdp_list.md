@@ -65,10 +65,10 @@ If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existin
 
 ## -remarks
 
-This structure is used in an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) query request.
+This structure is used in an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) query request.
 
 ## -see-also
 
-[NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list)
+[NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp)
+[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)

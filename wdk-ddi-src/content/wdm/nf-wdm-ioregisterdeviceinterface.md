@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
+The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 
 
 ## -parameters

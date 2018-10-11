@@ -266,7 +266,7 @@ Set if the caller is an NDIS-WDM miniport driver.
 ### -field SetOptionsHandler
 
 The entry point for the caller's 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
 
 Required for Co-NDIS. Suggested for Ethernet miniport drivers that support RSS using MSI-C over PCI.
 
@@ -418,7 +418,7 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
     NdisMRegisterMiniportDriver</a> function. A miniport driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine (see also 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>).
 
 
@@ -496,7 +496,7 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

@@ -116,7 +116,7 @@ The station does not transmit an 802.11 Probe Request frame on each channel that
 The station can perform active or passive scans, or it can use a combination of both scan
        types.
 
-Regardless of the value of <b>dot11ScanType</b>, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory domain. Also, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information about regulatory domains, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-reg-domain">
+Regardless of the value of <b>dot11ScanType</b>, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory domain. Also, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information about regulatory domains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-current-reg-domain">
 OID_DOT11_CURRENT_REG_DOMAIN</a>.
 
 If the
@@ -198,7 +198,7 @@ The 802.11
        <b>dot11MultiDomainCapabilityEnabled</b> management information base (MIB) object is <b>FALSE</b>. For more
        information about the
        <b>dot11MultiDomainCapabilityEnabled</b> MIB object, see
-       <a href="https://msdn.microsoft.com/en-us/library/ee486712.aspx">
+       <a href="https://msdn.microsoft.com/library/ee486712.aspx">
        OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</a>.
 
 </li>
@@ -282,11 +282,11 @@ The 802.11 station performs explicit scan operations following the OID set reque
     accompanies the set request.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 For more information about the ExtSTA operation mode, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
     Mode</a>.
 
 

@@ -104,7 +104,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844724">CWiaLogProc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt844724">CWiaLogProc</a>
  
 
  

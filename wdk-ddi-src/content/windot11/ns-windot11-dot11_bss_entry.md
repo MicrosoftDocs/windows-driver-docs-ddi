@@ -87,7 +87,7 @@ typedef struct DOT11_BSS_ENTRY {
 
 The identifier (ID) of the PHY that the 802.11 station used to detect the BSS network. The PHY ID
      is the index within the list of supported PHYs returned by the driver through a query of
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 
 This ID must not be DOT11_PHY_ID_ANY.
@@ -145,7 +145,7 @@ This member specifies whether the AP or peer station is operating within the reg
 <li>
 If the 802.11 station does not support multiple regulatory domains, set the member to <b>TRUE</b>. For
        more information about multiple regulatory domains, see
-       <a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
+       <a href="https://msdn.microsoft.com/library/ms893670.aspx">
        OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>.
 
 </li>
@@ -230,7 +230,7 @@ For more information about the fields within IEEE 802.11 Beacon or Probe Respons
 
 When the 802.11 station performs a scan operation, the Native 802.11 miniport driver caches the
     received 802.11 Beacon and Probe Response frames. For more information about the scan operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 After the 802.11 station completes the scan operation, the miniport driver returns the list of the
@@ -251,11 +251,11 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
+<a href="https://msdn.microsoft.com/library/ms893670.aspx">
    OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
 
 

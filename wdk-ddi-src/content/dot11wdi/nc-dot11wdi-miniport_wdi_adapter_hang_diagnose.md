@@ -107,7 +107,7 @@ The return value is ignored.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
 
 
 

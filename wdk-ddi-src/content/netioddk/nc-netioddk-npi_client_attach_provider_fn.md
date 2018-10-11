@@ -140,13 +140,13 @@ An error occurred.
 After a client module has registered with the NMR, the NMR calls the client module's 
     <i>ClientAttachProvider</i> callback function, once for each provider module that is registered as a
     provider of the same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 The NMR also calls a client module's 
     <i>ClientAttachProvider</i> callback function whenever a new network module registers as a provider of the
     same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 A client module can examine the provider module's registration data. This data is in the structure

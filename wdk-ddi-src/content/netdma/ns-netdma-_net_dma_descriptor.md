@@ -69,7 +69,7 @@ NetDMA 2.0 and later provider drivers use the
       <b>DCAContext16</b>, and 
       <b>DCAContext8</b> members of the union with 
       <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
       (DCA)</a>.
 
 
@@ -361,7 +361,7 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       and later provider drivers use the 
       <b>NextSourceAddress</b> member of the union with 
       <b>Reserved1</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
 
 
@@ -377,7 +377,7 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       2.0 and later provider drivers use the 
       <b>NextDestinationAddress</b> member of the union with 
       <b>Reserved2</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
 
 

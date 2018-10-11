@@ -102,7 +102,7 @@ Defines the <b>HRESULT</b> return value.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
  
 
  

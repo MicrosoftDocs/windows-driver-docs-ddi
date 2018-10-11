@@ -559,7 +559,7 @@ The <b>NDIS_PM_CAPABILITIES</b> structure is used in the
     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structures and in
     the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567410">
     NDIS_STATUS_PM_CAPABILITIES_CHANGE</a> status indication.
 
 During miniport initialization, the miniport driver initializes an <b>NDIS_PM_CAPABILITIES</b> structure with
@@ -608,7 +608,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567410">
    NDIS_STATUS_PM_CAPABILITIES_CHANGE</a>
 
 

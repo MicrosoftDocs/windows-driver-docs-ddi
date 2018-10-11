@@ -165,7 +165,7 @@ An array containing channel descriptions for the PHY type specified in the
 
 The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
        index within the list of supported PHYs returned by the driver through a query of
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
        OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
@@ -182,11 +182,11 @@ The
     array of zero or more DOT11_PHY_TYPE_INFO entries.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 For more information about the ExtSTA operation mode, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
     Mode</a>.
 
 

@@ -51,7 +51,7 @@ req.typenames: WSK_PROVIDER_NPI, *PWSK_PROVIDER_NPI
 
 
 The WSK_PROVIDER_NPI structure identifies a provider 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> implemented by the WSK subsystem.
 
 

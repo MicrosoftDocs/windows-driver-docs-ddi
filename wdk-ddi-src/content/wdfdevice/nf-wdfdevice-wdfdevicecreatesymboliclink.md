@@ -109,7 +109,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If a driver creates a symbolic link for a device, applications can use the symbolic link name to access the device. Typically, instead of providing symbolic links, framework-based drivers provide <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces">device interfaces</a> that applications can use to access their devices.
+If a driver creates a symbolic link for a device, applications can use the symbolic link name to access the device. Typically, instead of providing symbolic links, framework-based drivers provide <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">device interfaces</a> that applications can use to access their devices.
 
 If the device is removed unexpectedly (surprise-removed), the framework removes the symbolic link to the device. The driver can then use the symbolic link name for a new instance of the device.
 

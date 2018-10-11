@@ -70,7 +70,7 @@ The number of entries in the <b>OperationRegistration</b> array.
 
 ### -field Altitude
 
-A Unicode string that specifies the altitude of the driver. For more information about altitude, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/load-order-groups-and-altitudes-for-minifilter-drivers">Load Order Groups and Altitudes for Minifilter Drivers</a>.
+A Unicode string that specifies the altitude of the driver. For more information about altitude, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/load-order-groups-and-altitudes-for-minifilter-drivers">Load Order Groups and Altitudes for Minifilter Drivers</a>.
 
 
 ### -field RegistrationContext

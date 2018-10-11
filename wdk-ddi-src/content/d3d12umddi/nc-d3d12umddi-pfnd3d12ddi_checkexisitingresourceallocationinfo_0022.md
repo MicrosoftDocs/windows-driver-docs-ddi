@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt799844">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/mt799844">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
 
 
 ## -parameters

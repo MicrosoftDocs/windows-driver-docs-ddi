@@ -148,7 +148,7 @@ Specifies that virtual machine (VM) queues are enabled.  VM queues are used in t
 
 
 The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
     OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a> query OID to obtain the current global receive filter
     settings.
 
@@ -166,7 +166,7 @@ The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
    OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a>
  
 

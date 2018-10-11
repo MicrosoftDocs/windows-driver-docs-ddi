@@ -138,7 +138,7 @@ If the value of
 
 The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS structure when the driver
     makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
     NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a> status indication.
 
 
@@ -146,7 +146,7 @@ The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS str
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a>
 
 

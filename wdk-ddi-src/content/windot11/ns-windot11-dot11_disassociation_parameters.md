@@ -55,7 +55,7 @@ product:
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_DISASSOCIATION_PARAMETERS structure specifies the results of the disassociation operation
   performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11
   miniport driver includes a DOT11_ASSOCIATION_DISASSOCIATION_PARAMETERS structure when the driver makes an
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
   NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication.
 
 
@@ -134,7 +134,7 @@ The reason for the disassociation formatted as a
 
 The offset of a block of data in a proprietary format that is defined by the IHV. The IHV can use
       this data block for any purposes that are related to the
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
       NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication.
 
 This offset is relative to the start of the buffer, which contains the
@@ -148,7 +148,7 @@ If the miniport driver is not returning IHV data in the
 ### -field uIHVDataSize
 
 The length of the block of data that is used by the IHV for the
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
      NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication. If the miniport driver is not returning IHV
      data in this indication, it must set
      <b>uIHVDataSize</b> to zero.
@@ -166,7 +166,7 @@ For more information about the disassociation operation, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 

@@ -96,7 +96,7 @@ The extension must follow these guidelines for allocating the forwarding context
 <li>
 The extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a> to allocate a packet from the extension's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> pool for a send or receive operation over the extensible switch. Before the extension initializes source and destination ports for the packet, it must call <i>AllocateNetBufferListForwardingContext</i>. 
 
-For more information on how to specify source and destination extensible switch ports, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-source-and-destination-port-data">Managing Hyper-V Extensible Switch Source and Destination Port Data</a>.
+For more information on how to specify source and destination extensible switch ports, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-source-and-destination-port-data">Managing Hyper-V Extensible Switch Source and Destination Port Data</a>.
 
 </li>
 <li>

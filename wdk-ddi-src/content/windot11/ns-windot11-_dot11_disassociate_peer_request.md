@@ -129,7 +129,7 @@ A USHORT value that specifies the reason code field in the disassociation frame 
 
 
 This structure is used with
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
     OID_DOT11_DISASSOCIATE_PEER_REQUEST</a>.
 
 
@@ -137,7 +137,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
    OID_DOT11_DISASSOCIATE_PEER_REQUEST</a>
 
 

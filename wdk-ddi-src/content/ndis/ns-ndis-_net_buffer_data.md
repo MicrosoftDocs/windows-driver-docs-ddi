@@ -134,7 +134,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">
        NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
@@ -157,7 +157,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 

@@ -174,11 +174,11 @@ For C# and JavaScript clients, use printerextension.h GetReadStream or GetWriteS
 
 ## -see-also
 
-[IPrintSchemaAsyncOperationEvent::Completed](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed)
+[IPrintSchemaAsyncOperationEvent::Completed](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed)
 
-[IPrintSchemaCapabilities](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemacapabilities)
 
-[IPrintSchemaElement](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaelement)
+[IPrintSchemaElement](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaelement)
 
-[IPrintSchemaElement::XmlNode](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
+[IPrintSchemaElement::XmlNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
  

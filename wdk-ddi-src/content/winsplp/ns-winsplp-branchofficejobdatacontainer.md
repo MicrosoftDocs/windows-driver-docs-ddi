@@ -50,7 +50,7 @@ req.typenames: BranchOfficeJobDataContainer, *PBranchOfficeJobDataContainer, *LP
 ## -description
 
 
-This structure defines a container for one or more <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures to sent to a server.
+This structure defines a container for one or more <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures to sent to a server.
 
 
 ## -struct-fields

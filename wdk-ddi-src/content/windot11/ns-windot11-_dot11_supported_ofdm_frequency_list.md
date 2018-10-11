@@ -98,7 +98,7 @@ An array that specifies the list of supported channel center frequencies that th
 
 
 A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when queried by
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
     OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>.
 
 
@@ -106,7 +106,7 @@ A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
    OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>
 
 

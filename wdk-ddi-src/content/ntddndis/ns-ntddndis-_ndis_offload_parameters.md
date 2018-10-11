@@ -778,7 +778,7 @@ The preceding members can have one of the following values:
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 

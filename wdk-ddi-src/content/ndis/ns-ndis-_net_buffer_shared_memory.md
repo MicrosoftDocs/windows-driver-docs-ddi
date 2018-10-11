@@ -95,13 +95,13 @@ An NDIS 6.20 or later driver uses the NET_BUFFER_SHARED_MEMORY structure to desc
     capable NICs use these shared memory buffers in the virtualization environment.
 
 Use the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
     NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>, 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>, 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>, 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>,
     and 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568725">
     NET_BUFFER_SHARED_MEM_LENGTH</a> macros to access the NET_BUFFER_SHARED_MEMORY in a NET_BUFFER
     structure. The 
     <b>SharedMemoryInfo</b> member of the NET_BUFFER structure contains the first NET_BUFFER_SHARED_MEMORY
@@ -127,11 +127,11 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
    NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>
 
 

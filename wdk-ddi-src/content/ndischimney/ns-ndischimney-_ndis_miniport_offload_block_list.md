@@ -540,7 +540,7 @@ The MDLs associated with the NET_BUFFER structures contain data that the host st
      back to the host stack by calling the appropriate 
      <b>NdisTcpOffload<i>Xxx</i>Complete</b> function. At present, the linked list can contain just one type of data:
      outstanding send data. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a>.
 
 An offload target can pass outstanding send data to the host stack when terminating the offload of a
      TCP connection. In this case, the offload target specifies a non-<b>NULL</b> value for the 
@@ -635,7 +635,7 @@ The offload target returns the tree to the host stack by passing the same pointe
 </li>
 </ul>
 An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can be immediately followed in memory by an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> that contains
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structure</a> that contains
     state to be offloaded, queried, updated, invalidated, or terminated. The 
     <b>Type</b> member of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure's 
     <b>Header</b> specifies the type of offload state, and by implication, the specific offload state
@@ -645,13 +645,13 @@ The host stack and offload target use the
     <b>*MiniportOffloadContext</b> and 
     <b>NdisOffloadHandle</b> members of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure to reference offloaded
     state. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
 An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can perform one of several functions in an offload state
     tree. It can function as a placeholder, a linker, or it can convey new state to be offloaded by the
     offload target. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
     New Offloads</a>.
 
 Before completing an initiate offload, query offload, update offload, invalidate offload, or terminate

@@ -102,12 +102,12 @@ Use the following functions and macros to access data in the NET_BUFFER_LIST_CON
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
          NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
          NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -469,17 +469,17 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
        NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -492,7 +492,7 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
        NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
@@ -524,12 +524,12 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
@@ -550,7 +550,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
    NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
@@ -559,7 +559,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
    NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 

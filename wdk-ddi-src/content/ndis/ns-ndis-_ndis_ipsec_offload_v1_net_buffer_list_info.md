@@ -79,7 +79,7 @@ A structure that contains the following members:
 ### -field Receive.SaDeleteReq
 
 A USHORT value that, when set, indicates that the TCP/IP transport should issue the 
-       <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+       <a href="https://msdn.microsoft.com/library/gg155485.aspx">
        OID_TCP_TASK_IPSEC_DELETE_SA</a> OID once to delete the inbound SA that the packet was received over
        and once again to delete the outbound SA that corresponds to the deleted inbound SA. The network
        interface card (NIC) must not remove either of these SAs before it receives the corresponding
@@ -266,7 +266,7 @@ If the NIC did not perform IPsec checks on the packet, the miniport driver does 
 To create space for another SA on the NIC, the miniport driver of the NIC can set 
     <b>SaDeleteReq</b> in the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure for a receive packet. The
     TCP/IP transport subsequently issues 
-    <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
+    <a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
     to delete the inbound SA that the packet was received over and once again to delete the outbound SA that
     corresponds to the deleted inbound SA. The NIC must not remove either of these SAs before receiving the
     corresponding OID_TCP_TASK_IPSEC_DELETE_SA request. The miniport driver of the NIC can set 
@@ -302,7 +302,7 @@ To set and get the IPsec information, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
  
 
  

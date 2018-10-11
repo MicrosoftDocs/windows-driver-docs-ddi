@@ -128,7 +128,7 @@ NDIS miniport drivers that support MSI-X call the
     <b>NdisMConfigMSIXTableEntry</b> to change the CPU affinity of MSI-X table entries at run time.
 
 <b>NdisMConfigMSIXTableEntry</b> is a wrapper around the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">
     GUID_MSIX_TABLE_CONFIG_INTERFACE</a> query. Miniport drivers can call 
     <b>NdisMConfigMSIXTableEntry</b> after NDIS calls the 
     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function and

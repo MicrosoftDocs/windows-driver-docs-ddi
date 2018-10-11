@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_IPSEC_V6
 
 The FWPS_FIELDS_IPSEC_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPSEC_V6 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields

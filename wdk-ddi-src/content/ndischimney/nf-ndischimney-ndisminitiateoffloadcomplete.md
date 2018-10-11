@@ -161,7 +161,7 @@ NDIS_STATUS_FAILURE
 </li>
 </ul>
 For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/returning-completion-status-of-an-initiate-offload-operation">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/returning-completion-status-of-an-initiate-offload-operation">
     Returning Completion Status of an Initiate Offload Operation</a>.
 
 

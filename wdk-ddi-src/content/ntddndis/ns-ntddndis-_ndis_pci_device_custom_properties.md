@@ -164,9 +164,9 @@ Some high performance miniport adapters can adjust the hardware configuration an
     <a href="https://msdn.microsoft.com/945d921b-3024-4c4f-a50d-e996c6183db7">
     NDIS_MINIPORT_INIT_PARAMETERS</a> structure. The type and speed of the PCI bus is also available
     through the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
     OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a> OID request and the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566745">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566745">
     GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a> WMI GUID.
 
 
@@ -177,7 +177,7 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566745">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566745">
    GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
 
 
@@ -190,7 +190,7 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
    OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
  
 

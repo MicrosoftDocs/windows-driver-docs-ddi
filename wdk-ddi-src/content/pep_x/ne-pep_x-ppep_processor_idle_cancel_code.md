@@ -83,7 +83,7 @@ The processor can enter the selected idle state only after one or more secondary
 
 ### -field PepIdleCancelNoCState
 
-The selected idle state corresponds to a C-state that is not supported. The PEP previously received a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification that supplied a list of the supported C-states for this processor.
+The selected idle state corresponds to a C-state that is not supported. The PEP previously received a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification that supplied a list of the supported C-states for this processor.
 
 
 ### -field PepIdleCancelMax
@@ -106,7 +106,7 @@ The <b>CancelCode</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_can
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
 
 

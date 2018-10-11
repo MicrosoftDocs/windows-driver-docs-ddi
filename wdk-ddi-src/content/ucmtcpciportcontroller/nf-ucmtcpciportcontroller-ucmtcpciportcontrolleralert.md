@@ -108,7 +108,7 @@ When handling alerts, UcmTcpciCx may send hardware requests to the client driver
 
 
 
-<a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>
  
 
  

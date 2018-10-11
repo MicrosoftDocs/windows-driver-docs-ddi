@@ -64,7 +64,7 @@ The filter engine calls a callout's
 
 The run-time identifier for the filtering layer at which the data flow is being terminated. For
      more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">Run-time Filtering Layer
      Identifiers</a>.
 
 

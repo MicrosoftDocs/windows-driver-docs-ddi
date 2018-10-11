@@ -517,7 +517,7 @@ An opaque pointer to the head of the IRP list associated with the file object.
 
 ### -field FileObjectExtension
 
-An opaque pointer to the file object's file object extension (<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>) structure. The <b>FOBX</b> structure contains various opaque contexts used internally as well as the per-file object contexts available through <b>FsRtl<i>Xxx</i></b> routines.
+An opaque pointer to the file object's file object extension (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>) structure. The <b>FOBX</b> structure contains various opaque contexts used internally as well as the per-file object contexts available through <b>FsRtl<i>Xxx</i></b> routines.
 
 
 ## -remarks
@@ -568,7 +568,7 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
 
 
 
