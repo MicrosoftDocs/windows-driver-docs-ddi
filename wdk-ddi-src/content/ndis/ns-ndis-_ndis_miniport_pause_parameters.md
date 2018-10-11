@@ -76,15 +76,14 @@ Reserved.
 
 ### -field PauseReason
 
-The value of this member depends on the both the NDIS version the driver is targeting and the OS version on which it is running.
+The value of this member depends on the NDIS version a miniport driver is targeting.
 
-| Scenario | NDIS version | OS version | Value |
-| --- | --- | --- | --- |
-| 1 | 6.40 to 6.82 | Windows 8.1 to Windows 10, version 1809 | Always NDIS_PAUSE_NDIS_INTERNAL |
-| 2 | 6.40 and later | Windows 10, version 1903 and later | NDIS_PAUSE_MINIPORT_DEVICE_REMOVE under specific conditions, otherwise NDIS_PAUSE_NDIS_INTERNAL |
-| 3 | 6.83 and later | Windows 10, version 1903 and later | NDIS_PAUSE_MINIPORT_DEVICE_REMOVE under specific conditions, otherwise NDIS_PAUSE_NDIS_INTERNAL |
+| Miniport driver NDIS version | Value |
+| --- | --- | --- |
+| Earlier than NDIS 6.40 | Unpredictable values. Miniport drivers should not rely on the value of this member. |
+| 6.40 and later | NDIS_PAUSE_MINIPORT_DEVICE_REMOVE under specific conditions, otherwise NDIS_PAUSE_NDIS_INTERNAL. |
 
-For scenarios 2 and 3, the value of this member might be NDIS_PAUSE_MINIPORT_DEVICE_REMOVE if NDIS guarantees that the miniport adapter instance will never receive a [*MiniportRestart*](nc-ndis-miniport_restart.md) call again. Otherwise, this value is NDIS_PAUSE_NDIS_INTERNAL. If the NDIS_PAUSE_MINIPORT_DEVICE_REMOVE flag is set, miniport drivers that target NDIS 6.40 or later can optionally make aggressive performance optimizations in their [*MiniportPause*](nc-ndis-miniport_pause.md) handler that assume that the adapter's datapath will never be restarted.
+For NDIS 6.40 and later miniport drivers running on Windows 10, version 1903 and later, the value of this member might be NDIS_PAUSE_MINIPORT_DEVICE_REMOVE if NDIS guarantees that the miniport adapter instance will never receive a [*MiniportRestart*](nc-ndis-miniport_restart.md) call again. Otherwise, this value is NDIS_PAUSE_NDIS_INTERNAL. If the NDIS_PAUSE_MINIPORT_DEVICE_REMOVE flag is set, miniport drivers can optionally make aggressive performance optimizations in their [*MiniportPause*](nc-ndis-miniport_pause.md) handler that assume that the adapter's datapath will never be restarted. NDIS 6.40 and later drivers will never see NDIS_PAUSE_MINIPORT_DEVICE_REMOVE on versions of Windows earlier than Windows 10, version 1903.
 
 ## -remarks
 
