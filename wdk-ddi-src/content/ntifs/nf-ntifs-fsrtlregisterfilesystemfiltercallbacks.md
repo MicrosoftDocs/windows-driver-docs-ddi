@@ -71,7 +71,7 @@ This structure is defined as follows.
 
 <div class="alert"><b>Note</b>  All of the callback entry points are optional and can be <b>NULL</b>. </div>
 <div> </div>
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -100,7 +100,7 @@ This structure is defined as follows.
 </table></span></div>
 The filter callback routine and its parameters are defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -144,7 +144,7 @@ Context information to be passed to the filter completion callback routine. Set 
 
 The filter completion callback routine and its parameters are defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -199,7 +199,7 @@ Context information that was set in the filter callback routine. This is set to 
 
 The callback data structure and its members are defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -296,7 +296,7 @@ Union containing any operation-specific parameters.
 
 The filter parameter union is defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -559,6 +559,8 @@ Reserved for future use.
 </tr>
 </table>
 
+<div></div>
+
 ## -returns
 
 The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the following status values: 
@@ -639,6 +641,8 @@ One of the parameters is invalid.
 </td>
 </tr>
 </table>
+
+<div></div>
 
 ## -remarks
 
