@@ -92,8 +92,8 @@ This structure is defined as follows.
     PFS_FILTER_COMPLETION_CALLBACK PostAcquireForModifiedPageWriter;
     PFS_FILTER_CALLBACK PreReleaseForModifiedPageWriter;
     PFS_FILTER_COMPLETION_CALLBACK PostReleaseForModifiedPageWriter;
-    PFS_FILTER_CALLBACK PreNotifyStreamFileObject;
-    PFS_FILTER_COMPLETION_CALLBACK PostNotifyStreamFileObject;
+    PFS_FILTER_CALLBACK PreQueryOpen;
+    PFS_FILTER_COMPLETION_CALLBACK PostQueryOpen;
 } FS_FILTER_CALLBACKS, *PFS_FILTER_CALLBACKS;</pre>
 </td>
 </tr>
@@ -302,19 +302,61 @@ The filter parameter union is defined as follows:
 </tr>
 <tr>
 <td>
-<pre>typedef union _FS_FILTER_PARAMETERS {
+
+```C++
+typedef union _FS_FILTER_PARAMETERS {
+    //
+    //  AcquireForModifiedPageWriter
+    //
+
     struct {
         PLARGE_INTEGER EndingOffset;
         PERESOURCE *ResourceToRelease;
     } AcquireForModifiedPageWriter;
+
+    //
+    //  ReleaseForModifiedPageWriter
+    //
+
     struct {
         PERESOURCE ResourceToRelease;
     } ReleaseForModifiedPageWriter;
+
+    //
+    //  AcquireForSectionSynchronization
+    //
+
     struct {
- FS_FILTER_SECTION_SYNC_TYPE SyncType;
- ULONG PageProtection;
- PFS_FILTER_SECTION_SYNC_OUTPUT  OutputInformation;
+        FS_FILTER_SECTION_SYNC_TYPE SyncType;
+        ULONG PageProtection;
+        PFS_FILTER_SECTION_SYNC_OUTPUT OutputInformation;
     } AcquireForSectionSynchronization;
+
+    //
+    //  NotifyStreamFileObjectCreation
+    //
+
+    struct {
+        FS_FILTER_STREAM_FO_NOTIFICATION_TYPE NotificationType;
+        BOOLEAN POINTER_ALIGNMENT SafeToRecurse;
+    } NotifyStreamFileObject;
+
+    //
+    // QueryOpen
+    //
+
+    struct {
+        PIRP Irp;
+        PVOID FileInformation;
+        PULONG Length;
+        FILE_INFORMATION_CLASS FileInformationClass;
+        NTSTATUS CompletionStatus;
+    } QueryOpen;
+
+    //
+    //  Other
+    //
+
     struct {
         PVOID Argument1;
         PVOID Argument2;
@@ -322,7 +364,9 @@ The filter parameter union is defined as follows:
         PVOID Argument4;
         PVOID Argument5;
     } Others;
-} FS_FILTER_PARAMETERS, *PFS_FILTER_PARAMETERS;</pre>
+} FS_FILTER_PARAMETERS, *PFS_FILTER_PARAMETERS;
+```
+
 </td>
 </tr>
 </table></span></div>
@@ -401,6 +445,70 @@ The extended output information for the section.
 
 </td>
 </tr>
+
+<tr>
+<td>
+<i>NotificationType</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
+<tr>
+<td>
+<i>SafeToRecurse</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
+<tr>
+<td>
+<i>Irp</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
+<tr>
+<td>
+<i>FileInformation</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
+<tr>
+<td>
+<i>Length</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
+<tr>
+<td>
+<i>FileInformationClass</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
+<tr>
+<td>
+<i>CompletionStatus</i>
+</td>
+<td>
+TBD
+</td>
+</tr>
+
 <tr>
 
 <td>
