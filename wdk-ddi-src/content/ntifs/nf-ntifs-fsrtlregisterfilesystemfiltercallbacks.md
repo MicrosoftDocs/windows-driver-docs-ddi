@@ -515,11 +515,11 @@ A [FILE_CASE_SENSITIVE_INFORMATION](ns-ntifs-_file_stat_information.md) structur
 <i>CompletionStatus</i>
 </td>
 <td>
-An NTSTATUS value that receives the final completion status and information about the operation. 
+<p>An NTSTATUS value that receives the final completion status and information about the operation. </p>
 
-<b>CompletionStatus</b> can be set by the PostQueryOpen callback to fail the operation, since post callbacks have no return value. This is primarily used so the PostQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file.
+<p><b>CompletionStatus</b> can be set by the PostQueryOpen callback to fail the operation, since post callbacks have no return value. This is primarily used so the PostQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file.</p>
 
-Similarly, the PreQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path.
+<p>Similarly, the PreQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path.</p>
 </td>
 </tr>
 
