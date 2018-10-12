@@ -294,7 +294,7 @@ Union containing any operation-specific parameters.
 </table>
  
 
-The filter parameter union is defined as follows: 
+The filter parameters union is defined as follows: 
 
 <div class="code"><span codelanguage="C++"><table>
 <tr>
@@ -468,155 +468,44 @@ The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
 <i>FileInformationClass</i>
 </td>
 <td>
-Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff728840">FILE_INFORMATION_CLASS</a> values.
+Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff728840">FILE_INFORMATION_CLASS</a> values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
 
 <table>
 <tr>
 <th>FILE_INFORMATION_CLASS value</th>
 <th>Type of information returned</th>
 </tr>
+
 <tr>
 <td>
-<b>FileAccessInformation</b>
-
+<b>FileStatInformation</b>
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545733">FILE_ACCESS_INFORMATION</a> structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
-
+A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
 </td>
 </tr>
 <tr>
-<td>
-<b>FileAlignmentInformation</b>
 
+<tr>
+<td>
+<b>FileStatLxInformation</b>
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545740">FILE_ALIGNMENT_INFORMATION</a> structure. The caller can query this information as long as the file is open, without any particular requirements for <i>DesiredAccess</i>. This information is useful if the file was opened with the FILE_NO_INTERMEDIATE_BUFFERING flag specified in the <i>CreateOptions</i> parameter.
-
+A [FILE_STAT_LX_INFORMATION](ns-ntifs-_file_stat_lx_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
 </td>
 </tr>
 <tr>
-<td>
-<b>FileAllInformation</b>
 
+<tr>
+<td>
+<b>FileCaseSensitiveInformation</b>
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545743">FILE_ALL_INFORMATION</a> structure. By combining several file-information structures into a single structure, <b>FILE_ALL_INFORMATION</b> reduces the number of queries required to obtain information about a file.
-
+A [FILE_CASE_SENSITIVE_INFORMATION](ns-ntifs-_file_stat_information.md) structure.
 </td>
 </tr>
 <tr>
-<td>
-<b>FileAttributeTagInformation</b>
 
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileBasicInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileEaInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545773">FILE_EA_INFORMATION</a> structure. This structure specifies the size of the extended attributes block that is associated with the file.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileInternalInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a> structure. This structure specifies a 64-bit file ID that uniquely identifies a file in NTFS. On other file systems, this file ID is not guaranteed to be unique.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileIoPriorityHintInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545802">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_DATA flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileModeInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545809">FILE_MODE_INFORMATION</a> structure. This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the <i>CreateOptions</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a> routine.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileNameInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. The structure can contain the file's full path or only a portion of it. The caller can query this information as long as the file is open, without any particular requirements for <i>DesiredAccess</i>.
-
-For more information about the file-name syntax, see the Remarks section later in this topic.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileNetworkOpenInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FilePositionInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure. The caller must have opened the file with the <i>DesiredAccess</i> FILE_READ_DATA or FILE_WRITE_DATA flag specified in the <i>DesiredAccess</i> parameter, and with the FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT flag specified in the <i>CreateOptions </i>parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileStandardInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a> structure. The caller can query this information as long as the file is open, without any particular requirements for <i>DesiredAccess</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileIsRemoteDeviceInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE_IS_REMOTE_DEVICE_INFORMATION</a> structure. The caller can query this information as  long as the file is open, without any particular requirements for <i>DesiredAccess</i>.                         
-
-</td>
-</tr>
 </table>
 </td>
 </tr>
@@ -626,7 +515,11 @@ A <a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE
 <i>CompletionStatus</i>
 </td>
 <td>
-An NTSTATUS value that receives the final completion status and information about the operation.
+An NTSTATUS value that receives the final completion status and information about the operation. 
+
+<b>CompletionStatus</b> can be set by the PostQueryOpen callback to fail the operation, since post callbacks have no return value. This is primarily used so the PostQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file.
+
+Similarly, the PreQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path.
 </td>
 </tr>
 
@@ -921,7 +814,7 @@ The modified page writer releases a file after writing a portion of the file to 
 
 <tr>
 <td>
-A kernel component (such as the cache manager) queries for file information by name without opening the file. 
+A component queries for file information by name without opening the file. 
 
 </td>
 <td>
