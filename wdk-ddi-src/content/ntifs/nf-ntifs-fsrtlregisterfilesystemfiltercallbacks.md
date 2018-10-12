@@ -332,15 +332,6 @@ typedef union _FS_FILTER_PARAMETERS {
     } AcquireForSectionSynchronization;
 
     //
-    //  NotifyStreamFileObjectCreation
-    //
-
-    struct {
-        FS_FILTER_STREAM_FO_NOTIFICATION_TYPE NotificationType;
-        BOOLEAN POINTER_ALIGNMENT SafeToRecurse;
-    } NotifyStreamFileObject;
-
-    //
     // QueryOpen
     //
 
@@ -442,24 +433,6 @@ The extended output information for the section.
 </ul>
 
 
-</td>
-</tr>
-
-<tr>
-<td>
-<i>NotificationType</i>
-</td>
-<td>
-A <b>FS_FILTER_STREAM_F0_NOTIFICATION_TYPE</b> value that specifies the type of notification for this stream: <b>NotifyTypeCreate</b> if the stream is created.
-</td>
-</tr>
-
-<tr>
-<td>
-<i>SafeToRecurse</i>
-</td>
-<td>
-A <b>BOOLEAN</b> value that indicates if it is safe to recurse on this stream or not.
 </td>
 </tr>
 
