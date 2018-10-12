@@ -429,7 +429,7 @@ Type of page protection requested for the section. Must be zero if <i>SyncType</
 
 </td>
 <td>
-The extended output information for the section.
+A [FS_FILTER_SECTION_SYNC_OUTPUT](ns-ntifs-_fs_filter_section_sync_output.md) structure that contains the extended output information for the section.
 </ul>
 
 
