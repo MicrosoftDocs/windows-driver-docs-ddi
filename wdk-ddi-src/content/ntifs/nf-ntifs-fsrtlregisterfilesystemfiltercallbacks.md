@@ -450,7 +450,7 @@ A pointer to the IRP associated with this operation.
 <i>FileInformation</i>
 </td>
 <td>
-Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The <i>FileInformationClass</i> parameter specifies the type of information that the caller requests.
+Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The <i>FileInformationClass</i> member specifies the type of information that the caller requests.
 </td>
 </tr>
 
