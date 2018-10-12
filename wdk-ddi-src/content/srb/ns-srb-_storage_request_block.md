@@ -545,8 +545,15 @@ Contains the queue-tag value assigned by the operating system-specific port driv
 
 ### -field RequestPriority
 
-The priority assignment for the SRB.
+The priority assignment for the SRB. This is one of the following **_STOR_IO_PRIORITY_HINT** values:
 
+| Value | Meaning |
+| --- | --- |
+| <p>StorIoPriorityVeryLow</p><p>0</p> | Very low priority. |
+| <p>StorIoPriorityLow</p><p>1</p> | Low priority.  |
+| <p>StorIoPriorityNormal</p><p>2</p> | Normal priority. |
+| <p>StorIoPriorityHigh</p><p>3</p> | High priority. |
+| <p>StorIoPriorityCritical</p><p>4</p> | Critical priority. |
 
 ### -field RequestAttribute
 
