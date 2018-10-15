@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_STREAM_PACKET_V6
 
 The FWPS_FIELDS_STREAM_PACKET_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_STREAM_PACKET_V6 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -128,6 +128,10 @@ The encapsulation method used by a tunnel if the
 
 ### -field FWPS_FIELD_STREAM_PACKET_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_STREAM_PACKET_V6_MAX
 

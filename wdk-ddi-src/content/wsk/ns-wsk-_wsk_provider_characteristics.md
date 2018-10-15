@@ -61,7 +61,7 @@ The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteristics of the 
 ### -field HighestVersion
 
 The highest version of the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that is supported by the WSK subsystem.
 
 
@@ -127,7 +127,7 @@ If a WSK application determines that the WSK subsystem supports a version of the
     <b>Version</b> member of the structure.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

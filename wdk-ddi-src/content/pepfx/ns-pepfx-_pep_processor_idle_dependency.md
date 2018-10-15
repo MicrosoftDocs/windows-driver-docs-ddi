@@ -60,7 +60,7 @@ The <b>PEP_PROCESSOR_IDLE_DEPENDENCY</b> structure specifies the dependencies of
 
 ### -field TargetProcessor
 
-A <b>POHANDLE</b> value that identifies the processor. The platform extension plug-in (PEP) received this handle in a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+A <b>POHANDLE</b> value that identifies the processor. The platform extension plug-in (PEP) received this handle in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field ExpectedState
@@ -92,7 +92,7 @@ The <b>DependencyArray</b> member of the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

@@ -113,7 +113,7 @@ The
 
 After returning from the 
     <i>MiniportQueryOffload</i> function, the miniport driver fills in the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> that is
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structure</a> that is
     associated with each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree pointed to by the 
     <i>OffloadBlockList</i> pointer. To each of these offload state structures, the miniport driver writes the
     current value of each variable in the structure.

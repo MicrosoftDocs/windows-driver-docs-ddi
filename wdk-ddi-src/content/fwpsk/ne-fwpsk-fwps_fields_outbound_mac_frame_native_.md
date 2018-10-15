@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE
 
 The FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE enumeration type specifies the data field identifiers for the
   FWPS_LAYER_OUTBOUND_MAC_FRAME_NATIVE 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -92,9 +92,14 @@ The outbound MAC frame native NDIS port field.
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_MAX
 

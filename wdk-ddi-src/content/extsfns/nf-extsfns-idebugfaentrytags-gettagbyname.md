@@ -70,7 +70,7 @@ A pointer to a null-terminated string that specifies the name to search for.
 
 ### -param Tag [out]
 
-A pointer to a variable that receives either a value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration or the value of a custom tag. If this method does not find a tag that has the specified name, nothing is written to this parameter.
+A pointer to a variable that receives either a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration or the value of a custom tag. If this method does not find a tag that has the specified name, nothing is written to this parameter.
 
 
 ## -returns

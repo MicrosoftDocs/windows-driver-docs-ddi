@@ -215,7 +215,7 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55423
 
 #### ProcessorEnableMask
 
-Specifies the [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) mask that represents the set of processors on which the device's interrupts can occur. This value is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Affinity</b> member of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>.
+Specifies the [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) mask that represents the set of processors on which the device's interrupts can occur. This value is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Affinity</b> member of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>.
 
 
 

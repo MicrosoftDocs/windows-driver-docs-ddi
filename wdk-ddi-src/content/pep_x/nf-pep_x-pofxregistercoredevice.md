@@ -61,7 +61,7 @@ The <b>PoFxRegisterCoreDevice</b> routine registers a new core system resource w
 
 ### -param Id [in]
 
-A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -param Device [in]

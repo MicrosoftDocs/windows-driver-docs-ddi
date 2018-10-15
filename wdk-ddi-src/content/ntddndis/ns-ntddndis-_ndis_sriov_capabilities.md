@@ -148,7 +148,7 @@ For more information on how to report the SR-IOV capabilities of a network adapt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559389">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559389">MiniportInitializeEx</a>
 
 
 

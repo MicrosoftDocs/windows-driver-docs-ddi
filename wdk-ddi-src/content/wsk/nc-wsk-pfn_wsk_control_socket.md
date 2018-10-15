@@ -110,7 +110,7 @@ If the
      <b>WskIoctl</b>, the 
      <i>ControlCode</i> parameter specifies the particular I/O control operation that is being performed. For
      more information about I/O control operations that are supported by the WSK subsystem, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>. The
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>. The
      underlying network protocol might support additional socket I/O control operations.
 
 
@@ -186,7 +186,7 @@ The number of bytes of output data that is returned by the operation that is bei
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
      
 
@@ -205,7 +205,7 @@ If the
      <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular I/O control
      operation that is being performed. For more information about the requirements for the 
      <i>Irp</i> parameter for each of the supported I/O control operations, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL
      Operations</a>.
 
 
@@ -313,7 +313,7 @@ If a WSK application specifies
 If a WSK application specifies 
     <b>WskIoctl</b> in the 
     <i>RequestType</i> parameter, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a> for
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a> for
     more information about how the input and output buffers are used for each I/O control operation.
 
 If the 
@@ -342,7 +342,7 @@ Callers of the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
 
 
 

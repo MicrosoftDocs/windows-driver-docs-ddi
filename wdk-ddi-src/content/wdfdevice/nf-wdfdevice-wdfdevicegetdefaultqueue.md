@@ -83,7 +83,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about default I/O queues, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
+For more information about default I/O queues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
 
 #### Examples

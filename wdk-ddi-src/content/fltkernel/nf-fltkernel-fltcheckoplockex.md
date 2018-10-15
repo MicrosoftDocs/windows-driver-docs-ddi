@@ -219,6 +219,6 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 [FsRtlCheckOplockEx](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md)
 
-[IO_STATUS_BLOCK](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block)
+[IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block)
 
 [PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)

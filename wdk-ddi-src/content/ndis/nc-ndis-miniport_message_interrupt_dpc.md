@@ -149,7 +149,7 @@ Miniport drivers determine the source of each interrupt and take appropriate act
     new link status to NDIS. If there are outstanding receive packets, the miniport driver indicates the
     packets to NDIS.
 
-A miniport driver that supports <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a>, and has the feature enabled, examines its
+A miniport driver that supports <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a>, and has the feature enabled, examines its
     receive queues in 
     <i>MiniportMessageInterruptDPC</i>. The NIC could have already queued received packets on separate queues
     based on hash values, if the NIC provides such capabilities. Otherwise, the miniport driver can sort the
@@ -304,7 +304,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  

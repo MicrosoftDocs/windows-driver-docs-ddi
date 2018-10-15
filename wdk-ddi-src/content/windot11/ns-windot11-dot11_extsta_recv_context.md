@@ -54,7 +54,7 @@ product:
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
-The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or Network Monitor (NetMon) modes. For more information about these operation modes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>.
+The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or Network Monitor (NetMon) modes. For more information about these operation modes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>.
 
 
 ## -syntax
@@ -120,7 +120,7 @@ The following flag values are valid for the miniport driver if is operating in N
 
 #### DOT11_RECV_FLAG_RAW_PACKET
 
-If this bit is set, the packet contains the data as it was originally received by the 802.11 station. For more information about raw packets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11 Packets</a>.
+If this bit is set, the packet contains the data as it was originally received by the 802.11 station. For more information about raw packets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11 Packets</a>.
 
 #### DOT11_RECV_FLAG_RAW_PACKET_FCS_FAILURE
 
@@ -167,7 +167,7 @@ The data rate at which the 802.11 station received the packet. The value of
      <b>ucDataRate</b> is the value of the
      <b>ucDataRateIndex</b> member of the data rate from the 802.11 station's data rate mapping table. For
      more information about the data rate mapping table, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
      OID_DOT11_DATA_RATE_MAPPING_TABLE</a>.
 
 
@@ -201,7 +201,7 @@ The native 802.11 framework copies this pointer to the
 
 An 802.11 timing synchronization function (TSF) timer value, in microseconds, that specifies the
      time when the packet was received. This member is provided to support
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">indicating raw 802.11 packets</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-raw-802-11-packets">indicating raw 802.11 packets</a>.
 
 
 If a NIC does not support
@@ -269,11 +269,11 @@ Set the value of
 </li>
 </ul>
 For more information about raw packets, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
     Packets</a>.
 
 For more information about Native 802.11 receive operations, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-receive-operations">Native 802.11 Receive
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-receive-operations">Native 802.11 Receive
     Operations</a>.
 
 
@@ -298,7 +298,7 @@ For more information about Native 802.11 receive operations, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
 
 

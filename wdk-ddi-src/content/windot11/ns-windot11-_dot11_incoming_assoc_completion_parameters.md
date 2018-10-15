@@ -184,7 +184,7 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
 
 The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive packets on the BSS network connection. Each entry is a ULONG value.
 
-The Extensible Station (ExtSTA) <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
+The Extensible Station (ExtSTA) <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
 
 Entries in the active PHY list can be one of the following values:
 
@@ -200,7 +200,7 @@ A PHY ID that is specified by the Extensible Station (ExtSTA)
 A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the ExtSTA
         <b>msDot11ActivePhyList</b> MIB object specifies all of the PHY IDs that are specified by the
         <b>msDot11DesiredPhyList</b> MIB object. For more information about this MIB object, see
-        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
+        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 <div class="alert"><b>Note</b>  An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the
         active PHY list.</div>
@@ -259,7 +259,7 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure when
     the driver makes an
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff547647">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff547647">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a> status indication.
 
 The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end of an
@@ -279,7 +279,7 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff547647">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547647">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
 
 

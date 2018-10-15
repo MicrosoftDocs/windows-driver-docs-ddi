@@ -225,7 +225,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
     for Deep Inspection of Stream Data</a>
 
 

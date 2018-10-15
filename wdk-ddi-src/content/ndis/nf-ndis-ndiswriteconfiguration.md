@@ -164,7 +164,7 @@ As an alternative to calling
     itself using the AddReg directive in the driver's INF file.
 
 For more information about setup and installation files for Windows 2000 and later versions, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
     Overview</a>.
 
 

@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request the network mini-redirector to determine if two FCB structures represent the same file. 
+The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request the network mini-redirector to determine if two FCB structures represent the same file. 
 
 
 ## -parameters

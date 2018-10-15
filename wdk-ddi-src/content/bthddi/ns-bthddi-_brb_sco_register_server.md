@@ -142,7 +142,7 @@ A pointer to an object to pass to the
      <b>IndicationCallback</b> member. The Bluetooth driver stack will decrease the reference count of the
      object when the profile driver 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536630">
      BRB_SCO_UNREGISTER_SERVER</a> request.
 
 
@@ -150,7 +150,7 @@ A pointer to an object to pass to the
 
 Handle to the SCO server, if successfully returned. When the profile driver should no longer
      receive remote connect indications it should pass this handle to 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536630">
      BRB_SCO_UNREGISTER_SERVER</a>.
 
 
@@ -173,7 +173,7 @@ After the profile driver has registered itself, the Bluetooth driver stack can n
 
 When the profile driver receives notification of a connection attempt, it should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+    <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
     BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request to either accept or reject the connection attempt. For more
     information about accepting or rejecting SCO connection attempts, see the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536870">_BRB_SCO_OPEN_CHANNEL</a> structure.
@@ -183,7 +183,7 @@ After a connection is established, the profile driver can issue other BRBs to co
 
 To stop receiving remote connection notifications, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536630">
     BRB_SCO_UNREGISTER_SERVER</a> request.
 
 
@@ -202,7 +202,7 @@ To stop receiving remote connection notifications, a profile driver should
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
 
 
 

@@ -102,7 +102,7 @@ The following ACPI IOCTLs return output arguments from ACPI control methods in a
 
 Typically, the <b>Argument</b> member is the start of an array of  one or more <b>ACPI_METHOD_ARGUMENT</b> structures. If the array contains more than one <b>ACPI_METHOD_ARGUMENT</b> structure, the additional structures follow the end of the <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure. However, these <b>ACPI_METHOD_ARGUMENT</b> structures form a true array only if none of the <b>DataLength</b> members of these structures has a value greater than <b>sizeof</b>(ULONG). For some types of data, the <b>DataLength</b> value in one or more of these structures can be greater than <b>sizeof</b>(ULONG), in which case the offsets between adjacent <b>ACPI_METHOD_ARGUMENT</b> structures can vary.
 
-For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures to retrieve output arguments from an ACPI control method, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures to retrieve output arguments from an ACPI control method, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
 
 

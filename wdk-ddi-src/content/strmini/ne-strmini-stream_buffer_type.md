@@ -50,7 +50,7 @@ req.typenames: STREAM_BUFFER_TYPE
 ## -description
 
 
-This enumeration defines the buffer types for <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">StreamClassGetPhysicalAddress</a>.
+This enumeration defines the buffer types for <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">StreamClassGetPhysicalAddress</a>.
 
 
 ## -enum-fields

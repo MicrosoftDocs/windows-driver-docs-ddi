@@ -90,7 +90,7 @@ The
     <a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">
     MiniportMessageInterruptDPC</a> DPC handler functions point to an NDIS_RECEIVE_THROTTLE_PARAMETERS
     structure. This structure specifies the parameters of 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567241">Receive Side Throttle
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567241">Receive Side Throttle
     (RST)</a> in NDIS 6.20 and later.
 
 On entry to the DPC handler, the 

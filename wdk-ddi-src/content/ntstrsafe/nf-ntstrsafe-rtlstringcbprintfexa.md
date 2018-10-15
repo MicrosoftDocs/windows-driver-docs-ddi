@@ -152,7 +152,7 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 
 ### -param pszFormat [in, optional]
 
-A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
+A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
 ### -param param

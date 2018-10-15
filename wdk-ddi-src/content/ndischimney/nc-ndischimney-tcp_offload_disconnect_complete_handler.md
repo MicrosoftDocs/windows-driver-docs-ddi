@@ -129,7 +129,7 @@ Before returning, the
 Note that, if an intermediate driver exports more than one interface to overlying protocols, it must
     determine which protocol should receive the completion of the disconnect. To make this determination, the
     intermediate driver uses information that it stored in the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
     NET_BUFFER_LIST_CONTEXT</a> structure, which is associated with the NET_BUFFER_LIST structure.
 
 

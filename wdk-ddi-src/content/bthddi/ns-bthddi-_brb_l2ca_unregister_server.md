@@ -74,14 +74,14 @@ The address of the remote device.
 ### -field ServerHandle
 
 The handle of the L2CAP server to unregister, as returned earlier from a previous 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">
      BRB_L2CA_REGISTER_SERVER</a> request.
 
 
 ### -field Psm
 
 The Protocol/Service Multiplexer (PSM) that was specified in a previous 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">
      BRB_L2CA_REGISTER_SERVER</a> request.
 
 
@@ -91,7 +91,7 @@ The Protocol/Service Multiplexer (PSM) that was specified in a previous
 
 To unregister itself as a L2CAP server, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">
     BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 
@@ -106,7 +106,7 @@ To unregister itself as a L2CAP server, a profile driver should
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 

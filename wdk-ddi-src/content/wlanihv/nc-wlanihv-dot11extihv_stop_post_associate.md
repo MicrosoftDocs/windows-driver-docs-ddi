@@ -129,7 +129,7 @@ The operating system calls the
 <li>
 The WLAN adapter completes a disassociation operation with the AP. In this situation, the Native
       802.11 miniport driver, which manages the adapter, makes a media-specific
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
       NDIS_STATUS_DOT11_DISASSOCIATION</a> indication. For more information about the disassociation
       operation, see
       <a href="https://msdn.microsoft.com/3589a694-a69a-481f-8479-ea918287736d">Disassociation Operations</a>.
@@ -151,7 +151,7 @@ The operating system calls the
     Dot11ExtPostAssociateCompletion</a>.
 
 For more information about the post-association operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 
 
@@ -170,7 +170,7 @@ For more information about the post-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 

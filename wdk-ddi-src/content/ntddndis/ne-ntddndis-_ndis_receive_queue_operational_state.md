@@ -71,7 +71,7 @@ The receive queue is in the
 The receive queue is in the 
      Running state. The queue was allocated successfully, there is at least one filter set on the
      queue, and the miniport driver has completed, or will complete, the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
      OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a> OID request with a success status.
 
 
@@ -79,7 +79,7 @@ The receive queue is in the
 
 The receive queue is in the 
      Paused state. The queue was allocated successfully with the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
      OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a> OID. There are no filters set on the queue.
 
 
@@ -89,9 +89,9 @@ The DMA operations on the queue are stopped because the queue is being freed, an
      the 
      DMA Stopped state. The queue enters the 
      DMA Stopped state when the miniport driver receives an 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">
      OID_RECEIVE_FILTER_FREE_QUEUE</a> OID request, stops the DMA operations for the queue, and issues an 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567214">
      NDIS_STATUS_RECEIVE_QUEUE_STATE</a> status indication.
 
 
@@ -127,21 +127,21 @@ The <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567214">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
  
 

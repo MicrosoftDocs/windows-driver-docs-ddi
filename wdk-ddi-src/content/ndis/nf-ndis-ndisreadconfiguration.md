@@ -213,7 +213,7 @@ Every NDIS driver can set up configuration information in the registry for itsel
     own name as an entry with a preformatted string value that can be passed in calls to the 
     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
     NdisRegisterProtocolDriver</a> function. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/add-registry-sections-in-a-network-inf-file">Add-registry-sections in
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/add-registry-sections-in-a-network-inf-file">Add-registry-sections in
     a Network INF File</a>.
 
 Each miniport driver also has associated value entries in the registry. The value entries for any
@@ -241,7 +241,7 @@ Note that NDIS does not validate values that a driver reads from the registry. T
     caller determines that a value is out of bounds, it should use a default value instead.
 
 For more information about setup and installation files, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
     Overview</a>.
 
 

@@ -90,7 +90,7 @@ NetDMA 2.0 and later drivers can use the following flags.
 #### NET_DMA_PROVIDER_CHARACTERISTICS_DCA_SUPPORTED
 
 The NetDMA provider supports 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access (DCA)</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access (DCA)</a>.
 
 
 ### -field PhysicalDeviceObject

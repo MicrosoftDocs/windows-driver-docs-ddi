@@ -74,7 +74,7 @@ The address of the remote device.
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. This is the channel handle to close.
 
 
@@ -110,7 +110,7 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
  
 

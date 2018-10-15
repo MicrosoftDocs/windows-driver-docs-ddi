@@ -105,12 +105,12 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn305127">
    NDIS_STATUS_DOT11_CONNECTION_START</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 

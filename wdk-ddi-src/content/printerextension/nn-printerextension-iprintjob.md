@@ -184,7 +184,7 @@ Gets the total number of pages that the document contains.
 
 
 
-The <b>IPrintJob</b> interface provides a wrapper around select properties of the spooler’s <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a> structure.
+The <b>IPrintJob</b> interface provides a wrapper around select properties of the spooler’s <a href="http://msdn.microsoft.com/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a> structure.
 
 <b>IPrintJob</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>.
 
@@ -196,7 +196,7 @@ The <b>IPrintJob</b> interface provides a wrapper around select properties of th
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
 
 
 

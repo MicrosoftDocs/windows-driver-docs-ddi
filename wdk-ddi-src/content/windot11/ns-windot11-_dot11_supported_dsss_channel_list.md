@@ -98,7 +98,7 @@ An array that specifies the list of supported frequency channels that the NIC ca
 
 
 A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when queried by
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
     OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>.
 
 
@@ -106,7 +106,7 @@ A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when q
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
    OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>
 
 

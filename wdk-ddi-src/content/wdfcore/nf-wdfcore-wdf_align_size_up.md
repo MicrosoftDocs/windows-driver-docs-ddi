@@ -63,7 +63,7 @@ The <b>WDF_ALIGN_SIZE_UP</b> function returns the next-higher buffer size that i
 
 ### -param Length [in]
 
-The length, in bytes, of a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">memory buffer</a>.
+The length, in bytes, of a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">memory buffer</a>.
 
 
 ### -param AlignTo [in]

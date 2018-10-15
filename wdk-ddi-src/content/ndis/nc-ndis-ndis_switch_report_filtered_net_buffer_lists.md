@@ -75,7 +75,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 ### -param ExtensionFriendlyName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the user-friendly name of the extension. This name is defined by the <b>DisplayName</b>     entry in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addservice-directive">AddService Directive</a>
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the user-friendly name of the extension. This name is defined by the <b>DisplayName</b>     entry in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addservice-directive">AddService Directive</a>
 of the extension's INF file.
 
 
@@ -165,7 +165,7 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addservice-directive">INF AddService Directive</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addservice-directive">INF AddService Directive</a>
 
 
 

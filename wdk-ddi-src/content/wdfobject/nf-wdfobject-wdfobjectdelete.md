@@ -93,7 +93,7 @@ Framework child-list objects (WDFCHILDLIST)
 
 </li>
 <li>
-Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
+Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
 
 </li>
 <li>
@@ -109,7 +109,7 @@ Framework interrupt objects (WDFINTERRUPT)
 
 </li>
 <li>
-Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
+Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
 
 </li>
 <li>

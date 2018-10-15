@@ -41,4 +41,4 @@ To develop printer device drivers, you need these headers:
  * [winspool.h](..\winspool\index.md)
  * [xpsrassvc.h](..\xpsrassvc\index.md)
 
-For the programming guide, see [Print devices](https://docs.microsoft.com/en-us/windows-hardware/drivers/print).
+For the programming guide, see [Print devices](https://docs.microsoft.com/windows-hardware/drivers/print).

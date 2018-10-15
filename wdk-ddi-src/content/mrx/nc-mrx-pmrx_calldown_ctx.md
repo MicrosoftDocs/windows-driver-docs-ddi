@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The<i>MRxStart</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to start the network mini-redirector.
+The<i>MRxStart</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to start the network mini-redirector.
 
 
 ## -parameters

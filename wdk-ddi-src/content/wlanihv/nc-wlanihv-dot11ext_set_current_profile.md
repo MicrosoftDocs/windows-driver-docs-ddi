@@ -141,7 +141,7 @@ The IHV Extensions DLL must only call
       <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
       Dot11ExtIhvPerformPreAssociate</a> IHV Handler function. For more information about the
       pre-association operation, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
 
 </li>
 <li>

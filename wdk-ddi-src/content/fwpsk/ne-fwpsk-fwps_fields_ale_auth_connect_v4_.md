@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_ALE_AUTH_CONNECT_V4
 
 The FWPS_FIELDS_ALE_AUTH_CONNECT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_AUTH_CONNECT_V4 and FWPS_LAYER_ALE_AUTH_CONNECT_V4_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -391,10 +391,11 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV4 data fields:
 
+FWPS_FIELD_ALE_AUTH_CONNECT_V4_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
-
-
-
+FWPS_FIELD_ALE_AUTH_CONNECT_V4_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
 ## -see-also
 
@@ -406,7 +407,3 @@ These macros are used to access the following IPV4 data fields:
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
- 
-
- 
-

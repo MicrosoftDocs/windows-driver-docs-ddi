@@ -77,7 +77,7 @@ Optionally points to a buffer that contains a null-terminated Unicode string tha
 
 ### -param DeviceType [in]
 
-Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants that indicate the type of device (such as FILE_DEVICE_DISK, FILE_DEVICE_KEYBOARD, and so on), or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. (Because a bus driver might not have information about a device's type, a device type value for a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a> can be specified in an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directive</a>.)
+Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants that indicate the type of device (such as FILE_DEVICE_DISK, FILE_DEVICE_KEYBOARD, and so on), or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. (Because a bus driver might not have information about a device's type, a device type value for a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a> can be specified in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directive</a>.)
 
 
 ### -param DeviceCharacteristics [in]
@@ -132,7 +132,7 @@ Be careful to specify the <i>DeviceType</i> and <i>DeviceCharacteristics</i> val
 
 The caller is responsible for setting certain fields in the returned device object, such as the <b>Flags</b> field, and for initializing the device extension with any driver-defined information. For other operations that are required on new device objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a> and the device-type-specific documentation for your device.
 
-The GUID specified by the <i>DeviceClassGuid</i> parameter determines the device setup class for the device object. (For more information about device setup classes, see <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">Device Setup Classes</a>.) Callers must provide a value so that system administrators can change the security settings for the device (for instance, to deny access to certain users). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563755">Setting Device Object Registry Properties After Installation</a>.
+The GUID specified by the <i>DeviceClassGuid</i> parameter determines the device setup class for the device object. (For more information about device setup classes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">Device Setup Classes</a>.) Callers must provide a value so that system administrators can change the security settings for the device (for instance, to deny access to certain users). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563755">Setting Device Object Registry Properties After Installation</a>.
 
 Non-WDM drivers specify a new GUID, one not already in use by an existing device setup class. Generate a new GUID by using the GuidGen.exe tool that is included in the Microsoft Windows SDK.
 

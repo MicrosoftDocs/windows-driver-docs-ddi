@@ -50,7 +50,7 @@ req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
 ## -description
 
 
-The <b>PEP_LOW_POWER_EPOCH</b> structure is used to provide data for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH</a> notification (deprecated).
+The <b>PEP_LOW_POWER_EPOCH</b> structure is used to provide data for a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH</a> notification (deprecated).
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ When <b>TRUE</b>, indicates that the low power epoch is on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH notification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH notification</a>
  
 
  

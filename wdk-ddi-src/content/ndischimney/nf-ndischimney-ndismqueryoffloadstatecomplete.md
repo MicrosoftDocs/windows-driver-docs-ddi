@@ -106,7 +106,7 @@ Before calling
 <ul>
 <li>
 Fill in each 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> in the state
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structure</a> in the state
       tree with the current values of that structure's variables.
 
 </li>

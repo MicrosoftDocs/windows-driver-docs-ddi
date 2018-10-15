@@ -91,9 +91,9 @@ The DOT11_AUTH_CIPHER_PAIR structure defines an authentication and cipher algori
     enabled together for basic service set (BSS) network connections.
 
 A miniport driver returns a list of these structures when either
-    <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+    <a href="https://msdn.microsoft.com/library/gg157261.aspx">
     OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
     OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a> is queried.
 
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
@@ -119,7 +119,7 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 
@@ -136,7 +136,7 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+<a href="https://msdn.microsoft.com/library/gg157261.aspx">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 

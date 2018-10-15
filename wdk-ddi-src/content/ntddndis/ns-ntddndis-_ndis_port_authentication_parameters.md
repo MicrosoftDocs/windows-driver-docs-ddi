@@ -207,7 +207,7 @@ The port is re-authorizing for receive operations.
 
 
 The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
     OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a> OID requests to specify the current authentication state of
     an NDIS port.
 
@@ -223,7 +223,7 @@ The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
  
 

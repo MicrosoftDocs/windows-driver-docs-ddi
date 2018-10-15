@@ -83,7 +83,7 @@ The handle of the SCO server to unregister, that was obtained earlier from
 
 To unregister itself as a SCO server, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536630">
     BRB_SCO_UNREGISTER_SERVER</a> request.
 
 
@@ -98,7 +98,7 @@ To unregister itself as a SCO server, a profile driver should
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
  
 
  

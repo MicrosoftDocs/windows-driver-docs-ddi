@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_EGRESS_VSWITCH_TRANSPORT_V6
 
 The WPS_FIELDS_EGRESS_VSWITCH_TRANSPORT_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_EGRESS_VSWITCH_TRANSPORT_V6 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -137,9 +137,15 @@ The virtual switch egress destination virtual machine (VM) identifier  field.
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V6_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
+
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V6_MAX
 

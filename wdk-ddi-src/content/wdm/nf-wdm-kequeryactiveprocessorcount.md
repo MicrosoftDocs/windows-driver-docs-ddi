@@ -60,7 +60,7 @@ The <b>KeQueryActiveProcessorCount</b> routine returns the number of currently a
 
 ### -param ActiveProcessors [out, optional]
 
-A pointer to a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable into which the routine writes a bitmask that represents the set of currently active processors. In a hot-add environment, this mask may change during runtime. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require the mask of active processors. 
+A pointer to a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable into which the routine writes a bitmask that represents the set of currently active processors. In a hot-add environment, this mask may change during runtime. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require the mask of active processors. 
 
 
 ## -returns
@@ -78,7 +78,7 @@ A pointer to a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware
 
 A device driver calls the <b>KeQueryActiveProcessorCount</b> routine to retrieve the number of currently active processors. Device drivers that are built for Windows Vista and later versions of the Windows operating system should not use the <b>KeNumberProcessors</b> kernel variable for this purpose.
 
-Callers cannot assume that the <b>KeQueryActiveProcessorCount</b> routine maps processors to bits in the returned [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value consecutively, or that the routine will return the same bitmask each time it is called.
+Callers cannot assume that the <b>KeQueryActiveProcessorCount</b> routine maps processors to bits in the returned [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value consecutively, or that the routine will return the same bitmask each time it is called.
 
 Callers must also be aware that the value returned by <b>KeQueryActiveProcessorCount</b> can change at runtime on versions of Windows that support hot-add CPU functionality.
 

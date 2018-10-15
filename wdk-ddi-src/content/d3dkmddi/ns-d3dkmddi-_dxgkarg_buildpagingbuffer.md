@@ -587,7 +587,7 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 WDDM synchronization class: 
 
-* [First Level GPU Scheduler Class](https://docs.microsoft.com/en-us/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
+* [First Level GPU Scheduler Class](https://docs.microsoft.com/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
 
 
 ## -see-also

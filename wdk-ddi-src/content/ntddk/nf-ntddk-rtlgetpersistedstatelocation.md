@@ -70,7 +70,7 @@ Retrieves the redirected location for the specified SourceID from the redirectio
 [_Out_opt_] Optional. If specified, returns the number of bytes written to the buffer in case the call is successful; number of bytes required if the call fails with the STATUS_BUFFER_OVERFLOW error code.
 
 ## -returns
-Returns an NTSTATUS value that indicates the success of failure of the operation. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Returns an NTSTATUS value that indicates the success of failure of the operation. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

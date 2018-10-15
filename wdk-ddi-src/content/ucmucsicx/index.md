@@ -35,5 +35,5 @@ Ucmucsicx includes these headers:
 > Do not include the preceding headers directly. Instead, only include Ucmucsicx.h.
 
 For more information, see:
-- [Write a UcmUcsi client driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
-- [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+- [Write a UcmUcsi client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+- [Universal Serial Bus (USB)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)

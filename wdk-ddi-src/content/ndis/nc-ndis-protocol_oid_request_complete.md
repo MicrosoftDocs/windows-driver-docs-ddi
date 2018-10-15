@@ -122,7 +122,7 @@ If the protocol driver made a query,
       <b>Oid</b> member.
 
 For example, if the protocol driver originally initiated an 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-send-packets">
       OID_GEN_MAXIMUM_SEND_PACKETS</a> query, 
       <i>ProtocolOidRequestComplete</i> might set up state variables in the 
       <i>ProtocolBindingContext</i> area to throttle the number of outstanding sends the
@@ -249,7 +249,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
  
 
  

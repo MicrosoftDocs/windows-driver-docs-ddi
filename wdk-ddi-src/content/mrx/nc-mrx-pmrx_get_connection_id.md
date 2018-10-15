@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The<i>MRxGetConnectionId</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions. 
+The<i>MRxGetConnectionId</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions. 
 
 
 ## -parameters

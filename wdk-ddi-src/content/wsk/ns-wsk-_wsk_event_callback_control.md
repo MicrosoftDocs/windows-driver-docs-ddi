@@ -62,7 +62,7 @@ The WSK_EVENT_CALLBACK_CONTROL structure specifies the information for enabling 
 ### -field NpiId
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> identifier that specifies the NPI for the event callback function that is being enabled or
      disabled. For enabling or disabling any of the standard WSK event callback functions, this member is a
      pointer to the WSK NPI identifier, NPI_WSK_INTERFACE_ID. For enabling or disabling any event callback
@@ -92,11 +92,11 @@ A WSK application can enable any combination of event callback functions for a s
 
 For more information about statically enabling certain event callback functions for all of the sockets
     that are created by a WSK application, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
     WSK_SET_STATIC_EVENT_CALLBACKS</a>.
 
 For more information about enabling and disabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 
@@ -111,7 +111,7 @@ For more information about enabling and disabling a socket's event callback func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
    WSK_SET_STATIC_EVENT_CALLBACKS</a>
 
 

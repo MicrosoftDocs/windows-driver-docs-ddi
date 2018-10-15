@@ -74,7 +74,7 @@ A handle to the display device (graphics context). The Direct3D runtime passed t
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a> structure  that defines the video memory allocations that the driver offers.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a> structure  that defines the video memory allocations that the driver offers.
 
 
 ## -returns
@@ -155,7 +155,7 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
 
 
 

@@ -64,7 +64,7 @@ The <b>KeQueryActiveProcessors</b> routine returns a bitmask of the currently ac
 
 
 
-<b>KeQueryActiveProcessors</b> returns a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that represents the set of currently active processors.
+<b>KeQueryActiveProcessors</b> returns a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that represents the set of currently active processors.
 
 
 

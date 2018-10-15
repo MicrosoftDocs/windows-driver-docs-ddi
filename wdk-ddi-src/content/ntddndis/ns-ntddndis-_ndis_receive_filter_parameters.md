@@ -215,7 +215,7 @@ The VPort identifier on which the receive filter is to be configured. A value of
 The <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure is used with OID requests of  
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569792">OID_RECEIVE_FILTER_PARAMETERS</a>
     and  
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>. These OID
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>. These OID
     requests specify the configuration parameters of a filter. A filter specification can include tests for
     multiple fields in a network packet.
 
@@ -290,7 +290,7 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
  
 
  

@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The<i>MRxComputeNewBufferingState</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector compute a new buffering state change. 
+The<i>MRxComputeNewBufferingState</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector compute a new buffering state change. 
 
 
 ## -parameters

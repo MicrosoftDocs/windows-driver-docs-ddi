@@ -28,7 +28,7 @@ To develop Near field communications (NFC), you need these headers:
  * [nfpdev.h](..\nfpdev\index.md)
  * [winsmcrd.h](..\winsmcrd\index.md)
 
-For the programming guide, see [Near field communications (NFC)](https://docs.microsoft.com/en-us/windows-hardware/drivers/nfc).
+For the programming guide, see [Near field communications (NFC)](https://docs.microsoft.com/windows-hardware/drivers/nfc).
 
 ## Functions
 

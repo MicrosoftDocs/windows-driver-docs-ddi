@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_IPFORWARD_V4
 
 The FWPS_FIELDS_IPFORWARD_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPFORWARD_V4 and FWPS_LAYER_IPFORWARD_V4_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -154,6 +154,10 @@ The profile identifier (network category) of the next-hop interface. The possibl
 
 ### -field FWPS_FIELD_IPFORWARD_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IPFORWARD_V4_MAX
 

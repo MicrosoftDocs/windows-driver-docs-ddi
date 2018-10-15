@@ -101,7 +101,7 @@ A pointer to the provider module's
 An 
      <a href="https://msdn.microsoft.com/a368f9d9-a7e0-4b35-ba14-b0919f74029d">
      NPI_REGISTRATION_INSTANCE</a> structure that specifies the identity of the provider module and the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which it is
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which it is
      registering.
 
 

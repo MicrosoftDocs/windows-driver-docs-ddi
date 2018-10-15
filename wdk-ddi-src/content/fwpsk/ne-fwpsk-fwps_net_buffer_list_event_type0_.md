@@ -15,7 +15,7 @@ ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
-req.target-min-winverclnt: Unless otherwise indicated, supported starting with  Windows Vista.
+req.target-min-winverclnt: Unless otherwise indicated, supported starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -51,9 +51,9 @@ req.typenames: FWPS_NET_BUFFER_LIST_EVENT_TYPE0
 
 
 The <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> enumeration type specifies the possible status events that can
-  cause the callout driver's 
-  <a href="https://msdn.microsoft.com/ad603c9c-aa11-4c8b-9d19-be2938608f3d">
-  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function to be called.
+ cause the callout driver's 
+ <a href="https://msdn.microsoft.com/ad603c9c-aa11-4c8b-9d19-be2938608f3d">
+ FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function to be called.
 <div class="alert"><b>Note</b>  <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> is a specific version of <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> enumeration type specifies the possi
 ### -field FWPS_NET_BUFFER_LIST_ENTERED_NETIO
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure entered the TCP/IP stack. Packets enter the stack either from
-     the NDIS layer or as a result of a call to a WFP packet injection function.
+ the NDIS layer or as a result of a call to a WFP packet injection function.
 
 
 ### -field FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO
@@ -75,7 +75,7 @@ The NET_BUFFER_LIST structure was cloned.
 ### -field FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API
 
 The NET_BUFFER_LIST structure was cloned by a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function.
+ <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function.
 
 
 ### -field FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO
@@ -91,8 +91,8 @@ The NET_BUFFER_LIST structure is about to leave the TCP/IP stack.
 ### -field FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED
 
 The NET_BUFFER_LIST structure is outside of the context for which it was tagged. The
-     circumstances for this event depend upon the specifics of the tagged packets.
-     
+ circumstances for this event depend upon the specifics of the tagged packets.
+ 
 
 <table>
 <tr>
@@ -116,8 +116,8 @@ Any
 </td>
 <td>
 Upon asynchronous context removal resulting from a call to the 
-        <a href="https://msdn.microsoft.com/bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630">
-        FwpsNetBufferListRemoveContext0</a> function.
+ <a href="https://msdn.microsoft.com/bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630">
+ FwpsNetBufferListRemoveContext0</a> function.
 
 </td>
 </tr>
@@ -158,35 +158,45 @@ The NET_BUFFER_LIST structure send over the lower (miniport driver) NDIS native 
 
 ### -field FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE
 
-The NET_BUFFER_LIST structure receive over the lower (miniport driver) NDIS  native layer is complete.
+The NET_BUFFER_LIST structure receive over the lower (miniport driver) NDIS native layer is complete.
 
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
 <div> </div>
 
 ### -field FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE
 
-The NET_BUFFER_LIST structure ingres on the virtual switch is complete.
+The NET_BUFFER_LIST structure ingress on the virtual switch is complete.
 
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
 <div> </div>
 
 ### -field FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETE
 
+The NET_BUFFER_LIST structure egress on the virtual switch is complete.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
+<div> </div>
 
 ### -field FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS
 
-NDIS cloned the  NET_BUFFER_LIST structure.
+NDIS cloned the NET_BUFFER_LIST structure.
 
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
 <div> </div>
 
 ### -field FWPS_NET_BUFFER_LIST_REASSEMBLED_FRAGMENT
 
+The NET_BUFFER_LIST structure is a reassembled fragment.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.1.</div>
+<div> </div>
 
 ### -field FWPS_NET_BUFFER_LIST_REASSEMBLY_COMPLETE
 
+The NET_BUFFER_LIST fragment reassembly is complete. 
 
-
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.1.</div>
+<div> </div>
 
 #### - FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS
 
@@ -201,17 +211,17 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 
 <a href="https://msdn.microsoft.com/ad603c9c-aa11-4c8b-9d19-be2938608f3d">
-  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+ FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 
 <a href="https://msdn.microsoft.com/72759748-fac6-45b9-9a81-ab71e6e7c3ef">
-     FwpsAllocateCloneNetBufferList0</a>
+ FwpsAllocateCloneNetBufferList0</a>
 
 
 
 <a href="https://msdn.microsoft.com/bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630">
-        FwpsNetBufferListRemoveContext0</a>
+ FwpsNetBufferListRemoveContext0</a>
 
 
 

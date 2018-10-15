@@ -391,7 +391,7 @@ The revision of an NDIS structure that was supported by an NDIS 6.0 or later dri
      When the driver succeeds in setting an OID, it must set
      <b>SupportedRevision</b> to the revision number of the structure that it
      supported. For more information about NDIS version information, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/specifying-ndis-version-information">Specifying NDIS Version
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/specifying-ndis-version-information">Specifying NDIS Version
      Information</a>.
 
 

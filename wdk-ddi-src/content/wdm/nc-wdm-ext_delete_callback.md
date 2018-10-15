@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-An <i>ExTimerDeleteCallback</i> callback routine runs when the operating system deletes an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> timer object.
+An <i>ExTimerDeleteCallback</i> callback routine runs when the operating system deletes an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> timer object.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ None.
 
 As an option, your driver can supply a pointer to an <i>ExTimerDeleteCallback</i> routine in the <i>DeleteCallback</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265194">EXT_DELETE_PARAMETERS</a> structure that your driver passes as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265181">ExDeleteTimer</a> routine. The <i>ExTimerDeleteCallback</i> routine can free any storage or other system resources that the driver might have previously allocated to use with the timer object that is being deleted.
 
-If the driver supplies an <i>ExTimerDeleteCallback</i> routine, and the <i>Wait</i> parameter in the <b>ExDeleteRoutine</b> call is <b>TRUE</b>, the <i>ExTimerDeleteCallback</i> routine runs before <b>ExDeleteTimer</b> returns. Otherwise, the  <i>ExTimerDeleteCallback</i> routine might run before or after the <b>ExDeleteTimer</b> call returns. The  <i>ExTimerDeleteCallback</i> routine is called only after the timer object has been disabled to prevent further timer operations and any pending timer operation on the timer object is canceled or completed. The timer object (an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure) that the driver passes as an input parameter to the <b>ExDeleteTimer</b> routine might no longer be valid by the time the <i>ExTimerDeleteCallback</i> routine runs.
+If the driver supplies an <i>ExTimerDeleteCallback</i> routine, and the <i>Wait</i> parameter in the <b>ExDeleteRoutine</b> call is <b>TRUE</b>, the <i>ExTimerDeleteCallback</i> routine runs before <b>ExDeleteTimer</b> returns. Otherwise, the  <i>ExTimerDeleteCallback</i> routine might run before or after the <b>ExDeleteTimer</b> call returns. The  <i>ExTimerDeleteCallback</i> routine is called only after the timer object has been disabled to prevent further timer operations and any pending timer operation on the timer object is canceled or completed. The timer object (an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure) that the driver passes as an input parameter to the <b>ExDeleteTimer</b> routine might no longer be valid by the time the <i>ExTimerDeleteCallback</i> routine runs.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265198">ExXxxTimer Routines and EX_TIMER Objects</a>.
 
@@ -131,7 +131,7 @@ The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To mo
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 

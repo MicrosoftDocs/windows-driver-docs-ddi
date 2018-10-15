@@ -94,7 +94,7 @@ After <b>WdfStringGetUnicodeString</b> returns, the UNICODE_STRING structure tha
 
  The framework does not make a copy of the string for the driver.
 
-For more information about framework string objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
+For more information about framework string objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
 
 
 #### Examples

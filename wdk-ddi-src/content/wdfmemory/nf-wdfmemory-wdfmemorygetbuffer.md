@@ -90,7 +90,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about framework memory objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
+For more information about framework memory objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
 <b>WdfMemoryGetBuffer</b> can be called at any IRQL.
 

@@ -166,7 +166,7 @@ The register address (_ADR) for this C state.
 
 
 
-This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification. The <b>IdleStates</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_PPM_CST_STATES</a> structure is a pointer to an array of <b>PEP_PPM_CST_STATE</b> structures. The <b>Type</b> member in each element of the array should equal the array index of this member.
+This structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification. The <b>IdleStates</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_PPM_CST_STATES</a> structure is a pointer to an array of <b>PEP_PPM_CST_STATE</b> structures. The <b>Type</b> member in each element of the array should equal the array index of this member.
 
 The values in the <b>PEP_PPM_CST_STATE</b> structure are obtained from the parameters that are specified for this C state in the _CST object in the ACPI namespace for the processor. 
 
@@ -178,7 +178,7 @@ The values in the <b>PEP_PPM_CST_STATE</b> structure are obtained from the param
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
 
 

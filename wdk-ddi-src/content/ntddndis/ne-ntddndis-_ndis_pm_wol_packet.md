@@ -73,7 +73,7 @@ Specifies a bitmap pattern. This packet type is specified in the
 ### -field NdisPMWoLPacketMagicPacket
 
 WOL packets based on WOL magic packet. The media access control (MAC) address in the 
-     <a href="https://technet.microsoft.com/en-us/windows/hh147630.aspx">magic packet</a> is the current MAC
+     <a href="https://technet.microsoft.com/windows/hh147630.aspx">magic packet</a> is the current MAC
      address of the network adapter.
 
 

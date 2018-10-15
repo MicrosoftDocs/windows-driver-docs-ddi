@@ -180,7 +180,7 @@ The possible characteristics structures that can be specified from
 
 
 For information on the last four structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.
 
 The options that are specified in each characteristics structure can be different for each filter

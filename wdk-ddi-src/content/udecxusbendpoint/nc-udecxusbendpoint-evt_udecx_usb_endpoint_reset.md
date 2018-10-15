@@ -102,7 +102,7 @@ The reset request clears the error condition in the endpoint that causes failed 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
 
 
 

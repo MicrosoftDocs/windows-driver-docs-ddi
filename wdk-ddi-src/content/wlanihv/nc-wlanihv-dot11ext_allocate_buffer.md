@@ -138,7 +138,7 @@ The IHV Extensions DLL must call this function when returning any variable-lengt
       the return of the IHV Handler function.
 
 For more information about the IHV Handler functions, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
       Functions</a>.
 
 </li>
@@ -156,7 +156,7 @@ In this situation, the DLL must free the memory buffer by calling
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 

@@ -81,7 +81,7 @@ A pointer to object context space. The driver can obtain this pointer by calling
 
 
 
-For more information about object context space, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>. 
+For more information about object context space, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>. 
 
 
 #### Examples

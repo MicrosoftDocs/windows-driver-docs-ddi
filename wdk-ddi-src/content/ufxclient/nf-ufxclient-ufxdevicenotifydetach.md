@@ -96,7 +96,7 @@ DeviceInterrupt_EvtInterruptDpc (
 Routine Description:
 
     'EvtInterruptDpc' handler for the device interrupt object.
-    http://msdn.microsoft.com/en-us/library/windows/hardware/ff541721(v=vs.85).aspx
+    http://msdn.microsoft.com/library/windows/hardware/ff541721(v=vs.85).aspx
 
 Arguments:
 

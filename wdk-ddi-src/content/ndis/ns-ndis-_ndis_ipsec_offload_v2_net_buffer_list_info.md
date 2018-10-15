@@ -81,7 +81,7 @@ A structure that contains the following members:
 ### -field Receive.SaDeleteReq
 
 A ULONG value that, when set, indicates that the TCP/IP transport should issue the 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
        OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a> OID once to delete the inbound SA that the packet was
        received over and once again to delete the outbound SA that corresponds to the deleted inbound SA. The
        network interface card (NIC) must not remove either of these SAs before it receives the corresponding
@@ -188,7 +188,7 @@ Specifically, the TCP/IP transport supplies a value for the
     has the same value as the 
     <b>OffloadHandle</b> value that was reported to the TCP/IP transport when the miniport driver successfully
     added a set of SAs to a NIC. All the SAs were added to the NIC when the miniport driver responded to an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
     OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a> request.
 
 Before a miniport driver indicates up a receive packet that has one or more IPsec payloads, the driver
@@ -221,12 +221,12 @@ To set and get the IPsec information, use the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
  
 

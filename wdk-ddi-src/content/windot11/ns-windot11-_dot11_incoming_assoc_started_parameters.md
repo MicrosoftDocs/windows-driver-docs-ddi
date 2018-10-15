@@ -139,7 +139,7 @@ The media access control (MAC) address of the peer station that sent an 802.11 a
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure when
     the driver makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</a> status indication.
 
 
@@ -147,7 +147,7 @@ The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_STARTED_PARAME
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</a>
 
 

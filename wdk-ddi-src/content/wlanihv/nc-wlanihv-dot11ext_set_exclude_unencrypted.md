@@ -110,7 +110,7 @@ If the WLAN adapter is enabled to exclude unencrypted packets, the station must 
 
 A call to the
     <b>Dot11ExtSetExcludeUnencrypted</b> function results in a set request of the
-    <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">
+    <a href="https://msdn.microsoft.com/library/gg159162.aspx">
     OID_DOT11_EXCLUDE_UNENCRYPTED</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
 
@@ -119,7 +119,7 @@ A call to the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+<a href="https://msdn.microsoft.com/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
 
 
 

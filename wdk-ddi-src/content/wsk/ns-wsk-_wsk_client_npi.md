@@ -51,7 +51,7 @@ req.typenames: WSK_CLIENT_NPI, *PWSK_CLIENT_NPI
 
 
 The WSK_CLIENT_NPI structure identifies a 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> implemented by a WSK client.
 
 
@@ -76,7 +76,7 @@ A pointer to a constant
 
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

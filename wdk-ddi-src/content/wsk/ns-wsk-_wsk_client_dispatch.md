@@ -62,7 +62,7 @@ The WSK_CLIENT_DISPATCH structure specifies a WSK application's dispatch table o
 ### -field Version
 
 The version of the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that the WSK application would like to use.
 
 
@@ -118,7 +118,7 @@ Minor = WSK_MINOR_VERSION(Version);</pre>
 </tr>
 </table></span></div>
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

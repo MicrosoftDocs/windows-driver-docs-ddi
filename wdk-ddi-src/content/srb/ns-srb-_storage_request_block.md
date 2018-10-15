@@ -52,7 +52,7 @@ req.typenames: STORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK
 
 
    The <b>STORAGE_REQUEST_BLOCK</b> is the extended format SCSI Request Block (SRB) structure. The structure provides for the addition of extended data associated with an SRB function.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -545,8 +545,15 @@ Contains the queue-tag value assigned by the operating system-specific port driv
 
 ### -field RequestPriority
 
-The priority assignment for the SRB.
+The priority assignment for the SRB. This is one of the following **_STOR_IO_PRIORITY_HINT** values:
 
+| Value | Meaning |
+| --- | --- |
+| <p>StorIoPriorityVeryLow</p><p>0</p> | Very low priority. |
+| <p>StorIoPriorityLow</p><p>1</p> | Low priority.  |
+| <p>StorIoPriorityNormal</p><p>2</p> | Normal priority. |
+| <p>StorIoPriorityHigh</p><p>3</p> | High priority. |
+| <p>StorIoPriorityCritical</p><p>4</p> | Critical priority. |
 
 ### -field RequestAttribute
 

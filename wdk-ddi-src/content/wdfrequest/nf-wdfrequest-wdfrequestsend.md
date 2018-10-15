@@ -95,7 +95,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The request object that the driver specifies for the <i>Request</i> parameter can be one that it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/receiving-i-o-requests">received</a> or one that it created by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a> method.
+The request object that the driver specifies for the <i>Request</i> parameter can be one that it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/receiving-i-o-requests">received</a> or one that it created by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a> method.
 
 To obtain a handle to an I/O target object, the driver can do one of the following:
 
@@ -122,9 +122,9 @@ If the driver supplies a time-out value, it should call <a href="https://msdn.mi
  If the driver sets the <b>WDF_REQUEST_SEND_OPTION_SYNCHRONOUS</b> flag, it must call <b>WdfRequestSend</b> at IRQL = PASSIVE_LEVEL. If this flag is not set, the driver must call this method  at IRQL &lt;= DISPATCH_LEVEL.
           <b>WdfRequestSend</b> sends the request at the caller's IRQL.
 
-A driver cannot call <b>WdfRequestSend</b> to send an I/O request to a USB pipe, if the driver has configured a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">continuous reader</a> for the pipe.
+A driver cannot call <b>WdfRequestSend</b> to send an I/O request to a USB pipe, if the driver has configured a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">continuous reader</a> for the pipe.
 
-For more information about <b>WdfRequestSend</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+For more information about <b>WdfRequestSend</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 
 #### Examples

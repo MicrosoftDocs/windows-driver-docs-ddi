@@ -95,7 +95,7 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> functions that are included
     in the WSK_PROVIDER_BASIC_DISPATCH structure are supported by all of the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket categories</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket categories</a>.
 
 
 

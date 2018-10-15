@@ -90,7 +90,7 @@ NDIS drivers call
     deletes the stack entry from its interface stack table if it finds a matching entry.
 
 NDIS maintains an interface stack table (<i>ifStackTable</i> from 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
     the 
     <b>NdisIfAddIfStackEntry</b> and 
     <b>NdisIfDeleteIfStackEntry</b> functions to add and delete entries in this table.

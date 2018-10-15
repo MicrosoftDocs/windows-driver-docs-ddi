@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V6
 
 The FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6 and FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -307,21 +307,33 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_LOCAL_ADDRESS
 
+A bitmap of the local IP address.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_LOCAL_PORT
 
+A bitmap of the local transport protocol port number.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_REMOTE_ADDRESS
 
+A bitmap of the remote IP address.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_REMOTE_PORT
 
+A bitmap of the remote transport protocol port number.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_MAX
 
@@ -381,10 +393,41 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV6 data fields:
 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_LOCAL_INTERFACE_TYPE  
+The type of the local network interface, as defined by the Internet Assigned Numbers Authority (IANA). For more information, see IANAifType-MIB Definitions.
 
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_LOCAL_TUNNEL_TYPE  
+The encapsulation method used by a tunnel if the IfType member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined by IANA. For more information, see IANAifType-MIB Definitions and the Windows SDK.
 
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_LOCAL_INTERFACE_INDEX  
+The index of the local network interface, as enumerated by the network stack.
+
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_SUB_INTERFACE_INDEX  
+The index of the logical network interface, as enumerated by the network stack.
+
+> [!NOTE]
+> Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+ 
+FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_SIO_FIREWALL_SOCKET_PROPERTY  
+The IP_PROTECTION_LEVEL property associated with the socket.
+
+> [!NOTE]
+> Supported starting with Windows 7.
 
 ## -see-also
 

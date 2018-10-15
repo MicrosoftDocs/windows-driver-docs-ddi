@@ -74,7 +74,7 @@ A handle to the display device.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a> structure that defines the allocations to reclaim. The previously used discarded array is replaced by a pResults member in this iteration.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a> structure that defines the allocations to reclaim. The previously used discarded array is replaced by a pResults member in this iteration.
 
 
 ## -returns
@@ -135,7 +135,7 @@ The video memory manager or display miniport driver could not complete the opera
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a>
 
 
 

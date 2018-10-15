@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6
 
 The FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6enumeration type specifies the data field identifiers for
   the FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V6 and FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V6_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -152,15 +152,25 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_BITMAP_IP_LOCAL_ADDRESS
 
+A bitmap of the local IP address.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_BITMAP_IP_LOCAL_PORT
 
+A bitmap of the local transport protocol port number.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_MAX
 

@@ -209,7 +209,7 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a>
 </td>
 <td>ReceivePhyPackets</td>
 </tr>

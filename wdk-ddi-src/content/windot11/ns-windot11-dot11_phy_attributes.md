@@ -131,11 +131,11 @@ A Boolean value that specifies the hardware power state of the PHY. If <b>TRUE</
       state is enabled. If <b>FALSE</b>, the hardware power state is disabled.
 
 For more information about the PHY's hardware power state, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">
       OID_DOT11_HARDWARE_PHY_STATE</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's hardware power state changes, the miniport driver must make an
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
 
 ### -field bSoftwarePhyState
@@ -147,7 +147,7 @@ For more information about the PHY's software power state, see
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
 
 ### -field bCFPollable
@@ -289,7 +289,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
 
 
 

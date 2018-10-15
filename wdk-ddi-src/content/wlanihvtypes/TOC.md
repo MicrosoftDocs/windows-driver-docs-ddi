@@ -1,6 +1,0 @@
-# [Networking drivers for Windows Vista and later](../_netvista/index.md)
-## [Wlanihvtypes.h](index.md)
-### [_DOT11EXT_IHV_PARAMS structure](../wlanihvtypes/ns-wlanihvtypes-_dot11ext_ihv_params.md)
-### [_DOT11EXT_IHV_PROFILE_PARAMS structure](../wlanihvtypes/ns-wlanihvtypes-_dot11ext_ihv_profile_params.md)
-### [_DOT11EXT_IHV_SSID_LIST structure](../wlanihvtypes/ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md)
-### [_DOT11_MSSECURITY_SETTINGS structure](../wlanihvtypes/ns-wlanihvtypes-_dot11_mssecurity_settings.md)

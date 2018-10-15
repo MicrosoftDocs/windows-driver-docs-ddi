@@ -231,7 +231,7 @@ Can modify the media-specific attributes in the list of restart attributes. If t
 <li>
 Should, if the 
       <b>Oid</b> member in the NDIS_RESTART_ATTRIBUTES structure is 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
       OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>, make sure that the 
       <a href="https://msdn.microsoft.com/f67bd2fe-4553-4b1a-8d39-26777bcc60e0">
       NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure contains the information that the filter driver
@@ -371,7 +371,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
  
 

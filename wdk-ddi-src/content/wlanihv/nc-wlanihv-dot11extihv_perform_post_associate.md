@@ -114,7 +114,7 @@ A pointer to a
      DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a> structure, which specifies the result of the association
      operation completed by the WLAN adapter. The Native 802.11 miniport driver, which manages the WLAN
      adapter, includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when it makes a media-specific
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
      NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication.
 
 
@@ -161,7 +161,7 @@ If the IHV Extensions DLL can initiate the post-association operation, the
     asynchronously.
 
 For more information about the post-association operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 
 
@@ -185,7 +185,7 @@ For more information about the post-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
 
 

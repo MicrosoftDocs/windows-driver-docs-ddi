@@ -137,7 +137,7 @@ Storage volumes (class = Volume)
 </li>
 </ul>
 For more information about device classes, see 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">Device Setup Classes</a>.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">Device Setup Classes</a>.
 
 To learn more about the specifics of how the <b>IWDTFSimpleIOEx2</b> action 
 interface works, or to support additional device classes, try to implement a target-specific version 

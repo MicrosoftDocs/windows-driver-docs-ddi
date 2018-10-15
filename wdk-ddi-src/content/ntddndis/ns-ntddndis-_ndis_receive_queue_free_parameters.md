@@ -87,7 +87,7 @@ An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a receive queue identif
 
 
 The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure is used in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">
     OID_RECEIVE_FILTER_FREE_QUEUE</a> OID.
 
 
@@ -102,7 +102,7 @@ The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
  
 
  

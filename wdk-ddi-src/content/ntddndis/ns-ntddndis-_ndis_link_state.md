@@ -72,13 +72,13 @@ The
 ### -field MediaConnectState
 
 The media connect state for the miniport adapter. For more information, see  
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</a> OID.
 
 
 ### -field MediaDuplexState
 
-The media duplex state for the miniport adapter. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
+The media duplex state for the miniport adapter. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">
  OID_GEN_MEDIA_DUPLEX_STATE</a> OID.
 
 
@@ -216,12 +216,12 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">
  OID_GEN_MEDIA_DUPLEX_STATE</a>
  
 

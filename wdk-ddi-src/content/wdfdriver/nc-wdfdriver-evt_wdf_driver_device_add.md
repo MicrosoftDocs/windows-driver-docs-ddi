@@ -85,43 +85,43 @@ The<i>EvtDriverDeviceAdd</i> callback function must return STATUS_SUCCESS if the
 
 Each framework-based driver that supports PnP devices must provide the <i>EvtDriverDeviceAdd</i> callback function. The driver must place the callback function's address in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff551300">WDF_DRIVER_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>.
 
-The framework calls your driver's <i>EvtDriverDeviceAdd</i> callback function after a bus driver detects a device that has a hardware identifier (ID) that matches a hardware ID that your driver supports. You specify the hardware IDs that your driver supports by providing an INF file, which the operating system uses to install drivers the first time that one of your devices is connected to the computer. For more information about how the system uses INF files and hardware IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
+The framework calls your driver's <i>EvtDriverDeviceAdd</i> callback function after a bus driver detects a device that has a hardware identifier (ID) that matches a hardware ID that your driver supports. You specify the hardware IDs that your driver supports by providing an INF file, which the operating system uses to install drivers the first time that one of your devices is connected to the computer. For more information about how the system uses INF files and hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
 
 A driver's <i>EvtDriverDeviceAdd</i> callback function typically performs at least some of the following initialization operations:
 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Create a framework device object</a> to represent the device.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Create a framework device object</a> to represent the device.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Create I/O queues</a> so the driver can receive I/O requests.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Create I/O queues</a> so the driver can receive I/O requests.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces">Create device interfaces</a> that applications use to communicate with the device.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">Create device interfaces</a> that applications use to communicate with the device.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Create driver-defined interfaces</a> that other drivers can use.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Create driver-defined interfaces</a> that other drivers can use.
 
 </li>
 <li>
-Initialize <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Windows Management Instrumentation (WMI)</a> support.
-
-</li>
-<li>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-an-interrupt-object">Create interrupt objects</a>, if the driver handles device interrupts.
+Initialize <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Windows Management Instrumentation (WMI)</a> support.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enable direct memory access (DMA) transactions</a>, if the driver handles DMA operations.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-an-interrupt-object">Create interrupt objects</a>, if the driver handles device interrupts.
+
+</li>
+<li>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enabling-dma-transactions">Enable direct memory access (DMA) transactions</a>, if the driver handles DMA operations.
 
 </li>
 </ul>
@@ -168,7 +168,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

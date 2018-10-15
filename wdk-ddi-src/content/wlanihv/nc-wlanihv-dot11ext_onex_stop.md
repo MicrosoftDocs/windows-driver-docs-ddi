@@ -128,7 +128,7 @@ After the IHV Extensions DLL calls
 </li>
 </ul>
 For more information about using the 802.1X module for authentication, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>.
 
 

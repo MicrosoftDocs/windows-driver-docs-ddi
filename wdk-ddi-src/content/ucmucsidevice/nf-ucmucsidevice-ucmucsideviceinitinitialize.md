@@ -50,7 +50,7 @@ Intializes the [**WDFDEVICE_INIT**](https://msdn.microsoft.com/library/windows/h
 ## -parameters
 
 ### -param DeviceInit
-A pointer to a framework-allocated [**WDFDEVICE_INIT**](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/wdfdevice_init) structure.
+A pointer to a framework-allocated [**WDFDEVICE_INIT**](https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init) structure.
 
 ## -returns
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) code.

@@ -211,7 +211,7 @@ The  network adapter supports the ability to dynamically change one of the follo
 
 <ul>
 <li>
-The processor affinity of a VM queue in the VMQ interface. The processor affinity is changed through an OID set request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>.
+The processor affinity of a VM queue in the VMQ interface. The processor affinity is changed through an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>.
 
 </li>
 <li>
@@ -538,7 +538,7 @@ The <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure is used in the
     NDIS_FILTER_ATTACH_PARAMETERS</a>, and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structures and the
     return result of the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
     OID_RECEIVE_FILTER_HARDWARE_CAPABILITIES</a> OID query.
 
 Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure are valid only if the miniport driver is enabled to use the VMQ or SR-IOV interface. The miniport driver is enabled to use these interfaces through standardized INF keywords. For more information, see <a href="https://msdn.microsoft.com/EF556563-4097-4388-A563-29FC891AC626">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.
@@ -576,7 +576,7 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
    OID_RECEIVE_FILTER_HARDWARE_CAPABILITIES</a>
  
 

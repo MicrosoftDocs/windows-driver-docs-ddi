@@ -133,7 +133,7 @@ Exempt all packet types.
 
 
 The 802.11 station's packet exemption list if configured through a set request of
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
     OID_DOT11_PRIVACY_EXEMPTION_LIST</a>. For each packet the 802.11 station receives, it will apply the
     decryption exemption specified by the list entry with a
     <b>usEtherType</b> value that matches the EtherType of the packet.
@@ -143,7 +143,7 @@ The 802.11 station's packet exemption list if configured through a set request o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 

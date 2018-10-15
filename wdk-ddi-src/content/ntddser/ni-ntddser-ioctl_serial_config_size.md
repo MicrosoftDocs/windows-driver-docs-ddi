@@ -104,5 +104,5 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to the size in b
 
 The <b>Information</b> member is set to the size in bytes of a ULONG.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 

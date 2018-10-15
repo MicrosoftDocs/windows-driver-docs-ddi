@@ -133,7 +133,7 @@ The
     <b>Dot11ExtNicSpecificExtension</b> function allows the IHV Extensions DLL to
     pass proprietary method requests to the Native 802.11 miniport driver, which is referenced by the
     <i>hDot11SvcHandle</i> parameter. The operating system issues the method request through the Native 802.11
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
     OID_DOT11_NIC_SPECIFIC_EXTENSION</a> object identifier (OID).
 
 <div class="alert"><b>Note</b>  OID_DOT11_NIC_SPECIFIC_EXTENSION is an optional OID for support by the Native
@@ -143,7 +143,7 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
    OID_DOT11_NIC_SPECIFIC_EXTENSION</a>
 
 

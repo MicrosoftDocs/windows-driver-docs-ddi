@@ -95,7 +95,7 @@ None
 An intermediate driver calls the 
     <b>NdisQueryOffloadState</b> function to propagate a query offload operation that was initiated by the host
     stack. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">Propagating
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">Propagating
     State-Manipulation Operations</a>.
 
 From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its 

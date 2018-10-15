@@ -122,7 +122,7 @@ The miniport driver sets
      <b>msDot11ActivePhyList</b> object to the list of PHYs that have been activated for use over the current
      BSS network connection. For more information about the
      <b>msDot11ActivePhyList</b> MIB object, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 This member should not be set to DOT11_PHY_ID_ANY.
 
@@ -130,7 +130,7 @@ This member should not be set to DOT11_PHY_ID_ANY.
 #### - ulChannel
 
 The channel number of the
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
       configurations</a> that the NIC has adopted to communicate over the BSS network.
 
 
@@ -146,7 +146,7 @@ The orthogonal frequency division multiplexing (OFDM) frequency that the NIC has
 
 The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure when the
     driver makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
     NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a> status indication.
 
 
@@ -154,11 +154,11 @@ The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMET
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
    NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a>
 
 

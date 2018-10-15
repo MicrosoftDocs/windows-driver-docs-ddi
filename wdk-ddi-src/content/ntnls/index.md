@@ -21,4 +21,4 @@ tech.root: ifsk
 
 This header defines the NLS file formats and data types. For morinformation, see:
 
-- [Installable file systems driver design guide](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/)
+- [Installable file systems driver design guide](https://docs.microsoft.com/windows-hardware/drivers/ifs/)

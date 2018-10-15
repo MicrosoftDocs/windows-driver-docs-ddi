@@ -173,7 +173,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a> structure before
      passing a send packet to the miniport driver. The TCP/IP transport must also specify this handle when
      deleting the SA with an 
-     <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+     <a href="https://msdn.microsoft.com/library/gg155485.aspx">
      OID_TCP_TASK_IPSEC_DELETE_SA</a> request.
 
 
@@ -249,7 +249,7 @@ The length of each key in the buffer at
 
 
 The OFFLOAD_IPSEC_ADD_UDPESP_SA structure is used with the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
     OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a> OID.
 
 Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the 
@@ -293,12 +293,12 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
  
 
  

@@ -199,7 +199,7 @@ On the transmit path,
      structures that are in the <b>NET_BUFFER_LIST</b> structure.
 
 For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-rss-receive-data">Indicating RSS Receive
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-rss-receive-data">Indicating RSS Receive
      Data</a>.
 
 
@@ -207,7 +207,7 @@ For more information, see
 
 Identifies a <b>ULONG</b> value that is the RSS hash information, which includes the hash function and
      hash type. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-rss-receive-data">Indicating RSS Receive
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-rss-receive-data">Indicating RSS Receive
      Data</a>.
 
 

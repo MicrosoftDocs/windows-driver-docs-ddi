@@ -133,16 +133,16 @@ In a set request, the hash type and hash function that the NIC should use to com
 In a query request, the hash type and hash function that the NIC is using.
 
 Overlying drivers and NDIS can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
      NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
      information and set the 
      <b>HashInformation</b> member.
 
 Miniport drivers can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
      NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
      <b>HashInformation</b> and the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
      NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
 
 
@@ -189,17 +189,17 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
 

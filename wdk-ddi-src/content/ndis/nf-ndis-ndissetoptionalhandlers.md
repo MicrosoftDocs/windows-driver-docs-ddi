@@ -73,11 +73,11 @@ For a protocol driver, this is the
 
 For a miniport driver, this is the 
      <i>NdisDriverHandle</i> value passed to the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function
 
 For a filter driver, this is the 
      <i>NdisDriverHandle</i> value passed to the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a> function or the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function or the 
      <i>NdisFilterHandle</i> value passed to the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
@@ -271,12 +271,12 @@ In this case, the valid structures are:
 
 
 For more information on the 2 chimney offload structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.
 
 Miniport drivers call 
     <b>NdisSetOptionalHandlers</b> in the context of the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
 
 In this case, the valid structures are:
 
@@ -319,12 +319,12 @@ In this case, the valid structures are:
 
 
 For more information on the 2 chimney offload structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.
 
 Filter drivers call 
     <b>NdisSetOptionalHandlers</b> in the context of the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function.
 
 There are no optional filter driver services in the current Windows version.
 
@@ -358,7 +358,7 @@ In this case, the valid structures are:
 
 
 For more information on the 4 chimney offload structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.
 
 
@@ -377,11 +377,11 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

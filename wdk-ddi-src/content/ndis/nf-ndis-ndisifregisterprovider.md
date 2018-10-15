@@ -156,7 +156,7 @@ NDIS drivers call the
     <b>NdisIfRegisterProvider</b> from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. An interface provider is a
     software component that manages network interfaces to support the MIB (
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
 
 To handle interface provider OID requests, interface providers provide entry points for callback
     functions in the 

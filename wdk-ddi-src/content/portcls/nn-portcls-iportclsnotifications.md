@@ -54,7 +54,7 @@ An interface implemented by ports to provide
  notification helpers to miniports to support audio module communication.
 
 For more information about audio modules, 
- see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+ see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
  
 
 The miniport audio driver will call into their port to create and send the notification.  

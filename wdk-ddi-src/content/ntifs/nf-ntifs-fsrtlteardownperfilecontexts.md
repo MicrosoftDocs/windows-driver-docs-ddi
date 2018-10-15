@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> objects that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">file control block (FCB)</a> structure.
+File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> objects that are associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">file control block (FCB)</a> structure.
 
 
 ## -parameters

@@ -115,7 +115,7 @@ A filter driver's
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified filter module and calls
       the 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The filter driver compares the cancellation ID that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation ID that NDIS passed to 
@@ -194,7 +194,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
    NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 

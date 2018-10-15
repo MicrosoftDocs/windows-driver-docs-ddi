@@ -80,7 +80,7 @@ NTSTATUS PflushDmaBuffer
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 ## -remarks
@@ -88,4 +88,4 @@ Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropri
 
 
 ## -see-also
-[Flushing Cached Data during DMA Operations](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)
+[Flushing Cached Data during DMA Operations](https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)

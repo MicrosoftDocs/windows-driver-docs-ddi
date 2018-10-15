@@ -271,7 +271,7 @@ A <b>ULONGLONG</b> value that contains a replay counter.
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a> and 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-protocol-offload-list">
     OID_PM_PROTOCOL_OFFLOAD_LIST</a> OIDs.
 
 
@@ -298,7 +298,7 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
  
 
  

@@ -172,7 +172,7 @@ A protocol driver calls the
     <b>NdisRegisterProtocolDriver</b> function from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS
     Protocol Drivers</a>.
 
 Drivers that call <b>
@@ -202,7 +202,7 @@ Protocol drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+<a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 

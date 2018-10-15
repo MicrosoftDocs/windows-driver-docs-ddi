@@ -43,27 +43,27 @@ The _SENSORSCXFUNCENUM enumeration contains a list of all WDF API functions.
 
 ### -field SensorsCxDeviceInitConfigTableIndex
 
-See [SensorsCxDeviceInitConfig](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdeviceinitconfig).
+See [SensorsCxDeviceInitConfig](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdeviceinitconfig).
 
 ### -field SensorsCxDeviceInitializeTableIndex
 
-See [SensorsCxDeviceInitialize](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdeviceinitialize).
+See [SensorsCxDeviceInitialize](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdeviceinitialize).
 
 ### -field SensorsCxSensorCreateTableIndex
 
-See [SensorsCxSensorCreate](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensorcreate).
+See [SensorsCxSensorCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensorcreate).
 
 ### -field SensorsCxSensorInitializeTableIndex
 
-See [SensorsCxSensorInitialize](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensorinitialize).
+See [SensorsCxSensorInitialize](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensorinitialize).
 
 ### -field SensorsCxSensorDataReadyTableIndex
 
-See [SensorsCxSensorDataReady](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensordataready).
+See [SensorsCxSensorDataReady](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensordataready).
 
 ### -field SensorsCxDeviceGetSensorListTableIndex
 
-See [SensorsCxDeviceGetSensorList](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdevicegetsensorlist).
+See [SensorsCxDeviceGetSensorList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdevicegetsensorlist).
 
 ### -field SensorsCxSensorHistoryRetrievalCompletedTableIndex
 
@@ -71,7 +71,7 @@ See [SensorsCxSensorHistoryRetrievalCompleted](..\sensorscx\nf-sensorscx-sensors
 
 ### -field SensorsCxStateChangeTableIndex
 
-See [SensorsCxStateChange](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxstatechange).
+See [SensorsCxStateChange](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxstatechange).
 
 ### -field SensorscxFunctionTableNumEntries
 

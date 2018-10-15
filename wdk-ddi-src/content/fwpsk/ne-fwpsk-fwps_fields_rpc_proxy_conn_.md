@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_RPC_PROXY_CONN
 
 The FWPS_FIELDS_RPC_PROXY_CONN enumeration type specifies the data field identifiers for the
   FWPS_LAYER_RPC_PROXY_CONN 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields

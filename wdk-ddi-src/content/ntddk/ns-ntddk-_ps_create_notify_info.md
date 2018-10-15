@@ -60,7 +60,7 @@ The <b>PS_CREATE_NOTIFY_INFO</b> structure provides information about a newly cr
 
 ### -field Size
 
-The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>. Currently, this member is always <b>sizeof</b>(<b>PS_CREATE_NOTIFY_INFO</b>).
+The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>. Currently, this member is always <b>sizeof</b>(<b>PS_CREATE_NOTIFY_INFO</b>).
 
 
 ### -field Flags
@@ -135,7 +135,7 @@ The NTSTATUS value to return for the process-creation operation. Drivers can cha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
 
 
 

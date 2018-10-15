@@ -100,7 +100,7 @@ The length of the preparsed data pointed to by <i>PreparsedData</i>.
 
 ### -field PreparsedData
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
 
 
 ## -see-also

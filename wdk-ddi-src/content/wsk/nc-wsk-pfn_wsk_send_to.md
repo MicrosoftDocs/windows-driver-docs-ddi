@@ -92,11 +92,11 @@ If the WSK application has set either a fixed remote transport address or a fixe
      non-<b>NULL</b>, the datagram is sent to the specified remote transport address.
 
 For more information about setting a fixed remote transport address for a datagram socket, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-remote-address">
      SIO_WSK_SET_REMOTE_ADDRESS</a>.
 
 For more information about setting a fixed destination transport address for a datagram socket, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570821">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570821">
      SIO_WSK_SET_SENDTO_ADDRESS</a>.
 
 
@@ -120,7 +120,7 @@ A pointer to a buffer that contains control information that is associated with 
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 

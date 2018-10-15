@@ -128,7 +128,7 @@ The driver sets the
 ### -field Flags
 
 A bitwise OR of flags. The following flags are valid for the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">
      OID_RECEIVE_FILTER_SET_FILTER</a> OID.
      
 
@@ -159,7 +159,7 @@ The packet either does not contain a VLAN tag or has a VLAN tag with an ID of ze
 For more information about this flag, see the Remarks section.
 
 <div class="alert"><b>Note</b>  If an overlying driver sets a MAC address filter and a VLAN identifier filter with an
-       OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>, it does not set this flag in either of the filter fields. In this
+       OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>, it does not set this flag in either of the filter fields. In this
        case, the miniport driver should indicate packets that match both the specified MAC address and the
        VLAN identifier. That is, the miniport driver should not indicate packets with a matching MAC address
        that have a zero VLAN identifier or are untagged packets.</div>
@@ -345,21 +345,21 @@ The following table describes how the network adapter uses the <b>ReceiveFilterT
 <div class="alert"><b>Note</b>  All the multibyte field and result values, such as the <b>FieldShortValue</b> and <b>ResultLong64Value</b> members, must be specified in network byte order (<i>big-endian</i>) format.</div>
 <div> </div>
 If the <b>NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO</b> flag is not set and there is no VLAN identifier filter that was configured by an OID set request of
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>, the miniport driver must do one of the following:
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>, the miniport driver must do one of the following:
 
 <ul>
 <li>
 For NDIS 6.20, the miniport driver must return a failed status for the
-       OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.
+       OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.
 
 </li>
 <li>
-Starting with NDIS 6.30, if the <b>NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO</b> flag is not set and there is no VLAN identifier filter configured by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a> method request, the miniport driver must do either one of the following:
+Starting with NDIS 6.30, if the <b>NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO</b> flag is not set and there is no VLAN identifier filter configured by the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a> method request, the miniport driver must do either one of the following:
 
 <ul>
 <li>
 The miniport driver must return a failed status for the
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a> method request.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a> method request.
 
 </li>
 <li>
@@ -370,7 +370,7 @@ The miniport driver  must configure the network adapter  to inspect and filter t
 </li>
 </ul>
 Starting with NDIS 6.30, if the <b>NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO</b> flag is not set and there is a non-zero VLAN identifier filter that was configured by an OID set request of
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>, the miniport driver must do the following:
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>, the miniport driver must do the following:
 
 <ul>
 <li>
@@ -429,7 +429,7 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
  
 
  

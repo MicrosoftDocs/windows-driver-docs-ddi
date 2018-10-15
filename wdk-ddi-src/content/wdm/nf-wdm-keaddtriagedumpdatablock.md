@@ -61,7 +61,7 @@ Adds a triage dump data block to a triage dump data block array.
 [_In_] The size of the data block, in bytes.
 
 ## -returns
-Returns STATUS_SUCCESS if the data block was successfully added. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). 
+Returns STATUS_SUCCESS if the data block was successfully added. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). 
 
 ## -remarks
 

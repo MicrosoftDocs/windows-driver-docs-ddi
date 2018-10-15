@@ -52,7 +52,7 @@ req.typenames: FWPS_FIELDS_DATAGRAM_DATA_V4
 
 The FWPS_FIELDS_DATAGRAM_DATA_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_DATAGRAM_DATA_V4 and FWPS_LAYER_DATAGRAM_DATA_V4_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -138,6 +138,10 @@ The encapsulation method used by a tunnel if the
 
 ### -field FWPS_FIELD_DATAGRAM_DATA_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_DATAGRAM_DATA_V4_MAX
 
@@ -170,9 +174,11 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV4 data fields:
 
+FWPS_FIELD_DATAGRAM_DATA_V4_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
-
-
+FWPS_FIELD_DATAGRAM_DATA_V4_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
 
 ## -see-also

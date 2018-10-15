@@ -175,7 +175,7 @@ The miniport driver must maintain an entry within the
 Entries within the
      <b>PhyCounters</b> array must be in the same order as the list of supported PHYs that the driver returns
      when queried by
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 

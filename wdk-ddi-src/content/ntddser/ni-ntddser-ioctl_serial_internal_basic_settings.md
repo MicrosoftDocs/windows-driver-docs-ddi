@@ -105,7 +105,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to the size, in 
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of SERIAL_BASIC_SETTINGS. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. If <b>Status</b> is set to STATUS_BUFFER_TOO_SMALL, the value of <b>Parameters.DeviceIoControl.OutputLength</b> is less than the size, in bytes, of a SERIAL_BASIC_SETTINGS structure.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. If <b>Status</b> is set to STATUS_BUFFER_TOO_SMALL, the value of <b>Parameters.DeviceIoControl.OutputLength</b> is less than the size, in bytes, of a SERIAL_BASIC_SETTINGS structure.
 
 
 ## -see-also

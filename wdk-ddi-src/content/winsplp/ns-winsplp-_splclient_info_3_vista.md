@@ -50,7 +50,7 @@ req.typenames: SPLCLIENT_INFO_3_VISTA
 ## -description
 
 
-Contains a super-set of the information in both a <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> and <b>SPLCLIENT_INFO_2</b> structure. It also contains additional information needed by the provider.
+Contains a super-set of the information in both a <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> and <b>SPLCLIENT_INFO_2</b> structure. It also contains additional information needed by the provider.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ Specifies open printer additional flags to the provider.
 
 ### -field dwSize
 
-Reserved. Used for compatibility with the <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> structure.
+Reserved. Used for compatibility with the <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> structure.
 
 
 ### -field pMachineName

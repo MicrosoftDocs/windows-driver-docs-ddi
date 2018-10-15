@@ -30,7 +30,7 @@ To develop Human Interface Devices (HID), you need these headers:
  * [sffprtcl.h](..\sffprtcl\index.md)
  * [vhf.h](..\vhf\index.md)
 
-For the programming guide, see [Human Interface Devices (HID)](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid).
+For the programming guide, see [Human Interface Devices (HID)](https://docs.microsoft.com/windows-hardware/drivers/hid).
 
 This section contains the programming interfaces related to Human Interface Devices (or HID). Typically, these are devices that humans use to directly control the operation of computer systems.
 

@@ -178,7 +178,7 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/br259124">Developing v4 print drivers</a>
+<a href="http://msdn.microsoft.com/library/windows/hardware/br259124">Developing v4 print drivers</a>
 
 
 

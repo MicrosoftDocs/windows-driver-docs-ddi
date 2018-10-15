@@ -97,7 +97,7 @@ After the client driver creates an endpoint, it does not automatically start rec
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
 
 
 

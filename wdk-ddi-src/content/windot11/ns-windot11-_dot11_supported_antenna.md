@@ -91,7 +91,7 @@ A Boolean value that indicates, if <b>TRUE</b>, that the antenna referenced by t
 The meaning of the
     <b>bSupportedAntenna</b> member depends on the OID that it is used with. For example, if
     <b>bSupportedAntenna</b> is <b>TRUE</b> when an antenna list is queried through
-    <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>,
+    <a href="https://msdn.microsoft.com/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>,
     the antenna referenced by the
     <b>uAntennaListIndex</b> member is supported for receive operations.
 
@@ -104,11 +104,11 @@ The meaning of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+<a href="https://msdn.microsoft.com/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
+<a href="https://msdn.microsoft.com/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
 
 

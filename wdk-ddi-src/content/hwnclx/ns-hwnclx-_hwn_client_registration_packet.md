@@ -137,7 +137,7 @@ A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
 
 
 

@@ -157,7 +157,7 @@ A UCHAR value that specifies the data rates supported by the peer station. These
 Each entry in the
      <b>ucPeerSupportedRates</b> array is the value of an index within the table of data rates returned
      through a query of
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
      OID_DOT11_DATA_RATE_MAPPING_TABLE</a>. The index value must be between 2 and 127.
 
 This member has a value of zero if the peer is not associated.

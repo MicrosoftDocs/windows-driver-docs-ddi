@@ -115,7 +115,7 @@ The number of unencrypted received MAC protocol data unit (MPDU) frames that the
      discarded when the IEEE 802.11
      <b>dot11ExcludeUnencrypted</b> management information base (MIB) object is enabled. For more information
      about this MIB object, see
-     <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>.
+     <a href="https://msdn.microsoft.com/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>.
 
 
 MPDU frames are considered unencrypted when the Protected Frame subfield of the Frame Control field
@@ -220,7 +220,7 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
    Statistics</a>
 
 

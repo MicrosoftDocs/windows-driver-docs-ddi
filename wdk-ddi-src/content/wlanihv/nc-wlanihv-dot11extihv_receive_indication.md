@@ -120,7 +120,7 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567399">
     NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a> indication, the operating system forwards the notification
     data to the IHV Extensions DLL by calling the
     <i>Dot11ExtIhvReceiveIndication</i> function.
@@ -130,7 +130,7 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567399">
    NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a>
 
 

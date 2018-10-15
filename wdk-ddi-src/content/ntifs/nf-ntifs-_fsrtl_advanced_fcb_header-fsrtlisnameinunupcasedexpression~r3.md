@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://msdn.microsoft.com/en-us/library/windows/hardware/ff546850), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE. 
+The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://msdn.microsoft.com/library/windows/hardware/ff546850), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE. 
 
 ## -parameters
 
