@@ -56,13 +56,13 @@ req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
 ## -syntax
 
 
-````
+```
 struct RILUMTSMRL {
   DWORD             cbSize;
   DWORD             dwNumSubscribers;
   RILSUBSCRIBERINFO rsiInfo[1];
 };
-````
+```
 
 
 ## -struct-fields

@@ -58,12 +58,12 @@ The <b>READ_REGISTER_ULONG64</b> function reads a ULONG64 value from the specifi
 ## -syntax
 
 
-````
+```
 ULONG64 READ_REGISTER_ULONG64(
   _In_ IWDFDevice3 *pDevice,
   _In_ PULONG64    Register
 );
-````
+```
 
 
 ## -parameters

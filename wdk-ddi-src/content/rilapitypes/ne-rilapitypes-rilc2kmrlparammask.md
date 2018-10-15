@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILC2KMRLPARAMMASK {
   RIL_PARAM_C2KMRL_NID,
   RIL_PARAM_C2KMRL_SID,
@@ -69,7 +69,7 @@ typedef enum _RILC2KMRLPARAMMASK {
   RIL_PARAM_C2KMRL_PILOTSTRENGTH,
   RIL_PARAM_C2KRML_ALL
 } RILC2KMRLPARAMMASK;
-````
+```
 
 
 ## -enum-fields

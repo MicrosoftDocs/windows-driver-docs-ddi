@@ -56,7 +56,7 @@ The EMULATOR_ACCESS_ENTRY structure specifies an element in the <b>EmulatorAcces
 ## -syntax
 
 
-````
+```
 typedef struct _EMULATOR_ACCESS_ENTRY {
   ULONG                     BasePort;
   ULONG                     NumConsecutivePorts;
@@ -65,7 +65,7 @@ typedef struct _EMULATOR_ACCESS_ENTRY {
   UCHAR                     StringSupport;
   PVOID                     Routine;
 } EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY;
-````
+```
 
 
 ## -struct-fields

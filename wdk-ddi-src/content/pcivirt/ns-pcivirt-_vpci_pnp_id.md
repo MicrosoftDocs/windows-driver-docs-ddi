@@ -56,7 +56,7 @@ Stores the PnP identifiers for a virtual PCI device. For example strings, see <a
 ## -syntax
 
 
-````
+```
 typedef struct _VPCI_PNP_ID {
   USHORT  VendorID;
   USHORT  DeviceID;
@@ -67,7 +67,7 @@ typedef struct _VPCI_PNP_ID {
   USHORT  SubVendorID;
   USHORT  SubSystemID;
 } VPCI_PNP_ID, VPCI_PNP_ID;
-````
+```
 
 
 ## -struct-fields

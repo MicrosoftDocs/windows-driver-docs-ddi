@@ -61,7 +61,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_PHY_ATTRIBUTES {
   NDIS_OBJECT_HEADER                  Header;
   DOT11_PHY_TYPE                      PhyType;
@@ -82,7 +82,7 @@ typedef struct DOT11_PHY_ATTRIBUTES {
   DOT11_DATA_RATE_MAPPING_ENTRY       DataRateMappingEntries[DOT11_RATE_SET_MAX_LENGTH];
   DOT11_SUPPORTED_DATA_RATES_VALUE_V2 SupportedDataRatesValue;
 } DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields

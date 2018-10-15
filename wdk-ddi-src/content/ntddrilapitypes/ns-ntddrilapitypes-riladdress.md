@@ -56,7 +56,7 @@ req.typenames: RILADDRESS, *LPRILADDRESS
 ## -syntax
 
 
-````
+```
 struct RILADDRESS {
   DWORD cbSize;
   DWORD dwParams;
@@ -64,7 +64,7 @@ struct RILADDRESS {
   DWORD dwNumPlan;
   WCHAR wszAddress[MAXLENGTH_ADDRESS];
 };
-````
+```
 
 
 ## -struct-fields

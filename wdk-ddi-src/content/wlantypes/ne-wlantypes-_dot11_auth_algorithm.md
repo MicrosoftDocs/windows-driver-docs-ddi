@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef enum _DOT11_AUTH_ALGORITHM {
   DOT11_AUTH_ALGO_80211_OPEN        = 1,
   DOT11_AUTH_ALGO_80211_SHARED_KEY  = 2,
@@ -69,7 +69,7 @@ typedef enum _DOT11_AUTH_ALGORITHM {
   DOT11_AUTH_ALGO_IHV_START         = 0x80000000,
   DOT11_AUTH_ALGO_IHV_END           = 0xffffffff
 } DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM;
-````
+```
 
 
 ## -enum-fields

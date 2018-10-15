@@ -56,7 +56,7 @@ Gets the local unique identifier of the SR-IOV device.
 ## -prototype
 
 
-````
+```
 SRIOV_QUERY_LUID SriovQueryLuid;
 
 NTSTATUS SriovQueryLuid(
@@ -66,7 +66,7 @@ NTSTATUS SriovQueryLuid(
 { ... }
 
 typedef SRIOV_QUERY_LUID *PSRIOV_QUERY_LUID;
-````
+```
 
 
 ## -parameters

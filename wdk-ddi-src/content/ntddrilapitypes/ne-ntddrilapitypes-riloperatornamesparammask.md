@@ -58,7 +58,7 @@ req.typenames: RILOPERATORNAMESPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILOPERATORNAMESPARAMMASK {
   RIL_PARAM_ON_LONGNAME      = 0x00000001,
   RIL_PARAM_ON_SHORTNAME     = 0x00000002,
@@ -68,7 +68,7 @@ enum RILOPERATORNAMESPARAMMASK {
   RIL_PARAM_ON_ALL           = 0x0000001F
 
 };
-````
+```
 
 
 ## -enum-fields

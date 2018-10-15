@@ -56,7 +56,7 @@ req.typenames: RILGSMNMR, *LPRILGSMNMR
 ## -syntax
 
 
-````
+```
 struct RILGSMNMR {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -67,7 +67,7 @@ struct RILGSMNMR {
   DWORD dwBaseStationID;
   DWORD dwRxLevel;
 };
-````
+```
 
 
 ## -struct-fields

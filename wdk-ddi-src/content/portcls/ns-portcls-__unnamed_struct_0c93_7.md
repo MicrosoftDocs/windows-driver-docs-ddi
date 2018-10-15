@@ -56,7 +56,7 @@ The <b>PCPIN_DESCRIPTOR</b> structure describes a pin factory.
 ## -syntax
 
 
-````
+```
 typedef struct {
   ULONG                    MaxGlobalInstanceCount;
   ULONG                    MaxFilterInstanceCount;
@@ -64,7 +64,7 @@ typedef struct {
   const PCAUTOMATION_TABLE *AutomationTable;
   KSPIN_DESCRIPTOR         KsPinDescriptor;
 } PCPIN_DESCRIPTOR, *PPCPIN_DESCRIPTOR;
-````
+```
 
 
 ## -struct-fields

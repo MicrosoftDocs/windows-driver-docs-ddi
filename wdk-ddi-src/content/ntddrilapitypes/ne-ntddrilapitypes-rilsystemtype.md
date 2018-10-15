@@ -56,7 +56,7 @@ req.typenames: RILSYSTEMTYPE
 ## -syntax
 
 
-````
+```
 enum RILSYSTEMTYPE {
   RIL_SYSTEMTYPE_NONE     = 0x00000000,
   RIL_SYSTEMTYPE_1XRTT    = 0x00000001,
@@ -70,7 +70,7 @@ enum RILSYSTEMTYPE {
   RIL_SYSTEMTYPE_ALL      = 0x0000003F
 
 };
-````
+```
 
 
 ## -enum-fields

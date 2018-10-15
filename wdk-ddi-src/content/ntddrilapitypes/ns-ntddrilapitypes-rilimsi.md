@@ -58,7 +58,7 @@ req.typenames: RILIMSI, *LPRILIMSI
 ## -syntax
 
 
-````
+```
 struct RILIMSI {
   DWORD cbSize;
   DWORD dwParams;
@@ -66,7 +66,7 @@ struct RILIMSI {
   DWORD dwMcc;
   DWORD dwMnc;
 };
-````
+```
 
 
 ## -struct-fields

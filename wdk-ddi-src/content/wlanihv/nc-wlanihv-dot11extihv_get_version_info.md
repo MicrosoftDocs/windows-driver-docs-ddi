@@ -59,14 +59,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_GET_VERSION_INFO Dot11ExtIhvGetVersionInfo;
 
 DWORD APIENTRY Dot11ExtIhvGetVersionInfo(
   _Out_ PDOT11_IHV_VERSION_INFO pDot11IHVVersionInfo
 )
 { ... }
-````
+```
 
 
 ## -parameters

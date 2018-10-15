@@ -58,12 +58,12 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_IHV_SSID_LIST {
   ULONG      ulCount;
   DOT11_SSID SSIDs[1];
 } DOT11EXT_IHV_SSID_LIST, *PDOT11EXT_IHV_SSID_LIST;
-````
+```
 
 
 ## -struct-fields

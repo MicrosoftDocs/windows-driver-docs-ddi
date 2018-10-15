@@ -56,13 +56,13 @@ Battery miniclass drivers fill in this structure in response to certain <a href=
 ## -syntax
 
 
-````
+```
 typedef struct _BATTERY_MANUFACTURE_DATE {
   UCHAR  Day;
   UCHAR  Month;
   USHORT Year;
 } BATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE;
-````
+```
 
 
 ## -struct-fields

@@ -62,7 +62,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   NDIS_OBJECT_HEADER Header;
   USHORT             usExemptionActionType;
@@ -71,7 +71,7 @@ typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   PVOID              pvMediaSpecificInfo;
   ULONG              uSendFlags;
 } DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT;
-````
+```
 
 
 ## -struct-fields

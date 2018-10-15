@@ -57,14 +57,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCLOCKSTATELOCKSTATE {
   RIL_UICCLOCKSTATE_VERIFIED,
   RIL_UICCLOCKSTATE_ENABLED,
   RIL_UICCLOCKSTATE_BLOCKED,
   RIL_UICCLOCKSTATE_ALL
 } RILUICCLOCKSTATELOCKSTATE;
-````
+```
 
 
 ## -enum-fields

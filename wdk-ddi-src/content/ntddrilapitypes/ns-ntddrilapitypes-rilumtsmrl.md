@@ -56,7 +56,7 @@ req.typenames: RILUMTSMRL, *LPRILUMTSMRL
 ## -syntax
 
 
-````
+```
 struct RILUMTSMRL {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -69,7 +69,7 @@ struct RILUMTSMRL {
   LONG  dwECNO;
   DWORD dwPathLoss;
 };
-````
+```
 
 
 ## -struct-fields

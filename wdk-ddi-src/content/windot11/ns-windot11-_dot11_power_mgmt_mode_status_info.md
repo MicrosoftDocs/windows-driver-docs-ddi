@@ -58,14 +58,14 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_POWER_MGMT_MODE_STATUS_INFO {
   NDIS_OBJECT_HEADER      Header;
   DOT11_POWER_MODE        PowerSaveMode;
   ULONG                   uPowerSaveLevel;
   DOT11_POWER_MODE_REASON Reason;
 } DOT11_POWER_MGMT_MODE_STATUS_INFO, *PDOT11_POWER_MGMT_MODE_STATUS_INFO;
-````
+```
 
 
 ## -struct-fields

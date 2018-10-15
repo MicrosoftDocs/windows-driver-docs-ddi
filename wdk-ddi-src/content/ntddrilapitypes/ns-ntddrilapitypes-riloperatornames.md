@@ -56,7 +56,7 @@ req.typenames: RILOPERATORNAMES, *LPRILOPERATORNAMES
 ## -syntax
 
 
-````
+```
 struct RILOPERATORNAMES {
   DWORD cbSize;
   DWORD dwParams;
@@ -66,7 +66,7 @@ struct RILOPERATORNAMES {
   WCHAR wszNumName[MAXLENGTH_OPERATOR_NUMERIC];
   WCHAR wszCountryCode[MAXLENGTH_OPERATOR_COUNTRY_CODE];
 };
-````
+```
 
 
 ## -struct-fields

@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILNETWORKCODEPARAMMASK {
   RIL_PARAM_NETWORKCODE_MCC,
   RIL_PARAM_NETWORKCODE_MNC,
@@ -66,7 +66,7 @@ typedef enum _RILNETWORKCODEPARAMMASK {
   RIL_PARAM_NETWORKCODE_RI,
   RIL_PARAM_NETWORKCODE_ALL
 } RILNETWORKCODEPARAMMASK;
-````
+```
 
 
 ## -enum-fields

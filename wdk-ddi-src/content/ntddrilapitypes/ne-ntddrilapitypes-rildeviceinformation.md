@@ -56,7 +56,7 @@ req.typenames: RILDEVICEINFORMATION
 ## -syntax
 
 
-````
+```
 enum RILDEVICEINFORMATION {
   RIL_DEVICEINFO_MANUFACTURER       = 0x01,
   RIL_DEVICEINFO_MODEL              = 0x02,
@@ -67,7 +67,7 @@ enum RILDEVICEINFORMATION {
   RIL_DEVICEINFO_ARG_LARGEST        = RIL_DEVICEINFO_SERIALNUMBER_CDMA
 
 };
-````
+```
 
 
 ## -enum-fields

@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_PHY_FRAME_STATISTICS {
   ULONGLONG ullTransmittedFrameCount;
   ULONGLONG ullMulticastTransmittedFrameCount;
@@ -80,7 +80,7 @@ typedef struct DOT11_PHY_FRAME_STATISTICS {
   ULONGLONG ullPromiscuousReceivedFragmentCount;
   ULONGLONG ullFCSErrorCount;
 } DOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS;
-````
+```
 
 
 ## -struct-fields

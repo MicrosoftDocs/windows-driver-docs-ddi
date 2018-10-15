@@ -58,12 +58,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_GO_INTENT {
   UCHAR TieBreaker:1;
   UCHAR Intent:7;
 } DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT;
-````
+```
 
 
 ## -struct-fields

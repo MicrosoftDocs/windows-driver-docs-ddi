@@ -56,7 +56,7 @@ req.typenames: RILTDSCDMAMRL, *LPRILTDSCDMAMRL
 ## -syntax
 
 
-````
+```
 struct RILTDSCDMAMRL {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -68,7 +68,7 @@ struct RILTDSCDMAMRL {
   DWORD dwRSCP;
   DWORD dwPathLoss;
 };
-````
+```
 
 
 ## -struct-fields

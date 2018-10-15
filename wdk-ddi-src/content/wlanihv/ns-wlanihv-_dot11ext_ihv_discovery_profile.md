@@ -57,12 +57,12 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_IHV_DISCOVERY_PROFILE {
   DOT11EXT_IHV_CONNECTIVITY_PROFILE IhvConnectivityProfile;
   DOT11EXT_IHV_SECURITY_PROFILE     IhvSecurityProfile;
 } DOT11EXT_IHV_DISCOVERY_PROFILE, *PDOT11EXT_IHV_DISCOVERY_PROFILE;
-````
+```
 
 
 ## -struct-fields

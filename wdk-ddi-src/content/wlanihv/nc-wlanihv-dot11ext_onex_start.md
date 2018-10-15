@@ -60,12 +60,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtStartOneX(
   _In_opt_ HANDLE         hDot11SvcHandle,
   _In_opt_ EAP_ATTRIBUTES *pEapAttribute
 );
-````
+```
 
 
 ## -parameters

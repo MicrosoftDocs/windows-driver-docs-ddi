@@ -56,7 +56,7 @@ Stores function pointers to callback functions implemented by the physical funct
 ## -syntax
 
 
-````
+```
 typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD {
   USHORT                           Size;
   USHORT                           Version;
@@ -75,7 +75,7 @@ typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD {
   PSRIOV_GET_RESOURCE_FOR_BAR      GetResourceForBar;
   PSRIOV_QUERY_LUID                QueryLuid;
 } SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD;
-````
+```
 
 
 ## -struct-fields

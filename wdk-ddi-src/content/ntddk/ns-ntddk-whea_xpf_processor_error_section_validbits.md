@@ -56,7 +56,7 @@ The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of 
 ## -syntax
 
 
-````
+```
 typedef union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS {
   struct {
     ULONGLONG LocalAPICId  :1;
@@ -67,7 +67,7 @@ typedef union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS {
   };
   ULONGLONG ValidBits;
 } WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS;
-````
+```
 
 
 ## -struct-fields

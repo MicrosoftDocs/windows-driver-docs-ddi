@@ -56,7 +56,7 @@ Battery miniclass drivers fill in this structure in response to certain <a href=
 ## -syntax
 
 
-````
+```
 typedef struct _BATTERY_INFORMATION {
   ULONG Capabilities;
   UCHAR Technology;
@@ -69,7 +69,7 @@ typedef struct _BATTERY_INFORMATION {
   ULONG CriticalBias;
   ULONG CycleCount;
 } BATTERY_INFORMATION, *PBATTERY_INFORMATION;
-````
+```
 
 
 ## -struct-fields

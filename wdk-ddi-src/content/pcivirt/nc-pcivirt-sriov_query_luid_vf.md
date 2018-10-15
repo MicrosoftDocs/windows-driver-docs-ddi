@@ -56,7 +56,7 @@ Gets the PCI Express SR-IOV Virtual Function (VF) given a unique identifier.
 ## -prototype
 
 
-````
+```
 SRIOV_QUERY_LUID_VF SriovQueryLuidVf;
 
 NTSTATUS SriovQueryLuidVf(
@@ -67,7 +67,7 @@ NTSTATUS SriovQueryLuidVf(
 { ... }
 
 typedef SRIOV_QUERY_LUID_VF *PSRIOV_QUERY_LUID_VF;
-````
+```
 
 
 ## -parameters

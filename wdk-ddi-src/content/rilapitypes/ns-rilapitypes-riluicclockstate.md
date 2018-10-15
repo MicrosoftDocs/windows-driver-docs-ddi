@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILUICCLOCKSTATE {
   DWORD        cbSize;
   DWORD        dwParams;
@@ -66,7 +66,7 @@ typedef struct _RILUICCLOCKSTATE {
   DWORD        dwVerifyAttemptsLeft;
   DWORD        dwUnblockAttemptsLeft;
 } RILUICCLOCKSTATE, RILUICCLOCKSTATE;
-````
+```
 
 
 ## -struct-fields

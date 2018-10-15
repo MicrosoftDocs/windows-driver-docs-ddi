@@ -47,7 +47,7 @@ The device functions of video.
 ## -syntax
 
 
-````
+```
 typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0043
 {
     PFND3D12DDI_VIDEO_GETCAPS                                           pfnGetCaps;
@@ -61,7 +61,7 @@ typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0043
     PFND3D12DDI_CREATEVIDEOPROCESSOR_0043                               pfnCreateVideoProcessor;
     PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021                              pfnDestroyVideoProcessor;
 } D3D12DDI_DEVICE_FUNCS_VIDEO_0043;
-````
+```
 
 
 ## -struct-fields

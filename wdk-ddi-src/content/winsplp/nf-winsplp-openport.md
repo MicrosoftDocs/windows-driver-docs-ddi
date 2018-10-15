@@ -57,13 +57,13 @@ A port monitor's <code>OpenPort</code> function opens a printer port.
 ## -syntax
 
 
-````
+```
 BOOL WINAPI pfnOpenPort(
    HANDLE  hMonitor,
    LPWSTR  pName,
    PHANDLE pHandle
 );
-````
+```
 
 
 ## -parameters

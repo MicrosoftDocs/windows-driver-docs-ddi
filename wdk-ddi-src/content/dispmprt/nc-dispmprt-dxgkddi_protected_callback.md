@@ -56,7 +56,7 @@ The <i>DxgkProtectedCallback</i> callback routine is implemented by the display 
 ## -prototype
 
 
-````
+```
 DXGKDDI_PROTECTED_CALLBACK DxgkProtectedCallback;
 
 VOID DxgkProtectedCallback(
@@ -65,7 +65,7 @@ VOID DxgkProtectedCallback(
   _In_       NTSTATUS ProtectionStatus
 )
 { ... }
-````
+```
 
 
 ## -parameters

@@ -57,12 +57,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCFILELOCKSTATUSPARAMMASK {
   RIL_PARAM_UFLS_PINREFERENCE,
   RIL_PARAM_UFLS_ALL
 } RILUICCFILELOCKSTATUSPARAMMASK;
-````
+```
 
 
 ## -enum-fields

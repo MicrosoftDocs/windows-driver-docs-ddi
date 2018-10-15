@@ -56,7 +56,7 @@ Reads or writes to mitigated address spaces.
 ## -prototype
 
 
-````
+```
 READ_WRITE_MITIGATED_REGISTER ReadWriteMitigatedRegister;
 
 NTSTATUS ReadWriteMitigatedRegister(
@@ -71,7 +71,7 @@ NTSTATUS ReadWriteMitigatedRegister(
 { ... }
 
 typedef READ_WRITE_MITIGATED_REGISTER *PREAD_WRITE_MITIGATED_REGISTER;
-````
+```
 
 
 ## -parameters

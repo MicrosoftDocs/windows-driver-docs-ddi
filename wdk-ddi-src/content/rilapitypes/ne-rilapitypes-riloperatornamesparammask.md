@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILOPERATORNAMESPARAMMASK {
   RIL_PARAM_ON_SHORTNAME,
   RIL_PARAM_ON_NUMNAME,
@@ -65,7 +65,7 @@ typedef enum _RILOPERATORNAMESPARAMMASK {
   RIL_PARAM_ON_SYSTEMTYPE,
   RIL_PARAM_ON_ALL
 } RILOPERATORNAMESPARAMMASK;
-````
+```
 
 
 ## -enum-fields

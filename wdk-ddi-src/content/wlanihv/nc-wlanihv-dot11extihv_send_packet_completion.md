@@ -60,14 +60,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_SEND_PACKET_COMPLETION Dot11ExtIhvSendPacketCompletion;
 
 DWORD APIENTRY Dot11ExtIhvSendPacketCompletion(
   _In_opt_ HANDLE hSendCompletion
 )
 { ... }
-````
+```
 
 
 ## -parameters

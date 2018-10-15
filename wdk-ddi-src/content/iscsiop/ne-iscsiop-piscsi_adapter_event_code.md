@@ -56,11 +56,11 @@ The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event.
 ## -syntax
 
 
-````
+```
 typedef enum  {
   ISCSI_ADAPTER_TARGETS_CHANGED  = 3
 } ISCSI_ADAPTER_EVENT_CODE, *PISCSI_ADAPTER_EVENT_CODE;
-````
+```
 
 
 ## -enum-fields

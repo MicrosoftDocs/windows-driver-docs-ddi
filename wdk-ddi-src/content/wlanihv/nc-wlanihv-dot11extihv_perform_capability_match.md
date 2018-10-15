@@ -62,7 +62,7 @@ The operating system calls the
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_PERFORM_CAPABILITY_MATCH Dot11ExtIhvPerformCapabilityMatch;
 
 DWORD APIENTRY Dot11ExtIhvPerformCapabilityMatch(
@@ -74,7 +74,7 @@ DWORD APIENTRY Dot11ExtIhvPerformCapabilityMatch(
   _Out_    PDWORD                             pdwReasonCode
 )
 { ... }
-````
+```
 
 
 ## -parameters

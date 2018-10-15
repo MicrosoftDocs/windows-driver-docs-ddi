@@ -56,7 +56,7 @@ Reads data from the specified configuration block of a PCI Express SR-IOV Virtua
 ## -prototype
 
 
-````
+```
 SRIOV_READ_BLOCK SriovReadBlock;
 
 NTSTATUS SriovReadBlock(
@@ -69,7 +69,7 @@ NTSTATUS SriovReadBlock(
 { ... }
 
 typedef SRIOV_READ_BLOCK *PSRIOV_READ_BLOCK;
-````
+```
 
 
 ## -parameters

@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILIMSI {
   DWORD                  cbSize;
   DWORD                  dwParams;
@@ -65,7 +65,7 @@ typedef struct _RILIMSI {
   DWORD                  dwMcc;
   DWORD                  dwMnc;
 } RILIMSI, RILIMSI;
-````
+```
 
 
 ## -struct-fields

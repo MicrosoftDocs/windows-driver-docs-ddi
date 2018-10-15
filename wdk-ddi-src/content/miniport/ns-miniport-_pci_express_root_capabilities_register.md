@@ -56,7 +56,7 @@ The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
   struct {
     USHORT CRSSoftwareVisibility  :1;
@@ -64,7 +64,7 @@ typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER;
-````
+```
 
 
 ## -struct-fields

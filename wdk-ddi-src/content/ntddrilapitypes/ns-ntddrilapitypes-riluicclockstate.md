@@ -56,7 +56,7 @@ req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
 ## -syntax
 
 
-````
+```
 struct RILUICCLOCKSTATE {
   DWORD       cbSize;
   DWORD       dwParams;
@@ -65,7 +65,7 @@ struct RILUICCLOCKSTATE {
   DWORD       dwVerifyAttemptsLeft;
   DWORD       dwUnblockAttemptsLeft;
 };
-````
+```
 
 
 ## -struct-fields

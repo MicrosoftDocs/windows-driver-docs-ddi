@@ -56,7 +56,7 @@ The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-his
 ## -syntax
 
 
-````
+```
 typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
   UINT64                                    FenceValue;
   ULONG64                                   hLogicalSurface;
@@ -78,7 +78,7 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 #endif
   D3DKMT_DIRTYREGIONS                       DirtyRegions;
 } D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN;
-````
+```
 
 
 ## -struct-fields

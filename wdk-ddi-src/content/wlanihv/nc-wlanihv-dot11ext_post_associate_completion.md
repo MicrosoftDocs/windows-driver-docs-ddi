@@ -63,7 +63,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtPostAssociateCompletion(
   _In_opt_ HANDLE             hDot11SvcHandle,
   _In_opt_ HANDLE             hSecuritySessionID,
@@ -71,7 +71,7 @@ DWORD WINAPI * Dot11ExtPostAssociateCompletion(
   _In_     DWORD              dwReasonCode,
   _In_     DWORD              dwWin32Error
 );
-````
+```
 
 
 ## -parameters

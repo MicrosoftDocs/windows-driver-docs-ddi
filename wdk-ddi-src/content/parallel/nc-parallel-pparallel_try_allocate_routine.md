@@ -56,11 +56,11 @@ The <i>PPARALLEL_TRY_ALLOCATE_ROUTINE</i>-typed (ISR) callback routine attempts 
 ## -prototype
 
 
-````
+```
 typedef BOOLEAN ParallelTryAllocateRoutine(
   _In_ PVOID TryAllocateContext
 );
-````
+```
 
 
 ## -parameters

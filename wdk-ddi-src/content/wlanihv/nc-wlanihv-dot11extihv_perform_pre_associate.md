@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_PERFORM_PRE_ASSOCIATE Dot11ExtIhvPerformPreAssociate;
 
 DWORD APIENTRY Dot11ExtIhvPerformPreAssociate(
@@ -72,7 +72,7 @@ DWORD APIENTRY Dot11ExtIhvPerformPreAssociate(
   _Out_    PDWORD                             pdwReasonCode
 )
 { ... }
-````
+```
 
 
 ## -parameters

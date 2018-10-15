@@ -56,7 +56,7 @@ The PCI_EXPRESS_PME_REQUESTOR_ID structure describes the identifier of the reque
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
   struct {
     USHORT FunctionNumber  :3;
@@ -65,7 +65,7 @@ typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID;
-````
+```
 
 
 ## -struct-fields

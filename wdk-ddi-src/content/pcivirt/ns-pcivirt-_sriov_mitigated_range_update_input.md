@@ -56,11 +56,11 @@ This structure is used as an input buffer to the <a href="https://msdn.microsoft
 ## -syntax
 
 
-````
+```
 typedef struct _SRIOV_MITIGATED_RANGE_UPDATE_INPUT {
   USHORT  VfIndex;
 } SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT;
-````
+```
 
 
 ## -struct-fields

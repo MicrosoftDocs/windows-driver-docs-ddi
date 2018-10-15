@@ -56,7 +56,7 @@ The<i> DxgkDdiOPMSetSigningKeyAndSequenceNumbers</i> function sets the given pro
 ## -prototype
 
 
-````
+```
 DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS DxgkDdiOPMSetSigningKeyAndSequenceNumbers;
 
 NTSTATUS DxgkDdiOPMSetSigningKeyAndSequenceNumbers(
@@ -65,7 +65,7 @@ NTSTATUS DxgkDdiOPMSetSigningKeyAndSequenceNumbers(
   _In_ const PDXGKMDT_OPM_ENCRYPTED_PARAMETERS EncryptedParameters
 )
 { ... }
-````
+```
 
 
 ## -parameters

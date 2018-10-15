@@ -56,7 +56,7 @@ req.typenames: RILC2KMRL, *LPRILC2KMRL
 ## -syntax
 
 
-````
+```
 struct RILC2KMRL {
   DWORD dwParams;
   BOOL  fServing;
@@ -69,7 +69,7 @@ struct RILC2KMRL {
   DWORD dwGPSSeconds;
   DWORD dwPilotStrength;
 };
-````
+```
 
 
 ## -struct-fields

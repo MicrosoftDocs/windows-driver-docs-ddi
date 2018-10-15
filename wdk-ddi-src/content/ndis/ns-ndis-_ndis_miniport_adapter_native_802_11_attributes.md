@@ -57,7 +57,7 @@ req.typenames: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_A
 ## -syntax
 
 
-````
+```
 typedef struct {
   NDIS_OBJECT_HEADER       Header;
   ULONG                    OpModeCapability;
@@ -75,7 +75,7 @@ typedef struct {
   PDOT11_WFD_ATTRIBUTES    WFDAttributes;
 #endif
 } NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields

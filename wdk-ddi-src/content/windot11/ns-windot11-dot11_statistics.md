@@ -59,7 +59,7 @@ The DOT11_STATISTICS structure records statistical counters for the 802.11 inter
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_STATISTICS {
   NDIS_OBJECT_HEADER         Header;
   ULONGLONG                  ullFourWayHandshakeFailures;
@@ -69,7 +69,7 @@ typedef struct DOT11_STATISTICS {
   DOT11_MAC_FRAME_STATISTICS MacMcastCounters;
   DOT11_PHY_FRAME_STATISTICS PhyCounters[1];
 } DOT11_STATISTICS, *PDOT11_STATISTICS;
-````
+```
 
 
 ## -struct-fields

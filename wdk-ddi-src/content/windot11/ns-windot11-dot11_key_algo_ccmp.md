@@ -59,13 +59,13 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_KEY_ALGO_CCMP {
   UCHAR ucIV48Counter[6];
   ULONG ulCCMPKeyLength;
   UCHAR ucCCMPKey[1];
 } DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP;
-````
+```
 
 
 ## -struct-fields

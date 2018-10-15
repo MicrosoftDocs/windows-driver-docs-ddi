@@ -56,14 +56,14 @@ The <b>PCEVENT_ITEM</b> structure is used to describe an event that is supported
 ## -syntax
 
 
-````
+```
 typedef struct {
   const GUID         *Set;
   ULONG              Id;
   ULONG              Flags;
   PCPFNEVENT_HANDLER Handler;
 } PCEVENT_ITEM, *PPCEVENT_ITEM;
-````
+```
 
 
 ## -struct-fields

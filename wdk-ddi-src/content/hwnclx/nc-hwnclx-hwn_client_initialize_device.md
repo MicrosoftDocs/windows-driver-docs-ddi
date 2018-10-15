@@ -57,7 +57,7 @@ Implemented by the client driver and is invoked as a result of a call to <a href
 ## -prototype
 
 
-````
+```
 HWN_CLIENT_INITIALIZE_DEVICE HwnClientInitializeDevice;
 
 NTSTATUS HwnClientInitializeDevice(
@@ -69,7 +69,7 @@ NTSTATUS HwnClientInitializeDevice(
 { ... }
 
 typedef HWN_CLIENT_INITIALIZE_DEVICE *PHWN_CLIENT_INITIALIZE_DEVICE;
-````
+```
 
 
 ## -parameters

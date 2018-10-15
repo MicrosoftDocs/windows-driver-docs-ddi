@@ -56,11 +56,11 @@ The PDETERMINE_IEEE_MODES-typed callback routine determines which IEEE 1284 prot
 ## -prototype
 
 
-````
+```
 typedef USHORT ( *PDETERMINE_IEEE_MODES)(
   _In_ PVOID Context
 );
-````
+```
 
 
 ## -parameters

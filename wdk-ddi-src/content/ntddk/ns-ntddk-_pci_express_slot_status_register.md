@@ -56,7 +56,7 @@ The PCI_EXPRESS_SLOT_STATUS_REGISTER structure describes a PCI Express (PCIe) sl
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
   struct {
     USHORT AttentionButtonPressed  :1;
@@ -72,7 +72,7 @@ typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER;
-````
+```
 
 
 ## -struct-fields

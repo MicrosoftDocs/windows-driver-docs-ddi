@@ -56,7 +56,7 @@ req.typenames: RILUICCKEYREF
 ## -syntax
 
 
-````
+```
 enum RILUICCKEYREF {
   RIL_UICCKEYREF_ALW   = 0x00,
   RIL_UICCKEYREF_PIN1  = 0x01,
@@ -65,7 +65,7 @@ enum RILUICCKEYREF {
   RIL_UICCKEYREF_NEV   = 0xff
 
 };
-````
+```
 
 
 ## -enum-fields

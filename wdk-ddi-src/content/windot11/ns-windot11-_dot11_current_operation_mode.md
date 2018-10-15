@@ -59,12 +59,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_CURRENT_OPERATION_MODE {
   ULONG uReserved;
   ULONG uCurrentOpMode;
 } DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE;
-````
+```
 
 
 ## -struct-fields

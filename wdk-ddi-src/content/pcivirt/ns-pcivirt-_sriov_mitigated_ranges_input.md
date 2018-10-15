@@ -56,12 +56,12 @@ This structure is the input buffer in the <a href="https://msdn.microsoft.com/58
 ## -syntax
 
 
-````
+```
 typedef struct _SRIOV_MITIGATED_RANGES_INPUT {
   USHORT  VfIndex;
   UCHAR   BarNumber;
 } SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT;
-````
+```
 
 
 ## -struct-fields

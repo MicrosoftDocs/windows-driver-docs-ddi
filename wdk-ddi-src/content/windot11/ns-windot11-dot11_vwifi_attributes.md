@@ -59,13 +59,13 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_VWIFI_ATTRIBUTES {
   NDIS_OBJECT_HEADER      Header;
   ULONG                   uTotalNumOfEntries;
   DOT11_VWIFI_COMBINATION Combinations[1];
 } DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields

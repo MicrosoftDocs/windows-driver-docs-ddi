@@ -56,14 +56,14 @@ The KSSTATE enumeration lists possible states of a kernel streaming object.
 ## -syntax
 
 
-````
+```
 typedef enum  {
   KSSTATE_STOP     = 0,
   KSSTATE_ACQUIRE  = 1,
   KSSTATE_PAUSE    = 2,
   KSSTATE_RUN      = 3
 } KSSTATE, *PKSSTATE;
-````
+```
 
 
 ## -enum-fields

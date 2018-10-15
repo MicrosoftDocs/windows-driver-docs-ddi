@@ -58,14 +58,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_DEINIT_SERVICE Dot11ExtIhvDeinitService;
 
 VOID APIENTRY Dot11ExtIhvDeinitService(
    VOID
 )
 { ... }
-````
+```
 
 
 ## -parameters

@@ -57,13 +57,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILUICCSUBSCRIBERNUMBERS {
   DWORD                 cbSize;
   DWORD                 dwNumSubscribers;
   RILSUBSCRIBERINFO [1] rsiInfo;
 } RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS;
-````
+```
 
 
 ## -struct-fields

@@ -62,14 +62,14 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_ROAMING_START_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  AdhocBSSID;
   DOT11_SSID         AdhocSSID;
   DOT11_ASSOC_STATUS uRoamingReason;
 } DOT11_ROAMING_START_PARAMETERS, *PDOT11_ROAMING_START_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

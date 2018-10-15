@@ -56,7 +56,7 @@ req.typenames: RILUICCSLOTSTATE
 ## -syntax
 
 
-````
+```
 enum RILUICCSLOTSTATE {
   RIL_UICCSLOT_OFF_EMPTY  = 0x01,
   RIL_UICCSLOT_OFF        = 0x02,
@@ -66,7 +66,7 @@ enum RILUICCSLOTSTATE {
   RIL_UICCSLOT_ERROR      = 0x06
 
 };
-````
+```
 
 
 ## -enum-fields

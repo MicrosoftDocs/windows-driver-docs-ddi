@@ -57,7 +57,7 @@ A port monitor server DLL's <b>XcvDataPort</b> function receives information fro
 ## -syntax
 
 
-````
+```
 DWORD XcvDataPort(
   _In_  HANDLE  hXcv,
   _In_  LPCWSTR pszDataName,
@@ -67,7 +67,7 @@ DWORD XcvDataPort(
         DWORD   cbOutputData,
   _Out_ PDWORD  pcbOutputNeeded
 );
-````
+```
 
 
 ## -parameters

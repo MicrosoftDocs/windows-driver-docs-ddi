@@ -56,7 +56,7 @@ The MORE_PARALLEL_PORT_INFORMATION structure specifies information about the sys
 ## -syntax
 
 
-````
+```
 typedef struct _MORE_PARALLEL_PORT_INFORMATION {
   INTERFACE_TYPE  InterfaceType;
   ULONG           BusNumber;
@@ -65,7 +65,7 @@ typedef struct _MORE_PARALLEL_PORT_INFORMATION {
   KAFFINITY       InterruptAffinity;
   KINTERRUPT_MODE InterruptMode;
 } MORE_PARALLEL_PORT_INFORMATION, *PMORE_PARALLEL_PORT_INFORMATION;
-````
+```
 
 
 ## -struct-fields

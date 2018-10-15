@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
 ## -syntax
 
 
-````
+```
 struct RILPOSITIONINFOUMTS {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -72,7 +72,7 @@ struct RILPOSITIONINFOUMTS {
   DWORD dwECNO;
   DWORD dwPathLoss;
 };
-````
+```
 
 
 ## -struct-fields

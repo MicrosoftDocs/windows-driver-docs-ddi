@@ -56,7 +56,7 @@ Structure to hold information to modify SetTiming path.
 ## -syntax
 
 
-````
+```
 typedef struct _DXGK_SET_TIMING_PATH_INFO {
   D3DDDI_VIDEO_PRESENT_TARGET_ID     VidPnTargetId;
   D3DDDI_COLOR_SPACE_TYPE            OutputColorSpace;
@@ -89,7 +89,7 @@ typedef struct _DXGK_SET_TIMING_PATH_INFO {
     UINT DiagnosticInfo;
   };
 } DXGK_SET_TIMING_PATH_INFO, *PDXGK_SET_TIMING_PATH_INFO;
-````
+```
 
 
 ## -struct-fields

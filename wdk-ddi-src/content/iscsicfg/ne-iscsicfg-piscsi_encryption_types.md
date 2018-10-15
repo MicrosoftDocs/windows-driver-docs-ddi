@@ -56,13 +56,13 @@ The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is 
 ## -syntax
 
 
-````
+```
 typedef enum  {
   ISCSI_ENCRYPT_NONE            = 0,
   ISCSI_ENCRYPT_3DES_HMAC_SHA1  = 1,
   ISCSI_ENCRYPT_AES_CTR         = 2
 } ISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES;
-````
+```
 
 
 ## -enum-fields

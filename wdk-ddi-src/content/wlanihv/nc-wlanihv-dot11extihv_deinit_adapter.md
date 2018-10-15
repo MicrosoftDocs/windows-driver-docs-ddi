@@ -59,14 +59,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_DEINIT_ADAPTER Dot11ExtIhvDeinitAdapter;
 
 VOID APIENTRY Dot11ExtIhvDeinitAdapter(
   _In_opt_ HANDLE hIhvExtAdapter
 )
 { ... }
-````
+```
 
 
 ## -parameters

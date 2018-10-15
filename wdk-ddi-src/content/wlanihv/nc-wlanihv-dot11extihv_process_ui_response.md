@@ -60,7 +60,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_PROCESS_UI_RESPONSE Dot11ExtIhvProcessUIResponse;
 
 DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
@@ -69,7 +69,7 @@ DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
   _In_opt_ LPVOID pvResponseBuffer
 )
 { ... }
-````
+```
 
 
 ## -parameters

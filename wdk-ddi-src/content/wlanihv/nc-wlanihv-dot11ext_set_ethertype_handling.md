@@ -72,7 +72,7 @@ Register with the operating system for the EtherTypes of received packets that w
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtSetEtherTypeHandling(
   _In_opt_ HANDLE                   hDot11SvcHandle,
   _In_     ULONG                    uMaxBackLog,
@@ -81,7 +81,7 @@ DWORD WINAPI * Dot11ExtSetEtherTypeHandling(
   _In_     ULONG                    uNumOfRegistration,
   _In_opt_ USHORT                   *pusRegistration
 );
-````
+```
 
 
 ## -parameters

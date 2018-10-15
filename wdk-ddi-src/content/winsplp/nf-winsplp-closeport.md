@@ -57,11 +57,11 @@ A language or port monitor's <b>ClosePort</b> function closes a printer port.
 ## -syntax
 
 
-````
+```
 BOOL ClosePort(
   _In_ HANDLE hPort
 );
-````
+```
 
 
 ## -parameters

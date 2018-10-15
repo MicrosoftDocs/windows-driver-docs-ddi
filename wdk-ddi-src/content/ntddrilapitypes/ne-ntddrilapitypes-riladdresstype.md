@@ -58,7 +58,7 @@ req.typenames: RILADDRESSTYPE
 ## -syntax
 
 
-````
+```
 enum RILADDRESSTYPE {
   RIL_ADDRTYPE_UNKNOWN        = 0x00000000,
   RIL_ADDRTYPE_INTERNATIONAL  = 0x00000001,
@@ -71,7 +71,7 @@ enum RILADDRESSTYPE {
   RIL_ADDRTYPE_EMAIL          = 0x00000008
 
 };
-````
+```
 
 
 ## -enum-fields

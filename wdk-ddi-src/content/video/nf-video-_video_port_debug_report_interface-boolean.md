@@ -61,14 +61,14 @@ Miniport drivers call the
 ## -syntax
 
 
-````
+```
 BOOLEAN NdisMSynchronizeWithInterruptEx(
   _In_ NDIS_HANDLE NdisInterruptHandle,
   _In_ ULONG       MessageId,
   _In_ PVOID       SynchronizeFunction,
   _In_ PVOID       SynchronizeContext
 );
-````
+```
 
 
 ## -parameters

@@ -56,7 +56,7 @@ The PCI_EXPRESS_LINK_CONTROL_REGISTER structure describes a PCI Express (PCIe) l
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_LINK_CONTROL_REGISTER {
   struct {
     USHORT ActiveStatePMControl  :2;
@@ -71,7 +71,7 @@ typedef union _PCI_EXPRESS_LINK_CONTROL_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_LINK_CONTROL_REGISTER, *PPCI_EXPRESS_LINK_CONTROL_REGISTER;
-````
+```
 
 
 ## -struct-fields

@@ -56,7 +56,7 @@ An <i>EnumerateInterruptSource</i> callback routine supplies a platform extensio
 ## -prototype
 
 
-````
+```
 PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK EnumerateInterruptSource;
 
 BOOLEAN EnumerateInterruptSource(
@@ -64,7 +64,7 @@ BOOLEAN EnumerateInterruptSource(
   _In_ PPEP_UNMASKED_INTERRUPT_INFORMATION InterruptInformation
 )
 { ... }
-````
+```
 
 
 ## -parameters

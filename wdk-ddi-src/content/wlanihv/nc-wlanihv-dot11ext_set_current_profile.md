@@ -60,14 +60,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtSetCurrentProfile(
   _In_opt_ HANDLE                             hDot11SvcHandle,
   _In_opt_ HANDLE                             hConnectSession,
   _In_opt_ PDOT11EXT_IHV_CONNECTIVITY_PROFILE pIhvConnProfile,
   _In_opt_ PDOT11EXT_IHV_SECURITY_PROFILE     pIhvSecProfile
 );
-````
+```
 
 
 ## -parameters

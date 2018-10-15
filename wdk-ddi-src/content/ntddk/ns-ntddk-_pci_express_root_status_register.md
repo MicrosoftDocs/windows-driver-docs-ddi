@@ -56,7 +56,7 @@ The PCI_EXPRESS_ROOT_STATUS_REGISTER structure describes a PCI Express (PCIe) ro
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_ROOT_STATUS_REGISTER {
   struct {
     ULONG PMERequestorId  :16;
@@ -66,7 +66,7 @@ typedef union _PCI_EXPRESS_ROOT_STATUS_REGISTER {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_ROOT_STATUS_REGISTER, *PPCI_EXPRESS_ROOT_STATUS_REGISTER;
-````
+```
 
 
 ## -struct-fields

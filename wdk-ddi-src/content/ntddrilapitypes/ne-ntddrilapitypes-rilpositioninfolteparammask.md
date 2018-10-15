@@ -58,7 +58,7 @@ req.typenames: RILPOSITIONINFOLTEPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILPOSITIONINFOLTEPARAMMASK {
   RIL_PARAM_POSITION_LTE_MCC         = 0x00000001,
   RIL_PARAM_POSITION_LTE_MNC         = 0x00000002,
@@ -72,7 +72,7 @@ enum RILPOSITIONINFOLTEPARAMMASK {
   RIL_PARAM_POSITION_LTE_ALL         = 0x000001ff
 
 };
-````
+```
 
 
 ## -enum-fields

@@ -56,12 +56,12 @@ The <b>WRITE_REGISTER_ULONG</b> routine writes a ULONG value to the specified ad
 ## -syntax
 
 
-````
+```
 VOID WRITE_REGISTER_ULONG(
   _In_ PULONG Register,
   _In_ ULONG  Value
 );
-````
+```
 
 
 ## -parameters

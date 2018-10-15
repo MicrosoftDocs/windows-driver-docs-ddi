@@ -63,13 +63,13 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtSetDefaultKey(
   _In_opt_ HANDLE                          hDot11SvcHandle,
   _In_     PDOT11_CIPHER_DEFAULT_KEY_VALUE pKey,
   _In_     DOT11_DIRECTION                 dot11Direction
 );
-````
+```
 
 
 ## -parameters

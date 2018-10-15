@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCAPPTYPE {
   RIL_UICCAPPTYPE_MF,
   RIL_UICCAPPTYPE_MF_SIM,
@@ -67,7 +67,7 @@ typedef enum _RILUICCAPPTYPE {
   RIL_UICCAPPTYPE_ISIM,
   RIL_UICCAPPTYPE_MAX
 } RILUICCAPPTYPE;
-````
+```
 
 
 ## -enum-fields

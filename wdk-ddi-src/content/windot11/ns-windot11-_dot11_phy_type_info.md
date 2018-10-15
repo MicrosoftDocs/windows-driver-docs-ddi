@@ -58,7 +58,7 @@ The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station use
 
 ## -syntax
 
-````
+```
 typedef struct _DOT11_PHY_TYPE_INFO {
   union {
     DOT11_PHY_TYPE dot11PhyType;
@@ -72,7 +72,7 @@ typedef struct _DOT11_PHY_TYPE_INFO {
   ULONG               uChannelListSize;
   UCHAR               ucChannelListBuffer[1];
 } DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO;
-````
+```
 
 
 ## -struct-fields

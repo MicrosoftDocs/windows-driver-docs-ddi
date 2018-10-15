@@ -58,13 +58,13 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_DISCOVER_DEVICE_FILTER {
   DOT11_MAC_ADDRESS DeviceID;
   UCHAR             ucBitmask;
   DOT11_SSID        GroupSSID;
 } DOT11_WFD_DISCOVER_DEVICE_FILTER, *PDOT11_WFD_DISCOVER_DEVICE_FILTER;
-````
+```
 
 
 ## -struct-fields

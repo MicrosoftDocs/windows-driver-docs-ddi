@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS {
   NDIS_OBJECT_HEADER         Header;
   DOT11_MAC_ADDRESS          PeerDeviceAddress;
@@ -72,7 +72,7 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS {
   ULONG                      uIEsOffset;
   ULONG                      uIEsLength;
 } DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

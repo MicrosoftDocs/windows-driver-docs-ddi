@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILPOSITIONINFOLTEPARAMMASK {
   RIL_PARAM_POSITION_LTE_MNC,
   RIL_PARAM_POSITION_LTE_CELLID,
@@ -69,7 +69,7 @@ typedef enum _RILPOSITIONINFOLTEPARAMMASK {
   RIL_PARAM_POSITION_LTE_TA,
   RIL_PARAM_POSITION_LTE_ALL
 } RILPOSITIONINFOLTEPARAMMASK;
-````
+```
 
 
 ## -enum-fields

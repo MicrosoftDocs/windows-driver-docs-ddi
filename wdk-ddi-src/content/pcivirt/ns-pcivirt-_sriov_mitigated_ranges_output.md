@@ -56,14 +56,14 @@ This structure is the output buffer received by the <a href="https://msdn.micros
 ## -syntax
 
 
-````
+```
 typedef struct _SRIOV_MITIGATED_RANGES_OUTPUT {
   ULONG64  BasePageNumber;
   ULONG    PageCount;
   BOOLEAN  InterceptReads;
   BOOLEAN  InterceptWrites;
 } SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT;
-````
+```
 
 
 ## -struct-fields

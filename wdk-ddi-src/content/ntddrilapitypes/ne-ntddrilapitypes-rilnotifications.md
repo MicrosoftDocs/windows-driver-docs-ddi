@@ -56,7 +56,7 @@ req.typenames: RILNOTIFICATIONS
 ## -syntax
 
 
-````
+```
 enum RILNOTIFICATIONS  {
   RIL_NOTIFY_OEM_MAX                        = 0x000000FF | RIL_NCLASS_NOTIFICATIONS,
   RIL_NOTIFY_RADIOEQUIPMENTSTATECHANGED     = 0x00000100 | RIL_NCLASS_NOTIFICATIONS,
@@ -107,7 +107,7 @@ enum RILNOTIFICATIONS  {
   RIL_NOTIFY_COUNT                          = 0x0000012D | RIL_NCLASS_NOTIFICATIONS
 
 };
-````
+```
 
 
 ## -enum-fields

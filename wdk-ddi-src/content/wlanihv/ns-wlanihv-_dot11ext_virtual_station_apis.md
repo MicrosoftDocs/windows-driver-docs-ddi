@@ -58,14 +58,14 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_VIRTUAL_STATION_APIS {
   DOT11EXT_REQUEST_VIRTUAL_STATION           Dot11ExtRequestVirtualStation;
   DOT11EXT_RELEASE_VIRTUAL_STATION           Dot11ExtReleaseVirtualStation;
   DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES  Dot11ExtQueryVirtualStationProperties;
   DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES Dot11ExtSetVirtualStationAPProperties;
 } DOT11EXT_VIRTUAL_STATION_APIS, *PDOT11EXT_VIRTUAL_STATION_APIS;
-````
+```
 
 
 ## -struct-fields

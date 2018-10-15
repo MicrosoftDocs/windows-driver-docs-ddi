@@ -56,12 +56,12 @@ The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the
 ## -syntax
 
 
-````
+```
 typedef enum  {
   ISCSI_NIC_LINKSTATE_DISCONNECTED  = 0,
   ISCSI_NIC_LINKSTATE_CONNECTED     = 1
 } ISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE;
-````
+```
 
 
 ## -enum-fields

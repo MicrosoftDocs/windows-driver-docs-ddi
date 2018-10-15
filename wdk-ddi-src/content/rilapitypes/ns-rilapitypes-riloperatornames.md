@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILOPERATORNAMES {
   DWORD                                   cbSize;
   DWORD                                   dwParams;
@@ -67,7 +67,7 @@ typedef struct _RILOPERATORNAMES {
   WCHAR [MAXLENGTH_OPERATOR_NUMERIC]      wszNumName;
   WCHAR [MAXLENGTH_OPERATOR_COUNTRY_CODE] wszCountryCode;
 } RILOPERATORNAMES, RILOPERATORNAMES;
-````
+```
 
 
 ## -struct-fields

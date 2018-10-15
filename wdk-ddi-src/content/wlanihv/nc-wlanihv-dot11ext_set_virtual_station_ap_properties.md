@@ -61,7 +61,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtSetVirtualStationAPProperties(
   _In_opt_   HANDLE                                hDot11SvcHandle,
   _In_opt_   HANDLE                                hConnectSession,
@@ -69,7 +69,7 @@ DWORD WINAPI * Dot11ExtSetVirtualStationAPProperties(
   _In_       PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY pProperties,
   _Reserved_ LPVOID                                pvReserved
 );
-````
+```
 
 
 ## -parameters

@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILPOSITIONINFOGSMPARAMMASK {
   RIL_PARAM_POSITION_GSM_MNC,
   RIL_PARAM_POSITION_GSM_LAC,
@@ -68,7 +68,7 @@ typedef enum _RILPOSITIONINFOGSMPARAMMASK {
   RIL_PARAM_POSITION_GSM_RXLEVEL,
   RIL_PARAM_POSITION_GSM_ALL
 } RILPOSITIONINFOGSMPARAMMASK;
-````
+```
 
 
 ## -enum-fields

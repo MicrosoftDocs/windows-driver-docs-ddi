@@ -56,7 +56,7 @@ req.typenames: RILUICCRECORDSTATUSPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILUICCRECORDSTATUSPARAMMASK {
   RIL_PARAM_URS_RECORDTYPE      = 0x00000001,
   RIL_PARAM_URS_ITEMCOUNT       = 0x00000002,
@@ -65,7 +65,7 @@ enum RILUICCRECORDSTATUSPARAMMASK {
   RIL_PARAM_URS_ALL             = 0x0000000F
 
 };
-````
+```
 
 
 ## -enum-fields

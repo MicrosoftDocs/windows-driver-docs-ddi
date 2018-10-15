@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFOTDSCDMA, *LPRILPOSITIONINFOTDSCDMA
 ## -syntax
 
 
-````
+```
 struct RILPOSITIONINFOTDSCDMA {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -69,7 +69,7 @@ struct RILPOSITIONINFOTDSCDMA {
   LONG  dwRSCP;
   DWORD dwPathLoss;
 };
-````
+```
 
 
 ## -struct-fields

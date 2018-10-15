@@ -56,12 +56,12 @@ An instance of the KSPIN_DATAFLOW enumeration is returned by <a href="https://ms
 ## -syntax
 
 
-````
+```
 typedef enum  {
   KSPIN_DATAFLOW_IN   = 1,
   KSPIN_DATAFLOW_OUT  = 2
 } KSPIN_DATAFLOW, *PKSPIN_DATAFLOW;
-````
+```
 
 
 ## -enum-fields

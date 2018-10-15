@@ -57,7 +57,7 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK {
   struct {
     ULONG TargetAbortOnSplitCompletion  :1;
@@ -78,7 +78,7 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK;
-````
+```
 
 
 ## -struct-fields

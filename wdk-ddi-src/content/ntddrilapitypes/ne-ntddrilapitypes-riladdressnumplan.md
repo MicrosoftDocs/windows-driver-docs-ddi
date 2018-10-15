@@ -58,7 +58,7 @@ req.typenames: RILADDRESSNUMPLAN
 ## -syntax
 
 
-````
+```
 enum RILADDRESSNUMPLAN {
   RIL_NUMPLAN_UNKNOWN    = 0x00000000,
   RIL_NUMPLAN_TELEPHONE  = 0x00000001,
@@ -69,7 +69,7 @@ enum RILADDRESSNUMPLAN {
   RIL_NUMPLAN_ERMES      = 0x00000006
 
 };
-````
+```
 
 
 ## -enum-fields

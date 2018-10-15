@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_INIT_SERVICE Dot11ExtIhvInitService;
 
 DWORD APIENTRY Dot11ExtIhvInitService(
@@ -69,7 +69,7 @@ DWORD APIENTRY Dot11ExtIhvInitService(
   _Out_      PDOT11EXT_IHV_HANDLERS pDot11IHVHandlers
 )
 { ... }
-````
+```
 
 
 ## -parameters

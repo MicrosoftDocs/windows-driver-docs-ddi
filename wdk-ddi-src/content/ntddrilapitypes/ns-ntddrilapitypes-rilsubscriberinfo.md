@@ -56,7 +56,7 @@ req.typenames: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO
 ## -syntax
 
 
-````
+```
 struct RILSUBSCRIBERINFO {
   DWORD                    cbSize;
   DWORD                    dwParams;
@@ -64,7 +64,7 @@ struct RILSUBSCRIBERINFO {
   WCHAR                    wszDescription[MAXLENGTH_DESCRIPTION];
   RILSUBSCRIBERINFOSERVICE dwService;
 };
-````
+```
 
 
 ## -struct-fields

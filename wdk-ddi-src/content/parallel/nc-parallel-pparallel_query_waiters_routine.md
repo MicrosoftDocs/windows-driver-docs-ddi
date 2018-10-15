@@ -56,11 +56,11 @@ The <i>PPARALLEL_QUERY_WAITERS_ROUTINE</i>-typed callback routine returns the nu
 ## -prototype
 
 
-````
+```
 typedef ULONG (*PPARALLEL_QUERY_WAITERS_ROUTINE)(
   _In_ PVOID QueryAllocsContext
 );
-````
+```
 
 
 ## -parameters

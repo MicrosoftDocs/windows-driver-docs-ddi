@@ -59,12 +59,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  PeerMacAddr;
 } DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILNETWORKCODE {
   DWORD  cbSize;
   DWORD  dwParams;
@@ -68,7 +68,7 @@ typedef struct _RILNETWORKCODE {
   DWORD  dwNID;
   DWORD  dwRI;
 } RILNETWORKCODE, RILNETWORKCODE;
-````
+```
 
 
 ## -struct-fields

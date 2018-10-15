@@ -57,14 +57,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILSUBSCRIBERINFOSERVICE {
   RIL_SERVICE_VOICE,
   RIL_SERVICE_FAX,
   RIL_SERVICE_OTHER,
   RIL_SERVICE_MAX
 } RILSUBSCRIBERINFOSERVICE;
-````
+```
 
 
 ## -enum-fields

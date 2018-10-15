@@ -58,7 +58,7 @@ req.typenames: RILTDSCDMAMRLPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILTDSCDMAMRLPARAMMASK {
   RIL_PARAM_TDSCDMAMRL_MCC        = 0x00000001,
   RIL_PARAM_TDSCDMAMRL_MNC        = 0x00000002,
@@ -71,7 +71,7 @@ enum RILTDSCDMAMRLPARAMMASK {
   RIL_PARAM_TDSCDMAMRL_ALL        = 0x000000ff
 
 };
-````
+```
 
 
 ## -enum-fields

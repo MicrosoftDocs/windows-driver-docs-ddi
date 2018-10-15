@@ -57,7 +57,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLo
 ## -prototype
 
 
-````
+```
 GET_VIRTUAL_DEVICE_LOCATION GetLocation;
 
 NTSTATUS GetLocation(
@@ -68,7 +68,7 @@ NTSTATUS GetLocation(
   _Out_   PUINT8  FunctionNumber
 )
 { ... }
-````
+```
 
 
 ## -parameters

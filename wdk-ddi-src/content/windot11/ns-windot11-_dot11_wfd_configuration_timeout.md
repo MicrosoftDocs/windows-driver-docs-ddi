@@ -58,12 +58,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_CONFIGURATION_TIMEOUT {
   UCHAR GOTimeout;
   UCHAR ClientTimeout;
 } DOT11_WFD_CONFIGURATION_TIMEOUT, *PDOT11_WFD_CONFIGURATION_TIMEOUT;
-````
+```
 
 
 ## -struct-fields

@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_INIT_ADAPTER Dot11ExtIhvInitAdapter;
 
 DWORD APIENTRY Dot11ExtIhvInitAdapter(
@@ -68,7 +68,7 @@ DWORD APIENTRY Dot11ExtIhvInitAdapter(
   _Out_    PHANDLE        phIhvExtAdapter
 )
 { ... }
-````
+```
 
 
 ## -parameters

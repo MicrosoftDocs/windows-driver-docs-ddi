@@ -57,13 +57,13 @@ The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case
 ## -syntax
 
 
-````
+```
 typedef enum _DXGK_WDDMVERSION {
   DXGKDDI_WDDMv1    = 0x1000,
   DXGKDDI_WDDMv1_2  = 0x1200,
   DXGKDDI_WDDMv2    = 0x2000
 } DXGK_WDDMVERSION;
-````
+```
 
 
 

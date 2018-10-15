@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFOGSM, *LPRILPOSITIONINFOGSM
 ## -syntax
 
 
-````
+```
 struct RILPOSITIONINFOGSM {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -68,7 +68,7 @@ struct RILPOSITIONINFOGSM {
   DWORD dwBaseStationID;
   DWORD dwRxLevel;
 };
-````
+```
 
 
 ## -struct-fields

@@ -59,7 +59,7 @@ Gets the Memory-Mapped I/O space of the specified PCI Express SR-IOV Virtual Fun
 ## -prototype
 
 
-````
+```
 SRIOV_GET_MMIO_REQUIREMENTS SriovGetMmioRequirements;
 
 NTSTATUS SriovGetMmioRequirements(
@@ -72,7 +72,7 @@ NTSTATUS SriovGetMmioRequirements(
 { ... }
 
 typedef SRIOV_GET_MMIO_REQUIREMENTS *PSRIOV_GET_MMIO_REQUIREMENTS;
-````
+```
 
 
 ## -parameters

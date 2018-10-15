@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILEUTRAMRL {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -69,7 +69,7 @@ typedef struct _RILEUTRAMRL {
   LONG   dwRSRP;
   LONG   dwRSRQ;
 } RILEUTRAMRL, RILEUTRAMRL;
-````
+```
 
 
 ## -struct-fields

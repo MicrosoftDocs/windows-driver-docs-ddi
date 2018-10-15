@@ -57,11 +57,11 @@ A port monitor server DLL's <code>XcvClosePort</code> function closes a printer 
 ## -syntax
 
 
-````
+```
 BOOL XcvClosePort(
   _In_ HANDLE hXcv
 );
-````
+```
 
 
 ## -parameters

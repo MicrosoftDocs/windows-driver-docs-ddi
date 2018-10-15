@@ -58,13 +58,13 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WPS_DEVICE_NAME {
    ULONG
 uDeviceNameLength;
   UCHAR   ucDeviceName[DOT11_WPS_DEVICE_NAME_MAX_LENGTH];
 } DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME;
-````
+```
 
 
 ## -struct-fields

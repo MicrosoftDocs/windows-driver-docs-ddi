@@ -56,7 +56,7 @@ The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and 
 ## -prototype
 
 
-````
+```
 typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
   _In_ PVOID           Context,
   _In_ USHORT          ModeMaskFwd,
@@ -64,7 +64,7 @@ typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
   _In_ PARALLEL_SAFETY ModeSafety,
   _In_ BOOLEAN         IsForward
 );
-````
+```
 
 
 ## -parameters

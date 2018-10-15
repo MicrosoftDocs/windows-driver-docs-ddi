@@ -56,11 +56,11 @@ The <b>READ_REGISTER_ULONG</b> routine reads a ULONG value from the specified re
 ## -syntax
 
 
-````
+```
 ULONG READ_REGISTER_ULONG(
   _In_ PULONG Register
 );
-````
+```
 
 
 ## -parameters

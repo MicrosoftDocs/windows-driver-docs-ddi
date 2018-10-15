@@ -58,14 +58,14 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST {
   NDIS_OBJECT_HEADER    Header;
   ULONG                 uNumOfEntries;
   ULONG                 uTotalNumOfEntries;
   DOT11_WFD_DEVICE_TYPE SecondaryDeviceTypes[1];
 }  DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, *PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST;
-````
+```
 
 
 ## -struct-fields

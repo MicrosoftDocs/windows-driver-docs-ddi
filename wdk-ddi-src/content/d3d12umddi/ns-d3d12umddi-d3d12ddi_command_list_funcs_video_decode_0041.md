@@ -46,7 +46,7 @@ Command list functions for video decode.
 ## -syntax
 
 
-````
+```
 typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
 {
     PFND3D12DDI_CLOSECOMMANDLIST                            pfnCloseCommandList;
@@ -62,7 +62,7 @@ typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
     PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030            pfnSetProtectedResourceSession;
     PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032                   pfnWriteBufferImmediate;
 } D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041;
-````
+```
 
 ## -struct-fields
 

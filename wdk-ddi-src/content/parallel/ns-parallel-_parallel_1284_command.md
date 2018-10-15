@@ -56,13 +56,13 @@ The PARALLEL_1284_COMMAND structure specifies information that a client uses to 
 ## -syntax
 
 
-````
+```
 typedef struct _PARALLEL_1284_COMMAND {
   UCHAR ID;
   UCHAR Port;
   ULONG CommandFlags;
 } PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND;
-````
+```
 
 
 ## -struct-fields

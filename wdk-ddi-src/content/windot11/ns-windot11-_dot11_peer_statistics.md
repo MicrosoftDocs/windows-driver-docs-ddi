@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_PEER_STATISTICS {
   ULONGLONG ullDecryptSuccessCount;
   ULONGLONG ullDecryptFailureCount;
@@ -68,7 +68,7 @@ typedef struct _DOT11_PEER_STATISTICS {
   ULONGLONG ullRxPacketSuccessCount;
   ULONGLONG ullRxPacketFailureCount;
 } DOT11_PEER_STATISTICS, *PDOT11_PEER_STATISTICS;
-````
+```
 
 
 ## -struct-fields

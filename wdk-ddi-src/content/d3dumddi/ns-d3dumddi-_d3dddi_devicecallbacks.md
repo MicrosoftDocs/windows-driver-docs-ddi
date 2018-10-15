@@ -56,7 +56,7 @@ The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callbac
 ## -syntax
 
 
-````
+```
 typedef struct _D3DDDI_DEVICECALLBACKS {
   PFND3DDDI_ALLOCATECB                            pfnAllocateCb;
   PFND3DDDI_DEALLOCATECB                          pfnDeallocateCb;
@@ -120,7 +120,7 @@ typedef struct _D3DDDI_DEVICECALLBACKS {
   PFND3DDDI_OFFERALLOCATIONS2CB                   pfnOfferAllocations2Cb;
   PFND3DDDI_RECLAIMALLOCATIONS3CB                 pfnReclaimAllocations3Cb;
 } D3DDDI_DEVICECALLBACKS;
-````
+```
 
 
 ## -struct-fields

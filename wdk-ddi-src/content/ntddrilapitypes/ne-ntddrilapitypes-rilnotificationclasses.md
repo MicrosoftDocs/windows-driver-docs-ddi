@@ -58,13 +58,13 @@ req.typenames: RILNOTIFICATIONCLASSES
 ## -syntax
 
 
-````
+```
 enum RILNOTIFICATIONCLASSES {
   RIL_NCLASS_FUNCRESULT     = 0x00000000,
   RIL_NCLASS_NOTIFICATIONS  = 0x10000000
 
 };
-````
+```
 
 
 ## -enum-fields

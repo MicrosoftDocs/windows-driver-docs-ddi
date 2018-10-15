@@ -58,13 +58,13 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_KEY_ALGO_BIP {
   UCHAR ucIPN[6];
   ULONG ulBIPKeyLength;
   UCHAR ucBIPKey[1];
 } DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP;
-````
+```
 
 
 ## -struct-fields

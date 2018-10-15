@@ -61,12 +61,12 @@ An LUID is not for direct manipulation. Drivers must use support routines and st
 ## -syntax
 
 
-````
+```
 typedef struct _LUID {
   DWORD LowPart;
   LONG  HighPart;
 } LUID, *PLUID;
-````
+```
 
 
 ## -struct-fields

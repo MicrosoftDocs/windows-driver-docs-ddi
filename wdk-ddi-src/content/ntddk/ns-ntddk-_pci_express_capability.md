@@ -56,7 +56,7 @@ The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability s
 ## -syntax
 
 
-````
+```
 typedef struct _PCI_EXPRESS_CAPABILITY {
   PCI_CAPABILITIES_HEADER                  Header;
   PCI_EXPRESS_CAPABILITIES_REGISTER        ExpressCapabilities;
@@ -73,7 +73,7 @@ typedef struct _PCI_EXPRESS_CAPABILITY {
   PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER   RootCapabilities;
   PCI_EXPRESS_ROOT_STATUS_REGISTER         RootStatus;
 } PCI_EXPRESS_CAPABILITY, *PPCI_EXPRESS_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

@@ -60,11 +60,11 @@ This property is write-only.
 ## -syntax
 
 
-````
+```
 HRESULT put_SkipRestart(
   [in] VARIANT_BOOL bSkipRestart
 );
-````
+```
 
 
 ## -parameters

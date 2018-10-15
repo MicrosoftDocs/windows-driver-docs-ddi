@@ -57,13 +57,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILSUBSCRIBERINFOPARAMMASK {
   RIL_PARAM_SI_DESCRIPTION,
   RIL_PARAM_SI_SERVICE,
   RIL_PARAM_SI_ALL
 } RILSUBSCRIBERINFOPARAMMASK;
-````
+```
 
 
 ## -enum-fields

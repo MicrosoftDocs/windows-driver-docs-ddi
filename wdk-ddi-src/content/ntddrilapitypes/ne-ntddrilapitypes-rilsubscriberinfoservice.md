@@ -56,7 +56,7 @@ req.typenames: RILSUBSCRIBERINFOSERVICE
 ## -syntax
 
 
-````
+```
 enum RILSUBSCRIBERINFOSERVICE {
   RIL_SERVICE_UNKNOWN  = 0x01,
   RIL_SERVICE_VOICE    = 0x02,
@@ -64,7 +64,7 @@ enum RILSUBSCRIBERINFOSERVICE {
   RIL_SERVICE_OTHER    = 0x04
 
 };
-````
+```
 
 
 ## -enum-fields

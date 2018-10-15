@@ -57,7 +57,7 @@ The <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure describes the physical connection
 ## -syntax
 
 
-````
+```
 typedef struct _PNP_SERIAL_BUS_DESCRIPTOR {
   UCHAR  Tag;
   USHORT Length;
@@ -69,7 +69,7 @@ typedef struct _PNP_SERIAL_BUS_DESCRIPTOR {
   UCHAR  TypeSpecificRevisionId;
   USHORT TypeDataLength;
 } PNP_SERIAL_BUS_DESCRIPTOR, *PPNP_SERIAL_BUS_DESCRIPTOR;
-````
+```
 
 
 ## -struct-fields

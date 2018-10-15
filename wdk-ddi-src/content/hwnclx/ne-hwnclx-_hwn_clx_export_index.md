@@ -57,7 +57,7 @@ Defines the position for each of the Hardware Notification exports in the export
 ## -syntax
 
 
-````
+```
 typedef enum _HWN_CLX_EXPORT_INDEX {
   RegisterClientIndex             = 0x0,
   UnregisterClientIndex,
@@ -65,7 +65,7 @@ typedef enum _HWN_CLX_EXPORT_INDEX {
   AddDevicePostDeviceCreateIndex,
   HwNExportLastExportIndex
 } HWN_CLX_EXPORT_INDEX;
-````
+```
 
 
 ## -enum-fields

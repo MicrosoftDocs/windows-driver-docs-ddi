@@ -56,7 +56,7 @@ req.typenames: RILEUTRAMRL, *LPRILEUTRAMRL
 ## -syntax
 
 
-````
+```
 struct RILEUTRAMRL {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -68,7 +68,7 @@ struct RILEUTRAMRL {
   DWORD dwRSRP;
   DWORD dwRSRQ;
 };
-````
+```
 
 
 ## -struct-fields

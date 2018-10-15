@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_VWIFI_COMBINATION_V3 {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumInfrastructure;
@@ -67,7 +67,7 @@ typedef struct _DOT11_VWIFI_COMBINATION_V3 {
   ULONG              uNumVirtualStation;
   ULONG              uNumWFDGroup;
 } DOT11_VWIFI_COMBINATION_V3, *PDOT11_VWIFI_COMBINATION_V3;
-````
+```
 
 
 ## -struct-fields

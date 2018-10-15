@@ -62,7 +62,7 @@ The operating system calls the
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_CREATE_DISCOVERY_PROFILES Dot11ExtIhvCreateDiscoveryProfiles;
 
 DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
@@ -74,7 +74,7 @@ DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
   _Out_    PDWORD                               pdwReasonCode
 )
 { ... }
-````
+```
 
 
 ## -parameters

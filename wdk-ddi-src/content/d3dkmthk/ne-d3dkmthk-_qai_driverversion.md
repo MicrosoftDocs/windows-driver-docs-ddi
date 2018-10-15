@@ -56,7 +56,7 @@ The D3DKMT_DRIVERVERSION enumeration type contains values that indicate the vers
 ## -syntax
 
 
-````
+```
 typedef enum _QAI_DRIVERVERSION {
   KMT_DRIVERVERSION_WDDM_1_0             = 1000,
   KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE  = 1102,
@@ -72,7 +72,7 @@ typedef enum _QAI_DRIVERVERSION {
 #endif
 
 } D3DKMT_DRIVERVERSION;
-````
+```
 
 
 ## -enum-fields

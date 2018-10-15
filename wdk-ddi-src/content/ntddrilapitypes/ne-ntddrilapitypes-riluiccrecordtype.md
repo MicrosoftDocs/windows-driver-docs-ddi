@@ -56,7 +56,7 @@ req.typenames: RILUICCRECORDTYPE
 ## -syntax
 
 
-````
+```
 enum RILUICCRECORDTYPE {
   RIL_UICCRECORDTYPE_UNKNOWN      = 0x00000000,
   RIL_UICCRECORDTYPE_TRANSPARENT  = 0x00000001,
@@ -66,7 +66,7 @@ enum RILUICCRECORDTYPE {
   RIL_UICCRECORDTYPE_MASTER       = 0x00000005
 
 };
-````
+```
 
 
 ## -enum-fields

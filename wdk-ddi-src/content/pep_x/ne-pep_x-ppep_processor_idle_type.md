@@ -56,13 +56,13 @@ The <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration indicates whether idle constraint
 ## -syntax
 
 
-````
+```
 typedef enum _PEP_PROCESSOR_IDLE_TYPE {
   PepIdleTypeProcessor  = 0,
   PepIdleTypePlatform,
   PepIdleTypeMax
 } PEP_PROCESSOR_IDLE_TYPE;
-````
+```
 
 
 ## -enum-fields

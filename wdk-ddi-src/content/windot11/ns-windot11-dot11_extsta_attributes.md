@@ -62,7 +62,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_EXTSTA_ATTRIBUTES {
   NDIS_OBJECT_HEADER              Header;
   ULONG                           uScanSSIDListSize;
@@ -94,7 +94,7 @@ typedef struct DOT11_EXTSTA_ATTRIBUTES {
   ULONG                           uInfraNumSupportedMcastMgmtAlgoPairs;
   PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastMgmtAlgoPairs;
 } DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields

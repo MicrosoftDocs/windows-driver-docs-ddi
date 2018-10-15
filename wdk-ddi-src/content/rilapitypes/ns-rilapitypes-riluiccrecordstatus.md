@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILUICCRECORDSTATUS {
   DWORD                                        cbSize;
   DWORD                                        dwParams;
@@ -66,7 +66,7 @@ typedef struct _RILUICCRECORDSTATUS {
   DWORD                                        dwSize;
   RILUICCFILELOCKSTATUS [MAXNUM_EFACCESSTYPES] fileLockStatus;
 } RILUICCRECORDSTATUS, RILUICCRECORDSTATUS;
-````
+```
 
 
 ## -struct-fields

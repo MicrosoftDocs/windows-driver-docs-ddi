@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILDEVICEINFORMATION {
   RIL_DEVICEINFO_MODEL,
   RIL_DEVICEINFO_REVISION,
@@ -68,7 +68,7 @@ typedef enum _RILDEVICEINFORMATION {
   RIL_DEVICEINFO_MIN,
   RIL_DEVICEINFO_MAX
 } RILDEVICEINFORMATION;
-````
+```
 
 
 ## -enum-fields

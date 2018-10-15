@@ -62,7 +62,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_DISASSOCIATION_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  MacAddr;
@@ -70,7 +70,7 @@ typedef struct DOT11_DISASSOCIATION_PARAMETERS {
   ULONG              uIHVDataOffset;
   ULONG              uIHVDataSize;
 } DOT11_DISASSOCIATION_PARAMETERS, *PDOT11_DISASSOCIATION_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

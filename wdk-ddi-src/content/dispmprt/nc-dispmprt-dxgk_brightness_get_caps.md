@@ -56,7 +56,7 @@ Retrieves brightness control capabilities of an integrated display panel.
 ## -prototype
 
 
-````
+```
 DXGK_BRIGHTNESS_GET_CAPS DxgkDdiGetBrightnessCaps;
 
 NTSTATUS* DxgkDdiGetBrightnessCaps(
@@ -64,7 +64,7 @@ NTSTATUS* DxgkDdiGetBrightnessCaps(
   _In_ DXGK_BRIGHTNESS_CAPS *BrightnessCaps
 )
 { ... }
-````
+```
 
 
 ## -parameters

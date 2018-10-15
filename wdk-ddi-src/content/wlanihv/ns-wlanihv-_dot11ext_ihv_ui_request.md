@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_IHV_UI_REQUEST {
   DWORD dwSessionId;
   GUID  guidUIRequest;
@@ -66,7 +66,7 @@ typedef struct _DOT11EXT_IHV_UI_REQUEST {
   DWORD dwByteCount;
   BYTE  *pvUIRequest;
 } DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST;
-````
+```
 
 
 ## -struct-fields

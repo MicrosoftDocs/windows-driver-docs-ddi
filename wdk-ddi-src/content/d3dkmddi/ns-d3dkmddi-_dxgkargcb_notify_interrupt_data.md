@@ -57,7 +57,7 @@ The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information
 ## -syntax
 
 
-````
+```
 typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
   DXGK_INTERRUPT_TYPE                InterruptType;
   union {
@@ -102,7 +102,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
   };
   DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS Flags;
 } DXGKARGCB_NOTIFY_INTERRUPT_DATA;
-````
+```
 
 
 ## -struct-fields

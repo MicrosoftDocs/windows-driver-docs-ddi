@@ -56,7 +56,7 @@ req.typenames: RILIMSSERVICE
 ## -syntax
 
 
-````
+```
 enum RILIMSSERVICE  {
   RIL_IMS_SERVICE_SMS     = 0x00000001,
   RIL_IMS_SERVICE_VOICE   = 0x00000002,
@@ -65,7 +65,7 @@ enum RILIMSSERVICE  {
   RIL_IMS_SERVICE_ALL     = 0x0000000F
 
 };
-````
+```
 
 
 ## -enum-fields

@@ -59,11 +59,11 @@ The <b>WdfObjectReleaseLock</b> method releases an object's synchronization lock
 ## -prototype
 
 
-````
+```
 VOID WdfObjectReleaseLock(
   _In_ WDFOBJECT Object
 );
-````
+```
 
 
 ## -parameters

@@ -59,11 +59,11 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 ## -syntax
 
-````
+```
 NTSTATUS WppRecorderGetTriageInfo(
   _Out_ PWPP_TRIAGE_INFO WppTriageInfo
 );
-````
+```
 
 
 ## -parameters

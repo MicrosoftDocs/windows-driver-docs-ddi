@@ -56,7 +56,7 @@ The D3DKMT_PRESENTHISTORYTOKEN structure identifies a type of present operation.
 ## -syntax
 
 
-````
+```
 typedef struct _D3DKMT_PRESENTHISTORYTOKEN {
   D3DKMT_PRESENT_MODEL Model;
   UINT                 TokenSize;
@@ -73,7 +73,7 @@ typedef struct _D3DKMT_PRESENTHISTORYTOKEN {
     D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN     Composition;
   } Token;
 } D3DKMT_PRESENTHISTORYTOKEN;
-````
+```
 
 
 ## -struct-fields

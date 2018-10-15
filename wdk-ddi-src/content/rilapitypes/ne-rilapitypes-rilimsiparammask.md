@@ -57,13 +57,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILIMSIPARAMMASK {
   RIL_PARAM_IMSI_MCC,
   RIL_PARAM_IMSI_MNC,
   RIL_PARAM_IMSI_ALL
 } RILIMSIPARAMMASK;
-````
+```
 
 
 ## -enum-fields

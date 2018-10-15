@@ -56,14 +56,14 @@ The <b>PCPROPERTY_ITEM</b> structure describes a property that is supported by a
 ## -syntax
 
 
-````
+```
 typedef struct {
   const GUID            *Set;
   ULONG                 Id;
   ULONG                 Flags;
   PCPFNPROPERTY_HANDLER Handler;
 } PCPROPERTY_ITEM, *PPCPROPERTY_ITEM;
-````
+```
 
 
 ## -struct-fields

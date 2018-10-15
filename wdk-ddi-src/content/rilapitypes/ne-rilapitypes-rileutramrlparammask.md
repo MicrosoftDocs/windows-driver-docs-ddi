@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILEUTRAMRLPARAMMASK {
   RIL_PARAM_EUTRAMRL_MNC,
   RIL_PARAM_EUTRAMRL_CELLID,
@@ -68,7 +68,7 @@ typedef enum _RILEUTRAMRLPARAMMASK {
   RIL_PARAM_EUTRAMRL_RSRQ,
   RIL_PARAM_EUTRAMRL_ALL
 } RILEUTRAMRLPARAMMASK;
-````
+```
 
 
 ## -enum-fields

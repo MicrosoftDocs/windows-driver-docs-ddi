@@ -57,11 +57,11 @@ This structures is the output buffer received by the <a href="https://msdn.micro
 ## -syntax
 
 
-````
+```
 typedef struct _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT {
   USHORT  VfIndex;
 } SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT;
-````
+```
 
 
 ## -struct-fields

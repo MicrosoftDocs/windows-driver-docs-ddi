@@ -56,7 +56,7 @@ The PARALLEL_PNP_INFORMATION structure specifies information about the capabilit
 ## -syntax
 
 
-````
+```
 typedef struct _PARALLEL_PNP_INFORMATION {
   PHYSICAL_ADDRESS             OriginalEcpController;
   PUCHAR                       EcpController;
@@ -76,7 +76,7 @@ typedef struct _PARALLEL_PNP_INFORMATION {
   ULONG                        CurrentMode;
   PWSTR                        PortName;
 } PARALLEL_PNP_INFORMATION, *PPARALLEL_PNP_INFORMATION;
-````
+```
 
 
 ## -struct-fields

@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILIMSSERVICE {
   RIL_IMS_SERVICE_VOICE,
   RIL_IMS_SERVICE_VIDEO,
@@ -68,7 +68,7 @@ typedef enum _RILIMSSERVICE {
   RIL_IMS_SERVICE_E_VOICE,
   RIL_IMS_SERVICE_ALL
 } RILIMSSERVICE;
-````
+```
 
 
 ## -enum-fields

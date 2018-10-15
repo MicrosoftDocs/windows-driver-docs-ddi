@@ -56,7 +56,7 @@ req.typenames: RILUICCAPPTYPE
 ## -syntax
 
 
-````
+```
 enum RILUICCAPPTYPE {
   RIL_UICCAPPTYPE_UNKNOWN  = 0x00000001,
   RIL_UICCAPPTYPE_MF       = 0x00000002,
@@ -67,7 +67,7 @@ enum RILUICCAPPTYPE {
   RIL_UICCAPPTYPE_ISIM     = 0x00000007
 
 };
-````
+```
 
 
 ## -enum-fields

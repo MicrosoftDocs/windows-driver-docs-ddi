@@ -56,12 +56,12 @@ req.typenames: RILUICCLOCK, *LPRILUICCLOCK
 ## -syntax
 
 
-````
+```
 struct RILUICCLOCK {
   HUICCAPP hUiccApp;
   DWORD    dwKeyRef;
 };
-````
+```
 
 
 ## -struct-fields

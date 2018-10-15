@@ -56,7 +56,7 @@ The<i> DxgkDdiOPMGetCOPPCompatibleInformation</i> function retrieves information
 ## -prototype
 
 
-````
+```
 DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION DxgkDdiOPMGetCOPPCompatibleInformation;
 
 NTSTATUS DxgkDdiOPMGetCOPPCompatibleInformation(
@@ -66,7 +66,7 @@ NTSTATUS DxgkDdiOPMGetCOPPCompatibleInformation(
   _Out_       PDXGKMDT_OPM_REQUESTED_INFORMATION               RequestedInformation
 )
 { ... }
-````
+```
 
 
 ## -parameters

@@ -58,7 +58,7 @@ req.typenames: RILPOSITIONINFOUMTSPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILPOSITIONINFOUMTSPARAMMASK {
   RIL_PARAM_POSITION_UMTS_MCC          = 0x00000001,
   RIL_PARAM_POSITION_UMTS_MNC          = 0x00000002,
@@ -75,7 +75,7 @@ enum RILPOSITIONINFOUMTSPARAMMASK {
   RIL_PARAM_POSITION_UMTS_ALL          = 0x00000fff
 
 };
-````
+```
 
 
 ## -enum-fields

@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_CONTROL Dot11ExtIhvControl;
 
 DWORD APIENTRY Dot11ExtIhvControl(
@@ -71,7 +71,7 @@ DWORD APIENTRY Dot11ExtIhvControl(
   _Out_     DWORD  pdwBytesReturned
 )
 { ... }
-````
+```
 
 
 ## -parameters

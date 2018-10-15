@@ -58,12 +58,12 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_AUTH_CIPHER_PAIR {
   DOT11_AUTH_ALGORITHM   AuthAlgoId;
   DOT11_CIPHER_ALGORITHM CipherAlgoId;
 } DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR;
-````
+```
 
 
 ## -struct-fields

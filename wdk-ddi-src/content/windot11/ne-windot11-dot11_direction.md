@@ -59,13 +59,13 @@ product:
 ## -syntax
 
 
-````
+```
 typedef enum DOT11_DIRECTION {
   DOT11_DIR_INBOUND   = 1,
   DOT11_DIR_OUTBOUND  = 2,
   DOT11_DIR_BOTH      = 3
 } DOT11_DIRECTION, *PDOT11_DIRECTION;
-````
+```
 
 
 ## -enum-fields

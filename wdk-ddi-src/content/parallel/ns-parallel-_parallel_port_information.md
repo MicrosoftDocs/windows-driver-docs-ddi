@@ -56,7 +56,7 @@ The PARALLEL_PORT_INFORMATION structure specifies information about the resource
 ## -syntax
 
 
-````
+```
 typedef struct _PARALLEL_PORT_INFORMATION {
   PHYSICAL_ADDRESS                OriginalController;
   PUCHAR                          Controller;
@@ -66,7 +66,7 @@ typedef struct _PARALLEL_PORT_INFORMATION {
   PPARALLEL_QUERY_WAITERS_ROUTINE QueryNumWaiters;
   PVOID                           Context;
 } PARALLEL_PORT_INFORMATION, *PPARALLEL_PORT_INFORMATION;
-````
+```
 
 
 ## -struct-fields

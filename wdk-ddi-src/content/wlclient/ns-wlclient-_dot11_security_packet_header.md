@@ -58,13 +58,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_SECURITY_PACKET_HEADER {
   DOT11_MAC_ADDRESS PeerMac;
   USHORT            usEtherType;
   UCHAR             Data[1];
 } DOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER;
-````
+```
 
 
 ## -struct-fields

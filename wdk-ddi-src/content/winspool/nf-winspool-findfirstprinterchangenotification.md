@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 BOOL FindFirstPrinterChangeNotification(
    HANDLE hPrinter,
    DWORD  fdwFlags,
@@ -69,7 +69,7 @@ BOOL FindFirstPrinterChangeNotification(
    PVOID  pPrinterNotifyOptions,
    PVOID  pPrinterNotifyInit
 );
-````
+```
 
 
 ## -parameters

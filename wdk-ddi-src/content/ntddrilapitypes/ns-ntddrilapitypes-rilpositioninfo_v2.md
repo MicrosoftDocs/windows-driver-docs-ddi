@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, *LPRI
 ## -syntax
 
 
-````
+```
 struct RILPOSITIONINFO_V2 {
   DWORD                  cbSize;
   DWORD                  dwSystemType;
@@ -75,7 +75,7 @@ struct RILPOSITIONINFO_V2 {
   DWORD                  dwCntC2KMRL;
   RILC2KMRL              rc2kMRL[MAX_C2KPOS_COUNT_OF_MRL];
 };
-````
+```
 
 
 ## -struct-fields

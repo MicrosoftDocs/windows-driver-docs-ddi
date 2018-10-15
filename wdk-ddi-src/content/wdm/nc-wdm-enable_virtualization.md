@@ -57,7 +57,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">Enabl
 ## -prototype
 
 
-````
+```
 ENABLE_VIRTUALIZATION EnableVirtualization;
 
 NTSTATUS EnableVirtualization(
@@ -68,7 +68,7 @@ NTSTATUS EnableVirtualization(
   _In_    BOOLEAN EnableVirtualization
 )
 { ... }
-````
+```
 
 
 ## -parameters

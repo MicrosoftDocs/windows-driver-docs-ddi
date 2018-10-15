@@ -61,7 +61,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_CIPHER_DEFAULT_KEY_VALUE {
   NDIS_OBJECT_HEADER     Header;
   ULONG                  uKeyIndex;
@@ -72,7 +72,7 @@ typedef struct DOT11_CIPHER_DEFAULT_KEY_VALUE {
   USHORT                 usKeyLength;
   UCHAR                  ucKey[1];
 } DOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE;
-````
+```
 
 
 ## -struct-fields

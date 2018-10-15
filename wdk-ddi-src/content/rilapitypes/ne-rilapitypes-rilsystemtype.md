@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILSYSTEMTYPE {
   RIL_SYSTEMTYPE_1XRTT,
   RIL_SYSTEMTYPE_EVDO,
@@ -72,7 +72,7 @@ typedef enum _RILSYSTEMTYPE {
   RIL_SYSTEMTYPE_3GPP,
   RIL_SYSTEMTYPE_ALL
 } RILSYSTEMTYPE;
-````
+```
 
 
 ## -enum-fields

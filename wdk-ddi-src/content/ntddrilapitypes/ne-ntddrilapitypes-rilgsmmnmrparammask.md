@@ -58,7 +58,7 @@ req.typenames: RILGSMMNMRPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILGSMMNMRPARAMMASK {
   RIL_PARAM_GSMNMR_MCC      = 0x00000001,
   RIL_PARAM_GSMNMR_MNC      = 0x00000002,
@@ -70,7 +70,7 @@ enum RILGSMMNMRPARAMMASK {
   RIL_PARAM_GSMNMR_ALL      = 0x0000007f
 
 };
-````
+```
 
 
 ## -enum-fields

@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILREGSTAT {
   RIL_REGSTAT_UNREGISTERED,
   RIL_REGSTAT_HOME,
@@ -67,7 +67,7 @@ typedef enum _RILREGSTAT {
   RIL_REGSTAT_ROAMING_DOMESTIC,
   RIL_REGSTAT_MAX
 } RILREGSTAT;
-````
+```
 
 
 ## -enum-fields

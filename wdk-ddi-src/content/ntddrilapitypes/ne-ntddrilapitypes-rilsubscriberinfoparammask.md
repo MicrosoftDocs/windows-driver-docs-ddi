@@ -56,7 +56,7 @@ req.typenames: RILSUBSCRIBERINFOPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILSUBSCRIBERINFOPARAMMASK {
   RIL_PARAM_SI_ADDRESS      = 0x00000001,
   RIL_PARAM_SI_DESCRIPTION  = 0x00000002,
@@ -64,7 +64,7 @@ enum RILSUBSCRIBERINFOPARAMMASK {
   RIL_PARAM_SI_ALL          = 0x00000007
 
 };
-````
+```
 
 
 ## -enum-fields

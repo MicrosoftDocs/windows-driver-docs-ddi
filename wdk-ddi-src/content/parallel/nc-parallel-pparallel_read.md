@@ -56,7 +56,7 @@ The PPARALLEL_READ-typed callback routine reads data from a parallel device. The
 ## -prototype
 
 
-````
+```
 typedef NTSTATUS ( *PPARALLEL_READ)(
   _In_  PVOID  Context,
   _Out_ PVOID  Buffer,
@@ -64,7 +64,7 @@ typedef NTSTATUS ( *PPARALLEL_READ)(
   _Out_ PULONG NumBytesRead,
   _In_  UCHAR  Channel
 );
-````
+```
 
 
 ## -parameters

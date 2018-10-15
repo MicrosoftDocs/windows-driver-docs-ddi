@@ -60,7 +60,7 @@ The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of 
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_EXTSTA_RECV_CONTEXT {
   NDIS_OBJECT_HEADER Header;
   ULONG              uReceiveFlags;
@@ -73,7 +73,7 @@ typedef struct DOT11_EXTSTA_RECV_CONTEXT {
   PVOID              pvMediaSpecificInfo;
   ULONGLONG          ullTimestamp;
 } DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT;
-````
+```
 
 
 ## -struct-fields

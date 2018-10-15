@@ -58,12 +58,12 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_IHV_VERSION_INFO {
   DWORD dwVerMin;
   DWORD dwVerMax;
 } DOT11_IHV_VERSION_INFO, *PDOT11_IHV_VERSION_INFO;
-````
+```
 
 
 ## -struct-fields

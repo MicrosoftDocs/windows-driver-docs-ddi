@@ -57,7 +57,7 @@ The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to r
 ## -syntax
 
 
-````
+```
 typedef enum _DXGK_QUERYADAPTERINFOTYPE {
   DXGKQAITYPE_UMDRIVERPRIVATE                   = 0,
   DXGKQAITYPE_DRIVERCAPS                        = 1,
@@ -89,7 +89,7 @@ typedef enum _DXGK_QUERYADAPTERINFOTYPE {
   DXGKQAITYPE_UEFIFRAMEBUFFERRANGES             = 18,
   DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES         = 19
 } DXGK_QUERYADAPTERINFOTYPE;
-````
+```
 
 
 ## -enum-fields

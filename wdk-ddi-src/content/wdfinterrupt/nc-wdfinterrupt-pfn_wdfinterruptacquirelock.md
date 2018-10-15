@@ -63,11 +63,11 @@ For passive level interrupt objects, the method begins a code sequence that exec
 ## -prototype
 
 
-````
+```
 VOID WdfInterruptAcquireLock(
   _In_ WDFINTERRUPT Interrupt
 );
-````
+```
 
 
 ## -parameters

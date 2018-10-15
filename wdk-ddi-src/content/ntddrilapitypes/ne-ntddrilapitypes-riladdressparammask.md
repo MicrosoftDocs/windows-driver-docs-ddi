@@ -56,7 +56,7 @@ req.typenames: RILADDRESSPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILADDRESSPARAMMASK {
   RIL_PARAM_A_NONE     = 0x00000000,
   RIL_PARAM_A_TYPE     = 0x00000001,
@@ -65,7 +65,7 @@ enum RILADDRESSPARAMMASK {
   RIL_PARAM_A_ALL      = 0x00000007
 
 };
-````
+```
 
 
 ## -enum-fields

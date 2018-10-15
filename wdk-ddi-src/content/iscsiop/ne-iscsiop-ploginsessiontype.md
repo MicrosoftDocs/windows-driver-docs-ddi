@@ -56,13 +56,13 @@ The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 ## -syntax
 
 
-````
+```
 typedef enum  {
   ISCSI_LOGINTARGET_DISCOVERY      = 0,
   ISCSI_LOGINTARGET_INFORMATIONAL  = 1,
   ISCSI_LOGINTARGET_DATA           = 2
 } LOGINSESSIONTYPE, *PLOGINSESSIONTYPE;
-````
+```
 
 
 ## -enum-fields

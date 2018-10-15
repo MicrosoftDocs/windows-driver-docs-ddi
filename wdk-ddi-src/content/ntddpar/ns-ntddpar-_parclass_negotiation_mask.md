@@ -56,12 +56,12 @@ The PARCLASS_NEGOTIATION_MASK structure specifies the read and write protocols t
 ## -syntax
 
 
-````
+```
 typedef struct _PARCLASS_NEGOTIATION_MASK {
   USHORT usReadMask;
   USHORT usWriteMask;
 } PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK;
-````
+```
 
 
 ## -struct-fields

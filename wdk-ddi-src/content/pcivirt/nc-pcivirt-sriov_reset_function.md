@@ -56,7 +56,7 @@ Resets the specified PCI Express SR-IOV Virtual Function (VF).
 ## -prototype
 
 
-````
+```
 SRIOV_RESET_FUNCTION SriovResetFunction;
 
 NTSTATUS SriovResetFunction(
@@ -66,7 +66,7 @@ NTSTATUS SriovResetFunction(
 { ... }
 
 typedef SRIOV_RESET_FUNCTION *PSRIOV_RESET_FUNCTION;
-````
+```
 
 
 ## -parameters

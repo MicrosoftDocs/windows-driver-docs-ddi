@@ -56,12 +56,12 @@ The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a poi
 ## -syntax
 
 
-````
+```
 VOID RtlZeroMemory(
   _Out_ VOID UNALIGNED *Destination,
   _In_  SIZE_T         Length
 );
-````
+```
 
 
 ## -parameters

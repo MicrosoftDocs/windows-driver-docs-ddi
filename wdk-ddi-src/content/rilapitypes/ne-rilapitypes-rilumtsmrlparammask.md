@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUMTSMRLPARAMMASK {
   RIL_PARAM_UMTSMRL_MNC,
   RIL_PARAM_UMTSMRL_LAC,
@@ -69,7 +69,7 @@ typedef enum _RILUMTSMRLPARAMMASK {
   RIL_PARAM_UMTSMRL_PATHLOSS,
   RIL_PARAM_UMTSMRL_ALL
 } RILUMTSMRLPARAMMASK;
-````
+```
 
 
 ## -enum-fields

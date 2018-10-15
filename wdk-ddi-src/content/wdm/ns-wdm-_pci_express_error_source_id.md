@@ -57,7 +57,7 @@ The PCI_EXPRESS_ERROR_SOURCE_ID structure describes the identifiers of the first
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
   struct {
     USHORT CorrectableSourceIdFun  :3;
@@ -69,7 +69,7 @@ typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID;
-````
+```
 
 
 ## -struct-fields

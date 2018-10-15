@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_ATTRIBUTES {
   NDIS_OBJECT_HEADER              Header;
   ULONG                           uNumConcurrentGORole;
@@ -76,7 +76,7 @@ typedef struct _DOT11_WFD_ATTRIBUTES {
   ULONG                           uDiscoveryFilterListSize;
   ULONG                           uGORoleClientTableSize;
 } DOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields

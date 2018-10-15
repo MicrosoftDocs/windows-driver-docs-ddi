@@ -56,7 +56,7 @@ The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI Express (PCIe)
 ## -syntax
 
 
-````
+```
 typedef struct _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY {
   PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER   Header;
   PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS   UncorrectableErrorStatus;
@@ -70,7 +70,7 @@ typedef struct _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY {
   PCI_EXPRESS_ROOT_ERROR_STATUS            RootErrorStatus;
   PCI_EXPRESS_ERROR_SOURCE_ID              ErrorSourceId;
 } PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, *PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

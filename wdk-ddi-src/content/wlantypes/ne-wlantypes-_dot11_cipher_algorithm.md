@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef enum _DOT11_CIPHER_ALGORITHM {
   DOT11_CIPHER_ALGO_NONE           = 0x00,
   DOT11_CIPHER_ALGO_WEP40          = 0x01,
@@ -72,7 +72,7 @@ typedef enum _DOT11_CIPHER_ALGORITHM {
   DOT11_CIPHER_ALGO_IHV_START      = 0x80000000,
   DOT11_CIPHER_ALGO_IHV_END        = 0xffffffff
 } DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM;
-````
+```
 
 
 ## -enum-fields

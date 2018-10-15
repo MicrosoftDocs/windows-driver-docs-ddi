@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_MAC_FRAME_STATISTICS {
   ULONGLONG ullTransmittedFrameCount;
   ULONGLONG ullReceivedFrameCount;
@@ -76,7 +76,7 @@ typedef struct DOT11_MAC_FRAME_STATISTICS {
   ULONGLONG ullDecryptSuccessCount;
   ULONGLONG ullDecryptFailureCount;
 } DOT11_MAC_FRAME_STATISTICS, *PDOT11_MAC_FRAME_STATISTICS;
-````
+```
 
 
 ## -struct-fields

@@ -61,11 +61,11 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_SUPPORTED_DSSS_CHANNEL {
   ULONG uChannel;
 } DOT11_SUPPORTED_DSSS_CHANNEL, *PDOT11_SUPPORTED_DSSS_CHANNEL;
-````
+```
 
 
 ## -struct-fields

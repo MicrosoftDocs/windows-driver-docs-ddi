@@ -56,11 +56,11 @@ The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE oper
 ## -prototype
 
 
-````
+```
 typedef NTSTATUS ( *PTERMINATE_IEEE_MODE)(
   _In_ PVOID Context
 );
-````
+```
 
 
 ## -parameters

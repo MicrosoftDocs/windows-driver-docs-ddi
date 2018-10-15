@@ -56,7 +56,7 @@ The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of
 ## -syntax
 
 
-````
+```
 typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
   union {
     struct {
@@ -78,7 +78,7 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
     UINT   Value;
   };
 } D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS;
-````
+```
 
 
 ## -struct-fields

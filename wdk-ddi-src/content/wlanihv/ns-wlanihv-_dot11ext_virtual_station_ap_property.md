@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY {
   DOT11_SSID             dot11SSID;
   DOT11_AUTH_ALGORITHM   dot11AuthAlgo;
@@ -67,7 +67,7 @@ typedef struct _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY {
   DWORD                  dwKeyLength;
   UCHAR                  ucKeyData[DOT11EXT_PSK_MAX_LENGTH];
 } DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, *PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY;
-````
+```
 
 
 ## -struct-fields

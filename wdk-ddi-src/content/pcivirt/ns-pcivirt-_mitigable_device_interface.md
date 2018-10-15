@@ -56,7 +56,7 @@ Stores function pointers to callback functions implemented by the physical funct
 ## -syntax
 
 
-````
+```
 typedef struct _MITIGABLE_DEVICE_INTERFACE {
   USHORT                         Size;
   USHORT                         Version;
@@ -65,7 +65,7 @@ typedef struct _MITIGABLE_DEVICE_INTERFACE {
   PINTERFACE_REFERENCE           InterfaceDereference;
   PREAD_WRITE_MITIGATED_REGISTER ReadWriteMitigatedRegister;
 } MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE;
-````
+```
 
 
 ## -struct-fields

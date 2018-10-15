@@ -56,7 +56,7 @@ Writes data to the specified configuration block of a PCI Express SR-IOV Virtual
 ## -prototype
 
 
-````
+```
 SRIOV_WRITE_BLOCK SriovWriteBlock;
 
 NTSTATUS SriovWriteBlock(
@@ -69,7 +69,7 @@ NTSTATUS SriovWriteBlock(
 { ... }
 
 typedef SRIOV_WRITE_BLOCK *PSRIOV_WRITE_BLOCK;
-````
+```
 
 
 ## -parameters

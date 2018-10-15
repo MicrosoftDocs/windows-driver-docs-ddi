@@ -56,7 +56,7 @@ The PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
   struct {
     ULONG ReceiverError  :1;
@@ -71,7 +71,7 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, *PPCI_CORRECTABLE_ERROR_STATUS;
-````
+```
 
 
 ## -struct-fields

@@ -56,14 +56,14 @@ The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or no
 ## -syntax
 
 
-````
+```
 typedef struct {
   const GUID          *Set;
   ULONG               Id;
   ULONG               Flags;
   PCPFNMETHOD_HANDLER Handler;
 } PCMETHOD_ITEM, *PPCMETHOD_ITEM;
-````
+```
 
 
 ## -struct-fields

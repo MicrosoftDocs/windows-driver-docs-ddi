@@ -58,7 +58,7 @@ The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of t
 
 ## -syntax
 
-````
+```
 typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER     Header;
   DOT11_MAC_ADDRESS      MacAddr;
@@ -87,7 +87,7 @@ typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
   DOT11_CIPHER_ALGORITHM MulticastMgmtCipher;
   ULONG                  uAssocComebackTime;
 } DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS;
-````
+```
 
 ## -struct-fields
 

@@ -57,13 +57,13 @@ An ACCESS_RANGE describes a memory or I/O port range used by an HBA.
 ## -syntax
 
 
-````
+```
 typedef struct _ACCESS_RANGE {
   SCSI_PHYSICAL_ADDRESS RangeStart;
   ULONG                 RangeLength;
   BOOLEAN               RangeInMemory;
 } ACCESS_RANGE, *PACCESS_RANGE;
-````
+```
 
 
 ## -struct-fields

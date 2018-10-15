@@ -57,11 +57,11 @@ When the <a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiag
 ## -syntax
 
 
-````
+```
 typedef struct _WMI_CHANGER_PROBLEM_DEVICE_ERROR {
   ULONG ChangerProblemType;
 } WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR;
-````
+```
 
 
 ## -struct-fields

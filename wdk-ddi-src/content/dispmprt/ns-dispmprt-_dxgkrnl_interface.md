@@ -56,7 +56,7 @@ The <b>DXGKRNL_INTERFACE</b> structure contains a handle to a display adapter an
 ## -syntax
 
 
-````
+```
 typedef struct _DXGKRNL_INTERFACE {
   ULONG                                 Size;
   ULONG                                 Version;
@@ -97,7 +97,7 @@ typedef struct _DXGKRNL_INTERFACE {
   DXGKCB_COMPLETEPSTATETRANSITION       DxgkCbCompletePStateTransition;
 #endif
 } DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE;
-````
+```
 
 
 ## -struct-fields

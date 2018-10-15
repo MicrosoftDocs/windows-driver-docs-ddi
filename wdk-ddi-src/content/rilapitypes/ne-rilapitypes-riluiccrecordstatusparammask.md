@@ -57,14 +57,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCRECORDSTATUSPARAMMASK {
   RIL_PARAM_URS_ITEMCOUNT,
   RIL_PARAM_URS_SIZE,
   RIL_PARAM_URS_FILELOCKSTATUS,
   RIL_PARAM_URS_ALL
 } RILUICCRECORDSTATUSPARAMMASK;
-````
+```
 
 
 ## -enum-fields

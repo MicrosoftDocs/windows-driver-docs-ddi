@@ -58,12 +58,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_GROUP_START_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_WFD_CHANNEL  AdvertisedOperatingChannel;
 } DOT11_WFD_GROUP_START_PARAMETERS, *PDOT11_WFD_GROUP_START_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

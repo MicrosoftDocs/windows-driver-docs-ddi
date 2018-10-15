@@ -59,7 +59,7 @@ The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microso
 ## -syntax
 
 
-````
+```
 typedef enum  {
   PowerActionNone           = 0,
   PowerActionReserved       = ( PowerActionNone + 1 ),
@@ -70,7 +70,7 @@ typedef enum  {
   PowerActionShutdownOff    = ( PowerActionShutdownReset + 1 ),
   PowerActionWarmEject      = ( PowerActionShutdownOff + 1 )
 } POWER_ACTION, *PPOWER_ACTION;
-````
+```
 
 
 ## -enum-fields

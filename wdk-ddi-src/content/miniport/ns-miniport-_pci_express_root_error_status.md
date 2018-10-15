@@ -56,7 +56,7 @@ The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express (PCIe) root 
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
   struct {
     ULONG CorrectableErrorReceived  :1;
@@ -71,7 +71,7 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS;
-````
+```
 
 
 ## -struct-fields

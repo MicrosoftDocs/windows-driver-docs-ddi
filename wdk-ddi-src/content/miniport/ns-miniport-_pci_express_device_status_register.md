@@ -56,7 +56,7 @@ The PCI_EXPRESS_DEVICE_STATUS_REGISTER structure describes a PCI Express (PCIe) 
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
   struct {
     USHORT CorrectableErrorDetected  :1;
@@ -69,7 +69,7 @@ typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_DEVICE_STATUS_REGISTER, *PPCI_EXPRESS_DEVICE_STATUS_REGISTER;
-````
+```
 
 
 ## -struct-fields

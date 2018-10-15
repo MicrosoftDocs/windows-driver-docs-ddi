@@ -56,11 +56,11 @@ The <i>PPARALLEL_FREE_ROUTINE</i>-typed callback routine frees a parallel port. 
 ## -prototype
 
 
-````
+```
 typedef VOID (*PPARALLEL_FREE_ROUTINE)(
   _In_ PVOID FreeContext
 );
-````
+```
 
 
 ## -parameters

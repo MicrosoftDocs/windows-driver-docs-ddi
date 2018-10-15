@@ -56,7 +56,7 @@ The <i>DxgkDdiGetBrightness</i> function retrieves the currently active brightne
 ## -prototype
 
 
-````
+```
 DXGK_BRIGHTNESS_GET DxgkDdiGetBrightness;
 
 NTSTATUS* DxgkDdiGetBrightness(
@@ -64,7 +64,7 @@ NTSTATUS* DxgkDdiGetBrightness(
   _In_ PUCHAR Brightness
 )
 { ... }
-````
+```
 
 
 ## -parameters

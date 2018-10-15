@@ -60,12 +60,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_SUPPORTED_ANTENNA {
   ULONG   uAntennaListIndex;
   BOOLEAN bSupportedAntenna;
 } DOT11_SUPPORTED_ANTENNA, *PDOT11_SUPPORTED_ANTENNA;
-````
+```
 
 
 ## -struct-fields

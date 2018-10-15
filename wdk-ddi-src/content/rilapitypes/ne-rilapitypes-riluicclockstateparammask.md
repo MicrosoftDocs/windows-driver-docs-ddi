@@ -57,14 +57,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCLOCKSTATEPARAMMASK {
   RIL_PARAM_UICCLOCKSTATE_LOCKSTATE,
   RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT,
   RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT,
   RIL_PARAM_UICCLOCKSTATE_ALL
 } RILUICCLOCKSTATEPARAMMASK;
-````
+```
 
 
 ## -enum-fields

@@ -58,7 +58,7 @@ client driver callback functions.
 ## -syntax
 
 
-````
+```
 typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
   USHORT                                Version;
   USHORT                                Size;
@@ -72,7 +72,7 @@ typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
   PHWN_CLIENT_SET_STATE                 ClientSetHwNState;
   PHWN_CLIENT_GET_STATE                 ClientGetHwNState;
 } HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET;
-````
+```
 
 
 ## -struct-fields

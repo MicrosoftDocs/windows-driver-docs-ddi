@@ -56,7 +56,7 @@ req.typenames: RILUMTSMRLPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILUMTSMRLPARAMMASK  {
   RIL_PARAM_UMTSMRL_MCC         = 0x00000001,
   RIL_PARAM_UMTSMRL_MNC         = 0x00000002,
@@ -70,7 +70,7 @@ enum RILUMTSMRLPARAMMASK  {
   RIL_PARAM_UMTSMRL_ALL         = 0x000001ff
 
 };
-````
+```
 
 
 ## -enum-fields

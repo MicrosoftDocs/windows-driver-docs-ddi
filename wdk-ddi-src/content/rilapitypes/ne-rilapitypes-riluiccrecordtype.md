@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCRECORDTYPE {
   RIL_UICCRECORDTYPE_TRANSPARENT,
   RIL_UICCRECORDTYPE_CYCLIC,
@@ -67,7 +67,7 @@ typedef enum _RILUICCRECORDTYPE {
   RIL_UICCRECORDTYPE_DEDICATED,
   RIL_UICCRECORDTYPE_MAX
 } RILUICCRECORDTYPE;
-````
+```
 
 
 ## -enum-fields

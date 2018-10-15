@@ -57,12 +57,12 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_SSID {
   ULONG uSSIDLength;
   UCHAR ucSSID[DOT11_SSID_MAX_LENGTH];
 } DOT11_SSID, *PDOT11_SSID;
-````
+```
 
 
 ## -struct-fields

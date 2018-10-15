@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILADDRESSNUMPLAN {
   RIL_NUMPLAN_TELEPHONE,
   RIL_NUMPLAN_DATA,
@@ -67,7 +67,7 @@ typedef enum _RILADDRESSNUMPLAN {
   RIL_NUMPLAN_ERMES,
   RIL_NUMPLAN_MAX
 } RILADDRESSNUMPLAN;
-````
+```
 
 
 ## -enum-fields

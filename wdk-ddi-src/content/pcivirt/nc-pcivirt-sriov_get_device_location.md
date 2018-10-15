@@ -56,7 +56,7 @@ Retrieves information about the current location of the PCI device on the bus, s
 ## -prototype
 
 
-````
+```
 SRIOV_GET_DEVICE_LOCATION SriovGetDeviceLocation;
 
 VOID SriovGetDeviceLocation(
@@ -69,7 +69,7 @@ VOID SriovGetDeviceLocation(
 { ... }
 
 typedef SRIOV_GET_DEVICE_LOCATION *PSRIOV_GET_DEVICE_LOCATION;
-````
+```
 
 
 ## -parameters

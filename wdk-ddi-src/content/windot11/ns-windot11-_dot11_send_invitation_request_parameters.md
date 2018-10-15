@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
   NDIS_OBJECT_HEADER              Header;
   DOT11_DIALOG_TOKEN              DialogToken;
@@ -75,7 +75,7 @@ typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
   ULONG                           uIEsOffset;
   ULONG                           uIEsLength;
 } DOT11_SEND_INVITATION_REQUEST_PARAMETERS, *PDOT11_SEND_INVITATION_REQUEST_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

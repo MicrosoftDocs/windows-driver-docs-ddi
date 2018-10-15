@@ -59,11 +59,11 @@ Unregisters the hardware notification client driver and its callback functions w
 ## -syntax
 
 
-````
+```
 FORCEINLINE NTSTATUS  HwNUnregisterClient(
   _In_ WDFDRIVER  Driver
 );
-````
+```
 
 
 ## -parameters

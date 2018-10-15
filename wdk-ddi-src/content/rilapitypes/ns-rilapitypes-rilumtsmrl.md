@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILUMTSMRL {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -70,7 +70,7 @@ typedef struct _RILUMTSMRL {
   LONG   dwECNO;
   DWORD  dwPathLoss;
 } RILUMTSMRL, RILUMTSMRL;
-````
+```
 
 
 ## -struct-fields

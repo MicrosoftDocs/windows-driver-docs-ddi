@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef enum _DOT11_PHY_TYPE {
   dot11_phy_type_unknown     = 0,
   dot11_phy_type_any         = dot11_phy_type_unknown,
@@ -73,7 +73,7 @@ typedef enum _DOT11_PHY_TYPE {
   dot11_phy_type_IHV_start   = 0x80000000,
   dot11_phy_type_IHV_end     = 0xffffffff
 } DOT11_PHY_TYPE, *PDOT11_PHY_TYPE;
-````
+```
 
 
 ## -enum-fields

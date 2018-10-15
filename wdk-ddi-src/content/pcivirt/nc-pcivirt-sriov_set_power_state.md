@@ -56,14 +56,14 @@ Sets the power state of the specified PCI Express SR-IOV Virtual Function (VF).
 ## -prototype
 
 
-````
+```
 NTSTATUS  SRIOV_SET_POWER_STATE(
   _In_ PVOID              Context,
   _In_ USHORT             VfIndex,
   _In_ DEVICE_POWER_STATE PowerState,
   _In_ BOOLEAN            Wake
 );
-````
+```
 
 
 ## -parameters

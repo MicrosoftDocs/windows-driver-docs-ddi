@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILUICCSLOTSTATE {
   RIL_UICCSLOT_OFF,
   RIL_UICCSLOT_EMPTY,
@@ -66,7 +66,7 @@ typedef enum _RILUICCSLOTSTATE {
   RIL_UICCSLOT_ERROR,
   RIL_UICCSLOT_MAX
 } RILUICCSLOTSTATE;
-````
+```
 
 
 ## -enum-fields

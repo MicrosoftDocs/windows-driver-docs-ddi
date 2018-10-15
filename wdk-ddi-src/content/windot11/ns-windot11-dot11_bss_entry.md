@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_BSS_ENTRY {
   ULONG                             uPhyId;
   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO PhySpecificInfo;
@@ -75,7 +75,7 @@ typedef struct DOT11_BSS_ENTRY {
   ULONG                             uBufferLength;
   UCHAR                             ucBuffer[1];
 } DOT11_BSS_ENTRY, *PDOT11_BSS_ENTRY;
-````
+```
 
 
 ## -struct-fields

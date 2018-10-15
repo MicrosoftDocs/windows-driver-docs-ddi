@@ -59,12 +59,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_STOP_AP_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   ULONG              ulReason;
 } DOT11_STOP_AP_PARAMETERS, *PDOT11_STOP_AP_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

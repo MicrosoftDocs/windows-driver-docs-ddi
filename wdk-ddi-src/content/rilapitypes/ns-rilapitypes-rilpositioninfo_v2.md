@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILPOSITIONINFO_V2 {
   DWORD                                       cbSize;
   DWORD                                       dwSystemType;
@@ -76,7 +76,7 @@ typedef struct _RILPOSITIONINFO_V2 {
   DWORD                                       dwCntC2KMRL;
   RILC2KMRL [MAX_C2KPOS_COUNT_OF_MRL]         rc2kMRL;
 } RILPOSITIONINFO_V2, RILPOSITIONINFO_V2;
-````
+```
 
 
 ## -struct-fields

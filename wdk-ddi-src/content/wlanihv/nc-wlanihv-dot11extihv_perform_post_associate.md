@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_PERFORM_POST_ASSOCIATE Dot11ExtIhvPerformPostAssociate;
 
 DWORD APIENTRY Dot11ExtIhvPerformPostAssociate(
@@ -70,7 +70,7 @@ DWORD APIENTRY Dot11ExtIhvPerformPostAssociate(
   _In_     PDOT11_ASSOCIATION_COMPLETION_PARAMETERS pDot11AssocParams
 )
 { ... }
-````
+```
 
 
 ## -parameters

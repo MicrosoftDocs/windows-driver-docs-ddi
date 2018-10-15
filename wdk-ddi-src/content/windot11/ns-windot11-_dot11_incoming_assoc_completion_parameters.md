@@ -57,7 +57,7 @@ The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results o
 
 ## -syntax
 
-````
+```
 typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER     Header;
   DOT11_MAC_ADDRESS      PeerMacAddr;
@@ -77,7 +77,7 @@ typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
   ULONG                  uBeaconOffset;
   ULONG                  uBeaconSize;
 } DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

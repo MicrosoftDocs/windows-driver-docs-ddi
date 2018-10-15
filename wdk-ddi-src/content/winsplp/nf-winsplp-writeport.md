@@ -57,14 +57,14 @@ A port monitor's <code>WritePort</code> function writes data to a printer port.
 ## -syntax
 
 
-````
+```
 BOOL WritePort(
   _In_  HANDLE  hPort,
   _In_  LPBYTE  pBuffer,
         DWORD   cbBuf,
   _Out_ LPDWORD pcbWritten
 );
-````
+```
 
 
 ## -parameters

@@ -57,7 +57,7 @@ The PRINTIFI32 structure is a fixed-size version of the <a href="https://msdn.mi
 ## -syntax
 
 
-````
+```
 typedef struct _PRINTIFI32 {
   ULONG   cjThis;
   ULONG   cjIfiExtra;
@@ -119,7 +119,7 @@ typedef struct _PRINTIFI32 {
   ULONG   ulPanoseCulture;
   PANOSE  panose;
 } PRINTIFI32, *PPRINTIFI32;
-````
+```
 
 
 ## -struct-fields

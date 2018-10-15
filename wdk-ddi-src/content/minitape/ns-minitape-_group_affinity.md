@@ -56,13 +56,13 @@ The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <
 ## -syntax
 
 
-````
+```
 typedef struct _GROUP_AFFINITY {
   KAFFINITY Mask;
   WORD      Group;
   WORD      Reserved[3];
 } GROUP_AFFINITY, *PGROUP_AFFINITY;
-````
+```
 
 
 ## -struct-fields

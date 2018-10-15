@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_APIS {
   DOT11EXT_ALLOCATE_BUFFER                Dot11ExtAllocateBuffer;
   DOT11EXT_FREE_BUFFER                    Dot11ExtFreeBuffer;
@@ -83,7 +83,7 @@ typedef struct _DOT11EXT_APIS {
   DOT11EXT_ONEX_STOP                      Dot11ExtStopOneX;
   DOT11EXT_PROCESS_ONEX_PACKET            Dot11ExtProcessOneXPacket;
 } DOT11EXT_APIS, *PDOT11EXT_APIS;
-````
+```
 
 
 ## -struct-fields

@@ -58,14 +58,14 @@ The <b>READ_REGISTER_BUFFER_ULONG64</b> function reads a number of ULONG64 value
 ## -syntax
 
 
-````
+```
 void READ_REGISTER_BUFFER_ULONG64(
   _In_  IWDFDevice3 *pDevice,
   _In_  PULONG64    Register,
   _Out_ PULONG64    Buffer,
   _In_  ULONG       Count
 );
-````
+```
 
 
 ## -parameters

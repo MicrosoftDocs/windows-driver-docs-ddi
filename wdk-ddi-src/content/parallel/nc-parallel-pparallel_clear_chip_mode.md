@@ -56,12 +56,12 @@ The <i>PPARALLEL_CLEAR_CHIP_MODE</i>-typed callback routine clears the operating
 ## -prototype
 
 
-````
+```
 typedef NTSTATUS (*PPARALLEL_CLEAR_CHIP_MODE)(
   _In_ PVOID ClearChipContext,
   _In_ UCHAR ChipMode
 );
-````
+```
 
 
 ## -parameters

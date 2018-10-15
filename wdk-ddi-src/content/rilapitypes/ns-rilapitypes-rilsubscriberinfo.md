@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILSUBSCRIBERINFO {
   DWORD                         cbSize;
   DWORD                         dwParams;
@@ -65,7 +65,7 @@ typedef struct _RILSUBSCRIBERINFO {
   WCHAR [MAXLENGTH_DESCRIPTION] wszDescription;
   RILSUBSCRIBERINFOSERVICE      dwService;
 } RILSUBSCRIBERINFO, RILSUBSCRIBERINFO;
-````
+```
 
 
 ## -struct-fields

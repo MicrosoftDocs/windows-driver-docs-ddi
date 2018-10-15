@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
 ## -syntax
 
 
-````
+```
 struct RILPOSITIONINFOLTE {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -69,7 +69,7 @@ struct RILPOSITIONINFOLTE {
   DWORD dwRSRQ;
   DWORD dwTimingAdvance;
 };
-````
+```
 
 
 ## -struct-fields

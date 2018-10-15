@@ -44,7 +44,7 @@ Convenience indices for arrays of per component histogram information.
 ## -syntax
 
 
-````
+```
 typedef enum D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 {
     D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_Y = 0,
@@ -57,7 +57,7 @@ typedef enum D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 
     D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_A = 3,
 } D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT;
-````
+```
 
 ## -enum-fields
 

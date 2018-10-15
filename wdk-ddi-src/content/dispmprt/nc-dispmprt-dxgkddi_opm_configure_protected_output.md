@@ -56,7 +56,7 @@ The<i> DxgkDdiOPMConfigureProtectedOutput</i> function configures the given prot
 ## -prototype
 
 
-````
+```
 DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT DxgkDdiOPMConfigureProtectedOutput;
 
 NTSTATUS DxgkDdiOPMConfigureProtectedOutput(
@@ -67,7 +67,7 @@ NTSTATUS DxgkDdiOPMConfigureProtectedOutput(
   _In_ const PVOID                             AdditionalParameters
 )
 { ... }
-````
+```
 
 
 ## -parameters

@@ -58,13 +58,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11EXT_IHV_PROFILE_PARAMS {
   PDOT11EXT_IHV_SSID_LIST    pSsidList;
   DOT11_BSS_TYPE             BssType;
   PDOT11_MSSECURITY_SETTINGS pMSSecuritySettings;
 } DOT11EXT_IHV_PROFILE_PARAMS, *PDOT11EXT_IHV_PROFILE_PARAMS;
-````
+```
 
 
 ## -struct-fields

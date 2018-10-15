@@ -60,14 +60,14 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_KEY_ALGO_TKIP_MIC {
   UCHAR ucIV48Counter[6];
   ULONG ulTKIPKeyLength;
   ULONG ulMICKeyLength;
   UCHAR ucTKIPMICKeys[1];
 } DOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC;
-````
+```
 
 
 ## -struct-fields

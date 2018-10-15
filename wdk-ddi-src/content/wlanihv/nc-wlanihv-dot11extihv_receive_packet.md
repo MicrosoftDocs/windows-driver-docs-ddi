@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_RECEIVE_PACKET Dot11ExtIhvReceivePacket;
 
 DWORD APIENTRY Dot11ExtIhvReceivePacket(
@@ -68,7 +68,7 @@ DWORD APIENTRY Dot11ExtIhvReceivePacket(
   _In_     LPVOID pvInBuffer
 )
 { ... }
-````
+```
 
 
 ## -parameters

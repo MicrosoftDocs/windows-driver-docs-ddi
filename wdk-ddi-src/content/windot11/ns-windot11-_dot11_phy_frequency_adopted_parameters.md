@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   ULONG              ulPhyId;
@@ -68,7 +68,7 @@ typedef struct _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS {
     ULONG ulFrequency;
   };
 } DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, *PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

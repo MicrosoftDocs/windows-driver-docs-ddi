@@ -59,11 +59,11 @@ The <b>WdfObjectAcquireLock</b> method acquires an object's synchronization lock
 ## -prototype
 
 
-````
+```
 VOID WdfObjectAcquireLock(
   _In_ WDFOBJECT Object
 );
-````
+```
 
 
 ## -parameters

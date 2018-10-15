@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_DEVICE_ENTRY {
   ULONG                             uPhyId;
   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO PhySpecificInfo;
@@ -77,7 +77,7 @@ typedef struct _DOT11_WFD_DEVICE_ENTRY {
   ULONG                             uProbeResponseIEsOffset;
   ULONG                             uProbeResponseIEsLength;
 }  DOT11_WFD_DEVICE_ENTRY, *PDOT11_WFD_DEVICE_ENTRY;
-````
+```
 
 
 ## -struct-fields

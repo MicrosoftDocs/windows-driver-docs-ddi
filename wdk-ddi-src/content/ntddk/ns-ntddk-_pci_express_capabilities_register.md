@@ -56,7 +56,7 @@ The PCI_EXPRESS_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) c
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_CAPABILITIES_REGISTER {
   struct {
     USHORT CapabilityVersion  :4;
@@ -67,7 +67,7 @@ typedef union _PCI_EXPRESS_CAPABILITIES_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_CAPABILITIES_REGISTER, *PPCI_EXPRESS_CAPABILITIES_REGISTER;
-````
+```
 
 
 ## -struct-fields

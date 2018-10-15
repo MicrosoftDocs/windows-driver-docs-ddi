@@ -60,7 +60,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtGetProfileCustomUserData(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_opt_ HANDLE hConnectSession,
@@ -68,7 +68,7 @@ DWORD WINAPI * Dot11ExtGetProfileCustomUserData(
   _Out_    DWORD  *pdwDataSize,
   _Out_    LPVOID *ppvData
 );
-````
+```
 
 
 ## -parameters

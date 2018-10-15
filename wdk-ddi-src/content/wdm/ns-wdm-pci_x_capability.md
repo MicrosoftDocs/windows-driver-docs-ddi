@@ -57,7 +57,7 @@ The PCI_X_CAPABILITY structure reports the contents of the command and status re
 ## -syntax
 
 
-````
+```
 typedef struct {
   PCI_CAPABILITIES_HEADER Header;
   union {
@@ -90,7 +90,7 @@ typedef struct {
     ULONG  AsULONG;
   } Status;
 } PCI_X_CAPABILITY, *PPCI_X_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

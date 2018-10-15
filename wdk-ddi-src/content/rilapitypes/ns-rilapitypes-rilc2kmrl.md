@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef struct _RILC2KMRL {
   DWORD  dwParams;
   BOOL   fServing;
@@ -70,7 +70,7 @@ typedef struct _RILC2KMRL {
   DWORD  dwGPSSeconds;
   DWORD  dwPilotStrength;
 } RILC2KMRL, RILC2KMRL;
-````
+```
 
 
 ## -struct-fields

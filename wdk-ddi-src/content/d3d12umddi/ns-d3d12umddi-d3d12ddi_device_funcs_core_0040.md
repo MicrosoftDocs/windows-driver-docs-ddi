@@ -46,7 +46,7 @@ Core device functions.
 ## -syntax
 
 
-````
+```
 typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0040
 {
     PFND3D12DDI_CHECKFORMATSUPPORT                                      pfnCheckFormatSupport;
@@ -146,7 +146,7 @@ typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0040
     PFND3D12DDI_DESTROY_COMMAND_RECORDER_0040                           pfnDestroyCommandRecorder;
     PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040        pfnCommandRecorderSetCommandPoolAsTarget;
 } D3D12DDI_DEVICE_FUNCS_CORE_0040;
-````
+```
 
 ## -struct-fields
 

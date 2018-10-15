@@ -59,14 +59,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtSendPacket(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     ULONG  uPacketLen,
   _In_     LPVOID pvPacket,
   _In_opt_ HANDLE hSendCompletion
 );
-````
+```
 
 
 ## -parameters

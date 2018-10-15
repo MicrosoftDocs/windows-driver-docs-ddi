@@ -56,7 +56,7 @@ req.typenames: RILREGSTAT
 ## -syntax
 
 
-````
+```
 enum RILREGSTAT  {
   RIL_REGSTAT_UNKNOWN       = 0x00000000,
   RIL_REGSTAT_UNREGISTERED  = 0x00000001,
@@ -67,7 +67,7 @@ enum RILREGSTAT  {
   RIL_REGSTAT_ROAMING_INTL  = 0x00000006
 
 };
-````
+```
 
 
 ## -enum-fields

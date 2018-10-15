@@ -57,7 +57,7 @@ The  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetV
 ## -prototype
 
 
-````
+```
 SET_VIRTUAL_DEVICE_DATA SetVirtualFunctionData;
 
 ULONG SetVirtualFunctionData(
@@ -68,7 +68,7 @@ ULONG SetVirtualFunctionData(
   _In_    ULONG  Length
 )
 { ... }
-````
+```
 
 
 ## -parameters

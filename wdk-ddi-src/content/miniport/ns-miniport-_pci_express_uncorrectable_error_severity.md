@@ -56,7 +56,7 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
   struct {
     ULONG Undefined  :1;
@@ -77,7 +77,7 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY;
-````
+```
 
 
 ## -struct-fields

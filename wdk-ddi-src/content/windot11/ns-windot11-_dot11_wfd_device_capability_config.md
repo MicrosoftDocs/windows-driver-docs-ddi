@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_DEVICE_CAPABILITY_CONFIG {
   NDIS_OBJECT_HEADER Header;
   BOOLEAN            bServiceDiscoveryEnabled;
@@ -69,7 +69,7 @@ typedef struct _DOT11_WFD_DEVICE_CAPABILITY_CONFIG {
   BOOLEAN            bInvitationProcedureEnabled;
   ULONG              WPSVersionsEnabled;
 } DOT11_WFD_DEVICE_CAPABILITY_CONFIG, *PDOT11_WFD_DEVICE_CAPABILITY_CONFIG;
-````
+```
 
 
 ## -struct-fields

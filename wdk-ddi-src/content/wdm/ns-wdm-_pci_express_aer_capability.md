@@ -57,7 +57,7 @@ The PCI_EXPRESS_AER_CAPABILITY structure describes a PCI Express (PCIe) advanced
 ## -syntax
 
 
-````
+```
 typedef struct _PCI_EXPRESS_AER_CAPABILITY {
   PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER       Header;
   PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS       UncorrectableErrorStatus;
@@ -73,7 +73,7 @@ typedef struct _PCI_EXPRESS_AER_CAPABILITY {
   PCI_EXPRESS_SEC_AER_CAPABILITIES             SecCapabilitiesAndControl;
   ULONG                                        SecHeaderLog[4];
 } PCI_EXPRESS_AER_CAPABILITY, *PPCI_EXPRESS_AER_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

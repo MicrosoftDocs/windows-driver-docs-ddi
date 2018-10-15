@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   NDIS_STATUS        Status;
@@ -67,7 +67,7 @@ typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
   ULONG              uListOffset;
   ULONG              uListLength;
 } DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, *PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

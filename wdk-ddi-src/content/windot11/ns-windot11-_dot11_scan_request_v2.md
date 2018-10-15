@@ -60,7 +60,7 @@ The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan
 
 ## -syntax
 
-````
+```
 typedef struct _DOT11_SCAN_REQUEST_V2 {
   DOT11_BSS_TYPE    dot11BSSType;
   DOT11_MAC_ADDRESS dot11BSSID;
@@ -77,7 +77,7 @@ typedef struct _DOT11_SCAN_REQUEST_V2 {
   ULONG             uIEsLength;
   UCHAR             ucBuffer[1];
 } DOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2;
-````
+```
 
 
 ## -struct-fields

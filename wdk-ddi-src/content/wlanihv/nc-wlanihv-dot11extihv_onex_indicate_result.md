@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_ONEX_INDICATE_RESULT Dot11ExtIhvOneXIndicateResult;
 
 DWORD APIENTRY Dot11ExtIhvOneXIndicateResult(
@@ -68,7 +68,7 @@ DWORD APIENTRY Dot11ExtIhvOneXIndicateResult(
   _In_opt_ PDOT11_MSONEX_RESULT_PARAMS pDot11MsOneXResultParams
 )
 { ... }
-````
+```
 
 
 ## -parameters

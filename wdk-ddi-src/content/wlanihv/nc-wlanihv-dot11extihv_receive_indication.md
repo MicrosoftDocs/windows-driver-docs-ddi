@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_RECEIVE_INDICATION Dot11ExtIhvReceiveIndication;
 
 DWORD APIENTRY Dot11ExtIhvReceiveIndication(
@@ -69,7 +69,7 @@ DWORD APIENTRY Dot11ExtIhvReceiveIndication(
   _In_opt_ LPVOID                       pvBuffer
 )
 { ... }
-````
+```
 
 
 ## -parameters

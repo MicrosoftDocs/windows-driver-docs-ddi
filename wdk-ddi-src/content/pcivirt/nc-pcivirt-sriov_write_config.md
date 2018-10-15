@@ -56,7 +56,7 @@ Writes configuration data to a PCI Express SR-IOV Virtual Function (VF).
 ## -prototype
 
 
-````
+```
 SRIOV_WRITE_CONFIG SriovWriteConfig;
 
 NTSTATUS SriovWriteConfig(
@@ -69,7 +69,7 @@ NTSTATUS SriovWriteConfig(
 { ... }
 
 typedef SRIOV_WRITE_CONFIG *PSRIOV_WRITE_CONFIG;
-````
+```
 
 
 ## -parameters

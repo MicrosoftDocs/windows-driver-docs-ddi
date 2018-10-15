@@ -60,12 +60,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DWORD WINAPI * Dot11ExtReleaseVirtualStation(
   _In_opt_   HANDLE hDot11PrimaryHandle,
   _Reserved_ LPVOID pvReserved
 );
-````
+```
 
 
 ## -parameters

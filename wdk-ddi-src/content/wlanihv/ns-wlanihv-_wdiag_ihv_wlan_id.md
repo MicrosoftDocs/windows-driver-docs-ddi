@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _WDIAG_IHV_WLAN_ID {
   WCHAR          strProfileName[MS_MAX_PROFILE_NAME_LENGTH];
   DOT11_SSID     Ssid;
@@ -66,7 +66,7 @@ typedef struct _WDIAG_IHV_WLAN_ID {
   DWORD          dwFlags;
   DWORD          dwReasonCode;
 } WDIAG_IHV_WLAN_ID, *PWDIAG_IHV_WLAN_ID;
-````
+```
 
 
 ## -struct-fields

@@ -57,14 +57,14 @@ A port monitor server DLL's <b>XcvOpenPort</b> function opens a port for configu
 ## -syntax
 
 
-````
+```
 BOOL XcvOpenPort(
    HANDLE      hMonitor,
    LPCWSTR     pszObject,
    ACCESS_MASK GrantedAccess,
    PHANDLE     phXcv
 );
-````
+```
 
 
 ## -parameters

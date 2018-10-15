@@ -56,7 +56,7 @@ Gets the translated resource for a specific Base Address Register (BAR)
 ## -prototype
 
 
-````
+```
 SRIOV_GET_RESOURCE_FOR_BAR SriovGetResourceForBar;
 
 NTSTATUS SriovGetResourceForBar(
@@ -68,7 +68,7 @@ NTSTATUS SriovGetResourceForBar(
 { ... }
 
 typedef SRIOV_GET_RESOURCE_FOR_BAR *PSRIOV_GET_RESOURCE_FOR_BAR;
-````
+```
 
 
 ## -parameters

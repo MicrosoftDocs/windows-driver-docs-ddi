@@ -56,7 +56,7 @@ The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 ## -syntax
 
 
-````
+```
 typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
   struct {
     ULONG MaximumLinkSpeed  :4;
@@ -72,7 +72,7 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER;
-````
+```
 
 
 ## -struct-fields

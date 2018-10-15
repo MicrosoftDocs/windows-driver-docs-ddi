@@ -59,12 +59,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_STATUS_INDICATION {
   ULONG       uStatusType;
   NDIS_STATUS ndisStatus;
 } DOT11_STATUS_INDICATION, *PDOT11_STATUS_INDICATION;
-````
+```
 
 
 ## -struct-fields

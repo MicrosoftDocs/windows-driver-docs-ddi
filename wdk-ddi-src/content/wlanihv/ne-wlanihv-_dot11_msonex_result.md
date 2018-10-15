@@ -59,13 +59,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef enum _DOT11_MSONEX_RESULT {
   DOT11_MSONEX_SUCCESS      = 0,
   DOT11_MSONEX_FAILURE      = 1,
   DOT11_MSONEX_IN_PROGRESS  = 2
 } DOT11_MSONEX_RESULT, *PDOT11_MSONEX_RESULT;
-````
+```
 
 
 ## -enum-fields

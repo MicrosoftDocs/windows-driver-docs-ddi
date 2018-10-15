@@ -56,7 +56,7 @@ The PARCLASS_INFORMATION structure specifies information about a parallel port, 
 ## -syntax
 
 
-````
+```
 typedef struct _PARCLASS_INFORMATION {
   PUCHAR                    Controller;
   ULONG                     SpanOfController;
@@ -72,7 +72,7 @@ typedef struct _PARCLASS_INFORMATION {
   ULONG                     FifoDepth;
   ULONG                     FifoWidth;
 } PARCLASS_INFORMATION, *PPARCLASS_INFORMATION;
-````
+```
 
 
 ## -struct-fields

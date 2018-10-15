@@ -58,7 +58,7 @@ req.typenames: RILIMSIPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILIMSIPARAMMASK {
   RIL_PARAM_IMSI_IMSI  = 0x00000001,
   RIL_PARAM_IMSI_MCC   = 0x00000002,
@@ -66,7 +66,7 @@ enum RILIMSIPARAMMASK {
   RIL_PARAM_IMSI_ALL   = 0x00000007
 
 };
-````
+```
 
 
 ## -enum-fields

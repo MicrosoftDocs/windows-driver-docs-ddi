@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS {
   NDIS_OBJECT_HEADER  Header;
   DOT11_MAC_ADDRESS   ReceiverDeviceAddress;
@@ -67,7 +67,7 @@ typedef struct _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS {
   ULONG               uIEsOffset;
   ULONG               uIEsLength;
 } DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, *PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

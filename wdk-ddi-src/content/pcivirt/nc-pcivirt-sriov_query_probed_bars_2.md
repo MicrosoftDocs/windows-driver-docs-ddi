@@ -58,7 +58,7 @@ Queries the data read from
 ## -prototype
 
 
-````
+```
 SRIOV_QUERY_PROBED_BARS_2 SriovQueryProbedBars2;
 
 NTSTATUS SriovQueryProbedBars2(
@@ -69,7 +69,7 @@ NTSTATUS SriovQueryProbedBars2(
 { ... }
 
 typedef SRIOV_QUERY_PROBED_BARS_2 *PSRIOV_QUERY_PROBED_BARS_2;
-````
+```
 
 
 ## -parameters

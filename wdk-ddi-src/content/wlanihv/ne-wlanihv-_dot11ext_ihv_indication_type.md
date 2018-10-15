@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef enum _DOT11EXT_IHV_INDICATION_TYPE {
   IndicationTypeNicSpecificNotification  = 0,
   IndicationTypePmkidCandidateList       = 1,
@@ -66,7 +66,7 @@ typedef enum _DOT11EXT_IHV_INDICATION_TYPE {
   IndicationTypePhyStateChange           = 3,
   IndicationTypeLinkQuality              = 4
 } DOT11EXT_IHV_INDICATION_TYPE, *PDOT11EXT_IHV_INDICATION_TYPE;
-````
+```
 
 
 ## -enum-fields

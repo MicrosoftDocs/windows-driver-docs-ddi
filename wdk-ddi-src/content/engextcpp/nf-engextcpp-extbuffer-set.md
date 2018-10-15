@@ -56,14 +56,14 @@ The <b>Set</b> method sets the typed data represented by the <a href="..\engextc
 ## -syntax
 
 
-````
+```
 void Set(
   [in] bool    PtrTo,
   [in] ULONG64 TypeModBase,
   [in] ULONG   TypeId,
   [in] ULONG64 Offset
 );
-````
+```
 
 
 ## -parameters

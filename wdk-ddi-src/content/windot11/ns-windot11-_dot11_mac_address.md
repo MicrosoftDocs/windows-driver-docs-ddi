@@ -60,11 +60,11 @@ The <b>DOT11_MAC_ADDRESS</b> array defines an IEEE media access control (MAC) ad
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_MAC_ADDRESS {
   UCHAR ucDot11MacAddress[6];
 } DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS;
-````
+```
 
 
 ## -struct-fields

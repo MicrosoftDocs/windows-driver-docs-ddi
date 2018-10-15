@@ -62,12 +62,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct DOT11_ROAMING_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_ASSOC_STATUS uStatus;
 } DOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

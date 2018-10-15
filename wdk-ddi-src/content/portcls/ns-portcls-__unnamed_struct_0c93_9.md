@@ -56,7 +56,7 @@ The <b>PCFILTER_DESCRIPTOR</b> structure describes a miniport driver's implement
 ## -syntax
 
 
-````
+```
 typedef struct {
   ULONG                         Version;
   const PCAUTOMATION_TABLE      *AutomationTable;
@@ -71,7 +71,7 @@ typedef struct {
   ULONG                         CategoryCount;
   const GUID                    *Categories;
 } PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR;
-````
+```
 
 
 ## -struct-fields

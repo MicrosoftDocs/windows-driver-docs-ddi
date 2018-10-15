@@ -56,11 +56,11 @@ The PAR_SET_INFORMATION structure specifies the initial operating status of a pa
 ## -syntax
 
 
-````
+```
 typedef struct _PAR_SET_INFORMATION {
   UCHAR Init;
 } PAR_SET_INFORMATION, *PPAR_SET_INFORMATION;
-````
+```
 
 
 ## -struct-fields

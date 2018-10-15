@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_MSSECURITY_SETTINGS {
   DOT11_AUTH_ALGORITHM   dot11AuthAlgorithm;
   DOT11_CIPHER_ALGORITHM dot11CipherAlgorithm;
@@ -67,7 +67,7 @@ typedef struct _DOT11_MSSECURITY_SETTINGS {
   DWORD                  dwEapConnectionDataLen;
   BYTE                   *pEapConnectionData;
 } DOT11_MSSECURITY_SETTINGS, *PDOT11_MSSECURITY_SETTINGS;
-````
+```
 
 
 ## -struct-fields

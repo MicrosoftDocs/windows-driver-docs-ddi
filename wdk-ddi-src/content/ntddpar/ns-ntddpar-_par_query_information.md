@@ -56,11 +56,11 @@ The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel
 ## -syntax
 
 
-````
+```
 typedef struct _PAR_QUERY_INFORMATION {
   UCHAR Status;
 } PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION;
-````
+```
 
 
 ## -struct-fields

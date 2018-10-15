@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_PROCESS_SESSION_CHANGE Dot11ExtIhvProcessSessionChange;
 
 DWORD APIENTRY Dot11ExtIhvProcessSessionChange(
@@ -67,7 +67,7 @@ DWORD APIENTRY Dot11ExtIhvProcessSessionChange(
   _In_ PWTSSESSION_NOTIFICATION pSessionNotification
 )
 { ... }
-````
+```
 
 
 ## -parameters

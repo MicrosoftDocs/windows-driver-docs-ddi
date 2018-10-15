@@ -57,12 +57,12 @@ Battery miniclass drivers fill in this structure in response to certain <a href=
 ## -syntax
 
 
-````
+```
 typedef struct {
   ULONG Granularity;
   ULONG Capacity;
 } BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE;
-````
+```
 
 
 ## -struct-fields

@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_IS_UI_REQUEST_PENDING Dot11ExtIhvIsUIRequestPending;
 
 DWORD APIENTRY Dot11ExtIhvIsUIRequestPending(
@@ -67,7 +67,7 @@ DWORD APIENTRY Dot11ExtIhvIsUIRequestPending(
   _Out_ PBOOL pbIsRequestPending
 )
 { ... }
-````
+```
 
 
 ## -parameters

@@ -58,14 +58,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```
 DOT11EXTIHV_ADAPTER_RESET Dot11ExtIhvAdapterReset;
 
 DWORD APIENTRY Dot11ExtIhvAdapterReset(
   _In_opt_ HANDLE hIhvExtAdapter
 )
 { ... }
-````
+```
 
 
 ## -parameters

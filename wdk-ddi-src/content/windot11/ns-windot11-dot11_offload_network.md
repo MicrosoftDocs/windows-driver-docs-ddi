@@ -58,14 +58,14 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_OFFLOAD_NETWORK {
   DOT11_SSID             Ssid;
   DOT11_CIPHER_ALGORITHM UnicastCipher;
   DOT11_AUTH_ALGORITHM   AuthAlgo;
   DOT11_CHANNEL_HINT     Dot11ChannelHints[DOT11_MAX_CHANNEL_HINTS];
 } DOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK;
-````
+```
 
 
 ## -struct-fields

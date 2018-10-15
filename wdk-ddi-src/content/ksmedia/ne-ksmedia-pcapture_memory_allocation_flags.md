@@ -56,7 +56,7 @@ The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces
 ## -syntax
 
 
-````
+```
 typedef enum  {
   KS_CAPTURE_ALLOC_INVALID      = 0,
   KS_CAPTURE_ALLOC_SYSTEM       = 0x0001,
@@ -64,7 +64,7 @@ typedef enum  {
   KS_CAPTURE_ALLOC_SYSTEM_AGP   = 0x0004,
   KS_CAPTURE_ALLOC_VRAM_MAPPED  = 0x0008
 } CAPTURE_MEMORY_ALLOCATION_FLAGS, *PCAPTURE_MEMORY_ALLOCATION_FLAGS;
-````
+```
 
 
 ## -enum-fields

@@ -57,7 +57,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetRe
 ## -prototype
 
 
-````
+```
 GET_VIRTUAL_DEVICE_RESOURCES GetResources;
 
 VOID GetResources(
@@ -65,7 +65,7 @@ VOID GetResources(
   _Out_   PUINT8 CapturedBusNumbers
 )
 { ... }
-````
+```
 
 
 ## -parameters

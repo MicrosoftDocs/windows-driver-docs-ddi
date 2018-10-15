@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_OFFLOAD_NETWORK_LIST_INFO {
   NDIS_OBJECT_HEADER    Header;
   ULONG                 ulFlags;
@@ -68,7 +68,7 @@ typedef struct _DOT11_OFFLOAD_NETWORK_LIST_INFO {
   ULONG                 uNumOfEntries;
   DOT11_OFFLOAD_NETWORK offloadNetworkList[1];
 } DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO;
-````
+```
 
 
 ## -struct-fields

@@ -56,11 +56,11 @@ The <b>Copy</b> method sets the typed data represented by the <a href="..\engext
 ## -syntax
 
 
-````
+```
 void Copy(
   [in] const DEBUG_TYPED_DATA *Typed
 );
-````
+```
 
 
 ## -parameters

@@ -57,13 +57,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```
 typedef enum _RILSMSFORMAT {
   RIL_SMSFORMAT_3GPP,
   RIL_SMSFORMAT_3GPP2,
   RIL_SMSFORMAT_MAX
 } RILSMSFORMAT;
-````
+```
 
 
 ## -enum-fields

@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_PEER_INFO {
   DOT11_MAC_ADDRESS       MacAddress;
   USHORT                  usCapabilityInformation;
@@ -75,7 +75,7 @@ typedef struct _DOT11_PEER_INFO {
   LARGE_INTEGER           liAssociationUpTime;
   DOT11_PEER_STATISTICS   Statistics;
 } DOT11_PEER_INFO, *PDOT11_PEER_INFO;
-````
+```
 
 
 ## -struct-fields

@@ -57,13 +57,13 @@ A port monitor UI DLL's <b>ConfigurePortUI</b> function obtains port configurati
 ## -syntax
 
 
-````
+```
 BOOL WINAPI pfnConfigurePortUI(
   _In_opt_ PCWSTR pszServer,
   _In_     HWND   hWnd,
   _In_     PCWSTR pszPortName
 );
-````
+```
 
 
 ## -parameters

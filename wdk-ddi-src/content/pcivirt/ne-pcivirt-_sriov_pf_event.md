@@ -56,13 +56,13 @@ Defines event values for the SR-IOV device.
 ## -syntax
 
 
-````
+```
 typedef enum _SRIOV_PF_EVENT {
   SriovEventPfQueryStopDevice,
   SriovEventPfRestart,
   SriovEventPfMaximum
 } SRIOV_PF_EVENT;
-````
+```
 
 
 ## -enum-fields

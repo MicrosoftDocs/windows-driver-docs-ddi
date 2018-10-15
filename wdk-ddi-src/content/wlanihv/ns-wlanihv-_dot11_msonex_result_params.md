@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_MSONEX_RESULT_PARAMS {
   ONEX_AUTH_STATUS  Dot11OnexAuthStatus;
   ONEX_REASON_CODE  Dot11OneXReasonCode;
@@ -67,7 +67,7 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
   DWORD             dwMPPERecvKeyLen;
   PDOT11_EAP_RESULT pDot11EapResult;
 } DOT11_MSONEX_RESULT_PARAMS, *PDOT11_MSONEX_RESULT_PARAMS;
-````
+```
 
 
 ## -struct-fields

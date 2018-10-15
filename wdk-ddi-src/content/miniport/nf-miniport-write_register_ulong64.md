@@ -58,13 +58,13 @@ The <b>WRITE_REGISTER_ULONG64</b> function writes a ULONG64 value to the specifi
 ## -syntax
 
 
-````
+```
 void WRITE_REGISTER_ULONG64(
   _In_ IWDFDevice3 *pDevice,
   _In_ PULONG64    Register,
   _In_ ULONG       Value
 );
-````
+```
 
 
 ## -parameters

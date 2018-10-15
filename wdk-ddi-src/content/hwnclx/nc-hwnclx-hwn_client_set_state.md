@@ -57,7 +57,7 @@ Implemented by the client driver to set hardware notification component state. I
 ## -prototype
 
 
-````
+```
 HWN_CLIENT_SET_STATE HwnClientSetState;
 
 NTSTATUS HwnClientSetState(
@@ -69,7 +69,7 @@ NTSTATUS HwnClientSetState(
 { ... }
 
 typedef HWN_CLIENT_SET_STATE *PHWN_CLIENT_SET_STATE;
-````
+```
 
 
 ## -parameters

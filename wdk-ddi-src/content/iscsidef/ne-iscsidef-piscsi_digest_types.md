@@ -56,12 +56,12 @@ The ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 ## -syntax
 
 
-````
+```
 typedef enum  {
   ISCSI_DIGEST_TYPE_NONE    = 0,
   ISCSI_DIGEST_TYPE_CRC32C  = 1
 } ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES;
-````
+```
 
 
 ## -enum-fields

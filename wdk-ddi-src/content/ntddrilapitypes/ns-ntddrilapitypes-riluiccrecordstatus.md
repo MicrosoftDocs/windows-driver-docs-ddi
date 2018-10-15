@@ -56,7 +56,7 @@ req.typenames: RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS
 ## -syntax
 
 
-````
+```
 struct RILUICCRECORDSTATUS {
   DWORD                 cbSize;
   DWORD                 dwParams;
@@ -65,7 +65,7 @@ struct RILUICCRECORDSTATUS {
   DWORD                 dwSize;
   RILUICCFILELOCKSTATUS fileLockStatus[MAXNUM_EFACCESSTYPES];
 };
-````
+```
 
 
 ## -struct-fields

@@ -57,7 +57,7 @@ The STOR_POWER_ACTION enumerator indicates the power state that the system is ab
 ## -syntax
 
 
-````
+```
 typedef enum  {
   StorPowerActionNone           = 0,
   StorPowerActionReserved       = 1,
@@ -68,7 +68,7 @@ typedef enum  {
   StorPowerActionShutdownOff    = 6,
   StorPowerActionWarmEject      = 7
 } STOR_POWER_ACTION, *PSTOR_POWER_ACTION;
-````
+```
 
 
 ## -enum-fields

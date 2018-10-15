@@ -56,7 +56,7 @@ req.typenames: RILUICCLOCKSTATEPARAMMASK
 ## -syntax
 
 
-````
+```
 enum RILUICCLOCKSTATEPARAMMASK {
   RIL_PARAM_UICCLOCKSTATE_UICCLOCK             = 0x00000001,
   RIL_PARAM_UICCLOCKSTATE_LOCKSTATE            = 0x00000002,
@@ -65,7 +65,7 @@ enum RILUICCLOCKSTATEPARAMMASK {
   RIL_PARAM_UICCLOCKSTATE_ALL                  = 0x0000000F
 
 };
-````
+```
 
 
 ## -enum-fields

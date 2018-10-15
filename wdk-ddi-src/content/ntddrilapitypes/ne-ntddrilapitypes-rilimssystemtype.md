@@ -58,7 +58,7 @@ req.typenames: RILIMSSYSTEMTYPE
 ## -syntax
 
 
-````
+```
 enum RILIMSSYSTEMTYPE {
   RIL_IMSSYSTEMTYPE_UNKNOWN  = 0x00000000,
   RIL_IMSSYSTEMTYPE_WIFI     = 0x00000001,
@@ -66,7 +66,7 @@ enum RILIMSSYSTEMTYPE {
   RIL_IMSSYSTEMTYPE_MAX      = RIL_IMSSYSTEMTYPE_LTE
 
 };
-````
+```
 
 
 ## -enum-fields

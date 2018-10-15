@@ -56,7 +56,7 @@ Describes a compressed buffer for Microsoft DirectX Video Acceleration (DXVA) de
 ## -syntax
 
 
-````
+```
 typedef struct D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC {
   D3D10DDI_HRESOURCE                   hResource;
   D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE BufferType;
@@ -74,7 +74,7 @@ typedef struct D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC {
   BOOL                                 PartialEncryption;
   D3D11_1DDI_ENCRYPTED_BLOCK_INFO      EncryptedBlockInfo;
 } D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC;
-````
+```
 
 
 ## -struct-fields

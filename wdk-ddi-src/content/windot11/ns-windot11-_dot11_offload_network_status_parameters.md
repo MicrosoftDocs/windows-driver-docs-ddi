@@ -58,12 +58,12 @@ product:
 ## -syntax
 
 
-````
+```
 typedef struct _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   NDIS_STATUS        Status;
 } DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

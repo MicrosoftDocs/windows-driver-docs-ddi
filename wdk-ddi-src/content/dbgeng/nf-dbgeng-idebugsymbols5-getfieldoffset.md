@@ -56,13 +56,13 @@ The <b>GetFieldOffset</b> function returns the offset of a member from the begin
 ## -syntax
 
 
-````
+```
 __inline ULONG GetFieldOffset(
   _In_  LPCSTR Type,
   _In_  LPCSTR Field,
   _Out_ PULONG pOffset
 );
-````
+```
 
 
 ## -parameters

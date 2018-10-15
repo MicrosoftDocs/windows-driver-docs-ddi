@@ -56,7 +56,7 @@ req.typenames: RILNETWORKCODE, *LPRILNETWORKCODE
 ## -syntax
 
 
-````
+```
 struct RILNETWORKCODE {
   DWORD cbSize;
   DWORD dwParams;
@@ -67,7 +67,7 @@ struct RILNETWORKCODE {
   DWORD dwNID;
   DWORD dwRI;
 };
-````
+```
 
 
 ## -struct-fields

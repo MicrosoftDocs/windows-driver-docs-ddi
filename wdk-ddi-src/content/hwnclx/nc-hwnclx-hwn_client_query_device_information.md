@@ -57,7 +57,7 @@ Implemented by the client driver to retrieve hardware notification component att
 ## -prototype
 
 
-````
+```
 HWN_CLIENT_QUERY_DEVICE_INFORMATION HwnClientQueryDeviceInformation;
 
 NTSTATUS HwnClientQueryDeviceInformation(
@@ -67,7 +67,7 @@ NTSTATUS HwnClientQueryDeviceInformation(
 { ... }
 
 typedef HWN_CLIENT_QUERY_DEVICE_INFORMATION PHWN_CLIENT_QUERY_DEVICE_INFORMATION;
-````
+```
 
 
 ## -parameters
