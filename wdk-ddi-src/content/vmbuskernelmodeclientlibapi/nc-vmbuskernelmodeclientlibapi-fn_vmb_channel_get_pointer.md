@@ -50,7 +50,7 @@ The <b>VmbChannelGetPointer</b> function lets a client driver retrieve a pointer
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_GET_POINTER FnVmbChannelGetPointer; 

@@ -47,7 +47,7 @@ Sets the root signature.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_SET_ROOT_SIGNATURE Pfnd3d12ddiSetRootSignature; 

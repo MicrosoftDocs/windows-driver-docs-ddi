@@ -48,7 +48,7 @@ Destroys the video motion estimator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053 Pfnd3d12ddiDestroyvideomotionestimator0053; 

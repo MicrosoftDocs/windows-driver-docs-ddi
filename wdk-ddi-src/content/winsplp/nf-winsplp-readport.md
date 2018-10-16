@@ -57,7 +57,7 @@ A port monitor's <code>ReadPort</code> function reads data from a printer port.
 ## -syntax
 
 
-```
+```cpp
 BOOL ReadPort(
   _In_  HANDLE  hPort,
   _Out_ LPBYTE  pBuffer,

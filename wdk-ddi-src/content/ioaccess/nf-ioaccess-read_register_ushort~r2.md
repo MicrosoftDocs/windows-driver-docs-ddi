@@ -56,7 +56,7 @@ The <b>READ_REGISTER_USHORT</b> routine reads a USHORT value from the specified 
 ## -syntax
 
 
-```
+```cpp
 USHORT READ_REGISTER_USHORT(
   _In_ PUSHORT Register
 );

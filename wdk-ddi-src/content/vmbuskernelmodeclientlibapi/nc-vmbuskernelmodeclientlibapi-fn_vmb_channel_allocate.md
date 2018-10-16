@@ -50,7 +50,7 @@ The <b>VmbChannelAllocate</b> function allocates a new VMBus channel that has de
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_ALLOCATE FnVmbChannelAllocate; 

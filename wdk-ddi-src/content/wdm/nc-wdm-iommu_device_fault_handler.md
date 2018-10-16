@@ -46,7 +46,7 @@ Reports fault from a specific device and domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DEVICE_FAULT_HANDLER IommuDeviceFaultHandler; 

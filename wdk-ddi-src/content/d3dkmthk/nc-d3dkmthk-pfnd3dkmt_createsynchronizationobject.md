@@ -47,7 +47,7 @@ The PFND3DKMT_CREATESYNCHRONIZATIONOBJECT callback function creates a synchroniz
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATESYNCHRONIZATIONOBJECT Pfnd3dkmtCreatesynchronizationobject; 

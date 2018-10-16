@@ -47,7 +47,7 @@ A boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine can monitor boot-sta
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 BOOT_DRIVER_CALLBACK_FUNCTION BootDriverCallbackFunction; 

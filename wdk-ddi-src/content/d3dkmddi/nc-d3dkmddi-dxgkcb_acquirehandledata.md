@@ -47,7 +47,7 @@ Implemented by the client driver to acquire a resource handle.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_ACQUIREHANDLEDATA DxgkcbAcquirehandledata; 

@@ -47,7 +47,7 @@ Pfnd3dkmtGetmultisamplemethodlist retrieves a list of multiple-sample methods th
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETMULTISAMPLEMETHODLIST Pfnd3dkmtGetmultisamplemethodlist; 

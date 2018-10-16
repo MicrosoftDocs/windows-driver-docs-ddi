@@ -43,7 +43,7 @@ Flags for indicating a subset of components used with video decode histogram.
 ## -syntax
 
 
-```
+```cpp
 typedef enum D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 {
     D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_NONE = 0x0,

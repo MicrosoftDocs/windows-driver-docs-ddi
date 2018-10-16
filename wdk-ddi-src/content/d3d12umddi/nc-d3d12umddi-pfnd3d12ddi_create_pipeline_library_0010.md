@@ -48,7 +48,7 @@ Create a pipeline library.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010 Pfnd3d12ddiCreatePipelineLibrary0010; 

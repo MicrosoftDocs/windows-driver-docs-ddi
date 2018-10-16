@@ -50,7 +50,7 @@ The <b>VmbChannelSetTransactionQuota</b> function sets the incoming packet quota
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA FnVmbChannelSetTransactionQuota; 

@@ -48,7 +48,7 @@ The pfnCreatePipelineState callback function creates a pipeline state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_PIPELINE_STATE_0010 Pfnd3d12ddiCreatePipelineState0010; 

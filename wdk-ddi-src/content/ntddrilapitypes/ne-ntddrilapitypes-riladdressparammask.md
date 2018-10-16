@@ -56,7 +56,7 @@ req.typenames: RILADDRESSPARAMMASK
 ## -syntax
 
 
-```
+```cpp
 enum RILADDRESSPARAMMASK {
   RIL_PARAM_A_NONE     = 0x00000000,
   RIL_PARAM_A_TYPE     = 0x00000001,

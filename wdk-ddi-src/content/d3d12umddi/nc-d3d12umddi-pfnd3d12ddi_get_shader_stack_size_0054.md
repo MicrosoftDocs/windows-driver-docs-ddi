@@ -48,7 +48,7 @@ Retrieves the amount of stack memory required to invoke a ray tracing shader in 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_SHADER_STACK_SIZE_0054 Pfnd3d12ddiGetShaderStackSize0054; 

@@ -47,7 +47,7 @@ The PFND3DKMT_SETGAMMARAMP callback function sets the gamma ramp.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETGAMMARAMP Pfnd3dkmtSetgammaramp; 

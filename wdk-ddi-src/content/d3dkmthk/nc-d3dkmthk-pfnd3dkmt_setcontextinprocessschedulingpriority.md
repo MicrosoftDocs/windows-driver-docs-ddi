@@ -47,7 +47,7 @@ The PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY callback function sets the s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY Pfnd3dkmtSetcontextinprocessschedulingpriority; 

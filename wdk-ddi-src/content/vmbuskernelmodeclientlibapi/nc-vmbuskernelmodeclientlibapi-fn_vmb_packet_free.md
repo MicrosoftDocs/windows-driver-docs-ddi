@@ -50,7 +50,7 @@ The <b>VmbPacketFree</b> function releases a packet allocated by using the <a hr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_FREE FnVmbPacketFree; 

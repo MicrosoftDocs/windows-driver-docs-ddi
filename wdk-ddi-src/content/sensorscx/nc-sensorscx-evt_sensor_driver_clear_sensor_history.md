@@ -47,7 +47,7 @@ Clears the history recorded so far in the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY EvtSensorDriverClearSensorHistory; 

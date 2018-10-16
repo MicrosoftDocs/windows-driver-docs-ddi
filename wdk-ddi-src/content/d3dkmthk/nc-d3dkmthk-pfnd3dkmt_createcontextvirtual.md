@@ -47,7 +47,7 @@ The D3dkmtCreateContextVirtual callback function creates a virtual context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATECONTEXTVIRTUAL Pfnd3dkmtCreatecontextvirtual; 

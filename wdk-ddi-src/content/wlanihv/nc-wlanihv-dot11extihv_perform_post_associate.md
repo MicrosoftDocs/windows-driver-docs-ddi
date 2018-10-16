@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_PERFORM_POST_ASSOCIATE Dot11ExtIhvPerformPostAssociate;
 
 DWORD APIENTRY Dot11ExtIhvPerformPostAssociate(

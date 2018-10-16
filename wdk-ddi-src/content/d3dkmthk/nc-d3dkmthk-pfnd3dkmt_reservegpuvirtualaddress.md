@@ -47,7 +47,7 @@ The PFND3DKMT_RESERVEGPUVIRTUALADDRESS callback function reserves an address ran
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RESERVEGPUVIRTUALADDRESS Pfnd3dkmtReservegpuvirtualaddress; 

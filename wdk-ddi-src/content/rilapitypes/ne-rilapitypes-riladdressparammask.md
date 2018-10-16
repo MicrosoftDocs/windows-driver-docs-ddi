@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILADDRESSPARAMMASK {
   RIL_PARAM_A_TYPE,
   RIL_PARAM_A_NUMPLAN,

@@ -61,7 +61,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_PHY_ATTRIBUTES {
   NDIS_OBJECT_HEADER                  Header;
   DOT11_PHY_TYPE                      PhyType;

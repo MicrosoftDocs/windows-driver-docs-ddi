@@ -47,7 +47,7 @@ The PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT callback function destroys synchroniz
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT Pfnd3dkmtDestroysynchronizationobject; 

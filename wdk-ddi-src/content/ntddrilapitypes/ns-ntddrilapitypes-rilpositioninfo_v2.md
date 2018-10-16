@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, *LPRI
 ## -syntax
 
 
-```
+```cpp
 struct RILPOSITIONINFO_V2 {
   DWORD                  cbSize;
   DWORD                  dwSystemType;

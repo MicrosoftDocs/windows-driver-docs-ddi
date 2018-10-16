@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_DEVICE_ENTRY {
   ULONG                             uPhyId;
   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO PhySpecificInfo;

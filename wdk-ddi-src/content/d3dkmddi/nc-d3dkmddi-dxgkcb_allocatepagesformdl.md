@@ -48,7 +48,7 @@ Implemented by the client driver to allocate physical memory pages for a memory 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_ALLOCATEPAGESFORMDL DxgkcbAllocatepagesformdl;

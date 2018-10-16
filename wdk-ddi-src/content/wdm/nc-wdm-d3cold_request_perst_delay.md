@@ -48,7 +48,7 @@ Enables the function device object (FDO) to convey its requirement for a fixed d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 D3COLD_REQUEST_PERST_DELAY D3coldRequestPerstDelay; 

@@ -59,7 +59,7 @@ The <b>ExAllocatePool</b> routine is <u>obsolete</u>, and is exported only for e
 ## -syntax
 
 
-```
+```cpp
 PVOID ExAllocatePool(
   _In_ POOL_TYPE PoolType,
   _In_ SIZE_T    NumberOfBytes

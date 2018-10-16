@@ -48,7 +48,7 @@ Calculates the driver's root signature size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001 Pfnd3d12ddiCalcPrivateRootSignatureSize0001; 

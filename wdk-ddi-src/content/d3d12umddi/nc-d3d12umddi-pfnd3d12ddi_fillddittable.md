@@ -48,7 +48,7 @@ Implemented by the client driver to retrieve the [D3D12DDI_DEVICE_FUNCS_VIDEO](n
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_FILLDDITTABLE Pfnd3d12ddiFillddittable;

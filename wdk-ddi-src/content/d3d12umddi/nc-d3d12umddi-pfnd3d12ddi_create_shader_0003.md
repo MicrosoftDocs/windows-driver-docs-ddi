@@ -48,7 +48,7 @@ Create shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_SHADER_0003 Pfnd3d12ddiCreateShader0003; 

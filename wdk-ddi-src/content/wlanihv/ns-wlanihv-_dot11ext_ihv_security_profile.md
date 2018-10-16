@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_IHV_SECURITY_PROFILE {
   LPWSTR pszXmlFragmentIhvSecurity;
   BOOL   bUseMSOnex;

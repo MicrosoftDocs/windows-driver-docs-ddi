@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_DISCOVER_DEVICE_FILTER {
   DOT11_MAC_ADDRESS DeviceID;
   UCHAR             ucBitmask;

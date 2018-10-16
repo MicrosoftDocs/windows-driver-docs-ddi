@@ -56,7 +56,7 @@ Stores function pointers to callback functions implemented by the physical funct
 ## -syntax
 
 
-```
+```cpp
 typedef struct _MITIGABLE_DEVICE_INTERFACE {
   USHORT                         Size;
   USHORT                         Version;

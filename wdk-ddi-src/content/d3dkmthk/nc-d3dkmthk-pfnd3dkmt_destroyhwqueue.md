@@ -48,7 +48,7 @@ Implemented by the client driver to destroy a hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYHWQUEUE Pfnd3dkmtDestroyhwqueue;

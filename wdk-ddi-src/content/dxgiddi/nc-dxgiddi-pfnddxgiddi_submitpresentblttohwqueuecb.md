@@ -48,7 +48,7 @@ Implemented by the client driver to submit a present Blt to hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB PfnddxgiddiSubmitpresentblttohwqueuecb;

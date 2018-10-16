@@ -56,7 +56,7 @@ The PARALLEL_PORT_INFORMATION structure specifies information about the resource
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PARALLEL_PORT_INFORMATION {
   PHYSICAL_ADDRESS                OriginalController;
   PUCHAR                          Controller;

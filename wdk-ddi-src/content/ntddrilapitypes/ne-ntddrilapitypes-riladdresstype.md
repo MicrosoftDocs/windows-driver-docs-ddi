@@ -58,7 +58,7 @@ req.typenames: RILADDRESSTYPE
 ## -syntax
 
 
-```
+```cpp
 enum RILADDRESSTYPE {
   RIL_ADDRTYPE_UNKNOWN        = 0x00000000,
   RIL_ADDRTYPE_INTERNATIONAL  = 0x00000001,

@@ -47,7 +47,7 @@ BuildRaytracingAccelerationStructure performs a ray tracing acceleration structu
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 Pfnd3d12ddiBuildRaytracingAccelerationStructure0054; 

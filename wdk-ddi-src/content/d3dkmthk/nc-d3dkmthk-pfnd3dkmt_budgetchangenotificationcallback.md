@@ -47,7 +47,7 @@ The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function notifies of a b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK Pfnd3dkmtBudgetchangenotificationcallback; 

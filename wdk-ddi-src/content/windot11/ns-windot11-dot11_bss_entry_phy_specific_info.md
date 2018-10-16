@@ -58,7 +58,7 @@ The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union specifies the attributes of the PHY 
 
 ## -syntax
 
-```
+```cpp
 typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
   ULONG  uChCenterFrequency;
   struct {

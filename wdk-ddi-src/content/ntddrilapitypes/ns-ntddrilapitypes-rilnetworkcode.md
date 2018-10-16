@@ -56,7 +56,7 @@ req.typenames: RILNETWORKCODE, *LPRILNETWORKCODE
 ## -syntax
 
 
-```
+```cpp
 struct RILNETWORKCODE {
   DWORD cbSize;
   DWORD dwParams;

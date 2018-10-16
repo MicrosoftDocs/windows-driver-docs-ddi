@@ -47,7 +47,7 @@ The Pfnd3dkmtGetallocationpriority callback function gets allocation priority.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETALLOCATIONPRIORITY Pfnd3dkmtGetallocationpriority; 

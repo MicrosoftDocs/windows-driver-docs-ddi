@@ -56,7 +56,7 @@ The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or no
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   const GUID          *Set;
   ULONG               Id;

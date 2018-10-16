@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtRequestVirtualStation(
   _In_opt_   HANDLE hDot11PrimaryHandle,
   _Reserved_ LPVOID pvReserved

@@ -48,7 +48,7 @@ Gets MIP packing info.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GETMIPPACKING Pfnd3d12ddiGetmippacking; 

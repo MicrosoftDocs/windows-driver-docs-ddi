@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_CAN_SUSTAIN_AP_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   ULONG              ulReason;

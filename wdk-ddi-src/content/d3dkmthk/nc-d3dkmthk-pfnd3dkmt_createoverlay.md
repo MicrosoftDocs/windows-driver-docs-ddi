@@ -47,7 +47,7 @@ The PFND3DKMT_CREATEOVERLAY callback function enables the overlay hardware if th
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEOVERLAY Pfnd3dkmtCreateoverlay; 

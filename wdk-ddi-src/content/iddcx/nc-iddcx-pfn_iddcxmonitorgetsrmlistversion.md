@@ -47,7 +47,7 @@ Implemented by the client driver to retrieve the latest SRM list version stored 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXMONITORGETSRMLISTVERSION *PfnIddcxmonitorgetsrmlistversion;

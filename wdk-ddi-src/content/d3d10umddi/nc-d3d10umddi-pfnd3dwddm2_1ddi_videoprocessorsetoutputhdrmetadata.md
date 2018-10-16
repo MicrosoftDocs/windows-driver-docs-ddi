@@ -48,7 +48,7 @@ Implemented by the client driver to include HDR metadata to allow the video proc
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA Pfnd3dwddm21DdiVideoprocessorsetoutputhdrmetadata;

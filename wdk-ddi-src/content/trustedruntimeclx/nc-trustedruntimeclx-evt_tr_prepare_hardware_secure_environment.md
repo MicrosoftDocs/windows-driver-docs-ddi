@@ -47,7 +47,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT EvtTrPrepareHardwareSecureEnvironment; 

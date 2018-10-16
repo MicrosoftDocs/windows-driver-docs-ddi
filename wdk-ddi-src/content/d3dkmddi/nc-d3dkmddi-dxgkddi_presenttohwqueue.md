@@ -48,7 +48,7 @@ Copies content from a source allocation, given a handle to a hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_PRESENTTOHWQUEUE DxgkddiPresenttohwqueue; 

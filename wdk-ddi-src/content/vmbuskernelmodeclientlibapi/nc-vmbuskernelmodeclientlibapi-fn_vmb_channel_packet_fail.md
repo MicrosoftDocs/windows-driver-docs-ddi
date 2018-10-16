@@ -50,7 +50,7 @@ The <b>VmbChannelPacketFail</b>  function fails a packet during packet processin
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_FAIL FnVmbChannelPacketFail; 

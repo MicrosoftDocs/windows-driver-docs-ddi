@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILNOTIFICATIONS {
   RIL_NOTIFY_RADIOEQUIPMENTSTATECHANGED,
   RIL_NOTIFY_RADIOPRESENCECHANGED,

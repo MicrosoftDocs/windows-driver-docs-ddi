@@ -47,7 +47,7 @@ The PFND3DKMT_SETQUEUEDLIMIT callback function sets or retrieves the limit for t
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETQUEUEDLIMIT Pfnd3dkmtSetqueuedlimit; 

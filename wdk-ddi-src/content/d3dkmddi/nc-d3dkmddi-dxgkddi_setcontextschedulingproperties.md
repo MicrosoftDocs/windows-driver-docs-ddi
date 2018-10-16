@@ -48,7 +48,7 @@ Set up or modify the scheduling properties for a device context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES DxgkddiSetcontextschedulingproperties;

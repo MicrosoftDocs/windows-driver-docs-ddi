@@ -48,7 +48,7 @@ Destroys a command signature.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_COMMAND_SIGNATURE Pfnd3d12ddiDestroyCommandSignature; 

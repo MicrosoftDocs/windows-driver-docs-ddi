@@ -50,7 +50,7 @@ The <b>VmbConvertVmbusHandleToKernelHandle</b> function converts the user mode V
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE FnVmbConvertVmbusHandleToKernelHandle; 

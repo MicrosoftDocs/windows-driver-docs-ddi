@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum DOT11_DIRECTION {
   DOT11_DIR_INBOUND   = 1,
   DOT11_DIR_OUTBOUND  = 2,

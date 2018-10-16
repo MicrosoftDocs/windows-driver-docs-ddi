@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY {
   DOT11_SSID             dot11SSID;
   DOT11_AUTH_ALGORITHM   dot11AuthAlgo;

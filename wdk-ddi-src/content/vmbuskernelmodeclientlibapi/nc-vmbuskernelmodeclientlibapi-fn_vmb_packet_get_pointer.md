@@ -51,7 +51,7 @@ saved by using the <a href="https://msdn.microsoft.com/FFEBEBD0-1FF2-4F27-B028-0
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_GET_POINTER FnVmbPacketGetPointer; 

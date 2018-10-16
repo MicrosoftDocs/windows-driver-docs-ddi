@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_AUTH_CIPHER_PAIR {
   DOT11_AUTH_ALGORITHM   AuthAlgoId;
   DOT11_CIPHER_ALGORITHM CipherAlgoId;

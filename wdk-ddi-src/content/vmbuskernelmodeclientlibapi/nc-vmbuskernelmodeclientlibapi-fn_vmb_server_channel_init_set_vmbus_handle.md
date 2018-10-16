@@ -48,7 +48,7 @@ The <b>VmbServerChannelInitSetVmbusHandle</b> function associates an instance of
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_SERVER_CHANNEL_INIT_SET_VMBUS_HANDLE FnVmbServerChannelInitSetVmbusHandle; 

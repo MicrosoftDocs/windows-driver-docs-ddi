@@ -56,7 +56,7 @@ The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method tha
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   ISCSI_NO_AUTH_TYPE           = 0,
   ISCSI_CHAP_AUTH_TYPE         = 1,

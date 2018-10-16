@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_APIS {
   DOT11EXT_ALLOCATE_BUFFER                Dot11ExtAllocateBuffer;
   DOT11EXT_FREE_BUFFER                    Dot11ExtFreeBuffer;

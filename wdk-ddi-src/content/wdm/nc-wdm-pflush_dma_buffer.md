@@ -49,7 +49,7 @@ The callback routine flushes any data remaining in the memory region described b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFLUSH_DMA_BUFFER PflushDmaBuffer; 

@@ -48,7 +48,7 @@ The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010 callback function creates a depth s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0010 Pfnd3d12ddiCreatedepthstencilstate0010; 

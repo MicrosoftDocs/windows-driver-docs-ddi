@@ -56,7 +56,7 @@ The PCI_PMCSR_BSE structure is used to report the contents of the power manageme
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_PMCSR_BSE {
   UCHAR Rsvd1;
   UCHAR D3HotSupportsStopClock;

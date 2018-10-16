@@ -48,7 +48,7 @@ Destroys a tracked workload.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYTRACKEDWORKLOAD Pfnd3dkmtDestroytrackedworkload; 

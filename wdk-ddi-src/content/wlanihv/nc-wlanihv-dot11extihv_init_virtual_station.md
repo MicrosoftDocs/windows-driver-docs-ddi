@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_INIT_VIRTUAL_STATION Dot11ExtIhvInitVirtualStation;
 
 DWORD APIENTRY Dot11ExtIhvInitVirtualStation(

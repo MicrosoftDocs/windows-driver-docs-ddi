@@ -48,7 +48,7 @@ Create a command signature.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001 Pfnd3d12ddiCreateCommandSignature0001; 

@@ -48,7 +48,7 @@ Calculates sizes for private opened heap and resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0003 Pfnd3d12ddiCalcprivateopenedheapandresourcesizes0003; 

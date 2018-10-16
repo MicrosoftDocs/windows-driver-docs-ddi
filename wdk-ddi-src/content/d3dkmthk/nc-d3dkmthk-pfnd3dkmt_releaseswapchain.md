@@ -47,7 +47,7 @@ The PFND3DKMT_RELEASESWAPCHAIN callback function releases swap chain resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RELEASESWAPCHAIN Pfnd3dkmtReleaseswapchain; 

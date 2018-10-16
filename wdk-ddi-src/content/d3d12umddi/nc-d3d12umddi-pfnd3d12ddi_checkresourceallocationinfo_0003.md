@@ -48,7 +48,7 @@ The pfnCheckResourceAllocationInfo callback function supports checking resource 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 Pfnd3d12ddiCheckresourceallocationinfo0003; 

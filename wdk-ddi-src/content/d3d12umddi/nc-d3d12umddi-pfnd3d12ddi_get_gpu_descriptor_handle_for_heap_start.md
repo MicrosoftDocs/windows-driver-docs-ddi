@@ -48,7 +48,7 @@ Gets the GPU descriptor handle that represents the start of the heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START Pfnd3d12ddiGetGpuDescriptorHandleForHeapStart; 

@@ -50,7 +50,7 @@ The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer. 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SAVE_CONTINUE FnVmbChannelSaveContinue; 

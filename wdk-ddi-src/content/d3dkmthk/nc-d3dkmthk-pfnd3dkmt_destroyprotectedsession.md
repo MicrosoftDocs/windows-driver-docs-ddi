@@ -48,7 +48,7 @@ Implemented by the client driver to destroy a protected session.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYPROTECTEDSESSION Pfnd3dkmtDestroyprotectedsession;

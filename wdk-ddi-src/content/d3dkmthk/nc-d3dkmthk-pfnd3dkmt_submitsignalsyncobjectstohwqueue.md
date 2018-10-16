@@ -48,7 +48,7 @@ Implemented by the client driver to submit a signal to the hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE Pfnd3dkmtSubmitsignalsyncobjectstohwqueue;

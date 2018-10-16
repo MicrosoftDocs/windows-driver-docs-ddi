@@ -48,7 +48,7 @@ Writes a byte to the port specified by address.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_UCHAR UartHardwareWriteUchar;

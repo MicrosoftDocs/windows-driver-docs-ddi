@@ -48,7 +48,7 @@ This callback function joins the specified DMA domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PLEAVE_DMA_DOMAIN PleaveDmaDomain; 

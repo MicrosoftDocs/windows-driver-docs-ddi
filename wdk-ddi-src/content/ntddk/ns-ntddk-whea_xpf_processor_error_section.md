@@ -56,7 +56,7 @@ The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes processor error data th
 ## -syntax
 
 
-```
+```cpp
 typedef struct _WHEA_XPF_PROCESSOR_ERROR_SECTION {
   WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS ValidBits;
   ULONGLONG                                  LocalAPICId;

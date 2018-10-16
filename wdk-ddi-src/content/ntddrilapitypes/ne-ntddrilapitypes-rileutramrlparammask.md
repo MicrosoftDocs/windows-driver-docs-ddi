@@ -58,7 +58,7 @@ req.typenames: RILEUTRAMRLPARAMMASK
 ## -syntax
 
 
-```
+```cpp
 enum RILEUTRAMRLPARAMMASK {
   RIL_PARAM_EUTRAMRL_MCC         = 0x00000001,
   RIL_PARAM_EUTRAMRL_MNC         = 0x00000002,

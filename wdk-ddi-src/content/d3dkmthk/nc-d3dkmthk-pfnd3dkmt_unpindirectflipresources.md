@@ -47,7 +47,7 @@ The PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function unpins direct flip reso
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UNPINDIRECTFLIPRESOURCES Pfnd3dkmtUnpindirectflipresources; 

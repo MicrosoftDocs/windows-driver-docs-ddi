@@ -48,7 +48,7 @@ Implemented by the client driver to offer resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_OFFERRESOURCES Pfnd3d12ddiOfferresources; 

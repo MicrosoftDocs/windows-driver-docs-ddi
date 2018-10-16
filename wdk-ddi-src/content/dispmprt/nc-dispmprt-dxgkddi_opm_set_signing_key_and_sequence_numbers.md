@@ -56,7 +56,7 @@ The<i> DxgkDdiOPMSetSigningKeyAndSequenceNumbers</i> function sets the given pro
 ## -prototype
 
 
-```
+```cpp
 DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS DxgkDdiOPMSetSigningKeyAndSequenceNumbers;
 
 NTSTATUS DxgkDdiOPMSetSigningKeyAndSequenceNumbers(

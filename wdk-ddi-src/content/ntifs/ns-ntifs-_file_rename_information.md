@@ -54,7 +54,7 @@ The <b>FILE_RENAME_INFORMATION</b> structure is used to rename a file.
 
 ## -syntax
 
-```
+```cpp
 typedef struct _FILE_RENAME_INFORMATION {
 #if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS1)
     union {

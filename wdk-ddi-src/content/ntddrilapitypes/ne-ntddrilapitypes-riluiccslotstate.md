@@ -56,7 +56,7 @@ req.typenames: RILUICCSLOTSTATE
 ## -syntax
 
 
-```
+```cpp
 enum RILUICCSLOTSTATE {
   RIL_UICCSLOT_OFF_EMPTY  = 0x01,
   RIL_UICCSLOT_OFF        = 0x02,

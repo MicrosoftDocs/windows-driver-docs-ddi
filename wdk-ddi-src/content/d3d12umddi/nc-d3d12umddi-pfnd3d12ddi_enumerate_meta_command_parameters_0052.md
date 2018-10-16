@@ -48,7 +48,7 @@ Enumerates meta-command parameters.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052 Pfnd3d12ddiEnumerateMetaCommandParameters0052; 

@@ -47,7 +47,7 @@ The Pfnd3dkmtFreegpuvirtualaddress callback function releases a range of graphic
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_FREEGPUVIRTUALADDRESS Pfnd3dkmtFreegpuvirtualaddress; 

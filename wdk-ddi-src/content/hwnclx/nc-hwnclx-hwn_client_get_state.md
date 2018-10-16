@@ -57,7 +57,7 @@ Implemented by the client driver to get hardware notification component state. I
 ## -prototype
 
 
-```
+```cpp
 HWN_CLIENT_GET_STATE HwnClientGetState;
 
 NTSTATUS HwnClientGetState(

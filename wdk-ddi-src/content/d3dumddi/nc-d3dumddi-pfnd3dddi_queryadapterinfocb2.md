@@ -48,7 +48,7 @@ Implemented by the client driver to retrieve graphics adapter information.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_QUERYADAPTERINFOCB2 Pfnd3dddiQueryadapterinfocb2;

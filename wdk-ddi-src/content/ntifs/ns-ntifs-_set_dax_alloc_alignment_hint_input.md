@@ -71,7 +71,9 @@ The block size used to align the given offset of the file. The file is allocated
 
 The actual alignment value is given by:
 
-```AlignmentValue = (1 << AlignmentShift);```
+```cpp
+AlignmentValue = (1 << AlignmentShift);
+```
 
 ### -field FileOffsetToAlign
 

@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_INVITATION_FLAGS {
   UCHAR InvitationType:1;
   UCHAR Reserved:7;

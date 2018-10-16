@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_DEVICE_INFO {
   NDIS_OBJECT_HEADER    Header;
   DOT11_MAC_ADDRESS     DeviceAddress;

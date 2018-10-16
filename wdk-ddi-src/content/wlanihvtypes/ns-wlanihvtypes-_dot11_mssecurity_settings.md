@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_MSSECURITY_SETTINGS {
   DOT11_AUTH_ALGORITHM   dot11AuthAlgorithm;
   DOT11_CIPHER_ALGORITHM dot11CipherAlgorithm;

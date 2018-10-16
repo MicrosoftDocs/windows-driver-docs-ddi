@@ -61,7 +61,7 @@ For passive level interrupt objects, the method ends a code sequence that execut
 ## -prototype
 
 
-```
+```cpp
 VOID WdfInterruptReleaseLock(
   _In_ WDFINTERRUPT Interrupt
 );

@@ -47,7 +47,7 @@ The PFND3DKMT_PRESENTMULTIPLANEOVERLAY callback function copies content from a s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_PRESENTMULTIPLANEOVERLAY Pfnd3dkmtPresentmultiplaneoverlay; 

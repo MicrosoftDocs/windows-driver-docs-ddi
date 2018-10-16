@@ -56,7 +56,7 @@ Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF)
 ## -prototype
 
 
-```
+```cpp
 SRIOV_GET_VENDOR_AND_DEVICE_IDS SriovGetVendorAndDeviceIds;
 
 NTSTATUS SriovGetVendorAndDeviceIds(

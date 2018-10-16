@@ -56,7 +56,7 @@ req.typenames: RILEUTRAMRL, *LPRILEUTRAMRL
 ## -syntax
 
 
-```
+```cpp
 struct RILEUTRAMRL {
   DWORD dwParams;
   DWORD dwMobileCountryCode;

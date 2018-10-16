@@ -57,7 +57,7 @@ A port monitor's <code>OpenPort</code> function opens a printer port.
 ## -syntax
 
 
-```
+```cpp
 BOOL WINAPI pfnOpenPort(
    HANDLE  hMonitor,
    LPWSTR  pName,

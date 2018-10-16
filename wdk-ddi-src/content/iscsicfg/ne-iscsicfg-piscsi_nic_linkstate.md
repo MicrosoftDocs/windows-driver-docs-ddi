@@ -56,7 +56,7 @@ The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   ISCSI_NIC_LINKSTATE_DISCONNECTED  = 0,
   ISCSI_NIC_LINKSTATE_CONNECTED     = 1

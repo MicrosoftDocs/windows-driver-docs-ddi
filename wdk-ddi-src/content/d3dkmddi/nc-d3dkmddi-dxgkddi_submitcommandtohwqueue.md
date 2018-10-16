@@ -47,7 +47,7 @@ Invoked by the DirectX graphics kernel to append a DMA (direct memory access) bu
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SUBMITCOMMANDTOHWQUEUE DxgkddiSubmitcommandtohwqueue; 

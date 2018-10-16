@@ -48,7 +48,7 @@ Implemented by the client driver to clean up command pool resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_COMMAND_POOL_0040 Pfnd3d12ddiDestroyCommandPool0040;

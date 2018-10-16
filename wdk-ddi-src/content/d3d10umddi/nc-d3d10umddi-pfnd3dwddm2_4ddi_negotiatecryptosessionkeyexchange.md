@@ -48,7 +48,7 @@ Establishes a session key for a cryptographic session object.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE Pfnd3dwddm24DdiNegotiatecryptosessionkeyexchange;

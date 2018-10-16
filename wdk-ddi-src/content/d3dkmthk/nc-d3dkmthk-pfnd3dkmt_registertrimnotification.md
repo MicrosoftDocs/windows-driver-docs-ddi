@@ -47,7 +47,7 @@ The PFND3DKMT_REGISTERTRIMNOTIFICATION callback function registers trim notifica
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_REGISTERTRIMNOTIFICATION Pfnd3dkmtRegistertrimnotification; 

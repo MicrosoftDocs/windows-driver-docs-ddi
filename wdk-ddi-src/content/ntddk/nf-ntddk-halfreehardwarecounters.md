@@ -56,7 +56,7 @@ The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance c
 ## -syntax
 
 
-```
+```cpp
 NTSTATUS HalFreeHardwareCounters(
   _In_ HANDLE CounterSetHandle
 );

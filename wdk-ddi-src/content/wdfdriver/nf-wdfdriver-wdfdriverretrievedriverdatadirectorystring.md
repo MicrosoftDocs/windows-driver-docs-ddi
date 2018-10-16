@@ -68,7 +68,7 @@ For more information about string objects, see [Using String Objects](https://do
 
 The following code example shows how to call **WdfDriverRetrieveDriverDataDirectoryString**:
 
-```
+```cpp
 NTSTATUS status;
 WDFSTRING string;
 

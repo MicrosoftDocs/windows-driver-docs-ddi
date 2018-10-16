@@ -47,7 +47,7 @@ The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU callback function is used to si
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU Pfnd3dkmtSignalsynchronizationobjectfromgpu; 

@@ -49,7 +49,7 @@ Toggles the error reporting for the FPGA device and its parent bridge.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_CONTROL_ERROR_REPORTING FpgaControlErrorReporting; 

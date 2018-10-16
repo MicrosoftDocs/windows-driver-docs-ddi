@@ -61,7 +61,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSendNotification(
   _In_opt_ HANDLE                hDot11SvcHandle,
   _In_     PL2_NOTIFICATION_DATA pNotificationData

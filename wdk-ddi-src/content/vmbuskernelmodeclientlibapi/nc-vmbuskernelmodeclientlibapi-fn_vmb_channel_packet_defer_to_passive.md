@@ -51,7 +51,7 @@ passed to it by the <a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_DEFER_TO_PASSIVE FnVmbChannelPacketDeferToPassive; 

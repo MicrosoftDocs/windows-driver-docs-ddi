@@ -48,7 +48,7 @@ Sets the command list table.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB Pfnd3d12ddiSetcommandlistdditableCb;

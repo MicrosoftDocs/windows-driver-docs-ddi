@@ -56,7 +56,7 @@ This structure is the input buffer in the <a href="https://msdn.microsoft.com/58
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_MITIGATED_RANGES_INPUT {
   USHORT  VfIndex;
   UCHAR   BarNumber;

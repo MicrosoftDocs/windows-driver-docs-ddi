@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_ADAPTER_RESET Dot11ExtIhvAdapterReset;
 
 DWORD APIENTRY Dot11ExtIhvAdapterReset(

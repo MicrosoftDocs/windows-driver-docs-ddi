@@ -48,7 +48,7 @@ Adds a GPU instruction to signal the paging monitored fence object to the DMA (d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SIGNALMONITOREDFENCE DxgkddiSignalmonitoredfence; 

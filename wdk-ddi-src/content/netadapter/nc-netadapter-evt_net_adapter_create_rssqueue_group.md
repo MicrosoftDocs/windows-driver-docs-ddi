@@ -52,7 +52,7 @@ The *EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP* callback function is reserved for sy
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP EvtNetAdapterCreateRssqueueGroup; 

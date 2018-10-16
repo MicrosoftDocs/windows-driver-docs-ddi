@@ -56,7 +56,7 @@ req.typenames: RILC2KMRLPARAMMASK
 ## -syntax
 
 
-```
+```cpp
 enum RILC2KMRLPARAMMASK {
   RIL_PARAM_C2KMRL_SERVING        = 0x00000001,
   RIL_PARAM_C2KMRL_NID            = 0x00000002,

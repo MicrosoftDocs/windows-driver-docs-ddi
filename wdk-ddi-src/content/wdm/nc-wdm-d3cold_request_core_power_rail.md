@@ -48,7 +48,7 @@ Enables the function device object (FDO) to indicate whether the core power rail
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 D3COLD_REQUEST_CORE_POWER_RAIL D3coldRequestCorePowerRail; 

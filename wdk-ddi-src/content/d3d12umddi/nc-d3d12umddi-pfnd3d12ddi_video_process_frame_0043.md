@@ -48,7 +48,7 @@ Implemented by the client driver to process a video frame.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 Pfnd3d12ddiVideoProcessFrame0043;

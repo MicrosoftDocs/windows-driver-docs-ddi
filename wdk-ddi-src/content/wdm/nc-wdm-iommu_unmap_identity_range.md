@@ -47,7 +47,7 @@ Deletes an identity mapping for the specified MDL.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_UNMAP_IDENTITY_RANGE IommuUnmapIdentityRange; 

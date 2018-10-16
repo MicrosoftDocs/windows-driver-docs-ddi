@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILC2KMRLPARAMMASK {
   RIL_PARAM_C2KMRL_NID,
   RIL_PARAM_C2KMRL_SID,

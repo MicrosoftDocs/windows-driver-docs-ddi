@@ -48,7 +48,7 @@ Called by the workload tracker to modify the power level on a context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL DxgkddiSettrackedworkloadpowerlevel; 

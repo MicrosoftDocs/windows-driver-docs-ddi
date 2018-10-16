@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 BOOL FindFirstPrinterChangeNotification(
    HANDLE hPrinter,
    DWORD  fdwFlags,

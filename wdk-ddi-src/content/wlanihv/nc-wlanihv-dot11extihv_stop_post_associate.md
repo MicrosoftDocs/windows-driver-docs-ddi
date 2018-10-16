@@ -63,7 +63,7 @@ The operating system calls the
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_STOP_POST_ASSOCIATE Dot11ExtIhvStopPostAssociate;
 
 DWORD APIENTRY Dot11ExtIhvStopPostAssociate(

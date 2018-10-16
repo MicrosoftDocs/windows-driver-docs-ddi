@@ -48,7 +48,7 @@ Gets the available tracked workload index.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX Pfnd3dkmtGetavailabletrackedworkloadindex; 

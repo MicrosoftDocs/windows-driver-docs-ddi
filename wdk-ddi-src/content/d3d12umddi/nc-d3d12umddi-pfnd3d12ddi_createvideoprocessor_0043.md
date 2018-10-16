@@ -48,7 +48,7 @@ The <i>pfnCreateVideoProcessor</i> callback function creates a video processor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEVIDEOPROCESSOR_0043 Pfnd3d12ddiCreatevideoprocessor0043;

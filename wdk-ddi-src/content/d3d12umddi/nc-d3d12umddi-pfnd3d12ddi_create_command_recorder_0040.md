@@ -48,7 +48,7 @@ Create a command to start recording data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMMAND_RECORDER_0040 Pfnd3d12ddiCreateCommandRecorder0040;

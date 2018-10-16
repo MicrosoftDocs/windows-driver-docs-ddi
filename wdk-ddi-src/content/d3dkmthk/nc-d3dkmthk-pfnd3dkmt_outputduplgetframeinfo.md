@@ -47,7 +47,7 @@ The PFND3DKMT_OUTPUTDUPLGETFRAMEINFO callback function gets output duplicate fra
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OUTPUTDUPLGETFRAMEINFO Pfnd3dkmtOutputduplgetframeinfo; 

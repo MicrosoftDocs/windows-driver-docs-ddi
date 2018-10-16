@@ -48,7 +48,7 @@ Implemented by the client driver to check the format support.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKFORMATSUPPORT Pfnd3d12ddiCheckformatsupport;

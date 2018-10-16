@@ -56,7 +56,7 @@ Reads data from  the configuration space of the specified PCI Express SR-IOV Vir
 ## -prototype
 
 
-```
+```cpp
 NTSTATUS  SRIOV_READ_CONFIG(
   _In_        PVOID  Context,
   _Out_ const VOID   *Data,

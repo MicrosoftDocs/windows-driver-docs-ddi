@@ -47,7 +47,7 @@ The PFND3DKMT_QUERYPROCESSOFFERINFO callback function queries the process offer 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYPROCESSOFFERINFO Pfnd3dkmtQueryprocessofferinfo; 

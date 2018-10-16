@@ -48,7 +48,7 @@ Used to calculate the pipeline state size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0010 Pfnd3d12ddiCalcPrivatePipelineStateSize0010; 

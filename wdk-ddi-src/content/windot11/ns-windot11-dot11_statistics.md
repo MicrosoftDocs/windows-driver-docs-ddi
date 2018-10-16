@@ -59,7 +59,7 @@ The DOT11_STATISTICS structure records statistical counters for the 802.11 inter
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_STATISTICS {
   NDIS_OBJECT_HEADER         Header;
   ULONGLONG                  ullFourWayHandshakeFailures;

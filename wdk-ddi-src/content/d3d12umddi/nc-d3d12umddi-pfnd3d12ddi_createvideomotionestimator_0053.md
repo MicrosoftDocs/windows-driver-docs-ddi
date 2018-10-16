@@ -48,7 +48,7 @@ Creates the video motion estimator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 Pfnd3d12ddiCreatevideomotionestimator0053; 

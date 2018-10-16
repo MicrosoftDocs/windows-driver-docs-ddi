@@ -47,7 +47,7 @@ The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT callback function inserts a signal for
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT Pfnd3dkmtSignalsynchronizationobject; 

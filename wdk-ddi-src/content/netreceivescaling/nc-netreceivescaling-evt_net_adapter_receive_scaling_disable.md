@@ -52,7 +52,7 @@ The *EvtNetAdapterReceiveScalingDisable* callback function is implemented by the
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE EvtNetAdapterReceiveScalingDisable; 

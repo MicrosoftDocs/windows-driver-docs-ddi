@@ -47,7 +47,7 @@ Creates a new DMA remapping device domain (a container for a set of page tables)
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_CREATE IommuDomainCreate; 

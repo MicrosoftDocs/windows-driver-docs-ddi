@@ -56,7 +56,7 @@ req.typenames: RILUICCLOCK, *LPRILUICCLOCK
 ## -syntax
 
 
-```
+```cpp
 struct RILUICCLOCK {
   HUICCAPP hUiccApp;
   DWORD    dwKeyRef;

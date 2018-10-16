@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_OFFLOAD_NETWORK {
   DOT11_SSID             Ssid;
   DOT11_CIPHER_ALGORITHM UnicastCipher;

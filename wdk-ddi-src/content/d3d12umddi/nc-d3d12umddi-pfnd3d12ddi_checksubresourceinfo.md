@@ -48,7 +48,7 @@ Check subresource info.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKSUBRESOURCEINFO Pfnd3d12ddiChecksubresourceinfo; 

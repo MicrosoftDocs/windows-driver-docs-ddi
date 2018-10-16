@@ -47,7 +47,7 @@ The PFND3DKMT_DESTROYDCFROMMEMORY callback function destroys a device context fr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYDCFROMMEMORY Pfnd3dkmtDestroydcfrommemory; 

@@ -48,7 +48,7 @@ Calculates private command allocator size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATECOMMANDALLOCATORSIZE Pfnd3d12ddiCalcprivatecommandallocatorsize; 

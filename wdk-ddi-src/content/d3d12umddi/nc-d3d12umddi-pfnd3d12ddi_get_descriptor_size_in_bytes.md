@@ -48,7 +48,7 @@ The PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES callback function gets the size of 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES Pfnd3d12ddiGetDescriptorSizeInBytes; 

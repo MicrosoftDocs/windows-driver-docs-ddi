@@ -47,7 +47,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_ENUMERATE_SECURE_SERVICES EvtTrEnumerateSecureServices; 

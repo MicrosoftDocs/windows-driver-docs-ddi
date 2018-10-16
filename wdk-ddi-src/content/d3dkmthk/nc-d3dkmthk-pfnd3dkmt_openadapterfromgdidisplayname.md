@@ -47,7 +47,7 @@ Pfnd3dkmtOpenadapterfromgdidisplayname maps a GDI device name to a graphics adap
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENADAPTERFROMGDIDISPLAYNAME Pfnd3dkmtOpenadapterfromgdidisplayname; 

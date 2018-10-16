@@ -48,7 +48,7 @@ Implemented by the client driver to get required information for a meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO Pfnd3d12ddiGetMetacommandRequiredParameterInfo;

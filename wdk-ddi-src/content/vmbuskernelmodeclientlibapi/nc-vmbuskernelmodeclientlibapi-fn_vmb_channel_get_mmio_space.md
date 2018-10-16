@@ -50,7 +50,7 @@ The **VmbChannelGetMmioSpace** function retrieves the kernel virtual address of 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_GET_MMIO_SPACE FnVmbChannelGetMmioSpace; 

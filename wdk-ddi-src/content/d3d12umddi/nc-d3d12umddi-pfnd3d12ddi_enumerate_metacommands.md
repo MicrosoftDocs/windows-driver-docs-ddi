@@ -48,7 +48,7 @@ The PFND3D12DDI_ENUMERATE_METACOMMANDS callback function enumerates meta-command
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ENUMERATE_METACOMMANDS Pfnd3d12ddiEnumerateMetacommands;

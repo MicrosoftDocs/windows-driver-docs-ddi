@@ -47,7 +47,7 @@ Pfnd3dkmtGetpresenthistory retrieves copying history.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETPRESENTHISTORY Pfnd3dkmtGetpresenthistory; 

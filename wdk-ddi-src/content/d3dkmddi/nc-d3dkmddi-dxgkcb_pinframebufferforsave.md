@@ -48,7 +48,7 @@ Implemented by the client driver to pin down the entire frame buffer at once.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_PINFRAMEBUFFERFORSAVE DxgkcbPinframebufferforsave;

@@ -57,7 +57,7 @@ The PCI_PM_CAPABILITY structure reports the power management capabilities of the
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_PM_CAPABILITY {
   PCI_CAPABILITIES_HEADER Header;
   union {

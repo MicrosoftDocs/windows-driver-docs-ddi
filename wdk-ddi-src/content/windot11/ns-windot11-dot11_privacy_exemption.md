@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_PRIVACY_EXEMPTION {
   USHORT usEtherType;
   USHORT usExemptionActionType;

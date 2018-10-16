@@ -48,7 +48,7 @@ Reads a ULONG value from the specified port or register.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_READ_ULONG UartHardwareReadUlong;

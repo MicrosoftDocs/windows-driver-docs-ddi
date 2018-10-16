@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILSMSFORMAT {
   RIL_SMSFORMAT_3GPP,
   RIL_SMSFORMAT_3GPP2,

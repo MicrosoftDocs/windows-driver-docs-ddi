@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILREGSTAT {
   RIL_REGSTAT_UNREGISTERED,
   RIL_REGSTAT_HOME,

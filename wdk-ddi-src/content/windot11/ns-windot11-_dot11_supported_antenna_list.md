@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_SUPPORTED_ANTENNA_LIST {
   ULONG                   uNumOfEntries;
   ULONG                   uTotalNumOfEntries;

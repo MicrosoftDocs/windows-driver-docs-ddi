@@ -56,7 +56,7 @@ The <b>GetFieldOffset</b> function returns the offset of a member from the begin
 ## -syntax
 
 
-```
+```cpp
 __inline ULONG GetFieldOffset(
   _In_  LPCSTR Type,
   _In_  LPCSTR Field,

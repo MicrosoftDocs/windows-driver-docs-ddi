@@ -47,7 +47,7 @@ Sends notifications about hub arrival/removal and connector state changes.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_USBPM_EVENT_CALLBACK EvtUsbpmEventCallback; 

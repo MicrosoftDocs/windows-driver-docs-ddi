@@ -56,7 +56,7 @@ req.typenames: RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS
 ## -syntax
 
 
-```
+```cpp
 struct RILUICCRECORDSTATUS {
   DWORD                 cbSize;
   DWORD                 dwParams;

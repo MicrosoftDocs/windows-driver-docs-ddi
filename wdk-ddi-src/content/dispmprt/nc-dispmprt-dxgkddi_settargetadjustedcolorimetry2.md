@@ -48,7 +48,7 @@ Reports the colorimetry values selected by the OS for a target.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 DxgkddiSettargetadjustedcolorimetry2; 

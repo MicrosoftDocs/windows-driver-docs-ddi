@@ -57,7 +57,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetRe
 ## -prototype
 
 
-```
+```cpp
 GET_VIRTUAL_DEVICE_RESOURCES GetResources;
 
 VOID GetResources(

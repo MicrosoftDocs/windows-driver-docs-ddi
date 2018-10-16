@@ -49,7 +49,7 @@ driver calls a save function, such as <a href="https://msdn.microsoft.com/A09462
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS FnVmbServerChannelInitSetSaveRestorePacketCallbacks; 

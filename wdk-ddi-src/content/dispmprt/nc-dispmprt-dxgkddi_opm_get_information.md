@@ -56,7 +56,7 @@ The<i> DxgkDdiOPMGetInformation</i> function retrieves information from the give
 ## -prototype
 
 
-```
+```cpp
 DXGKDDI_OPM_GET_INFORMATION DxgkDdiOPMGetInformation;
 
 NTSTATUS DxgkDdiOPMGetInformation(

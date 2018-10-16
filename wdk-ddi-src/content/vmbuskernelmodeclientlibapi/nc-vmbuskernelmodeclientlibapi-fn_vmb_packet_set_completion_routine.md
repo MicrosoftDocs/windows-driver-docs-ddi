@@ -50,7 +50,7 @@ The <b>VmbPacketSetCompletionRoutine</b> function sets the completion routine fo
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_SET_COMPLETION_ROUTINE FnVmbPacketSetCompletionRoutine; 

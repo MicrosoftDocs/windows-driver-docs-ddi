@@ -47,7 +47,7 @@ The PFND3DKMT_WAITFORIDLE callback function waits for a display device to be idl
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORIDLE Pfnd3dkmtWaitforidle; 

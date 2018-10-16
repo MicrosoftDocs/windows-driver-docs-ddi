@@ -48,7 +48,7 @@ Gets any physical backings for the virtual device MMIO (memory mapped input outp
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_GETBACKINGRESOURCE DxgkddiGetbackingresource; 

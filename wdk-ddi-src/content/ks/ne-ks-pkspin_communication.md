@@ -56,7 +56,7 @@ req.typenames: KSPIN_COMMUNICATION, *PKSPIN_COMMUNICATION
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   KSPIN_COMMUNICATION_NONE,
   KSPIN_COMMUNICATION_SINK,

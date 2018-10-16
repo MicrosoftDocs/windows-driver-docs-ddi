@@ -48,7 +48,7 @@ Get the memory ranges for a single MMIO (memory mapped input output) BAR (base a
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_GETMMIORANGES DxgkddiGetmmioranges; 

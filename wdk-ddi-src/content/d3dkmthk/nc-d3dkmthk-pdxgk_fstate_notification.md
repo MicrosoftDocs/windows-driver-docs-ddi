@@ -48,7 +48,7 @@ Implemented by the client driver to issue a state notification.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PDXGK_FSTATE_NOTIFICATION PdxgkFstateNotification;

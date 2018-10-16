@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_INCOMING_ASSOC_DECISION {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  PeerMacAddr;

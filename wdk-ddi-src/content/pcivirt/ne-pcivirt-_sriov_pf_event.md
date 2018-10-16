@@ -56,7 +56,7 @@ Defines event values for the SR-IOV device.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _SRIOV_PF_EVENT {
   SriovEventPfQueryStopDevice,
   SriovEventPfRestart,

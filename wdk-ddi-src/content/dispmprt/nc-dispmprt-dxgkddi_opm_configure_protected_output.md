@@ -56,7 +56,7 @@ The<i> DxgkDdiOPMConfigureProtectedOutput</i> function configures the given prot
 ## -prototype
 
 
-```
+```cpp
 DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT DxgkDdiOPMConfigureProtectedOutput;
 
 NTSTATUS DxgkDdiOPMConfigureProtectedOutput(

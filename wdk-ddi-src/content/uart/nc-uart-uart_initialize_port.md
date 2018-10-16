@@ -48,7 +48,7 @@ Initializes or resets the UART hardware. This callback function is called before
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_INITIALIZE_PORT UartInitializePort;

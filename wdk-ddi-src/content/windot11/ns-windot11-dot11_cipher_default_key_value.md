@@ -61,7 +61,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_CIPHER_DEFAULT_KEY_VALUE {
   NDIS_OBJECT_HEADER     Header;
   ULONG                  uKeyIndex;

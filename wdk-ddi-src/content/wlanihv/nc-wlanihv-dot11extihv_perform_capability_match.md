@@ -62,7 +62,7 @@ The operating system calls the
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_PERFORM_CAPABILITY_MATCH Dot11ExtIhvPerformCapabilityMatch;
 
 DWORD APIENTRY Dot11ExtIhvPerformCapabilityMatch(

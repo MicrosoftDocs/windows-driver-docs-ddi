@@ -62,7 +62,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_EXTSTA_ATTRIBUTES {
   NDIS_OBJECT_HEADER              Header;
   ULONG                           uScanSSIDListSize;

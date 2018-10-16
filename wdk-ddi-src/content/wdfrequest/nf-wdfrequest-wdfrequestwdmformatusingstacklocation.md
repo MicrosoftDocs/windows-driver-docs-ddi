@@ -99,7 +99,7 @@ For more information about <b>WdfRequestWdmFormatUsingStackLocation</b>, see <a 
 
 The following code example supplies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure for an I/O request, sets a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function, and then sends the request to an I/O target.
 
-```
+```cpp
 IO_STACK_LOCATION  ioStackLocation;
 BOOLEAN sendStatus;
 ...
@@ -134,7 +134,7 @@ sendStatus = WdfRequestSend(
 
 The following code example illustrates how to send a PnP [IRP_MN_QUERY_CAPABILITIES](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities) IRP to an IO target.
 
-```
+```cpp
 target = WdfDeviceGetIoTarget(Device);
 status = WdfRequestCreate(WDF_NO_OBJECT_ATTRIBUTES,
                           target,

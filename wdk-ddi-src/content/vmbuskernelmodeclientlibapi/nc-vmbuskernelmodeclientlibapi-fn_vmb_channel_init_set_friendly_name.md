@@ -51,7 +51,7 @@ performance counter instance naming.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME FnVmbChannelInitSetFriendlyName; 

@@ -56,7 +56,7 @@ The BATTERY_STATUS structure is used by battery miniclass drivers to return stat
 ## -syntax
 
 
-```
+```cpp
 typedef struct _BATTERY_STATUS {
   ULONG PowerState;
   ULONG Capacity;

@@ -50,7 +50,7 @@ The <b>VmbChannelPause</b>  function moves a channel into the paused state, whic
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PAUSE FnVmbChannelPause; 

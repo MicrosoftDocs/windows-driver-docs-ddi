@@ -48,7 +48,7 @@ Gets the number of memory ranges in the virtual device's MMIO (memory mapped inp
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_GETMMIORANGECOUNT DxgkddiGetmmiorangecount; 

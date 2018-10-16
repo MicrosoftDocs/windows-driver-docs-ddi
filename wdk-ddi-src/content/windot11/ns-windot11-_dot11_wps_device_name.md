@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WPS_DEVICE_NAME {
    ULONG
 uDeviceNameLength;

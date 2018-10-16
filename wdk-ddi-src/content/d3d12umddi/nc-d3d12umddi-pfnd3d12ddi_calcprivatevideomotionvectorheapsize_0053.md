@@ -48,7 +48,7 @@ Calculates the video motion vector heap size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053 Pfnd3d12ddiCalcprivatevideomotionvectorheapsize0053; 

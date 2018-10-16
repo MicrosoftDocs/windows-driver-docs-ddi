@@ -47,7 +47,7 @@ The Pfnd3dkmtGetcontextschedulingpriority retrieves the scheduling priority for 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY Pfnd3dkmtGetcontextschedulingpriority; 

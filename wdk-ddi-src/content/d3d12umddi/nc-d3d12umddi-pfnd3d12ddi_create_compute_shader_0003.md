@@ -48,7 +48,7 @@ Create a compute shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMPUTE_SHADER_0003 Pfnd3d12ddiCreateComputeShader0003; 

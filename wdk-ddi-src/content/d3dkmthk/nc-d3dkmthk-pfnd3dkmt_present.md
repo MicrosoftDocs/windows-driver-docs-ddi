@@ -47,7 +47,7 @@ The PFND3DKMT_PRESENT callback function submits a present command to the Microso
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_PRESENT Pfnd3dkmtPresent; 

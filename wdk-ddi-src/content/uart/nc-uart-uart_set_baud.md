@@ -48,7 +48,7 @@ Changes the baud rate of the UART hardware.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_SET_BAUD UartSetBaud;

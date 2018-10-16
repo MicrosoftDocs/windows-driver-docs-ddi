@@ -56,7 +56,7 @@ Stores the status for an event that the SR-IOV Physical Function (PF) driver sho
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_PNP_EVENT_COMPLETE {
   NTSTATUS  QueryStatus;
 } SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE;

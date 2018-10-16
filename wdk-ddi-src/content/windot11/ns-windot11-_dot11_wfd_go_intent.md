@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_GO_INTENT {
   UCHAR TieBreaker:1;
   UCHAR Intent:7;

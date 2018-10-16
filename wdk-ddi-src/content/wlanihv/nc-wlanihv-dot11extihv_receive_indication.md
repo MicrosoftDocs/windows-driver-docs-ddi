@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_RECEIVE_INDICATION Dot11ExtIhvReceiveIndication;
 
 DWORD APIENTRY Dot11ExtIhvReceiveIndication(

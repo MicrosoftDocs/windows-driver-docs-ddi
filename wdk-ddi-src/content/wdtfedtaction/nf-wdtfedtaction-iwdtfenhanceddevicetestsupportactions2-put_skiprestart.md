@@ -60,7 +60,7 @@ This property is write-only.
 ## -syntax
 
 
-```
+```cpp
 HRESULT put_SkipRestart(
   [in] VARIANT_BOOL bSkipRestart
 );

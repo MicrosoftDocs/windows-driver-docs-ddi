@@ -56,7 +56,7 @@ The EMULATOR_ACCESS_ENTRY structure specifies an element in the <b>EmulatorAcces
 ## -syntax
 
 
-```
+```cpp
 typedef struct _EMULATOR_ACCESS_ENTRY {
   ULONG                     BasePort;
   ULONG                     NumConsecutivePorts;

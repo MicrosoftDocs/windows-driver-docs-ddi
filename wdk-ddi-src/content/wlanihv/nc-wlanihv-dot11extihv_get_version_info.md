@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_GET_VERSION_INFO Dot11ExtIhvGetVersionInfo;
 
 DWORD APIENTRY Dot11ExtIhvGetVersionInfo(

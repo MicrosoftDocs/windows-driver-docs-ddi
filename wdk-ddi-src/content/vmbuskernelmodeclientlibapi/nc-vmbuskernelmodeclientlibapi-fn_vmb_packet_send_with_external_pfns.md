@@ -51,7 +51,7 @@ throughout the lifetime of the transaction.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS FnVmbPacketSendWithExternalPfns; 

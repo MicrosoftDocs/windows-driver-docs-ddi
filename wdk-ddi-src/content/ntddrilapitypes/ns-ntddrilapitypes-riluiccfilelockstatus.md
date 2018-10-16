@@ -56,7 +56,7 @@ req.typenames: RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS
 ## -syntax
 
 
-```
+```cpp
 struct RILUICCFILELOCKSTATUS {
   DWORD                                cbSize;
   DWORD                                dwParams;

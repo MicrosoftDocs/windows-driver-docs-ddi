@@ -59,7 +59,7 @@ The <i>EnumLogEntry</i> routine makes a log entry.
 ## -prototype
 
 
-```
+```cpp
 USB_BUSIFFN_ENUM_LOG_ENTRY EnumLogEntry;
 
 NTSTATUS EnumLogEntry(

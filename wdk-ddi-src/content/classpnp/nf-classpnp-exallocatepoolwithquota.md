@@ -58,7 +58,7 @@ The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u>, and is exported o
 ## -syntax
 
 
-```
+```cpp
 PVOID ExAllocatePoolWithQuota(
   _In_ POOL_TYPE PoolType,
   _In_ SIZE_T    NumberOfBytes

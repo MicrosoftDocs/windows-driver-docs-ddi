@@ -57,7 +57,7 @@ The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) 
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
   struct {
     ULONG ReceiverError  :1;

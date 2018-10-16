@@ -47,7 +47,7 @@ Pfnd3dkmtGetoverlaystate retrieves the status about an overlay.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETOVERLAYSTATE Pfnd3dkmtGetoverlaystate; 

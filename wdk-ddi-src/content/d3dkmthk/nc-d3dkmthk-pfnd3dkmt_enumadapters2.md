@@ -47,7 +47,7 @@ The PFND3DKMT_ENUMADAPTERS2 callback function enumerates all graphics adapters o
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ENUMADAPTERS2 Pfnd3dkmtEnumadapters2; 

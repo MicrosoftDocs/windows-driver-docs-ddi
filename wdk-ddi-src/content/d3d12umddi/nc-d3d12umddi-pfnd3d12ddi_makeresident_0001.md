@@ -47,7 +47,7 @@ pfnMakeResident is used to instruct the OS to add a resource to the device resid
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_MAKERESIDENT_0001 Pfnd3d12ddiMakeresident0001; 

@@ -48,7 +48,7 @@ The *TxSuspectFrameListAbort* callback function is implemented by the IHV minipo
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT MiniportWdiTxSuspectFrameListAbort; 

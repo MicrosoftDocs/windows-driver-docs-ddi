@@ -56,7 +56,7 @@ The <i>DxgkProtectedCallback</i> callback routine is implemented by the display 
 ## -prototype
 
 
-```
+```cpp
 DXGKDDI_PROTECTED_CALLBACK DxgkProtectedCallback;
 
 VOID DxgkProtectedCallback(

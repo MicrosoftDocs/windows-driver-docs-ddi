@@ -57,7 +57,7 @@ The PCI_CAPABILITIES_HEADER structure defines a header that is present in every 
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_CAPABILITIES_HEADER {
   UCHAR CapabilityID;
   UCHAR Next;

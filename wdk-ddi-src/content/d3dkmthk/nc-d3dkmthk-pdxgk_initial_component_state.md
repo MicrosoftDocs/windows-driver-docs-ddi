@@ -48,7 +48,7 @@ The InitialComponentStateCb callback function is implemented by the client drive
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PDXGK_INITIAL_COMPONENT_STATE PdxgkInitialComponentState;

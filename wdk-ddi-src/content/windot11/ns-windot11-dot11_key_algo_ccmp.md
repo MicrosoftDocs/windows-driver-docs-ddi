@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_KEY_ALGO_CCMP {
   UCHAR ucIV48Counter[6];
   ULONG ulCCMPKeyLength;

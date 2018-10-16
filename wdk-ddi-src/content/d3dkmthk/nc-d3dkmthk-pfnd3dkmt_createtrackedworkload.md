@@ -48,7 +48,7 @@ Creates a tracked workload instance.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATETRACKEDWORKLOAD Pfnd3dkmtCreatetrackedworkload; 

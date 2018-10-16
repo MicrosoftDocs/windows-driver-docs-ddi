@@ -48,7 +48,7 @@ Calculates the private meta-command size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE Pfnd3d12ddiCalcPrivateMetacommandSize;

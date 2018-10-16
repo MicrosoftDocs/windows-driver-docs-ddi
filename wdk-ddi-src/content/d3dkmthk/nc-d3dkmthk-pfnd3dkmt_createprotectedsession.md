@@ -48,7 +48,7 @@ Implemented by the client driver to create a protected session.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEPROTECTEDSESSION Pfnd3dkmtCreateprotectedsession;

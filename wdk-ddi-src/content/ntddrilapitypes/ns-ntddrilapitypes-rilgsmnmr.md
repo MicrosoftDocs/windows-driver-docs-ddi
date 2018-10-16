@@ -56,7 +56,7 @@ req.typenames: RILGSMNMR, *LPRILGSMNMR
 ## -syntax
 
 
-```
+```cpp
 struct RILGSMNMR {
   DWORD dwParams;
   DWORD dwMobileCountryCode;

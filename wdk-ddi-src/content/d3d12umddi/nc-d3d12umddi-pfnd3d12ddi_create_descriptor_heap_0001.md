@@ -48,7 +48,7 @@ Create descriptor heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001 Pfnd3d12ddiCreateDescriptorHeap0001; 

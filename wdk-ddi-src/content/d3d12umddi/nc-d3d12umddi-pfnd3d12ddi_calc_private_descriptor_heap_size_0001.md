@@ -48,7 +48,7 @@ Calculates the size of the descriptor heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_DESCRIPTOR_HEAP_SIZE_0001 Pfnd3d12ddiCalcPrivateDescriptorHeapSize0001; 

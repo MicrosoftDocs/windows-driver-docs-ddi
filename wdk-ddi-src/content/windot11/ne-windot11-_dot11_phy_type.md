@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_PHY_TYPE {
   dot11_phy_type_unknown     = 0,
   dot11_phy_type_any         = dot11_phy_type_unknown,

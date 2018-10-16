@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_OFDM_PHY_ATTRIBUTES {
   ULONG uFrequencyBandsSupported;
 } DOT11_OFDM_PHY_ATTRIBUTES, *PDOT11_OFDM_PHY_ATTRIBUTES;

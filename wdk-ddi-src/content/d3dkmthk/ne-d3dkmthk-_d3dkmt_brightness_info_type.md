@@ -56,7 +56,7 @@ Indicates the type of information to retrieve or set for the brightness of an in
 ## -syntax
 
 
-```
+```cpp
 typedef enum _D3DKMT_BRIGHTNESS_INFO_TYPE {
   D3DKMT_BRIGHTNESS_INFO_GET_POSSIBLE_LEVELS  = 1,
   D3DKMT_BRIGHTNESS_INFO_GET                  = 2,

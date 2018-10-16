@@ -47,7 +47,7 @@ pfnMakeResidentCb is used to instruct the OS to add a resource to the device res
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_MAKERESIDENT_CB Pfnd3d12ddiMakeresidentCb; 

@@ -56,7 +56,7 @@ Retrieves information about the current location of the PCI device on the bus, s
 ## -prototype
 
 
-```
+```cpp
 SRIOV_GET_DEVICE_LOCATION SriovGetDeviceLocation;
 
 VOID SriovGetDeviceLocation(

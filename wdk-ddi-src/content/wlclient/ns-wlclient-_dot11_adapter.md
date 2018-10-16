@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_ADAPTER {
   GUID                         gAdapterId;
   LPWSTR                       pszDescription;

@@ -48,7 +48,7 @@ Implemented by the client driver to reset a command pool.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_RESET_COMMAND_POOL_0040 Pfnd3d12ddiResetCommandPool0040;

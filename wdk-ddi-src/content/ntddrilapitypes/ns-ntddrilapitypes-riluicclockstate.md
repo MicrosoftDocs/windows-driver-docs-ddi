@@ -56,7 +56,7 @@ req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
 ## -syntax
 
 
-```
+```cpp
 struct RILUICCLOCKSTATE {
   DWORD       cbSize;
   DWORD       dwParams;

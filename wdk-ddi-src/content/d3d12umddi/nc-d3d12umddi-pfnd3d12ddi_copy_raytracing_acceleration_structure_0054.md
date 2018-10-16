@@ -48,7 +48,7 @@ Copies a ray tracing acceleration structure.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054 Pfnd3d12ddiCopyRaytracingAccelerationStructure0054; 

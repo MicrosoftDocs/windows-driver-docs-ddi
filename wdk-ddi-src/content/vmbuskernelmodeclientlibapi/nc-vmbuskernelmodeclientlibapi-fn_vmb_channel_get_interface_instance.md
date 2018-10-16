@@ -50,7 +50,7 @@ The <b>VmbChannelGetInterfaceInstance</b> function gets the active interface ins
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_GET_INTERFACE_INSTANCE FnVmbChannelGetInterfaceInstance; 

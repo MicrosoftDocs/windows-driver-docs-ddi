@@ -47,7 +47,7 @@ The PFND3DKMT_WAITFORVERTICALBLANKEVENT2 callback function waits for the vertica
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORVERTICALBLANKEVENT2 Pfnd3dkmtWaitforverticalblankevent2; 

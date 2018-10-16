@@ -48,7 +48,7 @@ Implemented by the client driver to create a new hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEHWQUEUE Pfnd3dkmtCreatehwqueue;

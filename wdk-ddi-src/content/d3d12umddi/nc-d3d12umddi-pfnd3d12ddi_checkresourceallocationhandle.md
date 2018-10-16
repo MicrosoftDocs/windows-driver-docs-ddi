@@ -48,7 +48,7 @@ Checks resource allocation handle.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE Pfnd3d12ddiCheckresourceallocationhandle; 

@@ -61,7 +61,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSetUnicastCipherAlgorithm(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     DWORD  dwUnicastCipherAlgo

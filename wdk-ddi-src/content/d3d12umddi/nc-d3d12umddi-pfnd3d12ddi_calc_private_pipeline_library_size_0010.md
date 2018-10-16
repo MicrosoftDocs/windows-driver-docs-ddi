@@ -48,7 +48,7 @@ Calculates the pipeline library size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_PIPELINE_LIBRARY_SIZE_0010 Pfnd3d12ddiCalcPrivatePipelineLibrarySize0010; 

@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST {
   NDIS_OBJECT_HEADER    Header;
   ULONG                 uNumOfEntries;

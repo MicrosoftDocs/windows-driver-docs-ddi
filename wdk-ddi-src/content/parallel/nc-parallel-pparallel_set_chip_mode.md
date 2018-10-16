@@ -56,7 +56,7 @@ The <i>PPARALLEL_SET_CHIP_MODE</i>-typed callback routine sets the operating mod
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS (*PPARALLEL_SET_CHIP_MODE)(
   _In_ PVOID SetChipContext,
   _In_ UCHAR ChipMode

@@ -56,7 +56,7 @@ The PPARALLEL_WRITE-typed callback routine writes data to a parallel device. The
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS ( *PPARALLEL_WRITE)(
   _In_  PVOID  Context,
   _In_  PVOID  Buffer,

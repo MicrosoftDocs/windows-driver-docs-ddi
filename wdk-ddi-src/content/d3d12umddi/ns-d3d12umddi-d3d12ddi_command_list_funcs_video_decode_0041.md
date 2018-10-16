@@ -46,7 +46,7 @@ Command list functions for video decode.
 ## -syntax
 
 
-```
+```cpp
 typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
 {
     PFND3D12DDI_CLOSECOMMANDLIST                            pfnCloseCommandList;

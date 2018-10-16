@@ -47,7 +47,7 @@ Creates an instance of a sensor in the class extension.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORCREATE *PfnSensorscxsensorcreate; 

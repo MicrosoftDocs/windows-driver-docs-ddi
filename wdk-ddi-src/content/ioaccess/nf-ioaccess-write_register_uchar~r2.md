@@ -56,7 +56,7 @@ The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 ## -syntax
 
 
-```
+```cpp
 VOID WRITE_REGISTER_UCHAR(
   _In_ PUCHAR Register,
   _In_ UCHAR  Value

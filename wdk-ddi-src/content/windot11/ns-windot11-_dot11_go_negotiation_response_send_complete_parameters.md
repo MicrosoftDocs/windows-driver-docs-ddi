@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  PeerDeviceAddress;

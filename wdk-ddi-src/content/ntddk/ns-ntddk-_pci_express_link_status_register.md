@@ -56,7 +56,7 @@ The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) li
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
   struct {
     USHORT LinkSpeed  :4;

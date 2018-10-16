@@ -47,7 +47,7 @@ Deletes an existing domain. The domain must contain no devices in order to be su
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_DELETE IommuDomainDelete; 

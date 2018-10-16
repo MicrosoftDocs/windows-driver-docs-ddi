@@ -48,7 +48,7 @@ Enables or disables the access to the configuration space of the FPGA device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_CONTROL_CONFIG_SPACE FpgaControlConfigSpace; 

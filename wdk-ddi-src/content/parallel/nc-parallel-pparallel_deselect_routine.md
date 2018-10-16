@@ -56,7 +56,7 @@ The <i>PPARALLEL_DESELECT_ROUTINE</i>-typed callback routine deselects either an
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS (*PPARALLEL_DESELECT_ROUTINE)(
   _In_ PVOID DeselectContext,
   _In_ PVOID DeselectCommand

@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVi
 ## -prototype
 
 
-```
+```cpp
 GET_VIRTUAL_FUNCTION_PROBED_BARS GetVirtualFunctionProbedBars;
 
 NTSTATUS GetVirtualFunctionProbedBars(

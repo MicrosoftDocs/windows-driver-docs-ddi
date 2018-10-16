@@ -48,7 +48,7 @@ The <b>VmbServerChannelInitSetFlags</b> function sets flags unique to server cha
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_SERVER_CHANNEL_INIT_SET_FLAGS FnVmbServerChannelInitSetFlags; 

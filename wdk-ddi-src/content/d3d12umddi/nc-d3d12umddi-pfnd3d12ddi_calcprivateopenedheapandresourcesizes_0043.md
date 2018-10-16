@@ -48,7 +48,7 @@ Pointer to a CalcPrivateOpenedHeapAndResourceSizes function that calculates size
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043 Pfnd3d12ddiCalcprivateopenedheapandresourcesizes0043;

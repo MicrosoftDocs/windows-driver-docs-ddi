@@ -47,7 +47,7 @@ The Pfnd3dkmtEscape callback function shares info with the kernel mode display d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ESCAPE Pfnd3dkmtEscape; 

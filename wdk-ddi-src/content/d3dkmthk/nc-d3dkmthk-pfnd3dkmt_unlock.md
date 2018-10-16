@@ -47,7 +47,7 @@ The PFND3DKMT_UNLOCK callback function unlocks a list of allocations.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UNLOCK Pfnd3dkmtUnlock; 

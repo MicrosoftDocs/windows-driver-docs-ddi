@@ -57,7 +57,7 @@ A language or port monitor's <b>ClosePort</b> function closes a printer port.
 ## -syntax
 
 
-```
+```cpp
 BOOL ClosePort(
   _In_ HANDLE hPort
 );

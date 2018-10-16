@@ -48,7 +48,7 @@ Implemented by the client driver to open a protected session from the NT handle.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE Pfnd3dkmtOpenprotectedsessionfromnthandle;

@@ -50,7 +50,7 @@ The <b>VmbChannelSaveBegin</b> function initializes the context for saving the s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SAVE_BEGIN FnVmbChannelSaveBegin; 

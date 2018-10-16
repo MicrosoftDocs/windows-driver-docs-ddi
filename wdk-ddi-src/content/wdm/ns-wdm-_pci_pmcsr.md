@@ -57,7 +57,7 @@ The PCI_PMCSR structure is used to report the contents of the device's power man
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_PMCSR {
   USHORT PowerState  :2;
   USHORT Rsvd1  :6;

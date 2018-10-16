@@ -47,7 +47,7 @@ The PFND3DKMT_QUERYCLOCKCALIBRATION callback function queries clock calibration.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYCLOCKCALIBRATION Pfnd3dkmtQueryclockcalibration; 

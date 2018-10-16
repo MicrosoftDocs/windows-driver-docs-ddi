@@ -56,7 +56,7 @@ The <b>Set</b> method sets the typed data represented by the <a href="..\engextc
 ## -syntax
 
 
-```
+```cpp
 void Set(
   [in] bool    PtrTo,
   [in] ULONG64 TypeModBase,

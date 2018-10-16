@@ -48,7 +48,7 @@ Implemented by the client driver to allow capabilities of a monitor which are ti
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_UPDATEMONITORLINKINFO DxgkddiUpdatemonitorlinkinfo;

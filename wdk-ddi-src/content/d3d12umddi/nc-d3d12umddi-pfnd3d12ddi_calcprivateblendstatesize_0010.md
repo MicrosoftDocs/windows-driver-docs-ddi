@@ -48,7 +48,7 @@ The CalcPrivateBlendStateSize function determines the size of the user-mode disp
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010 Pfnd3d12ddiCalcprivateblendstatesize0010; 

@@ -48,7 +48,7 @@ Implemented by the client driver to add a surface to the swapchain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ADDSURFACETOSWAPCHAIN Pfnd3dkmtAddsurfacetoswapchain;

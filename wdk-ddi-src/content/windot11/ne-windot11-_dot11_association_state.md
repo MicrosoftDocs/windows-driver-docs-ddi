@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_ASSOCIATION_STATE {
   dot11_assoc_state_zero            = 0,
   dot11_assoc_state_unauth_unassoc  = 1,

@@ -48,7 +48,7 @@ Determines the size of the user-mode display driver's private region of memory (
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0010 Pfnd3d12ddiCalcPrivateShaderSize0010; 

@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_CONFIGURATION_TIMEOUT {
   UCHAR GOTimeout;
   UCHAR ClientTimeout;

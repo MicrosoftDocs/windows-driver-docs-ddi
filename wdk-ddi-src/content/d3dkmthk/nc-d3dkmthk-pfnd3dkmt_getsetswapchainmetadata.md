@@ -47,7 +47,7 @@ Pfnd3dkmtGetsetswapchainmetadata gets swap chain metadata.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETSETSWAPCHAINMETADATA Pfnd3dkmtGetsetswapchainmetadata; 

@@ -56,7 +56,7 @@ The <b>PCNODE_DESCRIPTOR</b> structure describes a node in the filter that a top
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   ULONG                    Flags;
   const PCAUTOMATION_TABLE *AutomationTable;

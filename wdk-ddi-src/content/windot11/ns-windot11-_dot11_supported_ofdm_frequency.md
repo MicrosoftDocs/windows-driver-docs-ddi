@@ -61,7 +61,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_SUPPORTED_OFDM_FREQUENCY {
   ULONG uCenterFrequency;
 } DOT11_SUPPORTED_OFDM_FREQUENCY, *PDOT11_SUPPORTED_OFDM_FREQUENCY;

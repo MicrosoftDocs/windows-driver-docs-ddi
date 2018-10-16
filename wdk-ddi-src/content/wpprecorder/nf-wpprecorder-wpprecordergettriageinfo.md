@@ -59,7 +59,7 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 ## -syntax
 
-```
+```cpp
 NTSTATUS WppRecorderGetTriageInfo(
   _Out_ PWPP_TRIAGE_INFO WppTriageInfo
 );

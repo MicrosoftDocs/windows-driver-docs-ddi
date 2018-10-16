@@ -48,7 +48,7 @@ Implemented by the client driver to start the Render Pass.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_BEGIN_RENDER_PASS_0053 Pfnd3d12ddiBeginRenderPass0053; 

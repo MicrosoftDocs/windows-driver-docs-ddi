@@ -48,7 +48,7 @@ Writes a ULONG value to the specified port or register.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_ULONG UartHardwareWriteUlong;

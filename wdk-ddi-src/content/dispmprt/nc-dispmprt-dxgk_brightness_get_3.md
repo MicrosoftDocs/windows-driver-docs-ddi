@@ -47,7 +47,7 @@ Implemented by the client driver to retrieve the currently active brightness lev
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_GET_3 DxgkBrightnessGet3;

@@ -48,7 +48,7 @@ Implemented by the client driver to reset the command allocator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_RESETCOMMANDALLOCATOR Pfnd3d12ddiResetcommandallocator; 

@@ -48,7 +48,7 @@ The PFND3D12DDI_CREATECOMMANDQUEUE_0001 callback function is used to create comm
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATECOMMANDQUEUE_0001 Pfnd3d12ddiCreatecommandqueue0001; 

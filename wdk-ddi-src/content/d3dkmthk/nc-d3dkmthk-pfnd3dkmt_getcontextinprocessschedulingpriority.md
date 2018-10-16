@@ -47,7 +47,7 @@ The Pfnd3dkmtGetcontextinprocessschedulingpriority callback function is called b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY Pfnd3dkmtGetcontextinprocessschedulingpriority; 

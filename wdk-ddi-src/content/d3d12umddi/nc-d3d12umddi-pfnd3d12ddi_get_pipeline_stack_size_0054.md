@@ -48,7 +48,7 @@ GetPipelineStackSize retrieves the current pipeline stack size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_PIPELINE_STACK_SIZE_0054 Pfnd3d12ddiGetPipelineStackSize0054; 

@@ -57,7 +57,7 @@ Implemented by the client driver to retrieve hardware notification component att
 ## -prototype
 
 
-```
+```cpp
 HWN_CLIENT_QUERY_DEVICE_INFORMATION HwnClientQueryDeviceInformation;
 
 NTSTATUS HwnClientQueryDeviceInformation(

@@ -56,7 +56,7 @@ The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of 
 ## -syntax
 
 
-```
+```cpp
 typedef union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS {
   struct {
     ULONGLONG LocalAPICId  :1;

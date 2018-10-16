@@ -57,7 +57,7 @@ The <b>operator=</b> overloaded assignment operator sets the typed data represen
 ## -syntax
 
 
-```
+```cpp
 ExtRemoteTyped & operator=(
   [in] const DEBUG_TYPED_DATA *Typed
 );

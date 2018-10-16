@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_RATE_SET {
   ULONG uRateSetLength;
   UCHAR ucRateSet[DOT11_RATE_SET_MAX_LENGTH];

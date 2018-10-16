@@ -48,7 +48,7 @@ Validates private driver data, which is passed by user mode driver in [D3DKMTSub
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_VALIDATESUBMITCOMMAND DxgkddiValidatesubmitcommand; 

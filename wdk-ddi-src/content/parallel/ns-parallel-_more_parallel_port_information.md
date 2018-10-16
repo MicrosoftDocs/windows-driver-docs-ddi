@@ -56,7 +56,7 @@ The MORE_PARALLEL_PORT_INFORMATION structure specifies information about the sys
 ## -syntax
 
 
-```
+```cpp
 typedef struct _MORE_PARALLEL_PORT_INFORMATION {
   INTERFACE_TYPE  InterfaceType;
   ULONG           BusNumber;

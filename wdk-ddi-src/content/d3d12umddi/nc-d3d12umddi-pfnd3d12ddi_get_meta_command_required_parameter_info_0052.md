@@ -48,7 +48,7 @@ Gets required information for a meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 Pfnd3d12ddiGetMetaCommandRequiredParameterInfo0052; 

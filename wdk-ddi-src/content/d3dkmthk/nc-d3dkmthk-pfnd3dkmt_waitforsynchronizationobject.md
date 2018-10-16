@@ -47,7 +47,7 @@ The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT callback function inserts a wait for 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT Pfnd3dkmtWaitforsynchronizationobject; 

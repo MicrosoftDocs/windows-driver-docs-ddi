@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_MSONEX_RESULT_PARAMS {
   ONEX_AUTH_STATUS  Dot11OnexAuthStatus;
   ONEX_REASON_CODE  Dot11OneXReasonCode;

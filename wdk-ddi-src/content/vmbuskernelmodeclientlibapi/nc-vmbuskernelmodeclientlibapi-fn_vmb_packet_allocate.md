@@ -50,7 +50,7 @@ The <b>VmbPacketAllocate</b> function allocates a packet from the channel's look
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_ALLOCATE FnVmbPacketAllocate; 

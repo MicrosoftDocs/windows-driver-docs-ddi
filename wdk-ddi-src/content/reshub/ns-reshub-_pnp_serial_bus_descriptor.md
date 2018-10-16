@@ -57,7 +57,7 @@ The <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure describes the physical connection
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PNP_SERIAL_BUS_DESCRIPTOR {
   UCHAR  Tag;
   USHORT Length;

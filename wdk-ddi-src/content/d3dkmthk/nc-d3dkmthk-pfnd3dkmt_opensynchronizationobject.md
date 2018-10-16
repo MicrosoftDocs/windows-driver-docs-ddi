@@ -47,7 +47,7 @@ The PFND3DKMT_OPENSYNCHRONIZATIONOBJECT callback function opens a kernel-mode sy
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENSYNCHRONIZATIONOBJECT Pfnd3dkmtOpensynchronizationobject; 

@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_BSS_TYPE {
   dot11_BSS_type_infrastructure  = 1,
   dot11_BSS_type_independent     = 2,

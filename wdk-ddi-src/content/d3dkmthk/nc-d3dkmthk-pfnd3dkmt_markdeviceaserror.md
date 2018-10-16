@@ -47,7 +47,7 @@ Pfnd3dkmtMarkdeviceaserror marks a device as error.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_MARKDEVICEASERROR Pfnd3dkmtMarkdeviceaserror; 

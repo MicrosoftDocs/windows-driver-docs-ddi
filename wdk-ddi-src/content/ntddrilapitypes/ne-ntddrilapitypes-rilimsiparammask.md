@@ -58,7 +58,7 @@ req.typenames: RILIMSIPARAMMASK
 ## -syntax
 
 
-```
+```cpp
 enum RILIMSIPARAMMASK {
   RIL_PARAM_IMSI_IMSI  = 0x00000001,
   RIL_PARAM_IMSI_MCC   = 0x00000002,

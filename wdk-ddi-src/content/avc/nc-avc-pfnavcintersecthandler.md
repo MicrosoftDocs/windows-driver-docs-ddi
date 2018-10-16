@@ -56,7 +56,7 @@ The AV/C intersect handler determines if the data ranges are compatible. This is
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS ( *PFNAVCINTERSECTHANDLER)(
   _In_      PVOID        Context,
   _In_      ULONG        PinId,

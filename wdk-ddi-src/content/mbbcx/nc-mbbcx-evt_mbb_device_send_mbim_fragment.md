@@ -53,7 +53,7 @@ A client driver's *EvtMbbDeviceSendMbimFragment* event callabck function instruc
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT EvtMbbDeviceSendMbimFragment; 

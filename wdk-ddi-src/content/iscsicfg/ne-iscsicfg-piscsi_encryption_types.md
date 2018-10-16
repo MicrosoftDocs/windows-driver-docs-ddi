@@ -56,7 +56,7 @@ The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is 
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   ISCSI_ENCRYPT_NONE            = 0,
   ISCSI_ENCRYPT_3DES_HMAC_SHA1  = 1,

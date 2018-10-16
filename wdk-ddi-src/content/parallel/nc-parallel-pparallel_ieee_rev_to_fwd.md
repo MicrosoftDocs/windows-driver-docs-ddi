@@ -56,7 +56,7 @@ The PPARALLEL_IEEE_REV_TO_FWD-typed callback routine changes the transfer mode f
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS ( *PPARALLEL_IEEE_REV_TO_FWD)(
   _In_ PVOID Context
 );

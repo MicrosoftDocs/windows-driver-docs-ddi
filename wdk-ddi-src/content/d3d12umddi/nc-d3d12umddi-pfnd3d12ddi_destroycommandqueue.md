@@ -48,7 +48,7 @@ Destroys a command queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYCOMMANDQUEUE Pfnd3d12ddiDestroycommandqueue; 

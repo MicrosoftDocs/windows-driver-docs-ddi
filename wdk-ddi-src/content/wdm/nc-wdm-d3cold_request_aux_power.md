@@ -47,7 +47,7 @@ Enables the function device object (FDO) to convey its auxiliary power requireme
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 D3COLD_REQUEST_AUX_POWER D3coldRequestAuxPower; 

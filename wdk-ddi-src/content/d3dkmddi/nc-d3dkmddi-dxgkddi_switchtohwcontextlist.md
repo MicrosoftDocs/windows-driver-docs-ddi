@@ -47,7 +47,7 @@ Clarifies the order of execution of first and second contexts submitted.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SWITCHTOHWCONTEXTLIST DxgkddiSwitchtohwcontextlist; 

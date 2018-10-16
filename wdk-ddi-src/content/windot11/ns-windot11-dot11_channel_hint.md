@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_CHANNEL_HINT {
   DOT11_PHY_TYPE Dot11PhyType;
   ULONG          uChannelNumber;

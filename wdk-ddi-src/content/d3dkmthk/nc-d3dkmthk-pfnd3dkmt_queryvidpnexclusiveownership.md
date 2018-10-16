@@ -47,7 +47,7 @@ The PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP callback function queries for VidPn e
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP Pfnd3dkmtQueryvidpnexclusiveownership; 

@@ -47,7 +47,7 @@ Starts retrieving the history recorded so far in the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL EvtSensorDriverStartHistoryRetrieval; 

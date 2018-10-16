@@ -46,7 +46,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PENTROPY_SOURCE_CALLBACK_FUNCTION PentropySourceCallbackFunction; 

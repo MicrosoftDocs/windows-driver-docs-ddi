@@ -57,7 +57,7 @@ Implemented by the client driver to start the hardware notification component. I
 ## -prototype
 
 
-```
+```cpp
 HWN_CLIENT_START_DEVICE HwnClientStartDevice;
 
 NTSTATUS HwnClientStartDevice(

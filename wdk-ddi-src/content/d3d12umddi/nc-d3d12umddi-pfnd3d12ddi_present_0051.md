@@ -48,7 +48,7 @@ The PFND3D12DDI_PRESENT_0051 callback function copies content from source alloca
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_PRESENT_0051 Pfnd3d12ddiPresent0051; 

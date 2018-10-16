@@ -60,7 +60,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_SUPPORTED_ANTENNA {
   ULONG   uAntennaListIndex;
   BOOLEAN bSupportedAntenna;

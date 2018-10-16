@@ -61,7 +61,7 @@ The DOT11_DIVERSITY_SUPPORT enumeration specifies the type of antenna diversity 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_DIVERSITY_SUPPORT {
   dot11_diversity_support_unknown       = 0,
   dot11_diversity_support_fixedlist     = 1,

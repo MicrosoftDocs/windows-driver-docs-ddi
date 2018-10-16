@@ -47,7 +47,7 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_CONFIGURE IommuDomainConfigure; 

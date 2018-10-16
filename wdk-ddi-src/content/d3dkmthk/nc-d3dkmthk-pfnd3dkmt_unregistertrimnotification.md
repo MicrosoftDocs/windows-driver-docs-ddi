@@ -47,7 +47,7 @@ PFND3DKMT_UNREGISTERTRIMNOTIFICATION callback function removes a callback regist
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UNREGISTERTRIMNOTIFICATION Pfnd3dkmtUnregistertrimnotification; 

@@ -47,7 +47,7 @@ The PFND3DKMT_SETSTEREOENABLED callback function sets stereo enabled.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETSTEREOENABLED Pfnd3dkmtSetstereoenabled; 

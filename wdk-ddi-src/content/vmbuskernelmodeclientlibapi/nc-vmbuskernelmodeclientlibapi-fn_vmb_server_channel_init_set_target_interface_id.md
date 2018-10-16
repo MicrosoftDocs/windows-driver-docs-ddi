@@ -48,7 +48,7 @@ The <b>VmbServerChannelInitSetTargetInterfaceId</b> function sets the target int
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID FnVmbServerChannelInitSetTargetInterfaceId; 

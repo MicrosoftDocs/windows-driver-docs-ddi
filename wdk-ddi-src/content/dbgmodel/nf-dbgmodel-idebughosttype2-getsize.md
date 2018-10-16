@@ -64,7 +64,8 @@ if (SUCCEEDED(spType->GetSize(&size)))
 {
     // size is equivalent to sizeof( <type> )
 }
-``
+```
+
 ## -remarks
 
 ## -see-also

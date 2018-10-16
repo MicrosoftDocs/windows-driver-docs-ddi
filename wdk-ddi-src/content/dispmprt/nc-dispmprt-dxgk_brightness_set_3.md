@@ -47,7 +47,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_SET_3 DxgkBrightnessSet3;

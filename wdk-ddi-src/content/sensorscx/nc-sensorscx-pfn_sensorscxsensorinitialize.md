@@ -47,7 +47,7 @@ Sets the enumeration properties of a sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORINITIALIZE *PfnSensorscxsensorinitialize; 

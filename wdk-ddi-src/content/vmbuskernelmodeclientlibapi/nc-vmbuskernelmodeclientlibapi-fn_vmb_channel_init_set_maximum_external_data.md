@@ -52,7 +52,7 @@ buffer described by an <b>ExternalDataMdl</b>.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA FnVmbChannelInitSetMaximumExternalData; 

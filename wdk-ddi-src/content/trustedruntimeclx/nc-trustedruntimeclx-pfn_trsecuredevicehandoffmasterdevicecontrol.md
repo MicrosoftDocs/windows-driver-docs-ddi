@@ -47,7 +47,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL PfnTrsecuredevicehandoffmasterdevicecontrol; 

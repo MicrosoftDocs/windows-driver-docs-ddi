@@ -47,7 +47,7 @@ The PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function sets sync refresh 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET Pfnd3dkmtSetsyncrefreshcountwaittarget; 

@@ -58,7 +58,7 @@ req.typenames: RILGSMMNMRPARAMMASK
 ## -syntax
 
 
-```
+```cpp
 enum RILGSMMNMRPARAMMASK {
   RIL_PARAM_GSMNMR_MCC      = 0x00000001,
   RIL_PARAM_GSMNMR_MNC      = 0x00000002,

@@ -59,7 +59,7 @@ The <b>CLIENT_DEVICE_INFORMATION</b> structure is used by the hardware notificat
 ## -syntax
 
 
-```
+```cpp
 typedef struct _CLIENT_DEVICE_INFORMATION {
   USHORT  Version;
   USHORT  Size;

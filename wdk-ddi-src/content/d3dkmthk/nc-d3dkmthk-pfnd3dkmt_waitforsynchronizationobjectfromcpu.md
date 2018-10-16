@@ -47,7 +47,7 @@ The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU callback function waits for a 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU Pfnd3dkmtWaitforsynchronizationobjectfromcpu; 

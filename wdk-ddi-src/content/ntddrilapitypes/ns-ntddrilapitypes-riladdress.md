@@ -56,7 +56,7 @@ req.typenames: RILADDRESS, *LPRILADDRESS
 ## -syntax
 
 
-```
+```cpp
 struct RILADDRESS {
   DWORD cbSize;
   DWORD dwParams;

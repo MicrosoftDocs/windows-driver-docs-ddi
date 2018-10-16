@@ -48,7 +48,7 @@ Determines whether there is data pending in the UART hardware.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_RX_READY UartRxReady;

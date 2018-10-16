@@ -47,7 +47,7 @@ Register MCA driver with the HAL.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 pHalSetSystemInformation Phalsetsysteminformation; 
@@ -78,7 +78,7 @@ pHalSetSystemInformation
 ### -param Buffer
 [out] A pointer to a caller-supplied buffer of type MCA_DRIVER_INFO, which is defined as follows.
 
-```
+```cpp
 typedef struct _MCA_DRIVER_INFO {
   PDRIVER_EXCPTN_CALLBACK  ExceptionCallback; // NULL for Itanium corrected error registration
   PKDEFERRED_ROUTINE  DpcCallback;

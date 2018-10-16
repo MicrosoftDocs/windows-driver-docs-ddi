@@ -48,7 +48,7 @@ Instruct the GPU to use the passed buffer as a scheduling log for a particular G
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETSCHEDULINGLOGBUFFER DxgkddiSetschedulinglogbuffer;

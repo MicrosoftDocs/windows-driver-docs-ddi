@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO {
   NDIS_OBJECT_HEADER Header;
   BOOLEAN            bEnabled;

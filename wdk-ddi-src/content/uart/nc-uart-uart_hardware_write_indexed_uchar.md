@@ -48,7 +48,7 @@ Implemented by the client driver to ...
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_INDEXED_UCHAR UartHardwareWriteIndexedUchar;

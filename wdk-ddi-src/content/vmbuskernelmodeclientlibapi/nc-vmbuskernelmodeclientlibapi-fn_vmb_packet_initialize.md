@@ -50,7 +50,7 @@ The <b>VmbPacketInitialize</b> function initializes a buffer to contain a VMBus 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_INITIALIZE FnVmbPacketInitialize; 

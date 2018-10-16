@@ -53,7 +53,7 @@ The *EvtMbbDeviceCreateAdapter* callback function is implemented by the client d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_MBB_DEVICE_CREATE_ADAPTER EvtMbbDeviceCreateAdapter; 

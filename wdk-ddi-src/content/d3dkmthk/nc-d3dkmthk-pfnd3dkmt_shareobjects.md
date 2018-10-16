@@ -47,7 +47,7 @@ The PFND3DKMT_SHAREOBJECTS callback function shares resource objects that were c
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SHAREOBJECTS Pfnd3dkmtShareobjects; 

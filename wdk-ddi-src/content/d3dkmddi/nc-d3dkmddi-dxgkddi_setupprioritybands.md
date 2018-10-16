@@ -48,7 +48,7 @@ Set up the GPU scheduler priority band configuration, after adapter startup and 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETUPPRIORITYBANDS DxgkddiSetupprioritybands;

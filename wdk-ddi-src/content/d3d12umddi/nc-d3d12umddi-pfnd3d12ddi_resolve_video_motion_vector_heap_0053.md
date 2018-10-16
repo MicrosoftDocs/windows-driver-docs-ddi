@@ -48,7 +48,7 @@ Takes a standard resource buffer as input and resolves it to the API specified f
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053 Pfnd3d12ddiResolveVideoMotionVectorHeap0053; 

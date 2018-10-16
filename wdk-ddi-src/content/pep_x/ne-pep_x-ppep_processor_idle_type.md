@@ -56,7 +56,7 @@ The <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration indicates whether idle constraint
 ## -syntax
 
 
-```
+```cpp
 typedef enum _PEP_PROCESSOR_IDLE_TYPE {
   PepIdleTypeProcessor  = 0,
   PepIdleTypePlatform,

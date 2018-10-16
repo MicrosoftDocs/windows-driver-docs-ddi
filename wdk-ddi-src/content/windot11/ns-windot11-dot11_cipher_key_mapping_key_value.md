@@ -61,7 +61,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
   DOT11_MAC_ADDRESS      PeerMacAddr;
   DOT11_CIPHER_ALGORITHM AlgorithmId;

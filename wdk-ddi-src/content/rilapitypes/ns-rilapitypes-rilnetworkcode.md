@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef struct _RILNETWORKCODE {
   DWORD  cbSize;
   DWORD  dwParams;

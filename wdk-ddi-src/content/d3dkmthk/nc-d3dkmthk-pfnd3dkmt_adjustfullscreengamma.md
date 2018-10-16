@@ -47,7 +47,7 @@ The PFND3DKMT_ADJUSTFULLSCREENGAMMA callback function adjusts to full screen gam
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ADJUSTFULLSCREENGAMMA Pfnd3dkmtAdjustfullscreengamma; 

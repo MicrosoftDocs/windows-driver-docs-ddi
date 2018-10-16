@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 VOID WINAPI * Dot11ExtFreeBuffer(
   _In_opt_ LPVOID pvMemory
 );

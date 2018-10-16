@@ -48,7 +48,7 @@ Get implicit physical adapter mask.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK Pfnd3d12ddiGetimplicitphysicaladaptermask; 

@@ -47,7 +47,7 @@ The PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT callback function changes the privat
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT Pfnd3dkmtSetdisplayprivatedriverformat; 

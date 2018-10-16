@@ -56,7 +56,7 @@ The <b>PCAUTOMATION_TABLE</b> structure contains a miniport driver's master tabl
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   ULONG                 PropertyItemSize;
   ULONG                 PropertyCount;

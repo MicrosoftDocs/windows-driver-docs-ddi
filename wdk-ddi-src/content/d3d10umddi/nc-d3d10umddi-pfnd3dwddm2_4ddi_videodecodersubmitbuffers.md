@@ -48,7 +48,7 @@ Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) de
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS Pfnd3dwddm24DdiVideodecodersubmitbuffers;

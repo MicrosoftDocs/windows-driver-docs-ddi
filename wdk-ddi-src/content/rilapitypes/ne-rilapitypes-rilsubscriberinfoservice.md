@@ -57,7 +57,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILSUBSCRIBERINFOSERVICE {
   RIL_SERVICE_VOICE,
   RIL_SERVICE_FAX,

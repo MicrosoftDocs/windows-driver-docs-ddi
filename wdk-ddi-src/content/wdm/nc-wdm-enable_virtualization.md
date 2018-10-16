@@ -57,7 +57,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">Enabl
 ## -prototype
 
 
-```
+```cpp
 ENABLE_VIRTUALIZATION EnableVirtualization;
 
 NTSTATUS EnableVirtualization(

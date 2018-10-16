@@ -47,7 +47,7 @@ Pfnd3dkmtGetresourcepresentprivatedriverdata queries the resource private data, 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA Pfnd3dkmtGetresourcepresentprivatedriverdata; 

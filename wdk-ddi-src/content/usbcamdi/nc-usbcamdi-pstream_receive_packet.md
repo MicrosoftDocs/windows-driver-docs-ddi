@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PSTREAM_RECEIVE_PACKET PstreamReceivePacket; 

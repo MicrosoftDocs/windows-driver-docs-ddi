@@ -47,7 +47,7 @@ Pfnd3dkmtLock locks an entire allocation or specific pages within an allocation.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_LOCK Pfnd3dkmtLock; 

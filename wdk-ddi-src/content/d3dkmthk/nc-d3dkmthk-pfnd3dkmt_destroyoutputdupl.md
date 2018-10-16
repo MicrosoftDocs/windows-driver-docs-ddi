@@ -47,7 +47,7 @@ The PFND3DKMT_DESTROYOUTPUTDUPL callback function destroys output duplicates.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYOUTPUTDUPL Pfnd3dkmtDestroyoutputdupl; 

@@ -56,7 +56,7 @@ req.typenames: RILUMTSMRLPARAMMASK
 ## -syntax
 
 
-```
+```cpp
 enum RILUMTSMRLPARAMMASK  {
   RIL_PARAM_UMTSMRL_MCC         = 0x00000001,
   RIL_PARAM_UMTSMRL_MNC         = 0x00000002,

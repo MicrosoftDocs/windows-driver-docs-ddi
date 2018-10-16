@@ -47,7 +47,7 @@ Configures the sensor device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXDEVICEINITCONFIG *PfnSensorscxdeviceinitconfig; 

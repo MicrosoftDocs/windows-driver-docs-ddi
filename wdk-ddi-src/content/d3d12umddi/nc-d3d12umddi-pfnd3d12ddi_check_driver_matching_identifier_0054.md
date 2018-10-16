@@ -48,7 +48,7 @@ Checks the serialized driver identifier to see if it matches the specified devic
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECK_DRIVER_MATCHING_IDENTIFIER_0054 Pfnd3d12ddiCheckDriverMatchingIdentifier0054; 

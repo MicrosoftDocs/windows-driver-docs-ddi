@@ -48,7 +48,7 @@ Implemented by the client driver to initialize a meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_INITIALIZE_METACOMMAND Pfnd3d12ddiInitializeMetacommand;

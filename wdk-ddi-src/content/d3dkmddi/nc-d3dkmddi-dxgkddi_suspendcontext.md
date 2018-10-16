@@ -48,7 +48,7 @@ Instruct the GPU to suspend a context. If the GPU doesn’t acknowledge the susp
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SUSPENDCONTEXT DxgkddiSuspendcontext;

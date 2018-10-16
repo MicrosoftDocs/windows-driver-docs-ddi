@@ -58,7 +58,7 @@ client driver callback functions.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
   USHORT                                Version;
   USHORT                                Size;

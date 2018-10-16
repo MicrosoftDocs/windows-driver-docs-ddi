@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_CIPHER_ALGORITHM {
   DOT11_CIPHER_ALGO_NONE           = 0x00,
   DOT11_CIPHER_ALGO_WEP40          = 0x01,

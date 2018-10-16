@@ -53,7 +53,7 @@ req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. 
 
 ## -syntax
-```
+```cpp
 typedef struct _FILE_LINK_INFORMATION {
 #if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS5)
     union {

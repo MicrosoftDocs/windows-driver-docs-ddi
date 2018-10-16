@@ -56,7 +56,7 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Expre
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
   struct {
     ULONG TargetAbortOnSplitCompletion  :1;

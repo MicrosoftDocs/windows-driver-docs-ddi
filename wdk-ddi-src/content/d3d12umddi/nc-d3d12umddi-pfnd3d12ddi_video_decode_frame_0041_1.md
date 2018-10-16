@@ -48,7 +48,7 @@ Implemented by the client driver to decode a video frame.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 Pfnd3d12ddiVideoDecodeFrame00411;

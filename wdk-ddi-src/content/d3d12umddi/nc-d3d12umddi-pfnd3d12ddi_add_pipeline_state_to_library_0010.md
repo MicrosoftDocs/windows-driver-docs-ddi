@@ -48,7 +48,7 @@ Adds the input pipeline state to the corresponding library.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010 Pfnd3d12ddiAddPipelineStateToLibrary0010; 

@@ -48,7 +48,7 @@ Destroys a blend state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYBLENDSTATE Pfnd3d12ddiDestroyblendstate; 

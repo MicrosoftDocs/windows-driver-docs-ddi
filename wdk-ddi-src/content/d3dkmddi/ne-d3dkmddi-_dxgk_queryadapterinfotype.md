@@ -57,7 +57,7 @@ The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to r
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DXGK_QUERYADAPTERINFOTYPE {
   DXGKQAITYPE_UMDRIVERPRIVATE                   = 0,
   DXGKQAITYPE_DRIVERCAPS                        = 1,

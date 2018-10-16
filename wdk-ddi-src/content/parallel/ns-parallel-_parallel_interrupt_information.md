@@ -56,7 +56,7 @@ The PARALLEL_INTERRUPT_INFORMATION structure specifies information that a kernel
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PARALLEL_INTERRUPT_INFORMATION {
   PKINTERRUPT                    InterruptObject;
   PPARALLEL_TRY_ALLOCATE_ROUTINE TryAllocatePortAtInterruptLevel;

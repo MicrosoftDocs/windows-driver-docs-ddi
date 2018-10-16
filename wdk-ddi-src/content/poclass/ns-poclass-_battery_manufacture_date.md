@@ -56,7 +56,7 @@ Battery miniclass drivers fill in this structure in response to certain <a href=
 ## -syntax
 
 
-```
+```cpp
 typedef struct _BATTERY_MANUFACTURE_DATE {
   UCHAR  Day;
   UCHAR  Month;

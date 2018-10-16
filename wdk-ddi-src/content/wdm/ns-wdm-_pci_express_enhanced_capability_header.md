@@ -57,7 +57,7 @@ The PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure describes the header for a 
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER {
   USHORT CapabilityID;
   USHORT Version  :4;

@@ -48,7 +48,7 @@ Calculates the geometry shader with stream output.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010 Pfnd3d12ddiCalcPrivateGeometryShaderWithStreamOutput0010; 

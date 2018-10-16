@@ -47,7 +47,7 @@ Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics adapter hand
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENADAPTERFROMDEVICENAME Pfnd3dkmtOpenadapterfromdevicename; 

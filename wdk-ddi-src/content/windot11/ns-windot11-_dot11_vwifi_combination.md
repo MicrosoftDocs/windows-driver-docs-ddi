@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_VWIFI_COMBINATION {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumInfrastructure;

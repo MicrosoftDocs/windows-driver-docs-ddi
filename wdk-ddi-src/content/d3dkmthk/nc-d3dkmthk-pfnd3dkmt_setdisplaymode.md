@@ -47,7 +47,7 @@ The PFND3DKMT_SETDISPLAYMODE callback function sets the allocation that is used 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETDISPLAYMODE Pfnd3dkmtSetdisplaymode; 

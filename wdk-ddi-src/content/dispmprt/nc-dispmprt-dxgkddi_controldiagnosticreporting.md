@@ -47,7 +47,7 @@ The OS calls DxgkddiControlDiagnosticReporting to apply the set of diagnostics w
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_CONTROLDIAGNOSTICREPORTING DxgkddiControldiagnosticreporting;

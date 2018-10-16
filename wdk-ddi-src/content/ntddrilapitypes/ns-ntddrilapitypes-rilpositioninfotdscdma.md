@@ -56,7 +56,7 @@ req.typenames: RILPOSITIONINFOTDSCDMA, *LPRILPOSITIONINFOTDSCDMA
 ## -syntax
 
 
-```
+```cpp
 struct RILPOSITIONINFOTDSCDMA {
   DWORD dwParams;
   DWORD dwMobileCountryCode;

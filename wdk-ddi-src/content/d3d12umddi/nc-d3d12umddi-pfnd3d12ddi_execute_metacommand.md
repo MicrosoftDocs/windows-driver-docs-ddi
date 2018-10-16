@@ -48,7 +48,7 @@ Implemented by the client driver to execute the meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_EXECUTE_METACOMMAND Pfnd3d12ddiExecuteMetacommand;

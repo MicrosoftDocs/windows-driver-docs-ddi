@@ -47,7 +47,7 @@ Returns the associated kernel mode allocation handles and GPU Virtual Address ra
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012 Pfnd3d12ddiGetDebugAllocationInfo0012; 

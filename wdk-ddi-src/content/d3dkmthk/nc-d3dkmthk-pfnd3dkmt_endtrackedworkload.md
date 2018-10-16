@@ -48,7 +48,7 @@ Indicates that the tracked workload commands are done.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ENDTRACKEDWORKLOAD Pfnd3dkmtEndtrackedworkload; 

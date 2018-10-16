@@ -48,7 +48,7 @@ Creates a hardware queue associated with a command queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEHWQUEUE_CB_0050 Pfnd3d12ddiCreatehwqueueCb0050; 

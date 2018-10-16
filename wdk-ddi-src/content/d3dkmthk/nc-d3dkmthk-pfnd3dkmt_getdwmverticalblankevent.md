@@ -47,7 +47,7 @@ Pfnd3dkmtGetdwmverticalblankevent gets DWM (desktop windows manager) vertical bl
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETDWMVERTICALBLANKEVENT Pfnd3dkmtGetdwmverticalblankevent; 

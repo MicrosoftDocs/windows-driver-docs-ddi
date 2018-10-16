@@ -48,7 +48,7 @@ Calculates the private state object size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_STATE_OBJECT_SIZE_0054 Pfnd3d12ddiCalcPrivateStateObjectSize0054; 

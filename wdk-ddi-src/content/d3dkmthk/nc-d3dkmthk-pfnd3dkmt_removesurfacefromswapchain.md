@@ -48,7 +48,7 @@ Implemented by the client driver to remove a surface from the swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN Pfnd3dkmtRemovesurfacefromswapchain;

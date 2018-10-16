@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_MAC_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   ULONG              uOpmodeMask;

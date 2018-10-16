@@ -56,7 +56,7 @@ req.typenames: RILUICCAPPTYPE
 ## -syntax
 
 
-```
+```cpp
 enum RILUICCAPPTYPE {
   RIL_UICCAPPTYPE_UNKNOWN  = 0x00000001,
   RIL_UICCAPPTYPE_MF       = 0x00000002,

@@ -58,7 +58,7 @@ The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of t
 
 ## -syntax
 
-```
+```cpp
 typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER     Header;
   DOT11_MAC_ADDRESS      MacAddr;

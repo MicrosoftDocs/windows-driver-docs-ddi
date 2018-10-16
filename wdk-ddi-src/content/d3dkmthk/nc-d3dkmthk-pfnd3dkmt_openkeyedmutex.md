@@ -47,7 +47,7 @@ Pfnd3dkmtOpenkeyedmutex opens a keyed mutex object that includes private data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENKEYEDMUTEX Pfnd3dkmtOpenkeyedmutex; 

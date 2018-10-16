@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_CURRENT_OPERATION_MODE {
   ULONG uReserved;
   ULONG uCurrentOpMode;

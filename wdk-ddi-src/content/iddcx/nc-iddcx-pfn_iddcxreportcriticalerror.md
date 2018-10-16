@@ -49,7 +49,7 @@ Implemented by the client driver to ...
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXREPORTCRITICALERROR *PfnIddcxreportcriticalerror;

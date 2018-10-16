@@ -47,7 +47,7 @@ Callback to handle IOCTL.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_DEVICE_IO_CONTROL EvtSensorDriverDeviceIoControl; 

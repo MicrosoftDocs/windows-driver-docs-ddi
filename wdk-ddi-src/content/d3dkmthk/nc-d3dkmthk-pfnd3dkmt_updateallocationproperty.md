@@ -47,7 +47,7 @@ The PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function updates allocation prop
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UPDATEALLOCATIONPROPERTY Pfnd3dkmtUpdateallocationproperty; 

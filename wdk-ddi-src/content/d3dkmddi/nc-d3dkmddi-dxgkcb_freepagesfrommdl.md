@@ -48,7 +48,7 @@ Implemented by the client driver to frees all the physical pages that are descri
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_FREEPAGESFROMMDL DxgkcbFreepagesfrommdl;

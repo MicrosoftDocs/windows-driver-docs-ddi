@@ -47,7 +47,7 @@ The PFND3DKMT_POLLDISPLAYCHILDREN callback function queries for connectivity sta
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_POLLDISPLAYCHILDREN Pfnd3dkmtPolldisplaychildren; 

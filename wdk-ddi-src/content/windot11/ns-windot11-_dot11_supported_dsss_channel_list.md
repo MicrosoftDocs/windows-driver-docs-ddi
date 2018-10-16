@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_SUPPORTED_DSSS_CHANNEL_LIST {
   ULONG                        uNumOfEntries;
   ULONG                        uTotalNumOfEntries;

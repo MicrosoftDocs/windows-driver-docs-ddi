@@ -56,7 +56,7 @@ The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanc
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_AER_CAPABILITIES {
   struct {
     ULONG FirstErrorPointer  :5;

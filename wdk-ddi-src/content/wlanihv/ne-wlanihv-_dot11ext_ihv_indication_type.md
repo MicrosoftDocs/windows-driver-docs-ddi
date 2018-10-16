@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11EXT_IHV_INDICATION_TYPE {
   IndicationTypeNicSpecificNotification  = 0,
   IndicationTypePmkidCandidateList       = 1,

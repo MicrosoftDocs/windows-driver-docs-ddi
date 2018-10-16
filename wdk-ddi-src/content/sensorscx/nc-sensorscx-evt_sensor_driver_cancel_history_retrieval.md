@@ -47,7 +47,7 @@ Cancels history retrieval from the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL EvtSensorDriverCancelHistoryRetrieval; 
