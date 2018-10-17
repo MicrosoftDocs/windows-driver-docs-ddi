@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetethertypehandling.htm
 tech.root: netvista
 ms.assetid: 0681519e-022a-487c-ae5e-39a293b060ec
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_SET_ETHERTYPE_HANDLING, Dot11ExtSetEtherTypeHandling, Dot11ExtSetEtherTypeHandling callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6265fb16-690c-4ada-a79d-fa39760a63d2.xml, netvista.dot11extsetethertypehandling, wlanihv/Dot11ExtSetEtherTypeHandling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h

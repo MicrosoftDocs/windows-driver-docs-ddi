@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to indicate the status of the current session.
 old-location: display\dxgk_protected_session_status.htm
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], DXGK_PROTECTED_SESSION_STATUS_INVALID, DXGK_PROTECTED_SESSION_STATUS_OK, _DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, display.dxgk_protected_session_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dkmddi.h
 req.include-header: 

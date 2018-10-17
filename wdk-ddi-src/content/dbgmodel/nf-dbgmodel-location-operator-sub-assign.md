@@ -4,7 +4,6 @@ title: operator-= function
 author: windows-driver-content
 description: The subtraction assignment operator for the location function.
 ms.assetid: 77948015-8e09-4f07-b04a-85a868bb8359
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator-=

@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniPinPower routine is called for pi
 old-location: stream\avstrminipinpower.htm
 tech.root: stream
 ms.assetid: 6362ca08-cf8d-4e54-b144-10b2252f05c5
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

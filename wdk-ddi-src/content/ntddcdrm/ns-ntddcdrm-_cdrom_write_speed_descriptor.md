@@ -6,11 +6,8 @@ description: The CDROM_WRITE_SPEED_DESCRIPTOR structure is returned for the IOCT
 old-location: storage\cdrom_write_speed_descriptor.htm
 tech.root: storage
 ms.assetid: 21CFAA26-3E11-4E3B-949A-C905813E56A8
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PCDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR structure [Storage Devices], PCDROM_WRITE_SPEED_DESCRIPTOR, PCDROM_WRITE_SPEED_DESCRIPTOR structure pointer [Storage Devices], _CDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/CDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/PCDROM_WRITE_SPEED_DESCRIPTOR, storage.cdrom_write_speed_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

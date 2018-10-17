@@ -6,11 +6,8 @@ description: The PCMETHOD_ITEM structure describes a method supported by a filte
 old-location: audio\pcmethod_item.htm
 tech.root: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
-ms.author: windowsdriverdev
 ms.date: 12/14/2017
 ms.keywords: audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM, PCMETHOD_ITEM structure [Audio Devices], PPCMETHOD_ITEM, *PPCMETHOD_ITEM, portcls/PCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h

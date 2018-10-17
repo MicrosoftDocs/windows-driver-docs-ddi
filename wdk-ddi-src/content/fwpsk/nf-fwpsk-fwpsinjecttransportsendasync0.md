@@ -6,11 +6,8 @@ description: The FwpsInjectTransportSendAsync0 function injects packet data from
 old-location: netvista\fwpsinjecttransportsendasync0.htm
 tech.root: netvista
 ms.assetid: 1298a825-16c4-49ab-b038-19247975ea46
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsInjectTransportSendAsync0, FwpsInjectTransportSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportSendAsync0, netvista.fwpsinjecttransportsendasync0, wfp_ref_2_funct_3_fwps_I_76082863-1d74-4916-9766-c65b745dca60.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3D10DDI_COUNTER_INFO structure describes information to manipulate counters.
 old-location: display\d3d10ddi_counter_info.htm
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml, d3d10umddi/D3D10DDI_COUNTER_INFO, display.d3d10ddi_counter_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

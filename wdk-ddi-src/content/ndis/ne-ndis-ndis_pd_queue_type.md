@@ -6,11 +6,8 @@ description: The NDIS_PD_QUEUE_TYPE enumeration defines types of PacketDirect Pr
 old-location: netvista\ndis_pd_queue_type.htm
 tech.root: netvista
 ms.assetid: 4536B3AB-6170-4819-975A-47D9A6223EAE
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_PD_QUEUE_TYPE, NDIS_PD_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], PDQueueTypeMax, PDQueueTypeReceive, PDQueueTypeTransmit, PDQueueTypeUnknown, ndis/NDIS_PD_QUEUE_TYPE, ndis/PDQueueTypeMax, ndis/PDQueueTypeReceive, ndis/PDQueueTypeTransmit, ndis/PDQueueTypeUnknown, netvista.ndis_pd_queue_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ndis.h
 req.include-header: 

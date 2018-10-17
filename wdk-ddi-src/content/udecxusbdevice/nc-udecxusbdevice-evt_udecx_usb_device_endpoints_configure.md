@@ -6,11 +6,8 @@ description: The USB device emulation class extension (UdeCx) invokes this callb
 old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 tech.root: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h

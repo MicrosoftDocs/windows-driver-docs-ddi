@@ -6,11 +6,8 @@ description: The WdfFdoGetDefaultChildList method returns a handle to a specifie
 old-location: wdf\wdffdogetdefaultchildlist.htm
 tech.root: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, WdfFdoGetDefaultChildList method, kmdf.wdffdogetdefaultchildlist, wdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h

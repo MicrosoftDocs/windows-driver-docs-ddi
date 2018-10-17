@@ -6,11 +6,8 @@ description: The MiniportWdiTxTalSendComplete handler function returns ownership
 old-location: netvista\miniportwditxtalsendcomplete.htm
 tech.root: netvista
 ms.assetid: 347B069F-76B6-42D5-9613-7D0214C2FEDB
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_TX_TAL_SEND_COMPLETE, MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback, MiniportWdiTxTalSendComplete, MiniportWdiTxTalSendComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSendComplete, netvista.miniportwditxtalsendcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

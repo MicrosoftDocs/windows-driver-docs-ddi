@@ -6,11 +6,8 @@ description: The SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function initializes a SERCX2
 old-location: serports\sercx2_custom_receive_config_init.htm
 tech.root: serports
 ms.assetid: 35C7AE64-C778-443E-9CF7-7868048DA01F
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_config_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

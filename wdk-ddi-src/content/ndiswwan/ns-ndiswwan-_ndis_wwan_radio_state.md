@@ -6,11 +6,8 @@ description: The NDIS_WWAN_RADIO_STATE structure represents the hardware-based a
 old-location: netvista\ndis_wwan_radio_state.htm
 tech.root: netvista
 ms.assetid: 61173af4-5b6f-47e9-b236-6b45bcd83a9f
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, _NDIS_WWAN_RADIO_STATE, ndiswwan/NDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, netvista.ndis_wwan_radio_state"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h

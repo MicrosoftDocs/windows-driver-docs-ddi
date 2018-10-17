@@ -4,11 +4,8 @@ title: IOMMU_DOMAIN_CREATE
 author: windows-driver-content
 description: Creates a new DMA remapping device domain (a container for a set of page tables).
 ms.assetid: 70cce6f5-5adb-4646-b98d-e42d8e8f0389
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The KeInsertQueue routine inserts an entry at the tail of the given
 old-location: ifsk\keinsertqueue.htm
 tech.root: ifsk
 ms.assetid: 0aee6102-e9e3-41dc-a222-36bebb3d4294
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: KeInsertQueue, KeInsertQueue routine [Installable File System Drivers], ifsk.keinsertqueue, keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, ntifs/KeInsertQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

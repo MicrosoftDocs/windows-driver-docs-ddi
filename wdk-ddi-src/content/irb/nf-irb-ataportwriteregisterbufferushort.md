@@ -6,11 +6,8 @@ description: The AtaPortWriteRegisterBufferUshort routine transfers the indicate
 old-location: storage\ataportwriteregisterbufferushort.htm
 tech.root: storage
 ms.assetid: 1de586c7-2fee-488d-a84e-7cc08165ad50
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortWriteRegisterBufferUshort, AtaPortWriteRegisterBufferUshort routine [Storage Devices], atartns_7b2b3f11-f9ae-45a0-a690-9f879bd6e478.xml, irb/AtaPortWriteRegisterBufferUshort, storage.ataportwriteregisterbufferushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

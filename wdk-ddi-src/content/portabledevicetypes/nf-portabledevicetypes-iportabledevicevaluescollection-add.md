@@ -6,11 +6,8 @@ description: Adds an item to the collection.
 old-location: wpddk\iportabledevicevaluescollection_add.htm
 tech.root: wpd_dk
 ms.assetid: 1e95fb27-b6a6-41da-8765-e17bac4f35a1
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: Add, Add method, Add method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Add method, IPortableDeviceValuesCollection.Add, IPortableDeviceValuesCollection::Add, IPortableDeviceValuesCollectionAdd, portabledevicetypes/IPortableDeviceValuesCollection::Add, wpddk.iportabledevicevaluescollection_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

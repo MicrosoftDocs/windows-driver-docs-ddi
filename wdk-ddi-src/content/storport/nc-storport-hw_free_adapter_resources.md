@@ -6,11 +6,8 @@ description: The HwStorFreeAdapterResources callback routine allows the Storport
 old-location: storage\hwstorfreeadapterresources.htm
 tech.root: storage
 ms.assetid: 2f12aab4-ca6e-473b-a342-2881c4a7b133
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_FREE_ADAPTER_RESOURCES, HwStorFreeAdapterResources, HwStorFreeAdapterResources routine [Storage Devices], storage.hwstorfreeadapterresources, storport/HwStorFreeAdapterResources, storvmini_88adb6fa-10a8-4ee7-90d3-881564ed5cfd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h

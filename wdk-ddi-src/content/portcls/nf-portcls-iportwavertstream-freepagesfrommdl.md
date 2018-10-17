@@ -6,11 +6,8 @@ description: The FreePagesFromMdl method frees a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_freepagesfrommdl.htm
 tech.root: audio
 ms.assetid: 8839c0ab-08c5-4cc7-a526-aa1ebe2fde15
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], FreePagesFromMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],FreePagesFromMdl method, IPortWaveRTStream.FreePagesFromMdl, IPortWaveRTStream::FreePagesFromMdl, audio.iportwavertstream_freepagesfrommdl, audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, portcls/IPortWaveRTStream::FreePagesFromMdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The CWiauFormatConverter::Init method initializes the CWiauFormatCo
 old-location: image\cwiauformatconverter_init.htm
 tech.root: image
 ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],Init method, CWiauFormatConverter.Init, CWiauFormatConverter::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_init, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, wiautil/CWiauFormatConverter::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

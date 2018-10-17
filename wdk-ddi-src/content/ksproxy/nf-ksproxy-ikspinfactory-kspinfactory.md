@@ -6,11 +6,8 @@ description: The KsPinFactory method retrieves the identifier of a pin factory.
 old-location: stream\ikspinfactory_kspinfactory.htm
 tech.root: stream
 ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPinFactory interface [Streaming Media Devices],KsPinFactory method, IKsPinFactory.KsPinFactory, IKsPinFactory::KsPinFactory, KsPinFactory, KsPinFactory method [Streaming Media Devices], KsPinFactory method [Streaming Media Devices],IKsPinFactory interface, ksproxy/IKsPinFactory::KsPinFactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, stream.ikspinfactory_kspinfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

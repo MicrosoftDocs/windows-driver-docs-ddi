@@ -6,11 +6,8 @@ description: The D3DDDIARG_SETOVERLAYCOLORCONTROLS structure describes the param
 old-location: display\d3dddiarg_setoverlaycolorcontrols.htm
 tech.root: display
 ms.assetid: c8f04d2e-4c8c-4d1e-92e8-0f8722dbee5a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_SETOVERLAYCOLORCONTROLS, D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, _D3DDDIARG_SETOVERLAYCOLORCONTROLS, d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS, display.d3dddiarg_setoverlaycolorcontrols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

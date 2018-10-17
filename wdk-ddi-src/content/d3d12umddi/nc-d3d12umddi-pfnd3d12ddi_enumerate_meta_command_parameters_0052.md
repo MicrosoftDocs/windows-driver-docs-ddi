@@ -4,11 +4,8 @@ title: PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052
 author: windows-driver-content
 description: Enumerates meta-command parameters.
 ms.assetid: 3808a357-1a5b-4239-9dde-6f7b07212a91
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

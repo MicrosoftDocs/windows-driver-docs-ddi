@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Client drivers should not call this method directly. Instead, they should call an accessor method created by a call to NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME.
 tech.root: netvista
 ms.assetid: 437a8acf-4f9b-4a82-a6f2-b815343c8f3e
-ms.author: windowsdriverdev
 ms.date: 02/07/2018
 ms.topic: function
 ms.keywords: NetPacketGetContextFromToken

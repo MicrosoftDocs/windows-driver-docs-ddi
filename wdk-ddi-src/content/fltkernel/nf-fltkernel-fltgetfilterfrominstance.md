@@ -6,11 +6,8 @@ description: The FltGetFilterFromInstance routine returns an opaque filter point
 old-location: ifsk\fltgetfilterfrominstance.htm
 tech.root: ifsk
 ms.assetid: 2fe73705-4b44-4c75-8677-3325b6be9250
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], fltkernel/FltGetFilterFromInstance, ifsk.fltgetfilterfrominstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

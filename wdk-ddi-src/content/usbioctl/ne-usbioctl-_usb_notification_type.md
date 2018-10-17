@@ -4,12 +4,9 @@ title: _USB_NOTIFICATION_TYPE
 author: windows-driver-content
 description: 
 ms.assetid: cb5eaa01-dec9-4028-b0b1-7a1f240c02ae
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _USB_NOTIFICATION_TYPE, USB_NOTIFICATION_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbioctl.h
 req.include-header:
 req.target-type:

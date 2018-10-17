@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
 author: windows-driver-content
 description: Create unordered access view.
 ms.assetid: 38bc078d-cd76-4dd3-aed4-b703ddddd7b9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

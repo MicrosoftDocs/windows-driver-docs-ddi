@@ -6,11 +6,8 @@ description: The GetNotifyEventHandle method receives the handle of the event th
 old-location: debugger\getnotifyeventhandle.htm
 tech.root: debugger
 ms.assetid: a949a583-1ee1-4538-9117-4ad1482e8bc8
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle method [Windows Debugging],IDebugControl interface, GetNotifyEventHandle method [Windows Debugging],IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNotifyEventHandle method, IDebugControl2 interface [Windows Debugging],GetNotifyEventHandle method, IDebugControl2.GetNotifyEventHandle, IDebugControl2::GetNotifyEventHandle, IDebugControl3 interface [Windows Debugging],GetNotifyEventHandle method, IDebugControl3::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, dbgeng/IDebugControl2::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, dbgeng/IDebugControl::GetNotifyEventHandle, debugger.getnotifyeventhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

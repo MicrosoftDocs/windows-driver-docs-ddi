@@ -6,11 +6,8 @@ description: The FltRollbackEnlistment routine rolls back or aborts a transactio
 old-location: ifsk\fltrollbackenlistment.htm
 tech.root: ifsk
 ms.assetid: a63ebd95-801b-4de2-963e-392e6d90eb9f
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_f59e0c07-d415-440b-aec8-89c330679e0d.xml, FltRollbackEnlistment, FltRollbackEnlistment routine [Installable File System Drivers], fltkernel/FltRollbackEnlistment, ifsk.fltrollbackenlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

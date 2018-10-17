@@ -6,11 +6,8 @@ description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request t
 old-location: storage\device_copy_offload_descriptor.htm
 tech.root: storage
 ms.assetid: 192684D1-3D01-4EAA-989F-2E21E7187B3B
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Storage Devices], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/PDEVICE_COPY_OFFLOAD_DESCRIPTOR, storage.device_copy_offload_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

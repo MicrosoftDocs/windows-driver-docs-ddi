@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The client driver calls NetTxQueueNotifyMoreCompletedPacketsAvailable to resume queue operations after NetAdapterCx calls the client's EVT_TXQUEUE_SET_NOTIFICATION_ENABLED event callback routine.
 tech.root: netvista
 ms.assetid: 930bb60a-6ce0-4af3-b78e-160a36fc998d
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetTxQueueNotifyMoreCompletedPacketsAvailable

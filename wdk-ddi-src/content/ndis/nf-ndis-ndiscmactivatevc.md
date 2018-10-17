@@ -6,11 +6,8 @@ description: NdisCmActivateVc passes CM-supplied call parameters, including medi
 old-location: netvista\ndiscmactivatevc.htm
 tech.root: netvista
 ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

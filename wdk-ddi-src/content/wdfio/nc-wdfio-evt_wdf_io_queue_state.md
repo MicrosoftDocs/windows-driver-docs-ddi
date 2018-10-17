@@ -6,11 +6,8 @@ description: A driver's EvtIoQueueState event callback function delivers queue s
 old-location: wdf\evtioqueuestate.htm
 tech.root: wdf
 ms.assetid: 14999036-c137-4056-b6f7-53a8476fd385
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_726524eb-d12b-451c-aa6e-3f60aa9b7940.xml, EVT_WDF_IO_QUEUE_STATE, EVT_WDF_IO_QUEUE_STATE callback, EvtIoQueueState, EvtIoQueueState callback function, kmdf.evtioqueuestate, wdf.evtioqueuestate, wdfio/EvtIoQueueState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfio.h
 req.include-header: Wdf.h

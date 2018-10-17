@@ -6,11 +6,8 @@ description: The WdfDeviceGetDeviceState method retrieves the device state for a
 old-location: wdf\wdfdevicegetdevicestate.htm
 tech.root: wdf
 ms.assetid: 510197cf-8eab-4e1a-8b51-c1c08c58532b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: Performs an asynchronous refresh operation with the specified query
 old-location: print\iprinterqueue_sendbidiquery.htm
 tech.root: print
 ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices],SendBidiQuery method, IPrinterQueue.SendBidiQuery, IPrinterQueue::SendBidiQuery, SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices],IPrinterQueue interface, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

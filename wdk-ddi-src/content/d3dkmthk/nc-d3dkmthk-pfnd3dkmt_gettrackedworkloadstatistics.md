@@ -4,11 +4,8 @@ title: PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
 author: windows-driver-content
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: d0f745bc-f54b-4f16-8f43-eb435c51d7cc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

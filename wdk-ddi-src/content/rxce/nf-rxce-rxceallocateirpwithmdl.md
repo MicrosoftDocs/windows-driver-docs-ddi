@@ -6,11 +6,8 @@ description: RxCeAllocateIrpWithMDL allocates an IRP and associates it with an e
 old-location: ifsk\rxceallocateirpwithmdl.htm
 tech.root: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxce.h
 req.include-header: Rxce.h

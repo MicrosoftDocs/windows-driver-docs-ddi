@@ -6,11 +6,8 @@ description: The Storport driver calls the HwStorInterrupt routine after the HBA
 old-location: storage\hwstorinterrupt.htm
 tech.root: storage
 ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h

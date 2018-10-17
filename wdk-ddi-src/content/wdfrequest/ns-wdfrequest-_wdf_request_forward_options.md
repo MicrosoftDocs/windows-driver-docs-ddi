@@ -6,11 +6,8 @@ description: The WDF_REQUEST_FORWARD_OPTIONS structure contains options for requ
 old-location: wdf\wdf_request_forward_options.htm
 tech.root: wdf
 ms.assetid: 61ec4a05-749d-4d60-9bd7-ad121b6fd90f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_REQUEST_FORWARD_OPTIONS, DFRequestObjectRef_878a982e-6fe9-4bfc-ad5c-165ef7590b79.xml, PWDF_REQUEST_FORWARD_OPTIONS, PWDF_REQUEST_FORWARD_OPTIONS structure pointer, WDF_REQUEST_FORWARD_OPTIONS, WDF_REQUEST_FORWARD_OPTIONS structure, _WDF_REQUEST_FORWARD_OPTIONS, kmdf.wdf_request_forward_options, wdf.wdf_request_forward_options, wdfrequest/PWDF_REQUEST_FORWARD_OPTIONS, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfrequest.h
 req.include-header: Wdf.h

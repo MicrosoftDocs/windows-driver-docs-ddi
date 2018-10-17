@@ -6,11 +6,8 @@ description: The SUB_Q_HEADER structure contains audio status information and th
 old-location: storage\sub_q_header.htm
 tech.root: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSUB_Q_HEADER, PSUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], _SUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER, ntddcdrm/SUB_Q_HEADER, storage.sub_q_header, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

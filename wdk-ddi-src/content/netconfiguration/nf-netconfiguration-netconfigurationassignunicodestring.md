@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetConfigurationAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry.
 tech.root: netvista
 ms.assetid: 4b225e21-abf7-4b9b-91f3-349b4fbd60d2
-ms.author: windowsdriverdev
 ms.date: 02/07/2018
 ms.topic: function
 ms.keywords: NetConfigurationAssignUnicodeString

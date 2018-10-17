@@ -6,11 +6,8 @@ description: NDIS calls the MiniportInterrupt function when a NIC, or another de
 old-location: netvista\miniportinterrupt.htm
 tech.root: netvista
 ms.assetid: 810503b9-75cd-4b38-ab1f-de240968ded6
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_ISR, MINIPORT_ISR callback, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

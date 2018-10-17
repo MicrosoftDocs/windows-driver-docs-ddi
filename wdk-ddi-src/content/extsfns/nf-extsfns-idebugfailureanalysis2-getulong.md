@@ -6,11 +6,8 @@ description: The GetString method searches a DebugFailureAnalysis object for the
 old-location: debugger\idebugfailureanalysis2_getstring.htm
 tech.root: debugger
 ms.assetid: 76F5F3E0-74BF-4DFF-9AA3-A67C03AF56F9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetUlong method, IDebugFailureAnalysis2.GetUlong, IDebugFailureAnalysis2::GetUlong, debugger.idebugfailureanalysis2_getstring, extsfns/IDebugFailureAnalysis2::GetUlong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 

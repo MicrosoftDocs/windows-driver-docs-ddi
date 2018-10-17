@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilopenuicclogicalchannelinfo.htm
 tech.root: netvista
 ms.assetid: 5001f623-5b53-4ae7-9b5b-dc3bd5bdcc70
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo, ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

@@ -6,11 +6,8 @@ description: The KSPROPERTY_TVAUDIO_CAPS_S structure describes the capability of
 old-location: stream\ksproperty_tvaudio_caps_s.htm
 tech.root: stream
 ms.assetid: 991208ee-d245-41d1-a5e6-0e79368e37a8
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_CAPS_S, PKSPROPERTY_TVAUDIO_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_CAPS_S, ksmedia/PKSPROPERTY_TVAUDIO_CAPS_S, stream.ksproperty_tvaudio_caps_s, vidcapstruct_dd4243d2-9778-4dae-99e2-0d32a73ab0d4.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

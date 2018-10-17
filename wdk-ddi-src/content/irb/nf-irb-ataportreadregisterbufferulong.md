@@ -6,11 +6,8 @@ description: The AtaPortReadRegisterBufferUlong routine transfers a specified nu
 old-location: storage\ataportreadregisterbufferulong.htm
 tech.root: storage
 ms.assetid: 50baeaa1-5671-4f6d-83cd-f03cca18b18b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortReadRegisterBufferUlong, AtaPortReadRegisterBufferUlong routine [Storage Devices], atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml, irb/AtaPortReadRegisterBufferUlong, storage.ataportreadregisterbufferulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

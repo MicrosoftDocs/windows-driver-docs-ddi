@@ -6,11 +6,8 @@ description: The ZwQueryInformationResourceManager routine retrieves information
 old-location: kernel\zwqueryinformationresourcemanager.htm
 tech.root: kernel
 ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtQueryInformationResourceManager, ZwQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationresourcemanager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, wdm/NtQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

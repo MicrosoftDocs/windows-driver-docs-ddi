@@ -4,11 +4,8 @@ title: PFND3D12DDI_UNMAPHEAP
 author: windows-driver-content
 description: Implemented by the client driver to unmap a heap.
 ms.assetid: ff2743ac-ae14-4c19-836a-d8a869b3ff9b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStackFrame::QueryInterface
 author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 382a3ad3-d35b-46d1-aeaf-746d84be6fcb
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::QueryInterface, QueryInterface, IDataModelScriptDebugStackFrame.QueryInterface, IDataModelScriptDebugStackFrame::QueryInterface, IDataModelScriptDebugStackFrame.QueryInterface

@@ -6,11 +6,8 @@ description: The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte
 old-location: kernel\rtlstringcbcopyex.htm
 tech.root: kernel
 ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlStringCbCopyEx, RtlStringCbCopyExA, RtlStringCbCopyExW, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopyex, ntstrsafe/RtlStringCbCopyExA, ntstrsafe/RtlStringCbCopyExW, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

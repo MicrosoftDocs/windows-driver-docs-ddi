@@ -6,11 +6,8 @@ description: SecMakeSPN creates a service provider name string that can be used 
 old-location: ifsk\secmakespn.htm
 tech.root: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ifsk.secmakespn, ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

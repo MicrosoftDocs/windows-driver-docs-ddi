@@ -4,11 +4,8 @@ title: _D3DKMT_MIRACASTCOMPANIONDRIVERNAME
 author: windows-driver-content
 description: The name of the Miracast (wireless display) companion driver.
 ms.assetid: 2b1f8967-a5f9-4d21-9a72-bec52b5f7c12
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_MIRACASTCOMPANIONDRIVERNAME, D3DKMT_MIRACASTCOMPANIONDRIVERNAME, 
 req.header: d3dkmthk.h
 req.include-header:

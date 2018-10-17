@@ -6,11 +6,8 @@ description: The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader h
 old-location: display\d3dddiarg_createvertexshaderdecl.htm
 tech.root: display
 ms.assetid: 510f8cda-922e-48de-b95e-daf972e906fa
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, _D3DDDIARG_CREATEVERTEXSHADERDECL, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, display.d3dddiarg_createvertexshaderdecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

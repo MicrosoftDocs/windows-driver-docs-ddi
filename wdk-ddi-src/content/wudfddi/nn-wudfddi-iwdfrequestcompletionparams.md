@@ -6,11 +6,8 @@ description: The IWDFRequestCompletionParams interface exposes methods that driv
 old-location: wdf\iwdfrequestcompletionparams.htm
 tech.root: wdf
 ms.assetid: f297c6e0-927a-4fb3-bab4-00fdd610a684
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,described, UMDFRequestObjectRef_746528f7-b23f-4907-8661-e228fa99df1c.xml, umdf.iwdfrequestcompletionparams, wdf.iwdfrequestcompletionparams, wudfddi/IWDFRequestCompletionParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

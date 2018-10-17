@@ -6,11 +6,8 @@ description: This inline function is a wrapper for KsRegisterAggregatedClientUnk
 old-location: stream\kspinregisteraggregatedclientunknown.htm
 tech.root: stream
 ms.assetid: 302d87be-a276-49ea-98f2-89e1f231c3c6
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, ks/KsPinRegisterAggregatedClientUnknown, stream.kspinregisteraggregatedclientunknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -4,7 +4,6 @@ title: operator== function
 author: windows-driver-content
 description: Equivalence operator for the location function.
 ms.assetid: 25221b6a-208e-4f9e-a41b-c2a1c4405977
-ms.author: windowsdriverdev
 ms.date: 10/02/2018
 ms.topic: function
 ms.keywords: operator==

@@ -4,11 +4,8 @@ title: PJOIN_DMA_DOMAIN
 author: windows-driver-content
 description: 
 ms.assetid: e5cd824e-ab68-4d20-93d5-a84362859e99
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The NDIS_WWAN_PCO_STATUS structure represents the Protocol Configur
 old-location: netvista\ndis_wwan_pco_status.htm
 tech.root: netvista
 ms.assetid: C71187C5-74B6-450A-8461-BB9FDF60DB8D
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h

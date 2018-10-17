@@ -6,11 +6,8 @@ description: Sends information about the hardware alerts that are received on th
 old-location: buses\ucmtcpciportcontrolleralert.htm
 tech.root: usbref
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmtcpciportcontroller.h
 req.include-header: 

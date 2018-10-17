@@ -6,11 +6,8 @@ description: The FltClearCallbackDataDirty routine clears the callback dirty fla
 old-location: ifsk\fltclearcallbackdatadirty.htm
 tech.root: ifsk
 ms.assetid: c53ec6e5-83f8-4262-b832-1a206e6652e6
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_04cd5e96-3277-4afa-b3cb-07c0f418fe42.xml, FltClearCallbackDataDirty, FltClearCallbackDataDirty routine [Installable File System Drivers], fltkernel/FltClearCallbackDataDirty, ifsk.fltclearcallbackdatadirty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -4,7 +4,6 @@ title: DEFINE_GUIDEX function
 author: windows-driver-content
 description: 
 ms.assetid: aa3c1f4a-1a4b-4cad-b54e-260022c29681
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: DEFINE_GUIDEX

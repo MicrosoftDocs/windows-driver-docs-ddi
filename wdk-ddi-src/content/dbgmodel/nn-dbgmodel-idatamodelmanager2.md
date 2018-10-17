@@ -4,11 +4,8 @@ title: IDataModelManager2
 author: windows-driver-content
 description: The second version of the interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types. 
 ms.assetid: 3cdf03e0-7682-4b98-906c-b4fcacc844a4
-ms.author: windowsdriverdev
 ms.date:  07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

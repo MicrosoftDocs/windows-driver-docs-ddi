@@ -6,11 +6,8 @@ description: The IPrintOemPS::DisableDriver method allows a rendering plug-in fo
 old-location: print\iprintoemps_disabledriver.htm
 tech.root: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DisableDriver method, IPrintOemPS.DisableDriver, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

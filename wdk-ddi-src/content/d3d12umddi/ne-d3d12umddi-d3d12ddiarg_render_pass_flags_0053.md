@@ -4,12 +4,9 @@ title: D3D12DDIARG_RENDER_PASS_FLAGS_0053
 author: windows-driver-content
 description: Indicates the state of the Render Pass.
 ms.assetid: 1ff42584-e2d3-4f47-8dac-3262fc375491
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDIARG_RENDER_PASS_FLAGS_0053, D3D12DDIARG_RENDER_PASS_FLAGS_0053, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

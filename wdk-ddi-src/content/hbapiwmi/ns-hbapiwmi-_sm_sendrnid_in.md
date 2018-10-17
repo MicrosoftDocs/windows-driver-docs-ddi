@@ -6,11 +6,8 @@ description: The SM_SendRNID_IN structure is used to provide input parameters to
 old-location: storage\sm_sendrnid_in.htm
 tech.root: storage
 ms.assetid: 7d94fc94-bfc6-4666-a321-71a0643f3140
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSM_SendRNID_IN, PSM_SendRNID_IN, PSM_SendRNID_IN structure pointer [Storage Devices], SM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], _SM_SendRNID_IN, hbapiwmi/PSM_SendRNID_IN, hbapiwmi/SM_SendRNID_IN, storage.sm_sendrnid_in, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

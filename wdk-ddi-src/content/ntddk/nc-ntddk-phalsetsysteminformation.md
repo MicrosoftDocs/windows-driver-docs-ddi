@@ -4,11 +4,8 @@ title: pHalSetSystemInformation
 author: windows-driver-content
 description: Register MCA driver with the HAL. 
 ms.assetid: fb9491a9-7fbe-4a7f-9794-06d5020540ef
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type: Desktop

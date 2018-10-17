@@ -6,11 +6,8 @@ description: The GPIO_WRITE_PINS_MASK_PARAMETERS structure describes a write ope
 old-location: gpio\gpio_write_pins_mask_parameters.htm
 tech.root: GPIO
 ms.assetid: 5861FC4E-9902-4839-9829-B04F6AED61FE
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGPIO_WRITE_PINS_MASK_PARAMETERS, GPIO.gpio_write_pins_mask_parameters, GPIO_WRITE_PINS_MASK_PARAMETERS, GPIO_WRITE_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_WRITE_PINS_MASK_PARAMETERS, PGPIO_WRITE_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_MASK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

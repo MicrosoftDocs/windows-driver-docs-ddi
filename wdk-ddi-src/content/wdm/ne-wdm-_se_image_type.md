@@ -4,12 +4,9 @@ title: _SE_IMAGE_TYPE
 author: windows-driver-content
 description: 
 ms.assetid: 03686e66-ca43-406b-8d2f-0cfd0d35df0b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _SE_IMAGE_TYPE, SE_IMAGE_TYPE, *PSE_IMAGE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

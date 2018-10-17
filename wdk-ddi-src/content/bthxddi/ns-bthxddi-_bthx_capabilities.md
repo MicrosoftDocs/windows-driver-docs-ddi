@@ -6,11 +6,8 @@ description: The BTHX_CAPABILITIES structure describes the capabilities of the B
 old-location: bltooth\bthx_capabilities.htm
 tech.root: bltooth
 ms.assetid: BEC06C82-E103-4255-ACDD-9FB28E8E2DE5
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PBTHX_CAPABILITIES, BTHX_CAPABILITIES, BTHX_CAPABILITIES structure [Bluetooth Devices], PBTHX_CAPABILITIES, PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], _BTHX_CAPABILITIES, bltooth.bthx_capabilities, bthxddi/BTHX_CAPABILITIES, bthxddi/PBTHX_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthxddi.h
 req.include-header: BthXDDI.h

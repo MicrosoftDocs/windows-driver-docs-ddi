@@ -4,7 +4,6 @@ title: IDynamicConceptProviderConcept::SetConcept
 author: windows-driver-content
 description: The SetConcept method on a dynamic concept provider is effectively an override of the SetConcept method on IModelObject. 
 ms.assetid: f65dace2-4cb8-4395-a16e-6467aa9c282e
-ms.author: windowsdriverdev
 ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicConceptProviderConcept::SetConcept, SetConcept, IDynamicConceptProviderConcept.SetConcept, IDynamicConceptProviderConcept::SetConcept, IDynamicConceptProviderConcept.SetConcept

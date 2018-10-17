@@ -6,11 +6,8 @@ description: The EXTTEXTMETRIC structure is used to specify font-specific inform
 old-location: print\exttextmetric.htm
 tech.root: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PEXTTEXTMETRIC, EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, PEXTTEXTMETRIC structure pointer [Print Devices], _EXTTEXTMETRIC, print.exttextmetric, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, prntfont/EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: prntfont.h
 req.include-header: Prntfont.h

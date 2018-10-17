@@ -6,11 +6,8 @@ description: This structure is the output buffer received by the IOCTL_SRIOV_QUE
 old-location: pci\sriov_mitigated_ranges_output.htm
 tech.root: PCI
 ms.assetid: f33f602e-0bce-4ac2-8bd8-8640b2376278
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PSRIOV_MITIGATED_RANGES_OUTPUT, PCI.sriov_mitigated_ranges_output, SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:

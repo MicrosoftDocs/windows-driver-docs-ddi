@@ -6,11 +6,8 @@ description: This structure represents RILTDSCDMAMRL, which is a TD_SCDMA networ
 old-location: netvista\riltdscdmamrl.htm
 tech.root: netvista
 ms.assetid: 26399c62-c17a-40ad-964e-144badc55614
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl, rilapitypes/RILTDSCDMAMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h

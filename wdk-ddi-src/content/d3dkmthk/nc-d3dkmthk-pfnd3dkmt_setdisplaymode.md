@@ -4,11 +4,8 @@ title: PFND3DKMT_SETDISPLAYMODE
 author: windows-driver-content
 description: The PFND3DKMT_SETDISPLAYMODE callback function sets the allocation that is used to scan out to the display.
 ms.assetid: 354a3cdc-f353-4c11-bd41-391ac936886a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

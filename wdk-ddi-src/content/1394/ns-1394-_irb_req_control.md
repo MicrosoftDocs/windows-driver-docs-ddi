@@ -6,11 +6,8 @@ description: This structure contains the fields necessary for the 1394 bus drive
 old-location: ieee\irb_req_control.htm
 tech.root: IEEE
 ms.assetid: F0ABD318-AC63-40D5-B94E-BD6FEA1A57AC
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 1394/IRB_REQ_CONTROL, IEEE.irb_req_control, IRB_REQ_CONTROL, IRB_REQ_CONTROL structure [Buses], _IRB_REQ_CONTROL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

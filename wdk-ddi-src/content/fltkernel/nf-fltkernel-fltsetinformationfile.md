@@ -6,11 +6,8 @@ description: FltSetInformationFile sets information for a given file.
 old-location: ifsk\fltsetinformationfile.htm
 tech.root: ifsk
 ms.assetid: 8d0a91ef-9fb0-45a6-979a-614aed1703a5
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_310caf59-cf9a-488a-8632-f0d8d5e14769.xml, FltSetInformationFile, FltSetInformationFile function [Installable File System Drivers], fltkernel/FltSetInformationFile, ifsk.fltsetinformationfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

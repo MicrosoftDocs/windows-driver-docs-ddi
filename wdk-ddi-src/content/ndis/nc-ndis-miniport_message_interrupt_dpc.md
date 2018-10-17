@@ -6,11 +6,8 @@ description: A miniport driver must provide a MiniportMessageInterruptDPC handle
 old-location: netvista\miniportmessageinterruptdpc.htm
 tech.root: netvista
 ms.assetid: c1eca20b-eda1-442c-8644-798fa864d5d7
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT_DPC, MINIPORT_MESSAGE_INTERRUPT_DPC callback, MiniportMessageInterruptDPC, MiniportMessageInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterruptDPC, ndis_interrupts_miniport_functions_ref_eb463565-15ab-4751-be20-4239e6ccb987.xml, netvista.miniportmessageinterruptdpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

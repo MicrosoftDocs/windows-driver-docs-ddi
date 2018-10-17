@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYVIDEOMEMORYINFO
 author: windows-driver-content
 description: The PFND3DKMT_QUERYVIDEOMEMORYINFO callback function queries for video memory info.
 ms.assetid: b7c07313-82cd-4c7e-a659-d649c234f3f7
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

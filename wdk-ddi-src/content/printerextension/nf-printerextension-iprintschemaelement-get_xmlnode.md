@@ -6,11 +6,8 @@ description: Gets the IXMLDOMNode object associated with this item.
 old-location: print\iprintschemaelement_xmlnode.htm
 tech.root: print
 ms.assetid: 5E7F2292-1F71-4581-8E34-86F1464EC08F
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaElement interface [Print Devices],XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement.get_XmlNode, IPrintSchemaElement::XmlNode, IPrintSchemaElement::get_XmlNode, XmlNode property [Print Devices], XmlNode property [Print Devices],IPrintSchemaElement interface, get_XmlNode, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

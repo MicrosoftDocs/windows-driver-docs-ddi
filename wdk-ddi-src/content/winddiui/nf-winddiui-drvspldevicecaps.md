@@ -6,11 +6,8 @@ description: A printer interface DLL's DrvSplDeviceCaps function queries a print
 old-location: print\drvspldevicecaps.htm
 tech.root: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddiui.h
 req.include-header: Winddiui.h

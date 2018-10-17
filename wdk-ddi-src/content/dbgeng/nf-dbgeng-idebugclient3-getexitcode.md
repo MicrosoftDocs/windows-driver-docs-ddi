@@ -6,11 +6,8 @@ description: The GetExitCode method returns the exit code of the current process
 old-location: debugger\getexitcode.htm
 tech.root: debugger
 ms.assetid: faa5cc0f-a99c-42fb-ab8f-a37c31bc4dde
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetExitCode, GetExitCode method [Windows Debugging], GetExitCode method [Windows Debugging],IDebugClient interface, GetExitCode method [Windows Debugging],IDebugClient2 interface, GetExitCode method [Windows Debugging],IDebugClient3 interface, GetExitCode method [Windows Debugging],IDebugClient4 interface, GetExitCode method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetExitCode method, IDebugClient2 interface [Windows Debugging],GetExitCode method, IDebugClient2::GetExitCode, IDebugClient3 interface [Windows Debugging],GetExitCode method, IDebugClient3.GetExitCode, IDebugClient3::GetExitCode, IDebugClient4 interface [Windows Debugging],GetExitCode method, IDebugClient4::GetExitCode, IDebugClient5 interface [Windows Debugging],GetExitCode method, IDebugClient5::GetExitCode, IDebugClient::GetExitCode, IDebugClient_c0198b4c-b627-42c9-80eb-15db22156293.xml, dbgeng/IDebugClient2::GetExitCode, dbgeng/IDebugClient3::GetExitCode, dbgeng/IDebugClient4::GetExitCode, dbgeng/IDebugClient5::GetExitCode, dbgeng/IDebugClient::GetExitCode, debugger.getexitcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

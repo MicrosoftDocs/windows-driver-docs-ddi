@@ -6,11 +6,8 @@ description: The GetReadParameters method retrieves parameters that are associat
 old-location: wdf\iwdfiorequestcompletionparams_getreadparameters.htm
 tech.root: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetReadParameters method, IWDFIoRequestCompletionParams.GetReadParameters, IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

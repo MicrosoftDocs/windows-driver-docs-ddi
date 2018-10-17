@@ -6,11 +6,8 @@ description: The WdfDeviceWdmDispatchIrp method returns a dispatched IRP to the 
 old-location: wdf\wdfdevicewdmdispatchirp.htm
 tech.root: wdf
 ms.assetid: 362C6F7C-7B92-43A8-9BD0-F647FDD266E4
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method, kmdf.wdfdevicewdmdispatchirp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

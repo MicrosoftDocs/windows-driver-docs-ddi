@@ -4,11 +4,8 @@ title: CVEC3D::operator+=
 author: windows-driver-content
 description: Assignment operator +.
 ms.assetid: 7eec4410-2b78-4f78-a644-52d74805909d
-ms.author: windowsdriverdev
 ms.date: 08/01/18
 ms.topic: method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CVEC3D::operator+=, operator+=, CVEC3D.operator+=, CVEC3D::operator+=, CVEC3D.operator+=
 req.header: math3dhelper.h

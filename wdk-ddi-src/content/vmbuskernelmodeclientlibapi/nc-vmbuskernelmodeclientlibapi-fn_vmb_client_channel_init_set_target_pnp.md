@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbClientChannelInitSetTargetPnp function sets a client channel's target by interface type and instance IDs.
 tech.root: netvista
 ms.assetid: 0c201a5e-9e06-4cab-a062-b6c9aab7ec40
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

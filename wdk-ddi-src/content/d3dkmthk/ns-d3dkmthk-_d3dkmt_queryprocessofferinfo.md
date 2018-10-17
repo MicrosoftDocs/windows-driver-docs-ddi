@@ -4,11 +4,8 @@ title: _D3DKMT_QUERYPROCESSOFFERINFO
 author: windows-driver-content
 description: Used to query the process offer info.
 ms.assetid: 321a6f3d-7375-42a3-b17f-9b7362df44af
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_QUERYPROCESSOFFERINFO, D3DKMT_QUERYPROCESSOFFERINFO, 
 req.header: d3dkmthk.h
 req.include-header:

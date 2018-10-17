@@ -4,11 +4,8 @@ title: _D3DDDI_QUERYREGISTRY_FLAGS
 author: windows-driver-content
 description: Contains information to query for registry flags.
 ms.assetid: 9dabfa1e-4574-4a82-a7c9-f44d5012dcbb
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDI_QUERYREGISTRY_FLAGS, D3DDDI_QUERYREGISTRY_FLAGS,
 req.header: d3dukmdt.h
 req.include-header:

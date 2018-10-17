@@ -6,11 +6,8 @@ description: An SPB controller driver's EvtSpbControllerIoRead event callback fu
 old-location: spb\evtspbcontrollerioread.htm
 tech.root: SPB
 ms.assetid: 2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: spbcx.h
 req.include-header: 

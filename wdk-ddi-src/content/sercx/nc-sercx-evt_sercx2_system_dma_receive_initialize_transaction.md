@@ -6,11 +6,8 @@ description: The EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction event c
 old-location: serports\evtsercx2systemdmareceiveinitializetransaction.htm
 tech.root: serports
 ms.assetid: 34E016AF-439C-44CC-A2AE-78CD7B2B5443
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaReceiveInitializeTransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceiveinitializetransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

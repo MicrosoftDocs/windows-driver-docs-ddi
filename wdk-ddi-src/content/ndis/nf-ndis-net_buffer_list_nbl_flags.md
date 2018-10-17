@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_BUFFER_LIST_NBL_FLAGS macro retrieves the NblFlags member of a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: dee43a1e-5815-4324-8d8e-f928fdffdae6
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_NBL_FLAGS

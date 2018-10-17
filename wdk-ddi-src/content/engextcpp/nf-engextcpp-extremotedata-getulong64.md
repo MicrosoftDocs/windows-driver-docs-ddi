@@ -6,11 +6,8 @@ description: The GetUlong64 method returns a ULONG64 version of the ExtRemoteDat
 old-location: debugger\extremotedata_getulong64.htm
 tech.root: debugger
 ms.assetid: f88694a0-aa76-434a-b436-3c0b6903cad6
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_8310177e-7943-4f2c-92bd-b69848c9e9f0.xml, ExtRemoteData class [Windows Debugging],GetUlong64 method, ExtRemoteData.GetUlong64, ExtRemoteData::GetUlong64, GetUlong64, GetUlong64 method [Windows Debugging], GetUlong64 method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

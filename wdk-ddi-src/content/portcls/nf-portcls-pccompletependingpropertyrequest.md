@@ -6,11 +6,8 @@ description: The PcCompletePendingPropertyRequest function is called to complete
 old-location: audio\pccompletependingpropertyrequest.htm
 tech.root: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, portcls/PcCompletePendingPropertyRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

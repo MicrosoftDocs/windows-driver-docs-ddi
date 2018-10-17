@@ -6,11 +6,8 @@ description: The PPARALLEL_SET_CHIP_MODE-typed callback routine sets the operati
 old-location: parports\pparallel_set_chip_mode.htm
 tech.root: parports
 ms.assetid: 7c80f3ee-cbb2-400d-9dfb-36ccef93d80f
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "(*PPARALLEL_SET_CHIP_MODE), (*PPARALLEL_SET_CHIP_MODE) callback function [Parallel Ports], cisspd_a108ba77-8f01-436e-bc7a-48a74f80ac75.xml, parallel/(*PPARALLEL_SET_CHIP_MODE), parports.pparallel_set_chip_mode"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h

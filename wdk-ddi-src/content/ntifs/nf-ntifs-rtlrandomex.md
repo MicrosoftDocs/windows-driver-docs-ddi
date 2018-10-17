@@ -6,11 +6,8 @@ description: The RtlRandomEx routine returns a random number that was generated 
 old-location: ifsk\rtlrandomex.htm
 tech.root: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h

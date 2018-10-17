@@ -6,11 +6,8 @@ description: The AtaControllerChannelEnabled miniport driver routine indicates w
 old-location: storage\atacontrollerchannelenabled.htm
 tech.root: storage
 ms.assetid: 67713537-6a5b-4108-8af9-fb5d16844b03
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaControllerChannelEnabled, AtaControllerChannelEnabled routine [Storage Devices], IDE_CHANNEL_ENABLED, atartns_4beac2ec-b776-4af2-9acc-b236e0adc364.xml, irb/AtaControllerChannelEnabled, storage.atacontrollerchannelenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: irb.h
 req.include-header: Irb.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DxgkDdiDestroyDevice function destroys a graphics context device.
 old-location: display\dxgkddidestroydevice.htm
 ms.assetid: c067fe92-2364-4122-a7ed-03df7906ae64
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_DESTROYDEVICE, DXGKDDI_DESTROYDEVICE callback, DmFunctions_14927367-d2f9-4aa4-ab3d-a3c8decedbcf.xml, DxgkDdiDestroyDevice, DxgkDdiDestroyDevice callback function [Display Devices], d3dkmddi/DxgkDdiDestroyDevice, display.dxgkddidestroydevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 

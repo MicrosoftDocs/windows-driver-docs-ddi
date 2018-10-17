@@ -6,11 +6,8 @@ description: This function can be called by a miniport to update the maximum IO'
 old-location: storage\storportupdateadaptermaxio.htm
 tech.root: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: 

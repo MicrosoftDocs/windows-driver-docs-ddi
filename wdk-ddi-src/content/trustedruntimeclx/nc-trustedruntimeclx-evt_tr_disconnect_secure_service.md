@@ -4,11 +4,8 @@ title: EVT_TR_DISCONNECT_SECURE_SERVICE
 author: windows-driver-content
 description: 
 ms.assetid: f0bcdca4-bbbd-4ec5-88ce-dc8b68fcbd31
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

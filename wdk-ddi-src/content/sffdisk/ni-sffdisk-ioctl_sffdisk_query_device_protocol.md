@@ -6,11 +6,8 @@ description: User-mode applications use this IOCTL to retrieve a protocol value 
 old-location: sd\ioctl_sffdisk_query_device_protocol.htm
 tech.root: SD
 ms.assetid: 47eeb4a9-dece-4500-bbe7-891f64437eef
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], SD.ioctl_sffdisk_query_device_protocol, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: sffdisk.h
 req.include-header: Sffdisk.h

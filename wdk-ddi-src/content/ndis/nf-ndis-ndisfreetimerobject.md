@@ -6,11 +6,8 @@ description: The NdisFreeTimerObject function frees a timer object that was allo
 old-location: netvista\ndisfreetimerobject.htm
 tech.root: netvista
 ms.assetid: b3edeebb-7a8f-4cd2-bd52-1b8ce044caa2
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisFreeTimerObject, NdisFreeTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeTimerObject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, netvista.ndisfreetimerobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

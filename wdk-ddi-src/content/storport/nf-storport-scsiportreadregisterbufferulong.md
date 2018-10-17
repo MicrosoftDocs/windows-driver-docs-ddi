@@ -6,11 +6,8 @@ description: The ScsiPortReadRegisterBufferUlong routine transfers a specified n
 old-location: storage\scsiportreadregisterbufferulong.htm
 tech.root: storage
 ms.assetid: 6b2d1893-8878-4ccd-bc0c-845e1cb8f6bf
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortReadRegisterBufferUlong, ScsiPortReadRegisterBufferUlong routine [Storage Devices], scsiprt_4356902d-5810-4006-acbe-40d41c2d68e4.xml, srb/ScsiPortReadRegisterBufferUlong, storage.scsiportreadregisterbufferulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h

@@ -4,7 +4,6 @@ title: IDebugHostSymbol2::CompareAgainst
 author: windows-driver-content
 description: Compares two symbols for equality. 
 ms.assetid: abdc73ad-ae24-43cd-9b66-9f063a554cda
-ms.author: windowsdriverdev
 ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::CompareAgainst, CompareAgainst, IDebugHostSymbol2.CompareAgainst, IDebugHostSymbol2::CompareAgainst, IDebugHostSymbol2.CompareAgainst

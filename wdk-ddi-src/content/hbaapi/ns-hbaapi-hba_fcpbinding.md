@@ -6,11 +6,8 @@ description: The HBA_FCPBinding structure contains an array of bindings between 
 old-location: storage\hba_fcpbinding.htm
 tech.root: storage
 ms.assetid: e06b82f7-2b48-47e8-b6fa-c86b790e8019
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PHBA_FCPBINDING, HBA_FCPBINDING, HBA_FCPBINDING structure [Storage Devices], HBA_FCPBinding, HBA_FCPBinding structure [Storage Devices], PHBA_FCPBINDING, PHBA_FCPBINDING structure pointer [Storage Devices], hbaapi/HBA_FCPBinding, hbaapi/PHBA_FCPBINDING, storage.hba_fcpbinding, structs-Fibre_c02a809a-3b65-4e19-93e0-c72a0aead81c.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

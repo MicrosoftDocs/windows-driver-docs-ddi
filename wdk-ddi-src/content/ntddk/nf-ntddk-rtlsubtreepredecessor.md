@@ -6,11 +6,8 @@ description: The RtlSubtreePredecessor routine returns a pointer to the predeces
 old-location: ifsk\rtlsubtreepredecessor.htm
 tech.root: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], ifsk.rtlsubtreepredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

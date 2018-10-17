@@ -6,11 +6,8 @@ description: FltSetInstanceContext sets a context for a minifilter driver instan
 old-location: ifsk\fltsetinstancecontext.htm
 tech.root: ifsk
 ms.assetid: ddeeb49b-7c7d-4faa-b2ae-cdb09adebce0
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, FltSetInstanceContext, FltSetInstanceContext function [Installable File System Drivers], fltkernel/FltSetInstanceContext, ifsk.fltsetinstancecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

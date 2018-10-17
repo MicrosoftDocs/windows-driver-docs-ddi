@@ -6,11 +6,8 @@ description: For more information, see the WdmlibIoDisconnectInterruptEx functio
 old-location: kernel\iodisconnectinterruptex.htm
 tech.root: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoDisconnectInterruptEx, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoDisconnectInterruptEx, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, kernel.iodisconnectinterruptex, wdm/IoDisconnectInterruptEx, wdm/WdmlibIoDisconnectInterruptEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

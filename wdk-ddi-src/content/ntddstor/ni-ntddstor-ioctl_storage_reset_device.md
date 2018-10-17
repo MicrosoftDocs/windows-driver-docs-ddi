@@ -6,11 +6,8 @@ description: If possible, resets a non-SCSI storage device without affecting oth
 old-location: storage\ioctl_storage_reset_device.htm
 tech.root: storage
 ms.assetid: 85ada0f2-5690-4686-86e5-0e1cdc6b2054
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_RESET_DEVICE, IOCTL_STORAGE_RESET_DEVICE control, IOCTL_STORAGE_RESET_DEVICE control code [Storage Devices], k307_489c36aa-d120-4d01-b5bd-29adca082064.xml, ntddstor/IOCTL_STORAGE_RESET_DEVICE, storage.ioctl_storage_reset_device
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

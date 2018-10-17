@@ -6,11 +6,8 @@ description: The PHW_INITIALIZE routine prototype declares a routine that initia
 old-location: storage\phw_adapter_control.htm
 tech.root: storage
 ms.assetid: ef58c005-e5e5-409d-9010-59635fd4da02
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "(*PHW_ADAPTER_CONTROL), (*PHW_ADAPTER_CONTROL) callback function [Storage Devices], ide_minikr_fb5a2e9f-b755-417e-b152-ef680c85c16a.xml, srb/(*PHW_ADAPTER_CONTROL), storage.phw_adapter_control"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h

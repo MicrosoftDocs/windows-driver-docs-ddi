@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_QUERY_HEAP
 author: windows-driver-content
 description: Destroys the query heap.
 ms.assetid: a99e0330-70bd-450e-8783-15b67b644ee8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

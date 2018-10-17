@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_mac_address.htm
 tech.root: netvista
 ms.assetid: 6b2b17fd-3695-4598-8d9a-be28e1bc5b53
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_MAC_ADDRESS, DOT11_MAC_ADDRESS, DOT11_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8ff45785-198d-48f0-99b5-b79a27753668.xml, PDOT11_MAC_ADDRESS, PDOT11_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MAC_ADDRESS, netvista.dot11_mac_address, windot11/DOT11_MAC_ADDRESS, windot11/PDOT11_MAC_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h

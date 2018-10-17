@@ -6,11 +6,8 @@ description: Filter drivers call the NdisFSendNetBufferListsComplete function to
 old-location: netvista\ndisfsendnetbufferlistscomplete.htm
 tech.root: netvista
 ms.assetid: 5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, ndis/NdisFSendNetBufferListsComplete, netvista.ndisfsendnetbufferlistscomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

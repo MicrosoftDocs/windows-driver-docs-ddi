@@ -6,11 +6,8 @@ description: The FltSetQuotaInformationFile routine modifies quota entries for a
 old-location: ifsk\fltsetquotainformationfile.htm
 tech.root: ifsk
 ms.assetid: 89EC9F5C-24AE-4340-99CF-05323F99B465
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltSetQuotaInformationFile, FltSetQuotaInformationFile function [Installable File System Drivers], fltkernel/FltSetQuotaInformationFile, ifsk.fltsetquotainformationfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

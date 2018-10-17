@@ -6,11 +6,8 @@ description: The ClfsMgmtInstallPolicy routine adds a CLFS_MGMT_POLICY structure
 old-location: kernel\clfsmgmtinstallpolicy.htm
 tech.root: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

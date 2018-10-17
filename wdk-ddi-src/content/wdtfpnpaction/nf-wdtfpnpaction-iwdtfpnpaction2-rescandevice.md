@@ -6,11 +6,8 @@ description: Rescans the target device.
 old-location: dtf\iwdtfpnpaction2_rescandevice.htm
 tech.root: dtf
 ms.assetid: 83288eab-020b-4870-9c99-b3215d52658c
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RescanDevice method, IWDTFPNPAction2.RescanDevice, IWDTFPNPAction2::RescanDevice, Microsoft.WDTF.IWDTFPNPAction2.RescanDevice, Microsoft::WDTF::IWDTFPNPAction2::RescanDevice, RescanDevice, RescanDevice method [Windows Device Testing Framework], RescanDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_rescandevice, wdtfpnpaction/IWDTFPNPAction2::RescanDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfpnpaction.h
 req.include-header: 

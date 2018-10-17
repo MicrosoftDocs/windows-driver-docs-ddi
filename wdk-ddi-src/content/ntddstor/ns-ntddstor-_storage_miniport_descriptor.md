@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: storage\storage_miniport_descriptor.htm
 tech.root: storage
 ms.assetid: 30497CA8-70B6-48F9-B5D5-45E606A3226E
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], _STORAGE_MINIPORT_DESCRIPTOR, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, ntddstor/STORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

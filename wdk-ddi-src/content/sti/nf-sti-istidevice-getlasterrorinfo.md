@@ -6,11 +6,8 @@ description: The IStiDevice::GetLastErrorInfo method returns information about t
 old-location: image\istidevice_getlasterrorinfo.htm
 tech.root: image
 ms.assetid: de2f8897-c75f-4c37-aecb-f36d0f9933f9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], GetLastErrorInfo method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastErrorInfo method, IStiDevice.GetLastErrorInfo, IStiDevice::GetLastErrorInfo, image.istidevice_getlasterrorinfo, sti/IStiDevice::GetLastErrorInfo, stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

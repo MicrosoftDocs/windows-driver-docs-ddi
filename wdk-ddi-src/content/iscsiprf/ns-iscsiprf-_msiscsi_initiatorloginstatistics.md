@@ -6,11 +6,8 @@ description: The MSiSCSI_InitiatorLoginStatistics structure is used by iSCSI ini
 old-location: storage\msiscsi_initiatorloginstatistics.htm
 tech.root: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], PMSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], _MSiSCSI_InitiatorLoginStatistics, iscsiprf/MSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h

@@ -6,11 +6,8 @@ description: The WdfMemoryCreateFromLookaside method creates a framework memory 
 old-location: wdf\wdfmemorycreatefromlookaside.htm
 tech.root: wdf
 ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, kmdf.wdfmemorycreatefromlookaside, wdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfmemory.h
 req.include-header: Wdf.h

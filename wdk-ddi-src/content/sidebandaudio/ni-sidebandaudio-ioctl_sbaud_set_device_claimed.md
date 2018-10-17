@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_SET_DEVICE_CLAIMED
 author: windows-driver-content
 description: 
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

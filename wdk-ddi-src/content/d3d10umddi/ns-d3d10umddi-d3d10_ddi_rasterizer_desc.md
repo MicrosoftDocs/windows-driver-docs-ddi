@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
 old-location: display\d3d10_ddi_rasterizer_desc.htm
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, d3d10umddi/D3D10_DDI_RASTERIZER_DESC, display.d3d10_ddi_rasterizer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

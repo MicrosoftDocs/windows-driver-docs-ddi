@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_SET_BREAK_OFF request sets the line control break 
 old-location: serports\ioctl_serial_set_break_off.htm
 tech.root: serports
 ms.assetid: aa64da58-cb50-485e-afbc-3a0408b4ecf2
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_SERIAL_SET_BREAK_OFF, IOCTL_SERIAL_SET_BREAK_OFF control, IOCTL_SERIAL_SET_BREAK_OFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_OFF, serports.ioctl_serial_set_break_off, serref_1a347f28-6dfb-4b5d-afb8-9bb8ffad9f36.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h

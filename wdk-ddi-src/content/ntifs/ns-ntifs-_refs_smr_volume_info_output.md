@@ -6,11 +6,8 @@ description: The REFS_SMR_VOLUME_INFO_OUTPUT structure describes a Shingled Magn
 old-location: ifsk\refs_smr_volume_info_output.htm
 tech.root: ifsk
 ms.assetid: 0DCBAF5F-AEBC-4C4B-9DBD-F7A6FD6C7712
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h

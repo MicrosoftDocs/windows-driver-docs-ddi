@@ -6,11 +6,8 @@ description: This structure represents a RILC2KMRL.
 old-location: netvista\rilc2kmrl.htm
 tech.root: netvista
 ms.assetid: e2c289de-fff7-4e21-8ef5-2ff3006a4ea5
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl, rilapitypes/RILC2KMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h

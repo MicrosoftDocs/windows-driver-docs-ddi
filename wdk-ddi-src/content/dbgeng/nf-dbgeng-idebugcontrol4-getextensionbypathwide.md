@@ -6,11 +6,8 @@ description: The GetExtensionByPathWide method returns the handle for an already
 old-location: debugger\getextensionbypathwide.htm
 tech.root: debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], GetExtensionByPathWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionByPathWide method, IDebugControl4.GetExtensionByPathWide, IDebugControl4::GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, debugger.getextensionbypathwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

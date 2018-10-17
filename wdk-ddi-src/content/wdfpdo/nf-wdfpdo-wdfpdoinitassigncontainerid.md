@@ -6,11 +6,8 @@ description: The WdfPdoInitAssignContainerID method updates the container ID for
 old-location: wdf\wdfpdoinitassigncontainerid.htm
 tech.root: wdf
 ms.assetid: 603bff9f-fd18-40bd-9b2b-8f013f99ec61
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_b744c1d7-e24f-4936-8921-cf5b7dd4ad68.xml, WdfPdoInitAssignContainerID, WdfPdoInitAssignContainerID method, kmdf.wdfpdoinitassigncontainerid, wdf.wdfpdoinitassigncontainerid, wdfpdo/WdfPdoInitAssignContainerID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

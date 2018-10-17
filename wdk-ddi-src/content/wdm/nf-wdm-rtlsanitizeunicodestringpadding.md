@@ -4,7 +4,6 @@ title: RtlSanitizeUnicodeStringPadding function
 author: windows-driver-content
 description: Sanitizes the padding for a Unicode string.
 ms.assetid: 898d0b7e-e49f-4640-877e-0a1177d7cee7
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: RtlSanitizeUnicodeStringPadding

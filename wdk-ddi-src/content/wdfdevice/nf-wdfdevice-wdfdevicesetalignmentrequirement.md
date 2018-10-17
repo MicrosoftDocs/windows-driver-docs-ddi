@@ -6,11 +6,8 @@ description: The WdfDeviceSetAlignmentRequirement method registers the driver's 
 old-location: wdf\wdfdevicesetalignmentrequirement.htm
 tech.root: wdf
 ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml, WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, wdf.wdfdevicesetalignmentrequirement, wdfdevice/WdfDeviceSetAlignmentRequirement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

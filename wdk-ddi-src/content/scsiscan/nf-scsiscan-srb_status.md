@@ -4,7 +4,6 @@ title: SRB_STATUS macro
 author: windows-driver-content
 description: 
 ms.assetid: ec99b574-4519-44c4-8cef-639d2c0a00c3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: SRB_STATUS

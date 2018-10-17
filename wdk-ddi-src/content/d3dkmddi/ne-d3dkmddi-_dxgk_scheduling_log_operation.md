@@ -4,12 +4,9 @@ title: _DXGK_SCHEDULING_LOG_OPERATION
 author: windows-driver-content
 description: Describes the log operations.
 ms.assetid: d1e9190a-1454-4faa-801b-a449a2864d1f
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _DXGK_SCHEDULING_LOG_OPERATION, DXGK_SCHEDULING_LOG_OPERATION,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

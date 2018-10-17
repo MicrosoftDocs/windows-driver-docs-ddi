@@ -6,11 +6,8 @@ description: The StorPortReadPortBufferUshort routine reads a value from a speci
 old-location: storage\storportreadportbufferushort.htm
 tech.root: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

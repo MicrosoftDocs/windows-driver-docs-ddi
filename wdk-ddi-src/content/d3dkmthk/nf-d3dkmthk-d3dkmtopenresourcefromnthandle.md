@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle callback function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

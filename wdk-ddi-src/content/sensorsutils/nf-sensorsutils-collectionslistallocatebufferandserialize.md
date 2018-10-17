@@ -4,11 +4,8 @@ title: CollectionsListAllocateBufferAndSerialize function
 author: windows-driver-content
 description: This routine allocates a buffer and then serializes a sensor collection list to it.
 ms.assetid: be6b18b4-97cf-4206-ad98-57a045ecd11f
-ms.author: windowsdriverdev
 ms.date: 08/07/18
 ms.topic: function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CollectionsListAllocateBufferAndSerialize
 req.header: sensorsutils.h

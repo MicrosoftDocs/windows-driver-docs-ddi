@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_MPDP_STATE structure represents the state of a Multiple Packet Data Protocol (MPDP) interface after a requested operation.
 tech.root: netvista
 ms.assetid: 58bc3af3-8f33-41e3-9417-190da9be2b6c
-ms.author: windowsdriverdev
 ms.date: 06/25/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_MPDP_STATE, NDIS_WWAN_MPDP_STATE, *PNDIS_WWAN_MPDP_STATE, 
 req.header: ndiswwan.h
 req.include-header:

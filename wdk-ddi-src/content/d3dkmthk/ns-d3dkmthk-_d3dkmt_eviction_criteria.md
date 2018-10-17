@@ -4,11 +4,8 @@ title: _D3DKMT_EVICTION_CRITERIA
 author: windows-driver-content
 description: The eviction criteria.
 ms.assetid: 429c5cb4-02f5-4634-b730-6ada89f4e5bb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_EVICTION_CRITERIA, D3DKMT_EVICTION_CRITERIA, 
 req.header: d3dkmthk.h
 req.include-header:

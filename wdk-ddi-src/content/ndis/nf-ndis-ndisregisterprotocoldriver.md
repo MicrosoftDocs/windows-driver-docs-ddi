@@ -6,11 +6,8 @@ description: A protocol driver calls the NdisRegisterProtocolDriver function to 
 old-location: netvista\ndisregisterprotocoldriver.htm
 tech.root: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

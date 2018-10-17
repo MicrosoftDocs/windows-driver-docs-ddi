@@ -6,11 +6,8 @@ description: The StorPortInitializeListHead routine initializes a STOR_LIST_ENTR
 old-location: storage\storportinitializelisthead.htm
 tech.root: storage
 ms.assetid: E37C54C1-209F-4944-940B-2247E86C8130
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortInitializeListHead, StorPortInitializeListHead routine [Storage Devices], storage.storportinitializelisthead, storport/StorPortInitializeListHead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

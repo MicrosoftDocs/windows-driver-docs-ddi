@@ -6,11 +6,8 @@ description: The WskGetRemoteAddress function retrieves the remote transport add
 old-location: netvista\wskgetremoteaddress.htm
 tech.root: netvista
 ms.assetid: a2d65d55-744b-4851-b1fa-7087e0f06452
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, PFN_WSK_GET_REMOTE_ADDRESS callback, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

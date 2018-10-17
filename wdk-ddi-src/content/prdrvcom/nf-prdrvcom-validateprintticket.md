@@ -6,11 +6,8 @@ description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method valida
 old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 tech.root: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, prdrvcom/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h

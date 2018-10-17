@@ -6,11 +6,8 @@ description: The FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure holds the data re
 old-location: storage\feature_data_disc_control_blocks_ex.htm
 tech.root: storage
 ms.assetid: 08344cf3-7724-4c11-8855-ba061a0284f8
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure [Storage Devices], PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure pointer [Storage Devices], _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, storage.feature_data_disc_control_blocks_ex, structs-CD-ROM_5e32d5eb-6a1d-412d-9efe-dba88f85c730.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h

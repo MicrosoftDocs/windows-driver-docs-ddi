@@ -4,11 +4,8 @@ title: D3D12DDI_LIBRARY_REFERENCE_0010
 author: windows-driver-content
 description: Describes a pipeline library.
 ms.assetid: 11272f41-4642-43aa-8cd8-c9f0f86ca737
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_LIBRARY_REFERENCE_0010, D3D12DDI_LIBRARY_REFERENCE_0010, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The TAPE_GET_DRIVE_PARAMETERS structure is used in conjunction with
 old-location: storage\tape_get_drive_parameters.htm
 tech.root: storage
 ms.assetid: 2b1b196f-f012-4136-983e-8c8192bdbd2f
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], _TAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS, ntddtape/TAPE_GET_DRIVE_PARAMETERS, storage.tape_get_drive_parameters, structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minitape.h
 req.include-header: Ntddtape.h, Minitape.h

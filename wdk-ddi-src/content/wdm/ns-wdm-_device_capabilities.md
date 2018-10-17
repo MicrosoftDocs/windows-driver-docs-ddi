@@ -6,11 +6,8 @@ description: A DEVICE_CAPABILITIES structure describes PnP and power capabilitie
 old-location: kernel\device_capabilities.htm
 tech.root: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: DEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _DEVICE_CAPABILITIES, kernel.device_capabilities, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/DEVICE_CAPABILITIES, wdm/PDEVICE_CAPABILITIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -4,7 +4,6 @@ title: FsRtlUninitializeBaseMcb function
 author: windows-driver-content
 description: The FsRtlUninitializeBaseMcb function uninitializes a map control block (MCB) structure.  After calling this routine the input Mcb structure must be re-initialized before being used again.
 ms.assetid: 3c20cc02-add4-4ebb-92bf-1a50e6646439
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: FsRtlUninitializeBaseMcb

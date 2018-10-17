@@ -6,11 +6,8 @@ description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the spec
 old-location: wdf\write_register_ushort.htm
 tech.root: wdf
 ms.assetid: F41E7DD6-336C-477D-87AD-0151A523DD0A
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT function, umdf.write_register_ushort, wdf.write_register_ushort, wudfddi_hwaccess/WRITE_REGISTER_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: This structure represents the RILPOSITIONINFO_V2.
 old-location: netvista\rilpositioninfo_v2.htm
 tech.root: netvista
 ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h

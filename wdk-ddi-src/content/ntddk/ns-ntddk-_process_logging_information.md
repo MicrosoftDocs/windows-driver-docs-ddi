@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Do not use.
 tech.root: kernel 
 ms.assetid: 8ef47a1f-40ab-436b-9cef-c81124997c1a
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PROCESS_LOGGING_INFORMATION, PROCESS_LOGGING_INFORMATION, *PPROCESS_LOGGING_INFORMATION, 
 req.header: ntddk.h
 req.include-header:

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies information used to get the driver reported size for an array of allocations.
 old-location: display\d3d12ddiarg_get_pageable_size.htm
 ms.assetid: 82A5ACBD-EE18-46DF-822B-87ABF331BF44
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020, D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

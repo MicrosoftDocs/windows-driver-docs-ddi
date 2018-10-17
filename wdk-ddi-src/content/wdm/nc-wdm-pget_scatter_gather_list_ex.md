@@ -6,11 +6,8 @@ description: The GetScatterGatherListEx routine allocates the resources that are
 old-location: kernel\getscattergatherlistex.htm
 tech.root: kernel
 ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, PGET_SCATTER_GATHER_LIST_EX callback, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

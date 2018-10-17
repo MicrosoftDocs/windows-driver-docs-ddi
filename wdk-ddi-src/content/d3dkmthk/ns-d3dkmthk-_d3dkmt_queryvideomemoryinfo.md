@@ -4,11 +4,8 @@ title: _D3DKMT_QUERYVIDEOMEMORYINFO
 author: windows-driver-content
 description: Used to query for video memory info.
 ms.assetid: 6ddd12f9-abd8-4e9a-b1e5-193956a5f9dd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_QUERYVIDEOMEMORYINFO, D3DKMT_QUERYVIDEOMEMORYINFO, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The PCI_PMC structure is used to report the contents of the power m
 old-location: pci\pci_pmc.htm
 tech.root: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_PMC, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h

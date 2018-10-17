@@ -4,7 +4,6 @@ title: Trace function
 author: windows-driver-content
 description:
 ms.assetid: 9125c65e-16b6-412e-a09a-1ee643e378bf
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: Trace

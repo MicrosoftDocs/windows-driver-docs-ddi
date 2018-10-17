@@ -6,11 +6,8 @@ description: Returns the status of all elements or the status of a specified num
 old-location: storage\ioctl_changer_get_element_status.htm
 tech.root: storage
 ms.assetid: 5611bd28-16ed-4af1-a01c-07ef590bad65
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control, IOCTL_CHANGER_GET_ELEMENT_STATUS control code [Storage Devices], k307_017d1ca9-974c-4a25-b28f-51e0bdc562d8.xml, ntddchgr/IOCTL_CHANGER_GET_ELEMENT_STATUS, storage.ioctl_changer_get_element_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h

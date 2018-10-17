@@ -6,11 +6,8 @@ description: The WdfRequestStopAcknowledge method informs the framework that the
 old-location: wdf\wdfrequeststopacknowledge.htm
 tech.root: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, WdfRequestStopAcknowledge, WdfRequestStopAcknowledge method, kmdf.wdfrequeststopacknowledge, wdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

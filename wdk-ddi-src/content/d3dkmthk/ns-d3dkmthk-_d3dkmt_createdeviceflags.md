@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the D3DKMTCreateDevice function.
 old-location: display\d3dkmt_createdeviceflags.htm
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, _D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

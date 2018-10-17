@@ -4,11 +4,8 @@ title: PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
 author: windows-driver-content
 description: 
 ms.assetid: ad975985-ee86-4f2d-ad02-16d5818b12a3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

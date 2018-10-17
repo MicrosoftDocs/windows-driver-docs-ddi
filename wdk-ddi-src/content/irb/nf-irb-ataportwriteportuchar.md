@@ -6,11 +6,8 @@ description: The AtaPortWritePortUchar routine transfers an unsigned byte to the
 old-location: storage\ataportwriteportuchar.htm
 tech.root: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, irb/AtaPortWritePortUchar, storage.ataportwriteportuchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

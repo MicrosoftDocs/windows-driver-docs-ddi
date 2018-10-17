@@ -6,11 +6,8 @@ description: The WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG
 old-location: wdf\write_register_buffer_ulong64.htm
 tech.root: wdf
 ms.assetid: 18858A87-D7D8-4387-AD84-6717EC3DAC25
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, WRITE_REGISTER_BUFFER_ULONG64 function, umdf.write_register_buffer_ulong64, wdf.write_register_buffer_ulong64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h

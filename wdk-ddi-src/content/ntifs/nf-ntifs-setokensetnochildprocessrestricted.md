@@ -6,11 +6,8 @@ description: The SeTokenSetNoChildProcessRestricted routine sets the TOKEN_AUDIT
 old-location: ifsk\setokensetnochildprocessrestricted.htm
 tech.root: ifsk
 ms.assetid: FCFCBF4C-CBAA-4284-A6F4-67630608CF19
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted, ntifs/SeTokenSetNoChildProcessRestricted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

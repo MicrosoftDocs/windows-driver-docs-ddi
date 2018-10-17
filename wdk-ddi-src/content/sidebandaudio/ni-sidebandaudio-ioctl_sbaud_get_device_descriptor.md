@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
 author: windows-driver-content
 description: 
 ms.assetid: 3cbc7c1d-7540-44a7-bb02-85f0556c308d
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALC_PRIVATE_STATE_OBJECT_SIZE_0054
 author: windows-driver-content
 description: Calculates the private state object size.
 ms.assetid: cfefa406-e5de-4256-be0c-97c6b62fb10d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

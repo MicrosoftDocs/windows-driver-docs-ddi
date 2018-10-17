@@ -6,11 +6,8 @@ description: The wiasGetChangedValueLong function determines whether a property 
 old-location: image\wiasgetchangedvaluelong.htm
 tech.root: image
 ms.assetid: 2c23729c-9fab-4e3c-9205-175a6aba8f8a
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiasgetchangedvaluelong, wiamdef/wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, wiasGetChangedValueLong, wiasGetChangedValueLong function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

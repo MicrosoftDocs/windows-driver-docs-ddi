@@ -6,11 +6,8 @@ description: The SystemError callback method is called by the engine when a syst
 old-location: debugger\idebugeventcallbacks_systemerror.htm
 tech.root: debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks interface [Windows Debugging],SystemError method, IDebugEventCallbacks.SystemError, IDebugEventCallbacks::SystemError, SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging],IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::SystemError, debugger.idebugeventcallbacks_systemerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

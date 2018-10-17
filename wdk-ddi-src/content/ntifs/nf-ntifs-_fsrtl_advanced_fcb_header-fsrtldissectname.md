@@ -6,11 +6,8 @@ description: Given a Unicode pathname string, the FsRtlDissectName routine retur
 old-location: ifsk\fsrtldissectname.htm
 tech.root: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

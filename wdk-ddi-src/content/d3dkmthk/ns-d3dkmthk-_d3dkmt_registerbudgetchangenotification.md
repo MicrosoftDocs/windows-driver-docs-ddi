@@ -4,11 +4,8 @@ title: _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
 author: windows-driver-content
 description: Used to register budget change notification.
 ms.assetid: b68c9dc0-56e6-478c-8624-b4904cedd311
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION, D3DKMT_REGISTERBUDGETCHANGENOTIFICATION, 
 req.header: d3dkmthk.h
 req.include-header:

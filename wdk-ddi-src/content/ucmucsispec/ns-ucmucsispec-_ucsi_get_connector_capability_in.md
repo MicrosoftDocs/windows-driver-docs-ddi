@@ -4,12 +4,9 @@ title: _UCSI_GET_CONNECTOR_CAPABILITY_IN
 author: windows-driver-content
 description: Used in the GET_CONNECTOR_CAPABILITY command. See Table 4-17.
 ms.assetid: 2cbd9c0e-f5a8-4b63-9879-3e8d775717b5
-ms.author: windowsdriverdev
 tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_GET_CONNECTOR_CAPABILITY_IN, UCSI_GET_CONNECTOR_CAPABILITY_IN, *PUCSI_GET_CONNECTOR_CAPABILITY_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

@@ -6,11 +6,8 @@ description: The WWAN_GSM_SERVING_CELL_INFO structure represents information abo
 old-location: netvista\wwan_gsm_serving_cell_info.htm
 tech.root: netvista
 ms.assetid: 37F6BD26-55F3-4E46-9C39-97A95B6FF5B1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_SERVING_CELL_INFO, netvista.wwan_gsm_serving_cell_info, wwan/PWWAN_GSM_SERVING_CELL_INFO, wwan/WWAN_GSM_SERVING_CELL_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wwan.h
 req.include-header: Wwan.h

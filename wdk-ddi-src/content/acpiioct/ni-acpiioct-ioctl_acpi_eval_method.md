@@ -6,11 +6,8 @@ description: A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device con
 old-location: acpi\ioctl_acpi_eval_method.htm
 tech.root: acpi
 ms.assetid: 3f7f904c-1d5e-4647-a566-1ec447a4cd13
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_ACPI_EVAL_METHOD, IOCTL_ACPI_EVAL_METHOD control, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml, acpi.ioctl_acpi_eval_method, acpiioct/IOCTL_ACPI_EVAL_METHOD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h

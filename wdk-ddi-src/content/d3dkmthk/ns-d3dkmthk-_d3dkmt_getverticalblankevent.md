@@ -4,11 +4,8 @@ title: _D3DKMT_GETVERTICALBLANKEVENT
 author: windows-driver-content
 description: Used to get vertical blank events.
 ms.assetid: 938531c9-d8e4-47fb-81f6-7c5448ff3fb4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_GETVERTICALBLANKEVENT, D3DKMT_GETVERTICALBLANKEVENT, 
 req.header: d3dkmthk.h
 req.include-header:

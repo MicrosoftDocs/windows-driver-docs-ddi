@@ -6,11 +6,8 @@ description: Stores function pointers to callback functions implemented by the p
 old-location: pci\sriov_device_interface_standard.htm
 tech.root: PCI
 ms.assetid: c71add7d-9920-4b2f-a46a-4a09a94f3900
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard, SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:

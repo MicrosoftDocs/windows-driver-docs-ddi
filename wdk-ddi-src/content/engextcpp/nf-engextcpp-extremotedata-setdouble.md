@@ -6,11 +6,8 @@ description: The ExtRemoteData class provides a wrapper around a small section o
 old-location: debugger\extremotedata.htm
 tech.root: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
-ms.author: windowsdriverdev
 ms.date: 1/19/2018
 ms.keywords: ExtRemoteData class [Windows Debugging], described, ExtRemoteData::SetChar, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, debugger.extremotedata, ExtRemoteData::Clear, ExtRemoteData class [Windows Debugging], SetDouble, ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::SetData, SetData, SetBoolean
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

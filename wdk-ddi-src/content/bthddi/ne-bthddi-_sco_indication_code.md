@@ -6,11 +6,8 @@ description: The SCO_INDICATION_CODE enumeration type describes the type of an i
 old-location: bltooth\sco_indication_code.htm
 tech.root: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PSCO_INDICATION_CODE, PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], SCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, _SCO_INDICATION_CODE, bltooth.sco_indication_code, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, bthddi/ScoIndicationAddReference, bthddi/ScoIndicationReleaseReference, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h

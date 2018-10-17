@@ -4,12 +4,9 @@ title: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
 author: windows-driver-content
 description: Describes the mutability of the meta-command parameter.
 ms.assetid: e059a4e1-7f65-452a-83b8-4f8565ecb267
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY, D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

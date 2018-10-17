@@ -6,11 +6,8 @@ description: The ExFreePool routine deallocates a block of pool memory.
 old-location: kernel\exfreepool.htm
 tech.root: kernel
 ms.assetid: c26f9b28-396d-40de-bdc3-287fc3ac4113
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture], k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, kernel.exfreepool, wdm/ExFreePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

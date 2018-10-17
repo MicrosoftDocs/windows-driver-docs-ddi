@@ -4,11 +4,8 @@ title: PFND3D12DDI_SERIALIZE_LIBRARY_0010
 author: windows-driver-content
 description: Implemented by the client driver to serialize the library.
 ms.assetid: 7e23cd4e-e023-4b84-8335-587ff68242eb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

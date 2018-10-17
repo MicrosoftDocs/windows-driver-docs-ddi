@@ -6,11 +6,8 @@ description: Called by the client driver to configure the RF discovery parameter
 old-location: nfpdrivers\_nfccxsetrfdiscoveryconfig.htm
 tech.root: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: nfccx.h
 req.include-header: Ncidef.h

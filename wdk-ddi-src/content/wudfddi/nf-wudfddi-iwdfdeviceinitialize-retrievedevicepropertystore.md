@@ -6,11 +6,8 @@ description: The RetrieveDevicePropertyStore method retrieves a device property 
 old-location: wdf\iwdfdeviceinitialize_retrievedevicepropertystore.htm
 tech.root: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFDeviceInitialize interface,RetrieveDevicePropertyStore method, IWDFDeviceInitialize.RetrieveDevicePropertyStore, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

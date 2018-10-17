@@ -6,11 +6,8 @@ description: The IoGetActivityIdThread routine returns the activity ID associate
 old-location: kernel\iogetactivityidthread.htm
 tech.root: kernel
 ms.assetid: 445A9EBA-EF15-4FE4-9747-3E1E138E13E7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoGetActivityIdThread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidthread, ntddk/IoGetActivityIdThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

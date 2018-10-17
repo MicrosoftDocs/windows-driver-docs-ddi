@@ -6,11 +6,8 @@ description: The WdfDeviceGetIoTarget method returns a handle to a function or f
 old-location: wdf\wdfdevicegetiotarget.htm
 tech.root: wdf
 ms.assetid: a0749324-8b4e-4b82-8c51-b1b8883d521e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, WdfDeviceGetIoTarget method, kmdf.wdfdevicegetiotarget, wdf.wdfdevicegetiotarget, wdfdevice/WdfDeviceGetIoTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

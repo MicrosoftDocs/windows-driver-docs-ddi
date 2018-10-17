@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYCLOCKCALIBRATION
 author: windows-driver-content
 description: The PFND3DKMT_QUERYCLOCKCALIBRATION callback function queries clock calibration.
 ms.assetid: 1bbde800-aeee-4460-92e5-8097bf0349f9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

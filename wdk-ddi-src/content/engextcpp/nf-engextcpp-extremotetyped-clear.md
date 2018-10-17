@@ -6,11 +6,8 @@ description: The ExtRemoteTyped class provides the ability to manipulate typed d
 old-location: debugger\extremotetyped.htm
 tech.root: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
-ms.author: windowsdriverdev
 ms.date: 08/09/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped, engextcpp/ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], debugger.extremotetyped, Clear, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

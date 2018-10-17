@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_PORT_VLAN_MODE enumeration specifies the operation 
 old-location: netvista\ndis_switch_port_vlan_mode.htm
 tech.root: netvista
 ms.assetid: 87828768-BE97-4549-AC5B-7CB27D0A9720
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortVlanModeAccess, NdisSwitchPortVlanModeMax, NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeTrunk, NdisSwitchPortVlanModeUnknown, PNDIS_SWITCH_PORT_VLAN_MODE, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_VLAN_MODE, netvista.ndis_switch_port_vlan_mode, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeAccess, ntddndis/NdisSwitchPortVlanModeMax, ntddndis/NdisSwitchPortVlanModePrivate, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModeUnknown, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddndis.h
 req.include-header: Ndis.h

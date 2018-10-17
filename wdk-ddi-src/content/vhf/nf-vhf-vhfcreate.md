@@ -6,11 +6,8 @@ description: The HID source driver calls this method to create a virtual HID dev
 old-location: hid\vhfcreate.htm
 tech.root: hid
 ms.assetid: 11A98BBE-2609-4E55-8988-42620EB15281
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: VhfCreate, VhfCreate method [Human Input Devices], hid.vhfcreate, vhf/VhfCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vhf.h
 req.include-header: 

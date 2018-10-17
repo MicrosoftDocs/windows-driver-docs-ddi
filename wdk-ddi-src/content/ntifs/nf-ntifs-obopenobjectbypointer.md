@@ -6,11 +6,8 @@ description: The ObOpenObjectByPointer function opens an object referenced by a 
 old-location: ifsk\obopenobjectbypointer.htm
 tech.root: ifsk
 ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: OBJ_EXCLUSIVE, OBJ_FORCE_ACCESS_CHECK, OBJ_INHERIT, OBJ_KERNEL_HANDLE, ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], ifsk.obopenobjectbypointer, ntifs/ObOpenObjectByPointer, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

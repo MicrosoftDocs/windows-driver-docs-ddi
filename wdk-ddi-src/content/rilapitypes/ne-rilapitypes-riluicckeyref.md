@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluicckeyref_2.htm
 tech.root: netvista
 ms.assetid: 98edfbc2-cc45-4618-9c7c-020a20955dbd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILUICCKEYREF, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], RIL_UICCKEYREF_NEV, RIL_UICCKEYREF_PIN1, RIL_UICCKEYREF_PIN2, RIL_UICCKEYREF_UPIN, netvista.riluicckeyref_2, rilapitypes/RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_PIN1, rilapitypes/RIL_UICCKEYREF_PIN2, rilapitypes/RIL_UICCKEYREF_UPIN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:

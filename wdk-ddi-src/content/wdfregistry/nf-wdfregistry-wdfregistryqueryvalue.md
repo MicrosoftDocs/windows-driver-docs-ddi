@@ -6,11 +6,8 @@ description: The WdfRegistryQueryValue method retrieves the data that is current
 old-location: wdf\wdfregistryqueryvalue.htm
 tech.root: wdf
 ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, WdfRegistryQueryValue, WdfRegistryQueryValue method, kmdf.wdfregistryqueryvalue, wdf.wdfregistryqueryvalue, wdfregistry/WdfRegistryQueryValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

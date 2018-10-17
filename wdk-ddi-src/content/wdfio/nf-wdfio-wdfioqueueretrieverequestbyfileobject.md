@@ -6,11 +6,8 @@ description: The WdfIoQueueRetrieveRequestByFileObject method retrieves the next
 old-location: wdf\wdfioqueueretrieverequestbyfileobject.htm
 tech.root: wdf
 ms.assetid: 6acff4d8-c21f-49c5-a255-5b46aac97c9f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_52e014c4-04ca-44b2-a5a8-19185b085cdf.xml, WdfIoQueueRetrieveRequestByFileObject, WdfIoQueueRetrieveRequestByFileObject method, kmdf.wdfioqueueretrieverequestbyfileobject, wdf.wdfioqueueretrieverequestbyfileobject, wdfio/WdfIoQueueRetrieveRequestByFileObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

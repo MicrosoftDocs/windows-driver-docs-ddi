@@ -4,11 +4,8 @@ title: IOCTL_MINIPORT_SIGNATURE_DELETE_RESERVED_QUEUE_PAIR
 author: windows-driver-content
 description: 
 ms.assetid: 50e2ad9f-3bb1-49e8-a694-6e0b28201aec
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:

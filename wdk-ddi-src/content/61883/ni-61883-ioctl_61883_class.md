@@ -6,11 +6,8 @@ description: An IEC-61883 client driver uses the IRP_MJ_INTERNAL_DEVICE_CONTROL 
 old-location: ieee\ioctl_61883_class.htm
 tech.root: IEEE
 ms.assetid: c73472ee-aa27-4256-aa58-9331312ad513
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml, IEEE.ioctl_61883_class, IOCTL_61883_CLASS, IOCTL_61883_CLASS control, IOCTL_61883_CLASS control code [Buses]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: 61883.h
 req.include-header: 61883.h

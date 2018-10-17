@@ -6,11 +6,8 @@ description: NDIS calls an NDIS miniport driver's MiniportResetEx function to in
 old-location: netvista\miniportresetex.htm
 tech.root: netvista
 ms.assetid: 15f82163-a1b5-4cef-a53e-8a97adb2cd92
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

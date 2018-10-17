@@ -6,11 +6,8 @@ description: The SetGroupPresharedKey_OUT structure holds the output data for th
 old-location: storage\setgrouppresharedkey_out.htm
 tech.root: storage
 ms.assetid: 4ea5e428-783c-4a28-bec5-42106425ee1f
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices], SetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT structure [Storage Devices], _SetGroupPresharedKey_OUT, iscsiop/PSetGroupPresharedKey_OUT, iscsiop/SetGroupPresharedKey_OUT, storage.setgrouppresharedkey_out, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

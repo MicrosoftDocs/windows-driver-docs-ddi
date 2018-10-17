@@ -6,11 +6,8 @@ description: The WIA_MICR_INFO structure stores information for one decoded MICR
 old-location: image\wia_micr_info.htm
 tech.root: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], _WIA_MICR_INFO, image.wia_micr_info, wiadef/WIA_MICR_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wiadef.h
 req.include-header: Wiadef.h

@@ -6,11 +6,8 @@ description: The ISensorDriver::OnGetSupportedDataFields method retrieves the li
 old-location: sensors\isensordriver_ongetsupporteddatafields.htm
 tech.root: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedDataFields method, ISensorDriver.OnGetSupportedDataFields, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupporteddatafields, sensorsclassextension/ISensorDriver::OnGetSupportedDataFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

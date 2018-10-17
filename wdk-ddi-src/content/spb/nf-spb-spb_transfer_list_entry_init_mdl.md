@@ -6,11 +6,8 @@ description: The SPB_TRANSFER_LIST_ENTRY_INIT_MDL function returns an SPB_TRANSF
 old-location: spb\spb_transfer_list_entry_init_mdl.htm
 tech.root: SPB
 ms.assetid: FFE8761B-5769-48E5-ACE9-50009C490714
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_mdl, SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spb.h
 req.include-header: 

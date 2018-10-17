@@ -4,11 +4,8 @@ title: _DXGK_DIAGNOSTIC_CATEGORIES
 author: windows-driver-content
 description: Structure with a bit-field for each defined category of diagnostic.
 ms.assetid: ba2233ae-fe9b-4cd1-a9a6-7a26c95d5dae
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_DIAGNOSTIC_CATEGORIES, DXGK_DIAGNOSTIC_CATEGORIES,
 req.header: dispmprt.h
 req.include-header:

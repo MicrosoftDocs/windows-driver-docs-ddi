@@ -5,7 +5,6 @@ author: windows-driver-content
 description: NET_BUFFER_CHECKSUM_BIAS is a macro that NDIS drivers use to get the ChecksumBias member of a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: cd019582-dae3-4e6f-bdfe-fd5eb43255bb
-ms.author: windowsdriverdev
 ms.date: 04/12/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_CHECKSUM_BIAS

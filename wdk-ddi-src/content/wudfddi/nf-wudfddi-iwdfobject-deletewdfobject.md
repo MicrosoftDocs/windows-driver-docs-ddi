@@ -6,11 +6,8 @@ description: The DeleteWdfObject method deletes a previously created Microsoft W
 old-location: wdf\iwdfobject_deletewdfobject.htm
 tech.root: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DeleteWdfObject, DeleteWdfObject method, DeleteWdfObject method,IWDFObject interface, IWDFObject interface,DeleteWdfObject method, IWDFObject.DeleteWdfObject, IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, umdf.iwdfobject_deletewdfobject, wdf.iwdfobject_deletewdfobject, wudfddi/IWDFObject::DeleteWdfObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

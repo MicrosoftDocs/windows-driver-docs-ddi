@@ -6,11 +6,8 @@ description: The GetRunningProcessSystemIdByExecutableNameWide method searches f
 old-location: debugger\getrunningprocesssystemidbyexecutablenamewide.htm
 tech.root: debugger
 ms.assetid: ab21286e-96cd-402c-bb8d-d33b4ee7938e
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetRunningProcessSystemIdByExecutableNameWide, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging], GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient3::GetRunningProcessSystemIdByExecutableNameWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient5.GetRunningProcessSystemIdByExecutableNameWide, IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient3::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide, debugger.getrunningprocesssystemidbyexecutablenamewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

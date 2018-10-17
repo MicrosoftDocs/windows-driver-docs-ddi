@@ -6,11 +6,8 @@ description: The IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode metho
 old-location: print\iprintoemprintticketprovider_convertprinttickettodevmode.htm
 tech.root: print
 ms.assetid: 1243f679-76c3-4d2e-8d57-b9d652b21a05
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode method [Print Devices], ConvertPrintTicketToDevMode method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ConvertPrintTicketToDevMode method, IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

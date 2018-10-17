@@ -4,12 +4,9 @@ title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_TYPE
 author: windows-driver-content
 description: Specifies the ray tracing acceleration structure type.
 ms.assetid: 53711cae-d866-454d-a166-4bf1ca26900f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_TYPE, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

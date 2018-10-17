@@ -6,11 +6,8 @@ description: The ConfigureAuthenticatedChannel function sets state within an aut
 old-location: display\configureauthenticatedchannel.htm
 tech.root: display
 ms.assetid: 95485e96-fa4f-4c88-b88b-97b79f507abd
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL, PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL callback, UserModeDisplayDriver_Functions_183c7dec-91c3-4929-a86d-c648d1b59ceb.xml, d3dumddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

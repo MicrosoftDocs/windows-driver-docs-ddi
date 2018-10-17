@@ -4,12 +4,9 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053
 author: windows-driver-content
 description: Indicates the differences metric flags to capture during video motion estimation.
 ms.assetid: 2e95acd3-35d2-4fdf-b7f0-765350b976fb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

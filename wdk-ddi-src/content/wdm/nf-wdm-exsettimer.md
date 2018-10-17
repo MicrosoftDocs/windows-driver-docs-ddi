@@ -6,11 +6,8 @@ description: The ExSetTimer routine starts a timer operation and sets the timer 
 old-location: kernel\exsettimer.htm
 tech.root: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, wdm/ExSetTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

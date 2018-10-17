@@ -6,11 +6,8 @@ description: An offload target calls the NdisMTerminateOffloadComplete function 
 old-location: netvista\ndismterminateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: d444eae5-2e7c-41f2-9fb2-55e172505cf6
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMTerminateOffloadComplete, NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMTerminateOffloadComplete, netvista.ndismterminateoffloadcomplete, tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h

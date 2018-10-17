@@ -6,11 +6,8 @@ description: The WSK_SOCKET structure defines a socket object for a socket.
 old-location: netvista\wsk_socket.htm
 tech.root: netvista
 ms.assetid: dce4a087-a14b-400b-bdc1-944c1d4d492a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWSK_SOCKET, PWSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], WSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], _WSK_SOCKET, netvista.wsk_socket, wsk/PWSK_SOCKET, wsk/WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsk.h
 req.include-header: Wsk.h

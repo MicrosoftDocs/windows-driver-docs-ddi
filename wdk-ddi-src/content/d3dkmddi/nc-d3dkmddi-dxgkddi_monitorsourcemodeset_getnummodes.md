@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnGetNumModes function returns the number modes in a specified monitor source mode set.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfngetnummodes.htm
 ms.assetid: 58daf5be-45c5-493b-9d51-ef48bb123dce
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES, DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES callback, VidPnFunctions_ac29494d-c35e-46bb-bfc1-6aaf70edbc2d.xml, d3dkmddi/pfnGetNumModes, display.dxgk_monitorsourcemodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

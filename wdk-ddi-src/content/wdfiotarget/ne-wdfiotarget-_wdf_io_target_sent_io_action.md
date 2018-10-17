@@ -6,11 +6,8 @@ description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions
 old-location: wdf\wdf_io_target_sent_io_action.htm
 tech.root: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, kmdf.wdf_io_target_sent_io_action, wdf.wdf_io_target_sent_io_action, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetWaitForSentIoToComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

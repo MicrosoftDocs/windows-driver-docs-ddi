@@ -6,11 +6,8 @@ description: The USBCAMD_AdapterReceivePacket function allows USBCAMD to process
 old-location: stream\usbcamd_adapterreceivepacket.htm
 tech.root: stream
 ms.assetid: 12a5ca64-7187-4a70-83ca-0ade6a8b1343
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket function [Streaming Media Devices], stream.usbcamd_adapterreceivepacket, usbcamdi/USBCAMD_AdapterReceivePacket, usbcmdpr_ad9c24d0-76a2-43a4-9634-a70e9260d907.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

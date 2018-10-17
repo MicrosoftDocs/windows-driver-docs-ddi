@@ -4,11 +4,8 @@ title: DXGKDDI_RESUMECONTEXT
 author: windows-driver-content
 description: Resumes a context. A context is created in a resumed state by default.
 ms.assetid: 57730d60-f6d7-4c86-92c5-dcd33108e99b
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The PoFxCompleteDevicePowerNotRequired routine notifies the power m
 old-location: kernel\pofxcompletedevicepowernotrequired.htm
 tech.root: kernel
 ms.assetid: 7DCAFA7C-6F13-4020-BCB6-D36EE164BDAA
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

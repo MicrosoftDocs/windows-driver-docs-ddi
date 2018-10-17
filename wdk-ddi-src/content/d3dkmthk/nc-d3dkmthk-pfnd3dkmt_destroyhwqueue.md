@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYHWQUEUE
 author: windows-driver-content
 description: Implemented by the client driver to destroy a hardware queue.
 ms.assetid: 4ac646f8-e8c2-4682-bbab-0e91a782e59a
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

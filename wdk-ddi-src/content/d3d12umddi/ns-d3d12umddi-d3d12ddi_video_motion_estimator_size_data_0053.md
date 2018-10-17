@@ -4,11 +4,8 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
 author: windows-driver-content
 description: The video capability check for motion estimation size.
 ms.assetid: 7b0578ac-afde-4356-ac90-c906f8c91487
-ms.author: windowsdriverdev
 ms.date: This capability determines the residency size for the motion estimator and the hardware dependent output buffer.
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, 
 req.header: d3d12umddi.h
 req.include-header:

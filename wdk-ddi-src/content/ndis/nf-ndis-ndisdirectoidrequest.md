@@ -6,11 +6,8 @@ description: The NdisDirectOidRequest function forwards a direct OID request to 
 old-location: netvista\ndisdirectoidrequest.htm
 tech.root: netvista
 ms.assetid: 771e5761-beea-4a31-9ebe-d65e9157f1f4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisDirectOidRequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisDirectOidRequest, ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, netvista.ndisdirectoidrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

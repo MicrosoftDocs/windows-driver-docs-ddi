@@ -6,11 +6,8 @@ description: The WdfIoResourceListRemoveByDescriptor method removes a resource d
 old-location: wdf\wdfioresourcelistremovebydescriptor.htm
 tech.root: wdf
 ms.assetid: c4968449-eba0-4f7a-98e6-6955d3333495
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor, WdfIoResourceListRemoveByDescriptor method, kmdf.wdfioresourcelistremovebydescriptor, wdf.wdfioresourcelistremovebydescriptor, wdfresource/WdfIoResourceListRemoveByDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

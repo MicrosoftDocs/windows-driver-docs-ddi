@@ -6,11 +6,8 @@ description: The WdfDeviceCreateSymbolicLink method creates a symbolic link to a
 old-location: wdf\wdfdevicecreatesymboliclink.htm
 tech.root: wdf
 ms.assetid: c22035a2-8ceb-42e9-9d54-8997ce0dd8da
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, kmdf.wdfdevicecreatesymboliclink, wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

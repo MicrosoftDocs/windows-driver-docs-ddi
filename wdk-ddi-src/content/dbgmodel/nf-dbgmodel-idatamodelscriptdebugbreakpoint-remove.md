@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpoint::Remove
 author: windows-driver-content
 description: The Remove method removes the breakpoint from its containing list. The breakpoint no longer semantically exists after this method returns.
 ms.assetid: b5109158-3f5d-43fa-a2f3-53f7bf74026c
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::Remove, Remove, IDataModelScriptDebugBreakpoint.Remove, IDataModelScriptDebugBreakpoint::Remove, IDataModelScriptDebugBreakpoint.Remove

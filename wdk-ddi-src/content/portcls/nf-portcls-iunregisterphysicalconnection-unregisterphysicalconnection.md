@@ -6,11 +6,8 @@ description: The UnregisterPhysicalConnection method deletes the registration of
 old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnection.htm
 tech.root: audio
 ms.assetid: e8b99549-0fe2-4c8a-ad93-6689ebddee40
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IUnregisterPhysicalConnection interface [Audio Devices],UnregisterPhysicalConnection method, IUnregisterPhysicalConnection.UnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], UnregisterPhysicalConnection method [Audio Devices],IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

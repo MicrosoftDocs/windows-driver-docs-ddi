@@ -6,11 +6,8 @@ description: The IStiDevice::RawReadCommand method reads command information fro
 old-location: image\istidevice_rawreadcommand.htm
 tech.root: image
 ms.assetid: fc6b46af-d3e3-4a49-a354-c0effee6a005
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IStiDevice interface [Imaging Devices],RawReadCommand method, IStiDevice.RawReadCommand, IStiDevice::RawReadCommand, RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

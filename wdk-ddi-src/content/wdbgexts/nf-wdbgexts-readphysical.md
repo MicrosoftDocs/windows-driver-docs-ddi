@@ -6,11 +6,8 @@ description: The ReadPhysical function reads from physical memory.
 old-location: debugger\readphysical.htm
 tech.root: debugger
 ms.assetid: 02ca3358-7740-4eda-ab7c-f4b8a88389c2
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ReadPhysical, ReadPhysical function [Windows Debugging], WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, debugger.readphysical, wdbgexts/ReadPhysical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

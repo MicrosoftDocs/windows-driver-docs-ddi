@@ -6,11 +6,8 @@ description: Called by the operating system to create a user-mode Miracast conte
 old-location: display\createmiracastcontext.htm
 tech.root: display
 ms.assetid: 3b10ddd9-a48d-4f96-b35e-db017d1f9583
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, PFN_CREATE_MIRACAST_CONTEXT callback, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h

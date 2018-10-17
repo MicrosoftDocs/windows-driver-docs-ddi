@@ -4,11 +4,8 @@ title: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 author: windows-driver-content
 description: Contains information about the power level of a context.
 ms.assetid: c8d248e4-3805-4e67-b11e-e5553e7561f8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, *INOUT_PDXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 req.header: d3dkmddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The OnQueryStop method notifies a driver before a device is stopped
 old-location: wdf\ipnpcallback_onquerystop.htm
 tech.root: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallback interface,OnQueryStop method, IPnpCallback.OnQueryStop, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, OnQueryStop method,IPnpCallback interface, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

@@ -6,11 +6,8 @@ description: Reads or writes to mitigated address spaces.
 old-location: pci\read_write_mitigated_registers.htm
 tech.root: PCI
 ms.assetid: 7cd45484-0fee-4b8e-aa35-4142883c146e
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PREAD_WRITE_MITIGATED_REGISTER, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], PCI.read_write_mitigated_registers, READ_WRITE_MITIGATED_REGISTER, ReadWriteMitigatedRegister, ReadWriteMitigatedRegister callback function [Buses], pcivirt/ReadWriteMitigatedRegister"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
 req.include-header:

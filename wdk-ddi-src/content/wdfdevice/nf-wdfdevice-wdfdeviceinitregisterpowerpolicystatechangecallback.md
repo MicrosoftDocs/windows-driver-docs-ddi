@@ -6,11 +6,8 @@ description: The WdfDeviceInitRegisterPowerPolicyStateChangeCallback method regi
 old-location: wdf\wdfdeviceinitregisterpowerpolicystatechangecallback.htm
 tech.root: wdf
 ms.assetid: 61ddfdf9-65cf-482b-80fe-bc5a71f905cd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml, WdfDeviceInitRegisterPowerPolicyStateChangeCallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

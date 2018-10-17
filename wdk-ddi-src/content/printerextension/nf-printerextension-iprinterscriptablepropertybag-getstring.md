@@ -6,11 +6,8 @@ description: Gets a string property.
 old-location: print\iprinterscriptablepropertybag_getstring.htm
 tech.root: print
 ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetString method, IPrinterScriptablePropertyBag.GetString, IPrinterScriptablePropertyBag::GetString, print.iprinterscriptablepropertybag_getstring, printerextension/IPrinterScriptablePropertyBag::GetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

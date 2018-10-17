@@ -6,11 +6,8 @@ description: The GetString method reads a null-terminated string from the target
 old-location: debugger\extremotedata_getstring.htm
 tech.root: debugger
 ms.assetid: ff0aa7a7-1efd-4d55-8865-f36c039b27a1
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, ExtRemoteData class [Windows Debugging],GetString method, ExtRemoteData.GetString, ExtRemoteData.GetString(ExtBuffer<WCHAR>,ULONG), ExtRemoteData::GetString, ExtRemoteData::GetString(ExtBuffer<WCHAR>,ULONG), GetString, GetString method [Windows Debugging], GetString method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

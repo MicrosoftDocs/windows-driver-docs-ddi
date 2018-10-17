@@ -6,11 +6,8 @@ description: Used in a call to the pfnGetMultiplaneOverlayGroupCaps function to 
 old-location: display\dxgi_ddi_arg_getmultiplaneoverlaygroupcaps.htm
 tech.root: display
 ms.assetid: C63125FA-7ADF-406A-A729-67C6ACA47D96
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure [Display Devices], _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaygroupcaps, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h

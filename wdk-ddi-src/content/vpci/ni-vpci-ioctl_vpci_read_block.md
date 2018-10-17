@@ -6,11 +6,8 @@ description: The driver for a PCI Express (PCIe) virtual function (VF) issues an
 old-location: pci\ioctl_vpci_read_block.htm
 tech.root: PCI
 ms.assetid: C493724D-316B-4F64-866B-D26C2DBA822A
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: IOCTL_VPCI_READ_BLOCK, IOCTL_VPCI_READ_BLOCK control code, PCI.ioctl_vpci_read_block, vpci/IOCTL_VPCI_READ_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: vpci.h
 req.include-header: Wdm.h

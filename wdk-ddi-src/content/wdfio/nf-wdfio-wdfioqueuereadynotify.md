@@ -6,11 +6,8 @@ description: The WdfIoQueueReadyNotify method registers (or deregisters) an even
 old-location: wdf\wdfioqueuereadynotify.htm
 tech.root: wdf
 ms.assetid: 0d48dce1-252f-4dc2-85a8-6c25e99ce0ba
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, kmdf.wdfioqueuereadynotify, wdf.wdfioqueuereadynotify, wdfio/WdfIoQueueReadyNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

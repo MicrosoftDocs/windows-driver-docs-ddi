@@ -4,7 +4,6 @@ title: KeAddTriageDumpDataBlock function
 author: windows-driver-content
 description: Adds a triage dump data block to a triage dump data block array.
 ms.assetid: 18c54115-6df7-48c9-bcd5-1dfde7591fe5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: KeAddTriageDumpDataBlock

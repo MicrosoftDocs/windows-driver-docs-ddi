@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENSYNCHRONIZATIONOBJECT
 author: windows-driver-content
 description: The PFND3DKMT_OPENSYNCHRONIZATIONOBJECT callback function opens a kernel-mode synchronization object.
 ms.assetid: 8a699ba7-c32a-4670-84ca-a5c896455d82
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

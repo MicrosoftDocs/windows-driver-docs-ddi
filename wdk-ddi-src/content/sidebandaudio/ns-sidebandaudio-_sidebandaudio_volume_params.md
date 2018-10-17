@@ -4,11 +4,8 @@ title: _SIDEBANDAUDIO_VOLUME_PARAMS
 author: windows-driver-content
 description: Describes the endpoint index and volume value.
 ms.assetid: f84929d3-f908-4686-83e7-f73e61912975
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_VOLUME_PARAMS, SIDEBANDAUDIO_VOLUME_PARAMS, *PSIDEBANDAUDIO_VOLUME_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:

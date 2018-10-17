@@ -6,11 +6,8 @@ description: A driver's EvtInterruptSynchronize event callback function performs
 old-location: wdf\evtinterruptsynchronize.htm
 tech.root: wdf
 ms.assetid: ac73b23d-7742-43a4-8950-b301bd0ba330
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFInterruptObjectRef_4310d770-645e-48c8-bd33-b9edcc8cb667.xml, EVT_WDF_INTERRUPT_SYNCHRONIZE, EVT_WDF_INTERRUPT_SYNCHRONIZE callback, EvtInterruptSynchronize, EvtInterruptSynchronize callback function, kmdf.evtinterruptsynchronize, wdf.evtinterruptsynchronize, wdfinterrupt/EvtInterruptSynchronize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

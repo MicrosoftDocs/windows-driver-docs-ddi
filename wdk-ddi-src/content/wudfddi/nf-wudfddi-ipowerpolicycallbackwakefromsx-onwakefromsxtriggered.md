@@ -6,11 +6,8 @@ description: A driver's OnWakeFromSxTriggered event callback function informs th
 old-location: wdf\ipowerpolicycallbackwakefromsx_onwakefromsxtriggered.htm
 tech.root: wdf
 ms.assetid: b2379f2d-61a0-4741-a375-c17b95b0faf6
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_DATAPATH_DESCRIPTOR structure describes a datapath queue's ring buffers.
 tech.root: netvista
 ms.assetid: 9b156fe0-5746-4628-9bc1-5973bf55710a
-ms.author: windowsdriverdev
 ms.date: 02/27/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_DATAPATH_DESCRIPTOR, NET_DATAPATH_DESCRIPTOR, *PCNET_DATAPATH_DESCRIPTOR, 
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h

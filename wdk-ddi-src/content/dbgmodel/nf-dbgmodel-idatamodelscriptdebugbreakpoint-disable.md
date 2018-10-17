@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpoint::Disable
 author: windows-driver-content
 description:The Disable method disables the breakpoint. After this call, "hitting the breakpoint" after calling this method will not break into the debugger.
 ms.assetid: 2691817b-c8a7-42d0-96a2-91b32b325d05
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::Disable, Disable, IDataModelScriptDebugBreakpoint.Disable, IDataModelScriptDebugBreakpoint::Disable, IDataModelScriptDebugBreakpoint.Disable

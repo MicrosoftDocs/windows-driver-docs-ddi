@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSendSynchronousRequest function sends a packet to the opposite endpoint and waits for a response.
 tech.root: netvista
 ms.assetid: 353b996b-0678-4ce6-aaeb-3835ae05ee3e
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

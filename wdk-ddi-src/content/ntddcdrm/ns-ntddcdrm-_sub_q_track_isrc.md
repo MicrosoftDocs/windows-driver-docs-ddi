@@ -6,11 +6,8 @@ description: The SUB_Q_TRACK_ISC contains position information and is used in co
 old-location: storage\sub_q_track_isrc.htm
 tech.root: storage
 ms.assetid: 0439bd46-b009-435d-aab7-efca48a17cb7
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], SUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC structure [Storage Devices], _SUB_Q_TRACK_ISRC, ntddcdrm/PSUB_Q_TRACK_ISRC, ntddcdrm/SUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

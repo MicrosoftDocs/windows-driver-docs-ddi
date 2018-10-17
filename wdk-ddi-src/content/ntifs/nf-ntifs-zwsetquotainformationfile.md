@@ -6,11 +6,8 @@ description: The ZwSetQuotaInformationFile routine changes quota entries for the
 old-location: kernel\zwsetquotainformationfile.htm
 tech.root: kernel
 ms.assetid: 40c7a74c-eace-4d01-8a55-2c3c8bace8fb
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtSetQuotaInformationFile, ZwSetQuotaInformationFile, ZwSetQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_87b6e79e-ecd9-47ff-8f0c-7502fc82b8af.xml, kernel.zwsetquotainformationfile, ntifs/NtSetQuotaInformationFile, ntifs/ZwSetQuotaInformationFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

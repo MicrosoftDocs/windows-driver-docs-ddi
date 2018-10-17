@@ -6,11 +6,8 @@ description: The WdfIoResourceListGetCount method returns the number of resource
 old-location: wdf\wdfioresourcelistgetcount.htm
 tech.root: wdf
 ms.assetid: d8f3d743-acc1-4884-b0ec-a6cea5d8e437
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, WdfIoResourceListGetCount, WdfIoResourceListGetCount method, kmdf.wdfioresourcelistgetcount, wdf.wdfioresourcelistgetcount, wdfresource/WdfIoResourceListGetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

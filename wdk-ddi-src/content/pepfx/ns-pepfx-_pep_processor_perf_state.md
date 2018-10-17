@@ -6,11 +6,8 @@ description: Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification
 old-location: kernel\pep_processor_perf_state.htm
 tech.root: kernel
 ms.assetid: 46231ac0-2c34-4154-8b3e-f34c40cbff4a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, pepfx/PEP_PROCESSOR_PERF_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h

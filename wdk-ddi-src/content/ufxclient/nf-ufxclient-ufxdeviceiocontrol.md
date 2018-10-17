@@ -6,11 +6,8 @@ description: Passes non-internal IOCTLs from user-mode to UFX.
 old-location: buses\ufxdeviceiocontrol.htm
 tech.root: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ufxclient.h
 req.include-header: 

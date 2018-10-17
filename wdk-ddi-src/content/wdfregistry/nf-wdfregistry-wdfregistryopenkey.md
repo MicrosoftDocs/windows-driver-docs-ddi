@@ -6,11 +6,8 @@ description: The WdfRegistryOpenKey method opens a specified registry key and cr
 old-location: wdf\wdfregistryopenkey.htm
 tech.root: wdf
 ms.assetid: a79f6f98-1ebb-498e-9e20-cfdd22a0da7a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

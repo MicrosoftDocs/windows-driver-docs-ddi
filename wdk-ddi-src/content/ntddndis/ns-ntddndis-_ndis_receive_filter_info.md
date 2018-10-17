@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_FILTER_INFO structure contains information about a
 old-location: netvista\ndis_receive_filter_info.htm
 tech.root: netvista
 ms.assetid: 12029cfd-58d0-4621-8cbc-c07e68db61b8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO, PNDIS_RECEIVE_FILTER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO, netvista.ndis_receive_filter_info, ntddndis/NDIS_RECEIVE_FILTER_INFO, ntddndis/PNDIS_RECEIVE_FILTER_INFO, virtual_machine_queue_ref_4c711292-ce17-4eb9-a051-c32f8ad6f49e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h

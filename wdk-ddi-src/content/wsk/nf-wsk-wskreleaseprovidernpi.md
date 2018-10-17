@@ -6,11 +6,8 @@ description: The WskReleaseProviderNPI function releases a Network Programming I
 old-location: netvista\wskreleaseprovidernpi.htm
 tech.root: netvista
 ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsk.h
 req.include-header: Wsk.h

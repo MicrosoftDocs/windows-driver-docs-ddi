@@ -4,11 +4,8 @@ title: IDebugHostBaseClass
 author: windows-driver-content
 description: An (IDebugHostSymbol derived) interface to a base class.
 ms.assetid: 3240aa54-97b6-43e1-81e9-41f4eb5bd447
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

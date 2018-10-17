@@ -6,11 +6,8 @@ description: A bus driver's EvtDeviceResourceRequirementsQuery event callback fu
 old-location: wdf\evtdeviceresourcerequirementsquery.htm
 tech.root: wdf
 ms.assetid: bacd7e7c-9f71-4dda-98ed-a8d813360943
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_7b6a59e4-0131-45fc-9a9b-f9e2c39660a6.xml, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback, EvtDeviceResourceRequirementsQuery, EvtDeviceResourceRequirementsQuery callback function, kmdf.evtdeviceresourcerequirementsquery, wdf.evtdeviceresourcerequirementsquery, wdfpdo/EvtDeviceResourceRequirementsQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfpdo.h
 req.include-header: Wdf.h

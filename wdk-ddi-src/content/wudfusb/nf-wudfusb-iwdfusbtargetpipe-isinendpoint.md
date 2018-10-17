@@ -6,11 +6,8 @@ description: The IsInEndPoint method determines whether a USB pipe (endpoint) is
 old-location: wdf\iwdfusbtargetpipe_isinendpoint.htm
 tech.root: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFUsbTargetPipe interface,IsInEndPoint method, IWDFUsbTargetPipe.IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IsInEndPoint method, IsInEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h

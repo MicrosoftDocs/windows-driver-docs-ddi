@@ -6,11 +6,8 @@ description: Informs UFX that the client driver has completed processing a UFX c
 old-location: buses\ufxdeviceeventcomplete.htm
 tech.root: usbref
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ufxclient.h
 req.include-header: 

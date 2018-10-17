@@ -4,11 +4,8 @@ title: D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
 author: windows-driver-content
 description:
 ms.assetid: 790e3ae9-22da-4b5c-a9b0-e727689e9394
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041, D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041,
 req.header: d3d12umddi.h
 req.include-header:

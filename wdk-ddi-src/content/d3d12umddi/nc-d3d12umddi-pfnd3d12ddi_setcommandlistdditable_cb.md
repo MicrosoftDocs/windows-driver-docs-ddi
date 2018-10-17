@@ -4,11 +4,8 @@ title: PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB
 author: windows-driver-content
 description: Sets the command list table.
 ms.assetid: d1480f13-37d6-465c-b468-bf7a32bf0523
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

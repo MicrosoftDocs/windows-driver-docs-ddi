@@ -6,11 +6,8 @@ description: The FILE_DIRECTORY_INFORMATION structure is used to query detailed 
 old-location: ifsk\file_directory_information.htm
 tech.root: ifsk
 ms.assetid: 012c3178-f3a0-449b-b4a2-91fff4af1a17
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], PFILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], _FILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, ifsk.file_directory_information, ntifs/FILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h

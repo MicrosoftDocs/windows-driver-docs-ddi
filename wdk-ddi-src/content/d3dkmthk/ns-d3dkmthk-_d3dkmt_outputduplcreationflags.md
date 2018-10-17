@@ -4,11 +4,8 @@ title: _D3DKMT_OUTPUTDUPLCREATIONFLAGS
 author: windows-driver-content
 description: The output creation flags.
 ms.assetid: 6aea34d1-19c8-4900-a626-519dd50a50f4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OUTPUTDUPLCREATIONFLAGS, D3DKMT_OUTPUTDUPLCREATIONFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

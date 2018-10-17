@@ -6,11 +6,8 @@ description: The ExFreePoolWithTag routine deallocates a block of pool memory al
 old-location: kernel\exfreepoolwithtag.htm
 tech.root: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, wdm/ExFreePoolWithTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

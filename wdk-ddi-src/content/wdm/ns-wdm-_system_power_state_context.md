@@ -6,11 +6,8 @@ description: The SYSTEM_POWER_STATE_CONTEXT structure is a partially opaque syst
 old-location: kernel\system_power_state_context.htm
 tech.root: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntpoapi.h

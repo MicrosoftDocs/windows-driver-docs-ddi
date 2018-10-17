@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluicclock_2.htm
 tech.root: netvista
 ms.assetid: 01a39c94-987c-498c-8890-423b762f09fd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*LPRILUICCLOCK, RILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock_2, rilapitypes/RILUICCLOCK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:

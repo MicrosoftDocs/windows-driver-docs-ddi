@@ -6,11 +6,8 @@ description: The FsRtlIncrementCcFastReadNoWait routine increments the CcFastRea
 old-location: ifsk\fsrtlincrementccfastreadnowait.htm
 tech.root: ifsk
 ms.assetid: 14a1b22a-5d1b-4da6-9610-396fa128ce01
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlIncrementCcFastReadNoWait, FsRtlIncrementCcFastReadNoWait routine [Installable File System Drivers], fsrtlref_f72704ce-84b6-4201-a727-b97fd70accfd.xml, ifsk.fsrtlincrementccfastreadnowait, ntifs/FsRtlIncrementCcFastReadNoWait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

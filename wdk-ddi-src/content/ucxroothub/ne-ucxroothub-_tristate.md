@@ -6,11 +6,8 @@ description: The TRISTATE enumeration indicates generic state values for true or
 old-location: buses\tristate.htm
 tech.root: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h

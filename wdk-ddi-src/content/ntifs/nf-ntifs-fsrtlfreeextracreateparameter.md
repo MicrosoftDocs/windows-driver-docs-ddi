@@ -6,11 +6,8 @@ description: The FsRtlFreeExtraCreateParameter routine frees the memory for an E
 old-location: ifsk\fsrtlfreeextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: c46cdfd3-36c4-420d-9dbf-d6f0bede460e
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlFreeExtraCreateParameter, FsRtlFreeExtraCreateParameter routine [Installable File System Drivers], fsrtlref_bbee8298-87e1-4487-bf56-b2dd76913d47.xml, ifsk.fsrtlfreeextracreateparameter, ntifs/FsRtlFreeExtraCreateParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

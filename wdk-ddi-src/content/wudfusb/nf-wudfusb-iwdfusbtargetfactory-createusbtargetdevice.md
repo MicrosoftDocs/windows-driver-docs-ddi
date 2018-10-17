@@ -6,11 +6,8 @@ description: The CreateUsbTargetDevice method creates a USB device object that i
 old-location: wdf\iwdfusbtargetfactory_createusbtargetdevice.htm
 tech.root: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CreateUsbTargetDevice, CreateUsbTargetDevice method, CreateUsbTargetDevice method,IWDFUsbTargetFactory interface, IWDFUsbTargetFactory interface,CreateUsbTargetDevice method, IWDFUsbTargetFactory.CreateUsbTargetDevice, IWDFUsbTargetFactory::CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, umdf.iwdfusbtargetfactory_createusbtargetdevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h

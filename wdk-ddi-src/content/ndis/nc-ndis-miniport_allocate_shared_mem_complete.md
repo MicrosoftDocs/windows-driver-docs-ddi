@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportSharedMemoryAllocateComplete
 old-location: netvista\miniportsharedmemoryallocatecomplete.htm
 tech.root: netvista
 ms.assetid: d102a001-960c-4fe6-af2d-d740bba744b1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE, MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback, MiniportSharedMemoryAllocateComplete, MiniportSharedMemoryAllocateComplete callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSharedMemoryAllocateComplete, ndis_sgdma_ref_0099c752-42ac-4b2d-9787-98deca358cfc.xml, netvista.miniportsharedmemoryallocatecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

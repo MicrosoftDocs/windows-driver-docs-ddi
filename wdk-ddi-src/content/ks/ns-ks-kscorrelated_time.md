@@ -6,11 +6,8 @@ description: The KSCORRELATED_TIME structure contains a clock time as well as th
 old-location: stream\kscorrelated_time.htm
 tech.root: stream
 ms.assetid: d733f50c-01a2-484f-ab5b-72aaa3378c7d
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSCORRELATED_TIME, KSCORRELATED_TIME, KSCORRELATED_TIME structure [Streaming Media Devices], PKSCORRELATED_TIME, PKSCORRELATED_TIME structure pointer [Streaming Media Devices], ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, ks/KSCORRELATED_TIME, ks/PKSCORRELATED_TIME, stream.kscorrelated_time"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
 author: windows-driver-content
 description: Gets the available tracked workload index.
 ms.assetid: aa4a954a-abac-4adb-859e-e7f7c46c58cf
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

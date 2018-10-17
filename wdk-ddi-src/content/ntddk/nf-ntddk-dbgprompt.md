@@ -6,11 +6,8 @@ description: The DbgPrompt routine displays a caller-specified user prompt strin
 old-location: devtest\dbgprompt.htm
 tech.root: devtest
 ms.assetid: 4bb44aab-7032-4cc7-89e3-6ac3bee233d3
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: DbgPrompt, DbgPrompt routine [Driver Development Tools], DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, devtest.dbgprompt, ntddk/DbgPrompt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

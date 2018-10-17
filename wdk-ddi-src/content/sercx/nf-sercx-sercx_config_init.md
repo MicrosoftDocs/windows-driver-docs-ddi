@@ -6,11 +6,8 @@ description: The SERCX_CONFIG_INIT function initializes a SERCX_CONFIG structure
 old-location: serports\sercx_config_init.htm
 tech.root: serports
 ms.assetid: C7442A59-6D7C-4551-B0E4-F1E8A5BEB4B7
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 1/SERCX_CONFIG_INIT, SERCX_CONFIG_INIT, SERCX_CONFIG_INIT function [Serial Ports], serports.sercx_config_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

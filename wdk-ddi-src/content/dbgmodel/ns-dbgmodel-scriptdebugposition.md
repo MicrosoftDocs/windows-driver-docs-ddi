@@ -4,11 +4,8 @@ title: ScriptDebugPosition
 author: windows-driver-content
 description: Defines a position within a script.
 ms.assetid: 2a20c74b-7670-40c8-b0bc-048532bdf7ac
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: ScriptDebugPosition, , 
 req.header: dbgmodel.h
 req.include-header:

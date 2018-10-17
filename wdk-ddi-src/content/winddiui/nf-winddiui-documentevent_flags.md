@@ -4,7 +4,6 @@ title: DOCUMENTEVENT_FLAGS macro
 author: windows-driver-content
 description: 
 ms.assetid: 2b250a80-2a6c-4427-94b5-4591b15dcdc2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: DOCUMENTEVENT_FLAGS

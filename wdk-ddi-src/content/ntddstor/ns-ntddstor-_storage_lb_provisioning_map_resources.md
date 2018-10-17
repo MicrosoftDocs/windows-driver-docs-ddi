@@ -6,11 +6,8 @@ description: The STORAGE_LB_PROVISIONING_MAP_RESOURCES structure contains, when 
 old-location: storage\storage_lb_provisioning_map_resources.htm
 tech.root: storage
 ms.assetid: 6F7DE233-D002-4927-80FC-307A3A33653A
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], _STORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, storage.storage_lb_provisioning_map_resources"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h, Scsi.h

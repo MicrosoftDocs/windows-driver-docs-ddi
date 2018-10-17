@@ -6,11 +6,8 @@ description: Describes information about a hub from its parent device.
 old-location: buses\_hub_info_from_parent.htm
 tech.root: usbref
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent, ucxroothub/P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h

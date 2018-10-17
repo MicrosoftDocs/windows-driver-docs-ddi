@@ -6,11 +6,8 @@ description: The RtlIsRoot routine determines whether the specified node is the 
 old-location: ifsk\rtlisroot.htm
 tech.root: ifsk
 ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlIsRoot, RtlIsRoot routine [Installable File System Drivers], ifsk.rtlisroot, ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

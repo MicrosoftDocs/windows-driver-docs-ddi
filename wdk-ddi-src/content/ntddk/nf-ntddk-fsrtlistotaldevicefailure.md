@@ -6,11 +6,8 @@ description: The FsRtlIsTotalDeviceFailure routine determines whether a media or
 old-location: ifsk\fsrtlistotaldevicefailure.htm
 tech.root: ifsk
 ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml, ifsk.fsrtlistotaldevicefailure, ntddk/FsRtlIsTotalDeviceFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntifs.h

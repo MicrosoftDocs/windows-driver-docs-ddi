@@ -6,11 +6,8 @@ description: The CM_EISA_SLOT_INFORMATION structure defines EISA configuration h
 old-location: kernel\cm_eisa_slot_information.htm
 tech.root: kernel
 ms.assetid: 443b6ed8-1d44-466f-93b0-bb8cd42aefaa
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PCM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION structure [Kernel-Mode Driver Architecture], PCM_EISA_SLOT_INFORMATION, PCM_EISA_SLOT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CM_EISA_SLOT_INFORMATION, kernel.cm_eisa_slot_information, kstruct_a_07946ecf-4bcd-4626-a070-e3bca212c0ef.xml, wdm/CM_EISA_SLOT_INFORMATION, wdm/PCM_EISA_SLOT_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h

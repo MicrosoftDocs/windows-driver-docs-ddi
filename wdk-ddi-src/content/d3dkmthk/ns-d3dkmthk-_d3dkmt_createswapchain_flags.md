@@ -4,11 +4,8 @@ title: _D3DKMT_CREATESWAPCHAIN_FLAGS
 author: windows-driver-content
 description: Contains the type of flags to create a swap chain.
 ms.assetid: c3eaaff2-9597-41f8-959f-04defe5494d8
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_CREATESWAPCHAIN_FLAGS, D3DKMT_CREATESWAPCHAIN_FLAGS,
 req.header: d3dkmthk.h
 req.include-header:

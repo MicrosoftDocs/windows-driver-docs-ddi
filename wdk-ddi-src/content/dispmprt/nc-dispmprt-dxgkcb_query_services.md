@@ -6,11 +6,8 @@ description: The DxgkCbQueryServices function returns an interface implemented b
 old-location: display\dxgkcbqueryservices.htm
 tech.root: display
 ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES callback, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

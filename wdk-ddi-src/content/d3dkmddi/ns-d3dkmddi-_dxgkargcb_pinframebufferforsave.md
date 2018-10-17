@@ -4,11 +4,8 @@ title: _DXGKARGCB_PINFRAMEBUFFERFORSAVE
 author: windows-driver-content
 description: Arguments used by the DxgkcbPinFrameBufferForSave callback function, to pin frame buffer for save.
 ms.assetid: 7c151074-7ac1-42b2-84ae-78ae67087b44
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARGCB_PINFRAMEBUFFERFORSAVE, DXGKARGCB_PINFRAMEBUFFERFORSAVE, *INOUT_PDXGKARGCB_PINFRAMEBUFFERFORSAVE
 req.header: d3dkmddi.h
 req.include-header:

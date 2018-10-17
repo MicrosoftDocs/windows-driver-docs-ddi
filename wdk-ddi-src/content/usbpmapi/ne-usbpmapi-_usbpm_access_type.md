@@ -4,12 +4,9 @@ title: _USBPM_ACCESS_TYPE
 author: windows-driver-content
 description: Defines the access types for calling Policy Manager functions.
 ms.assetid: 16469a5c-1c6a-4fa3-9189-17ba7d51291d
-ms.author: windowsdriverdev
 ms.date: 9/30/2018 
 ms.topic: enum
 ms.keywords: _USBPM_ACCESS_TYPE, USBPM_ACCESS_TYPE, *PUSBPM_ACCESS_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:

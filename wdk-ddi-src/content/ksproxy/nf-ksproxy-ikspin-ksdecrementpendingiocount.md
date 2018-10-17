@@ -6,11 +6,8 @@ description: The KsDecrementPendingIoCount method decrements the number of input
 old-location: stream\ikspin_ksdecrementpendingiocount.htm
 tech.root: stream
 ms.assetid: 92e0355c-b89f-46c2-b406-e3c73fc37000
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsDecrementPendingIoCount method, IKsPin.KsDecrementPendingIoCount, IKsPin::KsDecrementPendingIoCount, KsDecrementPendingIoCount, KsDecrementPendingIoCount method [Streaming Media Devices], KsDecrementPendingIoCount method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsDecrementPendingIoCount, ksproxy_4b423ae2-1256-4ccc-9c8d-4bd6cdb99e42.xml, stream.ikspin_ksdecrementpendingiocount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

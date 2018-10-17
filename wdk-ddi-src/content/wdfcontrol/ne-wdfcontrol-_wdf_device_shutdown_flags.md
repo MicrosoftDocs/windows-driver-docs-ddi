@@ -6,11 +6,8 @@ description: The WDF_DEVICE_SHUTDOWN_FLAGS enumeration defines flags that identi
 old-location: wdf\wdf_device_shutdown_flags.htm
 tech.root: wdf
 ms.assetid: e394f8de-7257-4baa-9057-bd4bad34212d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, WDF_DEVICE_SHUTDOWN_FLAGS, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, WdfDeviceLastChanceShutdown, WdfDeviceShutdown, _WDF_DEVICE_SHUTDOWN_FLAGS, kmdf.wdf_device_shutdown_flags, wdf.wdf_device_shutdown_flags, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WdfDeviceLastChanceShutdown, wdfcontrol/WdfDeviceShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfcontrol.h
 req.include-header: Wdf.h

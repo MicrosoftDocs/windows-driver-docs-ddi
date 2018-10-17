@@ -6,11 +6,8 @@ description: The Drain method directs the queue to reject new incoming I/O reque
 old-location: wdf\iwdfioqueue_drain.htm
 tech.root: wdf
 ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: Drain, Drain method, Drain method,IWDFIoQueue interface, IWDFIoQueue interface,Drain method, IWDFIoQueue.Drain, IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, wdf.iwdfioqueue_drain, wudfddi/IWDFIoQueue::Drain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

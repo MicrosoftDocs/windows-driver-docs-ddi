@@ -6,11 +6,8 @@ description: This topic describes IOCTL_DOT4_WAIT_FOR_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_wait_for_channel.htm
 tech.root: print
 ms.assetid: 4FFC0BE7-A095-4229-A713-566815B53EAF
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IOCTL_DOT4_WAIT_FOR_CHANNEL, IOCTL_DOT4_WAIT_FOR_CHANNEL control, IOCTL_DOT4_WAIT_FOR_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_FOR_CHANNEL, print.ioctl_ioctl_dot4_wait_for_channel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: d4drvif.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a ch
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

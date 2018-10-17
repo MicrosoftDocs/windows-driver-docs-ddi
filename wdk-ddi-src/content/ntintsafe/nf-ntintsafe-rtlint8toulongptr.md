@@ -6,11 +6,8 @@ description: Converts a value of type INT8 to a value of type ULONG_PTR.
 old-location: kernel\rtlint8toulongptr.htm
 tech.root: kernel
 ms.assetid: C406C404-1A6D-4D83-9D71-BC2980C1A84D
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlInt8ToULongPtr, RtlInt8ToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlint8toulongptr, ntintsafe/RtlInt8ToULongPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

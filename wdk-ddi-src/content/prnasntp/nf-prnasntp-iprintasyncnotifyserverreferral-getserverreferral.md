@@ -6,11 +6,8 @@ description:
 old-location: print\iprintasyncnotifyserverreferral_getserverreferral.htm
 tech.root: print
 ms.assetid: 58DD0DA5-CE6A-4C2F-AF7D-B35BCBFB6AFB
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetServerReferral, GetServerReferral method [Print Devices], GetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],GetServerReferral method, IPrintAsyncNotifyServerReferral.GetServerReferral, IPrintAsyncNotifyServerReferral::GetServerReferral, print.iprintasyncnotifyserverreferral_getserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::GetServerReferral
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prnasntp.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The IKsControl interface provides user-mode methods that control a 
 old-location: stream\ikscontrol.htm
 tech.root: stream
 ms.assetid: d73cf2fc-15bb-4f45-aae3-fb55bcd072a3
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

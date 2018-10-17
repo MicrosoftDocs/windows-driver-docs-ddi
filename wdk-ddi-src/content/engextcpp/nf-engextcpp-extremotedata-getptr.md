@@ -6,11 +6,8 @@ description: The GetPtr method returns a pointer from the target's memory versio
 old-location: debugger\extremotedata_getptr.htm
 tech.root: debugger
 ms.assetid: f9778881-9b53-49c5-9fe8-80f9a866b9af
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, ExtRemoteData class [Windows Debugging],GetPtr method, ExtRemoteData.GetPtr, ExtRemoteData::GetPtr, GetPtr, GetPtr method [Windows Debugging], GetPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

@@ -6,11 +6,8 @@ description: The IpiGenericCall routine runs simultaneously on all processors.
 old-location: kernel\ipigenericcall.htm
 tech.root: kernel
 ms.assetid: 7c4e3d6b-e000-4ac4-b200-966689d05426
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml, IpiGenericCall, IpiGenericCall routine [Kernel-Mode Driver Architecture], KIPI_BROADCAST_WORKER, kernel.ipigenericcall, wdm/IpiGenericCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

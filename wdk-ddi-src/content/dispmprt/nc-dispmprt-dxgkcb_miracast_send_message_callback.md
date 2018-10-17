@@ -6,11 +6,8 @@ description: Called in kernel mode when the message that was sent to the user-mo
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

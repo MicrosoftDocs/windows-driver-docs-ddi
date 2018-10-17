@@ -6,11 +6,8 @@ description: The MultiplyTransform function modifies the current transform.
 old-location: display\multiplytransform.htm
 tech.root: display
 ms.assetid: 69d94062-5655-4d49-a116-7fa7e2b51a91
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: MultiplyTransform, MultiplyTransform callback function [Display Devices], PFND3DDDI_MULTIPLYTRANSFORM, PFND3DDDI_MULTIPLYTRANSFORM callback, UserModeDisplayDriver_Functions_4058eef2-8ccd-46e2-ad8d-fd0905811651.xml, d3dumddi/MultiplyTransform, display.multiplytransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

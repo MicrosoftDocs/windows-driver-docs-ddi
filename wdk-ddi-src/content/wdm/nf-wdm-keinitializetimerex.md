@@ -6,11 +6,8 @@ description: The KeInitializeTimerEx routine initializes an extended kernel time
 old-location: kernel\keinitializetimerex.htm
 tech.root: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, wdm/KeInitializeTimerEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

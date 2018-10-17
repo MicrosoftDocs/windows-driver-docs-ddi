@@ -6,11 +6,8 @@ description: Periodically called by the WIA mini-driver during a data transfer, 
 old-location: image\iwiaminidrvtransfercallback_sendmessage.htm
 tech.root: image
 ms.assetid: 9C4800E6-0F5F-4895-AD19-635C7F784462
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrvTransferCallback interface [Imaging Devices],SendMessage method, IWiaMiniDrvTransferCallback.SendMessage, IWiaMiniDrvTransferCallback::SendMessage, SendMessage, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices],IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_sendmessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: 

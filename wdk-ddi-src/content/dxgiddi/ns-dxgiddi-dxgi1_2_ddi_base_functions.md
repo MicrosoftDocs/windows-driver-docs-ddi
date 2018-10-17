@@ -6,11 +6,8 @@ description: Contains pointers to functions that a Windows Display Driver Model 
 old-location: display\dxgi1_2_ddi_base_functions.htm
 tech.root: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h

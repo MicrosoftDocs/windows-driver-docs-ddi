@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Describes the link layer capabilities of the adapter.
 tech.root: netvista
 ms.assetid: 24888f71-0e12-41c8-a218-9289b1f5b288
-ms.author: windowsdriverdev
 ms.date: 02/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES, NET_ADAPTER_LINK_LAYER_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h

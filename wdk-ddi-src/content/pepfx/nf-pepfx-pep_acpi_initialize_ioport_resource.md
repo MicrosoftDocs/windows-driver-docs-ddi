@@ -6,11 +6,8 @@ description: The PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function initializes a plat
 old-location: kernel\pep_acpi_initialize_ioport_resource.htm
 tech.root: kernel
 ms.assetid: E7F9F8EF-3FDC-41D9-BB89-9EB93ED1A504
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_ioport_resource, pepfx/PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pepfx.h
 req.include-header: Pep_x.h

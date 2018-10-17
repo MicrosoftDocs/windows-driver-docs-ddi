@@ -6,11 +6,8 @@ description: A driver's EvtIoWrite event callback function processes a specified
 old-location: wdf\evtiowrite.htm
 tech.root: wdf
 ms.assetid: 5a0fa3b4-d020-4664-afa4-352573d4f079
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_c98601af-48d0-4fc1-9947-b94c50f7a994.xml, EVT_WDF_IO_QUEUE_IO_WRITE, EVT_WDF_IO_QUEUE_IO_WRITE callback, EvtIoWrite, EvtIoWrite callback function, kmdf.evtiowrite, wdf.evtiowrite, wdfio/EvtIoWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfio.h
 req.include-header: Wdf.h

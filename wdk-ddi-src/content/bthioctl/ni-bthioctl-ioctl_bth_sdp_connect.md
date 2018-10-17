@@ -6,11 +6,8 @@ description: The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP s
 old-location: bltooth\ioctl_bth_sdp_connect.htm
 tech.root: bltooth
 ms.assetid: 8bfe92c9-6049-4d68-80a9-3a8f8dda3bcc
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: Bthioctl.h

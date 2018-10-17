@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getuiccrecordstatus.htm
 tech.root: netvista
 ms.assetid: f4834b37-7269-47e3-9af4-81d17fa79179
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccrecordstatus, rilapi/RIL_GetUiccRecordStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The RtlIsRightChild routine determines whether a given splay link i
 old-location: ifsk\rtlisrightchild.htm
 tech.root: ifsk
 ms.assetid: 23951fb8-35ab-4a05-b09b-d7f69057a5ad
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlIsRightChild, RtlIsRightChild routine [Installable File System Drivers], ifsk.rtlisrightchild, ntddk/RtlIsRightChild, rtlref_741652e3-af4f-4e7b-978a-e6355db283a9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

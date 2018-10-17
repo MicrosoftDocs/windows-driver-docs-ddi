@@ -6,11 +6,8 @@ description: The IoSetDeviceInterfacePropertyData routine modifies the current v
 old-location: kernel\iosetdeviceinterfacepropertydata.htm
 tech.root: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

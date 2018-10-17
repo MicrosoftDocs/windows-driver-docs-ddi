@@ -4,12 +4,9 @@ title: ScriptDebugEventFilter
 author: windows-driver-content
 description: Defines what debug event occurred.
 ms.assetid: c1778753-7c0d-4bd3-b817-19ece139a0ea
-ms.author: windowsdriverdev
 ms.date: 07/16/2018 
 ms.topic: enum
 ms.keywords: ScriptDebugEventFilter, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

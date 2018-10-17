@@ -4,11 +4,8 @@ title: _FAULT_INFORMATION
 author: windows-driver-content
 description: Contains information to set the fault report on a device.
 ms.assetid: 26ccbf2c-be6b-4c8c-8bd1-57977f7b4263
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _FAULT_INFORMATION, *PFAULT_INFORMATION, FAULT_INFORMATION, 
 req.header: wdm.h
 req.include-header:

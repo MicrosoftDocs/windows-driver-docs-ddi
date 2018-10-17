@@ -4,11 +4,8 @@ title: D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053
 author: windows-driver-content
 description: The data used in the video capability check for feature area support.
 ms.assetid: 5c1ad079-62fd-41cd-95d5-58b22985a808
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053, D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053, 
 req.header: d3d12umddi.h
 req.include-header:

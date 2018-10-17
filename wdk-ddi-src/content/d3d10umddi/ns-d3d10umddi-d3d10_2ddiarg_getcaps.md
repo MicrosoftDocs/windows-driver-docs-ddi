@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3D10_2DDIARG_GETCAPS structure contains display device capabilities of a particular type.
 old-location: display\d3d10_2ddiarg_getcaps.htm
 ms.assetid: 3a22464f-4e0b-4b14-bdbf-b34b3abf9780
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D10_2DDIARG_GETCAPS, D3D10_2DDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

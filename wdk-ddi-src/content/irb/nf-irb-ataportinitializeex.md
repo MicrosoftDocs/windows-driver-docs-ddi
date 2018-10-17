@@ -6,11 +6,8 @@ description: The AtaPortInitializeEx ATA port driver library routine initializes
 old-location: storage\ataportinitializeex.htm
 tech.root: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, storage.ataportinitializeex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

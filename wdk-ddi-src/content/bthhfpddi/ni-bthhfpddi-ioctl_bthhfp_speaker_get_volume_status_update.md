@@ -6,11 +6,8 @@ description: The IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE IOCTL Gets the vo
 old-location: audio\ioctl_bthhfp_speaker_get_volume_status_update.htm
 tech.root: audio
 ms.assetid: CE122D3F-CD8F-47F5-88E0-AB0140A8DE1E
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_speaker_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthhfpddi.h
 req.include-header: 

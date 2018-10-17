@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the NDIS adapter handle for a specified net adapter.
 tech.root: netvista
 ms.assetid: abad090b-7370-4afc-b822-d9e0554c7f23
-ms.author: windowsdriverdev
 ms.date: 02/06/2018
 ms.topic: function
 ms.keywords: NetAdapterWdmGetNdisHandle

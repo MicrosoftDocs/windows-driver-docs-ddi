@@ -6,11 +6,8 @@ description: The PsReferenceImpersonationToken routine increments the reference 
 old-location: ifsk\psreferenceimpersonationtoken.htm
 tech.root: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers], ifsk.psreferenceimpersonationtoken, ntifs/PsReferenceImpersonationToken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

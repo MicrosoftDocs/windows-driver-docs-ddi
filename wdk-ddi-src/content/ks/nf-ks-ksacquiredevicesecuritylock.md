@@ -6,11 +6,8 @@ description: The KsAcquireDeviceSecurityLock function acquires the security lock
 old-location: stream\ksacquiredevicesecuritylock.htm
 tech.root: stream
 ms.assetid: a5a003c1-fa35-461d-8a47-a1a7bc2375b4
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, stream.ksacquiredevicesecuritylock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

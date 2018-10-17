@@ -6,11 +6,8 @@ description: The HDAUDIO_CODEC_COMMAND structure specifies a codec command.
 old-location: audio\hdaudio_codec_command.htm
 tech.root: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], _HDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, audio.hdaudio_codec_command, hdaudio/HDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hdaudio.h
 req.include-header: Hdaudio.h

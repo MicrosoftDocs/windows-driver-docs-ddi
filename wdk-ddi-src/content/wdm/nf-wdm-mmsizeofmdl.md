@@ -6,11 +6,8 @@ description: The MmSizeOfMdl routine returns the number of bytes to allocate for
 old-location: kernel\mmsizeofmdl.htm
 tech.root: kernel
 ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, kernel.mmsizeofmdl, wdm/MmSizeOfMdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

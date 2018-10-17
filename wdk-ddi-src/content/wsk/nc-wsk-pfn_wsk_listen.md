@@ -6,11 +6,8 @@ description: The WskListen function enables a stream socket to listen for incomi
 old-location: netvista\wsklisten.htm
 tech.root: netvista
 ms.assetid: 854C2DA1-1763-4354-8B9D-9AE0C60D8F31
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_LISTEN, PFN_WSK_LISTEN callback, WskListen, WskListen callback function [Network Drivers Starting with Windows Vista], netvista.wsklisten, wsk/WskListen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

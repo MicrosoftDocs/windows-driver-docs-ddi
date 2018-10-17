@@ -5,12 +5,9 @@ author: windows-driver-content
 tech.root: usbref
 description: See Table 4-51, Command Code.
 ms.assetid: d2570837-3a83-4bc4-a222-bfa867826837
-ms.author: windowsdriverdev
 ms.date: 09/30/2018 
 ms.topic: enum
 ms.keywords: _UCSI_COMMAND, UCSI_COMMAND, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
 req.target-type:

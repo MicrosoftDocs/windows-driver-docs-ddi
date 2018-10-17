@@ -5,11 +5,8 @@ author: windows-driver-content
 description: DxgkCbHardwareContentProtectionTeardown is used to indicate when a hardware content protection event occurs.
 old-location: display\dxgkcbhardwarecontentprotectionteardown.htm
 ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

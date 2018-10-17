@@ -4,7 +4,6 @@ title: IStringDisplayableConcept::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 7e39ce98-cca8-4ae7-a887-0011fc9544fd
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::AddRef, AddRef, IStringDisplayableConcept.AddRef, IStringDisplayableConcept::AddRef, IStringDisplayableConcept.AddRef

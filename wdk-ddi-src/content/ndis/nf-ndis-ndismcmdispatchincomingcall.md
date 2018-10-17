@@ -6,11 +6,8 @@ description: NdisMCmDispatchIncomingCall informs the client of an incoming call 
 old-location: netvista\ndismcmdispatchincomingcall.htm
 tech.root: netvista
 ms.assetid: 24102e1f-375e-4bf4-8a43-6527b90c8564
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMCmDispatchIncomingCall, NdisMCmDispatchIncomingCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1133faf8-d5a6-4800-8738-94b11bc1d51f.xml, ndis/NdisMCmDispatchIncomingCall, netvista.ndismcmdispatchincomingcall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelGetMmioSpace function retrieves the kernel virtual address of the MMIO space allocated to a channel.
 tech.root: netvista
 ms.assetid: c34ca88d-10bb-49c5-bddc-606367926b0c
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

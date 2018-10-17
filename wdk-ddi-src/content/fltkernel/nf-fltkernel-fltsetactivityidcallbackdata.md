@@ -6,11 +6,8 @@ description: The FltSetActivityIdCallbackData routine sets the a activity ID for
 old-location: ifsk\fltsetactivityidcallbackdata.htm
 tech.root: ifsk
 ms.assetid: D7CA9DAB-E350-42D5-A008-5CC12D5313D3
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltSetActivityIdCallbackData, ifsk.fltsetactivityidcallbackdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

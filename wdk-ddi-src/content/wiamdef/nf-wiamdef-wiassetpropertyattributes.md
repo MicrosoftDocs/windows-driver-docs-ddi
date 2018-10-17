@@ -6,11 +6,8 @@ description: The wiasSetPropertyAttributes function sets the access flags and va
 old-location: image\wiassetpropertyattributes.htm
 tech.root: image
 ms.assetid: 210e69e7-b3b8-43b5-a0d3-f023c7256438
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiassetpropertyattributes, wiamdef/wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes, wiasSetPropertyAttributes function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

@@ -6,11 +6,8 @@ description: Returns the properties for an allocator.
 old-location: stream\iksallocatorex_ksgetproperties.htm
 tech.root: stream
 ms.assetid: 82F2FE7D-D02B-47A1-8FC7-2D5CFC4CADA1
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsGetProperties method, IKsAllocatorEx.KsGetProperties, IKsAllocatorEx::KsGetProperties, KsGetProperties, KsGetProperties method [Streaming Media Devices], KsGetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsGetProperties, stream.iksallocatorex_ksgetproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

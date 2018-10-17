@@ -4,11 +4,8 @@ title: _D3DDDICB_INVALIDATECACHE
 author: windows-driver-content
 description: Arguments used to invalidate cache.
 ms.assetid: aede0439-69e6-473b-8845-d9c21ec682a4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDICB_INVALIDATECACHE, D3DDDICB_INVALIDATECACHE, 
 req.header: d3dumddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The RtlUnicodeStringVPrintfEx function creates a text string, with 
 old-location: kernel\rtlunicodestringvprintfex.htm
 tech.root: kernel
 ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringVPrintfEx, RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintfex, ntstrsafe/RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

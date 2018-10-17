@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_deactivateperso.htm
 tech.root: netvista
 ms.assetid: 3116482a-aa56-4a1d-98ef-da06c5c1b789
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], netvista.ril_deactivateperso, rilapi/RIL_DeactivatePerso
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

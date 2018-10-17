@@ -4,7 +4,6 @@ title: DEVICE_DSM_ROUND_UP macro
 author: windows-driver-content
 description: The DEVICE_DSM_ROUND_UP macro is a DSM helper routine that rounds a byte quantity up to a given number of whole bytes.
 ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
-ms.author: windowsdriverdev
 ms.date: 09/20/2018
 ms.topic: macro
 ms.keywords: DEVICE_DSM_ROUND_UP

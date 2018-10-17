@@ -6,11 +6,8 @@ description: An OS callback function the driver calls report all GPU command for
 old-location: display\iddcxswapchainfinishedprocessingframe.htm
 tech.root: display
 ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame method [Display Devices], display.iddcxswapchainfinishedprocessingframe, iddcx/IddCxSwapChainFinishedProcessingFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iddcx.h
 req.include-header: 

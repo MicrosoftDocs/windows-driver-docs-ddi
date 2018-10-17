@@ -6,11 +6,8 @@ description: The PWINDBG_READ_PROCESS_MEMORY_ROUTINE (ReadMemory) function works
 old-location: debugger\readmemory.htm
 tech.root: debugger
 ms.assetid: 36169759-1ee3-4463-a381-67b0277cca25
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: PWINDBG_READ_PROCESS_MEMORY_ROUTINE, PWINDBG_READ_PROCESS_MEMORY_ROUTINE callback, ReadMemory, ReadMemory callback function [Windows Debugging], WdbgExts_Ref_53e869bc-03c9-4818-80fd-ca1bdafe2b96.xml, debugger.readmemory, wdbgexts/ReadMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

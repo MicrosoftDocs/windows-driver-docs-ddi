@@ -6,11 +6,8 @@ description: The NdkRead (NDK_FN_READ) function posts a read request on an NDK q
 old-location: netvista\ndk_fn_read.htm
 tech.root: netvista
 ms.assetid: A6D2C017-0D50-4AD7-9241-110C97F5FE92
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_READ, NDK_FN_READ callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_RDMA_READ_LOCAL_INVALIDATE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkRead, NdkRead callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRead, netvista.ndk_fn_read
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

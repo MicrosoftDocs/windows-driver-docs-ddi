@@ -6,11 +6,8 @@ description: The MSFC_EventBuffer structure is used in conjunction with the GetE
 old-location: storage\msfc_eventbuffer.htm
 tech.root: storage
 ms.assetid: 7d41c092-251e-4f93-b5be-ff989b37196b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSFC_EventBuffer, MSFC_EventBuffer, MSFC_EventBuffer structure [Storage Devices], PMSFC_EventBuffer, PMSFC_EventBuffer structure pointer [Storage Devices], _MSFC_EventBuffer, hbapiwmi/MSFC_EventBuffer, hbapiwmi/PMSFC_EventBuffer, storage.msfc_eventbuffer, structs-Fibre_d89430e7-c05b-4314-946e-fd8e70d938ac.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

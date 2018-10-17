@@ -6,11 +6,8 @@ description: The CLIENT_CONTROLLER_BASIC_INFORMATION structure contains general-
 old-location: gpio\client_controller_basic_information.htm
 tech.root: GPIO
 ms.assetid: CE92249C-99B5-411E-B0D7-C1FF4824949E
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PCLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION structure [Parallel Ports], GPIO.client_controller_basic_information, PCLIENT_CONTROLLER_BASIC_INFORMATION, PCLIENT_CONTROLLER_BASIC_INFORMATION structure pointer [Parallel Ports], _CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/PCLIENT_CONTROLLER_BASIC_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

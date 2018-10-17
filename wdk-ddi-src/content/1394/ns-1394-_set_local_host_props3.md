@@ -6,11 +6,8 @@ description: SET_LOCAL_HOST_PROPS3 contains the data necessary for defining or i
 old-location: ieee\set_local_host_props3.htm
 tech.root: IEEE
 ms.assetid: f49a8b86-5611-4737-9b25-e7446e155bbc
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PSET_LOCAL_HOST_PROPS3, 1394/PSET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, IEEE.set_local_host_props3, PSET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], SET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses], _SET_LOCAL_HOST_PROPS3"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

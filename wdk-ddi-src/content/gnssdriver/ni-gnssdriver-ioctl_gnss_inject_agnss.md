@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_INJECT_AGNSS control code is used by the GNSS adapte
 old-location: gnss\ioctl_gnss_inject_agnss.htm
 tech.root: gnss
 ms.assetid: 68EC4397-1983-4D02-BF6E-599DC987E7E9
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_GNSS_INJECT_AGNSS, IOCTL_GNSS_INJECT_AGNSS control, IOCTL_GNSS_INJECT_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_inject_agnss, gnssdriver/IOCTL_GNSS_INJECT_AGNSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

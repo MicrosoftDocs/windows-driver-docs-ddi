@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgeolocationtypemask.htm
 tech.root: netvista
 ms.assetid: 8d1f6570-adc1-4389-b20b-7c7e05f1c9bf
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILGEOLOCATIONTYPEMASK, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, netvista.rilgeolocationtypemask, ntddrilapitypes/RILGEOLOCATIONTYPEMASK, ntddrilapitypes/RIL_GEOLOCATION_ALL, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, ntddrilapitypes/RIL_GEOLOCATION_LATLONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

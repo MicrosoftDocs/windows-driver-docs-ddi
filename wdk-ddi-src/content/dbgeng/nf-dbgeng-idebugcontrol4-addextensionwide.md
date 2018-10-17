@@ -6,11 +6,8 @@ description: The AddExtensionWide method loads an extension library into the deb
 old-location: debugger\addextensionwide.htm
 tech.root: debugger
 ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AddExtensionWide, AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddExtensionWide method, IDebugControl4.AddExtensionWide, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

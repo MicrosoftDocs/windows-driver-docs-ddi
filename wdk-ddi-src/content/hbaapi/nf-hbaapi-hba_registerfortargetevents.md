@@ -6,11 +6,8 @@ description: The HBA_RegisterForTargetEvents routine registers for target events
 old-location: storage\hba_registerfortargetevents.htm
 tech.root: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HBA_RegisterForTargetEvents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, hbaapi/HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

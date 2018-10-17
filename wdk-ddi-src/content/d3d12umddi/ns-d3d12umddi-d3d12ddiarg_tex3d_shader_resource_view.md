@@ -4,11 +4,8 @@ title: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
 author: windows-driver-content
 description: Describes a three-dimensional (3-D) texture that is used to create a shader resource view.
 ms.assetid: 869a8703-5fe7-42be-bbec-771703f7d843
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: NdisReadRegisterUshort is called by the miniport driver to read a U
 old-location: netvista\ndisreadregisterushort.htm
 tech.root: netvista
 ms.assetid: 0048fb18-8728-4b41-b4e2-5762966d5ed0
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisReadRegisterUshort, NdisReadRegisterUshort macro [Network Drivers Starting with Windows Vista], miniport_register_ref_7eef891a-3f3e-4c42-8165-399555eb018f.xml, ndis/NdisReadRegisterUshort, netvista.ndisreadregisterushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The PoRegisterSystemState routine registers the system as busy due 
 old-location: kernel\poregistersystemstate.htm
 tech.root: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The GetPipeWriteParameters method retrieves parameters that are ass
 old-location: wdf\iwdfusbrequestcompletionparams_getpipewriteparameters.htm
 tech.root: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetPipeWriteParameters, GetPipeWriteParameters method, GetPipeWriteParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetPipeWriteParameters method, IWDFUsbRequestCompletionParams.GetPipeWriteParameters, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h

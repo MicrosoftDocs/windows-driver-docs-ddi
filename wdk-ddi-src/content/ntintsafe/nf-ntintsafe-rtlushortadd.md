@@ -6,11 +6,8 @@ description: Adds two values of type USHORT.
 old-location: kernel\rtlushortadd.htm
 tech.root: kernel
 ms.assetid: 07167C7E-E8EB-41E3-B2E3-7B9E9CCC5465
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlUShortAdd, RtlUShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlushortadd, ntintsafe/RtlUShortAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

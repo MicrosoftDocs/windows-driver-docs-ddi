@@ -6,11 +6,8 @@ description: The PMI_BUDGETING_CONFIGURATION structure contains information abou
 old-location: powermeter\pmi_budgeting_configuration.htm
 tech.root: powermeter
 ms.assetid: f9c3c289-30b8-4cec-8c38-198d1ba3d8ae
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, _PMI_BUDGETING_CONFIGURATION, pmi/PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pmi.h
 req.include-header: Pmi.h

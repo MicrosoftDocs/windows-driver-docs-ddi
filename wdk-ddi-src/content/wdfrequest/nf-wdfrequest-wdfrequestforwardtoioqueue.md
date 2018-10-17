@@ -6,11 +6,8 @@ description: The WdfRequestForwardToIoQueue method requeues an I/O request to on
 old-location: wdf\wdfrequestforwardtoioqueue.htm
 tech.root: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, WdfRequestForwardToIoQueue, WdfRequestForwardToIoQueue method, kmdf.wdfrequestforwardtoioqueue, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

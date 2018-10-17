@@ -6,11 +6,8 @@ description: The SPB_TRANSFER_LIST_INIT function initializes an SPB_TRANSFER_LIS
 old-location: spb\spb_transfer_list_init.htm
 tech.root: SPB
 ms.assetid: 7FFFB495-7E6A-465C-AE93-B62957179531
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spb.h
 req.include-header: 

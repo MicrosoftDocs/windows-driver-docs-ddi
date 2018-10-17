@@ -6,11 +6,8 @@ description: The AACS_CERTIFICATE structure contains a cryptographically random 
 old-location: storage\aacs_certificate.htm
 tech.root: storage
 ms.assetid: 591d8f63-ab3e-48b7-8fe4-98dcdf9464f1
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PAACS_CERTIFICATE, AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], _AACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE, storage.aacs_certificate, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

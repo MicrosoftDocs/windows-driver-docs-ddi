@@ -6,11 +6,8 @@ description: Sets the pre-imported driver package path.
 old-location: dtf\iwdtfdriverpackageaction2_setpackageinffilename.htm
 tech.root: dtf
 ms.assetid: 68c2005e-c54b-413e-955a-864a05b23f4e
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],SetPackageInfFileName method, IWDTFDriverPackageAction2.SetPackageInfFileName, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriverpackageaction.h
 req.include-header: 

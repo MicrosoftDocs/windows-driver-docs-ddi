@@ -4,11 +4,8 @@ title: PFND3D12DDI_INITIALIZE_META_COMMAND_0052
 author: windows-driver-content
 description: Initializes a meta-command.
 ms.assetid: e06b223d-11b6-4bbe-a2a0-af69c7e3ed3e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -4,7 +4,6 @@ title: IDebugHostModule2::QueryInterface
 author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 60004b8b-1899-4811-aff0-f83f661e87d2
-ms.author: windowsdriverdev
 ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostModule2::QueryInterface, QueryInterface, IDebugHostModule2.QueryInterface, IDebugHostModule2::QueryInterface, IDebugHostModule2.QueryInterface

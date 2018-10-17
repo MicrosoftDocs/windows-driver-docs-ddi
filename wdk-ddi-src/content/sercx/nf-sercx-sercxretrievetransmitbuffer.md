@@ -6,11 +6,8 @@ description: The SerCxRetrieveTransmitBuffer method obtains an output buffer tha
 old-location: serports\sercxretrievetransmitbuffer.htm
 tech.root: serports
 ms.assetid: 64494AB9-6F7F-4374-9081-8D65BA7D34E1
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 1/SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer method [Serial Ports], serports.sercxretrievetransmitbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

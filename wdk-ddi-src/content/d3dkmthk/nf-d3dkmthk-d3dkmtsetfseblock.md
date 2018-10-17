@@ -4,7 +4,6 @@ title: D3DKMTSetFSEBlock function
 author: windows-driver-content
 description: Sets FSE block.
 ms.assetid: cd4f0f39-21f6-4c38-a396-2385b03ffb65
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTSetFSEBlock

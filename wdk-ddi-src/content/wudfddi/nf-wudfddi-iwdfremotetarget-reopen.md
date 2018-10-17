@@ -6,11 +6,8 @@ description: The Reopen method reopens a remote I/O target after it has been tem
 old-location: wdf\iwdfremotetarget_reopen.htm
 tech.root: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFRemoteTarget interface,Reopen method, IWDFRemoteTarget.Reopen, IWDFRemoteTarget::Reopen, Reopen, Reopen method, Reopen method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

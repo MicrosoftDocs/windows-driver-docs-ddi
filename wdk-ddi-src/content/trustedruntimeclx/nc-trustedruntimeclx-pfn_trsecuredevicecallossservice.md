@@ -4,11 +4,8 @@ title: *PFN_TRSECUREDEVICECALLOSSSERVICE
 author: windows-driver-content
 description: 
 ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

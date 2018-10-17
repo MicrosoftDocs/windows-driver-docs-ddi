@@ -4,12 +4,9 @@ title: D3D12DDI_SERIALIZED_DATA_TYPE
 author: windows-driver-content
 description: Specifies the type of serialized data.
 ms.assetid: 6e0bea68-e229-4932-b5ae-43e00c1e8c9d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_SERIALIZED_DATA_TYPE, D3D12DDI_SERIALIZED_DATA_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

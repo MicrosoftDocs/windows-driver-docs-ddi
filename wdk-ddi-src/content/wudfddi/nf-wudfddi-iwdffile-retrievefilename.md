@@ -6,11 +6,8 @@ description: The RetrieveFileName method retrieves the full name of the file tha
 old-location: wdf\iwdffile_retrievefilename.htm
 tech.root: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFFile interface,RetrieveFileName method, IWDFFile.RetrieveFileName, IWDFFile::RetrieveFileName, RetrieveFileName, RetrieveFileName method, RetrieveFileName method,IWDFFile interface, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, umdf.iwdffile_retrievefilename, wdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

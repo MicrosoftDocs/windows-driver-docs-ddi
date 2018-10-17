@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetPacketGetPacketChecksum method retrieves checksum information for a packet.
 tech.root: netvista
 ms.assetid: 75774f8a-eeea-4bcd-a15b-2d28a7938e42
-ms.author: windowsdriverdev
 ms.date: 03/02/2018
 ms.topic: function
 ms.keywords: NetPacketGetPacketChecksum

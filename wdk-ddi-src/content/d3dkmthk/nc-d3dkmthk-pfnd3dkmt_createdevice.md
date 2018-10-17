@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTCreateDevice function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatedevice.htm
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTCreateDevice, D3DKMTCreateDevice callback function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, PFND3DKMT_CREATEDEVICE callback, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

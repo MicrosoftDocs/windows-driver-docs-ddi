@@ -6,11 +6,8 @@ description: FltReleaseFileNameInformation releases a file name information stru
 old-location: ifsk\fltreleasefilenameinformation.htm
 tech.root: ifsk
 ms.assetid: 352dbab6-76c3-4e67-a226-4c3d83fbb3b6
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_c5266e1d-ab6a-406d-a319-2e9cc2f1acb4.xml, FltReleaseFileNameInformation, FltReleaseFileNameInformation function [Installable File System Drivers], fltkernel/FltReleaseFileNameInformation, ifsk.fltreleasefilenameinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

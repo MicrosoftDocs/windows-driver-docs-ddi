@@ -6,11 +6,8 @@ description: The IDE_LBA_RANGE structure is used by the port driver to provide t
 old-location: storage\ide_lba_range.htm
 tech.root: storage
 ms.assetid: 2d823d9c-7328-44e2-9ba2-22967471ef68
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PIDE_LBA_RANGE, IDE_LBA_RANGE, IDE_LBA_RANGE structure [Storage Devices], PIDE_LBA_RANGE, PIDE_LBA_RANGE structure pointer [Storage Devices], _IDE_LBA_RANGE, irb/IDE_LBA_RANGE, irb/PIDE_LBA_RANGE, storage.ide_lba_range, structs-ATA_0abd91d5-18f0-49c9-b5de-ac442718da3f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: irb.h
 req.include-header: Irb.h

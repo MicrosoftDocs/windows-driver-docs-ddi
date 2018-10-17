@@ -6,11 +6,8 @@ description: Called by a Windows Display Driver Model (WDDM) 1.2 or later displa
 old-location: display\DxgkCbAcquirePostDisplayOwnership.htm
 tech.root: display
 ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

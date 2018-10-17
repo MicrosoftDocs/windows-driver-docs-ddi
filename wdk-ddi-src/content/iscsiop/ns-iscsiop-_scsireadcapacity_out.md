@@ -6,11 +6,8 @@ description: The ScsiReadCapacity_OUT structure holds the output data for the Sc
 old-location: storage\scsireadcapacity_out.htm
 tech.root: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, iscsiop/PScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT, storage.scsireadcapacity_out, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

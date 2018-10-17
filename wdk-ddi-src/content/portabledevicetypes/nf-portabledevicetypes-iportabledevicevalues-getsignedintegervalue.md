@@ -6,11 +6,8 @@ description: Retrieves a LONG value (type VT_I4) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getsignedintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: 4867effa-a471-498f-9b06-e66204fa139c
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetSignedIntegerValue, GetSignedIntegerValue method, GetSignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedIntegerValue method, IPortableDeviceValues.GetSignedIntegerValue, IPortableDeviceValues::GetSignedIntegerValue, IPortableDeviceValuesGetSignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedIntegerValue, wpddk.iportabledevicevalues_getsignedintegervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

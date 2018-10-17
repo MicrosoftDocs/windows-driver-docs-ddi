@@ -6,11 +6,8 @@ description: The SpbDeviceInitialize method completes the initialization of the 
 old-location: spb\spbdeviceinitialize.htm
 tech.root: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], spbcx/SpbDeviceInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

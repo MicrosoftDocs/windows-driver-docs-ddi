@@ -6,11 +6,8 @@ description: This structure defines the response expected from the GNSS engine w
 old-location: gnss\gnss_geofence_create_response.htm
 tech.root: gnss
 ms.assetid: D832B534-34E2-402F-833A-C072007E3106
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_RESPONSE, PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices], gnss.gnss_geofence_create_response, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gnssdriver.h
 req.include-header: 

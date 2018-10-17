@@ -6,11 +6,8 @@ description: A PSHED plug-in's FinalizeErrorRecord callback function adds supple
 old-location: whea\finalizeerrorrecord.htm
 tech.root: whea
 ms.assetid: 68461243-ddf4-4883-84d2-4c105f1634b2
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: FinalizeErrorRecord, FinalizeErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_FINALIZE_ERROR_RECORD, PSHED_PI_FINALIZE_ERROR_RECORD callback, ntddk/FinalizeErrorRecord, whea.finalizeerrorrecord, whearef_fac1a23e-6b56-4b04-8930-e5f12f5c84a8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: Ntddk.h

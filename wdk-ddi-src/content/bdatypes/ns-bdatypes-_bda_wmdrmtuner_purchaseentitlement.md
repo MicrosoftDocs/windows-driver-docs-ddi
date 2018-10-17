@@ -6,11 +6,8 @@ description:
 old-location: stream\bda_wmdrmtuner_purchaseentitlement.htm
 tech.root: stream
 ms.assetid: 348E7C25-4998-490E-A732-5780B0A21DE0
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices], PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT, bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, stream.bda_wmdrmtuner_purchaseentitlement"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: 

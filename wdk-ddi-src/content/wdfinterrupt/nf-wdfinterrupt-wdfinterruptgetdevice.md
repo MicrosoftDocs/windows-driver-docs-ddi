@@ -6,11 +6,8 @@ description: The WdfInterruptGetDevice method returns a handle to the framework 
 old-location: wdf\wdfinterruptgetdevice.htm
 tech.root: wdf
 ms.assetid: c1e7a9ce-5794-4ed0-bb30-e3e68b0251db
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, WdfInterruptGetDevice, WdfInterruptGetDevice method, kmdf.wdfinterruptgetdevice, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, 
 old-location: parports\ioctl_par_query_raw_device_id.htm
 tech.root: parports
 ms.assetid: 3d7b99ea-eb53-4466-bd98-15c147c00d35
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_PAR_QUERY_RAW_DEVICE_ID, IOCTL_PAR_QUERY_RAW_DEVICE_ID control code [Parallel Ports], cisspd_422dd85c-1d22-4968-9b4c-fd1ef03432e5.xml, ntddpar/IOCTL_PAR_QUERY_RAW_DEVICE_ID, parports.ioctl_par_query_raw_device_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h

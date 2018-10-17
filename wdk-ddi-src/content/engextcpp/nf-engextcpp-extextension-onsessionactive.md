@@ -6,11 +6,8 @@ description: The OnSessionActive method is called by the engine to inform the En
 old-location: debugger\onsessionactive.htm
 tech.root: debugger
 ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension class [Windows Debugging],OnSessionActive method, ExtExtension.OnSessionActive, ExtExtension::OnSessionActive, OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging],ExtExtension class, debugger.onsessionactive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

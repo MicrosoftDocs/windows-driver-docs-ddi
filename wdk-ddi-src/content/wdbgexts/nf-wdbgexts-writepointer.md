@@ -6,11 +6,8 @@ description: The WritePointer function writes a pointer to the target.
 old-location: debugger\writepointer.htm
 tech.root: debugger
 ms.assetid: 5f3d6cd6-e138-4114-8fac-03cbe1c7aa68
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml, WritePointer, WritePointer function [Windows Debugging], debugger.writepointer, wdbgexts/WritePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

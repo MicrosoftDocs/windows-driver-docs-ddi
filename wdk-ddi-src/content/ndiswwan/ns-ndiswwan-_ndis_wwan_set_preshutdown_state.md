@@ -6,11 +6,8 @@ description: The NDIS_WWAN_SET_PRESHUTDOWN_STATE structure represents the comman
 old-location: netvista\ndis_wwan_set_preshutdown_state.htm
 tech.root: netvista
 ms.assetid: B1DC847C-B596-452D-B96E-3B78C6F995B2
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_SET_PRESHUTDOWN_STATE, NDIS_WWAN_SET_PRESHUTDOWN_STATE, NDIS_WWAN_SET_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PRESHUTDOWN_STATE, PNDIS_WWAN_SET_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_SET_PRESHUTDOWN_STATE, ndiswwan/PNDIS_WWAN_SET_PRESHUTDOWN_STATE, netvista.ndis_wwan_set_preshutdown_state"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h

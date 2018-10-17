@@ -6,11 +6,8 @@ description: The IoIsFileOriginRemote routine determines whether a given file ob
 old-location: ifsk\ioisfileoriginremote.htm
 tech.root: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], ifsk.ioisfileoriginremote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ntddk/IoIsFileOriginRemote
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h

@@ -4,11 +4,8 @@ title: _BDA_ISDBCAS_EMG_REQ
 author: windows-driver-content
 description: 
 ms.assetid: 2efa8fa9-88fd-4378-b860-264be6121262
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _BDA_ISDBCAS_EMG_REQ, BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ, 
 req.header: bdatypes.h
 req.include-header:

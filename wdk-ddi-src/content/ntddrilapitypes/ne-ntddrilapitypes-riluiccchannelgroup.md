@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccchannelgroup.htm
 tech.root: netvista
 ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

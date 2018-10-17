@@ -6,11 +6,8 @@ description: The WdfObjectAcquireLock method acquires an object's synchronizatio
 old-location: wdf\wdfobjectacquirelock.htm
 tech.root: wdf
 ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
-ms.author: windowsdriverdev
 ms.date: 1/11/2018
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfsync.h
 req.include-header: Wdf.h

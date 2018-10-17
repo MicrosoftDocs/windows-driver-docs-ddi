@@ -6,11 +6,8 @@ description: Gets an asynchronous PrintTicket commit operation context.
 old-location: print\iprintschematicket_commitasync.htm
 tech.root: print
 ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: CommitAsync, CommitAsync method [Print Devices], CommitAsync method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],CommitAsync method, IPrintSchemaTicket.CommitAsync, IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

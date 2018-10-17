@@ -6,11 +6,8 @@ description: The SerCx2SystemDmaReceiveNewDataNotification method notifies versi
 old-location: serports\sercx2systemdmareceivenewdatanotification.htm
 tech.root: serports
 ms.assetid: 9ECC15F2-9D08-4EEF-ADBD-612D8D1B5B72
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], serports.sercx2systemdmareceivenewdatanotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The SeSetSecurityDescriptorInfoEx routine modifies an object's secu
 old-location: ifsk\sesetsecuritydescriptorinfoex.htm
 tech.root: ifsk
 ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

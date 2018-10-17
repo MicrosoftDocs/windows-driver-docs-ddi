@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYALLOCATIONRESIDENCY
 author: windows-driver-content
 description: The PFND3DKMT_QUERYALLOCATIONRESIDENCY callback function retrieves the residency status of a resource or list of allocations.
 ms.assetid: 3648f3f2-bb95-44af-9dc1-ee169cc03dfc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The FwpsInjectionHandleCreate0 function creates a handle that can b
 old-location: netvista\fwpsinjectionhandlecreate0.htm
 tech.root: netvista
 ms.assetid: 61cee8ef-1070-46d4-a541-94a9f09b593b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0, netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

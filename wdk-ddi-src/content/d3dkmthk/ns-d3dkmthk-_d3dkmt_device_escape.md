@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Do not use the D3DKMT_DEVICE_ESCAPE structure or D3DKMT_DEVICEESCAPE_TYPE enumeration. They are for testing purposes only. The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_device_escape.htm
 ms.assetid: 274bdd80-e898-42c7-8adc-8eae4e895b5f
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMT_DEVICE_ESCAPE, D3DKMT_DEVICE_ESCAPE structure [Display Devices], OpenGL_Structs_38febe04-ae75-475a-ab69-81995acb567b.xml, _D3DKMT_DEVICE_ESCAPE, d3dkmthk/D3DKMT_DEVICE_ESCAPE, display.d3dkmt_device_escape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

@@ -4,11 +4,8 @@ title: PFND3D12DDI_SET_PIPELINE_STATE1_0054
 author: windows-driver-content
 description: Sets the pipeline state.
 ms.assetid: 762c6ecc-061f-40ae-bcf6-7c7b527da106
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

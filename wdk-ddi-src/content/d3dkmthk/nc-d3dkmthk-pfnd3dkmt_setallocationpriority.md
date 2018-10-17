@@ -4,11 +4,8 @@ title: PFND3DKMT_SETALLOCATIONPRIORITY
 author: windows-driver-content
 description: The PFND3DKMT_SETALLOCATIONPRIORITY callback function sets the priority level of a resource or list of allocations.
 ms.assetid: 4cdabc99-d898-449c-b27e-cfd7a7363b54
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: Exposes a Print Schema Option object.
 old-location: print\iprintschemaoption_interface.htm
 tech.root: print
 ms.assetid: B520875A-7882-43D5-A890-0F82654EFD6C
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], IPrintSchemaOption interface [Print Devices],described, print.iprintschemaoption_interface, printerextension/IPrintSchemaOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

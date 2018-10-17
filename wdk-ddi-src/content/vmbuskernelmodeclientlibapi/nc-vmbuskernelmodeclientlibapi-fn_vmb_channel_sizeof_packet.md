@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSizeofPacket function calculates the necessary size for buffers to be used with the VmbPacketInitialize function.
 tech.root: netvista
 ms.assetid: 05f275dd-cde2-425f-ac13-57b11c8affdf
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

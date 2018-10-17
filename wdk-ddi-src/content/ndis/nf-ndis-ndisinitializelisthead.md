@@ -6,11 +6,8 @@ description: The NdisInitializeListHead function initializes a doubly linked, dr
 old-location: netvista\ndisinitializelisthead.htm
 tech.root: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The PCEVENT_ITEM structure is used to describe an event that is sup
 old-location: audio\pcevent_item.htm
 tech.root: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
-ms.author: windowsdriverdev
 ms.date: 12/14/2017
 ms.keywords: PCEVENT_ITEM structure [Audio Devices], *PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PPCEVENT_ITEM, audio.pcevent_item, portcls/PCEVENT_ITEM, PCEVENT_ITEM, PPCEVENT_ITEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h

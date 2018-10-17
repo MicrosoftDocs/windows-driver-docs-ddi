@@ -6,11 +6,8 @@ description: The SerCx2InitializeDeviceInit method enables version 2 of the seri
 old-location: serports\sercx2initializedeviceinit.htm
 tech.root: serports
 ms.assetid: E63B234D-07B7-467D-A13B-157781513F22
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit method [Serial Ports], serports.sercx2initializedeviceinit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

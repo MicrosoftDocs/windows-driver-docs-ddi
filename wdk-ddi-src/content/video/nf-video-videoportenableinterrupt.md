@@ -6,11 +6,8 @@ description: The VideoPortEnableInterrupt function is obsolete and should not be
 old-location: display\videoportenableinterrupt.htm
 tech.root: display
 ms.assetid: d40b0bc6-fad0-4c83-b1ca-c5105112ae2d
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, video/VideoPortEnableInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

@@ -6,11 +6,8 @@ description:
 old-location: print\shimopts.htm
 tech.root: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PSHIMOPTS, PSHIMOPTS, PSHIMOPTS enumeration pointer [Print Devices], PTSHIM_DEFAULT, PTSHIM_NOSNAPSHOT, SHIMOPTS, SHIMOPTS enumeration [Print Devices], prdrvcom/PSHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/SHIMOPTS, print.shimopts, tagSHIMOPTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: prdrvcom.h
 req.include-header: 

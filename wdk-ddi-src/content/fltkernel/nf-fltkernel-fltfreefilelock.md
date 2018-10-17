@@ -6,11 +6,8 @@ description: The FltFreeFileLock routine uninitializes and frees an initialized 
 old-location: ifsk\fltfreefilelock.htm
 tech.root: ifsk
 ms.assetid: bcf2ac97-0aa2-4464-a045-b98866351243
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_823e2511-8afe-4151-bbac-a9481c079068.xml, FltFreeFileLock, FltFreeFileLock routine [Installable File System Drivers], fltkernel/FltFreeFileLock, ifsk.fltfreefilelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

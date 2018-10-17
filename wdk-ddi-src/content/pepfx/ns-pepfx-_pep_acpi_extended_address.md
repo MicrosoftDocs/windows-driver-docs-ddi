@@ -6,11 +6,8 @@ description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource 
 old-location: kernel\pep_acpi_extended_address.htm
 tech.root: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_EXTENDED_ADDRESS, 0 - Consumer/Producer flag, 0 - Write status, 0 to 1 - Range, 0 to 7 - Reserved, 1 - Decode type, 1 to 2 - Memory attributes (MEM), 2 - Minimum address fixed, 2 to 3 - Reserved, 3 - Max address fixed, 3 to 4 - Memory attributes (MTP), 4 - IO to memory translation, 4 to 7 - Reserved, 5 - Memory to IO translation, 5 - Sparse translation, 6 to 7 - Reserved, PEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, kernel.pep_acpi_extended_address, pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h

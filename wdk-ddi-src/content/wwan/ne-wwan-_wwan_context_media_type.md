@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_CONTEXT_MEDIA_TYPE enumeration specifies the type of media supported for a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 1ec0496c-61a8-4148-9a13-6964f68555cb
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: enum
 ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wwan.h
 req.include-header:
 req.target-type:

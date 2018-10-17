@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The MBB_DEVICE_CONFIG structure contains pointers to a client driver's MBBCx-specific callback functions. The client driver must supply an initialized MBB_DEVICE_CONFIG structure as an input parameter to MbbDeviceInitialize.
 tech.root: netvista
 ms.assetid: cfe5c009-9245-4d41-992d-5cc5ce2ab711
-ms.author: windowsdriverdev
 ms.date: 07/02/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _MBB_DEVICE_CONFIG, MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG, 
 req.header: mbbcx.h
 req.include-header:

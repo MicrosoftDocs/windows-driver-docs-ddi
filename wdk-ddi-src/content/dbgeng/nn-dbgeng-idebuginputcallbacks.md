@@ -6,11 +6,8 @@ description: IDebugInputCallbacks interface
 old-location: debugger\idebuginputcallbacks.htm
 tech.root: debugger
 ms.assetid: 2122d970-1d1c-4ef0-b8f7-92ef6e4f0731
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComCallbacks_9dd6d3d2-e92d-41bc-8276-fa8b7818a372.xml, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging],described, dbgeng/IDebugInputCallbacks, debugger.idebuginputcallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

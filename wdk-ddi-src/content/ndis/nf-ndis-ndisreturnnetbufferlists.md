@@ -6,11 +6,8 @@ description: NDIS drivers call the NdisReturnNetBufferLists function to release 
 old-location: netvista\ndisreturnnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 1a45bc5c-cdc1-46d2-905b-3d5eea3645c1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisReturnNetBufferLists, NdisReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisReturnNetBufferLists, ndis_sendrcv_ref_9c5a4908-356f-4e7c-9351-4fec4358180d.xml, netvista.ndisreturnnetbufferlists
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

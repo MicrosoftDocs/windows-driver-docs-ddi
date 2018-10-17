@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_COMMAND_RECORDER_0040
 author: windows-driver-content
 description: Create a command to start recording data.
 ms.assetid: 24492843-f40e-4761-b5a5-fe904aafb710
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

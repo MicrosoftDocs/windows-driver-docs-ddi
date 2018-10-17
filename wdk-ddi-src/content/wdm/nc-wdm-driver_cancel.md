@@ -6,11 +6,8 @@ description: The Cancel routine cancels an I/O operation.
 old-location: kernel\cancel.htm
 tech.root: kernel
 ms.assetid: 3e8053b7-a063-4143-a02d-35d917ca1e81
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: Cancel, Cancel routine [Kernel-Mode Driver Architecture], DRIVER_CANCEL, DrvrRtns_790a0e91-0752-42ac-a5f0-4fee193765f0.xml, kernel.cancel, wdm/Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

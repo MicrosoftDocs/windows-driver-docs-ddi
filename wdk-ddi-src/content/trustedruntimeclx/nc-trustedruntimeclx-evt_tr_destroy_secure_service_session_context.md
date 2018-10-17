@@ -4,11 +4,8 @@ title: EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
 author: windows-driver-content
 description: 
 ms.assetid: 38424b3b-880a-46e6-b4f8-1f364528c0a9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

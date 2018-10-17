@@ -6,11 +6,8 @@ description: The CsqReleaseLock routine is used by the system to release the loc
 old-location: kernel\csqreleaselock.htm
 tech.root: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

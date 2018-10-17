@@ -6,11 +6,8 @@ description: The WdfMemoryCreate method creates a framework memory object and al
 old-location: wdf\wdfmemorycreate.htm
 tech.root: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfmemory.h
 req.include-header: Wdf.h

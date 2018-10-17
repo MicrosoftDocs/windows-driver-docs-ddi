@@ -6,11 +6,8 @@ description: The request indicates that the virtualization stack wants to be not
 old-location: pci\ioctl-sriov-notification.htm
 tech.root: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pcivirt.h
 req.include-header:

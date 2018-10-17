@@ -6,11 +6,8 @@ description: The WskAccept function accepts an incoming connection on a listenin
 old-location: netvista\wskaccept.htm
 tech.root: netvista
 ms.assetid: 9fa8bb07-7ee5-400b-aaca-33db3911d79f
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_ACCEPT, PFN_WSK_ACCEPT callback, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

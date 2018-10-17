@@ -4,11 +4,8 @@ title: IOMMU_QUERY_INPUT_MAPPINGS
 author: windows-driver-content
 description: Attempts to find input mapping IDs which are valid for the given device and populate the provied buffer with those IDs.
 ms.assetid: 5664ad95-31b2-4457-9aab-ecf3768eec69
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

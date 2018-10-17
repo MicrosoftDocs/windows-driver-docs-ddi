@@ -6,11 +6,8 @@ description: The WdfIoTargetSendInternalIoctlSynchronously method builds an inte
 old-location: wdf\wdfiotargetsendinternalioctlsynchronously.htm
 tech.root: wdf
 ms.assetid: 4028b259-a157-4e50-b1a2-25da3050cced
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFIOTargetRef_c318553e-1a21-444e-b8e0-de4a1f17b98f.xml, WdfIoTargetSendInternalIoctlSynchronously, WdfIoTargetSendInternalIoctlSynchronously method, kmdf.wdfiotargetsendinternalioctlsynchronously, wdf.wdfiotargetsendinternalioctlsynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

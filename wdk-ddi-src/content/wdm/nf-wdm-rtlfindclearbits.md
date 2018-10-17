@@ -6,11 +6,8 @@ description: The RtlFindClearBits routine searches for a range of clear bits of 
 old-location: kernel\rtlfindclearbits.htm
 tech.root: kernel
 ms.assetid: 5279d126-8fd3-43dd-be03-2134e46a3ef9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml, kernel.rtlfindclearbits, wdm/RtlFindClearBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

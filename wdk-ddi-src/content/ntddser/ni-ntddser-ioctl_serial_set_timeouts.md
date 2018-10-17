@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_SET_TIMEOUTS request sets the time-out values that
 old-location: serports\ioctl_serial_set_timeouts.htm
 tech.root: serports
 ms.assetid: c73627e1-12fc-465d-9ed9-d241a1c0db8e
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_SERIAL_SET_TIMEOUTS, IOCTL_SERIAL_SET_TIMEOUTS control, IOCTL_SERIAL_SET_TIMEOUTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_TIMEOUTS, serports.ioctl_serial_set_timeouts, serref_5aac4101-9b7e-4bff-a61c-108ef9cb76f3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h

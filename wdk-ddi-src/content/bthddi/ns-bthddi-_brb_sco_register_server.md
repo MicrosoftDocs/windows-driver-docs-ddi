@@ -6,11 +6,8 @@ description: A profile driver uses the _BRB_SCO_REGISTER_SERVER structure to reg
 old-location: bltooth\_brb_sco_register_server.htm
 tech.root: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bthddi/_BRB_SCO_REGISTER_SERVER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

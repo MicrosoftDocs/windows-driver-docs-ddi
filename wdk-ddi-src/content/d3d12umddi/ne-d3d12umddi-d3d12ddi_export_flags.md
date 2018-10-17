@@ -4,12 +4,9 @@ title: D3D12DDI_EXPORT_FLAGS
 author: windows-driver-content
 description: The type of export flags.
 ms.assetid: 45950c2a-cfbe-4dd0-bcd2-16ce7ca0dbf0
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_EXPORT_FLAGS, D3D12DDI_EXPORT_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

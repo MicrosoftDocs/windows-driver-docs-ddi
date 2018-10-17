@@ -6,11 +6,8 @@ description: One D3DHAL_DP2TRIANGLESTRIP structure is parsed from the command bu
 old-location: display\d3dhal_dp2trianglestrip.htm
 tech.root: display
 ms.assetid: dfa4f6c3-b174-4bd5-9729-6d835bb87b6a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP structure [Display Devices], LPD3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP structure pointer [Display Devices], _D3DHAL_DP2TRIANGLESTRIP, d3dhal/D3DHAL_DP2TRIANGLESTRIP, d3dhal/LPD3DHAL_DP2TRIANGLESTRIP, d3dstrct_01322dae-8b16-4631-ac3d-f65c5d31c5a3.xml, display.d3dhal_dp2trianglestrip"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

@@ -6,11 +6,8 @@ description: RxPrepareContextForReuse prepares an RX_CONTEXT data structure for 
 old-location: ifsk\rxpreparecontextforreuse.htm
 tech.root: ifsk
 ms.assetid: 16b4bd82-0ffc-40c7-8cd2-f73a2a588ac8
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxPrepareContextForReuse, RxPrepareContextForReuse function [Installable File System Drivers], ifsk.rxpreparecontextforreuse, rxcontx/RxPrepareContextForReuse, rxref_34eae0cd-faff-47e7-8313-aca1361edc68.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h

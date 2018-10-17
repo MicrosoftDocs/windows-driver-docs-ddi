@@ -6,11 +6,8 @@ description: This enumeration indicates the type of location fix needed by the G
 old-location: gnss\gnss_fixsessiontype.htm
 tech.root: gnss
 ms.assetid: CE611168-76B3-496F-91C7-932E1F259529
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_ContinuousTracking, GNSS_FixSession_DistanceTracking, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, gnss.gnss_fixsessiontype, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gnssdriver.h
 req.include-header: 

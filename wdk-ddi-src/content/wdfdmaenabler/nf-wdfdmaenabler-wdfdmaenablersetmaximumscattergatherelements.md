@@ -6,11 +6,8 @@ description: The WdfDmaEnablerSetMaximumScatterGatherElements method sets the ma
 old-location: wdf\wdfdmaenablersetmaximumscattergatherelements.htm
 tech.root: wdf
 ms.assetid: fdfcb8bc-bc42-4c34-ae19-b40401bea41e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, WdfDmaEnablerSetMaximumScatterGatherElements, WdfDmaEnablerSetMaximumScatterGatherElements method, kmdf.wdfdmaenablersetmaximumscattergatherelements, wdf.wdfdmaenablersetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h

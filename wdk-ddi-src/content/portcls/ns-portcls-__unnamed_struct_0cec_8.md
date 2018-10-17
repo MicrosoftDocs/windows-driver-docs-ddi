@@ -6,11 +6,8 @@ description: The PCNODE_DESCRIPTOR structure describes a node in the filter that
 old-location: audio\pcnode_descriptor.htm
 tech.root: audio
 ms.assetid: e83051ca-07fa-439d-8b0f-cbe6d84679a7
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: audio.pcnode_descriptor, PCNODE_DESCRIPTOR structure [Audio Devices], portcls/PPCNODE_DESCRIPTOR, audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, PCNODE_DESCRIPTOR, *PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], PPCNODE_DESCRIPTOR, portcls/PCNODE_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h

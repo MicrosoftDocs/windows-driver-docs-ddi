@@ -6,11 +6,8 @@ description: The UntranslatedList method returns the list of untranslated resour
 old-location: audio\iresourcelist_untranslatedlist.htm
 tech.root: audio
 ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IResourceList interface [Audio Devices],UntranslatedList method, IResourceList.UntranslatedList, IResourceList::UntranslatedList, UntranslatedList, UntranslatedList method [Audio Devices], UntranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

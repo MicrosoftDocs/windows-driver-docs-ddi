@@ -6,11 +6,8 @@ description: Writes a string property.
 old-location: print\iprinterscriptablepropertybag_setstring.htm
 tech.root: print
 ms.assetid: 9B4EBCA4-8370-4F00-9853-6EE8408367BE
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetString method, IPrinterScriptablePropertyBag.SetString, IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, printerextension/IPrinterScriptablePropertyBag::SetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

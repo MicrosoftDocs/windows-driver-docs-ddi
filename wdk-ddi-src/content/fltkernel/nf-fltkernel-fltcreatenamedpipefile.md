@@ -6,11 +6,8 @@ description: Minifilter drivers call FltCreateNamedPipeFile to create a new pipe
 old-location: ifsk\fltcreatenamedpipefile.htm
 tech.root: ifsk
 ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

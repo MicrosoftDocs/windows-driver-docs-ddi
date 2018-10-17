@@ -4,7 +4,6 @@ title: operator+ function
 author: windows-driver-content
 description: The addition operator for the location function.
 ms.assetid: 1e19ed69-4afb-4e43-9dc7-912e7f89001d
-ms.author: windowsdriverdev
 ms.date: 09/28/2018 
 ms.topic: function
 ms.keywords: operator+

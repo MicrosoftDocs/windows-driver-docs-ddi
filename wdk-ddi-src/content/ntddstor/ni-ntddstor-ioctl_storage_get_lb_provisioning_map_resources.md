@@ -6,11 +6,8 @@ description: The IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request is sent
 old-location: storage\ioctl_storage_get_lb_provisioning_map_resources.htm
 tech.root: storage
 ms.assetid: 117F6507-CA52-4EA7-9633-75ADB19F4DDA
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, storage.ioctl_storage_get_lb_provisioning_map_resources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

@@ -6,11 +6,8 @@ description: The OnCleanupFile method cancels all I/O requests that a driver has
 old-location: wdf\ifilecallbackcleanup_oncleanupfile.htm
 tech.root: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IFileCallbackCleanup interface,OnCleanupFile method, IFileCallbackCleanup.OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, OnCleanupFile method, OnCleanupFile method,IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

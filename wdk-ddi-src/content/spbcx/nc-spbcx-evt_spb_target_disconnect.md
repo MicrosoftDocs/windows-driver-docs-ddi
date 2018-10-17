@@ -6,11 +6,8 @@ description: An SPB controller driver's EvtSpbTargetDisconnect event callback fu
 old-location: spb\evtspbtargetdisconnect.htm
 tech.root: SPB
 ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: spbcx.h
 req.include-header: 

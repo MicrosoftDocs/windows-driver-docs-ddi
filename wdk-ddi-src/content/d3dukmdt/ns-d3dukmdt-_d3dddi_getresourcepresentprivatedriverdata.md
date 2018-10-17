@@ -6,11 +6,8 @@ description: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA is used with pfnGetResou
 old-location: display\d3dddi_getresourcepresentprivatedriverdata.htm
 tech.root: display
 ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h

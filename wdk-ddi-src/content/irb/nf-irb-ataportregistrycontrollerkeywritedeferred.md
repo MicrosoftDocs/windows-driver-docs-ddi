@@ -6,11 +6,8 @@ description: The AtaPortRegistryControllerKeyWriteDeferred routine writes the da
 old-location: storage\ataportregistrycontrollerkeywritedeferred.htm
 tech.root: storage
 ms.assetid: f4297e91-06ae-4c7a-87bc-12e3f5b0238c
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortRegistryControllerKeyWriteDeferred, AtaPortRegistryControllerKeyWriteDeferred routine [Storage Devices], atartns_cd43ce27-787a-4ffb-99d5-de7f410c4b32.xml, irb/AtaPortRegistryControllerKeyWriteDeferred, storage.ataportregistrycontrollerkeywritedeferred
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

@@ -6,11 +6,8 @@ description: Provides feedback on the engine's use of the runtime debugging APIs
 old-location: debugger\idebugcontrol4_getmanagedstatus.htm
 tech.root: debugger
 ms.assetid: C2D32ABB-5ABE-4580-9577-1144569EA8E1
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetManagedStatus, GetManagedStatus method [Windows Debugging], GetManagedStatus method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetManagedStatus method, IDebugControl4.GetManagedStatus, IDebugControl4::GetManagedStatus, dbgeng/IDebugControl4::GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

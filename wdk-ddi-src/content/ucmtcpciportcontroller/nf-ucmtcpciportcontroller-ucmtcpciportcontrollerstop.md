@@ -6,11 +6,8 @@ description: Indicates to the UcmTcpciCx class extension to stop sending hardwar
 old-location: buses\ucmtcpciportcontrollerstop.htm
 tech.root: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmtcpciportcontroller.h
 req.include-header: 

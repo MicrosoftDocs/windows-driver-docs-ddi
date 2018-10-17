@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to create a protected session.
 old-location: display\dxgkarg_createprotectedsession.htm
 ms.assetid: 37A9A957-344F-48F6-93DE-D81DE5C20076
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION structure [Display Devices], _DXGKARG_CREATEPROTECTEDSESSION, d3dkmddi/DXGKARG_CREATEPROTECTEDSESSION, display.dxgkarg_createprotectedsession"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 

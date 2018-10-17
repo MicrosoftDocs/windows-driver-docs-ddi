@@ -4,11 +4,8 @@ title: PFND3DKMT_CREATECONTEXTVIRTUAL
 author: windows-driver-content
 description: The D3dkmtCreateContextVirtual callback function creates a virtual context.
 ms.assetid: 26a19776-6d90-4795-802e-2e769b24859d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

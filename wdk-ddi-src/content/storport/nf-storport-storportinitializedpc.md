@@ -6,11 +6,8 @@ description: The StorPortInitializeDpc routine initializes a StorPort DPC.
 old-location: storage\storportinitializedpc.htm
 tech.root: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

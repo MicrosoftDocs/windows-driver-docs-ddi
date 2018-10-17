@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetRequestGetAdapter method retrieves the NETADAPTER object associated with a NETREQUEST. This method is reserved for system use. Do not call this method from your code.
 tech.root: netvista
 ms.assetid: cdbc6009-26b3-4174-ba3f-d0129c72f98b
-ms.author: windowsdriverdev
 ms.date: 03/12/2018
 ms.topic: function
 ms.keywords: NetRequestGetAdapter

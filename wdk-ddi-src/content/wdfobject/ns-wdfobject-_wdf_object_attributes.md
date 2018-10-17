@@ -6,11 +6,8 @@ description: The WDF_OBJECT_ATTRIBUTES structure describes attributes that can b
 old-location: wdf\wdf_object_attributes.htm
 tech.root: wdf
 ms.assetid: 3331c2d8-3100-410d-9c75-33a3b55d5a49
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, PWDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES structure pointer, WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES structure, _WDF_OBJECT_ATTRIBUTES, kmdf.wdf_object_attributes, wdf.wdf_object_attributes, wdfobject/PWDF_OBJECT_ATTRIBUTES, wdfobject/WDF_OBJECT_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfobject.h
 req.include-header: Wdf.h

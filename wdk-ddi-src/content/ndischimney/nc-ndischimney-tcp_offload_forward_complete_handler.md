@@ -6,11 +6,8 @@ description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadFo
 old-location: netvista\protocoltcpoffloadforwardcomplete.htm
 tech.root: netvista
 ms.assetid: 02a11841-d98a-4c74-8922-458826e2911e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h

@@ -6,11 +6,8 @@ description: The DxgkDdiQueryChildRelations function enumerates the child device
 old-location: display\dxgkddiquerychildrelations.htm
 tech.root: display
 ms.assetid: eb1a0df0-6239-4d82-8477-7dd015f80b6e
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_QUERY_CHILD_RELATIONS, DXGKDDI_QUERY_CHILD_RELATIONS callback, DmFunctions_783a9c6c-f6ac-4949-87f0-674dae768d36.xml, DxgkDdiQueryChildRelations, DxgkDdiQueryChildRelations callback function [Display Devices], display.dxgkddiquerychildrelations, dispmprt/DxgkDdiQueryChildRelations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 

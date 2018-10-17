@@ -6,11 +6,8 @@ description: Converts a value of type SHORT to a value of type CHAR.
 old-location: kernel\rtlshorttochar.htm
 tech.root: kernel
 ms.assetid: AC7D5479-7C68-445A-9788-F5E96D6BB41E
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlShortToChar, RtlShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttochar, ntintsafe/RtlShortToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The wiasQueueEvent function informs the service that the device gen
 old-location: image\wiasqueueevent.htm
 tech.root: image
 ms.assetid: 1ea82b64-e0e0-445b-8200-70cd6920d29b
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiasqueueevent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiasQueueEvent function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

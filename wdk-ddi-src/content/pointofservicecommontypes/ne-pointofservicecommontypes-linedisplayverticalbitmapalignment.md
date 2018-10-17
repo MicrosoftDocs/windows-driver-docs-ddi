@@ -6,11 +6,8 @@ description: This enumeration is not implemented.
 old-location: pos\linedisplayverticalbitmapalignment.htm
 tech.root: pos
 ms.assetid: ADB42318-BE2F-4D70-912C-79D29DF12D72
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: LineDisplayVerticalBitmapAlignment, LineDisplayVerticalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pos.linedisplayverticalbitmapalignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

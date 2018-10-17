@@ -4,11 +4,8 @@ title: _D3DKMT_CREATE_OUTPUTDUPL
 author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: c3d26e7c-7d05-4965-a725-8a9269c80a7c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_CREATE_OUTPUTDUPL, D3DKMT_CREATE_OUTPUTDUPL, 
 req.header: d3dkmthk.h
 req.include-header:

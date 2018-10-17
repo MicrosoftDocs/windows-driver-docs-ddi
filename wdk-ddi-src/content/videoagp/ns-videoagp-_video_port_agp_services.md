@@ -6,11 +6,8 @@ description: The VIDEO_PORT_AGP_SERVICES structure is obsolete and is supported 
 old-location: display\video_port_agp_services.htm
 tech.root: display
 ms.assetid: 3e7d8f8e-a213-48ca-8a90-5d861271f6a2
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES structure pointer [Display Devices], VIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES structure [Display Devices], Video_Structs_a667f879-7c09-4f48-9b23-920bb68a08cb.xml, _VIDEO_PORT_AGP_SERVICES, display.video_port_agp_services, videoagp/PVIDEO_PORT_AGP_SERVICES, videoagp/VIDEO_PORT_AGP_SERVICES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: videoagp.h
 req.include-header: 

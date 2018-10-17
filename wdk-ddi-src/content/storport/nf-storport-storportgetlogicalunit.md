@@ -6,11 +6,8 @@ description: The StorPortGetLogicalUnit routine returns a pointer to the minipor
 old-location: storage\storportgetlogicalunit.htm
 tech.root: storage
 ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetLogicalUnit, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

@@ -6,11 +6,8 @@ description: The UpdatePrintDeviceObject function updates the properties of a de
 old-location: print\updateprintdeviceobject.htm
 tech.root: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winspool.h

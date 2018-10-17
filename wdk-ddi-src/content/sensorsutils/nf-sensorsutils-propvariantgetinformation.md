@@ -4,10 +4,7 @@ title: PropVariantGetInformation function
 author: windows-driver-content
 description: This routine gets offset, size, location pointer and DEVPROPTYPE, of a PROPVARIANT.
 ms.assetid: 37444fc1-54cf-4898-af68-6aa6019b85d5
-ms.author: windowsdriverdev
 ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropVariantGetInformation

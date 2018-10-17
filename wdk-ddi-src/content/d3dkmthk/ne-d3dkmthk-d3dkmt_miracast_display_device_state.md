@@ -4,12 +4,9 @@ title: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
 author: windows-driver-content
 description: Miracast display device state.
 ms.assetid: 266068fa-5ac9-4c83-8425-cb4efcfd6bce
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE, D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

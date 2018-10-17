@@ -6,11 +6,8 @@ description: An OS callback function the driver calls to report a monitor arriva
 old-location: display\iddcxmonitorarrival.htm
 tech.root: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iddcx.h
 req.include-header: 

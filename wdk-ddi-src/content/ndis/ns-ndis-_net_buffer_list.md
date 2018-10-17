@@ -6,11 +6,8 @@ description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER
 old-location: netvista\net_buffer_list.htm
 tech.root: netvista
 ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNET_BUFFER_LIST, NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, netvista.net_buffer_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h

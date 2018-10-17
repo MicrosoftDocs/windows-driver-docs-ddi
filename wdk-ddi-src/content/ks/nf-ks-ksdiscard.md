@@ -6,11 +6,8 @@ description: The KsDiscard macro removes a given item from an object bag.
 old-location: stream\ksdiscard.htm
 tech.root: stream
 ms.assetid: cbd1cd9b-c3bd-4827-88e6-4b80d6ba7320
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ks.h
 req.include-header: Ks.h

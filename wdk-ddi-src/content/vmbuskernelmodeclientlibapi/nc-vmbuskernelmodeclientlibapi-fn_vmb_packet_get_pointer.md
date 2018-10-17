@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketGetPointer function retrieves a pointer that was previously saved by using the VmbPacketSetPointer function.
 tech.root: netvista
 ms.assetid: 51c40032-5700-49d8-ba21-a03739e9dd3b
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure describes the d
 old-location: whea\whea_pshed_plugin_registration_packet.htm
 tech.root: whea
 ms.assetid: 9dafa65f-26f6-42a6-a125-013c61a66ccc
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whea.whea_pshed_plugin_registration_packet, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

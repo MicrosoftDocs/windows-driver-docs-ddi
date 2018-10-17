@@ -6,11 +6,8 @@ description: Gets the base value of the &#0034;name&#0034; attribute of this nod
 old-location: print\iprintschemaelement_name.htm
 tech.root: print
 ms.assetid: 025DC5A0-4462-487E-9C5B-0FE359DAD41C
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaElement interface [Print Devices],Name property, IPrintSchemaElement.Name, IPrintSchemaElement.get_Name, IPrintSchemaElement::Name, IPrintSchemaElement::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintSchemaElement interface, get_Name, print.iprintschemaelement_name, printerextension/IPrintSchemaElement::Name, printerextension/IPrintSchemaElement::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

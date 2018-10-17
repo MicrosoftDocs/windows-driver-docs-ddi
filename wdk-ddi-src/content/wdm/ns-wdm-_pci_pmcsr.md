@@ -6,11 +6,8 @@ description: The PCI_PMCSR structure is used to report the contents of the devic
 old-location: pci\pci_pmcsr.htm
 tech.root: PCI
 ms.assetid: 5c4bf4c0-c36f-4779-a012-6364c94f37a1
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h

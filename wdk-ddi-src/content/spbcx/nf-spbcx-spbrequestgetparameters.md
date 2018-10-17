@@ -6,11 +6,8 @@ description: The SpbRequestGetParameters method retrieves a set of SPB-specific 
 old-location: spb\spbrequestgetparameters.htm
 tech.root: SPB
 ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

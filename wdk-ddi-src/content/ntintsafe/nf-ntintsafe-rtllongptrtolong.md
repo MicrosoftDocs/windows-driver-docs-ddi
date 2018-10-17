@@ -6,11 +6,8 @@ description: Converts a value of type LONG_PTR to a value of type LONG.
 old-location: kernel\rtllongptrtolong.htm
 tech.root: kernel
 ms.assetid: 8BCA0240-FCE7-4C21-B5B4-DEBD87DBDD9D
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlLongPtrToLong, RtlLongPtrToLong function [Kernel-Mode Driver Architecture], kernel.rtllongptrtolong, ntintsafe/RtlLongPtrToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

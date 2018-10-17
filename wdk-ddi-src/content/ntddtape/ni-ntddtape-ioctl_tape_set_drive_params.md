@@ -6,11 +6,8 @@ description: Adjusts a tape drive's configurable parameters.
 old-location: storage\ioctl_tape_set_drive_params.htm
 tech.root: storage
 ms.assetid: aa625cbf-fa0f-420a-b8ec-2babf4c4ec17
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_TAPE_SET_DRIVE_PARAMS, IOCTL_TAPE_SET_DRIVE_PARAMS control, IOCTL_TAPE_SET_DRIVE_PARAMS control code [Storage Devices], k307_8467b086-c211-4e26-ac65-2d12ea1c4c73.xml, ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS, storage.ioctl_tape_set_drive_params
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddtape.h
 req.include-header: Ntddtape.h

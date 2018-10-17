@@ -6,11 +6,8 @@ description: A driver's OnInterruptEnable event callback function enables a spec
 old-location: wdf\oninterruptenable.htm
 tech.root: wdf
 ms.assetid: 6C091427-59FF-4101-ACD6-353C959794F6
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfinterrupt.h
 req.include-header: 

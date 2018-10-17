@@ -6,11 +6,8 @@ description: The IStillImage::WriteToErrorLog method writes a message to the sti
 old-location: image\istillimage_writetoerrorlog.htm
 tech.root: image
 ms.assetid: 24795026-41bc-447e-812f-8fc3a1c573b9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IStillImageW interface [Imaging Devices],WriteToErrorLog method, IStillImageW.WriteToErrorLog, IStillImageW::WriteToErrorLog, IStillImageW::WriteToErrorLogiwiade, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices],IStillImageW interface, image.istillimage_writetoerrorlog, sti/IStillImageW::WriteToErrorLog, stifnc_1f27ad38-72b2-4b5f-8bb1-3456bfbd207a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

@@ -6,11 +6,8 @@ description: The AtaPortWriteRegisterUshort routine transfers a USHORT value to 
 old-location: storage\ataportwriteregisterushort.htm
 tech.root: storage
 ms.assetid: 26acd4ce-b5e8-405a-bc9f-b08627f4830f
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort routine [Storage Devices], atartns_09e1e2b6-ad88-4af7-9623-f9e441e491cb.xml, irb/AtaPortWriteRegisterUshort, storage.ataportwriteregisterushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

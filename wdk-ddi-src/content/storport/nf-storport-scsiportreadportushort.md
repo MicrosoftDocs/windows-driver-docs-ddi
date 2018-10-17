@@ -6,11 +6,8 @@ description: The ScsiPortReadPortUshort routine reads a USHORT value from the HB
 old-location: storage\scsiportreadportushort.htm
 tech.root: storage
 ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, srb/ScsiPortReadPortUshort, storage.scsiportreadportushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h

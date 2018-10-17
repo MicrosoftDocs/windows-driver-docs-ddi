@@ -6,11 +6,8 @@ description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR functio
 old-location: wdf\wdf_usb_interface_select_setting_params_init_descriptor.htm
 tech.root: wdf
 ms.assetid: ae9266a2-1bfe-4b5f-b745-b7bfe4f0bfca
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_6c30fa1b-546f-46f2-8eb6-fd189894a746.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function, kmdf.wdf_usb_interface_select_setting_params_init_descriptor, wdf.wdf_usb_interface_select_setting_params_init_descriptor, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

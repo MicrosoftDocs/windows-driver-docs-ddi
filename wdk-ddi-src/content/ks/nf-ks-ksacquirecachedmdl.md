@@ -6,11 +6,8 @@ description: This function is used to acquire the MDL cached by the KS port driv
 old-location: stream\ksacquirecachedmdl.htm
 tech.root: stream
 ms.assetid: C6C693CC-D9C0-4EE8-9F8C-07D8665C673D
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: GUID, KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices], PVOID, ks/KsAcquireCachedMdl, stream.ksacquirecachedmdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: 

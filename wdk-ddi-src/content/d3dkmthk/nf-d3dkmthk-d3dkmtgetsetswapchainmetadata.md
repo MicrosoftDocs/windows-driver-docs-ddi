@@ -4,7 +4,6 @@ title: D3DKMTGetSetSwapChainMetadata function
 author: windows-driver-content
 description: Gets swap chain metadata.
 ms.assetid: 78b32c6e-3d01-4be2-90b7-8aa9f37aee61
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTGetSetSwapChainMetadata

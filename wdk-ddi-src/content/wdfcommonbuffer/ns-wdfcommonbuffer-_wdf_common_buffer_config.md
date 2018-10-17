@@ -6,11 +6,8 @@ description: The WDF_COMMON_BUFFER_CONFIG structure contains configuration infor
 old-location: wdf\wdf_common_buffer_config.htm
 tech.root: wdf
 ms.assetid: 19e98448-6951-4eb4-bca1-8119cd6f7713
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_COMMON_BUFFER_CONFIG, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, PWDF_COMMON_BUFFER_CONFIG, PWDF_COMMON_BUFFER_CONFIG structure pointer, WDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG structure, _WDF_COMMON_BUFFER_CONFIG, kmdf.wdf_common_buffer_config, wdf.wdf_common_buffer_config, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h

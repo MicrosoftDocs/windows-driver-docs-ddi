@@ -6,11 +6,8 @@ description: The PsGetProcessExitTime routine returns the exit time for the curr
 old-location: ifsk\psgetprocessexittime.htm
 tech.root: ifsk
 ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: PsGetProcessExitTime, PsGetProcessExitTime routine [Installable File System Drivers], ifsk.psgetprocessexittime, ntifs/PsGetProcessExitTime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -4,11 +4,8 @@ title: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
 author: windows-driver-content
 description: Indicates the reason or reasons for exiting PSR (Panel Self-Refresh).
 ms.assetid: 6dcc76d1-6019-4ccd-b560-44ec3d59e0cd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, 
 req.header: dispmprt.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The minidriver calls the StreamClassScheduleTimer routine to schedu
 old-location: stream\streamclassscheduletimer.htm
 tech.root: stream
 ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

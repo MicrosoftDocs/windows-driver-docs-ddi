@@ -6,11 +6,8 @@ description: The KsPinSetPinClockTime function sets the current time on the cloc
 old-location: stream\kspinsetpinclocktime.htm
 tech.root: stream
 ms.assetid: 85dac103-c729-4202-96b1-661891c6a531
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPinSetPinClockTime, KsPinSetPinClockTime function [Streaming Media Devices], avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, ks/KsPinSetPinClockTime, stream.kspinsetpinclocktime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

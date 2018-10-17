@@ -6,11 +6,8 @@ description: The PUBLIC_OBJECT_TYPE_INFORMATION structure holds the type name of
 old-location: ifsk\public_object_type_information.htm
 tech.root: ifsk
 ms.assetid: 7b80c3df-befe-4648-ab61-78cfb8d4b7ef
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PPUBLIC_OBJECT_TYPE_INFORMATION, PPUBLIC_OBJECT_TYPE_INFORMATION, PPUBLIC_OBJECT_TYPE_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_TYPE_INFORMATION, PUBLIC_OBJECT_TYPE_INFORMATION structure [Installable File System Drivers], __PUBLIC_OBJECT_TYPE_INFORMATION, ifsk.public_object_type_information, ntifs/PPUBLIC_OBJECT_TYPE_INFORMATION, ntifs/PUBLIC_OBJECT_TYPE_INFORMATION, objectstructures_54a0adde-cbf0-47c3-a1ab-aa426758c8b9.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h

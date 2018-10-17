@@ -6,11 +6,8 @@ description: The NewStream method creates a new instance of a logical stream ass
 old-location: audio\iminiportdmus_newstream.htm
 tech.root: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IMiniportDMus interface [Audio Devices],NewStream method, IMiniportDMus.NewStream, IMiniportDMus::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_GETPRESENTHISTORY
 author: windows-driver-content
 description: Pfnd3dkmtGetpresenthistory retrieves copying history.
 ms.assetid: 1c46273a-6ea5-446e-b4ee-df3213fe9a26
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

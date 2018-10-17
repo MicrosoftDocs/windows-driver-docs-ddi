@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The RecycleCreateDeferredContext function clears out the pipeline state for a deferred context.
 old-location: display\recyclecreatedeferredcontext.htm
 ms.assetid: c9e08048-683a-4f43-b3b8-1914c2933a5c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT, PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT callback, RecycleCreateDeferredContext, RecycleCreateDeferredContext callback function [Display Devices], UserModeDisplayDriverDx11_Functions_aaffc9d1-e821-41f9-badc-79d53a667644.xml, d3d10umddi/RecycleCreateDeferredContext, display.recyclecreatedeferredcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

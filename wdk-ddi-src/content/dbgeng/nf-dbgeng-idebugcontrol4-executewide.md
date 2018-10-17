@@ -6,11 +6,8 @@ description: The ExecuteWide method executes the specified debugger commands.
 old-location: debugger\executewide.htm
 tech.root: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteWide method, IDebugControl4.ExecuteWide, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

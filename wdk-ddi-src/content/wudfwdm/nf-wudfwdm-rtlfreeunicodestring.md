@@ -6,11 +6,8 @@ description: The RtlFreeUnicodeString routine releases storage that was allocate
 old-location: kernel\rtlfreeunicodestring.htm
 tech.root: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, kernel.rtlfreeunicodestring, wdm/RtlFreeUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfwdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

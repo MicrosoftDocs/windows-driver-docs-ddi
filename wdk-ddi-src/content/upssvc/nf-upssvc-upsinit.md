@@ -6,11 +6,8 @@ description: The UPSInit function initializes a UPS minidriver, opens communicat
 old-location: battery\upsinit.htm
 tech.root: battery
 ms.assetid: abcb1f9c-3de3-430c-87e0-6648d60ca420
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: UPSInit, UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, battery.upsinit, upssvc/UPSInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: upssvc.h
 req.include-header: Upssvc.h

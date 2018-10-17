@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Writes a byte to the port or a register.
 tech.root: serports
 ms.assetid: 4fb781e3-0e25-4e35-8ebf-f8046b05fd23
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:

@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYFENCE
 author: windows-driver-content
 description: Destroy fence.
 ms.assetid: 80fb2a47-384b-413a-a68f-1faedb114a17
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -4,7 +4,6 @@ title: IDebugHostSymbols::FindModuleByLocation
 author: windows-driver-content
 description: The FindModuleByLocation method will look through the given host context and determine what module contains the address given by the specified location.
 ms.assetid: 255a026b-6114-44ca-8cdf-9543f1c0cd77
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbols::FindModuleByLocation, FindModuleByLocation, IDebugHostSymbols.FindModuleByLocation, IDebugHostSymbols::FindModuleByLocation, IDebugHostSymbols.FindModuleByLocation

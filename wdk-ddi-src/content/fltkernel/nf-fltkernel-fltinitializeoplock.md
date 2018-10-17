@@ -6,11 +6,8 @@ description: The FltInitializeOplock routine initializes an opportunistic lock (
 old-location: ifsk\fltinitializeoplock.htm
 tech.root: ifsk
 ms.assetid: 9878f614-89dc-4b23-8095-2a8c2b80c79d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_5d9b6a6a-6721-41b4-961c-49904596c916.xml, FltInitializeOplock, FltInitializeOplock routine [Installable File System Drivers], fltkernel/FltInitializeOplock, ifsk.fltinitializeoplock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

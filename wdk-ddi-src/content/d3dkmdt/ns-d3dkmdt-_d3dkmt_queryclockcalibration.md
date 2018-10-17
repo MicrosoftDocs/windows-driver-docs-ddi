@@ -4,11 +4,8 @@ title: _D3DKMT_QUERYCLOCKCALIBRATION
 author: windows-driver-content
 description: Arguments used to query clock calibration information.
 ms.assetid: b58027b5-e51b-4eb2-b8f0-0400be664995
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_QUERYCLOCKCALIBRATION, D3DKMT_QUERYCLOCKCALIBRATION, 
 req.header: d3dkmdt.h
 req.include-header:

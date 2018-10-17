@@ -6,11 +6,8 @@ description: The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code
 old-location: smartcrd\ioctl_smartcard_get_last_error.htm
 tech.root: smartcrd
 ms.assetid: eb482764-3a78-498b-985c-1efc77000291
-ms.author: windowsdriverdev
 ms.date: 2/22/2018
 ms.keywords: IOCTL_SMARTCARD_GET_LAST_ERROR, IOCTL_SMARTCARD_GET_LAST_ERROR control, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml, smartcrd.ioctl_smartcard_get_last_error, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winsmcrd.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The ZwWriteFile routine writes data to an open file.
 old-location: kernel\zwwritefile.htm
 tech.root: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The PEP_WORK_COMPLETE_IDLE_STATE structure identifies a component t
 old-location: kernel\pep_work_complete_idle_state.htm
 tech.root: kernel
 ms.assetid: 6065A77F-5E80-4D3D-8EF1-4D336505122A
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_COMPLETE_IDLE_STATE, PPEP_WORK_COMPLETE_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_COMPLETE_IDLE_STATE, kernel.pep_work_complete_idle_state, pepfx/PEP_WORK_COMPLETE_IDLE_STATE, pepfx/PPEP_WORK_COMPLETE_IDLE_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h

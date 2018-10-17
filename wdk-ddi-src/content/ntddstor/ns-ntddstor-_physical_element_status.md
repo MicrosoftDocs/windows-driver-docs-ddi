@@ -4,11 +4,8 @@ title: _PHYSICAL_ELEMENT_STATUS
 author: windows-driver-content
 description: The PHYSICAL_ELEMENT_STATUS structure defines the output buffer for IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS.
 ms.assetid: 11c8f210-a836-4c73-a69a-160ff113894c
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS, 
 req.header: ntddstor.h
 req.include-header:

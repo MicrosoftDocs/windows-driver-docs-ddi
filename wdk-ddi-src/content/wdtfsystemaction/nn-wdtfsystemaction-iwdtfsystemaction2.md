@@ -6,11 +6,8 @@ description: Defines operations and properties that support driver testing.
 old-location: dtf\iwdtfsystemaction2.htm
 tech.root: dtf
 ms.assetid: 783ddaaa-f39f-4e66-85aa-4788bf7959a6
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSystemAction2, dtf.iwdtfsystemaction2, wdtfsystemaction/IWDTFSystemAction2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtfsystemaction.h
 req.include-header: 

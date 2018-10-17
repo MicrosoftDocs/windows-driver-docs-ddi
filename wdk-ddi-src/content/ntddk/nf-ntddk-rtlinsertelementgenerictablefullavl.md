@@ -6,11 +6,8 @@ description: The RtlInsertElementGenericTableFullAvl routine adds a new entry to
 old-location: ifsk\rtlinsertelementgenerictablefullavl.htm
 tech.root: ifsk
 ms.assetid: c7d346ab-6990-4636-bafd-2e448a937f3b
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictablefullavl, ntddk/RtlInsertElementGenericTableFullAvl, rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The Flush method returns after this interface's work item has been 
 old-location: wdf\iwdfworkitem_flush.htm
 tech.root: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: Flush, Flush method, Flush method,IWDFWorkItem interface, IWDFWorkItem interface,Flush method, IWDFWorkItem.Flush, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, wdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 

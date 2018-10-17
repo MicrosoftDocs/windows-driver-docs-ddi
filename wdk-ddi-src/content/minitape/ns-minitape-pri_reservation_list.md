@@ -6,11 +6,8 @@ description: The PRI_RESERVATION_LIST structure is returned in response to a Per
 old-location: storage\pri_reservation_list.htm
 tech.root: storage
 ms.assetid: 5756e907-008a-49c3-b1cd-947cb0ce1bd4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices], storage.pri_reservation_list, storport/PPRI_RESERVATION_LIST, storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minitape.h
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h

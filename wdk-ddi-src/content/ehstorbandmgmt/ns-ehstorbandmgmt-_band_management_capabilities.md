@@ -6,11 +6,8 @@ description: The BAND_MANAGEMENT_CAPABILITIES structure contains the security ca
 old-location: storage\band_management_capabilities.htm
 tech.root: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PBAND_MANAGEMENT_CAPABILITIES, 0, BAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], CAPS_ACTIVATED, CAPS_BANDCROSSING_SUPPORTED, CAPS_SID_SECURED, MEDIAKEY_PROTECTEDBY_AUTHKEY, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, PBAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], _BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, storage.band_management_capabilities"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

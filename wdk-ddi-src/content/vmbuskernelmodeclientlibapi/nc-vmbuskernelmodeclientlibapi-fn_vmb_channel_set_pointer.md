@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSetPointer function saves an arbitrary pointer in a channel context.
 tech.root: netvista
 ms.assetid: aa582790-1277-4516-89fb-bff16ed3b8e7
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

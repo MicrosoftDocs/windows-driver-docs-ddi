@@ -6,11 +6,8 @@ description: Puts the system into Connected Standby state and exits Connected St
 old-location: dtf\iwdtfsystemaction2_connectedstandby.htm
 tech.root: dtf
 ms.assetid: 11d774b1-2af9-453e-b53e-c232d84bcbee
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], ConnectedStandby method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],ConnectedStandby method, IWDTFSystemAction2.ConnectedStandby, IWDTFSystemAction2::ConnectedStandby, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, dtf.iwdtfsystemaction2_connectedstandby, wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfsystemaction.h
 req.include-header: 

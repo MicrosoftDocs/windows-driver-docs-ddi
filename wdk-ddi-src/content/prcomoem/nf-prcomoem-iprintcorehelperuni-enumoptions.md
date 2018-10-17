@@ -6,11 +6,8 @@ description: The IPrintCoreHelperUni::EnumOptions method gets a list of availabl
 old-location: print\iprintcorehelperuni_enumoptions.htm
 tech.root: print
 ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumOptions method, IPrintCoreHelperUni.EnumOptions, IPrintCoreHelperUni::EnumOptions, prcomoem/IPrintCoreHelperUni::EnumOptions, print.iprintcorehelperuni_enumoptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

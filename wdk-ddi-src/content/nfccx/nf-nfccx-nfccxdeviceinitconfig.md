@@ -6,11 +6,8 @@ description: Called by the client driver during its AddDevice routine to perform
 old-location: nfpdrivers\_nfccxdeviceinitconfig_.htm
 tech.root: nfpdrivers
 ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: nfccx.h
 req.include-header: Ncidef.h

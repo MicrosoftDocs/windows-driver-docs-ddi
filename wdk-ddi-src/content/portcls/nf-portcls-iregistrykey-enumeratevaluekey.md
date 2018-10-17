@@ -6,11 +6,8 @@ description: The EnumerateValueKey method returns information about a registry e
 old-location: audio\iregistrykey_enumeratevaluekey.htm
 tech.root: audio
 ms.assetid: 4f90b553-f652-413f-9723-a5a578de9f8d
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: EnumerateValueKey, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],EnumerateValueKey method, IRegistryKey.EnumerateValueKey, IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, portcls/IRegistryKey::EnumerateValueKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

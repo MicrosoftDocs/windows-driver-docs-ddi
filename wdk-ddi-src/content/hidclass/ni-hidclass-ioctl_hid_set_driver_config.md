@@ -6,11 +6,8 @@ description: The IOCTL_HID_SET_DRIVER_CONFIG request sets the driver configurati
 old-location: hid\ioctl_hid_set_driver_config.htm
 tech.root: hid
 ms.assetid: E20A1105-CB86-4CE3-91A4-23B08B4D0393
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IOCTL_HID_SET_DRIVER_CONFIG, IOCTL_HID_SET_DRIVER_CONFIG control, IOCTL_HID_SET_DRIVER_CONFIG control code [Human Input Devices], hid.ioctl_hid_set_driver_config, hidclass/IOCTL_HID_SET_DRIVER_CONFIG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

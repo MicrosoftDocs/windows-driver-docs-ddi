@@ -6,11 +6,8 @@ description: The NdisAnsiStringToUnicodeString function converts a given counted
 old-location: netvista\ndisansistringtounicodestring.htm
 tech.root: netvista
 ms.assetid: 8efdcf9f-df8c-4b3b-8b21-11a10a885322
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAnsiStringToUnicodeString, NdisAnsiStringToUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisAnsiStringToUnicodeString, ndis_string_ref_e56d613a-b145-4f9e-bb96-3e4d8ad33538.xml, netvista.ndisansistringtounicodestring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

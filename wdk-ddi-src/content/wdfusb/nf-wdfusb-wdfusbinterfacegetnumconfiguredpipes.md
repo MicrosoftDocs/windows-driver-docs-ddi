@@ -6,11 +6,8 @@ description: The WdfUsbInterfaceGetNumConfiguredPipes method returns the number 
 old-location: wdf\wdfusbinterfacegetnumconfiguredpipes.htm
 tech.root: wdf
 ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes method, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

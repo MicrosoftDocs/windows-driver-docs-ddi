@@ -6,11 +6,8 @@ description: Gets the prefix used for multiple lines of output.
 old-location: debugger\idebugclient_getoutputlineprefix.htm
 tech.root: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputLinePrefix method, IDebugClient.GetOutputLinePrefix, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

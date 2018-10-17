@@ -4,11 +4,8 @@ title: PFND3DKMT_UNREGISTERTRIMNOTIFICATION
 author: windows-driver-content
 description: PFND3DKMT_UNREGISTERTRIMNOTIFICATION callback function removes a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).
 ms.assetid: 3e329473-b630-4e29-ace3-7ae0c2606198
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The wiasReadPropBin function retrieves a binary-data property value
 old-location: image\wiasreadpropbin.htm
 tech.root: image
 ms.assetid: f62b63e3-011b-43ef-b7f5-769aa00ff3ca
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiasreadpropbin, wiamdef/wiasReadPropBin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiasReadPropBin, wiasReadPropBin function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

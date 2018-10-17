@@ -6,11 +6,8 @@ description: The SpbRequestComplete method completes an I/O request and supplies
 old-location: spb\spbrequestcomplete.htm
 tech.root: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

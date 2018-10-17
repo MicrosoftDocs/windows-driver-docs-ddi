@@ -6,11 +6,8 @@ description: The KsCompleteMediaType method completes a partially-specified medi
 old-location: stream\iksdatatypecompletion_kscompletemediatype.htm
 tech.root: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices],KsCompleteMediaType method, IKsDataTypeCompletion.KsCompleteMediaType, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices],IKsDataTypeCompletion interface, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_SETSTEREOENABLED
 author: windows-driver-content
 description: The PFND3DKMT_SETSTEREOENABLED callback function sets stereo enabled.
 ms.assetid: ee87c614-07b4-47a3-a6f5-afb2fdae9772
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

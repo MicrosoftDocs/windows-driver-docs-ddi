@@ -6,11 +6,8 @@ description: Gets the horizontal dimension of the application media size relativ
 old-location: print\iprintschemapageimageablesize_imageablesizewidthinmicrons.htm
 tech.root: print
 ms.assetid: 46556C6E-B231-400D-8F0A-86FC1CD5D4B6
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],ImageableSizeWidthInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, ImageableSizeWidthInMicrons property [Print Devices], ImageableSizeWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_ImageableSizeWidthInMicrons, print.iprintschemapageimageablesize_imageablesizewidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

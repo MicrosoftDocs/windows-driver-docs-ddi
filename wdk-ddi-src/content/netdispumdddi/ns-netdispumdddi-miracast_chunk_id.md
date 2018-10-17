@@ -6,11 +6,8 @@ description: Stores info that identifies a wireless display (Miracast) encode ch
 old-location: display\miracast_chunk_id.htm
 tech.root: display
 ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h

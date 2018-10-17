@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgeolocationrequestinfo.htm
 tech.root: netvista
 ms.assetid: f3fa5212-66c1-45f8-a96f-78d1f2f01fe8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo, ntddrilapitypes/RILGEOLOCATIONREQUESTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

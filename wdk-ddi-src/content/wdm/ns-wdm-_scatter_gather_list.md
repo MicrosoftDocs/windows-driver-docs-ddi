@@ -6,11 +6,8 @@ description: The SCATTER_GATHER_LIST structure describes the scatter/gather list
 old-location: kernel\scatter_gather_list.htm
 tech.root: kernel
 ms.assetid: 3cc6da15-8367-4430-afe8-956376eef1c7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PSCATTER_GATHER_LIST, PSCATTER_GATHER_LIST, PSCATTER_GATHER_LIST structure pointer [Kernel-Mode Driver Architecture], SCATTER_GATHER_LIST, SCATTER_GATHER_LIST structure [Kernel-Mode Driver Architecture], _SCATTER_GATHER_LIST, kernel.scatter_gather_list, kstruct_d_b8c13069-6d90-4fcf-8582-c57bf11509ea.xml, wdm/PSCATTER_GATHER_LIST, wdm/SCATTER_GATHER_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

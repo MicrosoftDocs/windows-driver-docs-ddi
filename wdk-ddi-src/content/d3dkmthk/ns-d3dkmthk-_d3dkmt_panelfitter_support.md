@@ -4,11 +4,8 @@ title: _D3DKMT_PANELFITTER_SUPPORT
 author: windows-driver-content
 description: Structure that contains panel fitter support info.
 ms.assetid: 54767c86-7cad-44cf-9192-6cf1dde36f73
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_PANELFITTER_SUPPORT, D3DKMT_PANELFITTER_SUPPORT, 
 req.header: d3dkmthk.h
 req.include-header:

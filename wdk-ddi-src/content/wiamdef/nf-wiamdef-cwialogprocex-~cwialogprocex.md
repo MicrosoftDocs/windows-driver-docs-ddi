@@ -6,11 +6,8 @@ description: The~CWiaLogProcEx destructor is called when the function or method 
 old-location: image\cwialogprocex__cwialogprocex.htm
 tech.root: image
 ms.assetid: FD0C52E0-0E77-4F4C-AA38-E0D610AF3CD0
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: CWiaLogProcEx interface [Imaging Devices],~CWiaLogProcEx method, CWiaLogProcEx.~CWiaLogProcEx, CWiaLogProcEx::~CWiaLogProcEx, image.cwialogprocex__cwialogprocex, wiamdef/CWiaLogProcEx::~CWiaLogProcEx, ~CWiaLogProcEx, ~CWiaLogProcEx method [Imaging Devices], ~CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

@@ -4,7 +4,6 @@ title: WdfDeviceRetrieveDeviceDirectoryString function
 author: windows-driver-content
 description:
 ms.assetid: 94f803e2-0972-4248-8b55-c02fd096a1e2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: WdfDeviceRetrieveDeviceDirectoryString

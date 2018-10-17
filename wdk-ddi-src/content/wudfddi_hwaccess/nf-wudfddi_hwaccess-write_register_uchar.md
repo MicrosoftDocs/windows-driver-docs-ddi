@@ -6,11 +6,8 @@ description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified add
 old-location: wdf\write_register_uchar.htm
 tech.root: wdf
 ms.assetid: C56D6CD8-7D23-4DA7-9241-F72ADBDD2770
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR function, umdf.write_register_uchar, wdf.write_register_uchar, wudfddi_hwaccess/WRITE_REGISTER_UCHAR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

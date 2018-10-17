@@ -6,11 +6,8 @@ description: The ISensorDriver::OnProcessWpdMessage method handles Windows Porta
 old-location: sensors\isensordriver_onprocesswpdmessage.htm
 tech.root: sensors
 ms.assetid: 4780d0ea-a54a-4125-b3b6-2210a14eff71
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnProcessWpdMessage method, ISensorDriver.OnProcessWpdMessage, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onprocesswpdmessage, sensorsclassextension/ISensorDriver::OnProcessWpdMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

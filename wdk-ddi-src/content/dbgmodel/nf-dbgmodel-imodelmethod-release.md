@@ -4,7 +4,6 @@ title: IModelMethod::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
-ms.author: windowsdriverdev
 ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release

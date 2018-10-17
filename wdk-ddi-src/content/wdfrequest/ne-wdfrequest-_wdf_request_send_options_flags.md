@@ -6,11 +6,8 @@ description: The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags t
 old-location: wdf\wdf_request_send_options_flags.htm
 tech.root: wdf
 ms.assetid: 68be1034-62f0-4444-b4c9-097277a7561f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_0344916f-2437-4c32-9e05-c8204ac4f925.xml, WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_TIMEOUT, _WDF_REQUEST_SEND_OPTIONS_FLAGS, kmdf.wdf_request_send_options_flags, wdf.wdf_request_send_options_flags, wdfrequest/WDF_REQUEST_SEND_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wdfrequest/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, wdfrequest/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, wdfrequest/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, wdfrequest/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, wdfrequest/WDF_REQUEST_SEND_OPTION_TIMEOUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfrequest.h
 req.include-header: Wdf.h

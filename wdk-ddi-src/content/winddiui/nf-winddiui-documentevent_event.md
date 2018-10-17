@@ -4,7 +4,6 @@ title: DOCUMENTEVENT_EVENT macro
 author: windows-driver-content
 description: 
 ms.assetid: 141f16f3-fa3f-4cec-9854-be81557e97af
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: DOCUMENTEVENT_EVENT

@@ -4,11 +4,8 @@ title: _D3DKMT_GET_SEGMENT_CAPS
 author: windows-driver-content
 description: Used to get segment capabilities.
 ms.assetid: fe182215-7e68-4620-9b20-d00685b0fe87
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_GET_SEGMENT_CAPS, D3DKMT_GET_SEGMENT_CAPS, 
 req.header: d3dkmthk.h
 req.include-header:

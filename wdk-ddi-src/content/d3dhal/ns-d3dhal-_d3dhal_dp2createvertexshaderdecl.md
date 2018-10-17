@@ -6,11 +6,8 @@ description: DirectX 9.0 and later versions only. The D3DHAL_DP2CREATEVERTEXSHAD
 old-location: display\d3dhal_dp2createvertexshaderdecl.htm
 tech.root: display
 ms.assetid: 063e72ef-7d57-484a-98f8-b6166a238096
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADERDECL, LPD3DHAL_DP2CREATEVERTEXSHADERDECL structure pointer [Display Devices], _D3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERDECL, d3dstrct_ae2ef7ce-67b3-4c91-b4d8-e3ff8b82734b.xml, display.d3dhal_dp2createvertexshaderdecl"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

@@ -6,11 +6,8 @@ description: The IWDFUnifiedPropertyStore interface exposes a unified property s
 old-location: wdf\iwdfunifiedpropertystore.htm
 tech.root: wdf
 ms.assetid: F039450D-3B66-4891-9078-7058E889C2F0
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,described, umdf.iwdfunifiedpropertystore, wdf.iwdfunifiedpropertystore, wudfddi/IWDFUnifiedPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

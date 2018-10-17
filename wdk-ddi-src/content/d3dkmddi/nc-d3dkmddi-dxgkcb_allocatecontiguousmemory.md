@@ -4,11 +4,8 @@ title: DXGKCB_ALLOCATECONTIGUOUSMEMORY
 author: windows-driver-content
 description: Implemented by the client driver to allocate contiguous memory regions in the IoMMu's logical address space.
 ms.assetid: 58a963a4-c65e-4ac5-bdeb-583604dbec2e
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

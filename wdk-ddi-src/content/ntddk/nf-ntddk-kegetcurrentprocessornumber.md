@@ -6,11 +6,8 @@ description: The KeGetCurrentProcessorNumber routine returns the system-assigned
 old-location: kernel\kegetcurrentprocessornumber.htm
 tech.root: kernel
 ms.assetid: 24de4374-fa73-4891-b212-6f5c7ed53407
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture], k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, ntddk/KeGetCurrentProcessorNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

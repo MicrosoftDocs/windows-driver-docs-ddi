@@ -6,11 +6,8 @@ description: The KdPrintEx macro sends a string to the kernel debugger if the co
 old-location: devtest\kdprintex.htm
 tech.root: devtest
 ms.assetid: 8383e9c8-0058-47bf-9a6e-ed05e61a58f1
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: DebugFns_375418aa-5241-4b2c-9369-c930c3ca1ca6.xml, KdPrintEx, KdPrintEx function [Driver Development Tools], devtest.kdprintex, wdm/KdPrintEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h

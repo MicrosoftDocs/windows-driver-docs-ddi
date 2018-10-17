@@ -4,11 +4,8 @@ title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
 author: windows-driver-content
 description: Check for multiplane overlay support.
 ms.assetid: be3459f5-1d74-46d5-b8a6-b8709fd189e4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2, D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -4,7 +4,6 @@ title: operator!= function
 author: windows-driver-content
 description: Not equal to comparison operator for the location function.
 ms.assetid: 474f5a04-76f9-4784-82ed-bb35527f320a
-ms.author: windowsdriverdev
 ms.date: 10/02/2018
 ms.topic: function
 ms.keywords: operator!=

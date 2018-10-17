@@ -6,11 +6,8 @@ description: Contains pointers to functions implemented by a kernel mode display
 old-location: display\kmddod_initialization_data.htm
 tech.root: display
 ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, display.kmddod_initialization_data, dispmprt/KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

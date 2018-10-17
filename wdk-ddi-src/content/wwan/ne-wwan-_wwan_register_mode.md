@@ -6,11 +6,8 @@ description: The WWAN_REGISTER_MODE enumeration lists the different network sele
 old-location: netvista\wwan_register_mode.htm
 tech.root: netvista
 ms.assetid: 608d041c-1034-49cf-b8da-cb3f7769ac55
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, WwanRegisterModeAutomatic, WwanRegisterModeManual, WwanRegisterModeMax, WwanRegisterModeUnknown, _WWAN_REGISTER_MODE, netvista.wwan_register_mode, wwan/PWWAN_REGISTER_MODE, wwan/WWAN_REGISTER_MODE, wwan/WwanRegisterModeAutomatic, wwan/WwanRegisterModeManual, wwan/WwanRegisterModeMax, wwan/WwanRegisterModeUnknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wwan.h
 req.include-header: Wwan.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENADAPTERFROMHDC
 author: windows-driver-content
 description: Pfnd3dkmtOpenadapterfromhdc maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 656f43e8-ed2d-4f09-99c0-25d054b0c6ff
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

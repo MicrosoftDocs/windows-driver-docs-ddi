@@ -6,11 +6,8 @@ description: Resets an I/O bus and, indirectly, each device on the bus.
 old-location: storage\ioctl_storage_reset_bus.htm
 tech.root: storage
 ms.assetid: 26c9d499-2d53-48b8-8704-3ec7b15e15d8
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_RESET_BUS, IOCTL_STORAGE_RESET_BUS control, IOCTL_STORAGE_RESET_BUS control code [Storage Devices], k307_8a5629b9-44e4-4ed7-a481-a5b9efbeb083.xml, ntddstor/IOCTL_STORAGE_RESET_BUS, storage.ioctl_storage_reset_bus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

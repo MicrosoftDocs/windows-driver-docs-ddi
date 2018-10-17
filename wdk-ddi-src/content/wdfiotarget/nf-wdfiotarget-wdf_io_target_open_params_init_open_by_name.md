@@ -6,11 +6,8 @@ description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function initialize
 old-location: wdf\wdf_io_target_open_params_init_open_by_name.htm
 tech.root: wdf
 ms.assetid: e84652c5-a234-4336-92f3-827f965865f8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFIOTargetRef_fd8afc87-6dae-469e-906f-f2fa99aba08e.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function, kmdf.wdf_io_target_open_params_init_open_by_name, wdf.wdf_io_target_open_params_init_open_by_name, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

@@ -4,12 +4,9 @@ title: _BACKLIGHT_OPTIMIZATION_LEVEL
 author: windows-driver-content
 description: Specifies the type of backlight optimization.
 ms.assetid: df927641-352a-472c-b4ca-dc02abdd5b0d
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _BACKLIGHT_OPTIMIZATION_LEVEL, BACKLIGHT_OPTIMIZATION_LEVEL,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

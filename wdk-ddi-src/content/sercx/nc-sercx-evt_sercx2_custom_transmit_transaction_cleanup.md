@@ -6,11 +6,8 @@ description: The EvtSerCx2CustomTransmitTransactionCleanup event callback functi
 old-location: serports\evtsercx2customtransmittransactioncleanup.htm
 tech.root: serports
 ms.assetid: CEADF06B-FD60-4B4C-AB59-1ED6B1226204
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionCleanup, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback, EvtSerCx2CustomTransmitTransactionCleanup, EvtSerCx2CustomTransmitTransactionCleanup callback function [Serial Ports], serports.evtsercx2customtransmittransactioncleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

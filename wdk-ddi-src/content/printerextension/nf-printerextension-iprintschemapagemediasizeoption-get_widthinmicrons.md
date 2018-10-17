@@ -6,11 +6,8 @@ description: Gets the width of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_widthinmicrons.htm
 tech.root: print
 ms.assetid: D44C8782-DA25-4189-AECA-B899A4AA9279
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaPageMediaSizeOption interface [Print Devices],WidthInMicrons property, IPrintSchemaPageMediaSizeOption.WidthInMicrons, IPrintSchemaPageMediaSizeOption.get_WidthInMicrons, IPrintSchemaPageMediaSizeOption::WidthInMicrons, IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, WidthInMicrons property [Print Devices], WidthInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, get_WidthInMicrons, print.iprintschemapagemediasizeoption_widthinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::WidthInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

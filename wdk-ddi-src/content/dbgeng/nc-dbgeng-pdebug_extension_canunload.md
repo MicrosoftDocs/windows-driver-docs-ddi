@@ -6,11 +6,8 @@ description: The DebugExtensionCanUnload callback function checks whether a debu
 old-location: debugger\debugextensioncanunload.htm
 tech.root: debugger
 ms.assetid: 6CF651D7-7F5F-4622-8FDF-8BFF4E4A701D
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], PDEBUG_EXTENSION_CANUNLOAD, PDEBUG_EXTENSION_CANUNLOAD callback, dbgeng/DebugExtensionCanUnload, debugger.debugextensioncanunload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

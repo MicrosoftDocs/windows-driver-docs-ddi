@@ -4,7 +4,6 @@ title: IDebugHostBaseClass::GetOffset
 author: windows-driver-content
 description: The GetOffset method returns the offset of the base class from the base address of the derived class.
 ms.assetid: 13e58ad4-e518-4861-ba38-666e27350160
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::GetOffset, GetOffset, IDebugHostBaseClass.GetOffset, IDebugHostBaseClass::GetOffset, IDebugHostBaseClass.GetOffset

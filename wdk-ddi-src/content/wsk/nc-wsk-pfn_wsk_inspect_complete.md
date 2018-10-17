@@ -6,11 +6,8 @@ description: The WskInspectComplete function completes the inspection of a previ
 old-location: netvista\wskinspectcomplete.htm
 tech.root: netvista
 ms.assetid: 31846ec9-0a4b-4e1f-9c14-c1b139f39c55
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE callback, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

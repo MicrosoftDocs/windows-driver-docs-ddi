@@ -6,11 +6,8 @@ description: This is a Callback interface that is called by the WIA mini-driver 
 old-location: image\iwiaminidrvtransfercallback.htm
 tech.root: image
 ms.assetid: A3D874CB-1F43-4AA0-975B-35C0C5F7A13C
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices],described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wiamindr_lh.h
 req.include-header: 

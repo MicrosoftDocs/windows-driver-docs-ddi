@@ -6,11 +6,8 @@ description: The FltGetVolumeName routine gets the volume name for a given volum
 old-location: ifsk\fltgetvolumename.htm
 tech.root: ifsk
 ms.assetid: 50815b33-d417-4499-9423-f65697396200
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml, FltGetVolumeName, FltGetVolumeName routine [Installable File System Drivers], fltkernel/FltGetVolumeName, ifsk.fltgetvolumename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

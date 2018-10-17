@@ -4,12 +4,9 @@ title: _D3DCMPFUNC
 author: windows-driver-content
 description: 
 ms.assetid: f7ce8d22-bd17-407b-a8d8-7a849183ba7e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DCMPFUNC, D3DCMPFUNC, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

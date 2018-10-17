@@ -6,11 +6,8 @@ description: This enumeration describes the RILC2KMRLPARAMMASK.
 old-location: netvista\rilc2kmrlparammask.htm
 tech.root: netvista
 ms.assetid: 145300be-6db8-48fd-9b8a-3b6d8532a1b1
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: RILC2KMRLPARAMMASK, RILC2KMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_C2KMRL_BASELAT, RIL_PARAM_C2KMRL_BASELONG, RIL_PARAM_C2KMRL_BSID, RIL_PARAM_C2KMRL_GPSSECONDS, RIL_PARAM_C2KMRL_NID, RIL_PARAM_C2KMRL_PILOTSTRENGTH, RIL_PARAM_C2KMRL_REFPN, RIL_PARAM_C2KMRL_SERVING, RIL_PARAM_C2KMRL_SID, RIL_PARAM_C2KRML_ALL, netvista.rilc2kmrlparammask, rilapitypes/RILC2KMRLPARAMMASK, rilapitypes/RIL_PARAM_C2KMRL_BASELAT, rilapitypes/RIL_PARAM_C2KMRL_BASELONG, rilapitypes/RIL_PARAM_C2KMRL_BSID, rilapitypes/RIL_PARAM_C2KMRL_GPSSECONDS, rilapitypes/RIL_PARAM_C2KMRL_NID, rilapitypes/RIL_PARAM_C2KMRL_PILOTSTRENGTH, rilapitypes/RIL_PARAM_C2KMRL_REFPN, rilapitypes/RIL_PARAM_C2KMRL_SERVING, rilapitypes/RIL_PARAM_C2KMRL_SID, rilapitypes/RIL_PARAM_C2KRML_ALL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h

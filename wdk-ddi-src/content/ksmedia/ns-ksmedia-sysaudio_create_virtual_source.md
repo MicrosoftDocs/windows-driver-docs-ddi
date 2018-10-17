@@ -6,11 +6,8 @@ description: The SYSAUDIO_CREATE_VIRTUAL_SOURCE structure is used to create a mi
 old-location: audio\sysaudio_create_virtual_source.htm
 tech.root: audio
 ms.assetid: c9024cf0-aa0c-4652-89c1-3f2e6f622b3d
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, audio.sysaudio_create_virtual_source, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

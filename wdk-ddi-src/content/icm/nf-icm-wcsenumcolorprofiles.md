@@ -6,11 +6,8 @@ description: The WcsEnumColorProfiles function enumerates all color profiles tha
 old-location: print\wcsenumcolorprofiles.htm
 tech.root: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: WcsEnumColorProfiles, WcsEnumColorProfiles function [Print Devices], colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
 req.include-header:

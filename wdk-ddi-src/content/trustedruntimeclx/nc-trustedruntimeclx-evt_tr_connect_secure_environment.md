@@ -4,11 +4,8 @@ title: EVT_TR_CONNECT_SECURE_ENVIRONMENT
 author: windows-driver-content
 description: 
 ms.assetid: 4fad5c91-d436-46cd-b3ca-41b48b718506
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

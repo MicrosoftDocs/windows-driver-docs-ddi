@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video processor input view state.
 old-location: display\calcprivatevideoprocessorinputviewsize.htm
 ms.assetid: 3cdf467c-41f5-4a44-b10a-41aeb76ca815
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CalcPrivateVideoProcessorInputViewSize, CalcPrivateVideoProcessorInputViewSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE callback, d3d10umddi/CalcPrivateVideoProcessorInputViewSize, display.calcprivatevideoprocessorinputviewsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

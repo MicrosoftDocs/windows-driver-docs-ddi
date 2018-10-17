@@ -6,11 +6,8 @@ description: The IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request is sent by
 old-location: buses\ioctl_usb_get_hub_information_ex.htm
 tech.root: usbref
 ms.assetid: 518AB292-A1E7-48CE-B967-C6559580E326
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_HUB_INFORMATION_EX, IOCTL_USB_GET_HUB_INFORMATION_EX control, IOCTL_USB_GET_HUB_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_hub_information_ex, usbioctl/IOCTL_USB_GET_HUB_INFORMATION_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

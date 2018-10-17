@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_SERENUM_REMOVE_SELF request invalidates the bus 
 old-location: serports\ioctl_internal_serenum_remove_self.htm
 tech.root: serports
 ms.assetid: 1607439d-fc94-4ebd-84c8-bb5cabdeaab9
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_INTERNAL_SERENUM_REMOVE_SELF, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control code [Serial Ports], ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF, senumref_e7d31955-3eb4-4769-a7fa-84b55272f47a.xml, serports.ioctl_internal_serenum_remove_self
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h

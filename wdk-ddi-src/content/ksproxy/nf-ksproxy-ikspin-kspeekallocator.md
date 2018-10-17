@@ -6,11 +6,8 @@ description: The KsPeekAllocator method returns a pointer to an IMemAllocator in
 old-location: stream\ikspin_kspeekallocator.htm
 tech.root: stream
 ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

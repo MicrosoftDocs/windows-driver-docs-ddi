@@ -4,11 +4,8 @@ title: DXGKCB_ACQUIREHANDLEDATA
 author: windows-driver-content
 description: Acquires a resource handle.
 ms.assetid: e4ac45bd-29c0-4114-a68c-a43978c37b89
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

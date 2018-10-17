@@ -6,11 +6,8 @@ description: The wiasWritePropFloat function writes a single floating-point prop
 old-location: image\wiaswritepropfloat.htm
 tech.root: image
 ms.assetid: 097cd455-018e-46ef-8b8f-8eae7ea3eaff
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaswritepropfloat, wiamdef/wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

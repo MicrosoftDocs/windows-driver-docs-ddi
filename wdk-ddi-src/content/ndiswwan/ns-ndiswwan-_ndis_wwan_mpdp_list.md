@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces for the mobile broadband device representing the primary PDP context/EPS bearer.
 tech.root: netvista
 ms.assetid: 42de1468-e1ef-4391-a454-c7978987ded1
-ms.author: windowsdriverdev
 ms.date: 06/25/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_MPDP_LIST, NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST, 
 req.header: ndiswwan.h
 req.include-header:

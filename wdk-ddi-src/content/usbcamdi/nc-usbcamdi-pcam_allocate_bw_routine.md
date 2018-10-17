@@ -6,11 +6,8 @@ description: A camera minidriver's CamAllocateBandwidth callback function select
 old-location: stream\camallocatebandwidth.htm
 tech.root: stream
 ms.assetid: 0dd01bf7-04a8-4d20-982a-1ec81076583f
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, PCAM_ALLOCATE_BW_ROUTINE callback, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

@@ -6,11 +6,8 @@ description: IDebugDataSpaces3 interface
 old-location: debugger\idebugdataspaces3.htm
 tech.root: debugger
 ms.assetid: a5da1ed0-c4e6-4ab8-b581-64bc7d0519f2
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces3, debugger.idebugdataspaces3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: A driver's EvtInterruptDpc event callback function processes interr
 old-location: wdf\evtinterruptdpc.htm
 tech.root: wdf
 ms.assetid: d2d505e0-aeac-4871-8c60-d026b2833043
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFInterruptObjectRef_9d7e9cb2-6cfd-4b39-82c8-8a29033e390a.xml, EVT_WDF_INTERRUPT_DPC, EVT_WDF_INTERRUPT_DPC callback, EvtInterruptDpc, EvtInterruptDpc callback function, kmdf.evtinterruptdpc, wdf.evtinterruptdpc, wdfinterrupt/EvtInterruptDpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

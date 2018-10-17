@@ -6,11 +6,8 @@ description: The KSEVENT_TUNER_INITIATE_SCAN_S structure is used in the KSEVENT_
 old-location: stream\ksevent_tuner_initiate_scan_s.htm
 tech.root: stream
 ms.assetid: e690c596-d339-4489-97f3-02cacfdc5b04
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S structure [Streaming Media Devices], PKSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S structure pointer [Streaming Media Devices], ksmedia/KSEVENT_TUNER_INITIATE_SCAN_S, ksmedia/PKSEVENT_TUNER_INITIATE_SCAN_S, stream.ksevent_tuner_initiate_scan_s, vidcapstruct_569c5d77-3ec5-48ed-bf87-0c41297d8f9b.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

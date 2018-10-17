@@ -6,11 +6,8 @@ description: An ExTimerDeleteCallback callback routine runs when the operating s
 old-location: kernel\extimerdeletecallback.htm
 tech.root: kernel
 ms.assetid: 6066CDD4-D2BA-4CF8-AF1C-189812B150D5
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: EXT_DELETE_CALLBACK, ExTimerDeleteCallback, ExTimerDeleteCallback routine [Kernel-Mode Driver Architecture], kernel.extimerdeletecallback, wdm/ExTimerDeleteCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

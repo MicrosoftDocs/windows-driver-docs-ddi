@@ -4,11 +4,8 @@ title: _D3DKMT_DESTROY_OUTPUTDUPL
 author: windows-driver-content
 description: Used to destroy output duplicate.
 ms.assetid: 18f80d41-3bdb-4e7d-9232-dbbcbd8e9a0e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_DESTROY_OUTPUTDUPL, D3DKMT_DESTROY_OUTPUTDUPL, 
 req.header: d3dkmthk.h
 req.include-header:

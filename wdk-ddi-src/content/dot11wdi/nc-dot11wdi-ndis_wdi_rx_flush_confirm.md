@@ -6,11 +6,8 @@ description: The NdisWdiRxFlushConfirm callback function indicates completion of
 old-location: netvista\ndiswdirxflushconfirm.htm
 tech.root: netvista
 ms.assetid: CEED709C-F295-4633-B7C1-4719EDDC7CD4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_RX_FLUSH_CONFIRM, NDIS_WDI_RX_FLUSH_CONFIRM callback, NdisWdiRxFlushConfirm, NdisWdiRxFlushConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxFlushConfirm, netvista.ndiswdirxflushconfirm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

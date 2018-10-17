@@ -6,11 +6,8 @@ description: This interface allows a miniport driver to use KS properties that a
 old-location: audio\iminiportstreamaudioenginenode.htm
 tech.root: audio
 ms.assetid: B3F7D3AC-C756-47D2-9E7C-7930621753C3
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices],described, audio.iminiportstreamaudioenginenode, portcls/IMiniportStreamAudioEngineNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

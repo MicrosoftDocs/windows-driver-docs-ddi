@@ -4,7 +4,6 @@ title: operator= function
 author: windows-driver-content
 description: The assignment operator for the location function.
 ms.assetid: 34b62c89-11e9-4221-8cd8-2b599608e719
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator=

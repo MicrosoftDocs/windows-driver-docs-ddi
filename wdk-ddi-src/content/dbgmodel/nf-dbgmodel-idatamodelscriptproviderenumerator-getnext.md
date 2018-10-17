@@ -4,7 +4,6 @@ title: IDataModelScriptProviderEnumerator::GetNext
 author: windows-driver-content
 description: Gets the next script provider which is being enumerated and moves the enumerator to the next position. 
 ms.assetid: d405006e-12bd-4540-be64-48e98a8651c1
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProviderEnumerator::GetNext, GetNext, IDataModelScriptProviderEnumerator.GetNext, IDataModelScriptProviderEnumerator::GetNext, IDataModelScriptProviderEnumerator.GetNext

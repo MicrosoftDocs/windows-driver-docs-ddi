@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getcellbroadcastmsgconfig.htm
 tech.root: netvista
 ms.assetid: eeb6392c-a399-4e08-b4f8-54577beddf19
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetCellBroadcastMsgConfig, RIL_GetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getcellbroadcastmsgconfig, rilapi/RIL_GetCellBroadcastMsgConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

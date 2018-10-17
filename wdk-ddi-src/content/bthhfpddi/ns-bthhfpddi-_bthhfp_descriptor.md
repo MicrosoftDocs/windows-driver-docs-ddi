@@ -6,11 +6,8 @@ description: The BTHHFP_DESCRIPTOR data structure stores information describing 
 old-location: audio\bthhfp_descriptor.htm
 tech.root: audio
 ms.assetid: A3C1E53B-2E41-437A-8613-C43DCD4768B5
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthhfpddi.h
 req.include-header: 

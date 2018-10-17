@@ -6,11 +6,8 @@ description: The RtlAbsoluteToSelfRelativeSD routine creates a new security desc
 old-location: ifsk\rtlabsolutetoselfrelativesd.htm
 tech.root: ifsk
 ms.assetid: e6247856-5abf-44ea-afe8-9be3f61271a4
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlAbsoluteToSelfRelativeSD, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], ifsk.rtlabsolutetoselfrelativesd, ntifs/RtlAbsoluteToSelfRelativeSD, rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The SampleToRefTime method converts a sample time to a reference ti
 old-location: audio\isynthsinkdmus_sampletoreftime.htm
 tech.root: audio
 ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: ISynthSinkDMus interface [Audio Devices],SampleToRefTime method, ISynthSinkDMus.SampleToRefTime, ISynthSinkDMus::SampleToRefTime, SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

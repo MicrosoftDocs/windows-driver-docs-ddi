@@ -6,11 +6,8 @@ description: The OnInitialize method performs any operations that are necessary 
 old-location: wdf\idriverentry_oninitialize.htm
 tech.root: wdf
 ms.assetid: c676588e-348b-4840-9873-6b1bb2454987
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IDriverEntry interface,OnInitialize method, IDriverEntry.OnInitialize, IDriverEntry::OnInitialize, OnInitialize, OnInitialize method, OnInitialize method,IDriverEntry interface, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, umdf.idriverentry_oninitialize, wdf.idriverentry_oninitialize, wudfddi/IDriverEntry::OnInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

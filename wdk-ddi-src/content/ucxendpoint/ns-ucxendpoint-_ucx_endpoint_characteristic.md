@@ -6,11 +6,8 @@ description: Stores the characteristics of an endpoint.
 old-location: buses\ucx_endpoint_characteristic.htm
 tech.root: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h

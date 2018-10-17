@@ -4,7 +4,6 @@ title: operator- function
 author: windows-driver-content
 description: Subtraction operator for the location function.
 ms.assetid: f4d60b2f-ee20-4d11-ac28-1d50fe5e8bfd
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator-

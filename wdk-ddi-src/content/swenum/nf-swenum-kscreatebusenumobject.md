@@ -6,11 +6,8 @@ description: The KsCreateBusEnumObject function creates a demand-load bus enumer
 old-location: stream\kscreatebusenumobject.htm
 tech.root: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swenum.h
 req.include-header: Swenum.h

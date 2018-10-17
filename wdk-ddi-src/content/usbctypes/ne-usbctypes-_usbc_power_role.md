@@ -4,12 +4,9 @@ title: _USBC_POWER_ROLE
 author: windows-driver-content
 description: Defines power roles of USB Type-C connected devices.
 ms.assetid: ee55031e-ab3a-4bca-92e2-52bc42f01ae9
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBC_POWER_ROLE, USBC_POWER_ROLE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbctypes.h
 req.include-header: usbctypes.h
 req.target-type:

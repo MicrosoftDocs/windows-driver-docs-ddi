@@ -6,11 +6,8 @@ description: Initializes a UCX_ENDPOINT_EVENT_CALLBACKS structure with client dr
 old-location: buses\_ucx_endpoint_event_callbacks_init.htm
 tech.root: usbref
 ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_endpoint_event_callbacks_init, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h

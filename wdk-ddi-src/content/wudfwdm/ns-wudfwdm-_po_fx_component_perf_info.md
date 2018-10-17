@@ -6,11 +6,8 @@ description: The PO_FX_COMPONENT_PERF_INFO structure describes all the sets of p
 old-location: kernel\po_fx_component_perf_info.htm
 tech.root: kernel
 ms.assetid: DA9C020F-18E7-4C6C-AEBB-81B099C80CD0
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_INFO, kernel.po_fx_component_perf_info, wdm/PO_FX_COMPONENT_PERF_INFO, wdm/PPO_FX_COMPONENT_PERF_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wudfwdm.h
 req.include-header: Wudfwdm.h

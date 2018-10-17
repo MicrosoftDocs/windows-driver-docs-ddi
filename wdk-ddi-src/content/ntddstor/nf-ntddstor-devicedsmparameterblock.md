@@ -4,7 +4,6 @@ title: DeviceDsmParameterBlock function
 author: windows-driver-content
 description: The DeviceDsmParameterBlock function gets the parameter block for a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 60c25727-7218-4b5e-935f-fb34fe926da5
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmParameterBlock

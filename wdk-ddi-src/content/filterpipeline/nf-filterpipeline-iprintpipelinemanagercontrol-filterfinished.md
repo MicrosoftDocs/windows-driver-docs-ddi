@@ -6,11 +6,8 @@ description: The FilterFinished method reports that a filter is finished process
 old-location: print\iprintpipelinemanagercontrol_filterfinished.htm
 tech.root: print
 ms.assetid: 6393b959-f67a-42e8-bb2b-e830bcf0d45f
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: FilterFinished, FilterFinished method [Print Devices], FilterFinished method [Print Devices],IPrintPipelineManagerControl interface, IPrintPipelineManagerControl interface [Print Devices],FilterFinished method, IPrintPipelineManagerControl.FilterFinished, IPrintPipelineManagerControl::FilterFinished, filterpipeline/IPrintPipelineManagerControl::FilterFinished, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, print.iprintpipelinemanagercontrol_filterfinished
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

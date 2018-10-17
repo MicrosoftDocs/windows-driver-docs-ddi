@@ -6,11 +6,8 @@ description: Miniport drivers call NdisMIdleNotificationComplete to complete a p
 old-location: netvista\ndismidlenotificationcomplete.htm
 tech.root: netvista
 ms.assetid: A6936B25-F804-4EF3-909C-7838346AC37E
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMIdleNotificationComplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationComplete, netvista.ndismidlenotificationcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

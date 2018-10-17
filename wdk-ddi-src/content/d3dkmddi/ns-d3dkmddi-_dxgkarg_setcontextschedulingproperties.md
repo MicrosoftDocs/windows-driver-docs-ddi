@@ -4,11 +4,8 @@ title: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
 author: windows-driver-content
 description: Arguments used to set up or modify the scheduling properties for a device context.
 ms.assetid: 907e8775-b899-406f-b104-7b5308f7f177
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES, DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES,
 req.header: d3dkmddi.h
 req.include-header:

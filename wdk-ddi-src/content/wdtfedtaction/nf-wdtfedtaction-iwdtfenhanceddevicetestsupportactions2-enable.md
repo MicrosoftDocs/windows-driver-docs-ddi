@@ -6,11 +6,8 @@ description: Enables the Enhanced Device Test (EDT) filter driver on the target 
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2_enable.htm
 tech.root: dtf
 ms.assetid: f28d5220-1f02-4984-a4d1-d4c45ea16aa7
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: Enable, Enable method [Windows Device Testing Framework], Enable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],Enable method, IWDTFEnhancedDeviceTestSupportActions2.Enable, IWDTFEnhancedDeviceTestSupportActions2::Enable, dtf.iwdtfenhanceddevicetestsupportactions2_enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfedtaction.h
 req.include-header: 

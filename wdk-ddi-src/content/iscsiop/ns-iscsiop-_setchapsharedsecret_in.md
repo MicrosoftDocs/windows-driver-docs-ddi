@@ -6,11 +6,8 @@ description: The SetCHAPSharedSecret_IN structure holds the input data for the S
 old-location: storage\setchapsharedsecret_in.htm
 tech.root: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], _SetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

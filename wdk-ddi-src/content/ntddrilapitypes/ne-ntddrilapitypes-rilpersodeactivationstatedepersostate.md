@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilpersodeactivationstatedepersostate.htm
 tech.root: netvista
 ms.assetid: 81147a47-b5aa-4f00-812d-2c6cf9d5ab8b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_DEPERSOSTATE_CK_REQUIRED, RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, netvista.rilpersodeactivationstatedepersostate, ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

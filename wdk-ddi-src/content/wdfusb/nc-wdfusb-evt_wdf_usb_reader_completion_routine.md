@@ -6,11 +6,8 @@ description: A driver's EvtUsbTargetPipeReadComplete event callback function inf
 old-location: wdf\evtusbtargetpipereadcomplete.htm
 tech.root: wdf
 ms.assetid: da762d78-6d73-4ab9-83a8-297c6f48855b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_6c37ab84-2c88-41d5-8a63-3e74207083ed.xml, EVT_WDF_USB_READER_COMPLETION_ROUTINE, EVT_WDF_USB_READER_COMPLETION_ROUTINE callback, EvtUsbTargetPipeReadComplete, EvtUsbTargetPipeReadComplete callback function, kmdf.evtusbtargetpipereadcomplete, wdf.evtusbtargetpipereadcomplete, wdfusb/EvtUsbTargetPipeReadComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfusb.h
 req.include-header: Wdf.h

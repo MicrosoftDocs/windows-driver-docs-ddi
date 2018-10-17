@@ -6,11 +6,8 @@ description: The NdisInitializeEvent function sets up an event object during dri
 old-location: netvista\ndisinitializeevent.htm
 tech.root: netvista
 ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisInitializeEvent, NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeEvent, ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, netvista.ndisinitializeevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

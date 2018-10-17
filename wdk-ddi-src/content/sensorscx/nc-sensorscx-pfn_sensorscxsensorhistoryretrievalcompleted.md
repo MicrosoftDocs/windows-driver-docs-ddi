@@ -4,11 +4,8 @@ title: *PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
 author: windows-driver-content
 description: Indicates that the history retrieval has completed.
 ms.assetid: 62f81ebc-b081-42d6-a757-44d94b1da693
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The wiauDbgLegacyTrace function logs a trace message.
 old-location: image\wiaudbglegacytrace.htm
 tech.root: image
 ms.assetid: ccbcab46-0af9-4c21-896f-14096f1461bc
-ms.author: windowsdriverdev
 ms.date: 9/7/2018
 ms.keywords: image.wiaudbglegacytrace, wiauDbgLegacyTrace, wiauDbgLegacyTrace function [Imaging Devices], wiauFncs_a780f296-5780-4589-9aa6-1e61ebec013e.xml, wiautil/wiauDbgLegacyTrace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

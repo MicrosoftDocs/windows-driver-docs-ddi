@@ -6,11 +6,8 @@ description: TheMRxCompleteBufferingStateChangeRequest routine is called by RDBS
 old-location: ifsk\mrxcompletebufferingstatechangerequest.htm
 tech.root: ifsk
 ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h

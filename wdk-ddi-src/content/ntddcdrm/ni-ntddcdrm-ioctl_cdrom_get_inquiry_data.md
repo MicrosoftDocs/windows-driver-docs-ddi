@@ -6,11 +6,8 @@ description: Returns the SCSI inquiry data for the CD-ROM device. This IOCTL can
 old-location: storage\ioctl_cdrom_get_inquiry_data.htm
 tech.root: storage
 ms.assetid: b327bdd4-f145-4211-a77c-80dffad16547
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_INQUIRY_DATA, IOCTL_CDROM_GET_INQUIRY_DATA control, IOCTL_CDROM_GET_INQUIRY_DATA control code [Storage Devices], k307_9b073c58-022f-47c3-aeba-716277accce5.xml, ntddcdrm/IOCTL_CDROM_GET_INQUIRY_DATA, storage.ioctl_cdrom_get_inquiry_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

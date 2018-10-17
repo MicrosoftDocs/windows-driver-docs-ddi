@@ -6,11 +6,8 @@ description: The PEP_ACPI_GPIO_RESOURCE structure describes the ACPI configurati
 old-location: kernel\pep_acpi_gpio_resource.htm
 tech.root: kernel
 ms.assetid: 1B8AD1A9-9EB0-49A8-B791-0453C768A974
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, pepfx/PEP_ACPI_GPIO_RESOURCE, pepfx/PPEP_ACPI_GPIO_RESOURCE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h

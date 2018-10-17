@@ -6,11 +6,8 @@ description: The GetValue method gets the value of one of the target's registers
 old-location: debugger\getvalue.htm
 tech.root: debugger
 ms.assetid: 227d7b4f-bf94-4763-bb1f-32efbc087bb1
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetValue, GetValue method [Windows Debugging], GetValue method [Windows Debugging],IDebugRegisters interface, GetValue method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetValue method, IDebugRegisters2 interface [Windows Debugging],GetValue method, IDebugRegisters2.GetValue, IDebugRegisters2::GetValue, IDebugRegisters::GetValue, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, dbgeng/IDebugRegisters2::GetValue, dbgeng/IDebugRegisters::GetValue, debugger.getvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: DbgEng.h

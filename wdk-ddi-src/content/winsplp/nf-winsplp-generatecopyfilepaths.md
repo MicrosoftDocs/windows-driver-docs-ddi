@@ -6,11 +6,8 @@ description: A Point and Print DLL's GenerateCopyFilePaths function is used for 
 old-location: print\generatecopyfilepaths.htm
 tech.root: print
 ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, winsplp/GenerateCopyFilePaths
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

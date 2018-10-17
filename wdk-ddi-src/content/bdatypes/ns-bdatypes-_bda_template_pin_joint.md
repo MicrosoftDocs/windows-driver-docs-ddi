@@ -6,11 +6,8 @@ description: The BDA_TEMPLATE_PIN_JOINT structure describes a joint in a templat
 old-location: stream\bda_template_pin_joint.htm
 tech.root: stream
 ms.assetid: 83df4c9e-7122-4087-9d03-98f2eeed4ec4
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PBDA_TEMPLATE_PIN_JOINT, BDA_TEMPLATE_PIN_JOINT, BDA_TEMPLATE_PIN_JOINT structure [Streaming Media Devices], PBDA_TEMPLATE_PIN_JOINT, PBDA_TEMPLATE_PIN_JOINT structure pointer [Streaming Media Devices], _BDA_TEMPLATE_PIN_JOINT, bdaref_d1704bcd-5d90-4fa2-b675-509f31737dd4.xml, bdatypes/BDA_TEMPLATE_PIN_JOINT, bdatypes/PBDA_TEMPLATE_PIN_JOINT, stream.bda_template_pin_joint"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: Bdatypes.h

@@ -6,11 +6,8 @@ description: A client application sends message data and confirms publication wi
 old-location: nfpdrivers\ioctl_nfp_set_payload.htm
 tech.root: nfpdrivers
 ms.assetid: FF89A868-1289-4D1D-BFA8-17E65ED7F8C4
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_NFP_SET_PAYLOAD, IOCTL_NFP_SET_PAYLOAD control, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_SET_PAYLOAD, nfpdrivers.ioctl_nfp_set_payload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: nfpdev.h
 req.include-header: 

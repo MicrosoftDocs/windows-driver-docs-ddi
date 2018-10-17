@@ -6,11 +6,8 @@ description: The Set method sets a property identified by a property-set GUID an
 old-location: stream\ikspropertyset_set.htm
 tech.root: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],Set method, IKsPropertySet.Set, IKsPropertySet::Set, Set, Set method [Streaming Media Devices], Set method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, stream.ikspropertyset_set
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dsound.h
 req.include-header: Ksproxy.h, Ksproxy.h, Dsound.h, Ksproxy.h, Ksproxy.h, Dsound.h

@@ -5,12 +5,9 @@ author: windows-driver-content
 description: Specifies the low power protocol offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 06a56aed-bad4-499c-adb6-3aa677ea2e88
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: enum
 ms.keywords: _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS, NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type:

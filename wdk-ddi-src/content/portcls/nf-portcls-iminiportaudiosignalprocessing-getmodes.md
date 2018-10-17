@@ -6,11 +6,8 @@ description: The GetModes method, Gets the audio signal processing modes support
 old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 tech.root: audio
 ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetModes, GetModes method [Audio Devices], GetModes method [Audio Devices],IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices],GetModes method, IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

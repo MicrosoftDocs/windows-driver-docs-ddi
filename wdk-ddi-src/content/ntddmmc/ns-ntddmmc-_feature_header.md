@@ -6,11 +6,8 @@ description: The FEATURE_HEADER structure is used in conjunction with the IOCTL_
 old-location: storage\feature_header.htm
 tech.root: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_HEADER, FEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], PFEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], _FEATURE_HEADER, ntddmmc/FEATURE_HEADER, ntddmmc/PFEATURE_HEADER, storage.feature_header, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h

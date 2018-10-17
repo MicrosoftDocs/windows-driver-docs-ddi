@@ -4,11 +4,8 @@ title: _D3DKMT_VIRTUALADDRESSFLAGS
 author: windows-driver-content
 description: Contains info about virtual address flags.
 ms.assetid: 6086c0b9-6550-4400-8551-2d29d142c2e5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_VIRTUALADDRESSFLAGS, D3DKMT_VIRTUALADDRESSFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

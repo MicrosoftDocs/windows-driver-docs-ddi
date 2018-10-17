@@ -6,11 +6,8 @@ description: The ZwFlushVirtualMemory routine flushes a range of virtual address
 old-location: kernel\zwflushvirtualmemory.htm
 tech.root: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtFlushVirtualMemory, ZwFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, ntifs/NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

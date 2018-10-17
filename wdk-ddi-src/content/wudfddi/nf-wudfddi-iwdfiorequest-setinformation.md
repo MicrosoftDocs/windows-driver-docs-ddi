@@ -6,11 +6,8 @@ description: The SetInformation method sets the size of information for a reques
 old-location: wdf\iwdfiorequest_setinformation.htm
 tech.root: wdf
 ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest interface,SetInformation method, IWDFIoRequest.SetInformation, IWDFIoRequest::SetInformation, SetInformation, SetInformation method, SetInformation method,IWDFIoRequest interface, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, umdf.iwdfiorequest_setinformation, wdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

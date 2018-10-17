@@ -6,11 +6,8 @@ description: The operator= overloaded assignment operator sets the typed data re
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
-ms.author: windowsdriverdev
 ms.date: 1/19/2018
 ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtCheckedPointer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, ExtDeclAlignedBuffer::operator=, ExtBuffer::operator=, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging], ExtDeclAlignedBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

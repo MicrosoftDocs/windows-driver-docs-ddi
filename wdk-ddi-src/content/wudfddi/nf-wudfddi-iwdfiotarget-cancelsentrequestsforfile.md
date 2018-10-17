@@ -6,11 +6,8 @@ description: The CancelSentRequestsForFile method cancels all I/O requests that 
 old-location: wdf\iwdfiotarget_cancelsentrequestsforfile.htm
 tech.root: wdf
 ms.assetid: df008ee8-352f-4655-b4c0-750eeb281e6a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CancelSentRequestsForFile, CancelSentRequestsForFile method, CancelSentRequestsForFile method,IWDFIoTarget interface, IWDFIoTarget interface,CancelSentRequestsForFile method, IWDFIoTarget.CancelSentRequestsForFile, IWDFIoTarget::CancelSentRequestsForFile, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, umdf.iwdfiotarget_cancelsentrequestsforfile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

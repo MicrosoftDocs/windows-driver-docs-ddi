@@ -6,11 +6,8 @@ description: The WdfDmaTransactionInitializeUsingRequest method initializes a sp
 old-location: wdf\wdfdmatransactioninitializeusingrequest.htm
 tech.root: wdf
 ms.assetid: 5a59c1cc-b5a9-4e94-966d-9998a98d6ad2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_b61c1d2b-b62e-4f04-b7ff-53a8e819062a.xml, WdfDmaTransactionInitializeUsingRequest, WdfDmaTransactionInitializeUsingRequest method, kmdf.wdfdmatransactioninitializeusingrequest, wdf.wdfdmatransactioninitializeusingrequest, wdfdmatransaction/WdfDmaTransactionInitializeUsingRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

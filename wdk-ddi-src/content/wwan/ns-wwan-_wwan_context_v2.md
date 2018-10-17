@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The WWAN_CONTEXT_V2 structure represents a provisioned context that is supported by a mobile broadband (MBB) device. This structure extends the existing WWAN_CONTEXT structure. 
 tech.root: netvista
 ms.assetid: 8f62c242-bfae-45f3-8772-f64b61fabc33
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _WWAN_CONTEXT_V2, WWAN_CONTEXT_V2, *PWWAN_CONTEXT_V2, 
 req.header: wwan.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The SetPolicy method specifies the interrupt priority, processor af
 old-location: wdf\iwdfinterrupt_setpolicy.htm
 tech.root: wdf
 ms.assetid: EDBCBB37-41A4-4234-BE8C-4C8739BC287B
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFInterrupt interface,SetPolicy method, IWDFInterrupt.SetPolicy, IWDFInterrupt::SetPolicy, SetPolicy, SetPolicy method, SetPolicy method,IWDFInterrupt interface, umdf.iwdfinterrupt_setpolicy, wdf.iwdfinterrupt_setpolicy, wudfddi/IWDFInterrupt::SetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 

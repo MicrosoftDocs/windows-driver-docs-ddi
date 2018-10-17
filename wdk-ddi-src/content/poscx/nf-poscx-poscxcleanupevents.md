@@ -6,11 +6,8 @@ description: PosCxCleanupEvents is called to clean up all pending events for a g
 old-location: pos\poscxcleanupevents.htm
 tech.root: pos
 ms.assetid: AD97BA14-8786-47A2-B551-2DB6FC7F83A8
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosCxCleanupEvents, PosCxCleanupEvents function, pos.poscxcleanupevents, poscx/PosCxCleanupEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

@@ -6,11 +6,8 @@ description: The GetExtensionFunctionWide method returns a pointer to an extensi
 old-location: debugger\getextensionfunctionwide.htm
 tech.root: debugger
 ms.assetid: 351859d5-89fb-4756-a75b-fd4048cb20ef
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionFunctionWide method, IDebugControl4.GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide, dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

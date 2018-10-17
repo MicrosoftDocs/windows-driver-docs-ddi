@@ -6,11 +6,8 @@ description: The DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure describes how the
 old-location: display\dxgkmdt_opm_acp_and_cgmsa_signaling.htm
 tech.root: display
 ms.assetid: edc0472c-d222-49f5-9d26-6b7e8c032031
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure [Display Devices], DmStructs_0d89c3c0-96f1-4b88-8c79-a33ad8246e4a.xml, _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_acp_and_cgmsa_signaling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h

@@ -6,11 +6,8 @@ description: The ISensorDriver::OnGetProperties method retrieves values for the 
 old-location: sensors\isensordriver_ongetproperties.htm
 tech.root: sensors
 ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetProperties method, ISensorDriver.OnGetProperties, ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetproperties, sensorsclassextension/ISensorDriver::OnGetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

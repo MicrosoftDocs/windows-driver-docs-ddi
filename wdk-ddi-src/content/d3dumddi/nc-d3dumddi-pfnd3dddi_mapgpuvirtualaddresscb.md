@@ -6,11 +6,8 @@ description: pfnMapGpuVirtualAddressCb maps graphics processing unit (GPU) virtu
 old-location: display\pfnmapgpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: DA67A98C-BE9C-412D-9382-CAC5B05FEE3B
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_MAPGPUVIRTUALADDRESSCB, PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback, d3dumddi/pfnMapGpuVirtualAddressCb, display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb, pfnMapGpuVirtualAddressCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_phy_type.htm
 tech.root: netvista
 ms.assetid: 45ef8085-512e-4f9b-a7ea-e4f445555cf8
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_PHY_TYPE, DOT11_PHY_TYPE, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, PDOT11_PHY_TYPE, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE, dot11_phy_type_IHV_end, dot11_phy_type_IHV_start, dot11_phy_type_any, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_fhss, dot11_phy_type_hrdsss, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_ofdm, dot11_phy_type_unknown, dot11_phy_type_vht, netvista.dot11_phy_type, windot11/DOT11_PHY_TYPE, windot11/PDOT11_PHY_TYPE, windot11/dot11_phy_type_IHV_end, windot11/dot11_phy_type_IHV_start, windot11/dot11_phy_type_any, windot11/dot11_phy_type_dsss, windot11/dot11_phy_type_erp, windot11/dot11_phy_type_fhss, windot11/dot11_phy_type_hrdsss, windot11/dot11_phy_type_ht, windot11/dot11_phy_type_irbaseband, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_unknown, windot11/dot11_phy_type_vht"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
 req.include-header: Ndis.h

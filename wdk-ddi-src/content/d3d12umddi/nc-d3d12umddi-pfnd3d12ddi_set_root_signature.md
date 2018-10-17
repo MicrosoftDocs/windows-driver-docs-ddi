@@ -4,11 +4,8 @@ title: PFND3D12DDI_SET_ROOT_SIGNATURE
 author: windows-driver-content
 description: Sets the root signature.
 ms.assetid: 82e4e567-c176-4c16-ba6f-3f901a91f7ec
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

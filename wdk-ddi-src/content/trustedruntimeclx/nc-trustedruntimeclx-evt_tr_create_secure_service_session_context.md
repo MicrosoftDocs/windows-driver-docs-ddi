@@ -4,11 +4,8 @@ title: EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
 author: windows-driver-content
 description: 
 ms.assetid: 398accdf-300c-43d5-b460-f87f83c6edfc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

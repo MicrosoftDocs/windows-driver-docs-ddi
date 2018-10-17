@@ -4,11 +4,8 @@ title: _D3DDDICB_QUERYADAPTERINFO2
 author: windows-driver-content
 description: Contains information that describes the graphics adapter.
 ms.assetid: ee97cc0b-2486-4fae-9950-af4422d9acb0
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDICB_QUERYADAPTERINFO2, D3DDDICB_QUERYADAPTERINFO2,
 req.header: d3dumddi.h
 req.include-header:

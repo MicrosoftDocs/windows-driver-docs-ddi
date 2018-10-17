@@ -6,11 +6,8 @@ description: The WdfWaitLockRelease method releases a specified wait lock.
 old-location: wdf\wdfwaitlockrelease.htm
 tech.root: wdf
 ms.assetid: f7fb070b-fea4-48d9-8f89-1c01af183ef0
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFSynchroRef_f64028b9-9f56-4d2a-8341-1b305ab02eff.xml, WdfWaitLockRelease, WdfWaitLockRelease method, kmdf.wdfwaitlockrelease, wdf.wdfwaitlockrelease, wdfsync/WdfWaitLockRelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfsync.h
 req.include-header: Wdf.h

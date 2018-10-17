@@ -6,11 +6,8 @@ description: The GetEventCallbacksWide method returns the event callbacks object
 old-location: debugger\geteventcallbackswide.htm
 tech.root: debugger
 ms.assetid: 254eb89f-c330-4fca-8c58-6dbe56861743
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetEventCallbacksWide, GetEventCallbacksWide method [Windows Debugging], GetEventCallbacksWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetEventCallbacksWide method, IDebugClient5.GetEventCallbacksWide, IDebugClient5::GetEventCallbacksWide, dbgeng/IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

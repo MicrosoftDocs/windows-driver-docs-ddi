@@ -4,7 +4,6 @@ title: D3DKMTAdjustFullscreenGamma function
 author: windows-driver-content
 description: Adjusts full screen gamma.
 ms.assetid: 194c2969-02b8-4caa-ba6c-a20fb87507d2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTAdjustFullscreenGamma

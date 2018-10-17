@@ -4,11 +4,8 @@ title: _DXGKARG_SETSCHEDULINGLOGBUFFER
 author: windows-driver-content
 description: Arguments used in the call to DxgkddiSetSchedulingLogBuffer.
 ms.assetid: 717395a0-86b7-4945-b3bf-c991e1c97406
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETSCHEDULINGLOGBUFFER, DXGKARG_SETSCHEDULINGLOGBUFFER,
 req.header: d3dkmddi.h
 req.include-header:

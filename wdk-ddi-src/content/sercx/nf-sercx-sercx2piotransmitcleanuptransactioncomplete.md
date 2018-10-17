@@ -6,11 +6,8 @@ description: The SerCx2PioTransmitCleanupTransactionComplete method notifies ver
 old-location: serports\sercx2piotransmitcleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: 44ADAAB7-E0EE-4908-A0D8-366EC1C3AC2E
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2piotransmitcleanuptransactioncomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

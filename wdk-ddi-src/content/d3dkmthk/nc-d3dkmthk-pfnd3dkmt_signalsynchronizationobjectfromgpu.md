@@ -4,11 +4,8 @@ title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 author: windows-driver-content
 description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU callback function is used to signal a monitored fence.
 ms.assetid: e9e3ae87-849b-40ff-b7f4-e9560a6ef9bd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

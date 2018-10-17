@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTCheckOcclusion function verifies whether the client area of a window is occluded.
 old-location: display\d3dkmtcheckocclusion.htm
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, PFND3DKMT_CHECKOCCLUSION callback, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

@@ -6,11 +6,8 @@ description: The GetExtensionFunction method returns a pointer to an extension f
 old-location: debugger\getextensionfunction.htm
 tech.root: debugger
 ms.assetid: bad50869-472c-4eb7-9bc0-0fa2d27ee753
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetExtensionFunction, GetExtensionFunction method [Windows Debugging], GetExtensionFunction method [Windows Debugging],IDebugControl interface, GetExtensionFunction method [Windows Debugging],IDebugControl2 interface, GetExtensionFunction method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExtensionFunction method, IDebugControl.GetExtensionFunction, IDebugControl2 interface [Windows Debugging],GetExtensionFunction method, IDebugControl2::GetExtensionFunction, IDebugControl3 interface [Windows Debugging],GetExtensionFunction method, IDebugControl3::GetExtensionFunction, IDebugControl::GetExtensionFunction, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, dbgeng/IDebugControl2::GetExtensionFunction, dbgeng/IDebugControl3::GetExtensionFunction, dbgeng/IDebugControl::GetExtensionFunction, debugger.getextensionfunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

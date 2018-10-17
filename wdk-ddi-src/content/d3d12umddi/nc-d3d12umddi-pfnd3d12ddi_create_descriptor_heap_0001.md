@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
 author: windows-driver-content
 description: Create descriptor heap.
 ms.assetid: c60b9860-d115-47ee-aadc-f25c36c789a5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

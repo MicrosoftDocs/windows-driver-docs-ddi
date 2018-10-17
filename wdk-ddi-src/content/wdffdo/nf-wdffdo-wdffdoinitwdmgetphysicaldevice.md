@@ -6,11 +6,8 @@ description: The WdfFdoInitWdmGetPhysicalDevice method retrieves a device's WDM 
 old-location: wdf\wdffdoinitwdmgetphysicaldevice.htm
 tech.root: wdf
 ms.assetid: eba64244-50ff-4c59-a30f-46874c683e63
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_49386e60-3427-449c-8c36-fe2e8bc7fabb.xml, WdfFdoInitWdmGetPhysicalDevice, WdfFdoInitWdmGetPhysicalDevice method, kmdf.wdffdoinitwdmgetphysicaldevice, wdf.wdffdoinitwdmgetphysicaldevice, wdffdo/WdfFdoInitWdmGetPhysicalDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h

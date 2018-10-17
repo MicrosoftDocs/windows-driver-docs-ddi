@@ -6,11 +6,8 @@ description: Returns the status code for the last operation.
 old-location: dtf\iwdtfaction2_getstatus.htm
 tech.root: dtf
 ms.assetid: 39e5bfb8-83fe-4b68-814d-933a26d6d567
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: GetStatus, GetStatus method [Windows Device Testing Framework], GetStatus method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],GetStatus method, IWDTFAction2.GetStatus, IWDTFAction2::GetStatus, Microsoft.WDTF.IWDTFAction2.GetStatus, Microsoft::WDTF::IWDTFAction2::GetStatus, dtf.iwdtfaction2_getstatus, wdtf/IWDTFAction2::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

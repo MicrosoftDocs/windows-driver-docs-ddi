@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMTCreatePagingQueue is used to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 old-location: display\d3dkmtcreatepagingqueue.htm
 ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue function [Display Devices], d3dkmthk/D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

@@ -4,11 +4,8 @@ title: pHalQuerySystemInformation
 author: windows-driver-content
 description: 
 ms.assetid: 1470096d-c598-4724-9107-10678ae46a71
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type: Desktop

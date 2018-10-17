@@ -6,11 +6,8 @@ description: A port monitor server DLL's XcvClosePort function closes a printer 
 old-location: print\xcvcloseport.htm
 tech.root: print
 ms.assetid: 8dfeb2d5-e75e-4e5b-b209-cb23133136f7
-ms.author: windowsdriverdev
 ms.date: 2/2/2018
 ms.keywords: XcvClosePort, winsplp/XcvClosePort, print.xcvcloseport, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml, XcvClosePort function [Print Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

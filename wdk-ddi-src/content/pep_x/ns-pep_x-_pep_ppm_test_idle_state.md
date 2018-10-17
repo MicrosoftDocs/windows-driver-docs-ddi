@@ -6,11 +6,8 @@ description: The PEP_PPM_TEST_IDLE_STATE structure contains information about wh
 old-location: kernel\pep_ppm_test_idle_state.htm
 tech.root: kernel
 ms.assetid: 2B465848-6564-404F-8F5B-E761866278C5
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_TEST_IDLE_STATE, kernel.pep_ppm_test_idle_state, pepfx/PEP_PPM_TEST_IDLE_STATE, pepfx/PPEP_PPM_TEST_IDLE_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h

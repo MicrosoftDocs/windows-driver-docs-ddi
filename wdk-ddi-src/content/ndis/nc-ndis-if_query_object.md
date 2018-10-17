@@ -6,11 +6,8 @@ description: The ProviderQueryObject function retrieves information about a netw
 old-location: netvista\providerqueryobject.htm
 tech.root: netvista
 ms.assetid: dea90ff0-7620-4364-90dc-2dc5d2e34ce1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*IFP_QUERY_OBJECT, *IFP_QUERY_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_QUERY_OBJECT, IF_QUERY_OBJECT callback, ProviderQueryObject, ProviderQueryObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderQueryObject, net_if_provider_functions_ref_8e4d405f-cae0-40bc-8d9d-6d85e5c7ff06.xml, netvista.providerqueryobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

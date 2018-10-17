@@ -6,11 +6,8 @@ description: Gets a value that indicates whether the Enhanced Device Test (EDT) 
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2_isrebootrequired.htm
 tech.root: dtf
 ms.assetid: 76d4f209-e38d-4ab3-94bf-3cc7fdff950c
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],IsRebootRequired method, IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired, IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired, IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, dtf.iwdtfenhanceddevicetestsupportactions2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfedtaction.h
 req.include-header: 

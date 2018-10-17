@@ -4,11 +4,8 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 author: windows-driver-content
 description: Multiplane overlay post composition flags.
 ms.assetid: ba9bc2c7-32e3-4158-96e2-53f0f86cbfcd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

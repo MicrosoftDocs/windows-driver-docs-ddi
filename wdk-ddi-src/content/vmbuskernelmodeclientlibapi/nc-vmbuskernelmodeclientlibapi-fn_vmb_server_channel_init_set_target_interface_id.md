@@ -4,11 +4,8 @@ title: FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID
 author: windows-driver-content
 description: The VmbServerChannelInitSetTargetInterfaceId function sets the target interface type GUID and instance GUID of the channel offer.
 ms.assetid: 895117ce-880e-4f45-95bc-a283087490d1
-ms.author: windowsdriverdev
 ms.date: 09/13/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

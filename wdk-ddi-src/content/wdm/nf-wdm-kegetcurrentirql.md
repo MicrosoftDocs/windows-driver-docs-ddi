@@ -6,11 +6,8 @@ description: The KeGetCurrentIrql routine returns the current IRQL.
 old-location: kernel\kegetcurrentirql.htm
 tech.root: kernel
 ms.assetid: 63c33017-d827-4a8f-bb6f-fd13a2528e0c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, wdm/KeGetCurrentIrql
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

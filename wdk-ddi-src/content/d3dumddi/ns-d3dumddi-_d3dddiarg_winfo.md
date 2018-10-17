@@ -6,11 +6,8 @@ description: The D3DDDIARG_WINFO structure describes a w range for w buffering.
 old-location: display\d3dddiarg_winfo.htm
 tech.root: display
 ms.assetid: 82ab59d7-302a-4e3a-b5e6-6a332eafcbed
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_WINFO, D3DDDIARG_WINFO structure [Display Devices], UMDisplayDriver_param_Structs_6ab282fa-6a76-4712-83d5-77638adb2b7a.xml, _D3DDDIARG_WINFO, d3dumddi/D3DDDIARG_WINFO, display.d3dddiarg_winfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

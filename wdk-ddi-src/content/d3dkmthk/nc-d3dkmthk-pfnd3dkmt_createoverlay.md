@@ -4,11 +4,8 @@ title: PFND3DKMT_CREATEOVERLAY
 author: windows-driver-content
 description: The PFND3DKMT_CREATEOVERLAY callback function enables the overlay hardware if the hardware is capable.
 ms.assetid: 2908f347-a341-4603-95db-3f92b77afc88
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

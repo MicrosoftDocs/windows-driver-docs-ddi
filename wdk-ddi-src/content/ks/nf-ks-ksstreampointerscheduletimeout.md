@@ -6,11 +6,8 @@ description: The KsStreamPointerScheduleTimeout function registers a timeout cal
 old-location: stream\ksstreampointerscheduletimeout.htm
 tech.root: stream
 ms.assetid: 143c4ca2-91ae-49c3-80e0-e7959e4bd297
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsStreamPointerScheduleTimeout, KsStreamPointerScheduleTimeout function [Streaming Media Devices], avfunc_bde904b2-cfb8-45d1-80a1-ef1046d60276.xml, ks/KsStreamPointerScheduleTimeout, stream.ksstreampointerscheduletimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

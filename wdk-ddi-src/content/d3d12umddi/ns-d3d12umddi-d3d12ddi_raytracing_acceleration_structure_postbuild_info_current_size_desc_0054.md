@@ -4,11 +4,8 @@ title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DE
 author: windows-driver-content
 description: The current space requirement for a ray tracing acceleration structure.
 ms.assetid: f7433b53-58ae-47be-b937-9c261dda60c5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

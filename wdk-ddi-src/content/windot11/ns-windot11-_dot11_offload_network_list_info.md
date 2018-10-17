@@ -6,11 +6,8 @@ description: The DOT11_OFFLOAD_NETWORK_LIST_INFO structure describes a network o
 old-location: netvista\dot11_offload_network_list_info.htm
 tech.root: netvista
 ms.assetid: 0FB1D72F-B183-408A-BB84-A9D54B6C276F
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_OFFLOAD_NETWORK_LIST_INFO, netvista.dot11_offload_network_list_info, windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO, windot11/PDOT11_OFFLOAD_NETWORK_LIST_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h

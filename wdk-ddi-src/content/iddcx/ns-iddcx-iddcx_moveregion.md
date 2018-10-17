@@ -6,11 +6,8 @@ description: Gives information about the current move region.
 old-location: display\iddcx_moveregion.htm
 tech.root: display
 ms.assetid: 28974c00-9225-4458-a198-beb4538e3a45
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IDDCX_MOVEREGION, IDDCX_MOVEREGION structure [Display Devices], display.iddcx_moveregion, iddcx/IDDCX_MOVEREGION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

@@ -4,7 +4,6 @@ title: DeviceDsmGetNumberOfDataSetRanges function
 author: windows-driver-content
 description: The DeviceDsmGetNumberOfDataSetRanges function gets the number of data set ranges in a given input length.
 ms.assetid: a53b0fcc-7286-4d65-b4a0-d46b505073e7
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmGetNumberOfDataSetRanges

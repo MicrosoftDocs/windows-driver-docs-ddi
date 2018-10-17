@@ -6,11 +6,8 @@ description: The FsRtlInitializeExtraCreateParameterList routine initializes an 
 old-location: ifsk\fsrtlinitializeextracreateparameterlist.htm
 tech.root: ifsk
 ms.assetid: 79e56363-1098-42bb-8e6a-c4b4c76e7e7c
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlInitializeExtraCreateParameterList, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml, ifsk.fsrtlinitializeextracreateparameterlist, ntifs/FsRtlInitializeExtraCreateParameterList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

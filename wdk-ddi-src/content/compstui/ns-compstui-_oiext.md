@@ -6,11 +6,8 @@ description: The OIEXT structure supplies additional, optional information about
 old-location: print\oiext.htm
 tech.root: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*POIEXT, OIEXT, OIEXT structure [Print Devices], POIEXT, POIEXT structure pointer [Print Devices], _OIEXT, compstui/OIEXT, compstui/POIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compstui.h
 req.include-header: Compstui.h

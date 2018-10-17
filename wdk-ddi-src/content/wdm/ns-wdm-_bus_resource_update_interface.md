@@ -4,11 +4,8 @@ title: _BUS_RESOURCE_UPDATE_INTERFACE
 author: windows-driver-content
 description: Enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_RESOURCE_UPDATE_INTERFACE interface.
 ms.assetid: 8089cc50-7d68-49c0-bc2a-93f55f64b2ce
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _BUS_RESOURCE_UPDATE_INTERFACE, BUS_RESOURCE_UPDATE_INTERFACE, *PBUS_RESOURCE_UPDATE_INTERFACE, 
 req.header: wdm.h
 req.include-header:

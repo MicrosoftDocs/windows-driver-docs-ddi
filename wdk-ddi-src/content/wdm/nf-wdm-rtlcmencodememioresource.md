@@ -6,11 +6,8 @@ description: The RtlCmEncodeMemIoResource routine updates a CM_PARTIAL_RESOURCE_
 old-location: kernel\rtlcmencodememioresource.htm
 tech.root: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, kernel.rtlcmencodememioresource, wdm/RtlCmEncodeMemIoResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

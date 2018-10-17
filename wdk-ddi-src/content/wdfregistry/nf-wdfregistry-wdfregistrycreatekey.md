@@ -6,11 +6,8 @@ description: The WdfRegistryCreateKey method creates and opens a specified regis
 old-location: wdf\wdfregistrycreatekey.htm
 tech.root: wdf
 ms.assetid: acaf7024-b73a-4fe5-89e2-83e28cf2fdd1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml, WdfRegistryCreateKey, WdfRegistryCreateKey method, kmdf.wdfregistrycreatekey, wdf.wdfregistrycreatekey, wdfregistry/WdfRegistryCreateKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

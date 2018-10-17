@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYPROCESSOFFERINFO
 author: windows-driver-content
 description: The PFND3DKMT_QUERYPROCESSOFFERINFO callback function queries the process offer info.
 ms.assetid: 607cf96a-6c35-4eab-adc4-1eb12f2c1eae
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

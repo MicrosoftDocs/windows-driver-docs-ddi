@@ -6,11 +6,8 @@ description: Used by the device driver to serialize IPortableDeviceValues interf
 old-location: wpddk\iwpdserializer.htm
 tech.root: wpd_dk
 ms.assetid: b52a063f-0455-4e49-a355-ea12d68c4835
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IWpdSerializer, IWpdSerializer interface, IWpdSerializer interface,described, IWpdSerializerInterface, portabledevicetypes/IWpdSerializer, wpddk.iwpdserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledevicetypes.h
 req.include-header: 

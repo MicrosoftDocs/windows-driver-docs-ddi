@@ -6,11 +6,8 @@ description: The WskRelease function releases a linked list of WSK_DATA_INDICATI
 old-location: netvista\wskrelease.htm
 tech.root: netvista
 ms.assetid: ef42dfc9-f2f5-4799-b090-8e152a4aafcf
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_RELEASE_DATA_INDICATION_LIST, PFN_WSK_RELEASE_DATA_INDICATION_LIST callback, WskReleaseDataIndicationList, WskReleaseDataIndicationList callback function [Network Drivers Starting with Windows Vista], netvista.wskrelease, wsk/WskReleaseDataIndicationList, wskref_5e5f5aa8-bcd6-426c-a82c-7fde106f6e8d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

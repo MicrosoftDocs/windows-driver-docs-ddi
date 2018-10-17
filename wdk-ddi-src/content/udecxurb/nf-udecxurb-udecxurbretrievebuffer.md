@@ -6,11 +6,8 @@ description: Retrieves the transfer buffer of an URB from the specified framewor
 old-location: buses\udecxurbretrievebuffer.htm
 tech.root: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, udecxurb/UdecxUrbRetrieveBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxurb.h
 req.include-header: Udecx.h

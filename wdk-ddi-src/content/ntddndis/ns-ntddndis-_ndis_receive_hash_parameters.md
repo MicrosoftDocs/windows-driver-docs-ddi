@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_HASH_PARAMETERS structure specifies the receive ha
 old-location: netvista\ndis_receive_hash_parameters.htm
 tech.root: netvista
 ms.assetid: 02c333d3-9ea7-4d24-9e09-32943c00d6a5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_HASH_PARAMETERS, PNDIS_RECEIVE_HASH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_HASH_PARAMETERS, netvista.ndis_receive_hash_parameters, ntddndis/NDIS_RECEIVE_HASH_PARAMETERS, ntddndis/PNDIS_RECEIVE_HASH_PARAMETERS, receive_scaling_structures_ref_80a59146-35c0-44f9-9001-142356cdccdf.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h

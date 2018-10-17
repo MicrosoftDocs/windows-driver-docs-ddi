@@ -6,11 +6,8 @@ description: The port class driver (PortCls) uses the UnregisterPowerControlCall
 old-location: audio\iportclsruntimepower_unregisterpowercontrolcallback.htm
 tech.root: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],UnregisterPowerControlCallback method, IPortClsRuntimePower.UnregisterPowerControlCallback, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE
 author: windows-driver-content
 description: 
 ms.assetid: 4194e064-6ec9-402f-be13-7e6996cb917a
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: This structure represents a RILUICCLOCK.
 old-location: netvista\riluicclock.htm
 tech.root: netvista
 ms.assetid: 634c2177-8e6f-4967-a555-928eb512fce3
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILUICCLOCK, RILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock, rilapitypes/RILUICCLOCK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h

@@ -6,11 +6,8 @@ description: The operator[] overloaded operator returns the typed data in the sp
 old-location: debugger\extremotetyped_operatorarray_ulong.htm
 tech.root: debugger
 ms.assetid: d264f2a1-20fa-4bd3-9db5-f253cc5ad0e6
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](ULONG), ExtRemoteTyped::operator[], ExtRemoteTyped::operator[](ULONG), debugger.extremotetyped_operatorarray_ulong, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

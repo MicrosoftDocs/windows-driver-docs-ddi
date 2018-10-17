@@ -6,11 +6,8 @@ description: The IO_CONTAINER_INFORMATION_CLASS enumeration contains constants t
 old-location: kernel\io_container_information_class.htm
 tech.root: kernel
 ms.assetid: 359ed0d2-91b1-46d1-a358-babe7cb993fb
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerInformationClass, IoSessionStateInformation, _IO_CONTAINER_INFORMATION_CLASS, kernel.io_container_information_class, sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, wdm/IO_CONTAINER_INFORMATION_CLASS, wdm/IoMaxContainerInformationClass, wdm/IoSessionStateInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h

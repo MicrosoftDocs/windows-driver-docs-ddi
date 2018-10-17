@@ -4,11 +4,8 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0040
 author: windows-driver-content
 description: The command list functions for 3D.
 ms.assetid: e2a303e2-7780-4feb-8a65-4535cee8a41a
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0040, D3D12DDI_COMMAND_LIST_FUNCS_3D_0040,
 req.header: d3d12umddi.h
 req.include-header:

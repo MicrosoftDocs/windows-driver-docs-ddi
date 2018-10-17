@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Represents one contiguous buffer in memory.
 tech.root: netvista
 ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET_FRAGMENT, NET_PACKET_FRAGMENT, 
 req.header: netpacket.h
 req.include-header:

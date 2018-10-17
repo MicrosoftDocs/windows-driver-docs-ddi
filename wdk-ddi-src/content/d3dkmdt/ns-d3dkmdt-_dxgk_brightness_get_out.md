@@ -4,11 +4,8 @@ title: _DXGK_BRIGHTNESS_GET_OUT
 author: windows-driver-content
 description: Contains the output parameters for the DxgkBrightnessGet3 callback function.
 ms.assetid: fa213718-aa84-4751-b3a9-767441024a94
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_BRIGHTNESS_GET_OUT, DXGK_BRIGHTNESS_GET_OUT, *PDXGK_BRIGHTNESS_GET_OUT,
 req.header: d3dkmdt.h
 req.include-header:

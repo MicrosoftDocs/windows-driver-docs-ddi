@@ -6,11 +6,8 @@ description: The GetDriver method retrieves the interface to the parent driver o
 old-location: wdf\iwdfdevice_getdriver.htm
 tech.root: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetDriver, GetDriver method, GetDriver method,IWDFDevice interface, IWDFDevice interface,GetDriver method, IWDFDevice.GetDriver, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, umdf.iwdfdevice_getdriver, wdf.iwdfdevice_getdriver, wudfddi/IWDFDevice::GetDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

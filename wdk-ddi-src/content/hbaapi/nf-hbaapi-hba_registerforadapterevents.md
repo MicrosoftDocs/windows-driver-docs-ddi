@@ -6,11 +6,8 @@ description: The HBA_RegisterForAdapterEvents routine registers the indicated us
 old-location: storage\hba_registerforadapterevents.htm
 tech.root: storage
 ms.assetid: b5e671dc-0583-4e5f-b537-3257b3f25479
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HBA_RegisterForAdapterEvents, HBA_RegisterForAdapterEvents routine [Storage Devices], fibreHBA_rtns_8ab64c5b-ffac-4e2a-90db-5f3cbc640f14.xml, hbaapi/HBA_RegisterForAdapterEvents, storage.hba_registerforadapterevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

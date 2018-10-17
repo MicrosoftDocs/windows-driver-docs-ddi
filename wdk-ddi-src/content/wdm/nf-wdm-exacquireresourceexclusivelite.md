@@ -6,11 +6,8 @@ description: The ExAcquireResourceExclusiveLite routine acquires the given resou
 old-location: kernel\exacquireresourceexclusivelite.htm
 tech.root: kernel
 ms.assetid: c7f8a6c5-15d5-4a24-a351-4fa5d6c72fbd
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], k102_894dbc3c-af92-4916-8205-539062946dbe.xml, kernel.exacquireresourceexclusivelite, wdm/ExAcquireResourceExclusiveLite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

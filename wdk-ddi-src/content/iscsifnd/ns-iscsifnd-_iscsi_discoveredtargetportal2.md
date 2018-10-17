@@ -6,11 +6,8 @@ description: The ISCSI_DiscoveredTargetPortal2 structure provides information th
 old-location: storage\iscsi_discoveredtargetportal2.htm
 tech.root: storage
 ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, storage.iscsi_discoveredtargetportal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h

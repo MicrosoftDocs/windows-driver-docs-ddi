@@ -6,11 +6,8 @@ description: The WDF_IO_QUEUE_STATE enumeration contains values that identify th
 old-location: wdf\wdf_io_queue_state_umdf.htm
 tech.root: wdf
 ms.assetid: c91b9ea0-8c42-4199-b161-2b43ba4a1833
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueAcceptRequests, WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, umdf.wdf_io_queue_state, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, wdf.wdf_io_queue_state_umdf, wudfddi/WDF_IO_QUEUE_STATE, wudfddi/WdfIoQueueAcceptRequests, wudfddi/WdfIoQueueDispatchRequests, wudfddi/WdfIoQueueDriverNoRequests, wudfddi/WdfIoQueueNoRequests, wudfddi/WdfIoQueuePnpHeld"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi_types.h
 req.include-header: Wudfddi_types.h

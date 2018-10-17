@@ -6,11 +6,8 @@ description: The KsProcessPinUpdate function is called from within a filter-cent
 old-location: stream\ksprocesspinupdate.htm
 tech.root: stream
 ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, ks/KsProcessPinUpdate, stream.ksprocesspinupdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

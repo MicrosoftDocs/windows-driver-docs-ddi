@@ -6,11 +6,8 @@ description: The IoIsWdmVersionAvailable routine checks whether a given WDM vers
 old-location: kernel\ioiswdmversionavailable.htm
 tech.root: kernel
 ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoIsWdmVersionAvailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, kernel.ioiswdmversionavailable, wdm/IoIsWdmVersionAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -4,11 +4,8 @@ title: PFND3D12DDI_FILLDDITTABLE
 author: windows-driver-content
 description: Implemented by the client driver to retrieve the D3D12DDI_DEVICE_FUNCS_VIDEO structure.
 ms.assetid: af03fe9b-c950-4045-9234-0e8700262854
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

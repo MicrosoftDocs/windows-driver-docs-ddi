@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
 author: windows-driver-content
 description: 
 ms.assetid: e0585202-ba8f-4e9c-b404-02f2417b6e40
-ms.author: windowsdriverdev
 ms.date: 10/05/2018 
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

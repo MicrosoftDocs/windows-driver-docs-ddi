@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtNetAdapterOffloadSetLso callback function is implemented by the client driver to set changes in large send offload (LSO) offload capabilities.
 tech.root: netvista
 ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

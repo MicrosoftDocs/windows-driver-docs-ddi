@@ -6,11 +6,8 @@ description: Gets a count of the number of channels available for the stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelcount.htm
 tech.root: audio
 ms.assetid: D39376D8-CD1D-4E07-8017-0B552A4D2E59
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], GetStreamChannelCount method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelCount method, IMiniportStreamAudioEngineNode.GetStreamChannelCount, IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

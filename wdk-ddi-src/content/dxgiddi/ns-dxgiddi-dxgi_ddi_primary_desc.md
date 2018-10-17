@@ -6,11 +6,8 @@ description: Describes a resource that is used as a primary (that is, a resource
 old-location: display\dxgi_ddi_primary_desc.htm
 tech.root: display
 ms.assetid: eb6db822-c6d3-43d0-91af-49d19189ed83
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGI_DDI_PRIMARY_DESC, DXGI_DDI_PRIMARY_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, display.dxgi_ddi_primary_desc, dxgiddi/DXGI_DDI_PRIMARY_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS
 author: windows-driver-content
 description: Pfnd3dkmtGetprocessschedulingpriorityclass retrieves the scheduling priority for a process.
 ms.assetid: 40923029-966b-4782-9d13-f647ddbc6ec0
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the port number for the network request object. 
 tech.root: netvista
 ms.assetid: edf2d400-bfde-4cec-8164-7908cc008cf2
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: function
 ms.keywords: NetRequestGetPortNumber

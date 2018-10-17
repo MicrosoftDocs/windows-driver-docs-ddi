@@ -6,11 +6,8 @@ description: The GetPosition method gets the current position of the stream.
 old-location: audio\iminiportwavecyclicstream_getposition.htm
 tech.root: audio
 ms.assetid: a0d59215-5201-4e1a-9cb2-d9ff6109c3bb
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetPosition, GetPosition method [Audio Devices], GetPosition method [Audio Devices],IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices],GetPosition method, IMiniportWaveCyclicStream.GetPosition, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, portcls/IMiniportWaveCyclicStream::GetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

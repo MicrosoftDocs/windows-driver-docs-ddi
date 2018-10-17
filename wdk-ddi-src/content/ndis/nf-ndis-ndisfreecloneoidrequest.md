@@ -6,11 +6,8 @@ description: The NdisFreeCloneOidRequest function frees a cloned NDIS_OID_REQUES
 old-location: netvista\ndisfreecloneoidrequest.htm
 tech.root: netvista
 ms.assetid: f610fdf7-5c0e-41e0-994b-6da575541fca
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisFreeCloneOidRequest, NdisFreeCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneOidRequest, ndis_request_ref_450d80e2-3414-4c02-aca1-848c75f824a6.xml, netvista.ndisfreecloneoidrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The MiniportWriteEtwEvent method is used by an audio miniport drive
 old-location: audio\iportclsetwhelper_miniportwriteetwevent.htm
 tech.root: audio
 ms.assetid: 7E0C1140-35AA-424F-8229-21B4F4E1EBDF
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortClsEtwHelper interface [Audio Devices],MiniportWriteEtwEvent method, IPortClsEtwHelper.MiniportWriteEtwEvent, IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], MiniportWriteEtwEvent method [Audio Devices],IPortClsEtwHelper interface, audio.iportclsetwhelper_miniportwriteetwevent, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

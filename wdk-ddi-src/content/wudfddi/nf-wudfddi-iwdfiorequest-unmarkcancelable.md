@@ -6,11 +6,8 @@ description: The UnmarkCancelable method disables the canceling of an I/O reques
 old-location: wdf\iwdfiorequest_unmarkcancelable.htm
 tech.root: wdf
 ms.assetid: 5a3fa72c-241e-4270-92eb-70f135d79871
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest interface,UnmarkCancelable method, IWDFIoRequest.UnmarkCancelable, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable, UnmarkCancelable method, UnmarkCancelable method,IWDFIoRequest interface, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

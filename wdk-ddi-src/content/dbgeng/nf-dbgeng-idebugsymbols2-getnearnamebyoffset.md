@@ -6,11 +6,8 @@ description: The GetNearNameByOffset method returns the name of a symbol that is
 old-location: debugger\getnearnamebyoffset.htm
 tech.root: debugger
 ms.assetid: bcda26ae-484e-41b9-b86a-552b5cecb9a7
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], GetNearNameByOffset method [Windows Debugging],IDebugSymbols interface, GetNearNameByOffset method [Windows Debugging],IDebugSymbols2 interface, GetNearNameByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols2 interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols2.GetNearNameByOffset, IDebugSymbols2::GetNearNameByOffset, IDebugSymbols3 interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols3::GetNearNameByOffset, IDebugSymbols::GetNearNameByOffset, IDebugSymbols_cdd9bec8-6fe8-4523-ac98-df3ce90fd073.xml, dbgeng/IDebugSymbols2::GetNearNameByOffset, dbgeng/IDebugSymbols3::GetNearNameByOffset, dbgeng/IDebugSymbols::GetNearNameByOffset, debugger.getnearnamebyoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

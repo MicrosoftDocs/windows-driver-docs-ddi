@@ -4,11 +4,8 @@ title: PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
 author: windows-driver-content
 description: Check resource virtual address.
 ms.assetid: e54aa0b0-c2ef-44db-9053-3ceeb71cf9a8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

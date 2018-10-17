@@ -6,11 +6,8 @@ description: The CallExtension method calls a debugger extension.
 old-location: debugger\callextension.htm
 tech.root: debugger
 ms.assetid: 0d0f23db-5eef-486a-a393-dd3b37826f48
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: CallExtension, CallExtension method [Windows Debugging], CallExtension method [Windows Debugging],IDebugControl interface, CallExtension method [Windows Debugging],IDebugControl2 interface, CallExtension method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],CallExtension method, IDebugControl.CallExtension, IDebugControl2 interface [Windows Debugging],CallExtension method, IDebugControl2::CallExtension, IDebugControl3 interface [Windows Debugging],CallExtension method, IDebugControl3::CallExtension, IDebugControl::CallExtension, IDebugControl_c37b420a-b94b-4d54-8a5a-2e1a74b49f26.xml, dbgeng/IDebugControl2::CallExtension, dbgeng/IDebugControl3::CallExtension, dbgeng/IDebugControl::CallExtension, debugger.callextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

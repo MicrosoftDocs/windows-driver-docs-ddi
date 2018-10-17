@@ -6,11 +6,8 @@ description: Initializes a UCX_CONTROLLER_CONFIG structure with the specified va
 old-location: buses\_ucx_controller_config_set_pci_info.htm
 tech.root: usbref
 ms.assetid: 493B8E5B-D2CC-453E-8202-69337FAC85ED
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], buses._ucx_controller_config_set_pci_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h

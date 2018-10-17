@@ -6,11 +6,8 @@ description: The VideoPortAcquireSpinLock function obtains the specified spin lo
 old-location: display\videoportacquirespinlock.htm
 tech.root: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

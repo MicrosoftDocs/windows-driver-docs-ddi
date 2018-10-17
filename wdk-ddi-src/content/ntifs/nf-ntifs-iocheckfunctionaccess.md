@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\iocheckfunctionaccess.htm
 tech.root: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ifsk.iocheckfunctionaccess, ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

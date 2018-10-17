@@ -6,11 +6,8 @@ description: The PEP_PPM_QUERY_PLATFORM_STATE structure contains information abo
 old-location: kernel\pep_ppm_query_platform_state.htm
 tech.root: kernel
 ms.assetid: 767F7364-07E4-4B64-AEAE-EEAEEADA5DFE
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_PLATFORM_STATE, PEP_PPM_QUERY_PLATFORM_STATE, PEP_PPM_QUERY_PLATFORM_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PLATFORM_STATE, PPEP_PPM_QUERY_PLATFORM_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PLATFORM_STATE, kernel.pep_ppm_query_platform_state, pepfx/PEP_PPM_QUERY_PLATFORM_STATE, pepfx/PPEP_PPM_QUERY_PLATFORM_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h

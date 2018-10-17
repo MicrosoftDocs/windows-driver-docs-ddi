@@ -6,11 +6,8 @@ description: The NdisInterlockedInsertTailList function inserts an entry, usuall
 old-location: netvista\ndisinterlockedinserttaillist.htm
 tech.root: netvista
 ms.assetid: cc455bb1-3574-4dfb-9462-f2c67632132b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisInterlockedInsertTailList, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertTailList, ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, netvista.ndisinterlockedinserttaillist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

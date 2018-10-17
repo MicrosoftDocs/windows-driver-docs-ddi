@@ -6,11 +6,8 @@ description: The CDROM_OPC_INFO_TYPE enumeration is a member of the CDROM_SIMPLE
 old-location: storage\cdrom_opc_info_type.htm
 tech.root: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], PCDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], SimpleOpcInfo, _CDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, storage.cdrom_opc_info_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

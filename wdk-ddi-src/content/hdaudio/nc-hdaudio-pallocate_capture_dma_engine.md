@@ -6,11 +6,8 @@ description: The AllocateCaptureDmaEngine routine allocates a DMA engine for a c
 old-location: audio\allocatecapturedmaengine.htm
 tech.root: audio
 ms.assetid: 038e52be-04db-41c2-aa19-85bc4eb8bc57
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE callback, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: hdaudio.h
 req.include-header: Hdaudio.h

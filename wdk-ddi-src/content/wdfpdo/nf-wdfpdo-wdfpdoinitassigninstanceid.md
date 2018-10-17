@@ -6,11 +6,8 @@ description: The WdfPdoInitAssignInstanceID method updates the instance ID for a
 old-location: wdf\wdfpdoinitassigninstanceid.htm
 tech.root: wdf
 ms.assetid: f843f8ce-81ee-4b8b-8583-dde3becb5460
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, WdfPdoInitAssignInstanceID, WdfPdoInitAssignInstanceID method, kmdf.wdfpdoinitassigninstanceid, wdf.wdfpdoinitassigninstanceid, wdfpdo/WdfPdoInitAssignInstanceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

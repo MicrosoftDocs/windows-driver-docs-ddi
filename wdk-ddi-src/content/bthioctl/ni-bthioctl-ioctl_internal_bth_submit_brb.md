@@ -6,11 +6,8 @@ description: Profile drivers use IOCTL_INTERNAL_BTH_SUBMIT_BRB to submit a Bluet
 old-location: bltooth\ioctl_internal_bth_submit_brb.htm
 tech.root: bltooth
 ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: BthIoctl.h

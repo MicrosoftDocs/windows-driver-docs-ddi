@@ -6,11 +6,8 @@ description: The IPrintCoreHelperUni::SetFontSubstitution method specifies the d
 old-location: print\iprintcorehelperuni_setfontsubstitution.htm
 tech.root: print
 ms.assetid: 73afb4e9-23c7-473c-937f-045bf5e332f7
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintCoreHelperUni interface [Print Devices],SetFontSubstitution method, IPrintCoreHelperUni.SetFontSubstitution, IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

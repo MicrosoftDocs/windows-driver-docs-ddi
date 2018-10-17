@@ -4,11 +4,8 @@ title: PFND3DKMT_RESETTRACKEDWORKLOAD
 author: windows-driver-content
 description: Resets the tracked workload to its initial state and resets all the rolling statistics.
 ms.assetid: 1c932978-e7b5-4b29-b08f-3ad2d91cbcf1
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

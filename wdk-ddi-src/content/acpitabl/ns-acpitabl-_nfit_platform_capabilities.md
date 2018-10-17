@@ -4,11 +4,8 @@ title: _NFIT_PLATFORM_CAPABILITIES structure
 author: windows-driver-content
 description: Describes the NVDIMM Firmware Interface Table (NFIT) platform capabilities structure. Originally defined in ACPI 6.2 Errata A.
 ms.assetid: 1bf6d972-fd4f-443d-9718-28fe825e7b56
-ms.author: windowsdriverdev
 ms.date: 10/2/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NFIT_PLATFORM_CAPABILITIES, NFIT_PLATFORM_CAPABILITIES, *PNFIT_PLATFORM_CAPABILITIES, 
 req.header: acpitabl.h
 req.include-header:

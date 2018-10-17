@@ -6,11 +6,8 @@ description: The PcRegisterPhysicalConnectionToExternal function registers a phy
 old-location: audio\pcregisterphysicalconnectiontoexternal.htm
 tech.root: audio
 ms.assetid: ffacfd4e-9ceb-477a-8b2f-17d7c590fd81
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices], audio.pcregisterphysicalconnectiontoexternal, audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, portcls/PcRegisterPhysicalConnectionToExternal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

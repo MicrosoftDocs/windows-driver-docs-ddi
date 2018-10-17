@@ -6,11 +6,8 @@ description: The PCEVENT_REQUEST structure specifies an event request.
 old-location: audio\pcevent_request.htm
 tech.root: audio
 ms.assetid: b28bd1c2-9fbe-4427-a4ba-5b79a338e913
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PPCEVENT_REQUEST, PCEVENT_REQUEST, PCEVENT_REQUEST structure [Audio Devices], PPCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], _PCEVENT_REQUEST, audio.pcevent_request, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PCEVENT_REQUEST, portcls/PPCEVENT_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h

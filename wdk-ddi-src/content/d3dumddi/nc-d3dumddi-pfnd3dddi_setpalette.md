@@ -6,11 +6,8 @@ description: The SetPalette function associates a palette with a texture.
 old-location: display\setpalette.htm
 tech.root: display
 ms.assetid: 5d1c8c2d-7886-4876-b48e-1e6b252ae8f7
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETPALETTE, PFND3DDDI_SETPALETTE callback, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

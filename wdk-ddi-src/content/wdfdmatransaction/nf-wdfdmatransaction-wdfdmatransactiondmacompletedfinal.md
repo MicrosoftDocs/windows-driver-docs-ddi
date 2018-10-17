@@ -6,11 +6,8 @@ description: The WdfDmaTransactionDmaCompletedFinal method notifies the framewor
 old-location: wdf\wdfdmatransactiondmacompletedfinal.htm
 tech.root: wdf
 ms.assetid: de16eaf4-11f0-428b-8833-1d1e6ef78853
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml, WdfDmaTransactionDmaCompletedFinal, WdfDmaTransactionDmaCompletedFinal method, kmdf.wdfdmatransactiondmacompletedfinal, wdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
